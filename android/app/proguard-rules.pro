@@ -32,3 +32,6 @@
 # SQLCipher rules
 -keep class net.sqlcipher.** { *; }
 -keep class net.sqlcipher.database.** { *; }
+
+# Keep rules for Google Play Core (to fix R8 release build errors - broader rule)
+-keep class com.google.android.play.** { *; }

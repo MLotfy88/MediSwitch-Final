@@ -1,0 +1,36 @@
+<variant
+    name="release"
+    package="com.example.mediswitch"
+    minSdkVersion="28"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="G:\App\myapps\New\mediswitch\android\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    manifestMergeReport="G:\App\myapps\New\mediswitch\android\build\app\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="G:\App\myapps\New\mediswitch\android\build\app\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.0;G:\App\myapps\setup\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro;G:\App\myapps\New\mediswitch\android\build\app\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.0;proguard-rules.pro"
+    partialResultsDir="G:\App\myapps\New\mediswitch\android\build\app\intermediates\lint_vital_partial_results\release\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="G:\App\myapps\New\mediswitch\android\build\app\intermediates\javac\release\classes;G:\App\myapps\New\mediswitch\android\build\app\tmp\kotlin-classes\release;G:\App\myapps\New\mediswitch\android\build\app\kotlinToolingMetadata;G:\App\myapps\New\mediswitch\android\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.mediswitch"
+      generatedSourceFolders="G:\App\myapps\New\mediswitch\android\build\app\generated\ap_generated_sources\release\out;G:\App\myapps\New\mediswitch\android\build\app\generated\source\buildConfig\release"
+      generatedResourceFolders="G:\App\myapps\New\mediswitch\android\build\app\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\mmlot\.gradle\caches\8.10.2\transforms\c198bdc893d6b6050abbded27c2aa8e6\transformed\D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>
