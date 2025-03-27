@@ -1,0 +1,80 @@
+name: Build Release APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4  # التحديث إلى v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Install Flutter
+        run: |
+          mkdir -p ~/development
+          cd ~/development
+          wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.29.2-stable.tar.xz
+          tar xf flutter_linux_3.29.2-stable.tar.xz
+          echo "$HOME/development/flutter/bin" >> $GITHUB_PATH
+
+      - name: Install Android SDK
+        run: |
+          mkdir -p $ANDROID_HOME/cmdline-tools
+          cd $ANDROID_HOME/cmdline-tools
+          wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
+          unzip commandlinetools-linux-9477386_latest.zip
+          mv cmdline-tools latest
+          rm commandlinetools-linux-9477386_latest.zip
+
+      - name: Accept Android Licenses
+        run: |
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+
+      - name: Install Android Components
+        run: |
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
+            "platforms;android-28" \
+            "platforms;android-29" \
+            "platforms;android-31" \
+            "platforms;android-33" \
+            "platforms;android-34" \
+            "platforms;android-35" \
+            "build-tools;30.0.3" \
+            "build-tools;33.0.1" \
+            "build-tools;34.0.0" \
+            "build-tools;36.0.0" \
+            "cmake;3.22.1" \
+            "ndk;25.1.8937393" \
+            "ndk;27.0.12077973"
+
+      - name: Setup Gradle
+        run: |
+          wget https://services.gradle.org/distributions/gradle-8.10.2-bin.zip
+          unzip gradle-8.10.2-bin.zip -d /opt/
+          echo "/opt/gradle-8.10.2/bin" >> $GITHUB_PATH
+
+      - name: Run Flutter Doctor
+        run: flutter doctor -v
+
+      - name: Build APK
+        run: |
+          flutter pub get
+          flutter build apk --release --target-platform android-arm64
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4  # التحديث إلى v4
+        with:
+          name: release-apk
+          path: build/app/outputs/apk/release/app-release.apk
+          retention-days: 5
