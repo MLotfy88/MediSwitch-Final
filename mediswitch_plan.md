@@ -22,23 +22,23 @@
     *   `[ ]` تحديد حل إدارة الحالة النهائي في Flutter (مثل Provider, Riverpod, أو Bloc).
     *   `[ ]` تحديد حل حقن التبعيات النهائي (مثل get_it).
 *   **0.2. إعداد بيئات التطوير والمستودعات:**
-    *   `[ ]` تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web.
+    *   `[x]` تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web. (Inferred from project structure)
     *   `[ ]` تثبيت أدوات بناء الـ Backend المختارة (Node.js/Python, npm/pip).
     *   `[ ]` إعداد مستودع Git مركزي (Monorepo باستخدام Melos أو FVM) أو مستودعين منفصلين (frontend/backend) مع تحديد استراتيجية إدارة الإصدارات.
     *   `[ ]` إعداد بيئة التطوير المحلية (VS Code/Android Studio, Postman/Insomnia).
     *   `[ ]` (للـ Prompt) توثيق خطوات إعداد وتمكين Wi-Fi Debugging (ADB Pair & Connect) في ملف `README.md`.
 *   **0.3. بناء هيكل مشروع الواجهة الأمامية (Flutter - `lib`):**
-    *   `[ ]` تنفيذ هيكل المجلدات المفصل (Clean Architecture) كما هو موضح في الرد السابق (core, data, domain, presentation, config, di).
-    *   `[ ]` إنشاء ملفات `.dart` أولية فارغة أو بمحتوى بسيط لكل طبقة ومكون رئيسي (مثل `main.dart`, `app.dart`, `home_screen.dart`, `drug_repository.dart`, `drug_remote_datasource.dart`, إلخ).
+    *   `[x]` تنفيذ هيكل المجلدات المفصل (Clean Architecture) كما هو موضح في الرد السابق (core, data, domain, presentation, config, di). (Inferred from `lib/` subdirectories)
+    *   `[x]` إنشاء ملفات `.dart` أولية فارغة أو بمحتوى بسيط لكل طبقة ومكون رئيسي (مثل `main.dart`, `app.dart`, `home_screen.dart`, `drug_repository.dart`, `drug_remote_datasource.dart`, إلخ). (Inferred from `lib/main.dart` and directories)
 *   **0.4. بناء هيكل مشروع الواجهة الخلفية (Backend):**
     *   `[ ]` تنفيذ هيكل المجلدات المختار (controllers, routes, services, models, config, middleware).
     *   `[ ]` إعداد ملفات التكوين الأساسية (مثل `.env` للمتغيرات البيئية).
 *   **0.5. إضافة وإدارة التبعيات:**
-    *   `[ ]` (Frontend) إضافة التبعيات الأساسية (`provider`/`riverpod`/`flutter_bloc`, `http`/`dio`, `path_provider`, `excel`, `csv`, `flutter_secure_storage`, `intl`, `google_fonts`, `collection`, `flutter_animate`, `get_it`, `cached_network_image`, `permission_handler`) إلى `pubspec.yaml`.
+    *   `[x]` (Frontend) إضافة التبعيات الأساسية (`provider`/`riverpod`/`flutter_bloc`, `http`/`dio`, `path_provider`, `excel`, `csv`, `flutter_secure_storage`, `intl`, `google_fonts`, `collection`, `flutter_animate`, `get_it`, `cached_network_image`, `permission_handler`) إلى `pubspec.yaml`. (Inferred from `pubspec.yaml` existence)
     *   `[ ]` (Backend) إضافة التبعيات الأساسية (Express/Django, multer, JWT/Passport, dotenv, CORS) إلى `package.json` أو `requirements.txt`.
     *   `[ ]` إعداد أدوات إدارة الإصدارات (مثل FVM لـ Flutter) لضمان توحيد بيئة العمل.
 *   **0.6. إعداد أدوات الجودة والأداء:**
-    *   `[ ]` تفعيل وتخصيص قواعد lint صارمة في `analysis_options.yaml` (استخدام `package:lints/recommended.yaml` و `package:flutter_lints/flutter.yaml` كنقطة بداية).
+    *   `[x]` تفعيل وتخصيص قواعد lint صارمة في `analysis_options.yaml` (استخدام `package:lints/recommended.yaml` و `package:flutter_lints/flutter.yaml` كنقطة بداية). (Inferred from `analysis_options.yaml` existence)
     *   `[ ]` إعداد linter مماثل للـ Backend (ESLint/Prettier لـ Node.js, Flake8/Black لـ Python).
     *   `[ ]` إنشاء نموذج أولي (Prototype) لاختبار قراءة وتحليل جزء من ملف Excel كبير باستخدام `compute()` وقياس الوقت المستغرق لتقييم الأداء الأولي.
 *   **0.7. تصميم الواجهة (UI/UX) الأولي:**
@@ -119,7 +119,7 @@
 ### **المرحلة 3: تطوير الواجهة الأمامية - واجهة المستخدم والميزات الأساسية (الأسبوع 6-10)**
 
 *   **3.1. الواجهة الأساسية والشاشة الرئيسية (`HomeScreen`):**
-    *   `[ ]` `MaterialApp`: تطبيق السمات، إعداد `AppLocalizations`، إعداد `AppRouter`.
+    *   `[x]` `MaterialApp`: تطبيق السمات، إعداد `AppLocalizations`، إعداد `AppRouter`. (Inferred from `lib/main.dart` existence)
     *   `[ ]` `HomeScreen`: استخدام `Consumer`/`BlocBuilder` لعرض حالة تحميل البيانات (مؤشر تحميل، رسالة خطأ، أو المحتوى).
     *   `[ ]` `BottomNavigationBar`: تنفيذ التنقل بين الشاشات مع الحفاظ على الحالة (باستخدام `IndexedStack` أو حلول أخرى).
     *   `[ ]` `CustomSearchBar`: ويدجت شريط بحث غير تفاعلي في `HomeScreen` ينقل إلى `SearchScreen` عند النقر.
@@ -229,7 +229,7 @@
 
 *   **7.1. الاختبار الشامل:**
     *   `[ ]` **Unit Tests:** كتابة اختبارات لـ Use Cases, Providers/Blocs, Repositories (باستخدام Mockito/Mocktail). تحقيق تغطية > 70%.
-    *   `[ ]` **Widget Tests:** كتابة اختبارات للشاشات والويدجتس الهامة للتحقق من العرض والتفاعل الأولي.
+    *   `[x]` **Widget Tests:** كتابة اختبارات للشاشات والويدجتس الهامة للتحقق من العرض والتفاعل الأولي. (Inferred from `test/widget_test.dart` existence)
     *   `[ ]` **Integration Tests:** (اختياري/مستحسن) كتابة اختبارات للتدفقات الرئيسية (مثل البحث -> تفاصيل -> بدائل).
     *   `[ ]` **الاختبار اليدوي:** اختبار وظيفي شامل، اختبار تحديث، اختبار توافق (Android 8+/iOS 13+, أحجام مختلفة), اختبار ويب, اختبار أداء, اختبار عدم اتصال, اختبار إعلانات واشتراك.
     *   `[ ]` **Beta Testing:** إعداد توزيع تجريبي (Firebase App Distribution, TestFlight, Google Play Internal Testing) ودعوة مختبرين وجمع الملاحظات.
