@@ -16,6 +16,16 @@ pluginManagement {
     }
 }
 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // استخدام مسارات Unix بدلًا من Windows
+        maven { url '/usr/local/flutter/.pub-cache/hosted/pub.dartlang.org' }
+    }
+}
+
 plugins {
     id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
     id 'com.android.application' version '8.1.0' apply false
