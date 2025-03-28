@@ -36,11 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   # sqflite_sqlcipher: ^2.2.1  # Removed: Using CSV directly
   # path_provider: ^2.1.2  # Removed: Not needed without local DB file
-  provider: ^6.1.2  # لإدارة الحالة
-  shared_preferences: ^2.2.2  # لتخزين الإعدادات
+  provider: ^6.1.4  # لإدارة الحالة
+  shared_preferences: ^2.5.3  # لتخزين الإعدادات
   # flutter_secure_storage: ^9.0.0  # Removed: Not needed without encryption key
   csv: ^5.1.1  # للتعامل مع ملفات CSV
-  file_picker: ^9.2.1  # لاختيار الملفات (May still be needed for future updates?)
+  file_picker: ^9.2.3  # لاختيار الملفات (May still be needed for future updates?)
 
 dev_dependencies:
   flutter_test:
