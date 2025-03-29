@@ -23,5 +23,7 @@
     },
     "forwardPorts": [8080, 8000, 3000],
     "postCreateCommand": "flutter pub get",
-    "remoteUser": "gitpod"
+    "remoteUser": "root",
+    "updateRemoteUserUID": true,
+    "containerUser": "root"
 }
