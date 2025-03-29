@@ -22,21 +22,42 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
+      # Add step to verify Java installation
+      - name: Verify Java Installation
+        run: |
+          echo "JAVA_HOME=$JAVA_HOME"
+          java -version
+          echo "which java: $(which java)"
+
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
           cache: true
 
+      # Add step to update Gradle properties
+      - name: Update Gradle Properties
+        run: |
+          mkdir -p android/gradle/wrapper
+          echo "org.gradle.java.home=$JAVA_HOME" >> android/gradle.properties
+          echo "distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-all.zip" >> android/gradle/wrapper/gradle-wrapper.properties
+
       - name: Get Flutter dependencies
         run: flutter pub get
 
+      # Add step to show Gradle version
+      - name: Show Gradle Version
+        working-directory: android
+        run: ./gradlew --version
+
       - name: Build APK
-        run: flutter build apk --release
+        run: |
+          flutter clean
+          flutter build apk --release --verbose
 
       - name: Upload APK Artifact
-        uses: actions/upload-artifact@v4  # Updated from v3 to v4
+        uses: actions/upload-artifact@v4
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 5  # Optional: specify how long to keep the artifact
+          retention-days: 5
