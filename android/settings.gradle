@@ -1,37 +1,49 @@
-// android/settings.gradle (الكود المعدل)
+// android/settings.gradle (الكود المعدل مرة أخرى)
 
 pluginManagement {
-    // تم حذف الكود الخاص بقراءة local.properties و flutter.sdk لأنه غير موثوق في CI
-    // تم حذف includeBuild(...) الذي كان يعتمد عليه
+    // *** الخطوة 1: الحصول على مسار Flutter SDK من متغير البيئة ***
+    def flutterSdkRoot = System.getenv('FLUTTER_ROOT')
+    // كإجراء احتياطي (مفيد للتطوير المحلي)، حاول القراءة من local.properties إذا لم يتم تعيين متغير البيئة
+    if (flutterSdkRoot == null) {
+        def localProperties = new Properties()
+        def localPropertiesFile = new File(rootProject.projectDir, 'local.properties')
+        if (localPropertiesFile.exists()) {
+            localPropertiesFile.withReader('UTF-8') { reader ->
+                localProperties.load(reader)
+            }
+            flutterSdkRoot = localProperties.getProperty('flutter.sdk')
+        }
+    }
+    // تأكد من العثور على المسار بطريقة أو بأخرى
+    assert flutterSdkRoot != null, "Flutter SDK path not found. Define FLUTTER_ROOT environment variable or flutter.sdk in local.properties."
 
+    // *** الخطوة 2: إعادة إضافة includeBuild باستخدام المسار الذي تم العثور عليه ***
+    // هذا يخبر Gradle بمكان العثور على إضافات Flutter
+    includeBuild("${flutterSdkRoot}/packages/flutter_tools/gradle")
+
+    // المستودعات لإضافات Gradle الأخرى (غير الخاصة بـ Flutter)
     repositories {
         google()
         mavenCentral()
-        gradlePluginPortal() // مستودع لإضافات Gradle نفسها
+        gradlePluginPortal()
     }
 }
 
 plugins {
-    // إضافة Flutter لتحميل الإضافات تلقائيًا
+    // الآن يجب أن يتم العثور على هذه الإضافة بفضل includeBuild أعلاه
     id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
-    // تعريف إصدارات الإضافات الرئيسية ليتم تطبيقها لاحقًا في ملفات build.gradle
-    // تأكد من أن هذه الإصدارات متوافقة مع إصدار Gradle لديك (8.10.2)
     id 'com.android.application' version '8.1.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.22' apply false // تأكد من توافق إصدار Kotlin
+    id 'org.jetbrains.kotlin.android' version '1.8.22' apply false
 }
 
 dependencyResolutionManagement {
-    // *** تم التغيير هنا للسماح لإضافة Flutter بإضافة مستودعاتها ***
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
-        google()    // مستودع Google لمكتبات Android و Firebase وغيرها
-        mavenCentral() // المستودع المركزي للمكتبات
-        // تم حذف مسار .pub-cache لأنه غير قياسي وغير ضروري غالبًا
+        google()
+        mavenCentral()
     }
 }
 
-// تضمين وحدة التطبيق الرئيسية
 include ':app'
 
-// تم حذف الكود اليدوي لقراءة .flutter-plugins و .flutter-plugins-dependencies
-// لأن الإضافة 'dev.flutter.flutter-plugin-loader' يجب أن تتعامل مع هذا تلقائيًا.
+// لا حاجة للكود اليدوي في النهاية
