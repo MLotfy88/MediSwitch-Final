@@ -1,25 +1,33 @@
-// android/build.gradle (بعد التعديل)
+// android/build.gradle (مع التأكد من وجود buildscript صحيح)
 
 buildscript {
-    ext {
-        kotlin_version = "1.8.22"
-        // تم حذف flutterRoot من هنا لأنه مسار ثابت لنظام Windows ولن يعمل في CI
-    }
-    // تم حذف repositories { ... } من هنا
+    // تعريف المتغيرات لتسهيل التحديث
+    // تأكد من توافق إصدار AGP مع Gradle 8.10.2 (راجع وثائق Android)
+    // AGP 8.1.x, 8.2.x, 8.3.x, 8.4.x يجب أن تكون متوافقة. لنستخدم 8.1.0.
+    ext.agp_version = '8.1.0'
+    ext.kotlin_version = "1.8.22" // نفس الإصدار المستخدم سابقًا
 
-    // تأكد من وجود قسم dependencies هنا إذا كان مطلوبًا للمشروع
-    // (عادة يحتوي على classpath 'com.android.tools.build:gradle:...' و classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:...')
+    // *** المستودعات للعثور على إضافات Gradle ***
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    // *** التبعيات التي تحتاجها إضافات Gradle نفسها ***
     dependencies {
-        // مثال (قد تحتاج لإضافة هذه الأسطر إذا لم تكن موجودة):
-        // classpath 'com.android.tools.build:gradle:8.1.0' // استخدم الإصدار المناسب لمشروعك
-        // classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // أضف أي تبعيات classpath أخرى إذا كان مشروعك يحتاجها
     }
 }
 
+// كتلة allprojects يمكن أن تظل موجودة لضبط إعدادات عامة للمشاريع الفرعية
+// ولكن **لا** تضع repositories بداخلها هنا، للسماح لـ Flutter بالتحكم
 allprojects {
-    // تم حذف repositories { ... } من هنا
+    // على سبيل المثال، يمكنك إضافة configurations هنا
 }
 
+// إعدادات أخرى (مثل clean, rootProject.buildDir, subprojects) تظل كما كانت
 subprojects {
     project.buildDir = new File(rootProject.buildDir, "${project.name}")
     project.evaluationDependsOn(':app')
