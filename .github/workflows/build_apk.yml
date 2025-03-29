@@ -66,10 +66,21 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: Get Flutter dependencies
-        run: flutter pub get
+      # NEW: Initialize Flutter project properly
+      - name: Initialize Flutter
+        run: |
+          flutter pub get
+          flutter clean
+          cd android
+          ./gradlew clean
+          cd ..
+          # Ensure the .dart_tool directory exists
+          mkdir -p .dart_tool
+          flutter pub get --verbose
+          # Generate plugin registrant
+          flutter pub run build_runner build --delete-conflicting-outputs || true
 
-      # Create debug keystore
+      # Create debug keystore (keeping this from previous solution)
       - name: Setup Debug Keystore
         run: |
           mkdir -p ~/.android
@@ -91,20 +102,21 @@ jobs:
           echo "JAVA_HOME = $JAVA_HOME"
           ls -la $ANDROID_SDK_ROOT/ndk
           which cmake
+          echo "Flutter directory structure:"
+          ls -la
+          ls -la .dart_tool || echo ".dart_tool not found"
 
-      # Build with gradle first, then flutter
+      # Build with proper initialization
       - name: Build APK
         env:
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
         run: |
-          flutter clean
-          cd android
-          # Clear Gradle cache
-          rm -rf ~/.gradle/caches/
-          ./gradlew clean
-          ./gradlew assembleRelease --no-daemon --stacktrace
-          cd ..
-          flutter build apk --release
+          # Ensure we're in the right directory
+          pwd
+          # Show project structure
+          ls -la
+          # Build APK
+          flutter build apk --release --verbose
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
