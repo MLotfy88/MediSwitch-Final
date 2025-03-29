@@ -2,10 +2,8 @@ name: Build Android APK
 run-name: Build by MLotfy88 at ${{ env.BUILD_TIMESTAMP }}
 
 env:
-  BUILD_TIMESTAMP: "2025-03-29 14:04:51"
+  BUILD_TIMESTAMP: "2025-03-29 14:08:12"
   CURRENT_USER: "MLotfy88"
-  FLUTTER_ROOT: ${{ secrets.FLUTTER_ROOT }}
-  ANDROID_SDK_ROOT: ${{ secrets.ANDROID_SDK_ROOT }}
   JAVA_HOME: /usr/lib/jvm/temurin-17-jdk
 
 on:
@@ -31,6 +29,9 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           
+      - name: Verify Java Installation
+        run: java -version
+          
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.29.2'
@@ -38,8 +39,8 @@ jobs:
           
       - name: Configure Local Properties
         run: |
-          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
-          echo "sdk.dir=$ANDROID_SDK_ROOT" >> android/local.properties
+          echo "flutter.sdk=${{ secrets.FLUTTER_ROOT }}" > android/local.properties
+          echo "sdk.dir=${{ secrets.ANDROID_SDK_ROOT }}" >> android/local.properties
 
       - name: Update Gradle Files
         run: |
@@ -136,9 +137,9 @@ jobs:
           flutter pub get
           cd android
           chmod +x gradlew
-          ./gradlew clean
+          ./gradlew clean --stacktrace --info
           cd ..
-          flutter build apk --release
+          flutter build apk --release --verbose
 
       - uses: actions/upload-artifact@v4
         with:
