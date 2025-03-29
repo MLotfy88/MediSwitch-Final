@@ -1,4 +1,4 @@
-// android/settings.gradle (إعادة التبسيط)
+// android/settings.gradle (محاولة استخدام flatDir)
 
 pluginManagement {
     def flutterSdkRoot = System.getenv('FLUTTER_ROOT')
@@ -14,7 +14,6 @@ pluginManagement {
     }
     assert flutterSdkRoot != null, "Flutter SDK path not found. Define FLUTTER_ROOT environment variable or flutter.sdk in local.properties."
 
-    // هذا السطر مهم لتضمين أدوات بناء Flutter
     includeBuild("${flutterSdkRoot}/packages/flutter_tools/gradle")
 
     repositories {
@@ -33,10 +32,34 @@ plugins {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
+        // *** محاولة إضافة مستودع Flutter المحلي باستخدام flatDir ***
+        def flutterSdkRoot = System.getenv('FLUTTER_ROOT') // أعد الحصول على المسار
+         if (flutterSdkRoot == null) {
+             def localProperties = new Properties()
+             def localPropertiesFile = new File(rootProject.projectDir, 'local.properties')
+             if (localPropertiesFile.exists()) {
+                 localPropertiesFile.withReader('UTF-8') { reader ->
+                     localProperties.load(reader)
+                 }
+                 flutterSdkRoot = localProperties.getProperty('flutter.sdk')
+             }
+         }
+        if (flutterSdkRoot != null) {
+             // flatDir يبحث مباشرة عن ملفات JAR/AAR في المجلد المحدد
+             flatDir {
+                 // المجلد الذي يحتوي على ملفات بناء android-arm64-release
+                 dirs "${flutterSdkRoot}/bin/cache/artifacts/engine/android-arm64-release"
+                 // يمكنك إضافة مسارات لمعماريات أخرى إذا لزم الأمر
+                 // dirs "${flutterSdkRoot}/bin/cache/artifacts/engine/android-x64-release"
+             }
+        } else {
+             println "Warning: FLUTTER_ROOT not found. Local Flutter dependencies may not be resolved."
+        }
+        // *******************************************************
+
+        // المستودعات القياسية (يفضل وضعها بعد flatDir)
         google()
         mavenCentral()
-        // *** تم حذف الإضافة اليدوية لمستودع Flutter المحلي من هنا ***
-        // سنعتمد على includeBuild والإضافة في app/build.gradle للتعامل مع هذا
     }
 }
 
