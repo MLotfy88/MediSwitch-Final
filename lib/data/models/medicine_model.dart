@@ -1,4 +1,4 @@
-class Medicine {
+class MedicineModel {
   final String tradeName;
   final String arabicName;
   final String oldPrice;
@@ -16,11 +16,11 @@ class Medicine {
   final String usageAr;
   final String description;
   final String lastPriceUpdate;
-  
+
   // معرف اختياري للاستخدام مع قاعدة البيانات
   final int? id;
 
-  Medicine({
+  MedicineModel({
     required this.tradeName,
     required this.arabicName,
     required this.oldPrice,
@@ -41,8 +41,8 @@ class Medicine {
     this.id,
   });
 
-  factory Medicine.fromCsv(List<dynamic> row) {
-    return Medicine(
+  factory MedicineModel.fromCsv(List<dynamic> row) {
+    return MedicineModel(
       tradeName: row[0] ?? '',
       arabicName: row[1] ?? '',
       oldPrice: row[2] ?? '',
@@ -85,10 +85,10 @@ class Medicine {
       'lastPriceUpdate': lastPriceUpdate,
     };
   }
-  
+
   // إنشاء نموذج من Map من قاعدة البيانات
-  factory Medicine.fromMap(Map<String, dynamic> map) {
-    return Medicine(
+  factory MedicineModel.fromMap(Map<String, dynamic> map) {
+    return MedicineModel(
       id: map['id'],
       tradeName: map['tradeName'] ?? '',
       arabicName: map['arabicName'] ?? '',
