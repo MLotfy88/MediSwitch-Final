@@ -111,7 +111,8 @@
       ],
       "cmakeToolchainFile": "G:\\App\\myapps\\setup\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
       "cmake": {
-        "cmakeExe": "G:\\App\\myapps\\setup\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe"
+        "cmakeExe": "G:\\App\\myapps\\setup\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe",
+        "cmakeDirFromPropertiesFile": "G:\\App\\myapps\\setup\\Android\\Sdk\\cmake\\3.22.1"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {

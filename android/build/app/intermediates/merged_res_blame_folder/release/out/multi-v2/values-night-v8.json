@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-40:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-39:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "G:\\App\\myapps\\New\\mediswitch\\android\\app\\src\\main\\res\\values-night\\styles.xml",

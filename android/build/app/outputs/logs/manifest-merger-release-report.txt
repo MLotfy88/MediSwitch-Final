@@ -14,8 +14,6 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mmlot\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\82207caf1b4289dbd8cd3f624695e984\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\90361d8e3419f526f7e13cccd95c9330\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\90361d8e3419f526f7e13cccd95c9330\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
-MERGED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
 	android:extractNativeLibs
 		INJECTED from G:\App\myapps\New\mediswitch\android\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
@@ -86,7 +84,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mmlot\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\6c624c5909da7993a9ba5e52b422d338\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\85baf36bdca6396e02a2a91a36c803e9\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\47650a9f50fec51bd82bb08df823bd76\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:2:1-46:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\5ae6619e7aa98943954d530d6f076672\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from G:\App\myapps\New\mediswitch\android\app\src\main\AndroidManifest.xml
@@ -274,8 +271,6 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\mmlot\.gradle\caches\8.10.2\tr
 MERGED from [androidx.print:print:1.0.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\85baf36bdca6396e02a2a91a36c803e9\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\47650a9f50fec51bd82bb08df823bd76\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\47650a9f50fec51bd82bb08df823bd76\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\5ae6619e7aa98943954d530d6f076672\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\5ae6619e7aa98943954d530d6f076672\transformed\jetified-relinker-1.4.5\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
@@ -382,53 +377,3 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fa000eb9cf7db150ef21d2515b855c84\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fa000eb9cf7db150ef21d2515b855c84\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:22-74
-activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
-	android:process
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
-	android:enabled
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
-	android:stateNotNeeded
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
-	android:launchMode
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
-	android:exported
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
-activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
-	android:stateNotNeeded
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
-	android:exported
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
-	android:theme
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
-service#com.google.android.play.core.assetpacks.AssetPackExtractionService
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
-	android:enabled
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
-	android:exported
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
-meta-data#com.google.android.play.core.assetpacks.versionCode
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
-	android:value
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
-service#com.google.android.play.core.assetpacks.ExtractionForegroundService
-ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
-	android:enabled
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
-	android:exported
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from [com.google.android.play:core:1.10.3] C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fffcc540c6a548df5974967346996ecc\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95

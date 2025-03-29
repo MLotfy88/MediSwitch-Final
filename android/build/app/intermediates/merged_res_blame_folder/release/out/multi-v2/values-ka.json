@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-40:/values-ka/values-ka.xml",
+            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-39:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\106830c062a022eba33afd0c7012d672\\transformed\\core-1.13.1\\res\\values-ka\\values-ka.xml",

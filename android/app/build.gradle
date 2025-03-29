@@ -10,13 +10,6 @@ android {
     compileSdk 35 // Reverted back to 35 as required by plugins
     // ndkVersion '27.0.12077973' // Removed specific NDK version
 
-    buildTypes {
-        release {
-            // أضف هذه القاعدة
-            project.setProperty("org.gradle.internal.http.redirect", "all")
-        }
-    }
-    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -53,10 +46,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-}
-
-dependencies {
-    implementation 'com.google.android.play:core:1.10.3' // Explicitly add Play Core library
 }
 
 flutter {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mr.flutter.plugin.filepicker.file_picker-mergeReleaseResources-23:/values/values.xml",
+            "outputFile": "com.mr.flutter.plugin.filepicker.file_picker-mergeReleaseResources-21:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\94a34f1d0b4cc5f48fb155a9406aff5d\\transformed\\lifecycle-runtime-2.7.0\\res\\values\\values.xml",
@@ -148,7 +148,7 @@
             ]
         },
         {
-            "outputFile": "com.mr.flutter.plugin.filepicker.file_picker-merged_res-25:/values/values.xml",
+            "outputFile": "com.mr.flutter.plugin.filepicker.file_picker-merged_res-23:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\94a34f1d0b4cc5f48fb155a9406aff5d\\transformed\\lifecycle-runtime-2.7.0\\res\\values\\values.xml",

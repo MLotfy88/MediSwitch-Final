@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-40:/values/values.xml",
+            "outputFile": "io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-36:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\f408b6b4044d28a379df6387cb731b41\\transformed\\fragment-1.7.1\\res\\values\\values.xml",
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "outputFile": "io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-38:/values/values.xml",
+            "outputFile": "io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-38:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\f408b6b4044d28a379df6387cb731b41\\transformed\\fragment-1.7.1\\res\\values\\values.xml",
