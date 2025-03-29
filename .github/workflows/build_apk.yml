@@ -22,13 +22,28 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # Update Gradle version first
+      # Verify Java installation and environment
+      - name: Verify Java Installation
+        run: |
+          echo "JAVA_HOME=$JAVA_HOME"
+          java -version
+          echo "which java: $(which java)"
+
+      # Update Gradle version and permissions
       - name: Update Gradle Wrapper
         run: |
           cd android
           chmod +x ./gradlew
           echo "distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-all.zip" > gradle/wrapper/gradle-wrapper.properties
           ./gradlew wrapper --gradle-version 8.2
+
+      # Update Gradle properties to use correct JAVA_HOME
+      - name: Update Gradle Properties
+        run: |
+          echo "org.gradle.java.home=${JAVA_HOME}" > android/gradle.properties
+          echo "org.gradle.jvmargs=-Xmx1536M" >> android/gradle.properties
+          echo "android.useAndroidX=true" >> android/gradle.properties
+          echo "android.enableJetifier=true" >> android/gradle.properties
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -39,15 +54,23 @@ jobs:
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # Verify Gradle version
-      - name: Verify Gradle Version
+      # Verify Gradle setup
+      - name: Verify Gradle Setup
         working-directory: android
-        run: ./gradlew --version
+        run: |
+          echo "Gradle Properties Content:"
+          cat gradle.properties
+          echo "Gradle Wrapper Properties:"
+          cat gradle/wrapper/gradle-wrapper.properties
+          echo "Gradle Version:"
+          ./gradlew --version
 
       - name: Build APK
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME }}
         run: |
           flutter clean
-          flutter build apk --release
+          flutter build apk --release --verbose
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
