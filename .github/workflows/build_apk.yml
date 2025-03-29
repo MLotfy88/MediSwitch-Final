@@ -1,10 +1,9 @@
 name: Build Android APK
-run-name: Build by MLotfy88 at 2025-03-29 13:51:35
+run-name: Build ${{ github.sha }} by MLotfy88
 
 env:
-  CURRENT_DATETIME: "2025-03-29 13:51:35"
-  CURRENT_USER: "MLotfy88"
-  FLUTTER_ROOT: "/opt/hostedtoolcache/flutter/stable-3.29.2-x64"
+  BUILD_TIMESTAMP: "2025-03-29 13:54:10"
+  BUILDER: "MLotfy88"
 
 on:
   push:
@@ -15,128 +14,52 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v4
       
-      - uses: actions/setup-java@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
           
-      - uses: subosito/flutter-action@v2
+      - name: Verify Java Installation
+        run: |
+          java -version
+          echo "JAVA_HOME=$JAVA_HOME"
+          
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.29.2'
           channel: 'stable'
           
-      - name: Update Gradle Files
+      - name: Configure Gradle
         run: |
-          # تحديث settings.gradle
-          cat << EOF > android/settings.gradle
-          pluginManagement {
-              repositories {
-                  gradlePluginPortal()
-                  google()
-                  mavenCentral()
-              }
-          }
-
-          dependencyResolutionManagement {
-              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-          }
-
-          include ':app'
-          EOF
+          # Update gradle.properties
+          mkdir -p ~/.gradle
+          echo "org.gradle.jvmargs=-Xmx4g" > ~/.gradle/gradle.properties
+          echo "android.useAndroidX=true" >> ~/.gradle/gradle.properties
+          echo "android.enableJetifier=true" >> ~/.gradle/gradle.properties
           
-          # تحديث build.gradle
-          cat << EOF > android/build.gradle
-          buildscript {
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-              dependencies {
-                  classpath 'com.android.tools.build:gradle:7.3.0'
-                  classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
-              }
-          }
-
-          allprojects {
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-          }
-          EOF
-          
-          # تحديث app/build.gradle
-          cat << EOF > android/app/build.gradle
-          def localProperties = new Properties()
-          def localPropertiesFile = rootProject.file('local.properties')
-          if (localPropertiesFile.exists()) {
-              localPropertiesFile.withReader('UTF-8') { reader ->
-                  localProperties.load(reader)
-              }
-          }
-
-          def flutterRoot = localProperties.getProperty('flutter.sdk')
-          if (flutterRoot == null) {
-              throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-          }
-
-          plugins {
-              id 'com.android.application'
-              id 'kotlin-android'
-              id 'dev.flutter.flutter-gradle-plugin'
-          }
-
-          android {
-              namespace "com.example.mediswitch"
-              compileSdkVersion 33
-              
-              defaultConfig {
-                  applicationId "com.example.mediswitch"
-                  minSdkVersion 21
-                  targetSdkVersion 33
-                  versionCode 1
-                  versionName "1.0"
-              }
-
-              buildTypes {
-                  release {
-                      signingConfig signingConfigs.debug
-                  }
-              }
-          }
-
-          flutter {
-              source '../..'
-          }
-          EOF
-
-          # تحديث local.properties
-          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
-          echo "sdk.dir=$ANDROID_HOME" >> android/local.properties
+          cd android
+          chmod +x gradlew
+          ./gradlew wrapper
+          cd ..
 
       - name: Build APK
         run: |
           flutter clean
           flutter pub get
-          cd android
-          chmod +x gradlew
-          ./gradlew clean
-          cd ..
           flutter build apk --release
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
-          name: release-apk
+          name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
