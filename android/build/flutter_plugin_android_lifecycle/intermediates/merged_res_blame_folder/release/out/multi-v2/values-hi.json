@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-23:/values-hi/values-hi.xml",
+            "outputFile": "io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-21:/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\106830c062a022eba33afd0c7012d672\\transformed\\core-1.13.1\\res\\values-hi\\values-hi.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-25:/values-hi/values-hi.xml",
+            "outputFile": "io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-23:/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\106830c062a022eba33afd0c7012d672\\transformed\\core-1.13.1\\res\\values-hi\\values-hi.xml",

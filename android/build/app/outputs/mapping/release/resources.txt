@@ -177,8 +177,8 @@ callerContext
 DISMISS
 valueCase_
 app_flutter
-java.lang.Integer
 kRepeat
+java.lang.Integer
 miguelruivo.flutter.plugins.filepicker
 android:fade:transitionAlpha
 FlutterFragmentActivity
@@ -187,26 +187,19 @@ preferences_pb
 android.speech.extra.RESULTS_PENDINGI...
 pigeonVar_list
 KeyData
-com.google.android.finsky.BIND_IN_APP...
 GeneratedPluginsRegister
 java.lang.CharSequence
 click
 0
-1
-2
-3
 ACTION_PRESS_AND_HOLD
-4
 size
-kotlinx.coroutines.DefaultExecutor
 left
+kotlinx.coroutines.DefaultExecutor
 JvmSystemFileSystem
 registerWith
 SystemSoundType.alert
-metadataFileCounter
 S_RESUMING_BY_RCV
 REDUCE_MOTION
-module_names
 bottomRight
 io.flutter.plugins.sharedpreferences....
 SystemUiMode.immersiveSticky
@@ -225,21 +218,18 @@ c
 f
 destroy_engine_with_activity
 h
-lock.tmp
 truncated
 effectiveDirectAddress
-kotlin.String
 RESUMING_BY_EB
+kotlin.String
 sidecarDeviceState
 q
 r
-java.lang.Module
 SUSPEND
-_tmp
+java.lang.Module
 TypefaceCompatApi26Impl
 v
 x
-nativeLibraryDirectories
 SystemUiMode.edgeToEdge
 displayFeature.rect
 DETECT_TARGET_FRAGMENT_USAGE
@@ -250,18 +240,16 @@ emailAddress
 ACTION_SCROLL_FORWARD
 componentName
 bufferEndSegment
-AssetPackBackgroundExecutor
 preferencesProto.preferencesMap
 LONG_PRESS
-AnnotateVersionCheck
 list
+AnnotateVersionCheck
 $operation
 HAS_CHECKED_STATE
 UNSET_PRIMARY_NAV
 FlutterEngine
 flutter/keyevent
 AppLifecycleState.
-com.google.android.play.core.splitins...
 child
 SystemChrome.setSystemUIOverlayStyle
 androidx.view.accessibility.Accessibi...
@@ -279,22 +267,18 @@ iterator.baseContext
 provider
 kotlinx.coroutines.main.delay
 _delayed
-nativeLibraryPathElements
-ReviewService
 FIXED32_LIST_PACKED
 declaringFragment.parentFragmentManager
 MOVE_CURSOR_BACKWARD_BY_CHARACTER
-kotlin.collections.List
 deqIdx
+kotlin.collections.List
 HAS_SELECTED_STATE
 MOVE_CURSOR_FORWARD_BY_CHARACTER
 FlutterFragment
 lastIn.fragment.sharedElementSourceNames
 args
 resizeUpLeft
-SHA256withECDSA
 SearchView
-INVALID_REQUEST
 TextInputType.emailAddress
 ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE
 android.view.View$AttachInfo
@@ -307,18 +291,15 @@ SCOPES_ROUTE
 androidx.profileinstaller.action.SAVE...
 android.os.Build$VERSION
 executor
-makeDexElements
 androidx.window.extensions.WindowExte...
 fullPackage
 write
 onStop
 flow
-chunk_number
 dev.flutter.pigeon.shared_preferences...
 byte
 getDeferredComponentInstallState
 attrs
-uncompressed_size
 onBackInvoked
 resizeUp
 creditCardNumber
@@ -326,96 +307,74 @@ creditCardNumber
 DiscouragedApi
 onPostResume
 doAfterTextChanged
-clearListeners
 wait
 FlutterActivityAndFragmentDelegate
 birthDateYear
 ACTION_SCROLL_IN_DIRECTION
 save
 %s.%sParcelizer
-triggered_from_app_after_verification
 CHARACTERS
 android.os.storage.StorageVolume
 ACTION_PAGE_UP
 io.flutter.embedding.android.EnableVu...
 top
-native
 java.lang.String
 TextInput.setClient
 resizeDown
 ADDING
 android:support:lifecycle
-notification_on_click_intent
 framework
 messenger
 io.flutter.plugins.sharedpreferences....
 New
-SPLITCOMPAT_VERIFICATION_ERROR
-ERROR_INSTALL_NOT_ALLOWED
 ReflectionGuard
-versionCodeMajor
 android.widget.CheckBox
 setEpicenterBounds
 HapticFeedback.vibrate
 repeatCount
 void
-com.google.android.play.core.appupdat...
 flutter/restoration
 SurfaceTexturePlatformViewRenderTarget
-dalvik.system.DexFile
 onUserLeaveHint
-_cur
 mStableInsets
-splitcompat
+_cur
 BYTES_LIST
 _id
 sharedElementFirstOutViews
 basic
 initialization_args
-kotlin.Throwable
 ProcessTextPlugin
+kotlin.Throwable
 dev.flutter.pigeon.shared_preferences...
-addAssetPath
 parkedWorkersStack
 PHONE
 systemNavigationBarColor
 displayCutout
 PlatformPlugin
-unity
 SFIXED64_LIST_PACKED
 kotlin.Annotation
-total.bytes.to.download
 LANDSCAPE_LEFT
-onGetLaunchReviewFlowInfo
-OnRequestInstallCallback
 direction
 dev.flutter.pigeon.shared_preferences...
 android.intent.action.SEARCH
 BITMAP
 newConfig
-AssetPackServiceImpl
 io.flutter.plugins.sharedpreferences....
 Array
 intrface
 ATTACH
 UNKNOWN
-com.google.android.play.core.assetpac...
 initialExtras
-RestrictedApi
-ExtractChunkTaskHandler
 fileName
-splits
 getByte
 accessibility
 android:visibility:parent
-com.google.android.play.core.install....
 JSON_ENCODED
 UINT32
 AppCompatCustomView
 onBackCancelled
 password
 kotlinx.coroutines.scheduler.keep.ali...
-SplitInstallService
 VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
 NO_TARGET
 state
@@ -433,18 +392,13 @@ SupportMenuInflater
 pushRoute
 anim
 kernel_blob.bin
-AndroidManifest.xml
 copyMemory
 getStateMethod
-com.google.android.play.core.assetpac...
 CUSTOM_ACTION
-MissingSplitsManagerImpl
 cached_engine_id
 STANDARD
 setRemoveOnCancelPolicy
 receive
-onGetSessionStates
-languages
 io.flutter.plugins.sharedpreferences....
 NEW_BUILDER
 IS_LIVE_REGION
@@ -454,20 +408,16 @@ windowToken
 onTrimMemory
 getSourceNodeId
 androidx.lifecycle.ViewModelProvider....
-makePathElements
 TWITTER
 arrayIndexScale
 klass.interfaces
 lib
 outFragment
 flutter/backgesture
-merge.tmp
 source
 ALERT
 LocalizationChannel
 removeListenerMethod
-SplitInstallInfoProvider
-ERROR_INVALID_REQUEST
 java.lang.Short
 android.widget.Button
 _closeCause
@@ -480,7 +430,6 @@ UINT32_LIST_PACKED
 androidx.datastore.preferences.protob...
 search_suggest_query
 UINT64
-Transferring
 DIAGNOSTIC_PROFILE_IS_COMPRESSED
 NAME
 FragmentManager
@@ -495,13 +444,12 @@ platformViewId
 yyyyMMdd_HHmmss
 EDGE_TO_EDGE
 LEAN_BACK
-_isTerminated
 video
+_isTerminated
 initial_route
 libcore.io.Memory
 LifecycleChannel
 SEALED
-ERROR_API_NOT_AVAILABLE
 CREATED
 NO_OWNER
 android.intent.category.OPENABLE
@@ -509,7 +457,6 @@ kGamepad
 SHOW
 io.flutter.plugins.sharedpreferences....
 EXTRA_SKIP_FILE_OPERATION
-INTERNAL_ERROR
 _windowInsetsCompat
 getPosture
 pair
@@ -521,13 +468,11 @@ BOOL
 short
 IS_HEADER
 COMPLETING_RETRY
-syncPacks
 VISIBLE_PASSWORD
 IS_FOCUSABLE
 OrBuilderList
 TextInput.clearClient
 SCROLL_RIGHT
-onGetChunkFileDescriptor
 android.widget.ImageView
 android.widget.RadioButton
 textCapitalization
@@ -535,11 +480,10 @@ ACCESSIBILITY_CLICKABLE_SPAN_ID
 ACTION_PAGE_LEFT
 put
 modelClass.constructors
-MergeSliceTaskHandler
 TextInputType.text
 in_progress
-pokeLong
 FAILED
+pokeLong
 shouldShowRequestPermissionRationale
 POISONED
 SCROLL_LEFT
@@ -554,33 +498,27 @@ identifier
 TEXTURE_WITH_HYBRID_FALLBACK
 POSTURE_HALF_OPENED
 POSTAL_ADDRESS
-uncompressed_hash_sha256
 closeHandler
 viewFocused
 removeWindowLayoutInfoListener
 dev.flutter.pigeon.shared_preferences...
-unregisterListener
-$callback
 BUFFERED
-install.status
+$callback
 light
 .apk
 CHANNEL_CLOSED
 uninstallDeferredComponent
 primary
-java.lang.Throwable
 canceling
-isDexOptNeeded
+java.lang.Throwable
 /data/misc/profiles/cur/0/
 FragmentManager:
 PrivateApi
 SystemSound.play
 ImageReaderSurfaceProducer
 unknown
-chunk_intents
 android.widget.SeekBar
 android.intent.action.RUN
-assetpacks
 INITIALIZED
 KeyEventChannel
 producerIndex
@@ -588,13 +526,10 @@ REMOVE
 flutter/settings
 android:changeBounds:bounds
 addressLocality
-linkToDeath
-API_NOT_AVAILABLE
 WEB_SEARCH
 value.stringSet.stringsList
 ACTION_DRAG_START
 $violation
-SPLITCOMPAT_COPY_ERROR
 DeviceOrientation.landscapeLeft
 flutterview_render_mode
 FIXED32_LIST
@@ -603,9 +538,7 @@ targetBytes
 TextInputAction.unspecified
 char
 IMMERSIVE
-com.google.android.play.core.assetpac...
 TAP
-errorCode
 listen
 RESULT_INSTALL_SUCCESS
 Bytes
@@ -613,11 +546,10 @@ wm.maximumWindowMetrics.bounds
 KEY_COMPONENT_ACTIVITY_REGISTERED_KEYS
 TextInputAction.commitContent
 inputType
-BOTH
 CLOSE_HANDLER_INVOKED
+BOTH
 group
 java.lang.Cloneable
-com.android.vending
 android.speech.extra.RESULTS_PENDINGI...
 GeneratedPluginRegistrant
 io.flutter.embedding.android.EnableIm...
@@ -632,31 +564,24 @@ values
 INT32_LIST_PACKED
 consumerIndex
 findViewByAccessibilityIdTraversal
-optimizedPathFor
 _removedRef
 alias
 dev.flutter.pigeon.shared_preferences...
 SINT64_LIST_PACKED
-SplitInstallListenerRegistry
 kotlin.String.Companion
-MGF1
 ACTION_SHOW_TOOLTIP
-result_receiver
 clear
 TextInput.show
 jClass
 value_
 doBeforeTextChanged
 addFontFromAssetManager
-app.version.code
-SHA512withECDSA
 systemNavigationBarDividerColor
 mAttachInfo
 value.string
 CLIP_PATH
 suggestions
 classes.dex
-com.google.android.play.core.install....
 $transitioningViews
 resizeColumn
 plugins
@@ -664,40 +589,33 @@ kotlin.Cloneable
 IS_FOCUSED
 PlatformViewsController
 path
-dex
 kotlin.reflect.jvm.internal.Reflectio...
 FOLD
 cleanedAndPointers
-playcore_split_install_internal
 addObserver
 SFIXED32_LIST
-ON_ANY
 android.intent.extra.ALLOW_MULTIPLE
+ON_ANY
 guava.concurrent.generate_cancellatio...
 SystemNavigator.setFrameworkHandlesBack
 SINT32
 route
 ON_PAUSE
 domain
-SHA256withRSA
 viewType
 editingValue
 TraceCompat
 invokeSuspend
 SidecarCompat
-INSUFFICIENT_STORAGE
 DROP_LATEST
 _exceptionsHolder
 transparent
 io.flutter.plugins.flutter_plugin_and...
-ExtractionForegroundServiceConnection
 background_mode
 REMOVING
 NAMES_ROUTE
-slice_ids
 io.flutter.plugins.sharedpreferences
 RESULT_DESIRED_FORMAT_UNSUPPORTED
-getSessionStates
 clearFocus
 tail
 right
@@ -713,29 +631,25 @@ missingDelimiterValue
 data_store
 dev.flutter.pigeon.shared_preferences...
 listener
-bytes_downloaded
 dir
 BanParcelableUsage
 AwaitContinuation
 free_form
 kotlin.Boolean
 _queue
+android.intent.action.OPEN_DOCUMENT
 setSidecarCallback
 List
-android.intent.action.OPEN_DOCUMENT
-notification_subtext
 reply
 info
 HYBRID_ONLY
 coordinator
 kHdmi
-bytes.downloaded
 TextInputType.name
 navigation_bar_height
 java.lang.annotation.Annotation
 FlutterImageView
 font_weight
-SHA512withRSA
 TERMINATED
 ACTION_SET_SELECTION
 flutter/navigation
@@ -749,27 +663,22 @@ hashCode
 updateBackGestureProgress
 ProfileInstaller
 java.lang.Boolean
-chunk_file_descriptor
 io.flutter.plugins.sharedpreferences....
-error.code
 owner
-strings_
 classSimpleName
+strings_
 DeviceOrientation.landscapeRight
 .jpg
 custom
 GET_MEMOIZED_IS_INITIALIZED
 keydown
 activateSystemCursor
-%x
 flutter/accessibility
-AppUpdateListenerRegistry
 resize
 TextEditingDelta
 DROP_OLDEST
 $container
 lastScheduledTask
-OnCompleteUpdateCallback
 birthdayMonth
 SFIXED64_LIST
 autocorrect
@@ -793,15 +702,12 @@ cancelled
 MOVE_CURSOR_FORWARD_BY_WORD
 AccessibilityChannel
 androidx.datastore.preferences.protob...
-FakeSplitInstallManager
 fullStreetAddress
 FilePicker
 arch_disk_io_
-status
 GET_DEFAULT_INSTANCE
 ACTION_CLEAR_SELECTION
 should_automatically_handle_on_back_p...
-split_id
 file
 fileHandle
 BYTE_STRING
@@ -811,22 +717,16 @@ HIDE
 android.intent.extra.MIME_TYPES
 ACTION_PAGE_RIGHT
 java.nio.file.Files
-onRequestInfo
-MissingSplitsAppComponentsHelper
 menu
 uri
 getLong
 TextInputAction.done
-onGetSplitsForAppUpdate
 ACTION_HIDE_TOOLTIP
 .part.so
-notification_title
 onSaveInstanceState
 io.flutter.EntrypointUri
-total_bytes_to_download
 VIRTUAL_DISPLAY_PLATFORM_VIEW
 IS_SLIDER
-onCompleteInstallForAppUpdate
 resizeUpLeftDownRight
 KeyboardManager
 RESUMED
@@ -845,18 +745,16 @@ ListenableEditingState
 separator
 personMiddleName
 entries
-font_italic
 null
+font_italic
 background
 true
 androidx.datastore.preferences.protob...
 androidx.lifecycle.internal.SavedStat...
-VerifySliceTaskHandler
 dispose
 position
 phoneNational
 LambdaLast
-action_type
 ACTION_SCROLL_RIGHT
 statusBarIconBrightness
 peekLong
@@ -866,7 +764,6 @@ asyncTraceEnd
 transform
 getWindowLayoutComponentMethod
 STARTED
-INCOMPATIBLE_WITH_EXISTING_SESSION
 unknown_activity
 vm_snapshot_data
 DONE_RCV
@@ -892,22 +789,16 @@ io.flutter.embedding.android.DisableM...
 io.flutter.plugins.sharedpreferences....
 TextInput.hide
 KeyChannelResponder
-LFH
-registerListener
 telephoneNumberNational
 observer
 character
 java.lang.Long
 metaState
-.config.
 TRACE_TAG_APP
-_metadata
 height
 CUT
 android.intent.action.OPEN_DOCUMENT_TREE
 _decision
-module
-DOWNLOAD_NOT_FOUND
 fragmentManager
 $this$require
 io.flutter.plugins.sharedpreferences....
@@ -917,7 +808,6 @@ defaultCreationExtras
 Clipboard.hasStrings
 dev.flutter.pigeon.shared_preferences...
 androidx.datastore.preferences.protob...
-APP_NOT_OWNED
 setCurrentState
 components
 StartIntentSenderForResult
@@ -929,14 +819,11 @@ startBackGesture
 ACTION_PAGE_DOWN
 kotlinx.coroutines.channels.defaultBu...
 classes_to_restore
-pack_version
-package.name
 getBoolean
 FIXED64_LIST
 android.type.verbatim
 WORDS
 clipBounds
-version.code
 android.intent.action.CREATE_DOCUMENT
 systemNavigationBarIconBrightness
 contextMenu
@@ -948,12 +835,11 @@ autofill
 TextCapitalization.none
 operation
 android.widget.EditText
-NO_DECISION
 Scribe.startStylusHandwriting
+NO_DECISION
 postalCode
 Operations:
 TextInput.setEditingState
-nonblocking.intent
 androidx.profileinstaller.action.INST...
 ON_START
 KEY_COMPONENT_ACTIVITY_LAUNCHED_KEYS
@@ -961,7 +847,6 @@ birthDateFull
 flutterview_transparency_mode
 getAccessibilityViewId
 kotlinx.coroutines.io.parallelism
-modules_to_uninstall_if_emulated
 NUMBER
 ResourcesCompat
 UNEXPECTED_STRING
@@ -972,18 +857,15 @@ BOOLEAN
 DefaultLocale
 android.view.DisplayInfo
 profileInstalled
-playcore_version_code
 _next
 androidx.lifecycle.internal.SavedStat...
 installed
 StartActivityForResult
-ACCESS_DENIED
 onBackPressedCallback
 downloads
 textservices
 setClipToScreenEnabled
 pokeByte
-PackMetadataManager
 registry
 creditCardExpirationYear
 CUTOUT
@@ -993,16 +875,15 @@ Scribe.isFeatureAvailable
 boundsOrigin
 viewModelStoreOwner
 dev.flutter.pigeon.shared_preferences...
-java.lang.Object
-TextInputType.webSearch
 comment
+TextInputType.webSearch
+java.lang.Object
 SystemChrome.setSystemUIChangeListener
 base
-slice_id
 dexopt/baseline.profm
 no_activity
-TextInput.setPlatformViewClient
 kotlinx.coroutines.bufferedChannel.se...
+TextInput.setPlatformViewClient
 extendedPostalCode
 prefix
 binding
@@ -1017,18 +898,14 @@ delimiter
 permissions
 getPath
 NONE
-zip
 kotlinx.coroutines.semaphore.maxSpinC...
 viewRegistryState
 hints
 onWindowLayoutChangeListenerAdded
-java.util.Set
 keyup
-ERROR_PLAY_STORE_NOT_FOUND
-previousChunk
+java.util.Set
 result_code
 brieflyShowPassword
-pack_base_version
 newDeviceState
 DELETE_SKIP_FILE
 DETECT_WRONG_FRAGMENT_CONTAINER
@@ -1036,14 +913,12 @@ gender
 signature
 createFromFamiliesWithDefault
 ActivityResultRegistry
-SplitInstallHelper
 resizeRow
 usesVirtualDisplay
 HAS_EXPANDED_STATE
 savedStateRegistry
 NO_THREAD_ELEMENTS
 INTERRUPTED_SEND
-ERROR_DOWNLOAD_NOT_PRESENT
 FLAT
 getDisplayInfo
 DOUBLE
@@ -1058,20 +933,18 @@ COPY
 IS_READ_ONLY
 PENDING
 androidx.profileinstaller.action.BENC...
-checkpoint_ext.dat
 outState
 compressionQuality
 ACTION_SET_TEXT
 java.lang.Comparable
 getVolumeList
-installed_asset_module_name
 Requested
 msg
 android.widget.Switch
 fragmentManager.specialEffectsControl...
 resizeUpRightDownLeft
-float
 OP_SET_MAX_LIFECYCLE
+float
 IS_BUTTON
 postalAddressExtended
 SINT64
@@ -1095,13 +968,12 @@ failed
 keyCode
 DATA
 UTF8
-file_id
 getUuid
+file_id
 file.absoluteFile
 didGainFocus
 flutter/localization
 putObject
-NETWORK_UNRESTRICTED
 FlutterRenderer
 $onBackInvoked
 previousFragmentId
@@ -1110,30 +982,23 @@ ACTION_CUT
 Brightness.light
 LTR
 error
-confirmation_intent
 getBoundsMethod
 kotlin.Byte
-notifyChunkTransferred
 bufferEnd
-operations
 allowCompression
+operations
 RequestPermissions
 array
 KotlinPropertyAccess
 postfix
 value
-SPLITCOMPAT_EMULATION_ERROR
-ACTIVE_SESSIONS_LIMIT_EXCEEDED
 opaque
 REUSABLE_CLAIMED
 android:visibility:visibility
 0x%08x
 dart_entrypoint_args
-blocking.intent
-pathList
 int
 ResourceExtractor
-SHA256
 lastIn.fragment.sharedElementTargetNames
 flutter_fragment
 androidx.activity.result.contract.act...
@@ -1156,15 +1021,13 @@ onBackPressed
 androidx.activity.result.contract.act...
 LANDSCAPE_RIGHT
 LEFT
-_handled
 givenName
+_handled
 packages
 onBackProgressed
 kotlin.jvm.functions.
 kotlinx.coroutines.scheduler.default....
 TextInputClient.updateEditingStateWit...
-PACK_UNAVAILABLE
-window_flags
 DECREASE
 PORTRAIT_DOWN
 touchOffset
@@ -1172,23 +1035,17 @@ android.intent.extra.PROCESS_TEXT_REA...
 libapp.so
 MESSAGE
 savedInstanceState
-com.google.android.play.core.splitins...
-playcore_unity_version
 RestorationChannel
 middleInitial
 PHYSICAL_DISPLAY_PLATFORM_VIEW
 codePoint
-SplitCompat
 SystemUiOverlay.top
 RESULT_PARSE_EXCEPTION
-blocking.destructive.intent
 IS_CHECK_STATE_MIXED
 SwitchIntDef
 GridLayoutManager
 androidx.lifecycle.BundlableSavedStat...
 this$0
-FakeAssetPackService
-properties.dat
 onNewIntent
 Loaders:
 requiresUserConfirmation
@@ -1203,9 +1060,7 @@ already_active
 SFIXED32_LIST_PACKED
 addSuppressed
 ACTION_SET_PROGRESS
-com.android.dynamic.apk.fused.modules
 RESULT_OK
-EC
 addressCountry
 LIGHT
 DID_LOSE_ACCESSIBILITY_FOCUS
@@ -1213,21 +1068,14 @@ TypefaceCompatUtil
 NEW_MUTABLE_INSTANCE
 phoneCountryCode
 telephoneNumberCountryCode
-error_code
-module_name
-ERROR_UNKNOWN
 decimal
 fragmentStateManager.fragment
 GONE
 TextInput.setEditableSizeAndTransform
 ACTION_CLEAR_FOCUS
-additional.size.required
 getDouble
 ACTION_SCROLL_BACKWARD
 FIXED32
-local_testing_config.xml
-AssetPackExtractionService
-notifyModuleCompleted
 android.graphics.drawable.VectorDrawable
 scope
 SET_SELECTION
@@ -1250,7 +1098,6 @@ creditCardExpirationDay
 username
 release
 UNDEFINED
-AssetPackStorage
 ACTION_CONTEXT_CLICK
 installedPendingLoad
 dexopt/baseline.prof
@@ -1292,8 +1139,8 @@ addressRegion
 _resumed
 TextInputType.multiline
 FIXED64
-fragmentStateManager
 runningWorkers
+fragmentStateManager
 LIGHT_IMPACT
 viewState
 DESTROYED
@@ -1302,32 +1149,24 @@ SystemChrome.setEnabledSystemUIOverlays
 selectionExtent
 MouseCursorChannel
 kotlin.collections.Collection
-installed_asset_module_version
 invalid_format_type
 TextInputAction.send
-_slices
 operation.fragment.mView
 onStart
-DSA
 ResourceFileSystem::class.java.classL...
 _isCompleting
-Reinstall
 buffer
-notification_color
 noDrop
 read
 flutter/keydata
 memoryPressure
 touch
 onResume
-SHA256withDSA
 java.util.List
 hybrid
 sharedElementNameMapping.keys
-SliceMetadataManager
-update.availability
-kotlin.Int
 getDirectory
+kotlin.Int
 targetFragment
 VOID
 BackGestureChannel
@@ -1336,11 +1175,9 @@ FLOAT
 handleLifecycleEvent
 IS_IMAGE
 COMPLETING_ALREADY
-PatchSliceTaskHandler
 serializer
 media
 java.lang.Iterable
-com.google.android.play.core.assetpac...
 androidx.appcompat.widget.LinearLayou...
 readException
 kotlinx.coroutines.DefaultExecutor.ke...
@@ -1351,7 +1188,6 @@ synchronizeToNativeViewHierarchy
 info.displayFeatures
 androidx.activity.result.contract.ext...
 arrayBaseOffset
-manifest
 windowConfiguration
 any
 resizeUpRight
@@ -1359,18 +1195,15 @@ androidx.window.extensions.layout.Win...
 flutter/lifecycle
 TextInputType.number
 layout_inflater
-com.google.android.finsky.inappreview...
-SHA512withRSA/PSS
 unamed
 SurfaceProducerRenderTarget
 suggest_intent_extra_data
 SystemChrome.setEnabledSystemUIMode
 getAppBounds
 suggest_flags
-receiveSegment
 android.widget.HorizontalScrollView
+receiveSegment
 preferences.all
-java
 NO_CLOSE_CAUSE
 INCREASE
 androidx.datastore.preferences.protob...
@@ -1378,7 +1211,6 @@ cache
 creditCardExpirationMonth
 deltaText
 BUILD_MESSAGE_INFO
-ERROR_INSTALL_UNAVAILABLE
 io.flutter.embedding.android.EnableSu...
 allowedExtensions
 dev.flutter.pigeon.shared_preferences...
@@ -1390,36 +1222,31 @@ succeeded
 peekInt
 FilePickerUtils
 POSTURE_FLAT
-androidx.savedstate.Restarter
 kotlinx.coroutines.semaphore.segmentSize
+androidx.savedstate.Restarter
 DROP_SHADER_CACHE
-kotlin.collections.ListIterator
 oemFeature.bounds
+kotlin.collections.ListIterator
 GROUP
 getKeyboardState
 putByte
 TextInputClient.updateEditingStateWit...
 objectFieldOffset
-session_state
 outBundle
-onDeferredLanguageUninstall
 ACTION_SELECT
 blockingTasksInBuffer
-playcore_native_version
 registryState
 streetAddress
 kotlin.Char
 RecyclerView
-dexElementsSuppressedExceptions
-supported_compression_formats
 flutter/isolate
 ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
 grab
 _decisionAndIndex
 dimen
 java.util.ListIterator
-result_
 DefaultDispatcher
+result_
 kotlin.Double
 onActivityResult
 DeprecatedSinceApi
@@ -1433,8 +1260,6 @@ suggest_intent_query
 includeSubdomains
 unreachable
 overlay
-SHA256withRSA/PSS
-patch_format
 creditCardSecurityCode
 downloaded
 UINT64_LIST
@@ -1443,7 +1268,6 @@ finalException
 flutter
 byteString
 name
-ExtractorLooper
 NestedScrollView
 DartExecutor
 fields
@@ -1452,35 +1276,26 @@ keymap
 string
 FlutterLoader
 deltaStart
-notifySessionFailed
 kotlin.coroutines.jvm.internal.BaseCo...
 android
 java.lang.module.ModuleDescriptor
 nameSuffix
 description
 VISIBLE
-PhoneskyVerificationUtils
 native_instance
 textScaleFactor
 androidx.view.accessibility.Accessibi...
 namePrefix
-com.google.android.play.core.appupdat...
-onDeferredLanguageInstall
 SharedPreferencesPlugin
 thisRef
-PlayCore
-AppUpdateService
 io.flutter.embedding.android.NormalTheme
 SUSPEND_NO_WAITER
 Dispatchers.Main
 FlutterSurfaceView
-fileOffset
 Cancelled
 getEmptyRegistry
 target
-ExtractorSessionStoreView
 enableSuggestions
-android.intent.action.VIEW
 IS_MULTILINE
 middleName
 window
@@ -1489,20 +1304,15 @@ Cancelling
 CLIP_RRECT
 container
 allowMultipleSelection
-com.google.android.play.core.inapprev...
 logger
 _isCompleted
 .so
 hybridFallback
-pack_version_tag
 getBounds
 EmptyCoroutineContext
 ACTION_ARGUMENT_SELECTION_END_INT
-pack_names
 TextInputAction.search
-unlinkToDeath
 SINT64_LIST
-app_update
 SFIXED64
 canvas
 item
@@ -1512,7 +1322,6 @@ kotlinx.coroutines.scheduler.max.pool...
 double
 GET_PARSER
 newPassword
-INSTANCE
 smsOTPCode
 flutter_deeplinking_enabled
 SystemChannel
@@ -1523,7 +1332,6 @@ getDisplayFeatures
 BOOL_LIST_PACKED
 BOLD_TEXT
 PENALTY_LOG
-UpdateListenerExecutor
 Dispatchers.Unconfined
 flags
 onPause
@@ -1531,9 +1339,8 @@ SystemUiOverlay.bottom
 kotlinx.coroutines.bufferedChannel.ex...
 enabled
 mContentInsets
-resuming_sender
 PlatformViewWrapper
-com.google.android.play.core.assetpac...
+resuming_sender
 stackTrace
 setDirection
 ENUM_LIST
@@ -1551,7 +1358,6 @@ SFIXED32
 BYTES
 kotlinx.coroutines.fast.service.loader
 completedExpandBuffersAndPauseFlag
-com.google.android.play.core.assetmod...
 insets
 kotlin.Any
 KEY_COMPONENT_ACTIVITY_REGISTERED_RCS
@@ -1566,12 +1372,10 @@ getWindowLayoutComponent
 overflow
 plainCodePoint
 DETECT_FRAGMENT_TAG_USAGE
-app_version_code
 _reusableCancellableContinuation
 android.view.View
 java.lang.Byte
 AppBundleLocaleChanges
-AssetPackService
 deltaEnd
 putInt
 kind
@@ -1580,10 +1384,9 @@ _consensus
 CANCELLED
 SCROLL_UP
 FragmentStrictMode
-.config.main
 effect
-kotlin.collections.Iterator
 CLOSED_EMPTY
+kotlin.collections.Iterator
 res/
 job
 TextInputClient.requestExistingInputS...
@@ -1595,8 +1398,8 @@ unexpected
 preferencesMap
 NO_RECEIVE_RESULT
 INT
-kotlin.Enum
 candidate
+kotlin.Enum
 backEvent
 PlatformViewsChannel
 deltas
@@ -1604,18 +1407,15 @@ firstOut.fragment.mView
 uniqueIdentifier
 ACTION_PREVIOUS_HTML_ELEMENT
 move
-http://schemas.android.com/apk/res/an...
 suggest_text_2_url
 setPosture
 ensureImeVisible
-versionCode
 androidx.lifecycle.savedstate.vm.tag
 WindowInsetsCompat
 android.intent.action.PROCESS_TEXT
 INT32_LIST
 ViewUtilsBase
 TEXTURE_WITH_VIRTUAL_FALLBACK
-NETWORK_ERROR
 mIsChildViewEnabled
 getModule
 extent
@@ -1623,7 +1423,6 @@ onDestroyView
 getPrefs
 tooltip
 dev.flutter.pigeon.shared_preferences...
-_packs
 messageType
 flutter/keyboard
 systemStatusBarContrastEnforced
@@ -1635,11 +1434,10 @@ DartMessenger
 defaultLifecycleObserver
 HIGH_CONTRAST
 SHOULD_BUFFER
-AssetPackManager
 MOVE_CURSOR_BACKWARD_BY_WORD
 traceCounter
-kotlin.Unit
 kotlinx.coroutines.scheduler.resoluti...
+kotlin.Unit
 web_search
 getType
 birthdayDay
@@ -1654,32 +1452,26 @@ search
 listEncoder
 popRoute
 androidx.window.extensions.WindowExte...
-client.version.staleness
 completion
 androidx.view.accessibility.Accessibi...
 java.io.tmpdir
 set
 ACTION_IME_ENTER
 kUp
-session_id
-user_confirmation_intent
 FRAMEWORK_CLIENT
 computeFitSystemWindows
 DETACH
 flutter/scribe
-onCompleteUpdate
 INACTIVE
 android.intent.action.PICK
 VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
 ACTION_NEXT_AT_MOVEMENT_GRANULARITY
 enableOnBackInvokedCallbackState
-APP_UNAVAILABLE
 font
 ADD
 MEDIUM_IMPACT
 setTouchModal
 INT64_LIST
-language
 installDeferredComponent
 ACTION_DRAG_CANCEL
 androidx.view.accessibility.Accessibi...
@@ -1689,13 +1481,10 @@ image
 android.speech.extra.MAX_RESULTS
 TextInputChannel
 SCROLL_TO_OFFSET
-preferences_
 Failed
+preferences_
 OPACITY
 NonDisposableHandle
-stale.tmp
-LocalTestingConfigParser
-com.google.android.play.core.assetpac...
 ACTION_ACCESSIBILITY_FOCUS
 countryName
 nodeId
@@ -1703,8 +1492,8 @@ inputAction
 isDirectory
 _preferences
 frame
-io.flutter.plugins.sharedpreferences....
 translationAlpha
+io.flutter.plugins.sharedpreferences....
 ACTION_LONG_CLICK
 fm
 android.speech.extra.LANGUAGE
@@ -1712,12 +1501,10 @@ getFloat
 putLong
 extendedAddress
 timeout
-content
 wm.currentWindowMetrics.bounds
+content
 statusBarColor
-installed_asset_module
 VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
-PackageStateCache
 contentCommitMimeTypes
 class
 finalState
@@ -1730,7 +1517,6 @@ os.arch
 FlutterEngineCxnRegstry
 false
 workerCtl
-Splitcompat
 TextInputClient.updateEditingState
 obj
 resizeLeft
@@ -1767,27 +1553,21 @@ getInt
 NioSystemFileSystem
 TextInputType.url
 kotlin.jvm.internal.
-remainingBytes
 Map
 charset
 telephoneNumber
-defaultErrorCode
-PLAY_STORE_NOT_FOUND
 cancelBackGesture
 java.util.ArrayList
 suggest_intent_action
-local_testing_dir
 IS_EXPANDED
 SharedPreferencesPlugin.kt
 RIGHT
-checkpoint.dat
-notification_channel_name
 lifecycleImpact
 bundle
 fileSystem
 onDestroy
-IS_KEYBOARD_KEY
 miguelruivo.flutter.plugins.filepicke...
+IS_KEYBOARD_KEY
 GROUP_LIST
 personNameSuffix
 kotlin.jvm.functions.Function
@@ -1796,28 +1576,23 @@ off
 platformBrightness
 android.widget.ScrollView
 equals
-MODULE_UNAVAILABLE
 loadingUnitId
 /data/misc/profiles/ref/
 flutter/processtext
 android.speech.action.RECOGNIZE_SPEECH
 newUsername
-.config.master
 suffix
 TypefaceCompatBaseImpl
-X509
 _size
-split
 lastIn.fragment.mView
 personMiddleInitial
 cleartextTrafficPermitted
 limit
 android.resource://
-config.
 DID_GAIN_ACCESSIBILITY_FOCUS
 io.flutter.plugins.sharedpreferences....
-kotlin.Number
 pokeInt
+kotlin.Number
 DeviceOrientation.portraitDown
 NULL
 TOO_LATE_TO_CANCEL
@@ -1826,10 +1601,8 @@ shared_preferences
 firstOut.fragment.sharedElementTarget...
 kDown
 dev.flutter.pigeon.shared_preferences...
-supported_patch_formats
 entry
 io.flutter.embedding.android.Impeller...
-com.android.vending.splits.required
 grabbing
 NavigationChannel
 android:changeBounds:parent
@@ -1850,18 +1623,16 @@ installing
 ViewUtils
 ClickableViewAccessibility
 ON_OFF_SWITCH_LABELS
-AssetPackServiceListenerRegistry
 head
 receivers
 ACTION_SCROLL_LEFT
 inParcel
 kotlin.Comparable
-in.app.update.priority
 show_password
 consumer
 on
-nativeSpellCheckServiceDefined
 baseKey
+nativeSpellCheckServiceDefined
 currentDisplay
 longPress
 pokeByteArray
@@ -1877,20 +1648,16 @@ HAS_TOGGLED_STATE
 suggest_icon_1
 suggest_icon_2
 IS_SELECTED
-onDeferredUninstall
 createAsync
 .Companion
 io.flutter.plugins.sharedpreferences....
 freeze
 EMAIL_ADDRESS
-ExtractorTaskFinder
-java.util.Map
 AndroidTouchProcessor
+java.util.Map
 TextInputPlugin
 /data/misc/profiles/cur/0
 SuggestionsAdapter
-SERVICE_DIED
-RSA
 ACTION_NEXT_HTML_ELEMENT
 getObject
 BOTTOM_OVERLAYS
@@ -1901,11 +1668,8 @@ kotlin.Array
 DETECT_RETAIN_INSTANCE_USAGE
 ACTION_COLLAPSE
 accept
-com.google.android.play.core.inapprev...
 SoonBlockedPrivateApi
-assetOnlyUpdates
 CONDITION_FALSE
-Close
 androidx.activity.result.contract.ext...
 IS_IN_MUTUALLY_EXCLUSIVE_GROUP
 RESULT_CANCELED
@@ -1924,17 +1688,14 @@ $this$$receiver
 ImageTextureRegistryEntry
 key
 email
-kotlin.Enum.Companion
 LONG
 RESOURCE
+kotlin.Enum.Companion
 profileinstaller_profileWrittenFor_la...
 creditCardExpirationDate
-keepAlive
 obscureText
-ERROR_INSTALL_IN_PROGRESS
 texture
 ACTION_EXPAND
-numberOfMerges
 window.decorView
 SELECTION_CLICK
 app_bundle_path
@@ -1947,13 +1708,11 @@ handled
 closed
 SystemNavigator.pop
 resizeRight
-keep_alive
 TextInputAction.newline
 compressed
 io.flutter.embedding.android.EnableVu...
 _prev
 SINT32_LIST_PACKED
-X.509
 loader
 primaryColor
 dest
@@ -1961,21 +1720,18 @@ personGivenName
 cancellable
 pairs
 PlayStoreDeferredComponentManager
-SplitCompatBackgroundThread
 io.flutter.plugins.sharedpreferences....
 app_data
-TOP_OVERLAYS
 BROKEN
+TOP_OVERLAYS
 putBoolean
 android:changeBounds:windowX
-Dispatchers.Default
 android:changeBounds:windowY
-_verified
+Dispatchers.Default
 sink
-java.util.Collection
 split_config
 query
-PlayCoreVersion
+java.util.Collection
 CLOSE_HANDLER_CLOSED
 HIDDEN
 io.flutter.plugins.sharedpreferences....
@@ -1991,37 +1747,30 @@ MULTILINE
 pending
 android.graphics.Insets
 removeObserver
-destination
 ON_DESTROY
+destination
 enableDeltaModel
 FLOAT_LIST
 abortCreation
 ViewParentCompat
-is_review_no_op
 RESULT_ALREADY_INSTALLED
 getTypeMethod
 flutter/mousecursor
 FontsProvider
 text/plain
-SplitInstall
 INT64
-moduleVersionTag
-com.google.android.play.core.splitins...
-reportBinderDeath
 flutter/system
 isRegularFile
 HAS_IMPLICIT_SCROLLING
 MenuPopupWindow
 onWindowLayoutChangeListenerRemoved
 Dispatchers.Main.immediate
-playcore.version.code
-_unverified
 PLATFORM_ENCODED
 topLeft
 location
 getInstance
-ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
 fileType
+ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
 xx
 INT64_LIST_PACKED
 android.intent.extra.PROCESS_TEXT
@@ -2029,12 +1778,9 @@ extraData
 Index:
 none
 type
-onDeferredInstall
 actionLabel
 TextCapitalization.sentences
 IMMERSIVE_STICKY
-review
-com.google.android.play.core.assetpac...
 viewToAnimate
 HapticFeedbackType.mediumImpact
 cont
@@ -2045,8 +1791,8 @@ ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
 DeviceOrientation.portraitUp
 method
 _display_name
-CONSUMED
 android.provider.extra.INITIAL_URI
+CONSUMED
 systemNavigationBarContrastEnforced
 ACTION_ARGUMENT_SELECTION_START_INT
 push
@@ -2070,17 +1816,16 @@ dark
 oneTimeCode
 copy
 precise
-java.lang.Number
 animatorSet
+java.lang.Number
 suggest_intent_data_id
-sharedElements
 initializer
+sharedElements
 SystemChrome.setPreferredOrientations
 help
 phoneNumberDevice
 flutter/deferredcomponent
 elements
-compression_format
 sharedPreferencesDataStore
 URI_MASKABLE
 ON_CREATE
@@ -2088,14 +1833,9 @@ HAS_ENABLED_STATE
 data
 IS_ENABLED
 ON_RESUME
-notification_timeout
-ERROR_APP_NOT_OWNED
 getWindowExtensionsMethod
-dexElements
 asyncTraceBegin
 TextCapitalization.characters
-assets
-ERROR_INTERNAL_ERROR
 create
 TRANSFORM
 tag
@@ -2112,20 +1852,17 @@ transition_animation_scale
 swipeEdge
 Active
 postalAddress
-kotlin.collections.Iterable
 telephoneNumberDevice
+kotlin.collections.Iterable
 files
 send
 calling_package
 newState
 mChildNodeIds
 kotlin.collections.Map.Entry
-nonblocking.destructive.intent
 line
 IS_CHECKED
-split_file_intents
 mAccessibilityDelegate
-fileStatus
 isPrimary
 DiscouragedPrivateApi
 kotlin.collections.Set
@@ -2134,7 +1871,6 @@ androidx.activity.result.contract.ext...
 getWindowLayoutInfo
 factory
 java.util.Iterator
-com.android.vending.splits
 onWindowFocusChanged
 TextInputClient.performAction
 org.robolectric.Robolectric
@@ -2149,8 +1885,8 @@ fragment
 getState
 boolean
 migrations
-FLOAT_LIST_PACKED
 /file_picker/
+FLOAT_LIST_PACKED
 arguments
 emit
 SCROLL_DOWN
@@ -2230,7 +1966,6 @@ Marking attr:clearTop:2130903120 used because it matches string pool constant cl
 Marking id:right:2131230861 used because it matches string pool constant right
 Marking id:right_icon:2131230862 used because it matches string pool constant right
 Marking id:right_side:2131230863 used because it matches string pool constant right
-Marking dimen:notification_subtext_size:2131099760 used because it matches string pool constant notification_subtext
 Marking id:info:2131230830 used because it matches string pool constant info
 Marking attr:coordinatorLayoutStyle:2130903145 used because it matches string pool constant coordinator
 Marking attr:customNavigationLayout:2130903146 used because it matches string pool constant custom
@@ -2304,9 +2039,6 @@ Marking id:text:2131230913 used because it matches string pool constant text
 Marking id:text2:2131230914 used because it matches string pool constant text
 Marking id:textSpacerNoButtons:2131230915 used because it matches string pool constant text
 Marking id:textSpacerNoTitle:2131230916 used because it matches string pool constant text
-Marking attr:statusBarBackground:2130903343 used because it matches string pool constant status
-Marking integer:status_bar_notification_info_maxnum:2131296262 used because it matches string pool constant status
-Marking string:status_bar_notification_info_overflow:2131558440 used because it matches string pool constant status
 Marking attr:menu:2130903261 used because it matches string pool constant menu
 Marking attr:entries:2130903184 used because it matches string pool constant entries
 Marking attr:background:2130903097 used because it matches string pool constant background
@@ -2495,15 +2227,6 @@ Marking dimen:item_touch_helper_swipe_escape_velocity:2131099747 used because it
 Marking id:italic:2131230831 used because it matches string pool constant it
 Marking id:item_touch_helper_previous_elevation:2131230832 used because it matches string pool constant it
 Marking id:off:2131230849 used because it matches string pool constant off
-Marking attr:splitLayoutDirection:2130903332 used because it matches string pool constant split
-Marking attr:splitMaxAspectRatioInLandscape:2130903333 used because it matches string pool constant split
-Marking attr:splitMaxAspectRatioInPortrait:2130903334 used because it matches string pool constant split
-Marking attr:splitMinHeightDp:2130903335 used because it matches string pool constant split
-Marking attr:splitMinSmallestWidthDp:2130903336 used because it matches string pool constant split
-Marking attr:splitMinWidthDp:2130903337 used because it matches string pool constant split
-Marking attr:splitRatio:2130903338 used because it matches string pool constant split
-Marking attr:splitTrack:2130903339 used because it matches string pool constant split
-Marking id:split_action_bar:2131230891 used because it matches string pool constant split
 Marking attr:entryValues:2130903185 used because it matches string pool constant entry
 Marking id:on:2131230850 used because it matches string pool constant on
 Marking attr:activityAction:2130903073 used because it matches string pool constant activity
@@ -2914,18 +2637,18 @@ Marking id:fragment_container_view_tag:2131230818 used because it matches string
 @attr/spinBars : reachable=false
 @attr/spinnerDropDownItemStyle : reachable=false
 @attr/spinnerStyle : reachable=false
-@attr/splitLayoutDirection : reachable=true
-@attr/splitMaxAspectRatioInLandscape : reachable=true
-@attr/splitMaxAspectRatioInPortrait : reachable=true
-@attr/splitMinHeightDp : reachable=true
-@attr/splitMinSmallestWidthDp : reachable=true
-@attr/splitMinWidthDp : reachable=true
-@attr/splitRatio : reachable=true
-@attr/splitTrack : reachable=true
+@attr/splitLayoutDirection : reachable=false
+@attr/splitMaxAspectRatioInLandscape : reachable=false
+@attr/splitMaxAspectRatioInPortrait : reachable=false
+@attr/splitMinHeightDp : reachable=false
+@attr/splitMinSmallestWidthDp : reachable=false
+@attr/splitMinWidthDp : reachable=false
+@attr/splitRatio : reachable=false
+@attr/splitTrack : reachable=false
 @attr/srcCompat : reachable=false
 @attr/stackFromEnd : reachable=false
 @attr/state_above_anchor : reachable=true
-@attr/statusBarBackground : reachable=true
+@attr/statusBarBackground : reachable=false
 @attr/stickyPlaceholder : reachable=false
 @attr/subMenuArrow : reachable=false
 @attr/submitBackground : reachable=false
@@ -3730,7 +3453,7 @@ Marking id:fragment_container_view_tag:2131230818 used because it matches string
 @integer/config_tooltipAnimTime : reachable=false
 @integer/preferences_detail_pane_weight : reachable=true
 @integer/preferences_header_pane_weight : reachable=true
-@integer/status_bar_notification_info_maxnum : reachable=true
+@integer/status_bar_notification_info_maxnum : reachable=false
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0 : reachable=false
 @interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1 : reachable=false
 @interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0 : reachable=false
@@ -3985,7 +3708,7 @@ Marking id:fragment_container_view_tag:2131230818 used because it matches string
 @string/not_set : reachable=true
 @string/preference_copied : reachable=false
 @string/search_menu_title : reachable=true
-@string/status_bar_notification_info_overflow : reachable=true
+@string/status_bar_notification_info_overflow : reachable=false
 @string/summary_collapsed_preference_list : reachable=false
 @string/v7_preference_off : reachable=false
 @string/v7_preference_on : reachable=false
@@ -5388,7 +5111,6 @@ Marking id:fragment_container_view_tag:2131230818 used because it matches string
     @style/Theme_AppCompat
     @attr/windowActionBar
     @attr/windowNoTitle
-@style/Theme_PlayCore_Transparent : reachable=true
 @style/Widget_AppCompat_ActionBar : reachable=false
     @style/Base_Widget_AppCompat_ActionBar
 @style/Widget_AppCompat_ActionBar_Solid : reachable=false
@@ -5672,16 +5394,7 @@ The root reachable resources are:
  attr:searchViewStyle:2130903310
  attr:seekBarPreferenceStyle:2130903314
  attr:shortcutMatchRequired:2130903319
- attr:splitLayoutDirection:2130903332
- attr:splitMaxAspectRatioInLandscape:2130903333
- attr:splitMaxAspectRatioInPortrait:2130903334
- attr:splitMinHeightDp:2130903335
- attr:splitMinSmallestWidthDp:2130903336
- attr:splitMinWidthDp:2130903337
- attr:splitRatio:2130903338
- attr:splitTrack:2130903339
  attr:state_above_anchor:2130903342
- attr:statusBarBackground:2130903343
  attr:switchPreferenceCompatStyle:2130903357
  attr:switchPreferenceStyle:2130903358
  attr:switchStyle:2130903359
@@ -5976,7 +5689,6 @@ The root reachable resources are:
  integer:cancel_button_image_alpha:2131296258
  integer:preferences_detail_pane_weight:2131296260
  integer:preferences_header_pane_weight:2131296261
- integer:status_bar_notification_info_maxnum:2131296262
  layout:abc_action_bar_title_item:2131427328
  layout:abc_action_menu_item_layout:2131427330
  layout:abc_action_mode_close_item_material:2131427333
@@ -6014,10 +5726,8 @@ The root reachable resources are:
  string:copy:2131558435
  string:not_set:2131558437
  string:search_menu_title:2131558439
- string:status_bar_notification_info_overflow:2131558440
  style:LaunchTheme:2131624098
  style:NormalTheme:2131624099
- style:Theme_PlayCore_Transparent:2131624235
 Unused resources are: 
  anim:abc_fade_in:2130771968
  anim:abc_fade_out:2130771969
@@ -6281,6 +5991,7 @@ Unused resources are:
  integer:abc_config_activityDefaultDur:2131296256
  integer:abc_config_activityShortDur:2131296257
  integer:config_tooltipAnimTime:2131296259
+ integer:status_bar_notification_info_maxnum:2131296262
  layout:abc_action_bar_up_container:2131427329
  layout:abc_action_menu_layout:2131427331
  layout:abc_action_mode_bar:2131427332
@@ -6340,6 +6051,7 @@ Unused resources are:
  string:call_notification_screening_text:2131558434
  string:expand_button_title:2131558436
  string:preference_copied:2131558438
+ string:status_bar_notification_info_overflow:2131558440
  string:summary_collapsed_preference_list:2131558441
  string:v7_preference_off:2131558442
  string:v7_preference_on:2131558443
@@ -6626,89 +6338,89 @@ Unused resources are:
  style:Theme_AppCompat_Light_DialogWhenLarge:2131624232
  style:Theme_AppCompat_Light_NoActionBar:2131624233
  style:Theme_AppCompat_NoActionBar:2131624234
- style:ThemeOverlay_AppCompat:2131624236
- style:ThemeOverlay_AppCompat_ActionBar:2131624237
- style:ThemeOverlay_AppCompat_Dark:2131624238
- style:ThemeOverlay_AppCompat_Dark_ActionBar:2131624239
- style:ThemeOverlay_AppCompat_DayNight:2131624240
- style:ThemeOverlay_AppCompat_DayNight_ActionBar:2131624241
- style:ThemeOverlay_AppCompat_Dialog:2131624242
- style:ThemeOverlay_AppCompat_Dialog_Alert:2131624243
- style:ThemeOverlay_AppCompat_Light:2131624244
- style:Widget_AppCompat_ActionBar:2131624245
- style:Widget_AppCompat_ActionBar_Solid:2131624246
- style:Widget_AppCompat_ActionBar_TabBar:2131624247
- style:Widget_AppCompat_ActionBar_TabText:2131624248
- style:Widget_AppCompat_ActionBar_TabView:2131624249
- style:Widget_AppCompat_ActionButton:2131624250
- style:Widget_AppCompat_ActionButton_CloseMode:2131624251
- style:Widget_AppCompat_ActionButton_Overflow:2131624252
- style:Widget_AppCompat_ActionMode:2131624253
- style:Widget_AppCompat_ActivityChooserView:2131624254
- style:Widget_AppCompat_AutoCompleteTextView:2131624255
- style:Widget_AppCompat_Button:2131624256
- style:Widget_AppCompat_Button_Borderless:2131624257
- style:Widget_AppCompat_Button_Borderless_Colored:2131624258
- style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131624259
- style:Widget_AppCompat_Button_Colored:2131624260
- style:Widget_AppCompat_Button_Small:2131624261
- style:Widget_AppCompat_ButtonBar:2131624262
- style:Widget_AppCompat_ButtonBar_AlertDialog:2131624263
- style:Widget_AppCompat_CompoundButton_CheckBox:2131624264
- style:Widget_AppCompat_CompoundButton_RadioButton:2131624265
- style:Widget_AppCompat_CompoundButton_Switch:2131624266
- style:Widget_AppCompat_DrawerArrowToggle:2131624267
- style:Widget_AppCompat_DropDownItem_Spinner:2131624268
- style:Widget_AppCompat_EditText:2131624269
- style:Widget_AppCompat_ImageButton:2131624270
- style:Widget_AppCompat_Light_ActionBar:2131624271
- style:Widget_AppCompat_Light_ActionBar_Solid:2131624272
- style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131624273
- style:Widget_AppCompat_Light_ActionBar_TabBar:2131624274
- style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131624275
- style:Widget_AppCompat_Light_ActionBar_TabText:2131624276
- style:Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131624277
- style:Widget_AppCompat_Light_ActionBar_TabView:2131624278
- style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131624279
- style:Widget_AppCompat_Light_ActionButton:2131624280
- style:Widget_AppCompat_Light_ActionButton_CloseMode:2131624281
- style:Widget_AppCompat_Light_ActionButton_Overflow:2131624282
- style:Widget_AppCompat_Light_ActionMode_Inverse:2131624283
- style:Widget_AppCompat_Light_ActivityChooserView:2131624284
- style:Widget_AppCompat_Light_AutoCompleteTextView:2131624285
- style:Widget_AppCompat_Light_DropDownItem_Spinner:2131624286
- style:Widget_AppCompat_Light_ListPopupWindow:2131624287
- style:Widget_AppCompat_Light_ListView_DropDown:2131624288
- style:Widget_AppCompat_Light_PopupMenu:2131624289
- style:Widget_AppCompat_Light_PopupMenu_Overflow:2131624290
- style:Widget_AppCompat_Light_SearchView:2131624291
- style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131624292
- style:Widget_AppCompat_ListMenuView:2131624293
- style:Widget_AppCompat_ListPopupWindow:2131624294
- style:Widget_AppCompat_ListView:2131624295
- style:Widget_AppCompat_ListView_DropDown:2131624296
- style:Widget_AppCompat_ListView_Menu:2131624297
- style:Widget_AppCompat_PopupMenu:2131624298
- style:Widget_AppCompat_PopupMenu_Overflow:2131624299
- style:Widget_AppCompat_PopupWindow:2131624300
- style:Widget_AppCompat_ProgressBar:2131624301
- style:Widget_AppCompat_ProgressBar_Horizontal:2131624302
- style:Widget_AppCompat_RatingBar:2131624303
- style:Widget_AppCompat_RatingBar_Indicator:2131624304
- style:Widget_AppCompat_RatingBar_Small:2131624305
- style:Widget_AppCompat_SearchView:2131624306
- style:Widget_AppCompat_SearchView_ActionBar:2131624307
- style:Widget_AppCompat_SeekBar:2131624308
- style:Widget_AppCompat_SeekBar_Discrete:2131624309
- style:Widget_AppCompat_Spinner:2131624310
- style:Widget_AppCompat_Spinner_DropDown:2131624311
- style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131624312
- style:Widget_AppCompat_Spinner_Underlined:2131624313
- style:Widget_AppCompat_TextView:2131624314
- style:Widget_AppCompat_TextView_SpinnerItem:2131624315
- style:Widget_AppCompat_Toolbar:2131624316
- style:Widget_AppCompat_Toolbar_Button_Navigation:2131624317
- style:Widget_Support_CoordinatorLayout:2131624320
+ style:ThemeOverlay_AppCompat:2131624235
+ style:ThemeOverlay_AppCompat_ActionBar:2131624236
+ style:ThemeOverlay_AppCompat_Dark:2131624237
+ style:ThemeOverlay_AppCompat_Dark_ActionBar:2131624238
+ style:ThemeOverlay_AppCompat_DayNight:2131624239
+ style:ThemeOverlay_AppCompat_DayNight_ActionBar:2131624240
+ style:ThemeOverlay_AppCompat_Dialog:2131624241
+ style:ThemeOverlay_AppCompat_Dialog_Alert:2131624242
+ style:ThemeOverlay_AppCompat_Light:2131624243
+ style:Widget_AppCompat_ActionBar:2131624244
+ style:Widget_AppCompat_ActionBar_Solid:2131624245
+ style:Widget_AppCompat_ActionBar_TabBar:2131624246
+ style:Widget_AppCompat_ActionBar_TabText:2131624247
+ style:Widget_AppCompat_ActionBar_TabView:2131624248
+ style:Widget_AppCompat_ActionButton:2131624249
+ style:Widget_AppCompat_ActionButton_CloseMode:2131624250
+ style:Widget_AppCompat_ActionButton_Overflow:2131624251
+ style:Widget_AppCompat_ActionMode:2131624252
+ style:Widget_AppCompat_ActivityChooserView:2131624253
+ style:Widget_AppCompat_AutoCompleteTextView:2131624254
+ style:Widget_AppCompat_Button:2131624255
+ style:Widget_AppCompat_Button_Borderless:2131624256
+ style:Widget_AppCompat_Button_Borderless_Colored:2131624257
+ style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131624258
+ style:Widget_AppCompat_Button_Colored:2131624259
+ style:Widget_AppCompat_Button_Small:2131624260
+ style:Widget_AppCompat_ButtonBar:2131624261
+ style:Widget_AppCompat_ButtonBar_AlertDialog:2131624262
+ style:Widget_AppCompat_CompoundButton_CheckBox:2131624263
+ style:Widget_AppCompat_CompoundButton_RadioButton:2131624264
+ style:Widget_AppCompat_CompoundButton_Switch:2131624265
+ style:Widget_AppCompat_DrawerArrowToggle:2131624266
+ style:Widget_AppCompat_DropDownItem_Spinner:2131624267
+ style:Widget_AppCompat_EditText:2131624268
+ style:Widget_AppCompat_ImageButton:2131624269
+ style:Widget_AppCompat_Light_ActionBar:2131624270
+ style:Widget_AppCompat_Light_ActionBar_Solid:2131624271
+ style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131624272
+ style:Widget_AppCompat_Light_ActionBar_TabBar:2131624273
+ style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131624274
+ style:Widget_AppCompat_Light_ActionBar_TabText:2131624275
+ style:Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131624276
+ style:Widget_AppCompat_Light_ActionBar_TabView:2131624277
+ style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131624278
+ style:Widget_AppCompat_Light_ActionButton:2131624279
+ style:Widget_AppCompat_Light_ActionButton_CloseMode:2131624280
+ style:Widget_AppCompat_Light_ActionButton_Overflow:2131624281
+ style:Widget_AppCompat_Light_ActionMode_Inverse:2131624282
+ style:Widget_AppCompat_Light_ActivityChooserView:2131624283
+ style:Widget_AppCompat_Light_AutoCompleteTextView:2131624284
+ style:Widget_AppCompat_Light_DropDownItem_Spinner:2131624285
+ style:Widget_AppCompat_Light_ListPopupWindow:2131624286
+ style:Widget_AppCompat_Light_ListView_DropDown:2131624287
+ style:Widget_AppCompat_Light_PopupMenu:2131624288
+ style:Widget_AppCompat_Light_PopupMenu_Overflow:2131624289
+ style:Widget_AppCompat_Light_SearchView:2131624290
+ style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131624291
+ style:Widget_AppCompat_ListMenuView:2131624292
+ style:Widget_AppCompat_ListPopupWindow:2131624293
+ style:Widget_AppCompat_ListView:2131624294
+ style:Widget_AppCompat_ListView_DropDown:2131624295
+ style:Widget_AppCompat_ListView_Menu:2131624296
+ style:Widget_AppCompat_PopupMenu:2131624297
+ style:Widget_AppCompat_PopupMenu_Overflow:2131624298
+ style:Widget_AppCompat_PopupWindow:2131624299
+ style:Widget_AppCompat_ProgressBar:2131624300
+ style:Widget_AppCompat_ProgressBar_Horizontal:2131624301
+ style:Widget_AppCompat_RatingBar:2131624302
+ style:Widget_AppCompat_RatingBar_Indicator:2131624303
+ style:Widget_AppCompat_RatingBar_Small:2131624304
+ style:Widget_AppCompat_SearchView:2131624305
+ style:Widget_AppCompat_SearchView_ActionBar:2131624306
+ style:Widget_AppCompat_SeekBar:2131624307
+ style:Widget_AppCompat_SeekBar_Discrete:2131624308
+ style:Widget_AppCompat_Spinner:2131624309
+ style:Widget_AppCompat_Spinner_DropDown:2131624310
+ style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131624311
+ style:Widget_AppCompat_Spinner_Underlined:2131624312
+ style:Widget_AppCompat_TextView:2131624313
+ style:Widget_AppCompat_TextView_SpinnerItem:2131624314
+ style:Widget_AppCompat_Toolbar:2131624315
+ style:Widget_AppCompat_Toolbar_Button_Navigation:2131624316
+ style:Widget_Support_CoordinatorLayout:2131624319
 Skipped unused resource res/anim/abc_fade_in.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/anim/abc_fade_out.xml: 549 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/anim/abc_grow_fade_in_from_bottom.xml: 1458 bytes (replaced with small dummy file of size 9 bytes)

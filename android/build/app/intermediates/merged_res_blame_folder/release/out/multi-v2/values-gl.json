@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-40:/values-gl/values-gl.xml",
+            "outputFile": "com.example.mediswitch.app-mergeReleaseResources-39:/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mmlot\\.gradle\\caches\\8.10.2\\transforms\\c26fc3a361bbeb9189ef3d6ab521cc49\\transformed\\appcompat-1.1.0\\res\\values-gl\\values-gl.xml",

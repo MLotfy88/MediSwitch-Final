@@ -33,10 +33,10 @@ io.flutter.plugins.sharedpreferences.shared_preferences_android-fragment-1.7.1-3
 io.flutter.plugins.sharedpreferences.shared_preferences_android-preference-1.2.1-32 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\f593e079cd0e9d3750e1ffdc98b0cdac\transformed\preference-1.2.1\res
 io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-profileinstaller-1.3.1-33 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fa000eb9cf7db150ef21d2515b855c84\transformed\jetified-profileinstaller-1.3.1\res
 io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-core-ktx-1.13.1-34 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fe55d137b5057666fd0a5a59309e2423\transformed\jetified-core-ktx-1.13.1\res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-main-35 C:\Users\mmlot\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.8\android\src\main\res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-release-36 C:\Users\mmlot\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.8\android\src\release\res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-pngs-37 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\generated\res\pngs\release
-io.flutter.plugins.sharedpreferences.shared_preferences_android-resValues-38 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\generated\res\resValues\release
-io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-39 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-40 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-41 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\merged_res\release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-pngs-35 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\generated\res\pngs\release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-resValues-36 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\generated\res\resValues\release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-37 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-38 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-39 G:\App\myapps\New\mediswitch\android\build\shared_preferences_android\intermediates\merged_res\release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-main-40 G:\App\myapps\setup\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.8\android\src\main\res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-release-41 G:\App\myapps\setup\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.8\android\src\release\res

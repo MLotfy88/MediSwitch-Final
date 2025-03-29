@@ -1,2 +1,0 @@
-G:/App/myapps/New/mediswitch/android/app/.cxx/Debug/65496e71/x86/CMakeFiles/edit_cache.dir
-G:/App/myapps/New/mediswitch/android/app/.cxx/Debug/65496e71/x86/CMakeFiles/rebuild_cache.dir

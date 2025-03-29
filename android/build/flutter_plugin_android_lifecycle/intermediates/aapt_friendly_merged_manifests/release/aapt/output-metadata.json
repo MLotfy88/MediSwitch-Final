@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "io.flutter.plugins.flutter_plugin_android_lifecycle",
-  "variantName": "debug",
+  "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",

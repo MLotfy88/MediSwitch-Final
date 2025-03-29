@@ -18,10 +18,10 @@ io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-java-1.2.0-1
 io.flutter.plugins.flutter_plugin_android_lifecycle-fragment-1.7.1-17 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\f408b6b4044d28a379df6387cb731b41\transformed\fragment-1.7.1\res
 io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-profileinstaller-1.3.1-18 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fa000eb9cf7db150ef21d2515b855c84\transformed\jetified-profileinstaller-1.3.1\res
 io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-core-ktx-1.13.1-19 C:\Users\mmlot\.gradle\caches\8.10.2\transforms\fe55d137b5057666fd0a5a59309e2423\transformed\jetified-core-ktx-1.13.1\res
-io.flutter.plugins.flutter_plugin_android_lifecycle-main-20 C:\Users\mmlot\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.27\android\src\main\res
-io.flutter.plugins.flutter_plugin_android_lifecycle-release-21 C:\Users\mmlot\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.27\android\src\release\res
-io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-22 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
-io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-23 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-24 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-25 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-26 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-20 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-21 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-22 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-23 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-24 G:\App\myapps\New\mediswitch\android\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-25 G:\App\myapps\setup\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.27\android\src\main\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-26 G:\App\myapps\setup\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.27\android\src\release\res
