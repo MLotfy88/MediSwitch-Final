@@ -1,29 +1,26 @@
 name: Build Android APK
 
-# Basic workflow metadata
+# Updated timestamp
+env:
+  BUILD_TIME: '2025-03-29 13:11:52'
+  BUILDER: 'MLotfy88'
+
+permissions:
+  contents: write
+  actions: write
+  checks: write
+  deployments: write
+  pages: write
+  pull-requests: write
+  security-events: write
+  statuses: write
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-
-# Environment variables
-env:
-  BUILD_TIMESTAMP: '2025-03-29 13:05:00'
-  BUILDER: 'MLotfy88'
-
-# Permissions configuration
-permissions:
-  actions: write
-  checks: write
-  contents: write
-  deployments: write
-  pages: write
-  pull-requests: write
-  security-events: write
-  statuses: write
-  metadata: read
 
 jobs:
   build:
@@ -32,6 +29,24 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify Flutter Project
+        run: |
+          echo "Verifying project structure..."
+          if [ ! -f "pubspec.yaml" ]; then
+            echo "Error: pubspec.yaml not found"
+            exit 1
+          fi
+          if [ ! -d "lib" ]; then
+            echo "Error: lib directory not found"
+            exit 1
+          fi
+          if [ ! -d "android" ]; then
+            echo "Error: android directory not found"
+            exit 1
+          fi
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -40,121 +55,48 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      - name: Install CMake
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y cmake ninja-build
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v2
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install Android SDK components
-        run: |
-          sdkmanager --install "platform-tools" "platforms;android-33" "build-tools;33.0.0" "ndk;25.1.8937393"
-          echo "y" | sdkmanager --licenses
-
-      - name: Setup Gradle
-        run: |
-          cd android
-          chmod +x ./gradlew
-          cat << EOF > gradle.properties
-          org.gradle.jvmargs=-Xmx4096M -Dfile.encoding=UTF-8
-          org.gradle.daemon=false
-          org.gradle.parallel=true
-          android.useAndroidX=true
-          android.enableJetifier=true
-          android.defaults.buildfeatures.buildconfig=true
-          android.nonTransitiveRClass=false
-          android.ndkVersion=25.1.8937393
-          EOF
-          echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
-          echo "ndk.dir=$ANDROID_SDK_ROOT/ndk/25.1.8937393" >> local.properties
-
-      - name: Set up Flutter
+      - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
+          flutter-version: '3.19.3'
           channel: 'stable'
           cache: true
 
-      - name: Initialize Flutter
+      - name: Install dependencies
         run: |
           flutter pub get
           flutter clean
-          cd android
-          ./gradlew clean
-          cd ..
-          mkdir -p .dart_tool
-          flutter pub get --verbose
-          flutter pub run build_runner build --delete-conflicting-outputs || true
 
-      - name: Setup Debug Keystore
+      - name: Setup Gradle
+        working-directory: android
         run: |
-          mkdir -p ~/.android
-          keytool -genkey -v \
-            -keystore ~/.android/debug.keystore \
-            -storepass android \
-            -alias androiddebugkey \
-            -keypass android \
-            -keyalg RSA \
-            -keysize 2048 \
-            -validity 10000 \
-            -dname "CN=Android Debug,O=Android,C=US"
+          chmod +x ./gradlew
+          ./gradlew clean
 
       - name: Build APK
-        env:
-          ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
         run: |
-          echo "Starting APK build..."
-          flutter clean
-          
-          echo "Building with Gradle..."
-          cd android
-          ./gradlew clean
-          ./gradlew assembleRelease --stacktrace
-          cd ..
-          
-          echo "Building with Flutter..."
           flutter build apk --release --verbose
-          
-          echo "Build completed, checking outputs..."
-          echo "Android outputs:"
-          ls -la android/app/build/outputs/apk/release/
-          echo "Flutter outputs:"
-          ls -la build/app/outputs/flutter-apk/ || echo "Flutter output directory not found"
 
-      - name: Add Build Info
-        if: success()
+      - name: Create build info
         run: |
-          {
-            echo "Build Information"
-            echo "================="
-            echo "Build Date: ${{ env.BUILD_TIMESTAMP }}"
-            echo "Builder: ${{ env.BUILDER }}"
-            echo ""
-            echo "System Information"
-            echo "=================="
-            echo "$(uname -a)"
-            echo ""
-            echo "Flutter Version"
-            echo "=============="
-            flutter --version
-          } > build_info.txt
+          echo "Build Information" > build_info.txt
+          echo "================" >> build_info.txt
+          echo "Build Time: $BUILD_TIME" >> build_info.txt
+          echo "Builder: $BUILDER" >> build_info.txt
+          echo "Flutter Version: $(flutter --version | head -n 1)" >> build_info.txt
 
-      - name: Upload APK Artifact
-        if: success()
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: |
-            build/app/outputs/flutter-apk/app-release.apk
-            android/app/build/outputs/apk/release/app-release.apk
-            build_info.txt
+          path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
 
       - name: Upload Build Info
-        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: build-info
           path: build_info.txt
-          retention-days: 30
