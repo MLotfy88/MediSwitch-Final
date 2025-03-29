@@ -1,19 +1,23 @@
+// android/build.gradle (بعد التعديل)
+
 buildscript {
     ext {
         kotlin_version = "1.8.22"
-        flutterRoot = "G:\\App\\myapps\\setup\\flutter"
+        // تم حذف flutterRoot من هنا لأنه مسار ثابت لنظام Windows ولن يعمل في CI
     }
-    repositories {
-        google()
-        mavenCentral()
+    // تم حذف repositories { ... } من هنا
+
+    // تأكد من وجود قسم dependencies هنا إذا كان مطلوبًا للمشروع
+    // (عادة يحتوي على classpath 'com.android.tools.build:gradle:...' و classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:...')
+    dependencies {
+        // مثال (قد تحتاج لإضافة هذه الأسطر إذا لم تكن موجودة):
+        // classpath 'com.android.tools.build:gradle:8.1.0' // استخدم الإصدار المناسب لمشروعك
+        // classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+    // تم حذف repositories { ... } من هنا
 }
 
 subprojects {
