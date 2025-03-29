@@ -1,4 +1,6 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+# تحديد صورة أساسية افتراضية إذا لم يتم تمرير متغير BASE_IMAGE
+ARG BASE_IMAGE=mcr.microsoft.com/devcontainers/base:ubuntu
+FROM ${BASE_IMAGE}
 
 USER root
 
