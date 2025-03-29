@@ -71,11 +71,10 @@ ENV PATH="$DART_SDK/bin:$PATH"
 
 # 8. إصلاح أذونات وملكية ملفات Flutter
 RUN mkdir -p /usr/local/flutter/bin/cache/artifacts/gradle_wrapper && \
-    chown -R gitpod:gitpod /usr/local/flutter && \
-    chmod -R 777 /usr/local/flutter
+    chown -R root:root /usr/local/flutter && \
+    chmod -R 755 /usr/local/flutter
 
-# 9. تهيئة Flutter كـ gitpod
-USER gitpod
+# 9. تهيئة Flutter
 RUN flutter config --no-analytics && \
     flutter precache --no-android --no-ios --no-web --no-linux --no-windows --no-macos --no-fuchsia && \
     flutter doctor
