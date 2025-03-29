@@ -9,14 +9,17 @@ import '../repositories/drug_repository.dart';
 // For now, assuming no parameters are needed.
 // If a base UseCase<Type, Params> interface is defined in core/usecases, implement it.
 // Example: class GetAllDrugs implements UseCase<List<DrugEntity>, NoParams> {
-class GetAllDrugs {
+class GetAllDrugs implements UseCase<List<DrugEntity>, NoParams> {
+  // Implement the UseCase interface
   final DrugRepository repository;
 
   GetAllDrugs(this.repository);
 
   // The call method executes the use case.
   // It calls the corresponding method in the repository.
-  Future<Either<Failure, List<DrugEntity>>> call() async {
+  @override // Add override annotation
+  Future<Either<Failure, List<DrugEntity>>> call(NoParams params) async {
+    // Accept NoParams
     // In a real app, you might add pre-call logic here if needed.
     return await repository.getAllDrugs();
   }

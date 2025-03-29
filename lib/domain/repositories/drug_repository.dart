@@ -5,7 +5,15 @@ import '../entities/drug_entity.dart';
 
 abstract class DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs();
-  // Add other methods as needed, e.g.:
-  // Future<Either<Failure, List<DrugEntity>>> searchDrugs(String query);
-  // Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(String category);
+
+  /// Searches drugs by name (trade name or Arabic name)
+  Future<Either<Failure, List<DrugEntity>>> searchDrugs(String query);
+
+  /// Filters drugs by category
+  Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(
+    String category,
+  );
+
+  /// Gets all available categories
+  Future<Either<Failure, List<String>>> getAvailableCategories();
 }

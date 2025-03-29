@@ -26,7 +26,8 @@
     "remoteUser": "root",
     "containerEnv": {
         "SHELL": "/bin/bash",
-        "DISPLAY": ":0"
+        "DISPLAY": ":0",
+        "DOTFILES_MARKER": "false"
     },
     "runArgs": ["--init", "--privileged"],
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
