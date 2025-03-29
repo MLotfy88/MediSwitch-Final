@@ -73,10 +73,14 @@ ENV PATH="$DART_SDK/bin:$PATH"
 
 # 8. إصلاح أذونات وملكية ملفات Flutter
 RUN mkdir -p /usr/local/flutter/bin/cache/artifacts/gradle_wrapper && \
-    chown -R root:root /usr/local/flutter && \
+    mkdir -p /home/vscode && \
+    chown -R 1000:1000 /home/vscode && \
+    chown -R 1000:1000 /usr/local/flutter && \
     chmod -R 755 /usr/local/flutter
 
 # 9. تهيئة Flutter
+USER 1000:1000
+ENV HOME=/home/vscode
 RUN flutter config --no-analytics && \
     flutter precache --no-android --no-ios --no-web --no-linux --no-windows --no-macos --no-fuchsia && \
     flutter doctor
