@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../models/medicine.dart';
-import '../main.dart';
+import '../../data/models/medicine_model.dart'; // Keep for details temporarily? No, use Entity.
+import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
+import '../bloc/medicine_provider.dart'; // Corrected provider path
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -22,14 +23,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final medicineProvider = Provider.of<MedicineProvider>(context);
-    // Removed duplicate declaration below
+    // Use watch for continuous listening, or select for specific properties
+    final medicineProvider = context.watch<MedicineProvider>();
     final medicines =
-        medicineProvider.filteredMedicines; // Use filtered list for display
+        medicineProvider.filteredMedicines; // Now List<DrugEntity>
     final isLoading = medicineProvider.isLoading;
     final error = medicineProvider.error;
-    final categories =
-        medicineProvider.categories; // Get categories from provider
+    final categories = medicineProvider.categories;
 
     return Scaffold(
       appBar: AppBar(
@@ -38,9 +38,14 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
-            onPressed: () {
-              medicineProvider.loadMedicines();
-            },
+            onPressed:
+                isLoading
+                    ? null
+                    : () {
+                      // Disable while loading
+                      medicineProvider.loadMedicines();
+                    },
+            tooltip: 'تحديث البيانات',
           ),
         ],
       ),
@@ -50,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.all(16.0),
             child: Column(
               children: [
-                // حقل البحث
+                // Search Field
                 TextField(
                   controller: _searchController,
                   decoration: InputDecoration(
@@ -76,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 ),
                 const SizedBox(height: 16.0),
-                // قائمة الفئات
+                // Category Chips
                 if (categories.isNotEmpty)
                   SizedBox(
                     height: 50,
@@ -123,16 +128,15 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
-          // عرض رسالة الخطأ إذا وجدت
-          if (error.isNotEmpty)
+          // Loading/Error Indicator
+          if (isLoading)
+            const Expanded(child: Center(child: CircularProgressIndicator()))
+          else if (error.isNotEmpty)
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(error, style: const TextStyle(color: Colors.red)),
-            ),
-          // عرض مؤشر التحميل أثناء تحميل البيانات
-          if (isLoading)
-            const Expanded(child: Center(child: CircularProgressIndicator()))
-          // عرض قائمة الأدوية
+            )
+          // Medicine List
           else
             Expanded(
               child:
@@ -143,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       : ListView.builder(
                         itemCount: medicines.length,
                         itemBuilder: (context, index) {
-                          final medicine = medicines[index];
+                          final drug = medicines[index]; // Now DrugEntity
                           return Card(
                             margin: const EdgeInsets.symmetric(
                               horizontal: 16.0,
@@ -151,7 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             child: ListTile(
                               title: Text(
-                                medicine.tradeName,
+                                drug.tradeName, // Use DrugEntity field
                                 style: const TextStyle(
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -159,17 +163,21 @@ class _HomeScreenState extends State<HomeScreen> {
                               subtitle: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text(medicine.arabicName),
+                                  Text(drug.arabicName), // Use DrugEntity field
                                   const SizedBox(height: 4.0),
-                                  Text('السعر: ${medicine.price} جنيه'),
-                                  if (medicine.mainCategory.isNotEmpty)
-                                    Text('الفئة: ${medicine.mainCategory}'),
+                                  Text(
+                                    'السعر: ${drug.price} جنيه',
+                                  ), // Use DrugEntity field
+                                  if (drug.mainCategory.isNotEmpty)
+                                    Text(
+                                      'الفئة: ${drug.mainCategory}',
+                                    ), // Use DrugEntity field
                                 ],
                               ),
-                              isThreeLine: true,
+                              isThreeLine: true, // Adjust based on content
                               onTap: () {
-                                // عرض تفاصيل الدواء عند النقر عليه
-                                _showMedicineDetails(context, medicine);
+                                // Pass DrugEntity to details
+                                _showMedicineDetails(context, drug);
                               },
                             ),
                           );
@@ -181,8 +189,9 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // عرض تفاصيل الدواء في نافذة منبثقة
-  void _showMedicineDetails(BuildContext context, Medicine medicine) {
+  // Show details using DrugEntity
+  void _showMedicineDetails(BuildContext context, DrugEntity drug) {
+    // Changed type to DrugEntity
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -212,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 16.0),
                 Text(
-                  medicine.tradeName,
+                  drug.tradeName, // Use DrugEntity field
                   style: const TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
@@ -220,24 +229,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 8.0),
                 Text(
-                  medicine.arabicName,
+                  drug.arabicName, // Use DrugEntity field
                   style: const TextStyle(fontSize: 18.0),
                 ),
                 const Divider(),
-                _buildDetailRow('السعر الحالي', '${medicine.price} جنيه'),
-                if (medicine.oldPrice.isNotEmpty)
-                  _buildDetailRow('السعر القديم', '${medicine.oldPrice} جنيه'),
-                _buildDetailRow('الشركة المصنعة', medicine.company),
-                _buildDetailRow('الفئة الرئيسية', medicine.mainCategoryAr),
-                _buildDetailRow('الفئة الفرعية', medicine.categoryAr),
-                _buildDetailRow('الشكل الدوائي', medicine.dosageFormAr),
-                _buildDetailRow('الوحدة', medicine.unit),
-                if (medicine.usage.isNotEmpty)
-                  _buildDetailRow('الاستخدام', medicine.usageAr),
-                if (medicine.description.isNotEmpty)
-                  _buildDetailRow('الوصف', medicine.description),
-                if (medicine.lastPriceUpdate.isNotEmpty)
-                  _buildDetailRow('آخر تحديث للسعر', medicine.lastPriceUpdate),
+                _buildDetailRow(
+                  'السعر الحالي',
+                  '${drug.price} جنيه',
+                ), // Use DrugEntity field
+                _buildDetailRow(
+                  'الفئة الرئيسية',
+                  drug.mainCategory,
+                ), // Use DrugEntity field
+                // Add more details here later by adding fields to DrugEntity
+                // and mapping them in DrugRepositoryImpl
+                // Example: _buildDetailRow('الشركة المصنعة', drug.company),
               ],
             ),
           ),
@@ -246,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // بناء صف لعرض التفاصيل
+  // Helper to build detail row (unchanged)
   Widget _buildDetailRow(String label, String value) {
     if (value.isEmpty) return const SizedBox.shrink();
     return Padding(

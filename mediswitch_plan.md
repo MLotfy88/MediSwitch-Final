@@ -19,7 +19,7 @@
     *   `[x]` 0.1.2. اعتماد HTTPS فقط لتأمين نقل الملفات.
     *   `[x]` 0.1.3. اعتماد آلية تحديث عبر فحص الإصدار عند التشغيل مع إشعار للمستخدم.
     *   `[ ]` 0.1.4. تحديد إطار عمل الـ Backend النهائي (مثل Node.js/Express أو Python/Django).
-    *   `[ ]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (مثل Provider, Riverpod, أو Bloc).
+    *   `[ ]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (مثل Provider, Riverpod, أو Bloc). (Provider is used, but maybe not final)
     *   `[ ]` 0.1.6. تحديد حل حقن التبعيات النهائي (مثل get_it).
 *   **0.2. إعداد بيئات التطوير والمستودعات:**
     *   `[ ]` 0.2.1. تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web.
@@ -28,19 +28,19 @@
     *   `[ ]` 0.2.4. إعداد بيئة التطوير المحلية (IDE, API Client).
     *   `[ ]` 0.2.5. توثيق خطوات إعداد وتمكين Wi-Fi Debugging (ADB) في `README.md`.
 *   **0.3. بناء هيكل مشروع الواجهة الأمامية (Flutter - `lib`):**
-    *   `[ ]` 0.3.1. تنفيذ هيكل المجلدات (Clean Architecture: core, data, domain, presentation, config, di).
-    *   `[ ]` 0.3.2. إنشاء ملفات `.dart` أولية فارغة للمكونات الرئيسية.
+    *   `[x]` 0.3.1. تنفيذ هيكل المجلدات (Clean Architecture: core, data, domain, presentation, config, di). (Directories created)
+    *   `[~]` 0.3.2. إنشاء ملفات `.dart` أولية فارغة للمكونات الرئيسية. (Placeholders created for core, data, domain)
 *   **0.4. بناء هيكل مشروع الواجهة الخلفية (Backend):**
     *   `[ ]` 0.4.1. تنفيذ هيكل المجلدات المختار.
     *   `[ ]` 0.4.2. إعداد ملفات التكوين الأساسية (`.env`).
 *   **0.5. إضافة وإدارة التبعيات:**
-    *   `[ ]` 0.5.1. (Frontend) إضافة التبعيات إلى `pubspec.yaml`.
+    *   `[x]` 0.5.1. (Frontend) إضافة التبعيات إلى `pubspec.yaml`. (Core dependencies added)
     *   `[ ]` 0.5.2. (Backend) إضافة التبعيات إلى `package.json` أو `requirements.txt`.
     *   `[ ]` 0.5.3. إعداد أدوات إدارة الإصدارات (FVM؟).
 *   **0.6. إعداد أدوات الجودة والأداء:**
     *   `[ ]` 0.6.1. تفعيل وتخصيص قواعد lint صارمة (Frontend).
     *   `[ ]` 0.6.2. إعداد linter مماثل للـ Backend.
-    *   `[ ]` 0.6.3. إنشاء نموذج أولي (Prototype) لاختبار قراءة Excel/CSV باستخدام `compute()`.
+    *   `[x]` 0.6.3. إنشاء نموذج أولي (Prototype) لاختبار قراءة Excel/CSV باستخدام `compute()`. (Implemented in CsvLocalDataSource)
 *   **0.7. تصميم الواجهة (UI/UX) الأولي:**
     *   `[ ]` 0.7.1. البحث عن رابط Figma أو إنشاء Wireframes أساسية.
     *   `[ ]` 0.7.2. تحديد لوحة الألوان النهائية والخطوط.
@@ -87,57 +87,57 @@
         *   `[ ]` 2.1.1.1. تنفيذ استدعاء `GET /api/v1/data/version`.
         *   `[ ]` 2.1.1.2. تنفيذ استدعاء `GET /api/v1/data/latest-drugs.{ext}`.
         *   `[ ]` 2.1.1.3. معالجة أخطاء الشبكة.
-    *   `[ ]` 2.1.2. **`LocalDataSource`:**
+    *   `[~]` 2.1.2. **`LocalDataSource`:** (Partially covered by `CsvLocalDataSource`)
         *   `[ ]` 2.1.2.1. استخدام `path_provider` للحصول على مسار التخزين.
-        *   `[ ]` 2.1.2.2. تنفيذ حفظ الملف المُنزَّل.
-        *   `[ ]` 2.1.2.3. تنفيذ دالة `parseExcelCsvFile(filePath)` التي تعمل داخل `compute()`.
+        *   `[ ]` 2.1.2.2. تنفيذ حفظ الملف المُنزَّل.
+        *   `[x]` 2.1.2.3. تنفيذ دالة `parseExcelCsvFile(filePath)` التي تعمل داخل `compute()`. (Implemented in CsvLocalDataSource)
         *   `[ ]` 2.1.2.4. تنفيذ قراءة/كتابة آخر إصدار/تاريخ تحديث محلي (`shared_preferences`).
-    *   `[ ]` 2.1.3. **`DrugRepositoryImpl`:**
-        *   `[ ]` 2.1.3.1. تنفيذ دالة `getDrugs()` للتحقق من التحديث، التنزيل، التحليل (باستخدام `compute()`).
+    *   `[~]` 2.1.3. **`DrugRepositoryImpl`:** (Basic implementation for getAllDrugs)
+        *   `[ ]` 2.1.3.1. تنفيذ دالة `getDrugs()` للتحقق من التحديث، التنزيل، التحليل (باستخدام `compute()`). (getAllDrugs implemented, not full getDrugs logic)
         *   `[ ]` 2.1.3.2. بناء فهارس `Map` في الذاكرة بعد التحليل.
-        *   `[ ]` 2.1.3.3. تحويل `List<DrugModel>` إلى `List<DrugEntity>`.
+        *   `[x]` 2.1.3.3. تحويل `List<DrugModel>` إلى `List<DrugEntity>`. (Done in getAllDrugs)
         *   `[ ]` 2.1.3.4. تخزين البيانات والفهارس في الذاكرة (عبر State Management).
-        *   `[ ]` 2.1.3.5. معالجة الأخطاء وإرجاع حالة مناسبة (`Either<Failure, ...>`).
+        *   `[x]` 2.1.3.5. معالجة الأخطاء وإرجاع حالة مناسبة (`Either<Failure, ...>`). (Done in getAllDrugs)
 *   **2.2. بناء طبقة المجال (`Domain Layer`):**
-    *   `[ ]` 2.2.1. تعريف `DrugEntity`.
-    *   `[ ]` 2.2.2. تعريف `DrugRepository` interface.
-    *   `[ ]` 2.2.3. بناء Use Cases الأساسية (GetInitial, Search, GetDetails, ...).
+    *   `[x]` 2.2.1. تعريف `DrugEntity`. (`DrugEntity` defined)
+    *   `[x]` 2.2.2. تعريف `DrugRepository` interface. (Interface defined)
+    *   `[ ]` 2.2.3. بناء Use Cases الأساسية (GetInitial, Search, GetDetails, ...). (GetAllDrugs placeholder created)
 *   **2.3. إدارة الحالة للبيانات:**
-    *   `[ ]` 2.3.1. إعداد `DrugListProvider`/`Bloc`.
-    *   `[ ]` 2.3.2. ربط حالات التحميل (`isLoading`, `error`, `data`) بالواجهة.
+    *   `[x]` 2.3.1. إعداد `DrugListProvider`/`Bloc`. (`MedicineProvider` exists)
+    *   `[x]` 2.3.2. ربط حالات التحميل (`isLoading`, `error`, `data`) بالواجهة. (`HomeScreen` does this)
 
 ---
 
 ### **المرحلة 3: تطوير الواجهة الأمامية - واجهة المستخدم والميزات الأساسية (الأسبوع 6-10)**
 
 *   **3.1. الواجهة الأساسية والشاشة الرئيسية (`HomeScreen`):**
-    *   `[ ]` 3.1.1. `MaterialApp`: السمات، اللغات، التوجيه.
-    *   `[ ]` 3.1.2. `HomeScreen`: `Scaffold`, `AppBar`, `BottomNavigationBar`.
-    *   `[ ]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`.
-    *   `[ ]` 3.1.4. `BottomNavigationBar`: التنقل بين (الرئيسية، الحاسبة، الإعدادات) مع الحفاظ على الحالة.
-    *   `[ ]` 3.1.5. `CustomSearchBar`: ويدجت شريط البحث غير التفاعلي.
+    *   `[x]` 3.1.1. `MaterialApp`: السمات، اللغات، التوجيه. (`main.dart` setup)
+    *   `[x]` 3.1.2. `HomeScreen`: `Scaffold`, `AppBar`, `BottomNavigationBar`. (`home_screen.dart` exists)
+    *   `[x]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`. (`HomeScreen` does this)
+    *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين (الرئيسية، الحاسبة، الإعدادات) مع الحفاظ على الحالة. (`main_screen.dart` handles this)
+    *   `[x]` 3.1.5. `CustomSearchBar`: ويدجت شريط البحث غير التفاعلي. (`HomeScreen` has search bar)
     *   `[ ]` 3.1.6. بناء أقسام اختيارية (المحدثة/المفضلة/الشائعة).
     *   `[ ]` 3.1.7. تطبيق التصميم المتجاوب.
 *   **3.2. شاشة البحث (`SearchScreen`) وتفاصيل الدواء (`DrugDetailsScreen`):**
-    *   `[ ]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`.
-    *   `[ ]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث.
+    *   `[ ]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`. (Search is in HomeScreen currently)
+    *   `[ ]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث. (Logic is in MedicineProvider)
     *   `[ ]` 3.2.3. تطبيق `Debouncer` على `TextField`.
-    *   `[ ]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc.
-    *   `[ ]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر.
-    *   `[ ]` 3.2.6. `ListView.builder` و `DrugCard` لعرض النتائج مع تمييز النص.
-    *   `[ ]` 3.2.7. `DrugDetailsScreen`: استقبال `DrugEntity`, `CustomScrollView`, `SliverAppBar`.
-    *   `[ ]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`.
+    *   `[x]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc. (`MedicineProvider` handles this)
+    *   `[ ]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر. (Filters are ChoiceChips in HomeScreen)
+    *   `[x]` 3.2.6. `ListView.builder` و `DrugCard` لعرض النتائج مع تمييز النص. (`HomeScreen` does this)
+    *   `[~]` 3.2.7. `DrugDetailsScreen`: استقبال `DrugEntity`, `CustomScrollView`, `SliverAppBar`. (Details shown in ModalBottomSheet)
+    *   `[~]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`. (Basic info shown in ModalBottomSheet)
     *   `[ ]` 3.2.9. زر "إيجاد البدائل".
     *   `[ ]` 3.2.10. زر "المفضلة" (Premium).
     *   `[ ]` 3.2.11. استخدام `CachedNetworkImage`.
-*   **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):**
+*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, needs implementation)
     *   `[ ]` 3.3.1. `DoseCalculatorProvider`/`Bloc`.
     *   `[ ]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search).
     *   `[ ]` 3.3.3. إضافة `Form Validation`.
     *   `[ ]` 3.3.4. تنفيذ منطق الحساب.
     *   `[ ]` 3.3.5. عرض النتائج والتحذير (بصري وصوتي).
     *   `[ ]` 3.3.6. زر "حفظ الحساب" (Premium).
-*   **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):**
+*   `[~]` **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):** (`dose_comparison_screen.dart` exists, needs implementation)
     *   `[ ]` 3.4.1. `AlternativesProvider`/`Bloc`.
     *   `[ ]` 3.4.2. استقبال `DrugEntity` الأصلي.
     *   `[ ]` 3.4.3. تنفيذ منطق إيجاد البدائل.
@@ -147,7 +147,7 @@
     *   `[ ]` 3.5.2. `InteractionProvider`/`Bloc`.
     *   `[ ]` 3.5.3. تنفيذ منطق فحص التفاعلات.
     *   `[ ]` 3.5.4. عرض النتائج بوضوح.
-*   **3.6. شاشة الإعدادات (`SettingsScreen`):**
+*   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (Screen exists, needs implementation)
     *   `[ ]` 3.6.1. `SettingsProvider`/`Bloc`.
     *   `[ ]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`).
     *   `[ ]` 3.6.3. تنفيذ تغيير اللغة والمظهر.
@@ -156,7 +156,7 @@
     *   `[ ]` 3.6.6. زر "التحقق من التحديث".
     *   `[ ]` 3.6.7. عرض تاريخ آخر تحديث.
 *   **3.7. دعم العمل دون اتصال:**
-    *   `[ ]` 3.7.1. مراجعة الشاشات للتأكد من عملها بدون اتصال (بعد التحميل الأولي).
+    *   `[~]` 3.7.1. مراجعة الشاشات للتأكد من عملها بدون اتصال (بعد التحميل الأولي). (Current implementation is offline first)
     *   `[ ]` 3.7.2. عرض رسالة مناسبة في حالة عدم وجود بيانات/اتصال.
 
 ---

@@ -35,12 +35,21 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   # sqflite_sqlcipher: ^2.2.1  # Removed: Using CSV directly
-  # path_provider: ^2.1.2  # Removed: Not needed without local DB file
   provider: ^6.1.4  # لإدارة الحالة
   shared_preferences: ^2.5.3  # لتخزين الإعدادات
   # flutter_secure_storage: ^9.0.0  # Removed: Not needed without encryption key
   csv: ^5.1.1  # للتعامل مع ملفات CSV
   file_picker: ^9.2.3  # لاختيار الملفات (May still be needed for future updates?)
+
+  # Added dependencies for Clean Architecture & Features
+  http: ^1.2.1 # For network requests (RemoteDataSource)
+  path_provider: ^2.1.3 # To get local file paths
+  dartz: ^0.10.1 # For Functional Programming (Either type)
+  equatable: ^2.0.5 # For value comparison in Entities/Models
+  google_fonts: ^6.2.1 # For custom fonts (UI)
+  flutter_animate: ^4.5.0 # For UI animations
+  cached_network_image: ^3.3.1 # For caching network images (UI)
+
 
 dev_dependencies:
   flutter_test:
