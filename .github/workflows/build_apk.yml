@@ -2,7 +2,7 @@ name: Build Android APK
 run-name: Build by MLotfy88 at ${{ env.BUILD_TIMESTAMP }}
 
 env:
-  BUILD_TIMESTAMP: "2025-03-29 14:10:39"
+  BUILD_TIMESTAMP: "2025-03-29 14:20:52"
   CURRENT_USER: "MLotfy88"
   JAVA_HOME: /usr/lib/jvm/temurin-17-jdk
 
@@ -41,104 +41,12 @@ jobs:
         run: |
           echo "flutter.sdk=${{ secrets.FLUTTER_ROOT }}" > android/local.properties
           echo "sdk.dir=${{ secrets.ANDROID_SDK_ROOT }}" >> android/local.properties
-
-      - name: Update Gradle Files
-        run: |
-          # تحديث settings.gradle
-          cat << EOF > android/settings.gradle
-          pluginManagement {
-              repositories {
-                  gradlePluginPortal()
-                  google()
-                  mavenCentral()
-              }
-          }
-
-          dependencyResolutionManagement {
-              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-          }
-
-          include ':app'
-          EOF
-          
-          # تحديث build.gradle
-          cat << EOF > android/build.gradle
-          buildscript {
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-              dependencies {
-                  classpath 'com.android.tools.build:gradle:7.3.0'
-                  classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
-              }
-          }
-
-          allprojects {
-              repositories {
-                  google()
-                  mavenCentral()
-              }
-          }
-          EOF
-          
-          # تحديث app/build.gradle
-          cat << EOF > android/app/build.gradle
-          def localProperties = new Properties()
-          def localPropertiesFile = rootProject.file('local.properties')
-          if (localPropertiesFile.exists()) {
-              localPropertiesFile.withReader('UTF-8') { reader ->
-                  localProperties.load(reader)
-              }
-          }
-
-          def flutterRoot = localProperties.getProperty('flutter.sdk')
-          if (flutterRoot == null) {
-              throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-          }
-
-          plugins {
-              id 'com.android.application'
-              id 'kotlin-android'
-              id 'dev.flutter.flutter-gradle-plugin'
-          }
-
-          android {
-              namespace "com.example.mediswitch"
-              compileSdkVersion 33
-              
-              defaultConfig {
-                  applicationId "com.example.mediswitch"
-                  minSdkVersion 21
-                  targetSdkVersion 33
-                  versionCode 1
-                  versionName "1.0"
-              }
-
-              buildTypes {
-                  release {
-                      signingConfig signingConfigs.debug
-                  }
-              }
-          }
-
-          flutter {
-              source '../..'
-          }
-          EOF
+          echo "cmake.dir=${{ secrets.CMAKE_ROOT }}" >> android/local.properties
 
       - name: Build APK
         run: |
           flutter clean
           flutter pub get
-          cd android
-          chmod +x gradlew
-          ./gradlew clean --stacktrace --info
-          cd ..
           flutter build apk --release --verbose
 
       - uses: actions/upload-artifact@v4
