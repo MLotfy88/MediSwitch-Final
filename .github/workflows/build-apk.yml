@@ -1,6 +1,6 @@
 # .github/workflows/build_apk.yml
 
-name: Build Flutter APK (Fallback to Latest Stable)
+name: Build Flutter APK (Direct Gradle)
 
 on:
   push:
@@ -25,90 +25,61 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # --- المحاولة الأولى ---
-      - name: Set up Flutter (Default Version)
+      # لا يزال إعداد Flutter مطلوبًا لتبعيات Dart وأدوات أخرى قد تحتاجها الإضافات
+      - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2'
+          flutter-version: '3.29.2' # أو أحدث إصدار تفضله
           channel: 'stable'
           cache: true
 
-      - name: Display Default Flutter Version
+      - name: Display Flutter Version Used
         run: flutter --version
 
-      - name: Get Dependencies (Default)
+      - name: Get Flutter dependencies
         run: flutter pub get
 
-      # *** تعديل هنا: تصحيح أوامر التنظيف ***
-      - name: Clean Workspace (Before Default Build)
-        run: |
-          # شغّل flutter clean أولاً (يعمل من الجذر)
-          flutter clean
-          # شغّل أوامر android داخل مجلد android
-          chmod +x gradlew # يشير إلى gradlew في المجلد الحالي (android)
-          ./gradlew clean  # يشير إلى gradlew في المجلد الحالي (android)
-        working-directory: ./android # تعيين مجلد العمل لهذه الخطوة
-
-      - name: Build APK with Default Version (Allow Flutter check fail)
-        id: build_default
-        continue-on-error: true
-        run: flutter build apk --release --verbose
-
-      # --- التحقق ---
-      - name: Check if Default Build Produced APK
-        id: check_apk
-        run: |
-          if [[ -f build/app/outputs/flutter-apk/app-release.apk ]]; then
-            echo "APK found after default build."
-            echo "apk_exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "APK not found after default build. Will try latest stable."
-            echo "apk_exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      # --- المحاولة الثانية (مشروطة) ---
-      - name: Setup Latest Stable Flutter (if needed)
-        if: steps.check_apk.outputs.apk_exists == 'false'
-        run: |
-          echo "Switching to latest stable Flutter..."
-          flutter channel stable
-          flutter upgrade
-          flutter doctor -v
-
-      - name: Get Dependencies (Latest Stable - if needed)
-        if: steps.check_apk.outputs.apk_exists == 'false'
-        run: flutter pub get
-
-      # *** تعديل هنا أيضًا: تصحيح أوامر التنظيف للمحاولة الثانية ***
-      - name: Clean Workspace (Before Latest Stable Build - if needed)
-        if: steps.check_apk.outputs.apk_exists == 'false'
+      # خطوات التنظيف لا تزال مهمة
+      - name: Clean Workspace
         run: |
           flutter clean
-          chmod +x gradlew
+          chmod +x android/gradlew
           ./gradlew clean
         working-directory: ./android
 
-      - name: Build APK with Latest Stable (if needed)
-        id: build_latest
-        if: steps.check_apk.outputs.apk_exists == 'false'
-        run: flutter build apk --release --verbose
+      # *** تعديل هنا: تشغيل Gradle مباشرة بدلاً من flutter build ***
+      - name: Build APK with Gradle Directly
+        id: build_gradle # معرف للخطوة
+        run: ./gradlew assembleRelease --no-daemon # إضافة --no-daemon ممارسة جيدة في CI
+        working-directory: ./android # التشغيل من داخل مجلد android
 
-      # --- الرفع النهائي ---
+      # --- التحقق والرفع ---
+      # (لا حاجة لـ continue-on-error لأن نجاح الخطوة يعتمد على Gradle مباشرة)
+
       - name: Verify Final APK Existence and Size
+        # خطوة تحقق مفيدة بعد بناء Gradle المباشر
         run: |
           echo "Checking for final APK at standard path..."
-          ls -lh build/app/outputs/flutter-apk/app-release.apk || echo "APK still not found before upload."
+          # المسار قد يكون مختلفًا قليلاً عند استخدام Gradle مباشرة، تحقق من المسارين
+          ls -lh build/app/outputs/apk/release/app-release.apk || echo "APK not found at build/app/outputs/apk/release/app-release.apk"
+          echo "----------------------------------------"
+          ls -lh build/app/outputs/flutter-apk/app-release.apk || echo "APK not found at build/app/outputs/flutter-apk/app-release.apk"
+          echo "----------------------------------------"
 
       - name: List Build Output Directory
         if: always()
         run: |
-          echo "Listing contents of build/app/outputs/:"
+          echo "Listing contents of ./build/app/outputs/:"
           ls -R build/app/outputs/ || echo "Output directory not found or inaccessible."
+        working-directory: ./android # عرض المخرجات داخل مجلد android/build
 
       - name: Upload APK Artifact
         id: upload_artifact
         uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: release-apk-gradle
+          # استخدم المسار الذي تتوقع أن ينتجه Gradle مباشرة (غالبًا هذا)
+          path: android/build/app/outputs/apk/release/app-release.apk
+          # أو المسار الآخر إذا أكدت التحقق أنه المسار الصحيح:
+          # path: android/build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
