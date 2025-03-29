@@ -1,4 +1,4 @@
-// android/settings.gradle (العودة للطريقة القديمة الأكثر تساهلاً)
+// android/settings.gradle (يبقى كما هو في المحاولة السابقة)
 
 pluginManagement {
     def flutterSdkRoot = System.getenv('FLUTTER_ROOT')
@@ -14,10 +14,8 @@ pluginManagement {
     }
     assert flutterSdkRoot != null, "Flutter SDK path not found. Define FLUTTER_ROOT environment variable or flutter.sdk in local.properties."
 
-    // تضمين أدوات بناء Flutter لا يزال ضروريًا
     includeBuild("${flutterSdkRoot}/packages/flutter_tools/gradle")
 
-    // المستودعات لإضافات Gradle نفسها
     repositories {
         google()
         mavenCentral()
@@ -25,18 +23,12 @@ pluginManagement {
     }
 }
 
-// *** تم حذف كتلة plugins {} بالكامل من هنا ***
+// لا يوجد plugins {}
+// لا يوجد dependencyResolutionManagement {}
 
-// *** تم حذف كتلة dependencyResolutionManagement {} بالكامل من هنا ***
-// سنسمح للمشاريع بتعريف مستودعاتها الخاصة إذا احتاجت (بما في ذلك إضافة Flutter)
-
-// اسم المشروع الرئيسي
-// rootProject.name = 'your_flutter_project_name' // يمكنك إلغاء التعليق وتعيين اسم إذا أردت
-
-// تضمين وحدة التطبيق الرئيسية
 include ':app'
 
-// *** الكود القياسي القديم لتضمين الإضافات يدويًا ***
+// تضمين الإضافات يدويًا
 def flutterProjectRoot = rootProject.projectDir.parentFile
 def pluginsFile = new File(flutterProjectRoot, '.flutter-plugins')
 if (pluginsFile.exists()) {
@@ -45,7 +37,7 @@ if (pluginsFile.exists()) {
         def parts = line.split('=')
         if (parts.length == 2) {
             def pluginName = parts[0]
-            def pluginPath = parts[1].replace('\\', '/') // ضمان استخدام فواصل Linux
+            def pluginPath = parts[1].replace('\\', '/')
             include ":$pluginName"
             project(":$pluginName").projectDir = new File(flutterProjectRoot, pluginPath)
         } else {
@@ -55,7 +47,3 @@ if (pluginsFile.exists()) {
 } else {
     println "Warning: .flutter-plugins file not found. This might be an issue."
 }
-
-// يمكنك إضافة الكود الخاص بـ .flutter-plugins-dependencies إذا كان موجودًا لديك
-// def pluginsFileDependencies = new File(flutterProjectRoot, '.flutter-plugins-dependencies')
-// if (pluginsFileDependencies.exists()) { ... }
