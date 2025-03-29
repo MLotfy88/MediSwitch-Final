@@ -1,4 +1,4 @@
-// android/settings.gradle (الكود المعدل مرة ثالثة)
+// android/settings.gradle (إعادة التبسيط)
 
 pluginManagement {
     def flutterSdkRoot = System.getenv('FLUTTER_ROOT')
@@ -14,6 +14,7 @@ pluginManagement {
     }
     assert flutterSdkRoot != null, "Flutter SDK path not found. Define FLUTTER_ROOT environment variable or flutter.sdk in local.properties."
 
+    // هذا السطر مهم لتضمين أدوات بناء Flutter
     includeBuild("${flutterSdkRoot}/packages/flutter_tools/gradle")
 
     repositories {
@@ -34,39 +35,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-
-        // *** الخطوة الجديدة: إضافة مستودع Flutter SDK المحلي ***
-        // هذا ضروري للعثور على تبعيات مثل flutter_embedding_release
-        // نستخدم نفس المتغير flutterSdkRoot الذي حصلنا عليه في pluginManagement
-        def flutterSdkRoot = System.getenv('FLUTTER_ROOT') // أو قراءته مرة أخرى إذا لزم الأمر
-         if (flutterSdkRoot == null) {
-             def localProperties = new Properties()
-             def localPropertiesFile = new File(rootProject.projectDir, 'local.properties')
-             if (localPropertiesFile.exists()) {
-                 localPropertiesFile.withReader('UTF-8') { reader ->
-                     localProperties.load(reader)
-                 }
-                 flutterSdkRoot = localProperties.getProperty('flutter.sdk')
-             }
-         }
-        if (flutterSdkRoot != null) {
-             // المسار الشائع الذي يحتوي على هذه الـ artifacts
-             maven {
-                 url "${flutterSdkRoot}/bin/cache/artifacts/engine/android-arm64-release" // للمنصة الأساسية في CI
-                 // يمكنك إضافة مسارات أخرى إذا كنت تستهدف منصات متعددة في نفس البناء
-                 // url "${flutterSdkRoot}/bin/cache/artifacts/engine/android-x64-release"
-                 // url "${flutterSdkRoot}/bin/cache/artifacts/engine/android-x86-release"
-                 // url "${flutterSdkRoot}/bin/cache/artifacts/engine/android-arm-release"
-             }
-             // أحيانًا تكون هناك حاجة لمستودع الحزم أيضًا
-             maven {
-                 url "${flutterSdkRoot}/bin/cache/pkg/sky_engine/lib"
-             }
-        } else {
-            // تحذير إذا لم يتم العثور على المسار
-             println "Warning: FLUTTER_ROOT not found. Local Flutter dependencies may not be resolved."
-        }
-        // *******************************************************
+        // *** تم حذف الإضافة اليدوية لمستودع Flutter المحلي من هنا ***
+        // سنعتمد على includeBuild والإضافة في app/build.gradle للتعامل مع هذا
     }
 }
 
