@@ -1,20 +1,9 @@
-// android/app/build.gradle (الكود المعدل)
+// android/app/build.gradle
 
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    // تطبيق إضافة Flutter في النهاية
-    id 'dev.flutter.flutter-gradle-plugin'
-}
-
-// لا حاجة لقراءة local.properties هنا لـ versionCode/Name
-// إضافة Flutter ستقوم بذلك بناءً على pubspec.yaml
+// ... (plugins, android namespace, compileSdk, signingConfigs definition) ...
 
 android {
-    namespace "com.example.mediswitch" // تأكد من الـ namespace
-    // *** تمت إعادة إضافة compileSdk هنا ***
-    compileSdk 35
-
+    // ...
     signingConfigs {
          debug {
              storeFile file("${System.getProperty('user.home')}/.android/debug.keystore")
@@ -26,43 +15,24 @@ android {
      }
 
     defaultConfig {
-        applicationId "com.example.mediswitch" // تأكد من الـ ID
-        minSdk 28
-        targetSdk 35
-        // *** تم حذف الأسطر التالية للسماح لإضافة Flutter بالتحكم ***
-        // versionCode flutterVersionCode.toInteger()
-        // versionName flutterVersionName
+        // ... (applicationId, minSdk, targetSdk) ...
+        // versionCode and versionName will be set by Flutter plugin
     }
 
     buildTypes {
         release {
-            signingConfig signingConfigs.debug // مؤقتًا لبناء CI
+            // *** حذف أو تعليق السطر التالي ***
+            // signingConfig signingConfigs.debug // <-- احذف هذا السطر
+
             minifyEnabled true // أو false
             shrinkResources false // أو true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        // debug { ... }
+        // debug {
+        //     signingConfig signingConfigs.debug // إعدادات debug يمكن أن تبقى
+        // }
     }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        // استخدام نص مباشر أكثر أمانًا
-        jvmTarget = '17'
-    }
-
-    // تأكد من عدم وجود أي عمليات أخرى قد تسبب خطأ substring()
+    // ... (compileOptions, kotlinOptions) ...
 }
 
-dependencies {
-    implementation 'com.google.android.play:core:1.10.3'
-    // إضافة مكتبة Kotlin القياسية بشكل صريح (ممارسة جيدة)
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-}
-
-flutter {
-    source '../..'
-}
+// ... (dependencies, flutter) ...
