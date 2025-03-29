@@ -7,14 +7,28 @@ class DrugEntity extends Equatable {
   final String arabicName;
   final String price;
   final String mainCategory;
-  // Add other fields as needed, e.g., company, dosageForm, activeIngredient
+  // Added fields from MedicineModel
+  final String active;
+  final String company;
+  final String dosageForm;
+  final String unit;
+  final String usage;
+  final String description;
+  final String lastPriceUpdate;
 
   const DrugEntity({
     required this.tradeName,
     required this.arabicName,
     required this.price,
     required this.mainCategory,
-    // Add other fields to constructor
+    // Add new fields to constructor
+    required this.active,
+    required this.company,
+    required this.dosageForm,
+    required this.unit,
+    required this.usage,
+    required this.description,
+    required this.lastPriceUpdate,
   });
 
   // Using Equatable for value comparison
@@ -24,6 +38,13 @@ class DrugEntity extends Equatable {
     arabicName,
     price,
     mainCategory,
-    // Add other fields here
+    // Add new fields to props
+    active,
+    company,
+    dosageForm,
+    unit,
+    usage,
+    description,
+    lastPriceUpdate,
   ];
 }

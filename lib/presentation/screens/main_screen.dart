@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart'; // Import Provider
+import '../bloc/dose_calculator_provider.dart'; // Import the new provider
 import 'home_screen.dart';
 import 'dose_comparison_screen.dart';
 import 'weight_calculator_screen.dart';
@@ -14,12 +16,18 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0; // Index for the current tab
 
-  // List of the screens to be displayed in the tabs
-  static const List<Widget> _widgetOptions = <Widget>[
-    HomeScreen(),
-    DoseComparisonScreen(),
-    WeightCalculatorScreen(),
-    SettingsScreen(),
+  // List of the screens wrapped with necessary providers
+  // Note: HomeScreen already gets MedicineProvider higher up in main.dart
+  // We only need to provide DoseCalculatorProvider here for DoseComparisonScreen
+  final List<Widget> _widgetOptions = <Widget>[
+    const HomeScreen(), // Assumes MedicineProvider is provided above this widget tree
+    ChangeNotifierProvider(
+      // Provide DoseCalculatorProvider for this screen
+      create: (_) => DoseCalculatorProvider(),
+      child: const DoseComparisonScreen(), // Use the renamed screen
+    ),
+    const WeightCalculatorScreen(), // Assuming this doesn't need a specific provider yet
+    const SettingsScreen(), // Assuming this doesn't need a specific provider yet
   ];
 
   void _onItemTapped(int index) {
@@ -31,8 +39,9 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // The body will display the widget from _widgetOptions based on the selected index
-      body: Center(child: _widgetOptions.elementAt(_selectedIndex)),
+      // Use IndexedStack to keep the state of the screens when switching tabs
+      body: IndexedStack(index: _selectedIndex, children: _widgetOptions),
+      // body: Center(child: _widgetOptions.elementAt(_selectedIndex)), // Old way - loses state
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(

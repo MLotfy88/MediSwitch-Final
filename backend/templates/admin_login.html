@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول الأدمن - MediSwitch</title>
+    <style>
+        body { font-family: sans-serif; direction: rtl; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 400px; margin: 50px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; color: #333; margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; color: #555; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #007bff; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; width: 100%; font-size: 16px; }
+        button:hover { background-color: #0056b3; }
+        .error { color: red; text-align: center; margin-top: 15px; }
+        .message { color: green; text-align: center; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>تسجيل دخول الأدمن</h2>
+        <form id="loginForm">
+            {% csrf_token %} {# Required for Django POST forms #}
+            <div>
+                <label for="username">اسم المستخدم:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">كلمة المرور:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+        <div id="errorMessage" class="error"></div>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+            const errorMessageDiv = document.getElementById('errorMessage');
+            const messageDiv = document.getElementById('message');
+
+            errorMessageDiv.textContent = ''; // Clear previous errors
+            messageDiv.textContent = ''; // Clear previous messages
+
+            try {
+                // Use the JWT token endpoint
+                const response = await fetch('/api/v1/auth/token/', { // Adjust URL if needed
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrfToken
+                    },
+                    body: JSON.stringify({ username: username, password: password })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    // Store tokens (e.g., in localStorage or sessionStorage)
+                    localStorage.setItem('accessToken', data.access);
+                    localStorage.setItem('refreshToken', data.refresh);
+                    messageDiv.textContent = 'تم تسجيل الدخول بنجاح!';
+                    // Redirect to the data upload page after a short delay
+                    setTimeout(() => {
+                        window.location.href = '/admin/upload/'; // Redirect to upload page URL
+                    }, 1500);
+                } else {
+                    errorMessageDiv.textContent = data.detail || 'فشل تسجيل الدخول. تحقق من اسم المستخدم وكلمة المرور.';
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                errorMessageDiv.textContent = 'حدث خطأ أثناء محاولة تسجيل الدخول.';
+            }
+        });
+    </script>
+</body>
+</html>

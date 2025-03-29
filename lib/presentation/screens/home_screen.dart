@@ -1,8 +1,13 @@
+import 'dart:async'; // Import Timer for debounce
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../data/models/medicine_model.dart'; // Keep for details temporarily? No, use Entity.
 import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
+import '../bloc/alternatives_provider.dart'; // Import AlternativesProvider
 import '../bloc/medicine_provider.dart'; // Corrected provider path
+import '../screens/alternatives_screen.dart'; // Import AlternativesScreen
+import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
+import '../../main.dart'; // Import MyApp to access findDrugAlternativesUseCase (temporary DI)
+import '../../domain/usecases/find_drug_alternatives.dart'; // Import use case for provider creation
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,10 +19,12 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _selectedCategory = '';
+  Timer? _debounce; // Timer for search debounce
 
   @override
   void dispose() {
     _searchController.dispose();
+    _debounce?.cancel(); // Cancel timer on dispose
     super.dispose();
   }
 
@@ -36,6 +43,24 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('MediSwitch'),
         centerTitle: true,
         actions: [
+          // Add Filter Button
+          IconButton(
+            icon: const Icon(Icons.filter_list),
+            onPressed: () {
+              // Open the FilterBottomSheet
+              showModalBottomSheet(
+                context: context,
+                isScrollControlled: true, // Allows sheet to take up more height
+                // Use the MedicineProvider from the current context
+                builder:
+                    (_) => ChangeNotifierProvider.value(
+                      value: context.read<MedicineProvider>(),
+                      child: const FilterBottomSheet(),
+                    ),
+              );
+            },
+            tooltip: 'فلترة حسب الفئة',
+          ),
           IconButton(
             icon: const Icon(Icons.refresh),
             onPressed:
@@ -43,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ? null
                     : () {
                       // Disable while loading
-                      medicineProvider.loadMedicines();
+                      medicineProvider.loadInitialData(); // Use renamed method
                     },
             tooltip: 'تحديث البيانات',
           ),
@@ -77,7 +102,16 @@ class _HomeScreenState extends State<HomeScreen> {
                             : null,
                   ),
                   onChanged: (value) {
-                    medicineProvider.setSearchQuery(value);
+                    // Debounce logic
+                    if (_debounce?.isActive ?? false) _debounce!.cancel();
+                    _debounce = Timer(const Duration(milliseconds: 500), () {
+                      if (mounted) {
+                        // Check if widget is still mounted
+                        context.read<MedicineProvider>().setSearchQuery(
+                          value,
+                        ); // Use context.read inside async callback
+                      }
+                    });
                   },
                 ),
                 const SizedBox(height: 16.0),
@@ -198,7 +232,15 @@ class _HomeScreenState extends State<HomeScreen> {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20.0)),
       ),
-      builder: (context) {
+      // Provide FindDrugAlternativesUseCase to the builder context
+      // This requires access to the use case instance, assuming it's available via MyApp
+      builder: (builderContext) {
+        // Use a different context name
+        final findAlternativesUseCase =
+            Provider.of<MyApp>(
+              context,
+              listen: false,
+            ).findDrugAlternativesUseCase; // Temporary access via MyApp context
         return Container(
           padding: const EdgeInsets.all(16.0),
           constraints: BoxConstraints(
@@ -241,16 +283,74 @@ class _HomeScreenState extends State<HomeScreen> {
                   'الفئة الرئيسية',
                   drug.mainCategory,
                 ), // Use DrugEntity field
-                // Add more details here later by adding fields to DrugEntity
-                // and mapping them in DrugRepositoryImpl
-                // Example: _buildDetailRow('الشركة المصنعة', drug.company),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
+                // Display additional details
+                _buildDetailRow('المادة الفعالة', drug.active),
+                _buildDetailRow('الشركة', drug.company),
+                _buildDetailRow('الشكل الصيدلي', drug.dosageForm),
+                _buildDetailRow('الوحدة', drug.unit),
+                _buildDetailRow('الاستخدام', drug.usage),
+                _buildDetailRow('الوصف', drug.description),
+                _buildDetailRow('آخر تحديث للسعر', drug.lastPriceUpdate),
+                const SizedBox(height: 16),
+                // Add "Find Alternatives" Button (Task 3.2.9)
+                Center(
+                  child: ElevatedButton.icon(
+                    icon: const Icon(Icons.sync_alt),
+                    label: const Text('إيجاد البدائل'),
+                    onPressed: () {
+                      Navigator.pop(
+                        builderContext,
+                      ); // Close the bottom sheet first using builderContext
+                      Navigator.push(
+                        context, // Use the original context for navigation
+                        MaterialPageRoute(
+                          builder:
+                              (_) => ChangeNotifierProvider(
+                                // Use the use case obtained earlier
+                                create:
+                                    (_) => AlternativesProvider(
+                                      findDrugAlternativesUseCase:
+                                          findAlternativesUseCase,
+                                    ),
+                                child: AlternativesScreen(originalDrug: drug),
+                              ),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+                // Add Favorite Button (Premium - Task 3.2.10)
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 8.0), // Add some space
+                    child: OutlinedButton.icon(
+                      icon: const Icon(
+                        Icons.favorite_border,
+                        size: 18,
+                      ), // Or Icons.favorite if favorited
+                      label: const Text('إضافة للمفضلة (Premium)'),
+                      onPressed: null, // Disabled for now
+                      // onPressed: () {
+                      //   // TODO: Implement Premium check and favorite logic
+                      //   ScaffoldMessenger.of(context).showSnackBar(
+                      //     const SnackBar(content: Text('ميزة المفضلة متاحة في الإصدار المدفوع.')),
+                      //   );
+                      // },
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: Colors.red.withOpacity(0.5)),
+                        foregroundColor: Colors.red.withOpacity(0.7),
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 8), // Bottom padding
+              ], // Closing children list for Column
+            ), // Closing Column
+          ), // Closing SingleChildScrollView
+        ); // Closing Container
+      }, // Closing builder
+    ); // Closing showModalBottomSheet
+  } // Closing _showMedicineDetails
 
   // Helper to build detail row (unchanged)
   Widget _buildDetailRow(String label, String value) {
@@ -266,4 +366,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-}
+} // Closing State class

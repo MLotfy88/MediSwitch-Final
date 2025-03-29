@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart'; // For input formatters
 import 'package:provider/provider.dart';
-import '../../data/models/medicine_model.dart'; // Keep temporarily if needed for selection dialog? No, use Entity.
-import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
-import '../bloc/medicine_provider.dart'; // Corrected provider path
+import '../bloc/dose_calculator_provider.dart'; // Import the provider
+import '../../domain/entities/drug_entity.dart'; // Import DrugEntity for selected drug state
+import '../widgets/drug_search_delegate.dart'; // Import the search delegate
 
+// Renamed class to match the file name and usage in main_screen.dart
 class DoseComparisonScreen extends StatefulWidget {
   const DoseComparisonScreen({super.key});
 
@@ -11,214 +13,248 @@ class DoseComparisonScreen extends StatefulWidget {
   State<DoseComparisonScreen> createState() => _DoseComparisonScreenState();
 }
 
+// Renamed state class
 class _DoseComparisonScreenState extends State<DoseComparisonScreen> {
-  DrugEntity? _selectedMedicine; // Corrected type
-  final TextEditingController _doseController = TextEditingController();
-  List<DrugEntity> _alternatives =
-      []; // Placeholder for results - Corrected type
-  bool _isLoadingAlternatives = false;
+  final _formKey = GlobalKey<FormState>();
+  final TextEditingController _drugSearchController = TextEditingController();
+  final TextEditingController _weightController = TextEditingController();
+  DrugEntity? _selectedDrug;
 
   @override
   void dispose() {
-    _doseController.dispose();
+    _drugSearchController.dispose();
+    _weightController.dispose();
     super.dispose();
-  }
-
-  // Placeholder function to find alternatives
-  // TODO: Implement actual logic using UseCases and Repository
-  void _findAlternatives() {
-    if (_selectedMedicine == null || _doseController.text.isEmpty) {
-      // Show error or return if input is missing
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('يرجى اختيار دواء وإدخال الجرعة')),
-      );
-      return;
-    }
-
-    setState(() {
-      _isLoadingAlternatives = true;
-      _alternatives = []; // Clear previous results
-    });
-
-    // --- Placeholder Logic ---
-    // In a real app, this would involve:
-    // 1. Getting the active ingredient and strength/concentration of _selectedMedicine.
-    // 2. Calling a UseCase (e.g., FindAlternativesUseCase).
-    // 3. The UseCase calls the Repository.
-    // 4. The Repository queries the data source (local/remote) for drugs with the same active ingredient.
-    // 5. Filter/rank results based on dosage form, strength, price, etc.
-    // 6. Return the list of DrugEntity alternatives.
-
-    // Simulate a delay and return some dummy data for now
-    Future.delayed(const Duration(seconds: 1), () {
-      // Accessing provider to get the full list (temporary workaround)
-      final allDrugs =
-          context.read<MedicineProvider>().medicines; // Now List<DrugEntity>
-      setState(() {
-        // Dummy filter: find drugs with the same main category (very basic example)
-        _alternatives =
-            allDrugs
-                .where(
-                  (med) =>
-                      med.mainCategory ==
-                          _selectedMedicine!
-                              .mainCategory && // Use DrugEntity field
-                      med.tradeName != _selectedMedicine!.tradeName,
-                ) // Exclude the original
-                .take(5) // Limit results for demo
-                .toList();
-        _isLoadingAlternatives = false;
-      });
-    });
-    // --- End Placeholder Logic ---
   }
 
   @override
   Widget build(BuildContext context) {
-    // Access provider only once if not watching specific changes
-    final medicineProvider = context.read<MedicineProvider>();
+    // Get the provider instance
+    final doseProvider = context.watch<DoseCalculatorProvider>();
 
     return Scaffold(
-      appBar: AppBar(title: const Text('مقارنة الجرعات والبدائل')),
+      // Changed AppBar title to reflect comparison screen purpose
+      appBar: AppBar(title: const Text('مقارنة الجرعات'), centerTitle: true),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Medicine Selection
-            ListTile(
-              title: Text(
-                _selectedMedicine == null
-                    ? 'اختر الدواء الأصلي'
-                    : _selectedMedicine!.tradeName,
-              ), // Use DrugEntity field
-              subtitle:
-                  _selectedMedicine == null
-                      ? null
-                      : Text(
-                        _selectedMedicine!.arabicName,
-                      ), // Use DrugEntity field
-              trailing: const Icon(Icons.arrow_drop_down),
-              onTap: () async {
-                // Show selection dialog - needs DrugEntity list
-                final selected = await _showMedicineSelectionDialog(
-                  context,
-                  medicineProvider.medicines, // Pass List<DrugEntity>
-                );
-                if (selected != null) {
-                  setState(() {
-                    _selectedMedicine = selected;
-                  });
-                }
-              },
-              shape: RoundedRectangleBorder(
-                side: BorderSide(color: Colors.grey.shade400),
-                borderRadius: BorderRadius.circular(8.0),
-              ),
-            ),
-            const SizedBox(height: 16.0),
-
-            // Dose Input
-            TextField(
-              controller: _doseController,
-              decoration: InputDecoration(
-                labelText: 'الجرعة الحالية للدواء الأصلي',
-                hintText: 'مثال: 500 مجم أو 10 مل',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(8.0),
-                ),
-              ),
-              keyboardType: TextInputType.text, // Adjust as needed
-            ),
-            const SizedBox(height: 24.0),
-
-            // Find Alternatives Button
-            ElevatedButton.icon(
-              icon: const Icon(Icons.search),
-              label: const Text('إيجاد البدائل'),
-              onPressed: _isLoadingAlternatives ? null : _findAlternatives,
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 12.0),
-              ),
-            ),
-            const SizedBox(height: 24.0),
-
-            // Alternatives List
-            const Text(
-              'البدائل المقترحة:',
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-            ),
-            const Divider(),
-            if (_isLoadingAlternatives)
-              const Center(child: CircularProgressIndicator())
-            else if (_alternatives.isEmpty)
-              const Center(child: Text('لا توجد بدائل متاحة حالياً.'))
-            else
-              Expanded(
-                child: ListView.builder(
-                  itemCount: _alternatives.length,
-                  itemBuilder: (context, index) {
-                    final alternative = _alternatives[index]; // DrugEntity
-                    return Card(
-                      child: ListTile(
-                        title: Text(
-                          alternative.tradeName,
-                        ), // Use DrugEntity field
-                        subtitle: Text(
-                          'السعر: ${alternative.price} جنيه\nالفئة: ${alternative.mainCategory}',
-                        ), // Use DrugEntity fields
-                        isThreeLine: true,
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Form(
+                key: _formKey,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    // Drug Selection Input
+                    const Text(
+                      'الدواء:',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
                       ),
-                    );
-                  },
+                    ),
+                    const SizedBox(height: 8),
+                    TextFormField(
+                      controller: _drugSearchController,
+                      decoration: InputDecoration(
+                        hintText: 'ابحث عن اسم الدواء...',
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        prefixIcon: const Icon(Icons.search),
+                      ),
+                      readOnly: true,
+                      onTap: () async {
+                        // Show the search delegate
+                        final selected = await showSearch<DrugEntity?>(
+                          context: context,
+                          delegate: DrugSearchDelegate(),
+                          // query: _drugSearchController.text, // Optionally pre-fill query
+                        );
+
+                        // Handle the selected drug (if any)
+                        if (selected != null && mounted) {
+                          setState(() {
+                            _selectedDrug = selected;
+                            _drugSearchController.text =
+                                selected.tradeName; // Or arabicName
+                          });
+                          // Update the provider with the selected drug
+                          context
+                              .read<DoseCalculatorProvider>()
+                              .setSelectedDrug(selected);
+                        }
+                      },
+                      validator: (value) {
+                        // Validation remains the same
+                        if (_selectedDrug == null) {
+                          return 'يرجى اختيار دواء';
+                        }
+                        return null;
+                      },
+                    ),
+                    const SizedBox(height: 24),
+
+                    // Patient Weight Input
+                    const Text(
+                      'وزن المريض (كجم):',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    TextFormField(
+                      controller: _weightController,
+                      decoration: InputDecoration(
+                        hintText: 'أدخل وزن المريض بالكيلوجرام',
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        suffixText: 'كجم',
+                      ),
+                      keyboardType: TextInputType.numberWithOptions(
+                        decimal: true,
+                      ),
+                      inputFormatters: <TextInputFormatter>[
+                        FilteringTextInputFormatter.allow(
+                          RegExp(r'^\d+\.?\d{0,2}'),
+                        ), // Closing parenthesis for allow
+                      ], // Closing bracket for list
+                      onChanged: (value) {
+                        // Update provider state
+                        context.read<DoseCalculatorProvider>().setWeight(value);
+                      },
+                      validator: (value) {
+                        // Keep existing validation, provider handles logic on calculate
+                        if (value == null || value.isEmpty) {
+                          return 'يرجى إدخال الوزن';
+                        }
+                        final weight = double.tryParse(value);
+                        if (weight == null || weight <= 0) {
+                          return 'الوزن غير صالح';
+                        }
+                        return null;
+                      },
+                    ), // Closing parenthesis for weight TextFormField
+                    const SizedBox(height: 32),
+
+                    // Calculate Button (Title might change depending on screen purpose)
+                    ElevatedButton(
+                      // Disable button while loading
+                      onPressed:
+                          doseProvider.isLoading
+                              ? null
+                              : () {
+                                if (_formKey.currentState!.validate()) {
+                                  print(
+                                    'Calculate/Compare button pressed - Form is valid',
+                                  );
+                                  // Trigger calculation logic in provider
+                                  context
+                                      .read<DoseCalculatorProvider>()
+                                      .calculateDose();
+                                } else {
+                                  print(
+                                    'Calculate/Compare button pressed - Form is invalid',
+                                  );
+                                }
+                              },
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(vertical: 16),
+                        textStyle: const TextStyle(fontSize: 18),
+                      ),
+                      // Changed button text to reflect comparison screen
+                      // Show loading indicator on button if loading
+                      child:
+                          doseProvider.isLoading
+                              ? const SizedBox(
+                                height: 24,
+                                width: 24,
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 3,
+                                  color: Colors.white,
+                                ),
+                              )
+                              : const Text('قارن الجرعات / احسب'),
+                    ),
+                    const SizedBox(height: 16), // Reduced spacing slightly
+                    // Save Calculation Button (Premium - Disabled for now)
+                    OutlinedButton.icon(
+                      icon: const Icon(Icons.save_alt, size: 18),
+                      label: const Text('حفظ الحساب (Premium)'),
+                      onPressed: null, // Disabled for now
+                      // onPressed: () {
+                      //   // TODO: Implement Premium check and save logic (Task 3.3.6)
+                      //   ScaffoldMessenger.of(context).showSnackBar(
+                      //     const SnackBar(content: Text('ميزة الحفظ متاحة في الإصدار المدفوع.')),
+                      //   );
+                      // },
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(
+                          color: Theme.of(
+                            context,
+                          ).primaryColor.withOpacity(0.5),
+                        ),
+                        foregroundColor: Theme.of(
+                          context,
+                        ).primaryColor.withOpacity(0.7),
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+
+                    // --- Results Section ---
+                    const Text(
+                      'النتيجة:', // Title might change
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    // Display Error if any
+                    if (doseProvider.error.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8.0),
+                        child: Text(
+                          doseProvider.error,
+                          style: const TextStyle(
+                            color: Colors.red,
+                            fontSize: 14,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    // Display Calculated Dose
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      width: double.infinity, // Take full width
+                      decoration: BoxDecoration(
+                        color: Colors.grey[200],
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Center(
+                        child: Text(
+                          doseProvider.calculatedDose != null
+                              ? '${doseProvider.calculatedDose!.toStringAsFixed(2)}' // Format dose
+                              : 'ستظهر نتيجة المقارنة / الحساب هنا...',
+                          style: const TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ),
+                    // TODO: Add warning display area
+                  ],
                 ),
-              ),
-          ],
+              ), // Closing Form
+            ],
+          ),
         ),
       ),
-    );
-  }
-
-  // Helper to show medicine selection dialog - adjusted for DrugEntity
-  Future<DrugEntity?> _showMedicineSelectionDialog(
-    // Corrected return type
-    BuildContext context,
-    List<DrugEntity> medicines, // Corrected parameter type
-  ) async {
-    return showDialog<DrugEntity>(
-      // Corrected dialog type
-      context: context,
-      builder: (BuildContext context) {
-        // Use a StatefulWidget for search functionality within the dialog
-        return AlertDialog(
-          title: const Text('اختر دواء'),
-          content: SizedBox(
-            width: double.maxFinite,
-            child: ListView.builder(
-              shrinkWrap: true,
-              itemCount: medicines.length,
-              itemBuilder: (BuildContext context, int index) {
-                final drug = medicines[index]; // DrugEntity
-                return ListTile(
-                  title: Text(drug.tradeName), // Use DrugEntity field
-                  subtitle: Text(drug.arabicName), // Use DrugEntity field
-                  onTap: () {
-                    Navigator.of(context).pop(drug); // Return DrugEntity
-                  },
-                );
-              },
-            ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              child: const Text('إلغاء'),
-              onPressed: () {
-                Navigator.of(context).pop(); // Return null on cancel
-              },
-            ),
-          ],
-        );
-      },
     );
   }
 }

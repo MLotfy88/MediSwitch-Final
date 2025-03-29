@@ -16,5 +16,10 @@ abstract class Failure extends Equatable {
 
 // Specific failures can extend the base Failure class
 // Example:
-// class ServerFailure extends Failure {}
-class CacheFailure extends Failure {} // Define specific failure
+class ServerFailure extends Failure {} // Failure from the server API
+
+class NetworkFailure
+    extends Failure {} // Failure related to device connectivity
+
+class CacheFailure
+    extends Failure {} // Define specific failure for local cache issues

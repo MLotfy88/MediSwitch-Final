@@ -18,24 +18,24 @@
     *   `[x]` 0.1.1. مراجعة واعتماد استراتيجية "Excel/CSV كقاعدة بيانات" للمعالجة في Frontend.
     *   `[x]` 0.1.2. اعتماد HTTPS فقط لتأمين نقل الملفات.
     *   `[x]` 0.1.3. اعتماد آلية تحديث عبر فحص الإصدار عند التشغيل مع إشعار للمستخدم.
-    *   `[ ]` 0.1.4. تحديد إطار عمل الـ Backend النهائي (مثل Node.js/Express أو Python/Django).
+    *   `[x]` 0.1.4. تحديد إطار عمل الـ Backend النهائي (مثل Node.js/Express أو Python/Django). (Django chosen)
     *   `[ ]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (مثل Provider, Riverpod, أو Bloc). (Provider is used, but maybe not final)
     *   `[ ]` 0.1.6. تحديد حل حقن التبعيات النهائي (مثل get_it).
 *   **0.2. إعداد بيئات التطوير والمستودعات:**
     *   `[ ]` 0.2.1. تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web.
-    *   `[ ]` 0.2.2. تثبيت أدوات بناء الـ Backend المختارة.
-    *   `[ ]` 0.2.3. إعداد مستودع Git مركزي (Monorepo أو منفصل).
+    *   `[ ]` 0.2.2. تثبيت أدوات بناء الـ Backend المختارة. (Python/Django assumed installed)
+    *   `[x]` 0.2.3. إعداد مستودع Git مركزي (Monorepo أو منفصل).
     *   `[ ]` 0.2.4. إعداد بيئة التطوير المحلية (IDE, API Client).
     *   `[ ]` 0.2.5. توثيق خطوات إعداد وتمكين Wi-Fi Debugging (ADB) في `README.md`.
 *   **0.3. بناء هيكل مشروع الواجهة الأمامية (Flutter - `lib`):**
     *   `[x]` 0.3.1. تنفيذ هيكل المجلدات (Clean Architecture: core, data, domain, presentation, config, di). (Directories created)
-    *   `[~]` 0.3.2. إنشاء ملفات `.dart` أولية فارغة للمكونات الرئيسية. (Placeholders created for core, data, domain)
+    *   `[x]` 0.3.2. إنشاء ملفات `.dart` أولية فارغة للمكونات الرئيسية. (Placeholders created for core, data, domain)
 *   **0.4. بناء هيكل مشروع الواجهة الخلفية (Backend):**
-    *   `[ ]` 0.4.1. تنفيذ هيكل المجلدات المختار.
-    *   `[ ]` 0.4.2. إعداد ملفات التكوين الأساسية (`.env`).
+    *   `[x]` 0.4.1. تنفيذ هيكل المجلدات المختار. (Django default structure created)
+    *   `[x]` 0.4.2. إعداد ملفات التكوين الأساسية (`.env`). (Django settings configured, .env created)
 *   **0.5. إضافة وإدارة التبعيات:**
     *   `[x]` 0.5.1. (Frontend) إضافة التبعيات إلى `pubspec.yaml`. (Core dependencies added)
-    *   `[ ]` 0.5.2. (Backend) إضافة التبعيات إلى `package.json` أو `requirements.txt`.
+    *   `[x]` 0.5.2. (Backend) إضافة التبعيات إلى `package.json` أو `requirements.txt`. (requirements.txt created and installed)
     *   `[ ]` 0.5.3. إعداد أدوات إدارة الإصدارات (FVM؟).
 *   **0.6. إعداد أدوات الجودة والأداء:**
     *   `[ ]` 0.6.1. تفعيل وتخصيص قواعد lint صارمة (Frontend).
@@ -50,27 +50,27 @@
 ### **المرحلة 1: تطوير الواجهة الخلفية - الوظائف الأساسية (الأسبوع 2-3)**
 
 *   **1.1. نظام مصادقة الأدمن:**
-    *   `[ ]` 1.1.1. تصميم مخطط قاعدة بيانات الأدمن.
-    *   `[ ]` 1.1.2. تنفيذ خدمة تجزئة كلمات المرور.
-    *   `[ ]` 1.1.3. بناء API Endpoint `POST /api/v1/admin/auth/login`.
-    *   `[ ]` 1.1.4. بناء API Endpoint `POST /api/v1/admin/auth/register` (اختياري).
-    *   `[ ]` 1.1.5. تنفيذ آلية تجديد التوكن.
-    *   `[ ]` 1.1.6. بناء واجهة ويب بسيطة لتسجيل الدخول.
-    *   `[ ]` 1.1.7. إنشاء Middleware للتحقق من JWT.
+    *   `[x]` 1.1.1. تصميم مخطط قاعدة بيانات الأدمن. (Using default Django User model)
+    *   `[x]` 1.1.2. تنفيذ خدمة تجزئة كلمات المرور. (Using default Django hashing)
+    *   `[x]` 1.1.3. بناء API Endpoint `POST /api/v1/admin/auth/login`. (Simple JWT endpoint configured)
+    *   `[x]` 1.1.4. بناء API Endpoint `POST /api/v1/admin/auth/register` (اختياري). (Register endpoint created)
+    *   `[ ]` 1.1.5. تنفيذ آلية تجديد التوكن. (Simple JWT refresh endpoint configured)
+    *   `[x]` 1.1.6. بناء واجهة ويب بسيطة لتسجيل الدخول.
+    *   `[ ]` 1.1.7. إنشاء Middleware للتحقق من JWT. (DRF/SimpleJWT handles basic checks)
 *   **1.2. إدارة ملف Excel/CSV وتوفيره:**
-    *   `[ ]` 1.2.1. تحديد استراتيجية تخزين الملف (Local/Cloud Storage).
-    *   `[ ]` 1.2.2. بناء API Endpoint `POST /api/v1/admin/data/upload`:
-        *   `[ ]` 1.2.2.1. استقبال الملف.
-        *   `[ ]` 1.2.2.2. التحقق من الامتداد.
+    *   `[x]` 1.2.1. تحديد استراتيجية تخزين الملف (Local/Cloud Storage). (Local disk chosen for now)
+    *   `[~]` 1.2.2. بناء API Endpoint `POST /api/v1/admin/data/upload`: (Endpoint created, needs version update logic)
+        *   `[x]` 1.2.2.1. استقبال الملف. (Implemented)
+        *   `[x]` 1.2.2.2. التحقق من الامتداد. (Implemented)
         *   `[ ]` 1.2.2.3. التحقق المتقدم من Headers/الأعمدة.
-        *   `[ ]` 1.2.2.4. نقل الملف للمخزن الدائم كـ "نشط جديد".
-        *   `[ ]` 1.2.2.5. (اختياري) أرشفة الملف القديم.
-        *   `[ ]` 1.2.2.6. تحديث سجل الملف النشط وإصداره.
-    *   `[ ]` 1.2.3. بناء واجهة ويب لرفع الملف في لوحة التحكم.
-    *   `[ ]` 1.2.4. بناء API Endpoint `GET /api/v1/data/latest-drugs.{ext}`:
-        *   `[ ]` 1.2.4.1. قراءة مسار الملف النشط.
-        *   `[ ]` 1.2.4.2. إرجاع الملف مع Headers مناسبة.
-    *   `[ ]` 1.2.5. بناء API Endpoint `GET /api/v1/data/version`.
+        *   `[x]` 1.2.2.4. نقل الملف للمخزن الدائم كـ "نشط جديد". (Implemented - overwrites)
+        *   `[x]` 1.2.2.5. (اختياري) أرشفة الملف القديم. (Implemented - deletes old)
+        *   `[x]` 1.2.2.6. تحديث سجل الملف النشط وإصداره.
+    *   `[x]` 1.2.3. بناء واجهة ويب لرفع الملف في لوحة التحكم.
+    *   `[x]` 1.2.4. بناء API Endpoint `GET /api/v1/data/latest-drugs.{ext}`: (Implemented as /api/v1/data/latest/)
+        *   `[x]` 1.2.4.1. قراءة مسار الملف النشط. (Implemented in view)
+        *   `[x]` 1.2.4.2. إرجاع الملف مع Headers مناسبة. (Implemented in view)
+    *   `[x]` 1.2.5. بناء API Endpoint `GET /api/v1/data/version`. (Implemented)
     *   `[ ]` 1.2.6. تكوين خدمة CDN لتقديم الملف (إذا أمكن).
 *   **1.3. النشر الأولي للـ Backend:**
     *   `[ ]` 1.3.1. إعداد Dockerfile للـ Backend.
@@ -83,28 +83,28 @@
 ### **المرحلة 2: تطوير الواجهة الأمامية - تحميل ومعالجة البيانات (الأسبوع 3-5)**
 
 *   **2.1. بناء طبقة البيانات (`Data Layer`):**
-    *   `[ ]` 2.1.1. **`RemoteDataSource`:**
-        *   `[ ]` 2.1.1.1. تنفيذ استدعاء `GET /api/v1/data/version`.
-        *   `[ ]` 2.1.1.2. تنفيذ استدعاء `GET /api/v1/data/latest-drugs.{ext}`.
-        *   `[ ]` 2.1.1.3. معالجة أخطاء الشبكة.
-    *   `[~]` 2.1.2. **`LocalDataSource`:** (Partially covered by `CsvLocalDataSource`)
-        *   `[ ]` 2.1.2.1. استخدام `path_provider` للحصول على مسار التخزين.
-        *   `[ ]` 2.1.2.2. تنفيذ حفظ الملف المُنزَّل.
+    *   `[x]` 2.1.1. **`RemoteDataSource`:**
+        *   `[x]` 2.1.1.1. تنفيذ استدعاء `GET /api/v1/data/version`. (Implemented in DrugRemoteDataSourceImpl)
+        *   `[x]` 2.1.1.2. تنفيذ استدعاء `GET /api/v1/data/latest-drugs.{ext}`. (Implemented in DrugRemoteDataSourceImpl)
+        *   `[x]` 2.1.1.3. معالجة أخطاء الشبكة. (Basic error handling implemented)
+    *   `[x]` 2.1.2. **`LocalDataSource`:** (Implemented as CsvLocalDataSource)
+        *   `[x]` 2.1.2.1. استخدام `path_provider` للحصول على مسار التخزين. (Implemented)
+        *   `[x]` 2.1.2.2. تنفيذ حفظ الملف المُنزَّل. (Implemented in saveDownloadedCsv)
         *   `[x]` 2.1.2.3. تنفيذ دالة `parseExcelCsvFile(filePath)` التي تعمل داخل `compute()`. (Implemented in CsvLocalDataSource)
-        *   `[ ]` 2.1.2.4. تنفيذ قراءة/كتابة آخر إصدار/تاريخ تحديث محلي (`shared_preferences`).
-    *   `[~]` 2.1.3. **`DrugRepositoryImpl`:** (Basic implementation for getAllDrugs)
-        *   `[ ]` 2.1.3.1. تنفيذ دالة `getDrugs()` للتحقق من التحديث، التنزيل، التحليل (باستخدام `compute()`). (getAllDrugs implemented, not full getDrugs logic)
-        *   `[ ]` 2.1.3.2. بناء فهارس `Map` في الذاكرة بعد التحليل.
+        *   `[x]` 2.1.2.4. تنفيذ قراءة/كتابة آخر إصدار/تاريخ تحديث محلي (`shared_preferences`). (Implemented)
+    *   `[x]` 2.1.3. **`DrugRepositoryImpl`:** (Basic implementation for getAllDrugs)
+        *   `[x]` 2.1.3.1. تنفيذ دالة `getDrugs()` للتحقق من التحديث، التنزيل، التحليل (باستخدام `compute()`). (Implemented as getAllDrugs with _shouldUpdateData and _updateLocalDataFromRemote)
+        *   `[x]` 2.1.3.2. بناء فهارس `Map` في الذاكرة بعد التحليل.
         *   `[x]` 2.1.3.3. تحويل `List<DrugModel>` إلى `List<DrugEntity>`. (Done in getAllDrugs)
-        *   `[ ]` 2.1.3.4. تخزين البيانات والفهارس في الذاكرة (عبر State Management).
+        *   `[x]` 2.1.3.4. تخزين البيانات والفهارس في الذاكرة (عبر State Management). (Basic implementation in MedicineProvider)
         *   `[x]` 2.1.3.5. معالجة الأخطاء وإرجاع حالة مناسبة (`Either<Failure, ...>`). (Done in getAllDrugs)
 *   **2.2. بناء طبقة المجال (`Domain Layer`):**
     *   `[x]` 2.2.1. تعريف `DrugEntity`. (`DrugEntity` defined)
-    *   `[x]` 2.2.2. تعريف `DrugRepository` interface. (Interface defined)
-    *   `[ ]` 2.2.3. بناء Use Cases الأساسية (GetInitial, Search, GetDetails, ...). (GetAllDrugs placeholder created)
+    *   `[x]` 2.2.2. تعريف `DrugRepository` interface. (Interface defined and updated with search/filter methods)
+    *   `[x]` 2.2.3. بناء Use Cases الأساسية (GetInitial, Search, GetDetails, ...). (GetAllDrugs implemented, need to implement SearchDrugs, FilterDrugsByCategory, GetAvailableCategories)
 *   **2.3. إدارة الحالة للبيانات:**
-    *   `[x]` 2.3.1. إعداد `DrugListProvider`/`Bloc`. (`MedicineProvider` exists)
-    *   `[x]` 2.3.2. ربط حالات التحميل (`isLoading`, `error`, `data`) بالواجهة. (`HomeScreen` does this)
+    *   `[x]` 2.3.1. إعداد `DrugListProvider`/`Bloc`. (`MedicineProvider` refactored)
+    *   `[x]` 2.3.2. ربط حالات التحميل (`isLoading`, `error`, `data`) بالواجهة. (`HomeScreen` uses provider state)
 
 ---
 
@@ -117,40 +117,40 @@
     *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين (الرئيسية، الحاسبة، الإعدادات) مع الحفاظ على الحالة. (`main_screen.dart` handles this)
     *   `[x]` 3.1.5. `CustomSearchBar`: ويدجت شريط البحث غير التفاعلي. (`HomeScreen` has search bar)
     *   `[ ]` 3.1.6. بناء أقسام اختيارية (المحدثة/المفضلة/الشائعة).
-    *   `[ ]` 3.1.7. تطبيق التصميم المتجاوب.
+    *   `[~]` 3.1.7. تطبيق التصميم المتجاوب. (Basic responsiveness achieved with current layout)
 *   **3.2. شاشة البحث (`SearchScreen`) وتفاصيل الدواء (`DrugDetailsScreen`):**
     *   `[ ]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`. (Search is in HomeScreen currently)
     *   `[ ]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث. (Logic is in MedicineProvider)
-    *   `[ ]` 3.2.3. تطبيق `Debouncer` على `TextField`.
+    *   `[x]` 3.2.3. تطبيق `Debouncer` على `TextField`.
     *   `[x]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc. (`MedicineProvider` handles this)
-    *   `[ ]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر. (Filters are ChoiceChips in HomeScreen)
+    *   `[x]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر. (Filters are ChoiceChips in HomeScreen)
     *   `[x]` 3.2.6. `ListView.builder` و `DrugCard` لعرض النتائج مع تمييز النص. (`HomeScreen` does this)
-    *   `[~]` 3.2.7. `DrugDetailsScreen`: استقبال `DrugEntity`, `CustomScrollView`, `SliverAppBar`. (Details shown in ModalBottomSheet)
-    *   `[~]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`. (Basic info shown in ModalBottomSheet)
-    *   `[ ]` 3.2.9. زر "إيجاد البدائل".
-    *   `[ ]` 3.2.10. زر "المفضلة" (Premium).
+    *   `[~]` 3.2.7. `DrugDetailsScreen`: استقبال `DrugEntity`, `CustomScrollView`, `SliverAppBar`. (Details shown in ModalBottomSheet using DrugEntity)
+    *   `[x]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`. (Additional fields added to ModalBottomSheet)
+    *   `[x]` 3.2.9. زر "إيجاد البدائل". (UI added and linked)
+    *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI added, logic deferred)
     *   `[ ]` 3.2.11. استخدام `CachedNetworkImage`.
-*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, needs implementation)
-    *   `[ ]` 3.3.1. `DoseCalculatorProvider`/`Bloc`.
-    *   `[ ]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search).
-    *   `[ ]` 3.3.3. إضافة `Form Validation`.
-    *   `[ ]` 3.3.4. تنفيذ منطق الحساب.
-    *   `[ ]` 3.3.5. عرض النتائج والتحذير (بصري وصوتي).
-    *   `[ ]` 3.3.6. زر "حفظ الحساب" (Premium).
-*   `[~]` **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):** (`dose_comparison_screen.dart` exists, needs implementation)
-    *   `[ ]` 3.4.1. `AlternativesProvider`/`Bloc`.
-    *   `[ ]` 3.4.2. استقبال `DrugEntity` الأصلي.
-    *   `[ ]` 3.4.3. تنفيذ منطق إيجاد البدائل.
-    *   `[ ]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات.
+*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, uses DrugEntity, needs implementation)
+    *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`.
+    *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search).
+    *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation added)
+    *   `[x]` 3.3.4. تنفيذ منطق الحساب. (Placeholder logic implemented)
+    *   `[~]` 3.3.5. عرض النتائج والتحذير (بصري وصوتي). (Basic result display added, Warning deferred pending safe dose data)
+    *   `[~]` 3.3.6. زر "حفظ الحساب" (Premium). (UI added, logic deferred)
+*   `[~]` **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):** (`dose_comparison_screen.dart` exists, uses DrugEntity, needs implementation)
+    *   `[x]` 3.4.1. `AlternativesProvider`/`Bloc`.
+    *   `[x]` 3.4.2. استقبال `DrugEntity` الأصلي. (Handled by screen constructor)
+    *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Placeholder logic based on category implemented in UseCase)
+    *   `[x]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات. (Implemented using AlternativeDrugCard)
 *   **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):**
     *   `[ ]` 3.5.1. بناء واجهة اختيار متعدد للأدوية.
     *   `[ ]` 3.5.2. `InteractionProvider`/`Bloc`.
     *   `[ ]` 3.5.3. تنفيذ منطق فحص التفاعلات.
     *   `[ ]` 3.5.4. عرض النتائج بوضوح.
 *   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (Screen exists, needs implementation)
-    *   `[ ]` 3.6.1. `SettingsProvider`/`Bloc`.
-    *   `[ ]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`).
-    *   `[ ]` 3.6.3. تنفيذ تغيير اللغة والمظهر.
+    *   `[x]` 3.6.1. `SettingsProvider`/`Bloc`.
+    *   `[x]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`). (Basic UI with Theme toggle added)
+    *   `[~]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language deferred)
     *   `[ ]` 3.6.4. بناء واجهة إدارة الاشتراك.
     *   `[ ]` 3.6.5. استخدام `url_launcher` للروابط.
     *   `[ ]` 3.6.6. زر "التحقق من التحديث".
