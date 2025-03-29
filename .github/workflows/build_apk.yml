@@ -1,11 +1,17 @@
 name: Build Android APK
+run-name: Build by MLotfy88 at 2025-03-29 13:39:55
 
 env:
-  BUILD_TIMESTAMP: '2025-03-29 13:27:01'  # تحديث التاريخ والوقت
-  BUILDER: 'MLotfy88'  # تحديث اسم المستخدم
-  GRADLE_VERSION: '8.10.2'  # تحديث إصدار Gradle
-  CMAKE_VERSION: '3.22.1'
-  NDK_VERSION: '25.1.8937393'
+  CURRENT_DATETIME: "2025-03-29 13:39:55"
+  CURRENT_USER: "MLotfy88" 
+  GRADLE_VERSION: "8.10.2"
+  CMAKE_VERSION: "3.22.1"
+  NDK_VERSION: "25.1.8937393"
+  TZ: "UTC"
+
+defaults:
+  run:
+    shell: bash
 
 permissions:
   contents: write
@@ -26,6 +32,7 @@ on:
 
 jobs:
   build:
+    name: Build Android APK
     runs-on: ubuntu-latest
     
     steps:
@@ -67,7 +74,13 @@ jobs:
           channel: 'stable'
           cache: true
 
-      # تحديث إعدادات Gradle مع إزالة MaxPermSize
+      - name: Setup Local Properties
+        run: |
+          FLUTTER_SDK=$(dirname $(which flutter))
+          echo "flutter.sdk=$FLUTTER_SDK" > android/local.properties
+          echo "sdk.dir=$ANDROID_SDK_ROOT" >> android/local.properties
+          cat android/local.properties
+
       - name: Configure Gradle
         working-directory: android
         run: |
@@ -86,38 +99,17 @@ jobs:
           android.ndkVersion=${{ env.NDK_VERSION }}
           EOF
           
+          sed -i 's|\\|/|g' settings.gradle
           chmod +x ./gradlew
-          
-          # تحديث wrapper مع إصدار Gradle الجديد
           ./gradlew wrapper --gradle-version=${{ env.GRADLE_VERSION }} --distribution-type=bin
-
-      - name: Setup Debug Keystore
-        run: |
-          mkdir -p ~/.android
-          keytool -genkey -v \
-            -keystore ~/.android/debug.keystore \
-            -storepass android \
-            -alias androiddebugkey \
-            -keypass android \
-            -keyalg RSA \
-            -keysize 2048 \
-            -validity 10000 \
-            -dname "CN=Android Debug,O=Android,C=US"
-
-      - name: Setup Flutter build tools
-        run: |
-          flutter config --no-analytics
-          flutter precache
-          flutter doctor --android-licenses
-          flutter doctor -v
 
       - name: Project Setup
         run: |
           flutter clean
           flutter pub get
           cd android
-          ./gradlew clean --no-daemon
-          ./gradlew dependencies --no-daemon
+          ./gradlew clean --stacktrace --info
+          ./gradlew dependencies --stacktrace --info
           cd ..
 
       - name: Build APK
@@ -125,10 +117,8 @@ jobs:
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
           ANDROID_NDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}/ndk/${{ env.NDK_VERSION }}
         run: |
-          echo "Building with configuration:"
-          echo "JAVA_HOME: $JAVA_HOME"
-          echo "ANDROID_SDK_ROOT: $ANDROID_SDK_ROOT"
-          echo "ANDROID_NDK_ROOT: $ANDROID_NDK_ROOT"
+          echo "Current Time: ${{ env.CURRENT_DATETIME }}"
+          echo "Builder: ${{ env.CURRENT_USER }}"
           
           flutter build apk \
             --release \
@@ -140,8 +130,9 @@ jobs:
           {
             echo "Build Information"
             echo "================"
-            echo "Build Timestamp: ${{ env.BUILD_TIMESTAMP }}"
-            echo "Builder: ${{ env.BUILDER }}"
+            echo "Build Time: ${{ env.CURRENT_DATETIME }}"
+            echo "Builder: ${{ env.CURRENT_USER }}"
+            echo "Workflow Run ID: ${{ github.run_id }}"
             echo ""
             echo "Environment Details"
             echo "==================="
@@ -159,10 +150,24 @@ jobs:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
+          retention-days: 7
 
       - name: Upload Build Info
         uses: actions/upload-artifact@v4
         with:
           name: build-info
           path: build_info.txt
-          retention-days: 30
+          retention-days: 7
+
+      - name: Update Build Status
+        if: always()
+        run: |
+          echo "Build Status Information"
+          echo "======================="
+          echo "Build completed at: ${{ env.CURRENT_DATETIME }}"
+          echo "Builder: ${{ env.CURRENT_USER }}"
+          echo "Run ID: ${{ github.run_id }}"
+          echo "Repository: ${{ github.repository }}"
+          echo "Commit: ${{ github.sha }}"
+          echo "Event: ${{ github.event_name }}"
+          echo "Workflow: ${{ github.workflow }}"
