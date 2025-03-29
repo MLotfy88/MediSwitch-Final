@@ -1,9 +1,9 @@
 name: Build Android APK
 
 env:
-  BUILD_TIMESTAMP: '2025-03-29 13:20:16'
-  BUILDER: 'MLotfy88'
-  GRADLE_VERSION: '8.3'
+  BUILD_TIMESTAMP: '2025-03-29 13:27:01'  # تحديث التاريخ والوقت
+  BUILDER: 'MLotfy88'  # تحديث اسم المستخدم
+  GRADLE_VERSION: '8.10.2'  # تحديث إصدار Gradle
   CMAKE_VERSION: '3.22.1'
   NDK_VERSION: '25.1.8937393'
 
@@ -34,7 +34,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 1. Setup Java with specific configuration
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -42,15 +41,12 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # 2. Setup CMake
       - name: Install CMake
         run: |
           sudo apt-get update
           sudo apt-get install -y cmake ninja-build
           cmake --version
-          echo "CMAKE_ROOT=$(cmake --system-information | grep CMAKE_ROOT | awk '{print $2}' | tr -d '"')" >> $GITHUB_ENV
 
-      # 3. Setup Android SDK and NDK
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         
@@ -64,7 +60,6 @@ jobs:
             "cmake;${{ env.CMAKE_VERSION }}"
           echo "y" | sdkmanager --licenses
 
-      # 4. Setup Flutter with correct version
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -72,18 +67,18 @@ jobs:
           channel: 'stable'
           cache: true
 
-      # 5. Configure Gradle with correct version and memory settings
+      # تحديث إعدادات Gradle مع إزالة MaxPermSize
       - name: Configure Gradle
         working-directory: android
         run: |
-          # Configure Gradle properties
           mkdir -p ~/.gradle
           cat << EOF > ~/.gradle/gradle.properties
           org.gradle.java.home=$JAVA_HOME
-          org.gradle.jvmargs=-Xmx4g -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+          org.gradle.jvmargs=-Xmx4g -Dfile.encoding=UTF-8 -XX:+HeapDumpOnOutOfMemoryError -XX:+UseParallelGC
           org.gradle.daemon=true
           org.gradle.parallel=true
           org.gradle.configureondemand=true
+          org.gradle.caching=true
           android.useAndroidX=true
           android.enableJetifier=true
           android.enableR8=true
@@ -91,13 +86,11 @@ jobs:
           android.ndkVersion=${{ env.NDK_VERSION }}
           EOF
           
-          # Make gradlew executable
           chmod +x ./gradlew
           
-          # Update Gradle version
+          # تحديث wrapper مع إصدار Gradle الجديد
           ./gradlew wrapper --gradle-version=${{ env.GRADLE_VERSION }} --distribution-type=bin
 
-      # 6. Setup Debug Keystore
       - name: Setup Debug Keystore
         run: |
           mkdir -p ~/.android
@@ -111,53 +104,37 @@ jobs:
             -validity 10000 \
             -dname "CN=Android Debug,O=Android,C=US"
 
-      # 7. Flutter build tools setup and verification
       - name: Setup Flutter build tools
         run: |
           flutter config --no-analytics
           flutter precache
           flutter doctor --android-licenses
           flutter doctor -v
-          
-          # Verify build tools installation
-          echo "Verifying Android build tools..."
-          ls -l $ANDROID_SDK_ROOT/build-tools
-          
-          echo "Verifying CMake installation..."
-          ls -l $ANDROID_SDK_ROOT/cmake
-          
-          echo "Verifying NDK installation..."
-          ls -l $ANDROID_SDK_ROOT/ndk
 
-      # 8. Project setup and dependency resolution
       - name: Project Setup
         run: |
           flutter clean
           flutter pub get
           cd android
-          ./gradlew clean
-          ./gradlew dependencies
+          ./gradlew clean --no-daemon
+          ./gradlew dependencies --no-daemon
           cd ..
 
-      # 9. Build APK with all configurations
       - name: Build APK
         env:
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
           ANDROID_NDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}/ndk/${{ env.NDK_VERSION }}
         run: |
-          echo "Environment Configuration:"
-          echo "========================="
+          echo "Building with configuration:"
           echo "JAVA_HOME: $JAVA_HOME"
           echo "ANDROID_SDK_ROOT: $ANDROID_SDK_ROOT"
           echo "ANDROID_NDK_ROOT: $ANDROID_NDK_ROOT"
-          echo "CMAKE_ROOT: $CMAKE_ROOT"
           
           flutter build apk \
             --release \
             --verbose \
-            --target-platform android-arm,android-arm64,android-x64
+            --target-platform android-arm64
 
-      # 10. Create detailed build info
       - name: Create Build Info
         run: |
           {
@@ -174,14 +151,8 @@ jobs:
             echo "NDK Version: ${{ env.NDK_VERSION }}"
             echo "Flutter Version: $(flutter --version | head -n 1)"
             echo "Dart Version: $(dart --version)"
-            echo ""
-            echo "Build Tools Versions"
-            echo "==================="
-            echo "Android SDK Build Tools: $(ls $ANDROID_SDK_ROOT/build-tools)"
-            echo "Android Platform Tools: $(adb version)"
           } > build_info.txt
 
-      # 11. Upload APK
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
@@ -189,7 +160,6 @@ jobs:
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
 
-      # 12. Upload build info
       - name: Upload Build Info
         uses: actions/upload-artifact@v4
         with:
