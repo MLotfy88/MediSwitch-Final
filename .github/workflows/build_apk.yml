@@ -35,6 +35,12 @@ jobs:
           channel: 'stable'
           cache: true
 
+      # Make Gradle wrapper executable
+      - name: Make Gradle wrapper executable
+        run: |
+          cd android
+          chmod +x ./gradlew
+        
       # Add step to update Gradle properties
       - name: Update Gradle Properties
         run: |
@@ -45,7 +51,7 @@ jobs:
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # Add step to show Gradle version
+      # Show Gradle version with correct permissions
       - name: Show Gradle Version
         working-directory: android
         run: ./gradlew --version
