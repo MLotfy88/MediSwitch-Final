@@ -1,36 +1,29 @@
-// android/build.gradle (مع التأكد من وجود buildscript صحيح)
+// android/build.gradle (الجذري)
 
 buildscript {
-    // تعريف المتغيرات لتسهيل التحديث
-    // تأكد من توافق إصدار AGP مع Gradle 8.10.2 (راجع وثائق Android)
-    // AGP 8.1.x, 8.2.x, 8.3.x, 8.4.x يجب أن تكون متوافقة. لنستخدم 8.1.0.
-    ext.agp_version = '8.1.0'
-    ext.kotlin_version = "1.8.22" // نفس الإصدار المستخدم سابقًا
+    ext.agp_version = '8.1.0' // يجب أن يتطابق مع settings.gradle
+    ext.kotlin_version = "1.8.22" // يجب أن يتطابق مع settings.gradle
 
-    // *** المستودعات للعثور على إضافات Gradle ***
     repositories {
         google()
         mavenCentral()
     }
-
-    // *** التبعيات التي تحتاجها إضافات Gradle نفسها ***
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        // أضف أي تبعيات classpath أخرى إذا كان مشروعك يحتاجها
     }
 }
 
-// كتلة allprojects يمكن أن تظل موجودة لضبط إعدادات عامة للمشاريع الفرعية
-// ولكن **لا** تضع repositories بداخلها هنا، للسماح لـ Flutter بالتحكم
 allprojects {
-    // على سبيل المثال، يمكنك إضافة configurations هنا
+    // يفضل إبقاء هذا فارغًا أو إزالته إذا لم يكن ضروريًا
+    // لا تضع repositories هنا
 }
 
-// إعدادات أخرى (مثل clean, rootProject.buildDir, subprojects) تظل كما كانت
+// إعدادات أخرى يمكن أن تبقى
 subprojects {
     project.buildDir = new File(rootProject.buildDir, "${project.name}")
-    project.evaluationDependsOn(':app')
+    // إزالة الاعتمادية الدائرية المحتملة هذه
+    // project.evaluationDependsOn(':app')
 }
 
 tasks.register("clean", Delete) {
