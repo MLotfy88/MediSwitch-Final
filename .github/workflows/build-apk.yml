@@ -8,9 +8,8 @@ on:
 jobs:
   build-apk:
     runs-on: ubuntu-latest
-
     env:
-      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64  # تأكد من هذا المسار حسب بيئة ubuntu-latest
+      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64  # تأكد من أن هذا المسار صحيح
 
     steps:
       - name: Checkout repository
@@ -30,7 +29,7 @@ jobs:
           ./build_apk.sh
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
