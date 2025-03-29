@@ -43,14 +43,14 @@ jobs:
         run: ./gradlew clean
         working-directory: ./android
 
-      # *** تعديل هنا: إضافة --verbose للبناء ***
+      # استمر في استخدام --verbose مؤقتًا إذا أردت
       - name: Build APK with Verbose Output
+        # ملاحظة: الآن بعد نجاح Gradle، قد لا تحتاج --verbose ولكن لن يضر
         run: flutter build apk --release --verbose
 
-      # *** خطوة جديدة: عرض محتويات مجلد المخرجات ***
-      # ستعمل هذه الخطوة دائمًا، حتى لو فشلت خطوة البناء
+      # خطوة العرض ستظل مفيدة للتأكيد
       - name: List Build Output Directory
-        if: always() # لضمان التشغيل حتى عند الفشل
+        if: always()
         run: |
           echo "Listing contents of build/app/outputs/:"
           ls -R build/app/outputs/ || echo "Output directory not found or inaccessible."
@@ -59,11 +59,12 @@ jobs:
           ls -A build/app/ || echo "Build app directory not found or inaccessible."
           echo "----------------------------------------"
 
-
-      # تحميل الـ artifact (سيستمر في الفشل إذا لم يتم العثور على الملف)
+      # *** تعديل هنا: تغيير مسار البحث عن APK ***
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk # المسار القياسي المتوقع
+          # جرب المسار الأكثر شيوعًا لمخرجات Gradle
+          path: build/app/outputs/apk/release/app-release.apk
+          # إذا لم يتم العثور عليه في المسار الجديد، لا يزال يعتبر خطأ
           if-no-files-found: error
