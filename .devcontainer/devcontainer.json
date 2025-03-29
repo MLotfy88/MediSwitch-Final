@@ -24,5 +24,11 @@
     "forwardPorts": [8080, 8000, 3000],
     "postCreateCommand": "flutter pub get",
     "remoteUser": "root",
-    "runArgs": ["--init"]
+    "containerEnv": {
+        "SHELL": "/bin/bash",
+        "DISPLAY": ":0"
+    },
+    "runArgs": ["--init", "--privileged"],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace"
 }
