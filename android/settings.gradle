@@ -1,12 +1,17 @@
+// android/settings.gradle
+
 pluginManagement {
+    // (الكود الخاص بقراءة local.properties هنا - قد يسبب مشاكل في CI لاحقًا)
     def flutterSdkPath = {
         def properties = new Properties()
+        // هذا السطر قد يفشل في GitHub Actions لأنه لا يوجد ملف local.properties بشكل افتراضي
         file("local.properties").withInputStream { properties.load(it) }
         def flutterSdkPath = properties.getProperty("flutter.sdk")
         assert flutterSdkPath != null, "flutter.sdk not set in local.properties"
         return flutterSdkPath
     }()
 
+    // هذا السطر يعتمد على نجاح قراءة local.properties
     includeBuild("${flutterSdkPath}/packages/flutter_tools/gradle")
 
     repositories {
@@ -16,20 +21,57 @@ pluginManagement {
     }
 }
 
+// *** نقلنا بلوك plugins هنا ***
+plugins {
+    id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
+    // تأكد من أن إصدارات هذه الإضافات متوافقة مع إصدار Gradle (8.10.2) لديك
+    id 'com.android.application' version '8.1.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.8.22' apply false // تأكد من توافق إصدار Kotlin
+}
+
+// *** نقلنا بلوك dependencyResolutionManagement هنا ***
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        // استخدام مسارات Unix بدلًا من Windows
-        maven { url '/usr/local/flutter/.pub-cache/hosted/pub.dartlang.org' }
+        // ملاحظة: الاعتماد على مسار .pub-cache المحلي قد لا يكون موثوقًا دائمًا في CI
+        // قد يكون من الأفضل الاعتماد على المستودعات القياسية أو إعداد مستودع مخصص إذا لزم الأمر.
+        // maven { url '/usr/local/flutter/.pub-cache/hosted/pub.dartlang.org' } // هذا المسار غير قياسي وقد لا يعمل
     }
 }
 
-plugins {
-    id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
-    id 'com.android.application' version '8.1.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.22' apply false
+
+// تضمين وحدة التطبيق الرئيسية يأتي في النهاية
+include ':app'
+
+// يمكنك إضافة أي كود آخر هنا (مثل قراءة .flutter-plugins إذا لزم الأمر بالطريقة القديمة)
+// الكود الخاص بـ Flutter لتضمين الإضافات (إذا لزم الأمر ولم يتم بواسطة dev.flutter.flutter-plugin-loader)
+def localProperties = new Properties()
+def localPropertiesFile = new File(rootProject.projectDir, 'local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
 }
 
-include ':app'
+def flutterProjectRoot = rootProject.projectDir.parentFile
+def pluginsFile = new File(flutterProjectRoot, '.flutter-plugins')
+if (pluginsFile.exists() && !plugins.hasPlugin('dev.flutter.flutter-plugin-loader')) { // تحقق إضافي
+    println 'Using .flutter-plugins'
+    pluginsFile.readLines().each { line ->
+        def parts = line.split('=')
+        if (parts.length == 2) {
+            def pluginName = parts[0]
+            def pluginPath = parts[1].replace('\\', '/') // استبدال الشرطة المائلة العكسية
+            include ":$pluginName"
+            project(":$pluginName").projectDir = new File(flutterProjectRoot, pluginPath)
+        }
+    }
+}
+
+def pluginsFileDependencies = new File(flutterProjectRoot, '.flutter-plugins-dependencies')
+if (pluginsFileDependencies.exists() && !plugins.hasPlugin('dev.flutter.flutter-plugin-loader')) {
+    println 'Using .flutter-plugins-dependencies'
+    // ... (منطق قراءة وتحميل التبعيات من هذا الملف إذا لزم الأمر) ...
+}
