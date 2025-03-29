@@ -1,4 +1,4 @@
-// android/settings.gradle (يبقى كما هو في المحاولة السابقة)
+// android/settings.gradle (حديث، بدون repositoriesMode)
 
 pluginManagement {
     def flutterSdkRoot = System.getenv('FLUTTER_ROOT')
@@ -14,6 +14,7 @@ pluginManagement {
     }
     assert flutterSdkRoot != null, "Flutter SDK path not found. Define FLUTTER_ROOT environment variable or flutter.sdk in local.properties."
 
+    // تضمين أدوات بناء Flutter
     includeBuild("${flutterSdkRoot}/packages/flutter_tools/gradle")
 
     repositories {
@@ -23,27 +24,24 @@ pluginManagement {
     }
 }
 
-// لا يوجد plugins {}
-// لا يوجد dependencyResolutionManagement {}
-
-include ':app'
-
-// تضمين الإضافات يدويًا
-def flutterProjectRoot = rootProject.projectDir.parentFile
-def pluginsFile = new File(flutterProjectRoot, '.flutter-plugins')
-if (pluginsFile.exists()) {
-    println 'Manually including plugins from .flutter-plugins'
-    pluginsFile.readLines().each { line ->
-        def parts = line.split('=')
-        if (parts.length == 2) {
-            def pluginName = parts[0]
-            def pluginPath = parts[1].replace('\\', '/')
-            include ":$pluginName"
-            project(":$pluginName").projectDir = new File(flutterProjectRoot, pluginPath)
-        } else {
-             println "Skipping malformed line in .flutter-plugins: $line"
-        }
-    }
-} else {
-    println "Warning: .flutter-plugins file not found. This might be an issue."
+plugins {
+    // تطبيق محمل الإضافات
+    id 'dev.flutter.flutter-plugin-loader' version '1.0.0'
+    // تعريف إصدارات الإضافات لاستخدامها لاحقًا
+    id 'com.android.application' version '8.1.0' apply false // استخدم نفس إصدار AGP في الملف الجذري
+    id 'com.android.library' version '8.1.0' apply false // تحديد إصدار المكتبة أيضًا
+    id 'org.jetbrains.kotlin.android' version '1.8.22' apply false
 }
+
+dependencyResolutionManagement {
+    // *** تم حذف repositoriesMode.set(...) بالكامل ***
+    // السماح لـ Gradle وإضافة Flutter بالتعامل مع المستودعات
+    repositories {
+        google()
+        mavenCentral()
+        // لا يوجد مستودع Flutter يدوي هنا
+    }
+}
+
+// تضمين وحدة التطبيق (محمل الإضافات سيتعامل مع الباقي)
+include ':app'
