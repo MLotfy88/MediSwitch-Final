@@ -1,38 +1,11 @@
-# Root key الأساسي
 name: Build Android APK
+run-name: Build by MLotfy88 at 2025-03-29 13:51:35
 
-# معلومات التشغيل
-run-name: Android Build by MLotfy88
-
-# معلومات البيئة
 env:
-  CURRENT_DATETIME: "2025-03-29 13:47:36"
+  CURRENT_DATETIME: "2025-03-29 13:51:35"
   CURRENT_USER: "MLotfy88"
-  GRADLE_VERSION: "8.10.2"
-  CMAKE_VERSION: "3.22.1"
-  NDK_VERSION: "25.1.8937393"
-  TZ: "UTC"
   FLUTTER_ROOT: "/opt/hostedtoolcache/flutter/stable-3.29.2-x64"
-  REPO_NAME: "MLotfy88/MediSwitch-Final"
-  REPO_ID: "955927897"
 
-# إعدادات التشغيل الافتراضية
-defaults:
-  run:
-    shell: bash
-
-# الصلاحيات
-permissions:
-  contents: write
-  actions: write
-  checks: write
-  deployments: write
-  pages: write
-  pull-requests: write
-  security-events: write
-  statuses: write
-
-# متى يتم التشغيل
 on:
   push:
     branches: [ main ]
@@ -40,146 +13,130 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-# الوظائف
+permissions:
+  contents: write
+  actions: write
+
 jobs:
-  # وظيفة التحقق
-  validate:
-    name: Validate Repository
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check Repository
-        run: |
-          echo "Repository: ${{ env.REPO_NAME }}"
-          echo "Repository ID: ${{ env.REPO_ID }}"
-          echo "Timestamp: ${{ env.CURRENT_DATETIME }}"
-          echo "User: ${{ env.CURRENT_USER }}"
-
-  # وظيفة البناء
   build:
-    name: Build APK
-    needs: validate
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ env.REPO_NAME }}
-          fetch-depth: 0
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-          cache: 'gradle'
-
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+          
+      - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.29.2'
           channel: 'stable'
-          cache: true
           
-      - name: Configure Build Environment
+      - name: Update Gradle Files
         run: |
-          echo "Setting up build environment..."
-          echo "FLUTTER_ROOT=$FLUTTER_ROOT"
-          echo "JAVA_HOME=$JAVA_HOME"
-          echo "ANDROID_HOME=$ANDROID_HOME"
-
-      - name: Setup Gradle Configuration
-        working-directory: android
-        run: |
-          mkdir -p ~/.gradle
-          cat << EOF > ~/.gradle/gradle.properties
-          org.gradle.java.home=$JAVA_HOME
-          org.gradle.jvmargs=-Xmx4g -Dfile.encoding=UTF-8 -XX:+HeapDumpOnOutOfMemoryError -XX:+UseParallelGC
-          org.gradle.daemon=true
-          org.gradle.parallel=true
-          org.gradle.caching=true
-          android.useAndroidX=true
-          android.enableJetifier=true
-          EOF
-
-      - name: Configure Local Properties
-        run: |
-          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
-          echo "sdk.dir=$ANDROID_HOME" >> android/local.properties
-
-      - name: Update Gradle Settings
-        run: |
+          # تحديث settings.gradle
           cat << EOF > android/settings.gradle
+          pluginManagement {
+              repositories {
+                  gradlePluginPortal()
+                  google()
+                  mavenCentral()
+              }
+          }
+
+          dependencyResolutionManagement {
+              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+
           include ':app'
+          EOF
           
-          def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
-          def properties = new Properties()
+          # تحديث build.gradle
+          cat << EOF > android/build.gradle
+          buildscript {
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+              dependencies {
+                  classpath 'com.android.tools.build:gradle:7.3.0'
+                  classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
+              }
+          }
+
+          allprojects {
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+          EOF
           
-          assert localPropertiesFile.exists()
-          localPropertiesFile.withReader("UTF-8") { reader -> properties.load(reader) }
-          
-          def flutterSdkPath = properties.getProperty("flutter.sdk")
-          assert flutterSdkPath != null, "flutter.sdk not set in local.properties"
-          
-          apply from: "\$flutterSdkPath/packages/flutter_tools/gradle/app_plugin_loader.gradle"
-          
-          gradle.beforeProject { project ->
-              project.evaluationDependsOn(':app')
+          # تحديث app/build.gradle
+          cat << EOF > android/app/build.gradle
+          def localProperties = new Properties()
+          def localPropertiesFile = rootProject.file('local.properties')
+          if (localPropertiesFile.exists()) {
+              localPropertiesFile.withReader('UTF-8') { reader ->
+                  localProperties.load(reader)
+              }
+          }
+
+          def flutterRoot = localProperties.getProperty('flutter.sdk')
+          if (flutterRoot == null) {
+              throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+          }
+
+          plugins {
+              id 'com.android.application'
+              id 'kotlin-android'
+              id 'dev.flutter.flutter-gradle-plugin'
+          }
+
+          android {
+              namespace "com.example.mediswitch"
+              compileSdkVersion 33
+              
+              defaultConfig {
+                  applicationId "com.example.mediswitch"
+                  minSdkVersion 21
+                  targetSdkVersion 33
+                  versionCode 1
+                  versionName "1.0"
+              }
+
+              buildTypes {
+                  release {
+                      signingConfig signingConfigs.debug
+                  }
+              }
+          }
+
+          flutter {
+              source '../..'
           }
           EOF
 
-      - name: Flutter Build
+          # تحديث local.properties
+          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
+          echo "sdk.dir=$ANDROID_HOME" >> android/local.properties
+
+      - name: Build APK
         run: |
           flutter clean
           flutter pub get
-          
           cd android
           chmod +x gradlew
-          ./gradlew clean --stacktrace
+          ./gradlew clean
           cd ..
-          
-          flutter build apk --release --verbose
+          flutter build apk --release
 
-      - name: Upload APK Artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: mediswitch-release-apk
+          name: release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 7
-
-      - name: Create Build Report
-        if: always()
-        run: |
-          {
-            echo "Build Report"
-            echo "============"
-            echo "Date: ${{ env.CURRENT_DATETIME }}"
-            echo "Builder: ${{ env.CURRENT_USER }}"
-            echo "Repository: ${{ env.REPO_NAME }}"
-            echo "Build Status: ${{ job.status }}"
-          } > build_report.txt
-
-      - name: Upload Build Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-report
-          path: build_report.txt
-          retention-days: 7
-
-  # وظيفة الإشعار
-  notify:
-    name: Notification
-    needs: [build]
-    runs-on: ubuntu-latest
-    if: always()
-    
-    steps:
-      - name: Build Status
-        run: |
-          if [ "${{ needs.build.result }}" == "success" ]; then
-            echo "✅ Build completed successfully"
-          else
-            echo "❌ Build failed"
-            exit 1
-          fi
