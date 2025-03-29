@@ -25,10 +25,11 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
+      # Setup Flutter (still needed for dart dependencies)
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2' # أو أحدث إصدار تفضله
+          flutter-version: '3.29.2' # Or your preferred version
           channel: 'stable'
           cache: true
 
@@ -36,29 +37,30 @@ jobs:
         run: flutter --version
 
       - name: Get Flutter dependencies
+        # This creates the .dart_tool/package_config.json in the root
         run: flutter pub get
 
-      # *** تعديل هنا: فصل خطوات التنظيف ***
+      # --- Clean Steps ---
       - name: Clean Flutter Artifacts
         run: flutter clean
-        # لا يحتاج working-directory (يعمل من الجذر)
 
       - name: Grant Gradlew Permission
         run: chmod +x android/gradlew
-        # لا يحتاج working-directory (يعمل من الجذر، والمسار صحيح)
 
       - name: Clean Android Gradle Project
-        run: ./gradlew clean --no-daemon # تأكد من إضافة --no-daemon
-        working-directory: ./android # *** تحديد مجلد العمل هنا ***
-
-      # --- بناء Gradle المباشر ---
-      - name: Build APK with Gradle Directly
-        id: build_gradle
-        run: ./gradlew assembleRelease --no-daemon
+        run: ./gradlew clean --no-daemon
         working-directory: ./android
 
-      # --- التحقق والرفع ---
+      # --- Build Step (Direct Gradle Call) ---
+      - name: Build APK with Gradle Directly
+        id: build_gradle
+        # Pass the Flutter project root directory to Gradle
+        run: ./gradlew assembleRelease -Pflutter-project-dir=../ --no-daemon
+        working-directory: ./android # Execute from android directory
+
+      # --- Verification and Upload ---
       - name: Verify Final APK Existence and Size
+        # Check both potential output paths after direct gradle build
         run: |
           echo "Checking for final APK at Gradle default path..."
           ls -lh android/build/app/outputs/apk/release/app-release.apk || echo "APK not found at android/build/app/outputs/apk/release/app-release.apk"
@@ -66,25 +68,23 @@ jobs:
           echo "Checking for final APK at Flutter default path..."
           ls -lh build/app/outputs/flutter-apk/app-release.apk || echo "APK not found at build/app/outputs/flutter-apk/app-release.apk"
           echo "----------------------------------------"
-        # لا يزال يعمل من الجذر، لذا المسارات كاملة
 
       - name: List Build Output Directory
-        if: always()
+        if: always() # Run even if previous steps fail
         run: |
           echo "Listing contents of ./android/build/app/outputs/:"
-          ls -R ./android/build/app/outputs/ || echo "Output directory not found or inaccessible."
+          ls -R ./android/build/app/outputs/ || echo "Android output directory not found or inaccessible."
           echo "----------------------------------------"
           echo "Listing contents of ./build/app/outputs/:"
-          ls -R ./build/app/outputs/ || echo "Flutter Output directory not found or inaccessible."
+          ls -R ./build/app/outputs/ || echo "Flutter output directory not found or inaccessible."
           echo "----------------------------------------"
-        # يعمل من الجذر
 
       - name: Upload APK Artifact
         id: upload_artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk-gradle
-          # المسار المتوقع من بناء Gradle المباشر
+          # Use the path Gradle typically outputs to when called directly
           path: android/build/app/outputs/apk/release/app-release.apk
-          # تحقق من مخرجات التحقق لتأكيد المسار إذا لزم الأمر
+          # If verification step shows it's in flutter-apk, change this path
           if-no-files-found: error
