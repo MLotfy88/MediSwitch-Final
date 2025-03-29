@@ -22,12 +22,13 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # Add step to verify Java installation
-      - name: Verify Java Installation
+      # Update Gradle version first
+      - name: Update Gradle Wrapper
         run: |
-          echo "JAVA_HOME=$JAVA_HOME"
-          java -version
-          echo "which java: $(which java)"
+          cd android
+          chmod +x ./gradlew
+          echo "distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-all.zip" > gradle/wrapper/gradle-wrapper.properties
+          ./gradlew wrapper --gradle-version 8.2
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -35,31 +36,18 @@ jobs:
           channel: 'stable'
           cache: true
 
-      # Make Gradle wrapper executable
-      - name: Make Gradle wrapper executable
-        run: |
-          cd android
-          chmod +x ./gradlew
-        
-      # Add step to update Gradle properties
-      - name: Update Gradle Properties
-        run: |
-          mkdir -p android/gradle/wrapper
-          echo "org.gradle.java.home=$JAVA_HOME" >> android/gradle.properties
-          echo "distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-all.zip" >> android/gradle/wrapper/gradle-wrapper.properties
-
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # Show Gradle version with correct permissions
-      - name: Show Gradle Version
+      # Verify Gradle version
+      - name: Verify Gradle Version
         working-directory: android
         run: ./gradlew --version
 
       - name: Build APK
         run: |
           flutter clean
-          flutter build apk --release --verbose
+          flutter build apk --release
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
