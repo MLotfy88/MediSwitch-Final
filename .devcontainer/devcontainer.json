@@ -24,11 +24,5 @@
     "forwardPorts": [8080, 8000, 3000],
     "postCreateCommand": "flutter pub get",
     "remoteUser": "root",
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "installZsh": true,
-            "username": "vscode",
-            "upgradePackages": true
-        }
-    }
+    "runArgs": ["--init"]
 }

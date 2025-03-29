@@ -73,7 +73,11 @@ ENV PATH="$DART_SDK/bin:$PATH"
 
 # 8. إصلاح أذونات وملكية ملفات Flutter
 RUN mkdir -p /usr/local/flutter/bin/cache/artifacts/gradle_wrapper && \
-    chmod -R 777 /usr/local/flutter
+    mkdir -p /root && \
+    chmod -R 755 /usr/local/flutter && \
+    chmod -R 755 /root
+
+ENV HOME=/root
 
 # 9. تهيئة Flutter
 RUN flutter config --no-analytics && \
