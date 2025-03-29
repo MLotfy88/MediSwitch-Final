@@ -3,11 +3,14 @@ name: Build Release APK
 on:
   push:
     branches:
-      - main  # قم بتعديل الفرع إذا لزم الأمر
+      - main
 
 jobs:
   build-apk:
     runs-on: ubuntu-latest
+
+    env:
+      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64  # تأكد من هذا المسار حسب بيئة ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -16,7 +19,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2'  # تأكد من استخدام الإصدار المعتمد في مشروعك
+          flutter-version: '3.29.2'
 
       - name: Install dependencies
         run: flutter pub get
