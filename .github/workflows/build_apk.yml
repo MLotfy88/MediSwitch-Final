@@ -1,9 +1,12 @@
 name: Build Android APK
-run-name: Build ${{ github.sha }} by MLotfy88
+run-name: Build by MLotfy88 at ${{ env.BUILD_TIMESTAMP }}
 
 env:
-  BUILD_TIMESTAMP: "2025-03-29 13:54:10"
-  BUILDER: "MLotfy88"
+  BUILD_TIMESTAMP: "2025-03-29 14:04:51"
+  CURRENT_USER: "MLotfy88"
+  FLUTTER_ROOT: ${{ secrets.FLUTTER_ROOT }}
+  ANDROID_SDK_ROOT: ${{ secrets.ANDROID_SDK_ROOT }}
+  JAVA_HOME: /usr/lib/jvm/temurin-17-jdk
 
 on:
   push:
@@ -28,38 +31,116 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           
-      - name: Verify Java Installation
-        run: |
-          java -version
-          echo "JAVA_HOME=$JAVA_HOME"
-          
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.29.2'
           channel: 'stable'
           
-      - name: Configure Gradle
+      - name: Configure Local Properties
         run: |
-          # Update gradle.properties
-          mkdir -p ~/.gradle
-          echo "org.gradle.jvmargs=-Xmx4g" > ~/.gradle/gradle.properties
-          echo "android.useAndroidX=true" >> ~/.gradle/gradle.properties
-          echo "android.enableJetifier=true" >> ~/.gradle/gradle.properties
+          echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
+          echo "sdk.dir=$ANDROID_SDK_ROOT" >> android/local.properties
+
+      - name: Update Gradle Files
+        run: |
+          # تحديث settings.gradle
+          cat << EOF > android/settings.gradle
+          pluginManagement {
+              repositories {
+                  gradlePluginPortal()
+                  google()
+                  mavenCentral()
+              }
+          }
+
+          dependencyResolutionManagement {
+              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+
+          include ':app'
+          EOF
           
-          cd android
-          chmod +x gradlew
-          ./gradlew wrapper
-          cd ..
+          # تحديث build.gradle
+          cat << EOF > android/build.gradle
+          buildscript {
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+              dependencies {
+                  classpath 'com.android.tools.build:gradle:7.3.0'
+                  classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
+              }
+          }
+
+          allprojects {
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+          EOF
+          
+          # تحديث app/build.gradle
+          cat << EOF > android/app/build.gradle
+          def localProperties = new Properties()
+          def localPropertiesFile = rootProject.file('local.properties')
+          if (localPropertiesFile.exists()) {
+              localPropertiesFile.withReader('UTF-8') { reader ->
+                  localProperties.load(reader)
+              }
+          }
+
+          def flutterRoot = localProperties.getProperty('flutter.sdk')
+          if (flutterRoot == null) {
+              throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+          }
+
+          plugins {
+              id 'com.android.application'
+              id 'kotlin-android'
+              id 'dev.flutter.flutter-gradle-plugin'
+          }
+
+          android {
+              namespace "com.example.mediswitch"
+              compileSdkVersion 33
+              
+              defaultConfig {
+                  applicationId "com.example.mediswitch"
+                  minSdkVersion 21
+                  targetSdkVersion 33
+                  versionCode 1
+                  versionName "1.0"
+              }
+
+              buildTypes {
+                  release {
+                      signingConfig signingConfigs.debug
+                  }
+              }
+          }
+
+          flutter {
+              source '../..'
+          }
+          EOF
 
       - name: Build APK
         run: |
           flutter clean
           flutter pub get
+          cd android
+          chmod +x gradlew
+          ./gradlew clean
+          cd ..
           flutter build apk --release
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
