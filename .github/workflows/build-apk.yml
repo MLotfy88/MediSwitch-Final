@@ -1,15 +1,18 @@
 # .github/workflows/build_apk.yml
 
-name: Build Flutter APK
+name: Build Flutter APK (Fallback to Latest Stable)
 
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch: # يمكنك إبقاء التشغيل اليدوي إذا أردت
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    outputs: # تعريف المخرجات من هذه الوظيفة (غير مستخدم حاليًا ولكن ممارسة جيدة)
+      apk_path: ${{ steps.upload_artifact.outputs.artifact-path }} # مثال
 
     steps:
       - name: Checkout repository
@@ -22,49 +25,84 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      - name: Set up Flutter
+      # --- المحاولة الأولى باستخدام الإصدار المحدد (3.29.2) ---
+      - name: Set up Flutter (Default Version)
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.29.2'
           channel: 'stable'
           cache: true
 
-      - name: Get Flutter dependencies
+      - name: Display Default Flutter Version
+        run: flutter --version
+
+      - name: Get Dependencies (Default)
         run: flutter pub get
 
-      - name: Clean Flutter build artifacts
-        run: flutter clean
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x android/gradlew
-        working-directory: ./
-
-      - name: Clean Android Gradle project
-        run: ./gradlew clean
+      - name: Clean Workspace (Before Default Build)
+        run: |
+          flutter clean
+          chmod +x android/gradlew
+          ./gradlew clean
         working-directory: ./android
 
-      # استمر في استخدام --verbose مؤقتًا إذا أردت
-      - name: Build APK with Verbose Output
-        # ملاحظة: الآن بعد نجاح Gradle، قد لا تحتاج --verbose ولكن لن يضر
+      - name: Build APK with Default Version (Allow Flutter check fail)
+        id: build_default # نعطي معرفًا للخطوة
+        continue-on-error: true # اسمح لها بالاستمرار حتى لو قالت Flutter فشل
         run: flutter build apk --release --verbose
 
-      # خطوة العرض ستظل مفيدة للتأكيد
-      - name: List Build Output Directory
-        if: always()
+      # --- التحقق من وجود APK بعد المحاولة الأولى ---
+      - name: Check if Default Build Produced APK
+        id: check_apk # معرف لهذه الخطوة
         run: |
-          echo "Listing contents of build/app/outputs/:"
-          ls -R build/app/outputs/ || echo "Output directory not found or inaccessible."
-          echo "----------------------------------------"
-          echo "Listing contents of build/app/ :"
-          ls -A build/app/ || echo "Build app directory not found or inaccessible."
-          echo "----------------------------------------"
+          if [[ -f build/app/outputs/flutter-apk/app-release.apk ]]; then
+            echo "APK found after default build."
+            echo "apk_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "APK not found after default build. Will try latest stable."
+            echo "apk_exists=false" >> $GITHUB_OUTPUT
+          fi
 
-      # *** تعديل هنا: تغيير مسار البحث عن APK ***
+      # --- المحاولة الثانية (مشروطة) باستخدام أحدث إصدار مستقر ---
+      - name: Setup Latest Stable Flutter (if needed)
+        # تشغيل هذه الخطوة والخطوات التالية فقط إذا لم يتم العثور على APK
+        if: steps.check_apk.outputs.apk_exists == 'false'
+        run: |
+          echo "Switching to latest stable Flutter..."
+          flutter channel stable
+          flutter upgrade
+          flutter doctor -v # عرض تفاصيل الإصدار الجديد
+
+      - name: Get Dependencies (Latest Stable - if needed)
+        if: steps.check_apk.outputs.apk_exists == 'false'
+        run: flutter pub get
+
+      - name: Clean Workspace (Before Latest Stable Build - if needed)
+        if: steps.check_apk.outputs.apk_exists == 'false'
+        run: |
+          flutter clean
+          chmod +x android/gradlew
+          ./gradlew clean
+        working-directory: ./android
+
+      - name: Build APK with Latest Stable (if needed)
+        id: build_latest # معرف للخطوة
+        if: steps.check_apk.outputs.apk_exists == 'false'
+        # قد لا نحتاج continue-on-error هنا، لنفترض أن الإصدار الأحدث يعمل بشكل صحيح
+        run: flutter build apk --release --verbose
+
+      # --- الرفع النهائي ---
+      - name: Verify Final APK Existence and Size
+        # تحقق أخير قبل الرفع، مفيد للتصحيح
+        run: |
+          echo "Checking for final APK at standard path..."
+          ls -lh build/app/outputs/flutter-apk/app-release.apk || echo "APK still not found before upload."
+        # يمكنك إضافة مسار بديل هنا إذا لزم الأمر بناءً على الفحص
+
       - name: Upload APK Artifact
+        id: upload_artifact # معرف للخطوة
         uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          # جرب المسار الأكثر شيوعًا لمخرجات Gradle
-          path: build/app/outputs/apk/release/app-release.apk
-          # إذا لم يتم العثور عليه في المسار الجديد، لا يزال يعتبر خطأ
-          if-no-files-found: error
+          name: release-apk # يمكنك تخصيص الاسم إذا أردت
+          path: build/app/outputs/flutter-apk/app-release.apk # المسار القياسي
+          if-no-files-found: error # الفشل إذا لم يتم العثور على الملف نهائيًا
