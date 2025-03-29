@@ -22,35 +22,47 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # Install Android SDK and CMake
+      # Setup Android SDK with specific components
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Install CMake
+        
+      # Install required Android SDK components and CMake
+      - name: Install Android SDK components and CMake
         run: |
-          yes | sdkmanager --install "cmake;3.22.1"
-          yes | sdkmanager --licenses
+          sdkmanager --install "cmake;3.22.1" "ndk;25.1.8937393" "build-tools;33.0.0"
+          echo "y" | sdkmanager --licenses
 
-      # Remove any existing gradle.properties to start fresh
-      - name: Clean Gradle Settings
+      # Verify CMake installation
+      - name: Verify CMake
         run: |
-          rm -f android/gradle.properties
-          mkdir -p android/gradle
+          ls -la $ANDROID_SDK_ROOT/cmake
+          echo "ANDROID_SDK_ROOT = $ANDROID_SDK_ROOT"
+          echo "CMAKE_PATH = $ANDROID_SDK_ROOT/cmake/3.22.1"
+          $ANDROID_SDK_ROOT/cmake/3.22.1/bin/cmake --version
 
-      # Setup Gradle with correct paths
+      # Setup local.properties with correct SDK path
+      - name: Setup local.properties
+        run: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
+          echo "cmake.dir=$ANDROID_SDK_ROOT/cmake/3.22.1" >> android/local.properties
+          echo "ndk.dir=$ANDROID_SDK_ROOT/ndk/25.1.8937393" >> android/local.properties
+
+      # Setup Gradle
       - name: Setup Gradle
         run: |
           cd android
           chmod +x ./gradlew
           echo "distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-all.zip" > gradle/wrapper/gradle-wrapper.properties
           
-          # Create fresh gradle.properties
+          # Create gradle.properties with CMake configuration
           cat << EOF > gradle.properties
           org.gradle.jvmargs=-Xmx1536M
           android.useAndroidX=true
           android.enableJetifier=true
           android.defaults.buildfeatures.buildconfig=true
           android.nonTransitiveRClass=false
+          cmake.dir=$ANDROID_SDK_ROOT/cmake/3.22.1
+          ndk.dir=$ANDROID_SDK_ROOT/ndk/25.1.8937393
           EOF
 
       - name: Set up Flutter
@@ -62,18 +74,24 @@ jobs:
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # Verify environment and tools
-      - name: Verify Environment
+      # Add CMake to PATH
+      - name: Add CMake to PATH
+        run: echo "$ANDROID_SDK_ROOT/cmake/3.22.1/bin" >> $GITHUB_PATH
+
+      # Verify final setup
+      - name: Verify Setup
         run: |
-          echo "JAVA_HOME=$JAVA_HOME"
-          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
-          java -version
+          echo "ANDROID_SDK_ROOT = $ANDROID_SDK_ROOT"
+          echo "PATH = $PATH"
           cmake --version
-          echo "Gradle Properties:"
+          cat android/local.properties
           cat android/gradle.properties
 
-      # Clean and build
+      # Build with explicit paths
       - name: Build APK
+        env:
+          ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
+          CMAKE_PATH: ${{ env.ANDROID_SDK_ROOT }}/cmake/3.22.1
         run: |
           flutter clean
           cd android
