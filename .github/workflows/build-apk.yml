@@ -32,7 +32,6 @@ jobs:
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # ***** الخطوة الجديدة 1: تنظيف Flutter *****
       - name: Clean Flutter build artifacts
         run: flutter clean
 
@@ -40,18 +39,31 @@ jobs:
         run: chmod +x android/gradlew
         working-directory: ./
 
-      # ***** الخطوة الجديدة 2: تنظيف Android Gradle *****
       - name: Clean Android Gradle project
         run: ./gradlew clean
-        working-directory: ./android # تأكد من التشغيل داخل مجلد android
+        working-directory: ./android
 
-      # بناء الـ APK بعد التنظيف
-      - name: Build APK
-        run: flutter build apk --release
+      # *** تعديل هنا: إضافة --verbose للبناء ***
+      - name: Build APK with Verbose Output
+        run: flutter build apk --release --verbose
 
+      # *** خطوة جديدة: عرض محتويات مجلد المخرجات ***
+      # ستعمل هذه الخطوة دائمًا، حتى لو فشلت خطوة البناء
+      - name: List Build Output Directory
+        if: always() # لضمان التشغيل حتى عند الفشل
+        run: |
+          echo "Listing contents of build/app/outputs/:"
+          ls -R build/app/outputs/ || echo "Output directory not found or inaccessible."
+          echo "----------------------------------------"
+          echo "Listing contents of build/app/ :"
+          ls -A build/app/ || echo "Build app directory not found or inaccessible."
+          echo "----------------------------------------"
+
+
+      # تحميل الـ artifact (سيستمر في الفشل إذا لم يتم العثور على الملف)
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: build/app/outputs/flutter-apk/app-release.apk # المسار القياسي المتوقع
           if-no-files-found: error
