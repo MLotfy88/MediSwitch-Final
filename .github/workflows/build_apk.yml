@@ -22,38 +22,33 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # Install system CMake first
+      # Install system CMake
       - name: Install CMake
         run: |
           sudo apt-get update
           sudo apt-get install -y cmake ninja-build
 
-      # Setup Android SDK with specific components
+      # Setup Android SDK
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      # Install Android SDK components without CMake
+      # Install Android SDK components
       - name: Install Android SDK components
         run: |
           sdkmanager --install "platform-tools" "platforms;android-33" "build-tools;33.0.0" "ndk;25.1.8937393"
           echo "y" | sdkmanager --licenses
 
-      # Modify build.gradle to use system CMake
-      - name: Update build.gradle
-        run: |
-          if [ -f "android/app/build.gradle" ]; then
-            sed -i 's/cmake {/cmake {\n            version "3.22.1"\n            path "\/usr\/bin\/cmake"/' android/app/build.gradle
-          fi
-
-      # Setup Gradle
+      # Setup Gradle with corrected memory settings
       - name: Setup Gradle
         run: |
           cd android
           chmod +x ./gradlew
           
-          # Create fresh gradle.properties
+          # Create gradle.properties with corrected memory settings
           cat << EOF > gradle.properties
-          org.gradle.jvmargs=-Xmx4096M -XX:MaxPermSize=4096m -XX:+HeapDumpOnOutOfMemoryError
+          org.gradle.jvmargs=-Xmx4096M -Dfile.encoding=UTF-8
+          org.gradle.daemon=false
+          org.gradle.parallel=true
           android.useAndroidX=true
           android.enableJetifier=true
           android.defaults.buildfeatures.buildconfig=true
@@ -95,19 +90,21 @@ jobs:
           echo "ANDROID_SDK_ROOT = $ANDROID_SDK_ROOT"
           echo "JAVA_HOME = $JAVA_HOME"
           ls -la $ANDROID_SDK_ROOT/ndk
-          echo "CMake location:"
           which cmake
 
-      # Build with verbose output
+      # Build with gradle first, then flutter
       - name: Build APK
         env:
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
         run: |
+          flutter clean
           cd android
+          # Clear Gradle cache
+          rm -rf ~/.gradle/caches/
           ./gradlew clean
-          ./gradlew assembleRelease --info --stacktrace
+          ./gradlew assembleRelease --no-daemon --stacktrace
           cd ..
-          flutter build apk --release --verbose
+          flutter build apk --release
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
