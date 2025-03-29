@@ -22,26 +22,35 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
+      # Install Android SDK and CMake
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install CMake
+        run: |
+          yes | sdkmanager --install "cmake;3.22.1"
+          yes | sdkmanager --licenses
+
       # Remove any existing gradle.properties to start fresh
       - name: Clean Gradle Settings
         run: |
           rm -f android/gradle.properties
           mkdir -p android/gradle
 
-      # Setup Gradle with correct Linux paths
+      # Setup Gradle with correct paths
       - name: Setup Gradle
         run: |
           cd android
           chmod +x ./gradlew
           echo "distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-all.zip" > gradle/wrapper/gradle-wrapper.properties
           
-          # Create fresh gradle.properties with correct Linux paths
+          # Create fresh gradle.properties
           cat << EOF > gradle.properties
           org.gradle.jvmargs=-Xmx1536M
           android.useAndroidX=true
           android.enableJetifier=true
-          # Let Gradle detect Java home automatically
-          # org.gradle.java.home=$JAVA_HOME
+          android.defaults.buildfeatures.buildconfig=true
+          android.nonTransitiveRClass=false
           EOF
 
       - name: Set up Flutter
@@ -53,21 +62,24 @@ jobs:
       - name: Get Flutter dependencies
         run: flutter pub get
 
-      # Verify environment
+      # Verify environment and tools
       - name: Verify Environment
         run: |
           echo "JAVA_HOME=$JAVA_HOME"
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
           java -version
+          cmake --version
           echo "Gradle Properties:"
           cat android/gradle.properties
 
+      # Clean and build
       - name: Build APK
         run: |
           flutter clean
           cd android
           ./gradlew clean
           cd ..
-          flutter build apk --release
+          flutter build apk --release --verbose
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
