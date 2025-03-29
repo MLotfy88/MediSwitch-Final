@@ -22,18 +22,60 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      # Setup Android SDK
+      # Install system CMake first
+      - name: Install CMake
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build
+
+      # Setup Android SDK with specific components
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-        
-      # Install SDK components
+
+      # Install Android SDK components without CMake
       - name: Install Android SDK components
         run: |
-          sdkmanager --install "cmake;3.22.1" "ndk;25.1.8937393" "build-tools;33.0.0"
+          sdkmanager --install "platform-tools" "platforms;android-33" "build-tools;33.0.0" "ndk;25.1.8937393"
           echo "y" | sdkmanager --licenses
 
+      # Modify build.gradle to use system CMake
+      - name: Update build.gradle
+        run: |
+          if [ -f "android/app/build.gradle" ]; then
+            sed -i 's/cmake {/cmake {\n            version "3.22.1"\n            path "\/usr\/bin\/cmake"/' android/app/build.gradle
+          fi
+
+      # Setup Gradle
+      - name: Setup Gradle
+        run: |
+          cd android
+          chmod +x ./gradlew
+          
+          # Create fresh gradle.properties
+          cat << EOF > gradle.properties
+          org.gradle.jvmargs=-Xmx4096M -XX:MaxPermSize=4096m -XX:+HeapDumpOnOutOfMemoryError
+          android.useAndroidX=true
+          android.enableJetifier=true
+          android.defaults.buildfeatures.buildconfig=true
+          android.nonTransitiveRClass=false
+          android.ndkVersion=25.1.8937393
+          EOF
+
+          # Create local.properties
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+          echo "ndk.dir=$ANDROID_SDK_ROOT/ndk/25.1.8937393" >> local.properties
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
       # Create debug keystore
-      - name: Setup Keystore
+      - name: Setup Debug Keystore
         run: |
           mkdir -p ~/.android
           keytool -genkey -v \
@@ -46,58 +88,26 @@ jobs:
             -validity 10000 \
             -dname "CN=Android Debug,O=Android,C=US"
 
-      # Setup Gradle
-      - name: Setup Gradle
+      # Verify environment
+      - name: Verify Environment
         run: |
-          cd android
-          chmod +x ./gradlew
-          echo "distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-all.zip" > gradle/wrapper/gradle-wrapper.properties
-          
-          # Create gradle.properties
-          cat << EOF > gradle.properties
-          org.gradle.jvmargs=-Xmx1536M
-          android.useAndroidX=true
-          android.enableJetifier=true
-          android.defaults.buildfeatures.buildconfig=true
-          android.nonTransitiveRClass=false
-          cmake.dir=$ANDROID_SDK_ROOT/cmake/3.22.1
-          ndk.dir=$ANDROID_SDK_ROOT/ndk/25.1.8937393
-          EOF
+          cmake --version
+          echo "ANDROID_SDK_ROOT = $ANDROID_SDK_ROOT"
+          echo "JAVA_HOME = $JAVA_HOME"
+          ls -la $ANDROID_SDK_ROOT/ndk
+          echo "CMake location:"
+          which cmake
 
-      # Create key.properties for release signing
-      - name: Setup Signing Config
-        run: |
-          cat << EOF > android/key.properties
-          storePassword=android
-          keyPassword=android
-          keyAlias=androiddebugkey
-          storeFile=/home/runner/.android/debug.keystore
-          EOF
-
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable'
-          cache: true
-
-      - name: Get Flutter dependencies
-        run: flutter pub get
-
-      # Verify setup
-      - name: Verify Setup
-        run: |
-          ls -la ~/.android/
-          echo "Keystore exists: "
-          test -f ~/.android/debug.keystore && echo "Yes" || echo "No"
-
-      # Build APK
+      # Build with verbose output
       - name: Build APK
         env:
           ANDROID_SDK_ROOT: ${{ env.ANDROID_SDK_ROOT }}
-          CMAKE_PATH: ${{ env.ANDROID_SDK_ROOT }}/cmake/3.22.1
         run: |
-          flutter clean
-          flutter build apk --release
+          cd android
+          ./gradlew clean
+          ./gradlew assembleRelease --info --stacktrace
+          cd ..
+          flutter build apk --release --verbose
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
