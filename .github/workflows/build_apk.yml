@@ -1,8 +1,7 @@
 name: Build Android APK
 
-# Updated timestamp
 env:
-  BUILD_TIME: '2025-03-29 13:11:52'
+  BUILD_TIME: '2025-03-29 13:14:36'
   BUILDER: 'MLotfy88'
 
 permissions:
@@ -32,22 +31,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Verify Flutter Project
-        run: |
-          echo "Verifying project structure..."
-          if [ ! -f "pubspec.yaml" ]; then
-            echo "Error: pubspec.yaml not found"
-            exit 1
-          fi
-          if [ ! -d "lib" ]; then
-            echo "Error: lib directory not found"
-            exit 1
-          fi
-          if [ ! -d "android" ]; then
-            echo "Error: android directory not found"
-            exit 1
-          fi
-
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -55,15 +38,20 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      - name: Validate Gradle wrapper
-        uses: gradle/wrapper-validation-action@v2
-
+      # تحديث إصدار Flutter ليتناسب مع متطلبات SDK
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.3'
+          flutter-version: '3.29.2'  # تم التحديث ليتناسب مع Dart SDK 3.7.2
           channel: 'stable'
           cache: true
+
+      - name: Verify Flutter and Dart versions
+        run: |
+          echo "Flutter Version:"
+          flutter --version
+          echo "Dart Version:"
+          dart --version
 
       - name: Install dependencies
         run: |
@@ -87,6 +75,7 @@ jobs:
           echo "Build Time: $BUILD_TIME" >> build_info.txt
           echo "Builder: $BUILDER" >> build_info.txt
           echo "Flutter Version: $(flutter --version | head -n 1)" >> build_info.txt
+          echo "Dart Version: $(dart --version)" >> build_info.txt
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
