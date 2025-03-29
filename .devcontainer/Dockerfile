@@ -3,6 +3,7 @@ ARG BASE_IMAGE=mcr.microsoft.com/devcontainers/base:ubuntu
 FROM ${BASE_IMAGE}
 
 USER root
+WORKDIR /workspace
 
 # 1. تثبيت الحزم الأساسية
 RUN apt-get update && apt-get install -y \
@@ -73,16 +74,18 @@ ENV PATH="$DART_SDK/bin:$PATH"
 
 # 8. إصلاح أذونات وملكية ملفات Flutter
 RUN mkdir -p /usr/local/flutter/bin/cache/artifacts/gradle_wrapper && \
-    mkdir -p /root && \
+    mkdir -p /workspace && \
     chmod -R 755 /usr/local/flutter && \
-    chmod -R 755 /root
+    chmod -R 755 /workspace
 
+# تهيئة النظام
 ENV HOME=/root
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=C.UTF-8
 
 # 9. تهيئة Flutter
 RUN flutter config --no-analytics && \
-    flutter precache --no-android --no-ios --no-web --no-linux --no-windows --no-macos --no-fuchsia && \
-    flutter doctor
+    flutter doctor -v
 
 # Set the default shell to bash
 ENV SHELL=/bin/bash
