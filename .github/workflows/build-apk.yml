@@ -1,35 +1,68 @@
-name: Build Release APK
+# .github/workflows/build_apk.yml
 
+# اسم الـ workflow الذي سيظهر في واجهة GitHub Actions
+name: بناء ملف APK باستخدام Flutter
+
+# يتحكم في وقت تشغيل الـ workflow
 on:
+  # يشغل الـ workflow عند الدفع (push) إلى الفرع main
   push:
-    branches:
-      - main
+    branches: [ main ]
 
+  # يسمح بتشغيل الـ workflow يدويًا من تبويب Actions
+  workflow_dispatch:
+
+# يتكون تشغيل الـ workflow من وظيفة واحدة أو أكثر يمكن تشغيلها بالتتابع أو بالتوازي
 jobs:
-  build-apk:
+  # تعريف وظيفة البناء
+  build:
+    # نوع الجهاز الافتراضي (runner) الذي ستعمل عليه الوظيفة
     runs-on: ubuntu-latest
-    env:
-      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64  # تأكد من أن هذا المسار صحيح
 
+    # الخطوات تمثل سلسلة من المهام التي سيتم تنفيذها كجزء من الوظيفة
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # الخطوة 1: سحب الكود من المستودع إلى مساحة عمل الـ workflow
+      - name: سحب الكود من المستودع
+        uses: actions/checkout@v4
 
-      - name: Set up Flutter
+      # الخطوة 2: إعداد بيئة Java (باستخدام JDK 17 بناءً على إعدادات build.gradle)
+      - name: إعداد JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'           # تحديد إصدار Java
+          distribution: 'temurin'      # توزيعة OpenJDK شائعة
+          cache: 'gradle'              # تفعيل التخزين المؤقت لـ Gradle
+
+      # الخطوة 3: إعداد بيئة Flutter بالإصدار المحدد من env.md
+      - name: إعداد Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2'
+          flutter-version: '3.29.2' # الإصدار المحدد من Flutter
+          channel: 'stable'        # القناة الخاصة بالإصدار (stable)
+          cache: true              # تفعيل التخزين المؤقت لـ Flutter
 
-      - name: Install dependencies
+      # الخطوة 4: جلب تبعيات Flutter (الحزم والمكتبات)
+      - name: جلب تبعيات Flutter
         run: flutter pub get
 
-      - name: Build Release APK
-        run: |
-          chmod +x build_apk.sh
-          ./build_apk.sh
+      # الخطوة 5: (اختياري وموصى به) التأكد من أن gradlew قابل للتنفيذ
+      # قد يكون هذا ضروريًا اعتمادًا على كيفية حفظ الملفات في git
+      - name: منح صلاحية التنفيذ لـ gradlew
+        run: chmod +x android/gradlew
+        working-directory: ./ # التشغيل من المجلد الرئيسي، المسار نسبي
 
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v3.1.2
+      # الخطوة 6: بناء ملف APK الخاص بالإصدار النهائي (release)
+      # يستخدم تلقائيًا Gradle Wrapper المحدد في مشروعك (الإصدار 8.10.2)
+      # ويستخدم compileSdk 35, minSdk 28, targetSdk 35 كما هو محدد في build.gradle
+      - name: بناء ملف APK
+        run: flutter build apk --release
+        # أمر flutter build يستخدم تلقائيًا ./android/gradlew
+
+      # الخطوة 7: رفع ملف APK الناتج كـ artifact
+      # يوجد ملف APK عادةً في المسار build/app/outputs/flutter-apk/app-release.apk
+      - name: رفع ملف APK الناتج (Artifact)
+        uses: actions/upload-artifact@v4
         with:
-          name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: release-apk # اسم الملف المضغوط للـ artifact
+          path: build/app/outputs/flutter-apk/app-release.apk # المسار إلى ملف APK
+          if-no-files-found: error # إيقاف الخطوة وإظهار خطأ إذا لم يتم العثور على الملف
