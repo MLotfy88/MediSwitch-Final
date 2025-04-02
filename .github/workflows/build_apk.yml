@@ -55,7 +55,8 @@ jobs:
         with:
           name: app-release-signed-apk
           # المسار القياسي لملف APK الموقع
-          path: build/app/outputs/apk/release/app-release.apk
+          # المسار الصحيح بالنسبة لجذر المستودع بعد بناء Gradle من داخل مجلد android
+          path: android/build/app/outputs/apk/release/app-release.apk
 
       # (Optional) Clean up decoded keystore file
       - name: Cleanup Keystore
