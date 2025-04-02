@@ -23,7 +23,7 @@ jobs:
       - name: Setup Flutter SDK
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2' # أو أحدث إصدار مستقر إذا رغبت
+          flutter-version: '3.29.2'
           channel: 'stable'
           cache: true
 
@@ -34,14 +34,14 @@ jobs:
         run: |
           echo "Keystore Base64 Length: ${#SECRETS_RELEASE_KEYSTORE_BASE64}"
           echo "Encryption Password Length: ${#SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD}"
-        env:
-          SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
-          SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}
+        env: # 8 مسافات بادئة
+          SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }} # 10 مسافات بادئة
+          SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }} # 10 مسافات بادئة
 
       - name: Decode Keystore
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
-        env:
-          SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+        env: # 8 مسافات بادئة
+          SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }} # 10 مسافات بادئة
 
       - name: Verify Keystore File (.gpg)
         run: ls -l android/app/release.jks.gpg || (echo "ERROR: Keystore GPG file missing!" && exit 1)
@@ -50,25 +50,36 @@ jobs:
         run: |
           gpg --quiet --batch --yes --pinentry-mode loopback --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" \
           --decrypt --output android/app/release.jks android/app/release.jks.gpg
-        env:
-          RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}
+        env: # 8 مسافات بادئة
+          RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }} # 10 مسافات بادئة
 
       - name: Verify Keystore File (.jks)
         run: ls -l android/app/release.jks || (echo "ERROR: Decrypted Keystore JKS file missing!" && exit 1)
 
+      # --- التركيز هنا (حول السطر 83) ---
       - name: Build Release APKs (Split per ABI)
+        # 8 مسافات بادئة
         run: flutter build apk --release --split-per-abi
+        # 8 مسافات بادئة <-- تأكد أن 'env:' هنا محاذية تمامًا لـ 'run:'
         env:
+          # 10 مسافات بادئة <-- تأكد أن هذه الأسطر مزاحة بمسافتين عن 'env:'
           RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          # 10 مسافات بادئة
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          # 10 مسافات بادئة
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
 
-      # ---- الخطوة الأخيرة - تحقق من المسافات هنا بعناية ----
       - name: Upload APK Artifacts
+        # 8 مسافات بادئة
         uses: actions/upload-artifact@v4
+        # 8 مسافات بادئة
         with:
+          # 10 مسافات بادئة
           name: app-release-apks
+          # 10 مسافة بادئة
           path: build/app/outputs/flutter-apk/*.apk
-          if-no-files-found: error # تأكد من عدم وجود أي شيء بعد هذا السطر (حتى المسافات أو الأسطر الفارغة)
+          # 10 مسافة بادئة
+          if-no-files-found: error # <--- يجب أن يكون هذا هو السطر الأخير *تمامًا* في الملف
 
-# ---- تأكد من عدم وجود أي شيء هنا ----
+# --- تأكد من حذف أي شيء وكل شيء بعد السطر أعلاه ---
+# --- لا أسطر فارغة، لا مسافات، لا تعليقات ---
