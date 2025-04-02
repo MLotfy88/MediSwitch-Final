@@ -1,86 +1,125 @@
+# 0 مسافة بادئة
 name: Build Flutter Android APK
 
+# 0 مسافة بادئة
 on:
+  # 2 مسافة بادئة
   push:
+    # 4 مسافة بادئة
     branches:
-      - main # تشغيل عند الدفع إلى الفرع الرئيسي
-  workflow_dispatch: # السماح بتشغيل الـ workflow يدويًا من واجهة GitHub
+      # 6 مسافة بادئة
+      - main
+  # 2 مسافة بادئة
+  workflow_dispatch:
 
+# 0 مسافة بادئة
 jobs:
+  # 2 مسافة بادئة
   build:
-    runs-on: ubuntu-latest # استخدام أحدث إصدار من Ubuntu كبيئة تشغيل
+    # 4 مسافة بادئة
+    runs-on: ubuntu-latest
 
+    # 4 مسافة بادئة
     steps:
-      # 1. سحب الكود من المستودع
+      # 6 مسافة بادئة (بداية الخطوة الأولى)
       - name: Checkout Repository
+        # 8 مسافة بادئة
         uses: actions/checkout@v4
 
-      # 2. إعداد Java Development Kit (JDK) إصدار 17
+      # 6 مسافة بادئة (بداية الخطوة الثانية)
       - name: Setup Java JDK 17
+        # 8 مسافة بادئة
         uses: actions/setup-java@v4
+        # 8 مسافة بادئة
         with:
-          distribution: 'temurin' # توزيعة Temurin (Adoptium سابقًا)
-          java-version: '17' # تحديد الإصدار 17
+          # 10 مسافة بادئة
+          distribution: 'temurin'
+          # 10 مسافة بادئة
+          java-version: '17'
 
-      # 3. إعداد Flutter SDK
+      # 6 مسافة بادئة
       - name: Setup Flutter SDK
+        # 8 مسافة بادئة
         uses: subosito/flutter-action@v2
+        # 8 مسافة بادئة
         with:
-          flutter-version: '3.29.2' # تحديد إصدار Flutter (يمكن تغييره حسب الحاجة)
-          channel: 'stable'       # استخدام القناة المستقرة
-          cache: true             # تفعيل الكاش لتسريع العمليات المستقبلية
+          # 10 مسافة بادئة
+          flutter-version: '3.29.2'
+          # 10 مسافة بادئة
+          channel: 'stable'
+          # 10 مسافة بادئة
+          cache: true
 
-      # 4. تحميل الاعتماديات الخاصة بـ Flutter
+      # 6 مسافة بادئة
       - name: Get Flutter Dependencies
+        # 8 مسافة بادئة
         run: flutter pub get
 
-      # 5. (اختياري) طباعة طول الـ Secrets للتحقق من وجودها
+      # 6 مسافة بادئة
       - name: Debug Secrets (Length Check)
+        # 8 مسافة بادئة
         run: |
           echo "Keystore Base64 Length: ${#SECRETS_RELEASE_KEYSTORE_BASE64}"
           echo "Encryption Password Length: ${#SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD}"
+        # 8 مسافة بادئة
         env:
+          # 10 مسافة بادئة
           SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          # 10 مسافة بادئة
           SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}
 
-      # 6. فك تشفير Keystore من Base64 وحفظه كملف .gpg مشفر
+      # 6 مسافة بادئة
       - name: Decode Keystore
+        # 8 مسافة بادئة
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
+        # 8 مسافة بادئة
         env:
-          # تمرير الـ secret كمتغير بيئة لهذه الخطوة فقط لتجنب ظهوره في السجلات إذا فشل الأمر
+          # 10 مسافة بادئة
           SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
 
-      # 7. التحقق من وجود ملف Keystore المشفر (.gpg)
+      # 6 مسافة بادئة
       - name: Verify Keystore File (.gpg)
+        # 8 مسافة بادئة
         run: ls -l android/app/release.jks.gpg || (echo "ERROR: Keystore GPG file missing!" && exit 1)
 
-      # 8. فك تشفير ملف Keystore (.gpg) باستخدام كلمة مرور التشفير
+      # 6 مسافة بادئة
       - name: Decrypt Keystore
+        # 8 مسافة بادئة
         run: |
           gpg --quiet --batch --yes --pinentry-mode loopback --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" \
           --decrypt --output android/app/release.jks android/app/release.jks.gpg
+        # 8 مسافة بادئة
         env:
-          # تمرير كلمة المرور كمتغير بيئة لهذه الخطوة
+          # 10 مسافة بادئة
           RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}
 
-      # 9. التحقق من وجود ملف Keystore النهائي (.jks)
+      # 6 مسافة بادئة (هذه الخطوة قد تكون قريبة من السطر 55)
       - name: Verify Keystore File (.jks)
+        # 8 مسافة بادئة
         run: ls -l android/app/release.jks || (echo "ERROR: Decrypted Keystore JKS file missing!" && exit 1)
 
-      # 10. بناء ملفات APK بإصدار Release مع تقسيم حسب المعمارية
+      # 6 مسافة بادئة (هذه الخطوة هي غالبًا التي تقع حول السطر 55-60)
       - name: Build Release APKs (Split per ABI)
+        # 8 مسافة بادئة (يجب أن تكون محاذية لـ run/uses/env في الخطوات الأخرى)
         run: flutter build apk --release --split-per-abi
+        # 8 مسافة بادئة (يجب أن تكون محاذية لـ run أعلاه)
         env:
-          # تمرير الـ Secrets كمتغيرات بيئة ليتمكن Gradle من قراءتها عبر System.getenv()
+          # 10 مسافة بادئة (يجب أن تكون بمسافة بادئة أكبر من env)
           RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          # 10 مسافة بادئة (محاذية للسطر السابق)
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          # 10 مسافة بادئة (محاذية للسطر السابق)
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
 
-      # 11. رفع ملفات APK الناتجة كـ Artifacts
+      # 6 مسافة بادئة
       - name: Upload APK Artifacts
+        # 8 مسافة بادئة
         uses: actions/upload-artifact@v4
+        # 8 مسافة بادئة
         with:
-          name: app-release-apks # اسم الـ Artifact (يحتوي على كل ملفات APK)
-          # المسار يحتوي على wildcard (*) لرفع كل ملفات .apk الموجودة في المجلد الناتج
+          # 10 مسافة بادئة
+          name: app-release-apks
+          # 10 مسافة بادئة
           path: build/app/outputs/flutter-apk/*.apk
-          if-no-files-found: error # إظهار خطأ إذا لم يتم العثور على ملفات APK
+          # 10 مسافة بادئة
+          if-no-files-found: error
