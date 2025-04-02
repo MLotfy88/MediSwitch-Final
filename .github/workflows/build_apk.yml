@@ -67,20 +67,6 @@ jobs:
       - name: Verify Keystore File (.jks)
         run: ls -l android/app/release.jks || (echo "ERROR: Decrypted Keystore JKS file missing!" && exit 1)
 
-      # --------------------------------------------------------------------------
-      # تم حذف خطوات إنشاء key.properties لأن build.gradle سيقرأ من متغيرات البيئة
-      # --------------------------------------------------------------------------
-      # - name: Create key.properties
-      #   run: |
-      #     echo "storeFile=release.jks" > android/app/key.properties
-      #     echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/app/key.properties
-      #     echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/app/key.properties
-      #     echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/app/key.properties
-
-      # - name: Print key.properties
-      #   run: cat android/app/key.properties || echo "key.properties not found!"
-      # --------------------------------------------------------------------------
-
       # 10. بناء ملفات APK بإصدار Release مع تقسيم حسب المعمارية
       - name: Build Release APKs (Split per ABI)
         run: flutter build apk --release --split-per-abi
