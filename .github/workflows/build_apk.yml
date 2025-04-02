@@ -54,12 +54,18 @@ jobs:
         env:
           GPG_TTY: $(tty)
 
+      - name: Verify Keystore File Exists
+        run: ls -l android/app/release.jks || { echo "Keystore file missing!"; exit 1; }
+
       - name: Create key.properties
         run: |
           echo "storeFile=release.jks" > android/app/key.properties
           echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/app/key.properties
           echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/app/key.properties
           echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/app/key.properties
+
+      - name: Clean Flutter Project
+        run: flutter clean
 
       - name: Build Release APK
         run: flutter build apk --release --split-per-abi
@@ -68,4 +74,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-release-apk
-          path: build/app/outputs/flutter-apk/app-release-*.apk
+          path: build/app/outputs/flutter-apk/app-release.apk
