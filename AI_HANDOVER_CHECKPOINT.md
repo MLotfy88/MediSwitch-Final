@@ -9,7 +9,7 @@
 3.  **`@/env.md`**: Details the **development environment setup** (versions, paths). **Ensure your environment is compatible.**
 
 **Instructions for Continuing Development:**
-
+ 
 1.  **Understand the Current State:**
     a.  **Initial Full Scan:** Before proceeding, **read ALL files** in the workspace to get a complete overview.
     b.  **Analyze Structure & Code:** Thoroughly examine the entire project structure (frontend and backend) and analyze existing code.
