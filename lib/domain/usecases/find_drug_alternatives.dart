@@ -33,14 +33,23 @@ class FindDrugAlternativesUseCase
           Left(failure), // Propagate failure if getting all drugs fails
       (allDrugs) {
         try {
-          // Use only category for finding alternatives for now
-          final String originalCategoryLower =
-              (originalDrug.mainCategory ?? '').toLowerCase();
+          // --- Refined Logic for Alternatives (Task 3.4.3) ---
+          final String originalActiveLower =
+              (originalDrug.active ?? '')
+                  .toLowerCase()
+                  .trim(); // Use active ingredient
           final String originalTradeNameLower =
-              (originalDrug.tradeName ?? '').toLowerCase(); // To exclude self
+              (originalDrug.tradeName ?? '')
+                  .toLowerCase()
+                  .trim(); // To exclude self
+          // Keep category for potential future use or broader filtering
+          // final String originalCategoryLower = (originalDrug.mainCategory ?? '').toLowerCase();
 
-          if (originalCategoryLower.isEmpty) {
-            // Cannot find alternatives if category is unknown
+          // Cannot find alternatives if active ingredient is unknown
+          if (originalActiveLower.isEmpty) {
+            print(
+              'Cannot find alternatives: Original drug active ingredient is empty.',
+            );
             return Right(DrugAlternativesResult(alternatives: []));
           }
 
@@ -53,14 +62,15 @@ class FindDrugAlternativesUseCase
             // Skip the original drug itself
             if (currentTradeNameLower == originalTradeNameLower) continue;
 
-            // final String currentActiveLower = (drug.active ?? '').toLowerCase(); // Removed active ingredient logic
-            final String currentCategoryLower =
-                (drug.mainCategory ?? '').toLowerCase();
+            final String currentActiveLower =
+                (drug.active ?? '').toLowerCase().trim();
+            // final String currentCategoryLower = (drug.mainCategory ?? '').toLowerCase(); // Keep for potential future use
 
-            // Find Alternatives (same category)
-            if (currentCategoryLower == originalCategoryLower) {
+            // Find Alternatives: Match active ingredient primarily
+            if (currentActiveLower == originalActiveLower) {
               alternatives.add(drug);
             }
+            // Optional: Add secondary criteria here if needed (e.g., dosage form)
           }
 
           return Right(

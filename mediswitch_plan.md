@@ -101,7 +101,7 @@
 *   **2.2. بناء طبقة المجال (`Domain Layer`):**
     *   `[x]` 2.2.1. تعريف `DrugEntity`. (`DrugEntity` defined)
     *   `[x]` 2.2.2. تعريف `DrugRepository` interface. (Interface defined and updated with search/filter methods)
-    *   `[x]` 2.2.3. بناء Use Cases الأساسية (GetInitial, Search, GetDetails, ...). (GetAllDrugs implemented, need to implement SearchDrugs, FilterDrugsByCategory, GetAvailableCategories)
+    *   `[x]` 2.2.3. بناء Use Cases الأساسية (GetAllDrugs, SearchDrugs, FilterDrugsByCategory, GetAvailableCategories). (Implemented)
 *   **2.3. إدارة الحالة للبيانات:**
     *   `[x]` 2.3.1. إعداد `DrugListProvider`/`Bloc`. (`MedicineProvider` refactored)
     *   `[x]` 2.3.2. ربط حالات التحميل (`isLoading`, `error`, `data`) بالواجهة. (`HomeScreen` uses provider state)
@@ -116,11 +116,11 @@
     *   `[x]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`. (`HomeScreen` does this)
     *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين (الرئيسية، الحاسبة، الإعدادات) مع الحفاظ على الحالة. (`main_screen.dart` handles this)
     *   `[x]` 3.1.5. `CustomSearchBar`: ويدجت شريط البحث غير التفاعلي. (`HomeScreen` has search bar)
-    *   `[ ]` 3.1.6. بناء أقسام اختيارية (المحدثة/المفضلة/الشائعة).
-    *   `[~]` 3.1.7. تطبيق التصميم المتجاوب. (Basic responsiveness achieved with current layout)
+    *   `[x]` 3.1.6. بناء أقسام اختيارية (المحدثة/المفضلة/الشائعة). ('Recently Updated' section implemented)
+    *   `[x]` 3.1.7. تطبيق التصميم المتجاوب. (Implemented LayoutBuilder for ListView/GridView switch)
 *   **3.2. شاشة البحث (`SearchScreen`) وتفاصيل الدواء (`DrugDetailsScreen`):**
-    *   `[ ]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`. (Search is in HomeScreen currently)
-    *   `[ ]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث. (Logic is in MedicineProvider)
+    *   `[x]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`. (Implemented SearchScreen with TextField in AppBar)
+    *   `[x]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث. (Search logic connected to MedicineProvider from SearchScreen)
     *   `[x]` 3.2.3. تطبيق `Debouncer` على `TextField`.
     *   `[x]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc. (`MedicineProvider` handles this)
     *   `[x]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر. (Filters are ChoiceChips in HomeScreen)
@@ -140,7 +140,7 @@
 *   `[~]` **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):** (`dose_comparison_screen.dart` exists, uses DrugEntity, needs implementation)
     *   `[x]` 3.4.1. `AlternativesProvider`/`Bloc`.
     *   `[x]` 3.4.2. استقبال `DrugEntity` الأصلي. (Handled by screen constructor)
-    *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Placeholder logic based on category implemented in UseCase)
+    *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Refined logic to match active ingredient in UseCase)
     *   `[x]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات. (Implemented using AlternativeDrugCard)
 *   **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):**
     *   `[ ]` 3.5.1. بناء واجهة اختيار متعدد للأدوية.
@@ -152,12 +152,12 @@
     *   `[x]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`). (Basic UI with Theme toggle added)
     *   `[~]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language deferred)
     *   `[ ]` 3.6.4. بناء واجهة إدارة الاشتراك.
-    *   `[ ]` 3.6.5. استخدام `url_launcher` للروابط.
-    *   `[ ]` 3.6.6. زر "التحقق من التحديث".
-    *   `[ ]` 3.6.7. عرض تاريخ آخر تحديث.
+    *   `[x]` 3.6.5. استخدام `url_launcher` للروابط. (Implemented for About, Privacy, Terms)
+    *   `[x]` 3.6.6. زر "التحقق من التحديث". (Implemented in SettingsScreen)
+    *   `[x]` 3.6.7. عرض تاريخ آخر تحديث. (Implemented in SettingsScreen using MedicineProvider)
 *   **3.7. دعم العمل دون اتصال:**
     *   `[~]` 3.7.1. مراجعة الشاشات للتأكد من عملها بدون اتصال (بعد التحميل الأولي). (Current implementation is offline first)
-    *   `[ ]` 3.7.2. عرض رسالة مناسبة في حالة عدم وجود بيانات/اتصال.
+    *   `[x]` 3.7.2. عرض رسالة مناسبة في حالة عدم وجود بيانات/اتصال. (Implemented initial load error handling)
 
 ---
 

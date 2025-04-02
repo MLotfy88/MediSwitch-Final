@@ -11,6 +11,7 @@ import 'domain/usecases/search_drugs.dart';
 import 'domain/usecases/filter_drugs_by_category.dart';
 import 'domain/usecases/get_available_categories.dart';
 import 'domain/usecases/find_drug_alternatives.dart';
+import 'domain/usecases/get_last_update_timestamp.dart'; // Import new use case
 import 'presentation/bloc/medicine_provider.dart';
 import 'presentation/bloc/settings_provider.dart'; // Import SettingsProvider
 import 'presentation/screens/main_screen.dart';
@@ -37,6 +38,9 @@ void main() {
       GetAvailableCategoriesUseCase(drugRepository);
   final FindDrugAlternativesUseCase findDrugAlternativesUseCase =
       FindDrugAlternativesUseCase(drugRepository);
+  final GetLastUpdateTimestampUseCase
+  getLastUpdateTimestampUseCase = // Instantiate new use case
+      GetLastUpdateTimestampUseCase(drugRepository);
 
   runApp(
     // Pass all required use cases to MyApp
@@ -46,6 +50,8 @@ void main() {
       filterDrugsByCategoryUseCase: filterDrugsByCategoryUseCase,
       getAvailableCategoriesUseCase: getAvailableCategoriesUseCase,
       findDrugAlternativesUseCase: findDrugAlternativesUseCase,
+      getLastUpdateTimestampUseCase:
+          getLastUpdateTimestampUseCase, // Pass instance to MyApp
     ),
   );
 }
@@ -56,8 +62,9 @@ class MyApp extends StatelessWidget {
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
-  final FindDrugAlternativesUseCase
-  findDrugAlternativesUseCase; // Add the new use case
+  final FindDrugAlternativesUseCase findDrugAlternativesUseCase;
+  final GetLastUpdateTimestampUseCase
+  getLastUpdateTimestampUseCase; // Add the new use case field
 
   const MyApp({
     super.key,
@@ -65,7 +72,8 @@ class MyApp extends StatelessWidget {
     required this.searchDrugsUseCase,
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
-    required this.findDrugAlternativesUseCase, // Require the new use case
+    required this.findDrugAlternativesUseCase,
+    required this.getLastUpdateTimestampUseCase, // Require the new use case in constructor
   });
 
   @override
@@ -81,6 +89,8 @@ class MyApp extends StatelessWidget {
                 searchDrugsUseCase: searchDrugsUseCase,
                 filterDrugsByCategoryUseCase: filterDrugsByCategoryUseCase,
                 getAvailableCategoriesUseCase: getAvailableCategoriesUseCase,
+                getLastUpdateTimestampUseCase:
+                    getLastUpdateTimestampUseCase, // Provide new use case
               ),
         ),
         // Provide SettingsProvider

@@ -179,6 +179,7 @@ class DrugRepositoryImpl implements DrugRepository {
       return Right(_cachedDrugs!);
     }
 
+    bool updateFailed = false; // Flag to track if update attempt failed
     // Check for updates if connected
     if (isConnected) {
       try {
@@ -189,13 +190,13 @@ class DrugRepositoryImpl implements DrugRepository {
           // data will be reloaded from local source below.
         }
       } catch (e) {
+        updateFailed = true; // Mark update as failed
         if (kDebugMode) {
           print(
             'Update check/download failed: $e. Proceeding with local data.',
           );
         }
-        // Don't return failure here, just log and proceed with local data
-        // Optionally return specific failure if local data also fails below
+        // Don't return failure yet, try local cache first.
       }
     }
 
@@ -229,7 +230,13 @@ class DrugRepositoryImpl implements DrugRepository {
       if (kDebugMode) {
         print('Cache Error in Repository (getAllDrugs): $e');
       }
-      return Left(CacheFailure());
+      // If update also failed, return InitialLoadFailure, otherwise CacheFailure
+      if (updateFailed || !isConnected) {
+        // Also fail if not connected and cache fails
+        return Left(InitialLoadFailure());
+      } else {
+        return Left(CacheFailure());
+      }
     }
   }
 
@@ -344,6 +351,23 @@ class DrugRepositoryImpl implements DrugRepository {
         print('Error getting available categories: $e');
       }
       return Left(CacheFailure());
+    }
+  }
+
+  // Implementation for Step 2
+  @override
+  Future<Either<Failure, int?>> getLastUpdateTimestamp() async {
+    try {
+      final timestamp = await localDataSource.getLastUpdateTimestamp();
+      return Right(timestamp);
+    } catch (e) {
+      // If localDataSource throws an error (e.g., SharedPreferences error)
+      if (kDebugMode) {
+        print('Error getting last update timestamp from local source: $e');
+      }
+      return Left(
+        CacheFailure(),
+      ); // Return CacheFailure for local storage issues
     }
   }
 }

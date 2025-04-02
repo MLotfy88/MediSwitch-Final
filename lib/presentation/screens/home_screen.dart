@@ -8,6 +8,7 @@ import '../screens/alternatives_screen.dart'; // Import AlternativesScreen
 import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import '../../main.dart'; // Import MyApp to access findDrugAlternativesUseCase (temporary DI)
 import '../../domain/usecases/find_drug_alternatives.dart'; // Import use case for provider creation
+import 'search_screen.dart'; // Import the new SearchScreen
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -76,147 +77,235 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: [
+          // Non-interactive Search Bar - Navigates to SearchScreen
           Padding(
             padding: const EdgeInsets.all(16.0),
-            child: Column(
-              children: [
-                // Search Field
-                TextField(
-                  controller: _searchController,
-                  decoration: InputDecoration(
-                    labelText: 'بحث عن دواء',
-                    hintText: 'أدخل اسم الدواء',
-                    prefixIcon: const Icon(Icons.search),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(10.0),
-                    ),
-                    suffixIcon:
-                        _searchController.text.isNotEmpty
-                            ? IconButton(
-                              icon: const Icon(Icons.clear),
-                              onPressed: () {
-                                _searchController.clear();
-                                medicineProvider.setSearchQuery('');
-                              },
-                            )
-                            : null,
-                  ),
-                  onChanged: (value) {
-                    // Debounce logic
-                    if (_debounce?.isActive ?? false) _debounce!.cancel();
-                    _debounce = Timer(const Duration(milliseconds: 500), () {
-                      if (mounted) {
-                        // Check if widget is still mounted
-                        context.read<MedicineProvider>().setSearchQuery(
-                          value,
-                        ); // Use context.read inside async callback
-                      }
-                    });
-                  },
+            child: InkWell(
+              // Make the area tappable
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const SearchScreen()),
+                );
+              },
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16.0,
+                  vertical: 12.0,
                 ),
-                const SizedBox(height: 16.0),
-                // Category Chips
-                if (categories.isNotEmpty)
-                  SizedBox(
-                    height: 50,
-                    child: ListView(
-                      scrollDirection: Axis.horizontal,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 4.0),
-                          child: ChoiceChip(
-                            label: const Text('الكل'),
-                            selected: _selectedCategory.isEmpty,
-                            onSelected: (selected) {
-                              if (selected) {
-                                setState(() {
-                                  _selectedCategory = '';
-                                });
-                                medicineProvider.setCategory('');
-                              }
-                            },
-                          ),
-                        ),
-                        ...categories.map((category) {
-                          return Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 4.0,
-                            ),
-                            child: ChoiceChip(
-                              label: Text(category),
-                              selected: _selectedCategory == category,
-                              onSelected: (selected) {
-                                if (selected) {
-                                  setState(() {
-                                    _selectedCategory = category;
-                                  });
-                                  medicineProvider.setCategory(category);
-                                }
-                              },
-                            ),
-                          );
-                        }).toList(),
-                      ],
-                    ),
+                decoration: BoxDecoration(
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.surfaceVariant.withOpacity(0.5),
+                  borderRadius: BorderRadius.circular(10.0),
+                  border: Border.all(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.outline.withOpacity(0.5),
                   ),
-              ],
+                ),
+                child: Row(
+                  children: [
+                    Icon(Icons.search, color: Theme.of(context).hintColor),
+                    const SizedBox(width: 8.0),
+                    Text(
+                      'بحث عن دواء...', // Placeholder text
+                      style: TextStyle(color: Theme.of(context).hintColor),
+                    ),
+                  ],
+                ),
+              ),
             ),
           ),
-          // Loading/Error Indicator
+          // --- Optional Sections (Task 3.1.6) ---
+          // Placeholder for "Recently Updated" section
+          // Only show if not loading, no error, and search/filter is not active
+          if (!isLoading &&
+              error.isEmpty &&
+              _searchController.text.isEmpty &&
+              _selectedCategory.isEmpty)
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16.0,
+                vertical: 8.0,
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'أدوية محدثة مؤخراً', // "Recently Updated Drugs"
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  const SizedBox(height: 8.0),
+                  // Display horizontal list of recently updated drugs
+                  SizedBox(
+                    height: 50, // Adjust height as needed
+                    child:
+                        medicineProvider.recentlyUpdatedMedicines.isEmpty
+                            ? const Center(
+                              child: Text(
+                                'لا توجد أدوية محدثة مؤخراً.',
+                                style: TextStyle(color: Colors.grey),
+                              ),
+                            )
+                            : ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemCount:
+                                  medicineProvider
+                                      .recentlyUpdatedMedicines
+                                      .length,
+                              itemBuilder: (context, index) {
+                                final drug =
+                                    medicineProvider
+                                        .recentlyUpdatedMedicines[index];
+                                return Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 4.0,
+                                  ),
+                                  child: ActionChip(
+                                    avatar: CircleAvatar(
+                                      backgroundColor: Theme.of(
+                                        context,
+                                      ).colorScheme.primary.withOpacity(0.1),
+                                      child: Text(
+                                        drug.tradeName.isNotEmpty
+                                            ? drug.tradeName[0].toUpperCase()
+                                            : '?',
+                                        style: TextStyle(
+                                          color:
+                                              Theme.of(
+                                                context,
+                                              ).colorScheme.primary,
+                                        ),
+                                      ),
+                                    ),
+                                    label: Text(drug.tradeName),
+                                    tooltip: 'عرض تفاصيل ${drug.tradeName}',
+                                    onPressed: () {
+                                      _showMedicineDetails(context, drug);
+                                    },
+                                  ),
+                                );
+                              },
+                            ),
+                  ),
+                  const SizedBox(height: 16.0), // Spacing before main list
+                ],
+              ),
+            ),
+
+          // --- Main Medicine List ---
+          // Loading/Error Indicator OR Medicine List
           if (isLoading)
             const Expanded(child: Center(child: CircularProgressIndicator()))
           else if (error.isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(error, style: const TextStyle(color: Colors.red)),
+            // Display prominent error message, especially for initial load failures
+            Expanded(
+              // Use Expanded to take remaining space
+              child: Center(
+                // Center the error message
+                child: Padding(
+                  padding: const EdgeInsets.all(24.0),
+                  child: Column(
+                    // Use Column for icon + text + button
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons
+                            .error_outline, // Or Icons.cloud_off for network issues
+                        color: Colors.red[700],
+                        size: 48.0,
+                      ),
+                      const SizedBox(height: 16.0),
+                      Text(
+                        error, // Display the error message from provider
+                        style: TextStyle(
+                          color: Colors.red[700],
+                          fontSize: 16.0,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: 16.0),
+                      // Add a retry button
+                      ElevatedButton.icon(
+                        icon: const Icon(Icons.refresh),
+                        label: const Text('إعادة المحاولة'),
+                        onPressed:
+                            () =>
+                                context
+                                    .read<MedicineProvider>()
+                                    .loadInitialData(),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             )
-          // Medicine List
+          // Medicine List (now inside the else block)
           else
             Expanded(
-              child:
-                  medicines.isEmpty
-                      ? const Center(
-                        child: Text('لا توجد أدوية متطابقة مع البحث'),
-                      )
-                      : ListView.builder(
-                        itemCount: medicines.length,
-                        itemBuilder: (context, index) {
-                          final drug = medicines[index]; // Now DrugEntity
-                          return Card(
-                            margin: const EdgeInsets.symmetric(
-                              horizontal: 16.0,
-                              vertical: 8.0,
-                            ),
-                            child: ListTile(
-                              title: Text(
-                                drug.tradeName, // Use DrugEntity field
-                                style: const TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              subtitle: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(drug.arabicName), // Use DrugEntity field
-                                  const SizedBox(height: 4.0),
-                                  Text(
-                                    'السعر: ${drug.price} جنيه',
-                                  ), // Use DrugEntity field
-                                  if (drug.mainCategory.isNotEmpty)
-                                    Text(
-                                      'الفئة: ${drug.mainCategory}',
-                                    ), // Use DrugEntity field
-                                ],
-                              ),
-                              isThreeLine: true, // Adjust based on content
-                              onTap: () {
-                                // Pass DrugEntity to details
-                                _showMedicineDetails(context, drug);
-                              },
-                            ),
-                          );
-                        },
+              // Use LayoutBuilder for responsiveness (Task 3.1.7)
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  // Define breakpoint for switching to GridView
+                  const double gridBreakpoint = 600.0;
+                  final bool useGridView =
+                      constraints.maxWidth >= gridBreakpoint;
+
+                  // Determine cross axis count for GridView
+                  final int crossAxisCount =
+                      useGridView
+                          ? (constraints.maxWidth / 250).floor().clamp(2, 4)
+                          : 1; // Adjust item width (250) as needed
+
+                  if (medicines.isEmpty &&
+                      _searchController.text.isEmpty &&
+                      _selectedCategory.isEmpty) {
+                    // Show specific message if list is empty *before* any search/filter
+                    return const Center(
+                      child: Text('لا توجد بيانات أدوية لعرضها.'),
+                    );
+                  } else if (medicines.isEmpty) {
+                    // Show "no results" only if search/filter is active
+                    return const Center(
+                      child: Text('لا توجد أدوية متطابقة مع البحث'),
+                    );
+                  } else if (useGridView) {
+                    // Use GridView for wider screens
+                    return GridView.builder(
+                      padding: const EdgeInsets.all(
+                        8.0,
+                      ), // Add padding around grid
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: crossAxisCount,
+                        childAspectRatio: 2.8, // Adjust aspect ratio as needed
+                        crossAxisSpacing: 8.0,
+                        mainAxisSpacing: 8.0,
                       ),
+                      itemCount: medicines.length,
+                      itemBuilder: (context, index) {
+                        final drug = medicines[index];
+                        return _DrugListItem(
+                          drug: drug,
+                          onTap: () => _showMedicineDetails(context, drug),
+                        );
+                      },
+                    );
+                  } else {
+                    // Use ListView for narrower screens
+                    return ListView.builder(
+                      itemCount: medicines.length,
+                      itemBuilder: (context, index) {
+                        final drug = medicines[index];
+                        return _DrugListItem(
+                          drug: drug,
+                          onTap: () => _showMedicineDetails(context, drug),
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
             ),
         ],
       ),
@@ -367,3 +456,50 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 } // Closing State class
+
+// Helper widget for displaying a drug item in the list/grid
+class _DrugListItem extends StatelessWidget {
+  final DrugEntity drug;
+  final VoidCallback onTap;
+
+  const _DrugListItem({required this.drug, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      margin: const EdgeInsets.symmetric(
+        horizontal: 8.0, // Adjusted margin for grid/list flexibility
+        vertical: 6.0,
+      ),
+      child: ListTile(
+        title: Text(
+          drug.tradeName,
+          style: const TextStyle(fontWeight: FontWeight.bold),
+          maxLines: 1, // Prevent long names from wrapping excessively
+          overflow: TextOverflow.ellipsis,
+        ),
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min, // Ensure column takes minimum space
+          children: [
+            Text(drug.arabicName, maxLines: 1, overflow: TextOverflow.ellipsis),
+            const SizedBox(height: 2.0),
+            Text(
+              'السعر: ${drug.price} جنيه',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            if (drug.mainCategory.isNotEmpty)
+              Text(
+                'الفئة: ${drug.mainCategory}',
+                style: Theme.of(context).textTheme.bodySmall,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+          ],
+        ),
+        isThreeLine: false, // Let subtitle height be dynamic
+        onTap: onTap,
+      ),
+    );
+  }
+}

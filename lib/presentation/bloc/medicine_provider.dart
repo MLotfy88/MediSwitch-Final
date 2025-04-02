@@ -6,6 +6,7 @@ import '../../domain/usecases/get_all_drugs.dart';
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
+import '../../domain/usecases/get_last_update_timestamp.dart'; // Import new use case
 import '../../core/usecases/usecase.dart'; // For NoParams
 
 class MedicineProvider extends ChangeNotifier {
@@ -13,15 +14,19 @@ class MedicineProvider extends ChangeNotifier {
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
+  final GetLastUpdateTimestampUseCase
+  getLastUpdateTimestampUseCase; // Inject new use case
 
   // State variables - now using DrugEntity
   List<DrugEntity> _medicines = [];
   List<DrugEntity> _filteredMedicines = [];
+  List<DrugEntity> _recentlyUpdatedMedicines = []; // Added for Task 3.1.6
   List<String> _categories = []; // Keep categories as String for now
   String _searchQuery = '';
   String _selectedCategory = '';
   bool _isLoading = true;
   String _error = '';
+  int? _lastUpdateTimestamp; // State for last update timestamp
 
   // Constructor injection for the UseCases (replace with DI later)
   MedicineProvider({
@@ -29,6 +34,7 @@ class MedicineProvider extends ChangeNotifier {
     required this.searchDrugsUseCase,
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
+    required this.getLastUpdateTimestampUseCase, // Add to constructor
   }) {
     loadInitialData(); // Renamed for clarity
   }
@@ -36,11 +42,29 @@ class MedicineProvider extends ChangeNotifier {
   // Getters - expose DrugEntity lists
   List<DrugEntity> get medicines => _medicines;
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
+  List<DrugEntity> get recentlyUpdatedMedicines =>
+      _recentlyUpdatedMedicines; // Added getter
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
   String get error => _error;
   String get searchQuery => _searchQuery;
   String get selectedCategory => _selectedCategory;
+  // Getter to format the timestamp for display
+  String get lastUpdateTimestampFormatted {
+    if (_lastUpdateTimestamp == null) {
+      return 'غير متوفر'; // "Not available"
+    }
+    try {
+      final dateTime = DateTime.fromMillisecondsSinceEpoch(
+        _lastUpdateTimestamp!,
+      );
+      // Basic formatting, consider using 'intl' package for better localization
+      return '${dateTime.year}-${dateTime.month.toString().padLeft(2, '0')}-${dateTime.day.toString().padLeft(2, '0')} ${dateTime.hour.toString().padLeft(2, '0')}:${dateTime.minute.toString().padLeft(2, '0')}';
+    } catch (e) {
+      print("Error formatting timestamp: $e");
+      return 'تنسيق غير صالح'; // "Invalid format"
+    }
+  }
 
   // Renamed to reflect loading both drugs and categories
   Future<void> loadInitialData() async {
@@ -59,6 +83,7 @@ class MedicineProvider extends ChangeNotifier {
         _error = _mapFailureToMessage(failure);
         _medicines = []; // Clear data on failure
         _filteredMedicines = [];
+        _recentlyUpdatedMedicines = []; // Also clear recently updated
         _categories = [];
       },
       (drugs) async {
@@ -67,8 +92,11 @@ class MedicineProvider extends ChangeNotifier {
         _medicines = drugs;
         _filteredMedicines = drugs; // Initially show all
         _error = '';
+        // Populate recently updated list (Task 3.1.6)
+        _populateRecentlyUpdated(drugs);
         // Now load categories after drugs are loaded
         await _loadCategories(); // This await is now valid
+        await _loadAndUpdateTimestamp(); // Load timestamp after successful drug load
         await _applyFilters(); // Also await this async function
       },
     );
@@ -91,6 +119,59 @@ class MedicineProvider extends ChangeNotifier {
         _categories = categories;
       },
     );
+    // No need to notifyListeners here, loadInitialData will do it.
+  }
+
+  // Helper to load and update the timestamp
+  Future<void> _loadAndUpdateTimestamp() async {
+    final failureOrTimestamp = await getLastUpdateTimestampUseCase(NoParams());
+    failureOrTimestamp.fold(
+      (failure) {
+        // Log error, but don't necessarily show it to the user here
+        print(
+          "Error loading last update timestamp: ${_mapFailureToMessage(failure)}",
+        );
+        _lastUpdateTimestamp = null;
+      },
+      (timestamp) {
+        _lastUpdateTimestamp = timestamp;
+        if (kDebugMode) {
+          print("Last update timestamp loaded: $_lastUpdateTimestamp");
+        }
+      },
+    );
+    // No need to notifyListeners here, loadInitialData will do it.
+  }
+
+  // --- Helper to populate recently updated list ---
+  void _populateRecentlyUpdated(List<DrugEntity> drugs) {
+    // Simple logic: Sort by lastPriceUpdate (assuming format is parseable)
+    // and take the top N (e.g., 10). Needs error handling for date parsing.
+    try {
+      List<DrugEntity> sortedDrugs = List.from(drugs);
+      // Filter out drugs with empty or invalid date strings before sorting
+      sortedDrugs.removeWhere(
+        (drug) => drug.lastPriceUpdate == null || drug.lastPriceUpdate!.isEmpty,
+      );
+      // Sort remaining drugs
+      sortedDrugs.sort((a, b) {
+        // Basic date comparison, assumes 'YYYY-MM-DD' or similar sortable format
+        // TODO: Implement robust date parsing (e.g., using intl package) if format varies
+        return (b.lastPriceUpdate ?? '').compareTo(a.lastPriceUpdate ?? '');
+      });
+      // Take the top 10 (or fewer if less than 10 exist)
+      _recentlyUpdatedMedicines = sortedDrugs.take(10).toList();
+      if (kDebugMode) {
+        print(
+          'Populated recently updated list with ${_recentlyUpdatedMedicines.length} items.',
+        );
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('Error populating recently updated list: $e');
+      }
+      _recentlyUpdatedMedicines = []; // Clear list on error
+    }
     // No need to notifyListeners here, loadInitialData will do it.
   }
 
@@ -168,6 +249,8 @@ class MedicineProvider extends ChangeNotifier {
     switch (failure.runtimeType) {
       case CacheFailure:
         return 'خطأ في تحميل البيانات المحلية.';
+      case InitialLoadFailure: // Handle the new failure type
+        return 'فشل تحميل البيانات الأولية. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
       // case ServerFailure:
       //   return 'خطأ في الاتصال بالخادم.';
       default:

@@ -23,3 +23,6 @@ class NetworkFailure
 
 class CacheFailure
     extends Failure {} // Define specific failure for local cache issues
+
+class InitialLoadFailure
+    extends Failure {} // Failure during initial data load (remote + local)
