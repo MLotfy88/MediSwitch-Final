@@ -7,7 +7,6 @@ plugins {
 android {
     namespace 'com.example.mediswitch'
     compileSdk 35
-    ndkVersion '27.0.12077973' // تأكيد استخدام إصدار NDK الصحيح
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -22,13 +21,13 @@ android {
         applicationId "com.example.mediswitch"
         minSdk 28
         targetSdk 35
-        versionCode flutter.versionCode.toInteger()
+        versionCode flutter.versionCode
         versionName flutter.versionName
     }
 
     signingConfigs {
         release {
-            storeFile rootProject.file("android/app/release.jks")
+            storeFile file("release.jks")
             keyAlias System.getenv("RELEASE_KEY_ALIAS")
             storePassword System.getenv("RELEASE_KEYSTORE_PASSWORD")
             keyPassword System.getenv("RELEASE_KEY_PASSWORD")
