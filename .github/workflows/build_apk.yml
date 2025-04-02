@@ -1,4 +1,4 @@
-name: Build Flutter Android APK
+name: Build Signed Flutter Android APK
 
 on:
   push:
@@ -30,16 +30,32 @@ jobs:
       - name: Get Flutter Dependencies
         run: flutter pub get
 
-      # Build unsigned Release APK, skipping signing validation
-      - name: Build Unsigned Release APK
+      # Decode Keystore from Base64 Secret
+      - name: Decode Keystore
+        # حفظ الملف المؤقت داخل مجلد android/app لسهولة الوصول إليه بواسطة Gradle
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
+
+      # Build and Sign Release APK using Secrets
+      - name: Build Signed Release APK
         run: |
           cd android
-          ./gradlew assembleRelease -x :app:validateSigningRelease
+          # تمرير معلومات التوقيع كخصائص Gradle
+          ./gradlew assembleRelease \
+            -Pandroid.injected.signing.store.file=$(pwd)/app/release.jks \
+            -Pandroid.injected.signing.store.password=${{ secrets.ANDROID_KEYSTORE_PASSWORD }} \
+            -Pandroid.injected.signing.key.alias=${{ secrets.ANDROID_KEY_ALIAS }} \
+            -Pandroid.injected.signing.key.password=${{ secrets.ANDROID_KEY_PASSWORD }}
           cd ..
 
-      # Upload the unsigned APK artifact
-      - name: Upload APK Artifact
+      # Upload the signed APK artifact
+      - name: Upload Signed APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-unsigned-apk
-          path: build/app/outputs/apk/release/app-release-unsigned.apk
+          name: app-release-signed-apk
+          # المسار القياسي لملف APK الموقع
+          path: build/app/outputs/apk/release/app-release.apk
+
+      # (Optional) Clean up decoded keystore file
+      - name: Cleanup Keystore
+        if: always() # Ensure cleanup runs even if previous steps fail
+        run: rm -f android/app/release.jks
