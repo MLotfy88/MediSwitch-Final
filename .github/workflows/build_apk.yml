@@ -1,4 +1,4 @@
-name: Build Signed Flutter Android APK
+name: Build Signed Flutter Android APK with Slack Notify
 
 on:
   push:
@@ -9,8 +9,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
+      # إرسال إشعار ببدء الـ Workflow
+      - name: Send Slack Notification - Start
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }} # استخدام الـ Secret
+          SLACK_USERNAME: GitHub Actions CI
+          SLACK_ICON_EMOJI: ':rocket:'
+          SLACK_COLOR: '#007ec6' # لون أزرق
+          SLACK_MESSAGE: '🚀 Build started for `${{ github.repository }}` triggered by `${{ github.actor }}` on branch `${{ github.ref_name }}`.'
+
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -30,35 +39,53 @@ jobs:
       - name: Get Flutter Dependencies
         run: flutter pub get
 
-      # Decode Keystore from Base64 Secret
       - name: Decode Keystore
-        # حفظ الملف المؤقت داخل مجلد android/app لسهولة الوصول إليه بواسطة Gradle
         run: printf "%s" "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
 
-      # Build and Sign Release APK using Secrets
-      # Build and Sign Release APK using Environment Variables read by build.gradle
       - name: Build Signed Release APK
-        # تعيين متغيرات البيئة التي يقرأها build.gradle
         env:
           RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
         run: |
           cd android
-          # بناء APK (سيقرأ build.gradle متغيرات البيئة وملف release.jks)
           ./gradlew assembleRelease
           cd ..
 
-      # Upload the signed APK artifact
+      # إعطاء معرف لهذه الخطوة للوصول إلى مخرجاتها
       - name: Upload Signed APK Artifact
+        id: upload_artifact # المعرف
         uses: actions/upload-artifact@v4
         with:
           name: app-release-signed-apk
-          # المسار القياسي لملف APK الموقع
-          # المسار الصحيح بالنسبة لجذر المستودع بعد بناء Gradle من داخل مجلد android
           path: android/build/app/outputs/apk/release/app-release.apk
 
-      # (Optional) Clean up decoded keystore file
       - name: Cleanup Keystore
-        if: always() # Ensure cleanup runs even if previous steps fail
+        if: always()
         run: rm -f android/app/release.jks
+
+      # إرسال إشعار بنجاح الـ Workflow مع رابط التحميل
+      - name: Send Slack Notification - Success
+        uses: rtCamp/action-slack-notify@v2
+        if: success() # يعمل فقط إذا نجحت الخطوات السابقة
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: GitHub Actions CI
+          SLACK_ICON_EMOJI: ':white_check_mark:'
+          SLACK_COLOR: '#36a64f' # لون أخضر
+          SLACK_MESSAGE: '✅ Build successful for `${{ github.repository }}`!\n<${{ steps.upload_artifact.outputs.artifact-url }}|Download Signed APK>' # استخدام مخرجات خطوة الرفع
+
+  # خطوة منفصلة لإرسال إشعار في حالة الفشل
+  notify_failure:
+    runs-on: ubuntu-latest
+    needs: build # يعتمد على انتهاء الـ job السابق
+    if: failure() # يعمل فقط إذا فشل الـ job السابق
+    steps:
+      - name: Send Slack Notification - Failure
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: GitHub Actions CI
+          SLACK_ICON_EMOJI: ':x:'
+          SLACK_COLOR: '#ff0000' # لون أحمر
+          SLACK_MESSAGE: '❌ Build failed for `${{ github.repository }}`.\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Workflow Run>'
