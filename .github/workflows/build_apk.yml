@@ -38,26 +38,28 @@ jobs:
         run: flutter pub get
 
       # الخطوة 5: فك تشفير وإعداد ملف Keystore
-      - name: Decode and Decrypt Keystore
-        run: |
-          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
-          gpg --batch --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" --decrypt --output android/app/release.jks android/app/release.jks.gpg
+      - name: Decode Keystore
+        run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
+        working-directory: ./
+
+      - name: Decrypt Keystore
+        run: gpg --batch --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" --decrypt --output android/app/release.jks android/app/release.jks.gpg
         env:
           GPG_TTY: $(tty)
-        working-directory: ./android
+        working-directory: ./android/app
 
       # الخطوة 6: إنشاء ملف key.properties لتوفير معلومات التوقيع
       - name: Create key.properties
         run: |
-          echo "storeFile=release.jks" >> android/key.properties
-          echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/key.properties
-          echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/key.properties
-          echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/key.properties
+          echo "storeFile=release.jks" >> android/app/key.properties
+          echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/app/key.properties
+          echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/app/key.properties
+          echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/app/key.properties
         working-directory: ./android/app
 
       # الخطوة 7: بناء ملف APK نسخة Release مع التوقيع
       - name: Build Release APK
-        run: flutter build apk --release --build-properties=android/key.properties
+        run: flutter build apk --release --build-properties=android/app/key.properties
 
       # الخطوة 8: رفع ملف APK الناتج كـ Artifact
       # هذا يسمح لك بتنزيل الملف الناتج من صفحة الـ Workflow run على GitHub
