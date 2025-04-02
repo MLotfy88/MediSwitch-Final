@@ -1,76 +1,52 @@
-name: Build Android APK
+# اسم الـ Workflow (سيظهر في تبويب Actions على GitHub)
+name: Build Flutter Android APK
 
+# متى يتم تشغيل الـ Workflow؟
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    branches:
+      - main # يتم التشغيل عند الدفع إلى الفرع main (يمكن تعديله لفروع أخرى)
+  workflow_dispatch: # يسمح بتشغيل الـ Workflow يدويًا من واجهة GitHub
 
 jobs:
   build:
+    # نوع الجهاز الافتراضي الذي سيتم تشغيل الـ job عليه (مقدم من GitHub)
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Install Linux dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ninja-build libgtk-3-dev lib32stdc++6 lib32z1
-      
-      - name: Set up JDK 17
+      # الخطوة 1: سحب كود المشروع من المستودع
+      - name: Checkout Repository
+        uses: actions/checkout@v4 # استخدام أحدث إصدار من action السحب
+
+      # الخطوة 2: إعداد بيئة Java (JDK 17 مطلوب لمشروعك)
+      - name: Setup Java JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '17.0.10'
-      
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          cmdline-tools-version: '11076708'
-        
-      - name: Setup Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.29.2'
-          channel: 'stable'
-          cache: true
-      
-      - name: Accept Android licenses
-        run: yes | sdkmanager --licenses || true
-          
-      - name: Install Android SDK components
-        run: |
-          sdkmanager --install "platform-tools" \
-            "platforms;android-35" \
-            "build-tools;36.0.0" \
-            "ndk;27.0.12077973"
-          
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v3
-        with:
-          gradle-version: '8.10.2'
-          
-      - name: Generate local.properties
-        run: |
-          mkdir -p android
-          touch android/local.properties
-          echo "flutter.sdk=/opt/hostedtoolcache/flutter/3.29.2-stable/x64" > android/local.properties
-          echo "sdk.dir=$ANDROID_HOME" >> android/local.properties
-          
-      - name: Flutter setup and build
-        run: |
-          flutter config --no-analytics
-          flutter doctor -v
-          flutter pub get
-          flutter build apk --release
+          distribution: 'temurin' # توزيعة Java شائعة
+          java-version: '17'
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v3
+      # الخطوة 3: إعداد بيئة Flutter (بنفس الإصدار المستخدم 3.29.2)
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2 # action شائع لإعداد Flutter
         with:
-          name: release-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          flutter-version: '3.29.2' # تأكد من تطابق هذا الإصدار مع مشروعك
+          channel: 'stable' # القناة المستخدمة
+          cache: true # تفعيل الكاش لتسريع عمليات البناء المستقبلية
+
+      # الخطوة 4: تحميل الاعتماديات الخاصة بالمشروع
+      - name: Get Flutter Dependencies
+        run: flutter pub get
+
+      # الخطوة 5: بناء ملف APK نسخة Release
+      # ملاحظة: هذا الأمر يبني APK غير موقع (unsigned). للتوقيع للنشر على Google Play،
+      # ستحتاج لإعداد Keystore و Secrets لإدارة كلمات المرور والمفاتيح بأمان.
+      - name: Build Release APK
+        run: flutter build apk --release
+
+      # الخطوة 6: رفع ملف APK الناتج كـ Artifact
+      # هذا يسمح لك بتنزيل الملف الناتج من صفحة الـ Workflow run على GitHub
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-apk # اسم الـ Artifact الذي سيظهر
+          path: build/app/outputs/flutter-apk/app-release.apk # المسار إلى ملف APK الناتج
