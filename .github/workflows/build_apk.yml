@@ -36,16 +36,17 @@ jobs:
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
 
       # Build and Sign Release APK using Secrets
+      # Build and Sign Release APK using Environment Variables read by build.gradle
       - name: Build Signed Release APK
+        # تعيين متغيرات البيئة التي يقرأها build.gradle
+        env:
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
         run: |
           cd android
-          # تمرير معلومات التوقيع كخصائص Gradle
-          ./gradlew assembleRelease \
-            # المسار الصحيح للملف المؤقت بعد cd android هو app/release.jks
-            -Pandroid.injected.signing.store.file=app/release.jks \
-            -Pandroid.injected.signing.store.password=${{ secrets.RELEASE_KEYSTORE_PASSWORD }} \
-            -Pandroid.injected.signing.key.alias=${{ secrets.RELEASE_KEY_ALIAS }} \
-            -Pandroid.injected.signing.key.password=${{ secrets.RELEASE_KEY_PASSWORD }}
+          # بناء APK (سيقرأ build.gradle متغيرات البيئة وملف release.jks)
+          ./gradlew assembleRelease
           cd ..
 
       # Upload the signed APK artifact
