@@ -31,13 +31,15 @@ android {
     }
 
     signingConfigs {
-        release {
-            storeFile file("${System.getProperty('user.home')}/.android/debug.keystore")
-            storePassword "android"
-            keyAlias "androiddebugkey"
-            keyPassword "android"
+    getByName("release") {
+        storeFile = file("android/app/release.jks")
+        keyAlias = project.properties["RELEASE_KEY_ALIAS"] as? String
+        storePassword = project.properties["RELEASE_KEYSTORE_PASSWORD"] as? String
+        keyPassword = project.properties["RELEASE_KEY_PASSWORD"] as? String
         }
+
     }
+
 
     buildTypes {
         release {
