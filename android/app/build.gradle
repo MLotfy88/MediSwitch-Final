@@ -29,7 +29,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("android/app/release.jks")  // يجب أن يكون المسار هنا "android/app/release.jks"
+            storeFile file("release.jks")
             storePassword System.getenv("RELEASE_KEYSTORE_PASSWORD")
             keyAlias System.getenv("RELEASE_KEY_ALIAS")
             keyPassword System.getenv("RELEASE_KEY_PASSWORD")
