@@ -1,14 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id 'dev.flutter.flutter-gradle-plugin'
 }
 
 android {
     namespace 'com.example.mediswitch'
-    compileSdk 35 // Reverted back to 35 as required by plugins
-    // ndkVersion '27.0.12077973' // Removed specific NDK version
+    compileSdk 35
+    ndkVersion '27.0.12077973' // تأكيد استخدام إصدار NDK الصحيح
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -20,26 +19,21 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.mediswitch"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk 28
-        targetSdk 35 // Reverted back to 35
-        versionCode flutter.versionCode
+        targetSdk 35
+        versionCode flutter.versionCode.toInteger()
         versionName flutter.versionName
     }
 
     signingConfigs {
-    getByName("release") {
-        storeFile = file("android/app/release.jks")
-        keyAlias = project.properties["RELEASE_KEY_ALIAS"] as? String
-        storePassword = project.properties["RELEASE_KEYSTORE_PASSWORD"] as? String
-        keyPassword = project.properties["RELEASE_KEY_PASSWORD"] as? String
+        release {
+            storeFile rootProject.file("android/app/release.jks")
+            keyAlias System.getenv("RELEASE_KEY_ALIAS")
+            storePassword System.getenv("RELEASE_KEYSTORE_PASSWORD")
+            keyPassword System.getenv("RELEASE_KEY_PASSWORD")
         }
-
     }
-
 
     buildTypes {
         release {
