@@ -1,12 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id 'dev.flutter.flutter-gradle-plugin'
 }
 
 android {
     namespace 'com.example.mediswitch'
-    compileSdk 35
+    compileSdk 35 // Reverted back to 35 as required by plugins
+    // ndkVersion '27.0.12077973' // Removed specific NDK version
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -27,9 +29,9 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("release.jks")
-            keyAlias System.getenv("RELEASE_KEY_ALIAS")
+            storeFile file("android/app/release.jks")
             storePassword System.getenv("RELEASE_KEYSTORE_PASSWORD")
+            keyAlias System.getenv("RELEASE_KEY_ALIAS")
             keyPassword System.getenv("RELEASE_KEY_PASSWORD")
         }
     }
