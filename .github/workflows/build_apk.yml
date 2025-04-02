@@ -33,7 +33,7 @@ jobs:
       # Decode Keystore from Base64 Secret
       - name: Decode Keystore
         # حفظ الملف المؤقت داخل مجلد android/app لسهولة الوصول إليه بواسطة Gradle
-        run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
+        run: printf "%s" "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
 
       # Build and Sign Release APK using Secrets
       # Build and Sign Release APK using Environment Variables read by build.gradle
