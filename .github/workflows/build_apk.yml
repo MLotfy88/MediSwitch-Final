@@ -1,70 +1,71 @@
-# اسم الـ Workflow (سيظهر في تبويب Actions على GitHub)
 name: Build Flutter Android APK
 
-# متى يتم تشغيل الـ Workflow؟
 on:
   push:
     branches:
-      - main # يتم التشغيل عند الدفع إلى الفرع main (يمكن تعديله لفروع أخرى)
-  workflow_dispatch: # يسمح بتشغيل الـ Workflow يدويًا من واجهة GitHub
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
-    # نوع الجهاز الافتراضي الذي سيتم تشغيل الـ job عليه (مقدم من GitHub)
     runs-on: ubuntu-latest
 
     steps:
-      # الخطوة 1: سحب كود المشروع من المستودع
       - name: Checkout Repository
-        uses: actions/checkout@v4 # استخدام أحدث إصدار من action السحب
+        uses: actions/checkout@v4
 
-      # الخطوة 2: إعداد بيئة Java (JDK 17 مطلوب لمشروعك)
       - name: Setup Java JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin' # توزيعة Java شائعة
+          distribution: 'temurin'
           java-version: '17'
 
-      # الخطوة 3: إعداد بيئة Flutter (بنفس الإصدار المستخدم 3.29.2)
       - name: Setup Flutter SDK
-        uses: subosito/flutter-action@v2 # action شائع لإعداد Flutter
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.2' # تأكد من تطابق هذا الإصدار مع مشروعك
-          channel: 'stable' # القناة المستخدمة
-          cache: true # تفعيل الكاش لتسريع عمليات البناء المستقبلية
+          flutter-version: '3.29.2'
+          channel: 'stable'
+          cache: true
 
-      # الخطوة 4: تحميل الاعتماديات الخاصة بالمشروع
       - name: Get Flutter Dependencies
         run: flutter pub get
 
-      # الخطوة 5: فك تشفير وإعداد ملف Keystore
+      - name: Debug Secrets (Length Check)
+        run: |
+          echo "Keystore Base64 Length: ${#SECRETS_RELEASE_KEYSTORE_BASE64}"
+          echo "Encryption Password Length: ${#SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD}"
+        env:
+          SECRETS_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          SECRETS_RELEASE_KEYSTORE_ENCRYPTION_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}
+
       - name: Decode Keystore
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
-        working-directory: ./
+
+      - name: Verify Keystore File
+        run: ls -l android/app/release.jks.gpg || echo "Keystore file missing!"
 
       - name: Decrypt Keystore
-        run: gpg --batch --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" --decrypt --output android/app/release.jks android/app/release.jks.gpg
+        run: |
+          if [ -f "android/app/release.jks.gpg" ]; then
+            gpg --batch --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" --decrypt --output android/app/release.jks android/app/release.jks.gpg
+          else
+            echo "Error: Keystore file not found!" && exit 1
+          fi
         env:
           GPG_TTY: $(tty)
-        working-directory: ./android/app
 
-      # الخطوة 6: إنشاء ملف key.properties لتوفير معلومات التوقيع
       - name: Create key.properties
         run: |
-          echo "storeFile=release.jks" >> android/app/key.properties
+          echo "storeFile=release.jks" > android/app/key.properties
           echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/app/key.properties
           echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/app/key.properties
           echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/app/key.properties
-        working-directory: ./android/app
 
-      # الخطوة 7: بناء ملف APK نسخة Release مع التوقيع
       - name: Build Release APK
         run: flutter build apk --release --build-properties=android/app/key.properties
 
-      # الخطوة 8: رفع ملف APK الناتج كـ Artifact
-      # هذا يسمح لك بتنزيل الملف الناتج من صفحة الـ Workflow run على GitHub
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-release-apk # اسم الـ Artifact الذي سيظهر
-          path: build/app/outputs/flutter-apk/app-release.apk # المسار إلى ملف APK الناتج
+          name: app-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
