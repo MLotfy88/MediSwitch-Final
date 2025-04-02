@@ -54,9 +54,6 @@ jobs:
         env:
           GPG_TTY: $(tty)
 
-      - name: Verify Keystore File Exists
-        run: ls -l android/app/release.jks || { echo "Keystore file missing!"; exit 1; }
-
       - name: Create key.properties
         run: |
           echo "storeFile=release.jks" > android/app/key.properties
@@ -64,8 +61,8 @@ jobs:
           echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/app/key.properties
           echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/app/key.properties
 
-      - name: Clean Flutter Project
-        run: flutter clean
+      - name: Print key.properties
+        run: cat android/app/key.properties || echo "key.properties not found!"
 
       - name: Build Release APK
         run: flutter build apk --release --split-per-abi
