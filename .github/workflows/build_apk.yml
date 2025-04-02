@@ -37,13 +37,29 @@ jobs:
       - name: Get Flutter Dependencies
         run: flutter pub get
 
-      # الخطوة 5: بناء ملف APK نسخة Release
-      # ملاحظة: هذا الأمر يبني APK غير موقع (unsigned). للتوقيع للنشر على Google Play،
-      # ستحتاج لإعداد Keystore و Secrets لإدارة كلمات المرور والمفاتيح بأمان.
-      - name: Build Release APK
-        run: flutter build apk --release
+      # الخطوة 5: فك تشفير وإعداد ملف Keystore
+      - name: Decode and Decrypt Keystore
+        run: |
+          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > android/app/release.jks.gpg
+          gpg --batch --passphrase="${{ secrets.RELEASE_KEYSTORE_ENCRYPTION_PASSWORD }}" --decrypt --output android/app/release.jks android/app/release.jks.gpg
+        env:
+          GPG_TTY: $(tty)
+        working-directory: ./android
 
-      # الخطوة 6: رفع ملف APK الناتج كـ Artifact
+      # الخطوة 6: إنشاء ملف key.properties لتوفير معلومات التوقيع
+      - name: Create key.properties
+        run: |
+          echo "storeFile=release.jks" >> android/key.properties
+          echo "keyAlias=${{ secrets.RELEASE_KEY_ALIAS }}" >> android/key.properties
+          echo "storePassword=${{ secrets.RELEASE_KEYSTORE_PASSWORD }}" >> android/key.properties
+          echo "keyPassword=${{ secrets.RELEASE_KEY_PASSWORD }}" >> android/key.properties
+        working-directory: ./android/app
+
+      # الخطوة 7: بناء ملف APK نسخة Release مع التوقيع
+      - name: Build Release APK
+        run: flutter build apk --release --build-properties=android/key.properties
+
+      # الخطوة 8: رفع ملف APK الناتج كـ Artifact
       # هذا يسمح لك بتنزيل الملف الناتج من صفحة الـ Workflow run على GitHub
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
