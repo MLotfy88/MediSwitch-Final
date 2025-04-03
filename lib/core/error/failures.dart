@@ -7,7 +7,7 @@ abstract class Failure extends Equatable {
   // const Failure([this.message = 'An unexpected error occurred']);
 
   const Failure([
-    List properties = const <dynamic>[],
+    List<Object> properties = const <Object>[],
   ]); // Keep constructor for Equatable
 
   @override

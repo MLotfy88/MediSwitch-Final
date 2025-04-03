@@ -41,7 +41,8 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       );
 
       if (response.statusCode == 200) {
-        final Map<String, dynamic> data = json.decode(response.body);
+        final Map<String, dynamic> data =
+            json.decode(response.body) as Map<String, dynamic>;
         // Expecting {'version': 'timestamp_str', 'file_type': 'csv/xlsx', ...}
         if (data.containsKey('version') && data.containsKey('file_type')) {
           return Right(data);

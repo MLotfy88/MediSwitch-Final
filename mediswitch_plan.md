@@ -38,8 +38,8 @@
     *   `[x]` 0.5.2. (Backend) إضافة التبعيات إلى `package.json` أو `requirements.txt`. (requirements.txt created and installed)
     *   `[ ]` 0.5.3. إعداد أدوات إدارة الإصدارات (FVM؟).
 *   **0.6. إعداد أدوات الجودة والأداء:**
-    *   `[ ]` 0.6.1. تفعيل وتخصيص قواعد lint صارمة (Frontend).
-    *   `[ ]` 0.6.2. إعداد linter مماثل للـ Backend.
+    *   `[x]` 0.6.1. تفعيل وتخصيص قواعد lint صارمة (Frontend).
+    *   `[x]` 0.6.2. إعداد linter مماثل للـ Backend.
     *   `[x]` 0.6.3. إنشاء نموذج أولي (Prototype) لاختبار قراءة Excel/CSV باستخدام `compute()`. (Implemented in CsvLocalDataSource)
 *   **0.7. تصميم الواجهة (UI/UX) الأولي:**
     *   `[ ]` 0.7.1. البحث عن رابط Figma أو إنشاء Wireframes أساسية.
@@ -130,7 +130,7 @@
     *   `[x]` 3.2.9. زر "إيجاد البدائل". (UI added and linked)
     *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI added, logic deferred)
     *   `[ ]` 3.2.11. استخدام `CachedNetworkImage`.
-*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, uses DrugEntity, needs implementation)
+*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, uses DrugEntity, needs implementation) **[ON HOLD - Missing Dosing Data]**
     *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`.
     *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search).
     *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation added)

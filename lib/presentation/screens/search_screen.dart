@@ -2,7 +2,7 @@ import 'dart:async'; // Import Timer for debounce
 import 'package:flutter/material.dart'; // Keep only one material import
 import 'package:provider/provider.dart';
 import '../bloc/medicine_provider.dart';
-import '../../domain/entities/drug_entity.dart';
+// import '../../domain/entities/drug_entity.dart'; // Unused import removed
 import '../widgets/drug_list_item.dart'; // Import the extracted widget
 // Removed imports related to _showMedicineDetails
 

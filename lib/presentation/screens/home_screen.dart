@@ -85,7 +85,9 @@ class _HomeScreenState extends State<HomeScreen> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const SearchScreen()),
+                  MaterialPageRoute<void>(
+                    builder: (context) => const SearchScreen(),
+                  ),
                 );
               },
               child: Container(
@@ -315,7 +317,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // Show details using DrugEntity
   void _showMedicineDetails(BuildContext context, DrugEntity drug) {
     // Changed type to DrugEntity
-    showModalBottomSheet(
+    showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
@@ -392,7 +394,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ); // Close the bottom sheet first using builderContext
                       Navigator.push(
                         context, // Use the original context for navigation
-                        MaterialPageRoute(
+                        MaterialPageRoute<void>(
                           builder:
                               (_) => ChangeNotifierProvider(
                                 // Use the use case obtained earlier
