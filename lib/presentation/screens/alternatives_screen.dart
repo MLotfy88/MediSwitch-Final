@@ -34,26 +34,74 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
       appBar: AppBar(
         title: Text('بدائل ${widget.originalDrug.tradeName}'),
         centerTitle: true,
+        elevation: 1, // Subtle elevation
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 16.0,
+          vertical: 20.0,
+        ), // Increased vertical padding
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment:
+              CrossAxisAlignment.stretch, // Stretch children horizontally
           children: [
-            // Display Original Drug Info (Optional)
-            Text(
-              'الدواء الأصلي: ${widget.originalDrug.tradeName}',
-              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            // Display Original Drug Info (Optional) - Styled Card
+            Card(
+              elevation: 0,
+              color: Theme.of(
+                context,
+              ).colorScheme.secondaryContainer.withOpacity(0.3),
+              margin: const EdgeInsets.only(bottom: 16),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'الدواء الأصلي', // Clearer title
+                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        color:
+                            Theme.of(context).colorScheme.onSecondaryContainer,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      widget.originalDrug.tradeName,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color:
+                            Theme.of(context).colorScheme.onSecondaryContainer,
+                      ),
+                    ),
+                    if (widget.originalDrug.mainCategory.isNotEmpty)
+                      Text(
+                        'الفئة: ${widget.originalDrug.mainCategory}',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Theme.of(
+                            context,
+                          ).colorScheme.onSecondaryContainer.withOpacity(0.8),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
             ),
-            Text('الفئة: ${widget.originalDrug.mainCategory}'),
-            const Divider(height: 24),
+            // const Divider(height: 24), // Removed divider, using card separation
 
-            // Display Alternatives
-            const Text(
-              'البدائل (نفس الفئة):',
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            // Display Alternatives Title
+            Padding(
+              padding: const EdgeInsets.only(
+                bottom: 12.0,
+              ), // Increased spacing below title
+              child: Text(
+                'البدائل المقترحة (نفس الفئة)', // Slightly more descriptive title
+                style: Theme.of(
+                  context,
+                ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+                textAlign: TextAlign.start,
+              ),
             ),
-            const SizedBox(height: 8),
+            // const SizedBox(height: 8), // Replaced with Padding above
 
             // Loading/Error/List View
             if (provider.isLoading)

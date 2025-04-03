@@ -43,23 +43,24 @@ class MedicineModel {
 
   factory MedicineModel.fromCsv(List<dynamic> row) {
     return MedicineModel(
-      tradeName: row[0] ?? '',
-      arabicName: row[1] ?? '',
-      oldPrice: row[2] ?? '',
-      price: row[3] ?? '',
-      active: row[4] ?? '',
-      mainCategory: row[5] ?? '',
-      mainCategoryAr: row[6] ?? '',
-      category: row[7] ?? '',
-      categoryAr: row[8] ?? '',
-      company: row[9] ?? '',
-      dosageForm: row[10] ?? '',
-      dosageFormAr: row[11] ?? '',
-      unit: row[12] ?? '',
-      usage: row[13] ?? '',
-      usageAr: row[14] ?? '',
-      description: row[15] ?? '',
-      lastPriceUpdate: row[16] ?? '',
+      // Safely convert dynamic row elements to String
+      tradeName: row.length > 0 ? row[0]?.toString() ?? '' : '',
+      arabicName: row.length > 1 ? row[1]?.toString() ?? '' : '',
+      oldPrice: row.length > 2 ? row[2]?.toString() ?? '' : '',
+      price: row.length > 3 ? row[3]?.toString() ?? '' : '',
+      active: row.length > 4 ? row[4]?.toString() ?? '' : '',
+      mainCategory: row.length > 5 ? row[5]?.toString() ?? '' : '',
+      mainCategoryAr: row.length > 6 ? row[6]?.toString() ?? '' : '',
+      category: row.length > 7 ? row[7]?.toString() ?? '' : '',
+      categoryAr: row.length > 8 ? row[8]?.toString() ?? '' : '',
+      company: row.length > 9 ? row[9]?.toString() ?? '' : '',
+      dosageForm: row.length > 10 ? row[10]?.toString() ?? '' : '',
+      dosageFormAr: row.length > 11 ? row[11]?.toString() ?? '' : '',
+      unit: row.length > 12 ? row[12]?.toString() ?? '' : '',
+      usage: row.length > 13 ? row[13]?.toString() ?? '' : '',
+      usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
+      description: row.length > 15 ? row[15]?.toString() ?? '' : '',
+      lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
     );
   }
 
@@ -89,24 +90,25 @@ class MedicineModel {
   // إنشاء نموذج من Map من قاعدة البيانات
   factory MedicineModel.fromMap(Map<String, dynamic> map) {
     return MedicineModel(
-      id: map['id'],
-      tradeName: map['tradeName'] ?? '',
-      arabicName: map['arabicName'] ?? '',
-      oldPrice: map['oldPrice'] ?? '',
-      price: map['price'] ?? '',
-      active: map['active'] ?? '',
-      mainCategory: map['mainCategory'] ?? '',
-      mainCategoryAr: map['mainCategoryAr'] ?? '',
-      category: map['category'] ?? '',
-      categoryAr: map['categoryAr'] ?? '',
-      company: map['company'] ?? '',
-      dosageForm: map['dosageForm'] ?? '',
-      dosageFormAr: map['dosageFormAr'] ?? '',
-      unit: map['unit'] ?? '',
-      usage: map['usage'] ?? '',
-      usageAr: map['usageAr'] ?? '',
-      description: map['description'] ?? '',
-      lastPriceUpdate: map['lastPriceUpdate'] ?? '',
+      // Safely cast map values
+      id: map['id'] as int?, // Cast id to int?
+      tradeName: map['tradeName']?.toString() ?? '',
+      arabicName: map['arabicName']?.toString() ?? '',
+      oldPrice: map['oldPrice']?.toString() ?? '',
+      price: map['price']?.toString() ?? '',
+      active: map['active']?.toString() ?? '',
+      mainCategory: map['mainCategory']?.toString() ?? '',
+      mainCategoryAr: map['mainCategoryAr']?.toString() ?? '',
+      category: map['category']?.toString() ?? '',
+      categoryAr: map['categoryAr']?.toString() ?? '',
+      company: map['company']?.toString() ?? '',
+      dosageForm: map['dosageForm']?.toString() ?? '',
+      dosageFormAr: map['dosageFormAr']?.toString() ?? '',
+      unit: map['unit']?.toString() ?? '',
+      usage: map['usage']?.toString() ?? '',
+      usageAr: map['usageAr']?.toString() ?? '',
+      description: map['description']?.toString() ?? '',
+      lastPriceUpdate: map['lastPriceUpdate']?.toString() ?? '',
     );
   }
 

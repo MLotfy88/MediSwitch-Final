@@ -78,29 +78,29 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
     final med = medicines[i];
 
     // Index by Trade Name (lowercase)
-    final tradeNameLower = (med.tradeName ?? '').toLowerCase();
+    final tradeNameLower = med.tradeName.toLowerCase();
     if (tradeNameLower.isNotEmpty) {
       indexByTradeName.putIfAbsent(tradeNameLower, () => []).add(i);
     }
 
     // Index by Arabic Name (lowercase)
-    final arabicNameLower = (med.arabicName ?? '').toLowerCase();
+    final arabicNameLower = med.arabicName.toLowerCase();
     if (arabicNameLower.isNotEmpty) {
       indexByArabicName.putIfAbsent(arabicNameLower, () => []).add(i);
     }
 
     // Index by Active Ingredient (lowercase)
-    final activeLower = (med.active ?? '').toLowerCase();
+    final activeLower = med.active.toLowerCase();
     if (activeLower.isNotEmpty) {
       indexByActiveIngredient.putIfAbsent(activeLower, () => []).add(i);
     }
 
     // Index by Category (Main and Sub, lowercase)
-    final mainCatLower = (med.mainCategory ?? '').toLowerCase();
+    final mainCatLower = med.mainCategory.toLowerCase();
     if (mainCatLower.isNotEmpty) {
       indexByCategory.putIfAbsent(mainCatLower, () => []).add(i);
     }
-    final catLower = (med.category ?? '').toLowerCase();
+    final catLower = med.category.toLowerCase();
     // Avoid adding duplicates if main and sub are the same (or sub is empty)
     if (catLower.isNotEmpty && catLower != mainCatLower) {
       indexByCategory.putIfAbsent(catLower, () => []).add(i);

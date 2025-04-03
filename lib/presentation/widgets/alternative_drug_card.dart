@@ -9,56 +9,50 @@ class AlternativeDrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Card(
-      margin: const EdgeInsets.symmetric(vertical: 6.0),
-      child: InkWell(
-        // Make the card tappable
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(12.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                drug.tradeName,
-                style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-              if (drug.arabicName.isNotEmpty) ...[
-                const SizedBox(height: 4),
-                Text(
+      margin: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
+      elevation: 2, // Add subtle shadow
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+      ), // Rounded corners
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(
+          vertical: 8.0,
+          horizontal: 16.0,
+        ),
+        leading: Icon(
+          Icons.medication_liquid_outlined, // Generic medication icon
+          color: colorScheme.primary,
+          size: 36,
+        ),
+        title: Text(
+          drug.tradeName,
+          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        subtitle:
+            drug.arabicName.isNotEmpty
+                ? Text(
                   drug.arabicName,
-                  style: TextStyle(fontSize: 14, color: Colors.grey[700]),
+                  style: textTheme.bodySmall?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                  ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                ),
-              ],
-              const SizedBox(height: 8),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  // Optionally display Active Ingredient when available
-                  // Text(
-                  //   'المادة: ${drug.activeIngredient ?? 'غير معروف'}',
-                  //   style: TextStyle(fontSize: 13, color: Colors.grey[600]),
-                  // ),
-                  Text(
-                    'السعر: ${drug.price} جنيه',
-                    style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.w500,
-                      color: Theme.of(context).primaryColor,
-                    ),
-                  ),
-                ],
-              ),
-            ],
+                )
+                : null, // Don't show subtitle if arabicName is empty
+        trailing: Text(
+          '${drug.price} جنيه', // EGP or appropriate currency symbol
+          style: textTheme.titleSmall?.copyWith(
+            color: colorScheme.primary,
+            fontWeight: FontWeight.bold,
           ),
         ),
+        onTap: onTap, // Assign the onTap callback
       ),
     );
   }

@@ -107,7 +107,8 @@ class DrugRepositoryImpl implements DrugRepository {
           // Fetch local timestamp *after* successfully getting remote version
           final localTimestamp = await localDataSource.getLastUpdateTimestamp();
           final remoteTimestamp =
-              int.tryParse(remoteVersionInfo['version'] ?? '0') ?? 0;
+              int.tryParse(remoteVersionInfo['version']?.toString() ?? '0') ??
+              0;
 
           if (kDebugMode) {
             print('Remote version timestamp: $remoteTimestamp');
