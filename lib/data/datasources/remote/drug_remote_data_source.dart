@@ -24,11 +24,15 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
   // Factory constructor with default values
   factory DrugRemoteDataSourceImpl.create() {
-    return DrugRemoteDataSourceImpl(
-      baseUrl:
-          'http://localhost:8000', // Default URL, should be configurable in production
-      client: http.Client(),
+    // Use String.fromEnvironment to make the URL configurable at build time.
+    // Example build command: flutter run --dart-define=BACKEND_URL=https://your-production-url.com
+    const backendUrl = String.fromEnvironment(
+      'BACKEND_URL',
+      defaultValue: 'http://localhost:8000', // Default for local development
     );
+    print('Using Backend URL: $backendUrl'); // Log the URL being used
+
+    return DrugRemoteDataSourceImpl(baseUrl: backendUrl, client: http.Client());
   }
 
   @override
