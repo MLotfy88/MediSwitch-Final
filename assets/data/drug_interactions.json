@@ -1,0 +1,52 @@
+[
+  {
+    "ingredient1": "paracetamol",
+    "ingredient2": "warfarin",
+    "severity": "moderate",
+    "type": "pharmacokinetic",
+    "effect": "Increased anticoagulant effect of warfarin.",
+    "arabicEffect": "زيادة تأثير الوارفارين المضاد للتخثر.",
+    "recommendation": "Monitor INR closely.",
+    "arabicRecommendation": "مراقبة INR عن كثب."
+  },
+  {
+    "ingredient1": "ibuprofen",
+    "ingredient2": "aspirin",
+    "severity": "major",
+    "type": "pharmacodynamic",
+    "effect": "Increased risk of GI bleeding. Ibuprofen may reduce aspirin's cardioprotective effect.",
+    "arabicEffect": "زيادة خطر نزيف الجهاز الهضمي. قد يقلل الإيبوبروفين من تأثير الأسبرين الواقي للقلب.",
+    "recommendation": "Avoid concurrent use if possible, especially in patients needing aspirin for cardioprotection.",
+    "arabicRecommendation": "تجنب الاستخدام المتزامن إن أمكن، خاصة للمرضى الذين يحتاجون الأسبرين لحماية القلب."
+  },
+  {
+    "ingredient1": "ibuprofen",
+    "ingredient2": "warfarin",
+    "severity": "major",
+    "type": "pharmacodynamic",
+    "effect": "Increased risk of bleeding.",
+    "arabicEffect": "زيادة خطر النزيف.",
+    "recommendation": "Avoid concurrent use or monitor closely.",
+    "arabicRecommendation": "تجنب الاستخدام المتزامن أو المراقبة عن كثب."
+  },
+   {
+    "ingredient1": "amoxicillin",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "type": "unknown",
+    "effect": "Potential alteration of gut flora may affect vitamin K synthesis, potentially increasing warfarin effect.",
+    "arabicEffect": "التغيير المحتمل في فلورا الأمعاء قد يؤثر على تصنيع فيتامين ك، مما قد يزيد من تأثير الوارفارين.",
+    "recommendation": "Monitor INR, although clinical significance is often low.",
+    "arabicRecommendation": "مراقبة INR، على الرغم من أن الأهمية السريرية غالبًا ما تكون منخفضة."
+  },
+   {
+    "ingredient1": "pseudoephedrine",
+    "ingredient2": "caffeine",
+    "severity": "minor",
+    "type": "pharmacodynamic",
+    "effect": "Increased stimulant effects (jitteriness, increased heart rate).",
+    "arabicEffect": "زيادة التأثيرات المنبهة (العصبية، زيادة معدل ضربات القلب).",
+    "recommendation": "Use with caution, monitor for side effects.",
+    "arabicRecommendation": "استخدم بحذر، وراقب الآثار الجانبية."
+  }
+]

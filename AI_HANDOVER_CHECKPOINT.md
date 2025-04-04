@@ -30,7 +30,8 @@ tml # MediSwitch Project - AI Handover Checkpoint
 7.  **Maintain Structure & Organization:** **CRITICAL:** Adhere strictly to the established project structure (Clean Architecture) and coding conventions. Work in a methodical, organized manner, avoiding random changes.
 
 
-**Your First Task (Reiteration):**
+**Current Status & Next Steps:**
 
-*   Perform the steps outlined in **Instruction #1 (Understand the Current State)** above.
-*   Based on your analysis of the plan (`@/mediswitch_plan.md`) and the current codebase state, identify and propose the *single most logical next task* to implement according to the plan and the established methodology. Await user confirmation before proceeding with implementation.
+*   The initial state understanding (Instruction #1) is complete.
+*   Development is proceeding according to the `@/mediswitch_plan.md`, utilizing external resources found in `@/External source/` for features like Dose Calculation and Interaction Checking where applicable.
+*   Refer **strictly** to `@/mediswitch_plan.md` to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).

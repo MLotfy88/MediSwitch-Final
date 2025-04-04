@@ -216,6 +216,7 @@ class DrugRepositoryImpl implements DrugRepository {
               active: model.active ?? '',
               company: model.company ?? '',
               dosageForm: model.dosageForm ?? '',
+              concentration: model.concentration ?? 0.0, // Pass concentration
               unit: model.unit ?? '',
               usage: model.usage ?? '',
               description: model.description ?? '',

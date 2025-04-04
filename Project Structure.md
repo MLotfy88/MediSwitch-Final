@@ -64,7 +64,11 @@
 │   └── settings.gradle
 ├── app_prompt.md
 ├── assets/
-│   └── meds.csv
+│   ├── meds.csv
+│   └── data/
+│       ├── active_ingredients.json
+│       ├── drug_interactions.json
+│       └── medicine_ingredients.json
 ├── backend/
 │   ├── .gitignore
 │   ├── api/
@@ -153,12 +157,21 @@
 │   │   ├── models/
 │   │   │   └── medicine_model.dart
 │   │   └── repositories/
-│   │       └── drug_repository_impl.dart
+│   │       ├── drug_repository_impl.dart
+│   │       └── interaction_repository_impl.dart
 │   ├── domain/
 │   │   ├── entities/
-│   │   │   └── drug_entity.dart
+│   │   │   ├── active_ingredient.dart
+│   │   │   ├── dosage_result.dart
+│   │   │   ├── drug_entity.dart
+│   │   │   ├── drug_interaction.dart
+│   │   │   └── interaction_analysis_result.dart
 │   │   ├── repositories/
-│   │   │   └── drug_repository.dart
+│   │   │   ├── drug_repository.dart
+│   │   │   └── interaction_repository.dart
+│   │   └── services/
+│   │       ├── dosage_calculator_service.dart
+│   │       └── interaction_checker_service.dart
 │   │   └── usecases/
 │   │       ├── filter_drugs_by_category.dart
 │   │       ├── find_drug_alternatives.dart
@@ -172,6 +185,7 @@
 │       │   ├── alternatives_provider.dart
 │       │   ├── dose_calculator_provider.dart
 │       │   ├── medicine_provider.dart
+│       │   ├── interaction_provider.dart
 │       │   └── settings_provider.dart
 │       ├── screens/
 │       │   ├── alternatives_screen.dart
@@ -180,6 +194,7 @@
 │       │   ├── main_screen.dart
 │       │   ├── search_screen.dart
 │       │   ├── settings_screen.dart
+│       │   ├── interaction_checker_screen.dart
 │       │   └── weight_calculator_screen.dart
 │       └── widgets/
 │           ├── alternative_drug_card.dart

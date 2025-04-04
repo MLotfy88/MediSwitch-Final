@@ -16,6 +16,7 @@ class MedicineModel {
   final String usageAr;
   final String description;
   final String lastPriceUpdate;
+  final double? concentration; // Added for dosage calculation
 
   // معرف اختياري للاستخدام مع قاعدة البيانات
   final int? id;
@@ -38,6 +39,7 @@ class MedicineModel {
     required this.usageAr,
     required this.description,
     required this.lastPriceUpdate,
+    this.concentration, // Added for dosage calculation
     this.id,
   });
 
@@ -61,6 +63,9 @@ class MedicineModel {
       usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
       description: row.length > 15 ? row[15]?.toString() ?? '' : '',
       lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
+      // Assuming concentration is in the next column (index 17)
+      concentration:
+          row.length > 17 ? double.tryParse(row[17]?.toString() ?? '') : null,
     );
   }
 
@@ -84,6 +89,7 @@ class MedicineModel {
       'usageAr': usageAr,
       'description': description,
       'lastPriceUpdate': lastPriceUpdate,
+      'concentration': concentration, // Added for dosage calculation
     };
   }
 
@@ -109,6 +115,11 @@ class MedicineModel {
       usageAr: map['usageAr']?.toString() ?? '',
       description: map['description']?.toString() ?? '',
       lastPriceUpdate: map['lastPriceUpdate']?.toString() ?? '',
+      // Safely parse concentration from map
+      concentration:
+          map['concentration'] != null
+              ? double.tryParse(map['concentration'].toString())
+              : null,
     );
   }
 

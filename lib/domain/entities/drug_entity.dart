@@ -11,11 +11,11 @@ class DrugEntity extends Equatable {
   final String active;
   final String company;
   final String dosageForm;
+  final double concentration; // Added for dosage calculation
   final String unit;
   final String usage;
   final String description;
   final String lastPriceUpdate;
-
   const DrugEntity({
     required this.tradeName,
     required this.arabicName,
@@ -25,6 +25,7 @@ class DrugEntity extends Equatable {
     required this.active,
     required this.company,
     required this.dosageForm,
+    required this.concentration, // Added for dosage calculation
     required this.unit,
     required this.usage,
     required this.description,
@@ -42,6 +43,7 @@ class DrugEntity extends Equatable {
     active,
     company,
     dosageForm,
+    concentration, // Added for dosage calculation
     unit,
     usage,
     description,
