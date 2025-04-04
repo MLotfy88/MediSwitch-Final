@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // For input formatters
+import 'package:flutter/scheduler.dart'; // For post frame callback
 import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
-import '../bloc/medicine_provider.dart'; // Corrected provider path
+import '../bloc/medicine_provider.dart'; // For medicine list
+import '../bloc/dose_calculator_provider.dart'; // Import the provider
 
 class WeightCalculatorScreen extends StatefulWidget {
   const WeightCalculatorScreen({super.key});
@@ -13,62 +15,28 @@ class WeightCalculatorScreen extends StatefulWidget {
 
 class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   final _formKey = GlobalKey<FormState>();
-  DrugEntity? _selectedMedicine; // Corrected type
+  // Use controllers, but state will be managed by provider
   final TextEditingController _weightController = TextEditingController();
-  String? _calculatedDose; // To store the result
-  bool _showWarning = false; // To show overdose warning
+  final TextEditingController _ageController =
+      TextEditingController(); // Added age controller
+
+  // No need for local state for result/warning anymore
 
   @override
   void dispose() {
     _weightController.dispose();
+    _ageController.dispose(); // Dispose age controller
     super.dispose();
   }
 
-  // Placeholder function for dose calculation
-  // TODO: Implement actual logic using UseCases and potentially drug-specific data
-  void _calculateDose() {
-    if (_formKey.currentState!.validate() && _selectedMedicine != null) {
-      final weight = double.tryParse(_weightController.text);
-      if (weight == null) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(const SnackBar(content: Text('يرجى إدخال وزن صحيح')));
-        return;
-      }
-
-      // --- Placeholder Calculation Logic ---
-      // This needs significant refinement based on actual drug data and formulas.
-      // Assumes a simple mg/kg calculation for demonstration.
-      // Needs access to drug concentration/strength from DrugEntity (add this field later).
-      double dosePerKg = 5; // DUMMY VALUE - Replace with actual data lookup
-      double maxDailyDose =
-          100; // DUMMY VALUE - Replace with actual data lookup
-
-      final calculated = weight * dosePerKg;
-      final warning = calculated > maxDailyDose;
-      // --- End Placeholder Calculation Logic ---
-
-      setState(() {
-        // Format the result (e.g., "50 mg") - needs unit from drug data
-        _calculatedDose =
-            '${calculated.toStringAsFixed(1)} مجم (مثال)'; // DUMMY UNIT
-        _showWarning = warning;
-      });
-
-      // Optional: Play warning sound if _showWarning is true
-      // if (_showWarning) {
-      //   // Use audioplayers or similar package
-      // }
-    } else if (_selectedMedicine == null) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('يرجى اختيار دواء أولاً')));
-    }
-  }
+  // Removed local _calculateDose method, will use provider's method
 
   @override
   Widget build(BuildContext context) {
+    // Access both providers
     final medicineProvider = context.read<MedicineProvider>();
+    final doseProvider =
+        context.watch<DoseCalculatorProvider>(); // Watch for UI updates
 
     return Scaffold(
       appBar: AppBar(title: const Text('حاسبة الجرعة بالوزن')),
@@ -82,16 +50,14 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               // Medicine Selection
               ListTile(
                 title: Text(
-                  _selectedMedicine == null
+                  doseProvider.selectedDrug == null
                       ? 'اختر الدواء'
-                      : _selectedMedicine!.tradeName,
-                ), // Use DrugEntity field
+                      : doseProvider.selectedDrug!.tradeName,
+                ),
                 subtitle:
-                    _selectedMedicine == null
+                    doseProvider.selectedDrug == null
                         ? null
-                        : Text(
-                          _selectedMedicine!.arabicName,
-                        ), // Use DrugEntity field
+                        : Text(doseProvider.selectedDrug!.arabicName),
                 trailing: const Icon(Icons.arrow_drop_down),
                 onTap: () async {
                   final selected = await _showMedicineSelectionDialog(
@@ -99,12 +65,10 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                     medicineProvider.medicines, // Pass List<DrugEntity>
                   );
                   if (selected != null) {
-                    setState(() {
-                      _selectedMedicine = selected;
-                      _calculatedDose =
-                          null; // Reset calculation on new drug selection
-                      _showWarning = false;
-                    });
+                    // Use provider to set the drug
+                    context.read<DoseCalculatorProvider>().setSelectedDrug(
+                      selected,
+                    );
                   }
                 },
                 shape: RoundedRectangleBorder(
@@ -118,6 +82,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               TextFormField(
                 controller: _weightController,
                 decoration: InputDecoration(
+                  // Removed const
                   labelText: 'وزن المريض (كجم)',
                   hintText: 'أدخل وزن المريض بالكيلوجرام',
                   border: OutlineInputBorder(
@@ -132,6 +97,9 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                     RegExp(r'^\d+\.?\d{0,2}'),
                   ), // Allow numbers and decimals
                 ],
+                onChanged:
+                    (value) =>
+                        context.read<DoseCalculatorProvider>().setWeight(value),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'يرجى إدخال الوزن';
@@ -143,13 +111,47 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                   return null;
                 },
               ),
+              const SizedBox(height: 16.0), // Space before Age Input
+              // Age Input (New)
+              TextFormField(
+                controller: _ageController,
+                decoration: InputDecoration(
+                  // Removed const
+                  labelText: 'عمر المريض (سنوات)',
+                  hintText: 'أدخل عمر المريض بالسنوات',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                ),
+                keyboardType: TextInputType.number,
+                inputFormatters: [
+                  FilteringTextInputFormatter.digitsOnly, // Allow only digits
+                ],
+                onChanged:
+                    (value) =>
+                        context.read<DoseCalculatorProvider>().setAge(value),
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'يرجى إدخال العمر';
+                  }
+                  if (int.tryParse(value) == null || int.parse(value) < 0) {
+                    return 'يرجى إدخال عمر صحيح';
+                  }
+                  return null;
+                },
+              ),
               const SizedBox(height: 24.0),
 
               // Calculate Button
               ElevatedButton.icon(
                 icon: const Icon(Icons.calculate),
                 label: const Text('حساب الجرعة'),
-                onPressed: _calculateDose,
+                onPressed: () {
+                  // Validate form before calculating
+                  if (_formKey.currentState!.validate()) {
+                    context.read<DoseCalculatorProvider>().calculateDose();
+                  }
+                },
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 12.0),
                 ),
@@ -157,50 +159,95 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               const SizedBox(height: 24.0),
 
               // Result Display
-              if (_calculatedDose != null)
+              // Result Display Area (Refactored)
+              if (doseProvider.isLoading)
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 16.0),
+                  child: Center(child: CircularProgressIndicator()),
+                )
+              else if (doseProvider.error.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  child: Text(
+                    'خطأ: ${doseProvider.error}',
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.error,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                )
+              else if (doseProvider.dosageResult != null)
                 Card(
                   elevation: 2,
                   color:
-                      _showWarning
-                          ? Colors.red.shade100
-                          : Colors.green.shade100,
+                      doseProvider.dosageResult!.warning != null
+                          ? Colors
+                              .orange
+                              .shade100 // Warning color
+                          : Colors.green.shade100, // Success color
+                  margin: const EdgeInsets.only(top: 16.0),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          'الجرعة المحسوبة:',
+                          'الجرعة الموصى بها:',
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
                             color:
-                                _showWarning
-                                    ? Colors.red.shade900
-                                    : Colors.green.shade900,
-                          ),
-                        ),
-                        const SizedBox(height: 8.0),
-                        Text(
-                          _calculatedDose!,
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color:
-                                _showWarning
-                                    ? Colors.red.shade900
+                                doseProvider.dosageResult!.warning != null
+                                    ? Colors.orange.shade900
                                     : Colors.green.shade900,
                           ),
                           textAlign: TextAlign.center,
                         ),
-                        if (_showWarning) ...[
-                          const SizedBox(height: 8.0),
+                        const SizedBox(height: 8.0),
+                        Text(
+                          doseProvider.dosageResult!.dosage,
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color:
+                                doseProvider.dosageResult!.warning != null
+                                    ? Colors.orange.shade900
+                                    : Colors.green.shade900,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        if (doseProvider.dosageResult!.notes != null &&
+                            doseProvider.dosageResult!.notes!.isNotEmpty) ...[
+                          const SizedBox(height: 12.0),
                           Text(
-                            'تحذير: الجرعة المحسوبة قد تتجاوز الحد الأقصى الموصى به!',
+                            'ملاحظات:',
                             style: TextStyle(
-                              color: Colors.red.shade900,
                               fontWeight: FontWeight.bold,
+                              color: Colors.grey.shade700,
                             ),
-                            textAlign: TextAlign.center,
+                          ),
+                          Text(
+                            doseProvider.dosageResult!.notes!,
+                            style: TextStyle(color: Colors.grey.shade700),
+                          ),
+                        ],
+                        if (doseProvider.dosageResult!.warning != null &&
+                            doseProvider.dosageResult!.warning!.isNotEmpty) ...[
+                          const SizedBox(height: 12.0),
+                          Container(
+                            padding: const EdgeInsets.all(8.0),
+                            decoration: BoxDecoration(
+                              color: Colors.orange.shade50,
+                              borderRadius: BorderRadius.circular(4.0),
+                              border: Border.all(color: Colors.orange.shade200),
+                            ),
+                            child: Text(
+                              'تحذير:\n${doseProvider.dosageResult!.warning!}',
+                              style: TextStyle(
+                                color: Colors.orange.shade900,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
                           ),
                         ],
                       ],

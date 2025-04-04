@@ -130,23 +130,59 @@
     *   `[x]` 3.2.9. زر "إيجاد البدائل". (UI added and linked)
     *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI added, logic deferred)
     *   `[ ]` 3.2.11. استخدام `CachedNetworkImage`.
-*   `[~]` **3.3. شاشة حاسبة الجرعة (`DoseCalculatorScreen`):** (Screen exists, uses DrugEntity, needs implementation) **[ON HOLD - Missing Dosing Data]**
-    *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`.
-    *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search).
-    *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation added)
-    *   `[x]` 3.3.4. تنفيذ منطق الحساب. (Placeholder logic implemented)
-    *   `[~]` 3.3.5. عرض النتائج والتحذير (بصري وصوتي). (Basic result display added, Warning deferred pending safe dose data)
-    *   `[~]` 3.3.6. زر "حفظ الحساب" (Premium). (UI added, logic deferred)
+*   `[ ]` **3.3. شاشة حاسبة الجرعة (`weight_calculator_screen.dart`):** (Implementing using External Source)
+    *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`. (Exists)
+    *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search). (Exists in `weight_calculator_screen.dart`)
+    *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation exists)
+    *   `[ ]` 3.3.4. **تحديد هياكل البيانات:**
+        *   `[ ]` 3.3.4.1. تعريف فئة `DosageResult` (بناءً على `External source/dosage_calculator/enhanced_documentation.md`).
+        *   `[ ]` 3.3.4.2. مراجعة وتحديث `MedicineEntity` إذا لزم الأمر لتضمين معلومات التركيز والشكل الصيدلاني.
+    *   `[x]` 3.3.5. **بناء خدمة حساب الجرعات (`DosageCalculatorService`):**
+        *   `[x]` 3.3.5.1. إنشاء ملف الخدمة في `lib/domain/services/` أو مكان مناسب.
+        *   `[x]` 3.3.5.2. تنفيذ دالة `calculateDosage(DrugEntity medicine, double weight, int age)` الرئيسية.
+        *   `[x]` 3.3.5.3. تنفيذ منطق حساب جرعة الباراسيتامول (استنادًا إلى `External source`).
+        *   `[x]` 3.3.5.4. تنفيذ منطق حساب جرعة الإيبوبروفين (استنادًا إلى `External source`).
+        *   `[x]` 3.3.5.5. تنفيذ منطق حساب جرعة الأموكسيسيلين (استنادًا إلى `External source`).
+        *   `[x]` 3.3.5.6. إضافة معالجة للأدوية غير المدعومة أو الأشكال الصيدلانية غير المتوقعة.
+    *   `[x]` 3.3.6. **تكامل الخدمة مع `DoseCalculatorProvider`:**
+        *   `[x]` 3.3.6.1. حقن `DosageCalculatorService` في الـ Provider.
+        *   `[x]` 3.3.6.2. استدعاء `calculateDosage` من الـ Provider عند تغيير المدخلات.
+        *   `[x]` 3.3.6.3. تحديث حالة الـ Provider (`isLoading`, `dosageResult`, `error`).
+    *   `[x]` 3.3.7. **تحديث واجهة المستخدم (`weight_calculator_screen.dart`):**
+        *   `[x]` 3.3.7.1. التأكد من وجود حقل لاختيار الدواء (إذا لم يكن موجودًا).
+        *   `[x]` 3.3.7.2. ربط حقول الإدخال (الدواء، الوزن، العمر) بالـ Provider.
+        *   `[x]` 3.3.7.3. عرض نتيجة الحساب (`dosageResult.dosage`) من الـ Provider.
+        *   `[x]` 3.3.7.4. عرض التحذيرات (`dosageResult.warning`) والملاحظات (`dosageResult.notes`).
+        *   `[x]` 3.3.7.5. عرض مؤشر التحميل وحالة الخطأ.
+    *   `[~]` 3.3.8. زر "حفظ الحساب" (Premium). (UI added, logic deferred)
 *   `[~]` **3.4. شاشة البدائل والأدوية المماثلة (`AlternativesScreen`):** (`dose_comparison_screen.dart` exists, uses DrugEntity, needs implementation)
     *   `[x]` 3.4.1. `AlternativesProvider`/`Bloc`.
     *   `[x]` 3.4.2. استقبال `DrugEntity` الأصلي. (Handled by screen constructor)
     *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Refined logic to match active ingredient in UseCase)
     *   `[x]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات. (Implemented using AlternativeDrugCard)
-*   **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):**
-    *   `[ ]` 3.5.1. بناء واجهة اختيار متعدد للأدوية.
-    *   `[ ]` 3.5.2. `InteractionProvider`/`Bloc`.
-    *   `[ ]` 3.5.3. تنفيذ منطق فحص التفاعلات.
-    *   `[ ]` 3.5.4. عرض النتائج بوضوح.
+*   `[~]` **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):** (Implementing using External Source)
+    *   `[ ]` 3.5.1. **تحديد هياكل البيانات:**
+        *   `[x]` 3.5.1.1. تعريف/مراجعة فئات `ActiveIngredient`, `DrugInteraction`, وتعدادات `InteractionSeverity`, `InteractionType` (بناءً على `External source/drug_interaction/drug-interaction-model.dart`).
+    *   `[x]` 3.5.2. **بناء خدمة/مستودع بيانات التفاعلات:**
+        *   `[x]` 3.5.2.1. إنشاء `InteractionRepository` أو `InteractionDataSource`.
+        *   `[x]` 3.5.2.2. تنفيذ تحميل بيانات التفاعلات (مثلًا من ملفات JSON كما في `External source/drug_interaction/drug-interaction-model.dart` - `loadDatabase`).
+        *   `[x]` 3.5.2.3. تنفيذ تحميل/ربط المكونات النشطة بالأدوية (من بيانات الأدوية الحالية أو ملف منفصل).
+    *   `[ ]` 3.5.3. **بناء خدمة تحليل التفاعلات (`InteractionCheckerService`):**
+        *   `[ ]` 3.5.3.1. إنشاء ملف الخدمة.
+        *   `[ ]` 3.5.3.2. تنفيذ دالة `analyzeInteractions(List<DrugEntity> medicines)` الرئيسية.
+        *   `[ ]` 3.5.3.3. تنفيذ منطق البحث عن التفاعلات الثنائية (استنادًا إلى `findMultipleMedicineInteractions`).
+        *   `[ ]` 3.5.3.4. (اختياري متقدم) تنفيذ منطق تحليل المسارات المتعددة باستخدام الرسم البياني (DFS) (استنادًا إلى `_buildInteractionGraph`, `_findInteractionPaths`).
+        *   `[ ]` 3.5.3.5. تنفيذ منطق توليد التوصيات والشدة الإجمالية.
+    *   `[x]` 3.5.4. **إدارة الحالة (`InteractionProvider`):**
+        *   `[x]` 3.5.4.1. إنشاء Provider لإدارة قائمة الأدوية المختارة ونتائج التحليل (`isLoading`, `error`, `interactionResults`).
+        *   `[x]` 3.5.4.2. حقن `InteractionCheckerService` وخدمة بيانات التفاعلات.
+        *   `[x]` 3.5.4.3. استدعاء خدمة التحليل عند تغيير قائمة الأدوية.
+    *   `[~]` 3.5.5. **بناء واجهة المستخدم (`InteractionCheckerScreen`):** (Basic structure and selection done)
+        *   `[x]` 3.5.5.1. إنشاء ملف الشاشة.
+        *   `[x]` 3.5.5.2. بناء واجهة لاختيار أدوية متعددة (مثل استخدام `showDialog` مع `ListView` أو `Chips`).
+        *   `[x]` 3.5.5.3. ربط الواجهة بالـ Provider لعرض الأدوية المختارة.
+        *   `[x]` 3.5.5.4. عرض نتائج التفاعلات (الشدة، التأثير، التوصيات) من الـ Provider (استلهامًا من `External source/ui_prototype/enhanced_documentation_part2.md`).
+        *   `[x]` 3.5.5.5. عرض مؤشر التحميل وحالة الخطأ. (Implemented via _buildResultsArea)
 *   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (Screen exists, needs implementation)
     *   `[x]` 3.6.1. `SettingsProvider`/`Bloc`.
     *   `[x]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`). (Basic UI with Theme toggle added)

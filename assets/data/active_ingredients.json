@@ -1,0 +1,42 @@
+[
+  {
+    "name": "paracetamol",
+    "arabic_name": "باراسيتامول",
+    "alternative_names": ["acetaminophen"]
+  },
+  {
+    "name": "ibuprofen",
+    "arabic_name": "ايبوبروفين",
+    "alternative_names": []
+  },
+  {
+    "name": "amoxicillin",
+    "arabic_name": "أموكسيسيلين",
+    "alternative_names": []
+  },
+  {
+    "name": "pseudoephedrine",
+    "arabic_name": "سودوإيفيدرين",
+    "alternative_names": []
+  },
+  {
+    "name": "chlorpheniramine",
+    "arabic_name": "كلورفينيرامين",
+    "alternative_names": []
+  },
+  {
+    "name": "caffeine",
+    "arabic_name": "كافيين",
+    "alternative_names": []
+  },
+  {
+    "name": "warfarin",
+    "arabic_name": "وارفارين",
+    "alternative_names": []
+  },
+   {
+    "name": "aspirin",
+    "arabic_name": "أسبرين",
+    "alternative_names": ["acetylsalicylic acid"]
+  }
+]

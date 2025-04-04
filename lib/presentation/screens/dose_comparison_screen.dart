@@ -236,8 +236,10 @@ class _DoseComparisonScreenState extends State<DoseComparisonScreen> {
                       ),
                       child: Center(
                         child: Text(
-                          doseProvider.calculatedDose != null
-                              ? '${doseProvider.calculatedDose!.toStringAsFixed(2)}' // Format dose
+                          doseProvider.dosageResult != null
+                              ? doseProvider
+                                  .dosageResult!
+                                  .dosage // Display the calculated dosage string
                               : 'ستظهر نتيجة المقارنة / الحساب هنا...',
                           style: const TextStyle(
                             fontSize: 16,

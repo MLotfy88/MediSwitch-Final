@@ -1,0 +1,14 @@
+{
+  "ابيمول 500مجم": ["paracetamol"],
+  "ابيمول اكسترا": ["caffeine", "paracetamol"],
+  "ابيمول 150مجم/5مل": ["paracetamol"],
+  "كونجستال": ["pseudoephedrine", "paracetamol", "chlorpheniramine"],
+  "كونجستال سيروب": ["pseudoephedrine", "paracetamol", "chlorpheniramine"],
+  "بروفين 400مجم": ["ibuprofen"],
+  "بروفين 600مجم": ["ibuprofen"],
+  "فولتارين إيمولجيل": ["diclofenac diethylamine"], 
+  "ديرموفيت": ["clobetasol propionate"],
+  "بيتاديرم": ["betamethasone"],
+  "أوميز 20مجم": ["omeprazole"],
+  "كلاريتين": ["loratadine"]
+}
