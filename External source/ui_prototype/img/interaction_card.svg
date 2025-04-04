@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <!-- خلفية البطاقة -->
+  <defs>
+    <linearGradient id="card-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fff8f6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- بطاقة التفاعل -->
+  <rect width="320" height="200" rx="10" ry="10" fill="url(#card-gradient)" stroke="#FF5722" stroke-width="1.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))" />
+  
+  <!-- رأس البطاقة -->
+  <rect x="0" y="0" width="320" height="50" rx="10" ry="0" fill="rgba(255,92,34,0.1)" />
+  
+  <!-- أسماء الأدوية -->
+  <text x="20" y="30" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">ابيمول</text>
+  <path d="M80,30 L100,20 L120,30" fill="none" stroke="#616161" stroke-width="1.5" />
+  <text x="150" y="30" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">كونجستال</text>
+  
+  <!-- شارة الشدة -->
+  <rect x="250" y="15" width="60" height="25" rx="12.5" ry="12.5" fill="#FF5722" />
+  <text x="280" y="32" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">كبير</text>
+  
+  <!-- شارة نوع التفاعل -->
+  <rect x="20" y="60" width="100" height="25" rx="12.5" ry="12.5" fill="#E3F2FD" />
+  <text x="70" y="77" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">حركية الدواء</text>
+  
+  <!-- تأثير التفاعل -->
+  <text x="20" y="100" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">التأثير:</text>
+  <text x="20" y="125" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="14" fill="#616161">قد يؤدي الاستخدام المتزامن إلى زيادة تركيز الباراسيتامول في الدم.</text>
+  
+  <!-- التوصية -->
+  <text x="20" y="155" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">التوصية:</text>
+  <text x="20" y="180" font-family="Noto Sans Arabic, Arial, sans-serif" font-size="14" fill="#FF5722">يفضل مراقبة المريض عند استخدام الدوائين معًا وتعديل الجرعة إذا لزم الأمر.</text>
+</svg>
