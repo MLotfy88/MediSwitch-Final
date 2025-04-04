@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
+  <!-- خلفية الشاشة -->
+  <rect width="360" height="640" fill="#f8f9fa" />
+  
+  <!-- شريط التطبيق -->
+  <rect x="0" y="0" width="360" height="70" fill="#1976D2" />
+  
+  <!-- زر الرجوع -->
+  <circle cx="30" cy="35" r="18" fill="rgba(255,255,255,0.2)" />
+  <path d="M35,25 L25,35 L35,45" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- حقل البحث -->
+  <rect x="60" y="15" width="240" height="40" rx="20" ry="20" fill="rgba(255,255,255,0.2)" />
+  <circle cx="80" cy="35" r="10" fill="none" stroke="white" stroke-width="1.5" />
+  <line x1="87" y1="42" x2="92" y2="47" stroke="white" stroke-width="1.5" />
+  <text x="100" y="38" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.8)">ابحث عن دواء...</text>
+  <circle cx="280" cy="35" r="10" fill="none" stroke="white" stroke-width="1.5" />
+  <line x1="275" y1="30" x2="285" y2="40" stroke="white" stroke-width="1.5" />
+  <line x1="275" y1="40" x2="285" y2="30" stroke="white" stroke-width="1.5" />
+  
+  <!-- زر الفلترة -->
+  <circle cx="330" cy="35" r="18" fill="rgba(255,255,255,0.2)" />
+  <line x1="323" y1="30" x2="337" y2="30" stroke="white" stroke-width="2" />
+  <line x1="325" y1="35" x2="335" y2="35" stroke="white" stroke-width="2" />
+  <line x1="327" y1="40" x2="333" y2="40" stroke="white" stroke-width="2" />
+  
+  <!-- نتائج البحث -->
+  <rect x="20" y="90" width="320" height="70" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  <circle cx="55" cy="125" r="20" fill="#BBDEFB" />
+  <text x="55" y="130" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">💊</text>
+  <text x="120" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">ابيمول 500مجم</text>
+  <text x="120" y="135" font-family="Arial, sans-serif" font-size="12" fill="#616161">paracetamol - 24 جنيه</text>
+  
+  <rect x="20" y="170" width="320" height="70" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  <circle cx="55" cy="205" r="20" fill="#BBDEFB" />
+  <text x="55" y="210" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">💊</text>
+  <text x="120" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">ابيمول اكسترا</text>
+  <text x="120" y="215" font-family="Arial, sans-serif" font-size="12" fill="#616161">paracetamol+caffeine - 28 جنيه</text>
+  
+  <rect x="20" y="250" width="320" height="70" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  <circle cx="55" cy="285" r="20" fill="#BBDEFB" />
+  <text x="55" y="290" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">💊</text>
+  <text x="120" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">ابيمول شراب</text>
+  <text x="120" y="295" font-family="Arial, sans-serif" font-size="12" fill="#616161">paracetamol - 23 جنيه</text>
+  
+  <!-- نافذة الفلترة -->
+  <rect x="40" y="150" width="280" height="340" rx="15" ry="15" fill="white" stroke="#1976D2" stroke-width="2" opacity="0.95" />
+  <rect x="40" y="150" width="280" height="50" rx="15" ry="15" fill="#1976D2" />
+  <text x="70" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">تصفية النتائج</text>
+  <circle cx="300" cy="175" r="15" fill="rgba(255,255,255,0.2)" />
+  <line x1="295" y1="170" x2="305" y2="180" stroke="white" stroke-width="2" />
+  <line x1="295" y1="180" x2="305" y2="170" stroke="white" stroke-width="2" />
+  
+  <text x="60" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">الفئة الرئيسية</text>
+  <rect x="60" y="230" width="70" height="30" rx="15" ry="15" fill="#1976D2" />
+  <text x="95" y="250" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">الكل</text>
+  <rect x="140" y="230" width="90" height="30" rx="15" ry="15" fill="#E3F2FD" stroke="#BBDEFB" stroke-width="1" />
+  <text x="185" y="250" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">مضادات الالتهاب</text>
+  
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">شكل الدواء</text>
+  <rect x="60" y="290" width="70" height="30" rx="15" ry="15" fill="#1976D2" />
+  <text x="95" y="310" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">الكل</text>
+  <rect x="140" y="290" width="70" height="30" rx="15" ry="15" fill="#E3F2FD" stroke="#BBDEFB" stroke-width="1" />
+  <text x="175" y="310" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">أقراص</text>
+  
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">نطاق السعر</text>
+  <line x1="60" y1="360" x2="300" y2="360" stroke="#e0e0e0" stroke-width="2" />
+  <circle cx="180" cy="360" r="10" fill="#1976D2" />
+  <text x="60" y="380" font-family="Arial, sans-serif" font-size="12" fill="#616161">0 جنيه</text>
+  <text x="180" y="380" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">500 جنيه</text>
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="12" fill="#616161" text-anchor="end">1000 جنيه</text>
+  
+  <rect x="60" y="420" width="100" height="40" rx="20" ry="20" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+  <text x="110" y="445" font-family="Arial, sans-serif" font-size="14" fill="#616161" text-anchor="middle">إعادة ضبط</text>
+  
+  <rect x="180" y="420" width="100" height="40" rx="20" ry="20" fill="#1976D2" />
+  <text x="230" y="445" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">تطبيق</text>
+  
+  <!-- شريط التنقل السفلي -->
+  <rect x="0" y="590" width="360" height="50" fill="white" stroke="#e0e0e0" stroke-width="1" />
+  <circle cx="60" cy="615" r="5" fill="#616161" />
+  <text x="60" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">الرئيسية</text>
+  <circle cx="130" cy="615" r="5" fill="#1976D2" />
+  <text x="130" y="635" font-family="Arial, sans-serif" font-size="10" fill="#1976D2" text-anchor="middle">بحث</text>
+  <circle cx="200" cy="615" r="5" fill="#616161" />
+  <text x="200" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">حاسبة</text>
+  <circle cx="270" cy="615" r="5" fill="#616161" />
+  <text x="270" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">المفضلة</text>
+  <circle cx="340" cy="615" r="5" fill="#616161" />
+  <text x="340" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">حسابي</text>
+</svg>

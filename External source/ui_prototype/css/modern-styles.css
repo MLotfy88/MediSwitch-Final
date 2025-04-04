@@ -1,0 +1,825 @@
+/* ===== الأنماط العصرية الحديثة ===== */
+:root {
+    /* الألوان الأساسية المحدثة - جعل الأزرق أفتح */
+    --primary-color: #2196F3; /* أزرق أفتح */
+    --primary-light: #BBDEFB;
+    --primary-dark: #1565C0;
+    --secondary-color: #f8f9fa;
+    --accent-color: #FF7043; /* برتقالي دافئ */
+    --accent-light: #FFCCBC;
+    --text-color: #212121;
+    --text-light: #616161;
+    --background-color: #f5f7fa; /* خلفية أفتح قليلاً لإضافة تباين */
+    --card-color: #ffffff;
+    --border-color: #e0e0e0;
+    --success-color: #4CAF50;
+    --success-light: #E8F5E9;
+    --warning-color: #ff9800;
+    --warning-light: #FFF3E0;
+    --error-color: #f44336;
+    --error-light: #FFEBEE;
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), #64B5F6);
+    --gradient-accent: linear-gradient(135deg, var(--accent-color), #FFAB91);
+    
+    /* الظلال المحسنة لإضافة تأثير ثلاثي الأبعاد */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.04);
+    --shadow-inset: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    
+    /* الزوايا المحدثة */
+    --border-radius-sm: 8px;
+    --border-radius-md: 14px;
+    --border-radius-lg: 20px;
+    --border-radius-xl: 26px;
+    --border-radius-full: 9999px;
+}
+
+/* تحسينات عامة */
+body {
+    font-family: 'Cairo', 'Noto Sans Arabic', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+/* حاوية التطبيق */
+.app-container {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background-color);
+    box-shadow: var(--shadow-lg);
+}
+
+/* الشاشات */
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    overflow-y: auto;
+    background-color: var(--background-color);
+    display: none;
+    flex-direction: column;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.screen.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* الرأس */
+.header {
+    padding: var(--spacing-xl);
+    background: var(--gradient-primary);
+    border-radius: 0 0 var(--border-radius-xl) var(--border-radius-xl);
+    box-shadow: 0 4px 20px rgba(33, 150, 243, 0.3);
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+    pointer-events: none;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 1;
+}
+
+.user-greeting h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
+}
+
+.user-greeting p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.user-avatar img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.user-avatar img:hover {
+    transform: scale(1.05);
+}
+
+/* شريط البحث */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md) var(--spacing-lg);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: var(--spacing-lg);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.search-bar:focus-within {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar i {
+    color: var(--primary-color);
+    margin-left: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--text-color);
+}
+
+/* قسم الفئات */
+.categories-section {
+    padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.categories-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--text-color);
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.categories-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 3px;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.category-card {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    border: 1px solid rgba(33, 150, 243, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.category-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.05) 0%, rgba(33, 150, 243, 0) 100%);
+    z-index: 0;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.category-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    box-shadow: 0 4px 10px rgba(33, 150, 243, 0.3);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-icon {
+    transform: scale(1.1);
+}
+
+.category-icon i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.category-card span {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text-color);
+    position: relative;
+    z-index: 1;
+}
+
+/* أقسام الأدوية */
+.recent-drugs-section,
+.popular-drugs-section {
+    padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.section-header h3 {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.section-header h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 3px;
+}
+
+.view-all {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.view-all:hover {
+    color: var(--primary-dark);
+}
+
+.drugs-horizontal-list {
+    display: flex;
+    overflow-x: auto;
+    gap: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.drugs-horizontal-list::-webkit-scrollbar {
+    height: 5px;
+}
+
+.drugs-horizontal-list::-webkit-scrollbar-thumb {
+    background-color: var(--primary-light);
+    border-radius: 5px;
+}
+
+/* كارت الدواء المحسن */
+.drug-card {
+    min-width: 200px;
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(33, 150, 243, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.drug-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(33, 150, 243, 0.05), transparent);
+    z-index: 0;
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+
+.drug-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.drug-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.drug-card:hover .drug-icon {
+    transform: scale(1.1);
+}
+
+.drug-icon i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.drug-name {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-color);
+    position: relative;
+    z-index: 1;
+}
+
+.drug-active {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 1;
+}
+
+.drug-price {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    background-color: rgba(33, 150, 243, 0.08);
+    padding: 8px 12px;
+    border-radius: var(--border-radius-md);
+    align-self: flex-start;
+    position: relative;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.drug-card:hover .drug-price {
+    background-color: rgba(33, 150, 243, 0.15);
+}
+
+.drug-price .currency {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* شريط التنقل السفلي */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-top: 1px solid rgba(33, 150, 243, 0.1);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+    color: var(--text-light);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    transition: width 0.3s ease;
+    border-radius: 0 0 3px 3px;
+}
+
+.nav-item.active::before {
+    width: 40px;
+}
+
+.nav-item i {
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+}
+
+.nav-item span {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.nav-item.active {
+    color: var(--primary-color);
+}
+
+.nav-item:hover i {
+    transform: translateY(-2px);
+}
+
+/* تفاصيل الدواء */
+.drug-details-content {
+    background-color: var(--background-color);
+    padding: var(--spacing-md);
+}
+
+.drug-header {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(33, 150, 243, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.drug-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.05) 0%, rgba(33, 150, 243, 0) 100%);
+    z-index: 0;
+}
+
+.drug-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--spacing-lg);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.drug-image i {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.drug-title {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.drug-title h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.drug-title p {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+/* علامات التبويب */
+.drug-info-tabs {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-lg);
+    margin-top: var(--spacing-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(33, 150, 243, 0.1);
+    overflow: hidden;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 1px solid rgba(33, 150, 243, 0.1);
+    background-color: rgba(33, 150, 243, 0.03);
+}
+
+.tab-button {
+    flex: 1;
+    padding: var(--spacing-md);
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-light);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tab-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    transition: width 0.3s ease;
+}
+
+.tab-button.active {
+    color: var(--primary-color);
+}
+
+.tab-button.active::after {
+    width: 40px;
+}
+
+.tab-content {
+    padding: var(--spacing-lg);
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.info-item {
+    padding: var(--spacing-md) 0;
+    border-bottom: 1px solid rgba(33, 150, 243, 0.1);
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--text-light);
+    min-width: 120px;
+    margin-left: var(--spacing-md);
+}
+
+.info-value {
+    flex: 1;
+    color: var(--text-color);
+}
+
+/* زر التبديل بين الوضع الليلي والنهاري */
+.theme-toggle {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.4);
+    z-index: 1000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+.theme-toggle i {
+    font-size: 1.3rem;
+}
+
+/* تأثيرات الانتقال */
+.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+.slide-up {
+    animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* تحسينات لكارت التفاعلات */
+.interaction-card {
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(33, 150, 243, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.interaction-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(33, 150, 243, 0.05), transparent);
+    z-index: 0;
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+
+.interaction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.interaction-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 1;
+}
+
+.interaction-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--spacing-md);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.interaction-card:hover .interaction-icon {
+    transform: scale(1.1);
+}
+
+.interaction-icon i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.interaction-title {
+    flex: 1;
+}
+
+.interaction-title h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.interaction-title p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.interaction-severity {
+    padding: 6px 12px;
+    border-radius: var(--border-radius-md);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.severity-high {
+    background-color: var(--error-light);
+    color: var(--error-color);
+}
+
+.severity-medium {
+    background-color: var(--warning-light);
+    color: var(--warning-color);
+}
+
+.severity-low {
+    background-color: var(--success-light);
+    color: var(--success-color);
+}
+
+.interaction-description {
+    color: var(--text-color);
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+}
+
+/* تحسينات إضافية */
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* تأثيرات الانتقال للعناصر */
+body, .app-container, .screen, .header, .search-bar, .category-card,
+.drug-card, .app-bar, .filter-content, .bottom-nav, .drug-details-content,
+.drug-header, .drug-price-section, .drug-info-tabs, .tab-button, .interaction-card {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
