@@ -2,23 +2,8 @@
 
 import 'package:equatable/equatable.dart';
 
-// مستوى شدة التفاعل
-enum InteractionSeverity {
-  minor, // منخفض
-  moderate, // متوسط
-  major, // عالي
-  severe, // شديد الخطورة
-  contraindicated, // مضاد استطباب
-  unknown, // غير معروف (للتعامل مع حالات غير متوقعة)
-}
-
-// نوع التفاعل
-enum InteractionType {
-  pharmacokinetic, // حركية الدواء
-  pharmacodynamic, // ديناميكية الدواء
-  therapeutic, // علاجي
-  unknown, // غير معروف
-}
+import 'interaction_severity.dart'; // Import the enum
+import 'interaction_type.dart'; // Import the enum
 
 // نموذج التفاعل الدوائي في طبقة المجال
 class DrugInteraction extends Equatable {

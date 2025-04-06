@@ -26,7 +26,7 @@
     *   `[ ]` 0.2.2. تثبيت أدوات بناء الـ Backend المختارة. (Python/Django assumed installed)
     *   `[x]` 0.2.3. إعداد مستودع Git مركزي (Monorepo أو منفصل).
     *   `[ ]` 0.2.4. إعداد بيئة التطوير المحلية (IDE, API Client).
-    *   `[ ]` 0.2.5. توثيق خطوات إعداد وتمكين Wi-Fi Debugging (ADB) في `README.md`.
+    *   `[x]` 0.2.5. توثيق خطوات إعداد وتمكين Wi-Fi Debugging (ADB) في `README.md`.
 *   **0.3. بناء هيكل مشروع الواجهة الأمامية (Flutter - `lib`):**
     *   `[x]` 0.3.1. تنفيذ هيكل المجلدات (Clean Architecture: core, data, domain, presentation, config, di). (Directories created)
     *   `[x]` 0.3.2. إنشاء ملفات `.dart` أولية فارغة للمكونات الرئيسية. (Placeholders created for core, data, domain)
@@ -42,8 +42,8 @@
     *   `[x]` 0.6.2. إعداد linter مماثل للـ Backend.
     *   `[x]` 0.6.3. إنشاء نموذج أولي (Prototype) لاختبار قراءة Excel/CSV باستخدام `compute()`. (Implemented in CsvLocalDataSource)
 *   **0.7. تصميم الواجهة (UI/UX) الأولي:**
-    *   `[ ]` 0.7.1. البحث عن رابط Figma أو إنشاء Wireframes أساسية.
-    *   `[ ]` 0.7.2. تحديد لوحة الألوان النهائية والخطوط.
+    *   `[x]` 0.7.1. استخدام النموذج الأولي للواجهة (`External source/ui_prototype/`) كمرجع أساسي للـ Wireframes والتصميم.
+    *   `[x]` 0.7.2. اعتماد لوحة الألوان والخطوط المحددة في (`External source/ui_prototype/css/styles.css` و `enhanced_documentation.md`).
 
 ---
 
@@ -129,14 +129,14 @@
     *   `[x]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`. (Additional fields added to ModalBottomSheet)
     *   `[x]` 3.2.9. زر "إيجاد البدائل". (UI added and linked)
     *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI added, logic deferred)
-    *   `[ ]` 3.2.11. استخدام `CachedNetworkImage`.
+    *   `[x]` 3.2.11. استخدام `CachedNetworkImage` (تم التحديث في `DrugListItem`، يتطلب وجود `imageUrl` في البيانات).
 *   `[ ]` **3.3. شاشة حاسبة الجرعة (`weight_calculator_screen.dart`):** (Implementing using External Source)
     *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`. (Exists)
     *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search). (Exists in `weight_calculator_screen.dart`)
     *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation exists)
     *   `[ ]` 3.3.4. **تحديد هياكل البيانات:**
-        *   `[ ]` 3.3.4.1. تعريف فئة `DosageResult` (بناءً على `External source/dosage_calculator/enhanced_documentation.md`).
-        *   `[ ]` 3.3.4.2. مراجعة وتحديث `MedicineEntity` إذا لزم الأمر لتضمين معلومات التركيز والشكل الصيدلاني.
+        *   `[x]` 3.3.4.1. تعريف فئة `DosageResult` (تم التعريف في `External source/dosage_calculator/dosage_calculator.dart` و `enhanced_documentation.md`).
+        *   `[x]` 3.3.4.2. مراجعة وتحديث `DrugEntity` (الموجودة في `lib/domain/entities/drug_entity.dart`) لتضمين معلومات التركيز والشكل الصيدلاني اللازمة للحسابات (الحقول موجودة بالفعل).
     *   `[x]` 3.3.5. **بناء خدمة حساب الجرعات (`DosageCalculatorService`):**
         *   `[x]` 3.3.5.1. إنشاء ملف الخدمة في `lib/domain/services/` أو مكان مناسب.
         *   `[x]` 3.3.5.2. تنفيذ دالة `calculateDosage(DrugEntity medicine, double weight, int age)` الرئيسية.
@@ -144,12 +144,12 @@
         *   `[x]` 3.3.5.4. تنفيذ منطق حساب جرعة الإيبوبروفين (استنادًا إلى `External source`).
         *   `[x]` 3.3.5.5. تنفيذ منطق حساب جرعة الأموكسيسيلين (استنادًا إلى `External source`).
         *   `[x]` 3.3.5.6. إضافة معالجة للأدوية غير المدعومة أو الأشكال الصيدلانية غير المتوقعة.
-    *   `[x]` 3.3.6. **تكامل الخدمة مع `DoseCalculatorProvider`:**
+    *   `[x]` 3.3.6. **تكامل الخدمة مع `DoseCalculatorProvider`:** (تم التنفيذ بالفعل في `lib/presentation/bloc/dose_calculator_provider.dart`)
         *   `[x]` 3.3.6.1. حقن `DosageCalculatorService` في الـ Provider.
         *   `[x]` 3.3.6.2. استدعاء `calculateDosage` من الـ Provider عند تغيير المدخلات.
         *   `[x]` 3.3.6.3. تحديث حالة الـ Provider (`isLoading`, `dosageResult`, `error`).
-    *   `[x]` 3.3.7. **تحديث واجهة المستخدم (`weight_calculator_screen.dart`):**
-        *   `[x]` 3.3.7.1. التأكد من وجود حقل لاختيار الدواء (إذا لم يكن موجودًا).
+    *   `[x]` 3.3.7. **تحديث واجهة المستخدم (`weight_calculator_screen.dart`):** (تم التنفيذ بالفعل)
+        *   `[x]` 3.3.7.1. التأكد من وجود حقل لاختيار الدواء.
         *   `[x]` 3.3.7.2. ربط حقول الإدخال (الدواء، الوزن، العمر) بالـ Provider.
         *   `[x]` 3.3.7.3. عرض نتيجة الحساب (`dosageResult.dosage`) من الـ Provider.
         *   `[x]` 3.3.7.4. عرض التحذيرات (`dosageResult.warning`) والملاحظات (`dosageResult.notes`).
@@ -161,33 +161,33 @@
     *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Refined logic to match active ingredient in UseCase)
     *   `[x]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات. (Implemented using AlternativeDrugCard)
 *   `[~]` **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):** (Implementing using External Source)
-    *   `[ ]` 3.5.1. **تحديد هياكل البيانات:**
-        *   `[x]` 3.5.1.1. تعريف/مراجعة فئات `ActiveIngredient`, `DrugInteraction`, وتعدادات `InteractionSeverity`, `InteractionType` (بناءً على `External source/drug_interaction/drug-interaction-model.dart`).
-    *   `[x]` 3.5.2. **بناء خدمة/مستودع بيانات التفاعلات:**
-        *   `[x]` 3.5.2.1. إنشاء `InteractionRepository` أو `InteractionDataSource`.
-        *   `[x]` 3.5.2.2. تنفيذ تحميل بيانات التفاعلات (مثلًا من ملفات JSON كما في `External source/drug_interaction/drug-interaction-model.dart` - `loadDatabase`).
-        *   `[x]` 3.5.2.3. تنفيذ تحميل/ربط المكونات النشطة بالأدوية (من بيانات الأدوية الحالية أو ملف منفصل).
-    *   `[ ]` 3.5.3. **بناء خدمة تحليل التفاعلات (`InteractionCheckerService`):**
-        *   `[ ]` 3.5.3.1. إنشاء ملف الخدمة.
-        *   `[ ]` 3.5.3.2. تنفيذ دالة `analyzeInteractions(List<DrugEntity> medicines)` الرئيسية.
-        *   `[ ]` 3.5.3.3. تنفيذ منطق البحث عن التفاعلات الثنائية (استنادًا إلى `findMultipleMedicineInteractions`).
-        *   `[ ]` 3.5.3.4. (اختياري متقدم) تنفيذ منطق تحليل المسارات المتعددة باستخدام الرسم البياني (DFS) (استنادًا إلى `_buildInteractionGraph`, `_findInteractionPaths`).
-        *   `[ ]` 3.5.3.5. تنفيذ منطق توليد التوصيات والشدة الإجمالية.
-    *   `[x]` 3.5.4. **إدارة الحالة (`InteractionProvider`):**
-        *   `[x]` 3.5.4.1. إنشاء Provider لإدارة قائمة الأدوية المختارة ونتائج التحليل (`isLoading`, `error`, `interactionResults`).
-        *   `[x]` 3.5.4.2. حقن `InteractionCheckerService` وخدمة بيانات التفاعلات.
-        *   `[x]` 3.5.4.3. استدعاء خدمة التحليل عند تغيير قائمة الأدوية.
-    *   `[~]` 3.5.5. **بناء واجهة المستخدم (`InteractionCheckerScreen`):** (Basic structure and selection done)
+    *   `[x]` 3.5.1. **تحديد هياكل البيانات:** (تم التعريف في `External source/drug_interaction/drug-interaction-model.dart`)
+        *   `[x]` 3.5.1.1. تعريف/مراجعة فئات `ActiveIngredient`, `DrugInteraction`, وتعدادات `InteractionSeverity`, `InteractionType`.
+    *   `[x]` 3.5.2. **بناء خدمة/مستودع بيانات التفاعلات:** (تم التنفيذ في `lib/data/repositories/interaction_repository_impl.dart`)
+        *   `[x]` 3.5.2.1. إنشاء `InteractionRepositoryImpl`.
+        *   `[x]` 3.5.2.2. تنفيذ تحميل بيانات التفاعلات من ملفات JSON (`active_ingredients.json`, `drug_interactions.json`).
+        *   `[x]` 3.5.2.3. تنفيذ تحميل/ربط المكونات النشطة بالأدوية (من `medicine_ingredients.json`).
+    *   `[x]` 3.5.3. **بناء خدمة تحليل التفاعلات (`InteractionCheckerService`):** (تم التنفيذ في `lib/domain/services/interaction_checker_service.dart` استنادًا إلى `External source`)
+        *   `[x]` 3.5.3.1. إنشاء ملف الخدمة.
+        *   `[x]` 3.5.3.2. تنفيذ دالة `analyzeInteractions(List<DrugEntity> medicines)` الرئيسية (للتحليل الثنائي).
+        *   `[x]` 3.5.3.3. تنفيذ منطق البحث عن التفاعلات الثنائية.
+        *   `[ ]` 3.5.3.4. (اختياري متقدم) تنفيذ منطق تحليل المسارات المتعددة باستخدام الرسم البياني (DFS).
+        *   `[x]` 3.5.3.5. تنفيذ منطق توليد التوصيات والشدة الإجمالية.
+    *   `[x]` 3.5.4. **إدارة الحالة (`InteractionProvider`):** (تم التنفيذ والتحديث)
+        *   `[x]` 3.5.4.1. إنشاء Provider لإدارة قائمة الأدوية المختارة ونتائج التحليل (`isLoading`, `error`, `analysisResult`).
+        *   `[x]` 3.5.4.2. حقن `InteractionCheckerService` و `InteractionRepository`.
+        *   `[x]` 3.5.4.3. استدعاء خدمة التحليل عند تغيير قائمة الأدوية (مع التأكد من تحميل البيانات).
+    *   `[x]` 3.5.5. **بناء واجهة المستخدم (`InteractionCheckerScreen`):** (تم التنفيذ بالفعل)
         *   `[x]` 3.5.5.1. إنشاء ملف الشاشة.
-        *   `[x]` 3.5.5.2. بناء واجهة لاختيار أدوية متعددة (مثل استخدام `showDialog` مع `ListView` أو `Chips`).
+        *   `[x]` 3.5.5.2. بناء واجهة لاختيار أدوية متعددة.
         *   `[x]` 3.5.5.3. ربط الواجهة بالـ Provider لعرض الأدوية المختارة.
-        *   `[x]` 3.5.5.4. عرض نتائج التفاعلات (الشدة، التأثير، التوصيات) من الـ Provider (استلهامًا من `External source/ui_prototype/enhanced_documentation_part2.md`).
-        *   `[x]` 3.5.5.5. عرض مؤشر التحميل وحالة الخطأ. (Implemented via _buildResultsArea)
+        *   `[x]` 3.5.5.4. عرض نتائج التفاعلات (الشدة، التأثير، التوصيات) من الـ Provider.
+        *   `[x]` 3.5.5.5. عرض مؤشر التحميل وحالة الخطأ.
 *   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (Screen exists, needs implementation)
     *   `[x]` 3.6.1. `SettingsProvider`/`Bloc`.
     *   `[x]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`). (Basic UI with Theme toggle added)
-    *   `[~]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language deferred)
-    *   `[ ]` 3.6.4. بناء واجهة إدارة الاشتراك.
+    *   `[x]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language implemented)
+    *   `[x]` 3.6.4. بناء واجهة إدارة الاشتراك. (Placeholder UI added)
     *   `[x]` 3.6.5. استخدام `url_launcher` للروابط. (Implemented for About, Privacy, Terms)
     *   `[x]` 3.6.6. زر "التحقق من التحديث". (Implemented in SettingsScreen)
     *   `[x]` 3.6.7. عرض تاريخ آخر تحديث. (Implemented in SettingsScreen using MedicineProvider)
@@ -200,19 +200,19 @@
 ### **المرحلة 4: تطوير الواجهة الخلفية - ميزات إضافية (الأسبوع 11)**
 
 *   **4.1. تحسينات إدارة ملف Excel/CSV:**
-    *   `[ ]` 4.1.1. إضافة تحقق أكثر تفصيلاً.
-    *   `[ ]` 4.1.2. عرض رسائل خطأ واضحة.
-    *   `[ ]` 4.1.3. عرض معلومات إضافية عن الملف.
+    *   `[x]` 4.1.1. إضافة تحقق أكثر تفصيلاً (التحقق من الأعمدة باستخدام pandas في Backend).
+    *   `[x]` 4.1.2. عرض رسائل خطأ واضحة (تم تضمينها في استجابة التحقق من الأعمدة).
+    *   `[x]` 4.1.3. عرض معلومات إضافية عن الملف (تمت إضافة حجم الملف للاستجابة).
 *   **4.2. إدارة الإعلانات (AdMob Config):**
-    *   `[ ]` 4.2.1. تصميم نموذج بيانات للإعدادات.
-    *   `[ ]` 4.2.2. بناء واجهة للأدمن في لوحة التحكم.
-    *   `[ ]` 4.2.3. إنشاء نقطة نهاية API `GET /api/v1/config/ads`.
+    *   `[x]` 4.2.1. تصميم نموذج بيانات للإعدادات (تم إنشاء `AdMobConfig` model).
+    *   `[x]` 4.2.2. بناء واجهة للأدمن في لوحة التحكم (تم تسجيل `AdMobConfig` في `admin.py`).
+    *   `[x]` 4.2.3. إنشاء نقطة نهاية API `GET /api/v1/config/ads` (تم إنشاء Serializer, View, URL).
 *   **4.3. إعدادات التطبيق العامة:**
-    *   `[ ]` 4.3.1. تصميم نموذج بيانات (روابط).
-    *   `[ ]` 4.3.2. بناء واجهة للأدمن.
-    *   `[ ]` 4.3.3. إنشاء نقطة نهاية API `GET /api/v1/config/general`.
+    *   `[x]` 4.3.1. تصميم نموذج بيانات (روابط) (تم إنشاء `GeneralConfig` model).
+    *   `[x]` 4.3.2. بناء واجهة للأدمن (تم تسجيل `GeneralConfig` في `admin.py`).
+    *   `[x]` 4.3.3. إنشاء نقطة نهاية API `GET /api/v1/config/general` (تم إنشاء Serializer, View, URL).
 *   **4.4. استقبال وتحليل الإحصائيات:**
-    *   `[ ]` 4.4.1. تحسين `POST /api/v1/analytics/log` لاستقبال أنواع أحداث.
+    *   `[x]` 4.4.1. إنشاء `POST /api/v1/analytics/log` لاستقبال أنواع أحداث (تم إنشاء Model, Serializer, View, URL).
     *   `[ ]` 4.4.2. بناء منطق تحليل البيانات (الأكثر بحثًا، البحث الفاشل).
 
 ---

@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
+from .models import AdMobConfig, GeneralConfig, AnalyticsEvent # Import AnalyticsEvent model
 
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True) # Password should not be read
@@ -24,3 +25,44 @@ class UserSerializer(serializers.ModelSerializer):
             last_name=validated_data.get('last_name', ''),
         )
         return user
+
+# Serializer for AdMob Configuration
+class AdMobConfigSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = AdMobConfig
+        # Exclude fields not needed by the app, or include all relevant ones
+        fields = [
+            'ads_enabled',
+            'banner_ad_unit_id_android',
+            'banner_ad_unit_id_ios',
+            'interstitial_ad_unit_id_android',
+            'interstitial_ad_unit_id_ios',
+            # 'last_updated' # Probably not needed by the app
+        ]
+
+# Serializer for General Configuration
+class GeneralConfigSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GeneralConfig
+        fields = [
+            'about_url',
+            'privacy_policy_url',
+            'terms_of_service_url',
+            # Add other fields if needed
+        ]
+
+# Serializer for Analytics Events
+class AnalyticsEventSerializer(serializers.ModelSerializer):
+    # Make 'details' optional as it might not always be sent
+    details = serializers.JSONField(required=False, allow_null=True)
+
+    class Meta:
+        model = AnalyticsEvent
+        fields = ['event_type', 'details'] # Fields expected from the client
+        # Exclude 'timestamp' as it's auto-generated
+        # Exclude 'user' unless user tracking is implemented
+
+    def create(self, validated_data):
+        # Simple creation, no complex logic needed here for now
+        return AnalyticsEvent.objects.create(**validated_data)
+# Removed extraneous bracket from previous diff application

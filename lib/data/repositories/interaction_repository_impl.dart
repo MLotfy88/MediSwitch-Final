@@ -6,6 +6,8 @@ import 'package:flutter/services.dart' show rootBundle; // For loading assets
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
+import '../../domain/entities/interaction_severity.dart'; // Import enum
+import '../../domain/entities/interaction_type.dart'; // Import enum
 import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/entities/active_ingredient.dart'; // Import domain entity
 
@@ -192,6 +194,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
         .where((part) => part.isNotEmpty)
         .toList();
   }
+
+  // --- Getters for Loaded Data ---
+
+  @override
+  List<DrugInteraction> get allLoadedInteractions => _allInteractions;
+
+  @override
+  Map<String, List<String>> get medicineToIngredientsMap =>
+      _medicineToIngredientsMap;
 }
 
 // --- Helper Data Models for JSON Parsing ---

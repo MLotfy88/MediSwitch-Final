@@ -44,26 +44,62 @@ class SettingsScreen extends StatelessWidget {
                       ? 'العربية'
                       : 'English',
                 ),
-                onTap: () {
-                  // TODO: Implement language selection dialog/options
-                  print('Language setting tapped');
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('سيتم إضافة تغيير اللغة لاحقاً.'),
-                    ),
+                onTap: () async {
+                  // Make onTap async
+                  // Show language selection dialog
+                  final Locale? selectedLocale = await showDialog<Locale>(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return SimpleDialog(
+                        title: const Text('اختر اللغة'),
+                        children: <Widget>[
+                          SimpleDialogOption(
+                            onPressed: () {
+                              Navigator.pop(context, const Locale('ar'));
+                            },
+                            child: const Text('العربية'),
+                          ),
+                          SimpleDialogOption(
+                            onPressed: () {
+                              Navigator.pop(context, const Locale('en'));
+                            },
+                            child: const Text('English'),
+                          ),
+                        ],
+                      );
+                    },
                   );
+
+                  // Update locale if a selection was made
+                  if (selectedLocale != null && context.mounted) {
+                    context.read<SettingsProvider>().updateLocale(
+                      selectedLocale,
+                    );
+                  }
                 },
               ),
               const Divider(),
-              // TODO: Add Subscription Management UI (Task 3.6.4)
+              // Subscription Management UI Placeholder (Task 3.6.4)
               ListTile(
-                leading: const Icon(Icons.subscriptions),
-                title: const Text('إدارة الاشتراك'),
+                leading: const Icon(
+                  Icons.workspace_premium_outlined,
+                ), // Changed icon
+                title: const Text('الاشتراك المميز (Premium)'),
+                subtitle: const Text(
+                  'إزالة الإعلانات، سجل البحث، والمزيد!',
+                ), // Added subtitle
+                trailing: const Chip(
+                  // Added a chip for status indication
+                  label: Text('مستخدم مجاني'),
+                  backgroundColor: Colors.grey,
+                  labelStyle: TextStyle(color: Colors.white, fontSize: 12),
+                ),
                 onTap: () {
+                  // TODO: Implement navigation to subscription purchase/management screen
                   print('Subscription setting tapped');
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
-                      content: Text('سيتم إضافة إدارة الاشتراك لاحقاً.'),
+                      content: Text('سيتم إضافة شاشة إدارة الاشتراك لاحقاً.'),
                     ),
                   );
                 },

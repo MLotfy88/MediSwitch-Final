@@ -9,6 +9,8 @@ import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import '../../main.dart'; // Import MyApp to access findDrugAlternativesUseCase (temporary DI)
 import '../../domain/usecases/find_drug_alternatives.dart'; // Import use case for provider creation
 import 'search_screen.dart'; // Import the new SearchScreen
+import 'drug_details_screen.dart'; // Import the new details screen
+import '../widgets/drug_list_item.dart'; // Import the list item widget
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -184,8 +186,17 @@ class _HomeScreenState extends State<HomeScreen> {
                                     label: Text(drug.tradeName),
                                     tooltip: 'عرض تفاصيل ${drug.tradeName}',
                                     onPressed: () {
-                                      _showMedicineDetails(context, drug);
-                                    },
+                                      // Navigate to details screen
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder:
+                                              (context) =>
+                                                  DrugDetailsScreen(drug: drug),
+                                        ),
+                                      );
+                                    // Removed extra closing brace
+                                    // Removed erroneous call to _showMedicineDetails
                                   ),
                                 );
                               },
@@ -287,9 +298,19 @@ class _HomeScreenState extends State<HomeScreen> {
                       itemCount: medicines.length,
                       itemBuilder: (context, index) {
                         final drug = medicines[index];
-                        return _DrugListItem(
+                        return DrugListItem(
+                          // Use the imported widget
                           drug: drug,
-                          onTap: () => _showMedicineDetails(context, drug),
+                          onTap: () {
+                            // Navigate to details screen
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder:
+                                    (context) => DrugDetailsScreen(drug: drug),
+                              ),
+                            );
+                          },
                         );
                       },
                     );
@@ -299,9 +320,19 @@ class _HomeScreenState extends State<HomeScreen> {
                       itemCount: medicines.length,
                       itemBuilder: (context, index) {
                         final drug = medicines[index];
-                        return _DrugListItem(
+                        return DrugListItem(
+                          // Use the imported widget
                           drug: drug,
-                          onTap: () => _showMedicineDetails(context, drug),
+                          onTap: () {
+                            // Navigate to details screen
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder:
+                                    (context) => DrugDetailsScreen(drug: drug),
+                              ),
+                            );
+                          },
                         );
                       },
                     );
@@ -314,134 +345,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Show details using DrugEntity
-  void _showMedicineDetails(BuildContext context, DrugEntity drug) {
-    // Changed type to DrugEntity
-    showModalBottomSheet<void>(
-      context: context,
-      isScrollControlled: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20.0)),
-      ),
-      // Provide FindDrugAlternativesUseCase to the builder context
-      // This requires access to the use case instance, assuming it's available via MyApp
-      builder: (builderContext) {
-        // Use a different context name
-        final findAlternativesUseCase =
-            Provider.of<MyApp>(
-              context,
-              listen: false,
-            ).findDrugAlternativesUseCase; // Temporary access via MyApp context
-        return Container(
-          padding: const EdgeInsets.all(16.0),
-          constraints: BoxConstraints(
-            maxHeight: MediaQuery.of(context).size.height * 0.7,
-          ),
-          child: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Center(
-                  child: Container(
-                    width: 50,
-                    height: 5,
-                    decoration: BoxDecoration(
-                      color: Colors.grey[300],
-                      borderRadius: BorderRadius.circular(10.0),
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 16.0),
-                Text(
-                  drug.tradeName, // Use DrugEntity field
-                  style: const TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const SizedBox(height: 8.0),
-                Text(
-                  drug.arabicName, // Use DrugEntity field
-                  style: const TextStyle(fontSize: 18.0),
-                ),
-                const Divider(),
-                _buildDetailRow(
-                  'السعر الحالي',
-                  '${drug.price} جنيه',
-                ), // Use DrugEntity field
-                _buildDetailRow(
-                  'الفئة الرئيسية',
-                  drug.mainCategory,
-                ), // Use DrugEntity field
-                // Display additional details
-                _buildDetailRow('المادة الفعالة', drug.active),
-                _buildDetailRow('الشركة', drug.company),
-                _buildDetailRow('الشكل الصيدلي', drug.dosageForm),
-                _buildDetailRow('الوحدة', drug.unit),
-                _buildDetailRow('الاستخدام', drug.usage),
-                _buildDetailRow('الوصف', drug.description),
-                _buildDetailRow('آخر تحديث للسعر', drug.lastPriceUpdate),
-                const SizedBox(height: 16),
-                // Add "Find Alternatives" Button (Task 3.2.9)
-                Center(
-                  child: ElevatedButton.icon(
-                    icon: const Icon(Icons.sync_alt),
-                    label: const Text('إيجاد البدائل'),
-                    onPressed: () {
-                      Navigator.pop(
-                        builderContext,
-                      ); // Close the bottom sheet first using builderContext
-                      Navigator.push(
-                        context, // Use the original context for navigation
-                        MaterialPageRoute<void>(
-                          builder:
-                              (_) => ChangeNotifierProvider(
-                                // Use the use case obtained earlier
-                                create:
-                                    (_) => AlternativesProvider(
-                                      findDrugAlternativesUseCase:
-                                          findAlternativesUseCase,
-                                    ),
-                                child: AlternativesScreen(originalDrug: drug),
-                              ),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-                // Add Favorite Button (Premium - Task 3.2.10)
-                Center(
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: 8.0), // Add some space
-                    child: OutlinedButton.icon(
-                      icon: const Icon(
-                        Icons.favorite_border,
-                        size: 18,
-                      ), // Or Icons.favorite if favorited
-                      label: const Text('إضافة للمفضلة (Premium)'),
-                      onPressed: null, // Disabled for now
-                      // onPressed: () {
-                      //   // TODO: Implement Premium check and favorite logic
-                      //   ScaffoldMessenger.of(context).showSnackBar(
-                      //     const SnackBar(content: Text('ميزة المفضلة متاحة في الإصدار المدفوع.')),
-                      //   );
-                      // },
-                      style: OutlinedButton.styleFrom(
-                        side: BorderSide(color: Colors.red.withOpacity(0.5)),
-                        foregroundColor: Colors.red.withOpacity(0.7),
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 8), // Bottom padding
-              ], // Closing children list for Column
-            ), // Closing Column
-          ), // Closing SingleChildScrollView
-        ); // Closing Container
-      }, // Closing builder
-    ); // Closing showModalBottomSheet
-  } // Closing _showMedicineDetails
+  // Removed _showMedicineDetails function as navigation is handled directly
 
   // Helper to build detail row (unchanged)
   Widget _buildDetailRow(String label, String value) {
@@ -459,49 +363,4 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 } // Closing State class
 
-// Helper widget for displaying a drug item in the list/grid
-class _DrugListItem extends StatelessWidget {
-  final DrugEntity drug;
-  final VoidCallback onTap;
-
-  const _DrugListItem({required this.drug, required this.onTap});
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      margin: const EdgeInsets.symmetric(
-        horizontal: 8.0, // Adjusted margin for grid/list flexibility
-        vertical: 6.0,
-      ),
-      child: ListTile(
-        title: Text(
-          drug.tradeName,
-          style: const TextStyle(fontWeight: FontWeight.bold),
-          maxLines: 1, // Prevent long names from wrapping excessively
-          overflow: TextOverflow.ellipsis,
-        ),
-        subtitle: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min, // Ensure column takes minimum space
-          children: [
-            Text(drug.arabicName, maxLines: 1, overflow: TextOverflow.ellipsis),
-            const SizedBox(height: 2.0),
-            Text(
-              'السعر: ${drug.price} جنيه',
-              style: Theme.of(context).textTheme.bodySmall,
-            ),
-            if (drug.mainCategory.isNotEmpty)
-              Text(
-                'الفئة: ${drug.mainCategory}',
-                style: Theme.of(context).textTheme.bodySmall,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-          ],
-        ),
-        isThreeLine: false, // Let subtitle height be dynamic
-        onTap: onTap,
-      ),
-    );
-  }
-}
+// Removed local _DrugListItem definition as it's imported from widgets/drug_list_item.dart

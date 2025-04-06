@@ -1,3 +1,4 @@
+/* Start of commented out block
 /* ===== الأنماط الأساسية ===== */
 :root {
     /* الألوان الأساسية - تحديث الألوان لتكون أكثر حيوية وجاذبية */
@@ -821,4 +822,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(33, 150, 243,
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.05) 0%, rgba(33, 150, 243, 0) 100%);
+    z-index: 0;
+}
+*/

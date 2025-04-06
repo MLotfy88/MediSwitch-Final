@@ -2,6 +2,8 @@
 
 import '../entities/drug_entity.dart';
 import '../entities/drug_interaction.dart';
+import '../entities/interaction_severity.dart'; // Import enum
+import '../entities/interaction_type.dart'; // Import enum
 import '../entities/interaction_analysis_result.dart'; // Import the result class
 // import '../repositories/interaction_repository.dart'; // Not needed if data is passed in
 
