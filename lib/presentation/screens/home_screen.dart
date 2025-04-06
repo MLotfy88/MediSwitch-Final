@@ -194,12 +194,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                               (context) =>
                                                   DrugDetailsScreen(drug: drug),
                                         ),
-                                      );
-                                    // Removed extra closing brace
-                                    // Removed erroneous call to _showMedicineDetails
-                                  ),
-                                );
-                              },
+                                      ); // End of Navigator.push
+                                    }, // End of onPressed
+                                  ), // End of ActionChip
+                                ); // End of Padding
+                              }, // <<< Add missing closing brace for itemBuilder here
                             ),
                   ),
                   const SizedBox(height: 16.0), // Spacing before main list
@@ -363,4 +362,4 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 } // Closing State class
 
-// Removed local _DrugListItem definition as it's imported from widgets/drug_list_item.dart
+// Removed local _DrugListItem definition
