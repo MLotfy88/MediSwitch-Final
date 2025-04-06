@@ -142,15 +142,14 @@ class InteractionProvider extends ChangeNotifier {
     // A proper implementation would likely involve getting the data from the repository instance.
 
     try {
-      // *** This part needs refinement based on how data is managed ***
-      // *** Assuming repository holds data after loadInteractionData() ***
-      // *** This direct call might bypass error handling in repository's find method ***
+      // Use the public getters from the repository interface
+      final allInteractions = _interactionRepository.allLoadedInteractions;
+      final ingredientsMap = _interactionRepository.medicineToIngredientsMap;
+
       final result = _interactionCheckerService.analyzeInteractions(
         _selectedMedicines,
-        (_interactionRepository as InteractionRepositoryImpl)
-            ._allInteractions, // Accessing internal state - Needs improvement
-        (_interactionRepository as InteractionRepositoryImpl)
-            ._medicineToIngredientsMap, // Accessing internal state - Needs improvement
+        allInteractions,
+        ingredientsMap,
       );
       _analysisResult = result;
       _error = '';
@@ -168,12 +167,4 @@ class InteractionProvider extends ChangeNotifier {
   }
 }
 
-// Helper extension for direct access - **REMOVE THIS IN A REAL APP**
-// This is a temporary workaround to access internal state for demonstration.
-// A better approach involves a dedicated method in the repository or a data cache.
-extension InteractionRepositoryInternalAccess on InteractionRepository {
-  List<DrugInteraction> get _allInteractions =>
-      (this as InteractionRepositoryImpl)._allInteractions;
-  Map<String, List<String>> get _medicineToIngredientsMap =>
-      (this as InteractionRepositoryImpl)._medicineToIngredientsMap;
-}
+// Removed the temporary extension InteractionRepositoryInternalAccess

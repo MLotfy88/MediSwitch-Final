@@ -3,8 +3,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
-import '../../domain/entities/drug_interaction.dart'; // Import DrugInteraction entity
-import '../../domain/entities/interaction_analysis_result.dart'; // Import result entity
+import '../../domain/entities/drug_interaction.dart';
+import '../../domain/entities/interaction_severity.dart'; // Import enum
+import '../../domain/entities/interaction_type.dart'; // Import enum
+import '../../domain/entities/interaction_analysis_result.dart';
 import '../bloc/interaction_provider.dart'; // Import the provider
 import '../bloc/medicine_provider.dart'; // To access the full medicine list
 

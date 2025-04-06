@@ -17,6 +17,7 @@ class MedicineModel {
   final String description;
   final String lastPriceUpdate;
   final double? concentration; // Added for dosage calculation
+  final String? imageUrl; // Optional image URL
 
   // معرف اختياري للاستخدام مع قاعدة البيانات
   final int? id;
@@ -40,6 +41,7 @@ class MedicineModel {
     required this.description,
     required this.lastPriceUpdate,
     this.concentration, // Added for dosage calculation
+    this.imageUrl, // Add to constructor
     this.id,
   });
 
@@ -66,6 +68,8 @@ class MedicineModel {
       // Assuming concentration is in the next column (index 17)
       concentration:
           row.length > 17 ? double.tryParse(row[17]?.toString() ?? '') : null,
+      // Assuming image_url is in the next column (index 18)
+      imageUrl: row.length > 18 ? row[18]?.toString() : null,
     );
   }
 
@@ -90,6 +94,7 @@ class MedicineModel {
       'description': description,
       'lastPriceUpdate': lastPriceUpdate,
       'concentration': concentration, // Added for dosage calculation
+      'imageUrl': imageUrl, // Add to map
     };
   }
 
@@ -120,6 +125,7 @@ class MedicineModel {
           map['concentration'] != null
               ? double.tryParse(map['concentration'].toString())
               : null,
+      imageUrl: map['imageUrl']?.toString(), // Add from map
     );
   }
 

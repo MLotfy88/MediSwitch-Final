@@ -1,7 +1,8 @@
 // lib/domain/entities/interaction_analysis_result.dart
 
 import 'package:equatable/equatable.dart';
-import 'drug_interaction.dart'; // Import DrugInteraction and InteractionSeverity
+import 'drug_interaction.dart';
+import 'interaction_severity.dart'; // Import the enum
 
 class InteractionAnalysisResult extends Equatable {
   final List<DrugInteraction>

@@ -16,6 +16,7 @@ class DrugEntity extends Equatable {
   final String usage;
   final String description;
   final String lastPriceUpdate;
+  final String? imageUrl; // Optional image URL
   const DrugEntity({
     required this.tradeName,
     required this.arabicName,
@@ -30,6 +31,7 @@ class DrugEntity extends Equatable {
     required this.usage,
     required this.description,
     required this.lastPriceUpdate,
+    this.imageUrl, // Add to constructor
   });
 
   // Using Equatable for value comparison
@@ -48,5 +50,6 @@ class DrugEntity extends Equatable {
     usage,
     description,
     lastPriceUpdate,
+    imageUrl, // Add to props
   ];
 }

@@ -61,6 +61,9 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
           usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
           description: row.length > 15 ? row[15]?.toString() ?? '' : '',
           lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
+          // Assuming concentration is at index 17 (already handled in MedicineModel.fromCsv)
+          // Assuming imageUrl is at index 18
+          imageUrl: row.length > 18 ? row[18]?.toString() : null,
         );
       }).toList();
 

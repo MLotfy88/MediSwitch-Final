@@ -1,114 +1,114 @@
-// lib/domain/services/dosage_calculator_service.dart
+import 'dart:math' as math;
 
-import '../entities/drug_entity.dart';
 import '../entities/dosage_result.dart';
+import '../entities/drug_entity.dart'; // Assuming DrugEntity is in this path
 
+/// Service responsible for calculating drug dosages.
 class DosageCalculatorService {
+  /// Calculates the appropriate dosage for a given medicine, weight, and age.
+  ///
+  /// Returns a [DosageResult] containing the calculated dosage string,
+  /// optional warnings, and notes.
   DosageResult calculateDosage(DrugEntity medicine, double weight, int age) {
+    // Input validation
+    if (weight <= 0 || age < 0) {
+      return DosageResult(
+        dosage: "خطأ في المدخلات: يجب أن يكون الوزن موجباً والعمر غير سالب",
+        warning: "يرجى إدخال قيم صحيحة للوزن والعمر",
+      );
+    }
+
     final String activeIngredientLower = medicine.active.toLowerCase();
 
-    // Dispatch based on active ingredient
-    if (activeIngredientLower.contains('paracetamol') ||
-        activeIngredientLower.contains('acetaminophen')) {
+    // Determine dosage based on active ingredient
+    if (activeIngredientLower.contains("paracetamol") ||
+        activeIngredientLower.contains("acetaminophen")) {
       return _calculateParacetamolDosage(medicine, weight, age);
-    } else if (activeIngredientLower.contains('ibuprofen')) {
+    } else if (activeIngredientLower.contains("ibuprofen")) {
       return _calculateIbuprofenDosage(medicine, weight, age);
-    } else if (activeIngredientLower.contains('amoxicillin')) {
+    } else if (activeIngredientLower.contains("amoxicillin")) {
       return _calculateAmoxicillinDosage(medicine, weight, age);
     }
-    // TODO: Add more drug calculations here
-
-    // Default result if drug is not supported
-    return DosageResult(
-      dosage: 'حساب الجرعة غير مدعوم لهذا الدواء حاليًا.',
-      warning: 'يرجى استشارة الطبيب أو الصيدلي.',
-    );
+    // TODO: Add calculation for pseudoephedrine if needed, based on External source
+    // else if (activeIngredientLower.contains("pseudoephedrine")) {
+    //   return _calculateColdMedicineDosage(medicine, weight, age);
+    // }
+    else {
+      // For unsupported drugs
+      return DosageResult(
+        dosage: "يرجى استشارة الطبيب أو الصيدلاني لتحديد الجرعة المناسبة",
+        warning: "لم يتم العثور على معادلة محددة لحساب جرعة هذا الدواء",
+      );
+    }
   }
 
-  // --- Private Calculation Methods (Placeholders) ---
+  // --- Private Calculation Methods based on External Source ---
 
   DosageResult _calculateParacetamolDosage(
     DrugEntity medicine,
     double weight,
     int age,
   ) {
-    // 1. حساب الجرعة الأساسية بناءً على الوزن
-    final double minDose = weight * 10; // الحد الأدنى: 10 مجم/كجم
-    final double maxDose = weight * 15; // الحد الأقصى: 15 مجم/كجم
-    final double concentration =
-        medicine.concentration; // Strength per tablet/capsule or mg/mL
-
-    String dosage = '';
-    String? notes;
+    // Dosage: 10-15 mg/kg every 4-6 hours, max 5 doses/day
+    final double minDose = weight * 10;
+    final double maxDose = weight * 15;
+    String dosage = "";
     String? warning;
+    String? notes;
 
-    // 2. تحديد الجرعة بناءً على شكل الدواء والعمر
-    if (medicine.dosageForm.toLowerCase() == "tablet") {
-      if (concentration <= 0) {
-        return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للأقراص.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
-        );
-      }
+    final String formLower = medicine.dosageForm.toLowerCase();
+
+    if (formLower == "tablet" || formLower == "أقراص") {
       if (age >= 12) {
-        // للبالغين والأطفال فوق 12 سنة
         dosage =
-            "قرص واحد (${concentration.toStringAsFixed(0)} مجم) كل 4-6 ساعات حسب الحاجة";
-        notes = "الحد الأقصى: 4 أقراص في اليوم";
+            "للبالغين والأطفال فوق 12 سنة: قرص واحد (${medicine.concentration.toStringAsFixed(0)} مجم) كل 4-6 ساعات حسب الحاجة، بحد أقصى 4 أقراص في اليوم.";
       } else if (age >= 6) {
-        // للأطفال بين 6-12 سنة
-        final double numTabletsMin = minDose / concentration;
-        // Determine practical fraction (e.g., 1/2, 3/4, 1) - simplified logic
-        String tabletFraction = '';
-        if (numTabletsMin < 0.3) {
-          tabletFraction = '1/4'; // Assuming tablets can be quartered if needed
-        } else if (numTabletsMin < 0.6) {
-          tabletFraction = '1/2';
-        } else if (numTabletsMin < 0.85) {
-          tabletFraction = '3/4';
-        } else {
-          tabletFraction = '1';
+        final double tabletDose = medicine.concentration;
+        if (tabletDose <= 0) {
+          return DosageResult(
+            dosage: "خطأ: تركيز الدواء غير صحيح للأقراص.",
+            warning: "يرجى مراجعة بيانات الدواء.",
+          );
         }
+        final double numTablets = minDose / tabletDose;
         dosage =
-            "$tabletFraction قرص (${concentration.toStringAsFixed(0)} مجم) كل 4-6 ساعات";
+            "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${numTablets < 0.5 ? '1/2' : (numTablets < 1 ? '3/4' : '1')} قرص كل 4-6 ساعات حسب الحاجة، بحد أقصى 4 جرعات في اليوم.";
         notes =
-            "الجرعة المحسوبة: ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم";
+            "الجرعة المحسوبة: ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 4-6 ساعات";
       } else {
-        // للأطفال أقل من 6 سنوات
         dosage =
-            "${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 4-6 ساعات";
-        warning = "يفضل استخدام شراب الباراسيتامول للأطفال أقل من 6 سنوات";
+            "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 4-6 ساعات حسب الحاجة.";
+        warning = "يفضل استخدام شراب الباراسيتامول للأطفال أقل من 6 سنوات.";
       }
-    } else if (medicine.dosageForm.toLowerCase() == "syrup") {
-      if (concentration <= 0) {
+    } else if (formLower == "syrup" || formLower == "شراب") {
+      if (medicine.concentration <= 0) {
         return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للشراب.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
+          dosage: "خطأ: تركيز الدواء غير صحيح للشراب.",
+          warning: "يرجى مراجعة بيانات الدواء.",
         );
       }
-      // 3. حساب حجم الشراب بناءً على التركيز (مجم/مل)
-      final double minMl = (minDose / concentration);
-      final double maxMl = (maxDose / concentration);
+      final double minMl = (minDose / medicine.concentration);
+      final double maxMl = (maxDose / medicine.concentration);
+      // Simple rounding for display
       dosage =
-          "${minMl.toStringAsFixed(1)}-${maxMl.toStringAsFixed(1)} مل كل 4-6 ساعات";
-      notes = "الحد الأقصى: 5 جرعات في اليوم";
+          "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${_roundToNearestHalf(minMl).toStringAsFixed(1)}-${_roundToNearestHalf(maxMl).toStringAsFixed(1)} مل كل 4-6 ساعات حسب الحاجة، بحد أقصى 5 جرعات في اليوم.";
     } else {
-      // Handle unsupported dosage forms
       return DosageResult(
-        dosage:
-            'حساب الجرعة غير مدعوم لهذا الشكل الصيدلاني (${medicine.dosageForm}).',
-        warning: 'يرجى استشارة الطبيب أو الصيدلي.',
+        dosage: "شكل الدواء غير مدعوم للحساب (${medicine.dosageForm}).",
       );
     }
 
-    // 4. إضافة تحذير عام للأطفال الصغار (يُدمج مع التحذير السابق إن وجد)
-    if (age < 2) {
-      final ageWarning =
+    if (age < 2 && warning == null) {
+      // Add warning if not already present
+      warning =
           "تحذير: يجب استشارة الطبيب قبل إعطاء أي دواء للأطفال أقل من سنتين.";
-      warning = warning != null ? '$warning\n$ageWarning' : ageWarning;
+    } else if (age < 2) {
+      warning =
+          (warning ?? "") +
+          " يجب استشارة الطبيب قبل إعطاء أي دواء للأطفال أقل من سنتين.";
     }
 
-    return DosageResult(dosage: dosage, notes: notes, warning: warning);
+    return DosageResult(dosage: dosage, warning: warning, notes: notes);
   }
 
   DosageResult _calculateIbuprofenDosage(
@@ -116,86 +116,67 @@ class DosageCalculatorService {
     double weight,
     int age,
   ) {
-    // 1. حساب الجرعة الأساسية بناءً على الوزن
-    final double minDose = weight * 5; // الحد الأدنى: 5 مجم/كجم
-    final double maxDose = weight * 10; // الحد الأقصى: 10 مجم/كجم
-    final double maxDailyDose =
-        weight * 40; // الحد الأقصى اليومي: 40 مجم/كجم/يوم
-    final double concentration = medicine.concentration;
-
-    String dosage = '';
-    String? notes;
+    // Dosage: 5-10 mg/kg every 6-8 hours, max 40 mg/kg/day
+    final double minDose = weight * 5;
+    final double maxDose = weight * 10;
+    final double maxDailyDose = weight * 40;
+    String dosage = "";
     String? warning;
+    String? notes;
 
-    // 2. تحديد الجرعة بناءً على شكل الدواء والعمر
-    if (medicine.dosageForm.toLowerCase() == "tablet") {
-      if (concentration <= 0) {
-        return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للأقراص.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
-        );
-      }
+    final String formLower = medicine.dosageForm.toLowerCase();
+
+    if (formLower == "tablet" || formLower == "أقراص") {
       if (age >= 12) {
-        // للبالغين والأطفال فوق 12 سنة
         dosage =
-            "قرص واحد (${concentration.toStringAsFixed(0)} مجم) كل 6-8 ساعات حسب الحاجة";
-        notes =
-            "الحد الأقصى: 3 أقراص في اليوم"; // Assuming 400mg or 600mg tablets
+            "للبالغين والأطفال فوق 12 سنة: قرص واحد (${medicine.concentration.toStringAsFixed(0)} مجم) كل 6-8 ساعات حسب الحاجة، بحد أقصى 3 أقراص في اليوم.";
       } else if (age >= 6) {
-        // للأطفال بين 6-12 سنة
-        final double numTabletsMin = minDose / concentration;
-        // Determine practical fraction (e.g., 1/2, 3/4, 1) - simplified logic
-        String tabletFraction = '';
-        if (numTabletsMin < 0.3) {
-          tabletFraction = '1/4';
-        } else if (numTabletsMin < 0.6) {
-          tabletFraction = '1/2';
-        } else if (numTabletsMin < 0.85) {
-          tabletFraction = '3/4';
-        } else {
-          tabletFraction = '1';
+        final double tabletDose = medicine.concentration;
+        if (tabletDose <= 0) {
+          return DosageResult(
+            dosage: "خطأ: تركيز الدواء غير صحيح للأقراص.",
+            warning: "يرجى مراجعة بيانات الدواء.",
+          );
         }
+        final double numTablets = minDose / tabletDose;
         dosage =
-            "$tabletFraction قرص (${concentration.toStringAsFixed(0)} مجم) كل 6-8 ساعات";
+            "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${numTablets < 0.5 ? '1/2' : (numTablets < 1 ? '3/4' : '1')} قرص كل 6-8 ساعات حسب الحاجة.";
         notes =
-            "الجرعة المحسوبة: ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم";
+            "الجرعة المحسوبة: ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 6-8 ساعات، بحد أقصى ${maxDailyDose.toStringAsFixed(1)} مجم في اليوم";
       } else {
-        // للأطفال أقل من 6 سنوات
         dosage =
-            "${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 6-8 ساعات";
-        warning = "يفضل استخدام شراب الإيبوبروفين للأطفال أقل من 6 سنوات";
+            "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${minDose.toStringAsFixed(1)}-${maxDose.toStringAsFixed(1)} مجم كل 6-8 ساعات حسب الحاجة.";
+        warning = "يفضل استخدام شراب الإيبوبروفين للأطفال أقل من 6 سنوات.";
       }
-    } else if (medicine.dosageForm.toLowerCase() == "syrup") {
-      if (concentration <= 0) {
+    } else if (formLower == "syrup" || formLower == "شراب") {
+      if (medicine.concentration <= 0) {
         return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للشراب.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
+          dosage: "خطأ: تركيز الدواء غير صحيح للشراب.",
+          warning: "يرجى مراجعة بيانات الدواء.",
         );
       }
-      // 3. حساب حجم الشراب بناءً على التركيز (مجم/مل)
-      final double minMl = (minDose / concentration);
-      final double maxMl = (maxDose / concentration);
+      final double minMl = (minDose / medicine.concentration);
+      final double maxMl = (maxDose / medicine.concentration);
       dosage =
-          "${minMl.toStringAsFixed(1)}-${maxMl.toStringAsFixed(1)} مل كل 6-8 ساعات";
+          "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${_roundToNearestHalf(minMl).toStringAsFixed(1)}-${_roundToNearestHalf(maxMl).toStringAsFixed(1)} مل كل 6-8 ساعات حسب الحاجة.";
       notes = "الحد الأقصى اليومي: ${maxDailyDose.toStringAsFixed(1)} مجم";
     } else {
-      // Handle unsupported dosage forms
       return DosageResult(
-        dosage:
-            'حساب الجرعة غير مدعوم لهذا الشكل الصيدلاني (${medicine.dosageForm}).',
-        warning: 'يرجى استشارة الطبيب أو الصيدلي.',
+        dosage: "شكل الدواء غير مدعوم للحساب (${medicine.dosageForm}).",
       );
     }
 
-    // 4. إضافة تحذير عام للأطفال الصغار (يُدمج مع التحذير السابق إن وجد)
-    if (age < 6) {
-      // Ibuprofen warning for < 6 years
-      final ageWarning =
+    if (age < 6 && warning == null) {
+      // Add warning if not already present
+      warning =
           "تحذير: يجب استشارة الطبيب قبل إعطاء الإيبوبروفين للأطفال أقل من 6 سنوات.";
-      warning = warning != null ? '$warning\n$ageWarning' : ageWarning;
+    } else if (age < 6) {
+      warning =
+          (warning ?? "") +
+          " يجب استشارة الطبيب قبل إعطاء الإيبوبروفين للأطفال أقل من 6 سنوات.";
     }
 
-    return DosageResult(dosage: dosage, notes: notes, warning: warning);
+    return DosageResult(dosage: dosage, warning: warning, notes: notes);
   }
 
   DosageResult _calculateAmoxicillinDosage(
@@ -203,69 +184,51 @@ class DosageCalculatorService {
     double weight,
     int age,
   ) {
-    // 1. حساب الجرعة اليومية بناءً على الوزن (متوسط 25 مجم/كجم/يوم، يمكن أن يصل إلى 40 أو 90 حسب الحالة)
-    // Using average dose for general calculation as per external source example
-    final double dailyDose = weight * 25;
-    final double singleDose = dailyDose / 3; // الجرعة الواحدة (3 مرات يومياً)
-    final double concentration = medicine.concentration;
-
-    String dosage = '';
-    String? notes;
+    // Dosage: 20-40 mg/kg/day divided into 3 doses (using 25 mg/kg/day average)
+    final double dailyDose = weight * 25; // Average daily dose
+    final double singleDose = dailyDose / 3; // Dose per administration
+    String dosage = "";
     String? warning;
+    String? notes;
 
-    // 2. تحديد الجرعة بناءً على شكل الدواء والعمر
-    final String dosageFormLower = medicine.dosageForm.toLowerCase();
-    if (dosageFormLower == "capsule" || dosageFormLower == "tablet") {
-      if (concentration <= 0) {
-        return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للكبسولات/الأقراص.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
-        );
-      }
+    final String formLower = medicine.dosageForm.toLowerCase();
+
+    if (formLower == "capsule" || formLower == "كبسولة") {
       if (age >= 12) {
-        // للبالغين والأطفال فوق 12 سنة (عادة جرعة ثابتة مثل 500 مجم)
-        // Assuming standard adult dose if concentration matches common strengths (e.g., 250, 500)
-        if (concentration == 250 ||
-            concentration == 500 ||
-            concentration == 875 ||
-            concentration == 1000) {
-          dosage =
-              "كبسولة/قرص واحد (${concentration.toStringAsFixed(0)} مجم) 3 مرات يومياً";
-        } else {
-          // If concentration is unusual, calculate based on weight
-          dosage = "${singleDose.toStringAsFixed(1)} مجم 3 مرات يومياً";
-        }
-        notes = "مدة العلاج المعتادة: 7-10 أيام (حسب توجيهات الطبيب)";
+        dosage =
+            "للبالغين والأطفال فوق 12 سنة: كبسولة واحدة (${medicine.concentration.toStringAsFixed(0)} مجم) 3 مرات يومياً لمدة 7-10 أيام.";
       } else {
-        // للأطفال أقل من 12 سنة
-        dosage = "${singleDose.toStringAsFixed(1)} مجم 3 مرات يومياً";
-        warning =
-            "يفضل استخدام شراب الأموكسيسيلين للأطفال أقل من 12 سنة أو حسب وزنهم.";
-        notes = "مدة العلاج المعتادة: 7-10 أيام (حسب توجيهات الطبيب)";
+        dosage =
+            "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${singleDose.toStringAsFixed(1)} مجم 3 مرات يومياً لمدة 7-10 أيام.";
+        warning = "يفضل استخدام شراب الأموكسيسيلين للأطفال أقل من 12 سنة.";
       }
-    } else if (dosageFormLower == "syrup" || dosageFormLower == "suspension") {
-      if (concentration <= 0) {
+    } else if (formLower == "syrup" || formLower == "شراب") {
+      if (medicine.concentration <= 0) {
         return DosageResult(
-          dosage: 'تركيز الدواء غير معروف للشراب/المعلق.',
-          warning: 'يرجى مراجعة بيانات الدواء.',
+          dosage: "خطأ: تركيز الدواء غير صحيح للشراب.",
+          warning: "يرجى مراجعة بيانات الدواء.",
         );
       }
-      // 3. حساب حجم الشراب بناءً على التركيز (مجم/مل)
-      final double doseInMl = (singleDose / concentration);
-      dosage = "${doseInMl.toStringAsFixed(1)} مل 3 مرات يومياً";
-      notes =
-          "الجرعة اليومية الإجمالية: ${dailyDose.toStringAsFixed(1)} مجم، مدة العلاج: 7-10 أيام (حسب توجيهات الطبيب)";
+      final double doseInMl = (singleDose / medicine.concentration);
+      dosage =
+          "للأطفال ${age} سنوات (${weight.toStringAsFixed(1)} كجم): ${_roundToNearestHalf(doseInMl).toStringAsFixed(1)} مل 3 مرات يومياً لمدة 7-10 أيام.";
     } else {
-      // Handle unsupported dosage forms
       return DosageResult(
-        dosage:
-            'حساب الجرعة غير مدعوم لهذا الشكل الصيدلاني (${medicine.dosageForm}).',
-        warning: 'يرجى استشارة الطبيب أو الصيدلي.',
+        dosage: "شكل الدواء غير مدعوم للحساب (${medicine.dosageForm}).",
       );
     }
 
-    // No specific age warning mentioned for Amoxicillin in the source, but good practice to consult doctor for young children.
+    notes =
+        "الجرعة اليومية الإجمالية: ${dailyDose.toStringAsFixed(1)} مجم مقسمة على 3 جرعات";
 
-    return DosageResult(dosage: dosage, notes: notes, warning: warning);
+    return DosageResult(dosage: dosage, warning: warning, notes: notes);
   }
+
+  // Helper function to round to nearest 0.5
+  double _roundToNearestHalf(double value) {
+    return (value * 2).round() / 2;
+  }
+
+  // TODO: Implement _calculateColdMedicineDosage if needed
+  // DosageResult _calculateColdMedicineDosage(DrugEntity medicine, double weight, int age) { ... }
 }

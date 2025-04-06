@@ -16,6 +16,14 @@ abstract class InteractionRepository {
     List<DrugEntity> medicines,
   );
 
+  /// Gets the list of all loaded drug interactions.
+  /// Returns an empty list if data is not loaded.
+  List<DrugInteraction> get allLoadedInteractions;
+
+  /// Gets the map linking medicine trade names (lowercase) to their active ingredients (lowercase).
+  /// Returns an empty map if data is not loaded.
+  Map<String, List<String>> get medicineToIngredientsMap;
+
   // Add other methods if needed, e.g., finding interactions for a single pair,
   // or getting active ingredients for a specific medicine if not handled elsewhere.
 }
