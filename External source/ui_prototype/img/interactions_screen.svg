@@ -1,105 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
-  <!-- خلفية الشاشة -->
-  <rect width="360" height="640" fill="#f8f9fa" />
-  
-  <!-- شريط التطبيق -->
-  <rect x="0" y="0" width="360" height="60" fill="#1976D2" />
-  
-  <!-- زر الرجوع -->
-  <circle cx="30" cy="30" r="18" fill="rgba(255,255,255,0.2)" />
-  <path d="M35,20 L25,30 L35,40" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  
-  <!-- عنوان الشاشة -->
-  <text x="180" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">فحص التفاعلات الدوائية</text>
-  
-  <!-- قسم الأدوية المختارة -->
-  <rect x="20" y="80" width="320" height="180" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <text x="40" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">الأدوية المختارة</text>
-  
-  <!-- الدواء الأول -->
-  <rect x="40" y="120" width="280" height="50" rx="8" ry="8" fill="#E3F2FD" stroke="#BBDEFB" stroke-width="1" />
-  <circle cx="65" cy="145" r="15" fill="#BBDEFB" />
-  <text x="65" y="150" font-family="Arial, sans-serif" font-size="14" fill="#1976D2" text-anchor="middle">💊</text>
-  <text x="120" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">ابيمول 500مجم</text>
-  <circle cx="300" cy="145" r="10" fill="rgba(244,67,54,0.1)" stroke="#f44336" stroke-width="1" />
-  <line x1="295" y1="140" x2="305" y2="150" stroke="#f44336" stroke-width="1.5" />
-  <line x1="295" y1="150" x2="305" y2="140" stroke="#f44336" stroke-width="1.5" />
-  
-  <!-- الدواء الثاني -->
-  <rect x="40" y="180" width="280" height="50" rx="8" ry="8" fill="#E3F2FD" stroke="#BBDEFB" stroke-width="1" />
-  <circle cx="65" cy="205" r="15" fill="#BBDEFB" />
-  <text x="65" y="210" font-family="Arial, sans-serif" font-size="14" fill="#1976D2" text-anchor="middle">💊</text>
-  <text x="120" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1">كونجستال</text>
-  <circle cx="300" cy="205" r="10" fill="rgba(244,67,54,0.1)" stroke="#f44336" stroke-width="1" />
-  <line x1="295" y1="200" x2="305" y2="210" stroke="#f44336" stroke-width="1.5" />
-  <line x1="295" y1="210" x2="305" y2="200" stroke="#f44336" stroke-width="1.5" />
-  
-  <!-- زر إضافة دواء -->
-  <rect x="40" y="240" width="280" height="40" rx="20" ry="20" fill="white" stroke="#1976D2" stroke-width="1.5" stroke-dasharray="4" />
-  <circle cx="65" cy="260" r="12" fill="#E3F2FD" />
-  <line x1="65" y1="254" x2="65" y2="266" stroke="#1976D2" stroke-width="2" />
-  <line x1="59" y1="260" x2="71" y2="260" stroke="#1976D2" stroke-width="2" />
-  <text x="100" y="265" font-family="Arial, sans-serif" font-size="14" fill="#1976D2">إضافة دواء</text>
-  
-  <!-- قسم نتائج التفاعلات -->
-  <rect x="20" y="280" width="320" height="300" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <text x="40" y="305" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">نتائج التفاعلات</text>
-  
-  <!-- ملخص التفاعلات -->
-  <rect x="40" y="320" width="280" height="60" rx="8" ry="8" fill="#f5f5f5" />
-  
-  <circle cx="80" cy="350" r="15" fill="#FFEBEE" />
-  <text x="80" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f44336" text-anchor="middle">0</text>
-  <text x="80" y="375" font-family="Arial, sans-serif" font-size="10" fill="#f44336" text-anchor="middle">شديد</text>
-  
-  <circle cx="140" cy="350" r="15" fill="#FFCCBC" />
-  <text x="140" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF5722" text-anchor="middle">1</text>
-  <text x="140" y="375" font-family="Arial, sans-serif" font-size="10" fill="#FF5722" text-anchor="middle">كبير</text>
-  
-  <circle cx="200" cy="350" r="15" fill="#FFF3E0" />
-  <text x="200" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff9800" text-anchor="middle">0</text>
-  <text x="200" y="375" font-family="Arial, sans-serif" font-size="10" fill="#ff9800" text-anchor="middle">متوسط</text>
-  
-  <circle cx="260" cy="350" r="15" fill="#E8F5E9" />
-  <text x="260" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4CAF50" text-anchor="middle">0</text>
-  <text x="260" y="375" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle">بسيط</text>
-  
-  <!-- بطاقة التفاعل -->
-  <rect x="40" y="400" width="280" height="160" rx="10" ry="10" fill="white" stroke="#FF5722" stroke-width="1.5" />
-  
-  <rect x="40" y="400" width="280" height="40" rx="10" ry="0" fill="rgba(255,92,34,0.1)" />
-  <text x="60" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">ابيمول</text>
-  <text x="140" y="425" font-family="Arial, sans-serif" font-size="14" fill="#616161">+</text>
-  <text x="220" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#212121">كونجستال</text>
-  
-  <rect x="250" y="410" width="60" height="20" rx="10" ry="10" fill="#FF5722" />
-  <text x="280" y="425" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">كبير</text>
-  
-  <rect x="60" y="450" width="100" height="20" rx="10" ry="10" fill="#E3F2FD" />
-  <text x="110" y="465" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">حركية الدواء</text>
-  
-  <foreignObject x="60" y="480" width="240" height="40">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px; color: #616161; line-height: 1.4;">
-      قد يؤدي الاستخدام المتزامن إلى زيادة تركيز الباراسيتامول في الدم.
-    </div>
-  </foreignObject>
-  
-  <foreignObject x="60" y="520" width="240" height="40">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px; color: #FF5722; line-height: 1.4;">
-      يفضل مراقبة المريض عند استخدام الدوائين معًا وتعديل الجرعة إذا لزم الأمر.
-    </div>
-  </foreignObject>
-  
-  <!-- شريط التنقل السفلي -->
-  <rect x="0" y="590" width="360" height="50" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <circle cx="60" cy="615" r="5" fill="#616161" />
-  <text x="60" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">الرئيسية</text>
-  <circle cx="130" cy="615" r="5" fill="#616161" />
-  <text x="130" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">بحث</text>
-  <circle cx="200" cy="615" r="5" fill="#1976D2" />
-  <text x="200" y="635" font-family="Arial, sans-serif" font-size="10" fill="#1976D2" text-anchor="middle">حاسبة</text>
-  <circle cx="270" cy="615" r="5" fill="#616161" />
-  <text x="270" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">المفضلة</text>
-  <circle cx="340" cy="615" r="5" fill="#616161" />
-  <text x="340" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">حسابي</text>
-</svg>

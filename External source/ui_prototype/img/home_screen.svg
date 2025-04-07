@@ -1,66 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" width="360" height="640">
-  <!-- خلفية الشاشة -->
-  <rect width="360" height="640" fill="#f8f9fa" />
-  
-  <!-- رأس الصفحة -->
-  <path d="M0,0 L360,0 L360,160 Q360,180 340,180 L20,180 Q0,180 0,160 Z" fill="url(#header-gradient)" />
-  <defs>
-    <linearGradient id="header-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1976D2" />
-      <stop offset="100%" stop-color="#BBDEFB" />
-    </linearGradient>
-  </defs>
-  
-  <!-- معلومات المستخدم -->
-  <circle cx="320" cy="60" r="25" fill="#E3F2FD" stroke="#0D47A1" stroke-width="2" />
-  <text x="60" y="50" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0D47A1">مرحباً، أحمد</text>
-  <text x="60" y="75" font-family="Arial, sans-serif" font-size="14" fill="#0D47A1">كيف حالك اليوم؟</text>
-  
-  <!-- شريط البحث -->
-  <rect x="40" y="100" width="280" height="50" rx="25" ry="25" fill="white" stroke="#BBDEFB" stroke-width="2" />
-  <circle cx="65" cy="125" r="12" fill="none" stroke="#1976D2" stroke-width="2" />
-  <line x1="73" y1="133" x2="80" y2="140" stroke="#1976D2" stroke-width="2" />
-  <text x="90" y="130" font-family="Arial, sans-serif" font-size="14" fill="#616161">ابحث عن دواء...</text>
-  
-  <!-- قسم الفئات -->
-  <text x="40" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">الفئات</text>
-  
-  <!-- بطاقات الفئات -->
-  <rect x="40" y="230" width="130" height="100" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <circle cx="105" cy="265" r="20" fill="#BBDEFB" />
-  <text x="105" y="270" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">🔍</text>
-  <text x="105" y="310" font-family="Arial, sans-serif" font-size="14" fill="#212121" text-anchor="middle">مضادات الالتهاب</text>
-  
-  <rect x="190" y="230" width="130" height="100" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <circle cx="255" cy="265" r="20" fill="#BBDEFB" />
-  <text x="255" y="270" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">💊</text>
-  <text x="255" y="310" font-family="Arial, sans-serif" font-size="14" fill="#212121" text-anchor="middle">علاج الألم</text>
-  
-  <!-- قسم الأدوية المحدثة -->
-  <text x="40" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212121">أدوية محدثة مؤخراً</text>
-  <text x="300" y="360" font-family="Arial, sans-serif" font-size="14" fill="#1976D2" text-anchor="end">عرض الكل</text>
-  
-  <!-- بطاقات الأدوية -->
-  <rect x="40" y="380" width="150" height="180" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <circle cx="115" cy="430" r="25" fill="#BBDEFB" />
-  <text x="115" y="435" font-family="Arial, sans-serif" font-size="18" fill="#1976D2" text-anchor="middle">💊</text>
-  <text x="115" y="480" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">ابيمول 500مجم</text>
-  <text x="115" y="500" font-family="Arial, sans-serif" font-size="12" fill="#616161" text-anchor="middle">paracetamol</text>
-  <rect x="85" y="520" width="60" height="25" rx="5" ry="5" fill="#E3F2FD" />
-  <text x="115" y="537" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0D47A1" text-anchor="middle">24 جنيه</text>
-  
-  <rect x="210" y="380" width="150" height="180" rx="10" ry="10" fill="white" stroke="#e0e0e0" stroke-width="1" opacity="0.6" />
-  
-  <!-- شريط التنقل السفلي -->
-  <rect x="0" y="590" width="360" height="50" fill="white" stroke="#e0e0e0" stroke-width="1" />
-  <circle cx="60" cy="615" r="5" fill="#1976D2" />
-  <text x="60" y="635" font-family="Arial, sans-serif" font-size="10" fill="#1976D2" text-anchor="middle">الرئيسية</text>
-  <circle cx="130" cy="615" r="5" fill="#616161" />
-  <text x="130" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">بحث</text>
-  <circle cx="200" cy="615" r="5" fill="#616161" />
-  <text x="200" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">حاسبة</text>
-  <circle cx="270" cy="615" r="5" fill="#616161" />
-  <text x="270" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">المفضلة</text>
-  <circle cx="340" cy="615" r="5" fill="#616161" />
-  <text x="340" y="635" font-family="Arial, sans-serif" font-size="10" fill="#616161" text-anchor="middle">حسابي</text>
-</svg>

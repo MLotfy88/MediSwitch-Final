@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediSwitch - صيدلية جيبك</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modern-styles.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- شاشة الرئيسية -->
+        <div class="screen active" id="home-screen">
+            <div class="header">
+                <div class="user-profile">
+                    <div class="user-greeting">
+                        <h2>مرحباً، أحمد</h2>
+                        <p>ابحث عن أدويتك بسهولة</p>
+                    </div>
+                    <div class="user-avatar">
+                        <i class="fas fa-user-circle" style="font-size: 55px; color: white;"></i>
+                    </div>
+                </div>
+                <div class="search-bar modern-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="ابحث عن دواء..." id="search-input">
+                </div>
+            </div>
+            
+            <div class="categories-section">
+                <h3>الفئات الطبية</h3>
+                <div class="categories-grid">
+                    <div class="category-card floating-card" data-category="pain_management">
+                        <div class="category-icon">
+                            <i class="fas fa-head-side-virus"></i>
+                        </div>
+                        <span>مسكنات الألم</span>
+                    </div>
+                    <div class="category-card floating-card" data-category="antibiotics">
+                        <div class="category-icon">
+                            <i class="fas fa-bacteria"></i>
+                        </div>
+                        <span>مضادات حيوية</span>
+                    </div>
+                    <div class="category-card floating-card" data-category="chronic">
+                        <div class="category-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <span>أمراض مزمنة</span>
+                    </div>
+                    <div class="category-card floating-card" data-category="vitamins">
+                        <div class="category-icon">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <span>فيتامينات</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recent-drugs-section">
+                <div class="section-header">
+                    <h3>أدوية محدثة مؤخراً</h3>
+                    <a href="#" class="view-all">عرض الكل</a>
+                </div>
+                <div class="drugs-horizontal-list" id="recent-drugs-list">
+                    <div class="drug-card floating-card" data-id="1">
+                        <div class="drug-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <div class="drug-name">باراسيتامول</div>
+                        <div class="drug-active">Paracetamol 500mg</div>
+                        <div class="drug-price">
+                            25 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="2">
+                        <div class="drug-icon">
+                            <i class="fas fa-capsules"></i>
+                        </div>
+                        <div class="drug-name">أموكسيسيلين</div>
+                        <div class="drug-active">Amoxicillin 500mg</div>
+                        <div class="drug-price">
+                            40 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="3">
+                        <div class="drug-icon">
+                            <i class="fas fa-tablets"></i>
+                        </div>
+                        <div class="drug-name">إبوبروفين</div>
+                        <div class="drug-active">Ibuprofen 400mg</div>
+                        <div class="drug-price">
+                            35 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="4">
+                        <div class="drug-icon">
+                            <i class="fas fa-prescription-bottle"></i>
+                        </div>
+                        <div class="drug-name">سيتريزين</div>
+                        <div class="drug-active">Cetirizine 10mg</div>
+                        <div class="drug-price">
+                            28 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="popular-drugs-section">
+                <div class="section-header">
+                    <h3>الأدوية الأكثر بحثاً</h3>
+                    <a href="#" class="view-all">عرض الكل</a>
+                </div>
+                <div class="drugs-horizontal-list" id="popular-drugs-list">
+                    <div class="drug-card floating-card" data-id="5">
+                        <div class="drug-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <div class="drug-name">كونجستال</div>
+                        <div class="drug-active">Pseudoephedrine + Triprolidine</div>
+                        <div class="drug-price">
+                            45 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="6">
+                        <div class="drug-icon">
+                            <i class="fas fa-capsules"></i>
+                        </div>
+                        <div class="drug-name">أوميبرازول</div>
+                        <div class="drug-active">Omeprazole 20mg</div>
+                        <div class="drug-price">
+                            32 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="7">
+                        <div class="drug-icon">
+                            <i class="fas fa-tablets"></i>
+                        </div>
+                        <div class="drug-name">ميترونيدازول</div>
+                        <div class="drug-active">Metronidazole 500mg</div>
+                        <div class="drug-price">
+                            30 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="drug-card floating-card" data-id="8">
+                        <div class="drug-icon">
+                            <i class="fas fa-prescription-bottle"></i>
+                        </div>
+                        <div class="drug-name">فيفادول</div>
+                        <div class="drug-active">Paracetamol + Caffeine</div>
+                        <div class="drug-price">
+                            22 <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- شاشة البحث -->
+        <div class="screen" id="search-screen">
+            <div class="app-bar">
+                <div class="back-button">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="search-input-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="ابحث عن دواء..." id="active-search-input">
+                    <i class="fas fa-times" id="clear-search"></i>
+                </div>
+                <div class="filter-button">
+                    <i class="fas fa-filter"></i>
+                </div>
+            </div>
+            
+            <div class="search-results" id="search-results">
+                <div class="search-result-item" data-id="1">
+                    <div class="result-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">باراسيتامول 500 مجم</div>
+                        <div class="result-details">
+                            <span class="result-category">مسكنات</span>
+                            <span class="result-price">25 جنيه</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-result-item" data-id="9">
+                    <div class="result-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">باندول 500 مجم</div>
+                        <div class="result-details">
+                            <span class="result-category">مسكنات</span>
+                            <span class="result-price">30 جنيه</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-result-item" data-id="10">
+                    <div class="result-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">كيتوباراسيتامول</div>
+                        <div class="result-details">
+                            <span class="result-category">مسكنات</span>
+                            <span class="result-price">35 جنيه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- نافذة الفلترة -->
+            <div class="filter-modal" id="filter-modal">
+                <div class="filter-content">
+                    <div class="filter-header">
+                        <h3>تصفية النتائج</h3>
+                        <button class="close-filter">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="filter-body">
+                        <div class="filter-section">
+                            <h4>الفئة الرئيسية</h4>
+                            <div class="filter-chips" id="main-category-chips">
+                                <div class="filter-chip active" data-category="all">الكل</div>
+                                <div class="filter-chip" data-category="pain_management">مسكنات</div>
+                                <div class="filter-chip" data-category="antibiotics">مضادات حيوية</div>
+                                <div class="filter-chip" data-category="chronic">أمراض مزمنة</div>
+                                <div class="filter-chip" data-category="vitamins">فيتامينات</div>
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h4>شكل الدواء</h4>
+                            <div class="filter-chips" id="dosage-form-chips">
+                                <div class="filter-chip active" data-form="all">الكل</div>
+                                <div class="filter-chip" data-form="tablet">أقراص</div>
+                                <div class="filter-chip" data-form="capsule">كبسولات</div>
+                                <div class="filter-chip" data-form="syrup">شراب</div>
+                                <div class="filter-chip" data-form="injection">حقن</div>
+                                <div class="filter-chip" data-form="cream">كريم</div>
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h4>نطاق السعر</h4>
+                            <div class="price-range">
+                                <input type="range" min="0" max="1000" value="500" class="price-slider" id="price-slider">
+                                <div class="price-labels">
+                                    <span>0 جنيه</span>
+                                    <span id="price-value">500 جنيه</span>
+                                    <span>1000 جنيه</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-footer">
+                        <button class="reset-filter">إعادة ضبط</button>
+                        <button class="apply-filter modern-button">تطبيق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- شاشة تفاصيل الدواء -->
+        <div class="screen" id="drug-details-screen">
+            <div class="app-bar">
+                <div class="back-button">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <h2>تفاصيل الدواء</h2>
+                <div class="favorite-button">
+                    <i class="far fa-heart"></i>
+                </div>
+            </div>
+            
+            <div class="drug-details-content">
+                <div class="drug-header glass-card">
+                    <div class="drug-image">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="drug-title">
+                        <h3 id="drug-name">باراسيتامول 500 مجم</h3>
+                        <p id="drug-active">Paracetamol 500mg</p>
+                    </div>
+                </div>
+                
+                <div class="drug-price-section">
+                    <div class="price-container">
+                        <div class="current-price">
+                            <span id="drug-price">25</span>
+                            <span class="currency">جنيه</span>
+                        </div>
+                        <div class="old-price">
+                            <span id="drug-old-price">30</span>
+                            <span class="currency">جنيه</span>
+                        </div>
+                    </div>
+                    <div class="price-change price-decrease">
+                        <span id="price-change-percentage">-16.7%</span>
+                    </div>
+                </div>
+                
+                <div class="drug-info-tabs">
+                    <div class="tab-buttons hidden-scrollbar">
+                        <button class="tab-button active" data-tab="info">معلومات</button>
+                        <button class="tab-button" data-tab="alternatives">البدائل</button>
+                        <button class="tab-button" data-tab="dosage">الجرعات</button>
+                        <button class="tab-button" data-tab="interactions">التفاعلات</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="info-tab">
+                        <div class="info-item">
+                            <span class="info-label">الشركة المنتجة:</span>
+                            <span class="info-value" id="drug-company">جلاكسو سميثكلاين</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">الفئة:</span>
+                            <span class="info-value" id="drug-category">مسكنات</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">الشكل الدوائي:</span>
+                            <span class="info-value" id="drug-form">أقراص</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">الوصف:</span>
+                            <p class="info-description" id="drug-description">
+                                الباراسيتامول هو دواء مضاد للألم ومخفض للحرارة يستخدم لعلاج الحمى والآلام الخفيفة إلى المتوسطة. يمكن استخدامه لتخفيف آلام الصداع، وآلام العضلات، والتهاب المفاصل، وآلام الظهر، وآلام الأسنان، ونزلات البرد، والحمى.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="alternatives-tab">
+                        <div class="alternatives-list" id="alternatives-list">
+                            <div class="search-result-item">
+                                <div class="result-icon">
+                                    <i class="fas fa-pills"></i>
+                                </div>
+                                <div class="result-info">
+                                    <div class="result-name">بنادول 500 مجم</div>
+                                    <div class="result-details">
+                                        <span class="result-category badge">تشابه 100%</span>
+                                        <span class="result-price">30 جنيه</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-result-item">
+                                <div class="result-icon">
+                                    <i class="fas fa-pills"></i>
+                                </div>
+                                <div class="result-info">
+                                    <div class="result-name">تايلينول 500 مجم</div>
+                                    <div class="result-details">
+                                        <span class="result-category badge">تشابه 100%</span>
+                                        <span class="result-price">35 جنيه</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-result-item">
+                                <div class="result-icon">
+                                    <i class="fas fa-pills"></i>
+                                </div>
+                                <div class="result-info">
+                                    <div class="result-name">فيفادول</div>
+                                    <div class="result-details">
+                                        <span class="result-category badge warning">تشابه 90%</span>
+                                        <span class="result-price">22 جنيه</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="dosage-tab">
+                        <div class="dosage-calculator">
+                            <h4>حاسبة الجرعات</h4>
+                            <div class="calculator-form">
+                                <div class="form-group">
+                                    <label for="patient-weight">الوزن (كجم):</label>
+                                    <input type="number" id="patient-weight" placeholder="أدخل الوزن">
+                                </div>
+                                <div class="form-group">
+                                    <label for="patient-age">العمر (سنوات):</label>
+                                    <input type="number" id="patient-age" placeholder="أدخل العمر">
+                                </div>
+                                <button class="calculate-button modern-button">حساب الجرعة</button>
+                            </div>
+                            <div class="calculation-result" id="dosage-result">
+                                الجرعة الموصى بها: 1-2 قرص (500-1000 مجم) كل 4-6 ساعات حسب الحاجة، بحد أقصى 4 جرعات (4000 مجم) في اليوم.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content" id="interactions-tab">
+                        <div class="interactions-list">
+                            <div class="interaction-card">
+                                <div class="interaction-header">
+                                    <div class="drug-pair">
+                                        <span class="drug1">باراسيتامول</span>
+                                        <i class="fas fa-exchange-alt"></i>
+                                        <span class="drug2">وارفارين</span>
+                                    </div>
+                                    <div class="severity-badge badge warning">متوسط</div>
+                                </div>
+                                <p>قد يؤدي الاستخدام المنتظم والمطول للباراسيتامول إلى زيادة تأثير مضادات التخثر مثل الوارفارين.</p>
+                            </div>
+                            <div class="interaction-card">
+                                <div class="interaction-header">
+                                    <div class="drug-pair">
+                                        <span class="drug1">باراسيتامول</span>
+                                        <i class="fas fa-exchange-alt"></i>
+                                        <span class="drug2">ميتوكلوبراميد</span>
+                                    </div>
+                                    <div class="severity-badge badge">بسيط</div>
+                                </div>
+                                <p>قد يزيد الميتوكلوبراميد من امتصاص الباراسيتامول، مما يؤدي إلى بدء أسرع للتأثير.</p>
+                            </div>
+                        </div>
+                        <button class="modern-button interactions-check-button" style="width: 100%; margin-top: 20px;">
+                            <i class="fas fa-exchange-alt"></i>
+                            فحص التفاعلات مع أدوية أخرى
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- شاشة فحص التفاعلات الدوائية -->
+        <div class="screen" id="interactions-screen">
+            <div class="app-bar">
+                <div class="back-button">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <h2>فحص التفاعلات الدوائية</h2>
+            </div>
+            
+            <div class="interactions-content">
+                <div class="selected-drugs-section">
+                    <h3>الأدوية المختارة</h3>
+                    <div class="selected-drugs-list" id="selected-drugs-list">
+                        <div class="selected-drug-pill">
+                            <div class="remove-drug">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            باراسيتامول
+                        </div>
+                        <div class="selected-drug-pill">
+                            <div class="remove-drug">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            كونجستال
+                        </div>
+                        <div class="selected-drug-pill">
+                            <div class="remove-drug">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            أسبرين
+                        </div>
+                    </div>
+                    <button class="add-drug-button">
+                        <i class="fas fa-plus"></i>
+                        إضافة دواء
+                    </button>
+                </div>
+                
+                <div class="interactions-results-section">
+                    <h3>نتائج التفاعلات</h3>
+                    <div class="interactions-summary">
+                        <div class="severity-indicator severe">
+                            <span class="count">0</span>
+                            <span class="label">شديد</span>
+                        </div>
+                        <div class="severity-indicator major">
+                            <span class="count">1</span>
+                            <span class="label">كبير</span>
+                        </div>
+                        <div class="severity-indicator moderate">
+                            <span class="count">1</span>
+                            <span class="label">متوسط</span>
+                        </div>
+                        <div class="severity-indicator minor">
+                            <span class="count">0</span>
+                            <span class="label">بسيط</span>
+                        </div>
+                    </div>
+                    <div class="interactions-list" id="interactions-results-list">
+                        <div class="interaction-card">
+                            <div class="interaction-header">
+                                <div class="drug-pair">
+                                    <span class="drug1">أسبرين</span>
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span class="drug2">كونجستال</span>
+                                </div>
+                                <div class="severity-badge badge error">كبير</div>
+                            </div>
+                            <p>قد يؤدي استخدام الأسبرين مع السودوإيفيدرين (الموجود في الكونجستال) إلى ارتفاع ضغط الدم بشكل كبير.</p>
+                        </div>
+                        <div class="interaction-card">
+                            <div class="interaction-header">
+                                <div class="drug-pair">
+                                    <span class="drug1">أسبرين</span>
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span class="drug2">باراسيتامول</span>
+                                </div>
+                                <div class="severity-badge badge warning">متوسط</div>
+                            </div>
+                            <p>الاستخدام المطول للأسبرين مع الباراسيتامول قد يزيد من خطر أمراض الكلى.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- شاشة حاسبة الجرعات -->
+        <div class="screen" id="calculator-screen">
+            <div class="app-bar">
+                <div class="back-button">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <h2>حاسبة الجرعات</h2>
+            </div>
+            
+            <div class="calculator-content" style="padding: 20px;">
+                <div class="search-bar modern-search" style="margin-bottom: 20px;">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="ابحث عن دواء..." id="calculator-search">
+                </div>
+                
+                <div class="glass-card" style="padding: 20px; margin-bottom: 20px;">
+                    <h3 style="margin-bottom: 15px;">معلومات المريض</h3>
+                    <div class="form-group">
+                        <label for="calc-weight">الوزن (كجم):</label>
+                        <input type="number" id="calc-weight" placeholder="أدخل الوزن">
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-age">العمر (سنوات):</label>
+                        <input type="number" id="calc-age" placeholder="أدخل العمر">
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-gender">الجنس:</label>
+                        <select id="calc-gender" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); width: 100%;">
+                            <option value="male">ذكر</option>
+                            <option value="female">أنثى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-kidney">وظائف الكلى:</label>
+                        <select id="calc-kidney" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); width: 100%;">
+                            <option value="normal">طبيعية</option>
+                            <option value="moderate">متوسطة</option>
+                            <option value="severe">ضعيفة</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="glass-card" style="padding: 20px; margin-bottom: 20px;">
+                    <h3 style="margin-bottom: 15px;">الدواء المحدد:</h3>
+                    <div class="search-result-item" style="box-shadow: none; margin-bottom: 0;">
+                        <div class="result-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <div class="result-info">
+                            <div class="result-name">أموكسيسيلين 500 مجم</div>
+                            <div class="result-details">
+                                <span class="result-category">مضاد حيوي</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="modern-button" style="width: 100%; margin-bottom: 20px;">
+                    حساب الجرعة
+                </button>
+                
+                <div class="glass-card" id="calculation-result" style="padding: 20px; background-color: var(--success-light); border-right: 4px solid var(--success-color);">
+                    <h3 style="margin-bottom: 15px; color: var(--success-color);">الجرعة الموصى بها:</h3>
+                    <p style="font-size: 1.1rem; font-weight: 600;">كبسولة واحدة (500 مجم) ثلاث مرات يومياً لمدة 7-10 أيام.</p>
+                    <p style="margin-top: 10px; font-size: 0.9rem;">* يجب تناول هذا الدواء مع الطعام لتجنب تهيج المعدة.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- شاشة الإعدادات -->
+        <div class="screen" id="settings-screen">
+            <div class="app-bar">
+                <div class="back-button">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <h2>الإعدادات</h2>
+            </div>
+            
+            <div class="settings-content" style="padding: 20px;">
+                <!-- قسم المستخدم -->
+                <div class="glass-card" style="padding: 20px; margin-bottom: 20px;">
+                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background-color: var(--primary-color); display: flex; align-items: center; justify-content: center; margin-left: 16px;">
+                            <i class="fas fa-user-circle" style="font-size: 40px; color: white;"></i>
+                        </div>
+                        <div>
+                            <h3 style="margin-bottom: 4px;">أحمد محمد</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">ahmed@example.com</p>
+                        </div>
+                    </div>
+                    <button class="modern-button" style="width: 100%;">
+                        <i class="fas fa-edit"></i>
+                        تعديل الملف الشخصي
+                    </button>
+                </div>
+                
+                <!-- قسم الإعدادات العامة -->
+                <h3 style="margin-bottom: 16px; font-size: 1.2rem;">الإعدادات العامة</h3>
+                
+                <div class="glass-card" style="margin-bottom: 20px;">
+                    <!-- وضع الليل/النهار -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-moon" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>وضع الليل</span>
+                        </div>
+                        <label class="dark-mode-toggle">
+                            <input type="checkbox" id="dark-mode-toggle">
+                            <span class="toggle-slider">
+                                <i class="fas fa-sun sun-icon"></i>
+                                <i class="fas fa-moon moon-icon"></i>
+                            </span>
+                        </label>
+                    </div>
+                    
+                    <!-- اللغة -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-language" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>اللغة</span>
+                        </div>
+                        <div style="color: var(--text-secondary);">
+                            العربية <i class="fas fa-chevron-left" style="margin-right: 8px; font-size: 0.8rem;"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- الإشعارات -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center;">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-bell" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>الإشعارات</span>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- قسم الأمان والخصوصية -->
+                <h3 style="margin-bottom: 16px; font-size: 1.2rem;">الأمان والخصوصية</h3>
+                
+                <div class="glass-card" style="margin-bottom: 20px;">
+                    <!-- تغيير كلمة المرور -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-lock" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>تغيير كلمة المرور</span>
+                        </div>
+                        <i class="fas fa-chevron-left" style="color: var(--text-secondary);"></i>
+                    </div>
+                    
+                    <!-- الخصوصية -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center;">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-shield-alt" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>إعدادات الخصوصية</span>
+                        </div>
+                        <i class="fas fa-chevron-left" style="color: var(--text-secondary);"></i>
+                    </div>
+                </div>
+                
+                <!-- قسم عن التطبيق -->
+                <h3 style="margin-bottom: 16px; font-size: 1.2rem;">حول التطبيق</h3>
+                
+                <div class="glass-card">
+                    <!-- الإصدار -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-info-circle" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>إصدار التطبيق</span>
+                        </div>
+                        <span style="color: var(--text-secondary);">v1.0.0</span>
+                    </div>
+                    
+                    <!-- الشروط والأحكام -->
+                    <div style="padding: 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color);">
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-file-alt" style="margin-left: 16px; color: var(--primary-color);"></i>
+                            <span>الشروط والأحكام</span>
+                        </div>
+                        <i class="fas fa-chevron-left" style="color: var(--text-secondary);"></i>
+                    </div>
+                    
+                    <!-- تسجيل الخروج -->
+                    <div style="padding: 16px; display: flex; justify-content: center; align-items: center;">
+                        <button class="modern-button" style="background-color: var(--error-color);">
+                            <i class="fas fa-sign-out-alt"></i>
+                            تسجيل الخروج
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- شريط التنقل السفلي -->
+        <div class="bottom-nav">
+            <div class="nav-item active" data-screen="home-screen">
+                <i class="fas fa-home"></i>
+                <span>الرئيسية</span>
+            </div>
+            <div class="nav-item" data-screen="search-screen">
+                <i class="fas fa-search"></i>
+                <span>البحث</span>
+            </div>
+            <div class="nav-item" data-screen="calculator-screen">
+                <i class="fas fa-calculator"></i>
+                <span>حاسبة الجرعات</span>
+            </div>
+            <div class="nav-item" data-screen="interactions-screen">
+                <i class="fas fa-exchange-alt"></i>
+                <span>التفاعلات</span>
+            </div>
+            <div class="nav-item" data-screen="settings-screen">
+                <i class="fas fa-cog"></i>
+                <span>الإعدادات</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
