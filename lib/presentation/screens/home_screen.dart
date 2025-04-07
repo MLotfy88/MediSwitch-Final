@@ -2,12 +2,8 @@ import 'dart:async'; // Import Timer for debounce
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
-import '../bloc/alternatives_provider.dart'; // Import AlternativesProvider
 import '../bloc/medicine_provider.dart'; // Corrected provider path
-import '../screens/alternatives_screen.dart'; // Import AlternativesScreen
 import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
-import '../../main.dart'; // Import MyApp to access findDrugAlternativesUseCase (temporary DI)
-import '../../domain/usecases/find_drug_alternatives.dart'; // Import use case for provider creation
 import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
 import '../widgets/drug_list_item.dart'; // Import the list item widget
@@ -20,346 +16,409 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final TextEditingController _searchController = TextEditingController();
-  String _selectedCategory = '';
-  Timer? _debounce; // Timer for search debounce
-
-  @override
-  void dispose() {
-    _searchController.dispose();
-    _debounce?.cancel(); // Cancel timer on dispose
-    super.dispose();
-  }
+  // Removed search controller and category state as search/filter handled elsewhere now
 
   @override
   Widget build(BuildContext context) {
-    // Use watch for continuous listening, or select for specific properties
     final medicineProvider = context.watch<MedicineProvider>();
-    final medicines =
-        medicineProvider.filteredMedicines; // Now List<DrugEntity>
     final isLoading = medicineProvider.isLoading;
     final error = medicineProvider.error;
-    final categories = medicineProvider.categories;
+    // Get full list for main display, recently updated list for its section
+    final allMedicines = medicineProvider.medicines; // Use the full list
+    final recentlyUpdated = medicineProvider.recentlyUpdatedMedicines;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('MediSwitch'),
-        centerTitle: true,
-        actions: [
-          // Add Filter Button
-          IconButton(
-            icon: const Icon(Icons.filter_list),
-            onPressed: () {
-              // Open the FilterBottomSheet
-              showModalBottomSheet(
-                context: context,
-                isScrollControlled: true, // Allows sheet to take up more height
-                // Use the MedicineProvider from the current context
-                builder:
-                    (_) => ChangeNotifierProvider.value(
-                      value: context.read<MedicineProvider>(),
-                      child: const FilterBottomSheet(),
-                    ),
-              );
-            },
-            tooltip: 'فلترة حسب الفئة',
-          ),
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            onPressed:
-                isLoading
-                    ? null
-                    : () {
-                      // Disable while loading
-                      medicineProvider.loadInitialData(); // Use renamed method
-                    },
-            tooltip: 'تحديث البيانات',
-          ),
-        ],
-      ),
-      body: Column(
-        children: [
-          // Non-interactive Search Bar - Navigates to SearchScreen
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: InkWell(
-              // Make the area tappable
-              onTap: () {
-                Navigator.push(
+      // AppBar is handled by MainScreen now, so removed from here.
+      // If this screen needs a specific AppBar when standalone, add it back.
+      body: RefreshIndicator(
+        // Add pull-to-refresh
+        onRefresh:
+            () =>
+                context
+                    .read<MedicineProvider>()
+                    .loadInitialData(), // Removed forceRemote parameter
+        child: CustomScrollView(
+          // Use CustomScrollView for more complex layouts
+          slivers: <Widget>[
+            // --- Header Section (AppBar replacement) ---
+            SliverAppBar(
+              // floating: true, // Optional: make it appear on scroll up
+              // pinned: true, // Optional: keep it visible
+              // snap: true, // Optional: snap effect
+              expandedHeight: 180.0, // Adjust height as needed
+              backgroundColor:
+                  Colors.transparent, // Make background transparent
+              elevation: 0,
+              flexibleSpace: FlexibleSpaceBar(
+                background: _buildHeader(
                   context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => const SearchScreen(),
-                  ),
-                );
-              },
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16.0,
-                  vertical: 12.0,
-                ),
-                decoration: BoxDecoration(
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.surfaceVariant.withOpacity(0.5),
-                  borderRadius: BorderRadius.circular(10.0),
-                  border: Border.all(
-                    color: Theme.of(
-                      context,
-                    ).colorScheme.outline.withOpacity(0.5),
-                  ),
-                ),
-                child: Row(
-                  children: [
-                    Icon(Icons.search, color: Theme.of(context).hintColor),
-                    const SizedBox(width: 8.0),
-                    Text(
-                      'بحث عن دواء...', // Placeholder text
-                      style: TextStyle(color: Theme.of(context).hintColor),
-                    ),
-                  ],
-                ),
+                ), // Use a separate header builder
               ),
             ),
-          ),
-          // --- Optional Sections (Task 3.1.6) ---
-          // Placeholder for "Recently Updated" section
-          // Only show if not loading, no error, and search/filter is not active
-          if (!isLoading &&
-              error.isEmpty &&
-              _searchController.text.isEmpty &&
-              _selectedCategory.isEmpty)
-            Padding(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 16.0,
-                vertical: 8.0,
-              ),
-              child: Column(
+
+            // --- Body Content ---
+            SliverList(
+              delegate: SliverChildListDelegate([
+                // --- Categories Section ---
+                _buildSectionHeader(context, 'الفئات'),
+                _buildCategoriesGrid(context),
+                const SizedBox(height: 16.0),
+
+                // --- Recently Updated Section ---
+                if (!isLoading &&
+                    error.isEmpty &&
+                    recentlyUpdated.isNotEmpty) ...[
+                  _buildSectionHeader(
+                    context,
+                    'أدوية محدثة مؤخراً',
+                    showViewAll: true,
+                    onVewAllTap: () {
+                      // TODO: Implement navigation to a "Recently Updated" screen or filter
+                      print("View All Recently Updated Tapped");
+                    },
+                  ),
+                  _buildHorizontalDrugList(context, recentlyUpdated),
+                  const SizedBox(height: 16.0),
+                ],
+
+                // --- Main Drug List Title ---
+                _buildSectionHeader(
+                  context,
+                  'جميع الأدوية',
+                ), // Title for the main list
+              ]),
+            ),
+
+            // --- Loading/Error/Grid/List Section ---
+            SliverPadding(
+              // Add padding around the main list/grid
+              padding: const EdgeInsets.all(8.0),
+              sliver:
+                  isLoading
+                      ? const SliverFillRemaining(
+                        child: Center(child: CircularProgressIndicator()),
+                      )
+                      : error.isNotEmpty
+                      ? SliverFillRemaining(
+                        child: _buildErrorWidget(context, error),
+                      )
+                      : _buildDrugListOrGrid(context, allMedicines),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // --- Builder Methods ---
+
+  Widget _buildHeader(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.only(
+        top: kToolbarHeight,
+        left: 16.0,
+        right: 16.0,
+        bottom: 16.0,
+      ),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Theme.of(context).colorScheme.primary,
+            Theme.of(context).colorScheme.primaryContainer,
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
+        children: [
+          // User Info Row (Placeholder)
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'أدوية محدثة مؤخراً', // "Recently Updated Drugs"
-                    style: Theme.of(context).textTheme.titleMedium,
+                    'مرحباً، أحمد', // Placeholder name
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                  const SizedBox(height: 8.0),
-                  // Display horizontal list of recently updated drugs
-                  SizedBox(
-                    height: 50, // Adjust height as needed
-                    child:
-                        medicineProvider.recentlyUpdatedMedicines.isEmpty
-                            ? const Center(
-                              child: Text(
-                                'لا توجد أدوية محدثة مؤخراً.',
-                                style: TextStyle(color: Colors.grey),
-                              ),
-                            )
-                            : ListView.builder(
-                              scrollDirection: Axis.horizontal,
-                              itemCount:
-                                  medicineProvider
-                                      .recentlyUpdatedMedicines
-                                      .length,
-                              itemBuilder: (context, index) {
-                                final drug =
-                                    medicineProvider
-                                        .recentlyUpdatedMedicines[index];
-                                return Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 4.0,
-                                  ),
-                                  child: ActionChip(
-                                    avatar: CircleAvatar(
-                                      backgroundColor: Theme.of(
-                                        context,
-                                      ).colorScheme.primary.withOpacity(0.1),
-                                      child: Text(
-                                        drug.tradeName.isNotEmpty
-                                            ? drug.tradeName[0].toUpperCase()
-                                            : '?',
-                                        style: TextStyle(
-                                          color:
-                                              Theme.of(
-                                                context,
-                                              ).colorScheme.primary,
-                                        ),
-                                      ),
-                                    ),
-                                    label: Text(drug.tradeName),
-                                    tooltip: 'عرض تفاصيل ${drug.tradeName}',
-                                    onPressed: () {
-                                      // Navigate to details screen
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                          builder:
-                                              (context) =>
-                                                  DrugDetailsScreen(drug: drug),
-                                        ),
-                                      ); // End of Navigator.push
-                                    }, // End of onPressed
-                                  ), // End of ActionChip
-                                ); // End of Padding
-                              }, // <<< Add missing closing brace for itemBuilder here
-                            ),
+                  Text(
+                    'كيف حالك اليوم؟', // Placeholder greeting
+                    style: Theme.of(
+                      context,
+                    ).textTheme.bodyMedium?.copyWith(color: Colors.white70),
                   ),
-                  const SizedBox(height: 16.0), // Spacing before main list
+                ],
+              ),
+              const CircleAvatar(
+                radius: 25,
+                backgroundColor: Colors.white54,
+                child: Icon(
+                  Icons.person,
+                  size: 30,
+                  color: Colors.white,
+                ), // Placeholder avatar
+              ),
+            ],
+          ),
+          const SizedBox(height: 16.0),
+          // Search Bar
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder: (context) => const SearchScreen(),
+                ),
+              );
+            },
+            child: Container(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16.0,
+                vertical: 12.0,
+              ),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.9),
+                borderRadius: BorderRadius.circular(25.0), // Rounded corners
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.1),
+                    blurRadius: 5,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.search, color: Colors.grey.shade600),
+                  const SizedBox(width: 8.0),
+                  Text(
+                    'ابحث عن دواء...',
+                    style: TextStyle(color: Colors.grey.shade600),
+                  ),
                 ],
               ),
             ),
+          ),
+        ],
+      ),
+    );
+  }
 
-          // --- Main Medicine List ---
-          // Loading/Error Indicator OR Medicine List
-          if (isLoading)
-            const Expanded(child: Center(child: CircularProgressIndicator()))
-          else if (error.isNotEmpty)
-            // Display prominent error message, especially for initial load failures
-            Expanded(
-              // Use Expanded to take remaining space
-              child: Center(
-                // Center the error message
-                child: Padding(
-                  padding: const EdgeInsets.all(24.0),
-                  child: Column(
-                    // Use Column for icon + text + button
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        Icons
-                            .error_outline, // Or Icons.cloud_off for network issues
-                        color: Colors.red[700],
-                        size: 48.0,
-                      ),
-                      const SizedBox(height: 16.0),
-                      Text(
-                        error, // Display the error message from provider
-                        style: TextStyle(
-                          color: Colors.red[700],
-                          fontSize: 16.0,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                      const SizedBox(height: 16.0),
-                      // Add a retry button
-                      ElevatedButton.icon(
-                        icon: const Icon(Icons.refresh),
-                        label: const Text('إعادة المحاولة'),
-                        onPressed:
-                            () =>
-                                context
-                                    .read<MedicineProvider>()
-                                    .loadInitialData(),
-                      ),
-                    ],
+  Widget _buildSectionHeader(
+    BuildContext context,
+    String title, {
+    bool showViewAll = false,
+    VoidCallback? onVewAllTap,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text(
+            title,
+            style: Theme.of(
+              context,
+            ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+          ),
+          if (showViewAll)
+            TextButton(onPressed: onVewAllTap, child: const Text('عرض الكل')),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildCategoriesGrid(BuildContext context) {
+    // Placeholder categories - replace with actual data later
+    final categories = [
+      {'name': 'مضادات الالتهاب', 'icon': Icons.local_pharmacy_outlined},
+      {'name': 'علاج الألم', 'icon': Icons.healing_outlined},
+      {'name': 'نزلات البرد', 'icon': Icons.ac_unit_outlined},
+      {'name': 'العناية بالبشرة', 'icon': Icons.spa_outlined},
+    ];
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      height: 120, // Adjust height as needed
+      child: GridView.builder(
+        scrollDirection: Axis.horizontal, // Make categories horizontal
+        itemCount: categories.length,
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 1, // One row
+          mainAxisSpacing: 12.0,
+          childAspectRatio: 1.1, // Adjust aspect ratio for horizontal items
+        ),
+        itemBuilder: (context, index) {
+          final category = categories[index];
+          return InkWell(
+            onTap: () {
+              // TODO: Implement category filtering or navigation
+              print("Category Tapped: ${category['name']}");
+              context.read<MedicineProvider>().setCategory(
+                // Use setCategory method
+                category['name'] as String? ?? '',
+              );
+            },
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                CircleAvatar(
+                  radius: 30,
+                  backgroundColor: Theme.of(
+                    context,
+                  ).colorScheme.primaryContainer.withOpacity(0.5),
+                  child: Icon(
+                    category['icon'] as IconData?,
+                    size: 28,
+                    color: Theme.of(context).colorScheme.primary,
                   ),
                 ),
-              ),
-            )
-          // Medicine List (now inside the else block)
-          else
-            Expanded(
-              // Use LayoutBuilder for responsiveness (Task 3.1.7)
-              child: LayoutBuilder(
-                builder: (context, constraints) {
-                  // Define breakpoint for switching to GridView
-                  const double gridBreakpoint = 600.0;
-                  final bool useGridView =
-                      constraints.maxWidth >= gridBreakpoint;
-
-                  // Determine cross axis count for GridView
-                  final int crossAxisCount =
-                      useGridView
-                          ? (constraints.maxWidth / 250).floor().clamp(2, 4)
-                          : 1; // Adjust item width (250) as needed
-
-                  if (medicines.isEmpty &&
-                      _searchController.text.isEmpty &&
-                      _selectedCategory.isEmpty) {
-                    // Show specific message if list is empty *before* any search/filter
-                    return const Center(
-                      child: Text('لا توجد بيانات أدوية لعرضها.'),
-                    );
-                  } else if (medicines.isEmpty) {
-                    // Show "no results" only if search/filter is active
-                    return const Center(
-                      child: Text('لا توجد أدوية متطابقة مع البحث'),
-                    );
-                  } else if (useGridView) {
-                    // Use GridView for wider screens
-                    return GridView.builder(
-                      padding: const EdgeInsets.all(
-                        8.0,
-                      ), // Add padding around grid
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: crossAxisCount,
-                        childAspectRatio: 2.8, // Adjust aspect ratio as needed
-                        crossAxisSpacing: 8.0,
-                        mainAxisSpacing: 8.0,
-                      ),
-                      itemCount: medicines.length,
-                      itemBuilder: (context, index) {
-                        final drug = medicines[index];
-                        return DrugListItem(
-                          // Use the imported widget
-                          drug: drug,
-                          onTap: () {
-                            // Navigate to details screen
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder:
-                                    (context) => DrugDetailsScreen(drug: drug),
-                              ),
-                            );
-                          },
-                        );
-                      },
-                    );
-                  } else {
-                    // Use ListView for narrower screens
-                    return ListView.builder(
-                      itemCount: medicines.length,
-                      itemBuilder: (context, index) {
-                        final drug = medicines[index];
-                        return DrugListItem(
-                          // Use the imported widget
-                          drug: drug,
-                          onTap: () {
-                            // Navigate to details screen
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder:
-                                    (context) => DrugDetailsScreen(drug: drug),
-                              ),
-                            );
-                          },
-                        );
-                      },
-                    );
-                  }
-                },
-              ),
+                const SizedBox(height: 8.0),
+                Text(
+                  category['name'] as String? ?? '',
+                  style: Theme.of(context).textTheme.bodySmall,
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
             ),
-        ],
+          );
+        },
       ),
     );
   }
 
-  // Removed _showMedicineDetails function as navigation is handled directly
-
-  // Helper to build detail row (unchanged)
-  Widget _buildDetailRow(String label, String value) {
-    if (value.isEmpty) return const SizedBox.shrink();
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('$label: ', style: const TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(value)),
-        ],
+  Widget _buildHorizontalDrugList(
+    BuildContext context,
+    List<DrugEntity> drugs,
+  ) {
+    return SizedBox(
+      height: 150, // Adjust height for DrugListItem
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: drugs.length,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 12.0,
+        ), // Padding for list ends
+        itemBuilder: (context, index) {
+          final drug = drugs[index];
+          return SizedBox(
+            // Constrain width of items in horizontal list
+            width: 180, // Adjust width as needed
+            child: DrugListItem(
+              drug: drug,
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DrugDetailsScreen(drug: drug),
+                  ),
+                );
+              },
+            ),
+          );
+        },
       ),
     );
   }
-} // Closing State class
 
-// Removed local _DrugListItem definition
+  Widget _buildDrugListOrGrid(
+    BuildContext context,
+    List<DrugEntity> medicines,
+  ) {
+    if (medicines.isEmpty) {
+      return const SliverFillRemaining(
+        // Use SliverFillRemaining for empty state in CustomScrollView
+        child: Center(child: Text('لا توجد أدوية متطابقة.')),
+      );
+    }
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        const double gridBreakpoint = 600.0;
+        final bool useGridView = constraints.maxWidth >= gridBreakpoint;
+        final int crossAxisCount =
+            useGridView
+                ? (constraints.maxWidth / 220).floor().clamp(2, 4)
+                : 1; // Adjust item width (220)
+
+        if (useGridView) {
+          return SliverGrid(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: crossAxisCount,
+              childAspectRatio: 2.0, // Adjust aspect ratio for grid items
+              crossAxisSpacing: 8.0,
+              mainAxisSpacing: 8.0,
+            ),
+            delegate: SliverChildBuilderDelegate((context, index) {
+              final drug = medicines[index];
+              return DrugListItem(
+                drug: drug,
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DrugDetailsScreen(drug: drug),
+                    ),
+                  );
+                },
+              );
+            }, childCount: medicines.length),
+          );
+        } else {
+          return SliverList(
+            delegate: SliverChildBuilderDelegate((context, index) {
+              final drug = medicines[index];
+              return DrugListItem(
+                drug: drug,
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DrugDetailsScreen(drug: drug),
+                    ),
+                  );
+                },
+              );
+            }, childCount: medicines.length),
+          );
+        }
+      },
+    );
+  }
+
+  Widget _buildErrorWidget(BuildContext context, String error) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.error_outline, color: Colors.red[700], size: 48.0),
+            const SizedBox(height: 16.0),
+            Text(
+              error,
+              style: TextStyle(color: Colors.red[700], fontSize: 16.0),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16.0),
+            ElevatedButton.icon(
+              icon: const Icon(Icons.refresh),
+              label: const Text('إعادة المحاولة'),
+              onPressed:
+                  () => context.read<MedicineProvider>().loadInitialData(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
