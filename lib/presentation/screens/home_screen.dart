@@ -7,6 +7,11 @@ import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
 import '../widgets/drug_list_item.dart'; // Import the list item widget
+// TODO: Remove temporary DI access via MyApp once proper DI is set up
+import '../../main.dart';
+import '../../domain/usecases/find_drug_alternatives.dart';
+import '../bloc/alternatives_provider.dart';
+import '../screens/alternatives_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -36,15 +41,12 @@ class _HomeScreenState extends State<HomeScreen> {
             () =>
                 context
                     .read<MedicineProvider>()
-                    .loadInitialData(), // Removed forceRemote parameter
+                    .loadInitialData(), // Corrected call
         child: CustomScrollView(
           // Use CustomScrollView for more complex layouts
           slivers: <Widget>[
             // --- Header Section (AppBar replacement) ---
             SliverAppBar(
-              // floating: true, // Optional: make it appear on scroll up
-              // pinned: true, // Optional: keep it visible
-              // snap: true, // Optional: snap effect
               expandedHeight: 180.0, // Adjust height as needed
               backgroundColor:
                   Colors.transparent, // Make background transparent
@@ -54,6 +56,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   context,
                 ), // Use a separate header builder
               ),
+              // Add actions directly here if needed when this screen is standalone
+              // actions: [ _buildFilterButton(context), _buildRefreshButton(context, isLoading, medicineProvider) ],
             ),
 
             // --- Body Content ---
@@ -115,24 +119,26 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildHeader(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(
-        top: kToolbarHeight,
+        top: 40.0,
         left: 16.0,
         right: 16.0,
-        bottom: 16.0,
-      ),
+        bottom: 20.0,
+      ), // Adjusted padding
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
             Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primaryContainer,
+            Theme.of(context).colorScheme.primary.withOpacity(0.7),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
+        borderRadius: const BorderRadius.vertical(
+          bottom: Radius.circular(25),
+        ), // Curved bottom
       ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // User Info Row (Placeholder)
           Row(
@@ -160,14 +166,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 radius: 25,
                 backgroundColor: Colors.white54,
                 child: Icon(
-                  Icons.person,
+                  Icons.person_outline,
                   size: 30,
                   color: Colors.white,
                 ), // Placeholder avatar
               ),
             ],
           ),
-          const SizedBox(height: 16.0),
+          const SizedBox(height: 20.0),
           // Search Bar
           InkWell(
             onTap: () {
@@ -181,26 +187,26 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Container(
               padding: const EdgeInsets.symmetric(
                 horizontal: 16.0,
-                vertical: 12.0,
+                vertical: 14.0,
               ),
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(0.9),
-                borderRadius: BorderRadius.circular(25.0), // Rounded corners
+                borderRadius: BorderRadius.circular(25.0), // Fully rounded
                 boxShadow: [
                   BoxShadow(
                     color: Colors.black.withOpacity(0.1),
-                    blurRadius: 5,
-                    offset: const Offset(0, 2),
+                    blurRadius: 8,
+                    offset: const Offset(0, 3),
                   ),
                 ],
               ),
               child: Row(
                 children: [
-                  Icon(Icons.search, color: Colors.grey.shade600),
-                  const SizedBox(width: 8.0),
+                  Icon(Icons.search, color: Colors.grey.shade500),
+                  const SizedBox(width: 10.0),
                   Text(
                     'ابحث عن دواء...',
-                    style: TextStyle(color: Colors.grey.shade600),
+                    style: TextStyle(color: Colors.grey.shade600, fontSize: 16),
                   ),
                 ],
               ),
@@ -218,18 +224,27 @@ class _HomeScreenState extends State<HomeScreen> {
     VoidCallback? onVewAllTap,
   }) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      padding: const EdgeInsets.only(
+        left: 16.0,
+        right: 16.0,
+        top: 16.0,
+        bottom: 8.0,
+      ), // Adjusted padding
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
             title,
-            style: Theme.of(
-              context,
-            ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w600),
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+              fontWeight: FontWeight.bold,
+            ), // Bolder title
           ),
           if (showViewAll)
-            TextButton(onPressed: onVewAllTap, child: const Text('عرض الكل')),
+            TextButton(
+              onPressed: onVewAllTap,
+              child: const Text('عرض الكل'),
+              style: TextButton.styleFrom(padding: EdgeInsets.zero),
+            ),
         ],
       ),
     );
@@ -242,53 +257,68 @@ class _HomeScreenState extends State<HomeScreen> {
       {'name': 'علاج الألم', 'icon': Icons.healing_outlined},
       {'name': 'نزلات البرد', 'icon': Icons.ac_unit_outlined},
       {'name': 'العناية بالبشرة', 'icon': Icons.spa_outlined},
+      {
+        'name': 'فيتامينات',
+        'icon': Icons.health_and_safety_outlined,
+      }, // Added more examples
+      {'name': 'مضادات حيوية', 'icon': Icons.medication_liquid_outlined},
     ];
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      height: 120, // Adjust height as needed
-      child: GridView.builder(
-        scrollDirection: Axis.horizontal, // Make categories horizontal
+      height: 110, // Adjusted height
+      child: ListView.separated(
+        // Use ListView for horizontal scroll
+        scrollDirection: Axis.horizontal,
         itemCount: categories.length,
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 1, // One row
-          mainAxisSpacing: 12.0,
-          childAspectRatio: 1.1, // Adjust aspect ratio for horizontal items
-        ),
+        separatorBuilder: (context, index) => const SizedBox(width: 12.0),
         itemBuilder: (context, index) {
           final category = categories[index];
           return InkWell(
             onTap: () {
-              // TODO: Implement category filtering or navigation
-              print("Category Tapped: ${category['name']}");
+              // Use setCategory method
               context.read<MedicineProvider>().setCategory(
-                // Use setCategory method
                 category['name'] as String? ?? '',
-              );
+              ); // Corrected call
+              // Optionally navigate or just filter the main list
+              print("Category Tapped: ${category['name']}");
             },
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundColor: Theme.of(
-                    context,
-                  ).colorScheme.primaryContainer.withOpacity(0.5),
-                  child: Icon(
-                    category['icon'] as IconData?,
-                    size: 28,
-                    color: Theme.of(context).colorScheme.primary,
+            borderRadius: BorderRadius.circular(10.0),
+            child: Container(
+              width: 90, // Fixed width for category items
+              padding: const EdgeInsets.symmetric(vertical: 8.0),
+              decoration: BoxDecoration(
+                color: Theme.of(
+                  context,
+                ).colorScheme.surfaceVariant.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircleAvatar(
+                    radius: 28, // Slightly smaller avatar
+                    backgroundColor: Theme.of(
+                      context,
+                    ).colorScheme.primaryContainer.withOpacity(0.7),
+                    child: Icon(
+                      category['icon'] as IconData?,
+                      size: 26,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 8.0),
-                Text(
-                  category['name'] as String? ?? '',
-                  style: Theme.of(context).textTheme.bodySmall,
-                  textAlign: TextAlign.center,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ],
+                  const SizedBox(height: 6.0),
+                  Text(
+                    category['name'] as String? ?? '',
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      fontWeight: FontWeight.w500,
+                    ),
+                    textAlign: TextAlign.center,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
+              ),
             ),
           );
         },
@@ -296,12 +326,13 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  // Updated to use DrugListItem which now includes image handling
   Widget _buildHorizontalDrugList(
     BuildContext context,
     List<DrugEntity> drugs,
   ) {
     return SizedBox(
-      height: 150, // Adjust height for DrugListItem
+      height: 180, // Increased height to accommodate DrugListItem better
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: drugs.length,
@@ -312,8 +343,9 @@ class _HomeScreenState extends State<HomeScreen> {
           final drug = drugs[index];
           return SizedBox(
             // Constrain width of items in horizontal list
-            width: 180, // Adjust width as needed
+            width: 160, // Adjust width for card-like appearance
             child: DrugListItem(
+              // Use the imported widget
               drug: drug,
               onTap: () {
                 Navigator.push(
@@ -348,13 +380,14 @@ class _HomeScreenState extends State<HomeScreen> {
         final int crossAxisCount =
             useGridView
                 ? (constraints.maxWidth / 220).floor().clamp(2, 4)
-                : 1; // Adjust item width (220)
+                : 1; // Adjust item width estimate
 
         if (useGridView) {
           return SliverGrid(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: crossAxisCount,
-              childAspectRatio: 2.0, // Adjust aspect ratio for grid items
+              childAspectRatio:
+                  2.2, // Adjust aspect ratio for grid items with image
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
@@ -402,11 +435,19 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.error_outline, color: Colors.red[700], size: 48.0),
+            Icon(
+              Icons.error_outline,
+              color:
+                  Theme.of(context).colorScheme.error, // Use theme error color
+              size: 48.0,
+            ),
             const SizedBox(height: 16.0),
             Text(
               error,
-              style: TextStyle(color: Colors.red[700], fontSize: 16.0),
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.error,
+                fontSize: 16.0,
+              ),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 16.0),
