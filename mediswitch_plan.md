@@ -9,6 +9,7 @@
 *   **الأداء:** أولوية قصوى للمعالجة في الخلفية (Isolates)، هياكل بيانات مُحسّنة، وتحسينات UI.
 *   **الجودة:** تطبيق Clean Architecture، كود نظيف، اختبارات شاملة، CI/CD.
 *   **المرونة:** الاستعداد لتقييم DB محلي (Hive/Isar) لاحقًا إذا كان الأداء غير كافٍ.
+*   **مرجع الواجهة:** يتم الآن استخدام النموذج الأولي في `External_source/prototype/` كمرجع أساسي لتصميم وتنفيذ واجهة المستخدم (UI).
 
 ---
 
@@ -19,8 +20,10 @@
     *   `[x]` 0.1.2. اعتماد HTTPS فقط لتأمين نقل الملفات.
     *   `[x]` 0.1.3. اعتماد آلية تحديث عبر فحص الإصدار عند التشغيل مع إشعار للمستخدم.
     *   `[x]` 0.1.4. تحديد إطار عمل الـ Backend النهائي (مثل Node.js/Express أو Python/Django). (Django chosen)
-    *   `[ ]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (مثل Provider, Riverpod, أو Bloc). (Provider is used, but maybe not final)
-    *   `[ ]` 0.1.6. تحديد حل حقن التبعيات النهائي (مثل get_it).
+    *   `[x]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (تم اعتماد Provider حالياً).
+    *   `[ ]` 0.1.6. **(أولوية قادمة)** تحديد وتطبيق حل حقن التبعيات النهائي (مثل get_it).
+        *   `[ ]` 0.1.6.1. اختيار المكتبة النهائية (get_it مقترح).
+        *   `[ ]` 0.1.6.2. إعادة هيكلة (Refactor) للـ Providers والـ Use Cases لاستخدام DI.
 *   **0.2. إعداد بيئات التطوير والمستودعات:**
     *   `[ ]` 0.2.1. تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web.
     *   `[ ]` 0.2.2. تثبيت أدوات بناء الـ Backend المختارة. (Python/Django assumed installed)
@@ -42,8 +45,8 @@
     *   `[x]` 0.6.2. إعداد linter مماثل للـ Backend.
     *   `[x]` 0.6.3. إنشاء نموذج أولي (Prototype) لاختبار قراءة Excel/CSV باستخدام `compute()`. (Implemented in CsvLocalDataSource)
 *   **0.7. تصميم الواجهة (UI/UX) الأولي:**
-    *   `[x]` 0.7.1. استخدام النموذج الأولي للواجهة (`External source/ui_prototype/`) كمرجع أساسي للـ Wireframes والتصميم.
-    *   `[x]` 0.7.2. اعتماد لوحة الألوان والخطوط المحددة في (`External source/ui_prototype/css/styles.css` و `enhanced_documentation.md`).
+    *   `[x]` 0.7.1. استخدام النموذج الأولي للواجهة (`External_source/prototype/`) كمرجع أساسي للـ Wireframes والتصميم.
+    *   `[x]` 0.7.2. اعتماد لوحة الألوان والخطوط المحددة في (`External_source/prototype/css/`).
 
 ---
 
@@ -62,7 +65,7 @@
     *   `[~]` 1.2.2. بناء API Endpoint `POST /api/v1/admin/data/upload`: (Endpoint created, needs version update logic)
         *   `[x]` 1.2.2.1. استقبال الملف. (Implemented)
         *   `[x]` 1.2.2.2. التحقق من الامتداد. (Implemented)
-        *   `[ ]` 1.2.2.3. التحقق المتقدم من Headers/الأعمدة.
+        *   `[x]` 1.2.2.3. التحقق المتقدم من Headers/الأعمدة (تم التنفيذ في 4.1.1).
         *   `[x]` 1.2.2.4. نقل الملف للمخزن الدائم كـ "نشط جديد". (Implemented - overwrites)
         *   `[x]` 1.2.2.5. (اختياري) أرشفة الملف القديم. (Implemented - deletes old)
         *   `[x]` 1.2.2.6. تحديث سجل الملف النشط وإصداره.
@@ -110,25 +113,32 @@
 
 ### **المرحلة 3: تطوير الواجهة الأمامية - واجهة المستخدم والميزات الأساسية (الأسبوع 6-10)**
 
-*   **3.1. الواجهة الأساسية والشاشة الرئيسية (`HomeScreen`):**
+*   **3.1. الواجهة الأساسية والشاشة الرئيسية (`HomeScreen`):** (تمت إعادة الهيكلة بناءً على Prototype)
     *   `[x]` 3.1.1. `MaterialApp`: السمات، اللغات، التوجيه. (`main.dart` setup)
-    *   `[x]` 3.1.2. `HomeScreen`: `Scaffold`, `AppBar`, `BottomNavigationBar`. (`home_screen.dart` exists)
-    *   `[x]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`. (`HomeScreen` does this)
-    *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين (الرئيسية، الحاسبة، الإعدادات) مع الحفاظ على الحالة. (`main_screen.dart` handles this)
-    *   `[x]` 3.1.5. `CustomSearchBar`: ويدجت شريط البحث غير التفاعلي. (`HomeScreen` has search bar)
-    *   `[x]` 3.1.6. بناء أقسام اختيارية (المحدثة/المفضلة/الشائعة). ('Recently Updated' section implemented)
-    *   `[x]` 3.1.7. تطبيق التصميم المتجاوب. (Implemented LayoutBuilder for ListView/GridView switch)
+    *   `[~]` 3.1.2. `HomeScreen`: استخدام `CustomScrollView` و `SliverAppBar` للهيكل العام.
+    *   `[x]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`.
+    *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين الشاشات الرئيسية. (`main_screen.dart` handles this)
+    *   `[~]` 3.1.5. بناء `Header` مخصص (معلومات المستخدم + شريط البحث).
+    *   `[~]` 3.1.6. بناء أقسام أفقية (الفئات، المحدثة مؤخراً، الأكثر بحثاً).
+    *   `[x]` 3.1.7. تطبيق التصميم المتجاوب (ListView/GridView).
 *   **3.2. شاشة البحث (`SearchScreen`) وتفاصيل الدواء (`DrugDetailsScreen`):**
-    *   `[x]` 3.2.1. `SearchScreen`: `AppBar` مع `TextField`. (Implemented SearchScreen with TextField in AppBar)
-    *   `[x]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث. (Search logic connected to MedicineProvider from SearchScreen)
+    *   `[~]` 3.2.1. `SearchScreen`: `AppBar` مخصص مع حقل بحث نشط وزر فلترة (بناءً على Prototype).
+    *   `[x]` 3.2.2. `SearchProvider`/`Bloc`: إدارة حالة البحث (متصل بـ `MedicineProvider`).
     *   `[x]` 3.2.3. تطبيق `Debouncer` على `TextField`.
-    *   `[x]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc. (`MedicineProvider` handles this)
-    *   `[x]` 3.2.5. بناء `FilterBottomSheet` وتطبيق الفلاتر. (Filters are ChoiceChips in HomeScreen)
-    *   `[x]` 3.2.6. `ListView.builder` و `DrugCard` لعرض النتائج مع تمييز النص. (`HomeScreen` does this)
-    *   `[~]` 3.2.7. `DrugDetailsScreen`: استقبال `DrugEntity`, `CustomScrollView`, `SliverAppBar`. (Details shown in ModalBottomSheet using DrugEntity)
-    *   `[x]` 3.2.8. عرض المعلومات الأساسية وأقسام `ExpansionTile`. (Additional fields added to ModalBottomSheet)
-    *   `[x]` 3.2.9. زر "إيجاد البدائل". (UI added and linked)
-    *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI added, logic deferred)
+    *   `[x]` 3.2.4. تنفيذ منطق البحث/الفلترة في Provider/Bloc.
+    *   `[~]` 3.2.5. بناء `FilterBottomSheet` (بناءً على Prototype مع Chips و Slider).
+    *   `[x]` 3.2.6. `ListView.builder`/`GridView.builder` لعرض النتائج.
+    *   `[~]` 3.2.7. `DrugDetailsScreen`: شاشة مخصصة مع `NestedScrollView` و `TabBar` (بناءً على Prototype).
+        *   `[~]` 3.2.7.1. بناء `Header` لعرض معلومات الدواء الأساسية والصورة.
+        *   `[~]` 3.2.7.2. بناء قسم السعر.
+        *   `[~]` 3.2.7.3. بناء `TabBar` و `TabBarView` للأقسام (معلومات، بدائل، جرعات، تفاعلات).
+        *   `[~]` 3.2.7.4. بناء محتوى تبويب "معلومات".
+        *   `[~]` 3.2.7.5. بناء محتوى تبويب "البدائل" (تضمين `AlternativesScreen`).
+        *   `[ ]` 3.2.7.6. بناء محتوى تبويب "الجرعات" (Placeholder).
+        *   `[ ]` 3.2.7.7. بناء محتوى تبويب "التفاعلات" (Placeholder).
+    *   `[x]` 3.2.8. عرض المعلومات الأساسية (تم نقله إلى تبويب "معلومات").
+    *   `[x]` 3.2.9. زر "إيجاد البدائل" (موجود في تبويب "البدائل").
+    *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI مضاف في AppBar، المنطق مؤجل لـ 5.3.6).
     *   `[x]` 3.2.11. استخدام `CachedNetworkImage` (تم التحديث في `DrugListItem`، يتطلب وجود `imageUrl` في البيانات).
 *   `[ ]` **3.3. شاشة حاسبة الجرعة (`weight_calculator_screen.dart`):** (Implementing using External Source)
     *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`. (Exists)
@@ -183,9 +193,9 @@
         *   `[x]` 3.5.5.3. ربط الواجهة بالـ Provider لعرض الأدوية المختارة.
         *   `[x]` 3.5.5.4. عرض نتائج التفاعلات (الشدة، التأثير، التوصيات) من الـ Provider.
         *   `[x]` 3.5.5.5. عرض مؤشر التحميل وحالة الخطأ.
-*   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (Screen exists, needs implementation)
+*   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (تمت إعادة الهيكلة بناءً على Prototype)
     *   `[x]` 3.6.1. `SettingsProvider`/`Bloc`.
-    *   `[x]` 3.6.2. بناء الواجهة (`ListTile`, `SwitchListTile`). (Basic UI with Theme toggle added)
+    *   `[~]` 3.6.2. بناء الواجهة باستخدام `ListView` و `Card` للأقسام (ملف شخصي، عام، أمان، حول).
     *   `[x]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language implemented)
     *   `[x]` 3.6.4. بناء واجهة إدارة الاشتراك. (Placeholder UI added)
     *   `[x]` 3.6.5. استخدام `url_launcher` للروابط. (Implemented for About, Privacy, Terms)
@@ -231,7 +241,7 @@
     *   `[ ]` 5.3.3. تنفيذ عمليات الشراء والاستعادة.
     *   `[ ]` 5.3.4. التحقق من صحة الإيصالات.
     *   `[ ]` 5.3.5. تحديث حالة المستخدم (Premium).
-    *   `[ ]` 5.3.6. التحكم في عرض الإعلانات والميزات Premium.
+    *   `[ ]` 5.3.6. التحكم في عرض الإعلانات والميزات Premium (مثل زر المفضلة 3.2.10، حفظ الحساب 3.3.8).
 *   **5.4. إرسال الإحصائيات التفصيلية:**
     *   `[ ]` 5.4.1. بناء `AnalyticsService`.
     *   `[ ]` 5.4.2. استدعاء `AnalyticsService` من الأماكن المناسبة.

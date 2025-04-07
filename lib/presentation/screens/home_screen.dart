@@ -8,10 +8,10 @@ import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
 import '../widgets/drug_list_item.dart'; // Import the list item widget
 // TODO: Remove temporary DI access via MyApp once proper DI is set up
-import '../../main.dart';
-import '../../domain/usecases/find_drug_alternatives.dart';
-import '../bloc/alternatives_provider.dart';
-import '../screens/alternatives_screen.dart';
+// import '../../main.dart';
+// import '../../domain/usecases/find_drug_alternatives.dart';
+// import '../bloc/alternatives_provider.dart';
+// import '../screens/alternatives_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -21,8 +21,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  // Removed search controller and category state as search/filter handled elsewhere now
-
   @override
   Widget build(BuildContext context) {
     final medicineProvider = context.watch<MedicineProvider>();
@@ -31,30 +29,31 @@ class _HomeScreenState extends State<HomeScreen> {
     // Get full list for main display, recently updated list for its section
     final allMedicines = medicineProvider.medicines; // Use the full list
     final recentlyUpdated = medicineProvider.recentlyUpdatedMedicines;
+    // TODO: Add logic for popular medicines if needed
 
     return Scaffold(
       // AppBar is handled by MainScreen now, so removed from here.
-      // If this screen needs a specific AppBar when standalone, add it back.
       body: RefreshIndicator(
         // Add pull-to-refresh
-        onRefresh:
-            () =>
-                context
-                    .read<MedicineProvider>()
-                    .loadInitialData(), // Corrected call
+        onRefresh: () => context.read<MedicineProvider>().loadInitialData(),
         child: CustomScrollView(
           // Use CustomScrollView for more complex layouts
           slivers: <Widget>[
-            // --- Header Section (AppBar replacement) ---
+            // --- Header Section ---
             SliverAppBar(
               expandedHeight: 180.0, // Adjust height as needed
               backgroundColor:
                   Colors.transparent, // Make background transparent
               elevation: 0,
+              pinned: true, // Keep header visible while scrolling up
               flexibleSpace: FlexibleSpaceBar(
                 background: _buildHeader(
                   context,
                 ), // Use a separate header builder
+                // Prevent title from showing when collapsed
+                titlePadding: EdgeInsets.zero,
+                centerTitle: true,
+                title: const SizedBox.shrink(), // Hide title when collapsed
               ),
               // Add actions directly here if needed when this screen is standalone
               // actions: [ _buildFilterButton(context), _buildRefreshButton(context, isLoading, medicineProvider) ],
@@ -64,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
             SliverList(
               delegate: SliverChildListDelegate([
                 // --- Categories Section ---
-                _buildSectionHeader(context, 'الفئات'),
+                _buildSectionHeader(context, 'الفئات الطبية'), // Updated title
                 _buildCategoriesGrid(context),
                 const SizedBox(height: 16.0),
 
@@ -85,18 +84,32 @@ class _HomeScreenState extends State<HomeScreen> {
                   const SizedBox(height: 16.0),
                 ],
 
-                // --- Main Drug List Title ---
+                // --- Popular Drugs Section (Placeholder) ---
                 _buildSectionHeader(
                   context,
-                  'جميع الأدوية',
-                ), // Title for the main list
+                  'الأدوية الأكثر بحثاً',
+                  showViewAll: true,
+                  onVewAllTap: () {
+                    // TODO: Implement navigation to a "Popular Drugs" screen or filter
+                    print("View All Popular Drugs Tapped");
+                  },
+                ),
+                _buildHorizontalDrugList(
+                  context,
+                  allMedicines.take(5).toList(),
+                ), // Placeholder with first 5 drugs
+                const SizedBox(height: 16.0),
+
+                // --- Main Drug List Title ---
+                // Removed "All Drugs" title as it might be redundant if filtering is clear
+                // _buildSectionHeader(context, 'جميع الأدوية'),
               ]),
             ),
 
             // --- Loading/Error/Grid/List Section ---
             SliverPadding(
               // Add padding around the main list/grid
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(12.0), // Slightly more padding
               sliver:
                   isLoading
                       ? const SliverFillRemaining(
@@ -117,30 +130,32 @@ class _HomeScreenState extends State<HomeScreen> {
   // --- Builder Methods ---
 
   Widget _buildHeader(BuildContext context) {
+    // Mimics the header structure from the prototype
     return Container(
       padding: const EdgeInsets.only(
         top: 40.0,
-        left: 16.0,
-        right: 16.0,
-        bottom: 20.0,
-      ), // Adjusted padding
+        left: 20.0,
+        right: 20.0,
+        bottom: 24.0,
+      ), // More padding
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
             Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primary.withOpacity(0.7),
+            Theme.of(context).colorScheme.primaryContainer,
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: const BorderRadius.vertical(
-          bottom: Radius.circular(25),
-        ), // Curved bottom
+          bottom: Radius.circular(30),
+        ), // More curve
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
         children: [
-          // User Info Row (Placeholder)
+          // User Info Row
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -154,26 +169,28 @@ class _HomeScreenState extends State<HomeScreen> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  const SizedBox(height: 4),
                   Text(
-                    'كيف حالك اليوم؟', // Placeholder greeting
+                    'ابحث عن أدويتك بسهولة', // Updated subtitle from prototype
                     style: Theme.of(
                       context,
                     ).textTheme.bodyMedium?.copyWith(color: Colors.white70),
                   ),
                 ],
               ),
-              const CircleAvatar(
-                radius: 25,
-                backgroundColor: Colors.white54,
-                child: Icon(
-                  Icons.person_outline,
+              CircleAvatar(
+                // Using CircleAvatar for consistency
+                radius: 28, // Slightly larger
+                backgroundColor: Colors.white.withOpacity(0.3),
+                child: const Icon(
+                  Icons.person_outline_rounded,
                   size: 30,
                   color: Colors.white,
-                ), // Placeholder avatar
+                ),
               ),
             ],
           ),
-          const SizedBox(height: 20.0),
+          const SizedBox(height: 24.0),
           // Search Bar
           InkWell(
             onTap: () {
@@ -186,27 +203,31 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             child: Container(
               padding: const EdgeInsets.symmetric(
-                horizontal: 16.0,
+                horizontal: 20.0,
                 vertical: 14.0,
               ),
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.9),
-                borderRadius: BorderRadius.circular(25.0), // Fully rounded
+                color:
+                    Theme.of(context).colorScheme.surface, // Use surface color
+                borderRadius: BorderRadius.circular(28.0), // Fully rounded
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
-                    blurRadius: 8,
-                    offset: const Offset(0, 3),
+                    color: Colors.black.withOpacity(0.08),
+                    blurRadius: 10,
+                    offset: const Offset(0, 4),
                   ),
                 ],
               ),
               child: Row(
                 children: [
-                  Icon(Icons.search, color: Colors.grey.shade500),
-                  const SizedBox(width: 10.0),
+                  Icon(Icons.search, color: Theme.of(context).hintColor),
+                  const SizedBox(width: 12.0),
                   Text(
                     'ابحث عن دواء...',
-                    style: TextStyle(color: Colors.grey.shade600, fontSize: 16),
+                    style: TextStyle(
+                      color: Theme.of(context).hintColor,
+                      fontSize: 16,
+                    ),
                   ),
                 ],
               ),
@@ -227,8 +248,8 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.only(
         left: 16.0,
         right: 16.0,
-        top: 16.0,
-        bottom: 8.0,
+        top: 20.0,
+        bottom: 12.0,
       ), // Adjusted padding
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -243,7 +264,13 @@ class _HomeScreenState extends State<HomeScreen> {
             TextButton(
               onPressed: onVewAllTap,
               child: const Text('عرض الكل'),
-              style: TextButton.styleFrom(padding: EdgeInsets.zero),
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.zero,
+                textStyle: TextStyle(
+                  fontWeight: FontWeight.w600,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+              ),
             ),
         ],
       ),
@@ -251,68 +278,91 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesGrid(BuildContext context) {
-    // Placeholder categories - replace with actual data later
+    // Categories based on prototype
     final categories = [
-      {'name': 'مضادات الالتهاب', 'icon': Icons.local_pharmacy_outlined},
-      {'name': 'علاج الألم', 'icon': Icons.healing_outlined},
-      {'name': 'نزلات البرد', 'icon': Icons.ac_unit_outlined},
-      {'name': 'العناية بالبشرة', 'icon': Icons.spa_outlined},
+      {
+        'name': 'مسكنات الألم',
+        'icon': Icons.healing_outlined,
+        'data': 'pain_management',
+      },
+      {
+        'name': 'مضادات حيوية',
+        'icon': Icons.medication_liquid_outlined,
+        'data': 'antibiotics',
+      },
+      {
+        'name': 'أمراض مزمنة',
+        'icon': Icons.monitor_heart_outlined,
+        'data': 'chronic',
+      },
       {
         'name': 'فيتامينات',
-        'icon': Icons.health_and_safety_outlined,
-      }, // Added more examples
-      {'name': 'مضادات حيوية', 'icon': Icons.medication_liquid_outlined},
+        'icon': Icons.local_florist_outlined,
+        'data': 'vitamins',
+      },
+      // Add more if needed
     ];
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      height: 110, // Adjusted height
+      height: 115, // Adjusted height
       child: ListView.separated(
         // Use ListView for horizontal scroll
         scrollDirection: Axis.horizontal,
         itemCount: categories.length,
-        separatorBuilder: (context, index) => const SizedBox(width: 12.0),
+        separatorBuilder:
+            (context, index) =>
+                const SizedBox(width: 16.0), // Increased spacing
         itemBuilder: (context, index) {
           final category = categories[index];
           return InkWell(
             onTap: () {
-              // Use setCategory method
+              // Use setCategory from provider
               context.read<MedicineProvider>().setCategory(
-                category['name'] as String? ?? '',
-              ); // Corrected call
-              // Optionally navigate or just filter the main list
+                category['data'] as String? ?? '',
+              );
               print("Category Tapped: ${category['name']}");
             },
-            borderRadius: BorderRadius.circular(10.0),
+            borderRadius: BorderRadius.circular(16.0), // More rounded
             child: Container(
-              width: 90, // Fixed width for category items
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
+              width: 95, // Fixed width
+              padding: const EdgeInsets.symmetric(
+                vertical: 12.0,
+                horizontal: 8.0,
+              ),
               decoration: BoxDecoration(
-                color: Theme.of(
-                  context,
-                ).colorScheme.surfaceVariant.withOpacity(0.3),
-                borderRadius: BorderRadius.circular(10.0),
+                color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(
+                  0.5,
+                ), // Slightly different background
+                borderRadius: BorderRadius.circular(16.0),
+                boxShadow: [
+                  // Add subtle shadow
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.05),
+                    blurRadius: 5,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CircleAvatar(
-                    radius: 28, // Slightly smaller avatar
-                    backgroundColor: Theme.of(
-                      context,
-                    ).colorScheme.primaryContainer.withOpacity(0.7),
+                    radius: 28,
+                    backgroundColor:
+                        Theme.of(context).colorScheme.primaryContainer,
                     child: Icon(
                       category['icon'] as IconData?,
-                      size: 26,
+                      size: 28,
                       color: Theme.of(context).colorScheme.primary,
                     ),
                   ),
-                  const SizedBox(height: 6.0),
+                  const SizedBox(height: 8.0),
                   Text(
                     category['name'] as String? ?? '',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w500,
-                    ),
+                      fontWeight: FontWeight.w600,
+                    ), // Slightly bolder text
                     textAlign: TextAlign.center,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
@@ -332,18 +382,15 @@ class _HomeScreenState extends State<HomeScreen> {
     List<DrugEntity> drugs,
   ) {
     return SizedBox(
-      height: 180, // Increased height to accommodate DrugListItem better
+      height: 210, // Increased height for better card display with image
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: drugs.length,
-        padding: const EdgeInsets.symmetric(
-          horizontal: 12.0,
-        ), // Padding for list ends
+        padding: const EdgeInsets.symmetric(horizontal: 12.0),
         itemBuilder: (context, index) {
           final drug = drugs[index];
           return SizedBox(
-            // Constrain width of items in horizontal list
-            width: 160, // Adjust width for card-like appearance
+            width: 170, // Adjusted width
             child: DrugListItem(
               // Use the imported widget
               drug: drug,
@@ -377,17 +424,17 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, constraints) {
         const double gridBreakpoint = 600.0;
         final bool useGridView = constraints.maxWidth >= gridBreakpoint;
+        // Adjust crossAxisCount and childAspectRatio based on DrugListItem's new layout
         final int crossAxisCount =
-            useGridView
-                ? (constraints.maxWidth / 220).floor().clamp(2, 4)
-                : 1; // Adjust item width estimate
+            useGridView ? (constraints.maxWidth / 200).floor().clamp(2, 4) : 1;
+        final double childAspectRatio =
+            useGridView ? 0.8 : 2.5; // Adjust aspect ratio
 
         if (useGridView) {
           return SliverGrid(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: crossAxisCount,
-              childAspectRatio:
-                  2.2, // Adjust aspect ratio for grid items with image
+              childAspectRatio: childAspectRatio,
               crossAxisSpacing: 8.0,
               mainAxisSpacing: 8.0,
             ),
@@ -407,6 +454,7 @@ class _HomeScreenState extends State<HomeScreen> {
             }, childCount: medicines.length),
           );
         } else {
+          // Use ListView for narrower screens
           return SliverList(
             delegate: SliverChildBuilderDelegate((context, index) {
               final drug = medicines[index];
