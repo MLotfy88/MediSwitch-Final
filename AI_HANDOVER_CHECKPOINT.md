@@ -40,6 +40,6 @@ tml # MediSwitch Project - AI Handover Checkpoint
     *   **Image Caching (Task 3.2.11):** Added `CachedNetworkImage` dependency, updated `DrugEntity` and `MedicineModel`, updated CSV parsing, and updated `DrugListItem` widget.
     *   **Wi-Fi Debugging Docs (Task 0.2.5):** Created `README.md` with ADB Wi-Fi debugging steps.
     *   **Backend Enhancements (Tasks 4.1, 4.2, 4.3, 4.4.1):** Implemented detailed file validation (using pandas), AdMob config endpoint, General config endpoint, and Analytics logging endpoint (including model, serializer, view, URL, migrations).
-    *   **UI Refinements:** Created dedicated `DrugDetailsScreen`, updated `HomeScreen` navigation and layout based on SVG/descriptions (approximating Figma designs). Fixed related code errors.
+    *   **UI Refinements:** Implemented basic UI structure for `HomeScreen`, `DrugDetailsScreen`, `SearchScreen`, and `SettingsScreen` based on the HTML/CSS/JS prototype found in `External_source/prototype/`. Refactored `FilterBottomSheet` based on prototype. Fixed related code errors.
 *   The code within the `External source` directory has been commented out or deleted as requested. Figma links are now the primary UI reference (though direct access is not possible for the AI).
 *   Refer **strictly** to `@/mediswitch_plan.md` to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).

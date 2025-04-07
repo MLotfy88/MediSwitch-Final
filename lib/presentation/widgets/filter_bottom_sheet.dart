@@ -10,110 +10,280 @@ class FilterBottomSheet extends StatefulWidget {
 }
 
 class _FilterBottomSheetState extends State<FilterBottomSheet> {
-  String? _tempSelectedCategory; // Temporarily store selection
+  String? _tempSelectedCategory;
+  String? _tempSelectedDosageForm; // State for dosage form
+  RangeValues?
+  _tempPriceRange; // State for price range (using RangeValues for flexibility)
+  // TODO: Get actual min/max price from provider or data source
+  final double _minPrice = 0;
+  final double _maxPrice = 1000; // Placeholder max price
 
   @override
   void initState() {
     super.initState();
-    // Initialize with the current category from the provider
-    _tempSelectedCategory = context.read<MedicineProvider>().selectedCategory;
+    // Initialize with current filters from the provider
+    final provider = context.read<MedicineProvider>();
+    _tempSelectedCategory = provider.selectedCategory;
+    // TODO: Initialize dosage form and price range from provider if implemented
+    _tempSelectedDosageForm = ''; // Default to 'All'
+    _tempPriceRange = RangeValues(
+      _minPrice,
+      _maxPrice,
+    ); // Default to full range
+    // If provider has single price value, adjust initial range
+    // if (provider.selectedPrice != null) {
+    //   _tempPriceRange = RangeValues(_minPrice, provider.selectedPrice!);
+    // }
   }
 
   @override
   Widget build(BuildContext context) {
     final medicineProvider = context.watch<MedicineProvider>();
-    final categories = medicineProvider.categories;
-    final currentCategory = medicineProvider.selectedCategory;
-
-    // Update temp selection if provider changes externally (less likely here)
-    // This ensures the radio button reflects the actual state if sheet is rebuilt
-    if (_tempSelectedCategory != currentCategory &&
-        categories.contains(currentCategory)) {
-      _tempSelectedCategory = currentCategory;
-    } else if (!categories.contains(_tempSelectedCategory) &&
-        _tempSelectedCategory != '') {
-      // If the temp category is no longer valid (e.g., data reloaded), reset it
-      _tempSelectedCategory = '';
-    }
+    final categories = ['', ...medicineProvider.categories]; // Add 'All' option
+    // Placeholder dosage forms - replace with actual data later
+    final dosageForms = ['', 'أقراص', 'كبسولات', 'شراب', 'حقن', 'كريم'];
 
     return Container(
-      padding: const EdgeInsets.all(16.0),
-      decoration: const BoxDecoration(
-        color: Colors.white, // Or use Theme color
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20.0)),
+      // Mimic .filter-content styling
+      padding: const EdgeInsets.only(top: 8.0), // Padding for handle
+      decoration: BoxDecoration(
+        color: Theme.of(context).colorScheme.surface,
+        borderRadius: const BorderRadius.vertical(
+          top: Radius.circular(24.0),
+        ), // .rounded-xl
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min, // Take minimum height
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // Drag Handle
           Center(
-            // Handle for dragging
             child: Container(
-              width: 50,
-              height: 5,
+              width: 40,
+              height: 4,
+              margin: const EdgeInsets.symmetric(vertical: 8.0),
               decoration: BoxDecoration(
                 color: Colors.grey[300],
                 borderRadius: BorderRadius.circular(10.0),
               ),
             ),
           ),
-          const SizedBox(height: 16.0),
-          const Text(
-            'فلترة حسب الفئة',
-            style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 10.0),
-          Expanded(
-            // Allow list to scroll if many categories
-            child: ListView(
-              shrinkWrap: true,
+          // Header
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 8.0,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                // Option for "All"
-                RadioListTile<String>(
-                  title: const Text('الكل'),
-                  value: '', // Represent "All" with empty string
-                  groupValue: _tempSelectedCategory,
-                  onChanged: (value) {
-                    setState(() {
-                      _tempSelectedCategory = value;
-                    });
-                  },
+                const Text(
+                  'تصفية النتائج',
+                  style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                 ),
-                // Options for each category
-                ...categories.map((category) {
-                  return RadioListTile<String>(
-                    title: Text(category),
-                    value: category,
-                    groupValue: _tempSelectedCategory,
-                    onChanged: (value) {
-                      setState(() {
-                        _tempSelectedCategory = value;
-                      });
-                    },
-                  );
-                }).toList(),
+                IconButton(
+                  icon: const Icon(Icons.close),
+                  onPressed: () => Navigator.pop(context),
+                  tooltip: 'إغلاق',
+                ),
               ],
             ),
           ),
-          const SizedBox(height: 16.0),
-          // Apply Button
-          Center(
-            child: ElevatedButton(
-              onPressed: () {
-                // Apply the selected category in the provider
-                if (_tempSelectedCategory != null) {
-                  context.read<MedicineProvider>().setCategory(
-                    _tempSelectedCategory!,
-                  );
-                }
-                Navigator.pop(context); // Close the bottom sheet
-              },
-              child: const Text('تطبيق'),
+          const Divider(height: 1),
+          // Scrollable Filter Body
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Category Filter
+                  _buildFilterSection(
+                    context,
+                    'الفئة الرئيسية',
+                    categories,
+                    _tempSelectedCategory,
+                    (value) => setState(() => _tempSelectedCategory = value),
+                  ),
+                  const SizedBox(height: 20),
+                  // Dosage Form Filter
+                  _buildFilterSection(
+                    context,
+                    'شكل الدواء',
+                    dosageForms,
+                    _tempSelectedDosageForm,
+                    (value) => setState(() => _tempSelectedDosageForm = value),
+                  ),
+                  const SizedBox(height: 20),
+                  // Price Filter
+                  _buildPriceRangeSection(context),
+                ],
+              ),
             ),
           ),
-          const SizedBox(height: 8.0), // Padding at the bottom
+          // Footer Buttons
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 12.0,
+            ),
+            decoration: BoxDecoration(
+              border: Border(
+                top: BorderSide(color: Theme.of(context).dividerColor),
+              ),
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                TextButton(
+                  onPressed: () {
+                    // Reset temporary selections and apply
+                    setState(() {
+                      _tempSelectedCategory = '';
+                      _tempSelectedDosageForm = '';
+                      _tempPriceRange = RangeValues(_minPrice, _maxPrice);
+                    });
+                    // Apply reset filters immediately
+                    // TODO: Add reset logic to provider if needed
+                    context.read<MedicineProvider>().setCategory('');
+                    // context.read<MedicineProvider>().setDosageForm(''); // Add if implemented
+                    // context.read<MedicineProvider>().setPriceRange(null); // Add if implemented
+                    // Navigator.pop(context); // Optionally close after reset
+                  },
+                  child: const Text('إعادة ضبط'),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    // Apply the selected filters in the provider
+                    // TODO: Add dosage form and price range filtering to provider
+                    if (_tempSelectedCategory != null) {
+                      context.read<MedicineProvider>().setCategory(
+                        _tempSelectedCategory!,
+                      );
+                    }
+                    // if (_tempSelectedDosageForm != null) {
+                    //   context.read<MedicineProvider>().setDosageForm(_tempSelectedDosageForm!);
+                    // }
+                    // if (_tempPriceRange != null) {
+                    //   context.read<MedicineProvider>().setPriceRange(_tempPriceRange!);
+                    // }
+                    Navigator.pop(context); // Close the bottom sheet
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Theme.of(context).colorScheme.primary,
+                    foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24,
+                      vertical: 12,
+                    ),
+                  ),
+                  child: const Text('تطبيق'),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
+    );
+  }
+
+  // Helper to build a filter section with chips
+  Widget _buildFilterSection(
+    BuildContext context,
+    String title,
+    List<String> options,
+    String? selectedValue,
+    ValueChanged<String?> onChanged,
+  ) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(title, style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 8.0),
+        Wrap(
+          // Use Wrap for chips
+          spacing: 8.0,
+          runSpacing: 8.0,
+          children:
+              options.map((option) {
+                final isSelected = selectedValue == option;
+                return FilterChip(
+                  label: Text(option.isEmpty ? 'الكل' : option),
+                  selected: isSelected,
+                  onSelected: (selected) {
+                    onChanged(
+                      selected ? option : '',
+                    ); // Pass empty string for 'All'
+                  },
+                  selectedColor: Theme.of(context).colorScheme.primary,
+                  labelStyle: TextStyle(
+                    color:
+                        isSelected
+                            ? Theme.of(context).colorScheme.onPrimary
+                            : Theme.of(context).colorScheme.onSurface,
+                    fontWeight:
+                        isSelected ? FontWeight.bold : FontWeight.normal,
+                  ),
+                  checkmarkColor: Theme.of(context).colorScheme.onPrimary,
+                  backgroundColor: Theme.of(
+                    context,
+                  ).colorScheme.surfaceVariant.withOpacity(0.5),
+                  shape: StadiumBorder(
+                    side: BorderSide(
+                      color:
+                          isSelected
+                              ? Colors.transparent
+                              : Theme.of(context).dividerColor,
+                    ),
+                  ),
+                );
+              }).toList(),
+        ),
+      ],
+    );
+  }
+
+  // Helper to build the price range slider section
+  Widget _buildPriceRangeSection(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('نطاق السعر', style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 8.0),
+        RangeSlider(
+          values: _tempPriceRange ?? RangeValues(_minPrice, _maxPrice),
+          min: _minPrice,
+          max: _maxPrice,
+          divisions: 20, // Optional: for discrete steps
+          labels: RangeLabels(
+            '${_tempPriceRange?.start.round() ?? _minPrice.round()} جنيه',
+            '${_tempPriceRange?.end.round() ?? _maxPrice.round()} جنيه',
+          ),
+          onChanged: (values) {
+            setState(() {
+              _tempPriceRange = values;
+            });
+          },
+          activeColor: Theme.of(context).colorScheme.primary,
+          inactiveColor: Theme.of(context).colorScheme.primaryContainer,
+        ),
+        Padding(
+          // Add labels below slider
+          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                '${_minPrice.round()} جنيه',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              Text(
+                '${_maxPrice.round()} جنيه',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
