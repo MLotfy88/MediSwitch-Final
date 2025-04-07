@@ -32,6 +32,14 @@ tml # MediSwitch Project - AI Handover Checkpoint
 
 **Current Status & Next Steps:**
 
-*   The initial state understanding (Instruction #1) is complete.
-*   Development is proceeding according to the `@/mediswitch_plan.md`, utilizing external resources found in `@/External source/` for features like Dose Calculation and Interaction Checking where applicable.
+*   Initial state understanding (Instruction #1) is complete.
+*   Core features implemented based on `@/mediswitch_plan.md` and references from `External source` (which has now been commented out/deleted):
+    *   **Dose Calculator (Task 3.3):** Implemented service, integrated with provider and UI.
+    *   **Interaction Checker (Task 3.5):** Implemented data loading, analysis service (pairwise), provider integration, and UI display. Refactored related entities and fixed resulting import errors.
+    *   **Settings Screen (Task 3.6):** Implemented theme/language switching and subscription UI placeholder.
+    *   **Image Caching (Task 3.2.11):** Added `CachedNetworkImage` dependency, updated `DrugEntity` and `MedicineModel`, updated CSV parsing, and updated `DrugListItem` widget.
+    *   **Wi-Fi Debugging Docs (Task 0.2.5):** Created `README.md` with ADB Wi-Fi debugging steps.
+    *   **Backend Enhancements (Tasks 4.1, 4.2, 4.3, 4.4.1):** Implemented detailed file validation (using pandas), AdMob config endpoint, General config endpoint, and Analytics logging endpoint (including model, serializer, view, URL, migrations).
+    *   **UI Refinements:** Created dedicated `DrugDetailsScreen`, updated `HomeScreen` navigation and layout based on SVG/descriptions (approximating Figma designs). Fixed related code errors.
+*   The code within the `External source` directory has been commented out or deleted as requested. Figma links are now the primary UI reference (though direct access is not possible for the AI).
 *   Refer **strictly** to `@/mediswitch_plan.md` to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).
