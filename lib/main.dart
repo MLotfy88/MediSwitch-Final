@@ -1,103 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-// Import necessary components for manual DI
-import 'data/datasources/local/csv_local_data_source.dart';
-import 'data/datasources/remote/drug_remote_data_source.dart';
-import 'data/repositories/drug_repository_impl.dart';
-import 'domain/repositories/drug_repository.dart';
-import 'domain/usecases/get_all_drugs.dart';
-import 'domain/usecases/search_drugs.dart';
-import 'domain/usecases/filter_drugs_by_category.dart';
-import 'domain/usecases/get_available_categories.dart';
-import 'domain/usecases/find_drug_alternatives.dart';
-import 'domain/usecases/get_last_update_timestamp.dart'; // Import new use case
+import 'core/di/locator.dart'; // Import the locator
 import 'presentation/bloc/medicine_provider.dart';
-import 'presentation/bloc/settings_provider.dart'; // Import SettingsProvider
+import 'presentation/bloc/settings_provider.dart';
+import 'presentation/bloc/alternatives_provider.dart'; // Import for global provider
+import 'presentation/bloc/dose_calculator_provider.dart'; // Import for global provider
+import 'presentation/bloc/interaction_provider.dart'; // Import for global provider
 import 'presentation/screens/main_screen.dart';
 
-void main() {
-  // Manual Dependency Injection Setup (Temporary)
-  // 1. Data Sources
-  final CsvLocalDataSource csvLocalDataSource = CsvLocalDataSource();
-  final DrugRemoteDataSource drugRemoteDataSource =
-      DrugRemoteDataSourceImpl.create();
-  // 2. Repository
-  final DrugRepository drugRepository = DrugRepositoryImpl(
-    localDataSource: csvLocalDataSource,
-    remoteDataSource: drugRemoteDataSource, // Pass the remote data source
-  );
-  // 3. Use Cases
-  final GetAllDrugs getAllDrugsUseCase = GetAllDrugs(drugRepository);
-  final SearchDrugsUseCase searchDrugsUseCase = SearchDrugsUseCase(
-    drugRepository,
-  );
-  final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase =
-      FilterDrugsByCategoryUseCase(drugRepository);
-  final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase =
-      GetAvailableCategoriesUseCase(drugRepository);
-  final FindDrugAlternativesUseCase findDrugAlternativesUseCase =
-      FindDrugAlternativesUseCase(drugRepository);
-  final GetLastUpdateTimestampUseCase
-  getLastUpdateTimestampUseCase = // Instantiate new use case
-      GetLastUpdateTimestampUseCase(drugRepository);
-
-  runApp(
-    // Pass all required use cases to MyApp
-    MyApp(
-      getAllDrugsUseCase: getAllDrugsUseCase,
-      searchDrugsUseCase: searchDrugsUseCase,
-      filterDrugsByCategoryUseCase: filterDrugsByCategoryUseCase,
-      getAvailableCategoriesUseCase: getAvailableCategoriesUseCase,
-      findDrugAlternativesUseCase: findDrugAlternativesUseCase,
-      getLastUpdateTimestampUseCase:
-          getLastUpdateTimestampUseCase, // Pass instance to MyApp
-    ),
-  );
+// Make main async
+Future<void> main() async {
+  // Ensure Flutter bindings are initialized
+  WidgetsFlutterBinding.ensureInitialized();
+  // Setup the locator before running the app
+  await setupLocator();
+  // Run the app
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // Accept all required use cases
-  final GetAllDrugs getAllDrugsUseCase;
-  final SearchDrugsUseCase searchDrugsUseCase;
-  final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
-  final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
-  final FindDrugAlternativesUseCase findDrugAlternativesUseCase;
-  final GetLastUpdateTimestampUseCase
-  getLastUpdateTimestampUseCase; // Add the new use case field
-
-  const MyApp({
-    super.key,
-    required this.getAllDrugsUseCase,
-    required this.searchDrugsUseCase,
-    required this.filterDrugsByCategoryUseCase,
-    required this.getAvailableCategoriesUseCase,
-    required this.findDrugAlternativesUseCase,
-    required this.getLastUpdateTimestampUseCase, // Require the new use case in constructor
-  });
+  // No longer need to accept use cases via constructor
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     // Wrap with MultiProvider to provide multiple providers
     return MultiProvider(
       providers: [
-        // Provide MedicineProvider
+        // Provide Providers using the locator
+        ChangeNotifierProvider(create: (_) => locator<MedicineProvider>()),
+        ChangeNotifierProvider(create: (_) => locator<SettingsProvider>()),
+        ChangeNotifierProvider(create: (_) => locator<AlternativesProvider>()),
         ChangeNotifierProvider(
-          create:
-              (_) => MedicineProvider(
-                getAllDrugsUseCase: getAllDrugsUseCase,
-                searchDrugsUseCase: searchDrugsUseCase,
-                filterDrugsByCategoryUseCase: filterDrugsByCategoryUseCase,
-                getAvailableCategoriesUseCase: getAvailableCategoriesUseCase,
-                getLastUpdateTimestampUseCase:
-                    getLastUpdateTimestampUseCase, // Provide new use case
-              ),
+          create: (_) => locator<DoseCalculatorProvider>(),
         ),
-        // Provide SettingsProvider
-        ChangeNotifierProvider(create: (_) => SettingsProvider()),
-        // Note: DoseCalculatorProvider and AlternativesProvider are provided
-        // locally in main_screen.dart and home_screen.dart respectively,
-        // which is fine for now, but could be moved here for global access if needed.
+        ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
       ],
       // Consumer is needed here to access SettingsProvider for theme/locale
       child: Consumer<SettingsProvider>(

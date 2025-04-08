@@ -34,6 +34,24 @@ class DrugEntity extends Equatable {
     this.imageUrl, // Add to constructor
   });
 
+  // Factory constructor for an empty instance
+  factory DrugEntity.empty() {
+    return const DrugEntity(
+      tradeName: '',
+      arabicName: '',
+      price: '',
+      mainCategory: '',
+      active: '',
+      company: '',
+      dosageForm: '',
+      concentration: 0.0, // Default concentration
+      unit: '',
+      usage: '',
+      description: '',
+      lastPriceUpdate: '',
+      imageUrl: null,
+    );
+  }
   // Using Equatable for value comparison
   @override
   List<Object?> get props => [

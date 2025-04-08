@@ -27,6 +27,21 @@ class DrugInteraction extends Equatable {
     this.arabicRecommendation = '',
   });
 
+  // Factory constructor to create an instance from JSON
+  factory DrugInteraction.fromJson(Map<String, dynamic> json) {
+    return DrugInteraction(
+      ingredient1: json['ingredient1'] as String? ?? '',
+      ingredient2: json['ingredient2'] as String? ?? '',
+      severity: _parseSeverity(json['severity'] as String? ?? ''),
+      type: _parseInteractionType(json['type'] as String? ?? ''),
+      effect: json['effect'] as String? ?? '',
+      arabicEffect: json['arabic_effect'] as String? ?? '', // Match JSON key
+      recommendation: json['recommendation'] as String? ?? '',
+      arabicRecommendation:
+          json['arabic_recommendation'] as String? ?? '', // Match JSON key
+    );
+  }
+
   @override
   List<Object?> get props => [
     ingredient1,
@@ -38,4 +53,23 @@ class DrugInteraction extends Equatable {
     recommendation,
     arabicRecommendation,
   ];
+}
+
+// Helper function to parse InteractionSeverity from string safely
+InteractionSeverity _parseSeverity(String severityString) {
+  return InteractionSeverity.values.firstWhere(
+    (e) =>
+        e.toString().split('.').last.toLowerCase() ==
+        severityString.toLowerCase(),
+    orElse: () => InteractionSeverity.unknown, // Default if not found
+  );
+}
+
+// Helper function to parse InteractionType from string safely
+InteractionType _parseInteractionType(String typeString) {
+  return InteractionType.values.firstWhere(
+    (e) =>
+        e.toString().split('.').last.toLowerCase() == typeString.toLowerCase(),
+    orElse: () => InteractionType.unknown, // Default if not found
+  );
 }

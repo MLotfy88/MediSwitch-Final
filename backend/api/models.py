@@ -111,3 +111,35 @@ class GeneralConfig(models.Model):
         if created:
             print("Created initial GeneralConfig record.")
         return config
+
+
+# Model to track premium subscription status (placeholder)
+# TODO: Link this to a proper User/Device profile when implemented
+class SubscriptionStatus(models.Model):
+    # Using a fixed primary key for singleton-like behavior per user/device later
+    # For now, just a placeholder identifier
+    identifier = models.CharField(max_length=255, unique=True, default="default_user") # Replace with actual user/device ID later
+    is_premium = models.BooleanField(default=False)
+    premium_expiry_date = models.DateTimeField(null=True, blank=True, help_text="Expiry date of the current premium subscription")
+    last_updated = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        status = "Premium" if self.is_premium else "Free"
+        expiry = f" (Expires: {self.premium_expiry_date})" if self.is_premium and self.premium_expiry_date else ""
+        return f"Subscription Status [{self.identifier}]: {status}{expiry}"
+
+    class Meta:
+        verbose_name = "Subscription Status"
+        verbose_name_plural = "Subscription Statuses"
+
+    @classmethod
+    def get_status(cls, identifier="default_user"): # Replace default later
+        """Gets the status for a given identifier, creating if it doesn't exist."""
+        status, created = cls.objects.get_or_create(identifier=identifier)
+        return status
+
+    def update_status(self, is_premium, expiry_date=None):
+        """Updates the premium status and expiry date."""
+        self.is_premium = is_premium
+        self.premium_expiry_date = expiry_date if is_premium else None
+        self.save()

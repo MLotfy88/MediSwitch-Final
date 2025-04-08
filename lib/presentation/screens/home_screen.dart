@@ -96,8 +96,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 _buildHorizontalDrugList(
                   context,
-                  allMedicines.take(5).toList(),
-                ), // Placeholder with first 5 drugs
+                  medicineProvider
+                      .popularDrugs, // Use actual popular drugs list
+                ),
                 const SizedBox(height: 16.0),
 
                 // --- Main Drug List Title ---
@@ -130,112 +131,113 @@ class _HomeScreenState extends State<HomeScreen> {
   // --- Builder Methods ---
 
   Widget _buildHeader(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
     // Mimics the header structure from the prototype
-    return Container(
-      padding: const EdgeInsets.only(
-        top: 40.0,
-        left: 20.0,
-        right: 20.0,
-        bottom: 24.0,
-      ), // More padding
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primaryContainer,
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
+    // Using SafeArea to avoid status bar overlap
+    return SafeArea(
+      bottom: false, // Only apply padding to the top
+      child: Container(
+        padding: const EdgeInsets.only(
+          top: 16.0, // Reduced top padding inside SafeArea
+          left: 20.0,
+          right: 20.0,
+          bottom: 20.0, // Reduced bottom padding
         ),
-        borderRadius: const BorderRadius.vertical(
-          bottom: Radius.circular(30),
-        ), // More curve
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
-        children: [
-          // User Info Row
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'مرحباً، أحمد', // Placeholder name
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+        // Removed gradient background, AppBar handles background now
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
+          children: [
+            // User Info Row
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'مرحباً، أحمد', // Placeholder name
+                      style: textTheme.titleLarge?.copyWith(
+                        // Use AppBar's foreground color or a contrasting color
+                        color: colorScheme.onPrimary,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    'ابحث عن أدويتك بسهولة', // Updated subtitle from prototype
-                    style: Theme.of(
-                      context,
-                    ).textTheme.bodyMedium?.copyWith(color: Colors.white70),
-                  ),
-                ],
-              ),
-              CircleAvatar(
-                // Using CircleAvatar for consistency
-                radius: 28, // Slightly larger
-                backgroundColor: Colors.white.withOpacity(0.3),
-                child: const Icon(
-                  Icons.person_outline_rounded,
-                  size: 30,
-                  color: Colors.white,
+                    const SizedBox(height: 2), // Reduced spacing
+                    Text(
+                      'ابحث عن أدويتك بسهولة',
+                      style: textTheme.bodyMedium?.copyWith(
+                        color: colorScheme.onPrimary.withOpacity(0.8),
+                      ),
+                    ),
+                  ],
                 ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 24.0),
-          // Search Bar
-          InkWell(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute<void>(
-                  builder: (context) => const SearchScreen(),
-                ),
-              );
-            },
-            child: Container(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 20.0,
-                vertical: 14.0,
-              ),
-              decoration: BoxDecoration(
-                color:
-                    Theme.of(context).colorScheme.surface, // Use surface color
-                borderRadius: BorderRadius.circular(28.0), // Fully rounded
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.08),
-                    blurRadius: 10,
-                    offset: const Offset(0, 4),
+                CircleAvatar(
+                  radius: 26, // Adjusted size
+                  backgroundColor: colorScheme.onPrimary.withOpacity(0.15),
+                  child: Icon(
+                    Icons.person_outline_rounded,
+                    size: 28, // Adjusted size
+                    color: colorScheme.onPrimary,
                   ),
-                ],
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.search, color: Theme.of(context).hintColor),
-                  const SizedBox(width: 12.0),
-                  Text(
-                    'ابحث عن دواء...',
-                    style: TextStyle(
+                ),
+              ],
+            ),
+            const SizedBox(height: 18.0), // Adjusted spacing
+            // Search Bar
+            InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                    builder: (context) => const SearchScreen(),
+                  ),
+                );
+              },
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16.0, // Adjusted padding
+                  vertical: 12.0, // Adjusted padding
+                ),
+                decoration: BoxDecoration(
+                  // Use a slightly different color for contrast if AppBar is primary
+                  color:
+                      colorScheme.brightness == Brightness.dark
+                          ? colorScheme.surfaceVariant
+                          : Colors.white,
+                  borderRadius: BorderRadius.circular(28.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.06),
+                      blurRadius: 8,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
+                ),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.search,
                       color: Theme.of(context).hintColor,
-                      fontSize: 16,
+                      size: 22, // Adjusted size
                     ),
-                  ),
-                ],
+                    const SizedBox(width: 10.0), // Adjusted spacing
+                    Text(
+                      'ابحث عن دواء...',
+                      style: textTheme.bodyLarge?.copyWith(
+                        color: Theme.of(context).hintColor,
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
-    );
+    ); // Add missing closing brace for SafeArea
   }
 
   Widget _buildSectionHeader(
@@ -323,51 +325,59 @@ class _HomeScreenState extends State<HomeScreen> {
               );
               print("Category Tapped: ${category['name']}");
             },
-            borderRadius: BorderRadius.circular(16.0), // More rounded
-            child: Container(
-              width: 95, // Fixed width
-              padding: const EdgeInsets.symmetric(
-                vertical: 12.0,
-                horizontal: 8.0,
-              ),
-              decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(
-                  0.5,
-                ), // Slightly different background
+            borderRadius: BorderRadius.circular(16.0),
+            child: Card(
+              // Wrap content in a Card for better styling control
+              elevation: 1.0, // Subtle elevation
+              shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(16.0),
-                boxShadow: [
-                  // Add subtle shadow
-                  BoxShadow(
-                    color: Colors.black.withOpacity(0.05),
-                    blurRadius: 5,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
               ),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CircleAvatar(
-                    radius: 28,
-                    backgroundColor:
-                        Theme.of(context).colorScheme.primaryContainer,
-                    child: Icon(
-                      category['icon'] as IconData?,
-                      size: 28,
-                      color: Theme.of(context).colorScheme.primary,
+              // Use surfaceVariant or similar for background
+              color: Theme.of(
+                context,
+              ).colorScheme.surfaceVariant.withOpacity(0.7),
+              child: Container(
+                // Use Container for fixed width
+                width: 100, // Slightly wider
+                padding: const EdgeInsets.symmetric(
+                  vertical: 14.0,
+                  horizontal: 8.0,
+                ), // Adjusted padding
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Icon background can be simpler
+                    Container(
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.primary.withOpacity(0.1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(
+                        category['icon'] as IconData?,
+                        size: 30, // Slightly larger icon
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 8.0),
-                  Text(
-                    category['name'] as String? ?? '',
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w600,
-                    ), // Slightly bolder text
-                    textAlign: TextAlign.center,
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
+                    const SizedBox(height: 10.0), // Increased spacing
+                    Text(
+                      category['name'] as String? ?? '',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        // Use bodyMedium
+                        fontWeight: FontWeight.w600,
+                        color:
+                            Theme.of(context)
+                                .colorScheme
+                                .onSurfaceVariant, // Use contrast color
+                      ),
+                      textAlign: TextAlign.center,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
               ),
             ),
           );

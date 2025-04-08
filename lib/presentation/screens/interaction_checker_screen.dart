@@ -1,220 +1,280 @@
-// lib/presentation/screens/interaction_checker_screen.dart
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
+import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
-import '../../domain/entities/interaction_severity.dart'; // Import enum
-import '../../domain/entities/interaction_type.dart'; // Import enum
+import '../../domain/entities/interaction_severity.dart';
+import '../../domain/entities/interaction_type.dart';
 import '../../domain/entities/interaction_analysis_result.dart';
-import '../bloc/interaction_provider.dart'; // Import the provider
-import '../bloc/medicine_provider.dart'; // To access the full medicine list
+import '../bloc/interaction_provider.dart';
+import '../bloc/medicine_provider.dart';
+import '../widgets/custom_search_delegate.dart'; // Import the search delegate
 
 class InteractionCheckerScreen extends StatelessWidget {
   const InteractionCheckerScreen({super.key});
 
+  // Function to show medicine search
+  Future<void> _showMedicineSearch(BuildContext context) async {
+    final interactionProvider = context.read<InteractionProvider>();
+    final medicineProvider = context.read<MedicineProvider>();
+
+    // Ensure medicine data is loaded
+    if (medicineProvider.medicines.isEmpty && !medicineProvider.isLoading) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('جاري تحميل قائمة الأدوية...')),
+      );
+      // Optionally trigger loading if needed
+      return;
+    }
+    if (medicineProvider.isLoading) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('قائمة الأدوية لا تزال قيد التحميل...')),
+      );
+      return;
+    }
+
+    // Filter out already selected medicines before passing to search delegate
+    final availableMedicines =
+        medicineProvider.medicines
+            .where(
+              (med) =>
+                  !interactionProvider.selectedMedicines.any(
+                    (selected) =>
+                        selected.tradeName ==
+                        med.tradeName, // Compare using tradeName
+                  ),
+            )
+            .toList();
+
+    if (availableMedicines.isEmpty && context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('تم اختيار كل الأدوية المتاحة.')),
+      );
+      return;
+    }
+
+    final selectedDrug = await showSearch<DrugEntity?>(
+      context: context,
+      delegate: CustomSearchDelegate(
+        searchFieldLabel: 'ابحث عن دواء لإضافته...',
+        medicines: availableMedicines, // Pass only available medicines
+        searchLogic: (query) {
+          if (query.isEmpty) {
+            return availableMedicines; // Show available if query is empty
+          }
+          final lowerCaseQuery = query.toLowerCase();
+          return availableMedicines.where((drug) {
+            return drug.tradeName.toLowerCase().contains(lowerCaseQuery) ||
+                drug.arabicName.toLowerCase().contains(lowerCaseQuery);
+          }).toList();
+        },
+      ),
+    );
+
+    if (selectedDrug != null && context.mounted) {
+      context.read<InteractionProvider>().addMedicine(selectedDrug);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    // Access the provider
     final interactionProvider = context.watch<InteractionProvider>();
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final textTheme = theme.textTheme;
+    final bool canAnalyze = interactionProvider.selectedMedicines.length >= 2;
+
+    // Define card padding and margin
+    const cardMargin = EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0);
+    const cardPadding = EdgeInsets.all(16.0);
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('مدقق التفاعلات الدوائية'),
         actions: [
-          // Add a clear button if needed
           if (interactionProvider.selectedMedicines.isNotEmpty)
             IconButton(
               icon: const Icon(Icons.clear_all),
               tooltip: 'مسح الكل',
-              onPressed: () {
-                context.read<InteractionProvider>().clearSelection();
-              },
+              onPressed:
+                  () => context.read<InteractionProvider>().clearSelection(),
             ),
         ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Section to display selected drugs as Chips
-            Text(
-              'الأدوية المختارة:',
-              style: Theme.of(context).textTheme.titleMedium,
+      body: Column(
+        // Use Column for layout
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          // Selection Card
+          Card(
+            margin: cardMargin,
+            elevation: 1,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
             ),
-            const SizedBox(height: 8),
-            interactionProvider.selectedMedicines.isEmpty
-                ? Container(
-                  padding: const EdgeInsets.symmetric(vertical: 16.0),
-                  child: const Text(
-                    'لم يتم اختيار أدوية بعد.',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(color: Colors.grey),
+            child: Padding(
+              padding: cardPadding,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text('الأدوية المختارة:', style: textTheme.titleMedium),
+                  const SizedBox(height: 12),
+                  interactionProvider.selectedMedicines.isEmpty
+                      ? Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 12.0),
+                        child: Text(
+                          'لم يتم اختيار أدوية بعد. اضغط أدناه للإضافة.',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: theme.hintColor),
+                        ),
+                      )
+                      : Wrap(
+                        spacing: 8.0,
+                        runSpacing: 6.0,
+                        children:
+                            interactionProvider.selectedMedicines.map((drug) {
+                              return Chip(
+                                label: Text(drug.tradeName),
+                                deleteIcon: const Icon(Icons.close, size: 16),
+                                onDeleted:
+                                    () => context
+                                        .read<InteractionProvider>()
+                                        .removeMedicine(drug),
+                                backgroundColor: colorScheme.primaryContainer
+                                    .withOpacity(0.4),
+                                labelStyle: TextStyle(
+                                  color: colorScheme.onPrimaryContainer,
+                                ),
+                                deleteIconColor: colorScheme.onPrimaryContainer
+                                    .withOpacity(0.7),
+                                side: BorderSide(
+                                  color: colorScheme.outline.withOpacity(0.2),
+                                ),
+                              );
+                            }).toList(),
+                      ),
+                  const SizedBox(height: 16),
+                  // Add Drug Button
+                  OutlinedButton.icon(
+                    // Changed to OutlinedButton for less emphasis
+                    icon: const Icon(Icons.add_circle_outline, size: 20),
+                    label: const Text('إضافة دواء للفحص'),
+                    style: OutlinedButton.styleFrom(
+                      foregroundColor: colorScheme.primary,
+                      side: BorderSide(
+                        color: colorScheme.primary.withOpacity(0.5),
+                      ),
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                    ),
+                    onPressed: () => _showMedicineSearch(context),
                   ),
-                )
-                : Wrap(
-                  spacing: 8.0,
-                  runSpacing: 4.0,
-                  children:
-                      interactionProvider.selectedMedicines.map((drug) {
-                        return Chip(
-                          label: Text(drug.tradeName),
-                          deleteIcon: const Icon(Icons.close, size: 18),
-                          onDeleted: () {
-                            context.read<InteractionProvider>().removeMedicine(
-                              drug,
-                            );
-                          },
-                        );
-                      }).toList(),
-                ),
-            const SizedBox(height: 16),
-            // Add Drug Button
-            ElevatedButton.icon(
-              icon: const Icon(Icons.add_circle_outline),
-              label: const Text('إضافة دواء للفحص'),
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 12),
+                ],
               ),
-              onPressed: () async {
-                // Show dialog to select a drug
-                final medicineProvider = context.read<MedicineProvider>();
-                // Ensure medicine data is loaded before showing dialog
-                if (medicineProvider.medicines.isEmpty &&
-                    !medicineProvider.isLoading) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('جاري تحميل قائمة الأدوية...'),
-                    ),
-                  );
-                  // Optionally trigger loading if needed
-                  return;
-                }
-                if (medicineProvider.isLoading) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('قائمة الأدوية لا تزال قيد التحميل...'),
-                    ),
-                  );
-                  return;
-                }
-
-                final selectedDrug = await _showDrugSelectionDialog(
-                  context,
-                  medicineProvider.medicines, // Pass the full list
-                  interactionProvider
-                      .selectedMedicines, // Pass selected to filter
-                );
-                if (selectedDrug != null) {
-                  context.read<InteractionProvider>().addMedicine(selectedDrug);
-                }
-              },
             ),
-            const SizedBox(height: 24),
-            const Divider(), // Separator before results
-            const SizedBox(height: 16),
+          ),
 
-            // Results Display Area
-            _buildResultsArea(context, interactionProvider),
-          ],
-        ),
+          // Analyze Button
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 8.0,
+            ),
+            child: ElevatedButton.icon(
+              icon:
+                  interactionProvider.isLoading
+                      ? Container(
+                        width: 20,
+                        height: 20,
+                        margin: const EdgeInsets.only(right: 8),
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2.5,
+                          color: colorScheme.onPrimary,
+                        ),
+                      )
+                      : const Icon(Icons.science_outlined),
+              label: Text(
+                interactionProvider.isLoading
+                    ? 'جاري الفحص...'
+                    : 'فحص التفاعلات',
+              ),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 14.0),
+                textStyle: textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+                backgroundColor: colorScheme.primary,
+                foregroundColor: colorScheme.onPrimary,
+                disabledBackgroundColor: colorScheme.onSurface.withOpacity(
+                  0.12,
+                ),
+                disabledForegroundColor: colorScheme.onSurface.withOpacity(
+                  0.38,
+                ),
+              ),
+              onPressed:
+                  (canAnalyze && !interactionProvider.isLoading)
+                      ? () =>
+                          context
+                              .read<InteractionProvider>()
+                              .analyzeInteractions()
+                      : null, // Disable if less than 2 drugs or loading
+            ),
+          ),
+
+          const Divider(height: 16, indent: 16, endIndent: 16),
+
+          // Results Area
+          Expanded(
+            // Make results area scrollable
+            child: _buildResultsArea(context, interactionProvider),
+          ),
+        ],
       ),
     );
   }
 
   // --- Build Helper Methods ---
 
-  // Dialog to select a drug (similar to weight calculator)
-  Future<DrugEntity?> _showDrugSelectionDialog(
-    BuildContext context,
-    List<DrugEntity> allMedicines,
-    List<DrugEntity> alreadySelected,
-  ) async {
-    // Filter out already selected medicines
-    final availableMedicines =
-        allMedicines
-            .where(
-              (med) =>
-                  !alreadySelected.any(
-                    (selected) => selected.tradeName == med.tradeName,
-                  ),
-            )
-            .toList();
-
-    // Simple dialog for now, consider adding search later
-    return showDialog<DrugEntity>(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('اختر دواء لإضافته'),
-          content: SizedBox(
-            width: double.maxFinite,
-            child:
-                availableMedicines.isEmpty
-                    ? const Text('لا توجد أدوية أخرى متاحة أو تم اختيار الكل.')
-                    : ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: availableMedicines.length,
-                      itemBuilder: (BuildContext context, int index) {
-                        final drug = availableMedicines[index];
-                        return ListTile(
-                          title: Text(drug.tradeName),
-                          subtitle: Text(drug.arabicName),
-                          onTap: () {
-                            Navigator.of(context).pop(drug);
-                          },
-                        );
-                      },
-                    ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              child: const Text('إلغاء'),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        );
-      },
-    );
-  }
-
   // Helper widget to conditionally build the results area
   Widget _buildResultsArea(BuildContext context, InteractionProvider provider) {
+    final theme = Theme.of(context);
+
     if (provider.isLoading) {
-      return const Expanded(
-        // Use Expanded here
-        child: Center(child: CircularProgressIndicator()),
-      );
+      return const Center(child: CircularProgressIndicator());
     } else if (provider.error.isNotEmpty) {
-      return Expanded(
-        // Use Expanded here
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16.0),
-            child: Text(
-              'خطأ: ${provider.error}',
-              style: TextStyle(color: Theme.of(context).colorScheme.error),
-              textAlign: TextAlign.center,
-            ),
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Text(
+            'خطأ: ${provider.error}',
+            style: TextStyle(color: theme.colorScheme.error),
+            textAlign: TextAlign.center,
           ),
         ),
       );
     } else if (provider.analysisResult != null) {
-      // Use the existing helper to build the list content
       return _buildResultsList(context, provider.analysisResult!);
     } else if (provider.selectedMedicines.length < 2) {
-      return const Expanded(
-        // Use Expanded here
-        child: Center(child: Text('أضف دوائين على الأقل لفحص التفاعلات.')),
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Text(
+            'أضف دوائين على الأقل لبدء فحص التفاعلات.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: theme.hintColor),
+          ),
+        ),
       );
     } else {
-      // Initial state before analysis triggered for >= 2 drugs
-      return const Expanded(
-        // Use Expanded here
-        child: Center(child: Text('جاهز لفحص التفاعلات...')),
+      // Ready to analyze state
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Text(
+            'اضغط على "فحص التفاعلات" لعرض النتائج.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: theme.hintColor),
+          ),
+        ),
       );
     }
   }
@@ -224,71 +284,95 @@ class InteractionCheckerScreen extends StatelessWidget {
     BuildContext context,
     InteractionAnalysisResult result,
   ) {
+    final theme = Theme.of(context);
     final interactionProvider =
         context.read<InteractionProvider>(); // Needed for original names
 
-    return Expanded(
-      // Add Expanded here since ListView is returned directly
-      child: ListView(
-        children: [
-          // Overall Severity Badge
-          _buildSeveritySummary(context, result.overallSeverity),
+    // Handle case where analysis ran but found nothing significant
+    if (result.interactions.isEmpty && result.recommendations.isEmpty) {
+      return const Center(
+        child: Padding(
+          padding: EdgeInsets.all(24.0),
+          child: Text(
+            "لم يتم العثور على تفاعلات ذات أهمية سريرية.",
+            textAlign: TextAlign.center,
+          ),
+        ),
+      );
+    }
+
+    return ListView(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      children: [
+        // Overall Severity Badge
+        _buildSeveritySummary(context, result.overallSeverity),
+        const SizedBox(height: 16),
+
+        // Recommendations Section
+        if (result.recommendations.isNotEmpty) ...[
+          Text('التوصيات الهامة:', style: theme.textTheme.titleMedium),
+          const SizedBox(height: 8),
+          Card(
+            // Wrap recommendations in a card
+            elevation: 0.5,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+              side: BorderSide(
+                color: theme.colorScheme.outline.withOpacity(0.3),
+              ),
+            ),
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Column(
+                children:
+                    result.recommendations
+                        .map(
+                          (rec) => Padding(
+                            padding: const EdgeInsets.only(bottom: 8.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Icon(
+                                  Icons.info_outline,
+                                  size: 18,
+                                  color: theme.colorScheme.primary,
+                                ),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: Text(
+                                    rec,
+                                    style: theme.textTheme.bodyMedium,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        )
+                        .toList(),
+              ),
+            ),
+          ),
           const SizedBox(height: 16),
-
-          // Recommendations Section
-          if (result.recommendations.isNotEmpty) ...[
-            Text(
-              'التوصيات الهامة:',
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 8),
-            ...result.recommendations
-                .map(
-                  (rec) => Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0, right: 8.0),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Icon(
-                          Icons.info_outline,
-                          size: 18,
-                          color: Theme.of(context).colorScheme.primary,
-                        ),
-                        const SizedBox(width: 8),
-                        Expanded(child: Text(rec)),
-                      ],
-                    ),
-                  ),
-                )
-                .toList(),
-            const SizedBox(height: 16),
-          ],
-
-          // Detailed Interactions Section
-          if (result.interactions.isNotEmpty) ...[
-            Text(
-              'تفاصيل التفاعلات (${result.interactions.length}):',
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 8),
-            ...result.interactions
-                .map(
-                  (interaction) => _buildInteractionCard(
-                    context,
-                    interaction,
-                    interactionProvider
-                        .selectedMedicines, // Pass selected for name lookup
-                  ),
-                )
-                .toList(),
-          ] else if (result.recommendations.isEmpty) ...[
-            // Show message if no interactions and no recommendations (e.g., only minor)
-            const Center(
-              child: Text("لم يتم العثور على تفاعلات ذات أهمية سريرية."),
-            ),
-          ],
         ],
-      ),
+
+        // Detailed Interactions Section
+        if (result.interactions.isNotEmpty) ...[
+          Text(
+            'تفاصيل التفاعلات (${result.interactions.length}):',
+            style: theme.textTheme.titleMedium,
+          ),
+          const SizedBox(height: 8),
+          ...result.interactions
+              .map(
+                (interaction) => _buildInteractionCard(
+                  context,
+                  interaction,
+                  interactionProvider.selectedMedicines,
+                ),
+              )
+              .toList(),
+        ],
+      ],
     );
   }
 
@@ -297,51 +381,61 @@ class InteractionCheckerScreen extends StatelessWidget {
     BuildContext context,
     InteractionSeverity severity,
   ) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
     Color bgColor;
     Color textColor;
-    String text = _getSeverityArabicName(severity); // Use helper
+    IconData iconData;
+    String text = _getSeverityArabicName(severity);
 
     switch (severity) {
       case InteractionSeverity.minor:
-        bgColor = Colors.green.shade100;
+        bgColor = Colors.green.shade50;
         textColor = Colors.green.shade900;
+        iconData = Icons.check_circle_outline;
         break;
       case InteractionSeverity.moderate:
-        bgColor = Colors.orange.shade100;
+        bgColor = Colors.orange.shade50;
         textColor = Colors.orange.shade900;
+        iconData = Icons.warning_amber_rounded;
         break;
       case InteractionSeverity.major:
-        bgColor = Colors.deepOrange.shade100;
+        bgColor = Colors.deepOrange.shade50;
         textColor = Colors.deepOrange.shade900;
+        iconData = Icons.warning_rounded;
         break;
       case InteractionSeverity.severe:
       case InteractionSeverity.contraindicated:
-        bgColor = Colors.red.shade100;
+        bgColor = Colors.red.shade50;
         textColor = Colors.red.shade900;
+        iconData = Icons.dangerous_outlined;
         break;
-      default: // unknown
-        bgColor = Colors.grey.shade200;
+      default: // unknown or none
+        bgColor = Colors.grey.shade100;
         textColor = Colors.grey.shade800;
+        iconData = Icons.info_outline;
+        text = "لا توجد تفاعلات خطيرة"; // Adjust text for 'none' case
     }
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
         color: bgColor,
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: textColor.withOpacity(0.5)),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: textColor.withOpacity(0.4)),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.warning_amber_rounded, color: textColor, size: 20),
-          const SizedBox(width: 8),
+          Icon(iconData, color: textColor, size: 22),
+          const SizedBox(width: 10),
           Text(
-            'مستوى الخطورة العام: $text',
-            style: TextStyle(
+            severity == InteractionSeverity.unknown
+                ? text
+                : 'الخطورة العامة: $text',
+            style: theme.textTheme.titleMedium?.copyWith(
               color: textColor,
               fontWeight: FontWeight.bold,
-              fontSize: 16,
             ),
           ),
         ],
@@ -355,8 +449,9 @@ class InteractionCheckerScreen extends StatelessWidget {
     DrugInteraction interaction,
     List<DrugEntity> selectedMedicines,
   ) {
-    // Find original medicine names (similar logic to service)
-    // final interactionProvider = context.read<InteractionProvider>(); // Access provider again if needed
+    final theme = Theme.of(context);
+    final textTheme = theme.textTheme;
+
     final med1Name = _findMedicineNameForIngredient(
       interaction.ingredient1,
       selectedMedicines,
@@ -378,13 +473,14 @@ class InteractionCheckerScreen extends StatelessWidget {
             : interaction.recommendation;
 
     Color severityColor = _getSeverityColor(interaction.severity);
+    Color severityBgColor = _getSeverityBgColor(interaction.severity);
 
     return Card(
       margin: const EdgeInsets.only(bottom: 12.0),
       elevation: 1,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8),
-        side: BorderSide(color: severityColor.withOpacity(0.5)),
+        borderRadius: BorderRadius.circular(12),
+        side: BorderSide(color: severityColor.withOpacity(0.3)),
       ),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -393,24 +489,24 @@ class InteractionCheckerScreen extends StatelessWidget {
           children: [
             // Header with Drug Names and Severity Badge
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
                   child: Text(
                     '${med1Name ?? interaction.ingredient1} + ${med2Name ?? interaction.ingredient2}',
-                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                    style: textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
-                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
+                const SizedBox(width: 8),
                 Container(
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 8,
-                    vertical: 3,
+                    horizontal: 10,
+                    vertical: 4,
                   ),
                   decoration: BoxDecoration(
-                    color: severityColor.withOpacity(0.15),
+                    color: severityBgColor,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Text(
@@ -427,24 +523,38 @@ class InteractionCheckerScreen extends StatelessWidget {
             const Divider(height: 16),
 
             // Effect
-            Text(effectText, style: Theme.of(context).textTheme.bodyMedium),
-            const SizedBox(height: 8),
+            Text(
+              'التأثير:',
+              style: textTheme.labelLarge?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(effectText, style: textTheme.bodyMedium),
+            const SizedBox(height: 12),
 
             // Recommendation
+            Text(
+              'التوصية:',
+              style: textTheme.labelLarge?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              ),
+            ),
+            const SizedBox(height: 4),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Icon(
                   Icons.info_outline,
-                  size: 16,
+                  size: 18,
                   color: Colors.blueGrey.shade400,
                 ),
                 const SizedBox(width: 6),
                 Expanded(
                   child: Text(
                     recommendationText,
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Colors.blueGrey.shade700,
+                    style: textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurface,
                     ),
                   ),
                 ),
@@ -458,9 +568,9 @@ class InteractionCheckerScreen extends StatelessWidget {
                 alignment: AlignmentDirectional.centerEnd,
                 child: Text(
                   'نوع التفاعل: $typeText',
-                  style: Theme.of(
-                    context,
-                  ).textTheme.labelSmall?.copyWith(color: Colors.grey.shade600),
+                  style: textTheme.labelSmall?.copyWith(
+                    color: Colors.grey.shade600,
+                  ),
                 ),
               ),
             ],
@@ -470,13 +580,20 @@ class InteractionCheckerScreen extends StatelessWidget {
     );
   }
 
-  // Helper to find medicine name (could be moved to provider or utility)
+  // Helper to find medicine name
   String? _findMedicineNameForIngredient(
     String ingredient,
     List<DrugEntity> medicines,
   ) {
-    // Simple search in active ingredient string for now
-    // A more robust solution would use the medicine-to-ingredient map
+    // Prioritize exact match first if possible (assuming DrugEntity has active ingredient list/field)
+    // This is a placeholder - requires DrugEntity to have structured active ingredient info
+    // for (final med in medicines) {
+    //   if (med.activeIngredients?.contains(ingredient) ?? false) { // Example check
+    //      return med.arabicName.isNotEmpty ? med.arabicName : med.tradeName;
+    //   }
+    // }
+
+    // Fallback: check if ingredient name is part of the medicine's active ingredient string
     for (final med in medicines) {
       if (med.active.toLowerCase().contains(ingredient.toLowerCase())) {
         return med.arabicName.isNotEmpty ? med.arabicName : med.tradeName;
@@ -489,16 +606,33 @@ class InteractionCheckerScreen extends StatelessWidget {
   Color _getSeverityColor(InteractionSeverity severity) {
     switch (severity) {
       case InteractionSeverity.minor:
-        return Colors.green.shade700;
+        return Colors.green.shade800;
       case InteractionSeverity.moderate:
-        return Colors.orange.shade800;
+        return Colors.orange.shade900;
       case InteractionSeverity.major:
-        return Colors.deepOrange.shade700;
+        return Colors.deepOrange.shade800;
       case InteractionSeverity.severe:
       case InteractionSeverity.contraindicated:
-        return Colors.red.shade800;
+        return Colors.red.shade900;
       default:
         return Colors.grey.shade700;
+    }
+  }
+
+  // Helper to get severity background color
+  Color _getSeverityBgColor(InteractionSeverity severity) {
+    switch (severity) {
+      case InteractionSeverity.minor:
+        return Colors.green.shade100;
+      case InteractionSeverity.moderate:
+        return Colors.orange.shade100;
+      case InteractionSeverity.major:
+        return Colors.deepOrange.shade100;
+      case InteractionSeverity.severe:
+      case InteractionSeverity.contraindicated:
+        return Colors.red.shade100;
+      default:
+        return Colors.grey.shade200;
     }
   }
 

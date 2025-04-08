@@ -50,6 +50,8 @@ dependencies:
   flutter_animate: ^4.5.0 # For UI animations
   cached_network_image: ^3.4.1 # For caching network images (UI)
   url_launcher: ^6.1.10 # For launching URLs (Settings Screen)
+  get_it: ^7.7.0 # Service Locator for Dependency Injection
+  in_app_purchase: ^3.2.0 # For handling in-app subscriptions
 
 
 dev_dependencies:

@@ -11,6 +11,8 @@ class DoseCalculatorProvider extends ChangeNotifier {
   DosageResult? _dosageResult; // Changed state variable
   bool _isLoading = false;
   String _error = '';
+  bool _showDrugSelectionError =
+      false; // Added for drug selection validation UI
 
   // Inject the service
   final DosageCalculatorService _dosageCalculatorService;
@@ -28,6 +30,11 @@ class DoseCalculatorProvider extends ChangeNotifier {
   String get weightInput => _weightInput;
   String get ageInput => _ageInput; // Added age getter
   DosageResult? get dosageResult => _dosageResult; // Changed getter
+  bool get showDrugSelectionError => _showDrugSelectionError; // Added getter
+
+  // Getters for parsed values (used by UI for initialization)
+  double? get weight => double.tryParse(_weightInput);
+  int? get age => int.tryParse(_ageInput);
 
   // --- Methods ---
 
@@ -38,6 +45,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
     // Reset calculation when drug changes
     _dosageResult = null; // Clear result
     _error = '';
+    _showDrugSelectionError = false; // Reset error on selection
     notifyListeners();
   }
 
@@ -60,9 +68,22 @@ class DoseCalculatorProvider extends ChangeNotifier {
   // Method to perform calculation
   // Method to perform calculation
   Future<void> calculateDose() async {
-    if (_selectedDrug == null || _weightInput.isEmpty || _ageInput.isEmpty) {
-      _error = 'يرجى اختيار الدواء وإدخال الوزن والعمر.';
-      _dosageResult = null; // Clear previous result
+    // Reset errors first
+    _error = '';
+    _showDrugSelectionError = false;
+    _dosageResult = null;
+
+    // Validate drug selection
+    if (_selectedDrug == null) {
+      _showDrugSelectionError = true;
+      // Don't set _error here, let the UI show the specific message
+      notifyListeners();
+      return; // Stop if no drug selected
+    }
+
+    // Validate weight and age inputs (already handled by form validator, but good practice)
+    if (_weightInput.isEmpty || _ageInput.isEmpty) {
+      _error = 'يرجى إدخال الوزن والعمر.';
       notifyListeners();
       return;
     }
@@ -72,21 +93,21 @@ class DoseCalculatorProvider extends ChangeNotifier {
 
     if (weightKg == null || weightKg <= 0) {
       _error = 'الوزن المدخل غير صالح.';
-      _dosageResult = null;
+      // _dosageResult = null; // Already cleared
       notifyListeners();
       return;
     }
 
     if (ageYears == null || ageYears < 0) {
       _error = 'العمر المدخل غير صالح.';
-      _dosageResult = null;
+      // _dosageResult = null; // Already cleared
       notifyListeners();
       return;
     }
 
     _isLoading = true;
-    _error = '';
-    _dosageResult = null; // Clear previous result before calculation
+    // _error = ''; // Already cleared
+    // _dosageResult = null; // Already cleared
     notifyListeners();
 
     try {

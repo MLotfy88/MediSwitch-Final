@@ -67,7 +67,7 @@ class InteractionProvider extends ChangeNotifier {
         print("InteractionProvider: Interaction data loaded successfully.");
         // Optionally trigger analysis if medicines were already selected?
         if (_selectedMedicines.isNotEmpty) {
-          _analyzeInteractions();
+          analyzeInteractions(); // Call public method
         }
       },
     );
@@ -83,7 +83,7 @@ class InteractionProvider extends ChangeNotifier {
       _error = '';
       notifyListeners();
       if (_selectedMedicines.length >= 2) {
-        _analyzeInteractions(); // Trigger analysis
+        analyzeInteractions(); // Trigger analysis
       }
     }
   }
@@ -94,7 +94,7 @@ class InteractionProvider extends ChangeNotifier {
     _error = '';
     notifyListeners();
     if (_selectedMedicines.length >= 2) {
-      _analyzeInteractions(); // Re-trigger analysis
+      analyzeInteractions(); // Re-trigger analysis
     }
   }
 
@@ -105,12 +105,14 @@ class InteractionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Internal method to perform analysis
-  void _analyzeInteractions() {
+  // Public method to perform analysis, callable from UI
+  Future<void> analyzeInteractions() async {
+    // Make it async if needed later
     if (!_isInteractionDataLoaded) {
       _error = "بيانات التفاعلات لم يتم تحميلها بعد.";
       notifyListeners();
-      _loadInteractionData(); // Try loading again
+      // Don't automatically reload here, let user retry or wait
+      // _loadInteractionData();
       return;
     }
     if (_selectedMedicines.length < 2) {

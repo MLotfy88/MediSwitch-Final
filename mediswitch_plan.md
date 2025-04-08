@@ -9,7 +9,6 @@
 *   **الأداء:** أولوية قصوى للمعالجة في الخلفية (Isolates)، هياكل بيانات مُحسّنة، وتحسينات UI.
 *   **الجودة:** تطبيق Clean Architecture، كود نظيف، اختبارات شاملة، CI/CD.
 *   **المرونة:** الاستعداد لتقييم DB محلي (Hive/Isar) لاحقًا إذا كان الأداء غير كافٍ.
-*   **مرجع الواجهة:** يتم الآن استخدام النموذج الأولي في `External_source/prototype/` كمرجع أساسي لتصميم وتنفيذ واجهة المستخدم (UI).
 
 ---
 
@@ -21,9 +20,11 @@
     *   `[x]` 0.1.3. اعتماد آلية تحديث عبر فحص الإصدار عند التشغيل مع إشعار للمستخدم.
     *   `[x]` 0.1.4. تحديد إطار عمل الـ Backend النهائي (مثل Node.js/Express أو Python/Django). (Django chosen)
     *   `[x]` 0.1.5. تحديد حل إدارة الحالة النهائي في Flutter (تم اعتماد Provider حالياً).
-    *   `[ ]` 0.1.6. **(أولوية قادمة)** تحديد وتطبيق حل حقن التبعيات النهائي (مثل get_it).
-        *   `[ ]` 0.1.6.1. اختيار المكتبة النهائية (get_it مقترح).
-        *   `[ ]` 0.1.6.2. إعادة هيكلة (Refactor) للـ Providers والـ Use Cases لاستخدام DI.
+    *   `[x]` 0.1.6. تحديد وتطبيق حل حقن التبعيات النهائي (تم استخدام get_it).
+        *   `[x]` 0.1.6.1. اختيار المكتبة النهائية (get_it).
+        *   `[x]` 0.1.6.2. إعداد `locator.dart` وتسجيل التبعيات (DataSources, Repositories, UseCases, Providers).
+        *   `[x]` 0.1.6.3. تحديث `main.dart` لتهيئة Locator وتوفير Providers.
+        *   `[x]` 0.1.6.4. إعادة هيكلة الشاشات (مثل `DrugDetailsScreen`) لاستخدام Providers من Locator.
 *   **0.2. إعداد بيئات التطوير والمستودعات:**
     *   `[ ]` 0.2.1. تثبيت/تحديث Flutter SDK (>= 3.x.x) وتكوين دعم Android/iOS/Web.
     *   `[ ]` 0.2.2. تثبيت أدوات بناء الـ Backend المختارة. (Python/Django assumed installed)
@@ -57,12 +58,12 @@
     *   `[x]` 1.1.2. تنفيذ خدمة تجزئة كلمات المرور. (Using default Django hashing)
     *   `[x]` 1.1.3. بناء API Endpoint `POST /api/v1/admin/auth/login`. (Simple JWT endpoint configured)
     *   `[x]` 1.1.4. بناء API Endpoint `POST /api/v1/admin/auth/register` (اختياري). (Register endpoint created)
-    *   `[ ]` 1.1.5. تنفيذ آلية تجديد التوكن. (Simple JWT refresh endpoint configured)
+    *   `[x]` 1.1.5. تنفيذ آلية تجديد التوكن (تم التأكد من وجود URL وتفعيل ROTATE_REFRESH_TOKENS).
     *   `[x]` 1.1.6. بناء واجهة ويب بسيطة لتسجيل الدخول.
     *   `[ ]` 1.1.7. إنشاء Middleware للتحقق من JWT. (DRF/SimpleJWT handles basic checks)
 *   **1.2. إدارة ملف Excel/CSV وتوفيره:**
     *   `[x]` 1.2.1. تحديد استراتيجية تخزين الملف (Local/Cloud Storage). (Local disk chosen for now)
-    *   `[~]` 1.2.2. بناء API Endpoint `POST /api/v1/admin/data/upload`: (Endpoint created, needs version update logic)
+    *   `[x]` 1.2.2. بناء API Endpoint `POST /api/v1/admin/data/upload` (تم التحقق من منطق تحديث الإصدار عبر `ActiveDataFile.update_active_file`).
         *   `[x]` 1.2.2.1. استقبال الملف. (Implemented)
         *   `[x]` 1.2.2.2. التحقق من الامتداد. (Implemented)
         *   `[x]` 1.2.2.3. التحقق المتقدم من Headers/الأعمدة (تم التنفيذ في 4.1.1).
@@ -115,11 +116,11 @@
 
 *   **3.1. الواجهة الأساسية والشاشة الرئيسية (`HomeScreen`):** (تمت إعادة الهيكلة بناءً على Prototype)
     *   `[x]` 3.1.1. `MaterialApp`: السمات، اللغات، التوجيه. (`main.dart` setup)
-    *   `[~]` 3.1.2. `HomeScreen`: استخدام `CustomScrollView` و `SliverAppBar` للهيكل العام.
+    *   `[x]` 3.1.2. `HomeScreen`: استخدام `CustomScrollView` و `SliverAppBar` للهيكل العام (تم التنفيذ).
     *   `[x]` 3.1.3. عرض حالة تحميل البيانات باستخدام `Consumer`/`BlocBuilder`.
     *   `[x]` 3.1.4. `BottomNavigationBar`: التنقل بين الشاشات الرئيسية. (`main_screen.dart` handles this)
-    *   `[~]` 3.1.5. بناء `Header` مخصص (معلومات المستخدم + شريط البحث).
-    *   `[~]` 3.1.6. بناء أقسام أفقية (الفئات، المحدثة مؤخراً، الأكثر بحثاً).
+    *   `[x]` 3.1.5. بناء `Header` مخصص (معلومات المستخدم + شريط البحث) (تم التنفيذ بناءً على Prototype).
+    *   `[x]` 3.1.6. بناء أقسام أفقية (الفئات، المحدثة مؤخراً، الأكثر بحثاً) (تم التنفيذ بناءً على Prototype).
     *   `[x]` 3.1.7. تطبيق التصميم المتجاوب (ListView/GridView).
 *   **3.2. شاشة البحث (`SearchScreen`) وتفاصيل الدواء (`DrugDetailsScreen`):**
     *   `[~]` 3.2.1. `SearchScreen`: `AppBar` مخصص مع حقل بحث نشط وزر فلترة (بناءً على Prototype).
@@ -134,13 +135,13 @@
         *   `[~]` 3.2.7.3. بناء `TabBar` و `TabBarView` للأقسام (معلومات، بدائل، جرعات، تفاعلات).
         *   `[~]` 3.2.7.4. بناء محتوى تبويب "معلومات".
         *   `[~]` 3.2.7.5. بناء محتوى تبويب "البدائل" (تضمين `AlternativesScreen`).
-        *   `[ ]` 3.2.7.6. بناء محتوى تبويب "الجرعات" (Placeholder).
-        *   `[ ]` 3.2.7.7. بناء محتوى تبويب "التفاعلات" (Placeholder).
+        *   `[x]` 3.2.7.6. بناء محتوى تبويب "الجرعات" (عرض معلومات الاستخدام + زر للحاسبة).
+        *   `[x]` 3.2.7.7. بناء محتوى تبويب "التفاعلات" (زر لمدقق التفاعلات).
     *   `[x]` 3.2.8. عرض المعلومات الأساسية (تم نقله إلى تبويب "معلومات").
     *   `[x]` 3.2.9. زر "إيجاد البدائل" (موجود في تبويب "البدائل").
     *   `[~]` 3.2.10. زر "المفضلة" (Premium). (UI مضاف في AppBar، المنطق مؤجل لـ 5.3.6).
     *   `[x]` 3.2.11. استخدام `CachedNetworkImage` (تم التحديث في `DrugListItem`، يتطلب وجود `imageUrl` في البيانات).
-*   `[ ]` **3.3. شاشة حاسبة الجرعة (`weight_calculator_screen.dart`):** (Implementing using External Source)
+*   `[~]` **3.3. شاشة حاسبة الجرعة (`weight_calculator_screen.dart`):** (UI Refactored based on Prototype, Logic exists)
     *   `[x]` 3.3.1. `DoseCalculatorProvider`/`Bloc`. (Exists)
     *   `[x]` 3.3.2. بناء الفورم (`Form`, `TextFormField`, `Dropdown`/Search). (Exists in `weight_calculator_screen.dart`)
     *   `[x]` 3.3.3. إضافة `Form Validation`. (Basic validation exists)
@@ -170,7 +171,7 @@
     *   `[x]` 3.4.2. استقبال `DrugEntity` الأصلي. (Handled by screen constructor)
     *   `[x]` 3.4.3. تنفيذ منطق إيجاد البدائل. (Refined logic to match active ingredient in UseCase)
     *   `[x]` 3.4.4. بناء `ListView` لعرض البدائل والمعلومات. (Implemented using AlternativeDrugCard)
-*   `[~]` **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):** (Implementing using External Source)
+*   `[~]` **3.5. (ميزة متقدمة - Premium؟) شاشة مدقق التفاعلات (`InteractionCheckerScreen`):** (UI Refactored based on Prototype, Logic exists)
     *   `[x]` 3.5.1. **تحديد هياكل البيانات:** (تم التعريف في `External source/drug_interaction/drug-interaction-model.dart`)
         *   `[x]` 3.5.1.1. تعريف/مراجعة فئات `ActiveIngredient`, `DrugInteraction`, وتعدادات `InteractionSeverity`, `InteractionType`.
     *   `[x]` 3.5.2. **بناء خدمة/مستودع بيانات التفاعلات:** (تم التنفيذ في `lib/data/repositories/interaction_repository_impl.dart`)
@@ -187,15 +188,15 @@
         *   `[x]` 3.5.4.1. إنشاء Provider لإدارة قائمة الأدوية المختارة ونتائج التحليل (`isLoading`, `error`, `analysisResult`).
         *   `[x]` 3.5.4.2. حقن `InteractionCheckerService` و `InteractionRepository`.
         *   `[x]` 3.5.4.3. استدعاء خدمة التحليل عند تغيير قائمة الأدوية (مع التأكد من تحميل البيانات).
-    *   `[x]` 3.5.5. **بناء واجهة المستخدم (`InteractionCheckerScreen`):** (تم التنفيذ بالفعل)
+    *   `[~]` 3.5.5. **بناء واجهة المستخدم (`InteractionCheckerScreen`):** (UI Refactored based on Prototype)
         *   `[x]` 3.5.5.1. إنشاء ملف الشاشة.
-        *   `[x]` 3.5.5.2. بناء واجهة لاختيار أدوية متعددة.
+        *   `[~]` 3.5.5.2. بناء واجهة لاختيار أدوية متعددة (باستخدام Chips و CustomSearchDelegate).
         *   `[x]` 3.5.5.3. ربط الواجهة بالـ Provider لعرض الأدوية المختارة.
-        *   `[x]` 3.5.5.4. عرض نتائج التفاعلات (الشدة، التأثير، التوصيات) من الـ Provider.
+        *   `[~]` 3.5.5.4. عرض نتائج التفاعلات (باستخدام Cards بناءً على Prototype).
         *   `[x]` 3.5.5.5. عرض مؤشر التحميل وحالة الخطأ.
 *   `[~]` **3.6. شاشة الإعدادات (`SettingsScreen`):** (تمت إعادة الهيكلة بناءً على Prototype)
     *   `[x]` 3.6.1. `SettingsProvider`/`Bloc`.
-    *   `[~]` 3.6.2. بناء الواجهة باستخدام `ListView` و `Card` للأقسام (ملف شخصي، عام، أمان، حول).
+    *   `[~]` 3.6.2. بناء الواجهة باستخدام `ListView` و `Card` للأقسام (ملف شخصي، عام، أمان، اشتراك، حول).
     *   `[x]` 3.6.3. تنفيذ تغيير اللغة والمظهر. (Theme change implemented, Language implemented)
     *   `[x]` 3.6.4. بناء واجهة إدارة الاشتراك. (Placeholder UI added)
     *   `[x]` 3.6.5. استخدام `url_launcher` للروابط. (Implemented for About, Privacy, Terms)
@@ -223,28 +224,28 @@
     *   `[x]` 4.3.3. إنشاء نقطة نهاية API `GET /api/v1/config/general` (تم إنشاء Serializer, View, URL).
 *   **4.4. استقبال وتحليل الإحصائيات:**
     *   `[x]` 4.4.1. إنشاء `POST /api/v1/analytics/log` لاستقبال أنواع أحداث (تم إنشاء Model, Serializer, View, URL).
-    *   `[ ]` 4.4.2. بناء منطق تحليل البيانات (الأكثر بحثًا، البحث الفاشل).
+    *   `[x]` 4.4.2. بناء منطق تحليل البيانات (تم إنشاء `AnalyticsSummaryView` لعرض أكثر الكلمات بحثًا).
 
 ---
 
 ### **المرحلة 5: تطوير الواجهة الأمامية - الإعلانات والاشتراكات (الأسبوع 12-13)**
 
 *   **5.1. جلب الإعدادات من الـ Backend:**
-    *   `[ ]` 5.1.1. بناء `ConfigRepository` و Use Cases لجلب الإعدادات.
+    *   `[x]` 5.1.1. بناء `ConfigRepository` و Use Cases لجلب الإعدادات (AdMob, General).
 *   **5.2. تنفيذ الإعلانات:**
     *   `[ ]` 5.2.1. تهيئة `google_mobile_ads`.
     *   `[ ]` 5.2.2. بناء `BannerAdWidget`.
     *   `[ ]` 5.2.3. بناء خدمة لإدارة `InterstitialAd`.
 *   **5.3. تنفيذ نظام الاشتراك (Premium):**
-    *   `[ ]` 5.3.1. تهيئة `in_app_purchase`.
-    *   `[ ]` 5.3.2. عرض خيارات الشراء.
-    *   `[ ]` 5.3.3. تنفيذ عمليات الشراء والاستعادة.
+    *   `[x]` 5.3.1. تهيئة `in_app_purchase` (تمت إضافة الحزمة، إنشاء Provider، وتسجيله في Locator).
+    *   `[~]` 5.3.2. عرض خيارات الشراء (تم إنشاء `SubscriptionScreen` لعرض المنتجات والحالة).
+    *   `[~]` 5.3.3. تنفيذ عمليات الشراء والاستعادة (تم ربط الأزرار بالـ Provider، يتطلب تحسين ومنطق التحقق).
     *   `[ ]` 5.3.4. التحقق من صحة الإيصالات.
-    *   `[ ]` 5.3.5. تحديث حالة المستخدم (Premium).
-    *   `[ ]` 5.3.6. التحكم في عرض الإعلانات والميزات Premium (مثل زر المفضلة 3.2.10، حفظ الحساب 3.3.8).
+    *   `[ ]` 5.3.5. تحديث حالة المستخدم (Premium) (المنطق الأساسي موجود في Provider، يحتاج إلى تحسين/تخزين دائم).
+    *   `[~]` 5.3.6. التحكم في عرض الإعلانات والميزات Premium (تم ربط أزرار المفضلة وحفظ الحساب بحالة الاشتراك).
 *   **5.4. إرسال الإحصائيات التفصيلية:**
-    *   `[ ]` 5.4.1. بناء `AnalyticsService`.
-    *   `[ ]` 5.4.2. استدعاء `AnalyticsService` من الأماكن المناسبة.
+    *   `[x]` 5.4.1. بناء `AnalyticsService` (تم إنشاء الواجهة والتنفيذ وتسجيله في Locator).
+    *   `[~]` 5.4.2. استدعاء `AnalyticsService` من الأماكن المناسبة (تم إضافة تتبع مشاهدة الشاشات الرئيسية).
 
 ---
 

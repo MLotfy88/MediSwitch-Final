@@ -8,9 +8,12 @@ from django.http import FileResponse, Http404, JsonResponse
 from rest_framework import generics, permissions, status, views
 from rest_framework.response import Response
 from django.contrib.auth.models import User
-from django.contrib.auth.decorators import login_required # Import login_required
-from .serializers import UserSerializer, AdMobConfigSerializer, GeneralConfigSerializer, AnalyticsEventSerializer # Import AnalyticsEventSerializer
-from .models import ActiveDataFile, AdMobConfig, GeneralConfig, AnalyticsEvent # Import AnalyticsEvent model
+from django.contrib.auth.decorators import login_required
+from django.db.models import Count # Import Count for aggregation
+from django.db.models.functions import Lower # Import Lower for case-insensitive grouping
+from collections import Counter # For counting queries
+from .serializers import UserSerializer, AdMobConfigSerializer, GeneralConfigSerializer, AnalyticsEventSerializer
+from .models import ActiveDataFile, AdMobConfig, GeneralConfig, AnalyticsEvent, SubscriptionStatus # Import SubscriptionStatus
 
 # View for User Registration
 class RegisterView(generics.CreateAPIView):
@@ -245,3 +248,166 @@ class LogAnalyticsView(views.APIView):
         else:
             print(f"Analytics logging failed: {serializer.errors}")
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# View to validate In-App Purchases
+class ValidatePurchaseView(views.APIView):
+    permission_classes = [permissions.AllowAny] # Or IsAuthenticated if linked to user accounts
+
+    def post(self, request, *args, **kwargs):
+        platform = request.data.get('platform') # 'android' or 'ios'
+        purchase_token = request.data.get('purchase_token') # From PurchaseDetails.verificationData.serverVerificationData
+        product_id = request.data.get('product_id') # e.g., 'mediswitch_premium_monthly'
+        # TODO: Get user/device identifier if validation is user-specific
+        user_identifier = "default_user" # Placeholder
+
+        if not all([platform, purchase_token, product_id]):
+            return Response({"error": "Missing required validation data (platform, purchase_token, product_id)."}, status=status.HTTP_400_BAD_REQUEST)
+
+        print(f"Received validation request: Platform={platform}, Product={product_id}, Token={purchase_token[:10]}...") # Log truncated token
+
+        is_valid = False
+        expiry_date = None
+
+        # --- Placeholder for Store Validation Logic ---
+        # TODO: Implement actual validation using platform-specific APIs/libraries
+        if platform == 'android':
+            # TODO: Use Google Play Developer API (e.g., purchases.subscriptions.get or purchases.products.get)
+            # Requires setting up API access and credentials (service account key)
+            print("Placeholder: Android validation logic needed.")
+            # Simulate success for now
+            is_valid = True
+            expiry_date = datetime.datetime.now() + datetime.timedelta(days=30) # Simulate 30-day expiry
+            pass
+        elif platform == 'ios':
+            # TODO: Use App Store Server API (e.g., verifyReceipt endpoint or App Store Server Notifications V2)
+            # Requires shared secret or other credentials.
+            print("Placeholder: iOS validation logic needed.")
+             # Simulate success for now
+            is_valid = True
+            expiry_date = datetime.datetime.now() + datetime.timedelta(days=30) # Simulate 30-day expiry
+            pass
+        else:
+             return Response({"error": "Invalid platform specified."}, status=status.HTTP_400_BAD_REQUEST)
+        # --- End Placeholder ---
+
+
+        if is_valid:
+            print(f"Validation successful for {product_id}. Expiry: {expiry_date}")
+            # Update user's subscription status in the database
+            try:
+                status_record = SubscriptionStatus.get_status(identifier=user_identifier)
+                status_record.update_status(is_premium=True, expiry_date=expiry_date)
+                print(f"Updated subscription status for {user_identifier}")
+                return Response({"message": "Purchase validated successfully.", "is_premium": True, "expiry_date": expiry_date}, status=status.HTTP_200_OK)
+            except Exception as db_error:
+                 print(f"Error updating subscription status after validation: {db_error}")
+                 # Return success to client, but log the DB error
+                 return Response({"message": "Purchase validated but failed to update status internally.", "is_premium": True, "expiry_date": expiry_date}, status=status.HTTP_200_OK)
+        else:
+            print(f"Validation failed for {product_id}.")
+            # Optionally update status to non-premium if validation fails for an existing user?
+            # status_record = SubscriptionStatus.get_status(identifier=user_identifier)
+            # status_record.update_status(is_premium=False)
+            return Response({"error": "Purchase validation failed."}, status=status.HTTP_400_BAD_REQUEST)
+
+
+# View to validate In-App Purchases
+class ValidatePurchaseView(views.APIView):
+    permission_classes = [permissions.AllowAny] # Or IsAuthenticated if linked to user accounts
+
+    def post(self, request, *args, **kwargs):
+        platform = request.data.get('platform') # 'android' or 'ios'
+        purchase_token = request.data.get('purchase_token') # From PurchaseDetails.verificationData.serverVerificationData
+        product_id = request.data.get('product_id') # e.g., 'mediswitch_premium_monthly'
+        # TODO: Get user/device identifier if validation is user-specific
+        user_identifier = "default_user" # Placeholder
+
+        if not all([platform, purchase_token, product_id]):
+            return Response({"error": "Missing required validation data (platform, purchase_token, product_id)."}, status=status.HTTP_400_BAD_REQUEST)
+
+        print(f"Received validation request: Platform={platform}, Product={product_id}, Token={purchase_token[:10]}...") # Log truncated token
+
+        is_valid = False
+        expiry_date = None
+
+        # --- Placeholder for Store Validation Logic ---
+        # TODO: Implement actual validation using platform-specific APIs/libraries
+        if platform == 'android':
+            # TODO: Use Google Play Developer API (e.g., purchases.subscriptions.get or purchases.products.get)
+            # Requires setting up API access and credentials (service account key)
+            print("Placeholder: Android validation logic needed.")
+            # Simulate success for now
+            is_valid = True
+            expiry_date = datetime.datetime.now() + datetime.timedelta(days=30) # Simulate 30-day expiry
+            pass
+        elif platform == 'ios':
+            # TODO: Use App Store Server API (e.g., verifyReceipt endpoint or App Store Server Notifications V2)
+            # Requires shared secret or other credentials.
+            print("Placeholder: iOS validation logic needed.")
+             # Simulate success for now
+            is_valid = True
+            expiry_date = datetime.datetime.now() + datetime.timedelta(days=30) # Simulate 30-day expiry
+            pass
+        else:
+             return Response({"error": "Invalid platform specified."}, status=status.HTTP_400_BAD_REQUEST)
+        # --- End Placeholder ---
+
+
+        if is_valid:
+            print(f"Validation successful for {product_id}. Expiry: {expiry_date}")
+            # Update user's subscription status in the database
+            try:
+                status_record = SubscriptionStatus.get_status(identifier=user_identifier)
+                status_record.update_status(is_premium=True, expiry_date=expiry_date)
+                print(f"Updated subscription status for {user_identifier}")
+                return Response({"message": "Purchase validated successfully.", "is_premium": True, "expiry_date": expiry_date}, status=status.HTTP_200_OK)
+            except Exception as db_error:
+                 print(f"Error updating subscription status after validation: {db_error}")
+                 # Return success to client, but log the DB error
+                 return Response({"message": "Purchase validated but failed to update status internally.", "is_premium": True, "expiry_date": expiry_date}, status=status.HTTP_200_OK)
+        else:
+            print(f"Validation failed for {product_id}.")
+            # Optionally update status to non-premium if validation fails for an existing user?
+            # status_record = SubscriptionStatus.get_status(identifier=user_identifier)
+            # status_record.update_status(is_premium=False)
+            return Response({"error": "Purchase validation failed."}, status=status.HTTP_400_BAD_REQUEST)
+
+
+# View to get analytics summaries (e.g., top searches)
+class AnalyticsSummaryView(views.APIView):
+    permission_classes = [permissions.IsAdminUser] # Only admins can view summaries
+
+    def get(self, request, *args, **kwargs):
+        # --- Top Search Queries ---
+        top_n = 10 # Number of top searches to return
+        search_events = AnalyticsEvent.objects.filter(event_type='search')
+
+        query_counts = Counter()
+        failed_search_count = 0 # Optional: Count searches with no results
+
+        for event in search_events:
+            if event.details and isinstance(event.details, dict):
+                query = event.details.get('query')
+                results_count = event.details.get('results_count') # Assuming frontend sends this
+
+                if isinstance(query, str) and query.strip():
+                    query_counts[query.strip().lower()] += 1 # Count lowercase query
+
+                # Optional: Check for failed searches
+                if results_count == 0:
+                    failed_search_count += 1
+
+        most_common_queries = query_counts.most_common(top_n)
+
+        # --- Prepare Response ---
+        summary_data = {
+            'total_search_events': search_events.count(),
+            'top_search_queries': [
+                {'query': query, 'count': count} for query, count in most_common_queries
+            ],
+            'failed_search_count': failed_search_count, # Optional
+            # Add more analytics summaries here later (e.g., top viewed drugs)
+        }
+
+        return Response(summary_data, status=status.HTTP_200_OK)
