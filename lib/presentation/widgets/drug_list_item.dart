@@ -15,67 +15,92 @@ class DrugListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Card(
-      margin: const EdgeInsets.symmetric(
-        horizontal: 8.0, // Adjusted margin for grid/list flexibility
-        vertical: 6.0,
-      ),
-      child: ListTile(
-        leading: SizedBox(
-          // Use SizedBox to constrain image size
-          width: 50, // Define width
-          height: 50, // Define height
-          child:
-              drug.imageUrl != null && drug.imageUrl!.isNotEmpty
-                  ? CachedNetworkImage(
-                    imageUrl: drug.imageUrl!,
-                    placeholder:
-                        (context, url) => const Center(
-                          child: CircularProgressIndicator(strokeWidth: 2.0),
-                        ), // Placeholder while loading
-                    errorWidget:
-                        (context, url, error) => const Icon(
-                          Icons.error_outline,
-                          color: Colors.red,
-                        ), // Error icon
-                    fit: BoxFit.cover, // How the image should fit
-                  )
-                  : Container(
-                    // Placeholder if no image URL
-                    color: Colors.grey.shade200,
-                    child: const Icon(
-                      Icons.medication_outlined,
-                      color: Colors.grey,
+      // Removed default margin, handled by parent list/grid padding/spacing
+      elevation: 1.5, // Slightly more elevation for cards
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+      clipBehavior: Clip.antiAlias, // Clip image to card shape
+      child: InkWell(
+        // Make the whole card tappable
+        onTap: onTap,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Image Section
+            AspectRatio(
+              aspectRatio: 16 / 10, // Adjust aspect ratio as needed
+              child: Container(
+                color: colorScheme.surfaceVariant.withOpacity(
+                  0.5,
+                ), // Background for placeholder
+                child:
+                    drug.imageUrl != null && drug.imageUrl!.isNotEmpty
+                        ? CachedNetworkImage(
+                          imageUrl: drug.imageUrl!,
+                          placeholder:
+                              (context, url) => const Center(
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2.0,
+                                ),
+                              ),
+                          errorWidget:
+                              (context, url, error) => Icon(
+                                Icons.medication_liquid_outlined,
+                                color: colorScheme.onSurfaceVariant.withOpacity(
+                                  0.5,
+                                ),
+                                size: 40,
+                              ),
+                          fit: BoxFit.cover,
+                        )
+                        : Icon(
+                          // Placeholder icon if no image
+                          Icons.medication_liquid_outlined,
+                          color: colorScheme.onSurfaceVariant.withOpacity(0.5),
+                          size: 40,
+                        ),
+              ),
+            ),
+            // Text Section
+            Padding(
+              padding: const EdgeInsets.all(10.0), // Padding for text content
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    drug.tradeName,
+                    style: textTheme.titleSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  if (drug.arabicName.isNotEmpty &&
+                      drug.arabicName != drug.tradeName)
+                    Text(
+                      drug.arabicName,
+                      style: textTheme.bodySmall?.copyWith(
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  const SizedBox(height: 4.0),
+                  Text(
+                    '${drug.price} جنيه',
+                    style: textTheme.bodyMedium?.copyWith(
+                      color: colorScheme.primary,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
-        ),
-        title: Text(
-          drug.tradeName,
-          style: const TextStyle(fontWeight: FontWeight.bold),
-          maxLines: 1, // Prevent long names from wrapping excessively
-          overflow: TextOverflow.ellipsis,
-        ),
-        subtitle: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min, // Ensure column takes minimum space
-          children: [
-            Text(drug.arabicName, maxLines: 1, overflow: TextOverflow.ellipsis),
-            const SizedBox(height: 2.0),
-            Text(
-              'السعر: ${drug.price} جنيه',
-              style: Theme.of(context).textTheme.bodySmall,
-            ),
-            if (drug.mainCategory.isNotEmpty)
-              Text(
-                'الفئة: ${drug.mainCategory}',
-                style: Theme.of(context).textTheme.bodySmall,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+                ],
               ),
+            ),
           ],
         ),
-        isThreeLine: false, // Let subtitle height be dynamic
-        onTap: onTap,
       ),
     );
   }

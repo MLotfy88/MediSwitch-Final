@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'; // Import Provider
-import '../bloc/dose_calculator_provider.dart'; // Import the new provider
+// import 'package:provider/provider.dart'; // No longer needed for local provider
+import '../../core/di/locator.dart'; // Import locator
+import '../../domain/services/analytics_service.dart'; // Import AnalyticsService
 import 'home_screen.dart';
-import 'dose_comparison_screen.dart';
+import 'alternatives_screen.dart'; // Import AlternativesScreen
 import 'weight_calculator_screen.dart';
 import 'settings_screen.dart';
+import 'interaction_checker_screen.dart'; // Import Interaction Checker screen for potential future tab
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -14,26 +16,55 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  int _selectedIndex = 0; // Index for the current tab
+  int _selectedIndex = 0;
+  late final AnalyticsService
+  _analyticsService; // Declare AnalyticsService instance
 
   // List of the screens wrapped with necessary providers
   // Note: HomeScreen already gets MedicineProvider higher up in main.dart
-  // We only need to provide DoseCalculatorProvider here for DoseComparisonScreen
+  // List of the screens - Providers are now handled globally by locator + MultiProvider in main.dart
   final List<Widget> _widgetOptions = <Widget>[
-    const HomeScreen(), // Assumes MedicineProvider is provided above this widget tree
-    ChangeNotifierProvider(
-      // Provide DoseCalculatorProvider for this screen
-      create: (_) => DoseCalculatorProvider(),
-      child: const DoseComparisonScreen(), // Use the renamed screen
-    ),
-    const WeightCalculatorScreen(), // Assuming this doesn't need a specific provider yet
-    const SettingsScreen(), // Assuming this doesn't need a specific provider yet
+    const HomeScreen(),
+    // AlternativesScreen needs an originalDrug. It cannot be a main tab directly.
+    // Replace with a placeholder or remove this tab for now.
+    const Center(child: Text('Alternatives Tab Placeholder')),
+    const WeightCalculatorScreen(),
+    const SettingsScreen(),
+    // const InteractionCheckerScreen(), // Example if added as a tab later
   ];
 
+  // Map index to screen name for analytics
+  final Map<int, String> _screenNames = {
+    0: 'HomeScreen',
+    1: 'AlternativesPlaceholder', // Adjusted name to match placeholder
+    2: 'WeightCalculatorScreen',
+    3: 'SettingsScreen',
+    // 4: 'InteractionCheckerScreen',
+  };
+
+  @override
+  void initState() {
+    super.initState();
+    _analyticsService =
+        locator<AnalyticsService>(); // Get instance from locator
+    // Log initial screen view
+    _logScreenView(0);
+  }
+
+  void _logScreenView(int index) {
+    final screenName = _screenNames[index] ?? 'UnknownScreen';
+    _analyticsService.logEvent(
+      'screen_view',
+      data: {'screen_name': screenName},
+    );
+  }
+
   void _onItemTapped(int index) {
+    if (_selectedIndex == index) return; // Avoid logging if already selected
     setState(() {
       _selectedIndex = index;
     });
+    _logScreenView(index); // Log screen view on tap
   }
 
   @override
@@ -50,14 +81,14 @@ class _MainScreenState extends State<MainScreen> {
             label: 'الرئيسية',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.compare_arrows_outlined),
-            activeIcon: Icon(Icons.compare_arrows),
-            label: 'مقارنة الجرعات',
+            icon: Icon(Icons.alt_route_outlined), // Changed icon
+            activeIcon: Icon(Icons.alt_route), // Changed icon
+            label: 'البدائل', // Changed label
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.calculate_outlined),
             activeIcon: Icon(Icons.calculate),
-            label: 'حاسبة الوزن',
+            label: 'الحاسبة', // Shortened label
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings_outlined),

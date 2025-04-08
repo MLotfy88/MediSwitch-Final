@@ -6,27 +6,31 @@ import '../../domain/usecases/get_all_drugs.dart';
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
-import '../../domain/usecases/get_last_update_timestamp.dart'; // Import new use case
-import '../../core/usecases/usecase.dart'; // For NoParams
+import '../../domain/usecases/get_last_update_timestamp.dart';
+import '../../domain/usecases/get_analytics_summary.dart'; // Import analytics use case
+import '../../domain/repositories/analytics_repository.dart'; // Import AnalyticsSummary entity
+import '../../core/usecases/usecase.dart';
 
 class MedicineProvider extends ChangeNotifier {
   final GetAllDrugs getAllDrugsUseCase;
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
-  final GetLastUpdateTimestampUseCase
-  getLastUpdateTimestampUseCase; // Inject new use case
+  final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
+  final GetAnalyticsSummary
+  getAnalyticsSummaryUseCase; // Inject analytics use case
 
   // State variables - now using DrugEntity
   List<DrugEntity> _medicines = [];
   List<DrugEntity> _filteredMedicines = [];
   List<DrugEntity> _recentlyUpdatedMedicines = []; // Added for Task 3.1.6
-  List<String> _categories = []; // Keep categories as String for now
+  List<String> _categories = [];
+  List<DrugEntity> _popularDrugs = []; // Added state for popular drugs
   String _searchQuery = '';
   String _selectedCategory = '';
   bool _isLoading = true;
   String _error = '';
-  int? _lastUpdateTimestamp; // State for last update timestamp
+  int? _lastUpdateTimestamp;
 
   // Constructor injection for the UseCases (replace with DI later)
   MedicineProvider({
@@ -34,16 +38,17 @@ class MedicineProvider extends ChangeNotifier {
     required this.searchDrugsUseCase,
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
-    required this.getLastUpdateTimestampUseCase, // Add to constructor
+    required this.getLastUpdateTimestampUseCase,
+    required this.getAnalyticsSummaryUseCase, // Add analytics use case to constructor
   }) {
-    loadInitialData(); // Renamed for clarity
+    loadInitialData();
   }
 
   // Getters - expose DrugEntity lists
   List<DrugEntity> get medicines => _medicines;
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  List<DrugEntity> get recentlyUpdatedMedicines =>
-      _recentlyUpdatedMedicines; // Added getter
+  List<DrugEntity> get recentlyUpdatedMedicines => _recentlyUpdatedMedicines;
+  List<DrugEntity> get popularDrugs => _popularDrugs; // Added getter
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
   String get error => _error;
@@ -96,8 +101,9 @@ class MedicineProvider extends ChangeNotifier {
         _populateRecentlyUpdated(drugs);
         // Now load categories after drugs are loaded
         await _loadCategories(); // This await is now valid
-        await _loadAndUpdateTimestamp(); // Load timestamp after successful drug load
-        await _applyFilters(); // Also await this async function
+        await _loadAndUpdateTimestamp();
+        await _loadPopularDrugs(); // Load popular drugs after main list is ready
+        await _applyFilters();
       },
     );
 
@@ -172,6 +178,67 @@ class MedicineProvider extends ChangeNotifier {
       }
       _recentlyUpdatedMedicines = []; // Clear list on error
     }
+    // No need to notifyListeners here, loadInitialData will do it.
+  }
+
+  // --- Helper to load popular drugs based on analytics ---
+  Future<void> _loadPopularDrugs() async {
+    if (_medicines.isEmpty) {
+      _popularDrugs = [];
+      return; // Cannot determine popular if base list is empty
+    }
+
+    final failureOrSummary = await getAnalyticsSummaryUseCase(NoParams());
+
+    failureOrSummary.fold(
+      (failure) {
+        // Log error but don't block UI for this
+        print(
+          "Error loading analytics summary: ${_mapFailureToMessage(failure)}",
+        );
+        _popularDrugs = []; // Default to empty on error
+      },
+      (summary) {
+        final List<DrugEntity> foundPopular = [];
+        final Set<String> addedDrugNames = {}; // To avoid duplicates
+
+        // Get top search terms (lowercase)
+        final topTerms =
+            summary.topSearchQueries
+                .map((item) => (item['query'] as String?)?.toLowerCase())
+                .where((term) => term != null && term.isNotEmpty)
+                .toList();
+
+        if (kDebugMode) {
+          print("Top search terms from analytics: $topTerms");
+        }
+
+        // Find corresponding drugs from the main list
+        for (final term in topTerms) {
+          if (foundPopular.length >= 10) break; // Limit to 10 popular drugs
+
+          // Search by trade name or arabic name (case-insensitive)
+          final matchingDrug = _medicines.firstWhere(
+            (drug) =>
+                drug.tradeName.toLowerCase().contains(term!) ||
+                drug.arabicName.toLowerCase().contains(term),
+            orElse: () => DrugEntity.empty(), // Return empty if not found
+          );
+
+          if (matchingDrug != DrugEntity.empty() &&
+              !addedDrugNames.contains(matchingDrug.tradeName)) {
+            foundPopular.add(matchingDrug);
+            addedDrugNames.add(matchingDrug.tradeName);
+          }
+        }
+        _popularDrugs = foundPopular;
+        if (kDebugMode) {
+          print(
+            "Found ${_popularDrugs.length} popular drugs based on analytics.",
+          );
+        }
+      },
+    );
     // No need to notifyListeners here, loadInitialData will do it.
   }
 

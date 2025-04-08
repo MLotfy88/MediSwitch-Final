@@ -3,7 +3,8 @@ from . import views # Import views
 
 from .views import ( # Import the new view
     RegisterView, UploadDataView, DataVersionView, LatestDataView,
-    AdMobConfigView, GeneralConfigView, LogAnalyticsView, # Added LogAnalyticsView
+    AdMobConfigView, GeneralConfigView, LogAnalyticsView, AnalyticsSummaryView,
+    ValidatePurchaseView, # Added ValidatePurchaseView
     admin_login_view, admin_upload_view
 )
 
@@ -22,6 +23,8 @@ urlpatterns = [
 
     # Analytics URL
     path('analytics/log/', views.LogAnalyticsView.as_view(), name='log_analytics'),
+    path('analytics/summary/', views.AnalyticsSummaryView.as_view(), name='analytics_summary'),
+    path('subscriptions/validate/', views.ValidatePurchaseView.as_view(), name='validate_purchase'), # Add validation URL
     # Admin Web URLs (Add the login view URL)
     path('admin/login/', views.admin_login_view, name='admin_login'),
     path('admin/upload/', views.admin_upload_view, name='admin_upload'), # Add URL for upload page
