@@ -90,6 +90,8 @@ class MedicineProvider extends ChangeNotifier {
         _filteredMedicines = [];
         _recentlyUpdatedMedicines = []; // Also clear recently updated
         _categories = [];
+        _isLoading = false; // Set loading false on failure
+        notifyListeners(); // Notify after failure state update
       },
       (drugs) async {
         // Make the success callback async
@@ -103,12 +105,13 @@ class MedicineProvider extends ChangeNotifier {
         await _loadCategories(); // This await is now valid
         await _loadAndUpdateTimestamp();
         await _loadPopularDrugs(); // Load popular drugs after main list is ready
-        await _applyFilters();
+        await _applyFilters(); // This already sets isLoading=false and notifies
+        // _isLoading = false; // Set loading false after success and sub-loads
+        // notifyListeners(); // Notify after success state update (moved to _applyFilters)
       },
     );
 
-    _isLoading = false;
-    notifyListeners();
+    // Removed final isLoading=false and notifyListeners() from here, handled within fold blocks
   }
 
   // Helper to load categories using the UseCase

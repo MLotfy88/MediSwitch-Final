@@ -60,6 +60,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # Add WhiteNoise middleware
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware', # Add CORS middleware (place high)
     'django.middleware.common.CommonMiddleware',
@@ -137,8 +138,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-# Add STATIC_ROOT for production deployment if needed
-# STATIC_ROOT = BASE_DIR / 'staticfiles'
+# Define STATIC_ROOT for collectstatic
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+# Use WhiteNoise's storage backend for compression and caching
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media files (Uploaded files like CSV/Excel)
 # https://docs.djangoproject.com/en/4.2/topics/files/

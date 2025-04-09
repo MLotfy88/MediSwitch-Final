@@ -201,42 +201,46 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           crossAxisAlignment:
               CrossAxisAlignment.center, // Center items vertically
           children: [
-            // Drug Image/Icon
-            Container(
-              width: 70, // Size from prototype analysis
-              height: 70,
-              decoration: BoxDecoration(
-                color: colorScheme.primaryContainer.withOpacity(0.3),
-                borderRadius: BorderRadius.circular(
-                  12,
-                ), // Slightly less rounded than circle
-              ),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(12.0),
-                child:
-                    widget.drug.imageUrl != null &&
-                            widget.drug.imageUrl!.isNotEmpty
-                        ? CachedNetworkImage(
-                          imageUrl: widget.drug.imageUrl!,
-                          placeholder:
-                              (context, url) => const Center(
-                                child: CircularProgressIndicator(
-                                  strokeWidth: 2.0,
+            // Drug Image/Icon - Wrapped with Hero
+            Hero(
+              tag:
+                  'drug_image_${widget.drug.tradeName}', // Use the same tag as in DrugListItem
+              child: Container(
+                width: 70, // Size from prototype analysis
+                height: 70,
+                decoration: BoxDecoration(
+                  color: colorScheme.primaryContainer.withOpacity(0.3),
+                  borderRadius: BorderRadius.circular(
+                    12,
+                  ), // Slightly less rounded than circle
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12.0),
+                  child:
+                      widget.drug.imageUrl != null &&
+                              widget.drug.imageUrl!.isNotEmpty
+                          ? CachedNetworkImage(
+                            imageUrl: widget.drug.imageUrl!,
+                            placeholder:
+                                (context, url) => const Center(
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2.0,
+                                  ),
                                 ),
-                              ),
-                          errorWidget:
-                              (context, url, error) => Icon(
-                                Icons.medication_liquid_outlined,
-                                color: colorScheme.primary.withOpacity(0.7),
-                                size: 35,
-                              ),
-                          fit: BoxFit.cover,
-                        )
-                        : Icon(
-                          Icons.medication_liquid_outlined,
-                          color: colorScheme.primary.withOpacity(0.7),
-                          size: 35,
-                        ), // Placeholder icon
+                            errorWidget:
+                                (context, url, error) => Icon(
+                                  Icons.medication_liquid_outlined,
+                                  color: colorScheme.primary.withOpacity(0.7),
+                                  size: 35,
+                                ),
+                            fit: BoxFit.cover,
+                          )
+                          : Icon(
+                            Icons.medication_liquid_outlined,
+                            color: colorScheme.primary.withOpacity(0.7),
+                            size: 35,
+                          ), // Placeholder icon
+                ),
               ),
             ),
             const SizedBox(width: 16.0),

@@ -15,8 +15,9 @@ pandas>=2.0,<3.0 # For CSV/Excel validation
 flake8>=6.0,<7.0
 black>=23.0,<24.0
 
-# Production Server (Optional for now, uncomment later)
-# gunicorn>=21.0,<22.0
+# Production Server & Static Files
+gunicorn>=21.0,<22.0
+whitenoise[brotli]>=6.0,<7.0 # Added whitenoise with Brotli support
 
 # Database (Optional for now, uncomment if using PostgreSQL)
 # psycopg2-binary>=2.9,<3.0
