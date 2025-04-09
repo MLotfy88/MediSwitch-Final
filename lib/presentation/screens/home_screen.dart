@@ -6,7 +6,8 @@ import '../bloc/medicine_provider.dart'; // Corrected provider path
 import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
-import '../widgets/drug_list_item.dart'; // Import the list item widget
+import '../widgets/drug_list_item.dart';
+import '../widgets/section_header.dart'; // Import the new header widget
 // TODO: Remove temporary DI access via MyApp once proper DI is set up
 // import '../../main.dart';
 // import '../../domain/usecases/find_drug_alternatives.dart';
@@ -63,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
             SliverList(
               delegate: SliverChildListDelegate([
                 // --- Categories Section ---
-                _buildSectionHeader(context, 'الفئات الطبية'), // Updated title
+                const SectionHeader(title: 'الفئات الطبية'), // Use new widget
                 _buildCategoriesGrid(context),
                 const SizedBox(height: 16.0),
 
@@ -71,28 +72,34 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (!isLoading &&
                     error.isEmpty &&
                     recentlyUpdated.isNotEmpty) ...[
-                  _buildSectionHeader(
-                    context,
-                    'أدوية محدثة مؤخراً',
-                    showViewAll: true,
-                    onVewAllTap: () {
-                      // TODO: Implement navigation to a "Recently Updated" screen or filter
-                      print("View All Recently Updated Tapped");
-                    },
+                  SectionHeader(
+                    // Use new widget
+                    title: 'أدوية محدثة مؤخراً',
+                    action: TextButton(
+                      // Define action widget directly
+                      onPressed: () {
+                        // TODO: Implement navigation
+                        print("View All Recently Updated Tapped");
+                      },
+                      child: const Text('عرض الكل'),
+                    ),
                   ),
                   _buildHorizontalDrugList(context, recentlyUpdated),
                   const SizedBox(height: 16.0),
                 ],
 
-                // --- Popular Drugs Section (Placeholder) ---
-                _buildSectionHeader(
-                  context,
-                  'الأدوية الأكثر بحثاً',
-                  showViewAll: true,
-                  onVewAllTap: () {
-                    // TODO: Implement navigation to a "Popular Drugs" screen or filter
-                    print("View All Popular Drugs Tapped");
-                  },
+                // --- Popular Drugs Section ---
+                SectionHeader(
+                  // Use new widget
+                  title: 'الأدوية الأكثر بحثاً',
+                  action: TextButton(
+                    // Define action widget directly
+                    onPressed: () {
+                      // TODO: Implement navigation
+                      print("View All Popular Drugs Tapped");
+                    },
+                    child: const Text('عرض الكل'),
+                  ),
                 ),
                 _buildHorizontalDrugList(
                   context,
@@ -240,45 +247,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ); // Add missing closing brace for SafeArea
   }
 
-  Widget _buildSectionHeader(
-    BuildContext context,
-    String title, {
-    bool showViewAll = false,
-    VoidCallback? onVewAllTap,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16.0,
-        right: 16.0,
-        top: 20.0,
-        bottom: 12.0,
-      ), // Adjusted padding
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            title,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.bold,
-            ), // Bolder title
-          ),
-          if (showViewAll)
-            TextButton(
-              onPressed: onVewAllTap,
-              child: const Text('عرض الكل'),
-              style: TextButton.styleFrom(
-                padding: EdgeInsets.zero,
-                textStyle: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
-              ),
-            ),
-        ],
-      ),
-    );
-  }
-
+  // Removed _buildSectionHeader - replaced by SectionHeader widget
   Widget _buildCategoriesGrid(BuildContext context) {
     // Categories based on prototype
     final categories = [

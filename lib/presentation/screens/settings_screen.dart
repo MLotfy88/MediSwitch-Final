@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../bloc/settings_provider.dart';
 import '../bloc/medicine_provider.dart';
+import '../widgets/section_header.dart'; // Import SectionHeader
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -78,7 +79,7 @@ class SettingsScreen extends StatelessWidget {
                           ), // Placeholder
                         ],
                       ),
-                    ],
+                    ], // Added missing closing bracket for Row children
                   ),
                   const SizedBox(height: 16),
                   ElevatedButton.icon(
@@ -103,7 +104,11 @@ class SettingsScreen extends StatelessWidget {
           ),
 
           // --- General Settings Section ---
-          _buildSettingsSectionTitle(context, 'الإعدادات العامة'),
+          const SectionHeader(
+            title: 'الإعدادات العامة',
+            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+          ), // Use new widget
+          // Removed duplicate call to _buildSettingsSectionTitle
           Card(
             margin: cardMargin,
             elevation: 1,
@@ -185,7 +190,11 @@ class SettingsScreen extends StatelessWidget {
           ),
 
           // --- Security & Privacy Section ---
-          _buildSettingsSectionTitle(context, 'الأمان والخصوصية'),
+          const SectionHeader(
+            title: 'الأمان والخصوصية',
+            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+          ), // Use new widget
+          // Removed duplicate call to _buildSettingsSectionTitle
           Card(
             margin: cardMargin,
             elevation: 1,
@@ -235,7 +244,11 @@ class SettingsScreen extends StatelessWidget {
           ),
 
           // --- Subscription Section ---
-          _buildSettingsSectionTitle(context, 'الاشتراك'),
+          const SectionHeader(
+            title: 'الاشتراك',
+            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+          ), // Use new widget
+          // Removed duplicate call to _buildSettingsSectionTitle
           Card(
             margin: cardMargin,
             elevation: 1,
@@ -275,7 +288,11 @@ class SettingsScreen extends StatelessWidget {
           ),
 
           // --- About App Section ---
-          _buildSettingsSectionTitle(context, 'حول التطبيق'),
+          const SectionHeader(
+            title: 'حول التطبيق',
+            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+          ), // Use new widget
+          // Removed duplicate call to _buildSettingsSectionTitle
           Card(
             margin: cardMargin,
             elevation: 1,
@@ -399,25 +416,7 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 
-  // Helper for section titles
-  Widget _buildSettingsSectionTitle(BuildContext context, String title) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16.0,
-        right: 16.0,
-        top: 16.0,
-        bottom: 4.0,
-      ),
-      child: Text(
-        title,
-        style: Theme.of(context).textTheme.titleSmall?.copyWith(
-          color: Theme.of(context).colorScheme.primary,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    );
-  }
-
+  // Removed _buildSettingsSectionTitle - replaced by SectionHeader widget
   // Helper for dividers within cards
   Widget _buildDivider() {
     return const Divider(height: 1, indent: 16, endIndent: 16);

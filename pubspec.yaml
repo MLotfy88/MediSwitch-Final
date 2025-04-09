@@ -65,7 +65,8 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
   very_good_analysis: ^7.0.0
-
+  flutter_launcher_icons: ^0.13.1 # For generating app icons
+  flutter_native_splash: ^2.4.0 # For generating splash screens
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -106,3 +107,43 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+# flutter_launcher_icons configuration
+flutter_launcher_icons:
+  android: true # Generate Android icons
+  ios: true # Generate iOS icons
+  image_path: "assets/icon/app_icon_placeholder.png" # Use the created placeholder
+  adaptive_icon_background: "#FFFFFF" # White background for adaptive icon
+  # adaptive_icon_foreground: "assets/icon/placeholder_foreground.png" # Removed - requires a valid asset
+  # web:
+  #   generate: true
+  #   image_path: "path/to/icon.png"
+
+# flutter_native_splash configuration
+flutter_native_splash:
+  # Background color for splash screen (replace with your desired color)
+  color: "#FFFFFF" # White background
+  color_dark: "#121212" # Dark background for dark mode
+
+  # Optional: Use an image logo (provide path if available)
+  # image: assets/branding/splash_logo.png
+  # image_dark: assets/branding/splash_logo_dark.png
+
+  # Android 12 specific settings (optional)
+  # android_12:
+    # image: assets/branding/android12_logo.png
+    # icon_background_color: "#FFFFFF"
+    # image_dark: assets/branding/android12_logo_dark.png
+    # icon_background_color_dark: "#121212"
+
+  # Other platforms (web, ios, etc.) - configure as needed
+  # web: false # Example: disable splash for web
+  #   background_color: "#hexcode"
+  #   theme_color: "#hexcode"
+  # windows:
+  #   generate: true
+  #   image_path: "path/to/icon.png"
+  #   icon_size: 48 # min:48, max:256, default: 48
+  # macos:
+  #   generate: true
+  #   image_path: "path/to/icon.png"
