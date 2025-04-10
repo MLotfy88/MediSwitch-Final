@@ -7,6 +7,7 @@ import 'alternatives_screen.dart'; // Import AlternativesScreen
 import 'weight_calculator_screen.dart';
 import 'settings_screen.dart';
 import 'interaction_checker_screen.dart'; // Import Interaction Checker screen for potential future tab
+import 'package:flutter_animate/flutter_animate.dart'; // Ensure flutter_animate is imported
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -70,8 +71,18 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Use IndexedStack to keep the state of the screens when switching tabs
-      body: IndexedStack(index: _selectedIndex, children: _widgetOptions),
+      // Use IndexedStack and animate the currently selected child
+      body: IndexedStack(
+        index: _selectedIndex,
+        children:
+            _widgetOptions.map((widget) {
+              // Apply animation to each potential screen in the stack
+              return widget.animate().fadeIn(
+                duration: 300.ms,
+                curve: Curves.easeInOut,
+              );
+            }).toList(),
+      ),
       // body: Center(child: _widgetOptions.elementAt(_selectedIndex)), // Old way - loses state
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[

@@ -52,7 +52,7 @@ dependencies:
   url_launcher: ^6.1.10 # For launching URLs (Settings Screen)
   get_it: ^7.7.0 # Service Locator for Dependency Injection
   in_app_purchase: ^3.2.0 # For handling in-app subscriptions
-
+  introduction_screen: ^3.1.14 # For onboarding/introduction screens
 
 dev_dependencies:
   flutter_test:

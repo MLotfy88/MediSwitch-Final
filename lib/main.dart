@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'core/di/locator.dart'; // Import the locator
+import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
+import 'core/di/locator.dart';
 import 'presentation/bloc/medicine_provider.dart';
 import 'presentation/bloc/settings_provider.dart';
-import 'presentation/bloc/alternatives_provider.dart'; // Import for global provider
-import 'presentation/bloc/dose_calculator_provider.dart'; // Import for global provider
-import 'presentation/bloc/interaction_provider.dart'; // Import for global provider
+import 'presentation/bloc/alternatives_provider.dart';
+import 'presentation/bloc/dose_calculator_provider.dart';
+import 'presentation/bloc/interaction_provider.dart';
+import 'presentation/bloc/subscription_provider.dart'; // Import Subscription Provider
 import 'presentation/screens/main_screen.dart';
+import 'presentation/screens/onboarding_screen.dart';
+
+// Define the key here or move to a shared constants file
+const String _prefsKeyOnboardingDone = 'onboarding_complete';
 
 // Make main async
 Future<void> main() async {
@@ -14,13 +21,24 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // Setup the locator before running the app
   await setupLocator();
-  // Run the app
-  runApp(const MyApp());
+
+  // Check if onboarding is complete
+  final prefs = await locator.getAsync<SharedPreferences>();
+  final bool onboardingComplete =
+      prefs.getBool(_prefsKeyOnboardingDone) ?? false;
+
+  // Determine the initial screen
+  final Widget initialScreen =
+      onboardingComplete ? const MainScreen() : const OnboardingScreen();
+
+  // Run the app, passing the initial screen
+  runApp(MyApp(homeWidget: initialScreen));
 }
 
 class MyApp extends StatelessWidget {
-  // No longer need to accept use cases via constructor
-  const MyApp({super.key});
+  final Widget homeWidget; // Add field to hold the initial widget
+
+  const MyApp({super.key, required this.homeWidget});
 
   @override
   Widget build(BuildContext context) {
@@ -35,6 +53,9 @@ class MyApp extends StatelessWidget {
           create: (_) => locator<DoseCalculatorProvider>(),
         ),
         ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
+        ChangeNotifierProvider(
+          create: (_) => locator<SubscriptionProvider>(),
+        ), // Provide SubscriptionProvider
       ],
       // Consumer is needed here to access SettingsProvider for theme/locale
       child: Consumer<SettingsProvider>(
@@ -74,7 +95,7 @@ class MyApp extends StatelessWidget {
             // TODO: Add localization delegates and supported locales
             // localizationsDelegates: [ ... ],
             // supportedLocales: [ const Locale('en'), const Locale('ar'), ],
-            home: const MainScreen(), // Ensure MainScreen is correctly imported
+            home: homeWidget, // Use the determined initial screen
           );
         },
       ),
