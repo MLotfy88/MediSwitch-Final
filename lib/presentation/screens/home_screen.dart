@@ -7,8 +7,11 @@ import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
 import '../widgets/drug_list_item.dart';
-import '../widgets/section_header.dart'; // Import the new header widget
-import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate for extensions like .ms
+import '../widgets/section_header.dart';
+import '../widgets/home_header.dart'; // Import the new HomeHeader widget
+import '../widgets/horizontal_list_section.dart';
+import '../widgets/category_card.dart'; // Import CategoryCard
+import 'package:flutter_animate/flutter_animate.dart';
 // TODO: Remove temporary DI access via MyApp once proper DI is set up
 // import '../../main.dart';
 // import '../../domain/usecases/find_drug_alternatives.dart';
@@ -33,224 +36,148 @@ class _HomeScreenState extends State<HomeScreen> {
     final recentlyUpdated = medicineProvider.recentlyUpdatedMedicines;
     // TODO: Add logic for popular medicines if needed
 
+    // Apply the overall fade-in animation from the design
     return Scaffold(
-      // AppBar is handled by MainScreen now, so removed from here.
+      // No AppBar here, Header component will be part of the body
       body: RefreshIndicator(
-        // Add pull-to-refresh
         onRefresh: () => context.read<MedicineProvider>().loadInitialData(),
-        child: CustomScrollView(
-          // Use CustomScrollView for more complex layouts
-          slivers: <Widget>[
-            // --- Header Section ---
-            SliverAppBar(
-              expandedHeight: 180.0, // Adjust height as needed
-              backgroundColor:
-                  Colors.transparent, // Make background transparent
-              elevation: 0,
-              pinned: true, // Keep header visible while scrolling up
-              flexibleSpace: FlexibleSpaceBar(
-                background: _buildHeader(
-                  context,
-                ), // Use a separate header builder
-                // Prevent title from showing when collapsed
-                titlePadding: EdgeInsets.zero,
-                centerTitle: true,
-                title: const SizedBox.shrink(), // Hide title when collapsed
-              ),
-              // Add actions directly here if needed when this screen is standalone
-              // actions: [ _buildFilterButton(context), _buildRefreshButton(context, isLoading, medicineProvider) ],
-            ),
+        child:
+            isLoading
+                ? const Center(child: CircularProgressIndicator())
+                : error.isNotEmpty
+                ? _buildErrorWidget(context, error) // Keep error handling
+                : ListView(
+                  // Use ListView instead of CustomScrollView
+                  padding: EdgeInsets.zero, // Remove default padding
+                  children: [
+                    const HomeHeader(), // Use the new HomeHeader widget
+                    _buildSearchBar(context),
+                    const SizedBox(height: 16.0),
+                    // --- Categories Section ---
+                    _buildCategoriesSection(
+                      context,
+                    ), // Use HorizontalListSection
+                    const SizedBox(height: 16.0),
+                    // --- Recently Updated Section ---
+                    if (recentlyUpdated.isNotEmpty)
+                      HorizontalListSection(
+                        title: 'أدوية محدثة مؤخراً',
+                        listHeight: 210, // Match previous SizedBox height
+                        onViewAll: () {
+                          print("View All Recently Updated Tapped");
+                        },
+                        children:
+                            recentlyUpdated
+                                .map(
+                                  (drug) => SizedBox(
+                                    width: 170, // Match previous SizedBox width
+                                    child: DrugListItem(
+                                      drug: drug,
+                                      onTap:
+                                          () =>
+                                              _navigateToDetails(context, drug),
+                                    ),
+                                  ),
+                                )
+                                .toList(),
+                      ),
 
-            // --- Body Content ---
-            SliverList(
-              delegate: SliverChildListDelegate([
-                // --- Categories Section ---
-                const SectionHeader(title: 'الفئات الطبية'), // Use new widget
-                _buildCategoriesGrid(context),
-                const SizedBox(height: 16.0),
-
-                // --- Recently Updated Section ---
-                if (!isLoading &&
-                    error.isEmpty &&
-                    recentlyUpdated.isNotEmpty) ...[
-                  SectionHeader(
-                    // Use new widget
-                    title: 'أدوية محدثة مؤخراً',
-                    action: TextButton(
-                      // Define action widget directly
-                      onPressed: () {
-                        // TODO: Implement navigation
-                        print("View All Recently Updated Tapped");
+                    // --- Popular Drugs Section ---
+                    HorizontalListSection(
+                      title: 'الأدوية الأكثر بحثاً',
+                      listHeight: 210, // Match previous SizedBox height
+                      onViewAll: () {
+                        print("View All Popular Drugs Tapped");
                       },
-                      child: const Text('عرض الكل'),
+                      children:
+                          medicineProvider.popularDrugs
+                              .map(
+                                (drug) => SizedBox(
+                                  width: 170, // Match previous SizedBox width
+                                  child: DrugListItem(
+                                    drug: drug,
+                                    onTap:
+                                        () => _navigateToDetails(context, drug),
+                                  ),
+                                ),
+                              )
+                              .toList(),
                     ),
-                  ),
-                  _buildHorizontalDrugList(context, recentlyUpdated),
-                  const SizedBox(height: 16.0),
-                ],
-
-                // --- Popular Drugs Section ---
-                SectionHeader(
-                  // Use new widget
-                  title: 'الأدوية الأكثر بحثاً',
-                  action: TextButton(
-                    // Define action widget directly
-                    onPressed: () {
-                      // TODO: Implement navigation
-                      print("View All Popular Drugs Tapped");
-                    },
-                    child: const Text('عرض الكل'),
-                  ),
+                    const SizedBox(
+                      height: 16.0,
+                    ), // Keep spacing after popular drugs
+                    // --- All Drugs Section ---
+                    const SectionHeader(
+                      title: 'جميع الأدوية',
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 8,
+                      ),
+                    ), // Add header
+                    _buildAllDrugsList(
+                      context,
+                      allMedicines,
+                    ), // New method for vertical list
+                  ],
                 ),
-                _buildHorizontalDrugList(
-                  context,
-                  medicineProvider
-                      .popularDrugs, // Use actual popular drugs list
-                ),
-                const SizedBox(height: 16.0),
-
-                // --- Main Drug List Title ---
-                // Removed "All Drugs" title as it might be redundant if filtering is clear
-                // _buildSectionHeader(context, 'جميع الأدوية'),
-              ]),
-            ),
-
-            // --- Loading/Error/Grid/List Section ---
-            SliverPadding(
-              // Add padding around the main list/grid
-              padding: const EdgeInsets.all(12.0), // Slightly more padding
-              sliver:
-                  isLoading
-                      ? const SliverFillRemaining(
-                        child: Center(child: CircularProgressIndicator()),
-                      )
-                      : error.isNotEmpty
-                      ? SliverFillRemaining(
-                        child: _buildErrorWidget(context, error),
-                      )
-                      : _buildDrugListOrGrid(context, allMedicines),
-            ),
-          ],
-        ),
       ),
     );
   }
 
   // --- Builder Methods ---
 
-  Widget _buildHeader(BuildContext context) {
+  // Builds the search bar section (placeholder for now, might become a separate widget)
+  Widget _buildSearchBar(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final colorScheme = Theme.of(context).colorScheme;
-    // Mimics the header structure from the prototype
-    // Using SafeArea to avoid status bar overlap
-    return SafeArea(
-      bottom: false, // Only apply padding to the top
-      child: Container(
-        padding: const EdgeInsets.only(
-          top: 16.0, // Reduced top padding inside SafeArea
-          left: 20.0,
-          right: 20.0,
-          bottom: 20.0, // Reduced bottom padding
-        ),
-        // Removed gradient background, AppBar handles background now
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.end, // Align content to bottom
-          children: [
-            // User Info Row
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'مرحباً، أحمد', // Placeholder name
-                      style: textTheme.titleLarge?.copyWith(
-                        // Use AppBar's foreground color or a contrasting color
-                        color: colorScheme.onPrimary,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 2), // Reduced spacing
-                    Text(
-                      'ابحث عن أدويتك بسهولة',
-                      style: textTheme.bodyMedium?.copyWith(
-                        color: colorScheme.onPrimary.withOpacity(0.8),
-                      ),
-                    ),
-                  ],
-                ),
-                CircleAvatar(
-                  radius: 26, // Adjusted size
-                  backgroundColor: colorScheme.onPrimary.withOpacity(0.15),
-                  child: Icon(
-                    Icons.person_outline_rounded,
-                    size: 28, // Adjusted size
-                    color: colorScheme.onPrimary,
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 18.0), // Adjusted spacing
-            // Search Bar
-            InkWell(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => const SearchScreen(),
-                  ),
-                );
-              },
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16.0, // Adjusted padding
-                  vertical: 12.0, // Adjusted padding
-                ),
-                decoration: BoxDecoration(
-                  // Use a slightly different color for contrast if AppBar is primary
-                  color:
-                      colorScheme.brightness == Brightness.dark
-                          ? colorScheme.surfaceVariant
-                          : Colors.white,
-                  borderRadius: BorderRadius.circular(28.0),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.06),
-                      blurRadius: 8,
-                      offset: const Offset(0, 2),
-                    ),
-                  ],
-                ),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.search,
-                      color: Theme.of(context).hintColor,
-                      size: 22, // Adjusted size
-                    ),
-                    const SizedBox(width: 10.0), // Adjusted spacing
-                    Text(
-                      'ابحث عن دواء...',
-                      style: textTheme.bodyLarge?.copyWith(
-                        color: Theme.of(context).hintColor,
-                      ),
-                    ),
-                  ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute<void>(builder: (context) => const SearchScreen()),
+          );
+        },
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+          decoration: BoxDecoration(
+            color:
+                colorScheme.brightness == Brightness.dark
+                    ? colorScheme.surfaceVariant
+                    : Colors.white,
+            borderRadius: BorderRadius.circular(28.0),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.06),
+                blurRadius: 8,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: Row(
+            children: [
+              Icon(Icons.search, color: Theme.of(context).hintColor, size: 22),
+              const SizedBox(width: 10.0),
+              Text(
+                'ابحث عن دواء...',
+                style: textTheme.bodyLarge?.copyWith(
+                  color: Theme.of(context).hintColor,
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
-    ); // Add missing closing brace for SafeArea
+    );
   }
 
-  // Removed _buildSectionHeader - replaced by SectionHeader widget
-  Widget _buildCategoriesGrid(BuildContext context) {
-    // Categories based on prototype
+  // Removed _buildHeader method - replaced by HomeHeader widget
+
+  // Builds the Categories section using HorizontalListSection
+  // Renamed from _buildCategoriesGrid
+  Widget _buildCategoriesSection(BuildContext context) {
+    // Placeholder categories - replace with actual data source later
     final categories = [
       {
         'name': 'مسكنات الألم',
@@ -272,203 +199,148 @@ class _HomeScreenState extends State<HomeScreen> {
         'icon': Icons.local_florist_outlined,
         'data': 'vitamins',
       },
-      // Add more if needed
     ];
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-      height: 115, // Adjusted height
-      child: ListView.separated(
-        // Use ListView for horizontal scroll
-        scrollDirection: Axis.horizontal,
-        itemCount: categories.length,
-        separatorBuilder:
-            (context, index) =>
-                const SizedBox(width: 16.0), // Increased spacing
-        itemBuilder: (context, index) {
-          final category = categories[index];
-          // Wrap InkWell with Animate to add tap effect
-          return InkWell(
-            onTap: () {
-              context.read<MedicineProvider>().setCategory(
-                category['data'] as String? ?? '',
-              );
-              print("Category Tapped: ${category['name']}");
-            },
-            borderRadius: BorderRadius.circular(16.0),
-            child: Card(
-                  // Apply animation to the Card
-                  elevation: 1.0,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16.0),
-                  ),
-                  color: Theme.of(
-                    context,
-                  ).colorScheme.surfaceVariant.withOpacity(0.7),
-                  child: Container(
-                    width: 100,
-                    padding: const EdgeInsets.symmetric(
-                      vertical: 14.0,
-                      horizontal: 8.0,
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            color: Theme.of(
-                              context,
-                            ).colorScheme.primary.withOpacity(0.1),
-                            shape: BoxShape.circle,
-                          ),
-                          child: Icon(
-                            category['icon'] as IconData?,
-                            size: 30,
-                            color: Theme.of(context).colorScheme.primary,
-                          ),
-                        ),
-                        const SizedBox(height: 10.0),
-                        Text(
-                          category['name'] as String? ?? '',
-                          style: Theme.of(
-                            context,
-                          ).textTheme.bodyMedium?.copyWith(
-                            fontWeight: FontWeight.w600,
-                            color:
-                                Theme.of(context).colorScheme.onSurfaceVariant,
-                          ),
-                          textAlign: TextAlign.center,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                ) // End Card
-                .animate() // Apply animate to Card
-                .scale(
-                  // Add scale effect on tap - This will play on build, not tap
-                  // To trigger on tap, you'd need a stateful widget or AnimationController
-                  // For simplicity, let's just have a build-time animation for now
-                  delay: (100 * index).ms, // Stagger the animation
-                  duration: 400.ms,
-                  curve: Curves.easeOut,
-                  begin: const Offset(0.9, 0.9),
-                  end: const Offset(1.0, 1.0),
-                )
-                .fadeIn(
-                  // Also fade in
-                  delay: (100 * index).ms,
-                  duration: 400.ms,
-                  curve: Curves.easeOut,
-                ), // End animate chain
-          ); // End InkWell
-        },
+    return HorizontalListSection(
+      title: 'الفئات الطبية',
+      listHeight: 115, // Height for category cards
+      // Remove header padding as it's handled by the section widget now
+      headerPadding: const EdgeInsets.only(
+        left: 16,
+        right: 16,
+        top: 16,
+        bottom: 8,
       ),
+      children:
+          categories.map((category) {
+            // Create the Category Card widget here (or use a dedicated widget later)
+            return Semantics(
+              // Added Semantics here
+              label: 'فئة ${category['name']}',
+              button: true,
+              child: InkWell(
+                onTap: () {
+                  context.read<MedicineProvider>().setCategory(
+                    category['data'] as String? ?? '',
+                  );
+                  print("Category Tapped: ${category['name']}");
+                },
+                borderRadius: BorderRadius.circular(16.0),
+                child: Card(
+                      elevation: 1.0,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16.0),
+                      ),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.surfaceVariant.withOpacity(0.7),
+                      child: Container(
+                        width: 100,
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 14.0,
+                          horizontal: 8.0,
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                color: Theme.of(
+                                  context,
+                                ).colorScheme.primary.withOpacity(0.1),
+                                shape: BoxShape.circle,
+                              ),
+                              child: Icon(
+                                category['icon'] as IconData?,
+                                size: 30,
+                                color: Theme.of(context).colorScheme.primary,
+                              ),
+                            ),
+                            const SizedBox(height: 10.0),
+                            Text(
+                              category['name'] as String? ?? '',
+                              style: Theme.of(
+                                context,
+                              ).textTheme.bodyMedium?.copyWith(
+                                fontWeight: FontWeight.w600,
+                                color:
+                                    Theme.of(
+                                      context,
+                                    ).colorScheme.onSurfaceVariant,
+                              ),
+                              textAlign: TextAlign.center,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
+                      ),
+                    )
+                    .animate() // Apply animation
+                    .scale(
+                      delay: (categories.indexOf(category) * 100).ms,
+                      duration: 400.ms,
+                      curve: Curves.easeOut,
+                      begin: const Offset(0.9, 0.9),
+                      end: const Offset(1.0, 1.0),
+                    )
+                    .fadeIn(
+                      delay: (categories.indexOf(category) * 100).ms,
+                      duration: 400.ms,
+                      curve: Curves.easeOut,
+                    ),
+              ),
+            );
+          }).toList(),
     );
   }
 
-  // Updated to use DrugListItem which now includes image handling
-  Widget _buildHorizontalDrugList(
-    BuildContext context,
-    List<DrugEntity> drugs,
-  ) {
-    return SizedBox(
-      height: 210, // Increased height for better card display with image
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: drugs.length,
-        padding: const EdgeInsets.symmetric(horizontal: 12.0),
-        itemBuilder: (context, index) {
-          final drug = drugs[index];
-          return SizedBox(
-            width: 170, // Adjusted width
-            child: DrugListItem(
-              // Use the imported widget
-              drug: drug,
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => DrugDetailsScreen(drug: drug),
-                  ),
-                );
-              },
-            ),
-          );
-        },
-      ),
+  // Removed _buildCategoriesGrid and _buildHorizontalDrugList methods
+  // They are now handled by HorizontalListSection
+
+  // Helper method for navigation to avoid repetition
+  void _navigateToDetails(BuildContext context, DrugEntity drug) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => DrugDetailsScreen(drug: drug)),
     );
   }
 
-  Widget _buildDrugListOrGrid(
-    BuildContext context,
-    List<DrugEntity> medicines,
-  ) {
+  // Builds the vertical list for "All Drugs" section
+  Widget _buildAllDrugsList(BuildContext context, List<DrugEntity> medicines) {
     if (medicines.isEmpty) {
-      return const SliverFillRemaining(
-        // Use SliverFillRemaining for empty state in CustomScrollView
-        child: Center(child: Text('لا توجد أدوية متطابقة.')),
+      return const Padding(
+        padding: EdgeInsets.symmetric(vertical: 32.0),
+        child: Center(child: Text('لا توجد أدوية لعرضها.')),
       );
     }
-
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        const double gridBreakpoint = 600.0;
-        final bool useGridView = constraints.maxWidth >= gridBreakpoint;
-        // Adjust crossAxisCount and childAspectRatio based on DrugListItem's new layout
-        final int crossAxisCount =
-            useGridView ? (constraints.maxWidth / 200).floor().clamp(2, 4) : 1;
-        final double childAspectRatio =
-            useGridView ? 0.8 : 2.5; // Adjust aspect ratio
-
-        if (useGridView) {
-          return SliverGrid(
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: crossAxisCount,
-              childAspectRatio: childAspectRatio,
-              crossAxisSpacing: 8.0,
-              mainAxisSpacing: 8.0,
-            ),
-            delegate: SliverChildBuilderDelegate((context, index) {
-              final drug = medicines[index];
-              return DrugListItem(
-                drug: drug,
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => DrugDetailsScreen(drug: drug),
-                    ),
-                  );
-                },
-              );
-            }, childCount: medicines.length),
-          );
-        } else {
-          // Use ListView for narrower screens
-          return SliverList(
-            delegate: SliverChildBuilderDelegate((context, index) {
-              final drug = medicines[index];
-              return DrugListItem(
-                drug: drug,
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => DrugDetailsScreen(drug: drug),
-                    ),
-                  );
-                },
-              );
-            }, childCount: medicines.length),
-          );
-        }
+    // Use ListView.builder within the main ListView
+    // Need to set physics and shrinkWrap appropriately
+    return ListView.builder(
+      shrinkWrap: true, // Important inside another scroll view
+      physics:
+          const NeverScrollableScrollPhysics(), // Disable its own scrolling
+      itemCount: medicines.length,
+      itemBuilder: (context, index) {
+        final drug = medicines[index];
+        // Use a different DrugCard style if available, or reuse DrugListItem
+        return Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 16.0,
+            vertical: 4.0,
+          ), // Add padding
+          child: DrugListItem(
+            // Reusing DrugListItem for now
+            drug: drug,
+            onTap: () => _navigateToDetails(context, drug), // Use helper
+          ),
+        );
       },
     );
   }
 
+  // Removed _buildDrugListOrGrid as it's replaced by _buildAllDrugsList
   Widget _buildErrorWidget(BuildContext context, String error) {
     return Center(
       child: Padding(

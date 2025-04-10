@@ -75,21 +75,245 @@ class MyApp extends StatelessWidget {
             themeMode:
                 settingsProvider.themeMode, // Use themeMode from provider
             theme: ThemeData(
-              // Define light theme
-              // Use colorSchemeSeed for easier Material 3 theming
-              colorSchemeSeed: Colors.blue,
+              // Light Theme
               brightness: Brightness.light,
-              fontFamily: 'Arial', // Consider Noto Sans Arabic
               useMaterial3: true,
-              // Add other light theme customizations if needed
+              fontFamily: 'Noto Sans Arabic', // Set default font
+              colorScheme: ColorScheme.fromSeed(
+                seedColor:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      160,
+                      0.78,
+                      0.40,
+                    ).toColor(), // Primary color from CSS --primary
+                brightness: Brightness.light,
+                // Override specific colors based on CSS variables
+                background:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --background
+                onBackground:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.84,
+                      0.049,
+                    ).toColor(), // --foreground
+                primary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      160,
+                      0.78,
+                      0.40,
+                    ).toColor(), // --primary
+                onPrimary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --primary-foreground
+                secondary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.961,
+                    ).toColor(), // --secondary
+                onSecondary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.474,
+                      0.112,
+                    ).toColor(), // --secondary-foreground
+                surface:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      0,
+                      0,
+                      1.0,
+                    ).toColor(), // --card (white)
+                onSurface:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.84,
+                      0.049,
+                    ).toColor(), // --card-foreground
+                error:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      0,
+                      0.842,
+                      0.602,
+                    ).toColor(), // --destructive
+                onError:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --destructive-foreground
+              ),
+              // Define other theme properties like textTheme, cardTheme etc. based on design
+              cardTheme: CardTheme(
+                elevation: 0, // Default card elevation based on shadcn/ui style
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(
+                    12.0,
+                  ), // Corresponds to --radius: 0.75rem
+                  side: BorderSide(
+                    color:
+                        const HSLColor.fromAHSL(
+                          1.0,
+                          214.3,
+                          0.318,
+                          0.914,
+                        ).toColor(),
+                  ), // --border
+                ),
+              ),
+              appBarTheme: AppBarTheme(
+                // Removed const
+                elevation: 0, // Flat app bars
+                backgroundColor:
+                    Colors.transparent, // Often transparent in modern designs
+                foregroundColor:
+                    HSLColor.fromAHSL(
+                      // Removed const
+                      1.0,
+                      222.2,
+                      0.84,
+                      0.049,
+                    ).toColor(), // Match foreground
+              ),
+              // Add more theme customizations...
             ),
             darkTheme: ThemeData(
-              // Define dark theme
-              colorSchemeSeed: Colors.blue,
-              brightness: Brightness.dark, // Set brightness to dark
-              fontFamily: 'Arial', // Consider Noto Sans Arabic
+              // Dark Theme
+              brightness: Brightness.dark,
               useMaterial3: true,
-              // Add other dark theme customizations if needed
+              fontFamily: 'Noto Sans Arabic',
+              colorScheme: ColorScheme.fromSeed(
+                seedColor:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      160,
+                      0.78,
+                      0.40,
+                    ).toColor(), // Primary color
+                brightness: Brightness.dark,
+                background:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.22,
+                      0.18,
+                    ).toColor(), // --background dark
+                onBackground:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --foreground dark
+                primary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      160,
+                      0.78,
+                      0.40,
+                    ).toColor(), // --primary dark (same as light?)
+                onPrimary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --primary-foreground dark
+                secondary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      217.2,
+                      0.326,
+                      0.25,
+                    ).toColor(), // --secondary dark
+                onSecondary:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --secondary-foreground dark
+                surface:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.25,
+                      0.14,
+                    ).toColor(), // --card dark
+                onSurface:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --card-foreground dark
+                error:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      0,
+                      0.70,
+                      0.45,
+                    ).toColor(), // --destructive dark
+                onError:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // --destructive-foreground dark
+              ),
+              cardTheme: CardTheme(
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12.0),
+                  side: BorderSide(
+                    color:
+                        const HSLColor.fromAHSL(
+                          1.0,
+                          217.2,
+                          0.326,
+                          0.25,
+                        ).toColor(),
+                  ), // --border dark
+                ),
+                color:
+                    const HSLColor.fromAHSL(
+                      1.0,
+                      222.2,
+                      0.25,
+                      0.14,
+                    ).toColor(), // --card dark
+              ),
+              appBarTheme: AppBarTheme(
+                // Removed const
+                elevation: 0,
+                backgroundColor: Colors.transparent,
+                foregroundColor:
+                    HSLColor.fromAHSL(
+                      1.0,
+                      210,
+                      0.40,
+                      0.98,
+                    ).toColor(), // Match foreground dark
+              ),
+              // Add more theme customizations...
             ),
             locale: settingsProvider.locale, // Use locale from provider
             // TODO: Add localization delegates and supported locales
