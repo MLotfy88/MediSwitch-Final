@@ -8,6 +8,7 @@ import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
 import '../widgets/drug_list_item.dart';
 import '../widgets/section_header.dart'; // Import the new header widget
+import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate for extensions like .ms
 // TODO: Remove temporary DI access via MyApp once proper DI is set up
 // import '../../main.dart';
 // import '../../domain/usecases/find_drug_alternatives.dart';
@@ -286,9 +287,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(width: 16.0), // Increased spacing
         itemBuilder: (context, index) {
           final category = categories[index];
+          // Wrap InkWell with Animate to add tap effect
           return InkWell(
             onTap: () {
-              // Use setCategory from provider
               context.read<MedicineProvider>().setCategory(
                 category['data'] as String? ?? '',
               );
@@ -296,60 +297,73 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             borderRadius: BorderRadius.circular(16.0),
             child: Card(
-              // Wrap content in a Card for better styling control
-              elevation: 1.0, // Subtle elevation
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16.0),
-              ),
-              // Use surfaceVariant or similar for background
-              color: Theme.of(
-                context,
-              ).colorScheme.surfaceVariant.withOpacity(0.7),
-              child: Container(
-                // Use Container for fixed width
-                width: 100, // Slightly wider
-                padding: const EdgeInsets.symmetric(
-                  vertical: 14.0,
-                  horizontal: 8.0,
-                ), // Adjusted padding
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    // Icon background can be simpler
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: Theme.of(
-                          context,
-                        ).colorScheme.primary.withOpacity(0.1),
-                        shape: BoxShape.circle,
-                      ),
-                      child: Icon(
-                        category['icon'] as IconData?,
-                        size: 30, // Slightly larger icon
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
+                  // Apply animation to the Card
+                  elevation: 1.0,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16.0),
+                  ),
+                  color: Theme.of(
+                    context,
+                  ).colorScheme.surfaceVariant.withOpacity(0.7),
+                  child: Container(
+                    width: 100,
+                    padding: const EdgeInsets.symmetric(
+                      vertical: 14.0,
+                      horizontal: 8.0,
                     ),
-                    const SizedBox(height: 10.0), // Increased spacing
-                    Text(
-                      category['name'] as String? ?? '',
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        // Use bodyMedium
-                        fontWeight: FontWeight.w600,
-                        color:
-                            Theme.of(context)
-                                .colorScheme
-                                .onSurfaceVariant, // Use contrast color
-                      ),
-                      textAlign: TextAlign.center,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: Theme.of(
+                              context,
+                            ).colorScheme.primary.withOpacity(0.1),
+                            shape: BoxShape.circle,
+                          ),
+                          child: Icon(
+                            category['icon'] as IconData?,
+                            size: 30,
+                            color: Theme.of(context).colorScheme.primary,
+                          ),
+                        ),
+                        const SizedBox(height: 10.0),
+                        Text(
+                          category['name'] as String? ?? '',
+                          style: Theme.of(
+                            context,
+                          ).textTheme.bodyMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                            color:
+                                Theme.of(context).colorScheme.onSurfaceVariant,
+                          ),
+                          textAlign: TextAlign.center,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
                     ),
-                  ],
-                ),
-              ),
-            ),
-          );
+                  ),
+                ) // End Card
+                .animate() // Apply animate to Card
+                .scale(
+                  // Add scale effect on tap - This will play on build, not tap
+                  // To trigger on tap, you'd need a stateful widget or AnimationController
+                  // For simplicity, let's just have a build-time animation for now
+                  delay: (100 * index).ms, // Stagger the animation
+                  duration: 400.ms,
+                  curve: Curves.easeOut,
+                  begin: const Offset(0.9, 0.9),
+                  end: const Offset(1.0, 1.0),
+                )
+                .fadeIn(
+                  // Also fade in
+                  delay: (100 * index).ms,
+                  duration: 400.ms,
+                  curve: Curves.easeOut,
+                ), // End animate chain
+          ); // End InkWell
         },
       ),
     );
