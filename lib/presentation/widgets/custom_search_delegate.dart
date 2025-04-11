@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/drug_entity.dart'; // Assuming DrugEntity path
+import 'drug_card.dart'; // Import DrugCard
 
 // Basic Search Delegate for selecting a DrugEntity
 class CustomSearchDelegate extends SearchDelegate<DrugEntity?> {
@@ -43,34 +44,69 @@ class CustomSearchDelegate extends SearchDelegate<DrugEntity?> {
   Widget buildResults(BuildContext context) {
     // Show results based on the query (can be same as suggestions)
     final results = searchLogic(query);
-    return _buildSuggestionsList(results);
+    // Pass context to the helper method
+    return _buildSuggestionsList(context, results);
   }
 
   @override
   Widget buildSuggestions(BuildContext context) {
     // Show suggestions as the user types
     final suggestions = searchLogic(query);
-    return _buildSuggestionsList(suggestions);
+    // Pass context to the helper method
+    return _buildSuggestionsList(context, suggestions);
   }
 
-  Widget _buildSuggestionsList(List<DrugEntity> suggestions) {
+  // Modified to accept BuildContext
+  Widget _buildSuggestionsList(
+    BuildContext context,
+    List<DrugEntity> suggestions,
+  ) {
     if (suggestions.isEmpty && query.isNotEmpty) {
-      return const Center(child: Text('لم يتم العثور على نتائج'));
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Text(
+            'لم يتم العثور على نتائج مطابقة لـ "$query"',
+            textAlign: TextAlign.center,
+            // Access Theme using the passed context
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge?.copyWith(color: Theme.of(context).hintColor),
+          ),
+        ),
+      );
     }
     if (suggestions.isEmpty && query.isEmpty) {
-      return const Center(child: Text('ابدأ البحث عن دواء...'));
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Text(
+            'ابدأ بكتابة اسم الدواء أو المادة الفعالة للبحث...',
+            textAlign: TextAlign.center,
+            // Access Theme using the passed context
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge?.copyWith(color: Theme.of(context).hintColor),
+          ),
+        ),
+      );
     }
 
     return ListView.builder(
       itemCount: suggestions.length,
       itemBuilder: (context, index) {
         final drug = suggestions[index];
-        return ListTile(
-          title: Text(drug.tradeName),
-          subtitle: Text(drug.arabicName),
-          onTap: () {
-            close(context, drug); // Close search, return selected drug
-          },
+        // Use DrugCard for displaying suggestions/results
+        // Using thumbnail type for compactness in search results
+        return Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+          child: DrugCard(
+            drug: drug,
+            type: DrugCardType.thumbnail, // Use thumbnail for search results
+            onTap: () {
+              close(context, drug); // Close search, return selected drug
+            },
+          ),
         );
       },
     );

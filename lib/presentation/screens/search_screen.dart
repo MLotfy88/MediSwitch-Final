@@ -2,7 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../bloc/medicine_provider.dart';
-import '../widgets/drug_list_item.dart';
+// import '../widgets/drug_list_item.dart'; // Replaced by DrugCard
+import '../widgets/drug_card.dart'; // Import DrugCard
 import 'drug_details_screen.dart'; // Import details screen for navigation
 import '../widgets/filter_bottom_sheet.dart'; // Import filter bottom sheet
 
@@ -59,12 +60,32 @@ class _SearchScreenState extends State<SearchScreen> {
   void _openFilterModal() {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true,
+      isScrollControlled: true, // Important for DraggableScrollableSheet
+      backgroundColor: Colors.transparent, // Make background transparent
       builder:
           (_) => ChangeNotifierProvider.value(
-            // Reuse existing provider
             value: context.read<MedicineProvider>(),
-            child: const FilterBottomSheet(),
+            child: DraggableScrollableSheet(
+              initialChildSize: 0.6, // Start at 60% height
+              minChildSize: 0.3, // Allow shrinking to 30%
+              maxChildSize: 0.9, // Allow expanding to 90%
+              expand: false, // Prevent full screen expansion by default
+              builder: (_, scrollController) {
+                // Pass the scrollController to the FilterBottomSheet
+                // FilterBottomSheet needs to be adapted to use this controller
+                // For now, we wrap it in a container for styling
+                return Container(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.surface,
+                    borderRadius: const BorderRadius.vertical(
+                      top: Radius.circular(24.0),
+                    ),
+                  ),
+                  // Pass the scrollController to FilterBottomSheet
+                  child: FilterBottomSheet(scrollController: scrollController),
+                );
+              },
+            ),
           ),
     );
   }
@@ -191,8 +212,10 @@ class _SearchScreenState extends State<SearchScreen> {
                       itemCount: medicines.length,
                       itemBuilder: (context, index) {
                         final drug = medicines[index];
-                        return DrugListItem(
+                        // Use DrugCard (detailed) for GridView results
+                        return DrugCard(
                           drug: drug,
+                          type: DrugCardType.detailed,
                           onTap: () {
                             Navigator.push(
                               context,
@@ -211,8 +234,10 @@ class _SearchScreenState extends State<SearchScreen> {
                       itemCount: medicines.length,
                       itemBuilder: (context, index) {
                         final drug = medicines[index];
-                        return DrugListItem(
+                        // Use DrugCard (detailed) for ListView results
+                        return DrugCard(
                           drug: drug,
+                          type: DrugCardType.detailed,
                           onTap: () {
                             Navigator.push(
                               context,

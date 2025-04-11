@@ -90,6 +90,10 @@ class InteractionCheckerScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('مدقق التفاعلات الدوائية'),
+        // Match general AppBar style
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        foregroundColor: Theme.of(context).colorScheme.onSurface,
+        elevation: 0.5,
         actions: [
           if (interactionProvider.selectedMedicines.isNotEmpty)
             IconButton(
@@ -104,12 +108,15 @@ class InteractionCheckerScreen extends StatelessWidget {
         // Use Column for layout
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Selection Card
+          // Selection Card - Match general Card style
           Card(
             margin: cardMargin,
-            elevation: 1,
+            elevation: 0, // No elevation
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
+              borderRadius: BorderRadius.circular(12), // Match theme --radius
+              side: BorderSide(
+                color: Theme.of(context).colorScheme.outline.withOpacity(0.5),
+              ), // Subtle border
             ),
             child: Padding(
               padding: cardPadding,
@@ -132,6 +139,7 @@ class InteractionCheckerScreen extends StatelessWidget {
                         runSpacing: 6.0,
                         children:
                             interactionProvider.selectedMedicines.map((drug) {
+                              // Match shadcn Badge/Chip style
                               return Chip(
                                 label: Text(drug.tradeName),
                                 deleteIcon: const Icon(Icons.close, size: 16),
@@ -139,31 +147,43 @@ class InteractionCheckerScreen extends StatelessWidget {
                                     () => context
                                         .read<InteractionProvider>()
                                         .removeMedicine(drug),
-                                backgroundColor: colorScheme.primaryContainer
-                                    .withOpacity(0.4),
+                                backgroundColor: colorScheme.secondaryContainer
+                                    .withOpacity(
+                                      0.6,
+                                    ), // Use secondary container
                                 labelStyle: TextStyle(
-                                  color: colorScheme.onPrimaryContainer,
+                                  color: colorScheme.onSecondaryContainer,
+                                  fontSize: 13, // Slightly smaller
                                 ),
-                                deleteIconColor: colorScheme.onPrimaryContainer
+                                deleteIconColor: colorScheme
+                                    .onSecondaryContainer
                                     .withOpacity(0.7),
-                                side: BorderSide(
-                                  color: colorScheme.outline.withOpacity(0.2),
-                                ),
+                                side:
+                                    BorderSide
+                                        .none, // Remove border or make very subtle
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 4,
+                                ), // Adjust padding
+                                visualDensity: VisualDensity.compact,
                               );
                             }).toList(),
                       ),
                   const SizedBox(height: 16),
                   // Add Drug Button
+                  // Match shadcn Button (outline variant)
                   OutlinedButton.icon(
-                    // Changed to OutlinedButton for less emphasis
                     icon: const Icon(Icons.add_circle_outline, size: 20),
                     label: const Text('إضافة دواء للفحص'),
                     style: OutlinedButton.styleFrom(
                       foregroundColor: colorScheme.primary,
                       side: BorderSide(
-                        color: colorScheme.primary.withOpacity(0.5),
-                      ),
+                        color: colorScheme.primary.withOpacity(0.7),
+                      ), // Match theme border
                       padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8.0),
+                      ), // Match theme --radius
                     ),
                     onPressed: () => _showMedicineSearch(context),
                   ),
@@ -196,19 +216,40 @@ class InteractionCheckerScreen extends StatelessWidget {
                     ? 'جاري الفحص...'
                     : 'فحص التفاعلات',
               ),
+              // Match shadcn Button (default variant)
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(vertical: 14.0),
                 textStyle: textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w600, // Slightly bolder
                 ),
                 backgroundColor: colorScheme.primary,
                 foregroundColor: colorScheme.onPrimary,
-                disabledBackgroundColor: colorScheme.onSurface.withOpacity(
-                  0.12,
+                shape: RoundedRectangleBorder(
+                  // Match theme --radius
+                  borderRadius: BorderRadius.circular(8.0),
                 ),
-                disabledForegroundColor: colorScheme.onSurface.withOpacity(
-                  0.38,
-                ),
+              ).copyWith(
+                // Handle disabled state explicitly
+                backgroundColor: MaterialStateProperty.resolveWith<Color?>((
+                  Set<MaterialState> states,
+                ) {
+                  if (states.contains(MaterialState.disabled)) {
+                    return colorScheme.primary.withOpacity(
+                      0.5,
+                    ); // Example disabled color
+                  }
+                  return colorScheme.primary; // Use the component's default.
+                }),
+                foregroundColor: MaterialStateProperty.resolveWith<Color?>((
+                  Set<MaterialState> states,
+                ) {
+                  if (states.contains(MaterialState.disabled)) {
+                    return colorScheme.onPrimary.withOpacity(
+                      0.7,
+                    ); // Example disabled text color
+                  }
+                  return colorScheme.onPrimary;
+                }),
               ),
               onPressed:
                   (canAnalyze && !interactionProvider.isLoading)
@@ -312,15 +353,18 @@ class InteractionCheckerScreen extends StatelessWidget {
         if (result.recommendations.isNotEmpty) ...[
           Text('التوصيات الهامة:', style: theme.textTheme.titleMedium),
           const SizedBox(height: 8),
+          // Recommendations Card - Match general Card style
           Card(
-            // Wrap recommendations in a card
-            elevation: 0.5,
+            elevation: 0,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(12), // Match theme --radius
               side: BorderSide(
-                color: theme.colorScheme.outline.withOpacity(0.3),
-              ),
+                color: theme.colorScheme.outline.withOpacity(0.5),
+              ), // Subtle border
             ),
+            color: theme.colorScheme.surfaceVariant.withOpacity(
+              0.5,
+            ), // Use surface variant
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Column(
@@ -417,12 +461,15 @@ class InteractionCheckerScreen extends StatelessWidget {
         text = "لا توجد تفاعلات خطيرة"; // Adjust text for 'none' case
     }
 
+    // Match shadcn Alert style
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      padding: const EdgeInsets.all(16), // Consistent padding
       decoration: BoxDecoration(
-        color: bgColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: textColor.withOpacity(0.4)),
+        color: bgColor, // Background based on severity
+        borderRadius: BorderRadius.circular(8), // Match theme --radius
+        border: Border.all(
+          color: textColor.withOpacity(0.6),
+        ), // Border based on severity text color
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -475,12 +522,15 @@ class InteractionCheckerScreen extends StatelessWidget {
     Color severityColor = _getSeverityColor(interaction.severity);
     Color severityBgColor = _getSeverityBgColor(interaction.severity);
 
+    // Match general Card style
     return Card(
       margin: const EdgeInsets.only(bottom: 12.0),
-      elevation: 1,
+      elevation: 0, // No elevation
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-        side: BorderSide(color: severityColor.withOpacity(0.3)),
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: severityColor.withOpacity(0.5),
+        ), // Border color based on severity
       ),
       child: Padding(
         padding: const EdgeInsets.all(12.0),

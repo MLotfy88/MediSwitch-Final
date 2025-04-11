@@ -88,11 +88,20 @@ class OnboardingScreen extends StatelessWidget {
       onDone: () => _onIntroEnd(context),
       onSkip: () => _onIntroEnd(context), // Allow skipping
       showSkipButton: true,
-      skip: const Text('تخطي', style: TextStyle(fontWeight: FontWeight.w600)),
+      skip: Text(
+        'تخطي',
+        style: Theme.of(context).textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+          color: Theme.of(context).colorScheme.primary,
+        ),
+      ),
       next: const Icon(Icons.arrow_forward),
-      done: const Text(
+      done: Text(
         'ابدأ الآن',
-        style: TextStyle(fontWeight: FontWeight.w600),
+        style: Theme.of(context).textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+          color: Theme.of(context).colorScheme.primary,
+        ),
       ),
 
       // --- Dots Indicator ---
@@ -100,7 +109,9 @@ class OnboardingScreen extends StatelessWidget {
         size: const Size.square(10.0),
         activeSize: const Size(20.0, 10.0),
         activeColor: Theme.of(context).colorScheme.primary,
-        color: Colors.black26,
+        color: Theme.of(context).colorScheme.outline.withOpacity(
+          0.3,
+        ), // Use theme color for inactive dots
         spacing: const EdgeInsets.symmetric(horizontal: 3.0),
         activeShape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(25.0),

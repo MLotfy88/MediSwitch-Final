@@ -32,9 +32,12 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        // Match general AppBar style
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        foregroundColor: Theme.of(context).colorScheme.onSurface,
+        elevation: 0.5,
         title: Text('بدائل ${widget.originalDrug.tradeName}'),
-        centerTitle: true,
-        elevation: 1, // Subtle elevation
+        centerTitle: true, // Keep centered for this screen
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(
@@ -46,11 +49,18 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
               CrossAxisAlignment.stretch, // Stretch children horizontally
           children: [
             // Display Original Drug Info (Optional) - Styled Card
+            // Original Drug Card - Match general Card style
             Card(
               elevation: 0,
-              color: Theme.of(
-                context,
-              ).colorScheme.secondaryContainer.withOpacity(0.3),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12), // Match theme --radius
+                side: BorderSide(
+                  color: Theme.of(context).colorScheme.outline.withOpacity(0.5),
+                ), // Subtle border
+              ),
+              color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(
+                0.5,
+              ), // Use surface variant
               margin: const EdgeInsets.only(bottom: 16),
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
@@ -59,27 +69,35 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
                   children: [
                     Text(
                       'الدواء الأصلي', // Clearer title
-                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                        // Adjust style
                         color:
-                            Theme.of(context).colorScheme.onSecondaryContainer,
+                            Theme.of(context)
+                                .colorScheme
+                                .onSurfaceVariant, // Use onSurfaceVariant
                       ),
                     ),
                     const SizedBox(height: 4),
                     Text(
                       widget.originalDrug.tradeName,
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        // Keep titleMedium
                         fontWeight: FontWeight.bold,
                         color:
-                            Theme.of(context).colorScheme.onSecondaryContainer,
+                            Theme.of(
+                              context,
+                            ).colorScheme.onSurface, // Use onSurface
                       ),
                     ),
                     if (widget.originalDrug.mainCategory.isNotEmpty)
                       Text(
                         'الفئة: ${widget.originalDrug.mainCategory}',
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: Theme.of(
-                            context,
-                          ).colorScheme.onSecondaryContainer.withOpacity(0.8),
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          // Adjust style
+                          color:
+                              Theme.of(context)
+                                  .colorScheme
+                                  .onSurfaceVariant, // Use onSurfaceVariant
                         ),
                       ),
                   ],

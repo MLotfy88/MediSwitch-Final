@@ -16,11 +16,11 @@ class HomeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    // Define the specific background color from the design
-    // TODO: Consider adding this color to the theme definition later
-    const headerBackgroundColor = Color(0xFF16BC88);
-    // Determine a contrasting foreground color (e.g., white)
-    final foregroundColor = Colors.white; // Assuming white contrasts well
+    // Use colors from the theme's colorScheme
+    final headerBackgroundColor =
+        colorScheme.tertiary; // Use tertiary for header bg
+    final foregroundColor =
+        colorScheme.onTertiary; // Use onTertiary for header fg
 
     return Container(
       color: headerBackgroundColor,

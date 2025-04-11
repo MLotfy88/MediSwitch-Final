@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:intl/intl.dart'; // Import intl
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/alternatives_provider.dart';
 import '../screens/alternatives_screen.dart';
@@ -48,10 +49,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
     return Scaffold(
       appBar: AppBar(
+        // Match general AppBar style (e.g., from HomeHeader or theme)
+        backgroundColor: colorScheme.surface, // Use surface color? or primary?
+        foregroundColor: colorScheme.onSurface, // Adjust foreground accordingly
+        elevation: 0.5, // Subtle elevation or 0
         title: Text(
           widget.drug.arabicName.isNotEmpty
               ? widget.drug.arabicName
               : widget.drug.tradeName,
+          style: textTheme.titleLarge, // Use consistent title style
         ),
         actions: [
           // Favorite Button - Premium Feature Control
@@ -139,20 +145,21 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               delegate: _SliverAppBarDelegate(
                 TabBar(
                   controller: _tabController,
-                  labelColor: colorScheme.primary,
-                  unselectedLabelColor: Colors.grey.shade600,
-                  indicatorColor: colorScheme.primary,
-                  indicatorWeight: 3.0,
-                  isScrollable: true, // Allow tabs to scroll horizontally
-                  tabAlignment: TabAlignment.start, // Align tabs to the start
-                  labelStyle: const TextStyle(
+                  // Match shadcn Tabs style
+                  labelColor: colorScheme.primary, // Active tab color
+                  unselectedLabelColor:
+                      colorScheme.onSurfaceVariant, // Inactive tab color
+                  indicatorColor: colorScheme.primary, // Indicator color
+                  indicatorWeight: 2.0, // Indicator thickness
+                  indicatorSize:
+                      TabBarIndicatorSize.label, // Indicator size matches label
+                  isScrollable: true,
+                  tabAlignment: TabAlignment.start,
+                  labelStyle: textTheme.bodyLarge?.copyWith(
                     fontWeight: FontWeight.w600,
-                    fontSize: 15,
-                  ),
-                  unselectedLabelStyle: const TextStyle(
-                    fontWeight: FontWeight.w500,
-                    fontSize: 15,
-                  ),
+                  ), // Active label style
+                  unselectedLabelStyle:
+                      textTheme.bodyLarge, // Inactive label style
                   tabs: const [
                     Tab(text: 'معلومات'),
                     Tab(text: 'البدائل'),
@@ -188,13 +195,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
     ColorScheme colorScheme,
   ) {
-    // Mimics .drug-header from prototype with Card styling
+    // Match shadcn Card style more closely
     return Card(
-      elevation: 2, // Slightly more elevation
+      elevation: 0, // shadcn cards often have 0 elevation
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ), // .rounded-lg
-      clipBehavior: Clip.antiAlias, // Clip content to rounded corners
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: colorScheme.outline.withOpacity(0.5),
+        ), // Subtle border
+      ),
+      clipBehavior: Clip.antiAlias,
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
@@ -206,13 +216,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               tag:
                   'drug_image_${widget.drug.tradeName}', // Use the same tag as in DrugListItem
               child: Container(
-                width: 70, // Size from prototype analysis
-                height: 70,
+                // Placeholder container for image/icon
+                width: 64, // Adjust size
+                height: 64,
                 decoration: BoxDecoration(
-                  color: colorScheme.primaryContainer.withOpacity(0.3),
+                  color: colorScheme.secondaryContainer.withOpacity(
+                    0.3,
+                  ), // Use secondary container
                   borderRadius: BorderRadius.circular(
-                    12,
-                  ), // Slightly less rounded than circle
+                    8,
+                  ), // Match theme --radius
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(12.0),
@@ -251,7 +264,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 children: [
                   Text(
                     widget.drug.tradeName,
-                    style: textTheme.titleLarge?.copyWith(
+                    style: textTheme.titleMedium?.copyWith(
+                      // Adjust text style if needed
                       fontWeight: FontWeight.bold,
                     ),
                     maxLines: 2,
@@ -263,7 +277,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       padding: const EdgeInsets.only(top: 2.0),
                       child: Text(
                         widget.drug.arabicName,
-                        style: textTheme.titleMedium?.copyWith(
+                        style: textTheme.bodyMedium?.copyWith(
+                          // Adjust text style
                           color: colorScheme.onSurfaceVariant,
                         ),
                         maxLines: 1,
@@ -273,7 +288,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   const SizedBox(height: 4.0),
                   Text(
                     widget.drug.active, // Active Ingredient
-                    style: textTheme.bodyMedium?.copyWith(
+                    style: textTheme.bodySmall?.copyWith(
+                      // Adjust text style
                       color: colorScheme.secondary,
                     ),
                     maxLines: 2,
@@ -295,22 +311,41 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
   ) {
     // TODO: Add logic for old price and percentage change if available
-    // For now, just showing current price based on prototype structure
+    // Match shadcn Card style
     return Card(
-      elevation: 1,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      elevation: 0, // No elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: colorScheme.outline.withOpacity(0.5),
+        ), // Subtle border
+      ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('السعر الحالي:', style: textTheme.titleMedium),
-            Text(
-              '${widget.drug.price} جنيه',
-              style: textTheme.titleLarge?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: colorScheme.primary,
-              ),
+            Text('السعر الحالي:', style: textTheme.bodyLarge), // Adjust style
+            // Format the price
+            Builder(
+              // Use Builder to access context for NumberFormat locale if needed
+              builder: (context) {
+                final priceDouble = double.tryParse(widget.drug.price);
+                final formattedPrice =
+                    priceDouble != null
+                        ? NumberFormat("#,##0.##", "en_US").format(
+                          priceDouble,
+                        ) // Basic formatting
+                        : widget.drug.price; // Fallback to original string
+                return Text(
+                  '$formattedPrice جنيه',
+                  style: textTheme.titleMedium?.copyWith(
+                    // Adjust style
+                    fontWeight: FontWeight.bold,
+                    color: colorScheme.primary,
+                  ),
+                );
+              },
             ),
             // Placeholder for price change indicator
             // Container(
@@ -367,34 +402,39 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         Text('معلومات الجرعة القياسية', style: textTheme.titleLarge),
         const SizedBox(height: 16),
         if (hasUsageInfo)
-          Card(
-            elevation: 0.5,
-            shape: RoundedRectangleBorder(
+          // Use a simpler container or just Text if no card needed
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 12.0,
+            ),
+            decoration: BoxDecoration(
+              color: colorScheme.surfaceVariant.withOpacity(0.5),
               borderRadius: BorderRadius.circular(12),
-              side: BorderSide(color: colorScheme.outline.withOpacity(0.3)),
+              border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
             ),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(widget.drug.usage, style: textTheme.bodyLarge),
-            ),
+            child: Text(widget.drug.usage, style: textTheme.bodyLarge),
           )
         else
-          Card(
-            // Show a placeholder card if no usage info
-            elevation: 0.5,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-              side: BorderSide(color: colorScheme.outline.withOpacity(0.3)),
+          Container(
+            // Placeholder container
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 12.0,
             ),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(
-                'لا توجد معلومات جرعة قياسية متاحة لهذا الدواء.',
-                style: textTheme.bodyLarge?.copyWith(
-                  color: Theme.of(context).hintColor,
-                ),
-                textAlign: TextAlign.center,
+            decoration: BoxDecoration(
+              color: colorScheme.surfaceVariant.withOpacity(0.5),
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
+            ),
+            child: Text(
+              'لا توجد معلومات جرعة قياسية متاحة لهذا الدواء.',
+              style: textTheme.bodyLarge?.copyWith(
+                color: Theme.of(context).hintColor,
               ),
+              textAlign: TextAlign.center,
             ),
           ),
         const SizedBox(height: 24),
@@ -416,10 +456,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 ),
               );
             },
+            // Match shadcn button style
             style: ElevatedButton.styleFrom(
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               backgroundColor: colorScheme.primary,
               foregroundColor: colorScheme.onPrimary,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8.0),
+              ),
+              textStyle: const TextStyle(fontWeight: FontWeight.w600),
             ),
           ),
         ),
@@ -437,19 +482,18 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       children: [
         Text('فحص التفاعلات الدوائية', style: textTheme.titleLarge),
         const SizedBox(height: 16),
-        Card(
-          // Info card
-          elevation: 0.5,
-          shape: RoundedRectangleBorder(
+        // Use a simpler container or just Text
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
+          decoration: BoxDecoration(
+            color: colorScheme.surfaceVariant.withOpacity(0.5),
             borderRadius: BorderRadius.circular(12),
-            side: BorderSide(color: colorScheme.outline.withOpacity(0.3)),
+            border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
           ),
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Text(
-              'يمكنك فحص التفاعلات المحتملة بين ${widget.drug.tradeName} وأدوية أخرى تستخدمها.',
-              style: textTheme.bodyLarge,
-            ),
+          child: Text(
+            'يمكنك فحص التفاعلات المحتملة بين ${widget.drug.tradeName} وأدوية أخرى تستخدمها.',
+            style: textTheme.bodyLarge,
           ),
         ),
         const SizedBox(height: 24),
@@ -471,10 +515,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 ),
               );
             },
+            // Match shadcn button style
             style: ElevatedButton.styleFrom(
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               backgroundColor: colorScheme.primary,
               foregroundColor: colorScheme.onPrimary,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8.0),
+              ),
+              textStyle: const TextStyle(fontWeight: FontWeight.w600),
             ),
           ),
         ),
@@ -503,28 +552,32 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // Helper to build detail row
+  // Helper to build detail row (Improved styling)
   Widget _buildDetailRow(String label, String value) {
     if (value.isEmpty) return const SizedBox.shrink();
+    final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
     return Padding(
-      padding: const EdgeInsets.symmetric(
-        vertical: 8.0,
-      ), // Increased vertical padding
+      padding: const EdgeInsets.symmetric(vertical: 6.0), // Adjusted padding
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            '$label: ',
-            style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
-          ), // Slightly larger label
-          const SizedBox(width: 8), // Add space
+          SizedBox(
+            width: 110, // Fixed width for label column
+            child: Text(
+              label,
+              style: textTheme.bodyMedium?.copyWith(
+                fontWeight: FontWeight.w600, // Make label slightly bolder
+                color:
+                    colorScheme.onSurfaceVariant, // Use a slightly muted color
+              ),
+            ),
+          ),
+          const SizedBox(width: 12), // Increased space
           Expanded(
             child: Text(
               value,
-              style: TextStyle(
-                fontSize: 15,
-                color: Theme.of(context).colorScheme.onSurfaceVariant,
-              ),
+              style: textTheme.bodyLarge, // Use bodyLarge for value
             ),
           ),
         ],

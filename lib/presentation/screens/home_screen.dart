@@ -6,16 +6,17 @@ import '../bloc/medicine_provider.dart'; // Corrected provider path
 import '../widgets/filter_bottom_sheet.dart'; // Import the bottom sheet widget
 import 'search_screen.dart'; // Import the new SearchScreen
 import 'drug_details_screen.dart'; // Import the new details screen
-import '../widgets/drug_list_item.dart';
+// import '../widgets/drug_list_item.dart'; // Replaced by DrugCard
+import '../widgets/drug_card.dart'; // Import DrugCard
 import '../widgets/section_header.dart';
 import '../widgets/home_header.dart'; // Import the new HomeHeader widget
 import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart'; // Import CategoryCard
 import 'package:flutter_animate/flutter_animate.dart';
-// TODO: Remove temporary DI access via MyApp once proper DI is set up
-// import '../../main.dart';
-// import '../../domain/usecases/find_drug_alternatives.dart';
-// import '../bloc/alternatives_provider.dart';
+// DI is now handled by locator.dart and main.dart
+// import '../../main.dart'; // Removed
+// import '../../domain/usecases/find_drug_alternatives.dart'; // Removed
+// import '../bloc/alternatives_provider.dart'; // Removed
 // import '../screens/alternatives_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -71,8 +72,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 .map(
                                   (drug) => SizedBox(
                                     width: 170, // Match previous SizedBox width
-                                    child: DrugListItem(
+                                    child: DrugCard(
+                                      // Use DrugCard (thumbnail)
                                       drug: drug,
+                                      type: DrugCardType.thumbnail,
                                       onTap:
                                           () =>
                                               _navigateToDetails(context, drug),
@@ -94,8 +97,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               .map(
                                 (drug) => SizedBox(
                                   width: 170, // Match previous SizedBox width
-                                  child: DrugListItem(
+                                  child: DrugCard(
+                                    // Use DrugCard (thumbnail)
                                     drug: drug,
+                                    type: DrugCardType.thumbnail,
                                     onTap:
                                         () => _navigateToDetails(context, drug),
                                   ),
@@ -114,10 +119,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         vertical: 8,
                       ),
                     ), // Add header
-                    _buildAllDrugsList(
-                      context,
-                      allMedicines,
-                    ), // New method for vertical list
+                    _buildAllDrugsList(context, allMedicines).animate().fadeIn(
+                      duration: 500.ms,
+                      delay: 400.ms,
+                    ), // Add fade-in
                   ],
                 ),
       ),
@@ -213,85 +218,32 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       children:
           categories.map((category) {
-            // Create the Category Card widget here (or use a dedicated widget later)
-            return Semantics(
-              // Added Semantics here
-              label: 'فئة ${category['name']}',
-              button: true,
-              child: InkWell(
-                onTap: () {
-                  context.read<MedicineProvider>().setCategory(
-                    category['data'] as String? ?? '',
-                  );
-                  print("Category Tapped: ${category['name']}");
-                },
-                borderRadius: BorderRadius.circular(16.0),
-                child: Card(
-                      elevation: 1.0,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16.0),
-                      ),
-                      color: Theme.of(
-                        context,
-                      ).colorScheme.surfaceVariant.withOpacity(0.7),
-                      child: Container(
-                        width: 100,
-                        padding: const EdgeInsets.symmetric(
-                          vertical: 14.0,
-                          horizontal: 8.0,
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Container(
-                              padding: const EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Theme.of(
-                                  context,
-                                ).colorScheme.primary.withOpacity(0.1),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Icon(
-                                category['icon'] as IconData?,
-                                size: 30,
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                            ),
-                            const SizedBox(height: 10.0),
-                            Text(
-                              category['name'] as String? ?? '',
-                              style: Theme.of(
-                                context,
-                              ).textTheme.bodyMedium?.copyWith(
-                                fontWeight: FontWeight.w600,
-                                color:
-                                    Theme.of(
-                                      context,
-                                    ).colorScheme.onSurfaceVariant,
-                              ),
-                              textAlign: TextAlign.center,
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ],
-                        ),
-                      ),
-                    )
-                    .animate() // Apply animation
-                    .scale(
-                      delay: (categories.indexOf(category) * 100).ms,
-                      duration: 400.ms,
-                      curve: Curves.easeOut,
-                      begin: const Offset(0.9, 0.9),
-                      end: const Offset(1.0, 1.0),
-                    )
-                    .fadeIn(
-                      delay: (categories.indexOf(category) * 100).ms,
-                      duration: 400.ms,
-                      curve: Curves.easeOut,
-                    ),
-              ),
-            );
+            // Use the new CategoryCard widget
+            return CategoryCard(
+                  name: category['name'] as String? ?? '',
+                  iconData:
+                      category['icon'] as IconData? ??
+                      Icons.category, // Provide default icon
+                  onTap: () {
+                    context.read<MedicineProvider>().setCategory(
+                      category['data'] as String? ?? '',
+                    );
+                    print("Category Tapped: ${category['name']}");
+                  },
+                )
+                .animate() // Apply animation to the CategoryCard itself
+                .scale(
+                  delay: (categories.indexOf(category) * 100).ms,
+                  duration: 400.ms,
+                  curve: Curves.easeOut,
+                  begin: const Offset(0.9, 0.9),
+                  end: const Offset(1.0, 1.0),
+                )
+                .fadeIn(
+                  delay: (categories.indexOf(category) * 100).ms,
+                  duration: 400.ms,
+                  curve: Curves.easeOut,
+                );
           }).toList(),
     );
   }
@@ -324,15 +276,16 @@ class _HomeScreenState extends State<HomeScreen> {
       itemCount: medicines.length,
       itemBuilder: (context, index) {
         final drug = medicines[index];
-        // Use a different DrugCard style if available, or reuse DrugListItem
+        // Use DrugCard (detailed) instead of DrugListItem
         return Padding(
           padding: const EdgeInsets.symmetric(
             horizontal: 16.0,
             vertical: 4.0,
           ), // Add padding
-          child: DrugListItem(
-            // Reusing DrugListItem for now
+          child: DrugCard(
+            // Use DrugCard (detailed)
             drug: drug,
+            type: DrugCardType.detailed,
             onTap: () => _navigateToDetails(context, drug), // Use helper
           ),
         );
