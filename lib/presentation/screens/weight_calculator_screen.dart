@@ -94,7 +94,13 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     const cardPadding = EdgeInsets.all(16.0);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('حاسبة الجرعة')),
+      appBar: AppBar(
+        title: const Text('حاسبة الجرعة'),
+        // Match general AppBar style
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        foregroundColor: Theme.of(context).colorScheme.onSurface,
+        elevation: 0.5,
+      ),
       body: SingleChildScrollView(
         // Make content scrollable
         padding: const EdgeInsets.symmetric(vertical: 8.0),
@@ -104,11 +110,19 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // Input Card
+              // Input Card - Match general Card style
               Card(
                 margin: cardMargin,
-                elevation: 1,
+                elevation: 0, // No elevation
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16),
+                  borderRadius: BorderRadius.circular(
+                    12,
+                  ), // Match theme --radius
+                  side: BorderSide(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.outline.withOpacity(0.5),
+                  ), // Subtle border
                 ),
                 child: Padding(
                   padding: cardPadding,
@@ -124,11 +138,36 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                               medicineProvider.medicines,
                             ),
                         child: InputDecorator(
+                          // Match shadcn Input/Select style
                           decoration: InputDecoration(
                             labelText: 'الدواء',
-                            hintText: 'اختر أو ابحث عن دواء',
+                            // hintText: 'اختر أو ابحث عن دواء', // Hint inside the Text below
                             border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(
+                                8.0,
+                              ), // Match theme --radius
+                              borderSide: BorderSide(
+                                color: Theme.of(
+                                  context,
+                                ).colorScheme.outline.withOpacity(0.7),
+                              ),
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              // Add focused border style
                               borderRadius: BorderRadius.circular(8.0),
+                              borderSide: BorderSide(
+                                color: Theme.of(context).colorScheme.primary,
+                                width: 1.5,
+                              ),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              // Add enabled border style
+                              borderRadius: BorderRadius.circular(8.0),
+                              borderSide: BorderSide(
+                                color: Theme.of(
+                                  context,
+                                ).colorScheme.outline.withOpacity(0.7),
+                              ),
                             ),
                             contentPadding: const EdgeInsets.symmetric(
                               horizontal: 12.0,
@@ -166,11 +205,34 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                       // Weight Input
                       TextFormField(
                         controller: _weightController,
+                        // Match shadcn Input style
                         decoration: InputDecoration(
                           labelText: 'وزن المريض (كجم)',
-                          hintText: 'أدخل الوزن بالكيلوجرام',
+                          // hintText: 'أدخل الوزن بالكيلوجرام',
                           border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(
+                              8.0,
+                            ), // Match theme --radius
+                            borderSide: BorderSide(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.outline.withOpacity(0.7),
+                            ),
+                          ),
+                          focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8.0),
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.primary,
+                              width: 1.5,
+                            ),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8.0),
+                            borderSide: BorderSide(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.outline.withOpacity(0.7),
+                            ),
                           ),
                           prefixIcon: const Icon(
                             Icons.monitor_weight_outlined,
@@ -200,11 +262,34 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                       // Age Input
                       TextFormField(
                         controller: _ageController,
+                        // Match shadcn Input style
                         decoration: InputDecoration(
                           labelText: 'عمر المريض (سنوات)',
-                          hintText: 'أدخل العمر بالسنوات',
+                          // hintText: 'أدخل العمر بالسنوات',
                           border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(
+                              8.0,
+                            ), // Match theme --radius
+                            borderSide: BorderSide(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.outline.withOpacity(0.7),
+                            ),
+                          ),
+                          focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8.0),
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.primary,
+                              width: 1.5,
+                            ),
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(8.0),
+                            borderSide: BorderSide(
+                              color: Theme.of(
+                                context,
+                              ).colorScheme.outline.withOpacity(0.7),
+                            ),
                           ),
                           prefixIcon: const Icon(Icons.cake_outlined, size: 20),
                         ),
@@ -248,13 +333,18 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                             doseProvider.isLoading
                                 ? null
                                 : _calculate, // Disable while loading
+                        // Match shadcn Button style
                         style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(vertical: 14.0),
                           textStyle: textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w600, // Slightly bolder
                           ),
                           backgroundColor: colorScheme.primary,
                           foregroundColor: colorScheme.onPrimary,
+                          shape: RoundedRectangleBorder(
+                            // Match theme --radius
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
                         ),
                       ),
                     ],
@@ -279,27 +369,16 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                     vertical: 16.0,
                   ),
                   child: Consumer<SubscriptionProvider>(
-                    // Use Consumer for reactivity
                     builder: (context, subProvider, child) {
                       bool canSave = subProvider.isPremiumUser;
+                      // Match shadcn Button (secondary variant)
                       return ElevatedButton.icon(
                         icon: Icon(
                           Icons.save_alt_outlined,
                           size: 20,
-                          color:
-                              canSave
-                                  ? colorScheme.onSecondaryContainer
-                                  : Colors.grey,
+                          // Color will be handled by foregroundColor based on enabled state
                         ),
-                        label: Text(
-                          'حفظ الحساب',
-                          style: TextStyle(
-                            color:
-                                canSave
-                                    ? colorScheme.onSecondaryContainer
-                                    : Colors.grey,
-                          ),
-                        ),
+                        label: const Text('حفظ الحساب'),
                         onPressed:
                             canSave
                                 ? () {
@@ -332,17 +411,39 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                                     ),
                                   );
                                 },
+                        // Style similar to secondary button
                         style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(vertical: 12.0),
                           backgroundColor:
                               canSave
                                   ? colorScheme.secondaryContainer
-                                  : colorScheme.surfaceVariant,
+                                  : colorScheme.surfaceVariant.withOpacity(0.5),
                           foregroundColor:
                               canSave
                                   ? colorScheme.onSecondaryContainer
-                                  : Colors.grey,
-                          elevation: canSave ? 1 : 0,
+                                  : colorScheme.onSurfaceVariant.withOpacity(
+                                    0.5,
+                                  ),
+                          elevation: 0, // Flat style
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(
+                              8.0,
+                            ), // Match theme --radius
+                            side:
+                                canSave
+                                    ? BorderSide.none
+                                    : BorderSide(
+                                      color: colorScheme.outline.withOpacity(
+                                        0.5,
+                                      ),
+                                    ), // Subtle border when disabled
+                          ),
+                          textStyle: const TextStyle(
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ).copyWith(
+                          // Ensure proper disabled state colors if needed, though foregroundColor handles it mostly
+                          // overlayColor: MaterialStateProperty.resolveWith<Color?>(...),
                         ),
                       );
                     },
@@ -358,25 +459,38 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   // Helper widget for Error Card
   Widget _buildErrorCard(BuildContext context, String error) {
     final theme = Theme.of(context);
+    // Match shadcn Alert (destructive variant)
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      elevation: 1,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-      color: theme.colorScheme.errorContainer,
+      elevation: 0, // No elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: theme.colorScheme.error.withOpacity(0.7),
+        ), // Error border
+      ),
+      color: theme.colorScheme.errorContainer.withOpacity(
+        0.15,
+      ), // Lighter background
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
           children: [
             Icon(
               Icons.error_outline,
-              color: theme.colorScheme.onErrorContainer,
+              color: theme.colorScheme.error, // Use error color for icon
             ),
             const SizedBox(width: 12),
             Expanded(
               child: Text(
                 'خطأ: $error',
-                style: theme.textTheme.bodyLarge?.copyWith(
-                  color: theme.colorScheme.onErrorContainer,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  // Adjust style
+                  color:
+                      theme
+                          .colorScheme
+                          .error, // Use error color directly for text
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ),
@@ -398,14 +512,22 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     final bool hasWarning =
         result.warning != null && result.warning!.isNotEmpty;
 
+    // Match general Card style, adjust background for warning
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      elevation: 1,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      elevation: 0, // No elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: colorScheme.outline.withOpacity(0.5),
+        ), // Subtle border
+      ),
       color:
           hasWarning
               ? Colors.orange.shade50
-              : colorScheme.primaryContainer.withOpacity(0.3),
+              : colorScheme.surfaceVariant.withOpacity(
+                0.5,
+              ), // Use surface variant for normal
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -449,15 +571,17 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             ],
             if (hasWarning) ...[
               const Divider(height: 24.0),
+              // Match shadcn Alert (warning variant)
               Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12.0,
-                  vertical: 8.0,
-                ),
+                padding: const EdgeInsets.all(12.0), // Consistent padding
                 decoration: BoxDecoration(
-                  color: Colors.orange.shade100.withOpacity(0.7),
-                  borderRadius: BorderRadius.circular(8.0),
-                  border: Border.all(color: Colors.orange.shade200),
+                  color: Colors.orange.withOpacity(0.1), // Lighter background
+                  borderRadius: BorderRadius.circular(
+                    8.0,
+                  ), // Match theme --radius
+                  border: Border.all(
+                    color: Colors.orange.withOpacity(0.4),
+                  ), // Warning border
                 ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -472,7 +596,10 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                       child: Text(
                         'تحذير: ${result.warning!}',
                         style: textTheme.bodyMedium?.copyWith(
-                          color: Colors.orange.shade900,
+                          color:
+                              Colors
+                                  .orange
+                                  .shade900, // Keep text color dark for contrast
                           fontWeight: FontWeight.w500,
                         ),
                       ),

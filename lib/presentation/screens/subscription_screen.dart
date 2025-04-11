@@ -14,7 +14,13 @@ class SubscriptionScreen extends StatelessWidget {
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('الاشتراك المميز (Premium)')),
+      appBar: AppBar(
+        title: const Text('الاشتراك المميز (Premium)'),
+        // Match general AppBar style
+        backgroundColor: colorScheme.surface,
+        foregroundColor: colorScheme.onSurface,
+        elevation: 0.5,
+      ),
       body: _buildBody(
         context,
         subscriptionProvider,
@@ -110,9 +116,21 @@ class SubscriptionScreen extends StatelessWidget {
 
         // Restore Purchases Button
         Center(
+          // Match shadcn Button (outline variant)
           child: OutlinedButton(
             onPressed:
-                () => context.read<SubscriptionProvider>().restorePurchases(),
+                provider.isLoading
+                    ? null
+                    : () =>
+                        context.read<SubscriptionProvider>().restorePurchases(),
+            style: OutlinedButton.styleFrom(
+              foregroundColor: colorScheme.primary,
+              side: BorderSide(color: colorScheme.primary.withOpacity(0.7)),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8.0),
+              ),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            ),
             child: const Text('استعادة المشتريات السابقة'),
           ),
         ),
@@ -134,13 +152,23 @@ class SubscriptionScreen extends StatelessWidget {
     TextTheme textTheme,
     ColorScheme colorScheme,
   ) {
+    // Match general Card style
     return Card(
-      elevation: 1,
+      elevation: 0, // No elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: colorScheme.outline.withOpacity(0.5),
+        ), // Subtle border
+      ),
       color:
           provider.isPremiumUser
-              ? colorScheme.primaryContainer
-              : colorScheme.surfaceVariant,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              ? colorScheme.primaryContainer.withOpacity(
+                0.3,
+              ) // Use lighter primary container for premium
+              : colorScheme.surfaceVariant.withOpacity(
+                0.5,
+              ), // Use surface variant for free
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Row(
@@ -151,8 +179,10 @@ class SubscriptionScreen extends StatelessWidget {
                   : Icons.account_circle_outlined,
               size: 30,
               color:
+                  // Use consistent colors based on card background
                   provider.isPremiumUser
-                      ? colorScheme.onPrimaryContainer
+                      ? colorScheme
+                          .primary // Use primary color for premium icon
                       : colorScheme.onSurfaceVariant,
             ),
             const SizedBox(width: 16),
@@ -164,6 +194,7 @@ class SubscriptionScreen extends StatelessWidget {
                     'حالة الاشتراك الحالية:',
                     style: textTheme.labelLarge?.copyWith(
                       color:
+                          // Use consistent colors based on card background
                           provider.isPremiumUser
                               ? colorScheme.onPrimaryContainer
                               : colorScheme.onSurfaceVariant,
@@ -174,6 +205,7 @@ class SubscriptionScreen extends StatelessWidget {
                     style: textTheme.titleLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       color:
+                          // Use consistent colors based on card background
                           provider.isPremiumUser
                               ? colorScheme.onPrimaryContainer
                               : colorScheme.onSurfaceVariant,
@@ -195,10 +227,16 @@ class SubscriptionScreen extends StatelessWidget {
     TextTheme textTheme,
     ColorScheme colorScheme,
   ) {
+    // Match general Card style
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 8.0),
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      elevation: 0, // No elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12), // Match theme --radius
+        side: BorderSide(
+          color: colorScheme.outline.withOpacity(0.5),
+        ), // Subtle border
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -225,6 +263,7 @@ class SubscriptionScreen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                // Match shadcn Button style
                 ElevatedButton(
                   onPressed:
                       provider.isLoading
@@ -233,6 +272,32 @@ class SubscriptionScreen extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     backgroundColor: colorScheme.primary,
                     foregroundColor: colorScheme.onPrimary,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8.0),
+                    ), // Match theme --radius
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 10,
+                    ), // Adjust padding
+                    textStyle: const TextStyle(fontWeight: FontWeight.w600),
+                  ).copyWith(
+                    // Handle disabled state
+                    backgroundColor: MaterialStateProperty.resolveWith<Color?>((
+                      Set<MaterialState> states,
+                    ) {
+                      if (states.contains(MaterialState.disabled)) {
+                        return colorScheme.primary.withOpacity(0.5);
+                      }
+                      return colorScheme.primary;
+                    }),
+                    foregroundColor: MaterialStateProperty.resolveWith<Color?>((
+                      Set<MaterialState> states,
+                    ) {
+                      if (states.contains(MaterialState.disabled)) {
+                        return colorScheme.onPrimary.withOpacity(0.7);
+                      }
+                      return colorScheme.onPrimary;
+                    }),
                   ),
                   child:
                       provider.isLoading

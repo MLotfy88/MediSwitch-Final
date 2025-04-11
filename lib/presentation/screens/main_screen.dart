@@ -71,17 +71,15 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Use IndexedStack and animate the currently selected child
-      body: IndexedStack(
-        index: _selectedIndex,
-        children:
-            _widgetOptions.map((widget) {
-              // Apply animation to each potential screen in the stack
-              return widget.animate().fadeIn(
-                duration: 300.ms,
-                curve: Curves.easeInOut,
-              );
-            }).toList(),
+      // Use AnimatedSwitcher for fade transition between screens
+      body: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 300), // Match fade duration
+        transitionBuilder: (Widget child, Animation<double> animation) {
+          return FadeTransition(opacity: animation, child: child);
+        },
+        child: _widgetOptions.elementAt(_selectedIndex),
+        // Important: Add a unique key to the child to ensure AnimatedSwitcher detects changes
+        // key: ValueKey<int>(_selectedIndex), // This might reset state, test carefully
       ),
       // body: Center(child: _widgetOptions.elementAt(_selectedIndex)), // Old way - loses state
       bottomNavigationBar: BottomNavigationBar(

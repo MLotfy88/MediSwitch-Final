@@ -159,6 +159,8 @@ class MyApp extends StatelessWidget {
                       0.40,
                       0.98,
                     ).toColor(), // --destructive-foreground
+                tertiary: const Color(0xFF16BC88), // Custom Header Background
+                onTertiary: Colors.white, // Custom Header Foreground
               ),
               // Define other theme properties like textTheme, cardTheme etc. based on design
               cardTheme: CardTheme(
@@ -278,6 +280,11 @@ class MyApp extends StatelessWidget {
                       0.40,
                       0.98,
                     ).toColor(), // --destructive-foreground dark
+                tertiary: const Color(
+                  0xFF16BC88,
+                ), // Custom Header Background (same for dark?)
+                onTertiary:
+                    Colors.white, // Custom Header Foreground (same for dark?)
               ),
               cardTheme: CardTheme(
                 elevation: 0,
