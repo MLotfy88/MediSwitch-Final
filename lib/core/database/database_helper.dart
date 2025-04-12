@@ -3,7 +3,9 @@ import 'dart:io';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
-import '../../data/models/medicine_model.dart'; // Import MedicineModel
+import '../../data/models/medicine_model.dart';
+import '../../data/datasources/local/sqlite_local_data_source.dart'; // Import SqliteLocalDataSource
+import '../di/locator.dart'; // Import locator to get SqliteLocalDataSource instance
 
 class DatabaseHelper {
   static final DatabaseHelper _instance = DatabaseHelper._internal();
@@ -86,6 +88,31 @@ class DatabaseHelper {
     // Consider adding index on price if filtering/sorting by price is frequent
     // await db.execute('CREATE INDEX idx_price ON $medicinesTable ($colPrice)');
     print('Indices created');
+
+    // Seed the database after creating the table
+    // Need to get the SqliteLocalDataSource instance to call the seed method
+    // This is a bit tricky as DatabaseHelper shouldn't ideally depend directly on locator
+    // A better approach might be to call seedDatabaseFromAssetIfNeeded after initializing the locator in main.dart
+    // But for a quick fix, we can use the locator here.
+    // WARNING: This creates a potential circular dependency if not handled carefully.
+    // Consider refactoring later.
+    print('Attempting to seed database after creation...');
+    try {
+      // Ensure locator is setup (it should be by the time DB is created)
+      if (locator.isRegistered<SqliteLocalDataSource>()) {
+        final localDataSource = locator<SqliteLocalDataSource>();
+        // We pass the db instance directly to avoid re-opening
+        await localDataSource
+            .seedDatabaseFromAssetIfNeeded(); // Call the seeding method
+      } else {
+        print(
+          'Error: SqliteLocalDataSource not registered in locator during DB onCreate.',
+        );
+      }
+    } catch (e) {
+      print('Error during initial database seeding in _onCreate: $e');
+      // Decide how to handle seeding failure
+    }
   }
 
   // --- Basic CRUD Operations (will be expanded) ---
