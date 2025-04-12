@@ -127,26 +127,35 @@ class DrugRepositoryImpl implements DrugRepository {
     bool updateAttempted = false;
     bool updateFailed = false;
 
+    // --- Temporarily Disable Update Check for Performance Testing ---
     if (isConnected) {
-      try {
-        updateAttempted = true;
-        final shouldUpdate = await _shouldUpdateData();
-        if (shouldUpdate) {
-          await _updateLocalDataFromRemote();
-          // Data is updated in DB, but we don't load it all here.
-        }
-      } catch (e) {
-        updateFailed = true;
-        if (kDebugMode)
-          print('Update check/download failed in getAllDrugs: $e.');
-        // If update fails, we might still want to proceed if local data exists.
-        // Return the specific failure from the update process.
-        if (e is Failure) return Left(e);
-        return Left(
-          InitialLoadFailure(),
-        ); // General failure if update fails badly
-      }
+      print(
+        "INFO: Update check is temporarily disabled for performance testing.",
+      );
+      updateAttempted = true; // Simulate attempt
+      updateFailed = false; // Assume no failure for now
     }
+    // if (isConnected) {
+    //   try {
+    //     updateAttempted = true;
+    //     final shouldUpdate = await _shouldUpdateData();
+    //     if (shouldUpdate) {
+    //       await _updateLocalDataFromRemote();
+    //       // Data is updated in DB, but we don't load it all here.
+    //     }
+    //   } catch (e) {
+    //     updateFailed = true;
+    //     if (kDebugMode)
+    //       print('Update check/download failed in getAllDrugs: $e.');
+    //     // If update fails, we might still want to proceed if local data exists.
+    //     // Return the specific failure from the update process.
+    //     if (e is Failure) return Left(e);
+    //     return Left(
+    //       InitialLoadFailure(),
+    //     ); // General failure if update fails badly
+    //   }
+    // }
+    // --- End of Temporarily Disabled Code ---
 
     // If update wasn't attempted or failed, we still return success,
     // assuming local DB exists (or will be seeded).

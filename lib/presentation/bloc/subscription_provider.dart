@@ -22,9 +22,11 @@ class SubscriptionProvider extends ChangeNotifier {
   List<ProductDetails> _products = []; // Available products/subscriptions
   List<PurchaseDetails> _purchases = []; // Active purchases/subscriptions
   bool _isStoreAvailable = false;
-  bool _isLoading = false;
+  bool _isLoading =
+      false; // Tracks loading state for initialization and purchases
   String _error = '';
   bool _isPremiumUser = false; // Track premium status
+  bool _isInitialized = false; // Add initialized flag
 
   // Getters
   List<ProductDetails> get products => _products;
@@ -32,15 +34,16 @@ class SubscriptionProvider extends ChangeNotifier {
   bool get isLoading => _isLoading;
   String get error => _error;
   bool get isPremiumUser => _isPremiumUser;
+  bool get isInitialized => _isInitialized; // Expose getter
 
   // Get dependencies from locator
   SubscriptionProvider()
     : _client = locator<http.Client>(),
-      // Define baseUrl consistently using environment variable or default
       _baseUrl = const String.fromEnvironment(
         'BACKEND_URL',
         defaultValue: 'http://localhost:8000',
       ) {
+    // Initialize purchase stream listener immediately
     final Stream<List<PurchaseDetails>> purchaseUpdated = _iap.purchaseStream;
     _purchaseSubscription = purchaseUpdated.listen(
       _onPurchaseUpdate,
@@ -50,7 +53,8 @@ class SubscriptionProvider extends ChangeNotifier {
         _setError('Failed to listen for purchase updates.');
       },
     );
-    initialize();
+    // Don't call initialize immediately, call it externally or lazily
+    // initialize();
   }
 
   @override
@@ -61,7 +65,11 @@ class SubscriptionProvider extends ChangeNotifier {
 
   // Public method to initialize or retry initialization
   Future<void> initialize() async {
+    if (_isInitialized) return; // Don't re-initialize if already done
+    if (_isLoading) return; // Prevent concurrent initialization
+
     _setLoading(true);
+    _error = ''; // Clear previous errors on init
     _isStoreAvailable = await _iap.isAvailable();
     print("InAppPurchase store available: $_isStoreAvailable");
 
@@ -71,6 +79,8 @@ class SubscriptionProvider extends ChangeNotifier {
     } else {
       _setError('The store is not available on this device.');
     }
+    _isInitialized =
+        true; // Mark as initialized even if store is unavailable or error occurred
     _setLoading(false);
   }
 
@@ -94,19 +104,20 @@ class SubscriptionProvider extends ChangeNotifier {
       _setError('An unexpected error occurred while loading products.');
       _products = [];
     }
-    notifyListeners();
+    // No notifyListeners here, initialize() handles it at the end
   }
 
   // Public method to restore previous purchases
   Future<void> restorePurchases() async {
+    if (!_isStoreAvailable) return; // Don't attempt if store is unavailable
     try {
       await _iap.restorePurchases();
       print("Attempted to restore purchases.");
       // The purchase stream (_onPurchaseUpdate) will handle the restored purchases.
-      // We might need a slight delay or check after restore if the stream doesn't fire immediately.
     } catch (e) {
       print("Error restoring purchases: $e");
       _setError('Failed to restore previous purchases.');
+      // No notifyListeners here, initialize() handles it at the end
     }
   }
 
@@ -114,94 +125,99 @@ class SubscriptionProvider extends ChangeNotifier {
     List<PurchaseDetails> purchaseDetailsList,
   ) async {
     print("Purchase update received: ${purchaseDetailsList.length} items");
+    // Use a temporary loading state specific to purchase handling?
+    // Or rely on the global isLoading flag if purchase initiation sets it.
+    bool needsNotify = false;
     for (var purchaseDetails in purchaseDetailsList) {
-      await _handlePurchase(purchaseDetails);
+      final changed = await _handlePurchase(purchaseDetails);
+      if (changed) needsNotify = true;
     }
-    _updatePremiumStatus(); // Update status after handling all updates
-    notifyListeners();
+    // Update premium status after handling all updates in the batch
+    final premiumChanged = _updatePremiumStatus();
+    if (needsNotify || premiumChanged) {
+      notifyListeners();
+    }
   }
 
-  Future<void> _handlePurchase(PurchaseDetails purchaseDetails) async {
+  // Returns true if state changed that requires notification
+  Future<bool> _handlePurchase(PurchaseDetails purchaseDetails) async {
+    bool stateChanged = false;
     print(
       "Handling purchase: ${purchaseDetails.productID}, Status: ${purchaseDetails.status}",
     );
     if (purchaseDetails.status == PurchaseStatus.purchased ||
         purchaseDetails.status == PurchaseStatus.restored) {
-      // --- Backend Validation Step ---
       bool isValid = await _validatePurchaseWithBackend(purchaseDetails);
-
       if (isValid) {
         print("Backend validation successful for ${purchaseDetails.productID}");
-        // Add to local list if not already there (based on purchaseID)
-        // Only add if validation passed
         if (!_purchases.any(
           (p) => p.purchaseID == purchaseDetails.purchaseID,
         )) {
           _purchases.add(purchaseDetails);
+          stateChanged = true; // Added a purchase
         }
-        _updatePremiumStatus(); // Update premium status based on validated purchase
-
         if (purchaseDetails.pendingCompletePurchase) {
-          // IMPORTANT: Complete the purchase ONLY after successful backend validation
           await _iap.completePurchase(purchaseDetails);
           print("Purchase completed via IAP for ${purchaseDetails.purchaseID}");
         }
       } else {
         print("Backend validation failed for ${purchaseDetails.productID}");
         _setError('فشلت عملية التحقق من الشراء.');
-        // Do NOT complete the purchase if backend validation fails
-        // Remove from local list if it was added optimistically before validation
+        stateChanged = true; // Error state changed
+        // Remove from local list if it was added optimistically
+        final initialLength = _purchases.length;
         _purchases.removeWhere(
           (p) => p.purchaseID == purchaseDetails.purchaseID,
         );
-        _updatePremiumStatus(); // Update premium status (likely to false)
+        if (_purchases.length < initialLength)
+          stateChanged = true; // Check if length changed
       }
-      // --- End Backend Validation Step ---
     } else if (purchaseDetails.status == PurchaseStatus.error) {
       print("Purchase error: ${purchaseDetails.error}");
       _setError(
         'Purchase failed: ${purchaseDetails.error?.message ?? 'Unknown error'}',
       );
+      stateChanged = true; // Error state changed
     } else if (purchaseDetails.status == PurchaseStatus.canceled) {
       print("Purchase canceled for ${purchaseDetails.productID}");
-      // Optionally show a message to the user
+      // Optionally show a message to the user or just update state
     } else if (purchaseDetails.status == PurchaseStatus.pending) {
       print("Purchase pending for ${purchaseDetails.productID}");
-      // Inform the user that the purchase is pending
+      // Optionally update UI to show pending state
     }
 
     // Update internal list based on latest status (remove canceled/error?)
-    // This logic might need refinement based on how you want to handle non-active purchases.
+    final initialLengthBeforeRemove = _purchases.length;
     _purchases.removeWhere(
       (p) =>
           p.purchaseID == purchaseDetails.purchaseID &&
           (p.status == PurchaseStatus.canceled ||
               p.status == PurchaseStatus.error),
     );
+    if (_purchases.length < initialLengthBeforeRemove)
+      stateChanged = true; // Check if length changed
+
+    return stateChanged;
   }
 
   // Update the _isPremiumUser flag based on *validated* active purchases
-  // This method now primarily reflects the state derived from validated purchases
-  void _updatePremiumStatus() {
+  // Returns true if the premium status actually changed
+  bool _updatePremiumStatus() {
     final bool wasPremium = _isPremiumUser;
-
-    // Check validated purchases list for the premium product ID
-    // Note: We rely on _handlePurchase to add/remove items from _purchases
-    // based on backend validation result.
     _isPremiumUser = _purchases.any(
       (purchase) =>
           purchase.productID == _premiumMonthlyProductId &&
           (purchase.status == PurchaseStatus.purchased ||
               purchase.status == PurchaseStatus.restored),
-      // We implicitly trust items in _purchases are validated by _handlePurchase
     );
 
     if (wasPremium != _isPremiumUser) {
       print(
         "Premium status updated based on validated purchases: $_isPremiumUser",
       );
-      notifyListeners();
+      return true; // Status changed
     }
+    return false; // Status did not change
   }
 
   // --- Backend Validation Method ---
@@ -211,9 +227,8 @@ class SubscriptionProvider extends ChangeNotifier {
     final url = Uri.parse('$_baseUrl/api/v1/subscriptions/validate/');
     final verificationData = purchaseDetails.verificationData;
     final serverVerificationData = verificationData.serverVerificationData;
-    final source = verificationData.source; // e.g., 'google_play', 'app_store'
+    final source = verificationData.source;
 
-    // Determine platform string
     String platform;
     if (Platform.isAndroid) {
       platform = 'android';
@@ -223,15 +238,11 @@ class SubscriptionProvider extends ChangeNotifier {
       print(
         "Unsupported platform for purchase validation: ${Platform.operatingSystem}",
       );
-      return false; // Cannot validate on unsupported platforms
+      return false;
     }
 
-    // Ensure we have the necessary data
     if (serverVerificationData.isEmpty) {
       print("Missing serverVerificationData for validation.");
-      // For restored purchases, serverVerificationData might be empty initially.
-      // Need to handle restoration flow properly, maybe trigger refresh?
-      // For now, treat as invalid if token is missing.
       return false;
     }
 
@@ -248,32 +259,29 @@ class SubscriptionProvider extends ChangeNotifier {
               // TODO: Send user/device identifier if needed by backend
             }),
           )
-          .timeout(
-            const Duration(seconds: 20),
-          ); // Longer timeout for validation
+          .timeout(const Duration(seconds: 20));
 
       print("Backend validation response: ${response.statusCode}");
       if (response.statusCode == 200) {
         final responseBody = json.decode(response.body) as Map<String, dynamic>;
-        // Update status based on backend response (more reliable)
         final bool backendPremiumStatus =
             responseBody['is_premium'] as bool? ?? false;
-        // TODO: Potentially store expiry date from responseBody['expiry_date']
-        _isPremiumUser =
-            backendPremiumStatus; // Directly set status from backend
-        print("Backend validation successful. Premium: $_isPremiumUser");
-        return true; // Indicate validation was successful
+        // Don't directly set _isPremiumUser here, let _updatePremiumStatus handle it
+        // based on the validated _purchases list.
+        print(
+          "Backend validation successful. Backend says premium: $backendPremiumStatus",
+        );
+        return true; // Indicate validation was successful (backend processed it)
       } else {
         print(
           "Backend validation failed: ${response.statusCode} - ${response.body}",
         );
-        _isPremiumUser = false; // Assume not premium if validation fails
         return false;
       }
     } catch (e) {
       print("Error during backend validation request: $e");
-      _isPremiumUser = false; // Assume not premium on error
       _setError("Failed to connect to validation server.");
+      // notifyListeners(); // Notify about the error
       return false;
     }
   }
@@ -295,12 +303,12 @@ class SubscriptionProvider extends ChangeNotifier {
     );
 
     try {
-      // For non-consumable or subscriptions, always false. For consumable true.
+      // For subscriptions, use buyNonConsumable
       final bool success = await _iap.buyNonConsumable(
         purchaseParam: purchaseParam,
       );
       print("Initiating purchase result: $success");
-      // The result (success/failure/pending) will come through the purchase stream (_onPurchaseUpdate)
+      // Result comes via the stream
     } catch (e) {
       print("Error initiating purchase: $e");
       _setError('Failed to initiate purchase.');
@@ -311,11 +319,13 @@ class SubscriptionProvider extends ChangeNotifier {
 
   // Helper methods for state management
   void _setLoading(bool value) {
+    if (_isLoading == value) return; // Avoid unnecessary notifications
     _isLoading = value;
     notifyListeners();
   }
 
   void _setError(String message) {
+    if (_error == message) return; // Avoid unnecessary notifications
     _error = message;
     notifyListeners();
   }
