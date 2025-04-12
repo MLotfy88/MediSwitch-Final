@@ -7,40 +7,50 @@ import '../../domain/entities/interaction_type.dart';
 import '../../domain/entities/interaction_analysis_result.dart';
 import '../bloc/interaction_provider.dart';
 import '../bloc/medicine_provider.dart';
-import '../widgets/custom_search_delegate.dart'; // Import the search delegate
+import '../../domain/usecases/search_drugs.dart'; // Import SearchParams
+import '../widgets/custom_search_delegate.dart';
 
 class InteractionCheckerScreen extends StatelessWidget {
   const InteractionCheckerScreen({super.key});
 
   // Function to show medicine search
   Future<void> _showMedicineSearch(BuildContext context) async {
+    // final interactionProvider = context.read<InteractionProvider>(); // Removed duplicate
     final interactionProvider = context.read<InteractionProvider>();
     final medicineProvider = context.read<MedicineProvider>();
 
-    // Ensure medicine data is loaded
-    if (medicineProvider.medicines.isEmpty && !medicineProvider.isLoading) {
+    // Fetch all medicines for searching when the search is initiated
+    // We use searchDrugsUseCase with an empty query as a proxy to get all
+    // In a real-world scenario with millions of drugs, you'd implement server-side search
+    // or a more optimized local search strategy.
+    final failureOrMedicines = await medicineProvider.searchDrugsUseCase(
+      SearchParams(query: ''),
+    );
+
+    // Handle potential failure during fetch
+    if (failureOrMedicines.isLeft() && context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('جاري تحميل قائمة الأدوية...')),
+        const SnackBar(content: Text('خطأ في تحميل قائمة الأدوية للبحث.')),
       );
-      // Optionally trigger loading if needed
       return;
     }
-    if (medicineProvider.isLoading) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('قائمة الأدوية لا تزال قيد التحميل...')),
-      );
+
+    final allMedicines = failureOrMedicines.getOrElse(() => []);
+
+    if (allMedicines.isEmpty && context.mounted) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('قائمة الأدوية فارغة.')));
       return;
     }
 
     // Filter out already selected medicines before passing to search delegate
     final availableMedicines =
-        medicineProvider.medicines
+        allMedicines // Use the fetched list
             .where(
               (med) =>
                   !interactionProvider.selectedMedicines.any(
-                    (selected) =>
-                        selected.tradeName ==
-                        med.tradeName, // Compare using tradeName
+                    (selected) => selected.tradeName == med.tradeName,
                   ),
             )
             .toList();

@@ -4,8 +4,9 @@ import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart'; // Use DrugEntity
 import '../bloc/medicine_provider.dart'; // For medicine list
 import '../bloc/dose_calculator_provider.dart'; // Import the provider
-import '../bloc/subscription_provider.dart'; // Import Subscription Provider
-import '../widgets/custom_search_delegate.dart'; // Import the search delegate
+import '../bloc/subscription_provider.dart';
+import '../../domain/usecases/search_drugs.dart'; // Import SearchParams
+import '../widgets/custom_search_delegate.dart';
 
 class WeightCalculatorScreen extends StatefulWidget {
   const WeightCalculatorScreen({super.key});
@@ -52,21 +53,40 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   }
 
   // Function to show medicine search
-  Future<void> _showMedicineSearch(
-    BuildContext context,
-    List<DrugEntity> medicines,
-  ) async {
+  Future<void> _showMedicineSearch(BuildContext context) async {
+    // Fetch medicines when search is initiated
+    final medicineProvider = context.read<MedicineProvider>();
+    final failureOrMedicines = await medicineProvider.searchDrugsUseCase(
+      SearchParams(query: ''),
+    );
+
+    if (failureOrMedicines.isLeft() && context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('خطأ في تحميل قائمة الأدوية للبحث.')),
+      );
+      return;
+    }
+    final allMedicines = failureOrMedicines.getOrElse(() => []);
+    if (allMedicines.isEmpty && context.mounted) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('قائمة الأدوية فارغة.')));
+      return;
+    }
+
+    // Proceed with showing search using the fetched list
     final selectedDrug = await showSearch<DrugEntity?>(
       context: context,
       delegate: CustomSearchDelegate(
         searchFieldLabel: 'ابحث عن دواء...',
-        medicines: medicines,
+        medicines: allMedicines, // Use the fetched list
         searchLogic: (query) {
           if (query.isEmpty) {
-            return medicines; // Show all if query is empty
+            return allMedicines; // Show all fetched if query is empty
           }
           final lowerCaseQuery = query.toLowerCase();
-          return medicines.where((drug) {
+          return allMedicines.where((drug) {
+            // Search within the fetched list
             return drug.tradeName.toLowerCase().contains(lowerCaseQuery) ||
                 drug.arabicName.toLowerCase().contains(lowerCaseQuery);
           }).toList();
@@ -135,8 +155,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                         onTap:
                             () => _showMedicineSearch(
                               context,
-                              medicineProvider.medicines,
-                            ),
+                            ), // Call without passing list
                         child: InputDecorator(
                           // Match shadcn Input/Select style
                           decoration: InputDecoration(
