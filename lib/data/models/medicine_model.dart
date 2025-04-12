@@ -1,3 +1,5 @@
+import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
+
 class MedicineModel {
   final String tradeName;
   final String arabicName;
@@ -126,6 +128,25 @@ class MedicineModel {
               ? double.tryParse(map['concentration'].toString())
               : null,
       imageUrl: map['imageUrl']?.toString(), // Add from map
+    );
+  }
+
+  // Convert MedicineModel to DrugEntity
+  DrugEntity toEntity() {
+    return DrugEntity(
+      tradeName: tradeName, // Already String
+      arabicName: arabicName, // Already String
+      price: price, // Already String
+      mainCategory: mainCategory, // Already String
+      active: active, // Already String
+      company: company, // Already String
+      dosageForm: dosageForm, // Already String
+      concentration: concentration ?? 0.0, // Handle null concentration
+      unit: unit, // Already String
+      usage: usage, // Already String
+      description: description, // Already String
+      lastPriceUpdate: lastPriceUpdate, // Already String
+      imageUrl: imageUrl, // Already String?
     );
   }
 

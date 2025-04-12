@@ -14,10 +14,6 @@ import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart'; // Import CategoryCard
 import 'package:flutter_animate/flutter_animate.dart';
 // DI is now handled by locator.dart and main.dart
-// import '../../main.dart'; // Removed
-// import '../../domain/usecases/find_drug_alternatives.dart'; // Removed
-// import '../bloc/alternatives_provider.dart'; // Removed
-// import '../screens/alternatives_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -32,97 +28,56 @@ class _HomeScreenState extends State<HomeScreen> {
     final medicineProvider = context.watch<MedicineProvider>();
     final isLoading = medicineProvider.isLoading;
     final error = medicineProvider.error;
-    // Get full list for main display, recently updated list for its section
-    final allMedicines = medicineProvider.medicines; // Use the full list
-    final recentlyUpdated = medicineProvider.recentlyUpdatedMedicines;
-    // TODO: Add logic for popular medicines if needed
+    // Use filteredMedicines which is populated by loadInitialData/_applyFilters
+    final displayedMedicines = medicineProvider.filteredMedicines;
+    // Removed recentlyUpdated and popularDrugs as they are no longer pre-loaded
 
-    // Apply the overall fade-in animation from the design
     return Scaffold(
-      // No AppBar here, Header component will be part of the body
       body: RefreshIndicator(
         onRefresh: () => context.read<MedicineProvider>().loadInitialData(),
         child:
-            isLoading
+            isLoading &&
+                    displayedMedicines
+                        .isEmpty // Show loading only if list is truly empty
                 ? const Center(child: CircularProgressIndicator())
-                : error.isNotEmpty
-                ? _buildErrorWidget(context, error) // Keep error handling
+                : error.isNotEmpty &&
+                    displayedMedicines
+                        .isEmpty // Show error only if list is empty
+                ? _buildErrorWidget(context, error)
                 : ListView(
-                  // Use ListView instead of CustomScrollView
-                  padding: EdgeInsets.zero, // Remove default padding
+                  padding: EdgeInsets.zero,
                   children: [
-                    const HomeHeader(), // Use the new HomeHeader widget
+                    const HomeHeader(),
                     _buildSearchBar(context),
                     const SizedBox(height: 16.0),
                     // --- Categories Section ---
-                    _buildCategoriesSection(
-                      context,
-                    ), // Use HorizontalListSection
+                    _buildCategoriesSection(context),
                     const SizedBox(height: 16.0),
-                    // --- Recently Updated Section ---
-                    if (recentlyUpdated.isNotEmpty)
-                      HorizontalListSection(
-                        title: 'أدوية محدثة مؤخراً',
-                        listHeight: 210, // Match previous SizedBox height
-                        onViewAll: () {
-                          print("View All Recently Updated Tapped");
-                        },
-                        children:
-                            recentlyUpdated
-                                .map(
-                                  (drug) => SizedBox(
-                                    width: 170, // Match previous SizedBox width
-                                    child: DrugCard(
-                                      // Use DrugCard (thumbnail)
-                                      drug: drug,
-                                      type: DrugCardType.thumbnail,
-                                      onTap:
-                                          () =>
-                                              _navigateToDetails(context, drug),
-                                    ),
-                                  ),
-                                )
-                                .toList(),
-                      ),
 
-                    // --- Popular Drugs Section ---
-                    HorizontalListSection(
-                      title: 'الأدوية الأكثر بحثاً',
-                      listHeight: 210, // Match previous SizedBox height
-                      onViewAll: () {
-                        print("View All Popular Drugs Tapped");
-                      },
-                      children:
-                          medicineProvider.popularDrugs
-                              .map(
-                                (drug) => SizedBox(
-                                  width: 170, // Match previous SizedBox width
-                                  child: DrugCard(
-                                    // Use DrugCard (thumbnail)
-                                    drug: drug,
-                                    type: DrugCardType.thumbnail,
-                                    onTap:
-                                        () => _navigateToDetails(context, drug),
-                                  ),
-                                ),
-                              )
-                              .toList(),
-                    ),
-                    const SizedBox(
-                      height: 16.0,
-                    ), // Keep spacing after popular drugs
+                    // --- Recently Updated Section (Removed Temporarily) ---
+                    // if (recentlyUpdated.isNotEmpty) ...
+
+                    // --- Popular Drugs Section (Removed Temporarily) ---
+                    // HorizontalListSection(...)
+                    const SizedBox(height: 16.0), // Keep spacing
                     // --- All Drugs Section ---
-                    const SectionHeader(
-                      title: 'جميع الأدوية',
-                      padding: EdgeInsets.symmetric(
+                    // Title changes based on whether filters are active
+                    SectionHeader(
+                      title:
+                          medicineProvider.searchQuery.isEmpty &&
+                                  medicineProvider.selectedCategory.isEmpty
+                              ? 'جميع الأدوية'
+                              : 'نتائج البحث/الفلترة',
+                      padding: const EdgeInsets.symmetric(
                         horizontal: 16,
                         vertical: 8,
                       ),
-                    ), // Add header
-                    _buildAllDrugsList(context, allMedicines).animate().fadeIn(
-                      duration: 500.ms,
-                      delay: 400.ms,
-                    ), // Add fade-in
+                    ),
+                    _buildAllDrugsList(
+                      context,
+                      displayedMedicines,
+                    ) // Use displayedMedicines
+                    .animate().fadeIn(duration: 500.ms, delay: 400.ms),
                   ],
                 ),
       ),
@@ -131,7 +86,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // --- Builder Methods ---
 
-  // Builds the search bar section (placeholder for now, might become a separate widget)
   Widget _buildSearchBar(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final colorScheme = Theme.of(context).colorScheme;
@@ -139,6 +93,8 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: InkWell(
         onTap: () {
+          // Clear search query when navigating to search screen? Optional.
+          // context.read<MedicineProvider>().setSearchQuery('');
           Navigator.push(
             context,
             MaterialPageRoute<void>(builder: (context) => const SearchScreen()),
@@ -177,39 +133,24 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Removed _buildHeader method - replaced by HomeHeader widget
-
   // Builds the Categories section using HorizontalListSection
-  // Renamed from _buildCategoriesGrid
   Widget _buildCategoriesSection(BuildContext context) {
-    // Placeholder categories - replace with actual data source later
-    final categories = [
-      {
-        'name': 'مسكنات الألم',
-        'icon': Icons.healing_outlined,
-        'data': 'pain_management',
-      },
-      {
-        'name': 'مضادات حيوية',
-        'icon': Icons.medication_liquid_outlined,
-        'data': 'antibiotics',
-      },
-      {
-        'name': 'أمراض مزمنة',
-        'icon': Icons.monitor_heart_outlined,
-        'data': 'chronic',
-      },
-      {
-        'name': 'فيتامينات',
-        'icon': Icons.local_florist_outlined,
-        'data': 'vitamins',
-      },
-    ];
+    final categories =
+        context
+            .watch<MedicineProvider>()
+            .categories; // Get categories from provider
+    // Placeholder icons - replace if specific icons become available
+    final categoryIcons = {
+      'مسكنات الألم': Icons.healing_outlined, // Example mapping
+      'مضادات حيوية': Icons.medication_liquid_outlined,
+      'أمراض مزمنة': Icons.monitor_heart_outlined,
+      'فيتامينات': Icons.local_florist_outlined,
+      // Add more mappings as needed based on actual category names from DB
+    };
 
     return HorizontalListSection(
       title: 'الفئات الطبية',
       listHeight: 115, // Height for category cards
-      // Remove header padding as it's handled by the section widget now
       headerPadding: const EdgeInsets.only(
         left: 16,
         right: 16,
@@ -217,39 +158,41 @@ class _HomeScreenState extends State<HomeScreen> {
         bottom: 8,
       ),
       children:
-          categories.map((category) {
+          categories.map((categoryName) {
+            // Iterate over category names (String)
             // Use the new CategoryCard widget
             return CategoryCard(
-                  name: category['name'] as String? ?? '',
+                  name: categoryName, // Use name directly from provider list
                   iconData:
-                      category['icon'] as IconData? ??
-                      Icons.category, // Provide default icon
+                      categoryIcons[categoryName] ??
+                      Icons.category, // Get icon from map or default
                   onTap: () {
                     context.read<MedicineProvider>().setCategory(
-                      category['data'] as String? ?? '',
-                    );
-                    print("Category Tapped: ${category['name']}");
+                      categoryName,
+                    ); // Filter by this category name
+                    print(
+                      "Category Tapped: $categoryName",
+                    ); // Use categoryName here
+                    // Optionally navigate to a dedicated category screen or apply filter immediately
+                    // Navigator.push(...);
                   },
                 )
                 .animate() // Apply animation to the CategoryCard itself
                 .scale(
-                  delay: (categories.indexOf(category) * 100).ms,
+                  delay: (categories.indexOf(categoryName) * 100).ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
                   begin: const Offset(0.9, 0.9),
                   end: const Offset(1.0, 1.0),
-                )
+                ) // Use categoryName here
                 .fadeIn(
-                  delay: (categories.indexOf(category) * 100).ms,
+                  delay: (categories.indexOf(categoryName) * 100).ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
-                );
+                ); // Use categoryName here
           }).toList(),
     );
   }
-
-  // Removed _buildCategoriesGrid and _buildHorizontalDrugList methods
-  // They are now handled by HorizontalListSection
 
   // Helper method for navigation to avoid repetition
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
@@ -262,13 +205,27 @@ class _HomeScreenState extends State<HomeScreen> {
   // Builds the vertical list for "All Drugs" section
   Widget _buildAllDrugsList(BuildContext context, List<DrugEntity> medicines) {
     if (medicines.isEmpty) {
-      return const Padding(
-        padding: EdgeInsets.symmetric(vertical: 32.0),
-        child: Center(child: Text('لا توجد أدوية لعرضها.')),
+      // Show a different message if filters are active but no results
+      final provider = context.read<MedicineProvider>();
+      final bool filtersActive =
+          provider.searchQuery.isNotEmpty ||
+          provider.selectedCategory.isNotEmpty;
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 48.0, horizontal: 24.0),
+        child: Center(
+          child: Text(
+            filtersActive
+                ? 'لا توجد نتائج تطابق الفلاتر الحالية.'
+                : 'لا توجد أدوية لعرضها حالياً.',
+            textAlign: TextAlign.center,
+            style: Theme.of(
+              context,
+            ).textTheme.bodyLarge?.copyWith(color: Theme.of(context).hintColor),
+          ),
+        ),
       );
     }
     // Use ListView.builder within the main ListView
-    // Need to set physics and shrinkWrap appropriately
     return ListView.builder(
       shrinkWrap: true, // Important inside another scroll view
       physics:
@@ -293,7 +250,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Removed _buildDrugListOrGrid as it's replaced by _buildAllDrugsList
   Widget _buildErrorWidget(BuildContext context, String error) {
     return Center(
       child: Padding(
