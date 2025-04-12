@@ -38,20 +38,27 @@ class SubscriptionScreen extends StatelessWidget {
     TextTheme textTheme,
     ColorScheme colorScheme,
   ) {
+    // Check if provider is initialized first
+    if (!provider.isInitialized) {
+      // Show loading indicator while provider initializes
+      return const Center(child: CircularProgressIndicator());
+    }
+
     if (!provider.isStoreAvailable) {
-      return const Center(
+      return Center(
         child: Padding(
-          padding: EdgeInsets.all(24.0),
+          padding: const EdgeInsets.all(24.0),
           child: Text(
             'المتجر غير متاح حالياً على هذا الجهاز. لا يمكن عرض خيارات الشراء.',
             textAlign: TextAlign.center,
+            style: TextStyle(color: theme.hintColor), // Use hint color
           ),
         ),
       );
     }
 
-    if (provider.isLoading && provider.products.isEmpty) {
-      // Show loading only if products haven't been loaded yet
+    // Show loading indicator if loading products/purchases specifically
+    if (provider.isLoading) {
       return const Center(child: CircularProgressIndicator());
     }
 

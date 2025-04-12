@@ -40,6 +40,11 @@ Future<void> main() async {
     print("Error during post-locator seeding: $e");
     // Handle seeding error if necessary (e.g., show error screen)
   }
+  // Initialize SubscriptionProvider asynchronously in the background
+  // We don't await this, allowing the UI to build faster.
+  // Initialization will complete, and the provider will notify listeners later.
+  locator<SubscriptionProvider>().initialize();
+
   // Run the app, passing the initial screen
   runApp(MyApp(homeWidget: initialScreen));
 }
