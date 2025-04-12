@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
 import 'core/di/locator.dart';
+import 'data/datasources/local/sqlite_local_data_source.dart'; // Import SqliteLocalDataSource for seeding
 import 'presentation/bloc/medicine_provider.dart';
 import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
@@ -31,6 +32,14 @@ Future<void> main() async {
   final Widget initialScreen =
       onboardingComplete ? const MainScreen() : const OnboardingScreen();
 
+  // Seed the database if needed after locator setup
+  try {
+    final localDataSource = locator<SqliteLocalDataSource>();
+    await localDataSource.seedDatabaseFromAssetIfNeeded();
+  } catch (e) {
+    print("Error during post-locator seeding: $e");
+    // Handle seeding error if necessary (e.g., show error screen)
+  }
   // Run the app, passing the initial screen
   runApp(MyApp(homeWidget: initialScreen));
 }
