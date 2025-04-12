@@ -2,8 +2,12 @@ import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+// Database Helper
+import '../database/database_helper.dart'; // Import DatabaseHelper
+
 // Data Sources
-import '../../data/datasources/local/csv_local_data_source.dart';
+// import '../../data/datasources/local/csv_local_data_source.dart'; // Removed CSV
+import '../../data/datasources/local/sqlite_local_data_source.dart'; // Import SQLite
 import '../../data/datasources/remote/drug_remote_data_source.dart';
 import '../../data/datasources/local/interaction_local_data_source.dart';
 import '../../data/datasources/remote/config_remote_data_source.dart'; // Import Config Remote DS
@@ -53,6 +57,10 @@ Future<void> setupLocator() async {
   // Register http Client as a factory (or singleton if preferred)
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
+  // --- Core ---
+  // Register DatabaseHelper as a singleton
+  locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper());
+
   // --- Data Sources ---
   // Wait for SharedPreferences to be ready before registering dependent sources
   await locator.isReady<SharedPreferences>();
@@ -79,8 +87,11 @@ Future<void> setupLocator() async {
       baseUrl: backendUrl,
     );
   });
-  // CsvLocalDataSource is a singleton itself, accessed via factory constructor
-  locator.registerLazySingleton<CsvLocalDataSource>(() => CsvLocalDataSource());
+  // Register SqliteLocalDataSource instead of CsvLocalDataSource
+  locator.registerLazySingleton<SqliteLocalDataSource>(
+    () => SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>()),
+  );
+  // locator.registerLazySingleton<CsvLocalDataSource>(() => CsvLocalDataSource()); // Removed CSV
   locator.registerLazySingleton<InteractionLocalDataSource>(
     () => InteractionLocalDataSourceImpl(), // Assuming it loads from assets
   );
@@ -100,8 +111,8 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<DrugRepository>(
     () => DrugRepositoryImpl(
       remoteDataSource: locator<DrugRemoteDataSource>(),
-      localDataSource: locator<CsvLocalDataSource>(),
-      // No SharedPreferences needed here, it's internal to CsvLocalDataSource
+      localDataSource: locator<SqliteLocalDataSource>(), // Use SQLite DS
+      // No SharedPreferences needed here anymore
     ),
   );
   locator.registerLazySingleton<ConfigRepository>(

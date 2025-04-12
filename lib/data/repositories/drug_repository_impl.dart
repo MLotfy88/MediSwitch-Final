@@ -5,7 +5,8 @@ import 'package:flutter/foundation.dart'; // For kDebugMode or logging
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/drug_repository.dart';
-import '../datasources/local/csv_local_data_source.dart';
+// import '../datasources/local/csv_local_data_source.dart'; // Removed CSV
+import '../datasources/local/sqlite_local_data_source.dart'; // Import SQLite
 import '../datasources/remote/drug_remote_data_source.dart'; // Keep import for future use
 import '../models/medicine_model.dart';
 // import '../../core/network/network_info.dart'; // For checking connectivity
@@ -17,7 +18,7 @@ class ServerFailure extends Failure {} // Example for remote source later
 class NetworkFailure extends Failure {} // Example for network issues
 
 class DrugRepositoryImpl implements DrugRepository {
-  final CsvLocalDataSource localDataSource;
+  final SqliteLocalDataSource localDataSource; // Changed type to SQLite
   final DrugRemoteDataSource remoteDataSource; // Inject RemoteDataSource
   // final NetworkInfo networkInfo; // Keep commented for now
   final bool isConnected; // Simple flag for now, replace with NetworkInfo later
