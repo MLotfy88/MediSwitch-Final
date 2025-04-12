@@ -124,7 +124,11 @@ class SqliteLocalDataSource {
   }
 
   // Search medicines using SQL LIKE
-  Future<List<MedicineModel>> searchMedicinesByName(String query) async {
+  // Add optional limit parameter
+  Future<List<MedicineModel>> searchMedicinesByName(
+    String query, {
+    int? limit,
+  }) async {
     print("Searching medicines in SQLite for query: $query");
     if (query.isEmpty) return getAllMedicines(); // Return all if query is empty
 
@@ -139,6 +143,7 @@ class SqliteLocalDataSource {
          LOWER(${DatabaseHelper.colActive}) LIKE ?
        ''',
       whereArgs: [lowerCaseQuery, lowerCaseQuery, lowerCaseQuery],
+      limit: limit, // Apply limit if provided
     );
 
     return List.generate(maps.length, (i) {

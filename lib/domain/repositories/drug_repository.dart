@@ -7,7 +7,10 @@ abstract class DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs();
 
   /// Searches drugs by name (trade name or Arabic name)
-  Future<Either<Failure, List<DrugEntity>>> searchDrugs(String query);
+  Future<Either<Failure, List<DrugEntity>>> searchDrugs(
+    String query, {
+    int? limit,
+  }); // Add optional limit
 
   /// Filters drugs by category
   Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(
