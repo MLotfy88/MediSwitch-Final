@@ -160,11 +160,16 @@ class DrugRepositoryImpl implements DrugRepository {
   }
 
   @override
-  Future<Either<Failure, List<DrugEntity>>> searchDrugs(String query) async {
+  // Add optional limit parameter
+  Future<Either<Failure, List<DrugEntity>>> searchDrugs(
+    String query, {
+    int? limit,
+  }) async {
     try {
       // Directly query the local data source (SQLite)
+      // Pass the limit to the data source method
       final List<MedicineModel> localMedicines = await localDataSource
-          .searchMedicinesByName(query);
+          .searchMedicinesByName(query, limit: limit);
       // Use the toEntity method from MedicineModel
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();

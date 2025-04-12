@@ -187,9 +187,11 @@ class MedicineProvider extends ChangeNotifier {
       );
     } else {
       // No primary filter, fetch all (or a limited initial set)
-      // For now, let's fetch all if no filter, but ideally limit this.
-      // Using search with empty query as a proxy for "get all" via SQLite source
-      result = await searchDrugsUseCase(SearchParams(query: ''));
+      // No primary filter, fetch an initial limited set
+      const initialLimit = 50; // Define a limit for the initial load
+      result = await searchDrugsUseCase(
+        SearchParams(query: '', limit: initialLimit),
+      );
       // TODO: Consider adding a dedicated "get initial list" or paginated fetch later
     }
 
