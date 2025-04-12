@@ -4,7 +4,7 @@ import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:dartz/dartz.dart'; // Import dartz for Either
 import '../../core/error/failures.dart'; // Import Failure base class
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
-import '../../domain/usecases/get_all_drugs.dart';
+import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check logic inside repo
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
@@ -14,137 +14,127 @@ import '../../domain/repositories/analytics_repository.dart'; // Import Analytic
 import '../../core/usecases/usecase.dart';
 
 class MedicineProvider extends ChangeNotifier {
-  final GetAllDrugs getAllDrugsUseCase;
+  final GetAllDrugs getAllDrugsUseCase; // Keep for update check trigger
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
-  final GetAnalyticsSummary
-  getAnalyticsSummaryUseCase; // Inject analytics use case
+  final GetAnalyticsSummary getAnalyticsSummaryUseCase;
 
-  // State variables - now using DrugEntity
-  List<DrugEntity> _medicines = [];
-  List<DrugEntity> _filteredMedicines = [];
-  List<DrugEntity> _recentlyUpdatedMedicines = []; // Added for Task 3.1.6
+  // State variables
+  // List<DrugEntity> _medicines = []; // Removed: No longer caching all medicines
+  List<DrugEntity> _filteredMedicines =
+      []; // Holds the currently displayed/filtered list
+  // List<DrugEntity> _recentlyUpdatedMedicines = []; // Removed: Fetch on demand if needed
   List<String> _categories = [];
-  List<DrugEntity> _popularDrugs = []; // Added state for popular drugs
+  // List<DrugEntity> _popularDrugs = []; // Removed: Fetch on demand if needed
   String _searchQuery = '';
   String _selectedCategory = '';
-  String _selectedDosageForm = ''; // Added state for dosage form filter
-  RangeValues? _selectedPriceRange; // Added state for price range filter
-  double _minPrice = 0; // Added state for min price
-  double _maxPrice = 1000; // Added state for max price (default)
+  String _selectedDosageForm = '';
+  RangeValues? _selectedPriceRange;
+  double _minPrice = 0;
+  double _maxPrice = 1000;
   bool _isLoading = true;
   String _error = '';
   int? _lastUpdateTimestamp;
 
-  // Constructor injection for the UseCases (replace with DI later)
   MedicineProvider({
     required this.getAllDrugsUseCase,
     required this.searchDrugsUseCase,
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
     required this.getLastUpdateTimestampUseCase,
-    required this.getAnalyticsSummaryUseCase, // Add analytics use case to constructor
+    required this.getAnalyticsSummaryUseCase,
   }) {
     loadInitialData();
   }
 
-  // Getters - expose DrugEntity lists
-  List<DrugEntity> get medicines => _medicines;
+  // Getters
+  // List<DrugEntity> get medicines => _medicines; // Removed
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  List<DrugEntity> get recentlyUpdatedMedicines => _recentlyUpdatedMedicines;
-  List<DrugEntity> get popularDrugs => _popularDrugs; // Added getter
+  // List<DrugEntity> get recentlyUpdatedMedicines => _recentlyUpdatedMedicines; // Removed
+  // List<DrugEntity> get popularDrugs => _popularDrugs; // Removed
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
   String get error => _error;
   String get searchQuery => _searchQuery;
   String get selectedCategory => _selectedCategory;
-  String get selectedDosageForm => _selectedDosageForm; // Added getter
-  RangeValues? get selectedPriceRange => _selectedPriceRange; // Added getter
-  double get minPrice => _minPrice; // Added getter
-  double get maxPrice => _maxPrice; // Added getter
+  String get selectedDosageForm => _selectedDosageForm;
+  RangeValues? get selectedPriceRange => _selectedPriceRange;
+  double get minPrice => _minPrice;
+  double get maxPrice => _maxPrice;
 
-  // Getter to format the timestamp for display
   String get lastUpdateTimestampFormatted {
-    if (_lastUpdateTimestamp == null) {
-      return 'غير متوفر'; // "Not available"
-    }
+    if (_lastUpdateTimestamp == null) return 'غير متوفر';
     try {
       final dateTime = DateTime.fromMillisecondsSinceEpoch(
         _lastUpdateTimestamp!,
       );
-      // Basic formatting, consider using 'intl' package for better localization
-      return '${dateTime.year}-${dateTime.month.toString().padLeft(2, '0')}-${dateTime.day.toString().padLeft(2, '0')} ${dateTime.hour.toString().padLeft(2, '0')}:${dateTime.minute.toString().padLeft(2, '0')}';
+      return DateFormat('yyyy-MM-dd HH:mm', 'en').format(dateTime); // Use intl
     } catch (e) {
       print("Error formatting timestamp: $e");
-      return 'تنسيق غير صالح'; // "Invalid format"
+      return 'تنسيق غير صالح';
     }
   }
 
-  // Renamed to reflect loading both drugs and categories
+  // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
     _isLoading = true;
     _error = '';
     notifyListeners();
 
-    // Load drugs first
-    final failureOrDrugs = await getAllDrugsUseCase(
-      NoParams(),
-    ); // Pass NoParams
+    // Trigger update check (getAllDrugs in repo now handles this)
+    // We don't need the result list here anymore.
+    final updateResult = await getAllDrugsUseCase(NoParams());
 
-    failureOrDrugs.fold(
+    // Regardless of update success/failure, load categories and timestamp
+    // If update failed, subsequent fetches will use potentially stale local data
+    await _loadCategories();
+    await _loadAndUpdateTimestamp();
+    // TODO: Calculate price range based on a query or initial sample?
+    // For now, keep default range until first filter/search.
+
+    // Apply initial filters (which might be empty, fetching initial view)
+    await _applyFilters();
+
+    // Handle potential failure from the update check *after* attempting initial filter/load
+    updateResult.fold(
       (failure) {
-        // Handle Failure case
-        _error = _mapFailureToMessage(failure);
-        _medicines = []; // Clear data on failure
-        _filteredMedicines = [];
-        _recentlyUpdatedMedicines = []; // Also clear recently updated
-        _categories = [];
-        _isLoading = false; // Set loading false on failure
-        notifyListeners(); // Notify after failure state update
+        // Show error but keep potentially loaded data from cache
+        _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
+        print(_error);
+        // Don't set isLoading = false here, _applyFilters does it
+        // notifyListeners(); // _applyFilters already notified
       },
-      (drugs) async {
-        // Make the success callback async
-        // Handle Success case
-        _medicines = drugs;
-        _filteredMedicines = drugs; // Initially show all
-        _error = '';
-        // Populate recently updated list (Task 3.1.6)
-        _populateRecentlyUpdated(drugs);
-        // Now load categories after drugs are loaded
-        await _loadCategories(); // This await is now valid
-        await _loadAndUpdateTimestamp();
-        await _loadPopularDrugs(); // Load popular drugs after main list is ready
-        _calculatePriceRange(drugs); // Calculate min/max price
-        await _applyFilters(); // This already sets isLoading=false and notifies
+      (_) {
+        // Update successful or not needed, state already handled by _applyFilters
       },
     );
+
+    // Ensure loading is set to false if not already done by _applyFilters
+    if (_isLoading) {
+      _isLoading = false;
+      notifyListeners();
+    }
   }
 
-  // Helper to load categories using the UseCase
   Future<void> _loadCategories() async {
-    // Add async keyword
     final failureOrCategories = await getAvailableCategoriesUseCase(NoParams());
     failureOrCategories.fold(
       (failure) {
-        // Handle category loading failure (maybe log, show partial error?)
         print("Error loading categories: ${_mapFailureToMessage(failure)}");
-        _categories = []; // Set categories to empty on failure
+        _categories = [];
       },
       (categories) {
         _categories = categories;
       },
     );
-    // No need to notifyListeners here, loadInitialData will do it.
   }
 
-  // Helper to load and update the timestamp
   Future<void> _loadAndUpdateTimestamp() async {
     final failureOrTimestamp = await getLastUpdateTimestampUseCase(NoParams());
     failureOrTimestamp.fold(
       (failure) {
-        // Log error, but don't necessarily show it to the user here
         print(
           "Error loading last update timestamp: ${_mapFailureToMessage(failure)}",
         );
@@ -152,120 +142,13 @@ class MedicineProvider extends ChangeNotifier {
       },
       (timestamp) {
         _lastUpdateTimestamp = timestamp;
-        if (kDebugMode) {
+        if (kDebugMode)
           print("Last update timestamp loaded: $_lastUpdateTimestamp");
-        }
       },
     );
-    // No need to notifyListeners here, loadInitialData will do it.
   }
 
-  // --- Helper to populate recently updated list ---
-  void _populateRecentlyUpdated(List<DrugEntity> drugs) {
-    // Simple logic: Sort by lastPriceUpdate (assuming format is parseable)
-    // and take the top N (e.g., 10). Needs error handling for date parsing.
-    try {
-      List<DrugEntity> sortedDrugs = List.from(drugs);
-      // Filter out drugs with empty or invalid date strings before sorting
-      sortedDrugs.removeWhere(
-        (drug) => drug.lastPriceUpdate == null || drug.lastPriceUpdate!.isEmpty,
-      );
-      // Sort remaining drugs using robust date parsing
-      sortedDrugs.sort((a, b) {
-        DateTime? dateA = _parseDate(a.lastPriceUpdate);
-        DateTime? dateB = _parseDate(b.lastPriceUpdate);
-        // Treat null dates as oldest
-        if (dateB == null && dateA == null) return 0;
-        if (dateB == null) return -1; // b is older
-        if (dateA == null) return 1; // a is older
-        return dateB.compareTo(dateA); // Sort descending (newest first)
-      });
-      // Take the top 10 (or fewer if less than 10 exist)
-      _recentlyUpdatedMedicines = sortedDrugs.take(10).toList();
-      if (kDebugMode) {
-        print(
-          'Populated recently updated list with ${_recentlyUpdatedMedicines.length} items.',
-        );
-      }
-    } catch (e) {
-      if (kDebugMode) {
-        print('Error populating recently updated list: $e');
-      }
-      _recentlyUpdatedMedicines = []; // Clear list on error
-    }
-    // No need to notifyListeners here, loadInitialData will do it.
-  }
-
-  // --- Helper to load popular drugs based on analytics ---
-  Future<void> _loadPopularDrugs() async {
-    if (_medicines.isEmpty) {
-      _popularDrugs = [];
-      return; // Cannot determine popular if base list is empty
-    }
-
-    final failureOrSummary = await getAnalyticsSummaryUseCase(NoParams());
-
-    failureOrSummary.fold(
-      (failure) {
-        // Log error but don't block UI for this
-        print(
-          "Error loading analytics summary: ${_mapFailureToMessage(failure)}",
-        );
-        _popularDrugs = []; // Default to empty on error
-      },
-      (summary) {
-        final List<DrugEntity> foundPopular = [];
-        final Set<String> addedDrugNames = {}; // To avoid duplicates
-
-        // Get top search terms (lowercase)
-        final topTerms =
-            summary.topSearchQueries
-                .map((item) => (item['query'] as String?)?.toLowerCase())
-                .where((term) => term != null && term.isNotEmpty)
-                .toList();
-
-        if (kDebugMode) {
-          print("Top search terms from analytics: $topTerms");
-        }
-
-        // Find corresponding drugs from the main list
-        for (final term in topTerms) {
-          if (foundPopular.length >= 10) break; // Limit to 10 popular drugs
-
-          // Search by trade name or arabic name (case-insensitive)
-          final matchingDrug = _medicines.firstWhere(
-            (drug) =>
-                drug.tradeName.toLowerCase().contains(term!) ||
-                drug.arabicName.toLowerCase().contains(term),
-            orElse: () => DrugEntity.empty(), // Return empty if not found
-          );
-
-          if (matchingDrug != DrugEntity.empty() &&
-              !addedDrugNames.contains(matchingDrug.tradeName)) {
-            foundPopular.add(matchingDrug);
-            addedDrugNames.add(matchingDrug.tradeName);
-          }
-        }
-        // If no popular drugs found via analytics, use recently updated as fallback for now
-        if (foundPopular.isEmpty && _recentlyUpdatedMedicines.isNotEmpty) {
-          _popularDrugs = List.from(_recentlyUpdatedMedicines); // Use a copy
-          if (kDebugMode) {
-            print(
-              "No analytics data for popular drugs, using recently updated as fallback.",
-            );
-          }
-        } else {
-          _popularDrugs = foundPopular;
-          if (kDebugMode) {
-            print(
-              "Found ${_popularDrugs.length} popular drugs based on analytics.",
-            );
-          }
-        }
-      },
-    );
-    // No need to notifyListeners here, loadInitialData will do it.
-  }
+  // Removed _populateRecentlyUpdated and _loadPopularDrugs
 
   Future<void> setSearchQuery(String query) async {
     _searchQuery = query;
@@ -277,7 +160,6 @@ class MedicineProvider extends ChangeNotifier {
     await _applyFilters();
   }
 
-  // Added setters for new filters
   Future<void> setDosageForm(String dosageForm) async {
     _selectedDosageForm = dosageForm;
     await _applyFilters();
@@ -288,74 +170,69 @@ class MedicineProvider extends ChangeNotifier {
     await _applyFilters();
   }
 
-  // Apply filters (including new ones)
+  // Apply filters by querying the repository
   Future<void> _applyFilters() async {
-    _isLoading = true; // Indicate loading during filtering
+    _isLoading = true;
     _error = '';
     notifyListeners();
 
-    // Start with the full list of medicines
-    Either<Failure, List<DrugEntity>> result = Right(_medicines);
+    Either<Failure, List<DrugEntity>> result;
 
-    // 1. Apply Search Query Filter (if any)
+    // Determine base query: search or category filter takes precedence
     if (_searchQuery.isNotEmpty) {
       result = await searchDrugsUseCase(SearchParams(query: _searchQuery));
+    } else if (_selectedCategory.isNotEmpty) {
+      result = await filterDrugsByCategoryUseCase(
+        FilterParams(category: _selectedCategory),
+      );
+    } else {
+      // No primary filter, fetch all (or a limited initial set)
+      // For now, let's fetch all if no filter, but ideally limit this.
+      // Using search with empty query as a proxy for "get all" via SQLite source
+      result = await searchDrugsUseCase(SearchParams(query: ''));
+      // TODO: Consider adding a dedicated "get initial list" or paginated fetch later
     }
 
-    // Apply subsequent filters only if the previous step was successful
-    result = result.fold(
-      (failure) => Left(failure), // Pass failure through
-      (currentDrugs) {
-        List<DrugEntity> filtered = List.from(
-          currentDrugs,
-        ); // Create a mutable copy
+    // Apply secondary filters (dosage form, price) locally on the results
+    result = result.fold((failure) => Left(failure), (drugs) {
+      List<DrugEntity> filtered = List.from(drugs);
 
-        // 2. Apply Category Filter (if any)
-        if (_selectedCategory.isNotEmpty) {
-          final lowerCaseCategory = _selectedCategory.toLowerCase();
-          filtered =
-              filtered.where((drug) {
-                final mainCatLower = (drug.mainCategory ?? '').toLowerCase();
-                return mainCatLower == lowerCaseCategory;
-              }).toList();
-        }
+      // Apply Dosage Form Filter locally
+      if (_selectedDosageForm.isNotEmpty) {
+        final lowerCaseDosage = _selectedDosageForm.toLowerCase();
+        filtered =
+            filtered.where((drug) {
+              final formLower = (drug.dosageForm ?? '').toLowerCase();
+              return formLower.contains(lowerCaseDosage);
+            }).toList();
+      }
 
-        // 3. Apply Dosage Form Filter (if any)
-        if (_selectedDosageForm.isNotEmpty) {
-          final lowerCaseDosage = _selectedDosageForm.toLowerCase();
-          filtered =
-              filtered.where((drug) {
-                final formLower = (drug.dosageForm ?? '').toLowerCase();
-                // Simple contains check, might need refinement based on data
-                return formLower.contains(lowerCaseDosage);
-              }).toList();
-        }
+      // Apply Price Range Filter locally
+      if (_selectedPriceRange != null) {
+        filtered =
+            filtered.where((drug) {
+              final price = double.tryParse(drug.price);
+              if (price == null) return false;
+              return price >= _selectedPriceRange!.start &&
+                  price <= _selectedPriceRange!.end;
+            }).toList();
+      }
 
-        // 4. Apply Price Range Filter (if any)
-        if (_selectedPriceRange != null) {
-          filtered =
-              filtered.where((drug) {
-                final price = double.tryParse(drug.price);
-                if (price == null)
-                  return false; // Exclude drugs with unparseable prices
-                return price >= _selectedPriceRange!.start &&
-                    price <= _selectedPriceRange!.end;
-              }).toList();
-        }
+      return Right(filtered);
+    });
 
-        return Right(filtered); // Return the final filtered list
-      },
-    );
-
-    // Update final state based on the result
+    // Update final state
     result.fold(
       (failure) {
-        _error = "خطأ في الفلترة: ${_mapFailureToMessage(failure)}";
+        _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
         _filteredMedicines = []; // Clear results on error
       },
       (filteredDrugs) {
         _filteredMedicines = filteredDrugs;
         _error = ''; // Clear error on success
+        // TODO: Recalculate min/max price based on the *filtered* results?
+        // Or keep the global min/max calculated once in loadInitialData?
+        // For simplicity, keep global min/max for now.
       },
     );
 
@@ -363,16 +240,16 @@ class MedicineProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Helper to map Failure types to user-friendly messages
   String _mapFailureToMessage(Failure failure) {
-    // Add more specific messages based on Failure types later
     switch (failure.runtimeType) {
       case CacheFailure:
-        return 'خطأ في تحميل البيانات المحلية.';
-      case InitialLoadFailure: // Handle the new failure type
+        return 'خطأ في الوصول للبيانات المحلية.';
+      case InitialLoadFailure:
         return 'فشل تحميل البيانات الأولية. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
-      // case ServerFailure:
-      //   return 'خطأ في الاتصال بالخادم.';
+      case ServerFailure: // Added ServerFailure case
+        return 'خطأ في الاتصال بالخادم.';
+      case NetworkFailure: // Added NetworkFailure case
+        return 'خطأ في الشبكة. يرجى التحقق من اتصالك.';
       default:
         return 'حدث خطأ غير متوقع.';
     }
@@ -397,25 +274,14 @@ class MedicineProvider extends ChangeNotifier {
       }
     }
 
-    // Handle cases where no valid prices were found or min/max are illogical
     _minPrice = (min == double.maxFinite) ? 0 : min;
-    // Ensure max is at least min, provide a default range if max is still 0
     _maxPrice =
         (max == 0 || max < _minPrice)
-            ? (_minPrice > 900
-                ? _minPrice + 100
-                : 1000) // Add 100 if min is high, else default 1000
+            ? (_minPrice > 900 ? _minPrice + 100 : 1000)
             : max;
-    // Ensure max is strictly greater than min if they ended up equal
     if (_maxPrice <= _minPrice) {
-      _maxPrice = _minPrice + 1; // Add a small amount to max if equal to min
+      _maxPrice = _minPrice + 1;
     }
-
-    // Reset selected range if it's outside the new bounds (optional)
-    // if (_selectedPriceRange != null &&
-    //     (_selectedPriceRange!.start < _minPrice || _selectedPriceRange!.end > _maxPrice)) {
-    //   _selectedPriceRange = null; // Or RangeValues(_minPrice, _maxPrice);
-    // }
 
     if (kDebugMode) {
       print("Calculated Price Range: $_minPrice - $_maxPrice");
@@ -428,17 +294,15 @@ class MedicineProvider extends ChangeNotifier {
       return null;
     }
     try {
-      // Attempt common formats, add more if needed
       return DateFormat('yyyy-MM-dd').parseStrict(dateString);
     } catch (e) {
       try {
-        // Try another format if the first fails
         return DateFormat('dd/MM/yyyy').parseStrict(dateString);
       } catch (e2) {
         if (kDebugMode) {
           print("Could not parse date: $dateString - Error: $e2");
         }
-        return null; // Return null if parsing fails
+        return null;
       }
     }
   }
