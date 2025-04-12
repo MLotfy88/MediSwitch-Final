@@ -233,7 +233,9 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure all asynchronous singletons are ready (optional, but good practice)
-  await locator.allReady();
+  // Commenting out to see if it improves perceived startup time.
+  // Dependencies might not be ready immediately when accessed later.
+  // await locator.allReady();
 
   print("Service locator setup complete."); // Add a log to confirm setup
 }

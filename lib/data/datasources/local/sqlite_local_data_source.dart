@@ -69,6 +69,7 @@ class SqliteLocalDataSource {
     );
     if (count == 0) {
       print('Medicines table is empty. Seeding database from asset...');
+      final stopwatch = Stopwatch()..start(); // Start timer
       try {
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
         // Use compute for parsing large CSV even during seeding
@@ -79,7 +80,10 @@ class SqliteLocalDataSource {
           _prefsKeyLastUpdate,
           DateTime.now().millisecondsSinceEpoch,
         );
-        print('Database seeded successfully.');
+        stopwatch.stop(); // Stop timer
+        print(
+          'Database seeded successfully in ${stopwatch.elapsedMilliseconds}ms.',
+        );
       } catch (e) {
         print('Error seeding database from asset: $e');
         // Handle error appropriately - maybe delete DB and retry?

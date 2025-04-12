@@ -2,6 +2,7 @@
 
 import 'dart:convert'; // For jsonDecode
 import 'package:dartz/dartz.dart';
+import 'package:flutter/foundation.dart'; // For compute and kDebugMode
 import 'package:flutter/services.dart' show rootBundle; // For loading assets
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
@@ -11,11 +12,82 @@ import '../../domain/entities/interaction_type.dart'; // Import enum
 import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/entities/active_ingredient.dart'; // Import domain entity
 
-class InteractionRepositoryImpl implements InteractionRepository {
-  // TODO: Inject necessary data sources (e.g., InteractionLocalDataSource)
-  // final InteractionLocalDataSource localDataSource;
-  // InteractionRepositoryImpl({required this.localDataSource});
+// --- Data structure to pass data to and from the isolate ---
+class _ParseInteractionDataParams {
+  final String ingredientsJsonString;
+  final String interactionsJsonString;
+  final String medIngredientsJsonString;
 
+  _ParseInteractionDataParams({
+    required this.ingredientsJsonString,
+    required this.interactionsJsonString,
+    required this.medIngredientsJsonString,
+  });
+}
+
+class _ParsedInteractionData {
+  final List<ActiveIngredient> activeIngredients;
+  final List<DrugInteraction> allInteractions;
+  final Map<String, List<String>> medicineToIngredientsMap;
+
+  _ParsedInteractionData({
+    required this.activeIngredients,
+    required this.allInteractions,
+    required this.medicineToIngredientsMap,
+  });
+}
+
+// --- Top-level function for parsing in isolate ---
+_ParsedInteractionData _parseInteractionDataIsolate(
+  _ParseInteractionDataParams params,
+) {
+  // 1. Parse Active Ingredients
+  final List<dynamic> ingredientsJson =
+      jsonDecode(params.ingredientsJsonString) as List<dynamic>;
+  final activeIngredients =
+      ingredientsJson
+          .map(
+            (json) =>
+                _ActiveIngredientModel.fromJson(
+                  json as Map<String, dynamic>,
+                ).toEntity(),
+          )
+          .toList();
+
+  // 2. Parse Drug Interactions
+  final List<dynamic> interactionsJson =
+      jsonDecode(params.interactionsJsonString) as List<dynamic>;
+  final allInteractions =
+      interactionsJson
+          .map(
+            (json) =>
+                _DrugInteractionModel.fromJson(
+                  json as Map<String, dynamic>,
+                ).toEntity(),
+          )
+          .toList();
+
+  // 3. Parse Medicine to Ingredients Mapping
+  final Map<String, dynamic> medIngredientsJson =
+      jsonDecode(params.medIngredientsJsonString) as Map<String, dynamic>;
+  final medicineToIngredientsMap = medIngredientsJson.map((key, value) {
+    final ingredients =
+        (value as List<dynamic>?)
+            ?.map((e) => e.toString().toLowerCase().trim())
+            .toList() ??
+        [];
+    return MapEntry(key.toLowerCase().trim(), ingredients);
+  });
+
+  print('Isolate: Parsed interaction data successfully.');
+  return _ParsedInteractionData(
+    activeIngredients: activeIngredients,
+    allInteractions: allInteractions,
+    medicineToIngredientsMap: medicineToIngredientsMap,
+  );
+}
+
+class InteractionRepositoryImpl implements InteractionRepository {
   // Placeholder data stores (will be loaded from data source)
   List<DrugInteraction> _allInteractions = []; // Store parsed domain entities
   Map<String, List<String>> _medicineToIngredientsMap =
@@ -33,57 +105,31 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
     print('InteractionRepositoryImpl: Loading interaction data from assets...');
     try {
-      // 1. Load Active Ingredients
+      // Load JSON strings from assets
       final ingredientsJsonString = await rootBundle.loadString(
         'assets/data/active_ingredients.json',
       );
-      final List<dynamic> ingredientsJson =
-          jsonDecode(ingredientsJsonString) as List<dynamic>; // Cast result
-      _activeIngredients =
-          ingredientsJson
-              .map(
-                (json) =>
-                    _ActiveIngredientModel.fromJson(
-                      json as Map<String, dynamic>,
-                    ) // Cast element
-                    .toEntity(),
-              )
-              .toList();
-
-      // 2. Load Drug Interactions
       final interactionsJsonString = await rootBundle.loadString(
         'assets/data/drug_interactions.json',
       );
-      final List<dynamic> interactionsJson =
-          jsonDecode(interactionsJsonString) as List<dynamic>; // Cast result
-      _allInteractions =
-          interactionsJson
-              .map(
-                (json) =>
-                    _DrugInteractionModel.fromJson(
-                      json as Map<String, dynamic>,
-                    ) // Cast element
-                    .toEntity(),
-              )
-              .toList();
-
-      // 3. Load Medicine to Ingredients Mapping
       final medIngredientsJsonString = await rootBundle.loadString(
         'assets/data/medicine_ingredients.json',
       );
-      final Map<String, dynamic> medIngredientsJson =
-          jsonDecode(medIngredientsJsonString)
-              as Map<String, dynamic>; // Cast result
-      _medicineToIngredientsMap = medIngredientsJson.map((key, value) {
-        // Ensure keys are lowercase for consistent lookup
-        // Ensure values are List<String> and ingredients are lowercase
-        final ingredients =
-            (value as List<dynamic>?)
-                ?.map((e) => e.toString().toLowerCase().trim())
-                .toList() ??
-            [];
-        return MapEntry(key.toLowerCase().trim(), ingredients);
-      });
+
+      // Parse data in a separate isolate using compute
+      final parsedData = await compute(
+        _parseInteractionDataIsolate,
+        _ParseInteractionDataParams(
+          ingredientsJsonString: ingredientsJsonString,
+          interactionsJsonString: interactionsJsonString,
+          medIngredientsJsonString: medIngredientsJsonString,
+        ),
+      );
+
+      // Assign parsed data to internal state
+      _activeIngredients = parsedData.activeIngredients;
+      _allInteractions = parsedData.allInteractions;
+      _medicineToIngredientsMap = parsedData.medicineToIngredientsMap;
 
       _isDataLoaded = true; // Mark data as loaded
       print('InteractionRepositoryImpl: Interaction data loaded successfully.');
@@ -107,9 +153,8 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Future<Either<Failure, List<DrugInteraction>>> findInteractionsForMedicines(
     List<DrugEntity> medicines,
   ) async {
-    // TODO: Implement actual interaction finding logic
     print(
-      'InteractionRepositoryImpl: Finding interactions for ${medicines.length} medicines (Placeholder)...',
+      'InteractionRepositoryImpl: Finding interactions for ${medicines.length} medicines...',
     );
     // Ensure data is loaded before finding interactions
     if (!_isDataLoaded) {
@@ -141,12 +186,12 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
     try {
       List<DrugInteraction> foundInteractions = [];
-      List<String> medicineNames =
-          medicines.map((m) => m.tradeName.toLowerCase()).toList();
+      // Use lowercase trade names for lookup in the map
       List<List<String>> ingredientsList =
           medicines.map((m) {
-            // Attempt to get ingredients from map, default to parsing active field
-            return _medicineToIngredientsMap[m.tradeName.toLowerCase()] ??
+            return _medicineToIngredientsMap[m.tradeName
+                    .toLowerCase()
+                    .trim()] ??
                 _extractIngredientsFromString(m.active);
           }).toList();
 
@@ -158,25 +203,31 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
           // Check for interactions between each pair of ingredients
           for (final ing1 in ingredients1) {
-            final ing1Lower = ing1.toLowerCase().trim();
+            final ing1Lower =
+                ing1
+                    .toLowerCase()
+                    .trim(); // Already lowercase from map or extraction
             for (final ing2 in ingredients2) {
-              final ing2Lower = ing2.toLowerCase().trim();
-              // Find interactions in the loaded list
+              final ing2Lower = ing2.toLowerCase().trim(); // Already lowercase
+              // Find interactions in the loaded list (ingredients are already lowercase)
               foundInteractions.addAll(
                 _allInteractions.where(
                   (interaction) =>
-                      (interaction.ingredient1.toLowerCase() == ing1Lower &&
-                          interaction.ingredient2.toLowerCase() == ing2Lower) ||
-                      (interaction.ingredient1.toLowerCase() == ing2Lower &&
-                          interaction.ingredient2.toLowerCase() == ing1Lower),
+                      (interaction.ingredient1 == ing1Lower &&
+                          interaction.ingredient2 == ing2Lower) ||
+                      (interaction.ingredient1 == ing2Lower &&
+                          interaction.ingredient2 == ing1Lower),
                 ),
               );
             }
           }
         }
       }
+      // Remove duplicates (if an interaction A-B and B-A exists, though unlikely with standardized keys)
+      foundInteractions = foundInteractions.toSet().toList();
+
       print(
-        'InteractionRepositoryImpl: Found ${foundInteractions.length} interactions (Placeholder).',
+        'InteractionRepositoryImpl: Found ${foundInteractions.length} interactions.',
       );
       return Right(foundInteractions);
     } catch (e) {
@@ -186,11 +237,10 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   // Helper function to extract ingredients from the 'active' string if not found in map
-  // (Similar to logic in external source)
   List<String> _extractIngredientsFromString(String activeText) {
     final List<String> parts = activeText.split(RegExp(r'[,+]'));
     return parts
-        .map((part) => part.trim())
+        .map((part) => part.trim().toLowerCase()) // Standardize to lowercase
         .where((part) => part.isNotEmpty)
         .toList();
   }

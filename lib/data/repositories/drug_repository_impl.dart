@@ -38,6 +38,7 @@ class DrugRepositoryImpl implements DrugRepository {
       if (kDebugMode) print('Not connected, skipping update check.');
       return false;
     }
+    final stopwatch = Stopwatch()..start(); // Start timer
     try {
       if (kDebugMode) print('Checking for remote data updates...');
       final remoteVersionResult = await remoteDataSource.getLatestVersion();
@@ -67,6 +68,10 @@ class DrugRepositoryImpl implements DrugRepository {
     } catch (e) {
       if (kDebugMode) print('Error during update check: $e. Not updating.');
       return false;
+    } finally {
+      stopwatch.stop();
+      if (kDebugMode)
+        print('Update check took ${stopwatch.elapsedMilliseconds}ms.');
     }
   }
 
@@ -76,6 +81,7 @@ class DrugRepositoryImpl implements DrugRepository {
       if (kDebugMode) print('Not connected, cannot download remote data.');
       throw NetworkFailure(); // Throw specific failure
     }
+    final stopwatch = Stopwatch()..start(); // Start timer
     try {
       if (kDebugMode) print('Downloading latest data from remote source...');
       final downloadResult = await remoteDataSource.downloadLatestData();
@@ -102,6 +108,12 @@ class DrugRepositoryImpl implements DrugRepository {
       } else {
         throw ServerFailure();
       }
+    } finally {
+      stopwatch.stop();
+      if (kDebugMode)
+        print(
+          'Remote data download/save took ${stopwatch.elapsedMilliseconds}ms.',
+        );
     }
   }
 
