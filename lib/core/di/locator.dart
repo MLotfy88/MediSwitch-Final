@@ -58,12 +58,21 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
   // --- Core ---
-  // Register DatabaseHelper as a singleton
-  locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper());
+  // Register DatabaseHelper as a singleton and wait for it
+  locator.registerSingletonAsync<DatabaseHelper>(() async {
+    final helper = DatabaseHelper();
+    // Initialize the database upon registration
+    await helper.database;
+    return helper;
+  });
+  // locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper()); // Removed duplicate registration
 
   // --- Data Sources ---
-  // Wait for SharedPreferences to be ready before registering dependent sources
-  await locator.isReady<SharedPreferences>();
+  // Wait for SharedPreferences AND DatabaseHelper to be ready
+  await Future.wait([
+    locator.isReady<SharedPreferences>(),
+    locator.isReady<DatabaseHelper>(),
+  ]);
 
   locator.registerLazySingleton<DrugRemoteDataSource>(() {
     const backendUrl = String.fromEnvironment(
@@ -223,8 +232,8 @@ Future<void> setupLocator() async {
   // Register SubscriptionProvider as a Singleton since it manages background listeners
   locator.registerLazySingleton(() => SubscriptionProvider());
 
-  // Ensure all asynchronous singletons are ready
-  // await locator.allReady(); // Not strictly necessary if using isReady<SharedPreferences> above
+  // Ensure all asynchronous singletons are ready (optional, but good practice)
+  await locator.allReady();
 
   print("Service locator setup complete."); // Add a log to confirm setup
 }
