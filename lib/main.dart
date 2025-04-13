@@ -19,34 +19,19 @@ Future<void> main() async {
 
   // --- Setup only necessary parts for this test ---
   // We need SharedPreferences for SettingsProvider and onboarding check
-  locator.registerSingletonAsync<SharedPreferences>(() async {
-    return await SharedPreferences.getInstance();
-  });
-  // Register necessary providers for this test
-  locator.registerFactory(() => SettingsProvider());
-  // Need to register dependencies for MedicineProvider too
-  // (Assuming locator setup for DrugRepository and its dependencies is re-enabled)
-  if (!locator.isRegistered<MedicineProvider>()) {
-    // Check if already registered (e.g., from full setup)
-    // Need to ensure DrugRepository and its dependencies are registered first
-    // This might require re-enabling parts of the full setupLocator
-    // For now, let's assume they are registered if we uncomment the full setup call later
-    // locator.registerFactory(() => MedicineProvider(...)); // Placeholder
-    print(
-      "WARNING: MedicineProvider not registered in minimal setup. App might crash.",
-    );
-  }
+  // Also need dependencies for MedicineProvider
+  await setupLocator(); // Use the partially re-enabled locator
 
-  await locator.isReady<SharedPreferences>();
   // --- End of minimal setup ---
 
-  // --- Temporarily bypass onboarding check and show OnboardingScreen directly ---
-  // final prefs = await locator.getAsync<SharedPreferences>();
-  // final bool onboardingComplete = prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-  // final Widget initialScreen = onboardingComplete ? const MainScreen() : const OnboardingScreen();
-  const Widget initialScreen =
-      OnboardingScreen(); // Directly set OnboardingScreen
-  // --- End of bypass ---
+  // Check if onboarding is complete (needs SharedPreferences)
+  final prefs = await locator.getAsync<SharedPreferences>();
+  final bool onboardingComplete =
+      prefs.getBool(_prefsKeyOnboardingDone) ?? false;
+
+  // Determine the initial screen
+  final Widget initialScreen =
+      onboardingComplete ? const MainScreen() : const OnboardingScreen();
 
   // --- Seeding remains disabled ---
   print("INFO: Database seeding is temporarily disabled for testing.");
@@ -54,7 +39,7 @@ Future<void> main() async {
   // --- Subscription init remains disabled ---
   // locator<SubscriptionProvider>().initialize();
 
-  // Run the app with SettingsProvider and MedicineProvider (if registered)
+  // Run the app with SettingsProvider and MedicineProvider
   runApp(MyAppMinimal(homeWidget: initialScreen));
 }
 
@@ -70,9 +55,9 @@ class MyAppMinimal extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => locator<SettingsProvider>()),
-        // Attempt to provide MedicineProvider - this will fail if not registered in locator
-        if (locator.isRegistered<MedicineProvider>())
-          ChangeNotifierProvider(create: (_) => locator<MedicineProvider>()),
+        ChangeNotifierProvider(
+          create: (_) => locator<MedicineProvider>(),
+        ), // Re-enable MedicineProvider
         // --- Other providers remain commented out ---
         // ChangeNotifierProvider(create: (_) => locator<AlternativesProvider>()),
         // ChangeNotifierProvider(create: (_) => locator<DoseCalculatorProvider>()),
@@ -91,7 +76,7 @@ class MyAppMinimal extends StatelessWidget {
           // Build the app once settings are loaded
           // Use a basic theme for now
           return MaterialApp(
-            title: 'MediSwitch (Onboarding Test)', // Updated title
+            title: 'MediSwitch (MedicineProvider Test)', // Updated title
             debugShowCheckedModeBanner: false,
             themeMode: settingsProvider.themeMode,
             theme: ThemeData.light(useMaterial3: true).copyWith(
@@ -105,7 +90,7 @@ class MyAppMinimal extends StatelessWidget {
               ),
             ),
             locale: settingsProvider.locale,
-            home: homeWidget, // Show OnboardingScreen
+            home: homeWidget, // Show OnboardingScreen or MainScreen
           );
         },
       ),
