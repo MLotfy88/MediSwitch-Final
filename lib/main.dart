@@ -70,7 +70,8 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (_) => locator<DoseCalculatorProvider>(),
         ),
-        ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
+        // Temporarily disable InteractionProvider
+        // ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
         // Keep SubscriptionProvider commented out if disabled in locator
         // ChangeNotifierProvider(create: (_) => locator<SubscriptionProvider>()),
       ],
