@@ -9,8 +9,8 @@ import 'presentation/bloc/settings_provider.dart'; // Re-enable SettingsProvider
 // import 'presentation/bloc/dose_calculator_provider.dart'; // Keep disabled
 // import 'presentation/bloc/interaction_provider.dart'; // Keep disabled
 // import 'presentation/bloc/subscription_provider.dart'; // Keep disabled
-import 'presentation/screens/main_screen.dart'; // Keep disabled for now
-import 'presentation/screens/onboarding_screen.dart'; // Keep disabled for now
+import 'presentation/screens/main_screen.dart'; // Re-enable MainScreen
+import 'presentation/screens/onboarding_screen.dart'; // Re-enable OnboardingScreen
 
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
 
@@ -25,17 +25,12 @@ Future<void> main() async {
   await locator.isReady<SharedPreferences>();
   // --- End of minimal setup ---
 
-  // --- Temporarily bypass onboarding/main screen logic ---
+  // --- Temporarily bypass onboarding check and show OnboardingScreen directly ---
   // final prefs = await locator.getAsync<SharedPreferences>();
   // final bool onboardingComplete = prefs.getBool(_prefsKeyOnboardingDone) ?? false;
   // final Widget initialScreen = onboardingComplete ? const MainScreen() : const OnboardingScreen();
-  final Widget testScreen = Scaffold(
-    // Removed const from variable declaration
-    appBar: AppBar(
-      title: const Text("Minimal Home Test"),
-    ), // Removed const from AppBar, added to Text
-    body: Center(child: Text("MyAppMinimal Running with Test Screen")),
-  );
+  const Widget initialScreen =
+      OnboardingScreen(); // Directly set OnboardingScreen
   // --- End of bypass ---
 
   // --- Seeding remains disabled ---
@@ -44,10 +39,8 @@ Future<void> main() async {
   // --- Subscription init remains disabled ---
   // locator<SubscriptionProvider>().initialize();
 
-  // Run the app with only SettingsProvider and the simple test screen
-  runApp(
-    MyAppMinimal(homeWidget: testScreen),
-  ); // Use MyAppMinimal with testScreen
+  // Run the app with only SettingsProvider and OnboardingScreen
+  runApp(MyAppMinimal(homeWidget: initialScreen));
 }
 
 // Restore MyAppMinimal structure
@@ -73,7 +66,7 @@ class MyAppMinimal extends StatelessWidget {
           // Build the app once settings are loaded
           // Use a basic theme for now
           return MaterialApp(
-            title: 'MediSwitch (Minimal Test)',
+            title: 'MediSwitch (Onboarding Test)', // Updated title
             debugShowCheckedModeBanner: false,
             themeMode: settingsProvider.themeMode,
             theme: ThemeData.light(useMaterial3: true).copyWith(
@@ -87,7 +80,7 @@ class MyAppMinimal extends StatelessWidget {
               ),
             ),
             locale: settingsProvider.locale,
-            home: homeWidget, // Use the passed simple test screen
+            home: homeWidget, // Show OnboardingScreen
           );
         },
       ),
