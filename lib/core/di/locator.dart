@@ -12,42 +12,42 @@ import '../database/database_helper.dart'; // Import DatabaseHelper
 // import '../../data/datasources/local/csv_local_data_source.dart'; // Removed CSV
 import '../../data/datasources/local/sqlite_local_data_source.dart'; // Import SQLite
 import '../../data/datasources/remote/drug_remote_data_source.dart';
-import '../../data/datasources/local/interaction_local_data_source.dart';
-import '../../data/datasources/remote/config_remote_data_source.dart'; // Import Config Remote DS
-import '../../data/datasources/remote/analytics_remote_data_source.dart'; // Import Analytics Remote DS
+import '../../data/datasources/local/interaction_local_data_source.dart'; // Keep disabled for now
+import '../../data/datasources/remote/config_remote_data_source.dart'; // Keep disabled
+import '../../data/datasources/remote/analytics_remote_data_source.dart'; // Keep disabled
 // Repositories
 import '../../data/repositories/drug_repository_impl.dart';
-import '../../data/repositories/interaction_repository_impl.dart';
+import '../../data/repositories/interaction_repository_impl.dart'; // Keep disabled
 import '../../domain/repositories/drug_repository.dart';
-import '../../domain/repositories/interaction_repository.dart';
-import '../../domain/repositories/config_repository.dart'; // Import Config Repo
-import '../../data/repositories/config_repository_impl.dart'; // Import Config Repo Impl
-import '../../domain/repositories/analytics_repository.dart'; // Import Analytics Repo
-import '../../data/repositories/analytics_repository_impl.dart'; // Import Analytics Repo Impl
+import '../../domain/repositories/interaction_repository.dart'; // Keep disabled
+import '../../domain/repositories/config_repository.dart'; // Keep disabled
+import '../../data/repositories/config_repository_impl.dart'; // Keep disabled
+import '../../domain/repositories/analytics_repository.dart'; // Keep disabled
+import '../../data/repositories/analytics_repository_impl.dart'; // Keep disabled
 // Use Cases
 import '../../domain/usecases/get_all_drugs.dart';
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
-import '../../domain/usecases/find_drug_alternatives.dart';
-import '../../domain/usecases/load_interaction_data.dart';
-import '../../domain/usecases/get_admob_config.dart'; // Import Config Use Cases
-import '../../domain/usecases/get_general_config.dart';
-import '../../domain/usecases/get_last_update_timestamp.dart'; // Import GetLastUpdateTimestampUseCase
-import '../../domain/usecases/get_analytics_summary.dart'; // Import Analytics Use Case
+import '../../domain/usecases/find_drug_alternatives.dart'; // Keep disabled
+import '../../domain/usecases/load_interaction_data.dart'; // Keep disabled
+import '../../domain/usecases/get_admob_config.dart'; // Keep disabled
+import '../../domain/usecases/get_general_config.dart'; // Keep disabled
+import '../../domain/usecases/get_last_update_timestamp.dart';
+import '../../domain/usecases/get_analytics_summary.dart'; // Keep disabled
 // Services
-import '../../domain/services/dosage_calculator_service.dart';
-import '../../domain/services/interaction_checker_service.dart';
-import '../../domain/services/analytics_service.dart'; // Import Analytics Service interface
-import '../../data/services/analytics_service_impl.dart'; // Import Analytics Service impl
-import '../../presentation/services/ad_service.dart'; // Import AdService
+import '../../domain/services/dosage_calculator_service.dart'; // Keep disabled
+import '../../domain/services/interaction_checker_service.dart'; // Keep disabled
+import '../../domain/services/analytics_service.dart'; // Keep disabled
+import '../../data/services/analytics_service_impl.dart'; // Keep disabled
+import '../../presentation/services/ad_service.dart'; // Keep disabled
 // Providers / Blocs
 import '../../presentation/bloc/medicine_provider.dart';
-import '../../presentation/bloc/alternatives_provider.dart';
-import '../../presentation/bloc/dose_calculator_provider.dart';
-import '../../presentation/bloc/interaction_provider.dart';
+import '../../presentation/bloc/alternatives_provider.dart'; // Keep disabled
+import '../../presentation/bloc/dose_calculator_provider.dart'; // Keep disabled
+import '../../presentation/bloc/interaction_provider.dart'; // Keep disabled
 import '../../presentation/bloc/settings_provider.dart';
-import '../../presentation/bloc/subscription_provider.dart'; // Import Subscription Provider
+import '../../presentation/bloc/subscription_provider.dart'; // Keep disabled
 
 // Global Service Locator instance
 final locator = GetIt.instance;
@@ -60,7 +60,6 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
   // --- Core ---
-  // Re-enable DB Helper registration
   locator.registerSingletonAsync<DatabaseHelper>(() async {
     final helper = DatabaseHelper();
     await helper.database; // Initialize DB
@@ -68,13 +67,12 @@ Future<void> setupLocator() async {
   });
 
   // --- Data Sources ---
-  // Wait for SharedPreferences AND DatabaseHelper to be ready
   await Future.wait([
     locator.isReady<SharedPreferences>(),
     locator.isReady<DatabaseHelper>(),
   ]);
 
-  // Re-enable necessary Data Sources
+  // Re-enable Drug DataSources
   locator.registerLazySingleton<DrugRemoteDataSource>(() {
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
@@ -88,16 +86,13 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<SqliteLocalDataSource>(
     () => SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>()),
   );
-  // Temporarily disable InteractionLocalDataSource
-  // locator.registerLazySingleton<InteractionLocalDataSource>(
-  //   () => InteractionLocalDataSourceImpl(),
-  // );
-  // Keep others disabled for now if not strictly needed for startup
+  // Keep others disabled
+  // locator.registerLazySingleton<InteractionLocalDataSource>(() => InteractionLocalDataSourceImpl());
   // locator.registerLazySingleton<ConfigRemoteDataSource>(() => ...);
   // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() => ...);
 
   // --- Repositories ---
-  // Re-enable necessary Repositories
+  // Re-enable Drug Repository
   locator.registerLazySingleton<DrugRepository>(
     () => DrugRepositoryImpl(
       remoteDataSource: locator<DrugRemoteDataSource>(),
@@ -105,16 +100,13 @@ Future<void> setupLocator() async {
       // isConnected: true, // Keep update check disabled for now
     ),
   );
-  // Temporarily disable InteractionRepository
-  // locator.registerLazySingleton<InteractionRepository>(
-  //   () => InteractionRepositoryImpl(),
-  // );
   // Keep others disabled
+  // locator.registerLazySingleton<InteractionRepository>(() => InteractionRepositoryImpl());
   // locator.registerLazySingleton<ConfigRepository>(() => ...);
   // locator.registerLazySingleton<AnalyticsRepository>(() => ...);
 
   // --- Use Cases ---
-  // Re-enable necessary Use Cases
+  // Re-enable Drug Use Cases
   locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
   locator.registerLazySingleton(
     () => SearchDrugsUseCase(locator<DrugRepository>()),
@@ -126,31 +118,24 @@ Future<void> setupLocator() async {
     () => GetAvailableCategoriesUseCase(locator<DrugRepository>()),
   );
   locator.registerLazySingleton(
-    () => FindDrugAlternativesUseCase(locator<DrugRepository>()),
-  );
-  // Temporarily disable LoadInteractionData Use Case
-  // locator.registerLazySingleton(
-  //   () => LoadInteractionData(locator<InteractionRepository>()),
-  // );
-  locator.registerLazySingleton(
     () => GetLastUpdateTimestampUseCase(locator<DrugRepository>()),
   );
   // Keep others disabled
+  // locator.registerLazySingleton(() => FindDrugAlternativesUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => LoadInteractionData(locator<InteractionRepository>()));
   // locator.registerLazySingleton(() => GetAdMobConfig(locator<ConfigRepository>()));
   // locator.registerLazySingleton(() => GetGeneralConfig(locator<ConfigRepository>()));
   // locator.registerLazySingleton(() => GetAnalyticsSummary(locator<AnalyticsRepository>()));
 
   // --- Services ---
-  // Re-enable necessary Services
-  locator.registerLazySingleton(() => DosageCalculatorService());
-  // Temporarily disable InteractionCheckerService
+  // Keep disabled for now
+  // locator.registerLazySingleton(() => DosageCalculatorService());
   // locator.registerLazySingleton(() => InteractionCheckerService());
-  locator.registerLazySingleton(() => AdService()); // Register AdService
-  // Keep others disabled
+  // locator.registerLazySingleton(() => AdService());
   // locator.registerLazySingleton<AnalyticsService>(() { ... });
 
   // --- Providers / Blocs ---
-  // Re-enable necessary Providers
+  // Re-enable MedicineProvider
   locator.registerFactory(
     () => MedicineProvider(
       getAllDrugsUseCase: locator<GetAllDrugs>(),
@@ -158,48 +143,30 @@ Future<void> setupLocator() async {
       filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
       getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
-      // Provide a dummy GetAnalyticsSummary if AnalyticsRepository is not registered
-      getAnalyticsSummaryUseCase:
-          locator.isRegistered<AnalyticsRepository>()
-              ? GetAnalyticsSummary(locator<AnalyticsRepository>())
-              : GetAnalyticsSummary(
-                DummyAnalyticsRepository(),
-              ), // Use Dummy for now
+      // Provide a dummy GetAnalyticsSummary as AnalyticsRepository is disabled
+      getAnalyticsSummaryUseCase: GetAnalyticsSummary(
+        DummyAnalyticsRepository(),
+      ),
     ),
   );
-  locator.registerFactory(
-    () => AlternativesProvider(
-      findDrugAlternativesUseCase: locator<FindDrugAlternativesUseCase>(),
-    ),
-  );
-  locator.registerFactory(
-    () => DoseCalculatorProvider(
-      dosageCalculatorService: locator<DosageCalculatorService>(),
-    ),
-  );
-  // Temporarily disable InteractionProvider
-  // locator.registerFactory(
-  //   () => InteractionProvider(
-  //     interactionRepository: locator<InteractionRepository>(),
-  //     interactionCheckerService: locator<InteractionCheckerService>(),
-  //   ),
-  // );
-  // Keep SettingsProvider enabled
-  locator.registerFactory(() => SettingsProvider());
-  // Keep SubscriptionProvider disabled for now
+  // Keep others disabled
+  // locator.registerFactory(() => AlternativesProvider(...));
+  // locator.registerFactory(() => DoseCalculatorProvider(...));
+  // locator.registerFactory(() => InteractionProvider(...));
+  locator.registerFactory(() => SettingsProvider()); // Keep SettingsProvider
   // locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure essential async singletons are ready before proceeding
-  await locator.allReady(); // Re-enable
+  // await locator.allReady(); // Keep commented out
 
-  print("Service locator setup complete (partially re-enabled).");
+  print("Service locator setup complete (Drug dependencies re-enabled).");
 }
 
 // Dummy implementation if AnalyticsRepository is disabled
 class DummyAnalyticsRepository implements AnalyticsRepository {
   @override
   Future<Either<Failure, AnalyticsSummary>> getAnalyticsSummary() async {
-    // Return default empty summary - Corrected parameter name
+    // Return default empty summary
     return Right(
       AnalyticsSummary(topSearchQueries: []),
     ); // Only topSearchQueries exists

@@ -3,7 +3,7 @@ import 'package:provider/provider.dart'; // Re-enable provider
 import 'package:shared_preferences/shared_preferences.dart'; // Re-enable SharedPreferences
 import 'core/di/locator.dart'; // Re-enable locator
 // import 'data/datasources/local/sqlite_local_data_source.dart'; // Keep disabled
-// import 'presentation/bloc/medicine_provider.dart'; // Keep disabled for now
+import 'presentation/bloc/medicine_provider.dart'; // Re-enable MedicineProvider
 import 'presentation/bloc/settings_provider.dart'; // Re-enable SettingsProvider
 // import 'presentation/bloc/alternatives_provider.dart'; // Keep disabled
 // import 'presentation/bloc/dose_calculator_provider.dart'; // Keep disabled
@@ -18,10 +18,25 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // --- Setup only necessary parts for this test ---
+  // We need SharedPreferences for SettingsProvider and onboarding check
   locator.registerSingletonAsync<SharedPreferences>(() async {
     return await SharedPreferences.getInstance();
   });
+  // Register necessary providers for this test
   locator.registerFactory(() => SettingsProvider());
+  // Need to register dependencies for MedicineProvider too
+  // (Assuming locator setup for DrugRepository and its dependencies is re-enabled)
+  if (!locator.isRegistered<MedicineProvider>()) {
+    // Check if already registered (e.g., from full setup)
+    // Need to ensure DrugRepository and its dependencies are registered first
+    // This might require re-enabling parts of the full setupLocator
+    // For now, let's assume they are registered if we uncomment the full setup call later
+    // locator.registerFactory(() => MedicineProvider(...)); // Placeholder
+    print(
+      "WARNING: MedicineProvider not registered in minimal setup. App might crash.",
+    );
+  }
+
   await locator.isReady<SharedPreferences>();
   // --- End of minimal setup ---
 
@@ -39,7 +54,7 @@ Future<void> main() async {
   // --- Subscription init remains disabled ---
   // locator<SubscriptionProvider>().initialize();
 
-  // Run the app with only SettingsProvider and OnboardingScreen
+  // Run the app with SettingsProvider and MedicineProvider (if registered)
   runApp(MyAppMinimal(homeWidget: initialScreen));
 }
 
@@ -51,9 +66,19 @@ class MyAppMinimal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Only provide SettingsProvider for this test
-    return ChangeNotifierProvider(
-      create: (_) => locator<SettingsProvider>(),
+    // Provide SettingsProvider and MedicineProvider
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => locator<SettingsProvider>()),
+        // Attempt to provide MedicineProvider - this will fail if not registered in locator
+        if (locator.isRegistered<MedicineProvider>())
+          ChangeNotifierProvider(create: (_) => locator<MedicineProvider>()),
+        // --- Other providers remain commented out ---
+        // ChangeNotifierProvider(create: (_) => locator<AlternativesProvider>()),
+        // ChangeNotifierProvider(create: (_) => locator<DoseCalculatorProvider>()),
+        // ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
+        // ChangeNotifierProvider(create: (_) => locator<SubscriptionProvider>()),
+      ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
           // Show loading indicator until settings are loaded
