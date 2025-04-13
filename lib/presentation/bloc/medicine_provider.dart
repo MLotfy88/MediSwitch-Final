@@ -79,43 +79,36 @@ class MedicineProvider extends ChangeNotifier {
 
   // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
+    print("MedicineProvider: loadInitialData called (Simplified for testing)");
     _isLoading = true;
     _error = '';
+    // Notify immediately to show loading indicator
+    // Use WidgetsBinding to ensure notifyListeners is called safely if called from constructor
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (isLoading) {
+        // Check if still loading (might have finished quickly)
+        notifyListeners();
+      }
+    });
+
+    // --- Temporarily Disable All Data Loading for Performance Testing ---
+    // final updateResult = await getAllDrugsUseCase(NoParams());
+    // await _loadCategories();
+    // await _loadAndUpdateTimestamp();
+    // await _applyFilters(); // This fetches initial 50 drugs
+
+    // updateResult.fold( ... );
+    // --- End of Temporarily Disabled Code ---
+
+    // Simulate finishing loading after a short delay
+    await Future.delayed(const Duration(milliseconds: 100)); // Small delay
+
+    _isLoading = false;
+    _filteredMedicines = []; // Ensure list is empty initially
+    _categories = []; // Ensure categories are empty
+    _error = ''; // Ensure no error message
     notifyListeners();
-
-    // Trigger update check (getAllDrugs in repo now handles this)
-    // We don't need the result list here anymore.
-    final updateResult = await getAllDrugsUseCase(NoParams());
-
-    // Regardless of update success/failure, load categories and timestamp
-    // If update failed, subsequent fetches will use potentially stale local data
-    await _loadCategories();
-    await _loadAndUpdateTimestamp();
-    // TODO: Calculate price range based on a query or initial sample?
-    // For now, keep default range until first filter/search.
-
-    // Apply initial filters (which might be empty, fetching initial view)
-    await _applyFilters();
-
-    // Handle potential failure from the update check *after* attempting initial filter/load
-    updateResult.fold(
-      (failure) {
-        // Show error but keep potentially loaded data from cache
-        _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
-        print(_error);
-        // Don't set isLoading = false here, _applyFilters does it
-        // notifyListeners(); // _applyFilters already notified
-      },
-      (_) {
-        // Update successful or not needed, state already handled by _applyFilters
-      },
-    );
-
-    // Ensure loading is set to false if not already done by _applyFilters
-    if (_isLoading) {
-      _isLoading = false;
-      notifyListeners();
-    }
+    print("MedicineProvider: loadInitialData finished (Simplified)");
   }
 
   Future<void> _loadCategories() async {
