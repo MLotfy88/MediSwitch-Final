@@ -1,6 +1,9 @@
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:dartz/dartz.dart'; // Import dartz for Either, Right, unit
+import '../error/failures.dart'; // Import Failure base class
+import '../../core/usecases/usecase.dart'; // Import NoParams if needed by use cases
 
 // Database Helper
 import '../database/database_helper.dart'; // Import DatabaseHelper
@@ -50,77 +53,159 @@ final locator = GetIt.instance;
 
 Future<void> setupLocator() async {
   // --- External Dependencies ---
-  // Register SharedPreferences as a singleton Future
   locator.registerSingletonAsync<SharedPreferences>(() async {
     return await SharedPreferences.getInstance();
   });
-  // Register http Client as a factory (or singleton if preferred)
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
   // --- Core ---
-  // Temporarily disable DB Helper registration
-  // locator.registerSingletonAsync<DatabaseHelper>(() async {
-  //    final helper = DatabaseHelper();
-  //    await helper.database;
-  //    return helper;
-  // });
+  // Re-enable DB Helper registration
+  locator.registerSingletonAsync<DatabaseHelper>(() async {
+    final helper = DatabaseHelper();
+    await helper.database; // Initialize DB
+    return helper;
+  });
+
   // --- Data Sources ---
-  // Wait only for SharedPreferences for now
-  await locator.isReady<SharedPreferences>();
-  // await Future.wait([
-  //    locator.isReady<SharedPreferences>(),
-  //    locator.isReady<DatabaseHelper>(),
-  // ]);
+  // Wait for SharedPreferences AND DatabaseHelper to be ready
+  await Future.wait([
+    locator.isReady<SharedPreferences>(),
+    locator.isReady<DatabaseHelper>(),
+  ]);
 
-  // --- Temporarily Disable Most Registrations ---
-  print("INFO: Temporarily disabling most locator registrations for testing.");
-
-  // locator.registerLazySingleton<DrugRemoteDataSource>(() { ... });
-  // locator.registerLazySingleton<ConfigRemoteDataSource>(() { ... });
-  // locator.registerLazySingleton<SqliteLocalDataSource>(() => ...);
-  // locator.registerLazySingleton<InteractionLocalDataSource>(() => ...);
-  // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() { ... });
+  // Re-enable necessary Data Sources
+  locator.registerLazySingleton<DrugRemoteDataSource>(() {
+    const backendUrl = String.fromEnvironment(
+      'BACKEND_URL',
+      defaultValue: 'http://localhost:8000',
+    );
+    return DrugRemoteDataSourceImpl(
+      baseUrl: backendUrl,
+      client: locator<http.Client>(),
+    );
+  });
+  locator.registerLazySingleton<SqliteLocalDataSource>(
+    () => SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>()),
+  );
+  locator.registerLazySingleton<InteractionLocalDataSource>(
+    () => InteractionLocalDataSourceImpl(),
+  );
+  // Keep others disabled for now if not strictly needed for startup
+  // locator.registerLazySingleton<ConfigRemoteDataSource>(() => ...);
+  // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() => ...);
 
   // --- Repositories ---
-  // locator.registerLazySingleton<DrugRepository>(() => ...);
+  // Re-enable necessary Repositories
+  locator.registerLazySingleton<DrugRepository>(
+    () => DrugRepositoryImpl(
+      remoteDataSource: locator<DrugRemoteDataSource>(),
+      localDataSource: locator<SqliteLocalDataSource>(),
+      // isConnected: true, // Keep update check disabled for now
+    ),
+  );
+  locator.registerLazySingleton<InteractionRepository>(
+    () => InteractionRepositoryImpl(),
+  );
+  // Keep others disabled
   // locator.registerLazySingleton<ConfigRepository>(() => ...);
-  // locator.registerLazySingleton<InteractionRepository>(() => ...);
   // locator.registerLazySingleton<AnalyticsRepository>(() => ...);
 
   // --- Use Cases ---
-  // locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
-  // locator.registerLazySingleton(() => SearchDrugsUseCase(locator<DrugRepository>()));
-  // locator.registerLazySingleton(() => FilterDrugsByCategoryUseCase(locator<DrugRepository>()));
-  // locator.registerLazySingleton(() => GetAvailableCategoriesUseCase(locator<DrugRepository>()));
-  // locator.registerLazySingleton(() => FindDrugAlternativesUseCase(locator<DrugRepository>()));
-  // locator.registerLazySingleton(() => LoadInteractionData(locator<InteractionRepository>()));
-  // locator.registerLazySingleton(() => GetLastUpdateTimestampUseCase(locator<DrugRepository>()));
+  // Re-enable necessary Use Cases
+  locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
+  locator.registerLazySingleton(
+    () => SearchDrugsUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => FilterDrugsByCategoryUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => GetAvailableCategoriesUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => FindDrugAlternativesUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => LoadInteractionData(locator<InteractionRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => GetLastUpdateTimestampUseCase(locator<DrugRepository>()),
+  );
+  // Keep others disabled
   // locator.registerLazySingleton(() => GetAdMobConfig(locator<ConfigRepository>()));
   // locator.registerLazySingleton(() => GetGeneralConfig(locator<ConfigRepository>()));
   // locator.registerLazySingleton(() => GetAnalyticsSummary(locator<AnalyticsRepository>()));
 
   // --- Services ---
-  // locator.registerLazySingleton(() => DosageCalculatorService());
-  // locator.registerLazySingleton(() => InteractionCheckerService());
+  // Re-enable necessary Services
+  locator.registerLazySingleton(() => DosageCalculatorService());
+  locator.registerLazySingleton(() => InteractionCheckerService());
+  // Keep others disabled
   // locator.registerLazySingleton<AnalyticsService>(() { ... });
+
   // --- Providers / Blocs ---
-  // Register providers as Factories
-  // Temporarily disable providers that depend on disabled components
-  // locator.registerFactory(() => MedicineProvider(...));
-  // locator.registerFactory(() => AlternativesProvider(...));
-  // locator.registerFactory(() => DoseCalculatorProvider(...));
-  // locator.registerFactory(() => InteractionProvider(...));
-
-  // Keep SettingsProvider as it's needed by MyApp and only depends on SharedPreferences
+  // Re-enable necessary Providers
+  locator.registerFactory(
+    () => MedicineProvider(
+      getAllDrugsUseCase: locator<GetAllDrugs>(),
+      searchDrugsUseCase: locator<SearchDrugsUseCase>(),
+      filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
+      getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
+      getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
+      // Provide a dummy GetAnalyticsSummary if AnalyticsRepository is not registered
+      // We need GetAnalyticsSummary use case, so let's register its dependencies too
+      // Re-enable Analytics Repo and DS if needed by GetAnalyticsSummary
+      getAnalyticsSummaryUseCase:
+          locator.isRegistered<AnalyticsRepository>()
+              ? GetAnalyticsSummary(locator<AnalyticsRepository>())
+              : GetAnalyticsSummary(
+                DummyAnalyticsRepository(),
+              ), // Use Dummy for now
+    ),
+  );
+  locator.registerFactory(
+    () => AlternativesProvider(
+      findDrugAlternativesUseCase: locator<FindDrugAlternativesUseCase>(),
+    ),
+  );
+  locator.registerFactory(
+    () => DoseCalculatorProvider(
+      dosageCalculatorService: locator<DosageCalculatorService>(),
+    ),
+  );
+  locator.registerFactory(
+    () => InteractionProvider(
+      interactionRepository: locator<InteractionRepository>(),
+      interactionCheckerService: locator<InteractionCheckerService>(),
+    ),
+  );
+  // Keep SettingsProvider enabled
   locator.registerFactory(() => SettingsProvider());
-
-  // Temporarily disable SubscriptionProvider
+  // Keep SubscriptionProvider disabled for now
   // locator.registerLazySingleton(() => SubscriptionProvider());
 
-  // Ensure all asynchronous singletons are ready (optional, but good practice)
-  // Commenting out to see if it improves perceived startup time.
-  // Dependencies might not be ready immediately when accessed later.
-  // await locator.allReady();
+  // Ensure essential async singletons are ready before proceeding
+  // await locator.allReady(); // Keep commented out for now
 
-  print("Service locator setup complete."); // Add a log to confirm setup
+  print("Service locator setup complete (partially re-enabled).");
+}
+
+// Dummy implementation if AnalyticsRepository is disabled
+class DummyAnalyticsRepository implements AnalyticsRepository {
+  @override
+  Future<Either<Failure, AnalyticsSummary>> getAnalyticsSummary() async {
+    // Return default empty summary - Corrected parameter name
+    return Right(
+      AnalyticsSummary(topSearchQueries: []),
+    ); // Only topSearchQueries exists
+  }
+
+  @override
+  Future<Either<Failure, Unit>> logEvent(
+    String eventName, {
+    Map<String, dynamic>? data,
+  }) async {
+    // Do nothing
+    return const Right(unit);
+  }
 }
