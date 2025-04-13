@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart'; // Re-enable provider
 import 'package:url_launcher/url_launcher.dart'; // Re-enable url_launcher
 import '../bloc/settings_provider.dart'; // Re-enable SettingsProvider
-// import '../bloc/medicine_provider.dart'; // Keep disabled for now
+import '../bloc/medicine_provider.dart'; // Re-enable MedicineProvider
 import '../widgets/section_header.dart'; // Re-enable SectionHeader import
 import '../widgets/settings_list_tile.dart'; // Re-enable SettingsListTile import
 import '../screens/subscription_screen.dart'; // Import SubscriptionScreen
@@ -12,8 +12,10 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Restore Original Build Logic
     final settingsProvider = context.watch<SettingsProvider>();
-    // final medicineProvider = context.watch<MedicineProvider>(); // Keep disabled
+    final medicineProvider =
+        context.watch<MedicineProvider>(); // Re-enable MedicineProvider access
     final theme = Theme.of(context);
     final textTheme = theme.textTheme;
     final colorScheme = theme.colorScheme;
@@ -67,28 +69,47 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 24, indent: 16, endIndent: 16),
 
-          // --- Data Section (Keep disabled for now) ---
-          // const SectionHeader(
-          //  title: 'البيانات',
-          //  padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-          // ),
-          // SettingsListTile(
-          //  title: 'آخر تحديث للبيانات',
-          //  subtitle: "---", // Placeholder - medicineProvider.lastUpdateTimestampFormatted,
-          //  leadingIcon: Icons.cloud_sync_outlined,
-          //  trailing: IconButton(
-          //    icon: const Icon(Icons.refresh),
-          //    tooltip: 'التحقق من وجود تحديث',
-          //    onPressed: () async {
-          //       // TODO: Re-enable update check logic later
-          //       ScaffoldMessenger.of(context).showSnackBar(
-          //         const SnackBar(content: Text('Update check disabled for now.')),
-          //       );
-          //    },
-          //  ),
-          //  onTap: null,
-          // ),
-          // const Divider(height: 24, indent: 16, endIndent: 16),
+          // --- Data Section ---
+          const SectionHeader(
+            title: 'البيانات',
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          ),
+          SettingsListTile(
+            title: 'آخر تحديث للبيانات',
+            subtitle:
+                medicineProvider
+                    .lastUpdateTimestampFormatted, // Use MedicineProvider
+            leadingIcon: Icons.cloud_sync_outlined,
+            trailing: IconButton(
+              icon: const Icon(Icons.refresh),
+              tooltip: 'التحقق من وجود تحديث',
+              onPressed: () async {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('جاري التحقق من التحديثات...')),
+                );
+                // Trigger update check via MedicineProvider
+                await medicineProvider
+                    .loadInitialData(); // This triggers the check
+                // Show result
+                ScaffoldMessenger.of(
+                  context,
+                ).hideCurrentSnackBar(); // Hide previous
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      medicineProvider.error.contains('فشل')
+                          ? medicineProvider
+                              .error // Show specific error
+                          : 'البيانات محدثة.',
+                    ),
+                    duration: const Duration(seconds: 2),
+                  ),
+                );
+              },
+            ),
+            onTap: null, // No action on tap for this row
+          ),
+          const Divider(height: 24, indent: 16, endIndent: 16),
 
           // --- Subscription Section ---
           const SectionHeader(
