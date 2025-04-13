@@ -23,14 +23,12 @@ Future<void> main() async {
 
   // --- End of minimal setup ---
 
-  // Check if onboarding is complete (needs SharedPreferences)
-  final prefs = await locator.getAsync<SharedPreferences>();
-  final bool onboardingComplete =
-      prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-
-  // Determine the initial screen
-  final Widget initialScreen =
-      onboardingComplete ? const MainScreen() : const OnboardingScreen();
+  // --- Temporarily bypass onboarding check and show MainScreen directly ---
+  // final prefs = await locator.getAsync<SharedPreferences>();
+  // final bool onboardingComplete = prefs.getBool(_prefsKeyOnboardingDone) ?? false;
+  // final Widget initialScreen = onboardingComplete ? const MainScreen() : const OnboardingScreen();
+  const Widget initialScreen = MainScreen(); // Directly set MainScreen
+  // --- End of bypass ---
 
   // --- Seeding remains disabled ---
   print("INFO: Database seeding is temporarily disabled for testing.");
@@ -38,7 +36,7 @@ Future<void> main() async {
   // --- Subscription init remains disabled ---
   // locator<SubscriptionProvider>().initialize();
 
-  // Run the app with only SettingsProvider
+  // Run the app with only SettingsProvider and MainScreen (starting at Settings tab)
   runApp(MyAppMinimal(homeWidget: initialScreen));
 }
 
@@ -79,7 +77,7 @@ class MyAppMinimal extends StatelessWidget {
               ),
             ),
             locale: settingsProvider.locale,
-            home: homeWidget, // Show OnboardingScreen or MainScreen
+            home: homeWidget, // Show MainScreen directly
           );
         },
       ),
