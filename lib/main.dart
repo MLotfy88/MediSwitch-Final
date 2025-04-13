@@ -44,7 +44,7 @@ Future<void> main() async {
   }
 
   // Initialize SubscriptionProvider asynchronously in the background
-  locator<SubscriptionProvider>().initialize(); // Re-enable initialization
+  // locator<SubscriptionProvider>().initialize(); // Keep disabled for now
 
   // Run the original app structure
   runApp(MyApp(homeWidget: initialScreen));
@@ -63,14 +63,16 @@ class MyApp extends StatelessWidget {
       providers: [
         // Provide Providers using the locator
         ChangeNotifierProvider(create: (_) => locator<MedicineProvider>()),
-        ChangeNotifierProvider(create: (_) => locator<SettingsProvider>()),
+        ChangeNotifierProvider(
+          create: (_) => locator<SettingsProvider>(),
+        ), // Keep SettingsProvider
         ChangeNotifierProvider(create: (_) => locator<AlternativesProvider>()),
         ChangeNotifierProvider(
           create: (_) => locator<DoseCalculatorProvider>(),
         ),
         ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
-        // Re-enable SubscriptionProvider
-        ChangeNotifierProvider(create: (_) => locator<SubscriptionProvider>()),
+        // Keep SubscriptionProvider commented out if disabled in locator
+        // ChangeNotifierProvider(create: (_) => locator<SubscriptionProvider>()),
       ],
       // Consumer is needed here to access SettingsProvider for theme/locale
       child: Consumer<SettingsProvider>(
