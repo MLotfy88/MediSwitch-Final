@@ -33,7 +33,11 @@ class InteractionProvider extends ChangeNotifier {
            InteractionRepositoryImpl(), // Use Impl for now
        _interactionCheckerService =
            interactionCheckerService ?? InteractionCheckerService() {
+    // --- Temporarily Disable Auto-Load for Performance Testing ---
     // Attempt to load interaction data when the provider is created
+    // _loadInteractionData();
+    print("INFO: InteractionProvider auto-load disabled for testing.");
+    // --- End of Temporarily Disabled Code ---
     _loadInteractionData();
   }
 
