@@ -88,9 +88,10 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<SqliteLocalDataSource>(
     () => SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>()),
   );
-  locator.registerLazySingleton<InteractionLocalDataSource>(
-    () => InteractionLocalDataSourceImpl(),
-  );
+  // Temporarily disable InteractionLocalDataSource
+  // locator.registerLazySingleton<InteractionLocalDataSource>(
+  //   () => InteractionLocalDataSourceImpl(),
+  // );
   // Keep others disabled for now if not strictly needed for startup
   // locator.registerLazySingleton<ConfigRemoteDataSource>(() => ...);
   // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() => ...);
@@ -104,9 +105,10 @@ Future<void> setupLocator() async {
       // isConnected: true, // Keep update check disabled for now
     ),
   );
-  locator.registerLazySingleton<InteractionRepository>(
-    () => InteractionRepositoryImpl(),
-  );
+  // Temporarily disable InteractionRepository
+  // locator.registerLazySingleton<InteractionRepository>(
+  //   () => InteractionRepositoryImpl(),
+  // );
   // Keep others disabled
   // locator.registerLazySingleton<ConfigRepository>(() => ...);
   // locator.registerLazySingleton<AnalyticsRepository>(() => ...);
@@ -126,9 +128,10 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton(
     () => FindDrugAlternativesUseCase(locator<DrugRepository>()),
   );
-  locator.registerLazySingleton(
-    () => LoadInteractionData(locator<InteractionRepository>()),
-  );
+  // Temporarily disable LoadInteractionData Use Case
+  // locator.registerLazySingleton(
+  //   () => LoadInteractionData(locator<InteractionRepository>()),
+  // );
   locator.registerLazySingleton(
     () => GetLastUpdateTimestampUseCase(locator<DrugRepository>()),
   );
@@ -140,7 +143,8 @@ Future<void> setupLocator() async {
   // --- Services ---
   // Re-enable necessary Services
   locator.registerLazySingleton(() => DosageCalculatorService());
-  locator.registerLazySingleton(() => InteractionCheckerService());
+  // Temporarily disable InteractionCheckerService
+  // locator.registerLazySingleton(() => InteractionCheckerService());
   locator.registerLazySingleton(() => AdService()); // Register AdService
   // Keep others disabled
   // locator.registerLazySingleton<AnalyticsService>(() { ... });
@@ -173,16 +177,17 @@ Future<void> setupLocator() async {
       dosageCalculatorService: locator<DosageCalculatorService>(),
     ),
   );
-  locator.registerFactory(
-    () => InteractionProvider(
-      interactionRepository: locator<InteractionRepository>(),
-      interactionCheckerService: locator<InteractionCheckerService>(),
-    ),
-  );
+  // Temporarily disable InteractionProvider
+  // locator.registerFactory(
+  //   () => InteractionProvider(
+  //     interactionRepository: locator<InteractionRepository>(),
+  //     interactionCheckerService: locator<InteractionCheckerService>(),
+  //   ),
+  // );
   // Keep SettingsProvider enabled
   locator.registerFactory(() => SettingsProvider());
-  // Re-enable SubscriptionProvider registration
-  locator.registerLazySingleton(() => SubscriptionProvider());
+  // Keep SubscriptionProvider disabled for now
+  // locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure essential async singletons are ready before proceeding
   await locator.allReady(); // Re-enable
