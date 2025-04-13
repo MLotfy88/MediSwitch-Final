@@ -1,557 +1,236 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
-import '../bloc/settings_provider.dart';
-import '../bloc/medicine_provider.dart';
-import '../widgets/section_header.dart'; // Import SectionHeader
+// import 'package:provider/provider.dart';
+// import 'package:url_launcher/url_launcher.dart';
+// import '../bloc/settings_provider.dart';
+// import '../bloc/medicine_provider.dart'; // To show last update time
+// import '../widgets/section_header.dart'; // Assuming SectionHeader exists
+// import '../widgets/settings_list_tile.dart'; // Assuming SettingsListTile exists
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
-  // Helper function to launch URLs safely
-  Future<void> _launchURL(BuildContext context, String urlString) async {
-    final Uri url = Uri.parse(urlString);
-    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-      if (context.mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: Text('تعذر فتح الرابط: $urlString')));
-      }
-      print('Could not launch $urlString');
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
+    // Return a very simple Scaffold for testing
+    return const Scaffold(
+      body: Center(child: Text('Simplified SettingsScreen')),
+    );
+
+    // --- Original Build Logic Commented Out ---
+    /*
     final settingsProvider = context.watch<SettingsProvider>();
-    final medicineProvider = context.watch<MedicineProvider>(); // For timestamp
+    // Use watch only if needed for rebuild, otherwise read is fine for actions
+    final medicineProvider = context.watch<MedicineProvider>();
     final theme = Theme.of(context);
+    final textTheme = theme.textTheme;
     final colorScheme = theme.colorScheme;
 
-    // Define card padding and margin
-    const cardMargin = EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0);
-    // Reduced vertical padding inside cards for tighter list items
-    const cardPadding = EdgeInsets.symmetric(vertical: 4.0);
-    // Define content padding for ListTiles
-    const tileContentPadding = EdgeInsets.symmetric(
-      horizontal: 16.0,
-      vertical: 8.0,
-    ); // Adjusted vertical padding
-
     return Scaffold(
+      // Use a simple AppBar for now, or integrate with a common header later
       appBar: AppBar(
         title: const Text('الإعدادات'),
-        // Match general AppBar style
-        backgroundColor: colorScheme.surface,
-        foregroundColor: colorScheme.onSurface,
-        elevation: 0.5,
+        backgroundColor: theme.scaffoldBackgroundColor, // Match background
+        elevation: 0,
+        foregroundColor: colorScheme.onBackground,
       ),
       body: ListView(
-        padding: const EdgeInsets.symmetric(
-          vertical: 8.0,
-        ), // Padding for the whole list
+        padding: const EdgeInsets.symmetric(vertical: 16.0),
         children: [
-          // --- User Profile Section ---
-          // User Profile Card - Match general Card style
-          Card(
-            margin: cardMargin,
-            elevation: 0, // No elevation
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // Match theme --radius
-              side: BorderSide(
-                color: colorScheme.outline.withOpacity(0.5),
-              ), // Subtle border
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(
-                16.0,
-              ), // Keep larger padding for profile section
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                        backgroundColor: colorScheme.primaryContainer,
-                        child: Icon(
-                          Icons.person_outline,
-                          size: 35,
-                          color: colorScheme.primary,
-                        ),
-                      ),
-                      const SizedBox(width: 16),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'أحمد محمد', // Placeholder
-                            style: theme.textTheme.titleLarge,
-                          ),
-                          Text(
-                            'ahmed@example.com', // Placeholder
-                            style: theme.textTheme.bodyMedium?.copyWith(
-                              color: theme.colorScheme.onSurfaceVariant,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 16),
-                  ElevatedButton.icon(
-                    icon: const Icon(Icons.edit_outlined, size: 18),
-                    label: const Text('تعديل الملف الشخصي'),
-                    onPressed: () {
-                      // TODO: Implement profile editing
-                      print('Edit Profile Tapped');
-                    },
-                    // Match shadcn Button (secondary variant)
-                    style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(double.infinity, 40),
-                      backgroundColor: colorScheme.secondaryContainer,
-                      foregroundColor: colorScheme.onSecondaryContainer,
-                      elevation: 0, // Flat style
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(
-                          8.0,
-                        ), // Match theme --radius
-                      ),
-                      textStyle: const TextStyle(fontWeight: FontWeight.w600),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-
-          // --- General Settings Section ---
+          // --- General Section ---
           const SectionHeader(
-            title: 'الإعدادات العامة',
-            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+            title: 'عام',
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           ),
-          // General Settings Card - Match general Card style
-          Card(
-            margin: cardMargin,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // Match theme --radius
-              side: BorderSide(
-                color: colorScheme.outline.withOpacity(0.5),
-              ), // Subtle border
-            ),
-            child: Padding(
-              padding: cardPadding, // Use reduced padding
-              child: Column(
-                children: [
-                  SwitchListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    title: const Text('الوضع الداكن'),
-                    secondary: Icon(
-                      settingsProvider.themeMode == ThemeMode.dark
-                          ? Icons.dark_mode_outlined
-                          : Icons.light_mode_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    value: settingsProvider.themeMode == ThemeMode.dark,
-                    onChanged: (bool value) {
-                      settingsProvider.updateThemeMode(
-                        value ? ThemeMode.dark : ThemeMode.light,
-                      );
-                    },
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.language_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('اللغة'),
-                    trailing: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Text(
-                          settingsProvider.locale.languageCode == 'ar'
-                              ? 'العربية'
-                              : 'English',
-                          style: TextStyle(color: colorScheme.onSurfaceVariant),
-                        ),
-                        const SizedBox(width: 4),
-                        Icon(
-                          Icons.arrow_forward_ios_rounded,
-                          size: 14,
-                          color: colorScheme.onSurfaceVariant,
-                        ),
-                      ],
-                    ),
-                    onTap: () async {
-                      final Locale? selectedLocale = await _showLanguageDialog(
-                        context,
-                      );
-                      if (selectedLocale != null && context.mounted) {
-                        context.read<SettingsProvider>().updateLocale(
-                          selectedLocale,
-                        );
-                      }
-                    },
-                  ),
-                  _buildDivider(context),
-                  SwitchListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    title: const Text('الإشعارات'),
-                    secondary: Icon(
-                      Icons.notifications_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    value: true, // Placeholder value
-                    onChanged: (bool value) {
-                      // TODO: Implement notification preference logic
-                      print('Notifications Toggled: $value');
-                    },
-                  ),
-                ],
-              ),
-            ),
+          SettingsListTile(
+            title: 'اللغة',
+            subtitle: settingsProvider.locale.languageCode == 'ar' ? 'العربية' : 'English',
+            leadingIcon: Icons.language_outlined,
+            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+            onTap: () {
+              // Show language selection dialog
+              _showLanguageDialog(context, settingsProvider);
+            },
           ),
+          SettingsListTile(
+            title: 'المظهر',
+            subtitle: _themeModeToString(settingsProvider.themeMode),
+            leadingIcon: Icons.brightness_6_outlined,
+            trailing: Switch(
+              value: settingsProvider.themeMode == ThemeMode.dark,
+              onChanged: (isDark) {
+                settingsProvider.updateThemeMode(
+                  isDark ? ThemeMode.dark : ThemeMode.light,
+                );
+              },
+            ),
+            onTap: () {
+               // Allow tapping row to toggle as well
+               bool currentIsDark = settingsProvider.themeMode == ThemeMode.dark;
+               settingsProvider.updateThemeMode(
+                 currentIsDark ? ThemeMode.light : ThemeMode.dark,
+               );
+            },
+          ),
+          const Divider(height: 24, indent: 16, endIndent: 16),
 
-          // --- Security & Privacy Section ---
-          const SectionHeader(
-            title: 'الأمان والخصوصية',
-            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+          // --- Data Section ---
+           const SectionHeader(
+            title: 'البيانات',
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           ),
-          // Security Card - Match general Card style
-          Card(
-            margin: cardMargin,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // Match theme --radius
-              side: BorderSide(
-                color: colorScheme.outline.withOpacity(0.5),
-              ), // Subtle border
+           SettingsListTile(
+            title: 'آخر تحديث للبيانات',
+            subtitle: medicineProvider.lastUpdateTimestampFormatted,
+            leadingIcon: Icons.cloud_sync_outlined,
+            trailing: IconButton(
+              icon: const Icon(Icons.refresh),
+              tooltip: 'التحقق من وجود تحديث',
+              onPressed: () async {
+                 ScaffoldMessenger.of(context).showSnackBar(
+                   const SnackBar(content: Text('جاري التحقق من التحديثات...')),
+                 );
+                 // Trigger update check via MedicineProvider
+                 await medicineProvider.loadInitialData(); // This triggers the check
+                 // Show result
+                  ScaffoldMessenger.of(context).hideCurrentSnackBar(); // Hide previous
+                  ScaffoldMessenger.of(context).showSnackBar(
+                   SnackBar(
+                     content: Text(
+                       medicineProvider.error.contains('فشل')
+                           ? medicineProvider.error // Show specific error
+                           : 'البيانات محدثة.',
+                     ),
+                     duration: const Duration(seconds: 2),
+                   ),
+                 );
+              },
             ),
-            child: Padding(
-              padding: cardPadding, // Use reduced padding
-              child: Column(
-                children: [
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.lock_outline,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('تغيير كلمة المرور'),
-                    trailing: Icon(
-                      Icons.arrow_forward_ios_rounded,
-                      size: 14,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
-                    onTap: () {
-                      // TODO: Implement change password navigation/logic
-                      print('Change Password Tapped');
-                    },
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.privacy_tip_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('إعدادات الخصوصية'),
-                    trailing: Icon(
-                      Icons.arrow_forward_ios_rounded,
-                      size: 14,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
-                    onTap: () {
-                      // TODO: Implement privacy settings navigation/logic
-                      print('Privacy Settings Tapped');
-                    },
-                  ),
-                ],
-              ),
-            ),
+            onTap: null, // No action on tap for this row
           ),
+           const Divider(height: 24, indent: 16, endIndent: 16),
+
 
           // --- Subscription Section ---
           const SectionHeader(
             title: 'الاشتراك',
-            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           ),
-          // Subscription Card - Match general Card style
-          Card(
-            margin: cardMargin,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // Match theme --radius
-              side: BorderSide(
-                color: colorScheme.outline.withOpacity(0.5),
-              ), // Subtle border
-            ),
-            child: Padding(
-              padding: cardPadding, // Use reduced padding
-              child: ListTile(
-                contentPadding: tileContentPadding, // Apply content padding
-                leading: Icon(
-                  Icons.workspace_premium_outlined,
-                  color:
-                      colorScheme.onSurfaceVariant, // Use muted color for icon
-                ),
-                title: const Text('الاشتراك المميز (Premium)'),
-                subtitle: const Text('إزالة الإعلانات، سجل البحث، والمزيد!'),
-                // Use a more subtle badge/chip style
-                trailing: Chip(
-                  label: Text(
-                    'مستخدم مجاني', // TODO: Update based on actual status
-                  ),
-                  backgroundColor:
-                      colorScheme.surfaceVariant, // Use surface variant
-                  labelStyle: TextStyle(
-                    color:
-                        colorScheme.onSurfaceVariant, // Use on surface variant
-                    fontSize: 12,
-                  ),
-                  side: BorderSide.none, // Remove border
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 8,
-                  ), // Adjust padding
-                  visualDensity: VisualDensity.compact,
-                ),
-                onTap: () {
-                  // TODO: Implement navigation to subscription purchase/management screen
-                  print('Subscription setting tapped');
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('سيتم إضافة شاشة إدارة الاشتراك لاحقاً.'),
-                    ),
-                  );
-                },
-              ),
-            ),
+          SettingsListTile(
+            title: 'إدارة الاشتراك',
+            subtitle: 'الترقية إلى Premium أو استعادة المشتريات',
+            leadingIcon: Icons.star_border_outlined,
+            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+            onTap: () {
+              // TODO: Navigate to SubscriptionScreen
+              print('Navigate to Subscription Screen');
+               Navigator.push(
+                 context,
+                 MaterialPageRoute(builder: (context) => const SubscriptionScreen()), // Assuming SubscriptionScreen exists
+               );
+            },
           ),
+          const Divider(height: 24, indent: 16, endIndent: 16),
 
-          // --- About App Section ---
+          // --- About Section ---
           const SectionHeader(
             title: 'حول التطبيق',
-            padding: EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 0),
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           ),
-          // About Card - Match general Card style
-          Card(
-            margin: cardMargin,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // Match theme --radius
-              side: BorderSide(
-                color: colorScheme.outline.withOpacity(0.5),
-              ), // Subtle border
-            ),
-            child: Padding(
-              padding: cardPadding, // Use reduced padding
-              child: Column(
-                children: [
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.info_outline,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('إصدار التطبيق'),
-                    trailing: Text(
-                      'v1.0.0', // Placeholder version
-                      style: TextStyle(color: colorScheme.onSurfaceVariant),
-                    ),
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.gavel_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('شروط الخدمة'),
-                    trailing: Icon(
-                      Icons.open_in_new,
-                      size: 18,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
-                    onTap:
-                        () => _launchURL(
-                          context,
-                          'https://www.google.com', // Placeholder URL
-                        ), // TODO: Replace with actual Terms URL
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.privacy_tip_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('سياسة الخصوصية'),
-                    trailing: Icon(
-                      Icons.open_in_new,
-                      size: 18,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
-                    onTap:
-                        () => _launchURL(
-                          context,
-                          'https://www.google.com', // Placeholder URL
-                        ), // TODO: Replace with actual Privacy URL
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.history_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('تاريخ آخر تحديث للبيانات'),
-                    subtitle: Text(
-                      medicineProvider.lastUpdateTimestampFormatted,
-                    ),
-                  ),
-                  _buildDivider(context),
-                  ListTile(
-                    contentPadding: tileContentPadding, // Apply content padding
-                    leading: Icon(
-                      Icons.update_outlined,
-                      color:
-                          colorScheme
-                              .onSurfaceVariant, // Use muted color for icon
-                    ),
-                    title: const Text('التحقق من وجود تحديثات'),
-                    onTap: () async {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('جاري التحقق...'),
-                          duration: Duration(seconds: 1),
-                        ),
-                      );
-                      await context.read<MedicineProvider>().loadInitialData();
-                      if (context.mounted) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('اكتمل التحقق.'),
-                            duration: Duration(seconds: 2),
-                          ),
-                        );
-                      }
-                    },
-                  ),
-                ],
-              ),
-            ),
+          SettingsListTile(
+            title: 'عن MediSwitch',
+            leadingIcon: Icons.info_outline,
+            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+            onTap: () => _launchUrl('https://your-about-us-url.com'), // Replace with actual URL
           ),
-
-          // --- Logout Button ---
-          Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 16.0,
-              vertical: 24.0,
-            ),
-            child: ElevatedButton.icon(
-              icon: const Icon(Icons.logout),
-              label: const Text('تسجيل الخروج'),
-              onPressed: () {
-                // TODO: Implement logout logic
-                print('Logout Tapped');
-              },
-              // Match shadcn Button (destructive variant)
-              style: ElevatedButton.styleFrom(
-                minimumSize: const Size(double.infinity, 45),
-                backgroundColor: colorScheme.error, // Use error color
-                foregroundColor: colorScheme.onError, // Use onError color
-                elevation: 0, // Flat style
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(
-                    8.0,
-                  ), // Match theme --radius
-                ),
-                textStyle: const TextStyle(fontWeight: FontWeight.w600),
-              ),
-            ),
+          SettingsListTile(
+            title: 'سياسة الخصوصية',
+            leadingIcon: Icons.privacy_tip_outlined,
+            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+            onTap: () => _launchUrl('https://your-privacy-policy-url.com'), // Replace with actual URL
+          ),
+          SettingsListTile(
+            title: 'شروط الاستخدام',
+            leadingIcon: Icons.gavel_outlined,
+            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+            onTap: () => _launchUrl('https://your-terms-of-service-url.com'), // Replace with actual URL
+          ),
+          SettingsListTile(
+            title: 'إصدار التطبيق',
+            subtitle: '1.0.0+1', // TODO: Get version dynamically later
+            leadingIcon: Icons.tag,
+            onTap: null,
           ),
         ],
       ),
     );
+    */
   }
 
-  // Helper for dividers within cards
-  Widget _buildDivider(BuildContext context) {
-    // Accept context
-    // Use Theme's dividerColor
-    return Divider(
-      height: 1,
-      indent: 16,
-      endIndent: 16,
-      color: Theme.of(context).dividerColor.withOpacity(0.5),
-    );
+  // --- Helper Methods (Keep commented out for now) ---
+  /*
+  String _themeModeToString(ThemeMode themeMode) {
+    switch (themeMode) {
+      case ThemeMode.light:
+        return 'فاتح';
+      case ThemeMode.dark:
+        return 'داكن';
+      case ThemeMode.system:
+      default:
+        return 'النظام';
+    }
   }
 
-  // Helper to show language selection dialog
-  Future<Locale?> _showLanguageDialog(BuildContext context) async {
-    // TODO: Improve dialog styling to match shadcn/ui Dialog/AlertDialog if possible
-    return await showDialog<Locale>(
+  Future<void> _showLanguageDialog(BuildContext context, SettingsProvider provider) async {
+    final currentLocale = provider.locale;
+    final selectedLocale = await showDialog<Locale>(
       context: context,
       builder: (BuildContext context) {
-        // Use AlertDialog for a more standard look, closer to shadcn
         return AlertDialog(
           title: const Text('اختر اللغة'),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
-          ), // Match card radius
-          contentPadding: const EdgeInsets.only(
-            top: 12.0,
-            bottom: 0,
-          ), // Adjust padding
           content: Column(
-            mainAxisSize: MainAxisSize.min, // Make column height fit content
+            mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               RadioListTile<Locale>(
                 title: const Text('العربية'),
                 value: const Locale('ar'),
-                groupValue:
-                    context
-                        .read<SettingsProvider>()
-                        .locale, // Get current locale
-                onChanged: (Locale? value) => Navigator.pop(context, value),
+                groupValue: currentLocale,
+                onChanged: (Locale? value) {
+                  Navigator.pop(context, value);
+                },
               ),
               RadioListTile<Locale>(
                 title: const Text('English'),
                 value: const Locale('en'),
-                groupValue: context.read<SettingsProvider>().locale,
-                onChanged: (Locale? value) => Navigator.pop(context, value),
+                groupValue: currentLocale,
+                onChanged: (Locale? value) {
+                  Navigator.pop(context, value);
+                },
               ),
             ],
           ),
-          // Add actions if needed (e.g., Cancel button)
-          // actions: <Widget>[
-          //   TextButton(
-          //     child: const Text('إلغاء'),
-          //     onPressed: () => Navigator.of(context).pop(),
-          //   ),
-          // ],
+          actions: <Widget>[
+            TextButton(
+              child: const Text('إلغاء'),
+              onPressed: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
         );
       },
     );
+
+    if (selectedLocale != null) {
+      provider.updateLocale(selectedLocale);
+    }
   }
+
+  Future<void> _launchUrl(String urlString) async {
+    final Uri url = Uri.parse(urlString);
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      // Consider showing a snackbar if launching fails
+      print('Could not launch $urlString');
+    }
+  }
+  */
 }
