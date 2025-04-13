@@ -60,6 +60,7 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
   // --- Core ---
+  // Re-enable DB Helper registration
   locator.registerSingletonAsync<DatabaseHelper>(() async {
     final helper = DatabaseHelper();
     await helper.database; // Initialize DB
@@ -67,12 +68,13 @@ Future<void> setupLocator() async {
   });
 
   // --- Data Sources ---
+  // Wait for SharedPreferences AND DatabaseHelper to be ready
   await Future.wait([
     locator.isReady<SharedPreferences>(),
     locator.isReady<DatabaseHelper>(),
   ]);
 
-  // Re-enable Drug DataSources
+  // Re-enable necessary Data Sources
   locator.registerLazySingleton<DrugRemoteDataSource>(() {
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
@@ -92,7 +94,7 @@ Future<void> setupLocator() async {
   // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() => ...);
 
   // --- Repositories ---
-  // Re-enable Drug Repository
+  // Re-enable necessary Repositories
   locator.registerLazySingleton<DrugRepository>(
     () => DrugRepositoryImpl(
       remoteDataSource: locator<DrugRemoteDataSource>(),
@@ -106,7 +108,7 @@ Future<void> setupLocator() async {
   // locator.registerLazySingleton<AnalyticsRepository>(() => ...);
 
   // --- Use Cases ---
-  // Re-enable Drug Use Cases
+  // Re-enable necessary Use Cases
   locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
   locator.registerLazySingleton(
     () => SearchDrugsUseCase(locator<DrugRepository>()),
@@ -153,7 +155,10 @@ Future<void> setupLocator() async {
   // locator.registerFactory(() => AlternativesProvider(...));
   // locator.registerFactory(() => DoseCalculatorProvider(...));
   // locator.registerFactory(() => InteractionProvider(...));
-  locator.registerFactory(() => SettingsProvider()); // Keep SettingsProvider
+  locator.registerFactory(
+    () => SettingsProvider(),
+  ); // Keep SettingsProvider enabled
+  // Keep SubscriptionProvider disabled for now
   // locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure essential async singletons are ready before proceeding
