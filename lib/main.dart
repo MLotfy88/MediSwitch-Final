@@ -1,61 +1,56 @@
 import 'package:flutter/material.dart';
-// --- Temporarily Comment Out All Imports ---
-// import 'package:provider/provider.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
-// import 'core/di/locator.dart';
-// import 'data/datasources/local/sqlite_local_data_source.dart';
-// import 'presentation/bloc/medicine_provider.dart';
-// import 'presentation/bloc/settings_provider.dart';
-// import 'presentation/bloc/alternatives_provider.dart';
-// import 'presentation/bloc/dose_calculator_provider.dart';
-// import 'presentation/bloc/interaction_provider.dart';
-// import 'presentation/bloc/subscription_provider.dart';
-// import 'presentation/screens/main_screen.dart';
-// import 'presentation/screens/onboarding_screen.dart';
+import 'package:provider/provider.dart'; // Re-enable provider
+import 'package:shared_preferences/shared_preferences.dart'; // Re-enable SharedPreferences
+import 'core/di/locator.dart'; // Re-enable locator
+// import 'data/datasources/local/sqlite_local_data_source.dart'; // Keep disabled
+// import 'presentation/bloc/medicine_provider.dart'; // Keep disabled for now
+import 'presentation/bloc/settings_provider.dart'; // Re-enable SettingsProvider
+// import 'presentation/bloc/alternatives_provider.dart'; // Keep disabled
+// import 'presentation/bloc/dose_calculator_provider.dart'; // Keep disabled
+// import 'presentation/bloc/interaction_provider.dart'; // Keep disabled
+// import 'presentation/bloc/subscription_provider.dart'; // Keep disabled
+import 'presentation/screens/main_screen.dart'; // Keep disabled for now
+import 'presentation/screens/onboarding_screen.dart'; // Keep disabled for now
 
-// const String _prefsKeyOnboardingDone = 'onboarding_complete';
+const String _prefsKeyOnboardingDone = 'onboarding_complete';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // --- Temporarily Disable ALL Setup ---
-  // await setupLocator();
+  // --- Setup only necessary parts for this test ---
+  locator.registerSingletonAsync<SharedPreferences>(() async {
+    return await SharedPreferences.getInstance();
+  });
+  locator.registerFactory(() => SettingsProvider());
+  await locator.isReady<SharedPreferences>();
+  // --- End of minimal setup ---
+
+  // --- Temporarily bypass onboarding/main screen logic ---
   // final prefs = await locator.getAsync<SharedPreferences>();
   // final bool onboardingComplete = prefs.getBool(_prefsKeyOnboardingDone) ?? false;
   // final Widget initialScreen = onboardingComplete ? const MainScreen() : const OnboardingScreen();
-  // try {
-  //   final localDataSource = locator<SqliteLocalDataSource>();
-  //   await localDataSource.seedDatabaseFromAssetIfNeeded();
-  // } catch (e) {
-  //   print("Error during post-locator seeding: $e");
-  // }
-  // locator<SubscriptionProvider>().initialize();
-  // --- End of Temporarily Disable ALL Setup ---
-
-  // Run a minimal app directly
-  runApp(
-    MaterialApp(
-      // Removed const
-      title: 'MediSwitch (Minimal UI Test)',
-      debugShowCheckedModeBanner: false,
-      // Use a very basic theme
-      themeMode: ThemeMode.system,
-      theme: ThemeData.light(useMaterial3: true), // Removed const
-      darkTheme: ThemeData.dark(useMaterial3: true), // Removed const
-      // Directly show a simple screen, bypassing onboarding/main logic for now
-      home: Scaffold(
-        appBar: AppBar(title: const Text("Test Screen")), // Added const to Text
-        body: const Center(
-          child: Text("Basic MaterialApp Running!"),
-        ), // Added const
-      ),
-    ),
+  final Widget testScreen = Scaffold(
+    // Removed const from variable declaration
+    appBar: AppBar(
+      title: const Text("Minimal Home Test"),
+    ), // Removed const from AppBar, added to Text
+    body: Center(child: Text("MyAppMinimal Running with Test Screen")),
   );
-  // runApp(MyAppMinimal(homeWidget: initialScreen)); // Bypass MyAppMinimal
+  // --- End of bypass ---
+
+  // --- Seeding remains disabled ---
+  print("INFO: Database seeding is temporarily disabled for testing.");
+
+  // --- Subscription init remains disabled ---
+  // locator<SubscriptionProvider>().initialize();
+
+  // Run the app with only SettingsProvider and the simple test screen
+  runApp(
+    MyAppMinimal(homeWidget: testScreen),
+  ); // Use MyAppMinimal with testScreen
 }
 
-// --- MyAppMinimal and Providers are temporarily bypassed ---
-/*
+// Restore MyAppMinimal structure
 class MyAppMinimal extends StatelessWidget {
   final Widget homeWidget;
 
@@ -68,28 +63,34 @@ class MyAppMinimal extends StatelessWidget {
       create: (_) => locator<SettingsProvider>(),
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
+          // Show loading indicator until settings are loaded
           if (!settingsProvider.isInitialized) {
             return const MaterialApp(
               debugShowCheckedModeBanner: false,
               home: Scaffold(body: Center(child: CircularProgressIndicator())),
             );
           }
+          // Build the app once settings are loaded
+          // Use a basic theme for now
           return MaterialApp(
             title: 'MediSwitch (Minimal Test)',
             debugShowCheckedModeBanner: false,
             themeMode: settingsProvider.themeMode,
             theme: ThemeData.light(useMaterial3: true).copyWith(
-               textTheme: ThemeData.light().textTheme.apply(fontFamily: 'Noto Sans Arabic'),
+              textTheme: ThemeData.light().textTheme.apply(
+                fontFamily: 'Noto Sans Arabic',
+              ),
             ),
             darkTheme: ThemeData.dark(useMaterial3: true).copyWith(
-               textTheme: ThemeData.dark().textTheme.apply(fontFamily: 'Noto Sans Arabic'),
+              textTheme: ThemeData.dark().textTheme.apply(
+                fontFamily: 'Noto Sans Arabic',
+              ),
             ),
             locale: settingsProvider.locale,
-            home: homeWidget,
+            home: homeWidget, // Use the passed simple test screen
           );
         },
       ),
     );
   }
 }
-*/
