@@ -31,16 +31,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Restore Original Build Logic
     final medicineProvider = context.watch<MedicineProvider>();
     final isLoading = medicineProvider.isLoading;
     final error = medicineProvider.error;
-    // Use filteredMedicines which is populated by loadInitialData/_applyFilters
     final displayedMedicines = medicineProvider.filteredMedicines;
-    // Removed recentlyUpdated and popularDrugs as they are no longer pre-loaded
 
+    // Re-enable basic structure
     return Scaffold(
-      // Wrap body with Column to add BannerAdWidget at the bottom
       body: Column(
         children: [
           Expanded(
@@ -48,55 +45,44 @@ class _HomeScreenState extends State<HomeScreen> {
             child: RefreshIndicator(
               onRefresh:
                   () => context.read<MedicineProvider>().loadInitialData(),
-              child:
-                  isLoading &&
-                          displayedMedicines
-                              .isEmpty // Show loading only if list is truly empty
-                      ? const Center(child: CircularProgressIndicator())
-                      : error.isNotEmpty &&
-                          displayedMedicines
-                              .isEmpty // Show error only if list is empty
-                      ? _buildErrorWidget(context, error)
-                      : ListView(
-                        padding: EdgeInsets.zero, // Remove default padding
-                        children: [
-                          const HomeHeader(), // Use the new HomeHeader widget
-                          _buildSearchBar(context),
-                          const SizedBox(height: 16.0),
-                          // --- Categories Section ---
-                          _buildCategoriesSection(
-                            context,
-                          ), // Use HorizontalListSection
-                          const SizedBox(height: 16.0),
+              // Temporarily replace ListView with a simple placeholder
+              child: const Center(child: Text("HomeScreen Content Area")),
+              /* // Original ListView commented out
+              child: isLoading && displayedMedicines.isEmpty // Show loading only if list is truly empty
+                  ? const Center(child: CircularProgressIndicator())
+                  : error.isNotEmpty && displayedMedicines.isEmpty // Show error only if list is empty
+                  ? _buildErrorWidget(context, error)
+                  : ListView(
+                      padding: EdgeInsets.zero, // Remove default padding
+                      children: [
+                        const HomeHeader(), // Use the new HomeHeader widget
+                        _buildSearchBar(context),
+                        const SizedBox(height: 16.0),
+                        // --- Categories Section ---
+                        _buildCategoriesSection(context), // Use HorizontalListSection
+                        const SizedBox(height: 16.0),
 
-                          // --- Recently Updated Section (Removed Temporarily) ---
-                          // if (recentlyUpdated.isNotEmpty) ...
+                        // --- Recently Updated Section (Removed Temporarily) ---
+                        // if (recentlyUpdated.isNotEmpty) ...
 
-                          // --- Popular Drugs Section (Removed Temporarily) ---
-                          // HorizontalListSection(...)
-                          const SizedBox(height: 16.0), // Keep spacing
-                          // --- All Drugs Section ---
-                          // Title changes based on whether filters are active
-                          SectionHeader(
-                            title:
-                                medicineProvider.searchQuery.isEmpty &&
-                                        medicineProvider
-                                            .selectedCategory
-                                            .isEmpty
-                                    ? 'جميع الأدوية'
-                                    : 'نتائج البحث/الفلترة',
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 16,
-                              vertical: 8,
-                            ),
-                          ),
-                          _buildAllDrugsList(
-                            context,
-                            displayedMedicines,
-                          ) // Use displayedMedicines
-                          .animate().fadeIn(duration: 500.ms, delay: 400.ms),
-                        ],
-                      ),
+                        // --- Popular Drugs Section (Removed Temporarily) ---
+                        // HorizontalListSection(...)
+
+                        const SizedBox(height: 16.0), // Keep spacing
+                        // --- All Drugs Section ---
+                        // Title changes based on whether filters are active
+                        SectionHeader(
+                          title: medicineProvider.searchQuery.isEmpty && medicineProvider.selectedCategory.isEmpty
+                                 ? 'جميع الأدوية'
+                                 : 'نتائج البحث/الفلترة',
+                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                        ),
+                        _buildAllDrugsList(context, displayedMedicines) // Use displayedMedicines
+                            .animate()
+                            .fadeIn(duration: 500.ms, delay: 400.ms),
+                      ],
+                    ),
+              */
             ),
           ),
           // Add Banner Ad at the bottom
@@ -106,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // --- Builder Methods ---
+  // --- Builder Methods (Keep commented out for now) ---
 
   Widget _buildSearchBar(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
@@ -155,7 +141,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Builds the Categories section using HorizontalListSection
   Widget _buildCategoriesSection(BuildContext context) {
     final categories =
         context
@@ -216,7 +201,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Helper method for navigation to avoid repetition
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
     // Increment ad counter before navigating
     _adService.incrementUsageCounterAndShowAdIfNeeded();
@@ -226,7 +210,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Builds the vertical list for "All Drugs" section
   Widget _buildAllDrugsList(BuildContext context, List<DrugEntity> medicines) {
     if (medicines.isEmpty) {
       // Show a different message if filters are active but no results
