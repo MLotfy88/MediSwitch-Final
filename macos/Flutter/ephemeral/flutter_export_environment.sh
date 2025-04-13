@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=G:\App\myapps\setup\flutter"
-export "FLUTTER_APPLICATION_PATH=G:\App\myapps\New\mediswitch"
+export "FLUTTER_ROOT=/opt/flutter"
+export "FLUTTER_APPLICATION_PATH=/home/adminlotfy/project"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"

@@ -40,6 +40,7 @@ import '../../domain/services/dosage_calculator_service.dart';
 import '../../domain/services/interaction_checker_service.dart';
 import '../../domain/services/analytics_service.dart'; // Import Analytics Service interface
 import '../../data/services/analytics_service_impl.dart'; // Import Analytics Service impl
+import '../../presentation/services/ad_service.dart'; // Import AdService
 // Providers / Blocs
 import '../../presentation/bloc/medicine_provider.dart';
 import '../../presentation/bloc/alternatives_provider.dart';
@@ -140,6 +141,7 @@ Future<void> setupLocator() async {
   // Re-enable necessary Services
   locator.registerLazySingleton(() => DosageCalculatorService());
   locator.registerLazySingleton(() => InteractionCheckerService());
+  locator.registerLazySingleton(() => AdService()); // Register AdService
   // Keep others disabled
   // locator.registerLazySingleton<AnalyticsService>(() { ... });
 
@@ -179,11 +181,11 @@ Future<void> setupLocator() async {
   );
   // Keep SettingsProvider enabled
   locator.registerFactory(() => SettingsProvider());
-  // Keep SubscriptionProvider disabled for now
-  // locator.registerLazySingleton(() => SubscriptionProvider());
+  // Re-enable SubscriptionProvider registration
+  locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure essential async singletons are ready before proceeding
-  // await locator.allReady(); // Keep commented out for now
+  await locator.allReady(); // Re-enable
 
   print("Service locator setup complete (partially re-enabled).");
 }

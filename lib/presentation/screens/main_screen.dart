@@ -29,7 +29,9 @@ class _MainScreenState extends State<MainScreen> {
     // AlternativesScreen needs an originalDrug. It cannot be a main tab directly.
     // Replace with a placeholder or remove this tab for now.
     const Center(child: Text('Alternatives Tab Placeholder')),
-    const WeightCalculatorScreen(),
+    // Temporarily disable WeightCalculatorScreen for MVP v1.0
+    const Center(child: Text('حاسبة الجرعات (قريباً)')),
+    // const WeightCalculatorScreen(),
     const SettingsScreen(),
     // const InteractionCheckerScreen(), // Example if added as a tab later
   ];
@@ -37,8 +39,8 @@ class _MainScreenState extends State<MainScreen> {
   // Map index to screen name for analytics
   final Map<int, String> _screenNames = {
     0: 'HomeScreen',
-    1: 'AlternativesPlaceholder', // Adjusted name to match placeholder
-    2: 'WeightCalculatorScreen',
+    1: 'AlternativesPlaceholder',
+    2: 'WeightCalculatorPlaceholder', // Adjusted name
     3: 'SettingsScreen',
     // 4: 'InteractionCheckerScreen',
   };
@@ -97,7 +99,7 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.calculate_outlined),
             activeIcon: Icon(Icons.calculate),
-            label: 'الحاسبة', // Shortened label
+            label: 'الحاسبة',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings_outlined),

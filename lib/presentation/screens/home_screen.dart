@@ -11,8 +11,11 @@ import '../widgets/drug_card.dart'; // Import DrugCard
 import '../widgets/section_header.dart';
 import '../widgets/home_header.dart'; // Import the new HomeHeader widget
 import '../widgets/horizontal_list_section.dart';
-import '../widgets/category_card.dart'; // Import CategoryCard
+import '../widgets/category_card.dart';
+import '../widgets/banner_ad_widget.dart'; // Import Banner Ad Widget
 import 'package:flutter_animate/flutter_animate.dart';
+import '../../core/di/locator.dart'; // Import locator
+import '../services/ad_service.dart'; // Import AdService
 // DI is now handled by locator.dart and main.dart
 
 class HomeScreen extends StatefulWidget {
@@ -23,6 +26,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  // Get AdService instance
+  final AdService _adService = locator<AdService>();
+
   @override
   Widget build(BuildContext context) {
     final medicineProvider = context.watch<MedicineProvider>();
@@ -33,53 +39,68 @@ class _HomeScreenState extends State<HomeScreen> {
     // Removed recentlyUpdated and popularDrugs as they are no longer pre-loaded
 
     return Scaffold(
-      body: RefreshIndicator(
-        onRefresh: () => context.read<MedicineProvider>().loadInitialData(),
-        child:
-            isLoading &&
-                    displayedMedicines
-                        .isEmpty // Show loading only if list is truly empty
-                ? const Center(child: CircularProgressIndicator())
-                : error.isNotEmpty &&
-                    displayedMedicines
-                        .isEmpty // Show error only if list is empty
-                ? _buildErrorWidget(context, error)
-                : ListView(
-                  padding: EdgeInsets.zero,
-                  children: [
-                    const HomeHeader(),
-                    _buildSearchBar(context),
-                    const SizedBox(height: 16.0),
-                    // --- Categories Section ---
-                    _buildCategoriesSection(context),
-                    const SizedBox(height: 16.0),
+      // Wrap body with Column to add BannerAdWidget at the bottom
+      body: Column(
+        children: [
+          Expanded(
+            // Make the main content scrollable and take available space
+            child: RefreshIndicator(
+              onRefresh:
+                  () => context.read<MedicineProvider>().loadInitialData(),
+              child:
+                  isLoading &&
+                          displayedMedicines
+                              .isEmpty // Show loading only if list is truly empty
+                      ? const Center(child: CircularProgressIndicator())
+                      : error.isNotEmpty &&
+                          displayedMedicines
+                              .isEmpty // Show error only if list is empty
+                      ? _buildErrorWidget(context, error)
+                      : ListView(
+                        padding: EdgeInsets.zero, // Remove default padding
+                        children: [
+                          const HomeHeader(), // Use the new HomeHeader widget
+                          _buildSearchBar(context),
+                          const SizedBox(height: 16.0),
+                          // --- Categories Section ---
+                          _buildCategoriesSection(
+                            context,
+                          ), // Use HorizontalListSection
+                          const SizedBox(height: 16.0),
 
-                    // --- Recently Updated Section (Removed Temporarily) ---
-                    // if (recentlyUpdated.isNotEmpty) ...
+                          // --- Recently Updated Section (Removed Temporarily) ---
+                          // if (recentlyUpdated.isNotEmpty) ...
 
-                    // --- Popular Drugs Section (Removed Temporarily) ---
-                    // HorizontalListSection(...)
-                    const SizedBox(height: 16.0), // Keep spacing
-                    // --- All Drugs Section ---
-                    // Title changes based on whether filters are active
-                    SectionHeader(
-                      title:
-                          medicineProvider.searchQuery.isEmpty &&
-                                  medicineProvider.selectedCategory.isEmpty
-                              ? 'جميع الأدوية'
-                              : 'نتائج البحث/الفلترة',
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 16,
-                        vertical: 8,
+                          // --- Popular Drugs Section (Removed Temporarily) ---
+                          // HorizontalListSection(...)
+                          const SizedBox(height: 16.0), // Keep spacing
+                          // --- All Drugs Section ---
+                          // Title changes based on whether filters are active
+                          SectionHeader(
+                            title:
+                                medicineProvider.searchQuery.isEmpty &&
+                                        medicineProvider
+                                            .selectedCategory
+                                            .isEmpty
+                                    ? 'جميع الأدوية'
+                                    : 'نتائج البحث/الفلترة',
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 8,
+                            ),
+                          ),
+                          _buildAllDrugsList(
+                            context,
+                            displayedMedicines,
+                          ) // Use displayedMedicines
+                          .animate().fadeIn(duration: 500.ms, delay: 400.ms),
+                        ],
                       ),
-                    ),
-                    _buildAllDrugsList(
-                      context,
-                      displayedMedicines,
-                    ) // Use displayedMedicines
-                    .animate().fadeIn(duration: 500.ms, delay: 400.ms),
-                  ],
-                ),
+            ),
+          ),
+          // Add Banner Ad at the bottom
+          const BannerAdWidget(),
+        ],
       ),
     );
   }
@@ -93,8 +114,8 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: InkWell(
         onTap: () {
-          // Clear search query when navigating to search screen? Optional.
-          // context.read<MedicineProvider>().setSearchQuery('');
+          // Increment ad counter when search is initiated
+          _adService.incrementUsageCounterAndShowAdIfNeeded();
           Navigator.push(
             context,
             MaterialPageRoute<void>(builder: (context) => const SearchScreen()),
@@ -167,14 +188,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       categoryIcons[categoryName] ??
                       Icons.category, // Get icon from map or default
                   onTap: () {
+                    // Increment ad counter when category is tapped
+                    _adService.incrementUsageCounterAndShowAdIfNeeded();
                     context.read<MedicineProvider>().setCategory(
                       categoryName,
                     ); // Filter by this category name
                     print(
                       "Category Tapped: $categoryName",
                     ); // Use categoryName here
-                    // Optionally navigate to a dedicated category screen or apply filter immediately
-                    // Navigator.push(...);
                   },
                 )
                 .animate() // Apply animation to the CategoryCard itself
@@ -196,6 +217,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // Helper method for navigation to avoid repetition
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
+    // Increment ad counter before navigating
+    _adService.incrementUsageCounterAndShowAdIfNeeded();
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => DrugDetailsScreen(drug: drug)),
