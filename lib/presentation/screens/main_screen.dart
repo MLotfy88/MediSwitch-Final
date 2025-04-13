@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:provider/provider.dart';
-// import 'home_screen.dart'; // Keep disabled for now
+import 'home_screen.dart'; // Re-enable HomeScreen import
 // import 'weight_calculator_screen.dart'; // Keep disabled for now
-// import 'settings_screen.dart'; // Keep disabled for now
+import 'settings_screen.dart'; // Re-enable SettingsScreen import
 // import '../widgets/custom_nav_bar.dart'; // Keep disabled for now
 
 class MainScreen extends StatefulWidget {
@@ -15,16 +15,12 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0; // Keep track of the selected tab index
 
-  // Re-enable screens list with placeholders
+  // Re-enable screens list with actual screens (except calculator)
   final List<Widget> _screens = [
-    const Center(child: Text('Home Placeholder')), // Placeholder for HomeScreen
+    const HomeScreen(), // Use actual HomeScreen
     const Center(child: Text('Alternatives Tab Placeholder')),
-    const Center(
-      child: Text('حاسبة الجرعات (قريباً)'),
-    ), // Placeholder for Calculator
-    const Center(
-      child: Text('Settings Placeholder'),
-    ), // Placeholder for SettingsScreen
+    const Center(child: Text('حاسبة الجرعات (قريباً)')), // Keep placeholder
+    const SettingsScreen(), // Use actual SettingsScreen
   ];
 
   // Map keys should ideally be unique identifiers for the screens
