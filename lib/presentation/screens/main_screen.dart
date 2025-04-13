@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:provider/provider.dart';
-import 'home_screen.dart'; // Re-enable HomeScreen import
-// import 'weight_calculator_screen.dart'; // Keep disabled for now
+import 'home_screen.dart'; // Keep import for later
 import 'settings_screen.dart'; // Re-enable SettingsScreen import
 import '../widgets/custom_nav_bar.dart'; // Re-enable CustomNavBar import
 
@@ -13,13 +12,15 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  int _selectedIndex = 0; // Keep track of the selected tab index
+  int _selectedIndex = 3; // Start with Settings tab selected for testing
 
-  // Re-enable screens list with actual screens (except calculator)
+  // Keep HomeScreen as placeholder, use actual SettingsScreen
   final List<Widget> _screens = [
-    const HomeScreen(), // Use actual HomeScreen
+    const Center(child: Text('Home Placeholder')), // Placeholder for HomeScreen
     const Center(child: Text('Alternatives Tab Placeholder')),
-    const Center(child: Text('حاسبة الجرعات (قريباً)')), // Keep placeholder
+    const Center(
+      child: Text('حاسبة الجرعات (قريباً)'),
+    ), // Placeholder for Calculator
     const SettingsScreen(), // Use actual SettingsScreen
   ];
 
