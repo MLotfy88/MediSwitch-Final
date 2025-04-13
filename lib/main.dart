@@ -32,14 +32,16 @@ Future<void> main() async {
   final Widget initialScreen =
       onboardingComplete ? const MainScreen() : const OnboardingScreen();
 
-  // Seed the database if needed after locator setup
-  try {
-    final localDataSource = locator<SqliteLocalDataSource>();
-    await localDataSource.seedDatabaseFromAssetIfNeeded();
-  } catch (e) {
-    print("Error during post-locator seeding: $e");
-    // Handle seeding error if necessary (e.g., show error screen)
-  }
+  // --- Temporarily Disable Seeding for Performance Testing ---
+  // try {
+  //   final localDataSource = locator<SqliteLocalDataSource>();
+  //   await localDataSource.seedDatabaseFromAssetIfNeeded();
+  // } catch (e) {
+  //   print("Error during post-locator seeding: $e");
+  //   // Handle seeding error if necessary (e.g., show error screen)
+  // }
+  print("INFO: Database seeding is temporarily disabled for testing.");
+  // --- End of Temporarily Disabled Code ---
   // Initialize SubscriptionProvider asynchronously in the background
   // We don't await this, allowing the UI to build faster.
   // Initialization will complete, and the provider will notify listeners later.
