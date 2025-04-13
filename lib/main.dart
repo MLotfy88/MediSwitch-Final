@@ -3,7 +3,7 @@ import 'package:provider/provider.dart'; // Re-enable provider
 import 'package:shared_preferences/shared_preferences.dart'; // Re-enable SharedPreferences
 import 'core/di/locator.dart'; // Re-enable locator
 // import 'data/datasources/local/sqlite_local_data_source.dart'; // Keep disabled
-import 'presentation/bloc/medicine_provider.dart'; // Re-enable MedicineProvider
+// import 'presentation/bloc/medicine_provider.dart'; // Keep disabled for now
 import 'presentation/bloc/settings_provider.dart'; // Re-enable SettingsProvider
 // import 'presentation/bloc/alternatives_provider.dart'; // Keep disabled
 // import 'presentation/bloc/dose_calculator_provider.dart'; // Keep disabled
@@ -18,9 +18,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // --- Setup only necessary parts for this test ---
-  // We need SharedPreferences for SettingsProvider and onboarding check
-  // Also need dependencies for MedicineProvider
-  await setupLocator(); // Use the partially re-enabled locator
+  // Use the minimal locator setup (SettingsProvider only)
+  await setupLocator(); // This now only sets up SharedPreferences, http.Client, SettingsProvider
 
   // --- End of minimal setup ---
 
@@ -30,8 +29,10 @@ Future<void> main() async {
       prefs.getBool(_prefsKeyOnboardingDone) ?? false;
 
   // Determine the initial screen
-  final Widget initialScreen =
-      onboardingComplete ? const MainScreen() : const OnboardingScreen();
+  // For this test, let's always show OnboardingScreen first
+  // final Widget initialScreen = onboardingComplete ? const MainScreen() : const OnboardingScreen();
+  const Widget initialScreen =
+      OnboardingScreen(); // Directly set OnboardingScreen
 
   // --- Seeding remains disabled ---
   print("INFO: Database seeding is temporarily disabled for testing.");
@@ -39,7 +40,7 @@ Future<void> main() async {
   // --- Subscription init remains disabled ---
   // locator<SubscriptionProvider>().initialize();
 
-  // Run the app with SettingsProvider and MedicineProvider
+  // Run the app with only SettingsProvider and OnboardingScreen
   runApp(MyAppMinimal(homeWidget: initialScreen));
 }
 
@@ -51,19 +52,9 @@ class MyAppMinimal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Provide SettingsProvider and MedicineProvider
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => locator<SettingsProvider>()),
-        ChangeNotifierProvider(
-          create: (_) => locator<MedicineProvider>(),
-        ), // Re-enable MedicineProvider
-        // --- Other providers remain commented out ---
-        // ChangeNotifierProvider(create: (_) => locator<AlternativesProvider>()),
-        // ChangeNotifierProvider(create: (_) => locator<DoseCalculatorProvider>()),
-        // ChangeNotifierProvider(create: (_) => locator<InteractionProvider>()),
-        // ChangeNotifierProvider(create: (_) => locator<SubscriptionProvider>()),
-      ],
+    // Only provide SettingsProvider for this test
+    return ChangeNotifierProvider(
+      create: (_) => locator<SettingsProvider>(),
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
           // Show loading indicator until settings are loaded
@@ -76,7 +67,7 @@ class MyAppMinimal extends StatelessWidget {
           // Build the app once settings are loaded
           // Use a basic theme for now
           return MaterialApp(
-            title: 'MediSwitch (MedicineProvider Test)', // Updated title
+            title: 'MediSwitch (Onboarding Test)', // Updated title
             debugShowCheckedModeBanner: false,
             themeMode: settingsProvider.themeMode,
             theme: ThemeData.light(useMaterial3: true).copyWith(
@@ -90,7 +81,7 @@ class MyAppMinimal extends StatelessWidget {
               ),
             ),
             locale: settingsProvider.locale,
-            home: homeWidget, // Show OnboardingScreen or MainScreen
+            home: homeWidget, // Show OnboardingScreen
           );
         },
       ),
