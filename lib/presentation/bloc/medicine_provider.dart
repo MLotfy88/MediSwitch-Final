@@ -79,36 +79,32 @@ class MedicineProvider extends ChangeNotifier {
 
   // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
-    print("MedicineProvider: loadInitialData called (Simplified for testing)");
-    _isLoading = true;
-    _error = '';
-    // Notify immediately to show loading indicator
-    // Use WidgetsBinding to ensure notifyListeners is called safely if called from constructor
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (isLoading) {
-        // Check if still loading (might have finished quickly)
-        notifyListeners();
-      }
-    });
+    print(
+      "MedicineProvider: loadInitialData called (EXTREMELY Simplified - Doing Nothing)",
+    );
+    // --- Temporarily Disable EVERYTHING inside loadInitialData ---
+    // _isLoading = true;
+    // _error = '';
+    // notifyListeners(); // Initial notification removed
 
-    // --- Temporarily Disable All Data Loading for Performance Testing ---
     // final updateResult = await getAllDrugsUseCase(NoParams());
     // await _loadCategories();
     // await _loadAndUpdateTimestamp();
-    // await _applyFilters(); // This fetches initial 50 drugs
+    // await _applyFilters();
 
     // updateResult.fold( ... );
+
+    // await Future.delayed(const Duration(milliseconds: 100));
+
+    // _isLoading = false; // Keep it loading indefinitely for this test
+    // _filteredMedicines = [];
+    // _categories = [];
+    // _error = '';
+    // notifyListeners(); // Final notification removed
     // --- End of Temporarily Disabled Code ---
-
-    // Simulate finishing loading after a short delay
-    await Future.delayed(const Duration(milliseconds: 100)); // Small delay
-
-    _isLoading = false;
-    _filteredMedicines = []; // Ensure list is empty initially
-    _categories = []; // Ensure categories are empty
-    _error = ''; // Ensure no error message
-    notifyListeners();
-    print("MedicineProvider: loadInitialData finished (Simplified)");
+    print(
+      "MedicineProvider: loadInitialData finished (EXTREMELY Simplified - Did Nothing)",
+    );
   }
 
   Future<void> _loadCategories() async {
