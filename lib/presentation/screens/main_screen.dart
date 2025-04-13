@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 // import 'package:provider/provider.dart';
-// import 'home_screen.dart';
-// import 'weight_calculator_screen.dart';
-// import 'settings_screen.dart';
-// import '../widgets/custom_nav_bar.dart'; // Assuming this exists
+// import 'home_screen.dart'; // Keep disabled for now
+// import 'weight_calculator_screen.dart'; // Keep disabled for now
+// import 'settings_screen.dart'; // Keep disabled for now
+// import '../widgets/custom_nav_bar.dart'; // Keep disabled for now
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -13,48 +13,41 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  // int _selectedIndex = 0; // Keep track of the selected tab index
+  int _selectedIndex = 0; // Keep track of the selected tab index
 
-  // final List<Widget> _screens = [
-  //   const HomeScreen(),
-  //   // Replace with a placeholder or remove this tab for now.
-  //   const Center(child: Text('Alternatives Tab Placeholder')),
-  //   // Temporarily disable WeightCalculatorScreen for MVP v1.0
-  //   const Center(child: Text('حاسبة الجرعات (قريباً)')),
-  //   // const WeightCalculatorScreen(),
-  //   const SettingsScreen(),
-  // ];
+  // Re-enable screens list with placeholders
+  final List<Widget> _screens = [
+    const Center(child: Text('Home Placeholder')), // Placeholder for HomeScreen
+    const Center(child: Text('Alternatives Tab Placeholder')),
+    const Center(
+      child: Text('حاسبة الجرعات (قريباً)'),
+    ), // Placeholder for Calculator
+    const Center(
+      child: Text('Settings Placeholder'),
+    ), // Placeholder for SettingsScreen
+  ];
 
-  // // Map keys should ideally be unique identifiers for the screens
+  // Map keys should ideally be unique identifiers for the screens
   // final Map<int, String> _navigatorKeys = {
   //   0: 'HomeScreen',
   //   1: 'AlternativesPlaceholder',
-  //   2: 'WeightCalculatorPlaceholder', // Adjusted name
+  //   2: 'WeightCalculatorPlaceholder',
   //   3: 'SettingsScreen',
   // };
 
-  // void _onItemTapped(int index) {
-  //   setState(() {
-  //     _selectedIndex = index;
-  //   });
-  // }
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    // Return a very simple Scaffold for testing
-    return const Scaffold(body: Center(child: Text('MainScreen Placeholder')));
-
-    // --- Original Scaffold with BottomNavBar commented out ---
-    /*
+    // Use IndexedStack to show the selected screen
     return Scaffold(
-      body: IndexedStack( // Use IndexedStack to preserve state
-        index: _selectedIndex,
-        children: _screens.map((screen) {
-          // You might need Navigator keys if you want separate navigation stacks per tab
-          // For simplicity now, we just show the screen directly.
-          return screen;
-        }).toList(),
-      ),
+      body: IndexedStack(index: _selectedIndex, children: _screens),
+      // Keep BottomNavigationBar commented out for now
+      /*
       bottomNavigationBar: CustomNavBar( // Use the custom navigation bar
         selectedIndex: _selectedIndex,
         onItemSelected: _onItemTapped,
@@ -65,7 +58,7 @@ class _MainScreenState extends State<MainScreen> {
           NavBarItem(icon: Icons.settings_outlined, label: 'الإعدادات'),
         ],
       ),
+      */
     );
-    */
   }
 }
