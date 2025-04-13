@@ -58,179 +58,64 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<http.Client>(() => http.Client());
 
   // --- Core ---
-  // Register DatabaseHelper as a singleton and wait for it
-  locator.registerSingletonAsync<DatabaseHelper>(() async {
-    final helper = DatabaseHelper();
-    // Initialize the database upon registration
-    await helper.database;
-    return helper;
-  });
-  // locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper()); // Removed duplicate registration
-
+  // Temporarily disable DB Helper registration
+  // locator.registerSingletonAsync<DatabaseHelper>(() async {
+  //    final helper = DatabaseHelper();
+  //    await helper.database;
+  //    return helper;
+  // });
   // --- Data Sources ---
-  // Wait for SharedPreferences AND DatabaseHelper to be ready
-  await Future.wait([
-    locator.isReady<SharedPreferences>(),
-    locator.isReady<DatabaseHelper>(),
-  ]);
+  // Wait only for SharedPreferences for now
+  await locator.isReady<SharedPreferences>();
+  // await Future.wait([
+  //    locator.isReady<SharedPreferences>(),
+  //    locator.isReady<DatabaseHelper>(),
+  // ]);
 
-  locator.registerLazySingleton<DrugRemoteDataSource>(() {
-    const backendUrl = String.fromEnvironment(
-      'BACKEND_URL',
-      defaultValue: 'http://localhost:8000', // Default for local development
-    );
-    return DrugRemoteDataSourceImpl(
-      baseUrl: backendUrl,
-      client: locator<http.Client>(),
-    );
-  }); // End of DrugRemoteDataSource registration
+  // --- Temporarily Disable Most Registrations ---
+  print("INFO: Temporarily disabling most locator registrations for testing.");
 
-  // Register ConfigRemoteDataSource separately
-  locator.registerLazySingleton<ConfigRemoteDataSource>(() {
-    const backendUrl = String.fromEnvironment(
-      'BACKEND_URL',
-      defaultValue: 'http://localhost:8000', // Default for local development
-    );
-    return ConfigRemoteDataSourceImpl(
-      client: locator<http.Client>(),
-      baseUrl: backendUrl,
-    );
-  });
-  // Register SqliteLocalDataSource instead of CsvLocalDataSource
-  locator.registerLazySingleton<SqliteLocalDataSource>(
-    () => SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>()),
-  );
-  // locator.registerLazySingleton<CsvLocalDataSource>(() => CsvLocalDataSource()); // Removed CSV
-  locator.registerLazySingleton<InteractionLocalDataSource>(
-    () => InteractionLocalDataSourceImpl(), // Assuming it loads from assets
-  );
-  locator.registerLazySingleton<AnalyticsRemoteDataSource>(() {
-    const backendUrl = String.fromEnvironment(
-      'BACKEND_URL',
-      defaultValue: 'http://localhost:8000',
-    );
-    return AnalyticsRemoteDataSourceImpl(
-      client: locator<http.Client>(),
-      baseUrl: backendUrl,
-      // authTokenProvider: locator<AuthTokenProvider>(), // Add if auth is needed
-    );
-  });
+  // locator.registerLazySingleton<DrugRemoteDataSource>(() { ... });
+  // locator.registerLazySingleton<ConfigRemoteDataSource>(() { ... });
+  // locator.registerLazySingleton<SqliteLocalDataSource>(() => ...);
+  // locator.registerLazySingleton<InteractionLocalDataSource>(() => ...);
+  // locator.registerLazySingleton<AnalyticsRemoteDataSource>(() { ... });
 
   // --- Repositories ---
-  locator.registerLazySingleton<DrugRepository>(
-    () => DrugRepositoryImpl(
-      remoteDataSource: locator<DrugRemoteDataSource>(),
-      localDataSource: locator<SqliteLocalDataSource>(), // Use SQLite DS
-      // No SharedPreferences needed here anymore
-    ),
-  );
-  locator.registerLazySingleton<ConfigRepository>(
-    () => ConfigRepositoryImpl(
-      remoteDataSource: locator<ConfigRemoteDataSource>(),
-    ),
-  );
-  locator.registerLazySingleton<InteractionRepository>(
-    // InteractionRepositoryImpl loads data internally, no datasource needed in constructor
-    () => InteractionRepositoryImpl(),
-  );
-  locator.registerLazySingleton<AnalyticsRepository>(
-    () => AnalyticsRepositoryImpl(
-      remoteDataSource: locator<AnalyticsRemoteDataSource>(),
-    ),
-  );
+  // locator.registerLazySingleton<DrugRepository>(() => ...);
+  // locator.registerLazySingleton<ConfigRepository>(() => ...);
+  // locator.registerLazySingleton<InteractionRepository>(() => ...);
+  // locator.registerLazySingleton<AnalyticsRepository>(() => ...);
 
   // --- Use Cases ---
-  locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
-  locator.registerLazySingleton(
-    () => SearchDrugsUseCase(locator<DrugRepository>()),
-  ); // Corrected Name
-  locator.registerLazySingleton(
-    () => FilterDrugsByCategoryUseCase(
-      locator<DrugRepository>(),
-    ), // Corrected Name
-  );
-  locator.registerLazySingleton(
-    () => GetAvailableCategoriesUseCase(
-      locator<DrugRepository>(),
-    ), // Corrected Name
-  );
-  locator.registerLazySingleton(
-    () => FindDrugAlternativesUseCase(
-      locator<DrugRepository>(),
-    ), // Corrected Name
-  );
-  locator.registerLazySingleton(
-    () => LoadInteractionData(locator<InteractionRepository>()),
-  );
-  locator.registerLazySingleton(
-    // Register GetLastUpdateTimestampUseCase
-    () => GetLastUpdateTimestampUseCase(locator<DrugRepository>()),
-  );
-  locator.registerLazySingleton(
-    () => GetAdMobConfig(locator<ConfigRepository>()),
-  );
-  locator.registerLazySingleton(
-    () => GetGeneralConfig(locator<ConfigRepository>()),
-  );
-  locator.registerLazySingleton(
-    () => GetAnalyticsSummary(locator<AnalyticsRepository>()),
-  ); // Register Analytics Use Case
+  // locator.registerLazySingleton(() => GetAllDrugs(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => SearchDrugsUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => FilterDrugsByCategoryUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => GetAvailableCategoriesUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => FindDrugAlternativesUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => LoadInteractionData(locator<InteractionRepository>()));
+  // locator.registerLazySingleton(() => GetLastUpdateTimestampUseCase(locator<DrugRepository>()));
+  // locator.registerLazySingleton(() => GetAdMobConfig(locator<ConfigRepository>()));
+  // locator.registerLazySingleton(() => GetGeneralConfig(locator<ConfigRepository>()));
+  // locator.registerLazySingleton(() => GetAnalyticsSummary(locator<AnalyticsRepository>()));
 
   // --- Services ---
-  locator.registerLazySingleton(() => DosageCalculatorService());
-  locator.registerLazySingleton(() => InteractionCheckerService());
-  locator.registerLazySingleton<AnalyticsService>(() {
-    // Define baseUrl consistently
-    const backendUrl = String.fromEnvironment(
-      'BACKEND_URL',
-      defaultValue: 'http://localhost:8000', // Default for local development
-    );
-    return AnalyticsServiceImpl(
-      client: locator<http.Client>(),
-      baseUrl: backendUrl,
-    );
-  }); // Close the registration closure
+  // locator.registerLazySingleton(() => DosageCalculatorService());
+  // locator.registerLazySingleton(() => InteractionCheckerService());
+  // locator.registerLazySingleton<AnalyticsService>(() { ... });
   // --- Providers / Blocs ---
-  // Register providers as Factories because they hold state specific to where they are used.
-  // They will depend on UseCases or Repositories.
-  locator.registerFactory(
-    () => MedicineProvider(
-      getAllDrugsUseCase: locator<GetAllDrugs>(),
-      searchDrugsUseCase: locator<SearchDrugsUseCase>(), // Corrected Name
-      filterDrugsByCategoryUseCase:
-          locator<FilterDrugsByCategoryUseCase>(), // Corrected Name
-      getAvailableCategoriesUseCase:
-          locator<GetAvailableCategoriesUseCase>(), // Corrected Name
-      getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
-      getAnalyticsSummaryUseCase:
-          locator<GetAnalyticsSummary>(), // Added analytics use case
-    ),
-  );
-  locator.registerFactory(
-    () => AlternativesProvider(
-      findDrugAlternativesUseCase:
-          locator<FindDrugAlternativesUseCase>(), // Corrected Name
-    ),
-  );
-  locator.registerFactory(
-    () => DoseCalculatorProvider(
-      dosageCalculatorService: locator<DosageCalculatorService>(),
-    ),
-  );
-  locator.registerFactory(
-    () => InteractionProvider(
-      // Pass the repository and service instances from the locator
-      interactionRepository: locator<InteractionRepository>(),
-      interactionCheckerService: locator<InteractionCheckerService>(),
-      // loadInteractionDataUseCase is not needed in constructor
-    ),
-  );
-  locator.registerFactory(
-    // SettingsProvider gets SharedPreferences internally
-    () => SettingsProvider(),
-  );
-  // Register SubscriptionProvider as a Singleton since it manages background listeners
-  locator.registerLazySingleton(() => SubscriptionProvider());
+  // Register providers as Factories
+  // Temporarily disable providers that depend on disabled components
+  // locator.registerFactory(() => MedicineProvider(...));
+  // locator.registerFactory(() => AlternativesProvider(...));
+  // locator.registerFactory(() => DoseCalculatorProvider(...));
+  // locator.registerFactory(() => InteractionProvider(...));
+
+  // Keep SettingsProvider as it's needed by MyApp and only depends on SharedPreferences
+  locator.registerFactory(() => SettingsProvider());
+
+  // Temporarily disable SubscriptionProvider
+  // locator.registerLazySingleton(() => SubscriptionProvider());
 
   // Ensure all asynchronous singletons are ready (optional, but good practice)
   // Commenting out to see if it improves perceived startup time.
