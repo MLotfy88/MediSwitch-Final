@@ -13,7 +13,8 @@ import '../../domain/usecases/get_analytics_summary.dart'; // Import analytics u
 import '../../domain/repositories/analytics_repository.dart'; // Import AnalyticsSummary entity
 import '../../core/usecases/usecase.dart';
 
-class MedicineProvider extends ChangeNotifier {
+// Add mounted check mixin for safety with async operations
+class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final GetAllDrugs getAllDrugsUseCase; // Keep for update check trigger
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
@@ -22,12 +23,8 @@ class MedicineProvider extends ChangeNotifier {
   final GetAnalyticsSummary getAnalyticsSummaryUseCase;
 
   // State variables
-  // List<DrugEntity> _medicines = []; // Removed: No longer caching all medicines
-  List<DrugEntity> _filteredMedicines =
-      []; // Holds the currently displayed/filtered list
-  // List<DrugEntity> _recentlyUpdatedMedicines = []; // Removed: Fetch on demand if needed
+  List<DrugEntity> _filteredMedicines = [];
   List<String> _categories = [];
-  // List<DrugEntity> _popularDrugs = []; // Removed: Fetch on demand if needed
   String _searchQuery = '';
   String _selectedCategory = '';
   String _selectedDosageForm = '';
@@ -37,6 +34,10 @@ class MedicineProvider extends ChangeNotifier {
   bool _isLoading = true;
   String _error = '';
   int? _lastUpdateTimestamp;
+
+  // Flag to track if initial load is complete
+  bool _isInitialLoadComplete = false;
+  bool get isInitialLoadComplete => _isInitialLoadComplete;
 
   MedicineProvider({
     required this.getAllDrugsUseCase,
@@ -50,10 +51,7 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   // Getters
-  // List<DrugEntity> get medicines => _medicines; // Removed
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  // List<DrugEntity> get recentlyUpdatedMedicines => _recentlyUpdatedMedicines; // Removed
-  // List<DrugEntity> get popularDrugs => _popularDrugs; // Removed
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
   String get error => _error;
@@ -70,7 +68,7 @@ class MedicineProvider extends ChangeNotifier {
       final dateTime = DateTime.fromMillisecondsSinceEpoch(
         _lastUpdateTimestamp!,
       );
-      return DateFormat('yyyy-MM-dd HH:mm', 'en').format(dateTime); // Use intl
+      return DateFormat('yyyy-MM-dd HH:mm', 'en').format(dateTime);
     } catch (e) {
       print("Error formatting timestamp: $e");
       return 'تنسيق غير صالح';
@@ -79,32 +77,56 @@ class MedicineProvider extends ChangeNotifier {
 
   // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
-    print(
-      "MedicineProvider: loadInitialData called (EXTREMELY Simplified - Doing Nothing)",
+    // Prevent multiple simultaneous initial loads
+    if (_isLoading && _isInitialLoadComplete) return;
+
+    print("MedicineProvider: loadInitialData called (Original Logic)");
+    _isLoading = true;
+    _error = '';
+    _isInitialLoadComplete = false; // Mark as loading
+    // Use WidgetsBinding only if called from constructor context might be unsafe
+    // notifyListeners(); // Notify immediately might be too early
+
+    // Ensure listeners are notified safely after the frame is built
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (isLoading) {
+        // Check if still loading
+        notifyListeners();
+      }
+    });
+
+    // Trigger update check (getAllDrugs in repo now handles this)
+    final updateResult = await getAllDrugsUseCase(NoParams());
+
+    // Regardless of update success/failure, load categories and timestamp
+    await _loadCategories();
+    await _loadAndUpdateTimestamp();
+
+    // Apply initial filters (fetching initial view)
+    await _applyFilters(); // This will set isLoading = false and notify
+
+    // Handle potential failure from the update check *after* attempting initial filter/load
+    updateResult.fold(
+      (failure) {
+        // Set error state, _applyFilters would have already set isLoading=false
+        _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
+        print(_error);
+        notifyListeners(); // Notify about the error
+      },
+      (_) {
+        // Update successful or not needed, state already handled by _applyFilters
+        print("MedicineProvider: Update check successful or not needed.");
+      },
     );
-    // --- Temporarily Disable EVERYTHING inside loadInitialData ---
-    // _isLoading = true;
-    // _error = '';
-    // notifyListeners(); // Initial notification removed
 
-    // final updateResult = await getAllDrugsUseCase(NoParams());
-    // await _loadCategories();
-    // await _loadAndUpdateTimestamp();
-    // await _applyFilters();
+    _isInitialLoadComplete = true; // Mark initial load as complete
 
-    // updateResult.fold( ... );
-
-    // await Future.delayed(const Duration(milliseconds: 100));
-
-    // _isLoading = false; // Keep it loading indefinitely for this test
-    // _filteredMedicines = [];
-    // _categories = [];
-    // _error = '';
-    // notifyListeners(); // Final notification removed
-    // --- End of Temporarily Disabled Code ---
-    print(
-      "MedicineProvider: loadInitialData finished (EXTREMELY Simplified - Did Nothing)",
-    );
+    // Ensure loading is false if _applyFilters didn't run or failed early
+    if (_isLoading) {
+      _isLoading = false;
+      notifyListeners();
+    }
+    print("MedicineProvider: loadInitialData finished (Original Logic)");
   }
 
   Future<void> _loadCategories() async {
@@ -118,6 +140,7 @@ class MedicineProvider extends ChangeNotifier {
         _categories = categories;
       },
     );
+    // Don't notify here, let loadInitialData handle it
   }
 
   Future<void> _loadAndUpdateTimestamp() async {
@@ -135,9 +158,8 @@ class MedicineProvider extends ChangeNotifier {
           print("Last update timestamp loaded: $_lastUpdateTimestamp");
       },
     );
+    // Don't notify here, let loadInitialData handle it
   }
-
-  // Removed _populateRecentlyUpdated and _loadPopularDrugs
 
   Future<void> setSearchQuery(String query) async {
     _searchQuery = query;
@@ -163,7 +185,7 @@ class MedicineProvider extends ChangeNotifier {
   Future<void> _applyFilters() async {
     _isLoading = true;
     _error = '';
-    notifyListeners();
+    notifyListeners(); // Notify that filtering started
 
     Either<Failure, List<DrugEntity>> result;
 
@@ -175,13 +197,11 @@ class MedicineProvider extends ChangeNotifier {
         FilterParams(category: _selectedCategory),
       );
     } else {
-      // No primary filter, fetch all (or a limited initial set)
       // No primary filter, fetch an initial limited set
       const initialLimit = 50; // Define a limit for the initial load
       result = await searchDrugsUseCase(
         SearchParams(query: '', limit: initialLimit),
       );
-      // TODO: Consider adding a dedicated "get initial list" or paginated fetch later
     }
 
     // Apply secondary filters (dosage form, price) locally on the results
@@ -222,13 +242,12 @@ class MedicineProvider extends ChangeNotifier {
         _filteredMedicines = filteredDrugs;
         _error = ''; // Clear error on success
         // TODO: Recalculate min/max price based on the *filtered* results?
-        // Or keep the global min/max calculated once in loadInitialData?
         // For simplicity, keep global min/max for now.
       },
     );
 
     _isLoading = false;
-    notifyListeners();
+    notifyListeners(); // Notify that filtering finished
   }
 
   String _mapFailureToMessage(Failure failure) {
@@ -237,9 +256,9 @@ class MedicineProvider extends ChangeNotifier {
         return 'خطأ في الوصول للبيانات المحلية.';
       case InitialLoadFailure:
         return 'فشل تحميل البيانات الأولية. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
-      case ServerFailure: // Added ServerFailure case
+      case ServerFailure:
         return 'خطأ في الاتصال بالخادم.';
-      case NetworkFailure: // Added NetworkFailure case
+      case NetworkFailure:
         return 'خطأ في الشبكة. يرجى التحقق من اتصالك.';
       default:
         return 'حدث خطأ غير متوقع.';
@@ -296,5 +315,37 @@ class MedicineProvider extends ChangeNotifier {
         return null;
       }
     }
+  }
+
+  // Add DiagnosticableTreeMixin methods
+  @override
+  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
+    super.debugFillProperties(properties);
+    properties.add(
+      IterableProperty<DrugEntity>('filteredMedicines', _filteredMedicines),
+    );
+    properties.add(IterableProperty<String>('categories', _categories));
+    properties.add(StringProperty('searchQuery', _searchQuery));
+    properties.add(StringProperty('selectedCategory', _selectedCategory));
+    properties.add(
+      DiagnosticsProperty<RangeValues>(
+        'selectedPriceRange',
+        _selectedPriceRange,
+      ),
+    );
+    properties.add(DoubleProperty('minPrice', _minPrice));
+    properties.add(DoubleProperty('maxPrice', _maxPrice));
+    properties.add(
+      FlagProperty('isLoading', value: _isLoading, ifTrue: 'LOADING'),
+    );
+    properties.add(StringProperty('error', _error, defaultValue: ''));
+    properties.add(IntProperty('lastUpdateTimestamp', _lastUpdateTimestamp));
+    properties.add(
+      FlagProperty(
+        'isInitialLoadComplete',
+        value: _isInitialLoadComplete,
+        ifTrue: 'LOADED',
+      ),
+    );
   }
 }
