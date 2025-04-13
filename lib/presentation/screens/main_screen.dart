@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart'; // Re-enable HomeScreen import
 // import 'weight_calculator_screen.dart'; // Keep disabled for now
 import 'settings_screen.dart'; // Re-enable SettingsScreen import
-// import '../widgets/custom_nav_bar.dart'; // Keep disabled for now
+import '../widgets/custom_nav_bar.dart'; // Re-enable CustomNavBar import
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -42,19 +42,21 @@ class _MainScreenState extends State<MainScreen> {
     // Use IndexedStack to show the selected screen
     return Scaffold(
       body: IndexedStack(index: _selectedIndex, children: _screens),
-      // Keep BottomNavigationBar commented out for now
-      /*
-      bottomNavigationBar: CustomNavBar( // Use the custom navigation bar
+      // Re-enable BottomNavigationBar
+      bottomNavigationBar: CustomNavBar(
+        // Use the custom navigation bar
         selectedIndex: _selectedIndex,
         onItemSelected: _onItemTapped,
         items: const [
           NavBarItem(icon: Icons.home_outlined, label: 'الرئيسية'),
-          NavBarItem(icon: Icons.swap_horiz_outlined, label: 'البدائل'), // Placeholder icon/label
+          NavBarItem(
+            icon: Icons.swap_horiz_outlined,
+            label: 'البدائل',
+          ), // Placeholder icon/label
           NavBarItem(icon: Icons.calculate_outlined, label: 'الحاسبة'),
           NavBarItem(icon: Icons.settings_outlined, label: 'الإعدادات'),
         ],
       ),
-      */
     );
   }
 }
