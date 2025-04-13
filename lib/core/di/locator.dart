@@ -153,8 +153,6 @@ Future<void> setupLocator() async {
       getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
       // Provide a dummy GetAnalyticsSummary if AnalyticsRepository is not registered
-      // We need GetAnalyticsSummary use case, so let's register its dependencies too
-      // Re-enable Analytics Repo and DS if needed by GetAnalyticsSummary
       getAnalyticsSummaryUseCase:
           locator.isRegistered<AnalyticsRepository>()
               ? GetAnalyticsSummary(locator<AnalyticsRepository>())
