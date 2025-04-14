@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
-  final Widget? action; // Optional action widget (e.g., TextButton)
+  final VoidCallback? onViewAll; // Add optional callback for "View All"
+  final Widget? action; // Keep optional action widget
   final EdgeInsetsGeometry padding;
 
   const SectionHeader({
     super.key,
     required this.title,
-    this.action,
+    this.onViewAll,
+    this.action, // Keep action
     this.padding = const EdgeInsets.only(
       left: 16.0,
       right: 16.0,
@@ -40,10 +42,25 @@ class SectionHeader extends StatelessWidget {
               overflow: TextOverflow.ellipsis, // Handle long titles
             ),
           ),
-          if (action != null) ...[
-            const SizedBox(width: 8), // Add space if action exists
-            action!,
-          ],
+          // Show either the custom action OR the "View All" button
+          if (action != null)
+            action!
+          else if (onViewAll != null)
+            TextButton(
+              onPressed: onViewAll,
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.zero,
+                minimumSize: Size.zero,
+                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
+              child: Text(
+                'عرض الكل',
+                style: textTheme.bodySmall?.copyWith(
+                  color: colorScheme.primary,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
         ],
       ),
     );

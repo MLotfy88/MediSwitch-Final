@@ -3,19 +3,21 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/medicine_provider.dart';
-import '../widgets/filter_bottom_sheet.dart'; // Keep for potential future use
+// import '../widgets/filter_bottom_sheet.dart'; // Not used directly here
 import 'search_screen.dart';
 import 'drug_details_screen.dart';
 import '../widgets/drug_card.dart';
 import '../widgets/section_header.dart';
-import '../widgets/home_header.dart'; // Correct import
+import '../widgets/home_header.dart';
 import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/search_bar_button.dart'; // Import the new search bar button
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../services/ad_service.dart';
+import 'package:lucide_icons/lucide_icons.dart'; // Import lucide_icons
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -74,6 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
+          const HomeHeader(),
           Expanded(
             child: RefreshIndicator(
               onRefresh: () {
@@ -83,7 +86,6 @@ class _HomeScreenState extends State<HomeScreen> {
               child:
                   isLoading && displayedMedicines.isEmpty
                       ? _buildLoadingIndicator()
-                      // Pass isLoading, isLoadingMore, and error correctly
                       : _buildContent(
                         context,
                         medicineProvider,
@@ -105,7 +107,6 @@ class _HomeScreenState extends State<HomeScreen> {
     return const Center(child: CircularProgressIndicator());
   }
 
-  // Corrected signature for _buildContent
   Widget _buildContent(
     BuildContext context,
     MedicineProvider medicineProvider,
@@ -114,141 +115,94 @@ class _HomeScreenState extends State<HomeScreen> {
     bool isLoadingMore,
     String error,
   ) {
-    _logger.v("HomeScreen: Building main content ListView.");
-    if (error.isNotEmpty && displayedMedicines.isEmpty) {
+    _logger.v("HomeScreen: Building main content CustomScrollView.");
+    if (error.isNotEmpty && displayedMedicines.isEmpty && !isLoading) {
       return _buildErrorWidget(context, error);
     }
 
-    return ListView.builder(
+    return CustomScrollView(
       controller: _scrollController,
-      padding: EdgeInsets.zero,
-      itemCount: displayedMedicines.length + 1,
-      itemBuilder: (context, index) {
-        if (index == 0) {
-          return Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const HomeHeader(), // Use the corrected HomeHeader
-              _buildSearchBar(context),
-              const SizedBox(height: 16.0),
-              _buildCategoriesSection(context),
-              const SizedBox(height: 16.0),
-              SectionHeader(
-                title:
-                    medicineProvider.searchQuery.isEmpty &&
-                            medicineProvider.selectedCategory.isEmpty
-                        ? 'الأدوية'
-                        : 'نتائج البحث/الفلترة',
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16,
-                  vertical: 8,
-                ),
-              ),
-              // Use the passed isLoading parameter correctly
-              if (displayedMedicines.isEmpty &&
-                  !isLoading &&
-                  !isLoadingMore &&
-                  error.isEmpty)
-                _buildEmptyListMessage(context, medicineProvider),
-            ],
-          );
-        }
-
-        final itemIndex = index - 1;
-
-        if (itemIndex < displayedMedicines.length) {
-          final drug = displayedMedicines[itemIndex];
-          return Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 16.0,
-              vertical: 4.0,
+      slivers: [
+        SliverToBoxAdapter(child: const SearchBarButton()),
+        SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.only(
+              top: 24.0,
+              bottom: 8.0,
+              right: 16.0,
+              left: 16.0,
             ),
-            child: DrugCard(
-              drug: drug,
-              type: DrugCardType.detailed,
-              onTap: () => _navigateToDetails(context, drug),
+            child: SectionHeader(title: 'الأدوية'),
+          ),
+        ),
+        if (displayedMedicines.isNotEmpty)
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            sliver: SliverList(
+              delegate: SliverChildBuilderDelegate((context, index) {
+                final drug = displayedMedicines[index];
+                return Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4.0),
+                  child: DrugCard(
+                    drug: drug,
+                    type: DrugCardType.detailed,
+                    onTap: () => _navigateToDetails(context, drug),
+                  ),
+                ).animate().fadeIn(delay: (index % 10 * 50).ms);
+              }, childCount: displayedMedicines.length),
             ),
-          ).animate().fadeIn(delay: (itemIndex % 10 * 50).ms);
-        } else if (isLoadingMore) {
-          _logger.v(
-            "HomeScreen: Building loading more indicator at end of list.",
-          );
-          return const Padding(
-            padding: EdgeInsets.symmetric(vertical: 32.0),
-            child: Center(child: CircularProgressIndicator()),
-          );
-        } else if (!medicineProvider.hasMoreItems &&
-            displayedMedicines.isNotEmpty) {
-          _logger.v("HomeScreen: Building 'end of list' message.");
-          return Padding(
-            padding: const EdgeInsets.symmetric(
-              vertical: 32.0,
-              horizontal: 16.0,
-            ),
-            child: Center(
-              child: Text(
-                'وصلت إلى نهاية القائمة',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Theme.of(context).hintColor,
-                ),
-              ),
-            ),
-          );
-        } else {
-          return Container(height: 0);
-        }
-      },
+          ),
+        SliverToBoxAdapter(
+          child: _buildListFooter(
+            context,
+            medicineProvider,
+            displayedMedicines,
+            isLoading,
+            isLoadingMore,
+            error,
+          ),
+        ),
+      ],
     );
   }
 
-  Widget _buildSearchBar(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      child: InkWell(
-        onTap: () {
-          _logger.i("HomeScreen: Search bar tapped.");
-          _adService.incrementUsageCounterAndShowAdIfNeeded();
-          Navigator.push(
-            context,
-            // Pass empty query to SearchScreen to show all initially
-            MaterialPageRoute<void>(
-              builder: (context) => const SearchScreen(initialQuery: ''),
-            ), // Keep error for now
-          );
-        },
-        child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-          decoration: BoxDecoration(
-            color:
-                colorScheme.brightness == Brightness.dark
-                    ? colorScheme.surfaceVariant
-                    : Colors.white,
-            borderRadius: BorderRadius.circular(28.0),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withOpacity(0.06),
-                blurRadius: 8,
-                offset: const Offset(0, 2),
-              ),
-            ],
-          ),
-          child: Row(
-            children: [
-              Icon(Icons.search, color: Theme.of(context).hintColor, size: 22),
-              const SizedBox(width: 10.0),
-              Text(
-                'ابحث عن دواء...',
-                style: textTheme.bodyLarge?.copyWith(
-                  color: Theme.of(context).hintColor,
-                ),
-              ),
-            ],
+  Widget _buildListFooter(
+    BuildContext context,
+    MedicineProvider provider,
+    List<DrugEntity> medicines,
+    bool isLoading,
+    bool isLoadingMore,
+    String error,
+  ) {
+    if (isLoadingMore) {
+      _logger.v("HomeScreen: Building loading more indicator at end of list.");
+      return const Padding(
+        padding: EdgeInsets.symmetric(vertical: 32.0),
+        child: Center(child: CircularProgressIndicator()),
+      );
+    } else if (!provider.hasMoreItems && medicines.isNotEmpty) {
+      _logger.v("HomeScreen: Building 'end of list' message.");
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 32.0, horizontal: 16.0),
+        child: Center(
+          child: Text(
+            'وصلت إلى نهاية القائمة',
+            style: Theme.of(
+              context,
+            ).textTheme.bodySmall?.copyWith(color: Theme.of(context).hintColor),
           ),
         ),
-      ),
-    );
+      );
+    } else if (medicines.isEmpty && !isLoading && error.isEmpty) {
+      return _buildEmptyListMessage(context, provider);
+    } else {
+      return Container(height: 16);
+    }
+  }
+
+  Widget _buildSearchBar(BuildContext context) {
+    return const SearchBarButton();
   }
 
   Widget _buildCategoriesSection(BuildContext context) {
@@ -257,10 +211,10 @@ class _HomeScreenState extends State<HomeScreen> {
       "HomeScreen: Building categories section with ${categories.length} categories.",
     );
     final categoryIcons = {
-      'مسكنات الألم': Icons.healing_outlined,
-      'مضادات حيوية': Icons.medication_liquid_outlined,
-      'أمراض مزمنة': Icons.monitor_heart_outlined,
-      'فيتامينات': Icons.local_florist_outlined,
+      'مسكنات الألم': LucideIcons.pill,
+      'مضادات حيوية': LucideIcons.syringe,
+      'أمراض مزمنة': LucideIcons.heartPulse,
+      'فيتامينات': LucideIcons.leaf,
     };
 
     if (categories.isEmpty && context.watch<MedicineProvider>().isLoading) {
@@ -270,23 +224,28 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     }
     if (categories.isEmpty) {
+      _logger.w("HomeScreen: No categories found to display.");
       return const SizedBox.shrink();
     }
 
     return HorizontalListSection(
       title: 'الفئات الطبية',
-      listHeight: 115,
+      listHeight: 105,
       headerPadding: const EdgeInsets.only(
         left: 16,
         right: 16,
-        top: 16,
+        top: 24,
         bottom: 8,
       ),
       children:
           categories.map((categoryName) {
+            // Correctly call CategoryCard constructor
             return CategoryCard(
+                  key: ValueKey(categoryName), // Use ValueKey
                   name: categoryName,
-                  iconData: categoryIcons[categoryName] ?? Icons.category,
+                  iconData:
+                      categoryIcons[categoryName] ??
+                      LucideIcons.tag, // Pass IconData
                   onTap: () {
                     _logger.i("HomeScreen: Category tapped: $categoryName");
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
@@ -353,7 +312,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
-              Icons.error_outline,
+              LucideIcons.alertTriangle,
               color: Theme.of(context).colorScheme.error,
               size: 48.0,
             ),
@@ -368,7 +327,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             const SizedBox(height: 16.0),
             ElevatedButton.icon(
-              icon: const Icon(Icons.refresh),
+              icon: Icon(LucideIcons.refreshCw),
               label: const Text('إعادة المحاولة'),
               onPressed: () {
                 _logger.i("HomeScreen: Retry button pressed.");

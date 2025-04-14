@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import '../../core/di/locator.dart'; // Import locator
 import '../../core/services/file_logger_service.dart'; // Import logger
+import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 import 'home_screen.dart';
+import 'search_screen.dart'; // Import SearchScreen
 import 'settings_screen.dart';
+// Import placeholders for other screens for now
+// import 'calculator_screen.dart';
+// import 'interactions_screen.dart';
 import '../widgets/custom_nav_bar.dart';
 
 class MainScreen extends StatefulWidget {
@@ -16,25 +21,18 @@ class _MainScreenState extends State<MainScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   int _selectedIndex = 0; // Start with Home tab selected
 
-  // Use actual screens (except calculator placeholder)
+  // Update screens list to match the new BottomNavBar order
   final List<Widget> _screens = [
     const HomeScreen(),
-    const Center(
-      child: Text('Alternatives Tab Placeholder'),
-    ), // Keep placeholder for now
+    const SearchScreen(), // Use SearchScreen
     const Center(
       child: Text('حاسبة الجرعات (قريباً)'),
-    ), // Keep placeholder for MVP
+    ), // Placeholder for Calculator
+    const Center(
+      child: Text('التفاعلات (قريباً)'),
+    ), // Placeholder for Interactions
     const SettingsScreen(),
   ];
-
-  // Map keys should ideally be unique identifiers for the screens
-  // final Map<int, String> _navigatorKeys = {
-  //   0: 'HomeScreen',
-  //   1: 'AlternativesPlaceholder',
-  //   2: 'WeightCalculatorPlaceholder',
-  //   3: 'SettingsScreen',
-  // };
 
   void _onItemTapped(int index) {
     _logger.i("MainScreen: _onItemTapped called with index: $index");
@@ -46,18 +44,21 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     _logger.i("MainScreen: Building widget. Selected index: $_selectedIndex");
-    // Use IndexedStack to show the selected screen
     return Scaffold(
       body: IndexedStack(index: _selectedIndex, children: _screens),
-      // Re-enable BottomNavigationBar
       bottomNavigationBar: CustomNavBar(
         selectedIndex: _selectedIndex,
         onItemSelected: _onItemTapped,
         items: const [
-          NavBarItem(icon: Icons.home_outlined, label: 'الرئيسية'),
-          NavBarItem(icon: Icons.swap_horiz_outlined, label: 'البدائل'),
-          NavBarItem(icon: Icons.calculate_outlined, label: 'الحاسبة'),
-          NavBarItem(icon: Icons.settings_outlined, label: 'الإعدادات'),
+          // Use LucideIcons and match design lab order/labels
+          NavBarItem(icon: LucideIcons.home, label: 'الرئيسية'),
+          NavBarItem(icon: LucideIcons.search, label: 'البحث'),
+          NavBarItem(icon: LucideIcons.calculator, label: 'الحاسبة'),
+          NavBarItem(
+            icon: LucideIcons.zap,
+            label: 'التفاعلات',
+          ), // Zap icon for interactions
+          NavBarItem(icon: LucideIcons.settings, label: 'الإعدادات'),
         ],
       ),
     );
