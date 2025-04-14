@@ -1,91 +1,89 @@
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart'; // Import Mobile Ads SDK
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
+import 'package:shared_preferences/shared_preferences.dart';
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart'; // Import FileLoggerService
-import 'data/datasources/local/sqlite_local_data_source.dart'; // Import SqliteLocalDataSource for seeding
+import 'data/datasources/local/sqlite_local_data_source.dart';
 import 'presentation/bloc/medicine_provider.dart';
 import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
 import 'presentation/bloc/dose_calculator_provider.dart';
 import 'presentation/bloc/interaction_provider.dart';
-import 'presentation/bloc/subscription_provider.dart'; // Import Subscription Provider
+import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/onboarding_screen.dart';
 
-// Define the key here or move to a shared constants file
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
 
-// Make main async
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  FileLoggerService? logger; // Make logger nullable initially
+  FileLoggerService? logger; // Make nullable initially
 
   try {
-    // Initialize locator first as it now includes logger init.
-    await setupLocator(); // Use the full locator setup
-    logger = locator<FileLoggerService>();
-    logger.i("main: Starting application setup...");
+    // Initialize Flutter binding first
+    WidgetsFlutterBinding.ensureInitialized();
+    print("main: WidgetsFlutterBinding initialized."); // Console print
 
-    // Initialize Mobile Ads SDK
+    // Initialize Logger immediately after binding
+    logger = FileLoggerService();
+    await logger.initialize(); // Initialize file logger
+    logger.i("main: FileLoggerService initialized.");
+
+    // Register the initialized logger instance immediately (optional but good practice)
+    // This assumes locator itself doesn't depend on async logger init
+    if (!locator.isRegistered<FileLoggerService>()) {
+      locator.registerSingleton<FileLoggerService>(logger);
+      logger.i("main: FileLoggerService registered in locator.");
+    }
+
     logger.i("main: Initializing Mobile Ads SDK...");
     MobileAds.instance.initialize();
     logger.i("main: Mobile Ads SDK initialized.");
 
-    // Check if onboarding is complete
+    logger.i("main: Calling setupLocator...");
+    await setupLocator(); // Setup other dependencies (will use registered logger)
+    logger.i("main: setupLocator finished.");
+
     logger.i("main: Checking onboarding status...");
     final prefs = await locator.getAsync<SharedPreferences>();
     final bool onboardingComplete =
         prefs.getBool(_prefsKeyOnboardingDone) ?? false;
     logger.i("main: Onboarding complete: $onboardingComplete");
 
-    // Determine the initial screen
     final Widget initialScreen =
         onboardingComplete ? const MainScreen() : const OnboardingScreen();
     logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // Seed the database if needed after locator setup
     logger.i("main: Attempting database seeding if needed...");
     try {
       final localDataSource = locator<SqliteLocalDataSource>();
-      await localDataSource
-          .seedDatabaseFromAssetIfNeeded(); // Re-enable seeding
+      await localDataSource.seedDatabaseFromAssetIfNeeded();
       logger.i("main: Database seeding check complete.");
     } catch (e, s) {
-      logger.e(
-        "main: Error during post-locator seeding",
-        e,
-        s,
-      ); // Correct parameters
-      // Handle seeding error if necessary (e.g., show error screen or default data)
+      logger.e("main: Error during post-locator seeding", e, s);
     }
 
-    // Initialize SubscriptionProvider asynchronously in the background
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
-    locator<SubscriptionProvider>().initialize(); // Re-enable initialization
+    locator<SubscriptionProvider>().initialize();
 
-    // Run the original app structure
     logger.i("main: Running MyApp...");
-    runApp(MyApp(homeWidget: initialScreen)); // Use original MyApp
+    runApp(MyApp(homeWidget: initialScreen));
     logger.i("main: runApp called successfully.");
   } catch (e, stackTrace) {
-    // Log any top-level errors that occur before or during runApp
-    print(
-      "FATAL ERROR in main: $e\n$stackTrace",
-    ); // Print to console as fallback
-    // Try logging to file if logger initialized, otherwise this might fail too
-    logger?.f(
-      "FATAL ERROR in main",
-      e,
-      stackTrace,
-    ); // Use correct parameters and null check
+    final errorMsg = "FATAL ERROR in main";
+    print("$errorMsg: $e\n$stackTrace"); // Console fallback
+    // Try logging to file
+    logger?.f(errorMsg, e, stackTrace);
+    // Ensure the app closes or shows an error screen if possible
+    runApp(
+      ErrorMaterialApp(error: e, stackTrace: stackTrace),
+    ); // Show error screen
   }
 }
 
-// Original MyApp structure
+// Original MyApp structure (ensure all providers are re-enabled here)
 class MyApp extends StatelessWidget {
-  final Widget homeWidget; // Add field to hold the initial widget
+  final Widget homeWidget;
 
   const MyApp({super.key, required this.homeWidget});
 
@@ -93,10 +91,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final logger = locator<FileLoggerService>();
     logger.i("MyApp: Building widget tree...");
-    // Wrap with MultiProvider to provide multiple providers
     return MultiProvider(
       providers: [
-        // Provide all necessary Providers using the locator
         ChangeNotifierProvider(
           create: (_) {
             logger.d("MyApp: Creating MedicineProvider...");
@@ -134,13 +130,11 @@ class MyApp extends StatelessWidget {
           },
         ),
       ],
-      // Consumer is needed here to access SettingsProvider for theme/locale
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
           logger.d(
             "MyApp: Consumer<SettingsProvider> builder running. Initialized: ${settingsProvider.isInitialized}",
           );
-          // Show loading indicator until settings are loaded
           if (!settingsProvider.isInitialized) {
             logger.v(
               "MyApp: SettingsProvider not initialized, showing loading indicator.",
@@ -153,98 +147,38 @@ class MyApp extends StatelessWidget {
           logger.v(
             "MyApp: SettingsProvider initialized, building main MaterialApp.",
           );
-          // Build the app once settings are loaded
           return MaterialApp(
             title: 'MediSwitch',
             debugShowCheckedModeBanner: false,
-            themeMode:
-                settingsProvider.themeMode, // Use themeMode from provider
+            themeMode: settingsProvider.themeMode,
             theme: ThemeData(
-              // Light Theme
               brightness: Brightness.light,
               useMaterial3: true,
-              fontFamily: 'Noto Sans Arabic', // Set default font
+              fontFamily: 'Noto Sans Arabic',
               colorScheme: ColorScheme.fromSeed(
                 seedColor:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // Primary color from CSS --primary
+                    const HSLColor.fromAHSL(1.0, 160, 0.78, 0.40).toColor(),
                 brightness: Brightness.light,
                 background:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --background
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
                 onBackground:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // --foreground
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049).toColor(),
                 primary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // --primary
+                    const HSLColor.fromAHSL(1.0, 160, 0.78, 0.40).toColor(),
                 onPrimary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --primary-foreground
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
                 secondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.961,
-                    ).toColor(), // --secondary
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.961).toColor(),
                 onSecondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.474,
-                      0.112,
-                    ).toColor(), // --secondary-foreground
-                surface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0,
-                      1.0,
-                    ).toColor(), // --card (white)
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.474, 0.112).toColor(),
+                surface: const HSLColor.fromAHSL(1.0, 0, 0, 1.0).toColor(),
                 onSurface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // --card-foreground
-                error:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0.842,
-                      0.602,
-                    ).toColor(), // --destructive
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049).toColor(),
+                error: const HSLColor.fromAHSL(1.0, 0, 0.842, 0.602).toColor(),
                 onError:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --destructive-foreground
-                tertiary: const Color(0xFF16BC88), // Custom Header Background
-                onTertiary: Colors.white, // Custom Header Foreground
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
+                tertiary: const Color(0xFF16BC88),
+                onTertiary: Colors.white,
               ),
               cardTheme: CardTheme(
                 elevation: 0,
@@ -258,111 +192,45 @@ class MyApp extends StatelessWidget {
                           0.318,
                           0.914,
                         ).toColor(),
-                  ), // --border
+                  ),
                 ),
               ),
               appBarTheme: AppBarTheme(
                 elevation: 0,
                 backgroundColor: Colors.transparent,
                 foregroundColor:
-                    HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // Match foreground
+                    HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049).toColor(),
               ),
-              // Add more theme customizations...
             ),
             darkTheme: ThemeData(
-              // Dark Theme
               brightness: Brightness.dark,
               useMaterial3: true,
               fontFamily: 'Noto Sans Arabic',
               colorScheme: ColorScheme.fromSeed(
                 seedColor:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // Primary color
+                    const HSLColor.fromAHSL(1.0, 160, 0.78, 0.40).toColor(),
                 brightness: Brightness.dark,
                 background:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.22,
-                      0.18,
-                    ).toColor(), // --background dark
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.22, 0.18).toColor(),
                 onBackground:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --foreground dark
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
                 primary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // --primary dark (same as light?)
+                    const HSLColor.fromAHSL(1.0, 160, 0.78, 0.40).toColor(),
                 onPrimary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --primary-foreground dark
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
                 secondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      217.2,
-                      0.326,
-                      0.25,
-                    ).toColor(), // --secondary dark
+                    const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25).toColor(),
                 onSecondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --secondary-foreground dark
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
                 surface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.25,
-                      0.14,
-                    ).toColor(), // --card dark
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.14).toColor(),
                 onSurface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --card-foreground dark
-                error:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0.70,
-                      0.45,
-                    ).toColor(), // --destructive dark
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
+                error: const HSLColor.fromAHSL(1.0, 0, 0.70, 0.45).toColor(),
                 onError:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --destructive-foreground dark
-                tertiary: const Color(
-                  0xFF16BC88,
-                ), // Custom Header Background (same for dark?)
-                onTertiary:
-                    Colors.white, // Custom Header Foreground (same for dark?)
+                    const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
+                tertiary: const Color(0xFF16BC88),
+                onTertiary: Colors.white,
               ),
               cardTheme: CardTheme(
                 elevation: 0,
@@ -376,36 +244,47 @@ class MyApp extends StatelessWidget {
                           0.326,
                           0.25,
                         ).toColor(),
-                  ), // --border dark
+                  ),
                 ),
                 color:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.25,
-                      0.14,
-                    ).toColor(), // --card dark
+                    const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.14).toColor(),
               ),
               appBarTheme: AppBarTheme(
                 elevation: 0,
                 backgroundColor: Colors.transparent,
                 foregroundColor:
-                    HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // Match foreground dark
+                    HSLColor.fromAHSL(1.0, 210, 0.40, 0.98).toColor(),
               ),
-              // Add more theme customizations...
             ),
-            locale: settingsProvider.locale, // Use locale from provider
-            // TODO: Add localization delegates and supported locales
-            // localizationsDelegates: [ ... ],
-            // supportedLocales: [ const Locale('en'), const Locale('ar'), ],
-            home: homeWidget, // Use the determined initial screen
+            locale: settingsProvider.locale,
+            home: homeWidget,
           );
         },
+      ),
+    );
+  }
+}
+
+// Simple error screen to display if main fails catastrophically
+class ErrorMaterialApp extends StatelessWidget {
+  final Object error;
+  final StackTrace? stackTrace;
+  const ErrorMaterialApp({super.key, required this.error, this.stackTrace});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Application failed to start.\nError: $error\n\nStackTrace: $stackTrace',
+              textDirection: TextDirection.ltr,
+            ),
+          ),
+        ),
       ),
     );
   }
