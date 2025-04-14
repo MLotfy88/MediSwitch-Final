@@ -188,16 +188,19 @@ class DrugRepositoryImpl implements DrugRepository {
   }
 
   @override
+  // Add limit and offset parameters
   Future<Either<Failure, List<DrugEntity>>> searchDrugs(
     String query, {
     int? limit,
+    int? offset,
   }) async {
     _logger.d(
-      "DrugRepository: searchDrugs called with query: '$query', limit: $limit",
+      "DrugRepository: searchDrugs called with query: '$query', limit: $limit, offset: $offset",
     );
     try {
+      // Pass limit and offset to the data source method
       final List<MedicineModel> localMedicines = await localDataSource
-          .searchMedicinesByName(query, limit: limit);
+          .searchMedicinesByName(query, limit: limit, offset: offset);
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
       _logger.i(
@@ -212,15 +215,19 @@ class DrugRepositoryImpl implements DrugRepository {
   }
 
   @override
+  // Add limit and offset parameters
   Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(
-    String category,
-  ) async {
+    String category, {
+    int? limit,
+    int? offset,
+  }) async {
     _logger.d(
-      "DrugRepository: filterDrugsByCategory called with category: '$category'",
+      "DrugRepository: filterDrugsByCategory called with category: '$category', limit: $limit, offset: $offset",
     );
     try {
+      // Pass limit and offset to the data source method
       final List<MedicineModel> localMedicines = await localDataSource
-          .filterMedicinesByCategory(category);
+          .filterMedicinesByCategory(category, limit: limit, offset: offset);
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
       _logger.i(

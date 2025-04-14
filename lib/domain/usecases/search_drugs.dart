@@ -26,12 +26,13 @@ class SearchDrugsUseCase implements UseCase<List<DrugEntity>, SearchParams> {
 // Make SearchParams extend Equatable
 class SearchParams extends Equatable {
   final String query;
-  final int? limit; // Add optional limit
+  final int? limit;
+  final int? offset; // Add optional offset
 
-  // Update constructor to include limit
-  const SearchParams({required this.query, this.limit});
+  // Update constructor to include limit and offset
+  const SearchParams({required this.query, this.limit, this.offset});
 
   @override
   // Update props to include limit
-  List<Object?> get props => [query, limit];
+  List<Object?> get props => [query, limit, offset]; // Update props
 }

@@ -4,18 +4,24 @@ import '../../core/error/failures.dart'; // Import Failure base class (placehold
 import '../entities/drug_entity.dart';
 
 abstract class DrugRepository {
+  /// Checks for updates and potentially downloads new data.
+  /// Returns Right([]) on success (or if no update needed/offline),
+  /// or Left(Failure) if update check/download fails critically.
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs();
 
-  /// Searches drugs by name (trade name or Arabic name)
+  /// Searches drugs by name (trade name or Arabic name) with pagination.
   Future<Either<Failure, List<DrugEntity>>> searchDrugs(
     String query, {
     int? limit,
-  }); // Add optional limit
+    int? offset, // Add offset
+  });
 
-  /// Filters drugs by category
+  /// Filters drugs by category with pagination.
   Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(
-    String category,
-  );
+    String category, {
+    int? limit,
+    int? offset, // Add offset
+  });
 
   /// Gets all available categories
   Future<Either<Failure, List<String>>> getAvailableCategories();

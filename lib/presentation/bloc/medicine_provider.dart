@@ -1,32 +1,30 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart'; // Import Material for RangeValues
-import 'package:intl/intl.dart'; // Import intl for DateFormat
-import 'package:dartz/dartz.dart'; // Import dartz for Either
-import '../../core/di/locator.dart'; // Import locator
-import '../../core/services/file_logger_service.dart'; // Import logger
-import '../../core/error/failures.dart'; // Import Failure base class
-import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
-import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check logic inside repo
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:dartz/dartz.dart';
+import '../../core/di/locator.dart';
+import '../../core/services/file_logger_service.dart';
+import '../../core/error/failures.dart';
+import '../../domain/entities/drug_entity.dart';
+import '../../domain/usecases/get_all_drugs.dart';
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
-import '../../domain/usecases/get_analytics_summary.dart'; // Import analytics use case
-import '../../domain/repositories/analytics_repository.dart'; // Import AnalyticsSummary entity
+import '../../domain/usecases/get_analytics_summary.dart';
+import '../../domain/repositories/analytics_repository.dart';
 import '../../core/usecases/usecase.dart';
 
-// Add mounted check mixin for safety with async operations
 class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
-  final GetAllDrugs getAllDrugsUseCase; // Keep for update check trigger
+  final GetAllDrugs getAllDrugsUseCase;
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
   final GetAnalyticsSummary getAnalyticsSummaryUseCase;
-  final FileLoggerService _logger =
-      locator<FileLoggerService>(); // Get logger instance
+  final FileLoggerService _logger = locator<FileLoggerService>();
 
-  // State variables
+  // --- State variables ---
   List<DrugEntity> _filteredMedicines = [];
   List<String> _categories = [];
   String _searchQuery = '';
@@ -35,12 +33,30 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   RangeValues? _selectedPriceRange;
   double _minPrice = 0;
   double _maxPrice = 1000;
-  bool _isLoading = true;
+  bool _isLoading = true; // Tracks initial loading and filter changes
+  bool _isLoadingMore = false; // Tracks loading more items
   String _error = '';
   int? _lastUpdateTimestamp;
-
-  // Flag to track if initial load is complete
   bool _isInitialLoadComplete = false;
+
+  // --- Pagination State ---
+  static const int _pageSize = 15; // Number of items per page
+  int _currentPage = 0; // Current page index (0-based)
+  bool _hasMoreItems = true; // Assume there are more items initially
+
+  // --- Getters ---
+  List<DrugEntity> get filteredMedicines => _filteredMedicines;
+  List<String> get categories => _categories;
+  bool get isLoading => _isLoading;
+  bool get isLoadingMore => _isLoadingMore; // Expose loading more state
+  String get error => _error;
+  String get searchQuery => _searchQuery;
+  String get selectedCategory => _selectedCategory;
+  String get selectedDosageForm => _selectedDosageForm;
+  RangeValues? get selectedPriceRange => _selectedPriceRange;
+  double get minPrice => _minPrice;
+  double get maxPrice => _maxPrice;
+  bool get hasMoreItems => _hasMoreItems; // Expose has more items state
   bool get isInitialLoadComplete => _isInitialLoadComplete;
 
   MedicineProvider({
@@ -55,18 +71,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     loadInitialData();
   }
 
-  // Getters
-  List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  List<String> get categories => _categories;
-  bool get isLoading => _isLoading;
-  String get error => _error;
-  String get searchQuery => _searchQuery;
-  String get selectedCategory => _selectedCategory;
-  String get selectedDosageForm => _selectedDosageForm;
-  RangeValues? get selectedPriceRange => _selectedPriceRange;
-  double get minPrice => _minPrice;
-  double get maxPrice => _maxPrice;
-
   String get lastUpdateTimestampFormatted {
     if (_lastUpdateTimestamp == null) return 'غير متوفر';
     try {
@@ -75,81 +79,56 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
       return DateFormat('yyyy-MM-dd HH:mm', 'en').format(dateTime);
     } catch (e, s) {
-      // Add stack trace
-      _logger.e("Error formatting timestamp", e, s); // Correct parameters
+      _logger.e("Error formatting timestamp", e, s);
       return 'تنسيق غير صالح';
     }
   }
 
-  // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
-    // Prevent multiple simultaneous initial loads
-    if (_isLoading && _isInitialLoadComplete) {
-      _logger.w(
-        "MedicineProvider: loadInitialData called while already loading or complete. Skipping.",
-      );
-      return;
-    }
+    if (_isLoading && _isInitialLoadComplete) return;
 
-    _logger.i("MedicineProvider: loadInitialData called (Original Logic)");
+    _logger.i("MedicineProvider: loadInitialData called");
     _isLoading = true;
     _error = '';
-    _isInitialLoadComplete = false; // Mark as loading
+    _isInitialLoadComplete = false;
+    _currentPage = 0; // Reset page on initial load
+    _hasMoreItems = true; // Assume more items exist on new load/filter
+    _filteredMedicines = []; // Clear previous results immediately
+    notifyListeners(); // Show loading indicator
 
-    // Ensure listeners are notified safely after the frame is built
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      // Check if mounted is not directly possible here, rely on provider lifecycle
-      if (isLoading) {
-        // Check if still loading
-        _logger.v(
-          "MedicineProvider: Notifying listeners (initial loading state)",
-        );
-        notifyListeners();
-      }
-    });
-
-    // Trigger update check (getAllDrugs in repo now handles this)
+    // Trigger update check first
     _logger.i("MedicineProvider: Triggering update check...");
     final updateResult = await getAllDrugsUseCase(NoParams());
     _logger.i("MedicineProvider: Update check finished.");
 
-    // Regardless of update success/failure, load categories and timestamp
+    // Load categories and timestamp regardless of update result
     _logger.i("MedicineProvider: Loading categories and timestamp...");
-    await _loadCategories();
-    await _loadAndUpdateTimestamp();
+    await Future.wait([_loadCategories(), _loadAndUpdateTimestamp()]);
     _logger.i("MedicineProvider: Categories and timestamp loaded.");
 
-    // Apply initial filters (fetching initial view)
-    _logger.i("MedicineProvider: Applying initial filters...");
-    await _applyFilters(); // This will set isLoading = false and notify
-    _logger.i("MedicineProvider: Initial filters applied.");
+    // Apply initial filters (fetch first page)
+    _logger.i("MedicineProvider: Applying initial filters (page 0)...");
+    await _applyFilters(page: 0); // Fetch page 0
 
-    // Handle potential failure from the update check *after* attempting initial filter/load
     updateResult.fold(
       (failure) {
         _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
         _logger.e("MedicineProvider: Update check failed: $_error");
-        notifyListeners(); // Notify about the error
+        // Don't overwrite potential data loading error from _applyFilters
       },
       (_) {
         _logger.i("MedicineProvider: Update check successful or not needed.");
       },
     );
 
-    _isInitialLoadComplete = true; // Mark initial load as complete
-
-    // Ensure loading is false if _applyFilters didn't run or failed early
-    if (_isLoading) {
-      _logger.w(
-        "MedicineProvider: isLoading was still true after _applyFilters. Setting to false.",
-      );
-      _isLoading = false;
-      notifyListeners();
-    }
-    _logger.i("MedicineProvider: loadInitialData finished (Original Logic)");
+    _isInitialLoadComplete = true;
+    // _isLoading is set to false inside _applyFilters
+    _logger.i("MedicineProvider: loadInitialData finished.");
+    // Final notification happens in _applyFilters
   }
 
   Future<void> _loadCategories() async {
+    // ... (keep existing implementation) ...
     _logger.d("MedicineProvider: _loadCategories called.");
     final failureOrCategories = await getAvailableCategoriesUseCase(NoParams());
     failureOrCategories.fold(
@@ -167,6 +146,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   Future<void> _loadAndUpdateTimestamp() async {
+    // ... (keep existing implementation) ...
     _logger.d("MedicineProvider: _loadAndUpdateTimestamp called.");
     final failureOrTimestamp = await getLastUpdateTimestampUseCase(NoParams());
     failureOrTimestamp.fold(
@@ -188,7 +168,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   Future<void> setSearchQuery(String query) async {
     _logger.d("MedicineProvider: setSearchQuery called with query: '$query'");
     _searchQuery = query;
-    await _applyFilters();
+    _currentPage = 0; // Reset page
+    _hasMoreItems = true; // Assume more items
+    _filteredMedicines = []; // Clear previous results
+    await _applyFilters(page: 0);
   }
 
   Future<void> setCategory(String category) async {
@@ -196,7 +179,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: setCategory called with category: '$category'",
     );
     _selectedCategory = category;
-    await _applyFilters();
+    _searchQuery = ''; // Clear search query when category changes
+    _currentPage = 0; // Reset page
+    _hasMoreItems = true; // Assume more items
+    _filteredMedicines = []; // Clear previous results
+    await _applyFilters(page: 0);
   }
 
   Future<void> setDosageForm(String dosageForm) async {
@@ -204,120 +191,169 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm'",
     );
     _selectedDosageForm = dosageForm;
-    await _applyFilters();
+    _currentPage = 0; // Reset page
+    _hasMoreItems = true; // Assume more items
+    _filteredMedicines = []; // Clear previous results
+    await _applyFilters(page: 0);
   }
 
   Future<void> setPriceRange(RangeValues? range) async {
     _logger.d("MedicineProvider: setPriceRange called with range: $range");
     _selectedPriceRange = range;
-    await _applyFilters();
+    _currentPage = 0; // Reset page
+    _hasMoreItems = true; // Assume more items
+    _filteredMedicines = []; // Clear previous results
+    await _applyFilters(page: 0);
   }
 
-  // Apply filters by querying the repository
-  Future<void> _applyFilters() async {
+  // --- Load More Logic ---
+  Future<void> loadMoreDrugs() async {
+    if (_isLoading || _isLoadingMore || !_hasMoreItems) {
+      _logger.d(
+        "MedicineProvider: loadMoreDrugs called but skipping. isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems",
+      );
+      return; // Don't load more if already loading or no more items
+    }
+
+    _isLoadingMore = true;
+    notifyListeners(); // Show loading indicator at the bottom
+
+    _currentPage++; // Increment page index
+    _logger.i("MedicineProvider: loadMoreDrugs called for page $_currentPage");
+
+    await _applyFilters(page: _currentPage, append: true);
+
+    _isLoadingMore = false;
+    notifyListeners(); // Hide loading indicator / update list
     _logger.i(
-      "MedicineProvider: _applyFilters called. Query: '$_searchQuery', Category: '$_selectedCategory', Dosage: '$_selectedDosageForm', Price: $_selectedPriceRange",
+      "MedicineProvider: loadMoreDrugs finished for page $_currentPage. hasMore: $_hasMoreItems",
     );
-    _isLoading = true;
-    _error = '';
-    notifyListeners(); // Notify that filtering started
+  }
+
+  // Apply filters by querying the repository for a specific page
+  Future<void> _applyFilters({required int page, bool append = false}) async {
+    // If it's not appending, it's a new filter/initial load
+    if (!append) {
+      _isLoading = true;
+      _error = '';
+      // Don't clear _filteredMedicines here if append is false, do it in the calling methods
+      notifyListeners();
+    }
+
+    final int offset = page * _pageSize;
+    _logger.i(
+      "MedicineProvider: _applyFilters called. Page: $page, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
+    );
 
     Either<Failure, List<DrugEntity>> result;
 
     try {
       // Determine base query: search or category filter takes precedence
+      // Pass limit and offset to the use case
       if (_searchQuery.isNotEmpty) {
-        _logger.d("MedicineProvider: Applying search filter...");
-        result = await searchDrugsUseCase(SearchParams(query: _searchQuery));
+        _logger.d("MedicineProvider: Applying search filter (page $page)...");
+        result = await searchDrugsUseCase(
+          SearchParams(query: _searchQuery, limit: _pageSize, offset: offset),
+        );
       } else if (_selectedCategory.isNotEmpty) {
-        _logger.d("MedicineProvider: Applying category filter...");
+        _logger.d("MedicineProvider: Applying category filter (page $page)...");
         result = await filterDrugsByCategoryUseCase(
-          FilterParams(category: _selectedCategory),
+          FilterParams(
+            category: _selectedCategory,
+            limit: _pageSize,
+            offset: offset,
+          ),
         );
       } else {
-        // No primary filter, fetch a smaller initial limited set
-        _logger.d("MedicineProvider: Applying initial limit filter (small)...");
-        const initialLimit = 5; // Reduce initial load limit significantly
+        _logger.d(
+          "MedicineProvider: Applying initial/no filter (page $page)...",
+        );
         result = await searchDrugsUseCase(
-          SearchParams(query: '', limit: initialLimit),
+          SearchParams(query: '', limit: _pageSize, offset: offset),
         );
       }
 
-      // Apply secondary filters (dosage form, price) locally on the results
+      // Apply secondary filters locally (still needed as DB doesn't support them yet)
       result.fold(
         (failure) {
           _logger.e(
-            "MedicineProvider: Error during primary fetch: ${_mapFailureToMessage(failure)}",
+            "MedicineProvider: Error during primary fetch (page $page): ${_mapFailureToMessage(failure)}",
           );
-          // Propagate the failure
           _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
-          _filteredMedicines = [];
+          if (!append) _filteredMedicines = []; // Clear only if not appending
+          _hasMoreItems = false; // Stop pagination on error
         },
         (drugs) {
           _logger.d(
-            "MedicineProvider: Primary fetch successful (${drugs.length} items). Applying secondary filters...",
+            "MedicineProvider: Primary fetch successful (page $page - ${drugs.length} items). Applying secondary filters...",
           );
-          List<DrugEntity> filtered = List.from(drugs);
+          List<DrugEntity> newlyFiltered = List.from(
+            drugs,
+          ); // Filter only the new batch
 
           // Apply Dosage Form Filter locally
           if (_selectedDosageForm.isNotEmpty) {
             final lowerCaseDosage = _selectedDosageForm.toLowerCase();
-            _logger.v(
-              "MedicineProvider: Applying dosage filter: '$lowerCaseDosage'",
-            );
-            filtered =
-                filtered.where((drug) {
+            newlyFiltered =
+                newlyFiltered.where((drug) {
                   final formLower = (drug.dosageForm ?? '').toLowerCase();
                   return formLower.contains(lowerCaseDosage);
                 }).toList();
-            _logger.v(
-              "MedicineProvider: After dosage filter: ${filtered.length} items.",
-            );
           }
 
           // Apply Price Range Filter locally
           if (_selectedPriceRange != null) {
-            _logger.v(
-              "MedicineProvider: Applying price filter: ${_selectedPriceRange!.start} - ${_selectedPriceRange!.end}",
-            );
-            filtered =
-                filtered.where((drug) {
+            newlyFiltered =
+                newlyFiltered.where((drug) {
                   final price = double.tryParse(drug.price);
                   if (price == null) return false;
                   return price >= _selectedPriceRange!.start &&
                       price <= _selectedPriceRange!.end;
                 }).toList();
-            _logger.v(
-              "MedicineProvider: After price filter: ${filtered.length} items.",
-            );
           }
 
-          _filteredMedicines = filtered;
-          _error = ''; // Clear error on success
           _logger.i(
-            "MedicineProvider: Filtering complete. Final count: ${_filteredMedicines.length}",
+            "MedicineProvider: Filtering complete for page $page. New items count: ${newlyFiltered.length}",
           );
+
+          _error = ''; // Clear error on success
+          _hasMoreItems =
+              newlyFiltered.length ==
+              _pageSize; // Assume less items means end of list
+
+          if (append) {
+            _filteredMedicines.addAll(
+              newlyFiltered,
+            ); // Add new items to existing list
+          } else {
+            _filteredMedicines =
+                newlyFiltered; // Replace list for initial load/filter change
+          }
         },
       );
     } catch (e, s) {
       _logger.e(
-        "MedicineProvider: Unexpected error during _applyFilters",
+        "MedicineProvider: Unexpected error during _applyFilters (page $page)",
         e,
         s,
-      ); // Correct parameters
+      );
       _error = "حدث خطأ غير متوقع أثناء الفلترة.";
-      _filteredMedicines = [];
+      if (!append) _filteredMedicines = [];
+      _hasMoreItems = false;
     } finally {
-      _isLoading = false;
-      notifyListeners(); // Notify that filtering finished
+      if (!append)
+        _isLoading =
+            false; // Only turn off main loading indicator if not appending
+      // _isLoadingMore is handled in loadMoreDrugs
+      notifyListeners();
       _logger.d(
-        "MedicineProvider: _applyFilters finished. isLoading: $_isLoading",
+        "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
       );
     }
   }
 
   String _mapFailureToMessage(Failure failure) {
-    // Keep existing mapping
+    // ... (keep existing implementation) ...
     switch (failure.runtimeType) {
       case CacheFailure:
         return 'خطأ في الوصول للبيانات المحلية.';
@@ -332,9 +368,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     }
   }
 
-  // Helper function to calculate min/max price from the loaded drug list
   void _calculatePriceRange(List<DrugEntity> drugs) {
-    // Keep existing implementation
+    // ... (keep existing implementation) ...
     if (drugs.isEmpty) {
       _minPrice = 0;
       _maxPrice = 1000;
@@ -360,9 +395,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _logger.d("Calculated Price Range: $_minPrice - $_maxPrice");
   }
 
-  // Helper function to parse date strings safely
   DateTime? _parseDate(String? dateString) {
-    // Keep existing implementation
+    // ... (keep existing implementation) ...
     if (dateString == null || dateString.isEmpty) {
       return null;
     }
@@ -372,18 +406,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       try {
         return DateFormat('dd/MM/yyyy').parseStrict(dateString);
       } catch (e2, s2) {
-        // Add stack trace
-        _logger.w(
-          "Could not parse date: $dateString",
-          e2,
-          s2,
-        ); // Correct parameters
+        _logger.w("Could not parse date: $dateString", e2, s2);
         return null;
       }
     }
   }
 
-  // Add DiagnosticableTreeMixin methods
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
@@ -404,6 +432,13 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     properties.add(
       FlagProperty('isLoading', value: _isLoading, ifTrue: 'LOADING'),
     );
+    properties.add(
+      FlagProperty(
+        'isLoadingMore',
+        value: _isLoadingMore,
+        ifTrue: 'LOADING MORE',
+      ),
+    );
     properties.add(StringProperty('error', _error, defaultValue: ''));
     properties.add(IntProperty('lastUpdateTimestamp', _lastUpdateTimestamp));
     properties.add(
@@ -412,6 +447,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         value: _isInitialLoadComplete,
         ifTrue: 'LOADED',
       ),
+    );
+    properties.add(IntProperty('currentPage', _currentPage));
+    properties.add(
+      FlagProperty('hasMoreItems', value: _hasMoreItems, ifTrue: 'HAS MORE'),
     );
   }
 }
