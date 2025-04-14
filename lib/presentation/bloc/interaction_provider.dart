@@ -1,6 +1,8 @@
 // lib/presentation/bloc/interaction_provider.dart
 
 import 'package:flutter/foundation.dart';
+import '../../core/di/locator.dart'; // Import locator
+import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
 import '../../domain/entities/interaction_analysis_result.dart';
@@ -8,14 +10,13 @@ import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/services/interaction_checker_service.dart';
 // Assuming InteractionRepositoryImpl provides the loaded data for now
 // In a real app, you might inject the repository and load data here or ensure it's loaded elsewhere.
-import '../../data/repositories/interaction_repository_impl.dart';
+// import '../../data/repositories/interaction_repository_impl.dart'; // Not needed if using interface
 
 class InteractionProvider extends ChangeNotifier {
-  // Injected dependencies (Consider using a proper DI solution like get_it later)
-  // For simplicity now, we might instantiate them here or pass them in.
-  // Let's assume InteractionRepositoryImpl holds the loaded data for now.
   final InteractionRepository _interactionRepository; // To load data if needed
   final InteractionCheckerService _interactionCheckerService;
+  final FileLoggerService _logger =
+      locator<FileLoggerService>(); // Get logger instance
 
   // State Variables
   final List<DrugEntity> _selectedMedicines = [];
@@ -26,16 +27,14 @@ class InteractionProvider extends ChangeNotifier {
 
   // Constructor
   InteractionProvider({
-    InteractionRepository? interactionRepository,
-    InteractionCheckerService? interactionCheckerService,
-  }) : _interactionRepository =
-           interactionRepository ??
-           InteractionRepositoryImpl(), // Use Impl for now
-       _interactionCheckerService =
-           interactionCheckerService ?? InteractionCheckerService() {
+    required InteractionRepository interactionRepository, // Require injection
+    required InteractionCheckerService
+    interactionCheckerService, // Require injection
+  }) : _interactionRepository = interactionRepository,
+       _interactionCheckerService = interactionCheckerService {
+    _logger.i("InteractionProvider: Constructor called.");
     // Attempt to load interaction data when the provider is created
-    _loadInteractionData();
-    _loadInteractionData();
+    _loadInteractionData(); // Call only once
   }
 
   // Getters
@@ -50,24 +49,36 @@ class InteractionProvider extends ChangeNotifier {
   // --- Methods ---
 
   Future<void> _loadInteractionData() async {
-    if (_isInteractionDataLoaded) return;
+    if (_isInteractionDataLoaded) {
+      _logger.d(
+        "InteractionProvider: Interaction data already loaded. Skipping.",
+      );
+      return;
+    }
+    _logger.i("InteractionProvider: Loading interaction data...");
     _isLoading = true;
     _error = '';
     notifyListeners();
-    print("InteractionProvider: Loading interaction data...");
+
     final result = await _interactionRepository.loadInteractionData();
     result.fold(
       (failure) {
         _error = failure.message ?? 'Failed to load interaction data.';
         _isInteractionDataLoaded = false;
-        print("InteractionProvider: Error loading interaction data: $_error");
+        _logger.e(
+          "InteractionProvider: Error loading interaction data: $_error",
+          failure,
+        );
       },
       (_) {
         _error = '';
         _isInteractionDataLoaded = true;
-        print("InteractionProvider: Interaction data loaded successfully.");
+        _logger.i("InteractionProvider: Interaction data loaded successfully.");
         // Optionally trigger analysis if medicines were already selected?
         if (_selectedMedicines.isNotEmpty) {
+          _logger.d(
+            "InteractionProvider: Triggering analysis after data load.",
+          );
           analyzeInteractions(); // Call public method
         }
       },
@@ -78,7 +89,7 @@ class InteractionProvider extends ChangeNotifier {
 
   void addMedicine(DrugEntity medicine) {
     if (!_selectedMedicines.any((m) => m.tradeName == medicine.tradeName)) {
-      // Avoid duplicates
+      _logger.d("InteractionProvider: Adding medicine: ${medicine.tradeName}");
       _selectedMedicines.add(medicine);
       _analysisResult = null; // Clear previous results
       _error = '';
@@ -86,10 +97,15 @@ class InteractionProvider extends ChangeNotifier {
       if (_selectedMedicines.length >= 2) {
         analyzeInteractions(); // Trigger analysis
       }
+    } else {
+      _logger.w(
+        "InteractionProvider: Medicine already selected: ${medicine.tradeName}",
+      );
     }
   }
 
   void removeMedicine(DrugEntity medicine) {
+    _logger.d("InteractionProvider: Removing medicine: ${medicine.tradeName}");
     _selectedMedicines.removeWhere((m) => m.tradeName == medicine.tradeName);
     _analysisResult = null; // Clear previous results
     _error = '';
@@ -100,6 +116,7 @@ class InteractionProvider extends ChangeNotifier {
   }
 
   void clearSelection() {
+    _logger.d("InteractionProvider: Clearing selection.");
     _selectedMedicines.clear();
     _analysisResult = null;
     _error = '';
@@ -108,15 +125,18 @@ class InteractionProvider extends ChangeNotifier {
 
   // Public method to perform analysis, callable from UI
   Future<void> analyzeInteractions() async {
-    // Make it async if needed later
+    _logger.i("InteractionProvider: analyzeInteractions called.");
     if (!_isInteractionDataLoaded) {
       _error = "بيانات التفاعلات لم يتم تحميلها بعد.";
+      _logger.w("InteractionProvider: Analysis attempted before data loaded.");
       notifyListeners();
-      // Don't automatically reload here, let user retry or wait
-      // _loadInteractionData();
+      // Consider triggering _loadInteractionData() here or providing a retry button
       return;
     }
     if (_selectedMedicines.length < 2) {
+      _logger.d(
+        "InteractionProvider: Less than 2 medicines selected, clearing results.",
+      );
       _analysisResult = null; // Clear results if less than 2 drugs
       _error = '';
       notifyListeners();
@@ -127,27 +147,17 @@ class InteractionProvider extends ChangeNotifier {
     _error = '';
     notifyListeners();
 
-    print(
+    _logger.i(
       "InteractionProvider: Analyzing interactions for ${_selectedMedicines.length} drugs...",
     );
-
-    // Simulate analysis - In a real app, get loaded data from repository/cache
-    // For now, we pass empty lists as placeholders for loaded data
-    // This needs refinement: How does the provider access the loaded data?
-    // Option 1: Inject InteractionRepositoryImpl and access its internal state (not ideal)
-    // Option 2: Load data within the provider itself (done in _loadInteractionData)
-    // Option 3: Use a separate data holder/cache service (better for larger apps)
-
-    // Assuming _interactionRepository holds the data after load (needs adjustment in Impl)
-    // This is a simplification and might need rework depending on how data is managed.
-    // We need access to the actual loaded lists from the repository.
-    // Let's simulate by calling the service directly for now.
-    // A proper implementation would likely involve getting the data from the repository instance.
 
     try {
       // Use the public getters from the repository interface
       final allInteractions = _interactionRepository.allLoadedInteractions;
       final ingredientsMap = _interactionRepository.medicineToIngredientsMap;
+      _logger.v(
+        "InteractionProvider: Got ${allInteractions.length} interactions and ${ingredientsMap.length} ingredient mappings from repository.",
+      );
 
       final result = _interactionCheckerService.analyzeInteractions(
         _selectedMedicines,
@@ -156,16 +166,24 @@ class InteractionProvider extends ChangeNotifier {
       );
       _analysisResult = result;
       _error = '';
-      print(
+      _logger.i(
         "InteractionProvider: Analysis complete. Found ${result.interactions.length} interactions.",
       );
-    } catch (e) {
-      print("InteractionProvider: Error during analysis: $e");
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e(
+        "InteractionProvider: Error during analysis",
+        e,
+        s,
+      ); // Correct parameters
       _error = 'حدث خطأ أثناء تحليل التفاعلات.';
       _analysisResult = null;
     } finally {
       _isLoading = false;
       notifyListeners();
+      _logger.d(
+        "InteractionProvider: analyzeInteractions finished. isLoading: $_isLoading",
+      );
     }
   }
 }

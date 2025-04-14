@@ -1,13 +1,17 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart'; // Import Material for ThemeMode
-import 'package:shared_preferences/shared_preferences.dart'; // To persist settings
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../../core/di/locator.dart'; // Import locator
+import '../../core/services/file_logger_service.dart'; // Import logger
 
 // Constants for SharedPreferences keys
 const String _prefsKeyTheme = 'app_theme_mode';
 const String _prefsKeyLanguage = 'app_language_code';
 
 class SettingsProvider extends ChangeNotifier {
-  late SharedPreferences _prefs;
+  late final SharedPreferences _prefs;
+  final FileLoggerService _logger =
+      locator<FileLoggerService>(); // Get logger instance
 
   // --- State Variables ---
   ThemeMode _themeMode = ThemeMode.system; // Default to system theme
@@ -21,11 +25,13 @@ class SettingsProvider extends ChangeNotifier {
 
   // Constructor - Load settings asynchronously
   SettingsProvider() {
+    _logger.i("SettingsProvider: Constructor called.");
     _loadSettings();
   }
 
   // Load settings from SharedPreferences
   Future<void> _loadSettings() async {
+    _logger.i("SettingsProvider: _loadSettings started.");
     _prefs = await SharedPreferences.getInstance();
 
     // Load Theme
@@ -42,7 +48,7 @@ class SettingsProvider extends ChangeNotifier {
 
     _isInitialized = true;
     notifyListeners(); // Notify listeners once settings are loaded
-    print('Settings loaded: Theme=$_themeMode, Locale=$_locale');
+    _logger.i('Settings loaded: Theme=$_themeMode, Locale=$_locale');
   }
 
   // --- Methods ---
@@ -56,7 +62,7 @@ class SettingsProvider extends ChangeNotifier {
 
     // Persist the setting
     await _prefs.setString(_prefsKeyTheme, newThemeMode.name);
-    print('Theme mode updated and saved: $_themeMode');
+    _logger.i('Theme mode updated and saved: $_themeMode');
   }
 
   // Update Locale
@@ -68,6 +74,6 @@ class SettingsProvider extends ChangeNotifier {
 
     // Persist the setting
     await _prefs.setString(_prefsKeyLanguage, newLocale.languageCode);
-    print('Locale updated and saved: $_locale');
+    _logger.i('Locale updated and saved: $_locale');
   }
 }

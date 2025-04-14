@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../../core/di/locator.dart'; // Import locator to get SharedPreferences
+import '../../core/di/locator.dart'; // Import locator
+import '../../core/services/file_logger_service.dart'; // Import logger
 import 'main_screen.dart'; // Import MainScreen to navigate to
 
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -9,17 +10,33 @@ const String _prefsKeyOnboardingDone = 'onboarding_complete';
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
 
+  // Get logger instance
+  // Note: Accessing locator directly in StatelessWidget is generally okay if it's already initialized.
+  static final FileLoggerService _logger = locator<FileLoggerService>();
+
   // Function called when Done or Skip button is pressed
   void _onIntroEnd(BuildContext context) async {
+    _logger.i("OnboardingScreen: _onIntroEnd called.");
     // Mark onboarding as complete in SharedPreferences
-    final prefs = await locator.getAsync<SharedPreferences>();
-    await prefs.setBool(_prefsKeyOnboardingDone, true);
+    try {
+      final prefs = await locator.getAsync<SharedPreferences>();
+      await prefs.setBool(_prefsKeyOnboardingDone, true);
+      _logger.i("OnboardingScreen: Onboarding marked as complete.");
+    } catch (e, s) {
+      // Correct logger call: message, error, stackTrace
+      _logger.e("OnboardingScreen: Error saving onboarding status.", e, s);
+    }
 
     // Navigate to the MainScreen and replace the onboarding screen
     if (context.mounted) {
+      _logger.i("OnboardingScreen: Navigating to MainScreen.");
       Navigator.of(
         context,
       ).pushReplacement(MaterialPageRoute(builder: (_) => const MainScreen()));
+    } else {
+      _logger.w(
+        "OnboardingScreen: Context not mounted after _onIntroEnd async gap.",
+      );
     }
   }
 
@@ -38,6 +55,7 @@ class OnboardingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    _logger.i("OnboardingScreen: Building widget.");
     final pageDecoration = _buildPageDecoration(context);
 
     return IntroductionScreen(
