@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_flutter/lucide_flutter.dart'; // Use lucide_flutter package
+import 'package:lucide_icons/lucide_icons.dart'; // Correct package name
 import 'package:provider/provider.dart';
 import '../bloc/settings_provider.dart'; // To potentially get user info later
 
