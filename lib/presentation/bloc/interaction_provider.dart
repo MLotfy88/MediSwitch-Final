@@ -33,8 +33,8 @@ class InteractionProvider extends ChangeNotifier {
   }) : _interactionRepository = interactionRepository,
        _interactionCheckerService = interactionCheckerService {
     _logger.i("InteractionProvider: Constructor called.");
-    // Attempt to load interaction data when the provider is created
-    _loadInteractionData(); // Call only once
+    // Re-enable auto-load
+    _loadInteractionData();
   }
 
   // Getters
