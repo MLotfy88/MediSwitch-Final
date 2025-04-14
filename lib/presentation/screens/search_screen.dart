@@ -12,8 +12,9 @@ import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate
 import '../services/ad_service.dart'; // Import AdService
 
 class SearchScreen extends StatefulWidget {
-  final String? initialQuery;
+  final String? initialQuery; // Add optional initial query parameter
 
+  // Correct constructor
   const SearchScreen({super.key, this.initialQuery});
 
   @override
@@ -35,13 +36,18 @@ class _SearchScreenState extends State<SearchScreen> {
     );
     _searchController = TextEditingController(text: widget.initialQuery ?? '');
 
+    // Trigger initial search immediately if initialQuery is provided or empty
+    // Use addPostFrameCallback to ensure provider is ready
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted && widget.initialQuery != null) {
         _logger.d(
           "SearchScreen: Triggering initial search from initState for query: '${widget.initialQuery!}'",
         );
+        // Use read here as we are only triggering an action, not listening
+        // Directly call setSearchQuery which handles the filtering
         context.read<MedicineProvider>().setSearchQuery(widget.initialQuery!);
       } else if (mounted && widget.initialQuery == null) {
+        // If opened directly without initial query, clear any previous search state
         _logger.d(
           "SearchScreen: No initial query, clearing previous search state.",
         );
@@ -86,7 +92,7 @@ class _SearchScreenState extends State<SearchScreen> {
       backgroundColor: Colors.transparent,
       builder:
           (_) => ChangeNotifierProvider.value(
-            value: context.read<MedicineProvider>(),
+            value: context.read<MedicineProvider>(), // Use read here
             child: DraggableScrollableSheet(
               initialChildSize: 0.6,
               minChildSize: 0.3,
@@ -114,9 +120,11 @@ class _SearchScreenState extends State<SearchScreen> {
     final medicineProvider = context.watch<MedicineProvider>();
     final medicines = medicineProvider.filteredMedicines;
     final isLoading = medicineProvider.isLoading;
-    final isLoadingMore = medicineProvider.isLoadingMore;
+    final isLoadingMore =
+        medicineProvider.isLoadingMore; // Get loading more state
     final error = medicineProvider.error;
-    final hasMoreItems = medicineProvider.hasMoreItems;
+    final hasMoreItems =
+        medicineProvider.hasMoreItems; // Get hasMoreItems state
     _logger.d(
       "SearchScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', medicines: ${medicines.length}, hasMore: $hasMoreItems",
     );
@@ -135,7 +143,9 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
           child: TextField(
             controller: _searchController,
-            autofocus: widget.initialQuery == null,
+            autofocus:
+                widget.initialQuery ==
+                null, // Only autofocus if no initial query
             decoration: InputDecoration(
               hintText: 'ابحث عن دواء...',
               border: InputBorder.none,
@@ -173,7 +183,7 @@ class _SearchScreenState extends State<SearchScreen> {
           if (isLoading && medicines.isEmpty)
             const Expanded(child: Center(child: CircularProgressIndicator()))
           else if (error.isNotEmpty)
-            Expanded(child: _buildErrorWidget(context, error))
+            Expanded(child: _buildErrorWidget(context, error)) // Use helper
           else if (medicines.isEmpty && _searchController.text.isNotEmpty)
             const Expanded(
               child: Center(child: Text('لا توجد نتائج مطابقة لبحثك.')),
@@ -181,7 +191,7 @@ class _SearchScreenState extends State<SearchScreen> {
           else if (medicines.isEmpty && _searchController.text.isEmpty)
             const Expanded(
               child: Center(child: Text('ابدأ البحث أو اختر فئة...')),
-            )
+            ) // Updated prompt
           else
             Expanded(
               child: LayoutBuilder(
@@ -189,7 +199,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 builder: (context, constraints) {
                   // Always use ListView for now
                   return ListView.builder(
-                    // controller: _scrollController, // Add controller if pagination needed here
+                    // controller: _scrollController, // Add controller if pagination needed here too
                     padding: const EdgeInsets.all(8.0),
                     itemCount:
                         medicines.length +
