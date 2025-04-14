@@ -10,17 +10,14 @@ import '../../../core/database/database_helper.dart'; // Import DatabaseHelper
 import '../../models/medicine_model.dart';
 
 // --- Constants ---
-// Keep timestamp key, remove local CSV file name
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
 
 // --- Top-level Parsing Function (Temporary - for initial seeding) ---
-// This function parses the raw CSV string into a list of MedicineModel
-// It should only be used once during database creation.
 List<MedicineModel> _parseCsvForSeed(String rawCsv) {
   final List<List<dynamic>> csvTable = const CsvToListConverter(
     fieldDelimiter: ',',
     eol: '\n',
-    shouldParseNumbers: false, // Keep as string for DB
+    shouldParseNumbers: false,
   ).convert(rawCsv);
 
   if (csvTable.isNotEmpty) {
@@ -29,7 +26,6 @@ List<MedicineModel> _parseCsvForSeed(String rawCsv) {
 
   final medicines =
       csvTable.map((row) {
-        // Use the existing factory constructor for consistency
         return MedicineModel.fromCsv(row);
       }).toList();
 
@@ -41,7 +37,6 @@ List<MedicineModel> _parseCsvForSeed(String rawCsv) {
 class SqliteLocalDataSource {
   final DatabaseHelper dbHelper;
 
-  // Constructor with dependency injection
   SqliteLocalDataSource({required this.dbHelper});
 
   Future<SharedPreferences> get _prefs async {
@@ -50,18 +45,13 @@ class SqliteLocalDataSource {
 
   // --- Core Logic ---
 
-  // Gets the timestamp of the last update (from prefs) - Stays the same
   Future<int?> getLastUpdateTimestamp() async {
     final prefs = await _prefs;
     return prefs.getInt(_prefsKeyLastUpdate);
   }
 
-  // Seeds the database from the initial asset CSV if the DB is empty
-  // This should ideally run only once after DB creation or if DB is deleted.
-  // We might call this explicitly after _onCreate in DatabaseHelper or check if table is empty.
   Future<void> seedDatabaseFromAssetIfNeeded() async {
     final db = await dbHelper.database;
-    // Check if table is empty
     final count = Sqflite.firstIntValue(
       await db.rawQuery(
         'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
@@ -69,10 +59,9 @@ class SqliteLocalDataSource {
     );
     if (count == 0) {
       print('Medicines table is empty. Seeding database from asset...');
-      final stopwatch = Stopwatch()..start(); // Start timer
+      final stopwatch = Stopwatch()..start();
       try {
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
-        // Use compute for parsing large CSV even during seeding
         final medicines = await compute(_parseCsvForSeed, rawCsv);
         await dbHelper.insertMedicinesBatch(medicines);
         final prefs = await _prefs;
@@ -80,13 +69,12 @@ class SqliteLocalDataSource {
           _prefsKeyLastUpdate,
           DateTime.now().millisecondsSinceEpoch,
         );
-        stopwatch.stop(); // Stop timer
+        stopwatch.stop();
         print(
           'Database seeded successfully in ${stopwatch.elapsedMilliseconds}ms.',
         );
       } catch (e) {
         print('Error seeding database from asset: $e');
-        // Handle error appropriately - maybe delete DB and retry?
         rethrow;
       }
     } else {
@@ -94,18 +82,15 @@ class SqliteLocalDataSource {
     }
   }
 
-  // Save new CSV data downloaded from remote source
   Future<void> saveDownloadedCsv(String csvData) async {
     try {
       print('Parsing downloaded CSV data for database update...');
-      // Use compute for parsing large CSV
       final medicines = await compute(_parseCsvForSeed, csvData);
 
       print('Clearing existing data and inserting new data...');
       await dbHelper.clearMedicines();
       await dbHelper.insertMedicinesBatch(medicines);
 
-      // Update the timestamp in shared preferences
       final prefs = await _prefs;
       await prefs.setInt(
         _prefsKeyLastUpdate,
@@ -121,33 +106,44 @@ class SqliteLocalDataSource {
 
   // --- Public API Methods (Using SQLite) ---
 
-  // Get all medicines
   Future<List<MedicineModel>> getAllMedicines() async {
     print("Fetching all medicines from SQLite...");
     return await dbHelper.getAllMedicines();
   }
 
-  // Search medicines using SQL LIKE
-  // Add optional limit parameter
+  // Search medicines using SQL LIKE with pagination
   Future<List<MedicineModel>> searchMedicinesByName(
     String query, {
     int? limit,
+    int? offset,
   }) async {
-    print("Searching medicines in SQLite for query: $query");
-    if (query.isEmpty) return getAllMedicines(); // Return all if query is empty
+    print(
+      "Searching medicines in SQLite for query: '$query', limit: $limit, offset: $offset",
+    );
+    // Return limited list if query is empty (for initial load)
+    // if (query.isEmpty) return getAllMedicines(); // Keep this? Or rely on limit/offset? Let's rely on limit/offset
 
     final db = await dbHelper.database;
-    final lowerCaseQuery = '%${query.toLowerCase()}%'; // Add wildcards for LIKE
+    final lowerCaseQuery = '%${query.toLowerCase()}%';
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: '''
+    String whereClause = '1=1'; // Default if query is empty
+    List<dynamic> whereArgs = [];
+
+    if (query.isNotEmpty) {
+      whereClause = '''
          LOWER(${DatabaseHelper.colTradeName}) LIKE ? OR
          LOWER(${DatabaseHelper.colArabicName}) LIKE ? OR
          LOWER(${DatabaseHelper.colActive}) LIKE ?
-       ''',
-      whereArgs: [lowerCaseQuery, lowerCaseQuery, lowerCaseQuery],
+       ''';
+      whereArgs = [lowerCaseQuery, lowerCaseQuery, lowerCaseQuery];
+    }
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: whereClause,
+      whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
       limit: limit, // Apply limit if provided
+      offset: offset, // Apply offset if provided
     );
 
     return List.generate(maps.length, (i) {
@@ -155,11 +151,21 @@ class SqliteLocalDataSource {
     });
   }
 
-  // Filter medicines using SQL WHERE
-  Future<List<MedicineModel>> filterMedicinesByCategory(String category) async {
-    print("Filtering medicines in SQLite by category: $category");
-    if (category.isEmpty)
-      return getAllMedicines(); // Return all if category is empty
+  // Filter medicines using SQL WHERE with pagination
+  Future<List<MedicineModel>> filterMedicinesByCategory(
+    String category, {
+    int? limit,
+    int? offset,
+  }) async {
+    print(
+      "Filtering medicines in SQLite by category: '$category', limit: $limit, offset: $offset",
+    );
+    if (category.isEmpty) {
+      // If category is empty, maybe return paginated results of all?
+      // Or handle this logic in the provider/use case?
+      // For now, let's return based on limit/offset without category filter if category is empty.
+      return searchMedicinesByName('', limit: limit, offset: offset);
+    }
 
     final db = await dbHelper.database;
     final lowerCaseCategory = category.toLowerCase();
@@ -167,8 +173,10 @@ class SqliteLocalDataSource {
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
       where:
-          'LOWER(${DatabaseHelper.colMainCategory}) = ?', // Exact match on main category
+          'LOWER(${DatabaseHelper.colMainCategory}) = ?', // Case-insensitive match
       whereArgs: [lowerCaseCategory],
+      limit: limit, // Apply limit if provided
+      offset: offset, // Apply offset if provided
     );
 
     return List.generate(maps.length, (i) {
