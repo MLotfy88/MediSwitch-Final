@@ -2,7 +2,9 @@ import 'dart:io';
 import 'dart:convert'; // Import for Encoding and utf8
 import 'package:logger/logger.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:path/path.dart' as path; // Import path package
+import 'package:flutter/foundation.dart'; // for kDebugMode
 
 // --- FileOutput Class (Handles writing to the file sink) ---
 class FileOutput extends LogOutput {
@@ -10,6 +12,7 @@ class FileOutput extends LogOutput {
   final bool overrideExisting;
   final Encoding encoding;
   IOSink? _sink;
+  bool _initSucceeded = false; // Track if sink opened
 
   FileOutput({
     required this.file,
@@ -19,43 +22,63 @@ class FileOutput extends LogOutput {
 
   @override
   Future<void> init() async {
-    // Make async
-    print(
-      "[FileOutput] Initializing sink for file: ${file.path}",
-    ); // Console print for init
+    print("[FileOutput] Initializing sink for file: ${file.path}");
     try {
+      // Ensure directory exists
+      if (!await file.parent.exists()) {
+        print(
+          "[FileOutput] Log directory does not exist, creating: ${file.parent.path}",
+        );
+        await file.parent.create(recursive: true);
+      }
       _sink = file.openWrite(
         mode: overrideExisting ? FileMode.writeOnly : FileMode.writeOnlyAppend,
         encoding: encoding,
       );
+      _initSucceeded = true; // Mark as succeeded
       print("[FileOutput] Sink opened successfully.");
-    } catch (e) {
-      print("[FileOutput] Error opening sink: $e"); // Console print for error
-      _sink = null; // Ensure sink is null if opening failed
+      _sink?.writeln(
+        "--- Log Initialized: ${DateTime.now()} ---",
+      ); // Write initial marker
+    } catch (e, s) {
+      print(
+        "[FileOutput] CRITICAL Error opening sink: $e\n$s",
+      ); // Console print for error
+      _sink = null;
+      _initSucceeded = false;
     }
   }
 
   @override
   void output(OutputEvent event) {
-    if (_sink == null) {
-      print(
-        "[FileOutput] Attempted to write but sink is null. Lines: ${event.lines}",
-      );
-      return; // Don't attempt to write if sink failed to open
+    if (!_initSucceeded || _sink == null) {
+      // Don't print every line if sink failed, just log the attempt once maybe
+      // print("[FileOutput] Attempted to write but sink is not initialized. Lines: ${event.lines}");
+      return;
     }
     try {
-      _sink?.writeAll(event.lines, '\n');
-      _sink?.writeln(); // Add an extra newline for separation
+      final timestamp = DateFormat(
+        'HH:mm:ss.SSS',
+      ).format(DateTime.now()); // Add timestamp
+      for (var line in event.lines) {
+        _sink?.writeln('[$timestamp] $line'); // Add timestamp to each line
+      }
     } catch (e) {
       print("[FileOutput] Error writing to sink: $e");
+      // Maybe try to close and reopen sink? Or just stop logging.
+      _initSucceeded = false;
     }
   }
 
   @override
   Future<void> destroy() async {
-    // Make async
     print("[FileOutput] Destroying sink...");
+    if (!_initSucceeded || _sink == null) {
+      print("[FileOutput] Sink already closed or failed to initialize.");
+      return;
+    }
     try {
+      _sink?.writeln("--- Log Closed: ${DateTime.now()} ---");
       await _sink?.flush();
       await _sink?.close();
       print("[FileOutput] Sink flushed and closed.");
@@ -63,16 +86,16 @@ class FileOutput extends LogOutput {
       print("[FileOutput] Error closing sink: $e");
     }
     _sink = null;
+    _initSucceeded = false;
   }
 }
 
 // --- FileLoggerService Class (Manages the logger instance) ---
 class FileLoggerService {
-  late Logger logger; // Make non-final to allow fallback
+  late Logger logger;
   File? _logFile;
   bool _isInitialized = false;
-  bool _fileOutputInitialized =
-      false; // Track if file output specifically worked
+  bool _fileOutputInitialized = false;
 
   // Private constructor
   FileLoggerService._();
@@ -87,47 +110,86 @@ class FileLoggerService {
 
   Future<void> initialize() async {
     if (_isInitialized) return;
-    print("[FileLoggerService] Initializing..."); // Console print
+    print("[FileLoggerService] Initializing...");
 
     // Default to console logger initially
-    logger = Logger(
-      printer: SimplePrinter(printTime: true, colors: true),
-    ); // Use colors for console
+    logger = Logger(printer: SimplePrinter(printTime: true, colors: true));
+
+    Directory? directory;
+    try {
+      // Try documents directory first
+      if (Platform.isAndroid || Platform.isIOS) {
+        print("[FileLoggerService] Getting application documents directory...");
+        directory = await getApplicationDocumentsDirectory();
+        print(
+          "[FileLoggerService] Documents directory path: ${directory.path}",
+        );
+      } else {
+        print(
+          "[FileLoggerService] Platform not Android/iOS, skipping documents directory.",
+        );
+      }
+    } catch (e, s) {
+      print("[FileLoggerService] Error getting documents directory: $e\n$s");
+      directory = null; // Fallback if error occurs
+    }
+
+    // Fallback to external storage if documents directory failed or not available
+    // Note: External storage might require specific permissions on newer Android versions.
+    // Let's avoid external storage for now due to permission complexities.
+    // if (directory == null && Platform.isAndroid) {
+    //   try {
+    //     print("[FileLoggerService] Falling back to external storage directory...");
+    //     directory = await getExternalStorageDirectory(); // Might be null if unavailable
+    //     print("[FileLoggerService] External storage directory path: ${directory?.path}");
+    //   } catch (e, s) {
+    //     print("[FileLoggerService] Error getting external storage directory: $e\n$s");
+    //     directory = null;
+    //   }
+    // }
+
+    if (directory == null) {
+      print(
+        "[FileLoggerService] Could not obtain a valid directory for logging. Using console only.",
+      );
+      logger.e("Could not obtain log directory. Using console logging.");
+      _isInitialized = true; // Mark as initialized, but file logging failed
+      _fileOutputInitialized = false;
+      return;
+    }
 
     try {
-      print("[FileLoggerService] Getting application documents directory...");
-      final directory = await getApplicationDocumentsDirectory();
-      print(
-        "[FileLoggerService] Documents directory path: ${directory.path}",
-      ); // Console print path
-
-      // Try writing directly to the documents directory first
+      // Use documents directory path
       _logFile = File(path.join(directory.path, 'app_log.txt'));
       print("[FileLoggerService] Attempting to log to: ${_logFile?.path}");
 
       final fileOutput = FileOutput(file: _logFile!);
       await fileOutput.init(); // Wait for sink to initialize
 
-      // Check if sink was actually opened in FileOutput.init()
-      if (fileOutput._sink != null) {
+      if (fileOutput._initSucceeded) {
+        // Check success flag
         logger = Logger(
           printer: SimplePrinter(
-            printTime: true,
+            printTime: false,
             colors: false,
-          ), // No colors for file
+          ), // No time/color in file
           output: fileOutput,
           level: Level.verbose,
         );
         _fileOutputInitialized = true;
         print("[FileLoggerService] Switched to FileOutput successfully.");
         logger.i(
-          "FileLoggerService Initialized. Logging to: ${_logFile?.path}",
+          "-------------------- FileLoggerService Initialized --------------------",
+        );
+        logger.i("Logging to: ${_logFile?.path}");
+        logger.i("App Start Time: ${DateTime.now()}");
+        logger.i(
+          "-----------------------------------------------------------------------",
         );
       } else {
         print(
           "[FileLoggerService] FileOutput sink initialization failed. Falling back to console.",
         );
-        // logger remains the console logger
         logger.e("File sink initialization failed. Using console logging.");
         _fileOutputInitialized = false;
       }
@@ -137,20 +199,20 @@ class FileLoggerService {
         "[FileLoggerService] Initialization process complete. File output initialized: $_fileOutputInitialized",
       );
     } catch (e, s) {
-      print("[FileLoggerService] CRITICAL Error during initialization: $e\n$s");
-      // logger remains the console logger
+      print(
+        "[FileLoggerService] CRITICAL Error during file output setup: $e\n$s",
+      );
       logger.e(
         "FileLoggerService critical initialization error",
         error: e,
         stackTrace: s,
       );
-      _isInitialized =
-          true; // Mark as initialized even on error, but file output failed
+      _isInitialized = true;
       _fileOutputInitialized = false;
     }
   }
 
-  // Methods to log messages (delegate to the current logger instance)
+  // Methods to log messages
   void v(dynamic message) => logger.v(message);
   void d(dynamic message) => logger.d(message);
   void i(dynamic message) => logger.i(message);
@@ -163,7 +225,7 @@ class FileLoggerService {
 
   Future<void> close() async {
     logger.i("Closing FileLoggerService.");
-    await logger.close(); // This will call destroy on FileOutput if it exists
+    await logger.close();
     _isInitialized = false;
     _fileOutputInitialized = false;
     print("[FileLoggerService] Closed.");
