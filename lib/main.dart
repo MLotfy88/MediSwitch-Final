@@ -1,90 +1,315 @@
 import 'package:flutter/material.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart'; // Import Mobile Ads SDK
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
+import 'package:shared_preferences/shared_preferences.dart';
 import 'core/di/locator.dart';
-import 'core/services/file_logger_service.dart'; // Import FileLoggerService
-import 'data/datasources/local/sqlite_local_data_source.dart'; // Import SqliteLocalDataSource for seeding
+import 'core/services/file_logger_service.dart';
+import 'data/datasources/local/sqlite_local_data_source.dart';
 import 'presentation/bloc/medicine_provider.dart';
 import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
 import 'presentation/bloc/dose_calculator_provider.dart';
 import 'presentation/bloc/interaction_provider.dart';
-import 'presentation/bloc/subscription_provider.dart'; // Import Subscription Provider
+import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/onboarding_screen.dart';
 
-// Define the key here or move to a shared constants file
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
 
-// Make main async
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  FileLoggerService? logger; // Make logger nullable initially
+  FileLoggerService? logger;
 
   try {
-    // Initialize locator first as it now includes logger init.
-    await setupLocator(); // Use the full locator setup
+    await setupLocator();
     logger = locator<FileLoggerService>();
     logger.i("main: Starting application setup...");
 
-    // Initialize Mobile Ads SDK
     logger.i("main: Initializing Mobile Ads SDK...");
-    MobileAds.instance.initialize(); // Re-enable Mobile Ads initialization
+    MobileAds.instance.initialize();
     logger.i("main: Mobile Ads SDK initialized.");
 
-    // Check if onboarding is complete
     logger.i("main: Checking onboarding status...");
     final prefs = await locator.getAsync<SharedPreferences>();
     final bool onboardingComplete =
         prefs.getBool(_prefsKeyOnboardingDone) ?? false;
     logger.i("main: Onboarding complete: $onboardingComplete");
 
-    // Determine the initial screen
     final Widget initialScreen =
         onboardingComplete ? const MainScreen() : const OnboardingScreen();
     logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // Seed the database if needed after locator setup
     logger.i("main: Attempting database seeding if needed...");
     try {
       final localDataSource = locator<SqliteLocalDataSource>();
-      await localDataSource
-          .seedDatabaseFromAssetIfNeeded(); // Re-enable seeding
+      await localDataSource.seedDatabaseFromAssetIfNeeded();
       logger.i("main: Database seeding check complete.");
     } catch (e, s) {
-      logger.e(
-        "main: Error during post-locator seeding",
-        e,
-        s,
-      ); // Correct parameters
-      // Handle seeding error if necessary (e.g., show error screen or default data)
+      logger.e("main: Error during post-locator seeding", e, s);
     }
 
-    // Initialize SubscriptionProvider asynchronously in the background
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
-    locator<SubscriptionProvider>().initialize(); // Re-enable initialization
+    locator<SubscriptionProvider>().initialize();
 
-    // Run the original app structure
     logger.i("main: Running MyApp...");
-    runApp(MyApp(homeWidget: initialScreen)); // Use original MyApp
+    runApp(MyApp(homeWidget: initialScreen));
     logger.i("main: runApp called successfully.");
   } catch (e, stackTrace) {
-    // Log any top-level errors that occur before or during runApp
     final errorMsg = "FATAL ERROR in main";
-    print("$errorMsg: $e\n$stackTrace"); // Print to console as fallback
-    // Try logging to file if logger initialized, otherwise this might fail too
-    logger?.f(errorMsg, e, stackTrace); // Use correct parameters and null check
-    // Ensure the app closes or shows an error screen if possible
-    runApp(
-      ErrorMaterialApp(error: e, stackTrace: stackTrace),
-    ); // Show error screen
+    print("$errorMsg: $e\n$stackTrace");
+    logger?.f(errorMsg, e, stackTrace);
+    runApp(ErrorMaterialApp(error: e, stackTrace: stackTrace));
   }
+}
+
+// Helper function to build ThemeData
+ThemeData _buildThemeData(Brightness brightness) {
+  final bool isDark = brightness == Brightness.dark;
+
+  // Define HSL colors based on brightness
+  final background =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 222.2, 0.22, 0.18)
+          : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98);
+  final foreground =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
+          : const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049);
+  final card =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.14)
+          : const HSLColor.fromAHSL(1.0, 0, 0, 1.0);
+  final cardForeground =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
+          : const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049);
+  final primary = const HSLColor.fromAHSL(
+    1.0,
+    160,
+    0.78,
+    0.40,
+  ); // Same for both modes
+  final primaryForeground = const HSLColor.fromAHSL(
+    1.0,
+    210,
+    0.40,
+    0.98,
+  ); // Same for both modes
+  final secondary =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
+          : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.961);
+  final secondaryForeground =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
+          : const HSLColor.fromAHSL(1.0, 222.2, 0.474, 0.112);
+  final muted =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
+          : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.961);
+  final mutedForeground =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 215, 0.25, 0.70)
+          : const HSLColor.fromAHSL(1.0, 215.4, 0.16, 0.46);
+  final accent =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
+          : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.961);
+  final accentForeground =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
+          : const HSLColor.fromAHSL(1.0, 222.2, 0.47, 0.11);
+  final destructive =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 0, 0.70, 0.45)
+          : const HSLColor.fromAHSL(1.0, 0, 0.84, 0.60);
+  final destructiveForeground = const HSLColor.fromAHSL(
+    1.0,
+    210,
+    0.40,
+    0.98,
+  ); // Same for both modes
+  final border =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
+          : const HSLColor.fromAHSL(1.0, 214.3, 0.31, 0.91);
+  final input =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
+          : const HSLColor.fromAHSL(1.0, 214.3, 0.31, 0.91);
+  final ring =
+      isDark
+          ? const HSLColor.fromAHSL(1.0, 212.7, 0.26, 0.83)
+          : const HSLColor.fromAHSL(1.0, 160, 0.78, 0.40);
+  final headerBackground = const Color(0xFF16BC88); // Fixed color for header
+
+  final colorScheme = ColorScheme(
+    brightness: brightness,
+    primary: primary.toColor(),
+    onPrimary: primaryForeground.toColor(),
+    secondary: secondary.toColor(),
+    onSecondary: secondaryForeground.toColor(),
+    error: destructive.toColor(),
+    onError: destructiveForeground.toColor(),
+    background: background.toColor(),
+    onBackground: foreground.toColor(),
+    surface: card.toColor(), // Use card color for surface
+    onSurface: cardForeground.toColor(), // Use card foreground for onSurface
+    // Map other colors as needed, potentially using tertiary, surfaceVariant etc.
+    surfaceVariant: muted.toColor(), // Example mapping
+    onSurfaceVariant: mutedForeground.toColor(), // Example mapping
+    outline: border.toColor(),
+    shadow: Colors.black.withOpacity(0.1), // Default shadow
+    inverseSurface: foreground.toColor(), // Example mapping
+    onInverseSurface: background.toColor(), // Example mapping
+    primaryContainer:
+        primary
+            .withLightness(primary.lightness * (isDark ? 1.2 : 0.9))
+            .toColor(), // Example adjustment
+    onPrimaryContainer: primaryForeground.toColor(),
+    secondaryContainer:
+        secondary
+            .withLightness(secondary.lightness * (isDark ? 1.2 : 0.9))
+            .toColor(), // Example adjustment
+    onSecondaryContainer: secondaryForeground.toColor(),
+    tertiary: headerBackground, // Use fixed header color for tertiary
+    onTertiary: Colors.white, // Fixed white text on header
+    errorContainer:
+        destructive
+            .withLightness(destructive.lightness * (isDark ? 1.2 : 0.9))
+            .toColor(),
+    onErrorContainer: destructiveForeground.toColor(),
+    surfaceTint: primary.toColor(), // Often same as primary
+  );
+
+  return ThemeData(
+    brightness: brightness,
+    useMaterial3: true,
+    fontFamily: 'Noto Sans Arabic',
+    colorScheme: colorScheme,
+    scaffoldBackgroundColor: colorScheme.background,
+    cardTheme: CardTheme(
+      elevation: 0,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12.0), // --radius: 0.75rem ~ 12px
+        side: BorderSide(
+          color: colorScheme.outline,
+        ), // Use outline color for border
+      ),
+      color: colorScheme.surface, // Use surface color for card background
+      clipBehavior: Clip.antiAlias, // Good practice
+    ),
+    appBarTheme: AppBarTheme(
+      elevation: 0,
+      // Use tertiary for the specific header background color
+      backgroundColor: colorScheme.tertiary,
+      foregroundColor: colorScheme.onTertiary, // White text on header
+      iconTheme: IconThemeData(color: colorScheme.onTertiary),
+      titleTextStyle: TextStyle(
+        color: colorScheme.onTertiary,
+        fontSize: 20, // Adjust as needed
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Noto Sans Arabic',
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      filled: true,
+      fillColor: colorScheme.surfaceVariant.withOpacity(
+        0.5,
+      ), // Use muted/surfaceVariant for input background
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(20.0), // Match search bar radius
+        borderSide: BorderSide.none, // No border by default
+      ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(20.0),
+        borderSide: BorderSide.none,
+      ),
+      focusedBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(20.0),
+        borderSide: BorderSide(
+          color: colorScheme.primary,
+          width: 1.5,
+        ), // Ring color on focus
+      ),
+      hintStyle: TextStyle(
+        color: colorScheme.onSurfaceVariant.withOpacity(0.7),
+      ),
+      contentPadding: const EdgeInsets.symmetric(
+        vertical: 10.0,
+        horizontal: 16.0,
+      ),
+    ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      backgroundColor: colorScheme.surface, // Card color
+      selectedItemColor: colorScheme.primary,
+      unselectedItemColor: colorScheme.onSurfaceVariant.withOpacity(
+        0.7,
+      ), // Muted foreground
+      elevation: 8.0, // Add some elevation
+      type: BottomNavigationBarType.fixed, // Ensure labels are always shown
+      selectedLabelStyle: const TextStyle(
+        fontSize: 12,
+        fontWeight: FontWeight.w500,
+      ),
+      unselectedLabelStyle: const TextStyle(fontSize: 12),
+    ),
+    // Add other component themes as needed (Buttons, Switches, etc.)
+    switchTheme: SwitchThemeData(
+      thumbColor: MaterialStateProperty.resolveWith<Color?>((
+        Set<MaterialState> states,
+      ) {
+        if (states.contains(MaterialState.selected)) {
+          return colorScheme.primary;
+        }
+        return null; // Use default
+      }),
+      trackColor: MaterialStateProperty.resolveWith<Color?>((
+        Set<MaterialState> states,
+      ) {
+        if (states.contains(MaterialState.selected)) {
+          return colorScheme.primary.withOpacity(0.5);
+        }
+        return null; // Use default
+      }),
+      trackOutlineColor: MaterialStateProperty.resolveWith<Color?>((
+        Set<MaterialState> states,
+      ) {
+        return colorScheme.outline.withOpacity(0.5);
+      }),
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(foregroundColor: colorScheme.primary),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: colorScheme.primary,
+        foregroundColor: colorScheme.onPrimary,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        foregroundColor: colorScheme.primary,
+        side: BorderSide(color: colorScheme.primary.withOpacity(0.5)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      ),
+    ),
+    badgeTheme: BadgeThemeData(
+      backgroundColor: colorScheme.secondary,
+      textColor: colorScheme.onSecondary,
+      smallSize: 6,
+      largeSize: 16,
+      padding: const EdgeInsets.symmetric(horizontal: 6),
+    ),
+  );
 }
 
 // Original MyApp structure
 class MyApp extends StatelessWidget {
-  final Widget homeWidget; // Add field to hold the initial widget
+  final Widget homeWidget;
 
   const MyApp({super.key, required this.homeWidget});
 
@@ -92,10 +317,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final logger = locator<FileLoggerService>();
     logger.i("MyApp: Building widget tree...");
-    // Wrap with MultiProvider to provide multiple providers
     return MultiProvider(
       providers: [
-        // Provide all necessary Providers using the locator
         ChangeNotifierProvider(
           create: (_) {
             logger.d("MyApp: Creating MedicineProvider...");
@@ -133,13 +356,11 @@ class MyApp extends StatelessWidget {
           },
         ),
       ],
-      // Consumer is needed here to access SettingsProvider for theme/locale
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
           logger.d(
             "MyApp: Consumer<SettingsProvider> builder running. Initialized: ${settingsProvider.isInitialized}",
           );
-          // Show loading indicator until settings are loaded
           if (!settingsProvider.isInitialized) {
             logger.v(
               "MyApp: SettingsProvider not initialized, showing loading indicator.",
@@ -152,257 +373,17 @@ class MyApp extends StatelessWidget {
           logger.v(
             "MyApp: SettingsProvider initialized, building main MaterialApp.",
           );
-          // Build the app once settings are loaded
           return MaterialApp(
             title: 'MediSwitch',
             debugShowCheckedModeBanner: false,
-            themeMode:
-                settingsProvider.themeMode, // Use themeMode from provider
-            theme: ThemeData(
-              // Light Theme
-              brightness: Brightness.light,
-              useMaterial3: true,
-              fontFamily: 'Noto Sans Arabic', // Set default font
-              colorScheme: ColorScheme.fromSeed(
-                seedColor:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // Primary color from CSS --primary
-                brightness: Brightness.light,
-                background:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --background
-                onBackground:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // --foreground
-                primary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // --primary
-                onPrimary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --primary-foreground
-                secondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.961,
-                    ).toColor(), // --secondary
-                onSecondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.474,
-                      0.112,
-                    ).toColor(), // --secondary-foreground
-                surface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0,
-                      1.0,
-                    ).toColor(), // --card (white)
-                onSurface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // --card-foreground
-                error:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0.842,
-                      0.602,
-                    ).toColor(), // --destructive
-                onError:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --destructive-foreground
-                tertiary: const Color(0xFF16BC88), // Custom Header Background
-                onTertiary: Colors.white, // Custom Header Foreground
-              ),
-              cardTheme: CardTheme(
-                elevation: 0,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12.0),
-                  side: BorderSide(
-                    color:
-                        const HSLColor.fromAHSL(
-                          1.0,
-                          214.3,
-                          0.318,
-                          0.914,
-                        ).toColor(),
-                  ), // --border
-                ),
-              ),
-              appBarTheme: AppBarTheme(
-                elevation: 0,
-                backgroundColor: Colors.transparent,
-                foregroundColor:
-                    HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.84,
-                      0.049,
-                    ).toColor(), // Match foreground
-              ),
-              // Add more theme customizations...
-            ),
-            darkTheme: ThemeData(
-              // Dark Theme
-              brightness: Brightness.dark,
-              useMaterial3: true,
-              fontFamily: 'Noto Sans Arabic',
-              colorScheme: ColorScheme.fromSeed(
-                seedColor:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // Primary color
-                brightness: Brightness.dark,
-                background:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.22,
-                      0.18,
-                    ).toColor(), // --background dark
-                onBackground:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --foreground dark
-                primary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      160,
-                      0.78,
-                      0.40,
-                    ).toColor(), // --primary dark (same as light?)
-                onPrimary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --primary-foreground dark
-                secondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      217.2,
-                      0.326,
-                      0.25,
-                    ).toColor(), // --secondary dark
-                onSecondary:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --secondary-foreground dark
-                surface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.25,
-                      0.14,
-                    ).toColor(), // --card dark
-                onSurface:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --card-foreground dark
-                error:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      0,
-                      0.70,
-                      0.45,
-                    ).toColor(), // --destructive dark
-                onError:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // --destructive-foreground dark
-                tertiary: const Color(
-                  0xFF16BC88,
-                ), // Custom Header Background (same for dark?)
-                onTertiary:
-                    Colors.white, // Custom Header Foreground (same for dark?)
-              ),
-              cardTheme: CardTheme(
-                elevation: 0,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12.0),
-                  side: BorderSide(
-                    color:
-                        const HSLColor.fromAHSL(
-                          1.0,
-                          217.2,
-                          0.326,
-                          0.25,
-                        ).toColor(),
-                  ), // --border dark
-                ),
-                color:
-                    const HSLColor.fromAHSL(
-                      1.0,
-                      222.2,
-                      0.25,
-                      0.14,
-                    ).toColor(), // --card dark
-              ),
-              appBarTheme: AppBarTheme(
-                elevation: 0,
-                backgroundColor: Colors.transparent,
-                foregroundColor:
-                    HSLColor.fromAHSL(
-                      1.0,
-                      210,
-                      0.40,
-                      0.98,
-                    ).toColor(), // Match foreground dark
-              ),
-              // Add more theme customizations...
-            ),
-            locale: settingsProvider.locale, // Use locale from provider
+            themeMode: settingsProvider.themeMode,
+            theme: _buildThemeData(Brightness.light), // Use helper function
+            darkTheme: _buildThemeData(Brightness.dark), // Use helper function
+            locale: settingsProvider.locale,
             // TODO: Add localization delegates and supported locales
             // localizationsDelegates: [ ... ],
             // supportedLocales: [ const Locale('en'), const Locale('ar'), ],
-            home: homeWidget, // Use the determined initial screen
+            home: homeWidget,
           );
         },
       ),

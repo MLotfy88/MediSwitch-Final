@@ -8,7 +8,7 @@ import 'search_screen.dart';
 import 'drug_details_screen.dart';
 import '../widgets/drug_card.dart';
 import '../widgets/section_header.dart';
-import '../widgets/home_header.dart';
+import '../widgets/home_header.dart'; // Correct import
 import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart';
 import '../widgets/banner_ad_widget.dart';
@@ -27,40 +27,30 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final AdService _adService = locator<AdService>();
   final FileLoggerService _logger = locator<FileLoggerService>();
-  final ScrollController _scrollController =
-      ScrollController(); // Add ScrollController
+  final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
     _logger.i("HomeScreen: initState called.");
-    // Add listener to ScrollController for pagination
     _scrollController.addListener(_onScroll);
-    // Initial data load is triggered by MedicineProvider constructor
   }
 
   @override
   void dispose() {
     _logger.i("HomeScreen: dispose called.");
-    _scrollController.removeListener(_onScroll); // Remove listener
-    _scrollController.dispose(); // Dispose controller
+    _scrollController.removeListener(_onScroll);
+    _scrollController.dispose();
     super.dispose();
   }
 
-  // Listener for scroll events
   void _onScroll() {
-    // Check if near the bottom and more items exist and not already loading more
     if (_scrollController.position.pixels >=
-            _scrollController.position.maxScrollExtent -
-                300 && // Trigger slightly earlier
+            _scrollController.position.maxScrollExtent - 300 &&
         context.read<MedicineProvider>().hasMoreItems &&
         !context.read<MedicineProvider>().isLoadingMore &&
-        !context
-            .read<MedicineProvider>()
-            .isLoading) // Also check main loading flag
-    {
+        !context.read<MedicineProvider>().isLoading) {
       _logger.i("HomeScreen: Reached near bottom, calling loadMoreDrugs...");
-      // Use try-catch for safety, although provider should handle errors
       try {
         context.read<MedicineProvider>().loadMoreDrugs();
       } catch (e, s) {
@@ -72,11 +62,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     _logger.i("HomeScreen: Building widget...");
-    // Use Consumer for more granular rebuilds if needed, but watch is fine for now
     final medicineProvider = context.watch<MedicineProvider>();
     final isLoading = medicineProvider.isLoading;
-    final isLoadingMore =
-        medicineProvider.isLoadingMore; // Get loading more state
+    final isLoadingMore = medicineProvider.isLoadingMore;
     final error = medicineProvider.error;
     final displayedMedicines = medicineProvider.filteredMedicines;
     _logger.d(
@@ -90,14 +78,12 @@ class _HomeScreenState extends State<HomeScreen> {
             child: RefreshIndicator(
               onRefresh: () {
                 _logger.i("HomeScreen: RefreshIndicator triggered.");
-                return context
-                    .read<MedicineProvider>()
-                    .loadInitialData(); // Reset to page 0
+                return context.read<MedicineProvider>().loadInitialData();
               },
               child:
                   isLoading && displayedMedicines.isEmpty
                       ? _buildLoadingIndicator()
-                      // Pass isLoading to _buildContent
+                      // Pass isLoading, isLoadingMore, and error correctly
                       : _buildContent(
                         context,
                         medicineProvider,
@@ -108,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
             ),
           ),
-          const BannerAdWidget(), // Keep banner ad
+          const BannerAdWidget(),
         ],
       ),
     );
@@ -119,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return const Center(child: CircularProgressIndicator());
   }
 
-  // Modify _buildContent to accept isLoading, isLoadingMore and error
+  // Corrected signature for _buildContent
   Widget _buildContent(
     BuildContext context,
     MedicineProvider medicineProvider,
@@ -129,44 +115,36 @@ class _HomeScreenState extends State<HomeScreen> {
     String error,
   ) {
     _logger.v("HomeScreen: Building main content ListView.");
-    // Handle error state first if list is empty
     if (error.isNotEmpty && displayedMedicines.isEmpty) {
       return _buildErrorWidget(context, error);
     }
 
-    // Use ListView.builder directly and attach the controller
     return ListView.builder(
-      controller: _scrollController, // Attach controller
+      controller: _scrollController,
       padding: EdgeInsets.zero,
-      // Add 1 to itemCount for the potential loading indicator or end message
-      itemCount:
-          displayedMedicines.length +
-          1, // Always reserve space for indicator/end message
+      itemCount: displayedMedicines.length + 1,
       itemBuilder: (context, index) {
-        // --- Build Header, Search, Categories only once at the top ---
         if (index == 0) {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const HomeHeader(),
+              const HomeHeader(), // Use the corrected HomeHeader
               _buildSearchBar(context),
               const SizedBox(height: 16.0),
               _buildCategoriesSection(context),
               const SizedBox(height: 16.0),
-              // --- All Drugs Section Header ---
               SectionHeader(
                 title:
                     medicineProvider.searchQuery.isEmpty &&
                             medicineProvider.selectedCategory.isEmpty
-                        ? 'الأدوية' // Simplified title
+                        ? 'الأدوية'
                         : 'نتائج البحث/الفلترة',
                 padding: const EdgeInsets.symmetric(
                   horizontal: 16,
                   vertical: 8,
                 ),
               ),
-              // If the list is empty AFTER header, show empty message
-              // Use the passed isLoading parameter here
+              // Use the passed isLoading parameter correctly
               if (displayedMedicines.isEmpty &&
                   !isLoading &&
                   !isLoadingMore &&
@@ -176,8 +154,7 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         }
 
-        // --- Build Drug Items (adjust index for header) ---
-        final itemIndex = index - 1; // Adjust index because header is item 0
+        final itemIndex = index - 1;
 
         if (itemIndex < displayedMedicines.length) {
           final drug = displayedMedicines[itemIndex];
@@ -191,12 +168,8 @@ class _HomeScreenState extends State<HomeScreen> {
               type: DrugCardType.detailed,
               onTap: () => _navigateToDetails(context, drug),
             ),
-          ).animate().fadeIn(
-            delay: (itemIndex % 10 * 50).ms,
-          ); // Staggered fade-in
-        }
-        // --- Build Loading Indicator or End Message ---
-        else if (isLoadingMore) {
+          ).animate().fadeIn(delay: (itemIndex % 10 * 50).ms);
+        } else if (isLoadingMore) {
           _logger.v(
             "HomeScreen: Building loading more indicator at end of list.",
           );
@@ -206,7 +179,6 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         } else if (!medicineProvider.hasMoreItems &&
             displayedMedicines.isNotEmpty) {
-          // Only show if list not empty
           _logger.v("HomeScreen: Building 'end of list' message.");
           return Padding(
             padding: const EdgeInsets.symmetric(
@@ -223,14 +195,11 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           );
         } else {
-          // If hasMoreItems is true but not loading, or if list is empty initially, show nothing at the end
-          return Container(height: 0); // Return empty container
+          return Container(height: 0);
         }
       },
     );
   }
-
-  // --- Builder Methods ---
 
   Widget _buildSearchBar(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
@@ -294,7 +263,6 @@ class _HomeScreenState extends State<HomeScreen> {
       'فيتامينات': Icons.local_florist_outlined,
     };
 
-    // Handle case where categories might still be loading
     if (categories.isEmpty && context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
         height: 115,
@@ -302,7 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     }
     if (categories.isEmpty) {
-      return const SizedBox.shrink(); // Don't show section if no categories
+      return const SizedBox.shrink();
     }
 
     return HorizontalListSection(
@@ -351,7 +319,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // Add helper for empty list message
   Widget _buildEmptyListMessage(
     BuildContext context,
     MedicineProvider provider,
@@ -367,7 +334,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Text(
           filtersActive
               ? 'لا توجد نتائج تطابق الفلاتر الحالية.'
-              : 'لا توجد أدوية لعرضها حالياً.', // This might show briefly on initial load
+              : 'لا توجد أدوية لعرضها حالياً.',
           textAlign: TextAlign.center,
           style: Theme.of(
             context,
