@@ -235,9 +235,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           FilterParams(category: _selectedCategory),
         );
       } else {
-        // No primary filter, fetch an initial limited set
-        _logger.d("MedicineProvider: Applying initial limit filter...");
-        const initialLimit = 50;
+        // No primary filter, fetch a smaller initial limited set
+        _logger.d("MedicineProvider: Applying initial limit filter (small)...");
+        const initialLimit = 5; // Reduce initial load limit significantly
         result = await searchDrugsUseCase(
           SearchParams(query: '', limit: initialLimit),
         );
