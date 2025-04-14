@@ -2,6 +2,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart'; // Import Material for RangeValues
 import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:dartz/dartz.dart'; // Import dartz for Either
+import '../../core/di/locator.dart'; // Import locator
+import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../core/error/failures.dart'; // Import Failure base class
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check logic inside repo
@@ -21,6 +23,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
   final GetAnalyticsSummary getAnalyticsSummaryUseCase;
+  final FileLoggerService _logger =
+      locator<FileLoggerService>(); // Get logger instance
 
   // State variables
   List<DrugEntity> _filteredMedicines = [];
@@ -47,6 +51,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.getLastUpdateTimestampUseCase,
     required this.getAnalyticsSummaryUseCase,
   }) {
+    _logger.i("MedicineProvider: Constructor called.");
     loadInitialData();
   }
 
@@ -69,8 +74,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         _lastUpdateTimestamp!,
       );
       return DateFormat('yyyy-MM-dd HH:mm', 'en').format(dateTime);
-    } catch (e) {
-      print("Error formatting timestamp: $e");
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e("Error formatting timestamp", e, s); // Correct parameters
       return 'تنسيق غير صالح';
     }
   }
@@ -78,44 +84,55 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   // Load initial necessary data (categories, timestamp) and trigger initial filter
   Future<void> loadInitialData() async {
     // Prevent multiple simultaneous initial loads
-    if (_isLoading && _isInitialLoadComplete) return;
+    if (_isLoading && _isInitialLoadComplete) {
+      _logger.w(
+        "MedicineProvider: loadInitialData called while already loading or complete. Skipping.",
+      );
+      return;
+    }
 
-    print("MedicineProvider: loadInitialData called (Original Logic)");
+    _logger.i("MedicineProvider: loadInitialData called (Original Logic)");
     _isLoading = true;
     _error = '';
     _isInitialLoadComplete = false; // Mark as loading
-    // Use WidgetsBinding only if called from constructor context might be unsafe
-    // notifyListeners(); // Notify immediately might be too early
 
     // Ensure listeners are notified safely after the frame is built
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      // Check if mounted is not directly possible here, rely on provider lifecycle
       if (isLoading) {
         // Check if still loading
+        _logger.v(
+          "MedicineProvider: Notifying listeners (initial loading state)",
+        );
         notifyListeners();
       }
     });
 
     // Trigger update check (getAllDrugs in repo now handles this)
+    _logger.i("MedicineProvider: Triggering update check...");
     final updateResult = await getAllDrugsUseCase(NoParams());
+    _logger.i("MedicineProvider: Update check finished.");
 
     // Regardless of update success/failure, load categories and timestamp
+    _logger.i("MedicineProvider: Loading categories and timestamp...");
     await _loadCategories();
     await _loadAndUpdateTimestamp();
+    _logger.i("MedicineProvider: Categories and timestamp loaded.");
 
     // Apply initial filters (fetching initial view)
+    _logger.i("MedicineProvider: Applying initial filters...");
     await _applyFilters(); // This will set isLoading = false and notify
+    _logger.i("MedicineProvider: Initial filters applied.");
 
     // Handle potential failure from the update check *after* attempting initial filter/load
     updateResult.fold(
       (failure) {
-        // Set error state, _applyFilters would have already set isLoading=false
         _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
-        print(_error);
+        _logger.e("MedicineProvider: Update check failed: $_error");
         notifyListeners(); // Notify about the error
       },
       (_) {
-        // Update successful or not needed, state already handled by _applyFilters
-        print("MedicineProvider: Update check successful or not needed.");
+        _logger.i("MedicineProvider: Update check successful or not needed.");
       },
     );
 
@@ -123,134 +140,184 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
     // Ensure loading is false if _applyFilters didn't run or failed early
     if (_isLoading) {
+      _logger.w(
+        "MedicineProvider: isLoading was still true after _applyFilters. Setting to false.",
+      );
       _isLoading = false;
       notifyListeners();
     }
-    print("MedicineProvider: loadInitialData finished (Original Logic)");
+    _logger.i("MedicineProvider: loadInitialData finished (Original Logic)");
   }
 
   Future<void> _loadCategories() async {
+    _logger.d("MedicineProvider: _loadCategories called.");
     final failureOrCategories = await getAvailableCategoriesUseCase(NoParams());
     failureOrCategories.fold(
       (failure) {
-        print("Error loading categories: ${_mapFailureToMessage(failure)}");
+        _logger.e("Error loading categories: ${_mapFailureToMessage(failure)}");
         _categories = [];
       },
       (categories) {
+        _logger.i(
+          "MedicineProvider: Categories loaded successfully (${categories.length} items).",
+        );
         _categories = categories;
       },
     );
-    // Don't notify here, let loadInitialData handle it
   }
 
   Future<void> _loadAndUpdateTimestamp() async {
+    _logger.d("MedicineProvider: _loadAndUpdateTimestamp called.");
     final failureOrTimestamp = await getLastUpdateTimestampUseCase(NoParams());
     failureOrTimestamp.fold(
       (failure) {
-        print(
+        _logger.e(
           "Error loading last update timestamp: ${_mapFailureToMessage(failure)}",
         );
         _lastUpdateTimestamp = null;
       },
       (timestamp) {
         _lastUpdateTimestamp = timestamp;
-        if (kDebugMode)
-          print("Last update timestamp loaded: $_lastUpdateTimestamp");
+        _logger.i(
+          "MedicineProvider: Last update timestamp loaded: $_lastUpdateTimestamp",
+        );
       },
     );
-    // Don't notify here, let loadInitialData handle it
   }
 
   Future<void> setSearchQuery(String query) async {
+    _logger.d("MedicineProvider: setSearchQuery called with query: '$query'");
     _searchQuery = query;
     await _applyFilters();
   }
 
   Future<void> setCategory(String category) async {
+    _logger.d(
+      "MedicineProvider: setCategory called with category: '$category'",
+    );
     _selectedCategory = category;
     await _applyFilters();
   }
 
   Future<void> setDosageForm(String dosageForm) async {
+    _logger.d(
+      "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm'",
+    );
     _selectedDosageForm = dosageForm;
     await _applyFilters();
   }
 
   Future<void> setPriceRange(RangeValues? range) async {
+    _logger.d("MedicineProvider: setPriceRange called with range: $range");
     _selectedPriceRange = range;
     await _applyFilters();
   }
 
   // Apply filters by querying the repository
   Future<void> _applyFilters() async {
+    _logger.i(
+      "MedicineProvider: _applyFilters called. Query: '$_searchQuery', Category: '$_selectedCategory', Dosage: '$_selectedDosageForm', Price: $_selectedPriceRange",
+    );
     _isLoading = true;
     _error = '';
     notifyListeners(); // Notify that filtering started
 
     Either<Failure, List<DrugEntity>> result;
 
-    // Determine base query: search or category filter takes precedence
-    if (_searchQuery.isNotEmpty) {
-      result = await searchDrugsUseCase(SearchParams(query: _searchQuery));
-    } else if (_selectedCategory.isNotEmpty) {
-      result = await filterDrugsByCategoryUseCase(
-        FilterParams(category: _selectedCategory),
+    try {
+      // Determine base query: search or category filter takes precedence
+      if (_searchQuery.isNotEmpty) {
+        _logger.d("MedicineProvider: Applying search filter...");
+        result = await searchDrugsUseCase(SearchParams(query: _searchQuery));
+      } else if (_selectedCategory.isNotEmpty) {
+        _logger.d("MedicineProvider: Applying category filter...");
+        result = await filterDrugsByCategoryUseCase(
+          FilterParams(category: _selectedCategory),
+        );
+      } else {
+        // No primary filter, fetch an initial limited set
+        _logger.d("MedicineProvider: Applying initial limit filter...");
+        const initialLimit = 50;
+        result = await searchDrugsUseCase(
+          SearchParams(query: '', limit: initialLimit),
+        );
+      }
+
+      // Apply secondary filters (dosage form, price) locally on the results
+      result.fold(
+        (failure) {
+          _logger.e(
+            "MedicineProvider: Error during primary fetch: ${_mapFailureToMessage(failure)}",
+          );
+          // Propagate the failure
+          _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
+          _filteredMedicines = [];
+        },
+        (drugs) {
+          _logger.d(
+            "MedicineProvider: Primary fetch successful (${drugs.length} items). Applying secondary filters...",
+          );
+          List<DrugEntity> filtered = List.from(drugs);
+
+          // Apply Dosage Form Filter locally
+          if (_selectedDosageForm.isNotEmpty) {
+            final lowerCaseDosage = _selectedDosageForm.toLowerCase();
+            _logger.v(
+              "MedicineProvider: Applying dosage filter: '$lowerCaseDosage'",
+            );
+            filtered =
+                filtered.where((drug) {
+                  final formLower = (drug.dosageForm ?? '').toLowerCase();
+                  return formLower.contains(lowerCaseDosage);
+                }).toList();
+            _logger.v(
+              "MedicineProvider: After dosage filter: ${filtered.length} items.",
+            );
+          }
+
+          // Apply Price Range Filter locally
+          if (_selectedPriceRange != null) {
+            _logger.v(
+              "MedicineProvider: Applying price filter: ${_selectedPriceRange!.start} - ${_selectedPriceRange!.end}",
+            );
+            filtered =
+                filtered.where((drug) {
+                  final price = double.tryParse(drug.price);
+                  if (price == null) return false;
+                  return price >= _selectedPriceRange!.start &&
+                      price <= _selectedPriceRange!.end;
+                }).toList();
+            _logger.v(
+              "MedicineProvider: After price filter: ${filtered.length} items.",
+            );
+          }
+
+          _filteredMedicines = filtered;
+          _error = ''; // Clear error on success
+          _logger.i(
+            "MedicineProvider: Filtering complete. Final count: ${_filteredMedicines.length}",
+          );
+        },
       );
-    } else {
-      // No primary filter, fetch an initial limited set
-      const initialLimit = 50; // Define a limit for the initial load
-      result = await searchDrugsUseCase(
-        SearchParams(query: '', limit: initialLimit),
+    } catch (e, s) {
+      _logger.e(
+        "MedicineProvider: Unexpected error during _applyFilters",
+        e,
+        s,
+      ); // Correct parameters
+      _error = "حدث خطأ غير متوقع أثناء الفلترة.";
+      _filteredMedicines = [];
+    } finally {
+      _isLoading = false;
+      notifyListeners(); // Notify that filtering finished
+      _logger.d(
+        "MedicineProvider: _applyFilters finished. isLoading: $_isLoading",
       );
     }
-
-    // Apply secondary filters (dosage form, price) locally on the results
-    result = result.fold((failure) => Left(failure), (drugs) {
-      List<DrugEntity> filtered = List.from(drugs);
-
-      // Apply Dosage Form Filter locally
-      if (_selectedDosageForm.isNotEmpty) {
-        final lowerCaseDosage = _selectedDosageForm.toLowerCase();
-        filtered =
-            filtered.where((drug) {
-              final formLower = (drug.dosageForm ?? '').toLowerCase();
-              return formLower.contains(lowerCaseDosage);
-            }).toList();
-      }
-
-      // Apply Price Range Filter locally
-      if (_selectedPriceRange != null) {
-        filtered =
-            filtered.where((drug) {
-              final price = double.tryParse(drug.price);
-              if (price == null) return false;
-              return price >= _selectedPriceRange!.start &&
-                  price <= _selectedPriceRange!.end;
-            }).toList();
-      }
-
-      return Right(filtered);
-    });
-
-    // Update final state
-    result.fold(
-      (failure) {
-        _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
-        _filteredMedicines = []; // Clear results on error
-      },
-      (filteredDrugs) {
-        _filteredMedicines = filteredDrugs;
-        _error = ''; // Clear error on success
-        // TODO: Recalculate min/max price based on the *filtered* results?
-        // For simplicity, keep global min/max for now.
-      },
-    );
-
-    _isLoading = false;
-    notifyListeners(); // Notify that filtering finished
   }
 
   String _mapFailureToMessage(Failure failure) {
+    // Keep existing mapping
     switch (failure.runtimeType) {
       case CacheFailure:
         return 'خطأ في الوصول للبيانات المحلية.';
@@ -267,15 +334,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
   // Helper function to calculate min/max price from the loaded drug list
   void _calculatePriceRange(List<DrugEntity> drugs) {
+    // Keep existing implementation
     if (drugs.isEmpty) {
       _minPrice = 0;
-      _maxPrice = 1000; // Reset to default if list is empty
+      _maxPrice = 1000;
       return;
     }
-
     double min = double.maxFinite;
     double max = 0;
-
     for (final drug in drugs) {
       final price = double.tryParse(drug.price);
       if (price != null) {
@@ -283,7 +349,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         if (price > max) max = price;
       }
     }
-
     _minPrice = (min == double.maxFinite) ? 0 : min;
     _maxPrice =
         (max == 0 || max < _minPrice)
@@ -292,14 +357,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     if (_maxPrice <= _minPrice) {
       _maxPrice = _minPrice + 1;
     }
-
-    if (kDebugMode) {
-      print("Calculated Price Range: $_minPrice - $_maxPrice");
-    }
+    _logger.d("Calculated Price Range: $_minPrice - $_maxPrice");
   }
 
   // Helper function to parse date strings safely
   DateTime? _parseDate(String? dateString) {
+    // Keep existing implementation
     if (dateString == null || dateString.isEmpty) {
       return null;
     }
@@ -308,10 +371,13 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     } catch (e) {
       try {
         return DateFormat('dd/MM/yyyy').parseStrict(dateString);
-      } catch (e2) {
-        if (kDebugMode) {
-          print("Could not parse date: $dateString - Error: $e2");
-        }
+      } catch (e2, s2) {
+        // Add stack trace
+        _logger.w(
+          "Could not parse date: $dateString",
+          e2,
+          s2,
+        ); // Correct parameters
         return null;
       }
     }

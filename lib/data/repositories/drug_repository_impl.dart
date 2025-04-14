@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-
+import '../../core/di/locator.dart'; // Import locator
+import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/drug_repository.dart';
@@ -20,6 +21,8 @@ class DrugRepositoryImpl implements DrugRepository {
   final DrugRemoteDataSource remoteDataSource;
   // final NetworkInfo networkInfo;
   final bool isConnected; // Simple flag for now
+  final FileLoggerService _logger =
+      locator<FileLoggerService>(); // Get logger instance
 
   // Removed in-memory cache and indices
 
@@ -34,19 +37,23 @@ class DrugRepositoryImpl implements DrugRepository {
 
   // --- Helper: Check for Updates ---
   Future<bool> _shouldUpdateData() async {
+    _logger.d(
+      "DrugRepository: _shouldUpdateData called. isConnected: $isConnected",
+    );
     if (!isConnected) {
-      if (kDebugMode) print('Not connected, skipping update check.');
+      _logger.i('DrugRepository: Not connected, skipping update check.');
       return false;
     }
-    final stopwatch = Stopwatch()..start(); // Start timer
+    final stopwatch = Stopwatch()..start();
     try {
-      if (kDebugMode) print('Checking for remote data updates...');
+      _logger.i('DrugRepository: Checking for remote data updates...');
       final remoteVersionResult = await remoteDataSource.getLatestVersion();
 
       return await remoteVersionResult.fold(
         (failure) {
-          if (kDebugMode)
-            print('Failed to get remote version: $failure. Not updating.');
+          _logger.w(
+            'DrugRepository: Failed to get remote version: $failure. Not updating.',
+          );
           return false;
         },
         (remoteVersionInfo) async {
@@ -55,54 +62,66 @@ class DrugRepositoryImpl implements DrugRepository {
               int.tryParse(remoteVersionInfo['version']?.toString() ?? '0') ??
               0;
 
-          if (kDebugMode) {
-            print('Remote version timestamp: $remoteTimestamp');
-            print('Local version timestamp: $localTimestamp');
-          }
+          _logger.d(
+            'DrugRepository: Remote version timestamp: $remoteTimestamp',
+          );
+          _logger.d('DrugRepository: Local version timestamp: $localTimestamp');
+
           final needsUpdate =
               localTimestamp == null || remoteTimestamp > localTimestamp;
-          if (kDebugMode) print('Needs update: $needsUpdate');
+          _logger.i('DrugRepository: Needs update: $needsUpdate');
           return needsUpdate;
         },
       );
-    } catch (e) {
-      if (kDebugMode) print('Error during update check: $e. Not updating.');
+    } catch (e, s) {
+      _logger.e('DrugRepository: Error during update check', e, s);
       return false;
     } finally {
       stopwatch.stop();
-      if (kDebugMode)
-        print('Update check took ${stopwatch.elapsedMilliseconds}ms.');
+      _logger.i(
+        'DrugRepository: Update check took ${stopwatch.elapsedMilliseconds}ms.',
+      );
     }
   }
 
   // --- Helper: Update Local Data ---
   Future<void> _updateLocalDataFromRemote() async {
+    _logger.i(
+      "DrugRepository: _updateLocalDataFromRemote called. isConnected: $isConnected",
+    );
     if (!isConnected) {
-      if (kDebugMode) print('Not connected, cannot download remote data.');
+      _logger.w('DrugRepository: Not connected, cannot download remote data.');
       throw NetworkFailure(); // Throw specific failure
     }
-    final stopwatch = Stopwatch()..start(); // Start timer
+    final stopwatch = Stopwatch()..start();
     try {
-      if (kDebugMode) print('Downloading latest data from remote source...');
+      _logger.i(
+        'DrugRepository: Downloading latest data from remote source...',
+      );
       final downloadResult = await remoteDataSource.downloadLatestData();
 
       await downloadResult.fold(
         (failure) async {
-          if (kDebugMode) print('Failed to download remote data: $failure');
+          _logger.e('DrugRepository: Failed to download remote data: $failure');
           throw failure; // Propagate failure
         },
         (fileData) async {
-          if (kDebugMode)
-            print('Downloaded data successfully. Saving locally...');
+          _logger.i(
+            'DrugRepository: Downloaded data successfully. Saving locally...',
+          );
           await localDataSource.saveDownloadedCsv(
             fileData,
           ); // This now clears DB and inserts
-          // No need to clear cache here anymore
-          if (kDebugMode) print('Local data updated via SQLite.');
+          _logger.i('DrugRepository: Local data updated via SQLite.');
         },
       );
-    } catch (e) {
-      if (kDebugMode) print('Error during remote data download/save: $e');
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e(
+        'DrugRepository: Error during remote data download/save',
+        e,
+        s,
+      ); // Correct parameters
       if (e is Failure) {
         rethrow;
       } else {
@@ -110,10 +129,9 @@ class DrugRepositoryImpl implements DrugRepository {
       }
     } finally {
       stopwatch.stop();
-      if (kDebugMode)
-        print(
-          'Remote data download/save took ${stopwatch.elapsedMilliseconds}ms.',
-        );
+      _logger.i(
+        'DrugRepository: Remote data download/save took ${stopwatch.elapsedMilliseconds}ms.',
+      );
     }
   }
 
@@ -121,9 +139,7 @@ class DrugRepositoryImpl implements DrugRepository {
 
   @override
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs() async {
-    // This method NO LONGER returns all drugs.
-    // Its primary responsibility is now to check and perform updates if needed.
-    // The actual fetching of data will happen via search/filter methods.
+    _logger.i("DrugRepository: getAllDrugs called (Update Check Trigger)");
     bool updateAttempted = false;
     bool updateFailed = false;
 
@@ -131,67 +147,67 @@ class DrugRepositoryImpl implements DrugRepository {
     if (isConnected) {
       try {
         updateAttempted = true;
+        _logger.d("DrugRepository: Checking if update is needed...");
         final shouldUpdate = await _shouldUpdateData();
         if (shouldUpdate) {
+          _logger.i("DrugRepository: Update needed, starting download/save...");
           await _updateLocalDataFromRemote();
-          // Data is updated in DB, but we don't load it all here.
+          _logger.i("DrugRepository: Remote data update process finished.");
+        } else {
+          _logger.i("DrugRepository: Update not needed.");
         }
-      } catch (e) {
+      } catch (e, s) {
+        // Add stack trace
         updateFailed = true;
-        if (kDebugMode)
-          print('Update check/download failed in getAllDrugs: $e.');
-        // If update fails, we might still want to proceed if local data exists.
-        // Return the specific failure from the update process.
+        _logger.e(
+          'Update check/download failed in getAllDrugs',
+          e,
+          s,
+        ); // Use logger
         if (e is Failure) return Left(e);
-        return Left(
-          InitialLoadFailure(),
-        ); // General failure if update fails badly
+        return Left(InitialLoadFailure());
       }
+    } else {
+      _logger.i("DrugRepository: Skipping update check (offline).");
     }
 
-    // If update wasn't attempted or failed, we still return success,
-    // assuming local DB exists (or will be seeded).
-    // The UI will then call search/filter methods to get actual data.
-    // If the DB is empty and seeding failed, subsequent calls will return empty lists.
     if (updateFailed) {
-      print(
-        "Update failed, but proceeding. Subsequent fetches will use local DB.",
+      _logger.w(
+        "DrugRepository: Update failed, but proceeding. Subsequent fetches will use local DB.",
       );
     } else if (!updateAttempted) {
-      print(
-        "Offline or update check skipped. Subsequent fetches will use local DB.",
+      _logger.i(
+        "DrugRepository: Offline or update check skipped. Subsequent fetches will use local DB.",
       );
     } else {
-      print(
-        "Update check complete (or update performed). Subsequent fetches will use local DB.",
+      _logger.i(
+        "DrugRepository: Update check complete (or update performed). Subsequent fetches will use local DB.",
       );
     }
-    // Return an empty list or a success indicator. Let's return empty list for now.
-    return const Right([]);
-    // IMPORTANT: MedicineProvider needs to be adjusted to handle this empty list
-    // and call search/filter methods to populate the initial view if needed.
+    return const Right([]); // Return empty list as intended
   }
 
   @override
-  // Add optional limit parameter
   Future<Either<Failure, List<DrugEntity>>> searchDrugs(
     String query, {
     int? limit,
   }) async {
+    _logger.d(
+      "DrugRepository: searchDrugs called with query: '$query', limit: $limit",
+    );
     try {
-      // Directly query the local data source (SQLite)
-      // Pass the limit to the data source method
       final List<MedicineModel> localMedicines = await localDataSource
           .searchMedicinesByName(query, limit: limit);
-      // Use the toEntity method from MedicineModel
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: searchDrugs successful, found ${drugEntities.length} drugs.",
+      );
       return Right(drugEntities);
-    } catch (e) {
-      if (kDebugMode) print('Error searching drugs in repository: $e');
-      return Left(
-        CacheFailure(),
-      ); // Indicate failure to retrieve from local source
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e('Error searching drugs in repository', e, s); // Use logger
+      return Left(CacheFailure());
     }
   }
 
@@ -199,52 +215,72 @@ class DrugRepositoryImpl implements DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> filterDrugsByCategory(
     String category,
   ) async {
+    _logger.d(
+      "DrugRepository: filterDrugsByCategory called with category: '$category'",
+    );
     try {
-      // Directly query the local data source (SQLite)
       final List<MedicineModel> localMedicines = await localDataSource
           .filterMedicinesByCategory(category);
-      // Use the toEntity method from MedicineModel
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: filterDrugsByCategory successful, found ${drugEntities.length} drugs.",
+      );
       return Right(drugEntities);
-    } catch (e) {
-      if (kDebugMode)
-        print('Error filtering drugs by category in repository: $e');
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e(
+        'Error filtering drugs by category in repository',
+        e,
+        s,
+      ); // Use logger
       return Left(CacheFailure());
     }
   }
 
   @override
   Future<Either<Failure, List<String>>> getAvailableCategories() async {
+    _logger.d("DrugRepository: getAvailableCategories called.");
     try {
-      // Directly query the local data source (SQLite)
       final List<String> categories =
           await localDataSource.getAvailableCategories();
-      // Capitalize first letter for display consistency
       final formattedCategories =
           categories.map((cat) {
             if (cat.isNotEmpty) return cat[0].toUpperCase() + cat.substring(1);
             return cat;
           }).toList();
+      _logger.i(
+        "DrugRepository: getAvailableCategories successful, found ${formattedCategories.length} categories.",
+      );
       return Right(formattedCategories);
-    } catch (e) {
-      if (kDebugMode)
-        print('Error getting available categories in repository: $e');
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e(
+        'Error getting available categories in repository',
+        e,
+        s,
+      ); // Use logger
       return Left(CacheFailure());
     }
   }
 
   @override
   Future<Either<Failure, int?>> getLastUpdateTimestamp() async {
+    _logger.d("DrugRepository: getLastUpdateTimestamp called.");
     try {
       final timestamp = await localDataSource.getLastUpdateTimestamp();
+      _logger.i(
+        "DrugRepository: getLastUpdateTimestamp successful, timestamp: $timestamp",
+      );
       return Right(timestamp);
-    } catch (e) {
-      if (kDebugMode)
-        print('Error getting last update timestamp from local source: $e');
+    } catch (e, s) {
+      // Add stack trace
+      _logger.e(
+        'Error getting last update timestamp from local source',
+        e,
+        s,
+      ); // Use logger
       return Left(CacheFailure());
     }
   }
 }
-
-// Removed the helper extension method as it's now part of MedicineModel
