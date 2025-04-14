@@ -22,25 +22,11 @@ class HomeHeader extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            // Greeting and User Info (Placeholder for now)
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'مرحباً بك!', // Simple greeting for now
-                  style: theme.textTheme.titleMedium?.copyWith(
-                    color: colorScheme.onTertiary, // White text
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                // Text(
-                //   'أحمد محمد', // Placeholder name
-                //   style: theme.textTheme.headlineSmall?.copyWith(
-                //     color: colorScheme.onTertiary,
-                //     fontWeight: FontWeight.bold,
-                //   ),
-                // ),
-              ],
+            // Display Logo
+            Image.asset(
+              'assets/images/logo.png', // Use logo from assets
+              height: 36, // Adjust height as needed
+              // Optionally add error builder
             ),
 
             // Action Icons (Notification Bell)

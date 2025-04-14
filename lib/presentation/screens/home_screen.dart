@@ -210,11 +210,24 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.v(
       "HomeScreen: Building categories section with ${categories.length} categories.",
     );
+    // Define more specific icons based on potential categories
     final categoryIcons = {
       'مسكنات الألم': LucideIcons.pill,
       'مضادات حيوية': LucideIcons.syringe,
-      'أمراض مزمنة': LucideIcons.heartPulse,
-      'فيتامينات': LucideIcons.leaf,
+      'أمراض القلب': LucideIcons.heartPulse,
+      'أمراض مزمنة': LucideIcons.activity,
+      'فيتامينات ومعادن': LucideIcons.leaf,
+      'أدوية الجهاز الهضمي': LucideIcons.soup, // Placeholder: Soup
+      'أدوية الجهاز التنفسي': LucideIcons.wind,
+      'أدوية جلدية': LucideIcons.sprayCan,
+      'أدوية حساسية': LucideIcons.shieldAlert,
+      'أدوية أعصاب': LucideIcons.brain,
+      'مضادات الفطريات': LucideIcons.bug,
+      'أدوية العيون': LucideIcons.eye,
+      'أدوية الأنف والأذن والحنجرة': LucideIcons.ear,
+      'أدوية النساء': LucideIcons.baby,
+      'أدوية السكر': LucideIcons.droplet,
+      'أدوية الضغط': LucideIcons.gauge,
     };
 
     if (categories.isEmpty && context.watch<MedicineProvider>().isLoading) {
@@ -241,11 +254,9 @@ class _HomeScreenState extends State<HomeScreen> {
           categories.map((categoryName) {
             // Correctly call CategoryCard constructor
             return CategoryCard(
-                  key: ValueKey(categoryName), // Use ValueKey
+                  key: ValueKey(categoryName),
                   name: categoryName,
-                  iconData:
-                      categoryIcons[categoryName] ??
-                      LucideIcons.tag, // Pass IconData
+                  iconData: categoryIcons[categoryName] ?? LucideIcons.tag,
                   onTap: () {
                     _logger.i("HomeScreen: Category tapped: $categoryName");
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
