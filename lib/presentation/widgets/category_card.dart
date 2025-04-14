@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart'; // For animations
+import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 
 class CategoryCard extends StatelessWidget {
   final String name;
-  final IconData iconData;
+  final IconData iconData; // Use IconData from Lucide
   final VoidCallback? onTap;
 
   const CategoryCard({
@@ -18,23 +18,17 @@ class CategoryCard extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
-    // Mimic card-hover effect (can be enhanced)
-    // We'll use the build-time animation for now as applied in HomeScreen previously
-    // A tap-specific animation would require converting this to StatefulWidget
-
     return SizedBox(
-      width: 100, // Corresponds roughly to w-24 in Tailwind
+      width: 100, // Approx w-24
       child: Card(
-        elevation: 1.0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12.0),
-        ), // Match theme --radius
-        // Use surfaceVariant or similar for background, consistent with HomeScreen
-        color: colorScheme.surfaceVariant.withOpacity(0.7),
-        clipBehavior: Clip.antiAlias, // Ensure InkWell splash is clipped
+        // Use theme's card theme for consistency (elevation, shape, color)
+        // elevation: 1.0, // Use theme default or customize if needed
+        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)), // Use theme default
+        // color: colorScheme.surfaceVariant.withOpacity(0.7), // Use theme default
+        clipBehavior: Clip.antiAlias,
         child: InkWell(
           onTap: onTap,
-          borderRadius: BorderRadius.circular(12.0),
+          borderRadius: BorderRadius.circular(12.0), // Match card shape
           child: Padding(
             padding: const EdgeInsets.symmetric(
               vertical: 14.0,
@@ -43,30 +37,31 @@ class CategoryCard extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Icon background
+                // Icon background Circle
                 Container(
                   padding: const EdgeInsets.all(12),
                   decoration: BoxDecoration(
+                    // Use primary color with opacity from theme
                     color: colorScheme.primary.withOpacity(
-                      0.1,
+                      0.10,
                     ), // bg-primary/10
                     shape: BoxShape.circle,
                   ),
                   child: Icon(
                     iconData,
-                    size:
-                        30, // h-6 w-6 roughly corresponds to 24, let's make it slightly larger
+                    size: 28, // h-6 w-6 is 24, design lab uses 28
                     color: colorScheme.primary, // text-primary
                   ),
                 ),
-                const SizedBox(height: 10.0), // mb-2 roughly 8px, adjusted
+                const SizedBox(height: 8.0), // mb-2
                 // Category Name
                 Text(
                   name,
                   style: theme.textTheme.bodySmall?.copyWith(
-                    // text-xs font-medium
-                    fontWeight: FontWeight.w500, // medium weight
-                    color: colorScheme.onSurfaceVariant,
+                    fontWeight: FontWeight.w500, // font-medium
+                    color:
+                        colorScheme
+                            .onSurfaceVariant, // Muted foreground equivalent
                   ),
                   textAlign: TextAlign.center,
                   maxLines: 2, // line-clamp-2

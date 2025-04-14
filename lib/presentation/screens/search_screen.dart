@@ -10,11 +10,11 @@ import '../widgets/filter_bottom_sheet.dart';
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate
 import '../services/ad_service.dart'; // Import AdService
+import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 
 class SearchScreen extends StatefulWidget {
-  final String? initialQuery; // Add optional initial query parameter
+  final String? initialQuery;
 
-  // Correct constructor
   const SearchScreen({super.key, this.initialQuery});
 
   @override
@@ -25,8 +25,7 @@ class _SearchScreenState extends State<SearchScreen> {
   late final TextEditingController _searchController;
   Timer? _debounce;
   final FileLoggerService _logger = locator<FileLoggerService>();
-  final AdService _adService =
-      locator<AdService>(); // Define AdService instance
+  final AdService _adService = locator<AdService>();
 
   @override
   void initState() {
@@ -36,18 +35,13 @@ class _SearchScreenState extends State<SearchScreen> {
     );
     _searchController = TextEditingController(text: widget.initialQuery ?? '');
 
-    // Trigger initial search immediately if initialQuery is provided or empty
-    // Use addPostFrameCallback to ensure provider is ready
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted && widget.initialQuery != null) {
         _logger.d(
           "SearchScreen: Triggering initial search from initState for query: '${widget.initialQuery!}'",
         );
-        // Use read here as we are only triggering an action, not listening
-        // Directly call setSearchQuery which handles the filtering
         context.read<MedicineProvider>().setSearchQuery(widget.initialQuery!);
       } else if (mounted && widget.initialQuery == null) {
-        // If opened directly without initial query, clear any previous search state
         _logger.d(
           "SearchScreen: No initial query, clearing previous search state.",
         );
@@ -92,7 +86,7 @@ class _SearchScreenState extends State<SearchScreen> {
       backgroundColor: Colors.transparent,
       builder:
           (_) => ChangeNotifierProvider.value(
-            value: context.read<MedicineProvider>(), // Use read here
+            value: context.read<MedicineProvider>(),
             child: DraggableScrollableSheet(
               initialChildSize: 0.6,
               minChildSize: 0.3,
@@ -120,62 +114,72 @@ class _SearchScreenState extends State<SearchScreen> {
     final medicineProvider = context.watch<MedicineProvider>();
     final medicines = medicineProvider.filteredMedicines;
     final isLoading = medicineProvider.isLoading;
-    final isLoadingMore =
-        medicineProvider.isLoadingMore; // Get loading more state
+    final isLoadingMore = medicineProvider.isLoadingMore;
     final error = medicineProvider.error;
-    final hasMoreItems =
-        medicineProvider.hasMoreItems; // Get hasMoreItems state
+    final hasMoreItems = medicineProvider.hasMoreItems;
     _logger.d(
       "SearchScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', medicines: ${medicines.length}, hasMore: $hasMoreItems",
     );
 
     return Scaffold(
       appBar: AppBar(
+        // Use LucideIcons
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: Icon(LucideIcons.arrowLeft), // Use Lucide arrow
           onPressed: () => Navigator.of(context).pop(),
         ),
         title: Container(
-          height: 40,
+          height: 44, // Slightly taller to match typical search bars
           decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.surface.withOpacity(0.9),
-            borderRadius: BorderRadius.circular(20),
+            // Use surface color which adapts to light/dark mode
+            color: Theme.of(context).colorScheme.surface,
+            borderRadius: BorderRadius.circular(22), // Fully rounded
           ),
           child: TextField(
             controller: _searchController,
-            autofocus:
-                widget.initialQuery ==
-                null, // Only autofocus if no initial query
+            autofocus: widget.initialQuery == null,
             decoration: InputDecoration(
               hintText: 'ابحث عن دواء...',
+              // Remove border from input decoration as container handles it
               border: InputBorder.none,
+              enabledBorder: InputBorder.none,
+              focusedBorder: InputBorder.none,
               prefixIcon: Icon(
-                Icons.search,
+                LucideIcons.search,
                 color: Theme.of(context).hintColor,
-              ),
+                size: 20,
+              ), // Use Lucide search
               suffixIcon:
                   _searchController.text.isNotEmpty
                       ? IconButton(
-                        icon: const Icon(Icons.clear, size: 20),
+                        icon: Icon(LucideIcons.x, size: 18), // Use Lucide X
                         color: Theme.of(context).hintColor,
                         onPressed: _clearSearch,
+                        splashRadius: 20,
                       )
                       : null,
-              contentPadding: const EdgeInsets.symmetric(vertical: 10.0),
+              contentPadding: const EdgeInsets.symmetric(
+                vertical: 12.0,
+              ), // Adjust vertical padding
             ),
-            style: TextStyle(color: Theme.of(context).colorScheme.onSurface),
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.onSurface,
+            ), // Use onSurface for text
             onChanged: _onSearchChanged,
           ),
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.filter_list),
+            icon: Icon(LucideIcons.slidersHorizontal), // Use Lucide filter icon
             tooltip: 'تصفية النتائج',
             onPressed: _openFilterModal,
           ),
         ],
-        backgroundColor: Theme.of(context).colorScheme.primary,
-        foregroundColor: Theme.of(context).colorScheme.onPrimary,
+        // Use theme's AppBar theme for background/foreground
+        // backgroundColor: Theme.of(context).colorScheme.primary, // Remove hardcoded color
+        // foregroundColor: Theme.of(context).colorScheme.onPrimary, // Remove hardcoded color
+        elevation: 0, // Remove shadow if AppBar theme doesn't
+        scrolledUnderElevation: 0, // Remove elevation on scroll
       ),
       body: Column(
         children: [
@@ -183,7 +187,7 @@ class _SearchScreenState extends State<SearchScreen> {
           if (isLoading && medicines.isEmpty)
             const Expanded(child: Center(child: CircularProgressIndicator()))
           else if (error.isNotEmpty)
-            Expanded(child: _buildErrorWidget(context, error)) // Use helper
+            Expanded(child: _buildErrorWidget(context, error))
           else if (medicines.isEmpty && _searchController.text.isNotEmpty)
             const Expanded(
               child: Center(child: Text('لا توجد نتائج مطابقة لبحثك.')),
@@ -191,15 +195,13 @@ class _SearchScreenState extends State<SearchScreen> {
           else if (medicines.isEmpty && _searchController.text.isEmpty)
             const Expanded(
               child: Center(child: Text('ابدأ البحث أو اختر فئة...')),
-            ) // Updated prompt
+            )
           else
             Expanded(
               child: LayoutBuilder(
-                // Keep LayoutBuilder for potential future grid use
                 builder: (context, constraints) {
                   // Always use ListView for now
                   return ListView.builder(
-                    // controller: _scrollController, // Add controller if pagination needed here too
                     padding: const EdgeInsets.all(8.0),
                     itemCount:
                         medicines.length +
@@ -208,13 +210,11 @@ class _SearchScreenState extends State<SearchScreen> {
                     itemBuilder: (context, index) {
                       if (index < medicines.length) {
                         final drug = medicines[index];
-                        // Always use detailed card in search results for now
                         Widget card = DrugCard(
                           drug: drug,
-                          type: DrugCardType.detailed, // Use detailed always
+                          type: DrugCardType.detailed,
                           onTap: () => _navigateToDetails(context, drug),
                         );
-                        // Apply animation
                         card = card.animate().fadeIn(
                           delay: (index % 10 * 50).ms,
                         );
@@ -242,7 +242,7 @@ class _SearchScreenState extends State<SearchScreen> {
                           ),
                         );
                       } else {
-                        return Container(); // Should not happen
+                        return Container();
                       }
                     },
                   );
@@ -293,7 +293,6 @@ class _SearchScreenState extends State<SearchScreen> {
               label: const Text('إعادة المحاولة'),
               onPressed: () {
                 _logger.i("SearchScreen: Retry button pressed.");
-                // Retry the current search/filter
                 context.read<MedicineProvider>().setSearchQuery(
                   _searchController.text,
                 );
