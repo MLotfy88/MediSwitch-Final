@@ -140,50 +140,44 @@ class DrugRepositoryImpl implements DrugRepository {
   @override
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs() async {
     _logger.i("DrugRepository: getAllDrugs called (Update Check Trigger)");
-    bool updateAttempted = false;
-    bool updateFailed = false;
+    // bool updateAttempted = false; // Keep commented out
+    // bool updateFailed = false; // Keep commented out
 
-    // Re-enable update check
-    if (isConnected) {
-      try {
-        updateAttempted = true;
-        _logger.d("DrugRepository: Checking if update is needed...");
-        final shouldUpdate = await _shouldUpdateData();
-        if (shouldUpdate) {
-          _logger.i("DrugRepository: Update needed, starting download/save...");
-          await _updateLocalDataFromRemote();
-          _logger.i("DrugRepository: Remote data update process finished.");
-        } else {
-          _logger.i("DrugRepository: Update not needed.");
-        }
-      } catch (e, s) {
-        // Add stack trace
-        updateFailed = true;
-        _logger.e(
-          'Update check/download failed in getAllDrugs',
-          e,
-          s,
-        ); // Use logger
-        if (e is Failure) return Left(e);
-        return Left(InitialLoadFailure());
-      }
-    } else {
-      _logger.i("DrugRepository: Skipping update check (offline).");
-    }
+    // --- Temporarily Disable Update Check ---
+    _logger.w(
+      "DrugRepository: Update check in getAllDrugs is temporarily DISABLED for testing.",
+    );
+    // if (isConnected) {
+    //   try {
+    //     updateAttempted = true;
+    //     _logger.d("DrugRepository: Checking if update is needed...");
+    //     final shouldUpdate = await _shouldUpdateData();
+    //     if (shouldUpdate) {
+    //        _logger.i("DrugRepository: Update needed, starting download/save...");
+    //       await _updateLocalDataFromRemote();
+    //        _logger.i("DrugRepository: Remote data update process finished.");
+    //     } else {
+    //        _logger.i("DrugRepository: Update not needed.");
+    //     }
+    //   } catch (e, s) { // Add stack trace
+    //     updateFailed = true;
+    //     _logger.e('Update check/download failed in getAllDrugs', e, s); // Use logger
+    //     if (e is Failure) return Left(e);
+    //     return Left(InitialLoadFailure());
+    //   }
+    // } else {
+    //    _logger.i("DrugRepository: Skipping update check (offline).");
+    // }
+    //
+    // if (updateFailed) {
+    //    _logger.w("DrugRepository: Update failed, but proceeding. Subsequent fetches will use local DB.");
+    // } else if (!updateAttempted) {
+    //    _logger.i("DrugRepository: Offline or update check skipped. Subsequent fetches will use local DB.");
+    // } else {
+    //    _logger.i("DrugRepository: Update check complete (or update performed). Subsequent fetches will use local DB.");
+    // }
+    // --- End of Temporarily Disabled Code ---
 
-    if (updateFailed) {
-      _logger.w(
-        "DrugRepository: Update failed, but proceeding. Subsequent fetches will use local DB.",
-      );
-    } else if (!updateAttempted) {
-      _logger.i(
-        "DrugRepository: Offline or update check skipped. Subsequent fetches will use local DB.",
-      );
-    } else {
-      _logger.i(
-        "DrugRepository: Update check complete (or update performed). Subsequent fetches will use local DB.",
-      );
-    }
     return const Right([]); // Return empty list as intended
   }
 
