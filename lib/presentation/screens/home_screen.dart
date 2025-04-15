@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/medicine_provider.dart';
-// import '../widgets/filter_bottom_sheet.dart'; // Not used directly here
 import 'search_screen.dart';
 import 'drug_details_screen.dart';
 import '../widgets/drug_card.dart';
@@ -12,12 +11,12 @@ import '../widgets/home_header.dart';
 import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart';
 import '../widgets/banner_ad_widget.dart';
-import '../widgets/search_bar_button.dart'; // Import the new search bar button
+import '../widgets/search_bar_button.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../services/ad_service.dart';
-import 'package:lucide_icons/lucide_icons.dart'; // Import lucide_icons
+import 'package:lucide_icons/lucide_icons.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -84,7 +83,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 return context.read<MedicineProvider>().loadInitialData();
               },
               child:
-                  isLoading && displayedMedicines.isEmpty
+                  isLoading &&
+                          displayedMedicines.isEmpty &&
+                          medicineProvider.recentlyUpdatedDrugs.isEmpty &&
+                          medicineProvider.popularDrugs.isEmpty
                       ? _buildLoadingIndicator()
                       : _buildContent(
                         context,
@@ -116,15 +118,54 @@ class _HomeScreenState extends State<HomeScreen> {
     String error,
   ) {
     _logger.v("HomeScreen: Building main content CustomScrollView.");
-    if (error.isNotEmpty && displayedMedicines.isEmpty && !isLoading) {
-      return _buildErrorWidget(context, error);
-    }
 
     return CustomScrollView(
       controller: _scrollController,
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
         SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+
+        // --- Recently Updated Section ---
+        if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+          SliverToBoxAdapter(
+            child: _buildHorizontalDrugList(
+              context,
+              title: "أدوية محدثة مؤخراً",
+              drugs: medicineProvider.recentlyUpdatedDrugs,
+              onViewAll: () {
+                _logger.i("HomeScreen: View All Recent tapped.");
+                // TODO: Implement actual filter logic if needed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const SearchScreen(initialQuery: ''),
+                  ),
+                ); // Navigate to search for now
+              },
+            ),
+          ),
+
+        // --- Popular Drugs Section ---
+        if (medicineProvider.popularDrugs.isNotEmpty)
+          SliverToBoxAdapter(
+            child: _buildHorizontalDrugList(
+              context,
+              title: "الأكثر بحثاً",
+              drugs: medicineProvider.popularDrugs,
+              onViewAll: () {
+                _logger.i("HomeScreen: View All Popular tapped.");
+                // TODO: Implement actual filter logic if needed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const SearchScreen(initialQuery: ''),
+                  ),
+                ); // Navigate to search for now
+              },
+            ),
+          ),
+
+        // --- All Drugs Section Header ---
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.only(
@@ -133,9 +174,11 @@ class _HomeScreenState extends State<HomeScreen> {
               right: 16.0,
               left: 16.0,
             ),
-            child: SectionHeader(title: 'الأدوية'),
+            child: SectionHeader(title: 'جميع الأدوية'),
           ),
         ),
+
+        // --- All Drugs List ---
         if (displayedMedicines.isNotEmpty)
           SliverPadding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -152,18 +195,65 @@ class _HomeScreenState extends State<HomeScreen> {
                 ).animate().fadeIn(delay: (index % 10 * 50).ms);
               }, childCount: displayedMedicines.length),
             ),
+          )
+        else if (!isLoadingMore) // Show empty/error only if not loading more
+          SliverFillRemaining(
+            hasScrollBody: false,
+            child: _buildListFooter(
+              context,
+              medicineProvider,
+              displayedMedicines,
+              isLoading,
+              isLoadingMore,
+              error,
+            ),
+          )
+        else
+          SliverToBoxAdapter(child: SizedBox(height: 16)),
+
+        // --- Loading More Indicator / End Message ---
+        if (displayedMedicines.isNotEmpty)
+          SliverToBoxAdapter(
+            child: _buildListFooter(
+              context,
+              medicineProvider,
+              displayedMedicines,
+              isLoading,
+              isLoadingMore,
+              error,
+            ),
           ),
-        SliverToBoxAdapter(
-          child: _buildListFooter(
-            context,
-            medicineProvider,
-            displayedMedicines,
-            isLoading,
-            isLoadingMore,
-            error,
-          ),
-        ),
       ],
+    );
+  }
+
+  // Helper for building horizontal drug lists
+  Widget _buildHorizontalDrugList(
+    BuildContext context, {
+    required String title,
+    required List<DrugEntity> drugs,
+    VoidCallback? onViewAll,
+  }) {
+    return HorizontalListSection(
+      title: title,
+      listHeight: 190, // Height for thumbnail cards
+      onViewAll: onViewAll,
+      headerPadding: const EdgeInsets.only(
+        left: 16,
+        right: 16,
+        top: 24,
+        bottom: 8,
+      ),
+      children:
+          drugs
+              .map(
+                (drug) => DrugCard(
+                  drug: drug,
+                  type: DrugCardType.thumbnail, // Use thumbnail card
+                  onTap: () => _navigateToDetails(context, drug),
+                ).animate().fadeIn(delay: (drugs.indexOf(drug) * 80).ms),
+              )
+              .toList(),
     );
   }
 
@@ -194,6 +284,8 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       );
+    } else if (medicines.isEmpty && !isLoading && error.isNotEmpty) {
+      return _buildErrorWidget(context, error);
     } else if (medicines.isEmpty && !isLoading && error.isEmpty) {
       return _buildEmptyListMessage(context, provider);
     } else {
@@ -210,14 +302,13 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.v(
       "HomeScreen: Building categories section with ${categories.length} categories.",
     );
-    // Define more specific icons based on potential categories
     final categoryIcons = {
       'مسكنات الألم': LucideIcons.pill,
       'مضادات حيوية': LucideIcons.syringe,
       'أمراض القلب': LucideIcons.heartPulse,
       'أمراض مزمنة': LucideIcons.activity,
       'فيتامينات ومعادن': LucideIcons.leaf,
-      'أدوية الجهاز الهضمي': LucideIcons.soup, // Placeholder: Soup
+      'أدوية الجهاز الهضمي': LucideIcons.soup,
       'أدوية الجهاز التنفسي': LucideIcons.wind,
       'أدوية جلدية': LucideIcons.sprayCan,
       'أدوية حساسية': LucideIcons.shieldAlert,
@@ -252,7 +343,6 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       children:
           categories.map((categoryName) {
-            // Correctly call CategoryCard constructor
             return CategoryCard(
                   key: ValueKey(categoryName),
                   name: categoryName,
@@ -298,55 +388,85 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.v(
       "HomeScreen: Building empty list message. Filters active: $filtersActive",
     );
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 48.0, horizontal: 24.0),
-      child: Center(
-        child: Text(
-          filtersActive
-              ? 'لا توجد نتائج تطابق الفلاتر الحالية.'
-              : 'لا توجد أدوية لعرضها حالياً.',
-          textAlign: TextAlign.center,
-          style: Theme.of(
-            context,
-          ).textTheme.bodyLarge?.copyWith(color: Theme.of(context).hintColor),
-        ),
+    return Container(
+      alignment: Alignment.center,
+      padding: const EdgeInsets.symmetric(vertical: 64.0, horizontal: 24.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            LucideIcons.searchX,
+            size: 64,
+            color: Theme.of(context).hintColor.withOpacity(0.5),
+          ), // Use SearchX icon
+          const SizedBox(height: 16),
+          Text(
+            filtersActive
+                ? 'لا توجد نتائج تطابق الفلاتر الحالية.'
+                : 'لا توجد أدوية لعرضها حالياً.',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+              color: Theme.of(context).hintColor,
+            ),
+          ),
+          if (!filtersActive)
+            Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Text(
+                'حاول سحب الشاشة للأسفل للتحديث.',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  color: Theme.of(context).hintColor,
+                ),
+              ),
+            ),
+        ],
       ),
     );
   }
 
   Widget _buildErrorWidget(BuildContext context, String error) {
     _logger.w("HomeScreen: Building error widget: $error");
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(24.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              LucideIcons.alertTriangle,
+    return Container(
+      alignment: Alignment.center,
+      padding: const EdgeInsets.symmetric(vertical: 64.0, horizontal: 24.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            LucideIcons.alertTriangle,
+            color: Theme.of(context).colorScheme.error,
+            size: 64.0,
+          ),
+          const SizedBox(height: 16.0),
+          Text(
+            'حدث خطأ',
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               color: Theme.of(context).colorScheme.error,
-              size: 48.0,
             ),
-            const SizedBox(height: 16.0),
-            Text(
-              error,
-              style: TextStyle(
-                color: Theme.of(context).colorScheme.error,
-                fontSize: 16.0,
-              ),
-              textAlign: TextAlign.center,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 8.0),
+          Text(
+            error,
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.error.withOpacity(0.8),
+              fontSize: 16.0,
             ),
-            const SizedBox(height: 16.0),
-            ElevatedButton.icon(
-              icon: Icon(LucideIcons.refreshCw),
-              label: const Text('إعادة المحاولة'),
-              onPressed: () {
-                _logger.i("HomeScreen: Retry button pressed.");
-                context.read<MedicineProvider>().loadInitialData();
-              },
-            ),
-          ],
-        ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 24.0),
+          ElevatedButton.icon(
+            icon: Icon(LucideIcons.refreshCw),
+            label: const Text('إعادة المحاولة'),
+            onPressed: () {
+              _logger.i("HomeScreen: Retry button pressed.");
+              context.read<MedicineProvider>().loadInitialData(
+                forceUpdate: true,
+              );
+            },
+          ),
+        ],
       ),
     );
   }

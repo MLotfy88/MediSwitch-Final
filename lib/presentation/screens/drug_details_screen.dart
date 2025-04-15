@@ -27,7 +27,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   final FileLoggerService _logger = locator<FileLoggerService>();
   late TabController _tabController;
 
-  bool _isFavorite = false; // Placeholder state
+  bool _isFavorite = false;
 
   @override
   void initState() {
@@ -36,7 +36,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     _logger.i(
       "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
     );
-    // TODO: Load initial favorite status from provider/storage
   }
 
   @override
@@ -72,14 +71,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     _logger.i(
       "DrugDetailsScreen: Favorite button tapped (Premium - Not implemented).",
     );
-    // TODO: Implement actual favorite logic (requires SubscriptionProvider check & persistence)
-    // For now, just show a snackbar
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
         content: Text('ميزة المفضلة تتطلب الاشتراك Premium (قريباً).'),
       ),
     );
-    // setState(() { _isFavorite = !_isFavorite; }); // Update UI optimistically if implemented
   }
 
   @override
@@ -103,14 +99,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               forceElevated: innerBoxIsScrolled,
               backgroundColor: theme.scaffoldBackgroundColor,
               foregroundColor: colorScheme.onBackground,
-              // Title appears only when collapsed
-              title: Text(
-                widget.drug.tradeName,
-                style: textTheme.titleLarge, // Use default AppBar title style
-              ),
-              centerTitle: false, // Align title to start
+              title: Text(widget.drug.tradeName, style: textTheme.titleLarge),
+              centerTitle: false,
               actions: [
-                // Add favorite button to actions
                 IconButton(
                   icon: Icon(
                     _isFavorite ? LucideIcons.star : LucideIcons.starOff,
@@ -122,13 +113,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   tooltip: 'إضافة للمفضلة (Premium)',
                   onPressed: _toggleFavorite,
                 ),
-                const SizedBox(width: 8), // Add some padding
+                const SizedBox(width: 8),
               ],
               flexibleSpace: FlexibleSpaceBar(
                 collapseMode: CollapseMode.pin,
-                // Remove title from FlexibleSpaceBar
-                // titlePadding: const EdgeInsetsDirectional.only(start: 50, bottom: 16),
-                // title: Text(...) ,
                 background: _buildHeaderContent(
                   context,
                   colorScheme,
@@ -169,16 +157,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    // This content is visible only when the AppBar is expanded
     return SafeArea(
       child: Padding(
-        // Adjust bottom padding to account for TabBar height more accurately
-        padding: EdgeInsets.only(
-          top: 8,
+        padding: const EdgeInsets.only(
+          top: kToolbarHeight + 8,
           left: 16,
           right: 16,
-          bottom: kTextTabBarHeight + 8,
-        ),
+          bottom: kTextTabBarHeight + 16,
+        ), // Adjusted bottom padding
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -228,11 +214,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment:
-                    MainAxisAlignment
-                        .center, // Center vertically within available space
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Add some top padding to align better when expanded
                   const SizedBox(height: 8),
                   Text(
                     widget.drug.tradeName,
@@ -244,7 +227,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   ),
                   if (widget.drug.arabicName.isNotEmpty)
                     Padding(
-                      // Add padding for arabic name
                       padding: const EdgeInsets.only(top: 2.0),
                       child: Text(
                         widget.drug.arabicName,
@@ -255,7 +237,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                  const SizedBox(height: 6), // Adjusted spacing
+                  const SizedBox(height: 6),
                   if (widget.drug.active.isNotEmpty)
                     Text(
                       widget.drug.active,
@@ -266,7 +248,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                  const SizedBox(height: 10), // Increased spacing before price
+                  const SizedBox(height: 10),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
@@ -282,7 +264,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 ],
               ),
             ),
-            // Favorite button is now in AppBar actions
           ],
         ),
       ),
@@ -298,10 +279,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   ) {
     _logger.d("DrugDetailsScreen: Building Info Tab");
     return ListView(
-      padding: const EdgeInsets.symmetric(
-        vertical: 20.0,
-        horizontal: 20.0,
-      ), // Increased padding
+      padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
       children: [
         _buildInfoRow(
           textTheme,
@@ -373,9 +351,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   ) {
     if (value.isEmpty) return const SizedBox.shrink();
     return Padding(
-      padding: const EdgeInsets.symmetric(
-        vertical: 10.0,
-      ), // Increased vertical padding
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -477,6 +453,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
   ) {
     _logger.d("DrugDetailsScreen: Building Interactions Tab");
+    // TODO: Fetch and display known interactions for this specific drug
     final knownInteractions = []; // Placeholder
 
     return ListView(
@@ -488,7 +465,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ),
         const SizedBox(height: 12),
         if (knownInteractions.isNotEmpty)
-          const Text("...") // Placeholder for list
+          // TODO: Build list of known interactions here
+          const Text("...")
         else
           Text(
             "لا تتوفر معلومات تفاعلات مباشرة لهذا الدواء حالياً.",

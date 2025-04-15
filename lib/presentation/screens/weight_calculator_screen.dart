@@ -21,16 +21,16 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   final TextEditingController _weightController = TextEditingController();
   final TextEditingController _ageController = TextEditingController();
-  // Selected drug is now managed by the provider, but keep local for initial value if needed
-  DrugEntity? _initialSelectedDrug;
+  // Selected drug is now managed by the provider, no need for local state here
 
   @override
   void initState() {
     super.initState();
+    // Initialize controllers with provider values if they exist
     final provider = context.read<DoseCalculatorProvider>();
-    _initialSelectedDrug = provider.selectedDrug; // Store initial value
     _weightController.text = provider.weightInput;
     _ageController.text = provider.ageInput;
+    // _selectedDrug is now directly from provider.selectedDrug
   }
 
   @override
@@ -44,19 +44,11 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     FocusScope.of(context).unfocus();
     if (_formKey.currentState!.validate()) {
       final provider = context.read<DoseCalculatorProvider>();
-      // Selected drug is already updated in provider via onChanged
-      if (provider.selectedDrug != null) {
-        provider.setWeight(_weightController.text);
-        provider.setAge(_ageController.text);
-        _logger.i("WeightCalculatorScreen: Calculating dose...");
-        provider.calculateDose();
-      } else {
-        // Validator should prevent this, but clear result just in case
-        provider.clearResult();
-        _logger.w(
-          "WeightCalculatorScreen: Calculate button pressed but no drug selected in provider.",
-        );
-      }
+      // Validator ensures selectedDrug is not null here
+      provider.setWeight(_weightController.text);
+      provider.setAge(_ageController.text);
+      _logger.i("WeightCalculatorScreen: Calculating dose...");
+      provider.calculateDose();
     } else {
       _logger.w("WeightCalculatorScreen: Form validation failed.");
     }
@@ -85,10 +77,10 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               // Use CustomSearchableDropdown
               CustomSearchableDropdown(
                 items: allDrugs,
-                // Use the value from the provider as the source of truth
-                selectedItem: calculatorProvider.selectedDrug,
+                selectedItem:
+                    calculatorProvider.selectedDrug, // Get value from provider
                 onChanged: (DrugEntity? newValue) {
-                  // Update provider state directly, no need for local setState
+                  // Update provider state directly
                   context.read<DoseCalculatorProvider>().setSelectedDrug(
                     newValue,
                   );
@@ -96,7 +88,6 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                 labelText: 'اختر الدواء',
                 hintText: 'ابحث عن اسم الدواء...',
                 prefixIcon: LucideIcons.pill,
-                // Validator now checks the provider's state
                 validator:
                     (_) =>
                         calculatorProvider.selectedDrug == null
