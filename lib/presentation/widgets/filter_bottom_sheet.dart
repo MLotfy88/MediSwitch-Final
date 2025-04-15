@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../bloc/medicine_provider.dart';
-// import 'section_header.dart'; // Not used directly in this layout
 
 class FilterBottomSheet extends StatefulWidget {
   final ScrollController scrollController;
@@ -180,7 +179,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                       );
                     });
                     // Apply reset to provider using single category method
-                    provider.setCategory('');
+                    provider.setCategory(''); // Use setCategory
                     provider.setPriceRange(null);
                     Navigator.pop(context);
                   },
@@ -198,7 +197,9 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                 child: ElevatedButton(
                   onPressed: () {
                     // Apply temporary filters to the provider using single category method
-                    provider.setCategory(_tempSelectedCategory);
+                    provider.setCategory(
+                      _tempSelectedCategory,
+                    ); // Use setCategory
                     if (_tempPriceRange.start > provider.minPrice ||
                         _tempPriceRange.end < provider.maxPrice) {
                       provider.setPriceRange(_tempPriceRange);

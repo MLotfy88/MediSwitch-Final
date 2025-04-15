@@ -282,7 +282,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                               horizontal: 6,
                               vertical: 1,
                             ),
-                            // Removed incorrect textStyle parameter
+                            // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                           ),
                         ),
                     ],
@@ -291,7 +291,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                     Text(
                       '${_formatPrice(widget.drug.oldPrice!)} ج.م',
                       style: textTheme.bodyMedium?.copyWith(
-                        color: colorScheme.onSurfaceVariant,
+                        // text-sm
+                        color:
+                            colorScheme
+                                .onSurfaceVariant, // text-muted-foreground
                         decoration: TextDecoration.lineThrough,
                       ),
                     ),
@@ -299,10 +302,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
               IconButton(
                 icon: Icon(
-                  _isFavorite ? Icons.favorite : Icons.favorite_border,
+                  _isFavorite
+                      ? Icons.favorite
+                      : Icons.favorite_border, // Use Material favorite icons
                   color:
-                      _isFavorite ? Colors.red.shade500 : colorScheme.outline,
-                  size: 24,
+                      _isFavorite
+                          ? Colors.red.shade500
+                          : colorScheme.outline, // fill-red-500 when favorite
+                  size: 24, // h-6 w-6
                 ),
                 tooltip: 'إضافة للمفضلة (Premium)',
                 onPressed: _toggleFavorite,
@@ -333,7 +340,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         children: [
           Expanded(
             child: OutlinedButton.icon(
-              icon: Icon(LucideIcons.calculator, size: 16),
+              icon: Icon(LucideIcons.calculator, size: 16), // h-4 w-4
               label: const Text('حساب الجرعة'),
               onPressed: () {
                 _logger.i(
@@ -350,15 +357,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 );
               },
               style: OutlinedButton.styleFrom(
-                foregroundColor: colorScheme.onSurfaceVariant,
-                side: BorderSide(color: colorScheme.outline),
+                foregroundColor:
+                    colorScheme.onSurfaceVariant, // Match text color
+                side: BorderSide(color: colorScheme.outline), // border-border
               ),
             ),
           ),
           const SizedBox(width: 8), // gap-2
           Expanded(
             child: OutlinedButton.icon(
-              icon: Icon(LucideIcons.zap, size: 16),
+              icon: Icon(LucideIcons.zap, size: 16), // h-4 w-4
               label: const Text('التفاعلات الدوائية'),
               onPressed: () {
                 _logger.i(

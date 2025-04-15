@@ -84,10 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
             child: RefreshIndicator(
               onRefresh: () {
                 _logger.i("HomeScreen: RefreshIndicator triggered.");
+                // Reload all data, including the full list for local filtering
                 return context.read<MedicineProvider>().loadInitialData(
                   forceUpdate: true,
                 );
               },
+              // Update loading check
               child:
                   isLoading &&
                           displayedMedicines.isEmpty &&
