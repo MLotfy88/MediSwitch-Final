@@ -2,18 +2,17 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:dartz/dartz.dart';
-import 'package:collection/collection.dart'; // Import collection package
+import 'package:collection/collection.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../../domain/usecases/get_all_drugs.dart';
+import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
-import '../../domain/usecases/get_analytics_summary.dart'; // Keep if used elsewhere
-// import '../../domain/repositories/analytics_repository.dart'; // Not directly used here
+// import '../../domain/usecases/get_analytics_summary.dart'; // Keep commented out
 import '../../core/usecases/usecase.dart';
 
 class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
@@ -22,52 +21,59 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
-  // final GetAnalyticsSummary getAnalyticsSummaryUseCase; // Keep if needed
   final FileLoggerService _logger = locator<FileLoggerService>();
 
   // --- State variables ---
   List<DrugEntity> _filteredMedicines = [];
   List<String> _categories = [];
   String _searchQuery = '';
-  String _selectedCategory = '';
-  String _selectedDosageForm = '';
-  RangeValues? _selectedPriceRange;
+  String _selectedCategory = ''; // Back to single category selection
+  String _selectedDosageForm =
+      ''; // Keep dosage form filter (can be applied locally)
+  RangeValues?
+  _selectedPriceRange; // Keep price range filter (can be applied locally)
   double _minPrice = 0;
-  double _maxPrice = 1000; // Default max price
+  double _maxPrice = 1000;
   bool _isLoading = true;
-  bool _isLoadingMore = false;
+  bool _isLoadingMore = false; // Re-added for pagination
   String _error = '';
   int? _lastUpdateTimestamp;
   bool _isInitialLoadComplete = false;
 
   // --- Pagination State ---
-  static const int _pageSize = 15;
-  int _currentPage = 0;
-  bool _hasMoreItems = true;
+  static const int _pageSize = 15; // Re-added page size
+  int _currentPage = 0; // Re-added current page
+  bool _hasMoreItems = true; // Re-added flag
 
   // --- State for Simulated Sections ---
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
-  static const int _simulatedSectionLimit =
-      8; // Number of items for simulated sections
+  static const int _simulatedSectionLimit = 8;
 
   // --- Getters ---
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
-  bool get isLoadingMore => _isLoadingMore;
+  bool get isLoadingMore => _isLoadingMore; // Re-added getter
   String get error => _error;
   String get searchQuery => _searchQuery;
-  String get selectedCategory => _selectedCategory;
+  String get selectedCategory =>
+      _selectedCategory; // Back to single category getter
   String get selectedDosageForm => _selectedDosageForm;
   RangeValues? get selectedPriceRange => _selectedPriceRange;
   double get minPrice => _minPrice;
   double get maxPrice => _maxPrice;
-  bool get hasMoreItems => _hasMoreItems;
+  bool get hasMoreItems => _hasMoreItems; // Re-added getter
   bool get isInitialLoadComplete => _isInitialLoadComplete;
-  List<DrugEntity> get recentlyUpdatedDrugs =>
-      _recentlyUpdatedDrugs; // Getter for recent
-  List<DrugEntity> get popularDrugs => _popularDrugs; // Getter for popular
+  List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
+  List<DrugEntity> get popularDrugs => _popularDrugs;
+
+  // Helper to parse price string to double
+  double? _parsePrice(String? priceString) {
+    if (priceString == null) return null;
+    final cleanedPrice = priceString.replaceAll(RegExp(r'[^0-9.]'), '');
+    return double.tryParse(cleanedPrice);
+  }
 
   MedicineProvider({
     required this.getAllDrugsUseCase,
@@ -75,7 +81,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
     required this.getLastUpdateTimestampUseCase,
-    // required this.getAnalyticsSummaryUseCase,
   }) {
     _logger.i("MedicineProvider: Constructor called.");
     loadInitialData();
@@ -87,7 +92,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       final dateTime = DateTime.fromMillisecondsSinceEpoch(
         _lastUpdateTimestamp!,
       );
-      // Use Arabic locale for formatting month name etc.
       return DateFormat('d MMM yyyy, HH:mm', 'ar').format(dateTime);
     } catch (e, s) {
       _logger.e("Error formatting timestamp", e, s);
@@ -96,7 +100,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
-    // Prevent concurrent loads unless forced
     if (_isLoading && !forceUpdate) return;
 
     _logger.i(
@@ -105,39 +108,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _isLoading = true;
     _error = '';
     _isInitialLoadComplete = false;
-    _currentPage = 0;
+    _currentPage = 0; // Reset pagination
     _hasMoreItems = true;
     _filteredMedicines = [];
-    _recentlyUpdatedDrugs = []; // Clear simulated lists too
+    _recentlyUpdatedDrugs = [];
     _popularDrugs = [];
     notifyListeners();
 
-    // --- Update Check (Keep disabled for now) ---
-    // bool updateCheckFailed = false;
-    // if (forceUpdate) {
-    //    _logger.i("MedicineProvider: Forcing data update...");
-    //    try {
-    //       await _updateLocalDataFromRemote(); // Assuming this exists in repo
-    //    } catch (e, s) {
-    //       _logger.e("MedicineProvider: Forced update failed", e, s);
-    //       _error = "فشل تحديث البيانات: ${_mapFailureToMessage(e is Failure ? e : UnknownFailure())}";
-    //       updateCheckFailed = true;
-    //    }
-    // } else {
-    //    // Normal update check logic (currently disabled in repo)
-    //    final updateResult = await getAllDrugsUseCase(NoParams());
-    //    updateResult.fold(
-    //      (failure) {
-    //        _error = "فشل التحقق من التحديثات: ${_mapFailureToMessage(failure)}";
-    //        _logger.e("MedicineProvider: Update check failed: $_error");
-    //        updateCheckFailed = true;
-    //      },
-    //      (_) => _logger.i("MedicineProvider: Update check successful or not needed."),
-    //    );
-    // }
-    // --- End Update Check ---
-
-    // Load categories and timestamp regardless of update result
+    // Load categories and timestamp first
     _logger.i("MedicineProvider: Loading categories and timestamp...");
     await Future.wait([_loadCategories(), _loadAndUpdateTimestamp()]);
     _logger.i("MedicineProvider: Categories and timestamp loaded.");
@@ -146,10 +124,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _logger.i(
       "MedicineProvider: Applying initial filters (page 0) and loading simulated sections...",
     );
-    // Fetch initial page and simulated data concurrently
     await Future.wait([
-      _applyFilters(page: 0),
-      _loadSimulatedSections(), // Load simulated data
+      _applyFilters(page: 0), // Fetch first page
+      _loadSimulatedSections(), // Load simulated data (still fetches small amounts)
     ]);
 
     _isInitialLoadComplete = true;
@@ -175,7 +152,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         // Or calculate based on the first page load in _applyFilters
       },
     );
-    // No notifyListeners here, handled by loadInitialData/applyFilters
   }
 
   Future<void> _loadAndUpdateTimestamp() async {
@@ -195,14 +171,13 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         );
       },
     );
-    // No notifyListeners here, handled by loadInitialData/applyFilters
   }
 
-  // --- Method to load simulated data for horizontal lists ---
+  // Load simulated sections (still fetches small amounts, independent of main list pagination)
   Future<void> _loadSimulatedSections() async {
     _logger.d("MedicineProvider: _loadSimulatedSections called.");
     try {
-      // Fetch a small set for "Recent" - using search with a common letter 'a' for variety
+      // Fetch a small set for "Recent"
       final recentResult = await searchDrugsUseCase(
         SearchParams(query: 'a', limit: _simulatedSectionLimit, offset: 0),
       );
@@ -211,7 +186,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         (r) => _recentlyUpdatedDrugs = r,
       );
 
-      // Fetch another small set for "Popular" - using search with 'b' offset slightly
+      // Fetch another small set for "Popular"
       final popularResult = await searchDrugsUseCase(
         SearchParams(query: 'b', limit: _simulatedSectionLimit, offset: 5),
       );
@@ -236,42 +211,39 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _selectedCategory = ''; // Clear category when searching
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = [];
+    _filteredMedicines = []; // Clear previous results before new search/filter
     await _applyFilters(page: 0);
   }
 
+  // Back to single category selection
   Future<void> setCategory(String category) async {
     _logger.d(
       "MedicineProvider: setCategory called with category: '$category'",
     );
     _selectedCategory = category;
-    _searchQuery = '';
+    _searchQuery = ''; // Clear search when filtering by category
     _currentPage = 0;
     _hasMoreItems = true;
     _filteredMedicines = [];
     await _applyFilters(page: 0);
   }
 
-  Future<void> setDosageForm(String dosageForm) async {
+  // Dosage form and price range filters are applied locally after fetching
+  void setDosageForm(String dosageForm) {
     _logger.d(
       "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm'",
     );
     _selectedDosageForm = dosageForm;
-    _currentPage = 0;
-    _hasMoreItems = true;
-    _filteredMedicines = [];
-    await _applyFilters(page: 0);
+    _applyFilters(page: 0); // Re-apply filters locally on the current data
   }
 
-  Future<void> setPriceRange(RangeValues? range) async {
+  void setPriceRange(RangeValues? range) {
     _logger.d("MedicineProvider: setPriceRange called with range: $range");
     _selectedPriceRange = range;
-    _currentPage = 0;
-    _hasMoreItems = true;
-    _filteredMedicines = [];
-    await _applyFilters(page: 0);
+    _applyFilters(page: 0); // Re-apply filters locally on the current data
   }
 
+  // Re-added loadMoreDrugs for pagination
   Future<void> loadMoreDrugs() async {
     if (_isLoading || _isLoadingMore || !_hasMoreItems) {
       _logger.d(
@@ -295,11 +267,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     );
   }
 
+  // Apply filters by fetching from repository (with pagination)
   Future<void> _applyFilters({required int page, bool append = false}) async {
     if (!append) {
       _isLoading = true;
       _error = '';
-      // Clear list only if not appending
+      // Clear list only if not appending (i.e., new search/filter)
       if (!append) _filteredMedicines = [];
       notifyListeners();
     }
@@ -312,13 +285,18 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     Either<Failure, List<DrugEntity>> result;
 
     try {
+      // Fetch data based on primary filter (search or category)
       if (_searchQuery.isNotEmpty) {
-        _logger.d("MedicineProvider: Applying search filter (page $page)...");
+        _logger.d(
+          "MedicineProvider: Applying search filter via repository (page $page)...",
+        );
         result = await searchDrugsUseCase(
           SearchParams(query: _searchQuery, limit: _pageSize, offset: offset),
         );
       } else if (_selectedCategory.isNotEmpty) {
-        _logger.d("MedicineProvider: Applying category filter (page $page)...");
+        _logger.d(
+          "MedicineProvider: Applying category filter via repository (page $page)...",
+        );
         result = await filterDrugsByCategoryUseCase(
           FilterParams(
             category: _selectedCategory,
@@ -328,9 +306,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         );
       } else {
         _logger.d(
-          "MedicineProvider: Applying initial/no filter (page $page)...",
+          "MedicineProvider: Applying no primary filter, fetching all (page $page)...",
         );
-        // Fetch first page when no specific filter is active
         result = await searchDrugsUseCase(
           SearchParams(query: '', limit: _pageSize, offset: offset),
         );
@@ -339,7 +316,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       result.fold(
         (failure) {
           _logger.e(
-            "MedicineProvider: Error during primary fetch (page $page): ${_mapFailureToMessage(failure)}",
+            "MedicineProvider: Error during repository fetch (page $page): ${_mapFailureToMessage(failure)}",
           );
           _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
           if (!append) _filteredMedicines = [];
@@ -347,25 +324,25 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         },
         (drugs) {
           _logger.d(
-            "MedicineProvider: Primary fetch successful (page $page - ${drugs.length} items). Applying secondary filters...",
+            "MedicineProvider: Repository fetch successful (page $page - ${drugs.length} items). Applying secondary local filters...",
           );
           List<DrugEntity> newlyFiltered = List.from(drugs);
 
-          // Apply Dosage Form Filter locally
+          // Apply secondary filters (Dosage Form, Price Range) locally
           if (_selectedDosageForm.isNotEmpty) {
-            final lowerCaseDosage = _selectedDosageForm.toLowerCase();
+            final formLower = _selectedDosageForm.toLowerCase();
             newlyFiltered =
-                newlyFiltered.where((drug) {
-                  final formLower = (drug.dosageForm).toLowerCase();
-                  return formLower.contains(lowerCaseDosage);
-                }).toList();
+                newlyFiltered
+                    .where(
+                      (drug) =>
+                          drug.dosageForm.toLowerCase().contains(formLower),
+                    )
+                    .toList();
           }
-
-          // Apply Price Range Filter locally
           if (_selectedPriceRange != null) {
             newlyFiltered =
                 newlyFiltered.where((drug) {
-                  final price = double.tryParse(drug.price);
+                  final price = _parsePrice(drug.price);
                   if (price == null) return false;
                   return price >= _selectedPriceRange!.start &&
                       price <= _selectedPriceRange!.end;
@@ -377,10 +354,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           );
 
           _error = '';
-          _hasMoreItems = newlyFiltered.length == _pageSize;
+          _hasMoreItems =
+              drugs.length ==
+              _pageSize; // Determine based on fetched count before local filter
 
           if (append) {
-            // Avoid duplicates when appending
             final existingTradeNames =
                 _filteredMedicines.map((d) => d.tradeName).toSet();
             _filteredMedicines.addAll(
@@ -390,8 +368,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
             );
           } else {
             _filteredMedicines = newlyFiltered;
-            // Calculate price range based on the first page load if needed
-            // _calculatePriceRange(_filteredMedicines);
+            if (page == 0) {
+              _calculatePriceRange(_filteredMedicines);
+            }
           }
         },
       );
@@ -406,11 +385,35 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _hasMoreItems = false;
     } finally {
       if (!append) _isLoading = false;
+      // isLoadingMore is handled in loadMoreDrugs
       notifyListeners();
       _logger.d(
         "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
       );
     }
+  }
+
+  // Calculate min/max price from a list of drugs
+  void _calculatePriceRange(List<DrugEntity> drugs) {
+    if (drugs.isEmpty) {
+      _minPrice = 0;
+      _maxPrice = 1000;
+      return;
+    }
+    double minP = double.maxFinite;
+    double maxP = 0;
+    for (var drug in drugs) {
+      final price = _parsePrice(drug.price);
+      if (price != null) {
+        if (price < minP) minP = price;
+        if (price > maxP) maxP = price;
+      }
+    }
+    _minPrice = (minP == double.maxFinite) ? 0 : minP;
+    _maxPrice = (maxP == 0 || maxP <= _minPrice) ? _minPrice + 1000 : maxP;
+    _logger.i(
+      "MedicineProvider: Calculated price range based on current list: $_minPrice - $_maxPrice",
+    );
   }
 
   String _mapFailureToMessage(Failure failure) {
@@ -428,8 +431,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     }
   }
 
-  // Removed _calculatePriceRange and _parseDate as they are not currently used
-
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
@@ -438,7 +439,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     );
     properties.add(IterableProperty<String>('categories', _categories));
     properties.add(StringProperty('searchQuery', _searchQuery));
-    properties.add(StringProperty('selectedCategory', _selectedCategory));
+    properties.add(
+      StringProperty('selectedCategory', _selectedCategory),
+    ); // Back to single string
+    properties.add(StringProperty('selectedDosageForm', _selectedDosageForm));
     properties.add(
       DiagnosticsProperty<RangeValues>(
         'selectedPriceRange',
@@ -456,7 +460,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         value: _isLoadingMore,
         ifTrue: 'LOADING MORE',
       ),
-    );
+    ); // Re-added
     properties.add(StringProperty('error', _error, defaultValue: ''));
     properties.add(IntProperty('lastUpdateTimestamp', _lastUpdateTimestamp));
     properties.add(
@@ -466,16 +470,16 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         ifTrue: 'LOADED',
       ),
     );
-    properties.add(IntProperty('currentPage', _currentPage));
+    properties.add(IntProperty('currentPage', _currentPage)); // Re-added
     properties.add(
       FlagProperty('hasMoreItems', value: _hasMoreItems, ifTrue: 'HAS MORE'),
-    );
+    ); // Re-added
     properties.add(
       IterableProperty<DrugEntity>(
         'recentlyUpdatedDrugs',
         _recentlyUpdatedDrugs,
       ),
-    ); // Add new lists
+    );
     properties.add(IterableProperty<DrugEntity>('popularDrugs', _popularDrugs));
   }
 }

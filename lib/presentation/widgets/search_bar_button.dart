@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart'; // Use lucide_icons
-import 'package:provider/provider.dart';
-import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
-import '../screens/search_screen.dart'; // To navigate
-import '../services/ad_service.dart'; // To increment ad counter
+import 'package:lucide_icons/lucide_icons.dart';
+import '../screens/search_screen.dart'; // Import SearchScreen
 
 class SearchBarButton extends StatelessWidget {
   const SearchBarButton({super.key});
@@ -14,55 +10,56 @@ class SearchBarButton extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
-    final logger = locator<FileLoggerService>();
-    final adService = locator<AdService>();
 
     return Padding(
+      // Apply px-4 py-2 padding
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      child: InkWell(
-        onTap: () {
-          logger.i("SearchBarButton: Tapped, navigating to SearchScreen.");
-          adService.incrementUsageCounterAndShowAdIfNeeded();
-          Navigator.push(
-            context,
-            MaterialPageRoute<void>(
-              builder: (context) => const SearchScreen(),
-            ), // Navigate without initial query
-          );
-        },
-        child: Container(
-          height: 48, // Consistent height
-          padding: const EdgeInsets.symmetric(horizontal: 16.0),
-          decoration: BoxDecoration(
-            // Use surface color which adapts to light/dark mode
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(28.0), // Fully rounded
-            border: Border.all(
-              color: colorScheme.outline.withOpacity(0.5),
-            ), // Subtle border
-            boxShadow: [
-              BoxShadow(
-                color: colorScheme.shadow.withOpacity(0.05),
-                blurRadius: 8,
-                offset: const Offset(0, 2),
-              ),
-            ],
+      child: SizedBox(
+        height: 40.0, // h-10
+        width: double.infinity, // w-full
+        child: Material(
+          // Use Material for InkWell effect and border
+          color: colorScheme.surface, // bg-white (use surface)
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(
+              20.0,
+            ), // Match input decoration radius
+            side: BorderSide(color: colorScheme.outline), // variant="outline"
           ),
-          child: Row(
-            children: [
-              Icon(
-                LucideIcons.search,
-                color: colorScheme.onSurfaceVariant,
-                size: 20,
-              ), // Use onSurfaceVariant for muted icon color
-              const SizedBox(width: 12.0),
-              Text(
-                'ابحث عن دواء...',
-                style: textTheme.bodyLarge?.copyWith(
-                  color: colorScheme.onSurfaceVariant,
-                ), // Use onSurfaceVariant for muted text
+          clipBehavior: Clip.antiAlias,
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const SearchScreen()),
+              );
+            },
+            borderRadius: BorderRadius.circular(20.0),
+            // Add hoverColor for web/desktop if needed
+            // hoverColor: Colors.grey.shade50, // hover:bg-gray-50
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 12.0,
+              ), // Adjust internal padding
+              child: Row(
+                children: [
+                  Icon(
+                    LucideIcons.search,
+                    size: 16, // h-4 w-4
+                    color:
+                        colorScheme.onSurfaceVariant, // text-muted-foreground
+                  ),
+                  const SizedBox(width: 8.0), // gap-2
+                  Text(
+                    'ابحث عن دواء...',
+                    style: textTheme.bodyMedium?.copyWith(
+                      color:
+                          colorScheme.onSurfaceVariant, // text-muted-foreground
+                    ),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
       ),

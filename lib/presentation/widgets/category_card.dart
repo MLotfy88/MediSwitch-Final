@@ -19,30 +19,41 @@ class CategoryCard extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
 
-    return SizedBox(
-      width: 96, // w-24 in Tailwind (4 * 24 = 96)
-      child: Card(
-        color: colorScheme.surface,
-        elevation: 0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12.0),
-          side: BorderSide(color: colorScheme.outline.withOpacity(0.5)),
+    // Let the parent HorizontalListSection handle width/spacing
+    return Card(
+      // Use theme's card theme for consistency
+      color: Colors.transparent, // Make card transparent to show gradient below
+      elevation: 0, // Remove elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(8.0), // rounded-lg (8px)
+        // No border needed if using gradient background
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: Container(
+        // Use Container for gradient background
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              colorScheme.surface,
+              colorScheme.background,
+            ], // from-card to-background
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(8.0),
         ),
-        clipBehavior: Clip.antiAlias,
-        // Wrap InkWell with Semantics
         child: Semantics(
-          label: 'فئة $name', // Describe the category
-          button: true, // Indicate it's tappable
+          label: 'فئة $name',
+          button: true,
           child: InkWell(
             onTap: onTap,
-            borderRadius: BorderRadius.circular(12.0),
+            borderRadius: BorderRadius.circular(8.0),
             child: Padding(
-              padding: const EdgeInsets.symmetric(
-                vertical: 12.0,
-                horizontal: 8.0,
-              ),
+              padding: const EdgeInsets.all(12.0), // p-3 (12px)
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize:
+                    MainAxisSize.min, // Ensure column takes minimum space
                 children: [
                   Container(
                     padding: const EdgeInsets.all(10),
@@ -52,18 +63,18 @@ class CategoryCard extends StatelessWidget {
                     ),
                     child: Icon(
                       iconData,
-                      size: 24,
+                      size: 24, // h-6 w-6
                       color: colorScheme.primary,
-                      // Add semantics label for the icon itself if needed
-                      // semanticLabel: '$name icon',
                     ),
                   ),
-                  const SizedBox(height: 8.0),
+                  const SizedBox(height: 8.0), // mb-2
                   Text(
                     name,
-                    style: textTheme.bodySmall?.copyWith(
-                      fontWeight: FontWeight.w500,
-                      color: colorScheme.onSurfaceVariant,
+                    style: textTheme.bodyMedium?.copyWith(
+                      // text-sm
+                      fontWeight: FontWeight.w500, // font-medium
+                      color:
+                          colorScheme.onSurfaceVariant, // text-muted-foreground
                     ),
                     textAlign: TextAlign.center,
                     maxLines: 2,
