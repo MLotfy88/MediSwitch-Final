@@ -93,6 +93,7 @@ flutter:
     - assets/meds.csv
     - assets/data/ # Added for interaction JSON files
     - assets/images/ # Added for logo and other images
+    - assets/icon/ # Added for app icon
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
@@ -121,49 +122,33 @@ flutter:
 
 # flutter_launcher_icons configuration
 flutter_launcher_icons:
-  android: "launcher_icon" # Use specific name for Android
+  android: "launcher_icon"
   ios: true
-  image_path: "assets/images/logo.png" # Use the correct logo path
-  min_sdk_android: 21 # Optional: Set minimum SDK
-  adaptive_icon_background: "#FFFFFF" # Keep white background
-  # adaptive_icon_foreground: "assets/images/logo_foreground.png" # Optional: Path to foreground asset if needed
+  image_path: "assets/icon/app_icon_placeholder.ico" # Updated path
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  # adaptive_icon_foreground: "assets/images/logo_foreground.png"
   web:
-    generate: true # Enable web icon generation
-    image_path: "assets/images/logo.png"
+    generate: true
+    image_path: "assets/icon/app_icon_placeholder.ico" # Updated path
     background_color: "#FFFFFF"
-    theme_color: "#16BC88" # Match theme color
+    theme_color: "#16BC88"
   windows:
-    generate: true # Enable windows icon generation
-    image_path: "assets/images/logo.png"
-    icon_size: 48 # Optional: Specify icon size
+    generate: true
+    image_path: "assets/icon/app_icon_placeholder.ico" # Updated path
+    icon_size: 48
   macos:
-    generate: true # Enable macos icon generation
-    image_path: "assets/images/logo.png"
+    generate: true
+    image_path: "assets/icon/app_icon_placeholder.ico" # Updated path
+
 # flutter_native_splash configuration
 flutter_native_splash:
-  # Background color for splash screen (replace with your desired color)
-  color: "#FFFFFF" # White background
-  color_dark: "#121212" # Dark background for dark mode
-
-  # Use the app logo for the splash screen
-  image: assets/images/logo.png
-  image_dark: assets/images/logo.png # Use the same logo for dark mode, or provide a different one
-
-  # Android 12 specific settings (optional)
+  color: "#FFFFFF"
+  color_dark: "#121212"
+  image: assets/images/logo.png # Keep logo for splash
+  image_dark: assets/images/logo.png # Keep logo for splash dark
   # android_12:
     # image: assets/branding/android12_logo.png
     # icon_background_color: "#FFFFFF"
     # image_dark: assets/branding/android12_logo_dark.png
     # icon_background_color_dark: "#121212"
-
-  # Other platforms (web, ios, etc.) - configure as needed
-  # web: false # Example: disable splash for web
-  #   background_color: "#hexcode"
-  #   theme_color: "#hexcode"
-  # windows:
-  #   generate: true
-  #   image_path: "path/to/icon.png"
-  #   icon_size: 48 # min:48, max:256, default: 48
-  # macos:
-  #   generate: true
-  #   image_path: "path/to/icon.png"

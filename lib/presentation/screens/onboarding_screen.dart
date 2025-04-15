@@ -33,56 +33,71 @@ class OnboardingScreen extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
-    const pageDecoration = PageDecoration(
-      titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
-      bodyTextStyle: TextStyle(fontSize: 19.0),
-      imagePadding: EdgeInsets.only(
-        top: 60,
+    // Define page decoration once
+    final pageDecoration = PageDecoration(
+      titleTextStyle: theme.textTheme.headlineMedium!.copyWith(
+        fontWeight: FontWeight.bold,
+      ), // Larger title
+      bodyTextStyle: theme.textTheme.bodyLarge!, // Larger body text
+      imagePadding: const EdgeInsets.only(
+        top: 80,
         bottom: 24,
       ), // Adjust image padding
-      pageColor: Colors.transparent, // Make page background transparent
-      // Use theme colors if needed later
+      pageColor: Colors.transparent,
+      bodyPadding: const EdgeInsets.symmetric(
+        horizontal: 16.0,
+      ), // Add horizontal padding to body
+    );
+
+    // Define image widget once
+    final Widget onboardingImage = Padding(
+      padding: const EdgeInsets.only(
+        bottom: 20.0,
+      ), // Add some padding below image
+      child: Image.asset(
+        'assets/images/onbourding-icon.png', // Use the specified image path
+        height: 250, // Adjust height as needed
+      ),
     );
 
     return IntroductionScreen(
-      key: GlobalKey<IntroductionScreenState>(), // Add key
-      globalBackgroundColor: colorScheme.background, // Use theme background
-      allowImplicitScrolling: true, // Allow swiping between pages
-      autoScrollDuration: null, // Disable auto-scroll
+      key: GlobalKey<IntroductionScreenState>(),
+      globalBackgroundColor: colorScheme.background,
+      allowImplicitScrolling: true,
+      autoScrollDuration: null,
 
       pages: [
         PageViewModel(
           title: "مرحباً بك في MediSwitch",
           body:
               "دليلك الشامل للأدوية في مصر. ابحث بسهولة عن الأدوية، بدائلها، أسعارها، والمزيد.",
-          image: _buildImage(LucideIcons.search), // Use Lucide icon
+          image: onboardingImage, // Use the image widget
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "حاسبة الجرعات الذكية",
           body:
               "احسب الجرعات بدقة بناءً على وزن وعمر المريض لأدوية الأطفال الشائعة.",
-          image: _buildImage(LucideIcons.calculator), // Use Lucide icon
+          image: onboardingImage, // Use the same image widget
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "مدقق التفاعلات الدوائية",
           body:
               "تجنب التفاعلات الخطيرة بين الأدوية عن طريق فحص قائمة الأدوية الخاصة بك.",
-          image: _buildImage(LucideIcons.zap), // Use Lucide icon
+          image: onboardingImage, // Use the same image widget
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "البدائل والمواد الفعالة",
           body: "اعثر بسهولة على بدائل الأدوية المتاحة بنفس المادة الفعالة.",
-          image: _buildImage(LucideIcons.replace), // Use Lucide icon
+          image: onboardingImage, // Use the same image widget
           decoration: pageDecoration,
         ),
       ],
 
       onDone: () => _onOnboardingComplete(context),
-      onSkip:
-          () => _onOnboardingComplete(context), // Skip goes to main screen too
+      onSkip: () => _onOnboardingComplete(context),
       showSkipButton: true,
       skip: Text(
         'تخطي',
@@ -110,22 +125,8 @@ class OnboardingScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(25.0),
         ),
       ),
-      // Customize button styles if needed
-      // baseBtnStyle: TextButton.styleFrom(foregroundColor: colorScheme.primary),
-      // skipStyle: TextButton.styleFrom(foregroundColor: colorScheme.primary),
-      // doneStyle: TextButton.styleFrom(foregroundColor: colorScheme.primary),
-      // nextStyle: IconButton.styleFrom(foregroundColor: colorScheme.primary),
     );
   }
 
-  // Helper to build image widget for pages
-  Widget _buildImage(IconData icon, {double size = 150}) {
-    return Center(
-      child: Icon(
-        icon,
-        size: size,
-        color: Colors.grey.shade400,
-      ), // Use a muted color
-    );
-  }
+  // Removed _buildImage helper as we use Image.asset directly now
 }
