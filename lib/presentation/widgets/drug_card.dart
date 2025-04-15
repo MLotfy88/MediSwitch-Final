@@ -70,25 +70,30 @@ class DrugCard extends StatelessWidget {
 
     return Card(
       clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(8.0),
+      ), // rounded-lg (8px)
       elevation: 1.5,
       child: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [colorScheme.surface, colorScheme.background],
+            colors: [
+              colorScheme.surface,
+              colorScheme.background,
+            ], // from-card to-background
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
-          borderRadius: BorderRadius.circular(12.0),
+          borderRadius: BorderRadius.circular(8.0),
         ),
         child: InkWell(
           onTap: onTap,
-          borderRadius: BorderRadius.circular(12.0),
+          borderRadius: BorderRadius.circular(8.0),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
               Container(
-                height: 6.0,
+                height: 6.0, // h-1.5
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
@@ -101,7 +106,7 @@ class DrugCard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(16.0), // p-4
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -113,7 +118,7 @@ class DrugCard extends StatelessWidget {
                             drug.tradeName,
                             style: textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.w600,
-                            ),
+                            ), // text-base font-semibold
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -124,12 +129,12 @@ class DrugCard extends StatelessWidget {
                                 drug.arabicName,
                                 style: textTheme.bodyMedium?.copyWith(
                                   color: colorScheme.onSurfaceVariant,
-                                ),
+                                ), // text-sm text-muted-foreground
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                               ),
                             ),
-                          const SizedBox(height: 8),
+                          const SizedBox(height: 8), // mt-2
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.center,
@@ -143,8 +148,8 @@ class DrugCard extends StatelessWidget {
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 10,
                                     vertical: 2,
-                                  ),
-                                  // Use default textStyle from CustomBadge or define labelStyle if needed
+                                  ), // px-2.5 py-0.5
+                                  // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                                 ),
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.baseline,
@@ -175,15 +180,15 @@ class DrugCard extends StatelessWidget {
                                         padding: const EdgeInsets.symmetric(
                                           horizontal: 8,
                                           vertical: 2,
-                                        ),
-                                        // Use default textStyle from CustomBadge or define labelStyle if needed
+                                        ), // px-2 py-0.5
+                                        // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                                       ),
                                     ),
                                   Text(
                                     '${_formatPrice(drug.price)} ج.م',
-                                    style: textTheme.titleMedium?.copyWith(
+                                    style: textTheme.titleLarge?.copyWith(
                                       fontWeight: FontWeight.bold,
-                                    ),
+                                    ), // text-lg font-bold
                                   ),
                                 ],
                               ),
@@ -222,12 +227,12 @@ class DrugCard extends StatelessWidget {
             : 0;
 
     return SizedBox(
-      width: 176,
+      width: 176, // w-44
       child: Card(
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12.0),
-        ),
+          borderRadius: BorderRadius.circular(8.0),
+        ), // rounded-lg (8px)
         elevation: 1.5,
         child: Container(
           decoration: BoxDecoration(
@@ -236,18 +241,18 @@ class DrugCard extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
-            borderRadius: BorderRadius.circular(12.0),
+            borderRadius: BorderRadius.circular(8.0),
           ),
           child: InkWell(
             onTap: onTap,
-            borderRadius: BorderRadius.circular(12.0),
+            borderRadius: BorderRadius.circular(8.0),
             child: Stack(
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      height: 6.0,
+                      height: 6.0, // h-1.5
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
@@ -260,21 +265,23 @@ class DrugCard extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(12.0),
+                      padding: const EdgeInsets.all(12.0), // p-3
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const SizedBox(height: 16),
+                          const SizedBox(
+                            height: 16,
+                          ), // Space for potential badge
                           Text(
                             drug.tradeName,
                             style: textTheme.bodyMedium?.copyWith(
                               fontWeight: FontWeight.w500,
-                            ),
+                            ), // text-sm font-medium
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.start,
                           ),
-                          const SizedBox(height: 4),
+                          const SizedBox(height: 4), // mt-1
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -283,14 +290,17 @@ class DrugCard extends StatelessWidget {
                                 style: textTheme.bodyMedium?.copyWith(
                                   fontWeight: FontWeight.w600,
                                   color: colorScheme.primary,
-                                ),
+                                ), // text-sm font-semibold
                               ),
                               if (drug.oldPrice != null &&
                                   drug.oldPrice!.isNotEmpty)
                                 Text(
                                   '${_formatPrice(drug.oldPrice!)} ج.م',
                                   style: textTheme.labelSmall?.copyWith(
-                                    color: colorScheme.onSurfaceVariant,
+                                    // text-xs
+                                    color:
+                                        colorScheme
+                                            .onSurfaceVariant, // text-muted-foreground
                                     decoration: TextDecoration.lineThrough,
                                   ),
                                 ),
@@ -319,12 +329,12 @@ class DrugCard extends StatelessWidget {
                           isPriceIncreased
                               ? LucideIcons.arrowUp
                               : LucideIcons.arrowDown,
-                      iconSize: 12,
+                      iconSize: 12, // h-3 w-3
                       padding: const EdgeInsets.symmetric(
                         horizontal: 6,
                         vertical: 2,
-                      ),
-                      // Use default textStyle from CustomBadge or define labelStyle if needed
+                      ), // px-1.5 py-0.5
+                      // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                     ),
                   ),
               ],

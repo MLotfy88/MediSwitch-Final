@@ -28,23 +28,25 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final AdService _adService = locator<AdService>();
   final FileLoggerService _logger = locator<FileLoggerService>();
-  final ScrollController _scrollController = ScrollController();
+  final ScrollController _scrollController =
+      ScrollController(); // Re-add ScrollController
 
   @override
   void initState() {
     super.initState();
     _logger.i("HomeScreen: initState called.");
-    _scrollController.addListener(_onScroll);
+    _scrollController.addListener(_onScroll); // Re-add listener
   }
 
   @override
   void dispose() {
     _logger.i("HomeScreen: dispose called.");
-    _scrollController.removeListener(_onScroll);
-    _scrollController.dispose();
+    _scrollController.removeListener(_onScroll); // Re-add listener removal
+    _scrollController.dispose(); // Re-add dispose
     super.dispose();
   }
 
+  // Re-add _onScroll method for pagination
   void _onScroll() {
     if (_scrollController.position.pixels >=
             _scrollController.position.maxScrollExtent - 300 &&
@@ -65,9 +67,11 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.i("HomeScreen: Building widget...");
     final medicineProvider = context.watch<MedicineProvider>();
     final isLoading = medicineProvider.isLoading;
-    final isLoadingMore = medicineProvider.isLoadingMore;
+    final isLoadingMore =
+        medicineProvider.isLoadingMore; // Re-add isLoadingMore
     final error = medicineProvider.error;
     final displayedMedicines = medicineProvider.filteredMedicines;
+    // Re-add hasMoreItems to log
     _logger.d(
       "HomeScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
     );
@@ -80,7 +84,9 @@ class _HomeScreenState extends State<HomeScreen> {
             child: RefreshIndicator(
               onRefresh: () {
                 _logger.i("HomeScreen: RefreshIndicator triggered.");
-                return context.read<MedicineProvider>().loadInitialData();
+                return context.read<MedicineProvider>().loadInitialData(
+                  forceUpdate: true,
+                );
               },
               child:
                   isLoading &&
@@ -88,6 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           medicineProvider.recentlyUpdatedDrugs.isEmpty &&
                           medicineProvider.popularDrugs.isEmpty
                       ? _buildLoadingIndicator()
+                      // Pass isLoadingMore back to _buildContent
                       : _buildContent(
                         context,
                         medicineProvider,
@@ -109,6 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return const Center(child: CircularProgressIndicator());
   }
 
+  // Re-add isLoadingMore parameter
   Widget _buildContent(
     BuildContext context,
     MedicineProvider medicineProvider,
@@ -120,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.v("HomeScreen: Building main content CustomScrollView.");
 
     return CustomScrollView(
-      controller: _scrollController,
+      controller: _scrollController, // Re-add controller
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
         SliverToBoxAdapter(child: _buildCategoriesSection(context)),
@@ -134,13 +142,12 @@ class _HomeScreenState extends State<HomeScreen> {
               drugs: medicineProvider.recentlyUpdatedDrugs,
               onViewAll: () {
                 _logger.i("HomeScreen: View All Recent tapped.");
-                // TODO: Implement actual filter logic if needed
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (_) => const SearchScreen(initialQuery: ''),
                   ),
-                ); // Navigate to search for now
+                );
               },
             ),
           ),
@@ -154,13 +161,12 @@ class _HomeScreenState extends State<HomeScreen> {
               drugs: medicineProvider.popularDrugs,
               onViewAll: () {
                 _logger.i("HomeScreen: View All Popular tapped.");
-                // TODO: Implement actual filter logic if needed
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (_) => const SearchScreen(initialQuery: ''),
                   ),
-                ); // Navigate to search for now
+                );
               },
             ),
           ),
@@ -196,7 +202,8 @@ class _HomeScreenState extends State<HomeScreen> {
               }, childCount: displayedMedicines.length),
             ),
           )
-        else if (!isLoadingMore) // Show empty/error only if not loading more
+        // Show empty/error state only if not loading more
+        else if (!isLoadingMore)
           SliverFillRemaining(
             hasScrollBody: false,
             child: _buildListFooter(
@@ -206,12 +213,11 @@ class _HomeScreenState extends State<HomeScreen> {
               isLoading,
               isLoadingMore,
               error,
-            ),
-          )
-        else
-          SliverToBoxAdapter(child: SizedBox(height: 16)),
+            ), // Pass isLoadingMore
+          ),
 
         // --- Loading More Indicator / End Message ---
+        // Show footer if the list is not empty (it contains either loading or end message)
         if (displayedMedicines.isNotEmpty)
           SliverToBoxAdapter(
             child: _buildListFooter(
@@ -221,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
               isLoading,
               isLoadingMore,
               error,
-            ),
+            ), // Pass isLoadingMore
           ),
       ],
     );
@@ -236,7 +242,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }) {
     return HorizontalListSection(
       title: title,
-      listHeight: 190, // Height for thumbnail cards
+      listHeight: 190,
       onViewAll: onViewAll,
       headerPadding: const EdgeInsets.only(
         left: 16,
@@ -249,7 +255,7 @@ class _HomeScreenState extends State<HomeScreen> {
               .map(
                 (drug) => DrugCard(
                   drug: drug,
-                  type: DrugCardType.thumbnail, // Use thumbnail card
+                  type: DrugCardType.thumbnail,
                   onTap: () => _navigateToDetails(context, drug),
                 ).animate().fadeIn(delay: (drugs.indexOf(drug) * 80).ms),
               )
@@ -257,6 +263,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  // Re-add isLoadingMore parameter
   Widget _buildListFooter(
     BuildContext context,
     MedicineProvider provider,
@@ -272,6 +279,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Center(child: CircularProgressIndicator()),
       );
     } else if (!provider.hasMoreItems && medicines.isNotEmpty) {
+      // Re-add hasMoreItems check
       _logger.v("HomeScreen: Building 'end of list' message.");
       return Padding(
         padding: const EdgeInsets.symmetric(vertical: 32.0, horizontal: 16.0),
@@ -289,7 +297,7 @@ class _HomeScreenState extends State<HomeScreen> {
     } else if (medicines.isEmpty && !isLoading && error.isEmpty) {
       return _buildEmptyListMessage(context, provider);
     } else {
-      return Container(height: 16);
+      return const SizedBox(height: 16); // Default bottom padding
     }
   }
 
@@ -303,6 +311,7 @@ class _HomeScreenState extends State<HomeScreen> {
       "HomeScreen: Building categories section with ${categories.length} categories.",
     );
     final categoryIcons = {
+      /* ... same icons map ... */
       'مسكنات الألم': LucideIcons.pill,
       'مضادات حيوية': LucideIcons.syringe,
       'أمراض القلب': LucideIcons.heartPulse,
@@ -350,6 +359,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: () {
                     _logger.i("HomeScreen: Category tapped: $categoryName");
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
+                    // Use setCategory for single category selection
                     context.read<MedicineProvider>().setCategory(categoryName);
                   },
                 )
@@ -383,6 +393,7 @@ class _HomeScreenState extends State<HomeScreen> {
     BuildContext context,
     MedicineProvider provider,
   ) {
+    // Check selectedCategory (single string)
     final bool filtersActive =
         provider.searchQuery.isNotEmpty || provider.selectedCategory.isNotEmpty;
     _logger.v(
@@ -398,7 +409,7 @@ class _HomeScreenState extends State<HomeScreen> {
             LucideIcons.searchX,
             size: 64,
             color: Theme.of(context).hintColor.withOpacity(0.5),
-          ), // Use SearchX icon
+          ),
           const SizedBox(height: 16),
           Text(
             filtersActive

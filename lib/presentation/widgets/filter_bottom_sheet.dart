@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../bloc/medicine_provider.dart';
-import 'section_header.dart'; // Use SectionHeader
+// import 'section_header.dart'; // Not used directly in this layout
 
 class FilterBottomSheet extends StatefulWidget {
   final ScrollController scrollController;
@@ -15,18 +15,15 @@ class FilterBottomSheet extends StatefulWidget {
 
 class _FilterBottomSheetState extends State<FilterBottomSheet> {
   // Local state for temporary filter values
-  late List<String> _tempSelectedCategories;
+  late String _tempSelectedCategory; // Back to String for single category
   late RangeValues _tempPriceRange;
-  // Add other temp states if needed
 
   @override
   void initState() {
     super.initState();
     final provider = context.read<MedicineProvider>();
-    // Initialize with single selection logic for now
-    _tempSelectedCategories = List.from(
-      provider.selectedCategory.isNotEmpty ? [provider.selectedCategory] : [],
-    );
+    // Initialize with single category from provider
+    _tempSelectedCategory = provider.selectedCategory;
     _tempPriceRange =
         provider.selectedPriceRange ??
         RangeValues(provider.minPrice, provider.maxPrice);
@@ -41,7 +38,6 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
     final allCategories = provider.categories;
 
     return Padding(
-      // Add padding around the content
       padding: const EdgeInsets.only(
         top: 8.0,
         left: 16.0,
@@ -49,10 +45,9 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
         bottom: 16.0,
       ),
       child: ListView(
-        // Use ListView for scrolling content
         controller: widget.scrollController,
         children: [
-          // Header with Title and Close Button
+          // Header
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -70,36 +65,33 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
               ),
             ],
           ),
-          const SizedBox(height: 16), // Spacing after header
+          const SizedBox(height: 24),
+
           // --- Categories Filter ---
           Text(
-            'الفئات الطبية',
-            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+            'الفئات',
+            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w500),
           ),
           const SizedBox(height: 12),
+          // Use FilterChip again for single selection UI
           Wrap(
             spacing: 8.0,
             runSpacing: 8.0,
             children:
                 allCategories.map((category) {
-                  final isSelected = _tempSelectedCategories.contains(category);
+                  final isSelected = _tempSelectedCategory == category;
                   return FilterChip(
                     label: Text(category),
                     selected: isSelected,
                     onSelected: (selected) {
                       setState(() {
-                        // Single selection logic
-                        if (selected) {
-                          _tempSelectedCategories = [category];
-                        } else {
-                          _tempSelectedCategories = [];
-                        }
+                        // If selected, set it as the temp category. If deselected (tapped again), clear temp category.
+                        _tempSelectedCategory = selected ? category : '';
                       });
                     },
                     selectedColor: colorScheme.primaryContainer,
                     checkmarkColor: colorScheme.onPrimaryContainer,
                     labelStyle: textTheme.labelLarge?.copyWith(
-                      // Use labelLarge for better readability
                       color:
                           isSelected
                               ? colorScheme.onPrimaryContainer
@@ -116,11 +108,11 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                                 : colorScheme.outline.withOpacity(0.5),
                       ),
                     ),
-                    showCheckmark: true, // Explicitly show checkmark
+                    showCheckmark: true,
                     padding: const EdgeInsets.symmetric(
                       horizontal: 12,
                       vertical: 8,
-                    ), // Adjust padding
+                    ),
                   );
                 }).toList(),
           ),
@@ -129,24 +121,20 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
           // --- Price Range Filter ---
           Text(
             'نطاق السعر',
-            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+            style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w500),
           ),
           const SizedBox(height: 4),
           RangeSlider(
             values: _tempPriceRange,
             min: provider.minPrice,
             max: provider.maxPrice,
-            divisions:
-                (provider.maxPrice > provider.minPrice)
-                    ? 20
-                    : null, // Avoid division by zero
+            divisions: (provider.maxPrice > provider.minPrice) ? 20 : null,
             labels: RangeLabels(
               '${_tempPriceRange.start.round()} ج.م',
               '${_tempPriceRange.end.round()} ج.م',
             ),
             onChanged: (RangeValues values) {
               setState(() {
-                // Ensure start is not greater than end
                 if (values.start <= values.end) {
                   _tempPriceRange = values;
                 }
@@ -156,9 +144,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             inactiveColor: colorScheme.primary.withOpacity(0.3),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 8.0,
-            ), // Add padding for labels
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -177,41 +163,42 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
               ],
             ),
           ),
-          const SizedBox(height: 32), // More spacing before buttons
+          const SizedBox(height: 32),
+
           // --- Action Buttons ---
           Row(
             children: [
               Expanded(
+                // Reset Button
                 child: OutlinedButton(
                   onPressed: () {
                     setState(() {
-                      _tempSelectedCategories = [];
+                      _tempSelectedCategory = ''; // Reset local state
                       _tempPriceRange = RangeValues(
                         provider.minPrice,
                         provider.maxPrice,
                       );
                     });
+                    // Apply reset to provider using single category method
                     provider.setCategory('');
                     provider.setPriceRange(null);
                     Navigator.pop(context);
                   },
                   style: OutlinedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                      vertical: 12,
-                    ), // Adjust button padding
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    foregroundColor: colorScheme.onSurfaceVariant,
+                    side: BorderSide(color: colorScheme.outline),
                   ),
                   child: const Text('إعادة تعيين'),
                 ),
               ),
-              const SizedBox(width: 12),
+              const SizedBox(width: 8), // gap-2
               Expanded(
+                // Apply Button
                 child: ElevatedButton(
                   onPressed: () {
-                    provider.setCategory(
-                      _tempSelectedCategories.isNotEmpty
-                          ? _tempSelectedCategories.first
-                          : '',
-                    );
+                    // Apply temporary filters to the provider using single category method
+                    provider.setCategory(_tempSelectedCategory);
                     if (_tempPriceRange.start > provider.minPrice ||
                         _tempPriceRange.end < provider.maxPrice) {
                       provider.setPriceRange(_tempPriceRange);
@@ -221,16 +208,16 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
                     Navigator.pop(context);
                   },
                   style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                      vertical: 12,
-                    ), // Adjust button padding
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    backgroundColor: colorScheme.primary,
+                    foregroundColor: colorScheme.onPrimary,
                   ),
                   child: const Text('تطبيق الفلاتر'),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 16), // Bottom padding
+          const SizedBox(height: 16),
         ],
       ),
     );
