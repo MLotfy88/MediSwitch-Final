@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:intl/intl.dart'; // Import intl
+import 'package:lucide_icons/lucide_icons.dart';
+import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../bloc/alternatives_provider.dart';
-import '../screens/alternatives_screen.dart';
-// import '../../main.dart'; // No longer needed
-// import '../../domain/usecases/find_drug_alternatives.dart'; // No longer needed directly
-import '../screens/weight_calculator_screen.dart'; // Import Calculator Screen
-import '../screens/interaction_checker_screen.dart'; // Import Interaction Screen
-import '../bloc/dose_calculator_provider.dart'; // Import Dose Calculator Provider
-import '../bloc/interaction_provider.dart'; // Import Interaction Provider
-import '../bloc/subscription_provider.dart'; // Import Subscription Provider
+import '../widgets/custom_badge.dart';
+import '../../core/di/locator.dart';
+import '../../core/services/file_logger_service.dart';
+import '../widgets/alternatives_tab_content.dart';
+import 'weight_calculator_screen.dart';
+import 'interaction_checker_screen.dart';
+import '../bloc/dose_calculator_provider.dart';
+import '../bloc/interaction_provider.dart';
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -24,597 +24,513 @@ class DrugDetailsScreen extends StatefulWidget {
 
 class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     with SingleTickerProviderStateMixin {
+  final FileLoggerService _logger = locator<FileLoggerService>();
   late TabController _tabController;
+
+  bool _isFavorite = false; // Placeholder state
 
   @override
   void initState() {
     super.initState();
-    // Initialize TabController with 4 tabs as per prototype
     _tabController = TabController(length: 4, vsync: this);
+    _logger.i(
+      "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
+    );
+    // TODO: Load initial favorite status from provider/storage
   }
 
   @override
   void dispose() {
     _tabController.dispose();
+    _logger.i("DrugDetailsScreen: dispose for drug: ${widget.drug.tradeName}");
     super.dispose();
+  }
+
+  String _formatPrice(String priceString) {
+    final price = double.tryParse(priceString);
+    if (price == null) return priceString;
+    return NumberFormat("#,##0.##", "en_US").format(price);
+  }
+
+  String _formatDate(String? dateString) {
+    if (dateString == null || dateString.isEmpty) return '-';
+    try {
+      DateTime dateTime;
+      if (dateString.contains('/')) {
+        dateTime = DateFormat('dd/MM/yyyy').parseStrict(dateString);
+      } else {
+        dateTime = DateFormat('yyyy-MM-dd').parseStrict(dateString);
+      }
+      return DateFormat('d MMM yyyy', 'ar').format(dateTime);
+    } catch (e) {
+      _logger.w("Could not parse date for display: $dateString", e);
+      return dateString;
+    }
+  }
+
+  void _toggleFavorite() {
+    _logger.i(
+      "DrugDetailsScreen: Favorite button tapped (Premium - Not implemented).",
+    );
+    // TODO: Implement actual favorite logic (requires SubscriptionProvider check & persistence)
+    // For now, just show a snackbar
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('ميزة المفضلة تتطلب الاشتراك Premium (قريباً).'),
+      ),
+    );
+    // setState(() { _isFavorite = !_isFavorite; }); // Update UI optimistically if implemented
   }
 
   @override
   Widget build(BuildContext context) {
-    // Access providers via context
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
-    // Access SubscriptionProvider
-    final subscriptionProvider = context.watch<SubscriptionProvider>();
+    _logger.i(
+      "DrugDetailsScreen: Building widget for drug: ${widget.drug.tradeName}",
+    );
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final textTheme = theme.textTheme;
 
     return Scaffold(
-      appBar: AppBar(
-        // Match general AppBar style (e.g., from HomeHeader or theme)
-        backgroundColor: colorScheme.surface, // Use surface color? or primary?
-        foregroundColor: colorScheme.onSurface, // Adjust foreground accordingly
-        elevation: 0.5, // Subtle elevation or 0
-        title: Text(
-          widget.drug.arabicName.isNotEmpty
-              ? widget.drug.arabicName
-              : widget.drug.tradeName,
-          style: textTheme.titleLarge, // Use consistent title style
-        ),
-        actions: [
-          // Favorite Button - Premium Feature Control
-          Consumer<SubscriptionProvider>(
-            // Use Consumer for reactivity
-            builder: (context, subProvider, child) {
-              // TODO: Add logic to check if this specific drug IS already a favorite
-              bool isCurrentlyFavorite = false; // Placeholder
-              bool canFavorite = subProvider.isPremiumUser;
-
-              return IconButton(
-                icon: Icon(
-                  isCurrentlyFavorite ? Icons.favorite : Icons.favorite_border,
-                  color: canFavorite ? colorScheme.primary : Colors.grey,
-                ),
-                tooltip:
-                    canFavorite
-                        ? (isCurrentlyFavorite
-                            ? 'إزالة من المفضلة'
-                            : 'إضافة للمفضلة')
-                        : 'إضافة للمفضلة (ميزة Premium)',
-                onPressed: () {
-                  if (canFavorite) {
-                    // TODO: Implement actual add/remove favorite logic
-                    print('Toggle favorite for ${widget.drug.tradeName}');
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(
-                          isCurrentlyFavorite
-                              ? 'تمت الإزالة من المفضلة (مؤقت)'
-                              : 'تمت الإضافة للمفضلة (مؤقت)',
-                        ),
-                        duration: const Duration(seconds: 1),
-                      ),
-                    );
-                  } else {
-                    // Show premium required message
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: const Text(
-                          'ميزة المفضلة تتطلب اشتراك Premium.',
-                        ),
-                        action: SnackBarAction(
-                          label: 'اشترك الآن',
-                          onPressed: () {
-                            // TODO: Navigate to SubscriptionScreen
-                            print('Navigate to Subscription Screen');
-                          },
-                        ),
-                      ),
-                    );
-                  }
-                },
-              );
-            },
-          ),
-        ],
-      ),
       body: NestedScrollView(
-        // Use NestedScrollView for collapsing header effect with tabs
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(
-                  16.0,
-                  16.0,
-                  16.0,
-                  8.0,
-                ), // Adjust padding
-                child: _buildDrugHeader(context, textTheme, colorScheme),
-              ),
-            ),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16.0,
-                  vertical: 8.0,
-                ),
-                child: _buildPriceSection(context, textTheme, colorScheme),
-              ),
-            ),
-            SliverPersistentHeader(
-              // Make TabBar sticky
-              delegate: _SliverAppBarDelegate(
-                TabBar(
-                  controller: _tabController,
-                  // Match shadcn Tabs style
-                  labelColor: colorScheme.primary, // Active tab color
-                  unselectedLabelColor:
-                      colorScheme.onSurfaceVariant, // Inactive tab color
-                  indicatorColor: colorScheme.primary, // Indicator color
-                  indicatorWeight: 2.0, // Indicator thickness
-                  indicatorSize:
-                      TabBarIndicatorSize.label, // Indicator size matches label
-                  isScrollable: true,
-                  tabAlignment: TabAlignment.start,
-                  labelStyle: textTheme.bodyLarge?.copyWith(
-                    fontWeight: FontWeight.w600,
-                  ), // Active label style
-                  unselectedLabelStyle:
-                      textTheme.bodyLarge, // Inactive label style
-                  tabs: const [
-                    Tab(text: 'معلومات'),
-                    Tab(text: 'البدائل'),
-                    Tab(text: 'الجرعات'),
-                    Tab(text: 'التفاعلات'),
-                  ],
-                ),
-              ),
+            SliverAppBar(
+              expandedHeight: 250.0,
+              floating: false,
               pinned: true,
+              elevation: innerBoxIsScrolled ? 1 : 0,
+              forceElevated: innerBoxIsScrolled,
+              backgroundColor: theme.scaffoldBackgroundColor,
+              foregroundColor: colorScheme.onBackground,
+              // Title appears only when collapsed
+              title: Text(
+                widget.drug.tradeName,
+                style: textTheme.titleLarge, // Use default AppBar title style
+              ),
+              centerTitle: false, // Align title to start
+              actions: [
+                // Add favorite button to actions
+                IconButton(
+                  icon: Icon(
+                    _isFavorite ? LucideIcons.star : LucideIcons.starOff,
+                    color:
+                        _isFavorite
+                            ? Colors.amber.shade600
+                            : colorScheme.outline,
+                  ),
+                  tooltip: 'إضافة للمفضلة (Premium)',
+                  onPressed: _toggleFavorite,
+                ),
+                const SizedBox(width: 8), // Add some padding
+              ],
+              flexibleSpace: FlexibleSpaceBar(
+                collapseMode: CollapseMode.pin,
+                // Remove title from FlexibleSpaceBar
+                // titlePadding: const EdgeInsetsDirectional.only(start: 50, bottom: 16),
+                // title: Text(...) ,
+                background: _buildHeaderContent(
+                  context,
+                  colorScheme,
+                  textTheme,
+                ),
+              ),
+              bottom: TabBar(
+                controller: _tabController,
+                labelColor: colorScheme.primary,
+                unselectedLabelColor: colorScheme.onSurfaceVariant,
+                indicatorColor: colorScheme.primary,
+                isScrollable: false,
+                tabs: const [
+                  Tab(text: 'معلومات'),
+                  Tab(text: 'البدائل'),
+                  Tab(text: 'الجرعات'),
+                  Tab(text: 'التفاعلات'),
+                ],
+              ),
             ),
           ];
         },
         body: TabBarView(
           controller: _tabController,
           children: [
-            // --- Info Tab ---
-            _buildInfoTab(context, textTheme),
-            // --- Alternatives Tab ---
-            _buildAlternativesTab(context), // No longer needs use case passed
-            // --- Dosage Tab ---
-            _buildDosageTab(context),
-            // --- Interactions Tab ---
-            _buildInteractionsTab(context),
+            _buildInfoTab(context, colorScheme, textTheme),
+            _buildAlternativesTab(context),
+            _buildDosageTab(context, colorScheme, textTheme),
+            _buildInteractionsTab(context, colorScheme, textTheme),
           ],
         ),
       ),
     );
   }
 
-  // --- Header Builder ---
-  Widget _buildDrugHeader(
+  Widget _buildHeaderContent(
     BuildContext context,
-    TextTheme textTheme,
     ColorScheme colorScheme,
+    TextTheme textTheme,
   ) {
-    // Match shadcn Card style more closely
-    return Card(
-      elevation: 0, // shadcn cards often have 0 elevation
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12), // Match theme --radius
-        side: BorderSide(
-          color: colorScheme.outline.withOpacity(0.5),
-        ), // Subtle border
-      ),
-      clipBehavior: Clip.antiAlias,
+    // This content is visible only when the AppBar is expanded
+    return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        // Adjust bottom padding to account for TabBar height more accurately
+        padding: EdgeInsets.only(
+          top: 8,
+          left: 16,
+          right: 16,
+          bottom: kTextTabBarHeight + 8,
+        ),
         child: Row(
-          crossAxisAlignment:
-              CrossAxisAlignment.center, // Center items vertically
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Drug Image/Icon - Wrapped with Hero
-            Hero(
-              tag:
-                  'drug_image_${widget.drug.tradeName}', // Use the same tag as in DrugListItem
-              child: Container(
-                // Placeholder container for image/icon
-                width: 64, // Adjust size
-                height: 64,
-                decoration: BoxDecoration(
-                  color: colorScheme.secondaryContainer.withOpacity(
-                    0.3,
-                  ), // Use secondary container
-                  borderRadius: BorderRadius.circular(
-                    8,
-                  ), // Match theme --radius
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(12.0),
-                  child:
-                      widget.drug.imageUrl != null &&
-                              widget.drug.imageUrl!.isNotEmpty
-                          ? CachedNetworkImage(
-                            imageUrl: widget.drug.imageUrl!,
-                            placeholder:
-                                (context, url) => const Center(
-                                  child: CircularProgressIndicator(
-                                    strokeWidth: 2.0,
-                                  ),
+            Container(
+              width: 100,
+              height: 100,
+              decoration: BoxDecoration(
+                color: colorScheme.secondaryContainer.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(12.0),
+                child:
+                    widget.drug.imageUrl != null &&
+                            widget.drug.imageUrl!.isNotEmpty
+                        ? CachedNetworkImage(
+                          imageUrl: widget.drug.imageUrl!,
+                          fit: BoxFit.contain,
+                          placeholder:
+                              (context, url) => const Center(
+                                child: CircularProgressIndicator(
+                                  strokeWidth: 2,
                                 ),
-                            errorWidget:
-                                (context, url, error) => Icon(
-                                  Icons.medication_liquid_outlined,
-                                  color: colorScheme.primary.withOpacity(0.7),
-                                  size: 35,
+                              ),
+                          errorWidget:
+                              (context, url, error) => Center(
+                                child: Icon(
+                                  LucideIcons.pill,
+                                  size: 40,
+                                  color: colorScheme.onSecondaryContainer
+                                      .withOpacity(0.5),
                                 ),
-                            fit: BoxFit.cover,
-                          )
-                          : Icon(
-                            Icons.medication_liquid_outlined,
-                            color: colorScheme.primary.withOpacity(0.7),
-                            size: 35,
-                          ), // Placeholder icon
-                ),
+                              ),
+                        )
+                        : Center(
+                          child: Icon(
+                            LucideIcons.pill,
+                            size: 40,
+                            color: colorScheme.onSecondaryContainer.withOpacity(
+                              0.5,
+                            ),
+                          ),
+                        ),
               ),
             ),
-            const SizedBox(width: 16.0),
-            // Drug Name and Active Ingredient
+            const SizedBox(width: 16),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment:
+                    MainAxisAlignment
+                        .center, // Center vertically within available space
                 children: [
+                  // Add some top padding to align better when expanded
+                  const SizedBox(height: 8),
                   Text(
                     widget.drug.tradeName,
-                    style: textTheme.titleMedium?.copyWith(
-                      // Adjust text style if needed
+                    style: textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  if (widget.drug.arabicName.isNotEmpty &&
-                      widget.drug.arabicName != widget.drug.tradeName)
+                  if (widget.drug.arabicName.isNotEmpty)
                     Padding(
+                      // Add padding for arabic name
                       padding: const EdgeInsets.only(top: 2.0),
                       child: Text(
                         widget.drug.arabicName,
-                        style: textTheme.bodyMedium?.copyWith(
-                          // Adjust text style
+                        style: textTheme.titleSmall?.copyWith(
                           color: colorScheme.onSurfaceVariant,
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                  const SizedBox(height: 4.0),
-                  Text(
-                    widget.drug.active, // Active Ingredient
-                    style: textTheme.bodySmall?.copyWith(
-                      // Adjust text style
-                      color: colorScheme.secondary,
+                  const SizedBox(height: 6), // Adjusted spacing
+                  if (widget.drug.active.isNotEmpty)
+                    Text(
+                      widget.drug.active,
+                      style: textTheme.bodyMedium?.copyWith(
+                        color: colorScheme.primary,
+                        fontWeight: FontWeight.w500,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
                     ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
+                  const SizedBox(height: 10), // Increased spacing before price
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        '${_formatPrice(widget.drug.price)} ج.م',
+                        style: textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: colorScheme.primary,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
             ),
+            // Favorite button is now in AppBar actions
           ],
         ),
       ),
     );
   }
 
-  // --- Price Section Builder ---
-  Widget _buildPriceSection(
+  // --- Tab Content Builders ---
+
+  Widget _buildInfoTab(
     BuildContext context,
+    ColorScheme colorScheme,
+    TextTheme textTheme,
+  ) {
+    _logger.d("DrugDetailsScreen: Building Info Tab");
+    return ListView(
+      padding: const EdgeInsets.symmetric(
+        vertical: 20.0,
+        horizontal: 20.0,
+      ), // Increased padding
+      children: [
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "الاسم التجاري:",
+          widget.drug.tradeName,
+        ),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "الاسم العربي:",
+          widget.drug.arabicName,
+        ),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "المادة الفعالة:",
+          widget.drug.active,
+        ),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "السعر:",
+          '${_formatPrice(widget.drug.price)} ج.م',
+        ),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "الفئة الرئيسية:",
+          widget.drug.mainCategory,
+        ),
+        _buildInfoRow(textTheme, colorScheme, "الشركة:", widget.drug.company),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "الشكل الصيدلي:",
+          widget.drug.dosageForm,
+        ),
+        if (widget.drug.concentration != null || widget.drug.unit.isNotEmpty)
+          _buildInfoRow(
+            textTheme,
+            colorScheme,
+            "التركيز/الوحدة:",
+            '${widget.drug.concentration?.toString() ?? ""} ${widget.drug.unit}'
+                .trim(),
+          ),
+        _buildInfoRow(textTheme, colorScheme, "الاستخدام:", widget.drug.usage),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "الوصف:",
+          widget.drug.description,
+        ),
+        _buildInfoRow(
+          textTheme,
+          colorScheme,
+          "آخر تحديث للسعر:",
+          _formatDate(widget.drug.lastPriceUpdate),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildInfoRow(
     TextTheme textTheme,
     ColorScheme colorScheme,
+    String label,
+    String value,
   ) {
-    // TODO: Add logic for old price and percentage change if available
-    // Match shadcn Card style
-    return Card(
-      elevation: 0, // No elevation
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12), // Match theme --radius
-        side: BorderSide(
-          color: colorScheme.outline.withOpacity(0.5),
-        ), // Subtle border
-      ),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text('السعر الحالي:', style: textTheme.bodyLarge), // Adjust style
-            // Format the price
-            Builder(
-              // Use Builder to access context for NumberFormat locale if needed
-              builder: (context) {
-                final priceDouble = double.tryParse(widget.drug.price);
-                final formattedPrice =
-                    priceDouble != null
-                        ? NumberFormat("#,##0.##", "en_US").format(
-                          priceDouble,
-                        ) // Basic formatting
-                        : widget.drug.price; // Fallback to original string
-                return Text(
-                  '$formattedPrice جنيه',
-                  style: textTheme.titleMedium?.copyWith(
-                    // Adjust style
-                    fontWeight: FontWeight.bold,
-                    color: colorScheme.primary,
-                  ),
-                );
-              },
-            ),
-            // Placeholder for price change indicator
-            // Container(
-            //   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-            //   decoration: BoxDecoration(
-            //     color: Colors.red.shade100, // Example for decrease
-            //     borderRadius: BorderRadius.circular(12),
-            //   ),
-            //   child: Text('-16.7%', style: TextStyle(color: Colors.red.shade800, fontSize: 12, fontWeight: FontWeight.bold)),
-            // )
-          ],
-        ),
-      ),
-    );
-  }
-
-  // --- Tab Builders ---
-
-  Widget _buildInfoTab(BuildContext context, TextTheme textTheme) {
-    // Displays drug details based on prototype's "معلومات" tab
-    return ListView(
-      // Use ListView for potentially long content
-      padding: const EdgeInsets.all(16.0),
-      children: [
-        _buildDetailRow('الشركة', widget.drug.company),
-        _buildDetailRow('الفئة الرئيسية', widget.drug.mainCategory),
-        _buildDetailRow('الشكل الصيدلي', widget.drug.dosageForm),
-        _buildDetailRow('الوحدة', widget.drug.unit),
-        _buildDetailRow('الاستخدام', widget.drug.usage),
-        _buildDetailRow('الوصف', widget.drug.description),
-        _buildDetailRow('آخر تحديث للسعر', widget.drug.lastPriceUpdate),
-      ],
-    );
-  }
-
-  Widget _buildAlternativesTab(BuildContext context) {
-    // AlternativesProvider is now provided globally via main.dart
-    // We just need to ensure the screen uses it correctly.
-    // The AlternativesScreen itself likely uses context.watch/read
-    return AlternativesScreen(
-      originalDrug: widget.drug,
-    ); // Pass the drug, provider is accessed internally by AlternativesScreen
-  }
-
-  Widget _buildDosageTab(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
-    final bool hasUsageInfo = widget.drug.usage.isNotEmpty;
-
-    return ListView(
-      // Use ListView for consistency and potential future additions
-      padding: const EdgeInsets.all(16.0),
-      children: [
-        Text('معلومات الجرعة القياسية', style: textTheme.titleLarge),
-        const SizedBox(height: 16),
-        if (hasUsageInfo)
-          // Use a simpler container or just Text if no card needed
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(
-              horizontal: 16.0,
-              vertical: 12.0,
-            ),
-            decoration: BoxDecoration(
-              color: colorScheme.surfaceVariant.withOpacity(0.5),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
-            ),
-            child: Text(widget.drug.usage, style: textTheme.bodyLarge),
-          )
-        else
-          Container(
-            // Placeholder container
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(
-              horizontal: 16.0,
-              vertical: 12.0,
-            ),
-            decoration: BoxDecoration(
-              color: colorScheme.surfaceVariant.withOpacity(0.5),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
-            ),
-            child: Text(
-              'لا توجد معلومات جرعة قياسية متاحة لهذا الدواء.',
-              style: textTheme.bodyLarge?.copyWith(
-                color: Theme.of(context).hintColor,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        const SizedBox(height: 24),
-        const Divider(),
-        const SizedBox(height: 16),
-        Center(
-          child: ElevatedButton.icon(
-            icon: const Icon(Icons.calculate_outlined),
-            label: const Text('حساب الجرعة بالوزن'),
-            onPressed: () {
-              // Clear previous calculator state and set the drug
-              final doseProvider = context.read<DoseCalculatorProvider>();
-              doseProvider.setSelectedDrug(widget.drug);
-              // Navigate to the calculator screen
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const WeightCalculatorScreen(),
-                ),
-              );
-            },
-            // Match shadcn button style
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              backgroundColor: colorScheme.primary,
-              foregroundColor: colorScheme.onPrimary,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(8.0),
-              ),
-              textStyle: const TextStyle(fontWeight: FontWeight.w600),
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildInteractionsTab(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
-
-    return ListView(
-      // Use ListView for consistency
-      padding: const EdgeInsets.all(16.0),
-      children: [
-        Text('فحص التفاعلات الدوائية', style: textTheme.titleLarge),
-        const SizedBox(height: 16),
-        // Use a simpler container or just Text
-        Container(
-          width: double.infinity,
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-          decoration: BoxDecoration(
-            color: colorScheme.surfaceVariant.withOpacity(0.5),
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
-          ),
-          child: Text(
-            'يمكنك فحص التفاعلات المحتملة بين ${widget.drug.tradeName} وأدوية أخرى تستخدمها.',
-            style: textTheme.bodyLarge,
-          ),
-        ),
-        const SizedBox(height: 24),
-        Center(
-          child: ElevatedButton.icon(
-            icon: const Icon(Icons.health_and_safety_outlined),
-            label: const Text('فحص التفاعلات الآن'),
-            onPressed: () {
-              // Clear previous interaction state and add current drug
-              final interactionProvider = context.read<InteractionProvider>();
-              interactionProvider.clearSelection();
-              interactionProvider.addMedicine(widget.drug);
-
-              // Navigate to the interaction checker screen
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const InteractionCheckerScreen(),
-                ),
-              );
-            },
-            // Match shadcn button style
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              backgroundColor: colorScheme.primary,
-              foregroundColor: colorScheme.onPrimary,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(8.0),
-              ),
-              textStyle: const TextStyle(fontWeight: FontWeight.w600),
-            ),
-          ),
-        ),
-        const SizedBox(height: 16),
-        // TODO: Optionally display known interactions for *this* drug if data is available
-        // This would require fetching/filtering interaction data based on the current drug.
-        // Example:
-        // Text('تفاعلات معروفة:', style: textTheme.titleMedium),
-        // FutureBuilder<List<DrugInteraction>>(
-        //   future: fetchKnownInteractionsFor(widget.drug), // Hypothetical function
-        //   builder: (context, snapshot) {
-        //     if (snapshot.connectionState == ConnectionState.waiting) {
-        //       return const Center(child: CircularProgressIndicator());
-        //     } else if (snapshot.hasError) {
-        //       return const Text('خطأ في تحميل التفاعلات المعروفة.');
-        //     } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-        //       return const Text('لا توجد تفاعلات معروفة مسجلة لهذا الدواء.');
-        //     } else {
-        //       return Column(
-        //         children: snapshot.data!.map((interaction) => _buildInteractionCard(...)).toList(),
-        //       );
-        //     }
-        //   },
-        // ),
-      ],
-    );
-  }
-
-  // Helper to build detail row (Improved styling)
-  Widget _buildDetailRow(String label, String value) {
     if (value.isEmpty) return const SizedBox.shrink();
-    final textTheme = Theme.of(context).textTheme;
-    final colorScheme = Theme.of(context).colorScheme;
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6.0), // Adjusted padding
+      padding: const EdgeInsets.symmetric(
+        vertical: 10.0,
+      ), // Increased vertical padding
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(
-            width: 110, // Fixed width for label column
+            width: 110,
             child: Text(
               label,
               style: textTheme.bodyMedium?.copyWith(
-                fontWeight: FontWeight.w600, // Make label slightly bolder
-                color:
-                    colorScheme.onSurfaceVariant, // Use a slightly muted color
+                fontWeight: FontWeight.w600,
+                color: colorScheme.onSurfaceVariant,
               ),
             ),
           ),
-          const SizedBox(width: 12), // Increased space
+          const SizedBox(width: 16),
           Expanded(
             child: Text(
               value,
-              style: textTheme.bodyLarge, // Use bodyLarge for value
+              style: textTheme.bodyLarge?.copyWith(
+                color: colorScheme.onSurface,
+              ),
             ),
           ),
         ],
       ),
     );
   }
-}
 
-// Helper class to make TabBar sticky under SliverAppBar
-class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
-  _SliverAppBarDelegate(this._tabBar);
+  Widget _buildAlternativesTab(BuildContext context) {
+    _logger.d("DrugDetailsScreen: Building Alternatives Tab");
+    return AlternativesTabContent(originalDrug: widget.drug);
+  }
 
-  final TabBar _tabBar;
-
-  @override
-  double get minExtent => _tabBar.preferredSize.height;
-  @override
-  double get maxExtent => _tabBar.preferredSize.height;
-
-  @override
-  Widget build(
+  Widget _buildDosageTab(
     BuildContext context,
-    double shrinkOffset,
-    bool overlapsContent,
+    ColorScheme colorScheme,
+    TextTheme textTheme,
   ) {
-    // Add a background color and potentially a bottom border to match AppBar style
-    return Container(
-      color:
-          Theme.of(
-            context,
-          ).scaffoldBackgroundColor, // Or Theme.of(context).appBarTheme.backgroundColor
-      child: _tabBar,
+    _logger.d("DrugDetailsScreen: Building Dosage Tab");
+    final standardDosageInfo = widget.drug.usage;
+
+    return ListView(
+      padding: const EdgeInsets.all(16.0),
+      children: [
+        Text(
+          "الجرعة القياسية",
+          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 12),
+        if (standardDosageInfo.isNotEmpty)
+          Text(standardDosageInfo, style: textTheme.bodyLarge)
+        else
+          Text(
+            "لا تتوفر معلومات الجرعة القياسية لهذا الدواء حالياً.",
+            style: textTheme.bodyMedium?.copyWith(
+              color: colorScheme.onSurfaceVariant,
+            ),
+          ),
+        const SizedBox(height: 24),
+        const Divider(),
+        const SizedBox(height: 16),
+        Text(
+          "حاسبة الجرعة بالوزن",
+          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          "احسب الجرعة المناسبة للأطفال بناءً على الوزن والعمر.",
+          style: textTheme.bodyMedium?.copyWith(
+            color: colorScheme.onSurfaceVariant,
+          ),
+        ),
+        const SizedBox(height: 16),
+        ElevatedButton.icon(
+          icon: Icon(LucideIcons.calculator, size: 18),
+          label: const Text('فتح حاسبة الجرعات'),
+          onPressed: () {
+            _logger.i(
+              "DrugDetailsScreen: Navigate to WeightCalculator tapped.",
+            );
+            context.read<DoseCalculatorProvider>().setSelectedDrug(widget.drug);
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const WeightCalculatorScreen(),
+              ),
+            );
+          },
+          style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 12),
+          ),
+        ),
+      ],
     );
   }
 
-  @override
-  bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
-    return false; // TabBar itself usually doesn't change
+  Widget _buildInteractionsTab(
+    BuildContext context,
+    ColorScheme colorScheme,
+    TextTheme textTheme,
+  ) {
+    _logger.d("DrugDetailsScreen: Building Interactions Tab");
+    final knownInteractions = []; // Placeholder
+
+    return ListView(
+      padding: const EdgeInsets.all(16.0),
+      children: [
+        Text(
+          "التفاعلات المعروفة",
+          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 12),
+        if (knownInteractions.isNotEmpty)
+          const Text("...") // Placeholder for list
+        else
+          Text(
+            "لا تتوفر معلومات تفاعلات مباشرة لهذا الدواء حالياً.",
+            style: textTheme.bodyMedium?.copyWith(
+              color: colorScheme.onSurfaceVariant,
+            ),
+          ),
+        const SizedBox(height: 24),
+        const Divider(),
+        const SizedBox(height: 16),
+        Text(
+          "مدقق التفاعلات المتعددة",
+          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          "أضف هذا الدواء وأدوية أخرى لفحص التفاعلات المحتملة بينها.",
+          style: textTheme.bodyMedium?.copyWith(
+            color: colorScheme.onSurfaceVariant,
+          ),
+        ),
+        const SizedBox(height: 16),
+        ElevatedButton.icon(
+          icon: Icon(LucideIcons.zap, size: 18),
+          label: const Text('فتح مدقق التفاعلات'),
+          onPressed: () {
+            _logger.i(
+              "DrugDetailsScreen: Navigate to InteractionChecker tapped.",
+            );
+            context.read<InteractionProvider>().addMedicine(widget.drug);
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const InteractionCheckerScreen(),
+              ),
+            );
+          },
+          style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(vertical: 12),
+          ),
+        ),
+      ],
+    );
   }
 }

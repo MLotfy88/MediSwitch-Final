@@ -1,4 +1,5 @@
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
+import '../../core/database/database_helper.dart'; // Import DatabaseHelper for column names
 
 class MedicineModel {
   final String tradeName;
@@ -18,11 +19,9 @@ class MedicineModel {
   final String usageAr;
   final String description;
   final String lastPriceUpdate;
-  final double? concentration; // Added for dosage calculation
-  final String? imageUrl; // Optional image URL
-
-  // معرف اختياري للاستخدام مع قاعدة البيانات
-  final int? id;
+  final double? concentration;
+  final String? imageUrl;
+  final int? id; // Optional ID from database
 
   MedicineModel({
     required this.tradeName,
@@ -42,111 +41,111 @@ class MedicineModel {
     required this.usageAr,
     required this.description,
     required this.lastPriceUpdate,
-    this.concentration, // Added for dosage calculation
-    this.imageUrl, // Add to constructor
+    this.concentration,
+    this.imageUrl,
     this.id,
   });
 
+  // Helper function to safely parse string from dynamic row data
+  static String _parseString(dynamic value) => value?.toString() ?? '';
+  // Helper function to safely parse double from dynamic row data
+  static double? _parseDouble(dynamic value) =>
+      double.tryParse(value?.toString() ?? '');
+
   factory MedicineModel.fromCsv(List<dynamic> row) {
+    // Assuming CSV columns are in the order defined by the fields
     return MedicineModel(
-      // Safely convert dynamic row elements to String
-      tradeName: row.length > 0 ? row[0]?.toString() ?? '' : '',
-      arabicName: row.length > 1 ? row[1]?.toString() ?? '' : '',
-      oldPrice: row.length > 2 ? row[2]?.toString() ?? '' : '',
-      price: row.length > 3 ? row[3]?.toString() ?? '' : '',
-      active: row.length > 4 ? row[4]?.toString() ?? '' : '',
-      mainCategory: row.length > 5 ? row[5]?.toString() ?? '' : '',
-      mainCategoryAr: row.length > 6 ? row[6]?.toString() ?? '' : '',
-      category: row.length > 7 ? row[7]?.toString() ?? '' : '',
-      categoryAr: row.length > 8 ? row[8]?.toString() ?? '' : '',
-      company: row.length > 9 ? row[9]?.toString() ?? '' : '',
-      dosageForm: row.length > 10 ? row[10]?.toString() ?? '' : '',
-      dosageFormAr: row.length > 11 ? row[11]?.toString() ?? '' : '',
-      unit: row.length > 12 ? row[12]?.toString() ?? '' : '',
-      usage: row.length > 13 ? row[13]?.toString() ?? '' : '',
-      usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
-      description: row.length > 15 ? row[15]?.toString() ?? '' : '',
-      lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
-      // Assuming concentration is in the next column (index 17)
-      concentration:
-          row.length > 17 ? double.tryParse(row[17]?.toString() ?? '') : null,
-      // Assuming image_url is in the next column (index 18)
-      imageUrl: row.length > 18 ? row[18]?.toString() : null,
+      tradeName: row.length > 0 ? _parseString(row[0]) : '',
+      arabicName: row.length > 1 ? _parseString(row[1]) : '',
+      oldPrice:
+          row.length > 2 ? _parseString(row[2]) : '', // Column 3 (index 2)
+      price: row.length > 3 ? _parseString(row[3]) : '', // Column 4 (index 3)
+      active: row.length > 4 ? _parseString(row[4]) : '',
+      mainCategory: row.length > 5 ? _parseString(row[5]) : '',
+      mainCategoryAr: row.length > 6 ? _parseString(row[6]) : '',
+      category: row.length > 7 ? _parseString(row[7]) : '',
+      categoryAr: row.length > 8 ? _parseString(row[8]) : '',
+      company: row.length > 9 ? _parseString(row[9]) : '',
+      dosageForm: row.length > 10 ? _parseString(row[10]) : '',
+      dosageFormAr: row.length > 11 ? _parseString(row[11]) : '',
+      unit: row.length > 12 ? _parseString(row[12]) : '',
+      usage: row.length > 13 ? _parseString(row[13]) : '',
+      usageAr: row.length > 14 ? _parseString(row[14]) : '',
+      description: row.length > 15 ? _parseString(row[15]) : '',
+      lastPriceUpdate: row.length > 16 ? _parseString(row[16]) : '',
+      concentration: row.length > 17 ? _parseDouble(row[17]) : null,
+      imageUrl: row.length > 18 ? _parseString(row[18]) : null,
     );
   }
 
-  // تحويل النموذج إلى Map لاستخدامه مع قاعدة البيانات
+  // Convert model to Map for database insertion
   Map<String, dynamic> toMap() {
     return {
-      'tradeName': tradeName,
-      'arabicName': arabicName,
-      'oldPrice': oldPrice,
-      'price': price,
-      'active': active,
-      'mainCategory': mainCategory,
-      'mainCategoryAr': mainCategoryAr,
-      'category': category,
-      'categoryAr': categoryAr,
-      'company': company,
-      'dosageForm': dosageForm,
-      'dosageFormAr': dosageFormAr,
-      'unit': unit,
-      'usage': usage,
-      'usageAr': usageAr,
-      'description': description,
-      'lastPriceUpdate': lastPriceUpdate,
-      'concentration': concentration, // Added for dosage calculation
-      'imageUrl': imageUrl, // Add to map
+      DatabaseHelper.colTradeName: tradeName,
+      DatabaseHelper.colArabicName: arabicName,
+      DatabaseHelper.colOldPrice: oldPrice, // Use constant from DatabaseHelper
+      DatabaseHelper.colPrice: price,
+      DatabaseHelper.colActive: active,
+      DatabaseHelper.colMainCategory: mainCategory,
+      DatabaseHelper.colCompany: company,
+      DatabaseHelper.colDosageForm: dosageForm,
+      DatabaseHelper.colUnit: unit,
+      DatabaseHelper.colUsage: usage,
+      DatabaseHelper.colDescription: description,
+      DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
+      DatabaseHelper.colConcentration: concentration,
+      DatabaseHelper.colImageUrl: imageUrl,
+      // Note: Fields like mainCategoryAr, category, categoryAr, dosageFormAr, usageAr are not mapped as they are not in the DB schema defined in DatabaseHelper
     };
   }
 
-  // إنشاء نموذج من Map من قاعدة البيانات
+  // Create model from Map (from database)
   factory MedicineModel.fromMap(Map<String, dynamic> map) {
     return MedicineModel(
-      // Safely cast map values
-      id: map['id'] as int?, // Cast id to int?
-      tradeName: map['tradeName']?.toString() ?? '',
-      arabicName: map['arabicName']?.toString() ?? '',
-      oldPrice: map['oldPrice']?.toString() ?? '',
-      price: map['price']?.toString() ?? '',
-      active: map['active']?.toString() ?? '',
-      mainCategory: map['mainCategory']?.toString() ?? '',
-      mainCategoryAr: map['mainCategoryAr']?.toString() ?? '',
-      category: map['category']?.toString() ?? '',
-      categoryAr: map['categoryAr']?.toString() ?? '',
-      company: map['company']?.toString() ?? '',
-      dosageForm: map['dosageForm']?.toString() ?? '',
-      dosageFormAr: map['dosageFormAr']?.toString() ?? '',
-      unit: map['unit']?.toString() ?? '',
-      usage: map['usage']?.toString() ?? '',
-      usageAr: map['usageAr']?.toString() ?? '',
-      description: map['description']?.toString() ?? '',
-      lastPriceUpdate: map['lastPriceUpdate']?.toString() ?? '',
-      // Safely parse concentration from map
+      id: map['id'] as int?, // Assuming 'id' is the primary key if needed later
+      tradeName: map[DatabaseHelper.colTradeName]?.toString() ?? '',
+      arabicName: map[DatabaseHelper.colArabicName]?.toString() ?? '',
+      oldPrice:
+          map[DatabaseHelper.colOldPrice]?.toString() ?? '', // Use constant
+      price: map[DatabaseHelper.colPrice]?.toString() ?? '',
+      active: map[DatabaseHelper.colActive]?.toString() ?? '',
+      mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
+      mainCategoryAr: '', // Not stored
+      category: '', // Not stored
+      categoryAr: '', // Not stored
+      company: map[DatabaseHelper.colCompany]?.toString() ?? '',
+      dosageForm: map[DatabaseHelper.colDosageForm]?.toString() ?? '',
+      dosageFormAr: '', // Not stored
+      unit: map[DatabaseHelper.colUnit]?.toString() ?? '',
+      usage: map[DatabaseHelper.colUsage]?.toString() ?? '',
+      usageAr: '', // Not stored
+      description: map[DatabaseHelper.colDescription]?.toString() ?? '',
+      lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
       concentration:
-          map['concentration'] != null
-              ? double.tryParse(map['concentration'].toString())
+          map[DatabaseHelper.colConcentration] != null
+              ? double.tryParse(map[DatabaseHelper.colConcentration].toString())
               : null,
-      imageUrl: map['imageUrl']?.toString(), // Add from map
+      imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
     );
   }
 
   // Convert MedicineModel to DrugEntity
   DrugEntity toEntity() {
     return DrugEntity(
-      tradeName: tradeName, // Already String
-      arabicName: arabicName, // Already String
-      price: price, // Already String
-      mainCategory: mainCategory, // Already String
-      active: active, // Already String
-      company: company, // Already String
-      dosageForm: dosageForm, // Already String
-      concentration: concentration ?? 0.0, // Handle null concentration
-      unit: unit, // Already String
-      usage: usage, // Already String
-      description: description, // Already String
-      lastPriceUpdate: lastPriceUpdate, // Already String
-      imageUrl: imageUrl, // Already String?
+      tradeName: tradeName,
+      arabicName: arabicName,
+      price: price,
+      oldPrice: oldPrice.isNotEmpty ? oldPrice : null,
+      mainCategory: mainCategory,
+      active: active,
+      company: company,
+      dosageForm: dosageForm,
+      concentration: concentration ?? 0.0,
+      unit: unit,
+      usage: usage,
+      description: description,
+      lastPriceUpdate: lastPriceUpdate,
+      imageUrl: imageUrl,
     );
   }
 
