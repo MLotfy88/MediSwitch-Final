@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
+import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
 
 class CategoryCard extends StatelessWidget {
   final String name;
@@ -17,31 +17,37 @@ class CategoryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+    final textTheme = theme.textTheme;
 
     return SizedBox(
-      width: 100, // Approx w-24
+      width: 96, // w-24 in Tailwind (4 * 24 = 96)
       child: Card(
-        // Use theme's card theme for consistency (elevation, shape, color)
-        // elevation: 1.0, // Use theme default or customize if needed
-        // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)), // Use theme default
-        // color: colorScheme.surfaceVariant.withOpacity(0.7), // Use theme default
+        // Use theme's card theme for consistency
+        // Override color slightly for category cards if needed, or use surfaceVariant
+        color: colorScheme.surface, // Use surface color from theme
+        elevation: 0, // Remove elevation if using border
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12.0), // Match theme radius
+          side: BorderSide(
+            color: colorScheme.outline.withOpacity(0.5),
+          ), // Add subtle border
+        ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
           onTap: onTap,
-          borderRadius: BorderRadius.circular(12.0), // Match card shape
+          borderRadius: BorderRadius.circular(12.0),
           child: Padding(
             padding: const EdgeInsets.symmetric(
-              vertical: 14.0,
+              vertical: 12.0,
               horizontal: 8.0,
-            ),
+            ), // Adjusted padding
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Icon background Circle
                 Container(
-                  padding: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(10), // Slightly smaller padding
                   decoration: BoxDecoration(
-                    // Use primary color with opacity from theme
                     color: colorScheme.primary.withOpacity(
                       0.10,
                     ), // bg-primary/10
@@ -49,7 +55,7 @@ class CategoryCard extends StatelessWidget {
                   ),
                   child: Icon(
                     iconData,
-                    size: 28, // h-6 w-6 is 24, design lab uses 28
+                    size: 24, // h-6 w-6 in Tailwind
                     color: colorScheme.primary, // text-primary
                   ),
                 ),
@@ -57,11 +63,12 @@ class CategoryCard extends StatelessWidget {
                 // Category Name
                 Text(
                   name,
-                  style: theme.textTheme.bodySmall?.copyWith(
+                  style: textTheme.bodySmall?.copyWith(
+                    // text-xs
                     fontWeight: FontWeight.w500, // font-medium
                     color:
                         colorScheme
-                            .onSurfaceVariant, // Muted foreground equivalent
+                            .onSurfaceVariant, // text-muted-foreground equivalent
                   ),
                   textAlign: TextAlign.center,
                   maxLines: 2, // line-clamp-2
