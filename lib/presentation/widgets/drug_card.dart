@@ -30,23 +30,31 @@ class DrugCard extends StatelessWidget {
   // Helper to parse price string to double
   double? _parsePrice(String? priceString) {
     if (priceString == null) return null;
-    return double.tryParse(priceString);
+    final cleanedPrice = priceString.replaceAll(RegExp(r'[^0-9.]'), '');
+    return double.tryParse(cleanedPrice);
   }
 
   @override
   Widget build(BuildContext context) {
-    return type == DrugCardType.thumbnail
-        ? _buildThumbnailCard(context)
-        : _buildDetailedCard(context);
+    Widget cardContent =
+        type == DrugCardType.thumbnail
+            ? _buildThumbnailCard(context)
+            : _buildDetailedCard(context);
+
+    return Semantics(
+      label:
+          'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه',
+      button: true,
+      child: cardContent,
+    );
   }
 
-  // Detailed Card Implementation
+  // Detailed Card Implementation (Matching Design Lab)
   Widget _buildDetailedCard(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
 
-    // Calculate price change
     final double? oldPriceValue = _parsePrice(drug.oldPrice);
     final double? currentPriceValue = _parsePrice(drug.price);
     final bool isPriceChanged =
@@ -56,24 +64,31 @@ class DrugCard extends StatelessWidget {
     final bool isPriceIncreased =
         isPriceChanged && currentPriceValue! > oldPriceValue!;
     final double priceChangePercentage =
-        isPriceChanged
-            ? ((currentPriceValue! - oldPriceValue!) / oldPriceValue! * 100)
-                .abs()
+        isPriceChanged && oldPriceValue! != 0
+            ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
 
     return Card(
       clipBehavior: Clip.antiAlias,
-      // Wrap InkWell with Semantics
-      child: Semantics(
-        label:
-            'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه', // More descriptive label
-        button: true, // Indicate it's tappable
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+      elevation: 1.5,
+      child: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [colorScheme.surface, colorScheme.background],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: BorderRadius.circular(12.0),
+        ),
         child: InkWell(
           onTap: onTap,
+          borderRadius: BorderRadius.circular(12.0),
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
               Container(
-                height: 3.0,
+                height: 6.0,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
@@ -86,78 +101,38 @@ class DrugCard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(12.0),
+                padding: const EdgeInsets.all(16.0),
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(
-                      width: 65,
-                      height: 65,
-                      decoration: BoxDecoration(
-                        color: colorScheme.secondaryContainer.withOpacity(0.3),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(8.0),
-                        child:
-                            drug.imageUrl != null && drug.imageUrl!.isNotEmpty
-                                ? CachedNetworkImage(
-                                  imageUrl: drug.imageUrl!,
-                                  fit: BoxFit.contain,
-                                  placeholder:
-                                      (context, url) => const Center(
-                                        child: CircularProgressIndicator(
-                                          strokeWidth: 2,
-                                        ),
-                                      ),
-                                  errorWidget:
-                                      (context, url, error) => Center(
-                                        child: Icon(
-                                          LucideIcons.pill,
-                                          size: 30,
-                                          color: colorScheme
-                                              .onSecondaryContainer
-                                              .withOpacity(0.5),
-                                        ),
-                                      ),
-                                )
-                                : Center(
-                                  child: Icon(
-                                    LucideIcons.pill,
-                                    size: 30,
-                                    color: colorScheme.onSecondaryContainer
-                                        .withOpacity(0.5),
-                                  ),
-                                ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
                             drug.tradeName,
                             style: textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w600,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
                           if (drug.arabicName.isNotEmpty)
-                            Text(
-                              drug.arabicName,
-                              style: textTheme.bodySmall?.copyWith(
-                                color: colorScheme.onSurfaceVariant,
+                            Padding(
+                              padding: const EdgeInsets.only(top: 2.0),
+                              child: Text(
+                                drug.arabicName,
+                                style: textTheme.bodyMedium?.copyWith(
+                                  color: colorScheme.onSurfaceVariant,
+                                ),
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
                               ),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
                             ),
                           const SizedBox(height: 8),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.end,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               if (drug.mainCategory.isNotEmpty)
                                 CustomBadge(
@@ -165,26 +140,24 @@ class DrugCard extends StatelessWidget {
                                   backgroundColor:
                                       colorScheme.secondaryContainer,
                                   textColor: colorScheme.onSecondaryContainer,
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 10,
+                                    vertical: 2,
+                                  ),
+                                  // Use default textStyle from CustomBadge or define labelStyle if needed
                                 ),
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.baseline,
                                 textBaseline: TextBaseline.alphabetic,
                                 children: [
-                                  Text(
-                                    '${_formatPrice(drug.price)} ج.م',
-                                    style: textTheme.titleSmall?.copyWith(
-                                      fontWeight: FontWeight.bold,
-                                      color: colorScheme.primary,
-                                    ),
-                                  ),
                                   if (isPriceChanged)
                                     Padding(
                                       padding: const EdgeInsetsDirectional.only(
-                                        start: 4.0,
+                                        end: 4.0,
                                       ),
                                       child: CustomBadge(
                                         label:
-                                            '${isPriceIncreased ? '+' : '-'}${priceChangePercentage.toStringAsFixed(0)}%',
+                                            '${priceChangePercentage.toStringAsFixed(0)}%',
                                         backgroundColor:
                                             isPriceIncreased
                                                 ? colorScheme.errorContainer
@@ -200,11 +173,18 @@ class DrugCard extends StatelessWidget {
                                                 : LucideIcons.arrowDown,
                                         iconSize: 12,
                                         padding: const EdgeInsets.symmetric(
-                                          horizontal: 5,
-                                          vertical: 1,
+                                          horizontal: 8,
+                                          vertical: 2,
                                         ),
+                                        // Use default textStyle from CustomBadge or define labelStyle if needed
                                       ),
                                     ),
+                                  Text(
+                                    '${_formatPrice(drug.price)} ج.م',
+                                    style: textTheme.titleMedium?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                 ],
                               ),
                             ],
@@ -237,29 +217,37 @@ class DrugCard extends StatelessWidget {
     final bool isPriceIncreased =
         isPriceChanged && currentPriceValue! > oldPriceValue!;
     final double priceChangePercentage =
-        isPriceChanged
-            ? ((currentPriceValue! - oldPriceValue!) / oldPriceValue! * 100)
-                .abs()
+        isPriceChanged && oldPriceValue! != 0
+            ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
 
     return SizedBox(
       width: 176,
       child: Card(
         clipBehavior: Clip.antiAlias,
-        // Wrap InkWell with Semantics
-        child: Semantics(
-          label:
-              'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه',
-          button: true,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12.0),
+        ),
+        elevation: 1.5,
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [colorScheme.surface, colorScheme.background],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(12.0),
+          ),
           child: InkWell(
             onTap: onTap,
+            borderRadius: BorderRadius.circular(12.0),
             child: Stack(
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      height: 3.0,
+                      height: 6.0,
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
@@ -276,49 +264,34 @@ class DrugCard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const SizedBox(height: 8),
+                          const SizedBox(height: 16),
                           Text(
                             drug.tradeName,
-                            style: textTheme.titleSmall?.copyWith(
-                              fontWeight: FontWeight.w600,
+                            style: textTheme.bodyMedium?.copyWith(
+                              fontWeight: FontWeight.w500,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.start,
                           ),
-                          const SizedBox(height: 6),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.end,
+                          const SizedBox(height: 4),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 '${_formatPrice(drug.price)} ج.م',
                                 style: textTheme.bodyMedium?.copyWith(
-                                  fontWeight: FontWeight.bold,
+                                  fontWeight: FontWeight.w600,
                                   color: colorScheme.primary,
                                 ),
                               ),
-                              if (isPriceChanged)
-                                CustomBadge(
-                                  label:
-                                      '${priceChangePercentage.toStringAsFixed(0)}%',
-                                  backgroundColor:
-                                      isPriceIncreased
-                                          ? colorScheme.errorContainer
-                                              .withOpacity(0.7)
-                                          : Colors.green.shade100,
-                                  textColor:
-                                      isPriceIncreased
-                                          ? colorScheme.onErrorContainer
-                                          : Colors.green.shade900,
-                                  icon:
-                                      isPriceIncreased
-                                          ? LucideIcons.arrowUp
-                                          : LucideIcons.arrowDown,
-                                  iconSize: 10,
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 4,
-                                    vertical: 1,
+                              if (drug.oldPrice != null &&
+                                  drug.oldPrice!.isNotEmpty)
+                                Text(
+                                  '${_formatPrice(drug.oldPrice!)} ج.م',
+                                  style: textTheme.labelSmall?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                    decoration: TextDecoration.lineThrough,
                                   ),
                                 ),
                             ],
@@ -328,6 +301,32 @@ class DrugCard extends StatelessWidget {
                     ),
                   ],
                 ),
+                if (isPriceChanged)
+                  Positioned(
+                    bottom: 10,
+                    left: 12,
+                    child: CustomBadge(
+                      label: '${priceChangePercentage.toStringAsFixed(0)}%',
+                      backgroundColor:
+                          isPriceIncreased
+                              ? colorScheme.errorContainer.withOpacity(0.7)
+                              : Colors.green.shade100,
+                      textColor:
+                          isPriceIncreased
+                              ? colorScheme.onErrorContainer
+                              : Colors.green.shade900,
+                      icon:
+                          isPriceIncreased
+                              ? LucideIcons.arrowUp
+                              : LucideIcons.arrowDown,
+                      iconSize: 12,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 6,
+                        vertical: 2,
+                      ),
+                      // Use default textStyle from CustomBadge or define labelStyle if needed
+                    ),
+                  ),
               ],
             ),
           ),

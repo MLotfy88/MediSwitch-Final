@@ -92,7 +92,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              expandedHeight: 250.0,
+              expandedHeight: 250.0, // Adjust as needed
               floating: false,
               pinned: true,
               elevation: innerBoxIsScrolled ? 1 : 0,
@@ -164,7 +164,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           left: 16,
           right: 16,
           bottom: kTextTabBarHeight + 16,
-        ), // Adjusted bottom padding
+        ),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -216,10 +216,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(height: 8),
+                  const SizedBox(height: 4),
                   Text(
                     widget.drug.tradeName,
-                    style: textTheme.headlineSmall?.copyWith(
+                    // Use headlineLarge for more prominence (like h1)
+                    style: textTheme.headlineLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
                     maxLines: 2,
@@ -237,10 +238,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                  const SizedBox(height: 6),
+                  const SizedBox(height: 8), // Adjusted spacing
                   if (widget.drug.active.isNotEmpty)
                     Text(
                       widget.drug.active,
+                      // Use bodyMedium + primary color (like p text-primary)
                       style: textTheme.bodyMedium?.copyWith(
                         color: colorScheme.primary,
                         fontWeight: FontWeight.w500,
@@ -248,15 +250,18 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 12), // Increased spacing before price
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
                       Text(
                         '${_formatPrice(widget.drug.price)} ج.م',
-                        style: textTheme.titleMedium?.copyWith(
+                        // Use displaySmall for price prominence (like text-2xl)
+                        style: textTheme.displaySmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           color: colorScheme.primary,
+                          fontSize:
+                              28, // Explicitly set size similar to text-2xl
                         ),
                       ),
                     ],
@@ -277,107 +282,151 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    _logger.d("DrugDetailsScreen: Building Info Tab");
-    return ListView(
-      padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
+    _logger.d("DrugDetailsScreen: Building Info Tab using GridView");
+    // Use GridView for 2-column layout as per reference
+    final infoItems = <Map<String, dynamic>>[
+      if (widget.drug.tradeName.isNotEmpty)
+        {
+          'icon': LucideIcons.package,
+          'label': "الاسم التجاري:",
+          'value': widget.drug.tradeName,
+        },
+      if (widget.drug.arabicName.isNotEmpty)
+        {
+          'icon': LucideIcons.pilcrow,
+          'label': "الاسم العربي:",
+          'value': widget.drug.arabicName,
+        },
+      if (widget.drug.active.isNotEmpty)
+        {
+          'icon': LucideIcons.flaskConical,
+          'label': "المادة الفعالة:",
+          'value': widget.drug.active,
+        },
+      if (widget.drug.price.isNotEmpty)
+        {
+          'icon': LucideIcons.tag,
+          'label': "السعر:",
+          'value': '${_formatPrice(widget.drug.price)} ج.م',
+        },
+      if (widget.drug.mainCategory.isNotEmpty)
+        {
+          'icon': LucideIcons.folderOpen,
+          'label': "الفئة الرئيسية:",
+          'value': widget.drug.mainCategory,
+        },
+      if (widget.drug.company.isNotEmpty)
+        {
+          'icon': LucideIcons.building2,
+          'label': "الشركة:",
+          'value': widget.drug.company,
+        },
+      if (widget.drug.dosageForm.isNotEmpty)
+        {
+          'icon': LucideIcons.packageSearch,
+          'label': "الشكل الصيدلي:",
+          'value': widget.drug.dosageForm,
+        },
+      if (widget.drug.concentration != null || widget.drug.unit.isNotEmpty)
+        {
+          'icon': LucideIcons.ruler,
+          'label': "التركيز/الوحدة:",
+          'value':
+              '${widget.drug.concentration?.toString() ?? ""} ${widget.drug.unit}'
+                  .trim(),
+        },
+      if (widget.drug.usage.isNotEmpty)
+        {
+          'icon': LucideIcons.clipboardList,
+          'label': "الاستخدام:",
+          'value': widget.drug.usage,
+        },
+      if (widget.drug.description.isNotEmpty)
+        {
+          'icon': LucideIcons.fileText,
+          'label': "الوصف:",
+          'value': widget.drug.description,
+        },
+      if (widget.drug.lastPriceUpdate.isNotEmpty)
+        {
+          'icon': LucideIcons.calendarClock,
+          'label': "آخر تحديث للسعر:",
+          'value': _formatDate(widget.drug.lastPriceUpdate),
+        },
+    ];
+
+    return GridView.builder(
+      padding: const EdgeInsets.all(16.0), // Add padding around the grid
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2, // 2 columns
+        childAspectRatio: 3.5, // Adjust aspect ratio for item height
+        crossAxisSpacing: 16.0, // Spacing between columns
+        mainAxisSpacing: 12.0, // Spacing between rows
+      ),
+      itemCount: infoItems.length,
+      itemBuilder: (context, index) {
+        final item = infoItems[index];
+        return _buildInfoGridItem(
+          context,
+          icon: item['icon'] as IconData,
+          label: item['label'] as String,
+          value: item['value'] as String,
+        );
+      },
+    );
+  }
+
+  // Helper to build grid item for info tab
+  Widget _buildInfoGridItem(
+    BuildContext context, {
+    required IconData icon,
+    required String label,
+    required String value,
+  }) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final textTheme = theme.textTheme;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "الاسم التجاري:",
-          widget.drug.tradeName,
+        Row(
+          // Row for icon and label
+          children: [
+            Icon(
+              icon,
+              size: 16,
+              color: colorScheme.onSurfaceVariant,
+            ), // Smaller icon
+            const SizedBox(width: 6),
+            Text(
+              label,
+              style: textTheme.labelMedium?.copyWith(
+                color: colorScheme.onSurfaceVariant,
+              ), // Muted label (like reference)
+            ),
+          ],
         ),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "الاسم العربي:",
-          widget.drug.arabicName,
-        ),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "المادة الفعالة:",
-          widget.drug.active,
-        ),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "السعر:",
-          '${_formatPrice(widget.drug.price)} ج.م',
-        ),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "الفئة الرئيسية:",
-          widget.drug.mainCategory,
-        ),
-        _buildInfoRow(textTheme, colorScheme, "الشركة:", widget.drug.company),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "الشكل الصيدلي:",
-          widget.drug.dosageForm,
-        ),
-        if (widget.drug.concentration != null || widget.drug.unit.isNotEmpty)
-          _buildInfoRow(
-            textTheme,
-            colorScheme,
-            "التركيز/الوحدة:",
-            '${widget.drug.concentration?.toString() ?? ""} ${widget.drug.unit}'
-                .trim(),
+        const SizedBox(height: 4), // Spacing between label and value
+        Padding(
+          // Indent value slightly
+          padding: const EdgeInsetsDirectional.only(
+            start: 22,
+          ), // Indent past icon+space
+          child: Text(
+            value,
+            style: textTheme.bodyLarge?.copyWith(
+              color: colorScheme.onSurface,
+            ), // Value style
+            maxLines: 2, // Allow wrapping
+            overflow: TextOverflow.ellipsis,
           ),
-        _buildInfoRow(textTheme, colorScheme, "الاستخدام:", widget.drug.usage),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "الوصف:",
-          widget.drug.description,
-        ),
-        _buildInfoRow(
-          textTheme,
-          colorScheme,
-          "آخر تحديث للسعر:",
-          _formatDate(widget.drug.lastPriceUpdate),
         ),
       ],
     );
   }
 
-  Widget _buildInfoRow(
-    TextTheme textTheme,
-    ColorScheme colorScheme,
-    String label,
-    String value,
-  ) {
-    if (value.isEmpty) return const SizedBox.shrink();
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10.0),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          SizedBox(
-            width: 110,
-            child: Text(
-              label,
-              style: textTheme.bodyMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-                color: colorScheme.onSurfaceVariant,
-              ),
-            ),
-          ),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Text(
-              value,
-              style: textTheme.bodyLarge?.copyWith(
-                color: colorScheme.onSurface,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+  // Removed _buildInfoRow helper function
 
   Widget _buildAlternativesTab(BuildContext context) {
     _logger.d("DrugDetailsScreen: Building Alternatives Tab");
@@ -453,7 +502,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
   ) {
     _logger.d("DrugDetailsScreen: Building Interactions Tab");
-    // TODO: Fetch and display known interactions for this specific drug
     final knownInteractions = []; // Placeholder
 
     return ListView(
@@ -465,7 +513,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ),
         const SizedBox(height: 12),
         if (knownInteractions.isNotEmpty)
-          // TODO: Build list of known interactions here
           const Text("...")
         else
           Text(
