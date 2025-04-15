@@ -11,14 +11,12 @@ class DoseCalculatorProvider extends ChangeNotifier {
   DosageResult? _dosageResult; // Changed state variable
   bool _isLoading = false;
   String _error = '';
-  bool _showDrugSelectionError =
-      false; // Added for drug selection validation UI
+  bool _showDrugSelectionError = false;
 
   // Inject the service
   final DosageCalculatorService _dosageCalculatorService;
 
   // Constructor
-  // Initialize the service in the constructor
   DoseCalculatorProvider({DosageCalculatorService? dosageCalculatorService})
     : _dosageCalculatorService =
           dosageCalculatorService ?? DosageCalculatorService();
@@ -28,9 +26,9 @@ class DoseCalculatorProvider extends ChangeNotifier {
   String get error => _error;
   DrugEntity? get selectedDrug => _selectedDrug;
   String get weightInput => _weightInput;
-  String get ageInput => _ageInput; // Added age getter
-  DosageResult? get dosageResult => _dosageResult; // Changed getter
-  bool get showDrugSelectionError => _showDrugSelectionError; // Added getter
+  String get ageInput => _ageInput;
+  DosageResult? get dosageResult => _dosageResult;
+  bool get showDrugSelectionError => _showDrugSelectionError;
 
   // Getters for parsed values (used by UI for initialization)
   double? get weight => double.tryParse(_weightInput);
@@ -38,50 +36,45 @@ class DoseCalculatorProvider extends ChangeNotifier {
 
   // --- Methods ---
 
-  // Method to set the selected drug
   void setSelectedDrug(DrugEntity? drug) {
-    // Allow null to clear selection
     _selectedDrug = drug;
-    // Reset calculation when drug changes
-    _dosageResult = null; // Clear result
-    _error = '';
-    _showDrugSelectionError = false; // Reset error on selection
+    clearResult(); // Clear result when drug changes
+    _showDrugSelectionError = false;
     notifyListeners();
   }
 
-  // Method to set weight
   void setWeight(String weight) {
     _weightInput = weight;
-    _dosageResult = null; // Clear result on input change
-    _error = '';
+    clearResult(); // Clear result on input change
     notifyListeners();
   }
 
-  // Method to set age
   void setAge(String age) {
     _ageInput = age;
-    _dosageResult = null; // Clear result on input change
-    _error = '';
+    clearResult(); // Clear result on input change
     notifyListeners();
   }
 
-  // Method to perform calculation
-  // Method to perform calculation
+  // Method to clear the result and error
+  void clearResult() {
+    _dosageResult = null;
+    _error = '';
+    // Don't reset _showDrugSelectionError here, let validation handle it
+    notifyListeners();
+  }
+
   Future<void> calculateDose() async {
     // Reset errors first
     _error = '';
     _showDrugSelectionError = false;
     _dosageResult = null;
 
-    // Validate drug selection
     if (_selectedDrug == null) {
       _showDrugSelectionError = true;
-      // Don't set _error here, let the UI show the specific message
       notifyListeners();
-      return; // Stop if no drug selected
+      return;
     }
 
-    // Validate weight and age inputs (already handled by form validator, but good practice)
     if (_weightInput.isEmpty || _ageInput.isEmpty) {
       _error = 'يرجى إدخال الوزن والعمر.';
       notifyListeners();
@@ -93,37 +86,28 @@ class DoseCalculatorProvider extends ChangeNotifier {
 
     if (weightKg == null || weightKg <= 0) {
       _error = 'الوزن المدخل غير صالح.';
-      // _dosageResult = null; // Already cleared
       notifyListeners();
       return;
     }
 
     if (ageYears == null || ageYears < 0) {
       _error = 'العمر المدخل غير صالح.';
-      // _dosageResult = null; // Already cleared
       notifyListeners();
       return;
     }
 
     _isLoading = true;
-    // _error = ''; // Already cleared
-    // _dosageResult = null; // Already cleared
     notifyListeners();
 
     try {
-      // Simulate calculation delay (optional, can be removed)
-      // await Future.delayed(const Duration(milliseconds: 100));
-
-      // Call the dosage calculation service
+      // Call the dosage calculation service using internal state
       _dosageResult = _dosageCalculatorService.calculateDosage(
         _selectedDrug!,
         weightKg,
         ageYears,
       );
-
       _error = ''; // Clear error on success
     } catch (e) {
-      // Although the service currently doesn't throw, catch potential future errors
       print('Error during dose calculation: $e');
       _error = 'حدث خطأ غير متوقع أثناء حساب الجرعة.';
       _dosageResult = null;
@@ -132,4 +116,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
       notifyListeners();
     }
   }
+
+  // Helper to map Failure types (if service starts returning Either)
+  // String _mapFailureToMessage(Failure failure) { ... }
 }

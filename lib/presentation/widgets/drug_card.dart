@@ -4,8 +4,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart'; // For number formatting
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
 import '../../domain/entities/drug_entity.dart';
-// import 'package:provider/provider.dart'; // Not needed directly here
-// import '../bloc/settings_provider.dart'; // Not needed directly here
 import '../widgets/custom_badge.dart'; // Import CustomBadge
 
 enum DrugCardType { thumbnail, detailed }
@@ -25,16 +23,21 @@ class DrugCard extends StatelessWidget {
   // Helper to format price after parsing
   String _formatPrice(String priceString) {
     final price = double.tryParse(priceString);
-    if (price == null) {
-      return priceString;
-    }
+    if (price == null) return priceString;
     return NumberFormat("#,##0.##", "en_US").format(price);
+  }
+
+  // Helper to parse price string to double
+  double? _parsePrice(String? priceString) {
+    if (priceString == null) return null;
+    return double.tryParse(priceString);
   }
 
   @override
   Widget build(BuildContext context) {
-    // Use detailed card for now as it's used in HomeScreen/SearchScreen lists
-    return _buildDetailedCard(context);
+    return type == DrugCardType.thumbnail
+        ? _buildThumbnailCard(context)
+        : _buildDetailedCard(context);
   }
 
   // Detailed Card Implementation
@@ -42,12 +45,21 @@ class DrugCard extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
-    // Price change logic (can be uncommented if oldPrice is added to DrugEntity)
-    // final double? oldPriceValue = double.tryParse(drug.oldPrice ?? '');
-    // final double? currentPriceValue = double.tryParse(drug.price);
-    // final bool isPriceChanged = oldPriceValue != null && currentPriceValue != null && oldPriceValue != currentPriceValue;
-    // final bool isPriceIncreased = isPriceChanged && currentPriceValue! > oldPriceValue!;
-    // final double priceChangePercentage = isPriceChanged ? ( (currentPriceValue! - oldPriceValue!) / oldPriceValue! * 100 ).abs() : 0;
+
+    // Calculate price change
+    final double? oldPriceValue = _parsePrice(drug.oldPrice);
+    final double? currentPriceValue = _parsePrice(drug.price);
+    final bool isPriceChanged =
+        oldPriceValue != null &&
+        currentPriceValue != null &&
+        oldPriceValue != currentPriceValue;
+    final bool isPriceIncreased =
+        isPriceChanged && currentPriceValue! > oldPriceValue!;
+    final double priceChangePercentage =
+        isPriceChanged
+            ? ((currentPriceValue! - oldPriceValue!) / oldPriceValue! * 100)
+                .abs()
+            : 0;
 
     return Card(
       // Use theme defaults for elevation, shape, color
@@ -72,17 +84,18 @@ class DrugCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12.0), // Consistent padding
               child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment:
+                    CrossAxisAlignment.center, // Center items vertically
                 children: [
                   // Image Placeholder/Actual Image
                   Container(
-                    width: 65,
+                    width: 65, // Slightly larger image
                     height: 65,
                     decoration: BoxDecoration(
                       color: colorScheme.secondaryContainer.withOpacity(0.3),
-                      borderRadius: BorderRadius.circular(8),
+                      borderRadius: BorderRadius.circular(8), // Rounded corners
                     ),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8.0),
@@ -90,7 +103,9 @@ class DrugCard extends StatelessWidget {
                           drug.imageUrl != null && drug.imageUrl!.isNotEmpty
                               ? CachedNetworkImage(
                                 imageUrl: drug.imageUrl!,
-                                fit: BoxFit.contain,
+                                fit:
+                                    BoxFit
+                                        .contain, // Use contain to see full image
                                 placeholder:
                                     (context, url) => const Center(
                                       child: CircularProgressIndicator(
@@ -100,7 +115,7 @@ class DrugCard extends StatelessWidget {
                                 errorWidget:
                                     (context, url, error) => Center(
                                       child: Icon(
-                                        LucideIcons.pill,
+                                        LucideIcons.pill, // Use Lucide icon
                                         size: 30,
                                         color: colorScheme.onSecondaryContainer
                                             .withOpacity(0.5),
@@ -109,7 +124,7 @@ class DrugCard extends StatelessWidget {
                               )
                               : Center(
                                 child: Icon(
-                                  LucideIcons.pill,
+                                  LucideIcons.pill, // Use Lucide icon
                                   size: 30,
                                   color: colorScheme.onSecondaryContainer
                                       .withOpacity(0.5),
@@ -122,7 +137,8 @@ class DrugCard extends StatelessWidget {
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment:
+                          MainAxisAlignment.center, // Center text vertically
                       children: [
                         Text(
                           drug.tradeName,
@@ -141,9 +157,11 @@ class DrugCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
-                        const SizedBox(height: 8),
+                        const SizedBox(height: 8), // Spacing
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          mainAxisAlignment:
+                              MainAxisAlignment
+                                  .spaceBetween, // Space between category and price
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             // Category Badge
@@ -171,18 +189,35 @@ class DrugCard extends StatelessWidget {
                                     color: colorScheme.primary,
                                   ),
                                 ),
-                                // Price Change Indicator (Deferred)
-                                // if (isPriceChanged)
-                                //   Padding(
-                                //     padding: const EdgeInsets.only(right: 4.0), // Add space
-                                //     child: CustomBadge(
-                                //       label: '${isPriceIncreased ? '+' : '-'}${priceChangePercentage.toStringAsFixed(0)}%',
-                                //       backgroundColor: isPriceIncreased ? colorScheme.errorContainer : Colors.green.shade100, // Use appropriate colors
-                                //       textColor: isPriceIncreased ? colorScheme.onErrorContainer : Colors.green.shade900,
-                                //       icon: isPriceIncreased ? LucideIcons.arrowUp : LucideIcons.arrowDown,
-                                //       iconSize: 12,
-                                //     ),
-                                //   ),
+                                // Price Change Indicator
+                                if (isPriceChanged)
+                                  Padding(
+                                    padding: const EdgeInsetsDirectional.only(
+                                      start: 4.0,
+                                    ), // Use start for RTL support
+                                    child: CustomBadge(
+                                      label:
+                                          '${isPriceIncreased ? '+' : '-'}${priceChangePercentage.toStringAsFixed(0)}%',
+                                      backgroundColor:
+                                          isPriceIncreased
+                                              ? colorScheme.errorContainer
+                                                  .withOpacity(0.7)
+                                              : Colors.green.shade100,
+                                      textColor:
+                                          isPriceIncreased
+                                              ? colorScheme.onErrorContainer
+                                              : Colors.green.shade900,
+                                      icon:
+                                          isPriceIncreased
+                                              ? LucideIcons.arrowUp
+                                              : LucideIcons.arrowDown,
+                                      iconSize: 12,
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 5,
+                                        vertical: 1,
+                                      ), // Smaller padding
+                                    ),
+                                  ),
                               ],
                             ),
                           ],
@@ -201,94 +236,122 @@ class DrugCard extends StatelessWidget {
     );
   }
 
-  // Thumbnail Card Implementation (Keep for reference)
+  // Thumbnail Card Implementation (Updated)
   Widget _buildThumbnailCard(BuildContext context) {
-    // ... (previous implementation remains unchanged for now) ...
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
 
+    // Calculate price change
+    final double? oldPriceValue = _parsePrice(drug.oldPrice);
+    final double? currentPriceValue = _parsePrice(drug.price);
+    final bool isPriceChanged =
+        oldPriceValue != null &&
+        currentPriceValue != null &&
+        oldPriceValue != currentPriceValue;
+    final bool isPriceIncreased =
+        isPriceChanged && currentPriceValue! > oldPriceValue!;
+    final double priceChangePercentage =
+        isPriceChanged
+            ? ((currentPriceValue! - oldPriceValue!) / oldPriceValue! * 100)
+                .abs()
+            : 0;
+
     return SizedBox(
-      width: 150,
+      width: 176, // w-44
       child: Card(
         clipBehavior: Clip.antiAlias,
+        // Use theme defaults
         child: InkWell(
           onTap: onTap,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Stack(
+            // Use Stack for potential badges
             children: [
-              Container(
-                height: 3.0,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [
-                      colorScheme.primary.withOpacity(0.05),
-                      colorScheme.primary.withOpacity(0.20),
-                    ],
-                    begin: Alignment.centerLeft,
-                    end: Alignment.centerRight,
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Thin gradient bar
+                  Container(
+                    height: 3.0,
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          colorScheme.primary.withOpacity(0.05),
+                          colorScheme.primary.withOpacity(0.20),
+                        ],
+                        begin: Alignment.centerLeft,
+                        end: Alignment.centerRight,
+                      ),
+                    ),
                   ),
-                ),
-              ),
-              Container(
-                height: 90,
-                width: double.infinity,
-                color: colorScheme.secondaryContainer.withOpacity(0.3),
-                child:
-                    drug.imageUrl != null && drug.imageUrl!.isNotEmpty
-                        ? CachedNetworkImage(
-                          imageUrl: drug.imageUrl!,
-                          fit: BoxFit.contain,
-                          placeholder:
-                              (context, url) => const Center(
-                                child: CircularProgressIndicator(
-                                  strokeWidth: 2,
-                                ),
-                              ),
-                          errorWidget:
-                              (context, url, error) => Center(
-                                child: Icon(
-                                  LucideIcons.pill,
-                                  size: 40,
-                                  color: colorScheme.onSecondaryContainer
-                                      .withOpacity(0.5),
-                                ),
-                              ),
-                        )
-                        : Center(
-                          child: Icon(
-                            LucideIcons.pill,
-                            size: 40,
-                            color: colorScheme.onSecondaryContainer.withOpacity(
-                              0.5,
-                            ),
-                          ),
+                  // Content Padding
+                  Padding(
+                    padding: const EdgeInsets.all(
+                      12.0,
+                    ), // p-3 in Tailwind (4 * 3 = 12)
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // Add space to mimic image area removal
+                        const SizedBox(height: 8),
+                        Text(
+                          drug.tradeName,
+                          style: textTheme.titleSmall?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ), // text-sm font-medium
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          textAlign: TextAlign.start,
                         ),
-              ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(10, 8, 10, 10),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      drug.tradeName,
-                      style: textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
+                        const SizedBox(height: 6), // mt-1 + gap
+                        Row(
+                          // Row for price and potential change indicator
+                          mainAxisAlignment:
+                              MainAxisAlignment
+                                  .spaceBetween, // Space out price and indicator
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text(
+                              '${_formatPrice(drug.price)} ج.م',
+                              style: textTheme.bodyMedium?.copyWith(
+                                // text-sm
+                                fontWeight: FontWeight.bold, // font-semibold
+                                color: colorScheme.primary,
+                              ),
+                            ),
+                            // Price Change Indicator
+                            if (isPriceChanged)
+                              CustomBadge(
+                                label:
+                                    '${priceChangePercentage.toStringAsFixed(0)}%',
+                                backgroundColor:
+                                    isPriceIncreased
+                                        ? colorScheme.errorContainer
+                                            .withOpacity(0.7)
+                                        : Colors.green.shade100,
+                                textColor:
+                                    isPriceIncreased
+                                        ? colorScheme.onErrorContainer
+                                        : Colors.green.shade900,
+                                icon:
+                                    isPriceIncreased
+                                        ? LucideIcons.arrowUp
+                                        : LucideIcons.arrowDown,
+                                iconSize: 10, // Smaller icon for thumbnail
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 4,
+                                  vertical: 1,
+                                ), // Smaller padding
+                              ),
+                          ],
+                        ),
+                      ],
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      '${_formatPrice(drug.price)} ج.م',
-                      style: textTheme.bodyMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        color: colorScheme.primary,
-                      ),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
+              // Popular Badge (Example)
+              // Positioned(...)
             ],
           ),
         ),

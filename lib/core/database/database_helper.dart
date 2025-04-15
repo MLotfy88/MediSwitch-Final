@@ -4,8 +4,6 @@ import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 import '../../data/models/medicine_model.dart';
-// import '../../data/datasources/local/sqlite_local_data_source.dart'; // Remove this import
-// import '../di/locator.dart'; // Remove this import
 
 class DatabaseHelper {
   static final DatabaseHelper _instance = DatabaseHelper._internal();
@@ -16,13 +14,14 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 1;
+  static const int _dbVersion = 1; // Increment version if schema changes
   static const String medicinesTable = 'medicines';
 
   // --- Column Names ---
   static const String colTradeName = 'tradeName';
   static const String colArabicName = 'arabicName';
   static const String colPrice = 'price';
+  static const String colOldPrice = 'oldPrice'; // Add column name constant
   static const String colMainCategory = 'mainCategory';
   static const String colActive = 'active';
   static const String colCompany = 'company';
@@ -44,15 +43,22 @@ class DatabaseHelper {
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
     String path = join(documentsDirectory.path, dbName);
     print('Database path: $path');
-    return await openDatabase(path, version: _dbVersion, onCreate: _onCreate);
+    return await openDatabase(
+      path,
+      version: _dbVersion,
+      onCreate: _onCreate,
+      // onUpgrade: _onUpgrade, // Implement if version increases
+    );
   }
 
   Future _onCreate(Database db, int version) async {
+    print('Creating database tables and indices...');
     await db.execute('''
           CREATE TABLE $medicinesTable (
             $colTradeName TEXT PRIMARY KEY,
             $colArabicName TEXT,
             $colPrice TEXT,
+            $colOldPrice TEXT, -- Add oldPrice column
             $colMainCategory TEXT,
             $colActive TEXT,
             $colCompany TEXT,
@@ -67,8 +73,7 @@ class DatabaseHelper {
           ''');
     print('Medicines table created');
 
-    // Create indices for faster searching
-    print('Creating indices...');
+    // Create indices
     await db.execute(
       'CREATE INDEX idx_trade_name ON $medicinesTable ($colTradeName)',
     );
@@ -79,15 +84,14 @@ class DatabaseHelper {
     await db.execute(
       'CREATE INDEX idx_main_category ON $medicinesTable ($colMainCategory)',
     );
-    // Add index on price (as TEXT, indexing might be less effective but still helpful)
     await db.execute('CREATE INDEX idx_price ON $medicinesTable ($colPrice)');
+    // Add index for oldPrice if needed for querying/sorting later
+    // await db.execute('CREATE INDEX idx_old_price ON $medicinesTable ($colOldPrice)');
     print('Indices created');
 
-    // --- REMOVED Seeding from _onCreate ---
     print(
       "Database tables and indices created. Seeding will be handled externally if needed.",
     );
-    // --- End of REMOVED Seeding ---
   }
 
   // --- Basic CRUD Operations ---
@@ -96,25 +100,30 @@ class DatabaseHelper {
     final db = await database;
     Batch batch = db.batch();
     for (var med in medicines) {
-      final dbMap =
-          med.toMap()..removeWhere(
-            (key, value) =>
-                ![
-                  colTradeName,
-                  colArabicName,
-                  colPrice,
-                  colMainCategory,
-                  colActive,
-                  colCompany,
-                  colDosageForm,
-                  colConcentration,
-                  colUnit,
-                  colUsage,
-                  colDescription,
-                  colLastPriceUpdate,
-                  colImageUrl,
-                ].contains(key),
-          );
+      // Use the model's toMap which should now include oldPrice if the column exists
+      final dbMap = med.toMap();
+      // Ensure all keys in dbMap match columns in the table definition
+      // (This filtering might be redundant if toMap is correct)
+      dbMap.removeWhere(
+        (key, value) =>
+            ![
+              colTradeName,
+              colArabicName,
+              colPrice,
+              colOldPrice,
+              colMainCategory,
+              colActive,
+              colCompany,
+              colDosageForm,
+              colConcentration,
+              colUnit,
+              colUsage,
+              colDescription,
+              colLastPriceUpdate,
+              colImageUrl,
+            ].contains(key),
+      );
+
       batch.insert(
         medicinesTable,
         dbMap,
@@ -133,10 +142,12 @@ class DatabaseHelper {
 
   Future<List<MedicineModel>> getAllMedicines() async {
     final db = await database;
+    // Ensure all columns including oldPrice are selected
     final List<String> columnsToSelect = [
       colTradeName,
       colArabicName,
       colPrice,
+      colOldPrice,
       colMainCategory,
       colActive,
       colCompany,
@@ -156,7 +167,4 @@ class DatabaseHelper {
       return MedicineModel.fromMap(maps[i]);
     });
   }
-
-  // Add other necessary query methods here later (search, filter, categories)
-  // These will be called by SqliteLocalDataSource
 }

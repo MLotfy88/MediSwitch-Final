@@ -59,7 +59,7 @@ dependencies:
   google_mobile_ads: ^5.1.0 # Google Mobile Ads SDK
   logger: ^2.4.0 # For logging
   lucide_icons: ^0.257.0 # Use suggested older version
-  # path_provider is already included
+  collection: ^1.18.0 # For firstWhereOrNull
 
 dev_dependencies: # Moved flutter_test and lints here
   flutter_test:

@@ -32,33 +32,36 @@ class CustomNavBar extends StatelessWidget {
       selectedIndex: selectedIndex,
       onDestinationSelected: onItemSelected,
       // Customize appearance based on theme
-      backgroundColor: colorScheme.surface, // Or surfaceContainerLow etc.
-      indicatorColor: colorScheme.secondaryContainer, // Indicator color
+      backgroundColor: colorScheme.surface, // Use surface color from theme
+      indicatorColor:
+          colorScheme.primaryContainer, // Use primary container for indicator
       height: 65, // Adjust height if needed
       labelBehavior:
           NavigationDestinationLabelBehavior.alwaysShow, // Show labels always
       destinations:
           items.map((item) {
+            // Use Semantics for better accessibility
             return NavigationDestination(
-              icon: Icon(
-                item.icon,
-                color: colorScheme.onSurfaceVariant,
-              ), // Icon color
-              selectedIcon: Icon(
-                item.icon,
-                color: colorScheme.onSecondaryContainer,
-              ), // Selected icon color
+              icon: Semantics(
+                label: item.label, // Describe the icon's purpose
+                child: Icon(
+                  item.icon,
+                  color:
+                      colorScheme
+                          .onSurfaceVariant, // Muted color for unselected
+                ),
+              ),
+              selectedIcon: Semantics(
+                label: item.label,
+                child: Icon(
+                  item.icon,
+                  color:
+                      colorScheme
+                          .onPrimaryContainer, // Color when inside indicator
+                ),
+              ),
               label: item.label,
-              // Customize text style if needed using labelTextStyle
-              // labelTextStyle: MaterialStateProperty.resolveWith<TextStyle>(
-              //   (Set<MaterialState> states) {
-              //     return textTheme.labelSmall!.copyWith(
-              //       color: states.contains(MaterialState.selected)
-              //           ? colorScheme.onSecondaryContainer
-              //           : colorScheme.onSurfaceVariant,
-              //     );
-              //   },
-              // ),
+              tooltip: item.label, // Add tooltip for hover/long-press
             );
           }).toList(),
     );
