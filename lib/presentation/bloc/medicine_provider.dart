@@ -136,6 +136,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _isLoading = false; // Set loading false AFTER all waits complete
     _isInitialLoadComplete = true;
     _logger.i("MedicineProvider: loadInitialData finished.");
+    // Log final state before notifying
+    _logger.d(
+      "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",
+    );
     notifyListeners(); // Notify listeners ONCE after all initial data is loaded
   }
 
@@ -270,6 +274,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
 
     _isLoadingMore = false;
+    // Log final state before notifying
+    _logger.d(
+      "MedicineProvider: Final state before notify (Load More) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",
+    );
     notifyListeners();
     _logger.i(
       "MedicineProvider: loadMoreDrugs finished for page $_currentPage. hasMore: $_hasMoreItems",
