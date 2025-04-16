@@ -35,44 +35,7 @@ List<MedicineModel> parseCsvForSeed(String rawCsv) {
   return medicines;
 }
 
-// Function to perform seeding within an isolate
-Future<bool> _seedDatabaseIsolate(Map<String, String> params) async {
-  final String rawCsv = params['csvData']!;
-  final String dbPath = params['dbPath']!;
-  print('[_seedDatabaseIsolate] Starting seeding in isolate...');
-  Database? db; // Make DB nullable
-  try {
-    final medicines = parseCsvForSeed(
-      rawCsv,
-    ); // Use the public parsing function
-    print('[_seedDatabaseIsolate] Parsed ${medicines.length} medicines.');
-
-    // Open a separate DB connection within the isolate
-    db = await openDatabase(dbPath);
-    print('[_seedDatabaseIsolate] Database opened at path: $dbPath');
-
-    // Perform batch insert using the isolate's DB connection
-    final batch = db.batch();
-    for (final medicine in medicines) {
-      batch.insert(
-        DatabaseHelper.medicinesTable,
-        medicine.toMap(),
-        conflictAlgorithm: ConflictAlgorithm.replace,
-      );
-    }
-    await batch.commit(noResult: true);
-    print('[_seedDatabaseIsolate] Batch insert completed.');
-
-    await db.close(); // Close the isolate's DB connection
-    print('[_seedDatabaseIsolate] Database connection closed.');
-    print('[_seedDatabaseIsolate] Seeding completed successfully in isolate.');
-    return true; // Indicate success
-  } catch (e, s) {
-    print('[_seedDatabaseIsolate] Error during seeding: $e\n$s');
-    await db?.close(); // Ensure DB is closed even on error
-    return false; // Indicate failure
-  }
-}
+// Removed _seedDatabaseIsolate function as seeding will now happen directly
 
 // --- SqliteLocalDataSource Class ---
 class SqliteLocalDataSource {
@@ -103,32 +66,43 @@ class SqliteLocalDataSource {
       final stopwatch = Stopwatch()..start();
       try {
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
-        // Get DB path from the main thread's helper
-        final dbPath = db.path;
-        // Run the combined parsing and seeding in an isolate
-        final success = await compute(_seedDatabaseIsolate, {
-          'csvData': rawCsv,
-          'dbPath': dbPath,
-        });
 
-        if (success) {
-          final prefs = await _prefs;
-          await prefs.setInt(
-            _prefsKeyLastUpdate,
-            DateTime.now().millisecondsSinceEpoch,
+        // --- Seeding Logic (Moved from Isolate) ---
+        print('[seedDatabaseFromAssetIfNeeded] Parsing CSV...');
+        final medicines = parseCsvForSeed(rawCsv);
+        print(
+          '[seedDatabaseFromAssetIfNeeded] Parsed ${medicines.length} medicines.',
+        );
+
+        print('[seedDatabaseFromAssetIfNeeded] Starting batch insert...');
+        final batch = db.batch();
+        for (final medicine in medicines) {
+          batch.insert(
+            DatabaseHelper.medicinesTable,
+            medicine.toMap(),
+            conflictAlgorithm: ConflictAlgorithm.replace,
           );
-          stopwatch.stop();
-          print(
-            'Database seeded successfully in ${stopwatch.elapsedMilliseconds}ms.',
-          );
-        } else {
-          print('Error: Seeding in isolate failed.');
-          // Optionally throw an error or handle failure
-          throw Exception('Database seeding failed in isolate');
         }
-      } catch (e) {
+        await batch.commit(noResult: true);
+        print('[seedDatabaseFromAssetIfNeeded] Batch insert completed.');
+        // --- End Seeding Logic ---
+
+        // Update timestamp after successful seeding
+        final prefs = await _prefs;
+        await prefs.setInt(
+          _prefsKeyLastUpdate,
+          DateTime.now().millisecondsSinceEpoch,
+        );
+        stopwatch.stop();
+        print(
+          'Database seeded successfully in ${stopwatch.elapsedMilliseconds}ms.',
+        );
+        // Removed the 'else' block that threw an exception, rely on try/catch below
+      } catch (e, s) {
+        // Catch errors during direct seeding
         print('Error during seeding process (main thread): $e');
-        rethrow; // Rethrow original error if compute itself fails or other issues occur
+        // TODO: Add logging here if a logger is available
+        rethrow; // Rethrow original error
       }
     } else {
       print('Database already contains data. Skipping seed.');
@@ -138,30 +112,41 @@ class SqliteLocalDataSource {
   Future<void> saveDownloadedCsv(String csvData) async {
     try {
       print('Parsing downloaded CSV data for database update...');
-      // Similar logic for downloaded CSV - run parsing and insertion in isolate
-      final db = await dbHelper.database;
-      final dbPath = db.path;
-      final success = await compute(_seedDatabaseIsolate, {
-        'csvData': csvData,
-        'dbPath': dbPath,
-      });
+      final db = await dbHelper.database; // Get DB instance
 
-      if (success) {
-        final prefs = await _prefs;
-        await prefs.setInt(
-          _prefsKeyLastUpdate,
-          DateTime.now().millisecondsSinceEpoch,
-        );
+      // --- Update Logic (Moved from Isolate) ---
+      print('[saveDownloadedCsv] Parsing CSV...');
+      final medicines = parseCsvForSeed(csvData);
+      print('[saveDownloadedCsv] Parsed ${medicines.length} medicines.');
 
-        print('Database updated successfully from downloaded CSV.');
-      } else {
-        print(
-          'Error: Updating database from downloaded CSV failed in isolate.',
+      print('[saveDownloadedCsv] Starting batch insert/replace...');
+      // Clear existing data before inserting new data from downloaded CSV
+      await db.delete(DatabaseHelper.medicinesTable);
+      print('[saveDownloadedCsv] Existing data cleared.');
+
+      final batch = db.batch();
+      for (final medicine in medicines) {
+        batch.insert(
+          DatabaseHelper.medicinesTable,
+          medicine.toMap(),
+          conflictAlgorithm: ConflictAlgorithm.replace, // Still useful here
         );
-        throw Exception('Database update from CSV failed in isolate');
       }
-    } catch (e) {
+      await batch.commit(noResult: true);
+      print('[saveDownloadedCsv] Batch insert completed.');
+      // --- End Update Logic ---
+
+      final prefs = await _prefs;
+      await prefs.setInt(
+        _prefsKeyLastUpdate,
+        DateTime.now().millisecondsSinceEpoch,
+      );
+
+      print('Database updated successfully from downloaded CSV.');
+    } catch (e, s) {
+      // Catch errors during direct update
       print('Error during downloaded CSV update process (main thread): $e');
+      // TODO: Add logging here if a logger is available
       rethrow;
     }
   }
@@ -170,7 +155,13 @@ class SqliteLocalDataSource {
 
   Future<List<MedicineModel>> getAllMedicines() async {
     print("Fetching all medicines from SQLite...");
-    return await dbHelper.getAllMedicines();
+    final db = await dbHelper.database; // Ensure db is awaited here too
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+    );
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
   }
 
   // Search medicines using SQL LIKE with pagination

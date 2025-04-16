@@ -55,6 +55,9 @@ tml # MediSwitch Project - AI Handover Checkpoint
 *   **Recent Fixes & MVP Preparation:**
     *   Fixed `HomeScreen` data loading issue (sections now load automatically).
     *   Fixed `DrugCard` sizing in horizontal lists (`HomeScreen`) by removing fixed height constraints.
+    *   Adjusted Settings screen secondary text color for better contrast.
+    *   Resolved Home screen state management issue causing data sections to disappear/reappear incorrectly.
+    *   Corrected Home screen pagination logic for continuous loading (10 initial, 15 subsequent).
     *   Prepared application for **MVP 1.0 Release** according to `@/RELEASE_PLAN.md`:
         *   Confirmed core features (Search, Details, Alternatives, Basic UI, Settings) are functional.
         *   Confirmed AdMob integration (Banner, Interstitial with Test IDs) is present (Task 5.2).
