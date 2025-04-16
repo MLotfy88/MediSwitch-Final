@@ -283,14 +283,16 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     bool append = false,
     int? limit, // Optional limit parameter
   }) async {
-    final int effectiveLimit =
-        limit ?? _pageSize; // Use provided limit or default
+    final int requestedLimit =
+        limit ?? _pageSize; // The number of items we *want* for the page
+    final int fetchLimit =
+        requestedLimit + 1; // Ask for one extra item to check if more exist
     if (!append) {
       _isLoading = true;
       _error = '';
       // Clear list only if not appending (i.e., new search/filter)
       if (!append) _filteredMedicines = [];
-      notifyListeners();
+      // Removed notifyListeners() here - it's handled by the calling function (loadInitialData/loadMoreDrugs)
     }
 
     // Calculate offset based on page number and *previous* page sizes
@@ -302,12 +304,23 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         (page == 0) ? 0 : _initialPageSize + (page - 1) * _pageSize;
 
     _logger.i(
-      "MedicineProvider: _applyFilters called. Page: $page, Limit: $effectiveLimit, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
+      "MedicineProvider: _applyFilters called. Page: $page, Requested Limit: $requestedLimit, Fetch Limit: $fetchLimit, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
     );
 
     Either<Failure, List<DrugEntity>> result;
 
     try {
+      // Add detailed logging before calling the use case
+      _logger.i(
+        "MedicineProvider: Preparing to call UseCase. Query: '$_searchQuery', Category: '$_selectedCategory', Page: $page, Fetch Limit: $fetchLimit, Offset: $offset, Append: $append",
+      );
+
+      // >>>>> ADD EXTRA LOGGING HERE <<<<<
+      _logger.d(
+        "MedicineProvider: UseCase PARAMS - Query: '$_searchQuery', Limit: $fetchLimit, Offset: $offset, Category: '$_selectedCategory'", // Log fetchLimit
+      );
+      // >>>>> END EXTRA LOGGING <<<<<
+
       // Fetch data based on primary filter (search or category)
       if (_searchQuery.isNotEmpty) {
         _logger.d(
@@ -316,7 +329,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         result = await searchDrugsUseCase(
           SearchParams(
             query: _searchQuery,
-            limit: effectiveLimit,
+            limit: fetchLimit, // Use fetchLimit
             offset: offset,
           ),
         );
@@ -327,7 +340,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         result = await filterDrugsByCategoryUseCase(
           FilterParams(
             category: _selectedCategory,
-            limit: effectiveLimit,
+            limit: fetchLimit, // Use fetchLimit
             offset: offset,
           ),
         );
@@ -336,7 +349,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           "MedicineProvider: Applying no primary filter, fetching all (page $page)...",
         );
         result = await searchDrugsUseCase(
-          SearchParams(query: '', limit: effectiveLimit, offset: offset),
+          SearchParams(
+            query: '',
+            limit: fetchLimit,
+            offset: offset,
+          ), // Use fetchLimit
         );
       }
 
@@ -381,20 +398,57 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           );
 
           _error = '';
-          // Determine if there are more items based on the *requested* limit for this page
-          _hasMoreItems = drugs.length == effectiveLimit;
+          // New logic: Check if we received more items than requested for the page
+          _hasMoreItems = drugs.length == fetchLimit;
+
+          // Get the items to actually add to the list (max requestedLimit)
+          final itemsToAdd =
+              _hasMoreItems ? drugs.take(requestedLimit).toList() : drugs;
+
+          _logger.d(
+            "MedicineProvider: hasMoreItems set to $_hasMoreItems. Items received: ${drugs.length}, Items to add: ${itemsToAdd.length}",
+          );
+
+          // Apply secondary filters to the items we intend to add
+          List<DrugEntity> locallyFilteredItemsToAdd = List.from(itemsToAdd);
+          if (_selectedDosageForm.isNotEmpty) {
+            final formLower = _selectedDosageForm.toLowerCase();
+            locallyFilteredItemsToAdd =
+                locallyFilteredItemsToAdd
+                    .where(
+                      (drug) =>
+                          drug.dosageForm.toLowerCase().contains(formLower),
+                    )
+                    .toList();
+          }
+          if (_selectedPriceRange != null) {
+            locallyFilteredItemsToAdd =
+                locallyFilteredItemsToAdd.where((drug) {
+                  final price = _parsePrice(drug.price);
+                  if (price == null) return false;
+                  return price >= _selectedPriceRange!.start &&
+                      price <= _selectedPriceRange!.end;
+                }).toList();
+          }
+          _logger.i(
+            "MedicineProvider: Filtering complete for page $page. Final items to add count: ${locallyFilteredItemsToAdd.length}",
+          );
 
           if (append) {
             final existingTradeNames =
                 _filteredMedicines.map((d) => d.tradeName).toSet();
             _filteredMedicines.addAll(
-              newlyFiltered.where(
+              locallyFilteredItemsToAdd.where(
+                // Add the locally filtered items
                 (d) => !existingTradeNames.contains(d.tradeName),
               ),
             );
           } else {
-            _filteredMedicines = newlyFiltered;
+            _filteredMedicines =
+                locallyFilteredItemsToAdd; // Set the locally filtered items
             if (page == 0) {
+              // Calculate price range based on the first page items *before* local filtering?
+              // Or after? Let's do it after local filtering for consistency.
               _calculatePriceRange(_filteredMedicines);
             }
           }

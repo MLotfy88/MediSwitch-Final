@@ -18,8 +18,12 @@ class SearchDrugsUseCase implements UseCase<List<DrugEntity>, SearchParams> {
     //   return Right([]); // Avoid loading all if query is empty and no limit set
     // }
 
-    // Pass limit to repository method
-    return await repository.searchDrugs(params.query, limit: params.limit);
+    // Pass limit and offset to repository method
+    return await repository.searchDrugs(
+      params.query,
+      limit: params.limit,
+      offset: params.offset, // Pass the offset here
+    );
   }
 }
 
