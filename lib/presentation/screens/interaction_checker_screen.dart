@@ -10,8 +10,9 @@ import '../../domain/entities/interaction_analysis_result.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../widgets/custom_badge.dart';
-import '../widgets/drug_selection_dialog.dart'; // Import the custom dialog
+// import '../widgets/drug_selection_dialog.dart'; // No longer needed
 import '../widgets/interaction_card.dart'; // Import the new card widget
+import '../widgets/custom_searchable_dropdown.dart'; // Import the dropdown
 
 class InteractionCheckerScreen extends StatefulWidget {
   const InteractionCheckerScreen({super.key});
@@ -23,46 +24,47 @@ class InteractionCheckerScreen extends StatefulWidget {
 
 class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
+  // Use a simpler GlobalKey or key for the dropdown state if needed for reset
+  final GlobalKey _dropdownKey = GlobalKey(); // Simpler key
 
-  Future<void> _showDrugSelectionDialog() async {
-    _logger.i("InteractionCheckerScreen: Add Drug button tapped.");
-    final allDrugs = context.read<MedicineProvider>().filteredMedicines;
-    final interactionProvider = context.read<InteractionProvider>();
-    DrugEntity? dialogSelectedDrug;
-
-    final selectedDrug = await showDialog<DrugEntity>(
-      context: context,
-      builder:
-          (context) => DrugSelectionDialog(
-            allDrugs: allDrugs,
-            alreadySelectedDrugs: interactionProvider.selectedMedicines,
-          ),
-    );
-
-    if (selectedDrug != null) {
-      _logger.i(
-        "InteractionCheckerScreen: Drug selected: ${selectedDrug.tradeName}",
-      );
-      interactionProvider.addMedicine(selectedDrug);
-    } else {
-      _logger.d(
-        "InteractionCheckerScreen: Drug selection cancelled or failed.",
-      );
-    }
-  }
+  // Removed _showDrugSelectionDialog method
 
   @override
   Widget build(BuildContext context) {
     _logger.d("InteractionCheckerScreen: Building widget.");
     final provider = context.watch<InteractionProvider>();
+    final medicineProvider =
+        context.watch<MedicineProvider>(); // Watch for updates
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
 
+    // Filter out already selected drugs from the available list using tradeName
+    final selectedDrugNames =
+        provider.selectedMedicines.map((d) => d.tradeName).toSet();
+    final availableDrugs =
+        medicineProvider
+            .filteredMedicines // Use filtered list
+            .where((drug) => !selectedDrugNames.contains(drug.tradeName))
+            .toList();
+
     return Scaffold(
-      appBar: AppBar(title: const Text('مدقق التفاعلات الدوائية')),
+      appBar: AppBar(
+        // Apply design styles
+        backgroundColor: colorScheme.primary, // #16BC88
+        foregroundColor: colorScheme.onPrimary, // White text/icons
+        elevation: 0,
+        title: Text(
+          'التفاعلات الدوائية', // Correct title from design
+          style: textTheme.titleLarge?.copyWith(
+            // text-xl equivalent
+            fontWeight: FontWeight.bold,
+            color: colorScheme.onPrimary,
+          ),
+        ),
+      ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0), // p-4 equivalent
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -100,42 +102,74 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                             ),
                           ),
                         ]
-                        : provider.selectedMedicines
-                            .map(
-                              (drug) => Chip(
-                                label: Text(drug.tradeName),
-                                onDeleted: () {
-                                  _logger.i(
-                                    "InteractionCheckerScreen: Removing drug: ${drug.tradeName}",
-                                  );
-                                  provider.removeMedicine(drug);
-                                },
-                                deleteIcon: Icon(LucideIcons.xCircle, size: 18),
-                                deleteIconColor: colorScheme
-                                    .onSecondaryContainer
-                                    .withOpacity(0.7),
-                                backgroundColor: colorScheme.secondaryContainer,
-                                labelStyle: textTheme.bodyMedium?.copyWith(
-                                  color: colorScheme.onSecondaryContainer,
-                                ),
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 8,
-                                  vertical: 4,
-                                ),
+                        : provider.selectedMedicines.map((drug) {
+                          // Apply design styles to the chip
+                          return Chip(
+                            avatar: Icon(
+                              // Add Pill icon
+                              LucideIcons.pill,
+                              size: 16, // h-4 w-4
+                              color: colorScheme.onSecondaryContainer,
+                            ),
+                            label: Text(
+                              drug.tradeName,
+                              style: textTheme.bodyMedium?.copyWith(
+                                // text-sm
+                                color: colorScheme.onSecondaryContainer,
                               ),
-                            )
-                            .toList(),
+                            ),
+                            onDeleted: () {
+                              _logger.i(
+                                "InteractionCheckerScreen: Removing drug: ${drug.tradeName}",
+                              );
+                              provider.removeMedicine(drug);
+                            },
+                            deleteIcon: Icon(
+                              LucideIcons.x,
+                              size: 16,
+                            ), // h-4 w-4
+                            deleteIconColor: colorScheme.onSecondaryContainer
+                                .withOpacity(0.7),
+                            backgroundColor:
+                                colorScheme.secondaryContainer, // bg-secondary
+                            shape: const StadiumBorder(), // rounded-full
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 12,
+                              vertical: 6,
+                            ), // px-3 py-1.5 equivalent
+                            materialTapTargetSize:
+                                MaterialTapTargetSize.shrinkWrap,
+                          );
+                        }).toList(),
               ),
             ),
             const SizedBox(height: 16),
-            OutlinedButton.icon(
-              icon: Icon(LucideIcons.plusCircle, size: 18),
-              label: const Text('إضافة دواء'),
-              onPressed: _showDrugSelectionDialog,
-              style: OutlinedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 12),
-              ),
+
+            // --- Replace Button with Dropdown ---
+            CustomSearchableDropdown(
+              // Remove generic type argument
+              key: _dropdownKey, // Assign key
+              items: availableDrugs,
+              selectedItem: null, // Always start empty
+              onChanged: (DrugEntity? selectedDrug) {
+                if (selectedDrug != null) {
+                  _logger.i(
+                    "InteractionCheckerScreen: Drug selected via dropdown: ${selectedDrug.tradeName}",
+                  );
+                  provider.addMedicine(selectedDrug);
+                  // Reset the dropdown after selection - Need to access state via key if reset is needed
+                  // (Consider adding a reset method to CustomSearchableDropdownState)
+                  // _dropdownKey.currentState?.resetSelection();
+                  FocusScope.of(context).unfocus(); // Close keyboard
+                }
+              },
+              labelText: 'إضافة دواء للفحص', // Updated label
+              hintText: 'ابحث عن اسم الدواء...',
+              prefixIcon: LucideIcons.plusCircle, // Use PlusCircle icon
+              // No validator needed here as it's for adding, not submitting
             ),
+
+            // Removed OutlinedButton
             const SizedBox(height: 24),
             ElevatedButton.icon(
               icon:
@@ -222,14 +256,29 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            LucideIcons.checkCheck,
-                            size: 48,
-                            color: Colors.green.shade600,
+                            LucideIcons.checkCircle, // Correct icon from design
+                            size: 48, // h-12 w-12
+                            color: Colors.green.shade600, // text-success
                           ),
                           const SizedBox(height: 16),
                           Text(
-                            'لا توجد تفاعلات معروفة بين الأدوية المختارة.',
-                            style: TextStyle(color: colorScheme.secondary),
+                            'لم يتم العثور على تفاعلات معروفة', // Text from design
+                            style:
+                                Theme.of(
+                                  context,
+                                ).textTheme.titleLarge, // text-lg
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            'بين الأدوية المختارة. استشر طبيبك دائما.', // Guidance text
+                            style: Theme.of(
+                              context,
+                            ).textTheme.bodyMedium?.copyWith(
+                              color:
+                                  colorScheme
+                                      .onSurfaceVariant, // text-muted-foreground
+                            ),
+                            textAlign: TextAlign.center,
                           ),
                         ],
                       ),

@@ -9,7 +9,7 @@ tml # MediSwitch Project - AI Handover Checkpoint
 3.  **`@/env.md`**: Details the **development environment setup** (versions, paths). **Ensure your environment is compatible.**
 
 **Instructions for Continuing Development:**
- 
+
 1.  **Understand the Current State:**
     a.  **Initial Full Scan:** Before proceeding, **read ALL files** in the workspace to get a complete overview.
     b.  **Analyze Structure & Code:** Thoroughly examine the entire project structure (frontend and backend) and analyze existing code.
@@ -42,4 +42,14 @@ tml # MediSwitch Project - AI Handover Checkpoint
     *   **Backend Enhancements (Tasks 4.1, 4.2, 4.3, 4.4.1):** Implemented detailed file validation (using pandas), AdMob config endpoint, General config endpoint, and Analytics logging endpoint (including model, serializer, view, URL, migrations).
     *   **UI Refinements:** Implemented basic UI structure for `HomeScreen`, `DrugDetailsScreen`, `SearchScreen`, and `SettingsScreen` based on the HTML/CSS/JS prototype found in `External_source/prototype/`. Refactored `FilterBottomSheet` based on prototype. Fixed related code errors.
 *   The code within the `External source` directory has been commented out or deleted as requested. Figma links are now the primary UI reference (though direct access is not possible for the AI).
-*   Refer **strictly** to `@/mediswitch_plan.md` to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).
+*   **Reference Design Review (`medi-switch-design-lab-main`):**
+    *   The reference design documentation has been reviewed.
+    *   The current Flutter implementation matches the reference design by approximately **80-85%**.
+    *   Core layouts, colors, primary font (Noto Sans Arabic), icons, and main components are generally aligned.
+    *   **Key Deviations:**
+        *   CSS-style hover effects are largely unimplemented (expected in Flutter).
+        *   Minor differences exist in specific spacing, padding, and fixed-width implementations compared to the design specs.
+        *   Some minor UI elements are missing (e.g., "popular" star icon, "alternative" badge, package size info).
+        *   The search filter UI is implemented as a `BottomSheet` instead of the specified side sheet.
+        *   The secondary font (Roboto) is not actively used.
+*   Refer **strictly** to `@/mediswitch_plan.md` (updated based on this review) to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).

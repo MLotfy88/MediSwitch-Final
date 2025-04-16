@@ -12,12 +12,16 @@ class DrugCard extends StatelessWidget {
   final DrugEntity drug;
   final VoidCallback? onTap;
   final DrugCardType type;
+  final bool isPopular; // Flag for popular drug
+  final bool isAlternative; // Flag for alternative drug
 
   const DrugCard({
     super.key,
     required this.drug,
     this.onTap,
     this.type = DrugCardType.detailed,
+    this.isPopular = false, // Default to false
+    this.isAlternative = false, // Default to false
   });
 
   // Helper to format price after parsing
@@ -41,9 +45,13 @@ class DrugCard extends StatelessWidget {
             ? _buildThumbnailCard(context)
             : _buildDetailedCard(context);
 
+    // Add semantic label for alternative if applicable
+    String alternativeLabel = isAlternative ? ' بديل لدواء آخر.' : '';
+    String popularLabel = isPopular ? ' دواء شائع.' : '';
+
     return Semantics(
       label:
-          'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه',
+          'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
       button: true,
       child: cardContent,
     );
@@ -139,18 +147,40 @@ class DrugCard extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              if (drug.mainCategory.isNotEmpty)
-                                CustomBadge(
-                                  label: drug.mainCategory,
-                                  backgroundColor:
-                                      colorScheme.secondaryContainer,
-                                  textColor: colorScheme.onSecondaryContainer,
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 10,
-                                    vertical: 2,
-                                  ), // px-2.5 py-0.5
-                                  // textStyle: textTheme.labelSmall, // Removed incorrect parameter
-                                ),
+                              Row(
+                                // Wrap category and alternative badge
+                                children: [
+                                  if (drug.mainCategory.isNotEmpty)
+                                    CustomBadge(
+                                      label: drug.mainCategory,
+                                      backgroundColor:
+                                          colorScheme.secondaryContainer,
+                                      textColor:
+                                          colorScheme.onSecondaryContainer,
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 10,
+                                        vertical: 2,
+                                      ), // px-2.5 py-0.5
+                                    ),
+                                  if (isAlternative) // Show Alternative badge
+                                    Padding(
+                                      padding: const EdgeInsetsDirectional.only(
+                                        start: 4.0,
+                                      ),
+                                      child: CustomBadge(
+                                        label: 'بديل',
+                                        backgroundColor:
+                                            colorScheme.primaryContainer,
+                                        textColor:
+                                            colorScheme.onPrimaryContainer,
+                                        padding: const EdgeInsets.symmetric(
+                                          horizontal: 8,
+                                          vertical: 2,
+                                        ),
+                                      ),
+                                    ),
+                                ],
+                              ),
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.baseline,
                                 textBaseline: TextBaseline.alphabetic,
@@ -181,7 +211,6 @@ class DrugCard extends StatelessWidget {
                                           horizontal: 8,
                                           vertical: 2,
                                         ), // px-2 py-0.5
-                                        // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                                       ),
                                     ),
                                   Text(
@@ -190,6 +219,18 @@ class DrugCard extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                     ), // text-lg font-bold
                                   ),
+                                  if (isPopular) // Show Popular icon
+                                    Padding(
+                                      padding: const EdgeInsetsDirectional.only(
+                                        start: 4.0,
+                                      ),
+                                      child: Icon(
+                                        LucideIcons.star,
+                                        size: 16,
+                                        color: Colors.amber.shade600,
+                                        semanticLabel: 'دواء شائع',
+                                      ),
+                                    ),
                                 ],
                               ),
                             ],
@@ -271,7 +312,7 @@ class DrugCard extends StatelessWidget {
                         children: [
                           const SizedBox(
                             height: 16,
-                          ), // Space for potential badge
+                          ), // Space for potential badge/icon
                           Text(
                             drug.tradeName,
                             style: textTheme.bodyMedium?.copyWith(
@@ -334,7 +375,34 @@ class DrugCard extends StatelessWidget {
                         horizontal: 6,
                         vertical: 2,
                       ), // px-1.5 py-0.5
-                      // textStyle: textTheme.labelSmall, // Removed incorrect parameter
+                    ),
+                  ),
+                // Show Popular icon in top-right corner for thumbnail
+                if (isPopular)
+                  Positioned(
+                    top: 8,
+                    right: 8,
+                    child: Icon(
+                      LucideIcons.star,
+                      size: 16,
+                      color: Colors.amber.shade600,
+                      semanticLabel: 'دواء شائع',
+                    ),
+                  ),
+                // Show Alternative badge in top-right corner for thumbnail if not popular
+                if (isAlternative && !isPopular)
+                  Positioned(
+                    top: 8,
+                    right: 8,
+                    child: CustomBadge(
+                      label: 'بديل',
+                      backgroundColor: colorScheme.primaryContainer,
+                      textColor: colorScheme.onPrimaryContainer,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 6,
+                        vertical: 1,
+                      ),
+                      // textStyle: textTheme.labelSmall?.copyWith(fontSize: 10), // Smaller text
                     ),
                   ),
               ],

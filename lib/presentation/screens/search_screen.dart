@@ -5,7 +5,8 @@ import 'package:lucide_icons/lucide_icons.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/medicine_provider.dart';
 import '../widgets/drug_card.dart';
-import '../widgets/filter_bottom_sheet.dart';
+// import '../widgets/filter_bottom_sheet.dart'; // Will be replaced by drawer
+import '../widgets/filter_end_drawer.dart'; // Import the new drawer
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import 'drug_details_screen.dart';
@@ -25,6 +26,8 @@ class _SearchScreenState extends State<SearchScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   final AdService _adService = locator<AdService>();
   Timer? _debounce;
+  final GlobalKey<ScaffoldState> _scaffoldKey =
+      GlobalKey<ScaffoldState>(); // Key for drawer
 
   @override
   void initState() {
@@ -65,27 +68,14 @@ class _SearchScreenState extends State<SearchScreen> {
     });
   }
 
-  void _showFilterSheet() {
-    _logger.i("SearchScreen: Filter button tapped.");
-    showModalBottomSheet(
-      context: context,
-      isScrollControlled: true, // Allow sheet to take up more height
-      shape: const RoundedRectangleBorder(
-        // Rounded corners
-        borderRadius: BorderRadius.vertical(top: Radius.circular(16.0)),
-      ),
-      builder:
-          (context) => DraggableScrollableSheet(
-            // Make it draggable
-            expand: false,
-            initialChildSize: 0.6, // Initial height
-            minChildSize: 0.3,
-            maxChildSize: 0.9,
-            builder:
-                (context, scrollController) =>
-                    FilterBottomSheet(scrollController: scrollController),
-          ),
-    );
+  // void _showFilterSheet() { // Replaced by _openFilterDrawer
+  //   _logger.i("SearchScreen: Filter button tapped.");
+  //   showModalBottomSheet(...);
+  // }
+
+  void _openFilterDrawer() {
+    _logger.i("SearchScreen: Filter button tapped, opening end drawer.");
+    _scaffoldKey.currentState?.openEndDrawer(); // Use key to open drawer
   }
 
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
@@ -107,124 +97,163 @@ class _SearchScreenState extends State<SearchScreen> {
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
-      // Updated AppBar to match design doc
-      appBar: AppBar(
-        backgroundColor: colorScheme.surface, // bg-card
-        elevation: 0,
-        foregroundColor: colorScheme.onSurfaceVariant, // text-muted-foreground
-        leading: IconButton(
-          icon: Icon(LucideIcons.arrowLeft, size: 20), // h-5 w-5
-          onPressed: () => Navigator.of(context).pop(),
-          tooltip: 'رجوع',
-        ),
-        titleSpacing: 0, // Remove default title spacing
-        title: TextField(
-          controller: _searchController,
-          autofocus:
-              widget.initialQuery.isEmpty, // Autofocus only if no initial query
-          decoration: InputDecoration(
-            hintText: 'ابحث عن دواء...',
-            border: InputBorder.none, // Remove border from TextField itself
-            enabledBorder: InputBorder.none,
-            focusedBorder: InputBorder.none,
-            prefixIcon: Icon(
-              LucideIcons.search,
-              size: 16,
-              color: colorScheme.onSurfaceVariant,
-            ), // h-4 w-4
-            suffixIcon:
-                _searchController.text.isNotEmpty
-                    ? IconButton(
-                      icon: Icon(
-                        LucideIcons.x,
-                        size: 16,
-                        color: colorScheme.onSurfaceVariant,
-                      ),
-                      onPressed: () {
-                        _searchController.clear();
-                        // Optionally trigger search with empty query immediately
-                        // context.read<MedicineProvider>().setSearchQuery('');
-                      },
-                      splashRadius: 18,
-                    )
-                    : null,
-            contentPadding: const EdgeInsets.symmetric(
-              vertical: 10,
-            ), // py-2 equivalent
-          ),
-          style: theme.textTheme.bodyLarge,
-        ),
-        actions: [
-          IconButton(
-            icon: Icon(
-              LucideIcons.filter,
-              size: 20,
-              color: colorScheme.onSurfaceVariant,
-            ), // h-5 w-5
-            onPressed: _showFilterSheet,
-            tooltip: 'فلترة النتائج',
-            // style: IconButton.styleFrom(backgroundColor: Colors.transparent), // variant="ghost"
-          ),
-          const SizedBox(width: 8), // Add some padding
-        ],
-        bottom: PreferredSize(
-          // Add bottom border
-          preferredSize: const Size.fromHeight(1.0),
-          child: Container(
-            color: colorScheme.outline,
-            height: 1.0,
-          ), // border-b border-border
-        ),
-      ),
+      key: _scaffoldKey, // Assign key
+      endDrawer: const FilterEndDrawer(), // Add the drawer
       body: Column(
         children: [
-          Expanded(child: _buildResultsList(context, provider)),
+          Expanded(
+            child: CustomScrollView(
+              // Use CustomScrollView for SliverAppBar
+              slivers: <Widget>[
+                SliverAppBar(
+                  backgroundColor: colorScheme.surface, // bg-card
+                  foregroundColor:
+                      colorScheme.onSurfaceVariant, // text-muted-foreground
+                  elevation: 0, // Remove shadow
+                  pinned: true, // Make AppBar sticky
+                  floating: true, // Allow AppBar to reappear on scroll up
+                  leading: IconButton(
+                    icon: Icon(LucideIcons.arrowLeft, size: 20), // h-5 w-5
+                    onPressed: () => Navigator.of(context).pop(),
+                    tooltip: 'رجوع',
+                  ),
+                  titleSpacing: 0, // Remove default title spacing
+                  title: TextField(
+                    controller: _searchController,
+                    autofocus: widget.initialQuery.isEmpty,
+                    decoration: InputDecoration(
+                      hintText: 'ابحث عن دواء...',
+                      border: InputBorder.none,
+                      enabledBorder: InputBorder.none,
+                      focusedBorder: InputBorder.none,
+                      prefixIcon: Icon(
+                        LucideIcons.search,
+                        size: 16,
+                        color: colorScheme.onSurfaceVariant,
+                      ), // h-4 w-4
+                      suffixIcon:
+                          _searchController.text.isNotEmpty
+                              ? IconButton(
+                                icon: Icon(
+                                  LucideIcons.x,
+                                  size: 16,
+                                  color: colorScheme.onSurfaceVariant,
+                                ),
+                                onPressed: () {
+                                  _searchController.clear();
+                                },
+                                splashRadius: 18,
+                              )
+                              : null,
+                      contentPadding: const EdgeInsets.symmetric(
+                        vertical: 10,
+                      ), // py-2 equivalent
+                    ),
+                    style: theme.textTheme.bodyLarge,
+                  ),
+                  actions: [
+                    // Updated Filter Button Style (Ghost)
+                    TextButton(
+                      onPressed: _openFilterDrawer,
+                      style: TextButton.styleFrom(
+                        foregroundColor:
+                            colorScheme.onSurfaceVariant, // Icon/Text color
+                        shape:
+                            const CircleBorder(), // Make it circular like IconButton
+                        padding: const EdgeInsets.all(8.0), // Adjust padding
+                        minimumSize:
+                            Size.zero, // Remove minimum size constraint
+                      ),
+                      child: Icon(LucideIcons.filter, size: 20), // h-5 w-5
+                    ),
+                    const SizedBox(width: 8), // Add some padding
+                  ],
+                  bottom: PreferredSize(
+                    // Add bottom border
+                    preferredSize: const Size.fromHeight(1.0),
+                    child: Container(
+                      color: colorScheme.outline,
+                      height: 1.0,
+                    ), // border-b border-border
+                  ),
+                ),
+                _buildResultsListSliver(
+                  context,
+                  provider,
+                ), // Build results as sliver
+              ],
+            ),
+          ),
           const BannerAdWidget(), // Keep banner ad at the bottom
         ],
       ),
     );
   }
 
-  Widget _buildResultsList(BuildContext context, MedicineProvider provider) {
+  // Updated to return a Sliver instead of a Widget
+  Widget _buildResultsListSliver(
+    BuildContext context,
+    MedicineProvider provider,
+  ) {
     if (provider.isLoading && provider.filteredMedicines.isEmpty) {
-      return const Center(child: CircularProgressIndicator());
+      return const SliverFillRemaining(
+        // Use SliverFillRemaining for center alignment
+        child: Center(child: CircularProgressIndicator()),
+        hasScrollBody: false,
+      );
     } else if (provider.error.isNotEmpty &&
         provider.filteredMedicines.isEmpty) {
-      return Center(
-        child: Text(
-          'خطأ: ${provider.error}',
-          style: TextStyle(color: Theme.of(context).colorScheme.error),
+      return SliverFillRemaining(
+        // Use SliverFillRemaining
+        child: Center(
+          child: Text(
+            'خطأ: ${provider.error}',
+            style: TextStyle(color: Theme.of(context).colorScheme.error),
+          ),
         ),
+        hasScrollBody: false,
       );
     } else if (provider.filteredMedicines.isEmpty &&
         provider.searchQuery.isNotEmpty) {
       // Show empty state only if a search was performed and yielded no results
-      return _buildEmptySearchMessage(context);
+      return SliverFillRemaining(
+        // Use SliverFillRemaining
+        child: _buildEmptySearchMessage(context),
+        hasScrollBody: false,
+      );
     } else if (provider.filteredMedicines.isEmpty &&
         provider.searchQuery.isEmpty) {
       // Optionally show a prompt to start searching if the list is empty initially
-      return Center(
-        child: Text(
-          'ابدأ البحث عن دواء...',
-          style: TextStyle(color: Theme.of(context).hintColor),
+      return SliverFillRemaining(
+        // Use SliverFillRemaining
+        child: Center(
+          child: Text(
+            'ابدأ البحث عن دواء...',
+            style: TextStyle(color: Theme.of(context).hintColor),
+          ),
         ),
+        hasScrollBody: false,
       );
     }
 
-    // Use ListView.separated for better spacing control (gap-3)
-    return ListView.separated(
+    // Use SliverPadding + SliverList for better spacing control (gap-3)
+    return SliverPadding(
       padding: const EdgeInsets.all(16.0), // p-4 for the list container
-      itemCount: provider.filteredMedicines.length,
-      itemBuilder: (context, index) {
-        final drug = provider.filteredMedicines[index];
-        return DrugCard(
-          drug: drug,
-          type: DrugCardType.detailed, // Use detailed card for search results
-          onTap: () => _navigateToDetails(context, drug),
-        );
-      },
-      separatorBuilder:
-          (context, index) => const SizedBox(height: 12.0), // gap-3
+      sliver: SliverList(
+        delegate: SliverChildBuilderDelegate((context, index) {
+          final drug = provider.filteredMedicines[index];
+          return Padding(
+            // Add padding between items (gap-3 equivalent)
+            padding: const EdgeInsets.only(bottom: 12.0),
+            child: DrugCard(
+              drug: drug,
+              type:
+                  DrugCardType.detailed, // Use detailed card for search results
+              onTap: () => _navigateToDetails(context, drug),
+            ),
+          );
+        }, childCount: provider.filteredMedicines.length),
+      ),
     );
   }
 
