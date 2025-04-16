@@ -5,6 +5,7 @@ import 'package:dartz/dartz.dart';
 import 'package:collection/collection.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
+import '../../data/datasources/local/sqlite_local_data_source.dart';
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
@@ -21,6 +22,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
+  // Add the data source dependency
+  final SqliteLocalDataSource _localDataSource;
   final FileLoggerService _logger = locator<FileLoggerService>();
 
   // --- State variables ---
@@ -82,7 +85,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
     required this.getLastUpdateTimestampUseCase,
-  }) {
+    // Inject the data source
+    required SqliteLocalDataSource localDataSource,
+  }) : _localDataSource = localDataSource {
+    // Initialize it
     _logger.i("MedicineProvider: Constructor called.");
     loadInitialData();
   }
@@ -133,9 +139,15 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _loadSimulatedSections(), // Load simulated data (still fetches small amounts)
     ]);
 
+    _logger.i(
+      "MedicineProvider: Future.wait for initial filters and simulated sections completed.",
+    ); // Log after wait
+
     _isLoading = false; // Set loading false AFTER all waits complete
     _isInitialLoadComplete = true;
-    _logger.i("MedicineProvider: loadInitialData finished.");
+    _logger.i(
+      "MedicineProvider: loadInitialData finished. Setting isLoading=false, isInitialLoadComplete=true.",
+    ); // Log state change
     // Log final state before notifying
     _logger.d(
       "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",

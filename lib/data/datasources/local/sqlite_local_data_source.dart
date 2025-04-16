@@ -124,14 +124,22 @@ class SqliteLocalDataSource {
         print('[Main Thread] Parsing CSV...');
         final medicines = _parseCsvForSeed(rawCsv);
         print('[Main Thread] Parsed ${medicines.length} medicines.');
-
         // Perform DB operations in isolate
         print('[Main Thread] Starting database seeding in isolate...');
-        await compute(_seedDatabaseIsolate, {
-          'dbPath': db.path, // Pass the database path
-          'medicines': medicines,
-        });
-        print('[Main Thread] Isolate seeding completed.');
+        try {
+          await compute(_seedDatabaseIsolate, {
+            'dbPath': db.path, // Pass the database path
+            'medicines': medicines,
+          });
+          print('[Main Thread] Isolate seeding completed successfully.');
+        } catch (isolateError, isolateStacktrace) {
+          print(
+            '[Main Thread] Error received from seeding isolate: $isolateError',
+          );
+          print(isolateStacktrace);
+          // Rethrow the error to be caught by the outer try-catch
+          rethrow;
+        }
 
         // Update timestamp after successful seeding
         final prefs = await _prefs;
@@ -164,14 +172,22 @@ class SqliteLocalDataSource {
       print('[Main Thread] Parsing downloaded CSV...');
       final medicines = _parseCsvForSeed(csvData);
       print('[Main Thread] Parsed ${medicines.length} medicines.');
-
       // Perform DB operations in isolate
       print('[Main Thread] Starting database update in isolate...');
-      await compute(_updateDatabaseIsolate, {
-        'dbPath': db.path,
-        'medicines': medicines,
-      });
-      print('[Main Thread] Isolate update completed.');
+      try {
+        await compute(_updateDatabaseIsolate, {
+          'dbPath': db.path,
+          'medicines': medicines,
+        });
+        print('[Main Thread] Isolate update completed successfully.');
+      } catch (isolateError, isolateStacktrace) {
+        print(
+          '[Main Thread] Error received from update isolate: $isolateError',
+        );
+        print(isolateStacktrace);
+        // Rethrow the error to be caught by the outer try-catch
+        rethrow;
+      }
 
       final prefs = await _prefs;
       await prefs.setInt(

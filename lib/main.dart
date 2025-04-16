@@ -39,14 +39,14 @@ Future<void> main() async {
         onboardingComplete ? const MainScreen() : const OnboardingScreen();
     logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    logger.i("main: Attempting database seeding if needed...");
-    try {
-      final localDataSource = locator<SqliteLocalDataSource>();
-      await localDataSource.seedDatabaseFromAssetIfNeeded();
-      logger.i("main: Database seeding check complete.");
-    } catch (e, s) {
-      logger.e("main: Error during post-locator seeding", e, s);
-    }
+    // logger.i("main: Attempting database seeding if needed..."); // Moved to MedicineProvider
+    // try {
+    //   final localDataSource = locator<SqliteLocalDataSource>();
+    //   await localDataSource.seedDatabaseFromAssetIfNeeded();
+    //   logger.i("main: Database seeding check complete.");
+    // } catch (e, s) {
+    //   logger.e("main: Error during post-locator seeding", e, s);
+    // }
 
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
     locator<SubscriptionProvider>().initialize();
