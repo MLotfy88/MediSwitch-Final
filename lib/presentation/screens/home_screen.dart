@@ -161,6 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
               context,
               title: "الأكثر بحثاً",
               drugs: medicineProvider.popularDrugs,
+              isPopular: true, // Mark these drugs as popular
               onViewAll: () {
                 _logger.i("HomeScreen: View All Popular tapped.");
                 Navigator.push(
@@ -176,13 +177,18 @@ class _HomeScreenState extends State<HomeScreen> {
         // --- All Drugs Section Header ---
         SliverToBoxAdapter(
           child: Padding(
+            // Apply standard horizontal padding and specific bottom margin (mb-4 -> bottom: 16.0)
             padding: const EdgeInsets.only(
-              top: 24.0,
-              bottom: 8.0,
-              right: 16.0,
               left: 16.0,
+              right: 16.0,
+              top: 24.0, // Keep existing top padding
+              bottom: 16.0, // Add bottom padding (mb-4)
             ),
-            child: SectionHeader(title: 'جميع الأدوية'),
+            child: SectionHeader(
+              title: 'جميع الأدوية',
+              padding:
+                  EdgeInsets.zero, // Remove default padding from SectionHeader
+            ),
           ),
         ),
 
@@ -199,6 +205,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     drug: drug,
                     type: DrugCardType.detailed,
                     onTap: () => _navigateToDetails(context, drug),
+                    // isPopular: drug.isPopular, // Assuming DrugEntity has isPopular flag
+                    // isAlternative: drug.isAlternative, // Assuming DrugEntity has isAlternative flag
                   ),
                 ).animate().fadeIn(delay: (index % 10 * 50).ms);
               }, childCount: displayedMedicines.length),
@@ -241,6 +249,7 @@ class _HomeScreenState extends State<HomeScreen> {
     required String title,
     required List<DrugEntity> drugs,
     VoidCallback? onViewAll,
+    bool isPopular = false, // Add isPopular flag
   }) {
     return HorizontalListSection(
       title: title,
@@ -254,6 +263,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 (drug) => DrugCard(
                   drug: drug,
                   type: DrugCardType.thumbnail,
+                  isPopular: isPopular, // Pass the flag here
                   onTap: () => _navigateToDetails(context, drug),
                 ).animate().fadeIn(delay: (drugs.indexOf(drug) * 80).ms),
               )

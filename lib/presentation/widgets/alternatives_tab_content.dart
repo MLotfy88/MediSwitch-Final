@@ -6,6 +6,7 @@ import '../../domain/entities/drug_entity.dart';
 import '../bloc/alternatives_provider.dart';
 import 'drug_card.dart';
 import '../screens/drug_details_screen.dart'; // Import DrugDetailsScreen
+// import '../widgets/custom_badge.dart'; // No longer needed here
 
 class AlternativesTabContent extends StatefulWidget {
   final DrugEntity originalDrug;
@@ -68,9 +69,13 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
             itemCount: provider.alternatives.length,
             itemBuilder: (context, index) {
               final alternative = provider.alternatives[index];
+              // final theme = Theme.of(context); // Get theme for colors/styles - Not needed anymore here
+              // No need to create badgeWidget anymore
+              // final badgeWidget = CustomBadge(...);
               return DrugCard(
                 drug: alternative,
                 type: DrugCardType.detailed,
+                isAlternative: true, // Mark this card as an alternative
                 onTap: () {
                   _logger.i(
                     "AlternativesTabContent: Tapped alternative: ${alternative.tradeName}",
