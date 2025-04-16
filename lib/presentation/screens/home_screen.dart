@@ -246,12 +246,8 @@ class _HomeScreenState extends State<HomeScreen> {
       title: title,
       listHeight: 190,
       onViewAll: onViewAll,
-      headerPadding: const EdgeInsets.only(
-        left: 16,
-        right: 16,
-        top: 24,
-        bottom: 8,
-      ),
+      // headerPadding removed, handled internally
+      listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
           drugs
               .map(
@@ -346,12 +342,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return HorizontalListSection(
       title: 'الفئات الطبية',
       listHeight: 105,
-      headerPadding: const EdgeInsets.only(
-        left: 16,
-        right: 16,
-        top: 24,
-        bottom: 8,
-      ),
+      // headerPadding removed
+      listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
           categories.map((categoryName) {
             return CategoryCard(
