@@ -6,7 +6,8 @@ class HorizontalListSection extends StatelessWidget {
   final List<Widget> children;
   final double listHeight;
   final VoidCallback? onViewAll;
-  final EdgeInsetsGeometry headerPadding;
+  // Remove headerPadding, control padding within this widget
+  // final EdgeInsetsGeometry headerPadding;
   final EdgeInsetsGeometry listPadding;
 
   const HorizontalListSection({
@@ -15,11 +16,12 @@ class HorizontalListSection extends StatelessWidget {
     required this.children,
     required this.listHeight,
     this.onViewAll,
-    this.headerPadding = const EdgeInsets.symmetric(
-      horizontal: 16.0,
-      vertical: 8.0,
-    ),
-    this.listPadding = const EdgeInsets.symmetric(horizontal: 16.0),
+    // Remove headerPadding from constructor
+    this.listPadding = const EdgeInsets.only(
+      left: 16.0,
+      right: 16.0,
+      bottom: 16.0,
+    ), // Add bottom padding to list
   });
 
   @override
@@ -31,25 +33,33 @@ class HorizontalListSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // Section Header
+        // Section Header with specific padding matching design doc (mb-4 -> bottom: 16.0)
         Padding(
-          padding: headerPadding,
+          // Apply standard horizontal padding and specific bottom margin
+          padding: const EdgeInsets.only(
+            left: 16.0,
+            right: 16.0,
+            top: 24.0,
+            bottom: 16.0,
+          ), // Added top padding for consistency
           child: SectionHeader(
             title: title,
-            onViewAll: onViewAll, // Pass the callback
+            onViewAll: onViewAll,
+            padding:
+                EdgeInsets
+                    .zero, // Remove default padding from SectionHeader itself
           ),
         ),
         // Horizontal List
         SizedBox(
           height: listHeight,
           child: ListView.separated(
-            padding: listPadding,
+            padding: listPadding, // Use listPadding for the ListView
             scrollDirection: Axis.horizontal,
             itemCount: children.length,
             itemBuilder: (context, index) => children[index],
             separatorBuilder:
-                (context, index) =>
-                    const SizedBox(width: 12.0), // Spacing between items
+                (context, index) => const SizedBox(width: 12.0), // gap-3 (12px)
           ),
         ),
       ],

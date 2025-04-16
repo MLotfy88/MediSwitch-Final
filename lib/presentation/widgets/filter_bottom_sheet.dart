@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../bloc/medicine_provider.dart';
+// import 'section_header.dart'; // Not used directly in this layout
 
 class FilterBottomSheet extends StatefulWidget {
   final ScrollController scrollController;
