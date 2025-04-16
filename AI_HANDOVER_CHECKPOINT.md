@@ -34,8 +34,8 @@ tml # MediSwitch Project - AI Handover Checkpoint
 
 *   Initial state understanding (Instruction #1) is complete.
 *   Core features implemented based on `@/mediswitch_plan.md` and references from `External source` (which has now been commented out/deleted):
-    *   **Dose Calculator (Task 3.3):** Implemented service, integrated with provider and UI.
-    *   **Interaction Checker (Task 3.5):** Implemented data loading, analysis service (pairwise), provider integration, and UI display. Refactored related entities and fixed resulting import errors.
+    *   **Dose Calculator (Task 3.3):** Implemented service, integrated with provider and UI. (**Deferred for MVP 1.0** - UI shows "Coming Soon").
+    *   **Interaction Checker (Task 3.5):** Implemented data loading, analysis service (pairwise), provider integration, and UI display. Refactored related entities and fixed resulting import errors. (**Deferred for MVP 1.0** - UI shows "Coming Soon").
     *   **Settings Screen (Task 3.6):** Implemented theme/language switching and subscription UI placeholder.
     *   **Image Caching (Task 3.2.11):** Added `CachedNetworkImage` dependency, updated `DrugEntity` and `MedicineModel`, updated CSV parsing, and updated `DrugListItem` widget.
     *   **Wi-Fi Debugging Docs (Task 0.2.5):** Created `README.md` with ADB Wi-Fi debugging steps.
@@ -52,4 +52,18 @@ tml # MediSwitch Project - AI Handover Checkpoint
         *   Some minor UI elements are missing (e.g., "popular" star icon, "alternative" badge, package size info).
         *   The search filter UI is implemented as a `BottomSheet` instead of the specified side sheet.
         *   The secondary font (Roboto) is not actively used.
-*   Refer **strictly** to `@/mediswitch_plan.md` (updated based on this review) to identify the next incomplete task (`[ ]` or `[~]`) and implement it following the established methodology (Instructions #2 & #3).
+*   **Recent Fixes & MVP Preparation:**
+    *   Fixed `HomeScreen` data loading issue (sections now load automatically).
+    *   Fixed `DrugCard` sizing in horizontal lists (`HomeScreen`) by removing fixed height constraints.
+    *   Prepared application for **MVP 1.0 Release** according to `@/RELEASE_PLAN.md`:
+        *   Confirmed core features (Search, Details, Alternatives, Basic UI, Settings) are functional.
+        *   Confirmed AdMob integration (Banner, Interstitial with Test IDs) is present (Task 5.2).
+        *   Deferred Dose Calculator (Task 3.3) and Interaction Checker (Task 3.5) features in the UI (buttons show "Coming Soon").
+        *   Premium features (Task 5.3) remain deferred.
+*   **Next Steps (Towards MVP 1.0 Release):**
+    *   Replace AdMob Test IDs with Production IDs.
+    *   Perform thorough manual testing (Task 7.1.4).
+    *   Consider initial Beta Testing (Task 7.1.5).
+    *   Complete release preparation tasks (signing keys, build configurations - Task 7.2).
+    *   Deploy the MVP 1.0 release (Task 7.3).
+    *   Refer **strictly** to `@/mediswitch_plan.md` and `@/RELEASE_PLAN.md` for detailed task tracking and feature scope.
