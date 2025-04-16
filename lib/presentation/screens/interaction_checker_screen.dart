@@ -63,158 +63,162 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
           ),
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0), // p-4 equivalent
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Text(
-              'الأدوية المختارة:',
-              style: textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(height: 8),
-            Container(
-              padding: const EdgeInsets.all(8.0),
-              decoration: BoxDecoration(
-                color: colorScheme.surfaceVariant.withOpacity(0.3),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              constraints: const BoxConstraints(minHeight: 50),
-              child: Wrap(
-                spacing: 8.0,
-                runSpacing: 4.0,
-                children:
-                    provider.selectedMedicines.isEmpty
-                        ? [
-                          Center(
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(
-                                vertical: 8.0,
-                              ),
-                              child: Text(
-                                'أضف دوائين أو أكثر لبدء الفحص.',
-                                style: textTheme.bodyMedium?.copyWith(
-                                  color: colorScheme.onSurfaceVariant,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ]
-                        : provider.selectedMedicines.map((drug) {
-                          // Apply design styles to the chip
-                          return Chip(
-                            avatar: Icon(
-                              // Add Pill icon
-                              LucideIcons.pill,
-                              size: 16, // h-4 w-4
-                              color: colorScheme.onSecondaryContainer,
-                            ),
-                            label: Text(
-                              drug.tradeName,
-                              style: textTheme.bodyMedium?.copyWith(
-                                // text-sm
-                                color: colorScheme.onSecondaryContainer,
-                              ),
-                            ),
-                            onDeleted: () {
-                              _logger.i(
-                                "InteractionCheckerScreen: Removing drug: ${drug.tradeName}",
-                              );
-                              provider.removeMedicine(drug);
-                            },
-                            deleteIcon: Icon(
-                              LucideIcons.x,
-                              size: 16,
-                            ), // h-4 w-4
-                            deleteIconColor: colorScheme.onSecondaryContainer
-                                .withOpacity(0.7),
-                            backgroundColor:
-                                colorScheme.secondaryContainer, // bg-secondary
-                            shape: const StadiumBorder(), // rounded-full
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 12,
-                              vertical: 6,
-                            ), // px-3 py-1.5 equivalent
-                            materialTapTargetSize:
-                                MaterialTapTargetSize.shrinkWrap,
-                          );
-                        }).toList(),
-              ),
-            ),
-            const SizedBox(height: 16),
-
-            // --- Replace Button with Dropdown ---
-            CustomSearchableDropdown(
-              // Remove generic type argument
-              key: _dropdownKey, // Assign key
-              items: availableDrugs,
-              selectedItem: null, // Always start empty
-              onChanged: (DrugEntity? selectedDrug) {
-                if (selectedDrug != null) {
-                  _logger.i(
-                    "InteractionCheckerScreen: Drug selected via dropdown: ${selectedDrug.tradeName}",
-                  );
-                  provider.addMedicine(selectedDrug);
-                  // Reset the dropdown after selection - Need to access state via key if reset is needed
-                  // (Consider adding a reset method to CustomSearchableDropdownState)
-                  // _dropdownKey.currentState?.resetSelection();
-                  FocusScope.of(context).unfocus(); // Close keyboard
-                }
-              },
-              labelText: 'إضافة دواء للفحص', // Updated label
-              hintText: 'ابحث عن اسم الدواء...',
-              prefixIcon: LucideIcons.plusCircle, // Use PlusCircle icon
-              // No validator needed here as it's for adding, not submitting
-            ),
-
-            // Removed OutlinedButton
-            const SizedBox(height: 24),
-            ElevatedButton.icon(
-              icon:
-                  provider.isLoading
-                      ? Container(
-                        width: 20,
-                        height: 20,
-                        margin: const EdgeInsets.only(left: 8),
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2,
-                          color: colorScheme.onPrimary,
-                        ),
-                      )
-                      : Icon(LucideIcons.zap, size: 18),
-              label: Text(
-                provider.isLoading ? 'جاري الفحص...' : 'فحص التفاعلات',
-              ),
-              onPressed:
-                  provider.isLoading || provider.selectedMedicines.length < 2
-                      ? null
-                      : () {
-                        _logger.i(
-                          "InteractionCheckerScreen: Check Interactions button pressed.",
-                        );
-                        provider.analyzeInteractions();
-                      },
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 14),
-                textStyle: textTheme.titleMedium?.copyWith(
+      // Wrap the body content with SafeArea
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0), // p-4 equivalent
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text(
+                'الأدوية المختارة:',
+                style: textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
               ),
-            ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
-            Text(
-              'نتائج فحص التفاعلات:',
-              style: textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.bold,
+              const SizedBox(height: 8),
+              Container(
+                padding: const EdgeInsets.all(8.0),
+                decoration: BoxDecoration(
+                  color: colorScheme.surfaceVariant.withOpacity(0.3),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                constraints: const BoxConstraints(minHeight: 50),
+                child: Wrap(
+                  spacing: 8.0,
+                  runSpacing: 4.0,
+                  children:
+                      provider.selectedMedicines.isEmpty
+                          ? [
+                            Center(
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 8.0,
+                                ),
+                                child: Text(
+                                  'أضف دوائين أو أكثر لبدء الفحص.',
+                                  style: textTheme.bodyMedium?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ]
+                          : provider.selectedMedicines.map((drug) {
+                            // Apply design styles to the chip
+                            return Chip(
+                              avatar: Icon(
+                                // Add Pill icon
+                                LucideIcons.pill,
+                                size: 16, // h-4 w-4
+                                color: colorScheme.onSecondaryContainer,
+                              ),
+                              label: Text(
+                                drug.tradeName,
+                                style: textTheme.bodyMedium?.copyWith(
+                                  // text-sm
+                                  color: colorScheme.onSecondaryContainer,
+                                ),
+                              ),
+                              onDeleted: () {
+                                _logger.i(
+                                  "InteractionCheckerScreen: Removing drug: ${drug.tradeName}",
+                                );
+                                provider.removeMedicine(drug);
+                              },
+                              deleteIcon: Icon(
+                                LucideIcons.x,
+                                size: 16,
+                              ), // h-4 w-4
+                              deleteIconColor: colorScheme.onSecondaryContainer
+                                  .withOpacity(0.7),
+                              backgroundColor:
+                                  colorScheme
+                                      .secondaryContainer, // bg-secondary
+                              shape: const StadiumBorder(), // rounded-full
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 6,
+                              ), // px-3 py-1.5 equivalent
+                              materialTapTargetSize:
+                                  MaterialTapTargetSize.shrinkWrap,
+                            );
+                          }).toList(),
+                ),
               ),
-            ),
-            const SizedBox(height: 12),
-            Expanded(child: _buildResultsArea(context, provider)),
-          ],
+              const SizedBox(height: 16),
+
+              // --- Replace Button with Dropdown ---
+              CustomSearchableDropdown(
+                // Remove generic type argument
+                key: _dropdownKey, // Assign key
+                items: availableDrugs,
+                selectedItem: null, // Always start empty
+                onChanged: (DrugEntity? selectedDrug) {
+                  if (selectedDrug != null) {
+                    _logger.i(
+                      "InteractionCheckerScreen: Drug selected via dropdown: ${selectedDrug.tradeName}",
+                    );
+                    provider.addMedicine(selectedDrug);
+                    // Reset the dropdown after selection - Need to access state via key if reset is needed
+                    // (Consider adding a reset method to CustomSearchableDropdownState)
+                    // _dropdownKey.currentState?.resetSelection();
+                    FocusScope.of(context).unfocus(); // Close keyboard
+                  }
+                },
+                labelText: 'إضافة دواء للفحص', // Updated label
+                hintText: 'ابحث عن اسم الدواء...',
+                prefixIcon: LucideIcons.plusCircle, // Use PlusCircle icon
+                // No validator needed here as it's for adding, not submitting
+              ),
+
+              // Removed OutlinedButton
+              const SizedBox(height: 24),
+              ElevatedButton.icon(
+                icon:
+                    provider.isLoading
+                        ? Container(
+                          width: 20,
+                          height: 20,
+                          margin: const EdgeInsets.only(left: 8),
+                          child: CircularProgressIndicator(
+                            strokeWidth: 2,
+                            color: colorScheme.onPrimary,
+                          ),
+                        )
+                        : Icon(LucideIcons.zap, size: 18),
+                label: Text(
+                  provider.isLoading ? 'جاري الفحص...' : 'فحص التفاعلات',
+                ),
+                onPressed:
+                    provider.isLoading || provider.selectedMedicines.length < 2
+                        ? null
+                        : () {
+                          _logger.i(
+                            "InteractionCheckerScreen: Check Interactions button pressed.",
+                          );
+                          provider.analyzeInteractions();
+                        },
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(vertical: 14),
+                  textStyle: textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 24),
+              const Divider(),
+              const SizedBox(height: 16),
+              Text(
+                'نتائج فحص التفاعلات:',
+                style: textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Expanded(child: _buildResultsArea(context, provider)),
+            ],
+          ),
         ),
       ),
     );

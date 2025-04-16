@@ -117,30 +117,34 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           child: Container(color: colorScheme.outline, height: 1.0),
         ),
       ),
-      body: ListView(
-        // Use ListView for the main layout
-        padding: EdgeInsets.zero,
-        children: [
-          _buildHeaderContent(context, colorScheme, textTheme),
-          _buildActionButtons(context, colorScheme, textTheme),
-          _buildTabBar(context, colorScheme, textTheme),
-          // Use a Container with fixed height for TabBarView content
-          Container(
-            // Adjust height based on expected content size or screen percentage
-            height: MediaQuery.of(context).size.height * 0.35, // Example height
-            child: TabBarView(
-              controller: _tabController,
-              children: [
-                _buildInfoTab(context, colorScheme, textTheme),
-                _buildUsageTab(context, colorScheme, textTheme),
-                _buildDosageTab(context, colorScheme, textTheme),
-                _buildSideEffectsTab(context, colorScheme, textTheme),
-                _buildContraindicationsTab(context, colorScheme, textTheme),
-              ],
+      // Wrap the body content with SafeArea
+      body: SafeArea(
+        child: ListView(
+          // Use ListView for the main layout
+          padding: EdgeInsets.zero,
+          children: [
+            _buildHeaderContent(context, colorScheme, textTheme),
+            _buildActionButtons(context, colorScheme, textTheme),
+            _buildTabBar(context, colorScheme, textTheme),
+            // Use a Container with fixed height for TabBarView content
+            Container(
+              // Adjust height based on expected content size or screen percentage
+              height:
+                  MediaQuery.of(context).size.height * 0.35, // Example height
+              child: TabBarView(
+                controller: _tabController,
+                children: [
+                  _buildInfoTab(context, colorScheme, textTheme),
+                  _buildUsageTab(context, colorScheme, textTheme),
+                  _buildDosageTab(context, colorScheme, textTheme),
+                  _buildSideEffectsTab(context, colorScheme, textTheme),
+                  _buildContraindicationsTab(context, colorScheme, textTheme),
+                ],
+              ),
             ),
-          ),
-          _buildAlternativesSection(context, colorScheme, textTheme),
-        ],
+            _buildAlternativesSection(context, colorScheme, textTheme),
+          ],
+        ),
       ),
     );
   }
