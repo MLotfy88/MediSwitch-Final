@@ -57,14 +57,25 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // Re-add _onScroll method for pagination
   void _onScroll() {
-    if (_scrollController.position.pixels >=
-            _scrollController.position.maxScrollExtent - 300 &&
-        context.read<MedicineProvider>().hasMoreItems &&
-        !context.read<MedicineProvider>().isLoadingMore &&
-        !context.read<MedicineProvider>().isLoading) {
+    final provider = context.read<MedicineProvider>();
+    final currentPixels = _scrollController.position.pixels;
+    final maxScroll = _scrollController.position.maxScrollExtent;
+    final triggerPoint = maxScroll - 300;
+    final shouldLoadMore =
+        currentPixels >= triggerPoint &&
+        provider.hasMoreItems &&
+        !provider.isLoadingMore &&
+        !provider.isLoading;
+
+    // Log scroll position and trigger condition evaluation
+    _logger.v(
+      "HomeScreen _onScroll: Pixels=$currentPixels, MaxScroll=$maxScroll, TriggerAt=$triggerPoint, HasMore=${provider.hasMoreItems}, IsLoadingMore=${provider.isLoadingMore}, IsLoading=${provider.isLoading}, ShouldLoad=$shouldLoadMore",
+    );
+
+    if (shouldLoadMore) {
       _logger.i("HomeScreen: Reached near bottom, calling loadMoreDrugs...");
       try {
-        context.read<MedicineProvider>().loadMoreDrugs();
+        provider.loadMoreDrugs();
       } catch (e, s) {
         _logger.e("HomeScreen: Error calling loadMoreDrugs", e, s);
       }
@@ -145,10 +156,14 @@ class _HomeScreenState extends State<HomeScreen> {
       controller: _scrollController, // Re-add controller
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
-        SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+        // Only build categories if initial load is complete
+        if (medicineProvider.isInitialLoadComplete)
+          SliverToBoxAdapter(child: _buildCategoriesSection(context)),
 
         // --- Recently Updated Section ---
-        if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+        // Only build if initial load is complete AND list is not empty
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: _buildHorizontalDrugList(
               context,
@@ -167,7 +182,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
         // --- Popular Drugs Section ---
-        if (medicineProvider.popularDrugs.isNotEmpty)
+        // Only build if initial load is complete AND list is not empty
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.popularDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: _buildHorizontalDrugList(
               context,
