@@ -348,21 +348,28 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               label: const Text('حساب الجرعة'),
               onPressed: () {
                 _logger.i(
-                  "DrugDetailsScreen: Navigate to WeightCalculator tapped.",
+                  "DrugDetailsScreen: Dose Calculator button tapped (Deferred for MVP).",
                 );
-                context.read<DoseCalculatorProvider>().setSelectedDrug(
-                  widget.drug,
-                );
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const WeightCalculatorScreen(),
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('ميزة حاسبة الجرعات قيد التطوير (قريباً).'),
+                    duration: Duration(seconds: 2),
                   ),
                 );
+                // context.read<DoseCalculatorProvider>().setSelectedDrug(
+                //   widget.drug,
+                // );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (context) => const WeightCalculatorScreen(),
+                //   ),
+                // );
               },
               style: OutlinedButton.styleFrom(
-                foregroundColor:
-                    colorScheme.onSurfaceVariant, // Match text color
+                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(
+                  0.6,
+                ), // Dimmed text
                 side: BorderSide(color: colorScheme.outline), // border-border
               ),
             ),
@@ -374,19 +381,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               label: const Text('التفاعلات الدوائية'),
               onPressed: () {
                 _logger.i(
-                  "DrugDetailsScreen: Navigate to InteractionChecker tapped.",
+                  "DrugDetailsScreen: Interaction Checker button tapped (Deferred for MVP).",
                 );
-                context.read<InteractionProvider>().addMedicine(widget.drug);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const InteractionCheckerScreen(),
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('ميزة مدقق التفاعلات قيد التطوير (قريباً).'),
+                    duration: Duration(seconds: 2),
                   ),
                 );
+                // context.read<InteractionProvider>().addMedicine(widget.drug);
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (context) => const InteractionCheckerScreen(),
+                //   ),
+                // );
               },
               style: OutlinedButton.styleFrom(
-                foregroundColor: colorScheme.onSurfaceVariant,
-                side: BorderSide(color: colorScheme.outline),
+                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(
+                  0.6,
+                ), // Dimmed text
+                side: BorderSide(
+                  color: colorScheme.outline.withOpacity(0.6),
+                ), // Dimmed border
               ),
             ),
           ),

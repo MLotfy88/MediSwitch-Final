@@ -4,7 +4,7 @@ import 'section_header.dart'; // Assuming SectionHeader exists
 class HorizontalListSection extends StatelessWidget {
   final String title;
   final List<Widget> children;
-  final double listHeight;
+  final double? listHeight; // Make listHeight optional
   final VoidCallback? onViewAll;
   // Remove headerPadding, control padding within this widget
   // final EdgeInsetsGeometry headerPadding;
@@ -14,7 +14,7 @@ class HorizontalListSection extends StatelessWidget {
     super.key,
     required this.title,
     required this.children,
-    required this.listHeight,
+    this.listHeight, // Make listHeight optional in constructor
     this.onViewAll,
     // Remove headerPadding from constructor
     this.listPadding = const EdgeInsets.only(
@@ -50,19 +50,40 @@ class HorizontalListSection extends StatelessWidget {
                     .zero, // Remove default padding from SectionHeader itself
           ),
         ),
-        // Horizontal List
-        SizedBox(
-          height: listHeight,
-          child: ListView.separated(
-            padding: listPadding, // Use listPadding for the ListView
-            scrollDirection: Axis.horizontal,
-            itemCount: children.length,
-            itemBuilder: (context, index) => children[index],
-            separatorBuilder:
-                (context, index) => const SizedBox(width: 12.0), // gap-3 (12px)
-          ),
-        ),
+        // Horizontal List - Conditionally wrap with SizedBox based on listHeight
+        _buildHorizontalList(),
       ],
     );
+  }
+
+  // Helper method to build the horizontal list conditionally
+  Widget _buildHorizontalList() {
+    if (listHeight != null) {
+      // If height is provided, wrap in SizedBox
+      return SizedBox(
+        height: listHeight,
+        child: ListView.separated(
+          padding: listPadding,
+          scrollDirection: Axis.horizontal,
+          itemCount: children.length,
+          itemBuilder: (context, index) => children[index],
+          separatorBuilder:
+              (context, index) => const SizedBox(width: 12.0), // gap-3 (12px)
+        ),
+      );
+    } else {
+      // If height is null, let the ListView determine its height
+      return ListView.separated(
+        padding: listPadding,
+        scrollDirection: Axis.horizontal,
+        shrinkWrap: true, // Important for intrinsic height in horizontal list
+        physics:
+            const ClampingScrollPhysics(), // Good practice for shrinkWrap lists
+        itemCount: children.length,
+        itemBuilder: (context, index) => children[index],
+        separatorBuilder:
+            (context, index) => const SizedBox(width: 12.0), // gap-3 (12px)
+      );
+    }
   }
 }

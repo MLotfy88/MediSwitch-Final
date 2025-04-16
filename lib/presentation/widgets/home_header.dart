@@ -38,7 +38,7 @@ class HomeHeader extends StatelessWidget {
             ), // Add some start padding
             child: Image.asset(
               'assets/images/logo.png', // Ensure logo path is correct
-              height: 32, // Adjust height slightly within the 40px bar
+              height: 40, // Adjust height slightly within the 40px bar
               // color: colorScheme.onTertiary, // Apply white color if logo is single color
             ),
           ),
@@ -46,7 +46,7 @@ class HomeHeader extends StatelessWidget {
           IconButton(
             icon: Icon(
               LucideIcons.bell,
-              size: 20,
+              size: 30,
               color: colorScheme.onTertiary,
             ), // h-5 w-5, white
             onPressed: () {

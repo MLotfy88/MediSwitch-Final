@@ -36,6 +36,15 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     _logger.i("HomeScreen: initState called.");
     _scrollController.addListener(_onScroll); // Re-add listener
+
+    // Trigger initial data load after the first frame
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        // Check if the widget is still in the tree
+        _logger.i("HomeScreen: Triggering initial data load from initState.");
+        context.read<MedicineProvider>().loadInitialData();
+      }
+    });
   }
 
   @override
@@ -256,7 +265,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }) {
     return HorizontalListSection(
       title: title,
-      listHeight: 190,
+      // listHeight: 190, // Removed fixed height
       onViewAll: onViewAll,
       // headerPadding removed, handled internally
       listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
