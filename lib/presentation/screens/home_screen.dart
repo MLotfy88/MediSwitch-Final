@@ -77,38 +77,41 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     return Scaffold(
-      body: Column(
-        children: [
-          const HomeHeader(),
-          Expanded(
-            child: RefreshIndicator(
-              onRefresh: () {
-                _logger.i("HomeScreen: RefreshIndicator triggered.");
-                // Reload all data, including the full list for local filtering
-                return context.read<MedicineProvider>().loadInitialData(
-                  forceUpdate: true,
-                );
-              },
-              // Update loading check
-              child:
-                  isLoading &&
-                          displayedMedicines.isEmpty &&
-                          medicineProvider.recentlyUpdatedDrugs.isEmpty &&
-                          medicineProvider.popularDrugs.isEmpty
-                      ? _buildLoadingIndicator()
-                      // Pass isLoadingMore back to _buildContent
-                      : _buildContent(
-                        context,
-                        medicineProvider,
-                        displayedMedicines,
-                        isLoading,
-                        isLoadingMore,
-                        error,
-                      ),
+      // Wrap the body content with SafeArea
+      body: SafeArea(
+        child: Column(
+          children: [
+            const HomeHeader(),
+            Expanded(
+              child: RefreshIndicator(
+                onRefresh: () {
+                  _logger.i("HomeScreen: RefreshIndicator triggered.");
+                  // Reload all data, including the full list for local filtering
+                  return context.read<MedicineProvider>().loadInitialData(
+                    forceUpdate: true,
+                  );
+                },
+                // Update loading check
+                child:
+                    isLoading &&
+                            displayedMedicines.isEmpty &&
+                            medicineProvider.recentlyUpdatedDrugs.isEmpty &&
+                            medicineProvider.popularDrugs.isEmpty
+                        ? _buildLoadingIndicator()
+                        // Pass isLoadingMore back to _buildContent
+                        : _buildContent(
+                          context,
+                          medicineProvider,
+                          displayedMedicines,
+                          isLoading,
+                          isLoadingMore,
+                          error,
+                        ),
+              ),
             ),
-          ),
-          const BannerAdWidget(),
-        ],
+            const BannerAdWidget(),
+          ],
+        ),
       ),
     );
   }

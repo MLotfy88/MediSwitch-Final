@@ -26,208 +26,214 @@ class SettingsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text('الإعدادات')),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
-        children: [
-          // --- Profile Section (Placeholder) ---
-          _buildProfileSection(context), // Call the helper
-          const SizedBox(height: 16),
+      // Wrap the body content with SafeArea
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
+          children: [
+            // --- Profile Section (Placeholder) ---
+            _buildProfileSection(context), // Call the helper
+            const SizedBox(height: 16),
 
-          // --- General Section ---
-          _buildSectionCard(
-            context,
-            title: 'عام',
-            children: [
-              SettingsListTile(
-                title: 'اللغة',
-                subtitle:
-                    settingsProvider.locale.languageCode == 'ar'
-                        ? 'العربية'
-                        : 'English',
-                leadingIcon: LucideIcons.globe,
-                trailing: Icon(
-                  LucideIcons.chevronLeft,
-                  size: 18,
-                  color: colorScheme.onSurfaceVariant,
+            // --- General Section ---
+            _buildSectionCard(
+              context,
+              title: 'عام',
+              children: [
+                SettingsListTile(
+                  title: 'اللغة',
+                  subtitle:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'العربية'
+                          : 'English',
+                  leadingIcon: LucideIcons.globe,
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap: () {
+                    _logger.i("SettingsScreen: Language tile tapped.");
+                    _showLanguageDialog(context, settingsProvider);
+                  },
                 ),
-                onTap: () {
-                  _logger.i("SettingsScreen: Language tile tapped.");
-                  _showLanguageDialog(context, settingsProvider);
-                },
-              ),
-              const Divider(height: 1, indent: 56),
-              SettingsListTile(
-                title: 'المظهر',
-                subtitle: _themeModeToString(settingsProvider.themeMode),
-                leadingIcon:
-                    isDarkMode(context) ? LucideIcons.moon : LucideIcons.sun,
-                trailing: Switch(
-                  value: settingsProvider.themeMode == ThemeMode.dark,
-                  onChanged: (isDark) {
+                const Divider(height: 1, indent: 56),
+                SettingsListTile(
+                  title: 'المظهر',
+                  subtitle: _themeModeToString(settingsProvider.themeMode),
+                  leadingIcon:
+                      isDarkMode(context) ? LucideIcons.moon : LucideIcons.sun,
+                  trailing: Switch(
+                    value: settingsProvider.themeMode == ThemeMode.dark,
+                    onChanged: (isDark) {
+                      _logger.i(
+                        "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
+                      );
+                      settingsProvider.updateThemeMode(
+                        isDark ? ThemeMode.dark : ThemeMode.light,
+                      );
+                    },
+                  ),
+                  onTap: () {
+                    bool currentIsDark =
+                        settingsProvider.themeMode == ThemeMode.dark;
                     _logger.i(
-                      "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
+                      "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
                     );
                     settingsProvider.updateThemeMode(
-                      isDark ? ThemeMode.dark : ThemeMode.light,
+                      currentIsDark ? ThemeMode.light : ThemeMode.dark,
                     );
                   },
                 ),
-                onTap: () {
-                  bool currentIsDark =
-                      settingsProvider.themeMode == ThemeMode.dark;
-                  _logger.i(
-                    "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
-                  );
-                  settingsProvider.updateThemeMode(
-                    currentIsDark ? ThemeMode.light : ThemeMode.dark,
-                  );
-                },
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
+              ],
+            ),
+            const SizedBox(height: 16),
 
-          // --- Data Section ---
-          _buildSectionCard(
-            context,
-            title: 'البيانات',
-            children: [
-              SettingsListTile(
-                title: 'آخر تحديث للبيانات',
-                subtitle: medicineProvider.lastUpdateTimestampFormatted,
-                leadingIcon: LucideIcons.refreshCw,
-                trailing: IconButton(
-                  icon: Icon(LucideIcons.refreshCw, size: 20),
-                  tooltip: 'التحقق من وجود تحديث',
-                  onPressed: () async {
-                    _logger.i("SettingsScreen: Refresh data button pressed.");
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('جاري التحقق من التحديثات...'),
-                      ),
-                    );
-                    await medicineProvider.loadInitialData();
-                    if (context.mounted) {
-                      ScaffoldMessenger.of(context).hideCurrentSnackBar();
+            // --- Data Section ---
+            _buildSectionCard(
+              context,
+              title: 'البيانات',
+              children: [
+                SettingsListTile(
+                  title: 'آخر تحديث للبيانات',
+                  subtitle: medicineProvider.lastUpdateTimestampFormatted,
+                  leadingIcon: LucideIcons.refreshCw,
+                  trailing: IconButton(
+                    icon: Icon(LucideIcons.refreshCw, size: 20),
+                    tooltip: 'التحقق من وجود تحديث',
+                    onPressed: () async {
+                      _logger.i("SettingsScreen: Refresh data button pressed.");
                       ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            medicineProvider.error.contains('فشل')
-                                ? medicineProvider.error
-                                : 'البيانات محدثة.',
-                          ),
-                          duration: const Duration(seconds: 2),
+                        const SnackBar(
+                          content: Text('جاري التحقق من التحديثات...'),
                         ),
                       );
-                    }
+                      await medicineProvider.loadInitialData();
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              medicineProvider.error.contains('فشل')
+                                  ? medicineProvider.error
+                                  : 'البيانات محدثة.',
+                            ),
+                            duration: const Duration(seconds: 2),
+                          ),
+                        );
+                      }
+                      _logger.i(
+                        "SettingsScreen: Refresh data complete. Error: '${medicineProvider.error}'",
+                      );
+                    },
+                    splashRadius: 24,
+                  ),
+                  onTap: null,
+                ),
+              ],
+            ),
+            const SizedBox(height: 16),
+
+            // --- Subscription Section ---
+            _buildSectionCard(
+              context,
+              title: 'الاشتراك',
+              children: [
+                SettingsListTile(
+                  title: 'إدارة الاشتراك',
+                  subtitle: 'الترقية إلى Premium',
+                  leadingIcon: LucideIcons.creditCard,
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap: () {
                     _logger.i(
-                      "SettingsScreen: Refresh data complete. Error: '${medicineProvider.error}'",
+                      "SettingsScreen: Manage Subscription tile tapped.",
+                    );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const SubscriptionScreen(),
+                      ),
                     );
                   },
-                  splashRadius: 24,
                 ),
-                onTap: null,
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
+              ],
+            ),
+            const SizedBox(height: 16),
 
-          // --- Subscription Section ---
-          _buildSectionCard(
-            context,
-            title: 'الاشتراك',
-            children: [
-              SettingsListTile(
-                title: 'إدارة الاشتراك',
-                subtitle: 'الترقية إلى Premium',
-                leadingIcon: LucideIcons.creditCard,
-                trailing: Icon(
-                  LucideIcons.chevronLeft,
-                  size: 18,
-                  color: colorScheme.onSurfaceVariant,
+            // --- About Section ---
+            _buildSectionCard(
+              context,
+              title: 'حول التطبيق',
+              children: [
+                SettingsListTile(
+                  title: 'عن MediSwitch',
+                  leadingIcon: LucideIcons.info,
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap: () => _launchUrl('https://your-about-us-url.com'),
                 ),
-                onTap: () {
-                  _logger.i("SettingsScreen: Manage Subscription tile tapped.");
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const SubscriptionScreen(),
-                    ),
-                  );
+                const Divider(height: 1, indent: 56),
+                SettingsListTile(
+                  title: 'سياسة الخصوصية',
+                  leadingIcon: LucideIcons.shieldCheck,
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap:
+                      () => _launchUrl('https://your-privacy-policy-url.com'),
+                ),
+                const Divider(height: 1, indent: 56),
+                SettingsListTile(
+                  title: 'شروط الاستخدام',
+                  leadingIcon: LucideIcons.gavel,
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap:
+                      () => _launchUrl('https://your-terms-of-service-url.com'),
+                ),
+                const Divider(height: 1, indent: 56),
+                SettingsListTile(
+                  title: 'إصدار التطبيق',
+                  subtitle: '1.0.0+1', // TODO: Get version dynamically
+                  leadingIcon: LucideIcons.tag,
+                  onTap: null,
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+
+            // --- Logout Button ---
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              child: ElevatedButton.icon(
+                icon: Icon(LucideIcons.logOut, size: 18),
+                label: const Text('تسجيل الخروج'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: colorScheme.error,
+                  foregroundColor: colorScheme.onError,
+                  minimumSize: const Size(double.infinity, 48),
+                ),
+                onPressed: () {
+                  _logger.i("SettingsScreen: Logout button pressed.");
+                  // TODO: Implement logout logic
                 },
               ),
-            ],
-          ),
-          const SizedBox(height: 16),
-
-          // --- About Section ---
-          _buildSectionCard(
-            context,
-            title: 'حول التطبيق',
-            children: [
-              SettingsListTile(
-                title: 'عن MediSwitch',
-                leadingIcon: LucideIcons.info,
-                trailing: Icon(
-                  LucideIcons.chevronLeft,
-                  size: 18,
-                  color: colorScheme.onSurfaceVariant,
-                ),
-                onTap: () => _launchUrl('https://your-about-us-url.com'),
-              ),
-              const Divider(height: 1, indent: 56),
-              SettingsListTile(
-                title: 'سياسة الخصوصية',
-                leadingIcon: LucideIcons.shieldCheck,
-                trailing: Icon(
-                  LucideIcons.chevronLeft,
-                  size: 18,
-                  color: colorScheme.onSurfaceVariant,
-                ),
-                onTap: () => _launchUrl('https://your-privacy-policy-url.com'),
-              ),
-              const Divider(height: 1, indent: 56),
-              SettingsListTile(
-                title: 'شروط الاستخدام',
-                leadingIcon: LucideIcons.gavel,
-                trailing: Icon(
-                  LucideIcons.chevronLeft,
-                  size: 18,
-                  color: colorScheme.onSurfaceVariant,
-                ),
-                onTap:
-                    () => _launchUrl('https://your-terms-of-service-url.com'),
-              ),
-              const Divider(height: 1, indent: 56),
-              SettingsListTile(
-                title: 'إصدار التطبيق',
-                subtitle: '1.0.0+1', // TODO: Get version dynamically
-                leadingIcon: LucideIcons.tag,
-                onTap: null,
-              ),
-            ],
-          ),
-          const SizedBox(height: 24),
-
-          // --- Logout Button ---
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8.0),
-            child: ElevatedButton.icon(
-              icon: Icon(LucideIcons.logOut, size: 18),
-              label: const Text('تسجيل الخروج'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: colorScheme.error,
-                foregroundColor: colorScheme.onError,
-                minimumSize: const Size(double.infinity, 48),
-              ),
-              onPressed: () {
-                _logger.i("SettingsScreen: Logout button pressed.");
-                // TODO: Implement logout logic
-              },
             ),
-          ),
-          const SizedBox(height: 16),
-        ],
+            const SizedBox(height: 16),
+          ],
+        ),
       ),
     );
   }

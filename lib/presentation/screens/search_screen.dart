@@ -68,11 +68,6 @@ class _SearchScreenState extends State<SearchScreen> {
     });
   }
 
-  // void _showFilterSheet() { // Replaced by _openFilterDrawer
-  //   _logger.i("SearchScreen: Filter button tapped.");
-  //   showModalBottomSheet(...);
-  // }
-
   void _openFilterDrawer() {
     _logger.i("SearchScreen: Filter button tapped, opening end drawer.");
     _scaffoldKey.currentState?.openEndDrawer(); // Use key to open drawer
@@ -99,93 +94,96 @@ class _SearchScreenState extends State<SearchScreen> {
     return Scaffold(
       key: _scaffoldKey, // Assign key
       endDrawer: const FilterEndDrawer(), // Add the drawer
-      body: Column(
-        children: [
-          Expanded(
-            child: CustomScrollView(
-              // Use CustomScrollView for SliverAppBar
-              slivers: <Widget>[
-                SliverAppBar(
-                  backgroundColor: colorScheme.surface, // bg-card
-                  foregroundColor:
-                      colorScheme.onSurfaceVariant, // text-muted-foreground
-                  elevation: 0, // Remove shadow
-                  pinned: true, // Make AppBar sticky
-                  floating: true, // Allow AppBar to reappear on scroll up
-                  leading: IconButton(
-                    icon: Icon(LucideIcons.arrowLeft, size: 20), // h-5 w-5
-                    onPressed: () => Navigator.of(context).pop(),
-                    tooltip: 'رجوع',
-                  ),
-                  titleSpacing: 0, // Remove default title spacing
-                  title: TextField(
-                    controller: _searchController,
-                    autofocus: widget.initialQuery.isEmpty,
-                    decoration: InputDecoration(
-                      hintText: 'ابحث عن دواء...',
-                      border: InputBorder.none,
-                      enabledBorder: InputBorder.none,
-                      focusedBorder: InputBorder.none,
-                      prefixIcon: Icon(
-                        LucideIcons.search,
-                        size: 16,
-                        color: colorScheme.onSurfaceVariant,
-                      ), // h-4 w-4
-                      suffixIcon:
-                          _searchController.text.isNotEmpty
-                              ? IconButton(
-                                icon: Icon(
-                                  LucideIcons.x,
-                                  size: 16,
-                                  color: colorScheme.onSurfaceVariant,
-                                ),
-                                onPressed: () {
-                                  _searchController.clear();
-                                },
-                                splashRadius: 18,
-                              )
-                              : null,
-                      contentPadding: const EdgeInsets.symmetric(
-                        vertical: 10,
-                      ), // py-2 equivalent
+      // Wrap the body content with SafeArea
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: CustomScrollView(
+                // Use CustomScrollView for SliverAppBar
+                slivers: <Widget>[
+                  SliverAppBar(
+                    backgroundColor: colorScheme.surface, // bg-card
+                    foregroundColor:
+                        colorScheme.onSurfaceVariant, // text-muted-foreground
+                    elevation: 0, // Remove shadow
+                    pinned: true, // Make AppBar sticky
+                    floating: true, // Allow AppBar to reappear on scroll up
+                    leading: IconButton(
+                      icon: Icon(LucideIcons.arrowLeft, size: 20), // h-5 w-5
+                      onPressed: () => Navigator.of(context).pop(),
+                      tooltip: 'رجوع',
                     ),
-                    style: theme.textTheme.bodyLarge,
-                  ),
-                  actions: [
-                    // Updated Filter Button Style (Ghost)
-                    TextButton(
-                      onPressed: _openFilterDrawer,
-                      style: TextButton.styleFrom(
-                        foregroundColor:
-                            colorScheme.onSurfaceVariant, // Icon/Text color
-                        shape:
-                            const CircleBorder(), // Make it circular like IconButton
-                        padding: const EdgeInsets.all(8.0), // Adjust padding
-                        minimumSize:
-                            Size.zero, // Remove minimum size constraint
+                    titleSpacing: 0, // Remove default title spacing
+                    title: TextField(
+                      controller: _searchController,
+                      autofocus: widget.initialQuery.isEmpty,
+                      decoration: InputDecoration(
+                        hintText: 'ابحث عن دواء...',
+                        border: InputBorder.none,
+                        enabledBorder: InputBorder.none,
+                        focusedBorder: InputBorder.none,
+                        prefixIcon: Icon(
+                          LucideIcons.search,
+                          size: 16,
+                          color: colorScheme.onSurfaceVariant,
+                        ), // h-4 w-4
+                        suffixIcon:
+                            _searchController.text.isNotEmpty
+                                ? IconButton(
+                                  icon: Icon(
+                                    LucideIcons.x,
+                                    size: 16,
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                                  onPressed: () {
+                                    _searchController.clear();
+                                  },
+                                  splashRadius: 18,
+                                )
+                                : null,
+                        contentPadding: const EdgeInsets.symmetric(
+                          vertical: 10,
+                        ), // py-2 equivalent
                       ),
-                      child: Icon(LucideIcons.filter, size: 20), // h-5 w-5
+                      style: theme.textTheme.bodyLarge,
                     ),
-                    const SizedBox(width: 8), // Add some padding
-                  ],
-                  bottom: PreferredSize(
-                    // Add bottom border
-                    preferredSize: const Size.fromHeight(1.0),
-                    child: Container(
-                      color: colorScheme.outline,
-                      height: 1.0,
-                    ), // border-b border-border
+                    actions: [
+                      // Updated Filter Button Style (Ghost)
+                      TextButton(
+                        onPressed: _openFilterDrawer,
+                        style: TextButton.styleFrom(
+                          foregroundColor:
+                              colorScheme.onSurfaceVariant, // Icon/Text color
+                          shape:
+                              const CircleBorder(), // Make it circular like IconButton
+                          padding: const EdgeInsets.all(8.0), // Adjust padding
+                          minimumSize:
+                              Size.zero, // Remove minimum size constraint
+                        ),
+                        child: Icon(LucideIcons.filter, size: 20), // h-5 w-5
+                      ),
+                      const SizedBox(width: 8), // Add some padding
+                    ],
+                    bottom: PreferredSize(
+                      // Add bottom border
+                      preferredSize: const Size.fromHeight(1.0),
+                      child: Container(
+                        color: colorScheme.outline,
+                        height: 1.0,
+                      ), // border-b border-border
+                    ),
                   ),
-                ),
-                _buildResultsListSliver(
-                  context,
-                  provider,
-                ), // Build results as sliver
-              ],
+                  _buildResultsListSliver(
+                    context,
+                    provider,
+                  ), // Build results as sliver
+                ],
+              ),
             ),
-          ),
-          const BannerAdWidget(), // Keep banner ad at the bottom
-        ],
+            const BannerAdWidget(), // Keep banner ad at the bottom
+          ],
+        ),
       ),
     );
   }
