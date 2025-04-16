@@ -14,7 +14,7 @@ class HomeHeader extends StatelessWidget {
       // Use tertiary color for background as defined in theme
       color: colorScheme.tertiary,
       // Apply specific height and padding from design doc
-      height: 40.0, // h-10
+      height: 60.0, // Increased height from 40.0
       padding: const EdgeInsets.symmetric(
         horizontal: 4.0,
       ), // px-1 (adjust if p-1 meant all sides)
@@ -38,7 +38,7 @@ class HomeHeader extends StatelessWidget {
             ), // Add some start padding
             child: Image.asset(
               'assets/images/logo.png', // Ensure logo path is correct
-              height: 40, // Adjust height slightly within the 40px bar
+              height: 50, // Increased height from 40
               // color: colorScheme.onTertiary, // Apply white color if logo is single color
             ),
           ),
