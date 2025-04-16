@@ -326,12 +326,29 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesSection(BuildContext context) {
-    final categories = context.watch<MedicineProvider>().categories;
-    _logger.v(
-      "HomeScreen: Building categories section with ${categories.length} categories.",
-    );
+    // Assumed English to Arabic mapping (adjust keys based on actual DB values)
+    const Map<String, String> categoryTranslation = {
+      'Painkillers': 'مسكنات الألم',
+      'Antibiotics': 'مضادات حيوية',
+      'Cardiovascular': 'أمراض القلب', // Example, adjust key
+      'Chronic Diseases': 'أمراض مزمنة', // Example, adjust key
+      'Vitamins & Minerals': 'فيتامينات ومعادن', // Example, adjust key
+      'Gastrointestinal': 'أدوية الجهاز الهضمي', // Example, adjust key
+      'Respiratory': 'أدوية الجهاز التنفسي', // Example, adjust key
+      'Dermatologicals': 'أدوية جلدية', // Example, adjust key
+      'Allergy': 'أدوية حساسية', // Example, adjust key
+      'Neurological': 'أدوية أعصاب', // Example, adjust key
+      'Antifungals': 'مضادات الفطريات', // Example, adjust key
+      'Ophthalmologicals': 'أدوية العيون', // Example, adjust key
+      'ENT Preparations': 'أدوية الأنف والأذن والحنجرة', // Example, adjust key
+      'Gynecologicals': 'أدوية النساء', // Example, adjust key
+      'Antidiabetics': 'أدوية السكر', // Example, adjust key
+      'Antihypertensives': 'أدوية الضغط', // Example, adjust key
+      // Add other mappings as needed
+    };
+
+    // Existing icon map with Arabic keys
     final categoryIcons = {
-      /* ... same icons map ... */
       'مسكنات الألم': LucideIcons.pill,
       'مضادات حيوية': LucideIcons.syringe,
       'أمراض القلب': LucideIcons.heartPulse,
@@ -350,13 +367,25 @@ class _HomeScreenState extends State<HomeScreen> {
       'أدوية الضغط': LucideIcons.gauge,
     };
 
-    if (categories.isEmpty && context.watch<MedicineProvider>().isLoading) {
+    final englishCategories = context.watch<MedicineProvider>().categories;
+    // Translate fetched categories, fallback to original if no translation
+    final arabicCategories =
+        englishCategories
+            .map((engCat) => categoryTranslation[engCat] ?? engCat)
+            .toList();
+
+    _logger.v(
+      "HomeScreen: Building categories section. English: ${englishCategories.length}, Arabic: ${arabicCategories.length} categories.",
+    );
+
+    if (arabicCategories.isEmpty &&
+        context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
         height: 115,
         child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
       );
     }
-    if (categories.isEmpty) {
+    if (arabicCategories.isEmpty) {
       _logger.w("HomeScreen: No categories found to display.");
       return const SizedBox.shrink();
     }
@@ -367,28 +396,47 @@ class _HomeScreenState extends State<HomeScreen> {
       // headerPadding removed
       listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
-          categories.map((categoryName) {
+          arabicCategories.map((arabicCategoryName) {
+            // Find the original English category name for the provider action
+            final englishCategoryName =
+                categoryTranslation.entries
+                    .firstWhere(
+                      (entry) => entry.value == arabicCategoryName,
+                      orElse: () => MapEntry(arabicCategoryName, ''),
+                    )
+                    .key;
+
             return CategoryCard(
-                  key: ValueKey(categoryName),
-                  name: categoryName,
-                  iconData: categoryIcons[categoryName] ?? LucideIcons.tag,
+                  key: ValueKey(arabicCategoryName), // Use Arabic name for key
+                  name: arabicCategoryName, // Display Arabic name
+                  iconData:
+                      categoryIcons[arabicCategoryName] ??
+                      LucideIcons.tag, // Use Arabic name for icon lookup
                   onTap: () {
-                    _logger.i("HomeScreen: Category tapped: $categoryName");
+                    _logger.i(
+                      "HomeScreen: Category tapped: $arabicCategoryName (English: $englishCategoryName)",
+                    );
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
-                    // Use setCategory for single category selection
-                    context.read<MedicineProvider>().setCategory(categoryName);
+                    // Use the original English name when setting the filter in the provider
+                    if (englishCategoryName.isNotEmpty) {
+                      context.read<MedicineProvider>().setCategory(
+                        englishCategoryName,
+                      );
+                    }
                   },
                 )
                 .animate()
                 .scale(
-                  delay: (categories.indexOf(categoryName) * 100).ms,
+                  delay:
+                      (arabicCategories.indexOf(arabicCategoryName) * 100).ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
                   begin: const Offset(0.9, 0.9),
                   end: const Offset(1.0, 1.0),
                 )
                 .fadeIn(
-                  delay: (categories.indexOf(categoryName) * 100).ms,
+                  delay:
+                      (arabicCategories.indexOf(arabicCategoryName) * 100).ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
                 );

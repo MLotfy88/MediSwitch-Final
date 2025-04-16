@@ -41,7 +41,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   bool _isInitialLoadComplete = false;
 
   // --- Pagination State ---
-  static const int _pageSize = 15; // Re-added page size
+  static const int _initialPageSize = 10; // Size for the very first load
+  static const int _pageSize = 15; // Size for subsequent loads
   int _currentPage = 0; // Re-added current page
   bool _hasMoreItems = true; // Re-added flag
 
@@ -125,14 +126,17 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: Applying initial filters (page 0) and loading simulated sections...",
     );
     await Future.wait([
-      _applyFilters(page: 0), // Fetch first page
+      _applyFilters(
+        page: 0,
+        limit: _initialPageSize,
+      ), // Fetch initial page (10 items)
       _loadSimulatedSections(), // Load simulated data (still fetches small amounts)
     ]);
 
+    _isLoading = false; // Set loading false AFTER all waits complete
     _isInitialLoadComplete = true;
-    // _isLoading is set to false inside _applyFilters
     _logger.i("MedicineProvider: loadInitialData finished.");
-    // Final notification happens in _applyFilters
+    notifyListeners(); // Notify listeners ONCE after all initial data is loaded
   }
 
   Future<void> _loadCategories() async {
@@ -258,7 +262,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _currentPage++;
     _logger.i("MedicineProvider: loadMoreDrugs called for page $_currentPage");
 
-    await _applyFilters(page: _currentPage, append: true);
+    // Subsequent loads use the standard _pageSize
+    await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
 
     _isLoadingMore = false;
     notifyListeners();
@@ -268,7 +273,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   // Apply filters by fetching from repository (with pagination)
-  Future<void> _applyFilters({required int page, bool append = false}) async {
+  // Accepts an optional limit, defaulting to _pageSize if not provided
+  Future<void> _applyFilters({
+    required int page,
+    bool append = false,
+    int? limit, // Optional limit parameter
+  }) async {
+    final int effectiveLimit =
+        limit ?? _pageSize; // Use provided limit or default
     if (!append) {
       _isLoading = true;
       _error = '';
@@ -277,9 +289,16 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       notifyListeners();
     }
 
-    final int offset = page * _pageSize;
+    // Calculate offset based on page number and *previous* page sizes
+    // Page 0: offset 0
+    // Page 1: offset 10 (initial size)
+    // Page 2: offset 10 + 15 = 25
+    // Page 3: offset 10 + 15 + 15 = 40
+    final int offset =
+        (page == 0) ? 0 : _initialPageSize + (page - 1) * _pageSize;
+
     _logger.i(
-      "MedicineProvider: _applyFilters called. Page: $page, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
+      "MedicineProvider: _applyFilters called. Page: $page, Limit: $effectiveLimit, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
     );
 
     Either<Failure, List<DrugEntity>> result;
@@ -291,7 +310,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           "MedicineProvider: Applying search filter via repository (page $page)...",
         );
         result = await searchDrugsUseCase(
-          SearchParams(query: _searchQuery, limit: _pageSize, offset: offset),
+          SearchParams(
+            query: _searchQuery,
+            limit: effectiveLimit,
+            offset: offset,
+          ),
         );
       } else if (_selectedCategory.isNotEmpty) {
         _logger.d(
@@ -300,7 +323,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         result = await filterDrugsByCategoryUseCase(
           FilterParams(
             category: _selectedCategory,
-            limit: _pageSize,
+            limit: effectiveLimit,
             offset: offset,
           ),
         );
@@ -309,7 +332,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           "MedicineProvider: Applying no primary filter, fetching all (page $page)...",
         );
         result = await searchDrugsUseCase(
-          SearchParams(query: '', limit: _pageSize, offset: offset),
+          SearchParams(query: '', limit: effectiveLimit, offset: offset),
         );
       }
 
@@ -354,9 +377,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           );
 
           _error = '';
-          _hasMoreItems =
-              drugs.length ==
-              _pageSize; // Determine based on fetched count before local filter
+          // Determine if there are more items based on the *requested* limit for this page
+          _hasMoreItems = drugs.length == effectiveLimit;
 
           if (append) {
             final existingTradeNames =
@@ -384,9 +406,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) _filteredMedicines = [];
       _hasMoreItems = false;
     } finally {
-      if (!append) _isLoading = false;
-      // isLoadingMore is handled in loadMoreDrugs
-      notifyListeners();
+      // Remove setting isLoading and notifying listeners from here during initial load
+      // It will be handled by loadInitialData
+      // if (!append) _isLoading = false;
+      // notifyListeners();
       _logger.d(
         "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
       );

@@ -49,8 +49,9 @@ class OnboardingScreen extends StatelessWidget {
       ), // Add horizontal padding to body
     );
 
-    // Define image widget once
-    final Widget onboardingImage = Padding(
+    // Define image/icon widgets
+    const double iconSize = 150; // Define a size for the icons
+    final Widget logoImage = Padding(
       padding: const EdgeInsets.only(
         bottom: 20.0,
       ), // Add some padding below image
@@ -60,6 +61,25 @@ class OnboardingScreen extends StatelessWidget {
       ),
     );
 
+    final Widget calculatorIcon = Icon(
+      LucideIcons.calculator,
+      size: iconSize,
+      color: colorScheme.primary,
+    );
+
+    final Widget interactionsIcon = Icon(
+      LucideIcons.zap, // Icon for interactions
+      size: iconSize,
+      color: colorScheme.primary,
+    );
+
+    final Widget alternativesIcon = Icon(
+      LucideIcons.replace, // Icon for alternatives
+      size: iconSize,
+      color: colorScheme.primary,
+    );
+
+    // Corrected IntroductionScreen structure
     return IntroductionScreen(
       key: GlobalKey<IntroductionScreenState>(),
       globalBackgroundColor: colorScheme.background,
@@ -71,27 +91,27 @@ class OnboardingScreen extends StatelessWidget {
           title: "مرحباً بك في MediSwitch",
           body:
               "دليلك الشامل للأدوية في مصر. ابحث بسهولة عن الأدوية، بدائلها، أسعارها، والمزيد.",
-          image: onboardingImage, // Use the image widget
+          image: logoImage, // Use the logo widget for the first page
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "حاسبة الجرعات الذكية",
           body:
               "احسب الجرعات بدقة بناءً على وزن وعمر المريض لأدوية الأطفال الشائعة.",
-          image: onboardingImage, // Use the same image widget
+          image: calculatorIcon, // Use the calculator icon
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "مدقق التفاعلات الدوائية",
           body:
               "تجنب التفاعلات الخطيرة بين الأدوية عن طريق فحص قائمة الأدوية الخاصة بك.",
-          image: onboardingImage, // Use the same image widget
+          image: interactionsIcon, // Use the interactions icon
           decoration: pageDecoration,
         ),
         PageViewModel(
           title: "البدائل والمواد الفعالة",
           body: "اعثر بسهولة على بدائل الأدوية المتاحة بنفس المادة الفعالة.",
-          image: onboardingImage, // Use the same image widget
+          image: alternativesIcon, // Use the alternatives icon
           decoration: pageDecoration,
         ),
       ],

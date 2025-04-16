@@ -109,8 +109,18 @@ ThemeData _buildThemeData(Brightness brightness) {
           : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.961);
   final mutedForeground =
       isDark
-          ? const HSLColor.fromAHSL(1.0, 215, 0.25, 0.70)
-          : const HSLColor.fromAHSL(1.0, 215.4, 0.16, 0.46);
+          ? const HSLColor.fromAHSL(
+            1.0,
+            215,
+            0.25,
+            0.85,
+          ) // Increased lightness for dark mode
+          : const HSLColor.fromAHSL(
+            1.0,
+            215.4,
+            0.16,
+            0.30,
+          ); // Decreased lightness for light mode
   final accent =
       isDark
           ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
