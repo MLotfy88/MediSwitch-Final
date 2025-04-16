@@ -396,33 +396,34 @@ class _HomeScreenState extends State<HomeScreen> {
       // headerPadding removed
       listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
-          arabicCategories.map((arabicCategoryName) {
-            // Find the original English category name for the provider action
-            final englishCategoryName =
-                categoryTranslation.entries
-                    .firstWhere(
-                      (entry) => entry.value == arabicCategoryName,
-                      orElse: () => MapEntry(arabicCategoryName, ''),
-                    )
-                    .key;
+          // Iterate through the ORIGINAL English categories from the provider
+          englishCategories.map((englishCategoryName) {
+            // 1. Translate to Arabic (fallback to English)
+            final arabicCategoryName =
+                categoryTranslation[englishCategoryName] ?? englishCategoryName;
 
+            // 2. Look up icon using the TRANSLATED Arabic name
+            final iconData =
+                categoryIcons[arabicCategoryName] ?? LucideIcons.tag;
+
+            // 3. Build the card
             return CategoryCard(
-                  key: ValueKey(arabicCategoryName), // Use Arabic name for key
-                  name: arabicCategoryName, // Display Arabic name
-                  iconData:
-                      categoryIcons[arabicCategoryName] ??
-                      LucideIcons.tag, // Use Arabic name for icon lookup
+                  key: ValueKey(
+                    englishCategoryName,
+                  ), // Use English name for stable key
+                  name:
+                      arabicCategoryName, // Display the translated (or original) name
+                  iconData: iconData, // Use the looked-up icon
                   onTap: () {
                     _logger.i(
                       "HomeScreen: Category tapped: $arabicCategoryName (English: $englishCategoryName)",
                     );
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
                     // Use the original English name when setting the filter in the provider
-                    if (englishCategoryName.isNotEmpty) {
-                      context.read<MedicineProvider>().setCategory(
-                        englishCategoryName,
-                      );
-                    }
+                    // Use the original English name when setting the filter
+                    context.read<MedicineProvider>().setCategory(
+                      englishCategoryName,
+                    );
                   },
                 )
                 .animate()

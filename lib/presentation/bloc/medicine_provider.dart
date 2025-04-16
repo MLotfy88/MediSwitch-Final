@@ -114,7 +114,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _filteredMedicines = [];
     _recentlyUpdatedDrugs = [];
     _popularDrugs = [];
-    notifyListeners();
+    // Removed notifyListeners() here to prevent premature UI update with empty lists
 
     // Load categories and timestamp first
     _logger.i("MedicineProvider: Loading categories and timestamp...");
@@ -181,18 +181,22 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   Future<void> _loadSimulatedSections() async {
     _logger.d("MedicineProvider: _loadSimulatedSections called.");
     try {
-      // Fetch a small set for "Recent"
+      // Fetch a small set for "Recent" - Use empty query, offset 0
       final recentResult = await searchDrugsUseCase(
-        SearchParams(query: 'a', limit: _simulatedSectionLimit, offset: 0),
+        SearchParams(query: '', limit: _simulatedSectionLimit, offset: 0),
       );
       recentResult.fold(
         (l) => _logger.w("Failed to load simulated recent drugs"),
         (r) => _recentlyUpdatedDrugs = r,
       );
 
-      // Fetch another small set for "Popular"
+      // Fetch another small set for "Popular" - Use empty query, different offset
       final popularResult = await searchDrugsUseCase(
-        SearchParams(query: 'b', limit: _simulatedSectionLimit, offset: 5),
+        SearchParams(
+          query: '',
+          limit: _simulatedSectionLimit,
+          offset: _simulatedSectionLimit,
+        ), // Offset by the limit to get a different set
       );
       popularResult.fold(
         (l) => _logger.w("Failed to load simulated popular drugs"),
