@@ -86,15 +86,15 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     _logger.i("HomeScreen: Building widget...");
     final medicineProvider = context.watch<MedicineProvider>();
-    final isSeeding = medicineProvider.isSeedingDatabase; // Get seeding state
+    // final isSeeding = medicineProvider.isSeedingDatabase; // REMOVED: Seeding state handled externally
     final isLoading = medicineProvider.isLoading;
     final isLoadingMore =
         medicineProvider.isLoadingMore; // Re-add isLoadingMore
     final error = medicineProvider.error;
     final displayedMedicines = medicineProvider.filteredMedicines;
-    // Log seeding state as well
+    // Log state without seeding
     _logger.d(
-      "HomeScreen: State - isSeeding: $isSeeding, isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
+      "HomeScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
     );
 
     return Scaffold(
@@ -112,14 +112,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     forceUpdate: true,
                   );
                 },
-                // Check seeding state first
+                // REMOVED: Seeding check removed. Show loading or content.
                 child:
-                    isSeeding
-                        ? _buildSeedingIndicator() // Show specific seeding message
-                        : isLoading && displayedMedicines.isEmpty
-                        ? _buildLoadingIndicator() // Show generic loading
+                    isLoading && displayedMedicines.isEmpty
+                        ? _buildLoadingIndicator() // Show generic loading if loading initial empty list
                         : _buildContent(
-                          // Show content if not seeding or loading initial empty list
+                          // Show content otherwise
                           context,
                           medicineProvider,
                           displayedMedicines,
@@ -141,24 +139,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return const Center(child: CircularProgressIndicator());
   }
 
-  // NEW: Widget to show during initial database seeding
-  Widget _buildSeedingIndicator() {
-    _logger.v("HomeScreen: Building seeding indicator.");
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          const CircularProgressIndicator(),
-          const SizedBox(height: 16),
-          Text(
-            'جار تهيئة قاعدة البيانات لأول مرة...', // "Initializing database for the first time..."
-            style: Theme.of(context).textTheme.titleMedium,
-            textAlign: TextAlign.center,
-          ),
-        ],
-      ),
-    );
-  }
+  // REMOVED: _buildSeedingIndicator widget is no longer needed.
+  // Widget _buildSeedingIndicator() { ... }
 
   // Re-add isLoadingMore parameter
   Widget _buildContent(

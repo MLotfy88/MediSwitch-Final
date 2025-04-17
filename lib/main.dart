@@ -13,8 +13,11 @@ import 'presentation/bloc/interaction_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/onboarding_screen.dart';
+import 'presentation/screens/setup_screen.dart'; // Import SetupScreen
 
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
+const String _prefsKeyFirstLaunchDone =
+    'first_launch_done'; // Key for first launch check
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,12 +38,38 @@ Future<void> main() async {
         prefs.getBool(_prefsKeyOnboardingDone) ?? false;
     logger.i("main: Onboarding complete: $onboardingComplete");
 
-    final Widget initialScreen =
-        onboardingComplete ? const MainScreen() : const OnboardingScreen();
+    // Check first launch status
+    final bool firstLaunchDone =
+        prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
+    logger.i("main: First launch done: $firstLaunchDone");
+
+    Widget initialScreen;
+    if (!onboardingComplete) {
+      logger.i("main: Routing to OnboardingScreen.");
+      initialScreen = const OnboardingScreen();
+      // Ensure seeding completer is marked done if onboarding isn't complete yet
+      // This prevents potential deadlocks if the app is restarted during onboarding
+      // before the first launch flag is set.
+      locator<SqliteLocalDataSource>().markSeedingAsComplete();
+    } else if (!firstLaunchDone) {
+      logger.i("main: First launch after onboarding. Routing to SetupScreen.");
+      initialScreen = const SetupScreen();
+      // Mark first launch as done *now* so SetupScreen only shows once
+      await prefs.setBool(_prefsKeyFirstLaunchDone, true);
+      logger.i("main: Set first launch flag to true.");
+      // Seeding will be handled by SetupScreen, no need to mark complete here.
+    } else {
+      logger.i("main: Subsequent launch. Routing to MainScreen.");
+      initialScreen = const MainScreen();
+      // Mark seeding as complete since it's not the first launch
+      logger.i("main: Marking seeding as complete for non-first launch.");
+      locator<SqliteLocalDataSource>().markSeedingAsComplete();
+    }
     logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // logger.i("main: Attempting database seeding if needed..."); // Moved to MedicineProvider
-    // try {
+    // REMOVED: Seeding logic is now handled by SetupScreen or explicitly marked complete.
+    // // logger.i("main: Attempting database seeding if needed...");
+    // // try {
     //   final localDataSource = locator<SqliteLocalDataSource>();
     //   await localDataSource.seedDatabaseFromAssetIfNeeded();
     //   logger.i("main: Database seeding check complete.");

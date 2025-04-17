@@ -38,7 +38,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   double _minPrice = 0;
   double _maxPrice = 1000;
   bool _isLoading = true;
-  bool _isSeedingDatabase = false; // NEW: Flag for initial seeding state
+  // bool _isSeedingDatabase = false; // REMOVED: Seeding state handled externally
   bool _isLoadingMore = false; // Re-added for pagination
   String _error = '';
   int? _lastUpdateTimestamp;
@@ -59,8 +59,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
   List<String> get categories => _categories;
   bool get isLoading => _isLoading;
-  bool get isSeedingDatabase =>
-      _isSeedingDatabase; // NEW: Getter for seeding state
+  // bool get isSeedingDatabase => _isSeedingDatabase; // REMOVED: Getter for seeding state
   bool get isLoadingMore => _isLoadingMore; // Re-added getter
   String get error => _error;
   String get searchQuery => _searchQuery;
@@ -116,8 +115,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: loadInitialData called (forceUpdate: $forceUpdate)",
     );
     _isLoading = true;
-    _isSeedingDatabase =
-        _localDataSource.isSeeding; // Check if seeding is happening
+    // _isSeedingDatabase = _localDataSource.isSeeding; // REMOVED: Seeding state handled externally
     _error = '';
     _isInitialLoadComplete = false;
     _currentPage = 0; // Reset pagination
@@ -128,19 +126,25 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     notifyListeners(); // Notify UI that loading/seeding has started
 
     try {
-      // --- Wait for Seeding ---
-      _logger.i(
-        "MedicineProvider: Waiting for database seeding to complete...",
-      );
-      await _localDataSource.seedingComplete; // Wait for the seeding Future
-      _logger.i("MedicineProvider: Database seeding confirmed complete.");
-      // --- End Wait for Seeding ---
+      // REMOVED: Seeding is assumed complete before this method is called in the new flow.
+      // // --- Wait for Seeding ---
+      // _logger.i(
+      //   "MedicineProvider: Waiting for database seeding to complete...",
+      // );
+      // // Update seeding state before awaiting, in case it finishes quickly
+      // if (_localDataSource.isSeeding) {
+      //   _isSeedingDatabase = true;
+      //   notifyListeners();
+      // }
+      // await _localDataSource.seedingComplete; // Wait for the seeding Future
+      // _logger.i("MedicineProvider: Database seeding confirmed complete.");
+      // // --- End Wait for Seeding ---
 
-      // Seeding is done, now load actual data
-      _isSeedingDatabase = false; // Seeding finished
-      notifyListeners(); // Update UI to remove seeding message if shown
+      // // Seeding is done, now load actual data
+      // _isSeedingDatabase = false; // Seeding finished
+      // // No need to notify here, will be handled by finally block or _applyFilters
 
-      // Load timestamp (Categories still disabled)
+      // Load timestamp
       _logger.i("MedicineProvider: Loading timestamp...");
       await _loadAndUpdateTimestamp();
       _logger.i("MedicineProvider: Timestamp loaded.");
@@ -165,15 +169,15 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _filteredMedicines = []; // Ensure list is empty on error
       _hasMoreItems = false;
     } finally {
-      // Ensure both flags are false after completion or error
+      // Ensure loading flag is false after completion or error
       _isLoading = false;
-      _isSeedingDatabase = false;
+      // _isSeedingDatabase = false; // REMOVED
       _logger.i(
-        "MedicineProvider: loadInitialData finished. Setting isLoading=false, isSeedingDatabase=false.",
+        "MedicineProvider: loadInitialData finished. Setting isLoading=false.",
       );
       // Log final state before notifying
       _logger.d(
-        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isSeeding: $_isSeedingDatabase, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error'",
+        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error'",
       );
       notifyListeners(); // Notify listeners after all initial load logic
     }
@@ -316,13 +320,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }) async {
     final int requestedLimit = limit ?? _pageSize;
     final int fetchLimit = requestedLimit + 1;
+    // Only set loading state if not appending (i.e., initial load or filter change)
     if (!append) {
-      // Don't set _isLoading=true here for initial load, it's handled by loadInitialData
-      // _isLoading = true;
+      _isLoading = true; // Set loading true for filter/search
       _error = '';
       _filteredMedicines = [];
-      // Don't notify here for initial load, handled by loadInitialData
-      // notifyListeners();
+      notifyListeners(); // Notify UI that a new filter/search is starting
     }
 
     final int offset =
@@ -468,14 +471,15 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) _filteredMedicines = [];
       _hasMoreItems = false;
     } finally {
-      // isLoading is handled by loadInitialData for page 0
-      // isLoadingMore is handled by loadMoreDrugs
-      // No need to set isLoading here for page 0
-      // if (!append) {
-      //   _isLoading = false;
-      // }
+      // Only set isLoading false if it was an initial load/filter
+      if (!append) {
+        _isLoading = false;
+      }
       // Notify listeners is handled by the calling function (loadInitialData or loadMoreDrugs)
-      // notifyListeners();
+      // or here if it wasn't an initial load but a filter/search change
+      if (!append) {
+        notifyListeners();
+      }
       _logger.d(
         "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
       );
@@ -540,14 +544,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     properties.add(
       FlagProperty('isLoading', value: _isLoading, ifTrue: 'LOADING'),
     );
-    properties.add(
-      // NEW: Add seeding state to debug properties
-      FlagProperty(
-        'isSeedingDatabase',
-        value: _isSeedingDatabase,
-        ifTrue: 'SEEDING DB',
-      ),
-    );
+    // REMOVED: Seeding state debug property
+    // properties.add(
+    //   FlagProperty(
+    //     'isSeedingDatabase',
+    //     value: _isSeedingDatabase,
+    //     ifTrue: 'SEEDING DB',
+    //   ),
+    // );
     properties.add(
       FlagProperty(
         'isLoadingMore',
