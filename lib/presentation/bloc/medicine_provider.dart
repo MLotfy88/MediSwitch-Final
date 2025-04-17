@@ -120,44 +120,58 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _filteredMedicines = [];
     _recentlyUpdatedDrugs = [];
     _popularDrugs = [];
-    // Removed notifyListeners() here to prevent premature UI update with empty lists
+    notifyListeners(); // Notify UI that loading has started
 
-    // Load categories and timestamp first
-    _logger.i("MedicineProvider: Loading categories and timestamp...");
-    // Disable category loading for performance diagnosis
-    // await Future.wait([_loadCategories(), _loadAndUpdateTimestamp()]);
-    await _loadAndUpdateTimestamp(); // Only load timestamp
-    _logger.i("MedicineProvider: Timestamp loaded (Categories disabled).");
+    try {
+      // --- Wait for Seeding ---
+      _logger.i(
+        "MedicineProvider: Waiting for database seeding to complete...",
+      );
+      await _localDataSource.seedingComplete; // Wait for the seeding Future
+      _logger.i("MedicineProvider: Database seeding confirmed complete.");
+      // --- End Wait for Seeding ---
 
-    // Apply initial filters (fetch first page) and simulated sections
-    _logger.i(
-      "MedicineProvider: Applying initial filters (page 0) (Simulated sections disabled)...",
-    );
-    await Future.wait([
-      _applyFilters(
+      // Load timestamp (Categories still disabled)
+      _logger.i("MedicineProvider: Loading timestamp...");
+      await _loadAndUpdateTimestamp();
+      _logger.i("MedicineProvider: Timestamp loaded.");
+
+      // Apply initial filters (fetch first page)
+      _logger.i("MedicineProvider: Applying initial filters (page 0)...");
+      // No need for Future.wait if only one async operation
+      await _applyFilters(
         page: 0,
         limit: _initialPageSize,
-      ), // Fetch initial page (10 items)
-      // Disable simulated sections loading for performance diagnosis
-      // _loadSimulatedSections(),
-    ]);
+      ); // Fetch initial page (10 items)
 
-    _logger.i(
-      "MedicineProvider: Future.wait for initial filters and simulated sections completed.",
-    ); // Log after wait
+      _logger.i("MedicineProvider: Initial filters applied.");
 
-    _isLoading = false; // Set loading false AFTER all waits complete
-    _isInitialLoadComplete = true;
-    _logger.i(
-      "MedicineProvider: loadInitialData finished. Setting isLoading=false, isInitialLoadComplete=true.",
-    ); // Log state change
-    // Log final state before notifying
-    _logger.d(
-      "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",
-    );
-    notifyListeners(); // Notify listeners ONCE after all initial data is loaded
+      _isInitialLoadComplete =
+          true; // Mark initial load as complete (even if filters returned empty/error)
+    } catch (e, s) {
+      _logger.e(
+        "MedicineProvider: Error during initial data load (seeding or filters)",
+        e,
+        s,
+      );
+      _error = "فشل تحميل البيانات الأولية. قد تكون مشكلة في قاعدة البيانات.";
+      _filteredMedicines = []; // Ensure list is empty on error
+      _hasMoreItems = false;
+    } finally {
+      // This ensures isLoading is always set to false after the try-catch block
+      _isLoading = false;
+      _logger.i(
+        "MedicineProvider: loadInitialData finished. Setting isLoading=false.",
+      );
+      // Log final state before notifying
+      _logger.d(
+        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error'",
+      );
+      notifyListeners(); // Notify listeners after all initial load logic (including potential errors)
+    }
   }
 
+  // This is the CORRECT _loadCategories function. The duplicated one below will be removed.
   Future<void> _loadCategories() async {
     _logger.d("MedicineProvider: _loadCategories called.");
     final failureOrCategories = await getAvailableCategoriesUseCase(NoParams());
@@ -310,12 +324,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         limit ?? _pageSize; // The number of items we *want* for the page
     final int fetchLimit =
         requestedLimit + 1; // Ask for one extra item to check if more exist
+    // Don't set _isLoading = true here if appending, only for initial load/filter
     if (!append) {
       _isLoading = true;
       _error = '';
-      // Clear list only if not appending (i.e., new search/filter)
-      if (!append) _filteredMedicines = [];
-      // Removed notifyListeners() here - it's handled by the calling function (loadInitialData/loadMoreDrugs)
+      _filteredMedicines = [];
+      notifyListeners(); // Notify UI that a new filter/search is starting
     }
 
     // Calculate offset based on page number and *previous* page sizes
