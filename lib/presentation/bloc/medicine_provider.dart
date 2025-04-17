@@ -13,6 +13,8 @@ import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
+import '../../domain/usecases/get_recently_updated_drugs.dart';
+import '../../domain/usecases/get_popular_drugs.dart';
 // import '../../domain/usecases/get_analytics_summary.dart'; // Keep commented out
 import '../../core/usecases/usecase.dart';
 
@@ -22,6 +24,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
+  final GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase;
+  final GetPopularDrugsUseCase getPopularDrugsUseCase;
   // Add the data source dependency
   final SqliteLocalDataSource _localDataSource;
   final FileLoggerService _logger = locator<FileLoggerService>();
@@ -86,6 +90,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
     required this.getLastUpdateTimestampUseCase,
+    required this.getRecentlyUpdatedDrugsUseCase,
+    required this.getPopularDrugsUseCase,
     // Inject the data source
     required SqliteLocalDataSource localDataSource,
   }) : _localDataSource = localDataSource {
@@ -257,30 +263,46 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   Future<void> _loadSimulatedSections() async {
     _logger.d("MedicineProvider: _loadSimulatedSections called.");
     try {
-      final recentResult = await searchDrugsUseCase(
-        SearchParams(query: '', limit: _simulatedSectionLimit, offset: 0),
-      );
-      recentResult.fold(
-        (l) => _logger.w("Failed to load simulated recent drugs"),
-        (r) => _recentlyUpdatedDrugs = r,
-      );
+      // --- Recently Updated Logic ---
+      final now = DateTime.now();
+      final oneMonthAgo = DateTime(now.year, now.month - 1, now.day);
+      final cutoffDate = DateFormat('yyyy-MM-dd').format(oneMonthAgo);
+      const recentLimit = 8; // Keep limit at 8 for now
 
-      final popularResult = await searchDrugsUseCase(
-        SearchParams(
-          query: '',
-          limit: _simulatedSectionLimit,
-          offset: _simulatedSectionLimit,
+      _logger.i(
+        "Fetching recently updated drugs since $cutoffDate (limit: $recentLimit)",
+      );
+      final recentResult = await getRecentlyUpdatedDrugsUseCase(
+        GetRecentlyUpdatedDrugsParams(
+          cutoffDate: cutoffDate,
+          limit: recentLimit,
         ),
       );
-      popularResult.fold(
-        (l) => _logger.w("Failed to load simulated popular drugs"),
-        (r) => _popularDrugs = r,
+      recentResult.fold((l) {
+        _logger.w(
+          "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
+        );
+        _recentlyUpdatedDrugs = []; // Ensure empty on failure
+      }, (r) => _recentlyUpdatedDrugs = r);
+
+      // --- Popular (Random) Logic ---
+      const popularLimit = 10;
+      _logger.i("Fetching $popularLimit popular (random) drugs");
+      final popularResult = await getPopularDrugsUseCase(
+        GetPopularDrugsParams(limit: popularLimit),
       );
+      popularResult.fold((l) {
+        _logger.w(
+          "Failed to load popular (random) drugs: ${_mapFailureToMessage(l)}",
+        );
+        _popularDrugs = []; // Ensure empty on failure
+      }, (r) => _popularDrugs = r);
+
       _logger.i(
-        "MedicineProvider: Simulated sections loaded. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
+        "MedicineProvider: Sections loaded. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
       );
     } catch (e, s) {
-      _logger.e("Error loading simulated sections", e, s);
+      _logger.e("Error loading sections", e, s);
       _recentlyUpdatedDrugs = [];
       _popularDrugs = [];
     }

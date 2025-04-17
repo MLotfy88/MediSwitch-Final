@@ -29,4 +29,15 @@ abstract class DrugRepository {
   /// Gets the timestamp of the last successful data update from local storage.
   /// Returns null if no timestamp is found.
   Future<Either<Failure, int?>> getLastUpdateTimestamp();
+
+  /// Gets drugs updated after a specific date.
+  Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({
+    required String cutoffDate,
+    required int limit,
+  });
+
+  /// Gets popular drugs (currently implemented as random).
+  Future<Either<Failure, List<DrugEntity>>> getPopularDrugs({
+    required int limit,
+  });
 }

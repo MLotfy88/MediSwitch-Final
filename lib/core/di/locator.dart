@@ -30,6 +30,8 @@ import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_available_categories.dart';
 import '../../domain/usecases/find_drug_alternatives.dart';
 import '../../domain/usecases/load_interaction_data.dart';
+import '../../domain/usecases/get_recently_updated_drugs.dart';
+import '../../domain/usecases/get_popular_drugs.dart';
 import '../../domain/usecases/get_admob_config.dart';
 import '../../domain/usecases/get_general_config.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
@@ -187,6 +189,12 @@ Future<void> setupLocator() async {
     () => FindDrugAlternativesUseCase(locator<DrugRepository>()),
   );
   locator.registerLazySingleton(
+    () => GetRecentlyUpdatedDrugsUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => GetPopularDrugsUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
     () => LoadInteractionData(locator<InteractionRepository>()),
   );
   locator.registerLazySingleton(
@@ -224,7 +232,9 @@ Future<void> setupLocator() async {
       filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
       getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
-      localDataSource: locator<SqliteLocalDataSource>(), // Removed
+      getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
+      getPopularDrugsUseCase: locator<GetPopularDrugsUseCase>(),
+      localDataSource: locator<SqliteLocalDataSource>(),
     ),
   );
   locator.registerFactory(

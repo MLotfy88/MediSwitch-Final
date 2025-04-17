@@ -337,6 +337,42 @@ class SqliteLocalDataSource {
     return categories;
   }
 
+  Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
+    String cutoffDate, {
+    required int limit,
+  }) async {
+    await seedingComplete; // Wait for seeding
+    print(
+      "Fetching recently updated medicines from SQLite (since $cutoffDate, limit: $limit)...",
+    );
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: '${DatabaseHelper.colLastPriceUpdate} >= ?',
+      whereArgs: [cutoffDate],
+      orderBy:
+          '${DatabaseHelper.colLastPriceUpdate} DESC', // Optional: Order by most recent
+      limit: limit,
+    );
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<List<MedicineModel>> getRandomMedicines({required int limit}) async {
+    await seedingComplete; // Wait for seeding
+    print("Fetching $limit random medicines from SQLite...");
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      orderBy: 'RANDOM()', // SQLite specific function for random order
+      limit: limit,
+    );
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
   /// Checks if the medicines table has any data.
   Future<bool> hasMedicines() async {
     // No need to wait for seedingComplete here, as this check might be used
