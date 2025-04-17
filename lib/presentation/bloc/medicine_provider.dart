@@ -124,19 +124,22 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
     // Load categories and timestamp first
     _logger.i("MedicineProvider: Loading categories and timestamp...");
-    await Future.wait([_loadCategories(), _loadAndUpdateTimestamp()]);
-    _logger.i("MedicineProvider: Categories and timestamp loaded.");
+    // Disable category loading for performance diagnosis
+    // await Future.wait([_loadCategories(), _loadAndUpdateTimestamp()]);
+    await _loadAndUpdateTimestamp(); // Only load timestamp
+    _logger.i("MedicineProvider: Timestamp loaded (Categories disabled).");
 
     // Apply initial filters (fetch first page) and simulated sections
     _logger.i(
-      "MedicineProvider: Applying initial filters (page 0) and loading simulated sections...",
+      "MedicineProvider: Applying initial filters (page 0) (Simulated sections disabled)...",
     );
     await Future.wait([
       _applyFilters(
         page: 0,
         limit: _initialPageSize,
       ), // Fetch initial page (10 items)
-      _loadSimulatedSections(), // Load simulated data (still fetches small amounts)
+      // Disable simulated sections loading for performance diagnosis
+      // _loadSimulatedSections(),
     ]);
 
     _logger.i(

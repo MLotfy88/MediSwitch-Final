@@ -156,52 +156,54 @@ class _HomeScreenState extends State<HomeScreen> {
       controller: _scrollController, // Re-add controller
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
-        // Only build categories if initial load is complete
-        if (medicineProvider.isInitialLoadComplete)
-          SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+        // --- DISABLED Sections for Performance Diagnosis ---
+        // // Only build categories if initial load is complete
+        // if (medicineProvider.isInitialLoadComplete)
+        //   SliverToBoxAdapter(child: _buildCategoriesSection(context)),
 
-        // --- Recently Updated Section ---
-        // Only build if initial load is complete AND list is not empty
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
-          SliverToBoxAdapter(
-            child: _buildHorizontalDrugList(
-              context,
-              title: "أدوية محدثة مؤخراً",
-              drugs: medicineProvider.recentlyUpdatedDrugs,
-              onViewAll: () {
-                _logger.i("HomeScreen: View All Recent tapped.");
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const SearchScreen(initialQuery: ''),
-                  ),
-                );
-              },
-            ),
-          ),
+        // // --- Recently Updated Section ---
+        // // Only build if initial load is complete AND list is not empty
+        // if (medicineProvider.isInitialLoadComplete &&
+        //     medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+        //   SliverToBoxAdapter(
+        //     child: _buildHorizontalDrugList(
+        //       context,
+        //       title: "أدوية محدثة مؤخراً",
+        //       drugs: medicineProvider.recentlyUpdatedDrugs,
+        //       onViewAll: () {
+        //         _logger.i("HomeScreen: View All Recent tapped.");
+        //         Navigator.push(
+        //           context,
+        //           MaterialPageRoute(
+        //             builder: (_) => const SearchScreen(initialQuery: ''),
+        //           ),
+        //         );
+        //       },
+        //     ),
+        //   ),
 
-        // --- Popular Drugs Section ---
-        // Only build if initial load is complete AND list is not empty
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.popularDrugs.isNotEmpty)
-          SliverToBoxAdapter(
-            child: _buildHorizontalDrugList(
-              context,
-              title: "الأكثر بحثاً",
-              drugs: medicineProvider.popularDrugs,
-              isPopular: true, // Mark these drugs as popular
-              onViewAll: () {
-                _logger.i("HomeScreen: View All Popular tapped.");
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const SearchScreen(initialQuery: ''),
-                  ),
-                );
-              },
-            ),
-          ),
+        // // --- Popular Drugs Section ---
+        // // Only build if initial load is complete AND list is not empty
+        // if (medicineProvider.isInitialLoadComplete &&
+        //     medicineProvider.popularDrugs.isNotEmpty)
+        //   SliverToBoxAdapter(
+        //     child: _buildHorizontalDrugList(
+        //       context,
+        //       title: "الأكثر بحثاً",
+        //       drugs: medicineProvider.popularDrugs,
+        //       isPopular: true, // Mark these drugs as popular
+        //       onViewAll: () {
+        //         _logger.i("HomeScreen: View All Popular tapped.");
+        //         Navigator.push(
+        //           context,
+        //           MaterialPageRoute(
+        //             builder: (_) => const SearchScreen(initialQuery: ''),
+        //           ),
+        //         );
+        //       },
+        //     ),
+        //   ),
+        // --- END DISABLED Sections ---
 
         // --- All Drugs Section Header ---
         SliverToBoxAdapter(
