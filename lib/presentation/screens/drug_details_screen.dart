@@ -347,30 +347,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               icon: Icon(LucideIcons.calculator, size: 16), // h-4 w-4
               label: const Text('حساب الجرعة'),
               onPressed: () {
-                _logger.i(
-                  "DrugDetailsScreen: Dose Calculator button tapped (Deferred for MVP).",
+                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
+                // Remove SnackBar
+                // ScaffoldMessenger.of(context).showSnackBar( ... );
+
+                // Set the selected drug in the provider
+                context.read<DoseCalculatorProvider>().setSelectedDrug(
+                  widget.drug,
                 );
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text('ميزة حاسبة الجرعات قيد التطوير (قريباً).'),
-                    duration: Duration(seconds: 2),
+                // Navigate to the calculator screen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const WeightCalculatorScreen(),
                   ),
                 );
-                // context.read<DoseCalculatorProvider>().setSelectedDrug(
-                //   widget.drug,
-                // );
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => const WeightCalculatorScreen(),
-                //   ),
-                // );
               },
               style: OutlinedButton.styleFrom(
-                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(
-                  0.6,
-                ), // Dimmed text
-                side: BorderSide(color: colorScheme.outline), // border-border
+                // Enable button appearance
+                foregroundColor:
+                    colorScheme.primary, // Use primary color for text
+                side: BorderSide(
+                  color: colorScheme.primary,
+                ), // Use primary color for border
               ),
             ),
           ),
@@ -398,6 +397,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 // );
               },
               style: OutlinedButton.styleFrom(
+                // Keep this button dimmed for now
                 foregroundColor: colorScheme.onSurfaceVariant.withOpacity(
                   0.6,
                 ), // Dimmed text

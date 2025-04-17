@@ -157,54 +157,54 @@ class _HomeScreenState extends State<HomeScreen> {
       controller: _scrollController, // Re-add controller
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
-        // --- DISABLED Sections for Performance Diagnosis ---
-        // // Only build categories if initial load is complete
-        // if (medicineProvider.isInitialLoadComplete)
-        //   SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+        // --- Categories Section ---
+        // Only build categories if initial load is complete
+        if (medicineProvider.isInitialLoadComplete)
+          SliverToBoxAdapter(child: _buildCategoriesSection(context)),
 
-        // // --- Recently Updated Section ---
-        // // Only build if initial load is complete AND list is not empty
-        // if (medicineProvider.isInitialLoadComplete &&
-        //     medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
-        //   SliverToBoxAdapter(
-        //     child: _buildHorizontalDrugList(
-        //       context,
-        //       title: "أدوية محدثة مؤخراً",
-        //       drugs: medicineProvider.recentlyUpdatedDrugs,
-        //       onViewAll: () {
-        //         _logger.i("HomeScreen: View All Recent tapped.");
-        //         Navigator.push(
-        //           context,
-        //           MaterialPageRoute(
-        //             builder: (_) => const SearchScreen(initialQuery: ''),
-        //           ),
-        //         );
-        //       },
-        //     ),
-        //   ),
+        // --- Recently Updated Section ---
+        // Only build if initial load is complete AND list is not empty
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+          SliverToBoxAdapter(
+            child: _buildHorizontalDrugList(
+              context,
+              title: "أدوية محدثة مؤخراً",
+              drugs: medicineProvider.recentlyUpdatedDrugs,
+              onViewAll: () {
+                _logger.i("HomeScreen: View All Recent tapped.");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const SearchScreen(initialQuery: ''),
+                  ),
+                );
+              },
+            ),
+          ),
 
-        // // --- Popular Drugs Section ---
-        // // Only build if initial load is complete AND list is not empty
-        // if (medicineProvider.isInitialLoadComplete &&
-        //     medicineProvider.popularDrugs.isNotEmpty)
-        //   SliverToBoxAdapter(
-        //     child: _buildHorizontalDrugList(
-        //       context,
-        //       title: "الأكثر بحثاً",
-        //       drugs: medicineProvider.popularDrugs,
-        //       isPopular: true, // Mark these drugs as popular
-        //       onViewAll: () {
-        //         _logger.i("HomeScreen: View All Popular tapped.");
-        //         Navigator.push(
-        //           context,
-        //           MaterialPageRoute(
-        //             builder: (_) => const SearchScreen(initialQuery: ''),
-        //           ),
-        //         );
-        //       },
-        //     ),
-        //   ),
-        // --- END DISABLED Sections ---
+        // --- Popular Drugs Section ---
+        // Only build if initial load is complete AND list is not empty
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.popularDrugs.isNotEmpty)
+          SliverToBoxAdapter(
+            child: _buildHorizontalDrugList(
+              context,
+              title: "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
+              drugs: medicineProvider.popularDrugs,
+              isPopular: true, // Mark these drugs as popular
+              onViewAll: () {
+                _logger.i("HomeScreen: View All Popular tapped.");
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const SearchScreen(initialQuery: ''),
+                  ),
+                );
+              },
+            ),
+          ),
+        // --- END Re-enabled Sections ---
 
         // --- All Drugs Section Header ---
         SliverToBoxAdapter(
@@ -346,69 +346,71 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesSection(BuildContext context) {
-    // Assumed English to Arabic mapping (adjust keys based on actual DB values)
+    // Updated map using keys from CSV and existing Arabic translations
     const Map<String, String> categoryTranslation = {
-      'Painkillers': 'مسكنات الألم',
-      'Antibiotics': 'مضادات حيوية',
-      'Cardiovascular': 'أمراض القلب', // Example, adjust key
-      'Chronic Diseases': 'أمراض مزمنة', // Example, adjust key
-      'Vitamins & Minerals': 'فيتامينات ومعادن', // Example, adjust key
-      'Gastrointestinal': 'أدوية الجهاز الهضمي', // Example, adjust key
-      'Respiratory': 'أدوية الجهاز التنفسي', // Example, adjust key
-      'Dermatologicals': 'أدوية جلدية', // Example, adjust key
-      'Allergy': 'أدوية حساسية', // Example, adjust key
-      'Neurological': 'أدوية أعصاب', // Example, adjust key
-      'Antifungals': 'مضادات الفطريات', // Example, adjust key
-      'Ophthalmologicals': 'أدوية العيون', // Example, adjust key
-      'ENT Preparations': 'أدوية الأنف والأذن والحنجرة', // Example, adjust key
-      'Gynecologicals': 'أدوية النساء', // Example, adjust key
-      'Antidiabetics': 'أدوية السكر', // Example, adjust key
-      'Antihypertensives': 'أدوية الضغط', // Example, adjust key
-      // Add other mappings as needed
+      'anti_inflammatory': 'مضادات الالتهاب', // More specific than painkillers
+      'cold_respiratory': 'أدوية البرد والجهاز التنفسي', // More specific
+      'cosmetics': 'مستحضرات تجميل', // Direct translation
+      'digestive': 'أدوية الجهاز الهضمي', // Correct
+      // 'other': 'أخرى', // Still no direct match in original list
+      'pain_management': 'مسكنات الألم', // Correct
+      'personal_care': 'عناية شخصية', // Direct translation
+      'probiotics': 'بروبيوتيك', // Direct translation
+      'skin_care': 'عناية بالبشرة', // More specific than 'أدوية جلدية'
+      'soothing': 'ملطفات', // Direct translation (if appropriate context)
+      'supplements': 'مكملات غذائية', // More common than Vitamins & Minerals
+      'vitamins': 'فيتامينات', // More specific
     };
 
-    // Existing icon map with Arabic keys
+    // Updated icon map using keys from CSV with refined icons
     final categoryIcons = {
-      'مسكنات الألم': LucideIcons.pill,
-      'مضادات حيوية': LucideIcons.syringe,
-      'أمراض القلب': LucideIcons.heartPulse,
-      'أمراض مزمنة': LucideIcons.activity,
-      'فيتامينات ومعادن': LucideIcons.leaf,
-      'أدوية الجهاز الهضمي': LucideIcons.soup,
-      'أدوية الجهاز التنفسي': LucideIcons.wind,
-      'أدوية جلدية': LucideIcons.sprayCan,
-      'أدوية حساسية': LucideIcons.shieldAlert,
-      'أدوية أعصاب': LucideIcons.brain,
-      'مضادات الفطريات': LucideIcons.bug,
-      'أدوية العيون': LucideIcons.eye,
-      'أدوية الأنف والأذن والحنجرة': LucideIcons.ear,
-      'أدوية النساء': LucideIcons.baby,
-      'أدوية السكر': LucideIcons.droplet,
-      'أدوية الضغط': LucideIcons.gauge,
+      'anti_inflammatory':
+          LucideIcons.shieldOff, // Icon suggesting blocking inflammation
+      'cold_respiratory': LucideIcons.wind, // Good fit
+      'cosmetics': LucideIcons.gem, // Represents beauty/cosmetics
+      'digestive': LucideIcons.soup, // Okay, represents digestion
+      'pain_management': LucideIcons.pill, // Good fit
+      'personal_care':
+          LucideIcons
+              .bath, // Represents personal hygiene/care (Replaced handSoap)
+      'probiotics':
+          LucideIcons.flaskConical, // Represents science/lab (probiotics)
+      'skin_care': LucideIcons.sparkles, // Represents skin health/glow
+      'soothing': LucideIcons.feather, // Represents gentleness/soothing
+      'supplements':
+          LucideIcons.packagePlus, // Represents adding something extra
+      'vitamins': LucideIcons.leaf, // Good fit for natural/vitamins
+      'default': LucideIcons.tag, // Good fallback
     };
 
+    // These are the keys fetched from the provider (e.g., 'pain_management', 'vitamins')
     final englishCategories = context.watch<MedicineProvider>().categories;
-    // Translate fetched categories, fallback to original if no translation
-    final arabicCategories =
-        englishCategories
-            .map((engCat) => categoryTranslation[engCat] ?? engCat)
-            .toList();
 
     _logger.v(
-      "HomeScreen: Building categories section. English: ${englishCategories.length}, Arabic: ${arabicCategories.length} categories.",
+      "HomeScreen: Building categories section. Found ${englishCategories.length} categories from provider: $englishCategories",
     );
 
-    if (arabicCategories.isEmpty &&
+    if (englishCategories.isEmpty &&
         context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
         height: 115,
         child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
       );
     }
-    if (arabicCategories.isEmpty) {
+    if (englishCategories.isEmpty) {
       _logger.w("HomeScreen: No categories found to display.");
       return const SizedBox.shrink();
     }
+
+    // Filter out categories that don't have a translation defined
+    final displayableCategories =
+        englishCategories
+            .where((key) => categoryTranslation.containsKey(key))
+            .toList();
+
+    _logger.v(
+      "HomeScreen: Displayable categories after filtering: ${displayableCategories.length}",
+    );
 
     return HorizontalListSection(
       title: 'الفئات الطبية',
@@ -416,15 +418,16 @@ class _HomeScreenState extends State<HomeScreen> {
       // headerPadding removed
       listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
-          // Iterate through the ORIGINAL English categories from the provider
-          englishCategories.map((englishCategoryName) {
-            // 1. Translate to Arabic (fallback to English)
+          // Iterate through the ORIGINAL English categories (keys from CSV)
+          displayableCategories.map((englishCategoryName) {
+            // 1. Translate to Arabic using the updated map
             final arabicCategoryName =
-                categoryTranslation[englishCategoryName] ?? englishCategoryName;
+                categoryTranslation[englishCategoryName] ??
+                englishCategoryName; // Fallback
 
-            // 2. Look up icon using the TRANSLATED Arabic name
+            // 2. Look up icon using the ORIGINAL English key (from CSV)
             final iconData =
-                categoryIcons[arabicCategoryName] ?? LucideIcons.tag;
+                categoryIcons[englishCategoryName] ?? categoryIcons['default']!;
 
             // 3. Build the card
             return CategoryCard(
@@ -439,7 +442,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       "HomeScreen: Category tapped: $arabicCategoryName (English: $englishCategoryName)",
                     );
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
-                    // Use the original English name when setting the filter in the provider
                     // Use the original English name when setting the filter
                     context.read<MedicineProvider>().setCategory(
                       englishCategoryName,
@@ -449,7 +451,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 .animate()
                 .scale(
                   delay:
-                      (arabicCategories.indexOf(arabicCategoryName) * 100).ms,
+                      (displayableCategories.indexOf(englishCategoryName) * 100)
+                          .ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
                   begin: const Offset(0.9, 0.9),
@@ -457,7 +460,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 )
                 .fadeIn(
                   delay:
-                      (arabicCategories.indexOf(arabicCategoryName) * 100).ms,
+                      (displayableCategories.indexOf(englishCategoryName) * 100)
+                          .ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
                 );
