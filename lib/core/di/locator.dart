@@ -224,7 +224,7 @@ Future<void> setupLocator() async {
       filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
       getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
-      // getAnalyticsSummaryUseCase: locator<GetAnalyticsSummary>(), // Removed
+      localDataSource: locator<SqliteLocalDataSource>(), // Removed
     ),
   );
   locator.registerFactory(
