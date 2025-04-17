@@ -9,7 +9,7 @@ import 'main_screen.dart';
 
 // Keys from main.dart (consider moving to a shared constants file)
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
-const String _prefsKeyFirstLaunchDone = 'first_launch_done';
+// const String _prefsKeyFirstLaunchDone = 'first_launch_done'; // No longer needed
 
 class InitializationScreen extends StatefulWidget {
   const InitializationScreen({super.key});
@@ -40,9 +40,6 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
         final bool onboardingComplete =
             prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-        // Remove firstLaunchDone check, rely on database seeded status instead
-        // final bool firstLaunchDone =
-        //     prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
 
         _logger.i(
           "InitializationScreen: Flags - OnboardingDone: $onboardingComplete",
@@ -56,29 +53,35 @@ class _InitializationScreenState extends State<InitializationScreen> {
           // localDataSource.markSeedingAsComplete();
           nextScreen = const OnboardingScreen();
         } else {
-          // Onboarding is complete, now check the first launch flag
+          // Onboarding is complete, now check if the database actually has medicines
           _logger.i(
-            "InitializationScreen: Onboarding complete. Checking first launch flag...",
+            "InitializationScreen: Onboarding complete. Checking if database has medicines...",
           );
-          final bool firstLaunchDone =
-              prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
+          // Use the direct check against the database content
+          final bool databaseHasMedicines =
+              await localDataSource.hasMedicines();
           _logger.i(
-            "InitializationScreen: First launch flag status: $firstLaunchDone",
+            "InitializationScreen: Database has medicines: $databaseHasMedicines",
           );
 
-          if (!firstLaunchDone) {
+          if (!databaseHasMedicines) {
             _logger.i(
-              "InitializationScreen: First launch not done. Routing to SetupScreen.",
+              "InitializationScreen: Database is empty. Routing to SetupScreen for seeding.",
             );
-            // Seeding will be handled by SetupScreen, which will set the flag.
+            // Seeding will be handled by SetupScreen.
             nextScreen = const SetupScreen();
           } else {
             _logger.i(
-              "InitializationScreen: First launch already done. Routing to MainScreen.",
+              "InitializationScreen: Database already contains medicines. Routing to MainScreen.",
             );
-            // Ensure seeding completer is marked done for subsequent launches
-            // in case SetupScreen was somehow skipped or failed previously.
-            localDataSource.markSeedingAsComplete();
+            // Ensure seeding completer is marked complete for subsequent operations if needed
+            // Although SetupScreen is skipped, other parts might await the completer.
+            if (!localDataSource.isSeedingCompleted) {
+              _logger.w(
+                "InitializationScreen: Seeding completer was not marked complete, but DB has data. Marking complete now.",
+              );
+              localDataSource.markSeedingAsComplete();
+            }
             nextScreen = const MainScreen();
           }
         }
