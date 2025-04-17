@@ -101,6 +101,7 @@ class CustomSearchDelegate extends SearchDelegate<DrugEntity?> {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
           child: DrugCard(
+            // Uses kCategoryTranslation internally now
             drug: drug,
             type: DrugCardType.thumbnail, // Use thumbnail for search results
             onTap: () {

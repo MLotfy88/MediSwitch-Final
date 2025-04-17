@@ -5,6 +5,7 @@ import 'package:intl/intl.dart'; // For number formatting
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
 import '../../domain/entities/drug_entity.dart';
 import '../widgets/custom_badge.dart'; // Import CustomBadge
+import '../../core/constants/app_constants.dart'; // Import the constants file
 
 enum DrugCardType { thumbnail, detailed }
 
@@ -14,10 +15,12 @@ class DrugCard extends StatelessWidget {
   final DrugCardType type;
   final bool isPopular; // Flag for popular drug
   final bool isAlternative; // Flag for alternative drug
+  // REMOVED: categoryTranslation parameter
 
   const DrugCard({
     super.key,
     required this.drug,
+    // REMOVED: required this.categoryTranslation,
     this.onTap,
     this.type = DrugCardType.detailed,
     this.isPopular = false, // Default to false
@@ -152,7 +155,11 @@ class DrugCard extends StatelessWidget {
                                 children: [
                                   if (drug.mainCategory.isNotEmpty)
                                     CustomBadge(
-                                      label: drug.mainCategory,
+                                      // Use translated category name from constants, fallback to original
+                                      label:
+                                          kCategoryTranslation[drug
+                                              .mainCategory] ??
+                                          drug.mainCategory,
                                       backgroundColor:
                                           colorScheme.secondaryContainer,
                                       textColor:

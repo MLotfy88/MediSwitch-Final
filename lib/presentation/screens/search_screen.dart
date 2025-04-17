@@ -244,6 +244,7 @@ class _SearchScreenState extends State<SearchScreen> {
             // Add padding between items (gap-3 equivalent)
             padding: const EdgeInsets.only(bottom: 12.0),
             child: DrugCard(
+              // Uses kCategoryTranslation internally now
               drug: drug,
               type:
                   DrugCardType.detailed, // Use detailed card for search results
