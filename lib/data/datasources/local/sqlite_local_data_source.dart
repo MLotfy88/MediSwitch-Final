@@ -32,7 +32,7 @@ List<MedicineModel> _parseCsvData(String rawCsv) {
   return medicines;
 }
 
-// Keep for update logic
+// Keep for update logic (still uses isolate)
 Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
   final String dbPath = args['dbPath'] as String;
   final String rawCsv = args['rawCsv'] as String;
@@ -68,14 +68,16 @@ Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
 class SqliteLocalDataSource {
   final DatabaseHelper dbHelper;
   final Completer<void> _seedingCompleter = Completer<void>();
-  bool _isSeeding = false; // Flag to indicate seeding is in progress
+  // Remove _isSeeding flag, state will be managed externally or by calling context
+  // bool _isSeeding = false;
 
+  // Keep the completer to signal when seeding (if performed) is done.
   Future<void> get seedingComplete => _seedingCompleter.future;
-  bool get isSeeding => _isSeeding; // Getter for the flag
+  // Remove isSeeding getter
+  // bool get isSeeding => _isSeeding;
 
-  SqliteLocalDataSource({required this.dbHelper}) {
-    _ensureSeedingDone();
-  }
+  // Constructor no longer automatically triggers seeding
+  SqliteLocalDataSource({required this.dbHelper});
 
   Future<SharedPreferences> get _prefs async {
     return await SharedPreferences.getInstance();
@@ -89,22 +91,20 @@ class SqliteLocalDataSource {
     return prefs.getInt(_prefsKeyLastUpdate);
   }
 
-  // MODIFIED: Runs seeding synchronously on main thread
-  Future<void> _ensureSeedingDone() async {
+  // Renamed to be public and indicate its purpose clearly.
+  // No longer automatically called. Returns Future<bool> indicating if seeding was performed.
+  Future<bool> performInitialSeedingIfNeeded() async {
     if (_seedingCompleter.isCompleted) {
-      print('Seeding process already completed.');
-      return;
+      print('Seeding completer already completed. Assuming seeding is done.');
+      return false; // Seeding was not performed now
     }
-    if (_isSeeding) {
-      print('Seeding already in progress, awaiting completion...');
-      await seedingComplete; // Wait if another call triggered it
-      return;
-    }
+    // Remove _isSeeding check, as this method is now explicitly called.
 
-    _isSeeding = true; // Set flag
+    print('Performing initial database seeding check...');
     Database? db;
+    bool seedingPerformed = false;
     try {
-      db = await dbHelper.database;
+      db = await dbHelper.database; // Ensure DB is initialized first
       final count = Sqflite.firstIntValue(
         await db.rawQuery(
           'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
@@ -161,8 +161,34 @@ class SqliteLocalDataSource {
       if (!_seedingCompleter.isCompleted) {
         _seedingCompleter.completeError(e, s);
       }
+      seedingPerformed = true; // Mark that seeding was done
+    } catch (e, s) {
+      print('Error during performInitialSeedingIfNeeded: $e');
+      print(s);
+      if (!_seedingCompleter.isCompleted) {
+        // Propagate the error through the completer
+        _seedingCompleter.completeError(e, s);
+      }
+      rethrow; // Rethrow the error to the caller (e.g., SetupScreen)
     } finally {
-      _isSeeding = false; // Unset flag
+      // Ensure completer is completed even if seeding wasn't needed or failed before completion
+      if (!_seedingCompleter.isCompleted) {
+        print(
+          'Completing seeding completer (likely because seeding was skipped or finished).',
+        );
+        _seedingCompleter.complete();
+      }
+      print('performInitialSeedingIfNeeded finished.');
+    }
+    return seedingPerformed;
+  }
+
+  // Method to manually complete the seeder if seeding is known to be done elsewhere
+  // or not needed (e.g., subsequent app launches)
+  void markSeedingAsComplete() {
+    if (!_seedingCompleter.isCompleted) {
+      print('Manually marking seeding as complete.');
+      _seedingCompleter.complete();
     }
   }
 
