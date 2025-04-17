@@ -123,7 +123,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _filteredMedicines = [];
     _recentlyUpdatedDrugs = [];
     _popularDrugs = [];
-    notifyListeners(); // Notify UI that loading/seeding has started
+    // REMOVED: notifyListeners(); // Notify UI that loading/seeding has started
 
     try {
       // REMOVED: Seeding is assumed complete before this method is called in the new flow.
@@ -333,8 +333,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     if (!append) {
       _isLoading = true; // Set loading true for filter/search
       _error = '';
-      _filteredMedicines = [];
-      notifyListeners(); // Notify UI that a new filter/search is starting
+      // REMOVED: _filteredMedicines = [];
+      // REMOVED: notifyListeners(); // Notify UI that a new filter/search is starting
     }
 
     final int offset =
