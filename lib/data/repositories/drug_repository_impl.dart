@@ -284,4 +284,52 @@ class DrugRepositoryImpl implements DrugRepository {
       return Left(CacheFailure());
     }
   }
+
+  @override
+  Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({
+    required String cutoffDate,
+    required int limit,
+  }) async {
+    _logger.d(
+      "DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '$cutoffDate', limit: $limit",
+    );
+    try {
+      final List<MedicineModel> localMedicines = await localDataSource
+          .getRecentlyUpdatedMedicines(
+            cutoffDate,
+            limit: limit,
+          ); // Corrected call
+      final List<DrugEntity> drugEntities =
+          localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: getRecentlyUpdatedDrugs successful, found ${drugEntities.length} drugs.",
+      );
+      return Right(drugEntities);
+    } catch (e, s) {
+      _logger.e('Error getting recently updated drugs in repository', e, s);
+      return Left(CacheFailure());
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<DrugEntity>>> getPopularDrugs({
+    required int limit,
+  }) async {
+    _logger.d(
+      "DrugRepository: getPopularDrugs called with limit: $limit (using random)",
+    );
+    try {
+      final List<MedicineModel> localMedicines = await localDataSource
+          .getRandomMedicines(limit: limit);
+      final List<DrugEntity> drugEntities =
+          localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: getPopularDrugs successful, found ${drugEntities.length} random drugs.",
+      );
+      return Right(drugEntities);
+    } catch (e, s) {
+      _logger.e('Error getting popular (random) drugs in repository', e, s);
+      return Left(CacheFailure());
+    }
+  }
 }
