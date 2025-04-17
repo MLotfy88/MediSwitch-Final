@@ -4,9 +4,10 @@ import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
-import '../../data/datasources/local/sqlite_local_data_source.dart'; // Import SqliteLocalDataSource
-import 'main_screen.dart'; // Import MainScreen for navigation
-import 'setup_screen.dart'; // Import SetupScreen
+import '../../data/datasources/local/sqlite_local_data_source.dart';
+import 'initialization_screen.dart'; // Import InitializationScreen
+import 'main_screen.dart';
+import 'setup_screen.dart';
 
 // Define the key here or move to a shared constants file
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -17,6 +18,7 @@ class OnboardingScreen extends StatelessWidget {
   static final FileLoggerService _logger = locator<FileLoggerService>();
 
   // Function to mark onboarding as complete and navigate appropriately
+  // Function to mark onboarding as complete and navigate back to InitializationScreen
   void _onOnboardingComplete(BuildContext context) async {
     _logger.i("OnboardingScreen: Onboarding complete.");
     final prefs = await locator.getAsync<SharedPreferences>();
@@ -25,34 +27,11 @@ class OnboardingScreen extends StatelessWidget {
     await prefs.setBool(_prefsKeyOnboardingDone, true);
     _logger.i("OnboardingScreen: Set onboarding complete flag.");
 
-    // Check if it's the first launch *after* onboarding
-    final bool firstLaunchDone =
-        prefs.getBool('first_launch_done') ??
-        false; // Use the key from main.dart
-    _logger.i("OnboardingScreen: Checked first launch flag: $firstLaunchDone");
-
-    Widget nextScreen;
-    if (!firstLaunchDone) {
-      // It's the first launch after onboarding, go to SetupScreen
-      _logger.i("OnboardingScreen: Navigating to SetupScreen.");
-      nextScreen = const SetupScreen();
-      // Mark first launch as done *now* so SetupScreen only shows once
-      // This duplicates the logic in main.dart but ensures it's set correctly
-      // if the app is closed during onboarding.
-      await prefs.setBool('first_launch_done', true);
-      _logger.i("OnboardingScreen: Set first launch flag to true.");
-    } else {
-      // Onboarding was already done, and this is not the first launch, go to MainScreen
-      _logger.i("OnboardingScreen: Navigating to MainScreen.");
-      nextScreen = const MainScreen();
-      // Ensure seeding completer is marked done for subsequent launches
-      locator<SqliteLocalDataSource>().markSeedingAsComplete();
-    }
-
-    // Use pushReplacement to prevent going back to onboarding
-    Navigator.of(
-      context,
-    ).pushReplacement(MaterialPageRoute(builder: (_) => nextScreen));
+    // Navigate back to InitializationScreen to re-evaluate route
+    _logger.i("OnboardingScreen: Navigating back to InitializationScreen.");
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(builder: (_) => const InitializationScreen()),
+    );
   }
 
   @override
