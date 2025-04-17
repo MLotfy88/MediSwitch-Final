@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:shared_preferences/shared_preferences.dart'; // Import SharedPreferences
 
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../data/datasources/local/sqlite_local_data_source.dart';
-import 'main_screen.dart'; // Assuming MainScreen is the target after setup
+import 'main_screen.dart';
 
 class SetupScreen extends StatefulWidget {
   const SetupScreen({super.key});
@@ -68,12 +69,26 @@ class _SetupScreenState extends State<SetupScreen> {
     }
   }
 
-  void _navigateToMainApp() {
+  Future<void> _navigateToMainApp() async {
+    _logger.i("SetupScreen: Seeding complete. Setting first launch flag...");
+    // Set the first launch flag before navigating
+    try {
+      final prefs = await locator.getAsync<SharedPreferences>();
+      await prefs.setBool('first_launch_done', true);
+      _logger.i("SetupScreen: Set first_launch_done flag to true.");
+    } catch (e, s) {
+      _logger.e("SetupScreen: Failed to set first_launch_done flag", e, s);
+      // Proceed with navigation anyway, but log the error.
+      // Consider showing an error message if this flag is critical.
+    }
+
     _logger.i("SetupScreen: Navigating to MainScreen...");
     // Replace the current route with MainScreen so the user can't navigate back to setup
-    Navigator.of(
-      context,
-    ).pushReplacement(MaterialPageRoute(builder: (_) => const MainScreen()));
+    if (mounted) {
+      Navigator.of(
+        context,
+      ).pushReplacement(MaterialPageRoute(builder: (_) => const MainScreen()));
+    }
   }
 
   @override
