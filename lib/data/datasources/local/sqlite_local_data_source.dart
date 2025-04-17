@@ -73,6 +73,8 @@ class SqliteLocalDataSource {
 
   // Keep the completer to signal when seeding (if performed) is done.
   Future<void> get seedingComplete => _seedingCompleter.future;
+  // Add getter to check if the completer is done
+  bool get isSeedingCompleted => _seedingCompleter.isCompleted;
   // Remove isSeeding getter
   // bool get isSeeding => _isSeeding;
 
@@ -333,5 +335,26 @@ class SqliteLocalDataSource {
             .toList();
     categories.sort();
     return categories;
+  }
+
+  /// Checks if the medicines table has any data.
+  Future<bool> hasMedicines() async {
+    // No need to wait for seedingComplete here, as this check might be used
+    // precisely to determine if seeding *needs* to happen.
+    // We just need the database to be open.
+    try {
+      final db = await dbHelper.database;
+      final count = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
+        ),
+      );
+      print("Checking if database has medicines. Count: $count");
+      return count != null && count > 0;
+    } catch (e, s) {
+      print("Error checking medicine count: $e\n$s");
+      // Assume no medicines if there's an error reading the count
+      return false;
+    }
   }
 }

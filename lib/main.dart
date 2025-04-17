@@ -12,12 +12,17 @@ import 'presentation/bloc/dose_calculator_provider.dart';
 import 'presentation/bloc/interaction_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/main_screen.dart';
-import 'presentation/screens/onboarding_screen.dart';
-import 'presentation/screens/setup_screen.dart'; // Import SetupScreen
+import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
+// Remove unused imports
+// import 'presentation/screens/onboarding_screen.dart';
+// import 'presentation/screens/setup_screen.dart';
+// import 'presentation/screens/main_screen.dart';
+// import 'package:shared_preferences/shared_preferences.dart';
+// import 'data/datasources/local/sqlite_local_data_source.dart';
 
-const String _prefsKeyOnboardingDone = 'onboarding_complete';
-const String _prefsKeyFirstLaunchDone =
-    'first_launch_done'; // Key for first launch check
+// Keys moved to InitializationScreen
+// const String _prefsKeyOnboardingDone = 'onboarding_complete';
+// const String _prefsKeyFirstLaunchDone = 'first_launch_done';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,42 +37,35 @@ Future<void> main() async {
     MobileAds.instance.initialize();
     logger.i("main: Mobile Ads SDK initialized.");
 
-    logger.i("main: Checking onboarding status...");
-    final prefs = await locator.getAsync<SharedPreferences>();
-    final bool onboardingComplete =
-        prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-    logger.i("main: Onboarding complete: $onboardingComplete");
+    // REMOVED: Routing logic moved to InitializationScreen
+    // logger.i("main: Checking onboarding status...");
+    // final prefs = await locator.getAsync<SharedPreferences>();
+    // final bool onboardingComplete =
+    //     prefs.getBool(_prefsKeyOnboardingDone) ?? false;
+    // logger.i("main: Onboarding complete: $onboardingComplete");
+    // final bool firstLaunchDone =
+    //     prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
+    // logger.i("main: First launch done: $firstLaunchDone");
+    // Widget initialScreen;
+    // if (!onboardingComplete) {
+    //   logger.i("main: Routing to OnboardingScreen.");
+    //   initialScreen = const OnboardingScreen();
+    //   locator<SqliteLocalDataSource>().markSeedingAsComplete();
+    // } else if (!firstLaunchDone) {
+    //   logger.i("main: First launch after onboarding. Routing to SetupScreen.");
+    //   initialScreen = const SetupScreen();
+    //   // REMOVED: Premature setting of first launch flag
+    //   // await prefs.setBool(_prefsKeyFirstLaunchDone, true);
+    //   // logger.i("main: Set first launch flag to true.");
+    // } else {
+    //   logger.i("main: Subsequent launch. Routing to MainScreen.");
+    //   initialScreen = const MainScreen();
+    //   logger.i("main: Marking seeding as complete for non-first launch.");
+    //   locator<SqliteLocalDataSource>().markSeedingAsComplete();
+    // }
+    // logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // Check first launch status
-    final bool firstLaunchDone =
-        prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
-    logger.i("main: First launch done: $firstLaunchDone");
-
-    Widget initialScreen;
-    if (!onboardingComplete) {
-      logger.i("main: Routing to OnboardingScreen.");
-      initialScreen = const OnboardingScreen();
-      // Ensure seeding completer is marked done if onboarding isn't complete yet
-      // This prevents potential deadlocks if the app is restarted during onboarding
-      // before the first launch flag is set.
-      locator<SqliteLocalDataSource>().markSeedingAsComplete();
-    } else if (!firstLaunchDone) {
-      logger.i("main: First launch after onboarding. Routing to SetupScreen.");
-      initialScreen = const SetupScreen();
-      // Mark first launch as done *now* so SetupScreen only shows once
-      await prefs.setBool(_prefsKeyFirstLaunchDone, true);
-      logger.i("main: Set first launch flag to true.");
-      // Seeding will be handled by SetupScreen, no need to mark complete here.
-    } else {
-      logger.i("main: Subsequent launch. Routing to MainScreen.");
-      initialScreen = const MainScreen();
-      // Mark seeding as complete since it's not the first launch
-      logger.i("main: Marking seeding as complete for non-first launch.");
-      locator<SqliteLocalDataSource>().markSeedingAsComplete();
-    }
-    logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
-
-    // REMOVED: Seeding logic is now handled by SetupScreen or explicitly marked complete.
+    // REMOVED: Seeding logic is now handled by SetupScreen.
     // // logger.i("main: Attempting database seeding if needed...");
     // // try {
     //   final localDataSource = locator<SqliteLocalDataSource>();
@@ -81,7 +79,9 @@ Future<void> main() async {
     locator<SubscriptionProvider>().initialize();
 
     logger.i("main: Running MyApp...");
-    runApp(MyApp(homeWidget: initialScreen));
+    // Always start with InitializationScreen, which handles the routing logic.
+    logger.i("main: Setting InitializationScreen as initial route.");
+    runApp(const MyApp(homeWidget: InitializationScreen()));
     logger.i("main: runApp called successfully.");
   } catch (e, stackTrace) {
     final errorMsg = "FATAL ERROR in main";

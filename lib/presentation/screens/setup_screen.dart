@@ -70,19 +70,13 @@ class _SetupScreenState extends State<SetupScreen> {
   }
 
   Future<void> _navigateToMainApp() async {
-    _logger.i("SetupScreen: Seeding complete. Setting first launch flag...");
-    // Set the first launch flag before navigating
-    try {
-      final prefs = await locator.getAsync<SharedPreferences>();
-      await prefs.setBool('first_launch_done', true);
-      _logger.i("SetupScreen: Set first_launch_done flag to true.");
-    } catch (e, s) {
-      _logger.e("SetupScreen: Failed to set first_launch_done flag", e, s);
-      // Proceed with navigation anyway, but log the error.
-      // Consider showing an error message if this flag is critical.
-    }
+    _logger.i(
+      "SetupScreen: Seeding complete. Navigating to MainScreen...",
+    ); // Removed flag setting log
+    // No longer need to set the first_launch_done flag here.
+    // InitializationScreen now checks seeding status directly.
 
-    _logger.i("SetupScreen: Navigating to MainScreen...");
+    // _logger.i("SetupScreen: Navigating to MainScreen..."); // Log kept below
     // Replace the current route with MainScreen so the user can't navigate back to setup
     if (mounted) {
       Navigator.of(
