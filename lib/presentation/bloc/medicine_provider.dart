@@ -126,6 +126,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     // REMOVED: notifyListeners(); // Notify UI that loading/seeding has started
 
     try {
+      // --- Wait for Seeding ---
+      _logger.i(
+        "MedicineProvider: Waiting for database seeding to complete...",
+      );
+      await _localDataSource.seedingComplete; // Wait for the seeding Future
+      _logger.i("MedicineProvider: Database seeding confirmed complete.");
+      // --- End Wait for Seeding ---
+
       // REMOVED: Seeding is assumed complete before this method is called in the new flow.
       // // --- Wait for Seeding ---
       // _logger.i(
@@ -153,21 +161,20 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _logger.i("MedicineProvider: Loading categories...");
       await _loadCategories();
       _logger.i("MedicineProvider: Categories loaded.");
+      // Load simulated sections needed for HomeScreen UI (Original Order)
+      _logger.i(
+        "MedicineProvider: Loading simulated sections (Recent/Popular)...",
+      );
+      await _loadSimulatedSections();
+      _logger.i("MedicineProvider: Simulated sections loaded.");
 
-      // Apply initial filters (fetch first page of main list) BEFORE simulated sections
+      // Apply initial filters (fetch first page) (Original Order)
       _logger.i("MedicineProvider: Applying initial filters (page 0)...");
       await _applyFilters(
         page: 0,
         limit: _initialPageSize,
       ); // Fetch initial page (10 items)
       _logger.i("MedicineProvider: Initial filters applied.");
-
-      // Load simulated sections needed for HomeScreen UI AFTER main list load attempt
-      _logger.i(
-        "MedicineProvider: Loading simulated sections (Recent/Popular)...",
-      );
-      await _loadSimulatedSections();
-      _logger.i("MedicineProvider: Simulated sections loaded.");
 
       _isInitialLoadComplete = true; // Mark initial load as complete
     } catch (e, s) {
