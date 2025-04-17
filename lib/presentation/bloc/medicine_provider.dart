@@ -487,10 +487,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) _filteredMedicines = [];
       _hasMoreItems = false;
     } finally {
-      // Remove setting isLoading and notifying listeners from here during initial load
-      // It will be handled by loadInitialData
-      // if (!append) _isLoading = false;
-      // notifyListeners();
+      // Ensure isLoading is set to false and UI is notified, especially after initial load attempt
+      if (!append) {
+        // Only adjust isLoading for initial load/filter, not loadMore
+        _isLoading = false;
+      }
+      // Always notify listeners after applying filters, even if handled by loadInitialData,
+      // to ensure UI reflects potential errors or empty states correctly.
+      notifyListeners();
       _logger.d(
         "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
       );
