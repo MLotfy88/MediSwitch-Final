@@ -64,15 +64,13 @@ class _HomeScreenState extends State<HomeScreen> {
     final currentPixels = _scrollController.position.pixels;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final triggerPoint = maxScroll - 300;
-    final shouldLoadMore =
-        currentPixels >= triggerPoint &&
-        provider.hasMoreItems &&
-        !provider.isLoadingMore &&
-        !provider.isLoading;
+    final bool isNearBottom = currentPixels >= triggerPoint;
+    final bool canLoadMore = provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
+    final shouldLoadMore = isNearBottom && canLoadMore;
 
-    // Log scroll position and trigger condition evaluation
+    // Detailed Logging for Pagination (Phase 2, Step 4)
     _logger.v(
-      "HomeScreen _onScroll: Pixels=$currentPixels, MaxScroll=$maxScroll, TriggerAt=$triggerPoint, HasMore=${provider.hasMoreItems}, IsLoadingMore=${provider.isLoadingMore}, IsLoading=${provider.isLoading}, ShouldLoad=$shouldLoadMore",
+      "HomeScreen _onScroll: Pixels=${currentPixels.toStringAsFixed(1)}, MaxScroll=${maxScroll.toStringAsFixed(1)}, TriggerAt=${triggerPoint.toStringAsFixed(1)}, IsNearBottom=$isNearBottom, CanLoadMore=$canLoadMore (HasMore=${provider.hasMoreItems}, !IsLoadingMore=${!provider.isLoadingMore}, !IsLoading=${!provider.isLoading}), ShouldLoad=$shouldLoadMore",
     );
 
     if (shouldLoadMore) {
@@ -115,19 +113,19 @@ class _HomeScreenState extends State<HomeScreen> {
                     forceUpdate: true,
                   );
                 },
-                // REMOVED: Seeding check removed. Show loading or content.
-                child:
-                    isLoading && displayedMedicines.isEmpty
-                        ? _buildLoadingIndicator() // Show generic loading if loading initial empty list
-                        : _buildContent(
-                          // Show content otherwise
-                          context,
-                          medicineProvider,
-                          displayedMedicines,
-                          isLoading,
-                          isLoadingMore,
-                          error,
-                        ),
+                // Refined Loading/Error Logic (Phase 1, Step 3)
+                child: isLoading && displayedMedicines.isEmpty
+                    ? _buildLoadingIndicator() // Initial load indicator
+                    : error.isNotEmpty
+                        ? _buildErrorWidget(context, error) // Show error prominently
+                        : _buildContent( // Build content if not initial loading and no error
+                            context,
+                            medicineProvider,
+                            displayedMedicines,
+                            isLoading, // Pass isLoading for internal use (e.g., refresh indicator)
+                            isLoadingMore,
+                            error, // Pass error for potential footer display
+                          ),
               ),
             ),
             const BannerAdWidget(),

@@ -48,10 +48,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   int? _lastUpdateTimestamp;
   bool _isInitialLoadComplete = false;
   // --- Pagination State ---
-  static const int _initialPageSize = 10; // Size for the very first load
-  static const int _pageSize = 15; // Size for subsequent loads
-  int _currentPage = 0; // Re-added current page
-  bool _hasMoreItems = true; // Re-added flag
+  static const int _initialPageSize = 10; // تحميل 10 أدوية فقط في البداية
+  static const int _pageSize = 15; // تحميل 15 دواء إضافي عند التمرير لأسفل
+  int _currentPage = 0; // صفحة البداية
+  bool _hasMoreItems = true; // مؤشر لوجود المزيد من البيانات
 
   // --- State for Simulated Sections ---
   List<DrugEntity> _recentlyUpdatedDrugs = [];
@@ -132,9 +132,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _currentPage = 0; // Reset pagination
     _hasMoreItems = true;
     _filteredMedicines = [];
-    // _recentlyUpdatedDrugs = []; // REMOVED: Don't clear initially
-    // _popularDrugs = []; // REMOVED: Don't clear initially
-    // REMOVED: Early notifyListeners()
+    _recentlyUpdatedDrugs = []; // إعادة تعيين قائمة الأدوية المحدثة عند التحديث
+    _popularDrugs = []; // إعادة تعيين قائمة الأدوية الشائعة عند التحديث
+    notifyListeners(); // إخطار المستمعين بتغيير الحالة في البداية
 
     try {
       // --- Wait for Seeding ---
@@ -264,10 +264,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _logger.d("MedicineProvider: _loadSimulatedSections called.");
     try {
       // --- Recently Updated Logic ---
+      // تحميل الأدوية المحدثة خلال الشهر الماضي فقط
       final now = DateTime.now();
       final oneMonthAgo = DateTime(now.year, now.month - 1, now.day);
       final cutoffDate = DateFormat('yyyy-MM-dd').format(oneMonthAgo);
-      const recentLimit = 8; // Keep limit at 8 for now
+      const recentLimit = 8; // عرض 8 أدوية فقط في القسم
 
       _logger.i(
         "Fetching recently updated drugs since $cutoffDate (limit: $recentLimit)",
@@ -294,6 +295,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
 
       // --- Popular (Random) Logic ---
+      // تحميل 10 أدوية عشوائية في قسم الأدوية الشائعة
       const popularLimit = 10;
       _logger.i("Fetching $popularLimit popular (random) drugs");
       final popularResult = await getPopularDrugsUseCase(
