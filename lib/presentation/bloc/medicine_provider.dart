@@ -43,8 +43,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   String _error = '';
   int? _lastUpdateTimestamp;
   bool _isInitialLoadComplete = false;
-  bool _isInitialLoadRunning = false; // Flag to prevent re-entry
-
   // --- Pagination State ---
   static const int _initialPageSize = 10; // Size for the very first load
   static const int _pageSize = 15; // Size for subsequent loads
@@ -110,47 +108,27 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
-    // Prevent re-entry if already running, unless forced
-    if (_isInitialLoadRunning && !forceUpdate) {
-      _logger.w(
-        "MedicineProvider: loadInitialData called while already running. Skipping.",
-      );
-      return;
-    }
-    // Also skip if not forced and already loaded successfully
-    if (!forceUpdate && _isInitialLoadComplete && !_isLoading) {
+    // Original simple guard (Restored)
+    if (_isLoading && !forceUpdate) {
       _logger.i(
-        "MedicineProvider: loadInitialData called but already complete and not forced. Skipping.",
+        "MedicineProvider: loadInitialData called but already loading. Skipping.",
       );
       return;
     }
-
-    _isInitialLoadRunning = true; // Set flag
 
     _logger.i(
-      "MedicineProvider: loadInitialData called (forceUpdate: $forceUpdate, isInitialLoadComplete: $_isInitialLoadComplete)",
+      "MedicineProvider: loadInitialData called (forceUpdate: $forceUpdate)",
     );
-    _isLoading = true; // Always set loading true when starting
-    notifyListeners(); // Notify UI that loading has started
-
-    // Only reset state if forced or initial load hasn't completed yet
-    if (forceUpdate || !_isInitialLoadComplete) {
-      _logger.i(
-        "MedicineProvider: Resetting state for initial load or force update.",
-      );
-      _error = '';
-      _isInitialLoadComplete = false;
-      _currentPage = 0; // Reset pagination
-      _hasMoreItems = true;
-      _filteredMedicines = [];
-      _recentlyUpdatedDrugs = [];
-      _popularDrugs = [];
-      // No notifyListeners here, handled above and in finally
-    } else {
-      _logger.i(
-        "MedicineProvider: Skipping state reset as initial load is complete and not forced.",
-      );
-    }
+    _isLoading = true;
+    // Unconditional state reset (Restored)
+    _error = '';
+    _isInitialLoadComplete = false;
+    _currentPage = 0; // Reset pagination
+    _hasMoreItems = true;
+    _filteredMedicines = [];
+    _recentlyUpdatedDrugs = [];
+    _popularDrugs = [];
+    // REMOVED: Early notifyListeners()
 
     try {
       // --- Wait for Seeding ---
@@ -190,18 +168,26 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _logger.i("MedicineProvider: Categories loaded.");
       // Load simulated sections needed for HomeScreen UI (Original Order)
       _logger.i(
-        "MedicineProvider: Loading simulated sections (Recent/Popular)...",
-      );
+        "MedicineProvider: >>> Calling _loadSimulatedSections...",
+      ); // ADDED LOG
       await _loadSimulatedSections();
-      _logger.i("MedicineProvider: Simulated sections loaded.");
+      _logger.i(
+        // ADDED LOG
+        "MedicineProvider: <<< Finished _loadSimulatedSections. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
+      );
 
       // Apply initial filters (fetch first page) (Original Order)
-      _logger.i("MedicineProvider: Applying initial filters (page 0)...");
+      _logger.i(
+        "MedicineProvider: >>> Calling _applyFilters (initial)...",
+      ); // ADDED LOG
       await _applyFilters(
         page: 0,
         limit: _initialPageSize,
       ); // Fetch initial page (10 items)
-      _logger.i("MedicineProvider: Initial filters applied.");
+      _logger.i(
+        // ADDED LOG
+        "MedicineProvider: <<< Finished _applyFilters (initial). Filtered count: ${_filteredMedicines.length}",
+      );
 
       _isInitialLoadComplete = true; // Mark initial load as complete
     } catch (e, s) {
@@ -216,12 +202,15 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     } finally {
       // Ensure loading flag is false after completion or error
       _isLoading = false;
-      _isInitialLoadRunning = false; // Unset flag
       // _isSeedingDatabase = false; // REMOVED
       _logger.i(
-        "MedicineProvider: loadInitialData finished. Setting isLoading=false, isInitialLoadRunning=false.",
+        "MedicineProvider: loadInitialData finished. Setting isLoading=false.", // Reverted log message
       );
-      // Log final state before notifying
+      // Log final state and counts before notifying
+      _logger.i(
+        // ADDED LOG
+        "MedicineProvider: Data counts before final notify - Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}, Filtered: ${_filteredMedicines.length}",
+      );
       _logger.d(
         "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error'",
       );
