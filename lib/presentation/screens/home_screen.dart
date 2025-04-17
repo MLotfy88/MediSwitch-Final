@@ -17,6 +17,7 @@ import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../services/ad_service.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import '../../core/constants/app_constants.dart'; // Import constants
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -30,6 +31,8 @@ class _HomeScreenState extends State<HomeScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   final ScrollController _scrollController =
       ScrollController(); // Re-add ScrollController
+
+  // REMOVED: Maps are now defined in app_constants.dart
 
   @override
   void initState() {
@@ -234,6 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 return Padding(
                   padding: const EdgeInsets.symmetric(vertical: 4.0),
                   child: DrugCard(
+                    // Uses kCategoryTranslation internally now
                     drug: drug,
                     type: DrugCardType.detailed,
                     onTap: () => _navigateToDetails(context, drug),
@@ -293,6 +297,7 @@ class _HomeScreenState extends State<HomeScreen> {
           drugs
               .map(
                 (drug) => DrugCard(
+                  // Uses kCategoryTranslation internally now
                   drug: drug,
                   type: DrugCardType.thumbnail,
                   isPopular: isPopular, // Pass the flag here
@@ -346,42 +351,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildCategoriesSection(BuildContext context) {
-    // Updated map using keys from CSV and existing Arabic translations
-    const Map<String, String> categoryTranslation = {
-      'anti_inflammatory': 'مضادات الالتهاب', // More specific than painkillers
-      'cold_respiratory': 'أدوية البرد والجهاز التنفسي', // More specific
-      'cosmetics': 'مستحضرات تجميل', // Direct translation
-      'digestive': 'أدوية الجهاز الهضمي', // Correct
-      // 'other': 'أخرى', // Still no direct match in original list
-      'pain_management': 'مسكنات الألم', // Correct
-      'personal_care': 'عناية شخصية', // Direct translation
-      'probiotics': 'بروبيوتيك', // Direct translation
-      'skin_care': 'عناية بالبشرة', // More specific than 'أدوية جلدية'
-      'soothing': 'ملطفات', // Direct translation (if appropriate context)
-      'supplements': 'مكملات غذائية', // More common than Vitamins & Minerals
-      'vitamins': 'فيتامينات', // More specific
-    };
-
-    // Updated icon map using keys from CSV with refined icons
-    final categoryIcons = {
-      'anti_inflammatory':
-          LucideIcons.shieldOff, // Icon suggesting blocking inflammation
-      'cold_respiratory': LucideIcons.wind, // Good fit
-      'cosmetics': LucideIcons.gem, // Represents beauty/cosmetics
-      'digestive': LucideIcons.soup, // Okay, represents digestion
-      'pain_management': LucideIcons.pill, // Good fit
-      'personal_care':
-          LucideIcons
-              .bath, // Represents personal hygiene/care (Replaced handSoap)
-      'probiotics':
-          LucideIcons.flaskConical, // Represents science/lab (probiotics)
-      'skin_care': LucideIcons.sparkles, // Represents skin health/glow
-      'soothing': LucideIcons.feather, // Represents gentleness/soothing
-      'supplements':
-          LucideIcons.packagePlus, // Represents adding something extra
-      'vitamins': LucideIcons.leaf, // Good fit for natural/vitamins
-      'default': LucideIcons.tag, // Good fallback
-    };
+    // Use maps directly from imported constants (kCategoryTranslation, kCategoryIcons)
 
     // These are the keys fetched from the provider (e.g., 'pain_management', 'vitamins')
     final englishCategories = context.watch<MedicineProvider>().categories;
@@ -405,7 +375,10 @@ class _HomeScreenState extends State<HomeScreen> {
     // Filter out categories that don't have a translation defined
     final displayableCategories =
         englishCategories
-            .where((key) => categoryTranslation.containsKey(key))
+            .where(
+              (key) =>
+                  kCategoryTranslation.containsKey(key), // Use constant map
+            )
             .toList();
 
     _logger.v(
@@ -422,12 +395,13 @@ class _HomeScreenState extends State<HomeScreen> {
           displayableCategories.map((englishCategoryName) {
             // 1. Translate to Arabic using the updated map
             final arabicCategoryName =
-                categoryTranslation[englishCategoryName] ??
+                kCategoryTranslation[englishCategoryName] ?? // Use constant map
                 englishCategoryName; // Fallback
 
             // 2. Look up icon using the ORIGINAL English key (from CSV)
             final iconData =
-                categoryIcons[englishCategoryName] ?? categoryIcons['default']!;
+                kCategoryIcons[englishCategoryName] ?? // Use constant map
+                kCategoryIcons['default']!;
 
             // 3. Build the card
             return CategoryCard(

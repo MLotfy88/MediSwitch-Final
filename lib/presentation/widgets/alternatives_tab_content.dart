@@ -73,6 +73,7 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
               // No need to create badgeWidget anymore
               // final badgeWidget = CustomBadge(...);
               return DrugCard(
+                // Uses kCategoryTranslation internally now
                 drug: alternative,
                 type: DrugCardType.detailed,
                 isAlternative: true, // Mark this card as an alternative
