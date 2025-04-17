@@ -132,8 +132,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _currentPage = 0; // Reset pagination
     _hasMoreItems = true;
     _filteredMedicines = [];
-    _recentlyUpdatedDrugs = [];
-    _popularDrugs = [];
+    // _recentlyUpdatedDrugs = []; // REMOVED: Don't clear initially
+    // _popularDrugs = []; // REMOVED: Don't clear initially
     // REMOVED: Early notifyListeners()
 
     try {
@@ -218,7 +218,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         "MedicineProvider: Data counts before final notify - Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}, Filtered: ${_filteredMedicines.length}",
       );
       _logger.d(
-        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error'",
+        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error', recentCount: ${_recentlyUpdatedDrugs.length}, popularCount: ${_popularDrugs.length}", // Enhanced Log
       );
       notifyListeners(); // Notify listeners after all initial load logic
     }
@@ -278,12 +278,20 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           limit: recentLimit,
         ),
       );
-      recentResult.fold((l) {
-        _logger.w(
-          "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
-        );
-        _recentlyUpdatedDrugs = []; // Ensure empty on failure
-      }, (r) => _recentlyUpdatedDrugs = r);
+      recentResult.fold(
+        (l) {
+          _logger.w(
+            "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
+          );
+          _recentlyUpdatedDrugs = []; // Ensure empty on failure
+        },
+        (r) {
+          _logger.i(
+            "Successfully loaded ${r.length} recently updated drugs.",
+          ); // Added Log
+          _recentlyUpdatedDrugs = r;
+        },
+      );
 
       // --- Popular (Random) Logic ---
       const popularLimit = 10;
@@ -291,12 +299,20 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       final popularResult = await getPopularDrugsUseCase(
         GetPopularDrugsParams(limit: popularLimit),
       );
-      popularResult.fold((l) {
-        _logger.w(
-          "Failed to load popular (random) drugs: ${_mapFailureToMessage(l)}",
-        );
-        _popularDrugs = []; // Ensure empty on failure
-      }, (r) => _popularDrugs = r);
+      popularResult.fold(
+        (l) {
+          _logger.w(
+            "Failed to load popular (random) drugs: ${_mapFailureToMessage(l)}",
+          );
+          _popularDrugs = []; // Ensure empty on failure
+        },
+        (r) {
+          _logger.i(
+            "Successfully loaded ${r.length} popular (random) drugs.",
+          ); // Added Log
+          _popularDrugs = r;
+        },
+      );
 
       _logger.i(
         "MedicineProvider: Sections loaded. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
