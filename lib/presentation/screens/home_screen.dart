@@ -86,14 +86,15 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     _logger.i("HomeScreen: Building widget...");
     final medicineProvider = context.watch<MedicineProvider>();
+    final isSeeding = medicineProvider.isSeedingDatabase; // Get seeding state
     final isLoading = medicineProvider.isLoading;
     final isLoadingMore =
         medicineProvider.isLoadingMore; // Re-add isLoadingMore
     final error = medicineProvider.error;
     final displayedMedicines = medicineProvider.filteredMedicines;
-    // Re-add hasMoreItems to log
+    // Log seeding state as well
     _logger.d(
-      "HomeScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
+      "HomeScreen: State - isSeeding: $isSeeding, isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
     );
 
     return Scaffold(
@@ -111,15 +112,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     forceUpdate: true,
                   );
                 },
-                // Update loading check
+                // Check seeding state first
                 child:
-                    isLoading &&
-                            displayedMedicines.isEmpty &&
-                            medicineProvider.recentlyUpdatedDrugs.isEmpty &&
-                            medicineProvider.popularDrugs.isEmpty
-                        ? _buildLoadingIndicator()
-                        // Pass isLoadingMore back to _buildContent
+                    isSeeding
+                        ? _buildSeedingIndicator() // Show specific seeding message
+                        : isLoading && displayedMedicines.isEmpty
+                        ? _buildLoadingIndicator() // Show generic loading
                         : _buildContent(
+                          // Show content if not seeding or loading initial empty list
                           context,
                           medicineProvider,
                           displayedMedicines,
@@ -139,6 +139,25 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildLoadingIndicator() {
     _logger.v("HomeScreen: Building loading indicator.");
     return const Center(child: CircularProgressIndicator());
+  }
+
+  // NEW: Widget to show during initial database seeding
+  Widget _buildSeedingIndicator() {
+    _logger.v("HomeScreen: Building seeding indicator.");
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const CircularProgressIndicator(),
+          const SizedBox(height: 16),
+          Text(
+            'جار تهيئة قاعدة البيانات لأول مرة...', // "Initializing database for the first time..."
+            style: Theme.of(context).textTheme.titleMedium,
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
+    );
   }
 
   // Re-add isLoadingMore parameter

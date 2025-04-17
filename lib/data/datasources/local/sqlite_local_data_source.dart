@@ -13,8 +13,7 @@ import '../../models/medicine_model.dart';
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
 
 // --- Top-level Functions for Isolate ---
-
-// Function to parse CSV
+// Keep for update logic
 List<MedicineModel> _parseCsvData(String rawCsv) {
   final List<List<dynamic>> csvTable = const CsvToListConverter(
     fieldDelimiter: ',',
@@ -33,71 +32,16 @@ List<MedicineModel> _parseCsvData(String rawCsv) {
   return medicines;
 }
 
-// Isolate function for seeding - MODIFIED to accept rawCsv AND add internal try-catch
-Future<void> _seedDatabaseIsolate(Map<String, dynamic> args) async {
+// Keep for update logic
+Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
   final String dbPath = args['dbPath'] as String;
   final String rawCsv = args['rawCsv'] as String;
-  Database? db; // Declare db outside try block
+  Database? db;
 
   try {
-    // print('[Isolate] Parsing CSV...');
     final List<MedicineModel> medicines = _parseCsvData(rawCsv);
-    // print('[Isolate] Parsed ${medicines.length} medicines.');
-
-    // Open the database within the isolate
-    // print('[Isolate] Opening database at path: $dbPath');
     db = await openDatabase(dbPath);
-    // print('[Isolate] Database opened.');
-
-    // print('[Isolate] Starting batch insert...');
-    final batch = db.batch();
-    for (final medicine in medicines) {
-      batch.insert(
-        DatabaseHelper.medicinesTable,
-        medicine.toMap(),
-        conflictAlgorithm: ConflictAlgorithm.replace,
-      );
-    }
-    await batch.commit(noResult: true);
-    // print('[Isolate] Batch insert completed.');
-  } catch (e, s) {
-    // Print error directly from isolate for better debugging visibility
-    print('!!! ERROR INSIDE _seedDatabaseIsolate !!!');
-    print('Error: $e');
-    print('Stacktrace: $s');
-    // Rethrow the error so compute() catches it and completes the future with error
-    rethrow;
-  } finally {
-    // Ensure database is closed even if error occurred after opening
-    if (db != null && db.isOpen) {
-      // print('[Isolate] Closing database connection.');
-      await db.close();
-    } else {
-      // print('[Isolate] Database connection was not opened or already closed.');
-    }
-  }
-}
-
-// Isolate function for updating from downloaded CSV - MODIFIED to accept rawCsv
-Future<void> _updateDatabaseIsolate(Map<String, dynamic> args) async {
-  final String dbPath = args['dbPath'] as String; // Cast to String
-  final String rawCsv = args['rawCsv'] as String; // Receive raw CSV string
-  Database? db; // Declare outside try
-
-  try {
-    // print('[Isolate] Parsing downloaded CSV...');
-    final List<MedicineModel> medicines = _parseCsvData(
-      rawCsv,
-    ); // Parse inside isolate
-    // print('[Isolate] Parsed ${medicines.length} medicines.');
-
-    db = await openDatabase(dbPath);
-
-    // print('[Isolate] Clearing existing data...');
     await db.delete(DatabaseHelper.medicinesTable);
-    // print('[Isolate] Existing data cleared.');
-
-    // print('[Isolate] Starting batch insert/replace...');
     final batch = db.batch();
     for (final medicine in medicines) {
       batch.insert(
@@ -107,15 +51,14 @@ Future<void> _updateDatabaseIsolate(Map<String, dynamic> args) async {
       );
     }
     await batch.commit(noResult: true);
-    // print('[Isolate] Batch insert completed.');
+    return null;
   } catch (e, s) {
     print('!!! ERROR INSIDE _updateDatabaseIsolate !!!');
     print('Error: $e');
     print('Stacktrace: $s');
-    rethrow;
+    return 'Isolate Update Error: $e \nStacktrace: $s';
   } finally {
     if (db != null && db.isOpen) {
-      // print('[Isolate] Closing database connection (update).');
       await db.close();
     }
   }
@@ -124,14 +67,13 @@ Future<void> _updateDatabaseIsolate(Map<String, dynamic> args) async {
 // --- SqliteLocalDataSource Class ---
 class SqliteLocalDataSource {
   final DatabaseHelper dbHelper;
-  // Completer to signal when initial seeding (if needed) is done
   final Completer<void> _seedingCompleter = Completer<void>();
+  bool _isSeeding = false; // Flag to indicate seeding is in progress
 
-  // Public future that external classes can await
   Future<void> get seedingComplete => _seedingCompleter.future;
+  bool get isSeeding => _isSeeding; // Getter for the flag
 
   SqliteLocalDataSource({required this.dbHelper}) {
-    // Start the seeding check process asynchronously in the constructor
     _ensureSeedingDone();
   }
 
@@ -142,21 +84,25 @@ class SqliteLocalDataSource {
   // --- Core Logic ---
 
   Future<int?> getLastUpdateTimestamp() async {
-    await seedingComplete; // Ensure seeding is done before accessing prefs related to updates
+    await seedingComplete;
     final prefs = await _prefs;
     return prefs.getInt(_prefsKeyLastUpdate);
   }
 
-  // Renamed from seedDatabaseFromAssetIfNeeded to make its purpose clearer
-  // REVERTED: Use compute again, but with better error handling in isolate
+  // MODIFIED: Runs seeding synchronously on main thread
   Future<void> _ensureSeedingDone() async {
-    // Check if seeding is already complete or in progress
     if (_seedingCompleter.isCompleted) {
       print('Seeding process already completed.');
       return;
     }
+    if (_isSeeding) {
+      print('Seeding already in progress, awaiting completion...');
+      await seedingComplete; // Wait if another call triggered it
+      return;
+    }
 
-    Database? db; // Declare outside try block
+    _isSeeding = true; // Set flag
+    Database? db;
     try {
       db = await dbHelper.database;
       final count = Sqflite.firstIntValue(
@@ -167,26 +113,30 @@ class SqliteLocalDataSource {
 
       if (count == 0) {
         print(
-          'Medicines table is empty. Seeding database from asset (using isolate)...',
+          'Medicines table is empty. Seeding database from asset ON MAIN THREAD...',
         );
         final stopwatch = Stopwatch()..start();
-        // Load raw CSV string on main thread (faster)
+
         print('[Main Thread] Loading raw CSV asset...');
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
         print('[Main Thread] Raw CSV loaded.');
 
-        // Perform parsing and DB operations in isolate
-        print(
-          '[Main Thread] Starting database seeding in isolate (parsing + insert)...',
-        );
-        // Use compute again
-        await compute(_seedDatabaseIsolate, {
-          'dbPath': db.path, // Pass the database path
-          'rawCsv': rawCsv, // Pass raw CSV string
-        });
-        print('[Main Thread] Isolate seeding completed successfully.');
+        print('[Main Thread] Parsing CSV...');
+        final List<MedicineModel> medicines = _parseCsvData(rawCsv);
+        print('[Main Thread] Parsed ${medicines.length} medicines.');
 
-        // Update timestamp after successful seeding
+        print('[Main Thread] Starting batch insert...');
+        final batch = db.batch();
+        for (final medicine in medicines) {
+          batch.insert(
+            DatabaseHelper.medicinesTable,
+            medicine.toMap(),
+            conflictAlgorithm: ConflictAlgorithm.replace,
+          );
+        }
+        await batch.commit(noResult: true);
+        print('[Main Thread] Batch insert completed.');
+
         final prefs = await _prefs;
         await prefs.setInt(
           _prefsKeyLastUpdate,
@@ -194,30 +144,26 @@ class SqliteLocalDataSource {
         );
         stopwatch.stop();
         print(
-          'Database seeded successfully (via isolate) in ${stopwatch.elapsedMilliseconds}ms.',
+          'Database seeded successfully ON MAIN THREAD in ${stopwatch.elapsedMilliseconds}ms.',
         );
-        // Signal successful completion
         if (!_seedingCompleter.isCompleted) {
           _seedingCompleter.complete();
         }
       } else {
         print('Database already contains data. Skipping seed.');
-        // Signal completion as seeding wasn't needed
         if (!_seedingCompleter.isCompleted) {
           _seedingCompleter.complete();
         }
       }
     } catch (e, s) {
-      print('Error during seeding check/process (caught on main thread): $e');
-      print(s); // Print stack trace for debugging
-      // Signal completion with an error
+      print('Error during MAIN THREAD seeding check/process: $e');
+      print(s);
       if (!_seedingCompleter.isCompleted) {
         _seedingCompleter.completeError(e, s);
       }
-      // Optionally rethrow if the caller needs to handle it immediately
-      // rethrow;
+    } finally {
+      _isSeeding = false; // Unset flag
     }
-    // Note: We are not closing the DB connection here as it's managed by dbHelper
   }
 
   Future<void> saveDownloadedCsv(String csvData) async {
@@ -228,24 +174,31 @@ class SqliteLocalDataSource {
       );
       final db = await dbHelper.database; // Get DB instance for path
 
-      // Perform parsing and DB operations in isolate
       print(
         '[Main Thread] Starting database update in isolate (parsing + insert)...',
       );
-      // Await the compute call directly
-      await compute(_updateDatabaseIsolate, {
+      final String? isolateResult = await compute(_updateDatabaseIsolate, {
         'dbPath': db.path,
-        'rawCsv': csvData, // Pass raw CSV string
+        'rawCsv': csvData,
       });
-      print('[Main Thread] Isolate update completed successfully.');
 
-      final prefs = await _prefs;
-      await prefs.setInt(
-        _prefsKeyLastUpdate,
-        DateTime.now().millisecondsSinceEpoch,
-      );
-
-      print('Database updated successfully from downloaded CSV (via isolate).');
+      if (isolateResult != null) {
+        print(
+          '!!! ERROR RETURNED FROM _updateDatabaseIsolate (logged from main thread) !!!',
+        );
+        print(isolateResult);
+        throw Exception('Update isolate failed: $isolateResult');
+      } else {
+        print('[Main Thread] Isolate update completed successfully.');
+        final prefs = await _prefs;
+        await prefs.setInt(
+          _prefsKeyLastUpdate,
+          DateTime.now().millisecondsSinceEpoch,
+        );
+        print(
+          'Database updated successfully from downloaded CSV (via isolate).',
+        );
+      }
     } catch (e, s) {
       print('Error during downloaded CSV update process: $e');
       print(s);
@@ -258,7 +211,7 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getAllMedicines() async {
     await seedingComplete; // Wait for seeding
     print("Fetching all medicines from SQLite...");
-    final db = await dbHelper.database; // Ensure db is awaited here too
+    final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
     );
@@ -267,7 +220,6 @@ class SqliteLocalDataSource {
     });
   }
 
-  // Search medicines using SQL LIKE with pagination
   Future<List<MedicineModel>> searchMedicinesByName(
     String query, {
     int? limit,
@@ -281,7 +233,7 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final lowerCaseQuery = '%${query.toLowerCase()}%';
 
-    String whereClause = '1=1'; // Default if query is empty
+    String whereClause = '1=1';
     List<dynamic> whereArgs = [];
 
     if (query.isNotEmpty) {
@@ -297,8 +249,8 @@ class SqliteLocalDataSource {
       DatabaseHelper.medicinesTable,
       where: whereClause,
       whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
-      limit: limit, // Apply limit if provided
-      offset: offset, // Apply offset if provided
+      limit: limit,
+      offset: offset,
     );
 
     return List.generate(maps.length, (i) {
@@ -306,7 +258,6 @@ class SqliteLocalDataSource {
     });
   }
 
-  // Filter medicines using SQL WHERE with pagination
   Future<List<MedicineModel>> filterMedicinesByCategory(
     String category, {
     int? limit,
@@ -325,11 +276,10 @@ class SqliteLocalDataSource {
 
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where:
-          'LOWER(${DatabaseHelper.colMainCategory}) = ?', // Case-insensitive match
+      where: 'LOWER(${DatabaseHelper.colMainCategory}) = ?',
       whereArgs: [lowerCaseCategory],
-      limit: limit, // Apply limit if provided
-      offset: offset, // Apply offset if provided
+      limit: limit,
+      offset: offset,
     );
 
     return List.generate(maps.length, (i) {
@@ -337,7 +287,6 @@ class SqliteLocalDataSource {
     });
   }
 
-  // Get available categories using SQL DISTINCT
   Future<List<String>> getAvailableCategories() async {
     await seedingComplete; // Wait for seeding
     print("Fetching distinct categories from SQLite...");
@@ -351,9 +300,9 @@ class SqliteLocalDataSource {
     List<String> categories =
         maps
             .map((map) => map[DatabaseHelper.colMainCategory]?.toString() ?? '')
-            .where((cat) => cat.isNotEmpty) // Filter out empty categories
+            .where((cat) => cat.isNotEmpty)
             .toList();
-    categories.sort(); // Sort alphabetically
+    categories.sort();
     return categories;
   }
 }
