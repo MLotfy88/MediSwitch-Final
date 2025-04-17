@@ -47,8 +47,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   int? _lastUpdateTimestamp;
   bool _isInitialLoadComplete = false;
   // --- Pagination State ---
-  static const int _initialPageSize = 5; // تحميل 5 أدوية فقط في البداية
-  static const int _pageSize = 5; // تحميل 5 أدوية إضافية عند التمرير لأسفل
+  static const int _initialPageSize = 10; // Load 10 drugs initially
+  static const int _pageSize =
+      15; // Load 15 additional drugs when scrolling down
   int _currentPage = 0; // صفحة البداية
   bool _hasMoreItems = true; // مؤشر لوجود المزيد من البيانات
 
@@ -195,32 +196,32 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
 
       _isInitialLoadComplete = true; // Mark initial load as complete
+      _isLoading = false; // Set loading false on success path
+      _logger.i(
+        "MedicineProvider: Initial load successful. Notifying listeners.",
+      );
+      notifyListeners(); // Notify listeners on success path
     } catch (e, s) {
-      _logger.e(
-        "MedicineProvider: Error during initial data load (seeding or filters)",
-        e,
-        s,
-      );
-      _error = "فشل تحميل البيانات الأولية. قد تكون مشكلة في قاعدة البيانات.";
+      _logger.e("MedicineProvider: Error during initial data load", e, s);
+      _error =
+          e is Exception
+              ? e.toString().replaceFirst(
+                'Exception: ',
+                '',
+              ) // Use exception message if available
+              : "فشل تحميل البيانات الأولية. قد تكون مشكلة في قاعدة البيانات.";
       _filteredMedicines = []; // Ensure list is empty on error
+      _recentlyUpdatedDrugs = []; // Also clear section lists on error
+      _popularDrugs = []; // Also clear section lists on error
       _hasMoreItems = false;
-    } finally {
-      // Ensure loading flag is false after completion or error
-      _isLoading = false;
-      // _isSeedingDatabase = false; // REMOVED
-      _logger.i(
-        "MedicineProvider: loadInitialData finished. Setting isLoading=false.", // Reverted log message
+      _isLoading = false; // Set loading false on error path
+      _isInitialLoadComplete = false; // Ensure this is false on error
+      _logger.w(
+        "MedicineProvider: Initial load failed. Notifying listeners with error state.",
       );
-      // Log final state and counts before notifying
-      _logger.i(
-        // ADDED LOG
-        "MedicineProvider: Data counts before final notify - Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}, Filtered: ${_filteredMedicines.length}",
-      );
-      _logger.d(
-        "MedicineProvider: Final state before notify (Initial Load) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}, error: '$_error', recentCount: ${_recentlyUpdatedDrugs.length}, popularCount: ${_popularDrugs.length}", // Enhanced Log
-      );
-      notifyListeners(); // Notify listeners after all initial load logic
+      notifyListeners(); // Notify listeners on error path
     }
+    // REMOVED Finally block - handled in try/catch
   }
 
   Future<void> _loadCategories() async {
@@ -280,18 +281,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
       recentResult.fold(
         (l) {
-          _logger.w(
-            "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
-          );
+          final errorMsg = _mapFailureToMessage(l);
+          _logger.w("Failed to load recently updated drugs: $errorMsg");
           _recentlyUpdatedDrugs = []; // Ensure empty on failure
-          _error = _mapFailureToMessage(l);
+          throw Exception('Failed to load recently updated drugs: $errorMsg');
         },
         (r) {
-          _logger.i(
-            "Successfully loaded ${r.length} recently updated drugs.",
-          ); // Added Log
+          _logger.i("Successfully loaded ${r.length} recently updated drugs.");
           _recentlyUpdatedDrugs = r;
-          _error = '';
         },
       );
 
@@ -304,18 +301,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
       popularResult.fold(
         (l) {
-          _logger.w(
-            "Failed to load popular (random) drugs: ${_mapFailureToMessage(l)}",
-          );
+          final errorMsg = _mapFailureToMessage(l);
+          _logger.w("Failed to load popular (random) drugs: $errorMsg");
           _popularDrugs = []; // Ensure empty on failure
-          _error = _mapFailureToMessage(l);
+          throw Exception('Failed to load popular drugs: $errorMsg');
         },
         (r) {
-          _logger.i(
-            "Successfully loaded ${r.length} popular (random) drugs.",
-          ); // Added Log
+          _logger.i("Successfully loaded ${r.length} popular (random) drugs.");
           _popularDrugs = r;
-          _error = '';
         },
       );
 
@@ -377,7 +370,10 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     notifyListeners();
 
     _currentPage++;
-    _logger.i("MedicineProvider: loadMoreDrugs called for page $_currentPage");
+    // Pagination Logging (Phase 2, Step 4)
+    _logger.i(
+      "MedicineProvider: loadMoreDrugs ENTRY - Requesting page $_currentPage",
+    );
 
     await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
 
@@ -386,8 +382,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: Final state before notify (Load More) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",
     );
     notifyListeners();
+    // Pagination Logging (Phase 2, Step 4)
     _logger.i(
-      "MedicineProvider: loadMoreDrugs finished for page $_currentPage. hasMore: $_hasMoreItems",
+      "MedicineProvider: loadMoreDrugs EXIT - Finished page $_currentPage. hasMore: $_hasMoreItems, Total items: ${_filteredMedicines.length}",
     );
   }
 
@@ -409,8 +406,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     final int offset =
         (page == 0) ? 0 : _initialPageSize + (page - 1) * _pageSize;
 
+    // Pagination Logging (Phase 2, Step 4)
     _logger.i(
-      "MedicineProvider: _applyFilters called. Page: $page, Requested Limit: $requestedLimit, Fetch Limit: $fetchLimit, Offset: $offset, Append: $append. Query: '$_searchQuery', Category: '$_selectedCategory'",
+      "MedicineProvider: _applyFilters ENTRY - Page: $page, Append: $append, ReqLimit: $requestedLimit, FetchLimit: $fetchLimit, Offset: $offset, Query: '$_searchQuery', Category: '$_selectedCategory', DosageForm: '$_selectedDosageForm', PriceRange: $_selectedPriceRange",
     );
 
     Either<Failure, List<DrugEntity>> result;
@@ -460,8 +458,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           _hasMoreItems = false;
         },
         (drugs) {
+          // Pagination Logging (Phase 2, Step 4)
+          _logger.i(
+            "MedicineProvider: _applyFilters - UseCase SUCCESS (Page: $page, Append: $append). Fetched ${drugs.length} items.",
+          );
           _logger.d(
-            "MedicineProvider: Repository fetch successful (page $page - ${drugs.length} items). Applying secondary local filters...",
+            "MedicineProvider: Applying secondary local filters (Dosage: '$_selectedDosageForm', Price: $_selectedPriceRange)...",
           );
           List<DrugEntity> newlyFiltered = List.from(drugs);
 
@@ -558,8 +560,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) {
         notifyListeners();
       }
-      _logger.d(
-        "MedicineProvider: _applyFilters finished for page $page. isLoading: $_isLoading, hasMore: $_hasMoreItems",
+      // Pagination Logging (Phase 2, Step 4)
+      _logger.i(
+        "MedicineProvider: _applyFilters EXIT - Page: $page, Append: $append. Final State: isLoading=$_isLoading, isLoadingMore=$_isLoadingMore, hasMore=$_hasMoreItems, filteredCount=${_filteredMedicines.length}, error='$_error'",
       );
     }
   }
