@@ -42,14 +42,13 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   double _minPrice = 0;
   double _maxPrice = 1000;
   bool _isLoading = true;
-  // bool _isSeedingDatabase = false; // REMOVED: Seeding state handled externally
   bool _isLoadingMore = false; // Re-added for pagination
   String _error = '';
   int? _lastUpdateTimestamp;
   bool _isInitialLoadComplete = false;
   // --- Pagination State ---
-  static const int _initialPageSize = 10; // تحميل 10 أدوية فقط في البداية
-  static const int _pageSize = 15; // تحميل 15 دواء إضافي عند التمرير لأسفل
+  static const int _initialPageSize = 5; // تحميل 5 أدوية فقط في البداية
+  static const int _pageSize = 5; // تحميل 5 أدوية إضافية عند التمرير لأسفل
   int _currentPage = 0; // صفحة البداية
   bool _hasMoreItems = true; // مؤشر لوجود المزيد من البيانات
 
@@ -285,12 +284,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
             "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
           );
           _recentlyUpdatedDrugs = []; // Ensure empty on failure
+          _error = _mapFailureToMessage(l);
         },
         (r) {
           _logger.i(
             "Successfully loaded ${r.length} recently updated drugs.",
           ); // Added Log
           _recentlyUpdatedDrugs = r;
+          _error = '';
         },
       );
 
@@ -307,12 +308,14 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
             "Failed to load popular (random) drugs: ${_mapFailureToMessage(l)}",
           );
           _popularDrugs = []; // Ensure empty on failure
+          _error = _mapFailureToMessage(l);
         },
         (r) {
           _logger.i(
             "Successfully loaded ${r.length} popular (random) drugs.",
           ); // Added Log
           _popularDrugs = r;
+          _error = '';
         },
       );
 
