@@ -40,30 +40,47 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
         final bool onboardingComplete =
             prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-        final bool firstLaunchDone =
-            prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
+        // Remove firstLaunchDone check, rely on database seeded status instead
+        // final bool firstLaunchDone =
+        //     prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
 
         _logger.i(
-          "InitializationScreen: Flags - OnboardingDone: $onboardingComplete, FirstLaunchDone: $firstLaunchDone",
+          "InitializationScreen: Flags - OnboardingDone: $onboardingComplete",
         );
 
         Widget nextScreen;
 
         if (!onboardingComplete) {
           _logger.i("InitializationScreen: Routing to OnboardingScreen.");
-          // Mark seeding complete here because onboarding doesn't depend on it,
-          // and if the user quits during onboarding, we don't want a deadlock later.
-          localDataSource.markSeedingAsComplete();
+          // DO NOT mark seeding complete here. Let SetupScreen handle it.
+          // localDataSource.markSeedingAsComplete();
           nextScreen = const OnboardingScreen();
-        } else if (!firstLaunchDone) {
-          _logger.i("InitializationScreen: Routing to SetupScreen.");
-          // Seeding will be handled by SetupScreen. It will set the flag.
-          nextScreen = const SetupScreen();
         } else {
-          _logger.i("InitializationScreen: Routing to MainScreen.");
-          // Seeding is already done (or should be), mark complete just in case.
-          localDataSource.markSeedingAsComplete();
-          nextScreen = const MainScreen();
+          // Onboarding is complete, now check the first launch flag
+          _logger.i(
+            "InitializationScreen: Onboarding complete. Checking first launch flag...",
+          );
+          final bool firstLaunchDone =
+              prefs.getBool(_prefsKeyFirstLaunchDone) ?? false;
+          _logger.i(
+            "InitializationScreen: First launch flag status: $firstLaunchDone",
+          );
+
+          if (!firstLaunchDone) {
+            _logger.i(
+              "InitializationScreen: First launch not done. Routing to SetupScreen.",
+            );
+            // Seeding will be handled by SetupScreen, which will set the flag.
+            nextScreen = const SetupScreen();
+          } else {
+            _logger.i(
+              "InitializationScreen: First launch already done. Routing to MainScreen.",
+            );
+            // Ensure seeding completer is marked done for subsequent launches
+            // in case SetupScreen was somehow skipped or failed previously.
+            localDataSource.markSeedingAsComplete();
+            nextScreen = const MainScreen();
+          }
         }
 
         if (mounted) {

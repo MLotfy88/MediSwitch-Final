@@ -101,17 +101,20 @@ class SqliteLocalDataSource {
     // Remove _isSeeding check, as this method is now explicitly called.
 
     print('Performing initial database seeding check...');
-    Database? db;
+    Database? db; // Declare db here again
     bool seedingPerformed = false;
     try {
+      // Restore original check logic
       db = await dbHelper.database; // Ensure DB is initialized first
       final count = Sqflite.firstIntValue(
         await db.rawQuery(
           'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
         ),
       );
+      print('Database seed check: Medicine count = $count');
 
       if (count == 0) {
+        // db instance is already available here
         print(
           'Medicines table is empty. Seeding database from asset ON MAIN THREAD...',
         );
