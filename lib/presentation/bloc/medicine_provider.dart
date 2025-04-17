@@ -149,23 +149,25 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       await _loadAndUpdateTimestamp();
       _logger.i("MedicineProvider: Timestamp loaded.");
 
-      // Load categories and simulated sections needed for HomeScreen UI
+      // Load categories first
       _logger.i("MedicineProvider: Loading categories...");
       await _loadCategories();
-      _logger.i(
-        "MedicineProvider: Loading simulated sections (Recent/Popular)...",
-      );
-      await _loadSimulatedSections();
-      _logger.i("MedicineProvider: Categories and simulated sections loaded.");
+      _logger.i("MedicineProvider: Categories loaded.");
 
-      // Apply initial filters (fetch first page)
+      // Apply initial filters (fetch first page of main list) BEFORE simulated sections
       _logger.i("MedicineProvider: Applying initial filters (page 0)...");
       await _applyFilters(
         page: 0,
         limit: _initialPageSize,
       ); // Fetch initial page (10 items)
-
       _logger.i("MedicineProvider: Initial filters applied.");
+
+      // Load simulated sections needed for HomeScreen UI AFTER main list load attempt
+      _logger.i(
+        "MedicineProvider: Loading simulated sections (Recent/Popular)...",
+      );
+      await _loadSimulatedSections();
+      _logger.i("MedicineProvider: Simulated sections loaded.");
 
       _isInitialLoadComplete = true; // Mark initial load as complete
     } catch (e, s) {
