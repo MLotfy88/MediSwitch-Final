@@ -37,11 +37,16 @@ List<MedicineModel> _parseCsvForSeed(String rawCsv) {
   return medicines;
 }
 
-// Isolate function for seeding
+// Isolate function for seeding - MODIFIED to accept rawCsv
 Future<void> _seedDatabaseIsolate(Map<String, dynamic> args) async {
   final String dbPath = args['dbPath'] as String; // Cast to String
-  final List<MedicineModel> medicines =
-      args['medicines'] as List<MedicineModel>; // Cast to List<MedicineModel>
+  final String rawCsv = args['rawCsv'] as String; // Receive raw CSV string
+
+  // print('[Isolate] Parsing CSV...');
+  final List<MedicineModel> medicines = _parseCsvForSeed(
+    rawCsv,
+  ); // Parse inside isolate
+  // print('[Isolate] Parsed ${medicines.length} medicines.');
 
   // Open the database within the isolate
   final Database db = await openDatabase(dbPath);
@@ -61,11 +66,16 @@ Future<void> _seedDatabaseIsolate(Map<String, dynamic> args) async {
   await db.close(); // Close the database connection in the isolate
 }
 
-// Isolate function for updating from downloaded CSV
+// Isolate function for updating from downloaded CSV - MODIFIED to accept rawCsv
 Future<void> _updateDatabaseIsolate(Map<String, dynamic> args) async {
   final String dbPath = args['dbPath'] as String; // Cast to String
-  final List<MedicineModel> medicines =
-      args['medicines'] as List<MedicineModel>; // Cast to List<MedicineModel>
+  final String rawCsv = args['rawCsv'] as String; // Receive raw CSV string
+
+  // print('[Isolate] Parsing downloaded CSV...');
+  final List<MedicineModel> medicines = _parseCsvForSeed(
+    rawCsv,
+  ); // Parse inside isolate
+  // print('[Isolate] Parsed ${medicines.length} medicines.');
 
   final Database db = await openDatabase(dbPath);
 
@@ -118,18 +128,20 @@ class SqliteLocalDataSource {
       );
       final stopwatch = Stopwatch()..start();
       try {
+        // Load raw CSV string on main thread (faster)
+        print('[Main Thread] Loading raw CSV asset...');
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
+        print('[Main Thread] Raw CSV loaded.');
 
-        // Parse CSV on main thread (usually fast enough)
-        print('[Main Thread] Parsing CSV...');
-        final medicines = _parseCsvForSeed(rawCsv);
-        print('[Main Thread] Parsed ${medicines.length} medicines.');
-        // Perform DB operations in isolate
-        print('[Main Thread] Starting database seeding in isolate...');
+        // Perform parsing and DB operations in isolate
+        print(
+          '[Main Thread] Starting database seeding in isolate (parsing + insert)...',
+        );
         try {
+          // Pass rawCsv to the isolate
           await compute(_seedDatabaseIsolate, {
             'dbPath': db.path, // Pass the database path
-            'medicines': medicines,
+            'rawCsv': rawCsv, // Pass raw CSV string
           });
           print('[Main Thread] Isolate seeding completed successfully.');
         } catch (isolateError, isolateStacktrace) {
@@ -168,16 +180,15 @@ class SqliteLocalDataSource {
       );
       final db = await dbHelper.database; // Get DB instance for path
 
-      // Parse CSV on main thread
-      print('[Main Thread] Parsing downloaded CSV...');
-      final medicines = _parseCsvForSeed(csvData);
-      print('[Main Thread] Parsed ${medicines.length} medicines.');
-      // Perform DB operations in isolate
-      print('[Main Thread] Starting database update in isolate...');
+      // Perform parsing and DB operations in isolate
+      print(
+        '[Main Thread] Starting database update in isolate (parsing + insert)...',
+      );
       try {
+        // Pass raw csvData to the isolate
         await compute(_updateDatabaseIsolate, {
           'dbPath': db.path,
-          'medicines': medicines,
+          'rawCsv': csvData, // Pass raw CSV string
         });
         print('[Main Thread] Isolate update completed successfully.');
       } catch (isolateError, isolateStacktrace) {
