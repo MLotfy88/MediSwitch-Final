@@ -1,601 +1,727 @@
-17:38:05.089  D  NameNotFoundException: com.example.mediswitch
-17:38:06.031  I  [2] aqya.b(96): VerifyApps: Install-time verification requested for package com.example.mediswitch, PackageManager id = 48, Verifier id = e8f2a20d-4856-4d74-97cb-bc233a42c65d
-17:38:06.158  D  NameNotFoundException: com.example.mediswitch
-17:38:06.166  I  [60034] VerifyAppsInstallTask.mg(57): VerifyApps: Anti-malware verification task started for package=com.example.mediswitch
-17:38:06.378  I  [58964] arpk.a(69): VerifyApps: Starting APK Analysis scan for com.example.mediswitch.
-17:38:06.379  I  [58964] aqxa.b(188): Scanning package com.example.mediswitch contents with client side protections. File: [tqDBzUJCN_pCgW6PPwBZffArAGUbhu-jvEBGVWIsYjY]
-17:38:06.380  I  [58964] arpk.a(237): VerifyApps: APK Analysis scan finished for com.example.mediswitch. Verdict: SAFE
-17:38:06.755  I  [60039] arfg.g(65): VerifyApps: Verification package=com.example.mediswitch, id=48, response=0, upload_requested=false
-17:38:06.757  I  [60039] arey.c(297): VerifyApps: PAM result saving to datastore delayed for package: com.example.mediswitch
-17:38:06.759  I  [60034] VerifyRequiredSplitTypesInstallTask.mg(53): VerifyApps: Starting required split types check for com.example.mediswitch.
-17:38:06.764  I  [60034] VerifyRequiredSplitTypesInstallTask.mg(648): VerifyApps: Required split types check successful for com.example.mediswitch.
-17:38:06.787  I  [2] VerifyInstallTask.mf(83): VerifyApps: Install-time verification complete: id=48, package_name=com.example.mediswitch
-17:38:06.823  D  shouldInstallInDualprofile:true installUserId:0 user.id:0 installUser:UserHandle{0} this:PackageSetting{ee99f00 com.example.mediswitch/0}
-17:38:06.823  D  uidAdded uid: 10465, name: com.example.mediswitch
-17:38:06.823  D  add uid:10465 owner:com.example.mediswitch not found
-17:38:06.823  D  add uid:10465 owner:com.example.mediswitch not found
-17:38:06.999  I  Running dexopt (dexoptNeeded=1) on: /data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/base.apk pkg=com.example.mediswitch isa=arm64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/oat classLoaderContext=PCL[]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar]}
-17:38:07.000  V  DexInv: --- BEGIN '/data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/base.apk' ---
-17:38:07.024  I  /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=speed-profile --classpath-dir=/data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw== --class-loader-context=PCL[]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar]} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=install
-17:38:07.831  V  DexInv: --- END '/data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/base.apk' (success) ---
-17:38:07.832  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{ee99f00 com.example.mediswitch/10465} BLOCKED
-17:38:07.885  I  Universal onReceive: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) }
-17:38:07.886  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_ADDED
-17:38:07.944  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.transsion.ossettingsext/.flash.applist.MonitorSysReceiver
-17:38:07.944  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
-17:38:07.944  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
-17:38:07.944  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
-17:38:07.959  I  doCheckAndAddAppOrShortcut pkgName = com.example.mediswitch, packageChange = false
-17:38:08.003  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.apps.nbu.files/.documentbrowser.browselanding.rootcontainerlist.receiver.PackageChangeReceiver_Receiver
-17:38:08.016  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
-17:38:08.017  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
-17:38:08.019  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
-17:38:08.020  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.talpa.share/com.transsion.autoinstalllibrary.silentInstall.InstallReceiver
-17:38:08.030  I  packageAdd pkgName = com.example.mediswitch
-17:38:08.060  I  [2] mzm.f(9): AIM: AppInfoCacheUpdater -> invalidating apps: [com.example.mediswitch]
-17:38:08.062  I  [58954] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
-17:38:08.076  I  [58954] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
-17:38:08.096  W  Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-17:38:08.097  W  Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
-17:38:08.184  D  maybeAddedImsService, packageName: com.example.mediswitch
-17:38:08.426  D  Package added: android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitch
-17:38:08.488  W  update dualprofiel: packageName:com.example.mediswitch, user:UserHandle{0}, action:android.intent.action.PACKAGE_ADDED
-17:38:08.497  D  Launcher.Model-mAllAppsList.addPackage com.example.mediswitch mUser:UserHandle{0}
-17:38:08.500  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{ee99f00 com.example.mediswitch/10465} BLOCKED
-17:38:08.533  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_CHANGED
-17:38:08.533  I  packageChange: com.example.mediswitch, name: com.example.mediswitch
-17:38:08.563  I  doCheckAndAddAppOrShortcut pkgName = com.example.mediswitch, packageChange = true
-17:38:08.572  I  packageAdd pkgName = com.example.mediswitch, enabled: 0
-17:38:08.575  I  [2] mzm.f(9): AIM: AppInfoCacheUpdater -> invalidating apps: [com.example.mediswitch]
-17:38:08.580  I  [58954] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
-17:38:08.675  D  maybeAddedImsService, packageName: com.example.mediswitch
-17:38:08.867  D  Package changed: android.intent.action.PACKAGE_CHANGED, pkg = com.example.mediswitch
-17:38:08.877  I  LocalBroadcastManager onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) }
-17:38:08.929  I  Notify com.transsion.phonemanager of app_install:com.example.mediswitch
-17:38:08.933  I  Notify com.transsion.permissionprotect of app_install:com.example.mediswitch
-17:38:08.934  I  HiManager_CustomTpmsEventService: receiver4 event=app_install value=com.example.mediswitch
-17:38:08.944  I  TpmsEventService_onHandleIntent_onEvent: app_install value: com.example.mediswitch
-17:38:08.973  I  HiManager_NetworkProvider: APP_INSTALL action packageName=com.example.mediswitch
-17:38:09.006  D  onReceive: action = android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitchlockPopSwitch = true, lockNotifySwitch = true
-17:38:09.012  I  onReceive: add pkg = com.example.mediswitch to allowed list
-17:38:09.016  D  actionAdded: pkg = com.example.mediswitch, inPopAppDb = false, inPopBlockDb = false, inPopNotipDb = false, inPopFilterDb = false, no do!!!
-17:38:09.016  D  onReceive: action = android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitchlockPopSwitch = true, lockNotifySwitch = true
-17:38:09.022  I  onReceive: add pkg = com.example.mediswitch to allowed list
-17:38:09.025  D  actionAdded: pkg = com.example.mediswitch, inPopAppDb = false, inPopBlockDb = false, inPopNotipDb = false, inPopFilterDb = false, no do!!!
-17:38:09.090  D  Launcher.Model-mAllAppsList.updatePackage com.example.mediswitch mUser:UserHandle{0}
-17:38:10.315  W  checkDualprofileControl, from:com.google.android.apps.nbu.files, to:com.example.mediswitch, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0, aInfo:ActivityInfo{480a735 com.example.mediswitch.MainActivity}
-17:38:10.315  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.example.mediswitch cmp=com.example.mediswitch/.MainActivity (has extras)} from uid 10106
-17:38:10.331  I  activityCheck pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity isResume=false isInshow =true isDrawn = false
-17:38:10.339  D  com.example.mediswitch reason is install
-17:38:10.352  D  sendBinder to uid 10465: packages=com.example.mediswitch
-17:38:10.354  I  Start proc 22740:com.example.mediswitch/u0a465 for pre-top-activity {com.example.mediswitch/com.example.mediswitch.MainActivity}
-17:38:10.358  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.358  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:10.362  D  mClassName = com.example.mediswitch.MainActivity  pkgName = com.example.mediswitch  RUN_PACKAGE = 
-17:38:10.373  I  [Splash Screen com.example.mediswitch#0](id:2b400001afb,api:2,p:1361,c:692) connect(): api=2 producerControlledByApp=false
-17:38:10.377  D  mode = 1 clsname = com.example.mediswitch.MainActivity
-17:38:10.379  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.380  D  handlerVideoStart isResume = false  VIDEO_PACKAGE =   pkgName = com.example.mediswitch
-17:38:10.382  D  mode = 1 clsname = com.example.mediswitch.MainActivity
-17:38:10.383  D  make process active com.example.mediswitch(22740)
-17:38:10.389  D  onRealStartActivityLocked next:ActivityRecord{5a64c58 u0 com.example.mediswitch/.MainActivity t6239} isKeyguardShowing:false
-17:38:10.389  D  checkActivityRecord nextCls = com.example.mediswitch.MainActivity
-17:38:10.392  I  [perfNotifyAppState] foreground:com.example.mediswitch, pid:22740, uid:10465
-17:38:10.393  I  notifyForegroundApp pack:com.example.mediswitch, uid:10465
-17:38:10.393  I  [notifyAppState] pc:1, com.google.android.apps.nbu.files => com.example.mediswitch
-17:38:10.394  I  Applaunch form com.google.android.apps.nbu.files to com.example.mediswitch
-17:38:10.394  D  pkgName = com.example.mediswitch
-17:38:10.397  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.398  D  className is com.example.mediswitch/com.example.mediswitch.MainActivity
-17:38:10.401  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.401  I  activityCheck pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity isResume=false isInshow =true isDrawn = false
-17:38:10.403  D  sendBinder to uid 10465: packages=com.example.mediswitch
-17:38:10.441  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.442  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:10.447  D  mClassName = com.example.mediswitch.MainActivity  pkgName = com.example.mediswitch  RUN_PACKAGE = 
-17:38:10.453  I  registerTetheringEventCallback:com.example.mediswitch
-17:38:10.453  D  mode = 1 clsname = com.example.mediswitch.MainActivity
-17:38:10.457  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.457  D  handlerVideoStart isResume = false  VIDEO_PACKAGE =   pkgName = com.example.mediswitch
-17:38:10.460  D  mode = 1 clsname = com.example.mediswitch.MainActivity
-17:38:10.464  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.467  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:10.485  D  ++ activityComponent:com.example.mediswitch/com.example.mediswitch.MainActivity counts:null
-17:38:10.487  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:10.543  W  type=1400 audit(0.0:635244): avc: denied { read } for name="max_map_count" dev="proc" ino=25618925 scontext=u:r:untrusted_app:s0:c209,c257,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.example.mediswitch
-17:38:10.583  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:10.608  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:10.664  I  [SF client] NEW(0xb400006f237d5430) for (22740:com.example.mediswitch)
-17:38:10.699  I  [SF client] NEW(0xb400006f237d50b0) for (22740:com.example.mediswitch)
-17:38:10.732  I  Relayout Window{f0c8073 u0 com.example.mediswitch/com.example.mediswitch.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
-17:38:10.739  W  Changing focus fromnull to Window{f0c8073 u0 com.example.mediswitch/com.example.mediswitch.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:531 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:5921 com.android.server.wm.WindowManagerService.relayoutWindow:2603 com.android.server.wm.Session.relayout:213 
-17:38:10.747  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:10.752  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afc,api:1,p:22740,c:692) connect(): api=1 producerControlledByApp=false
-17:38:10.754  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:10.754  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afd,api:1,p:22740,c:692) connect(): api=1 producerControlledByApp=false
-17:38:11.451  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{ee99f00 com.example.mediswitch/10465} BLOCKED
-17:38:11.470  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_CHANGED
-17:38:11.470  I  packageChange: com.example.mediswitch, name: androidx.work.impl.background.systemjob.SystemJobService
-17:38:11.501  D  Launcher.Model-mAllAppsList.updatePackage com.example.mediswitch mUser:UserHandle{0}
-17:38:11.531  D  maybeAddedImsService, packageName: com.example.mediswitch
-17:38:11.597  D  Package changed: android.intent.action.PACKAGE_CHANGED, pkg = com.example.mediswitch
-17:38:12.097  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afd,api:1,p:22740,c:692) disconnect(): api=1
-17:38:12.098  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afd,api:1,p:22740,c:692) connect(): api=1 producerControlledByApp=false
-17:38:12.099  I  [FileLoggerService] Documents directory path: /data/user/0/com.example.mediswitch/app_flutter
-17:38:12.099  I  [FileLoggerService] Attempting to log to: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
-17:38:12.099  I  [FileOutput] Initializing sink for file: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
-17:38:12.100  I  [FileOutput] Sink opened successfully.
-17:38:12.100  I  [FileOutput] Initializing sink for file: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
-17:38:12.101  I  [FileLoggerService] Switched to FileOutput successfully.
-17:38:12.101  I  [FileLoggerService] Initialization process complete. File output initialized: true
-17:38:12.103  I  [FileOutput] Sink opened successfully.
-17:38:12.103  I  Database path: /data/user/0/com.example.mediswitch/app_flutter/mediswitch.db
-17:38:12.107  I  Skipped 81 frames!  The application may be doing too much work on its main thread.
-17:38:12.117  I  Creating database tables and indices...
-17:38:12.118  I  Medicines table created
-17:38:12.122  I  Indices created
-17:38:12.122  I  Database tables and indices created. Seeding will be handled externally if needed.
-17:38:12.137  E  ioctl c0044901 failed with code -1: Invalid argument
-17:38:12.174  W  ClassLoaderContext classpath size mismatch. expected=12, found=0 (DLC[];PCL[base.apk*562585449:base.apk!classes2.dex*3565934092:base.apk!classes3.dex*3794943103:base.apk!classes4.dex*1014525327:base.apk!classes5.dex*2740338394:base.apk!classes6.dex*3159901829:base.apk!classes7.dex*1371425743:base.apk!classes8.dex*3004764602:base.apk!classes9.dex*1100801194:base.apk!classes10.dex*3544929991:base.apk!classes11.dex*4288036291:base.apk!classes12.dex*1168973413]{PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]#PCL[/system/framework/com.android.media.remotedisplay.jar*1128910120]#PCL[/system/framework/com.android.location.provider.jar*4177849200]#PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]} | DLC[];PCL[])
-17:38:12.220  I  onWindowsDrawn pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity launchState=1 windowsDrawnDelayMs =1903
-17:38:12.220  D  /data/misc/iorapd/com.example.mediswitch/1/com.example.mediswitch.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
-17:38:12.221  I  Displayed com.example.mediswitch/.MainActivity: +1s903ms
-17:38:12.221  I  Fully drawn com.example.mediswitch/.MainActivity: +1s903ms
-17:38:12.222  I  [Splash Screen com.example.mediswitch#0](id:2b400001afb,api:2,p:1361,c:692) disconnect(): api=2
-17:38:12.223  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
-17:38:12.223  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
-17:38:12.239  W  ClassLoader referenced unknown path: 
-17:38:12.244  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:12.244  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:12.255  I  [59546] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.271  I  [59546] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.299  I  [59546] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.299  W  ClassLoaderContext classpath size mismatch. expected=12, found=1 (DLC[];PCL[base.apk*562585449:base.apk!classes2.dex*3565934092:base.apk!classes3.dex*3794943103:base.apk!classes4.dex*1014525327:base.apk!classes5.dex*2740338394:base.apk!classes6.dex*3159901829:base.apk!classes7.dex*1371425743:base.apk!classes8.dex*3004764602:base.apk!classes9.dex*1100801194:base.apk!classes10.dex*3544929991:base.apk!classes11.dex*4288036291:base.apk!classes12.dex*1168973413]{PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]#PCL[/system/framework/com.android.media.remotedisplay.jar*1128910120]#PCL[/system/framework/com.android.location.provider.jar*4177849200]#PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]} | DLC[];PCL[/data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/base.apk*2043475105]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]})
-17:38:12.299  W  Found duplicate classes, falling back to extracting from APK : /data/app/~~XwR8fRsF6sLIb4oaRm9t_A==/com.google.android.gms-qkYDHiVScLuTeQWfL0lbUg==/split_AdsDynamite_installtime.apk
-17:38:12.299  W  NOTE: This wastes RAM and hurts startup performance.
-17:38:12.299  W  Found duplicated class when checking oat files: 'Landroid/support/v4/graphics/drawable/IconCompatParcelizer;' in /data/app/~~XwR8fRsF6sLIb4oaRm9t_A==/com.google.android.gms-qkYDHiVScLuTeQWfL0lbUg==/split_AdsDynamite_installtime.apk and /data/app/~~VhjJZ-q0OLpG9O357X7OLA==/com.example.mediswitch-olZlaMR8CtGT0PPISNmCPw==/base.apk
-17:38:12.300  I  [59546] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.311  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:12.311  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:12.323  I  InAppPurchase store available: true
-17:38:12.331  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:12.331  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:12.334  I  [59546] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.334  I  [59546] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.335  I  [59026] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.337  I  [59026] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.347  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
-17:38:12.347  D  getTopPackageNameNew pkm = com.example.mediswitch
-17:38:12.369  I  Loaded products: 
-17:38:12.376  I  [59026] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.376  I  [59546] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.378  I  [59026] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.378  I  [59546] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
-17:38:12.385  I  Attempted to restore purchases.
-17:38:12.385  I  Purchase update received: 0 items
-17:38:12.393  I  Waiting for a blocking GC ClassLinker
-17:38:12.399  I  [Splash Screen com.example.mediswitch#0](id:2b400001afb,api:0,p:-1,c:692) disconnect()
-17:38:12.399  I  [Splash Screen com.example.mediswitch#0](this:0xb400006fd39f4ee8,id:6907,api:2,p:-1,c:-1) onDestructor()
-17:38:12.409  D  Instantiated singleton DynamitePackage.
-17:38:12.409  D  Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
-17:38:12.494  D  got request NetworkRequest [ TRACK_DEFAULT id=12603, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.494  D  got request NetworkRequest [ TRACK_DEFAULT id=12603, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.494  D  got request NetworkRequest [ TRACK_DEFAULT id=12603, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.495  D  got request NetworkRequest [ TRACK_DEFAULT id=12603, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.506  I  Updating ad debug logging enablement.
-17:38:12.516  W  Update ad debug logging enablement as false
-17:38:12.569  I  Loading com.google.android.webview version 134.0.6998.135 (code 699813533)
-17:38:12.580  W  Warning: "/data/app/~~fd96yrz_G_I3JEsjGiZjUA==/com.google.android.trichromelibrary_699813533-W2b4Hh-GSUPVM9FBInoQLQ==/base.apk!/lib/arm64-v8a/libmonochrome_64.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
-17:38:12.602  I  version=134.0.6998.135 (699813533) minSdkVersion=29 isBundle=false multiprocess=true packageId=9
-17:38:12.613  I  [0417/173812.612978:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
-17:38:12.613  I  [0417/173812.613466:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
-17:38:12.628  I  Successfully loaded native library
-17:38:12.629  I  Flushed 5 samples from 5 histograms, 0 samples were dropped.
-17:38:12.632  I  #registerProvider() provider:WV.I8@c3b18a4 isPolicyCacheEnabled:false policyProvidersSize:0
-17:38:12.633  I  #setManagerAndSource() 0
-17:38:12.647  I  #linkNativeInternal() 1
-17:38:12.649  I  #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
-17:38:12.649  I  #notifySettingsAvailable() 0
-17:38:12.649  I  #onSettingsAvailable() 0
-17:38:12.649  I  #flushPolicies()
-17:38:12.667  I  Start proc 22877:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i410 for  {com.example.mediswitch/org.chromium.content.app.SandboxedProcessService0:0}
-17:38:12.728  D  got request NetworkRequest [ TRACK_DEFAULT id=12604, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.728  D  got request NetworkRequest [ TRACK_DEFAULT id=12604, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.729  D  got request NetworkRequest [ TRACK_DEFAULT id=12604, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.729  D  got request NetworkRequest [ TRACK_DEFAULT id=12604, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:12.764  I  Connecting to camera service
-17:38:12.770  V  ignore id:2
-17:38:12.770  V  ignore id:3
-17:38:12.770  V  ignore id:4
-17:38:12.771  I  onTorchStatusChangedLocked id:2 ignore callback
-17:38:12.771  I  onTorchStatusChangedLocked id:3 ignore callback
-17:38:12.771  I  onTorchStatusChangedLocked id:4 ignore callback
-17:38:12.775  D  applied 1 plugins for [com.example.mediswitch]:
-17:38:12.775  D    plugin 1: [libMEOW_gift.so]:
-17:38:12.782  W  getBluetoothAdapter() requires BLUETOOTH permission
-17:38:12.782  W  registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
-17:38:12.787  I  ctx:0xb400006f5c833b68, ARC not Enabled.
-17:38:12.807  W  [WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-17:38:12.815  I  ctx:0xb400006f5c833b68, ARC not Enabled.
-17:38:12.875  W  Unsupported mime audio/x-adpcm-ms
-17:38:12.875  W  Unsupported mime audio/x-adpcm-dvi-ima
-17:38:12.875  W  Unsupported mime audio/alac
-17:38:12.875  W  Unsupported mime audio/ape
-17:38:12.876  W  Unrecognized profile/level 1/32 for video/mp4v-es
-17:38:12.877  W  Unrecognized profile/level 32768/2 for video/mp4v-es
-17:38:12.877  W  Unrecognized profile/level 32768/64 for video/mp4v-es
-17:38:12.877  W  Unsupported mime video/x-ms-wmv
-17:38:12.877  W  Unsupported mime video/xvid
-17:38:12.878  W  Unrecognized profile/level 1/32 for video/mp4v-es
-17:38:13.429  I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:921)
-17:38:14.271  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=4.70 dur=2127.32 max=1820.81 min=12.12
-17:38:15.090  I  Explicit concurrent copying GC freed 41492(3229KB) AllocSpace objects, 17(720KB) LOS objects, 73% free, 4508KB/16MB, paused 60us total 28.145ms
-17:38:15.288  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=55.08 dur=1016.74 max=68.73 min=10.19
-17:38:16.302  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=59.14 dur=1014.52 max=27.03 min=6.14
-17:38:16.430  D  Installing profile for com.example.mediswitch
-17:38:17.460  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=25.92 dur=1157.55 max=673.24 min=13.75
-17:38:17.502  I  Checking if database has medicines. Count: 0
-17:38:17.515  I  Performing initial database seeding check...
-17:38:17.522  I  Database seed check: Medicine count = 0
-17:38:17.522  I  Medicines table is empty. Seeding database from asset ON MAIN THREAD...
-17:38:17.522  I  [Main Thread] Loading raw CSV asset...
-17:38:17.651  I  [Main Thread] Raw CSV loaded.
-17:38:17.651  I  [Main Thread] Parsing CSV...
-17:38:19.109  I  [Main Thread] Parsed 23537 medicines.
-17:38:19.109  I  [Main Thread] Starting batch insert...
-17:38:19.430  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=5.58 dur=1970.36 max=1754.13 min=2.23
-17:38:20.027  I  Background concurrent copying GC freed 78481(3667KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 21MB/42MB, paused 92us total 110.487ms
-17:38:20.441  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=43.51 dur=1011.18 max=262.17 min=2.67
-17:38:20.521  I  Background young concurrent copying GC freed 257607(11MB) AllocSpace objects, 0(0B) LOS objects, 26% free, 31MB/42MB, paused 56us total 124.320ms
-17:38:21.456  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=54.18 dur=1015.06 max=64.89 min=2.21
-17:38:21.579  I  [Main Thread] Batch insert completed.
-17:38:21.581  I  Database seeded successfully ON MAIN THREAD in 4059ms.
-17:38:21.581  I  performInitialSeedingIfNeeded finished.
-17:38:21.636  I  Fetching distinct categories from SQLite...
-17:38:21.651  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
-17:38:21.672  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
-17:38:21.755  D  got request NetworkRequest [ TRACK_DEFAULT id=12606, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.755  D  got request NetworkRequest [ TRACK_DEFAULT id=12606, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.755  D  got request NetworkRequest [ TRACK_DEFAULT id=12606, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.757  D  got request NetworkRequest [ TRACK_DEFAULT id=12606, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.766  D  got request NetworkRequest [ TRACK_DEFAULT id=12607, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.766  D  got request NetworkRequest [ TRACK_DEFAULT id=12607, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.766  D  got request NetworkRequest [ TRACK_DEFAULT id=12607, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.767  D  got request NetworkRequest [ TRACK_DEFAULT id=12607, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10465 AdministratorUids: [] RequestorUid: 10465 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
-17:38:21.841  W  Invoke Firebase method getInstance error.
-17:38:21.841  W  The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
-17:38:21.845  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
-17:38:21.852  I  Searching medicines in SQLite for query: '', limit: 8, offset: 0
-17:38:21.860  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
-17:38:21.869  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
-17:38:21.897  I  Searching medicines in SQLite for query: '', limit: 8, offset: 8
-17:38:21.904  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
-17:38:21.909  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
-17:38:21.928  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
-17:38:22.031  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
-17:38:22.042  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=0.10 dur=9829.12 max=9829.12 min=9829.12
-17:38:22.090  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
-17:38:22.092  W  Not retrying to fetch app settings
-17:38:22.092  W  Not retrying to fetch app settings
-17:38:22.091  W  type=1400 audit(0.0:635245): avc: granted { execute } for path="/data/data/com.example.mediswitch/app_pccache/5/C59EFC0E35180EEF6E29690E1AB3BB0D83EA836B/pcam.jar" dev="dm-11" ino=180023 scontext=u:r:untrusted_app:s0:c209,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c209,c257,c512,c768 tclass=file app=com.example.mediswitch
-17:38:22.135  I  Searching medicines in SQLite for query: '', limit: 16, offset: 0
-17:38:22.181  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afc,api:1,p:22740,c:692) disconnect(): api=1
-17:38:22.182  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001afc,api:1,p:22740,c:692) connect(): api=1 producerControlledByApp=false
-17:38:22.458  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=33.93 dur=1002.19 max=310.78 min=3.24
-17:38:23.589  I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:921)
-17:38:24.151  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=9.48 dur=2109.18 max=1674.94 min=11.55
-17:38:24.161  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=4.70 dur=1702.37 max=1587.18 min=13.41
-17:38:24.388  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
-17:38:24.390  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
-17:38:24.415  I  [okhttp]:check permission begin!
-17:38:24.415  W  ClassLoader referenced unknown path: system/framework/mediatek-cta.jar
-17:38:24.416  I  [okhttp] e:java.lang.ClassNotFoundException: com.mediatek.cta.CtaUtils
-17:38:24.422  I  [socket]:check permission begin!
-17:38:24.423  W  ClassLoader referenced unknown path: system/framework/mediatek-cta.jar
-17:38:24.424  I  [socket] e:java.lang.ClassNotFoundException: com.mediatek.cta.CtaUtils
-17:38:24.444  I  BannerAd loaded.
-17:38:24.451  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
-17:38:24.451  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
-17:38:24.459  I  [okhttp]:check permission begin!
-17:38:24.459  I  [okhttp]:not MMS!
-17:38:24.459  I  [okhttp]:not Email!
-17:38:24.460  I  [socket]:check permission begin!
-17:38:24.469  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
-17:38:24.469  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
-17:38:24.485  I  [okhttp]:check permission begin!
-17:38:24.485  I  [okhttp]:not MMS!
-17:38:24.485  I  [okhttp]:not Email!
-17:38:24.485  I  [socket]:check permission begin!
-17:38:24.492  I  BannerAd loaded.
-17:38:24.495  I  [](id:58d400000000,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:24.496  D  lockHardwareCanvas
-17:38:24.498  I  [ImageReader-1x1f22m5-22740-0](id:58d400000000,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:24.506  E  updateAcquireFence: Did not find frame.
-17:38:24.516  I  InterstitialAd loaded.
-17:38:24.530  I  [](id:58d400000001,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:24.530  D  lockHardwareCanvas
-17:38:24.534  I  [ImageReader-960x150f22m5-22740-1](id:58d400000001,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:24.590  E  updateAcquireFence: Did not find frame.
-17:38:24.598  I  [](id:58d400000002,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:24.598  D  lockHardwareCanvas
-17:38:24.598  I  [ImageReader-1x1f22m5-22740-2](id:58d400000002,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:24.604  E  updateAcquireFence: Did not find frame.
-17:38:24.610  D  lockHardwareCanvas
-17:38:24.611  I  [](id:58d400000003,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:24.611  D  lockHardwareCanvas
-17:38:24.616  E  updateAcquireFence: Did not find frame.
-17:38:24.617  I  [ImageReader-960x150f22m5-22740-3](id:58d400000003,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:24.621  I  [OkHttp] sendRequest>>
-17:38:24.621  I  [OkHttp] sendRequest<<
-17:38:24.638  E  updateAcquireFence: Did not find frame.
-17:38:24.641  I  BannerAd impression.
-17:38:24.644  I  [OkHttp] sendRequest>>
-17:38:24.644  I  [OkHttp] sendRequest<<
-17:38:24.650  D  lockHardwareCanvas
-17:38:24.651  D  lockHardwareCanvas
-17:38:24.668  I  [OkHttp] sendRequest>>
-17:38:24.668  I  [OkHttp] sendRequest<<
-17:38:24.738  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
-17:38:24.743  E  updateAcquireFence: Did not find frame.
-17:38:24.749  E  updateAcquireFence: Did not find frame.
-17:38:24.759  I  BannerAd impression.
-17:38:24.773  D  lockHardwareCanvas
-17:38:24.777  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
-17:38:24.782  E  updateAcquireFence: Did not find frame.
-17:38:24.803  I  [ImageReader-1x1f22m5-22740-2](id:58d400000002,api:1,p:22740,c:22740) disconnect(): api=1
-17:38:24.803  I  [ImageReader-1x1f22m5-22740-2](id:58d400000002,api:0,p:-1,c:22740) disconnect()
-17:38:24.822  I  [okhttp]:check permission begin!
-17:38:24.823  I  [okhttp]:not MMS!
-17:38:24.823  I  [okhttp]:not Email!
-17:38:24.836  I  [okhttp]:check permission begin!
-17:38:24.836  I  [okhttp]:not MMS!
-17:38:24.836  I  [okhttp]:not Email!
-17:38:24.853  I  [socket]:check permission begin!
-17:38:24.866  I  [socket]:check permission begin!
-17:38:25.047  I  [OkHttp] sendRequest>>
-17:38:25.047  I  [OkHttp] sendRequest<<
-17:38:25.048  I  [OkHttp] sendRequest>>
-17:38:25.048  I  [OkHttp] sendRequest<<
-17:38:26.119  D  lockHardwareCanvas
-17:38:26.128  E  updateAcquireFence: Did not find frame.
-17:38:26.131  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=10.60 dur=1980.69 max=1343.81 min=9.95
-17:38:26.135  D  lockHardwareCanvas
-17:38:26.141  E  updateAcquireFence: Did not find frame.
-17:38:26.148  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=10.57 dur=1987.05 max=1320.87 min=10.66
-17:38:26.152  D  lockHardwareCanvas
-17:38:26.156  E  updateAcquireFence: Did not find frame.
-17:38:26.168  D  lockHardwareCanvas
-17:38:26.174  E  updateAcquireFence: Did not find frame.
-17:38:26.185  D  lockHardwareCanvas
-17:38:26.190  E  updateAcquireFence: Did not find frame.
-17:38:26.201  D  lockHardwareCanvas
-17:38:26.207  E  updateAcquireFence: Did not find frame.
-17:38:26.218  D  lockHardwareCanvas
-17:38:26.223  E  updateAcquireFence: Did not find frame.
-17:38:26.234  D  lockHardwareCanvas
-17:38:26.236  D  lockHardwareCanvas
-17:38:26.240  E  updateAcquireFence: Did not find frame.
-17:38:26.245  E  updateAcquireFence: Did not find frame.
-17:38:26.251  D  lockHardwareCanvas
-17:38:26.253  D  lockHardwareCanvas
-17:38:26.255  E  updateAcquireFence: Did not find frame.
-17:38:26.261  E  updateAcquireFence: Did not find frame.
-17:38:26.268  D  lockHardwareCanvas
-17:38:26.269  D  lockHardwareCanvas
-17:38:26.272  E  updateAcquireFence: Did not find frame.
-17:38:26.275  E  updateAcquireFence: Did not find frame.
-17:38:26.285  D  lockHardwareCanvas
-17:38:26.286  D  lockHardwareCanvas
-17:38:26.290  E  updateAcquireFence: Did not find frame.
-17:38:26.294  E  updateAcquireFence: Did not find frame.
-17:38:26.302  D  lockHardwareCanvas
-17:38:26.303  D  lockHardwareCanvas
-17:38:26.305  E  updateAcquireFence: Did not find frame.
-17:38:26.310  E  updateAcquireFence: Did not find frame.
-17:38:26.319  D  lockHardwareCanvas
-17:38:26.320  D  lockHardwareCanvas
-17:38:26.322  E  updateAcquireFence: Did not find frame.
-17:38:26.326  E  updateAcquireFence: Did not find frame.
-17:38:26.335  D  lockHardwareCanvas
-17:38:26.336  D  lockHardwareCanvas
-17:38:26.339  E  updateAcquireFence: Did not find frame.
-17:38:26.343  E  updateAcquireFence: Did not find frame.
-17:38:26.352  D  lockHardwareCanvas
-17:38:26.353  D  lockHardwareCanvas
-17:38:26.356  E  updateAcquireFence: Did not find frame.
-17:38:26.360  E  updateAcquireFence: Did not find frame.
-17:38:26.369  D  lockHardwareCanvas
-17:38:26.370  D  lockHardwareCanvas
-17:38:26.373  E  updateAcquireFence: Did not find frame.
-17:38:26.377  E  updateAcquireFence: Did not find frame.
-17:38:26.385  D  lockHardwareCanvas
-17:38:26.387  D  lockHardwareCanvas
-17:38:26.392  E  updateAcquireFence: Did not find frame.
-17:38:26.395  E  updateAcquireFence: Did not find frame.
-17:38:26.402  D  lockHardwareCanvas
-17:38:26.406  E  updateAcquireFence: Did not find frame.
-17:38:26.419  D  lockHardwareCanvas
-17:38:26.422  E  updateAcquireFence: Did not find frame.
-17:38:26.435  D  lockHardwareCanvas
-17:38:26.441  E  updateAcquireFence: Did not find frame.
-17:38:26.452  D  lockHardwareCanvas
-17:38:26.457  E  updateAcquireFence: Did not find frame.
-17:38:26.469  D  lockHardwareCanvas
-17:38:26.475  E  updateAcquireFence: Did not find frame.
-17:38:26.486  D  lockHardwareCanvas
-17:38:26.491  E  updateAcquireFence: Did not find frame.
-17:38:26.502  D  lockHardwareCanvas
-17:38:26.508  E  updateAcquireFence: Did not find frame.
-17:38:27.842  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=14.76 dur=1693.87 max=1299.72 min=3.57
-17:38:28.236  I  Fetching distinct categories from SQLite...
-17:38:28.263  I  Searching medicines in SQLite for query: '', limit: 8, offset: 0
-17:38:28.265  I  Searching medicines in SQLite for query: '', limit: 8, offset: 8
-17:38:28.268  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
-17:38:28.880  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=40.47 dur=1037.92 max=289.20 min=12.93
-17:38:29.894  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=3.94 dur=1014.67 max=970.70 min=10.24
-17:38:30.203  I  Fetching distinct categories from SQLite...
-17:38:30.215  I  Searching medicines in SQLite for query: '', limit: 8, offset: 0
-17:38:30.216  I  Searching medicines in SQLite for query: '', limit: 8, offset: 8
-17:38:30.219  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
-17:38:31.542  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=33.99 dur=1647.50 max=716.69 min=2.89
-17:38:32.137  I  Fetching distinct categories from SQLite...
-17:38:32.169  I  Searching medicines in SQLite for query: '', limit: 8, offset: 0
-17:38:32.173  I  Searching medicines in SQLite for query: '', limit: 8, offset: 8
-17:38:32.176  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
-17:38:32.544  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=56.91 dur=1001.63 max=48.35 min=14.08
-17:38:33.427  I  [ImageReader-1x1f22m5-22740-0](id:58d400000000,api:1,p:22740,c:22740) disconnect(): api=1
-17:38:33.427  I  [ImageReader-1x1f22m5-22740-0](id:58d400000000,api:0,p:-1,c:22740) disconnect()
-17:38:33.549  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=23.86 dur=1005.87 max=632.05 min=6.85
-17:38:34.577  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=30.16 dur=1027.78 max=429.89 min=15.71
-17:38:35.579  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=43.91 dur=1002.13 max=282.15 min=11.97
-17:38:36.229  I  oneway function results will be dropped but finished with status OK and parcel size 4
-17:38:36.295  I  AdService: Usage counter incremented to 1
-17:38:36.580  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=39.97 dur=1000.84 max=201.54 min=1.71
-17:38:36.642  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=2.28 dur=10510.66 max=10130.85 min=11.28
-17:38:40.481  I  f0c8073 com.example.mediswitch/com.example.mediswitch.MainActivity (server) spent 2020ms processing MotionEvent
-17:38:40.481  I  input response: app: com.example.mediswitch ,activity: f0c8073 com.example.mediswitch/com.example.mediswitch.MainActivity ,eventDuration: 2020387461 ns for motion event on activity
-17:38:40.482  I  input response: app: com.example.mediswitch ,activity: f0c8073 com.example.mediswitch/com.example.mediswitch.MainActivity ,eventDuration: 1009103615 ns for motion event on activity
-17:38:40.499  E  call to OpenGL ES API with no current context (logged once per thread)
-17:38:40.530  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
-17:38:40.532  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=1.27 dur=3951.99 max=3881.50 min=16.23
-17:38:40.671  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=0.25 dur=4028.83 max=4028.83 min=4028.83
-17:38:40.747  D  lockHardwareCanvas
-17:38:40.749  D  lockHardwareCanvas
-17:38:40.752  E  updateAcquireFence: Did not find frame.
-17:38:40.756  E  updateAcquireFence: Did not find frame.
-17:38:40.794  D  lockHardwareCanvas
-17:38:40.794  D  lockHardwareCanvas
-17:38:40.801  E  updateAcquireFence: Did not find frame.
-17:38:40.808  E  updateAcquireFence: Did not find frame.
-17:38:40.834  D  lockHardwareCanvas
-17:38:40.835  D  lockHardwareCanvas
-17:38:40.839  E  updateAcquireFence: Did not find frame.
-17:38:40.846  E  updateAcquireFence: Did not find frame.
-17:38:40.857  D  lockHardwareCanvas
-17:38:40.857  D  lockHardwareCanvas
-17:38:40.862  E  updateAcquireFence: Did not find frame.
-17:38:40.870  E  updateAcquireFence: Did not find frame.
-17:38:40.897  D  lockHardwareCanvas
-17:38:40.898  D  lockHardwareCanvas
-17:38:40.902  E  updateAcquireFence: Did not find frame.
-17:38:40.908  E  updateAcquireFence: Did not find frame.
-17:38:40.928  D  lockHardwareCanvas
-17:38:40.928  D  lockHardwareCanvas
-17:38:40.933  E  updateAcquireFence: Did not find frame.
-17:38:40.937  E  updateAcquireFence: Did not find frame.
-17:38:41.865  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=19.51 dur=1332.75 max=463.76 min=3.90
-17:38:42.477  I  Making request to: https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3
-17:38:42.478  I  [okhttp]:check permission begin!
-17:38:42.478  I  [okhttp]:not MMS!
-17:38:42.478  I  [okhttp]:not Email!
-17:38:42.628  I  [socket]:check permission begin!
-17:38:42.788  I  [OkHttp] sendRequest>>
-17:38:42.788  I  [OkHttp] sendRequest<<
-17:38:42.870  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=38.81 dur=1004.88 max=331.94 min=13.36
-17:38:42.947  I  Status Code: 200
-17:38:43.208  I  Fetching distinct categories from SQLite...
-17:38:43.220  I  Searching medicines in SQLite for query: '', limit: 8, offset: 0
-17:38:43.221  I  Searching medicines in SQLite for query: '', limit: 8, offset: 8
-17:38:43.222  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
-17:38:44.081  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=47.06 dur=1211.10 max=268.05 min=4.32
-17:38:44.852  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
-17:38:44.855  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
-17:38:44.890  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
-17:38:45.015  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
-17:38:45.095  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=23.66 dur=1014.48 max=445.36 min=2.25
-17:38:45.134  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=5.15 dur=4463.46 max=4087.70 min=6.61
-17:38:45.213  D  lockHardwareCanvas
-17:38:45.214  D  lockHardwareCanvas
-17:38:45.219  E  updateAcquireFence: Did not find frame.
-17:38:45.223  E  updateAcquireFence: Did not find frame.
-17:38:45.246  D  lockHardwareCanvas
-17:38:45.246  D  lockHardwareCanvas
-17:38:45.252  E  updateAcquireFence: Did not find frame.
-17:38:45.256  E  updateAcquireFence: Did not find frame.
-17:38:45.281  D  lockHardwareCanvas
-17:38:45.282  D  lockHardwareCanvas
-17:38:45.290  E  updateAcquireFence: Did not find frame.
-17:38:45.295  E  updateAcquireFence: Did not find frame.
-17:38:45.313  D  lockHardwareCanvas
-17:38:45.313  D  lockHardwareCanvas
-17:38:45.317  E  updateAcquireFence: Did not find frame.
-17:38:45.321  E  updateAcquireFence: Did not find frame.
-17:38:45.335  D  lockHardwareCanvas
-17:38:45.336  D  lockHardwareCanvas
-17:38:45.340  E  updateAcquireFence: Did not find frame.
-17:38:45.345  E  updateAcquireFence: Did not find frame.
-17:38:45.347  I  Searching medicines in SQLite for query: '', limit: 16, offset: 0
-17:38:45.384  D  lockHardwareCanvas
-17:38:45.384  D  lockHardwareCanvas
-17:38:45.389  E  updateAcquireFence: Did not find frame.
-17:38:45.394  E  updateAcquireFence: Did not find frame.
-17:38:45.436  D  lockHardwareCanvas
-17:38:45.436  D  lockHardwareCanvas
-17:38:45.439  E  updateAcquireFence: Did not find frame.
-17:38:45.442  E  updateAcquireFence: Did not find frame.
-17:38:45.461  D  lockHardwareCanvas
-17:38:45.462  D  lockHardwareCanvas
-17:38:45.466  E  updateAcquireFence: Did not find frame.
-17:38:45.471  E  updateAcquireFence: Did not find frame.
-17:38:45.483  D  lockHardwareCanvas
-17:38:45.483  D  lockHardwareCanvas
-17:38:45.488  E  updateAcquireFence: Did not find frame.
-17:38:45.493  E  updateAcquireFence: Did not find frame.
-17:38:45.555  I  Explicit concurrent copying GC freed 51074(3078KB) AllocSpace objects, 8(416KB) LOS objects, 64% free, 6707KB/18MB, paused 167us total 45.200ms
-17:38:46.304  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=16.54 dur=1208.92 max=437.22 min=11.45
-17:38:46.332  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
-17:38:46.360  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
-17:38:46.360  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
-17:38:46.379  I  [okhttp]:check permission begin!
-17:38:46.379  I  [okhttp]:not MMS!
-17:38:46.379  I  [okhttp]:not Email!
-17:38:46.384  I  BannerAd loaded.
-17:38:46.385  I  [socket]:check permission begin!
-17:38:46.402  I  [](id:58d400000004,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:46.403  D  lockHardwareCanvas
-17:38:46.403  I  [ImageReader-1x1f22m5-22740-4](id:58d400000004,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:46.410  E  updateAcquireFence: Did not find frame.
-17:38:46.428  I  [](id:58d400000005,api:0,p:-1,c:22740) connect(): controlledByApp=true
-17:38:46.429  D  lockHardwareCanvas
-17:38:46.429  I  [ImageReader-960x150f22m5-22740-5](id:58d400000005,api:1,p:22740,c:22740) connect(): api=1 producerControlledByApp=true
-17:38:46.460  E  updateAcquireFence: Did not find frame.
-17:38:46.464  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=15.04 dur=1329.55 max=967.85 min=4.37
-17:38:46.470  D  lockHardwareCanvas
-17:38:46.476  E  updateAcquireFence: Did not find frame.
-17:38:46.481  I  BannerAd impression.
-17:38:46.495  D  lockHardwareCanvas
-17:38:46.504  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
-17:38:46.508  E  updateAcquireFence: Did not find frame.
-17:38:46.521  I  [okhttp]:check permission begin!
-17:38:46.521  I  [okhttp]:not MMS!
-17:38:46.521  I  [okhttp]:not Email!
-17:38:46.521  I  [OkHttp] sendRequest>>
-17:38:46.521  I  [OkHttp] sendRequest<<
-17:38:46.533  I  [OkHttp] sendRequest>>
-17:38:46.534  I  [OkHttp] sendRequest<<
-17:38:46.602  I  [ImageReader-960x150f22m5-22740-5](id:58d400000005,api:1,p:22740,c:22740) disconnect(): api=1
-17:38:46.603  I  [ImageReader-960x150f22m5-22740-5](id:58d400000005,api:0,p:-1,c:22740) disconnect()
-17:38:46.603  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
-17:38:46.604  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
-17:38:46.607  I  [ImageReader-1x1f22m5-22740-4](id:58d400000004,api:1,p:22740,c:22740) disconnect(): api=1
-17:38:46.608  I  [ImageReader-1x1f22m5-22740-4](id:58d400000004,api:0,p:-1,c:22740) disconnect()
-17:38:47.652  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
-17:38:49.172  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3a6f688,id:6908,api:1,p:22740,c:692) queueBuffer: fps=1.48 dur=2708.27 max=2554.02 min=14.34
-17:38:49.186  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd398b858,id:6909,api:1,p:22740,c:692) queueBuffer: fps=4.86 dur=2881.48 max=2564.10 min=12.88
-17:38:49.230  D  lockHardwareCanvas
-17:38:49.231  D  lockHardwareCanvas
-17:38:49.236  E  updateAcquireFence: Did not find frame.
-17:38:49.241  E  updateAcquireFence: Did not find frame.
-17:38:49.264  D  lockHardwareCanvas
-17:38:49.265  D  lockHardwareCanvas
-17:38:49.267  E  updateAcquireFence: Did not find frame.
-17:38:49.271  E  updateAcquireFence: Did not find frame.
-17:38:49.298  D  lockHardwareCanvas
-17:38:49.299  D  lockHardwareCanvas
-17:38:49.302  E  updateAcquireFence: Did not find frame.
-17:38:49.306  E  updateAcquireFence: Did not find frame.
-17:38:49.332  D  lockHardwareCanvas
-17:38:49.332  D  lockHardwareCanvas
-17:38:49.337  E  updateAcquireFence: Did not find frame.
-17:38:49.341  E  updateAcquireFence: Did not find frame.
-17:38:55.383  D  dex2oat com.example.mediswitch delayed 45000ms for app in top. 
+19:16:59.076  D  NameNotFoundException: com.example.mediswitch
+19:17:00.097  I  [2] aqya.b(96): VerifyApps: Install-time verification requested for package com.example.mediswitch, PackageManager id = 49, Verifier id = 1a9bdd5d-7379-4c61-9ca3-aadab3a8dbd7
+19:17:00.261  D  NameNotFoundException: com.example.mediswitch
+19:17:00.284  I  [65100] VerifyAppsInstallTask.mg(57): VerifyApps: Anti-malware verification task started for package=com.example.mediswitch
+19:17:00.474  I  [64986] arpk.a(69): VerifyApps: Starting APK Analysis scan for com.example.mediswitch.
+19:17:00.477  I  [64986] aqxa.b(188): Scanning package com.example.mediswitch contents with client side protections. File: [VAzmxtMCpnJ8vPWoh5K0dovBueafuJCBbmA6vXl698k]
+19:17:00.479  I  [64986] arpk.a(237): VerifyApps: APK Analysis scan finished for com.example.mediswitch. Verdict: SAFE
+19:17:00.897  I  [65103] arfg.g(65): VerifyApps: Verification package=com.example.mediswitch, id=49, response=0, upload_requested=false
+19:17:00.899  I  [65103] arey.c(297): VerifyApps: PAM result saving to datastore delayed for package: com.example.mediswitch
+19:17:00.904  I  [65100] VerifyRequiredSplitTypesInstallTask.mg(53): VerifyApps: Starting required split types check for com.example.mediswitch.
+19:17:00.914  I  [65100] VerifyRequiredSplitTypesInstallTask.mg(648): VerifyApps: Required split types check successful for com.example.mediswitch.
+19:17:00.926  I  [2] VerifyInstallTask.mf(83): VerifyApps: Install-time verification complete: id=49, package_name=com.example.mediswitch
+19:17:00.939  D  shouldInstallInDualprofile:true installUserId:0 user.id:0 installUser:UserHandle{0} this:PackageSetting{f9fb1c9 com.example.mediswitch/0}
+19:17:00.943  D  uidAdded uid: 10466, name: com.example.mediswitch
+19:17:00.943  D  add uid:10466 owner:com.example.mediswitch not found
+19:17:00.943  D  add uid:10466 owner:com.example.mediswitch not found
+19:17:01.133  I  Running dexopt (dexoptNeeded=1) on: /data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/base.apk pkg=com.example.mediswitch isa=arm64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/oat classLoaderContext=PCL[]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar]}
+19:17:01.136  V  DexInv: --- BEGIN '/data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/base.apk' ---
+19:17:01.281  I  /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=speed-profile --classpath-dir=/data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA== --class-loader-context=PCL[]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar]} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=install
+19:17:02.051  V  DexInv: --- END '/data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/base.apk' (success) ---
+19:17:02.052  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{f9fb1c9 com.example.mediswitch/10466} BLOCKED
+19:17:02.090  I  Universal onReceive: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) }
+19:17:02.091  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_ADDED
+19:17:02.100  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.transsion.ossettingsext/.flash.applist.MonitorSysReceiver
+19:17:02.160  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+19:17:02.161  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+19:17:02.161  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+19:17:02.161  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.apps.nbu.files/.documentbrowser.browselanding.rootcontainerlist.receiver.PackageChangeReceiver_Receiver
+19:17:02.164  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+19:17:02.191  I  doCheckAndAddAppOrShortcut pkgName = com.example.mediswitch, packageChange = false
+19:17:02.215  I  [2] mzm.f(9): AIM: AppInfoCacheUpdater -> invalidating apps: [com.example.mediswitch]
+19:17:02.216  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+19:17:02.216  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+19:17:02.216  W  Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) } to com.talpa.share/com.transsion.autoinstalllibrary.silentInstall.InstallReceiver
+19:17:02.227  I  [64990] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
+19:17:02.232  I  packageAdd pkgName = com.example.mediswitch
+19:17:02.249  I  [64986] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
+19:17:02.271  W  Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+19:17:02.274  W  Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+19:17:02.391  D  maybeAddedImsService, packageName: com.example.mediswitch
+19:17:02.536  D  Package added: android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitch
+19:17:02.659  W  update dualprofiel: packageName:com.example.mediswitch, user:UserHandle{0}, action:android.intent.action.PACKAGE_ADDED
+19:17:02.667  D  Launcher.Model-mAllAppsList.addPackage com.example.mediswitch mUser:UserHandle{0}
+19:17:02.693  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{f9fb1c9 com.example.mediswitch/10466} BLOCKED
+19:17:02.717  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_CHANGED
+19:17:02.717  I  packageChange: com.example.mediswitch, name: com.example.mediswitch
+19:17:02.748  I  doCheckAndAddAppOrShortcut pkgName = com.example.mediswitch, packageChange = true
+19:17:02.756  I  packageAdd pkgName = com.example.mediswitch, enabled: 0
+19:17:02.830  D  maybeAddedImsService, packageName: com.example.mediswitch
+19:17:02.942  I  [2] mzm.f(9): AIM: AppInfoCacheUpdater -> invalidating apps: [com.example.mediswitch]
+19:17:02.946  I  [64986] nbi.a(58): AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [com.example.mediswitch]
+19:17:02.959  I  LocalBroadcastManager onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.example.mediswitch flg=0x4000010 (has extras) }
+19:17:03.007  D  Package changed: android.intent.action.PACKAGE_CHANGED, pkg = com.example.mediswitch
+19:17:03.015  I  Notify com.transsion.phonemanager of app_install:com.example.mediswitch
+19:17:03.021  I  Notify com.transsion.permissionprotect of app_install:com.example.mediswitch
+19:17:03.021  D  Launcher.Model-mAllAppsList.updatePackage com.example.mediswitch mUser:UserHandle{0}
+19:17:03.023  I  HiManager_CustomTpmsEventService: receiver4 event=app_install value=com.example.mediswitch
+19:17:03.060  I  HiManager_NetworkProvider: APP_INSTALL action packageName=com.example.mediswitch
+19:17:03.081  D  onReceive: action = android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitchlockPopSwitch = true, lockNotifySwitch = true
+19:17:03.093  I  onReceive: add pkg = com.example.mediswitch to allowed list
+19:17:03.099  D  actionAdded: pkg = com.example.mediswitch, inPopAppDb = false, inPopBlockDb = false, inPopNotipDb = false, inPopFilterDb = false, no do!!!
+19:17:03.099  D  onReceive: action = android.intent.action.PACKAGE_ADDED, pkg = com.example.mediswitchlockPopSwitch = true, lockNotifySwitch = true
+19:17:03.103  I  onReceive: add pkg = com.example.mediswitch to allowed list
+19:17:03.105  D  actionAdded: pkg = com.example.mediswitch, inPopAppDb = false, inPopBlockDb = false, inPopNotipDb = false, inPopFilterDb = false, no do!!!
+19:17:03.157  I  TpmsEventService_onHandleIntent_onEvent: app_install value: com.example.mediswitch
+19:17:03.491  I  function:val_add_remove_get_appinfo_list_rsp	line:242	[10466]:[com.example.mediswitch]
+19:17:04.259  W  checkDualprofileControl, from:com.google.android.apps.nbu.files, to:com.example.mediswitch, with act:android.intent.action.MAIN, callingUserId:0, toUserId:0, aInfo:ActivityInfo{7b8c04d com.example.mediswitch.MainActivity}
+19:17:04.259  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.example.mediswitch cmp=com.example.mediswitch/.MainActivity (has extras)} from uid 10106
+19:17:04.276  I  activityCheck pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity isResume=false isInshow =true isDrawn = false
+19:17:04.288  D  com.example.mediswitch reason is install
+19:17:04.305  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.305  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:04.312  D  mClassName = com.example.mediswitch.MainActivity  pkgName = com.example.mediswitch  RUN_PACKAGE = 
+19:17:04.314  I  Start proc 5168:com.example.mediswitch/u0a466 for pre-top-activity {com.example.mediswitch/com.example.mediswitch.MainActivity}
+19:17:04.315  D  sendBinder to uid 10466: packages=com.example.mediswitch
+19:17:04.321  I  [Splash Screen com.example.mediswitch#0](id:2b400001b29,api:2,p:1361,c:692) connect(): api=2 producerControlledByApp=false
+19:17:04.330  D  make process active com.example.mediswitch(5168)
+19:17:04.330  D  mode = 1 clsname = com.example.mediswitch.MainActivity
+19:17:04.333  D  onRealStartActivityLocked next:ActivityRecord{f75aa50 u0 com.example.mediswitch/.MainActivity t6246} isKeyguardShowing:false
+19:17:04.333  D  checkActivityRecord nextCls = com.example.mediswitch.MainActivity
+19:17:04.336  I  [perfNotifyAppState] foreground:com.example.mediswitch, pid:5168, uid:10466
+19:17:04.337  I  notifyForegroundApp pack:com.example.mediswitch, uid:10466
+19:17:04.338  D  pkgName = com.example.mediswitch
+19:17:04.338  I  Applaunch form com.google.android.apps.nbu.files to com.example.mediswitch
+19:17:04.340  D  className is com.example.mediswitch/com.example.mediswitch.MainActivity
+19:17:04.340  I  [notifyAppState] pc:1, com.google.android.apps.nbu.files => com.example.mediswitch
+19:17:04.344  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.344  D  sendBinder to uid 10466: packages=com.example.mediswitch
+19:17:04.344  D  handlerVideoStart isResume = false  VIDEO_PACKAGE =   pkgName = com.example.mediswitch
+19:17:04.347  D  mode = 1 clsname = com.example.mediswitch.MainActivity
+19:17:04.356  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.360  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.360  I  activityCheck pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity isResume=false isInshow =true isDrawn = false
+19:17:04.417  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.417  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:04.419  I  registerTetheringEventCallback:com.example.mediswitch
+19:17:04.423  D  mClassName = com.example.mediswitch.MainActivity  pkgName = com.example.mediswitch  RUN_PACKAGE = 
+19:17:04.427  D  mode = 1 clsname = com.example.mediswitch.MainActivity
+19:17:04.431  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.433  D  handlerVideoStart isResume = false  VIDEO_PACKAGE =   pkgName = com.example.mediswitch
+19:17:04.439  D  mode = 1 clsname = com.example.mediswitch.MainActivity
+19:17:04.444  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.446  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:04.459  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:04.464  D  ++ activityComponent:com.example.mediswitch/com.example.mediswitch.MainActivity counts:null
+19:17:04.522  W  type=1400 audit(0.0:657690): avc: denied { read } for name="max_map_count" dev="proc" ino=25836854 scontext=u:r:untrusted_app:s0:c210,c257,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=com.example.mediswitch
+19:17:04.537  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:04.565  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:04.641  I  [SF client] NEW(0xb400006f237d4390) for (5168:com.example.mediswitch)
+19:17:04.669  I  [SF client] NEW(0xb400006f237d3750) for (5168:com.example.mediswitch)
+19:17:04.693  I  Relayout Window{961946c u0 com.example.mediswitch/com.example.mediswitch.MainActivity}: oldVis=4 newVis=0 focusMayChange = true
+19:17:04.696  W  Changing focus fromnull to Window{961946c u0 com.example.mediswitch/com.example.mediswitch.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:531 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:5921 com.android.server.wm.WindowManagerService.relayoutWindow:2603 com.android.server.wm.Session.relayout:213 
+19:17:04.702  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:04.707  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2a,api:1,p:5168,c:692) connect(): api=1 producerControlledByApp=false
+19:17:04.707  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:04.708  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2b,api:1,p:5168,c:692) connect(): api=1 producerControlledByApp=false
+19:17:05.420  I  interaction: PackageSetting{d7d7d88 com.intsig.camscanner/10365} -> PackageSetting{f9fb1c9 com.example.mediswitch/10466} BLOCKED
+19:17:05.436  I  PackageReceiver received pkgName = com.example.mediswitch, action = android.intent.action.PACKAGE_CHANGED
+19:17:05.436  I  packageChange: com.example.mediswitch, name: androidx.work.impl.background.systemjob.SystemJobService
+19:17:05.464  D  Launcher.Model-mAllAppsList.updatePackage com.example.mediswitch mUser:UserHandle{0}
+19:17:05.478  D  maybeAddedImsService, packageName: com.example.mediswitch
+19:17:05.559  D  Package changed: android.intent.action.PACKAGE_CHANGED, pkg = com.example.mediswitch
+19:17:06.069  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2b,api:1,p:5168,c:692) disconnect(): api=1
+19:17:06.069  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2b,api:1,p:5168,c:692) connect(): api=1 producerControlledByApp=false
+19:17:06.070  I  [FileLoggerService] Documents directory path: /data/user/0/com.example.mediswitch/app_flutter
+19:17:06.071  I  [FileLoggerService] Attempting to log to: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
+19:17:06.071  I  [FileOutput] Initializing sink for file: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
+19:17:06.071  I  [FileOutput] Sink opened successfully.
+19:17:06.072  I  [FileOutput] Initializing sink for file: /data/user/0/com.example.mediswitch/app_flutter/app_log.txt
+19:17:06.072  I  [FileLoggerService] Switched to FileOutput successfully.
+19:17:06.072  I  [FileLoggerService] Initialization process complete. File output initialized: true
+19:17:06.073  I  [FileOutput] Sink opened successfully.
+19:17:06.073  I  Database path: /data/user/0/com.example.mediswitch/app_flutter/mediswitch.db
+19:17:06.077  I  Skipped 83 frames!  The application may be doing too much work on its main thread.
+19:17:06.086  I  Creating database tables and indices...
+19:17:06.087  I  Medicines table created
+19:17:06.090  I  Indices created
+19:17:06.090  I  Database tables and indices created. Seeding will be handled externally if needed.
+19:17:06.104  E  ioctl c0044901 failed with code -1: Invalid argument
+19:17:06.128  W  ClassLoaderContext classpath size mismatch. expected=12, found=0 (DLC[];PCL[base.apk*562585449:base.apk!classes2.dex*3565934092:base.apk!classes3.dex*3794943103:base.apk!classes4.dex*1014525327:base.apk!classes5.dex*2740338394:base.apk!classes6.dex*3159901829:base.apk!classes7.dex*1371425743:base.apk!classes8.dex*3004764602:base.apk!classes9.dex*1100801194:base.apk!classes10.dex*3544929991:base.apk!classes11.dex*4288036291:base.apk!classes12.dex*1168973413]{PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]#PCL[/system/framework/com.android.media.remotedisplay.jar*1128910120]#PCL[/system/framework/com.android.location.provider.jar*4177849200]#PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]} | DLC[];PCL[])
+19:17:06.156  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+19:17:06.157  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+19:17:06.165  W  ClassLoader referenced unknown path: 
+19:17:06.182  W  ClassLoaderContext classpath size mismatch. expected=12, found=1 (DLC[];PCL[base.apk*562585449:base.apk!classes2.dex*3565934092:base.apk!classes3.dex*3794943103:base.apk!classes4.dex*1014525327:base.apk!classes5.dex*2740338394:base.apk!classes6.dex*3159901829:base.apk!classes7.dex*1371425743:base.apk!classes8.dex*3004764602:base.apk!classes9.dex*1100801194:base.apk!classes10.dex*3544929991:base.apk!classes11.dex*4288036291:base.apk!classes12.dex*1168973413]{PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]#PCL[/system/framework/com.android.media.remotedisplay.jar*1128910120]#PCL[/system/framework/com.android.location.provider.jar*4177849200]#PCL[/system/framework/org.apache.http.legacy.jar*4003668302]#PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]} | DLC[];PCL[/data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/base.apk*2043475105]{PCL[/apex/com.android.extservices/javalib/android.ext.adservices.jar*1547844484]})
+19:17:06.186  W  Found duplicate classes, falling back to extracting from APK : /data/app/~~XwR8fRsF6sLIb4oaRm9t_A==/com.google.android.gms-qkYDHiVScLuTeQWfL0lbUg==/split_AdsDynamite_installtime.apk
+19:17:06.186  W  NOTE: This wastes RAM and hurts startup performance.
+19:17:06.186  W  Found duplicated class when checking oat files: 'Landroid/support/v4/graphics/drawable/IconCompatParcelizer;' in /data/app/~~XwR8fRsF6sLIb4oaRm9t_A==/com.google.android.gms-qkYDHiVScLuTeQWfL0lbUg==/split_AdsDynamite_installtime.apk and /data/app/~~wLOjNlMKA6IKWpRXuKXjMw==/com.example.mediswitch--TjWPxsiIYZRg1bskD90rA==/base.apk
+19:17:06.215  I  onWindowsDrawn pkgName: com.example.mediswitch, className: com.example.mediswitch.MainActivity launchState=1 windowsDrawnDelayMs =1953
+19:17:06.216  D  /data/misc/iorapd/com.example.mediswitch/1/com.example.mediswitch.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+19:17:06.217  I  [64995] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.218  I  Displayed com.example.mediswitch/.MainActivity: +1s953ms
+19:17:06.219  I  [Splash Screen com.example.mediswitch#0](id:2b400001b29,api:2,p:1361,c:692) disconnect(): api=2
+19:17:06.220  I  Fully drawn com.example.mediswitch/.MainActivity: +1s953ms
+19:17:06.221  I  [64995] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.241  I  [64995] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.242  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:06.242  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:06.246  I  [64995] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.260  D  Instantiated singleton DynamitePackage.
+19:17:06.261  D  Instantiating com.google.android.gms.ads.ChimeraMobileAdsSettingManagerCreatorImpl
+19:17:06.263  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:06.263  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:06.275  I  InAppPurchase store available: true
+19:17:06.277  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:06.277  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:06.284  I  [64995] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.286  I  [64995] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.289  I  [64961] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.293  I  [64961] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.295  D  isTheMainScreen, displayId: 0  classname = com.example.mediswitch.MainActivity
+19:17:06.295  D  getTopPackageNameNew pkm = com.example.mediswitch
+19:17:06.325  I  Waiting for a blocking GC ClassLinker
+19:17:06.341  I  WaitForGcToComplete blocked ClassLinker on ClassLinker for 16.094ms
+19:17:06.377  D  got request NetworkRequest [ TRACK_DEFAULT id=12694, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.377  D  got request NetworkRequest [ TRACK_DEFAULT id=12694, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.377  D  got request NetworkRequest [ TRACK_DEFAULT id=12694, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.378  D  got request NetworkRequest [ TRACK_DEFAULT id=12694, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.391  I  Updating ad debug logging enablement.
+19:17:06.404  W  Update ad debug logging enablement as false
+19:17:06.412  I  [Splash Screen com.example.mediswitch#0](id:2b400001b29,api:0,p:-1,c:692) disconnect()
+19:17:06.412  I  [Splash Screen com.example.mediswitch#0](this:0xb400006fd3a726b8,id:6953,api:2,p:-1,c:-1) onDestructor()
+19:17:06.482  I  Loading com.google.android.webview version 134.0.6998.135 (code 699813533)
+19:17:06.504  W  Warning: "/data/app/~~fd96yrz_G_I3JEsjGiZjUA==/com.google.android.trichromelibrary_699813533-W2b4Hh-GSUPVM9FBInoQLQ==/base.apk!/lib/arm64-v8a/libmonochrome_64.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+19:17:06.582  I  version=134.0.6998.135 (699813533) minSdkVersion=29 isBundle=false multiprocess=true packageId=9
+19:17:06.600  I  [0417/191706.599911:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+19:17:06.600  I  [0417/191706.600196:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+19:17:06.623  I  Successfully loaded native library
+19:17:06.625  I  Flushed 5 samples from 5 histograms, 0 samples were dropped.
+19:17:06.630  I  #registerProvider() provider:WV.I8@c3b18a4 isPolicyCacheEnabled:false policyProvidersSize:0
+19:17:06.631  I  #setManagerAndSource() 0
+19:17:06.649  I  #linkNativeInternal() 1
+19:17:06.650  I  #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+19:17:06.651  I  #notifySettingsAvailable() 0
+19:17:06.651  I  #onSettingsAvailable() 0
+19:17:06.651  I  #flushPolicies()
+19:17:06.661  I  Start proc 5327:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i414 for  {com.example.mediswitch/org.chromium.content.app.SandboxedProcessService0:0}
+19:17:06.756  D  got request NetworkRequest [ TRACK_DEFAULT id=12695, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.756  D  got request NetworkRequest [ TRACK_DEFAULT id=12695, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.757  D  got request NetworkRequest [ TRACK_DEFAULT id=12695, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.761  D  got request NetworkRequest [ TRACK_DEFAULT id=12695, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:06.803  I  Loaded products: 
+19:17:06.806  I  Connecting to camera service
+19:17:06.815  V  ignore id:2
+19:17:06.815  V  ignore id:3
+19:17:06.815  V  ignore id:4
+19:17:06.821  I  onTorchStatusChangedLocked id:2 ignore callback
+19:17:06.822  I  onTorchStatusChangedLocked id:3 ignore callback
+19:17:06.822  I  onTorchStatusChangedLocked id:4 ignore callback
+19:17:06.833  D  applied 1 plugins for [com.example.mediswitch]:
+19:17:06.833  D    plugin 1: [libMEOW_gift.so]:
+19:17:06.837  W  getBluetoothAdapter() requires BLUETOOTH permission
+19:17:06.837  W  registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+19:17:06.842  I  ctx:0xb400006f8c6e34c0, ARC not Enabled.
+19:17:06.862  W  [WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+19:17:06.873  I  ctx:0xb400006f5c69a840, ARC not Enabled.
+19:17:06.895  I  [64995] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.897  I  [64995] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.898  I  [64961] vrg.d(280): com.example.mediswitch: Account from first account - [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.899  I  [64961] vrg.d(893): Billing preferred account via installer for com.example.mediswitch: [r1i8H7QszP-c1E6gxL2_cHT7tqslniRot31IdxQWa-E]
+19:17:06.903  I  Attempted to restore purchases.
+19:17:06.904  I  Purchase update received: 0 items
+19:17:07.026  W  Unsupported mime audio/x-adpcm-ms
+19:17:07.026  W  Unsupported mime audio/x-adpcm-dvi-ima
+19:17:07.026  W  Unsupported mime audio/alac
+19:17:07.027  W  Unsupported mime audio/ape
+19:17:07.030  W  Unrecognized profile/level 1/32 for video/mp4v-es
+19:17:07.030  W  Unrecognized profile/level 32768/2 for video/mp4v-es
+19:17:07.030  W  Unrecognized profile/level 32768/64 for video/mp4v-es
+19:17:07.032  W  Unsupported mime video/x-ms-wmv
+19:17:07.032  W  Unsupported mime video/xvid
+19:17:07.034  W  Unrecognized profile/level 1/32 for video/mp4v-es
+19:17:07.817  I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:921)
+19:17:08.550  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=6.56 dur=2440.22 max=2120.06 min=11.11
+19:17:09.567  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=47.20 dur=1017.01 max=182.76 min=6.59
+19:17:10.176  D  Installing profile for com.example.mediswitch
+19:17:10.583  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=53.12 dur=1016.57 max=99.10 min=11.07
+19:17:11.775  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=32.73 dur=1191.51 max=558.96 min=15.82
+19:17:11.833  I  Checking if database has medicines. Count: 0
+19:17:11.846  I  Performing initial database seeding check...
+19:17:11.852  I  Database seed check: Medicine count = 0
+19:17:11.852  I  Medicines table is empty. Seeding database from asset ON MAIN THREAD...
+19:17:11.852  I  [Main Thread] Loading raw CSV asset...
+19:17:11.998  I  [Main Thread] Raw CSV loaded.
+19:17:11.998  I  [Main Thread] Parsing CSV...
+19:17:13.412  I  [Main Thread] Parsed 23537 medicines.
+19:17:13.412  I  [Main Thread] Starting batch insert...
+19:17:13.711  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=6.20 dur=1936.50 max=1702.40 min=2.26
+19:17:14.388  I  Background concurrent copying GC freed 260003(12MB) AllocSpace objects, 19(824KB) LOS objects, 45% free, 28MB/52MB, paused 71us total 190.474ms
+19:17:14.718  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=45.71 dur=1006.34 max=255.04 min=15.42
+19:17:15.718  I  [Main Thread] Batch insert completed.
+19:17:15.719  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=59.93 dur=1001.14 max=17.39 min=15.68
+19:17:15.721  I  Database seeded successfully ON MAIN THREAD in 3868ms.
+19:17:15.721  I  performInitialSeedingIfNeeded finished.
+19:17:15.810  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+19:17:15.839  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
+19:17:15.880  D  got request NetworkRequest [ TRACK_DEFAULT id=12697, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.880  D  got request NetworkRequest [ TRACK_DEFAULT id=12697, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.880  D  got request NetworkRequest [ TRACK_DEFAULT id=12697, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.881  D  got request NetworkRequest [ TRACK_DEFAULT id=12697, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.892  D  got request NetworkRequest [ TRACK_DEFAULT id=12698, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.892  D  got request NetworkRequest [ TRACK_DEFAULT id=12698, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.892  D  got request NetworkRequest [ TRACK_DEFAULT id=12698, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.892  D  got request NetworkRequest [ TRACK_DEFAULT id=12698, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10466 AdministratorUids: [] RequestorUid: 10466 RequestorPackageName: com.example.mediswitch] ] with score 50 and providerId 3
+19:17:15.979  I  Background young concurrent copying GC freed 540774(20MB) AllocSpace objects, 3(120KB) LOS objects, 37% free, 32MB/52MB, paused 180us total 107.015ms
+19:17:16.000  W  Invoke Firebase method getInstance error.
+19:17:16.001  W  The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+19:17:16.006  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+19:17:16.021  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+19:17:16.033  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
+19:17:16.071  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+19:17:16.075  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
+19:17:16.162  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
+19:17:16.169  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=0.10 dur=9964.76 max=9964.76 min=9964.76
+19:17:16.215  W  Not retrying to fetch app settings
+19:17:16.215  W  Not retrying to fetch app settings
+19:17:16.221  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+19:17:16.254  W  type=1400 audit(0.0:657691): avc: granted { execute } for path="/data/data/com.example.mediswitch/app_pccache/5/C59EFC0E35180EEF6E29690E1AB3BB0D83EA836B/pcam.jar" dev="dm-11" ino=176723 scontext=u:r:untrusted_app:s0:c210,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c210,c257,c512,c768 tclass=file app=com.example.mediswitch
+19:17:16.283  I  Searching medicines in SQLite for query: '', limit: 16, offset: 0
+19:17:16.422  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2a,api:1,p:5168,c:692) disconnect(): api=1
+19:17:16.423  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](id:2b400001b2a,api:1,p:5168,c:692) connect(): api=1 producerControlledByApp=false
+19:17:16.738  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=27.47 dur=1019.11 max=320.36 min=5.15
+19:17:17.792  I  JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html:921)
+19:17:18.410  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+19:17:18.411  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+19:17:18.438  I  [okhttp]:check permission begin!
+19:17:18.438  W  ClassLoader referenced unknown path: system/framework/mediatek-cta.jar
+19:17:18.438  I  [okhttp] e:java.lang.ClassNotFoundException: com.mediatek.cta.CtaUtils
+19:17:18.442  I  [socket]:check permission begin!
+19:17:18.442  W  ClassLoader referenced unknown path: system/framework/mediatek-cta.jar
+19:17:18.442  I  [socket] e:java.lang.ClassNotFoundException: com.mediatek.cta.CtaUtils
+19:17:18.458  I  BannerAd loaded.
+19:17:18.464  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+19:17:18.464  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+19:17:18.472  I  [okhttp]:check permission begin!
+19:17:18.472  I  [okhttp]:not MMS!
+19:17:18.472  I  [okhttp]:not Email!
+19:17:18.473  I  [socket]:check permission begin!
+19:17:18.487  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=5.72 dur=1748.50 max=1612.57 min=5.80
+19:17:18.490  I  BannerAd loaded.
+19:17:18.493  I  [](id:143000000000,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:18.494  D  lockHardwareCanvas
+19:17:18.494  I  [ImageReader-1x1f22m5-5168-0](id:143000000000,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:18.502  E  updateAcquireFence: Did not find frame.
+19:17:18.514  I  [](id:143000000001,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:18.514  D  lockHardwareCanvas
+19:17:18.515  I  [ImageReader-960x150f22m5-5168-1](id:143000000001,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:18.602  E  updateAcquireFence: Did not find frame.
+19:17:18.607  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=8.20 dur=2437.86 max=1867.70 min=5.16
+19:17:18.612  I  [OkHttp] sendRequest>>
+19:17:18.612  I  [OkHttp] sendRequest<<
+19:17:18.616  D  lockHardwareCanvas
+19:17:18.621  E  updateAcquireFence: Did not find frame.
+19:17:18.624  I  BannerAd impression.
+19:17:18.634  I  [](id:143000000002,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:18.634  D  lockHardwareCanvas
+19:17:18.634  I  [ImageReader-1x1f22m5-5168-2](id:143000000002,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:18.638  E  updateAcquireFence: Did not find frame.
+19:17:18.647  D  lockHardwareCanvas
+19:17:18.649  I  [](id:143000000003,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:18.649  D  lockHardwareCanvas
+19:17:18.662  I  [OkHttp] sendRequest>>
+19:17:18.662  I  [OkHttp] sendRequest<<
+19:17:18.696  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
+19:17:18.701  E  updateAcquireFence: Did not find frame.
+19:17:18.702  I  [ImageReader-960x150f22m5-5168-3](id:143000000003,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:18.724  E  updateAcquireFence: Did not find frame.
+19:17:18.743  D  lockHardwareCanvas
+19:17:18.751  E  updateAcquireFence: Did not find frame.
+19:17:18.756  I  BannerAd impression.
+19:17:18.756  I  [ImageReader-1x1f22m5-5168-0](id:143000000000,api:1,p:5168,c:5168) disconnect(): api=1
+19:17:18.757  I  [ImageReader-1x1f22m5-5168-0](id:143000000000,api:0,p:-1,c:5168) disconnect()
+19:17:18.772  D  lockHardwareCanvas
+19:17:18.776  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
+19:17:18.781  E  updateAcquireFence: Did not find frame.
+19:17:18.909  I  [okhttp]:check permission begin!
+19:17:18.909  I  [okhttp]:not MMS!
+19:17:18.909  I  [okhttp]:not Email!
+19:17:18.913  I  [okhttp]:check permission begin!
+19:17:18.913  I  [okhttp]:not MMS!
+19:17:18.913  I  [okhttp]:not Email!
+19:17:18.958  I  [socket]:check permission begin!
+19:17:19.111  I  [OkHttp] sendRequest>>
+19:17:19.112  I  [OkHttp] sendRequest<<
+19:17:20.116  D  lockHardwareCanvas
+19:17:20.125  E  updateAcquireFence: Did not find frame.
+19:17:20.132  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=3.28 dur=1525.00 max=1346.91 min=17.49
+19:17:20.132  D  lockHardwareCanvas
+19:17:20.140  E  updateAcquireFence: Did not find frame.
+19:17:20.149  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=4.21 dur=1662.24 max=1339.81 min=8.05
+19:17:20.149  D  lockHardwareCanvas
+19:17:20.153  E  updateAcquireFence: Did not find frame.
+19:17:20.166  D  lockHardwareCanvas
+19:17:20.169  E  updateAcquireFence: Did not find frame.
+19:17:20.182  D  lockHardwareCanvas
+19:17:20.187  E  updateAcquireFence: Did not find frame.
+19:17:20.199  D  lockHardwareCanvas
+19:17:20.205  E  updateAcquireFence: Did not find frame.
+19:17:20.216  D  lockHardwareCanvas
+19:17:20.221  E  updateAcquireFence: Did not find frame.
+19:17:20.233  D  lockHardwareCanvas
+19:17:20.238  E  updateAcquireFence: Did not find frame.
+19:17:20.249  D  lockHardwareCanvas
+19:17:20.254  E  updateAcquireFence: Did not find frame.
+19:17:20.266  D  lockHardwareCanvas
+19:17:20.267  D  lockHardwareCanvas
+19:17:20.272  E  updateAcquireFence: Did not find frame.
+19:17:20.277  E  updateAcquireFence: Did not find frame.
+19:17:20.282  D  lockHardwareCanvas
+19:17:20.283  D  lockHardwareCanvas
+19:17:20.286  E  updateAcquireFence: Did not find frame.
+19:17:20.288  E  updateAcquireFence: Did not find frame.
+19:17:20.299  D  lockHardwareCanvas
+19:17:20.300  D  lockHardwareCanvas
+19:17:20.303  E  updateAcquireFence: Did not find frame.
+19:17:20.306  E  updateAcquireFence: Did not find frame.
+19:17:20.316  D  lockHardwareCanvas
+19:17:20.317  D  lockHardwareCanvas
+19:17:20.320  E  updateAcquireFence: Did not find frame.
+19:17:20.323  E  updateAcquireFence: Did not find frame.
+19:17:20.332  D  lockHardwareCanvas
+19:17:20.333  D  lockHardwareCanvas
+19:17:20.335  E  updateAcquireFence: Did not find frame.
+19:17:20.338  E  updateAcquireFence: Did not find frame.
+19:17:20.349  D  lockHardwareCanvas
+19:17:20.350  D  lockHardwareCanvas
+19:17:20.353  E  updateAcquireFence: Did not find frame.
+19:17:20.356  E  updateAcquireFence: Did not find frame.
+19:17:20.366  D  lockHardwareCanvas
+19:17:20.366  D  lockHardwareCanvas
+19:17:20.370  E  updateAcquireFence: Did not find frame.
+19:17:20.372  E  updateAcquireFence: Did not find frame.
+19:17:20.382  D  lockHardwareCanvas
+19:17:20.383  D  lockHardwareCanvas
+19:17:20.386  E  updateAcquireFence: Did not find frame.
+19:17:20.389  E  updateAcquireFence: Did not find frame.
+19:17:20.399  D  lockHardwareCanvas
+19:17:20.403  E  updateAcquireFence: Did not find frame.
+19:17:20.416  D  lockHardwareCanvas
+19:17:20.419  E  updateAcquireFence: Did not find frame.
+19:17:20.432  D  lockHardwareCanvas
+19:17:20.436  E  updateAcquireFence: Did not find frame.
+19:17:20.449  D  lockHardwareCanvas
+19:17:20.453  E  updateAcquireFence: Did not find frame.
+19:17:20.465  D  lockHardwareCanvas
+19:17:20.469  E  updateAcquireFence: Did not find frame.
+19:17:20.482  D  lockHardwareCanvas
+19:17:20.486  E  updateAcquireFence: Did not find frame.
+19:17:20.499  D  lockHardwareCanvas
+19:17:20.502  E  updateAcquireFence: Did not find frame.
+19:17:20.515  D  lockHardwareCanvas
+19:17:20.519  E  updateAcquireFence: Did not find frame.
+19:17:20.532  D  lockHardwareCanvas
+19:17:20.535  E  updateAcquireFence: Did not find frame.
+19:17:21.207  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=24.17 dur=1075.78 max=669.07 min=9.73
+19:17:21.228  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=20.38 dur=1079.66 max=675.30 min=9.51
+19:17:21.270  D  lockHardwareCanvas
+19:17:21.271  D  lockHardwareCanvas
+19:17:21.276  E  updateAcquireFence: Did not find frame.
+19:17:21.281  E  updateAcquireFence: Did not find frame.
+19:17:21.313  D  lockHardwareCanvas
+19:17:21.314  D  lockHardwareCanvas
+19:17:21.319  E  updateAcquireFence: Did not find frame.
+19:17:21.323  E  updateAcquireFence: Did not find frame.
+19:17:21.342  D  lockHardwareCanvas
+19:17:21.343  D  lockHardwareCanvas
+19:17:21.346  E  updateAcquireFence: Did not find frame.
+19:17:21.351  E  updateAcquireFence: Did not find frame.
+19:17:21.362  D  lockHardwareCanvas
+19:17:21.363  D  lockHardwareCanvas
+19:17:21.368  E  updateAcquireFence: Did not find frame.
+19:17:21.372  E  updateAcquireFence: Did not find frame.
+19:17:21.393  D  lockHardwareCanvas
+19:17:21.393  D  lockHardwareCanvas
+19:17:21.397  E  updateAcquireFence: Did not find frame.
+19:17:21.399  E  updateAcquireFence: Did not find frame.
+19:17:22.239  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=39.56 dur=1011.02 max=331.15 min=7.21
+19:17:22.533  I  Fetching distinct categories from SQLite...
+19:17:22.539  I  Fetching recently updated medicines from SQLite (since 2025-03-17, limit: 8)...
+19:17:22.558  I  Fetching 10 random medicines from SQLite...
+19:17:22.577  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
+19:17:23.422  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+19:17:23.422  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+19:17:23.442  I  [okhttp]:check permission begin!
+19:17:23.442  I  [okhttp]:not MMS!
+19:17:23.442  I  [okhttp]:not Email!
+19:17:23.444  I  InterstitialAd loaded.
+19:17:23.445  I  [socket]:check permission begin!
+19:17:24.899  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=21.05 dur=2659.87 max=1711.11 min=6.25
+19:17:25.267  I  Fetching distinct categories from SQLite...
+19:17:25.272  I  Fetching recently updated medicines from SQLite (since 2025-03-17, limit: 8)...
+19:17:25.286  I  Fetching 10 random medicines from SQLite...
+19:17:25.302  I  Searching medicines in SQLite for query: '', limit: 11, offset: 0
+19:17:26.465  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=24.91 dur=1565.39 max=926.64 min=4.23
+19:17:26.471  D  Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+19:17:26.474  I  Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("01381D79B4350005134A22F51F663821")) to get test ads on this device.
+19:17:26.498  W  Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+19:17:26.524  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
+19:17:26.629  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=3.50 dur=5421.45 max=5105.51 min=7.09
+19:17:26.705  D  lockHardwareCanvas
+19:17:26.705  D  lockHardwareCanvas
+19:17:26.708  E  updateAcquireFence: Did not find frame.
+19:17:26.712  E  updateAcquireFence: Did not find frame.
+19:17:26.724  D  lockHardwareCanvas
+19:17:26.725  D  lockHardwareCanvas
+19:17:26.727  E  updateAcquireFence: Did not find frame.
+19:17:26.730  E  updateAcquireFence: Did not find frame.
+19:17:26.755  D  lockHardwareCanvas
+19:17:26.756  D  lockHardwareCanvas
+19:17:26.760  E  updateAcquireFence: Did not find frame.
+19:17:26.763  E  updateAcquireFence: Did not find frame.
+19:17:26.787  D  lockHardwareCanvas
+19:17:26.788  D  lockHardwareCanvas
+19:17:26.791  E  updateAcquireFence: Did not find frame.
+19:17:26.794  E  updateAcquireFence: Did not find frame.
+19:17:26.804  D  lockHardwareCanvas
+19:17:26.804  D  lockHardwareCanvas
+19:17:26.809  E  updateAcquireFence: Did not find frame.
+19:17:26.813  E  updateAcquireFence: Did not find frame.
+19:17:26.827  D  lockHardwareCanvas
+19:17:26.828  D  lockHardwareCanvas
+19:17:26.832  E  updateAcquireFence: Did not find frame.
+19:17:26.835  E  updateAcquireFence: Did not find frame.
+19:17:26.854  D  lockHardwareCanvas
+19:17:26.855  D  lockHardwareCanvas
+19:17:26.857  E  updateAcquireFence: Did not find frame.
+19:17:26.860  E  updateAcquireFence: Did not find frame.
+19:17:26.873  D  lockHardwareCanvas
+19:17:26.874  D  lockHardwareCanvas
+19:17:26.877  E  updateAcquireFence: Did not find frame.
+19:17:26.880  E  updateAcquireFence: Did not find frame.
+19:17:26.892  D  lockHardwareCanvas
+19:17:26.892  D  lockHardwareCanvas
+19:17:26.895  E  updateAcquireFence: Did not find frame.
+19:17:26.898  E  updateAcquireFence: Did not find frame.
+19:17:26.921  D  lockHardwareCanvas
+19:17:26.921  D  lockHardwareCanvas
+19:17:26.923  E  updateAcquireFence: Did not find frame.
+19:17:26.927  E  updateAcquireFence: Did not find frame.
+19:17:26.939  D  lockHardwareCanvas
+19:17:26.939  D  lockHardwareCanvas
+19:17:26.941  E  updateAcquireFence: Did not find frame.
+19:17:26.944  E  updateAcquireFence: Did not find frame.
+19:17:26.953  D  lockHardwareCanvas
+19:17:26.954  D  lockHardwareCanvas
+19:17:26.956  E  updateAcquireFence: Did not find frame.
+19:17:26.958  E  updateAcquireFence: Did not find frame.
+19:17:26.964  I  Searching medicines in SQLite for query: '', limit: 16, offset: 0
+19:17:27.476  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=26.70 dur=1011.28 max=490.88 min=1.97
+19:17:27.856  I  Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:250505301
+19:17:27.856  I  Selected remote version of com.google.android.gms.ads.dynamite, version >= 250505301
+19:17:27.871  I  [okhttp]:check permission begin!
+19:17:27.872  I  [okhttp]:not MMS!
+19:17:27.872  I  [okhttp]:not Email!
+19:17:27.872  I  BannerAd loaded.
+19:17:27.874  I  [socket]:check permission begin!
+19:17:27.889  I  [](id:143000000004,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:27.890  D  lockHardwareCanvas
+19:17:27.890  I  [ImageReader-1x1f22m5-5168-4](id:143000000004,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:27.894  E  updateAcquireFence: Did not find frame.
+19:17:27.909  I  [](id:143000000005,api:0,p:-1,c:5168) connect(): controlledByApp=true
+19:17:27.909  D  lockHardwareCanvas
+19:17:27.910  I  [ImageReader-960x150f22m5-5168-5](id:143000000005,api:1,p:5168,c:5168) connect(): api=1 producerControlledByApp=true
+19:17:27.940  E  updateAcquireFence: Did not find frame.
+19:17:27.945  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=15.95 dur=1316.26 max=984.46 min=5.54
+19:17:27.950  D  lockHardwareCanvas
+19:17:27.955  E  updateAcquireFence: Did not find frame.
+19:17:27.957  I  BannerAd impression.
+19:17:27.969  D  lockHardwareCanvas
+19:17:27.976  E  [AUX]GuiExtAuxCheckAuxPath:639: Null anb
+19:17:27.982  E  updateAcquireFence: Did not find frame.
+19:17:28.004  I  [ImageReader-1x1f22m5-5168-4](id:143000000004,api:1,p:5168,c:5168) disconnect(): api=1
+19:17:28.005  I  [ImageReader-1x1f22m5-5168-4](id:143000000004,api:0,p:-1,c:5168) disconnect()
+19:17:28.023  I  [OkHttp] sendRequest>>
+19:17:28.024  I  [OkHttp] sendRequest<<
+19:17:28.180  I  [okhttp]:check permission begin!
+19:17:28.180  I  [okhttp]:not MMS!
+19:17:28.180  I  [okhttp]:not Email!
+19:17:28.181  I  [OkHttp] sendRequest>>
+19:17:28.181  I  [OkHttp] sendRequest<<
+19:17:28.478  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=5.99 dur=1001.62 max=450.01 min=14.73
+19:17:29.480  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=2.00 dur=1002.22 max=501.34 min=500.88
+19:17:29.503  D  lockHardwareCanvas
+19:17:29.508  E  updateAcquireFence: Did not find frame.
+19:17:29.512  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=1.91 dur=1567.06 max=1525.48 min=13.70
+19:17:29.520  D  lockHardwareCanvas
+19:17:29.529  E  updateAcquireFence: Did not find frame.
+19:17:29.536  D  lockHardwareCanvas
+19:17:29.540  E  updateAcquireFence: Did not find frame.
+19:17:29.553  D  lockHardwareCanvas
+19:17:29.557  E  updateAcquireFence: Did not find frame.
+19:17:29.569  D  lockHardwareCanvas
+19:17:29.580  E  updateAcquireFence: Did not find frame.
+19:17:29.586  D  lockHardwareCanvas
+19:17:29.591  E  updateAcquireFence: Did not find frame.
+19:17:29.603  D  lockHardwareCanvas
+19:17:29.608  E  updateAcquireFence: Did not find frame.
+19:17:29.619  D  lockHardwareCanvas
+19:17:29.623  E  updateAcquireFence: Did not find frame.
+19:17:29.636  D  lockHardwareCanvas
+19:17:29.640  E  updateAcquireFence: Did not find frame.
+19:17:29.653  D  lockHardwareCanvas
+19:17:29.657  E  updateAcquireFence: Did not find frame.
+19:17:29.669  D  lockHardwareCanvas
+19:17:29.674  E  updateAcquireFence: Did not find frame.
+19:17:29.686  D  lockHardwareCanvas
+19:17:29.690  E  updateAcquireFence: Did not find frame.
+19:17:29.703  D  lockHardwareCanvas
+19:17:29.706  E  updateAcquireFence: Did not find frame.
+19:17:29.719  D  lockHardwareCanvas
+19:17:29.723  E  updateAcquireFence: Did not find frame.
+19:17:29.736  D  lockHardwareCanvas
+19:17:29.739  E  updateAcquireFence: Did not find frame.
+19:17:29.753  D  lockHardwareCanvas
+19:17:29.756  E  updateAcquireFence: Did not find frame.
+19:17:29.769  D  lockHardwareCanvas
+19:17:29.773  E  updateAcquireFence: Did not find frame.
+19:17:30.981  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=12.66 dur=1500.81 max=502.45 min=7.98
+19:17:31.992  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=54.40 dur=1011.04 max=112.12 min=10.45
+19:17:33.008  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=60.00 dur=1016.74 max=19.70 min=11.64
+19:17:34.475  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=34.08 dur=1466.97 max=500.07 min=12.15
+19:17:35.477  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=2.00 dur=1001.15 max=501.53 min=499.62
+19:17:36.085  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=2.59 dur=6572.76 max=6309.28 min=7.69
+19:17:36.142  D  lockHardwareCanvas
+19:17:36.142  D  lockHardwareCanvas
+19:17:36.146  E  updateAcquireFence: Did not find frame.
+19:17:36.147  D  lockHardwareCanvas
+19:17:36.149  E  updateAcquireFence: Did not find frame.
+19:17:36.153  E  updateAcquireFence: Did not find frame.
+19:17:36.176  D  lockHardwareCanvas
+19:17:36.177  D  lockHardwareCanvas
+19:17:36.182  E  updateAcquireFence: Did not find frame.
+19:17:36.183  D  lockHardwareCanvas
+19:17:36.186  E  updateAcquireFence: Did not find frame.
+19:17:36.191  E  updateAcquireFence: Did not find frame.
+19:17:36.209  D  lockHardwareCanvas
+19:17:36.209  D  lockHardwareCanvas
+19:17:36.213  E  updateAcquireFence: Did not find frame.
+19:17:36.214  D  lockHardwareCanvas
+19:17:36.217  E  updateAcquireFence: Did not find frame.
+19:17:36.221  E  updateAcquireFence: Did not find frame.
+19:17:36.242  D  lockHardwareCanvas
+19:17:36.242  D  lockHardwareCanvas
+19:17:36.246  E  updateAcquireFence: Did not find frame.
+19:17:36.247  D  lockHardwareCanvas
+19:17:36.250  E  updateAcquireFence: Did not find frame.
+19:17:36.254  E  updateAcquireFence: Did not find frame.
+19:17:36.274  D  lockHardwareCanvas
+19:17:36.279  E  updateAcquireFence: Did not find frame.
+19:17:36.292  D  lockHardwareCanvas
+19:17:36.296  E  updateAcquireFence: Did not find frame.
+19:17:36.310  D  lockHardwareCanvas
+19:17:36.314  E  updateAcquireFence: Did not find frame.
+19:17:36.329  D  lockHardwareCanvas
+19:17:36.334  E  updateAcquireFence: Did not find frame.
+19:17:36.358  D  lockHardwareCanvas
+19:17:36.363  E  updateAcquireFence: Did not find frame.
+19:17:36.378  D  lockHardwareCanvas
+19:17:36.383  E  updateAcquireFence: Did not find frame.
+19:17:36.404  I  Making request to: https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3
+19:17:36.404  I  [okhttp]:check permission begin!
+19:17:36.404  I  [okhttp]:not MMS!
+19:17:36.404  I  [okhttp]:not Email!
+19:17:36.408  D  lockHardwareCanvas
+19:17:36.411  E  updateAcquireFence: Did not find frame.
+19:17:36.455  I  [socket]:check permission begin!
+19:17:36.477  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=17.99 dur=1000.45 max=500.86 min=4.97
+19:17:36.628  I  [OkHttp] sendRequest>>
+19:17:36.628  I  [OkHttp] sendRequest<<
+19:17:36.780  I  Status Code: 200
+19:17:36.895  E  call to OpenGL ES API with no current context (logged once per thread)
+19:17:36.930  I  Flattened final assist data: 464 bytes, containing 1 windows, 3 views
+19:17:37.075  D  lockHardwareCanvas
+19:17:37.079  E  updateAcquireFence: Did not find frame.
+19:17:37.091  D  lockHardwareCanvas
+19:17:37.095  E  updateAcquireFence: Did not find frame.
+19:17:37.098  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=24.69 dur=1012.67 max=612.56 min=6.18
+19:17:37.108  D  lockHardwareCanvas
+19:17:37.109  D  lockHardwareCanvas
+19:17:37.113  E  updateAcquireFence: Did not find frame.
+19:17:37.113  D  lockHardwareCanvas
+19:17:37.117  E  updateAcquireFence: Did not find frame.
+19:17:37.120  E  updateAcquireFence: Did not find frame.
+19:17:37.143  D  lockHardwareCanvas
+19:17:37.144  D  lockHardwareCanvas
+19:17:37.147  E  updateAcquireFence: Did not find frame.
+19:17:37.147  D  lockHardwareCanvas
+19:17:37.150  E  updateAcquireFence: Did not find frame.
+19:17:37.153  E  updateAcquireFence: Did not find frame.
+19:17:37.174  D  lockHardwareCanvas
+19:17:37.175  D  lockHardwareCanvas
+19:17:37.177  E  updateAcquireFence: Did not find frame.
+19:17:37.178  D  lockHardwareCanvas
+19:17:37.181  E  updateAcquireFence: Did not find frame.
+19:17:37.184  E  updateAcquireFence: Did not find frame.
+19:17:37.195  D  lockHardwareCanvas
+19:17:37.196  D  lockHardwareCanvas
+19:17:37.198  E  updateAcquireFence: Did not find frame.
+19:17:37.199  D  lockHardwareCanvas
+19:17:37.201  E  updateAcquireFence: Did not find frame.
+19:17:37.204  E  updateAcquireFence: Did not find frame.
+19:17:37.224  I  [ImageReader-960x150f22m5-5168-5](id:143000000005,api:1,p:5168,c:5168) disconnect(): api=1
+19:17:37.225  I  [ImageReader-960x150f22m5-5168-5](id:143000000005,api:0,p:-1,c:5168) disconnect()
+19:17:37.225  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+19:17:37.232  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+19:17:37.234  D  lockHardwareCanvas
+19:17:37.237  D  lockHardwareCanvas
+19:17:37.241  E  updateAcquireFence: Did not find frame.
+19:17:37.244  E  updateAcquireFence: Did not find frame.
+19:17:37.274  D  lockHardwareCanvas
+19:17:37.275  D  lockHardwareCanvas
+19:17:37.278  E  updateAcquireFence: Did not find frame.
+19:17:37.281  E  updateAcquireFence: Did not find frame.
+19:17:37.292  D  lockHardwareCanvas
+19:17:37.293  D  lockHardwareCanvas
+19:17:37.296  E  updateAcquireFence: Did not find frame.
+19:17:37.300  E  updateAcquireFence: Did not find frame.
+19:17:37.309  D  lockHardwareCanvas
+19:17:37.309  D  lockHardwareCanvas
+19:17:37.312  E  updateAcquireFence: Did not find frame.
+19:17:37.316  E  updateAcquireFence: Did not find frame.
+19:17:37.341  D  lockHardwareCanvas
+19:17:37.342  D  lockHardwareCanvas
+19:17:37.345  E  updateAcquireFence: Did not find frame.
+19:17:37.348  E  updateAcquireFence: Did not find frame.
+19:17:37.357  D  lockHardwareCanvas
+19:17:37.358  D  lockHardwareCanvas
+19:17:37.361  E  updateAcquireFence: Did not find frame.
+19:17:37.364  E  updateAcquireFence: Did not find frame.
+19:17:38.272  I  ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+19:17:38.300  I  [com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd39f4ee8,id:6954,api:1,p:5168,c:692) queueBuffer: fps=13.31 dur=1202.13 max=933.11 min=6.70
+19:17:38.316  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=14.68 dur=1839.48 max=939.00 min=1.63
+19:17:38.359  D  lockHardwareCanvas
+19:17:38.360  D  lockHardwareCanvas
+19:17:38.368  E  updateAcquireFence: Did not find frame.
+19:17:38.374  E  updateAcquireFence: Did not find frame.
+19:17:38.410  D  lockHardwareCanvas
+19:17:38.411  D  lockHardwareCanvas
+19:17:38.417  E  updateAcquireFence: Did not find frame.
+19:17:38.424  E  updateAcquireFence: Did not find frame.
+19:17:38.442  D  lockHardwareCanvas
+19:17:38.443  D  lockHardwareCanvas
+19:17:38.448  E  updateAcquireFence: Did not find frame.
+19:17:38.453  E  updateAcquireFence: Did not find frame.
+19:17:38.476  D  lockHardwareCanvas
+19:17:38.478  D  lockHardwareCanvas
+19:17:38.482  E  updateAcquireFence: Did not find frame.
+19:17:38.488  E  updateAcquireFence: Did not find frame.
+19:17:38.928  W  Error while pinging URL: https://pagead2.googleadservices.com/pagead/adview?pa=1&ai=CKdRnnTcBaMO9Ir2I2fcPjqqgsAcA04b_or8JwI23ARABIMLs3CBgs4aAgOAtiAEBoAH71NLXA6kCOkjo5gVvpT6oAwGqBLICT9BLqd5ZY094JanpRKZEEIpUPjpkmnkX_kFFDewT5oovxIOXmvdtrzvNxeyoHhtfFnrUaKKrPnD5bvp6RVP_mV_nb2uMuH63V0HVFKgM4bREJQiroDX_xwcyzPeeHIyBjA1U_08zGQwowUZnEvXxwFKGfVzrLPMKOx9Uf_b8UY9qaihnf3-CuCDsUPqh-huGkhcOkW1D2z5FzW8yEOyYQwC7O11imikuMOJP-h1niWjngMPBMZDJ7NhuMnu7Fdy8rwZsZxKRr6dLgN_t0tlMozJdMjObCRD2hUpLRGWdyjSZaPepNHJPMMbnE5ifLtnrNukIqo16sCeqZN4wMi6s60NVVsoUUhbFT4EfKGllkjbKsAduTKNvQYtGgTqj35MS7sUNrhDBETY_r2M9Yo-zQXUQwASn8d_15gGIBdGNzdcFkAYBoAY5wAYLgAftqq0omAcBqAf_nrECqAemvhuoB9XJG6gHoQGoB_6esQKoB_PRG6gHltgbqAeqm7ECqAffn7ECqAeO3BuoB_a4sQKoB-C9sQLYBwGgCNenAbAIAtIIKwiAIRABGF4yAQo6EY_QgICAgASQwICAgKCogAIgSL39wTpYh9H_lsnfjAOACgKqDQJFR-oNEwif8YyXyd-MAxU9RPYIHQ4VCHaCFCUaI21vYmlsZWFwcDo6Mi1jb20uZXhhbXBsZS5tZWRpc3dpdGNo0BUBmBYB-BYBgBcBshc2ChgIABIUcHViLTM5NDAyNTYwOTk5NDI1NDQYASoAMhZjb20uZXhhbXBsZS5tZWRpc3dpdGNoshgDIgEAmhkHCAEaA1VTRA&sigh=cnI-ejL6s9A&cid=CAQShgEA2abss1vkB8FsNE3NDbsxN9r26GIF_8jhfrZed0QOhqm7ivTwZzUldh5j1mbyCx6Z1DT4Q7wBPHte9UZeVrQ1Lr77GUHymUcfKI21o1J99Ee80IjT5SSjbol3SnZREzefX4TJODbbKrGBIDR9QJOyosW8hP0h3v44Dd0yKmLCpx_gMQe77hgB&gvr=1&ms=CoACNT8kqDokLiiDETgagj1VyxQs9Jy-PtIU91lbWEWoBVT0BSpfe4MpoOofDtcNJhcMTetgsympHEMtc48WJQN1nTazWk6Tma-OtbxjvNXnu8FoU1fIV03y_2EQKSrgs9fQTuGtUPHRLlcdwimmehxvbI0X0SZMqVvJAm0DRfbc1MulLfQD4u-iE9Znb2_X31em1GKQAf-EBG1s3yBBgfnvULZDDUcVj-MkKLgLfGekABnzwfmyFJGkYpKHboWvoYRb0Yq1Wd92Qgp3TVBqmiwhvIuL3G2_AiBWS31yfYaeDmAlhY9RhUOv-FE3Wr8Zbaj0WL48Qm9o7v85SqNoz57cdwqAArK2dplFfZYKeAHjZAL7O07kq4YX8Yi2IHoReeH4UfZ4sNA_Auwyezgh0HgbRrc_9KonGau2eI0De9MaXKVeYnJftpZnR3ZsUcnWkAzHAo9AaUfZnrMe4UXiNFwcFJHsWPaqn3OjDmVjvai6c-pTq75iMuDtmF9-b8ncqXmKVeMfOQuygx0gJMFigm1qDGiA13IyyUSd2idKkIot49jVkT-vvWwIhELomtT7epe4R0emktgTbpt3FT3BCPVYeiCXq1UZ_Y2WMz0sLKleRYggzXHnoU25Wr92GFy9mQRgj1M1muuI4bD8PrMjNqgkwxpdRyM7nT3MBzUcW_DsotsW2sQSEOkhycHH1ZmbEMymNCiv0no&attok=A5T7jdgIZE9KuxmbRoST8P-hc3HTozhMtiEIcIaie-dD3lrWv5mM0lGEl6CCCCp1Zsxhz2UJIhzkB9UlXiLrM2QM0gErtRdTZKSeTYfE_DfBZEfnl7ot0zAVxnQQH7INxNJO1tHDbjlXMjIxjUFHtdZHvLAQbdjdT5LFRCreL_rzAxPlnYkyCRGYyvw9_Tg1c0-yfS_N-EU5mBQtZrd-o-yvJ3yWFU74CzEgcSCKEBkDvEmZBY1pOM1MyZlBvi_2tHtHK1N1AflbQY964BPKlRc1ln0fZwJox5fAQK3OpPcE-GBzwH8_fu76stbr5hkGk9j3Oc2Sz1J2or8g-G3Xzk4Qb2i-jTSBRlimzBW2gHbKNZLI2-dDRm3w_RNCtJIjs0agUTF9yjYiYX8cq1tUgTj-xuaf3Kdx6Eumi7A-JmpmWR1G_qsE-XkDKUEIs60QfL-vW2dp8QfthQ1Rkh4txVDfsIVTbT01oPcpFV9_Gk6FpSh-JDm6SiGU4ew5toy8ioznw-z2a005YajyMTcljsOkWSJDg6XfFPJmzdSs89LQ4oLbJp46ejq_dghiCNG0MgmHMySBGhMl. Unable to resolve host "pagead2.googleadservices.com": No address associated with hostname
+19:17:39.345  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=9.72 dur=1028.94 max=731.42 min=16.88
+19:17:39.424  I  [ImageReader-1x1f22m5-5168-2](id:143000000002,api:1,p:5168,c:5168) disconnect(): api=1
+19:17:39.424  I  [ImageReader-1x1f22m5-5168-2](id:143000000002,api:0,p:-1,c:5168) disconnect()
+19:17:39.929  I  [okhttp]:check permission begin!
+19:17:39.930  I  [okhttp]:not MMS!
+19:17:39.930  I  [okhttp]:not Email!
+19:17:39.930  I  [OkHttp] sendRequest>>
+19:17:39.930  I  [OkHttp] sendRequest<<
+19:17:40.346  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=41.99 dur=1000.29 max=266.95 min=9.68
+19:17:41.348  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=49.90 dur=1002.02 max=123.18 min=10.70
+19:17:42.365  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=59.98 dur=1016.92 max=22.63 min=10.06
+19:17:43.381  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=59.01 dur=1016.79 max=34.41 min=4.44
+19:17:44.414  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=7.75 dur=1032.71 max=500.29 min=14.46
+19:17:45.415  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=2.00 dur=1000.44 max=500.36 min=500.07
+19:17:46.421  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=1.99 dur=1006.03 max=505.23 min=500.80
+19:17:47.425  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=1.99 dur=1004.15 max=504.54 min=499.61
+19:17:48.426  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=2.00 dur=1000.94 max=503.95 min=496.98
+19:17:49.310  D  dex2oat com.example.mediswitch delayed 45000ms for app in top. 
+19:17:49.924  I  [SurfaceView - com.example.mediswitch/com.example.mediswitch.MainActivity#0](this:0xb400006fd3aaca58,id:6955,api:1,p:5168,c:692) queueBuffer: fps=2.00 dur=1498.29 max=500.72 min=497.20
