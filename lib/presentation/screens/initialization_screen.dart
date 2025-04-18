@@ -45,19 +45,16 @@ class _InitializationScreenState extends State<InitializationScreen> {
           "InitializationScreen: Flags - OnboardingDone: $onboardingComplete",
         );
 
-        Widget nextScreen;
+        Widget? nextScreen; // Make nullable
 
         if (!onboardingComplete) {
           _logger.i("InitializationScreen: Routing to OnboardingScreen.");
-          // DO NOT mark seeding complete here. Let SetupScreen handle it.
-          // localDataSource.markSeedingAsComplete();
           nextScreen = const OnboardingScreen();
         } else {
-          // Onboarding is complete, now check if the database actually has medicines
+          // Onboarding is complete, check database.
           _logger.i(
             "InitializationScreen: Onboarding complete. Checking if database has medicines...",
           );
-          // Use the direct check against the database content
           final bool databaseHasMedicines =
               await localDataSource.hasMedicines();
           _logger.i(
@@ -66,16 +63,31 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
           if (!databaseHasMedicines) {
             _logger.i(
-              "InitializationScreen: Database is empty. Routing to SetupScreen for seeding.",
+              "InitializationScreen: Database is empty. Attempting seeding directly...",
             );
-            // Seeding will be handled by SetupScreen.
-            nextScreen = const SetupScreen();
+            // Show seeding indicator (optional, could update state here)
+            // setState(() { _statusMessage = "Seeding database..."; });
+
+            final bool seedingSuccessful =
+                await localDataSource.performInitialSeeding();
+
+            if (seedingSuccessful) {
+              _logger.i(
+                "InitializationScreen: Seeding successful. Routing to MainScreen.",
+              );
+              nextScreen = const MainScreen();
+            } else {
+              _logger.e(
+                "InitializationScreen: Seeding FAILED. Halting navigation.",
+              );
+              // Throw an error to be caught below, preventing navigation.
+              throw Exception("Database seeding failed.");
+            }
           } else {
             _logger.i(
               "InitializationScreen: Database already contains medicines. Routing to MainScreen.",
             );
-            // Ensure seeding completer is marked complete for subsequent operations if needed
-            // Although SetupScreen is skipped, other parts might await the completer.
+            // Ensure completer is marked if needed (though less critical now)
             if (!localDataSource.isSeedingCompleted) {
               _logger.w(
                 "InitializationScreen: Seeding completer was not marked complete, but DB has data. Marking complete now.",
@@ -86,14 +98,20 @@ class _InitializationScreenState extends State<InitializationScreen> {
           }
         }
 
-        if (mounted) {
-          // Check again before navigating
+        // Only navigate if a next screen was determined successfully
+        if (nextScreen != null && mounted) {
           _logger.i(
             "InitializationScreen: Navigating to ${nextScreen.runtimeType}",
           );
           Navigator.of(
             context,
-          ).pushReplacement(MaterialPageRoute(builder: (_) => nextScreen));
+          ).pushReplacement(MaterialPageRoute(builder: (_) => nextScreen!));
+        } else if (nextScreen == null) {
+          _logger.w(
+            "InitializationScreen: No next screen determined (likely due to seeding error). Staying on loading/error screen.",
+          );
+          // Optionally update state to show a persistent error message here
+          // setState(() { _showError = true; _errorMessage = "Failed to initialize database."; });
         }
       } catch (e, s) {
         _logger.e("InitializationScreen: Error determining route", e, s);

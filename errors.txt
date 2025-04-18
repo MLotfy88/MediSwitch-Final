@@ -1,177 +1,92 @@
 [INFO] Checking storage permission (Android)...
-
 [CRITICAL] Error determining log directory: Null check operator used on a null value
-
 [CRITICAL] Could not obtain ANY valid directory for logging. Using console only.
-
 [I] main: >>> ENTERING main() <<<
-
 [I] main: Date formatting initialized.
-
 [I] --- Starting Full Locator Setup ---
-
 [I] Locator: Waiting for SharedPreferences and DatabaseHelper...
-
 [I] Locator: Registering SharedPreferences...
-
 [I] Locator: Registering DatabaseHelper...
-
 [I] Locator: SharedPreferences registered.
-
 [I] Locator: DatabaseHelper registered and DB initialized.
-
 [I] Locator: SharedPreferences and DatabaseHelper ready.
-
 [I] Locator: Registering Use Cases...
-
 [I] Locator: Registering Services...
-
 [I] Locator: Registering Providers...
-
 [I] Locator: Waiting for all async singletons...
-
 [I] --- Full Locator Setup Complete ---
-
 [I] main: Locator setup complete. Logger obtained.
-
 [I] main: Starting application setup...
-
 [I] main: Initializing Mobile Ads SDK...
-
 [I] main: Mobile Ads SDK initialized.
-
 [I] main: Initializing SubscriptionProvider asynchronously...
-
 [I] Locator: Registering http.Client.
-
 [I] main: Setup complete. Preparing to run MyApp...
-
 [I] main: Setting InitializationScreen as initial route.
-
 [I] main: >>> CALLING runApp() NOW <<<
-
 [I] main: runApp called successfully (or at least the call was made).
-
 [I] MyApp: Building widget tree...
-
 [D] MyApp: Creating SettingsProvider...
-
 [I] SettingsProvider: Constructor called.
-
 [I] SettingsProvider: _loadSettings started.
-
 [D] MyApp: Consumer<SettingsProvider> builder running. Initialized: false
-
 [V] MyApp: SettingsProvider not initialized, showing loading indicator.
-
 [I] Settings loaded: Theme=ThemeMode.system, Locale=ar
-
 [D] MyApp: Consumer<SettingsProvider> builder running. Initialized: true
-
 [V] MyApp: SettingsProvider initialized, building main MaterialApp.
-
 [I] InitializationScreen: initState called.
-
 [D] InitializationScreen: Building loading indicator UI.
-
 [I] InitializationScreen: Determining initial route...
-
 [I] Locator: Registering SqliteLocalDataSource...
-
 [I] InitializationScreen: Flags - OnboardingDone: false
-
 [I] InitializationScreen: Routing to OnboardingScreen.
-
 [I] InitializationScreen: Navigating to OnboardingScreen
-
 [D] OnboardingScreen: Building widget.
-
 [D] OnboardingScreen: Building widget.
-
 [D] OnboardingScreen: Building widget.
-
 [D] OnboardingScreen: Building widget.
-
 [I] OnboardingScreen: Onboarding complete.
-
 [I] OnboardingScreen: Set onboarding complete flag.
-
 [I] OnboardingScreen: Navigating back to InitializationScreen.
-
 [I] InitializationScreen: initState called.
-
 [D] InitializationScreen: Building loading indicator UI.
-
 [I] InitializationScreen: Determining initial route...
-
 [I] InitializationScreen: Flags - OnboardingDone: true
-
 [I] InitializationScreen: Onboarding complete. Checking if database has medicines...
-
 [I] InitializationScreen: Database has medicines: false
-
 [I] InitializationScreen: Database is empty. Routing to SetupScreen for seeding.
-
 [I] InitializationScreen: Navigating to SetupScreen
-
 [I] SetupScreen: initState called. Starting initial seeding...
-
 [D] SetupScreen: Building widget. isSeeding: true, error: null
-
-[I] SetupScreen: Seeding process finished. Seeding attempt successful?: true. Duration: 2413ms
-
+[I] SetupScreen: Seeding process finished. Seeding attempt successful?: true. Duration: 2366ms
 [I] SetupScreen: Seeding complete. Navigating to MainScreen...
-
 [I] MainScreen: Building widget. Selected index: 0
-
 [I] HomeScreen: +++++ initState +++++
-
 [I] HomeScreen: >>>>> build ENTRY <<<<<
-
 [D] MyApp: Creating MedicineProvider...
-
 [I] Locator: Registering DrugRepository...
-
 [I] Locator: Registering DrugRemoteDataSource...
-
 [I] MedicineProvider: Constructor called.
-
 [I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: false) <<<
-
 [I] MedicineProvider: loadInitialData called but already loading. Skipping.
-
 [D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', recent=0, popular=0
-
 [V] HomeScreen: build - State read successfully. Returning Scaffold...
-
 [V] HomeScreen: Building loading indicator.
-
 [I] HomeScreen: >>>>> build EXIT <<<<<
-
 [I] SearchScreen: +++++ initState +++++. Initial query: ''
-
 [I] SearchScreen: >>>>> build ENTRY <<<<<
-
 [D] SearchScreen BUILD State: isLoading=true, error='', results=0
-
 [V] SearchScreen: build - State read successfully. Returning Scaffold...
-
 [I] SearchScreen: >>>>> build EXIT <<<<<
-
 [I] SettingsScreen: Building widget...
-
 [D] SetupScreen: Building widget. isSeeding: false, error: null
-
 [I] MainScreen: _onItemTapped called with index: 1
-
 [I] MainScreen: Building widget. Selected index: 1
-
 [I] MainScreen: _onItemTapped called with index: 0
-
 [I] MainScreen: Building widget. Selected index: 0
-
+[I] MainScreen: _onItemTapped called with index: 1
+[I] MainScreen: Building widget. Selected index: 1
+[I] SearchScreen: Back button pressed. Popping route.
 [I] MainScreen: _onItemTapped called with index: 4
-
 [I] MainScreen: Building widget. Selected index: 4
-
 [I] SettingsScreen: View Logs tile tapped.
