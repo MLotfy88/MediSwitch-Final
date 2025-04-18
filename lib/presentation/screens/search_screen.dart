@@ -12,6 +12,7 @@ import '../../core/services/file_logger_service.dart';
 import 'drug_details_screen.dart';
 import '../services/ad_service.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
@@ -55,9 +56,9 @@ class _SearchScreenState extends State<SearchScreen> {
     _logger.i("SearchScreen: ----- dispose -----"); // Lifecycle Log
     _debounce?.cancel();
     _searchController.dispose();
-    super.dispose();
     _scrollController.removeListener(_onScroll); // Remove listener
     _scrollController.dispose(); // Dispose controller
+    super.dispose();
   }
 
   void _onSearchChanged() {
@@ -159,7 +160,7 @@ class _SearchScreenState extends State<SearchScreen> {
                       pinned: true, // Make AppBar sticky
                       floating: true, // Allow AppBar to reappear on scroll up
                       leading: IconButton(
-                        icon: Icon(LucideIcons.arrowLeft, size: 20),
+                        icon: const Icon(LucideIcons.arrowLeft, size: 20),
                         onPressed: () {
                           _logger.i(
                             "SearchScreen: Back button pressed. Popping route.",
@@ -199,7 +200,8 @@ class _SearchScreenState extends State<SearchScreen> {
                                   )
                                   : null,
                           contentPadding: const EdgeInsets.symmetric(
-                            vertical: 10,
+                            vertical:
+                                10, // Keep specific for input field height
                           ), // py-2 equivalent
                         ),
                         style: theme.textTheme.bodyLarge,
@@ -214,14 +216,17 @@ class _SearchScreenState extends State<SearchScreen> {
                             shape:
                                 const CircleBorder(), // Make it circular like IconButton
                             padding: const EdgeInsets.all(
-                              8.0,
+                              AppSpacing.small, // Use constant (8px)
                             ), // Adjust padding
                             minimumSize:
                                 Size.zero, // Remove minimum size constraint
                           ),
-                          child: Icon(LucideIcons.filter, size: 20), // h-5 w-5
+                          child: const Icon(
+                            LucideIcons.filter,
+                            size: 20,
+                          ), // h-5 w-5
                         ),
-                        const SizedBox(width: 8), // Add some padding
+                        AppSpacing.gapHSmall, // Use constant (8px)
                       ],
                       bottom: PreferredSize(
                         // Add bottom border
@@ -251,7 +256,7 @@ class _SearchScreenState extends State<SearchScreen> {
       return Scaffold(
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
             child: Text(
               'Error building SearchScreen:\n$e\n\n$s', // Include stack trace
               style: const TextStyle(color: Colors.red, fontSize: 12),
@@ -311,11 +316,9 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
-    // REMOVED Original SliverPadding/SliverList block that was duplicated
-
     // Add loading indicator or end message at the bottom
     return SliverPadding(
-      padding: const EdgeInsets.all(16.0), // p-4 for the list container
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       sliver: SliverList(
         delegate: SliverChildBuilderDelegate(
           (context, index) {
@@ -323,7 +326,7 @@ class _SearchScreenState extends State<SearchScreen> {
             if (index < provider.filteredMedicines.length) {
               final drug = provider.filteredMedicines[index];
               return Padding(
-                padding: const EdgeInsets.only(bottom: 12.0), // gap-3
+                padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
                 child: DrugCard(
                   drug: drug,
                   type: DrugCardType.detailed,
@@ -333,13 +336,15 @@ class _SearchScreenState extends State<SearchScreen> {
             }
             // Render loading indicator or end message
             else if (provider.isLoadingMore) {
-              return const Padding(
-                padding: EdgeInsets.symmetric(vertical: 16.0),
-                child: Center(child: CircularProgressIndicator()),
+              return Padding(
+                // Use constant
+                padding: AppSpacing.edgeInsetsVLarge, // Use constant (16px)
+                child: const Center(child: CircularProgressIndicator()),
               );
             } else if (!provider.hasMoreItems) {
               return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                // Use constant
+                padding: AppSpacing.edgeInsetsVLarge, // Use constant (16px)
                 child: Center(
                   child: Text(
                     'وصلت إلى نهاية القائمة',
@@ -366,7 +371,9 @@ class _SearchScreenState extends State<SearchScreen> {
     final theme = Theme.of(context);
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(32.0),
+        padding: EdgeInsets.all(
+          AppSpacing.xxlarge,
+        ), // Corrected: Use constant value directly
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -375,12 +382,12 @@ class _SearchScreenState extends State<SearchScreen> {
               size: 48,
               color: theme.hintColor.withOpacity(0.7),
             ), // SearchIcon h-12 w-12 text-muted-foreground
-            const SizedBox(height: 16),
+            AppSpacing.gapVLarge, // Use constant (16px)
             Text(
               'لم يتم العثور على نتائج',
               style: theme.textTheme.titleLarge,
             ), // text-lg
-            const SizedBox(height: 8),
+            AppSpacing.gapVSmall, // Use constant (8px)
             Text(
               'حاول البحث بكلمات أخرى أو تحقق من الإملاء.',
               style: theme.textTheme.bodyMedium?.copyWith(

@@ -12,6 +12,7 @@ import 'weight_calculator_screen.dart';
 import 'interaction_checker_screen.dart';
 import '../bloc/dose_calculator_provider.dart';
 import '../bloc/interaction_provider.dart';
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -27,7 +28,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   final FileLoggerService _logger = locator<FileLoggerService>();
   late TabController _tabController;
 
-  bool _isFavorite = false;
+  bool _isFavorite = false; // Placeholder for favorite state
 
   @override
   void initState() {
@@ -62,15 +63,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     if (dateString == null || dateString.isEmpty) return '-';
     try {
       DateTime dateTime;
+      // Handle different potential date formats from source
       if (dateString.contains('/')) {
         dateTime = DateFormat('dd/MM/yyyy').parseStrict(dateString);
       } else {
         dateTime = DateFormat('yyyy-MM-dd').parseStrict(dateString);
       }
+      // Format using Arabic locale for display
       return DateFormat('d MMM yyyy', 'ar').format(dateTime);
     } catch (e) {
       _logger.w("Could not parse date for display: $dateString", e);
-      return dateString;
+      return dateString; // Return original string if parsing fails
     }
   }
 
@@ -81,8 +84,13 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
         content: Text('ميزة المفضلة تتطلب الاشتراك Premium (قريباً).'),
+        duration: Duration(seconds: 2),
       ),
     );
+    // setState(() {
+    //   _isFavorite = !_isFavorite;
+    // });
+    // TODO: Implement actual favorite logic (e.g., save to local storage/backend)
   }
 
   @override
@@ -96,35 +104,28 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: colorScheme.surface, // bg-card
-        elevation: 0,
-        foregroundColor: colorScheme.onSurfaceVariant,
+        // Inherits styling from main theme
         leading: IconButton(
-          icon: Icon(LucideIcons.arrowLeft, size: 20),
+          icon: const Icon(LucideIcons.arrowLeft, size: 20),
           onPressed: () => Navigator.of(context).pop(),
           tooltip: 'رجوع',
         ),
         title: Text(
           'تفاصيل الدواء',
-          style: textTheme.titleLarge?.copyWith(
-            fontWeight: FontWeight.bold,
-            color: colorScheme.onSurface,
-          ),
+          // Style inherited from main theme's appBarTheme.titleTextStyle
         ),
-        centerTitle: false,
-        bottom: PreferredSize(
-          preferredSize: const Size.fromHeight(1.0),
-          child: Container(color: colorScheme.outline, height: 1.0),
-        ),
+        centerTitle: false, // Align title left (standard practice)
+        // Bottom border inherited from main theme's appBarTheme
       ),
       // Wrap the body content with SafeArea
       body: SafeArea(
         child: ListView(
           // Use ListView for the main layout
-          padding: EdgeInsets.zero,
+          padding: EdgeInsets.zero, // Remove default ListView padding
           children: [
             _buildHeaderContent(context, colorScheme, textTheme),
             _buildActionButtons(context, colorScheme, textTheme),
+            AppSpacing.gapVMedium, // Add space before TabBar
             _buildTabBar(context, colorScheme, textTheme),
             // Use a Container with fixed height for TabBarView content
             Container(
@@ -143,6 +144,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
             ),
             _buildAlternativesSection(context, colorScheme, textTheme),
+            AppSpacing.gapVLarge, // Add padding at the very bottom
           ],
         ),
       ),
@@ -164,12 +166,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     final bool isPriceIncreased =
         isPriceChanged && currentPriceValue! > oldPriceValue!;
     final double priceChangePercentage =
-        isPriceChanged && oldPriceValue! != 0
+        isPriceChanged && oldPriceValue != null && oldPriceValue != 0
             ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 16, 16, 16), // p-4
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -181,16 +183,22 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 height: 80,
                 decoration: BoxDecoration(
                   color: colorScheme.secondaryContainer.withOpacity(0.3),
-                  borderRadius: BorderRadius.circular(8),
+                  borderRadius: BorderRadius.circular(
+                    AppSpacing.small,
+                  ), // Use constant (8px)
                 ),
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(8.0),
+                  borderRadius: BorderRadius.circular(
+                    AppSpacing.small,
+                  ), // Use constant (8px)
                   child:
                       widget.drug.imageUrl != null &&
                               widget.drug.imageUrl!.isNotEmpty
                           ? CachedNetworkImage(
                             imageUrl: widget.drug.imageUrl!,
-                            fit: BoxFit.contain,
+                            fit:
+                                BoxFit
+                                    .contain, // Use contain to avoid distortion
                             placeholder:
                                 (context, url) => const Center(
                                   child: CircularProgressIndicator(
@@ -208,6 +216,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                                 ),
                           )
                           : Center(
+                            // Fallback icon
                             child: Icon(
                               LucideIcons.pill,
                               size: 30,
@@ -217,7 +226,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                           ),
                 ),
               ),
-              const SizedBox(width: 16),
+              AppSpacing.gapHLarge, // Use constant (16px)
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -230,11 +239,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                     ),
                     if (widget.drug.active.isNotEmpty)
                       Padding(
-                        padding: const EdgeInsets.only(top: 4.0),
+                        padding:
+                            AppSpacing.edgeInsetsVXSmall, // Use constant (4px)
                         child: Text(
                           widget.drug.active,
                           style: textTheme.bodyMedium?.copyWith(
-                            color: colorScheme.primary,
+                            color:
+                                colorScheme
+                                    .primary, // Highlight active ingredient
                           ), // text-sm text-primary
                         ),
                       ),
@@ -243,10 +255,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
             ],
           ),
-          const SizedBox(height: 16), // gap-4
+          AppSpacing.gapVLarge, // Use constant (16px)
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.end,
+            crossAxisAlignment:
+                CrossAxisAlignment.end, // Align price and favorite icon
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -263,7 +276,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       ),
                       if (isPriceChanged)
                         Padding(
-                          padding: const EdgeInsetsDirectional.only(start: 6.0),
+                          // Approx 6px start padding
+                          padding: const EdgeInsetsDirectional.only(
+                            start: AppSpacing.small - AppSpacing.xxsmall,
+                          ),
                           child: CustomBadge(
                             label:
                                 '${priceChangePercentage.toStringAsFixed(0)}%',
@@ -283,42 +299,39 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                                     : LucideIcons.arrowDown,
                             iconSize: 12,
                             padding: const EdgeInsets.symmetric(
-                              horizontal: 6,
-                              vertical: 1,
+                              horizontal: AppSpacing.xsmall, // 4px
+                              vertical: 1.0, // 1px
                             ),
-                            // textStyle: textTheme.labelSmall, // Removed incorrect parameter
                           ),
                         ),
                     ],
                   ),
                   if (oldPriceValue != null)
-                    Text(
-                      '${_formatPrice(widget.drug.oldPrice!)} ج.م',
-                      style: textTheme.bodyMedium?.copyWith(
-                        // text-sm
-                        color:
-                            colorScheme
-                                .onSurfaceVariant, // text-muted-foreground
-                        decoration: TextDecoration.lineThrough,
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: AppSpacing.xxsmall,
+                      ), // 2px
+                      child: Text(
+                        '${_formatPrice(widget.drug.oldPrice!)} ج.م',
+                        style: textTheme.bodyMedium?.copyWith(
+                          color: colorScheme.onSurfaceVariant, // Muted color
+                          decoration: TextDecoration.lineThrough,
+                        ),
                       ),
                     ),
                 ],
               ),
               IconButton(
                 icon: Icon(
-                  _isFavorite
-                      ? Icons.favorite
-                      : Icons.favorite_border, // Use Material favorite icons
+                  _isFavorite ? Icons.favorite : Icons.favorite_border,
                   color:
-                      _isFavorite
-                          ? Colors.red.shade500
-                          : colorScheme.outline, // fill-red-500 when favorite
+                      _isFavorite ? Colors.red.shade500 : colorScheme.outline,
                   size: 24, // h-6 w-6
                 ),
                 tooltip: 'إضافة للمفضلة (Premium)',
                 onPressed: _toggleFavorite,
-                padding: EdgeInsets.zero,
-                constraints: const BoxConstraints(),
+                padding: EdgeInsets.zero, // Remove default padding
+                constraints: const BoxConstraints(), // Allow tight constraints
               ),
             ],
           ),
@@ -334,28 +347,23 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
   ) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(
-        16.0,
-        0,
-        16.0,
-        16.0,
-      ), // mt-4 equivalent + horizontal padding
+      // Consistent horizontal padding, bottom padding added
+      padding: const EdgeInsets.only(
+        left: AppSpacing.large,
+        right: AppSpacing.large,
+        bottom: AppSpacing.large,
+      ),
       child: Row(
         children: [
           Expanded(
             child: OutlinedButton.icon(
-              icon: Icon(LucideIcons.calculator, size: 16), // h-4 w-4
+              icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
               label: const Text('حساب الجرعة'),
               onPressed: () {
                 _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
-                // Remove SnackBar
-                // ScaffoldMessenger.of(context).showSnackBar( ... );
-
-                // Set the selected drug in the provider
                 context.read<DoseCalculatorProvider>().setSelectedDrug(
                   widget.drug,
                 );
-                // Navigate to the calculator screen
                 Navigator.push(
                   context,
                   MaterialPageRoute(
@@ -363,20 +371,13 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   ),
                 );
               },
-              style: OutlinedButton.styleFrom(
-                // Enable button appearance
-                foregroundColor:
-                    colorScheme.primary, // Use primary color for text
-                side: BorderSide(
-                  color: colorScheme.primary,
-                ), // Use primary color for border
-              ),
+              // Style inherited from main theme
             ),
           ),
-          const SizedBox(width: 8), // gap-2
+          AppSpacing.gapHSmall, // Use constant (8px)
           Expanded(
             child: OutlinedButton.icon(
-              icon: Icon(LucideIcons.zap, size: 16), // h-4 w-4
+              icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
               label: const Text('التفاعلات الدوائية'),
               onPressed: () {
                 _logger.i(
@@ -397,13 +398,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 // );
               },
               style: OutlinedButton.styleFrom(
-                // Keep this button dimmed for now
-                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(
-                  0.6,
-                ), // Dimmed text
-                side: BorderSide(
-                  color: colorScheme.outline.withOpacity(0.6),
-                ), // Dimmed border
+                // Keep dimmed style for deferred feature
+                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(0.6),
+                side: BorderSide(color: colorScheme.outline.withOpacity(0.6)),
               ),
             ),
           ),
@@ -419,20 +416,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
   ) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 16.0), // mt-6 equivalent?
-      padding: const EdgeInsets.all(4.0), // p-1
+      margin: AppSpacing.edgeInsetsHLarge, // Use constant (16px)
+      padding: AppSpacing.edgeInsetsAllXSmall, // Use constant (4px)
       decoration: BoxDecoration(
         color: colorScheme.surfaceVariant, // bg-muted
-        borderRadius: BorderRadius.circular(8.0), // rounded-lg
+        borderRadius: BorderRadius.circular(
+          AppSpacing.small,
+        ), // Use constant (8px)
       ),
       child: TabBar(
         controller: _tabController,
         labelColor: colorScheme.primary,
         unselectedLabelColor: colorScheme.onSurfaceVariant,
+        labelStyle: textTheme.labelLarge?.copyWith(
+          fontWeight: FontWeight.w600,
+        ), // Use theme style
+        unselectedLabelStyle: textTheme.labelLarge, // Use theme style
         indicator: BoxDecoration(
-          borderRadius: BorderRadius.circular(6.0),
-          color: colorScheme.background,
+          borderRadius: BorderRadius.circular(
+            AppSpacing.small - AppSpacing.xxsmall,
+          ), // 6px
+          color: colorScheme.background, // Use background for contrast
           boxShadow: [
+            // Subtle shadow from reference
             BoxShadow(
               color: Colors.black.withOpacity(0.1),
               blurRadius: 4,
@@ -440,13 +446,13 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             ),
           ],
         ),
-        indicatorSize: TabBarIndicatorSize.tab,
+        indicatorSize: TabBarIndicatorSize.tab, // Make indicator fill tab
         tabs: const [
-          Tab(text: 'معلومات أساسية'),
-          Tab(text: 'الاستخدامات'),
-          Tab(text: 'الجرعات'),
-          Tab(text: 'الآثار الجانبية'),
-          Tab(text: 'موانع الاستخدام'),
+          Tab(text: 'معلومات'), // Shortened labels if needed
+          Tab(text: 'استخدام'),
+          Tab(text: 'جرعات'),
+          Tab(text: 'آثار'),
+          Tab(text: 'موانع'),
         ],
       ),
     );
@@ -480,12 +486,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           'label': "الشكل:",
           'value': widget.drug.dosageForm,
         },
-      if (widget.drug.concentration != null || widget.drug.unit.isNotEmpty)
+      if (widget.drug.concentration > 0 || widget.drug.unit.isNotEmpty)
         {
           'icon': LucideIcons.ruler,
           'label': "التركيز:",
           'value':
-              '${widget.drug.concentration?.toString() ?? ""} ${widget.drug.unit}'
+              '${widget.drug.concentration.toStringAsFixed(widget.drug.concentration.truncateToDouble() == widget.drug.concentration ? 0 : 1)} ${widget.drug.unit}'
                   .trim(),
         },
       if (widget.drug.lastPriceUpdate.isNotEmpty)
@@ -494,19 +500,20 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           'label': "آخر تحديث:",
           'value': _formatDate(widget.drug.lastPriceUpdate),
         },
-      // {'icon': LucideIcons.box, 'label': "حجم العبوة:", 'value': '-'}, // Placeholder for package size
+      // {'icon': LucideIcons.box, 'label': "حجم العبوة:", 'value': '-'}, // Placeholder
     ];
 
+    // Use SingleChildScrollView + Column for simpler layout if GridView causes issues
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(16.0), // p-4 for tab content
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: GridView.builder(
         shrinkWrap: true,
         physics: const NeverScrollableScrollPhysics(),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2, // grid-cols-2
-          childAspectRatio: 3.0, // Adjust aspect ratio
-          crossAxisSpacing: 16.0, // gap-4
-          mainAxisSpacing: 16.0, // gap-4
+          childAspectRatio: 3.0, // Adjust aspect ratio as needed
+          crossAxisSpacing: AppSpacing.large, // Use constant (16px)
+          mainAxisSpacing: AppSpacing.large, // Use constant (16px)
         ),
         itemCount: infoItems.length,
         itemBuilder: (context, index) {
@@ -522,7 +529,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // Helper to build grid item for info tab (Matches reference style)
+  // Helper to build grid item for info tab
   Widget _buildInfoGridItem(
     BuildContext context, {
     required IconData icon,
@@ -534,15 +541,18 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     final textTheme = theme.textTheme;
 
     return Container(
-      padding: const EdgeInsets.all(12.0), // p-3
+      padding: AppSpacing.edgeInsetsAllMedium, // Use constant (12px)
       decoration: BoxDecoration(
         color: colorScheme.surface, // bg-card
-        borderRadius: BorderRadius.circular(8.0), // rounded-lg
+        borderRadius: BorderRadius.circular(
+          AppSpacing.small,
+        ), // Use constant (8px)
         border: Border.all(color: colorScheme.outline), // border border-border
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment:
+            MainAxisAlignment.center, // Center content vertically
         children: [
           Row(
             children: [
@@ -551,7 +561,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 size: 16,
                 color: colorScheme.onSurfaceVariant,
               ), // h-4 w-4 text-muted-foreground
-              const SizedBox(width: 6),
+              // Approx 6px width
+              const SizedBox(width: AppSpacing.small - AppSpacing.xxsmall),
               Text(
                 label,
                 style: textTheme.labelMedium?.copyWith(
@@ -561,9 +572,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
             ],
           ),
-          const SizedBox(height: 4), // space-y-1 equivalent
+          AppSpacing.gapVXSmall, // Use constant (4px)
           Padding(
-            padding: const EdgeInsetsDirectional.only(start: 22),
+            // Indent value text (16px icon + 6px gap = 22px)
+            padding: const EdgeInsetsDirectional.only(
+              start: AppSpacing.large + AppSpacing.small - AppSpacing.xxsmall,
+            ),
             child: Text(
               value,
               style: textTheme.bodyMedium?.copyWith(
@@ -584,8 +598,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
+    return SingleChildScrollView(
+      // Ensure content is scrollable
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: Text(
         widget.drug.usage.isNotEmpty
             ? widget.drug.usage
@@ -600,45 +615,55 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    final standardDosageInfo = widget.drug.usage; // Placeholder
+    final standardDosageInfo =
+        widget.drug.usage; // Placeholder - Needs specific dosage field
 
     return ListView(
-      padding: const EdgeInsets.all(16.0),
+      // Use ListView for potentially longer content
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       children: [
         Text(
           "الجرعة",
           style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
         ),
-        const SizedBox(height: 12),
+        AppSpacing.gapVMedium, // Use constant (12px)
         Text(
-          standardDosageInfo.isNotEmpty
+          standardDosageInfo
+                  .isNotEmpty // Replace with actual dosage field check
               ? standardDosageInfo
               : "راجع الطبيب أو الصيدلي لتحديد الجرعة المناسبة.",
           style: textTheme.bodyLarge,
         ),
-        const SizedBox(height: 24),
+        AppSpacing.gapVXLarge, // Use constant (24px)
         const Divider(),
-        const SizedBox(height: 16),
+        AppSpacing.gapVLarge, // Use constant (16px)
         Text(
           "حاسبة الجرعة بالوزن",
           style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
         ),
-        const SizedBox(height: 8),
+        AppSpacing.gapVSmall, // Use constant (8px)
         Text(
           "احسب الجرعة المناسبة للأطفال.",
           style: textTheme.bodyMedium?.copyWith(
             color: colorScheme.onSurfaceVariant,
           ),
         ),
-        const SizedBox(height: 16),
+        AppSpacing.gapVLarge, // Use constant (16px)
         ElevatedButton.icon(
-          icon: Icon(LucideIcons.calculator, size: 18),
+          icon: const Icon(LucideIcons.calculator, size: 18),
           label: const Text('فتح حاسبة الجرعات'),
           onPressed: () {
-            /* Navigation logic */
+            _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
+            context.read<DoseCalculatorProvider>().setSelectedDrug(widget.drug);
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const WeightCalculatorScreen(),
+              ),
+            );
           },
           style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(vertical: 12),
+            padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
           ),
         ),
       ],
@@ -650,13 +675,22 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    // TODO: Fetch and display side effects data
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
+    // TODO: Fetch and display side effects data from drug.description or specific field
+    return SingleChildScrollView(
+      // Ensure content is scrollable
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: Text(
-        "لا توجد معلومات آثار جانبية متاحة حالياً.",
+        widget
+                .drug
+                .description
+                .isNotEmpty // Example: Use description field
+            ? widget.drug.description
+            : "لا توجد معلومات آثار جانبية متاحة حالياً.",
         style: textTheme.bodyLarge?.copyWith(
-          color: colorScheme.onSurfaceVariant,
+          color:
+              widget.drug.description.isEmpty
+                  ? colorScheme.onSurfaceVariant
+                  : null,
         ),
       ),
     );
@@ -667,11 +701,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ColorScheme colorScheme,
     TextTheme textTheme,
   ) {
-    // TODO: Fetch and display contraindications data
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
+    // TODO: Fetch and display contraindications data (might be in description or usage)
+    return SingleChildScrollView(
+      // Ensure content is scrollable
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: Text(
-        "لا توجد معلومات موانع استخدام متاحة حالياً.",
+        "لا توجد معلومات موانع استخدام متاحة حالياً.", // Placeholder
         style: textTheme.bodyLarge?.copyWith(
           color: colorScheme.onSurfaceVariant,
         ),
@@ -686,7 +721,13 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
   ) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16.0, 24.0, 16.0, 16.0), // mt-6 mb-4
+      // Use constants for padding (16px left/right, 24px top, 16px bottom)
+      padding: const EdgeInsets.only(
+        left: AppSpacing.large,
+        top: AppSpacing.xlarge,
+        right: AppSpacing.large,
+        bottom: AppSpacing.large,
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -694,8 +735,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             "البدائل المتاحة",
             style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
           ), // text-lg font-bold
-          const SizedBox(height: 16), // mb-4
-          AlternativesTabContent(originalDrug: widget.drug),
+          AppSpacing.gapVLarge, // Use constant (16px)
+          AlternativesTabContent(
+            originalDrug: widget.drug,
+          ), // This widget handles its own state/content
         ],
       ),
     );
@@ -703,6 +746,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
   // Removed _buildAlternativesTab
 
+  // Placeholder for Interactions Tab (if re-added)
   Widget _buildInteractionsTab(
     BuildContext context,
     ColorScheme colorScheme,
@@ -712,15 +756,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     final knownInteractions = []; // Placeholder
 
     return ListView(
-      padding: const EdgeInsets.all(16.0),
+      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       children: [
         Text(
           "التفاعلات المعروفة",
           style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
         ),
-        const SizedBox(height: 12),
+        AppSpacing.gapVMedium, // Use constant (12px)
         if (knownInteractions.isNotEmpty)
-          const Text("...")
+          const Text("...") // Placeholder for interaction list
         else
           Text(
             "لا توجد معلومات تفاعلات مباشرة لهذا الدواء حالياً.",
@@ -728,23 +772,23 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               color: colorScheme.onSurfaceVariant,
             ),
           ),
-        const SizedBox(height: 24),
+        AppSpacing.gapVXLarge, // Use constant (24px)
         const Divider(),
-        const SizedBox(height: 16),
+        AppSpacing.gapVLarge, // Use constant (16px)
         Text(
           "مدقق التفاعلات المتعددة",
           style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
         ),
-        const SizedBox(height: 8),
+        AppSpacing.gapVSmall, // Use constant (8px)
         Text(
           "أضف هذا الدواء وأدوية أخرى لفحص التفاعلات المحتملة بينها.",
           style: textTheme.bodyMedium?.copyWith(
             color: colorScheme.onSurfaceVariant,
           ),
         ),
-        const SizedBox(height: 16),
+        AppSpacing.gapVLarge, // Use constant (16px)
         ElevatedButton.icon(
-          icon: Icon(LucideIcons.zap, size: 18),
+          icon: const Icon(LucideIcons.zap, size: 18),
           label: const Text('فتح مدقق التفاعلات'),
           onPressed: () {
             _logger.i(
@@ -759,7 +803,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             );
           },
           style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(vertical: 12),
+            padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
           ),
         ),
       ],

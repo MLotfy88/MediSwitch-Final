@@ -18,6 +18,7 @@ import '../../core/services/file_logger_service.dart';
 import '../services/ad_service.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../core/constants/app_constants.dart'; // Import constants
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -30,7 +31,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final AdService _adService = locator<AdService>();
   final FileLoggerService _logger = locator<FileLoggerService>();
   // REMOVED: ScrollController no longer needed here
-  // final ScrollController _scrollController = ScrollController();
 
   // REMOVED: Maps are now defined in app_constants.dart
 
@@ -39,23 +39,13 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     _logger.i("HomeScreen: +++++ initState +++++"); // Lifecycle Log
     // REMOVED: Scroll listener no longer needed here
-    // _scrollController.addListener(_onScroll);
-
     // REMOVED: Redundant call to loadInitialData. Provider handles this in constructor.
-    // WidgetsBinding.instance.addPostFrameCallback((_) {
-    //   if (mounted) {
-    //     _logger.i("HomeScreen: Triggering initial data load from initState.");
-    //     context.read<MedicineProvider>().loadInitialData();
-    //   }
-    // });
   }
 
   @override
   void dispose() {
     _logger.i("HomeScreen: ----- dispose -----"); // Lifecycle Log
     // REMOVED: Dispose scroll controller
-    // _scrollController.removeListener(_onScroll);
-    // _scrollController.dispose();
     super.dispose();
   }
 
@@ -68,7 +58,6 @@ class _HomeScreenState extends State<HomeScreen> {
       final isLoading = medicineProvider.isLoading;
       final isLoadingMore = medicineProvider.isLoadingMore;
       final error = medicineProvider.error; // Still needed for error display
-      // final displayedMedicines = medicineProvider.filteredMedicines; // No longer needed here
       final isInitialLoadComplete =
           medicineProvider.isInitialLoadComplete; // Get this state
       final recentlyUpdatedCount = medicineProvider.recentlyUpdatedDrugs.length;
@@ -87,9 +76,11 @@ class _HomeScreenState extends State<HomeScreen> {
       return Scaffold(
         // Wrap the body content with SafeArea
         body: SafeArea(
+          // Add overall padding if desired, or handle within CustomScrollView
+          // padding: AppSpacing.edgeInsetsAllMedium,
           child: Column(
             children: [
-              const HomeHeader(),
+              const HomeHeader(), // Contains its own padding
               Expanded(
                 child: RefreshIndicator(
                   onRefresh: () {
@@ -99,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       forceUpdate: true,
                     );
                   },
-                  // Refined Loading/Error Logic (Phase 1, Step 3)
+                  // Refined Loading/Error Logic
                   child:
                       isLoading && !isInitialLoadComplete
                           ? _buildLoadingIndicator() // Initial load indicator
@@ -125,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           : _buildLoadingIndicator(), // Fallback if not loading/error but no content yet
                 ),
               ),
-              const BannerAdWidget(),
+              const BannerAdWidget(), // Ad widget at the bottom
             ],
           ),
         ),
@@ -137,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
       return Scaffold(
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: AppSpacing.edgeInsetsAllLarge, // Use constant
             child: Text(
               'Error building HomeScreen:\n$e\n\n$s', // Include stack trace
               style: const TextStyle(color: Colors.red, fontSize: 12),
@@ -157,13 +148,11 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // REMOVED: _buildSeedingIndicator widget is no longer needed.
-  // Widget _buildSeedingIndicator() { ... }
 
   // Re-add isLoadingMore parameter
   Widget _buildContent(
     BuildContext context,
     MedicineProvider medicineProvider, // Keep provider for accessing lists
-    // List<DrugEntity> displayedMedicines, // No longer needed
     bool isLoading,
     bool isLoadingMore,
     String error,
@@ -181,11 +170,22 @@ class _HomeScreenState extends State<HomeScreen> {
     return CustomScrollView(
       // controller: _scrollController, // REMOVED: No controller needed
       slivers: [
-        SliverToBoxAdapter(child: const SearchBarButton()),
+        // Add padding around search bar
+        const SliverPadding(
+          padding: AppSpacing.edgeInsetsHMedium, // Horizontal padding (12px)
+          sliver: SliverToBoxAdapter(child: SearchBarButton()),
+        ),
+        const SliverToBoxAdapter(
+          child: AppSpacing.gapVMedium,
+        ), // Space below search bar (12px)
         // --- Categories Section ---
         if (isInitialLoadComplete) // Use passed parameter
           SliverToBoxAdapter(child: _buildCategoriesSection(context)),
-
+        // Add space after categories if they exist
+        if (isInitialLoadComplete)
+          const SliverToBoxAdapter(
+            child: AppSpacing.gapVLarge,
+          ), // Space after categories (16px)
         // --- Recently Updated Section ---
         // Access provider directly in the condition
         if (medicineProvider.isInitialLoadComplete &&
@@ -193,7 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
           SliverToBoxAdapter(
             // Wrap with SizedBox to give explicit height
             child: SizedBox(
-              height: 200, // Define a fixed height
+              height: 200, // Define a fixed height (adjust as needed)
               child: _buildHorizontalDrugList(
                 context,
                 title: "أدوية محدثة مؤخراً",
@@ -213,7 +213,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ), // End _buildHorizontalDrugList
             ), // End SizedBox
           ),
-
+        // Add space between sections
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+          const SliverToBoxAdapter(
+            child: AppSpacing.gapVLarge,
+          ), // Space between sections (16px)
         // --- Popular Drugs Section ---
         // Access provider directly in the condition
         if (medicineProvider.isInitialLoadComplete &&
@@ -221,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
           SliverToBoxAdapter(
             // Wrap with SizedBox to give explicit height
             child: SizedBox(
-              height: 200, // Define a fixed height
+              height: 200, // Define a fixed height (adjust as needed)
               child: _buildHorizontalDrugList(
                 context,
                 title:
@@ -243,13 +248,11 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
         // --- REMOVED All Drugs Section ---
-        // SliverToBoxAdapter(child: SectionHeader(...)),
-        // if (displayedMedicines.isNotEmpty) SliverPadding(...)
-        // else if (!isLoadingMore) SliverFillRemaining(...)
-        // if (displayedMedicines.isNotEmpty) SliverToBoxAdapter(_buildListFooter(...))
 
-        // Add some padding at the bottom if needed
-        const SliverPadding(padding: EdgeInsets.only(bottom: 16.0)),
+        // Add some padding at the bottom
+        const SliverPadding(
+          padding: AppSpacing.edgeInsetsVLarge,
+        ), // Use constant (16px)
       ],
     );
   }
@@ -267,7 +270,12 @@ class _HomeScreenState extends State<HomeScreen> {
       title: title,
       onViewAll: onViewAll,
       listHeight: listHeight, // Pass height to HorizontalListSection
-      listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+      // Use constants for padding
+      listPadding: const EdgeInsets.only(
+        left: AppSpacing.large, // Use constant (16px)
+        right: AppSpacing.large, // Use constant (16px)
+        bottom: AppSpacing.large, // Use constant (16px) - Adjust if needed
+      ),
       children:
           drugs
               .map(
@@ -284,9 +292,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // REMOVED: _buildListFooter is no longer needed in HomeScreen
-  // Widget _buildListFooter(...) { ... }
 
   Widget _buildSearchBar(BuildContext context) {
+    // This widget is now wrapped in SliverPadding in _buildContent
     return const SearchBarButton();
   }
 
@@ -303,7 +311,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (englishCategories.isEmpty &&
         context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
-        height: 115,
+        height: 115, // Keep height consistent
         child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
       );
     }
@@ -333,9 +341,16 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return HorizontalListSection(
       title: 'الفئات الطبية',
-      listHeight: 105,
+      listHeight: 105, // Keep height consistent
       // headerPadding removed
-      listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
+      // Use constants for padding
+      listPadding: const EdgeInsets.only(
+        left: AppSpacing.large, // Use constant (16px)
+        right: AppSpacing.large, // Use constant (16px)
+        bottom:
+            AppSpacing
+                .medium, // Use constant (12px) - Reduced bottom padding slightly
+      ),
       children:
           // Iterate through the ORIGINAL English categories (keys from CSV)
           displayableCategories.map((englishCategoryName) {
@@ -400,22 +415,25 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // REMOVED: _buildEmptyListMessage is no longer needed in HomeScreen
-  // Widget _buildEmptyListMessage(...) { ... }
 
   Widget _buildErrorWidget(BuildContext context, String error) {
     _logger.w("HomeScreen: Building error widget: $error");
     return Container(
       alignment: Alignment.center,
-      padding: const EdgeInsets.symmetric(vertical: 64.0, horizontal: 24.0),
+      // Use constants for padding
+      padding: EdgeInsets.symmetric(
+        vertical: AppSpacing.xxlarge * 2, // Use constant (64px)
+        horizontal: AppSpacing.xlarge, // Use constant (24px)
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(
             LucideIcons.alertTriangle,
             color: Theme.of(context).colorScheme.error,
-            size: 64.0,
+            size: 64.0, // Keep specific size for large icon
           ),
-          const SizedBox(height: 16.0),
+          AppSpacing.gapVLarge, // Use constant (16px)
           Text(
             'حدث خطأ',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
@@ -423,18 +441,19 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 8.0),
+          AppSpacing.gapVSmall, // Use constant (8px)
           Text(
             error,
-            style: TextStyle(
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              // Use theme style
               color: Theme.of(context).colorScheme.error.withOpacity(0.8),
-              fontSize: 16.0,
+              // fontSize: 16.0, // Inherit from bodyLarge
             ),
             textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 24.0),
+          AppSpacing.gapVXLarge, // Use constant (24px)
           ElevatedButton.icon(
-            icon: Icon(LucideIcons.refreshCw),
+            icon: const Icon(LucideIcons.refreshCw), // Make icon const
             label: const Text('إعادة المحاولة'),
             onPressed: () {
               _logger.i("HomeScreen: Retry button pressed.");
