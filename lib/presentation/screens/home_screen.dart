@@ -187,45 +187,61 @@ class _HomeScreenState extends State<HomeScreen> {
           SliverToBoxAdapter(child: _buildCategoriesSection(context)),
 
         // --- Recently Updated Section ---
-        if (isInitialLoadComplete &&
-            recentlyUpdatedCount > 0) // Use passed parameters
+        // Access provider directly in the condition
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            child: _buildHorizontalDrugList(
-              context,
-              title: "أدوية محدثة مؤخراً",
-              drugs:
-                  medicineProvider
-                      .recentlyUpdatedDrugs, // Get data from provider
-              onViewAll: () {
-                _logger.i("HomeScreen: View All Recent tapped.");
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const SearchScreen(initialQuery: ''),
-                  ),
-                );
-              },
-            ),
+            // Wrap with SizedBox to give explicit height
+            child: SizedBox(
+              height: 200, // Define a fixed height
+              child: _buildHorizontalDrugList(
+                context,
+                title: "أدوية محدثة مؤخراً",
+                // Pass height down if _buildHorizontalDrugList uses it
+                // listHeight: 200, // Optional: Pass height if needed by helper
+                drugs:
+                    medicineProvider
+                        .recentlyUpdatedDrugs, // Get data from provider
+                onViewAll: () {
+                  _logger.i("HomeScreen: View All Recent tapped.");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SearchScreen(initialQuery: ''),
+                    ),
+                  );
+                },
+              ), // End _buildHorizontalDrugList
+            ), // End SizedBox
           ),
 
         // --- Popular Drugs Section ---
-        if (isInitialLoadComplete && popularCount > 0) // Use passed parameters
+        // Access provider directly in the condition
+        if (medicineProvider.isInitialLoadComplete &&
+            medicineProvider.popularDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            child: _buildHorizontalDrugList(
-              context,
-              title: "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
-              drugs: medicineProvider.popularDrugs, // Get data from provider
-              isPopular: true,
-              onViewAll: () {
-                _logger.i("HomeScreen: View All Popular tapped.");
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => const SearchScreen(initialQuery: ''),
-                  ),
-                );
-              },
-            ),
+            // Wrap with SizedBox to give explicit height
+            child: SizedBox(
+              height: 200, // Define a fixed height
+              child: _buildHorizontalDrugList(
+                context,
+                title:
+                    "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
+                // Pass height down if _buildHorizontalDrugList uses it
+                // listHeight: 200, // Optional: Pass height if needed by helper
+                drugs: medicineProvider.popularDrugs, // Get data from provider
+                isPopular: true,
+                onViewAll: () {
+                  _logger.i("HomeScreen: View All Popular tapped.");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SearchScreen(initialQuery: ''),
+                    ),
+                  );
+                },
+              ), // End _buildHorizontalDrugList
+            ), // End SizedBox
           ),
 
         // --- REMOVED All Drugs Section ---
