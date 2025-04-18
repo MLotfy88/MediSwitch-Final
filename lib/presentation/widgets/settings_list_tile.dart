@@ -30,7 +30,9 @@ class SettingsListTile extends StatelessWidget {
               ? Text(
                 subtitle!,
                 style: textTheme.bodyMedium?.copyWith(
-                  color: colorScheme.outline,
+                  color:
+                      colorScheme
+                          .onSurfaceVariant, // Use onSurfaceVariant for better contrast
                 ),
               )
               : null,
