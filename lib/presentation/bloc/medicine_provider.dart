@@ -173,53 +173,47 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       await _loadCategories();
       _logger.i("MedicineProvider: Categories loaded.");
       // Load simulated sections needed for HomeScreen UI (Original Order)
+      _logger.i("MedicineProvider: >>> TRYING _loadSimulatedSections...");
+      await _loadSimulatedSections(); // Await section loading
       _logger.i(
-        "MedicineProvider: >>> Calling _loadSimulatedSections...",
-      ); // ADDED LOG
-      await _loadSimulatedSections();
-      _logger.i(
-        // ADDED LOG
-        "MedicineProvider: <<< Finished _loadSimulatedSections. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
+        "MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
       );
 
       // Apply initial filters (fetch first page) (Original Order)
-      _logger.i(
-        "MedicineProvider: >>> Calling _applyFilters (initial)...",
-      ); // ADDED LOG
+      // Apply initial filters (fetch first page) (Original Order)
+      _logger.i("MedicineProvider: >>> TRYING _applyFilters (initial)...");
       await _applyFilters(
         page: 0,
         limit: _initialPageSize,
-      ); // Fetch initial page (10 items)
+      ); // Await initial filter application
       _logger.i(
-        // ADDED LOG
-        "MedicineProvider: <<< Finished _applyFilters (initial). Filtered count: ${_filteredMedicines.length}",
+        "MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: ${_filteredMedicines.length}",
       );
 
-      _isInitialLoadComplete = true; // Mark initial load as complete
-      _isLoading = false; // Set loading false on success path
+      // SUCCESS PATH: Only reach here if both sections and initial filters loaded without error
+      _isInitialLoadComplete = true;
+      _isLoading = false;
       _logger.i(
-        "MedicineProvider: Initial load successful. Notifying listeners.",
+        "MedicineProvider: Initial load successful (Sections & Filters OK). Setting isInitialLoadComplete=true, isLoading=false. Notifying listeners.",
       );
-      notifyListeners(); // Notify listeners on success path
+      notifyListeners();
     } catch (e, s) {
+      // FAILURE PATH: Catch errors from _loadSimulatedSections OR _applyFilters
       _logger.e("MedicineProvider: Error during initial data load", e, s);
       _error =
           e is Exception
-              ? e.toString().replaceFirst(
-                'Exception: ',
-                '',
-              ) // Use exception message if available
-              : "فشل تحميل البيانات الأولية. قد تكون مشكلة في قاعدة البيانات.";
-      _filteredMedicines = []; // Ensure list is empty on error
-      _recentlyUpdatedDrugs = []; // Also clear section lists on error
-      _popularDrugs = []; // Also clear section lists on error
+              ? e.toString().replaceFirst('Exception: ', '')
+              : "فشل تحميل البيانات الأولية."; // Simpler error message
+      _filteredMedicines = [];
+      _recentlyUpdatedDrugs = [];
+      _popularDrugs = [];
       _hasMoreItems = false;
-      _isLoading = false; // Set loading false on error path
-      _isInitialLoadComplete = false; // Ensure this is false on error
+      _isLoading = false;
+      _isInitialLoadComplete = false; // CRITICAL: Ensure this is false on error
       _logger.w(
-        "MedicineProvider: Initial load failed. Notifying listeners with error state.",
+        "MedicineProvider: Initial load FAILED. Setting isInitialLoadComplete=false, isLoading=false. Error: '$_error'. Notifying listeners.",
       );
-      notifyListeners(); // Notify listeners on error path
+      notifyListeners();
     }
     // REMOVED Finally block - handled in try/catch
   }
@@ -282,12 +276,16 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       recentResult.fold(
         (l) {
           final errorMsg = _mapFailureToMessage(l);
-          _logger.w("Failed to load recently updated drugs: $errorMsg");
-          _recentlyUpdatedDrugs = []; // Ensure empty on failure
+          _logger.w(
+            "[_loadSimulatedSections] FAILED to load recently updated drugs: $errorMsg",
+          ); // Added Log
+          _recentlyUpdatedDrugs = [];
           throw Exception('Failed to load recently updated drugs: $errorMsg');
         },
         (r) {
-          _logger.i("Successfully loaded ${r.length} recently updated drugs.");
+          _logger.i(
+            "[_loadSimulatedSections] Successfully loaded ${r.length} recently updated drugs.",
+          ); // Added Log
           _recentlyUpdatedDrugs = r;
         },
       );
@@ -302,12 +300,16 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       popularResult.fold(
         (l) {
           final errorMsg = _mapFailureToMessage(l);
-          _logger.w("Failed to load popular (random) drugs: $errorMsg");
-          _popularDrugs = []; // Ensure empty on failure
+          _logger.w(
+            "[_loadSimulatedSections] FAILED to load popular (random) drugs: $errorMsg",
+          ); // Added Log
+          _popularDrugs = [];
           throw Exception('Failed to load popular drugs: $errorMsg');
         },
         (r) {
-          _logger.i("Successfully loaded ${r.length} popular (random) drugs.");
+          _logger.i(
+            "[_loadSimulatedSections] Successfully loaded ${r.length} popular (random) drugs.",
+          ); // Added Log
           _popularDrugs = r;
         },
       );

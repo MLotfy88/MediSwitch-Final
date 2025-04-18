@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart'; // Import for kDebugMode
 import 'package:flutter/material.dart';
 import '../../core/di/locator.dart'; // Import locator
 import '../../core/services/file_logger_service.dart'; // Import logger
@@ -8,6 +9,7 @@ import 'settings_screen.dart';
 // Import placeholders for other screens for now
 // import 'calculator_screen.dart';
 // import 'interactions_screen.dart';
+import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
 import '../widgets/custom_nav_bar.dart';
 
 class MainScreen extends StatefulWidget {
@@ -61,6 +63,24 @@ class _MainScreenState extends State<MainScreen> {
           NavBarItem(icon: LucideIcons.settings, label: 'الإعدادات'),
         ],
       ),
+      // Add FloatingActionButton only in debug mode
+      floatingActionButton:
+          kDebugMode
+              ? FloatingActionButton(
+                mini: true, // Make it smaller
+                tooltip: 'View Logs',
+                onPressed: () {
+                  _logger.i("Debug FAB tapped: Navigating to LogViewerScreen.");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const LogViewerScreen(),
+                    ),
+                  );
+                },
+                child: const Icon(LucideIcons.bug),
+              )
+              : null, // Don't show FAB in release mode
     );
   }
 }
