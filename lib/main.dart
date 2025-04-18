@@ -165,14 +165,14 @@ ThemeData _buildThemeData(Brightness brightness) {
             1.0,
             215,
             0.25,
-            0.75,
-          ) // Decreased lightness slightly for dark mode
+            0.80, // Increased lightness for better contrast in dark mode
+          )
           : const HSLColor.fromAHSL(
             1.0,
             215.4,
             0.16,
-            0.50,
-          ); // Increased lightness for light mode
+            0.40, // Decreased lightness for better contrast in light mode
+          );
   final accent =
       isDark
           ? const HSLColor.fromAHSL(1.0, 217.2, 0.326, 0.25)
@@ -244,11 +244,28 @@ ThemeData _buildThemeData(Brightness brightness) {
     surfaceTint: primary.toColor(), // Often same as primary
   );
 
+  // Define TextTheme based on Material 3 scale
+  final textTheme = TextTheme(
+    // Define styles as needed, inheriting from the base font family
+    // Example: Adjusting bodyLarge for demonstration
+    // bodyLarge: TextStyle(fontSize: 16.0, fontWeight: FontWeight.normal),
+    // titleMedium: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w500),
+    // labelSmall: TextStyle(fontSize: 11.0, fontWeight: FontWeight.normal),
+    // Add other styles if specific overrides are required
+  ).apply(
+    fontFamily: 'Noto Sans Arabic', // Ensure font family is applied
+    bodyColor: colorScheme.onSurface, // Default text color
+    displayColor: colorScheme.onSurface.withOpacity(
+      0.8,
+    ), // Slightly muted for display
+  );
+
   return ThemeData(
     brightness: brightness,
     useMaterial3: true,
-    fontFamily: 'Noto Sans Arabic',
+    fontFamily: 'Noto Sans Arabic', // Base font family
     colorScheme: colorScheme,
+    textTheme: textTheme, // Apply the defined text theme
     scaffoldBackgroundColor: colorScheme.background,
     cardTheme: CardTheme(
       elevation: 0,
@@ -268,10 +285,12 @@ ThemeData _buildThemeData(Brightness brightness) {
       foregroundColor: colorScheme.onTertiary, // White text on header
       iconTheme: IconThemeData(color: colorScheme.onTertiary),
       titleTextStyle: TextStyle(
+        // Use the defined textTheme style if appropriate, or keep specific override
+        // Example: style: textTheme.headlineSmall?.copyWith(color: colorScheme.onTertiary),
         color: colorScheme.onTertiary,
-        fontSize: 20, // Adjust as needed
+        fontSize: 20, // Keep specific override for AppBar title
         fontWeight: FontWeight.bold,
-        fontFamily: 'Noto Sans Arabic',
+        fontFamily: 'Noto Sans Arabic', // Ensure font family if not inheriting
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
@@ -294,7 +313,10 @@ ThemeData _buildThemeData(Brightness brightness) {
           width: 1.5,
         ), // Ring color on focus
       ),
+      // Use textTheme style for hints if desired
+      // Example: hintStyle: textTheme.bodyLarge?.copyWith(color: colorScheme.onSurfaceVariant.withOpacity(0.7)),
       hintStyle: TextStyle(
+        // Keep specific override for hint style
         color: colorScheme.onSurfaceVariant.withOpacity(0.7),
       ),
       contentPadding: const EdgeInsets.symmetric(
@@ -310,11 +332,14 @@ ThemeData _buildThemeData(Brightness brightness) {
       ), // Muted foreground
       elevation: 8.0, // Add some elevation
       type: BottomNavigationBarType.fixed, // Ensure labels are always shown
-      selectedLabelStyle: const TextStyle(
-        fontSize: 12,
-        fontWeight: FontWeight.w500,
+      // Use textTheme styles for labels
+      selectedLabelStyle: textTheme.labelMedium?.copyWith(
+        // fontSize: 12, // Inherited from textTheme.labelMedium potentially
+        fontWeight: FontWeight.w500, // Keep specific weight override
       ),
-      unselectedLabelStyle: const TextStyle(fontSize: 12),
+      unselectedLabelStyle: textTheme.labelMedium?.copyWith(
+        // fontSize: 12, // Inherited from textTheme.labelMedium potentially
+      ),
     ),
     // Add other component themes as needed (Buttons, Switches, etc.)
     switchTheme: SwitchThemeData(

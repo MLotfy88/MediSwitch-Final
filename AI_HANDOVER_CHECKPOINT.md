@@ -53,11 +53,16 @@ tml # MediSwitch Project - AI Handover Checkpoint
         *   The search filter UI is implemented as a `BottomSheet` instead of the specified side sheet.
         *   The secondary font (Roboto) is not actively used.
 *   **Recent Fixes & MVP Preparation:**
-    *   Fixed `HomeScreen` data loading issue (sections now load automatically).
-    *   Fixed `DrugCard` sizing in horizontal lists (`HomeScreen`) by removing fixed height constraints.
+    *   Fixed `HomeScreen` data loading issue (sections now load automatically). *(Initial fix attempt)*
+    *   Fixed `DrugCard` sizing in horizontal lists (`HomeScreen`) by removing fixed height constraints. *(Initial fix attempt)*
     *   Adjusted Settings screen secondary text color for better contrast.
-    *   Resolved Home screen state management issue causing data sections to disappear/reappear incorrectly.
+    *   Resolved Home screen state management issue causing data sections to disappear/reappear incorrectly. *(Initial fix attempt)*
     *   Corrected Home screen pagination logic for continuous loading (10 initial, 15 subsequent).
+    *   **Resolved persistent Home Screen loading issue:**
+        *   Corrected database seeding logic in `SqliteLocalDataSource` to ensure seeding happens when needed and status is reported correctly.
+        *   Refactored initialization flow: `InitializationScreen` now directly handles the check for existing data and triggers seeding if necessary, before navigating to `MainScreen`. Removed reliance on `SetupScreen`.
+        *   Corrected `MedicineProvider` initialization: Changed registration to `LazySingleton`, fixed initial `_isLoading` state, and removed redundant `await seedingComplete`.
+        *   Fixed `HomeScreen` layout: Ensured `HorizontalListSection` receives proper height constraints to render drug cards correctly within the `CustomScrollView`.
     *   Prepared application for **MVP 1.0 Release** according to `@/RELEASE_PLAN.md`:
         *   Confirmed core features (Search, Details, Alternatives, Basic UI, Settings) are functional.
         *   Confirmed AdMob integration (Banner, Interstitial with Test IDs) is present (Task 5.2).
