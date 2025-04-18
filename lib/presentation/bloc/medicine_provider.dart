@@ -560,11 +560,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) {
         _isLoading = false;
       }
-      // REMOVED: Notify listeners should be handled by the primary calling methods
-      // (loadInitialData, loadMoreDrugs, setSearchQuery, setCategory)
-      // if (!append) {
-      //   notifyListeners();
-      // }
+      // Restore notifyListeners, but ONLY for non-append operations (initial load/filter change)
+      // This ensures the UI updates after isLoading is set to false for these cases.
+      if (!append) {
+        notifyListeners();
+      }
       // Pagination Logging (Phase 2, Step 4)
       _logger.i(
         "MedicineProvider: _applyFilters EXIT - Page: $page, Append: $append. Final State: isLoading=$_isLoading, isLoadingMore=$_isLoadingMore, hasMore=$_hasMoreItems, filteredCount=${_filteredMedicines.length}, error='$_error'",

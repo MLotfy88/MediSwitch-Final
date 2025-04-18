@@ -1,200 +1,107 @@
-[V] DrugCard _buildThumbnailCard: drug=alfabonid 2mcg/ml (1ml=2mcg) 10 amp.
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=blincorest co 2/125mg 30 chew. tabs., popular=false, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=blincorest co 2/125mg 30 chew. tabs.
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=lit up whitening skin serum 50 ml, popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=lit up whitening skin serum 50 ml
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=munix 10 sachets, popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=munix 10 sachets
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=dextrose 3.3% & sodium chloride 0.3% (otsuka) i.v. inf. 250 ml, popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=dextrose 3.3% & sodium chloride 0.3% (otsuka) i.v. inf. 250 ml
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=fenac 100 mg 10 tab., popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=fenac 100 mg 10 tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml, popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab., popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets, popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs, popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
-[V] HomeScreen _onScroll: Pixels=1.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=3.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=5.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=7.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=9.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=11.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=14.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=17.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=21.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=24.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=28.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=32.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=36.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=41.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=46.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=51.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=57.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=62.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=68.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=75.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=81.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=87.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=94.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=100.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=106.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=112.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=118.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=123.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=129.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=134.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=137.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=140.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=142.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=146.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=149.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=152.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=156.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=160.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=169.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=177.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=184.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=191.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=197.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=202.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=207.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=211.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=215.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=218.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=220.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=222.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=224.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=225.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=226.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=226.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=226.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=226.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=226.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=227.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=228.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=230.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=233.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=235.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=238.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=241.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=245.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=249.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=254.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=258.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=263.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=268.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=273.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=278.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=283.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=288.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=293.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=298.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=303.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=307.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=312.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=317.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=321.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=324.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=326.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=329.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=331.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=334.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=337.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=341.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=344.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=348.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=352.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=356.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=359.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=363.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=367.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=371.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=375.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=379.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=383.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=387.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=391.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=395.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=399.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=416.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=431.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=447.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=461.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=474.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=487.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=499.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=510.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=521.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=530.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=539.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=548.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=555.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=562.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=569.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=574.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=579.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=584.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=584.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=583.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=582.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=581.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=578.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=576.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=573.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=569.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=565.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=560.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=556.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=551.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=546.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=541.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=535.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=529.9, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=524.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=518.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=508.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=504.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=500.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=495.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=490.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=483.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=476.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=468.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=458.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=450.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=439.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=409.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=380.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=353.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=326.4, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=300.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=275.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=251.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=228.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=206.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=185.3, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=165.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=145.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=126.8, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=109.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=92.1, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=76.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=60.7, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=46.2, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=32.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=19.6, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=7.5, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
-[V] HomeScreen _onScroll: Pixels=0.0, MaxScroll=Infinity, TriggerAt=Infinity, IsNearBottom=false, CanLoadMore=true (HasMore=true, !IsLoadingMore=true, !IsLoading=true), ShouldLoad=false
+[INFO] Checking storage permission (Android)...
+[CRITICAL] Error determining log directory: Null check operator used on a null value
+[CRITICAL] Could not obtain ANY valid directory for logging. Using console only.
+[I] main: >>> ENTERING main() <<<
+[I] main: Date formatting initialized.
+[I] --- Starting Full Locator Setup ---
+[I] Locator: Waiting for SharedPreferences and DatabaseHelper...
+[I] Locator: Registering SharedPreferences...
+[I] Locator: Registering DatabaseHelper...
+[I] Locator: SharedPreferences registered.
+[I] Locator: DatabaseHelper registered and DB initialized.
+[I] Locator: SharedPreferences and DatabaseHelper ready.
+[I] Locator: Registering Use Cases...
+[I] Locator: Registering Services...
+[I] Locator: Registering Providers...
+[I] Locator: Waiting for all async singletons...
+[I] --- Full Locator Setup Complete ---
+[I] main: Locator setup complete. Logger obtained.
+[I] main: Starting application setup...
+[I] main: Initializing Mobile Ads SDK...
+[I] main: Mobile Ads SDK initialized.
+[I] main: Initializing SubscriptionProvider asynchronously...
+[I] Locator: Registering http.Client.
+[I] main: Setup complete. Preparing to run MyApp...
+[I] main: Setting InitializationScreen as initial route.
+[I] main: >>> CALLING runApp() NOW <<<
+[I] main: runApp called successfully (or at least the call was made).
+[I] MyApp: Building widget tree...
+[D] MyApp: Creating SettingsProvider...
+[I] SettingsProvider: Constructor called.
+[I] SettingsProvider: _loadSettings started.
+[D] MyApp: Consumer<SettingsProvider> builder running. Initialized: false
+[V] MyApp: SettingsProvider not initialized, showing loading indicator.
+[I] Settings loaded: Theme=ThemeMode.system, Locale=ar
+[D] MyApp: Consumer<SettingsProvider> builder running. Initialized: true
+[V] MyApp: SettingsProvider initialized, building main MaterialApp.
+[I] InitializationScreen: initState called.
+[D] InitializationScreen: Building loading indicator UI.
+[I] InitializationScreen: Determining initial route...
+[I] Locator: Registering SqliteLocalDataSource...
+[I] InitializationScreen: Flags - OnboardingDone: false
+[I] InitializationScreen: Routing to OnboardingScreen.
+[I] InitializationScreen: Navigating to OnboardingScreen
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[I] OnboardingScreen: Onboarding complete.
+[I] OnboardingScreen: Set onboarding complete flag.
+[I] OnboardingScreen: Navigating back to InitializationScreen.
+[I] InitializationScreen: initState called.
+[D] InitializationScreen: Building loading indicator UI.
+[I] InitializationScreen: Determining initial route...
+[I] InitializationScreen: Flags - OnboardingDone: true
+[I] InitializationScreen: Onboarding complete. Checking if database has medicines...
+[I] InitializationScreen: Database has medicines: false
+[I] InitializationScreen: Database is empty. Routing to SetupScreen for seeding.
+[I] InitializationScreen: Navigating to SetupScreen
+[I] SetupScreen: initState called. Starting initial seeding...
+[D] SetupScreen: Building widget. isSeeding: true, error: null
+[I] SetupScreen: Seeding process finished. Was seeding performed?: false. Duration: 2446ms
+[I] SetupScreen: Seeding complete. Navigating to MainScreen...
+[I] MainScreen: Building widget. Selected index: 0
+[I] HomeScreen: +++++ initState +++++
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] MyApp: Creating MedicineProvider...
+[I] Locator: Registering DrugRepository...
+[I] Locator: Registering DrugRemoteDataSource...
+[I] MedicineProvider: Constructor called.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: false) <<<
+[I] MedicineProvider: loadInitialData called but already loading. Skipping.
+[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', displayed=0, recent=0, popular=0, hasMore=true
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building loading indicator.
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] SearchScreen: +++++ initState +++++. Initial query: ''
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=true, error='', results=0
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[D] SetupScreen: Building widget. isSeeding: false, error: null
+[I] HomeScreen: Triggering initial data load from initState.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: false) <<<
+[I] MedicineProvider: loadInitialData called but already loading. Skipping.
+[I] SearchScreen: Debounced search triggered with query: ''
+[D] MedicineProvider: setSearchQuery called with query: ''
+[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 15, FetchLimit: 16, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
+[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 16, Offset: 0, Append: false
+[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 16, Offset: 0, Category: ''
+[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
+[D] DrugRepository: searchDrugs called with query: '', limit: 16, offset: 0
+[I] DrugRepository: searchDrugs successful, found 16 drugs.
+[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 16 items.
+[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
+[I] MedicineProvider: Filtering complete for page 0. New items count: 16
+[D] MedicineProvider: hasMoreItems set to true. Items received: 16, Items to add: 15
+[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 15
+[I] MedicineProvider: Calculated price range based on current list: 0.0 - 1100.0
+[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=false, isLoadingMore=false, hasMore=true, filteredCount=15, error=''
+[I] MainScreen: _onItemTapped called with index: 1
+[I] MainScreen: Building widget. Selected index: 1
+[I] MainScreen: _onItemTapped called with index: 0
+[I] MainScreen: Building widget. Selected index: 0
 [I] MainScreen: _onItemTapped called with index: 4
 [I] MainScreen: Building widget. Selected index: 4
 [I] SettingsScreen: View Logs tile tapped.
