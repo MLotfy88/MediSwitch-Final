@@ -63,8 +63,15 @@ class DrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+    final displayName =
+        (isArabic && drug.arabicName.isNotEmpty)
+            ? drug.arabicName
+            : drug.tradeName;
+
     _logger.v(
-      "DrugCard build: type=$type, drug=${drug.tradeName}, popular=$isPopular, alternative=$isAlternative",
+      "DrugCard build: type=$type, drug=$displayName (locale: ${locale.languageCode}), popular=$isPopular, alternative=$isAlternative",
     );
 
     Widget cardContent =
@@ -80,9 +87,10 @@ class DrugCard extends StatelessWidget {
             ? ', المادة الفعالة: ${drug.active}'
             : ''; // Added for Semantics
 
+    // Update Semantics label to use the displayed name
     return Semantics(
       label:
-          '${drug.tradeName}${drug.arabicName.isNotEmpty ? ' (${drug.arabicName})' : ''}$activeIngredientLabel, $dosageLabel, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
+          '$displayName$activeIngredientLabel, $dosageLabel, السعر ${_formatPrice(drug.price)} L.E.$alternativeLabel$popularLabel', // Updated currency
       button: true,
       child: cardContent,
     );
@@ -90,7 +98,16 @@ class DrugCard extends StatelessWidget {
 
   // --- Detailed Card Implementation (Redesigned) ---
   Widget _buildDetailedCard(BuildContext context) {
-    _logger.v("DrugCard _buildDetailedCard: drug=${drug.tradeName}");
+    _logger.v(
+      "DrugCard _buildDetailedCard: drug=${drug.tradeName}",
+    ); // Keep original log for consistency if needed
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+    final displayName =
+        (isArabic && drug.arabicName.isNotEmpty)
+            ? drug.arabicName
+            : drug.tradeName;
+
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -129,26 +146,16 @@ class DrugCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // --- Drug Names ---
+                  // --- Drug Name (Localized) ---
                   Text(
-                    drug.tradeName,
+                    displayName, // Use localized name
                     style: textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.w600, // Semibold
                     ),
-                    maxLines: 2, // Allow wrapping
+                    maxLines: 1, // Changed: Limit name to single line
                     overflow: TextOverflow.ellipsis,
                   ),
-                  if (drug.arabicName.isNotEmpty)
-                    Padding(
-                      padding: AppSpacing.edgeInsetsVXXSmall, // pt-0.5 (2px)
-                      child: Text(
-                        drug.arabicName,
-                        style: textTheme.bodyMedium?.copyWith(
-                          color: colorScheme.onSurfaceVariant, // Muted
-                        ),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
+                  // REMOVED: Redundant Arabic name display
 
                   // ADDED: Display Active Ingredient
                   if (drug.active.isNotEmpty)
@@ -263,12 +270,29 @@ class DrugCard extends StatelessWidget {
                             ),
                           // Price
                           Text(
-                            '${_formatPrice(drug.price)} ج.م',
+                            '${_formatPrice(drug.price)} L.E', // Changed currency symbol
                             style: textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.bold, // Bold
                               color: colorScheme.primary, // Highlight price
                             ),
                           ),
+                          // Old Price (Added)
+                          if (drug.oldPrice != null &&
+                              drug.oldPrice!.isNotEmpty &&
+                              isPriceChanged)
+                            Padding(
+                              padding: const EdgeInsetsDirectional.only(
+                                start: AppSpacing.xsmall, // Add space
+                              ),
+                              child: Text(
+                                '${_formatPrice(drug.oldPrice!)} L.E',
+                                style: textTheme.labelSmall?.copyWith(
+                                  // Use smaller style
+                                  color: colorScheme.onSurfaceVariant,
+                                  decoration: TextDecoration.lineThrough,
+                                ),
+                              ),
+                            ),
                           // Popular Icon
                           if (isPopular)
                             Padding(
@@ -297,7 +321,16 @@ class DrugCard extends StatelessWidget {
 
   // --- Thumbnail Card Implementation (Adjusted for Consistency) ---
   Widget _buildThumbnailCard(BuildContext context) {
-    _logger.v("DrugCard _buildThumbnailCard: drug=${drug.tradeName}");
+    _logger.v(
+      "DrugCard _buildThumbnailCard: drug=${drug.tradeName}",
+    ); // Keep original log
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+    final displayName =
+        (isArabic && drug.arabicName.isNotEmpty)
+            ? drug.arabicName
+            : drug.tradeName;
+
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -340,13 +373,13 @@ class DrugCard extends StatelessWidget {
                         const SizedBox(
                           height: AppSpacing.large,
                         ), // Approx 16px for icon/badge space
-
+                        // --- Drug Name (Localized) ---
                         Text(
-                          drug.tradeName,
+                          displayName, // Use localized name
                           style: textTheme.bodyMedium?.copyWith(
                             fontWeight: FontWeight.w500, // Medium weight
                           ),
-                          maxLines: 2, // Allow wrapping
+                          maxLines: 1, // Changed: Limit name to single line
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.start,
                         ),
@@ -368,11 +401,15 @@ class DrugCard extends StatelessWidget {
                             ),
                           ),
                         AppSpacing.gapVXSmall, // mt-1 (4px)
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                        // Changed: Use Row for prices
+                        Row(
+                          crossAxisAlignment:
+                              CrossAxisAlignment
+                                  .baseline, // Align text baselines
+                          textBaseline: TextBaseline.alphabetic,
                           children: [
                             Text(
-                              '${_formatPrice(drug.price)} ج.م',
+                              '${_formatPrice(drug.price)} L.E', // Changed currency symbol
                               style: textTheme.bodyMedium?.copyWith(
                                 fontWeight: FontWeight.w600, // Semibold
                                 color: colorScheme.primary,
@@ -380,11 +417,16 @@ class DrugCard extends StatelessWidget {
                             ),
                             if (drug.oldPrice != null &&
                                 drug.oldPrice!.isNotEmpty)
-                              Text(
-                                '${_formatPrice(drug.oldPrice!)} ج.م',
-                                style: textTheme.labelSmall?.copyWith(
-                                  color: colorScheme.onSurfaceVariant,
-                                  decoration: TextDecoration.lineThrough,
+                              Padding(
+                                padding: const EdgeInsetsDirectional.only(
+                                  start: AppSpacing.xsmall,
+                                ), // Add space between prices
+                                child: Text(
+                                  '${_formatPrice(drug.oldPrice!)} L.E', // Changed currency symbol
+                                  style: textTheme.labelSmall?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                    decoration: TextDecoration.lineThrough,
+                                  ),
                                 ),
                               ),
                           ],

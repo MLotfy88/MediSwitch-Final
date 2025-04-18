@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
+import 'dart:ui' as ui; // Import dart:ui with alias
 import '../../domain/entities/drug_entity.dart';
 import '../widgets/custom_badge.dart';
 import '../../core/di/locator.dart';
@@ -13,6 +14,7 @@ import 'interaction_checker_screen.dart';
 import '../bloc/dose_calculator_provider.dart';
 import '../bloc/interaction_provider.dart';
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -50,6 +52,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   String _formatPrice(String priceString) {
     final price = double.tryParse(priceString);
     if (price == null) return priceString;
+    // Use L.E. consistently
     return NumberFormat("#,##0.##", "en_US").format(price);
   }
 
@@ -69,8 +72,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       } else {
         dateTime = DateFormat('yyyy-MM-dd').parseStrict(dateString);
       }
-      // Format using Arabic locale for display
-      return DateFormat('d MMM yyyy', 'ar').format(dateTime);
+      // Format using current locale
+      final locale = Localizations.localeOf(context).languageCode;
+      return DateFormat('d MMM yyyy', locale).format(dateTime);
     } catch (e) {
       _logger.w("Could not parse date for display: $dateString", e);
       return dateString; // Return original string if parsing fails
@@ -81,10 +85,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     _logger.i(
       "DrugDetailsScreen: Favorite button tapped (Premium - Not implemented).",
     );
+    final l10n = AppLocalizations.of(context)!; // Get localizations instance
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('ميزة المفضلة تتطلب الاشتراك Premium (قريباً).'),
-        duration: Duration(seconds: 2),
+      SnackBar(
+        content: Text(l10n.favoriteFeatureSnackbar), // Use localized string
+        duration: const Duration(seconds: 2),
       ),
     );
     // setState(() {
@@ -98,6 +103,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     _logger.i(
       "DrugDetailsScreen: Building widget for drug: ${widget.drug.tradeName}",
     );
+    final l10n = AppLocalizations.of(context)!; // Get localizations instance
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -108,10 +114,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         leading: IconButton(
           icon: const Icon(LucideIcons.arrowLeft, size: 20),
           onPressed: () => Navigator.of(context).pop(),
-          tooltip: 'رجوع',
+          tooltip: l10n.backTooltip, // Use localized string
         ),
         title: Text(
-          'تفاصيل الدواء',
+          l10n.drugDetailsTitle, // Use localized string
           // Style inherited from main theme's appBarTheme.titleTextStyle
         ),
         centerTitle: false, // Align title left (standard practice)
@@ -123,10 +129,20 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           // Use ListView for the main layout
           padding: EdgeInsets.zero, // Remove default ListView padding
           children: [
-            _buildHeaderContent(context, colorScheme, textTheme),
-            _buildActionButtons(context, colorScheme, textTheme),
+            _buildHeaderContent(
+              context,
+              colorScheme,
+              textTheme,
+              l10n,
+            ), // Pass l10n
+            _buildActionButtons(
+              context,
+              colorScheme,
+              textTheme,
+              l10n,
+            ), // Pass l10n
             AppSpacing.gapVMedium, // Add space before TabBar
-            _buildTabBar(context, colorScheme, textTheme),
+            _buildTabBar(context, colorScheme, textTheme, l10n), // Pass l10n
             // Use a Container with fixed height for TabBarView content
             Container(
               // Adjust height based on expected content size or screen percentage
@@ -135,15 +151,45 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               child: TabBarView(
                 controller: _tabController,
                 children: [
-                  _buildInfoTab(context, colorScheme, textTheme),
-                  _buildUsageTab(context, colorScheme, textTheme),
-                  _buildDosageTab(context, colorScheme, textTheme),
-                  _buildSideEffectsTab(context, colorScheme, textTheme),
-                  _buildContraindicationsTab(context, colorScheme, textTheme),
+                  _buildInfoTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ), // Pass l10n
+                  _buildUsageTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ), // Pass l10n
+                  _buildDosageTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ), // Pass l10n
+                  _buildSideEffectsTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ), // Pass l10n
+                  _buildContraindicationsTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ), // Pass l10n
                 ],
               ),
             ),
-            _buildAlternativesSection(context, colorScheme, textTheme),
+            _buildAlternativesSection(
+              context,
+              colorScheme,
+              textTheme,
+              l10n,
+            ), // Pass l10n
             AppSpacing.gapVLarge, // Add padding at the very bottom
           ],
         ),
@@ -156,6 +202,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     final double? oldPriceValue = _parsePrice(widget.drug.oldPrice);
     final double? currentPriceValue = _parsePrice(widget.drug.price);
@@ -169,6 +216,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         isPriceChanged && oldPriceValue != null && oldPriceValue != 0
             ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
+
+    // Determine display name based on locale
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+    final displayName =
+        (isArabic && widget.drug.arabicName.isNotEmpty)
+            ? widget.drug.arabicName
+            : widget.drug.tradeName;
 
     return Padding(
       padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
@@ -232,7 +287,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      widget.drug.tradeName,
+                      displayName, // Use localized display name
                       style: textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                       ), // text-xl font-bold
@@ -242,12 +297,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         padding:
                             AppSpacing.edgeInsetsVXSmall, // Use constant (4px)
                         child: Text(
-                          widget.drug.active,
+                          widget
+                              .drug
+                              .active, // Active ingredient always English
                           style: textTheme.bodyMedium?.copyWith(
                             color:
                                 colorScheme
                                     .primary, // Highlight active ingredient
                           ), // text-sm text-primary
+                          textDirection:
+                              ui.TextDirection.ltr, // Ensure LTR using alias
                         ),
                       ),
                   ],
@@ -269,7 +328,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                     textBaseline: TextBaseline.alphabetic,
                     children: [
                       Text(
-                        '${_formatPrice(widget.drug.price)} ج.م',
+                        '${_formatPrice(widget.drug.price)} ${l10n.currencySymbol}', // Use localized currency
                         style: textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.bold,
                         ), // text-lg font-bold
@@ -312,7 +371,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         top: AppSpacing.xxsmall,
                       ), // 2px
                       child: Text(
-                        '${_formatPrice(widget.drug.oldPrice!)} ج.م',
+                        '${_formatPrice(widget.drug.oldPrice!)} ${l10n.currencySymbol}', // Use localized currency
                         style: textTheme.bodyMedium?.copyWith(
                           color: colorScheme.onSurfaceVariant, // Muted color
                           decoration: TextDecoration.lineThrough,
@@ -328,7 +387,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       _isFavorite ? Colors.red.shade500 : colorScheme.outline,
                   size: 24, // h-6 w-6
                 ),
-                tooltip: 'إضافة للمفضلة (Premium)',
+                tooltip: l10n.addToFavoritesTooltip, // Use localized string
                 onPressed: _toggleFavorite,
                 padding: EdgeInsets.zero, // Remove default padding
                 constraints: const BoxConstraints(), // Allow tight constraints
@@ -345,6 +404,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     return Padding(
       // Consistent horizontal padding, bottom padding added
@@ -358,7 +418,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           Expanded(
             child: OutlinedButton.icon(
               icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
-              label: const Text('حساب الجرعة'),
+              label: Text(l10n.doseCalculatorButton), // Use localized string
               onPressed: () {
                 _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
                 context.read<DoseCalculatorProvider>().setSelectedDrug(
@@ -378,15 +438,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           Expanded(
             child: OutlinedButton.icon(
               icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
-              label: const Text('التفاعلات الدوائية'),
+              label: Text(l10n.drugInteractionsButton), // Use localized string
               onPressed: () {
                 _logger.i(
                   "DrugDetailsScreen: Interaction Checker button tapped (Deferred for MVP).",
                 );
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(
-                    content: Text('ميزة مدقق التفاعلات قيد التطوير (قريباً).'),
-                    duration: Duration(seconds: 2),
+                  SnackBar(
+                    content: Text(
+                      l10n.interactionCheckerSnackbar,
+                    ), // Use localized string
+                    duration: const Duration(seconds: 2),
                   ),
                 );
                 // context.read<InteractionProvider>().addMedicine(widget.drug);
@@ -414,6 +476,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     return Container(
       margin: AppSpacing.edgeInsetsHLarge, // Use constant (16px)
@@ -447,12 +510,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           ],
         ),
         indicatorSize: TabBarIndicatorSize.tab, // Make indicator fill tab
-        tabs: const [
-          Tab(text: 'معلومات'), // Shortened labels if needed
-          Tab(text: 'استخدام'),
-          Tab(text: 'جرعات'),
-          Tab(text: 'آثار'),
-          Tab(text: 'موانع'),
+        tabs: [
+          Tab(text: l10n.infoTab), // Use localized string
+          Tab(text: l10n.usageTab), // Use localized string
+          Tab(text: l10n.dosageTab), // Use localized string
+          Tab(text: l10n.sideEffectsTab), // Use localized string
+          Tab(text: l10n.contraindicationsTab), // Use localized string
         ],
       ),
     );
@@ -465,31 +528,35 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     _logger.d("DrugDetailsScreen: Building Info Tab using GridView");
     final infoItems = <Map<String, dynamic>>[
       if (widget.drug.company.isNotEmpty)
         {
           'icon': LucideIcons.building2,
-          'label': "الشركة:",
+          'label': l10n.companyLabel, // Use localized string
           'value': widget.drug.company,
         },
       if (widget.drug.mainCategory.isNotEmpty)
         {
           'icon': LucideIcons.folderOpen,
-          'label': "الفئة:",
-          'value': widget.drug.mainCategory,
+          'label': l10n.categoryLabel, // Use localized string
+          'value':
+              widget
+                  .drug
+                  .mainCategory, // Category names might need localization
         },
       if (widget.drug.dosageForm.isNotEmpty)
         {
           'icon': LucideIcons.packageSearch,
-          'label': "الشكل:",
+          'label': l10n.formLabel, // Use localized string
           'value': widget.drug.dosageForm,
         },
       if (widget.drug.concentration > 0 || widget.drug.unit.isNotEmpty)
         {
           'icon': LucideIcons.ruler,
-          'label': "التركيز:",
+          'label': l10n.concentrationLabel, // Use localized string
           'value':
               '${widget.drug.concentration.toStringAsFixed(widget.drug.concentration.truncateToDouble() == widget.drug.concentration ? 0 : 1)} ${widget.drug.unit}'
                   .trim(),
@@ -497,7 +564,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       if (widget.drug.lastPriceUpdate.isNotEmpty)
         {
           'icon': LucideIcons.calendarClock,
-          'label': "آخر تحديث:",
+          'label': l10n.lastUpdateLabel, // Use localized string
           'value': _formatDate(widget.drug.lastPriceUpdate),
         },
       // {'icon': LucideIcons.box, 'label': "حجم العبوة:", 'value': '-'}, // Placeholder
@@ -597,6 +664,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     return SingleChildScrollView(
       // Ensure content is scrollable
@@ -604,7 +672,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       child: Text(
         widget.drug.usage.isNotEmpty
             ? widget.drug.usage
-            : "لا توجد معلومات استخدام متاحة.",
+            : l10n.noUsageInfo, // Use localized string
         style: textTheme.bodyLarge,
       ),
     );
@@ -614,6 +682,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     final standardDosageInfo =
         widget.drug.usage; // Placeholder - Needs specific dosage field
@@ -623,7 +692,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       children: [
         Text(
-          "الجرعة",
+          l10n.dosageTitle, // Use localized string
           style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
         ),
         AppSpacing.gapVMedium, // Use constant (12px)
@@ -631,19 +700,19 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           standardDosageInfo
                   .isNotEmpty // Replace with actual dosage field check
               ? standardDosageInfo
-              : "راجع الطبيب أو الصيدلي لتحديد الجرعة المناسبة.",
+              : l10n.consultDoctorOrPharmacist, // Use localized string
           style: textTheme.bodyLarge,
         ),
         AppSpacing.gapVXLarge, // Use constant (24px)
         const Divider(),
         AppSpacing.gapVLarge, // Use constant (16px)
         Text(
-          "حاسبة الجرعة بالوزن",
+          l10n.weightDosageCalculatorTitle, // Use localized string
           style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
         ),
         AppSpacing.gapVSmall, // Use constant (8px)
         Text(
-          "احسب الجرعة المناسبة للأطفال.",
+          l10n.weightDosageCalculatorSubtitle, // Use localized string
           style: textTheme.bodyMedium?.copyWith(
             color: colorScheme.onSurfaceVariant,
           ),
@@ -651,7 +720,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         AppSpacing.gapVLarge, // Use constant (16px)
         ElevatedButton.icon(
           icon: const Icon(LucideIcons.calculator, size: 18),
-          label: const Text('فتح حاسبة الجرعات'),
+          label: Text(l10n.openDoseCalculatorButton), // Use localized string
           onPressed: () {
             _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
             context.read<DoseCalculatorProvider>().setSelectedDrug(widget.drug);
@@ -674,6 +743,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     // TODO: Fetch and display side effects data from drug.description or specific field
     return SingleChildScrollView(
@@ -685,7 +755,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 .description
                 .isNotEmpty // Example: Use description field
             ? widget.drug.description
-            : "لا توجد معلومات آثار جانبية متاحة حالياً.",
+            : l10n.noSideEffectsInfo, // Use localized string
         style: textTheme.bodyLarge?.copyWith(
           color:
               widget.drug.description.isEmpty
@@ -700,13 +770,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     // TODO: Fetch and display contraindications data (might be in description or usage)
     return SingleChildScrollView(
       // Ensure content is scrollable
       padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       child: Text(
-        "لا توجد معلومات موانع استخدام متاحة حالياً.", // Placeholder
+        l10n.noContraindicationsInfo, // Use localized string
         style: textTheme.bodyLarge?.copyWith(
           color: colorScheme.onSurfaceVariant,
         ),
@@ -719,6 +790,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     return Padding(
       // Use constants for padding (16px left/right, 24px top, 16px bottom)
@@ -732,7 +804,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "البدائل المتاحة",
+            l10n.availableAlternativesTitle, // Use localized string
             style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
           ), // text-lg font-bold
           AppSpacing.gapVLarge, // Use constant (16px)
@@ -751,6 +823,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     _logger.d("DrugDetailsScreen: Building Interactions Tab");
     final knownInteractions = []; // Placeholder
@@ -759,7 +832,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
       children: [
         Text(
-          "التفاعلات المعروفة",
+          l10n.knownInteractionsTitle, // Use localized string
           style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
         ),
         AppSpacing.gapVMedium, // Use constant (12px)
@@ -767,7 +840,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           const Text("...") // Placeholder for interaction list
         else
           Text(
-            "لا توجد معلومات تفاعلات مباشرة لهذا الدواء حالياً.",
+            l10n.noDirectInteractionInfo, // Use localized string
             style: textTheme.bodyMedium?.copyWith(
               color: colorScheme.onSurfaceVariant,
             ),
@@ -776,12 +849,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         const Divider(),
         AppSpacing.gapVLarge, // Use constant (16px)
         Text(
-          "مدقق التفاعلات المتعددة",
+          l10n.multiInteractionCheckerTitle, // Use localized string
           style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
         ),
         AppSpacing.gapVSmall, // Use constant (8px)
         Text(
-          "أضف هذا الدواء وأدوية أخرى لفحص التفاعلات المحتملة بينها.",
+          l10n.multiInteractionCheckerSubtitle, // Use localized string
           style: textTheme.bodyMedium?.copyWith(
             color: colorScheme.onSurfaceVariant,
           ),
@@ -789,7 +862,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         AppSpacing.gapVLarge, // Use constant (16px)
         ElevatedButton.icon(
           icon: const Icon(LucideIcons.zap, size: 18),
-          label: const Text('فتح مدقق التفاعلات'),
+          label: Text(
+            l10n.openInteractionCheckerButton,
+          ), // Use localized string
           onPressed: () {
             _logger.i(
               "DrugDetailsScreen: Navigate to InteractionChecker tapped.",

@@ -19,6 +19,7 @@ import '../services/ad_service.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../core/constants/app_constants.dart'; // Import constants
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -54,6 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _logger.i("HomeScreen: >>>>> build ENTRY <<<<<"); // Updated Log
     try {
       // Add try block here
+      final l10n = AppLocalizations.of(context)!; // Get localizations instance
       final medicineProvider = context.watch<MedicineProvider>();
       final isLoading = medicineProvider.isLoading;
       final isLoadingMore = medicineProvider.isLoadingMore;
@@ -98,6 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ? _buildErrorWidget(
                             context,
                             error,
+                            l10n, // Pass l10n
                           ) // Show error prominently
                           : (isInitialLoadComplete ||
                               recentlyUpdatedCount > 0 ||
@@ -112,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             isInitialLoadComplete,
                             recentlyUpdatedCount,
                             popularCount,
+                            l10n, // Pass l10n
                           )
                           : _buildLoadingIndicator(), // Fallback if not loading/error but no content yet
                 ),
@@ -160,6 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
     bool isInitialLoadComplete,
     int recentlyUpdatedCount,
     int popularCount,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     _logger.v("HomeScreen: Building main content CustomScrollView.");
     // Log state *before* rendering sections
@@ -180,7 +185,9 @@ class _HomeScreenState extends State<HomeScreen> {
         ), // Space below search bar (12px)
         // --- Categories Section ---
         if (isInitialLoadComplete) // Use passed parameter
-          SliverToBoxAdapter(child: _buildCategoriesSection(context)),
+          SliverToBoxAdapter(
+            child: _buildCategoriesSection(context, l10n),
+          ), // Pass l10n
         // Add space after categories if they exist
         if (isInitialLoadComplete)
           const SliverToBoxAdapter(
@@ -196,7 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 200, // Define a fixed height (adjust as needed)
               child: _buildHorizontalDrugList(
                 context,
-                title: "أدوية محدثة مؤخراً",
+                title: l10n.recentlyUpdatedDrugs, // Use localized string
                 listHeight: 200, // Pass the height down
                 drugs:
                     medicineProvider
@@ -229,8 +236,7 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 200, // Define a fixed height (adjust as needed)
               child: _buildHorizontalDrugList(
                 context,
-                title:
-                    "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
+                title: l10n.mostSearchedDrugs, // Use localized string
                 listHeight: 200, // Pass the height down
                 drugs: medicineProvider.popularDrugs, // Get data from provider
                 isPopular: true,
@@ -298,7 +304,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return const SearchBarButton();
   }
 
-  Widget _buildCategoriesSection(BuildContext context) {
+  Widget _buildCategoriesSection(BuildContext context, AppLocalizations l10n) {
+    // Add l10n parameter
     // Use maps directly from imported constants (kCategoryTranslation, kCategoryIcons)
 
     // These are the keys fetched from the provider (e.g., 'pain_management', 'vitamins')
@@ -340,7 +347,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     return HorizontalListSection(
-      title: 'الفئات الطبية',
+      title: l10n.medicalCategories, // Use localized string
       listHeight: 105, // Keep height consistent
       // headerPadding removed
       // Use constants for padding
@@ -416,7 +423,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // REMOVED: _buildEmptyListMessage is no longer needed in HomeScreen
 
-  Widget _buildErrorWidget(BuildContext context, String error) {
+  Widget _buildErrorWidget(
+    BuildContext context,
+    String error,
+    AppLocalizations l10n,
+  ) {
+    // Add l10n parameter
     _logger.w("HomeScreen: Building error widget: $error");
     return Container(
       alignment: Alignment.center,
@@ -435,7 +447,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           AppSpacing.gapVLarge, // Use constant (16px)
           Text(
-            'حدث خطأ',
+            l10n.errorOccurred, // Use localized string
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               color: Theme.of(context).colorScheme.error,
             ),
@@ -454,7 +466,7 @@ class _HomeScreenState extends State<HomeScreen> {
           AppSpacing.gapVXLarge, // Use constant (24px)
           ElevatedButton.icon(
             icon: const Icon(LucideIcons.refreshCw), // Make icon const
-            label: const Text('إعادة المحاولة'),
+            label: Text(l10n.retry), // Use localized string
             onPressed: () {
               _logger.i("HomeScreen: Retry button pressed.");
               context.read<MedicineProvider>().loadInitialData(

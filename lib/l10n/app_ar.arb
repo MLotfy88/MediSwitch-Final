@@ -1,0 +1,80 @@
+{
+  "@@locale": "ar",
+  "appTitle": "ميديسويتش",
+  "settingsTitle": "الإعدادات",
+  "languageSettingTitle": "اللغة",
+  "generalSectionTitle": "عام",
+  "appearanceSettingTitle": "المظهر",
+  "dataSectionTitle": "البيانات",
+  "subscriptionSectionTitle": "الاشتراك",
+  "aboutSectionTitle": "حول التطبيق",
+  "profileSectionTitle": "الملف الشخصي",
+  "recentlyUpdatedDrugs": "أدوية محدثة مؤخراً",
+  "mostSearchedDrugs": "الأكثر بحثاً",
+  "medicalCategories": "الفئات الطبية",
+  "errorOccurred": "حدث خطأ",
+  "retry": "إعادة المحاولة",
+  "backTooltip": "رجوع",
+  "searchHint": "ابحث عن دواء...",
+  "errorMessage": "خطأ: {errorDetails}",
+  "@errorMessage": {
+    "description": "رسالة الخطأ التي تظهر عند فشل جلب البيانات",
+    "placeholders": {
+      "errorDetails": {
+        "type": "String",
+        "example": "فشل الاتصال بالشبكة"
+      }
+    }
+  },
+  "startSearchingPrompt": "ابدأ البحث عن دواء...",
+  "endOfList": "وصلت إلى نهاية القائمة",
+  "noResultsFoundTitle": "لم يتم العثور على نتائج",
+  "noResultsFoundSubtitle": "حاول البحث بكلمات أخرى أو تحقق من الإملاء.",
+  "favoriteFeatureSnackbar": "ميزة المفضلة تتطلب الاشتراك Premium (قريباً).",
+  "interactionCheckerSnackbar": "ميزة مدقق التفاعلات قيد التطوير (قريباً).",
+  "drugDetailsTitle": "تفاصيل الدواء",
+  "doseCalculatorButton": "حساب الجرعة",
+  "drugInteractionsButton": "التفاعلات الدوائية",
+  "infoTab": "معلومات",
+  "usageTab": "استخدام",
+  "dosageTab": "جرعات",
+  "sideEffectsTab": "آثار",
+  "contraindicationsTab": "موانع",
+  "companyLabel": "الشركة:",
+  "categoryLabel": "الفئة:",
+  "formLabel": "الشكل:",
+  "concentrationLabel": "التركيز:",
+  "lastUpdateLabel": "آخر تحديث:",
+  "noUsageInfo": "لا توجد معلومات استخدام متاحة.",
+  "dosageTitle": "الجرعة",
+  "consultDoctorOrPharmacist": "راجع الطبيب أو الصيدلي لتحديد الجرعة المناسبة.",
+  "weightDosageCalculatorTitle": "حاسبة الجرعة بالوزن",
+  "weightDosageCalculatorSubtitle": "احسب الجرعة المناسبة للأطفال.",
+  "openDoseCalculatorButton": "فتح حاسبة الجرعات",
+  "noSideEffectsInfo": "لا توجد معلومات آثار جانبية متاحة حالياً.",
+  "noContraindicationsInfo": "لا توجد معلومات موانع استخدام متاحة حالياً.",
+  "availableAlternativesTitle": "البدائل المتاحة",
+  "addToFavoritesTooltip": "إضافة للمفضلة (Premium)",
+  "knownInteractionsTitle": "التفاعلات المعروفة",
+  "noDirectInteractionInfo": "لا توجد معلومات تفاعلات مباشرة لهذا الدواء حالياً.",
+  "multiInteractionCheckerTitle": "مدقق التفاعلات المتعددة",
+  "multiInteractionCheckerSubtitle": "أضف هذا الدواء وأدوية أخرى لفحص التفاعلات المحتملة بينها.",
+  "openInteractionCheckerButton": "فتح مدقق التفاعلات",
+  "filterResultsTitle": "فلترة النتائج",
+  "closeTooltip": "إغلاق",
+  "categoriesSectionTitle": "الفئات",
+  "priceRangeSectionTitle": "نطاق السعر",
+  "currencySymbol": "ج.م",
+  "priceRangeLabel": "{price} ج.م",
+  "@priceRangeLabel": {
+    "description": "تسمية تظهر السعر مع العملة لشريط تحديد النطاق",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "150"
+      }
+    }
+  },
+  "resetButton": "إعادة تعيين",
+  "applyFiltersButton": "تطبيق الفلاتر"
+}
