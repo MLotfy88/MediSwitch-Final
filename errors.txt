@@ -1,82 +1,200 @@
-بس الصفحة الرئيسية عندى المفر ض فيها ٤ اقسام
-
-الفئات الطبية
-
-الادية المحدثة -الادوية الشائعة
-
-جميع الادوية
-
-
-اللى بيظهر جميع الادوية فقط وباقى الاقسام مابتظهرش ولما باعمل ريفريش للصفحة الرئيسية بيختفى كل شئ ومابيظهرش غير عنوان قسم الادوية المحدثة فقط
-
-المشكلة اللي بتواجهك واضحة من خلال اللوج، وهي على الأغلب ناتجة عن عدم اكتمال تحميل البيانات الخاصة بالأقسام الثلاثة الأولى (الفئات، الأدوية المحدثة، الشائعة) بسبب فشل إعادة بناء الواجهة نتيجة خطأ تنسيق التاريخ اللي كنا لسه بنتكلم عنه (LocaleDataException).
-
-تحليل المشكلة:
-
-1. بيانات الأقسام بيتم تحميلها فعليًا بنجاح
-
-مثلًا:
-
-[_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
-[_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
-getAvailableCategories successful, found 12 categories.
-
-
-
-2. لكن الواجهة (HomeScreen) مش بتعرضهم بسبب إنه لما التطبيق يحاول يبني الـ Widget اللي يعرض آخر تحديث للبيانات (غالبًا في عنوان القسم أو بجواره)، بيحصل Exception في DateFormat.
-
-
-3. في حالة الـ refresh، بيحصل نفس الخطأ وبالتالي الـ UI بيتكسر أكثر ومابيظهرش غير Section واحد (اللي ما بيعتمدش على التاريخ).
-
-
-
-
----
-
-الحل النهائي:
-
-عندك نقطتين لازم تطبقهم علشان تصلح المشكلة تمامًا:
-
-1. تهيئة بيانات اللغة قبل استخدام DateFormat
-
-في ملف main.dart أو أي مكان قبل بناء الواجهة:
-
-import 'package:intl/date_symbol_data_local.dart';
-
-void main() async {
-      WidgetsFlutterBinding.ensureInitialized();
-        await initializeDateFormatting('en', null); // أو 'ar' لو بتستخدم اللغة العربية
-          runApp(MyApp());
-}
-
-2. حماية استخدام DateFormat بشرط
-
-في MedicineProvider.lastUpdateTimestampFormatted، غلف الكود بـ try-catch علشان تتجنب كسر الـ UI:
-
-String get lastUpdateTimestampFormatted {
-      try {
-            final date = DateTime.fromMillisecondsSinceEpoch(lastUpdateTimestamp);
-                return DateFormat.yMMMd('en').format(date); // أو 'ar'
-      } catch (e) {
-            print('Error formatting timestamp: $e');
-                return '---';
-      }
-}
-
-
----
-
-لو عايز حل مؤقت:
-
-تقدر مؤقتًا تعطل استخدام DateFormat في الأكواد اللي بتستخدمه (وخاصة SettingsScreen أو HomeScreen) لغاية ما تعمل التهيئة المطلوبة.
-
-
----
-
-تحب أساعدك أعدل الكود لو بعتلي ملفات main.dart و medicine_provider.dart؟ أو تقدر تبعت سطر 109 تحديدًا؟
-
-
-      }
-      }
-}
-}
+[I] InitializationScreen: Flags - OnboardingDone: false
+[I] InitializationScreen: Routing to OnboardingScreen.
+[I] InitializationScreen: Navigating to OnboardingScreen
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[D] OnboardingScreen: Building widget.
+[I] OnboardingScreen: Onboarding complete.
+[I] OnboardingScreen: Set onboarding complete flag.
+[I] OnboardingScreen: Navigating back to InitializationScreen.
+[I] InitializationScreen: initState called.
+[D] InitializationScreen: Building loading indicator UI.
+[I] InitializationScreen: Determining initial route...
+[I] InitializationScreen: Flags - OnboardingDone: true
+[I] InitializationScreen: Onboarding complete. Checking if database has medicines...
+[I] InitializationScreen: Database has medicines: false
+[I] InitializationScreen: Database is empty. Routing to SetupScreen for seeding.
+[I] InitializationScreen: Navigating to SetupScreen
+[I] SetupScreen: initState called. Starting initial seeding...
+[D] SetupScreen: Building widget. isSeeding: true, error: null
+[I] SetupScreen: Seeding process finished. Was seeding performed?: false. Duration: 2419ms
+[I] SetupScreen: Seeding complete. Navigating to MainScreen...
+[I] MainScreen: Building widget. Selected index: 0
+[I] HomeScreen: +++++ initState +++++
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] MyApp: Creating MedicineProvider...
+[I] Locator: Registering DrugRepository...
+[I] Locator: Registering DrugRemoteDataSource...
+[I] MedicineProvider: Constructor called.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: false) <<<
+[I] MedicineProvider: loadInitialData called but already loading. Skipping.
+[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', displayed=0, recent=0, popular=0, hasMore=true
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building loading indicator.
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] SearchScreen: +++++ initState +++++. Initial query: ''
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=true, error='', results=0
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[D] SetupScreen: Building widget. isSeeding: false, error: null
+[I] HomeScreen: Triggering initial data load from initState.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: false) <<<
+[I] MedicineProvider: loadInitialData called but already loading. Skipping.
+[I] SearchScreen: Debounced search triggered with query: ''
+[D] MedicineProvider: setSearchQuery called with query: ''
+[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 15, FetchLimit: 16, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
+[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 16, Offset: 0, Append: false
+[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 16, Offset: 0, Category: ''
+[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
+[D] DrugRepository: searchDrugs called with query: '', limit: 16, offset: 0
+[I] DrugRepository: searchDrugs successful, found 16 drugs.
+[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 16 items.
+[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
+[I] MedicineProvider: Filtering complete for page 0. New items count: 16
+[D] MedicineProvider: hasMoreItems set to true. Items received: 16, Items to add: 15
+[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 15
+[I] MedicineProvider: Calculated price range based on current list: 0.0 - 1100.0
+[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=false, isLoadingMore=false, hasMore=true, filteredCount=15, error=''
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] HomeScreen BUILD State: isLoading=false, isLoadingMore=false, isInitialLoadComplete=false, error='', displayed=15, recent=0, popular=0, hasMore=true
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building main content CustomScrollView.
+[D] HomeScreen Section Render Check: isInitialLoadComplete=false, recentCount=0, popularCount=0
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=15
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
+[I] HomeScreen: RefreshIndicator triggered.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: true) <<<
+[I] MedicineProvider: loadInitialData called (forceUpdate: true)
+[I] MedicineProvider: Waiting for database seeding to complete...
+[I] MedicineProvider: Database seeding confirmed complete.
+[I] MedicineProvider: Loading timestamp...
+[D] MedicineProvider: _loadAndUpdateTimestamp called.
+[D] DrugRepository: getLastUpdateTimestamp called.
+[I] DrugRepository: getLastUpdateTimestamp successful, timestamp: 1744973926192
+[I] MedicineProvider: Last update timestamp loaded: 1744973926192
+[I] MedicineProvider: Timestamp loaded.
+[I] MedicineProvider: Loading categories...
+[D] MedicineProvider: _loadCategories called.
+[D] DrugRepository: getAvailableCategories called.
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', displayed=0, recent=0, popular=0, hasMore=true
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building loading indicator.
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=true, error='', results=0
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[I] DrugRepository: getAvailableCategories successful, found 12 categories.
+[I] MedicineProvider: Categories loaded successfully (12 items).
+[I] MedicineProvider: Categories loaded.
+[I] MedicineProvider: >>> TRYING _loadSimulatedSections...
+[D] MedicineProvider: _loadSimulatedSections called.
+[I] Fetching recently updated drugs since 2025-03-18 (limit: 8)
+[D] DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '2025-03-18', limit: 8
+[I] DrugRepository: getRecentlyUpdatedDrugs successful, found 8 drugs.
+[I] [_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
+[I] Fetching 10 popular (random) drugs
+[D] DrugRepository: getPopularDrugs called with limit: 10 (using random)
+[I] DrugRepository: getPopularDrugs successful, found 10 random drugs.
+[I] [_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
+[I] MedicineProvider: Sections loaded. Recent: 8, Popular: 10
+[I] MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: 8, Popular: 10
+[I] MedicineProvider: >>> TRYING _applyFilters (initial)...
+[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 10, FetchLimit: 11, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
+[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 11, Offset: 0, Append: false
+[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 11, Offset: 0, Category: ''
+[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
+[D] DrugRepository: searchDrugs called with query: '', limit: 11, offset: 0
+[I] DrugRepository: searchDrugs successful, found 11 drugs.
+[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 11 items.
+[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
+[I] MedicineProvider: Filtering complete for page 0. New items count: 11
+[D] MedicineProvider: hasMoreItems set to true. Items received: 11, Items to add: 10
+[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 10
+[I] MedicineProvider: Calculated price range based on current list: 0.0 - 390.0
+[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=false, isLoadingMore=false, hasMore=true, filteredCount=10, error=''
+[I] MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: 10
+[I] MedicineProvider: Initial load successful (Sections & Filters OK). Setting isInitialLoadComplete=true, isLoading=false. Notifying listeners.
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] HomeScreen BUILD State: isLoading=false, isLoadingMore=false, isInitialLoadComplete=true, error='', displayed=10, recent=8, popular=10, hasMore=true
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building main content CustomScrollView.
+[D] HomeScreen Section Render Check: isInitialLoadComplete=true, recentCount=8, popularCount=10
+[V] HomeScreen: Building categories section. Found 12 categories from provider: [Anti_inflammatory, Cold_respiratory, Cosmetics, Digestive, Other, Pain_management, Personal_care, Probiotics, Skin_care, Soothing, Supplements, Vitamins]
+[V] HomeScreen: Displayable categories after filtering: 0
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=10
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=abimol 150mg/5ml syrup 125ml, popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=abimol 150mg/5ml syrup 125ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=albutein 20% i.v. infusion (hospitals only), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=albutein 20% i.v. infusion (hospitals only)
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=alfabonid 2mcg/ml (1ml=2mcg) 10 amp., popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=alfabonid 2mcg/ml (1ml=2mcg) 10 amp.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=blincorest co 2/125mg 30 chew. tabs., popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=blincorest co 2/125mg 30 chew. tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=farcolin syrup 120ml, popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=farcolin syrup 120ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=kaveda oral drops 30ml, popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=kaveda oral drops 30ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=mexitil 200mg 100 cap, popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=mexitil 200mg 100 cap
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=suvreza 10/20mg 30 f.c. tabs, popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=suvreza 10/20mg 30 f.c. tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab., popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[I] MainScreen: _onItemTapped called with index: 4
+[I] MainScreen: Building widget. Selected index: 4
+[I] SettingsScreen: View Logs tile tapped.

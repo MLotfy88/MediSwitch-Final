@@ -415,13 +415,19 @@ class _HomeScreenState extends State<HomeScreen> {
       return const SizedBox.shrink();
     }
 
-    // Filter out categories that don't have a translation defined
+    // Helper function to normalize keys (lowercase, replace space/uppercase with underscore)
+    String normalizeKey(String key) {
+      return key
+          .replaceAllMapped(RegExp(r'([A-Z])'), (match) => '_${match.group(1)}')
+          .replaceAll(' ', '_')
+          .toLowerCase()
+          .replaceAll(RegExp(r'^_+'), '');
+    }
+
+    // Filter based on normalized keys having a translation
     final displayableCategories =
         englishCategories
-            .where(
-              (key) =>
-                  kCategoryTranslation.containsKey(key), // Use constant map
-            )
+            .where((key) => kCategoryTranslation.containsKey(normalizeKey(key)))
             .toList();
 
     _logger.v(
@@ -437,13 +443,14 @@ class _HomeScreenState extends State<HomeScreen> {
           // Iterate through the ORIGINAL English categories (keys from CSV)
           displayableCategories.map((englishCategoryName) {
             // 1. Translate to Arabic using the updated map
+            final normalizedKey = normalizeKey(englishCategoryName);
             final arabicCategoryName =
-                kCategoryTranslation[englishCategoryName] ?? // Use constant map
+                kCategoryTranslation[normalizedKey] ?? // Use normalized key for lookup
                 englishCategoryName; // Fallback
 
             // 2. Look up icon using the ORIGINAL English key (from CSV)
             final iconData =
-                kCategoryIcons[englishCategoryName] ?? // Use constant map
+                kCategoryIcons[normalizedKey] ?? // Use normalized key for lookup
                 kCategoryIcons['default']!;
 
             // 3. Build the card
