@@ -12,6 +12,12 @@ class LogNotifier extends ChangeNotifier {
   List<String> get logs => List.unmodifiable(_logs);
 
   void addLog(String log) {
+    // --- DEBUG PRINT ---
+    // This print statement will show up in the debug console (e.g., VS Code Debug Console or `flutter run` output)
+    // every time a log message is supposed to be added to the viewer.
+    print("[LogNotifier] addLog called: $log");
+    // --- END DEBUG PRINT ---
+
     if (_logs.length >= maxLogs) {
       _logs.removeFirst(); // Remove the oldest log if capacity is reached
     }

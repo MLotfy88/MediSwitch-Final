@@ -86,66 +86,92 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    _logger.i("HomeScreen: >>>>> build <<<<<"); // Lifecycle Log
-    final medicineProvider = context.watch<MedicineProvider>();
-    final isLoading = medicineProvider.isLoading;
-    final isLoadingMore = medicineProvider.isLoadingMore;
-    final error = medicineProvider.error;
-    final displayedMedicines = medicineProvider.filteredMedicines;
-    final isInitialLoadComplete =
-        medicineProvider.isInitialLoadComplete; // Get this state
-    final recentlyUpdatedCount = medicineProvider.recentlyUpdatedDrugs.length;
-    final popularCount = medicineProvider.popularDrugs.length;
+    _logger.i("HomeScreen: >>>>> build ENTRY <<<<<"); // Updated Log
+    try {
+      // Add try block here
+      final medicineProvider = context.watch<MedicineProvider>();
+      final isLoading = medicineProvider.isLoading;
+      final isLoadingMore = medicineProvider.isLoadingMore;
+      final error = medicineProvider.error;
+      final displayedMedicines = medicineProvider.filteredMedicines;
+      final isInitialLoadComplete =
+          medicineProvider.isInitialLoadComplete; // Get this state
+      final recentlyUpdatedCount = medicineProvider.recentlyUpdatedDrugs.length;
+      final popularCount = medicineProvider.popularDrugs.length;
 
-    // Log state at build time
-    _logger.d(
-      "HomeScreen BUILD State: isLoading=$isLoading, isLoadingMore=$isLoadingMore, isInitialLoadComplete=$isInitialLoadComplete, error='$error', displayed=${displayedMedicines.length}, recent=$recentlyUpdatedCount, popular=$popularCount, hasMore=${medicineProvider.hasMoreItems}",
-    );
+      // Log state at build time
+      _logger.d(
+        "HomeScreen BUILD State: isLoading=$isLoading, isLoadingMore=$isLoadingMore, isInitialLoadComplete=$isInitialLoadComplete, error='$error', displayed=${displayedMedicines.length}, recent=$recentlyUpdatedCount, popular=$popularCount, hasMore=${medicineProvider.hasMoreItems}",
+      );
 
-    return Scaffold(
-      // Wrap the body content with SafeArea
-      body: SafeArea(
-        child: Column(
-          children: [
-            const HomeHeader(),
-            Expanded(
-              child: RefreshIndicator(
-                onRefresh: () {
-                  _logger.i("HomeScreen: RefreshIndicator triggered.");
-                  // Reload all data, including the full list for local filtering
-                  return context.read<MedicineProvider>().loadInitialData(
-                    forceUpdate: true,
-                  );
-                },
-                // Refined Loading/Error Logic (Phase 1, Step 3)
-                child:
-                    isLoading && displayedMedicines.isEmpty
-                        ? _buildLoadingIndicator() // Initial load indicator
-                        : error.isNotEmpty
-                        ? _buildErrorWidget(
-                          context,
-                          error,
-                        ) // Show error prominently
-                        : _buildContent(
-                          // Build content if not initial loading and no error
-                          context,
-                          medicineProvider,
-                          displayedMedicines,
-                          isLoading,
-                          isLoadingMore,
-                          error,
-                          // Pass state variables needed inside _buildContent
-                          isInitialLoadComplete,
-                          recentlyUpdatedCount,
-                          popularCount,
-                        ),
+      // Log before returning Scaffold
+      _logger.v(
+        "HomeScreen: build - State read successfully. Returning Scaffold...",
+      );
+
+      return Scaffold(
+        // Wrap the body content with SafeArea
+        body: SafeArea(
+          child: Column(
+            children: [
+              const HomeHeader(),
+              Expanded(
+                child: RefreshIndicator(
+                  onRefresh: () {
+                    _logger.i("HomeScreen: RefreshIndicator triggered.");
+                    // Reload all data, including the full list for local filtering
+                    return context.read<MedicineProvider>().loadInitialData(
+                      forceUpdate: true,
+                    );
+                  },
+                  // Refined Loading/Error Logic (Phase 1, Step 3)
+                  child:
+                      isLoading && displayedMedicines.isEmpty
+                          ? _buildLoadingIndicator() // Initial load indicator
+                          : error.isNotEmpty
+                          ? _buildErrorWidget(
+                            context,
+                            error,
+                          ) // Show error prominently
+                          : _buildContent(
+                            // Build content if not initial loading and no error
+                            context,
+                            medicineProvider,
+                            displayedMedicines,
+                            isLoading,
+                            isLoadingMore,
+                            error,
+                            // Pass state variables needed inside _buildContent
+                            isInitialLoadComplete,
+                            recentlyUpdatedCount,
+                            popularCount,
+                          ),
+                ),
               ),
-            ),
-            const BannerAdWidget(),
-          ],
+              const BannerAdWidget(),
+            ],
+          ),
         ),
-      ),
-    );
+      );
+    } catch (e, s) {
+      // Catch and log any error during the build method
+      _logger.e("HomeScreen: >>>>> CRITICAL ERROR DURING BUILD <<<<<", e, s);
+      // Return a simple error widget instead of crashing
+      return Scaffold(
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Error building HomeScreen:\n$e\n\n$s', // Include stack trace
+              style: const TextStyle(color: Colors.red, fontSize: 12),
+              textDirection: TextDirection.ltr, // Ensure LTR for error messages
+            ),
+          ),
+        ),
+      );
+    } finally {
+      _logger.i("HomeScreen: >>>>> build EXIT <<<<<"); // Log exit
+    }
   }
 
   Widget _buildLoadingIndicator() {
