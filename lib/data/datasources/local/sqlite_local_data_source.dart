@@ -93,43 +93,42 @@ class SqliteLocalDataSource {
     return prefs.getInt(_prefsKeyLastUpdate);
   }
 
-  // Renamed to be public and indicate its purpose clearly.
-  // No longer automatically called. Returns Future<bool> indicating if seeding was performed.
-  Future<bool> performInitialSeedingIfNeeded() async {
+  // Performs initial seeding from the asset file. Called by SetupScreen.
+  // Returns true if seeding was attempted and completed successfully, false otherwise.
+  Future<bool> performInitialSeeding() async {
     if (_seedingCompleter.isCompleted) {
-      print('Seeding completer already completed. Assuming seeding is done.');
+      print(
+        'performInitialSeeding called, but completer is already completed. Skipping.',
+      );
       return false; // Seeding was not performed now
     }
-    // Remove _isSeeding check, as this method is now explicitly called.
 
-    print('Performing initial database seeding check...');
-    Database? db; // Declare db here again
-    bool seedingPerformed = false;
+    print('Performing initial database seeding from asset...');
+    Database? db;
+    bool seedingPerformedSuccessfully = false; // Track success specifically
     try {
-      // Restore original check logic
       db = await dbHelper.database; // Ensure DB is initialized first
-      final count = Sqflite.firstIntValue(
-        await db.rawQuery(
-          'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
-        ),
+
+      // --- Seeding Logic (No count check) ---
+      print(
+        'Seeding database from asset ON MAIN THREAD (unconditional attempt)...',
       );
-      print('Database seed check: Medicine count = $count');
+      final stopwatch = Stopwatch()..start();
 
-      if (count == 0) {
-        // db instance is already available here
+      print('[Main Thread] Loading raw CSV asset...');
+      final rawCsv = await rootBundle.loadString('assets/meds.csv');
+      print('[Main Thread] Raw CSV loaded.');
+
+      print('[Main Thread] Parsing CSV...');
+      final List<MedicineModel> medicines = _parseCsvData(rawCsv);
+      print('[Main Thread] Parsed ${medicines.length} medicines.');
+
+      if (medicines.isEmpty) {
         print(
-          'Medicines table is empty. Seeding database from asset ON MAIN THREAD...',
+          '[Main Thread] WARNING: Parsed medicine list is empty. Check CSV.',
         );
-        final stopwatch = Stopwatch()..start();
-
-        print('[Main Thread] Loading raw CSV asset...');
-        final rawCsv = await rootBundle.loadString('assets/meds.csv');
-        print('[Main Thread] Raw CSV loaded.');
-
-        print('[Main Thread] Parsing CSV...');
-        final List<MedicineModel> medicines = _parseCsvData(rawCsv);
-        print('[Main Thread] Parsed ${medicines.length} medicines.');
-
+        // Still complete normally, but log warning. Might need error handling?
+      } else {
         print('[Main Thread] Starting batch insert...');
         final batch = db.batch();
         for (final medicine in medicines) {
@@ -141,52 +140,42 @@ class SqliteLocalDataSource {
         }
         await batch.commit(noResult: true);
         print('[Main Thread] Batch insert completed.');
+      }
 
-        final prefs = await _prefs;
-        await prefs.setInt(
-          _prefsKeyLastUpdate,
-          DateTime.now().millisecondsSinceEpoch,
-        );
-        stopwatch.stop();
-        print(
-          'Database seeded successfully ON MAIN THREAD in ${stopwatch.elapsedMilliseconds}ms.',
-        );
-        seedingPerformed = true; // <-- Add this line
-        if (!_seedingCompleter.isCompleted) {
-          _seedingCompleter.complete();
-        }
-      } else {
-        print('Database already contains data. Skipping seed.');
-        if (!_seedingCompleter.isCompleted) {
-          _seedingCompleter.complete();
-        }
+      final prefs = await _prefs;
+      await prefs.setInt(
+        _prefsKeyLastUpdate,
+        DateTime.now().millisecondsSinceEpoch,
+      );
+      stopwatch.stop();
+      print(
+        'Database seeding attempt finished ON MAIN THREAD in ${stopwatch.elapsedMilliseconds}ms.',
+      );
+      seedingPerformedSuccessfully = true; // Mark as successful
+      // --- End Seeding Logic ---
+
+      if (!_seedingCompleter.isCompleted) {
+        _seedingCompleter.complete(); // Complete on success
       }
     } catch (e, s) {
-      print('Error during MAIN THREAD seeding check/process: $e');
+      print('Error during MAIN THREAD seeding process: $e');
       print(s);
+      seedingPerformedSuccessfully = false; // Mark as failed
       if (!_seedingCompleter.isCompleted) {
-        _seedingCompleter.completeError(e, s);
+        _seedingCompleter.completeError(e, s); // Complete with error
       }
-      seedingPerformed = true; // Mark that seeding was done
-    } catch (e, s) {
-      print('Error during performInitialSeedingIfNeeded: $e');
-      print(s);
-      if (!_seedingCompleter.isCompleted) {
-        // Propagate the error through the completer
-        _seedingCompleter.completeError(e, s);
-      }
-      rethrow; // Rethrow the error to the caller (e.g., SetupScreen)
+      // We don't rethrow here, SetupScreen will handle based on return value
     } finally {
-      // Ensure completer is completed even if seeding wasn't needed or failed before completion
+      // Ensure completer is completed if something unexpected happened before completion
       if (!_seedingCompleter.isCompleted) {
         print(
-          'Completing seeding completer (likely because seeding was skipped or finished).',
+          'Completing seeding completer in finally block (unexpected state).',
         );
-        _seedingCompleter.complete();
+        _seedingCompleter.complete(); // Complete normally as a fallback
       }
-      print('performInitialSeedingIfNeeded finished.');
+      print('performInitialSeeding finished.');
     }
-    return seedingPerformed;
+    return seedingPerformedSuccessfully; // Return success status
   }
 
   // Method to manually complete the seeder if seeding is known to be done elsewhere

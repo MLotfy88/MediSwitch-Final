@@ -39,18 +39,32 @@ class _SetupScreenState extends State<SetupScreen> {
 
     try {
       final stopwatch = Stopwatch()..start();
+      // Call the renamed method. It returns true if seeding was attempted and successful.
+      final bool seedingSuccessful =
+          await _localDataSource.performInitialSeeding();
       _seedingWasPerformed =
-          await _localDataSource.performInitialSeedingIfNeeded();
+          seedingSuccessful; // Keep track for potential future use? (Currently unused)
       stopwatch.stop();
       _logger.i(
-        "SetupScreen: Seeding process finished. Was seeding performed?: $_seedingWasPerformed. Duration: ${stopwatch.elapsedMilliseconds}ms",
+        "SetupScreen: Seeding process finished. Seeding attempt successful?: $seedingSuccessful. Duration: ${stopwatch.elapsedMilliseconds}ms",
       );
 
-      // If seeding completed (or wasn't needed), navigate away.
-      if (mounted) {
+      // If seeding attempt was successful, navigate away.
+      // If it failed, an error should be shown (handled in catch block).
+      if (seedingSuccessful && mounted) {
+        // Only navigate if seeding was successful
         _navigateToMainApp();
+      } else if (!seedingSuccessful && mounted) {
+        // If seeding failed but didn't throw an exception (e.g., empty CSV parse)
+        // Show a generic error, as the catch block might not have been hit.
+        setState(() {
+          _isSeeding = false;
+          _error =
+              "فشل إعداد قاعدة البيانات الأولية.\nلم يتم العثور على بيانات للتحميل.";
+        });
       }
     } catch (e, s) {
+      // Catch exceptions thrown by performInitialSeeding
       _logger.e("SetupScreen: Error during initial seeding", e, s);
       if (mounted) {
         setState(() {
