@@ -151,6 +151,7 @@ class SqliteLocalDataSource {
         print(
           'Database seeded successfully ON MAIN THREAD in ${stopwatch.elapsedMilliseconds}ms.',
         );
+        seedingPerformed = true; // <-- Add this line
         if (!_seedingCompleter.isCompleted) {
           _seedingCompleter.complete();
         }
