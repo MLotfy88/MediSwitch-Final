@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../bloc/medicine_provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 
 class FilterEndDrawer extends StatefulWidget {
   const FilterEndDrawer({super.key});
@@ -37,6 +38,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!; // Get localizations instance
     final provider = context.watch<MedicineProvider>();
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
@@ -45,7 +47,10 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
 
     // Ensure state is initialized before building UI that depends on it
     // This check might be redundant due to addPostFrameCallback, but safe to keep
-    if (!mounted || !(_tempPriceRange.start <= _tempPriceRange.end)) {
+    // Check if _tempPriceRange is initialized before accessing start/end
+    if (!mounted ||
+        !this.isStateInitialized ||
+        !(_tempPriceRange.start <= _tempPriceRange.end)) {
       // Show a loading or empty state if not initialized
       return const Drawer(child: Center(child: CircularProgressIndicator()));
     }
@@ -64,7 +69,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'فلترة النتائج',
+                    l10n.filterResultsTitle, // Use localized string
                     style: textTheme.titleLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
@@ -75,7 +80,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                       color: colorScheme.onSurfaceVariant,
                     ),
                     onPressed: () => Navigator.pop(context), // Close drawer
-                    tooltip: 'إغلاق',
+                    tooltip: l10n.closeTooltip, // Use localized string
                     splashRadius: 20,
                   ),
                 ],
@@ -90,7 +95,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                   children: [
                     // --- Categories Filter ---
                     Text(
-                      'الفئات',
+                      l10n.categoriesSectionTitle, // Use localized string
                       style: textTheme.titleMedium?.copyWith(
                         fontWeight: FontWeight.w500,
                       ),
@@ -104,7 +109,9 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                             final isSelected =
                                 _tempSelectedCategory == category;
                             return FilterChip(
-                              label: Text(category),
+                              label: Text(
+                                category,
+                              ), // Category names might need localization too if they are keys
                               selected: isSelected,
                               onSelected: (selected) {
                                 setState(() {
@@ -144,7 +151,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
 
                     // --- Price Range Filter ---
                     Text(
-                      'نطاق السعر',
+                      l10n.priceRangeSectionTitle, // Use localized string
                       style: textTheme.titleMedium?.copyWith(
                         fontWeight: FontWeight.w500,
                       ),
@@ -157,8 +164,12 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                       divisions:
                           (provider.maxPrice > provider.minPrice) ? 20 : null,
                       labels: RangeLabels(
-                        '${_tempPriceRange.start.round()} ج.م',
-                        '${_tempPriceRange.end.round()} ج.م',
+                        l10n.priceRangeLabel(
+                          _tempPriceRange.start.round().toString(),
+                        ), // Use localized string
+                        l10n.priceRangeLabel(
+                          _tempPriceRange.end.round().toString(),
+                        ), // Use localized string
                       ),
                       onChanged: (RangeValues values) {
                         setState(() {
@@ -176,13 +187,17 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            '${_tempPriceRange.start.round()} ج.م',
+                            l10n.priceRangeLabel(
+                              _tempPriceRange.start.round().toString(),
+                            ), // Use localized string
                             style: textTheme.bodySmall?.copyWith(
                               color: colorScheme.onSurfaceVariant,
                             ),
                           ),
                           Text(
-                            '${_tempPriceRange.end.round()} ج.م',
+                            l10n.priceRangeLabel(
+                              _tempPriceRange.end.round().toString(),
+                            ), // Use localized string
                             style: textTheme.bodySmall?.copyWith(
                               color: colorScheme.onSurfaceVariant,
                             ),
@@ -221,7 +236,7 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                         foregroundColor: colorScheme.onSurfaceVariant,
                         side: BorderSide(color: colorScheme.outline),
                       ),
-                      child: const Text('إعادة تعيين'),
+                      child: Text(l10n.resetButton), // Use localized string
                     ),
                   ),
                   const SizedBox(width: 8), // gap-2
@@ -244,7 +259,9 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                         backgroundColor: colorScheme.primary,
                         foregroundColor: colorScheme.onPrimary,
                       ),
-                      child: const Text('تطبيق الفلاتر'),
+                      child: Text(
+                        l10n.applyFiltersButton,
+                      ), // Use localized string
                     ),
                   ),
                 ],
@@ -254,5 +271,17 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
         ),
       ),
     );
+  }
+
+  // Helper to check if state variables are initialized
+  bool get isStateInitialized {
+    try {
+      // Accessing the variables will throw if not initialized
+      _tempSelectedCategory;
+      _tempPriceRange;
+      return true;
+    } catch (_) {
+      return false;
+    }
   }
 }

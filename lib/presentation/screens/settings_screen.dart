@@ -12,6 +12,7 @@ import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -46,7 +47,8 @@ class SettingsScreen extends StatelessWidget {
     final colorScheme = theme.colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('الإعدادات')),
+      // Use localized string for AppBar title
+      appBar: AppBar(title: Text(AppLocalizations.of(context)!.settingsTitle)),
       // Wrap the body content with SafeArea
       body: SafeArea(
         child: ListView(
@@ -62,10 +64,12 @@ class SettingsScreen extends StatelessWidget {
             // --- General Section ---
             _buildSectionCard(
               context,
-              title: 'عام',
+              // Use localized string
+              title: AppLocalizations.of(context)!.generalSectionTitle,
               children: [
                 SettingsListTile(
-                  title: 'اللغة',
+                  // Use localized string for Language setting title
+                  title: AppLocalizations.of(context)!.languageSettingTitle,
                   subtitle:
                       settingsProvider.locale.languageCode == 'ar'
                           ? 'العربية'
@@ -83,7 +87,8 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 // Divider handled by ListView.separated in _buildSectionCard
                 SettingsListTile(
-                  title: 'المظهر',
+                  // Use localized string
+                  title: AppLocalizations.of(context)!.appearanceSettingTitle,
                   subtitle: _themeModeToString(settingsProvider.themeMode),
                   leadingIcon:
                       isDarkMode(context) ? LucideIcons.moon : LucideIcons.sun,
@@ -115,7 +120,8 @@ class SettingsScreen extends StatelessWidget {
             // --- Data Section ---
             _buildSectionCard(
               context,
-              title: 'البيانات',
+              // Use localized string
+              title: AppLocalizations.of(context)!.dataSectionTitle,
               children: [
                 SettingsListTile(
                   title: 'آخر تحديث للبيانات',
@@ -183,7 +189,8 @@ class SettingsScreen extends StatelessWidget {
             // --- Subscription Section ---
             _buildSectionCard(
               context,
-              title: 'الاشتراك',
+              // Use localized string
+              title: AppLocalizations.of(context)!.subscriptionSectionTitle,
               children: [
                 SettingsListTile(
                   title: 'إدارة الاشتراك',
@@ -212,7 +219,8 @@ class SettingsScreen extends StatelessWidget {
             // --- About Section ---
             _buildSectionCard(
               context,
-              title: 'حول التطبيق',
+              // Use localized string
+              title: AppLocalizations.of(context)!.aboutSectionTitle,
               children: [
                 SettingsListTile(
                   title: 'عن MediSwitch',
@@ -303,7 +311,8 @@ class SettingsScreen extends StatelessWidget {
 
     return _buildSectionCard(
       context,
-      title: 'الملف الشخصي',
+      // Use localized string
+      title: AppLocalizations.of(context)!.profileSectionTitle,
       children: [
         Padding(
           padding: const EdgeInsets.all(

@@ -1,0 +1,80 @@
+{
+  "@@locale": "en",
+  "appTitle": "MediSwitch",
+  "settingsTitle": "Settings",
+  "languageSettingTitle": "Language",
+  "generalSectionTitle": "General",
+  "appearanceSettingTitle": "Appearance",
+  "dataSectionTitle": "Data",
+  "subscriptionSectionTitle": "Subscription",
+  "aboutSectionTitle": "About",
+  "profileSectionTitle": "Profile",
+  "recentlyUpdatedDrugs": "Recently Updated Drugs",
+  "mostSearchedDrugs": "Most Searched Drugs",
+  "medicalCategories": "Medical Categories",
+  "errorOccurred": "An Error Occurred",
+  "retry": "Retry",
+  "backTooltip": "Back",
+  "searchHint": "Search for a medicine...",
+  "errorMessage": "Error: {errorDetails}",
+  "@errorMessage": {
+    "description": "Error message displayed when fetching data fails",
+    "placeholders": {
+      "errorDetails": {
+        "type": "String",
+        "example": "Network connection failed"
+      }
+    }
+  },
+  "startSearchingPrompt": "Start searching for a medicine...",
+  "endOfList": "You've reached the end of the list",
+  "noResultsFoundTitle": "No Results Found",
+  "noResultsFoundSubtitle": "Try searching with different keywords or check your spelling.",
+  "favoriteFeatureSnackbar": "Favorites feature requires Premium subscription (Coming soon).",
+  "interactionCheckerSnackbar": "Interaction checker feature is under development (Coming soon).",
+  "drugDetailsTitle": "Drug Details",
+  "doseCalculatorButton": "Dose Calculator",
+  "drugInteractionsButton": "Drug Interactions",
+  "infoTab": "Info",
+  "usageTab": "Usage",
+  "dosageTab": "Dosage",
+  "sideEffectsTab": "Effects",
+  "contraindicationsTab": "Contra",
+  "companyLabel": "Company:",
+  "categoryLabel": "Category:",
+  "formLabel": "Form:",
+  "concentrationLabel": "Concentration:",
+  "lastUpdateLabel": "Last Update:",
+  "noUsageInfo": "No usage information available.",
+  "dosageTitle": "Dosage",
+  "consultDoctorOrPharmacist": "Consult your doctor or pharmacist for the appropriate dosage.",
+  "weightDosageCalculatorTitle": "Weight-Based Dose Calculator",
+  "weightDosageCalculatorSubtitle": "Calculate the appropriate dose for children.",
+  "openDoseCalculatorButton": "Open Dose Calculator",
+  "noSideEffectsInfo": "No side effects information currently available.",
+  "noContraindicationsInfo": "No contraindications information currently available.",
+  "availableAlternativesTitle": "Available Alternatives",
+  "addToFavoritesTooltip": "Add to Favorites (Premium)",
+  "knownInteractionsTitle": "Known Interactions",
+  "noDirectInteractionInfo": "No direct interaction information currently available for this drug.",
+  "multiInteractionCheckerTitle": "Multi-Interaction Checker",
+  "multiInteractionCheckerSubtitle": "Add this and other drugs to check for potential interactions between them.",
+  "openInteractionCheckerButton": "Open Interaction Checker",
+  "filterResultsTitle": "Filter Results",
+  "closeTooltip": "Close",
+  "categoriesSectionTitle": "Categories",
+  "priceRangeSectionTitle": "Price Range",
+  "currencySymbol": "L.E",
+  "priceRangeLabel": "{price} L.E",
+  "@priceRangeLabel": {
+    "description": "Label showing price with currency for range slider",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "150"
+      }
+    }
+  },
+  "resetButton": "Reset",
+  "applyFiltersButton": "Apply Filters"
+}

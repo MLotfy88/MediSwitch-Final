@@ -14,6 +14,8 @@ import 'presentation/bloc/interaction_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
+import 'package:flutter_localizations/flutter_localizations.dart'; // Added for localization
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Added for generated localizations
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
 // import 'presentation/screens/setup_screen.dart';
@@ -467,9 +469,17 @@ class MyApp extends StatelessWidget {
             theme: _buildThemeData(Brightness.light), // Use helper function
             darkTheme: _buildThemeData(Brightness.dark), // Use helper function
             locale: settingsProvider.locale,
-            // TODO: Add localization delegates and supported locales
-            // localizationsDelegates: [ ... ],
-            // supportedLocales: [ const Locale('en'), const Locale('ar'), ],
+            // Added localization delegates and supported locales
+            localizationsDelegates: const [
+              AppLocalizations.delegate, // Generated delegate
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            supportedLocales: const [
+              Locale('en'), // English
+              Locale('ar'), // Arabic
+            ],
             home: homeWidget,
           );
         },

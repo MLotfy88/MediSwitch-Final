@@ -13,6 +13,7 @@ import 'drug_details_screen.dart';
 import '../services/ad_service.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
@@ -128,6 +129,7 @@ class _SearchScreenState extends State<SearchScreen> {
     _logger.i("SearchScreen: >>>>> build ENTRY <<<<<"); // Updated Log
     try {
       // Add try block here
+      final l10n = AppLocalizations.of(context)!; // Get localizations instance
       final provider = context.watch<MedicineProvider>();
       final theme = Theme.of(context);
       final colorScheme = theme.colorScheme;
@@ -169,14 +171,14 @@ class _SearchScreenState extends State<SearchScreen> {
                             context,
                           ); // Use maybePop for safety
                         },
-                        tooltip: 'رجوع',
+                        tooltip: l10n.backTooltip, // Use localized string
                       ),
                       titleSpacing: 0, // Remove default title spacing
                       title: TextField(
                         controller: _searchController,
                         autofocus: widget.initialQuery.isEmpty,
                         decoration: InputDecoration(
-                          hintText: 'ابحث عن دواء...',
+                          hintText: l10n.searchHint, // Use localized string
                           border: InputBorder.none,
                           enabledBorder: InputBorder.none,
                           focusedBorder: InputBorder.none,
@@ -240,6 +242,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     _buildResultsListSliver(
                       context,
                       provider,
+                      l10n, // Pass l10n
                     ), // Build results as sliver
                   ],
                 ),
@@ -274,6 +277,7 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget _buildResultsListSliver(
     BuildContext context,
     MedicineProvider provider,
+    AppLocalizations l10n, // Add l10n parameter
   ) {
     if (provider.isLoading && provider.filteredMedicines.isEmpty) {
       return const SliverFillRemaining(
@@ -287,7 +291,9 @@ class _SearchScreenState extends State<SearchScreen> {
         // Use SliverFillRemaining
         child: Center(
           child: Text(
-            'خطأ: ${provider.error}',
+            l10n.errorMessage(
+              provider.error,
+            ), // Use localized string with placeholder
             style: TextStyle(color: Theme.of(context).colorScheme.error),
           ),
         ),
@@ -298,7 +304,7 @@ class _SearchScreenState extends State<SearchScreen> {
       // Show empty state only if a search was performed and yielded no results
       return SliverFillRemaining(
         // Use SliverFillRemaining
-        child: _buildEmptySearchMessage(context),
+        child: _buildEmptySearchMessage(context, l10n), // Pass l10n
         hasScrollBody: false,
       );
     } else if (provider.filteredMedicines.isEmpty &&
@@ -308,7 +314,7 @@ class _SearchScreenState extends State<SearchScreen> {
         // Use SliverFillRemaining
         child: Center(
           child: Text(
-            'ابدأ البحث عن دواء...',
+            l10n.startSearchingPrompt, // Use localized string
             style: TextStyle(color: Theme.of(context).hintColor),
           ),
         ),
@@ -347,7 +353,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 padding: AppSpacing.edgeInsetsVLarge, // Use constant (16px)
                 child: Center(
                   child: Text(
-                    'وصلت إلى نهاية القائمة',
+                    l10n.endOfList, // Use localized string
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).hintColor,
                     ),
@@ -367,7 +373,8 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  Widget _buildEmptySearchMessage(BuildContext context) {
+  Widget _buildEmptySearchMessage(BuildContext context, AppLocalizations l10n) {
+    // Add l10n parameter
     final theme = Theme.of(context);
     return Center(
       child: Padding(
@@ -384,12 +391,12 @@ class _SearchScreenState extends State<SearchScreen> {
             ), // SearchIcon h-12 w-12 text-muted-foreground
             AppSpacing.gapVLarge, // Use constant (16px)
             Text(
-              'لم يتم العثور على نتائج',
+              l10n.noResultsFoundTitle, // Use localized string
               style: theme.textTheme.titleLarge,
             ), // text-lg
             AppSpacing.gapVSmall, // Use constant (8px)
             Text(
-              'حاول البحث بكلمات أخرى أو تحقق من الإملاء.',
+              l10n.noResultsFoundSubtitle, // Use localized string
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.hintColor,
               ), // text-muted-foreground
