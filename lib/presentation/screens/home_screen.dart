@@ -41,14 +41,13 @@ class _HomeScreenState extends State<HomeScreen> {
     // REMOVED: Scroll listener no longer needed here
     // _scrollController.addListener(_onScroll);
 
-    // Trigger initial data load after the first frame
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) {
-        // Check if the widget is still in the tree
-        _logger.i("HomeScreen: Triggering initial data load from initState.");
-        context.read<MedicineProvider>().loadInitialData();
-      }
-    });
+    // REMOVED: Redundant call to loadInitialData. Provider handles this in constructor.
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   if (mounted) {
+    //     _logger.i("HomeScreen: Triggering initial data load from initState.");
+    //     context.read<MedicineProvider>().loadInitialData();
+    //   }
+    // });
   }
 
   @override

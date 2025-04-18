@@ -88,6 +88,12 @@
 
 [D] OnboardingScreen: Building widget.
 
+[D] OnboardingScreen: Building widget.
+
+[D] OnboardingScreen: Building widget.
+
+[D] OnboardingScreen: Building widget.
+
 [I] OnboardingScreen: Onboarding complete.
 
 [I] OnboardingScreen: Set onboarding complete flag.
@@ -114,7 +120,7 @@
 
 [D] SetupScreen: Building widget. isSeeding: true, error: null
 
-[I] SetupScreen: Seeding process finished. Was seeding performed?: false. Duration: 2572ms
+[I] SetupScreen: Seeding process finished. Was seeding performed?: false. Duration: 2502ms
 
 [I] SetupScreen: Seeding complete. Navigating to MainScreen...
 
@@ -180,15 +186,12 @@
 
 [I] SearchScreen: Back button pressed. Popping route.
 
-[I] SearchScreen: Back button pressed. Popping route.
+[I] MainScreen: _onItemTapped called with index: 0
+
+[I] MainScreen: Building widget. Selected index: 0
 
 [I] MainScreen: _onItemTapped called with index: 4
 
 [I] MainScreen: Building widget. Selected index: 4
 
-[I] MainScreen: _onItemTapped called with index: 0
-
-[I] MainScreen: Building widget. Selected index: 0
-
-[I] MainScreen: _onItemTapped calleSBuelnex]gsgsI]tee cllh  inn Belnd
-[]reeteeth4ai:  wSeeein[I Vi ttpe
+[I] SettingsScreen: View Logs tile tapped.
