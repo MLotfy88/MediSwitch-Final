@@ -28,6 +28,8 @@ class _SearchScreenState extends State<SearchScreen> {
   Timer? _debounce;
   final GlobalKey<ScaffoldState> _scaffoldKey =
       GlobalKey<ScaffoldState>(); // Key for drawer
+  final ScrollController _scrollController =
+      ScrollController(); // Add ScrollController for pagination
 
   @override
   void initState() {
@@ -45,6 +47,7 @@ class _SearchScreenState extends State<SearchScreen> {
       });
     }
     _searchController.addListener(_onSearchChanged);
+    _scrollController.addListener(_onScroll); // Add listener
   }
 
   @override
@@ -53,6 +56,8 @@ class _SearchScreenState extends State<SearchScreen> {
     _debounce?.cancel();
     _searchController.dispose();
     super.dispose();
+    _scrollController.removeListener(_onScroll); // Remove listener
+    _scrollController.dispose(); // Dispose controller
   }
 
   void _onSearchChanged() {
@@ -71,6 +76,34 @@ class _SearchScreenState extends State<SearchScreen> {
         }
       }
     });
+  }
+
+  // Add _onScroll method for pagination (adapted from HomeScreen)
+  void _onScroll() {
+    final provider = context.read<MedicineProvider>();
+    final currentPixels = _scrollController.position.pixels;
+    final maxScroll = _scrollController.position.maxScrollExtent;
+    // Adjust trigger point if needed, 300 pixels from bottom seems reasonable
+    final triggerPoint = maxScroll - 300;
+    final bool isNearBottom =
+        currentPixels >= triggerPoint && maxScroll > 0; // Ensure maxScroll > 0
+    final bool canLoadMore =
+        provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
+    final shouldLoadMore = isNearBottom && canLoadMore;
+
+    _logger.v(
+      "SearchScreen _onScroll: Pixels=${currentPixels.toStringAsFixed(1)}, MaxScroll=${maxScroll.toStringAsFixed(1)}, TriggerAt=${triggerPoint.toStringAsFixed(1)}, IsNearBottom=$isNearBottom, CanLoadMore=$canLoadMore, ShouldLoad=$shouldLoadMore",
+    );
+
+    if (shouldLoadMore) {
+      _logger.i("SearchScreen: Reached near bottom, calling loadMoreDrugs...");
+      // Use try-catch just in case
+      try {
+        provider.loadMoreDrugs();
+      } catch (e, s) {
+        _logger.e("SearchScreen: Error calling loadMoreDrugs", e, s);
+      }
+    }
   }
 
   void _openFilterDrawer() {
@@ -116,6 +149,7 @@ class _SearchScreenState extends State<SearchScreen> {
               Expanded(
                 child: CustomScrollView(
                   // Use CustomScrollView for SliverAppBar
+                  controller: _scrollController, // Assign controller
                   slivers: <Widget>[
                     SliverAppBar(
                       backgroundColor: colorScheme.surface, // bg-card
@@ -130,7 +164,9 @@ class _SearchScreenState extends State<SearchScreen> {
                           _logger.i(
                             "SearchScreen: Back button pressed. Popping route.",
                           ); // Navigation Log
-                          Navigator.of(context).pop();
+                          Navigator.maybePop(
+                            context,
+                          ); // Use maybePop for safety
                         },
                         tooltip: 'رجوع',
                       ),
@@ -275,24 +311,53 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
-    // Use SliverPadding + SliverList for better spacing control (gap-3)
+    // REMOVED Original SliverPadding/SliverList block that was duplicated
+
+    // Add loading indicator or end message at the bottom
     return SliverPadding(
       padding: const EdgeInsets.all(16.0), // p-4 for the list container
       sliver: SliverList(
-        delegate: SliverChildBuilderDelegate((context, index) {
-          final drug = provider.filteredMedicines[index];
-          return Padding(
-            // Add padding between items (gap-3 equivalent)
-            padding: const EdgeInsets.only(bottom: 12.0),
-            child: DrugCard(
-              // Uses kCategoryTranslation internally now
-              drug: drug,
-              type:
-                  DrugCardType.detailed, // Use detailed card for search results
-              onTap: () => _navigateToDetails(context, drug),
-            ),
-          );
-        }, childCount: provider.filteredMedicines.length),
+        delegate: SliverChildBuilderDelegate(
+          (context, index) {
+            // Existing drug card rendering
+            if (index < provider.filteredMedicines.length) {
+              final drug = provider.filteredMedicines[index];
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12.0), // gap-3
+                child: DrugCard(
+                  drug: drug,
+                  type: DrugCardType.detailed,
+                  onTap: () => _navigateToDetails(context, drug),
+                ),
+              );
+            }
+            // Render loading indicator or end message
+            else if (provider.isLoadingMore) {
+              return const Padding(
+                padding: EdgeInsets.symmetric(vertical: 16.0),
+                child: Center(child: CircularProgressIndicator()),
+              );
+            } else if (!provider.hasMoreItems) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                child: Center(
+                  child: Text(
+                    'وصلت إلى نهاية القائمة',
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: Theme.of(context).hintColor,
+                    ),
+                  ),
+                ),
+              );
+            } else {
+              return const SizedBox.shrink(); // Should not happen
+            }
+          },
+          // Add 1 to child count if loading more or at the end
+          childCount:
+              provider.filteredMedicines.length +
+              (provider.isLoadingMore || !provider.hasMoreItems ? 1 : 0),
+        ),
       ),
     );
   }
