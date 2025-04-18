@@ -10,6 +10,7 @@ import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
 import '../../domain/entities/drug_entity.dart';
 import '../widgets/custom_badge.dart'; // Import CustomBadge
 import '../../core/constants/app_constants.dart'; // Import the constants file
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 enum DrugCardType { thumbnail, detailed }
 
@@ -21,23 +22,21 @@ class DrugCard extends StatelessWidget {
   final DrugCardType type;
   final bool isPopular; // Flag for popular drug
   final bool isAlternative; // Flag for alternative drug
-  // REMOVED: categoryTranslation parameter
 
   DrugCard({
-    // REMOVED const
     super.key,
     required this.drug,
-    // REMOVED: required this.categoryTranslation,
     this.onTap,
     this.type = DrugCardType.detailed,
-    this.isPopular = false, // Default to false
-    this.isAlternative = false, // Default to false
+    this.isPopular = false,
+    this.isAlternative = false,
   });
 
   // Helper to format price after parsing
   String _formatPrice(String priceString) {
     final price = double.tryParse(priceString);
     if (price == null) return priceString;
+    // Use a locale that supports Arabic numerals if needed, or keep en_US for consistency
     return NumberFormat("#,##0.##", "en_US").format(price);
   }
 
@@ -48,11 +47,23 @@ class DrugCard extends StatelessWidget {
     return double.tryParse(cleanedPrice);
   }
 
+  // Helper to format dosage string
+  String _formatDosage(DrugEntity drug) {
+    String dosage = drug.dosageForm;
+    if (drug.concentration > 0) {
+      // Format concentration nicely (remove trailing .0)
+      String concentrationStr = drug.concentration.toStringAsFixed(
+        drug.concentration.truncateToDouble() == drug.concentration ? 0 : 1,
+      );
+      dosage += ' $concentrationStr ${drug.unit}';
+    }
+    return dosage.trim();
+  }
+
   @override
   Widget build(BuildContext context) {
-    // Log card build entry
     _logger.v(
-      "DrugCard build: type=$type, drug=${drug.tradeName}, popular=$isPopular, alternative=$isAlternative", // REMOVED drug.id
+      "DrugCard build: type=$type, drug=${drug.tradeName}, popular=$isPopular, alternative=$isAlternative",
     );
 
     Widget cardContent =
@@ -60,23 +71,21 @@ class DrugCard extends StatelessWidget {
             ? _buildThumbnailCard(context)
             : _buildDetailedCard(context);
 
-    // Add semantic label for alternative if applicable
     String alternativeLabel = isAlternative ? ' بديل لدواء آخر.' : '';
     String popularLabel = isPopular ? ' دواء شائع.' : '';
+    String dosageLabel = _formatDosage(drug);
 
     return Semantics(
       label:
-          'تفاصيل دواء ${drug.tradeName}, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
+          '${drug.tradeName}${drug.arabicName.isNotEmpty ? ' (${drug.arabicName})' : ''}, $dosageLabel, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
       button: true,
       child: cardContent,
     );
   }
 
-  // Detailed Card Implementation (Matching Design Lab)
+  // --- Detailed Card Implementation (Redesigned) ---
   Widget _buildDetailedCard(BuildContext context) {
-    _logger.v(
-      "DrugCard _buildDetailedCard: drug=${drug.tradeName}",
-    ); // Log detailed build
+    _logger.v("DrugCard _buildDetailedCard: drug=${drug.tradeName}");
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -90,191 +99,185 @@ class DrugCard extends StatelessWidget {
     final bool isPriceIncreased =
         isPriceChanged && currentPriceValue! > oldPriceValue!;
     final double priceChangePercentage =
-        isPriceChanged && oldPriceValue! != 0
+        isPriceChanged && oldPriceValue != null && oldPriceValue != 0
             ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
 
+    final String dosageString = _formatDosage(drug);
+
     return Card(
-      clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
-      ), // rounded-lg (8px)
-      elevation: 1.5,
-      child: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              colorScheme.surface,
-              colorScheme.background,
-            ], // from-card to-background
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-          borderRadius: BorderRadius.circular(8.0),
-        ),
-        child: InkWell(
-          onTap: onTap,
-          borderRadius: BorderRadius.circular(8.0),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                height: 6.0, // h-1.5
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [
-                      colorScheme.primary.withOpacity(0.15),
-                      colorScheme.primary.withOpacity(0.20),
-                    ],
-                    begin: Alignment.centerLeft,
-                    end: Alignment.centerRight,
+      // Using Card properties defined in main.dart theme
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(
+          AppSpacing.medium,
+        ), // Match theme card radius (12)
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Optional: Top highlight bar if needed by design
+            // Container(
+            //   height: AppSpacing.xsmall,
+            //   decoration: BoxDecoration(
+            //     gradient: LinearGradient( ... ),
+            //   ),
+            // ),
+            Padding(
+              padding: AppSpacing.edgeInsetsAllLarge, // p-4 (16px)
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // --- Drug Names ---
+                  Text(
+                    drug.tradeName,
+                    style: textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w600, // Semibold
+                    ),
+                    maxLines: 2, // Allow wrapping
+                    overflow: TextOverflow.ellipsis,
                   ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(16.0), // p-4
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            drug.tradeName,
-                            style: textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w600,
-                            ), // text-base font-semibold
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          if (drug.arabicName.isNotEmpty)
-                            Padding(
-                              padding: const EdgeInsets.only(top: 2.0),
-                              child: Text(
-                                drug.arabicName,
-                                style: textTheme.bodyMedium?.copyWith(
-                                  color: colorScheme.onSurfaceVariant,
-                                ), // text-sm text-muted-foreground
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ),
-                          const SizedBox(height: 8), // mt-2
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Row(
-                                // Wrap category and alternative badge
-                                children: [
-                                  if (drug.mainCategory.isNotEmpty)
-                                    CustomBadge(
-                                      // Use translated category name from constants, fallback to original
-                                      label:
-                                          kCategoryTranslation[drug
-                                              .mainCategory] ??
-                                          drug.mainCategory,
-                                      backgroundColor:
-                                          colorScheme.secondaryContainer,
-                                      textColor:
-                                          colorScheme.onSecondaryContainer,
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 10,
-                                        vertical: 2,
-                                      ), // px-2.5 py-0.5
-                                    ),
-                                  if (isAlternative) // Show Alternative badge
-                                    Padding(
-                                      padding: const EdgeInsetsDirectional.only(
-                                        start: 4.0,
-                                      ),
-                                      child: CustomBadge(
-                                        label: 'بديل',
-                                        backgroundColor:
-                                            colorScheme.primaryContainer,
-                                        textColor:
-                                            colorScheme.onPrimaryContainer,
-                                        padding: const EdgeInsets.symmetric(
-                                          horizontal: 8,
-                                          vertical: 2,
-                                        ),
-                                      ),
-                                    ),
-                                ],
-                              ),
-                              Row(
-                                crossAxisAlignment: CrossAxisAlignment.baseline,
-                                textBaseline: TextBaseline.alphabetic,
-                                children: [
-                                  if (isPriceChanged)
-                                    Padding(
-                                      padding: const EdgeInsetsDirectional.only(
-                                        end: 4.0,
-                                      ),
-                                      child: CustomBadge(
-                                        label:
-                                            '${priceChangePercentage.toStringAsFixed(0)}%',
-                                        backgroundColor:
-                                            isPriceIncreased
-                                                ? colorScheme.errorContainer
-                                                    .withOpacity(0.7)
-                                                : Colors.green.shade100,
-                                        textColor:
-                                            isPriceIncreased
-                                                ? colorScheme.onErrorContainer
-                                                : Colors.green.shade900,
-                                        icon:
-                                            isPriceIncreased
-                                                ? LucideIcons.arrowUp
-                                                : LucideIcons.arrowDown,
-                                        iconSize: 12,
-                                        padding: const EdgeInsets.symmetric(
-                                          horizontal: 8,
-                                          vertical: 2,
-                                        ), // px-2 py-0.5
-                                      ),
-                                    ),
-                                  Text(
-                                    '${_formatPrice(drug.price)} ج.م',
-                                    style: textTheme.titleLarge?.copyWith(
-                                      fontWeight: FontWeight.bold,
-                                    ), // text-lg font-bold
-                                  ),
-                                  if (isPopular) // Show Popular icon
-                                    Padding(
-                                      padding: const EdgeInsetsDirectional.only(
-                                        start: 4.0,
-                                      ),
-                                      child: Icon(
-                                        LucideIcons.star,
-                                        size: 16,
-                                        color: Colors.amber.shade600,
-                                        semanticLabel: 'دواء شائع',
-                                      ),
-                                    ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
+                  if (drug.arabicName.isNotEmpty)
+                    Padding(
+                      padding: AppSpacing.edgeInsetsVXXSmall, // pt-0.5 (2px)
+                      child: Text(
+                        drug.arabicName,
+                        style: textTheme.bodyMedium?.copyWith(
+                          color: colorScheme.onSurfaceVariant, // Muted
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
-                  ],
-                ),
+
+                  AppSpacing.gapVSmall, // mt-2 (8px)
+                  // --- Dosage Form ---
+                  if (dosageString.isNotEmpty)
+                    Text(
+                      dosageString,
+                      style: textTheme.bodySmall?.copyWith(
+                        color: colorScheme.onSurfaceVariant, // Muted
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+
+                  AppSpacing.gapVMedium, // mt-3 (12px)
+                  // --- Badges and Price ---
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment:
+                        CrossAxisAlignment.end, // Align price/badges to bottom
+                    children: [
+                      // --- Category / Alternative Badges ---
+                      Flexible(
+                        // Allow badges to wrap if needed
+                        child: Wrap(
+                          spacing: AppSpacing.xsmall, // gap-1 (4px)
+                          runSpacing: AppSpacing.xsmall,
+                          children: [
+                            if (drug.mainCategory.isNotEmpty)
+                              CustomBadge(
+                                label:
+                                    kCategoryTranslation[drug.mainCategory] ??
+                                    drug.mainCategory,
+                                backgroundColor: colorScheme.secondaryContainer,
+                                textColor: colorScheme.onSecondaryContainer,
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: AppSpacing.small, // px-2 (8px)
+                                  vertical: AppSpacing.xxsmall, // py-0.5 (2px)
+                                ),
+                                // Removed textStyle parameter
+                              ),
+                            if (isAlternative)
+                              CustomBadge(
+                                label: 'بديل',
+                                backgroundColor: colorScheme.primaryContainer,
+                                textColor: colorScheme.onPrimaryContainer,
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: AppSpacing.small, // px-2 (8px)
+                                  vertical: AppSpacing.xxsmall, // py-0.5 (2px)
+                                ),
+                                // Removed textStyle parameter
+                              ),
+                          ],
+                        ),
+                      ),
+
+                      AppSpacing.gapHSmall, // Add horizontal space
+                      // --- Price and Popular Icon ---
+                      Row(
+                        crossAxisAlignment:
+                            CrossAxisAlignment
+                                .center, // Center price and icon vertically
+                        children: [
+                          // Price Change Badge (Optional)
+                          if (isPriceChanged)
+                            Padding(
+                              padding: const EdgeInsetsDirectional.only(
+                                end: AppSpacing.xsmall, // me-1 (4px)
+                              ),
+                              child: CustomBadge(
+                                label:
+                                    '${priceChangePercentage.toStringAsFixed(0)}%',
+                                backgroundColor:
+                                    isPriceIncreased
+                                        ? colorScheme.errorContainer
+                                            .withOpacity(0.7)
+                                        : Colors.green.shade100,
+                                textColor:
+                                    isPriceIncreased
+                                        ? colorScheme.onErrorContainer
+                                        : Colors.green.shade900,
+                                icon:
+                                    isPriceIncreased
+                                        ? LucideIcons.arrowUp
+                                        : LucideIcons.arrowDown,
+                                iconSize: 12,
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: AppSpacing.xsmall, // px-1 (4px)
+                                  vertical: 1.0, // py-px
+                                ),
+                                // Removed textStyle parameter
+                              ),
+                            ),
+                          // Price
+                          Text(
+                            '${_formatPrice(drug.price)} ج.م',
+                            style: textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.bold, // Bold
+                              color: colorScheme.primary, // Highlight price
+                            ),
+                          ),
+                          // Popular Icon
+                          if (isPopular)
+                            Padding(
+                              padding: const EdgeInsetsDirectional.only(
+                                start: AppSpacing.xsmall, // ms-1 (4px)
+                              ),
+                              child: Icon(
+                                LucideIcons.star,
+                                size: 16,
+                                color: Colors.amber.shade600,
+                                semanticLabel: 'دواء شائع',
+                              ),
+                            ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
   }
 
-  // Thumbnail Card Implementation (Updated)
+  // --- Thumbnail Card Implementation (Adjusted for Consistency) ---
   Widget _buildThumbnailCard(BuildContext context) {
-    _logger.v(
-      "DrugCard _buildThumbnailCard: drug=${drug.tradeName}",
-    ); // Log thumbnail build
+    _logger.v("DrugCard _buildThumbnailCard: drug=${drug.tradeName}");
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -288,150 +291,130 @@ class DrugCard extends StatelessWidget {
     final bool isPriceIncreased =
         isPriceChanged && currentPriceValue! > oldPriceValue!;
     final double priceChangePercentage =
-        isPriceChanged && oldPriceValue! != 0
+        isPriceChanged && oldPriceValue != null && oldPriceValue != 0
             ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
             : 0;
 
     return SizedBox(
-      width: 176, // w-44
+      width: 176, // w-44 - Keep fixed width for horizontal lists
       child: Card(
-        clipBehavior: Clip.antiAlias,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8.0),
-        ), // rounded-lg (8px)
-        elevation: 1.5,
-        child: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [colorScheme.surface, colorScheme.background],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-            borderRadius: BorderRadius.circular(8.0),
-          ),
-          child: InkWell(
-            onTap: onTap,
-            borderRadius: BorderRadius.circular(8.0),
-            child: Stack(
-              children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Container(
-                      height: 6.0, // h-1.5
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            colorScheme.primary.withOpacity(0.05),
-                            colorScheme.primary.withOpacity(0.20),
-                          ],
-                          begin: Alignment.centerLeft,
-                          end: Alignment.centerRight,
+        // Using Card properties defined in main.dart theme
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(
+            AppSpacing.medium,
+          ), // Match theme card radius (12)
+          child: Stack(
+            children: [
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Optional: Top highlight bar
+                  // Container( height: AppSpacing.xsmall, ... ),
+                  Padding(
+                    padding: AppSpacing.edgeInsetsAllMedium, // p-3 (12px)
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        // Reserve space for top-right icons/badges
+                        const SizedBox(
+                          height: AppSpacing.large,
+                        ), // Approx 16px for icon/badge space
+
+                        Text(
+                          drug.tradeName,
+                          style: textTheme.bodyMedium?.copyWith(
+                            fontWeight: FontWeight.w500, // Medium weight
+                          ),
+                          maxLines: 2, // Allow wrapping
+                          overflow: TextOverflow.ellipsis,
+                          textAlign: TextAlign.start,
                         ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0), // p-3
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const SizedBox(
-                            height: 16,
-                          ), // Space for potential badge/icon
-                          Text(
-                            drug.tradeName,
-                            style: textTheme.bodyMedium?.copyWith(
-                              fontWeight: FontWeight.w500,
-                            ), // text-sm font-medium
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            textAlign: TextAlign.start,
-                          ),
-                          const SizedBox(height: 4), // mt-1
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                '${_formatPrice(drug.price)} ج.م',
-                                style: textTheme.bodyMedium?.copyWith(
-                                  fontWeight: FontWeight.w600,
-                                  color: colorScheme.primary,
-                                ), // text-sm font-semibold
+                        AppSpacing.gapVXSmall, // mt-1 (4px)
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '${_formatPrice(drug.price)} ج.م',
+                              style: textTheme.bodyMedium?.copyWith(
+                                fontWeight: FontWeight.w600, // Semibold
+                                color: colorScheme.primary,
                               ),
-                              if (drug.oldPrice != null &&
-                                  drug.oldPrice!.isNotEmpty)
-                                Text(
-                                  '${_formatPrice(drug.oldPrice!)} ج.م',
-                                  style: textTheme.labelSmall?.copyWith(
-                                    // text-xs
-                                    color:
-                                        colorScheme
-                                            .onSurfaceVariant, // text-muted-foreground
-                                    decoration: TextDecoration.lineThrough,
-                                  ),
+                            ),
+                            if (drug.oldPrice != null &&
+                                drug.oldPrice!.isNotEmpty)
+                              Text(
+                                '${_formatPrice(drug.oldPrice!)} ج.م',
+                                style: textTheme.labelSmall?.copyWith(
+                                  color: colorScheme.onSurfaceVariant,
+                                  decoration: TextDecoration.lineThrough,
                                 ),
-                            ],
-                          ),
-                        ],
-                      ),
+                              ),
+                          ],
+                        ),
+                        // Add space at bottom if price change badge is shown
+                        if (isPriceChanged) AppSpacing.gapVMedium,
+                      ],
                     ),
-                  ],
+                  ),
+                ],
+              ),
+              // --- Price Change Badge (Bottom Left) ---
+              if (isPriceChanged)
+                Positioned(
+                  bottom: AppSpacing.medium, // bottom-3 (12px)
+                  left: AppSpacing.medium, // left-3 (12px)
+                  child: CustomBadge(
+                    label: '${priceChangePercentage.toStringAsFixed(0)}%',
+                    backgroundColor:
+                        isPriceIncreased
+                            ? colorScheme.errorContainer.withOpacity(0.7)
+                            : Colors.green.shade100,
+                    textColor:
+                        isPriceIncreased
+                            ? colorScheme.onErrorContainer
+                            : Colors.green.shade900,
+                    icon:
+                        isPriceIncreased
+                            ? LucideIcons.arrowUp
+                            : LucideIcons.arrowDown,
+                    iconSize: 12,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: AppSpacing.xsmall, // px-1 (4px)
+                      vertical: 1.0, // py-px
+                    ),
+                    // Removed textStyle parameter
+                  ),
                 ),
-                if (isPriceChanged)
-                  Positioned(
-                    bottom: 10,
-                    left: 12,
-                    child: CustomBadge(
-                      label: '${priceChangePercentage.toStringAsFixed(0)}%',
-                      backgroundColor:
-                          isPriceIncreased
-                              ? colorScheme.errorContainer.withOpacity(0.7)
-                              : Colors.green.shade100,
-                      textColor:
-                          isPriceIncreased
-                              ? colorScheme.onErrorContainer
-                              : Colors.green.shade900,
-                      icon:
-                          isPriceIncreased
-                              ? LucideIcons.arrowUp
-                              : LucideIcons.arrowDown,
-                      iconSize: 12, // h-3 w-3
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 6,
-                        vertical: 2,
-                      ), // px-1.5 py-0.5
-                    ),
+              // --- Popular Icon (Top Right) ---
+              if (isPopular)
+                Positioned(
+                  top: AppSpacing.small, // top-2 (8px)
+                  right: AppSpacing.small, // right-2 (8px)
+                  child: Icon(
+                    LucideIcons.star,
+                    size: 16,
+                    color: Colors.amber.shade600,
+                    semanticLabel: 'دواء شائع',
                   ),
-                // Show Popular icon in top-right corner for thumbnail
-                if (isPopular)
-                  Positioned(
-                    top: 8,
-                    right: 8,
-                    child: Icon(
-                      LucideIcons.star,
-                      size: 16,
-                      color: Colors.amber.shade600,
-                      semanticLabel: 'دواء شائع',
+                ),
+              // --- Alternative Badge (Top Right, if not popular) ---
+              if (isAlternative && !isPopular)
+                Positioned(
+                  top: AppSpacing.small, // top-2 (8px)
+                  right: AppSpacing.small, // right-2 (8px)
+                  child: CustomBadge(
+                    label: 'بديل',
+                    backgroundColor: colorScheme.primaryContainer,
+                    textColor: colorScheme.onPrimaryContainer,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: AppSpacing.xsmall, // px-1 (4px)
+                      vertical: 1.0, // py-px
                     ),
+                    // Removed textStyle parameter
                   ),
-                // Show Alternative badge in top-right corner for thumbnail if not popular
-                if (isAlternative && !isPopular)
-                  Positioned(
-                    top: 8,
-                    right: 8,
-                    child: CustomBadge(
-                      label: 'بديل',
-                      backgroundColor: colorScheme.primaryContainer,
-                      textColor: colorScheme.onPrimaryContainer,
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 6,
-                        vertical: 1,
-                      ),
-                      // textStyle: textTheme.labelSmall?.copyWith(fontSize: 10), // Smaller text
-                    ),
-                  ),
-              ],
-            ),
+                ),
+            ],
           ),
         ),
       ),
