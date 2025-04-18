@@ -59,11 +59,16 @@ class _SearchScreenState extends State<SearchScreen> {
     if (_debounce?.isActive ?? false) _debounce!.cancel();
     _debounce = Timer(const Duration(milliseconds: 500), () {
       if (mounted) {
-        final query = _searchController.text;
-        _logger.i(
-          "SearchScreen: Debounced search triggered with query: '$query'",
-        );
-        context.read<MedicineProvider>().setSearchQuery(query);
+        // Only call setSearchQuery if the query has actually changed
+        final newQuery = _searchController.text;
+        final currentProviderQuery =
+            context.read<MedicineProvider>().searchQuery;
+        if (newQuery != currentProviderQuery) {
+          _logger.i(
+            "SearchScreen: Debounced search triggered with new query: '$newQuery'",
+          );
+          context.read<MedicineProvider>().setSearchQuery(newQuery);
+        }
       }
     });
   }
