@@ -1,153 +1,82 @@
-[I] MedicineProvider: Last update timestamp loaded: 1744971752999
-[I] MedicineProvider: Timestamp loaded.
-[I] MedicineProvider: Loading categories...
-[D] MedicineProvider: _loadCategories called.
-[D] DrugRepository: getAvailableCategories called.
-[I] SettingsScreen: Building widget...
-[E] Error formatting timestamp LocaleDataException: Locale data has not been initialized, call initializeDateFormatting(<locale>). #0      UninitializedLocaleData._throwException (package:intl/src/intl_helpers.dart:80)
-#1      UninitializedLocaleData.containsKey (package:intl/src/intl_helpers.dart:74)
-#2      DateFormat.localeExists (package:intl/src/intl/date_format.dart:902)
-#3      verifiedLocale (package:intl/src/intl_helpers.dart:185)
-#4      new DateFormat (package:intl/src/intl/date_format.dart:267)
-#5      MedicineProvider.lastUpdateTimestampFormatted (package:mediswitch/presentation/bloc/medicine_provider.dart:109)
-#6      SettingsScreen.build (package:mediswitch/presentation/screens/settings_screen.dart:101)
-#7      StatelessElement.build (package:flutter/src/widgets/framework.dart:5799)
-#8      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5733)
-#9      Element.rebuild (package:flutter/src/widgets/framework.dart:5445)
-#10     BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2704)
-#11     BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2762)
-#12     BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3066)
-#13     WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1229)
-#14     RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:482)
-#15     SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1442)
-#16     SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1355)
-#17     SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1208)
-#18     _invoke (dart:ui/hooks.dart:316)
-#19     PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:428)
-#20     _drawFrame (dart:ui/hooks.dart:288)
+بس الصفحة الرئيسية عندى المفر ض فيها ٤ اقسام
 
-[I] SearchScreen: >>>>> build ENTRY <<<<<
-[D] SearchScreen BUILD State: isLoading=true, error='', results=0
-[V] SearchScreen: build - State read successfully. Returning Scaffold...
-[I] SearchScreen: >>>>> build EXIT <<<<<
-[I] HomeScreen: >>>>> build ENTRY <<<<<
-[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', displayed=0, recent=0, popular=0, hasMore=true
-[V] HomeScreen: build - State read successfully. Returning Scaffold...
-[V] HomeScreen: Building loading indicator.
-[I] HomeScreen: >>>>> build EXIT <<<<<
-[I] DrugRepository: getAvailableCategories successful, found 12 categories.
-[I] MedicineProvider: Categories loaded successfully (12 items).
-[I] MedicineProvider: Categories loaded.
-[I] MedicineProvider: >>> TRYING _loadSimulatedSections...
-[D] MedicineProvider: _loadSimulatedSections called.
-[I] Fetching recently updated drugs since 2025-03-18 (limit: 8)
-[D] DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '2025-03-18', limit: 8
-[I] DrugRepository: getRecentlyUpdatedDrugs successful, found 8 drugs.
-[I] [_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
-[I] Fetching 10 popular (random) drugs
-[D] DrugRepository: getPopularDrugs called with limit: 10 (using random)
-[I] DrugRepository: getPopularDrugs successful, found 10 random drugs.
-[I] [_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
-[I] MedicineProvider: Sections loaded. Recent: 8, Popular: 10
-[I] MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: 8, Popular: 10
-[I] MedicineProvider: >>> TRYING _applyFilters (initial)...
-[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 10, FetchLimit: 11, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
-[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 11, Offset: 0, Append: false
-[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 11, Offset: 0, Category: ''
-[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
-[D] DrugRepository: searchDrugs called with query: '', limit: 11, offset: 0
-[I] DrugRepository: searchDrugs successful, found 11 drugs.
-[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 11 items.
-[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
-[I] MedicineProvider: Filtering complete for page 0. New items count: 11
-[D] MedicineProvider: hasMoreItems set to true. Items received: 11, Items to add: 10
-[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 10
-[I] MedicineProvider: Calculated price range based on current list: 0.0 - 390.0
-[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=false, isLoadingMore=false, hasMore=true, filteredCount=10, error=''
-[I] MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: 10
-[I] MedicineProvider: Initial load successful (Sections & Filters OK). Setting isInitialLoadComplete=true, isLoading=false. Notifying listeners.
-[I] SettingsScreen: Building widget...
-[E] Error formatting timestamp LocaleDataException: Locale data has not been initialized, call initializeDateFormatting(<locale>). #0      UninitializedLocaleData._throwException (package:intl/src/intl_helpers.dart:80)
-#1      UninitializedLocaleData.containsKey (package:intl/src/intl_helpers.dart:74)
-#2      DateFormat.localeExists (package:intl/src/intl/date_format.dart:902)
-#3      verifiedLocale (package:intl/src/intl_helpers.dart:185)
-#4      new DateFormat (package:intl/src/intl/date_format.dart:267)
-#5      MedicineProvider.lastUpdateTimestampFormatted (package:mediswitch/presentation/bloc/eciprvid.ar:9)6  tnscruilpacae:iipresento/sentng_snart1
-#7  alElnuilpckge:ftrcwdsrt:)8  CopnetElenrfRbuld(aka:flute/sdgs/frame.da:73)
-#  eeildpackg:ltrsidgts/rwork.a:4)  BuilS_tyRb(keter/sr/igtsframeork.rt:2701   BlScope.fhDryle(ckfuer/d/ok.d6)1  ulOnrcpe (k:futwtrdar:30)#1  desidigrandar:1)  RerBndin_hdleesenFraealc(ka:lter/rcreer/ind:48
-dg.mb(:fterc/hedeididat:12)  Sdled.handlraFramea:te/rcdlerdn.art15# SleBin.aleaFa paglutersc/scdle/bin.t1)
-18 noke drtuoart:1
-1  tfrpaerdwm(dartiordptcer.r2)0 rwFrme(atu/okst
-]Sarhcen >>>biNTRY <<D]ehce DSteisadn=fs, rr=' rsls0
-[]ScScreil - atera eulRturgSalIeS>>bild IT<
-ImeSce:> dE<<
-]HoeceenU  soaigale soaorfe IialLoadomlte=u, r,p1,ct=,pr1 hasMorere]oec:bi - tSaf..]oScenldi maicnntCsSclView
-D oecn cin rek: iitLodopletetreetCn, pr0
-[]omecenBidgaegres ei ond 2agres f pv[Atinfmtr, drirtry mcs igestie,Pimaet ncar, riis Si_a,othn plnt
- HmSce iybe catg at ftring0I] Hen: >> il IT <<<
- Vgbl:tp=rurdehmbnal, g=ail10m/myu 2mopl=se ltratv=fl
- []DC bihbalC:rgabo 150/5ml syrup 12V rurdilyp=DuCaryhmnu=ti 2 iv. fusio ospal onl)uf[ruCrbud:pe=DuCdpethmbl, ru=alani 2mcg/ml (1l=2c)1mp., plr erateal] DrugCa_udTug/ml1lmc0 p.[ugruilyp.ubi,drgbnr1ce.tb.,prfsaltntifals
- ] DuCad idThmbalar:u=birt  225m e. ab.
- [DrugC bi: pDgCarTyp.hmbirgaeon rlto5m,poulartre, alrfale
- ] ud ilualCar:rej ai o0 m[V Ca ui:e=Druaype.thumni,rgela12g . ab,ppltaern=a[VDugadbuidhumbnilugelst 20g .taV rurdbd tpDrTpe.thumna,rug=eo-dn5re, ei=fs
- [V rCad ilhubild rug=neomedinm 0t
- [V ugrdt=gCarTpthmbn rug=scl 0 /m(10m) ial oplrtu, nefad: g=anl 370ml (0m] Drd bl =rarType.eid,dru12(nettr .s pulrs ateraiefs
- [V] Drugd budealeadru123(ne to)f.tab.
- [Vga ildypruCdTpeetile, u 3 one tre0f.taopl=aseenavfe
- [V]urdedardd= 3 (n tw he 0fc.[]DrgCarbul:tyruaype.ted, ru=1  ( twtheru 2mlpua=fe, ltni=e[V rgr _ilDetadad:ug= 2 ot t)sp20ml
- [] Drugadul typugrdye.eai r= 2 3etr b,polafle ertele]uard_buDetle dr=1 23eta 2 f..[uCad deDadyetie,rg fct at,ou=faleaai=ae r ildeidCr:r2hcct  ae[V]C ul tyDarTpedtd= f120m aur=fl, atrtv=lse[]Duar_uiDaildC: d=3fl0 g2
- ] Dadl yergarTp.dted u=3 f30g2tabs ura, enai=fle
- V rurd_ulDeedCar:dr3l 0 mtasV]DrCbldt=Dugrdye.dald,g3 y60mg 0tb, polrfls tenie=ls
- V]Dr_uldalr:dug3fl 60m t oeSnfshniatortriere.[]MeiiPrvie:Uae: e<MeiciePrieradnitidfoUpdee MedieWingf das eigtocl.I dicPoder Daas sen odomplt
- I MdcPr: ontimetam.
- D] dcride: laUpdateietmpcleD]DrugReoir:tLstUteesmcle.]Drgeiry: etLtpatTiaucsfl tisp:149159MecPoi:sdae mesamo:14919
- [ eirve:Timet oe. dcrvr: dnatgris.[Mdicievr lCteri ld
- [] uRp: ialgors a.[]SegSatahateiniaizedl intaittg<lol>.   tizeLcaleaa_hroxcn pakage:tsrntleesdt:8
-  Uiialoctotayg/rtles.dt:#  DtF.alEi (pk:i/nl/ate_ormdrt:90)
-  #   veiedale ackenlrc/ithesa4  eatoma cagsc/it/ate_frada267
-  5  Mdide.dtmesampFrtdpakag:ediwth/rsenatio/bc/eicneprovde.rt109
-  #  etingSrenbid (c:eisihrestain/ces/tiren.da1# Stteleslemeti agflutrs/wideramwokt5799)
-  #8   oonleerbl cgeflesrcwg/framorar:5733
-  #9    ild (packaft/rc//eor.ar:5451  BdSoe.ryRebl(cka:ftescwgt/akdt1  BuSoe_uitnt (ace:lte/rc/wdgfmwr.r:2dOnebldcope(ckge:lt/s/wdges/frmrdt36
-  3 Wsn.rwF(eutr/rcigeingdar2914 ederin.alesintaClbc akaelterceerg/idnga  edrBiding_nkeCk(pcag:fluterc/sedulr/d.ar42)#1 celrBng.nlaFame(pacalute/sr/seul/big.ar:35
-  1  Scdulighalrrme paage:flurscee/dng.at2#8 _voe(ds
-  1 PltfoDipatherwram rtuilfmdpachr:48)
-    rawrm dau/oks.dar8) earcrn: >> build ET << acenBI :Lading=te r=',reslts=
-    [] arche:bild tedsucesfuyRunng folcn: >>b EXIT<<Iocre:>>>uENTR<
-    []HecenBL SteiLadintu, sLdiMore=alisnilomplet=fle,r=',spe=0, cent0,oular Mre=tru[mcrenuild-tt esennSal.V] oern:idgodgiarI Hoecen >> ud X <
-    I goieAlbgo sc,o a]eiervaie oasucsy(12 ts.
-    ]McnePridr Caeeod.
-    IMdcnePdr >TY _ldmdton
-    D]edcinover:ecio ald
-    I]Fgely udate s 2-3- mit: 8)
-    D] DrgsoygecyUdaal i fat '01,imt8
-    [I] ugeoity: etRcnyUdtegsucsf,fou 8g.I adadion ucuload8reelyupd u. eng 1 ppr(adus
-    []Dgpot: getolarugscldi imt  ung rno[IDps: ePplrg sdScnScessfullyae0plrdug.
-    [ eiPirSein oadcen:8oa1
-    []MedieProde: <<FISED _admltetios.cn:,ar diei:>>TN_apFis (intial)[I] MePe _lytERY- ge ,ens ReLmit: 0 FecLimit: ,Of  ,y:'Dosgeorm:',cRng: u[Medicierr reparing toclUsCse.Qer ' ag: 'a , et Lm: 1sped: false
-    D] Medioe e RSur: 1,Ofset 0egor: '
-    []diinePovie:Aing npimaryflter, fetcnl(g 0..
-    [D rupsior eDrg ewit qyt: 11offt:
-    ] rugRepory searchrug csfu,f1 rgsMciePoe:_pyirs SCE (ae 0 Ap:fehd1t.D diiProir: cnd loflrsDage: ', Pic: nu)..[]edicPrr:Fr ompo mt 1
-    D einervidrhsMoIemt uteecevd1,e d
-    ]einovir tein comlete rpag.il itet  ct 1
-    I MeiciePre Caulatdpricrag based oncrenl: . -
-    [] MecneProvier_applyFilersET Pe ,Aed:fas.FnlLaingfas, gore=ale, sMe=tru,ieredot,='
-    [I] MdicieProd:< FINIE_pplyrs (initi) Fled u0[I diineProvider Inil aucsfl(Seins trO) eingsoadComleeteiLoin=fs. tifyntn[ SeigsSe:Buldn det.Er formating timsmpLcaDtacepti:oae a s ot bn iali cal intializtratin(oa #0 UnnaleocleD._tcetion(aae:intlrcnt_hprsa80)1 UialzedLcaletatis aca:nl/c/nlhepr.at:74
-    #2  DtFortolEist (pacaenl/rcntfmadat:02)3  verfecpca:nscinl_hprst15
-      Deormt(pc:nl/srnl/dt_fomtr:6)5 MdPovelatTimesFmttd (pa:methpresnttlomcnprvde.dar0)     SettingScebld(kag:dwtch/rseti/cescen.dr:1)
-      #7   StateessElmt.ldaceutrc/wdge/r.rt579)8  omontltperforebudckgflcwgetewor5
-      #   emrebuldpackaefluterrc/etrmrda:5
-      # lope_tyuldcaEls(pae:utscwdet/mewrt2)1 Bwe.lSoe(akg:lt/sc/detsframk.r:06
-      #3 getndig.raa(kf/rwigs/inn.d229)#  dnig.nersttramClbk(akltescredrg/biin.art:82)#  Seleri_nraeCalbcaceltrcelbdngdar4)1  SduleBnhnlDawram(te//hdue/dnga:35)  Shulrdg_hdlrwFrame (pkeutrcse/idng.dr0
-      #8 k(atui/ok.t36)1  lfrDischer._drm (t:ui/pltdipatc.dar)
-      2   daFam(dt:/hkdat8)
-      ]SeacSr>lERY <<
-      [D]SarcrenBIL Stte sadgfe,err='',res=0[SearSren bil at dscessfl.Retin Scold..
-      [IercSre: >>ui<
-      Iece >> EY <
-      DHmeSrBULt:Loadingfale,oeasiIitial= ro' dpaye10,ret=8, pular=Me]: ul admBi nCtVDmnek:itLamureo pCnt0 mcudcrsnFun rfovi nmoy li,itvePae,ra,i,pen,ce: oetg[S>b<
-       rC ipde,=bm1yr1oafl,alCrldugb1mrDuCbl rTuaultn0isas l,u tt uCa ubiCr ui%iv fui (oplngdb:tdphbriclm2gaofe,eavas]DuCd_ulbd= glg 
-        rgbgaTtblrnr2mh.b,rltaefeVrCTr drug=biot 5es[ gru erui,cl2 cbpuat=sVua:=itom1.a duiaybuti%supau,avVrad umniarg=eti 0.slCltuCyehn alti,ou=r rte
-        ]ra_lnCdust sri]DrC ui:pDgadtmadg,poultt=lihad rgai0m.b
-        ra ieurya=1 r tsuas lieCdudtd:2tetgaul:pDuayl  o 0fsol=l t=ae[ big2(ewte cVDgr u:tp=adyeie 1te)1 ,olraeev[]dudrd=  r  mVDiprTi,er0.b feDgrbld x fVDCdbu rga.ea,r.2tpa=a,nvfuCdeaie: duf.2bs]u itugCaryel,dgy0malfsarta]rCd bileiadlgsV rgruilpDudTyp.eidg mbpusnaea uf  0a ga ltgadyedee,3y0m2b,pas,ani=VCrdt:dg ygtsIa]Sinw d ae nIep l :Ine iee xIeSe:itl])]]])))]]])]]])))))))))]]]]))]))]]]]]]]))
+الفئات الطبية
+
+الادية المحدثة -الادوية الشائعة
+
+جميع الادوية
+
+
+اللى بيظهر جميع الادوية فقط وباقى الاقسام مابتظهرش ولما باعمل ريفريش للصفحة الرئيسية بيختفى كل شئ ومابيظهرش غير عنوان قسم الادوية المحدثة فقط
+
+المشكلة اللي بتواجهك واضحة من خلال اللوج، وهي على الأغلب ناتجة عن عدم اكتمال تحميل البيانات الخاصة بالأقسام الثلاثة الأولى (الفئات، الأدوية المحدثة، الشائعة) بسبب فشل إعادة بناء الواجهة نتيجة خطأ تنسيق التاريخ اللي كنا لسه بنتكلم عنه (LocaleDataException).
+
+تحليل المشكلة:
+
+1. بيانات الأقسام بيتم تحميلها فعليًا بنجاح
+
+مثلًا:
+
+[_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
+[_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
+getAvailableCategories successful, found 12 categories.
+
+
+
+2. لكن الواجهة (HomeScreen) مش بتعرضهم بسبب إنه لما التطبيق يحاول يبني الـ Widget اللي يعرض آخر تحديث للبيانات (غالبًا في عنوان القسم أو بجواره)، بيحصل Exception في DateFormat.
+
+
+3. في حالة الـ refresh، بيحصل نفس الخطأ وبالتالي الـ UI بيتكسر أكثر ومابيظهرش غير Section واحد (اللي ما بيعتمدش على التاريخ).
+
+
+
+
+---
+
+الحل النهائي:
+
+عندك نقطتين لازم تطبقهم علشان تصلح المشكلة تمامًا:
+
+1. تهيئة بيانات اللغة قبل استخدام DateFormat
+
+في ملف main.dart أو أي مكان قبل بناء الواجهة:
+
+import 'package:intl/date_symbol_data_local.dart';
+
+void main() async {
+      WidgetsFlutterBinding.ensureInitialized();
+        await initializeDateFormatting('en', null); // أو 'ar' لو بتستخدم اللغة العربية
+          runApp(MyApp());
+}
+
+2. حماية استخدام DateFormat بشرط
+
+في MedicineProvider.lastUpdateTimestampFormatted، غلف الكود بـ try-catch علشان تتجنب كسر الـ UI:
+
+String get lastUpdateTimestampFormatted {
+      try {
+            final date = DateTime.fromMillisecondsSinceEpoch(lastUpdateTimestamp);
+                return DateFormat.yMMMd('en').format(date); // أو 'ar'
+      } catch (e) {
+            print('Error formatting timestamp: $e');
+                return '---';
+      }
+}
+
+
+---
+
+لو عايز حل مؤقت:
+
+تقدر مؤقتًا تعطل استخدام DateFormat في الأكواد اللي بتستخدمه (وخاصة SettingsScreen أو HomeScreen) لغاية ما تعمل التهيئة المطلوبة.
+
+
+---
+
+تحب أساعدك أعدل الكود لو بعتلي ملفات main.dart و medicine_provider.dart؟ أو تقدر تبعت سطر 109 تحديدًا؟
+
+
+      }
+      }
+}
+}

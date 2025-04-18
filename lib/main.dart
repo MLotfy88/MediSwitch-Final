@@ -39,7 +39,10 @@ Future<void> main() async {
 
   try {
     // Initialize date formatting for the default locale
-    await initializeDateFormatting();
+    await initializeDateFormatting(
+      'en',
+      null,
+    ); // Explicitly initialize for 'en' locale
     // Log after initialization attempt (using early logger as locator isn't ready yet)
     earlyLogger.i("main: Date formatting initialized.");
     await setupLocator();
