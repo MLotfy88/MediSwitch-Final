@@ -316,7 +316,7 @@ class DrugCard extends StatelessWidget {
             : 0;
 
     return SizedBox(
-      width: 410, // Corrected: Increased width as requested
+      width: 210, // Corrected: Increased width as requested
       child: Card(
         // Using Card properties defined in main.dart theme
         child: InkWell(
@@ -350,6 +350,23 @@ class DrugCard extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.start,
                         ),
+                        // ADDED: Display Active Ingredient in Thumbnail
+                        if (drug.active.isNotEmpty)
+                          Padding(
+                            padding:
+                                AppSpacing.edgeInsetsVXXSmall, // pt-0.5 (2px)
+                            child: Text(
+                              drug.active,
+                              style: textTheme.bodySmall?.copyWith(
+                                color: colorScheme.onSurfaceVariant.withOpacity(
+                                  0.8,
+                                ),
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              textDirection: ui.TextDirection.ltr, // Ensure LTR
+                            ),
+                          ),
                         AppSpacing.gapVXSmall, // mt-1 (4px)
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -383,7 +400,7 @@ class DrugCard extends StatelessWidget {
               if (isPriceChanged)
                 Positioned(
                   bottom: AppSpacing.medium, // bottom-3 (12px)
-                  left: AppSpacing.medium, // left-3 (12px)
+                  right: AppSpacing.medium, // right-3 (12px)
                   child: CustomBadge(
                     label: '${priceChangePercentage.toStringAsFixed(0)}%',
                     backgroundColor:
