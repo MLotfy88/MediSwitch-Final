@@ -5,17 +5,36 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 import '../bloc/settings_provider.dart';
 import '../bloc/medicine_provider.dart';
-import '../widgets/section_header.dart';
+import '../widgets/section_header.dart'; // Keep if used elsewhere, otherwise remove
 import '../widgets/settings_list_tile.dart';
 import '../screens/subscription_screen.dart';
 import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
+  // Make logger static as it doesn't depend on instance state
   static final FileLoggerService _logger = locator<FileLoggerService>();
+
+  // Make _launchUrl static as it doesn't depend on instance state
+  static Future<void> _launchUrl(String urlString) async {
+    _logger.i("SettingsScreen: Attempting to launch URL: $urlString");
+    final Uri url = Uri.parse(urlString);
+    try {
+      if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+        _logger.e('Could not launch $urlString');
+        // Cannot show SnackBar here as we don't have context
+      } else {
+        _logger.i("SettingsScreen: URL launched successfully.");
+      }
+    } catch (e, s) {
+      _logger.e("SettingsScreen: Error launching URL $urlString", e, s);
+      // Cannot show SnackBar here
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,12 +50,15 @@ class SettingsScreen extends StatelessWidget {
       // Wrap the body content with SafeArea
       body: SafeArea(
         child: ListView(
-          padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0),
+          // Use constants for padding
+          padding: const EdgeInsets.symmetric(
+            vertical: AppSpacing.large, // Use constant (16px)
+            horizontal: AppSpacing.small, // Use constant (8px)
+          ),
           children: [
             // --- Profile Section (Placeholder) ---
             _buildProfileSection(context), // Call the helper
-            const SizedBox(height: 16),
-
+            AppSpacing.gapVLarge, // Use constant (16px)
             // --- General Section ---
             _buildSectionCard(
               context,
@@ -59,7 +81,7 @@ class SettingsScreen extends StatelessWidget {
                     _showLanguageDialog(context, settingsProvider);
                   },
                 ),
-                const Divider(height: 1, indent: 56),
+                // Divider handled by ListView.separated in _buildSectionCard
                 SettingsListTile(
                   title: 'المظهر',
                   subtitle: _themeModeToString(settingsProvider.themeMode),
@@ -89,8 +111,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 16),
-
+            AppSpacing.gapVLarge, // Use constant (16px)
             // --- Data Section ---
             _buildSectionCard(
               context,
@@ -101,16 +122,19 @@ class SettingsScreen extends StatelessWidget {
                   subtitle: medicineProvider.lastUpdateTimestampFormatted,
                   leadingIcon: LucideIcons.refreshCw,
                   trailing: IconButton(
-                    icon: Icon(LucideIcons.refreshCw, size: 20),
+                    icon: const Icon(LucideIcons.refreshCw, size: 20),
                     tooltip: 'التحقق من وجود تحديث',
                     onPressed: () async {
                       _logger.i("SettingsScreen: Refresh data button pressed.");
+                      // Show snackbar *before* async operation
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
                           content: Text('جاري التحقق من التحديثات...'),
+                          duration: Duration(seconds: 1), // Shorter duration
                         ),
                       );
                       await medicineProvider.loadInitialData();
+                      // Check if mounted *after* await before showing next snackbar
                       if (context.mounted) {
                         ScaffoldMessenger.of(context).hideCurrentSnackBar();
                         ScaffoldMessenger.of(context).showSnackBar(
@@ -132,7 +156,7 @@ class SettingsScreen extends StatelessWidget {
                   ),
                   onTap: null,
                 ),
-                const Divider(height: 1, indent: 56), // Add divider
+                // Divider handled by ListView.separated
                 // --- Add Log Viewer Tile ---
                 SettingsListTile(
                   title: 'عرض سجلات التصحيح', // View Debug Logs
@@ -155,8 +179,7 @@ class SettingsScreen extends StatelessWidget {
                 // --- End Log Viewer Tile ---
               ],
             ),
-            const SizedBox(height: 16),
-
+            AppSpacing.gapVLarge, // Use constant (16px)
             // --- Subscription Section ---
             _buildSectionCard(
               context,
@@ -185,8 +208,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 16),
-
+            AppSpacing.gapVLarge, // Use constant (16px)
             // --- About Section ---
             _buildSectionCard(
               context,
@@ -200,9 +222,12 @@ class SettingsScreen extends StatelessWidget {
                     size: 18,
                     color: colorScheme.onSurfaceVariant,
                   ),
-                  onTap: () => _launchUrl('https://your-about-us-url.com'),
+                  onTap:
+                      () => _launchUrl(
+                        'https://your-about-us-url.com',
+                      ), // Replace with actual URL
                 ),
-                const Divider(height: 1, indent: 56),
+                // Divider handled by ListView.separated
                 SettingsListTile(
                   title: 'سياسة الخصوصية',
                   leadingIcon: LucideIcons.shieldCheck,
@@ -212,9 +237,11 @@ class SettingsScreen extends StatelessWidget {
                     color: colorScheme.onSurfaceVariant,
                   ),
                   onTap:
-                      () => _launchUrl('https://your-privacy-policy-url.com'),
+                      () => _launchUrl(
+                        'https://your-privacy-policy-url.com',
+                      ), // Replace with actual URL
                 ),
-                const Divider(height: 1, indent: 56),
+                // Divider handled by ListView.separated
                 SettingsListTile(
                   title: 'شروط الاستخدام',
                   leadingIcon: LucideIcons.gavel,
@@ -224,9 +251,11 @@ class SettingsScreen extends StatelessWidget {
                     color: colorScheme.onSurfaceVariant,
                   ),
                   onTap:
-                      () => _launchUrl('https://your-terms-of-service-url.com'),
+                      () => _launchUrl(
+                        'https://your-terms-of-service-url.com',
+                      ), // Replace with actual URL
                 ),
-                const Divider(height: 1, indent: 56),
+                // Divider handled by ListView.separated
                 SettingsListTile(
                   title: 'إصدار التطبيق',
                   subtitle: '1.0.0+1', // TODO: Get version dynamically
@@ -235,26 +264,28 @@ class SettingsScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 24),
-
+            AppSpacing.gapVXLarge, // Use constant (24px)
             // --- Logout Button ---
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              padding: AppSpacing.edgeInsetsHSmall, // Use constant (8px)
               child: ElevatedButton.icon(
-                icon: Icon(LucideIcons.logOut, size: 18),
+                icon: const Icon(LucideIcons.logOut, size: 18),
                 label: const Text('تسجيل الخروج'),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: colorScheme.error,
                   foregroundColor: colorScheme.onError,
-                  minimumSize: const Size(double.infinity, 48),
+                  minimumSize: const Size(
+                    double.infinity,
+                    48,
+                  ), // Keep specific height
                 ),
                 onPressed: () {
                   _logger.i("SettingsScreen: Logout button pressed.");
-                  // TODO: Implement logout logic
+                  // TODO: Implement logout logic (e.g., clear user session, navigate to login)
                 },
               ),
             ),
-            const SizedBox(height: 16),
+            AppSpacing.gapVLarge, // Use constant (16px)
           ],
         ),
       ),
@@ -276,8 +307,8 @@ class SettingsScreen extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(
-            16.0,
-          ), // Add padding inside the card content
+            AppSpacing.large, // Use constant (16px)
+          ),
           child: Row(
             children: [
               CircleAvatar(
@@ -291,7 +322,7 @@ class SettingsScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(width: 16),
+              AppSpacing.gapHLarge, // Use constant (16px)
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -311,7 +342,7 @@ class SettingsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(width: 8),
+              AppSpacing.gapHSmall, // Use constant (8px)
               // Edit button (optional, functionality TBD)
               // OutlinedButton(
               //   onPressed: () { _logger.i("SettingsScreen: Edit profile tapped (Not implemented)."); },
@@ -334,7 +365,12 @@ class SettingsScreen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0),
+          // Use constants for padding
+          padding: const EdgeInsets.only(
+            left: AppSpacing.large, // 16px
+            right: AppSpacing.large, // 16px
+            bottom: AppSpacing.small, // 8px
+          ),
           child: Text(
             title,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
@@ -344,14 +380,29 @@ class SettingsScreen extends StatelessWidget {
           ),
         ),
         Card(
-          margin: const EdgeInsets.symmetric(horizontal: 8.0),
-          child: Column(children: children),
+          margin: AppSpacing.edgeInsetsHSmall, // Use constant (8px)
+          // Use ListView.separated for consistent spacing between tiles
+          child: ListView.separated(
+            shrinkWrap: true, // Important for ListView inside Column
+            physics: const NeverScrollableScrollPhysics(), // Disable scrolling
+            itemCount: children.length,
+            itemBuilder: (context, index) => children[index],
+            // Use Divider for visual separation, height 1 is standard
+            separatorBuilder:
+                (context, index) => const Divider(
+                  height: 1,
+                  indent: 56,
+                  endIndent: 0,
+                ), // Keep divider for visual style
+            // Alternative: Use AppSpacing for separator:
+            // separatorBuilder: (context, index) => AppSpacing.gapVSmall,
+          ),
         ),
       ],
     );
   }
 
-  // Helper Methods
+  // Helper Methods (moved outside build method)
   bool isDarkMode(BuildContext context) =>
       Theme.of(context).brightness == Brightness.dark;
 
@@ -375,7 +426,8 @@ class SettingsScreen extends StatelessWidget {
     final currentLocale = provider.locale;
     final selectedLocale = await showDialog<Locale>(
       context: context,
-      builder: (BuildContext context) {
+      builder: (BuildContext dialogContext) {
+        // Use different context name
         return AlertDialog(
           title: const Text('اختر اللغة'),
           content: Column(
@@ -386,7 +438,7 @@ class SettingsScreen extends StatelessWidget {
                 value: const Locale('ar'),
                 groupValue: currentLocale,
                 onChanged: (Locale? value) {
-                  Navigator.pop(context, value);
+                  Navigator.pop(dialogContext, value); // Use dialogContext
                 },
               ),
               RadioListTile<Locale>(
@@ -394,7 +446,7 @@ class SettingsScreen extends StatelessWidget {
                 value: const Locale('en'),
                 groupValue: currentLocale,
                 onChanged: (Locale? value) {
-                  Navigator.pop(context, value);
+                  Navigator.pop(dialogContext, value); // Use dialogContext
                 },
               ),
             ],
@@ -403,7 +455,7 @@ class SettingsScreen extends StatelessWidget {
             TextButton(
               child: const Text('إلغاء'),
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.pop(dialogContext); // Use dialogContext
               },
             ),
           ],
@@ -415,23 +467,10 @@ class SettingsScreen extends StatelessWidget {
       _logger.i(
         "SettingsScreen: Language selected: ${selectedLocale.languageCode}",
       );
+      // No need to check mounted here as provider call is synchronous
       provider.updateLocale(selectedLocale);
     } else {
       _logger.d("SettingsScreen: Language dialog cancelled.");
-    }
-  }
-
-  Future<void> _launchUrl(String urlString) async {
-    _logger.i("SettingsScreen: Attempting to launch URL: $urlString");
-    final Uri url = Uri.parse(urlString);
-    try {
-      if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-        _logger.e('Could not launch $urlString');
-      } else {
-        _logger.i("SettingsScreen: URL launched successfully.");
-      }
-    } catch (e, s) {
-      _logger.e("SettingsScreen: Error launching URL $urlString", e, s);
     }
   }
 }

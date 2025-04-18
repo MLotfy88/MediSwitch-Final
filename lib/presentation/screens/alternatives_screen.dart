@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/alternatives_provider.dart';
 import '../widgets/alternative_drug_card.dart'; // Import the new card widget
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class AlternativesScreen extends StatefulWidget {
   final DrugEntity originalDrug;
@@ -20,84 +21,93 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
     // Trigger finding alternatives when the screen is initialized
     // Use addPostFrameCallback to ensure provider is available
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<AlternativesProvider>().findAlternativesFor(
-        widget.originalDrug,
-      );
+      if (mounted) {
+        // Check if mounted before accessing context
+        context.read<AlternativesProvider>().findAlternativesFor(
+          widget.originalDrug,
+        );
+      }
     });
   }
 
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<AlternativesProvider>();
+    final theme = Theme.of(context); // Get theme for consistent styling
 
     return Scaffold(
       appBar: AppBar(
-        // Match general AppBar style
-        backgroundColor: Theme.of(context).colorScheme.surface,
-        foregroundColor: Theme.of(context).colorScheme.onSurface,
-        elevation: 0.5,
+        // Match general AppBar style (assuming it's defined in main theme)
+        // backgroundColor: theme.colorScheme.surface, // Inherited from theme
+        // foregroundColor: theme.colorScheme.onSurface, // Inherited from theme
+        // elevation: 0.5, // Inherited from theme
         title: Text('بدائل ${widget.originalDrug.tradeName}'),
         centerTitle: true, // Keep centered for this screen
       ),
       body: Padding(
+        // Use constants for padding
         padding: const EdgeInsets.symmetric(
-          horizontal: 16.0,
-          vertical: 20.0,
-        ), // Increased vertical padding
+          horizontal: AppSpacing.large, // Use constant (16px)
+          vertical: AppSpacing.large + AppSpacing.xsmall, // Approx 20px (16+4)
+        ),
         child: Column(
           crossAxisAlignment:
               CrossAxisAlignment.stretch, // Stretch children horizontally
           children: [
             // Display Original Drug Info (Optional) - Styled Card
-            // Original Drug Card - Match general Card style
             Card(
-              elevation: 0,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12), // Match theme --radius
-                side: BorderSide(
-                  color: Theme.of(context).colorScheme.outline.withOpacity(0.5),
-                ), // Subtle border
-              ),
-              color: Theme.of(context).colorScheme.surfaceVariant.withOpacity(
-                0.5,
-              ), // Use surface variant
-              margin: const EdgeInsets.only(bottom: 16),
+              // Use theme defaults for elevation, shape, color
+              margin: const EdgeInsets.only(
+                bottom: AppSpacing.large,
+              ), // Use constant (16px)
               child: Padding(
-                padding: const EdgeInsets.all(12.0),
+                padding: AppSpacing.edgeInsetsAllMedium, // Use constant (12px)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       'الدواء الأصلي', // Clearer title
-                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        // Adjust style
+                      style: theme.textTheme.labelMedium?.copyWith(
                         color:
-                            Theme.of(context)
+                            theme
                                 .colorScheme
                                 .onSurfaceVariant, // Use onSurfaceVariant
                       ),
                     ),
-                    const SizedBox(height: 4),
+                    AppSpacing.gapVXSmall, // Use constant (4px)
                     Text(
                       widget.originalDrug.tradeName,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        // Keep titleMedium
+                      style: theme.textTheme.titleMedium?.copyWith(
                         fontWeight: FontWeight.bold,
-                        color:
-                            Theme.of(
-                              context,
-                            ).colorScheme.onSurface, // Use onSurface
+                        color: theme.colorScheme.onSurface, // Use onSurface
                       ),
                     ),
+                    // Optionally display dosage form for original drug too
+                    if (widget.originalDrug.dosageForm.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          top: AppSpacing.xxsmall,
+                        ), // 2px
+                        child: Text(
+                          widget.originalDrug.dosageForm, // Display dosage form
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                          ),
+                        ),
+                      ),
                     if (widget.originalDrug.mainCategory.isNotEmpty)
-                      Text(
-                        'الفئة: ${widget.originalDrug.mainCategory}',
-                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          // Adjust style
-                          color:
-                              Theme.of(context)
-                                  .colorScheme
-                                  .onSurfaceVariant, // Use onSurfaceVariant
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          top: AppSpacing.xxsmall,
+                        ), // 2px
+                        child: Text(
+                          'الفئة: ${widget.originalDrug.mainCategory}',
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color:
+                                theme
+                                    .colorScheme
+                                    .onSurfaceVariant, // Use onSurfaceVariant
+                          ),
                         ),
                       ),
                   ],
@@ -109,13 +119,13 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
             // Display Alternatives Title
             Padding(
               padding: const EdgeInsets.only(
-                bottom: 12.0,
-              ), // Increased spacing below title
+                bottom: AppSpacing.medium, // Use constant (12px)
+              ),
               child: Text(
                 'البدائل المقترحة (نفس الفئة)', // Slightly more descriptive title
-                style: Theme.of(
-                  context,
-                ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
                 textAlign: TextAlign.start,
               ),
             ),
@@ -129,7 +139,9 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
                 child: Center(
                   child: Text(
                     provider.error,
-                    style: const TextStyle(color: Colors.red),
+                    style: TextStyle(
+                      color: theme.colorScheme.error,
+                    ), // Use theme error color
                   ),
                 ),
               )
@@ -139,8 +151,13 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
               )
             else
               Expanded(
-                child: ListView.builder(
+                child: ListView.separated(
+                  // Use ListView.separated for spacing
                   itemCount: provider.alternatives.length,
+                  separatorBuilder:
+                      (context, index) =>
+                          AppSpacing
+                              .gapVMedium, // Use constant (12px) for separator
                   itemBuilder: (context, index) {
                     final alternative = provider.alternatives[index];
                     // Use the new AlternativeDrugCard
