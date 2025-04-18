@@ -1,6 +1,7 @@
 // Import logger first
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
+import 'dart:ui' as ui; // Explicitly import dart:ui with alias
 
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -74,10 +75,14 @@ class DrugCard extends StatelessWidget {
     String alternativeLabel = isAlternative ? ' بديل لدواء آخر.' : '';
     String popularLabel = isPopular ? ' دواء شائع.' : '';
     String dosageLabel = _formatDosage(drug);
+    String activeIngredientLabel =
+        drug.active.isNotEmpty
+            ? ', المادة الفعالة: ${drug.active}'
+            : ''; // Added for Semantics
 
     return Semantics(
       label:
-          '${drug.tradeName}${drug.arabicName.isNotEmpty ? ' (${drug.arabicName})' : ''}, $dosageLabel, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
+          '${drug.tradeName}${drug.arabicName.isNotEmpty ? ' (${drug.arabicName})' : ''}$activeIngredientLabel, $dosageLabel, السعر ${_formatPrice(drug.price)} جنيه.$alternativeLabel$popularLabel',
       button: true,
       child: cardContent,
     );
@@ -117,12 +122,7 @@ class DrugCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Optional: Top highlight bar if needed by design
-            // Container(
-            //   height: AppSpacing.xsmall,
-            //   decoration: BoxDecoration(
-            //     gradient: LinearGradient( ... ),
-            //   ),
-            // ),
+            // Container( ... ),
             Padding(
               padding: AppSpacing.edgeInsetsAllLarge, // p-4 (16px)
               child: Column(
@@ -147,6 +147,26 @@ class DrugCard extends StatelessWidget {
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+
+                  // ADDED: Display Active Ingredient
+                  if (drug.active.isNotEmpty)
+                    Padding(
+                      padding: AppSpacing.edgeInsetsVXXSmall, // pt-0.5 (2px)
+                      child: Text(
+                        drug.active, // Display English active ingredient
+                        style: textTheme.bodySmall?.copyWith(
+                          color: colorScheme.onSurfaceVariant.withOpacity(
+                            0.8,
+                          ), // Muted slightly more
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        textDirection:
+                            ui
+                                .TextDirection
+                                .ltr, // Ensure LTR for English text using alias
                       ),
                     ),
 
@@ -296,7 +316,7 @@ class DrugCard extends StatelessWidget {
             : 0;
 
     return SizedBox(
-      width: 176, // w-44 - Keep fixed width for horizontal lists
+      width: 410, // Corrected: Increased width as requested
       child: Card(
         // Using Card properties defined in main.dart theme
         child: InkWell(
