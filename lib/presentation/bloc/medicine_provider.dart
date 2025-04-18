@@ -114,6 +114,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
+    _logger.i(
+      "MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: $forceUpdate) <<<",
+    ); // ADDED EARLY LOG
     // Original simple guard (Restored)
     if (_isLoading && !forceUpdate) {
       _logger.i(

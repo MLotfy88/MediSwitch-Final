@@ -25,12 +25,23 @@ import 'presentation/screens/initialization_screen.dart'; // Import Initializati
 // const String _prefsKeyFirstLaunchDone = 'first_launch_done';
 
 Future<void> main() async {
+  // --- Early Log Attempt 1 ---
+  // Try initializing a temporary logger *before* locator setup
+  // This helps if locator setup itself fails silently.
+  final earlyLogger = FileLoggerService();
+  await earlyLogger.initialize(); // Initialize it immediately
+  earlyLogger.i("main: >>> ENTERING main() <<<");
+  // --- End Early Log Attempt 1 ---
+
   WidgetsFlutterBinding.ensureInitialized();
-  FileLoggerService? logger;
+  FileLoggerService? logger; // Keep this for later use after locator setup
 
   try {
     await setupLocator();
+    // Assign the fully initialized logger from the locator
+    // The instance in the locator should be the same as earlyLogger if setup succeeded
     logger = locator<FileLoggerService>();
+    logger.i("main: Locator setup complete. Logger obtained.");
     logger.i("main: Starting application setup...");
 
     logger.i("main: Initializing Mobile Ads SDK...");
@@ -78,11 +89,15 @@ Future<void> main() async {
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
     locator<SubscriptionProvider>().initialize();
 
-    logger.i("main: Running MyApp...");
+    logger.i("main: Setup complete. Preparing to run MyApp...");
     // Always start with InitializationScreen, which handles the routing logic.
     logger.i("main: Setting InitializationScreen as initial route.");
+    logger.i("main: >>> CALLING runApp() NOW <<<");
     runApp(const MyApp(homeWidget: InitializationScreen()));
-    logger.i("main: runApp called successfully.");
+    // Note: Logs after runApp might not execute if runApp itself fails critically
+    logger.i(
+      "main: runApp called successfully (or at least the call was made).",
+    );
   } catch (e, stackTrace) {
     final errorMsg = "FATAL ERROR in main";
     print("$errorMsg: $e\n$stackTrace");
