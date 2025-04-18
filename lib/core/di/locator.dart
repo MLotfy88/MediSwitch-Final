@@ -50,6 +50,7 @@ import '../../presentation/bloc/interaction_provider.dart';
 import '../../presentation/bloc/settings_provider.dart';
 import '../../presentation/bloc/subscription_provider.dart';
 import '../services/file_logger_service.dart'; // Import FileLoggerService
+import '../services/log_notifier.dart'; // Import LogNotifier
 
 // Global Service Locator instance
 final locator = GetIt.instance;
@@ -59,6 +60,8 @@ Future<void> setupLocator() async {
   final logger = FileLoggerService();
   await logger.initialize();
   locator.registerSingleton<FileLoggerService>(logger);
+  // Register the LogNotifier instance from the FileLoggerService
+  locator.registerSingleton<LogNotifier>(logger.logNotifier);
   logger.i("--- Starting Full Locator Setup ---");
 
   // --- External Dependencies ---

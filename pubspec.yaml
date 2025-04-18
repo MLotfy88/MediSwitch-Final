@@ -60,6 +60,7 @@ dependencies:
   logger: ^2.4.0 # For logging
   lucide_icons: ^0.257.0 # Use suggested older version
   collection: ^1.18.0 # For firstWhereOrNull
+  share_plus: ^10.1.4 # Updated version to resolve conflict
 
 dev_dependencies: # Moved flutter_test and lints here
   flutter_test:

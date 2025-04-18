@@ -37,8 +37,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    _logger.i("HomeScreen: initState called.");
-    _scrollController.addListener(_onScroll); // Re-add listener
+    _logger.i("HomeScreen: +++++ initState +++++"); // Lifecycle Log
+    _scrollController.addListener(_onScroll);
 
     // Trigger initial data load after the first frame
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -52,9 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void dispose() {
-    _logger.i("HomeScreen: dispose called.");
-    _scrollController.removeListener(_onScroll); // Re-add listener removal
-    _scrollController.dispose(); // Re-add dispose
+    _logger.i("HomeScreen: ----- dispose -----"); // Lifecycle Log
+    _scrollController.removeListener(_onScroll);
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -65,7 +65,8 @@ class _HomeScreenState extends State<HomeScreen> {
     final maxScroll = _scrollController.position.maxScrollExtent;
     final triggerPoint = maxScroll - 300;
     final bool isNearBottom = currentPixels >= triggerPoint;
-    final bool canLoadMore = provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
+    final bool canLoadMore =
+        provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
     final shouldLoadMore = isNearBottom && canLoadMore;
 
     // Detailed Logging for Pagination (Phase 2, Step 4)
@@ -85,17 +86,20 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    _logger.i("HomeScreen: Building widget...");
+    _logger.i("HomeScreen: >>>>> build <<<<<"); // Lifecycle Log
     final medicineProvider = context.watch<MedicineProvider>();
-    // final isSeeding = medicineProvider.isSeedingDatabase; // REMOVED: Seeding state handled externally
     final isLoading = medicineProvider.isLoading;
-    final isLoadingMore =
-        medicineProvider.isLoadingMore; // Re-add isLoadingMore
+    final isLoadingMore = medicineProvider.isLoadingMore;
     final error = medicineProvider.error;
     final displayedMedicines = medicineProvider.filteredMedicines;
-    // Log state without seeding
+    final isInitialLoadComplete =
+        medicineProvider.isInitialLoadComplete; // Get this state
+    final recentlyUpdatedCount = medicineProvider.recentlyUpdatedDrugs.length;
+    final popularCount = medicineProvider.popularDrugs.length;
+
+    // Log state at build time
     _logger.d(
-      "HomeScreen: State - isLoading: $isLoading, isLoadingMore: $isLoadingMore, error: '$error', displayedMedicines: ${displayedMedicines.length}, hasMore: ${medicineProvider.hasMoreItems}",
+      "HomeScreen BUILD State: isLoading=$isLoading, isLoadingMore=$isLoadingMore, isInitialLoadComplete=$isInitialLoadComplete, error='$error', displayed=${displayedMedicines.length}, recent=$recentlyUpdatedCount, popular=$popularCount, hasMore=${medicineProvider.hasMoreItems}",
     );
 
     return Scaffold(
@@ -114,18 +118,27 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 // Refined Loading/Error Logic (Phase 1, Step 3)
-                child: isLoading && displayedMedicines.isEmpty
-                    ? _buildLoadingIndicator() // Initial load indicator
-                    : error.isNotEmpty
-                        ? _buildErrorWidget(context, error) // Show error prominently
-                        : _buildContent( // Build content if not initial loading and no error
-                            context,
-                            medicineProvider,
-                            displayedMedicines,
-                            isLoading, // Pass isLoading for internal use (e.g., refresh indicator)
-                            isLoadingMore,
-                            error, // Pass error for potential footer display
-                          ),
+                child:
+                    isLoading && displayedMedicines.isEmpty
+                        ? _buildLoadingIndicator() // Initial load indicator
+                        : error.isNotEmpty
+                        ? _buildErrorWidget(
+                          context,
+                          error,
+                        ) // Show error prominently
+                        : _buildContent(
+                          // Build content if not initial loading and no error
+                          context,
+                          medicineProvider,
+                          displayedMedicines,
+                          isLoading,
+                          isLoadingMore,
+                          error,
+                          // Pass state variables needed inside _buildContent
+                          isInitialLoadComplete,
+                          recentlyUpdatedCount,
+                          popularCount,
+                        ),
               ),
             ),
             const BannerAdWidget(),
@@ -146,32 +159,40 @@ class _HomeScreenState extends State<HomeScreen> {
   // Re-add isLoadingMore parameter
   Widget _buildContent(
     BuildContext context,
-    MedicineProvider medicineProvider,
+    MedicineProvider medicineProvider, // Keep provider for accessing lists
     List<DrugEntity> displayedMedicines,
     bool isLoading,
     bool isLoadingMore,
     String error,
+    // Add parameters for state checks
+    bool isInitialLoadComplete,
+    int recentlyUpdatedCount,
+    int popularCount,
   ) {
     _logger.v("HomeScreen: Building main content CustomScrollView.");
+    // Log state *before* rendering sections
+    _logger.d(
+      "HomeScreen Section Render Check: isInitialLoadComplete=$isInitialLoadComplete, recentCount=$recentlyUpdatedCount, popularCount=$popularCount",
+    );
 
     return CustomScrollView(
       controller: _scrollController, // Re-add controller
       slivers: [
         SliverToBoxAdapter(child: const SearchBarButton()),
         // --- Categories Section ---
-        // Only build categories if initial load is complete
-        if (medicineProvider.isInitialLoadComplete)
+        if (isInitialLoadComplete) // Use passed parameter
           SliverToBoxAdapter(child: _buildCategoriesSection(context)),
 
         // --- Recently Updated Section ---
-        // Only build if initial load is complete AND list is not empty
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+        if (isInitialLoadComplete &&
+            recentlyUpdatedCount > 0) // Use passed parameters
           SliverToBoxAdapter(
             child: _buildHorizontalDrugList(
               context,
               title: "أدوية محدثة مؤخراً",
-              drugs: medicineProvider.recentlyUpdatedDrugs,
+              drugs:
+                  medicineProvider
+                      .recentlyUpdatedDrugs, // Get data from provider
               onViewAll: () {
                 _logger.i("HomeScreen: View All Recent tapped.");
                 Navigator.push(
@@ -185,15 +206,13 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
         // --- Popular Drugs Section ---
-        // Only build if initial load is complete AND list is not empty
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.popularDrugs.isNotEmpty)
+        if (isInitialLoadComplete && popularCount > 0) // Use passed parameters
           SliverToBoxAdapter(
             child: _buildHorizontalDrugList(
               context,
               title: "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
-              drugs: medicineProvider.popularDrugs,
-              isPopular: true, // Mark these drugs as popular
+              drugs: medicineProvider.popularDrugs, // Get data from provider
+              isPopular: true,
               onViewAll: () {
                 _logger.i("HomeScreen: View All Popular tapped.");
                 Navigator.push(

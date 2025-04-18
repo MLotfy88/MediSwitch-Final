@@ -33,7 +33,7 @@ class _SearchScreenState extends State<SearchScreen> {
   void initState() {
     super.initState();
     _logger.i(
-      "SearchScreen: initState called. Initial query: '${widget.initialQuery}'",
+      "SearchScreen: +++++ initState +++++. Initial query: '${widget.initialQuery}'", // Lifecycle Log
     );
     _searchController.text = widget.initialQuery;
     // Trigger initial search if query is provided
@@ -49,7 +49,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   void dispose() {
-    _logger.i("SearchScreen: dispose called.");
+    _logger.i("SearchScreen: ----- dispose -----"); // Lifecycle Log
     _debounce?.cancel();
     _searchController.dispose();
     super.dispose();
@@ -86,10 +86,13 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    _logger.d("SearchScreen: Building widget.");
+    _logger.i("SearchScreen: >>>>> build <<<<<"); // Lifecycle Log
     final provider = context.watch<MedicineProvider>();
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+    _logger.d(
+      "SearchScreen BUILD State: isLoading=${provider.isLoading}, error='${provider.error}', results=${provider.filteredMedicines.length}",
+    ); // Log state
 
     return Scaffold(
       key: _scaffoldKey, // Assign key
@@ -110,8 +113,13 @@ class _SearchScreenState extends State<SearchScreen> {
                     pinned: true, // Make AppBar sticky
                     floating: true, // Allow AppBar to reappear on scroll up
                     leading: IconButton(
-                      icon: Icon(LucideIcons.arrowLeft, size: 20), // h-5 w-5
-                      onPressed: () => Navigator.of(context).pop(),
+                      icon: Icon(LucideIcons.arrowLeft, size: 20),
+                      onPressed: () {
+                        _logger.i(
+                          "SearchScreen: Back button pressed. Popping route.",
+                        ); // Navigation Log
+                        Navigator.of(context).pop();
+                      },
                       tooltip: 'رجوع',
                     ),
                     titleSpacing: 0, // Remove default title spacing

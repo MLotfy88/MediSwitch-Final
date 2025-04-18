@@ -1,3 +1,7 @@
+// Import logger first
+import '../../core/di/locator.dart';
+import '../../core/services/file_logger_service.dart';
+
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -10,6 +14,8 @@ import '../../core/constants/app_constants.dart'; // Import the constants file
 enum DrugCardType { thumbnail, detailed }
 
 class DrugCard extends StatelessWidget {
+  final FileLoggerService _logger =
+      locator<FileLoggerService>(); // Add logger instance
   final DrugEntity drug;
   final VoidCallback? onTap;
   final DrugCardType type;
@@ -17,7 +23,8 @@ class DrugCard extends StatelessWidget {
   final bool isAlternative; // Flag for alternative drug
   // REMOVED: categoryTranslation parameter
 
-  const DrugCard({
+  DrugCard({
+    // REMOVED const
     super.key,
     required this.drug,
     // REMOVED: required this.categoryTranslation,
@@ -43,6 +50,11 @@ class DrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Log card build entry
+    _logger.v(
+      "DrugCard build: type=$type, drug=${drug.tradeName}, popular=$isPopular, alternative=$isAlternative", // REMOVED drug.id
+    );
+
     Widget cardContent =
         type == DrugCardType.thumbnail
             ? _buildThumbnailCard(context)
@@ -62,6 +74,9 @@ class DrugCard extends StatelessWidget {
 
   // Detailed Card Implementation (Matching Design Lab)
   Widget _buildDetailedCard(BuildContext context) {
+    _logger.v(
+      "DrugCard _buildDetailedCard: drug=${drug.tradeName}",
+    ); // Log detailed build
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
@@ -257,6 +272,9 @@ class DrugCard extends StatelessWidget {
 
   // Thumbnail Card Implementation (Updated)
   Widget _buildThumbnailCard(BuildContext context) {
+    _logger.v(
+      "DrugCard _buildThumbnailCard: drug=${drug.tradeName}",
+    ); // Log thumbnail build
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;

@@ -5,9 +5,11 @@ import 'package:path_provider/path_provider.dart';
 import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:path/path.dart' as path; // Import path package
 import 'package:flutter/foundation.dart'; // for kDebugMode
+import 'log_notifier.dart'; // Import the new LogNotifier
 
 // --- FileOutput Class (Handles writing to the file sink) ---
 class FileOutput extends LogOutput {
+  final LogNotifier logNotifier; // Add LogNotifier instance
   final File file;
   final bool overrideExisting;
   final Encoding encoding;
@@ -15,6 +17,7 @@ class FileOutput extends LogOutput {
   bool _initSucceeded = false; // Track if sink opened
 
   FileOutput({
+    required this.logNotifier, // Require LogNotifier
     required this.file,
     this.overrideExisting = false,
     this.encoding = utf8,
@@ -61,7 +64,9 @@ class FileOutput extends LogOutput {
         'HH:mm:ss.SSS',
       ).format(DateTime.now()); // Add timestamp
       for (var line in event.lines) {
-        _sink?.writeln('[$timestamp] $line'); // Add timestamp to each line
+        final formattedLine = '[$timestamp] $line'; // Format line once
+        _sink?.writeln(formattedLine); // Write to file sink
+        logNotifier.addLog(formattedLine); // Add to in-memory notifier
       }
     } catch (e) {
       print("[FileOutput] Error writing to sink: $e");
@@ -92,6 +97,7 @@ class FileOutput extends LogOutput {
 
 // --- FileLoggerService Class (Manages the logger instance) ---
 class FileLoggerService {
+  final LogNotifier logNotifier = LogNotifier(); // Create LogNotifier instance
   late Logger logger;
   File? _logFile;
   bool _isInitialized = false;
@@ -152,7 +158,9 @@ class FileLoggerService {
       print(
         "[FileLoggerService] Could not obtain a valid directory for logging. Using console only.",
       );
-      logger.e("Could not obtain log directory. Using console logging.");
+      final errorMsg = "Could not obtain log directory. Using console logging.";
+      logger.e(errorMsg);
+      logNotifier.addLog("[ERROR] $errorMsg"); // Log error to notifier
       _isInitialized = true; // Mark as initialized, but file logging failed
       _fileOutputInitialized = false;
       return;
@@ -163,7 +171,10 @@ class FileLoggerService {
       _logFile = File(path.join(directory.path, 'app_log.txt'));
       print("[FileLoggerService] Attempting to log to: ${_logFile?.path}");
 
-      final fileOutput = FileOutput(file: _logFile!);
+      final fileOutput = FileOutput(
+        logNotifier: logNotifier, // Pass notifier
+        file: _logFile!,
+      );
       await fileOutput.init(); // Wait for sink to initialize
 
       if (fileOutput._initSucceeded) {
@@ -178,19 +189,31 @@ class FileLoggerService {
         );
         _fileOutputInitialized = true;
         print("[FileLoggerService] Switched to FileOutput successfully.");
-        logger.i(
-          "-------------------- FileLoggerService Initialized --------------------",
-        );
-        logger.i("Logging to: ${_logFile?.path}");
-        logger.i("App Start Time: ${DateTime.now()}");
-        logger.i(
-          "-----------------------------------------------------------------------",
-        );
+        const initMsg =
+            "-------------------- FileLoggerService Initialized --------------------";
+        final pathMsg = "Logging to: ${_logFile?.path}";
+        final timeMsg = "App Start Time: ${DateTime.now()}";
+        const separatorMsg =
+            "-----------------------------------------------------------------------";
+
+        logger.i(initMsg);
+        logger.i(pathMsg);
+        logger.i(timeMsg);
+        logger.i(separatorMsg);
+
+        // Also log initialization messages to the notifier
+        logNotifier.addLog(initMsg);
+        logNotifier.addLog(pathMsg);
+        logNotifier.addLog(timeMsg);
+        logNotifier.addLog(separatorMsg);
       } else {
         print(
           "[FileLoggerService] FileOutput sink initialization failed. Falling back to console.",
         );
-        logger.e("File sink initialization failed. Using console logging.");
+        const errorMsg =
+            "File sink initialization failed. Using console logging.";
+        logger.e(errorMsg);
+        logNotifier.addLog("[ERROR] $errorMsg"); // Log error to notifier
         _fileOutputInitialized = false;
       }
 
@@ -202,11 +225,9 @@ class FileLoggerService {
       print(
         "[FileLoggerService] CRITICAL Error during file output setup: $e\n$s",
       );
-      logger.e(
-        "FileLoggerService critical initialization error",
-        error: e,
-        stackTrace: s,
-      );
+      final errorMsg = "FileLoggerService critical initialization error";
+      logger.e(errorMsg, error: e, stackTrace: s);
+      logNotifier.addLog("[CRITICAL] $errorMsg: $e"); // Log critical error
       _isInitialized = true;
       _fileOutputInitialized = false;
     }
