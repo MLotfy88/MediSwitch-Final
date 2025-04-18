@@ -228,7 +228,8 @@ Future<void> setupLocator() async {
 
   // --- Providers / Blocs ---
   logger.i("Locator: Registering Providers...");
-  locator.registerFactory(
+  locator.registerLazySingleton(
+    // Changed from registerFactory
     () => MedicineProvider(
       getAllDrugsUseCase: locator<GetAllDrugs>(),
       searchDrugsUseCase: locator<SearchDrugsUseCase>(),
