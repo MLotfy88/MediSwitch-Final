@@ -165,13 +165,13 @@ ThemeData _buildThemeData(Brightness brightness) {
             1.0,
             215,
             0.25,
-            0.80, // Increased lightness for better contrast in dark mode
+            0.85, // Further increased lightness for dark mode contrast
           )
           : const HSLColor.fromAHSL(
             1.0,
             215.4,
             0.16,
-            0.40, // Decreased lightness for better contrast in light mode
+            0.30, // Further decreased lightness for light mode contrast
           );
   final accent =
       isDark
