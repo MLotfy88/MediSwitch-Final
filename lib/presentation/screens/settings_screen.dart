@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart'; // Import for kDebugMode (though not used in this diff)
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -7,6 +8,7 @@ import '../bloc/medicine_provider.dart';
 import '../widgets/section_header.dart';
 import '../widgets/settings_list_tile.dart';
 import '../screens/subscription_screen.dart';
+import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 
@@ -130,6 +132,27 @@ class SettingsScreen extends StatelessWidget {
                   ),
                   onTap: null,
                 ),
+                const Divider(height: 1, indent: 56), // Add divider
+                // --- Add Log Viewer Tile ---
+                SettingsListTile(
+                  title: 'عرض سجلات التصحيح', // View Debug Logs
+                  leadingIcon: LucideIcons.fileText, // Or LucideIcons.bug
+                  trailing: Icon(
+                    LucideIcons.chevronLeft,
+                    size: 18,
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                  onTap: () {
+                    _logger.i("SettingsScreen: View Logs tile tapped.");
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LogViewerScreen(),
+                      ),
+                    );
+                  },
+                ),
+                // --- End Log Viewer Tile ---
               ],
             ),
             const SizedBox(height: 16),
