@@ -333,8 +333,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _selectedCategory = '';
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = [];
-    await _applyFilters(page: 0);
+    // _filteredMedicines = []; // Don't clear here, let _applyFilters handle it
+    await _applyFilters(page: 0, append: false); // Ensure append is false
   }
 
   Future<void> setCategory(String category) async {
@@ -345,8 +345,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _searchQuery = '';
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = [];
-    await _applyFilters(page: 0);
+    // _filteredMedicines = []; // Don't clear here, let _applyFilters handle it
+    await _applyFilters(page: 0, append: false); // Ensure append is false
   }
 
   void setDosageForm(String dosageForm) {
@@ -560,11 +560,11 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       if (!append) {
         _isLoading = false;
       }
-      // Notify listeners is handled by the calling function (loadInitialData or loadMoreDrugs)
-      // or here if it wasn't an initial load but a filter/search change
-      if (!append) {
-        notifyListeners();
-      }
+      // REMOVED: Notify listeners should be handled by the primary calling methods
+      // (loadInitialData, loadMoreDrugs, setSearchQuery, setCategory)
+      // if (!append) {
+      //   notifyListeners();
+      // }
       // Pagination Logging (Phase 2, Step 4)
       _logger.i(
         "MedicineProvider: _applyFilters EXIT - Page: $page, Append: $append. Final State: isLoading=$_isLoading, isLoadingMore=$_isLoadingMore, hasMore=$_hasMoreItems, filteredCount=${_filteredMedicines.length}, error='$_error'",
