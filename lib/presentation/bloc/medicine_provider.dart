@@ -41,7 +41,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   _selectedPriceRange; // Keep price range filter (can be applied locally)
   double _minPrice = 0;
   double _maxPrice = 1000;
-  bool _isLoading = true;
+  bool _isLoading = false; // Initialize to false
   bool _isLoadingMore = false; // Re-added for pagination
   String _error = '';
   // REMOVED: bool _isInitialLoading = false; // Flag specifically for initial load process
@@ -119,9 +119,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       "MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: $forceUpdate) <<<",
     ); // ADDED EARLY LOG
     // Use simple isLoading guard
+    _logger.d(
+      "MedicineProvider: Checking guard. _isLoading = $_isLoading, forceUpdate = $forceUpdate",
+    ); // <-- ADDED DEBUG LOG
     if (_isLoading && !forceUpdate) {
       _logger.i(
-        "MedicineProvider: loadInitialData called but already loading. Skipping.",
+        "MedicineProvider: loadInitialData called but already loading. Skipping. (isLoading=$_isLoading, forceUpdate=$forceUpdate)", // Updated log
       );
       return;
     }
@@ -142,15 +145,12 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     notifyListeners(); // Notify UI that loading has started
 
     try {
-      // --- Wait for Seeding ---
-      _logger.i(
-        "MedicineProvider: Waiting for database seeding to complete...",
-      );
-      await _localDataSource.seedingComplete; // Wait for the seeding Future
-      _logger.i("MedicineProvider: Database seeding confirmed complete.");
-      // --- End Wait for Seeding ---
-
-      // REMOVED: Seeding is assumed complete before this method is called in the new flow.
+      // REMOVED: Seeding is now guaranteed by InitializationScreen before this provider is used.
+      // _logger.i(
+      //   "MedicineProvider: Waiting for database seeding to complete...",
+      // );
+      // await _localDataSource.seedingComplete; // Wait for the seeding Future
+      // _logger.i("MedicineProvider: Database seeding confirmed complete.");
 
       // Load timestamp
       _logger.i("MedicineProvider: Loading timestamp...");
