@@ -50,8 +50,8 @@ class HorizontalListSection extends StatelessWidget {
                     .zero, // Remove default padding from SectionHeader itself
           ),
         ),
-        // Horizontal List - Conditionally wrap with SizedBox based on listHeight
-        _buildHorizontalList(),
+        // Horizontal List - Wrap in Expanded to take available height from parent SizedBox
+        Expanded(child: _buildHorizontalList()),
       ],
     );
   }
@@ -73,12 +73,12 @@ class HorizontalListSection extends StatelessWidget {
       );
     } else {
       // If height is null, let the ListView determine its height
+      // It should expand vertically within the Column (which gets height from parent SizedBox in HomeScreen)
       return ListView.separated(
         padding: listPadding,
         scrollDirection: Axis.horizontal,
-        shrinkWrap: true, // Important for intrinsic height in horizontal list
-        physics:
-            const ClampingScrollPhysics(), // Good practice for shrinkWrap lists
+        // shrinkWrap: true, // REMOVED - Let it expand within the fixed height parent
+        // physics: const ClampingScrollPhysics(), // REMOVED - Default physics should be fine
         itemCount: children.length,
         itemBuilder: (context, index) => children[index],
         separatorBuilder:

@@ -197,8 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: _buildHorizontalDrugList(
                 context,
                 title: "أدوية محدثة مؤخراً",
-                // Pass height down if _buildHorizontalDrugList uses it
-                // listHeight: 200, // Optional: Pass height if needed by helper
+                listHeight: 200, // Pass the height down
                 drugs:
                     medicineProvider
                         .recentlyUpdatedDrugs, // Get data from provider
@@ -227,8 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 context,
                 title:
                     "الأكثر بحثاً", // Translates to "Most Searched" / "Common"
-                // Pass height down if _buildHorizontalDrugList uses it
-                // listHeight: 200, // Optional: Pass height if needed by helper
+                listHeight: 200, // Pass the height down
                 drugs: medicineProvider.popularDrugs, // Get data from provider
                 isPopular: true,
                 onViewAll: () {
@@ -262,13 +260,13 @@ class _HomeScreenState extends State<HomeScreen> {
     required String title,
     required List<DrugEntity> drugs,
     VoidCallback? onViewAll,
+    double? listHeight, // Add listHeight parameter
     bool isPopular = false, // Add isPopular flag
   }) {
     return HorizontalListSection(
       title: title,
-      // listHeight: 190, // Removed fixed height
       onViewAll: onViewAll,
-      // headerPadding removed, handled internally
+      listHeight: listHeight, // Pass height to HorizontalListSection
       listPadding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 16.0),
       children:
           drugs
