@@ -316,7 +316,7 @@ class DrugCard extends StatelessWidget {
             : 0;
 
     return SizedBox(
-      width: 210, // Corrected: Increased width as requested
+      width: 280, // Corrected: Increased width as requested
       child: Card(
         // Using Card properties defined in main.dart theme
         child: InkWell(
@@ -389,8 +389,7 @@ class DrugCard extends StatelessWidget {
                               ),
                           ],
                         ),
-                        // Add space at bottom if price change badge is shown
-                        if (isPriceChanged) AppSpacing.gapVMedium,
+                        // Removed extra space at bottom - Positioned badge handles its own spacing
                       ],
                     ),
                   ),
