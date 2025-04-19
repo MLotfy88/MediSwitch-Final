@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class CategoryCard extends StatelessWidget {
@@ -20,6 +21,8 @@ class CategoryCard extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
 
+    final l10n = AppLocalizations.of(context)!; // Get localization instance
+
     // Let the parent HorizontalListSection handle width/spacing
     return Card(
       // Use theme's card theme for consistency
@@ -31,7 +34,7 @@ class CategoryCard extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       // Removed the Container with gradient
       child: Semantics(
-        label: 'فئة $name',
+        label: l10n.categorySemanticLabel(name), // Use localized semantic label
         button: true,
         child: InkWell(
           onTap: onTap,
@@ -68,7 +71,7 @@ class CategoryCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
-                AppSpacing.gapVXSmall, // Add small spacing below text (4px)
+                AppSpacing.gapVSmall, // Increased spacing below text (8px)
               ],
             ),
           ),

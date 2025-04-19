@@ -36,8 +36,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   @override
   void initState() {
     super.initState();
-    // Update tab count to 5 based on design documentation
-    _tabController = TabController(length: 5, vsync: this);
+    // Update tab count to 2 (Information, Alternatives) - Already done in previous step
+    _tabController = TabController(length: 2, vsync: this);
     _logger.i(
       "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
     );
@@ -142,55 +142,37 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               textTheme,
               l10n,
             ), // Pass l10n
+            // Dose Calculator Button is removed via the _buildActionButtons modification below
             AppSpacing.gapVMedium, // Add space before TabBar
-            _buildTabBar(context, colorScheme, textTheme, l10n), // Pass l10n
-            // Use a Container with fixed height for TabBarView content
-            Container(
-              // Adjust height based on expected content size or screen percentage
-              height:
-                  MediaQuery.of(context).size.height * 0.35, // Example height
-              child: TabBarView(
-                controller: _tabController,
-                children: [
-                  _buildInfoTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ), // Pass l10n
-                  _buildUsageTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ), // Pass l10n
-                  _buildDosageTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ), // Pass l10n
-                  _buildSideEffectsTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ), // Pass l10n
-                  _buildContraindicationsTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ), // Pass l10n
-                ],
-              ),
-            ),
-            _buildAlternativesSection(
+            _buildTabBar(
               context,
               colorScheme,
               textTheme,
               l10n,
-            ), // Pass l10n
+            ), // Pass l10n (Updated for 2 tabs)
+            // Use Expanded or Flexible for TabBarView content if ListView scrolls
+            // Or keep Container with adjusted height if fixed height is desired
+            // Use Flexible or Expanded within the ListView if TabBarView needs to scroll with ListView
+            // Or use a fixed height if the content size is predictable
+            SizedBox(
+              // Using SizedBox assumes content won't exceed available space or will handle its own scrolling internally.
+              // Adjust height as needed, or remove for intrinsic height.
+              // height: 400, // Example fixed height
+              child: TabBarView(
+                controller: _tabController,
+                children: [
+                  // Consolidated Information Tab
+                  _buildConsolidatedInfoTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ),
+                  // Alternatives Tab
+                  _buildAlternativesTab(context),
+                ],
+              ),
+            ),
             AppSpacing.gapVLarge, // Add padding at the very bottom
           ],
         ),
@@ -235,56 +217,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(
-                width: 80,
-                height: 80,
-                decoration: BoxDecoration(
-                  color: colorScheme.secondaryContainer.withOpacity(0.3),
-                  borderRadius: BorderRadius.circular(
-                    AppSpacing.small,
-                  ), // Use constant (8px)
-                ),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(
-                    AppSpacing.small,
-                  ), // Use constant (8px)
-                  child:
-                      widget.drug.imageUrl != null &&
-                              widget.drug.imageUrl!.isNotEmpty
-                          ? CachedNetworkImage(
-                            imageUrl: widget.drug.imageUrl!,
-                            fit:
-                                BoxFit
-                                    .contain, // Use contain to avoid distortion
-                            placeholder:
-                                (context, url) => const Center(
-                                  child: CircularProgressIndicator(
-                                    strokeWidth: 2,
-                                  ),
-                                ),
-                            errorWidget:
-                                (context, url, error) => Center(
-                                  child: Icon(
-                                    LucideIcons.pill,
-                                    size: 30,
-                                    color: colorScheme.onSecondaryContainer
-                                        .withOpacity(0.5),
-                                  ),
-                                ),
-                          )
-                          : Center(
-                            // Fallback icon
-                            child: Icon(
-                              LucideIcons.pill,
-                              size: 30,
-                              color: colorScheme.onSecondaryContainer
-                                  .withOpacity(0.5),
-                            ),
-                          ),
-                ),
-              ),
-              AppSpacing.gapHLarge, // Use constant (16px)
+              // REMOVED: Image Container
+              // Container( ... ),
+              // AppSpacing.gapHLarge, // REMOVED: Space next to image
               Expanded(
+                // Make text take full width now
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -423,27 +360,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       ),
       child: Row(
         children: [
+          // REMOVED: Dose Calculator Button Expanded widget
+          // Expanded( ... ),
+          // AppSpacing.gapHSmall, // REMOVED: Space between buttons
           Expanded(
-            child: OutlinedButton.icon(
-              icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
-              label: Text(l10n.doseCalculatorButton), // Use localized string
-              onPressed: () {
-                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
-                context.read<DoseCalculatorProvider>().setSelectedDrug(
-                  widget.drug,
-                );
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const WeightCalculatorScreen(),
-                  ),
-                );
-              },
-              // Style inherited from main theme
-            ),
-          ),
-          AppSpacing.gapHSmall, // Use constant (8px)
-          Expanded(
+            // Make Interactions button take full width
             child: OutlinedButton.icon(
               icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
               label: Text(l10n.drugInteractionsButton), // Use localized string
@@ -519,20 +440,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ),
         indicatorSize: TabBarIndicatorSize.tab, // Make indicator fill tab
         tabs: [
-          Tab(text: l10n.infoTab), // Use localized string
-          Tab(text: l10n.usageTab), // Use localized string
-          Tab(text: l10n.dosageTab), // Use localized string
-          Tab(text: l10n.sideEffectsTab), // Use localized string
-          Tab(text: l10n.contraindicationsTab), // Use localized string
+          Tab(text: l10n.informationTab), // Use new localized string
+          Tab(text: l10n.alternativesTab), // Use new localized string
         ],
       ),
     );
   }
 
-  // --- Tab Content Builders ---
-
-  // Updated Info Tab using GridView
-  Widget _buildInfoTab(
+  // --- Consolidated Information Tab Builder ---
+  Widget _buildConsolidatedInfoTab(
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
@@ -603,9 +519,111 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         },
       ),
     );
+    // Combine content from other tabs here
+    // Example: Add Usage Info
+    final usageInfo = widget.drug.usage;
+    if (usageInfo.isNotEmpty) {
+      // Add spacing and usage text
+    }
+    // Add Dosage Info (consider removing calculator parts)
+    // Add Side Effects Info
+    // Add Contraindications Info
+
+    // Return a ListView or Column containing all the combined info widgets
+    return ListView(
+      // Example using ListView
+      padding: AppSpacing.edgeInsetsAllLarge,
+      children: [
+        // Info Grid
+        GridView.builder(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            childAspectRatio: 3.0,
+            crossAxisSpacing: AppSpacing.large,
+            mainAxisSpacing: AppSpacing.large,
+          ),
+          itemCount: infoItems.length,
+          itemBuilder: (context, index) {
+            final item = infoItems[index];
+            return _buildInfoGridItem(
+              context,
+              icon: item['icon'] as IconData,
+              label: item['label'] as String,
+              value: item['value'] as String,
+            );
+          },
+        ),
+        // Add other sections with appropriate titles and spacing
+        if (usageInfo.isNotEmpty) ...[
+          AppSpacing.gapVXLarge,
+          Text(
+            l10n.usageTab,
+            style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+          ),
+          AppSpacing.gapVMedium,
+          Text(usageInfo, style: textTheme.bodyLarge),
+        ],
+        // Dosage Section (Simplified)
+        AppSpacing.gapVXLarge,
+        Text(
+          l10n.dosageTitle,
+          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        AppSpacing.gapVMedium,
+        Text(
+          widget
+                  .drug
+                  .description
+                  .isNotEmpty // Placeholder: Use appropriate dosage field if available
+              ? widget
+                  .drug
+                  .description // Example: Using description for now
+              : l10n.consultDoctorOrPharmacist,
+          style: textTheme.bodyLarge,
+        ),
+        // Side Effects Section
+        AppSpacing.gapVXLarge,
+        Text(
+          l10n.sideEffectsTab,
+          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        AppSpacing.gapVMedium,
+        Text(
+          widget
+                  .drug
+                  .description
+                  .isNotEmpty // Placeholder: Use appropriate side effects field
+              ? widget
+                  .drug
+                  .description // Example: Using description for now
+              : l10n.noSideEffectsInfo,
+          style: textTheme.bodyLarge?.copyWith(
+            color:
+                widget.drug.description.isEmpty
+                    ? colorScheme.onSurfaceVariant
+                    : null,
+          ),
+        ),
+        // Contraindications Section
+        AppSpacing.gapVXLarge,
+        Text(
+          l10n.contraindicationsTab,
+          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+        ),
+        AppSpacing.gapVMedium,
+        Text(
+          l10n.noContraindicationsInfo, // Placeholder: Use appropriate contraindications field
+          style: textTheme.bodyLarge?.copyWith(
+            color: colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
+    );
   }
 
-  // Helper to build grid item for info tab
+  // Helper to build grid item for info tab (Keep this helper)
   Widget _buildInfoGridItem(
     BuildContext context, {
     required IconData icon,
@@ -668,229 +686,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // Placeholder Tab Builders (Update with actual content)
-  Widget _buildUsageTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    return SingleChildScrollView(
-      // Ensure content is scrollable
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      child: Text(
-        widget.drug.usage.isNotEmpty
-            ? widget.drug.usage
-            : l10n.noUsageInfo, // Use localized string
-        style: textTheme.bodyLarge,
-      ),
-    );
+  // REMOVED: _buildUsageTab, _buildDosageTab, _buildSideEffectsTab, _buildContraindicationsTab
+  // Their content is now merged into _buildConsolidatedInfoTab
+
+  // --- Alternatives Tab Builder ---
+  Widget _buildAlternativesTab(BuildContext context) {
+    // This widget simply wraps the existing AlternativesTabContent
+    // It ensures consistent padding or structure if needed across tabs
+    return AlternativesTabContent(originalDrug: widget.drug);
   }
 
-  Widget _buildDosageTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    final standardDosageInfo =
-        widget.drug.usage; // Placeholder - Needs specific dosage field
-
-    return ListView(
-      // Use ListView for potentially longer content
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      children: [
-        Text(
-          l10n.dosageTitle, // Use localized string
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVMedium, // Use constant (12px)
-        Text(
-          standardDosageInfo
-                  .isNotEmpty // Replace with actual dosage field check
-              ? standardDosageInfo
-              : l10n.consultDoctorOrPharmacist, // Use localized string
-          style: textTheme.bodyLarge,
-        ),
-        AppSpacing.gapVXLarge, // Use constant (24px)
-        const Divider(),
-        AppSpacing.gapVLarge, // Use constant (16px)
-        Text(
-          l10n.weightDosageCalculatorTitle, // Use localized string
-          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVSmall, // Use constant (8px)
-        Text(
-          l10n.weightDosageCalculatorSubtitle, // Use localized string
-          style: textTheme.bodyMedium?.copyWith(
-            color: colorScheme.onSurfaceVariant,
-          ),
-        ),
-        AppSpacing.gapVLarge, // Use constant (16px)
-        ElevatedButton.icon(
-          icon: const Icon(LucideIcons.calculator, size: 18),
-          label: Text(l10n.openDoseCalculatorButton), // Use localized string
-          onPressed: () {
-            _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
-            context.read<DoseCalculatorProvider>().setSelectedDrug(widget.drug);
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const WeightCalculatorScreen(),
-              ),
-            );
-          },
-          style: ElevatedButton.styleFrom(
-            padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildSideEffectsTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    // TODO: Fetch and display side effects data from drug.description or specific field
-    return SingleChildScrollView(
-      // Ensure content is scrollable
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      child: Text(
-        widget
-                .drug
-                .description
-                .isNotEmpty // Example: Use description field
-            ? widget.drug.description
-            : l10n.noSideEffectsInfo, // Use localized string
-        style: textTheme.bodyLarge?.copyWith(
-          color:
-              widget.drug.description.isEmpty
-                  ? colorScheme.onSurfaceVariant
-                  : null,
-        ),
-      ),
-    );
-  }
-
-  Widget _buildContraindicationsTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    // TODO: Fetch and display contraindications data (might be in description or usage)
-    return SingleChildScrollView(
-      // Ensure content is scrollable
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      child: Text(
-        l10n.noContraindicationsInfo, // Use localized string
-        style: textTheme.bodyLarge?.copyWith(
-          color: colorScheme.onSurfaceVariant,
-        ),
-      ),
-    );
-  }
-
-  // Alternatives Section (Moved below tabs)
-  Widget _buildAlternativesSection(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    return Padding(
-      // Use constants for padding (16px left/right, 24px top, 16px bottom)
-      padding: const EdgeInsets.only(
-        left: AppSpacing.large,
-        top: AppSpacing.xlarge,
-        right: AppSpacing.large,
-        bottom: AppSpacing.large,
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            l10n.availableAlternativesTitle, // Use localized string
-            style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-          ), // text-lg font-bold
-          AppSpacing.gapVLarge, // Use constant (16px)
-          AlternativesTabContent(
-            originalDrug: widget.drug,
-          ), // This widget handles its own state/content
-        ],
-      ),
-    );
-  }
-
-  // Removed _buildAlternativesTab
-
-  // Placeholder for Interactions Tab (if re-added)
-  Widget _buildInteractionsTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
-  ) {
-    _logger.d("DrugDetailsScreen: Building Interactions Tab");
-    final knownInteractions = []; // Placeholder
-
-    return ListView(
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      children: [
-        Text(
-          l10n.knownInteractionsTitle, // Use localized string
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVMedium, // Use constant (12px)
-        if (knownInteractions.isNotEmpty)
-          const Text("...") // Placeholder for interaction list
-        else
-          Text(
-            l10n.noDirectInteractionInfo, // Use localized string
-            style: textTheme.bodyMedium?.copyWith(
-              color: colorScheme.onSurfaceVariant,
-            ),
-          ),
-        AppSpacing.gapVXLarge, // Use constant (24px)
-        const Divider(),
-        AppSpacing.gapVLarge, // Use constant (16px)
-        Text(
-          l10n.multiInteractionCheckerTitle, // Use localized string
-          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVSmall, // Use constant (8px)
-        Text(
-          l10n.multiInteractionCheckerSubtitle, // Use localized string
-          style: textTheme.bodyMedium?.copyWith(
-            color: colorScheme.onSurfaceVariant,
-          ),
-        ),
-        AppSpacing.gapVLarge, // Use constant (16px)
-        ElevatedButton.icon(
-          icon: const Icon(LucideIcons.zap, size: 18),
-          label: Text(
-            l10n.openInteractionCheckerButton,
-          ), // Use localized string
-          onPressed: () {
-            _logger.i(
-              "DrugDetailsScreen: Navigate to InteractionChecker tapped.",
-            );
-            context.read<InteractionProvider>().addMedicine(widget.drug);
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => const InteractionCheckerScreen(),
-              ),
-            );
-          },
-          style: ElevatedButton.styleFrom(
-            padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
-          ),
-        ),
-      ],
-    );
-  }
+  // REMOVED: _buildAlternativesSection (functionality moved to _buildAlternativesTab)
 }

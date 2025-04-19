@@ -361,28 +361,39 @@ class _HomeScreenState extends State<HomeScreen> {
       children:
           // Iterate through the ORIGINAL English categories (keys from CSV)
           displayableCategories.map((englishCategoryName) {
-            // 1. Translate to Arabic using the updated map
-            final normalizedKey = normalizeKey(englishCategoryName);
-            final arabicCategoryName =
-                kCategoryTranslation[normalizedKey] ?? // Use normalized key for lookup
-                englishCategoryName; // Fallback
+            // Determine locale for conditional translation
+            final locale = Localizations.localeOf(context);
+            final isArabic = locale.languageCode == 'ar';
 
-            // 2. Look up icon using the ORIGINAL English key (from CSV)
+            // 1. Normalize the key
+            final normalizedKey = normalizeKey(englishCategoryName);
+
+            // 2. Determine the display name based on locale
+            final String displayName;
+            if (isArabic) {
+              displayName =
+                  kCategoryTranslation[normalizedKey] ??
+                  englishCategoryName; // Use translation if Arabic
+            } else {
+              displayName =
+                  englishCategoryName; // Use original English name otherwise
+            }
+
+            // 3. Look up icon using the normalized key
             final iconData =
                 kCategoryIcons[normalizedKey] ?? // Use normalized key for lookup
                 kCategoryIcons['default']!;
 
-            // 3. Build the card
+            // 4. Build the card
             return CategoryCard(
                   key: ValueKey(
                     englishCategoryName,
                   ), // Use English name for stable key
-                  name:
-                      arabicCategoryName, // Display the translated (or original) name
+                  name: displayName, // Use the locale-aware display name
                   iconData: iconData, // Use the looked-up icon
                   onTap: () {
                     _logger.i(
-                      "HomeScreen: Category tapped: $arabicCategoryName (English: $englishCategoryName)",
+                      "HomeScreen: Category tapped: $displayName (English: $englishCategoryName)", // Use displayName in log
                     );
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
                     // Use the original English name when setting the filter

@@ -439,9 +439,13 @@ class DrugCard extends StatelessWidget {
               ),
               // --- Price Change Badge (Bottom Left) ---
               if (isPriceChanged)
-                Positioned(
+                Positioned.directional(
+                  textDirection: Directionality.of(
+                    context,
+                  ), // Use context's direction
                   bottom: AppSpacing.medium, // bottom-3 (12px)
-                  left: AppSpacing.medium, // left-3 (12px)
+                  start:
+                      AppSpacing.medium, // start-3 (12px) - Adapts to LTR/RTL
                   child: CustomBadge(
                     label: '${priceChangePercentage.toStringAsFixed(0)}%',
                     backgroundColor:
