@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/di/locator.dart'; // Import locator
 import '../../core/services/file_logger_service.dart'; // Import logger
 import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import 'home_screen.dart';
 import 'search_screen.dart'; // Import SearchScreen
 import 'settings_screen.dart';
@@ -24,14 +25,15 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0; // Start with Home tab selected
 
   // Update screens list to match the new BottomNavBar order
-  final List<Widget> _screens = [
+  // Note: Placeholders should ideally be proper screens, but we localize the text for now.
+  List<Widget> _getScreens(AppLocalizations l10n) => [
     const HomeScreen(),
     const SearchScreen(), // Use SearchScreen
-    const Center(
-      child: Text('حاسبة الجرعات (قريباً)'),
+    Center(
+      child: Text(l10n.calculatorComingSoon), // Use localized string
     ), // Placeholder for Calculator
-    const Center(
-      child: Text('التفاعلات (قريباً)'),
+    Center(
+      child: Text(l10n.interactionsComingSoon), // Use localized string
     ), // Placeholder for Interactions
     const SettingsScreen(),
   ];
@@ -46,21 +48,39 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     _logger.i("MainScreen: Building widget. Selected index: $_selectedIndex");
+    final l10n = AppLocalizations.of(context)!; // Get l10n instance
+    final screens = _getScreens(l10n); // Get screens with localized text
     return Scaffold(
-      body: IndexedStack(index: _selectedIndex, children: _screens),
+      body: IndexedStack(
+        index: _selectedIndex,
+        children: screens,
+      ), // Use localized screens
       bottomNavigationBar: CustomNavBar(
         selectedIndex: _selectedIndex,
         onItemSelected: _onItemTapped,
-        items: const [
+        items: [
+          // Remove const
           // Use LucideIcons and match design lab order/labels
-          NavBarItem(icon: LucideIcons.home, label: 'الرئيسية'),
-          NavBarItem(icon: LucideIcons.search, label: 'البحث'),
-          NavBarItem(icon: LucideIcons.calculator, label: 'الحاسبة'),
+          NavBarItem(
+            icon: LucideIcons.home,
+            label: l10n.navHome,
+          ), // Use localized string
+          NavBarItem(
+            icon: LucideIcons.search,
+            label: l10n.navSearch,
+          ), // Use localized string
+          NavBarItem(
+            icon: LucideIcons.calculator,
+            label: l10n.navCalculator,
+          ), // Use localized string
           NavBarItem(
             icon: LucideIcons.zap,
-            label: 'التفاعلات',
+            label: l10n.navInteractions, // Use localized string
           ), // Zap icon for interactions
-          NavBarItem(icon: LucideIcons.settings, label: 'الإعدادات'),
+          NavBarItem(
+            icon: LucideIcons.settings,
+            label: l10n.navSettings,
+          ), // Use localized string
         ],
       ),
       // Add FloatingActionButton only in debug mode
@@ -68,7 +88,7 @@ class _MainScreenState extends State<MainScreen> {
           kDebugMode
               ? FloatingActionButton(
                 mini: true, // Make it smaller
-                tooltip: 'View Logs',
+                tooltip: l10n.viewLogsTooltip, // Use localized string
                 onPressed: () {
                   _logger.i("Debug FAB tapped: Navigating to LogViewerScreen.");
                   Navigator.push(

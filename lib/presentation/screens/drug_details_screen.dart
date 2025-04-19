@@ -329,7 +329,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         ? CrossAxisAlignment.start
                         : CrossAxisAlignment.end,
                 children: [
+                  // Row only for the main price text
                   Row(
+                    mainAxisSize:
+                        MainAxisSize.min, // Prevent Row from expanding
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
                     children: [
@@ -339,38 +342,37 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                           fontWeight: FontWeight.bold,
                         ), // text-lg font-bold
                       ),
-                      if (isPriceChanged)
-                        Padding(
-                          // Approx 6px start padding
-                          padding: const EdgeInsetsDirectional.only(
-                            start: AppSpacing.small - AppSpacing.xxsmall,
-                          ),
-                          child: CustomBadge(
-                            label:
-                                '${priceChangePercentage.toStringAsFixed(0)}%',
-                            backgroundColor:
-                                isPriceIncreased
-                                    ? colorScheme.errorContainer.withOpacity(
-                                      0.7,
-                                    )
-                                    : Colors.green.shade100,
-                            textColor:
-                                isPriceIncreased
-                                    ? colorScheme.onErrorContainer
-                                    : Colors.green.shade900,
-                            icon:
-                                isPriceIncreased
-                                    ? LucideIcons.arrowUp
-                                    : LucideIcons.arrowDown,
-                            iconSize: 12,
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: AppSpacing.xsmall, // 4px
-                              vertical: 1.0, // 1px
-                            ),
-                          ),
-                        ),
                     ],
                   ),
+                  // Badge placed after the price Row, aligned by the Column
+                  if (isPriceChanged)
+                    Padding(
+                      // Add some vertical spacing if needed
+                      padding: const EdgeInsets.only(
+                        top: AppSpacing.xxsmall,
+                      ), // e.g., 2px top padding
+                      child: CustomBadge(
+                        label: '${priceChangePercentage.toStringAsFixed(0)}%',
+                        backgroundColor:
+                            isPriceIncreased
+                                ? colorScheme.errorContainer.withOpacity(0.7)
+                                : Colors.green.shade100,
+                        textColor:
+                            isPriceIncreased
+                                ? colorScheme.onErrorContainer
+                                : Colors.green.shade900,
+                        icon:
+                            isPriceIncreased
+                                ? LucideIcons.arrowUp
+                                : LucideIcons.arrowDown,
+                        iconSize: 12,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: AppSpacing.xsmall, // 4px
+                          vertical: 1.0, // 1px
+                        ),
+                      ),
+                    ),
+                  // Old price remains below
                   if (oldPriceValue != null)
                     Padding(
                       padding: const EdgeInsets.only(
