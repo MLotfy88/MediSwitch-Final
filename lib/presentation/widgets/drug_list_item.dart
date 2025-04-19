@@ -1,3 +1,4 @@
+import 'dart:ui' as ui; // Import dart:ui with alias
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate
@@ -106,6 +107,7 @@ class DrugListItem extends StatelessWidget {
                           color: colorScheme.primary,
                           fontWeight: FontWeight.w600,
                         ),
+                        textDirection: ui.TextDirection.ltr, // Force LTR
                       ),
                     ],
                   ),

@@ -1,193 +1,202 @@
-[D] MedicineProvider: _loadAndUpdateTimestamp called.
-
-[D] DrugRepository: getLastUpdateTimestamp called.
-
-[I] DrugRepository: getLastUpdateTimestamp successful, timestamp: 1744996410966
-
-[I] MedicineProvider: Last update timestamp loaded: 1744996410966
-
-[I] MedicineProvider: Timestamp loaded.
-
-[I] MedicineProvider: Loading categories...
-
-[D] MedicineProvider: _loadCategories called.
-
-[D] DrugRepository: getAvailableCategories called.
-
-[I] SearchScreen: >>>>> build ENTRY <<<<<
-
-[D] SearchScreen BUILD State: isLoading=true, error='', results=0
-
-[V] SearchScreen: build - State read successfully. Returning Scaffold...
-
-[I] SearchScreen: >>>>> build EXIT <<<<<
-
-[I] SettingsScreen: Building widget...
-
-[I] HomeScreen: >>>>> build ENTRY <<<<<
-
-[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', recent=0, popular=0
-
-[V] HomeScreen: build - State read successfully. Returning Scaffold...
-
-[V] HomeScreen: Building loading indicator.
-
-[I] HomeScreen: >>>>> build EXIT <<<<<
-
-[I] DrugRepository: getAvailableCategories successful, found 12 categories.
-
-[I] MedicineProvider: Categories loaded successfully (12 items).
-
-[I] MedicineProvider: Categories loaded.
-
-[I] MedicineProvider: >>> TRYING _loadSimulatedSections...
-
-[D] MedicineProvider: _loadSimulatedSections called.
-
-[I] Fetching recently updated drugs since 2025-03-18 (limit: 8)
-
-[D] DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '2025-03-18', limit: 8
-
-[I] DrugRepository: getRecentlyUpdatedDrugs successful, found 8 drugs.
-
-[I] [_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
-
-[I] Fetching 10 popular (random) drugs
-
-[D] DrugRepository: getPopularDrugs called with limit: 10 (using random)
-
-[I] DrugRepository: getPopularDrugs successful, found 10 random drugs.
-
-[I] [_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
-
-[I] MedicineProvider: Sections loaded. Recent: 8, Popular: 10
-
-[I] MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: 8, Popular: 10
-
-[I] MedicineProvider: >>> TRYING _applyFilters (initial)...
-
-[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 10, FetchLimit: 11, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
-
-[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 11, Offset: 0, Append: false
-
-[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 11, Offset: 0, Category: ''
-
-[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
-
-[D] DrugRepository: searchDrugs called with query: '', limit: 11, offset: 0
-
-[I] DrugRepository: searchDrugs successful, found 11 drugs.
-
-[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 11 items.
-
-[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
-
-[I] MedicineProvider: Filtering complete for page 0. New items count: 11
-
-[D] MedicineProvider: hasMoreItems set to true. Items received: 11, Items to add: 10
-
-[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 10
-
-[I] MedicineProvider: Calculated price range based on current list: 0.0 - 390.0
-
-[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=true, isLoadingMore=false, hasMore=true, filteredCount=10, error=''
-
-[I] MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: 10
-
-[I] MedicineProvider: Initial load successful.
-
-[D] loadInitialData: Final notifyListeners() call.
-
-[I] SearchScreen: >>>>> build ENTRY <<<<<
-
-[D] SearchScreen BUILD State: isLoading=false, error='', results=10
-
-[V] SearchScreen: build - State read successfully. Returning Scaffold...
-
-[I] SearchScreen: >>>>> build EXIT <<<<<
-
-[I] SettingsScreen: Building widget...
-
-[I] HomeScreen: >>>>> build ENTRY <<<<<
-
-[D] HomeScreen BUILD State: isLoading=false, isLoadingMore=false, isInitialLoadComplete=true, error='', recent=8, popular=10
-
-[V] HomeScreen: build - State read successfully. Returning Scaffold...
-
-[V] HomeScreen: Building main content CustomScrollView.
-
-[D] HomeScreen Section Render Check: isInitialLoadComplete=true, recentCount=8, popularCount=10
-
-[V] HomeScreen: Building categories section. Found 12 categories from provider: [Anti_inflammatory, Cold_respiratory, Cosmetics, Digestive, Other, Pain_management, Personal_care, Probiotics, Skin_care, Soothing, Supplements, Vitamins]
-
-[V] HomeScreen: Displayable categories after filtering: 12
-
-[I] HomeScreen: >>>>> build EXIT <<<<<
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=abimol 150mg/5ml syrup 125ml, popular=false, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=abimol 150mg/5ml syrup 125ml
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=albutein 20% i.v. infusion (hospitals only), popular=false, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=albutein 20% i.v. infusion (hospitals only)
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=alfabonid 2mcg/ml (1ml=2mcg) 10 amp., popular=false, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=alfabonid 2mcg/ml (1ml=2mcg) 10 amp.
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=blincorest co 2/125mg 30 chew. tabs., popular=false, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=blincorest co 2/125mg 30 chew. tabs.
-
-[V] DrugCard _buildThumbnailCard: drug=blincorest co 2/125mg 30 chew. tabs.
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=new stracyl 20 sachets, popular=true, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=new stracyl 20 sachets
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=ferrozinc-c 24 caps., popular=true, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=ferrozinc-c 24 caps.
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=infinity eye contour serum 40 ml, popular=true, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=infinity eye contour serum 40 ml
-
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=clozapine 100mg 30 scored tab, popular=true, alternative=false
-
-[V] DrugCard _buildThumbnailCard: drug=clozapine 100mg 30 scored tab
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) 20 f.c.tabs., popular=false, alternative=false
-
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) 20 f.c.tabs.
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml, popular=false, alternative=false
-
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab., popular=false, alternative=false
-
-[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets, popular=false, alternative=false
-
-[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs, popular=false, alternative=false
-
-[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs, popular=false, alternative=false
-
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=corsoden toothpaste 50 gm (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=ergoconazol 200 mg 10 f.c.tabs. (locale: en), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ergoconazol 200 mg 10 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=ramatrizine 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=davasc 20 capsule (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=erastapex 20 mg 30 f.c.tab. (locale: en), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=erastapex 20 mg 30 f.c.tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
 [V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
-
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs, popular=false, alternative=false
-
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
 [V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
-
+[I] MainScreen: _onItemTapped called with index: 0
+[I] MainScreen: Building widget. Selected index: 0
+[I] HomeScreen: RefreshIndicator triggered.
+[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: true) <<<
+[D] MedicineProvider: Checking guard. _isLoading = false, forceUpdate = true
+[I] MedicineProvider: loadInitialData called (forceUpdate: true)
+[I] MedicineProvider: Loading timestamp...
+[D] MedicineProvider: _loadAndUpdateTimestamp called.
+[D] DrugRepository: getLastUpdateTimestamp called.
+[I] DrugRepository: getLastUpdateTimestamp successful, timestamp: 1745103531189
+[I] MedicineProvider: Last update timestamp loaded: 1745103531189
+[I] MedicineProvider: Timestamp loaded.
+[I] MedicineProvider: Loading categories...
+[D] MedicineProvider: _loadCategories called.
+[D] DrugRepository: getAvailableCategories called.
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=true, error='', results=0
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', recent=0, popular=0
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building loading indicator.
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[I] DrugRepository: getAvailableCategories successful, found 28 categories.
+[I] MedicineProvider: Categories loaded successfully (28 items).
+[I] MedicineProvider: Categories loaded.
+[I] MedicineProvider: >>> TRYING _loadSimulatedSections...
+[D] MedicineProvider: _loadSimulatedSections called.
+[I] Fetching recently updated drugs since 2025-03-20 (limit: 8)
+[D] DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '2025-03-20', limit: 8
+[I] DrugRepository: getRecentlyUpdatedDrugs successful, found 8 drugs.
+[I] [_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
+[I] Fetching 10 popular (random) drugs
+[D] DrugRepository: getPopularDrugs called with limit: 10 (using random)
+[I] DrugRepository: getPopularDrugs successful, found 10 random drugs.
+[I] [_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
+[I] MedicineProvider: Sections loaded. Recent: 8, Popular: 10
+[I] MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: 8, Popular: 10
+[I] MedicineProvider: >>> TRYING _applyFilters (initial)...
+[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 10, FetchLimit: 11, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
+[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 11, Offset: 0, Append: false
+[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 11, Offset: 0, Category: ''
+[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
+[D] DrugRepository: searchDrugs called with query: '', limit: 11, offset: 0
+[I] DrugRepository: searchDrugs successful, found 11 drugs.
+[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 11 items.
+[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
+[I] MedicineProvider: Filtering complete for page 0. New items count: 11
+[D] MedicineProvider: hasMoreItems set to true. Items received: 11, Items to add: 10
+[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 10
+[I] MedicineProvider: Calculated price range based on current list: 0.0 - 390.0
+[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=true, isLoadingMore=false, hasMore=true, filteredCount=10, error=''
+[I] MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: 10
+[I] MedicineProvider: Initial load successful.
+[D] loadInitialData: Final notifyListeners() call.
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=10
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[I] SettingsScreen: Building widget...
+[I] HomeScreen: >>>>> build ENTRY <<<<<
+[D] HomeScreen BUILD State: isLoading=false, isLoadingMore=false, isInitialLoadComplete=true, error='', recent=8, popular=10
+[V] HomeScreen: build - State read successfully. Returning Scaffold...
+[V] HomeScreen: Building main content CustomScrollView.
+[D] HomeScreen Section Render Check: isInitialLoadComplete=true, recentCount=8, popularCount=10
+[V] HomeScreen: Building categories section. Found 28 categories from provider: [Anesthetics, Anti Infective, Anti Inflammatory, Baby Care, Cardiovascular, Cosmetics, Diabetes Care, Diagnostics, Digestive, Ear Care, Eye Care, Hematology, Herbal Natural, Hormonal, Immunology, Medical Supplies, Musculoskeletal, Neurological, Oncology, Other, Pain Management, Personal Care, Reproductive Health, Respiratory, Skin Care, Supplements, Urology, Vitamins]
+[V] HomeScreen: Displayable categories after filtering: 0
+[I] HomeScreen: >>>>> build EXIT <<<<<
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=ramatrizine 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=corsoden toothpaste 50 gm (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=davasc 20 capsule (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=attivo shampoo 250 ml (locale: en), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=attivo shampoo 250 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=youth-elixir night serum 30 ml (locale: en), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=youth-elixir night serum 30 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=quetiapine 200mg 30 f.c. tabs. (locale: en), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=quetiapine 200mg 30 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab. (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
+[I] HomeScreen: Navigating to details for drug: attivo shampoo 250 ml
+[I] DrugDetailsScreen: initState for drug: attivo shampoo 250 ml
+[I] DrugDetailsScreen: Building widget for drug: attivo shampoo 250 ml
+[D] DrugDetailsScreen: Building Info Tab using GridView
+[W] Could not parse date for display: 
+ FormatException: Trying to read yyyy from 
+ at 0 
+[D] AlternativesTabContent: initState for drug: attivo shampoo 250 ml
+[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=allear 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allear 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=allear 5 mg 20 f.c.tabs. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allear 5 mg 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=allergstop 2.5mg/5ml syp. 100 ml(n/a) (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allergstop 2.5mg/5ml syp. 100 ml(n/a)
+[V] DrugCard build: type=DrugCardType.detailed, drug=allevo 5mg 20 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allevo 5mg 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=araxileve 5 mg 30 oro-dispersible tabs. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=araxileve 5 mg 30 oro-dispersible tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=chemicetrizine 5 mg 20 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=chemicetrizine 5 mg 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=floracerta 5mg 20 tabs (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=floracerta 5mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=lergicare 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergicare 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=lergicare 5 mg 30 f.c. tabs. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergicare 5 mg 30 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=lergopan 5 mg 10 f.c.tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergopan 5 mg 10 f.c.tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 5mg 20 tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 5mg 20 tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 5mg/ml oral drops 20 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 5mg/ml oral drops 20 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=levocitrone 5 mg 10 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levocitrone 5 mg 10 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=levoctivan 0.5mg/ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levoctivan 0.5mg/ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=levoctivan 5mg 30 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levoctivan 5mg 30 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/10 ml syrup 120ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/10 ml syrup 120ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/ml oral drops 10 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 10 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/ml oral drops 20 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 20 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=linahayzin 2.5mg/5 ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=linahayzin 2.5mg/5 ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=mervoza 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=mervoza 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=modallerge 0.5mg/ml oral sol. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=modallerge 0.5mg/ml oral sol.
+[V] DrugCard build: type=DrugCardType.detailed, drug=orgitrizine 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=orgitrizine 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=orgitrizine 5 mg 20 f.c.tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=orgitrizine 5 mg 20 f.c.tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=rhipgic 5 mg 30 f.c. tabs. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=rhipgic 5 mg 30 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=turnalev 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=turnalev 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=turnalev 5 mg 10 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=turnalev 5 mg 10 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 0.5 mg/ml syrup 120 ml (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 0.5 mg/ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 5mg 10 tab (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 10 tab
+[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 5mg 20 tab (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 20 tab
+[V] DrugCard build: type=DrugCardType.detailed, drug=zalkevor 5mg 10 f.c. tab. (locale: en), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=zalkevor 5mg 10 f.c. tab.
+[I] AlternativesTabContent: Fetching alternatives for attivo shampoo 250 ml
+[I] DrugRepository: getAllDrugs called (Update Check Trigger)
+[D] DrugRepository: Checking if update is needed...
+[D] DrugRepository: _shouldUpdateData called. isConnected: true
+[I] DrugRepository: Checking for remote data updates...
+[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
+[W] DrugRepository: Failed to get remote version: An unexpected error occurred. Not updating.  
+[I] DrugRepository: Update check took 22ms.
+[I] DrugRepository: Update not needed.
+[I] DrugRepository: Update check complete (or update performed). Proceeding to fetch local data.
+[I] DrugRepository: Fetching all drugs from local data source...
+[I] DrugRepository: Successfully fetched 23533 drugs from local source.
+[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
+[I] DrugDetailsScreen: dispose for drug: attivo shampoo 250 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
 [I] MainScreen: _onItemTapped called with index: 4
-
 [I] MainScreen: Building widget. Selected index: 4
-
 [I] SettingsScreen: View Logs tile tapped.
