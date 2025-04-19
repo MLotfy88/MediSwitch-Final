@@ -77,6 +77,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   bool get isInitialLoadComplete => _isInitialLoadComplete;
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
+  int? get lastUpdateTimestamp =>
+      _lastUpdateTimestamp; // Public getter for raw timestamp
 
   // Helper to parse price string to double
   double? _parsePrice(String? priceString) {
@@ -101,18 +103,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     loadInitialData();
   }
 
-  String get lastUpdateTimestampFormatted {
-    if (_lastUpdateTimestamp == null) return 'غير متوفر';
-    try {
-      final dateTime = DateTime.fromMillisecondsSinceEpoch(
-        _lastUpdateTimestamp!,
-      );
-      return DateFormat('d MMM yyyy, HH:mm', 'ar').format(dateTime);
-    } catch (e, s) {
-      _logger.e("Error formatting timestamp", e, s);
-      return 'تنسيق غير صالح';
-    }
-  }
+  // REMOVED: Formatted timestamp getter - formatting moved to UI layer
+  // String get lastUpdateTimestampFormatted { ... }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
     _logger.i(

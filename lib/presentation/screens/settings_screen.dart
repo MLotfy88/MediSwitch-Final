@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
+import 'package:intl/intl.dart'; // Import intl for DateFormat
 import '../bloc/settings_provider.dart';
 import '../bloc/medicine_provider.dart';
 import '../widgets/section_header.dart'; // Keep if used elsewhere, otherwise remove
@@ -99,33 +100,41 @@ class SettingsScreen extends StatelessWidget {
                       isDarkMode(context) ? LucideIcons.moon : LucideIcons.sun,
                   trailing: Switch(
                     value: settingsProvider.themeMode == ThemeMode.dark,
-                    // Disable switch until provider is initialized
-                    onChanged:
-                        settingsProvider.isInitialized
-                            ? (isDark) {
-                              _logger.i(
-                                "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
-                              );
-                              settingsProvider.updateThemeMode(
-                                isDark ? ThemeMode.dark : ThemeMode.light,
-                              );
-                            }
-                            : null, // Disable if not initialized
+                    // Allow interaction always, but check initialization inside
+                    onChanged: (isDark) {
+                      // Check if initialized before updating
+                      if (settingsProvider.isInitialized) {
+                        _logger.i(
+                          "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
+                        );
+                        settingsProvider.updateThemeMode(
+                          isDark ? ThemeMode.dark : ThemeMode.light,
+                        );
+                      } else {
+                        _logger.w(
+                          "SettingsScreen: Theme switch toggled but provider not initialized yet.",
+                        );
+                      }
+                    },
                   ),
-                  // Disable tap until provider is initialized
-                  onTap:
-                      settingsProvider.isInitialized
-                          ? () {
-                            bool currentIsDark =
-                                settingsProvider.themeMode == ThemeMode.dark;
-                            _logger.i(
-                              "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
-                            );
-                            settingsProvider.updateThemeMode(
-                              currentIsDark ? ThemeMode.light : ThemeMode.dark,
-                            );
-                          }
-                          : null, // Disable if not initialized
+                  // Allow interaction always, but check initialization inside
+                  onTap: () {
+                    // Check if initialized before updating
+                    if (settingsProvider.isInitialized) {
+                      bool currentIsDark =
+                          settingsProvider.themeMode == ThemeMode.dark;
+                      _logger.i(
+                        "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
+                      );
+                      settingsProvider.updateThemeMode(
+                        currentIsDark ? ThemeMode.light : ThemeMode.dark,
+                      );
+                    } else {
+                      _logger.w(
+                        "SettingsScreen: Theme tile tapped but provider not initialized yet.",
+                      );
+                    }
+                  },
                 ),
               ],
             ),
@@ -138,7 +147,12 @@ class SettingsScreen extends StatelessWidget {
               children: [
                 SettingsListTile(
                   title: l10n.lastDataUpdateTitle, // Use localized string
-                  subtitle: medicineProvider.lastUpdateTimestampFormatted,
+                  subtitle: _formatTimestamp(
+                    // Call helper function
+                    context,
+                    medicineProvider.lastUpdateTimestamp, // Pass raw timestamp
+                    l10n, // Pass localizations
+                  ),
                   leadingIcon: LucideIcons.refreshCw,
                   trailing: IconButton(
                     icon: const Icon(LucideIcons.refreshCw, size: 20),
@@ -505,6 +519,29 @@ class SettingsScreen extends StatelessWidget {
       provider.updateLocale(selectedLocale);
     } else {
       _logger.d("SettingsScreen: Language dialog cancelled.");
+    }
+  }
+
+  // Helper function to format the timestamp locally
+  String _formatTimestamp(
+    BuildContext context,
+    int? timestamp,
+    AppLocalizations l10n,
+  ) {
+    if (timestamp == null) {
+      return l10n.lastUpdateUnavailable; // Use localized string
+    }
+    try {
+      final dateTime = DateTime.fromMillisecondsSinceEpoch(timestamp);
+      final locale =
+          Localizations.localeOf(
+            context,
+          ).toString(); // Get current locale string
+      // Use locale-aware formatting
+      return DateFormat('d MMM yyyy, HH:mm', locale).format(dateTime);
+    } catch (e) {
+      _logger.e("Error formatting timestamp in SettingsScreen", e);
+      return l10n.lastUpdateInvalidFormat; // Use localized string
     }
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../domain/entities/drug_entity.dart';
@@ -47,6 +48,7 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
     );
     final provider = context.watch<AlternativesProvider>();
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context)!; // Get localizations
 
     return ListView(
       padding: const EdgeInsets.all(16.0),
@@ -61,7 +63,7 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
             ),
           )
         else if (provider.alternatives.isEmpty)
-          const Center(child: Text('لا توجد بدائل متاحة بنفس المادة الفعالة.'))
+          Center(child: Text(l10n.noAlternativesFound)) // Use localized string
         else
           ListView.separated(
             shrinkWrap: true,

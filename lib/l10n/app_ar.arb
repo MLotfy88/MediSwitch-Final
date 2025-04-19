@@ -107,5 +107,35 @@
   "navSettings": "الإعدادات",
   "calculatorComingSoon": "حاسبة الجرعات (قريباً)",
   "interactionsComingSoon": "التفاعلات (قريباً)",
-  "viewLogsTooltip": "عرض السجلات"
+  "viewLogsTooltip": "عرض السجلات",
+  "categorySemanticLabel": "فئة {categoryName}",
+  "@categorySemanticLabel": {
+    "description": "التسمية الدلالية لبطاقة الفئة، تستخدم بواسطة قارئات الشاشة.",
+    "placeholders": {
+      "categoryName": {
+        "type": "String",
+        "example": "مسكنات الألم"
+      }
+    }
+  },
+  "lastUpdateUnavailable": "غير متوفر",
+  "@lastUpdateUnavailable": {
+    "description": "النص الذي يظهر عندما لا يكون وقت آخر تحديث للبيانات متاحًا."
+  },
+  "lastUpdateInvalidFormat": "تنسيق غير صالح",
+  "@lastUpdateInvalidFormat": {
+    "description": "النص الذي يظهر عندما يكون تنسيق وقت آخر تحديث للبيانات غير صالح."
+  },
+  "noAlternativesFound": "لا توجد بدائل متاحة بنفس المادة الفعالة.",
+  "@noAlternativesFound": {
+    "description": "الرسالة التي تظهر في صفحة تفاصيل الدواء عندما لا يتم العثور على بدائل."
+  },
+  "informationTab": "المعلومات",
+  "@informationTab": {
+    "description": "تسمية تبويب المعلومات في صفحة تفاصيل الدواء."
+  },
+  "alternativesTab": "البدائل",
+  "@alternativesTab": {
+    "description": "تسمية تبويب البدائل في صفحة تفاصيل الدواء."
+  }
 }

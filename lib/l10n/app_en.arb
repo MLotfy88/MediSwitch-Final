@@ -107,5 +107,35 @@
   "navSettings": "Settings",
   "calculatorComingSoon": "Dose Calculator (Coming Soon)",
   "interactionsComingSoon": "Interactions (Coming Soon)",
-  "viewLogsTooltip": "View Logs"
+  "viewLogsTooltip": "View Logs",
+  "categorySemanticLabel": "Category {categoryName}",
+  "@categorySemanticLabel": {
+    "description": "Semantic label for the category card, used by screen readers.",
+    "placeholders": {
+      "categoryName": {
+        "type": "String",
+        "example": "Painkillers"
+      }
+    }
+  },
+  "lastUpdateUnavailable": "Unavailable",
+  "@lastUpdateUnavailable": {
+    "description": "Text shown when the last data update time is not available."
+  },
+  "lastUpdateInvalidFormat": "Invalid format",
+  "@lastUpdateInvalidFormat": {
+    "description": "Text shown when the last data update time format is invalid."
+  },
+  "noAlternativesFound": "No alternatives available with the same active ingredient.",
+  "@noAlternativesFound": {
+    "description": "Message shown on drug details page when no alternatives are found."
+  },
+  "informationTab": "Information",
+  "@informationTab": {
+    "description": "Label for the Information tab on the drug details page."
+  },
+  "alternativesTab": "Alternatives",
+  "@alternativesTab": {
+    "description": "Label for the Alternatives tab on the drug details page."
+  }
 }
