@@ -137,5 +137,28 @@
   "alternativesTab": "البدائل",
   "@alternativesTab": {
     "description": "تسمية تبويب البدائل في صفحة تفاصيل الدواء."
-  }
+  },
+  "subscriptionTitle": "الاشتراك Premium",
+  "currentSubscriptionStatus": "حالة الاشتراك الحالية:",
+  "premiumTier": "Premium",
+  "freeTier": "مجاني",
+  "premiumFeaturesTitle": "احصل على الميزات الحصرية:",
+  "featureSaveHistory": "حفظ سجل البحث",
+  "featurePriceAlerts": "تنبيهات تغير الأسعار",
+  "featureSaveCalculations": "حفظ حسابات الجرعات",
+  "featureFavorites": "إضافة الأدوية للمفضلة",
+  "featureRemoveAds": "إزالة الإعلانات",
+  "processing": "جاري المعالجة...",
+  "subscribeNow": "اشترك الآن",
+  "errorLoadingPlans": "خطأ في تحميل خطط الاشتراك: {error}",
+  "@errorLoadingPlans": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "plansUnavailable": "خطط الاشتراك غير متاحة حالياً.",
+  "restorePurchases": "استعادة المشتريات السابقة",
+  "descriptionTitle": "الوصف"
 }

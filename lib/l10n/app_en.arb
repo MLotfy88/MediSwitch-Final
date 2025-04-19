@@ -137,5 +137,28 @@
   "alternativesTab": "Alternatives",
   "@alternativesTab": {
     "description": "Label for the Alternatives tab on the drug details page."
-  }
+  },
+  "subscriptionTitle": "Premium Subscription",
+  "currentSubscriptionStatus": "Current Status:",
+  "premiumTier": "Premium",
+  "freeTier": "Free",
+  "premiumFeaturesTitle": "Unlock Exclusive Features:",
+  "featureSaveHistory": "Save Search History",
+  "featurePriceAlerts": "Price Change Alerts",
+  "featureSaveCalculations": "Save Dose Calculations",
+  "featureFavorites": "Add Drugs to Favorites",
+  "featureRemoveAds": "Remove Ads",
+  "processing": "Processing...",
+  "subscribeNow": "Subscribe Now",
+  "errorLoadingPlans": "Error loading subscription plans: {error}",
+  "@errorLoadingPlans": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "plansUnavailable": "Subscription plans are currently unavailable.",
+  "restorePurchases": "Restore Purchases",
+  "descriptionTitle": "Description"
 }
