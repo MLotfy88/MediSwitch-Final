@@ -101,7 +101,7 @@ class DrugListItem extends StatelessWidget {
                         ),
                       const SizedBox(height: 4.0),
                       Text(
-                        '${drug.price} جنيه',
+                        '${drug.price} L.E', // Use L.E consistently
                         style: textTheme.bodyMedium?.copyWith(
                           color: colorScheme.primary,
                           fontWeight: FontWeight.w600,
