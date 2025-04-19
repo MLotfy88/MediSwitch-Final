@@ -275,6 +275,7 @@ class DrugCard extends StatelessWidget {
                               fontWeight: FontWeight.bold, // Bold
                               color: colorScheme.primary, // Highlight price
                             ),
+                            textDirection: ui.TextDirection.ltr, // Force LTR
                           ),
                           // Old Price (Added)
                           if (drug.oldPrice != null &&
@@ -291,6 +292,8 @@ class DrugCard extends StatelessWidget {
                                   color: colorScheme.onSurfaceVariant,
                                   decoration: TextDecoration.lineThrough,
                                 ),
+                                textDirection:
+                                    ui.TextDirection.ltr, // Force LTR
                               ),
                             ),
                           // Popular Icon
@@ -414,6 +417,7 @@ class DrugCard extends StatelessWidget {
                                 fontWeight: FontWeight.w600, // Semibold
                                 color: colorScheme.primary,
                               ),
+                              textDirection: ui.TextDirection.ltr, // Force LTR
                             ),
                             if (drug.oldPrice != null &&
                                 drug.oldPrice!.isNotEmpty)
@@ -427,6 +431,8 @@ class DrugCard extends StatelessWidget {
                                     color: colorScheme.onSurfaceVariant,
                                     decoration: TextDecoration.lineThrough,
                                   ),
+                                  textDirection:
+                                      ui.TextDirection.ltr, // Force LTR
                                 ),
                               ),
                           ],

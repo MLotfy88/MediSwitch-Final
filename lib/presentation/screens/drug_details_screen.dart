@@ -150,28 +150,25 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               textTheme,
               l10n,
             ), // Pass l10n (Updated for 2 tabs)
-            // Use Expanded or Flexible for TabBarView content if ListView scrolls
-            // Or keep Container with adjusted height if fixed height is desired
-            // Use Flexible or Expanded within the ListView if TabBarView needs to scroll with ListView
-            // Or use a fixed height if the content size is predictable
-            SizedBox(
-              // Using SizedBox assumes content won't exceed available space or will handle its own scrolling internally.
-              // Adjust height as needed, or remove for intrinsic height.
-              // height: 400, // Example fixed height
-              child: TabBarView(
-                controller: _tabController,
-                children: [
-                  // Consolidated Information Tab
-                  _buildConsolidatedInfoTab(
-                    context,
-                    colorScheme,
-                    textTheme,
-                    l10n,
-                  ),
-                  // Alternatives Tab
-                  _buildAlternativesTab(context),
-                ],
-              ),
+            // REMOVED SizedBox wrapper around TabBarView
+            // TabBarView is now a direct child of the outer ListView.
+            // The inner ListView in _buildConsolidatedInfoTab uses shrinkWrap and physics
+            // to size itself correctly within the TabBarView and the outer ListView.
+            TabBarView(
+              controller: _tabController,
+              physics:
+                  const NeverScrollableScrollPhysics(), // Prevent TabBarView from scrolling independently
+              children: [
+                // Consolidated Information Tab
+                _buildConsolidatedInfoTab(
+                  context,
+                  colorScheme,
+                  textTheme,
+                  l10n,
+                ),
+                // Alternatives Tab
+                _buildAlternativesTab(context),
+              ],
             ),
             AppSpacing.gapVLarge, // Add padding at the very bottom
           ],
@@ -362,66 +359,75 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         right: AppSpacing.large,
         bottom: AppSpacing.large,
       ),
-      child: Row(
-        children: [
-          // RE-ADD Dose Calculator Button
-          Expanded(
-            child: OutlinedButton.icon(
-              icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
-              label: Text(l10n.doseCalculatorButton), // Use localized string
-              onPressed: () {
-                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
-                context.read<DoseCalculatorProvider>().setSelectedDrug(
-                  widget.drug,
-                );
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const WeightCalculatorScreen(),
-                  ),
-                );
-              },
-              style: baseButtonStyle, // Apply base style
+      child: IntrinsicHeight(
+        // Wrap Row with IntrinsicHeight
+        child: Row(
+          crossAxisAlignment:
+              CrossAxisAlignment.stretch, // Make buttons fill height
+          children: [
+            // RE-ADD Dose Calculator Button
+            Expanded(
+              child: OutlinedButton.icon(
+                icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
+                label: Text(l10n.doseCalculatorButton), // Use localized string
+                onPressed: () {
+                  _logger.i(
+                    "DrugDetailsScreen: Dose Calculator button tapped.",
+                  );
+                  context.read<DoseCalculatorProvider>().setSelectedDrug(
+                    widget.drug,
+                  );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const WeightCalculatorScreen(),
+                    ),
+                  );
+                },
+                style: baseButtonStyle, // Apply base style
+              ),
             ),
-          ),
-          AppSpacing.gapHSmall, // RE-ADD Space between buttons
-          Expanded(
-            // Interactions button no longer takes full width
-            child: OutlinedButton.icon(
-              icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
-              label: Text(l10n.drugInteractionsButton), // Use localized string
-              onPressed: () {
-                _logger.i(
-                  "DrugDetailsScreen: Interaction Checker button tapped (Deferred for MVP).",
-                );
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: Text(
-                      l10n.interactionCheckerSnackbar,
-                    ), // Use localized string
-                    duration: const Duration(seconds: 2),
+            AppSpacing.gapHSmall, // RE-ADD Space between buttons
+            Expanded(
+              // Interactions button no longer takes full width
+              child: OutlinedButton.icon(
+                icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
+                label: Text(
+                  l10n.drugInteractionsButton,
+                ), // Use localized string
+                onPressed: () {
+                  _logger.i(
+                    "DrugDetailsScreen: Interaction Checker button tapped (Deferred for MVP).",
+                  );
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(
+                        l10n.interactionCheckerSnackbar,
+                      ), // Use localized string
+                      duration: const Duration(seconds: 2),
+                    ),
+                  );
+                  // context.read<InteractionProvider>().addMedicine(widget.drug);
+                  // Navigator.push(
+                  //   context,
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const InteractionCheckerScreen(),
+                  //   ),
+                  // );
+                },
+                // Merge base style with dimming overrides
+                style: baseButtonStyle?.copyWith(
+                  foregroundColor: MaterialStateProperty.all(
+                    colorScheme.onSurfaceVariant.withOpacity(0.6),
                   ),
-                );
-                // context.read<InteractionProvider>().addMedicine(widget.drug);
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => const InteractionCheckerScreen(),
-                //   ),
-                // );
-              },
-              // Merge base style with dimming overrides
-              style: baseButtonStyle?.copyWith(
-                foregroundColor: MaterialStateProperty.all(
-                  colorScheme.onSurfaceVariant.withOpacity(0.6),
-                ),
-                side: MaterialStateProperty.all(
-                  BorderSide(color: colorScheme.outline.withOpacity(0.6)),
+                  side: MaterialStateProperty.all(
+                    BorderSide(color: colorScheme.outline.withOpacity(0.6)),
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

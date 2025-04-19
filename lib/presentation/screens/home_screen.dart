@@ -175,26 +175,30 @@ class _HomeScreenState extends State<HomeScreen> {
     return CustomScrollView(
       // controller: _scrollController, // REMOVED: No controller needed
       slivers: [
-        // Add padding around search bar
-        const SliverPadding(
-          padding: AppSpacing.edgeInsetsHMedium, // Horizontal padding (12px)
-          sliver: SliverToBoxAdapter(child: SearchBarButton()),
-        ),
+        // Add small space at the top
         const SliverToBoxAdapter(
-          child: AppSpacing.gapVMedium,
-        ), // Space below search bar (12px)
-        // --- Categories Section ---
+          child: AppSpacing.gapVMedium, // 12px
+        ),
+        // --- Categories Section (Moved Up) ---
         if (isInitialLoadComplete) // Use passed parameter
           SliverToBoxAdapter(
             child: _buildCategoriesSection(context, l10n),
           ), // Pass l10n
-        // Add space after categories if they exist
+        // Add larger space below categories
         if (isInitialLoadComplete)
           const SliverToBoxAdapter(
-            child: AppSpacing.gapVLarge,
-          ), // Space after categories (16px)
-        // --- Recently Updated Section ---
-        // Access provider directly in the condition
+            child: AppSpacing.gapVLarge, // 16px
+          ),
+        // --- Search Bar (Moved Down) ---
+        const SliverPadding(
+          padding: AppSpacing.edgeInsetsHMedium, // Horizontal padding (12px)
+          sliver: SliverToBoxAdapter(child: SearchBarButton()),
+        ),
+        // Add larger space below search bar
+        const SliverToBoxAdapter(
+          child: AppSpacing.gapVLarge, // 16px
+        ),
+        // --- Recently Updated Section (Moved Up relative to Search) ---
         if (medicineProvider.isInitialLoadComplete &&
             medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
@@ -336,11 +340,9 @@ class _HomeScreenState extends State<HomeScreen> {
           .replaceAll(RegExp(r'^_+'), '');
     }
 
-    // Filter based on normalized keys having a translation
+    // No longer filtering based on translation map keys
     final displayableCategories =
-        englishCategories
-            .where((key) => kCategoryTranslation.containsKey(normalizeKey(key)))
-            .toList();
+        englishCategories; // Use all fetched categories
 
     _logger.v(
       "HomeScreen: Displayable categories after filtering: ${displayableCategories.length}",
@@ -359,6 +361,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 .medium, // Use constant (12px) - Reduced bottom padding slightly
       ),
       children:
+          // Iterate through the ORIGINAL English categories (keys from CSV)
           // Iterate through the ORIGINAL English categories (keys from CSV)
           displayableCategories.map((englishCategoryName) {
             // Determine locale for conditional translation
@@ -405,7 +408,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 .animate()
                 .scale(
                   delay:
-                      (displayableCategories.indexOf(englishCategoryName) * 100)
+                      (englishCategories.indexOf(englishCategoryName) *
+                              100) // Use original list for index
                           .ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
@@ -414,7 +418,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 )
                 .fadeIn(
                   delay:
-                      (displayableCategories.indexOf(englishCategoryName) * 100)
+                      (englishCategories.indexOf(englishCategoryName) *
+                              100) // Use original list for index
                           .ms,
                   duration: 400.ms,
                   curve: Curves.easeOut,
