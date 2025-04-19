@@ -45,10 +45,11 @@ class SettingsScreen extends StatelessWidget {
     final theme = Theme.of(context);
     final textTheme = theme.textTheme;
     final colorScheme = theme.colorScheme;
+    final l10n = AppLocalizations.of(context)!; // Get l10n instance
 
     return Scaffold(
       // Use localized string for AppBar title
-      appBar: AppBar(title: Text(AppLocalizations.of(context)!.settingsTitle)),
+      appBar: AppBar(title: Text(l10n.settingsTitle)),
       // Wrap the body content with SafeArea
       body: SafeArea(
         child: ListView(
@@ -65,15 +66,16 @@ class SettingsScreen extends StatelessWidget {
             _buildSectionCard(
               context,
               // Use localized string
-              title: AppLocalizations.of(context)!.generalSectionTitle,
+              title: l10n.generalSectionTitle,
               children: [
                 SettingsListTile(
                   // Use localized string for Language setting title
-                  title: AppLocalizations.of(context)!.languageSettingTitle,
+                  title: l10n.languageSettingTitle,
                   subtitle:
                       settingsProvider.locale.languageCode == 'ar'
-                          ? 'العربية'
-                          : 'English',
+                          ? l10n
+                              .languageArabic // Use localized string
+                          : l10n.languageEnglish, // Use localized string
                   leadingIcon: LucideIcons.globe,
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -88,31 +90,42 @@ class SettingsScreen extends StatelessWidget {
                 // Divider handled by ListView.separated in _buildSectionCard
                 SettingsListTile(
                   // Use localized string
-                  title: AppLocalizations.of(context)!.appearanceSettingTitle,
-                  subtitle: _themeModeToString(settingsProvider.themeMode),
+                  title: l10n.appearanceSettingTitle,
+                  subtitle: _themeModeToString(
+                    settingsProvider.themeMode,
+                    l10n,
+                  ), // Pass l10n
                   leadingIcon:
                       isDarkMode(context) ? LucideIcons.moon : LucideIcons.sun,
                   trailing: Switch(
                     value: settingsProvider.themeMode == ThemeMode.dark,
-                    onChanged: (isDark) {
-                      _logger.i(
-                        "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
-                      );
-                      settingsProvider.updateThemeMode(
-                        isDark ? ThemeMode.dark : ThemeMode.light,
-                      );
-                    },
+                    // Disable switch until provider is initialized
+                    onChanged:
+                        settingsProvider.isInitialized
+                            ? (isDark) {
+                              _logger.i(
+                                "SettingsScreen: Theme switch toggled to ${isDark ? 'Dark' : 'Light'}.",
+                              );
+                              settingsProvider.updateThemeMode(
+                                isDark ? ThemeMode.dark : ThemeMode.light,
+                              );
+                            }
+                            : null, // Disable if not initialized
                   ),
-                  onTap: () {
-                    bool currentIsDark =
-                        settingsProvider.themeMode == ThemeMode.dark;
-                    _logger.i(
-                      "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
-                    );
-                    settingsProvider.updateThemeMode(
-                      currentIsDark ? ThemeMode.light : ThemeMode.dark,
-                    );
-                  },
+                  // Disable tap until provider is initialized
+                  onTap:
+                      settingsProvider.isInitialized
+                          ? () {
+                            bool currentIsDark =
+                                settingsProvider.themeMode == ThemeMode.dark;
+                            _logger.i(
+                              "SettingsScreen: Theme tile tapped. Toggling to ${currentIsDark ? 'Light' : 'Dark'}.",
+                            );
+                            settingsProvider.updateThemeMode(
+                              currentIsDark ? ThemeMode.light : ThemeMode.dark,
+                            );
+                          }
+                          : null, // Disable if not initialized
                 ),
               ],
             ),
@@ -121,22 +134,26 @@ class SettingsScreen extends StatelessWidget {
             _buildSectionCard(
               context,
               // Use localized string
-              title: AppLocalizations.of(context)!.dataSectionTitle,
+              title: l10n.dataSectionTitle,
               children: [
                 SettingsListTile(
-                  title: 'آخر تحديث للبيانات',
+                  title: l10n.lastDataUpdateTitle, // Use localized string
                   subtitle: medicineProvider.lastUpdateTimestampFormatted,
                   leadingIcon: LucideIcons.refreshCw,
                   trailing: IconButton(
                     icon: const Icon(LucideIcons.refreshCw, size: 20),
-                    tooltip: 'التحقق من وجود تحديث',
+                    tooltip: l10n.checkForUpdateTooltip, // Use localized string
                     onPressed: () async {
                       _logger.i("SettingsScreen: Refresh data button pressed.");
                       // Show snackbar *before* async operation
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('جاري التحقق من التحديثات...'),
-                          duration: Duration(seconds: 1), // Shorter duration
+                        SnackBar(
+                          content: Text(
+                            l10n.checkingForUpdatesSnackbar,
+                          ), // Use localized string
+                          duration: const Duration(
+                            seconds: 1,
+                          ), // Shorter duration
                         ),
                       );
                       await medicineProvider.loadInitialData();
@@ -146,9 +163,13 @@ class SettingsScreen extends StatelessWidget {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text(
-                              medicineProvider.error.contains('فشل')
-                                  ? medicineProvider.error
-                                  : 'البيانات محدثة.',
+                              medicineProvider.error.contains(
+                                    'فشل',
+                                  ) // Keep error check logic
+                                  ? medicineProvider
+                                      .error // Show specific error if available
+                                  : l10n
+                                      .dataUpToDateSnackbar, // Use localized string
                             ),
                             duration: const Duration(seconds: 2),
                           ),
@@ -165,7 +186,7 @@ class SettingsScreen extends StatelessWidget {
                 // Divider handled by ListView.separated
                 // --- Add Log Viewer Tile ---
                 SettingsListTile(
-                  title: 'عرض سجلات التصحيح', // View Debug Logs
+                  title: l10n.viewDebugLogsTitle, // Use localized string
                   leadingIcon: LucideIcons.fileText, // Or LucideIcons.bug
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -190,11 +211,12 @@ class SettingsScreen extends StatelessWidget {
             _buildSectionCard(
               context,
               // Use localized string
-              title: AppLocalizations.of(context)!.subscriptionSectionTitle,
+              title: l10n.subscriptionSectionTitle,
               children: [
                 SettingsListTile(
-                  title: 'إدارة الاشتراك',
-                  subtitle: 'الترقية إلى Premium',
+                  title: l10n.manageSubscriptionTitle, // Use localized string
+                  subtitle:
+                      l10n.manageSubscriptionSubtitle, // Use localized string
                   leadingIcon: LucideIcons.creditCard,
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -220,10 +242,10 @@ class SettingsScreen extends StatelessWidget {
             _buildSectionCard(
               context,
               // Use localized string
-              title: AppLocalizations.of(context)!.aboutSectionTitle,
+              title: l10n.aboutSectionTitle,
               children: [
                 SettingsListTile(
-                  title: 'عن MediSwitch',
+                  title: l10n.aboutAppTitle, // Use localized string
                   leadingIcon: LucideIcons.info,
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -237,7 +259,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 // Divider handled by ListView.separated
                 SettingsListTile(
-                  title: 'سياسة الخصوصية',
+                  title: l10n.privacyPolicyTitle, // Use localized string
                   leadingIcon: LucideIcons.shieldCheck,
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -251,7 +273,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 // Divider handled by ListView.separated
                 SettingsListTile(
-                  title: 'شروط الاستخدام',
+                  title: l10n.termsOfUseTitle, // Use localized string
                   leadingIcon: LucideIcons.gavel,
                   trailing: Icon(
                     LucideIcons.chevronLeft,
@@ -265,7 +287,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 // Divider handled by ListView.separated
                 SettingsListTile(
-                  title: 'إصدار التطبيق',
+                  title: l10n.appVersionTitle, // Use localized string
                   subtitle: '1.0.0+1', // TODO: Get version dynamically
                   leadingIcon: LucideIcons.tag,
                   onTap: null,
@@ -278,7 +300,7 @@ class SettingsScreen extends StatelessWidget {
               padding: AppSpacing.edgeInsetsHSmall, // Use constant (8px)
               child: ElevatedButton.icon(
                 icon: const Icon(LucideIcons.logOut, size: 18),
-                label: const Text('تسجيل الخروج'),
+                label: Text(l10n.logoutButton), // Use localized string
                 style: ElevatedButton.styleFrom(
                   backgroundColor: colorScheme.error,
                   foregroundColor: colorScheme.onError,
@@ -302,17 +324,18 @@ class SettingsScreen extends StatelessWidget {
 
   // Helper to build profile section card
   Widget _buildProfileSection(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!; // Get l10n instance
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
-    // Placeholder data for now
-    const String userName = "أحمد محمد";
-    const String userEmail = "ahmed@example.com";
-    const String userInitial = "أ";
+    // Use localized placeholders
+    final String userName = l10n.profileNamePlaceholder;
+    final String userEmail = l10n.profileEmailPlaceholder;
+    final String userInitial = l10n.profileInitialPlaceholder;
 
     return _buildSectionCard(
       context,
       // Use localized string
-      title: AppLocalizations.of(context)!.profileSectionTitle,
+      title: l10n.profileSectionTitle,
       children: [
         Padding(
           padding: const EdgeInsets.all(
@@ -415,15 +438,16 @@ class SettingsScreen extends StatelessWidget {
   bool isDarkMode(BuildContext context) =>
       Theme.of(context).brightness == Brightness.dark;
 
-  String _themeModeToString(ThemeMode themeMode) {
+  String _themeModeToString(ThemeMode themeMode, AppLocalizations l10n) {
+    // Add l10n parameter
     switch (themeMode) {
       case ThemeMode.light:
-        return 'فاتح';
+        return l10n.themeModeLight; // Use localized string
       case ThemeMode.dark:
-        return 'داكن';
+        return l10n.themeModeDark; // Use localized string
       case ThemeMode.system:
       default:
-        return 'النظام';
+        return l10n.themeModeSystem; // Use localized string
     }
   }
 
@@ -432,18 +456,19 @@ class SettingsScreen extends StatelessWidget {
     SettingsProvider provider,
   ) async {
     _logger.d("SettingsScreen: Showing language dialog.");
+    final l10n = AppLocalizations.of(context)!; // Get l10n instance
     final currentLocale = provider.locale;
     final selectedLocale = await showDialog<Locale>(
       context: context,
       builder: (BuildContext dialogContext) {
         // Use different context name
         return AlertDialog(
-          title: const Text('اختر اللغة'),
+          title: Text(l10n.languageDialogTitle), // Use localized string
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               RadioListTile<Locale>(
-                title: const Text('العربية'),
+                title: Text(l10n.languageArabic), // Use localized string
                 value: const Locale('ar'),
                 groupValue: currentLocale,
                 onChanged: (Locale? value) {
@@ -451,7 +476,7 @@ class SettingsScreen extends StatelessWidget {
                 },
               ),
               RadioListTile<Locale>(
-                title: const Text('English'),
+                title: Text(l10n.languageEnglish), // Use localized string
                 value: const Locale('en'),
                 groupValue: currentLocale,
                 onChanged: (Locale? value) {
@@ -462,7 +487,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           actions: <Widget>[
             TextButton(
-              child: const Text('إلغاء'),
+              child: Text(l10n.dialogCancelButton), // Use localized string
               onPressed: () {
                 Navigator.pop(dialogContext); // Use dialogContext
               },

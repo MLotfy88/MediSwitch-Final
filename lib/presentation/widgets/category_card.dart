@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class CategoryCard extends StatelessWidget {
   final String name;
@@ -67,6 +68,7 @@ class CategoryCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
+                AppSpacing.gapVXSmall, // Add small spacing below text (4px)
               ],
             ),
           ),
