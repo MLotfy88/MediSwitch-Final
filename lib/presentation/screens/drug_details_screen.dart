@@ -274,7 +274,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                     textBaseline: TextBaseline.alphabetic,
                     children: [
                       Text(
-                        '${_formatPrice(widget.drug.price)} ${l10n.currencySymbol}', // Use localized currency
+                        '${_formatPrice(widget.drug.price)} L.E', // Use hardcoded currency
                         style: textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.bold,
                         ), // text-lg font-bold
@@ -316,7 +316,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         top: AppSpacing.xxsmall,
                       ), // 2px
                       child: Text(
-                        '${_formatPrice(widget.drug.oldPrice!)} ${l10n.currencySymbol}', // Use localized currency
+                        '${_formatPrice(widget.drug.oldPrice!)} L.E', // Use hardcoded currency
                         style: textTheme.bodyMedium?.copyWith(
                           color: colorScheme.onSurfaceVariant, // Muted color
                           decoration: TextDecoration.lineThrough,
@@ -351,6 +351,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
     AppLocalizations l10n, // Add l10n parameter
   ) {
+    // Get the base style for consistency
+    final ButtonStyle? baseButtonStyle =
+        Theme.of(context).outlinedButtonTheme.style;
+
     return Padding(
       // Consistent horizontal padding, bottom padding added
       padding: const EdgeInsets.only(
@@ -377,7 +381,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   ),
                 );
               },
-              // Style inherited from main theme
+              style: baseButtonStyle, // Apply base style
             ),
           ),
           AppSpacing.gapHSmall, // RE-ADD Space between buttons
@@ -406,10 +410,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 //   ),
                 // );
               },
-              style: OutlinedButton.styleFrom(
-                // Keep dimmed style for deferred feature
-                foregroundColor: colorScheme.onSurfaceVariant.withOpacity(0.6),
-                side: BorderSide(color: colorScheme.outline.withOpacity(0.6)),
+              // Merge base style with dimming overrides
+              style: baseButtonStyle?.copyWith(
+                foregroundColor: MaterialStateProperty.all(
+                  colorScheme.onSurfaceVariant.withOpacity(0.6),
+                ),
+                side: MaterialStateProperty.all(
+                  BorderSide(color: colorScheme.outline.withOpacity(0.6)),
+                ),
               ),
             ),
           ),
@@ -549,70 +557,30 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             );
           },
         ),
-        // Add other sections with appropriate titles and spacing
+        // --- Usage Section ---
         if (usageInfo.isNotEmpty) ...[
           AppSpacing.gapVXLarge,
           Text(
-            l10n.usageTab,
+            l10n.usageTab, // Keep "Usage" title
             style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
           ),
           AppSpacing.gapVMedium,
           Text(usageInfo, style: textTheme.bodyLarge),
         ],
-        // Dosage Section (Simplified)
-        AppSpacing.gapVXLarge,
-        Text(
-          l10n.dosageTitle,
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVMedium,
-        Text(
-          widget
-                  .drug
-                  .description
-                  .isNotEmpty // Placeholder: Use appropriate dosage field if available
-              ? widget
-                  .drug
-                  .description // Example: Using description for now
-              : l10n.consultDoctorOrPharmacist,
-          style: textTheme.bodyLarge,
-        ),
-        // Side Effects Section
-        AppSpacing.gapVXLarge,
-        Text(
-          l10n.sideEffectsTab,
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVMedium,
-        Text(
-          widget
-                  .drug
-                  .description
-                  .isNotEmpty // Placeholder: Use appropriate side effects field
-              ? widget
-                  .drug
-                  .description // Example: Using description for now
-              : l10n.noSideEffectsInfo,
-          style: textTheme.bodyLarge?.copyWith(
-            color:
-                widget.drug.description.isEmpty
-                    ? colorScheme.onSurfaceVariant
-                    : null,
+        // --- Description Section ---
+        // Display the 'description' field if it's not empty
+        // This field might contain Dosage, Side Effects, etc. based on the data source
+        if (widget.drug.description.isNotEmpty) ...[
+          AppSpacing.gapVXLarge,
+          Text(
+            l10n.descriptionTitle, // Use a general "Description" title (Add this key to .arb files)
+            style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
           ),
-        ),
-        // Contraindications Section
-        AppSpacing.gapVXLarge,
-        Text(
-          l10n.contraindicationsTab,
-          style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-        ),
-        AppSpacing.gapVMedium,
-        Text(
-          l10n.noContraindicationsInfo, // Placeholder: Use appropriate contraindications field
-          style: textTheme.bodyLarge?.copyWith(
-            color: colorScheme.onSurfaceVariant,
-          ),
-        ),
+          AppSpacing.gapVMedium,
+          Text(widget.drug.description, style: textTheme.bodyLarge),
+        ],
+        // REMOVED: Separate Dosage, Side Effects, Contraindications sections
+        // as DrugEntity only has 'usage' and 'description'
       ],
     );
   }

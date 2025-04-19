@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:in_app_purchase/in_app_purchase.dart'; // Import ProductDetails
 import 'package:collection/collection.dart'; // Import collection package for firstWhereOrNull
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import '../bloc/subscription_provider.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
@@ -24,6 +25,7 @@ class SubscriptionScreen extends StatelessWidget {
     final theme = Theme.of(context); // Define theme here to pass to helper
     final colorScheme = theme.colorScheme;
     final textTheme = theme.textTheme;
+    final l10n = AppLocalizations.of(context)!; // Get localizations instance
 
     // Find the monthly premium product details using firstWhereOrNull
     final ProductDetails? premiumProduct = provider.products.firstWhereOrNull(
@@ -31,7 +33,7 @@ class SubscriptionScreen extends StatelessWidget {
     );
 
     return Scaffold(
-      appBar: AppBar(title: const Text('الاشتراك Premium')),
+      appBar: AppBar(title: Text(l10n.subscriptionTitle)), // Use l10n
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [
@@ -43,10 +45,16 @@ class SubscriptionScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('حالة الاشتراك الحالية:', style: textTheme.titleMedium),
+                  Text(
+                    l10n.currentSubscriptionStatus,
+                    style: textTheme.titleMedium,
+                  ), // Use l10n
                   CustomBadge(
                     // Use isPremiumUser getter
-                    label: provider.isPremiumUser ? 'Premium' : 'مجاني',
+                    label:
+                        provider.isPremiumUser
+                            ? l10n.premiumTier
+                            : l10n.freeTier, // Use l10n
                     backgroundColor:
                         provider.isPremiumUser
                             ? Colors.amber.shade700
@@ -96,35 +104,40 @@ class SubscriptionScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      'احصل على الميزات الحصرية:',
+                      l10n.premiumFeaturesTitle, // Use l10n
                       style: textTheme.titleMedium,
                     ),
                     const SizedBox(height: 12),
-                    // Pass theme to helper function
+                    // Pass theme and l10n to helper function
                     _buildFeatureRow(
                       theme,
+                      l10n, // Pass l10n
                       LucideIcons.history,
-                      'حفظ سجل البحث',
+                      l10n.featureSaveHistory, // Use l10n
                     ),
                     _buildFeatureRow(
                       theme,
+                      l10n, // Pass l10n
                       LucideIcons.bellRing,
-                      'تنبيهات تغير الأسعار',
+                      l10n.featurePriceAlerts, // Use l10n
                     ),
                     _buildFeatureRow(
                       theme,
+                      l10n, // Pass l10n
                       LucideIcons.save,
-                      'حفظ حسابات الجرعات',
+                      l10n.featureSaveCalculations, // Use l10n
                     ),
                     _buildFeatureRow(
                       theme,
+                      l10n, // Pass l10n
                       LucideIcons.star,
-                      'إضافة الأدوية للمفضلة',
+                      l10n.featureFavorites, // Use l10n
                     ),
                     _buildFeatureRow(
                       theme,
+                      l10n, // Pass l10n
                       LucideIcons.zapOff,
-                      'إزالة الإعلانات',
+                      l10n.featureRemoveAds, // Use l10n
                     ),
                     const SizedBox(height: 24),
                     Row(
@@ -148,7 +161,9 @@ class SubscriptionScreen extends StatelessWidget {
                               ? const SizedBox.shrink()
                               : Icon(LucideIcons.shoppingCart, size: 18),
                       label: Text(
-                        provider.isLoading ? 'جاري المعالجة...' : 'اشترك الآن',
+                        provider.isLoading
+                            ? l10n.processing
+                            : l10n.subscribeNow, // Use l10n
                       ),
                       onPressed:
                           provider.isLoading ||
@@ -189,8 +204,10 @@ class SubscriptionScreen extends StatelessWidget {
                 ),
                 child: Text(
                   provider.error.isNotEmpty
-                      ? 'خطأ في تحميل خطط الاشتراك: ${provider.error}'
-                      : 'خطط الاشتراك غير متاحة حالياً.',
+                      ? l10n.errorLoadingPlans(
+                        provider.error,
+                      ) // Use l10n (assuming method with parameter)
+                      : l10n.plansUnavailable, // Use l10n
                   textAlign: TextAlign.center,
                   style: TextStyle(color: colorScheme.error),
                 ),
@@ -210,15 +227,20 @@ class SubscriptionScreen extends StatelessWidget {
                       );
                       provider.restorePurchases();
                     },
-            child: const Text('استعادة المشتريات السابقة'),
+            child: Text(l10n.restorePurchases), // Use l10n
           ),
         ],
       ),
     );
   }
 
-  // Pass Theme context to helper function
-  Widget _buildFeatureRow(ThemeData theme, IconData icon, String text) {
+  // Pass Theme and l10n context to helper function
+  Widget _buildFeatureRow(
+    ThemeData theme,
+    AppLocalizations l10n,
+    IconData icon,
+    String text,
+  ) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6.0),
       child: Row(
