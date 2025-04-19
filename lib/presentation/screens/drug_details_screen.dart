@@ -360,11 +360,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       ),
       child: Row(
         children: [
-          // REMOVED: Dose Calculator Button Expanded widget
-          // Expanded( ... ),
-          // AppSpacing.gapHSmall, // REMOVED: Space between buttons
+          // RE-ADD Dose Calculator Button
           Expanded(
-            // Make Interactions button take full width
+            child: OutlinedButton.icon(
+              icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
+              label: Text(l10n.doseCalculatorButton), // Use localized string
+              onPressed: () {
+                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
+                context.read<DoseCalculatorProvider>().setSelectedDrug(
+                  widget.drug,
+                );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const WeightCalculatorScreen(),
+                  ),
+                );
+              },
+              // Style inherited from main theme
+            ),
+          ),
+          AppSpacing.gapHSmall, // RE-ADD Space between buttons
+          Expanded(
+            // Interactions button no longer takes full width
             child: OutlinedButton.icon(
               icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
               label: Text(l10n.drugInteractionsButton), // Use localized string
@@ -495,30 +513,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       // {'icon': LucideIcons.box, 'label': "حجم العبوة:", 'value': '-'}, // Placeholder
     ];
 
-    // Use SingleChildScrollView + Column for simpler layout if GridView causes issues
-    return SingleChildScrollView(
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
-      child: GridView.builder(
-        shrinkWrap: true,
-        physics: const NeverScrollableScrollPhysics(),
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, // grid-cols-2
-          childAspectRatio: 3.0, // Adjust aspect ratio as needed
-          crossAxisSpacing: AppSpacing.large, // Use constant (16px)
-          mainAxisSpacing: AppSpacing.large, // Use constant (16px)
-        ),
-        itemCount: infoItems.length,
-        itemBuilder: (context, index) {
-          final item = infoItems[index];
-          return _buildInfoGridItem(
-            context,
-            icon: item['icon'] as IconData,
-            label: item['label'] as String,
-            value: item['value'] as String,
-          );
-        },
-      ),
-    );
     // Combine content from other tabs here
     // Example: Add Usage Info
     final usageInfo = widget.drug.usage;

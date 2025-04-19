@@ -444,8 +444,8 @@ class DrugCard extends StatelessWidget {
                     context,
                   ), // Use context's direction
                   bottom: AppSpacing.medium, // bottom-3 (12px)
-                  start:
-                      AppSpacing.medium, // start-3 (12px) - Adapts to LTR/RTL
+                  end: // Use 'end' instead of 'start'
+                      AppSpacing.medium, // end-3 (12px) - Adapts to LTR/RTL
                   child: CustomBadge(
                     label: '${priceChangePercentage.toStringAsFixed(0)}%',
                     backgroundColor:
