@@ -522,7 +522,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     ];
 
     // Combine content from other tabs here
-    // Example: Add Usage Info
     final usageInfo = widget.drug.usage;
     if (usageInfo.isNotEmpty) {
       // Add spacing and usage text
@@ -531,10 +530,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     // Add Side Effects Info
     // Add Contraindications Info
 
-    // Return a ListView or Column containing all the combined info widgets
+    // Return a ListView containing all the combined info widgets
+    // Use ListView with shrinkWrap and physics for nested scrolling
     return ListView(
-      // Example using ListView
-      padding: AppSpacing.edgeInsetsAllLarge,
+      // <--- CORRECTED: Changed from Column to ListView
+      shrinkWrap: true, // Size based on content
+      physics:
+          const NeverScrollableScrollPhysics(), // Disable internal scrolling
+      padding: AppSpacing.edgeInsetsAllLarge, // Apply padding directly
       children: [
         // Info Grid
         GridView.builder(
@@ -558,7 +561,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           },
         ),
         // --- Usage Section ---
-        if (usageInfo.isNotEmpty) ...[
+        if (usageInfo.trim().isNotEmpty) ...[
+          // Add trim() check
           AppSpacing.gapVXLarge,
           Text(
             l10n.usageTab, // Keep "Usage" title
@@ -570,7 +574,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         // --- Description Section ---
         // Display the 'description' field if it's not empty
         // This field might contain Dosage, Side Effects, etc. based on the data source
-        if (widget.drug.description.isNotEmpty) ...[
+        if (widget.drug.description.trim().isNotEmpty) ...[
+          // Add trim() check
           AppSpacing.gapVXLarge,
           Text(
             l10n.descriptionTitle, // Use a general "Description" title (Add this key to .arb files)
@@ -582,7 +587,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         // REMOVED: Separate Dosage, Side Effects, Contraindications sections
         // as DrugEntity only has 'usage' and 'description'
       ],
-    );
+    ); // <--- CORRECTED: Closing bracket for ListView
   }
 
   // Helper to build grid item for info tab (Keep this helper)
