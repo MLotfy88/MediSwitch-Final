@@ -441,7 +441,7 @@ class DrugCard extends StatelessWidget {
               if (isPriceChanged)
                 Positioned(
                   bottom: AppSpacing.medium, // bottom-3 (12px)
-                  right: AppSpacing.medium, // right-3 (12px)
+                  left: AppSpacing.medium, // left-3 (12px)
                   child: CustomBadge(
                     label: '${priceChangePercentage.toStringAsFixed(0)}%',
                     backgroundColor:
