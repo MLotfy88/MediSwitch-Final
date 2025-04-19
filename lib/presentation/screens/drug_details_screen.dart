@@ -15,6 +15,7 @@ import '../bloc/dose_calculator_provider.dart';
 import '../bloc/interaction_provider.dart';
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import '../../core/constants/app_constants.dart'; // Import constants for translation map
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -220,6 +221,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     // Determine display name based on locale
     final locale = Localizations.localeOf(context);
     final isArabic = locale.languageCode == 'ar';
+    final direction = Directionality.of(context); // Get text direction
     final displayName =
         (isArabic && widget.drug.arabicName.isNotEmpty)
             ? widget.drug.arabicName
@@ -321,7 +323,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 CrossAxisAlignment.end, // Align price and favorite icon
             children: [
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                // Align based on text direction
+                crossAxisAlignment:
+                    direction == ui.TextDirection.ltr
+                        ? CrossAxisAlignment.start
+                        : CrossAxisAlignment.end,
                 children: [
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.baseline,
@@ -543,9 +549,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           'icon': LucideIcons.folderOpen,
           'label': l10n.categoryLabel, // Use localized string
           'value':
+              kCategoryTranslation[widget.drug.mainCategory] ??
               widget
                   .drug
-                  .mainCategory, // Category names might need localization
+                  .mainCategory, // Use translated category name, fallback to original
         },
       if (widget.drug.dosageForm.isNotEmpty)
         {
