@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../bloc/medicine_provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import '../../core/constants/app_constants.dart'; // Import constants for translation map
 
 class FilterEndDrawer extends StatefulWidget {
   const FilterEndDrawer({super.key});
@@ -110,7 +111,8 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                                 _tempSelectedCategory == category;
                             return FilterChip(
                               label: Text(
-                                category,
+                                kCategoryTranslation[category] ??
+                                    category, // Use translated category name
                               ), // Category names might need localization too if they are keys
                               selected: isSelected,
                               onSelected: (selected) {
