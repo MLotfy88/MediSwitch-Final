@@ -374,8 +374,9 @@ class _HomeScreenState extends State<HomeScreen> {
             // 2. Determine the display name based on locale
             final String displayName;
             if (isArabic) {
+              // Use the ORIGINAL English name for translation lookup
               displayName =
-                  kCategoryTranslation[normalizedKey] ??
+                  kCategoryTranslation[englishCategoryName] ??
                   englishCategoryName; // Use translation if Arabic
             } else {
               displayName =
@@ -399,9 +400,19 @@ class _HomeScreenState extends State<HomeScreen> {
                       "HomeScreen: Category tapped: $displayName (English: $englishCategoryName)", // Use displayName in log
                     );
                     _adService.incrementUsageCounterAndShowAdIfNeeded();
-                    // Use the original English name when setting the filter
+                    // Set the category filter in the provider
                     context.read<MedicineProvider>().setCategory(
                       englishCategoryName,
+                    );
+                    // Navigate to SearchScreen, passing category as argument
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (_) => SearchScreen(
+                              initialCategory: englishCategoryName,
+                            ),
+                      ),
                     );
                   },
                 )

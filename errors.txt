@@ -1,202 +1,202 @@
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=corsoden toothpaste 50 gm (locale: en), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=spectral.dnc-n hair stimulating solutlon 60 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=كورسودين معجون اسنان 50 جم (locale: ar), popular=false, alternative=false
 [V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=ergoconazol 200 mg 10 f.c.tabs. (locale: en), popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=ergoconazol 200 mg 10 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=ramatrizine 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=false
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=هيسيلين 125مجم/5مل معلق 80 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=hicillin 125mg/5ml susp. 80ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=اورا.زد مضمضة للفم 120 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ora.zed mouth wash 120ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=راماتريزين 5 مجم 30 قرص (locale: ar), popular=false, alternative=false
 [V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=davasc 20 capsule (locale: en), popular=false, alternative=false
+[I] SettingsScreen: Building widget...
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=15
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[V] DrugCard build: type=DrugCardType.detailed, drug=اداميل ن 20 امبول وريدي 10 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=addamel n 20 i.v amp 10 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ادور محلول العدسات اللاصقة متعدد الاغراض 100 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=adore multipurpose contact lenses solution 100 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=الكالي بيورين 2.4جم/2.5جم حبيبات (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=alkalipurin 2.4g/2.5gm granules (n/a)
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوليبان محلول وريدي 500 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoleban i.v. infusion 500 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 10% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 10% i.v.infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 5% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 5% i.v. infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينورينوكير 100 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminorenocare 100 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=دافاسك 20 كبسولة (locale: ar), popular=false, alternative=false
 [V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=erastapex 20 mg 30 f.c.tab. (locale: en), popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=erastapex 20 mg 30 f.c.tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=سبيكترال محلول 60مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=spectral.dnc-n hair stimulating solutlon 60 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=كورسودين معجون اسنان 50 جم (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=هيسيلين 125مجم/5مل معلق 80 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=hicillin 125mg/5ml susp. 80ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=اورا.زد مضمضة للفم 120 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ora.zed mouth wash 120ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=راماتريزين 5 مجم 30 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
+[I] SettingsScreen: Building widget...
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=15
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[V] DrugCard build: type=DrugCardType.detailed, drug=اداميل ن 20 امبول وريدي 10 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=addamel n 20 i.v amp 10 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ادور محلول العدسات اللاصقة متعدد الاغراض 100 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=adore multipurpose contact lenses solution 100 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=الكالي بيورين 2.4جم/2.5جم حبيبات (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=alkalipurin 2.4g/2.5gm granules (n/a)
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوليبان محلول وريدي 500 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoleban i.v. infusion 500 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 10% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 10% i.v.infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 5% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 5% i.v. infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينورينوكير 100 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminorenocare 100 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=دافاسك 20 كبسولة (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=سبيكترال محلول 60مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=spectral.dnc-n hair stimulating solutlon 60 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=كورسودين معجون اسنان 50 جم (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=هيسيلين 125مجم/5مل معلق 80 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=hicillin 125mg/5ml susp. 80ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=اورا.زد مضمضة للفم 120 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ora.zed mouth wash 120ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=راماتريزين 5 مجم 30 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
+[I] SettingsScreen: Building widget...
+[I] SearchScreen: >>>>> build ENTRY <<<<<
+[D] SearchScreen BUILD State: isLoading=false, error='', results=15
+[V] SearchScreen: build - State read successfully. Returning Scaffold...
+[I] SearchScreen: >>>>> build EXIT <<<<<
+[V] DrugCard build: type=DrugCardType.detailed, drug=اداميل ن 20 امبول وريدي 10 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=addamel n 20 i.v amp 10 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ادور محلول العدسات اللاصقة متعدد الاغراض 100 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=adore multipurpose contact lenses solution 100 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=الكالي بيورين 2.4جم/2.5جم حبيبات (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=alkalipurin 2.4g/2.5gm granules (n/a)
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوليبان محلول وريدي 500 مل (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoleban i.v. infusion 500 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 10% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 10% i.v.infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 5% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 5% i.v. infusion
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينورينوكير 100 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminorenocare 100 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=دافاسك 20 كبسولة (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=سبيكترال محلول 60مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=spectral.dnc-n hair stimulating solutlon 60 ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=كورسودين معجون اسنان 50 جم (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=هيسيلين 125مجم/5مل معلق 80 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=hicillin 125mg/5ml susp. 80ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=اورا.زد مضمضة للفم 120 مل (locale: ar), popular=true, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ora.zed mouth wash 120ml
+[V] DrugCard build: type=DrugCardType.thumbnail, drug=راماتريزين 5 مجم 30 قرص (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
 [I] MainScreen: _onItemTapped called with index: 0
 [I] MainScreen: Building widget. Selected index: 0
-[I] HomeScreen: RefreshIndicator triggered.
-[I] MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: true) <<<
-[D] MedicineProvider: Checking guard. _isLoading = false, forceUpdate = true
-[I] MedicineProvider: loadInitialData called (forceUpdate: true)
-[I] MedicineProvider: Loading timestamp...
-[D] MedicineProvider: _loadAndUpdateTimestamp called.
-[D] DrugRepository: getLastUpdateTimestamp called.
-[I] DrugRepository: getLastUpdateTimestamp successful, timestamp: 1745103531189
-[I] MedicineProvider: Last update timestamp loaded: 1745103531189
-[I] MedicineProvider: Timestamp loaded.
-[I] MedicineProvider: Loading categories...
-[D] MedicineProvider: _loadCategories called.
-[D] DrugRepository: getAvailableCategories called.
-[I] SearchScreen: >>>>> build ENTRY <<<<<
-[D] SearchScreen BUILD State: isLoading=true, error='', results=0
-[V] SearchScreen: build - State read successfully. Returning Scaffold...
-[I] SearchScreen: >>>>> build EXIT <<<<<
-[I] SettingsScreen: Building widget...
-[I] HomeScreen: >>>>> build ENTRY <<<<<
-[D] HomeScreen BUILD State: isLoading=true, isLoadingMore=false, isInitialLoadComplete=false, error='', recent=0, popular=0
-[V] HomeScreen: build - State read successfully. Returning Scaffold...
-[V] HomeScreen: Building loading indicator.
-[I] HomeScreen: >>>>> build EXIT <<<<<
-[I] DrugRepository: getAvailableCategories successful, found 28 categories.
-[I] MedicineProvider: Categories loaded successfully (28 items).
-[I] MedicineProvider: Categories loaded.
-[I] MedicineProvider: >>> TRYING _loadSimulatedSections...
-[D] MedicineProvider: _loadSimulatedSections called.
-[I] Fetching recently updated drugs since 2025-03-20 (limit: 8)
-[D] DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '2025-03-20', limit: 8
-[I] DrugRepository: getRecentlyUpdatedDrugs successful, found 8 drugs.
-[I] [_loadSimulatedSections] Successfully loaded 8 recently updated drugs.
-[I] Fetching 10 popular (random) drugs
-[D] DrugRepository: getPopularDrugs called with limit: 10 (using random)
-[I] DrugRepository: getPopularDrugs successful, found 10 random drugs.
-[I] [_loadSimulatedSections] Successfully loaded 10 popular (random) drugs.
-[I] MedicineProvider: Sections loaded. Recent: 8, Popular: 10
-[I] MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: 8, Popular: 10
-[I] MedicineProvider: >>> TRYING _applyFilters (initial)...
-[I] MedicineProvider: _applyFilters ENTRY - Page: 0, Append: false, ReqLimit: 10, FetchLimit: 11, Offset: 0, Query: '', Category: '', DosageForm: '', PriceRange: null
-[I] MedicineProvider: Preparing to call UseCase. Query: '', Category: '', Page: 0, Fetch Limit: 11, Offset: 0, Append: false
-[D] MedicineProvider: UseCase PARAMS - Query: '', Limit: 11, Offset: 0, Category: ''
-[D] MedicineProvider: Applying no primary filter, fetching all (page 0)...
-[D] DrugRepository: searchDrugs called with query: '', limit: 11, offset: 0
-[I] DrugRepository: searchDrugs successful, found 11 drugs.
-[I] MedicineProvider: _applyFilters - UseCase SUCCESS (Page: 0, Append: false). Fetched 11 items.
-[D] MedicineProvider: Applying secondary local filters (Dosage: '', Price: null)...
-[I] MedicineProvider: Filtering complete for page 0. New items count: 11
-[D] MedicineProvider: hasMoreItems set to true. Items received: 11, Items to add: 10
-[I] MedicineProvider: Filtering complete for page 0. Final items to add count: 10
-[I] MedicineProvider: Calculated price range based on current list: 0.0 - 390.0
-[I] MedicineProvider: _applyFilters EXIT - Page: 0, Append: false. Final State: isLoading=true, isLoadingMore=false, hasMore=true, filteredCount=10, error=''
-[I] MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: 10
-[I] MedicineProvider: Initial load successful.
-[D] loadInitialData: Final notifyListeners() call.
-[I] SearchScreen: >>>>> build ENTRY <<<<<
-[D] SearchScreen BUILD State: isLoading=false, error='', results=10
-[V] SearchScreen: build - State read successfully. Returning Scaffold...
-[I] SearchScreen: >>>>> build EXIT <<<<<
-[I] SettingsScreen: Building widget...
-[I] HomeScreen: >>>>> build ENTRY <<<<<
-[D] HomeScreen BUILD State: isLoading=false, isLoadingMore=false, isInitialLoadComplete=true, error='', recent=8, popular=10
-[V] HomeScreen: build - State read successfully. Returning Scaffold...
-[V] HomeScreen: Building main content CustomScrollView.
-[D] HomeScreen Section Render Check: isInitialLoadComplete=true, recentCount=8, popularCount=10
-[V] HomeScreen: Building categories section. Found 28 categories from provider: [Anesthetics, Anti Infective, Anti Inflammatory, Baby Care, Cardiovascular, Cosmetics, Diabetes Care, Diagnostics, Digestive, Ear Care, Eye Care, Hematology, Herbal Natural, Hormonal, Immunology, Medical Supplies, Musculoskeletal, Neurological, Oncology, Other, Pain Management, Personal Care, Reproductive Health, Respiratory, Skin Care, Supplements, Urology, Vitamins]
-[V] HomeScreen: Displayable categories after filtering: 0
-[I] HomeScreen: >>>>> build EXIT <<<<<
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=ramatrizine 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=ramatrizine 5 mg 30 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=corsoden toothpaste 50 gm (locale: en), popular=false, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=corsoden toothpaste 50 gm
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=davasc 20 capsule (locale: en), popular=false, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=davasc 20 capsule
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=attivo shampoo 250 ml (locale: en), popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=attivo shampoo 250 ml
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=youth-elixir night serum 30 ml (locale: en), popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=youth-elixir night serum 30 ml
-[V] DrugCard build: type=DrugCardType.thumbnail, drug=quetiapine 200mg 30 f.c. tabs. (locale: en), popular=true, alternative=false
-[V] DrugCard _buildThumbnailCard: drug=quetiapine 200mg 30 f.c. tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 (one two three) syrup 120 ml (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 (one two three) syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=1 2 3 extra 20 f.c. tab. (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=1 2 3 extra 20 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=2hc f.c.t 20 tablets (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=2hc f.c.t 20 tablets
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 1200 mg 20tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 1200 mg 20tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
-[I] HomeScreen: Navigating to details for drug: attivo shampoo 250 ml
-[I] DrugDetailsScreen: initState for drug: attivo shampoo 250 ml
-[I] DrugDetailsScreen: Building widget for drug: attivo shampoo 250 ml
+[I] HomeScreen: Navigating to details for drug: ramatrizine 5 mg 30 f.c.tabs.
+[I] DrugDetailsScreen: initState for drug: ramatrizine 5 mg 30 f.c.tabs.
+[I] DrugDetailsScreen: Building widget for drug: ramatrizine 5 mg 30 f.c.tabs.
 [D] DrugDetailsScreen: Building Info Tab using GridView
-[W] Could not parse date for display: 
- FormatException: Trying to read yyyy from 
- at 0 
-[D] AlternativesTabContent: initState for drug: attivo shampoo 250 ml
-[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=allear 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=allear 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=allear 5 mg 20 f.c.tabs. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=allear 5 mg 20 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=allergstop 2.5mg/5ml syp. 100 ml(n/a) (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=allergstop 2.5mg/5ml syp. 100 ml(n/a)
-[V] DrugCard build: type=DrugCardType.detailed, drug=allevo 5mg 20 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=allevo 5mg 20 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=araxileve 5 mg 30 oro-dispersible tabs. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=araxileve 5 mg 30 oro-dispersible tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=chemicetrizine 5 mg 20 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=chemicetrizine 5 mg 20 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=floracerta 5mg 20 tabs (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=floracerta 5mg 20 tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=lergicare 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=lergicare 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=lergicare 5 mg 30 f.c. tabs. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=lergicare 5 mg 30 f.c. tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=lergopan 5 mg 10 f.c.tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=lergopan 5 mg 10 f.c.tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levcet 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 5mg 20 tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levcet 5mg 20 tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=levcet 5mg/ml oral drops 20 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levcet 5mg/ml oral drops 20 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=levocitrone 5 mg 10 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levocitrone 5 mg 10 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=levoctivan 0.5mg/ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levoctivan 0.5mg/ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=levoctivan 5mg 30 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levoctivan 5mg 30 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5 mg 30 f.c.tabs. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levohistam 5 mg 30 f.c.tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/10 ml syrup 120ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/10 ml syrup 120ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/ml oral drops 10 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 10 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=levohistam 5mg/ml oral drops 20 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 20 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=linahayzin 2.5mg/5 ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=linahayzin 2.5mg/5 ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=mervoza 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=mervoza 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=modallerge 0.5mg/ml oral sol. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=modallerge 0.5mg/ml oral sol.
-[V] DrugCard build: type=DrugCardType.detailed, drug=orgitrizine 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=orgitrizine 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=orgitrizine 5 mg 20 f.c.tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=orgitrizine 5 mg 20 f.c.tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=rhipgic 5 mg 30 f.c. tabs. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=rhipgic 5 mg 30 f.c. tabs.
-[V] DrugCard build: type=DrugCardType.detailed, drug=turnalev 2.5mg/5ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=turnalev 2.5mg/5ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=turnalev 5 mg 10 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=turnalev 5 mg 10 f.c. tab.
-[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 0.5 mg/ml syrup 120 ml (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=xaltec 0.5 mg/ml syrup 120 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 5mg 10 tab (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 10 tab
-[V] DrugCard build: type=DrugCardType.detailed, drug=xaltec 5mg 20 tab (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 20 tab
-[V] DrugCard build: type=DrugCardType.detailed, drug=zalkevor 5mg 10 f.c. tab. (locale: en), popular=false, alternative=true
-[V] DrugCard _buildDetailedCard: drug=zalkevor 5mg 10 f.c. tab.
-[I] AlternativesTabContent: Fetching alternatives for attivo shampoo 250 ml
+[W] Could not parse date for display: 31/03/2025
+ FormatException: Characters remaining after date parsing in 31/03/2025
+ 
+[D] AlternativesTabContent: initState for drug: ramatrizine 5 mg 30 f.c.tabs.
+[D] AlternativesTabContent: Building widget for drug: ramatrizine 5 mg 30 f.c.tabs.
+[I] AlternativesTabContent: Fetching alternatives for ramatrizine 5 mg 30 f.c.tabs.
 [I] DrugRepository: getAllDrugs called (Update Check Trigger)
 [D] DrugRepository: Checking if update is needed...
 [D] DrugRepository: _shouldUpdateData called. isConnected: true
 [I] DrugRepository: Checking for remote data updates...
-[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
+[D] AlternativesTabContent: Building widget for drug: ramatrizine 5 mg 30 f.c.tabs.
 [W] DrugRepository: Failed to get remote version: An unexpected error occurred. Not updating.  
-[I] DrugRepository: Update check took 22ms.
+[I] DrugRepository: Update check took 21ms.
 [I] DrugRepository: Update not needed.
 [I] DrugRepository: Update check complete (or update performed). Proceeding to fetch local data.
 [I] DrugRepository: Fetching all drugs from local data source...
 [I] DrugRepository: Successfully fetched 23533 drugs from local source.
-[D] AlternativesTabContent: Building widget for drug: attivo shampoo 250 ml
-[I] DrugDetailsScreen: dispose for drug: attivo shampoo 250 ml
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 300 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 300 mg 20 tabs
-[V] DrugCard build: type=DrugCardType.detailed, drug=3 fly 600 mg 20 tabs (locale: en), popular=false, alternative=false
-[V] DrugCard _buildDetailedCard: drug=3 fly 600 mg 20 tabs
+[D] AlternativesTabContent: Building widget for drug: ramatrizine 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=اليير 2.5مجم /5مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allear 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=اليير 5مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allear 5 mg 20 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=الرجستوب 2.5 مجم / 5 مل شراب (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allergstop 2.5mg/5ml syp. 100 ml(n/a)
+[V] DrugCard build: type=DrugCardType.detailed, drug=اليفو 5مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=allevo 5mg 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=اراكسيليف 5مجم 30 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=araxileve 5 mg 30 oro-dispersible tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=كيميستريزين 5 مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=chemicetrizine 5 mg 20 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=فلوراسيرتا 5مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=floracerta 5mg 20 tabs
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليرجيكير شراب 2.5مجم/5مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergicare 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليرجيكير 5 مجم 30 قرص للحساسية (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergicare 5 mg 30 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليرجوبان 5 مجم 10 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=lergopan 5 mg 10 f.c.tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفست 2.5مجم/5مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفست 5مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 5mg 20 tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفست 5مجم/مل نقط فم 20 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levcet 5mg/ml oral drops 20 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوسيترون 5 مجم 10 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levocitrone 5 mg 10 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوكتيفان 0.5مجم/مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levoctivan 0.5mg/ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوكتيفان 5مجم 30 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levoctivan 5mg 30 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوهيستام 5مجم 30 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوهيستام 5 مجم / 10 مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/10 ml syrup 120ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوهيستام نقط فم 10 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 10 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليفوهيستام نقط فم 20 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=levohistam 5mg/ml oral drops 20 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ليناهيزين 2.5 مجم / 5 مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=linahayzin 2.5mg/5 ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=ميرفوزا 2.5مجم/5مل شراب 120مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=mervoza 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=موداليرج 0.5مجم/مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=modallerge 0.5mg/ml oral sol.
+[V] DrugCard build: type=DrugCardType.detailed, drug=اورجيتريزين 2.5مجم/5مل شراب 120مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=orgitrizine 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=اورجيتريزين 5مجم 20 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=orgitrizine 5 mg 20 f.c.tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=ريبجيك 5مجم 30 قرص  (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=rhipgic 5 mg 30 f.c. tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=تورناليف 2.5مجم/5مل شراب 120مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=turnalev 2.5mg/5ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=تورناليف 5مجم 10 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=turnalev 5 mg 10 f.c. tab.
+[V] DrugCard build: type=DrugCardType.detailed, drug=زالتيك 0.5مجم/مل شراب 120 مل (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 0.5 mg/ml syrup 120 ml
+[V] DrugCard build: type=DrugCardType.detailed, drug=زالتيك 5مجم 10 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 10 tab
+[V] DrugCard build: type=DrugCardType.detailed, drug=زالتيك 5مجم 20 قرص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=xaltec 5mg 20 tab
+[V] DrugCard build: type=DrugCardType.detailed, drug=زالكيفور 5مجم 10 اقراص (locale: ar), popular=false, alternative=true
+[V] DrugCard _buildDetailedCard: drug=zalkevor 5mg 10 f.c. tab.
+[V] SearchScreen _onScroll: Pixels=236.6, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[V] SearchScreen _onScroll: Pixels=139.2, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[V] SearchScreen _onScroll: Pixels=57.4, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[V] SearchScreen _onScroll: Pixels=19.9, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[V] SearchScreen _onScroll: Pixels=4.1, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[V] SearchScreen _onScroll: Pixels=0.0, MaxScroll=1924.0, TriggerAt=1624.0, IsNearBottom=false, CanLoadMore=true, ShouldLoad=false
+[I] DrugDetailsScreen: dispose for drug: ramatrizine 5 mg 30 f.c.tabs.
+[V] DrugCard build: type=DrugCardType.detailed, drug=امينوبلازمال اي 5% محلول وريدي (locale: ar), popular=false, alternative=false
+[V] DrugCard _buildDetailedCard: drug=aminoplasmal e 5% i.v. infusion
 [I] MainScreen: _onItemTapped called with index: 4
 [I] MainScreen: Building widget. Selected index: 4
 [I] SettingsScreen: View Logs tile tapped.

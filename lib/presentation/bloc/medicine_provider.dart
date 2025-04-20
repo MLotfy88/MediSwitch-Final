@@ -301,76 +301,169 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     }
   }
 
-  Future<void> setSearchQuery(String query) async {
-    _logger.d("MedicineProvider: setSearchQuery called with query: '$query'");
-    // Prevent search during any loading process
-    if (_isLoading) {
+  Future<void> setSearchQuery(String query, {bool triggerSearch = true}) async {
+    _logger.d(
+      "MedicineProvider: setSearchQuery called with query: '$query', triggerSearch: $triggerSearch",
+    );
+    if (_isLoading && triggerSearch) {
       _logger.w("setSearchQuery: Skipping search as loading is in progress.");
       return;
     }
 
-    _isLoading = true; // Set loading for this specific action
+    // Update state regardless of whether search is triggered immediately
     _searchQuery = query;
-    _selectedCategory = '';
+    _selectedCategory = ''; // Searching clears category filter
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = []; // Clear previous results for new search
+    _filteredMedicines = []; // Clear previous results
+
+    if (!triggerSearch) {
+      _logger.d("setSearchQuery: State updated, search not triggered yet.");
+      notifyListeners(); // Notify UI of filter change without loading state
+      return;
+    }
+
+    // Trigger search immediately
+    _isLoading = true;
     notifyListeners(); // Notify UI that search is starting
 
     try {
       await _applyFilters(page: 0, append: false);
     } catch (e, s) {
       _logger.e("Error during setSearchQuery._applyFilters", e, s);
-      _error = "خطأ أثناء البحث."; // Set specific error
+      _error = "خطأ أثناء البحث.";
     } finally {
-      _isLoading = false; // Clear loading for this action
-      notifyListeners(); // Notify UI about final state
+      _isLoading = false;
+      notifyListeners();
     }
   }
 
-  Future<void> setCategory(String category) async {
+  Future<void> setCategory(String category, {bool triggerSearch = true}) async {
     _logger.d(
-      "MedicineProvider: setCategory called with category: '$category'",
+      "MedicineProvider: setCategory called with category: '$category', triggerSearch: $triggerSearch",
     );
-    // Prevent category change during any loading process
-    if (_isLoading) {
+    if (_isLoading && triggerSearch) {
       _logger.w(
         "setCategory: Skipping category change as loading is in progress.",
       );
       return;
     }
 
-    _isLoading = true; // Set loading for this specific action
+    // Update state regardless of whether search is triggered immediately
     _selectedCategory = category;
-    _searchQuery = '';
+    _searchQuery = ''; // Setting category clears search query
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = []; // Clear previous results for new category
+    _filteredMedicines = []; // Clear previous results
+
+    if (!triggerSearch) {
+      _logger.d("setCategory: State updated, search not triggered yet.");
+      notifyListeners(); // Notify UI of filter change without loading state
+      return;
+    }
+
+    // Trigger search immediately
+    _isLoading = true;
     notifyListeners(); // Notify UI that category change is starting
 
     try {
       await _applyFilters(page: 0, append: false);
     } catch (e, s) {
       _logger.e("Error during setCategory._applyFilters", e, s);
-      _error = "خطأ أثناء تغيير الفئة."; // Set specific error
+      _error = "خطأ أثناء تغيير الفئة.";
     } finally {
-      _isLoading = false; // Clear loading for this action
-      notifyListeners(); // Notify UI about final state
+      _isLoading = false;
+      notifyListeners();
     }
   }
 
-  void setDosageForm(String dosageForm) {
+  Future<void> setDosageForm(
+    String dosageForm, {
+    bool triggerSearch = true,
+  }) async {
     _logger.d(
-      "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm'",
+      "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm', triggerSearch: $triggerSearch",
     );
     _selectedDosageForm = dosageForm;
-    _applyFilters(page: 0);
+
+    if (!triggerSearch) {
+      _logger.d("setDosageForm: State updated, search not triggered yet.");
+      notifyListeners();
+      return;
+    }
+
+    _isLoading = true;
+    _currentPage = 0;
+    _hasMoreItems = true;
+    _filteredMedicines = [];
+    notifyListeners();
+
+    try {
+      await _applyFilters(page: 0, append: false);
+    } catch (e, s) {
+      _logger.e("Error during setDosageForm._applyFilters", e, s);
+      _error = "خطأ أثناء تطبيق فلتر الشكل الصيدلاني.";
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
   }
 
-  void setPriceRange(RangeValues? range) {
-    _logger.d("MedicineProvider: setPriceRange called with range: $range");
+  Future<void> setPriceRange(
+    RangeValues? range, {
+    bool triggerSearch = true,
+  }) async {
+    _logger.d(
+      "MedicineProvider: setPriceRange called with range: $range, triggerSearch: $triggerSearch",
+    );
     _selectedPriceRange = range;
-    _applyFilters(page: 0);
+
+    if (!triggerSearch) {
+      _logger.d("setPriceRange: State updated, search not triggered yet.");
+      notifyListeners();
+      return;
+    }
+
+    _isLoading = true;
+    _currentPage = 0;
+    _hasMoreItems = true;
+    _filteredMedicines = [];
+    notifyListeners();
+
+    try {
+      await _applyFilters(page: 0, append: false);
+    } catch (e, s) {
+      _logger.e("Error during setPriceRange._applyFilters", e, s);
+      _error = "خطأ أثناء تطبيق فلتر السعر.";
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  // New method to manually trigger a search/filter application
+  Future<void> triggerSearch() async {
+    _logger.i("MedicineProvider: triggerSearch called manually.");
+    if (_isLoading) {
+      _logger.w("triggerSearch: Skipping as loading is already in progress.");
+      return;
+    }
+
+    _isLoading = true;
+    _currentPage = 0; // Reset pagination for manual trigger
+    _hasMoreItems = true;
+    _filteredMedicines = []; // Clear results before manual trigger
+    notifyListeners();
+
+    try {
+      await _applyFilters(page: 0, append: false);
+    } catch (e, s) {
+      _logger.e("Error during triggerSearch._applyFilters", e, s);
+      _error = "خطأ أثناء بدء البحث.";
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
   }
 
   Future<void> loadMoreDrugs() async {

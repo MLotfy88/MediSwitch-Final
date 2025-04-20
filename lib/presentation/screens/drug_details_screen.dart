@@ -64,21 +64,27 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   }
 
   String _formatDate(String? dateString) {
-    if (dateString == null || dateString.isEmpty) return '-';
+    if (dateString == null || dateString.trim().isEmpty)
+      return '-'; // Trim here too
+    final trimmedDateString = dateString.trim(); // Trim the input string
     try {
       DateTime dateTime;
       // Handle different potential date formats from source
-      if (dateString.contains('/')) {
-        dateTime = DateFormat('dd/MM/yyyy').parseStrict(dateString);
+      if (trimmedDateString.contains('/')) {
+        dateTime = DateFormat(
+          'dd/MM/yyyy',
+        ).parseStrict(trimmedDateString); // Use trimmed string
       } else {
-        dateTime = DateFormat('yyyy-MM-dd').parseStrict(dateString);
+        dateTime = DateFormat(
+          'yyyy-MM-dd',
+        ).parseStrict(trimmedDateString); // Use trimmed string
       }
       // Format using current locale
       final locale = Localizations.localeOf(context).languageCode;
       return DateFormat('d MMM yyyy', locale).format(dateTime);
     } catch (e) {
-      _logger.w("Could not parse date for display: $dateString", e);
-      return dateString; // Return original string if parsing fails
+      _logger.w("Could not parse date for display: $trimmedDateString", e);
+      return trimmedDateString; // Return trimmed string if parsing fails
     }
   }
 
@@ -126,51 +132,48 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       ),
       // Wrap the body content with SafeArea
       body: SafeArea(
-        child: ListView(
-          // Use ListView for the main layout
-          padding: EdgeInsets.zero, // Remove default ListView padding
-          children: [
-            _buildHeaderContent(
-              context,
-              colorScheme,
-              textTheme,
-              l10n,
-            ), // Pass l10n
-            _buildActionButtons(
-              context,
-              colorScheme,
-              textTheme,
-              l10n,
-            ), // Pass l10n
-            // Dose Calculator Button is removed via the _buildActionButtons modification below
-            AppSpacing.gapVMedium, // Add space before TabBar
-            _buildTabBar(
-              context,
-              colorScheme,
-              textTheme,
-              l10n,
-            ), // Pass l10n (Updated for 2 tabs)
-            // REMOVED SizedBox wrapper around TabBarView
-            // TabBarView is now a direct child of the outer ListView.
-            // The inner ListView in _buildConsolidatedInfoTab uses shrinkWrap and physics
-            // to size itself correctly within the TabBarView and the outer ListView.
-            TabBarView(
-              controller: _tabController,
-              physics:
-                  const NeverScrollableScrollPhysics(), // Prevent TabBarView from scrolling independently
-              children: [
-                // Consolidated Information Tab
-                _buildConsolidatedInfoTab(
-                  context,
-                  colorScheme,
-                  textTheme,
-                  l10n,
-                ),
-                // Alternatives Tab
-                _buildAlternativesTab(context),
-              ],
+        child: CustomScrollView(
+          // Changed to CustomScrollView
+          slivers: [
+            SliverToBoxAdapter(
+              // Wrap Header
+              child: _buildHeaderContent(context, colorScheme, textTheme, l10n),
             ),
-            AppSpacing.gapVLarge, // Add padding at the very bottom
+            SliverToBoxAdapter(
+              // Wrap Action Buttons
+              child: _buildActionButtons(context, colorScheme, textTheme, l10n),
+            ),
+            SliverToBoxAdapter(
+              // Wrap spacing
+              child: AppSpacing.gapVMedium, // Add space before TabBar
+            ),
+            SliverToBoxAdapter(
+              // Wrap TabBar
+              child: _buildTabBar(context, colorScheme, textTheme, l10n),
+            ),
+            // Use SliverFillRemaining to allow TabBarView to expand
+            SliverFillRemaining(
+              child: TabBarView(
+                controller: _tabController,
+                // Keep physics NeverScrollableScrollPhysics if inner content handles scrolling
+                physics: const NeverScrollableScrollPhysics(),
+                children: [
+                  // Consolidated Information Tab
+                  _buildConsolidatedInfoTab(
+                    context,
+                    colorScheme,
+                    textTheme,
+                    l10n,
+                  ),
+                  // Alternatives Tab
+                  _buildAlternativesTab(context),
+                ],
+              ),
+            ),
+            SliverToBoxAdapter(
+              // Wrap bottom padding
+              child: AppSpacing.gapVLarge, // Add padding at the very bottom
+            ),
           ],
         ),
       ),
