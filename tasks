@@ -1,10 +1,35 @@
-## فى النسخة الانجليزية ##
-فى كارت الدواء الموجود فى صفحة البحث الفئات مكتوبة بالعربى
-فى صفحة معلومات الدواء ما زال لا يوجد معلومات او بدائل ال tabs  فارغة
+ابدا العمل على  انهاء ال backend  وتحضيرها لعمل deploy لها مع كتابة ملف مفصل لكيفية عمل deploy فى استضافة او بطريقة مجانية
+ملاحظات بالنسبة لل backend :
+- تحضير امكانية تحديث البيانات كالتالى:
+    - تحديث اسعار ادوية عن طريق رفع ملف CSV/xlsx
+    - امكانية تحديث الاسعار يدويا عن طريق اختيار الدواء وعرض الاسعار القديمة والحالية وتاريخ التحديث وامكانية تعديلهم وحفظهم
+    - امكانية اضافة دواء جديد سواء كان يدويا ايضا او من خلال رفع cvs/xlsx
+    - امكانية تحديث بيانات الادوية الموجودة عن طريق امكانية عمل سيرش بالاسم وعرض البيانات القديمة مع امكانية تعديلها وحفظها
 
-## فى النسخة العربية ##
-الفئات الطبية فى الصفحة الرئيسية مكتوبة بالانجليزى
-فى كارت الدواء الموجود فى صفحة البحث السعر مكتوب "L.E 20"
+    شكل ملف ال CSV/xlsx لتحديث الاسعار
+    Cleaned Drug Name	السعر الجديد	السعر القديم	Formatted Date
+hyalone 60mg/4ml intra-articular prefilled syringe	2800	2500	19/04/2025
+hyalubrix 30mg/2ml intra-articular prefilled syringe	1400	1250	19/04/2025
+futaparky 25/250 mg 30 tabs	153	117	19/04/2025
+l.c plus oral drops 10 ml	120	98	19/04/2025
+vastasiero 10mg 20 f.c. tabs.	77	59	19/04/2025
+flubronk 600mg 10 eff tabs	73	29	19/04/2025
+empirg b12 30 chew.tab	109	85	19/04/2025
+sfira hair lotion 120 ml	250	145	18/04/2025
+hyalo 4 control cream 25 gm	319	299	18/04/2025
+naratriptan 2.5 mg 2 f.c. tabs.	44.5	38	18/04/2025
 
 
-راجع الملف @/errors.txt
+
+شكل ملف ال CSV/xlsx لاضافة دواء جديد
+trade_name	arabic_name	old_price	price	active	main_category	main_category_ar	category	category_ar	company	dosage_form	dosage_form_ar	unit	usage	usage_ar	description	last_price_update
+1 2 3 (one two three) syrup 120 ml	ون تو ثري شراب 120 مل	19.5	32	pseudoephedrine+paracetamol+chlorpheniramine	Respiratory	الجهاز التنفسي	cold drugs		hikma	Syrup	شراب	1	Oral.Liquid	سائل فموي	As a common cold medication contains paracetamol and chlorpheniramine and pseudoephedrine. Indication: runny noses blocked noses and sinus sneezing watery itchy eyes sinus pain fever headache body aches and pain.	7/4/2024
+1 2 3 extra 20 f.c. tab.	ون تو ثري اكسترا 20 قرص	33	50	chlorpheniramine+paracetamol(acetaminophen)+pseudoephedrine	Respiratory	الجهاز التنفسي	cold drugs		hikma pharma	Tablet	قرص	2	Oral.Solid	صلب فموي		
+2hc f.c.t 20 tablets	تو اتش سي اف سي تي 20 قرص		120	vitamin c 1 gm	Vitamins	الفيتامينات	vitamin c antioxidant		novacure	Tablet	قرص	2	Oral.Solid	صلب فموي		12/3/2022
+
+
+
+
+انشئ يوزر جديد باسم admin بصلاحيات كاملة للدخول على ال backend
+username: admin
+password: admin123
