@@ -196,26 +196,14 @@ class DrugCard extends StatelessWidget {
                     crossAxisAlignment:
                         CrossAxisAlignment.end, // Align price/badges to bottom
                     children: [
-                      // --- Category / Alternative Badges ---
+                      // --- Alternative Badge (if any) ---
                       Flexible(
                         // Allow badges to wrap if needed
                         child: Wrap(
                           spacing: AppSpacing.xsmall, // gap-1 (4px)
                           runSpacing: AppSpacing.xsmall,
                           children: [
-                            if (drug.mainCategory.isNotEmpty)
-                              CustomBadge(
-                                label:
-                                    kCategoryTranslation[drug.mainCategory] ??
-                                    drug.mainCategory,
-                                backgroundColor: colorScheme.secondaryContainer,
-                                textColor: colorScheme.onSecondaryContainer,
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: AppSpacing.small, // px-2 (8px)
-                                  vertical: AppSpacing.xxsmall, // py-0.5 (2px)
-                                ),
-                                // Removed textStyle parameter
-                              ),
+                            // Only Alternative badge remains here
                             if (isAlternative)
                               CustomBadge(
                                 label: 'بديل',
@@ -232,17 +220,67 @@ class DrugCard extends StatelessWidget {
                       ),
 
                       AppSpacing.gapHSmall, // Add horizontal space
-                      // --- Price and Popular Icon ---
+                      // --- Price, Change, Category Row ---
                       Row(
                         crossAxisAlignment:
                             CrossAxisAlignment
-                                .center, // Center price and icon vertically
+                                .center, // Center items vertically
+                        // Order for LTR: [Popular, Price, Old Price, Change, Category]
+                        // Visual Order RTL: [Category, Change, Old Price, Price, Popular]
                         children: [
-                          // Price Change Badge (Optional)
+                          // Popular Icon (Visually first in RTL if present)
+                          if (isPopular)
+                            Padding(
+                              padding: const EdgeInsetsDirectional.only(
+                                end:
+                                    AppSpacing
+                                        .xsmall, // Add space to the right (in LTR)
+                              ),
+                              child: Icon(
+                                LucideIcons.star,
+                                size: 16,
+                                color: Colors.amber.shade600,
+                                semanticLabel: 'دواء شائع',
+                              ),
+                            ),
+                          // Price (Visually second in RTL)
+                          Text(
+                            '${_formatPrice(drug.price)} L.E', // Changed currency symbol
+                            style: textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.bold, // Bold
+                              color: colorScheme.primary, // Highlight price
+                            ),
+                            textDirection:
+                                ui.TextDirection.ltr, // Force LTR for price
+                          ),
+                          // Old Price (Visually third in RTL, if present)
+                          if (drug.oldPrice != null &&
+                              drug.oldPrice!.isNotEmpty &&
+                              isPriceChanged)
+                            Padding(
+                              padding: const EdgeInsetsDirectional.only(
+                                start:
+                                    AppSpacing
+                                        .xsmall, // Add space to the left (in LTR)
+                              ),
+                              child: Text(
+                                '${_formatPrice(drug.oldPrice!)} L.E',
+                                style: textTheme.labelSmall?.copyWith(
+                                  // Use smaller style
+                                  color: colorScheme.onSurfaceVariant,
+                                  decoration: TextDecoration.lineThrough,
+                                ),
+                                textDirection:
+                                    ui.TextDirection.ltr, // Force LTR for price
+                              ),
+                            ),
+                          // Price Change Badge (Visually fourth in RTL, if present)
                           if (isPriceChanged)
                             Padding(
                               padding: const EdgeInsetsDirectional.only(
-                                end: AppSpacing.xsmall, // me-1 (4px)
+                                start:
+                                    AppSpacing
+                                        .xsmall, // Add space to the left (in LTR)
                               ),
                               child: CustomBadge(
                                 label:
@@ -268,45 +306,29 @@ class DrugCard extends StatelessWidget {
                                 // Removed textStyle parameter
                               ),
                             ),
-                          // Price
-                          Text(
-                            '${_formatPrice(drug.price)} L.E', // Changed currency symbol
-                            style: textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.bold, // Bold
-                              color: colorScheme.primary, // Highlight price
-                            ),
-                            textDirection: ui.TextDirection.ltr, // Force LTR
-                          ),
-                          // Old Price (Added)
-                          if (drug.oldPrice != null &&
-                              drug.oldPrice!.isNotEmpty &&
-                              isPriceChanged)
+                          // Category Badge (Moved here, visually last in RTL)
+                          if (drug.mainCategory.isNotEmpty)
                             Padding(
                               padding: const EdgeInsetsDirectional.only(
-                                start: AppSpacing.xsmall, // Add space
+                                start:
+                                    AppSpacing
+                                        .xsmall, // Add space to the left (in LTR)
                               ),
-                              child: Text(
-                                '${_formatPrice(drug.oldPrice!)} L.E',
-                                style: textTheme.labelSmall?.copyWith(
-                                  // Use smaller style
-                                  color: colorScheme.onSurfaceVariant,
-                                  decoration: TextDecoration.lineThrough,
+                              child: CustomBadge(
+                                label:
+                                    isArabic // Check locale
+                                        ? (kCategoryTranslation[drug
+                                                .mainCategory] ??
+                                            drug.mainCategory) // Use translation for Arabic
+                                        : drug
+                                            .mainCategory, // Use original for English
+                                backgroundColor: colorScheme.secondaryContainer,
+                                textColor: colorScheme.onSecondaryContainer,
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: AppSpacing.small, // px-2 (8px)
+                                  vertical: AppSpacing.xxsmall, // py-0.5 (2px)
                                 ),
-                                textDirection:
-                                    ui.TextDirection.ltr, // Force LTR
-                              ),
-                            ),
-                          // Popular Icon
-                          if (isPopular)
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                start: AppSpacing.xsmall, // ms-1 (4px)
-                              ),
-                              child: Icon(
-                                LucideIcons.star,
-                                size: 16,
-                                color: Colors.amber.shade600,
-                                semanticLabel: 'دواء شائع',
+                                // Removed textStyle parameter
                               ),
                             ),
                         ],

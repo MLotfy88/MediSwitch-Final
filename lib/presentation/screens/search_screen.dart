@@ -17,7 +17,12 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generate
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
-  const SearchScreen({super.key, this.initialQuery = ''});
+  final String? initialCategory; // Add initialCategory parameter
+  const SearchScreen({
+    super.key,
+    this.initialQuery = '',
+    this.initialCategory, // Add to constructor
+  });
 
   @override
   State<SearchScreen> createState() => _SearchScreenState();
@@ -40,14 +45,64 @@ class _SearchScreenState extends State<SearchScreen> {
       "SearchScreen: +++++ initState +++++. Initial query: '${widget.initialQuery}'", // Lifecycle Log
     );
     _searchController.text = widget.initialQuery;
-    // Trigger initial search if query is provided
-    if (widget.initialQuery.isNotEmpty) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted) {
-          context.read<MedicineProvider>().setSearchQuery(widget.initialQuery);
+
+    // Apply initial filters (query and/or category) after the first frame
+    // Let the provider handle triggering the actual search/filter application
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        final provider = context.read<MedicineProvider>();
+        bool categoryChanged = false;
+        bool queryChanged = false;
+
+        // Apply initial category if provided and different from current
+        if (widget.initialCategory != null &&
+            widget.initialCategory!.isNotEmpty &&
+            provider.selectedCategory != widget.initialCategory) {
+          _logger.i(
+            "SearchScreen initState: Setting initial category: '${widget.initialCategory}'",
+          );
+          // Set category without triggering search immediately
+          provider.setCategory(widget.initialCategory!, triggerSearch: false);
+          categoryChanged = true;
         }
-      });
-    }
+        // Clear category if none was passed and provider has one selected
+        else if ((widget.initialCategory == null ||
+                widget.initialCategory!.isEmpty) &&
+            provider.selectedCategory.isNotEmpty) {
+          _logger.i("SearchScreen initState: Clearing category filter.");
+          // Clear category without triggering search immediately
+          provider.setCategory('', triggerSearch: false);
+          categoryChanged = true;
+        }
+
+        // Apply initial query if provided and different from current
+        if (widget.initialQuery.isNotEmpty &&
+            provider.searchQuery != widget.initialQuery) {
+          _logger.i(
+            "SearchScreen initState: Setting initial search query: '${widget.initialQuery}'",
+          );
+          // Set query without triggering search immediately
+          provider.setSearchQuery(widget.initialQuery, triggerSearch: false);
+          queryChanged = true;
+        }
+        // If initial query is empty but provider has one, clear it.
+        else if (widget.initialQuery.isEmpty &&
+            provider.searchQuery.isNotEmpty) {
+          _logger.i("SearchScreen initState: Clearing search query.");
+          // Clear query without triggering search immediately
+          provider.setSearchQuery('', triggerSearch: false);
+          queryChanged = true;
+        }
+
+        // If any filter changed, trigger a single search now
+        if (categoryChanged || queryChanged) {
+          _logger.i(
+            "SearchScreen initState: Triggering search after filter changes.",
+          );
+          provider.triggerSearch();
+        }
+      }
+    });
     _searchController.addListener(_onSearchChanged);
     _scrollController.addListener(_onScroll); // Add listener
   }
