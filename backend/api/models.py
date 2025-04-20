@@ -143,3 +143,40 @@ class SubscriptionStatus(models.Model):
         self.is_premium = is_premium
         self.premium_expiry_date = expiry_date if is_premium else None
         self.save()
+
+
+# Model to store Drug information
+class Drug(models.Model):
+    trade_name = models.CharField(max_length=255, db_index=True, help_text="Commercial name of the drug")
+    arabic_name = models.CharField(max_length=255, db_index=True, blank=True, help_text="Arabic commercial name")
+    old_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text="Previous price before the last update")
+    price = models.DecimalField(max_digits=10, decimal_places=2, help_text="Current price")
+    # Storing active ingredients as text for now. Consider a separate model + ManyToManyField for structured data later.
+    active_ingredients = models.TextField(db_index=True, blank=True, help_text="Active ingredients, potentially comma-separated")
+    main_category = models.CharField(max_length=100, db_index=True, blank=True, help_text="Main therapeutic category (e.g., Respiratory)")
+    main_category_ar = models.CharField(max_length=100, blank=True, help_text="Arabic main category")
+    category = models.CharField(max_length=100, db_index=True, blank=True, help_text="Sub-category (e.g., cold drugs)")
+    category_ar = models.CharField(max_length=100, blank=True, help_text="Arabic sub-category")
+    company = models.CharField(max_length=100, db_index=True, blank=True, help_text="Manufacturing company")
+    dosage_form = models.CharField(max_length=100, blank=True, help_text="Dosage form (e.g., Syrup, Tablet)")
+    dosage_form_ar = models.CharField(max_length=100, blank=True, help_text="Arabic dosage form")
+    # 'unit' field from CSV seems unclear (values '1', '2'). Storing as CharField for now.
+    unit = models.CharField(max_length=50, blank=True, help_text="Unit information (needs clarification)")
+    usage = models.CharField(max_length=100, blank=True, help_text="General usage description (e.g., Oral.Liquid)")
+    usage_ar = models.CharField(max_length=100, blank=True, help_text="Arabic usage description")
+    description = models.TextField(blank=True, help_text="Detailed description or indications")
+    last_price_update = models.DateField(null=True, blank=True, help_text="Date the price was last updated")
+
+    # Timestamps for tracking and synchronization
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True, db_index=True, help_text="Timestamp of the last modification, used for sync")
+
+    def __str__(self):
+        return self.trade_name
+
+    class Meta:
+        ordering = ['trade_name']
+        indexes = [
+            models.Index(fields=['trade_name', 'arabic_name']),
+            # Add more indexes as needed based on query patterns
+        ]

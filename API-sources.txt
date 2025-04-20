@@ -1,0 +1,80 @@
+إليك ترتيب المصادر مرة أخرى مع إضافة نوع الملف المتاح وروابط التحميل المباشرة:
+
+1. **OpenFDA**
+   - المجانية: 100% مجانية بالكامل
+   - حجم البيانات: كبير جداً (ملايين السجلات)
+   - المصداقية: 9/10
+   - نوع الملف: (JSON, API)
+   - رابط التحميل: https://api.fda.gov/download.json (قائمة ملفات JSON للتحميل المباشر)
+   - رابط API: https://api.fda.gov/drug/interaction.json
+
+2. **FDA Adverse Event Reporting System (FAERS)**
+   - المجانية: 100% مجانية
+   - حجم البيانات: كبير جداً (أكثر من 10 ملايين تقرير)
+   - المصداقية: 9/10
+   - نوع الملف: (XML, ASCII)
+   - رابط التحميل: https://fis.fda.gov/content/Exports/faers_ascii_2023q1.zip (ربع أول 2023)
+
+3. **RxNav APIs (NIH)**
+   - المجانية: 100% مجانية
+   - حجم البيانات: كبير
+   - المصداقية: 8.5/10
+   - نوع الملف: (XML, JSON via API)
+   - رابط API: https://rxnav.nlm.nih.gov/REST/interaction/interaction.json?rxcui=88014
+   - رابط توثيق: https://lhncbc.nlm.nih.gov/RxNav/APIs/api-Interaction.html
+
+4. **MedlinePlus Drug Information**
+   - المجانية: 100% مجانية
+   - حجم البيانات: متوسط إلى كبير
+   - المصداقية: 8/10
+   - نوع الملف: (XML, HTML)
+   - رابط API: https://connect.medlineplus.gov/service
+
+5. **KEGG DRUG Database**
+   - المجانية: 90% مجانية
+   - حجم البيانات: متوسط
+   - المصداقية: 8/10
+   - نوع الملف: (KGML, TXT)
+   - رابط التحميل: https://www.kegg.jp/kegg-bin/get_htext?br08303.keg (للمستخدمين المسجلين)
+
+6. **TWOSIDES Dataset**
+   - المجانية: 100% مجانية للأغراض البحثية
+   - حجم البيانات: متوسط
+   - المصداقية: 7/10
+   - نوع الملف: (TSV)
+   - رابط التحميل: http://tatonettilab.org/resources/nsides/TWOSIDES.csv.gz
+
+7. **PharmGKB**
+   - المجانية: 80% مجانية
+   - حجم البيانات: متوسط
+   - المصداقية: 7.5/10
+   - نوع الملف: (TSV)
+   - رابط التحميل: https://api.pharmgkb.org/v1/download/file/data/drugs.zip (يتطلب تسجيلاً)
+
+8. **SIDER (Side Effect Resource)**
+   - المجانية: 100% مجانية
+   - حجم البيانات: متوسط
+   - المصداقية: 7/10
+   - نوع الملف: (TSV)
+   - رابط التحميل: http://sideeffects.embl.de/media/download/drug_interactions.tsv.gz
+
+9. **DrugBank (الإصدار المفتوح)**
+   - المجانية: 60%
+   - حجم البيانات: صغير إلى متوسط في الإصدار المجاني
+   - المصداقية: 8.5/10
+   - نوع الملف: (XML)
+   - رابط التحميل: https://go.drugbank.com/releases/5-1-10/downloads/all-open-structures (يتطلب تسجيلاً)
+
+10. **MEDLINE/PubMed Drug Interaction Corpus**
+    - المجانية: 100% مجانية
+    - حجم البيانات: صغير إلى متوسط
+    - المصداقية: 7/10
+    - نوع الملف: (XML, TXT)
+    - رابط التحميل: https://ftp.ncbi.nlm.nih.gov/pub/lu/DDICorpus/DDIExtraction2013.zip
+
+ملاحظات:
+- بعض الروابط قد تتطلب تسجيلاً مجانياً أو قبول شروط الاستخدام
+- بعض الملفات ذات حجم كبير (عدة جيجابايت) وقد تستغرق وقتاً للتحميل
+- الملفات بصيغة TSV يمكن فتحها وتحويلها بسهولة إلى CSV باستخدام Excel أو Python (pandas)
+
+هل ترغب في إرشادات حول كيفية تحويل أي من هذه التنسيقات إلى CSV؟

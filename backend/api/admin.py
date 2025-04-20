@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import ActiveDataFile, AdMobConfig, GeneralConfig # Import GeneralConfig
+# Import Drug model
+from .models import ActiveDataFile, AdMobConfig, GeneralConfig, Drug
 
 # Register your models here.
 
@@ -33,3 +34,28 @@ class GeneralConfigAdmin(admin.ModelAdmin):
     # Optionally, prevent deletion
     # def has_delete_permission(self, request, obj=None):
     #     return False
+
+# Register Drug model
+@admin.register(Drug)
+class DrugAdmin(admin.ModelAdmin):
+    list_display = ('trade_name', 'arabic_name', 'price', 'old_price', 'company', 'main_category', 'updated_at')
+    search_fields = ('trade_name', 'arabic_name', 'active_ingredients', 'company')
+    list_filter = ('main_category', 'company', 'dosage_form', 'last_price_update')
+    readonly_fields = ('created_at', 'updated_at')
+    # Consider adding list_editable for 'price' later if needed, but start without it.
+    # list_editable = ('price',)
+    fieldsets = (
+        (None, {
+            'fields': ('trade_name', 'arabic_name', 'price', 'old_price', 'last_price_update')
+        }),
+        ('Categorization', {
+            'fields': ('main_category', 'main_category_ar', 'category', 'category_ar')
+        }),
+        ('Details', {
+            'fields': ('active_ingredients', 'company', 'dosage_form', 'dosage_form_ar', 'unit', 'usage', 'usage_ar', 'description')
+        }),
+        ('Timestamps', {
+            'fields': ('created_at', 'updated_at'),
+            'classes': ('collapse',) # Keep timestamps collapsed by default
+        }),
+    )
