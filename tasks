@@ -1,5 +1,14 @@
-ابدا العمل على  انهاء ال backend  وتحضيرها لعمل deploy لها مع كتابة ملف مفصل لكيفية عمل deploy فى استضافة او بطريقة مجانية
+اقراء هذا الملفات دى جيدا
+/home/adminlotfy/project/AI_HANDOVER_CHECKPOINT.md
+/home/adminlotfy/project/Project Structure.md
+/home/adminlotfy/project/mediswitch_plan.md
+/home/adminlotfy/project/RELEASE_PLAN.md
+
+ابدا العمل على  انهاء ال backend  وتحضيرها لعمل deploy لها مع كتابة ملف مفصل لكيفية عمل deploy فى استضافة او بطريقة مجانية(cloudflare pages مثلا) ان امكن
 ملاحظات بالنسبة لل backend :
+- تحضير قسم ال API الذى سيكون مسئول عن جلب قواعد بيانات التفاعلات الدوائية وحاسبة الجرعات
+راجع الملف دة /home/adminlotfy/project/API-sources.txt فية بعض المصادر اللى هانعتمد عليها
+ياريت تكتبلى ملف فية شرح مفصل عن كل API هتستخدمها وازاى هتستخدمها
 - تحضير امكانية تحديث البيانات كالتالى:
     - تحديث اسعار ادوية عن طريق رفع ملف CSV/xlsx
     - امكانية تحديث الاسعار يدويا عن طريق اختيار الدواء وعرض الاسعار القديمة والحالية وتاريخ التحديث وامكانية تعديلهم وحفظهم
@@ -33,3 +42,9 @@ trade_name	arabic_name	old_price	price	active	main_category	main_category_ar	cat
 انشئ يوزر جديد باسم admin بصلاحيات كاملة للدخول على ال backend
 username: admin
 password: admin123
+
+
+
+### ملحوظة مهمه جدا جدا جدا ###
+كل ماتعمل خطة حدث الملف دة
+/home/adminlotfy/project/AI_HANDOVER_CHECKPOINT.md

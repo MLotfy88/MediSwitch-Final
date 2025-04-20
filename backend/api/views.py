@@ -12,8 +12,10 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Count # Import Count for aggregation
 from django.db.models.functions import Lower # Import Lower for case-insensitive grouping
 from collections import Counter # For counting queries
+from decimal import Decimal, InvalidOperation
+from django.utils.dateparse import parse_date, parse_datetime
 from .serializers import UserSerializer, AdMobConfigSerializer, GeneralConfigSerializer, AnalyticsEventSerializer
-from .models import ActiveDataFile, AdMobConfig, GeneralConfig, AnalyticsEvent, SubscriptionStatus # Import SubscriptionStatus
+from .models import ActiveDataFile, AdMobConfig, GeneralConfig, AnalyticsEvent, SubscriptionStatus, Drug # Import SubscriptionStatus and Drug
 
 # View for User Registration
 class RegisterView(generics.CreateAPIView):
@@ -411,3 +413,299 @@ class AnalyticsSummaryView(views.APIView):
         }
 
         return Response(summary_data, status=status.HTTP_200_OK)
+
+
+# View to update drug prices from an uploaded CSV/XLSX file
+class UpdatePricesFromUploadView(views.APIView):
+    permission_classes = [permissions.IsAdminUser]
+
+    # Define expected columns based on the task description format
+    # Allowing for flexibility in case sensitivity and whitespace
+    EXPECTED_COLUMNS_PRICE_UPDATE = {
+        'cleaned drug name': 'trade_name', # Map CSV column to potential model field lookup
+        'السعر الجديد': 'new_price',
+        'السعر القديم': 'old_price_csv', # Keep separate from model's old_price for now
+        'formatted date': 'update_date_csv'
+    }
+
+    def post(self, request, *args, **kwargs):
+        file_obj = request.FILES.get('file')
+
+        if not file_obj:
+            return Response({"error": "No file provided."}, status=status.HTTP_400_BAD_REQUEST)
+
+        allowed_extensions = ['.csv', '.xlsx']
+        file_name, file_extension = os.path.splitext(file_obj.name)
+        if file_extension.lower() not in allowed_extensions:
+            return Response({"error": f"Invalid file type. Allowed: {', '.join(allowed_extensions)}"}, status=status.HTTP_400_BAD_REQUEST)
+
+        updated_count = 0
+        not_found_drugs = []
+        errors = []
+
+        try:
+            print(f"Processing price update file: {file_obj.name}")
+            if file_extension.lower() == '.csv':
+                df = pd.read_csv(file_obj)
+            else: # .xlsx
+                df = pd.read_excel(file_obj)
+
+            # Normalize column names (lowercase, strip whitespace)
+            df.columns = [col.lower().strip() for col in df.columns]
+
+            # Check for missing columns
+            missing_columns = [
+                expected for expected in self.EXPECTED_COLUMNS_PRICE_UPDATE.keys()
+                if expected not in df.columns
+            ]
+            if missing_columns:
+                print(f"Price update validation failed: Missing columns - {missing_columns}")
+                return Response({
+                    "error": "Invalid file structure for price update.",
+                    "details": f"Missing required columns: {', '.join(missing_columns)}"
+                }, status=status.HTTP_400_BAD_REQUEST)
+
+            # Iterate through rows and update prices
+            for index, row in df.iterrows():
+                drug_name = row.get(list(self.EXPECTED_COLUMNS_PRICE_UPDATE.keys())[0]) # 'cleaned drug name'
+                new_price_str = str(row.get(list(self.EXPECTED_COLUMNS_PRICE_UPDATE.keys())[1])) # 'السعر الجديد'
+                # Optional: old_price_csv = row.get(list(self.EXPECTED_COLUMNS_PRICE_UPDATE.keys())[2])
+                # Optional: update_date_csv = row.get(list(self.EXPECTED_COLUMNS_PRICE_UPDATE.keys())[3])
+
+                if not drug_name or pd.isna(drug_name):
+                    errors.append(f"Row {index + 2}: Missing drug name.")
+                    continue
+                if not new_price_str or pd.isna(new_price_str):
+                     errors.append(f"Row {index + 2}: Missing new price for drug '{drug_name}'.")
+                     continue
+
+                drug_name = str(drug_name).strip()
+
+                try:
+                    new_price = Decimal(new_price_str)
+                except InvalidOperation:
+                    errors.append(f"Row {index + 2}: Invalid new price format '{new_price_str}' for drug '{drug_name}'.")
+                    continue
+
+                # Find the drug (case-insensitive search on trade_name)
+                # Consider searching arabic_name as well if needed
+                drug = Drug.objects.filter(trade_name__iexact=drug_name).first()
+
+                if drug:
+                    try:
+                        # Update price logic: store current price as old_price, set new price
+                        drug.old_price = drug.price
+                        drug.price = new_price
+                        # Optionally parse and set last_price_update from update_date_csv if needed
+                        # try:
+                        #     if update_date_csv and not pd.isna(update_date_csv):
+                        #         # Assuming format DD/MM/YYYY
+                        #         drug.last_price_update = datetime.datetime.strptime(str(update_date_csv), '%d/%m/%Y').date()
+                        # except ValueError:
+                        #      errors.append(f"Row {index + 2}: Invalid date format '{update_date_csv}' for drug '{drug_name}'.")
+                        drug.save()
+                        updated_count += 1
+                    except Exception as save_error:
+                         errors.append(f"Row {index + 2}: Error saving update for drug '{drug_name}': {save_error}")
+
+                else:
+                    not_found_drugs.append(drug_name)
+
+            print(f"Price update processing complete. Updated: {updated_count}, Not Found: {len(not_found_drugs)}, Errors: {len(errors)}")
+
+            return Response({
+                "message": "Price update process finished.",
+                "updated_count": updated_count,
+                "not_found_drugs": not_found_drugs,
+                "processing_errors": errors
+            }, status=status.HTTP_200_OK)
+
+        except pd.errors.EmptyDataError:
+             print("Price update failed: Empty file uploaded.")
+             return Response({"error": "Empty file uploaded."}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as processing_error:
+            print(f"Error processing price update file: {processing_error}")
+            return Response({"error": f"Failed to process price update file: {processing_error}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+# View to add new drugs from an uploaded CSV/XLSX file
+class AddDrugsFromUploadView(views.APIView):
+    permission_classes = [permissions.IsAdminUser]
+
+    # Define expected columns based on the task description format for adding new drugs
+    EXPECTED_COLUMNS_ADD_DRUG = {
+        'trade_name': 'trade_name',
+        'arabic_name': 'arabic_name',
+        'old_price': 'old_price',
+        'price': 'price',
+        'active': 'active_ingredients', # Map 'active' from CSV to 'active_ingredients' model field
+        'main_category': 'main_category',
+        'main_category_ar': 'main_category_ar',
+        'category': 'category',
+        'category_ar': 'category_ar',
+        'company': 'company',
+        'dosage_form': 'dosage_form',
+        'dosage_form_ar': 'dosage_form_ar',
+        'unit': 'unit',
+        'usage': 'usage',
+        'usage_ar': 'usage_ar',
+        'description': 'description',
+        'last_price_update': 'last_price_update'
+    }
+
+    def post(self, request, *args, **kwargs):
+        file_obj = request.FILES.get('file')
+
+        if not file_obj:
+            return Response({"error": "No file provided."}, status=status.HTTP_400_BAD_REQUEST)
+
+        allowed_extensions = ['.csv', '.xlsx']
+        file_name, file_extension = os.path.splitext(file_obj.name)
+        if file_extension.lower() not in allowed_extensions:
+            return Response({"error": f"Invalid file type. Allowed: {', '.join(allowed_extensions)}"}, status=status.HTTP_400_BAD_REQUEST)
+
+        added_count = 0
+        skipped_count = 0
+        errors = []
+
+        try:
+            print(f"Processing add drugs file: {file_obj.name}")
+            if file_extension.lower() == '.csv':
+                # Handle potential encoding issues common with Arabic text in CSV
+                try:
+                    df = pd.read_csv(file_obj, encoding='utf-8')
+                except UnicodeDecodeError:
+                    try:
+                        print("UTF-8 failed, trying windows-1256...")
+                        file_obj.seek(0) # Reset pointer
+                        df = pd.read_csv(file_obj, encoding='windows-1256') # Common Arabic encoding
+                    except Exception as e:
+                         print(f"Failed to read CSV with multiple encodings: {e}")
+                         return Response({"error": f"Could not decode CSV file. Try saving as UTF-8. Error: {e}"}, status=status.HTTP_400_BAD_REQUEST)
+
+            else: # .xlsx
+                df = pd.read_excel(file_obj)
+
+            # Normalize column names (lowercase, strip whitespace)
+            df.columns = [col.lower().strip() for col in df.columns]
+
+            # Check for missing columns (using the keys from our mapping)
+            missing_columns = [
+                expected for expected in self.EXPECTED_COLUMNS_ADD_DRUG.keys()
+                if expected not in df.columns
+            ]
+            if missing_columns:
+                print(f"Add drug validation failed: Missing columns - {missing_columns}")
+                return Response({
+                    "error": "Invalid file structure for adding drugs.",
+                    "details": f"Missing required columns: {', '.join(missing_columns)}"
+                }, status=status.HTTP_400_BAD_REQUEST)
+
+            # Iterate through rows and add drugs
+            for index, row in df.iterrows():
+                drug_data = {}
+                row_errors = []
+
+                # Map CSV columns to model fields, handling potential type errors
+                for csv_col, model_field in self.EXPECTED_COLUMNS_ADD_DRUG.items():
+                    value = row.get(csv_col)
+                    if pd.isna(value):
+                        value = None # Use None for empty cells
+
+                    # Basic type conversion and validation
+                    if value is not None:
+                        try:
+                            if model_field in ['price', 'old_price']:
+                                drug_data[model_field] = Decimal(str(value)) if value else None
+                            elif model_field == 'last_price_update':
+                                # Try parsing date/datetime - adjust format as needed
+                                parsed_date = parse_date(str(value)) or parse_datetime(str(value))
+                                drug_data[model_field] = parsed_date.date() if parsed_date else None
+                            else:
+                                drug_data[model_field] = str(value).strip() # Default to string
+                        except (InvalidOperation, ValueError) as e:
+                             row_errors.append(f"Invalid format for '{csv_col}': {value} ({e})")
+
+                    elif model_field == 'price': # Price is mandatory in the model
+                         row_errors.append(f"Missing required value for 'price'")
+                    else:
+                         drug_data[model_field] = None # Allow null/blank for optional fields
+
+                # Check for mandatory trade_name
+                if not drug_data.get('trade_name'):
+                    row_errors.append("Missing required value for 'trade_name'")
+
+                if row_errors:
+                    errors.append(f"Row {index + 2}: {'; '.join(row_errors)}")
+                    continue # Skip row with errors
+
+                # Check if drug already exists (case-insensitive trade_name)
+                trade_name = drug_data['trade_name']
+                if Drug.objects.filter(trade_name__iexact=trade_name).exists():
+                    skipped_count += 1
+                    continue # Skip existing drug
+
+                # Create new Drug instance
+                try:
+                    # Remove None values for fields that don't allow null in model but might be missing in CSV
+                    # (adjust based on final model definition if needed)
+                    final_data = {k: v for k, v in drug_data.items() if v is not None}
+                    Drug.objects.create(**final_data)
+                    added_count += 1
+                except Exception as create_error:
+                    errors.append(f"Row {index + 2} (Drug: {trade_name}): Error creating drug: {create_error}")
+
+
+            print(f"Add drugs processing complete. Added: {added_count}, Skipped (duplicates): {skipped_count}, Errors: {len(errors)}")
+
+            return Response({
+                "message": "Add drugs process finished.",
+                "added_count": added_count,
+                "skipped_duplicates": skipped_count,
+                "processing_errors": errors
+            }, status=status.HTTP_200_OK)
+
+        except pd.errors.EmptyDataError:
+             print("Add drugs failed: Empty file uploaded.")
+             return Response({"error": "Empty file uploaded."}, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as processing_error:
+            print(f"Error processing add drugs file: {processing_error}")
+            return Response({"error": f"Failed to process add drugs file: {processing_error}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+# Placeholder View for Drug Interaction Check API
+class DrugInteractionCheckView(views.APIView):
+    permission_classes = [permissions.AllowAny] # Adjust permissions as needed later
+
+    def post(self, request, *args, **kwargs):
+        # TODO: Implement interaction checking logic
+        # 1. Receive list of drug identifiers (e.g., names, IDs) from request.data
+        # 2. Use external sources (API-sources.txt) or internal data to check interactions
+        # 3. Format and return the interaction results
+        drug_list = request.data.get('drugs', [])
+        print(f"Received interaction check request for drugs: {drug_list}")
+        # Placeholder response
+        return Response({
+            "message": "Interaction check endpoint not yet implemented.",
+            "requested_drugs": drug_list,
+            "interactions": [] # Placeholder for results
+        }, status=status.HTTP_501_NOT_IMPLEMENTED)
+
+
+# Placeholder View for Dosage Calculation API
+class DosageCalculationView(views.APIView):
+    permission_classes = [permissions.AllowAny] # Adjust permissions as needed later
+
+    def post(self, request, *args, **kwargs):
+        # TODO: Implement dosage calculation logic
+        # 1. Receive drug identifier, patient info (age, weight?), dosage form etc.
+        # 2. Use external sources or internal rules to calculate dosage
+        # 3. Format and return the calculation result
+        calculation_params = request.data
+        print(f"Received dosage calculation request with params: {calculation_params}")
+        # Placeholder response
+        return Response({
+            "message": "Dosage calculation endpoint not yet implemented.",
+            "request_params": calculation_params,
+            "result": {} # Placeholder for results
+        }, status=status.HTTP_501_NOT_IMPLEMENTED)
