@@ -178,11 +178,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
     print('InteractionRepositoryImpl: Loading interaction data from assets...');
     try {
       // Determine which interaction file to load
-      // Use the sample file in debug mode, otherwise use the full structured data
-      final interactionAssetPath =
-          kDebugMode
-              ? 'drug_interactions_sample_data.json' // Use sample for debugging
-              : 'assets/drug_interactions_structured_data.json'; // Use full data for release
+      // Always use the main structured data file
+      const interactionAssetPath =
+          'assets/drug_interactions_structured_data.json';
 
       print(
         'InteractionRepositoryImpl: Loading interaction file: $interactionAssetPath',
