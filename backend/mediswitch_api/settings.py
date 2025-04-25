@@ -13,13 +13,14 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os # Import os for environment variables
 from pathlib import Path
 from datetime import timedelta # Import timedelta for JWT settings
-from dotenv import load_dotenv # Import dotenv
+# from dotenv import load_dotenv # No longer needed, Docker Compose handles env vars
+import dj_database_url # Import dj-database-url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Load environment variables from .env file (create .env in backend/ later)
-load_dotenv(BASE_DIR / '.env')
+# Environment variables are now loaded via docker-compose env_file
+# load_dotenv(BASE_DIR / '.env') # No longer needed
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -34,9 +35,10 @@ DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 
 # Get ALLOWED_HOSTS from environment variable (comma-separated string)
 ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',') if os.getenv('DJANGO_ALLOWED_HOSTS') else []
-# Add 'localhost' and '127.0.0.1' for local development if not in env var
-if DEBUG and not ALLOWED_HOSTS:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+# Add 'localhost' and '127.0.0.1' for local development if DEBUG is True and ALLOWED_HOSTS is empty
+# Note: DEBUG itself is read from env var earlier
+if os.getenv('DJANGO_DEBUG', 'True') == 'True' and not ALLOWED_HOSTS:
+     ALLOWED_HOSTS.extend(['localhost', '127.0.0.1'])
 
 
 # Application definition
@@ -95,12 +97,28 @@ WSGI_APPLICATION = 'mediswitch_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3', # Database for admin users etc.
+# Use dj-database-url to parse the DATABASE_URL environment variable
+DATABASE_URL = os.getenv('DATABASE_URL')
+
+if DATABASE_URL:
+    print("INFO: Reading database configuration from DATABASE_URL environment variable.")
+    DATABASES = {
+        'default': dj_database_url.config(default=DATABASE_URL, conn_max_age=600, ssl_require=os.getenv('DATABASE_SSL', 'False') == 'True')
     }
-}
+else:
+    # Fallback to SQLite if DATABASE_URL is not set (e.g., for local testing without env file)
+    print("WARNING: DATABASE_URL environment variable not set. Falling back to SQLite.")
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
+# Ensure the default engine is set if parsed from URL but empty (useful for some dj-database-url versions)
+if DATABASES['default'].get('ENGINE', '') == '':
+     print("INFO: Setting default database engine to postgresql.")
+     DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 
 
 # Password validation

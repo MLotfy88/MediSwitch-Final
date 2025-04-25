@@ -2,6 +2,8 @@
 
 هذا الدليل يشرح خطوات نشر الواجهة الخلفية (Backend) لتطبيق MediSwitch وتحديثها باستخدام Docker و Docker Compose، بافتراض أن كود الـ Backend موجود في **مستودع GitHub منفصل وخاص به**.
 
+https://github.com/MLotfy88/MediSwitch_Backend.git
+
 **الافتراضات:**
 
 *   لديك مستودع GitHub منفصل يحتوي فقط على كود مجلد `backend` الأصلي. سنسمي رابط هذا المستودع `GITHUB_BACKEND_REPO_URL` في الأمثلة.
