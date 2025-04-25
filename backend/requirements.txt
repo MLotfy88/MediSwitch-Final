@@ -21,3 +21,7 @@ whitenoise[brotli]>=6.0,<7.0 # Added whitenoise with Brotli support
 
 # Database (Optional for now, uncomment if using PostgreSQL)
 # psycopg2-binary>=2.9,<3.0
+# Database URL parsing
+dj-database-url>=2.0,<3.0
+# PostgreSQL database adapter
+psycopg2-binary>=2.9,<3.0
