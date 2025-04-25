@@ -68,17 +68,19 @@ tml # MediSwitch Project - AI Handover Checkpoint
         *   Confirmed AdMob integration (Banner, Interstitial with Test IDs) is present (Task 5.2).
         *   Deferred Dose Calculator (Task 3.3) and Interaction Checker (Task 3.5) features in the UI (buttons show "Coming Soon").
         *   Premium features (Task 5.3) remain deferred.
-*   **Backend Enhancements (User Task - 2025-04-20):**
-    *   Implemented backend `Drug` model to store drug data persistently.
-    *   Added Django admin interface for manual CRUD operations on `Drug` data.
-    *   Created API endpoints and views for updating prices and adding new drugs via CSV/XLSX upload.
-    *   Created placeholder API endpoints and views for drug interaction checks and dosage calculations.
-    *   Created admin user (`admin`/`admin123`).
-    *   Created API documentation (`backend/backend_api_docs.md`) and deployment guide (`backend/backend_deployment_guide.md`).
-*   **Next Steps (Towards MVP 1.0 Release):**
-    *   Replace AdMob Test IDs with Production IDs.
-    *   Perform thorough manual testing (Task 7.1.4).
+*   **Backend Enhancements & Deployment (User Tasks - 2025-04-20 & 2025-04-25):**
+    *   Implemented backend `Drug` model, Django admin interface, CSV/XLSX upload views, placeholder APIs, and initial documentation.
+    *   **Separated Backend Code:** Moved backend source code to its own GitHub repository: `https://github.com/MLotfy88/MediSwitch_Backend.git`.
+    *   **Deployed Backend:** Deployed the backend successfully on the VPS (IP: `37.27.185.59`) using Docker Compose with Nginx and PostgreSQL.
+    *   **Created Deployment/Usage Guides:** Added `deployment_steps_ar.md`, `project_setup_overview_ar.md`, and `backend_usage_guide_ar.md`.
+    *   **API Access:** The backend API is now accessible at `http://37.27.185.59/api/` and the admin panel at `http://37.27.185.59/admin/`.
+*   **Next Steps (Towards MVP 1.0 Release & Beyond):**
+    *   **Configure Flutter App:** Update the Flutter application to connect to the deployed backend API (`http://37.27.185.59/api/`) for fetching configurations and drug data (replacing local CSV/SQLite loading logic where applicable).
+    *   **Implement Data Sync:** Finalize the data synchronization strategy between the backend database and the app's local encrypted SQLite database (likely involving the `/api/drugs/download/` endpoint).
+    *   Replace AdMob Test IDs with Production IDs (fetched from backend config).
+    *   Perform thorough manual testing (Task 7.1.4), including backend interaction.
     *   Consider initial Beta Testing (Task 7.1.5).
     *   Complete release preparation tasks (signing keys, build configurations - Task 7.2).
     *   Deploy the MVP 1.0 release (Task 7.3).
-    *   Refer **strictly** to `@/mediswitch_plan.md` and `@/RELEASE_PLAN.md` for detailed task tracking and feature scope.
+    *   (Post-MVP) Secure the backend deployment with HTTPS (e.g., using Certbot or Cloudflare Tunnel).
+    *   Refer **strictly** to `@/mediswitch_plan.md` and `@/RELEASE_PLAN.md` for detailed task tracking and feature scope. Consider updating these plans based on the new backend setup.

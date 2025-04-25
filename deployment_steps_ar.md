@@ -309,6 +309,11 @@ cd /home/adminlotfy/mediswitch_deployment
 echo "INFO: Ensuring admin user exists..."
 docker-compose exec backend python3 manage.py shell -c "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(username='admin').exists() or User.objects.create_superuser('admin', 'admin@example.com', 'admin123')"
 ```
+
+
+docker-compose exec backend python3 manage.py createsuperuser
+
+
 *(نفذ هذا الأمر بعد نجاح الخطوة 12)*
 
 ### 14. [على جهازك المحلي - متصفح الويب] الاختبار النهائي
