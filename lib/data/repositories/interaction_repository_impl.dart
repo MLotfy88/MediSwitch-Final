@@ -1,5 +1,6 @@
 // lib/data/repositories/interaction_repository_impl.dart
 
+import 'dart:async'; // Import for Completer
 import 'dart:convert'; // For jsonDecode
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For compute and kDebugMode
@@ -166,28 +167,40 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Map<String, List<String>> _medicineToIngredientsMap =
       {}; // Map tradeName to ingredients
   // Removed _activeIngredients list
-  bool _isDataLoaded = false; // Flag to prevent multiple loads
+  bool _isDataLoaded = false; // Flag to indicate successful load
+  Future<Either<Failure, Unit>>?
+  _loadingFuture; // Future for ongoing load operation
 
   @override
   Future<Either<Failure, Unit>> loadInteractionData() async {
+    // If data is already loaded, return success immediately
     if (_isDataLoaded) {
       print('InteractionRepositoryImpl: Interaction data already loaded.');
-      return const Right(unit); // Already loaded successfully
+      return const Right(unit);
     }
 
-    print('InteractionRepositoryImpl: Loading interaction data from assets...');
+    // If loading is already in progress, wait for it to complete
+    if (_loadingFuture != null) {
+      print(
+        'InteractionRepositoryImpl: Waiting for ongoing interaction data load...',
+      );
+      return _loadingFuture!;
+    }
+
+    // Start the loading process
+    print('InteractionRepositoryImpl: Starting interaction data load...');
+    final completer = Completer<Either<Failure, Unit>>();
+    _loadingFuture = completer.future;
+
     try {
       // Determine which interaction file to load
-      // Always use the main structured data file
       const interactionAssetPath =
           'assets/drug_interactions_structured_data.json';
-
       print(
         'InteractionRepositoryImpl: Loading interaction file: $interactionAssetPath',
       );
 
       // Load JSON strings from assets
-      // Removed loading active_ingredients.json
       final interactionsJsonString = await rootBundle.loadString(
         interactionAssetPath,
       );
@@ -196,38 +209,41 @@ class InteractionRepositoryImpl implements InteractionRepository {
       );
 
       // Parse data in a separate isolate using compute
+      print('InteractionRepositoryImpl: Starting data parsing in isolate...');
       final parsedData = await compute(
         _parseInteractionDataIsolate,
         _ParseInteractionDataParams(
-          // ingredientsJsonString removed
           interactionsJsonString: interactionsJsonString,
           medIngredientsJsonString: medIngredientsJsonString,
         ),
       );
+      print('InteractionRepositoryImpl: Isolate parsing complete.');
 
       // Assign parsed data to internal state
-      // _activeIngredients assignment removed
       _allInteractions = parsedData.allInteractions;
       _medicineToIngredientsMap = parsedData.medicineToIngredientsMap;
 
-      _isDataLoaded = true; // Mark data as loaded
+      _isDataLoaded = true; // Mark data as loaded successfully
       print('InteractionRepositoryImpl: Interaction data loaded successfully.');
-      // print('Loaded ${_activeIngredients.length} active ingredients.'); // Removed
       print('Loaded ${_allInteractions.length} interaction pairs.');
       print('Loaded ${_medicineToIngredientsMap.length} medicine mappings.');
 
-      return const Right(unit);
+      completer.complete(const Right(unit)); // Complete the future with success
     } catch (e, stacktrace) {
-      // Added stacktrace for better debugging
       _isDataLoaded = false; // Ensure flag is false on error
       print('InteractionRepositoryImpl: Failed to load interaction data: $e');
-      print('Stacktrace: $stacktrace'); // Print stacktrace
-      return Left(
-        CacheFailure(
-          message: 'Failed to load interaction data from assets: $e',
-        ),
+      print('Stacktrace: $stacktrace');
+      final failure = CacheFailure(
+        message: 'Failed to load interaction data from assets: $e',
       );
+      completer.complete(Left(failure)); // Complete the future with failure
+    } finally {
+      // Reset the loading future once the operation is complete (success or failure)
+      _loadingFuture = null;
+      print('InteractionRepositoryImpl: Loading future reset.');
     }
+
+    return completer.future; // Return the completed future
   }
 
   @override
@@ -237,37 +253,48 @@ class InteractionRepositoryImpl implements InteractionRepository {
     print(
       'InteractionRepositoryImpl: Finding interactions for ${medicines.length} medicines...',
     );
-    // Ensure data is loaded before finding interactions
+
+    // Ensure data is loaded, waiting if necessary
     if (!_isDataLoaded) {
       print(
-        'InteractionRepositoryImpl: Interaction data not loaded. Attempting load...',
+        'InteractionRepositoryImpl: Interaction data not loaded. Awaiting loadInteractionData...',
       );
-      final loadResult = await loadInteractionData();
+      final loadResult =
+          await loadInteractionData(); // Will wait for ongoing load
       if (loadResult.isLeft()) {
+        print(
+          'InteractionRepositoryImpl: Loading failed during findInteractionsForMedicines.',
+        );
         // Propagate the loading failure
         return loadResult.fold(
           (failure) => Left(failure),
           (_) => Left(
             CacheFailure(message: 'Unknown error after failed load attempt.'),
-          ),
+          ), // Should not happen
         );
       }
-      // Check again if data is loaded after attempt
+      // Check again if data is loaded after waiting
       if (!_isDataLoaded) {
+        print(
+          'InteractionRepositoryImpl: Data still not loaded after waiting.',
+        );
         return Left(
           CacheFailure(
-            message: 'Interaction data is still not loaded after attempt.',
+            message:
+                'Interaction data is still not loaded after waiting for load.',
           ),
         );
       }
       print(
-        'InteractionRepositoryImpl: Data loaded successfully. Proceeding with interaction check.',
+        'InteractionRepositoryImpl: Data loaded successfully after waiting.',
       );
+    } else {
+      print('InteractionRepositoryImpl: Data was already loaded.');
     }
 
+    // --- Proceed with finding interactions ---
     try {
       List<DrugInteraction> foundInteractions = [];
-      // Use lowercase trade names for lookup in the map
       List<List<String>> ingredientsList =
           medicines.map((m) {
             return _medicineToIngredientsMap[m.tradeName
@@ -276,21 +303,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
                 _extractIngredientsFromString(m.active);
           }).toList();
 
-      // Iterate through all pairs of medicines
       for (int i = 0; i < medicines.length; i++) {
         for (int j = i + 1; j < medicines.length; j++) {
           final ingredients1 = ingredientsList[i];
           final ingredients2 = ingredientsList[j];
 
-          // Check for interactions between each pair of ingredients
           for (final ing1 in ingredients1) {
-            final ing1Lower =
-                ing1
-                    .toLowerCase()
-                    .trim(); // Already lowercase from map or extraction
+            final ing1Lower = ing1.toLowerCase().trim();
             for (final ing2 in ingredients2) {
-              final ing2Lower = ing2.toLowerCase().trim(); // Already lowercase
-              // Find interactions in the loaded list (ingredients are already lowercase)
+              final ing2Lower = ing2.toLowerCase().trim();
               foundInteractions.addAll(
                 _allInteractions.where(
                   (interaction) =>
@@ -304,15 +325,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
           }
         }
       }
-      // Remove duplicates (if an interaction A-B and B-A exists, though unlikely with standardized keys)
       foundInteractions = foundInteractions.toSet().toList();
 
       print(
         'InteractionRepositoryImpl: Found ${foundInteractions.length} interactions.',
       );
       return Right(foundInteractions);
-    } catch (e) {
+    } catch (e, stacktrace) {
       print('InteractionRepositoryImpl: Error finding interactions: $e');
+      print('Stacktrace: $stacktrace');
       return Left(CacheFailure(message: 'Failed to find interactions: $e'));
     }
   }
@@ -342,34 +363,46 @@ class InteractionRepositoryImpl implements InteractionRepository {
     print(
       'InteractionRepositoryImpl: Finding all interactions for drug: ${drug.tradeName}',
     );
-    // Ensure data is loaded before finding interactions
+
+    // Ensure data is loaded, waiting if necessary
     if (!_isDataLoaded) {
       print(
-        'InteractionRepositoryImpl: Interaction data not loaded. Attempting load...',
+        'InteractionRepositoryImpl: Interaction data not loaded. Awaiting loadInteractionData...',
       );
-      final loadResult = await loadInteractionData();
+      final loadResult =
+          await loadInteractionData(); // Will wait for ongoing load
       if (loadResult.isLeft()) {
+        print(
+          'InteractionRepositoryImpl: Loading failed during findAllInteractionsForDrug.',
+        );
         // Propagate the loading failure
         return loadResult.fold(
           (failure) => Left(failure),
           (_) => Left(
             CacheFailure(message: 'Unknown error after failed load attempt.'),
-          ),
+          ), // Should not happen
         );
       }
-      // Check again if data is loaded after attempt
+      // Check again if data is loaded after waiting
       if (!_isDataLoaded) {
+        print(
+          'InteractionRepositoryImpl: Data still not loaded after waiting.',
+        );
         return Left(
           CacheFailure(
-            message: 'Interaction data is still not loaded after attempt.',
+            message:
+                'Interaction data is still not loaded after waiting for load.',
           ),
         );
       }
       print(
-        'InteractionRepositoryImpl: Data loaded successfully. Proceeding with interaction check.',
+        'InteractionRepositoryImpl: Data loaded successfully after waiting.',
       );
+    } else {
+      print('InteractionRepositoryImpl: Data was already loaded.');
     }
 
+    // --- Proceed with finding interactions ---
     try {
       final drugTradeNameLower = drug.tradeName.toLowerCase().trim();
       final drugIngredients =
@@ -387,26 +420,22 @@ class InteractionRepositoryImpl implements InteractionRepository {
           drugIngredients.toSet(); // For efficient lookup
       List<DrugInteraction> foundInteractions = [];
 
-      // Iterate through all loaded interactions
       for (final interaction in _allInteractions) {
-        // Check if either ingredient in the interaction matches any of the drug's ingredients
         if (drugIngredientsSet.contains(interaction.ingredient1) ||
             drugIngredientsSet.contains(interaction.ingredient2)) {
           foundInteractions.add(interaction);
         }
       }
 
-      // No need to remove duplicates here as we are iterating through the master list once.
-      // Duplicates were handled during loading if the source had them.
-
       print(
         'InteractionRepositoryImpl: Found ${foundInteractions.length} interactions for ${drug.tradeName}.',
       );
       return Right(foundInteractions);
-    } catch (e) {
+    } catch (e, stacktrace) {
       print(
         'InteractionRepositoryImpl: Error finding interactions for drug ${drug.tradeName}: $e',
       );
+      print('Stacktrace: $stacktrace');
       return Left(
         CacheFailure(
           message: 'Failed to find interactions for drug ${drug.tradeName}: $e',
