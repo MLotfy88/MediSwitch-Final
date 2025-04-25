@@ -709,3 +709,19 @@ class DosageCalculationView(views.APIView):
             "request_params": calculation_params,
             "result": {} # Placeholder for results
         }, status=status.HTTP_501_NOT_IMPLEMENTED)
+
+# View for downloading all drug data
+from rest_framework.generics import ListAPIView
+from rest_framework.permissions import AllowAny
+from .models import Drug
+from .serializers import DrugSerializer
+
+class DrugDownloadView(ListAPIView):
+    """
+    Provides a read-only endpoint to download the entire drug list.
+    Used by the mobile app to populate/update its local database.
+    """
+    queryset = Drug.objects.all()
+    serializer_class = DrugSerializer
+    permission_classes = [AllowAny] # Allow any client (the app) to access this
+    pagination_class = None # Return all drugs at once, no pagination

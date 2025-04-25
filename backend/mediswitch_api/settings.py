@@ -214,10 +214,12 @@ SIMPLE_JWT = {
 # --- CORS Settings ---
 # https://github.com/adamchainz/django-cors-headers
 
-# Allow all origins during development (adjust for production)
-CORS_ALLOW_ALL_ORIGINS = DEBUG
+# Allow all origins (since the mobile app needs to access read-only endpoints)
+# Consider tightening this if specific origins are known and stable,
+# or if sensitive data requires more restricted access.
+CORS_ALLOW_ALL_ORIGINS = True
 
-# Or, specify allowed origins explicitly for production:
+# Or, specify allowed origins explicitly for production (alternative):
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:8080", # Example Flutter web dev server
 #     "http://127.0.0.1:8080",
