@@ -66,3 +66,10 @@ class AnalyticsEventSerializer(serializers.ModelSerializer):
         # Simple creation, no complex logic needed here for now
         return AnalyticsEvent.objects.create(**validated_data)
 # Removed extraneous bracket from previous diff application
+# Serializer for Drug model (for data download)
+from .models import Drug # Import Drug model
+
+class DrugSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Drug
+        fields = '__all__' # Include all fields for the app's local database

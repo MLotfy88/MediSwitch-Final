@@ -22,7 +22,7 @@ COPY . .
 
 # Collect static files (if using Django's staticfiles app)
 # This assumes you have STATIC_ROOT configured in settings.py
-# RUN python manage.py collectstatic --noinput
+RUN python manage.py collectstatic --noinput
 
 # Expose the port the app runs on (matching Gunicorn command)
 EXPOSE 8000
