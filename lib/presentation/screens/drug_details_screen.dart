@@ -12,7 +12,10 @@ import '../widgets/alternatives_tab_content.dart';
 import 'weight_calculator_screen.dart';
 import 'interaction_checker_screen.dart';
 import '../bloc/dose_calculator_provider.dart';
-import '../bloc/interaction_provider.dart';
+// import '../bloc/interaction_provider.dart'; // InteractionProvider might not be needed directly here
+import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
+import '../../domain/entities/drug_interaction.dart'; // Import DrugInteraction
+import '../widgets/interaction_card.dart'; // Import InteractionCard
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import '../../core/constants/app_constants.dart'; // Import constants for translation map
@@ -29,7 +32,10 @@ class DrugDetailsScreen extends StatefulWidget {
 class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     with SingleTickerProviderStateMixin {
   final FileLoggerService _logger = locator<FileLoggerService>();
+  final InteractionRepository _interactionRepository =
+      locator<InteractionRepository>(); // Inject InteractionRepository
   late TabController _tabController;
+  bool _isLoadingInteractions = false; // State for loading interactions
 
   bool _isFavorite = false; // Placeholder for favorite state
 
@@ -398,35 +404,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 label: Text(
                   l10n.drugInteractionsButton,
                 ), // Use localized string
-                onPressed: () {
-                  _logger.i(
-                    "DrugDetailsScreen: Interaction Checker button tapped (Deferred for MVP).",
-                  );
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(
-                        l10n.interactionCheckerSnackbar,
-                      ), // Use localized string
-                      duration: const Duration(seconds: 2),
-                    ),
-                  );
-                  // context.read<InteractionProvider>().addMedicine(widget.drug);
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) => const InteractionCheckerScreen(),
-                  //   ),
-                  // );
-                },
-                // Merge base style with dimming overrides
-                style: baseButtonStyle?.copyWith(
-                  foregroundColor: MaterialStateProperty.all(
-                    colorScheme.onSurfaceVariant.withOpacity(0.6),
-                  ),
-                  side: MaterialStateProperty.all(
-                    BorderSide(color: colorScheme.outline.withOpacity(0.6)),
-                  ),
-                ),
+                onPressed:
+                    _isLoadingInteractions
+                        ? null
+                        : () => _showInteractionsDialog(
+                          context,
+                          l10n,
+                        ), // Call new handler
+                // Apply base style (no dimming needed now)
+                style: baseButtonStyle,
               ),
             ),
           ],
@@ -670,6 +656,81 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     // This widget simply wraps the existing AlternativesTabContent
     // It ensures consistent padding or structure if needed across tabs
     return AlternativesTabContent(originalDrug: widget.drug);
+  }
+
+  // --- Show Interactions Dialog ---
+  Future<void> _showInteractionsDialog(
+    BuildContext context,
+    AppLocalizations l10n,
+  ) async {
+    setState(() => _isLoadingInteractions = true);
+    _logger.i("Fetching interactions for drug: ${widget.drug.tradeName}");
+
+    final result = await _interactionRepository.findAllInteractionsForDrug(
+      widget.drug,
+    );
+
+    if (!mounted) return; // Check if the widget is still mounted
+
+    setState(() => _isLoadingInteractions = false);
+
+    result.fold(
+      (failure) {
+        _logger.e("Failed to fetch interactions: ${failure.message}");
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              "${l10n.errorFetchingInteractions}: ${failure.message}",
+            ), // Localized error
+            backgroundColor: Colors.red,
+          ),
+        );
+      },
+      (interactions) {
+        _logger.i(
+          "Found ${interactions.length} interactions for ${widget.drug.tradeName}",
+        );
+        showDialog(
+          context: context,
+          builder: (BuildContext dialogContext) {
+            return AlertDialog(
+              title: Text(
+                l10n.drugInteractionsDialogTitle(widget.drug.tradeName),
+              ), // Localized title
+              content: SizedBox(
+                width: double.maxFinite, // Make dialog content wide
+                child:
+                    interactions.isEmpty
+                        ? Center(
+                          child: Text(l10n.noInteractionsFound),
+                        ) // Localized message
+                        : ListView.separated(
+                          shrinkWrap: true,
+                          itemCount: interactions.length,
+                          itemBuilder: (context, index) {
+                            return InteractionCard(
+                              interaction: interactions[index],
+                            );
+                          },
+                          separatorBuilder:
+                              (context, index) => const Divider(height: 1),
+                        ),
+              ),
+              actions: <Widget>[
+                TextButton(
+                  child: Text(l10n.closeButton), // Localized button text
+                  onPressed: () {
+                    Navigator.of(dialogContext).pop(); // Close the dialog
+                  },
+                ),
+              ],
+              // Optional: Add scrollable property if content might overflow
+              scrollable: interactions.length > 5, // Example threshold
+            );
+          },
+        );
+      },
+    );
   }
 
   // REMOVED: _buildAlternativesSection (functionality moved to _buildAlternativesTab)

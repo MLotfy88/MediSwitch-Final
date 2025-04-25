@@ -24,6 +24,11 @@ abstract class InteractionRepository {
   /// Returns an empty map if data is not loaded.
   Map<String, List<String>> get medicineToIngredientsMap;
 
+  /// Finds all interactions involving any active ingredient of the given medicine.
+  Future<Either<Failure, List<DrugInteraction>>> findAllInteractionsForDrug(
+    DrugEntity drug,
+  );
+
   // Add other methods if needed, e.g., finding interactions for a single pair,
   // or getting active ingredients for a specific medicine if not handled elsewhere.
 }

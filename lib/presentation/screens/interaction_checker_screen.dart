@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:lucide_icons/lucide_icons.dart';
-import '../bloc/interaction_provider.dart';
-import '../bloc/medicine_provider.dart'; // To get drug list for selection
+import 'package:provider/provider.dart'; // If using Provider for state management
+
+import '../../core/di/locator.dart'; // For accessing InteractionRepository
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
-import '../../domain/entities/interaction_severity.dart';
-import '../../domain/entities/interaction_analysis_result.dart';
-import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
-import '../widgets/custom_badge.dart';
-// import '../widgets/drug_selection_dialog.dart'; // No longer needed
-import '../widgets/interaction_card.dart'; // Import the new card widget
-import '../widgets/custom_searchable_dropdown.dart'; // Import the dropdown
+import '../../domain/repositories/interaction_repository.dart';
+import '../../domain/repositories/drug_repository.dart'; // Import DrugRepository
+// Removed import for custom_searchable_dropdown
+import '../widgets/drug_search_delegate.dart'; // Import DrugSearchDelegate
+import '../widgets/interaction_card.dart';
+import '../bloc/medicine_provider.dart'; // Assuming this provides the list of all drugs for selection
+
+// TODO: Implement localization using AppLocalizations
 
 class InteractionCheckerScreen extends StatefulWidget {
   const InteractionCheckerScreen({super.key});
@@ -23,345 +22,307 @@ class InteractionCheckerScreen extends StatefulWidget {
 }
 
 class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
-  final FileLoggerService _logger = locator<FileLoggerService>();
-  // Use a simpler GlobalKey or key for the dropdown state if needed for reset
-  final GlobalKey _dropdownKey = GlobalKey(); // Simpler key
+  final InteractionRepository _interactionRepository =
+      locator<InteractionRepository>();
 
-  // Removed _showDrugSelectionDialog method
+  DrugEntity? _selectedDrug1;
+  DrugEntity? _selectedDrug2;
+  List<DrugInteraction> _interactions = [];
+  bool _isLoading = false;
+  String? _errorMessage;
+
+  // Fetch all drugs for the dropdowns/search delegates
+  // This might be better handled in a dedicated provider/bloc
+  List<DrugEntity> _allDrugs = [];
+
+  @override
+  void initState() {
+    super.initState();
+    // Load all drugs for selection - assuming MedicineProvider handles this
+    // It's crucial that interaction data is loaded before this screen is used.
+    // Consider triggering loadInteractionData earlier in the app lifecycle (e.g., InitializationScreen)
+    _loadAllDrugs();
+    _ensureInteractionDataLoaded();
+  }
+
+  Future<void> _loadAllDrugs() async {
+    // Use DrugRepository to load all drugs
+    print("InteractionCheckerScreen: Loading all drugs...");
+    try {
+      // Assuming DrugRepository is registered in locator
+      final drugRepo = locator<DrugRepository>();
+      // Assuming DrugRepository has a method like getAllDrugs()
+      // Adjust the method name if it's different (e.g., fetchAllDrugs)
+      final result =
+          await drugRepo.getAllDrugs(); // Make sure this method exists
+
+      if (mounted) {
+        result.fold(
+          (failure) {
+            setState(
+              () =>
+                  _errorMessage =
+                      "Failed to load drug list: ${failure.message}",
+            );
+            print("Error loading drugs: ${failure.message}");
+          },
+          (List<DrugEntity> drugs) {
+            // Explicitly type drugs
+            setState(() => _allDrugs = drugs);
+            print(
+              "InteractionCheckerScreen: Loaded ${_allDrugs.length} drugs.",
+            );
+          },
+        );
+      }
+    } catch (e, stacktrace) {
+      if (mounted) {
+        setState(() => _errorMessage = "Error loading drugs: $e");
+      }
+      print("Error loading drugs: $e");
+      print("Stacktrace: $stacktrace");
+    }
+  }
+
+  Future<void> _ensureInteractionDataLoaded() async {
+    // Attempt to load interaction data if not already loaded
+    // This is a fallback; ideally, it's loaded during app initialization
+    final result = await _interactionRepository.loadInteractionData();
+    result.fold((failure) {
+      if (mounted) {
+        setState(() {
+          _errorMessage = "Failed to load interaction data: ${failure.message}";
+        });
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              "Error loading interaction database: ${failure.message}",
+            ),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }, (_) => print("Interaction data ensured/loaded successfully."));
+  }
+
+  Future<void> _checkInteractions() async {
+    if (_selectedDrug1 == null || _selectedDrug2 == null) {
+      setState(() {
+        _errorMessage = "Please select two drugs to compare.";
+        _interactions = [];
+      });
+      return;
+    }
+
+    setState(() {
+      _isLoading = true;
+      _errorMessage = null;
+      _interactions = [];
+    });
+
+    final result = await _interactionRepository.findInteractionsForMedicines([
+      _selectedDrug1!,
+      _selectedDrug2!,
+    ]);
+
+    if (mounted) {
+      setState(() {
+        result.fold(
+          (failure) {
+            _errorMessage = "Error checking interactions: ${failure.message}";
+            _interactions = [];
+          },
+          (interactions) {
+            _interactions = interactions;
+            if (interactions.isEmpty) {
+              _errorMessage =
+                  "No interactions found between the selected drugs.";
+            }
+          },
+        );
+        _isLoading = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    _logger.d("InteractionCheckerScreen: Building widget.");
-    final provider = context.watch<InteractionProvider>();
-    final medicineProvider =
-        context.watch<MedicineProvider>(); // Watch for updates
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final textTheme = theme.textTheme;
-
-    // Filter out already selected drugs from the available list using tradeName
-    final selectedDrugNames =
-        provider.selectedMedicines.map((d) => d.tradeName).toSet();
-    final availableDrugs =
-        medicineProvider
-            .filteredMedicines // Use filtered list
-            .where((drug) => !selectedDrugNames.contains(drug.tradeName))
-            .toList();
+    // Access MedicineProvider if needed for drug list
+    // final medicineProvider = Provider.of<MedicineProvider>(context);
+    // _allDrugs = medicineProvider.drugs; // Example: Get drugs from provider state
 
     return Scaffold(
       appBar: AppBar(
-        // Apply design styles
-        backgroundColor: colorScheme.primary, // #16BC88
-        foregroundColor: colorScheme.onPrimary, // White text/icons
-        elevation: 0,
-        title: Text(
-          'التفاعلات الدوائية', // Correct title from design
-          style: textTheme.titleLarge?.copyWith(
-            // text-xl equivalent
-            fontWeight: FontWeight.bold,
-            color: colorScheme.onPrimary,
-          ),
-        ),
+        // title: Text(AppLocalizations.of(context)!.interactionCheckerTitle), // Use localization
+        title: const Text('Drug Interaction Checker'), // Placeholder title
       ),
-      // Wrap the body content with SafeArea
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0), // p-4 equivalent
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Text(
-                'الأدوية المختارة:',
-                style: textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 8),
-              Container(
-                padding: const EdgeInsets.all(8.0),
-                decoration: BoxDecoration(
-                  color: colorScheme.surfaceVariant.withOpacity(0.3),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                constraints: const BoxConstraints(minHeight: 50),
-                child: Wrap(
-                  spacing: 8.0,
-                  runSpacing: 4.0,
-                  children:
-                      provider.selectedMedicines.isEmpty
-                          ? [
-                            Center(
-                              child: Padding(
-                                padding: const EdgeInsets.symmetric(
-                                  vertical: 8.0,
-                                ),
-                                child: Text(
-                                  'أضف دوائين أو أكثر لبدء الفحص.',
-                                  style: textTheme.bodyMedium?.copyWith(
-                                    color: colorScheme.onSurfaceVariant,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ]
-                          : provider.selectedMedicines.map((drug) {
-                            // Apply design styles to the chip
-                            return Chip(
-                              avatar: Icon(
-                                // Add Pill icon
-                                LucideIcons.pill,
-                                size: 16, // h-4 w-4
-                                color: colorScheme.onSecondaryContainer,
-                              ),
-                              label: Text(
-                                drug.tradeName,
-                                style: textTheme.bodyMedium?.copyWith(
-                                  // text-sm
-                                  color: colorScheme.onSecondaryContainer,
-                                ),
-                              ),
-                              onDeleted: () {
-                                _logger.i(
-                                  "InteractionCheckerScreen: Removing drug: ${drug.tradeName}",
-                                );
-                                provider.removeMedicine(drug);
-                              },
-                              deleteIcon: Icon(
-                                LucideIcons.x,
-                                size: 16,
-                              ), // h-4 w-4
-                              deleteIconColor: colorScheme.onSecondaryContainer
-                                  .withOpacity(0.7),
-                              backgroundColor:
-                                  colorScheme
-                                      .secondaryContainer, // bg-secondary
-                              shape: const StadiumBorder(), // rounded-full
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 12,
-                                vertical: 6,
-                              ), // px-3 py-1.5 equivalent
-                              materialTapTargetSize:
-                                  MaterialTapTargetSize.shrinkWrap,
-                            );
-                          }).toList(),
-                ),
-              ),
-              const SizedBox(height: 16),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            // --- Drug Selection ---
+            // TODO: Replace with actual DrugSearchDelegate or CustomSearchableDropDown
+            _buildDrugSelector(
+              label: 'Select Drug 1', // Placeholder
+              selectedDrug: _selectedDrug1,
+              onChanged: (drug) => setState(() => _selectedDrug1 = drug),
+            ),
+            const SizedBox(height: 16),
+            _buildDrugSelector(
+              label: 'Select Drug 2', // Placeholder
+              selectedDrug: _selectedDrug2,
+              onChanged: (drug) => setState(() => _selectedDrug2 = drug),
+            ),
+            const SizedBox(height: 24),
 
-              // --- Replace Button with Dropdown ---
-              CustomSearchableDropdown(
-                // Remove generic type argument
-                key: _dropdownKey, // Assign key
-                items: availableDrugs,
-                selectedItem: null, // Always start empty
-                onChanged: (DrugEntity? selectedDrug) {
-                  if (selectedDrug != null) {
-                    _logger.i(
-                      "InteractionCheckerScreen: Drug selected via dropdown: ${selectedDrug.tradeName}",
-                    );
-                    provider.addMedicine(selectedDrug);
-                    // Reset the dropdown after selection - Need to access state via key if reset is needed
-                    // (Consider adding a reset method to CustomSearchableDropdownState)
-                    // _dropdownKey.currentState?.resetSelection();
-                    FocusScope.of(context).unfocus(); // Close keyboard
-                  }
-                },
-                labelText: 'إضافة دواء للفحص', // Updated label
-                hintText: 'ابحث عن اسم الدواء...',
-                prefixIcon: LucideIcons.plusCircle, // Use PlusCircle icon
-                // No validator needed here as it's for adding, not submitting
-              ),
+            // --- Check Button ---
+            ElevatedButton(
+              onPressed:
+                  (_selectedDrug1 != null &&
+                          _selectedDrug2 != null &&
+                          !_isLoading)
+                      ? _checkInteractions
+                      : null,
+              child:
+                  _isLoading
+                      ? const SizedBox(
+                        height: 20,
+                        width: 20,
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2,
+                          color: Colors.white,
+                        ),
+                      )
+                      // : Text(AppLocalizations.of(context)!.checkInteractionsButton), // Use localization
+                      : const Text('Check Interactions'), // Placeholder
+            ),
+            const SizedBox(height: 24),
 
-              // Removed OutlinedButton
-              const SizedBox(height: 24),
-              ElevatedButton.icon(
-                icon:
-                    provider.isLoading
-                        ? Container(
-                          width: 20,
-                          height: 20,
-                          margin: const EdgeInsets.only(left: 8),
-                          child: CircularProgressIndicator(
-                            strokeWidth: 2,
-                            color: colorScheme.onPrimary,
-                          ),
-                        )
-                        : Icon(LucideIcons.zap, size: 18),
-                label: Text(
-                  provider.isLoading ? 'جاري الفحص...' : 'فحص التفاعلات',
-                ),
-                onPressed:
-                    provider.isLoading || provider.selectedMedicines.length < 2
-                        ? null
-                        : () {
-                          _logger.i(
-                            "InteractionCheckerScreen: Check Interactions button pressed.",
-                          );
-                          provider.analyzeInteractions();
-                        },
-                style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(vertical: 14),
-                  textStyle: textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.bold,
+            // --- Results Area ---
+            if (_errorMessage != null && !_isLoading)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                child: Text(
+                  _errorMessage!,
+                  style: TextStyle(
+                    color:
+                        _interactions.isEmpty ? Colors.grey[600] : Colors.red,
+                    fontStyle: FontStyle.italic,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ),
-              const SizedBox(height: 24),
-              const Divider(),
-              const SizedBox(height: 16),
-              Text(
-                'نتائج فحص التفاعلات:',
-                style: textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 12),
-              Expanded(child: _buildResultsArea(context, provider)),
-            ],
-          ),
+
+            Expanded(
+              child:
+                  _isLoading && _interactions.isEmpty
+                      ? const Center(child: CircularProgressIndicator())
+                      : _interactions.isEmpty &&
+                          _errorMessage == null &&
+                          !_isLoading
+                      ? const Center(
+                        child: Text(
+                          'Select two drugs and press "Check Interactions".',
+                        ),
+                      ) // Placeholder
+                      : ListView.builder(
+                        itemCount: _interactions.length,
+                        itemBuilder: (context, index) {
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: 8.0),
+                            child: InteractionCard(
+                              interaction: _interactions[index],
+                              // Optional: Pass drug names if needed by the card
+                              // drug1Name: _selectedDrug1?.tradeName,
+                              // drug2Name: _selectedDrug2?.tradeName,
+                            ),
+                          );
+                        },
+                      ),
+            ),
+          ],
         ),
       ),
     );
   }
 
-  Widget _buildResultsArea(BuildContext context, InteractionProvider provider) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-
-    if (provider.isLoading) {
-      return const Center(child: CircularProgressIndicator());
-    } else if (provider.error.isNotEmpty) {
-      return Center(
-        child: Text(
-          'خطأ: ${provider.error}',
-          style: TextStyle(color: colorScheme.error),
-        ),
-      );
-    } else if (provider.analysisResult == null) {
-      return Center(
-        child: Text(
-          'أضف دوائين على الأقل ثم اضغط "فحص التفاعلات".',
-          style: TextStyle(color: colorScheme.onSurfaceVariant),
-        ),
-      );
-    } else {
-      final result = provider.analysisResult!;
-      return Column(
-        children: [
-          if (result.interactions.isNotEmpty) ...[
-            _buildOverallSeverity(context, result.overallSeverity),
-            const SizedBox(height: 16),
-          ],
-          Expanded(
-            child:
-                result.interactions.isEmpty
-                    ? Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            LucideIcons.checkCircle, // Correct icon from design
-                            size: 48, // h-12 w-12
-                            color: Colors.green.shade600, // text-success
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            'لم يتم العثور على تفاعلات معروفة', // Text from design
-                            style:
-                                Theme.of(
-                                  context,
-                                ).textTheme.titleLarge, // text-lg
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            'بين الأدوية المختارة. استشر طبيبك دائما.', // Guidance text
-                            style: Theme.of(
-                              context,
-                            ).textTheme.bodyMedium?.copyWith(
-                              color:
-                                  colorScheme
-                                      .onSurfaceVariant, // text-muted-foreground
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        ],
-                      ),
-                    )
-                    : ListView.separated(
-                      itemCount: result.interactions.length,
-                      itemBuilder: (context, index) {
-                        final interaction = result.interactions[index];
-                        // Use the dedicated InteractionCard widget
-                        return InteractionCard(interaction: interaction);
-                      },
-                      separatorBuilder:
-                          (context, index) => const SizedBox(height: 12),
-                    ),
-          ),
-        ],
-      );
-    }
-  }
-
-  Widget _buildOverallSeverity(
-    BuildContext context,
-    InteractionSeverity severity,
-  ) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    Color bgColor;
-    Color textColor;
-    String text;
-    IconData icon;
-
-    switch (severity) {
-      case InteractionSeverity.major:
-        bgColor = colorScheme.errorContainer;
-        textColor = colorScheme.onErrorContainer;
-        text = 'خطورة عالية';
-        icon = LucideIcons.alertOctagon;
-        break;
-      case InteractionSeverity.moderate:
-        bgColor = Colors.orange.shade100;
-        textColor = Colors.orange.shade900;
-        text = 'خطورة متوسطة';
-        icon = LucideIcons.alertTriangle;
-        break;
-      case InteractionSeverity.minor:
-        bgColor = colorScheme.secondaryContainer;
-        textColor = colorScheme.onSecondaryContainer;
-        text = 'خطورة طفيفة';
-        icon = LucideIcons.info;
-        break;
-      default:
-        bgColor = colorScheme.surfaceVariant;
-        textColor = colorScheme.onSurfaceVariant;
-        text = 'غير معروفة';
-        icon = LucideIcons.helpCircle;
-    }
-
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-      decoration: BoxDecoration(
-        color: bgColor.withOpacity(0.8),
-        borderRadius: BorderRadius.circular(8),
+  // Builds a button that opens the DrugSearchDelegate
+  Widget _buildDrugSelector({
+    required String label,
+    required DrugEntity? selectedDrug,
+    required ValueChanged<DrugEntity?> onChanged,
+  }) {
+    return OutlinedButton(
+      style: OutlinedButton.styleFrom(
+        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
+        textStyle: Theme.of(context).textTheme.titleMedium,
+        foregroundColor:
+            selectedDrug != null
+                ? Theme.of(context).colorScheme.onSurface
+                : Theme.of(context).hintColor,
+        side: BorderSide(color: Theme.of(context).colorScheme.outline),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       ),
+      onPressed: () async {
+        // Ensure _allDrugs is loaded before showing search
+        if (_allDrugs.isEmpty && _errorMessage == null) {
+          // Optionally show a loading indicator or message
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Loading drug list... Please wait.')),
+          );
+          await _loadAllDrugs(); // Attempt to load again if empty
+          if (_allDrugs.isEmpty) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Failed to load drug list. Cannot search.'),
+                backgroundColor: Colors.red,
+              ),
+            );
+            return; // Don't open search if still empty
+          }
+        } else if (_errorMessage != null && _allDrugs.isEmpty) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('Error: $_errorMessage'),
+              backgroundColor: Colors.red,
+            ),
+          );
+          return; // Don't open search if there was an error loading
+        }
+
+        final DrugEntity? result = await showSearch<DrugEntity?>(
+          context: context,
+          delegate: DrugSearchDelegate(
+            // Removed allDrugs parameter, as the delegate uses MedicineProvider
+            // Optional: Customize hint text
+            // searchFieldLabel: 'Search Drugs...',
+          ),
+        );
+        if (result != null) {
+          onChanged(result); // Update the state with the selected drug
+        }
+      },
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(icon, color: textColor, size: 20),
-          const SizedBox(width: 8),
-          Text(
-            'مستوى الخطورة العام: $text',
-            style: theme.textTheme.titleSmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: textColor,
+          Expanded(
+            child: Text(
+              selectedDrug?.tradeName ?? label,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                color:
+                    selectedDrug != null
+                        ? Theme.of(context).colorScheme.onSurface
+                        : Theme.of(context).hintColor,
+                fontWeight:
+                    selectedDrug != null ? FontWeight.normal : FontWeight.w400,
+              ),
             ),
           ),
+          const Icon(Icons.search),
         ],
       ),
     );
   }
-
-  // Removed _buildInteractionCard helper function
 }

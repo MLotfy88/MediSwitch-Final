@@ -358,4 +358,58 @@ class DrugRepositoryImpl implements DrugRepository {
       return Left(CacheFailure());
     }
   }
+
+  @override
+  Future<Either<Failure, List<DrugEntity>>> findSimilars(
+    DrugEntity drug,
+  ) async {
+    _logger.d(
+      "DrugRepository: findSimilars called for drug: '${drug.tradeName}' with active: '${drug.active}'",
+    );
+    try {
+      final List<MedicineModel> localMedicines = await localDataSource
+          .findSimilars(drug.active, drug.tradeName);
+      final List<DrugEntity> drugEntities =
+          localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: findSimilars successful, found ${drugEntities.length} drugs.",
+      );
+      return Right(drugEntities);
+    } catch (e, s) {
+      _logger.e('Error finding similar drugs in repository', e, s);
+      return Left(CacheFailure());
+    }
+  }
+
+  @override
+  Future<Either<Failure, List<DrugEntity>>> findAlternatives(
+    DrugEntity drug,
+  ) async {
+    _logger.d(
+      "DrugRepository: findAlternatives called for drug: '${drug.tradeName}' with category: '${drug.category}' and active: '${drug.active}'",
+    );
+    // Use the 'category' field from the DrugEntity, which might be null
+    final categoryToSearch = drug.category;
+
+    if (categoryToSearch == null || categoryToSearch.isEmpty) {
+      _logger.w(
+        "DrugRepository: Cannot find alternatives for '${drug.tradeName}' because its category is null or empty.",
+      );
+      return const Right([]); // Return empty list if category is missing
+    }
+
+    try {
+      final List<MedicineModel> localMedicines = await localDataSource
+          .findAlternatives(categoryToSearch, drug.active);
+      final List<DrugEntity> drugEntities =
+          localMedicines.map((model) => model.toEntity()).toList();
+      _logger.i(
+        "DrugRepository: findAlternatives successful, found ${drugEntities.length} drugs.",
+      );
+      return Right(drugEntities);
+    } catch (e, s) {
+      _logger.e('Error finding alternative drugs in repository', e, s);
+      return Left(CacheFailure());
+    }
+  }
 }
