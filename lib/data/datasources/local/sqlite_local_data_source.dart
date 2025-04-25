@@ -383,4 +383,63 @@ class SqliteLocalDataSource {
       return false;
     }
   }
+
+  // --- Find Similars (Same Active Ingredient, Different Trade Name) ---
+  Future<List<MedicineModel>> findSimilars(
+    String activeIngredient,
+    String currentTradeName,
+  ) async {
+    await seedingComplete; // Wait for seeding
+    print(
+      "Finding similars in SQLite for active: '$activeIngredient', excluding: '$currentTradeName'",
+    );
+    final db = await dbHelper.database;
+    final lowerCaseActive = activeIngredient.toLowerCase();
+    final lowerCaseTradeName = currentTradeName.toLowerCase();
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where:
+          'LOWER(${DatabaseHelper.colActive}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?',
+      whereArgs: [lowerCaseActive, lowerCaseTradeName],
+      // Optional: Add limit if needed
+    );
+
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  // --- Find Alternatives (Same Category, Different Active Ingredient) ---
+  Future<List<MedicineModel>> findAlternatives(
+    String? category, // Category can be null
+    String activeIngredient,
+  ) async {
+    await seedingComplete; // Wait for seeding
+    print(
+      "Finding alternatives in SQLite for category: '$category', excluding active: '$activeIngredient'",
+    );
+
+    // If category is null or empty, cannot find alternatives based on category
+    if (category == null || category.isEmpty) {
+      print("Cannot find alternatives: Category is null or empty.");
+      return [];
+    }
+
+    final db = await dbHelper.database;
+    final lowerCaseCategory = category.toLowerCase();
+    final lowerCaseActive = activeIngredient.toLowerCase();
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where:
+          'LOWER(${DatabaseHelper.colCategory}) = ? AND LOWER(${DatabaseHelper.colActive}) != ?',
+      whereArgs: [lowerCaseCategory, lowerCaseActive],
+      // Optional: Add limit if needed
+    );
+
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
 }

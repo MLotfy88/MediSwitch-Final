@@ -13,61 +13,129 @@ import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/entities/active_ingredient.dart'; // Import domain entity
 
 // --- Data structure to pass data to and from the isolate ---
+// --- Data structures for isolate communication ---
 class _ParseInteractionDataParams {
-  final String ingredientsJsonString;
-  final String interactionsJsonString;
-  final String medIngredientsJsonString;
+  // Removed ingredientsJsonString as we might not need active_ingredients.json
+  final String
+  interactionsJsonString; // For drug_interactions_structured_data.json
+  final String medIngredientsJsonString; // For medicine_ingredients.json
 
   _ParseInteractionDataParams({
-    required this.ingredientsJsonString,
     required this.interactionsJsonString,
     required this.medIngredientsJsonString,
   });
 }
 
 class _ParsedInteractionData {
-  final List<ActiveIngredient> activeIngredients;
+  // Removed activeIngredients list
   final List<DrugInteraction> allInteractions;
   final Map<String, List<String>> medicineToIngredientsMap;
 
   _ParsedInteractionData({
-    required this.activeIngredients,
     required this.allInteractions,
     required this.medicineToIngredientsMap,
   });
 }
 
-// --- Top-level function for parsing in isolate ---
+// --- Helper models for parsing the NEW interaction JSON structure ---
+class _RawInteractionEntryModel {
+  final String activeIngredient;
+  final List<_ParsedInteractionModel> parsedInteractions;
+
+  _RawInteractionEntryModel({
+    required this.activeIngredient,
+    required this.parsedInteractions,
+  });
+
+  factory _RawInteractionEntryModel.fromJson(Map<String, dynamic> json) {
+    var interactionsList =
+        (json['parsed_interactions'] as List<dynamic>?) ?? [];
+    return _RawInteractionEntryModel(
+      activeIngredient: json['active_ingredient'] as String? ?? '',
+      parsedInteractions:
+          interactionsList
+              .map(
+                (i) =>
+                    _ParsedInteractionModel.fromJson(i as Map<String, dynamic>),
+              )
+              .toList(),
+    );
+  }
+}
+
+class _ParsedInteractionModel {
+  final String interactingSubstance;
+  final String severity;
+  final String description;
+
+  _ParsedInteractionModel({
+    required this.interactingSubstance,
+    required this.severity,
+    required this.description,
+  });
+
+  factory _ParsedInteractionModel.fromJson(Map<String, dynamic> json) {
+    return _ParsedInteractionModel(
+      interactingSubstance: json['interacting_substance'] as String? ?? '',
+      severity: json['severity'] as String? ?? 'unknown',
+      description: json['description'] as String? ?? '',
+    );
+  }
+}
+
+// --- Top-level function for parsing in isolate (MODIFIED) ---
 _ParsedInteractionData _parseInteractionDataIsolate(
   _ParseInteractionDataParams params,
 ) {
-  // 1. Parse Active Ingredients
-  final List<dynamic> ingredientsJson =
-      jsonDecode(params.ingredientsJsonString) as List<dynamic>;
-  final activeIngredients =
-      ingredientsJson
-          .map(
-            (json) =>
-                _ActiveIngredientModel.fromJson(
-                  json as Map<String, dynamic>,
-                ).toEntity(),
-          )
-          .toList();
-
-  // 2. Parse Drug Interactions
-  final List<dynamic> interactionsJson =
+  // 1. Parse Drug Interactions (NEW STRUCTURE)
+  final List<dynamic> rawInteractionsListJson =
       jsonDecode(params.interactionsJsonString) as List<dynamic>;
-  final allInteractions =
-      interactionsJson
-          .map(
-            (json) =>
-                _DrugInteractionModel.fromJson(
-                  json as Map<String, dynamic>,
-                ).toEntity(),
-          )
-          .toList();
 
-  // 3. Parse Medicine to Ingredients Mapping
+  final List<DrugInteraction> allInteractions = [];
+
+  for (final rawEntryJson in rawInteractionsListJson) {
+    if (rawEntryJson is Map<String, dynamic>) {
+      final rawEntry = _RawInteractionEntryModel.fromJson(rawEntryJson);
+      final mainIngredient = rawEntry.activeIngredient.toLowerCase().trim();
+
+      for (final parsedInteraction in rawEntry.parsedInteractions) {
+        final interactingSubstance =
+            parsedInteraction.interactingSubstance.toLowerCase().trim();
+
+        // Skip self-interactions or interactions with empty substances
+        if (mainIngredient.isEmpty ||
+            interactingSubstance.isEmpty ||
+            mainIngredient == interactingSubstance) {
+          continue;
+        }
+
+        InteractionSeverity severityEnum;
+        try {
+          severityEnum = InteractionSeverity.values.byName(
+            parsedInteraction.severity.toLowerCase(),
+          );
+        } catch (_) {
+          severityEnum = InteractionSeverity.unknown;
+        }
+
+        // Create the DrugInteraction entity
+        allInteractions.add(
+          DrugInteraction(
+            ingredient1: mainIngredient,
+            ingredient2: interactingSubstance,
+            severity: severityEnum,
+            effect: parsedInteraction.description, // Use description as effect
+            recommendation: '', // Keep recommendation empty for now
+            type: InteractionType.unknown, // Default type
+            arabicEffect: '',
+            arabicRecommendation: '',
+          ),
+        );
+      }
+    }
+  }
+
+  // 2. Parse Medicine to Ingredients Mapping (Unchanged logic)
   final Map<String, dynamic> medIngredientsJson =
       jsonDecode(params.medIngredientsJsonString) as Map<String, dynamic>;
   final medicineToIngredientsMap = medIngredientsJson.map((key, value) {
@@ -80,8 +148,13 @@ _ParsedInteractionData _parseInteractionDataIsolate(
   });
 
   print('Isolate: Parsed interaction data successfully.');
+  print('Isolate: Processed ${allInteractions.length} interaction pairs.');
+  print(
+    'Isolate: Processed ${medicineToIngredientsMap.length} medicine mappings.',
+  );
+
   return _ParsedInteractionData(
-    activeIngredients: activeIngredients,
+    // activeIngredients list removed
     allInteractions: allInteractions,
     medicineToIngredientsMap: medicineToIngredientsMap,
   );
@@ -92,8 +165,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
   List<DrugInteraction> _allInteractions = []; // Store parsed domain entities
   Map<String, List<String>> _medicineToIngredientsMap =
       {}; // Map tradeName to ingredients
-  List<ActiveIngredient> _activeIngredients =
-      []; // Store parsed domain entities
+  // Removed _activeIngredients list
   bool _isDataLoaded = false; // Flag to prevent multiple loads
 
   @override
@@ -105,12 +177,21 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
     print('InteractionRepositoryImpl: Loading interaction data from assets...');
     try {
-      // Load JSON strings from assets
-      final ingredientsJsonString = await rootBundle.loadString(
-        'assets/data/active_ingredients.json',
+      // Determine which interaction file to load
+      // Use the sample file in debug mode, otherwise use the full structured data
+      final interactionAssetPath =
+          kDebugMode
+              ? 'drug_interactions_sample_data.json' // Use sample for debugging
+              : 'assets/drug_interactions_structured_data.json'; // Use full data for release
+
+      print(
+        'InteractionRepositoryImpl: Loading interaction file: $interactionAssetPath',
       );
+
+      // Load JSON strings from assets
+      // Removed loading active_ingredients.json
       final interactionsJsonString = await rootBundle.loadString(
-        'assets/data/drug_interactions.json',
+        interactionAssetPath,
       );
       final medIngredientsJsonString = await rootBundle.loadString(
         'assets/data/medicine_ingredients.json',
@@ -120,27 +201,29 @@ class InteractionRepositoryImpl implements InteractionRepository {
       final parsedData = await compute(
         _parseInteractionDataIsolate,
         _ParseInteractionDataParams(
-          ingredientsJsonString: ingredientsJsonString,
+          // ingredientsJsonString removed
           interactionsJsonString: interactionsJsonString,
           medIngredientsJsonString: medIngredientsJsonString,
         ),
       );
 
       // Assign parsed data to internal state
-      _activeIngredients = parsedData.activeIngredients;
+      // _activeIngredients assignment removed
       _allInteractions = parsedData.allInteractions;
       _medicineToIngredientsMap = parsedData.medicineToIngredientsMap;
 
       _isDataLoaded = true; // Mark data as loaded
       print('InteractionRepositoryImpl: Interaction data loaded successfully.');
-      print('Loaded ${_activeIngredients.length} active ingredients.');
-      print('Loaded ${_allInteractions.length} interactions.');
+      // print('Loaded ${_activeIngredients.length} active ingredients.'); // Removed
+      print('Loaded ${_allInteractions.length} interaction pairs.');
       print('Loaded ${_medicineToIngredientsMap.length} medicine mappings.');
 
       return const Right(unit);
-    } catch (e) {
+    } catch (e, stacktrace) {
+      // Added stacktrace for better debugging
       _isDataLoaded = false; // Ensure flag is false on error
       print('InteractionRepositoryImpl: Failed to load interaction data: $e');
+      print('Stacktrace: $stacktrace'); // Print stacktrace
       return Left(
         CacheFailure(
           message: 'Failed to load interaction data from assets: $e',
@@ -253,106 +336,88 @@ class InteractionRepositoryImpl implements InteractionRepository {
   @override
   Map<String, List<String>> get medicineToIngredientsMap =>
       _medicineToIngredientsMap;
+
+  @override
+  Future<Either<Failure, List<DrugInteraction>>> findAllInteractionsForDrug(
+    DrugEntity drug,
+  ) async {
+    print(
+      'InteractionRepositoryImpl: Finding all interactions for drug: ${drug.tradeName}',
+    );
+    // Ensure data is loaded before finding interactions
+    if (!_isDataLoaded) {
+      print(
+        'InteractionRepositoryImpl: Interaction data not loaded. Attempting load...',
+      );
+      final loadResult = await loadInteractionData();
+      if (loadResult.isLeft()) {
+        // Propagate the loading failure
+        return loadResult.fold(
+          (failure) => Left(failure),
+          (_) => Left(
+            CacheFailure(message: 'Unknown error after failed load attempt.'),
+          ),
+        );
+      }
+      // Check again if data is loaded after attempt
+      if (!_isDataLoaded) {
+        return Left(
+          CacheFailure(
+            message: 'Interaction data is still not loaded after attempt.',
+          ),
+        );
+      }
+      print(
+        'InteractionRepositoryImpl: Data loaded successfully. Proceeding with interaction check.',
+      );
+    }
+
+    try {
+      final drugTradeNameLower = drug.tradeName.toLowerCase().trim();
+      final drugIngredients =
+          _medicineToIngredientsMap[drugTradeNameLower] ??
+          _extractIngredientsFromString(drug.active);
+
+      if (drugIngredients.isEmpty) {
+        print(
+          'InteractionRepositoryImpl: No ingredients found for drug: ${drug.tradeName}',
+        );
+        return const Right([]); // No ingredients, so no interactions
+      }
+
+      final Set<String> drugIngredientsSet =
+          drugIngredients.toSet(); // For efficient lookup
+      List<DrugInteraction> foundInteractions = [];
+
+      // Iterate through all loaded interactions
+      for (final interaction in _allInteractions) {
+        // Check if either ingredient in the interaction matches any of the drug's ingredients
+        if (drugIngredientsSet.contains(interaction.ingredient1) ||
+            drugIngredientsSet.contains(interaction.ingredient2)) {
+          foundInteractions.add(interaction);
+        }
+      }
+
+      // No need to remove duplicates here as we are iterating through the master list once.
+      // Duplicates were handled during loading if the source had them.
+
+      print(
+        'InteractionRepositoryImpl: Found ${foundInteractions.length} interactions for ${drug.tradeName}.',
+      );
+      return Right(foundInteractions);
+    } catch (e) {
+      print(
+        'InteractionRepositoryImpl: Error finding interactions for drug ${drug.tradeName}: $e',
+      );
+      return Left(
+        CacheFailure(
+          message: 'Failed to find interactions for drug ${drug.tradeName}: $e',
+        ),
+      );
+    }
+  }
 }
 
 // --- Helper Data Models for JSON Parsing ---
-// These models match the JSON structure exactly.
-
-class _ActiveIngredientModel {
-  final String name;
-  final String? arabicName;
-  final List<String>? alternativeNames;
-
-  _ActiveIngredientModel({
-    required this.name,
-    this.arabicName,
-    this.alternativeNames,
-  });
-
-  factory _ActiveIngredientModel.fromJson(Map<String, dynamic> json) {
-    return _ActiveIngredientModel(
-      name: json['name'] as String? ?? '', // Handle potential null
-      arabicName: json['arabic_name'] as String?,
-      alternativeNames:
-          (json['alternative_names'] as List<dynamic>?)
-              ?.map((e) => e.toString())
-              .toList(),
-    );
-  }
-
-  // Convert to Domain Entity
-  ActiveIngredient toEntity() {
-    return ActiveIngredient(
-      name: name.toLowerCase().trim(), // Standardize name
-      arabicName: arabicName ?? '',
-      alternativeNames:
-          alternativeNames?.map((e) => e.toLowerCase().trim()).toList() ?? [],
-    );
-  }
-}
-
-class _DrugInteractionModel {
-  final String ingredient1;
-  final String ingredient2;
-  final String severity; // Read as string first
-  final String? type; // Read as string first
-  final String effect;
-  final String? arabicEffect;
-  final String recommendation;
-  final String? arabicRecommendation;
-
-  _DrugInteractionModel({
-    required this.ingredient1,
-    required this.ingredient2,
-    required this.severity,
-    this.type,
-    required this.effect,
-    this.arabicEffect,
-    required this.recommendation,
-    this.arabicRecommendation,
-  });
-
-  factory _DrugInteractionModel.fromJson(Map<String, dynamic> json) {
-    return _DrugInteractionModel(
-      ingredient1: json['ingredient1'] as String? ?? '',
-      ingredient2: json['ingredient2'] as String? ?? '',
-      severity: json['severity'] as String? ?? 'unknown',
-      type: json['type'] as String?,
-      effect: json['effect'] as String? ?? '',
-      arabicEffect: json['arabic_effect'] as String?,
-      recommendation: json['recommendation'] as String? ?? '',
-      arabicRecommendation: json['arabic_recommendation'] as String?,
-    );
-  }
-
-  // Convert to Domain Entity
-  DrugInteraction toEntity() {
-    InteractionSeverity severityEnum;
-    try {
-      severityEnum = InteractionSeverity.values.byName(severity.toLowerCase());
-    } catch (_) {
-      severityEnum = InteractionSeverity.unknown; // Default if parsing fails
-    }
-
-    InteractionType typeEnum;
-    try {
-      typeEnum =
-          type != null
-              ? InteractionType.values.byName(type!.toLowerCase())
-              : InteractionType.unknown;
-    } catch (_) {
-      typeEnum = InteractionType.unknown; // Default if parsing fails
-    }
-
-    return DrugInteraction(
-      ingredient1: ingredient1.toLowerCase().trim(), // Standardize
-      ingredient2: ingredient2.toLowerCase().trim(), // Standardize
-      severity: severityEnum,
-      type: typeEnum,
-      effect: effect,
-      arabicEffect: arabicEffect ?? '',
-      recommendation: recommendation,
-      arabicRecommendation: arabicRecommendation ?? '',
-    );
-  }
-}
+// Removed _ActiveIngredientModel and _DrugInteractionModel as they are replaced
+// by _RawInteractionEntryModel and _ParsedInteractionModel used within the isolate function.

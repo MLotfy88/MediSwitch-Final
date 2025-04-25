@@ -7,6 +7,8 @@ class DrugEntity extends Equatable {
   final String price;
   final String? oldPrice; // Add optional old price field
   final String mainCategory;
+  final String? category; // Add optional category field
+  final String? category_ar; // Add optional Arabic category field
   final String active;
   final String company;
   final String dosageForm;
@@ -23,6 +25,8 @@ class DrugEntity extends Equatable {
     required this.price,
     this.oldPrice, // Add to constructor
     required this.mainCategory,
+    this.category, // Add to constructor
+    this.category_ar, // Add to constructor
     required this.active,
     required this.company,
     required this.dosageForm,
@@ -42,6 +46,8 @@ class DrugEntity extends Equatable {
       price: '',
       oldPrice: null, // Initialize as null
       mainCategory: '',
+      category: null, // Initialize as null
+      category_ar: null, // Initialize as null
       active: '',
       company: '',
       dosageForm: '',
@@ -61,6 +67,8 @@ class DrugEntity extends Equatable {
     price,
     oldPrice, // Add to props
     mainCategory,
+    category, // Add to props
+    category_ar, // Add to props
     active,
     company,
     dosageForm,

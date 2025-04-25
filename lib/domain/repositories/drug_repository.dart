@@ -40,4 +40,10 @@ abstract class DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> getPopularDrugs({
     required int limit,
   });
+
+  /// Finds drugs with the exact same active ingredients.
+  Future<Either<Failure, List<DrugEntity>>> findSimilars(DrugEntity drug);
+
+  /// Finds drugs with a different active ingredient but the same category.
+  Future<Either<Failure, List<DrugEntity>>> findAlternatives(DrugEntity drug);
 }

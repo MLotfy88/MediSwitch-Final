@@ -160,5 +160,43 @@
   },
   "plansUnavailable": "Subscription plans are currently unavailable.",
   "restorePurchases": "Restore Purchases",
-  "descriptionTitle": "Description"
+  "descriptionTitle": "Description",
+  "errorFetchingInteractions": "Error fetching interactions",
+  "@errorFetchingInteractions": {
+    "description": "Error message shown when fetching drug interactions fails in the details screen dialog."
+  },
+  "drugInteractionsDialogTitle": "Interactions for {drugName}",
+  "@drugInteractionsDialogTitle": {
+    "description": "Title for the dialog showing drug interactions for a specific drug.",
+    "placeholders": {
+      "drugName": {
+        "type": "String",
+        "example": "Panadol Extra"
+      }
+    }
+  },
+  "noInteractionsFound": "No significant interactions found for this drug.",
+  "@noInteractionsFound": {
+    "description": "Message shown in the interactions dialog when no interactions are found."
+  },
+  "closeButton": "Close",
+  "@closeButton": {
+    "description": "Label for the close button in dialogs."
+  },
+  "similarsTitle": "Similars (Same Active Ingredient)",
+  "@similarsTitle": {
+    "description": "Title for the Similars section in the drug details alternatives tab."
+  },
+  "alternativesTitle": "Alternatives (Same Therapeutic Category)",
+  "@alternativesTitle": {
+    "description": "Title for the Alternatives section in the drug details alternatives tab."
+  },
+  "noSimilarsFound": "No similars available.",
+  "@noSimilarsFound": {
+    "description": "Message shown when no similar drugs (same active ingredient) are found."
+  },
+  "noAlternativesFoundMsg": "No alternatives available.",
+  "@noAlternativesFoundMsg": {
+    "description": "Message shown when no alternative drugs (same category, different active ingredient) are found."
+  }
 }

@@ -23,6 +23,9 @@ class DatabaseHelper {
   static const String colPrice = 'price';
   static const String colOldPrice = 'oldPrice'; // Add column name constant
   static const String colMainCategory = 'mainCategory';
+  static const String colCategory = 'category'; // Add category column name
+  static const String colCategoryAr =
+      'category_ar'; // Add category_ar column name
   static const String colActive = 'active';
   static const String colCompany = 'company';
   static const String colDosageForm = 'dosageForm';
@@ -60,6 +63,8 @@ class DatabaseHelper {
             $colPrice TEXT,
             $colOldPrice TEXT, -- Add oldPrice column
             $colMainCategory TEXT,
+            $colCategory TEXT, -- Add category column
+            $colCategoryAr TEXT, -- Add category_ar column
             $colActive TEXT,
             $colCompany TEXT,
             $colDosageForm TEXT,
@@ -112,6 +117,8 @@ class DatabaseHelper {
               colPrice,
               colOldPrice,
               colMainCategory,
+              colCategory, // Add category to list of valid columns
+              colCategoryAr, // Add category_ar to list of valid columns
               colActive,
               colCompany,
               colDosageForm,
@@ -149,6 +156,8 @@ class DatabaseHelper {
       colPrice,
       colOldPrice,
       colMainCategory,
+      colCategory, // Add category to selected columns
+      colCategoryAr, // Add category_ar to selected columns
       colActive,
       colCompany,
       colDosageForm,

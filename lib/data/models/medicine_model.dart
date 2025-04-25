@@ -95,7 +95,10 @@ class MedicineModel {
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
       DatabaseHelper.colConcentration: concentration,
       DatabaseHelper.colImageUrl: imageUrl,
-      // Note: Fields like mainCategoryAr, category, categoryAr, dosageFormAr, usageAr are not mapped as they are not in the DB schema defined in DatabaseHelper
+      // Add category fields to the map (assuming columns exist in DB schema)
+      DatabaseHelper.colCategory: category,
+      DatabaseHelper.colCategoryAr: categoryAr,
+      // Note: Fields like mainCategoryAr, dosageFormAr, usageAr are still not mapped
     };
   }
 
@@ -110,9 +113,11 @@ class MedicineModel {
       price: map[DatabaseHelper.colPrice]?.toString() ?? '',
       active: map[DatabaseHelper.colActive]?.toString() ?? '',
       mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
-      mainCategoryAr: '', // Not stored
-      category: '', // Not stored
-      categoryAr: '', // Not stored
+      mainCategoryAr: '', // Not stored (or read if added to DB)
+      category:
+          map[DatabaseHelper.colCategory]?.toString() ?? '', // Read from map
+      categoryAr:
+          map[DatabaseHelper.colCategoryAr]?.toString() ?? '', // Read from map
       company: map[DatabaseHelper.colCompany]?.toString() ?? '',
       dosageForm: map[DatabaseHelper.colDosageForm]?.toString() ?? '',
       dosageFormAr: '', // Not stored
@@ -139,6 +144,12 @@ class MedicineModel {
       mainCategory: mainCategory,
       active: active,
       company: company,
+      category:
+          category.isNotEmpty ? category : null, // Pass category if available
+      category_ar:
+          categoryAr.isNotEmpty
+              ? categoryAr
+              : null, // Pass categoryAr if available
       dosageForm: dosageForm,
       concentration: concentration ?? 0.0,
       unit: unit,

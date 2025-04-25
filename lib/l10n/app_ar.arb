@@ -160,5 +160,43 @@
   },
   "plansUnavailable": "خطط الاشتراك غير متاحة حالياً.",
   "restorePurchases": "استعادة المشتريات السابقة",
-  "descriptionTitle": "الوصف"
+  "descriptionTitle": "الوصف",
+  "errorFetchingInteractions": "خطأ في جلب التفاعلات",
+  "@errorFetchingInteractions": {
+    "description": "رسالة الخطأ التي تظهر عند فشل جلب التفاعلات الدوائية في مربع حوار شاشة التفاصيل."
+  },
+  "drugInteractionsDialogTitle": "التفاعلات الخاصة بـ {drugName}",
+  "@drugInteractionsDialogTitle": {
+    "description": "عنوان مربع الحوار الذي يعرض التفاعلات الدوائية لدواء معين.",
+    "placeholders": {
+      "drugName": {
+        "type": "String",
+        "example": "بنادول اكسترا"
+      }
+    }
+  },
+  "noInteractionsFound": "لم يتم العثور على تفاعلات مهمة لهذا الدواء.",
+  "@noInteractionsFound": {
+    "description": "الرسالة التي تظهر في مربع حوار التفاعلات عندما لا يتم العثور على تفاعلات."
+  },
+  "closeButton": "إغلاق",
+  "@closeButton": {
+    "description": "تسمية زر الإغلاق في مربعات الحوار."
+  },
+  "similarsTitle": "المثائل (نفس المادة الفعالة)",
+  "@similarsTitle": {
+    "description": "عنوان قسم المثائل في تبويب البدائل بصفحة تفاصيل الدواء."
+  },
+  "alternativesTitle": "البدائل (نفس الفئة العلاجية)",
+  "@alternativesTitle": {
+    "description": "عنوان قسم البدائل في تبويب البدائل بصفحة تفاصيل الدواء."
+  },
+  "noSimilarsFound": "لا توجد مثائل متاحة.",
+  "@noSimilarsFound": {
+    "description": "الرسالة التي تظهر عند عدم العثور على أدوية مثيلة (نفس المادة الفعالة)."
+  },
+  "noAlternativesFoundMsg": "لا توجد بدائل متاحة.",
+  "@noAlternativesFoundMsg": {
+    "description": "الرسالة التي تظهر عند عدم العثور على أدوية بديلة (نفس الفئة، مادة فعالة مختلفة)."
+  }
 }
