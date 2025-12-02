@@ -725,3 +725,154 @@ class DrugDownloadView(ListAPIView):
     serializer_class = DrugSerializer
     permission_classes = [AllowAny] # Allow any client (the app) to access this
     pagination_class = None # Return all drugs at once, no pagination
+# Add to views.py after existing views
+
+from decimal import Decimal
+from django.utils import timezone
+from datetime import datetime
+
+class BulkUpsertDrugsView(views.APIView):
+    """
+    Bulk insert or update drugs from scraped data.
+    Used by GitHub Actions for daily updates.
+    Accepts a JSON array of drug objects.
+    """
+    permission_classes = [permissions.IsAdminUser]
+    
+    def post(self, request, *args, **kwargs):
+        drugs_data = request.data.get('drugs', [])
+        
+        if not isinstance(drugs_data, list):
+            return Response(
+                {"error": "Expected 'drugs' to be an array"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        
+        stats = {
+            'total': len(drugs_data),
+            'created': 0,
+            'updated': 0,
+            'errors': []
+        }
+        
+        for index, drug_data in enumerate(drugs_data):
+            try:
+                # Extract and validate trade_name (required)
+                trade_name = drug_data.get('trade_name', '').strip()
+                if not trade_name:
+                    stats['errors'].append(f"Row {index}: Missing trade_name")
+                    continue
+                
+                # Parse price fields
+                try:
+                    price = Decimal(str(drug_data.get('price', 0)))
+                    old_price = Decimal(str(drug_data.get('old_price', 0))) if drug_data.get('old_price') else None
+                except (ValueError, InvalidOperation):
+                    stats['errors'].append(f"Row {index}: Invalid price format")
+                    continue
+                
+                # Parse date if exists
+                last_price_update = None
+                if drug_data.get('last_price_update'):
+                    try:
+                        # Try dd/mm/yyyy format
+                        date_str = str(drug_data['last_price_update'])
+                        last_price_update = datetime.strptime(date_str, '%d/%m/%Y').date()
+                    except ValueError:
+                        try:
+                            # Try yyyy-mm-dd format
+                            last_price_update = datetime.strptime(date_str, '%Y-%m-%d').date()
+                        except ValueError:
+                            pass  # Use None if parsing fails
+                
+                # Parse visits
+                visits = int(drug_data.get('visits', 0)) if drug_data.get('visits') else 0
+                
+                # Prepare drug data
+                drug_fields = {
+                    'trade_name': trade_name,
+                    'arabic_name': drug_data.get('arabic_name', ''),
+                    'price': price,
+                    'old_price': old_price,
+                    'active_ingredients': drug_data.get('active', ''),
+                    'main_category': drug_data.get('main_category', ''),
+                    'main_category_ar': drug_data.get('main_category_ar', ''),
+                    'category': drug_data.get('category', ''),
+                    'category_ar': drug_data.get('category_ar', ''),
+                    'company': drug_data.get('company', ''),
+                    'dosage_form': drug_data.get('dosage_form', ''),
+                    'dosage_form_ar': drug_data.get('dosage_form_ar', ''),
+                    'unit': drug_data.get('unit', '1'),
+                    'usage': drug_data.get('usage', ''),
+                    'usage_ar': drug_data.get('usage_ar', ''),
+                    'description': drug_data.get('description', ''),
+                    'concentration': drug_data.get('concentration', ''),
+                    'visits': visits,
+                    'last_price_update': last_price_update,
+                }
+                
+                # Use update_or_create for upsert behavior
+                drug, created = Drug.objects.update_or_create(
+                    trade_name__iexact=trade_name,
+                    defaults=drug_fields
+                )
+                
+                if created:
+                    stats['created'] += 1
+                else:
+                    stats['updated'] += 1
+                    
+            except Exception as e:
+                stats['errors'].append(f"Row {index} ({drug_data.get('trade_name', 'unknown')}): {str(e)}")
+        
+        return Response({
+            "message": "Bulk upsert completed",
+            "statistics": stats
+        }, status=status.HTTP_200_OK)
+
+
+class DrugSyncView(views.APIView):
+    """
+    Returns drugs updated since a specific date.
+    Used by Flutter app for incremental sync.
+    Query param: ?since=2025-12-01 (ISO format YYYY-MM-DD)
+    """
+    permission_classes = [permissions.AllowAny]
+    
+    def get(self, request, *args, **kwargs):
+        since_param = request.GET.get('since')
+        
+        if not since_param:
+            return Response(
+                {"error": "Missing 'since' parameter. Format: YYYY-MM-DD or dd/mm/yyyy"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Parse date
+        try:
+            # Try ISO format first (YYYY-MM-DD)
+            if '-' in since_param and len(since_param.split('-')[0]) == 4:
+                since_date = datetime.strptime(since_param, '%Y-%m-%d')
+            # Try dd/mm/yyyy format
+            elif '/' in since_param:
+                since_date = datetime.strptime(since_param, '%d/%m/%Y')
+            else:
+                raise ValueError("Invalid date format")
+                
+        except ValueError:
+            return Response(
+                {"error": "Invalid date format. Use YYYY-MM-DD or dd/mm/yyyy"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Query drugs updated after the given date
+        drugs = Drug.objects.filter(updated_at__gte=since_date).order_by('-updated_at')
+        
+        # Serialize
+        serializer = DrugSerializer(drugs, many=True)
+        
+        return Response({
+            "count": drugs.count(),
+            "since": since_param,
+            "drugs": serializer.data
+        }, status=status.HTTP_200_OK)

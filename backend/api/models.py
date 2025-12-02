@@ -166,6 +166,10 @@ class Drug(models.Model):
     usage_ar = models.CharField(max_length=100, blank=True, help_text="Arabic usage description")
     description = models.TextField(blank=True, help_text="Detailed description or indications")
     last_price_update = models.DateField(null=True, blank=True, help_text="Date the price was last updated")
+    
+    # Additional fields from scraped data
+    concentration = models.CharField(max_length=100, blank=True, help_text="Drug concentration (e.g., 120mg/5ml)")
+    visits = models.IntegerField(default=0, help_text="Number of visits/views on source website")
 
     # Timestamps for tracking and synchronization
     created_at = models.DateTimeField(auto_now_add=True)

@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+MediSwitch Drug Scraper
+Automated tool to scrape drug prices from dwaprices.com
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -5,18 +11,39 @@ import re
 import time
 import json
 import sys
+import random
+from datetime import datetime
 
 # --- Configuration ---
 LOGIN_URL = "https://dwaprices.com/signin.php"
 SERVER_URL = "https://dwaprices.com/server.php"
-TARGET_URL = "https://dwaprices.com/lastmore.php"
 OUTPUT_FILE = "meds_updated.csv"
+LOG_FILE = "scraper_log.txt"
 
-# User Credentials (provided by user)
+# User Credentials
 PHONE = "01558166440"
 TOKEN = "bfwh2025-03-17"
 
-# Regex for Concentration Extraction (from previous script)
+# Scraping Settings
+BATCH_SIZE = 100  # Number of records per request
+MAX_RECORDS = None  # Maximum records to fetch (set to None for all records)
+MIN_DELAY = 2.0   # Minimum delay between requests (seconds)
+MAX_DELAY = 5.0   # Maximum delay between requests (seconds)
+LONG_PAUSE_EVERY = 10  # Add longer pause every N batches
+LONG_PAUSE_MIN = 8.0   # Minimum long pause duration
+LONG_PAUSE_MAX = 15.0  # Maximum long pause duration
+MAX_RETRIES = 3   # Max retry attempts for failed requests
+
+# User Agents Pool (for rotation)
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+]
+
+# Regex for Concentration Extraction
 CONCENTRATION_REGEX = re.compile(
     r"""
     (                          # Start capturing group 1
@@ -32,6 +59,14 @@ CONCENTRATION_REGEX = re.compile(
     re.IGNORECASE | re.VERBOSE
 )
 
+def log(message):
+    """Log message to console and file"""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_msg = f"[{timestamp}] {message}"
+    print(log_msg)
+    with open(LOG_FILE, 'a', encoding='utf-8') as f:
+        f.write(log_msg + '\n')
+
 def extract_concentration(name):
     """Extracts concentration from drug name using regex."""
     if not isinstance(name, str):
@@ -41,9 +76,25 @@ def extract_concentration(name):
         return match.group(1).strip()
     return None
 
+def get_random_user_agent():
+    """Return a random user agent from the pool"""
+    return random.choice(USER_AGENTS)
+
+def random_delay(is_long=False):
+    """Sleep for a random duration to avoid detection"""
+    if is_long:
+        delay = random.uniform(LONG_PAUSE_MIN, LONG_PAUSE_MAX)
+        log(f"⏸ Taking a longer break ({delay:.1f}s) to simulate natural behavior...")
+    else:
+        delay = random.uniform(MIN_DELAY, MAX_DELAY)
+    time.sleep(delay)
+
 def login(session):
     """Performs the two-step login process."""
-    print("Attempting to login...")
+    log("Attempting to login...")
+    
+    # Update User-Agent
+    session.headers.update({'User-Agent': get_random_user_agent()})
     
     # Step 1: Check Credentials
     payload_step1 = {
@@ -53,19 +104,19 @@ def login(session):
     }
     
     try:
-        response1 = session.post(SERVER_URL, data=payload_step1)
+        response1 = session.post(SERVER_URL, data=payload_step1, timeout=15)
         response1.raise_for_status()
         
         try:
             data1 = response1.json()
         except json.JSONDecodeError:
-            print("Error: Failed to parse JSON response from server.php")
-            print("Response text:", response1.text[:200])
+            log("ERROR: Failed to parse JSON response from server.php")
+            log(f"Response text: {response1.text[:200]}")
             return False
 
         if data1.get('numrows', 0) > 0 and 'data' in data1:
             user_data = data1['data'][0]
-            print(f"Credentials verified for user: {user_data.get('name')}")
+            log(f"✓ Credentials verified for user: {user_data.get('name')}")
             
             # Step 2: Set Session
             payload_step2 = {
@@ -78,150 +129,257 @@ def login(session):
                 'IDpricesub': user_data.get('id')
             }
             
-            response2 = session.post(LOGIN_URL, data=payload_step2)
+            response2 = session.post(LOGIN_URL, data=payload_step2, timeout=15)
             response2.raise_for_status()
             
-            # Verify login by checking if we are redirected or if session cookies are set
-            # For now, assume success if no error.
-            print("Session established successfully.")
+            log("✓ Session established successfully.")
             return True
         else:
-            print("Login failed: Invalid credentials or no data returned.")
+            log("ERROR: Login failed - Invalid credentials or no data returned.")
             return False
             
-    except Exception as e:
-        print(f"Login error: {e}")
+    except requests.RequestException as e:
+        log(f"ERROR: Login failed - {e}")
         return False
 
-def scrape_data(session):
-    """Scrapes data from the target page."""
-    print(f"Accessing {TARGET_URL}...")
+def fetch_batch(session, offset, retry_count=0):
+    """Fetch a batch of records using AJAX call"""
+    try:
+        # Rotate User-Agent occasionally
+        if offset % 500 == 0 and offset > 0:
+            session.headers.update({'User-Agent': get_random_user_agent()})
+        
+        payload = {
+            'lastprices': offset
+        }
+        
+        response = session.post(SERVER_URL, data=payload, timeout=20)
+        response.raise_for_status()
+        
+        data = response.json()
+        return data
+        
+    except requests.RequestException as e:
+        if retry_count < MAX_RETRIES:
+            log(f"⚠ Request failed (attempt {retry_count + 1}/{MAX_RETRIES}): {e}")
+            time.sleep(2 ** retry_count)  # Exponential backoff
+            return fetch_batch(session, offset, retry_count + 1)
+        else:
+            log(f"ERROR: Failed to fetch batch at offset {offset} after {MAX_RETRIES} retries")
+            return None
+    except json.JSONDecodeError as e:
+        log(f"ERROR: Failed to parse JSON at offset {offset}: {e}")
+        return None
+
+def save_incremental(all_meds, batch_num):
+    """Save data incrementally to the same file to avoid data loss"""
+    if not all_meds:
+        return
+    
+    output_file = "meds_updated.csv"
+    processed_meds = []
+    
+    for item in all_meds:
+        trade_name = item.get('name', '')
+        concentration = extract_concentration(trade_name)
+        date_updated = item.get('Date_updated')
+        
+        if date_updated:
+            try:
+                timestamp = int(date_updated) / 1000
+                date_str = datetime.fromtimestamp(timestamp).strftime('%d/%m/%Y')
+            except:
+                date_str = ''
+        else:
+            date_str = ''
+        
+        med_data = {
+            'trade_name': trade_name,
+            'arabic_name': item.get('arabic', ''),
+            'price': item.get('price', ''),
+            'old_price': item.get('oldprice', ''),
+            'active': item.get('active', ''),
+            'company': item.get('company', ''),
+            'description': item.get('description', ''),
+            'dosage_form': item.get('dosage_form', ''),
+            'concentration': concentration,
+            'last_price_update': date_str,
+            'visits': item.get('visits', ''),
+            'id': item.get('id', '')
+        }
+        processed_meds.append(med_data)
+    
+    df = pd.DataFrame(processed_meds)
+    df.to_csv(output_file, index=False, encoding='utf-8-sig')
+    log(f"💾 Auto-saved {len(df)} records to {output_file} (Batch {batch_num})")
+
+def scrape_all_data(session):
+    """Scrapes all data from the website using pagination"""
+    log("Starting data scraping...")
     
     all_meds = []
-    page = 0
-    has_more = True
+    offset = 0
+    total_records = None
     
-    # The page seems to load more data via scrolling or a button. 
-    # Based on standard PHP pagination, it might use a query param like ?page=X or ?offset=X.
-    # However, the user said "click button to show rest". This often implies AJAX or a simple link.
-    # Let's try to fetch the first page and see if we can find the "next" link or if it's all in one go (unlikely for large lists).
-    # If it's a "Load More" button, it usually triggers an AJAX call.
-    # Without inspecting the live page with DevTools, it's hard to know the exact pagination mechanism.
-    # Strategy: 
-    # 1. Fetch main page.
-    # 2. Parse the table.
-    # 3. Look for a "Load More" button and see what it does (e.g. data-page attribute, or href).
-    
-    # For this initial version, let's fetch the main page and try to find the pagination logic dynamically.
-    
-    response = session.get(TARGET_URL)
-    if response.status_code != 200:
-        print(f"Failed to load page: {response.status_code}")
+    # First request to get total count
+    first_batch = fetch_batch(session, offset)
+    if not first_batch:
+        log("ERROR: Failed to fetch initial batch")
         return []
     
-    # Debug: Save HTML to file
-    with open("lastmore_debug.html", "w", encoding="utf-8") as f:
-        f.write(response.text)
-    print("Saved page content to lastmore_debug.html")
-
-    soup = BeautifulSoup(response.text, 'html.parser')
+    total_records = first_batch.get('numrows', 0)
+    log(f"✓ Total records available: {total_records}")
     
-    # Find the table - based on user image, it has columns: No, Name, New Price, Old Price, Update
-    # Inspecting temp_signin.html showed tables with class 'mytblnew' or id 'tblDrug'.
-    # Let's look for a table.
-    table = soup.find('table') 
-    if not table:
-        print("No table found on the page.")
-        # Maybe it's loaded via AJAX?
-        return []
+    # Apply MAX_RECORDS limit if set
+    if MAX_RECORDS and MAX_RECORDS < total_records:
+        log(f"⚠ Limiting scrape to {MAX_RECORDS} records (user setting)")
+        total_records = MAX_RECORDS
+    
+    if 'data' in first_batch and first_batch['data']:
+        all_meds.extend(first_batch['data'])
+        log(f"✓ Fetched batch 1: {len(first_batch['data'])} records (Total: {len(all_meds)}/{total_records})")
+        # Auto-save after first batch
+        save_incremental(all_meds, 1)
+    
+    random_delay()
+    
+    # Continue fetching remaining batches
+    batch_num = 2
+    while len(all_meds) < total_records:
+        offset += BATCH_SIZE
         
-    # Extract rows
-    rows = table.find_all('tr')
-    print(f"Found {len(rows)} rows in the initial table.")
-    
-    # Process rows (skip header if exists)
-    for row in rows:
-        cols = row.find_all('td')
-        if not cols or len(cols) < 4:
-            continue
-            
-        # Structure based on image:
-        # Col 0: No
-        # Col 1: Name (HTML contains Name, Arabic Name, etc.)
-        # Col 2: New Price
-        # Col 3: Old Price
-        # Col 4: Update Date
+        batch_data = fetch_batch(session, offset)
+        if not batch_data or 'data' not in batch_data or not batch_data['data']:
+            log(f"⚠ No more data at offset {offset}, stopping.")
+            break
         
-        try:
-            # Extract Name Info
-            name_cell = cols[1]
-            # The name cell seems to contain multiple lines (English, Arabic, ID, etc.)
-            # We need to clean it.
-            full_text = name_cell.get_text(separator=' ', strip=True)
-            
-            # Try to extract the English name (usually the first part or bolded)
-            # Looking at the image: "Tineacure 1% top. cream 20 gm (2947) ..."
-            # Let's take the text before the first parenthesis or Arabic char?
-            # Simple approach: Take the whole text for now, or try to find the <a> tag inside which usually has the name.
-            name_link = name_cell.find('a')
-            if name_link:
-                trade_name = name_link.get_text(strip=True)
-                # If link text is empty, fallback to cell text
-                if not trade_name:
-                    trade_name = full_text.split('(')[0].strip() # Heuristic
-            else:
-                trade_name = full_text.split('(')[0].strip()
-                
-            # Extract Prices
-            new_price = cols[2].get_text(strip=True)
-            old_price = cols[3].get_text(strip=True)
-            update_date = cols[4].get_text(strip=True)
-            
-            # Extract Concentration
-            concentration = extract_concentration(trade_name)
-            
-            med_data = {
-                'trade_name': trade_name,
-                'price': new_price,
-                'old_price': old_price,
-                'last_price_update': update_date,
-                'concentration': concentration,
-                # 'full_text': full_text # Debugging
-            }
-            all_meds.append(med_data)
-            
-        except Exception as e:
-            print(f"Error parsing row: {e}")
-            continue
-
-    print(f"Extracted {len(all_meds)} medicines from the first page.")
+        all_meds.extend(batch_data['data'])
+        log(f"✓ Fetched batch {batch_num}: {len(batch_data['data'])} records (Total: {len(all_meds)}/{total_records})")
+        
+        # Auto-save after each batch
+        save_incremental(all_meds, batch_num)
+        
+        # Check if we reached the limit
+        if len(all_meds) >= total_records:
+            log(f"✓ Reached target of {total_records} records, stopping.")
+            break
+        
+        batch_num += 1
+        
+        # Add longer pause every N batches to simulate natural behavior
+        if batch_num % LONG_PAUSE_EVERY == 0:
+            random_delay(is_long=True)
+        else:
+            random_delay()
+        
+        # Safety break if we exceed expected total
+        if len(all_meds) > total_records + 100:
+            log("⚠ Warning: Fetched more records than expected, stopping.")
+            break
     
-    # TODO: Implement Pagination
-    # Since I can't interactively check the "Load More" button behavior without running it,
-    # I will save what I have. The user can run this and tell me if it only got 100 items (likely).
-    # If so, we'll need to update the script to handle the specific pagination of this site.
-    
+    log(f"✓ Scraping complete. Total records fetched: {len(all_meds)}")
     return all_meds
 
+def process_and_save(raw_data):
+    """Process raw data and save to CSV"""
+    log("Processing data...")
+    
+    processed_meds = []
+    
+    for item in raw_data:
+        # Extract concentration from name
+        trade_name = item.get('name', '')
+        concentration = extract_concentration(trade_name)
+        
+        # Convert date_updated (Unix timestamp in milliseconds)
+        date_updated = item.get('Date_updated')
+        if date_updated:
+            try:
+                timestamp = int(date_updated) / 1000  # Convert to seconds
+                date_str = datetime.fromtimestamp(timestamp).strftime('%d/%m/%Y')
+            except:
+                date_str = ''
+        else:
+            date_str = ''
+        
+        med_data = {
+            'trade_name': trade_name,
+            'arabic_name': item.get('arabic', ''),
+            'price': item.get('price', ''),
+            'old_price': item.get('oldprice', ''),
+            'active': item.get('active', ''),
+            'company': item.get('company', ''),
+            'description': item.get('description', ''),
+            'dosage_form': item.get('dosage_form', ''),
+            'concentration': concentration,
+            'last_price_update': date_str,
+            'visits': item.get('visits', ''),
+            'id': item.get('id', '')
+        }
+        processed_meds.append(med_data)
+    
+    # Create DataFrame
+    df = pd.DataFrame(processed_meds)
+    
+    # Save to CSV
+    log(f"Saving {len(df)} records to {OUTPUT_FILE}...")
+    df.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
+    log(f"✓ Data saved successfully to {OUTPUT_FILE}")
+    
+    # Display summary statistics
+    log("\n" + "="*60)
+    log("SUMMARY STATISTICS")
+    log("="*60)
+    log(f"Total drugs scraped: {len(df)}")
+    log(f"Drugs with concentration extracted: {df['concentration'].notna().sum()}")
+    log(f"Drugs with price updates: {df['last_price_update'].notna().sum()}")
+    log(f"Unique companies: {df['company'].nunique()}")
+    log("="*60)
+    
+    # Show sample
+    log("\nSample of scraped data (first 5 records):")
+    log(df[['trade_name', 'price', 'old_price', 'concentration', 'last_price_update']].head().to_string())
+    
+    return df
+
 def main():
+    """Main execution function"""
+    log("="*60)
+    log("MediSwitch Drug Scraper - Starting")
+    log("="*60)
+    
     session = requests.Session()
-    # Add headers to mimic a browser
     session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        'User-Agent': get_random_user_agent(),
+        'Accept': 'application/json, text/javascript, */*; q=0.01',
+        'Accept-Language': 'ar,en-US;q=0.9,en;q=0.8',
+        'X-Requested-With': 'XMLHttpRequest',  # Important for AJAX
+        'Referer': 'https://dwaprices.com/lastmore.php'
     })
     
     if login(session):
-        meds = scrape_data(session)
+        raw_data = scrape_all_data(session)
         
-        if meds:
-            df = pd.DataFrame(meds)
-            print(f"Saving {len(df)} records to {OUTPUT_FILE}...")
-            df.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
-            print("Done.")
+        if raw_data:
+            df = process_and_save(raw_data)
+            log(f"\n✓ SUCCESS: Scraping completed! {len(df)} records saved to {OUTPUT_FILE}")
+            return 0
         else:
-            print("No data extracted.")
+            log("\nERROR: No data was scraped.")
+            return 1
     else:
-        print("Aborting due to login failure.")
+        log("\nERROR: Aborting due to login failure.")
+        return 1
 
 if __name__ == "__main__":
-    main()
+    try:
+        exit_code = main()
+        sys.exit(exit_code)
+    except KeyboardInterrupt:
+        log("\n⚠ Scraping interrupted by user.")
+        sys.exit(130)
+    except Exception as e:
+        log(f"\n✗ FATAL ERROR: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)

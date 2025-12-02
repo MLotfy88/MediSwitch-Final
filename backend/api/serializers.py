@@ -65,11 +65,10 @@ class AnalyticsEventSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         # Simple creation, no complex logic needed here for now
         return AnalyticsEvent.objects.create(**validated_data)
-# Removed extraneous bracket from previous diff application
-# Serializer for Drug model (for data download)
 from .models import Drug # Import Drug model
 
 class DrugSerializer(serializers.ModelSerializer):
     class Meta:
         model = Drug
-        fields = '__all__' # Include all fields for the app's local database
+        fields = '__all__' # Include all fields including concentration and visits
+        read_only_fields = ['created_at', 'updated_at']
