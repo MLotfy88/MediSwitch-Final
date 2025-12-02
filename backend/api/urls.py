@@ -9,7 +9,9 @@ from .views import ( # Import the new view
     AddDrugsFromUploadView, # Import the add drugs view
     DrugInteractionCheckView, # Import placeholder interaction view
     DosageCalculationView, # Import placeholder dosage view
-    DrugDownloadView, # Import the new download view
+    DrugDownloadView, # Import the drug download view
+    BulkUpsertDrugsView, # Import bulk upsert view
+    DrugSyncView, # Import sync view
     admin_login_view, admin_upload_view
 )
 
@@ -27,6 +29,9 @@ urlpatterns = [
     path('data/latest/', views.LatestDataView.as_view(), name='latest_data'), # Legacy? Or needs update for sync?
     # URL for downloading the full drug list
     path('drugs/download/', views.DrugDownloadView.as_view(), name='drug-download'),
+    # NEW: Sync APIs
+    path('drugs/bulk-upsert/', views.BulkUpsertDrugsView.as_view(), name='bulk-upsert'),
+    path('drugs/sync/', views.DrugSyncView.as_view(), name='drug-sync'),
 
     # Core Functionality APIs
     path('drugs/check-interactions/', views.DrugInteractionCheckView.as_view(), name='check_interactions'),
