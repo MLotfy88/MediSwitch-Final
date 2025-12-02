@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta content='width=device-width, initial-scale=1, maximum-scale=5' name='viewport'/>
+<script src='/lib/jquery3.5.1.js'></script>
+<link href='/lib/bootstrap-4.5.3.css' rel='stylesheet'/>
+<script src='/lib/bootstrap-4.5.3.js'></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href='https://dwaprices.com/favicon.ico' rel='icon' type='image/x-icon'/>
+
+<style>
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+direction: rtl;
+text-align: right;
+}
+
+.btn{
+margin:3px;
+}
+.form-control{
+margin:5px;
+}
+
+
+.nav__container {
+display: flex;
+height:100px;
+align-items: center;
+padding: 5px;
+background: #0404B4;
+color: white;
+}
+        
+.nav__logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+.nav__logo span {
+color: #fff;
+}
+        
+.nav__links {
+ list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.nav__links li {
+display: inline;
+padding:5px;
+background:#fff;
+border-radius:3px;
+}
+
+.nav__links li:hover {
+background:#00BFFF;
+}
+
+.nav__links a {
+text-decoration: none;
+color: blue;
+font-size: 20px;
+}
+
+.menu-icon {
+display: none;
+font-size: 24px;
+cursor: pointer;
+margin-left:20px;
+}
+
+.flex-containerzz{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+width:100%;
+margin-top:1px;
+}
+         
+.flex-containerzz div{
+font-size:12px;
+color:blue;
+padding:3px;
+text-align:center;
+}
+.flex-containerzz div i{
+font-size:18px;
+margin:4px;
+}
+
+
+.beatNotification{
+box-shadow: 0 0 6px 1px rgb(0 0 0 / 23%);
+animation: 1.5s ease 0s infinite beatnn;
+}
+
+
+.mytblnew th, .mytblnew td{
+padding:5px;
+border: 1px solid black;
+}
+
+
+
+@keyframes beatnn {
+0%, 50%, 100% { transform: scale(2, 1.5); }
+30%, 80% { transform: scale(0.82, 0.95); }
+}
+
+@media only screen and (max-width:900px) {
+
+
+.nav__container {
+justify-content:space-between;
+}
+.menu-icon {
+display: block;
+}
+
+.nav__links {
+display: none;
+flex-direction: column;
+position: absolute;
+top: 60px;
+left: 0;
+background: rgba(40, 93, 223, 0.8);
+width: 100%;
+padding: 7px 0;
+text-align: center;
+z-index:999999;
+margin-bottom: 0px;
+}
+
+.nav__links.active {
+display: flex;
+}
+
+.nav__links li {
+margin: 2px auto;
+border:2px white solid;
+border-radius:5px;
+width:70%;
+background: #fff;
+}
+
+}
+</style>
+
+
+
+
+
+
+
+<nav class="nav__container">
+<div style="display:flex">
+<a href="https://dwaprices.com/" style="text-decoration:none">
+
+<div class="nav__logo" style="display:flex;font-size:15px">
+<div style="margin-right:20px">
+<img src="https://dwaprices.com/files/circlemedhome.png" style="width:40px;height:40px;border-radius:50%;" />
+</div>
+<div style="text-align:right;margin-top:0px;padding:5px">
+<span style="font-size:20px" >
+دليل دواء مصر
+</span>
+</div>
+</div>
+</a>
+
+
+<div class="togglesearcharea" style="margin:5px 20px;text-align:center">
+<img src="https://dwaprices.com/files/search3dicon.png" width="40" style="cursor:pointer" />
+<span style='font-size:11px;display:block'>
+ابحث
+</span>
+</div>
+
+
+
+</div>
+<div class="menu-icon" onclick="toggleMenu()" style="font-size:30px">☰</div>
+<ul class="nav__links" style="margin-bottom: 0px;">
+<li class="link">
+<a href="/signin.php">
+دخول
+</a>
+</li>
+
+
+ 
+
+<li class="link">
+<a href="https://dwaprices.com/listprices.php">
+زيادات الاسعار
+</a>
+</li>
+<!--
+<li class="link">
+<a href="https://dwaprices.com/astore/login.php">
+دخول اوردرات
+</a>
+</li>
+-->
+<li class="link">
+<a href="https://dwaprices.com/contact_us.php">
+اتصل بنا
+</a>
+</li>
+
+<li class="link">
+<a href="/logout.php">
+خروج
+</a>
+</li>
+
+</ul>
+</nav>
+
+<div class="flex-containerzz" style="max-width:500px;margin:5px auto">
+
+<div>
+<a style="color:#fd5c02" href="https://osttaz.com/b.php?id=27">
+<!--
+<i class='fa fa-download'></i>
+-->
+<img src='https://dwaprices.com/files/downloadicon.gif' width='40'  />
+<br>
+دليل الأدوية
+</a>
+</div>
+
+
+
+<div>
+<a style="color:#fd5c02;position:relative" href="https://dwaprices.com/lastprices.php">
+
+<img src='https://dwaprices.com/files/rocket.png' width='40'  />
+
+<span class="beatNotification" style="font-size:13px;position:absolute;top:-12px;left:2px;color:#fff;background:#fd5c02;border-radius:4px;padding:3px 4px">
+38
+</span>
+</i>
+<br>
+زيادات الاسعار
+</a>
+</div>
+
+
+
+
+<div>
+<a style="color:#fd5c02;position:relative" href="https://dwaprices.com/phsearch.php">
+
+<img src='https://dwaprices.com/files/chart.png' width='40'  />
+
+<br>
+ صيدليات اونلاين
+</a>
+</div>
+
+
+
+
+<div>
+<a style="color:#fd5c02;" href="https://dwaprices.com/signin.php">
+<!--
+<i class="fa fa-sign-in" ></i>
+-->
+<img src='https://dwaprices.com/files/lock.png' width='40'  />
+
+<br>
+دخول 
+</a>
+</div>
+
+</div>
+
+
+
+<!--
+
+<div align="center" >
+<a target="_blank" style="font-size:20px" class="btn btn-danger tracksaudiheader beatElm "  href='https://wa.me/+966532578666?text=أريد طلب أدوية من صيدلياتكم بالسعودية'>
+جديد
+<br>
+  للعملاء في المملكة العربية السعودية يمكنكم طلب الأدوية 
+  <br>
+  من وكيلنا صيدليات الجمل في السعودية بالضغط هنا
+</a>
+</div>
+
+
+-->
+
+
+
+<style>
+.searchHome{
+text-align:center;
+position:relative;
+margin:1px auto;
+height:220px;
+
+background-image: linear-gradient(to right, rgb(39 76 169 / 66%), rgb(18 21 172 / 70%)), url(https://dwaprices.com/files/medhd.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.formSX{
+padding:5px;
+max-width:600px;
+height:180px;
+border-radius: 10px;
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.searchHome div{
+margin:auto;
+width:50%;
+}
+#inputSearch{
+background:rgba(206, 246, 246, 0.4);
+width:100%;
+margin:5px auto;
+color:#fff;
+font-weight:bold;
+text-align:center;
+border:0;
+outline:0
+line-height:30px;
+font-size:22px;
+}
+#inputSearch::placeholder {
+color: #F2F2F2;
+opacity: 1;
+}
+#tblDrug {
+width:100%;
+margin-top:5px;
+border-spacing: 2px;
+border-collapse: separate;
+}
+#tblDrug tr{
+border-bottom: 1px solid #fd5c02;
+}
+#tblDrug td{
+padding:4px;
+}
+#tblDrug a{
+text-decoration:none;
+}
+td a { 
+text-decoration:none;
+display: block; 
+
+}
+   
+#tblDrug tr:hover {
+background-color:#D8D8D8;
+}
+
+.beatElm{
+box-shadow: 0 0 6px 1px rgb(0 0 0 / 23%);
+animation: 1.5s ease 0s infinite beat;
+}
+
+@keyframes beat {
+0%, 50%, 100% { transform: scale(1, 1); }
+30%, 80% { transform: scale(0.92, 0.95); }
+}
+
+   
+/*Show on mobile only*/
+@media only screen and (max-width:900px) {
+.searchHome input, .searchHome div{
+width:90%;
+}
+}
+</style>
+
+<div class="searchHome" dir="ltr" >
+
+<!--
+<div style="display:flex;font-size:10px">
+<div style="text-align:left">
+<input type="checkbox" id="alphabetical" checked style="width:20px" />
+ Alphabetical Order
+<span id="resultzCount" style="font-size:10px;margin-left:10px;font-weight:bold;color:red">00</span>
+
+</div> 
+<div style="text-align:left">
+<input type="checkbox" id="popularity" style="width:20px" />
+ Popularity Order   
+</div> 
+</div>
+-->
+
+
+
+<div class="formSX">
+<div style="width:100%;position:relative;text-align:center">
+
+<span id="resultzCount" style="display:block;font-size:12px;margin-left:10px;font-weight:bold;color:yellow"></span>
+
+
+
+
+<input id="inputSearch" name="myInput" class="form-control" type="text"  placeholder="Search"   />
+
+<!--
+<form class="d-flex" method="post" action="result.php" >
+<button type="submit" class="btn btn-success saveSearch" style="width:150px">ابحث</button>
+<input id="postSearch" name="srch"  type="text" class="form-control me-2" pattern=".{2,}" required style="text-align:center;font-size:18px" placeholder="  اسم الدواء  ">
+</form>
+-->
+
+
+<!--
+<p class="hntzzz" style="font-size:15px;color:white;margin-bottom:1px">
+    خاصية البحث بالاسعار المحدثة تعمل مع المشتركين فقط
+   
+    <a href="https://dwaprices.com/contact_us.php" style="color:yellow">
+           للاشتراك اضغط هنا 
+    </a><br>
+      <a href="https://play.google.com/store/apps/details?id=com.dwaprices.app" style="color:yellow">
+أو حمل تطبيقنا الرسمي ميد هوم اضغط هنا
+</a>
+</p>
+-->
+<div class="underinput">
+<div style="display:flex;gap:3px;justify-content: center">
+<a style="margin:5px" class="storeButtonsAppleAndroid" href="https://apps.apple.com/us/app/med-home/id6747606536" target="blank">
+<img src="https://dwaprices.com/files/appstore.png" height="30" width="130" class="appBtnPlay" />
+</a>
+<a style="margin:5px" class="storeButtonsAppleAndroid" href="https://play.google.com/store/apps/details?id=com.dwaprices.app" target="blank">
+<img src="https://dwaprices.com/files/googleplay.png" height="35" width="130" class="appBtnPlay" />
+</a>
+</div>
+
+
+
+
+<a href="https://dwaprices.com/database.php" class="btn btn-danger buyDBElm beatElm" style="font-size:17px;font-weight:bold">
+    لطلب شراء قاعدة البيانات اضغط هنا
+</a>
+
+<br>
+
+<a href="https://osttaz.com/b.php?id=27" class="btn btn-success" style="font-size:17px;font-weight:bold">
+ تحميل دليل الادوية للموبايل مجانا
+</a>
+
+
+
+</div>
+
+<div id="responseDiv" style="position:absolute;width:100%;top:75px;z-index:9999"></div>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<script>
+
+
+$(document).on('click', '.saveSearch', function(){
+let saveSearch       = $('#postSearch').val();
+$.ajax({
+//url:'server.php',
+type: 'POST',
+data: {
+'saveSearch' : saveSearch,
+},
+success: function(response){}
+});
+});
+
+
+//localStorage.setItem("NotShowsearchHistory","1")
+
+$(document).on('click', '.inpNamee', function(){
+$(this).select();
+document.execCommand('copy');
+});
+
+$(document).on('click', '.nameSoldTime', function(){
+let id       = $(this).attr('data-id');
+$.ajax({
+type: 'POST',
+data: {
+'nameSoldTime' : id
+},
+success: function(response){}
+});
+});
+
+
+
+
+
+
+
+
+
+if(!localStorage.getItem("searchType")){
+localStorage.setItem("searchType", 'alphabetical');
+}
+
+if(localStorage.getItem("searchType") == 'alphabetical'){
+$('#alphabetical').prop('checked',true);
+$('#popularity').prop('checked',false);
+}else{
+$('#popularity').prop('checked',true);
+$('#alphabetical').prop('checked',false);
+};
+
+
+$(document).on('click', '#alphabetical ', function(){
+$('#popularity').prop('checked',false);
+inputSearch.focus();
+localStorage.setItem("searchType", 'alphabetical');
+});
+
+$(document).on('click', '#popularity ', function(){
+$('#alphabetical').prop('checked',false);
+inputSearch.focus();
+localStorage.setItem("searchType", 'popularity');
+});
+
+$(document).on('focusout', '#inputSearch', function(){$('#inputSearch').val("");});
+
+$(document).on('keyup', '#inputSearch', function(){
+makeSearch();
+
+});
+
+$(document).on('click', '#inputSearch', function(){
+inputSearch.value = inputSearch.value.trim(); 
+makeSearch();
+//$('.flex-containerzz').slideToggle();
+
+});
+
+var order_by;
+
+function timeConverterzz(UNIX_timestamp){
+  var a = new Date(UNIX_timestamp * 1000);
+  var months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+  var year = a.getFullYear();
+  var month = months[a.getMonth()];
+  var date = a.getDate();
+ // var hour = a.getHours();
+ // var min = a.getMinutes();
+ // var sec = a.getSeconds();
+  var time = date + '/' + month + '/' + year  ;
+  return time;
+}
+
+
+
+var approvedsubJS = '';
+
+var user_groupJS = '';
+
+
+
+
+function makeSearch(){
+if($('#inputSearch').val().length > 0){
+var searchq   = $('#inputSearch').val();
+//if($('#alphabetical').is(':checked')){order_by = 'name ASC'}else{order_by = 'sold_times DESC'};
+if(localStorage.getItem("searchType") == 'alphabetical'){order_by = 'name ASC'}else{order_by = 'sold_times DESC'};
+
+$.ajax({
+url:'https://dwaprices.com/routing.php',
+type: 'POST',
+data: {
+'search'   : 1,
+'searchq'  : searchq,
+'order_by' : order_by
+},
+success: function(response){
+var resprimary = JSON.parse(response);
+var metadata   = resprimary.metadata;
+var results    = resprimary.data;
+
+if(metadata > 0){
+resultzCount.innerHTML = metadata;
+}else{
+resultzCount.innerHTML = "";
+}
+
+$('#responseDiv').html("<table id='tblDrug'></table>");
+for(i=0;i<results.length;i++){
+tblDrug.innerHTML += 
+"<tr style='padding:3px;margin:2px;'><td style='background:#F7F8E0;border-radius:5px'><a target='_blank' class='nameSoldTime' data-id='"+results[i].id+"' data-name='"+results[i].name+"' style='text-align:left; line-height: 80%;' href='" + 
+"/med" + ".php?id="+results[i].id+"' target='_blank'>"+
+"<span  style='font-size:14px;font-weight:bold;color:"+(results[i].repeated == 0 ? 'blue' : 'red')+"'>" +results[i].name.charAt(0).toUpperCase() + results[i].name.slice(1)+"</span>"+
+"<span style='color:red;font-size:10px'> ("+results[i].sold_times+")</span>"+
+"<p style='font-size:11px;font-weight:bold;color:#000;margin-bottom:1px;'>"+results[i].active.slice(0,40)+"</p>"+
+"<p style='font-size:12px;font-weight:bold;margin-bottom:1px;text-align:left;direction:rtl;color:blue;'>"+results[i].arabic+"</p></a>"+
+"<span style='font-size:10px;display:block;text-align:left;'><span style='color:red'>" +  results[i].company.slice(0,13).toUpperCase() +"</span> | "+results[i].description.slice(0,30)+"</span>"+
+"<span style='display:block;font-size:11px;margin-bottom:1px;text-align:left'><span style='color:red;font-weight:bold'>"+results[i].units+"</span> units >> u.price: "+
+"<span style='color:red;font-weight:bold'>"+(    (+results[i].price / +results[i].units).toFixed(2)       )+"</span> </span>"+
+"<span style='font-size:10px;display:block;text-align:left;'><span style='color:red'>" +  results[i].barcode +"</span> | "+results[i].visits+" v | " +results[i].sim_visits+ " sv</span>"+
+
+"<a href='https://dwaprices.com/aorder.php?id="+results[i].id+"' class='btn btn-success'> لطلب الشراء اضغط هنا </a>"+
+
+"</td>"+
+"<td style='width:24%;background:#F5DA81;padding:3px;text-align:center;margin:5px;line-height:20px;border-radius:5px'>"  +
+"<a target='_blank' href='https://dwaprices.com/" + ('med')+ ".php?id="+results[i].id+"'>"  +
+"<span style='font-size:1em;font-weight:bold;color:red;'>"+(   (+results[i].price).toFixed(2)   )+"</span><span style='font-size:10px;'> L.E.</span>"+
+"<span style='display:block;font-size:12px'>old: <del style='font-size:12px;color:#000'> "+(+(results[i].oldprice ? results[i].oldprice : results[i].price )).toFixed(2)+"</del></span></a>"+
+"<span style='font-size:10px;display:block;color:red'>"+(results[i].Date_updated ? timeConverterzz((results[i].Date_updated/1000)) : '' )+"</span>" +
+"</td></tr>"   
+}
+
+}
+
+});
+
+}else{
+$('#responseDiv').html("");
+$('#resultzCount').html("");
+//$('.flex-container').slideDown();
+
+}
+}
+
+
+$(document).on('click', '.inpNamee', function(){
+$(this).select();
+document.execCommand('copy');
+});
+</script>
+
+
+
+
+<p align="center" style="margin:2px auto">
+</p>
+
+<script>
+function toggleMenu() {
+document.querySelector(".nav__links").classList.toggle("active");
+}
+document.addEventListener("click", function (event) {
+const navLinks = document.querySelector(".nav__links");
+const menuButton = document.querySelector(".menu-icon"); // Replace with your actual button selector
+if (!navLinks.contains(event.target) && !menuButton.contains(event.target)) {
+navLinks.classList.remove("active");
+}
+});
+
+$(document).on('click', '.togglesearcharea', function(){
+$('.searchHome').slideToggle();
+//$('.google-auto-placed').slideToggle();
+ 
+});
+
+
+
+$(document).on('click', '.tracksaudiheader', function(){
+$.ajax({
+type : 'POST',
+data : {
+'tracksaudiheader'    : 1
+},success: function(response){
+}
+});
+});
+
+
+</script>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VEDDXTY9WX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VEDDXTY9WX');
+</script>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<title>
+ تسجيل دخول دليل دواء مصر drug home | dwaprices
+</title>
+<meta name="description" content=" تسجيل دخول دليل دواء مصر drug home | dwaprices">
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://dwaprices.com/signin.php" />
+<meta property="og:title" content=" تسجيل دخول دليل دواء مصر drug home | dwaprices">
+<meta property="og:description" content=" تسجيل دخول دليل دواء مصر drug home | dwaprices">
+<meta property="og:url" content="https://dwaprices.com/signin.php">
+<meta property="og:image" content="" />
+<link href='https://www.dwaprices.com/favicon.ico' rel='icon' type='image/x-icon'/>
+</head>
+<div class="container" align="center">
+
+
+
+
+<br><br><br><br>
+<div class="container" style="border:1px solid black;background:#e6e6ff;border-radius:10px;box-shadow: 0 0 4px 1px rgb(0 0 0 / 33%);max-width:300px;margin:5px auto" >
+<p style="color:red;font-size:15px">
+    أدخل رقم تليفونك المسجل ورمز الدخول
+</p>
+
+
+<input class="form-control accessPhone" type="number" style="text-align:center;border:2px solid green" placeholder=" رقم تليفونك المسجل  " />
+<input class="form-control accessTokenInput" style="text-align:center;border:2px solid green" type="password" placeholder=" اكتب هنا رمز الدخول  " />
+
+<br>
+<button class="btn btn-success accessBtn">
+        اضغط هنا للدخول
+<i class="fa fa-sign-in" ></i>
+
+</button>
+    <br>
+    
+
+    <div id="resToken" align="center"></div>
+</div>
+
+    <div id="responsDiv" align="center"></div>
+
+
+
+<div align="center">
+<p style="color:red;font-size:25px">
+    ليس لديك رمز دخول وتريد الاشتراك؟
+      <br>
+      اضغط الزر أسفله
+    👇 👇 👇
+
+</p>
+
+<a href='https://api.whatsapp.com/send?phone=+201005819455&text=أطلب تسجيل حساب في دليل دواء مصر للاستفادة من خدمات الموقع ... ما هي قيمة الاشتراك وكيفية الدفع لكم؟ ' >
+<button class='btn btn-success orderaccesstoken beatElm' style="font-size:20px">
+            اضغط هنا للاشتراك وللتواصل مع ادارة الموقع للحصول على رمز الدخول الخاص بك
+<i class='fab fa-whatsapp'></i></button>
+</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div align="center">
+<h3 style="color:red">
+    خدمات دليل دواء مصر 
+</h3>
+
+<div class="ButtonDiv container" align="center">
+
+
+
+<!--
+<div>
+<a href="https://dwaprices.com/cheapsim.php">
+<img src="https://i.imgur.com/qsdLdZz.png" width="60" />
+<br>
+<p>
+بحث عن البدائل الارخص
+</p>
+</a>
+</div>
+-->
+
+
+
+<div>
+<a href="https://dwaprices.com/search.php">
+<img src="https://i.imgur.com/tGdj95S.png" width="60" />
+<br>
+<p>
+بحث بالاسم التجاري انجليزي/عربي
+</p>
+</a>
+</div>
+
+
+
+
+
+<div>
+<a href="https://dwaprices.com/usearch.php">
+<img src="https://i.imgur.com/jIYFQqi.png" width="60" />
+<br>
+<p>
+ بحث بالاستعمال
+</p>
+</a>
+</div>
+
+
+
+
+
+<div>
+<a href="https://dwaprices.com/acsearch.php">
+<img src="https://i.imgur.com/jIYFQqi.png" width="60" />
+<br>
+<p>
+بحث بالمادة الفعالة
+</p>
+</a>
+</div>
+
+
+
+
+
+
+<div>
+<a href="https://dwaprices.com/comsearch.php">
+<img src="https://i.imgur.com/QrzDoua.png" width="60" />
+<br>
+<p>
+بحث بالشركة
+
+</p>
+</a>
+</div>
+
+
+
+
+
+
+</div>
+
+<hr>
+
+
+
+
+
+<div class="ButtonDiv container" style="background:#CEF6CE" align="center">
+
+
+
+
+<div>
+<a href="https://dwaprices.com/lastprices.php">
+<img src="https://i.imgur.com/445fXvs.png" width="60" />
+<br>
+<p>
+آخر زيادات اسعار الدواء
+الرسمية
+</p>
+</a>
+</div>
+
+<div>
+<a href="https://dwaprices.com/database.php">
+<img src="https://i.imgur.com/0IlSLGC.png" width="60" />
+<br>
+<p>
+    طلب شراء والحصول على
+قاعدة بيانات الادوية
+</p>
+</a>
+</div>
+
+
+
+<div>
+<a href="https://dwaprices.com/lastadded.php">
+<img src="https://i.imgur.com/445fXvs.png" width="60" />
+<br>
+<p>
+أحدث الأدوية التي تم تكويدها وانتاجها من شركات الدواء
+</p>
+</a>
+</div>
+
+
+<div>
+<a href="https://dwaprices.com/dl.php">
+<img src="https://i.imgur.com/yJV4Zga.png" width="60" />
+<br>
+<p>
+    تحميل
+ افضل واحدث
+الكتب الطبية
+</p>
+</a>
+</div>
+
+
+
+
+
+<div>
+<a href="https://dwaprices.com/useguide.php">
+<img src="https://i.imgur.com/pTHaTLm.png" width="60" />
+<br>
+<p>
+دليل استعمالات الادوية
+وعلاج الامراض المختلفة
+</p>
+</a>
+</div>
+
+
+<div>
+<a href="https://dwaprices.com/fewsearch.php">
+<img src="https://i.imgur.com/ibackp8.png" width="60" />
+<br>
+<p>
+طلب الادوية الناقصة
+<span style="display:block;font-size:11px">
+(قد لا تكون بعض الادوية متوافرة)
+</span>
+</p>
+</a>
+</div>
+
+</div>
+
+
+
+
+<div align="center">
+
+
+<a href='https://api.whatsapp.com/send?phone=+201005819455&text=أطلب تسجيل حساب في خدمات دليل دواء مصر ... ما هي قيمة الاشتراك وكيفية الدفع لكم؟ ' >
+
+<button class='btn btn-success orderaccesstoken beatElm' style="font-size:20px">
+            اضغط هنا للاشتراك وللتواصل مع ادارة الموقع للحصول على رمز الدخول الخاص بك
+<i class='fab fa-whatsapp'></i></button>
+</a>
+
+</div>
+
+
+</div>
+
+
+<style>
+
+.ButtonDiv{
+display:flex;
+justify-content: space-around;
+margin:5px auto;
+padding:5px;
+background:#CEF6F5;
+}
+.ButtonDiv div{
+text-align:center;
+width:30%;
+margin: 3px;
+padding: 3px;
+font-weight: bold;
+color: #fff;
+background: #210B61;
+border-radius: 10px;
+box-shadow: 0 0 6px 1px rgb(0 0 0 / 23%);
+}
+
+.ButtonDiv div a{
+color:#fff;
+}
+
+
+@media only screen and (max-width: 900px) {
+.ButtonDiv{
+flex-wrap: wrap;
+}
+}
+
+</style>
+
+<script>
+
+$(document).ready(function(){
+/*
+var subscribbedstate = false;
+
+
+if(subscribbedstate == false){
+$('.ButtonDiv').find('a').attr("href", "https://dwaprices.com/signin.php");
+}
+*/
+});
+
+</script>
+
+<hr>
+
+
+<div style="height:100px"></div>
+
+
+
+
+
+</div>
+<script>
+if(!localStorage.getItem("pharmacy_phone_price")){
+localStorage.setItem("pharmacy_phone_price","");
+localStorage.setItem("pharmacy_token_price","");   
+}else{
+$('.accessPhone').val(localStorage.getItem("pharmacy_phone_price"));
+$('.accessTokenInput').val(localStorage.getItem("pharmacy_token_price"));
+}
+
+$(document).on('click', '.accessBtn', function(){
+$.ajax({
+url:'server.php',
+type: 'POST',
+data: {
+'checkLoginForPrices' : 1,
+'phone'               : $('.accessPhone').val(),
+'tokenn'              : $('.accessTokenInput').val()
+},
+success: function(responsezz){
+var userr = JSON.parse(responsezz);
+
+if(userr.numrows > 0 ){
+
+console.log(userr.data);
+
+var usersub = userr.data[0];
+
+localStorage.setItem("pharmacy_phone_price",$('.accessPhone').val());
+localStorage.setItem("pharmacy_token_price",$('.accessTokenInput').val());
+
+///////////////////////////////// Save Session login Here //////////////////////////////////
+$.ajax({
+type: 'POST',
+data: {
+'accessgranted'     : 1,
+'namepricesub'      : usersub.name,
+'phonepricesub'     : usersub.phone,
+'tokenpricesub'     : usersub.token,
+'grouppricesub'     : usersub.usergroup,
+'approvedsub'       : usersub.approved,
+'IDpricesub'        : usersub.id
+}
+});
+
+
+responsDiv.innerHTML += "<p class='innerP' style='text-align:center;background:#fff;padding:10px;margin:2px auto;'>جاري توجيهك لصفحة آخر زيادات الأسعار اليومية بالموقع </p>"
+responsDiv.innerHTML += "<img src='https://i.imgur.com/gpmuGhv.gif' width='200' />"
+setTimeout(function(){
+$('.innerP').fadeOut();
+location.href = "https://dwaprices.com/lastprices.php"
+}, 500);
+
+
+
+}else{
+resToken.innerHTML = "<p style='color:red'> الرمز الذي قمت بإدخاله غير صحيح,, <br>  فضلاً تواصل مع مشرف الموقع لتحصل على رمز دخول مصرح من خلال الزر اسفله </p>"
+localStorage.setItem("pharmacy_phone_price","");
+localStorage.setItem("pharmacy_token_price",""); 
+}
+}
+});
+});
+
+
+
+</script>
+
+<style>
+.beatElm{
+box-shadow: 0 0 6px 1px rgb(0 0 0 / 23%);
+animation: 1.5s ease 0s infinite beat;
+}
+
+
+@keyframes beat {
+0%, 50%, 100% { transform: scale(1, 1); }
+30%, 80% { transform: scale(0.92, 0.95); }
+}
+
+.adscontainer, .searchHome, .storeButtonsAppleAndroid{
+display:none;
+}
+
+@media only screen and (max-width:900px) {
+.dateSpan{
+font-size:12px;
+}
+}
+</style>
+
+
+
+</html>

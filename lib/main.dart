@@ -117,22 +117,23 @@ Future<void> main() async {
 }
 
 // Helper function to build ThemeData
+// Helper function to build ThemeData
 ThemeData _buildThemeData(Brightness brightness) {
   final bool isDark = brightness == Brightness.dark;
 
-  // Define HSL colors based on brightness
+  // Define HSL colors based on brightness - IMPROVED CONTRAST
   final background =
       isDark
-          ? const HSLColor.fromAHSL(1.0, 222.2, 0.22, 0.18)
-          : const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98);
+          ? const HSLColor.fromAHSL(1.0, 222.2, 0.22, 0.10) // Darker background (L=0.10)
+          : const HSLColor.fromAHSL(1.0, 210, 0.20, 0.98); // Off-white background (L=0.98)
   final foreground =
       isDark
           ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
           : const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049);
   final card =
       isDark
-          ? const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.14)
-          : const HSLColor.fromAHSL(1.0, 0, 0, 1.0);
+          ? const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.18) // Lighter card (L=0.18) for contrast
+          : const HSLColor.fromAHSL(1.0, 0, 0, 1.0); // Pure white card
   final cardForeground =
       isDark
           ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
@@ -167,13 +168,13 @@ ThemeData _buildThemeData(Brightness brightness) {
             1.0,
             215,
             0.25,
-            0.85, // Further increased lightness for dark mode contrast
+            0.70, // Slightly dimmer than main text
           )
           : const HSLColor.fromAHSL(
             1.0,
             215.4,
             0.16,
-            0.30, // Further decreased lightness for light mode contrast
+            0.40, // Slightly dimmer than main text
           );
   final accent =
       isDark
