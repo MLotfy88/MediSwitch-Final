@@ -223,10 +223,18 @@ class InteractionRepositoryImpl implements InteractionRepository {
       _allInteractions = parsedData.allInteractions;
       _medicineToIngredientsMap = parsedData.medicineToIngredientsMap;
 
+      // Populate the fast lookup set
+      _ingredientsWithKnownInteractions.clear();
+      for (final interaction in _allInteractions) {
+        _ingredientsWithKnownInteractions.add(interaction.ingredient1);
+        _ingredientsWithKnownInteractions.add(interaction.ingredient2);
+      }
+
       _isDataLoaded = true; // Mark data as loaded successfully
       print('InteractionRepositoryImpl: Interaction data loaded successfully.');
       print('Loaded ${_allInteractions.length} interaction pairs.');
       print('Loaded ${_medicineToIngredientsMap.length} medicine mappings.');
+      print('Indexed ${_ingredientsWithKnownInteractions.length} ingredients with interactions.');
 
       completer.complete(const Right(unit)); // Complete the future with success
     } catch (e, stacktrace) {
@@ -355,6 +363,35 @@ class InteractionRepositoryImpl implements InteractionRepository {
   @override
   Map<String, List<String>> get medicineToIngredientsMap =>
       _medicineToIngredientsMap;
+
+  // --- Fast Lookup Optimization ---
+  final Set<String> _ingredientsWithKnownInteractions = {};
+
+  @override
+  bool hasKnownInteractions(DrugEntity drug) {
+    if (!_isDataLoaded) return false;
+
+    final drugTradeNameLower = drug.tradeName.toLowerCase().trim();
+    // Check if trade name is directly mapped
+    if (_medicineToIngredientsMap.containsKey(drugTradeNameLower)) {
+       final ingredients = _medicineToIngredientsMap[drugTradeNameLower]!;
+       for (final ingredient in ingredients) {
+         if (_ingredientsWithKnownInteractions.contains(ingredient)) {
+           return true;
+         }
+       }
+       return false;
+    }
+
+    // Fallback to parsing active string
+    final ingredients = _extractIngredientsFromString(drug.active);
+    for (final ingredient in ingredients) {
+      if (_ingredientsWithKnownInteractions.contains(ingredient)) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   @override
   Future<Either<Failure, List<DrugInteraction>>> findAllInteractionsForDrug(

@@ -29,6 +29,9 @@ abstract class InteractionRepository {
     DrugEntity drug,
   );
 
+  /// Checks if a drug has any known interactions efficiently (O(1) lookup).
+  bool hasKnownInteractions(DrugEntity drug);
+
   // Add other methods if needed, e.g., finding interactions for a single pair,
   // or getting active ingredients for a specific medicine if not handled elsewhere.
 }

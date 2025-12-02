@@ -387,7 +387,7 @@ class _SearchScreenState extends State<SearchScreen> {
             if (index < provider.filteredMedicines.length) {
               final drug = provider.filteredMedicines[index];
               return Padding(
-                padding: AppSpacing.edgeInsetsVMedium, // Use constant (12px)
+                padding: const EdgeInsets.only(bottom: AppSpacing.large), // Increased spacing (16px)
                 child: DrugCard(
                   drug: drug,
                   type: DrugCardType.detailed,

@@ -42,7 +42,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   @override
   void initState() {
     super.initState();
-    // Update tab count to 2 (Information, Alternatives) - Already done in previous step
+    // Update tab count to 2 (Information, Alternatives)
     _tabController = TabController(length: 2, vsync: this);
     _logger.i(
       "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
@@ -105,10 +105,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         duration: const Duration(seconds: 2),
       ),
     );
-    // setState(() {
-    //   _isFavorite = !_isFavorite;
-    // });
-    // TODO: Implement actual favorite logic (e.g., save to local storage/backend)
   }
 
   @override
@@ -131,23 +127,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ),
         title: Text(
           l10n.drugDetailsTitle, // Use localized string
-          // Style inherited from main theme's appBarTheme.titleTextStyle
         ),
         centerTitle: false, // Align title left (standard practice)
-        // Bottom border inherited from main theme's appBarTheme
+        actions: [
+          IconButton(
+            icon: Icon(
+              _isFavorite ? Icons.favorite : Icons.favorite_border,
+              color: _isFavorite ? Colors.red.shade500 : colorScheme.onSurface,
+            ),
+            onPressed: _toggleFavorite,
+          ),
+        ],
       ),
       // Wrap the body content with SafeArea
       body: SafeArea(
         child: CustomScrollView(
-          // Changed to CustomScrollView
           slivers: [
             SliverToBoxAdapter(
               // Wrap Header
-              child: _buildHeaderContent(context, colorScheme, textTheme, l10n),
+              child: _buildHeaderCard(context, colorScheme, textTheme, l10n),
             ),
             SliverToBoxAdapter(
               // Wrap Action Buttons
-              child: _buildActionButtons(context, colorScheme, textTheme, l10n),
+              child: _buildActionCards(context, colorScheme, textTheme, l10n),
             ),
             SliverToBoxAdapter(
               // Wrap spacing
@@ -186,12 +188,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // Updated Header Content to match design reference more closely
-  Widget _buildHeaderContent(
+  // --- NEW Header Card Design ---
+  Widget _buildHeaderCard(
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
     final double? oldPriceValue = _parsePrice(widget.drug.oldPrice);
     final double? currentPriceValue = _parsePrice(widget.drug.price);
@@ -209,49 +211,95 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     // Determine display name based on locale
     final locale = Localizations.localeOf(context);
     final isArabic = locale.languageCode == 'ar';
-    final direction = Directionality.of(context); // Get text direction
     final displayName =
         (isArabic && widget.drug.arabicName.isNotEmpty)
             ? widget.drug.arabicName
             : widget.drug.tradeName;
 
-    return Padding(
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bool hasInteractions = _interactionRepository.hasKnownInteractions(widget.drug);
+
+    return Container(
+      margin: AppSpacing.edgeInsetsAllLarge,
+      padding: AppSpacing.edgeInsetsAllLarge,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(AppSpacing.medium),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            colorScheme.surface,
+            isDark
+                ? colorScheme.surfaceVariant.withOpacity(0.3)
+                : colorScheme.surface,
+          ],
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: colorScheme.shadow.withOpacity(isDark ? 0.2 : 0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+        border: Border.all(color: colorScheme.outline.withOpacity(0.1)),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // REMOVED: Image Container
-              // Container( ... ),
-              // AppSpacing.gapHLarge, // REMOVED: Space next to image
+              // --- Image Placeholder ---
+              Container(
+                width: 72,
+                height: 72,
+                decoration: BoxDecoration(
+                  color: colorScheme.primaryContainer.withOpacity(0.4),
+                  borderRadius: BorderRadius.circular(AppSpacing.medium),
+                ),
+                child: Icon(
+                  LucideIcons.pill,
+                  size: 32,
+                  color: colorScheme.primary,
+                ),
+              ),
+              AppSpacing.gapHLarge,
               Expanded(
-                // Make text take full width now
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      displayName, // Use localized display name
+                      displayName,
                       style: textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
-                      ), // text-xl font-bold
+                      ),
                     ),
                     if (widget.drug.active.isNotEmpty)
                       Padding(
-                        padding:
-                            AppSpacing.edgeInsetsVXSmall, // Use constant (4px)
+                        padding: AppSpacing.edgeInsetsVXSmall,
                         child: Text(
-                          widget
-                              .drug
-                              .active, // Active ingredient always English
+                          widget.drug.active,
                           style: textTheme.bodyMedium?.copyWith(
-                            color:
-                                colorScheme
-                                    .primary, // Highlight active ingredient
-                          ), // text-sm text-primary
-                          textDirection:
-                              ui.TextDirection.ltr, // Ensure LTR using alias
+                            color: colorScheme.primary,
+                            fontWeight: FontWeight.w500,
+                          ),
+                          textDirection: ui.TextDirection.ltr,
+                        ),
+                      ),
+                    // Category Badge
+                    if (widget.drug.mainCategory.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(top: 4),
+                        child: CustomBadge(
+                          label:
+                              isArabic
+                                  ? (kCategoryTranslation[widget
+                                          .drug
+                                          .mainCategory] ??
+                                      widget.drug.mainCategory)
+                                  : widget.drug.mainCategory,
+                          backgroundColor: colorScheme.secondaryContainer,
+                          textColor: colorScheme.onSecondaryContainer,
                         ),
                       ),
                   ],
@@ -259,90 +307,148 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
             ],
           ),
-          AppSpacing.gapVLarge, // Use constant (16px)
+          
+          // --- Interaction Warning Banner ---
+          if (hasInteractions)
+            Padding(
+              padding: const EdgeInsets.only(top: 16),
+              child: Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  onTap: () => _showInteractionsDialog(context, l10n),
+                  borderRadius: BorderRadius.circular(8),
+                  child: Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: Colors.amber.shade500.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: Colors.amber.shade600.withOpacity(0.3),
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(
+                          LucideIcons.alertTriangle,
+                          color: Colors.amber.shade700,
+                          size: 20,
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'تنبيه تفاعلات دوائية',
+                                style: textTheme.labelLarge?.copyWith(
+                                  color: Colors.amber.shade800,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                'يوجد تفاعلات مسجلة لهذا الدواء. اضغط للتفاصيل.',
+                                style: textTheme.bodySmall?.copyWith(
+                                  color: Colors.amber.shade900,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Icon(
+                          Icons.arrow_forward_ios,
+                          size: 14,
+                          color: Colors.amber.shade800,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+
+          AppSpacing.gapVLarge,
+          const Divider(height: 1),
+          AppSpacing.gapVLarge,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment:
-                CrossAxisAlignment.end, // Align price and favorite icon
             children: [
               Column(
-                // Align based on text direction
-                crossAxisAlignment:
-                    direction == ui.TextDirection.ltr
-                        ? CrossAxisAlignment.start
-                        : CrossAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Row only for the main price text
+                  Text(
+                    l10n.priceLabel ?? 'Price', // Fallback if key missing
+                    style: textTheme.labelMedium?.copyWith(
+                      color: colorScheme.onSurfaceVariant,
+                    ),
+                  ),
                   Row(
-                    mainAxisSize:
-                        MainAxisSize.min, // Prevent Row from expanding
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
                     children: [
                       Text(
-                        '${_formatPrice(widget.drug.price)} L.E', // Use hardcoded currency
-                        style: textTheme.titleLarge?.copyWith(
+                        '${_formatPrice(widget.drug.price)} L.E',
+                        style: textTheme.headlineSmall?.copyWith(
+                          fontWeight: FontWeight.w800,
+                          color: colorScheme.primary,
+                        ),
+                        textDirection: ui.TextDirection.ltr,
+                      ),
+                      if (isPriceChanged && oldPriceValue != null)
+                        Padding(
+                          padding: const EdgeInsetsDirectional.only(start: 8),
+                          child: Text(
+                            '${_formatPrice(widget.drug.oldPrice!)}',
+                            style: textTheme.bodyMedium?.copyWith(
+                              color: colorScheme.onSurfaceVariant,
+                              decoration: TextDecoration.lineThrough,
+                            ),
+                            textDirection: ui.TextDirection.ltr,
+                          ),
+                        ),
+                    ],
+                  ),
+                ],
+              ),
+              // Price Change Indicator
+              if (isPriceChanged)
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color:
+                        isPriceIncreased
+                            ? colorScheme.errorContainer.withOpacity(0.2)
+                            : Colors.green.shade100,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(
+                        isPriceIncreased
+                            ? LucideIcons.trendingUp
+                            : LucideIcons.trendingDown,
+                        size: 16,
+                        color:
+                            isPriceIncreased
+                                ? colorScheme.error
+                                : Colors.green.shade800,
+                      ),
+                      const SizedBox(width: 4),
+                      Text(
+                        '${priceChangePercentage.toStringAsFixed(0)}%',
+                        style: TextStyle(
+                          color:
+                              isPriceIncreased
+                                  ? colorScheme.error
+                                  : Colors.green.shade800,
                           fontWeight: FontWeight.bold,
-                        ), // text-lg font-bold
+                        ),
                       ),
                     ],
                   ),
-                  // Badge placed after the price Row, aligned by the Column
-                  if (isPriceChanged)
-                    Padding(
-                      // Add some vertical spacing if needed
-                      padding: const EdgeInsets.only(
-                        top: AppSpacing.xxsmall,
-                      ), // e.g., 2px top padding
-                      child: CustomBadge(
-                        label: '${priceChangePercentage.toStringAsFixed(0)}%',
-                        backgroundColor:
-                            isPriceIncreased
-                                ? colorScheme.errorContainer.withOpacity(0.7)
-                                : Colors.green.shade100,
-                        textColor:
-                            isPriceIncreased
-                                ? colorScheme.onErrorContainer
-                                : Colors.green.shade900,
-                        icon:
-                            isPriceIncreased
-                                ? LucideIcons.arrowUp
-                                : LucideIcons.arrowDown,
-                        iconSize: 12,
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: AppSpacing.xsmall, // 4px
-                          vertical: 1.0, // 1px
-                        ),
-                      ),
-                    ),
-                  // Old price remains below
-                  if (oldPriceValue != null)
-                    Padding(
-                      padding: const EdgeInsets.only(
-                        top: AppSpacing.xxsmall,
-                      ), // 2px
-                      child: Text(
-                        '${_formatPrice(widget.drug.oldPrice!)} L.E', // Use hardcoded currency
-                        style: textTheme.bodyMedium?.copyWith(
-                          color: colorScheme.onSurfaceVariant, // Muted color
-                          decoration: TextDecoration.lineThrough,
-                        ),
-                      ),
-                    ),
-                ],
-              ),
-              IconButton(
-                icon: Icon(
-                  _isFavorite ? Icons.favorite : Icons.favorite_border,
-                  color:
-                      _isFavorite ? Colors.red.shade500 : colorScheme.outline,
-                  size: 24, // h-6 w-6
                 ),
-                tooltip: l10n.addToFavoritesTooltip, // Use localized string
-                onPressed: _toggleFavorite,
-                padding: EdgeInsets.zero, // Remove default padding
-                constraints: const BoxConstraints(), // Allow tight constraints
-              ),
             ],
           ),
         ],
@@ -350,72 +456,117 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // Action Buttons Section
-  Widget _buildActionButtons(
+  // --- NEW Action Cards Grid ---
+  Widget _buildActionCards(
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
-    // Get the base style for consistency
-    final ButtonStyle? baseButtonStyle =
-        Theme.of(context).outlinedButtonTheme.style;
-
     return Padding(
-      // Consistent horizontal padding, bottom padding added
-      padding: const EdgeInsets.only(
-        left: AppSpacing.large,
-        right: AppSpacing.large,
-        bottom: AppSpacing.large,
+      padding: const EdgeInsets.symmetric(horizontal: AppSpacing.large),
+      child: Row(
+        children: [
+          Expanded(
+            child: _buildActionCardItem(
+              context,
+              icon: LucideIcons.calculator,
+              label: l10n.doseCalculatorButton,
+              color: Colors.blue.shade600,
+              onTap: () {
+                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
+                context.read<DoseCalculatorProvider>().setSelectedDrug(
+                  widget.drug,
+                );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const WeightCalculatorScreen(),
+                  ),
+                );
+              },
+            ),
+          ),
+          AppSpacing.gapHMedium,
+          Expanded(
+            child: _buildActionCardItem(
+              context,
+              icon: LucideIcons.zap,
+              label: l10n.drugInteractionsButton,
+              color: Colors.amber.shade700,
+              onTap:
+                  _isLoadingInteractions
+                      ? null
+                      : () => _showInteractionsDialog(context, l10n),
+              isLoading: _isLoadingInteractions,
+            ),
+          ),
+        ],
       ),
-      child: IntrinsicHeight(
-        // Wrap Row with IntrinsicHeight
-        child: Row(
-          crossAxisAlignment:
-              CrossAxisAlignment.stretch, // Make buttons fill height
-          children: [
-            // RE-ADD Dose Calculator Button
-            Expanded(
-              child: OutlinedButton.icon(
-                icon: const Icon(LucideIcons.calculator, size: 16), // h-4 w-4
-                label: Text(l10n.doseCalculatorButton), // Use localized string
-                onPressed: () {
-                  _logger.i(
-                    "DrugDetailsScreen: Dose Calculator button tapped.",
-                  );
-                  context.read<DoseCalculatorProvider>().setSelectedDrug(
-                    widget.drug,
-                  );
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const WeightCalculatorScreen(),
-                    ),
-                  );
-                },
-                style: baseButtonStyle, // Apply base style
+    );
+  }
+
+  Widget _buildActionCardItem(
+    BuildContext context, {
+    required IconData icon,
+    required String label,
+    required Color color,
+    required VoidCallback? onTap,
+    bool isLoading = false,
+  }) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(AppSpacing.medium),
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
+          decoration: BoxDecoration(
+            color: theme.cardColor,
+            borderRadius: BorderRadius.circular(AppSpacing.medium),
+            border: Border.all(color: theme.colorScheme.outline.withOpacity(0.2)),
+            boxShadow: [
+              BoxShadow(
+                color: color.withOpacity(0.1),
+                blurRadius: 8,
+                offset: const Offset(0, 2),
               ),
-            ),
-            AppSpacing.gapHSmall, // RE-ADD Space between buttons
-            Expanded(
-              // Interactions button no longer takes full width
-              child: OutlinedButton.icon(
-                icon: const Icon(LucideIcons.zap, size: 16), // h-4 w-4
-                label: Text(
-                  l10n.drugInteractionsButton,
-                ), // Use localized string
-                onPressed:
-                    _isLoadingInteractions
-                        ? null
-                        : () => _showInteractionsDialog(
-                          context,
-                          l10n,
-                        ), // Call new handler
-                // Apply base style (no dimming needed now)
-                style: baseButtonStyle,
+            ],
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              if (isLoading)
+                SizedBox(
+                  width: 24,
+                  height: 24,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2,
+                    color: color,
+                  ),
+                )
+              else
+                Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: color.withOpacity(0.1),
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(icon, color: color, size: 24),
+                ),
+              const SizedBox(height: 8),
+              Text(
+                label,
+                style: theme.textTheme.labelLarge?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.center,
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -426,43 +577,36 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
     return Container(
-      margin: AppSpacing.edgeInsetsHLarge, // Use constant (16px)
-      padding: AppSpacing.edgeInsetsAllXSmall, // Use constant (4px)
+      margin: AppSpacing.edgeInsetsHLarge,
+      padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
-        color: colorScheme.surfaceVariant, // bg-muted
-        borderRadius: BorderRadius.circular(
-          AppSpacing.small,
-        ), // Use constant (8px)
+        color: colorScheme.surfaceVariant.withOpacity(0.5),
+        borderRadius: BorderRadius.circular(AppSpacing.medium),
       ),
       child: TabBar(
         controller: _tabController,
         labelColor: colorScheme.primary,
         unselectedLabelColor: colorScheme.onSurfaceVariant,
-        labelStyle: textTheme.labelLarge?.copyWith(
-          fontWeight: FontWeight.w600,
-        ), // Use theme style
-        unselectedLabelStyle: textTheme.labelLarge, // Use theme style
+        labelStyle: textTheme.labelLarge?.copyWith(fontWeight: FontWeight.bold),
+        unselectedLabelStyle: textTheme.labelLarge,
         indicator: BoxDecoration(
-          borderRadius: BorderRadius.circular(
-            AppSpacing.small - AppSpacing.xxsmall,
-          ), // 6px
-          color: colorScheme.background, // Use background for contrast
+          borderRadius: BorderRadius.circular(AppSpacing.small + 2),
+          color: colorScheme.surface,
           boxShadow: [
-            // Subtle shadow from reference
             BoxShadow(
-              color: Colors.black.withOpacity(0.1),
+              color: Colors.black.withOpacity(0.05),
               blurRadius: 4,
               offset: const Offset(0, 2),
             ),
           ],
         ),
-        indicatorSize: TabBarIndicatorSize.tab, // Make indicator fill tab
+        indicatorSize: TabBarIndicatorSize.tab,
         tabs: [
-          Tab(text: l10n.informationTab), // Use new localized string
-          Tab(text: l10n.alternativesTab), // Use new localized string
+          Tab(text: l10n.informationTab),
+          Tab(text: l10n.alternativesTab),
         ],
       ),
     );
@@ -473,36 +617,34 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
     _logger.d("DrugDetailsScreen: Building Info Tab using GridView");
     final infoItems = <Map<String, dynamic>>[
       if (widget.drug.company.isNotEmpty)
         {
           'icon': LucideIcons.building2,
-          'label': l10n.companyLabel, // Use localized string
+          'label': l10n.companyLabel,
           'value': widget.drug.company,
         },
       if (widget.drug.mainCategory.isNotEmpty)
         {
           'icon': LucideIcons.folderOpen,
-          'label': l10n.categoryLabel, // Use localized string
+          'label': l10n.categoryLabel,
           'value':
               kCategoryTranslation[widget.drug.mainCategory] ??
-              widget
-                  .drug
-                  .mainCategory, // Use translated category name, fallback to original
+              widget.drug.mainCategory,
         },
       if (widget.drug.dosageForm.isNotEmpty)
         {
           'icon': LucideIcons.packageSearch,
-          'label': l10n.formLabel, // Use localized string
+          'label': l10n.formLabel,
           'value': widget.drug.dosageForm,
         },
       if (widget.drug.concentration > 0 || widget.drug.unit.isNotEmpty)
         {
           'icon': LucideIcons.ruler,
-          'label': l10n.concentrationLabel, // Use localized string
+          'label': l10n.concentrationLabel,
           'value':
               '${widget.drug.concentration.toStringAsFixed(widget.drug.concentration.truncateToDouble() == widget.drug.concentration ? 0 : 1)} ${widget.drug.unit}'
                   .trim(),
@@ -510,29 +652,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       if (widget.drug.lastPriceUpdate.isNotEmpty)
         {
           'icon': LucideIcons.calendarClock,
-          'label': l10n.lastUpdateLabel, // Use localized string
+          'label': l10n.lastUpdateLabel,
           'value': _formatDate(widget.drug.lastPriceUpdate),
         },
-      // {'icon': LucideIcons.box, 'label': "حجم العبوة:", 'value': '-'}, // Placeholder
     ];
 
-    // Combine content from other tabs here
     final usageInfo = widget.drug.usage;
-    if (usageInfo.isNotEmpty) {
-      // Add spacing and usage text
-    }
-    // Add Dosage Info (consider removing calculator parts)
-    // Add Side Effects Info
-    // Add Contraindications Info
 
-    // Return a ListView containing all the combined info widgets
-    // Use ListView with shrinkWrap and physics for nested scrolling
     return ListView(
-      // <--- CORRECTED: Changed from Column to ListView
-      shrinkWrap: true, // Size based on content
-      physics:
-          const NeverScrollableScrollPhysics(), // Disable internal scrolling
-      padding: AppSpacing.edgeInsetsAllLarge, // Apply padding directly
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      padding: AppSpacing.edgeInsetsAllLarge,
       children: [
         // Info Grid
         GridView.builder(
@@ -540,9 +670,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           physics: const NeverScrollableScrollPhysics(),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            childAspectRatio: 3.0,
-            crossAxisSpacing: AppSpacing.large,
-            mainAxisSpacing: AppSpacing.large,
+            childAspectRatio: 2.8, // Adjusted for better fit
+            crossAxisSpacing: AppSpacing.medium,
+            mainAxisSpacing: AppSpacing.medium,
           ),
           itemCount: infoItems.length,
           itemBuilder: (context, index) {
@@ -557,35 +687,50 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ),
         // --- Usage Section ---
         if (usageInfo.trim().isNotEmpty) ...[
-          // Add trim() check
           AppSpacing.gapVXLarge,
-          Text(
-            l10n.usageTab, // Keep "Usage" title
-            style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-          ),
+          _buildSectionTitle(context, l10n.usageTab),
           AppSpacing.gapVMedium,
-          Text(usageInfo, style: textTheme.bodyLarge),
+          _buildTextContent(context, usageInfo),
         ],
         // --- Description Section ---
-        // Display the 'description' field if it's not empty
-        // This field might contain Dosage, Side Effects, etc. based on the data source
         if (widget.drug.description.trim().isNotEmpty) ...[
-          // Add trim() check
           AppSpacing.gapVXLarge,
-          Text(
-            l10n.descriptionTitle, // Use a general "Description" title (Add this key to .arb files)
-            style: textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-          ),
+          _buildSectionTitle(context, l10n.descriptionTitle),
           AppSpacing.gapVMedium,
-          Text(widget.drug.description, style: textTheme.bodyLarge),
+          _buildTextContent(context, widget.drug.description),
         ],
-        // REMOVED: Separate Dosage, Side Effects, Contraindications sections
-        // as DrugEntity only has 'usage' and 'description'
       ],
-    ); // <--- CORRECTED: Closing bracket for ListView
+    );
   }
 
-  // Helper to build grid item for info tab (Keep this helper)
+  Widget _buildSectionTitle(BuildContext context, String title) {
+    return Text(
+      title,
+      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+        fontWeight: FontWeight.bold,
+        color: Theme.of(context).colorScheme.primary,
+      ),
+    );
+  }
+
+  Widget _buildTextContent(BuildContext context, String content) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Theme.of(context).cardColor,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: Theme.of(context).colorScheme.outline.withOpacity(0.1),
+        ),
+      ),
+      child: Text(
+        content,
+        style: Theme.of(context).textTheme.bodyLarge?.copyWith(height: 1.6),
+      ),
+    );
+  }
+
+  // Helper to build grid item for info tab
   Widget _buildInfoGridItem(
     BuildContext context, {
     required IconData icon,
@@ -597,50 +742,49 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     final textTheme = theme.textTheme;
 
     return Container(
-      padding: AppSpacing.edgeInsetsAllMedium, // Use constant (12px)
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
-        color: colorScheme.surface, // bg-card
-        borderRadius: BorderRadius.circular(
-          AppSpacing.small,
-        ), // Use constant (8px)
-        border: Border.all(color: colorScheme.outline), // border border-border
+        color: colorScheme.surface,
+        borderRadius: BorderRadius.circular(AppSpacing.small),
+        border: Border.all(color: colorScheme.outline.withOpacity(0.3)),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment:
-            MainAxisAlignment.center, // Center content vertically
+      child: Row(
         children: [
-          Row(
-            children: [
-              Icon(
-                icon,
-                size: 16,
-                color: colorScheme.onSurfaceVariant,
-              ), // h-4 w-4 text-muted-foreground
-              // Approx 6px width
-              const SizedBox(width: AppSpacing.small - AppSpacing.xxsmall),
-              Text(
-                label,
-                style: textTheme.labelMedium?.copyWith(
-                  color: colorScheme.onSurfaceVariant,
-                  fontWeight: FontWeight.w500,
-                ), // font-medium text-muted-foreground
-              ),
-            ],
-          ),
-          AppSpacing.gapVXSmall, // Use constant (4px)
-          Padding(
-            // Indent value text (16px icon + 6px gap = 22px)
-            padding: const EdgeInsetsDirectional.only(
-              start: AppSpacing.large + AppSpacing.small - AppSpacing.xxsmall,
+          Container(
+            padding: const EdgeInsets.all(6),
+            decoration: BoxDecoration(
+              color: colorScheme.surfaceVariant,
+              shape: BoxShape.circle,
             ),
-            child: Text(
-              value,
-              style: textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurface,
-              ), // Default text color
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
+            child: Icon(
+              icon,
+              size: 16,
+              color: colorScheme.onSurfaceVariant,
+            ),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  label,
+                  style: textTheme.labelSmall?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  value,
+                  style: textTheme.bodyMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
             ),
           ),
         ],
@@ -648,13 +792,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // REMOVED: _buildUsageTab, _buildDosageTab, _buildSideEffectsTab, _buildContraindicationsTab
-  // Their content is now merged into _buildConsolidatedInfoTab
-
   // --- Alternatives Tab Builder ---
   Widget _buildAlternativesTab(BuildContext context) {
-    // This widget simply wraps the existing AlternativesTabContent
-    // It ensures consistent padding or structure if needed across tabs
     return AlternativesTabContent(originalDrug: widget.drug);
   }
 
@@ -670,7 +809,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       widget.drug,
     );
 
-    if (!mounted) return; // Check if the widget is still mounted
+    if (!mounted) return;
 
     setState(() => _isLoadingInteractions = false);
 
@@ -681,7 +820,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           SnackBar(
             content: Text(
               "${l10n.errorFetchingInteractions}: ${failure.message}",
-            ), // Localized error
+            ),
             backgroundColor: Colors.red,
           ),
         );
@@ -696,14 +835,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             return AlertDialog(
               title: Text(
                 l10n.drugInteractionsDialogTitle(widget.drug.tradeName),
-              ), // Localized title
+              ),
               content: SizedBox(
-                width: double.maxFinite, // Make dialog content wide
+                width: double.maxFinite,
                 child:
                     interactions.isEmpty
-                        ? Center(
-                          child: Text(l10n.noInteractionsFound),
-                        ) // Localized message
+                        ? Center(child: Text(l10n.noInteractionsFound))
                         : ListView.separated(
                           shrinkWrap: true,
                           itemCount: interactions.length,
@@ -718,20 +855,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ),
               actions: <Widget>[
                 TextButton(
-                  child: Text(l10n.closeButton), // Localized button text
+                  child: Text(l10n.closeButton),
                   onPressed: () {
-                    Navigator.of(dialogContext).pop(); // Close the dialog
+                    Navigator.of(dialogContext).pop();
                   },
                 ),
               ],
-              // Optional: Add scrollable property if content might overflow
-              scrollable: interactions.length > 5, // Example threshold
+              scrollable: interactions.length > 5,
             );
           },
         );
       },
     );
   }
-
-  // REMOVED: _buildAlternativesSection (functionality moved to _buildAlternativesTab)
 }

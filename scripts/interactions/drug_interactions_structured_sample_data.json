@@ -1,0 +1,1167 @@
+[
+  {
+    "active_ingredient": "Isopropyl Alcohol 70% v/v",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "aminoglutethimide",
+        "severity": "minor",
+        "description": "Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression."
+      },
+      {
+        "interacting_substance": "diuretics",
+        "severity": "unknown",
+        "description": "Amphotericin B injection and potassium-depleting agents: When corticosteroids are administered concomitantly with potassium depleting agents (e.g., amphotericin B, diuretics), patients should be observed closely for development of hypokalemia."
+      },
+      {
+        "interacting_substance": "amphotericin b",
+        "severity": "unknown",
+        "description": "There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure."
+      },
+      {
+        "interacting_substance": "antibiotics",
+        "severity": "major",
+        "description": "Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance (see"
+      },
+      {
+        "interacting_substance": "Concomitant",
+        "severity": "severe",
+        "description": "Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis."
+      },
+      {
+        "interacting_substance": "Anticholinesterases",
+        "severity": "unknown",
+        "description": "If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "unknown",
+        "description": "Co-administration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports."
+      },
+      {
+        "interacting_substance": "Anticoagulants , oral",
+        "severity": "unknown",
+        "description": "Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect."
+      },
+      {
+        "interacting_substance": "Antidiabetics",
+        "severity": "minor",
+        "description": "Because corticosteroids may increase blood glucose concentration, dosage adjustments of antidiabetic agents may be required."
+      },
+      {
+        "interacting_substance": "Serum",
+        "severity": "unknown",
+        "description": "Serum concentrations of isoniazid may be decreased."
+      },
+      {
+        "interacting_substance": "cholestyramine",
+        "severity": "minor",
+        "description": "Cholestyramine may increase the clearance of oral corticosteroids."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently."
+      },
+      {
+        "interacting_substance": "Convulsions",
+        "severity": "unknown",
+        "description": "Convulsions have been reported with this concurrent use."
+      },
+      {
+        "interacting_substance": "Digitalis glycosides",
+        "severity": "minor",
+        "description": "Patients on digitalis glycosides may be at risk of arrhythmias due to hypokalemia."
+      },
+      {
+        "interacting_substance": "estrogens",
+        "severity": "minor",
+        "description": "Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect."
+      },
+      {
+        "interacting_substance": "phenytoin",
+        "severity": "minor",
+        "description": "Hepatic Enzyme Inducers (e.g., barbiturates, phenytoin, carbamazepine, rifampin): Drugs which induce cytochrome P450 3A4 enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased."
+      },
+      {
+        "interacting_substance": "ketoconazole",
+        "severity": "minor",
+        "description": "Hepatic Enzyme Inhibitors (e.g., ketoconazole, macrolide antibiotics such as erythromycin and troleandomycin): Drugs which inhibit cytochrome P450 3A4 have the potential to result in increased plasma concentrations of corticosteroids."
+      },
+      {
+        "interacting_substance": "ketoconazole",
+        "severity": "major",
+        "description": "Ketoconazole has been reported to significantly decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroid side effects."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "Nonsteroidal anti-inflammatory drugs (NSAIDs) : Concomitant use of aspirin (or other nonsteroidal anti-inflammatory agents) and corticosteroids increases the risk of gastrointestinal side effects."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia."
+      },
+      {
+        "interacting_substance": "Ketoconazole",
+        "severity": "unknown",
+        "description": "The clearance of salicylates may be increased with concurrent use of corticosteroids."
+      },
+      {
+        "interacting_substance": "Corticosteroids",
+        "severity": "unknown",
+        "description": "Corticosteroids may suppress reactions to skin tests."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see"
+      },
+      {
+        "interacting_substance": "Infections",
+        "severity": "unknown",
+        "description": "Infections, Vaccinations )."
+      },
+      {
+        "interacting_substance": "Phenothiazines",
+        "severity": "unknown",
+        "description": "Phenothiazines and butyrophenones may reduce or reverse the pressor effect of epinephrine."
+      },
+      {
+        "interacting_substance": "WARNINGS",
+        "severity": "unknown",
+        "description": "Concurrent use of these agents should generally be avoided."
+      },
+      {
+        "interacting_substance": "WARNINGS",
+        "severity": "moderate",
+        "description": "In situations when concurrent therapy is necessary, careful patient monitoring is essential."
+      },
+      {
+        "interacting_substance": "WARNINGS",
+        "severity": "severe",
+        "description": "Concurrent administration of vasopressor drugs (for the treatment of hypotension related to obstetric blocks) and ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Isopropyl Alcohol 70% v/v",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "aminoglutethimide",
+        "severity": "minor",
+        "description": "Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression."
+      },
+      {
+        "interacting_substance": "amphotericin b",
+        "severity": "unknown",
+        "description": "Amphotericin B injection and potassium-depleting agents: When corticosteroids are administered concomitantly with potassium-depleting agents (i.e."
+      },
+      {
+        "interacting_substance": "diuretics",
+        "severity": "unknown",
+        "description": "amphotericin B, diuretics), patients should be observed closely for development of hypokalemia."
+      },
+      {
+        "interacting_substance": "amphotericin b",
+        "severity": "unknown",
+        "description": "There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure."
+      },
+      {
+        "interacting_substance": "antibiotics",
+        "severity": "major",
+        "description": "Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance."
+      },
+      {
+        "interacting_substance": "Concomitant",
+        "severity": "severe",
+        "description": "Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis."
+      },
+      {
+        "interacting_substance": "Anticholinesterases",
+        "severity": "unknown",
+        "description": "If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "unknown",
+        "description": "Co-administration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports."
+      },
+      {
+        "interacting_substance": "Anticoagulants, oral",
+        "severity": "unknown",
+        "description": "Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect."
+      },
+      {
+        "interacting_substance": "Antidiabetics",
+        "severity": "minor",
+        "description": "Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required."
+      },
+      {
+        "interacting_substance": "Serum",
+        "severity": "unknown",
+        "description": "Serum concentrations of isoniazid may be decreased."
+      },
+      {
+        "interacting_substance": "cholestyramine",
+        "severity": "minor",
+        "description": "Cholestyramine may increase the clearance of corticosteroids."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently."
+      },
+      {
+        "interacting_substance": "Convulsions",
+        "severity": "unknown",
+        "description": "Convulsions have been reported with this concurrent use."
+      },
+      {
+        "interacting_substance": "Cyclosporine",
+        "severity": "unknown",
+        "description": "CYP 3A4 inhibitors: Triamcinolone acetonide is a substrate of CYP3A4."
+      },
+      {
+        "interacting_substance": "ketoconazole",
+        "severity": "minor",
+        "description": "Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroid side effects."
+      },
+      {
+        "interacting_substance": "Cyclosporine",
+        "severity": "unknown",
+        "description": "Co-administration of other strong CYP3A4 inhibitors (e.g., ritonavir, atazanavir, clarithromycin, indinavir, itraconazole, nefazodone, nelfinavir, saquinavir, telithromycin, cobicistat-containing products) with triamcinolone acetonide injectable suspension may cause increased plasma concentration of triamcinolone leading to adverse reactions (see ADVERSE REACTIONS )."
+      },
+      {
+        "interacting_substance": "PRECAUTIONS",
+        "severity": "major",
+        "description": "During postmarketing use, there have been reports of clinically significant drug interactions in patients receiving triamcinolone acetonide and strong CYP3A4 inhibitors (e.g., ritonavir) (see WARNINGS, Endocrine and PRECAUTIONS, Endocrine )."
+      },
+      {
+        "interacting_substance": "Consider",
+        "severity": "minor",
+        "description": "Consider the benefit-risk of concomitant use and monitor for systemic corticosteroid side effects."
+      },
+      {
+        "interacting_substance": "Digitalis glycosides",
+        "severity": "minor",
+        "description": "Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia."
+      },
+      {
+        "interacting_substance": "estrogens",
+        "severity": "minor",
+        "description": "Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect."
+      },
+      {
+        "interacting_substance": "phenytoin",
+        "severity": "minor",
+        "description": "Hepatic enzyme inducers (e.g., barbiturates, phenytoin, carbamazepine, rifampin): Drugs which induce hepatic microsomal drug metabolizing enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "Nonsteroidal anti-inflammatory drugs (NSAIDs): Concomitant use of aspirin (or other nonsteroidal anti-inflammatory drugs) and corticosteroids increases the risk of gastrointestinal side effects."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia."
+      },
+      {
+        "interacting_substance": "Estrogens, including oral contraceptives",
+        "severity": "unknown",
+        "description": "The clearance of salicylates may be increased with concurrent use of corticosteroids."
+      },
+      {
+        "interacting_substance": "Corticosteroids",
+        "severity": "unknown",
+        "description": "Corticosteroids may suppress reactions to skin tests."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see"
+      },
+      {
+        "interacting_substance": "Vaccination",
+        "severity": "unknown",
+        "description": "Vaccination )."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Benzalkonium Chloride, 0.13% w/v",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "Except",
+        "severity": "contraindicated",
+        "description": "Except in life-threatening situations, avoid this combination."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Furosemide tablets should not be used concomitantly with ethacrynic acid because of the possibility of ototoxicity."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Patients receiving high doses of salicylates concomitantly with Furosemide tablets, as in rheumatic disease, may experience salicylate toxicity at lower doses because of competitive renal excretory sites."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "There is a risk of ototoxic effects if cisplatin and Furosemide tablets are given concomitantly."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "In addition, nephrotoxicity of nephrotoxic drugs such as cisplatin may be enhanced if Furosemide tablets are not given in lower doses and with positive fluid balance when used to achieve forced diuresis during cisplatin treatment."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "Furosemide tablets have a tendency to antagonize the skeletal muscle relaxing effect of tubocurarine and may potentiate the action of succinylcholine."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "minor",
+        "description": "Lithium generally should not be given with diuretics because they reduce lithium’s renal clearance and add a high risk of lithium toxicity."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "severe",
+        "description": "Furosemide tablets combined with angiotensin converting enzyme inhibitors or angiotensin II receptor blockers may lead to severe hypotension and deterioration in renal function, including renal failure."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "An interruption or reduction in the dosage of Furosemide tablets, angiotensin converting enzyme inhibitors, or angiotensin receptor blockers may be necessary."
+      },
+      {
+        "interacting_substance": "Potentiation",
+        "severity": "unknown",
+        "description": "Potentiation occurs with ganglionic or peripheral adrenergic blocking drugs."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "Furosemide tablets may decrease arterial responsiveness to norepinephrine."
+      },
+      {
+        "interacting_substance": "However",
+        "severity": "unknown",
+        "description": "However, norepinephrine may still be used effectively."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Simultaneous administration of sucralfate and Furosemide tablets may reduce the natriuretic and antihypertensive effects of Furosemide tablets."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Patients receiving both drugs should be observed closely to determine if the desired diuretic and/or antihypertensive effect of Furosemide tablets is achieved."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "The intake of Furosemide tablets and sucralfate should be separated by at least two hours."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "In isolated cases, intravenous administration of Furosemide tablets within 24 hours of taking chloral hydrate may lead to flushing, sweating attacks, restlessness, nausea, increase in blood pressure, and tachycardia."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Use of Furosemide tablets concomitantly with chloral hydrate is, therefore, not recommended."
+      },
+      {
+        "interacting_substance": "phenytoin",
+        "severity": "unknown",
+        "description": "Phenytoin interferes directly with renal action of Furosemide tablets."
+      },
+      {
+        "interacting_substance": "phenytoin",
+        "severity": "unknown",
+        "description": "There is evidence that treatment with phenytoin leads to decrease intestinal absorption of Furosemide tablets, and consequently to lower peak serum furosemide concentrations."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "major",
+        "description": "Methotrexate and other drugs that, like Furosemide tablets, undergo significant renal tubular secretion may reduce the effect of Furosemide tablets."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "Conversely, Furosemide tablets may decrease renal elimination of other drugs that undergo tubular secretion."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "High-dose treatment of both Furosemide tablets and these other drugs may result in elevated serum levels of these drugs and may potentiate their toxicity as well as the toxicity of Furosemide tablets."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "minor",
+        "description": "Furosemide tablets can increase the risk of cephalosporin-induced nephrotoxicity even in the setting of minor or transient renal impairment."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "minor",
+        "description": "Concomitant use of cyclosporine and Furosemide tablets is associated with increased risk of gouty arthritis secondary to Furosemide tablets-induced hyperurecemia and cyclosporine impairment of renal urate excretion."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "One study in six subjects demonstrated that the combination of furosemide and acetylsalicylic acid temporarily reduced creatinine clearance in patients with chronic renal insufficiency."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "There are case reports of patients who developed increased BUN, serum creatinine and serum potassium levels, and weight gain when furosemide was used in conjunction with NSAIDs."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Literature reports indicate that coadministration of indomethacin may reduce the natriuretic and antihypertensive effects of Furosemide tablets (furosemide) in some patients by inhibiting prostaglandin synthesis."
+      },
+      {
+        "interacting_substance": "Indomethacin",
+        "severity": "unknown",
+        "description": "Indomethacin may also affect plasma renin levels, aldosterone excretion, and renin profile evaluation."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Patients receiving both indomethacin and Furosemide tablets should be observed closely to determine if the desired diuretic and/or antihypertensive effect of Furosemide tablets is achieved."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "RUGBY CAPSAICIN EXTERNAL ANALGESIC - Capsaicin 0.025%",
+    "parsed_interactions": [
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "The following drug interactions [sections 7.1 to 7.7] are noted for oral diclofenac sodium."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "Concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects including increased GAI bleeding."
+      },
+      {
+        "interacting_substance": "anticoagulants",
+        "severity": "severe",
+        "description": "( 7.1 ) Concomitant use of anticoagulants and diclofenac have a risk of serious GI bleeding higher than users of either drug alone."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "( 7.2 ) 7.1 Aspirin When diclofenac is administered with aspirin, the binding of diclofenac to protein is reduced, although the clearance of free diclofenac is not altered."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "severe",
+        "description": "7.2 Anticoagulants The effects of anticoagulants such as warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "minor",
+        "description": "7.3 ACE-Inhibitors NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "Consider this interaction in patients taking NSAIDs concomitantly with ACE-inhibitors."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "7.4 Diuretics Clinical studies, as well as postmarketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "The response has been attributed to inhibition of renal prostaglandin synthesis."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "moderate",
+        "description": "During concomitant therapy with NSAIDs, observe the patient closely for signs of renal failure [ see Warnings and Precautions (5.6) ] , as well as to assure diuretic efficacy."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "7.5 Lithium NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%."
+      },
+      {
+        "interacting_substance": "These",
+        "severity": "unknown",
+        "description": "These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "Thus, when NSAIDs, including diclofenac, and lithium are administered concurrently, observe patients carefully for signs of lithium toxicity."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "unknown",
+        "description": "7.6 Methotrexate NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "unknown",
+        "description": "This may indicate that they could enhance the toxicity of methotrexate."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "moderate",
+        "description": "Use caution when NSAIDs, including diclofenac, are administered concomitantly with methotrexate."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "7.7 Cyclosporine Diclofenac, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "minor",
+        "description": "Therefore, concomitant therapy with diclofenac may increase cyclosporine's nephrotoxicity."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "moderate",
+        "description": "Use caution when diclofenac is administered concomitantly with cyclosporine."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "7.8 Oral Nonsteroidal Anti-Inflammatory Drugs Concomitant use of oral NSAIDs with diclofenac sodium topical solution has been evaluated in one Phase 3 controlled trial and in combination with oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "less than 1%), and more frequent abnormal creatinine (12% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "12) and hemoglobin (13% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "minor",
+        "description": "Therefore, do not use combination therapy with diclofenac sodium topical solution and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "7.9 Topical Treatments Instruct patients that before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication to the same skin surface of the knee treated with diclofenac sodium topical solution, they must wait until the treated area is completely dry."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Isopropyl Alcohol, 70% v/v",
+    "parsed_interactions": [
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "The following drug interactions [sections 7.1 to 7.7] are noted for oral diclofenac sodium."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "Concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects including increased GAI bleeding."
+      },
+      {
+        "interacting_substance": "anticoagulants",
+        "severity": "severe",
+        "description": "( 7.1 ) Concomitant use of anticoagulants and diclofenac have a risk of serious GI bleeding higher than users of either drug alone."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "( 7.2 ) 7.1 Aspirin When diclofenac is administered with aspirin, the binding of diclofenac to protein is reduced, although the clearance of free diclofenac is not altered."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "The clinical significance of this interaction is not known; however, as with other NSAIDs, concomitant administration of diclofenac and aspirin is not generally recommended because of the potential of increased adverse effects."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "severe",
+        "description": "7.2 Anticoagulants The effects of anticoagulants such as warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "minor",
+        "description": "7.3 ACE-Inhibitors NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "Consider this interaction in patients taking NSAIDs concomitantly with ACE-inhibitors."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "7.4 Diuretics Clinical studies, as well as post marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "The response has been attributed to inhibition of renal prostaglandin synthesis."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "moderate",
+        "description": "During concomitant therapy with NSAIDs, observe the patient closely for signs of renal failure [ see Warnings and Precautions (5.6) ] , as well as to assure diuretic efficacy."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "7.5 Lithium NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%."
+      },
+      {
+        "interacting_substance": "These",
+        "severity": "unknown",
+        "description": "These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "Thus, when NSAIDs, including diclofenac, and lithium are administered concurrently, observe patients carefully for signs of lithium toxicity."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "unknown",
+        "description": "7.6 Methotrexate NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "unknown",
+        "description": "This may indicate that they could enhance the toxicity of methotrexate."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "moderate",
+        "description": "Use caution when NSAIDs, including diclofenac, are administered concomitantly with methotrexate."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "7.7 Cyclosporine Diclofenac, like other NSAIDs, may affect renal prostaglandins and increase the toxicity of certain drugs."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "minor",
+        "description": "Therefore, concomitant therapy with diclofenac may increase cyclosporine's nephrotoxicity."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "moderate",
+        "description": "Use caution when diclofenac is administered concomitantly with cyclosporine."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "7.8 Oral Nonsteroidal Anti-Inflammatory Drugs Concomitant use of oral NSAIDs with diclofenac sodium topical solution has been evaluated in one Phase 3 controlled trial and in combination with oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "less than 1%), and more frequent abnormal creatinine (12% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "12) and hemoglobin (13% vs."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "minor",
+        "description": "Therefore, do not use combination therapy with diclofenac sodium topical solution and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "7.9 Topical Treatments Instruct patients that before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication to the same skin surface of the knee treated with diclofenac sodium topical solution, they must wait until the treated area is completely dry."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "moderate",
+        "description": "Therefore, caution should be exercised with patients who take more than one of these CNS depressants simultaneously."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Iron (Carbonyl iron, ferrous gluconate) 90 mg Folic Acid 1 mg Vitamin B 12 (Cyanocobalamin) 12 mcg Vitamin C (Ascorbic acid) 119 mg Docusate sodium 50 mg InPovidone, croscarmellose sodium, acrylic resin, color added, magnesium stearate, FD&C Yellow No. 5, magnesium silicate, FD&C Blue No. 1, polyethylene glycol, vitamin A palmitate, ethyl vanillin.",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "Dosing",
+        "severity": "moderate",
+        "description": "Dosing for elderly patients should be administered with caution."
+      },
+      {
+        "interacting_substance": "Geriatric Use",
+        "severity": "unknown",
+        "description": "Due to the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy, dosing should start at the lower end of the dosing range."
+      },
+      {
+        "interacting_substance": "Prescriber",
+        "severity": "unknown",
+        "description": "Prescriber should be aware of a number of iron/drug interactions, including antacids, tetracyclines, or fluoroquinolones."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Menthol 4% | Lidocaine 4%",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "MAO",
+        "severity": "unknown",
+        "description": "Postmarketing cases of serotonin syndrome have been reported during combined use of cyclobenzaprine hydrochloride and other drugs, such as SSRIs, SNRIs, TCAs, tramadol, bupropion, meperidine, verapamil, or MAO inhibitors."
+      },
+      {
+        "interacting_substance": null,
+        "severity": "unknown",
+        "description": "If concomitant treatment with cyclobenzaprine hydrochloride and other serotonergic drugs is clinically warranted, careful observation is advised, particularly during treatment initiation or dose increases (see WARNINGS )."
+      },
+      {
+        "interacting_substance": "Cyclobenzaprine",
+        "severity": "minor",
+        "description": "Cyclobenzaprine may enhance the effects of alcohol, barbiturates, and other CNS depressants."
+      },
+      {
+        "interacting_substance": "Tricyclic",
+        "severity": "unknown",
+        "description": "Tricyclic antidepressants may block the antihypertensive action of guanethidine and similarly acting compounds."
+      },
+      {
+        "interacting_substance": "Tricyclic",
+        "severity": "minor",
+        "description": "Tricyclic antidepressants may enhance the seizure risk in patients taking tramadol."
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Capsicum Oleoresin 0.0625% (containing capsaicin 0.025%)",
+    "parsed_interactions": [
+      {
+        "interacting_substance": null,
+        "severity": "major",
+        "description": "7 DRUG INTERACTIONS See Table 2 for clinically significant drug interactions with diclofenac."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "major",
+        "description": "Table 2: Clinically Significant Drug Interactions with Diclofenac Drugs That Interfere with Hemostasis Clinical Impact Diclofenac and anticoagulants such as warfarin have a synergistic effect on bleeding."
+      },
+      {
+        "interacting_substance": "anticoagulants",
+        "severity": "severe",
+        "description": "The concomitant use of diclofenac and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone."
+      },
+      {
+        "interacting_substance": "Serotonin",
+        "severity": "unknown",
+        "description": "Serotonin release by platelets plays an important role in hemostasis."
+      },
+      {
+        "interacting_substance": "Case",
+        "severity": "minor",
+        "description": "Case-control and cohort epidemiological studies showed that concomitant use of drugs that interfere with serotonin reuptake and an NSAID may potentiate the risk of bleeding more than an NSAID alone."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "moderate",
+        "description": "Intervention Monitor patients with concomitant use of diclofenac sodium with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see WARNINGS AND PRECAUTIONS (5.11) ]"
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "major",
+        "description": "In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of NSAID alone [see WARNINGS AND PRECAUTIONS (5.2) ] Intervention Concomitant use of diclofenac sodium and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding [see WARNINGS AND PRECAUTIONS (5.11) ]."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Diclofenac sodium is not a substitute for low dose aspirin for cardiovascular protection."
+      },
+      {
+        "interacting_substance": "Blockers",
+        "severity": "unknown",
+        "description": "ACE inhibitors, Angiotensin Receptor Blockers, and Beta-"
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "minor",
+        "description": "NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol)."
+      },
+      {
+        "interacting_substance": "ACE",
+        "severity": "unknown",
+        "description": "In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure."
+      },
+      {
+        "interacting_substance": "These",
+        "severity": "unknown",
+        "description": "These effects are usually reversible."
+      },
+      {
+        "interacting_substance": "ACE",
+        "severity": "moderate",
+        "description": "During concomitant use of diclofenac sodium and ACE-inhibitors, ARBs, or beta-blockers, monitor blood pressure to ensure that the desired blood pressure is obtained During concomitant use of diclofenac sodium and ACE-inhibitors or ARBs in patients who are elderly, volume-depleted, or have impaired renal function, monitor for signs of worsening renal function [see WARNINGS AND PRECAUTIONS(5.6) ] When these drugs are administered concomitantly, patients should be adequately hydrated."
+      },
+      {
+        "interacting_substance": "Assess",
+        "severity": "unknown",
+        "description": "Assess renal function at the beginning of the concomitant treatment and periodically thereafter."
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "Clinical studies, as well as post-marketing observations, showed that NSAIDS reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients."
+      },
+      {
+        "interacting_substance": "Diuretics Clinical Impact",
+        "severity": "unknown",
+        "description": "This effect has been attributed to the NSAID inhibition of renal prostaglandin synthesis."
+      },
+      {
+        "interacting_substance": "diuretics",
+        "severity": "moderate",
+        "description": "During concomitant use of diclofenac sodium with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects [see WARNINGS AND PRECAUTIONS (5.6) ]."
+      },
+      {
+        "interacting_substance": "digoxin",
+        "severity": "unknown",
+        "description": "The concomitant use of diclofenac with digoxin has been reported to increase the serum concentration and prolong the half-life digoxin."
+      },
+      {
+        "interacting_substance": "digoxin",
+        "severity": "unknown",
+        "description": "During concomitant use of diclofenac sodium and digoxin, monitor serum digoxin levels."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "NSAIDS have produced elevations in plasma lithium levels and reductions in renal lithium clearance."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%."
+      },
+      {
+        "interacting_substance": "Lithium Clinical Impact",
+        "severity": "unknown",
+        "description": "This effect has been attributed to NSAID inhibition of renal prostaglandin synthesis."
+      },
+      {
+        "interacting_substance": "lithium",
+        "severity": "unknown",
+        "description": "During concomitant use of diclofenac sodium and lithium, monitor patients for signs of lithium toxicity."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "minor",
+        "description": "Methotrexate Clinical Impact; Concomitant use of NSAIDs and methotrexate may increase the risk of methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction)."
+      },
+      {
+        "interacting_substance": "methotrexate",
+        "severity": "unknown",
+        "description": "During concomitant use of diclofenac sodium and methotrexate, monitor patients for methotrexate toxicity."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "minor",
+        "description": "Concomitant use of diclofenac sodium and cyclosporine may increase cyclosporine's nephrotoxicity."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "During concomitant use of diclofenac sodium and cyclosporine, monitor patients for signs or worsening renal function."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "moderate",
+        "description": "Concomitant use of diclofenac with other NSAIDs or salicylates (e.g., diflunisal, salsalate) increases the risk of GI toxicity, with little or no increase in efficacy [see WARNINGS AND PRECAUTIONS (5.2) ]."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "Concomitant use of oral NSAIDs with diclofenac sodium has been evaluated in one Phase 3 controlled trial and in combination with oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs."
+      },
+      {
+        "interacting_substance": "NSAIDs and Salicylates Clinical Impact",
+        "severity": "unknown",
+        "description": "less than 1%), and more frequent abnormal creatinine (12% vs."
+      },
+      {
+        "interacting_substance": "NSAIDs and Salicylates Clinical Impact",
+        "severity": "unknown",
+        "description": "7%), urea (20% vs."
+      },
+      {
+        "interacting_substance": "NSAIDs and Salicylates Clinical Impact",
+        "severity": "unknown",
+        "description": "12%) and hemoglobin (13% vs."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "The concomitant use of diclofenac with other NSAIDs or salicyclates is not recommended."
+      },
+      {
+        "interacting_substance": "pemetrexed",
+        "severity": "minor",
+        "description": "Concomitant use of diclofenac sodium and pemetrexed may increase the risk of pemetrexed-associated myelosuppression, renal, and GI toxicity (see the pemetrexed prescribing information)."
+      },
+      {
+        "interacting_substance": "pemetrexed",
+        "severity": "unknown",
+        "description": "During concomitant use of diclofenac sodium and pemetrexed, in patients with renal impairment whose creatinine clearance ranges from 45 to 79 mL/min, monitor for myelosuppression, renal and GI toxicity."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "unknown",
+        "description": "NSAIDs with short elimination half-lives (e.g., diclofenac, indomethacin) should be avoided for a period of two days before, the day of, and two days following administration pemetrexed."
+      },
+      {
+        "interacting_substance": "nsaids",
+        "severity": "minor",
+        "description": "In the absence of data regarding potential interaction between pemetrexed and NSAIDs with longer half-lives (e.g., meloxicam, nabumetone), patients taking these NSAIDs should interrupt dosing for at least five days before, the day of, and two days following pemetrexed administration."
+      },
+      {
+        "interacting_substance": "Hemostasis",
+        "severity": "unknown",
+        "description": "Drugs that Interfere with Hemostasis (e.g."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "warfarin, aspirin, SSRIs/SNRIs ): Monitor patients for bleeding who are concomitantly using diclofenac sodium with drugs that interfere with hemostasis."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Concomitant use of diclofenac sodium and analgesic doses of aspirin is not generally recommended ( 7 ) ACE Inhibitors, Angiotensin Receptor Blockers (ARB), or Beta-"
+      },
+      {
+        "interacting_substance": "Concomitant",
+        "severity": "minor",
+        "description": "Concomitant use with diclofenac sodium may diminish the antihypertensive effect of these drugs."
+      },
+      {
+        "interacting_substance": "Monitor",
+        "severity": "unknown",
+        "description": "Monitor blood pressure ( 7 )"
+      },
+      {
+        "interacting_substance": "Concomitant",
+        "severity": "unknown",
+        "description": "Concomitant use with diclofenac sodium in elderly, volume depleted, or those with renal impairment may result in deterioration of renal function."
+      },
+      {
+        "interacting_substance": "ACE Inhibitors and ARBs",
+        "severity": "minor",
+        "description": "In such high risk patients, monitor for signs of worsening renal function ( 7 )"
+      },
+      {
+        "interacting_substance": "furosemide",
+        "severity": "unknown",
+        "description": "NSAIDS can reduce natriuretic effect of furosemide and thiazide diuretics."
+      },
+      {
+        "interacting_substance": "Monitor",
+        "severity": "unknown",
+        "description": "Monitor patients to assure diuretic efficacy including antihypertensive effects ( 7 )"
+      },
+      {
+        "interacting_substance": "digoxin",
+        "severity": "unknown",
+        "description": "Concomitant use with diclofenac sodium can increase serum concentration and prolong half-life of digoxin."
+      },
+      {
+        "interacting_substance": "digoxin",
+        "severity": "unknown",
+        "description": "Monitor serum digoxin levels ( 7 )"
+      }
+    ]
+  },
+  {
+    "active_ingredient": "Povidone Iodine 10% v/v (equivalent to 1% titratable iodine) | Isopropyl Alcohol 70% v/v",
+    "parsed_interactions": [
+      {
+        "interacting_substance": "aminoglutethimide",
+        "severity": "minor",
+        "description": "Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression."
+      },
+      {
+        "interacting_substance": "diuretics",
+        "severity": "unknown",
+        "description": "Amphotericin B injection and potassium-depleting agents : When corticosteroids are administered concomitantly with potassium-depleting agents (ie, amphotericin B, diuretics), patients should be observed closely for development of hypokalemia."
+      },
+      {
+        "interacting_substance": "amphotericin b",
+        "severity": "unknown",
+        "description": "There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure."
+      },
+      {
+        "interacting_substance": "antibiotics",
+        "severity": "major",
+        "description": "Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance."
+      },
+      {
+        "interacting_substance": "Concomitant",
+        "severity": "severe",
+        "description": "Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis."
+      },
+      {
+        "interacting_substance": "Anticholinesterases",
+        "severity": "unknown",
+        "description": "If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy."
+      },
+      {
+        "interacting_substance": "warfarin",
+        "severity": "unknown",
+        "description": "Coadministration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports."
+      },
+      {
+        "interacting_substance": "Anticoagulants, oral",
+        "severity": "unknown",
+        "description": "Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect."
+      },
+      {
+        "interacting_substance": "Antidiabetics",
+        "severity": "minor",
+        "description": "Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required."
+      },
+      {
+        "interacting_substance": "Serum",
+        "severity": "unknown",
+        "description": "Serum concentrations of isoniazid may be decreased."
+      },
+      {
+        "interacting_substance": "cholestyramine",
+        "severity": "minor",
+        "description": "Cholestyramine may increase the clearance of corticosteroids."
+      },
+      {
+        "interacting_substance": "cyclosporine",
+        "severity": "unknown",
+        "description": "Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently."
+      },
+      {
+        "interacting_substance": "Convulsions",
+        "severity": "unknown",
+        "description": "Convulsions have been reported with this concurrent use."
+      },
+      {
+        "interacting_substance": "Digitalis glycosides",
+        "severity": "minor",
+        "description": "Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia."
+      },
+      {
+        "interacting_substance": "estrogens",
+        "severity": "minor",
+        "description": "Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect."
+      },
+      {
+        "interacting_substance": "phenytoin",
+        "severity": "minor",
+        "description": "Hepatic enzyme inducers ( eg , barbiturates, phenytoin, carbamazepine, rifampin) : Drugs which induce hepatic microsomal drug metabolizing enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased."
+      },
+      {
+        "interacting_substance": "ketoconazole",
+        "severity": "minor",
+        "description": "Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroid side effects."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "minor",
+        "description": "Nonsteroidal anti-inflammatory drugs (NSAIDs): Concomitant use of aspirin (or other nonsteroidal anti-inflammatory drugs) and corticosteroids increases the risk of gastrointestinal side effects."
+      },
+      {
+        "interacting_substance": "aspirin",
+        "severity": "unknown",
+        "description": "Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia."
+      },
+      {
+        "interacting_substance": "Ketoconazole",
+        "severity": "unknown",
+        "description": "The clearance of salicylates may be increased with concurrent use of corticosteroids."
+      },
+      {
+        "interacting_substance": "Corticosteroids",
+        "severity": "unknown",
+        "description": "Corticosteroids may suppress reactions to skin tests."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines."
+      },
+      {
+        "interacting_substance": "vaccines",
+        "severity": "unknown",
+        "description": "Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see"
+      },
+      {
+        "interacting_substance": "Vaccination",
+        "severity": "unknown",
+        "description": "Vaccination )."
+      }
+    ]
+  }
+]
