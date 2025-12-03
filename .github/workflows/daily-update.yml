@@ -2,8 +2,32 @@ name: Daily Drug Price Update
 
 on:
   schedule:
-    # Run every day at 2:00 AM UTC (4:00 AM Cairo time)
-    - cron: '0 2 * * *'
+    # Run ~24 times per day with human-like random intervals
+    # Times are spread irregularly to mimic human behavior
+    - cron: '7 0 * * *'   # ~12:07 AM UTC
+    - cron: '23 1 * * *'  # ~1:23 AM UTC
+    - cron: '41 2 * * *'  # ~2:41 AM UTC
+    - cron: '14 3 * * *'  # ~3:14 AM UTC
+    - cron: '52 4 * * *'  # ~4:52 AM UTC
+    - cron: '19 5 * * *'  # ~5:19 AM UTC
+    - cron: '38 6 * * *'  # ~6:38 AM UTC
+    - cron: '5 7 * * *'   # ~7:05 AM UTC
+    - cron: '47 8 * * *'  # ~8:47 AM UTC
+    - cron: '16 9 * * *'  # ~9:16 AM UTC
+    - cron: '34 10 * * *' # ~10:34 AM UTC
+    - cron: '9 11 * * *'  # ~11:09 AM UTC
+    - cron: '51 12 * * *' # ~12:51 PM UTC
+    - cron: '28 13 * * *' # ~1:28 PM UTC
+    - cron: '3 14 * * *'  # ~2:03 PM UTC
+    - cron: '45 15 * * *' # ~3:45 PM UTC
+    - cron: '12 16 * * *' # ~4:12 PM UTC
+    - cron: '56 17 * * *' # ~5:56 PM UTC
+    - cron: '21 18 * * *' # ~6:21 PM UTC
+    - cron: '39 19 * * *' # ~7:39 PM UTC
+    - cron: '8 20 * * *'  # ~8:08 PM UTC
+    - cron: '50 21 * * *' # ~9:50 PM UTC
+    - cron: '27 22 * * *' # ~10:27 PM UTC
+    - cron: '44 23 * * *' # ~11:44 PM UTC
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -11,6 +35,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: Random delay (human-like behavior)
+        run: |
+          # Add random delay between 0-300 seconds (0-5 minutes)
+          DELAY=$((RANDOM % 300))
+          echo "Waiting ${DELAY} seconds to mimic human behavior..."
+          sleep $DELAY
+      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
