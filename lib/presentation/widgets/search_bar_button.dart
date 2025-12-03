@@ -41,22 +41,50 @@ class SearchBarButton extends StatelessWidget {
             // hoverColor: Colors.grey.shade50, // hover:bg-gray-50
             child: Padding(
               padding: const EdgeInsets.symmetric(
-                horizontal: 13.0,
-              ), // Adjust internal padding
+                horizontal: 12.0,
+                vertical: 10.0,
+              ), 
               child: Row(
                 children: [
                   Icon(
                     LucideIcons.search,
-                    size: 16, // h-4 w-4
-                    color:
-                        colorScheme.onSurfaceVariant, // text-muted-foreground
+                    size: 20,
+                    color: colorScheme.onSurfaceVariant,
                   ),
-                  const SizedBox(width: 9.0), // gap-2
-                  Text(
-                    l10n.searchHint, // Use localized string
-                    style: textTheme.bodyMedium?.copyWith(
-                      color:
-                          colorScheme.onSurfaceVariant, // text-muted-foreground
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      l10n.searchHint, // Use localized string
+                      style: textTheme.bodyMedium?.copyWith(
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
+                  // Barcode Scanner Icon
+                  Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Icon(
+                      LucideIcons.scanLine,
+                      size: 18,
+                      color: colorScheme.primary,
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  // Filter Icon
+                  Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Icon(
+                      LucideIcons.slidersHorizontal,
+                      size: 18,
+                      color: colorScheme.primary,
                     ),
                   ),
                 ],

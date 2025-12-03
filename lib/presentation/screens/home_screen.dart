@@ -13,6 +13,9 @@ import '../widgets/category_card.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/search_bar_button.dart';
 import '../widgets/quick_stats_banner.dart'; // Import Quick Stats Banner
+import '../widgets/price_alerts_card.dart'; // Import Price Alerts Card
+import '../widgets/skeleton_loader.dart'; // Import Skeleton Loader
+import '../widgets/empty_state_widget.dart'; // Import Empty State Widget
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
@@ -186,52 +189,96 @@ class _HomeScreenState extends State<HomeScreen> {
         const SliverToBoxAdapter(child: SizedBox(height: 12)),
         
         // Quick Stats Banner
-        if (isInitialLoadComplete)
+        SliverToBoxAdapter(
+          child: !isInitialLoadComplete
+              ? const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  child: SkeletonCard(height: 100),
+                )
+              : QuickStatsBanner(
+                  totalDrugs: medicineProvider.displayedMedicines.length,
+                  todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
+                  priceIncreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, true),
+                  priceDecreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, false),
+                ),
+        ),
+        
+        const SliverToBoxAdapter(child: SizedBox(height: 16)),
+        
+        // Price Alerts Card - Top price changes
+        if (!isInitialLoadComplete)
+           const SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              child: SkeletonCard(height: 180),
+            ),
+          )
+        else if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            child: QuickStatsBanner(
-              totalDrugs: medicineProvider.displayedMedicines.length,
-              todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
-              priceIncreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, true),
-              priceDecreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, false),
+            child: PriceAlertsCard(
+              topChangedDrugs: _getTopChangedDrugs(medicineProvider.recentlyUpdatedDrugs, 3),
             ),
           ),
         
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
         
         // Categories Section with header
-        if (isInitialLoadComplete)
-          SliverToBoxAdapter(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Text(
-                    l10n.medicalCategories,
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.bold,
+        SliverToBoxAdapter(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SectionHeader(
+                title: l10n.medicalCategories,
+                icon: LucideIcons.layoutGrid,
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              ),
+              const SizedBox(height: 12),
+              _buildCategoriesSection(context, l10n),
+              const SizedBox(height: 8),
+              // Divider with decorative icon
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Divider(
+                        height: 1,
+                        thickness: 1,
+                        indent: 16,
+                        endIndent: 8,
+                        color: colorScheme.outlineVariant.withOpacity(0.3),
+                      ),
                     ),
-                  ),
+                    Icon(
+                      LucideIcons.pill,
+                      size: 12,
+                      color: colorScheme.outlineVariant,
+                    ),
+                    Expanded(
+                      child: Divider(
+                        height: 1,
+                        thickness: 1,
+                        indent: 8,
+                        endIndent: 16,
+                        color: colorScheme.outlineVariant.withOpacity(0.3),
+                      ),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 12),
-                _buildCategoriesSection(context, l10n),
-                const SizedBox(height: 8),
-                // Divider
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-                  child: Divider(
-                    height: 1,
-                    thickness: 1,
-                    color: colorScheme.outlineVariant.withOpacity(0.5),
-                  ),
-                ),
-              ],
-            ),
+              ),
+            ],
           ),
+        ),
         
         // Recently Updated Section
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
+        if (!isInitialLoadComplete)
+          const SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.only(bottom: 24),
+              child: SkeletonList(height: 200),
+            ),
+          )
+        else if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -241,6 +288,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: _buildHorizontalDrugList(
                     context,
                     title: l10n.recentlyUpdatedDrugs,
+                    icon: LucideIcons.history, // Add icon
                     listHeight: 200,
                     drugs: medicineProvider.recentlyUpdatedDrugs,
                     onViewAll: () {
@@ -254,13 +302,35 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                   ),
                 ),
-                // Divider
+                // Divider with decorative icon
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-                  child: Divider(
-                    height: 1,
-                    thickness: 1,
-                    color: colorScheme.outlineVariant.withOpacity(0.5),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Divider(
+                          height: 1,
+                          thickness: 1,
+                          indent: 16,
+                          endIndent: 8,
+                          color: colorScheme.outlineVariant.withOpacity(0.3),
+                        ),
+                      ),
+                      Icon(
+                        LucideIcons.activity,
+                        size: 12,
+                        color: colorScheme.outlineVariant,
+                      ),
+                      Expanded(
+                        child: Divider(
+                          height: 1,
+                          thickness: 1,
+                          indent: 8,
+                          endIndent: 16,
+                          color: colorScheme.outlineVariant.withOpacity(0.3),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
@@ -268,14 +338,21 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         
         // Popular Drugs Section
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.popularDrugs.isNotEmpty)
+        if (!medicineProvider.isInitialLoadComplete)
+          const SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.only(bottom: 24),
+              child: SkeletonList(height: 200),
+            ),
+          )
+        else if (medicineProvider.popularDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: SizedBox(
               height: 200,
               child: _buildHorizontalDrugList(
                 context,
                 title: l10n.mostSearchedDrugs,
+                icon: LucideIcons.flame, // Add icon
                 listHeight: 200,
                 drugs: medicineProvider.popularDrugs,
                 isPopular: true,
@@ -306,11 +383,13 @@ class _HomeScreenState extends State<HomeScreen> {
     required String title,
     required List<DrugEntity> drugs,
     VoidCallback? onViewAll,
-    double? listHeight, // Add listHeight parameter
-    bool isPopular = false, // Add isPopular flag
+    double? listHeight,
+    bool isPopular = false,
+    IconData? icon, // Add icon parameter
   }) {
     return HorizontalListSection(
       title: title,
+      icon: icon, // Pass icon to HorizontalListSection
       onViewAll: onViewAll,
       listHeight: listHeight, // Pass height to HorizontalListSection
       // Use constants for padding
@@ -355,13 +434,17 @@ class _HomeScreenState extends State<HomeScreen> {
     if (englishCategories.isEmpty &&
         context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
-        height: 115, // Keep height consistent
-        child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
+        height: 115,
+        child: SkeletonList(
+          height: 105,
+          itemWidth: 100,
+          itemCount: 4,
+        ),
       );
     }
     if (englishCategories.isEmpty) {
       _logger.w("HomeScreen: No categories found to display.");
-      return const SizedBox.shrink();
+      return const SizedBox.shrink(); // Or EmptyStateWidget if desired
     }
 
     // Helper function to normalize keys (lowercase, replace space/uppercase with underscore)
@@ -555,5 +638,29 @@ class _HomeScreenState extends State<HomeScreen> {
       }
     }
     return count;
+  }
+
+  // Helper to get top changed drugs sorted by percentage change
+  List<DrugEntity> _getTopChangedDrugs(List<DrugEntity> drugs, int count) {
+    final changedDrugs = drugs.where((drug) {
+      final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
+      final currentPrice = double.tryParse(drug.price) ?? 0;
+      return oldPrice > 0 && currentPrice > 0 && oldPrice != currentPrice;
+    }).toList();
+
+    // Sort by percentage change (descending)
+    changedDrugs.sort((a, b) {
+      final oldPriceA = double.tryParse(a.oldPrice ?? '0') ?? 0;
+      final currentPriceA = double.tryParse(a.price) ?? 0;
+      final percentageA = ((currentPriceA - oldPriceA) / oldPriceA * 100).abs();
+
+      final oldPriceB = double.tryParse(b.oldPrice ?? '0') ?? 0;
+      final currentPriceB = double.tryParse(b.price) ?? 0;
+      final percentageB = ((currentPriceB - oldPriceB) / oldPriceB * 100).abs();
+
+      return percentageB.compareTo(percentageA);
+    });
+
+    return changedDrugs.take(count).toList();
   }
 }
