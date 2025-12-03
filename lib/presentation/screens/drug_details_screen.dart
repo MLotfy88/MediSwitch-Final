@@ -478,14 +478,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-                textAlign: TextAlign.center,
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+
 
   // TabBar Section
   Widget _buildTabBar(
