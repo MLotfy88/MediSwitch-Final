@@ -2,55 +2,53 @@ import 'package:flutter/material.dart';
 import 'section_header.dart'; // Assuming SectionHeader exists
 
 class HorizontalListSection extends StatelessWidget {
-  final String title;
+  final String? title; // Make title optional
   final List<Widget> children;
-  final double? listHeight; // Make listHeight optional
+  final double? listHeight;
   final VoidCallback? onViewAll;
-  // Remove headerPadding, control padding within this widget
-  // final EdgeInsetsGeometry headerPadding;
   final EdgeInsetsGeometry listPadding;
+  final IconData? icon; // Add icon parameter
 
   const HorizontalListSection({
     super.key,
     required this.title,
     required this.children,
-    this.listHeight, // Make listHeight optional in constructor
+    this.listHeight,
     this.onViewAll,
-    // Remove headerPadding from constructor
     this.listPadding = const EdgeInsets.only(
       left: 16.0,
       right: 16.0,
       bottom: 16.0,
-    ), // Add bottom padding to list
+    ),
+    this.icon, // Add to constructor
   });
 
   @override
   Widget build(BuildContext context) {
     if (children.isEmpty) {
-      return const SizedBox.shrink(); // Don't show section if no children
+      return const SizedBox.shrink();
     }
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // Section Header with specific padding matching design doc (mb-4 -> bottom: 16.0)
-        Padding(
-          // Apply standard horizontal padding and specific bottom margin
-          padding: const EdgeInsets.only(
-            left: 16.0,
-            right: 16.0,
-            top: 24.0,
-            bottom: 16.0,
-          ), // Added top padding for consistency
-          child: SectionHeader(
-            title: title,
-            onViewAll: onViewAll,
-            padding:
-                EdgeInsets
-                    .zero, // Remove default padding from SectionHeader itself
+        // Section Header
+        if (title != null)
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 16.0,
+              right: 16.0,
+              top: 24.0,
+              bottom: 16.0,
+            ),
+            child: SectionHeader(
+              title: title!,
+              icon: icon, // Pass icon
+              onViewAll: onViewAll,
+              padding: EdgeInsets.zero,
+            ),
           ),
-        ),
-        // Horizontal List - Wrap in Expanded to take available height from parent SizedBox
+        // Horizontal List
         Expanded(child: _buildHorizontalList()),
       ],
     );
