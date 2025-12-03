@@ -27,11 +27,6 @@ class AlternativeDrugCard extends StatelessWidget {
             vertical: 8.0,
             horizontal: 16.0,
           ),
-          leading: Icon(
-            Icons.medication_liquid_outlined,
-            color: colorScheme.primary,
-            size: 36,
-          ),
           title: Text(
             drug.tradeName,
             style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),

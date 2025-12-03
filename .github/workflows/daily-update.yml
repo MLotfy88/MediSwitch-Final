@@ -37,6 +37,13 @@ jobs:
         run: |
           python3 csv_to_json.py meds_enriched.csv drugs.json
       
+      - name: Update app database
+        run: |
+          # Update the main app database file
+          mkdir -p assets
+          cp meds_enriched.csv assets/meds.csv
+          echo "✅ Updated assets/meds.csv with $(wc -l < assets/meds.csv) lines"
+      
       - name: Upload to Cloudflare Worker
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
@@ -60,6 +67,21 @@ jobs:
             exit 1
           fi
       
+      - name: Commit updated database
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes
+          if git diff --quiet assets/meds.csv; then
+            echo "No changes in assets/meds.csv"
+          else
+            git add assets/meds.csv
+            git commit -m "Auto-update: Daily drug database sync - $(date +'%Y-%m-%d')"
+            git push
+            echo "✅ Pushed updated database to repository"
+          fi
+      
       - name: Create summary
         if: always()
         run: |
@@ -74,4 +96,9 @@ jobs:
             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "- **Status:** ❌ Upload failed" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -f assets/meds.csv ]; then
+            DRUG_COUNT=$(wc -l < assets/meds.csv)
+            echo "- **Database:** $DRUG_COUNT drugs in assets/meds.csv" >> $GITHUB_STEP_SUMMARY
           fi

@@ -49,99 +49,87 @@
 
 ---
 
-## 📋 الجزء الثاني: نشر Cloudflare Worker + D1
+## 📋 الجزء الثاني: نشر Cloudflare Worker + D1 (من المتصفح)
+
+> 💡 **لا حاجة لتثبيت Node.js أو Wrangler** - كل شيء من المتصفح!
 
 ### ✅ الخطوة 1: إنشاء حساب Cloudflare
 
-1. اذهب لـ [dash.cloudflare.com](https://dash.cloudflare.com/sign-up)
+1. اذهب لـ [dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up)
 2. سجل حساب مجاني
 3. فعّل الحساب عبر الإيميل
 
-### ✅ الخطوة 2: تثبيت Wrangler CLI
+### ✅ الخطوة 2: إنشاء Worker
 
-```bash
-npm install -g wrangler
+1. في Dashboard اختر **Workers & Pages**
+2. اضغط **Create Application**
+3. اختر **Create Worker**
+4. اسم Worker: `mediswitch-api`
+5. اضغط **Deploy**
+
+### ✅ الخطوة 3: نسخ كود Worker
+
+1. في صفحة Worker اضغط **Quick Edit**
+2. احذف الكود الموجود بالكامل
+3. افتح ملف `cloudflare-worker/src/index.js` من المشروع
+4. انسخ **كل المحتوى** والصقه في المحرر
+5. اضغط **Save and Deploy**
+
+**ستحصل على URL:**
 ```
-
-**للتحقق:**
-```bash
-wrangler --version
+https://mediswitch-api.YOUR-SUBDOMAIN.workers.dev
 ```
-
-### ✅ الخطوة 3: تسجيل الدخول
-
-```bash
-cd cloudflare-worker
-wrangler login
-```
-
-سيفتح متصفح للمصادقة → اضغط "Allow"
+**احفظ هذا الرابط!** ← ستحتاجه لاحقاً
 
 ### ✅ الخطوة 4: إنشاء D1 Database
 
-```bash
-wrangler d1 create mediswitch-db
+1. Dashboard → **Workers & Pages** → **D1**
+2. اضغط **Create Database**
+3. اسم Database: `mediswitch-db`
+4. اضغط **Create**
+
+### ✅ الخطوة 5: تطبيق Schema
+
+في صفحة D1 Database:
+
+1. اختر تبويب **Console**
+2. افتح ملف `cloudflare-worker/schema.sql`
+3. انسخ **كل المحتوى** والصقه في Console
+4. اضغط **Execute**
+
+**النتيجة المتوقعة:**
+```
+✅ Table 'drugs' created successfully
+Rows affected: 0
 ```
 
-**النتيجة:**
-```
-✅ Successfully created DB 'mediswitch-db'
-binding = "DB"
-database_name = "mediswitch-db"
-database_id = "xxxx-xxxx-xxxx-xxxx"  ← انسخ هذا!
-```
+### ✅ الخطوة 6: ربط Database بـ Worker
 
-### ✅ الخطوة 5: تحديث wrangler.toml
+1. ارجع لصفحة Worker
+2. **Settings** → **Variables**
+3. تحت **D1 Database Bindings**:
+   - Variable name: `DB`
+   - D1 database: اختر `mediswitch-db`
+4. اضغط **Save**
 
-افتح `cloudflare-worker/wrangler.toml` وضع `database_id`:
+### ✅ الخطوة 7: إضافة API Key
 
-```toml
-[[d1_databases]]
-binding = "DB"
-database_name = "mediswitch-db"
-database_id = "PASTE-YOUR-DATABASE-ID-HERE"  ← هنا!
-```
+في نفس صفحة Settings → Variables:
 
-### ✅ الخطوة 6: تطبيق Schema على D1
+1. تحت **Environment Variables** → اضغط **Add variable**
+2. املأ:
+   - Variable name: `API_KEY`
+   - Value: `mediswitch_2025_secure_xyz123` (أي key قوي)
+   - ✅ اختر **Encrypt** (مهم!)
+3. اضغط **Save**
 
-```bash
-wrangler d1 execute mediswitch-db --file=schema.sql
-```
+**احفظ الـ API Key!** ← ستحتاجه في GitHub
 
-**النتيجة:**
-```
-🌀 Executing on mediswitch-db:
-✅ Success!
-```
-
-### ✅ الخطوة 7: إعداد API Key
-
-```bash
-wrangler secret put API_KEY
-```
-
-أدخل API key قوي مثل: `mediswitch_2025_secure_key_xyz123`
-
-**احفظ هذا Key** - ستحتاجه في GitHub Secrets!
-
-### ✅ الخطوة 8: النشر
+### ✅ الخطوة 8: اختبار Worker
 
 ```bash
-wrangler deploy
-```
-
-**النتيجة:**
-```
-✨ Successfully published your Worker!
-🌍 https://mediswitch-api.YOUR-USERNAME.workers.dev
-```
-
-**انسخ الـ URL** ← ستحتاجه!
-
-### ✅ الخطوة 9: اختبار Worker
-
-```bash
-curl "https://mediswitch-api.YOUR-USERNAME.workers.dev/api/stats"
+# اختبار Stats API
+curl "https://mediswitch-api.YOUR-SUBDOMAIN.workers.dev/api/stats"
 ```
 
 **النتيجة المتوقعة:**
@@ -153,9 +141,63 @@ curl "https://mediswitch-api.YOUR-USERNAME.workers.dev/api/stats"
 }
 ```
 
+✅ إذا ظهرت هذه النتيجة → Worker يعمل بنجاح!
+
 ---
 
-## 📋 الجزء الثالث: ربط GitHub Actions مع Worker
+## 📋 الجزء الثالث: رفع البيانات الأولية
+
+### ✅ الخطوة 1: تحويل CSV إلى JSON
+
+```bash
+cd /home/adminlotfy/project
+python3 csv_to_json.py meds_enriched.csv drugs.json
+```
+
+### ✅ الخطوة 2: رفع للـ Worker
+
+```bash
+curl -X POST "https://YOUR-WORKER-URL/api/update" \
+  -H "Authorization: Bearer YOUR-API-KEY" \
+  -H "Content-Type: application/json" \
+  -d @drugs.json \
+  -o response.json
+
+# عرض النتيجة
+cat response.json
+```
+
+**ستستغرق 2-3 دقائق** لرفع 25,500 دواء
+
+**النتيجة المتوقعة:**
+```json
+{
+  "success": true,
+  "updated": 25500,
+  "message": "Successfully updated 25500 drugs"
+}
+```
+
+### ✅ الخطوة 3: التحقق
+
+```bash
+curl "https://YOUR-WORKER-URL/api/stats"
+```
+
+**يجب أن ترى:**
+```json
+{
+  "total_drugs": 25500,
+  "total_companies": 4649,
+  "recent_updates_7d": 25500
+}
+```
+
+✅ **تم!** البيانات الآن على الـ Edge!
+
+---
+
+## 📋 الجزء الرابع: ربط GitHub Actions مع Worker
 
 ### ✅ الخطوة 1: تحديث GitHub Secrets
 
