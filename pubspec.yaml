@@ -64,6 +64,7 @@ dependencies:
   collection: ^1.18.0 # For firstWhereOrNull
   share_plus: ^10.1.4 # Updated version to resolve conflict
   permission_handler: ^11.3.1 # For requesting storage permissions
+  shimmer: ^3.0.0 # For skeleton loading animations
 
 dev_dependencies: # Moved flutter_test and lints here
   flutter_test:
