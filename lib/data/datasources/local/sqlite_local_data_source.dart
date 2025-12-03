@@ -270,6 +270,7 @@ class SqliteLocalDataSource {
       DatabaseHelper.medicinesTable,
       where: whereClause,
       whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
+      orderBy: '${DatabaseHelper.colLastPriceUpdate} DESC', // Order by newest first
       limit: limit,
       offset: offset,
     );
