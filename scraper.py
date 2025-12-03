@@ -26,7 +26,7 @@ TOKEN = "bfwh2025-03-17"
 
 # Scraping Settings
 BATCH_SIZE = 100  # Number of records per request
-MAX_RECORDS = None  # Maximum records to fetch (set to None for all records)
+MAX_RECORDS = 500  # Fetch only recent 500 records (instead of all 25K)
 MIN_DELAY = 2.0   # Minimum delay between requests (seconds)
 MAX_DELAY = 5.0   # Maximum delay between requests (seconds)
 LONG_PAUSE_EVERY = 10  # Add longer pause every N batches
@@ -88,6 +88,50 @@ def random_delay(is_long=False):
     else:
         delay = random.uniform(MIN_DELAY, MAX_DELAY)
     time.sleep(delay)
+
+def get_last_update_timestamp():
+    """Get the most recent Date_updated timestamp from existing data"""
+    try:
+        if not pd.io.common.file_exists(OUTPUT_FILE):
+            log("📂 No existing data file found. Will fetch all records.")
+            return None
+        
+        df = pd.read_csv(OUTPUT_FILE, encoding='utf-8-sig')
+        if df.empty or 'last_price_update' not in df.columns:
+            log("📂 Existing file has no update dates. Will fetch all records.")
+            return None
+        
+        # Find the most recent date
+        valid_dates = df['last_price_update'].dropna()
+        if valid_dates.empty:
+            return None
+        
+        # Convert dates to timestamps to find the latest
+        max_date = None
+        max_timestamp = 0
+        
+        for date_str in valid_dates:
+            try:
+                # Parse dd/mm/yyyy format
+                dt = datetime.strptime(str(date_str), '%d/%m/%Y')
+                timestamp = int(dt.timestamp() * 1000)  # Convert to milliseconds
+                if timestamp > max_timestamp:
+                    max_timestamp = timestamp
+                    max_date = date_str
+            except:
+                continue
+        
+        if max_timestamp > 0:
+            log(f"📅 Last update in database: {max_date}")
+            log(f"📊 Will fetch only drugs updated after this date")
+            return max_timestamp
+        
+        return None
+        
+    except Exception as e:
+        log(f"⚠ Error reading existing data: {e}. Will fetch all records.")
+        return None
+
 
 def login(session):
     """Performs the two-step login process."""
@@ -214,71 +258,87 @@ def save_incremental(all_meds, batch_num):
     log(f"💾 Auto-saved {len(df)} records to {output_file} (Batch {batch_num})")
 
 def scrape_all_data(session):
-    """Scrapes all data from the website using pagination"""
-    log("Starting data scraping...")
+    """Scrapes only new/updated data from the website (incremental sync)"""
+    log("Starting incremental data scraping...")
+    
+    # Get last update timestamp from existing data
+    last_update_ts = get_last_update_timestamp()
     
     all_meds = []
+    new_records = []
     offset = 0
-    total_records = None
+    total_fetched = 0
+    batch_num = 1
     
-    # First request to get total count
-    first_batch = fetch_batch(session, offset)
-    if not first_batch:
-        log("ERROR: Failed to fetch initial batch")
-        return []
-    
-    total_records = first_batch.get('numrows', 0)
-    log(f"✓ Total records available: {total_records}")
-    
-    # Apply MAX_RECORDS limit if set
-    if MAX_RECORDS and MAX_RECORDS < total_records:
-        log(f"⚠ Limiting scrape to {MAX_RECORDS} records (user setting)")
-        total_records = MAX_RECORDS
-    
-    if 'data' in first_batch and first_batch['data']:
-        all_meds.extend(first_batch['data'])
-        log(f"✓ Fetched batch 1: {len(first_batch['data'])} records (Total: {len(all_meds)}/{total_records})")
-        # Auto-save after first batch
-        save_incremental(all_meds, 1)
-    
-    random_delay()
-    
-    # Continue fetching remaining batches
-    batch_num = 2
-    while len(all_meds) < total_records:
-        offset += BATCH_SIZE
-        
+    # Fetch data in batches until we hit old data
+    while True:
         batch_data = fetch_batch(session, offset)
         if not batch_data or 'data' not in batch_data or not batch_data['data']:
             log(f"⚠ No more data at offset {offset}, stopping.")
             break
         
-        all_meds.extend(batch_data['data'])
-        log(f"✓ Fetched batch {batch_num}: {len(batch_data['data'])} records (Total: {len(all_meds)}/{total_records})")
+        batch_items = batch_data['data']
+        batch_size = len(batch_items)
+        total_fetched += batch_size
+        
+        # Filter only new/updated records
+        for item in batch_items:
+            item_date = item.get('Date_updated')
+            
+            # If no last update timestamp, take all records
+            if last_update_ts is None:
+                new_records.append(item)
+            elif item_date:
+                try:
+                    item_ts = int(item_date)
+                    if item_ts > last_update_ts:
+                        new_records.append(item)
+                except:
+                    # If can't parse timestamp, include it to be safe
+                    new_records.append(item)
+        
+        log(f"✓ Batch {batch_num}: {batch_size} records fetched, {len(new_records) - len(all_meds)} new updates")
+        
+        # Check if we've hit old data (no new records in this batch)
+        if last_update_ts is not None and len(new_records) == len(all_meds):
+            log(f"✅ Reached old data. No more updates found.")
+            break
+        
+        all_meds = new_records.copy()
         
         # Auto-save after each batch
-        save_incremental(all_meds, batch_num)
+        if all_meds:
+            save_incremental(all_meds, batch_num)
         
-        # Check if we reached the limit
-        if len(all_meds) >= total_records:
-            log(f"✓ Reached target of {total_records} records, stopping.")
+        # Stop if we've fetched enough or no more new data
+        if MAX_RECORDS and len(all_meds) >= MAX_RECORDS:
+            log(f"✅ Fetched {MAX_RECORDS} records limit")
+            break
+        
+        # If we got fewer records than batch size, we're at the end
+        if batch_size < BATCH_SIZE:
+            log(f"✅ Reached end of available data")
             break
         
         batch_num += 1
+        offset += BATCH_SIZE
         
-        # Add longer pause every N batches to simulate natural behavior
+        # Add longer pause every N batches
         if batch_num % LONG_PAUSE_EVERY == 0:
             random_delay(is_long=True)
         else:
             random_delay()
         
-        # Safety break if we exceed expected total
-        if len(all_meds) > total_records + 100:
-            log("⚠ Warning: Fetched more records than expected, stopping.")
+        # Safety limit: don't fetch more than 5000 records
+        if total_fetched >= 5000:
+            log("⚠ Safety limit reached (5000 records). Stopping.")
             break
     
-    log(f"✓ Scraping complete. Total records fetched: {len(all_meds)}")
+    log(f"✅ Incremental sync complete!")
+    log(f"   Total records scanned: {total_fetched}")
+    log(f"   New/updated records: {len(all_meds)}")
     return all_meds
+
 
 def process_and_save(raw_data):
     """Process raw data and save to CSV"""

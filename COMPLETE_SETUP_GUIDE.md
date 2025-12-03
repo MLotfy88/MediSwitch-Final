@@ -171,8 +171,8 @@ python3 csv_to_json.py meds_enriched.csv drugs.json
 ### ✅ الخطوة 2: رفع للـ Worker
 
 ```bash
-curl -X POST "https://YOUR-WORKER-URL/api/update" \
-  -H "Authorization: Bearer YOUR-API-KEY" \
+curl -X POST "https://mediswitch-api.m-m-lotfy-88.workers.dev/api/update" \
+  -H "Authorization: Bearer mediswitch_2025_secure_xyz123" \
   -H "Content-Type: application/json" \
   -d @drugs.json \
   -o response.json
