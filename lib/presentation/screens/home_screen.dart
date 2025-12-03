@@ -368,7 +368,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     return HorizontalListSection(
-      title: l10n.medicalCategories, // Use localized string
+      title: null, // Remove duplicate title - shown above in header
       listHeight: 105, // Keep height consistent
       // headerPadding removed
       // Use constants for padding
