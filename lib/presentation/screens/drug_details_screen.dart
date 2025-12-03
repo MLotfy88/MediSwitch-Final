@@ -245,65 +245,53 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
+          // Drug Name and Info
+          Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // --- Image Placeholder ---
-              Container(
-                width: 72,
-                height: 72,
-                decoration: BoxDecoration(
-                  color: colorScheme.primaryContainer.withOpacity(0.4),
-                  borderRadius: BorderRadius.circular(AppSpacing.medium),
-                ),
-                child: Icon(
-                  LucideIcons.pill,
-                  size: 32,
-                  color: colorScheme.primary,
+              Text(
+                displayName,
+                style: textTheme.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-              AppSpacing.gapHLarge,
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      displayName,
-                      style: textTheme.headlineSmall?.copyWith(
-                        fontWeight: FontWeight.bold,
-                      ),
+              if (widget.drug.active.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: Text(
+                    widget.drug.active,
+                    style: textTheme.bodyLarge?.copyWith(
+                      color: colorScheme.primary,
+                      fontWeight: FontWeight.w500,
                     ),
-                    if (widget.drug.active.isNotEmpty)
-                      Padding(
-                        padding: AppSpacing.edgeInsetsVXSmall,
-                        child: Text(
-                          widget.drug.active,
-                          style: textTheme.bodyMedium?.copyWith(
-                            color: colorScheme.primary,
-                            fontWeight: FontWeight.w500,
-                          ),
-                          textDirection: ui.TextDirection.ltr,
-                        ),
-                      ),
-                    // Category Badge
-                    if (widget.drug.mainCategory.isNotEmpty)
-                      Padding(
-                        padding: const EdgeInsets.only(top: 4),
-                        child: CustomBadge(
-                          label:
-                              isArabic
-                                  ? (kCategoryTranslation[widget
-                                          .drug
-                                          .mainCategory] ??
-                                      widget.drug.mainCategory)
-                                  : widget.drug.mainCategory,
+                    textDirection: ui.TextDirection.ltr,
+                  ),
+                ),
+              // Category and Dosage Form
+              if (widget.drug.mainCategory.isNotEmpty || widget.drug.dosageForm.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 12),
+                  child: Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      if (widget.drug.mainCategory.isNotEmpty)
+                        CustomBadge(
+                          label: isArabic
+                              ? (kCategoryTranslation[widget.drug.mainCategory] ?? widget.drug.mainCategory)
+                              : widget.drug.mainCategory,
                           backgroundColor: colorScheme.secondaryContainer,
                           textColor: colorScheme.onSecondaryContainer,
                         ),
-                      ),
-                  ],
+                      if (widget.drug.dosageForm.isNotEmpty)
+                        CustomBadge(
+                          label: widget.drug.dosageForm,
+                          backgroundColor: colorScheme.tertiaryContainer,
+                          textColor: colorScheme.onTertiaryContainer,
+                        ),
+                    ],
+                  ),
                 ),
-              ),
             ],
           ),
           
@@ -457,14 +445,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
   // --- NEW Action Cards Grid ---
   Widget _buildActionButtons(BuildContext context, AppLocalizations l10n) {
+    final colorScheme = Theme.of(context).colorScheme;
+    
     return Padding(
-      padding: AppSpacing.edgeInsetsAllMedium,
-      child: _buildActionCardItem(
-        context,
-        icon: LucideIcons.calculator,
-        label: l10n.doseCalculatorButton,
-        color: Colors.green.shade700,
-        onTap: () {
+      padding: const EdgeInsets.symmetric(horizontal: AppSpacing.large, vertical: AppSpacing.small),
+      child: OutlinedButton.icon(
+        onPressed: () {
           final l10n = AppLocalizations.of(context)!;
           _logger.i(
             "DrugDetailsScreen: Opening Weight Calculator for drug: ${widget.drug.tradeName}",
@@ -482,67 +468,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             ),
           );
         },
+        icon: Icon(LucideIcons.calculator, size: 18),
+        label: Text(l10n.doseCalculatorButton),
+        style: OutlinedButton.styleFrom(
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+          side: BorderSide(color: colorScheme.primary.withOpacity(0.5)),
+        ),
       ),
     );
   }
 
-  Widget _buildActionCardItem(
-    BuildContext context, {
-    required IconData icon,
-    required String label,
-    required Color color,
-    required VoidCallback? onTap,
-    bool isLoading = false,
-  }) {
-    final theme = Theme.of(context);
-    final isDark = theme.brightness == Brightness.dark;
-
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(AppSpacing.medium),
-        child: Container(
-          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
-          decoration: BoxDecoration(
-            color: theme.cardColor,
-            borderRadius: BorderRadius.circular(AppSpacing.medium),
-            border: Border.all(color: theme.colorScheme.outline.withOpacity(0.2)),
-            boxShadow: [
-              BoxShadow(
-                color: color.withOpacity(0.1),
-                blurRadius: 8,
-                offset: const Offset(0, 2),
-              ),
-            ],
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              if (isLoading)
-                SizedBox(
-                  width: 24,
-                  height: 24,
-                  child: CircularProgressIndicator(
-                    strokeWidth: 2,
-                    color: color,
-                  ),
-                )
-              else
-                Container(
-                  padding: const EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: color.withOpacity(0.1),
-                    shape: BoxShape.circle,
-                  ),
-                  child: Icon(icon, color: color, size: 24),
-                ),
-              const SizedBox(height: 8),
-              Text(
-                label,
-                style: theme.textTheme.labelLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
                 textAlign: TextAlign.center,
               ),
             ],

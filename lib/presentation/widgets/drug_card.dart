@@ -172,24 +172,6 @@ class DrugCard extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // --- Image Placeholder (Left/Right based on locale) ---
-                Container(
-                  width: 80,
-                  height: 80,
-                  decoration: BoxDecoration(
-                    color: colorScheme.surfaceVariant.withOpacity(0.3),
-                    borderRadius: BorderRadius.circular(AppSpacing.small),
-                  ),
-                  child: Icon(
-                    LucideIcons.pill,
-                    size: 32,
-                    color: colorScheme.primary.withOpacity(0.4),
-                  ),
-                  // TODO: Replace with CachedNetworkImage when URLs are available
-                  // child: CachedNetworkImage(imageUrl: ...),
-                ),
-                AppSpacing.gapHLarge, // 16px gap
-
                 // --- Content ---
                 Expanded(
                   child: Column(
@@ -418,25 +400,7 @@ class DrugCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // --- Image Placeholder ---
-                  Center(
-                    child: Container(
-                      width: 60,
-                      height: 60,
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceVariant.withOpacity(0.3),
-                        shape: BoxShape.circle,
-                      ),
-                      child: Icon(
-                        LucideIcons.pill,
-                        size: 24,
-                        color: colorScheme.primary.withOpacity(0.4),
-                      ),
-                    ),
-                  ),
-                  AppSpacing.gapVMedium, // 12px
-
-                  // --- Name ---
+                  // Name
                   Text(
                     displayName,
                     style: textTheme.bodyMedium?.copyWith(

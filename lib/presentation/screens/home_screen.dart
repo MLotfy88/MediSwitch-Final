@@ -164,85 +164,106 @@ class _HomeScreenState extends State<HomeScreen> {
     bool isInitialLoadComplete,
     int recentlyUpdatedCount,
     int popularCount,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
-    _logger.v("HomeScreen: Building main content CustomScrollView.");
-    // Log state *before* rendering sections
-    _logger.d(
-      "HomeScreen Section Render Check: isInitialLoadComplete=$isInitialLoadComplete, recentCount=$recentlyUpdatedCount, popularCount=$popularCount",
-    );
-
+    _logger.v("HomeScreen: Building main content.");
+    final colorScheme = Theme.of(context).colorScheme;
+    
     return CustomScrollView(
-      // controller: _scrollController, // REMOVED: No controller needed
       slivers: [
-        // Add small space at the top
-        const SliverToBoxAdapter(
-          child: AppSpacing.gapVMedium, // 12px
+        // Top spacing
+        const SliverToBoxAdapter(child: SizedBox(height: 16)),
+        
+        // Search Bar - Integrated design
+        SliverPadding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          sliver: SliverToBoxAdapter(
+            child: const SearchBarButton(),
+          ),
         ),
-        // --- Categories Section (Moved Up) ---
-        if (isInitialLoadComplete) // Use passed parameter
-          SliverToBoxAdapter(
-            child: _buildCategoriesSection(context, l10n),
-          ), // Pass l10n
-        // Add larger space below categories
+        
+        const SliverToBoxAdapter(child: SizedBox(height: 24)),
+        
+        // Categories Section with header
         if (isInitialLoadComplete)
-          const SliverToBoxAdapter(
-            child: AppSpacing.gapVLarge, // 16px
+          SliverToBoxAdapter(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Text(
+                    l10n.categories,
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 12),
+                _buildCategoriesSection(context, l10n),
+                const SizedBox(height: 8),
+                // Divider
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                  child: Divider(
+                    height: 1,
+                    thickness: 1,
+                    color: colorScheme.outlineVariant.withOpacity(0.5),
+                  ),
+                ),
+              ],
+            ),
           ),
-        // --- Search Bar (Moved Down) ---
-        const SliverPadding(
-          padding: AppSpacing.edgeInsetsHMedium, // Horizontal padding (12px)
-          sliver: SliverToBoxAdapter(child: SearchBarButton()),
-        ),
-        // Add larger space below search bar
-        const SliverToBoxAdapter(
-          child: AppSpacing.gapVLarge, // 16px
-        ),
-        // --- Recently Updated Section (Moved Up relative to Search) ---
+        
+        // Recently Updated Section
         if (medicineProvider.isInitialLoadComplete &&
             medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            // Wrap with SizedBox to give explicit height
-            child: SizedBox(
-              height: 200, // Define a fixed height (adjust as needed)
-              child: _buildHorizontalDrugList(
-                context,
-                title: l10n.recentlyUpdatedDrugs, // Use localized string
-                listHeight: 200, // Pass the height down
-                drugs:
-                    medicineProvider
-                        .recentlyUpdatedDrugs, // Get data from provider
-                onViewAll: () {
-                  _logger.i("HomeScreen: View All Recent tapped.");
-                  Navigator.push(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  height: 200,
+                  child: _buildHorizontalDrugList(
                     context,
-                    MaterialPageRoute(
-                      builder: (_) => const SearchScreen(initialQuery: ''),
-                    ),
-                  );
-                },
-              ), // End _buildHorizontalDrugList
-            ), // End SizedBox
+                    title: l10n.recentlyUpdatedDrugs,
+                    listHeight: 200,
+                    drugs: medicineProvider.recentlyUpdatedDrugs,
+                    onViewAll: () {
+                      _logger.i("HomeScreen: View All Recent tapped.");
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const SearchScreen(initialQuery: ''),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+                // Divider
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                  child: Divider(
+                    height: 1,
+                    thickness: 1,
+                    color: colorScheme.outlineVariant.withOpacity(0.5),
+                  ),
+                ),
+              ],
+            ),
           ),
-        // Add space between sections
-        if (medicineProvider.isInitialLoadComplete &&
-            medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
-          const SliverToBoxAdapter(
-            child: AppSpacing.gapVLarge,
-          ), // Space between sections (16px)
-        // --- Popular Drugs Section ---
-        // Access provider directly in the condition
+        
+        // Popular Drugs Section
         if (medicineProvider.isInitialLoadComplete &&
             medicineProvider.popularDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            // Wrap with SizedBox to give explicit height
             child: SizedBox(
-              height: 200, // Define a fixed height (adjust as needed)
+              height: 200,
               child: _buildHorizontalDrugList(
                 context,
-                title: l10n.mostSearchedDrugs, // Use localized string
-                listHeight: 200, // Pass the height down
-                drugs: medicineProvider.popularDrugs, // Get data from provider
+                title: l10n.mostSearchedDrugs,
+                listHeight: 200,
+                drugs: medicineProvider.popularDrugs,
                 isPopular: true,
                 onViewAll: () {
                   _logger.i("HomeScreen: View All Popular tapped.");
@@ -253,16 +274,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   );
                 },
-              ), // End _buildHorizontalDrugList
-            ), // End SizedBox
+              ),
+            ),
           ),
 
-        // --- REMOVED All Drugs Section ---
-
-        // Add some padding at the bottom
+        // Bottom spacing
         const SliverPadding(
-          padding: AppSpacing.edgeInsetsVLarge,
-        ), // Use constant (16px)
+          padding: EdgeInsets.only(bottom: 24),
+        ),
       ],
     );
   }
