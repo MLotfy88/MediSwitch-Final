@@ -12,6 +12,7 @@ import '../widgets/horizontal_list_section.dart';
 import '../widgets/category_card.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/search_bar_button.dart';
+import '../widgets/quick_stats_banner.dart'; // Import Quick Stats Banner
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
@@ -82,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
           // padding: AppSpacing.edgeInsetsAllMedium,
           child: Column(
             children: [
-              const HomeHeader(), // Contains its own padding
+              const HomeHeader(notificationCount: 3), // TODO: Get actual count from notification service
               Expanded(
                 child: RefreshIndicator(
                   onRefresh: () {
@@ -182,7 +183,20 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         
-        const SliverToBoxAdapter(child: SizedBox(height: 24)),
+        const SliverToBoxAdapter(child: SizedBox(height: 12)),
+        
+        // Quick Stats Banner
+        if (isInitialLoadComplete)
+          SliverToBoxAdapter(
+            child: QuickStatsBanner(
+              totalDrugs: medicineProvider.displayedMedicines.length,
+              todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
+              priceIncreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, true),
+              priceDecreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, false),
+            ),
+          ),
+        
+        const SliverToBoxAdapter(child: SizedBox(height: 16)),
         
         // Categories Section with header
         if (isInitialLoadComplete)
@@ -523,5 +537,23 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
     );
+  }
+
+  // Helper to count price increases/decreases in a list of drugs
+  int _countPriceChanges(List<DrugEntity> drugs, bool isIncrease) {
+    int count = 0;
+    for (final drug in drugs) {
+      final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
+      final currentPrice = double.tryParse(drug.price) ?? 0;
+      
+      if (oldPrice > 0 && currentPrice > 0 && oldPrice != currentPrice) {
+        if (isIncrease && currentPrice > oldPrice) {
+          count++;
+        } else if (!isIncrease && currentPrice < oldPrice) {
+          count++;
+        }
+      }
+    }
+    return count;
   }
 }
