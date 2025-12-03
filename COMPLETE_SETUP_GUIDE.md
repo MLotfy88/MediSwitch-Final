@@ -33,7 +33,7 @@
 |-----|-------|-------|
 | `DWAPRICES_PHONE` | `01558166440` | رقم الهاتف لموقع dwaprices |
 | `DWAPRICES_TOKEN` | `bfwh2025-03-17` | Token للتسجيل |
-| `WORKER_URL` | `https://mediswitch-api.YOUR-USERNAME.workers.dev` | URL الـ Worker (بعد النشر) |
+| `WORKER_URL` | `https://mediswitch-api.m-m-lotfy-88.workers.dev/` | URL الـ Worker (بعد النشر) |
 | `WORKER_API_KEY` | `your-secure-api-key` | API Key للـ Worker (بعد الإعداد) |
 
 ### ✅ الخطوة 3: اختبار GitHub Action يدوياً
@@ -59,73 +59,82 @@
 2. سجل حساب مجاني
 3. فعّل الحساب عبر الإيميل
 
-### ✅ الخطوة 2: إنشاء Worker
+### ✅ الخطوة 2: إنشاء D1 Database أولاً
 
-1. في Dashboard اختر **Workers & Pages**
-2. اضغط **Create Application**
-3. اختر **Create Worker**
-4. اسم Worker: `mediswitch-api`
-5. اضغط **Deploy**
+**مهم:** نبدأ بـ D1 أولاً قبل Worker
 
-### ✅ الخطوة 3: نسخ كود Worker
+1. من القائمة الجانبية → **Storage & Databases**
+2. اختر **D1 SQL Database**
+3. اضغط **Create database**
+4. اسم Database: `mediswitch-db`
+5. اضغط **Create**
 
-1. في صفحة Worker اضغط **Quick Edit**
-2. احذف الكود الموجود بالكامل
-3. افتح ملف `cloudflare-worker/src/index.js` من المشروع
-4. انسخ **كل المحتوى** والصقه في المحرر
-5. اضغط **Save and Deploy**
-
-**ستحصل على URL:**
-```
-https://mediswitch-api.YOUR-SUBDOMAIN.workers.dev
-```
-**احفظ هذا الرابط!** ← ستحتاجه لاحقاً
-
-### ✅ الخطوة 4: إنشاء D1 Database
-
-1. Dashboard → **Workers & Pages** → **D1**
-2. اضغط **Create Database**
-3. اسم Database: `mediswitch-db`
-4. اضغط **Create**
-
-### ✅ الخطوة 5: تطبيق Schema
+### ✅ الخطوة 3: تطبيق Schema
 
 في صفحة D1 Database:
 
 1. اختر تبويب **Console**
-2. افتح ملف `cloudflare-worker/schema.sql`
-3. انسخ **كل المحتوى** والصقه في Console
-4. اضغط **Execute**
+2. انسخ محتوى ملف `cloudflare-worker/schema.sql` من مشروعك
+3. الصقه في مربع الـ Console
+4. اضغط **Execute** أو **Run**
 
 **النتيجة المتوقعة:**
 ```
-✅ Table 'drugs' created successfully
-Rows affected: 0
+✅ Rows: 0
+✅ Duration: X ms
 ```
+
+**احفظ Database ID** - ستحتاجه لاحقاً!
+
+### ✅ الخطوة 4: إنشاء Worker
+
+1. من القائمة الجانبية → **Workers & Pages**
+2. اضغط **Create** (أو **Create application**)
+3. اختر تبويب **Workers**
+4. اضغط **Create Worker**
+5. اسم Worker: `mediswitch-api`
+6. اضغط **Deploy**
+
+### ✅ الخطوة 5: نسخ كود Worker
+
+1. في صفحة Worker اضغط **Edit code** (أو **Quick edit**)
+2. احذف الكود الموجود بالكامل
+3. افتح ملف `cloudflare-worker/src/index.js` من مشروعك
+4. انسخ **كل المحتوى** والصقه
+5. اضغط **Save and deploy**
+
+**ستحصل على URL مثل:**
+```
+https://mediswitch-api.YOUR-SUBDOMAIN.workers.dev
+```
+**احفظ هذا الرابط!** ✅
 
 ### ✅ الخطوة 6: ربط Database بـ Worker
 
-1. ارجع لصفحة Worker
-2. **Settings** → **Variables**
-3. تحت **D1 Database Bindings**:
-   - Variable name: `DB`
-   - D1 database: اختر `mediswitch-db`
-4. اضغط **Save**
+1. في صفحة Worker → تبويب **Settings**
+2. ابحث عن **Bindings** أو **Variables and Secrets**
+3. اضغط **Add** تحت **D1 Database Bindings**
+4. املأ:
+   - **Variable name:** `DB`
+   - **D1 database:** اختر `mediswitch-db`
+5. اضغط **Save** أو **Deploy**
 
 ### ✅ الخطوة 7: إضافة API Key
 
 في نفس صفحة Settings → Variables:
 
-1. تحت **Environment Variables** → اضغط **Add variable**
+1. اضغط **Add** تحت **Environment Variables**
 2. املأ:
-   - Variable name: `API_KEY`
-   - Value: `mediswitch_2025_secure_xyz123` (أي key قوي)
-   - ✅ اختر **Encrypt** (مهم!)
-3. اضغط **Save**
+   - **Variable name:** `API_KEY`
+   - **Value:** `mediswitch_2025_secure_xyz123` (أي key قوي)
+   - **Type:** اختر **Secret** أو **Encrypt** ✅
+3. اضغط **Save** ثم **Deploy**
 
-**احفظ الـ API Key!** ← ستحتاجه في GitHub
+**احفظ الـ API Key!** ستحتاجه في GitHub
 
 ### ✅ الخطوة 8: اختبار Worker
+
+افتح Terminal وجرب:
 
 ```bash
 # اختبار Stats API
@@ -142,6 +151,11 @@ curl "https://mediswitch-api.YOUR-SUBDOMAIN.workers.dev/api/stats"
 ```
 
 ✅ إذا ظهرت هذه النتيجة → Worker يعمل بنجاح!
+
+**ملاحظة:** إذا ظهر خطأ، تحقق من:
+- ✅ Database مربوطة بـ Worker
+- ✅ Schema تم تطبيقه
+- ✅ الكود تم حفظه ونشره
 
 ---
 
