@@ -2,7 +2,10 @@ import 'dart:ui' as ui; // Import dart:ui with alias
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate
+import 'package:lucide_icons/lucide_icons.dart';
 import '../../domain/entities/drug_entity.dart';
+import '../../domain/repositories/interaction_repository.dart';
+import '../../core/di/locator.dart';
 
 // Helper widget for displaying a drug item in the list/grid
 class DrugListItem extends StatelessWidget {
@@ -19,6 +22,8 @@ class DrugListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final colorScheme = Theme.of(context).colorScheme;
+    final interactionRepo = locator<InteractionRepository>();
+    final hasInteractions = interactionRepo.hasKnownInteractions(drug);
 
     return Card(
           // Removed default margin, handled by parent list/grid padding/spacing
@@ -41,13 +46,34 @@ class DrugListItem extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        drug.tradeName,
-                        style: textTheme.titleSmall?.copyWith(
-                          fontWeight: FontWeight.bold,
-                        ),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              drug.tradeName,
+                              style: textTheme.titleSmall?.copyWith(
+                                fontWeight: FontWeight.bold,
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          // Warning icon if drug has interactions
+                          if (hasInteractions)
+                            Container(
+                              margin: const EdgeInsets.only(left: 4),
+                              padding: const EdgeInsets.all(4),
+                              decoration: BoxDecoration(
+                                color: Colors.amber.shade100,
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                              child: Icon(
+                                LucideIcons.alertTriangle,
+                                size: 14,
+                                color: Colors.amber.shade800,
+                              ),
+                            ),
+                        ],
                       ),
                       if (drug.arabicName.isNotEmpty &&
                           drug.arabicName != drug.tradeName)

@@ -148,8 +148,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               child: _buildHeaderCard(context, colorScheme, textTheme, l10n),
             ),
             SliverToBoxAdapter(
-              // Wrap Action Buttons
-              child: _buildActionCards(context, colorScheme, textTheme, l10n),
+              child: _buildActionButtons(context, l10n),
             ),
             SliverToBoxAdapter(
               // Wrap spacing
@@ -457,51 +456,32 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   }
 
   // --- NEW Action Cards Grid ---
-  Widget _buildActionCards(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
+  Widget _buildActionButtons(BuildContext context, AppLocalizations l10n) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: AppSpacing.large),
-      child: Row(
-        children: [
-          Expanded(
-            child: _buildActionCardItem(
-              context,
-              icon: LucideIcons.calculator,
-              label: l10n.doseCalculatorButton,
-              color: Colors.blue.shade600,
-              onTap: () {
-                _logger.i("DrugDetailsScreen: Dose Calculator button tapped.");
-                context.read<DoseCalculatorProvider>().setSelectedDrug(
-                  widget.drug,
-                );
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const WeightCalculatorScreen(),
-                  ),
-                );
-              },
+      padding: AppSpacing.edgeInsetsAllMedium,
+      child: _buildActionCardItem(
+        context,
+        icon: LucideIcons.calculator,
+        label: l10n.doseCalculatorButton,
+        color: Colors.green.shade700,
+        onTap: () {
+          final l10n = AppLocalizations.of(context)!;
+          _logger.i(
+            "DrugDetailsScreen: Opening Weight Calculator for drug: ${widget.drug.tradeName}",
+          );
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(l10n.calculatorComingSoon),
+              duration: const Duration(seconds: 2),
             ),
-          ),
-          AppSpacing.gapHMedium,
-          Expanded(
-            child: _buildActionCardItem(
-              context,
-              icon: LucideIcons.zap,
-              label: l10n.drugInteractionsButton,
-              color: Colors.amber.shade700,
-              onTap:
-                  _isLoadingInteractions
-                      ? null
-                      : () => _showInteractionsDialog(context, l10n),
-              isLoading: _isLoadingInteractions,
+          );
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const WeightCalculatorScreen(),
             ),
-          ),
-        ],
+          );
+        },
       ),
     );
   }
