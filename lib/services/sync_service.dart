@@ -8,7 +8,7 @@ import '../services/database_service.dart';
 class SyncService {
   // Cloudflare Worker configuration
   // TODO: Replace with your actual Cloudflare Worker URL after deployment
-  static const String BASE_URL = 'https://mediswitch-api.YOUR-USERNAME.workers.dev';
+  static const String BASE_URL = 'https://mediswitch-api.m-m-lotfy-88.workers.dev/';
   static const String SYNC_ENDPOINT = '/api/sync';
   
   // SharedPreferences keys
