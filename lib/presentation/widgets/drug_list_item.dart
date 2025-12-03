@@ -33,47 +33,6 @@ class DrugListItem extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Image Section - Wrapped with Hero
-                Hero(
-                  // Create a unique tag for the Hero animation
-                  tag:
-                      'drug_image_${drug.tradeName}', // Use tradeName or a unique ID if available
-                  child: AspectRatio(
-                    aspectRatio: 16 / 10, // Adjust aspect ratio as needed
-                    child: Container(
-                      color: colorScheme.surfaceVariant.withOpacity(
-                        0.5,
-                      ), // Background for placeholder
-                      child:
-                          drug.imageUrl != null && drug.imageUrl!.isNotEmpty
-                              ? CachedNetworkImage(
-                                imageUrl: drug.imageUrl!,
-                                placeholder:
-                                    (context, url) => const Center(
-                                      child: CircularProgressIndicator(
-                                        strokeWidth: 2.0,
-                                      ),
-                                    ),
-                                errorWidget:
-                                    (context, url, error) => Icon(
-                                      Icons.medication_liquid_outlined,
-                                      color: colorScheme.onSurfaceVariant
-                                          .withOpacity(0.5),
-                                      size: 40,
-                                    ),
-                                fit: BoxFit.cover,
-                              )
-                              : Icon(
-                                // Placeholder icon if no image
-                                Icons.medication_liquid_outlined,
-                                color: colorScheme.onSurfaceVariant.withOpacity(
-                                  0.5,
-                                ),
-                                size: 40,
-                              ),
-                    ),
-                  ),
-                ),
                 // Text Section
                 Padding(
                   padding: const EdgeInsets.all(
