@@ -196,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: SkeletonCard(height: 100),
                 )
               : QuickStatsBanner(
-                  totalDrugs: medicineProvider.displayedMedicines.length,
+                  totalDrugs: medicineProvider.filteredMedicines.length,
                   todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
                   priceIncreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, true),
                   priceDecreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, false),
