@@ -496,6 +496,7 @@ class DrugCard extends StatelessWidget {
                       ],
                     ),
                   ],
+                  ],
                 ),
               ],
             ),
