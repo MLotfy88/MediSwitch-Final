@@ -203,15 +203,21 @@ wc -l meds_enriched.csv
 head -5 meds_enriched.csv
 ```
 
-### ✅ الخطوة 2: تحديث قاعدة البيانات المحلية
+### ✅ الخطوة 2: تحديث قاعدة البيانات الأساسية للتطبيق
 
-**الطريقة 1: استخدام Python Script (موصى به)**
+**ملف قاعدة البيانات:** `assets/meds.csv`
 
 ```bash
-python3 update_local_database.py
+# نسخ البيانات المحدثة لملف التطبيق
+cp meds_enriched.csv assets/meds.csv
+
+# التحقق
+ls -lh assets/meds.csv
+wc -l assets/meds.csv  # يجب أن يكون 25501 سطر (25500 + header)
 ```
 
-**إذا لم يكن الملف موجود، سأنشئه الآن...**
+**النتيجة:**
+✅ ملف `assets/meds.csv` الآن محدث بـ **25,500 دواء كامل**
 
 ---
 
