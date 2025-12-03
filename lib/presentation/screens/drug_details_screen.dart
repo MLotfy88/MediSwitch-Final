@@ -740,7 +740,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           ),
         );
       },
-      (interactions) {
+      (List<DrugInteraction> interactions) {
         _logger.i(
           "Found ${interactions.length} interactions for ${widget.drug.tradeName}",
         );
@@ -776,7 +776,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   },
                 ),
               ],
-              scrollable: interactions.length > 5,
+              scrollable: true,
             );
           },
         );
