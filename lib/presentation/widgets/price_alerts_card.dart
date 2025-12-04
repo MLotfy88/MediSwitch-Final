@@ -85,8 +85,14 @@ class PriceAlertsCard extends StatelessWidget {
 
     final isIncrease = currentPrice > oldPrice;
     final percentageChange = ((currentPrice - oldPrice) / oldPrice * 100).abs();
+
+    // Use locale to determine which name to display
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
     final displayName =
-        drug.arabicName.isNotEmpty ? drug.arabicName : drug.tradeName;
+        (isArabic && drug.arabicName.isNotEmpty)
+            ? drug.arabicName
+            : drug.tradeName;
 
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
@@ -122,8 +128,8 @@ class PriceAlertsCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  '${_formatPrice(oldPrice)} ← '
-                  '${_formatPrice(currentPrice)} ج.م',
+                  '${_formatPrice(currentPrice)} → '
+                  '${_formatPrice(oldPrice)} ج.م',
                   style: textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontSize: 12,

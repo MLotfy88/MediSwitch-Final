@@ -14,6 +14,7 @@ import '../widgets/banner_ad_widget.dart';
 import '../widgets/search_bar_button.dart';
 import '../widgets/quick_stats_banner.dart'; // Import Quick Stats Banner
 import '../widgets/price_alerts_card.dart'; // Import Price Alerts Card
+import '../widgets/high_risk_drugs_card.dart'; // Import High Risk Drugs Card
 import '../widgets/skeleton_loader.dart'; // Import Skeleton Loader
 import '../widgets/empty_state_widget.dart'; // Import Empty State Widget
 import 'package:flutter_animate/flutter_animate.dart';
@@ -86,7 +87,9 @@ class _HomeScreenState extends State<HomeScreen> {
           // padding: AppSpacing.edgeInsetsAllMedium,
           child: Column(
             children: [
-              const HomeHeader(notificationCount: 3), // TODO: Get actual count from notification service
+              const HomeHeader(
+                notificationCount: 3,
+              ), // TODO: Get actual count from notification service
               Expanded(
                 child: RefreshIndicator(
                   onRefresh: () {
@@ -172,42 +175,47 @@ class _HomeScreenState extends State<HomeScreen> {
   ) {
     _logger.v("HomeScreen: Building main content.");
     final colorScheme = Theme.of(context).colorScheme;
-    
+
     return CustomScrollView(
       slivers: [
         // Top spacing
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
-        
+
         // Search Bar - Integrated design
         SliverPadding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
-          sliver: SliverToBoxAdapter(
-            child: const SearchBarButton(),
-          ),
+          sliver: SliverToBoxAdapter(child: const SearchBarButton()),
         ),
-        
+
         const SliverToBoxAdapter(child: SizedBox(height: 12)),
-        
+
         // Quick Stats Banner
         SliverToBoxAdapter(
-          child: !isInitialLoadComplete
-              ? const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  child: SkeletonCard(height: 100),
-                )
-              : QuickStatsBanner(
-                  totalDrugs: medicineProvider.filteredMedicines.length,
-                  todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
-                  priceIncreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, true),
-                  priceDecreases: _countPriceChanges(medicineProvider.recentlyUpdatedDrugs, false),
-                ),
+          child:
+              !isInitialLoadComplete
+                  ? const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    child: SkeletonCard(height: 100),
+                  )
+                  : QuickStatsBanner(
+                    totalDrugs: medicineProvider.filteredMedicines.length,
+                    todayUpdates: medicineProvider.recentlyUpdatedDrugs.length,
+                    priceIncreases: _countPriceChanges(
+                      medicineProvider.recentlyUpdatedDrugs,
+                      true,
+                    ),
+                    priceDecreases: _countPriceChanges(
+                      medicineProvider.recentlyUpdatedDrugs,
+                      false,
+                    ),
+                  ),
         ),
-        
+
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
-        
+
         // Price Alerts Card - Top price changes
         if (!isInitialLoadComplete)
-           const SliverToBoxAdapter(
+          const SliverToBoxAdapter(
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: SkeletonCard(height: 180),
@@ -216,12 +224,33 @@ class _HomeScreenState extends State<HomeScreen> {
         else if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: PriceAlertsCard(
-              topChangedDrugs: _getTopChangedDrugs(medicineProvider.recentlyUpdatedDrugs, 3),
+              topChangedDrugs: _getTopChangedDrugs(
+                medicineProvider.recentlyUpdatedDrugs,
+                3,
+              ),
             ),
           ),
-        
+
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
-        
+
+        // High Risk Drugs Section
+        if (!isInitialLoadComplete)
+          const SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              child: SkeletonCard(height: 180),
+            ),
+          )
+        else
+          SliverToBoxAdapter(
+            child: HighRiskDrugsCard(
+              allDrugs: medicineProvider.filteredMedicines,
+              onDrugTap: (drug) => _navigateToDetails(context, drug),
+            ),
+          ),
+
+        const SliverToBoxAdapter(child: SizedBox(height: 16)),
+
         // Categories Section with header
         SliverToBoxAdapter(
           child: Column(
@@ -230,7 +259,10 @@ class _HomeScreenState extends State<HomeScreen> {
               SectionHeader(
                 title: l10n.medicalCategories,
                 icon: LucideIcons.layoutGrid,
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
+                ),
               ),
               const SizedBox(height: 12),
               _buildCategoriesSection(context, l10n),
@@ -269,7 +301,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
         ),
-        
+
         // Recently Updated Section
         if (!isInitialLoadComplete)
           const SliverToBoxAdapter(
@@ -336,7 +368,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
-        
+
         // Popular Drugs Section
         if (!medicineProvider.isInitialLoadComplete)
           const SliverToBoxAdapter(
@@ -370,9 +402,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
 
         // Bottom spacing
-        const SliverPadding(
-          padding: EdgeInsets.only(bottom: 24),
-        ),
+        const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
       ],
     );
   }
@@ -435,11 +465,7 @@ class _HomeScreenState extends State<HomeScreen> {
         context.watch<MedicineProvider>().isLoading) {
       return const SizedBox(
         height: 115,
-        child: SkeletonList(
-          height: 105,
-          itemWidth: 100,
-          itemCount: 4,
-        ),
+        child: SkeletonList(height: 105, itemWidth: 100, itemCount: 4),
       );
     }
     if (englishCategories.isEmpty) {
@@ -628,7 +654,7 @@ class _HomeScreenState extends State<HomeScreen> {
     for (final drug in drugs) {
       final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
       final currentPrice = double.tryParse(drug.price) ?? 0;
-      
+
       if (oldPrice > 0 && currentPrice > 0 && oldPrice != currentPrice) {
         if (isIncrease && currentPrice > oldPrice) {
           count++;
@@ -642,11 +668,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // Helper to get top changed drugs sorted by percentage change
   List<DrugEntity> _getTopChangedDrugs(List<DrugEntity> drugs, int count) {
-    final changedDrugs = drugs.where((drug) {
-      final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
-      final currentPrice = double.tryParse(drug.price) ?? 0;
-      return oldPrice > 0 && currentPrice > 0 && oldPrice != currentPrice;
-    }).toList();
+    final changedDrugs =
+        drugs.where((drug) {
+          final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
+          final currentPrice = double.tryParse(drug.price) ?? 0;
+          return oldPrice > 0 && currentPrice > 0 && oldPrice != currentPrice;
+        }).toList();
 
     // Sort by percentage change (descending)
     changedDrugs.sort((a, b) {

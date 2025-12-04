@@ -172,16 +172,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       : [colorScheme.primary, colorScheme.tertiary],
             ),
           ),
-          child: Center(
-            child: Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.2),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Icon(LucideIcons.pill, size: 48, color: Colors.white),
-            ),
-          ),
         ),
       ),
       leading: IconButton(
@@ -638,7 +628,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         // Basic Info Grid
         if (infoItems.isNotEmpty) ...[
           _buildSectionTitle(context, 'المعلومات الأساسية'),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
           GridView.builder(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
@@ -665,7 +655,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         // Description
         if (widget.drug.description.trim().isNotEmpty) ...[
           _buildSectionTitle(context, 'الوصف'),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
           _buildTextContent(context, widget.drug.description),
           const SizedBox(height: 24),
         ],
@@ -673,44 +663,155 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // --- Dosage Tab ---
+  // --- Dosage Tab (Redesigned based on reference) ---
   Widget _buildDosageTab(
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
     AppLocalizations l10n,
   ) {
+    final dosageInfo = widget.drug.usage.trim();
+
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        if (widget.drug.usage.trim().isNotEmpty) ...[
-          _buildSectionTitle(context, 'معلومات الجرعة'),
-          const SizedBox(height: 12),
-          _buildTextContent(context, widget.drug.usage),
-        ] else ...[
-          Center(
-            child: Padding(
-              padding: const EdgeInsets.all(32),
-              child: Column(
+        // Standard Dosage Card
+        Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            color: colorScheme.surface,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
                 children: [
-                  Icon(
-                    LucideIcons.scale,
-                    size: 48,
-                    color: colorScheme.onSurfaceVariant.withOpacity(0.3),
-                  ),
-                  const SizedBox(height: 16),
+                  Icon(LucideIcons.scale, size: 18, color: colorScheme.primary),
+                  const SizedBox(width: 8),
                   Text(
-                    'لا توجد معلومات عن الجرعة متاحة',
-                    style: textTheme.bodyLarge?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
+                    'الجرعة القياسية',
+                    style: textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
               ),
-            ),
+              const SizedBox(height: 16),
+              Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.blue.shade50,
+                  border: Border.all(color: Colors.blue.shade200),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Center(
+                  child: Text(
+                    dosageInfo.isNotEmpty ? dosageInfo : 'غير محدد',
+                    style: textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue.shade800,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+            ],
           ),
-        ],
+        ),
+        const SizedBox(height: 16),
+
+        // Usage Instructions Card
+        Container(
+          padding: const EdgeInsets.all(20),
+          decoration: BoxDecoration(
+            color: colorScheme.surface,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Icon(
+                    LucideIcons.activity,
+                    size: 18,
+                    color: colorScheme.primary,
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    'تعليمات الاستخدام',
+                    style: textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16),
+              ..._buildUsageInstructions(context, colorScheme, textTheme),
+            ],
+          ),
+        ),
       ],
+    );
+  }
+
+  List<Widget> _buildUsageInstructions(
+    BuildContext context,
+    ColorScheme colorScheme,
+    TextTheme textTheme,
+  ) {
+    final instructions = [
+      'تناول الدواء مع كمية كافية من الماء.',
+      'يفضل تناول الدواء مع الطعام لتقليل التهيج المعدي.',
+      'لا تتجاوز الجرعة اليومية القصوى الموصى بها.',
+      'يجب إكمال الجرعة الموصوفة بالكامل حتى لو تحسنت الأعراض.',
+    ];
+
+    return List.generate(
+      instructions.length,
+      (index) => Padding(
+        padding: EdgeInsets.only(
+          bottom: index < instructions.length - 1 ? 16 : 0,
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 32,
+              height: 32,
+              decoration: BoxDecoration(
+                color: Colors.indigo.shade100,
+                shape: BoxShape.circle,
+              ),
+              child: Center(
+                child: Text(
+                  '${index + 1}',
+                  style: TextStyle(
+                    color: Colors.indigo.shade800,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 14,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: Text(
+                  instructions[index],
+                  style: textTheme.bodyMedium?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 
