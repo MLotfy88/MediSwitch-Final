@@ -1,0 +1,99 @@
+name: Sync Full Database to D1 (One-time)
+
+on:
+  workflow_dispatch:  # يعمل يدوياً فقط
+
+jobs:
+  sync-d1:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Send Slack - Start
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: MediSwitch Bot
+          SLACK_ICON_EMOJI: ':database:'
+          SLACK_COLOR: '#007ec6'
+          SLACK_MESSAGE: '🗄️ بدء مزامنة قاعدة البيانات الكاملة إلى D1...'
+      
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install Wrangler
+        run: npm install -g wrangler
+      
+      - name: Check if d1_import.sql exists
+        run: |
+          if [ ! -f d1_import.sql ]; then
+            echo "❌ Error: d1_import.sql not found!"
+            echo "Run: python3 scripts/export_to_d1.py"
+            exit 1
+          fi
+          
+          FILE_SIZE=$(du -h d1_import.sql | cut -f1)
+          RECORD_COUNT=$(grep -c "INSERT INTO drugs" d1_import.sql || echo "0")
+          echo "📦 File size: $FILE_SIZE"
+          echo "📊 Batch count: $RECORD_COUNT"
+      
+      - name: Upload to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cd cloudflare-worker
+          
+          echo "🚀 Uploading database to D1..."
+          wrangler d1 execute mediswitch-db --file=../d1_import.sql --remote
+          
+          echo ""
+          echo "✅ Upload complete!"
+      
+      - name: Verify Upload
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cd cloudflare-worker
+          
+          echo "🔍 Verifying data..."
+          COUNT=$(wrangler d1 execute mediswitch-db --command="SELECT COUNT(*) as total FROM drugs;" --remote --json | jq -r '.[0].results[0].total')
+          
+          echo "✅ Total records in D1: $COUNT"
+          
+          if [ "$COUNT" -lt 20000 ]; then
+            echo "⚠️ Warning: Expected 25000+ records but got $COUNT"
+            exit 1
+          fi
+      
+      - name: Send Slack - Success
+        uses: rtCamp/action-slack-notify@v2
+        if: success()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: MediSwitch Bot
+          SLACK_ICON_EMOJI: ':white_check_mark:'
+          SLACK_COLOR: '#36a64f'
+          SLACK_MESSAGE: |
+            ✅ *تم مزامنة قاعدة البيانات الكاملة إلى D1 بنجاح!*
+            
+            📊 *الإحصائيات:*
+            • إجمالي السجلات المرفوعة: ~25,500 دواء
+            
+            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|عرض تفاصيل التنفيذ>
+      
+      - name: Send Slack - Failure
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: MediSwitch Bot
+          SLACK_ICON_EMOJI: ':x:'
+          SLACK_COLOR: '#ff0000'
+          SLACK_MESSAGE: |
+            ❌ *فشل مزامنة D1*
+            
+            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|عرض السجل>
