@@ -14,7 +14,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 1; // Increment version if schema changes
+  static const int _dbVersion = 2; // Increment version if schema changes
   static const String medicinesTable = 'medicines';
 
   // --- Column Names ---
@@ -50,8 +50,18 @@ class DatabaseHelper {
       path,
       version: _dbVersion,
       onCreate: _onCreate,
-      // onUpgrade: _onUpgrade, // Implement if version increases
+      onUpgrade: _onUpgrade,
     );
+  }
+
+  // Handle database upgrades
+  Future _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    print('Upgrading database from version $oldVersion to $newVersion...');
+    if (oldVersion < 2) {
+      // Version 2: Re-create table to fix date format in data
+      await db.execute('DROP TABLE IF EXISTS $medicinesTable');
+      await _onCreate(db, newVersion);
+    }
   }
 
   Future _onCreate(Database db, int version) async {

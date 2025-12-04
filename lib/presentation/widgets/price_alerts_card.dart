@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../domain/entities/drug_entity.dart';
-import 'package:intl/intl.dart';
 
 class PriceAlertsCard extends StatelessWidget {
-  final List<DrugEntity> topChangedDrugs;
+  /// Creates a [PriceAlertsCard] to display drugs with significant price changes.
+  const PriceAlertsCard({required this.topChangedDrugs, super.key});
 
-  const PriceAlertsCard({
-    super.key,
-    required this.topChangedDrugs,
-  });
+  /// List of drugs with the biggest price changes.
+  final List<DrugEntity> topChangedDrugs;
 
   @override
   Widget build(BuildContext context) {
@@ -28,10 +28,7 @@ class PriceAlertsCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: colorScheme.outline.withOpacity(0.2),
-          width: 1,
-        ),
+        border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
         boxShadow: [
           BoxShadow(
             color: colorScheme.shadow.withOpacity(isDark ? 0.3 : 0.08),
@@ -46,24 +43,15 @@ class PriceAlertsCard extends StatelessWidget {
           // Header
           Row(
             children: [
-              Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [Colors.orange.shade400, Colors.deepOrange.shade500],
-                  ),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: const Icon(
-                  LucideIcons.trendingUp,
-                  size: 20,
-                  color: Colors.white,
-                ),
+              Icon(
+                LucideIcons.trendingUp,
+                size: 24,
+                color: colorScheme.primary,
               ),
               const SizedBox(width: 12),
               Expanded(
                 child: Text(
-                  'أكبر التغيرات اليوم',
+                  AppLocalizations.of(context)!.biggestChangesToday,
                   style: textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                     fontSize: 16,
@@ -73,11 +61,11 @@ class PriceAlertsCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 16),
-          
+
           // Price changes list
           ...topChangedDrugs.take(3).map((drug) {
             return _buildPriceChangeItem(context, drug);
-          }).toList(),
+          }),
         ],
       ),
     );
@@ -90,29 +78,23 @@ class PriceAlertsCard extends StatelessWidget {
 
     final oldPrice = double.tryParse(drug.oldPrice ?? '0') ?? 0;
     final currentPrice = double.tryParse(drug.price) ?? 0;
-    
+
     if (oldPrice == 0 || currentPrice == 0 || oldPrice == currentPrice) {
       return const SizedBox.shrink();
     }
 
     final isIncrease = currentPrice > oldPrice;
     final percentageChange = ((currentPrice - oldPrice) / oldPrice * 100).abs();
-    final displayName = drug.arabicName.isNotEmpty ? drug.arabicName : drug.tradeName;
+    final displayName =
+        drug.arabicName.isNotEmpty ? drug.arabicName : drug.tradeName;
 
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: isIncrease 
-            ? Colors.red.shade50.withOpacity(0.5)
-            : Colors.green.shade50.withOpacity(0.5),
+        color: colorScheme.surfaceContainerLow, // Cleaner background
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: isIncrease 
-              ? Colors.red.shade200
-              : Colors.green.shade200,
-          width: 1,
-        ),
+        border: Border.all(color: colorScheme.outlineVariant.withOpacity(0.5)),
       ),
       child: Row(
         children: [
@@ -123,7 +105,7 @@ class PriceAlertsCard extends StatelessWidget {
             color: isIncrease ? Colors.red.shade700 : Colors.green.shade700,
           ),
           const SizedBox(width: 12),
-          
+
           // Drug info
           Expanded(
             child: Column(
@@ -140,7 +122,8 @@ class PriceAlertsCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  '${_formatPrice(oldPrice)} ← ${_formatPrice(currentPrice)} ج.م',
+                  '${_formatPrice(oldPrice)} ← '
+                  '${_formatPrice(currentPrice)} ج.م',
                   style: textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontSize: 12,
@@ -149,7 +132,7 @@ class PriceAlertsCard extends StatelessWidget {
               ],
             ),
           ),
-          
+
           // Percentage badge
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
@@ -158,7 +141,8 @@ class PriceAlertsCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(8),
             ),
             child: Text(
-              '${isIncrease ? '+' : '-'}${percentageChange.toStringAsFixed(0)}%',
+              '${isIncrease ? '+' : '-'}'
+              '${percentageChange.toStringAsFixed(0)}%',
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 12,
@@ -172,6 +156,6 @@ class PriceAlertsCard extends StatelessWidget {
   }
 
   String _formatPrice(double price) {
-    return NumberFormat("#,##0.##", "en_US").format(price);
+    return NumberFormat('#,##0.##', 'en_US').format(price);
   }
 }

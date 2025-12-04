@@ -199,5 +199,9 @@
   "noAlternativesFoundMsg": "لا توجد بدائل متاحة.",
   "@noAlternativesFoundMsg": {
     "description": "الرسالة التي تظهر عند عدم العثور على أدوية بديلة (نفس الفئة، مادة فعالة مختلفة)."
+  },
+  "biggestChangesToday": "أكبر التغيرات اليوم",
+  "@biggestChangesToday": {
+    "description": "عنوان القسم الذي يعرض الأدوية ذات أكبر تغيرات في الأسعار اليوم."
   }
 }

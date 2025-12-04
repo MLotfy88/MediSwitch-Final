@@ -52,6 +52,24 @@ class MedicineModel {
   static double? _parseDouble(dynamic value) =>
       double.tryParse(value?.toString() ?? '');
 
+  // Helper to normalize date from dd/MM/yyyy to yyyy-MM-dd for sorting
+  static String _normalizeDate(String date) {
+    if (date.isEmpty) return '';
+    try {
+      final parts = date.split('/');
+      if (parts.length == 3) {
+        // Assume dd/MM/yyyy
+        final day = parts[0].padLeft(2, '0');
+        final month = parts[1].padLeft(2, '0');
+        final year = parts[2];
+        return '$year-$month-$day';
+      }
+    } catch (e) {
+      // Ignore error and return original
+    }
+    return date;
+  }
+
   factory MedicineModel.fromCsv(List<dynamic> row) {
     // Assuming CSV columns are in the order defined by the fields
     return MedicineModel(
@@ -72,7 +90,8 @@ class MedicineModel {
       usage: row.length > 13 ? _parseString(row[13]) : '',
       usageAr: row.length > 14 ? _parseString(row[14]) : '',
       description: row.length > 15 ? _parseString(row[15]) : '',
-      lastPriceUpdate: row.length > 16 ? _parseString(row[16]) : '',
+      lastPriceUpdate:
+          row.length > 16 ? _normalizeDate(_parseString(row[16])) : '',
       concentration: row.length > 17 ? _parseDouble(row[17]) : null,
       imageUrl: row.length > 18 ? _parseString(row[18]) : null,
     );
