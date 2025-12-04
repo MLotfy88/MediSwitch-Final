@@ -234,7 +234,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
       print('InteractionRepositoryImpl: Interaction data loaded successfully.');
       print('Loaded ${_allInteractions.length} interaction pairs.');
       print('Loaded ${_medicineToIngredientsMap.length} medicine mappings.');
-      print('Indexed ${_ingredientsWithKnownInteractions.length} ingredients with interactions.');
+      print(
+        'Indexed ${_ingredientsWithKnownInteractions.length} ingredients with interactions.',
+      );
 
       completer.complete(const Right(unit)); // Complete the future with success
     } catch (e, stacktrace) {
@@ -369,27 +371,44 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   bool hasKnownInteractions(DrugEntity drug) {
-    if (!_isDataLoaded) return false;
+    print(
+      'hasKnownInteractions called for: ${drug.tradeName}, _isDataLoaded: $_isDataLoaded',
+    );
+    if (!_isDataLoaded) {
+      print('Data not loaded yet, returning false');
+      return false;
+    }
 
     final drugTradeNameLower = drug.tradeName.toLowerCase().trim();
+    print('Checking drug: $drugTradeNameLower');
+    print(
+      'Total ingredients with interactions: ${_ingredientsWithKnownInteractions.length}',
+    );
+
     // Check if trade name is directly mapped
     if (_medicineToIngredientsMap.containsKey(drugTradeNameLower)) {
-       final ingredients = _medicineToIngredientsMap[drugTradeNameLower]!;
-       for (final ingredient in ingredients) {
-         if (_ingredientsWithKnownInteractions.contains(ingredient)) {
-           return true;
-         }
-       }
-       return false;
+      final ingredients = _medicineToIngredientsMap[drugTradeNameLower]!;
+      print('Found in map, ingredients: $ingredients');
+      for (final ingredient in ingredients) {
+        if (_ingredientsWithKnownInteractions.contains(ingredient)) {
+          print('Found interaction for ingredient: $ingredient');
+          return true;
+        }
+      }
+      print('No interactions found in mapped ingredients');
+      return false;
     }
 
     // Fallback to parsing active string
     final ingredients = _extractIngredientsFromString(drug.active);
+    print('Parsed ingredients from active string: $ingredients');
     for (final ingredient in ingredients) {
       if (_ingredientsWithKnownInteractions.contains(ingredient)) {
+        print('Found interaction for parsed ingredient: $ingredient');
         return true;
       }
     }
+    print('No interactions found');
     return false;
   }
 

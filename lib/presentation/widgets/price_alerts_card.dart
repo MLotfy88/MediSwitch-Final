@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../domain/entities/drug_entity.dart';
+import '../../core/utils/currency_helper.dart';
 
 class PriceAlertsCard extends StatelessWidget {
   /// Creates a [PriceAlertsCard] to display drugs with significant price changes.
@@ -129,7 +130,7 @@ class PriceAlertsCard extends StatelessWidget {
                 const SizedBox(height: 2),
                 Text(
                   '${_formatPrice(oldPrice)} → '
-                  '${_formatPrice(currentPrice)} ج.م',
+                  '${_formatPrice(currentPrice)} ${CurrencyHelper.getCurrencySymbol(context)}',
                   style: textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontSize: 12,

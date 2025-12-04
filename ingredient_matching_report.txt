@@ -1,0 +1,12 @@
+INGREDIENT MATCHING REPORT
+================================================================================
+
+Total drugs: 25,500
+Unique DB ingredients: 6,465
+Unique JSON ingredients: 129
+Match rate: 0.0%
+Exact matches: 2
+
+MATCHED INGREDIENTS:
+  - cetrimide
+  - hyaluronic acid

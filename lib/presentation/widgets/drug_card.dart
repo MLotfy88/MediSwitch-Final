@@ -17,6 +17,7 @@ import '../widgets/custom_badge.dart'; // Import CustomBadge
 import '../../core/constants/app_constants.dart'; // Import the constants file
 import '../../core/constants/app_spacing.dart'; // Import spacing constants
 import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
+import '../../core/utils/currency_helper.dart'; // Import currency helper
 
 enum DrugCardType { thumbnail, detailed }
 
@@ -220,7 +221,7 @@ class DrugCard extends StatelessWidget {
     // --- NEW DESIGN: Solid Container with Border and Fixed Height ---
     return Container(
       constraints: const BoxConstraints(
-        minHeight: 200, // Increased from 160 for more elegant appearance
+        minHeight: 250, // Increased to prevent content overflow
       ),
       decoration: BoxDecoration(
         color: colorScheme.surfaceContainer, // Solid cleaner background
@@ -338,7 +339,7 @@ class DrugCard extends StatelessWidget {
                                   ),
                                   const SizedBox(width: 4),
                                   Text(
-                                    'ج.م',
+                                    CurrencyHelper.getCurrencySymbol(context),
                                     style: textTheme.bodySmall?.copyWith(
                                       color: colorScheme.onSurface,
                                       fontSize: 12,
@@ -407,7 +408,7 @@ class DrugCard extends StatelessWidget {
                                         ),
                                       ),
                                       Text(
-                                        '${_formatPrice(drug.oldPrice!)} ج.م',
+                                        '${_formatPrice(drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
                                         style: textTheme.bodySmall?.copyWith(
                                           decoration:
                                               TextDecoration.lineThrough,
@@ -640,7 +641,7 @@ class DrugCard extends StatelessWidget {
                           ),
                           const SizedBox(width: 4),
                           Text(
-                            'ج.م',
+                            CurrencyHelper.getCurrencySymbol(context),
                             style: textTheme.bodySmall?.copyWith(
                               color:
                                   colorScheme.onSurface, // Darker than variant
