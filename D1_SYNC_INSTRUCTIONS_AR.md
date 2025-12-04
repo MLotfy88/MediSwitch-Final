@@ -31,6 +31,8 @@ git push
    - `Account.Workers Scripts` - Edit
 6. انسخ الـ Token
 
+curl "https://api.cloudflare.com/client/v4/user/tokens/verify" \ -H "Authorization: Bearer XcnKyy19sfNFa6eaQ4j5SuUmt0YthUFSo0dbv42R"
+
 #### 4️⃣ إضافة Secret في GitHub
 
 1. افتح الريبو في GitHub
