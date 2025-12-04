@@ -155,7 +155,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     bool isDark,
   ) {
     return SliverAppBar(
-      expandedHeight: 160,
+      expandedHeight: 60,
       pinned: false,
       flexibleSpace: FlexibleSpaceBar(
         background: Container(

@@ -220,7 +220,7 @@ class DrugCard extends StatelessWidget {
     // --- NEW DESIGN: Solid Container with Border and Fixed Height ---
     return Container(
       constraints: const BoxConstraints(
-        minHeight: 160, // Fixed minimum height for consistency
+        minHeight: 200, // Increased from 160 for more elegant appearance
       ),
       decoration: BoxDecoration(
         color: colorScheme.surfaceContainer, // Solid cleaner background
