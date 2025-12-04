@@ -13,6 +13,7 @@ import '../../domain/entities/drug_interaction.dart'; // Import DrugInteraction
 import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
 import '../widgets/alternatives_tab_content.dart';
 import '../widgets/interaction_card.dart'; // Import InteractionCard
+import '../../core/utils/currency_helper.dart'; // Import currency helper
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -126,7 +127,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           _buildInteractionAlert(context, colorScheme, textTheme, l10n),
 
           // Tabs Navigation
-          _buildTabsNavigation(context, colorScheme, textTheme, l10n),
+          _buildTabBar(context, colorScheme, textTheme, l10n),
 
           // Tab Content
           SliverFillRemaining(
@@ -228,7 +229,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
     return SliverToBoxAdapter(
       child: Transform.translate(
-        offset: const Offset(0, -24),
+        offset: const Offset(0, -12), // Reduced from -24 for more spacing
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.all(16),
@@ -350,7 +351,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                           ),
                           const SizedBox(width: 4),
                           Text(
-                            'ج.م',
+                            CurrencyHelper.getCurrencySymbol(context),
                             style: textTheme.bodyMedium?.copyWith(
                               color: colorScheme.onSurfaceVariant,
                             ),
@@ -361,7 +362,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                         Padding(
                           padding: const EdgeInsets.only(top: 4),
                           child: Text(
-                            '${_formatPrice(widget.drug.oldPrice!)} ج.م',
+                            '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
                             style: textTheme.bodySmall?.copyWith(
                               decoration: TextDecoration.lineThrough,
                               color: colorScheme.onSurfaceVariant.withOpacity(
@@ -483,12 +484,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   }
 
   // --- Tabs Navigation ---
-  Widget _buildTabsNavigation(
+  Widget _buildTabBar(
     BuildContext context,
     ColorScheme colorScheme,
     TextTheme textTheme,
     AppLocalizations l10n,
   ) {
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return SliverToBoxAdapter(
@@ -519,51 +522,51 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           tabs: [
             Tab(
               child: Row(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.info, size: 16),
-                  const SizedBox(width: 6),
-                  const Text('المعلومات'),
+                  const Icon(LucideIcons.info, size: 16),
+                  const SizedBox(width: 8),
+                  Text(isArabic ? 'المعلومات' : 'Info'),
                 ],
               ),
             ),
             Tab(
               child: Row(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.replace, size: 16),
-                  const SizedBox(width: 6),
-                  const Text('البدائل'),
+                  const Icon(LucideIcons.replace, size: 16),
+                  const SizedBox(width: 8),
+                  Text(isArabic ? 'البدائل' : 'Alternatives'),
                 ],
               ),
             ),
             Tab(
               child: Row(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.scale, size: 16),
-                  const SizedBox(width: 6),
-                  const Text('الجرعات'),
+                  const Icon(LucideIcons.scale, size: 16),
+                  const SizedBox(width: 8),
+                  Text(isArabic ? 'الجرعات' : 'Dosage'),
                 ],
               ),
             ),
             Tab(
               child: Row(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.alertCircle, size: 16),
-                  const SizedBox(width: 6),
-                  const Text('التفاعلات'),
+                  const Icon(LucideIcons.alertCircle, size: 16),
+                  const SizedBox(width: 8),
+                  Text(isArabic ? 'التفاعلات' : 'Interactions'),
                 ],
               ),
             ),
             Tab(
               child: Row(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.barChart2, size: 16),
-                  const SizedBox(width: 6),
-                  const Text('السعر'),
+                  const Icon(LucideIcons.barChart2, size: 16),
+                  const SizedBox(width: 8),
+                  Text(isArabic ? 'السعر' : 'Price'),
                 ],
               ),
             ),
@@ -670,11 +673,96 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
     AppLocalizations l10n,
   ) {
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
     final dosageInfo = widget.drug.usage.trim();
 
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
+        // Price Statistics Card
+        if (widget.drug.oldPrice != null && widget.drug.oldPrice!.isNotEmpty)
+          Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  colorScheme.primary.withOpacity(0.1),
+                  colorScheme.tertiary.withOpacity(0.1),
+                ],
+              ),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: colorScheme.primary.withOpacity(0.3),
+                width: 2,
+              ),
+            ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      LucideIcons.trendingUp,
+                      color: colorScheme.primary,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      isArabic ? 'إحصائيات السعر' : 'Price Statistics',
+                      style: textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    _buildPriceStat(
+                      context,
+                      isArabic ? 'السعر القديم' : 'Old Price',
+                      '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
+                      LucideIcons.arrowDown,
+                      Colors.grey,
+                    ),
+                    Container(
+                      width: 2,
+                      height: 40,
+                      color: colorScheme.outline.withOpacity(0.3),
+                    ),
+                    _buildPriceStat(
+                      context,
+                      isArabic ? 'السعر الحالي' : 'Current Price',
+                      '${_formatPrice(widget.drug.price)} ${CurrencyHelper.getCurrencySymbol(context)}',
+                      LucideIcons.arrowUp,
+                      colorScheme.primary,
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 12),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 8,
+                  ),
+                  decoration: BoxDecoration(
+                    color: _getPriceChangeColor(context).withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    _getPriceChangeText(context),
+                    style: textTheme.bodyMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                      color: _getPriceChangeColor(context),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
         // Standard Dosage Card
         Container(
           padding: const EdgeInsets.all(20),
@@ -915,6 +1003,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     TextTheme textTheme,
     AppLocalizations l10n,
   ) {
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
@@ -1034,6 +1125,70 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         ],
       ),
     );
+  }
+
+  Widget _buildPriceStat(
+    BuildContext context,
+    String label,
+    String value,
+    IconData icon,
+    Color color,
+  ) {
+    final textTheme = Theme.of(context).textTheme;
+    return Column(
+      children: [
+        Icon(icon, color: color, size: 24),
+        const SizedBox(height: 8),
+        Text(
+          label,
+          style: textTheme.bodySmall?.copyWith(color: Colors.grey.shade600),
+        ),
+        const SizedBox(height: 4),
+        Text(
+          value,
+          style: textTheme.titleMedium?.copyWith(
+            fontWeight: FontWeight.bold,
+            color: color,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Color _getPriceChangeColor(BuildContext context) {
+    final oldPrice = double.tryParse(widget.drug.oldPrice ?? '0') ?? 0;
+    final currentPrice = double.tryParse(widget.drug.price) ?? 0;
+
+    if (currentPrice > oldPrice) {
+      return Colors.red.shade700;
+    } else if (currentPrice < oldPrice) {
+      return Colors.green.shade700;
+    }
+    return Colors.grey.shade600;
+  }
+
+  String _getPriceChangeText(BuildContext context) {
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+    final oldPrice = double.tryParse(widget.drug.oldPrice ?? '0') ?? 0;
+    final currentPrice = double.tryParse(widget.drug.price) ?? 0;
+
+    if (oldPrice == 0)
+      return isArabic ? 'لا توجد بيانات سابقة' : 'No previous data';
+
+    final change = ((currentPrice - oldPrice) / oldPrice * 100);
+    final changeText = change.abs().toStringAsFixed(1);
+
+    if (change > 0) {
+      return isArabic
+          ? 'زيادة بمقدار $changeText%'
+          : 'Increased by $changeText%';
+    } else if (change < 0) {
+      return isArabic
+          ? 'انخفاض بمقدار $changeText%'
+          : 'Decreased by $changeText%';
+    }
+    return isArabic ? 'لا توجد تغييرات' : 'No change';
   }
 
   Widget _buildAlternativesTab(BuildContext context) {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import '../../core/utils/currency_helper.dart';
 import '../bloc/medicine_provider.dart';
 // import 'section_header.dart'; // Not used directly in this layout
 
@@ -130,8 +131,8 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             max: provider.maxPrice,
             divisions: (provider.maxPrice > provider.minPrice) ? 20 : null,
             labels: RangeLabels(
-              '${_tempPriceRange.start.round()} ج.م',
-              '${_tempPriceRange.end.round()} ج.م',
+              '${_tempPriceRange.start.round()} ${CurrencyHelper.getCurrencySymbol(context)}',
+              '${_tempPriceRange.end.round()} ${CurrencyHelper.getCurrencySymbol(context)}',
             ),
             onChanged: (RangeValues values) {
               setState(() {
@@ -149,13 +150,13 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  '${_tempPriceRange.start.round()} ج.م',
-                  style: textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
+                  '${_tempPriceRange.start.round()} ${CurrencyHelper.getCurrencySymbol(context)}',
+                  style: textTheme.bodyMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 Text(
-                  '${_tempPriceRange.end.round()} ج.م',
+                  '${_tempPriceRange.end.round()} ${CurrencyHelper.getCurrencySymbol(context)}',
                   style: textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                   ),
