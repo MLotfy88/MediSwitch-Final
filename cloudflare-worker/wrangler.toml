@@ -1,6 +1,7 @@
 name = "mediswitch-api"
 main = "src/index.js"
 compatibility_date = "2024-12-02"
+account_id = "9f7fd7dfef294f26d47d62df34726367"  # من GitHub Actions logs
 
 # D1 Database binding
 [[d1_databases]]
