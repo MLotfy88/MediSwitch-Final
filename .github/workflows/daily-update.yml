@@ -78,12 +78,21 @@ jobs:
         run: |
           python3 csv_to_json.py meds_enriched.csv drugs.json
       
-      - name: Update app database
+      - name: Update app database (MERGE, not overwrite)
         run: |
-          # Update the main app database file
+          # Use merge script to update only changed drugs, not overwrite entire database
           mkdir -p assets
-          cp meds_enriched.csv assets/meds.csv
-          echo "✅ Updated assets/meds.csv with $(wc -l <assets/meds.csv) lines"
+          
+          # If assets/meds.csv doesn't exist, just copy the enriched file
+          if [ ! -f assets/meds.csv ]; then
+            echo "⚠️ No existing database found, creating new one..."
+            cp meds_enriched.csv assets/meds.csv
+          else
+            echo "🔄 Merging updates into existing database..."
+            python3 scripts/merge_meds.py assets/meds.csv meds_enriched.csv
+          fi
+          
+          echo "✅ Database updated with $(wc -l <assets/meds.csv) total records"
       
       - name: Upload to Cloudflare Worker
         env:
