@@ -43,7 +43,7 @@ class SearchBarButton extends StatelessWidget {
               padding: const EdgeInsets.symmetric(
                 horizontal: 12.0,
                 vertical: 10.0,
-              ), 
+              ),
               child: Row(
                 children: [
                   Icon(
@@ -60,25 +60,14 @@ class SearchBarButton extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Barcode Scanner Icon
-                  Container(
-                    padding: const EdgeInsets.all(6),
-                    decoration: BoxDecoration(
-                      color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Icon(
-                      LucideIcons.scanLine,
-                      size: 18,
-                      color: colorScheme.primary,
-                    ),
-                  ),
-                  const SizedBox(width: 8),
+
                   // Filter Icon
                   Container(
                     padding: const EdgeInsets.all(6),
                     decoration: BoxDecoration(
-                      color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
+                      color: colorScheme.surfaceContainerHighest.withOpacity(
+                        0.5,
+                      ),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Icon(

@@ -36,37 +36,36 @@ const Map<String, String> kCategoryTranslation = {
 };
 
 // Centralized map for category icons (using CSV keys)
-// Keys MUST remain normalized (lowercase_with_underscores)
-// Updated icons for medical relevance on 2025-04-19
-const Map<String, IconData> kCategoryIcons = {
-  'anesthetics': LucideIcons.syringe, // More specific
-  'anti_infective': LucideIcons.shieldCheck, // Keep
-  'anti_inflammatory': LucideIcons.shieldOff, // Keep
-  'baby_care': LucideIcons.baby, // Keep
-  'cardiovascular': LucideIcons.heartPulse, // Keep
-  'cosmetics': LucideIcons.gem, // Keep (less medical)
-  'diabetes_care': LucideIcons.droplet, // Keep
-  'diagnostics': LucideIcons.stethoscope, // Keep
-  'digestive': LucideIcons.soup, // Keep (maybe ActivitySquare?)
-  'ear_care': LucideIcons.ear, // Keep
-  'eye_care': LucideIcons.eye, // Keep
-  'hematology': LucideIcons.testTube2, // Keep
-  'herbal_natural': LucideIcons.sprout, // Keep
-  'hormonal': LucideIcons.atom, // Keep
-  'immunology': LucideIcons.shield, // Keep
-  'medical_supplies': LucideIcons.archive, // Use archive icon for supplies
-  'musculoskeletal': LucideIcons.bone, // Keep
-  'neurological': LucideIcons.brainCircuit, // Keep
-  'oncology': LucideIcons.microscope, // Keep
-  'other': LucideIcons.moreHorizontal, // Keep
-  'pain_management': LucideIcons.pill, // Keep
-  'personal_care': LucideIcons.bath, // Keep (less medical)
-  'reproductive_health': LucideIcons.heartHandshake, // Keep
-  'respiratory': LucideIcons.airVent, // Keep valid icon
-  'skin_care': LucideIcons.sparkles, // Keep (less medical)
-  'supplements': LucideIcons.packagePlus, // Keep
-  'urology': LucideIcons.filter, // Keep (maybe Droplets?)
-  'vitamins': LucideIcons.leaf, // Keep
+/// Map of category keys to their corresponding icons.
+final Map<String, IconData> kCategoryIcons = {
+  'anesthetics': LucideIcons.syringe,
+  'anti_infective': LucideIcons.shieldCheck,
+  'anti_inflammatory': LucideIcons.flame,
+  'baby_care': LucideIcons.baby,
+  'cardiovascular': LucideIcons.heartPulse,
+  'cosmetics': LucideIcons.sparkles,
+  'diabetes_care': LucideIcons.droplet,
+  'diagnostics': LucideIcons.stethoscope,
+  'digestive': LucideIcons.utensils,
+  'ear_care': LucideIcons.ear,
+  'eye_care': LucideIcons.eye,
+  'hematology': LucideIcons.testTube2,
+  'herbal_natural': LucideIcons.leaf,
+  'hormonal': LucideIcons.dna,
+  'immunology': LucideIcons.shield,
+  'medical_supplies': LucideIcons.briefcase, // Changed from briefcaseMedical
+  'musculoskeletal': LucideIcons.activity,
+  'neurological': LucideIcons.brainCircuit,
+  'oncology': LucideIcons.microscope,
+  'other': LucideIcons.moreHorizontal,
+  'pain_management': LucideIcons.pill,
+  'personal_care': LucideIcons.user,
+  'reproductive_health': LucideIcons.heartHandshake,
+  'respiratory': LucideIcons.wind,
+  'skin_care': LucideIcons.sun,
+  'supplements': LucideIcons.apple,
+  'urology': LucideIcons.droplets,
+  'vitamins': LucideIcons.citrus,
   // Fallback
   'default': LucideIcons.tag,
 };

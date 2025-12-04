@@ -199,5 +199,9 @@
   "noAlternativesFoundMsg": "No alternatives available.",
   "@noAlternativesFoundMsg": {
     "description": "Message shown when no alternative drugs (same category, different active ingredient) are found."
+  },
+  "biggestChangesToday": "Biggest Changes Today",
+  "@biggestChangesToday": {
+    "description": "Title for the section showing drugs with the biggest price changes today."
   }
 }

@@ -27,19 +27,7 @@ class QuickStatsBanner extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: isDark
-              ? [
-                  colorScheme.primaryContainer.withOpacity(0.3),
-                  colorScheme.tertiaryContainer.withOpacity(0.3),
-                ]
-              : [
-                  colorScheme.primary.withOpacity(0.1),
-                  colorScheme.tertiary.withOpacity(0.1),
-                ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        color: colorScheme.surfaceContainer, // Cleaner solid background
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
           color: colorScheme.outline.withOpacity(0.2),
@@ -58,14 +46,14 @@ class QuickStatsBanner extends StatelessWidget {
               color: colorScheme.primary,
             ),
           ),
-          
+
           // Divider
           Container(
             width: 1,
             height: 40,
             color: colorScheme.outline.withOpacity(0.3),
           ),
-          
+
           // Today updates stat
           Expanded(
             child: _buildStatItem(
@@ -76,14 +64,14 @@ class QuickStatsBanner extends StatelessWidget {
               color: Colors.blue.shade600,
             ),
           ),
-          
+
           // Divider
           Container(
             width: 1,
             height: 40,
             color: colorScheme.outline.withOpacity(0.3),
           ),
-          
+
           // Price increases stat
           Expanded(
             child: _buildStatItem(
@@ -94,14 +82,14 @@ class QuickStatsBanner extends StatelessWidget {
               color: Colors.red.shade600,
             ),
           ),
-          
+
           // Divider
           Container(
             width: 1,
             height: 40,
             color: colorScheme.outline.withOpacity(0.3),
           ),
-          
+
           // Price decreases stat
           Expanded(
             child: _buildStatItem(
@@ -125,15 +113,11 @@ class QuickStatsBanner extends StatelessWidget {
     required Color color,
   }) {
     final textTheme = Theme.of(context).textTheme;
-    
+
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(
-          icon,
-          size: 20,
-          color: color,
-        ),
+        Icon(icon, size: 20, color: color),
         const SizedBox(height: 4),
         Text(
           value,
