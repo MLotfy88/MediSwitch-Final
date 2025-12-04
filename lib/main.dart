@@ -16,6 +16,7 @@ import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
 import 'package:flutter_localizations/flutter_localizations.dart'; // Added for localization
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Added for generated localizations
+import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
 // import 'presentation/screens/setup_screen.dart';
@@ -99,6 +100,14 @@ Future<void> main() async {
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
     locator<SubscriptionProvider>().initialize();
 
+    logger.i("main: Preloading interaction data...");
+    try {
+      await locator<InteractionRepository>().loadInteractionData();
+      logger.i("main: Interaction data loaded successfully.");
+    } catch (e, s) {
+      logger.e("main: Failed to load interaction data", e, s);
+    }
+
     logger.i("main: Setup complete. Preparing to run MyApp...");
     // Always start with InitializationScreen, which handles the routing logic.
     logger.i("main: Setting InitializationScreen as initial route.");
@@ -124,15 +133,30 @@ ThemeData _buildThemeData(Brightness brightness) {
   // Define HSL colors based on brightness - IMPROVED CONTRAST
   final background =
       isDark
-          ? const HSLColor.fromAHSL(1.0, 222.2, 0.22, 0.10) // Darker background (L=0.10)
-          : const HSLColor.fromAHSL(1.0, 210, 0.20, 0.98); // Off-white background (L=0.98)
+          ? const HSLColor.fromAHSL(
+            1.0,
+            222.2,
+            0.22,
+            0.10,
+          ) // Darker background (L=0.10)
+          : const HSLColor.fromAHSL(
+            1.0,
+            210,
+            0.20,
+            0.98,
+          ); // Off-white background (L=0.98)
   final foreground =
       isDark
           ? const HSLColor.fromAHSL(1.0, 210, 0.40, 0.98)
           : const HSLColor.fromAHSL(1.0, 222.2, 0.84, 0.049);
   final card =
       isDark
-          ? const HSLColor.fromAHSL(1.0, 222.2, 0.25, 0.18) // Lighter card (L=0.18) for contrast
+          ? const HSLColor.fromAHSL(
+            1.0,
+            222.2,
+            0.25,
+            0.18,
+          ) // Lighter card (L=0.18) for contrast
           : const HSLColor.fromAHSL(1.0, 0, 0, 1.0); // Pure white card
   final cardForeground =
       isDark

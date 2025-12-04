@@ -14,7 +14,7 @@ class HighRiskDrugsCard extends StatelessWidget {
   });
 
   final List<DrugEntity> allDrugs;
-  final Function(DrugEntity) onDrugTap;
+  final void Function(DrugEntity) onDrugTap;
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +74,7 @@ class HighRiskDrugsCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'أدوية تحتاج حذر',
+                      AppLocalizations.of(context)!.highRiskDrugs,
                       style: textTheme.titleMedium?.copyWith(
                         fontWeight: FontWeight.w700,
                         fontSize: 16,
@@ -82,7 +82,7 @@ class HighRiskDrugsCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'أدوية لها تفاعلات مسجلة',
+                      AppLocalizations.of(context)!.drugsWithKnownInteractions,
                       style: textTheme.bodySmall?.copyWith(
                         color: colorScheme.onSurfaceVariant,
                         fontSize: 12,

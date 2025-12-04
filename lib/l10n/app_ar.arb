@@ -203,5 +203,21 @@
   "biggestChangesToday": "أكبر التغيرات اليوم",
   "@biggestChangesToday": {
     "description": "عنوان القسم الذي يعرض الأدوية ذات أكبر تغيرات في الأسعار اليوم."
+  },
+  "highRiskDrugs": "أدوية تحتاج حذر",
+  "@highRiskDrugs": {
+    "description": "عنوان قسم الأدوية عالية الخطورة."
+  },
+  "drugsWithKnownInteractions": "أدوية لها تفاعلات مسجلة",
+  "@drugsWithKnownInteractions": {
+    "description": "وصف الأدوية التي لها تفاعلات مسجلة."
+  },
+  "priceTab": "السعر",
+  "@priceTab": {
+    "description": "تسمية تبويب السعر في صفحة تفاصيل الدواء."
+  },
+  "interactionsTab": "التفاعلات",
+  "@interactionsTab": {
+    "description": "تسمية تبويب التفاعلات في صفحة تفاصيل الدواء."
   }
 }

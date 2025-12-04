@@ -156,7 +156,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     bool isDark,
   ) {
     return SliverAppBar(
-      expandedHeight: 120, // Increased height
+      expandedHeight: 100, // Reduced header height
       pinned: false,
       flexibleSpace: FlexibleSpaceBar(
         background: Container(
@@ -229,7 +229,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
     return SliverToBoxAdapter(
       child: Transform.translate(
-        offset: const Offset(0, -40), // Increased negative offset
+        offset: const Offset(0, -30), // Floating card offset
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.all(16),
@@ -526,7 +526,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 children: [
                   const Icon(LucideIcons.info, size: 16),
                   const SizedBox(width: 8),
-                  Text(isArabic ? 'المعلومات' : 'Info'),
+                  Text(l10n.informationTab),
                 ],
               ),
             ),
@@ -536,7 +536,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 children: [
                   const Icon(LucideIcons.replace, size: 16),
                   const SizedBox(width: 8),
-                  Text(isArabic ? 'البدائل' : 'Alternatives'),
+                  Text(l10n.alternativesTab),
                 ],
               ),
             ),
@@ -546,7 +546,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 children: [
                   const Icon(LucideIcons.scale, size: 16),
                   const SizedBox(width: 8),
-                  Text(isArabic ? 'الجرعات' : 'Dosage'),
+                  Text(l10n.dosageTab),
                 ],
               ),
             ),
@@ -556,7 +556,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 children: [
                   const Icon(LucideIcons.alertCircle, size: 16),
                   const SizedBox(width: 8),
-                  Text(isArabic ? 'التفاعلات' : 'Interactions'),
+                  Text(l10n.interactionsTab),
                 ],
               ),
             ),

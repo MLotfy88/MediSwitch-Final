@@ -203,5 +203,21 @@
   "biggestChangesToday": "Biggest Changes Today",
   "@biggestChangesToday": {
     "description": "Title for the section showing drugs with the biggest price changes today."
+  },
+  "highRiskDrugs": "High Risk Drugs",
+  "@highRiskDrugs": {
+    "description": "Title for high risk drugs section."
+  },
+  "drugsWithKnownInteractions": "Drugs with known interactions",
+  "@drugsWithKnownInteractions": {
+    "description": "Description for drugs that have known interactions."
+  },
+  "priceTab": "Price",
+  "@priceTab": {
+    "description": "Label for the Price tab on the drug details page."
+  },
+  "interactionsTab": "Interactions",
+  "@interactionsTab": {
+    "description": "Label for the Interactions tab on the drug details page."
   }
 }
