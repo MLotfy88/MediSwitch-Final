@@ -128,8 +128,8 @@ class PriceAlertsCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  '${_formatPrice(currentPrice)} → '
-                  '${_formatPrice(oldPrice)} ج.م',
+                  '${_formatPrice(oldPrice)} → '
+                  '${_formatPrice(currentPrice)} ج.م',
                   style: textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontSize: 12,
