@@ -217,8 +217,11 @@ class DrugCard extends StatelessWidget {
       drug,
     );
 
-    // --- NEW DESIGN: Solid Container with Border ---
+    // --- NEW DESIGN: Solid Container with Border and Fixed Height ---
     return Container(
+      constraints: const BoxConstraints(
+        minHeight: 160, // Fixed minimum height for consistency
+      ),
       decoration: BoxDecoration(
         color: colorScheme.surfaceContainer, // Solid cleaner background
         borderRadius: BorderRadius.circular(16),
@@ -262,44 +265,10 @@ class DrugCard extends StatelessWidget {
                                 fontSize: 18,
                                 height: 1.2,
                               ),
-                              maxLines: 1,
+                              maxLines: 2, // Allow 2 lines for longer names
                               overflow: TextOverflow.ellipsis,
                             ),
                           ),
-                          // NEW badge for new drugs
-                          if (_isNewDrug(drug.lastPriceUpdate))
-                            Container(
-                              margin: const EdgeInsetsDirectional.only(
-                                start: 8,
-                              ),
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 8,
-                                vertical: 3,
-                              ),
-                              decoration: BoxDecoration(
-                                color: colorScheme.primary,
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  Icon(
-                                    LucideIcons.sparkles,
-                                    size: 11,
-                                    color: Colors.white,
-                                  ),
-                                  const SizedBox(width: 4),
-                                  Text(
-                                    'جديد',
-                                    style: textTheme.bodySmall?.copyWith(
-                                      color: Colors.white,
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
                           if (hasInteractions)
                             Tooltip(
                               message: 'يوجد تفاعلات دوائية مسجلة',
@@ -468,24 +437,13 @@ class DrugCard extends StatelessWidget {
                     if (drug.lastPriceUpdate.isNotEmpty)
                       Padding(
                         padding: const EdgeInsets.only(bottom: 12),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Icon(
-                              LucideIcons.clock,
-                              size: 12,
-                              color: colorScheme.outline,
-                            ),
-                            const SizedBox(width: 4),
-                            Text(
-                              _getTimeSinceUpdate(drug.lastPriceUpdate),
-                              style: textTheme.bodySmall?.copyWith(
-                                color: colorScheme.outline,
-                                fontSize: 10,
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                          ],
+                        child: Text(
+                          _getTimeSinceUpdate(drug.lastPriceUpdate),
+                          style: textTheme.bodySmall?.copyWith(
+                            color: colorScheme.primary, // More visible color
+                            fontSize: 12,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ),
 
