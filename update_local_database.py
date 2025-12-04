@@ -49,15 +49,11 @@ def update_local_database(csv_file='meds_enriched.csv', db_file='assets/medicati
         )
     ''')
     
-    # Clear existing data
-    print("🗑️  Clearing old data...")
-    cursor.execute('DELETE FROM medications')
-    
-    # Insert new data
-    print("⬆️  Inserting new data...")
+    # Use UPSERT logic instead of clearing data
+    print("🔄 Upserting data (updating existing records, inserting new ones)...")
     for idx, row in df.iterrows():
         cursor.execute('''
-            INSERT INTO medications VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT OR REPLACE INTO medications VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             row.get('id'),
             row.get('trade_name'),

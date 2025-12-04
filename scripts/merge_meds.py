@@ -1,0 +1,97 @@
+import csv
+import sys
+import os
+import shutil
+from datetime import datetime
+
+def merge_csv(main_file, update_file, output_file=None):
+    """
+    Merges update_file into main_file based on the 'id' column.
+    Updates existing records and appends new ones.
+    """
+    if output_file is None:
+        output_file = main_file
+
+    print(f"Loading main database from: {main_file}")
+    if not os.path.exists(main_file):
+        print(f"Error: Main file {main_file} not found.")
+        return
+
+    # Read main file
+    meds_db = {}
+    fieldnames = []
+    
+    try:
+        with open(main_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            fieldnames = reader.fieldnames
+            for row in reader:
+                if 'id' in row and row['id']:
+                    meds_db[row['id']] = row
+    except Exception as e:
+        print(f"Error reading main file: {e}")
+        return
+
+    print(f"Loaded {len(meds_db)} records from main database.")
+
+    print(f"Loading updates from: {update_file}")
+    if not os.path.exists(update_file):
+        print(f"Error: Update file {update_file} not found.")
+        return
+
+    updates_count = 0
+    new_count = 0
+    
+    try:
+        with open(update_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            # Ensure we have all fields from the update file too
+            for field in reader.fieldnames:
+                if field not in fieldnames:
+                    fieldnames.append(field)
+            
+            for row in reader:
+                if 'id' not in row or not row['id']:
+                    continue
+                
+                drug_id = row['id']
+                if drug_id in meds_db:
+                    # Update existing record
+                    meds_db[drug_id].update(row)
+                    updates_count += 1
+                else:
+                    # Add new record
+                    meds_db[drug_id] = row
+                    new_count += 1
+    except Exception as e:
+        print(f"Error reading update file: {e}")
+        return
+
+    print(f"Processed updates: {updates_count} updated, {new_count} new.")
+
+    # Create backup before writing
+    backup_file = f"{main_file}.backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    shutil.copy2(main_file, backup_file)
+    print(f"Created backup at: {backup_file}")
+
+    # Write merged data
+    print(f"Writing merged database to: {output_file}")
+    try:
+        with open(output_file, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(meds_db.values())
+        print("Merge completed successfully.")
+    except Exception as e:
+        print(f"Error writing output file: {e}")
+
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print("Usage: python merge_meds.py <main_file> <update_file> [output_file]")
+        sys.exit(1)
+    
+    main_csv = sys.argv[1]
+    update_csv = sys.argv[2]
+    output_csv = sys.argv[3] if len(sys.argv) > 3 else main_csv
+    
+    merge_csv(main_csv, update_csv, output_csv)

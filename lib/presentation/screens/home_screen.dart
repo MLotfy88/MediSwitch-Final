@@ -265,7 +265,62 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: 12),
-              _buildCategoriesSection(context, l10n),
+              // Use GridView for uniform card sizes
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: GridView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3, // 3 columns
+                    childAspectRatio: 1.0, // Square cards
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                  ),
+                  itemCount:
+                      kCategoryTranslation.length > 9
+                          ? 9
+                          : kCategoryTranslation.length, // Show top 9
+                  itemBuilder: (context, index) {
+                    final locale = Localizations.localeOf(context);
+                    final isArabic = locale.languageCode == 'ar';
+                    final categoryKey = kCategoryTranslation.keys.elementAt(
+                      index,
+                    );
+                    final categoryName =
+                        isArabic
+                            ? kCategoryTranslation[categoryKey]!
+                            : categoryKey;
+
+                    // Get unique icon or fallback
+                    final iconData =
+                        kCategoryIcons[categoryKey.toLowerCase().replaceAll(
+                          ' ',
+                          '_',
+                        )] ??
+                        LucideIcons.tag;
+
+                    return CategoryCard(
+                      name: categoryName,
+                      iconData: iconData,
+                      onTap: () {
+                        _logger.i("HomeScreen: Category tapped: $categoryKey");
+                        context.read<MedicineProvider>().setCategory(
+                          categoryKey,
+                        );
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute<void>(
+                            builder:
+                                (context) =>
+                                    SearchScreen(initialCategory: categoryKey),
+                          ),
+                        );
+                      },
+                    );
+                  },
+                ),
+              ),
               const SizedBox(height: 8),
               // Divider with decorative icon
               Padding(
@@ -327,7 +382,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       _logger.i("HomeScreen: View All Recent tapped.");
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
+                        MaterialPageRoute<void>(
                           builder: (_) => const SearchScreen(initialQuery: ''),
                         ),
                       );
@@ -392,7 +447,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   _logger.i("HomeScreen: View All Popular tapped.");
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder: (_) => const SearchScreen(initialQuery: ''),
                     ),
                   );
@@ -549,7 +604,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     // Navigate to SearchScreen, passing category as argument
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
+                      MaterialPageRoute<void>(
                         builder:
                             (_) => SearchScreen(
                               initialCategory: englishCategoryName,
@@ -586,7 +641,9 @@ class _HomeScreenState extends State<HomeScreen> {
     _adService.incrementUsageCounterAndShowAdIfNeeded();
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => DrugDetailsScreen(drug: drug)),
+      MaterialPageRoute<void>(
+        builder: (context) => DrugDetailsScreen(drug: drug),
+      ),
     );
   }
 

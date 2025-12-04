@@ -7,10 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart'; // For number formatting
-import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import 'package:intl/intl.dart'; // For number formatting
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
 import '../../domain/entities/drug_entity.dart';
 import '../widgets/custom_badge.dart'; // Import CustomBadge
@@ -70,8 +66,11 @@ class DrugCard extends StatelessWidget {
   }
 
   // Helper to get time since update (e.g., "منذ ساعتين")
-  String _getTimeSinceUpdate(String dateString) {
+  String _getTimeSinceUpdate(BuildContext context, String dateString) {
     if (dateString.isEmpty) return '';
+
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
 
     try {
       DateTime? updateDate;
@@ -98,17 +97,23 @@ class DrugCard extends StatelessWidget {
       final difference = now.difference(updateDate);
 
       if (difference.inMinutes < 60) {
-        return 'منذ ${difference.inMinutes} دقيقة';
+        return isArabic
+            ? 'منذ ${difference.inMinutes} دقيقة'
+            : '${difference.inMinutes}m ago';
       } else if (difference.inHours < 24) {
-        return 'منذ ${difference.inHours} ساعة';
+        return isArabic
+            ? 'منذ ${difference.inHours} ساعة'
+            : '${difference.inHours}h ago';
       } else if (difference.inDays < 7) {
-        return 'منذ ${difference.inDays} يوم';
+        return isArabic
+            ? 'منذ ${difference.inDays} يوم'
+            : '${difference.inDays}d ago';
       } else if (difference.inDays < 30) {
         final weeks = (difference.inDays / 7).floor();
-        return 'منذ $weeks أسبوع';
+        return isArabic ? 'منذ $weeks أسبوع' : '${weeks}w ago';
       } else {
         // Return formatted date for older items
-        return DateFormat('dd/MM/yyyy').format(updateDate);
+        return DateFormat('dd/MM/yyyy', locale.languageCode).format(updateDate);
       }
     } catch (e) {
       return dateString;
@@ -167,18 +172,24 @@ class DrugCard extends StatelessWidget {
             ? _buildThumbnailCard(context)
             : _buildDetailedCard(context);
 
-    String alternativeLabel = isAlternative ? ' بديل لدواء آخر.' : '';
-    String popularLabel = isPopular ? ' دواء شائع.' : '';
+    String alternativeLabel =
+        isAlternative
+            ? (isArabic ? ' بديل لدواء آخر.' : ' Alternative drug.')
+            : '';
+    String popularLabel =
+        isPopular ? (isArabic ? ' دواء شائع.' : ' Popular drug.') : '';
     String dosageLabel = _formatDosage(drug);
     String activeIngredientLabel =
         drug.active.isNotEmpty
-            ? ', المادة الفعالة: ${drug.active}'
-            : ''; // Added for Semantics
+            ? (isArabic
+                ? ', المادة الفعالة: ${drug.active}'
+                : ', Active ingredient: ${drug.active}')
+            : '';
 
     // Update Semantics label to use the displayed name
     return Semantics(
       label:
-          '$displayName$activeIngredientLabel, $dosageLabel, السعر ${_formatPrice(drug.price)} L.E.$alternativeLabel$popularLabel', // Updated currency
+          '$displayName$activeIngredientLabel, $dosageLabel, ${isArabic ? "السعر" : "Price"} ${_formatPrice(drug.price)} ${CurrencyHelper.getCurrencySymbol(context)}.$alternativeLabel$popularLabel',
       button: true,
       child: cardContent,
     );
@@ -218,11 +229,9 @@ class DrugCard extends StatelessWidget {
       drug,
     );
 
-    // --- NEW DESIGN: Solid Container with Border and Fixed Height ---
+    // --- NEW DESIGN: Solid Container with Border and NO Fixed Height ---
     return Container(
-      constraints: const BoxConstraints(
-        minHeight: 250, // Increased to prevent content overflow
-      ),
+      // Removed minHeight constraints to let content dictate height
       decoration: BoxDecoration(
         color: colorScheme.surfaceContainer, // Solid cleaner background
         borderRadius: BorderRadius.circular(16),
@@ -272,7 +281,10 @@ class DrugCard extends StatelessWidget {
                           ),
                           if (hasInteractions)
                             Tooltip(
-                              message: 'يوجد تفاعلات دوائية مسجلة',
+                              message:
+                                  isArabic
+                                      ? 'يوجد تفاعلات دوائية مسجلة'
+                                      : 'Known drug interactions',
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.only(
                                   start: 4,
@@ -313,7 +325,7 @@ class DrugCard extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'السعر الحالي',
+                                isArabic ? 'السعر الحالي' : 'Current Price',
                                 style: textTheme.labelSmall?.copyWith(
                                   color: colorScheme.onSurfaceVariant,
                                   fontSize: 11,
@@ -400,7 +412,7 @@ class DrugCard extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       Text(
-                                        'كان: ',
+                                        isArabic ? 'كان: ' : 'Was: ',
                                         style: textTheme.bodySmall?.copyWith(
                                           color: colorScheme.onSurfaceVariant
                                               .withOpacity(0.7),
@@ -439,7 +451,7 @@ class DrugCard extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(bottom: 12),
                         child: Text(
-                          _getTimeSinceUpdate(drug.lastPriceUpdate),
+                          _getTimeSinceUpdate(context, drug.lastPriceUpdate),
                           style: textTheme.bodySmall?.copyWith(
                             color: colorScheme.primary, // More visible color
                             fontSize: 12,
@@ -467,7 +479,7 @@ class DrugCard extends StatelessWidget {
                           ),
                         if (isPopular)
                           CustomBadge(
-                            label: 'شائع',
+                            label: isArabic ? 'شائع' : 'Popular',
                             backgroundColor: Colors.amber.shade100,
                             textColor: Colors.amber.shade800,
                             icon: LucideIcons.star,
@@ -478,7 +490,7 @@ class DrugCard extends StatelessWidget {
                           ),
                         if (isAlternative)
                           CustomBadge(
-                            label: 'بديل',
+                            label: isArabic ? 'بديل' : 'Alternative',
                             backgroundColor: colorScheme.primaryContainer,
                             textColor: colorScheme.onPrimaryContainer,
                             icon: LucideIcons.replace,
@@ -586,7 +598,7 @@ class DrugCard extends StatelessWidget {
                             borderRadius: BorderRadius.circular(6),
                           ),
                           child: Text(
-                            'جديد',
+                            isArabic ? 'جديد' : 'New',
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 10,
@@ -715,7 +727,10 @@ class DrugCard extends StatelessWidget {
                               const SizedBox(width: 4),
                               Expanded(
                                 child: Text(
-                                  _getTimeSinceUpdate(drug.lastPriceUpdate),
+                                  _getTimeSinceUpdate(
+                                    context,
+                                    drug.lastPriceUpdate,
+                                  ),
                                   style: textTheme.bodySmall?.copyWith(
                                     color: colorScheme.outline,
                                     fontSize: 10,

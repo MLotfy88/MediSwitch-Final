@@ -156,7 +156,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     bool isDark,
   ) {
     return SliverAppBar(
-      expandedHeight: 60,
+      expandedHeight: 120, // Increased height
       pinned: false,
       flexibleSpace: FlexibleSpaceBar(
         background: Container(
@@ -229,7 +229,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
     return SliverToBoxAdapter(
       child: Transform.translate(
-        offset: const Offset(0, -12), // Reduced from -24 for more spacing
+        offset: const Offset(0, -40), // Increased negative offset
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 16),
           padding: const EdgeInsets.all(16),
@@ -680,89 +680,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        // Price Statistics Card
-        if (widget.drug.oldPrice != null && widget.drug.oldPrice!.isNotEmpty)
-          Container(
-            margin: const EdgeInsets.only(bottom: 16),
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  colorScheme.primary.withOpacity(0.1),
-                  colorScheme.tertiary.withOpacity(0.1),
-                ],
-              ),
-              borderRadius: BorderRadius.circular(16),
-              border: Border.all(
-                color: colorScheme.primary.withOpacity(0.3),
-                width: 2,
-              ),
-            ),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Icon(
-                      LucideIcons.trendingUp,
-                      color: colorScheme.primary,
-                      size: 20,
-                    ),
-                    const SizedBox(width: 8),
-                    Text(
-                      isArabic ? 'إحصائيات السعر' : 'Price Statistics',
-                      style: textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 16),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    _buildPriceStat(
-                      context,
-                      isArabic ? 'السعر القديم' : 'Old Price',
-                      '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
-                      LucideIcons.arrowDown,
-                      Colors.grey,
-                    ),
-                    Container(
-                      width: 2,
-                      height: 40,
-                      color: colorScheme.outline.withOpacity(0.3),
-                    ),
-                    _buildPriceStat(
-                      context,
-                      isArabic ? 'السعر الحالي' : 'Current Price',
-                      '${_formatPrice(widget.drug.price)} ${CurrencyHelper.getCurrencySymbol(context)}',
-                      LucideIcons.arrowUp,
-                      colorScheme.primary,
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 12),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 8,
-                  ),
-                  decoration: BoxDecoration(
-                    color: _getPriceChangeColor(context).withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Text(
-                    _getPriceChangeText(context),
-                    style: textTheme.bodyMedium?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      color: _getPriceChangeColor(context),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-
         // Standard Dosage Card
         Container(
           padding: const EdgeInsets.all(20),
@@ -996,7 +913,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  // --- Price Tab ---
   Widget _buildPriceTab(
     BuildContext context,
     ColorScheme colorScheme,
@@ -1009,35 +925,110 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        Center(
-          child: Padding(
-            padding: const EdgeInsets.all(32),
+        // Price Statistics Card
+        if (widget.drug.oldPrice != null && widget.drug.oldPrice!.isNotEmpty)
+          Container(
+            margin: const EdgeInsets.only(bottom: 16),
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  colorScheme.primary.withOpacity(0.1),
+                  colorScheme.tertiary.withOpacity(0.1),
+                ],
+              ),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: colorScheme.primary.withOpacity(0.3),
+                width: 2,
+              ),
+            ),
             child: Column(
               children: [
-                Icon(
-                  LucideIcons.barChart2,
-                  size: 48,
-                  color: colorScheme.onSurfaceVariant.withOpacity(0.3),
+                Row(
+                  children: [
+                    Icon(
+                      LucideIcons.trendingUp,
+                      color: colorScheme.primary,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      isArabic ? 'إحصائيات السعر' : 'Price Statistics',
+                      style: textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
                 const SizedBox(height: 16),
-                Text(
-                  'سجل الأسعار قريباً',
-                  style: textTheme.titleLarge?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    _buildPriceStat(
+                      context,
+                      isArabic ? 'السعر القديم' : 'Old Price',
+                      '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
+                      LucideIcons.arrowDown,
+                      Colors.grey,
+                    ),
+                    Container(
+                      width: 2,
+                      height: 40,
+                      color: colorScheme.outline.withOpacity(0.3),
+                    ),
+                    _buildPriceStat(
+                      context,
+                      isArabic ? 'السعر الحالي' : 'Current Price',
+                      '${_formatPrice(widget.drug.price)} ${CurrencyHelper.getCurrencySymbol(context)}',
+                      LucideIcons.arrowUp,
+                      colorScheme.primary,
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 8),
-                Text(
-                  'سيتم عرض رسم بياني لتاريخ تطور السعر في التحديثات القادمة',
-                  style: textTheme.bodyMedium?.copyWith(
-                    color: colorScheme.onSurfaceVariant.withOpacity(0.7),
+                const SizedBox(height: 12),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 8,
                   ),
-                  textAlign: TextAlign.center,
+                  decoration: BoxDecoration(
+                    color: _getPriceChangeColor(context).withOpacity(0.2),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    _getPriceChangeText(context),
+                    style: textTheme.bodyMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                      color: _getPriceChangeColor(context),
+                    ),
+                  ),
                 ),
               ],
             ),
+          )
+        else
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(32),
+              child: Column(
+                children: [
+                  Icon(
+                    LucideIcons.barChart2,
+                    size: 48,
+                    color: colorScheme.onSurfaceVariant.withOpacity(0.3),
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    isArabic ? 'لا يوجد سجل أسعار' : 'No Price History',
+                    style: textTheme.titleLarge?.copyWith(
+                      color: colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
-        ),
       ],
     );
   }
