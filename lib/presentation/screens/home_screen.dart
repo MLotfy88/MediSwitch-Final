@@ -273,7 +273,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   physics: const NeverScrollableScrollPhysics(),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3, // 3 columns
-                    childAspectRatio: 1.0, // Square cards
+                    childAspectRatio: 0.9, // Adjust ratio for uniform sizing
                     crossAxisSpacing: 12,
                     mainAxisSpacing: 12,
                   ),
@@ -362,7 +362,7 @@ class _HomeScreenState extends State<HomeScreen> {
           const SliverToBoxAdapter(
             child: Padding(
               padding: EdgeInsets.only(bottom: 24),
-              child: SkeletonList(height: 200),
+              child: SkeletonList(height: 270),
             ),
           )
         else if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
@@ -371,12 +371,12 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(
-                  height: 200,
+                  height: 270,
                   child: _buildHorizontalDrugList(
                     context,
                     title: l10n.recentlyUpdatedDrugs,
                     icon: LucideIcons.history, // Add icon
-                    listHeight: 200,
+                    listHeight: 270,
                     drugs: medicineProvider.recentlyUpdatedDrugs,
                     onViewAll: () {
                       _logger.i("HomeScreen: View All Recent tapped.");
@@ -435,12 +435,12 @@ class _HomeScreenState extends State<HomeScreen> {
         else if (medicineProvider.popularDrugs.isNotEmpty)
           SliverToBoxAdapter(
             child: SizedBox(
-              height: 200,
+              height: 270,
               child: _buildHorizontalDrugList(
                 context,
                 title: l10n.mostSearchedDrugs,
-                icon: LucideIcons.flame, // Add icon
-                listHeight: 200,
+                icon: LucideIcons.trendingUp, // Add icon
+                listHeight: 270,
                 drugs: medicineProvider.popularDrugs,
                 isPopular: true,
                 onViewAll: () {
