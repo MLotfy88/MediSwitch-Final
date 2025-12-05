@@ -58,14 +58,21 @@ jobs:
           import json
           import sys
           
-          data = json.load(open('${{ env.INTERACTIONS_OUTPUT }}'))
-          
-          # Validation checks
-          assert len(data) > 100000, 'Too few interactions extracted'
-          assert all('ingredient1' in i for i in data), 'Missing ingredient1'
-          assert all('severity' in i for i in data), 'Missing severity'
-          
-          print(f'✅ Validation passed: {len(data):,} interactions')
+          try:
+            with open('assets/data/drug_interactions.json', 'r') as f:
+              data = json.load(f)
+            
+            print(f'Found {len(data):,} interactions')
+            
+            # Validation checks (Adjusted for deduplicated data ~20k-30k)
+            assert len(data) > 10000, f'Too few interactions extracted: {len(data)}'
+            assert all('ingredient1' in i for i in data), 'Missing ingredient1'
+            assert all('severity' in i for i in data), 'Missing severity'
+            
+            print(f'✅ Validation passed: {len(data):,} high-quality interactions')
+          except Exception as e:
+            print(f'❌ Validation failed: {e}')
+            sys.exit(1)
           "
       
       - name: Create Backup
