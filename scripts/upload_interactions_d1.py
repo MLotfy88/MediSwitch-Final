@@ -47,8 +47,52 @@ class CloudflareD1Uploader:
                 print("   3. Is created for the correct Account ID.")
             raise
     
+    def initialize_tables(self):
+        """Create tables if they don't exist"""
+        print("🛠️  Checking/Creating tables...")
+        
+        # Interactions Table
+        sql_interactions = """
+        CREATE TABLE IF NOT EXISTS drug_interactions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            ingredient1 TEXT NOT NULL,
+            ingredient2 TEXT NOT NULL,
+            severity TEXT NOT NULL,
+            type TEXT NOT NULL,
+            effect TEXT NOT NULL,
+            arabic_effect TEXT,
+            recommendation TEXT,
+            arabic_recommendation TEXT,
+            source TEXT DEFAULT 'OpenFDA',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        """
+        self.execute_query(sql_interactions)
+        
+        # Create Index
+        try:
+            self.execute_query("CREATE INDEX IF NOT EXISTS idx_ingredient1 ON drug_interactions(ingredient1);")
+        except:
+            pass # Ignore if index exists error
+            
+        # Sync Log Table
+        sql_log = """
+        CREATE TABLE IF NOT EXISTS interaction_sync_log (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            sync_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            total_interactions INTEGER,
+            unique_interactions INTEGER,
+            openfda_files_processed INTEGER,
+            status TEXT,
+            error_message TEXT,
+            duration_seconds INTEGER
+        );
+        """
+        self.execute_query(sql_log)
+        print("✅ Tables initialized")
+    
     def clear_interactions_table(self):
-        """Clear existing interactions (TRUNCATE TABLE)"""
+        """Clear existing interactions (DELETE FROM)"""
         print("🗑️  Clearing existing interactions...")
         result = self.execute_query("DELETE FROM drug_interactions")
         print(f"✅ Cleared table")
@@ -144,6 +188,9 @@ def main():
             database_id=args.database_id,
             api_token=args.api_token
         )
+
+        # Ensure tables exist
+        uploader.initialize_tables()
         
         # Clear if requested
         if args.clear_first:
