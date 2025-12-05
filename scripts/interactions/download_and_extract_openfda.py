@@ -182,7 +182,8 @@ def extract_interactions_from_json(json_path: str) -> List[Dict]:
 
 def main():
     download_dir = 'External_source/drug_interaction/drug-label/downloaded'
-    output_file = 'assets/data/drug_interactions_openfda_full.json'
+    # Use environment variable if set by GitHub Action, otherwise default
+    output_file = os.environ.get('INTERACTIONS_OUTPUT', 'assets/data/drug_interactions.json')
     
     os.makedirs(download_dir, exist_ok=True)
     
