@@ -45,6 +45,15 @@ export default {
 				return handleStats(request, env);
 			}
 
+			// Interactions Routes
+			if (path === '/api/interactions' && request.method === 'GET') {
+				return handleGetInteractions(request, env);
+			}
+
+			if (path === '/api/interactions/sync' && request.method === 'GET') {
+				return handleSyncInteractions(request, env);
+			}
+
 			// 404
 			return jsonResponse({ error: 'Not found' }, 404);
 		} catch (error) {
@@ -184,27 +193,27 @@ async function handleUpdate(request, env) {
 					visits = excluded.visits,
 					updated_at = CURRENT_TIMESTAMP
 			`).bind(
-				drug.id || null,
-				drug.trade_name,
-				drug.arabic_name || '',
-				drug.old_price || 0,
-				drug.price || 0,
-				drug.active || '',
-				drug.main_category || '',
-				drug.main_category_ar || '',
-				drug.category || '',
-				drug.category_ar || '',
-				drug.company || '',
-				drug.dosage_form || '',
-				drug.dosage_form_ar || '',
-				drug.unit || '1',
-				drug.usage || '',
-				drug.usage_ar || '',
-				drug.description || '',
-				drug.last_price_update || '',
-				drug.concentration || '',
-				drug.visits || 0
-			)
+					drug.id || null,
+					drug.trade_name,
+					drug.arabic_name || '',
+					drug.old_price || 0,
+					drug.price || 0,
+					drug.active || '',
+					drug.main_category || '',
+					drug.main_category_ar || '',
+					drug.category || '',
+					drug.category_ar || '',
+					drug.company || '',
+					drug.dosage_form || '',
+					drug.dosage_form_ar || '',
+					drug.unit || '1',
+					drug.usage || '',
+					drug.usage_ar || '',
+					drug.description || '',
+					drug.last_price_update || '',
+					drug.concentration || '',
+					drug.visits || 0
+				)
 		);
 
 		// Execute in batches of 100
@@ -275,4 +284,61 @@ function convertDateFormat(dateStr) {
 	}
 
 	return dateStr;
+}
+
+/**
+ * GET /api/interactions
+ * List all interactions with pagination
+ */
+async function handleGetInteractions(request, env) {
+	const url = new URL(request.url);
+	const page = parseInt(url.searchParams.get('page') || '1');
+	const limit = parseInt(url.searchParams.get('limit') || '100');
+	const offset = (page - 1) * limit;
+
+	const { results } = await env.DB.prepare(
+		'SELECT * FROM drug_interactions ORDER BY created_at DESC LIMIT ? OFFSET ?'
+	).bind(limit, offset).all();
+
+	const { count } = await env.DB.prepare(
+		'SELECT COUNT(*) as count FROM drug_interactions'
+	).first();
+
+	return jsonResponse({
+		data: results,
+		pagination: {
+			page,
+			limit,
+			total: count,
+			pages: Math.ceil(count / limit),
+		},
+	});
+}
+
+/**
+ * GET /api/interactions/sync?since=2025-12-01
+ * Get interactions created/updated since a specific date
+ */
+async function handleSyncInteractions(request, env) {
+	const url = new URL(request.url);
+	const since = url.searchParams.get('since');
+
+	if (!since) {
+		return jsonResponse({ error: 'Missing "since" parameter' }, 400);
+	}
+
+	// Support both YYYY-MM-DD and full timestamp
+	const dateStr = convertDateFormat(since);
+
+	const { results } = await env.DB.prepare(
+		`SELECT * FROM drug_interactions 
+		 WHERE DATE(created_at) >= DATE(?) 
+		 ORDER BY created_at DESC`
+	).bind(dateStr).all();
+
+	return jsonResponse({
+		data: results,
+		count: results.length,
+		since: since,
+	});
 }
