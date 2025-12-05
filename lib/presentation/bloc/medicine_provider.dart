@@ -240,7 +240,8 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       final now = DateTime.now();
       final oneMonthAgo = DateTime(now.year, now.month - 1, now.day);
       final cutoffDate = DateFormat('yyyy-MM-dd').format(oneMonthAgo);
-      const recentLimit = 8;
+      const recentLimit =
+          50; // Increased limit to allow accurate 'Today' stats calculation
 
       _logger.i(
         "Fetching recently updated drugs since $cutoffDate (limit: $recentLimit)",
