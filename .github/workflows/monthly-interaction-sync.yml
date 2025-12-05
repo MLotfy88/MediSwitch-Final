@@ -80,8 +80,9 @@ jobs:
       - name: Upload to Cloudflare D1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+          # Fallback to known IDs if secrets are missing
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9f7fd7dfef294f26d47d62df34726367' }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID || '77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0' }}
         run: |
           echo "::group::Uploading to Cloudflare D1"
           python3 scripts/upload_interactions_d1.py \
