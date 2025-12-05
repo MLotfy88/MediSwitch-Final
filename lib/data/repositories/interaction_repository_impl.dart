@@ -4,10 +4,12 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For debugPrint
 import 'package:flutter/services.dart' show rootBundle;
 import '../../core/error/failures.dart';
+import '../../core/utils/fuzzy_matcher.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/services/interaction_analyzer_service.dart';
+import '../../domain/services/interaction_index.dart';
 
 class InteractionRepositoryImpl implements InteractionRepository {
   List<DrugInteraction> _allInteractions = [];
@@ -16,6 +18,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   // Cache for fast lookup
   final Set<String> _ingredientsWithKnownInteractions = {};
+
+  // Search index for O(1) lookups
+  final InteractionIndex _searchIndex = InteractionIndex();
 
   @override
   Future<Either<Failure, Unit>> loadInteractionData() async {
@@ -66,9 +71,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
         );
       }
 
+      // 4. Build search index
+      debugPrint('InteractionRepositoryImpl: Building search index...');
+      _searchIndex.buildIndex(_allInteractions);
+
       _isDataLoaded = true;
       debugPrint(
-        'InteractionRepositoryImpl: Loaded ${_allInteractions.length} interactions and ${_medicineToIngredientsMap.length} medicine maps.',
+        'InteractionRepositoryImpl: Loaded ${_allInteractions.length} interactions, '
+        '${_medicineToIngredientsMap.length} medicine maps, '
+        'and indexed ${_searchIndex.totalInteractions} for fast lookup.',
       );
 
       return const Right(unit);
@@ -198,36 +209,71 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Map<String, List<String>> get medicineToIngredientsMap =>
       _medicineToIngredientsMap;
 
-  // Helper to get ingredients (from map or parsed)
+  // Enhanced helper to get ingredients with fuzzy matching
   List<String> _getIngredients(DrugEntity drug) {
+    final List<String> results = [];
     final tradeNameLower = drug.tradeName.toLowerCase().trim();
+
+    // Strategy 1: Exact match in medicine map
     if (_medicineToIngredientsMap.containsKey(tradeNameLower)) {
-      return _medicineToIngredientsMap[tradeNameLower]!;
+      results.addAll(_medicineToIngredientsMap[tradeNameLower]!);
     }
 
-    // Fallback: parse active string
-    return _extractIngredientsFromString(drug.active);
+    // Strategy 2: Also add the drug name itself (for OpenFDA data)
+    // OpenFDA uses drug names like "aspirin", "warfarin" directly
+    results.add(tradeNameLower);
+
+    // Strategy 3: Parse active ingredient string
+    final parsed = _extractIngredientsFromString(drug.active);
+    results.addAll(parsed);
+
+    // Strategy 4: Fuzzy matching against indexed ingredients (if no exact match)
+    if (results.length <= 2) {
+      // Only trade name + maybe one parsed
+      final indexed = _searchIndex.allIndexedIngredients;
+      if (indexed.isNotEmpty) {
+        final match = FuzzyMatcher.findBestMatch(
+          tradeNameLower,
+          indexed,
+          minThreshold: 0.7, // 70% similarity
+        );
+        if (match != null) {
+          results.add(match.value1);
+          debugPrint(
+            'FuzzyMatch: "$tradeNameLower" → "${match.value1}" (${(match.value2 * 100).toStringAsFixed(0)}%)',
+          );
+        }
+      }
+    }
+
+    // Remove duplicates
+    return results.toSet().toList();
   }
 
   List<String> _extractIngredientsFromString(String activeText) {
     if (activeText.isEmpty) return [];
-    // Simple split by comma or plus
-    final List<String> parts = activeText.split(RegExp(r'[,+/|&]|\s+and\s+'));
+
+    // Enhanced parsing with better separators
+    final List<String> parts = activeText.split(
+      RegExp(r'[,+/|&]|\s+and\s+|\s+with\s+'),
+    );
+
     return parts
         .map((part) {
-          // Remove dosage info
+          // Remove dosage info and common suffixes
           String cleaned = part.replaceAll(
             RegExp(
-              r'\b\d+(\.\d+)?\s*(mg|mcg|g|ml|%|iu|units?|u)\b',
+              r'\b\d+(\.\d+)?\s*(mg|mcg|g|ml|%|iu|units?|u|tablet|capsule|syrup|injection)\b',
               caseSensitive: false,
             ),
             '',
           );
           cleaned = cleaned.replaceAll(RegExp(r'\b\d+(\.\d+)?\b'), '');
-          cleaned = cleaned.replaceAll(RegExp(r'[()\[\]]'), '');
-          return cleaned.trim().toLowerCase();
+          cleaned = cleaned.replaceAll(RegExp(r'[()\[\]"]'), '');
+          cleaned = FuzzyMatcher.normalize(cleaned);
+          return cleaned;
         })
-        .where((part) => part.length > 1) // Ignore single chars
+        .where((part) => part.length > 2) // Ignore very short
         .toList();
   }
 }
