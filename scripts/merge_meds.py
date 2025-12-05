@@ -42,6 +42,8 @@ def merge_csv(main_file, update_file, output_file=None):
     updates_count = 0
     new_count = 0
     
+    changes_report = []
+    
     try:
         with open(update_file, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
@@ -55,12 +57,39 @@ def merge_csv(main_file, update_file, output_file=None):
                     continue
                 
                 drug_id = row['id']
+                
+                # Check for price change
                 if drug_id in meds_db:
+                    old_row = meds_db[drug_id]
+                    try:
+                        old_price = float(old_row.get('price', 0))
+                        new_price = float(row.get('price', 0))
+                        
+                        if abs(new_price - old_price) > 0.01: # Check for meaningful difference
+                            change_pct = ((new_price - old_price) / old_price * 100) if old_price != 0 else 0
+                            arrow = "📈" if new_price > old_price else "📉"
+                            name_ar = row.get('arabic_name', 'Unknown')
+                            name_en = row.get('trade_name', 'Unknown')
+                            
+                            changes_report.append(f"• *{name_ar}* ({name_en})\n  {old_price} ← {new_price} ج.م {arrow} ({change_pct:+.1f}%)")
+                    except ValueError:
+                        pass # Skip valid price checks if data is bad
+
                     # Update existing record
                     meds_db[drug_id].update(row)
                     updates_count += 1
                 else:
-                    # Add new record
+                    # New record logic (Optional: Add to report as NEW)
+                    # meds_db[drug_id] = row
+                    # new_count += 1
+                    try:
+                         new_price = float(row.get('price', 0))
+                         name_ar = row.get('arabic_name', 'Unknown')
+                         name_en = row.get('trade_name', 'Unknown')
+                         changes_report.append(f"• 🆕 *{name_ar}* ({name_en})\n  السعر: {new_price} ج.م")
+                    except:
+                        pass
+                    
                     meds_db[drug_id] = row
                     new_count += 1
     except Exception as e:
@@ -68,6 +97,13 @@ def merge_csv(main_file, update_file, output_file=None):
         return
 
     print(f"Processed updates: {updates_count} updated, {new_count} new.")
+    
+    # Save formatted report for Slack
+    with open('changes_report.txt', 'w', encoding='utf-8') as report_file:
+        if changes_report:
+            report_file.write("\n".join(changes_report[:10])) # Limit to top 10 to avoid spam
+            if len(changes_report) > 10:
+                report_file.write(f"\n... و {len(changes_report)-10} منتجات أخرى")
 
     # Create backup before writing
     backup_file = f"{main_file}.backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -94,4 +130,4 @@ if __name__ == "__main__":
     update_csv = sys.argv[2]
     output_csv = sys.argv[3] if len(sys.argv) > 3 else main_csv
     
-    merge_csv(main_csv, update_csv, output_csv)
+

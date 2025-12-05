@@ -43,7 +43,10 @@ jobs:
           SLACK_USERNAME: MediSwitch Bot
           SLACK_ICON_EMOJI: ':pill:'
           SLACK_COLOR: '#007ec6'
-          SLACK_MESSAGE: '🔄 بدء تحديث قاعدة بيانات الأدوية...\n*المستودع:* `${{ github.repository }}`\n*الوقت:* $(date -u +"%Y-%m-%d %H:%M:%S UTC")'
+          # Use shell command substitution properly requires 'run' context, but here we are in 'uses'.
+          # Simple fix: Remove the date from the start message or use a pre-calculated env var.
+          # Since we can't pre-calculate easily before checkout (sometimes), let's keep it simple.
+          SLACK_MESSAGE: '🔄 بدء تحديث قاعدة بيانات الأدوية...\n*المستودع:* `${{ github.repository }}`'
       
       - name: Random delay (human-like behavior)
         run: |
@@ -136,15 +139,18 @@ jobs:
         id: summary
         if: always()
         run: |
+          # Calculate Date/Time references for later steps
+          DATE=$(date +'%Y-%m-%d')
+          TIME=$(date +'%H:%M:%S UTC')
+          echo "DATE=$DATE" >> $GITHUB_ENV
+          echo "TIME=$TIME" >> $GITHUB_ENV
+          
           echo "## Daily Drug Price Update Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Run Time:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Time:** $DATE $TIME" >> $GITHUB_STEP_SUMMARY
           
           if [ -f response.json ]; then
             echo "- **Status:** ✅ Upload completed" >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
-            cat response.json >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           else
             echo "- **Status:** ❌ Upload failed" >> $GITHUB_STEP_SUMMARY
           fi
@@ -154,63 +160,25 @@ jobs:
             echo "- **Database:** $DRUG_COUNT drugs in assets/meds.csv" >> $GITHUB_STEP_SUMMARY
             echo "total_drugs=$DRUG_COUNT" >> $GITHUB_OUTPUT
             
-            # Extract top 5 recently updated drugs for Slack notification
-            # CSV columns: trade_name(1), arabic_name(2), price(3), old_price(4), ..., last_price_update(10)
-            DRUGS_INFO=""
-            tail -n 6 assets/meds.csv | head -n 5 | while IFS=',' read -r trade_name arabic_name price old_price active company description dosage_form concentration last_update rest; do
-              # Remove quotes
-              trade_name=$(echo "$trade_name" | tr -d '"')
-              arabic_name=$(echo "$arabic_name" | tr -d '"')
-              price=$(echo "$price" | tr -d '"')
-              old_price=$(echo "$old_price" | tr -d '"')
-              last_update=$(echo "$last_update" | tr -d '"')
+            # Check generated report from merge script
+            if [ -f changes_report.txt ] && [ -s changes_report.txt ]; then
+              echo "✅ Changes detected in report"
+              echo "has_changes=true" >> $GITHUB_OUTPUT
               
-              # Calculate percentage change if old_price exists
-              if [ -n "$trade_name" ] && [ -n "$price" ] && [ -n "$old_price" ] && [ "$old_price" != "" ]; then
-                # Use awk for floating point calculation
-                change_pct=$(awk -v new="$price" -v old="$old_price" 'BEGIN {
-                  if (old != 0) {
-                    change = ((new - old) / old) * 100
-                    if (change >= 0) {
-                      printf "+%.1f%%", change
-                    } else {
-                      printf "%.1f%%", change
-                    }
-                  } else {
-                    print "N/A"
-                  }
-                }')
-                
-                # Determine arrow direction
-                arrow=$(awk -v new="$price" -v old="$old_price" 'BEGIN {
-                  if (new > old) print "📈"
-                  else if (new < old) print "📉"
-                  else print "➡️"
-                }')
-                
-                echo "• *${arabic_name}* (${trade_name})" >> drugs_temp.txt
-                echo "  ${old_price} ← ${price} ج.م ${arrow} (${change_pct})" >> drugs_temp.txt
-              elif [ -n "$trade_name" ] && [ -n "$price" ]; then
-                # Fallback if no old price
-                echo "• *${arabic_name}* (${trade_name}) - ${price} ج.م" >> drugs_temp.txt
-              fi
-            done
-            
-            if [ -f drugs_temp.txt ]; then
-              DRUGS_LIST=$(cat drugs_temp.txt | tr '\n' '|' | sed 's/|$//')
+              REPORT_CONTENT=$(cat changes_report.txt)
               echo "recent_drugs<<EOF" >> $GITHUB_OUTPUT
-              cat drugs_temp.txt >> $GITHUB_OUTPUT
+              echo "$REPORT_CONTENT" >> $GITHUB_OUTPUT
               echo "EOF" >> $GITHUB_OUTPUT
-              rm drugs_temp.txt
             else
-              echo "recent_drugs=" >> $GITHUB_OUTPUT
+              echo "ℹ️ No report or empty report found"
+              echo "has_changes=false" >> $GITHUB_OUTPUT
             fi
           fi
       
-      # إرسال إشعار بنجاح الـ Workflow مع معلومات الأدوية
-      - name: Send Slack Notification - Success
+      # إرسال إشعار بنجاح الـ Workflow (في حالة وجود تحديثات)
+      - name: Send Slack Notification - Updates Found
         uses: rtCamp/action-slack-notify@v2
-        if: success()
+        if: success() && steps.summary.outputs.has_changes == 'true'
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_USERNAME: MediSwitch Bot
@@ -219,16 +187,33 @@ jobs:
           SLACK_MESSAGE: |
             ✅ *تم تحديث قاعدة بيانات الأدوية بنجاح!*
             
-            📅 *التاريخ والوقت:* $(date -u +"%Y-%m-%d")  |  ⏰ $(date -u +"%H:%M:%S UTC")
+            📅 *التاريخ:* ${{ env.DATE }}  |  ⏰ ${{ env.TIME }}
             
             📊 *الإحصائيات:*
             • إجمالي الأدوية: ${{ steps.summary.outputs.total_drugs }}
-            • الوقت: $GITHUB_RUN_ID
+            • الوقت: ${{ github.run_id }}
             
-            🆕 *آخر الأدوية المحدثة:*
+            🆕 *آخر التحديثات:*
             ${{ steps.summary.outputs.recent_drugs }}
             
-            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|عرض تفاصيل التنفيذ>
+            <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|عرض التفاصيل>
+
+      # إرسال إشعار (في حالة عدم وجود تحديثات)
+      - name: Send Slack Notification - No Updates
+        uses: rtCamp/action-slack-notify@v2
+        if: success() && steps.summary.outputs.has_changes != 'true'
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: MediSwitch Bot
+          SLACK_ICON_EMOJI: ':information_source:'
+          SLACK_COLOR: '#3498db'
+          SLACK_MESSAGE: |
+            ℹ️ *فحص التحديثات اليومي مكتمل*
+            
+            قاعدة البيانات محدثة بالفعل، لا توجد تغييرات جديدة اليوم.
+            
+            📅 *التاريخ:* ${{ env.DATE }}
+            📊 *إجمالي الأدوية:* ${{ steps.summary.outputs.total_drugs }}
 
   # خطوة منفصلة لإرسال إشعار في حالة الفشل
   notify_failure:
