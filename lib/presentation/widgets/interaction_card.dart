@@ -18,9 +18,16 @@ class InteractionCard extends StatelessWidget {
     final severityColor = InteractionSeverityHelper.getSeverityColor(
       interaction.severity,
     );
-    final severityBg = InteractionSeverityHelper.getSeverityBackgroundColor(
-      interaction.severity,
-    );
+
+    // Adjust background for Dark Mode to ensure readability
+    final bool isDark = theme.brightness == Brightness.dark;
+    final severityBg =
+        isDark
+            ? severityColor.withOpacity(0.15)
+            : InteractionSeverityHelper.getSeverityBackgroundColor(
+              interaction.severity,
+            );
+
     final severityIcon = InteractionSeverityHelper.getSeverityIcon(
       interaction.severity,
     );
@@ -35,7 +42,7 @@ class InteractionCard extends StatelessWidget {
       elevation: 0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
-        side: BorderSide(color: severityColor.withOpacity(0.4)),
+        side: BorderSide(color: severityColor.withOpacity(isDark ? 0.3 : 0.4)),
       ),
       color: severityBg,
       child: Padding(
@@ -80,20 +87,32 @@ class InteractionCard extends StatelessWidget {
                 'التأثير:',
                 style: textTheme.bodyMedium?.copyWith(
                   fontWeight: FontWeight.bold,
+                  color: colorScheme.onSurface,
                 ),
               ),
               const SizedBox(height: 4),
-              Text(interaction.arabicEffect, style: textTheme.bodyMedium),
+              Text(
+                interaction.arabicEffect,
+                style: textTheme.bodyMedium?.copyWith(
+                  color: colorScheme.onSurface,
+                ),
+              ),
               const SizedBox(height: 12),
             ] else if (interaction.effect.isNotEmpty) ...[
               Text(
                 isArabic ? 'وصف التفاعل:' : 'Effect:',
                 style: textTheme.bodyMedium?.copyWith(
                   fontWeight: FontWeight.bold,
+                  color: colorScheme.onSurface,
                 ),
               ),
               const SizedBox(height: 4),
-              Text(interaction.effect, style: textTheme.bodyMedium),
+              Text(
+                interaction.effect,
+                style: textTheme.bodyMedium?.copyWith(
+                  color: colorScheme.onSurface,
+                ),
+              ),
               const SizedBox(height: 12),
             ],
 
@@ -103,22 +122,31 @@ class InteractionCard extends StatelessWidget {
                 'التوصية:',
                 style: textTheme.bodyMedium?.copyWith(
                   fontWeight: FontWeight.bold,
+                  color: colorScheme.onSurface,
                 ),
               ),
               const SizedBox(height: 4),
               Text(
                 interaction.arabicRecommendation,
-                style: textTheme.bodyMedium,
+                style: textTheme.bodyMedium?.copyWith(
+                  color: colorScheme.onSurface,
+                ),
               ),
             ] else if (interaction.recommendation.isNotEmpty) ...[
               Text(
                 isArabic ? 'التوصية الطبية:' : 'Recommendation:',
                 style: textTheme.bodyMedium?.copyWith(
                   fontWeight: FontWeight.bold,
+                  color: colorScheme.onSurface,
                 ),
               ),
               const SizedBox(height: 4),
-              Text(interaction.recommendation, style: textTheme.bodyMedium),
+              Text(
+                interaction.recommendation,
+                style: textTheme.bodyMedium?.copyWith(
+                  color: colorScheme.onSurface,
+                ),
+              ),
             ],
           ],
         ),

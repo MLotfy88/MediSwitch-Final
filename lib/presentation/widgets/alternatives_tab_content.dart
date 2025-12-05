@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
-// import 'package:provider/provider.dart'; // No longer using Provider here
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import 'package:lucide_icons/lucide_icons.dart'; // Import LucideIcons
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/drug_repository.dart'; // Import DrugRepository
-// import '../bloc/alternatives_provider.dart'; // No longer using AlternativesProvider
 import 'drug_card.dart';
 import '../screens/drug_details_screen.dart'; // Import DrugDetailsScreen
-// import '../widgets/custom_badge.dart'; // No longer needed here
 
 class AlternativesTabContent extends StatefulWidget {
   final DrugEntity originalDrug;
@@ -105,109 +103,157 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
     _logger.d(
       "AlternativesTabContent: Building widget for drug: ${widget.originalDrug.tradeName}",
     );
-    // final provider = context.watch<AlternativesProvider>(); // Removed provider
     final theme = Theme.of(context);
-    final l10n = AppLocalizations.of(context)!; // Get localizations
+    final l10n = AppLocalizations.of(context)!;
 
     bool isLoading = _isLoadingSimilars || _isLoadingAlternatives;
-    // Combine error messages for display
     String combinedError = '';
     if (_similarsError != null) {
-      combinedError +=
-          "${l10n.errorFetchingInteractions}: $_similarsError\n"; // Re-use interaction error key for now
+      combinedError += "${l10n.errorFetchingInteractions}: $_similarsError\n";
     }
     if (_alternativesError != null) {
-      combinedError +=
-          "${l10n.errorFetchingInteractions}: $_alternativesError"; // Re-use interaction error key for now
+      combinedError += "${l10n.errorFetchingInteractions}: $_alternativesError";
     }
     bool hasError = combinedError.isNotEmpty;
     bool noResults =
         !isLoading && !hasError && _similars.isEmpty && _alternatives.isEmpty;
 
-    return ListView(
-      padding: const EdgeInsets.all(16.0),
-      children: [
-        if (isLoading)
-          const Center(
-            child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 32.0),
-              child: CircularProgressIndicator(),
+    if (isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    if (hasError) {
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Text(
+            combinedError.trim(),
+            style: TextStyle(color: theme.colorScheme.error),
+            textAlign: TextAlign.center,
+          ),
+        ),
+      );
+    }
+
+    if (noResults) {
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(32.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                LucideIcons.search,
+                size: 48,
+                color: theme.colorScheme.outline,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                l10n.noSimilarsFound, // Fallback message
+                style: theme.textTheme.titleMedium?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    return CustomScrollView(
+      key: PageStorageKey<String>(
+        'alternatives_${widget.originalDrug.tradeName}',
+      ), // Use tradeName instead of ID
+      slivers: [
+        SliverPadding(
+          padding: const EdgeInsets.all(16.0),
+          sliver: SliverList(
+            delegate: SliverChildListDelegate([
+              // --- Similars Header ---
+              _buildSectionHeader(context, l10n.similarsTitle),
+              const SizedBox(height: 8),
+              if (_similars.isEmpty)
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: Text(
+                      l10n.noSimilarsFound,
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
+                ),
+            ]),
+          ),
+        ),
+
+        // --- Similars List (Virtualized) ---
+        if (_similars.isNotEmpty)
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            sliver: SliverList(
+              delegate: SliverChildBuilderDelegate((context, index) {
+                final drug = _similars[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 12.0), // Spacing
+                  child: DrugCard(
+                    drug: drug,
+                    type: DrugCardType.detailed,
+                    isAlternative: false,
+                    onTap: () => _onDrugTap(context, drug),
+                  ),
+                );
+              }, childCount: _similars.length),
             ),
-          )
-        else if (hasError)
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 16.0),
-            child: Center(
-              child: Text(
-                combinedError.trim(), // Display combined errors
-                style: TextStyle(color: theme.colorScheme.error),
-                textAlign: TextAlign.center,
-              ),
+          ),
+
+        SliverPadding(
+          padding: const EdgeInsets.all(16.0),
+          sliver: SliverList(
+            delegate: SliverChildListDelegate([
+              const SizedBox(height: 12), // Space between sections
+              // --- Alternatives Header ---
+              _buildSectionHeader(context, l10n.alternativesTitle),
+              const SizedBox(height: 8),
+              if (_alternatives.isEmpty)
+                Center(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: Text(
+                      l10n.noAlternativesFoundMsg,
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
+                ),
+            ]),
+          ),
+        ),
+
+        // --- Alternatives List (Virtualized) ---
+        if (_alternatives.isNotEmpty)
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            sliver: SliverList(
+              delegate: SliverChildBuilderDelegate((context, index) {
+                final drug = _alternatives[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 12.0), // Spacing
+                  child: DrugCard(
+                    drug: drug,
+                    type: DrugCardType.detailed,
+                    isAlternative: true,
+                    onTap: () => _onDrugTap(context, drug),
+                  ),
+                );
+              }, childCount: _alternatives.length),
             ),
-          )
-        else if (noResults)
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 32.0),
-            // If both are empty, show a combined message or specific ones?
-            // Let's show specific messages within their sections instead.
-            // child: Center(child: Text(l10n.noSimilarsFound)), // Or a more general message
-            child: Container(), // Handled within sections now
-          )
-        else ...[
-          // --- Similars Section ---
-          _buildSectionHeader(
-            context,
-            l10n.similarsTitle,
-          ), // Use localized string
-          const SizedBox(height: 8),
-          if (_isLoadingSimilars)
-            const Center(
-              child: CircularProgressIndicator(),
-            ) // Should not happen if !isLoading overall
-          else if (_similarsError != null)
-            Center(
-              child: Text(
-                "${l10n.errorFetchingInteractions}: $_similarsError",
-                style: TextStyle(color: theme.colorScheme.error),
-              ),
-            ) // Show specific error
-          else if (_similars.isEmpty)
-            Center(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8.0),
-                child: Text(l10n.noSimilarsFound),
-              ),
-            ) // Use localized string for no similars
-          else
-            _buildDrugList(_similars, isAlternative: false),
-          const SizedBox(height: 24), // Space between sections
-          // --- Alternatives Section ---
-          _buildSectionHeader(
-            context,
-            l10n.alternativesTitle,
-          ), // Use localized string
-          const SizedBox(height: 8),
-          if (_isLoadingAlternatives)
-            const Center(
-              child: CircularProgressIndicator(),
-            ) // Should not happen if !isLoading overall
-          else if (_alternativesError != null)
-            Center(
-              child: Text(
-                "${l10n.errorFetchingInteractions}: $_alternativesError",
-                style: TextStyle(color: theme.colorScheme.error),
-              ),
-            ) // Show specific error
-          else if (_alternatives.isEmpty)
-            Center(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8.0),
-                child: Text(l10n.noAlternativesFoundMsg),
-              ),
-            ) // Use localized string for no alternatives
-          else
-            _buildDrugList(_alternatives, isAlternative: true),
-        ],
+          ),
+
+        // Bottom Padding
+        const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
       ],
     );
   }
@@ -222,34 +268,17 @@ class _AlternativesTabContentState extends State<AlternativesTabContent> {
     );
   }
 
-  // Helper to build the list of drugs (Similars or Alternatives)
-  Widget _buildDrugList(List<DrugEntity> drugs, {required bool isAlternative}) {
-    return ListView.separated(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      itemCount: drugs.length,
-      itemBuilder: (context, index) {
-        final drug = drugs[index];
-        return DrugCard(
-          drug: drug,
-          type: DrugCardType.detailed,
-          isAlternative:
-              isAlternative, // Pass whether it's an alternative or similar
-          onTap: () {
-            _logger.i(
-              "AlternativesTabContent: Tapped ${isAlternative ? 'alternative' : 'similar'}: ${drug.tradeName}",
-            );
-            Navigator.pushReplacement(
-              // Use pushReplacement to avoid deep navigation stack
-              context,
-              MaterialPageRoute(
-                builder: (context) => DrugDetailsScreen(drug: drug),
-              ),
-            );
-          },
-        );
-      },
-      separatorBuilder: (context, index) => const SizedBox(height: 12),
+  void _onDrugTap(BuildContext context, DrugEntity drug) {
+    _logger.i("AlternativesTabContent: Tapped drug: ${drug.tradeName}");
+    // Use pushReplacement to avoid deep stack, or just push for normal nav
+    // If we want to replace the current detail page (since we are already in one), pushReplacement is good.
+    // However, user might want to go back. Let's use push for now as per stack behavior, but previous code used pushReplacement.
+    // I'll stick to pushReplacement if that was the intent.
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute<void>(
+        builder: (context) => DrugDetailsScreen(drug: drug),
+      ), // Fix generics
     );
   }
 }

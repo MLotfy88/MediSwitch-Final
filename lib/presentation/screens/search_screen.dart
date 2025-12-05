@@ -2,27 +2,24 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'dart:ui' as ui; // For TextDirection
+
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/medicine_provider.dart';
 import '../widgets/drug_card.dart';
-// import '../widgets/filter_bottom_sheet.dart'; // Will be replaced by drawer
-import '../widgets/filter_end_drawer.dart'; // Import the new drawer
+import '../widgets/filter_end_drawer.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import 'drug_details_screen.dart';
 import '../services/ad_service.dart';
 import '../widgets/banner_ad_widget.dart';
-import '../../core/constants/app_spacing.dart'; // Import spacing constants
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import '../../core/constants/app_spacing.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
-  final String? initialCategory; // Add initialCategory parameter
-  const SearchScreen({
-    super.key,
-    this.initialQuery = '',
-    this.initialCategory, // Add to constructor
-  });
+  final String? initialCategory;
+  const SearchScreen({super.key, this.initialQuery = '', this.initialCategory});
 
   @override
   State<SearchScreen> createState() => _SearchScreenState();
@@ -32,129 +29,87 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FileLoggerService _logger = locator<FileLoggerService>();
   final AdService _adService = locator<AdService>();
-  Timer? _debounce;
-  final GlobalKey<ScaffoldState> _scaffoldKey =
-      GlobalKey<ScaffoldState>(); // Key for drawer
-  final ScrollController _scrollController =
-      ScrollController(); // Add ScrollController for pagination
+  // Timer? _debounce; // Debounce removed in favor of manual submission
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
     _logger.i(
-      "SearchScreen: +++++ initState +++++. Initial query: '${widget.initialQuery}'", // Lifecycle Log
+      "SearchScreen: +++++ initState +++++. Initial query: '${widget.initialQuery}'",
     );
     _searchController.text = widget.initialQuery;
 
-    // Apply initial filters (query and/or category) after the first frame
-    // Let the provider handle triggering the actual search/filter application
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         final provider = context.read<MedicineProvider>();
         bool categoryChanged = false;
         bool queryChanged = false;
 
-        // Apply initial category if provided and different from current
         if (widget.initialCategory != null &&
             widget.initialCategory!.isNotEmpty &&
             provider.selectedCategory != widget.initialCategory) {
-          _logger.i(
-            "SearchScreen initState: Setting initial category: '${widget.initialCategory}'",
-          );
-          // Set category without triggering search immediately
           provider.setCategory(widget.initialCategory!, triggerSearch: false);
           categoryChanged = true;
-        }
-        // Clear category if none was passed and provider has one selected
-        else if ((widget.initialCategory == null ||
+        } else if ((widget.initialCategory == null ||
                 widget.initialCategory!.isEmpty) &&
             provider.selectedCategory.isNotEmpty) {
-          _logger.i("SearchScreen initState: Clearing category filter.");
-          // Clear category without triggering search immediately
           provider.setCategory('', triggerSearch: false);
           categoryChanged = true;
         }
 
-        // Apply initial query if provided and different from current
         if (widget.initialQuery.isNotEmpty &&
             provider.searchQuery != widget.initialQuery) {
-          _logger.i(
-            "SearchScreen initState: Setting initial search query: '${widget.initialQuery}'",
-          );
-          // Set query without triggering search immediately
           provider.setSearchQuery(widget.initialQuery, triggerSearch: false);
           queryChanged = true;
-        }
-        // If initial query is empty but provider has one, clear it.
-        else if (widget.initialQuery.isEmpty &&
+        } else if (widget.initialQuery.isEmpty &&
             provider.searchQuery.isNotEmpty) {
-          _logger.i("SearchScreen initState: Clearing search query.");
-          // Clear query without triggering search immediately
           provider.setSearchQuery('', triggerSearch: false);
           queryChanged = true;
         }
 
-        // If any filter changed, trigger a single search now
         if (categoryChanged || queryChanged) {
-          _logger.i(
-            "SearchScreen initState: Triggering search after filter changes.",
-          );
           provider.triggerSearch();
         }
       }
     });
-    _searchController.addListener(_onSearchChanged);
-    _scrollController.addListener(_onScroll); // Add listener
+
+    _scrollController.addListener(_onScroll);
   }
 
   @override
   void dispose() {
-    _logger.i("SearchScreen: ----- dispose -----"); // Lifecycle Log
-    _debounce?.cancel();
+    _logger.i("SearchScreen: ----- dispose -----");
+    // _debounce?.cancel(); // No debounce to cancel
     _searchController.dispose();
-    _scrollController.removeListener(_onScroll); // Remove listener
-    _scrollController.dispose(); // Dispose controller
+    _scrollController.removeListener(_onScroll);
+    _scrollController.dispose();
     super.dispose();
   }
 
-  void _onSearchChanged() {
-    if (_debounce?.isActive ?? false) _debounce!.cancel();
-    _debounce = Timer(const Duration(milliseconds: 500), () {
-      if (mounted) {
-        // Only call setSearchQuery if the query has actually changed
-        final newQuery = _searchController.text;
-        final currentProviderQuery =
-            context.read<MedicineProvider>().searchQuery;
-        if (newQuery != currentProviderQuery) {
-          _logger.i(
-            "SearchScreen: Debounced search triggered with new query: '$newQuery'",
-          );
-          context.read<MedicineProvider>().setSearchQuery(newQuery);
-        }
-      }
-    });
+  // Simplified: No debounce/listener. Search triggered explicitly.
+  void _performSearch() {
+    final query = _searchController.text;
+    _logger.i("SearchScreen: Executing search for '$query'");
+    // Dismiss keyboard
+    FocusScope.of(context).unfocus();
+    context.read<MedicineProvider>().setSearchQuery(query);
+    // Provider's setSearchQuery usually triggers filteredMedicines update if wired correctly.
+    // If setCategory/setQuery has triggerSearch=true default, it works.
   }
 
-  // Add _onScroll method for pagination (adapted from HomeScreen)
   void _onScroll() {
     final provider = context.read<MedicineProvider>();
+    if (!_scrollController.hasClients) return; // Guard clause
     final currentPixels = _scrollController.position.pixels;
     final maxScroll = _scrollController.position.maxScrollExtent;
-    // Adjust trigger point if needed, 300 pixels from bottom seems reasonable
     final triggerPoint = maxScroll - 300;
-    final bool isNearBottom =
-        currentPixels >= triggerPoint && maxScroll > 0; // Ensure maxScroll > 0
+    final bool isNearBottom = currentPixels >= triggerPoint && maxScroll > 0;
     final bool canLoadMore =
         provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
-    final shouldLoadMore = isNearBottom && canLoadMore;
 
-    _logger.v(
-      "SearchScreen _onScroll: Pixels=${currentPixels.toStringAsFixed(1)}, MaxScroll=${maxScroll.toStringAsFixed(1)}, TriggerAt=${triggerPoint.toStringAsFixed(1)}, IsNearBottom=$isNearBottom, CanLoadMore=$canLoadMore, ShouldLoad=$shouldLoadMore",
-    );
-
-    if (shouldLoadMore) {
-      _logger.i("SearchScreen: Reached near bottom, calling loadMoreDrugs...");
-      // Use try-catch just in case
+    if (isNearBottom && canLoadMore) {
       try {
         provider.loadMoreDrugs();
       } catch (e, s) {
@@ -164,14 +119,10 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   void _openFilterDrawer() {
-    _logger.i("SearchScreen: Filter button tapped, opening end drawer.");
-    _scaffoldKey.currentState?.openEndDrawer(); // Use key to open drawer
+    _scaffoldKey.currentState?.openEndDrawer();
   }
 
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
-    _logger.i(
-      "SearchScreen: Navigating to details for drug: ${drug.tradeName}",
-    );
     _adService.incrementUsageCounterAndShowAdIfNeeded();
     Navigator.push(
       context,
@@ -181,59 +132,56 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    _logger.i("SearchScreen: >>>>> build ENTRY <<<<<"); // Updated Log
+    _logger.i("SearchScreen: >>>>> build ENTRY <<<<<");
     try {
-      // Add try block here
-      final l10n = AppLocalizations.of(context)!; // Get localizations instance
+      final l10n = AppLocalizations.of(context)!;
       final provider = context.watch<MedicineProvider>();
       final theme = Theme.of(context);
       final colorScheme = theme.colorScheme;
-      _logger.d(
-        "SearchScreen BUILD State: isLoading=${provider.isLoading}, error='${provider.error}', results=${provider.filteredMedicines.length}",
-      ); // Log state
-
-      // Log before returning Scaffold
-      _logger.v(
-        "SearchScreen: build - State read successfully. Returning Scaffold...",
-      );
 
       return Scaffold(
-        key: _scaffoldKey, // Assign key
-        endDrawer: const FilterEndDrawer(), // Add the drawer
-        // Wrap the body content with SafeArea
+        key: _scaffoldKey,
+        endDrawer: const FilterEndDrawer(),
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: colorScheme.primary,
+          foregroundColor: colorScheme.onPrimary,
+          onPressed: () {
+            // FAB acting as search trigger or scroll to top if desired, but user asked for "search button".
+            // A floating search action typically means "Execute Search".
+            _performSearch();
+          },
+          child: const Icon(LucideIcons.search),
+        ),
         body: SafeArea(
           child: Column(
             children: [
               Expanded(
                 child: CustomScrollView(
-                  // Use CustomScrollView for SliverAppBar
-                  controller: _scrollController, // Assign controller
+                  controller: _scrollController,
                   slivers: <Widget>[
                     SliverAppBar(
-                      backgroundColor: colorScheme.surface, // bg-card
-                      foregroundColor:
-                          colorScheme.onSurfaceVariant, // text-muted-foreground
-                      elevation: 0, // Remove shadow
-                      pinned: true, // Make AppBar sticky
-                      floating: true, // Allow AppBar to reappear on scroll up
+                      backgroundColor: colorScheme.surface,
+                      foregroundColor: colorScheme.onSurfaceVariant,
+                      elevation: 0,
+                      pinned: true,
+                      floating: true,
                       leading: IconButton(
                         icon: const Icon(LucideIcons.arrowLeft, size: 20),
-                        onPressed: () {
-                          _logger.i(
-                            "SearchScreen: Back button pressed. Popping route.",
-                          ); // Navigation Log
-                          Navigator.maybePop(
-                            context,
-                          ); // Use maybePop for safety
-                        },
-                        tooltip: l10n.backTooltip, // Use localized string
+                        onPressed: () => Navigator.maybePop(context),
+                        tooltip: l10n.backTooltip,
                       ),
-                      titleSpacing: 0, // Remove default title spacing
+                      titleSpacing: 0,
                       title: TextField(
                         controller: _searchController,
-                        autofocus: widget.initialQuery.isEmpty,
+                        autofocus: false, // DISABLED AUTOFOCUS as requested
+                        textInputAction:
+                            TextInputAction
+                                .search, // Show Search key on keyboard
+                        onSubmitted:
+                            (_) =>
+                                _performSearch(), // Trigger on keyboard action
                         decoration: InputDecoration(
-                          hintText: l10n.searchHint, // Use localized string
+                          hintText: l10n.searchHint,
                           border: InputBorder.none,
                           enabledBorder: InputBorder.none,
                           focusedBorder: InputBorder.none,
@@ -241,7 +189,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             LucideIcons.search,
                             size: 16,
                             color: colorScheme.onSurfaceVariant,
-                          ), // h-4 w-4
+                          ),
                           suffixIcon:
                               _searchController.text.isNotEmpty
                                   ? IconButton(
@@ -252,103 +200,82 @@ class _SearchScreenState extends State<SearchScreen> {
                                     ),
                                     onPressed: () {
                                       _searchController.clear();
+                                      // Optionally clear results immediately or wait for search
                                     },
                                     splashRadius: 18,
                                   )
                                   : null,
                           contentPadding: const EdgeInsets.symmetric(
-                            vertical:
-                                10, // Keep specific for input field height
-                          ), // py-2 equivalent
+                            vertical: 10,
+                          ),
                         ),
                         style: theme.textTheme.bodyLarge,
                       ),
                       actions: [
-                        // Updated Filter Button Style (Ghost)
                         TextButton(
                           onPressed: _openFilterDrawer,
                           style: TextButton.styleFrom(
-                            foregroundColor:
-                                colorScheme.onSurfaceVariant, // Icon/Text color
-                            shape:
-                                const CircleBorder(), // Make it circular like IconButton
-                            padding: const EdgeInsets.all(
-                              AppSpacing.small, // Use constant (8px)
-                            ), // Adjust padding
-                            minimumSize:
-                                Size.zero, // Remove minimum size constraint
+                            foregroundColor: colorScheme.onSurfaceVariant,
+                            shape: const CircleBorder(),
+                            padding: const EdgeInsets.all(AppSpacing.small),
+                            minimumSize: Size.zero,
                           ),
-                          child: const Icon(
-                            LucideIcons.filter,
-                            size: 20,
-                          ), // h-5 w-5
+                          child: const Icon(LucideIcons.filter, size: 20),
                         ),
-                        AppSpacing.gapHSmall, // Use constant (8px)
+                        AppSpacing.gapHSmall,
                       ],
                       bottom: PreferredSize(
-                        // Add bottom border
                         preferredSize: const Size.fromHeight(1.0),
                         child: Container(
                           color: colorScheme.outline,
                           height: 1.0,
-                        ), // border-b border-border
+                        ),
                       ),
                     ),
-                    _buildResultsListSliver(
-                      context,
-                      provider,
-                      l10n, // Pass l10n
-                    ), // Build results as sliver
+                    _buildResultsListSliver(context, provider, l10n),
                   ],
                 ),
               ),
-              const BannerAdWidget(), // Keep banner ad at the bottom
+              const BannerAdWidget(),
             ],
           ),
         ),
       );
     } catch (e, s) {
-      // Catch and log any error during the build method
       _logger.e("SearchScreen: >>>>> CRITICAL ERROR DURING BUILD <<<<<", e, s);
-      // Return a simple error widget instead of crashing
       return Scaffold(
         body: Center(
           child: Padding(
-            padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
+            padding: const EdgeInsets.all(16.0),
             child: Text(
-              'Error building SearchScreen:\n$e\n\n$s', // Include stack trace
+              'Error building SearchScreen:\n$e\n\n$s',
               style: const TextStyle(color: Colors.red, fontSize: 12),
-              textDirection: TextDirection.ltr, // Ensure LTR for error messages
+              textDirection: ui.TextDirection.ltr,
             ),
           ),
         ),
       );
     } finally {
-      _logger.i("SearchScreen: >>>>> build EXIT <<<<<"); // Log exit
+      _logger.i("SearchScreen: >>>>> build EXIT <<<<<");
     }
   }
 
-  // Updated to return a Sliver instead of a Widget
   Widget _buildResultsListSliver(
     BuildContext context,
     MedicineProvider provider,
-    AppLocalizations l10n, // Add l10n parameter
+    AppLocalizations l10n,
   ) {
     if (provider.isLoading && provider.filteredMedicines.isEmpty) {
       return const SliverFillRemaining(
-        // Use SliverFillRemaining for center alignment
         child: Center(child: CircularProgressIndicator()),
         hasScrollBody: false,
       );
     } else if (provider.error.isNotEmpty &&
         provider.filteredMedicines.isEmpty) {
       return SliverFillRemaining(
-        // Use SliverFillRemaining
         child: Center(
           child: Text(
-            l10n.errorMessage(
-              provider.error,
-            ), // Use localized string with placeholder
+            l10n.errorMessage(provider.error),
             style: TextStyle(color: Theme.of(context).colorScheme.error),
           ),
         ),
@@ -356,20 +283,16 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     } else if (provider.filteredMedicines.isEmpty &&
         provider.searchQuery.isNotEmpty) {
-      // Show empty state only if a search was performed and yielded no results
       return SliverFillRemaining(
-        // Use SliverFillRemaining
-        child: _buildEmptySearchMessage(context, l10n), // Pass l10n
+        child: _buildEmptySearchMessage(context, l10n),
         hasScrollBody: false,
       );
     } else if (provider.filteredMedicines.isEmpty &&
         provider.searchQuery.isEmpty) {
-      // Optionally show a prompt to start searching if the list is empty initially
       return SliverFillRemaining(
-        // Use SliverFillRemaining
         child: Center(
           child: Text(
-            l10n.startSearchingPrompt, // Use localized string
+            l10n.startSearchingPrompt,
             style: TextStyle(color: Theme.of(context).hintColor),
           ),
         ),
@@ -377,38 +300,32 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
-    // Add loading indicator or end message at the bottom
     return SliverPadding(
-      padding: AppSpacing.edgeInsetsAllLarge, // Use constant (16px)
+      padding: AppSpacing.edgeInsetsAllLarge,
       sliver: SliverList(
         delegate: SliverChildBuilderDelegate(
           (context, index) {
-            // Existing drug card rendering
             if (index < provider.filteredMedicines.length) {
               final drug = provider.filteredMedicines[index];
               return Padding(
-                padding: const EdgeInsets.only(bottom: AppSpacing.large), // Increased spacing (16px)
+                padding: const EdgeInsets.only(bottom: AppSpacing.large),
                 child: DrugCard(
                   drug: drug,
                   type: DrugCardType.detailed,
                   onTap: () => _navigateToDetails(context, drug),
                 ),
               );
-            }
-            // Render loading indicator or end message
-            else if (provider.isLoadingMore) {
+            } else if (provider.isLoadingMore) {
               return Padding(
-                // Use constant
-                padding: AppSpacing.edgeInsetsVLarge, // Use constant (16px)
+                padding: AppSpacing.edgeInsetsVLarge,
                 child: const Center(child: CircularProgressIndicator()),
               );
             } else if (!provider.hasMoreItems) {
               return Padding(
-                // Use constant
-                padding: AppSpacing.edgeInsetsVLarge, // Use constant (16px)
+                padding: AppSpacing.edgeInsetsVLarge,
                 child: Center(
                   child: Text(
-                    l10n.endOfList, // Use localized string
+                    l10n.endOfList,
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).hintColor,
                     ),
@@ -416,10 +333,9 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               );
             } else {
-              return const SizedBox.shrink(); // Should not happen
+              return const SizedBox.shrink();
             }
           },
-          // Add 1 to child count if loading more or at the end
           childCount:
               provider.filteredMedicines.length +
               (provider.isLoadingMore || !provider.hasMoreItems ? 1 : 0),
@@ -429,13 +345,10 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   Widget _buildEmptySearchMessage(BuildContext context, AppLocalizations l10n) {
-    // Add l10n parameter
     final theme = Theme.of(context);
     return Center(
       child: Padding(
-        padding: EdgeInsets.all(
-          AppSpacing.xxlarge,
-        ), // Corrected: Use constant value directly
+        padding: const EdgeInsets.all(AppSpacing.xxlarge),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -443,18 +356,15 @@ class _SearchScreenState extends State<SearchScreen> {
               LucideIcons.searchX,
               size: 48,
               color: theme.hintColor.withOpacity(0.7),
-            ), // SearchIcon h-12 w-12 text-muted-foreground
-            AppSpacing.gapVLarge, // Use constant (16px)
+            ),
+            AppSpacing.gapVLarge,
+            Text(l10n.noResultsFoundTitle, style: theme.textTheme.titleLarge),
+            AppSpacing.gapVSmall,
             Text(
-              l10n.noResultsFoundTitle, // Use localized string
-              style: theme.textTheme.titleLarge,
-            ), // text-lg
-            AppSpacing.gapVSmall, // Use constant (8px)
-            Text(
-              l10n.noResultsFoundSubtitle, // Use localized string
+              l10n.noResultsFoundSubtitle,
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.hintColor,
-              ), // text-muted-foreground
+              ),
               textAlign: TextAlign.center,
             ),
           ],

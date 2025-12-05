@@ -2,6 +2,7 @@ import 'package:equatable/equatable.dart';
 
 // Represents the drug object in the domain layer.
 class DrugEntity extends Equatable {
+  final int? id; // Add optional ID field
   final String tradeName;
   final String arabicName;
   final String price;
@@ -20,6 +21,7 @@ class DrugEntity extends Equatable {
   final String? imageUrl;
 
   const DrugEntity({
+    this.id, // Add to constructor
     required this.tradeName,
     required this.arabicName,
     required this.price,
@@ -41,6 +43,7 @@ class DrugEntity extends Equatable {
   // Factory constructor for an empty instance
   factory DrugEntity.empty() {
     return const DrugEntity(
+      id: null,
       tradeName: '',
       arabicName: '',
       price: '',
@@ -62,6 +65,7 @@ class DrugEntity extends Equatable {
 
   @override
   List<Object?> get props => [
+    id, // Add to props
     tradeName,
     arabicName,
     price,

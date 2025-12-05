@@ -130,4 +130,4 @@ if __name__ == "__main__":
     update_csv = sys.argv[2]
     output_csv = sys.argv[3] if len(sys.argv) > 3 else main_csv
     
-
+    merge_csv(main_csv, update_csv, output_csv)

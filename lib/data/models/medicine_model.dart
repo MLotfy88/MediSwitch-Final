@@ -156,6 +156,7 @@ class MedicineModel {
   // Convert MedicineModel to DrugEntity
   DrugEntity toEntity() {
     return DrugEntity(
+      id: id,
       tradeName: tradeName,
       arabicName: arabicName,
       price: price,
