@@ -58,13 +58,18 @@ class CloudflareD1Uploader:
             # Build batch INSERT
             values = []
             for interaction in batch:
-                values.append(f"('{interaction['ingredient1']}', '{interaction['ingredient2']}', "
-                            f"'{interaction['severity']}', '{interaction['type']}', "
-                            f"'{interaction['effect'].replace(\"'\", \"''\")[:1000]}', "
-                            f"'{interaction.get('arabic_effect', '')}', "
-                            f"'{interaction.get('recommendation', '').replace(\"'\", \"''\")[:500]}', "
-                            f"'{interaction.get('arabic_recommendation', '')}', "
-                            f"'{interaction.get('source', 'OpenFDA')}')")
+                # Prepare variables to avoid backslash in f-string expression
+                ing1 = interaction['ingredient1']
+                ing2 = interaction['ingredient2']
+                sev = interaction['severity']
+                typ = interaction['type']
+                eff = interaction['effect'].replace("'", "''")[:1000]
+                ar_eff = interaction.get('arabic_effect', '')
+                rec = interaction.get('recommendation', '').replace("'", "''")[:500]
+                ar_rec = interaction.get('arabic_recommendation', '')
+                src = interaction.get('source', 'OpenFDA')
+
+                values.append(f"('{ing1}', '{ing2}', '{sev}', '{typ}', '{eff}', '{ar_eff}', '{rec}', '{ar_rec}', '{src}')")
             
             sql = f"""
                 INSERT INTO drug_interactions 
