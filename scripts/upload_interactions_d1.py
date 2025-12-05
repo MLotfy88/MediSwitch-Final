@@ -38,6 +38,13 @@ class CloudflareD1Uploader:
             print(f"❌ API Error: {e}")
             if hasattr(e.response, 'text'):
                 print(f"Response: {e.response.text}")
+            
+            if e.response.status_code == 401:
+                print("\n⚠️  AUTHENTICATION ERROR: The provided Cloudflare API Token is invalid or expired.")
+                print("   Please verify that your 'CLOUDFLARE_API_TOKEN' secret in GitHub:")
+                print("   1. Is correct and has no extra spaces.")
+                print("   2. Has 'Account.D1:Edit' permissions.")
+                print("   3. Is created for the correct Account ID.")
             raise
     
     def clear_interactions_table(self):
