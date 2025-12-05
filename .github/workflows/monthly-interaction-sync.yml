@@ -47,7 +47,8 @@ jobs:
           echo "::endgroup::"
           
           # Get statistics
-          INTERACTION_COUNT=$(python3 -c "import json; print(len(json.load(open('${{ env.INTERACTIONS_OUTPUT }}'))"))")
+          # Get statistics using safe environment variable access
+          INTERACTION_COUNT=$(python3 -c "import json, os; print(len(json.load(open(os.environ['INTERACTIONS_OUTPUT']))))")
           echo "interaction_count=$INTERACTION_COUNT" >> $GITHUB_OUTPUT
           echo "✅ Extracted $INTERACTION_COUNT interactions"
       
