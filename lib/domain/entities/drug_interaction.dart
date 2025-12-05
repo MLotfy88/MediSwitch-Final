@@ -42,6 +42,20 @@ class DrugInteraction extends Equatable {
     );
   }
 
+  // Method to convert instance back to JSON
+  Map<String, dynamic> toJson() {
+    return {
+      'ingredient1': ingredient1,
+      'ingredient2': ingredient2,
+      'severity': severity.toString().split('.').last,
+      'type': type.toString().split('.').last,
+      'effect': effect,
+      'arabic_effect': arabicEffect,
+      'recommendation': recommendation,
+      'arabic_recommendation': arabicRecommendation,
+    };
+  }
+
   @override
   List<Object?> get props => [
     ingredient1,

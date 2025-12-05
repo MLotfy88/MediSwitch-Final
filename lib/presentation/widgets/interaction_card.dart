@@ -75,7 +75,7 @@ class InteractionCard extends StatelessWidget {
             ),
             const Divider(height: 24, thickness: 0.5),
             // Effect/Description
-            if (interaction.arabicEffect.isNotEmpty) ...[
+            if (isArabic && interaction.arabicEffect.isNotEmpty) ...[
               Text(
                 'التأثير:',
                 style: textTheme.bodyMedium?.copyWith(
@@ -85,9 +85,20 @@ class InteractionCard extends StatelessWidget {
               const SizedBox(height: 4),
               Text(interaction.arabicEffect, style: textTheme.bodyMedium),
               const SizedBox(height: 12),
+            ] else if (interaction.effect.isNotEmpty) ...[
+              Text(
+                isArabic ? 'وصف التفاعل:' : 'Effect:',
+                style: textTheme.bodyMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(interaction.effect, style: textTheme.bodyMedium),
+              const SizedBox(height: 12),
             ],
+
             // Recommendation
-            if (interaction.arabicRecommendation.isNotEmpty) ...[
+            if (isArabic && interaction.arabicRecommendation.isNotEmpty) ...[
               Text(
                 'التوصية:',
                 style: textTheme.bodyMedium?.copyWith(
@@ -99,6 +110,15 @@ class InteractionCard extends StatelessWidget {
                 interaction.arabicRecommendation,
                 style: textTheme.bodyMedium,
               ),
+            ] else if (interaction.recommendation.isNotEmpty) ...[
+              Text(
+                isArabic ? 'التوصية الطبية:' : 'Recommendation:',
+                style: textTheme.bodyMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(interaction.recommendation, style: textTheme.bodyMedium),
             ],
           ],
         ),

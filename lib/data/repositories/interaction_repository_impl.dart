@@ -3,6 +3,10 @@ import 'dart:convert';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For debugPrint
 import 'package:flutter/services.dart' show rootBundle;
+import 'dart:io';
+import 'package:path_provider/path_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../services/interaction_sync_service.dart';
 import '../../core/error/failures.dart';
 import '../../core/utils/fuzzy_matcher.dart';
 import '../../domain/entities/drug_entity.dart';
@@ -15,6 +19,10 @@ class InteractionRepositoryImpl implements InteractionRepository {
   List<DrugInteraction> _allInteractions = [];
   Map<String, List<String>> _medicineToIngredientsMap = {};
   bool _isDataLoaded = false;
+
+  final InteractionSyncService _syncService = InteractionSyncService();
+  static const String _updatesFileName = 'interaction_updates.json';
+  static const String _lastSyncKey = 'last_interaction_sync_date';
 
   // Cache for fast lookup
   final Set<String> _ingredientsWithKnownInteractions = {};
@@ -45,7 +53,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
         return MapEntry(key.toLowerCase().trim(), ingredients);
       });
 
-      // 2. Load Drug Interactions Rules
+      // 2. Load Base Drug Interactions (Bundled)
       final interactionsJsonString = await rootBundle.loadString(
         'assets/data/drug_interactions.json',
       );
@@ -59,6 +67,36 @@ class InteractionRepositoryImpl implements InteractionRepository {
                     DrugInteraction.fromJson(json as Map<String, dynamic>),
               )
               .toList();
+
+      // 3. Load Local Updates (if any)
+      try {
+        final directory = await getApplicationDocumentsDirectory();
+        final file = File('${directory.path}/$_updatesFileName');
+        if (await file.exists()) {
+          final updatesJsonString = await file.readAsString();
+          final List<dynamic> updatesListJson =
+              jsonDecode(updatesJsonString) as List<dynamic>;
+          final updates =
+              updatesListJson
+                  .map(
+                    (json) =>
+                        DrugInteraction.fromJson(json as Map<String, dynamic>),
+                  )
+                  .toList();
+
+          _allInteractions.addAll(updates);
+          debugPrint(
+            'InteractionRepositoryImpl: Loaded ${updates.length} updates from local storage.',
+          );
+        }
+      } catch (e) {
+        debugPrint(
+          'InteractionRepositoryImpl: Error loading local updates: $e',
+        );
+      }
+
+      // 4. Trigger Background Sync
+      _syncUpdates();
 
       // 3. Populate fast lookup set
       _ingredientsWithKnownInteractions.clear();
@@ -275,5 +313,57 @@ class InteractionRepositoryImpl implements InteractionRepository {
         })
         .where((part) => part.length > 2) // Ignore very short
         .toList();
+  }
+
+  /// Syncs interactions in the background
+  Future<void> _syncUpdates() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final lastSync = prefs.getString(_lastSyncKey);
+
+      // Fetch updates
+      final newInteractions = await _syncService.fetchUpdates(lastSync);
+
+      if (newInteractions.isEmpty) return;
+
+      // Save updates locally
+      final directory = await getApplicationDocumentsDirectory();
+      final file = File('${directory.path}/$_updatesFileName');
+
+      List<DrugInteraction> existingUpdates = [];
+      if (await file.exists()) {
+        final jsonString = await file.readAsString();
+        final List<dynamic> jsonList = jsonDecode(jsonString) as List<dynamic>;
+        existingUpdates =
+            jsonList
+                .map(
+                  (json) =>
+                      DrugInteraction.fromJson(json as Map<String, dynamic>),
+                )
+                .toList();
+      }
+
+      existingUpdates.addAll(newInteractions);
+
+      // Write back
+      final updatedJsonList = existingUpdates.map((e) => e.toJson()).toList();
+      await file.writeAsString(jsonEncode(updatedJsonList));
+
+      // Update Prefs
+      await prefs.setString(
+        _lastSyncKey,
+        DateTime.now().toIso8601String().split('T')[0],
+      );
+
+      debugPrint(
+        'InteractionRepositoryImpl: Synced and saved ${newInteractions.length} new interactions.',
+      );
+
+      // Note: We don't update _allInteractions in memory here to avoid complexity with concurrency.
+      // The new data will be loaded on next app restart.
+      // This is acceptable for large datasets.
+    } catch (e) {
+      debugPrint('InteractionRepositoryImpl: Background sync failed: $e');
+    }
   }
 }
