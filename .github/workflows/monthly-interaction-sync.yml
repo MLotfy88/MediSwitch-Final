@@ -72,6 +72,7 @@ jobs:
         run: |
           if [ -f "${{ env.INTERACTIONS_OUTPUT }}" ]; then
             BACKUP_NAME="drug_interactions_backup_$(date +%Y%m%d).json"
+            mkdir -p assets/data/backups
             cp "${{ env.INTERACTIONS_OUTPUT }}" "assets/data/backups/$BACKUP_NAME"
             echo "✅ Created backup: $BACKUP_NAME"
           fi
