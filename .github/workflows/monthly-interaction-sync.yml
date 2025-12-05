@@ -90,9 +90,10 @@ jobs:
           echo "::endgroup::"
       
       - name: Commit Updated Data
+        env:
+          INTERACTION_COUNT: ${{ steps.extract.outputs.interaction_count }}
         run: |
-            # Run the dedicated commit script
-            # We pass environment variables automatically
+            # Run the dedicated commit script (variables passed via env)
             bash scripts/commit_interactions.sh
       
       - name: Create Summary
