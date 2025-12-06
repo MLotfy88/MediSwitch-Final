@@ -24,11 +24,17 @@
 
 ## ⏳ ما تبقى (What's Left)
 
-### المرحلة 4: لوحة التحكم (Admin Dashboard)
--   [ ] **التصميم**: استلام ملفات التصميم (Design System, Mockups).
--   [ ] **الواجهة (Frontend)**: بناء مشروع React + TailwindCSS على Cloudflare Pages.
--   [ ] **المحرك (Backend)**: برمجة نقاط النهاية `/api/stats` و `/api/config`.
--   [ ] **الأمان**: تفعيل حماية الدخول للوحة التحكم.
+### 3. لوحة تحكم الإدارة (Admin Dashboard)
+- [x] إنشاء/استلام كود React للوحة التحكم.
+- [x] تطوير API Endpoints في Cloudflare Worker لدعم اللوحة.
+- [x] ربط اللوحة (Frontend) مع الـ Backend واستبدال البيانات الوهمية.
+- [x] تنفيذ المصادقة (Auth) للوحة التحكم.
+- [ ] نشر اللوحة على Cloudflare Pages.
+
+### 4. تحسينات الأداء والنظام (System & DevOps)
+- [x] نقل قاعدة البيانات إلى Cloudflare D1.
+- [x] أتمتة التحديثات اليومية عبر GitHub Actions.
+- [/] تحسين الأمان (API Keys, Validation).
 
 ## ⚠️ المشاكل المعروفة (Known Issues)
 -   لا توجد مشاكل حرجة حالياً. التطبيق مستقر والعمليات المؤتمتة تعمل بنجاح.

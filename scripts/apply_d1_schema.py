@@ -14,29 +14,49 @@ ACCOUNT_ID = "9f7fd7dfef294f26d47d62df34726367"
 DATABASE_ID = "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
 
 # Get API token from environment or argument
-parser = argparse.ArgumentParser(description='Apply D1 schema')
 parser.add_argument('--api-token', help='Cloudflare API Token')
+parser.add_argument('--email', help='Cloudflare Email (for Global Key)')
+parser.add_argument('--global-key', help='Cloudflare Global API Key')
+parser.add_argument('--file', help='SQL Schema file to apply', default='cloudflare-worker/schema_interactions.sql')
 args = parser.parse_args()
 
+# Try Token First
 API_TOKEN = args.api_token or os.environ.get('CLOUDFLARE_API_TOKEN')
 
-if not API_TOKEN:
-    print("❌ Error: CLOUDFLARE_API_TOKEN not found!")
-    print("Set it via:")
+# Try Global Key Second
+EMAIL = args.email or os.environ.get('CLOUDFLARE_EMAIL')
+GLOBAL_KEY = args.global_key or os.environ.get('CLOUDFLARE_GLOBAL_API_KEY')
+
+headers = {}
+
+if API_TOKEN:
+    print("🔑 Using API Token")
+    headers = {
+        "Authorization": f"Bearer {API_TOKEN}",
+        "Content-Type": "application/json"
+    }
+elif EMAIL and GLOBAL_KEY:
+    print(f"🔑 Using Global API Key for {EMAIL}")
+    headers = {
+        "X-Auth-Email": EMAIL,
+        "X-Auth-Key": GLOBAL_KEY,
+        "Content-Type": "application/json"
+    }
+else:
+    print("❌ Error: No authentication credentials found!")
+    print("\nOption 1: API Token (Preferred)")
     print("  export CLOUDFLARE_API_TOKEN=your_token")
-    print("  or")
-    print("  python3 scripts/apply_d1_schema.py --api-token YOUR_TOKEN")
+    print("\nOption 2: Global API Key (Fallback)")
+    print("  export CLOUDFLARE_EMAIL=your@email.com")
+    print("  export CLOUDFLARE_GLOBAL_API_KEY=your_key")
     sys.exit(1)
 
 BASE_URL = f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/d1/database/{DATABASE_ID}/query"
 
-headers = {
-    "Authorization": f"Bearer {API_TOKEN}",
-    "Content-Type": "application/json"
-}
-
 # Read schema
-with open('cloudflare-worker/schema_interactions.sql', 'r') as f:
+schema_file = args.file
+print(f"Reading schema from {schema_file}...")
+with open(schema_file, 'r') as f:
     schema = f.read()
 
 # Split into individual statements
