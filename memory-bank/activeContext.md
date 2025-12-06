@@ -2,25 +2,25 @@
 
 ## ✅ الإنجازات المكتملة
 
-### Flutter App (MediSwitch)
-- ✅ Design compliance 100%
-- ✅ Backdrop Blur + Hover Effects
-- ✅ 0 errors
-- ✅ مرفوع على GitHub
+### Cloudflare Worker (Backend) ✅
+- **Database (D1):** تم بناء جداول المستخدمين، الاشتراكات، المدفوعات، الإعدادات (9 جداول).
+- **API (v2.0):** تم نشر Worker بنجاح (`mediswitch-api`).
+- **Endpoints:**
+  - Auth (Register/Login).
+  - Admin (Users/Subs/Drugs CRUD).
+  - Public (Drugs/Stats/Plans).
 
-### Admin Dashboard  
-- ✅ إصلاح أخطاء البناء (CSS + Configuration.tsx)
-- ✅ Build ينجح محلياً وعلى Cloudflare
-- ✅ إضافة .env.example للـ API_KEY
-- ✅ مرفوع على GitHub
+### Admin Dashboard (React) ✅
+- **Pages:**
+  - `DrugManagement`: تحديث كامل (CRUD, Sorting, Search).
+  - `UsersManagement`: إنشاء وربط.
+  - `SubscriptionsManagement`: إنشاء وربط.
+  - `Monetization` & `Configuration`: ربط مع D1 Database.
+- **Integration:** API Client محدث ليتصل بالـ Worker المباشر.
 
-### Infra
-
-structure
-- ✅ حذف submodules القديمة (design-refresh, backend)
-- ✅ ربط admin-dashboard كـ submodule
-- ✅ npm + Node.js v24.11.1 setup
-- ✅ VS Code workspace configuration
+### Flutter App (MediSwitch) ✅
+- Design compliance 100%.
+- جاهز للربط مع الـ Backend الجديد.
 
 ---
 
@@ -28,41 +28,28 @@ structure
 
 ```
 MediSwitch-Final/
-├── lib/                     # Flutter ✅
-├── admin-dashboard/         # React + TypeScript ✅
-│   ├── .env.example        # API_KEY config
-│   └── dist/               # Build output
-├── .vscode/                # VS Code settings
-└── memory-bank/            # Documentation
+├── lib/                     # Flutter (to be integrated)
+├── admin-dashboard/         # React + TypeScript (INTEGRATED ✅)
+├── cloudflare-worker/       # Backend API (DEPLOYED ✅)
+│   ├── src/index.js        # Main Worker logic
+│   ├── schema_users.sql    # Core DB schema
+│   └── schema_config.sql   # Config DB schema
+└── memory-bank/             # Documentation
 ```
-
----
-
-## 🔑 Authentication للوحة التحكم
-
-### الطريقة 1: API_KEY (بسيطة)
-```env
-# في Cloudflare Pages Environment Variables:
-VITE_ADMIN_API_KEY=MediSwitch_Admin_2025_SecureKey
-```
-
-### الطريقة 2: Cloudflare Access (احترافية)
-- Email OTP
-- Google Login
-- مجاني حتى 50 user
 
 ---
 
 ## 🎯 المهام القادمة
 
-1. ⏳ تفعيل Authentication في App.tsx
-2. ⏳ Deploy على Production
-3. ⏳ Testing
+### Phase 3: Flutter Integration & Subscription System
+1. ⏳ **Authentication:** Login/Register screens in Flutter.
+2. ⏳ **Subscription Paywall:** عرض الخطط والاشتراك.
+3. ⏳ **Data Sync:** تحديث المزامنة لتعمل مع الـ API الجديد.
+4. ⏳ **Payment:** ربط بوابات الدفع (لاحقاً).
 
 ---
 
 ## 📝 ملاحظات
-
-- Admin dashboard يشتغل الآن بدون login
-- لإضافة login: راجع `api_key_guide.md`
-- Cloudflare Pages build ينجح ✅
+- **Worker URL:** `https://mediswitch-api.admin-lotfy.workers.dev`
+- **Admin Dashboard:** جاهزة وتعمل مع الـ API الحقيقي.
+- **API Documentation:** موجود في `memory-bank/API-Documentation.md`.
