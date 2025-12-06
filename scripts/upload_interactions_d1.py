@@ -12,15 +12,26 @@ import time
 from typing import List, Dict
 
 class CloudflareD1Uploader:
-    def __init__(self, account_id: str, database_id: str, api_token: str):
+    def __init__(self, account_id: str, database_id: str, api_token: str = None, email: str = None, global_key: str = None):
         self.account_id = account_id
         self.database_id = database_id
-        self.api_token = api_token
         self.base_url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/d1/database/{database_id}"
-        self.headers = {
-            "Authorization": f"Bearer {api_token}",
-            "Content-Type": "application/json"
-        }
+        
+        if api_token:
+            print("🔑 Using API Token auth")
+            self.headers = {
+                "Authorization": f"Bearer {api_token}",
+                "Content-Type": "application/json"
+            }
+        elif email and global_key:
+            print(f"🔑 Using Global Key auth for {email}")
+            self.headers = {
+                "X-Auth-Email": email,
+                "X-Auth-Key": global_key,
+                "Content-Type": "application/json"
+            }
+        else:
+            raise ValueError("Must provide either api_token OR (email and global_key)")
     
     def execute_query(self, sql: str, params: List = None) -> Dict:
         """Execute SQL query on D1 database"""
@@ -162,7 +173,9 @@ def main():
     parser.add_argument('--json-file', required=True, help='Path to interactions JSON file')
     parser.add_argument('--account-id', required=True, help='Cloudflare Account ID')
     parser.add_argument('--database-id', required=True, help='D1 Database ID')
-    parser.add_argument('--api-token', required=True, help='Cloudflare API Token')
+    parser.add_argument('--api-token', help='Cloudflare API Token')
+    parser.add_argument('--email', help='Cloudflare Email (for Global Key)')
+    parser.add_argument('--global-key', help='Cloudflare Global API Key')
     parser.add_argument('--batch-size', type=int, default=100, help='Batch size for inserts')
     parser.add_argument('--clear-first', action='store_true', help='Clear table before upload')
     
@@ -186,7 +199,9 @@ def main():
         uploader = CloudflareD1Uploader(
             account_id=args.account_id,
             database_id=args.database_id,
-            api_token=args.api_token
+            api_token=args.api_token,
+            email=args.email,
+            global_key=args.global_key
         )
 
         # Ensure tables exist

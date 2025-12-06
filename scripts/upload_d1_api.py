@@ -13,13 +13,24 @@ from pathlib import Path
 ACCOUNT_ID = "9f7fd7dfef294f26d47d62df34726367"
 DATABASE_NAME = "mediswitch-db"
 
-def get_database_id(api_token, account_id, db_name):
+def get_database_id(api_token, account_id, db_name, **kwargs):
     """Get D1 database ID by name"""
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/d1/database"
-    headers = {
-        "Authorization": f"Bearer {api_token}",
-        "Content-Type": "application/json"
-    }
+    headers = {}
+    if api_token:
+        headers = {
+            "Authorization": f"Bearer {api_token}",
+            "Content-Type": "application/json"
+        }
+    elif 'email' in kwargs and 'global_key' in kwargs:
+        headers = {
+            "X-Auth-Email": kwargs['email'],
+            "X-Auth-Key": kwargs['global_key'],
+            "Content-Type": "application/json"
+        }
+    else:
+        print("❌ Authentication missing")
+        return None
     
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -34,13 +45,21 @@ def get_database_id(api_token, account_id, db_name):
     print(f"❌ Database '{db_name}' not found")
     return None
 
-def execute_sql_batch(api_token, account_id, db_id, sql_statements):
+def execute_sql_batch(api_token, account_id, db_id, sql_statements, **kwargs):
     """Execute SQL statements in D1"""
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/d1/database/{db_id}/query"
-    headers = {
-        "Authorization": f"Bearer {api_token}",
-        "Content-Type": "application/json"
-    }
+    headers = {}
+    if api_token:
+        headers = {
+            "Authorization": f"Bearer {api_token}",
+            "Content-Type": "application/json"
+        }
+    elif 'email' in kwargs and 'global_key' in kwargs:
+        headers = {
+            "X-Auth-Email": kwargs['email'],
+            "X-Auth-Key": kwargs['global_key'],
+            "Content-Type": "application/json"
+        }
     
     data = {
         "sql": sql_statements
@@ -49,7 +68,7 @@ def execute_sql_batch(api_token, account_id, db_id, sql_statements):
     response = requests.post(url, headers=headers, json=data)
     return response
 
-def upload_sql_file(api_token, sql_file="d1_import.sql"):
+def upload_sql_file(api_token=None, sql_file="d1_import.sql", **kwargs):
     """Upload SQL file to D1 in batches"""
     
     print(f"📖 Reading SQL file: {sql_file}")
@@ -57,7 +76,7 @@ def upload_sql_file(api_token, sql_file="d1_import.sql"):
         content = f.read()
     
     print(f"🔍 Getting database ID...")
-    db_id = get_database_id(api_token, ACCOUNT_ID, DATABASE_NAME)
+    db_id = get_database_id(api_token, ACCOUNT_ID, DATABASE_NAME, **kwargs)
     if not db_id:
         return False
     
@@ -76,7 +95,7 @@ def upload_sql_file(api_token, sql_file="d1_import.sql"):
         
         print(f"⬆️  Executing batch {i//batch_size + 1}/{(len(statements)-1)//batch_size + 1}...")
         
-        response = execute_sql_batch(api_token, ACCOUNT_ID, db_id, sql_batch)
+        response = execute_sql_batch(api_token, ACCOUNT_ID, db_id, sql_batch, **kwargs)
         
         if response.status_code != 200:
             print(f"❌ Error: {response.text}")
@@ -91,7 +110,7 @@ def upload_sql_file(api_token, sql_file="d1_import.sql"):
     # Verify
     print(f"\n🔍 Verifying...")
     verify_sql = "SELECT COUNT(*) as total FROM drugs"
-    response = execute_sql_batch(api_token, ACCOUNT_ID, db_id, verify_sql)
+    response = execute_sql_batch(api_token, ACCOUNT_ID, db_id, verify_sql, **kwargs)
     
     if response.status_code == 200:
         result = response.json()
@@ -101,17 +120,23 @@ def upload_sql_file(api_token, sql_file="d1_import.sql"):
     return True
 
 if __name__ == '__main__':
-    api_token = sys.argv[1] if len(sys.argv) > 1 else None
+    api_token = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') else None
     
     if not api_token:
-        print("Usage: python3 upload_d1_api.py <CLOUDFLARE_API_TOKEN>")
-        print("Or set CLOUDFLARE_API_TOKEN environment variable")
+        # Check env var
         import os
         api_token = os.environ.get('CLOUDFLARE_API_TOKEN')
     
-    if not api_token:
-        print("❌ No API token provided")
+    email = os.environ.get('CLOUDFLARE_EMAIL')
+    global_key = os.environ.get('CLOUDFLARE_GLOBAL_API_KEY')
+    
+    if not api_token and (not email or not global_key):
+        print("❌ Authentication missing")
+        print("Usage: ")
+        print("  1. python3 upload_d1_api.py <CLOUDFLARE_API_TOKEN>")
+        print("  2. set CLOUDFLARE_API_TOKEN env var")
+        print("  3. set CLOUDFLARE_EMAIL and CLOUDFLARE_GLOBAL_API_KEY env vars")
         sys.exit(1)
     
-    success = upload_sql_file(api_token)
+    success = upload_sql_file(api_token, sql_file="d1_import.sql", email=email, global_key=global_key)
     sys.exit(0 if success else 1)

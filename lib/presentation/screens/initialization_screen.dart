@@ -5,7 +5,7 @@ import '../../core/services/file_logger_service.dart';
 import '../../data/datasources/local/sqlite_local_data_source.dart';
 import 'onboarding_screen.dart';
 import 'setup_screen.dart';
-import 'main_screen.dart';
+import 'home/new_home_screen.dart';
 
 // Keys from main.dart (consider moving to a shared constants file)
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -75,7 +75,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
               _logger.i(
                 "InitializationScreen: Seeding successful. Routing to MainScreen.",
               );
-              nextScreen = const MainScreen();
+              nextScreen = const NewHomeScreen();
             } else {
               _logger.e(
                 "InitializationScreen: Seeding FAILED. Halting navigation.",
@@ -94,7 +94,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
               );
               localDataSource.markSeedingAsComplete();
             }
-            nextScreen = const MainScreen();
+            nextScreen = const NewHomeScreen();
           }
         }
 

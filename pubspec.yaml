@@ -49,7 +49,7 @@ dependencies:
   dartz: ^0.10.1 # For Functional Programming (Either type)
   equatable: ^2.0.5 # For value comparison in Entities/Models
   google_fonts: ^6.2.1 # For custom fonts (UI)
-  flutter_animate: ^4.5.0 # For UI animations
+  flutter_animate: ^4.5.2 # For UI animations
   cached_network_image: ^3.4.1 # For caching network images (UI)
   url_launcher: ^6.1.10 # For launching URLs (Settings Screen)
   get_it: ^7.7.0 # Service Locator for Dependency Injection

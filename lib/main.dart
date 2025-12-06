@@ -17,6 +17,7 @@ import 'presentation/screens/initialization_screen.dart'; // Import Initializati
 import 'package:flutter_localizations/flutter_localizations.dart'; // Added for localization
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Added for generated localizations
 import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
+import 'presentation/theme/app_theme.dart';
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
 // import 'presentation/screens/setup_screen.dart';
@@ -491,8 +492,8 @@ class MyApp extends StatelessWidget {
             title: 'MediSwitch',
             debugShowCheckedModeBanner: false,
             themeMode: settingsProvider.themeMode,
-            theme: _buildThemeData(Brightness.light), // Use helper function
-            darkTheme: _buildThemeData(Brightness.dark), // Use helper function
+            theme: AppTheme.light,
+            darkTheme: AppTheme.dark,
             locale: settingsProvider.locale,
             // Added localization delegates and supported locales
             localizationsDelegates: const [

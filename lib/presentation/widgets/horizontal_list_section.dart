@@ -43,9 +43,11 @@ class HorizontalListSection extends StatelessWidget {
             ),
             child: SectionHeader(
               title: title!,
-              icon: icon, // Pass icon
-              onViewAll: onViewAll,
-              padding: EdgeInsets.zero,
+              subtitle: "", // Or provide a way to pass subtitle
+              icon: Icon(
+                icon ?? Icons.category,
+              ), // Wrap IconData in helper or Widget
+              onMoreTap: onViewAll,
             ),
           ),
         // Horizontal List
