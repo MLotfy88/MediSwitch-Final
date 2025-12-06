@@ -1,119 +1,153 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
+enum DangerousRiskLevel { high, critical }
+
+class DangerousDrugUIModel {
+  final String id;
+  final String name;
+  final String nameAr;
+  final String activeIngredient;
+  final DangerousRiskLevel riskLevel;
+  final int interactionCount;
+
+  const DangerousDrugUIModel({
+    required this.id,
+    required this.name,
+    required this.nameAr,
+    required this.activeIngredient,
+    required this.riskLevel,
+    required this.interactionCount,
+  });
+}
+
 class DangerousDrugCard extends StatelessWidget {
-  final DrugEntity drug;
+  final DangerousDrugUIModel drug;
   final bool isRTL;
   final VoidCallback? onTap;
 
   const DangerousDrugCard({
-    Key? key,
+    super.key,
     required this.drug,
     this.isRTL = false,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
-    // Determine risk level based on some logic or default to high for 'Popular' items if we are reusing this card.
-    // Since we are using this for 'Popular' / 'Common' drugs now, we can remove the 'Critical' styling logic
-    // or adapt it. Let's adapt it to be just a nice card for 'Popular' drugs.
-
-    // For now, let's treat everything as 'high' (warning color) which looks good,
-    // or randomly assign for variety if we want to simulate risk (not recommended for real app).
-    // Better: Use a neutral 'Info' or 'Primary' style since these are 'Popular' drugs now, not necessarily 'Dangerous'.
-
-    // Style for Popular drugs (Warning/Orange theme)
     final appColors = Theme.of(context).appColors;
     final colorScheme = Theme.of(context).colorScheme;
 
-    final bg = appColors.warningSoft;
-    final border = appColors.warningForeground.withOpacity(0.3);
-    final iconBg = appColors.warningForeground.withOpacity(0.2);
-    final iconColor = appColors.warningForeground;
-    final titleColor = const Color(0xFFF59E0B); // warning text
+    final isCritical = drug.riskLevel == DangerousRiskLevel.critical;
 
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 140, // min-w-[140px]
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: bg,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: border),
-        ),
-        child: Column(
-          crossAxisAlignment:
-              isRTL ? CrossAxisAlignment.end : CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            // Icon
-            Container(
-              width: 40,
-              height: 40,
-              decoration: BoxDecoration(
-                color: iconBg,
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Icon(
-                LucideIcons.star, // Changed icon to star for popular
-                color: iconColor,
-                size: 20,
-              ),
-            ),
-            const SizedBox(height: 8),
+    // Colors based on risk level
+    final bgColor = isCritical ? appColors.dangerSoft : appColors.warningSoft;
+    final borderColor =
+        isCritical
+            ? appColors.dangerForeground.withValues(alpha: 0.3)
+            : appColors.warningForeground.withValues(alpha: 0.3);
+    final iconBgColor =
+        isCritical
+            ? appColors.dangerForeground.withValues(alpha: 0.2)
+            : appColors.warningForeground.withValues(alpha: 0.2);
+    final iconColor =
+        isCritical ? appColors.dangerForeground : appColors.warningForeground;
+    final textColor =
+        isCritical ? appColors.dangerForeground : appColors.warningForeground;
 
-            // Name
-            Text(
-              isRTL ? drug.arabicName : drug.tradeName,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w600,
-                color: titleColor,
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: AppRadius.circular,
+        child: Container(
+          constraints: const BoxConstraints(minWidth: 140),
+          padding: const EdgeInsets.all(AppSpacing.lg),
+          decoration: BoxDecoration(
+            color: bgColor,
+            borderRadius: AppRadius.circular,
+            border: Border.all(color: borderColor),
+          ),
+          child: Column(
+            crossAxisAlignment:
+                isRTL ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+            children: [
+              // Icon
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: iconBgColor,
+                  borderRadius: AppRadius.circularSm,
+                ),
+                alignment: isRTL ? Alignment.centerRight : Alignment.centerLeft,
+                child: Icon(
+                  isCritical ? LucideIcons.skull : LucideIcons.alertTriangle,
+                  color: iconColor,
+                  size: 20,
+                ),
               ),
-              textAlign: isRTL ? TextAlign.right : TextAlign.left,
-            ),
 
-            // Active Ingredient
-            Text(
-              drug.active,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 12, color: appColors.mutedForeground),
-              textAlign: isRTL ? TextAlign.right : TextAlign.left,
-            ),
-            const SizedBox(height: 8),
+              const SizedBox(height: AppSpacing.sm),
 
-            // Badge
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-              decoration: BoxDecoration(
-                color: iconBg,
-                borderRadius: BorderRadius.circular(100),
+              // Drug name
+              Text(
+                isRTL ? drug.nameAr : drug.name,
+                style: TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                  color: textColor,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                textAlign: isRTL ? TextAlign.right : TextAlign.left,
               ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(LucideIcons.star, size: 12, color: iconColor),
-                  const SizedBox(width: 4),
-                  Text(
-                    isRTL ? 'شائع' : 'Popular',
-                    style: TextStyle(
-                      fontSize: 10,
-                      fontWeight: FontWeight.bold,
-                      color: iconColor,
+
+              const SizedBox(height: 4),
+
+              // Active ingredient
+              Text(
+                drug.activeIngredient,
+                style: TextStyle(
+                  fontSize: 12,
+                  color: colorScheme.onSurfaceVariant,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                textAlign: isRTL ? TextAlign.right : TextAlign.left,
+              ),
+
+              const SizedBox(height: AppSpacing.sm),
+
+              // Interaction count badge
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: iconBgColor,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(LucideIcons.alertTriangle, size: 12, color: textColor),
+                    const SizedBox(width: 4),
+                    Text(
+                      isRTL
+                          ? '${drug.interactionCount} تفاعلات'
+                          : '${drug.interactionCount} interactions',
+                      style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.bold,
+                        color: textColor,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

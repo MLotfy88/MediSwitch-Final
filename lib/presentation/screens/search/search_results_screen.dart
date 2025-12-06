@@ -1,16 +1,17 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/design_tokens.dart';
 import 'package:mediswitch/core/utils/animation_helpers.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
 import 'package:mediswitch/presentation/widgets/home_search_bar.dart';
-import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
+import 'package:mediswitch/presentation/widgets/search_filters_sheet.dart';
 import 'package:provider/provider.dart';
-import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
-import 'package:mediswitch/domain/entities/drug_entity.dart';
-import 'dart:async';
-import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 
 class SearchResultsScreen extends StatefulWidget {
   final String initialQuery;
@@ -24,7 +25,10 @@ class SearchResultsScreen extends StatefulWidget {
 
 class _SearchResultsScreenState extends State<SearchResultsScreen> {
   late TextEditingController _searchController;
+  late ScrollController _scrollController;
   Timer? _debounce;
+  bool _isLoadingMore = false;
+  FilterState _filters = const FilterState();
 
   final filterOptions = [
     {'id': '', 'label': 'All'},
@@ -38,6 +42,8 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
   void initState() {
     super.initState();
     _searchController = TextEditingController(text: widget.initialQuery);
+    _scrollController = ScrollController();
+    _scrollController.addListener(_onScroll);
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (widget.initialQuery.isNotEmpty) {
@@ -51,8 +57,36 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
   @override
   void dispose() {
     _searchController.dispose();
+    _scrollController.dispose();
     _debounce?.cancel();
     super.dispose();
+  }
+
+  void _onScroll() {
+    if (_scrollController.position.pixels >=
+        _scrollController.position.maxScrollExtent * 0.9) {
+      // Load more when 90% scrolled
+      _loadMore();
+    }
+  }
+
+  Future<void> _loadMore() async {
+    if (_isLoadingMore) return;
+
+    final provider = context.read<MedicineProvider>();
+    if (!provider.hasMoreItems || provider.isLoading) return;
+
+    setState(() {
+      _isLoadingMore = true;
+    });
+
+    await provider.loadMoreResults();
+
+    if (mounted) {
+      setState(() {
+        _isLoadingMore = false;
+      });
+    }
   }
 
   void _onSearchChanged(String query) {
@@ -68,6 +102,26 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
 
   void _onFilterChanged(String filterId) {
     context.read<MedicineProvider>().updateFilters(dosageForm: filterId);
+  }
+
+  void _showFilters() {
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder:
+          (context) => SearchFiltersSheet(
+            filters: _filters,
+            onApplyFilters: (newFilters) {
+              setState(() {
+                _filters = newFilters;
+              });
+              // Apply filters to provider
+              // TODO: Implement filter logic in provider
+            },
+            isRTL: Directionality.of(context) == TextDirection.rtl,
+          ),
+    );
   }
 
   @override
@@ -103,6 +157,15 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                           child: HomeSearchBar(
                             controller: _searchController,
                             onChanged: _onSearchChanged,
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        // Filter Button
+                        IconButton(
+                          onPressed: _showFilters,
+                          icon: const Icon(LucideIcons.slidersHorizontal),
+                          style: IconButton.styleFrom(
+                            backgroundColor: Theme.of(context).appColors.accent,
                           ),
                         ),
                       ],
@@ -267,22 +330,37 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                     ),
                     Expanded(
                       child: ListView.separated(
+                        controller: _scrollController,
                         padding: const EdgeInsets.all(16),
-                        itemCount: filteredDrugs.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 12),
+                        itemCount:
+                            filteredDrugs.length + (_isLoadingMore ? 1 : 0),
+                        separatorBuilder:
+                            (context, index) => const SizedBox(height: 12),
                         itemBuilder: (context, index) {
+                          // Loading indicator at the end
+                          if (index == filteredDrugs.length) {
+                            return const Center(
+                              child: Padding(
+                                padding: EdgeInsets.all(16.0),
+                                child: CircularProgressIndicator(),
+                              ),
+                            );
+                          }
+
                           final drug = filteredDrugs[index];
                           final isFav = provider.isFavorite(drug);
+                          final uiModel = drugEntityToUIModel(
+                            drug,
+                            isFavorite: isFav,
+                          );
+
                           return FadeSlideAnimation(
                             delay: StaggeredAnimationHelper.delayFor(index),
                             child: DrugCard(
-                              drug: drugEntityToUIModel(
-                                drug,
-                                isFavorite: isFav,
-                              ),
-                              onFavoriteToggle:
-                                  (String drugId) =>
-                                      provider.toggleFavorite(drug),
+                              drug: uiModel,
+                              onFavoriteToggle: (drug) {
+                                provider.toggleFavorite(filteredDrugs[index]);
+                              },
                               onTap: () {
                                 Navigator.push(
                                   context,

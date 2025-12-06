@@ -1,11 +1,11 @@
 import 'dart:async';
-import 'dart:io';
+
+import 'package:csv/csv.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:csv/csv.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart'; // Import sqflite
+
 import '../../../core/database/database_helper.dart'; // Import DatabaseHelper
 import '../../models/medicine_model.dart';
 
@@ -270,7 +270,8 @@ class SqliteLocalDataSource {
       DatabaseHelper.medicinesTable,
       where: whereClause,
       whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
-      orderBy: '${DatabaseHelper.colLastPriceUpdate} DESC', // Order by newest first
+      orderBy:
+          '${DatabaseHelper.colLastPriceUpdate} DESC', // Order by newest first
       limit: limit,
       offset: offset,
     );
@@ -436,6 +437,39 @@ class SqliteLocalDataSource {
       where:
           'LOWER(${DatabaseHelper.colCategory}) = ? AND LOWER(${DatabaseHelper.colActive}) != ?',
       whereArgs: [lowerCaseCategory, lowerCaseActive],
+      // Optional: Add limit if needed
+    );
+
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  // --- Find Alternatives by Description (Same Description) ---
+  Future<List<MedicineModel>> findAlternativesByDescription(
+    String description,
+    String currentTradeName,
+  ) async {
+    await seedingComplete; // Wait for seeding
+    print(
+      "Finding alternatives by description in SQLite for description: '$description', excluding: '$currentTradeName'",
+    );
+
+    // If description is empty, return empty list
+    if (description.isEmpty) {
+      print("Cannot find alternatives: Description is empty.");
+      return [];
+    }
+
+    final db = await dbHelper.database;
+    final lowerCaseDescription = description.toLowerCase().trim();
+    final lowerCaseTradeName = currentTradeName.toLowerCase();
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where:
+          'LOWER(${DatabaseHelper.colDescription}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?',
+      whereArgs: [lowerCaseDescription, lowerCaseTradeName],
       // Optional: Add limit if needed
     );
 

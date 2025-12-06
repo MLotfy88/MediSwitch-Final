@@ -1,6 +1,7 @@
 // lib/presentation/bloc/interaction_provider.dart
 
 import 'package:flutter/foundation.dart';
+
 import '../../core/di/locator.dart'; // Import locator
 import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../domain/entities/drug_entity.dart';
@@ -184,6 +185,56 @@ class InteractionProvider extends ChangeNotifier {
       _logger.d(
         "InteractionProvider: analyzeInteractions finished. isLoading: $_isLoading",
       );
+    }
+  }
+
+  /// Get interactions for a specific drug
+  Future<List<DrugInteraction>> getDrugInteractions(DrugEntity drug) async {
+    _logger.i(
+      "InteractionProvider: Getting interactions for '${drug.tradeName}'",
+    );
+
+    if (!_isInteractionDataLoaded) {
+      _logger.w(
+        "InteractionProvider: Interaction data not loaded yet, attempting to load...",
+      );
+      await _loadInteractionData();
+      if (!_isInteractionDataLoaded) {
+        _logger.e("InteractionProvider: Failed to load interaction data");
+        return [];
+      }
+    }
+
+    try {
+      // Get drug's active ingredient
+      final activeIngredient = drug.active.toLowerCase().trim();
+      if (activeIngredient.isEmpty) {
+        _logger.w(
+          "InteractionProvider: Drug '${drug.tradeName}' has no active ingredient",
+        );
+        return [];
+      }
+
+      // Get all interactions
+      final allInteractions = _interactionRepository.allLoadedInteractions;
+
+      // Filter interactions that involve this drug's active ingredient
+      final drugInteractions =
+          allInteractions.where((interaction) {
+            final ing1 = interaction.ingredient1.toLowerCase().trim();
+            final ing2 = interaction.ingredient2.toLowerCase().trim();
+            return ing1.contains(activeIngredient) ||
+                ing2.contains(activeIngredient);
+          }).toList();
+
+      _logger.i(
+        "InteractionProvider: Found ${drugInteractions.length} interactions for '${drug.tradeName}'",
+      );
+
+      return drugInteractions;
+    } catch (e, s) {
+      _logger.e("InteractionProvider: Error getting drug interactions", e, s);
+      return [];
     }
   }
 }
