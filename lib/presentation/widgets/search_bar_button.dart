@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart';
-import '../screens/search_screen.dart'; // Import SearchScreen
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import 'package:lucide_icons/lucide_icons.dart';
 
 class SearchBarButton extends StatelessWidget {
-  const SearchBarButton({super.key});
+  final VoidCallback? onTap;
+
+  const SearchBarButton({super.key, this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -30,12 +31,7 @@ class SearchBarButton extends StatelessWidget {
           ),
           clipBehavior: Clip.antiAlias,
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const SearchScreen()),
-              );
-            },
+            onTap: onTap,
             borderRadius: BorderRadius.circular(20.0),
             // Add hoverColor for web/desktop if needed
             // hoverColor: Colors.grey.shade50, // hover:bg-gray-50

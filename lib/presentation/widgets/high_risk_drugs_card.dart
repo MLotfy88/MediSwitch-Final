@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+
+import '../../core/di/locator.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/interaction_repository.dart';
-import '../../core/di/locator.dart';
-import 'drug_card.dart';
+import 'dangerous_drug_card.dart';
 
 /// A widget that displays high-risk drugs in a horizontal list
 class HighRiskDrugsCard extends StatelessWidget {
@@ -65,19 +66,24 @@ class HighRiskDrugsCard extends StatelessWidget {
 
         // 3. Horizontal List of Cards
         SizedBox(
-          height: 220, // Height for DrugCardType.thumbnail
+          height: 190, // Adjusted height for new card design
           child: ListView.separated(
             itemCount: highRiskDrugs.length,
             scrollDirection: Axis.horizontal,
-            padding: const EdgeInsets.symmetric(horizontal: 16),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 8,
+            ), // Added vertical padding for shadows if any
             separatorBuilder: (context, index) => const SizedBox(width: 12),
             itemBuilder: (context, index) {
-              return DrugCard(
-                drug: highRiskDrugs[index],
-                onTap: () => onDrugTap(highRiskDrugs[index]),
-                type: DrugCardType.thumbnail, // Use standard thumbnail card
-                isPopular: false, // Don't show popular star here
-                isAlternative: false,
+              final drug = highRiskDrugs[index];
+              final severity = interactionRepo.getMaxSeverityForDrug(drug);
+
+              return DangerousDrugCard(
+                drug: drug,
+                onTap: () => onDrugTap(drug),
+                interactionCount: 3, // Mock count as before
+                severity: severity,
               );
             },
           ),

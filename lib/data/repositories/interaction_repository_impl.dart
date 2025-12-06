@@ -1,19 +1,22 @@
 // lib/data/repositories/interaction_repository_impl.dart
 import 'dart:convert';
+import 'dart:io';
+
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For debugPrint
 import 'package:flutter/services.dart' show rootBundle;
-import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../services/interaction_sync_service.dart';
+
 import '../../core/error/failures.dart';
 import '../../core/utils/fuzzy_matcher.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
+import '../../domain/entities/interaction_severity.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../../domain/services/interaction_analyzer_service.dart';
 import '../../domain/services/interaction_index.dart';
+import '../services/interaction_sync_service.dart';
 
 class InteractionRepositoryImpl implements InteractionRepository {
   List<DrugInteraction> _allInteractions = [];
@@ -26,6 +29,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   // Cache for fast lookup
   final Set<String> _ingredientsWithKnownInteractions = {};
+  final Map<String, InteractionSeverity> _ingredientMaxSeverity = {};
 
   // Search index for O(1) lookups
   final InteractionIndex _searchIndex = InteractionIndex();
@@ -106,6 +110,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
         );
         _ingredientsWithKnownInteractions.add(
           interaction.ingredient2.toLowerCase(),
+        );
+
+        _updateMaxSeverity(
+          interaction.ingredient1.toLowerCase(),
+          interaction.severity,
+        );
+        _updateMaxSeverity(
+          interaction.ingredient2.toLowerCase(),
+          interaction.severity,
         );
       }
 
@@ -238,6 +251,52 @@ class InteractionRepositoryImpl implements InteractionRepository {
       }
     }
     return false;
+  }
+
+  @override
+  InteractionSeverity getMaxSeverityForDrug(DrugEntity drug) {
+    if (!_isDataLoaded) return InteractionSeverity.unknown;
+
+    final ingredients = _getIngredients(drug);
+    InteractionSeverity maxSeverity = InteractionSeverity.unknown;
+
+    for (final ingredient in ingredients) {
+      if (_ingredientMaxSeverity.containsKey(ingredient)) {
+        final severity = _ingredientMaxSeverity[ingredient]!;
+        if (_getSeverityWeight(severity) > _getSeverityWeight(maxSeverity)) {
+          maxSeverity = severity;
+        }
+      }
+    }
+    return maxSeverity;
+  }
+
+  void _updateMaxSeverity(String ingredient, InteractionSeverity newSeverity) {
+    if (!_ingredientMaxSeverity.containsKey(ingredient)) {
+      _ingredientMaxSeverity[ingredient] = newSeverity;
+    } else {
+      final current = _ingredientMaxSeverity[ingredient]!;
+      if (_getSeverityWeight(newSeverity) > _getSeverityWeight(current)) {
+        _ingredientMaxSeverity[ingredient] = newSeverity;
+      }
+    }
+  }
+
+  int _getSeverityWeight(InteractionSeverity severity) {
+    switch (severity) {
+      case InteractionSeverity.contraindicated:
+        return 5;
+      case InteractionSeverity.severe:
+        return 4;
+      case InteractionSeverity.major:
+        return 3;
+      case InteractionSeverity.moderate:
+        return 2;
+      case InteractionSeverity.minor:
+        return 1;
+      case InteractionSeverity.unknown:
+        return 0;
+    }
   }
 
   @override
