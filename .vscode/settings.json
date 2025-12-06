@@ -1,0 +1,49 @@
+{
+    // TypeScript
+    "typescript.tsdk": "admin-dashboard/node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.validate.enable": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // ESLint - IMPORTANT SETTINGS
+    "eslint.enable": true,
+    "eslint.run": "onType",
+    "eslint.lintTask.enable": true,
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        },
+        "./admin-dashboard"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.options": {
+        "overrideConfigFile": "admin-dashboard/eslint.config.js"
+    },
+    // Problems panel
+    "problems.showCurrentInStatus": true,
+    "problems.sortOrder": "severity",
+    // Auto-fix on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    // Dart/Flutter
+    "dart.flutterSdkPath": "/usr/bin/flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            80
+        ]
+    },
+    // File exclusions
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.git/objects/**": true,
+        "**/build/**": true
+    }
+}
