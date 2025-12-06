@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../theme/app_colors.dart';
+import '../theme/app_colors_extension.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
@@ -24,11 +24,16 @@ class SectionHeader extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: iconBgColor ?? AppColors.primary.withOpacity(0.1),
+            color:
+                iconBgColor ??
+                Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(10), // rounded-lg roughly
           ),
           child: IconTheme(
-            data: const IconThemeData(size: 16, color: AppColors.primary),
+            data: IconThemeData(
+              size: 16,
+              color: Theme.of(context).colorScheme.primary,
+            ),
             child: icon,
           ),
         ),
@@ -39,18 +44,18 @@ class SectionHeader extends StatelessWidget {
             children: [
               Text(
                 title,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
-                  color: AppColors.foreground,
+                  color: Theme.of(context).colorScheme.onSurface,
                 ),
               ),
               if (subtitle.isNotEmpty)
                 Text(
                   subtitle,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 12,
-                    color: AppColors.mutedForeground,
+                    color: Theme.of(context).appColors.mutedForeground,
                   ),
                 ),
             ],
@@ -59,12 +64,12 @@ class SectionHeader extends StatelessWidget {
         if (onMoreTap != null)
           TextButton(
             onPressed: onMoreTap,
-            child: const Text(
+            child: Text(
               "View All",
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w600,
-                color: AppColors.primary,
+                color: Theme.of(context).colorScheme.primary,
               ),
             ),
           ),

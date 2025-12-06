@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../theme/app_colors.dart';
-import '../../widgets/home/drug_card.dart';
-import '../../widgets/home_search_bar.dart';
-import '../details/drug_details_screen.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
+import 'package:mediswitch/core/utils/animation_helpers.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
+import 'package:mediswitch/presentation/widgets/home_search_bar.dart';
+import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
+import 'package:provider/provider.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'dart:async';
+import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 
 class SearchResultsScreen extends StatefulWidget {
   final String initialQuery;
   final VoidCallback? onBack;
 
-  const SearchResultsScreen({
-    Key? key,
-    this.initialQuery = 'Panadol',
-    this.onBack,
-  }) : super(key: key);
+  const SearchResultsScreen({super.key, this.initialQuery = '', this.onBack});
 
   @override
   State<SearchResultsScreen> createState() => _SearchResultsScreenState();
@@ -22,129 +24,69 @@ class SearchResultsScreen extends StatefulWidget {
 
 class _SearchResultsScreenState extends State<SearchResultsScreen> {
   late TextEditingController _searchController;
-  String activeFilter = 'all';
-  final Set<String> favorites = {};
+  Timer? _debounce;
 
   final filterOptions = [
-    {'id': 'all', 'label': 'All'},
-    {'id': 'tablet', 'label': 'Tablets'},
-    {'id': 'syrup', 'label': 'Syrups'},
-    {'id': 'injection', 'label': 'Injections'},
-    {'id': 'cream', 'label': 'Creams'},
-  ];
-
-  final List<DrugUIModel> allDrugs = [
-    DrugUIModel(
-      id: '1',
-      tradeNameEn: 'Panadol Extra',
-      tradeNameAr: 'بانادول اكسترا',
-      activeIngredient: 'Paracetamol + Caffeine',
-      form: 'tablet',
-      currentPrice: 45.50,
-      oldPrice: 52.00,
-      company: 'GSK',
-      isNew: true,
-    ),
-    DrugUIModel(
-      id: '2',
-      tradeNameEn: 'Panadol Advance',
-      tradeNameAr: 'بانادول ادفانس',
-      activeIngredient: 'Paracetamol 500mg',
-      form: 'tablet',
-      currentPrice: 38.00,
-      company: 'GSK',
-      isPopular: true,
-    ),
-    DrugUIModel(
-      id: '3',
-      tradeNameEn: 'Panadol Cold & Flu',
-      tradeNameAr: 'بانادول كولد اند فلو',
-      activeIngredient: 'Paracetamol + Pseudoephedrine',
-      form: 'tablet',
-      currentPrice: 55.00,
-      company: 'GSK',
-      hasInteraction: true,
-    ),
-    DrugUIModel(
-      id: '4',
-      tradeNameEn: 'Panadol Night',
-      tradeNameAr: 'بانادول نايت',
-      activeIngredient: 'Paracetamol + Diphenhydramine',
-      form: 'tablet',
-      currentPrice: 62.50,
-      oldPrice: 68.00,
-      company: 'GSK',
-    ),
-    DrugUIModel(
-      id: '5',
-      tradeNameEn: 'Panadol Syrup',
-      tradeNameAr: 'بانادول شراب',
-      activeIngredient: 'Paracetamol 120mg/5ml',
-      form: 'syrup',
-      currentPrice: 28.00,
-      company: 'GSK',
-      isNew: true,
-    ),
-    DrugUIModel(
-      id: '6',
-      tradeNameEn: 'Brufen 400mg',
-      tradeNameAr: 'بروفين ٤٠٠ مجم',
-      activeIngredient: 'Ibuprofen',
-      form: 'tablet',
-      currentPrice: 75.00,
-      company: 'Pfizer',
-      isPopular: true,
-    ),
-    DrugUIModel(
-      id: '7',
-      tradeNameEn: 'Voltaren Gel',
-      tradeNameAr: 'فولتارين جل',
-      activeIngredient: 'Diclofenac Sodium',
-      form: 'cream',
-      currentPrice: 120.00,
-      oldPrice: 135.00,
-      company: 'Novartis',
-    ),
+    {'id': '', 'label': 'All'},
+    {'id': 'Tablet', 'label': 'Tablets'},
+    {'id': 'Syrup', 'label': 'Syrups'},
+    {'id': 'Injection', 'label': 'Injections'},
+    {'id': 'Cream', 'label': 'Creams'},
   ];
 
   @override
   void initState() {
     super.initState();
     _searchController = TextEditingController(text: widget.initialQuery);
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (widget.initialQuery.isNotEmpty) {
+        _performSearch(widget.initialQuery);
+      } else {
+        context.read<MedicineProvider>().updateSearchQuery('');
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    _debounce?.cancel();
+    super.dispose();
+  }
+
+  void _onSearchChanged(String query) {
+    if (_debounce?.isActive ?? false) _debounce!.cancel();
+    _debounce = Timer(const Duration(milliseconds: 500), () {
+      _performSearch(query);
+    });
+  }
+
+  void _performSearch(String query) {
+    context.read<MedicineProvider>().updateSearchQuery(query);
+  }
+
+  void _onFilterChanged(String filterId) {
+    context.read<MedicineProvider>().updateFilters(dosageForm: filterId);
   }
 
   @override
   Widget build(BuildContext context) {
     final isRTL = Directionality.of(context) == TextDirection.rtl;
 
-    // Filter Logic
-    final filteredDrugs =
-        allDrugs.where((d) {
-          if (activeFilter != 'all' && d.form != activeFilter) return false;
-          final query = _searchController.text.toLowerCase();
-          if (query.isNotEmpty) {
-            return d.tradeNameEn.toLowerCase().contains(query) ||
-                d.tradeNameAr.contains(query) ||
-                d.activeIngredient.toLowerCase().contains(query);
-          }
-          return true;
-        }).toList();
-
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: Column(
         children: [
-          // Header + Search + Filters
-          Container(
-            color: AppColors.surface.withOpacity(
-              0.95,
-            ), // backdrop blur simulated
+          // Header + Search + Filters (مثبت بشكل طبيعي)
+          ColoredBox(
+            color: Theme.of(context).colorScheme.surface.withOpacity(0.95),
             child: SafeArea(
               bottom: false,
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(16),
+                    padding: AppSpacing.paddingLG,
                     child: Row(
                       children: [
                         IconButton(
@@ -153,14 +95,14 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                               () => Navigator.of(context).pop(),
                           icon: const Icon(LucideIcons.arrowLeft),
                           style: IconButton.styleFrom(
-                            backgroundColor: AppColors.accent,
+                            backgroundColor: Theme.of(context).appColors.accent,
                           ),
                         ),
-                        const SizedBox(width: 12),
+                        const SizedBox(width: AppSpacing.md),
                         Expanded(
                           child: HomeSearchBar(
                             controller: _searchController,
-                            onChanged: (v) => setState(() {}),
+                            onChanged: _onSearchChanged,
                           ),
                         ),
                       ],
@@ -168,47 +110,60 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
                   ),
 
                   // Filter Pills
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
-                    child: Row(
-                      children:
-                          filterOptions.map((f) {
-                            final isActive = activeFilter == f['id'];
-                            return Padding(
-                              padding: const EdgeInsets.only(right: 8),
-                              child: GestureDetector(
-                                onTap:
-                                    () =>
-                                        setState(() => activeFilter = f['id']!),
-                                child: Container(
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 16,
-                                    vertical: 8,
+                  Consumer<MedicineProvider>(
+                    builder: (context, provider, _) {
+                      return SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: AppSpacing.lg,
+                        ).copyWith(bottom: AppSpacing.md),
+                        child: Row(
+                          children:
+                              filterOptions.map((f) {
+                                final isActive =
+                                    provider.selectedDosageForm == f['id'];
+                                return Padding(
+                                  padding: const EdgeInsets.only(
+                                    right: AppSpacing.sm,
                                   ),
-                                  decoration: BoxDecoration(
-                                    color:
-                                        isActive
-                                            ? AppColors.primary
-                                            : AppColors.accent,
-                                    borderRadius: BorderRadius.circular(100),
-                                  ),
-                                  child: Text(
-                                    f['label']!,
-                                    style: TextStyle(
-                                      color:
-                                          isActive
-                                              ? Colors.white
-                                              : AppColors.foreground,
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 14,
+                                  child: GestureDetector(
+                                    onTap: () => _onFilterChanged(f['id']!),
+                                    child: Container(
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: AppSpacing.lg,
+                                        vertical: AppSpacing.sm,
+                                      ),
+                                      decoration: BoxDecoration(
+                                        color:
+                                            isActive
+                                                ? Theme.of(
+                                                  context,
+                                                ).colorScheme.primary
+                                                : Theme.of(
+                                                  context,
+                                                ).appColors.accent,
+                                        borderRadius: AppRadius.circularFull,
+                                      ),
+                                      child: Text(
+                                        f['label']!,
+                                        style: TextStyle(
+                                          color:
+                                              isActive
+                                                  ? Colors.white
+                                                  : Theme.of(
+                                                    context,
+                                                  ).appColors.mutedForeground,
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 14,
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ),
-                            );
-                          }).toList(),
-                    ),
+                                );
+                              }).toList(),
+                        ),
+                      );
+                    },
                   ),
                 ],
               ),
@@ -217,124 +172,135 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
 
           const Divider(height: 1),
 
-          // Results Count
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text.rich(
-                  TextSpan(
-                    children: [
-                      TextSpan(
-                        text: '${filteredDrugs.length}',
-                        style: const TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                      const TextSpan(
-                        text: ' results',
-                        style: TextStyle(color: AppColors.mutedForeground),
-                      ),
-                    ],
-                  ),
-                ),
-                if (activeFilter != 'all')
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 2,
-                    ),
-                    decoration: BoxDecoration(
-                      color: AppColors.primary.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(100),
-                    ),
-                    child: const Text(
-                      'Filters active',
-                      style: TextStyle(
-                        color: AppColors.primary,
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-              ],
-            ),
-          ),
-
-          // List
+          // Results
           Expanded(
-            child:
-                filteredDrugs.isEmpty
-                    ? Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
+            child: Consumer<MedicineProvider>(
+              builder: (context, provider, child) {
+                if (provider.isLoading) {
+                  return const Center(child: CircularProgressIndicator());
+                }
+
+                if (provider.error.isNotEmpty) {
+                  return Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Icon(
+                          LucideIcons.alertCircle,
+                          size: 48,
+                          color: Colors.red,
+                        ),
+                        const SizedBox(height: 16),
+                        Text(provider.error),
+                        TextButton(
+                          onPressed:
+                              () => _performSearch(_searchController.text),
+                          child: const Text("Retry"),
+                        ),
+                      ],
+                    ),
+                  );
+                }
+
+                final filteredDrugs = provider.medicines;
+
+                if (filteredDrugs.isEmpty) {
+                  return Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          LucideIcons.search,
+                          size: 64,
+                          color: Theme.of(context).appColors.mutedForeground,
+                        ),
+                        const SizedBox(height: 16),
+                        const Text(
+                          "No results found",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        Text(
+                          "Try adjusting your search",
+                          style: TextStyle(
+                            color: Theme.of(context).appColors.mutedForeground,
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                }
+
+                return Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            padding: const EdgeInsets.all(24),
-                            decoration: const BoxDecoration(
-                              color: AppColors.muted,
-                              shape: BoxShape.circle,
+                          Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: '${filteredDrugs.length}',
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: ' results',
+                                  style: TextStyle(
+                                    color:
+                                        Theme.of(
+                                          context,
+                                        ).appColors.mutedForeground,
+                                    fontSize: 14,
+                                  ),
+                                ),
+                              ],
                             ),
-                            child: const Icon(
-                              LucideIcons.x,
-                              size: 40,
-                              color: AppColors.mutedForeground,
-                            ),
-                          ),
-                          const SizedBox(height: 16),
-                          const Text(
-                            "No results found",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18,
-                            ),
-                          ),
-                          const Text(
-                            "Try adjusting your search",
-                            style: TextStyle(color: AppColors.mutedForeground),
                           ),
                         ],
                       ),
-                    )
-                    : ListView.separated(
-                      padding: const EdgeInsets.all(16),
-                      itemCount: filteredDrugs.length,
-                      separatorBuilder: (_, __) => const SizedBox(height: 12),
-                      itemBuilder: (context, index) {
-                        final drug = filteredDrugs[index];
-                        return DrugCard(
-                          drug: DrugUIModel(
-                            id: drug.id,
-                            tradeNameEn: drug.tradeNameEn,
-                            tradeNameAr: drug.tradeNameAr,
-                            activeIngredient: drug.activeIngredient,
-                            form: drug.form,
-                            currentPrice: drug.currentPrice,
-                            oldPrice: drug.oldPrice,
-                            company: drug.company,
-                            isNew: drug.isNew,
-                            isPopular: drug.isPopular,
-                            hasInteraction: drug.hasInteraction,
-                            isFavorite: favorites.contains(drug.id),
-                          ),
-                          isRTL: isRTL,
-                          onFavoriteToggle:
-                              (id) => setState(() {
-                                if (favorites.contains(id))
-                                  favorites.remove(id);
-                                else
-                                  favorites.add(id);
-                              }),
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const DrugDetailsScreen(),
-                              ),
-                            );
-                          },
-                        ).animate().fadeIn(delay: (50 * index).ms);
-                      },
                     ),
+                    Expanded(
+                      child: ListView.separated(
+                        padding: const EdgeInsets.all(16),
+                        itemCount: filteredDrugs.length,
+                        separatorBuilder: (_, __) => const SizedBox(height: 12),
+                        itemBuilder: (context, index) {
+                          final drug = filteredDrugs[index];
+                          final isFav = provider.isFavorite(drug);
+                          return FadeSlideAnimation(
+                            delay: StaggeredAnimationHelper.delayFor(index),
+                            child: DrugCard(
+                              drug: drugEntityToUIModel(
+                                drug,
+                                isFavorite: isFav,
+                              ),
+                              onFavoriteToggle:
+                                  (String drugId) =>
+                                      provider.toggleFavorite(drug),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute<void>(
+                                    builder:
+                                        (_) => DrugDetailsScreen(drug: drug),
+                                  ),
+                                );
+                              },
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ],
+                );
+              },
+            ),
           ),
         ],
       ),

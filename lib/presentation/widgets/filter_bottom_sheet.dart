@@ -80,14 +80,14 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
             runSpacing: 8.0,
             children:
                 allCategories.map((category) {
-                  final isSelected = _tempSelectedCategory == category;
+                  final isSelected = _tempSelectedCategory == category.id;
                   return FilterChip(
-                    label: Text(category),
+                    label: Text(category.name),
                     selected: isSelected,
                     onSelected: (selected) {
                       setState(() {
                         // If selected, set it as the temp category. If deselected (tapped again), clear temp category.
-                        _tempSelectedCategory = selected ? category : '';
+                        _tempSelectedCategory = selected ? category.id : '';
                       });
                     },
                     selectedColor: colorScheme.primaryContainer,

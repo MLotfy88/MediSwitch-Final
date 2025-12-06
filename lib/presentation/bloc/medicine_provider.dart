@@ -8,6 +8,7 @@ import '../../core/services/file_logger_service.dart';
 import '../../data/datasources/local/sqlite_local_data_source.dart';
 import '../../core/error/failures.dart';
 import '../../domain/entities/drug_entity.dart';
+import '../../domain/entities/category_entity.dart';
 import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
 import '../../domain/usecases/search_drugs.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
@@ -32,7 +33,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
   // --- State variables ---
   List<DrugEntity> _filteredMedicines = [];
-  List<String> _categories = [];
+  List<CategoryEntity> _categories = [];
   String _searchQuery = '';
   String _selectedCategory = ''; // Back to single category selection
   String _selectedDosageForm =
@@ -55,13 +56,19 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   bool _hasMoreItems = true; // مؤشر لوجود المزيد من البيانات
 
   // --- State for Simulated Sections ---
+  // --- State for Simulated Sections ---
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
-  static const int _simulatedSectionLimit = 8;
+
+  // --- Favorites State ---
+  final Set<String> _favoriteIds =
+      {}; // Store IDs (or tradeNames) for O(1) lookup
+  final List<DrugEntity> _favorites = [];
 
   // --- Getters ---
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  List<String> get categories => _categories;
+  List<DrugEntity> get medicines => _filteredMedicines; // Alias
+  List<CategoryEntity> get categories => _categories;
   bool get isLoading => _isLoading;
   // bool get isSeedingDatabase => _isSeedingDatabase; // REMOVED: Getter for seeding state
   bool get isLoadingMore => _isLoadingMore; // Re-added getter
@@ -77,6 +84,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   bool get isInitialLoadComplete => _isInitialLoadComplete;
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
+  List<DrugEntity> get favorites => _favorites;
   int? get lastUpdateTimestamp =>
       _lastUpdateTimestamp; // Public getter for raw timestamp
 
@@ -209,7 +217,20 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
         _logger.i(
           "MedicineProvider: Categories loaded successfully (${categories.length} items).",
         );
-        _categories = categories;
+        _categories =
+            categories
+                .map(
+                  (catName) => CategoryEntity(
+                    id: catName,
+                    name: catName,
+                    nameAr: catName, // Placeholder until we have translations
+                    icon: 'pill',
+                    color: 'blue',
+                    drugCount:
+                        0, // We don't have counts yet without extra query
+                  ),
+                )
+                .toList();
       },
     );
   }
@@ -440,6 +461,32 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _isLoading = false;
       notifyListeners();
     }
+  }
+
+  // ALIASES for UI compatibility
+  void updateSearchQuery(String query) => setSearchQuery(query);
+  void updateFilters({String? dosageForm, RangeValues? priceRange}) {
+    if (dosageForm != null) setDosageForm(dosageForm);
+    if (priceRange != null) setPriceRange(priceRange);
+  }
+
+  // --- Favorites Logic ---
+  bool isFavorite(DrugEntity drug) {
+    // Identify by tradeName if ID is null, or some unique combo
+    final id = drug.id?.toString() ?? drug.tradeName;
+    return _favoriteIds.contains(id);
+  }
+
+  void toggleFavorite(DrugEntity drug) {
+    final id = drug.id?.toString() ?? drug.tradeName;
+    if (_favoriteIds.contains(id)) {
+      _favoriteIds.remove(id);
+      _favorites.removeWhere((d) => (d.id?.toString() ?? d.tradeName) == id);
+    } else {
+      _favoriteIds.add(id);
+      _favorites.add(drug);
+    }
+    notifyListeners();
   }
 
   // New method to manually trigger a search/filter application
@@ -708,7 +755,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     properties.add(
       IterableProperty<DrugEntity>('filteredMedicines', _filteredMedicines),
     );
-    properties.add(IterableProperty<String>('categories', _categories));
+    properties.add(IterableProperty<CategoryEntity>('categories', _categories));
     properties.add(StringProperty('searchQuery', _searchQuery));
     properties.add(StringProperty('selectedCategory', _selectedCategory));
     properties.add(StringProperty('selectedDosageForm', _selectedDosageForm));

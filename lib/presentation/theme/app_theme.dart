@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
+/// Application theme configuration
 class AppTheme {
+  /// Light theme data
   static ThemeData get light {
     final baseTheme = ThemeData(
       useMaterial3: true,
@@ -68,9 +71,11 @@ class AppTheme {
         ),
         hintStyle: const TextStyle(color: AppColors.mutedForeground),
       ),
+      extensions: [AppColorsExtension.light],
     );
   }
 
+  /// Dark theme data
   static ThemeData get dark {
     final baseTheme = ThemeData(
       useMaterial3: true,
@@ -135,8 +140,9 @@ class AppTheme {
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: Color(0xFF3B82F6), width: 2),
         ),
-        hintStyle: TextStyle(color: darkForeground.withOpacity(0.5)),
+        hintStyle: TextStyle(color: darkForeground.withValues(alpha: 0.5)),
       ),
+      extensions: [AppColorsExtension.dark],
     );
   }
 }

@@ -1,25 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../theme/app_colors.dart';
-
-class DangerousDrugModel {
-  final String id;
-  final String name;
-  final String activeIngredient;
-  final String riskLevel; // 'high' | 'critical'
-  final int interactionCount;
-
-  DangerousDrugModel({
-    required this.id,
-    required this.name,
-    required this.activeIngredient,
-    required this.riskLevel,
-    required this.interactionCount,
-  });
-}
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 class DangerousDrugCard extends StatelessWidget {
-  final DangerousDrugModel drug;
+  final DrugEntity drug;
   final bool isRTL;
   final VoidCallback? onTap;
 
@@ -32,21 +17,23 @@ class DangerousDrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isCritical = drug.riskLevel == 'critical';
+    // Determine risk level based on some logic or default to high for 'Popular' items if we are reusing this card.
+    // Since we are using this for 'Popular' / 'Common' drugs now, we can remove the 'Critical' styling logic
+    // or adapt it. Let's adapt it to be just a nice card for 'Popular' drugs.
 
-    final bg =
-        isCritical ? AppColors.danger.withOpacity(0.1) : AppColors.warningSoft;
-    final border =
-        isCritical
-            ? AppColors.danger.withOpacity(0.3)
-            : AppColors.warning.withOpacity(0.3);
-    final iconBg =
-        isCritical
-            ? AppColors.danger.withOpacity(0.2)
-            : AppColors.warning.withOpacity(0.2);
-    final iconColor = isCritical ? AppColors.danger : AppColors.warning;
-    final titleColor =
-        isCritical ? AppColors.danger : const Color(0xFFF59E0B); // warning text
+    // For now, let's treat everything as 'high' (warning color) which looks good,
+    // or randomly assign for variety if we want to simulate risk (not recommended for real app).
+    // Better: Use a neutral 'Info' or 'Primary' style since these are 'Popular' drugs now, not necessarily 'Dangerous'.
+
+    // Style for Popular drugs (Warning/Orange theme)
+    final appColors = Theme.of(context).appColors;
+    final colorScheme = Theme.of(context).colorScheme;
+
+    final bg = appColors.warningSoft;
+    final border = appColors.warningForeground.withOpacity(0.3);
+    final iconBg = appColors.warningForeground.withOpacity(0.2);
+    final iconColor = appColors.warningForeground;
+    final titleColor = const Color(0xFFF59E0B); // warning text
 
     return GestureDetector(
       onTap: onTap,
@@ -72,7 +59,7 @@ class DangerousDrugCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(
-                isCritical ? LucideIcons.skull : LucideIcons.alertTriangle,
+                LucideIcons.star, // Changed icon to star for popular
                 color: iconColor,
                 size: 20,
               ),
@@ -81,7 +68,7 @@ class DangerousDrugCard extends StatelessWidget {
 
             // Name
             Text(
-              drug.name,
+              isRTL ? drug.arabicName : drug.tradeName,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
@@ -94,13 +81,10 @@ class DangerousDrugCard extends StatelessWidget {
 
             // Active Ingredient
             Text(
-              drug.activeIngredient,
+              drug.active,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                fontSize: 12,
-                color: AppColors.mutedForeground,
-              ),
+              style: TextStyle(fontSize: 12, color: appColors.mutedForeground),
               textAlign: isRTL ? TextAlign.right : TextAlign.left,
             ),
             const SizedBox(height: 8),
@@ -116,12 +100,10 @@ class DangerousDrugCard extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(LucideIcons.alertTriangle, size: 12, color: iconColor),
+                  Icon(LucideIcons.star, size: 12, color: iconColor),
                   const SizedBox(width: 4),
                   Text(
-                    isRTL
-                        ? '${drug.interactionCount} تفاعلات'
-                        : '${drug.interactionCount} interactions',
+                    isRTL ? 'شائع' : 'Popular',
                     style: TextStyle(
                       fontSize: 10,
                       fontWeight: FontWeight.bold,

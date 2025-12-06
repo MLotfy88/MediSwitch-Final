@@ -8,6 +8,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'dart:ui' as ui; // For TextDirection
 
 import '../../domain/entities/drug_entity.dart';
+import '../../domain/entities/category_entity.dart';
 import '../bloc/medicine_provider.dart';
 import 'search_screen.dart';
 import 'drug_details_screen.dart';
@@ -401,9 +402,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildCategoriesSection(
     BuildContext context,
     AppLocalizations l10n,
-    List<String> englishCategories,
+    List<CategoryEntity> categories,
   ) {
-    if (englishCategories.isEmpty) return const SizedBox.shrink();
+    if (categories.isEmpty) return const SizedBox.shrink();
 
     return SliverToBoxAdapter(
       child: Column(
@@ -423,7 +424,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 bottom: 8,
               ),
               children:
-                  englishCategories.map((englishCategoryName) {
+                  categories.map((categoryEntity) {
+                    final englishCategoryName =
+                        categoryEntity.id; // Use id as category name
                     final locale = Localizations.localeOf(context);
                     final isArabic = locale.languageCode == 'ar';
                     final normalizedKey = englishCategoryName
