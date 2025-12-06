@@ -1,6 +1,8 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../theme/app_colors.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 class AppHeader extends StatelessWidget {
   final String title;
@@ -9,138 +11,163 @@ class AppHeader extends StatelessWidget {
   final VoidCallback? onNotificationTap;
 
   const AppHeader({
-    Key? key,
-    this.title = "MediSwitch",
-    this.lastUpdated = "Dec 6, 2025",
+    super.key,
+    this.title = 'MediSwitch',
+    this.lastUpdated = 'Dec 6, 2025',
     this.notificationCount = 3,
     this.onNotificationTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-      decoration: const BoxDecoration(
-        color: AppColors.background, // or surface/95
-        border: Border(bottom: BorderSide(color: AppColors.border)),
-      ),
-      child: SafeArea(
-        bottom: false,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            // Logo & Title
-            Row(
+    return ClipRRect(
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+        child: Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.lg,
+            vertical: AppSpacing.md,
+          ),
+          decoration: BoxDecoration(
+            color: Theme.of(
+              context,
+            ).scaffoldBackgroundColor.withValues(alpha: 0.95),
+            border: Border(
+              bottom: BorderSide(
+                color: Theme.of(
+                  context,
+                ).colorScheme.outline.withValues(alpha: 0.5),
+              ),
+            ),
+          ),
+          child: SafeArea(
+            bottom: false,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Container(
-                  width: 40,
-                  height: 40,
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [AppColors.primary, AppColors.primaryDark],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    borderRadius: BorderRadius.circular(12),
-                    boxShadow: AppColors.shadowSm,
-                  ),
-                  child: const Icon(
-                    LucideIcons.heartPulse, // Closest to the logo description
-                    color: Colors.white,
-                    size: 24,
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                // Logo & Title
+                Row(
                   children: [
-                    Text(
-                      title,
-                      style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: AppColors.foreground,
+                    Container(
+                      width: 40,
+                      height: 40,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Theme.of(context).colorScheme.primary,
+                            Color.lerp(
+                              Theme.of(context).colorScheme.primary,
+                              Colors.black,
+                              0.2,
+                            )!,
+                          ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: AppRadius.circularLg,
+                        boxShadow: AppShadows.md,
+                      ),
+                      child: const Icon(
+                        LucideIcons.heartPulse,
+                        color: Colors.white,
+                        size: 24,
                       ),
                     ),
-                    Row(
+                    const SizedBox(width: AppSpacing.md),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Icon(
-                          LucideIcons.refreshCw,
-                          size: 12,
-                          color: AppColors.mutedForeground,
-                        ),
-                        const SizedBox(width: 4),
                         Text(
-                          "Updated $lastUpdated",
-                          style: const TextStyle(
-                            fontSize: 12,
-                            color: AppColors.mutedForeground,
+                          title,
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Theme.of(context).colorScheme.onSurface,
                           ),
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              LucideIcons.refreshCw,
+                              size: AppSpacing.md,
+                              color:
+                                  Theme.of(context).appColors.mutedForeground,
+                            ),
+                            const SizedBox(width: AppSpacing.xs),
+                            Text(
+                              'Updated $lastUpdated',
+                              style: TextStyle(
+                                fontSize: 12,
+                                color:
+                                    Theme.of(context).appColors.mutedForeground,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
                   ],
                 ),
-              ],
-            ),
 
-            // Notifications
-            Stack(
-              clipBehavior: Clip.none,
-              children: [
-                GestureDetector(
-                  onTap: onNotificationTap,
-                  child: Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      color: AppColors.accent,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: const Icon(
-                      LucideIcons.bell,
-                      size: 20,
-                      color: AppColors.foreground,
-                    ),
-                  ),
-                ),
-                if (notificationCount > 0)
-                  Positioned(
-                    top: -4,
-                    right: -4,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 4,
-                        vertical: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        color: AppColors.danger,
-                        borderRadius: BorderRadius.circular(10),
-                        border: Border.all(
-                          color: AppColors.background,
-                          width: 2,
+                // Notifications
+                Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    GestureDetector(
+                      onTap: onNotificationTap,
+                      child: Container(
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: Theme.of(context).appColors.accent,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: const Icon(
+                          LucideIcons.bell,
+                          size: 20,
+                          color: Colors.white,
                         ),
                       ),
-                      constraints: const BoxConstraints(
-                        minWidth: 18,
-                        minHeight: 18,
-                      ),
-                      child: Center(
-                        child: Text(
-                          notificationCount > 9
-                              ? '9+'
-                              : notificationCount.toString(),
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
+                    ),
+                    if (notificationCount > 0)
+                      Positioned(
+                        top: -4,
+                        right: -4,
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 4,
+                            vertical: 2,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Theme.of(context).colorScheme.error,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(
+                              color: Theme.of(context).scaffoldBackgroundColor,
+                              width: 2,
+                            ),
+                          ),
+                          constraints: const BoxConstraints(
+                            minWidth: 18,
+                            minHeight: 18,
+                          ),
+                          child: Center(
+                            child: Text(
+                              notificationCount > 9
+                                  ? '9+'
+                                  : notificationCount.toString(),
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
+                  ],
+                ),
               ],
             ),
-          ],
+          ),
         ),
       ),
     );

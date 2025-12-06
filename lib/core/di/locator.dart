@@ -1,56 +1,56 @@
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:dartz/dartz.dart'; // Import dartz for Either, Right, unit
-import '../error/failures.dart'; // Import Failure base class
-import '../../core/usecases/usecase.dart'; // Import NoParams if needed by use cases
+// Database Helper
+import 'package:mediswitch/core/database/database_helper.dart';
 
 // Database Helper
-import '../database/database_helper.dart';
+// Database Helper
 
 // Data Sources
-import '../../data/datasources/local/sqlite_local_data_source.dart';
-import '../../data/datasources/remote/drug_remote_data_source.dart';
-import '../../data/datasources/local/interaction_local_data_source.dart';
-import '../../data/datasources/remote/config_remote_data_source.dart';
-import '../../data/datasources/remote/analytics_remote_data_source.dart';
+import 'package:mediswitch/data/datasources/local/interaction_local_data_source.dart';
+import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/analytics_remote_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/config_remote_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
 // Repositories
-import '../../data/repositories/drug_repository_impl.dart';
-import '../../data/repositories/interaction_repository_impl.dart';
-import '../../domain/repositories/drug_repository.dart';
-import '../../domain/repositories/interaction_repository.dart';
-import '../../domain/repositories/config_repository.dart';
-import '../../data/repositories/config_repository_impl.dart';
-import '../../domain/repositories/analytics_repository.dart';
-import '../../data/repositories/analytics_repository_impl.dart';
+import 'package:mediswitch/data/repositories/analytics_repository_impl.dart';
+import 'package:mediswitch/data/repositories/config_repository_impl.dart';
+import 'package:mediswitch/data/repositories/drug_repository_impl.dart';
+import 'package:mediswitch/data/repositories/interaction_repository_impl.dart';
+import 'package:mediswitch/domain/repositories/analytics_repository.dart';
+import 'package:mediswitch/domain/repositories/config_repository.dart';
+import 'package:mediswitch/domain/repositories/drug_repository.dart';
+import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 // Use Cases
-import '../../domain/usecases/get_all_drugs.dart';
-import '../../domain/usecases/search_drugs.dart';
-import '../../domain/usecases/filter_drugs_by_category.dart';
-import '../../domain/usecases/get_available_categories.dart';
-import '../../domain/usecases/find_drug_alternatives.dart';
-import '../../domain/usecases/load_interaction_data.dart';
-import '../../domain/usecases/get_recently_updated_drugs.dart';
-import '../../domain/usecases/get_popular_drugs.dart';
-import '../../domain/usecases/get_admob_config.dart';
-import '../../domain/usecases/get_general_config.dart';
-import '../../domain/usecases/get_last_update_timestamp.dart';
-import '../../domain/usecases/get_analytics_summary.dart';
+import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
+import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
+import 'package:mediswitch/domain/usecases/get_admob_config.dart';
+import 'package:mediswitch/domain/usecases/get_all_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_analytics_summary.dart';
+import 'package:mediswitch/domain/usecases/get_available_categories.dart';
+import 'package:mediswitch/domain/usecases/get_general_config.dart';
+import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
+import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
+import 'package:mediswitch/domain/usecases/load_interaction_data.dart';
+import 'package:mediswitch/domain/usecases/search_drugs.dart';
 // Services
-import '../../domain/services/dosage_calculator_service.dart';
-import '../../domain/services/interaction_checker_service.dart';
-import '../../domain/services/analytics_service.dart';
-import '../../data/services/analytics_service_impl.dart';
-import '../../presentation/services/ad_service.dart';
+import 'package:mediswitch/data/services/analytics_service_impl.dart';
+import 'package:mediswitch/domain/services/analytics_service.dart';
+import 'package:mediswitch/domain/services/dosage_calculator_service.dart';
+import 'package:mediswitch/domain/services/interaction_checker_service.dart';
+import 'package:mediswitch/presentation/services/ad_service.dart';
 // Providers / Blocs
-import '../../presentation/bloc/medicine_provider.dart';
-import '../../presentation/bloc/alternatives_provider.dart';
-import '../../presentation/bloc/dose_calculator_provider.dart';
-import '../../presentation/bloc/interaction_provider.dart';
-import '../../presentation/bloc/settings_provider.dart';
-import '../../presentation/bloc/subscription_provider.dart';
-import '../services/file_logger_service.dart'; // Import FileLoggerService
-import '../services/log_notifier.dart'; // Import LogNotifier
+import 'package:mediswitch/presentation/bloc/alternatives_provider.dart';
+import 'package:mediswitch/presentation/bloc/dose_calculator_provider.dart';
+import 'package:mediswitch/presentation/bloc/interaction_provider.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/bloc/settings_provider.dart';
+import 'package:mediswitch/presentation/bloc/subscription_provider.dart';
+// Services
+import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/core/services/log_notifier.dart';
 
 // Global Service Locator instance
 final locator = GetIt.instance;

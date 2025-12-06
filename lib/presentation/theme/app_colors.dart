@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+/// Application colors
 class AppColors {
   // Medical Blue Primary Palette
+  /// Primary color
   static const Color primary = Color(0xFF0B73DA); // hsl(210, 90%, 45%)
+  /// Primary light color
   static const Color primaryLight = Color(
     0xFF4C9AFF,
   ); // hsl(210, 100%, 65%) - Tuned for light
@@ -55,11 +58,12 @@ class AppColors {
   static const Color input = Color(0xFFE2E8F0);
 
   // Shadows
+  /// Small shadow
   static List<BoxShadow> get shadowSm => [
     BoxShadow(
       color: const Color(
         0xFF0F172A,
-      ).withOpacity(0.04), // hsl(215 25% 15% / 0.04)
+      ).withValues(alpha: 0.04), // hsl(215 25% 15% / 0.04)
       offset: const Offset(0, 1),
       blurRadius: 2,
     ),
@@ -69,7 +73,7 @@ class AppColors {
     BoxShadow(
       color: const Color(
         0xFF0F172A,
-      ).withOpacity(0.08), // hsl(215 25% 15% / 0.08)
+      ).withValues(alpha: 0.08), // hsl(215 25% 15% / 0.08)
       offset: const Offset(0, 4),
       blurRadius: 12,
       spreadRadius: -2,
@@ -78,13 +82,13 @@ class AppColors {
 
   static List<BoxShadow> get shadowCard => [
     BoxShadow(
-      color: const Color(0xFF0F172A).withOpacity(0.06),
+      color: const Color(0xFF0F172A).withValues(alpha: 0.06),
       offset: const Offset(0, 2),
       blurRadius: 8,
       spreadRadius: -2,
     ),
     BoxShadow(
-      color: const Color(0xFFE2E8F0).withOpacity(0.8),
+      color: const Color(0xFFE2E8F0).withValues(alpha: 0.8),
       offset: const Offset(0, 0),
       blurRadius: 0,
       spreadRadius: 1,

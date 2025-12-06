@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 class HomeSearchBar extends StatelessWidget {
   final TextEditingController? controller;
@@ -14,21 +14,31 @@ class HomeSearchBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.surface,
+        color: Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.border),
-        boxShadow: AppColors.shadowSm,
+        border: Border.all(
+          color: Theme.of(context).colorScheme.outline.withValues(alpha: 0.5),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Theme.of(context).shadowColor.withValues(alpha: 0.05),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: TextField(
         controller: controller,
         onChanged: onChanged,
         onTap: onTap,
-        decoration: const InputDecoration(
+        decoration: InputDecoration(
           hintText: 'Search for drugs...',
-          hintStyle: TextStyle(color: AppColors.mutedForeground),
+          hintStyle: TextStyle(
+            color: Theme.of(context).appColors.mutedForeground,
+          ),
           prefixIcon: Icon(
             LucideIcons.search,
-            color: AppColors.mutedForeground,
+            color: Theme.of(context).appColors.mutedForeground,
           ),
           border: InputBorder.none,
           enabledBorder: InputBorder.none,

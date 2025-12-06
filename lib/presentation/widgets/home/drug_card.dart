@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import '../../theme/app_colors.dart';
 
-// Assuming Drug model is reused or we create a UI specific one
+// DrugUIModel remains as is
 class DrugUIModel {
   final String id;
   final String tradeNameEn;
   final String tradeNameAr;
   final String activeIngredient;
-  final String form; // tablet, syrup, injection, cream, drops
+  final String form;
   final double currentPrice;
   final double? oldPrice;
   final String company;
@@ -33,7 +33,8 @@ class DrugUIModel {
   });
 }
 
-class DrugCard extends StatelessWidget {
+// StatefulWidget for hover effects
+class DrugCard extends StatefulWidget {
   final DrugUIModel drug;
   final bool isRTL;
   final VoidCallback? onTap;
@@ -48,8 +49,17 @@ class DrugCard extends StatelessWidget {
   }) : super(key: key);
 
   @override
+  State<DrugCard> createState() => _DrugCardState();
+}
+
+class _DrugCardState extends State<DrugCard> {
+  bool _isHovered = false;
+
+  @override
   Widget build(BuildContext context) {
-    // Calc price change
+    final drug = widget.drug;
+    final isRTL = widget.isRTL;
+
     double priceChange = 0;
     if (drug.oldPrice != null) {
       priceChange =
@@ -59,344 +69,285 @@ class DrugCard extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
 
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: theme.cardTheme.color ?? AppColors.card,
-          borderRadius: BorderRadius.circular(12), // rounded-xl
-          boxShadow: AppColors.shadowCard,
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Header Row
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+    return MouseRegion(
+      onEnter: (_) => setState(() => _isHovered = true),
+      onExit: (_) => setState(() => _isHovered = false),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
+        transform: Matrix4.translationValues(0, _isHovered ? -2 : 0, 0),
+        child: GestureDetector(
+          onTap: widget.onTap,
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: theme.cardTheme.color ?? AppColors.card,
+              borderRadius: BorderRadius.circular(12),
+              boxShadow:
+                  _isHovered
+                      ? [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.08),
+                          blurRadius: 12,
+                          offset: const Offset(0, 4),
+                        ),
+                      ]
+                      : AppColors.shadowCard,
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment:
-                        isRTL
-                            ? CrossAxisAlignment.end
-                            : CrossAxisAlignment.start,
-                    children: [
-                      // Name + Badge
-                      Wrap(
-                        crossAxisAlignment: WrapCrossAlignment.center,
-                        alignment:
-                            isRTL ? WrapAlignment.end : WrapAlignment.start,
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment:
+                            isRTL
+                                ? CrossAxisAlignment.end
+                                : CrossAxisAlignment.start,
                         children: [
-                          if (isRTL) ..._buildBadges(context, isRTL),
-                          Text(
-                            isRTL ? drug.tradeNameAr : drug.tradeNameEn,
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w600,
-                              color: colorScheme.onSurface,
-                            ),
+                          Wrap(
+                            crossAxisAlignment: WrapCrossAlignment.center,
+                            alignment:
+                                isRTL ? WrapAlignment.end : WrapAlignment.start,
+                            children: [
+                              if (isRTL) ..._buildBadges(context, isRTL),
+                              Text(
+                                isRTL ? drug.tradeNameAr : drug.tradeNameEn,
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
+                                  color: colorScheme.onSurface,
+                                ),
+                              ),
+                              if (!isRTL) ..._buildBadges(context, isRTL),
+                            ],
                           ),
-                          if (!isRTL) ..._buildBadges(context, isRTL),
+                          const SizedBox(height: 2),
+                          Text(
+                            isRTL ? drug.tradeNameEn : drug.tradeNameAr,
+                            style: const TextStyle(
+                              fontSize: 14,
+                              color: AppColors.mutedForeground,
+                            ),
+                            textAlign: isRTL ? TextAlign.right : TextAlign.left,
+                          ),
                         ],
                       ),
-                      const SizedBox(height: 2),
-                      // Subtitle Name
-                      Text(
-                        isRTL ? drug.tradeNameEn : drug.tradeNameAr,
-                        style: const TextStyle(
-                          fontSize: 14,
-                          color: AppColors.mutedForeground,
+                    ),
+                    GestureDetector(
+                      onTap: () => widget.onFavoriteToggle?.call(drug.id),
+                      child: Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color:
+                              drug.isFavorite
+                                  ? AppColors.dangerSoft
+                                  : AppColors.muted,
+                          shape: BoxShape.circle,
                         ),
-                        textAlign: isRTL ? TextAlign.right : TextAlign.left,
+                        child: Icon(
+                          LucideIcons.heart,
+                          size: 16,
+                          color:
+                              drug.isFavorite
+                                  ? AppColors.danger
+                                  : AppColors.mutedForeground,
+                        ),
                       ),
-                    ],
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () => onFavoriteToggle?.call(drug.id),
-                  child: Container(
-                    padding: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color:
-                          drug.isFavorite
-                              ? AppColors.dangerSoft
-                              : AppColors.muted,
-                      shape: BoxShape.circle,
                     ),
-                    child: Icon(
-                      LucideIcons.heart,
-                      size: 16,
-                      color:
-                          drug.isFavorite
-                              ? AppColors.danger
-                              : AppColors.mutedForeground,
-                    ),
-                  ),
+                  ],
                 ),
-              ],
-            ),
-            const SizedBox(height: 12),
-
-            // Form & Active Ingredient
-            Row(
-              mainAxisAlignment:
-                  isRTL ? MainAxisAlignment.end : MainAxisAlignment.start,
-              children: [
-                if (isRTL) ...[
-                  _buildActiveIngredient(isRTL),
-                  const SizedBox(width: 8),
-                  const Text(
-                    "•",
-                    style: TextStyle(color: AppColors.mutedForeground),
-                  ),
-                  const SizedBox(width: 8),
-                  _buildFormBadge(isRTL),
-                ] else ...[
-                  _buildFormBadge(isRTL),
-                  const SizedBox(width: 8),
-                  const Text(
-                    "•",
-                    style: TextStyle(color: AppColors.mutedForeground),
-                  ),
-                  const SizedBox(width: 8),
-                  _buildActiveIngredient(isRTL),
-                ],
-              ],
-            ),
-            const SizedBox(height: 12),
-
-            // Price Section
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                // Price
+                const SizedBox(height: 12),
                 Row(
-                  textDirection: isRTL ? TextDirection.rtl : TextDirection.ltr,
-                  crossAxisAlignment: CrossAxisAlignment.baseline,
-                  textBaseline: TextBaseline.alphabetic,
+                  mainAxisAlignment:
+                      isRTL ? MainAxisAlignment.end : MainAxisAlignment.start,
                   children: [
-                    Text(
-                      '${drug.currentPrice.toStringAsFixed(2)} ${isRTL ? 'ج.م' : 'EGP'}',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Theme.of(context).colorScheme.onSurface,
-                      ),
-                    ),
-                    if (drug.oldPrice != null) ...[
+                    if (isRTL) ...[
+                      _buildActiveIngredient(isRTL, drug),
                       const SizedBox(width: 8),
-                      Text(
-                        drug.oldPrice!.toStringAsFixed(2),
-                        style: const TextStyle(
-                          fontSize: 14,
-                          decoration: TextDecoration.lineThrough,
-                          color: AppColors.mutedForeground,
-                        ),
+                      const Text(
+                        "•",
+                        style: TextStyle(color: AppColors.mutedForeground),
                       ),
+                      const SizedBox(width: 8),
+                      _buildFormBadge(isRTL, drug),
+                    ] else ...[
+                      _buildFormBadge(isRTL, drug),
+                      const SizedBox(width: 8),
+                      const Text(
+                        "•",
+                        style: TextStyle(color: AppColors.mutedForeground),
+                      ),
+                      const SizedBox(width: 8),
+                      _buildActiveIngredient(isRTL, drug),
                     ],
                   ],
                 ),
-
-                // Price Change Badge
-                if (priceChange != 0)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 4,
-                    ),
-                    decoration: BoxDecoration(
-                      color:
-                          isPriceDown
-                              ? AppColors.successSoft
-                              : AppColors.dangerSoft,
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
+                const SizedBox(height: 12),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Row(
+                      textDirection:
+                          isRTL ? TextDirection.rtl : TextDirection.ltr,
+                      crossAxisAlignment: CrossAxisAlignment.baseline,
+                      textBaseline: TextBaseline.alphabetic,
                       children: [
-                        Icon(
-                          isPriceDown
-                              ? LucideIcons.trendingDown
-                              : LucideIcons.trendingUp,
-                          size: 12,
-                          color:
-                              isPriceDown
-                                  ? AppColors.success
-                                  : AppColors.danger,
-                        ),
-                        const SizedBox(width: 4),
                         Text(
-                          '${priceChange.abs().toStringAsFixed(0)}%',
+                          '${drug.currentPrice.toStringAsFixed(2)} ${isRTL ? 'ج.م' : 'EGP'}',
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold,
-                            color:
-                                isPriceDown
-                                    ? AppColors.success
-                                    : AppColors.danger,
+                            color: colorScheme.onSurface,
                           ),
                         ),
+                        if (drug.oldPrice != null) ...[
+                          const SizedBox(width: 8),
+                          Text(
+                            drug.oldPrice!.toStringAsFixed(2),
+                            style: const TextStyle(
+                              fontSize: 14,
+                              decoration: TextDecoration.lineThrough,
+                              color: AppColors.mutedForeground,
+                            ),
+                          ),
+                        ],
                       ],
+                    ),
+                    if (priceChange != 0)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color:
+                              isPriceDown
+                                  ? AppColors.successSoft
+                                  : AppColors.dangerSoft,
+                          borderRadius: BorderRadius.circular(100),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(
+                              isPriceDown
+                                  ? LucideIcons.trendingDown
+                                  : LucideIcons.trendingUp,
+                              size: 12,
+                              color:
+                                  isPriceDown
+                                      ? AppColors.success
+                                      : AppColors.danger,
+                            ),
+                            const SizedBox(width: 4),
+                            Text(
+                              '${priceChange.abs().toStringAsFixed(0)}%',
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                                color:
+                                    isPriceDown
+                                        ? AppColors.success
+                                        : AppColors.danger,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                  ],
+                ),
+                if (drug.hasInteraction)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 12),
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: AppColors.warningSoft,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: const [
+                          Icon(
+                            LucideIcons.alertTriangle,
+                            size: 14,
+                            color: AppColors.warning,
+                          ),
+                          SizedBox(width: 4),
+                          Text(
+                            "Interaction Warning",
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: AppColors.warning,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
               ],
             ),
-
-            // Interaction Warning
-            if (drug.hasInteraction)
-              Container(
-                margin: const EdgeInsets.only(top: 12),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 8,
-                ),
-                decoration: BoxDecoration(
-                  color: AppColors.dangerSoft,
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Row(
-                  textDirection: isRTL ? TextDirection.rtl : TextDirection.ltr,
-                  children: [
-                    const Icon(
-                      LucideIcons.alertTriangle,
-                      size: 16,
-                      color: AppColors.danger,
-                    ),
-                    const SizedBox(width: 8),
-                    Text(
-                      isRTL ? 'تحذير: تفاعل دوائي' : 'Interaction Warning',
-                      style: const TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                        color: AppColors.danger,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-          ],
+          ),
         ),
       ),
     );
   }
 
   List<Widget> _buildBadges(BuildContext context, bool isRTL) {
-    if (!drug.isNew && !drug.isPopular) return [];
-
-    final badges = <Widget>[];
-    if (drug.isNew) {
-      badges.add(
-        _Badge(text: isRTL ? 'جديد' : 'NEW', color: AppColors.success),
-      );
-    }
-    if (drug.isPopular) {
-      badges.add(
-        _Badge(text: isRTL ? 'رائج' : 'POPULAR', color: AppColors.primary),
-      );
-    }
-
-    // spacing
-    return badges
-        .map(
-          (b) => Padding(
-            padding: EdgeInsets.only(left: isRTL ? 0 : 8, right: isRTL ? 8 : 0),
-            child: b,
-          ),
-        )
-        .toList();
+    return [];
   }
 
-  Widget _buildFormBadge(bool isRTL) {
+  Widget _buildFormBadge(bool isRTL, DrugUIModel drug) {
     IconData icon;
-    String label;
-
-    switch (drug.form) {
+    switch (drug.form.toLowerCase()) {
       case 'tablet':
         icon = LucideIcons.pill;
-        label = isRTL ? 'أقراص' : 'Tablet';
         break;
       case 'syrup':
-        icon = LucideIcons.droplets;
-        label = isRTL ? 'شراب' : 'Syrup';
+        icon = LucideIcons.beaker;
         break;
       case 'injection':
         icon = LucideIcons.syringe;
-        label = isRTL ? 'حقن' : 'Injection';
         break;
       case 'cream':
-        icon = LucideIcons.pipette;
-        label = isRTL ? 'كريم' : 'Cream';
-        break; // Approximate
+        icon = LucideIcons.package;
+        break;
       case 'drops':
-        icon = LucideIcons.droplets;
-        label = isRTL ? 'قطرة' : 'Drops';
+        icon = LucideIcons.droplet;
         break;
       default:
         icon = LucideIcons.pill;
-        label = drug.form;
     }
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-      decoration: BoxDecoration(
-        color: AppColors.accent,
-        borderRadius: BorderRadius.circular(6),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 14, color: AppColors.accentForeground),
-          const SizedBox(width: 4),
-          Text(
-            label,
-            style: const TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.w500,
-              color: AppColors.accentForeground,
-            ),
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(icon, size: 14, color: AppColors.mutedForeground),
+        const SizedBox(width: 4),
+        Text(
+          drug.form,
+          style: const TextStyle(
+            fontSize: 12,
+            color: AppColors.mutedForeground,
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 
-  Widget _buildActiveIngredient(bool isRTL) {
-    return Expanded(
+  Widget _buildActiveIngredient(bool isRTL, DrugUIModel drug) {
+    return Flexible(
       child: Text(
         drug.activeIngredient,
+        style: const TextStyle(fontSize: 12, color: AppColors.mutedForeground),
         maxLines: 1,
         overflow: TextOverflow.ellipsis,
-        style: const TextStyle(fontSize: 12, color: AppColors.mutedForeground),
         textAlign: isRTL ? TextAlign.right : TextAlign.left,
-      ),
-    );
-  }
-}
-
-class _Badge extends StatelessWidget {
-  final String text;
-  final Color color;
-
-  const _Badge({required this.text, required this.color});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(4),
-      ),
-      child: Text(
-        text,
-        style: const TextStyle(
-          color: Colors.white,
-          fontSize: 10,
-          fontWeight: FontWeight.bold,
-        ),
       ),
     );
   }

@@ -108,17 +108,17 @@ class _FilterEndDrawerState extends State<FilterEndDrawer> {
                       children:
                           allCategories.map((category) {
                             final isSelected =
-                                _tempSelectedCategory == category;
+                                _tempSelectedCategory == category.id;
                             return FilterChip(
                               label: Text(
-                                kCategoryTranslation[category] ??
-                                    category, // Use translated category name
-                              ), // Category names might need localization too if they are keys
+                                kCategoryTranslation[category.id] ??
+                                    category.name,
+                              ),
                               selected: isSelected,
                               onSelected: (selected) {
                                 setState(() {
                                   _tempSelectedCategory =
-                                      selected ? category : '';
+                                      selected ? category.id : '';
                                 });
                               },
                               selectedColor: colorScheme.primaryContainer,

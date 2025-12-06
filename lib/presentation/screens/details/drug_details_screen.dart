@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../theme/app_colors.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../../widgets/home/drug_card.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
+
+import 'package:provider/provider.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 
 // Assuming DrugUIModel is shared or redefined here.
 // Ideally should be in a shared models directory.
 // For now, reusing the one defined in drug_card.dart or redefining simpler version for this screen.
 
 class DrugDetailsScreen extends StatefulWidget {
+  final DrugEntity drug;
   final VoidCallback? onBack;
 
-  const DrugDetailsScreen({Key? key, this.onBack}) : super(key: key);
+  const DrugDetailsScreen({super.key, required this.drug, this.onBack});
 
   @override
   State<DrugDetailsScreen> createState() => _DrugDetailsScreenState();
@@ -20,100 +26,13 @@ class DrugDetailsScreen extends StatefulWidget {
 
 class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
   String activeTab = 'info';
-  bool isFavorite = false;
-
-  // Mock Data
-  final mockDrug = DrugUIModel(
-    id: '1',
-    tradeNameEn: 'Augmentin 1g',
-    tradeNameAr: 'اوجمنتين ١ جرام',
-    activeIngredient: 'Amoxicillin 875mg + Clavulanic Acid 125mg',
-    form: 'tablet',
-    currentPrice: 185.00,
-    oldPrice: 195.00,
-    company: 'GlaxoSmithKline (GSK)',
-    isPopular: true,
-  );
-
-  final String registrationNumber = 'EGY-2024-00123';
-  final String description =
-      'Augmentin is a combination antibiotic used to treat a wide variety of bacterial infections. It works by stopping the growth of bacteria.';
-
-  final mockDosage = {
-    'strength': '1000mg (875mg + 125mg)',
-    'standardDose': '1 Tablet every 12 hours',
-    'instructions':
-        'Take at the start of a meal to reduce GI side effects. Complete the full course even if symptoms improve.',
-    'maxDaily': '2 tablets (2000mg)',
-  };
-
-  final List<DrugUIModel> mockAlternatives = [
-    DrugUIModel(
-      id: 'alt1',
-      tradeNameEn: 'Hibiotic 1g',
-      tradeNameAr: 'هايبيوتك',
-      activeIngredient: 'Amoxicillin + Clavulanic Acid',
-      form: 'tablet',
-      currentPrice: 145.00,
-      company: 'Amoun Pharma',
-    ),
-    DrugUIModel(
-      id: 'alt2',
-      tradeNameEn: 'Megamox 1g',
-      tradeNameAr: 'ميجاموكس',
-      activeIngredient: 'Amoxicillin + Clavulanic Acid',
-      form: 'tablet',
-      currentPrice: 160.00,
-      oldPrice: 175.00,
-      company: 'Pharco',
-    ),
-  ];
-
-  final mockInteractions = [
-    {
-      'id': '1',
-      'name': 'Warfarin',
-      'severity': 'major',
-      'description': 'Increased risk of bleeding',
-    },
-    {
-      'id': '2',
-      'name': 'Methotrexate',
-      'severity': 'major',
-      'description': 'Increased methotrexate toxicity',
-    },
-    {
-      'id': '3',
-      'name': 'Oral Contraceptives',
-      'severity': 'moderate',
-      'description': 'May reduce contraceptive efficacy',
-    },
-    {
-      'id': '4',
-      'name': 'Probenecid',
-      'severity': 'minor',
-      'description': 'Increased amoxicillin levels',
-    },
-  ];
-
-  final mockPriceHistory = [
-    {'date': 'Nov 2024', 'price': 195.00},
-    {'date': 'Oct 2024', 'price': 195.00},
-    {'date': 'Sep 2024', 'price': 180.00},
-    {'date': 'Aug 2024', 'price': 175.00},
-    {'date': 'Jul 2024', 'price': 175.00},
-    {'date': 'Jun 2024', 'price': 165.00},
-  ];
 
   @override
   Widget build(BuildContext context) {
-    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final l10n = AppLocalizations.of(context)!;
+    final isRTL = l10n.localeName == 'ar';
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
-    final l10n =
-        AppLocalizations.of(
-          context,
-        )!; // Assumes AppLocalizations is available in context
 
     final tabs = [
       {'id': 'info', 'label': l10n.infoTab, 'icon': LucideIcons.info},
@@ -132,14 +51,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
     ];
 
     return Scaffold(
-      backgroundColor: colorScheme.background,
+      backgroundColor: colorScheme.surface,
       body: Column(
         children: [
           _buildHeader(context, isRTL, colorScheme),
           _buildTabs(tabs, colorScheme),
           Expanded(
             child: SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
+              padding: AppSpacing.paddingLG,
               child: _buildTabContent(isRTL, colorScheme, l10n),
             ),
           ),
@@ -154,10 +73,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
     ColorScheme colorScheme,
   ) {
     double priceChange = 0;
-    if (mockDrug.oldPrice != null) {
-      priceChange =
-          ((mockDrug.currentPrice - mockDrug.oldPrice!) / mockDrug.oldPrice!) *
-          100;
+    double? currentPrice = double.tryParse(widget.drug.price);
+    double? oldPrice =
+        widget.drug.oldPrice != null
+            ? double.tryParse(widget.drug.oldPrice!)
+            : null;
+
+    if (currentPrice != null && oldPrice != null && oldPrice > 0) {
+      priceChange = ((currentPrice - oldPrice) / oldPrice) * 100;
     }
 
     return Container(
@@ -171,7 +94,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              padding: const EdgeInsets.symmetric(
+                horizontal: AppSpacing.lg,
+                vertical: AppSpacing.md,
+              ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -200,23 +126,28 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                           ),
                         ),
                       ),
-                      const SizedBox(width: 8),
-                      IconButton(
-                        onPressed:
-                            () => setState(() => isFavorite = !isFavorite),
-                        icon: Icon(
-                          LucideIcons.heart,
-                          color:
-                              isFavorite
-                                  ? AppColors.danger
-                                  : colorScheme.onPrimary,
-                        ),
-                        style: IconButton.styleFrom(
-                          backgroundColor:
-                              isFavorite
-                                  ? colorScheme.surface
-                                  : colorScheme.onPrimary.withOpacity(0.1),
-                        ),
+                      const SizedBox(width: AppSpacing.sm),
+                      Consumer<MedicineProvider>(
+                        builder: (context, provider, _) {
+                          final isFav = provider.isFavorite(widget.drug);
+                          return IconButton(
+                            onPressed:
+                                () => provider.toggleFavorite(widget.drug),
+                            icon: Icon(
+                              LucideIcons.heart,
+                              color:
+                                  isFav
+                                      ? Theme.of(context).colorScheme.error
+                                      : colorScheme.onPrimary,
+                            ),
+                            style: IconButton.styleFrom(
+                              backgroundColor:
+                                  isFav
+                                      ? colorScheme.surface
+                                      : colorScheme.onPrimary.withOpacity(0.1),
+                            ),
+                          );
+                        },
                       ),
                     ],
                   ),
@@ -225,7 +156,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
             ),
 
             Padding(
-              padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
+              padding: const EdgeInsets.fromLTRB(
+                AppSpacing.lg,
+                AppSpacing.sm,
+                AppSpacing.lg,
+                AppSpacing.xl2,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -236,7 +172,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                         height: 56,
                         decoration: BoxDecoration(
                           color: colorScheme.onPrimary.withOpacity(0.1),
-                          borderRadius: BorderRadius.circular(16),
+                          borderRadius: AppRadius.circularLg,
                         ),
                         child: Icon(
                           LucideIcons.pill,
@@ -244,7 +180,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                           size: 28,
                         ),
                       ),
-                      const SizedBox(width: 12),
+                      const SizedBox(width: AppSpacing.md),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -253,7 +189,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                               children: [
                                 Flexible(
                                   child: Text(
-                                    mockDrug.tradeNameEn,
+                                    widget.drug.tradeName,
                                     style: TextStyle(
                                       color: colorScheme.onPrimary,
                                       fontSize: 24,
@@ -261,35 +197,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                                     ),
                                   ),
                                 ),
-                                const SizedBox(width: 8),
-                                if (mockDrug.isPopular)
-                                  Container(
-                                    padding: const EdgeInsets.symmetric(
-                                      horizontal: 6,
-                                      vertical: 2,
-                                    ),
-                                    decoration: BoxDecoration(
-                                      color:
-                                          colorScheme
-                                              .surface, // Inverted for badge on primary
-                                      borderRadius: BorderRadius.circular(4),
-                                      border: Border.all(
-                                        color: colorScheme.onPrimary,
-                                      ),
-                                    ),
-                                    child: Text(
-                                      'POPULAR',
-                                      style: TextStyle(
-                                        color: colorScheme.primary,
-                                        fontSize: 10,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
+                                // Popular badge logic removed as not in entity yet
                               ],
                             ),
                             Text(
-                              mockDrug.tradeNameAr,
+                              widget.drug.arabicName,
                               style: TextStyle(
                                 color: colorScheme.onPrimary.withOpacity(0.8),
                                 fontFamily: 'Cairo',
@@ -300,66 +212,70 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: AppSpacing.lg),
                   Text(
-                    mockDrug.company,
+                    widget.drug.company,
                     style: TextStyle(
                       color: colorScheme.onPrimary.withOpacity(0.7),
                     ),
                   ),
-                  const SizedBox(height: 4),
+                  const SizedBox(height: AppSpacing.xs),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
                     children: [
                       Text(
-                        '${mockDrug.currentPrice.toStringAsFixed(2)} EGP',
+                        '${currentPrice?.toStringAsFixed(2) ?? widget.drug.price} EGP',
                         style: TextStyle(
                           color: colorScheme.onPrimary,
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(width: 12),
-                      if (mockDrug.oldPrice != null)
+                      const SizedBox(width: AppSpacing.md),
+                      if (oldPrice != null)
                         Text(
-                          mockDrug.oldPrice!.toStringAsFixed(2),
+                          oldPrice.toStringAsFixed(2),
                           style: TextStyle(
                             color: colorScheme.onPrimary.withOpacity(0.6),
                             decoration: TextDecoration.lineThrough,
                             fontSize: 18,
                           ),
                         ),
-                      const SizedBox(width: 8),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 6,
-                          vertical: 2,
-                        ),
-                        decoration: BoxDecoration(
-                          color: AppColors.success.withOpacity(
-                            0.2,
-                          ), // Keep semantic colors or add to theme
-                          borderRadius: BorderRadius.circular(4),
-                        ),
-                        child: Row(
-                          children: [
-                            const Icon(
-                              LucideIcons.trendingDown,
-                              color: AppColors.successSoft,
-                              size: 12,
-                            ),
-                            Text(
-                              '${priceChange.abs().toStringAsFixed(0)}%',
-                              style: const TextStyle(
-                                color: AppColors.successSoft,
-                                fontSize: 12,
-                                fontWeight: FontWeight.bold,
+                      const SizedBox(width: AppSpacing.sm),
+                      if (priceChange != 0)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 6,
+                            vertical: 2,
+                          ),
+                          decoration: BoxDecoration(
+                            color: Theme.of(
+                              context,
+                            ).appColors.successSoft.withOpacity(
+                              0.2,
+                            ), // Keep semantic colors or add to theme
+                            borderRadius: AppRadius.circularSm,
+                          ),
+                          child: Row(
+                            children: [
+                              Icon(
+                                LucideIcons.trendingDown,
+                                color: Theme.of(context).appColors.successSoft,
+                                size: 12,
                               ),
-                            ),
-                          ],
+                              Text(
+                                '${priceChange.abs().toStringAsFixed(0)}%',
+                                style: TextStyle(
+                                  color:
+                                      Theme.of(context).appColors.successSoft,
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
                     ],
                   ),
                 ],
@@ -377,7 +293,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       width: double.infinity,
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 8),
+        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm),
         child: Row(
           children:
               tabs.map((tab) {
@@ -386,8 +302,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                   onTap: () => setState(() => activeTab = tab['id'] as String),
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                      vertical: 12,
+                      horizontal: AppSpacing.lg,
+                      vertical: AppSpacing.md,
                     ),
                     decoration: BoxDecoration(
                       border: Border(
@@ -446,7 +362,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
               title: l10n.descriptionTitle,
               colorScheme: colorScheme,
               child: Text(
-                description,
+                widget.drug.description.isNotEmpty
+                    ? widget.drug.description
+                    : 'No description available.',
                 style: TextStyle(
                   height: 1.5,
                   color: colorScheme.onSurfaceVariant,
@@ -459,28 +377,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
               colorScheme: colorScheme,
               child: Column(
                 children: [
-                  _buildDetailRow(
-                    LucideIcons.hash,
-                    "Registration Number",
-                    registrationNumber,
-                    colorScheme,
-                  ), // Needs generic label
+                  // Registration Number not in entity
                   _buildDetailRow(
                     LucideIcons.flaskConical,
-                    "Active Ingredient",
-                    mockDrug.activeIngredient,
+                    'Active Ingredient',
+                    widget.drug.active,
                     colorScheme,
                   ),
                   _buildDetailRow(
                     LucideIcons.building,
                     l10n.companyLabel.replaceAll(':', ''),
-                    mockDrug.company,
+                    widget.drug.company,
                     colorScheme,
                   ),
                   _buildDetailRow(
                     LucideIcons.tablets,
                     l10n.formLabel.replaceAll(':', ''),
-                    mockDrug.form,
+                    widget.drug.dosageForm,
+                    colorScheme,
+                  ),
+                  _buildDetailRow(
+                    LucideIcons.scale,
+                    'Concentration',
+                    '${widget.drug.concentration} ${widget.drug.unit}',
                     colorScheme,
                   ),
                 ],
@@ -517,7 +436,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              mockDosage['strength'] as String,
+                              '${widget.drug.concentration} ${widget.drug.unit}',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 16,
@@ -525,7 +444,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                               ),
                             ),
                             Text(
-                              "Strength",
+                              'Strength',
                               style: TextStyle(
                                 color: colorScheme.onSurfaceVariant,
                                 fontSize: 12,
@@ -542,15 +461,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                   ),
                   _buildDosageRow(
                     LucideIcons.clock,
-                    "Standard Dose",
-                    mockDosage['standardDose'] as String,
-                    colorScheme,
-                  ),
-                  const SizedBox(height: 12),
-                  _buildDosageRow(
-                    LucideIcons.info,
-                    "Maximum Daily Dose",
-                    mockDosage['maxDaily'] as String,
+                    'Usage',
+                    widget.drug.usage,
                     colorScheme,
                   ),
                 ],
@@ -560,123 +472,27 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
         ).animate().fadeIn();
 
       case 'alternatives':
-        return Column(
-          children: [
-            if (mockAlternatives.isEmpty)
-              Center(
-                child: Text(
-                  l10n.noAlternativesFound,
+      case 'interactions':
+      case 'price':
+        return Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32.0),
+            child: Column(
+              children: [
+                Icon(
+                  LucideIcons.construction,
+                  size: 48,
+                  color: colorScheme.outline,
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  "Feature coming soon",
                   style: TextStyle(color: colorScheme.onSurfaceVariant),
                 ),
-              )
-            else
-              ...mockAlternatives.map(
-                (d) => Padding(
-                  padding: const EdgeInsets.only(bottom: 12),
-                  child: DrugCard(drug: d, isRTL: isRTL),
-                ),
-              ),
-          ],
-        ).animate().fadeIn();
-
-      case 'interactions':
-        return Column(
-          children:
-              mockInteractions.map((i) {
-                final severity = i['severity'] as String;
-                Color color = AppColors.info; // Default
-                if (severity == 'major') color = AppColors.danger;
-                if (severity == 'moderate') color = AppColors.warning;
-
-                // Adjust color for dark mode if needed, or stick to semantic colors which stand out on dark too.
-                // Usually semantic colors (Red, Orange, Blue) are fine on dark.
-
-                return Container(
-                  margin: const EdgeInsets.only(bottom: 12),
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: color.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: color.withOpacity(0.2)),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            i['name'] as String,
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: colorScheme.onSurface,
-                            ),
-                          ),
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 2,
-                            ),
-                            decoration: BoxDecoration(
-                              color: color,
-                              borderRadius: BorderRadius.circular(4),
-                            ),
-                            child: Text(
-                              severity.toUpperCase(),
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 10,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        i['description'] as String,
-                        style: TextStyle(
-                          color: colorScheme.onSurfaceVariant,
-                          fontSize: 14,
-                        ),
-                      ),
-                    ],
-                  ),
-                );
-              }).toList(),
-        ).animate().fadeIn();
-
-      case 'price':
-        return _buildCard(
-          title: l10n.priceTab,
-          colorScheme: colorScheme,
-          child: Column(
-            children:
-                mockPriceHistory.map((item) {
-                  final price = item['price'] as double;
-                  final date = item['date'] as String;
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 8),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          date,
-                          style: TextStyle(color: colorScheme.onSurfaceVariant),
-                        ),
-                        Text(
-                          '${price.toStringAsFixed(2)} EGP',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: colorScheme.onSurface,
-                          ),
-                        ),
-                      ],
-                    ),
-                  );
-                }).toList(),
+              ],
+            ),
           ),
-        ).animate().fadeIn();
+        );
 
       default:
         return Container();
@@ -694,9 +510,13 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       decoration: BoxDecoration(
         color: colorScheme.surface, // Was AppColors.card
         borderRadius: BorderRadius.circular(16),
-        boxShadow:
-            AppColors
-                .shadowCard, // Shadows might need adjustment for dark mode, but usually opacity handles it.
+        boxShadow: [
+          BoxShadow(
+            color: Theme.of(context).shadowColor.withOpacity(0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ], // Shadows might need adjustment for dark mode, but usually opacity handles it.
         border: Border.all(color: colorScheme.outline.withOpacity(0.5)),
       ),
       child: Column(
@@ -731,7 +551,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
             width: 40,
             height: 40,
             decoration: BoxDecoration(
-              color: colorScheme.surfaceVariant, // Was AppColors.accent
+              color: Theme.of(context).appColors.accent.withOpacity(0.2),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Icon(icon, color: colorScheme.primary, size: 20),

@@ -1,23 +1,21 @@
 import 'dart:collection';
 import 'package:flutter/foundation.dart';
 
+/// Notifier for logs
 class LogNotifier extends ChangeNotifier {
+  /// Maximum number of logs to keep
   final int maxLogs;
   // Use a DoubleLinkedQueue for efficient addition/removal from both ends
   final Queue<String> _logs = DoubleLinkedQueue<String>();
 
+  /// Constructor
   LogNotifier({this.maxLogs = 200}); // Keep the last 200 logs by default
 
-  // Provide an unmodifiable view of the logs
+  /// List of logs
   List<String> get logs => List.unmodifiable(_logs);
 
+  /// Adds a new log message
   void addLog(String log) {
-    // --- DEBUG PRINT ---
-    // This print statement will show up in the debug console (e.g., VS Code Debug Console or `flutter run` output)
-    // every time a log message is supposed to be added to the viewer.
-    print("[LogNotifier] addLog called: $log");
-    // --- END DEBUG PRINT ---
-
     if (_logs.length >= maxLogs) {
       _logs.removeFirst(); // Remove the oldest log if capacity is reached
     }

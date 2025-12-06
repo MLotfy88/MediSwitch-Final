@@ -1,137 +1,164 @@
 import 'package:flutter/material.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
+import 'package:mediswitch/core/utils/animation_helpers.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../theme/app_colors.dart';
 
-class CategoryModel {
-  final String id;
-  final String name;
-  final String nameAr;
-  final IconData icon;
-  final int drugCount;
-  final String color;
-
-  CategoryModel({
-    required this.id,
-    required this.name,
-    required this.nameAr,
-    required this.icon,
-    required this.drugCount,
-    required this.color,
-  });
-}
-
-class CategoryCard extends StatelessWidget {
-  final CategoryModel category;
+class CategoryCard extends StatefulWidget {
+  final CategoryEntity category;
   final bool isRTL;
-  final VoidCallback? onTap;
 
-  const CategoryCard({
-    Key? key,
-    required this.category,
-    this.isRTL = false,
-    this.onTap,
-  }) : super(key: key);
+  const CategoryCard({super.key, required this.category, required this.isRTL});
 
   @override
-  Widget build(BuildContext context) {
-    final style = _getStyle(category.color);
+  State<CategoryCard> createState() => _CategoryCardState();
+}
 
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 88,
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: style['bg'],
-          borderRadius: BorderRadius.circular(16), // rounded-2xl
-          border: Border.all(color: style['border']!),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.02),
-              blurRadius: 2,
-              offset: const Offset(0, 1),
-            ),
-          ],
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: style['bg'],
-                borderRadius: BorderRadius.circular(12), // rounded-xl
-              ),
-              child: Icon(category.icon, color: style['icon'], size: 24),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              isRTL ? category.nameAr : category.name,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: AppColors.foreground,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 2),
-            Text(
-              isRTL
-                  ? '${category.drugCount} دواء'
-                  : '${category.drugCount} drugs',
-              style: const TextStyle(
-                fontSize: 10,
-                color: AppColors.mutedForeground,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
+class _CategoryCardState extends State<CategoryCard>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _scaleController;
+  late Animation<double> _scaleAnimation;
+
+  @override
+  void initState() {
+    super.initState();
+    _scaleController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 150),
+    );
+    _scaleAnimation = Tween<double>(begin: 1.0, end: 0.95).animate(
+      CurvedAnimation(parent: _scaleController, curve: Curves.easeInOut),
     );
   }
 
-  Map<String, Color> _getStyle(String color) {
-    switch (color) {
-      case 'red':
-        return {
-          'bg': AppColors.dangerSoft,
-          'icon': AppColors.danger,
-          'border': AppColors.danger.withOpacity(0.2),
-        };
-      case 'purple':
-        return {
-          'bg': AppColors.accent,
-          'icon': AppColors.primary,
-          'border': AppColors.primary.withOpacity(0.2),
-        };
-      case 'green':
-        return {
-          'bg': AppColors.successSoft,
-          'icon': AppColors.success,
-          'border': AppColors.success.withOpacity(0.2),
-        };
-      case 'orange':
-        return {
-          'bg': AppColors.warningSoft,
-          'icon': AppColors.warning,
-          'border': AppColors.warning.withOpacity(0.3),
-        };
-      case 'teal':
-        return {
-          'bg': AppColors.secondary.withOpacity(0.1),
-          'icon': AppColors.secondary,
-          'border': AppColors.secondary.withOpacity(0.2),
-        };
-      case 'blue':
+  @override
+  void dispose() {
+    _scaleController.dispose();
+    super.dispose();
+  }
+
+  IconData _getIconData(String? iconName) {
+    if (iconName == null) return LucideIcons.pill;
+    switch (iconName.toLowerCase()) {
+      case 'heart':
+        return LucideIcons.heart;
+      case 'brain':
+        return LucideIcons.brain;
+      case 'smile':
+        return LucideIcons.smile;
+      case 'baby':
+        return LucideIcons.baby;
+      case 'eye':
+        return LucideIcons.eye;
+      case 'bone':
+        return LucideIcons.bone;
       default:
-        return {
-          'bg': AppColors.infoSoft,
-          'icon': AppColors.info,
-          'border': AppColors.info.withOpacity(0.2),
-        };
+        return LucideIcons.pill;
     }
+  }
+
+  Color _parseColor(String colorName) {
+    switch (colorName.toLowerCase()) {
+      case 'red':
+        return Colors.red;
+      case 'purple':
+        return Colors.purple;
+      case 'green':
+        return Colors.green;
+      case 'orange':
+        return Colors.orange;
+      case 'teal':
+        return Colors.teal;
+      case 'blue':
+        return Colors.blue;
+      default:
+        return Colors.blue; // Default fallback
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final isSelected = false;
+
+    return GestureDetector(
+      onTapDown: (_) => _scaleController.forward(),
+      onTapUp: (_) => _scaleController.reverse(),
+      onTapCancel: () => _scaleController.reverse(),
+      onTap: () {
+        // TODO: Navigate to category results
+      },
+      child: ScaleTransition(
+        scale: _scaleAnimation,
+        child: Container(
+          width: 100,
+          padding: AppSpacing.paddingMD,
+          decoration: BoxDecoration(
+            color: theme.cardColor,
+            borderRadius: AppRadius.circularLg,
+            border: Border.all(
+              color:
+                  isSelected
+                      ? theme.colorScheme.primary
+                      : theme.dividerColor.withOpacity(0.5),
+              width: isSelected ? 2 : 1,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: theme.shadowColor.withOpacity(0.05),
+                blurRadius: 10,
+                offset: const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Icon Container
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color:
+                      widget.category.color != null
+                          ? _parseColor(widget.category.color!).withOpacity(0.1)
+                          : theme.colorScheme.primary.withOpacity(0.1),
+                  shape: BoxShape.circle,
+                ),
+                child: Icon(
+                  _getIconData(widget.category.icon),
+                  color:
+                      widget.category.color != null
+                          ? _parseColor(widget.category.color!)
+                          : theme.colorScheme.primary,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(height: 12),
+              // Category Name
+              Text(
+                widget.isRTL ? widget.category.nameAr : widget.category.name,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 13,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 4),
+              // Item Count
+              Text(
+                '${widget.category.drugCount} ${widget.isRTL ? 'دواء' : 'Drugs'}',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: theme.textTheme.bodySmall?.color,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

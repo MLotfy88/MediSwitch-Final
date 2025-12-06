@@ -9,7 +9,9 @@ import 'package:flutter/foundation.dart'; // for kDebugMode
 import 'log_notifier.dart'; // Import the new LogNotifier
 
 // --- FileOutput Class (Handles writing to the file sink) ---
+/// Output to file
 class FileOutput extends LogOutput {
+  /// Internal notifier
   final LogNotifier logNotifier; // Add LogNotifier instance
   final File file;
   final bool overrideExisting;
@@ -26,12 +28,12 @@ class FileOutput extends LogOutput {
 
   @override
   Future<void> init() async {
-    print("[FileOutput] Initializing sink for file: ${file.path}");
+    debugPrint('[FileOutput] Initializing sink for file: ${file.path}');
     try {
       // Ensure directory exists
       if (!await file.parent.exists()) {
-        print(
-          "[FileOutput] Log directory does not exist, creating: ${file.parent.path}",
+        debugPrint(
+          '[FileOutput] Log directory does not exist, creating: ${file.parent.path}',
         );
         await file.parent.create(recursive: true);
       }
@@ -45,8 +47,8 @@ class FileOutput extends LogOutput {
         "--- Log Initialized: ${DateTime.now()} ---",
       ); // Write initial marker
     } catch (e, s) {
-      print(
-        "[FileOutput] CRITICAL Error opening sink: $e\n$s",
+      debugPrint(
+        '[FileOutput] CRITICAL Error opening sink: $e\n$s',
       ); // Console print for error
       _sink = null;
       _initSucceeded = false;
@@ -71,7 +73,7 @@ class FileOutput extends LogOutput {
       }
     } catch (e) {
       // Log error related to file writing specifically
-      print("[FileOutput] Error writing to sink: $e");
+      debugPrint('[FileOutput] Error writing to sink: $e');
       // Maybe try to close and reopen sink? Or just stop logging.
       _initSucceeded = false;
     }
@@ -79,7 +81,7 @@ class FileOutput extends LogOutput {
 
   @override
   Future<void> destroy() async {
-    print("[FileOutput] Destroying sink...");
+    debugPrint('[FileOutput] Destroying sink...');
     if (!_initSucceeded || _sink == null) {
       print("[FileOutput] Sink already closed or failed to initialize.");
       return;
@@ -90,7 +92,7 @@ class FileOutput extends LogOutput {
       await _sink?.close();
       print("[FileOutput] Sink flushed and closed.");
     } catch (e) {
-      print("[FileOutput] Error closing sink: $e");
+      print('[FileOutput] Error closing sink: $e');
     }
     _sink = null;
     _initSucceeded = false;
@@ -99,7 +101,9 @@ class FileOutput extends LogOutput {
 
 // --- FileLoggerService Class (Manages the logger instance) ---
 class FileLoggerService {
+  /// Internal notifier for log updates
   final LogNotifier logNotifier = LogNotifier(); // Create LogNotifier instance
+  /// Logger instance
   late Logger logger;
   File? _logFile;
   bool _isInitialized = false;
@@ -109,6 +113,7 @@ class FileLoggerService {
   FileLoggerService._();
 
   // Singleton instance
+  // Singleton instance
   static final FileLoggerService _instance = FileLoggerService._();
 
   // Factory constructor to return the singleton instance
@@ -116,9 +121,10 @@ class FileLoggerService {
     return _instance;
   }
 
+  /// Initialize the logger service
   Future<void> initialize() async {
     if (_isInitialized) return;
-    print("[FileLoggerService] Initializing...");
+    debugPrint('[FileLoggerService] Initializing...');
 
     // Default to console logger initially
     logger = Logger(printer: SimplePrinter(printTime: true, colors: true));
@@ -139,8 +145,8 @@ class FileLoggerService {
         }
 
         if (status.isGranted) {
-          logNotifier.addLog("[INFO] Storage permission granted.");
-          print("[FileLoggerService] Storage permission granted.");
+          logNotifier.addLog('[INFO] Storage permission granted.');
+          debugPrint('[FileLoggerService] Storage permission granted.');
           Directory? externalDir = await getExternalStorageDirectory();
           if (externalDir != null) {
             directory = Directory(
@@ -163,8 +169,8 @@ class FileLoggerService {
             );
           }
         } else {
-          logNotifier.addLog("[WARN] Storage permission denied.");
-          print("[FileLoggerService] Storage permission denied.");
+          logNotifier.addLog('[WARN] Storage permission denied.');
+          debugPrint('[FileLoggerService] Storage permission denied.');
         }
       } else if (Platform.isIOS) {
         // On iOS, use Application Support Directory
@@ -193,20 +199,20 @@ class FileLoggerService {
         );
       }
     } catch (e, s) {
-      print(
-        "[FileLoggerService] CRITICAL Error determining log directory: $e\n$s",
+      debugPrint(
+        '[FileLoggerService] CRITICAL Error determining log directory: $e\n$s',
       );
-      logNotifier.addLog("[CRITICAL] Error determining log directory: $e");
+      logNotifier.addLog('[CRITICAL] Error determining log directory: $e');
       directory = null; // Ensure directory is null on error
     }
 
     // --- Check if a directory was obtained ---
     if (directory == null) {
-      print(
-        "[FileLoggerService] Could not obtain a valid directory for logging. Using console only.",
+      debugPrint(
+        '[FileLoggerService] Could not obtain a valid directory for logging. Using console only.',
       );
       final errorMsg =
-          "Could not obtain ANY valid directory for logging. Using console only.";
+          'Could not obtain ANY valid directory for logging. Using console only.';
       logger.e(errorMsg);
       logNotifier.addLog(
         "[CRITICAL] $errorMsg",
@@ -306,58 +312,70 @@ class FileLoggerService {
   // Methods to log messages
   // Ensure logger is initialized before calling methods
   // Also directly add to notifier for redundancy
+  /// Log verbose message
   void v(dynamic message) {
-    final String msg = "[V] $message";
+    final msg = '[V] $message';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.v(message);
-    else
-      print("[Log NOINIT] V: $message");
+    } else {
+      debugPrint('[Log NOINIT] V: $message');
+    }
   }
 
+  /// Log debug message
   void d(dynamic message) {
-    final String msg = "[D] $message";
+    final msg = '[D] $message';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.d(message);
-    else
-      print("[Log NOINIT] D: $message");
+    } else {
+      debugPrint('[Log NOINIT] D: $message');
+    }
   }
 
+  /// Log info message
   void i(dynamic message) {
-    final String msg = "[I] $message";
+    final msg = '[I] $message';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.i(message);
-    else
-      print("[Log NOINIT] I: $message");
+    } else {
+      debugPrint('[Log NOINIT] I: $message');
+    }
   }
 
+  /// Log warning message
   void w(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    final String msg = "[W] $message ${error ?? ''} ${stackTrace ?? ''}";
+    final msg = '[W] $message ${error ?? ''} ${stackTrace ?? ''}';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.w(message, error: error, stackTrace: stackTrace);
-    else
-      print("[Log NOINIT] W: $message");
+    } else {
+      debugPrint('[Log NOINIT] W: $message');
+    }
   }
 
+  /// Log error message
   void e(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    final String msg = "[E] $message ${error ?? ''} ${stackTrace ?? ''}";
+    final msg = '[E] $message ${error ?? ''} ${stackTrace ?? ''}';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.e(message, error: error, stackTrace: stackTrace);
-    else
-      print("[Log NOINIT] E: $message");
+    } else {
+      debugPrint('[Log NOINIT] E: $message');
+    }
   }
 
+  /// Log fatal message
   void f(dynamic message, [dynamic error, StackTrace? stackTrace]) {
-    final String msg = "[F] $message ${error ?? ''} ${stackTrace ?? ''}";
+    final msg = '[F] $message ${error ?? ''} ${stackTrace ?? ''}';
     logNotifier.addLog(msg); // Add directly to notifier
-    if (_isInitialized)
+    if (_isInitialized) {
       logger.f(message, error: error, stackTrace: stackTrace);
-    else
-      print("[Log NOINIT] F: $message");
+    } else {
+      debugPrint('[Log NOINIT] F: $message');
+    }
   }
 
   Future<void> close() async {

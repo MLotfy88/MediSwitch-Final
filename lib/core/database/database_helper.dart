@@ -5,6 +5,9 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path_provider/path_provider.dart';
 import '../../data/models/medicine_model.dart';
 
+import 'package:flutter/foundation.dart';
+
+/// Database helper class for managing SQLite database
 class DatabaseHelper {
   static final DatabaseHelper _instance = DatabaseHelper._internal();
   factory DatabaseHelper() => _instance;
@@ -43,10 +46,10 @@ class DatabaseHelper {
   }
 
   Future<Database> _initDatabase() async {
-    Directory documentsDirectory = await getApplicationDocumentsDirectory();
-    String path = join(documentsDirectory.path, dbName);
-    print('Database path: $path');
-    return await openDatabase(
+    final documentsDirectory = await getApplicationDocumentsDirectory();
+    final path = join(documentsDirectory.path, dbName);
+    debugPrint('Database path: $path');
+    return openDatabase(
       path,
       version: _dbVersion,
       onCreate: _onCreate,
@@ -55,8 +58,8 @@ class DatabaseHelper {
   }
 
   // Handle database upgrades
-  Future _onUpgrade(Database db, int oldVersion, int newVersion) async {
-    print('Upgrading database from version $oldVersion to $newVersion...');
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    debugPrint('Upgrading database from version $oldVersion to $newVersion...');
     if (oldVersion < 2) {
       // Version 2: Re-create table to fix date format in data
       await db.execute('DROP TABLE IF EXISTS $medicinesTable');
@@ -64,8 +67,8 @@ class DatabaseHelper {
     }
   }
 
-  Future _onCreate(Database db, int version) async {
-    print('Creating database tables and indices...');
+  Future<void> _onCreate(Database db, int version) async {
+    debugPrint('Creating database tables and indices...');
     await db.execute('''
           CREATE TABLE $medicinesTable (
             $colTradeName TEXT PRIMARY KEY,
@@ -86,7 +89,7 @@ class DatabaseHelper {
             $colImageUrl TEXT
           )
           ''');
-    print('Medicines table created');
+    debugPrint('Medicines table created');
 
     // Create indices
     await db.execute(
@@ -102,19 +105,20 @@ class DatabaseHelper {
     await db.execute('CREATE INDEX idx_price ON $medicinesTable ($colPrice)');
     // Add index for oldPrice if needed for querying/sorting later
     // await db.execute('CREATE INDEX idx_old_price ON $medicinesTable ($colOldPrice)');
-    print('Indices created');
+    debugPrint('Indices created');
 
-    print(
-      "Database tables and indices created. Seeding will be handled externally if needed.",
+    debugPrint(
+      'Database tables and indices created. Seeding will be handled externally if needed.',
     );
   }
 
   // --- Basic CRUD Operations ---
 
+  /// Insert or replace a batch of medicines
   Future<void> insertMedicinesBatch(List<MedicineModel> medicines) async {
     final db = await database;
-    Batch batch = db.batch();
-    for (var med in medicines) {
+    final batch = db.batch();
+    for (final med in medicines) {
       // Use the model's toMap which should now include oldPrice if the column exists
       final dbMap = med.toMap();
       // Ensure all keys in dbMap match columns in the table definition
@@ -148,19 +152,21 @@ class DatabaseHelper {
       );
     }
     await batch.commit(noResult: true);
-    print('Inserted/Replaced ${medicines.length} medicines in batch.');
+    debugPrint('Inserted/Replaced ${medicines.length} medicines in batch.');
   }
 
+  /// Clear all medicines
   Future<void> clearMedicines() async {
     final db = await database;
     await db.delete(medicinesTable);
-    print('Cleared medicines table.');
+    debugPrint('Cleared medicines table.');
   }
 
+  /// Get all medicines
   Future<List<MedicineModel>> getAllMedicines() async {
     final db = await database;
     // Ensure all columns including oldPrice are selected
-    final List<String> columnsToSelect = [
+    final columnsToSelect = [
       colTradeName,
       colArabicName,
       colPrice,

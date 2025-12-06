@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:lucide_icons/lucide_icons.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:intl/intl.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
-import '../../theme/app_colors.dart';
-import '../../bloc/settings_provider.dart';
-import '../../bloc/medicine_provider.dart';
-import '../debug/log_viewer_screen.dart';
-import '../../screens/subscription_screen.dart';
+import 'package:intl/intl.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/bloc/settings_provider.dart';
+import 'package:mediswitch/presentation/screens/debug/log_viewer_screen.dart';
+import 'package:mediswitch/presentation/screens/subscription_screen.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:mediswitch/core/constants/design_tokens.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class NewSettingsScreen extends StatelessWidget {
   const NewSettingsScreen({super.key});
@@ -19,6 +19,7 @@ class NewSettingsScreen extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
     final settingsProvider = context.watch<SettingsProvider>();
     final medicineProvider = context.watch<MedicineProvider>();
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
@@ -26,22 +27,22 @@ class NewSettingsScreen extends StatelessWidget {
         children: [
           // Header
           Container(
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  AppColors.primary,
-                  AppColors.primary,
-                  AppColors.primaryDark,
+                  colorScheme.primary,
+                  colorScheme.primary,
+                  Color.lerp(colorScheme.primary, Colors.black, 0.2)!,
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
             ),
             padding: EdgeInsets.only(
-              top: MediaQuery.of(context).padding.top + 16,
-              bottom: 24,
-              left: 16,
-              right: 16,
+              top: MediaQuery.of(context).padding.top + AppSpacing.lg,
+              bottom: AppSpacing.xl2,
+              left: AppSpacing.lg,
+              right: AppSpacing.lg,
             ),
             child: Row(
               children: [
@@ -49,10 +50,12 @@ class NewSettingsScreen extends StatelessWidget {
                   onPressed: () => Navigator.of(context).pop(),
                   icon: const Icon(LucideIcons.arrowLeft, color: Colors.white),
                   style: IconButton.styleFrom(
-                    backgroundColor: Colors.white.withOpacity(0.1),
+                    backgroundColor: colorScheme.onPrimary.withValues(
+                      alpha: 0.1,
+                    ),
                   ),
                 ),
-                const SizedBox(width: 16),
+                const SizedBox(width: AppSpacing.lg),
                 Text(
                   l10n.settingsTitle,
                   style: const TextStyle(
@@ -67,23 +70,23 @@ class NewSettingsScreen extends StatelessWidget {
 
           Expanded(
             child: ListView(
-              padding: const EdgeInsets.all(16),
+              padding: AppSpacing.paddingLG,
               children: [
                 // Profile Section
                 _buildProfileCard(context, l10n),
-                const SizedBox(height: 20),
+                const SizedBox(height: AppSpacing.xl),
 
                 // General
-                _buildSectionHeader(l10n.generalSectionTitle),
-                _buildSettingsCard([
+                _buildSectionHeader(context, l10n.generalSectionTitle),
+                _buildSettingsCard(context, [
                   _buildTile(
                     context,
                     icon: LucideIcons.globe,
                     title: l10n.languageSettingTitle,
                     subtitle:
                         settingsProvider.locale.languageCode == 'ar'
-                            ? "العربية"
-                            : "English",
+                            ? 'العربية'
+                            : 'English',
                     onTap:
                         () => _showLanguageDialog(
                           context,
@@ -91,7 +94,7 @@ class NewSettingsScreen extends StatelessWidget {
                           l10n,
                         ),
                   ),
-                  _buildDivider(),
+                  _buildDivider(context),
                   _buildTile(
                     context,
                     icon:
@@ -105,7 +108,7 @@ class NewSettingsScreen extends StatelessWidget {
                             : l10n.themeModeLight,
                     trailing: Switch(
                       value: settingsProvider.themeMode == ThemeMode.dark,
-                      activeColor: AppColors.primary,
+                      activeColor: colorScheme.primary,
                       onChanged:
                           (val) => settingsProvider.updateThemeMode(
                             val ? ThemeMode.dark : ThemeMode.light,
@@ -114,11 +117,11 @@ class NewSettingsScreen extends StatelessWidget {
                   ),
                 ]),
 
-                const SizedBox(height: 24),
+                const SizedBox(height: AppSpacing.xl2),
 
                 // Data
-                _buildSectionHeader(l10n.dataSectionTitle),
-                _buildSettingsCard([
+                _buildSectionHeader(context, l10n.dataSectionTitle),
+                _buildSettingsCard(context, [
                   _buildTile(
                     context,
                     icon: LucideIcons.refreshCw,
@@ -129,10 +132,10 @@ class NewSettingsScreen extends StatelessWidget {
                       l10n,
                     ),
                     trailing: IconButton(
-                      icon: const Icon(
+                      icon: Icon(
                         LucideIcons.refreshCw,
                         size: 20,
-                        color: AppColors.primary,
+                        color: colorScheme.primary,
                       ),
                       onPressed: () async {
                         ScaffoldMessenger.of(context).showSnackBar(
@@ -144,7 +147,7 @@ class NewSettingsScreen extends StatelessWidget {
                       },
                     ),
                   ),
-                  _buildDivider(),
+                  _buildDivider(context),
                   _buildTile(
                     context,
                     icon: LucideIcons.fileText,
@@ -152,18 +155,18 @@ class NewSettingsScreen extends StatelessWidget {
                     onTap:
                         () => Navigator.push(
                           context,
-                          MaterialPageRoute(
+                          MaterialPageRoute<void>(
                             builder: (_) => const LogViewerScreen(),
                           ),
                         ),
                   ),
                 ]),
 
-                const SizedBox(height: 24),
+                const SizedBox(height: AppSpacing.xl2),
 
                 // Subscription
-                _buildSectionHeader(l10n.subscriptionSectionTitle),
-                _buildSettingsCard([
+                _buildSectionHeader(context, l10n.subscriptionSectionTitle),
+                _buildSettingsCard(context, [
                   _buildTile(
                     context,
                     icon: LucideIcons.creditCard,
@@ -172,41 +175,41 @@ class NewSettingsScreen extends StatelessWidget {
                     onTap:
                         () => Navigator.push(
                           context,
-                          MaterialPageRoute(
+                          MaterialPageRoute<void>(
                             builder: (_) => const SubscriptionScreen(),
                           ),
                         ), // Needs redesign
                   ),
                 ]),
 
-                const SizedBox(height: 24),
+                const SizedBox(height: AppSpacing.xl2),
 
                 // About
-                _buildSectionHeader(l10n.aboutSectionTitle),
-                _buildSettingsCard([
+                _buildSectionHeader(context, l10n.aboutSectionTitle),
+                _buildSettingsCard(context, [
                   _buildTile(
                     context,
                     icon: LucideIcons.info,
                     title: l10n.aboutAppTitle,
                     onTap: () => launchUrl(Uri.parse('https://example.com')),
                   ),
-                  _buildDivider(),
+                  _buildDivider(context),
                   _buildTile(
                     context,
                     icon: LucideIcons.shieldCheck,
                     title: l10n.privacyPolicyTitle,
                     onTap: () => launchUrl(Uri.parse('https://example.com')),
                   ),
-                  _buildDivider(),
+                  _buildDivider(context),
                   _buildTile(
                     context,
                     icon: LucideIcons.tag,
                     title: l10n.appVersionTitle,
-                    subtitle: "1.0.0 (Build 12)",
+                    subtitle: '1.0.0 (Build 12)',
                   ),
                 ]),
 
-                const SizedBox(height: 32),
+                const SizedBox(height: AppSpacing.xl3),
 
                 // Logout
                 SizedBox(
@@ -214,13 +217,15 @@ class NewSettingsScreen extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.danger.withOpacity(0.1),
-                      foregroundColor: AppColors.danger,
+                      backgroundColor: colorScheme.error.withValues(alpha: 0.1),
+                      foregroundColor: colorScheme.error,
                       elevation: 0,
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
+                        borderRadius: AppRadius.circularLg,
                       ),
-                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      padding: const EdgeInsets.symmetric(
+                        vertical: AppSpacing.lg,
+                      ),
                     ),
                     child: Text(
                       l10n.logoutButton,
@@ -231,7 +236,7 @@ class NewSettingsScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 32),
+                const SizedBox(height: AppSpacing.xl3),
               ],
             ),
           ),
@@ -240,13 +245,17 @@ class NewSettingsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSectionHeader(String title) {
+  Widget _buildSectionHeader(BuildContext context, String title) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 12, left: 4, right: 4),
+      padding: const EdgeInsets.only(
+        bottom: AppSpacing.md,
+        left: AppSpacing.xs,
+        right: AppSpacing.xs,
+      ),
       child: Text(
         title,
-        style: const TextStyle(
-          color: AppColors.primary,
+        style: TextStyle(
+          color: Theme.of(context).colorScheme.primary,
           fontWeight: FontWeight.bold,
           fontSize: 14,
         ),
@@ -254,13 +263,20 @@ class NewSettingsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSettingsCard(List<Widget> children) {
+  Widget _buildSettingsCard(BuildContext context, List<Widget> children) {
+    final colorScheme = Theme.of(context).colorScheme;
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: AppColors.shadowCard,
-        border: Border.all(color: AppColors.border),
+        color: colorScheme.surface,
+        borderRadius: AppRadius.circularXl2,
+        boxShadow: [
+          BoxShadow(
+            color: Theme.of(context).shadowColor.withValues(alpha: 0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+        border: Border.all(color: colorScheme.outline.withValues(alpha: 0.5)),
       ),
       child: Column(children: children),
     );
@@ -274,41 +290,42 @@ class NewSettingsScreen extends StatelessWidget {
     Widget? trailing,
     VoidCallback? onTap,
   }) {
+    final colorScheme = Theme.of(context).colorScheme;
     return Material(
       color: Colors.transparent,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: AppRadius.circularXl2,
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: AppSpacing.paddingLG,
           child: Row(
             children: [
               Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(10),
+                  color: colorScheme.primary.withValues(alpha: 0.1),
+                  borderRadius: AppRadius.circularSm,
                 ),
-                child: Icon(icon, color: AppColors.primary, size: 20),
+                child: Icon(icon, color: colorScheme.primary, size: 20),
               ),
-              const SizedBox(width: 16),
+              const SizedBox(width: AppSpacing.lg),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       title,
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontWeight: FontWeight.w600,
-                        color: AppColors.foreground,
+                        color: colorScheme.onSurface,
                       ),
                     ),
                     if (subtitle != null) ...[
-                      const SizedBox(height: 4),
+                      const SizedBox(height: AppSpacing.xs),
                       Text(
                         subtitle,
-                        style: const TextStyle(
-                          color: AppColors.mutedForeground,
+                        style: TextStyle(
+                          color: Theme.of(context).appColors.mutedForeground,
                           fontSize: 13,
                         ),
                       ),
@@ -319,10 +336,10 @@ class NewSettingsScreen extends StatelessWidget {
               if (trailing != null)
                 trailing
               else if (onTap != null)
-                const Icon(
+                Icon(
                   LucideIcons.chevronRight,
                   size: 18,
-                  color: AppColors.mutedForeground,
+                  color: Theme.of(context).appColors.mutedForeground,
                 ),
             ],
           ),
@@ -331,39 +348,47 @@ class NewSettingsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDivider() {
-    return const Divider(
+  Widget _buildDivider(BuildContext context) {
+    return Divider(
       height: 1,
       thickness: 1,
       indent: 60,
-      color: AppColors.border,
+      color: Theme.of(context).colorScheme.outline.withValues(alpha: 0.5),
     );
   }
 
   Widget _buildProfileCard(BuildContext context, AppLocalizations l10n) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: AppSpacing.paddingLG,
       decoration: BoxDecoration(
-        color: AppColors.card,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: AppColors.shadowCard,
-        border: Border.all(color: AppColors.border),
+        color: Theme.of(context).colorScheme.surface,
+        borderRadius: AppRadius.circularXl2,
+        boxShadow: [
+          BoxShadow(
+            color: Theme.of(context).shadowColor.withValues(alpha: 0.1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+        border: Border.all(
+          color: Theme.of(context).colorScheme.outline.withValues(alpha: 0.5),
+        ),
       ),
       child: Row(
         children: [
           CircleAvatar(
             radius: 28,
-            backgroundColor: AppColors.secondary,
+            backgroundColor: Theme.of(context).colorScheme.secondary,
             child: Text(
               l10n.profileInitialPlaceholder,
-              style: const TextStyle(
-                color: AppColors.primary,
+              style: TextStyle(
+                color: Theme.of(context).colorScheme.primary,
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
               ),
             ),
           ),
-          const SizedBox(width: 16),
+          const SizedBox(width: AppSpacing.lg),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -377,8 +402,8 @@ class NewSettingsScreen extends StatelessWidget {
                 ),
                 Text(
                   l10n.profileEmailPlaceholder,
-                  style: const TextStyle(
-                    color: AppColors.mutedForeground,
+                  style: TextStyle(
+                    color: Theme.of(context).appColors.mutedForeground,
                     fontSize: 14,
                   ),
                 ),
@@ -387,10 +412,10 @@ class NewSettingsScreen extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {},
-            icon: const Icon(
+            icon: Icon(
               LucideIcons.edit3,
               size: 18,
-              color: AppColors.primary,
+              color: Theme.of(context).colorScheme.primary,
             ),
           ),
         ],
@@ -403,9 +428,9 @@ class NewSettingsScreen extends StatelessWidget {
     SettingsProvider provider,
     AppLocalizations l10n,
   ) {
-    showModalBottomSheet(
+    showModalBottomSheet<void>(
       context: context,
-      backgroundColor: AppColors.surface,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
@@ -451,9 +476,16 @@ class NewSettingsScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           color:
-              isSelected ? AppColors.primary.withOpacity(0.1) : AppColors.card,
+              isSelected
+                  ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.1)
+                  : Theme.of(context).colorScheme.surface,
           border: Border.all(
-            color: isSelected ? AppColors.primary : AppColors.border,
+            color:
+                isSelected
+                    ? Theme.of(context).colorScheme.primary
+                    : Theme.of(
+                      context,
+                    ).colorScheme.outline.withValues(alpha: 0.5),
           ),
           borderRadius: BorderRadius.circular(12),
         ),
@@ -464,11 +496,17 @@ class NewSettingsScreen extends StatelessWidget {
               label,
               style: TextStyle(
                 fontWeight: FontWeight.w600,
-                color: isSelected ? AppColors.primary : AppColors.foreground,
+                color:
+                    isSelected
+                        ? Theme.of(context).colorScheme.primary
+                        : Theme.of(context).colorScheme.onSurface,
               ),
             ),
             if (isSelected)
-              const Icon(LucideIcons.check, color: AppColors.primary),
+              Icon(
+                LucideIcons.check,
+                color: Theme.of(context).colorScheme.primary,
+              ),
           ],
         ),
       ),

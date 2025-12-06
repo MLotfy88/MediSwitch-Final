@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
 
+/// Card component for displaying alternative drug information
 class AlternativeDrugCard extends StatelessWidget {
   final DrugEntity drug;
   final VoidCallback? onTap; // Optional callback for when the card is tapped
