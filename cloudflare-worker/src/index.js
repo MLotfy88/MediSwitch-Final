@@ -1,481 +1,455 @@
 /**
- * MediSwitch Cloudflare Worker API
- * Serverless backend for drug database sync
+ * MediSwitch Cloudflare Worker API v2.0
+ * With Authentication & Subscriptions
  */
 
 // CORS headers
 const CORS_HEADERS = {
-	'Access-Control-Allow-Origin': '*',
-	'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-	'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 };
 
-/**
- * Main request handler
- */
+// Utilities are imported from utils.js via concatenation
+
+// Main request handler function
+async function handleRequest(request, env) {
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { headers: CORS_HEADERS });
+  }
+
+  const url = new URL(request.url);
+  const path = url.pathname;
+
+  try {
+    // Health check
+    if (path === '/api/health') {
+      return jsonResponse({ status: 'healthy', version: '2.0' });
+    }
+
+    // Stats
+    if (path === '/api/stats' && request.method === 'GET') {
+      const drugs = await env.DB.prepare('SELECT COUNT(*) as count FROM drugs').first();
+      const companies = await env.DB.prepare('SELECT COUNT(DISTINCT company) as count FROM drugs').first();
+      const recent = await env.DB.prepare('SELECT COUNT(*) as count FROM drugs WHERE DATE(updated_at) >= DATE("now", "-7 days")').first();
+
+      let users = 0, subs = 0;
+      try {
+        const u = await env.DB.prepare('SELECT COUNT(*) as count FROM users').first();
+        users = u?.count || 0;
+        const s = await env.DB.prepare('SELECT COUNT(*) as count FROM user_subscriptions WHERE status = "active"').first();
+        subs = s?.count || 0;
+      } catch (e) { }
+
+      return jsonResponse({
+        total_drugs: drugs.count,
+        total_companies: companies.count,
+        recent_updates_7d: recent.count,
+        total_users: users,
+        active_subscriptions: subs
+      });
+    }
+
+    // Get subscription plans
+    if (path === '/api/plans' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM subscription_plans WHERE is_active = 1 ORDER BY sort_order').all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ data: [] });
+      }
+    }
+
+    // Drugs - listing with enhanced features
+    if (path === '/api/drugs' && request.method === 'GET') {
+      const page = parseInt(url.searchParams.get('page') || '1');
+      const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
+      const search = url.searchParams.get('search') || '';
+      const category = url.searchParams.get('category') || '';
+      const sortBy = url.searchParams.get('sortBy') || 'updated_at';
+      const sortOrder = url.searchParams.get('sortOrder') || 'DESC';
+      const offset = (page - 1) * limit;
+
+      let query = 'SELECT * FROM drugs WHERE 1=1';
+      const params = [];
+
+      if (search) {
+        query += ' AND (trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ?)';
+        const pattern = `%${search}%`;
+        params.push(pattern, pattern, pattern);
+      }
+
+      if (category) {
+        query += ' AND category = ?';
+        params.push(category);
+      }
+
+      const validSorts = ['trade_name', 'price', 'updated_at', 'category', 'company'];
+      const sort = validSorts.includes(sortBy) ? sortBy : 'updated_at';
+      const order = sortOrder.toUpperCase() === 'ASC' ? 'ASC' : 'DESC';
+
+      query += ` ORDER BY ${sort} ${order} LIMIT ? OFFSET ?`;
+      params.push(limit, offset);
+
+      const { results } = await env.DB.prepare(query).bind(...params).all();
+
+      let countQuery = 'SELECT COUNT(*) as total FROM drugs WHERE 1=1';
+      const countParams = [];
+      if (search) {
+        countQuery += ' AND (trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ?)';
+        const pattern = `%${search}%`;
+        countParams.push(pattern, pattern, pattern);
+      }
+      if (category) {
+        countQuery += ' AND category = ?';
+        countParams.push(category);
+      }
+
+      const { total } = await env.DB.prepare(countQuery).bind(...countParams).first();
+
+      return jsonResponse({
+        data: results,
+        pagination: {
+          page,
+          limit,
+          total,
+          totalPages: Math.ceil(total / limit),
+          hasMore: (page * limit) < total
+        }
+      });
+    }
+
+    // Get single drug
+    if (path.match(/^\/api\/drugs\/[^/]+$/) && request.method === 'GET') {
+      const id = path.split('/').pop();
+      const drug = await env.DB.prepare('SELECT * FROM drugs WHERE id = ?').bind(id).first();
+      if (!drug) return jsonResponse({ error: 'Not found' }, 404);
+      return jsonResponse({ data: drug });
+    }
+
+    // Register
+    if (path === '/api/auth/register' && request.method === 'POST') {
+      const { email, password, name } = await request.json();
+      if (!email || !password) return jsonResponse({ error: 'Email and password required' }, 400);
+
+      const exists = await env.DB.prepare('SELECT id FROM users WHERE email = ?').bind(email).first();
+      if (exists) return jsonResponse({ error: 'Email already registered' }, 409);
+
+      const userId = generateId();
+      const hash = await hashPassword(password);
+      const now = Math.floor(Date.now() / 1000);
+
+      await env.DB.prepare('INSERT INTO users (id, email, password_hash, name, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)')
+        .bind(userId, email, hash, name || null, now, now).run();
+
+      const subId = generateId();
+      const expires = now + (100 * 365 * 24 * 60 * 60);
+      await env.DB.prepare('INSERT INTO user_subscriptions (id, user_id, plan_id, status, started_at, expires_at, created_at, updated_at) VALUES (?, ?, "free", "active", ?, ?, ?, ?)')
+        .bind(subId, userId, now, expires, now, now).run();
+
+      return jsonResponse({ message: 'Registration successful', data: { userId, email, name } }, 201);
+    }
+
+    // Login
+    if (path === '/api/auth/login' && request.method === 'POST') {
+      const { email, password } = await request.json();
+      const user = await env.DB.prepare('SELECT * FROM users WHERE email = ? AND status = "active"').bind(email).first();
+      if (!user) return jsonResponse({ error: 'Invalid credentials' }, 401);
+
+      const valid = await verifyPassword(password, user.password_hash);
+      if (!valid) return jsonResponse({ error: 'Invalid credentials' }, 401);
+
+      return jsonResponse({ message: 'Login successful', data: { userId: user.id, email: user.email, name: user.name } });
+    }
+
+    // Admin: Get all users
+    if (path === '/api/admin/users' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare(`
+          SELECT u.id, u.email, u.name, u.phone, u.status, u.created_at, u.last_login,
+                 s.plan_id, s.status as subscription_status, s.expires_at
+          FROM users u
+          LEFT JOIN user_subscriptions s ON u.id = s.user_id AND s.status = 'active'
+          ORDER BY u.created_at DESC
+        `).all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Get all subscriptions
+    if (path === '/api/admin/subscriptions' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare(`
+          SELECT s.*, u.email, u.name, p.name_en, p.price
+          FROM user_subscriptions s
+          JOIN users u ON s.user_id = u.id
+          JOIN subscription_plans p ON s.plan_id = p.id
+          ORDER BY s.created_at DESC
+        `).all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Drug Management (CRUD)
+
+    // Admin: Get all drugs (with pagination/search for admin)
+    if (path === '/api/admin/drugs' && request.method === 'GET') {
+      try {
+        const page = parseInt(url.searchParams.get('page') || '1');
+        const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
+        const search = url.searchParams.get('search') || '';
+        const sortBy = url.searchParams.get('sortBy') || 'updated_at';
+        const sortOrder = url.searchParams.get('sortOrder') || 'DESC';
+        const offset = (page - 1) * limit;
+
+        let query = 'SELECT * FROM drugs WHERE 1=1';
+        const params = [];
+
+        if (search) {
+          query += ' AND (trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ? OR company LIKE ? OR category LIKE ?)';
+          const pattern = `%${search}%`;
+          params.push(pattern, pattern, pattern, pattern, pattern);
+        }
+
+        const validSorts = ['id', 'trade_name', 'arabic_name', 'active', 'company', 'category', 'price', 'created_at', 'updated_at'];
+        const sort = validSorts.includes(sortBy) ? sortBy : 'updated_at';
+        const order = sortOrder.toUpperCase() === 'ASC' ? 'ASC' : 'DESC';
+
+        query += ` ORDER BY ${sort} ${order} LIMIT ? OFFSET ?`;
+        params.push(limit, offset);
+
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+
+        let countQuery = 'SELECT COUNT(*) as total FROM drugs WHERE 1=1';
+        const countParams = [];
+        if (search) {
+          countQuery += ' AND (trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ? OR company LIKE ? OR category LIKE ?)';
+          const pattern = `%${search}%`;
+          countParams.push(pattern, pattern, pattern, pattern, pattern);
+        }
+
+        const { total } = await env.DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+          data: results,
+          pagination: {
+            page,
+            limit,
+            total,
+            totalPages: Math.ceil(total / limit),
+            hasMore: (page * limit) < total
+          }
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Get single drug by ID
+    if (path.match(/^\/api\/admin\/drugs\/[^/]+$/) && request.method === 'GET') {
+      try {
+        const id = path.split('/').pop();
+        const drug = await env.DB.prepare('SELECT * FROM drugs WHERE id = ?').bind(id).first();
+        if (!drug) return jsonResponse({ error: 'Drug not found' }, 404);
+        return jsonResponse({ data: drug });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Create new drug
+    if (path === '/api/admin/drugs' && request.method === 'POST') {
+      try {
+        const { trade_name, arabic_name, active, company, category, price, description, image_url } = await request.json();
+        if (!trade_name || !active || !company || !category || !price) {
+          return jsonResponse({ error: 'Missing required fields: trade_name, active, company, category, price' }, 400);
+        }
+
+        const drugId = generateId();
+        const now = Math.floor(Date.now() / 1000);
+
+        await env.DB.prepare(`
+          INSERT INTO drugs (id, trade_name, arabic_name, active, company, category, price, description, image_url, created_at, updated_at)
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `).bind(drugId, trade_name, arabic_name || null, active, company, category, price, description || null, image_url || null, now, now).run();
+
+        return jsonResponse({ message: 'Drug created successfully', data: { id: drugId, trade_name } }, 201);
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Update existing drug
+    if (path.match(/^\/api\/admin\/drugs\/[^/]+$/) && request.method === 'PUT') {
+      try {
+        const id = path.split('/').pop();
+        const updates = await request.json();
+        const now = Math.floor(Date.now() / 1000);
+
+        const fields = [];
+        const params = [];
+
+        for (const key in updates) {
+          if (['trade_name', 'arabic_name', 'active', 'company', 'category', 'price', 'description', 'image_url'].includes(key)) {
+            fields.push(`${key} = ?`);
+            params.push(updates[key]);
+          }
+        }
+
+        if (fields.length === 0) {
+          return jsonResponse({ error: 'No valid fields provided for update' }, 400);
+        }
+
+        fields.push('updated_at = ?');
+        params.push(now, id); // Add updated_at and id for WHERE clause
+
+        const stmt = await env.DB.prepare(`UPDATE drugs SET ${fields.join(', ')} WHERE id = ?`).bind(...params);
+        const { changes } = await stmt.run();
+
+        if (changes === 0) {
+          return jsonResponse({ error: 'Drug not found or no changes made' }, 404);
+        }
+
+        return jsonResponse({ message: 'Drug updated successfully', data: { id } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Delete drug
+    if (path.match(/^\/api\/admin\/drugs\/[^/]+$/) && request.method === 'DELETE') {
+      try {
+        const id = path.split('/').pop();
+        const { changes } = await env.DB.prepare('DELETE FROM drugs WHERE id = ?').bind(id).run();
+
+        if (changes === 0) {
+          return jsonResponse({ error: 'Drug not found' }, 404);
+        }
+
+        return jsonResponse({ message: 'Drug deleted successfully', data: { id } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Notifications Management
+    if (path === '/api/admin/notifications' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM notifications ORDER BY created_at DESC LIMIT 50').all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    if (path === '/api/admin/notifications' && request.method === 'POST') {
+      try {
+        const { title, message, type, user_id } = await request.json();
+        if (!title || !message) return jsonResponse({ error: 'Title and message required' }, 400);
+
+        const id = generateId();
+        const now = Math.floor(Date.now() / 1000);
+
+        await env.DB.prepare('INSERT INTO notifications (id, user_id, title_en, title_ar, message_en, message_ar, type, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+          .bind(id, user_id || null, title, title, message, message, type || 'system', now).run();
+
+        return jsonResponse({ message: 'Notification sent', data: { id } }, 201);
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Interactions Management
+    if (path === '/api/admin/interactions' && request.method === 'POST') {
+      try {
+        const { drug1_id, drug2_id, severity, description } = await request.json();
+        const id = generateId();
+        const now = Math.floor(Date.now() / 1000);
+
+        await env.DB.prepare('INSERT INTO drug_interactions (id, drug1_id, drug2_id, severity, description_en, created_at) VALUES (?, ?, ?, ?, ?, ?)')
+          .bind(id, drug1_id, drug2_id, severity, description, now).run();
+
+        return jsonResponse({ message: 'Interaction created', data: { id } }, 201);
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    if (path.match(/^\/api\/admin\/interactions\/[^/]+$/) && request.method === 'DELETE') {
+      try {
+        const id = path.split('/').pop();
+        await env.DB.prepare('DELETE FROM drug_interactions WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'Interaction deleted', data: { id } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Analytics: Missed Searches
+    if (path === '/api/searches/missed' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM missed_searches ORDER BY count DESC LIMIT 50').all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        // Table might not exist yet if schema_config wasn't applied or failed
+        return jsonResponse({ data: [] });
+      }
+      // Analytics: Daily Stats
+      if (path === '/api/analytics/daily' && request.method === 'GET') {
+        try {
+          const { results } = await env.DB.prepare('SELECT * FROM analytics_daily ORDER BY date DESC LIMIT 30').all();
+          return jsonResponse({ data: (results || []).reverse() });
+        } catch (e) {
+          return jsonResponse({ data: [] });
+        }
+      }
+
+      if (path === '/api/config' && request.method === 'GET') {
+        try {
+          const { results } = await env.DB.prepare('SELECT * FROM app_config').all();
+          const config = {};
+          if (results) results.forEach(r => config[r.key] = r.value);
+          return jsonResponse(config);
+        } catch (e) {
+          return jsonResponse({});
+        }
+      }
+
+      if (path === '/api/interactions' && request.method === 'GET') {
+        const page = parseInt(url.searchParams.get('page') || '1');
+        const limit = parseInt(url.searchParams.get('limit') || '100');
+        const offset = (page - 1) * limit;
+
+        try {
+          const { results } = await env.DB.prepare('SELECT * FROM drug_interactions ORDER BY created_at DESC LIMIT ? OFFSET ?')
+            .bind(limit, offset).all();
+          const { count } = await env.DB.prepare('SELECT COUNT(*) as count FROM drug_interactions').first();
+
+          return jsonResponse({
+            data: results || [],
+            pagination: { page, limit, total: count, pages: Math.ceil(count / limit) }
+          });
+        } catch (e) {
+          return jsonResponse({ data: [], pagination: { page: 1, limit, total: 0, pages: 0 } });
+        }
+      }
+
+      // 404
+      return jsonResponse({ error: 'Not found' }, 404);
+
+    } catch (error) {
+      console.error('Error:', error);
+      return jsonResponse({ error: error.message }, 500);
+    }
+  }
+
+// Event listener (Service Worker format)
 export default {
-	async fetch(request, env, ctx) {
-		// Handle CORS preflight
-		if (request.method === 'OPTIONS') {
-			return new Response(null, { headers: CORS_HEADERS });
-		}
-
-		const url = new URL(request.url);
-		const path = url.pathname;
-
-		try {
-			// Route handling
-			if (path === '/api/drugs' && request.method === 'GET') {
-				return handleGetDrugs(request, env);
-			}
-
-			if (path.startsWith('/api/drugs/') && request.method === 'GET') {
-				return handleGetDrug(request, env);
-			}
-
-			if (path === '/api/sync' && request.method === 'GET') {
-				return handleSync(request, env);
-			}
-
-			if (path === '/api/update' && request.method === 'POST') {
-				return handleUpdate(request, env);
-			}
-
-			if (path === '/api/stats' && request.method === 'GET') {
-				return handleStats(request, env);
-			}
-
-			// Config Routes
-			if (path === '/api/config' && request.method === 'GET') {
-				return handleGetConfig(request, env);
-			}
-
-			if (path === '/api/config' && request.method === 'POST') {
-				return handleUpdateConfig(request, env);
-			}
-
-			// Analytics Routes
-			if (path === '/api/searches/missed' && request.method === 'GET') {
-				return handleGetMissedSearches(request, env);
-			}
-
-			if (path === '/api/searches/missed' && request.method === 'POST') {
-				return handleLogMissedSearch(request, env);
-			}
-
-			// Interactions Routes
-			if (path === '/api/interactions' && request.method === 'GET') {
-				return handleGetInteractions(request, env);
-			}
-
-			if (path === '/api/interactions/sync' && request.method === 'GET') {
-				return handleSyncInteractions(request, env);
-			}
-
-			// 404
-			return jsonResponse({ error: 'Not found' }, 404);
-		} catch (error) {
-			console.error('Error:', error);
-			return jsonResponse({ error: error.message }, 500);
-		}
-	},
-};
-
-/**
- * GET /api/drugs
- * List all drugs with pagination
- */
-async function handleGetDrugs(request, env) {
-	const url = new URL(request.url);
-	const page = parseInt(url.searchParams.get('page') || '1');
-	const limit = parseInt(url.searchParams.get('limit') || '100');
-	const search = url.searchParams.get('search') || '';
-	const offset = (page - 1) * limit;
-
-	if (search) {
-		const searchPattern = `%${search}%`;
-		const { results } = await env.DB.prepare(
-			`SELECT * FROM drugs 
-			 WHERE trade_name LIKE ? OR arabic_name LIKE ? 
-			 ORDER BY updated_at DESC LIMIT ? OFFSET ?`
-		).bind(searchPattern, searchPattern, limit, offset).all();
-
-		const { count } = await env.DB.prepare(
-			`SELECT COUNT(*) as count FROM drugs 
-			 WHERE trade_name LIKE ? OR arabic_name LIKE ?`
-		).bind(searchPattern, searchPattern).first();
-
-		return jsonResponse({
-			data: results,
-			pagination: {
-				page,
-				limit,
-				total: count,
-				pages: Math.ceil(count / limit),
-			},
-		});
-	}
-
-	const { results } = await env.DB.prepare(
-		'SELECT * FROM drugs ORDER BY updated_at DESC LIMIT ? OFFSET ?'
-	).bind(limit, offset).all();
-
-	const { count } = await env.DB.prepare(
-		'SELECT COUNT(*) as count FROM drugs'
-	).first();
-
-	return jsonResponse({
-		data: results,
-		pagination: {
-			page,
-			limit,
-			total: count,
-			pages: Math.ceil(count / limit),
-		},
-	});
-}
-
-/**
- * GET /api/drugs/:id
- * Get single drug by ID
- */
-async function handleGetDrug(request, env) {
-	const url = new URL(request.url);
-	const id = url.pathname.split('/').pop();
-
-	const drug = await env.DB.prepare(
-		'SELECT * FROM drugs WHERE id = ?'
-	).bind(id).first();
-
-	if (!drug) {
-		return jsonResponse({ error: 'Drug not found' }, 404);
-	}
-
-	return jsonResponse({ data: drug });
-}
-
-/**
- * GET /api/sync?since=2025-12-01
- * Get drugs updated since a specific date (incremental sync)
- */
-async function handleSync(request, env) {
-	const url = new URL(request.url);
-	const since = url.searchParams.get('since');
-
-	if (!since) {
-		return jsonResponse({ error: 'Missing "since" parameter (format: YYYY-MM-DD or dd/mm/yyyy)' }, 400);
-	}
-
-	// Convert dd/mm/yyyy to YYYY-MM-DD for comparison
-	const dateStr = convertDateFormat(since);
-
-	const { results } = await env.DB.prepare(
-		`SELECT * FROM drugs 
-		 WHERE DATE(updated_at) >= DATE(?) 
-		 ORDER BY updated_at DESC`
-	).bind(dateStr).all();
-
-	/**
-	 * GET /api/interactions/sync?since=2025-12-01
-	 * Get interactions created/updated since a specific date
-	 */
-	async function handleSyncInteractions(request, env) {
-		const url = new URL(request.url);
-		const since = url.searchParams.get('since');
-
-		if (!since) {
-			return jsonResponse({ error: 'Missing "since" parameter' }, 400);
-		}
-
-		// Support both YYYY-MM-DD and full timestamp
-		const dateStr = convertDateFormat(since);
-
-		const { results } = await env.DB.prepare(
-			`SELECT * FROM drug_interactions 
-		 WHERE DATE(created_at) >= DATE(?) 
-		 ORDER BY created_at DESC`
-		).bind(dateStr).all();
-
-		return jsonResponse({
-			data: results,
-			count: results.length,
-			since: since,
-		});
-	}
-
-	/**
-	 * POST /api/update
-	 * Update database with new data (from GitHub Action)
-	 */
-	async function handleUpdate(request, env) {
-		// Verify API key
-		const apiKey = request.headers.get('Authorization')?.replace('Bearer ', '');
-		if (!apiKey || apiKey !== env.API_KEY) {
-			return jsonResponse({ error: 'Unauthorized' }, 401);
-		}
-
-		const data = await request.json();
-
-		if (!Array.isArray(data)) {
-			return jsonResponse({ error: 'Data must be an array' }, 400);
-		}
-
-		let inserted = 0;
-		let updated = 0;
-
-		// Batch insert/update
-		const batch = [];
-		for (const drug of data) {
-			batch.push(
-				env.DB.prepare(
-					`INSERT INTO drugs (
-					id, trade_name, arabic_name, old_price, price, active,
-					main_category, main_category_ar, category, category_ar,
-					company, dosage_form, dosage_form_ar, unit, usage, usage_ar,
-					description, last_price_update, concentration, visits,
-					updated_at
-				) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
-				ON CONFLICT(id) DO UPDATE SET
-					trade_name = excluded.trade_name,
-					arabic_name = excluded.arabic_name,
-					old_price = excluded.old_price,
-					price = excluded.price,
-					active = excluded.active,
-					main_category = excluded.main_category,
-					main_category_ar = excluded.main_category_ar,
-					category = excluded.category,
-					category_ar = excluded.category_ar,
-					company = excluded.company,
-					dosage_form = excluded.dosage_form,
-					dosage_form_ar = excluded.dosage_form_ar,
-					unit = excluded.unit,
-					usage = excluded.usage,
-					usage_ar = excluded.usage_ar,
-					description = excluded.description,
-					last_price_update = excluded.last_price_update,
-					concentration = excluded.concentration,
-					visits = excluded.visits,
-					updated_at = CURRENT_TIMESTAMP
-			`).bind(
-						drug.id || null,
-						drug.trade_name,
-						drug.arabic_name || '',
-						drug.old_price || 0,
-						drug.price || 0,
-						drug.active || '',
-						drug.main_category || '',
-						drug.main_category_ar || '',
-						drug.category || '',
-						drug.category_ar || '',
-						drug.company || '',
-						drug.dosage_form || '',
-						drug.dosage_form_ar || '',
-						drug.unit || '1',
-						drug.usage || '',
-						drug.usage_ar || '',
-						drug.description || '',
-						drug.last_price_update || '',
-						drug.concentration || '',
-						drug.visits || 0
-					)
-			);
-
-			// Execute in batches of 100
-			if (batch.length >= 100) {
-				await env.DB.batch(batch);
-				updated += batch.length;
-				batch.length = 0;
-			}
-		}
-
-		// Execute remaining
-		if (batch.length > 0) {
-			await env.DB.batch(batch);
-			updated += batch.length;
-		}
-
-		return jsonResponse({
-			success: true,
-			updated: data.length,
-			message: `Successfully updated ${data.length} drugs`,
-		});
-	}
-
-	/**
-	 * GET /api/stats
-	 * Get database statistics
-	 */
-	async function handleStats(request, env) {
-		const totalDrugs = await env.DB.prepare('SELECT COUNT(*) as count FROM drugs').first();
-		const totalCompanies = await env.DB.prepare('SELECT COUNT(DISTINCT company) as count FROM drugs').first();
-		const recentUpdates = await env.DB.prepare(
-			'SELECT COUNT(*) as count FROM drugs WHERE DATE(updated_at) >= DATE("now", "-7 days")'
-		).first();
-
-		return jsonResponse({
-			total_drugs: totalDrugs.count,
-			total_companies: totalCompanies.count,
-			recent_updates_7d: recentUpdates.count,
-		});
-	}
-
-	/**
-	 * Helper: JSON response with CORS
-	 */
-	function jsonResponse(data, status = 200) {
-		return new Response(JSON.stringify(data), {
-			status,
-			headers: {
-				'Content-Type': 'application/json',
-				...CORS_HEADERS,
-			},
-		});
-	}
-
-	/**
-	 * Helper: Convert date from dd/mm/yyyy to YYYY-MM-DD
-	 */
-	function convertDateFormat(dateStr) {
-		// If already in YYYY-MM-DD format
-		if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-			return dateStr;
-		}
-
-		// Convert dd/mm/yyyy to YYYY-MM-DD
-		const parts = dateStr.split('/');
-		if (parts.length === 3) {
-			return `${parts[2]}-${parts[1]}-${parts[0]}`;
-		}
-
-		return dateStr;
-	}
-
-	/**
-	 * GET /api/interactions
-	 * List all interactions with pagination
-	 */
-	async function handleGetInteractions(request, env) {
-		const url = new URL(request.url);
-		const page = parseInt(url.searchParams.get('page') || '1');
-		const limit = parseInt(url.searchParams.get('limit') || '100');
-		const offset = (page - 1) * limit;
-
-		const { results } = await env.DB.prepare(
-			'SELECT * FROM drug_interactions ORDER BY created_at DESC LIMIT ? OFFSET ?'
-		).bind(limit, offset).all();
-
-		const { count } = await env.DB.prepare(
-			'SELECT COUNT(*) as count FROM drug_interactions'
-		).first();
-
-		return jsonResponse({
-			data: results,
-			pagination: {
-				page,
-				limit,
-				total: count,
-				pages: Math.ceil(count / limit),
-			},
-		});
-	}
-
-	return jsonResponse({
-		data: results,
-		count: results.length,
-		since: since,
-	});
-}
-
-/**
- * GET /api/config
- * Get all app configuration
- */
-async function handleGetConfig(request, env) {
-	try {
-		const { results } = await env.DB.prepare('SELECT * FROM app_config').all();
-
-		// Convert to key-value object
-		const config = {};
-		if (results) {
-			results.forEach(row => {
-				config[row.key] = row.value;
-			});
-		}
-
-		return jsonResponse(config);
-	} catch (e) {
-		// Table might not exist yet
-		return jsonResponse({ error: 'Config not available', details: e.message }, 500);
-	}
-}
-
-/**
- * POST /api/config
- * Update app configuration
- */
-async function handleUpdateConfig(request, env) {
-	// Basic Auth Check (Weak but better than nothing for now)
-	const apiKey = request.headers.get('Authorization')?.replace('Bearer ', '');
-	if (!apiKey || apiKey !== env.API_KEY) {
-		return jsonResponse({ error: 'Unauthorized' }, 401);
-	}
-
-	const data = await request.json();
-	const batch = [];
-
-	for (const [key, value] of Object.entries(data)) {
-		batch.push(
-			env.DB.prepare(
-				`INSERT INTO app_config (key, value, updated_at) 
-                 VALUES (?, ?, CURRENT_TIMESTAMP)
-                 ON CONFLICT(key) DO UPDATE SET 
-                 value = excluded.value, 
-                 updated_at = excluded.updated_at`
-			).bind(key, String(value))
-		);
-	}
-
-	if (batch.length > 0) {
-		await env.DB.batch(batch);
-	}
-
-	return jsonResponse({ success: true, updated: batch.length });
-}
-
-/**
- * GET /api/searches/missed
- * Get missed search terms
- */
-async function handleGetMissedSearches(request, env) {
-	try {
-		const { results } = await env.DB.prepare(
-			'SELECT * FROM missed_searches ORDER BY last_seen DESC LIMIT 50'
-		).all();
-		return jsonResponse(results || []);
-	} catch (e) {
-		return jsonResponse([], 200); // Return empty if table doesn't exist
-	}
-}
-
-/**
- * POST /api/searches/missed
- * Log a missed search
- */
-async function handleLogMissedSearch(request, env) {
-	const { term } = await request.json();
-	if (!term) return jsonResponse({ error: 'Term required' }, 400);
-
-	try {
-		await env.DB.prepare(
-			`INSERT INTO missed_searches (term, count, last_seen) 
-             VALUES (?, 1, CURRENT_TIMESTAMP)
-             ON CONFLICT(term) DO UPDATE SET 
-             count = count + 1, 
-             last_seen = CURRENT_TIMESTAMP`
-		).bind(term).run();
-
-		return jsonResponse({ success: true });
-	} catch (e) {
-		return jsonResponse({ error: e.message }, 500);
-	}
-}
+    async fetch(request, env, ctx) {
+      return handleRequest(request, env);
+    }
+  };
