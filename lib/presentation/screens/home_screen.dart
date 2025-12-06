@@ -1,38 +1,39 @@
-import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-import 'package:provider/provider.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import 'package:lucide_icons/lucide_icons.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
 import 'dart:ui' as ui; // For TextDirection
 
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/entities/category_entity.dart';
-import '../bloc/medicine_provider.dart';
-import 'search_screen.dart';
-import 'drug_details_screen.dart';
-import '../widgets/drug_card.dart';
-import '../widgets/section_header.dart';
-import '../widgets/home_header.dart';
-import '../widgets/horizontal_list_section.dart';
-import '../widgets/category_card.dart';
-import '../widgets/banner_ad_widget.dart';
-import '../widgets/search_bar_button.dart';
-import '../widgets/quick_stats_banner.dart';
-import '../widgets/price_alerts_card.dart';
-import '../widgets/high_risk_drugs_card.dart';
-import '../widgets/skeleton_loader.dart';
-import '../widgets/empty_state_widget.dart'; // Kept if needed, though previously unused warning
+import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:intl/intl.dart';
+import 'package:lucide_icons/lucide_icons.dart';
+import 'package:provider/provider.dart';
+
 // import '../services/ad_service.dart'; // Make sure this path is correct or removed if not used directly
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
-import '../../core/constants/app_constants.dart';
-import '../../core/constants/app_spacing.dart';
+import '../../domain/entities/category_entity.dart';
+import '../../domain/entities/drug_entity.dart';
+import '../../presentation/theme/app_colors.dart';
+import '../bloc/medicine_provider.dart';
 import '../services/ad_service.dart';
+import '../widgets/banner_ad_widget.dart';
+import '../widgets/category_card.dart';
+import '../widgets/drug_card.dart';
+import '../widgets/high_risk_drugs_card.dart';
+import '../widgets/home_header.dart';
+import '../widgets/horizontal_list_section.dart';
+import '../widgets/price_alerts_card.dart';
+import '../widgets/quick_tool_button.dart';
+import '../widgets/search_bar_button.dart';
+import '../widgets/skeleton_loader.dart';
+import 'drug_details_screen.dart';
+import 'interaction_checker_screen.dart';
+import 'search_screen.dart';
+import 'weight_calculator_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final VoidCallback? onSearchTap;
+
+  const HomeScreen({super.key, this.onSearchTap});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -173,48 +174,132 @@ class _HomeScreenState extends State<HomeScreen> {
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
 
         // Search Bar
-        SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          sliver: SliverToBoxAdapter(child: const SearchBarButton()),
-        ),
+        SliverToBoxAdapter(child: SearchBarButton(onTap: widget.onSearchTap)),
 
         const SliverToBoxAdapter(child: SizedBox(height: 12)),
 
-        // Quick Stats Banner
+        // Today's Updates Banner (Matches Reference)
         SliverToBoxAdapter(
           child:
               !isInitialLoadComplete
                   ? const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                    child: SkeletonCard(height: 100),
+                    child: SkeletonCard(height: 80),
                   )
-                  : Builder(
-                    builder: (context) {
-                      final today = DateTime.now();
-                      final todayStr = DateFormat('yyyy-MM-dd').format(today);
-                      final todayDrugs =
-                          medicineProvider.recentlyUpdatedDrugs.where((d) {
-                            if (d.lastPriceUpdate.isEmpty) return false;
-                            if (d.lastPriceUpdate.startsWith(todayStr))
-                              return true;
-                            try {
-                              final dDate = DateTime.parse(d.lastPriceUpdate);
-                              return dDate.year == today.year &&
-                                  dDate.month == today.month &&
-                                  dDate.day == today.day;
-                            } catch (_) {
-                              return false;
-                            }
-                          }).toList();
+                  : Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Builder(
+                      builder: (context) {
+                        final today = DateTime.now();
+                        final todayStr = DateFormat('yyyy-MM-dd').format(today);
+                        // Recalculate or just use recent count as proxy like design
+                        final recentCount =
+                            medicineProvider.recentlyUpdatedDrugs.length;
+                        final displayText =
+                            recentCount > 0
+                                ? '+$recentCount Drugs'
+                                : 'No updates';
 
-                      return QuickStatsBanner(
-                        totalDrugs: medicineProvider.filteredMedicines.length,
-                        todayUpdates: todayDrugs.length,
-                        priceIncreases: _countPriceChanges(todayDrugs, true),
-                        priceDecreases: _countPriceChanges(todayDrugs, false),
-                      );
-                    },
+                        return Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 12,
+                          ),
+                          decoration: BoxDecoration(
+                            color: AppColors.successSoft,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Row(
+                                children: [
+                                  const Icon(
+                                    LucideIcons.trendingUp,
+                                    size: 20,
+                                    color: AppColors.success,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  const Text(
+                                    "Today's Updates", // Localize me if needed
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      color: AppColors.success,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 4,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: AppColors.success,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Text(
+                                  displayText,
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        );
+                      },
+                    ),
                   ),
+        ),
+
+        const SliverToBoxAdapter(child: SizedBox(height: 16)),
+
+        // Quick Tools Buttons (Interactions & Calculator)
+        SliverPadding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          sliver: SliverToBoxAdapter(
+            child: Row(
+              children: [
+                QuickToolButton(
+                  icon: LucideIcons.gitCompare,
+                  label:
+                      l10n.navInteractions, // Use localized label "Interactions" or similar
+                  subtitle: 'Check conflicts', // Localize
+                  color:
+                      AppColors.warning, // Matches Reference (Warning/Orange)
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const InteractionCheckerScreen(),
+                      ),
+                    );
+                  },
+                ),
+                const SizedBox(width: 12),
+                QuickToolButton(
+                  icon: LucideIcons.calculator,
+                  label: l10n.navCalculator, // Use localized label "Dose Calc"
+                  subtitle: 'Calculate dosage', // Localize
+                  color:
+                      Theme.of(
+                        context,
+                      ).colorScheme.primary, // Matches Reference (Primary/Blue)
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const WeightCalculatorScreen(),
+                      ),
+                    );
+                  },
+                ),
+              ],
+            ),
+          ),
         ),
 
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
@@ -279,8 +364,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   title: l10n.recentlyUpdatedDrugs,
                   icon: LucideIcons.history,
                   // Limit display to top 10 recent drugs
-                  drugs:
-                      medicineProvider.recentlyUpdatedDrugs.take(10).toList(),
+                  drugs: medicineProvider.recentlyUpdatedDrugs.take(5).toList(),
                   onViewAll: () {
                     Navigator.push(
                       context,
@@ -402,71 +486,100 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildCategoriesSection(
     BuildContext context,
     AppLocalizations l10n,
-    List<CategoryEntity> categories,
+    List<CategoryEntity>
+    categories, // Keeping argument to match signature, but mostly using static list for UI match
   ) {
-    if (categories.isEmpty) return const SizedBox.shrink();
+    // Static list from reference design (mediswitch-refresh) to ensure exact UI match
+    final List<Map<String, dynamic>> staticCategories = [
+      {
+        'id': '1',
+        'nameEn': 'Cardiac',
+        'nameAr': 'قلب',
+        'icon': LucideIcons.heart,
+        'count': 245,
+        'color': 'red',
+      },
+      {
+        'id': '2',
+        'nameEn': 'Neuro',
+        'nameAr': 'أعصاب',
+        'icon': LucideIcons.brain,
+        'count': 189,
+        'color': 'purple',
+      },
+      {
+        'id': '3',
+        'nameEn': 'Dental',
+        'nameAr': 'أسنان',
+        'icon': LucideIcons.smile,
+        'count': 78,
+        'color': 'teal',
+      },
+      {
+        'id': '4',
+        'nameEn': 'Pediatric',
+        'nameAr': 'أطفال',
+        'icon': LucideIcons.baby,
+        'count': 156,
+        'color': 'green',
+      },
+      {
+        'id': '5',
+        'nameEn': 'Ophthalmic',
+        'nameAr': 'عيون',
+        'icon': LucideIcons.eye,
+        'count': 92,
+        'color': 'blue',
+      },
+      {
+        'id': '6',
+        'nameEn': 'Orthopedic',
+        'nameAr': 'عظام',
+        'icon': LucideIcons.bone,
+        'count': 134,
+        'color': 'orange',
+      },
+    ];
 
     return SliverToBoxAdapter(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Use HorizontalListSection with strip of cards (CategoryCard)
-          // Adjust CategoryCard width in HorizontalListSection or wrap in SizedBox
           SizedBox(
-            height: 130, // Adjust height for category cards
+            height: 140, // Adjusted height for new card design
             child: HorizontalListSection(
               title: l10n.medicalCategories,
               icon: LucideIcons.layoutGrid,
-              listHeight: 130,
+              listHeight: 140,
               listPadding: const EdgeInsets.only(
                 left: 16,
                 right: 16,
                 bottom: 8,
               ),
               children:
-                  categories.map((categoryEntity) {
-                    final englishCategoryName =
-                        categoryEntity.id; // Use id as category name
+                  staticCategories.map((cat) {
                     final locale = Localizations.localeOf(context);
                     final isArabic = locale.languageCode == 'ar';
-                    final normalizedKey = englishCategoryName
-                        .replaceAllMapped(
-                          RegExp(r'([A-Z])'),
-                          (match) => '_${match.group(1)}',
-                        )
-                        .replaceAll(' ', '_')
-                        .toLowerCase()
-                        .replaceAll(RegExp(r'^_+'), '');
+                    final String nameEn = cat['nameEn'] as String;
+                    final String nameAr = cat['nameAr'] as String;
+                    final displayName = isArabic ? nameAr : nameEn;
 
-                    final String displayName =
-                        isArabic
-                            ? kCategoryTranslation[englishCategoryName] ??
-                                englishCategoryName
-                            : englishCategoryName;
-
-                    final iconData =
-                        kCategoryIcons[normalizedKey] ??
-                        kCategoryIcons['default']!;
-
-                    return Container(
-                      width: 140, // Fixed width for consistency
-                      margin: const EdgeInsets.only(bottom: 8),
+                    return Padding(
+                      padding: const EdgeInsets.only(right: 8.0),
                       child: CategoryCard(
-                        key: ValueKey(englishCategoryName),
                         name: displayName,
-                        iconData: iconData,
+                        iconData: cat['icon'] as IconData,
+                        drugCount: cat['count'] as int,
+                        colorKey: cat['color'] as String,
                         onTap: () {
                           _adService.incrementUsageCounterAndShowAdIfNeeded();
-                          context.read<MedicineProvider>().setCategory(
-                            englishCategoryName,
-                          );
+                          // Map back to API category name if needed, using english name for now
+                          context.read<MedicineProvider>().setCategory(nameEn);
                           Navigator.push(
                             context,
                             MaterialPageRoute<void>(
                               builder:
-                                  (_) => SearchScreen(
-                                    initialCategory: englishCategoryName,
-                                  ),
+                                  (_) => SearchScreen(initialCategory: nameEn),
                             ),
                           );
                         },

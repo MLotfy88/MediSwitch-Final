@@ -1,20 +1,18 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'dart:ui' as ui; // For TextDirection
+import 'package:provider/provider.dart';
 
-import '../../domain/entities/drug_entity.dart';
-import '../bloc/medicine_provider.dart';
-import '../widgets/drug_card.dart';
-import '../widgets/filter_end_drawer.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
-import 'drug_details_screen.dart';
+import '../../domain/entities/drug_entity.dart';
+import '../../presentation/theme/app_colors.dart'; // Import AppColors
+import '../bloc/medicine_provider.dart';
 import '../services/ad_service.dart';
 import '../widgets/banner_ad_widget.dart';
-import '../../core/constants/app_spacing.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../widgets/drug_card.dart';
+import '../widgets/filter_end_drawer.dart';
+import 'drug_details_screen.dart';
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
@@ -29,47 +27,35 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FileLoggerService _logger = locator<FileLoggerService>();
   final AdService _adService = locator<AdService>();
-  // Timer? _debounce; // Debounce removed in favor of manual submission
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
     super.initState();
-    _logger.i(
-      "SearchScreen: +++++ initState +++++. Initial query: '${widget.initialQuery}'",
-    );
     _searchController.text = widget.initialQuery;
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         final provider = context.read<MedicineProvider>();
-        bool categoryChanged = false;
-        bool queryChanged = false;
+        bool changed = false;
 
+        // Handle initial category
         if (widget.initialCategory != null &&
             widget.initialCategory!.isNotEmpty &&
             provider.selectedCategory != widget.initialCategory) {
           provider.setCategory(widget.initialCategory!, triggerSearch: false);
-          categoryChanged = true;
-        } else if ((widget.initialCategory == null ||
-                widget.initialCategory!.isEmpty) &&
-            provider.selectedCategory.isNotEmpty) {
-          provider.setCategory('', triggerSearch: false);
-          categoryChanged = true;
+          changed = true;
         }
 
+        // Handle initial query
         if (widget.initialQuery.isNotEmpty &&
             provider.searchQuery != widget.initialQuery) {
           provider.setSearchQuery(widget.initialQuery, triggerSearch: false);
-          queryChanged = true;
-        } else if (widget.initialQuery.isEmpty &&
-            provider.searchQuery.isNotEmpty) {
-          provider.setSearchQuery('', triggerSearch: false);
-          queryChanged = true;
+          changed = true;
         }
 
-        if (categoryChanged || queryChanged) {
+        if (changed) {
           provider.triggerSearch();
         }
       }
@@ -80,41 +66,30 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   void dispose() {
-    _logger.i("SearchScreen: ----- dispose -----");
-    // _debounce?.cancel(); // No debounce to cancel
     _searchController.dispose();
     _scrollController.removeListener(_onScroll);
     _scrollController.dispose();
     super.dispose();
   }
 
-  // Simplified: No debounce/listener. Search triggered explicitly.
   void _performSearch() {
     final query = _searchController.text;
-    _logger.i("SearchScreen: Executing search for '$query'");
-    // Dismiss keyboard
     FocusScope.of(context).unfocus();
     context.read<MedicineProvider>().setSearchQuery(query);
-    // Provider's setSearchQuery usually triggers filteredMedicines update if wired correctly.
-    // If setCategory/setQuery has triggerSearch=true default, it works.
   }
 
   void _onScroll() {
     final provider = context.read<MedicineProvider>();
-    if (!_scrollController.hasClients) return; // Guard clause
+    if (!_scrollController.hasClients) return;
     final currentPixels = _scrollController.position.pixels;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final triggerPoint = maxScroll - 300;
-    final bool isNearBottom = currentPixels >= triggerPoint && maxScroll > 0;
-    final bool canLoadMore =
-        provider.hasMoreItems && !provider.isLoadingMore && !provider.isLoading;
 
-    if (isNearBottom && canLoadMore) {
-      try {
-        provider.loadMoreDrugs();
-      } catch (e, s) {
-        _logger.e("SearchScreen: Error calling loadMoreDrugs", e, s);
-      }
+    if (currentPixels >= triggerPoint &&
+        provider.hasMoreItems &&
+        !provider.isLoadingMore &&
+        !provider.isLoading) {
+      provider.loadMoreDrugs();
     }
   }
 
@@ -132,132 +107,211 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
-    _logger.i("SearchScreen: >>>>> build ENTRY <<<<<");
-    try {
-      final l10n = AppLocalizations.of(context)!;
-      final provider = context.watch<MedicineProvider>();
-      final theme = Theme.of(context);
-      final colorScheme = theme.colorScheme;
+    final l10n = AppLocalizations.of(context)!;
+    final provider = context.watch<MedicineProvider>();
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
 
-      return Scaffold(
-        key: _scaffoldKey,
-        endDrawer: const FilterEndDrawer(),
-        floatingActionButton: FloatingActionButton(
-          backgroundColor: colorScheme.primary,
-          foregroundColor: colorScheme.onPrimary,
-          onPressed: () {
-            // FAB acting as search trigger or scroll to top if desired, but user asked for "search button".
-            // A floating search action typically means "Execute Search".
-            _performSearch();
-          },
-          child: const Icon(LucideIcons.search),
-        ),
-        body: SafeArea(
-          child: Column(
-            children: [
-              Expanded(
-                child: CustomScrollView(
-                  controller: _scrollController,
-                  slivers: <Widget>[
-                    SliverAppBar(
-                      backgroundColor: colorScheme.surface,
-                      foregroundColor: colorScheme.onSurfaceVariant,
-                      elevation: 0,
-                      pinned: true,
-                      floating: true,
-                      leading: IconButton(
-                        icon: const Icon(LucideIcons.arrowLeft, size: 20),
-                        onPressed: () => Navigator.maybePop(context),
-                        tooltip: l10n.backTooltip,
+    return Scaffold(
+      key: _scaffoldKey,
+      endDrawer: const FilterEndDrawer(),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: CustomScrollView(
+                controller: _scrollController,
+                slivers: <Widget>[
+                  // Custom AppBar with Styled Buttons
+                  SliverAppBar(
+                    backgroundColor: colorScheme.surface,
+                    foregroundColor: colorScheme.onSurface,
+                    elevation: 0,
+                    pinned: true,
+                    floating: true,
+                    toolbarHeight: 70, // Increased height for better spacing
+                    leadingWidth: 60,
+                    leading: Padding(
+                      padding: const EdgeInsetsDirectional.only(
+                        start: 16,
+                        top: 8,
+                        bottom: 8,
                       ),
-                      titleSpacing: 0,
-                      title: TextField(
-                        controller: _searchController,
-                        autofocus: false, // DISABLED AUTOFOCUS as requested
-                        textInputAction:
-                            TextInputAction
-                                .search, // Show Search key on keyboard
-                        onSubmitted:
-                            (_) =>
-                                _performSearch(), // Trigger on keyboard action
-                        decoration: InputDecoration(
-                          hintText: l10n.searchHint,
-                          border: InputBorder.none,
-                          enabledBorder: InputBorder.none,
-                          focusedBorder: InputBorder.none,
-                          prefixIcon: Icon(
-                            LucideIcons.search,
-                            size: 16,
-                            color: colorScheme.onSurfaceVariant,
-                          ),
-                          suffixIcon:
-                              _searchController.text.isNotEmpty
-                                  ? IconButton(
-                                    icon: Icon(
-                                      LucideIcons.x,
-                                      size: 16,
-                                      color: colorScheme.onSurfaceVariant,
-                                    ),
-                                    onPressed: () {
-                                      _searchController.clear();
-                                      // Optionally clear results immediately or wait for search
-                                    },
-                                    splashRadius: 18,
-                                  )
-                                  : null,
-                          contentPadding: const EdgeInsets.symmetric(
-                            vertical: 10,
-                          ),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: AppColors.accent,
+                          borderRadius: BorderRadius.circular(12),
                         ),
-                        style: theme.textTheme.bodyLarge,
-                      ),
-                      actions: [
-                        TextButton(
-                          onPressed: _openFilterDrawer,
-                          style: TextButton.styleFrom(
-                            foregroundColor: colorScheme.onSurfaceVariant,
-                            shape: const CircleBorder(),
-                            padding: const EdgeInsets.all(AppSpacing.small),
-                            minimumSize: Size.zero,
-                          ),
-                          child: const Icon(LucideIcons.filter, size: 20),
-                        ),
-                        AppSpacing.gapHSmall,
-                      ],
-                      bottom: PreferredSize(
-                        preferredSize: const Size.fromHeight(1.0),
-                        child: Container(
-                          color: colorScheme.outline,
-                          height: 1.0,
+                        child: IconButton(
+                          icon: const Icon(LucideIcons.arrowLeft, size: 20),
+                          color: AppColors.primary,
+                          onPressed: () => Navigator.maybePop(context),
+                          tooltip: l10n.backTooltip,
+                          padding: EdgeInsets.zero,
                         ),
                       ),
                     ),
-                    _buildResultsListSliver(context, provider, l10n),
-                  ],
+                    title: TextField(
+                      controller: _searchController,
+                      textInputAction: TextInputAction.search,
+                      onSubmitted: (_) => _performSearch(),
+                      decoration: InputDecoration(
+                        hintText: l10n.searchHint,
+                        border: InputBorder.none,
+                        // Add background to search bar for contrast if needed, or keep clean
+                        prefixIcon: Icon(
+                          LucideIcons.search,
+                          size: 18,
+                          color: colorScheme.onSurfaceVariant,
+                        ),
+                        suffixIcon:
+                            _searchController.text.isNotEmpty
+                                ? IconButton(
+                                  icon: Icon(
+                                    LucideIcons.x,
+                                    size: 16,
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                                  onPressed: () {
+                                    _searchController.clear();
+                                    provider.setSearchQuery('');
+                                  },
+                                )
+                                : null,
+                      ),
+                    ),
+                    actions: [
+                      Padding(
+                        padding: const EdgeInsetsDirectional.only(
+                          end: 16,
+                          top: 8,
+                          bottom: 8,
+                        ),
+                        child: InkWell(
+                          onTap: _openFilterDrawer,
+                          borderRadius: BorderRadius.circular(12),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: AppColors.accent,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                            alignment: Alignment.center,
+                            child: Row(
+                              children: [
+                                const Icon(
+                                  LucideIcons.filter,
+                                  size: 18,
+                                  color: AppColors.primary,
+                                ),
+                                // const SizedBox(width: 8),
+                                // Text(
+                                //   "Filter", // Localize this
+                                //   style: TextStyle(
+                                //     color: AppColors.primary,
+                                //     fontWeight: FontWeight.w600,
+                                //     fontSize: 14,
+                                //   ),
+                                // ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  // Filter Pills Section
+                  SliverToBoxAdapter(
+                    child: _buildFilterPills(context, provider),
+                  ),
+
+                  // Results Count
+                  if (!provider.isLoading &&
+                      provider.filteredMedicines.isNotEmpty)
+                    SliverToBoxAdapter(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 8,
+                        ),
+                        child: Text(
+                          "${provider.filteredMedicines.length} ${isRTL ? 'نتائج' : 'results'}", // Localize fully
+                          style: TextStyle(
+                            color: colorScheme.onSurfaceVariant,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ),
+
+                  // Results List
+                  _buildResultsListSliver(context, provider, l10n),
+                ],
+              ),
+            ),
+            const BannerAdWidget(),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildFilterPills(BuildContext context, MedicineProvider provider) {
+    final pills = [
+      {'labelEn': 'All', 'labelAr': 'الكل', 'value': ''},
+      {'labelEn': 'Tablet', 'labelAr': 'أقراص', 'value': 'Tablet'},
+      {'labelEn': 'Syrup', 'labelAr': 'شراب', 'value': 'Syrup'},
+      {'labelEn': 'Injection', 'labelAr': 'حقن', 'value': 'Injection'},
+      {'labelEn': 'Cream', 'labelAr': 'كريم', 'value': 'Cream'},
+      {'labelEn': 'Drops', 'labelAr': 'قطرة', 'value': 'Drops'},
+    ];
+
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+
+    return SizedBox(
+      height: 50,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        itemCount: pills.length,
+        separatorBuilder: (_, __) => const SizedBox(width: 8),
+        itemBuilder: (context, index) {
+          final pill = pills[index];
+          final value = pill['value']!;
+          final label = isRTL ? pill['labelAr']! : pill['labelEn']!;
+          final isSelected = provider.selectedDosageForm == value;
+          final colorScheme = Theme.of(context).colorScheme;
+
+          return InkWell(
+            onTap: () {
+              provider.setDosageForm(isSelected ? '' : value);
+            },
+            borderRadius: BorderRadius.circular(20),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+              decoration: BoxDecoration(
+                color: isSelected ? colorScheme.primary : AppColors.accent,
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: isSelected ? colorScheme.primary : Colors.transparent,
                 ),
               ),
-              const BannerAdWidget(),
-            ],
-          ),
-        ),
-      );
-    } catch (e, s) {
-      _logger.e("SearchScreen: >>>>> CRITICAL ERROR DURING BUILD <<<<<", e, s);
-      return Scaffold(
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Text(
-              'Error building SearchScreen:\n$e\n\n$s',
-              style: const TextStyle(color: Colors.red, fontSize: 12),
-              textDirection: ui.TextDirection.ltr,
+              child: Text(
+                label,
+                style: TextStyle(
+                  color:
+                      isSelected ? Colors.white : colorScheme.onSurfaceVariant,
+                  fontWeight: FontWeight.w500,
+                  fontSize: 13,
+                ),
+              ),
             ),
-          ),
-        ),
-      );
-    } finally {
-      _logger.i("SearchScreen: >>>>> build EXIT <<<<<");
-    }
+          );
+        },
+      ),
+    );
   }
 
   Widget _buildResultsListSliver(
@@ -281,19 +335,26 @@ class _SearchScreenState extends State<SearchScreen> {
         ),
         hasScrollBody: false,
       );
-    } else if (provider.filteredMedicines.isEmpty &&
-        provider.searchQuery.isNotEmpty) {
-      return SliverFillRemaining(
-        child: _buildEmptySearchMessage(context, l10n),
-        hasScrollBody: false,
-      );
-    } else if (provider.filteredMedicines.isEmpty &&
-        provider.searchQuery.isEmpty) {
+    } else if (provider.filteredMedicines.isEmpty) {
+      // Show empty state for no results
       return SliverFillRemaining(
         child: Center(
-          child: Text(
-            l10n.startSearchingPrompt,
-            style: TextStyle(color: Theme.of(context).hintColor),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                LucideIcons.search,
+                size: 48,
+                color: Theme.of(context).hintColor.withValues(alpha: 0.5),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                l10n.noResultsFoundTitle,
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  color: Theme.of(context).hintColor,
+                ),
+              ),
+            ],
           ),
         ),
         hasScrollBody: false,
@@ -301,14 +362,14 @@ class _SearchScreenState extends State<SearchScreen> {
     }
 
     return SliverPadding(
-      padding: AppSpacing.edgeInsetsAllLarge,
+      padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
       sliver: SliverList(
         delegate: SliverChildBuilderDelegate(
           (context, index) {
             if (index < provider.filteredMedicines.length) {
               final drug = provider.filteredMedicines[index];
               return Padding(
-                padding: const EdgeInsets.only(bottom: AppSpacing.large),
+                padding: const EdgeInsets.only(bottom: 12),
                 child: DrugCard(
                   drug: drug,
                   type: DrugCardType.detailed,
@@ -316,58 +377,18 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               );
             } else if (provider.isLoadingMore) {
-              return Padding(
-                padding: AppSpacing.edgeInsetsVLarge,
-                child: const Center(child: CircularProgressIndicator()),
-              );
-            } else if (!provider.hasMoreItems) {
-              return Padding(
-                padding: AppSpacing.edgeInsetsVLarge,
-                child: Center(
-                  child: Text(
-                    l10n.endOfList,
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).hintColor,
-                    ),
-                  ),
-                ),
+              return const Padding(
+                padding: EdgeInsets.all(16),
+                child: Center(child: CircularProgressIndicator()),
               );
             } else {
-              return const SizedBox.shrink();
+              // End of list spacer
+              return const SizedBox(height: 20);
             }
           },
           childCount:
               provider.filteredMedicines.length +
-              (provider.isLoadingMore || !provider.hasMoreItems ? 1 : 0),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildEmptySearchMessage(BuildContext context, AppLocalizations l10n) {
-    final theme = Theme.of(context);
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(AppSpacing.xxlarge),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              LucideIcons.searchX,
-              size: 48,
-              color: theme.hintColor.withOpacity(0.7),
-            ),
-            AppSpacing.gapVLarge,
-            Text(l10n.noResultsFoundTitle, style: theme.textTheme.titleLarge),
-            AppSpacing.gapVSmall,
-            Text(
-              l10n.noResultsFoundSubtitle,
-              style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.hintColor,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ],
+              (provider.isLoadingMore ? 1 : 0),
         ),
       ),
     );

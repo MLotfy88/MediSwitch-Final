@@ -1,17 +1,17 @@
-import 'package:flutter/foundation.dart'; // Import for kDebugMode
+import 'package:flutter/foundation.dart'; // For kDebugMode
 import 'package:flutter/material.dart';
-import '../../core/di/locator.dart'; // Import locator
-import '../../core/services/file_logger_service.dart'; // Import logger
-import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
-import 'home_screen.dart';
-import 'search_screen.dart'; // Import SearchScreen
-import 'settings_screen.dart';
-// Import placeholders for other screens for now
-// import 'calculator_screen.dart';
-// import 'interactions_screen.dart';
-import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:lucide_icons/lucide_icons.dart';
+
+import '../../core/di/locator.dart';
+import '../../core/services/file_logger_service.dart';
 import '../widgets/custom_nav_bar.dart';
+import 'debug/log_viewer_screen.dart';
+import 'favorites/favorites_screen.dart';
+import 'history/history_screen.dart';
+import 'home_screen.dart';
+import 'profile/profile_screen.dart';
+import 'search_screen.dart'; // Import SearchScreen
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -24,18 +24,20 @@ class _MainScreenState extends State<MainScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   int _selectedIndex = 0; // Start with Home tab selected
 
-  // Update screens list to match the new BottomNavBar order
-  // Note: Placeholders should ideally be proper screens, but we localize the text for now.
-  List<Widget> _getScreens(AppLocalizations l10n) => [
-    const HomeScreen(),
-    const SearchScreen(), // Use SearchScreen
-    Center(
-      child: Text(l10n.calculatorComingSoon), // Use localized string
-    ), // Placeholder for Calculator
-    Center(
-      child: Text(l10n.interactionsComingSoon), // Use localized string
-    ), // Placeholder for Interactions
-    const SettingsScreen(),
+  // Update screens list to match the new BottomNavBar order:
+  // Home, Search, History, Favorites, Profile
+  // Note: SearchScreen might be pushed or embedded. Reference app uses Tab navigation for these.
+  // SearchScreen usually handles its own "Back" if pushed. But as a Tab, it should be the root of search.
+  // Assuming SearchScreen accepts embedding or we wrap it.
+
+  List<Widget> _getScreens() => [
+    HomeScreen(
+      onSearchTap: () => _onItemTapped(1), // Switch to Search tab (index 1)
+    ),
+    const SearchScreen(), // Ensure SearchScreen is stateful and handles being in a stack if needed
+    const HistoryScreen(),
+    const FavoritesScreen(),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -48,47 +50,38 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     _logger.i("MainScreen: Building widget. Selected index: $_selectedIndex");
-    final l10n = AppLocalizations.of(context)!; // Get l10n instance
-    final screens = _getScreens(l10n); // Get screens with localized text
+    final l10n = AppLocalizations.of(context)!;
+    final screens = _getScreens();
+
     return Scaffold(
-      body: IndexedStack(
-        index: _selectedIndex,
-        children: screens,
-      ), // Use localized screens
+      // Using IndexedStack for state preservation (Offline-first requirement)
+      body: IndexedStack(index: _selectedIndex, children: screens),
       bottomNavigationBar: CustomNavBar(
         selectedIndex: _selectedIndex,
         onItemSelected: _onItemTapped,
         items: [
-          // Remove const
-          // Use LucideIcons and match design lab order/labels
+          NavBarItem(icon: LucideIcons.home, label: l10n.navHome),
+          NavBarItem(icon: LucideIcons.search, label: l10n.navSearch),
           NavBarItem(
-            icon: LucideIcons.home,
-            label: l10n.navHome,
-          ), // Use localized string
+            icon: LucideIcons.history, // Clock icon
+            label: l10n.navHistory,
+          ),
           NavBarItem(
-            icon: LucideIcons.search,
-            label: l10n.navSearch,
-          ), // Use localized string
+            icon: LucideIcons.heart, // Heart icon
+            label: l10n.navFavorites,
+          ),
           NavBarItem(
-            icon: LucideIcons.calculator,
-            label: l10n.navCalculator,
-          ), // Use localized string
-          NavBarItem(
-            icon: LucideIcons.zap,
-            label: l10n.navInteractions, // Use localized string
-          ), // Zap icon for interactions
-          NavBarItem(
-            icon: LucideIcons.settings,
-            label: l10n.navSettings,
-          ), // Use localized string
+            icon: LucideIcons.user, // User icon
+            label: l10n.navProfile,
+          ),
         ],
       ),
       // Add FloatingActionButton only in debug mode
       floatingActionButton:
           kDebugMode
               ? FloatingActionButton(
-                mini: true, // Make it smaller
-                tooltip: l10n.viewLogsTooltip, // Use localized string
+                mini: true,
+                tooltip: l10n.viewLogsTooltip,
                 onPressed: () {
                   _logger.i("Debug FAB tapped: Navigating to LogViewerScreen.");
                   Navigator.push(
@@ -100,7 +93,7 @@ class _MainScreenState extends State<MainScreen> {
                 },
                 child: const Icon(LucideIcons.bug),
               )
-              : null, // Don't show FAB in release mode
+              : null,
     );
   }
 }

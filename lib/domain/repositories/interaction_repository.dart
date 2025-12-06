@@ -1,9 +1,11 @@
 // lib/domain/repositories/interaction_repository.dart
 
 import 'package:dartz/dartz.dart'; // For Either
+
 import '../../core/error/failures.dart'; // For Failure
 import '../entities/drug_entity.dart';
 import '../entities/drug_interaction.dart';
+import '../entities/interaction_severity.dart';
 // Potentially import ActiveIngredient if needed by the interface
 
 abstract class InteractionRepository {
@@ -32,6 +34,7 @@ abstract class InteractionRepository {
   /// Checks if a drug has any known interactions efficiently (O(1) lookup).
   bool hasKnownInteractions(DrugEntity drug);
 
-  // Add other methods if needed, e.g., finding interactions for a single pair,
-  // or getting active ingredients for a specific medicine if not handled elsewhere.
+  /// Gets the maximum severity level of known interactions for a drug.
+  /// Returns InteractionSeverity.unknown if no interactions found.
+  InteractionSeverity getMaxSeverityForDrug(DrugEntity drug);
 }

@@ -1,15 +1,16 @@
 // Import logger first
-import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
 import 'dart:ui' as ui; // Explicitly import dart:ui with alias
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart'; // For number formatting
 import 'package:lucide_icons/lucide_icons.dart'; // Use Lucide Icons
-import '../../domain/entities/drug_entity.dart';
-import '../widgets/custom_badge.dart'; // Import CustomBadge
-import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
+
+import '../../core/di/locator.dart';
+import '../../core/services/file_logger_service.dart';
 import '../../core/utils/currency_helper.dart'; // Import currency helper
+import '../../domain/entities/drug_entity.dart';
+import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
+import '../widgets/custom_badge.dart'; // Import CustomBadge
 
 enum DrugCardType { thumbnail, detailed }
 
@@ -322,12 +323,12 @@ class DrugCard extends StatelessWidget {
                                   : (isArabic ? 'بديل' : 'Alt'),
                           backgroundColor:
                               isPopular
-                                  ? Colors.amber.shade100
-                                  : colorScheme.primaryContainer,
+                                  ? colorScheme.primaryContainer
+                                  : colorScheme.secondaryContainer,
                           textColor:
                               isPopular
-                                  ? Colors.amber.shade800
-                                  : colorScheme.onPrimaryContainer,
+                                  ? colorScheme.onPrimaryContainer
+                                  : colorScheme.onSecondaryContainer,
                           padding: const EdgeInsets.symmetric(
                             horizontal: 8,
                             vertical: 4,
