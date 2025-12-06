@@ -1,25 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/design_tokens.dart';
 import 'package:mediswitch/core/utils/animation_helpers.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
 import 'package:mediswitch/presentation/screens/interaction_checker_screen.dart';
 import 'package:mediswitch/presentation/screens/search/search_results_screen.dart';
 import 'package:mediswitch/presentation/screens/weight_calculator_screen.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/utils/category_mapper.dart';
+import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 import 'package:mediswitch/presentation/widgets/app_header.dart';
 import 'package:mediswitch/presentation/widgets/home/category_card.dart';
-import 'package:mediswitch/presentation/widgets/home/dangerous_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
 import 'package:mediswitch/presentation/widgets/home_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/quick_tool_button.dart';
-import 'package:mediswitch/domain/entities/drug_entity.dart';
-import 'package:mediswitch/domain/entities/category_entity.dart';
-import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
-import 'package:provider/provider.dart';
 import 'package:mediswitch/presentation/widgets/section_header.dart';
-import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
+import 'package:provider/provider.dart';
 
 class NewHomeScreen extends StatefulWidget {
   const NewHomeScreen({super.key});
@@ -73,62 +70,74 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                         ),
                         const SizedBox(height: AppSpacing.lg),
 
-                        // Quick Stats
-                        Container(
-                          padding: AppSpacing.paddingMD,
-                          decoration: BoxDecoration(
-                            color: Theme.of(context).appColors.successSoft,
-                            borderRadius: AppRadius.circularLg,
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Row(
+                        // Quick Stats - Today's Updates
+                        Consumer<MedicineProvider>(
+                          builder: (context, provider, child) {
+                            final recentCount =
+                                provider.recentlyUpdatedDrugs.length;
+                            final displayText =
+                                recentCount > 0
+                                    ? '+$recentCount Drugs'
+                                    : 'No updates';
+
+                            return Container(
+                              padding: AppSpacing.paddingMD,
+                              decoration: BoxDecoration(
+                                color: Theme.of(context).appColors.successSoft,
+                                borderRadius: AppRadius.circularLg,
+                              ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Icon(
-                                    LucideIcons.trendingUp,
-                                    size: 20,
-                                    color:
-                                        Theme.of(
-                                          context,
-                                        ).appColors.successForeground,
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        LucideIcons.trendingUp,
+                                        size: 20,
+                                        color:
+                                            Theme.of(
+                                              context,
+                                            ).appColors.successForeground,
+                                      ),
+                                      const SizedBox(width: AppSpacing.sm),
+                                      Text(
+                                        "Today's Updates",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w600,
+                                          color:
+                                              Theme.of(
+                                                context,
+                                              ).appColors.successForeground,
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                  const SizedBox(width: AppSpacing.sm),
-                                  Text(
-                                    "Today's Updates",
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.w600,
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 8,
+                                      vertical: 4,
+                                    ),
+                                    decoration: BoxDecoration(
                                       color:
                                           Theme.of(
                                             context,
                                           ).appColors.successForeground,
+                                      borderRadius: AppRadius.circularSm,
+                                    ),
+                                    child: Text(
+                                      displayText,
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
                                 ],
                               ),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 8,
-                                  vertical: 4,
-                                ),
-                                decoration: BoxDecoration(
-                                  color:
-                                      Theme.of(
-                                        context,
-                                      ).appColors.successForeground,
-                                  borderRadius: AppRadius.circularSm,
-                                ),
-                                child: const Text(
-                                  "+30 Drugs",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
+                            );
+                          },
                         ),
                       ],
                     ),
@@ -144,7 +153,7 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                           children: [
                             QuickToolButton(
                               icon: LucideIcons.gitCompare,
-                              label: 'Interactions',
+                              label: 'Drug\nInteractions',
                               subtitle: 'Check conflicts',
                               color:
                                   Theme.of(context).appColors.warningForeground,
@@ -160,7 +169,7 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                             const SizedBox(width: 12),
                             QuickToolButton(
                               icon: LucideIcons.calculator,
-                              label: 'Dose Calc',
+                              label: 'Dosage\nCalculator',
                               subtitle: 'Calculate dosage',
                               color: Theme.of(context).colorScheme.primary,
                               onTap: () {
@@ -178,6 +187,9 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                     ),
                   ),
 
+                  // Spacing before Categories
+                  const SizedBox(height: 24),
+
                   // Categories Section
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -192,22 +204,27 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                     height: 130,
                     child: Consumer<MedicineProvider>(
                       builder: (context, provider, child) {
-                        final categories = provider.categories;
-                        if (categories.isEmpty) {
+                        final realCategories = provider.categories;
+                        if (realCategories.isEmpty) {
                           return const Center(child: Text("No categories"));
                         }
+
+                        // تطبيق mapping للتطابق 100% مع التصميم المرجعي
+                        final mappedCategories = CategoryMapper.mapCategories(
+                          realCategories,
+                        );
 
                         return ListView.separated(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
                           scrollDirection: Axis.horizontal,
-                          itemCount: categories.length,
+                          itemCount: mappedCategories.length,
                           separatorBuilder:
                               (_, __) => const SizedBox(width: 12),
                           itemBuilder: (context, index) {
                             return FadeSlideAnimation(
                               delay: StaggeredAnimationHelper.delayFor(index),
                               child: CategoryCard(
-                                category: categories[index],
+                                category: mappedCategories[index],
                                 isRTL: isRTL,
                               ),
                             );
@@ -217,25 +234,27 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                     ),
                   ),
 
-                  // Popular Drugs Section (was Dangerous Drugs)
+                  // High-Risk Drugs Section
                   const SizedBox(height: 24),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: SectionHeader(
-                      title: 'Popular Drugs',
-                      subtitle: 'Most searched medicines',
-                      icon: const Icon(LucideIcons.star), // Changed icon
-                      iconBgColor: Theme.of(context).appColors.warningSoft,
+                      title: 'High-Risk Drugs',
+                      subtitle: 'Drugs with severe interactions',
+                      icon: const Icon(LucideIcons.alertTriangle),
+                      iconBgColor: Theme.of(context).appColors.dangerSoft,
                     ),
                   ),
                   const SizedBox(height: 12),
                   SizedBox(
-                    height: 140,
+                    height: 200,
                     child: Consumer<MedicineProvider>(
                       builder: (context, provider, child) {
                         final popularDrugs = provider.popularDrugs;
                         if (popularDrugs.isEmpty) {
-                          return const Center(child: Text("No popular drugs"));
+                          return const Center(
+                            child: Text("No high-risk drugs"),
+                          );
                         }
 
                         return ListView.separated(
@@ -245,11 +264,31 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                           separatorBuilder:
                               (_, __) => const SizedBox(width: 12),
                           itemBuilder: (context, index) {
+                            final drug = popularDrugs[index];
+                            final isFav = provider.isFavorite(drug);
                             return FadeSlideAnimation(
                               delay: StaggeredAnimationHelper.delayFor(index),
-                              child: DangerousDrugCard(
-                                drug: popularDrugs[index],
-                                isRTL: isRTL,
+                              child: SizedBox(
+                                width: 280,
+                                child: DrugCard(
+                                  drug: drugEntityToUIModel(
+                                    drug,
+                                    isFavorite: isFav,
+                                  ),
+                                  onFavoriteToggle:
+                                      (String drugId) =>
+                                          provider.toggleFavorite(drug),
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute<void>(
+                                        builder:
+                                            (context) =>
+                                                DrugDetailsScreen(drug: drug),
+                                      ),
+                                    );
+                                  },
+                                ),
                               ),
                             );
                           },
@@ -263,8 +302,8 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: SectionHeader(
-                      title: 'Recently Added',
-                      subtitle: 'New updates',
+                      title: 'Recently Updated',
+                      subtitle: 'New drugs this week',
                       icon: const Icon(LucideIcons.sparkles),
                       iconBgColor: Theme.of(context).appColors.successSoft,
                     ),

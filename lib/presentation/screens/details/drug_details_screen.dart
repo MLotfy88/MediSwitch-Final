@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:lucide_icons/lucide_icons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/design_tokens.dart';
-import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
-import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
-
-import 'package:provider/provider.dart';
+import 'package:mediswitch/domain/entities/drug_interaction.dart';
+import 'package:mediswitch/presentation/bloc/interaction_provider.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
+import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
+import 'package:mediswitch/presentation/widgets/interaction_card.dart';
+import 'package:provider/provider.dart';
 
 // Assuming DrugUIModel is shared or redefined here.
 // Ideally should be in a shared models directory.
@@ -27,6 +30,30 @@ class DrugDetailsScreen extends StatefulWidget {
 class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
   String activeTab = 'info';
 
+  String _formatDate(String? dateStr) {
+    if (dateStr == null || dateStr.isEmpty) return 'Unknown';
+    try {
+      final date = DateTime.parse(dateStr);
+      final months = [
+        'Jan',
+        'Feb',
+        'Mar',
+        'Apr',
+        'May',
+        'Jun',
+        'Jul',
+        'Aug',
+        'Sep',
+        'Oct',
+        'Nov',
+        'Dec',
+      ];
+      return '${months[date.month - 1]} ${date.day}, ${date.year}';
+    } catch (e) {
+      return dateStr; // Return original if parsing fails
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -38,16 +65,20 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       {'id': 'info', 'label': l10n.infoTab, 'icon': LucideIcons.info},
       {'id': 'dosage', 'label': l10n.dosageTab, 'icon': LucideIcons.droplets},
       {
+        'id': 'similarities',
+        'label': 'Similarities',
+        'icon': LucideIcons.gitCompare,
+      },
+      {
         'id': 'alternatives',
         'label': l10n.alternativesTab,
-        'icon': LucideIcons.gitCompare,
+        'icon': LucideIcons.repeat,
       },
       {
         'id': 'interactions',
         'label': l10n.interactionsTab,
         'icon': LucideIcons.alertTriangle,
       },
-      {'id': 'price', 'label': l10n.priceTab, 'icon': LucideIcons.trendingDown},
     ];
 
     return Scaffold(
@@ -165,61 +196,37 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
+                  // Drug name without icon
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        width: 56,
-                        height: 56,
-                        decoration: BoxDecoration(
-                          color: colorScheme.onPrimary.withOpacity(0.1),
-                          borderRadius: AppRadius.circularLg,
-                        ),
-                        child: Icon(
-                          LucideIcons.pill,
+                      Text(
+                        widget.drug.tradeName,
+                        style: TextStyle(
                           color: colorScheme.onPrimary,
-                          size: 28,
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(width: AppSpacing.md),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                Flexible(
-                                  child: Text(
-                                    widget.drug.tradeName,
-                                    style: TextStyle(
-                                      color: colorScheme.onPrimary,
-                                      fontSize: 24,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ),
-                                // Popular badge logic removed as not in entity yet
-                              ],
-                            ),
-                            Text(
-                              widget.drug.arabicName,
-                              style: TextStyle(
-                                color: colorScheme.onPrimary.withOpacity(0.8),
-                                fontFamily: 'Cairo',
-                              ),
-                            ),
-                          ],
+                      const SizedBox(height: 4),
+                      Text(
+                        widget.drug.arabicName,
+                        style: TextStyle(
+                          color: colorScheme.onPrimary.withOpacity(0.8),
+                          fontFamily: 'Cairo',
                         ),
                       ),
                     ],
                   ),
-                  const SizedBox(height: AppSpacing.lg),
+                  const SizedBox(height: AppSpacing.md),
                   Text(
                     widget.drug.company,
                     style: TextStyle(
+                      fontSize: 14,
                       color: colorScheme.onPrimary.withOpacity(0.7),
                     ),
                   ),
-                  const SizedBox(height: AppSpacing.xs),
+                  const SizedBox(height: AppSpacing.lg),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.baseline,
                     textBaseline: TextBaseline.alphabetic,
@@ -276,6 +283,25 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                             ],
                           ),
                         ),
+                    ],
+                  ),
+                  // Last Updated Date
+                  const SizedBox(height: AppSpacing.sm),
+                  Row(
+                    children: [
+                      Icon(
+                        LucideIcons.refreshCw,
+                        size: 14,
+                        color: colorScheme.onPrimary.withOpacity(0.6),
+                      ),
+                      const SizedBox(width: 4),
+                      Text(
+                        'Updated ${_formatDate(widget.drug.lastPriceUpdate)}',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: colorScheme.onPrimary.withOpacity(0.6),
+                        ),
+                      ),
                     ],
                   ),
                 ],
@@ -471,28 +497,258 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
           ],
         ).animate().fadeIn();
 
+      case 'similarities':
+        // المثائل - نفس المادة الفعالة
+        return FutureBuilder<List<DrugEntity>>(
+          future: Provider.of<MedicineProvider>(
+            context,
+            listen: false,
+          ).getSimilarDrugs(widget.drug),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const Center(child: CircularProgressIndicator());
+            }
+
+            if (snapshot.hasError) {
+              return Center(
+                child: Text(
+                  'Error loading similars',
+                  style: TextStyle(color: colorScheme.error),
+                ),
+              );
+            }
+
+            final similars = snapshot.data ?? [];
+
+            if (similars.isEmpty) {
+              return Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Column(
+                    children: [
+                      Icon(
+                        LucideIcons.package,
+                        size: 48,
+                        color: colorScheme.outline,
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        l10n.noSimilarsFound,
+                        style: TextStyle(color: colorScheme.onSurfaceVariant),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }
+
+            return ListView.separated(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: similars.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              itemBuilder: (context, index) {
+                final drug = similars[index];
+                final isFav = Provider.of<MedicineProvider>(
+                  context,
+                  listen: false,
+                ).isFavorite(drug);
+
+                return DrugCard(
+                  drug: drugEntityToUIModel(drug, isFavorite: isFav),
+                  onFavoriteToggle:
+                      (_) => Provider.of<MedicineProvider>(
+                        context,
+                        listen: false,
+                      ).toggleFavorite(drug),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => DrugDetailsScreen(drug: drug),
+                      ),
+                    );
+                  },
+                );
+              },
+            );
+          },
+        ).animate().fadeIn();
+
       case 'alternatives':
+        // البدائل - أدوية بنفس الـ description
+        return FutureBuilder<List<DrugEntity>>(
+          future: Provider.of<MedicineProvider>(
+            context,
+            listen: false,
+          ).getAlternativeDrugs(widget.drug),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const Center(child: CircularProgressIndicator());
+            }
+
+            if (snapshot.hasError) {
+              return Center(
+                child: Text(
+                  'Error loading alternatives',
+                  style: TextStyle(color: colorScheme.error),
+                ),
+              );
+            }
+
+            final alternatives = snapshot.data ?? [];
+
+            if (alternatives.isEmpty) {
+              return Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Column(
+                    children: [
+                      Icon(
+                        LucideIcons.package,
+                        size: 48,
+                        color: colorScheme.outline,
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        l10n.noAlternativesFoundMsg,
+                        style: TextStyle(color: colorScheme.onSurfaceVariant),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }
+
+            return ListView.separated(
+              padding: const EdgeInsets.symmetric(vertical: 8),
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: alternatives.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              itemBuilder: (context, index) {
+                final drug = alternatives[index];
+                final isFav = Provider.of<MedicineProvider>(
+                  context,
+                  listen: false,
+                ).isFavorite(drug);
+
+                return DrugCard(
+                  drug: drugEntityToUIModel(drug, isFavorite: isFav),
+                  onFavoriteToggle:
+                      (_) => Provider.of<MedicineProvider>(
+                        context,
+                        listen: false,
+                      ).toggleFavorite(drug),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder: (_) => DrugDetailsScreen(drug: drug),
+                      ),
+                    );
+                  },
+                );
+              },
+            );
+          },
+        ).animate().fadeIn();
+
       case 'interactions':
-      case 'price':
-        return Center(
-          child: Padding(
-            padding: const EdgeInsets.all(32.0),
-            child: Column(
-              children: [
-                Icon(
-                  LucideIcons.construction,
-                  size: 48,
-                  color: colorScheme.outline,
+        // Drug Interactions
+        return FutureBuilder<List<DrugInteraction>>(
+          future: Provider.of<InteractionProvider>(
+            context,
+            listen: false,
+          ).getDrugInteractions(widget.drug),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const Center(child: CircularProgressIndicator());
+            }
+
+            if (snapshot.hasError) {
+              return Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Column(
+                    children: [
+                      Icon(
+                        LucideIcons.alertCircle,
+                        size: 48,
+                        color: colorScheme.error,
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        'Error loading interactions',
+                        style: TextStyle(color: colorScheme.error),
+                      ),
+                    ],
+                  ),
                 ),
-                const SizedBox(height: 16),
-                Text(
-                  "Feature coming soon",
-                  style: TextStyle(color: colorScheme.onSurfaceVariant),
+              );
+            }
+
+            final interactions = snapshot.data ?? [];
+
+            if (interactions.isEmpty) {
+              return Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Column(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primary.withValues(alpha: 0.1),
+                          shape: BoxShape.circle,
+                        ),
+                        child: Icon(
+                          LucideIcons.shieldCheck,
+                          size: 32,
+                          color: colorScheme.primary,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        isRTL
+                            ? 'لا توجد تفاعلات معروفة'
+                            : 'No Known Interactions',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                          color: colorScheme.onSurface,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        isRTL
+                            ? 'هذا الدواء آمن بناءً على البيانات المتاحة'
+                            : 'This drug appears safe based on available data',
+                        style: TextStyle(color: colorScheme.onSurfaceVariant),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
                 ),
-              ],
-            ),
-          ),
-        );
+              );
+            }
+
+            return ListView.separated(
+              padding: const EdgeInsets.all(16),
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: interactions.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 12),
+              itemBuilder: (context, index) {
+                return InteractionCard(interaction: interactions[index]);
+              },
+            );
+          },
+        ).animate().fadeIn();
 
       default:
         return Container();

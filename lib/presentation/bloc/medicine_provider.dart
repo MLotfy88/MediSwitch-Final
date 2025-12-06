@@ -1,23 +1,23 @@
+import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:dartz/dartz.dart';
-import 'package:collection/collection.dart';
+
 import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
-import '../../data/datasources/local/sqlite_local_data_source.dart';
 import '../../core/error/failures.dart';
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/entities/category_entity.dart';
-import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
-import '../../domain/usecases/search_drugs.dart';
-import '../../domain/usecases/filter_drugs_by_category.dart';
-import '../../domain/usecases/get_available_categories.dart';
-import '../../domain/usecases/get_last_update_timestamp.dart';
-import '../../domain/usecases/get_recently_updated_drugs.dart';
-import '../../domain/usecases/get_popular_drugs.dart';
+import '../../core/services/file_logger_service.dart';
 // import '../../domain/usecases/get_analytics_summary.dart'; // Keep commented out
 import '../../core/usecases/usecase.dart';
+import '../../data/datasources/local/sqlite_local_data_source.dart';
+import '../../domain/entities/category_entity.dart';
+import '../../domain/entities/drug_entity.dart';
+import '../../domain/usecases/filter_drugs_by_category.dart';
+import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
+import '../../domain/usecases/get_available_categories.dart';
+import '../../domain/usecases/get_last_update_timestamp.dart';
+import '../../domain/usecases/get_popular_drugs.dart';
+import '../../domain/usecases/get_recently_updated_drugs.dart';
+import '../../domain/usecases/search_drugs.dart';
 
 class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final GetAllDrugs getAllDrugsUseCase;
@@ -542,6 +542,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     );
   }
 
+  /// Alias for loadMoreDrugs (used by search results pagination)
+  Future<void> loadMoreResults() => loadMoreDrugs();
+
   Future<void> _applyFilters({
     required int page,
     bool append = false,
@@ -805,5 +808,43 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       ),
     );
     properties.add(IterableProperty<DrugEntity>('popularDrugs', _popularDrugs));
+  }
+
+  /// Get similar drugs (same active ingredient, different trade name)
+  Future<List<DrugEntity>> getSimilarDrugs(DrugEntity drug) async {
+    try {
+      _logger.i(
+        "MedicineProvider: Getting similar drugs for '${drug.tradeName}'",
+      );
+      final similars = await _localDataSource.findSimilars(
+        drug.active,
+        drug.tradeName,
+      );
+      _logger.i("MedicineProvider: Found ${similars.length} similar drugs");
+      return similars.map((model) => model.toEntity()).toList();
+    } catch (e, s) {
+      _logger.e("Error getting similar drugs", e, s);
+      return [];
+    }
+  }
+
+  /// Get alternative drugs (same description)
+  Future<List<DrugEntity>> getAlternativeDrugs(DrugEntity drug) async {
+    try {
+      _logger.i(
+        "MedicineProvider: Getting alternative drugs for '${drug.tradeName}'",
+      );
+      final alternatives = await _localDataSource.findAlternativesByDescription(
+        drug.description,
+        drug.tradeName,
+      );
+      _logger.i(
+        "MedicineProvider: Found ${alternatives.length} alternative drugs",
+      );
+      return alternatives.map((model) => model.toEntity()).toList();
+    } catch (e, s) {
+      _logger.e("Error getting alternative drugs", e, s);
+      return [];
+    }
   }
 }

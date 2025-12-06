@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 class HomeSearchBar extends StatelessWidget {
   final TextEditingController? controller;
@@ -31,19 +30,35 @@ class HomeSearchBar extends StatelessWidget {
         controller: controller,
         onChanged: onChanged,
         onTap: onTap,
+        readOnly: onTap != null,
         decoration: InputDecoration(
-          hintText: 'Search for drugs...',
+          hintText: 'Search medicines...',
           hintStyle: TextStyle(
-            color: Theme.of(context).appColors.mutedForeground,
-          ),
-          prefixIcon: Icon(
-            LucideIcons.search,
-            color: Theme.of(context).appColors.mutedForeground,
+            color: Theme.of(
+              context,
+            ).colorScheme.onSurface.withValues(alpha: 0.5),
           ),
           border: InputBorder.none,
           enabledBorder: InputBorder.none,
           focusedBorder: InputBorder.none,
-          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+          contentPadding: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 12,
+          ),
+          prefixIcon: Icon(
+            LucideIcons.search,
+            color: Theme.of(
+              context,
+            ).colorScheme.onSurface.withValues(alpha: 0.5),
+            size: 20,
+          ),
+          suffixIcon: Icon(
+            LucideIcons.mic,
+            color: Theme.of(
+              context,
+            ).colorScheme.onSurface.withValues(alpha: 0.5),
+            size: 20,
+          ),
         ),
       ),
     );
