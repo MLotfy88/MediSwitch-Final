@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Admin Dashboard: Check Build",
+            "type": "shell",
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npm run build:dev",
+            "group": "build",
+            "problemMatcher": [
+                "$tsc",
+                {
+                    "owner": "vite",
+                    "fileLocation": [
+                        "relative",
+                        "${workspaceFolder}/admin-dashboard"
+                    ],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        },
+        {
+            "label": "ESLint: Check All Files",
+            "type": "shell",
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npm run lint",
+            "problemMatcher": "$eslint-stylish",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "TypeScript: Check All Files",
+            "type": "shell",
+            "command": "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && cd admin-dashboard && npx tsc --noEmit",
+            "problemMatcher": "$tsc",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
