@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../presentation/theme/app_colors.dart';
+import '../theme/app_colors_extension.dart';
 
 class AppHeader extends StatelessWidget {
   final int notificationCount;
@@ -15,11 +15,17 @@ class AppHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final isDark = theme.brightness == Brightness.dark;
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: AppColors.surface.withValues(alpha: 0.95),
-        border: const Border(bottom: BorderSide(color: AppColors.border)),
+        color: theme.colorScheme.surface.withValues(alpha: 0.95),
+        border: Border(
+          bottom: BorderSide(color: theme.dividerColor.withValues(alpha: 0.5)),
+        ),
       ),
       child: SafeArea(
         bottom: false,
@@ -33,13 +39,23 @@ class AppHeader extends StatelessWidget {
                   width: 40,
                   height: 40,
                   decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [AppColors.primary, AppColors.primaryDark],
+                    gradient: LinearGradient(
+                      colors: [
+                        theme.colorScheme.primary,
+                        theme.colorScheme.primary.withValues(alpha: 0.8),
+                      ],
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
                     borderRadius: BorderRadius.circular(18),
-                    boxShadow: AppColors.shadowMd,
+                    boxShadow: [
+                      BoxShadow(
+                        color: theme.colorScheme.primary.withValues(alpha: 0.3),
+                        offset: const Offset(0, 4),
+                        blurRadius: 12,
+                        spreadRadius: -2,
+                      ),
+                    ],
                   ),
                   child: const Center(
                     child: Icon(
@@ -53,27 +69,27 @@ class AppHeader extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
+                    Text(
                       'MediSwitch',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
-                        color: AppColors.foreground,
+                        color: theme.colorScheme.onSurface,
                       ),
                     ),
                     Row(
                       children: [
-                        const Icon(
+                        Icon(
                           LucideIcons.refreshCw,
                           size: 12,
-                          color: AppColors.mutedForeground,
+                          color: appColors.mutedForeground,
                         ),
                         const SizedBox(width: 4),
                         Text(
                           'Updated Dec 5, 2024',
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 12,
-                            color: AppColors.mutedForeground,
+                            color: appColors.mutedForeground,
                           ),
                         ),
                       ],
@@ -92,13 +108,15 @@ class AppHeader extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: AppColors.accent,
+                      color: appColors.accent.withValues(
+                        alpha: isDark ? 0.2 : 0.1,
+                      ),
                       borderRadius: BorderRadius.circular(18),
                     ),
-                    child: const Icon(
+                    child: Icon(
                       LucideIcons.bell,
                       size: 20,
-                      color: AppColors.foreground,
+                      color: theme.colorScheme.onSurface,
                     ),
                   ),
                 ),
@@ -108,8 +126,8 @@ class AppHeader extends StatelessWidget {
                     right: -4,
                     child: Container(
                       padding: const EdgeInsets.all(4),
-                      decoration: const BoxDecoration(
-                        color: AppColors.danger,
+                      decoration: BoxDecoration(
+                        color: theme.colorScheme.error,
                         shape: BoxShape.circle,
                       ),
                       constraints: const BoxConstraints(

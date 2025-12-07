@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
-import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 
 class ModernDrugCard extends StatelessWidget {
@@ -22,14 +22,26 @@ class ModernDrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final isDark = theme.brightness == Brightness.dark;
+
     return GestureDetector(
       onTap: onTap,
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: AppColors.card,
+          color: theme.cardColor,
           borderRadius: BorderRadius.circular(18),
-          boxShadow: AppColors.shadowCard,
+          boxShadow: [
+            BoxShadow(
+              color: theme.shadowColor.withValues(alpha: isDark ? 0.3 : 0.06),
+              offset: const Offset(0, 2),
+              blurRadius: 8,
+              spreadRadius: -2,
+            ),
+          ],
+          border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
         ),
         child: Column(
           children: [
@@ -46,10 +58,10 @@ class ModernDrugCard extends StatelessWidget {
                           Flexible(
                             child: Text(
                               drug.tradeName,
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: AppColors.foreground,
+                                color: theme.colorScheme.onSurface,
                               ),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
@@ -78,9 +90,9 @@ class ModernDrugCard extends StatelessWidget {
                       ),
                       Text(
                         drug.nameAr,
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 14,
-                          color: AppColors.mutedForeground,
+                          color: appColors.mutedForeground,
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
@@ -94,7 +106,11 @@ class ModernDrugCard extends StatelessWidget {
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color:
-                          isFavorite ? AppColors.dangerSoft : AppColors.muted,
+                          isFavorite
+                              ? appColors.dangerSoft
+                              : theme.colorScheme.surface.withValues(
+                                alpha: isDark ? 0.3 : 0.5,
+                              ),
                       shape: BoxShape.circle,
                     ),
                     child: Icon(
@@ -102,8 +118,8 @@ class ModernDrugCard extends StatelessWidget {
                       size: 16,
                       color:
                           isFavorite
-                              ? AppColors.danger
-                              : AppColors.mutedForeground,
+                              ? appColors.dangerForeground
+                              : appColors.mutedForeground,
                     ),
                   ),
                 ),
@@ -121,7 +137,9 @@ class ModernDrugCard extends StatelessWidget {
                     vertical: 4,
                   ),
                   decoration: BoxDecoration(
-                    color: AppColors.accent,
+                    color: appColors.accent.withValues(
+                      alpha: isDark ? 0.2 : 0.1,
+                    ),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -129,32 +147,29 @@ class ModernDrugCard extends StatelessWidget {
                       Icon(
                         _getFormIcon(drug.form),
                         size: 14,
-                        color: AppColors.accentForeground,
+                        color: appColors.accent,
                       ),
                       const SizedBox(width: 6),
                       Text(
                         drug.form,
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 12,
                           fontWeight: FontWeight.w500,
-                          color: AppColors.accentForeground,
+                          color: appColors.accent,
                         ),
                       ),
                     ],
                   ),
                 ),
                 const SizedBox(width: 8),
-                const Text(
-                  '•',
-                  style: TextStyle(color: AppColors.mutedForeground),
-                ),
+                Text('•', style: TextStyle(color: appColors.mutedForeground)),
                 const SizedBox(width: 8),
                 Expanded(
                   child: Text(
                     drug.active, // activeIngredient
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 12,
-                      color: AppColors.mutedForeground,
+                      color: appColors.mutedForeground,
                     ),
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
@@ -175,20 +190,20 @@ class ModernDrugCard extends StatelessWidget {
                   children: [
                     Text(
                       '${drug.price} EGP',
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: AppColors.foreground,
+                        color: theme.colorScheme.onSurface,
                       ),
                     ),
                     if (drug.oldPrice != null) ...[
                       const SizedBox(width: 8),
                       Text(
                         '${drug.oldPrice}',
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 14,
                           decoration: TextDecoration.lineThrough,
-                          color: AppColors.mutedForeground,
+                          color: appColors.mutedForeground,
                         ),
                       ),
                       const SizedBox(width: 8),
@@ -205,23 +220,23 @@ class ModernDrugCard extends StatelessWidget {
                       vertical: 8,
                     ),
                     decoration: BoxDecoration(
-                      color: AppColors.dangerSoft,
+                      color: appColors.dangerSoft,
                       borderRadius: BorderRadius.circular(14),
                     ),
-                    child: const Row(
+                    child: Row(
                       children: [
                         Icon(
                           LucideIcons.alertTriangle,
                           size: 16,
-                          color: AppColors.danger,
+                          color: appColors.dangerForeground,
                         ),
-                        SizedBox(width: 8),
+                        const SizedBox(width: 8),
                         Text(
                           'Interaction',
                           style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: AppColors.danger,
+                            color: appColors.dangerForeground,
                           ),
                         ),
                       ],

@@ -26,6 +26,9 @@ abstract class DrugRepository {
   /// Gets all available categories
   Future<Either<Failure, List<String>>> getAvailableCategories();
 
+  /// Gets all available categories with their drug counts
+  Future<Either<Failure, Map<String, int>>> getCategoriesWithCounts();
+
   /// Gets the timestamp of the last successful data update from local storage.
   /// Returns null if no timestamp is found.
   Future<Either<Failure, int?>> getLastUpdateTimestamp();

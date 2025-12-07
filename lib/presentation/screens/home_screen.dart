@@ -14,6 +14,7 @@ import '../../domain/entities/drug_entity.dart';
 import '../../presentation/theme/app_colors.dart';
 import '../bloc/medicine_provider.dart';
 import '../services/ad_service.dart';
+import '../theme/app_colors_extension.dart';
 import '../widgets/app_header.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../widgets/cards/dangerous_drug_card.dart';
@@ -64,8 +65,9 @@ class _HomeScreenState extends State<HomeScreen> {
       final recentlyUpdatedCount = medicineProvider.recentlyUpdatedDrugs.length;
       final popularCount = medicineProvider.popularDrugs.length;
 
+      final theme = Theme.of(context);
       return Scaffold(
-        backgroundColor: AppColors.background,
+        backgroundColor: theme.scaffoldBackgroundColor,
         body: SafeArea(
           child: Column(
             children: [
@@ -216,40 +218,48 @@ class _HomeScreenState extends State<HomeScreen> {
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-              decoration: BoxDecoration(
-                color: AppColors.successSoft,
-                borderRadius: BorderRadius.circular(18),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Row(
+            child: Builder(
+              builder: (context) {
+                final appColors = Theme.of(context).appColors;
+                return Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 12,
+                  ),
+                  decoration: BoxDecoration(
+                    color: appColors.successSoft,
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Icon(
-                        LucideIcons.trendingUp,
-                        size: 20,
-                        color: AppColors.success,
+                      Row(
+                        children: [
+                          Icon(
+                            LucideIcons.trendingUp,
+                            size: 20,
+                            color: appColors.successForeground,
+                          ),
+                          const SizedBox(width: 8),
+                          Text(
+                            l10n.todaysUpdates,
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w500,
+                              color: appColors.successForeground,
+                            ),
+                          ),
+                        ],
                       ),
-                      const SizedBox(width: 8),
-                      Text(
-                        l10n.todaysUpdates,
-                        style: const TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w500,
-                          color: AppColors.success,
-                        ),
+                      const ModernBadge(
+                        text: '+30 Drugs',
+                        variant: BadgeVariant.newBadge,
+                        size: BadgeSize.lg,
                       ),
                     ],
                   ),
-                  const ModernBadge(
-                    text: '+30 Drugs',
-                    variant: BadgeVariant.newBadge,
-                    size: BadgeSize.lg,
-                  ),
-                ],
-              ),
+                );
+              },
             ),
           ),
         ),
@@ -442,17 +452,17 @@ class _HomeScreenState extends State<HomeScreen> {
             const Spacer(),
             Text(
               title,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w600,
-                color: AppColors.foreground,
+                color: Theme.of(context).colorScheme.onSurface,
               ),
             ),
             Text(
               subtitle,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 12,
-                color: AppColors.mutedForeground,
+                color: Theme.of(context).appColors.mutedForeground,
               ),
             ),
           ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../presentation/theme/app_colors.dart';
+import '../theme/app_colors_extension.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
@@ -23,6 +23,9 @@ class SectionHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Row(
@@ -45,17 +48,17 @@ class SectionHeader extends StatelessWidget {
                 children: [
                   Text(
                     title,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
-                      color: AppColors.foreground,
+                      color: theme.colorScheme.onSurface,
                     ),
                   ),
                   Text(
                     subtitle,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 12,
-                      color: AppColors.mutedForeground,
+                      color: appColors.mutedForeground,
                     ),
                   ),
                 ],
@@ -67,19 +70,19 @@ class SectionHeader extends StatelessWidget {
               onTap: onSeeAll,
               child: Row(
                 children: [
-                  const Text(
+                  Text(
                     'See all',
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
-                      color: AppColors.primary,
+                      color: theme.colorScheme.primary,
                     ),
                   ),
                   const SizedBox(width: 2),
-                  const Icon(
+                  Icon(
                     LucideIcons.chevronRight,
                     size: 16,
-                    color: AppColors.primary,
+                    color: theme.colorScheme.primary,
                   ),
                 ],
               ),

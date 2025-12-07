@@ -14,16 +14,19 @@ import '../../domain/entities/drug_entity.dart';
 import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
 import '../../domain/usecases/get_available_categories.dart';
+import '../../domain/usecases/get_categories_with_count.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
 import '../../domain/usecases/get_popular_drugs.dart';
 import '../../domain/usecases/get_recently_updated_drugs.dart';
 import '../../domain/usecases/search_drugs.dart';
+import '../utils/category_mapper.dart';
 
 class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final GetAllDrugs getAllDrugsUseCase;
   final SearchDrugsUseCase searchDrugsUseCase;
   final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
   final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
+  final GetCategoriesWithCountUseCase getCategoriesWithCountUseCase;
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
   final GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase;
   final GetPopularDrugsUseCase getPopularDrugsUseCase;
@@ -100,6 +103,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.searchDrugsUseCase,
     required this.filterDrugsByCategoryUseCase,
     required this.getAvailableCategoriesUseCase,
+    required this.getCategoriesWithCountUseCase,
     required this.getLastUpdateTimestampUseCase,
     required this.getRecentlyUpdatedDrugsUseCase,
     required this.getPopularDrugsUseCase,
@@ -207,30 +211,31 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
   Future<void> _loadCategories() async {
     _logger.d("MedicineProvider: _loadCategories called.");
-    final failureOrCategories = await getAvailableCategoriesUseCase(NoParams());
-    failureOrCategories.fold(
+
+    // NEW: Use getCategoriesWithCountUseCase
+    final failureOrCategoriesCounts = await getCategoriesWithCountUseCase(
+      NoParams(),
+    );
+
+    failureOrCategoriesCounts.fold(
       (failure) {
-        _logger.e("Error loading categories: ${_mapFailureToMessage(failure)}");
+        _logger.e(
+          "Error loading categories with counts: ${_mapFailureToMessage(failure)}",
+        );
+        // Fallback or empty
         _categories = [];
       },
-      (categories) {
+      (categoryCounts) {
         _logger.i(
-          "MedicineProvider: Categories loaded successfully (${categories.length} items).",
+          "MedicineProvider: Categories with counts loaded (${categoryCounts.length} raw DB categories).",
         );
-        _categories =
-            categories
-                .map(
-                  (catName) => CategoryEntity(
-                    id: catName,
-                    name: catName,
-                    nameAr: catName, // Placeholder until we have translations
-                    icon: 'pill',
-                    color: 'blue',
-                    drugCount:
-                        0, // We don't have counts yet without extra query
-                  ),
-                )
-                .toList();
+
+        // Use CategoryMapper to map and aggregate
+        _categories = CategoryMapper.mapCategoriesWithCounts(categoryCounts);
+
+        _logger.i(
+          "MedicineProvider: Mapped to ${_categories.length} display categories.",
+        );
       },
     );
   }
