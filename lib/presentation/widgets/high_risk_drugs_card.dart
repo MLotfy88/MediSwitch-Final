@@ -82,7 +82,9 @@ class HighRiskDrugsCard extends StatelessWidget {
               return DangerousDrugCard(
                 drug: drug,
                 onTap: () => onDrugTap(drug),
-                interactionCount: 3, // Mock count as before
+                interactionCount: interactionRepo.getInteractionCountForDrug(
+                  drug,
+                ),
                 severity: severity,
               );
             },

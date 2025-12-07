@@ -1,9 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
-import 'package:shared_preferences/shared_preferences.dart';
 // Database Helper
 import 'package:mediswitch/core/database/database_helper.dart';
-
+// Services
+import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/core/services/log_notifier.dart';
 // Database Helper
 // Database Helper
 
@@ -18,10 +19,15 @@ import 'package:mediswitch/data/repositories/analytics_repository_impl.dart';
 import 'package:mediswitch/data/repositories/config_repository_impl.dart';
 import 'package:mediswitch/data/repositories/drug_repository_impl.dart';
 import 'package:mediswitch/data/repositories/interaction_repository_impl.dart';
+// Services
+import 'package:mediswitch/data/services/analytics_service_impl.dart';
 import 'package:mediswitch/domain/repositories/analytics_repository.dart';
 import 'package:mediswitch/domain/repositories/config_repository.dart';
 import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
+import 'package:mediswitch/domain/services/analytics_service.dart';
+import 'package:mediswitch/domain/services/dosage_calculator_service.dart';
+import 'package:mediswitch/domain/services/interaction_checker_service.dart';
 // Use Cases
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
@@ -35,12 +41,7 @@ import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
 import 'package:mediswitch/domain/usecases/load_interaction_data.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
-// Services
-import 'package:mediswitch/data/services/analytics_service_impl.dart';
-import 'package:mediswitch/domain/services/analytics_service.dart';
-import 'package:mediswitch/domain/services/dosage_calculator_service.dart';
-import 'package:mediswitch/domain/services/interaction_checker_service.dart';
-import 'package:mediswitch/presentation/services/ad_service.dart';
+import 'package:mediswitch/presentation/bloc/ad_config_provider.dart';
 // Providers / Blocs
 import 'package:mediswitch/presentation/bloc/alternatives_provider.dart';
 import 'package:mediswitch/presentation/bloc/dose_calculator_provider.dart';
@@ -48,9 +49,8 @@ import 'package:mediswitch/presentation/bloc/interaction_provider.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/bloc/settings_provider.dart';
 import 'package:mediswitch/presentation/bloc/subscription_provider.dart';
-// Services
-import 'package:mediswitch/core/services/file_logger_service.dart';
-import 'package:mediswitch/core/services/log_notifier.dart';
+import 'package:mediswitch/presentation/services/ad_service.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 // Global Service Locator instance
 final locator = GetIt.instance;
@@ -261,6 +261,16 @@ Future<void> setupLocator() async {
     () => SettingsProvider(/* logger: locator<FileLoggerService>() */),
   );
   locator.registerLazySingleton(() => SubscriptionProvider());
+
+  locator.registerLazySingleton(
+    () => AdConfigProvider(
+      // getAdMobConfig: locator<GetAdMobConfig>(), // If I inject it, but the provider creates it currently.
+      // Wait, AdConfigProvider in previous step was updated to not use args in constructor?
+      // Let's check AdConfigProvider again. It uses locator inside?
+      // "class AdConfigProvider extends ChangeNotifier { ... final GetAdMobConfig _getAdMobConfig = locator<GetAdMobConfig>(); ... }"
+      // Yes, it uses locator inside. So no args needed.
+    ),
+  );
 
   // Ensure all asynchronous singletons are ready before proceeding
   logger.i("Locator: Waiting for all async singletons...");

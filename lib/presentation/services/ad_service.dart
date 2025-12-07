@@ -1,106 +1,108 @@
 import 'dart:io' show Platform;
-import 'package:flutter/foundation.dart';
+
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/presentation/bloc/ad_config_provider.dart';
 
 class AdService {
   InterstitialAd? _interstitialAd;
-  int _interstitialLoadAttempts = 0;
-  final int maxFailedLoadAttempts = 3; // Prevent infinite retry loops
-
-  // Counter for triggering interstitial ads
   int _usageCounter = 0;
-  final int _showAdFrequency = 10; // Show ad every 10 uses
-
-  // Use test ad unit IDs
-  final String _interstitialAdUnitId =
-      Platform.isAndroid
-          ? 'ca-app-pub-3940256099942544/1033173712' // Android Test ID
-          : 'ca-app-pub-3940256099942544/4411468910'; // iOS Test ID
+  bool _isAdLoaded = false;
 
   AdService() {
-    _loadInterstitialAd(); // Load an ad initially
+    // Listen to config changes to retry loading if ads become enabled
+    try {
+      locator<AdConfigProvider>().addListener(_onConfigChanged);
+      _onConfigChanged(); // Initial check
+    } catch (e) {
+      print("AdService: Error attaching listener to AdConfigProvider: $e");
+    }
+  }
+
+  void _onConfigChanged() {
+    try {
+      final config = locator<AdConfigProvider>();
+      if (config.adsEnabled && !_isAdLoaded) {
+        _loadInterstitialAd();
+      }
+    } catch (e) {
+      print("AdService: Error in _onConfigChanged: $e");
+    }
   }
 
   void _loadInterstitialAd() {
-    if (_interstitialLoadAttempts >= maxFailedLoadAttempts) {
-      print('AdService: Max interstitial failed load attempts reached.');
-      return;
-    }
+    final config = locator<AdConfigProvider>();
+
+    if (!config.adsEnabled) return;
+
+    final String adUnitId =
+        Platform.isAndroid
+            ? config.interstitialAdUnitIdAndroid
+            : config.interstitialAdUnitIdIos;
+
+    if (adUnitId.isEmpty) return;
 
     InterstitialAd.load(
-      adUnitId: _interstitialAdUnitId,
+      adUnitId: adUnitId,
       request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (InterstitialAd ad) {
-          print('InterstitialAd loaded.');
+          print('AdService: InterstitialAd loaded.');
           _interstitialAd = ad;
-          _interstitialLoadAttempts = 0; // Reset attempts on success
-          _setupFullScreenContentCallback(); // Setup callbacks after loading
+          _isAdLoaded = true;
+          _interstitialAd!.setImmersiveMode(true);
         },
         onAdFailedToLoad: (LoadAdError error) {
-          print('InterstitialAd failed to load: $error');
-          _interstitialLoadAttempts++;
-          _interstitialAd = null; // Ensure ad is null on failure
-          // Optionally retry loading after a delay
-          // Future.delayed(Duration(seconds: 60), () => _loadInterstitialAd());
+          print('AdService: InterstitialAd failed to load: $error');
+          _interstitialAd = null;
+          _isAdLoaded = false;
         },
       ),
     );
   }
 
-  void _setupFullScreenContentCallback() {
-    if (_interstitialAd == null) return;
-
-    _interstitialAd!.fullScreenContentCallback = FullScreenContentCallback(
-      onAdShowedFullScreenContent:
-          (InterstitialAd ad) =>
-              print('InterstitialAd showed full screen content.'),
-      onAdDismissedFullScreenContent: (InterstitialAd ad) {
-        print('InterstitialAd dismissed full screen content.');
-        ad.dispose(); // Dispose the ad after it's shown
-        _interstitialAd = null; // Clear the ad reference
-        _loadInterstitialAd(); // Load the next ad
-      },
-      onAdFailedToShowFullScreenContent: (InterstitialAd ad, AdError error) {
-        print('InterstitialAd failed to show full screen content: $error');
-        ad.dispose();
-        _interstitialAd = null;
-        _loadInterstitialAd(); // Try loading again
-      },
-      onAdImpression:
-          (InterstitialAd ad) => print('InterstitialAd impression.'),
-    );
-  }
-
-  // Call this method when a feature is used (e.g., search, view details)
   void incrementUsageCounterAndShowAdIfNeeded() {
+    final config = locator<AdConfigProvider>();
+
+    if (!config.adsEnabled) return;
+
     _usageCounter++;
-    print('AdService: Usage counter incremented to $_usageCounter');
-    if (_usageCounter >= _showAdFrequency) {
-      showInterstitialAd();
-      _usageCounter = 0; // Reset counter after showing (or attempting to show)
+    // print("AdService: Usage counter: $_usageCounter / ${config.interstitialAdFrequency}");
+
+    if (_usageCounter >= config.interstitialAdFrequency) {
+      _showInterstitialAd();
+      _usageCounter = 0;
     }
   }
 
-  // Call this method to explicitly show the ad
-  void showInterstitialAd() {
-    if (_interstitialAd != null) {
-      print('AdService: Attempting to show InterstitialAd.');
+  void _showInterstitialAd() {
+    if (_isAdLoaded && _interstitialAd != null) {
+      _interstitialAd!.fullScreenContentCallback = FullScreenContentCallback(
+        onAdDismissedFullScreenContent: (InterstitialAd ad) {
+          print('AdService: InterstitialAd dismissed.');
+          ad.dispose();
+          _isAdLoaded = false;
+          _loadInterstitialAd(); // Load the next one
+        },
+        onAdFailedToShowFullScreenContent: (InterstitialAd ad, AdError error) {
+          print('AdService: InterstitialAd failed to show: $error');
+          ad.dispose();
+          _isAdLoaded = false;
+          _loadInterstitialAd(); // Retry load
+        },
+      );
       _interstitialAd!.show();
-      // Callbacks in _setupFullScreenContentCallback handle disposal and reloading
+      _interstitialAd = null; // Clear reference as it's disposed on dismiss
     } else {
       print('AdService: InterstitialAd not ready yet.');
-      // Optionally try loading again if it's null
-      if (_interstitialLoadAttempts < maxFailedLoadAttempts) {
-        print('AdService: Triggering ad load.');
-        _loadInterstitialAd();
-      }
+      _loadInterstitialAd(); // Try loading again for next time
     }
   }
 
-  // Dispose method if the service needs cleanup (e.g., in a Provider dispose)
   void dispose() {
     _interstitialAd?.dispose();
-    print('AdService disposed.');
+    try {
+      locator<AdConfigProvider>().removeListener(_onConfigChanged);
+    } catch (_) {}
   }
 }

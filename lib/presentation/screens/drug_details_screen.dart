@@ -1,19 +1,22 @@
 import 'dart:ui' as ui; // Import dart:ui with alias
+
 import 'package:dartz/dartz.dart' as dartz; // Import Either with prefix
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+
 import '../../core/constants/app_constants.dart'; // Import constants for translation map
 import '../../core/di/locator.dart';
 import '../../core/error/failures.dart'; // Import Failure
 import '../../core/services/file_logger_service.dart';
+import '../../core/utils/currency_helper.dart'; // Import currency helper
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart'; // Import DrugInteraction
 import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
 import '../widgets/alternatives_tab_content.dart';
+import '../widgets/banner_ad_widget.dart';
 import '../widgets/interaction_card.dart'; // Import InteractionCard
-import '../../core/utils/currency_helper.dart'; // Import currency helper
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -37,8 +40,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   @override
   void initState() {
     super.initState();
-    // Update tab count to 5 (Info, Alternatives, Dosage, Interactions, Price)
-    _tabController = TabController(length: 5, vsync: this);
+    // Tab count: 4 (Info, Alternatives, Dosage, Interactions)
+    _tabController = TabController(length: 4, vsync: this);
     _logger.i(
       "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
     );
@@ -138,8 +141,12 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 _buildAlternativesTab(context),
                 _buildDosageTab(context, colorScheme, textTheme, l10n),
                 _buildInteractionsTab(context, colorScheme, textTheme, l10n),
-                _buildPriceTab(context, colorScheme, textTheme, l10n),
               ],
+            ),
+          ),
+          const SliverToBoxAdapter(
+            child: BannerAdWidget(
+              placement: BannerAdPlacement.drugDetailsBottom,
             ),
           ),
         ],
@@ -566,16 +573,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   const Icon(LucideIcons.alertCircle, size: 16),
                   const SizedBox(width: 8),
                   Text(l10n.interactionsTab),
-                ],
-              ),
-            ),
-            Tab(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(LucideIcons.barChart2, size: 16),
-                  const SizedBox(width: 8),
-                  Text(isArabic ? 'السعر' : 'Price'),
                 ],
               ),
             ),

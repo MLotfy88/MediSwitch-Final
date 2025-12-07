@@ -194,6 +194,46 @@ async function handleRequest(request, env) {
       }
     }
 
+    // Admin: Update User Status
+    if (path.match(/^\/api\/admin\/users\/[^/]+$/) && request.method === 'PUT') {
+      try {
+        const id = path.split('/').pop();
+        const { status } = await request.json();
+
+        if (!['active', 'suspended', 'deleted'].includes(status)) {
+          return jsonResponse({ error: 'Invalid status' }, 400);
+        }
+
+        const now = Math.floor(Date.now() / 1000);
+        await env.DB.prepare('UPDATE users SET status = ?, updated_at = ? WHERE id = ?')
+          .bind(status, now, id).run();
+
+        return jsonResponse({ message: 'User status updated', data: { id, status } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Update Subscription Status
+    if (path.match(/^\/api\/admin\/subscriptions\/[^/]+$/) && request.method === 'PUT') {
+      try {
+        const id = path.split('/').pop();
+        const { status } = await request.json();
+
+        if (!['active', 'canceled', 'expired', 'trial'].includes(status)) {
+          return jsonResponse({ error: 'Invalid status' }, 400);
+        }
+
+        const now = Math.floor(Date.now() / 1000);
+        await env.DB.prepare('UPDATE user_subscriptions SET status = ?, updated_at = ? WHERE id = ?')
+          .bind(status, now, id).run();
+
+        return jsonResponse({ message: 'Subscription status updated', data: { id, status } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
     // Admin: Drug Management (CRUD)
 
     // Admin: Get all drugs (with pagination/search for admin)
@@ -398,58 +438,60 @@ async function handleRequest(request, env) {
         // Table might not exist yet if schema_config wasn't applied or failed
         return jsonResponse({ data: [] });
       }
-      // Analytics: Daily Stats
-      if (path === '/api/analytics/daily' && request.method === 'GET') {
-        try {
-          const { results } = await env.DB.prepare('SELECT * FROM analytics_daily ORDER BY date DESC LIMIT 30').all();
-          return jsonResponse({ data: (results || []).reverse() });
-        } catch (e) {
-          return jsonResponse({ data: [] });
-        }
-      }
-
-      if (path === '/api/config' && request.method === 'GET') {
-        try {
-          const { results } = await env.DB.prepare('SELECT * FROM app_config').all();
-          const config = {};
-          if (results) results.forEach(r => config[r.key] = r.value);
-          return jsonResponse(config);
-        } catch (e) {
-          return jsonResponse({});
-        }
-      }
-
-      if (path === '/api/interactions' && request.method === 'GET') {
-        const page = parseInt(url.searchParams.get('page') || '1');
-        const limit = parseInt(url.searchParams.get('limit') || '100');
-        const offset = (page - 1) * limit;
-
-        try {
-          const { results } = await env.DB.prepare('SELECT * FROM drug_interactions ORDER BY created_at DESC LIMIT ? OFFSET ?')
-            .bind(limit, offset).all();
-          const { count } = await env.DB.prepare('SELECT COUNT(*) as count FROM drug_interactions').first();
-
-          return jsonResponse({
-            data: results || [],
-            pagination: { page, limit, total: count, pages: Math.ceil(count / limit) }
-          });
-        } catch (e) {
-          return jsonResponse({ data: [], pagination: { page: 1, limit, total: 0, pages: 0 } });
-        }
-      }
-
-      // 404
-      return jsonResponse({ error: 'Not found' }, 404);
-
-    } catch (error) {
-      console.error('Error:', error);
-      return jsonResponse({ error: error.message }, 500);
     }
+
+    // Analytics: Daily Stats
+    if (path === '/api/analytics/daily' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM analytics_daily ORDER BY date DESC LIMIT 30').all();
+        return jsonResponse({ data: (results || []).reverse() });
+      } catch (e) {
+        return jsonResponse({ data: [] });
+      }
+    }
+
+    if (path === '/api/config' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM app_config').all();
+        const config = {};
+        if (results) results.forEach(r => config[r.key] = r.value);
+        return jsonResponse(config);
+      } catch (e) {
+        return jsonResponse({});
+      }
+    }
+
+    if (path === '/api/interactions' && request.method === 'GET') {
+      const page = parseInt(url.searchParams.get('page') || '1');
+      const limit = parseInt(url.searchParams.get('limit') || '100');
+      const offset = (page - 1) * limit;
+
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM drug_interactions ORDER BY created_at DESC LIMIT ? OFFSET ?')
+          .bind(limit, offset).all();
+        const { count } = await env.DB.prepare('SELECT COUNT(*) as count FROM drug_interactions').first();
+
+        return jsonResponse({
+          data: results || [],
+          pagination: { page, limit, total: count, pages: Math.ceil(count / limit) }
+        });
+      } catch (e) {
+        return jsonResponse({ data: [], pagination: { page: 1, limit, total: 0, pages: 0 } });
+      }
+    }
+
+    // 404
+    return jsonResponse({ error: 'Not found' }, 404);
+
+  } catch (error) {
+    console.error('Error:', error);
+    return jsonResponse({ error: error.message }, 500);
   }
+}
 
 // Event listener (Service Worker format)
 export default {
-    async fetch(request, env, ctx) {
-      return handleRequest(request, env);
-    }
-  };
+  async fetch(request, env, ctx) {
+    return handleRequest(request, env);
+  }
+};

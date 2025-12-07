@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Added for generated localizations
+import 'package:flutter_localizations/flutter_localizations.dart'; // Added for localization
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/date_symbol_data_local.dart'; // Import for date formatting initialization
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart';
-import 'data/datasources/local/sqlite_local_data_source.dart';
-import 'presentation/bloc/medicine_provider.dart';
-import 'presentation/bloc/settings_provider.dart';
+import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
+import 'presentation/bloc/ad_config_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
 import 'presentation/bloc/dose_calculator_provider.dart';
 import 'presentation/bloc/interaction_provider.dart';
+import 'presentation/bloc/medicine_provider.dart';
+import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
-import 'presentation/screens/main_screen.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
-import 'package:flutter_localizations/flutter_localizations.dart'; // Added for localization
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Added for generated localizations
-import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 import 'presentation/theme/app_theme.dart';
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
@@ -468,6 +467,12 @@ class MyApp extends StatelessWidget {
           create: (_) {
             logger.d("MyApp: Creating SubscriptionProvider...");
             return locator<SubscriptionProvider>();
+          },
+        ),
+        ChangeNotifierProvider(
+          create: (_) {
+            logger.d("MyApp: Creating AdConfigProvider...");
+            return locator<AdConfigProvider>();
           },
         ),
       ],

@@ -8,6 +8,12 @@ class AdMobConfigEntity extends Equatable {
   final String interstitialAdUnitIdAndroid;
   final String interstitialAdUnitIdIos;
   final bool adsEnabled;
+  final bool testAdsEnabled;
+  final bool homeBottomEnabled;
+  final bool searchBottomEnabled;
+  final bool drugDetailsBottomEnabled;
+  final bool betweenSearchResultsEnabled;
+  final bool betweenAlternativesEnabled;
   final int interstitialAdFrequency; // e.g., show after every N uses
 
   const AdMobConfigEntity({
@@ -18,6 +24,12 @@ class AdMobConfigEntity extends Equatable {
     required this.interstitialAdUnitIdAndroid,
     required this.interstitialAdUnitIdIos,
     required this.adsEnabled,
+    required this.testAdsEnabled,
+    required this.homeBottomEnabled,
+    required this.searchBottomEnabled,
+    required this.drugDetailsBottomEnabled,
+    required this.betweenSearchResultsEnabled,
+    required this.betweenAlternativesEnabled,
     required this.interstitialAdFrequency,
   });
 
@@ -31,6 +43,12 @@ class AdMobConfigEntity extends Equatable {
       interstitialAdUnitIdAndroid: '',
       interstitialAdUnitIdIos: '',
       adsEnabled: false,
+      testAdsEnabled: true,
+      homeBottomEnabled: true,
+      searchBottomEnabled: true,
+      drugDetailsBottomEnabled: true,
+      betweenSearchResultsEnabled: false,
+      betweenAlternativesEnabled: false,
       interstitialAdFrequency: 10, // Default frequency
     );
   }
@@ -44,6 +62,12 @@ class AdMobConfigEntity extends Equatable {
     interstitialAdUnitIdAndroid,
     interstitialAdUnitIdIos,
     adsEnabled,
+    testAdsEnabled,
+    homeBottomEnabled,
+    searchBottomEnabled,
+    drugDetailsBottomEnabled,
+    betweenSearchResultsEnabled,
+    betweenAlternativesEnabled,
     interstitialAdFrequency,
   ];
 }

@@ -14,8 +14,8 @@ ACCOUNT_ID = "9f7fd7dfef294f26d47d62df34726367"
 WORKER_NAME = "mediswitch-api"
 
 # Get credentials from environment or use provided values
-API_TOKEN = os.environ.get('CLOUDFLARE_API_TOKEN') or 'yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-'
-EMAIL = os.environ.get('CLOUDFLARE_EMAIL') or 'eedf653449abdca28e865ddf3511dd4c62ed2'
+API_TOKEN = os.environ.get('CLOUDFLARE_API_TOKEN')
+EMAIL = os.environ.get('CLOUDFLARE_EMAIL')
 GLOBAL_KEY = os.environ.get('CLOUDFLARE_GLOBAL_API_KEY')
 
 # Setup headers
@@ -31,7 +31,7 @@ elif EMAIL and GLOBAL_KEY:
     headers = {
         "X-Auth-Email": EMAIL,
         "X-Auth-Key": GLOBAL_KEY,
-        "Content-Type": "application/javascript"
+        "X-Auth-Key": GLOBAL_KEY
     }
 else:
     print("❌ Error: No authentication credentials!")
@@ -70,7 +70,14 @@ import json
 
 metadata = {
     "main_module": "worker.js",
-    "compatibility_date": "2024-01-01"
+    "compatibility_date": "2024-01-01",
+    "bindings": [
+        {
+            "type": "d1",
+            "name": "DB",
+            "id": "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
+        }
+    ]
 }
 
 # We call the concatenated file 'worker.js'
@@ -94,31 +101,7 @@ try:
         print("✅ Worker deployed successfully!")
         print(f"\n🌐 Worker URL: https://{WORKER_NAME}.admin-lotfy.workers.dev")
         
-        # Now bind D1 database
-        print("\n🔗 Binding D1 database...")
-        bindings_url = f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/workers/scripts/{WORKER_NAME}/bindings"
-        
-        binding_payload = {
-            "bindings": [
-                {
-                    "type": "d1",
-                    "name": "DB",
-                    "id": "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
-                }
-            ]
-        }
-        
-        bind_headers = {
-            "Authorization": f"Bearer {API_TOKEN}",
-            "Content-Type": "application/json"
-        }
-        
-        bind_response = requests.put(bindings_url, headers=bind_headers, json=binding_payload)
-        
-        if bind_response.status_code == 200:
-            print("✅ D1 database bound successfully!")
-        else:
-            print(f"⚠️  D1 binding warning: {bind_response.text}")
+        pass # Binding included in deployment
             
     else:
         print(f"❌ Deployment failed: {result.get('errors')}")
