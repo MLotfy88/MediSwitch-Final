@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../theme/app_colors.dart';
+import '../../theme/app_colors_extension.dart';
 
 enum RiskLevel { critical, high }
 
@@ -25,34 +25,36 @@ class DangerousDrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final isDark = theme.brightness == Brightness.dark;
+
     // Determine styles based on risk level
     final isCritical = riskLevel == RiskLevel.critical;
 
     final backgroundColor =
-        isCritical
-            ? AppColors.danger.withValues(alpha: 0.1)
-            : AppColors.warningSoft;
+        isCritical ? appColors.dangerSoft : appColors.warningSoft;
     final borderColor =
         isCritical
-            ? AppColors.danger.withValues(alpha: 0.3)
-            : AppColors.warning.withValues(alpha: 0.3);
+            ? appColors.dangerForeground.withValues(alpha: 0.3)
+            : appColors.warningForeground.withValues(alpha: 0.3);
 
     final iconBg =
         isCritical
-            ? AppColors.danger.withValues(alpha: 0.2)
-            : AppColors.warning.withValues(alpha: 0.2);
-    final iconColor = isCritical ? AppColors.danger : AppColors.warning;
+            ? appColors.dangerForeground.withValues(alpha: 0.2)
+            : appColors.warningForeground.withValues(alpha: 0.2);
+    final iconColor =
+        isCritical ? appColors.dangerForeground : appColors.warningForeground;
     final iconData = isCritical ? LucideIcons.skull : LucideIcons.alertTriangle;
 
     final nameColor =
-        isCritical
-            ? AppColors.danger
-            : const Color(0xFF4F3103); // Warning Foreground
-    final badgeColor = isCritical ? AppColors.danger : const Color(0xFF4F3103);
+        isCritical ? appColors.dangerForeground : appColors.warningForeground;
+    final badgeColor =
+        isCritical ? appColors.dangerForeground : appColors.warningForeground;
     final badgeBg =
         isCritical
-            ? AppColors.danger.withValues(alpha: 0.2)
-            : AppColors.warning.withValues(alpha: 0.2);
+            ? appColors.dangerForeground.withValues(alpha: 0.2)
+            : appColors.warningForeground.withValues(alpha: 0.2);
 
     return GestureDetector(
       onTap: onTap,
@@ -95,10 +97,7 @@ class DangerousDrugCard extends StatelessWidget {
             // Active Ingredient
             Text(
               activeIngredient,
-              style: const TextStyle(
-                fontSize: 12,
-                color: AppColors.mutedForeground,
-              ),
+              style: TextStyle(fontSize: 12, color: appColors.mutedForeground),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),

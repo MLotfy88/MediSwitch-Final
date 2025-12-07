@@ -4,6 +4,7 @@ import 'package:mediswitch/domain/entities/category_entity.dart';
 /// يربط أسماء التخصصات الحقيقية من Database بالأسماء المطلوبة في التصميم المرجعي
 class CategoryMapper {
   // التخصصات المطلوبة في التصميم (من mediswitch-refresh)
+  // Design Reference Categories with unique icons and colors
   static const List<Map<String, dynamic>> referenceCategories = [
     {
       'id': '1',
@@ -49,76 +50,242 @@ class CategoryMapper {
     },
   ];
 
-  // قاموس ربط الأسماء الحقيقية بالأسماء المرجعية
+  // Comprehensive mapping dictionary: Database Category Name -> Reference Category Name
+  // Maps all possible database category variations to our 6 design reference categories
   static const Map<String, String> realToReferenceName = {
-    // مثال: إذا كانت البيانات الحقيقية تحتوي على "Cardiology" نربطها بـ "Cardiac"
-    'Cardiology': 'Cardiac',
-    'Cardiovascular': 'Cardiac',
-    'Heart': 'Cardiac',
+    // Cardiac (Heart) - Red
+    'cardiology': 'Cardiac',
+    'cardiovascular': 'Cardiac',
+    'heart': 'Cardiac',
+    'cardiac': 'Cardiac',
+    'cardio': 'Cardiac',
+    'blood pressure': 'Cardiac',
+    'hypertension': 'Cardiac',
+    'antihypertensive': 'Cardiac',
+    'antihypertensives': 'Cardiac',
+    'heart disease': 'Cardiac',
     'القلب': 'Cardiac',
+    'أمراض القلب': 'Cardiac',
 
-    'Neurology': 'Neuro',
-    'Neurological': 'Neuro',
-    'Brain': 'Neuro',
+    // Neuro (Brain/Nerves) - Purple
+    'neurology': 'Neuro',
+    'neurological': 'Neuro',
+    'neuro': 'Neuro',
+    'brain': 'Neuro',
+    'nervous': 'Neuro',
+    'psychiatric': 'Neuro',
+    'psychiatry': 'Neuro',
+    'mental health': 'Neuro',
+    'antipsychotic': 'Neuro',
+    'antipsychotics': 'Neuro',
+    'antidepressant': 'Neuro',
+    'antidepressants': 'Neuro',
+    'anxiety': 'Neuro',
+    'epilepsy': 'Neuro',
+    'anticonvulsant': 'Neuro',
+    'anticonvulsants': 'Neuro',
+    'sedative': 'Neuro',
+    'sedatives': 'Neuro',
     'الأعصاب': 'Neuro',
+    'الجهاز العصبي': 'Neuro',
+    'نفسية': 'Neuro',
 
-    'Dentistry': 'Dental',
-    'Dental Care': 'Dental',
-    'Teeth': 'Dental',
+    // Dental (Teeth/Mouth) - Teal
+    'dentistry': 'Dental',
+    'dental': 'Dental',
+    'dental care': 'Dental',
+    'teeth': 'Dental',
+    'oral': 'Dental',
+    'oral care': 'Dental',
+    'mouth': 'Dental',
     'الأسنان': 'Dental',
+    'العناية بالفم': 'Dental',
 
-    'Pediatrics': 'Pediatric',
-    'Children': 'Pediatric',
-    'Kids': 'Pediatric',
+    // Pediatric (Children) - Green
+    'pediatrics': 'Pediatric',
+    'pediatric': 'Pediatric',
+    'children': 'Pediatric',
+    'kids': 'Pediatric',
+    'baby': 'Pediatric',
+    'baby care': 'Pediatric',
+    'infant': 'Pediatric',
+    'neonatal': 'Pediatric',
+    'child health': 'Pediatric',
     'الأطفال': 'Pediatric',
+    'طب الأطفال': 'Pediatric',
+    'رعاية الأطفال': 'Pediatric',
 
-    'Ophthalmology': 'Ophthalmic',
-    'Eye Care': 'Ophthalmic',
-    'Vision': 'Ophthalmic',
+    // Ophthalmic (Eyes/Vision) - Blue
+    'ophthalmology': 'Ophthalmic',
+    'ophthalmic': 'Ophthalmic',
+    'eye care': 'Ophthalmic',
+    'eye': 'Ophthalmic',
+    'eyes': 'Ophthalmic',
+    'vision': 'Ophthalmic',
+    'ocular': 'Ophthalmic',
     'العيون': 'Ophthalmic',
+    'طب العيون': 'Ophthalmic',
+    'رعاية العيون': 'Ophthalmic',
 
-    'Orthopedics': 'Orthopedic',
-    'Bones': 'Orthopedic',
-    'Skeletal': 'Orthopedic',
+    // Orthopedic (Bones/Muscles) - Orange
+    'orthopedics': 'Orthopedic',
+    'orthopedic': 'Orthopedic',
+    'orthopaedic': 'Orthopedic',
+    'bones': 'Orthopedic',
+    'bone': 'Orthopedic',
+    'skeletal': 'Orthopedic',
+    'musculoskeletal': 'Orthopedic',
+    'joints': 'Orthopedic',
+    'rheumatology': 'Orthopedic',
+    'arthritis': 'Orthopedic',
     'العظام': 'Orthopedic',
+    'طب العظام': 'Orthopedic',
+    'المفاصل': 'Orthopedic',
   };
+
+  /// Maps a database category name to a reference category name (case-insensitive)
+  static String? getReferenceCategoryName(String dbCategoryName) {
+    final lowerName = dbCategoryName.toLowerCase().trim();
+
+    // Direct match first
+    if (realToReferenceName.containsKey(lowerName)) {
+      return realToReferenceName[lowerName];
+    }
+
+    // Partial match - check if any key is contained in the category name
+    for (final entry in realToReferenceName.entries) {
+      if (lowerName.contains(entry.key) || entry.key.contains(lowerName)) {
+        return entry.value;
+      }
+    }
+
+    return null;
+  }
+
+  /// Get reference category data by name
+  static Map<String, dynamic>? getReferenceCategoryData(String refName) {
+    try {
+      return referenceCategories.firstWhere((cat) => cat['name'] == refName);
+    } catch (_) {
+      return null;
+    }
+  }
+
+  /// Convert a map of database categories with counts to CategoryEntity list
+  /// Prioritizes categories that match our 6 reference categories
+  static List<CategoryEntity> mapCategoriesWithCounts(
+    Map<String, int> categoryCounts,
+  ) {
+    final List<CategoryEntity> result = [];
+    final Set<String> usedReferenceCategories = {};
+
+    // First pass: Map database categories to reference categories
+    final Map<String, ({int count, String originalName})> refCategoryData = {};
+
+    for (final entry in categoryCounts.entries) {
+      final dbCategory = entry.key;
+      final count = entry.value;
+      final refName = getReferenceCategoryName(dbCategory);
+
+      if (refName != null) {
+        // Aggregate counts for same reference category
+        if (refCategoryData.containsKey(refName)) {
+          final existing = refCategoryData[refName]!;
+          refCategoryData[refName] = (
+            count: existing.count + count,
+            originalName: existing.originalName,
+          );
+        } else {
+          refCategoryData[refName] = (count: count, originalName: dbCategory);
+        }
+      }
+    }
+
+    // Sort reference categories by count (descending) and take top 6
+    final sortedRefCategories =
+        refCategoryData.entries.toList()
+          ..sort((a, b) => b.value.count.compareTo(a.value.count));
+
+    for (final entry in sortedRefCategories.take(6)) {
+      final refName = entry.key;
+      final data = entry.value;
+      final refData = getReferenceCategoryData(refName);
+
+      if (refData != null) {
+        result.add(
+          CategoryEntity(
+            id: refData['id'] as String,
+            name: refData['name'] as String,
+            nameAr: refData['nameAr'] as String,
+            icon: refData['icon'] as String,
+            color: refData['color'] as String,
+            drugCount: data.count,
+          ),
+        );
+        usedReferenceCategories.add(refName);
+      }
+    }
+
+    // If we have less than 6, fill with remaining reference categories
+    if (result.length < 6) {
+      for (final refData in referenceCategories) {
+        if (!usedReferenceCategories.contains(refData['name'])) {
+          result.add(
+            CategoryEntity(
+              id: refData['id'] as String,
+              name: refData['name'] as String,
+              nameAr: refData['nameAr'] as String,
+              icon: refData['icon'] as String,
+              color: refData['color'] as String,
+              drugCount: 0,
+            ),
+          );
+          if (result.length >= 6) break;
+        }
+      }
+    }
+
+    return result;
+  }
 
   /// تحويل CategoryEntity من البيانات الحقيقية إلى CategoryEntity مطابق للتصميم
   static CategoryEntity mapToReferenceCategory(CategoryEntity realCategory) {
-    // البحث عن التخصص المناسب في القاموس
     final mappedName =
-        realToReferenceName[realCategory.name] ??
-        realToReferenceName[realCategory.nameAr];
+        getReferenceCategoryName(realCategory.name) ??
+        getReferenceCategoryName(realCategory.nameAr);
 
     if (mappedName != null) {
-      // إيجاد البيانات المرجعية المطابقة
-      final refData = referenceCategories.firstWhere(
-        (cat) => cat['name'] == mappedName,
-        orElse: () => referenceCategories[0], // fallback to Cardiac
-      );
+      final refData = getReferenceCategoryData(mappedName);
 
-      return CategoryEntity(
-        id: realCategory.id,
-        name: refData['name'] as String,
-        nameAr: refData['nameAr'] as String,
-        icon: refData['icon'] as String,
-        color: refData['color'] as String,
-        drugCount: realCategory.drugCount,
-      );
+      if (refData != null) {
+        return CategoryEntity(
+          id: realCategory.id,
+          name: refData['name'] as String,
+          nameAr: refData['nameAr'] as String,
+          icon: refData['icon'] as String,
+          color: refData['color'] as String,
+          drugCount: realCategory.drugCount,
+        );
+      }
     }
 
-    // إذا لم نجد تطابق، نرجع البيانات الأصلية
-    return realCategory;
+    // If no match, return original with default icon/color
+    return CategoryEntity(
+      id: realCategory.id,
+      name: realCategory.name,
+      nameAr: realCategory.nameAr,
+      icon: realCategory.icon ?? 'pill',
+      color: realCategory.color ?? 'blue',
+      drugCount: realCategory.drugCount,
+    );
   }
 
   /// تحويل قائمة كاملة من CategoryEntity
   static List<CategoryEntity> mapCategories(
     List<CategoryEntity> realCategories,
   ) {
-    // نحاول تطبيق الـ mapping على كل تخصص
     final mapped = realCategories.map(mapToReferenceCategory).toList();
 
-    // إذا كانت القائمة أقل من 6، نكمل من referenceCategories
     if (mapped.length < 6) {
       final usedNames = mapped.map((c) => c.name).toSet();
       final remaining =
@@ -132,7 +299,7 @@ class CategoryMapper {
                   nameAr: ref['nameAr'] as String,
                   icon: ref['icon'] as String,
                   color: ref['color'] as String,
-                  drugCount: 0, // عدد افتراضي
+                  drugCount: 0,
                 ),
               )
               .toList();

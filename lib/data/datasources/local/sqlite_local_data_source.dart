@@ -329,6 +329,35 @@ class SqliteLocalDataSource {
     return categories;
   }
 
+  /// Get categories with their drug counts
+  Future<Map<String, int>> getCategoriesWithCount() async {
+    await seedingComplete; // Wait for seeding
+    print("Fetching categories with counts from SQLite...");
+    final db = await dbHelper.database;
+
+    // Use SQL GROUP BY to get counts
+    final List<Map<String, dynamic>> results = await db.rawQuery('''
+      SELECT ${DatabaseHelper.colMainCategory} as category, COUNT(*) as count
+      FROM ${DatabaseHelper.medicinesTable}
+      WHERE ${DatabaseHelper.colMainCategory} IS NOT NULL 
+        AND ${DatabaseHelper.colMainCategory} != ''
+      GROUP BY ${DatabaseHelper.colMainCategory}
+      ORDER BY count DESC
+    ''');
+
+    final Map<String, int> categoryCounts = {};
+    for (final row in results) {
+      final category = row['category']?.toString() ?? '';
+      final count = row['count'] as int? ?? 0;
+      if (category.isNotEmpty) {
+        categoryCounts[category] = count;
+      }
+    }
+
+    print("Found ${categoryCounts.length} categories with counts.");
+    return categoryCounts;
+  }
+
   Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
     String cutoffDate, {
     required int limit,

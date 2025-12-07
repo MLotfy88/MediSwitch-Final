@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../presentation/theme/app_colors.dart';
+import '../theme/app_colors_extension.dart';
 
 class ModernSearchBar extends StatelessWidget {
   final TextEditingController? controller;
@@ -21,21 +21,31 @@ class ModernSearchBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final isDark = theme.brightness == Brightness.dark;
+
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
       decoration: BoxDecoration(
-        color: AppColors.card,
+        color: theme.cardColor,
         borderRadius: BorderRadius.circular(22),
-        boxShadow: AppColors.shadowCard,
-        border: Border.all(color: Colors.transparent, width: 2),
+        boxShadow: [
+          BoxShadow(
+            color: theme.shadowColor.withValues(alpha: isDark ? 0.3 : 0.06),
+            offset: const Offset(0, 2),
+            blurRadius: 8,
+            spreadRadius: -2,
+          ),
+        ],
+        border: Border.all(
+          color: theme.dividerColor.withValues(alpha: 0.3),
+          width: 1,
+        ),
       ),
       child: Row(
         children: [
-          const Icon(
-            LucideIcons.search,
-            size: 20,
-            color: AppColors.mutedForeground,
-          ),
+          Icon(LucideIcons.search, size: 20, color: appColors.mutedForeground),
           const SizedBox(width: 12),
           Expanded(
             child: TextField(
@@ -43,15 +53,18 @@ class ModernSearchBar extends StatelessWidget {
               onChanged: onChanged,
               decoration: InputDecoration(
                 hintText: hintText,
-                hintStyle: const TextStyle(
+                hintStyle: TextStyle(
                   fontSize: 14,
-                  color: AppColors.mutedForeground,
+                  color: appColors.mutedForeground,
                 ),
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.zero,
                 isDense: true,
               ),
-              style: const TextStyle(fontSize: 14, color: AppColors.foreground),
+              style: TextStyle(
+                fontSize: 14,
+                color: theme.colorScheme.onSurface,
+              ),
             ),
           ),
           const SizedBox(width: 8),
@@ -59,16 +72,20 @@ class ModernSearchBar extends StatelessWidget {
           if (onMicTap != null) ...[
             GestureDetector(
               onTap: onMicTap,
-              child: const Padding(
-                padding: EdgeInsets.all(8.0),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
                 child: Icon(
                   LucideIcons.mic,
                   size: 16,
-                  color: AppColors.mutedForeground,
+                  color: appColors.mutedForeground,
                 ),
               ),
             ),
-            Container(width: 1, height: 24, color: AppColors.border),
+            Container(
+              width: 1,
+              height: 24,
+              color: theme.dividerColor.withValues(alpha: 0.5),
+            ),
           ],
 
           if (onFilterTap != null)
@@ -78,13 +95,13 @@ class ModernSearchBar extends StatelessWidget {
                 margin: const EdgeInsets.only(left: 8),
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withValues(alpha: 0.1),
+                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: const Icon(
+                child: Icon(
                   LucideIcons.slidersHorizontal,
                   size: 16,
-                  color: AppColors.primary,
+                  color: theme.colorScheme.primary,
                 ),
               ),
             ),

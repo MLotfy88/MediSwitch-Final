@@ -55,6 +55,32 @@
 - **AppColors (100% Matched):**
   - ✅ All design-system.md colors verified present
 
+### 6. Theme-Aware Colors Implementation (Phase 6) ✅
+- **Issue:** Many widgets used static `AppColors` that didn't change with light/dark mode
+- **Widgets Fixed for Theme-Awareness:**
+  - ✅ `ModernCategoryCard` - Uses `Theme.of(context)` and `appColors` extension
+  - ✅ `HomeScreen` - Background and Quick Stats section now theme-aware
+  - ✅ `AppHeader` - All colors now respect theme mode
+  - ✅ `ModernDrugCard` - Card, text, and badge colors are theme-aware
+  - ✅ `SectionHeader` - Title and subtitle colors respect theme
+  - ✅ `DangerousDrugCard` - Risk level colors use `appColors.dangerForeground/warningForeground`
+  - ✅ `ModernSearchBar` - Search input and icons are theme-aware
+- **Pattern Applied:**
+  ```dart
+  final theme = Theme.of(context);
+  final appColors = theme.appColors;
+  final isDark = theme.brightness == Brightness.dark;
+  ```
+  final isDark = theme.brightness == Brightness.dark;
+  ```
+
+### 7. Medical Specialties Refinement (100% Match) ✅
+- **Goal:** Ensure "Medical Specialties" section matches design docs (Icons, Colors, Counts).
+- **Updates:**
+  - ✅ **Data Layer:** `DrugRepository` now returns accurate drug counts via `getCategoriesWithCounts()`.
+  - ✅ **CategoryMapper:** Comprehensive mapping of DB names to 6 design categories (Cardiac, Neuro, Dental, Pediatric, Ophthalmic, Orthopedic).
+  - ✅ **UI:** `ModernCategoryCard` uses `LucideIcons` (heart, brain, smile, baby, eye, bone) effectively.
+  - ✅ **Aggregated Counts:** Drugs from sub-categories (e.g., 'hypertension') are correctly summed into main categories (e.g., 'Cardiac').
 ---
 
 ## 📁 هيكل المشروع

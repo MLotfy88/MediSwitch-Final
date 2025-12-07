@@ -1,9 +1,10 @@
 import 'dart:async';
+
 import 'package:dartz/dartz.dart';
-import 'package:flutter/foundation.dart';
+
 import '../../core/di/locator.dart'; // Import locator
-import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../core/error/failures.dart';
+import '../../core/services/file_logger_service.dart'; // Import logger
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/drug_repository.dart';
 import '../datasources/local/sqlite_local_data_source.dart'; // Use SQLite
@@ -287,6 +288,26 @@ class DrugRepositoryImpl implements DrugRepository {
         e,
         s,
       ); // Use logger
+      return Left(CacheFailure());
+    }
+  }
+
+  @override
+  Future<Either<Failure, Map<String, int>>> getCategoriesWithCounts() async {
+    _logger.d("DrugRepository: getCategoriesWithCounts called.");
+    try {
+      final Map<String, int> categories =
+          await localDataSource.getCategoriesWithCount();
+      _logger.i(
+        "DrugRepository: getCategoriesWithCounts successful, found ${categories.length} categories.",
+      );
+      return Right(categories);
+    } catch (e, s) {
+      _logger.e(
+        'Error getting available categories with counts in repository',
+        e,
+        s,
+      );
       return Left(CacheFailure());
     }
   }

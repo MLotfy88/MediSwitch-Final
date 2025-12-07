@@ -35,6 +35,7 @@ import 'package:mediswitch/domain/usecases/get_admob_config.dart';
 import 'package:mediswitch/domain/usecases/get_all_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_analytics_summary.dart';
 import 'package:mediswitch/domain/usecases/get_available_categories.dart';
+import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
 import 'package:mediswitch/domain/usecases/get_general_config.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
@@ -186,6 +187,9 @@ Future<void> setupLocator() async {
     () => GetAvailableCategoriesUseCase(locator<DrugRepository>()),
   );
   locator.registerLazySingleton(
+    () => GetCategoriesWithCountUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
     () => GetLastUpdateTimestampUseCase(locator<DrugRepository>()),
   );
   locator.registerLazySingleton(
@@ -235,6 +239,7 @@ Future<void> setupLocator() async {
       searchDrugsUseCase: locator<SearchDrugsUseCase>(),
       filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
       getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
+      getCategoriesWithCountUseCase: locator<GetCategoriesWithCountUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
       getPopularDrugsUseCase: locator<GetPopularDrugsUseCase>(),
