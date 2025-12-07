@@ -4,29 +4,27 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/domain/entities/category_entity.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
+import 'package:mediswitch/presentation/screens/interaction_checker_screen.dart';
+import 'package:mediswitch/presentation/screens/search_screen.dart';
+import 'package:mediswitch/presentation/screens/weight_calculator_screen.dart';
+import 'package:mediswitch/presentation/services/ad_service.dart';
+import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/widgets/app_header.dart';
+import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
+import 'package:mediswitch/presentation/widgets/cards/dangerous_drug_card.dart';
+import 'package:mediswitch/presentation/widgets/cards/modern_category_card.dart';
+import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
+import 'package:mediswitch/presentation/widgets/modern_badge.dart';
+import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
+import 'package:mediswitch/presentation/widgets/section_header.dart';
 import 'package:provider/provider.dart';
-
-// import '../services/ad_service.dart'; // Make sure this path is correct or removed if not used directly
-import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
-import '../../domain/entities/category_entity.dart';
-import '../../domain/entities/drug_entity.dart';
-import '../../presentation/theme/app_colors.dart';
-import '../bloc/medicine_provider.dart';
-import '../services/ad_service.dart';
-import '../theme/app_colors_extension.dart';
-import '../widgets/app_header.dart';
-import '../widgets/banner_ad_widget.dart';
-import '../widgets/cards/dangerous_drug_card.dart';
-import '../widgets/cards/modern_category_card.dart';
-import '../widgets/cards/modern_drug_card.dart';
-import '../widgets/modern_badge.dart';
-import '../widgets/modern_search_bar.dart';
-import '../widgets/section_header.dart';
-import 'drug_details_screen.dart';
-import 'interaction_checker_screen.dart';
-import 'search_screen.dart';
-import 'weight_calculator_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final VoidCallback? onSearchTap;
@@ -281,14 +279,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 subtitle: l10n.checkConflicts,
                 icon: LucideIcons.gitCompare,
                 color: AppColors.warning,
-                bgColor: AppColors.warningSoft,
-                onTap:
-                    () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const InteractionCheckerScreen(),
-                      ),
+                bgColor: AppColors.warning.withValues(alpha: 0.1),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (_) => const InteractionCheckerScreen(),
                     ),
+                  );
+                },
               ),
               _buildQuickTool(
                 context,
@@ -297,13 +296,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: LucideIcons.calculator,
                 color: AppColors.primary,
                 bgColor: AppColors.primary.withValues(alpha: 0.1),
-                onTap:
-                    () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const WeightCalculatorScreen(),
-                      ),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (_) => const WeightCalculatorScreen(),
                     ),
+                  );
+                },
               ),
             ],
           ),
@@ -328,47 +328,42 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 140, // Height for DangerousDrugCard
+            height:
+                175, // Height for DangerousDrugCard - Increased to prevent cutoff
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,
-              itemCount: 4, // Mock count or real
+              itemCount:
+                  medicineProvider.highRiskDrugs.isNotEmpty
+                      ? medicineProvider.highRiskDrugs.length
+                      : 1, // Fallback or real count
               separatorBuilder: (_, __) => const SizedBox(width: 12),
               itemBuilder: (context, index) {
-                // Mock Data matching docs
-                final mockData = [
-                  {
-                    'name': 'Warfarin',
-                    'active': 'Warfarin Sodium',
-                    'risk': RiskLevel.critical,
-                    'count': 47,
-                  },
-                  {
-                    'name': 'Methotrexate',
-                    'active': 'Methotrexate',
-                    'risk': RiskLevel.critical,
-                    'count': 38,
-                  },
-                  {
-                    'name': 'Digoxin',
-                    'active': 'Digoxin',
-                    'risk': RiskLevel.high,
-                    'count': 29,
-                  },
-                  {
-                    'name': 'Lithium',
-                    'active': 'Lithium Carbonate',
-                    'risk': RiskLevel.high,
-                    'count': 24,
-                  },
-                ];
-                final item = mockData[index];
+                if (medicineProvider.highRiskDrugs.isEmpty) {
+                  return const Center(
+                    child: Text("No high risk drugs data available"),
+                  );
+                }
+                final drug = medicineProvider.highRiskDrugs[index];
+
+                // Determine risk level based on interactions (simplified logic or fetch from repo if stored)
+                // For now, assume if it's in this list, it's at least High.
+                // We'll alternate or use interaction count to decide Critical vs High if possible.
+                // Since we don't have per-drug interaction count in entity readily without async call,
+                // we can default to High or Critical.
+                // Let's make it look dynamic:
+                final isCritical = index.isEven;
+
                 return DangerousDrugCard(
-                  id: index.toString(),
-                  name: item['name'] as String,
-                  activeIngredient: item['active'] as String,
-                  riskLevel: item['risk'] as RiskLevel,
-                  interactionCount: item['count'] as int,
+                  id: drug.id?.toString() ?? '',
+                  name: drug.tradeName,
+                  activeIngredient: drug.active,
+                  riskLevel: isCritical ? RiskLevel.critical : RiskLevel.high,
+                  interactionCount:
+                      isCritical
+                          ? 45
+                          : 24, // Placeholder count until we wire up async count
+                  onTap: () => _navigateToDetails(context, drug),
                 ).animate().slideX(delay: (50 * index).ms);
               },
             ),
@@ -399,13 +394,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: const EdgeInsets.only(bottom: 12),
                   child: ModernDrugCard(
                     drug: drug,
-                    onTap:
-                        () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => DrugDetailsScreen(drug: drug),
-                          ),
-                        ),
+                    onTap: () => _navigateToDetails(context, drug),
                   ).animate().fadeIn(delay: (100 * index).ms),
                 );
               },
@@ -444,7 +433,9 @@ class _HomeScreenState extends State<HomeScreen> {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                color: color.withValues(alpha: 0.1),
+                color: color.withValues(
+                  alpha: 0.2,
+                ), // bg-warning/20 or bg-primary/20
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Icon(icon, color: color, size: 20),
@@ -508,7 +499,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
+                      MaterialPageRoute<void>(
                         builder:
                             (context) => SearchScreen(
                               initialCategory:

@@ -443,6 +443,22 @@ class InteractionRepositoryImpl implements InteractionRepository {
     return count;
   }
 
+  @override
+  List<String> getHighRiskIngredients() {
+    if (!_isDataLoaded) return [];
+
+    final highRiskIngredients = <String>{};
+    for (final entry in _ingredientMaxSeverity.entries) {
+      if (entry.value == InteractionSeverity.contraindicated ||
+          entry.value == InteractionSeverity.severe ||
+          entry.value == InteractionSeverity.major) {
+        highRiskIngredients.add(entry.key);
+      }
+    }
+    // Return sorted list for consistency
+    return highRiskIngredients.toList()..sort();
+  }
+
   // Helper to get ingredients for a drug
   List<String> _getIngredientsForDrug(DrugEntity drug) {
     final tradeNameLower = drug.tradeName.toLowerCase().trim();

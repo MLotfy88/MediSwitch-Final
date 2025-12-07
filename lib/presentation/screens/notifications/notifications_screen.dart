@@ -1,12 +1,16 @@
 import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../../core/utils/animation_helpers.dart';
+import 'package:mediswitch/core/utils/animation_helpers.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:provider/provider.dart';
 
 /// Notifications Screen
 /// Matches design-refresh/src/components/screens/NotificationsScreen.tsx
 class NotificationsScreen extends StatefulWidget {
+  /// Constructor for NotificationsScreen
   const NotificationsScreen({super.key});
 
   @override
@@ -14,49 +18,75 @@ class NotificationsScreen extends StatefulWidget {
 }
 
 class _NotificationsScreenState extends State<NotificationsScreen> {
-  // Mock notifications
-  final List<NotificationItem> _notifications = [
-    NotificationItem(
-      id: '1',
-      type: NotificationType.priceChange,
-      title: 'Price Drop Alert',
-      titleAr: 'تنبيه انخفاض السعر',
-      message: 'Augmentin 1g price dropped by 15%',
-      messageAr: 'انخفض سعر اوجمنتين ١ جرام بنسبة ١٥٪',
-      timestamp: DateTime.now().subtract(const Duration(minutes: 30)),
-      read: false,
-    ),
-    NotificationItem(
-      id: '2',
-      type: NotificationType.newDrug,
-      title: 'New Drug Added',
-      titleAr: 'دواء جديد',
-      message: '5 new drugs added to database',
-      messageAr: 'تمت إضافة ٥ أدوية جديدة',
-      timestamp: DateTime.now().subtract(const Duration(hours: 2)),
-      read: false,
-    ),
-    NotificationItem(
-      id: '3',
-      type: NotificationType.interaction,
-      title: 'Interaction Warning',
-      titleAr: 'تحذير تفاعل',
-      message: 'Check drug interactions before use',
-      messageAr: 'تحقق من التفاعلات الدوائية قبل الاستخدام',
-      timestamp: DateTime.now().subtract(const Duration(days: 1)),
-      read: true,
-    ),
-    NotificationItem(
-      id: '4',
-      type: NotificationType.update,
-      title: 'Database Updated',
-      titleAr: 'تحديث قاعدة البيانات',
-      message: 'Drug database has been updated',
-      messageAr: 'تم تحديث قاعدة بيانات الأدوية',
-      timestamp: DateTime.now().subtract(const Duration(days: 2)),
-      read: true,
-    ),
-  ];
+  // Notifications list
+  List<NotificationItem> _notifications = [];
+
+  @override
+  void initState() {
+    super.initState();
+    // Defer loading to didChangeDependencies or use a post-frame callback
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadNotificationsFromProvider();
+    });
+  }
+
+  void _loadNotificationsFromProvider() {
+    final provider = context.read<MedicineProvider>();
+    final newDrugs = provider.recentlyUpdatedDrugs.take(3).toList();
+    final highRiskDrugs = provider.highRiskDrugs.take(2).toList();
+
+    final List<NotificationItem> generated = [];
+
+    // Generate "New Drug" notifications
+    for (final drug in newDrugs) {
+      generated.add(
+        NotificationItem(
+          id: 'new_${drug.id}',
+          type: NotificationType.newDrug,
+          title: 'New Drug Added',
+          titleAr: 'دواء جديد تمت إضافته',
+          message: '${drug.tradeName} has been added to the database.',
+          messageAr: 'تم إضافة ${drug.arabicName} إلى قاعدة البيانات.',
+          timestamp: DateTime.now().subtract(const Duration(hours: 2)),
+          read: false,
+        ),
+      );
+    }
+
+    // Generate "Interaction/Risk" notifications
+    for (final drug in highRiskDrugs) {
+      generated.add(
+        NotificationItem(
+          id: 'risk_${drug.id}',
+          type: NotificationType.interaction,
+          title: 'High Risk Alert',
+          titleAr: 'تنبيه دواء عالي الخطورة',
+          message: '${drug.tradeName} is classified as high risk.',
+          messageAr: 'يصنف ${drug.arabicName} كدواء عالي الخطورة.',
+          timestamp: DateTime.now().subtract(const Duration(days: 1)),
+          read: true,
+        ),
+      );
+    }
+
+    // Add a generic update notification
+    generated.add(
+      NotificationItem(
+        id: 'update_1',
+        type: NotificationType.update,
+        title: 'Database Updated',
+        titleAr: 'تحديث قاعدة البيانات',
+        message: 'Drug database has been updated successfully.',
+        messageAr: 'تم تحديث قاعدة بيانات الأدوية بنجاح.',
+        timestamp: DateTime.now().subtract(const Duration(days: 2)),
+        read: true,
+      ),
+    );
+
+    setState(() {
+      _notifications = generated;
+    });
+  }
 
   void _markAsRead(String id) {
     setState(() {
@@ -225,7 +255,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
             if (!notification.read) {
               _markAsRead(notification.id);
             }
-            // TODO: Navigate to relevant screen
+            // Add navigation logic if needed
           },
           borderRadius: BorderRadius.circular(12),
           child: Container(
@@ -395,18 +425,48 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   }
 }
 
-enum NotificationType { priceChange, newDrug, interaction, update }
+/// Enum for notification types
+enum NotificationType {
+  /// Price change notification
+  priceChange,
 
+  /// New drug notification
+  newDrug,
+
+  /// Interaction alert
+  interaction,
+
+  /// General update
+  update,
+}
+
+/// Notification Item Model
 class NotificationItem {
+  /// ID
   final String id;
+
+  /// Type
   final NotificationType type;
+
+  /// Title En
   final String title;
+
+  /// Title Ar
   final String titleAr;
+
+  /// Message En
   final String message;
+
+  /// Message Ar
   final String messageAr;
+
+  /// Timestamp
   final DateTime timestamp;
+
+  /// Read status
   final bool read;
 
+  /// Constructor
   NotificationItem({
     required this.id,
     required this.type,
@@ -418,6 +478,7 @@ class NotificationItem {
     required this.read,
   });
 
+  /// Copy with
   NotificationItem copyWith({
     String? id,
     NotificationType? type,

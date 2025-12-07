@@ -8,14 +8,9 @@ import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/presentation/bloc/interaction_provider.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
-import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
-import 'package:mediswitch/presentation/widgets/home/drug_card.dart';
+import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/interaction_card.dart';
 import 'package:provider/provider.dart';
-
-// Assuming DrugUIModel is shared or redefined here.
-// Ideally should be in a shared models directory.
-// For now, reusing the one defined in drug_card.dart or redefining simpler version for this screen.
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
@@ -66,7 +61,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       {'id': 'dosage', 'label': l10n.dosageTab, 'icon': LucideIcons.droplets},
       {
         'id': 'similarities',
-        'label': 'Similarities',
+        'label': isRTL ? 'المثائل' : 'Similarities',
         'icon': LucideIcons.gitCompare,
       },
       {
@@ -115,11 +110,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
     }
 
     return Container(
-      decoration: BoxDecoration(
-        color: colorScheme.primary, // Use theme primary
-        // Optional: Add gradient if desired, but solid primary is safer for dark/light adaptation unless we define gradients in theme
-        // gradient: LinearGradient(...)
-      ),
+      decoration: BoxDecoration(color: colorScheme.primary),
       child: SafeArea(
         bottom: false,
         child: Column(
@@ -140,7 +131,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                       color: colorScheme.onPrimary,
                     ),
                     style: IconButton.styleFrom(
-                      backgroundColor: colorScheme.onPrimary.withOpacity(0.1),
+                      backgroundColor: colorScheme.onPrimary.withValues(
+                        alpha: 0.1,
+                      ),
                     ),
                   ),
                   Row(
@@ -152,8 +145,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                           color: colorScheme.onPrimary,
                         ),
                         style: IconButton.styleFrom(
-                          backgroundColor: colorScheme.onPrimary.withOpacity(
-                            0.1,
+                          backgroundColor: colorScheme.onPrimary.withValues(
+                            alpha: 0.1,
                           ),
                         ),
                       ),
@@ -175,7 +168,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                               backgroundColor:
                                   isFav
                                       ? colorScheme.surface
-                                      : colorScheme.onPrimary.withOpacity(0.1),
+                                      : colorScheme.onPrimary.withValues(
+                                        alpha: 0.1,
+                                      ),
                             ),
                           );
                         },
@@ -212,7 +207,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                       Text(
                         widget.drug.arabicName,
                         style: TextStyle(
-                          color: colorScheme.onPrimary.withOpacity(0.8),
+                          color: colorScheme.onPrimary.withValues(alpha: 0.8),
                           fontFamily: 'Cairo',
                         ),
                       ),
@@ -223,7 +218,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                     widget.drug.company,
                     style: TextStyle(
                       fontSize: 14,
-                      color: colorScheme.onPrimary.withOpacity(0.7),
+                      color: colorScheme.onPrimary.withValues(alpha: 0.7),
                     ),
                   ),
                   const SizedBox(height: AppSpacing.lg),
@@ -244,7 +239,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                         Text(
                           oldPrice.toStringAsFixed(2),
                           style: TextStyle(
-                            color: colorScheme.onPrimary.withOpacity(0.6),
+                            color: colorScheme.onPrimary.withValues(alpha: 0.6),
                             decoration: TextDecoration.lineThrough,
                             fontSize: 18,
                           ),
@@ -259,9 +254,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                           decoration: BoxDecoration(
                             color: Theme.of(
                               context,
-                            ).appColors.successSoft.withOpacity(
-                              0.2,
-                            ), // Keep semantic colors or add to theme
+                            ).appColors.successSoft.withValues(alpha: 0.2),
                             borderRadius: AppRadius.circularSm,
                           ),
                           child: Row(
@@ -292,14 +285,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                       Icon(
                         LucideIcons.refreshCw,
                         size: 14,
-                        color: colorScheme.onPrimary.withOpacity(0.6),
+                        color: colorScheme.onPrimary.withValues(alpha: 0.6),
                       ),
                       const SizedBox(width: 4),
                       Text(
                         'Updated ${_formatDate(widget.drug.lastPriceUpdate)}',
                         style: TextStyle(
                           fontSize: 12,
-                          color: colorScheme.onPrimary.withOpacity(0.6),
+                          color: colorScheme.onPrimary.withValues(alpha: 0.6),
                         ),
                       ),
                     ],
@@ -399,11 +392,10 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
             ),
             const SizedBox(height: 16),
             _buildCard(
-              title: l10n.infoTab, // Reusing generic title
+              title: l10n.infoTab,
               colorScheme: colorScheme,
               child: Column(
                 children: [
-                  // Registration Number not in entity
                   _buildDetailRow(
                     LucideIcons.flaskConical,
                     'Active Ingredient',
@@ -447,7 +439,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                       Container(
                         padding: const EdgeInsets.all(12),
                         decoration: BoxDecoration(
-                          color: colorScheme.primary.withOpacity(0.1),
+                          color: colorScheme.primary.withValues(alpha: 0.1),
                           shape: BoxShape.circle,
                         ),
                         child: Icon(
@@ -556,10 +548,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                   listen: false,
                 ).isFavorite(drug);
 
-                return DrugCard(
-                  drug: drugEntityToUIModel(drug, isFavorite: isFav),
+                return ModernDrugCard(
+                  drug: drug,
+                  isFavorite: isFav,
                   onFavoriteToggle:
-                      (_) => Provider.of<MedicineProvider>(
+                      () => Provider.of<MedicineProvider>(
                         context,
                         listen: false,
                       ).toggleFavorite(drug),
@@ -636,10 +629,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
                   listen: false,
                 ).isFavorite(drug);
 
-                return DrugCard(
-                  drug: drugEntityToUIModel(drug, isFavorite: isFav),
+                return ModernDrugCard(
+                  drug: drug,
+                  isFavorite: isFav,
                   onFavoriteToggle:
-                      (_) => Provider.of<MedicineProvider>(
+                      () => Provider.of<MedicineProvider>(
                         context,
                         listen: false,
                       ).toggleFavorite(drug),
@@ -764,16 +758,16 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       width: double.infinity,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: colorScheme.surface, // Was AppColors.card
+        color: colorScheme.surface,
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Theme.of(context).shadowColor.withOpacity(0.1),
+            color: Theme.of(context).shadowColor.withValues(alpha: 0.1),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
-        ], // Shadows might need adjustment for dark mode, but usually opacity handles it.
-        border: Border.all(color: colorScheme.outline.withOpacity(0.5)),
+        ],
+        border: Border.all(color: colorScheme.outline.withValues(alpha: 0.5)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -807,7 +801,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
             width: 40,
             height: 40,
             decoration: BoxDecoration(
-              color: Theme.of(context).appColors.accent.withOpacity(0.2),
+              color: Theme.of(context).appColors.accent.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Icon(icon, color: colorScheme.primary, size: 20),

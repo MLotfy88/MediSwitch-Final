@@ -38,6 +38,9 @@ abstract class InteractionRepository {
   /// Returns InteractionSeverity.unknown if no interactions found.
   InteractionSeverity getMaxSeverityForDrug(DrugEntity drug);
 
-  /// Gets the count of known interactions for a drug.
+  /// Gets the count of  /// Get interaction count for a specific drug
   int getInteractionCountForDrug(DrugEntity drug);
+
+  /// Get a list of ingredients known to have high-risk (severe/contraindicated) interactions
+  List<String> getHighRiskIngredients();
 }

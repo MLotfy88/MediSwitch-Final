@@ -40,7 +40,13 @@ git push
 yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-
 yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-
 
+77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0
+
 eedf653449abdca28e865ddf3511dd4c62ed2
+
+https://mediswitch-admin-dashboard.pages.dev/
+
+https://mediswitch-api.m-m-lotfy-88.workers.dev/
 
 curl "https://api.cloudflare.com/client/v4/user/tokens/verify" \ -H "Authorization: Bearer yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-"
 

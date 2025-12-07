@@ -31,6 +31,7 @@ class AppTheme {
       textTheme: GoogleFonts.interTextTheme(baseTheme.textTheme).apply(
         bodyColor: AppColors.foreground,
         displayColor: AppColors.foreground,
+        fontFamilyFallback: [GoogleFonts.cairo().fontFamily!],
       ),
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.background,
@@ -100,9 +101,11 @@ class AppTheme {
         onError: Colors.white,
         outline: Color(0xFF2D3748), // Darker border
       ),
-      textTheme: GoogleFonts.interTextTheme(
-        baseTheme.textTheme,
-      ).apply(bodyColor: darkForeground, displayColor: darkForeground),
+      textTheme: GoogleFonts.interTextTheme(baseTheme.textTheme).apply(
+        bodyColor: darkForeground,
+        displayColor: darkForeground,
+        fontFamilyFallback: [GoogleFonts.cairo().fontFamily!],
+      ),
       appBarTheme: const AppBarTheme(
         backgroundColor: Color(0xFF131720),
         foregroundColor: darkForeground,

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/bloc/settings_provider.dart';
 import 'package:mediswitch/presentation/screens/settings_screen.dart';
+import 'package:provider/provider.dart';
 
 /// Profile Screen
 /// Matches design-refresh/src/components/screens/ProfileScreen.tsx
@@ -15,236 +18,273 @@ class ProfileScreen extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final isRTL = Directionality.of(context) == TextDirection.rtl;
 
-    return Scaffold(
-      backgroundColor: theme.scaffoldBackgroundColor,
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            // Hero Header containing Avatar, Info and Stats
-            Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    colorScheme.primary,
-                    colorScheme.primary,
-                    // Use a slightly darker shade if available, or just manipulate primary
-                    HSLColor.fromColor(
-                      colorScheme.primary,
-                    ).withLightness(0.4).toColor(),
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-              ),
-              child: SafeArea(
-                bottom: false,
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(24, 24, 24, 32),
-                  child: Column(
-                    children: [
-                      // Avatar & User Info
-                      Row(
-                        children: [
-                          Container(
-                            width: 80,
-                            height: 80,
-                            decoration: BoxDecoration(
-                              color: colorScheme.onPrimary.withOpacity(0.2),
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                color: colorScheme.onPrimary,
-                                width: 2,
-                              ),
-                            ),
-                            child: Center(
-                              child: Icon(
-                                LucideIcons.user,
-                                size: 40,
-                                color: colorScheme.onPrimary,
-                              ),
-                            ),
-                          ),
-                          const SizedBox(width: 16),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  isRTL
-                                      ? 'مستخدم MediSwitch'
-                                      : 'MediSwitch User',
-                                  style: theme.textTheme.headlineSmall
-                                      ?.copyWith(
-                                        color: colorScheme.onPrimary,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  isRTL ? 'صيدلي' : 'Pharmacist',
-                                  style: theme.textTheme.bodyMedium?.copyWith(
-                                    color: colorScheme.onPrimary.withOpacity(
-                                      0.8,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 32),
+    return Consumer2<SettingsProvider, MedicineProvider>(
+      builder: (context, settingsProvider, medicineProvider, _) {
+        final favoritesCount = medicineProvider.favorites.length;
+        // Placeholder for tracked stats not yet implemented in backend
+        const searchCount = 156;
+        const viewedCount = 89;
 
-                      // Stats Cards inside Header
-                      Row(
-                        children: [
-                          Expanded(
-                            child: _buildStatCard(
-                              context,
-                              count: '24',
-                              label: isRTL ? 'المفضلة' : 'Favorites',
-                              colorScheme: colorScheme,
-                            ),
-                          ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: _buildStatCard(
-                              context,
-                              count: '156',
-                              label: isRTL ? 'عمليات البحث' : 'Searches',
-                              colorScheme: colorScheme,
-                            ),
-                          ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: _buildStatCard(
-                              context,
-                              count: '89',
-                              label: isRTL ? 'الأدوية المعروضة' : 'Viewed',
-                              colorScheme: colorScheme,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
+        // Determine dark mode state
+        final isDarkMode =
+            settingsProvider.themeMode == ThemeMode.dark ||
+            (settingsProvider.themeMode == ThemeMode.system &&
+                MediaQuery.platformBrightnessOf(context) == Brightness.dark);
 
-            // Menu Items Container
-            Transform.translate(
-              offset: const Offset(0, -20),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: theme.scaffoldBackgroundColor,
-                  borderRadius: const BorderRadius.vertical(
-                    top: Radius.circular(24),
+        return Scaffold(
+          backgroundColor: theme.scaffoldBackgroundColor,
+          body: SingleChildScrollView(
+            child: Column(
+              children: [
+                // Hero Header containing Avatar, Info and Stats
+                Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        colorScheme.primary,
+                        colorScheme.primary,
+                        // Use a slightly darker shade if available
+                        HSLColor.fromColor(
+                          colorScheme.primary,
+                        ).withLightness(0.4).toColor(),
+                      ],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
                   ),
-                ),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16,
-                  vertical: 24,
-                ),
-                child: Column(
-                  children: [
-                    // Settings Menu
-                    Container(
-                      decoration: BoxDecoration(
-                        color: theme.cardColor,
-                        borderRadius: BorderRadius.circular(16),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.05),
-                            blurRadius: 10,
-                            offset: const Offset(0, 4),
-                          ),
-                        ],
-                      ),
+                  child: SafeArea(
+                    bottom: false,
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(24, 24, 24, 32),
                       child: Column(
                         children: [
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.bell,
-                            title: isRTL ? 'الإشعارات' : 'Notifications',
-                            isToggle: true,
-                            onTap: () {},
-                          ),
-                          _buildDivider(theme),
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.moon,
-                            title: isRTL ? 'الوضع الداكن' : 'Dark Mode',
-                            isToggle: true,
-                            onTap: () {},
-                          ),
-                          _buildDivider(theme),
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.globe,
-                            title: isRTL ? 'اللغة' : 'Language',
-                            trailingText: isRTL ? 'العربية' : 'English',
-                            onTap: () {},
-                          ),
-                          _buildDivider(theme),
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.shield,
-                            title:
-                                isRTL
-                                    ? 'الخصوصية والأمان'
-                                    : 'Privacy & Security',
-                            onTap: () {},
-                          ),
-                          _buildDivider(theme),
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.helpCircle,
-                            title: isRTL ? 'المساعدة والدعم' : 'Help & Support',
-                            onTap: () {},
-                          ),
-                          _buildDivider(theme),
-                          _buildMenuItem(
-                            context,
-                            icon: LucideIcons.settings,
-                            title: isRTL ? 'الإعدادات' : 'Settings',
-                            isLast: true,
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => const SettingsScreen(),
+                          // Avatar & User Info
+                          Row(
+                            children: [
+                              Container(
+                                width: 80,
+                                height: 80,
+                                decoration: BoxDecoration(
+                                  color: colorScheme.onPrimary.withOpacity(0.2),
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: colorScheme.onPrimary,
+                                    width: 2,
+                                  ),
                                 ),
-                              );
-                            },
+                                child: Center(
+                                  child: Icon(
+                                    LucideIcons.user,
+                                    size: 40,
+                                    color: colorScheme.onPrimary,
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 16),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      isRTL
+                                          ? 'مستخدم MediSwitch'
+                                          : 'MediSwitch User',
+                                      style: theme.textTheme.headlineSmall
+                                          ?.copyWith(
+                                            color: colorScheme.onPrimary,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                    ),
+                                    const SizedBox(height: 4),
+                                    Text(
+                                      isRTL ? 'صيدلي' : 'Pharmacist',
+                                      style: theme.textTheme.bodyMedium
+                                          ?.copyWith(
+                                            color: colorScheme.onPrimary
+                                                .withOpacity(0.8),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 32),
+
+                          // Stats Cards inside Header
+                          Row(
+                            children: [
+                              Expanded(
+                                child: _buildStatCard(
+                                  context,
+                                  count: favoritesCount.toString(),
+                                  label: isRTL ? 'المفضلة' : 'Favorites',
+                                  colorScheme: colorScheme,
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: _buildStatCard(
+                                  context,
+                                  count: searchCount.toString(),
+                                  label: isRTL ? 'عمليات البحث' : 'Searches',
+                                  colorScheme: colorScheme,
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: _buildStatCard(
+                                  context,
+                                  count: viewedCount.toString(),
+                                  label: isRTL ? 'الأدوية المعروضة' : 'Viewed',
+                                  colorScheme: colorScheme,
+                                ),
+                              ),
+                            ],
                           ),
                         ],
                       ),
                     ),
-
-                    const SizedBox(height: 24),
-
-                    // Logout Button
-                    _buildLogoutButton(context, isRTL, theme),
-
-                    const SizedBox(height: 24),
-
-                    // Version Info
-                    Text(
-                      'MediSwitch v1.0.0',
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
-                    const SizedBox(height: 100), // Bottom View Padding
-                  ],
+                  ),
                 ),
-              ),
+
+                // Menu Items Container
+                Transform.translate(
+                  offset: const Offset(0, -20),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: theme.scaffoldBackgroundColor,
+                      borderRadius: const BorderRadius.vertical(
+                        top: Radius.circular(24),
+                      ),
+                    ),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 24,
+                    ),
+                    child: Column(
+                      children: [
+                        // Settings Menu
+                        Container(
+                          decoration: BoxDecoration(
+                            color: theme.cardColor,
+                            borderRadius: BorderRadius.circular(16),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.05),
+                                blurRadius: 10,
+                                offset: const Offset(0, 4),
+                              ),
+                            ],
+                          ),
+                          child: Column(
+                            children: [
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.bell,
+                                title: isRTL ? 'الإشعارات' : 'Notifications',
+                                isToggle: true,
+                                value:
+                                    settingsProvider.pushNotificationsEnabled,
+                                onToggle: (value) {
+                                  settingsProvider.updatePushNotifications(
+                                    value,
+                                  );
+                                },
+                              ),
+                              _buildDivider(theme),
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.moon,
+                                title: isRTL ? 'الوضع الداكن' : 'Dark Mode',
+                                isToggle: true,
+                                value: isDarkMode,
+                                onToggle: (value) {
+                                  settingsProvider.updateThemeMode(
+                                    value ? ThemeMode.dark : ThemeMode.light,
+                                  );
+                                },
+                              ),
+                              _buildDivider(theme),
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.globe,
+                                title: isRTL ? 'اللغة' : 'Language',
+                                trailingText: isRTL ? 'العربية' : 'English',
+                                onTap: () {
+                                  // Toggle language
+                                  final newLocale =
+                                      isRTL
+                                          ? const Locale('en')
+                                          : const Locale('ar');
+                                  settingsProvider.updateLocale(newLocale);
+                                },
+                              ),
+                              _buildDivider(theme),
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.shield,
+                                title:
+                                    isRTL
+                                        ? 'الخصوصية والأمان'
+                                        : 'Privacy & Security',
+                                onTap: () {},
+                              ),
+                              _buildDivider(theme),
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.helpCircle,
+                                title:
+                                    isRTL
+                                        ? 'المساعدة والدعم'
+                                        : 'Help & Support',
+                                onTap: () {},
+                              ),
+                              _buildDivider(theme),
+                              _buildMenuItem(
+                                context,
+                                icon: LucideIcons.settings,
+                                title: isRTL ? 'الإعدادات' : 'Settings',
+                                isLast: true,
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder:
+                                          (context) => const SettingsScreen(),
+                                    ),
+                                  );
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+
+                        const SizedBox(height: 24),
+
+                        // Logout Button
+                        _buildLogoutButton(context, isRTL, theme),
+
+                        const SizedBox(height: 24),
+
+                        // Version Info
+                        Text(
+                          'MediSwitch v1.0.0',
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: theme.colorScheme.onSurfaceVariant,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 100), // Bottom View Padding
+                      ],
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
   }
 
@@ -291,9 +331,11 @@ class ProfileScreen extends StatelessWidget {
     required IconData icon,
     required String title,
     bool isToggle = false,
+    bool value = false, // For toggle state
+    ValueChanged<bool>? onToggle, // For toggle callback
     bool isLast = false,
     String? trailingText,
-    required VoidCallback onTap,
+    VoidCallback? onTap,
   }) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
@@ -301,7 +343,7 @@ class ProfileScreen extends StatelessWidget {
     return Material(
       color: Colors.transparent,
       child: InkWell(
-        onTap: onTap,
+        onTap: isToggle ? () => onToggle?.call(!value) : onTap,
         borderRadius:
             isLast
                 ? const BorderRadius.vertical(bottom: Radius.circular(16))
@@ -334,8 +376,8 @@ class ProfileScreen extends StatelessWidget {
                 SizedBox(
                   height: 24,
                   child: Switch(
-                    value: true, // Mock value
-                    onChanged: (v) {},
+                    value: value,
+                    onChanged: onToggle,
                     activeColor: colorScheme.primary,
                   ),
                 )
@@ -387,7 +429,16 @@ class ProfileScreen extends StatelessWidget {
       child: Material(
         color: Colors.transparent,
         child: InkWell(
-          onTap: () {},
+          onTap: () {
+            // Show logout confirmation or action
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text(
+                  isRTL ? 'تم تسجيل الخروج (تجريبي)' : 'Signed out (Demo Mode)',
+                ),
+              ),
+            );
+          },
           borderRadius: BorderRadius.circular(12),
           child: Padding(
             padding: const EdgeInsets.all(16),

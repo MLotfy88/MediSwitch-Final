@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 /// Badge variants matching design-refresh/docs/components/badge.md
 enum BadgeVariant {
@@ -44,66 +44,79 @@ class ModernBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final isDark = theme.brightness == Brightness.dark;
+
     // Determine colors and icon based on variant
     Color backgroundColor;
     Color textColor;
     Color? borderColor;
     IconData? displayIcon = icon;
+    FontWeight fontWeight = FontWeight.w600; // Default
 
     switch (variant) {
       // Default variants
       case BadgeVariant.defaultBadge:
-        backgroundColor = AppColors.primary;
-        textColor = Colors.white;
+        backgroundColor = theme.colorScheme.primary;
+        textColor = theme.colorScheme.onPrimary;
         break;
       case BadgeVariant.secondary:
-        backgroundColor = AppColors.secondary;
-        textColor = Colors.white;
+        backgroundColor = theme.colorScheme.secondary;
+        textColor = theme.colorScheme.onSecondary;
         break;
       case BadgeVariant.destructive:
-        backgroundColor = AppColors.danger;
-        textColor = Colors.white;
+        backgroundColor = theme.colorScheme.error;
+        textColor = theme.colorScheme.onError;
         break;
       case BadgeVariant.outline:
         backgroundColor = Colors.transparent;
-        textColor = AppColors.foreground;
-        borderColor = AppColors.border;
+        textColor = theme.colorScheme.onSurface;
+        borderColor = theme.colorScheme.outline;
         break;
 
       // Custom MediSwitch variants
       case BadgeVariant.newBadge:
-        backgroundColor = AppColors.success;
+        // bg-success (solid)
+        backgroundColor = appColors.successForeground;
+        // text-success-foreground (white usually)
         textColor = Colors.white;
         break;
       case BadgeVariant.popular:
-        backgroundColor = AppColors.primary;
-        textColor = Colors.white;
+        backgroundColor = theme.colorScheme.primary;
+        textColor = theme.colorScheme.onPrimary;
         break;
       case BadgeVariant.danger:
-        backgroundColor = AppColors.danger;
+        backgroundColor = appColors.dangerForeground; // Solid red
         textColor = Colors.white;
         break;
       case BadgeVariant.warning:
-        backgroundColor = AppColors.warning;
-        textColor = AppColors.warningForeground;
+        backgroundColor = appColors.warningForeground; // Solid orange
+        // Spec says dark brown text logic, but white is safer on solid orange for accessibility
+        textColor = Colors.white;
         break;
       case BadgeVariant.info:
-        backgroundColor = AppColors.info;
-        textColor = AppColors.infoSoft;
+        backgroundColor = appColors.infoForeground; // Solid blue
+        textColor = Colors.white;
         break;
       case BadgeVariant.priceDown:
-        backgroundColor = AppColors.successSoft;
-        textColor = AppColors.success;
+        backgroundColor = appColors.successSoft;
+        textColor = appColors.successForeground;
+        fontWeight = FontWeight.bold; // 700
         displayIcon ??= LucideIcons.trendingDown;
         break;
       case BadgeVariant.priceUp:
-        backgroundColor = AppColors.dangerSoft;
-        textColor = AppColors.danger;
+        backgroundColor = appColors.dangerSoft;
+        textColor = appColors.dangerForeground;
+        fontWeight = FontWeight.bold; // 700
         displayIcon ??= LucideIcons.trendingUp;
         break;
       case BadgeVariant.interaction:
-        backgroundColor = AppColors.dangerSoft;
-        textColor = AppColors.danger;
+        backgroundColor = appColors.dangerSoft;
+        textColor = appColors.dangerForeground;
+        fontWeight = FontWeight.w500; // 500 (Medium)
+        // border-danger/30
+        borderColor = appColors.dangerForeground.withValues(alpha: 0.3);
         displayIcon ??= LucideIcons.alertTriangle;
         break;
     }
@@ -119,7 +132,7 @@ class ModernBadge extends StatelessWidget {
         iconSize = 12;
         padding = const EdgeInsets.symmetric(horizontal: 8, vertical: 2);
         break;
-      case BadgeSize.md:
+      case BadgeSize.md: // Default (px-2.5 py-0.5)
         fontSize = 12;
         iconSize = 14;
         padding = const EdgeInsets.symmetric(horizontal: 10, vertical: 2);
@@ -137,9 +150,7 @@ class ModernBadge extends StatelessWidget {
         color: backgroundColor,
         borderRadius: BorderRadius.circular(999), // Rounded full
         border: borderColor != null ? Border.all(color: borderColor) : null,
-        boxShadow: const [
-          BoxShadow(color: Colors.black12, blurRadius: 2, offset: Offset(0, 1)),
-        ],
+        boxShadow: _getShadow(variant, isDark),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -152,7 +163,7 @@ class ModernBadge extends StatelessWidget {
             text,
             style: TextStyle(
               fontSize: fontSize,
-              fontWeight: FontWeight.w600,
+              fontWeight: fontWeight,
               color: textColor,
               height: 1,
             ),
@@ -160,5 +171,33 @@ class ModernBadge extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  /// Returns shadow based on variant and theme (shadow-sm)
+  List<BoxShadow>? _getShadow(BadgeVariant variant, bool isDark) {
+    // Outline usually has no shadow. Soft variants (price, interaction) usually no shadow in ShadCN.
+    // Solid variants (new, popular, danger, warning) have shadow-sm.
+
+    if (variant == BadgeVariant.outline ||
+        variant == BadgeVariant.priceDown ||
+        variant == BadgeVariant.priceUp ||
+        variant == BadgeVariant.interaction ||
+        variant == BadgeVariant.secondary ||
+        variant == BadgeVariant.destructive) {
+      // Secondary/Destructive might have shadow? Spec says secondary has nothing listed for shadow.
+      return null;
+    }
+
+    // Default, New, Popular, Danger, Warning, Info have shadow-sm per spec.
+    return [
+      BoxShadow(
+        color:
+            isDark
+                ? Colors.black.withValues(alpha: 0.4)
+                : const Color(0xFF0F172A).withValues(alpha: 0.04),
+        blurRadius: 2,
+        offset: const Offset(0, 1),
+      ),
+    ];
   }
 }

@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/services/ad_service.dart';
+import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
+import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
+import 'package:mediswitch/presentation/widgets/filter_pills.dart';
+import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
+import 'package:mediswitch/presentation/widgets/search_filters_sheet.dart';
 import 'package:provider/provider.dart';
 
-import '../../core/di/locator.dart';
-import '../../core/services/file_logger_service.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../../presentation/theme/app_colors.dart';
-import '../bloc/medicine_provider.dart';
-import '../services/ad_service.dart';
-import '../widgets/banner_ad_widget.dart';
-import '../widgets/cards/modern_drug_card.dart';
-import '../widgets/filter_pills.dart';
-import '../widgets/modern_search_bar.dart';
-import '../widgets/search_filters_sheet.dart';
-import 'drug_details_screen.dart';
+import 'details/drug_details_screen.dart';
 
 class SearchScreen extends StatefulWidget {
   final String initialQuery;
@@ -27,7 +27,6 @@ class SearchScreen extends StatefulWidget {
 
 class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
-  final FileLoggerService _logger = locator<FileLoggerService>();
   final AdService _adService = locator<AdService>();
   final ScrollController _scrollController = ScrollController();
 
@@ -75,7 +74,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   void _openFilters() {
     final isRTL = Directionality.of(context) == TextDirection.rtl;
-    showModalBottomSheet(
+    showModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
@@ -94,17 +93,34 @@ class _SearchScreenState extends State<SearchScreen> {
     _adService.incrementUsageCounterAndShowAdIfNeeded();
     Navigator.push(
       context,
-      MaterialPageRoute(
+      MaterialPageRoute<void>(
         builder: (context) => DrugDetailsScreen(drug: drug),
-      ), // Fix: use drugId
+      ),
     );
+  }
+
+  // Calculate generic "active filters" count manually
+  int get _activeFiltersCount {
+    int count = 0;
+    // Price range
+    if (_currentFilters.priceRange.start > 0 ||
+        _currentFilters.priceRange.end < 500) {
+      count++;
+    }
+    // Forms
+    if (_currentFilters.forms.isNotEmpty) count++;
+    // Companies
+    if (_currentFilters.companies.isNotEmpty) count++;
+    // Sort
+    if (_currentFilters.sortBy != 'relevance') count++;
+    return count;
   }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final provider = context.watch<MedicineProvider>();
-    // final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -137,7 +153,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     child: ModernSearchBar(
                       controller: _searchController,
                       hintText: l10n.searchHint,
-                      onChanged: (query) {
+                      onChanged: (String query) {
                         provider.setSearchQuery(
                           query,
                           triggerSearch: true,
@@ -166,6 +182,63 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             ),
 
+            // Results Count & Active Filters Header
+            if (!provider.isLoading && provider.filteredMedicines.isNotEmpty)
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 8,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    // Count
+                    Row(
+                      children: [
+                        Text(
+                          '${provider.filteredMedicines.length}',
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w600,
+                            color: AppColors.foreground,
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          isRTL ? "نتائج" : "results",
+                          style: const TextStyle(
+                            fontSize: 14,
+                            color: AppColors.mutedForeground,
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    // Active Filters Badge
+                    if (_activeFiltersCount > 0)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 2,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.primary.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          isRTL
+                              ? '$_activeFiltersCount فلاتر نشطة'
+                              : '$_activeFiltersCount active filters',
+                          style: const TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w500,
+                            color: AppColors.primary,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+
             // Results List
             Expanded(child: _buildResultsList(context, provider, l10n)),
             const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
@@ -192,15 +265,32 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(
-              LucideIcons.search,
-              size: 48,
-              color: AppColors.mutedForeground,
+            Container(
+              width: 80,
+              height: 80,
+              decoration: const BoxDecoration(
+                color: AppColors.muted,
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                LucideIcons.x,
+                size: 40,
+                color: AppColors.mutedForeground,
+              ),
             ),
             const SizedBox(height: 16),
             Text(
               l10n.noResultsFoundTitle,
-              style: const TextStyle(color: AppColors.mutedForeground),
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+                color: AppColors.foreground,
+              ),
+            ),
+            const SizedBox(height: 8),
+            const Text(
+              "Try adjusting your search or filters",
+              style: TextStyle(fontSize: 14, color: AppColors.mutedForeground),
             ),
           ],
         ),
@@ -222,14 +312,18 @@ class _SearchScreenState extends State<SearchScreen> {
           );
         }
         final drug = provider.filteredMedicines[index];
+        // Add Animation
         return Padding(
-          padding: const EdgeInsets.only(bottom: 12),
-          child: ModernDrugCard(
-            drug: drug,
-            hasInteraction: false, // Calculate if needed
-            onTap: () => _navigateToDetails(context, drug),
-          ),
-        );
+              padding: const EdgeInsets.only(bottom: 12),
+              child: ModernDrugCard(
+                drug: drug,
+                hasInteraction: false, // Calculate if needed
+                onTap: () => _navigateToDetails(context, drug),
+              ),
+            )
+            .animate()
+            .fadeIn(duration: 300.ms, delay: (50 * index).ms)
+            .slideY(begin: 0.1, end: 0);
       },
     );
   }

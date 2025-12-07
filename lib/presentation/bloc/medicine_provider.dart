@@ -15,6 +15,7 @@ import '../../domain/usecases/filter_drugs_by_category.dart';
 import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
 import '../../domain/usecases/get_available_categories.dart';
 import '../../domain/usecases/get_categories_with_count.dart';
+import '../../domain/usecases/get_high_risk_drugs.dart';
 import '../../domain/usecases/get_last_update_timestamp.dart';
 import '../../domain/usecases/get_popular_drugs.dart';
 import '../../domain/usecases/get_recently_updated_drugs.dart';
@@ -30,6 +31,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
   final GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase;
   final GetPopularDrugsUseCase getPopularDrugsUseCase;
+  final GetHighRiskDrugsUseCase getHighRiskDrugsUseCase;
   // Add the data source dependency
   final SqliteLocalDataSource _localDataSource;
   final FileLoggerService _logger = locator<FileLoggerService>();
@@ -62,6 +64,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   // --- State for Simulated Sections ---
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
+  List<DrugEntity> _highRiskDrugs = []; // List for High Risk Drugs
 
   // --- Favorites State ---
   final Set<String> _favoriteIds =
@@ -87,6 +90,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   bool get isInitialLoadComplete => _isInitialLoadComplete;
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
+  List<DrugEntity> get highRiskDrugs => _highRiskDrugs; // Getter
   List<DrugEntity> get favorites => _favorites;
   int? get lastUpdateTimestamp =>
       _lastUpdateTimestamp; // Public getter for raw timestamp
@@ -107,6 +111,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     required this.getLastUpdateTimestampUseCase,
     required this.getRecentlyUpdatedDrugsUseCase,
     required this.getPopularDrugsUseCase,
+    required this.getHighRiskDrugsUseCase,
     // Inject the data source
     required SqliteLocalDataSource localDataSource,
   }) : _localDataSource = localDataSource {
@@ -146,6 +151,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     _filteredMedicines = [];
     _recentlyUpdatedDrugs = []; // إعادة تعيين قائمة الأدوية المحدثة عند التحديث
     _popularDrugs = []; // إعادة تعيين قائمة الأدوية الشائعة عند التحديث
+    _highRiskDrugs = []; // Reset High Risk
     notifyListeners(); // Notify UI that loading has started
 
     try {
@@ -197,6 +203,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       _filteredMedicines = [];
       _recentlyUpdatedDrugs = [];
       _popularDrugs = [];
+      _highRiskDrugs = [];
       _hasMoreItems = false;
       _isInitialLoadComplete = false; // Ensure this is false on error
       _logger.w("MedicineProvider: Initial load FAILED. Error: '$_error'.");
@@ -308,7 +315,7 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
             "[_loadSimulatedSections] FAILED to load popular (random) drugs: $errorMsg",
           );
           _popularDrugs = [];
-          throw Exception('Failed to load popular drugs: $errorMsg');
+          // throw Exception('Failed to load popular drugs: $errorMsg'); // Don't throw, just log
         },
         (r) {
           _logger.i(
@@ -317,6 +324,45 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
           _popularDrugs = r;
         },
       );
+
+      // --- High Risk Drugs Logic ---
+      _logger.i("Fetching High Risk drugs based on keywords...");
+      final highRiskKeywords = [
+        'Warfarin',
+        'Digoxin',
+        'Methotrexate',
+        'Lithium',
+        'Insulin',
+      ];
+      List<DrugEntity> highRiskAccumulator = [];
+
+      for (var keyword in highRiskKeywords) {
+        final result = await searchDrugsUseCase(
+          SearchParams(
+            query: keyword,
+            limit: 5,
+            offset: 0,
+          ), // Search by name/active
+        );
+        result.fold(
+          (l) => _logger.w("Failed to fetch high risk for $keyword"),
+          (r) {
+            // Filter to ensure strict match if needed, or just take them
+            // For now, take the first one that seems relevant
+            if (r.isNotEmpty) {
+              highRiskAccumulator.addAll(r);
+            }
+          },
+        );
+      }
+      // Deduplicate by tradeName or ID
+      final ids = <String>{};
+      _highRiskDrugs =
+          highRiskAccumulator.where((drug) {
+            final id = drug.id?.toString() ?? drug.tradeName;
+            return ids.add(id);
+          }).toList();
+      _logger.i("Loaded ${_highRiskDrugs.length} High Risk drugs.");
 
       _logger.i(
         "MedicineProvider: Sections loaded. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",

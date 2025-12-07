@@ -130,9 +130,9 @@ DrugDetailsScreen
 |-----|----------|------|
 | Info | `Info` | Info |
 | Dosage | `Droplets` | Dosage |
-| Alternatives | `GitCompare` | Alternatives |
+| Similarities | `GitCompare` | Similarities (المثائل) |
+| Alternatives | `Repeat` | Alternatives (البدائل) |
 | Interactions | `AlertTriangle` | Interactions |
-| Price | `TrendingDown` | Price History |
 
 ---
 
@@ -248,7 +248,24 @@ padding: px-4 py-4
 
 ---
 
-### 3.3 Alternatives Tab (تاب البدائل)
+### 3.3 Similarities Tab (تاب المثائل)
+*(المثائل: أدوية تحتوي على نفس المادة الفعالة)*
+
+#### Count Badge:
+| الخاصية | القيمة |
+|---------|--------|
+| **الخلفية** | `bg-accent/50` |
+| **الشكل** | `rounded-xl` |
+| **الـ Padding** | `p-3` |
+| **النص** | `text-sm` |
+
+#### Similar Cards:
+يستخدم نفس `DrugCard` المستخدم في الشاشة الرئيسية.
+
+---
+
+### 3.4 Alternatives Tab (تاب البدائل)
+*(البدائل: أدوية لها نفس الاستخدام العلاجي ولكن مادة فعالة قد تكون مختلفة)*
 
 #### Count Badge:
 | الخاصية | القيمة |
@@ -263,7 +280,7 @@ padding: px-4 py-4
 
 ---
 
-### 3.4 Interactions Tab (تاب التفاعلات)
+### 3.5 Interactions Tab (تاب التفاعلات)
 
 #### Warning Banner:
 | الخاصية | القيمة |
