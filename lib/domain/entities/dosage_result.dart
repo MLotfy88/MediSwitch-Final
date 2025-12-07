@@ -9,12 +9,16 @@ class DosageResult {
   /// Optional additional notes regarding the dosage.
   final String? notes;
 
-  /// Creates a new instance of [DosageResult].
-  DosageResult({required this.dosage, this.warning, this.notes});
+  /// Optional maximum dose information.
+  final String? maxDose;
 
-  // Optional: Add factory constructor for JSON serialization if needed later
-  // factory DosageResult.fromJson(Map<String, dynamic> json) { ... }
-  // Map<String, dynamic> toJson() { ... }
+  /// Creates a new instance of [DosageResult].
+  const DosageResult({
+    required this.dosage,
+    this.warning,
+    this.notes,
+    this.maxDose,
+  });
 
   @override
   bool operator ==(Object other) {
@@ -23,13 +27,15 @@ class DosageResult {
     return other is DosageResult &&
         other.dosage == dosage &&
         other.warning == warning &&
-        other.notes == notes;
+        other.notes == notes &&
+        other.maxDose == maxDose;
   }
 
   @override
-  int get hashCode => dosage.hashCode ^ warning.hashCode ^ notes.hashCode;
+  int get hashCode =>
+      dosage.hashCode ^ warning.hashCode ^ notes.hashCode ^ maxDose.hashCode;
 
   @override
   String toString() =>
-      'DosageResult(dosage: $dosage, warning: $warning, notes: $notes)';
+      'DosageResult(dosage: $dosage, warning: $warning, notes: $notes, maxDose: $maxDose)';
 }

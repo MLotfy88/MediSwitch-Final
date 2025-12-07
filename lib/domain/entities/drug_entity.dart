@@ -20,15 +20,22 @@ class DrugEntity extends Equatable {
   final String lastPriceUpdate;
   final String? imageUrl;
 
+  // Aliases for compatibility
+  String get nameAr => arabicName;
+  String get form => dosageForm;
+
+  // New fields for UI
+  final bool isPopular;
+
   const DrugEntity({
-    this.id, // Add to constructor
+    this.id,
     required this.tradeName,
     required this.arabicName,
     required this.price,
-    this.oldPrice, // Add to constructor
+    this.oldPrice,
     required this.mainCategory,
-    this.category, // Add to constructor
-    this.category_ar, // Add to constructor
+    this.category,
+    this.category_ar,
     required this.active,
     required this.company,
     required this.dosageForm,
@@ -38,19 +45,19 @@ class DrugEntity extends Equatable {
     required this.description,
     required this.lastPriceUpdate,
     this.imageUrl,
+    this.isPopular = false,
   });
 
-  // Factory constructor for an empty instance
   factory DrugEntity.empty() {
     return const DrugEntity(
       id: null,
       tradeName: '',
       arabicName: '',
       price: '',
-      oldPrice: null, // Initialize as null
+      oldPrice: null,
       mainCategory: '',
-      category: null, // Initialize as null
-      category_ar: null, // Initialize as null
+      category: null,
+      category_ar: null,
       active: '',
       company: '',
       dosageForm: '',
@@ -60,19 +67,20 @@ class DrugEntity extends Equatable {
       description: '',
       lastPriceUpdate: '',
       imageUrl: null,
+      isPopular: false,
     );
   }
 
   @override
   List<Object?> get props => [
-    id, // Add to props
+    id,
     tradeName,
     arabicName,
     price,
-    oldPrice, // Add to props
+    oldPrice,
     mainCategory,
-    category, // Add to props
-    category_ar, // Add to props
+    category,
+    category_ar,
     active,
     company,
     dosageForm,
@@ -82,5 +90,6 @@ class DrugEntity extends Equatable {
     description,
     lastPriceUpdate,
     imageUrl,
+    isPopular,
   ];
 }

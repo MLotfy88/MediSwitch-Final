@@ -4,8 +4,10 @@ class SettingsListTile extends StatelessWidget {
   final String title;
   final String? subtitle;
   final IconData leadingIcon;
-  final Widget? trailing;
-  final VoidCallback? onTap;
+  final Color? leadingIconColor;
+  final Color? titleColor;
+  final Widget? trailing; // Restore trailing
+  final VoidCallback? onTap; // Restore onTap
 
   const SettingsListTile({
     super.key,
@@ -14,6 +16,8 @@ class SettingsListTile extends StatelessWidget {
     required this.leadingIcon,
     this.trailing,
     this.onTap,
+    this.leadingIconColor,
+    this.titleColor,
   });
 
   @override
@@ -23,8 +27,14 @@ class SettingsListTile extends StatelessWidget {
     final textTheme = theme.textTheme;
 
     return ListTile(
-      leading: Icon(leadingIcon, color: colorScheme.onSurfaceVariant),
-      title: Text(title, style: textTheme.titleMedium),
+      leading: Icon(
+        leadingIcon,
+        color: leadingIconColor ?? colorScheme.onSurfaceVariant,
+      ),
+      title: Text(
+        title,
+        style: textTheme.titleMedium?.copyWith(color: titleColor),
+      ),
       subtitle:
           subtitle != null
               ? Text(

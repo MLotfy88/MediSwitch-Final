@@ -220,6 +220,13 @@
     "description": "تسمية تبويب السعر في صفحة تفاصيل الدواء."
   },
   "interactionsTab": "التفاعلات",
+  "todaysUpdates": "تحديثات اليوم",
+  "newDrugsWeek": "أدوية جديدة هذا الأسبوع",
+  "checkConflicts": "فحص التعارضات",
+  "calculateDosage": "حساب الجرعة",
+  "recentlyAdded": "أضيفت حديثاً",
+  "backButtonTooltip": "رجوع",
+  "neverUpdated": "لم يحدث أبداً",
   "@interactionsTab": {
     "description": "تسمية تبويب التفاعلات في صفحة تفاصيل الدواء."
   }

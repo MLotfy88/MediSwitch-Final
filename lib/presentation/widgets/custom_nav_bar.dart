@@ -27,69 +27,55 @@ class CustomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-
-    // Using ClipRRect and BackdropFilter for blur effect
+    // Glassmorphism Container
     return ClipRRect(
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+        filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12), // blur-lg
         child: Container(
           decoration: BoxDecoration(
-            color: colorScheme.surface.withValues(alpha: 0.95), // bg-surface/95
-            border: const Border(
-              top: BorderSide(
-                color: AppColors.border, // border-border
-                width: 1,
-              ),
-            ),
+            color: AppColors.surface.withValues(alpha: 0.95), // bg-surface/95
+            border: const Border(top: BorderSide(color: AppColors.border)),
           ),
           padding: EdgeInsets.only(
-            bottom:
-                MediaQuery.of(context).padding.bottom + 8, // safe-area + py-2
-            top: 8,
-            left: 8,
-            right: 8,
+            bottom: MediaQuery.of(context).padding.bottom + 8,
+            top: 12,
+            left: 16,
+            right: 16,
           ),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: List.generate(items.length, (index) {
               final item = items[index];
               final isActive = index == selectedIndex;
               final color =
-                  isActive ? colorScheme.primary : AppColors.mutedForeground;
+                  isActive ? AppColors.primary : AppColors.mutedForeground;
 
               return InkWell(
                 onTap: () => onItemSelected(index),
-                borderRadius: BorderRadius.circular(12), // rounded-xl
-                child: Container(
+                borderRadius: BorderRadius.circular(16),
+                child: AnimatedContainer(
+                  duration: const Duration(milliseconds: 200),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 16,
                     vertical: 8,
-                  ), // px-4 py-2
+                  ),
                   decoration: BoxDecoration(
                     color:
                         isActive
-                            ? colorScheme.primary.withValues(alpha: 0.1)
-                            : Colors
-                                .transparent, // bg-primary/10 or transparent
-                    borderRadius: BorderRadius.circular(12),
+                            ? AppColors.primary.withValues(alpha: 0.1)
+                            : Colors.transparent,
+                    borderRadius: BorderRadius.circular(16),
                   ),
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(
-                        item.icon,
-                        size: 20, // w-5 h-5
-                        color: color,
-                      ),
-                      const SizedBox(height: 4), // gap-1
+                      Icon(item.icon, size: 24, color: color), // w-6 h-6
+                      const SizedBox(height: 4),
                       Text(
                         item.label,
                         style: TextStyle(
-                          fontSize: 10, // text-[10px]
-                          fontWeight: FontWeight.w500, // font-medium
+                          fontSize: 10,
+                          fontWeight: FontWeight.w600,
                           color: color,
                         ),
                       ),

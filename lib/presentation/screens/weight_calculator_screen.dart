@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
@@ -77,53 +78,58 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     final availableDrugs = context.watch<MedicineProvider>().filteredMedicines;
 
     return Scaffold(
-      body: Column(
-        children: [
-          // Gradient Header
+      backgroundColor: AppColors.background,
+      body: CustomScrollView(
+        slivers: [
           _buildHeader(context, l10n, isRTL),
-          // Content
-          Expanded(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.all(16),
-              child: Form(
-                key: _formKey,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    // Patient Info Card
-                    _buildPatientInfoCard(context, l10n, isRTL, theme),
-                    const SizedBox(height: 16),
+          SliverPadding(
+            padding: const EdgeInsets.all(16),
+            sliver: SliverList(
+              delegate: SliverChildListDelegate([
+                Form(
+                  key: _formKey,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Patient Info Card
+                      _buildPatientInfoCard(context, l10n, isRTL, theme),
+                      const SizedBox(height: 16),
 
-                    // Drug Selection Card
-                    _buildDrugSelectionCard(
-                      context,
-                      l10n,
-                      isRTL,
-                      theme,
-                      calculatorProvider,
-                      availableDrugs,
-                    ),
-                    const SizedBox(height: 16),
-
-                    // Result Card
-                    if (calculatorProvider.dosageResult != null)
-                      _buildResultCard(
+                      // Drug Selection Card
+                      _buildDrugSelectionCard(
                         context,
                         l10n,
                         isRTL,
+                        theme,
                         calculatorProvider,
+                        availableDrugs,
                       ),
+                      const SizedBox(height: 16),
 
-                    if (calculatorProvider.error.isNotEmpty)
-                      _buildErrorCard(context, calculatorProvider.error),
+                      // Result Card
+                      if (calculatorProvider.dosageResult != null)
+                        _buildResultCard(
+                          context,
+                          l10n,
+                          isRTL,
+                          calculatorProvider,
+                        ).animate().fadeIn().slideY(begin: 0.1, end: 0),
 
-                    const SizedBox(height: 16),
+                      if (calculatorProvider.error.isNotEmpty)
+                        _buildErrorCard(
+                          context,
+                          calculatorProvider.error,
+                        ).animate().fadeIn(),
 
-                    // Disclaimer
-                    _buildDisclaimer(context, l10n, isRTL),
-                  ],
+                      const SizedBox(height: 16),
+
+                      // Disclaimer
+                      _buildDisclaimer(context, l10n, isRTL),
+                      const SizedBox(height: 80),
+                    ],
+                  ),
                 ),
-              ),
+              ]),
             ),
           ),
         ],
@@ -132,82 +138,82 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   }
 
   Widget _buildHeader(BuildContext context, AppLocalizations l10n, bool isRTL) {
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primary.withOpacity(0.85),
-          ],
+    return SliverAppBar(
+      pinned: true,
+      expandedHeight: 120,
+      backgroundColor: AppColors.primary,
+      leading: IconButton(
+        icon: Icon(
+          isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
+          color: Colors.white,
+        ),
+        onPressed: () => Navigator.pop(context),
+        style: IconButton.styleFrom(
+          backgroundColor: Colors.white.withOpacity(0.1),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
         ),
       ),
-      child: SafeArea(
-        bottom: false,
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(
-            children: [
-              // Back Button
-              Material(
-                color: Colors.white.withOpacity(0.15),
-                borderRadius: BorderRadius.circular(12),
-                child: InkWell(
-                  onTap: () => Navigator.pop(context),
-                  borderRadius: BorderRadius.circular(12),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10),
-                    child: Icon(
-                      isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
+      flexibleSpace: FlexibleSpaceBar(
+        background: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                AppColors.primary,
+                AppColors.primaryDark,
+              ], // Primary Gradient
+            ),
+          ),
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
+              child: Row(
+                children: [
+                  Container(
+                    width: 48,
+                    height: 48,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: const Icon(
+                      LucideIcons.calculator,
                       color: Colors.white,
-                      size: 20,
+                      size: 24,
                     ),
                   ),
-                ),
-              ),
-              const SizedBox(width: 12),
-              // Icon
-              Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: const Icon(
-                  LucideIcons.calculator,
-                  color: Colors.white,
-                  size: 20,
-                ),
-              ),
-              const SizedBox(width: 12),
-              // Title
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      l10n.navCalculator,
-                      style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                      ),
+                  const SizedBox(width: 16),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          l10n.navCalculator, // "Dose Calculator"
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Text(
+                          isRTL
+                              ? 'احسب الجرعة المناسبة بناءً على الوزن'
+                              : 'Calculate appropriate dose based on weight',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.white.withOpacity(0.8),
+                          ),
+                        ),
+                      ],
                     ),
-                    Text(
-                      isRTL
-                          ? 'احسب الجرعة المناسبة بناءً على الوزن'
-                          : 'Calculate appropriate dose based on weight',
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: Colors.white.withOpacity(0.8),
-                      ),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
       ),
@@ -222,8 +228,8 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   ) {
     return Container(
       decoration: BoxDecoration(
-        color: theme.cardColor,
-        borderRadius: BorderRadius.circular(12),
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(16),
         boxShadow: AppColors.shadowCard,
       ),
       padding: const EdgeInsets.all(16),
@@ -236,23 +242,31 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             children: [
               Row(
                 children: [
-                  Icon(
-                    LucideIcons.user,
-                    size: 16,
-                    color: theme.colorScheme.primary,
+                  Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: AppColors.primary.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: const Icon(
+                      LucideIcons.user,
+                      size: 16,
+                      color: AppColors.primary,
+                    ),
                   ),
-                  const SizedBox(width: 8),
+                  const SizedBox(width: 12),
                   Text(
                     isRTL ? 'بيانات المريض' : 'Patient Information',
-                    style: theme.textTheme.titleMedium?.copyWith(
+                    style: const TextStyle(
                       fontWeight: FontWeight.w600,
+                      fontSize: 16,
                     ),
                   ),
                 ],
               ),
               // Reset Button
               Material(
-                color: theme.colorScheme.surfaceVariant,
+                color: AppColors.muted,
                 borderRadius: BorderRadius.circular(8),
                 child: InkWell(
                   onTap: _resetCalculator,
@@ -262,14 +276,14 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                     child: Icon(
                       LucideIcons.rotateCcw,
                       size: 16,
-                      color: theme.colorScheme.onSurfaceVariant,
+                      color: AppColors.mutedForeground,
                     ),
                   ),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 20),
 
           // Weight Input
           _buildInputField(
@@ -302,16 +316,16 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               Row(
                 children: [
                   Icon(
-                    LucideIcons.user,
+                    LucideIcons.calendar,
                     size: 14,
-                    color: theme.colorScheme.onSurfaceVariant,
+                    color: AppColors.mutedForeground,
                   ),
                   const SizedBox(width: 8),
                   Text(
                     isRTL ? 'العمر' : 'Age',
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 13,
-                      color: theme.colorScheme.onSurfaceVariant,
+                      color: AppColors.mutedForeground,
                     ),
                   ),
                 ],
@@ -324,17 +338,18 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                       controller: _ageController,
                       keyboardType: TextInputType.number,
                       inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+                      style: const TextStyle(fontWeight: FontWeight.w600),
                       decoration: InputDecoration(
+                        filled: true,
+                        fillColor: AppColors.background,
                         hintText: isRTL ? 'العمر...' : 'Age...',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
-                          borderSide: BorderSide(
-                            color: theme.colorScheme.outline,
-                          ),
+                          borderSide: BorderSide.none,
                         ),
                         contentPadding: const EdgeInsets.symmetric(
                           horizontal: 14,
-                          vertical: 12,
+                          vertical: 14,
                         ),
                       ),
                       validator: (value) {
@@ -352,7 +367,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                   // Age Unit Toggle
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(color: theme.colorScheme.outline),
+                      color: AppColors.muted,
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Row(
@@ -377,23 +392,47 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               ),
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 16),
 
-          // Pediatric/Adult Badge
+          // Patient Type Badge
           if (_ageController.text.isNotEmpty)
-            _isChild()
-                ? _buildBadge(
-                  context,
-                  icon: LucideIcons.baby,
-                  label: isRTL ? 'طفل' : 'Pediatric',
-                  color: AppColors.info,
-                )
-                : _buildBadge(
-                  context,
-                  icon: LucideIcons.user,
-                  label: isRTL ? 'بالغ' : 'Adult',
-                  color: theme.colorScheme.secondary,
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color:
+                    _isChild()
+                        ? AppColors.info.withOpacity(0.1)
+                        : AppColors.secondary.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                  color:
+                      _isChild()
+                          ? AppColors.info.withOpacity(0.3)
+                          : AppColors.secondary.withOpacity(0.3),
                 ),
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(
+                    _isChild() ? LucideIcons.baby : LucideIcons.user,
+                    size: 16,
+                    color: _isChild() ? AppColors.info : AppColors.secondary,
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    _isChild()
+                        ? (isRTL ? 'طفل' : 'Pediatric')
+                        : (isRTL ? 'بالغ' : 'Adult'),
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                      color: _isChild() ? AppColors.info : AppColors.secondary,
+                    ),
+                  ),
+                ],
+              ),
+            ),
         ],
       ),
     );
@@ -405,60 +444,23 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     String label, {
     required bool isFirst,
   }) {
-    final theme = Theme.of(context);
     final isSelected = _ageUnit == value;
     return GestureDetector(
       onTap: () => setState(() => _ageUnit = value),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         decoration: BoxDecoration(
-          color: isSelected ? theme.colorScheme.primary : Colors.transparent,
-          borderRadius: BorderRadius.horizontal(
-            left: isFirst ? const Radius.circular(9) : Radius.zero,
-            right: !isFirst ? const Radius.circular(9) : Radius.zero,
-          ),
+          color: isSelected ? AppColors.primary : Colors.transparent,
+          borderRadius: BorderRadius.circular(10),
         ),
         child: Text(
           label,
           style: TextStyle(
             fontSize: 13,
-            fontWeight: FontWeight.w500,
-            color:
-                isSelected
-                    ? theme.colorScheme.onPrimary
-                    : theme.colorScheme.onSurfaceVariant,
+            fontWeight: FontWeight.bold,
+            color: isSelected ? Colors.white : AppColors.mutedForeground,
           ),
         ),
-      ),
-    );
-  }
-
-  Widget _buildBadge(
-    BuildContext context, {
-    required IconData icon,
-    required String label,
-    required Color color,
-  }) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-      decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
-        borderRadius: BorderRadius.circular(8),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 14, color: color),
-          const SizedBox(width: 6),
-          Text(
-            label,
-            style: TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.w600,
-              color: color,
-            ),
-          ),
-        ],
       ),
     );
   }
@@ -473,19 +475,18 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     String? Function(String?)? validator,
     void Function(String)? onChanged,
   }) {
-    final theme = Theme.of(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           children: [
-            Icon(icon, size: 14, color: theme.colorScheme.onSurfaceVariant),
+            Icon(icon, size: 14, color: AppColors.mutedForeground),
             const SizedBox(width: 8),
             Text(
               label,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 13,
-                color: theme.colorScheme.onSurfaceVariant,
+                color: AppColors.mutedForeground,
               ),
             ),
           ],
@@ -497,15 +498,21 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           inputFormatters: inputFormatters,
           validator: validator,
           onChanged: onChanged,
-          style: theme.textTheme.bodyLarge,
+          style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
           decoration: InputDecoration(
+            filled: true,
+            fillColor: AppColors.background,
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
-              borderSide: BorderSide(color: theme.colorScheme.outline),
+              borderSide: BorderSide.none,
+            ),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(10),
+              borderSide: BorderSide.none,
             ),
             contentPadding: const EdgeInsets.symmetric(
               horizontal: 14,
-              vertical: 12,
+              vertical: 14,
             ),
           ),
         ),
@@ -523,8 +530,8 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   ) {
     return Container(
       decoration: BoxDecoration(
-        color: theme.cardColor,
-        borderRadius: BorderRadius.circular(12),
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(16),
         boxShadow: AppColors.shadowCard,
       ),
       padding: const EdgeInsets.all(16),
@@ -533,21 +540,29 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
         children: [
           Row(
             children: [
-              Icon(
-                LucideIcons.pill,
-                size: 16,
-                color: theme.colorScheme.primary,
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: AppColors.primary.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: const Icon(
+                  LucideIcons.pill,
+                  size: 16,
+                  color: AppColors.primary,
+                ),
               ),
-              const SizedBox(width: 8),
+              const SizedBox(width: 12),
               Text(
                 isRTL ? 'اختر الدواء' : 'Select Drug',
-                style: theme.textTheme.titleMedium?.copyWith(
+                style: const TextStyle(
                   fontWeight: FontWeight.w600,
+                  fontSize: 16,
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 16),
           CustomSearchableDropdown(
             items: availableDrugs,
             selectedItem: calculatorProvider.selectedDrug,
@@ -571,28 +586,33 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             child: ElevatedButton.icon(
               icon:
                   calculatorProvider.isLoading
-                      ? SizedBox(
+                      ? const SizedBox(
                         width: 16,
                         height: 16,
                         child: CircularProgressIndicator(
                           strokeWidth: 2,
-                          color: theme.colorScheme.onPrimary,
+                          color: Colors.white,
                         ),
                       )
-                      : const Icon(LucideIcons.calculator, size: 16),
+                      : const Icon(LucideIcons.calculator, size: 18),
               label: Text(
                 calculatorProvider.isLoading
                     ? (isRTL ? 'جاري الحساب...' : 'Calculating...')
                     : (isRTL ? 'حساب الجرعة' : 'Calculate Dose'),
+                style: const TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                ),
               ),
               onPressed: calculatorProvider.isLoading ? null : _calculateDose,
               style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 14),
-                backgroundColor: theme.colorScheme.primary,
-                foregroundColor: theme.colorScheme.onPrimary,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                backgroundColor: AppColors.primary,
+                foregroundColor: Colors.white,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(12),
                 ),
+                elevation: 2,
               ),
             ),
           ),
@@ -607,7 +627,6 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     bool isRTL,
     DoseCalculatorProvider provider,
   ) {
-    final theme = Theme.of(context);
     final result = provider.dosageResult!;
 
     return Container(
@@ -621,9 +640,9 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           ],
         ),
         border: Border.all(color: AppColors.success.withOpacity(0.3)),
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(16),
       ),
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(20),
       child: Column(
         children: [
           // Title
@@ -632,14 +651,15 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             children: [
               const Icon(
                 LucideIcons.calculator,
-                size: 16,
+                size: 18,
                 color: AppColors.success,
               ),
               const SizedBox(width: 8),
               Text(
                 isRTL ? 'الجرعة المحسوبة' : 'Calculated Dose',
-                style: theme.textTheme.titleMedium?.copyWith(
+                style: const TextStyle(
                   fontWeight: FontWeight.w600,
+                  fontSize: 14,
                   color: AppColors.success,
                 ),
               ),
@@ -650,7 +670,8 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           // Dose Value
           Text(
             result.dosage,
-            style: theme.textTheme.headlineMedium?.copyWith(
+            style: const TextStyle(
+              fontSize: 32,
               fontWeight: FontWeight.bold,
               color: AppColors.success,
             ),
@@ -681,48 +702,18 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           const Divider(height: 1, color: AppColors.success),
           const SizedBox(height: 16),
 
-          // Drug Info Section (matching reference design)
+          // Drug Info Section
           if (provider.selectedDrug != null) ...[
-            // Dose per kg row
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  isRTL ? 'الجرعة لكل كجم:' : 'Dose per kg:',
-                  style: TextStyle(
-                    fontSize: 13,
-                    color: theme.colorScheme.onSurfaceVariant,
-                  ),
-                ),
-                Text(
-                  '${provider.selectedDrug!.concentration} ${provider.selectedDrug!.unit}/kg',
-                  style: const TextStyle(
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ],
+            _buildResultRow(
+              isRTL ? 'الجرعة لكل كجم:' : 'Dose per kg:',
+              '${provider.selectedDrug!.concentration} ${provider.selectedDrug!.unit}/kg', // Assuming logic uses concentration as dose/kg or similar
+              isRTL,
             ),
             const SizedBox(height: 8),
-            // Max dose row
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  isRTL ? 'الحد الأقصى للجرعة:' : 'Maximum dose:',
-                  style: TextStyle(
-                    fontSize: 13,
-                    color: theme.colorScheme.onSurfaceVariant,
-                  ),
-                ),
-                Text(
-                  provider.selectedDrug!.dosageForm,
-                  style: const TextStyle(
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ],
+            _buildResultRow(
+              isRTL ? 'الحد الأقصى للجرعة:' : 'Maximum dose:',
+              result.maxDose ?? 'N/A', // Assuming maxDose is in DosageResult
+              isRTL,
             ),
             const SizedBox(height: 12),
           ],
@@ -733,7 +724,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               width: double.infinity,
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: theme.colorScheme.surface.withOpacity(0.5),
+                color: Colors.white.withOpacity(0.5),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Column(
@@ -741,18 +732,18 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
                 children: [
                   Text(
                     isRTL ? 'ملاحظات:' : 'Notes:',
-                    style: TextStyle(
-                      fontSize: 11,
+                    style: const TextStyle(
+                      fontSize: 12,
                       fontWeight: FontWeight.w600,
-                      color: theme.colorScheme.onSurface,
+                      color: AppColors.foreground,
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     result.notes!,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 13,
-                      color: theme.colorScheme.onSurfaceVariant,
+                      color: AppColors.mutedForeground,
                     ),
                   ),
                 ],
@@ -763,14 +754,36 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     );
   }
 
+  Widget _buildResultRow(String label, String value, bool isRTL) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          label,
+          style: const TextStyle(
+            fontSize: 13,
+            color: AppColors.mutedForeground,
+          ),
+        ),
+        Text(
+          value,
+          style: const TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w600,
+            color: AppColors.foreground,
+          ),
+        ),
+      ],
+    );
+  }
+
   Widget _buildErrorCard(BuildContext context, String error) {
-    final theme = Theme.of(context);
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: AppColors.dangerSoft,
         border: Border.all(color: AppColors.danger.withOpacity(0.3)),
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
         children: [
@@ -783,7 +796,10 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           Expanded(
             child: Text(
               error,
-              style: TextStyle(color: AppColors.danger.withOpacity(0.9)),
+              style: TextStyle(
+                color: AppColors.danger.withOpacity(0.9),
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ),
         ],
@@ -796,30 +812,30 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     AppLocalizations l10n,
     bool isRTL,
   ) {
-    final theme = Theme.of(context);
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceVariant.withOpacity(0.5),
-        borderRadius: BorderRadius.circular(12),
+        color: AppColors.muted.withOpacity(0.5),
+        borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(
+          const Icon(
             LucideIcons.info,
-            size: 18,
-            color: theme.colorScheme.onSurfaceVariant,
+            size: 20,
+            color: AppColors.mutedForeground,
           ),
           const SizedBox(width: 12),
           Expanded(
             child: Text(
               isRTL
-                  ? 'هذه الحاسبة للإرشاد فقط ولا تحل محل المشورة الطبية المهنية. تحقق دائمًا من الجرعات مع مراجع موثوقة واستشر طبيبًا أو صيدليًا.'
-                  : 'This calculator is for guidance only and does not replace professional medical advice. Always verify doses with reliable references and consult a doctor or pharmacist.',
-              style: TextStyle(
+                  ? 'هذه الحسابات تقديرية فقط. يجب التأكد من الجرعة الصحيحة من قبل الطبيب أو الصيدلي.'
+                  : 'These calculations are estimates only. Verify the correct dose with a doctor or pharmacist.',
+              style: const TextStyle(
                 fontSize: 12,
-                color: theme.colorScheme.onSurfaceVariant,
+                color: AppColors.mutedForeground,
+                height: 1.5,
               ),
             ),
           ),
