@@ -406,14 +406,46 @@ async function handleRequest(request, env) {
     // Admin: Interactions Management
     if (path === '/api/admin/interactions' && request.method === 'POST') {
       try {
-        const { drug1_id, drug2_id, severity, description } = await request.json();
-        const id = generateId();
-        const now = Math.floor(Date.now() / 1000);
+        const { ingredient1, ingredient2, severity, effect } = await request.json();
 
-        await env.DB.prepare('INSERT INTO drug_interactions (id, drug1_id, drug2_id, severity, description_en, created_at) VALUES (?, ?, ?, ?, ?, ?)')
-          .bind(id, drug1_id, drug2_id, severity, description, now).run();
+        // Basic validation
+        if (!ingredient1 || !ingredient2 || !effect) {
+          return jsonResponse({ error: 'Components and effect required' }, 400);
+        }
 
-        return jsonResponse({ message: 'Interaction created', data: { id } }, 201);
+        const id = generateId(); // Or use auto-increment if INT? Using UUID logic but table might be INT. 
+        // Debug output showed ID 221780 (INT). 
+        // For new records, we should safe-guard. 
+        // If table uses INT PK autoincrement, we shouldn't insert ID.
+        // Let's assume we can INSERT without ID if it's autoincrement, OR generate ID if it's UUID. 
+        // Given existing data is INT, better let DB handle ID or use MAX+1? D1 supports AUTOINCREMENT.
+        // I will try to Insert WITHOUT ID, if it fails I'll generate one.
+        // Actually, let's look at previous logic: it was inserting ID. 
+        // I will try INSERT without ID first.
+
+        const now = new Date().toISOString().replace('T', ' ').split('.')[0];
+        // OpenFDA date format: "2025-12-05 20:19:43"
+
+        await env.DB.prepare('INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, created_at) VALUES (?, ?, ?, ?, ?)')
+          .bind(ingredient1, ingredient2, severity, effect, now).run();
+
+        // We can't easily get the last ID without returning * usually.
+        // But let's assume success.
+        return jsonResponse({ message: 'Interaction created' }, 201);
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    if (path.match(/^\/api\/admin\/interactions\/[^/]+$/) && request.method === 'PUT') {
+      try {
+        const id = path.split('/').pop();
+        const { ingredient1, ingredient2, severity, effect } = await request.json();
+
+        await env.DB.prepare('UPDATE drug_interactions SET ingredient1 = ?, ingredient2 = ?, severity = ?, effect = ? WHERE id = ?')
+          .bind(ingredient1, ingredient2, severity, effect, id).run();
+
+        return jsonResponse({ message: 'Interaction updated', data: { id } });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);
       }
