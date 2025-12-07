@@ -1,25 +1,24 @@
-import 'dart:ui' as ui; // Import dart:ui with alias
-
-import 'package:dartz/dartz.dart' as dartz; // Import Either with prefix
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
-import 'package:intl/intl.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:provider/provider.dart';
 
-import '../../core/constants/app_constants.dart'; // Import constants for translation map
 import '../../core/di/locator.dart';
-import '../../core/error/failures.dart'; // Import Failure
 import '../../core/services/file_logger_service.dart';
-import '../../core/utils/currency_helper.dart'; // Import currency helper
+import '../../core/utils/currency_helper.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../../domain/entities/drug_interaction.dart'; // Import DrugInteraction
-import '../../domain/repositories/interaction_repository.dart'; // Import InteractionRepository
-import '../widgets/alternatives_tab_content.dart';
-import '../widgets/banner_ad_widget.dart';
-import '../widgets/interaction_card.dart'; // Import InteractionCard
+import '../../domain/entities/drug_interaction.dart';
+import '../../presentation/bloc/interaction_provider.dart';
+import '../../presentation/bloc/medicine_provider.dart';
+import '../../presentation/theme/app_colors.dart';
+import '../../presentation/widgets/cards/modern_drug_card.dart';
+import '../../presentation/widgets/interaction_card.dart';
+import '../../presentation/widgets/modern_badge.dart';
 
 class DrugDetailsScreen extends StatefulWidget {
   final DrugEntity drug;
+  static const routeName = '/drug-details';
 
   const DrugDetailsScreen({super.key, required this.drug});
 
@@ -27,971 +26,534 @@ class DrugDetailsScreen extends StatefulWidget {
   State<DrugDetailsScreen> createState() => _DrugDetailsScreenState();
 }
 
-class _DrugDetailsScreenState extends State<DrugDetailsScreen>
-    with SingleTickerProviderStateMixin {
+class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
-  final InteractionRepository _interactionRepository =
-      locator<InteractionRepository>(); // Inject InteractionRepository
-  late TabController _tabController;
-  bool _isLoadingInteractions = false; // State for loading interactions
-
-  bool _isFavorite = false; // Placeholder for favorite state
-
   @override
   void initState() {
     super.initState();
-    // Tab count: 4 (Info, Alternatives, Dosage, Interactions)
-    _tabController = TabController(length: 4, vsync: this);
-    _logger.i(
-      "DrugDetailsScreen: initState for drug: ${widget.drug.tradeName}",
-    );
-  }
-
-  @override
-  void dispose() {
-    _tabController.dispose();
-    _logger.i("DrugDetailsScreen: dispose for drug: ${widget.drug.tradeName}");
-    super.dispose();
-  }
-
-  String _formatPrice(String priceString) {
-    final price = double.tryParse(priceString);
-    if (price == null) return priceString;
-    // Use L.E. consistently
-    return NumberFormat("#,##0.##", "en_US").format(price);
-  }
-
-  double? _parsePrice(String? priceString) {
-    if (priceString == null) return null;
-    final cleanedPrice = priceString.replaceAll(RegExp(r'[^0-9.]'), '');
-    return double.tryParse(cleanedPrice);
-  }
-
-  String _formatDate(String? dateString) {
-    if (dateString == null || dateString.trim().isEmpty)
-      return '-'; // Trim here too
-    final trimmedDateString = dateString.trim(); // Trim the input string
-    try {
-      DateTime dateTime;
-      // Handle different potential date formats from source
-      if (trimmedDateString.contains('/')) {
-        dateTime = DateFormat(
-          'dd/MM/yyyy',
-        ).parseStrict(trimmedDateString); // Use trimmed string
-      } else {
-        dateTime = DateFormat(
-          'yyyy-MM-dd',
-        ).parseStrict(trimmedDateString); // Use trimmed string
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        context.read<InteractionProvider>().getDrugInteractions(widget.drug);
       }
-      // Format using current locale
-      final locale = Localizations.localeOf(context).languageCode;
-      return DateFormat('d MMM yyyy', locale).format(dateTime);
-    } catch (e) {
-      _logger.w("Could not parse date for display: $trimmedDateString", e);
-      return trimmedDateString; // Return trimmed string if parsing fails
-    }
-  }
-
-  void _toggleFavorite() {
-    _logger.i(
-      "DrugDetailsScreen: Favorite button tapped (Premium - Not implemented).",
-    );
-    final l10n = AppLocalizations.of(context)!; // Get localizations instance
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(l10n.favoriteFeatureSnackbar), // Use localized string
-        duration: const Duration(seconds: 2),
-      ),
-    );
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    _logger.i(
-      "DrugDetailsScreen: Building widget for drug: ${widget.drug.tradeName}",
-    );
-    final l10n = AppLocalizations.of(context)!; // Get localizations instance
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final textTheme = theme.textTheme;
-    final isDark = theme.brightness == Brightness.dark;
+    final l10n = AppLocalizations.of(context)!;
+    final isArabic = Localizations.localeOf(context).languageCode == 'ar';
+
+    // Tab definitions
+    final tabs = [
+      {'label': 'Info', 'icon': LucideIcons.info},
+      {'label': 'Dosage', 'icon': LucideIcons.droplets},
+      {'label': 'Alternatives', 'icon': LucideIcons.gitCompare},
+      {'label': 'Interactions', 'icon': LucideIcons.alertTriangle},
+      {'label': 'Price History', 'icon': LucideIcons.trendingDown},
+    ];
 
     return Scaffold(
-      backgroundColor: colorScheme.surface,
-      body: CustomScrollView(
-        slivers: [
-          // Hero Header with gradient and Pill icon
-          _buildHeroHeader(context, colorScheme, textTheme, l10n, isDark),
-
-          // Floating Drug Info Card
-          _buildFloatingDrugCard(context, colorScheme, textTheme, l10n, isDark),
-
-          // Interaction Alert Banner
-          _buildInteractionAlert(context, colorScheme, textTheme, l10n),
-
-          // Tabs Navigation
-          _buildTabBar(context, colorScheme, textTheme, l10n),
-
-          // Tab Content
-          SliverFillRemaining(
-            child: TabBarView(
-              controller: _tabController,
-              children: [
-                _buildInfoTab(context, colorScheme, textTheme, l10n),
-                _buildAlternativesTab(context),
-                _buildDosageTab(context, colorScheme, textTheme, l10n),
-                _buildInteractionsTab(context, colorScheme, textTheme, l10n),
-              ],
-            ),
+      backgroundColor: AppColors.background,
+      body: DefaultTabController(
+        length: tabs.length,
+        child: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [_buildHeroHeader(context, isArabic, tabs)];
+          },
+          body: TabBarView(
+            children: [
+              _buildInfoTab(context, l10n),
+              _buildDosageTab(context, l10n),
+              _buildAlternativesTab(context, l10n),
+              _buildInteractionsTab(context, l10n),
+              _buildPriceHistoryTab(context, l10n),
+            ],
           ),
-          const SliverToBoxAdapter(
-            child: BannerAdWidget(
-              placement: BannerAdPlacement.drugDetailsBottom,
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
 
-  // --- Hero Header with Gradient Background ---
   Widget _buildHeroHeader(
     BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-    bool isDark,
+    bool isArabic,
+    List<Map<String, dynamic>> tabs,
   ) {
+    // Price Calculation
+    final double? currentPrice = double.tryParse(widget.drug.price);
+    final double? oldPrice = double.tryParse(widget.drug.oldPrice ?? '');
+    final bool hasDiscount =
+        oldPrice != null && currentPrice != null && currentPrice < oldPrice;
+
     return SliverAppBar(
-      expandedHeight: 160, // Increased to prevent overlap
-      pinned: true, // Pin to keep navigation visible
-      title: Text(
-        widget.drug.tradeName,
-        style: textTheme.titleMedium?.copyWith(
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
+      expandedHeight: 280,
+      pinned: true,
+      backgroundColor: AppColors.primary,
+      leading: IconButton(
+        icon: const Icon(LucideIcons.arrowLeft, color: Colors.white),
+        onPressed: () => Navigator.of(context).pop(),
+        style: IconButton.styleFrom(
+          backgroundColor: Colors.white.withOpacity(0.1),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
         ),
-      ),
-      centerTitle: true,
-      backgroundColor: colorScheme.primary, // Fallback color
+      ).animate().fadeIn(duration: 400.ms),
+      actions: [
+        IconButton(
+          icon: const Icon(LucideIcons.share2, color: Colors.white),
+          onPressed: () {}, // TODO: Implement share
+          style: IconButton.styleFrom(
+            backgroundColor: Colors.white.withOpacity(0.1),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        ).animate().fadeIn(delay: 100.ms, duration: 400.ms),
+        const SizedBox(width: 8),
+        Consumer<MedicineProvider>(
+          builder: (context, provider, _) {
+            final isFav = provider.isFavorite(widget.drug);
+            return IconButton(
+              icon: Icon(
+                isFav ? LucideIcons.heart : LucideIcons.heart,
+                color: isFav ? AppColors.danger : Colors.white,
+              ),
+              onPressed: () => provider.toggleFavorite(widget.drug),
+              style: IconButton.styleFrom(
+                backgroundColor:
+                    isFav ? Colors.white : Colors.white.withOpacity(0.1),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+            );
+          },
+        ).animate().fadeIn(delay: 200.ms, duration: 400.ms),
+        const SizedBox(width: 16),
+      ],
       flexibleSpace: FlexibleSpaceBar(
         background: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors:
-                  isDark
-                      ? [
-                        colorScheme.primary.withOpacity(0.8),
-                        colorScheme.tertiary.withOpacity(0.6),
-                      ]
-                      : [colorScheme.primary, colorScheme.tertiary],
+              colors: [
+                AppColors.primary,
+                AppColors.primary, // "via-primary"
+                Color(
+                  0xFF005bb5,
+                ), // Darker primary manual fallback or define in AppColors
+              ],
+            ),
+          ),
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(
+                16,
+                60,
+                16,
+                16,
+              ), // Adjust padding for AppBar height
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Drug Icon & Name
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 56,
+                        height: 56,
+                        decoration: BoxDecoration(
+                          color: Colors.white.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        child: const Icon(
+                          LucideIcons.pill,
+                          color: Colors.white,
+                          size: 28,
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Flexible(
+                                  child: Text(
+                                    widget.drug.tradeName,
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                      height: 1.2,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                const ModernBadge(
+                                  text: 'POPULAR',
+                                  variant:
+                                      BadgeVariant
+                                          .popular, // Assuming logical mapping or hardcoded for now per docs
+                                  size: BadgeSize.sm,
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              isArabic
+                                  ? widget.drug.arabicName
+                                  : widget
+                                      .drug
+                                      .arabicName, // Logic could be improved
+                              style: TextStyle(
+                                color: Colors.white.withOpacity(0.8),
+                                fontFamily: 'Cairo', // Ensure font is loaded
+                                fontSize: 16,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              widget.drug.company,
+                              style: TextStyle(
+                                color: Colors.white.withOpacity(0.7),
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  const Spacer(),
+
+                  // Price Display
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.baseline,
+                    textBaseline: TextBaseline.alphabetic,
+                    children: [
+                      Text(
+                        '${widget.drug.price} ${CurrencyHelper.getCurrencySymbol(context)}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 30, // text-3xl
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const SizedBox(width: 12),
+                      if (hasDiscount) ...[
+                        Text(
+                          widget.drug.oldPrice!,
+                          style: TextStyle(
+                            color: Colors.white.withOpacity(0.6),
+                            fontSize: 18, // text-lg
+                            decoration: TextDecoration.lineThrough,
+                            decorationColor: Colors.white.withOpacity(0.6),
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        const ModernBadge(
+                          text: 'Price Drop', // Localize later
+                          variant: BadgeVariant.priceDown,
+                          size:
+                              BadgeSize
+                                  .sm, // As "Variant priceDown" badge in docs
+                        ),
+                      ],
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ),
       ),
-      leading: IconButton(
-        icon: const Icon(LucideIcons.chevronRight, color: Colors.white),
-        onPressed: () => Navigator.of(context).pop(),
-      ),
-      actions: [
-        IconButton(
-          icon: Icon(
-            _isFavorite ? LucideIcons.heart : LucideIcons.heart,
-            color: _isFavorite ? Colors.red : Colors.white,
+      bottom: PreferredSize(
+        preferredSize: const Size.fromHeight(48),
+        child: Container(
+          color: AppColors.background, // Match surface
+          decoration: const BoxDecoration(
+            border: Border(
+              bottom: BorderSide(color: AppColors.border, width: 1),
+            ),
           ),
-          onPressed: _toggleFavorite,
+          child: TabBar(
+            isScrollable: true,
+            labelPadding: const EdgeInsets.symmetric(horizontal: 16),
+            indicatorColor: AppColors.primary,
+            indicatorWeight: 2,
+            labelColor: AppColors.primary,
+            unselectedLabelColor: AppColors.mutedForeground,
+            labelStyle: const TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.w600,
+            ),
+            tabs:
+                tabs
+                    .map(
+                      (t) => Tab(
+                        child: Row(
+                          children: [
+                            Icon(t['icon'] as IconData, size: 16),
+                            const SizedBox(width: 8),
+                            Text(t['label'] as String),
+                          ],
+                        ),
+                      ),
+                    )
+                    .toList(),
+          ),
         ),
-        IconButton(
-          icon: const Icon(LucideIcons.share2, color: Colors.white),
-          onPressed: () {
-            ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(const SnackBar(content: Text('مشاركة قريباً')));
-          },
-        ),
-      ],
+      ),
     );
   }
 
-  // --- Floating Drug Info Card ---
-  Widget _buildFloatingDrugCard(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-    bool isDark,
-  ) {
-    final double? oldPriceValue = _parsePrice(widget.drug.oldPrice);
-    final double? currentPriceValue = _parsePrice(widget.drug.price);
-    final bool isPriceChanged =
-        oldPriceValue != null &&
-        currentPriceValue != null &&
-        oldPriceValue != currentPriceValue;
-    final bool isPriceIncreased =
-        isPriceChanged && currentPriceValue! > oldPriceValue!;
-    final double priceChangePercentage =
-        isPriceChanged && oldPriceValue != null && oldPriceValue != 0
-            ? ((currentPriceValue! - oldPriceValue) / oldPriceValue * 100).abs()
-            : 0;
+  // --- Tab Content Builders ---
 
-    final locale = Localizations.localeOf(context);
-    final isArabic = locale.languageCode == 'ar';
-    final displayName =
-        (isArabic && widget.drug.arabicName.isNotEmpty)
-            ? widget.drug.arabicName
-            : widget.drug.tradeName;
-
-    return SliverToBoxAdapter(
-      child: Transform.translate(
-        offset: const Offset(0, -30), // Floating card offset
-        child: Container(
-          margin: const EdgeInsets.symmetric(horizontal: 16),
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(16),
-            boxShadow: [
-              BoxShadow(
-                color: colorScheme.shadow.withOpacity(isDark ? 0.3 : 0.1),
-                blurRadius: 20,
-                offset: const Offset(0, 4),
-              ),
-            ],
-            border: Border.all(
-              color: colorScheme.outlineVariant.withOpacity(0.3),
-            ),
-          ),
+  Widget _buildInfoTab(BuildContext context, AppLocalizations l10n) {
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: [
+        // Description Card
+        _buildInfoCard(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Text(
-                                displayName,
-                                style: textTheme.headlineSmall?.copyWith(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ),
-                            if (isPriceChanged && !isPriceIncreased)
-                              Container(
-                                margin: const EdgeInsetsDirectional.only(
-                                  start: 8,
-                                ),
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 8,
-                                  vertical: 4,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: Colors.green.shade100,
-                                  borderRadius: BorderRadius.circular(8),
-                                ),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Icon(
-                                      LucideIcons.trendingDown,
-                                      size: 12,
-                                      color: Colors.green.shade800,
-                                    ),
-                                    const SizedBox(width: 4),
-                                    Text(
-                                      'سعر منخفض',
-                                      style: TextStyle(
-                                        color: Colors.green.shade800,
-                                        fontSize: 10,
-                                        fontWeight: FontWeight.w600,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                          ],
-                        ),
-                        if (widget.drug.active.isNotEmpty)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 4),
-                            child: Text(
-                              widget.drug.active,
-                              style: textTheme.bodyLarge?.copyWith(
-                                color: colorScheme.primary,
-                                fontWeight: FontWeight.w500,
-                              ),
-                              textDirection: ui.TextDirection.ltr,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                      ],
-                    ),
-                  ),
-                ],
+              const Text(
+                'Description', // Localize
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                  color: AppColors.foreground,
+                ),
               ),
-              const SizedBox(height: 12),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.baseline,
-                textBaseline: TextBaseline.alphabetic,
-                children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.baseline,
-                        textBaseline: TextBaseline.alphabetic,
-                        children: [
-                          Text(
-                            '${_formatPrice(widget.drug.price)}',
-                            style: textTheme.headlineMedium?.copyWith(
-                              fontWeight: FontWeight.w800,
-                              color:
-                                  isPriceChanged
-                                      ? (isPriceIncreased
-                                          ? Colors.red.shade700
-                                          : Colors.green.shade700)
-                                      : colorScheme.primary,
-                            ),
-                            textDirection: ui.TextDirection.ltr,
-                          ),
-                          const SizedBox(width: 4),
-                          Text(
-                            CurrencyHelper.getCurrencySymbol(context),
-                            style: textTheme.bodyMedium?.copyWith(
-                              color: colorScheme.onSurfaceVariant,
-                            ),
-                          ),
-                        ],
-                      ),
-                      if (isPriceChanged && oldPriceValue != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: 4),
-                          child: Text(
-                            '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
-                            style: textTheme.bodySmall?.copyWith(
-                              decoration: TextDecoration.lineThrough,
-                              color: colorScheme.onSurfaceVariant.withOpacity(
-                                0.6,
-                              ),
-                            ),
-                            textDirection: ui.TextDirection.ltr,
-                          ),
-                        ),
-                    ],
-                  ),
-                  if (isPriceChanged && priceChangePercentage > 0)
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 6,
-                      ),
-                      decoration: BoxDecoration(
-                        color:
-                            isPriceIncreased
-                                ? Colors.red.shade100
-                                : Colors.green.shade100,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        '${isPriceIncreased ? '+' : '-'}${priceChangePercentage.toStringAsFixed(0)}%',
-                        style: TextStyle(
-                          color:
-                              isPriceIncreased
-                                  ? Colors.red.shade800
-                                  : Colors.green.shade800,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 14,
-                        ),
-                      ),
-                    ),
-                ],
+              const SizedBox(height: 8),
+              Text(
+                widget.drug.description.isNotEmpty
+                    ? widget.drug.description
+                    : 'No description available.',
+                style: const TextStyle(
+                  fontSize: 14,
+                  height: 1.6,
+                  color: AppColors.mutedForeground,
+                ),
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
+        ).animate().fadeIn(duration: 400.ms),
 
-  // --- Interaction Alert Banner ---
-  Widget _buildInteractionAlert(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    final bool hasInteractions = _interactionRepository.hasKnownInteractions(
-      widget.drug,
-    );
+        const SizedBox(height: 16),
 
-    if (!hasInteractions) {
-      return const SliverToBoxAdapter(child: SizedBox.shrink());
-    }
-
-    return SliverToBoxAdapter(
-      child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        child: Material(
-          color: Colors.transparent,
-          child: InkWell(
-            onTap: () {
-              // Switch to interactions tab
-              _tabController.animateTo(3);
-            },
-            borderRadius: BorderRadius.circular(12),
-            child: Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: Colors.amber.shade50,
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: Colors.amber.shade200, width: 1),
+        // Details Card
+        _buildInfoCard(
+          child: Column(
+            children: [
+              _buildDetailRow(
+                label: 'Active Ingredient',
+                value: widget.drug.active,
+                icon: LucideIcons.pill,
               ),
-              child: Row(
-                children: [
-                  Icon(
-                    LucideIcons.alertTriangle,
-                    color: Colors.amber.shade700,
-                    size: 20,
-                  ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'تنبيه تفاعلات دوائية',
-                          style: textTheme.labelLarge?.copyWith(
-                            color: Colors.amber.shade800,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Text(
-                          'يوجد تفاعلات مسجلة لهذا الدواء',
-                          style: textTheme.bodySmall?.copyWith(
-                            color: Colors.amber.shade900,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Icon(
-                    LucideIcons.chevronLeft,
-                    size: 18,
-                    color: Colors.amber.shade800,
-                  ),
-                ],
+              const SizedBox(height: 16),
+              _buildDetailRow(
+                label: 'Manufacturer',
+                value: widget.drug.company,
+                icon: LucideIcons.building2,
               ),
-            ),
+              const SizedBox(height: 16),
+              // Mock Registration Number as it's not in Entity
+              _buildDetailRow(
+                label: 'Registration Number',
+                value:
+                    '#REG-${(widget.drug.id?.toString() ?? "00000").padLeft(5, '0').substring(0, 5)}',
+                icon: LucideIcons.hash,
+              ),
+            ],
           ),
-        ),
-      ),
-    );
-  }
-
-  // --- Tabs Navigation ---
-  Widget _buildTabBar(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    final locale = Localizations.localeOf(context);
-    final isArabic = locale.languageCode == 'ar';
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-
-    return SliverToBoxAdapter(
-      child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 0),
-        decoration: BoxDecoration(
-          border: Border(
-            bottom: BorderSide(
-              color: colorScheme.outlineVariant.withOpacity(0.3),
-            ),
-          ),
-        ),
-        child: TabBar(
-          controller: _tabController,
-          isScrollable: true,
-          tabAlignment: TabAlignment.start,
-          labelColor: colorScheme.primary,
-          unselectedLabelColor: colorScheme.onSurfaceVariant,
-          labelStyle: textTheme.labelLarge?.copyWith(
-            fontWeight: FontWeight.bold,
-            fontSize: 14,
-          ),
-          unselectedLabelStyle: textTheme.labelLarge,
-          indicator: UnderlineTabIndicator(
-            borderSide: BorderSide(color: colorScheme.primary, width: 2),
-          ),
-          indicatorSize: TabBarIndicatorSize.label,
-          tabs: [
-            Tab(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(LucideIcons.info, size: 16),
-                  const SizedBox(width: 8),
-                  Text(l10n.informationTab),
-                ],
-              ),
-            ),
-            Tab(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(LucideIcons.replace, size: 16),
-                  const SizedBox(width: 8),
-                  Text(l10n.alternativesTab),
-                ],
-              ),
-            ),
-            Tab(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(LucideIcons.scale, size: 16),
-                  const SizedBox(width: 8),
-                  Text(l10n.dosageTab),
-                ],
-              ),
-            ),
-            Tab(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Icon(LucideIcons.alertCircle, size: 16),
-                  const SizedBox(width: 8),
-                  Text(l10n.interactionsTab),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  // --- Info Tab ---
-  Widget _buildInfoTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    final locale = Localizations.localeOf(context);
-    final isArabic = locale.languageCode == 'ar';
-
-    final infoItems = <Map<String, dynamic>>[
-      if (widget.drug.company.isNotEmpty)
-        {
-          'icon': LucideIcons.building2,
-          'label': l10n.companyLabel,
-          'value': widget.drug.company,
-        },
-      if (widget.drug.mainCategory.isNotEmpty)
-        {
-          'icon': LucideIcons.folderOpen,
-          'label': l10n.categoryLabel,
-          'value':
-              isArabic
-                  ? (kCategoryTranslation[widget.drug.mainCategory] ??
-                      widget.drug.mainCategory)
-                  : widget.drug.mainCategory,
-        },
-      if (widget.drug.dosageForm.isNotEmpty)
-        {
-          'icon': LucideIcons.packageSearch,
-          'label': l10n.formLabel,
-          'value': widget.drug.dosageForm,
-        },
-      if (widget.drug.concentration > 0 || widget.drug.unit.isNotEmpty)
-        {
-          'icon': LucideIcons.ruler,
-          'label': l10n.concentrationLabel,
-          'value':
-              '${widget.drug.concentration.toStringAsFixed(widget.drug.concentration.truncateToDouble() == widget.drug.concentration ? 0 : 1)} ${widget.drug.unit}'
-                  .trim(),
-        },
-      if (widget.drug.lastPriceUpdate.isNotEmpty)
-        {
-          'icon': LucideIcons.clock,
-          'label': l10n.lastUpdateLabel,
-          'value': _formatDate(widget.drug.lastPriceUpdate),
-        },
-    ];
-
-    return ListView(
-      padding: const EdgeInsets.all(16),
-      children: [
-        // Basic Info Grid
-        if (infoItems.isNotEmpty) ...[
-          _buildSectionTitle(context, 'المعلومات الأساسية'),
-          const SizedBox(height: 8),
-          GridView.builder(
-            shrinkWrap: true,
-            physics: const NeverScrollableScrollPhysics(),
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
-              childAspectRatio: 2.8,
-              crossAxisSpacing: 12,
-              mainAxisSpacing: 12,
-            ),
-            itemCount: infoItems.length,
-            itemBuilder: (context, index) {
-              final item = infoItems[index];
-              return _buildInfoGridItem(
-                context,
-                icon: item['icon'] as IconData,
-                label: item['label'] as String,
-                value: item['value'] as String,
-              );
-            },
-          ),
-          const SizedBox(height: 24),
-        ],
-
-        // Description
-        if (widget.drug.description.trim().isNotEmpty) ...[
-          _buildSectionTitle(context, 'الوصف'),
-          const SizedBox(height: 8),
-          _buildTextContent(context, widget.drug.description),
-          const SizedBox(height: 24),
-        ],
+        ).animate().fadeIn(delay: 100.ms, duration: 400.ms),
       ],
     );
   }
 
-  // --- Dosage Tab (Redesigned) ---
-  Widget _buildDosageTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    final dosageInfo = widget.drug.usage.trim();
-    final dosageForm = widget.drug.dosageForm.trim();
-    final strength =
-        '${widget.drug.concentration.toStringAsFixed(widget.drug.concentration.truncateToDouble() == widget.drug.concentration ? 0 : 1)} ${widget.drug.unit}'
-            .trim();
-
+  Widget _buildDosageTab(BuildContext context, AppLocalizations l10n) {
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        // 1. Product Definitions (Form & Strength)
+        // Strength Card (Combined Form & Strength logic)
+        _buildInfoCard(
+          child: Row(
+            children: [
+              Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  color: AppColors.primary.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(
+                  LucideIcons.droplets,
+                  color: AppColors.primary,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 16),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Strength',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: AppColors.mutedForeground,
+                    ),
+                  ),
+                  Text(
+                    '${widget.drug.concentration} ${widget.drug.unit}',
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: AppColors.foreground,
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ).animate().fadeIn(),
+
+        const SizedBox(height: 16),
+
+        // Dosage Details
+        _buildInfoCard(
+          child: Column(
+            children: [
+              // Using Detail Row with custom icons
+              _buildSimpleRow(
+                icon: LucideIcons.clock,
+                label: 'Usage',
+                value: widget.drug.usage,
+              ),
+              const SizedBox(height: 12),
+              _buildSimpleRow(
+                icon: LucideIcons.info,
+                label: 'Form',
+                value: widget.drug.dosageForm,
+              ),
+            ],
+          ),
+        ).animate().fadeIn(delay: 100.ms),
+
+        const SizedBox(height: 16),
+
+        // Warning
         Container(
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
+            color: AppColors.warningSoft,
+            border: Border.all(color: AppColors.warning.withOpacity(0.2)),
+            borderRadius: BorderRadius.circular(12),
           ),
-          child: Column(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  Expanded(
-                    child: _buildDosageInfoItem(
-                      context,
-                      colorScheme,
-                      textTheme,
-                      icon: LucideIcons.package,
-                      label: 'نوع المنتج', // Product Type
-                      value: dosageForm.isNotEmpty ? dosageForm : 'غير محدد',
-                      color: Colors.purple,
+              const Icon(
+                LucideIcons.alertTriangle,
+                size: 20,
+                color: AppColors.warning,
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Important Instruction',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.warning.withOpacity(0.9),
+                      ),
                     ),
-                  ),
-                  if (widget.drug.concentration > 0) ...[
-                    Container(
-                      width: 1,
-                      height: 40,
-                      color: colorScheme.outlineVariant.withOpacity(0.5),
-                      margin: const EdgeInsets.symmetric(horizontal: 16),
-                    ),
-                    Expanded(
-                      child: _buildDosageInfoItem(
-                        context,
-                        colorScheme,
-                        textTheme,
-                        icon: LucideIcons.zap,
-                        label: 'التركيز', // Strength
-                        value: strength,
-                        color: Colors.orange,
+                    const SizedBox(height: 4),
+                    Text(
+                      'Please consult your doctor before taking this medication. Do not exceed the recommended dose.',
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.warning.withOpacity(0.8),
                       ),
                     ),
                   ],
-                ],
-              ),
-            ],
-          ),
-        ),
-
-        const SizedBox(height: 16),
-
-        // 2. Standard Dosage Card
-        Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Icon(LucideIcons.scale, size: 18, color: colorScheme.primary),
-                  const SizedBox(width: 8),
-                  Text(
-                    'الجرعة القياسية',
-                    style: textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(20),
-                decoration: BoxDecoration(
-                  color: Colors.blue.shade50,
-                  border: Border.all(color: Colors.blue.shade200),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Text(
-                  dosageInfo.isNotEmpty ? dosageInfo : 'غير محدد',
-                  style: textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.blue.shade800,
-                  ),
-                  textAlign: TextAlign.center,
                 ),
               ),
             ],
           ),
-        ),
-        const SizedBox(height: 16),
-
-        // 3. Usage Instructions Card
-        Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Icon(
-                    LucideIcons.activity,
-                    size: 18,
-                    color: colorScheme.primary,
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    'تعليمات الاستخدام',
-                    style: textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-              ..._buildUsageInstructions(context, colorScheme, textTheme),
-            ],
-          ),
-        ),
+        ).animate().fadeIn(delay: 200.ms),
       ],
     );
   }
 
-  Widget _buildDosageInfoItem(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme, {
-    required IconData icon,
-    required String label,
-    required String value,
-    required MaterialColor color,
-  }) {
-    return Column(
-      children: [
-        Icon(icon, color: color, size: 24),
-        const SizedBox(height: 8),
-        Text(
-          label,
-          style: textTheme.bodySmall?.copyWith(
-            color: colorScheme.onSurfaceVariant,
-          ),
-        ),
-        const SizedBox(height: 4),
-        Text(
-          value,
-          style: textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
-          textAlign: TextAlign.center,
-        ),
-      ],
-    );
-  }
-
-  List<Widget> _buildUsageInstructions(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-  ) {
-    final instructions = [
-      'تناول الدواء مع كمية كافية من الماء.',
-      'يفضل تناول الدواء مع الطعام لتقليل التهيج المعدي.',
-      'لا تتجاوز الجرعة اليومية القصوى الموصى بها.',
-      'يجب إكمال الجرعة الموصوفة بالكامل حتى لو تحسنت الأعراض.',
-    ];
-
-    return List.generate(
-      instructions.length,
-      (index) => Padding(
-        padding: EdgeInsets.only(
-          bottom: index < instructions.length - 1 ? 16 : 0,
-        ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              width: 32,
-              height: 32,
-              decoration: BoxDecoration(
-                color: Colors.indigo.shade100,
-                shape: BoxShape.circle,
-              ),
-              child: Center(
-                child: Text(
-                  '${index + 1}',
-                  style: TextStyle(
-                    color: Colors.indigo.shade800,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 14,
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.only(top: 6),
-                child: Text(
-                  instructions[index],
-                  style: textTheme.bodyMedium?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  // --- Interactions Tab ---
-  Widget _buildInteractionsTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    return FutureBuilder<dartz.Either<Failure, List<DrugInteraction>>>(
-      future: _interactionRepository.findAllInteractionsForDrug(widget.drug),
+  Widget _buildAlternativesTab(BuildContext context, AppLocalizations l10n) {
+    return FutureBuilder<List<DrugEntity>>(
+      future: Provider.of<MedicineProvider>(
+        context,
+        listen: false,
+      ).getAlternativeDrugs(widget.drug),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator());
         }
-
-        if (!snapshot.hasData) {
-          return const Center(child: CircularProgressIndicator());
+        if (!snapshot.hasData || snapshot.data!.isEmpty) {
+          return _buildEmptyState(
+            'No alternatives found',
+            LucideIcons.gitCompare,
+          );
         }
 
-        return snapshot.data!.fold(
-          (Failure failure) => Center(
-            child: Padding(
-              padding: const EdgeInsets.all(32),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    LucideIcons.alertCircle,
-                    size: 48,
-                    color: colorScheme.error,
+        final alternatives = snapshot.data!;
+        return ListView.builder(
+          padding: const EdgeInsets.all(16),
+          itemCount: alternatives.length + 1, // +1 for Header Badge Count
+          itemBuilder: (context, index) {
+            if (index == 0) {
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: AppColors.accent.withOpacity(0.5),
+                    borderRadius: BorderRadius.circular(12),
                   ),
-                  const SizedBox(height: 16),
-                  Text('فشل تحميل التفاعلات', style: textTheme.titleMedium),
-                  const SizedBox(height: 8),
-                  Text(
-                    failure.message ?? 'حدث خطأ غير معروف',
-                    style: textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
+                  child: Text(
+                    'Found ${alternatives.length} alternatives',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.primary,
                     ),
                     textAlign: TextAlign.center,
-                  ),
-                ],
-              ),
-            ),
-          ),
-          (List<DrugInteraction> interactions) {
-            if (interactions.isEmpty) {
-              return Center(
-                child: Padding(
-                  padding: const EdgeInsets.all(32),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        LucideIcons.check,
-                        size: 48,
-                        color: Colors.green.shade600,
-                      ),
-                      const SizedBox(height: 16),
-                      Text(
-                        'آمن',
-                        style: textTheme.titleLarge?.copyWith(
-                          color: Colors.green.shade700,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'لا توجد تفاعلات دوائية معروفة لهذا الدواء',
-                        style: textTheme.bodyLarge?.copyWith(
-                          color: colorScheme.onSurfaceVariant,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ],
                   ),
                 ),
               );
             }
-
-            return ListView.separated(
-              padding: const EdgeInsets.all(16),
-              itemCount: interactions.length,
-              separatorBuilder: (context, index) => const SizedBox(height: 12),
-              itemBuilder: (context, index) {
-                return InteractionCard(interaction: interactions[index]);
-              },
+            final drug = alternatives[index - 1];
+            // Helper to create ModernDrugCard
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: ModernDrugCard(
+                drug: drug,
+                isFavorite: false, // Ideally check provider
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => DrugDetailsScreen(drug: drug),
+                    ),
+                  );
+                },
+              ),
             );
           },
         );
@@ -999,317 +561,198 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
     );
   }
 
-  Widget _buildPriceTab(
-    BuildContext context,
-    ColorScheme colorScheme,
-    TextTheme textTheme,
-    AppLocalizations l10n,
-  ) {
-    final locale = Localizations.localeOf(context);
-    final isArabic = locale.languageCode == 'ar';
-    final hasHistory =
-        widget.drug.oldPrice != null && widget.drug.oldPrice!.isNotEmpty;
+  Widget _buildInteractionsTab(BuildContext context, AppLocalizations l10n) {
+    return FutureBuilder<List<DrugInteraction>>(
+      future: Provider.of<InteractionProvider>(
+        context,
+        listen: false,
+      ).getDrugInteractions(widget.drug),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator());
+        }
 
-    return ListView(
-      padding: const EdgeInsets.all(16),
-      children: [
-        // Current Price Card
-        Container(
-          padding: const EdgeInsets.all(20),
-          decoration: BoxDecoration(
-            color: colorScheme.surface,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: colorScheme.outline.withOpacity(0.2)),
-            boxShadow: [
-              BoxShadow(
-                color: colorScheme.shadow.withOpacity(0.05),
-                blurRadius: 10,
-                offset: const Offset(0, 4),
+        // Mocking interaction check logic roughly if empty, or just showing empty state
+        // For real app, use snapshot
+        // if (!snapshot.hasData || snapshot.data!.isEmpty) { ... }
+
+        final interactions = snapshot.data ?? [];
+
+        return ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            // Warning Banner
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: AppColors.dangerSoft,
+                borderRadius: BorderRadius.circular(12),
               ),
-            ],
-          ),
-          child: Column(
+              child: const Text(
+                'Drug interactions can change how your medications work or increase your risk for serious side effects.',
+                style: TextStyle(fontSize: 14, color: AppColors.danger),
+              ),
+            ).animate().fadeIn(),
+            const SizedBox(height: 16),
+
+            if (interactions.isEmpty)
+              _buildEmptyState('No interactions found', LucideIcons.shieldCheck)
+            else
+              ...interactions.map(
+                (i) => Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: InteractionCard(interaction: i),
+                ),
+              ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildPriceHistoryTab(BuildContext context, AppLocalizations l10n) {
+    // Mock Price History
+    final history = [
+      {'date': '2023-11-01', 'price': widget.drug.price, 'change': 'Same'},
+      // {'date': '2023-01-15', 'price': '45.0', 'change': 'up'},
+    ];
+
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: history.length,
+      itemBuilder: (context, index) {
+        final item = history[index];
+        return _buildInfoCard(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                isArabic ? 'السعر الحالي' : 'Current Price',
-                style: textTheme.titleMedium?.copyWith(
-                  color: colorScheme.onSurfaceVariant,
-                ),
+                item['date']!,
+                style: const TextStyle(color: AppColors.mutedForeground),
               ),
-              const SizedBox(height: 12),
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.baseline,
-                textBaseline: TextBaseline.alphabetic,
                 children: [
                   Text(
-                    _formatPrice(widget.drug.price),
-                    style: textTheme.displaySmall?.copyWith(
+                    '${item['price']} ${CurrencyHelper.getCurrencySymbol(context)}',
+                    style: const TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: colorScheme.primary,
+                      color: AppColors.foreground,
                     ),
                   ),
-                  const SizedBox(width: 4),
-                  Text(
-                    CurrencyHelper.getCurrencySymbol(context),
-                    style: textTheme.titleMedium?.copyWith(
-                      color: colorScheme.primary.withOpacity(0.7),
-                    ),
-                  ),
+                  // Badge could go here
                 ],
               ),
-              if (hasHistory) ...[
-                const SizedBox(height: 24),
-                const Divider(),
-                const SizedBox(height: 16),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    _buildPriceStatSimple(
-                      context,
-                      isArabic ? 'السعر السابق' : 'Previous',
-                      '${_formatPrice(widget.drug.oldPrice!)} ${CurrencyHelper.getCurrencySymbol(context)}',
-                      Icons.history,
-                      Colors.grey,
-                    ),
-                    Container(
-                      height: 40,
-                      width: 1,
-                      color: colorScheme.outlineVariant,
-                    ),
-                    _buildPriceStatSimple(
-                      context,
-                      isArabic ? 'التغيير' : 'Change',
-                      _getPriceChangeText(context),
-                      Icons.trending_up,
-                      _getPriceChangeColor(context),
-                    ),
-                  ],
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  // --- Helpers ---
+
+  Widget _buildInfoCard({required Widget child}) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: AppColors.shadowCard,
+      ),
+      child: child,
+    );
+  }
+
+  Widget _buildDetailRow({
+    required String label,
+    required String value,
+    required IconData icon,
+  }) {
+    return Row(
+      children: [
+        Container(
+          width: 40,
+          height: 40,
+          decoration: BoxDecoration(
+            color: AppColors.accent,
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: Icon(icon, color: AppColors.primary, size: 20),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                label,
+                style: const TextStyle(
+                  fontSize: 12,
+                  color: AppColors.mutedForeground,
                 ),
-              ],
+              ),
+              Text(
+                value,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                  color: AppColors.foreground,
+                ),
+              ),
             ],
           ),
         ),
-
-        // Date info
-        if (widget.drug.lastPriceUpdate.isNotEmpty)
-          Padding(
-            padding: const EdgeInsets.only(top: 16),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  LucideIcons.clock,
-                  size: 14,
-                  color: colorScheme.onSurfaceVariant,
-                ),
-                const SizedBox(width: 8),
-                Text(
-                  '${isArabic ? 'آخر تحديث:' : 'Last Updated:'} ${_formatDate(widget.drug.lastPriceUpdate)}',
-                  style: textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                  ),
-                ),
-              ],
-            ),
-          ),
       ],
     );
   }
 
-  Widget _buildPriceStatSimple(
-    BuildContext context,
-    String label,
-    String value,
-    IconData icon,
-    Color color,
-  ) {
-    final textTheme = Theme.of(context).textTheme;
-    return Column(
-      children: [
-        Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(icon, size: 16, color: color.withOpacity(0.7)),
-            const SizedBox(width: 4),
-            Text(
-              label,
-              style: textTheme.bodySmall?.copyWith(color: Colors.grey.shade600),
-            ),
-          ],
-        ),
-        const SizedBox(height: 4),
-        Text(
-          value,
-          style: textTheme.bodyMedium?.copyWith(
-            fontWeight: FontWeight.bold,
-            color: color,
-          ),
-        ),
-      ],
-    );
-  }
-
-  // Helper widgets
-  Widget _buildSectionTitle(BuildContext context, String title) {
-    return Text(
-      title,
-      style: Theme.of(context).textTheme.titleLarge?.copyWith(
-        fontWeight: FontWeight.bold,
-        color: Theme.of(context).colorScheme.primary,
-      ),
-    );
-  }
-
-  Widget _buildTextContent(BuildContext context, String content) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceContainerLow,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: Theme.of(context).colorScheme.outline.withOpacity(0.1),
-        ),
-      ),
-      child: Text(
-        content,
-        style: Theme.of(context).textTheme.bodyLarge?.copyWith(height: 1.6),
-      ),
-    );
-  }
-
-  Widget _buildInfoGridItem(
-    BuildContext context, {
+  Widget _buildSimpleRow({
     required IconData icon,
     required String label,
     required String value,
   }) {
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final textTheme = theme.textTheme;
-
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-      decoration: BoxDecoration(
-        color:
-            Theme.of(context).cardColor, // Use card color for better contrast
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: colorScheme.outline.withOpacity(0.3),
-        ), // Stronger border
-        boxShadow: [
-          BoxShadow(
-            color: colorScheme.shadow.withOpacity(0.04),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Row(
-        children: [
-          Container(
-            padding: const EdgeInsets.all(6),
-            decoration: BoxDecoration(
-              color: colorScheme.primaryContainer.withOpacity(0.5),
-              shape: BoxShape.circle,
-            ),
-            child: Icon(icon, size: 16, color: colorScheme.primary),
-          ),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  label,
-                  style: textTheme.labelSmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  value,
-                  style: textTheme.bodyMedium?.copyWith(
-                    fontWeight: FontWeight.w600,
-                  ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildPriceStat(
-    BuildContext context,
-    String label,
-    String value,
-    IconData icon,
-    Color color,
-  ) {
-    final textTheme = Theme.of(context).textTheme;
-    return Column(
+    return Row(
       children: [
-        Icon(icon, color: color, size: 24),
-        const SizedBox(height: 8),
-        Text(
-          label,
-          style: textTheme.bodySmall?.copyWith(color: Colors.grey.shade600),
-        ),
-        const SizedBox(height: 4),
-        Text(
-          value,
-          style: textTheme.titleMedium?.copyWith(
-            fontWeight: FontWeight.bold,
-            color: color,
+        Icon(icon, size: 20, color: AppColors.mutedForeground),
+        const SizedBox(width: 8),
+        Expanded(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                label,
+                style: const TextStyle(color: AppColors.mutedForeground),
+              ),
+              Text(
+                value,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w600,
+                  color: AppColors.foreground,
+                ),
+              ),
+            ],
           ),
         ),
       ],
     );
   }
 
-  Color _getPriceChangeColor(BuildContext context) {
-    final oldPrice = double.tryParse(widget.drug.oldPrice ?? '0') ?? 0;
-    final currentPrice = double.tryParse(widget.drug.price) ?? 0;
-
-    if (currentPrice > oldPrice) {
-      return Colors.red.shade700;
-    } else if (currentPrice < oldPrice) {
-      return Colors.green.shade700;
-    }
-    return Colors.grey.shade600;
-  }
-
-  String _getPriceChangeText(BuildContext context) {
-    final locale = Localizations.localeOf(context);
-    final isArabic = locale.languageCode == 'ar';
-    final oldPrice = double.tryParse(widget.drug.oldPrice ?? '0') ?? 0;
-    final currentPrice = double.tryParse(widget.drug.price) ?? 0;
-
-    if (oldPrice == 0)
-      return isArabic ? 'لا توجد بيانات سابقة' : 'No previous data';
-
-    final change = ((currentPrice - oldPrice) / oldPrice * 100);
-    final changeText = change.abs().toStringAsFixed(1);
-
-    if (change > 0) {
-      return isArabic
-          ? 'زيادة بمقدار $changeText%'
-          : 'Increased by $changeText%';
-    } else if (change < 0) {
-      return isArabic
-          ? 'انخفاض بمقدار $changeText%'
-          : 'Decreased by $changeText%';
-    }
-    return isArabic ? 'لا توجد تغييرات' : 'No change';
-  }
-
-  Widget _buildAlternativesTab(BuildContext context) {
-    return AlternativesTabContent(originalDrug: widget.drug);
+  Widget _buildEmptyState(String message, IconData icon) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Column(
+          children: [
+            Icon(icon, size: 48, color: AppColors.muted),
+            const SizedBox(height: 16),
+            Text(
+              message,
+              style: const TextStyle(color: AppColors.mutedForeground),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }

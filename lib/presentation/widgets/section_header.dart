@@ -1,79 +1,91 @@
 import 'package:flutter/material.dart';
-import '../theme/app_colors_extension.dart';
+import 'package:lucide_icons/lucide_icons.dart';
+
+import '../../presentation/theme/app_colors.dart';
 
 class SectionHeader extends StatelessWidget {
   final String title;
   final String subtitle;
-  final Widget icon;
-  final Color? iconBgColor;
-  final VoidCallback? onMoreTap;
+  final IconData icon;
+  final Color iconColor; // Background color for the icon container
+  final Color iconTintColor; // Color of the icon itself
+  final VoidCallback? onSeeAll;
 
   const SectionHeader({
-    Key? key,
+    super.key,
     required this.title,
     required this.subtitle,
     required this.icon,
-    this.iconBgColor,
-    this.onMoreTap,
-  }) : super(key: key);
+    required this.iconColor, // e.g. AppColors.successSoft
+    required this.iconTintColor, // e.g. AppColors.success
+    this.onSeeAll,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Container(
-          padding: const EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            color:
-                iconBgColor ??
-                Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
-            borderRadius: BorderRadius.circular(10), // rounded-lg roughly
-          ),
-          child: IconTheme(
-            data: IconThemeData(
-              size: 16,
-              color: Theme.of(context).colorScheme.primary,
-            ),
-            child: icon,
-          ),
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Row(
             children: [
-              Text(
-                title,
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.onSurface,
+              Container(
+                width: 32,
+                height: 32,
+                decoration: BoxDecoration(
+                  color: iconColor,
+                  borderRadius: BorderRadius.circular(8),
                 ),
+                child: Icon(icon, size: 16, color: iconTintColor),
               ),
-              if (subtitle.isNotEmpty)
-                Text(
-                  subtitle,
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: Theme.of(context).appColors.mutedForeground,
+              const SizedBox(width: 8),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.foreground,
+                    ),
                   ),
-                ),
+                  Text(
+                    subtitle,
+                    style: const TextStyle(
+                      fontSize: 12,
+                      color: AppColors.mutedForeground,
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
-        ),
-        if (onMoreTap != null)
-          TextButton(
-            onPressed: onMoreTap,
-            child: Text(
-              "View All",
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: Theme.of(context).colorScheme.primary,
+          if (onSeeAll != null)
+            GestureDetector(
+              onTap: onSeeAll,
+              child: Row(
+                children: [
+                  const Text(
+                    'See all',
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                      color: AppColors.primary,
+                    ),
+                  ),
+                  const SizedBox(width: 2),
+                  const Icon(
+                    LucideIcons.chevronRight,
+                    size: 16,
+                    color: AppColors.primary,
+                  ),
+                ],
               ),
             ),
-          ),
-      ],
+        ],
+      ),
     );
   }
 }

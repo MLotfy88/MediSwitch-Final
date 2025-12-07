@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import '../../presentation/theme/app_colors.dart';
 import 'section_header.dart'; // Assuming SectionHeader exists
 
 class HorizontalListSection extends StatelessWidget {
@@ -44,10 +46,10 @@ class HorizontalListSection extends StatelessWidget {
             child: SectionHeader(
               title: title!,
               subtitle: "", // Or provide a way to pass subtitle
-              icon: Icon(
-                icon ?? Icons.category,
-              ), // Wrap IconData in helper or Widget
-              onMoreTap: onViewAll,
+              icon: icon ?? Icons.category,
+              iconColor: AppColors.accent,
+              iconTintColor: AppColors.accentForeground,
+              onSeeAll: onViewAll,
             ),
           ),
         // Horizontal List

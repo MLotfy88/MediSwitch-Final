@@ -220,6 +220,13 @@
     "description": "Label for the Price tab on the drug details page."
   },
   "interactionsTab": "Interactions",
+  "todaysUpdates": "Today's Updates",
+  "newDrugsWeek": "New drugs this week",
+  "checkConflicts": "Check conflicts",
+  "calculateDosage": "Calculate dosage",
+  "recentlyAdded": "Recently Added",
+  "backButtonTooltip": "Back",
+  "neverUpdated": "Never Updated",
   "@interactionsTab": {
     "description": "Label for the Interactions tab on the drug details page."
   }

@@ -6,12 +6,14 @@ import 'package:provider/provider.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../../presentation/theme/app_colors.dart'; // Import AppColors
+import '../../presentation/theme/app_colors.dart';
 import '../bloc/medicine_provider.dart';
 import '../services/ad_service.dart';
 import '../widgets/banner_ad_widget.dart';
-import '../widgets/drug_card.dart';
-import '../widgets/filter_end_drawer.dart';
+import '../widgets/cards/modern_drug_card.dart';
+import '../widgets/filter_pills.dart';
+import '../widgets/modern_search_bar.dart';
+import '../widgets/search_filters_sheet.dart';
 import 'drug_details_screen.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -27,36 +29,23 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FileLoggerService _logger = locator<FileLoggerService>();
   final AdService _adService = locator<AdService>();
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   final ScrollController _scrollController = ScrollController();
+
+  String _selectedDosageForm = 'All'; // Local state for filter pill
+  FilterState _currentFilters = const FilterState(); // Added filter state
 
   @override
   void initState() {
     super.initState();
     _searchController.text = widget.initialQuery;
 
+    // Initial setup listeners ...
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         final provider = context.read<MedicineProvider>();
-        bool changed = false;
-
-        // Handle initial category
-        if (widget.initialCategory != null &&
-            widget.initialCategory!.isNotEmpty &&
-            provider.selectedCategory != widget.initialCategory) {
-          provider.setCategory(widget.initialCategory!, triggerSearch: false);
-          changed = true;
-        }
-
-        // Handle initial query
         if (widget.initialQuery.isNotEmpty &&
             provider.searchQuery != widget.initialQuery) {
-          provider.setSearchQuery(widget.initialQuery, triggerSearch: false);
-          changed = true;
-        }
-
-        if (changed) {
-          provider.triggerSearch();
+          provider.setSearchQuery(widget.initialQuery); // Trigger search
         }
       }
     });
@@ -72,36 +61,42 @@ class _SearchScreenState extends State<SearchScreen> {
     super.dispose();
   }
 
-  void _performSearch() {
-    final query = _searchController.text;
-    FocusScope.of(context).unfocus();
-    context.read<MedicineProvider>().setSearchQuery(query);
-  }
-
   void _onScroll() {
     final provider = context.read<MedicineProvider>();
     if (!_scrollController.hasClients) return;
-    final currentPixels = _scrollController.position.pixels;
     final maxScroll = _scrollController.position.maxScrollExtent;
-    final triggerPoint = maxScroll - 300;
-
-    if (currentPixels >= triggerPoint &&
+    final currentScroll = _scrollController.position.pixels;
+    if (currentScroll >= (maxScroll - 200) &&
         provider.hasMoreItems &&
-        !provider.isLoadingMore &&
-        !provider.isLoading) {
+        !provider.isLoadingMore) {
       provider.loadMoreDrugs();
     }
   }
 
-  void _openFilterDrawer() {
-    _scaffoldKey.currentState?.openEndDrawer();
+  void _openFilters() {
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder:
+          (_) => SearchFiltersSheet(
+            filters: _currentFilters,
+            onApplyFilters: (newFilters) {
+              setState(() => _currentFilters = newFilters);
+            },
+            isRTL: isRTL,
+          ),
+    );
   }
 
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
     _adService.incrementUsageCounterAndShowAdIfNeeded();
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => DrugDetailsScreen(drug: drug)),
+      MaterialPageRoute(
+        builder: (context) => DrugDetailsScreen(drug: drug),
+      ), // Fix: use drugId
     );
   }
 
@@ -109,148 +104,70 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final provider = context.watch<MedicineProvider>();
-    final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    // final isRTL = Directionality.of(context) == TextDirection.rtl;
 
     return Scaffold(
-      key: _scaffoldKey,
-      endDrawer: const FilterEndDrawer(),
+      backgroundColor: AppColors.background,
       body: SafeArea(
         child: Column(
           children: [
-            Expanded(
-              child: CustomScrollView(
-                controller: _scrollController,
-                slivers: <Widget>[
-                  // Custom AppBar with Styled Buttons
-                  SliverAppBar(
-                    backgroundColor: colorScheme.surface,
-                    foregroundColor: colorScheme.onSurface,
-                    elevation: 0,
-                    pinned: true,
-                    floating: true,
-                    toolbarHeight: 70, // Increased height for better spacing
-                    leadingWidth: 60,
-                    leading: Padding(
-                      padding: const EdgeInsetsDirectional.only(
-                        start: 16,
-                        top: 8,
-                        bottom: 8,
+            // Header with Search Bar
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              color: AppColors.surface,
+              child: Row(
+                children: [
+                  GestureDetector(
+                    onTap: () => Navigator.maybePop(context),
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: AppColors.muted,
+                        borderRadius: BorderRadius.circular(12),
                       ),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: AppColors.accent,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: IconButton(
-                          icon: const Icon(LucideIcons.arrowLeft, size: 20),
-                          color: AppColors.primary,
-                          onPressed: () => Navigator.maybePop(context),
-                          tooltip: l10n.backTooltip,
-                          padding: EdgeInsets.zero,
-                        ),
+                      child: const Icon(
+                        LucideIcons.arrowLeft,
+                        size: 20,
+                        color: AppColors.foreground,
                       ),
                     ),
-                    title: TextField(
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: ModernSearchBar(
                       controller: _searchController,
-                      textInputAction: TextInputAction.search,
-                      onSubmitted: (_) => _performSearch(),
-                      decoration: InputDecoration(
-                        hintText: l10n.searchHint,
-                        border: InputBorder.none,
-                        // Add background to search bar for contrast if needed, or keep clean
-                        prefixIcon: Icon(
-                          LucideIcons.search,
-                          size: 18,
-                          color: colorScheme.onSurfaceVariant,
-                        ),
-                        suffixIcon:
-                            _searchController.text.isNotEmpty
-                                ? IconButton(
-                                  icon: Icon(
-                                    LucideIcons.x,
-                                    size: 16,
-                                    color: colorScheme.onSurfaceVariant,
-                                  ),
-                                  onPressed: () {
-                                    _searchController.clear();
-                                    provider.setSearchQuery('');
-                                  },
-                                )
-                                : null,
-                      ),
+                      hintText: l10n.searchHint,
+                      onChanged: (query) {
+                        provider.setSearchQuery(
+                          query,
+                          triggerSearch: true,
+                        ); // Debouncing usually handled in provider or here
+                      },
+                      onFilterTap: _openFilters,
                     ),
-                    actions: [
-                      Padding(
-                        padding: const EdgeInsetsDirectional.only(
-                          end: 16,
-                          top: 8,
-                          bottom: 8,
-                        ),
-                        child: InkWell(
-                          onTap: _openFilterDrawer,
-                          borderRadius: BorderRadius.circular(12),
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: AppColors.accent,
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            padding: const EdgeInsets.symmetric(horizontal: 12),
-                            alignment: Alignment.center,
-                            child: Row(
-                              children: [
-                                const Icon(
-                                  LucideIcons.filter,
-                                  size: 18,
-                                  color: AppColors.primary,
-                                ),
-                                // const SizedBox(width: 8),
-                                // Text(
-                                //   "Filter", // Localize this
-                                //   style: TextStyle(
-                                //     color: AppColors.primary,
-                                //     fontWeight: FontWeight.w600,
-                                //     fontSize: 14,
-                                //   ),
-                                // ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
                   ),
-
-                  // Filter Pills Section
-                  SliverToBoxAdapter(
-                    child: _buildFilterPills(context, provider),
-                  ),
-
-                  // Results Count
-                  if (!provider.isLoading &&
-                      provider.filteredMedicines.isNotEmpty)
-                    SliverToBoxAdapter(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 16,
-                          vertical: 8,
-                        ),
-                        child: Text(
-                          "${provider.filteredMedicines.length} ${isRTL ? 'نتائج' : 'results'}", // Localize fully
-                          style: TextStyle(
-                            color: colorScheme.onSurfaceVariant,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      ),
-                    ),
-
-                  // Results List
-                  _buildResultsListSliver(context, provider, l10n),
                 ],
               ),
             ),
+
+            // Filter Pills
+            Container(
+              color: AppColors.surface,
+              width: double.infinity,
+              padding: const EdgeInsets.only(bottom: 12),
+              child: FilterPills(
+                selectedFilter: _selectedDosageForm,
+                onFilterSelected: (val) {
+                  setState(() => _selectedDosageForm = val);
+                  provider.setDosageForm(
+                    val == 'All' ? '' : val,
+                  ); // Update provider
+                },
+              ),
+            ),
+
+            // Results List
+            Expanded(child: _buildResultsList(context, provider, l10n)),
             const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
           ],
         ),
@@ -258,139 +175,62 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  Widget _buildFilterPills(BuildContext context, MedicineProvider provider) {
-    final pills = [
-      {'labelEn': 'All', 'labelAr': 'الكل', 'value': ''},
-      {'labelEn': 'Tablet', 'labelAr': 'أقراص', 'value': 'Tablet'},
-      {'labelEn': 'Syrup', 'labelAr': 'شراب', 'value': 'Syrup'},
-      {'labelEn': 'Injection', 'labelAr': 'حقن', 'value': 'Injection'},
-      {'labelEn': 'Cream', 'labelAr': 'كريم', 'value': 'Cream'},
-      {'labelEn': 'Drops', 'labelAr': 'قطرة', 'value': 'Drops'},
-    ];
-
-    final isRTL = Directionality.of(context) == TextDirection.rtl;
-
-    return SizedBox(
-      height: 50,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        itemCount: pills.length,
-        separatorBuilder: (_, __) => const SizedBox(width: 8),
-        itemBuilder: (context, index) {
-          final pill = pills[index];
-          final value = pill['value']!;
-          final label = isRTL ? pill['labelAr']! : pill['labelEn']!;
-          final isSelected = provider.selectedDosageForm == value;
-          final colorScheme = Theme.of(context).colorScheme;
-
-          return InkWell(
-            onTap: () {
-              provider.setDosageForm(isSelected ? '' : value);
-            },
-            borderRadius: BorderRadius.circular(20),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-              decoration: BoxDecoration(
-                color: isSelected ? colorScheme.primary : AppColors.accent,
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: isSelected ? colorScheme.primary : Colors.transparent,
-                ),
-              ),
-              child: Text(
-                label,
-                style: TextStyle(
-                  color:
-                      isSelected ? Colors.white : colorScheme.onSurfaceVariant,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 13,
-                ),
-              ),
-            ),
-          );
-        },
-      ),
-    );
-  }
-
-  Widget _buildResultsListSliver(
+  Widget _buildResultsList(
     BuildContext context,
     MedicineProvider provider,
     AppLocalizations l10n,
   ) {
     if (provider.isLoading && provider.filteredMedicines.isEmpty) {
-      return const SliverFillRemaining(
-        child: Center(child: CircularProgressIndicator()),
-        hasScrollBody: false,
-      );
-    } else if (provider.error.isNotEmpty &&
-        provider.filteredMedicines.isEmpty) {
-      return SliverFillRemaining(
-        child: Center(
-          child: Text(
-            l10n.errorMessage(provider.error),
-            style: TextStyle(color: Theme.of(context).colorScheme.error),
-          ),
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    if (provider.filteredMedicines.isEmpty) {
+      if (provider.error.isNotEmpty) {
+        return Center(child: Text(provider.error)); // Simple error
+      }
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Icon(
+              LucideIcons.search,
+              size: 48,
+              color: AppColors.mutedForeground,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              l10n.noResultsFoundTitle,
+              style: const TextStyle(color: AppColors.mutedForeground),
+            ),
+          ],
         ),
-        hasScrollBody: false,
-      );
-    } else if (provider.filteredMedicines.isEmpty) {
-      // Show empty state for no results
-      return SliverFillRemaining(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                LucideIcons.search,
-                size: 48,
-                color: Theme.of(context).hintColor.withValues(alpha: 0.5),
-              ),
-              const SizedBox(height: 16),
-              Text(
-                l10n.noResultsFoundTitle,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  color: Theme.of(context).hintColor,
-                ),
-              ),
-            ],
-          ),
-        ),
-        hasScrollBody: false,
       );
     }
 
-    return SliverPadding(
-      padding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
-      sliver: SliverList(
-        delegate: SliverChildBuilderDelegate(
-          (context, index) {
-            if (index < provider.filteredMedicines.length) {
-              final drug = provider.filteredMedicines[index];
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: DrugCard(
-                  drug: drug,
-                  type: DrugCardType.detailed,
-                  onTap: () => _navigateToDetails(context, drug),
-                ),
-              );
-            } else if (provider.isLoadingMore) {
-              return const Padding(
-                padding: EdgeInsets.all(16),
-                child: Center(child: CircularProgressIndicator()),
-              );
-            } else {
-              // End of list spacer
-              return const SizedBox(height: 20);
-            }
-          },
-          childCount:
-              provider.filteredMedicines.length +
-              (provider.isLoadingMore ? 1 : 0),
-        ),
-      ),
+    return ListView.builder(
+      controller: _scrollController,
+      padding: const EdgeInsets.all(16),
+      itemCount:
+          provider.filteredMedicines.length + (provider.isLoadingMore ? 1 : 0),
+      itemBuilder: (context, index) {
+        if (index >= provider.filteredMedicines.length) {
+          return const Center(
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+        final drug = provider.filteredMedicines[index];
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: ModernDrugCard(
+            drug: drug,
+            hasInteraction: false, // Calculate if needed
+            onTap: () => _navigateToDetails(context, drug),
+          ),
+        );
+      },
     );
   }
 }
