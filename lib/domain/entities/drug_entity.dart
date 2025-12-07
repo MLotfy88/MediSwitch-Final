@@ -26,6 +26,7 @@ class DrugEntity extends Equatable {
 
   // New fields for UI
   final bool isPopular;
+  final bool isNew;
 
   const DrugEntity({
     this.id,
@@ -46,6 +47,7 @@ class DrugEntity extends Equatable {
     required this.lastPriceUpdate,
     this.imageUrl,
     this.isPopular = false,
+    this.isNew = false,
   });
 
   factory DrugEntity.empty() {

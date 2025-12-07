@@ -5,7 +5,7 @@ import 'package:lucide_icons/lucide_icons.dart';
 
 class ModernBottomNavBar extends StatelessWidget {
   final int currentIndex;
-  final Function(int) onTap;
+  final void Function(int) onTap;
 
   const ModernBottomNavBar({
     super.key,
@@ -64,9 +64,9 @@ class ModernBottomNavBar extends StatelessWidget {
                   ),
                   _buildNavItem(
                     context,
-                    icon: LucideIcons.settings,
-                    label: 'Settings',
-                    labelAr: 'الإعدادات',
+                    icon: LucideIcons.user,
+                    label: 'Profile',
+                    labelAr: 'الحساب',
                     index: 4,
                   ),
                 ],

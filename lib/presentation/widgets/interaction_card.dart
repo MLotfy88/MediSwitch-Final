@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+
 import '../../domain/entities/drug_interaction.dart';
+import '../../domain/entities/interaction_severity.dart';
 import 'helpers/interaction_severity_helper.dart';
+import 'modern_badge.dart';
 
 class InteractionCard extends StatelessWidget {
   final DrugInteraction interaction;
@@ -56,13 +59,18 @@ class InteractionCard extends StatelessWidget {
                 Icon(severityIcon, color: severityColor, size: 20),
                 const SizedBox(width: 8),
                 Text(
-                  isArabic
-                      ? 'تفاعل $severityLabel بين:'
-                      : '$severityLabel Interaction:',
+                  isArabic ? 'تفاعل بين:' : 'Interaction:',
                   style: textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: severityColor,
                   ),
+                ),
+                const SizedBox(width: 8),
+                // Severity Badge
+                ModernBadge(
+                  text: severityLabel.toUpperCase(),
+                  variant: _getSeverityBadgeVariant(interaction.severity),
+                  size: BadgeSize.sm,
                 ),
               ],
             ),
@@ -152,5 +160,21 @@ class InteractionCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  /// Get badge variant based on severity level
+  BadgeVariant _getSeverityBadgeVariant(InteractionSeverity severity) {
+    switch (severity) {
+      case InteractionSeverity.major:
+      case InteractionSeverity.severe:
+      case InteractionSeverity.contraindicated:
+        return BadgeVariant.danger;
+      case InteractionSeverity.moderate:
+        return BadgeVariant.warning;
+      case InteractionSeverity.minor:
+        return BadgeVariant.info;
+      case InteractionSeverity.unknown:
+        return BadgeVariant.secondary;
+    }
   }
 }
