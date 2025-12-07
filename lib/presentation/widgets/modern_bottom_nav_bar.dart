@@ -17,12 +17,16 @@ class ModernBottomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
+    // Using surface color (white in light, darkSurface in dark)
+    // to match bg-surface/95 spec
+    final backgroundColor = theme.colorScheme.surface.withValues(alpha: 0.95);
+
     return ClipRRect(
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+        filter: ImageFilter.blur(sigmaX: 16, sigmaY: 16), // blur-lg = ~16px
         child: Container(
           decoration: BoxDecoration(
-            color: theme.scaffoldBackgroundColor.withValues(alpha: 0.95),
+            color: backgroundColor,
             border: Border(
               top: BorderSide(color: theme.dividerColor.withValues(alpha: 0.5)),
             ),
@@ -30,7 +34,7 @@ class ModernBottomNavBar extends StatelessWidget {
           child: SafeArea(
             top: false,
             child: SizedBox(
-              height: 60,
+              height: 56, // ~py-2 + content roughly 56px per spec estimate
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
@@ -89,51 +93,52 @@ class ModernBottomNavBar extends StatelessWidget {
     final isActive = currentIndex == index;
     final isRTL = Directionality.of(context) == TextDirection.rtl;
 
-    return Expanded(
-      child: Material(
-        color: Colors.transparent,
-        child: InkWell(
-          onTap: () => onTap(index),
-          borderRadius: BorderRadius.circular(12),
-          child: Container(
-            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
-            decoration: BoxDecoration(
-              color:
-                  isActive
-                      ? theme.colorScheme.primary.withValues(alpha: 0.1)
-                      : Colors.transparent,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  icon,
-                  size: 20,
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: () => onTap(index),
+        borderRadius: BorderRadius.circular(
+          18,
+        ), // rounded-xl refers to 12px or 16px? Tailwind rounded-xl is 0.75rem = 12px usually, but spec said 18px. Adhering to spec text: 18px.
+        child: Container(
+          // px-4 py-2 => horizontal: 16, vertical: 8
+          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+          decoration: BoxDecoration(
+            color:
+                isActive
+                    ? theme.colorScheme.primary.withValues(alpha: 0.1)
+                    : Colors.transparent,
+            borderRadius: BorderRadius.circular(18), // Spec: rounded-xl -> 18px
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                icon,
+                size: 20, // w-5 h-5
+                color:
+                    isActive
+                        ? theme.colorScheme.primary
+                        : theme.colorScheme.onSurface.withValues(
+                          alpha: 0.5,
+                        ), // text-muted-foreground
+              ),
+              const SizedBox(height: 4), // gap-1 (4px)
+              Text(
+                isRTL ? labelAr : label,
+                style: TextStyle(
+                  fontSize: 10,
+                  fontWeight: FontWeight.w500, // font-medium
                   color:
                       isActive
                           ? theme.colorScheme.primary
-                          : theme.colorScheme.onSurface.withValues(alpha: 0.6),
+                          : theme.colorScheme.onSurface.withValues(alpha: 0.5),
                 ),
-                const SizedBox(height: 4),
-                Text(
-                  isRTL ? labelAr : label,
-                  style: TextStyle(
-                    fontSize: 10,
-                    fontWeight: isActive ? FontWeight.w600 : FontWeight.w500,
-                    color:
-                        isActive
-                            ? theme.colorScheme.primary
-                            : theme.colorScheme.onSurface.withValues(
-                              alpha: 0.6,
-                            ),
-                  ),
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ],
-            ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
           ),
         ),
       ),

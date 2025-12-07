@@ -10,7 +10,7 @@ import '../../../core/utils/animation_helpers.dart';
 import '../../../domain/entities/drug_entity.dart';
 import '../../bloc/medicine_provider.dart';
 import '../../widgets/drug_card.dart';
-import '../drug_details_screen.dart';
+import '../details/drug_details_screen.dart';
 
 /// History Screen - shows recently viewed drugs
 /// Matches design-refresh/src/components/screens/HistoryScreen.tsx
@@ -105,9 +105,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
           // Header - matching reference design
           Container(
             decoration: BoxDecoration(
-              color: colorScheme.surface.withOpacity(0.95),
+              color: colorScheme.surface.withValues(alpha: 0.95),
               border: Border(
-                bottom: BorderSide(color: colorScheme.outline.withOpacity(0.2)),
+                bottom: BorderSide(
+                  color: colorScheme.outline.withValues(alpha: 0.2),
+                ),
               ),
             ),
             child: SafeArea(
@@ -121,7 +123,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       width: 40,
                       height: 40,
                       decoration: BoxDecoration(
-                        color: colorScheme.primary.withOpacity(0.1),
+                        color: colorScheme.primary.withValues(alpha: 0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Icon(
@@ -148,7 +150,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                 ? 'الأدوية التي تم عرضها مؤخراً'
                                 : 'Recently viewed drugs',
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: colorScheme.onSurface.withOpacity(0.6),
+                              color: colorScheme.onSurface.withValues(
+                                alpha: 0.6,
+                              ),
                             ),
                           ),
                         ],
@@ -162,7 +166,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                         icon: Icon(
                           LucideIcons.trash2,
                           size: 20,
-                          color: colorScheme.onSurface.withOpacity(0.6),
+                          color: colorScheme.onSurface.withValues(alpha: 0.6),
                         ),
                         style: IconButton.styleFrom(
                           backgroundColor: colorScheme.surfaceContainerHighest,
@@ -203,8 +207,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                     Icon(
                                       LucideIcons.clock,
                                       size: 12,
-                                      color: colorScheme.onSurface.withOpacity(
-                                        0.5,
+                                      color: colorScheme.onSurface.withValues(
+                                        alpha: 0.5,
                                       ),
                                     ),
                                     const SizedBox(width: 6),
@@ -213,7 +217,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                                       style: theme.textTheme.bodySmall
                                           ?.copyWith(
                                             color: colorScheme.onSurface
-                                                .withOpacity(0.5),
+                                                .withValues(alpha: 0.5),
                                           ),
                                     ),
                                   ],
@@ -258,7 +262,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
               child: Icon(
                 LucideIcons.history,
                 size: 40,
-                color: colorScheme.onSurface.withOpacity(0.4),
+                color: colorScheme.onSurface.withValues(alpha: 0.4),
               ),
             ),
             const SizedBox(height: 16),
@@ -275,7 +279,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                   ? 'الأدوية التي تعرضها ستظهر هنا'
                   : 'Drugs you view will appear here',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurface.withOpacity(0.6),
+                color: colorScheme.onSurface.withValues(alpha: 0.6),
               ),
               textAlign: TextAlign.center,
             ),

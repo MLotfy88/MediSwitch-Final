@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 import 'package:provider/provider.dart';
+
+import '../../../core/utils/animation_helpers.dart';
 import '../../widgets/home/drug_card.dart';
 import '../details/drug_details_screen.dart';
-import '../../../core/utils/animation_helpers.dart';
-import 'package:mediswitch/presentation/utils/drug_entity_converter.dart';
 
 /// Favorites Screen
 /// Displays favorites from MedicineProvider
@@ -33,9 +33,11 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           // Header - Sticky with backdrop blur effect
           Container(
             decoration: BoxDecoration(
-              color: colorScheme.surface.withOpacity(0.95),
+              color: colorScheme.surface.withValues(alpha: 0.95),
               border: Border(
-                bottom: BorderSide(color: colorScheme.outline.withOpacity(0.2)),
+                bottom: BorderSide(
+                  color: colorScheme.outline.withValues(alpha: 0.2),
+                ),
               ),
             ),
             child: SafeArea(
@@ -49,7 +51,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                       width: 40,
                       height: 40,
                       decoration: BoxDecoration(
-                        color: colorScheme.error.withOpacity(0.1),
+                        color: colorScheme.error.withValues(alpha: 0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Icon(
@@ -78,7 +80,9 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                                     ? '${provider.favorites.length} أدوية محفوظة'
                                     : '${provider.favorites.length} saved drugs',
                                 style: theme.textTheme.bodySmall?.copyWith(
-                                  color: colorScheme.onSurface.withOpacity(0.6),
+                                  color: colorScheme.onSurface.withValues(
+                                    alpha: 0.6,
+                                  ),
                                 ),
                               ),
                             ],
@@ -163,7 +167,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
               child: Icon(
                 LucideIcons.heart,
                 size: 40,
-                color: colorScheme.onSurface.withOpacity(0.4),
+                color: colorScheme.onSurface.withValues(alpha: 0.4),
               ),
             ),
             const SizedBox(height: 16),
@@ -184,7 +188,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                   ? 'اضغط على أيقونة القلب لحفظ الأدوية هنا'
                   : 'Tap the heart icon on any drug to save it here',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurface.withOpacity(0.6),
+                color: colorScheme.onSurface.withValues(alpha: 0.6),
               ),
               textAlign: TextAlign.center,
             ),

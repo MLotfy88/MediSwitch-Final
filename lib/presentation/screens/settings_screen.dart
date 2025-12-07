@@ -46,15 +46,15 @@ class SettingsScreen extends StatelessWidget {
           // Sticky Header
           SliverAppBar(
             pinned: true,
-            backgroundColor: theme.colorScheme.surface.withOpacity(
-              0.95,
+            backgroundColor: theme.colorScheme.surface.withValues(
+              alpha: 0.95,
             ), // backdrop-blur check
             elevation: 0,
             leading: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 decoration: BoxDecoration(
-                  color: theme.colorScheme.surfaceVariant,
+                  color: theme.colorScheme.surfaceContainerHighest,
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: IconButton(
@@ -73,7 +73,7 @@ class SettingsScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
-                    color: theme.colorScheme.primary.withOpacity(0.1),
+                    color: theme.colorScheme.primary.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Icon(
@@ -108,7 +108,7 @@ class SettingsScreen extends StatelessWidget {
             bottom: PreferredSize(
               preferredSize: const Size.fromHeight(1.0),
               child: Container(
-                color: theme.colorScheme.outlineVariant.withOpacity(0.2),
+                color: theme.colorScheme.outlineVariant.withValues(alpha: 0.2),
                 height: 1.0,
               ),
             ),
@@ -119,26 +119,63 @@ class SettingsScreen extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             sliver: SliverList(
               delegate: SliverChildListDelegate([
-                // General Section (Language, Appearance, Font)
-                _buildSectionTitle(context, l10n.generalSectionTitle),
+                // 1. Notifications Section (First in Docs)
+                _buildSectionTitle(
+                  context,
+                  isRTL ? 'الإشعارات' : 'Notifications',
+                ),
                 _buildCard(
                   context,
                   children: [
                     SettingsListTile(
-                      title: l10n.languageSettingTitle,
-                      subtitle:
-                          settingsProvider.locale.languageCode == 'ar'
-                              ? l10n.languageArabic
-                              : l10n.languageEnglish,
-                      leadingIcon: LucideIcons.globe,
-                      trailing: const Icon(
-                        LucideIcons.chevronRight,
-                        size: 18,
-                      ), // Or custom logic
-                      onTap:
-                          () => _showLanguageDialog(context, settingsProvider),
+                      title: isRTL ? 'الإشعارات الفورية' : 'Push Notifications',
+                      leadingIcon: LucideIcons.bell,
+                      trailing: Switch(
+                        value: settingsProvider.pushNotificationsEnabled,
+                        onChanged:
+                            (v) => settingsProvider.updatePushNotifications(v),
+                      ),
                     ),
                     _buildDivider(context),
+                    SettingsListTile(
+                      title: isRTL ? 'تنبيهات الأسعار' : 'Price Change Alerts',
+                      leadingIcon: LucideIcons.creditCard,
+                      trailing: Switch(
+                        value: settingsProvider.priceAlertsEnabled,
+                        onChanged: (v) => settingsProvider.updatePriceAlerts(v),
+                      ),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title:
+                          isRTL ? 'تنبيهات الأدوية الجديدة' : 'New Drug Alerts',
+                      leadingIcon: LucideIcons.star,
+                      trailing: Switch(
+                        value: settingsProvider.newDrugAlertsEnabled,
+                        onChanged:
+                            (v) => settingsProvider.updateNewDrugAlerts(v),
+                      ),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title:
+                          isRTL ? 'تحذيرات التفاعلات' : 'Interaction Warnings',
+                      leadingIcon: LucideIcons.shield,
+                      trailing: Switch(
+                        value: settingsProvider.interactionAlertsEnabled,
+                        onChanged:
+                            (v) => settingsProvider.updateInteractionAlerts(v),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+
+                // 2. Appearance Section
+                _buildSectionTitle(context, l10n.generalSectionTitle),
+                _buildCard(
+                  context,
+                  children: [
                     SettingsListTile(
                       title: l10n.appearanceSettingTitle,
                       leadingIcon:
@@ -164,6 +201,21 @@ class SettingsScreen extends StatelessWidget {
                           );
                         }
                       },
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title: l10n.languageSettingTitle,
+                      subtitle:
+                          settingsProvider.locale.languageCode == 'ar'
+                              ? l10n.languageArabic
+                              : l10n.languageEnglish,
+                      leadingIcon: LucideIcons.globe,
+                      trailing: const Icon(
+                        LucideIcons.chevronRight,
+                        size: 18,
+                      ), // Or custom logic
+                      onTap:
+                          () => _showLanguageDialog(context, settingsProvider),
                     ),
                     _buildDivider(context),
                     // Font Size Slider
@@ -236,59 +288,38 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
 
-                // Notifications Section
+                // 3. Sound & Haptics Section (New)
                 _buildSectionTitle(
                   context,
-                  isRTL ? 'الإشعارات' : 'Notifications',
+                  isRTL ? 'الصوت والاهتزاز' : 'Sound & Haptics',
                 ),
                 _buildCard(
                   context,
                   children: [
                     SettingsListTile(
-                      title: isRTL ? 'الإشعارات الفورية' : 'Push Notifications',
-                      leadingIcon: LucideIcons.bell,
+                      title: isRTL ? 'المؤثرات الصوتية' : 'Sound Effects',
+                      leadingIcon: LucideIcons.volume2,
                       trailing: Switch(
-                        value: settingsProvider.pushNotificationsEnabled,
+                        value: settingsProvider.soundEffectsEnabled,
                         onChanged:
-                            (v) => settingsProvider.updatePushNotifications(v),
+                            (v) => settingsProvider.updateSoundEffects(v),
                       ),
                     ),
                     _buildDivider(context),
                     SettingsListTile(
-                      title: isRTL ? 'تنبيهات الأسعار' : 'Price Change Alerts',
-                      leadingIcon: LucideIcons.creditCard,
+                      title: isRTL ? 'الاهتزاز' : 'Haptic Feedback',
+                      leadingIcon: LucideIcons.vibrate,
                       trailing: Switch(
-                        value: settingsProvider.priceAlertsEnabled,
-                        onChanged: (v) => settingsProvider.updatePriceAlerts(v),
-                      ),
-                    ),
-                    _buildDivider(context),
-                    SettingsListTile(
-                      title:
-                          isRTL ? 'تنبيهات الأدوية الجديدة' : 'New Drug Alerts',
-                      leadingIcon: LucideIcons.star,
-                      trailing: Switch(
-                        value: settingsProvider.newDrugAlertsEnabled,
+                        value: settingsProvider.hapticFeedbackEnabled,
                         onChanged:
-                            (v) => settingsProvider.updateNewDrugAlerts(v),
-                      ),
-                    ),
-                    _buildDivider(context),
-                    SettingsListTile(
-                      title:
-                          isRTL ? 'تحذيرات التفاعلات' : 'Interaction Warnings',
-                      leadingIcon: LucideIcons.shield,
-                      trailing: Switch(
-                        value: settingsProvider.interactionAlertsEnabled,
-                        onChanged:
-                            (v) => settingsProvider.updateInteractionAlerts(v),
+                            (v) => settingsProvider.updateHapticFeedback(v),
                       ),
                     ),
                   ],
                 ),
                 const SizedBox(height: 24),
 
-                // Data Section
+                // 4. Data Section
                 _buildSectionTitle(context, l10n.dataSectionTitle),
                 _buildCard(
                   context,
@@ -322,6 +353,22 @@ class SettingsScreen extends StatelessWidget {
                     ),
                     _buildDivider(context),
                     SettingsListTile(
+                      title: isRTL ? 'حجم التخزين المؤقت' : 'Cache Size',
+                      leadingIcon: LucideIcons.database,
+                      trailing: const Icon(LucideIcons.chevronRight, size: 18),
+                      subtitle:
+                          isRTL ? '12.5 ميجابايت' : '12.5 MB', // Hack for now
+                      onTap: () {},
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title: isRTL ? 'مسح السجل' : 'Clear History',
+                      leadingIcon: LucideIcons.trash2,
+                      trailing: const Icon(LucideIcons.chevronRight, size: 18),
+                      onTap: () {},
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
                       title: l10n.viewDebugLogsTitle,
                       leadingIcon: LucideIcons.fileText,
                       onTap:
@@ -336,7 +383,39 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
 
-                // About Section
+                // 5. Location Section (New)
+                _buildSectionTitle(context, isRTL ? 'الموقع' : 'Location'),
+                _buildCard(
+                  context,
+                  children: [
+                    SettingsListTile(
+                      title: isRTL ? 'الموقع' : 'Location',
+                      leadingIcon: LucideIcons.mapPin,
+                      trailing: Text(
+                        isRTL ? 'مصر' : 'Egypt',
+                        style: TextStyle(
+                          color: theme.colorScheme.primary,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title: isRTL ? 'العملة' : 'Currency',
+                      leadingIcon: LucideIcons.creditCard,
+                      trailing: Text(
+                        isRTL ? 'جنيه مصري' : 'EGP',
+                        style: TextStyle(
+                          color: theme.colorScheme.primary,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+
+                // 6. About Section
                 _buildSectionTitle(context, l10n.aboutSectionTitle),
                 _buildCard(
                   context,
@@ -357,6 +436,20 @@ class SettingsScreen extends StatelessWidget {
                       title: l10n.termsOfUseTitle,
                       leadingIcon: LucideIcons.gavel,
                       onTap: () => _launchUrl('https://example.com/terms'),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title: isRTL ? 'الملاحظات' : 'Feedback',
+                      leadingIcon: LucideIcons.messageSquare,
+                      onTap: () => _launchUrl('mailto:support@mediswitch.com'),
+                    ),
+                    _buildDivider(context),
+                    SettingsListTile(
+                      title: isRTL ? 'قيم التطبيق' : 'Rate App',
+                      leadingIcon: LucideIcons.star,
+                      onTap:
+                          () =>
+                              _launchUrl('market://details?id=com.mediswitch'),
                     ),
                     _buildDivider(context),
                     SettingsListTile(
@@ -382,10 +475,10 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    color: theme.colorScheme.error.withOpacity(0.05),
+                    color: theme.colorScheme.error.withValues(alpha: 0.05),
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: theme.colorScheme.error.withOpacity(0.2),
+                      color: theme.colorScheme.error.withValues(alpha: 0.2),
                     ),
                   ),
                   child: SettingsListTile(
@@ -441,7 +534,9 @@ class SettingsScreen extends StatelessWidget {
     return Divider(
       height: 1,
       indent: 56,
-      color: Theme.of(context).colorScheme.outlineVariant.withOpacity(0.2),
+      color: Theme.of(
+        context,
+      ).colorScheme.outlineVariant.withValues(alpha: 0.2),
     );
   }
 
@@ -464,13 +559,73 @@ class SettingsScreen extends StatelessWidget {
     BuildContext context,
     SettingsProvider provider,
   ) async {
-    // Dialog implementation skipped for brevity, similar to existing
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text(AppLocalizations.of(context)!.languageSettingTitle),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                title: Text(AppLocalizations.of(context)!.languageArabic),
+                onTap: () {
+                  provider.updateLocale(const Locale('ar'));
+                  Navigator.pop(context);
+                },
+                trailing:
+                    provider.locale.languageCode == 'ar'
+                        ? const Icon(LucideIcons.check)
+                        : null,
+              ),
+              ListTile(
+                title: Text(AppLocalizations.of(context)!.languageEnglish),
+                onTap: () {
+                  provider.updateLocale(const Locale('en'));
+                  Navigator.pop(context);
+                },
+                trailing:
+                    provider.locale.languageCode == 'en'
+                        ? const Icon(LucideIcons.check)
+                        : null,
+              ),
+            ],
+          ),
+        );
+      },
+    );
   }
 
   Future<void> _showDeleteConfirmDialog(
     BuildContext context,
     SettingsProvider provider,
   ) async {
-    // Dialog implementation skipped for brevity
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    showDialog(
+      context: context,
+      builder:
+          (context) => AlertDialog(
+            title: Text(isRTL ? 'حذف جميع البيانات' : 'Delete All Data'),
+            content: Text(
+              isRTL
+                  ? 'هل أنت متأكد أنك تريد حذف جميع البيانات؟ لا يمكن التراجع عن هذا الإجراء.'
+                  : 'Are you sure you want to delete all data? This action cannot be undone.',
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: Text(isRTL ? 'إلغاء' : 'Cancel'),
+              ),
+              TextButton(
+                onPressed: () {
+                  provider.clearAllData();
+                  Navigator.pop(context);
+                },
+                style: TextButton.styleFrom(foregroundColor: Colors.red),
+                child: Text(isRTL ? 'حذف' : 'Delete'),
+              ),
+            ],
+          ),
+    );
   }
 }

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
 import 'package:lucide_icons/lucide_icons.dart'; // Import LucideIcons
+
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/drug_repository.dart'; // Import DrugRepository
+import '../screens/details/drug_details_screen.dart'; // Import DrugDetailsScreen
 import 'drug_card.dart';
-import '../screens/drug_details_screen.dart'; // Import DrugDetailsScreen
 
 class AlternativesTabContent extends StatefulWidget {
   final DrugEntity originalDrug;
