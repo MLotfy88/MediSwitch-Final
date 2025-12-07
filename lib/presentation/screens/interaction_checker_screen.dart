@@ -10,6 +10,7 @@ import '../../domain/repositories/interaction_repository.dart';
 import '../theme/app_colors.dart';
 import '../widgets/drug_search_delegate.dart';
 import '../widgets/interaction_card.dart';
+import '../widgets/modern_badge.dart';
 
 class InteractionCheckerScreen extends StatefulWidget {
   const InteractionCheckerScreen({super.key});
@@ -248,20 +249,10 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                 ),
               ),
               const SizedBox(width: 12),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                decoration: BoxDecoration(
-                  color: AppColors.secondary,
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Text(
-                  '${_selectedDrugs.length}',
-                  style: const TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: AppColors.secondaryForeground,
-                  ),
-                ),
+              ModernBadge(
+                text: '${_selectedDrugs.length}',
+                variant: BadgeVariant.secondary,
+                size: BadgeSize.sm,
               ),
             ],
           ),

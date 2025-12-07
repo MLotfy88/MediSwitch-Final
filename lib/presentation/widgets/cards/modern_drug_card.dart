@@ -56,8 +56,17 @@ class ModernDrugCard extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(width: 8),
+                          // NEW badge for new drugs
+                          if (drug.isNew) ...[
+                            const ModernBadge(
+                              text: 'NEW',
+                              variant: BadgeVariant.newBadge,
+                              size: BadgeSize.sm,
+                            ),
+                            const SizedBox(width: 4),
+                          ],
+                          // POPULAR badge
                           if (drug.isPopular) ...[
-                            // Assuming isPopular logic is inside drug or calculated
                             const ModernBadge(
                               text: 'POPULAR',
                               variant: BadgeVariant.popular,
@@ -182,6 +191,9 @@ class ModernDrugCard extends StatelessWidget {
                           color: AppColors.mutedForeground,
                         ),
                       ),
+                      const SizedBox(width: 8),
+                      // Price change badge
+                      _buildPriceChangeBadge(),
                     ],
                   ],
                 ),
@@ -236,5 +248,24 @@ class ModernDrugCard extends StatelessWidget {
       default:
         return LucideIcons.pill;
     }
+  }
+
+  /// Build price change badge (priceDown or priceUp)
+  Widget _buildPriceChangeBadge() {
+    final currentPrice = double.tryParse(drug.price) ?? 0;
+    final oldPrice = double.tryParse(drug.oldPrice ?? '') ?? 0;
+
+    if (oldPrice <= 0 || currentPrice <= 0) {
+      return const SizedBox.shrink();
+    }
+
+    final percentChange = ((currentPrice - oldPrice) / oldPrice * 100).abs();
+    final isPriceDown = currentPrice < oldPrice;
+
+    return ModernBadge(
+      text: '${percentChange.toStringAsFixed(0)}%',
+      variant: isPriceDown ? BadgeVariant.priceDown : BadgeVariant.priceUp,
+      size: BadgeSize.sm,
+    );
   }
 }

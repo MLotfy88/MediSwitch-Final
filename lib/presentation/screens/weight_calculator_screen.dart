@@ -12,6 +12,7 @@ import '../bloc/dose_calculator_provider.dart';
 import '../bloc/medicine_provider.dart';
 import '../theme/app_colors.dart';
 import '../widgets/custom_searchable_dropdown.dart';
+import '../widgets/modern_badge.dart';
 
 class WeightCalculatorScreen extends StatefulWidget {
   const WeightCalculatorScreen({super.key});
@@ -396,42 +397,14 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
 
           // Patient Type Badge
           if (_ageController.text.isNotEmpty)
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-              decoration: BoxDecoration(
-                color:
-                    _isChild()
-                        ? AppColors.info.withOpacity(0.1)
-                        : AppColors.secondary.withOpacity(0.1),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color:
-                      _isChild()
-                          ? AppColors.info.withOpacity(0.3)
-                          : AppColors.secondary.withOpacity(0.3),
-                ),
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(
-                    _isChild() ? LucideIcons.baby : LucideIcons.user,
-                    size: 16,
-                    color: _isChild() ? AppColors.info : AppColors.secondary,
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    _isChild()
-                        ? (isRTL ? 'طفل' : 'Pediatric')
-                        : (isRTL ? 'بالغ' : 'Adult'),
-                    style: TextStyle(
-                      fontSize: 13,
-                      fontWeight: FontWeight.bold,
-                      color: _isChild() ? AppColors.info : AppColors.secondary,
-                    ),
-                  ),
-                ],
-              ),
+            ModernBadge(
+              text:
+                  _isChild()
+                      ? (isRTL ? 'طفل' : 'Pediatric')
+                      : (isRTL ? 'بالغ' : 'Adult'),
+              variant: _isChild() ? BadgeVariant.info : BadgeVariant.secondary,
+              size: BadgeSize.md,
+              icon: _isChild() ? LucideIcons.baby : LucideIcons.user,
             ),
         ],
       ),
