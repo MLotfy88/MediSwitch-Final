@@ -1,19 +1,18 @@
-import 'package:flutter/foundation.dart'; // Import for kDebugMode (though not used in this diff)
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import 'package:intl/intl.dart'; // Import intl for DateFormat
+import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
-import 'package:intl/intl.dart'; // Import intl for DateFormat
-import '../bloc/settings_provider.dart';
-import '../bloc/medicine_provider.dart';
-import '../widgets/section_header.dart'; // Keep if used elsewhere, otherwise remove
-import '../widgets/settings_list_tile.dart';
-import '../screens/subscription_screen.dart';
-import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
+
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
-import '../../core/constants/app_spacing.dart'; // Import spacing constants
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Import generated localizations
+import '../bloc/medicine_provider.dart';
+import '../bloc/settings_provider.dart';
+import '../screens/subscription_screen.dart';
+import '../widgets/settings_list_tile.dart';
+import 'debug/log_viewer_screen.dart'; // Import the log viewer screen
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -136,6 +135,223 @@ class SettingsScreen extends StatelessWidget {
                     }
                   },
                 ),
+                // Font Size Slider
+                Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Icon(
+                            LucideIcons.type,
+                            size: 20,
+                            color: colorScheme.onSurfaceVariant,
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: Text(
+                              settingsProvider.locale.languageCode == 'ar'
+                                  ? 'حجم الخط'
+                                  : 'Font Size',
+                              style: textTheme.bodyLarge?.copyWith(
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
+                          Text(
+                            '${settingsProvider.fontSize.toInt()}px',
+                            style: textTheme.bodyMedium?.copyWith(
+                              color: colorScheme.primary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                      SliderTheme(
+                        data: SliderTheme.of(context).copyWith(
+                          trackHeight: 4,
+                          thumbShape: const RoundSliderThumbShape(
+                            enabledThumbRadius: 8,
+                          ),
+                        ),
+                        child: Slider(
+                          value: settingsProvider.fontSize,
+                          min: 12,
+                          max: 24,
+                          divisions: 12,
+                          onChanged: (value) {
+                            settingsProvider.updateFontSize(value);
+                          },
+                        ),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            settingsProvider.locale.languageCode == 'ar'
+                                ? 'صغير'
+                                : 'Small',
+                            style: textTheme.bodySmall?.copyWith(
+                              color: colorScheme.onSurfaceVariant,
+                            ),
+                          ),
+                          Text(
+                            settingsProvider.locale.languageCode == 'ar'
+                                ? 'كبير'
+                                : 'Large',
+                            style: textTheme.bodySmall?.copyWith(
+                              color: colorScheme.onSurfaceVariant,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            AppSpacing.gapVLarge,
+            // --- Notifications Section ---
+            _buildSectionCard(
+              context,
+              title:
+                  settingsProvider.locale.languageCode == 'ar'
+                      ? 'الإشعارات'
+                      : 'Notifications',
+              children: [
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'الإشعارات الفورية'
+                          : 'Push Notifications',
+                  subtitle:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تلقي إشعارات التطبيق'
+                          : 'Receive app notifications',
+                  leadingIcon: LucideIcons.bell,
+                  trailing: Switch(
+                    value: settingsProvider.pushNotificationsEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updatePushNotifications(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updatePushNotifications(
+                      !settingsProvider.pushNotificationsEnabled,
+                    );
+                  },
+                ),
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تنبيهات الأسعار'
+                          : 'Price Change Alerts',
+                  subtitle:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'إشعار عند تغيير الأسعار'
+                          : 'Get notified when prices change',
+                  leadingIcon: LucideIcons.creditCard,
+                  trailing: Switch(
+                    value: settingsProvider.priceAlertsEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updatePriceAlerts(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updatePriceAlerts(
+                      !settingsProvider.priceAlertsEnabled,
+                    );
+                  },
+                ),
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تنبيهات الأدوية الجديدة'
+                          : 'New Drug Alerts',
+                  leadingIcon: LucideIcons.star,
+                  trailing: Switch(
+                    value: settingsProvider.newDrugAlertsEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updateNewDrugAlerts(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updateNewDrugAlerts(
+                      !settingsProvider.newDrugAlertsEnabled,
+                    );
+                  },
+                ),
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تحذيرات التفاعلات'
+                          : 'Interaction Warnings',
+                  subtitle:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تنبيهات السلامة الحرجة'
+                          : 'Critical safety alerts',
+                  leadingIcon: LucideIcons.shield,
+                  trailing: Switch(
+                    value: settingsProvider.interactionAlertsEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updateInteractionAlerts(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updateInteractionAlerts(
+                      !settingsProvider.interactionAlertsEnabled,
+                    );
+                  },
+                ),
+              ],
+            ),
+            AppSpacing.gapVLarge,
+            // --- Sound & Haptics Section ---
+            _buildSectionCard(
+              context,
+              title:
+                  settingsProvider.locale.languageCode == 'ar'
+                      ? 'الصوت والاهتزاز'
+                      : 'Sound & Haptics',
+              children: [
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'المؤثرات الصوتية'
+                          : 'Sound Effects',
+                  leadingIcon: LucideIcons.volume2,
+                  trailing: Switch(
+                    value: settingsProvider.soundEffectsEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updateSoundEffects(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updateSoundEffects(
+                      !settingsProvider.soundEffectsEnabled,
+                    );
+                  },
+                ),
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'الاهتزاز'
+                          : 'Haptic Feedback',
+                  leadingIcon: LucideIcons.smartphone,
+                  trailing: Switch(
+                    value: settingsProvider.hapticFeedbackEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updateHapticFeedback(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updateHapticFeedback(
+                      !settingsProvider.hapticFeedbackEnabled,
+                    );
+                  },
+                ),
               ],
             ),
             AppSpacing.gapVLarge, // Use constant (16px)
@@ -198,6 +414,29 @@ class SettingsScreen extends StatelessWidget {
                   onTap: null,
                 ),
                 // Divider handled by ListView.separated
+                // Offline Mode Toggle
+                SettingsListTile(
+                  title:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'الوضع دون اتصال'
+                          : 'Offline Mode',
+                  subtitle:
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'تحميل قاعدة البيانات للاستخدام دون اتصال'
+                          : 'Download database for offline use',
+                  leadingIcon: LucideIcons.download,
+                  trailing: Switch(
+                    value: settingsProvider.offlineModeEnabled,
+                    onChanged: (value) {
+                      settingsProvider.updateOfflineMode(value);
+                    },
+                  ),
+                  onTap: () {
+                    settingsProvider.updateOfflineMode(
+                      !settingsProvider.offlineModeEnabled,
+                    );
+                  },
+                ),
                 // --- Add Log Viewer Tile ---
                 SettingsListTile(
                   title: l10n.viewDebugLogsTitle, // Use localized string
@@ -309,6 +548,97 @@ class SettingsScreen extends StatelessWidget {
               ],
             ),
             AppSpacing.gapVXLarge, // Use constant (24px)
+            // --- Danger Zone ---
+            Padding(
+              padding: AppSpacing.edgeInsetsHSmall,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 8, bottom: 8),
+                    child: Text(
+                      settingsProvider.locale.languageCode == 'ar'
+                          ? 'منطقة الخطر'
+                          : 'Danger Zone',
+                      style: textTheme.titleSmall?.copyWith(
+                        color: colorScheme.error,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: colorScheme.error.withOpacity(0.05),
+                      border: Border.all(
+                        color: colorScheme.error.withOpacity(0.2),
+                      ),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Material(
+                      color: Colors.transparent,
+                      child: InkWell(
+                        onTap:
+                            () => _showDeleteConfirmDialog(
+                              context,
+                              settingsProvider,
+                            ),
+                        borderRadius: BorderRadius.circular(12),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Row(
+                            children: [
+                              Container(
+                                width: 36,
+                                height: 36,
+                                decoration: BoxDecoration(
+                                  color: colorScheme.error.withOpacity(0.1),
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                                child: Icon(
+                                  LucideIcons.trash2,
+                                  size: 18,
+                                  color: colorScheme.error,
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      settingsProvider.locale.languageCode ==
+                                              'ar'
+                                          ? 'حذف جميع البيانات'
+                                          : 'Delete All Data',
+                                      style: textTheme.bodyLarge?.copyWith(
+                                        color: colorScheme.error,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                    ),
+                                    Text(
+                                      settingsProvider.locale.languageCode ==
+                                              'ar'
+                                          ? 'سيؤدي هذا إلى حذف جميع بياناتك'
+                                          : 'This will delete all your data',
+                                      style: textTheme.bodySmall?.copyWith(
+                                        color: colorScheme.error.withOpacity(
+                                          0.7,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            AppSpacing.gapVLarge,
             // --- Logout Button ---
             Padding(
               padding: AppSpacing.edgeInsetsHSmall, // Use constant (8px)
@@ -542,6 +872,50 @@ class SettingsScreen extends StatelessWidget {
     } catch (e) {
       _logger.e("Error formatting timestamp in SettingsScreen", e);
       return l10n.lastUpdateInvalidFormat; // Use localized string
+    }
+  }
+
+  // Show confirm dialog for deleting all data
+  static Future<void> _showDeleteConfirmDialog(
+    BuildContext context,
+    SettingsProvider provider,
+  ) async {
+    final isAr = provider.locale.languageCode == 'ar';
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder:
+          (context) => AlertDialog(
+            title: Text(isAr ? 'حذف جميع البيانات' : 'Delete All Data'),
+            content: Text(
+              isAr
+                  ? 'هل أنت متأكد؟ سيتم حذف جميع الإعدادات والبيانات المحفوظة.'
+                  : 'Are you sure? This will delete all settings and saved data.',
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context, false),
+                child: Text(isAr ? 'إلغاء' : 'Cancel'),
+              ),
+              TextButton(
+                onPressed: () => Navigator.pop(context, true),
+                child: Text(
+                  isAr ? 'حذف' : 'Delete',
+                  style: TextStyle(color: Theme.of(context).colorScheme.error),
+                ),
+              ),
+            ],
+          ),
+    );
+
+    if (confirmed == true) {
+      await provider.clearAllData();
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(isAr ? 'تم حذف جميع البيانات' : 'All data deleted'),
+          ),
+        );
+      }
     }
   }
 }

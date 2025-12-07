@@ -425,4 +425,39 @@ class InteractionRepositoryImpl implements InteractionRepository {
       debugPrint('InteractionRepositoryImpl: Background sync failed: $e');
     }
   }
+
+  @override
+  int getInteractionCountForDrug(DrugEntity drug) {
+    if (!_isDataLoaded) return 0;
+
+    // Get all ingredients for this drug
+    final ingredients = _getIngredientsForDrug(drug);
+    if (ingredients.isEmpty) return 0;
+
+    // Use the search index to find all interactions for these ingredients
+    int count = 0;
+    for (final ingredient in ingredients) {
+      final interactions = _searchIndex.findByIngredient(ingredient);
+      count += interactions.length;
+    }
+    return count;
+  }
+
+  // Helper to get ingredients for a drug
+  List<String> _getIngredientsForDrug(DrugEntity drug) {
+    final tradeNameLower = drug.tradeName.toLowerCase().trim();
+    final activeLower = drug.active.toLowerCase().trim();
+
+    // Try medicine-to-ingredients map
+    if (_medicineToIngredientsMap.containsKey(tradeNameLower)) {
+      return _medicineToIngredientsMap[tradeNameLower]!;
+    }
+
+    // Fallback to active ingredient
+    if (activeLower.isNotEmpty) {
+      return [activeLower];
+    }
+
+    return [];
+  }
 }

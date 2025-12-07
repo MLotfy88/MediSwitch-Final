@@ -1,9 +1,17 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'dart:io' show Platform; // To check platform
+import 'package:provider/provider.dart';
+
+import '../bloc/ad_config_provider.dart';
+
+enum BannerAdPlacement { homeBottom, searchBottom, drugDetailsBottom, generic }
 
 class BannerAdWidget extends StatefulWidget {
-  const BannerAdWidget({super.key});
+  final BannerAdPlacement placement;
+
+  const BannerAdWidget({super.key, this.placement = BannerAdPlacement.generic});
 
   @override
   State<BannerAdWidget> createState() => _BannerAdWidgetState();
@@ -13,43 +21,68 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
   BannerAd? _bannerAd;
   bool _isAdLoaded = false;
 
-  // Use test ad unit IDs for development
-  // Replace with your actual ad unit IDs before release
-  final String _adUnitId =
-      Platform.isAndroid
-          ? 'ca-app-pub-3940256099942544/6300978111' // Android Test ID
-          : 'ca-app-pub-3940256099942544/2934735716'; // iOS Test ID
-
   @override
   void initState() {
     super.initState();
-    _loadAd();
+    // Load ad after frame build to ensure provider is available
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadAd();
+    });
   }
 
   void _loadAd() {
+    final adConfig = context.read<AdConfigProvider>();
+
+    // Check if ads are globally enabled
+    if (!adConfig.adsEnabled) return;
+
+    // Check placement-specific setting
+    bool placementEnabled = true;
+    switch (widget.placement) {
+      case BannerAdPlacement.homeBottom:
+        placementEnabled = adConfig.homeBottomEnabled;
+        break;
+      case BannerAdPlacement.searchBottom:
+        placementEnabled = adConfig.searchBottomEnabled;
+        break;
+      case BannerAdPlacement.drugDetailsBottom:
+        placementEnabled = adConfig.drugDetailsBottomEnabled;
+        break;
+      case BannerAdPlacement.generic:
+        placementEnabled = true;
+        break;
+    }
+
+    if (!placementEnabled) return;
+
+    final String adUnitId =
+        Platform.isAndroid
+            ? adConfig.bannerAdUnitIdAndroid
+            : adConfig.bannerAdUnitIdIos;
+
+    if (adUnitId.isEmpty) return;
+
     _bannerAd = BannerAd(
-      adUnitId: _adUnitId,
+      adUnitId: adUnitId,
       request: const AdRequest(),
-      size: AdSize.banner, // Standard banner size
+      size: AdSize.banner,
       listener: BannerAdListener(
         onAdLoaded: (Ad ad) {
-          print('BannerAd loaded.');
-          setState(() {
-            _isAdLoaded = true;
-          });
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = true;
+            });
+          }
         },
         onAdFailedToLoad: (Ad ad, LoadAdError error) {
           print('BannerAd failed to load: $error');
-          ad.dispose(); // Dispose the failed ad
-          setState(() {
-            _isAdLoaded = false; // Ensure it's marked as not loaded
-          });
-          // Optionally retry loading after a delay
-          // Future.delayed(Duration(seconds: 30), () => _loadAd());
+          ad.dispose();
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = false;
+            });
+          }
         },
-        onAdOpened: (Ad ad) => print('BannerAd opened.'),
-        onAdClosed: (Ad ad) => print('BannerAd closed.'),
-        onAdImpression: (Ad ad) => print('BannerAd impression.'),
       ),
     )..load();
   }
@@ -62,16 +95,36 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
   @override
   Widget build(BuildContext context) {
-    if (_isAdLoaded && _bannerAd != null) {
-      return SizedBox(
+    // Listen to changes in ad config (e.g. if user disables ads in real-time)
+    final adConfig = context.watch<AdConfigProvider>();
+
+    bool shouldShow = adConfig.adsEnabled;
+    if (shouldShow) {
+      switch (widget.placement) {
+        case BannerAdPlacement.homeBottom:
+          shouldShow = adConfig.homeBottomEnabled;
+          break;
+        case BannerAdPlacement.searchBottom:
+          shouldShow = adConfig.searchBottomEnabled;
+          break;
+        case BannerAdPlacement.drugDetailsBottom:
+          shouldShow = adConfig.drugDetailsBottomEnabled;
+          break;
+        case BannerAdPlacement.generic:
+          shouldShow = true;
+          break;
+      }
+    }
+
+    if (shouldShow && _isAdLoaded && _bannerAd != null) {
+      return Container(
+        alignment: Alignment.center,
         width: _bannerAd!.size.width.toDouble(),
         height: _bannerAd!.size.height.toDouble(),
         child: AdWidget(ad: _bannerAd!),
       );
     } else {
-      // Return an empty container or a placeholder if the ad failed to load
-      // or hasn't loaded yet. Avoid returning null.
-      return const SizedBox.shrink(); // Or Container(height: 50) etc.
+      return const SizedBox.shrink();
     }
   }
 }

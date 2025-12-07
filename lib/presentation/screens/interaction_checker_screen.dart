@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'; // If using Provider for state management
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
-import '../../core/di/locator.dart'; // For accessing InteractionRepository
+import '../../core/di/locator.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
 import '../../domain/repositories/interaction_repository.dart';
-import '../../domain/repositories/drug_repository.dart'; // Import DrugRepository
-// Removed import for custom_searchable_dropdown
-import '../widgets/drug_search_delegate.dart'; // Import DrugSearchDelegate
-import '../widgets/interaction_card.dart';
-import '../bloc/medicine_provider.dart'; // Assuming this provides the list of all drugs for selection
-
-// TODO: Implement localization using AppLocalizations
+import '../theme/app_colors.dart';
+import '../widgets/drug_search_delegate.dart';
+import '../widgets/helpers/interaction_severity_helper.dart';
 
 class InteractionCheckerScreen extends StatefulWidget {
   const InteractionCheckerScreen({super.key});
@@ -25,91 +22,50 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   final InteractionRepository _interactionRepository =
       locator<InteractionRepository>();
 
-  DrugEntity? _selectedDrug1;
-  DrugEntity? _selectedDrug2;
+  final List<DrugEntity> _selectedDrugs = [];
   List<DrugInteraction> _interactions = [];
   bool _isLoading = false;
   String? _errorMessage;
-
-  // Fetch all drugs for the dropdowns/search delegates
-  // This might be better handled in a dedicated provider/bloc
-  List<DrugEntity> _allDrugs = [];
+  bool _showSearch = false;
 
   @override
   void initState() {
     super.initState();
-    // Load all drugs for selection - assuming MedicineProvider handles this
-    // It's crucial that interaction data is loaded before this screen is used.
-    // Consider triggering loadInteractionData earlier in the app lifecycle (e.g., InitializationScreen)
-    _loadAllDrugs();
     _ensureInteractionDataLoaded();
   }
 
-  Future<void> _loadAllDrugs() async {
-    // Use DrugRepository to load all drugs
-    print("InteractionCheckerScreen: Loading all drugs...");
-    try {
-      // Assuming DrugRepository is registered in locator
-      final drugRepo = locator<DrugRepository>();
-      // Assuming DrugRepository has a method like getAllDrugs()
-      // Adjust the method name if it's different (e.g., fetchAllDrugs)
-      final result =
-          await drugRepo.getAllDrugs(); // Make sure this method exists
-
-      if (mounted) {
-        result.fold(
-          (failure) {
-            setState(
-              () =>
-                  _errorMessage =
-                      "Failed to load drug list: ${failure.message}",
-            );
-            print("Error loading drugs: ${failure.message}");
-          },
-          (List<DrugEntity> drugs) {
-            // Explicitly type drugs
-            setState(() => _allDrugs = drugs);
-            print(
-              "InteractionCheckerScreen: Loaded ${_allDrugs.length} drugs.",
-            );
-          },
-        );
-      }
-    } catch (e, stacktrace) {
-      if (mounted) {
-        setState(() => _errorMessage = "Error loading drugs: $e");
-      }
-      print("Error loading drugs: $e");
-      print("Stacktrace: $stacktrace");
-    }
-  }
-
   Future<void> _ensureInteractionDataLoaded() async {
-    // Attempt to load interaction data if not already loaded
-    // This is a fallback; ideally, it's loaded during app initialization
     final result = await _interactionRepository.loadInteractionData();
     result.fold((failure) {
       if (mounted) {
         setState(() {
           _errorMessage = "Failed to load interaction data: ${failure.message}";
         });
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              "Error loading interaction database: ${failure.message}",
-            ),
-            backgroundColor: Colors.red,
-          ),
-        );
       }
-    }, (_) => print("Interaction data ensured/loaded successfully."));
+    }, (_) => {});
+  }
+
+  void _addDrug(DrugEntity drug) {
+    if (_selectedDrugs.any((d) => d.id == drug.id)) return;
+    setState(() {
+      _selectedDrugs.add(drug);
+      _showSearch = false;
+    });
+    _checkInteractions();
+  }
+
+  void _removeDrug(String drugId) {
+    setState(() {
+      _selectedDrugs.removeWhere((d) => d.id.toString() == drugId);
+    });
+    _checkInteractions();
   }
 
   Future<void> _checkInteractions() async {
-    if (_selectedDrug1 == null || _selectedDrug2 == null) {
+    if (_selectedDrugs.length < 2) {
       setState(() {
-        _errorMessage = "Please select two drugs to compare.";
         _interactions = [];
+        _errorMessage = null;
       });
       return;
     }
@@ -117,27 +73,21 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     setState(() {
       _isLoading = true;
       _errorMessage = null;
-      _interactions = [];
     });
 
-    final result = await _interactionRepository.findInteractionsForMedicines([
-      _selectedDrug1!,
-      _selectedDrug2!,
-    ]);
+    final result = await _interactionRepository.findInteractionsForMedicines(
+      _selectedDrugs,
+    );
 
     if (mounted) {
       setState(() {
         result.fold(
           (failure) {
-            _errorMessage = "Error checking interactions: ${failure.message}";
+            _errorMessage = "Error: ${failure.message}";
             _interactions = [];
           },
           (interactions) {
             _interactions = interactions;
-            if (interactions.isEmpty) {
-              _errorMessage =
-                  "No interactions found between the selected drugs.";
-            }
           },
         );
         _isLoading = false;
@@ -147,99 +97,287 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Access MedicineProvider if needed for drug list
-    // final medicineProvider = Provider.of<MedicineProvider>(context);
-    // _allDrugs = medicineProvider.drugs; // Example: Get drugs from provider state
+    final l10n = AppLocalizations.of(context)!;
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(
-        // title: Text(AppLocalizations.of(context)!.interactionCheckerTitle), // Use localization
-        title: const Text('Drug Interaction Checker'), // Placeholder title
+      body: Column(
+        children: [
+          // Gradient Header
+          _buildHeader(context, l10n, isRTL),
+          // Content
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  // Selected Drugs Card
+                  _buildSelectedDrugsCard(context, l10n, isRTL),
+                  const SizedBox(height: 16),
+
+                  // Results
+                  if (_selectedDrugs.length >= 2) ...[
+                    _buildResultsSection(context, l10n, isRTL),
+                    const SizedBox(height: 16),
+                  ],
+
+                  // Info Note
+                  _buildInfoNote(context, l10n, isRTL),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // --- Drug Selection ---
-            // TODO: Replace with actual DrugSearchDelegate or CustomSearchableDropDown
-            _buildDrugSelector(
-              label: 'Select Drug 1', // Placeholder
-              selectedDrug: _selectedDrug1,
-              onChanged: (drug) => setState(() => _selectedDrug1 = drug),
-            ),
-            const SizedBox(height: 16),
-            _buildDrugSelector(
-              label: 'Select Drug 2', // Placeholder
-              selectedDrug: _selectedDrug2,
-              onChanged: (drug) => setState(() => _selectedDrug2 = drug),
-            ),
-            const SizedBox(height: 24),
+    );
+  }
 
-            // --- Check Button ---
-            ElevatedButton(
-              onPressed:
-                  (_selectedDrug1 != null &&
-                          _selectedDrug2 != null &&
-                          !_isLoading)
-                      ? _checkInteractions
-                      : null,
-              child:
-                  _isLoading
-                      ? const SizedBox(
-                        height: 20,
-                        width: 20,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2,
-                          color: Colors.white,
-                        ),
-                      )
-                      // : Text(AppLocalizations.of(context)!.checkInteractionsButton), // Use localization
-                      : const Text('Check Interactions'), // Placeholder
-            ),
-            const SizedBox(height: 24),
-
-            // --- Results Area ---
-            if (_errorMessage != null && !_isLoading)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                child: Text(
-                  _errorMessage!,
-                  style: TextStyle(
-                    color:
-                        _interactions.isEmpty ? Colors.grey[600] : Colors.red,
-                    fontStyle: FontStyle.italic,
+  Widget _buildHeader(BuildContext context, AppLocalizations l10n, bool isRTL) {
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [AppColors.warning.withOpacity(0.9), AppColors.warning],
+        ),
+      ),
+      child: SafeArea(
+        bottom: false,
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Row(
+            children: [
+              // Back Button
+              Material(
+                color: Colors.white.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(12),
+                child: InkWell(
+                  onTap: () => Navigator.pop(context),
+                  borderRadius: BorderRadius.circular(12),
+                  child: Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: Icon(
+                      isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
+                      color: Colors.white,
+                      size: 20,
+                    ),
                   ),
-                  textAlign: TextAlign.center,
                 ),
               ),
-
-            Expanded(
-              child:
-                  _isLoading && _interactions.isEmpty
-                      ? const Center(child: CircularProgressIndicator())
-                      : _interactions.isEmpty &&
-                          _errorMessage == null &&
-                          !_isLoading
-                      ? const Center(
-                        child: Text(
-                          'Select two drugs and press "Check Interactions".',
-                        ),
-                      ) // Placeholder
-                      : ListView.builder(
-                        itemCount: _interactions.length,
-                        itemBuilder: (context, index) {
-                          return Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: InteractionCard(
-                              interaction: _interactions[index],
-                              // Optional: Pass drug names if needed by the card
-                              // drug1Name: _selectedDrug1?.tradeName,
-                              // drug2Name: _selectedDrug2?.tradeName,
-                            ),
-                          );
-                        },
+              const SizedBox(width: 12),
+              // Icon
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.2),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(
+                  LucideIcons.alertTriangle,
+                  color: Colors.white,
+                  size: 20,
+                ),
+              ),
+              const SizedBox(width: 12),
+              // Title
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      l10n.navInteractions,
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
                       ),
+                    ),
+                    Text(
+                      isRTL
+                          ? 'أضف الأدوية للتحقق من التفاعلات'
+                          : 'Add drugs to check for interactions',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.white.withOpacity(0.8),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSelectedDrugsCard(
+    BuildContext context,
+    AppLocalizations l10n,
+    bool isRTL,
+  ) {
+    final theme = Theme.of(context);
+    return Container(
+      decoration: BoxDecoration(
+        color: theme.cardColor,
+        borderRadius: BorderRadius.circular(12),
+        boxShadow: AppColors.shadowCard,
+      ),
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Header
+          Row(
+            children: [
+              Icon(
+                LucideIcons.pill,
+                size: 16,
+                color: theme.colorScheme.primary,
+              ),
+              const SizedBox(width: 8),
+              Text(
+                isRTL ? 'الأدوية المحددة' : 'Selected Drugs',
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.secondaryContainer,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Text(
+                  '${_selectedDrugs.length}',
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: theme.colorScheme.onSecondaryContainer,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+
+          // Selected Drug Pills
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              ..._selectedDrugs.map((drug) => _buildDrugChip(context, drug)),
+              if (_selectedDrugs.isEmpty)
+                Text(
+                  isRTL ? 'لم يتم تحديد أي أدوية بعد' : 'No drugs selected yet',
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+            ],
+          ),
+          const SizedBox(height: 16),
+
+          // Add Drug Button / Search
+          if (_showSearch)
+            _buildSearchSection(context, l10n, isRTL)
+          else
+            _buildAddDrugButton(context, l10n, isRTL),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildDrugChip(BuildContext context, DrugEntity drug) {
+    final theme = Theme.of(context);
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.primary.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(LucideIcons.pill, size: 14, color: theme.colorScheme.primary),
+          const SizedBox(width: 6),
+          Text(
+            drug.tradeName,
+            style: TextStyle(
+              fontSize: 13,
+              fontWeight: FontWeight.w500,
+              color: theme.colorScheme.primary,
+            ),
+          ),
+          const SizedBox(width: 6),
+          GestureDetector(
+            onTap: () => _removeDrug(drug.id.toString()),
+            child: Container(
+              width: 18,
+              height: 18,
+              decoration: BoxDecoration(
+                color: theme.colorScheme.primary.withOpacity(0.2),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(
+                LucideIcons.x,
+                size: 12,
+                color: theme.colorScheme.primary,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildAddDrugButton(
+    BuildContext context,
+    AppLocalizations l10n,
+    bool isRTL,
+  ) {
+    final theme = Theme.of(context);
+    return InkWell(
+      onTap: () async {
+        final result = await showSearch<DrugEntity?>(
+          context: context,
+          delegate: DrugSearchDelegate(),
+        );
+        if (result != null) {
+          _addDrug(result);
+        }
+      },
+      borderRadius: BorderRadius.circular(12),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.symmetric(vertical: 14),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: theme.colorScheme.outlineVariant,
+            width: 2,
+            style: BorderStyle.solid,
+          ),
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              LucideIcons.plus,
+              size: 18,
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              isRTL ? 'إضافة دواء' : 'Add Drug',
+              style: TextStyle(
+                color: theme.colorScheme.onSurfaceVariant,
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ],
         ),
@@ -247,80 +385,285 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     );
   }
 
-  // Builds a button that opens the DrugSearchDelegate
-  Widget _buildDrugSelector({
-    required String label,
-    required DrugEntity? selectedDrug,
-    required ValueChanged<DrugEntity?> onChanged,
-  }) {
-    return OutlinedButton(
-      style: OutlinedButton.styleFrom(
-        padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 16.0),
-        textStyle: Theme.of(context).textTheme.titleMedium,
-        foregroundColor:
-            selectedDrug != null
-                ? Theme.of(context).colorScheme.onSurface
-                : Theme.of(context).hintColor,
-        side: BorderSide(color: Theme.of(context).colorScheme.outline),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
-      ),
-      onPressed: () async {
-        // Ensure _allDrugs is loaded before showing search
-        if (_allDrugs.isEmpty && _errorMessage == null) {
-          // Optionally show a loading indicator or message
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Loading drug list... Please wait.')),
-          );
-          await _loadAllDrugs(); // Attempt to load again if empty
-          if (_allDrugs.isEmpty) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('Failed to load drug list. Cannot search.'),
-                backgroundColor: Colors.red,
-              ),
+  Widget _buildSearchSection(
+    BuildContext context,
+    AppLocalizations l10n,
+    bool isRTL,
+  ) {
+    // Simplified - use the search delegate directly
+    return Column(
+      children: [
+        ElevatedButton(
+          onPressed: () async {
+            final result = await showSearch<DrugEntity?>(
+              context: context,
+              delegate: DrugSearchDelegate(),
             );
-            return; // Don't open search if still empty
-          }
-        } else if (_errorMessage != null && _allDrugs.isEmpty) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('Error: $_errorMessage'),
-              backgroundColor: Colors.red,
-            ),
-          );
-          return; // Don't open search if there was an error loading
-        }
+            if (result != null) {
+              _addDrug(result);
+            }
+          },
+          child: Text(isRTL ? 'ابحث عن دواء' : 'Search for a drug'),
+        ),
+        TextButton(
+          onPressed: () => setState(() => _showSearch = false),
+          child: Text(isRTL ? 'إلغاء' : 'Cancel'),
+        ),
+      ],
+    );
+  }
 
-        final DrugEntity? result = await showSearch<DrugEntity?>(
-          context: context,
-          delegate: DrugSearchDelegate(
-            // Removed allDrugs parameter, as the delegate uses MedicineProvider
-            // Optional: Customize hint text
-            // searchFieldLabel: 'Search Drugs...',
+  Widget _buildResultsSection(
+    BuildContext context,
+    AppLocalizations l10n,
+    bool isRTL,
+  ) {
+    final theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            const Icon(
+              LucideIcons.alertTriangle,
+              size: 16,
+              color: AppColors.warning,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              isRTL ? 'نتائج التفاعلات' : 'Interaction Results',
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+
+        if (_isLoading)
+          const Center(child: CircularProgressIndicator())
+        else if (_interactions.isEmpty)
+          _buildNoInteractionsCard(context, isRTL)
+        else
+          ..._interactions.map(
+            (i) => _buildInteractionResultCard(context, i, isRTL),
           ),
-        );
-        if (result != null) {
-          onChanged(result); // Update the state with the selected drug
-        }
-      },
+      ],
+    );
+  }
+
+  Widget _buildNoInteractionsCard(BuildContext context, bool isRTL) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: AppColors.successSoft,
+        border: Border.all(color: AppColors.success.withOpacity(0.3)),
+        borderRadius: BorderRadius.circular(12),
+      ),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
+          Container(
+            width: 40,
+            height: 40,
+            decoration: BoxDecoration(
+              color: AppColors.success.withOpacity(0.2),
+              shape: BoxShape.circle,
+            ),
+            child: const Icon(
+              LucideIcons.shieldCheck,
+              color: AppColors.success,
+              size: 20,
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  isRTL ? 'لا توجد تفاعلات معروفة' : 'No Known Interactions',
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w600,
+                    color: AppColors.success,
+                  ),
+                ),
+                Text(
+                  isRTL
+                      ? 'الأدوية المحددة آمنة للاستخدام معًا'
+                      : 'Selected drugs are safe to use together',
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: AppColors.success.withOpacity(0.8),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInteractionResultCard(
+    BuildContext context,
+    DrugInteraction interaction,
+    bool isRTL,
+  ) {
+    final severityColor = InteractionSeverityHelper.getSeverityColor(
+      interaction.severity,
+    );
+    final severityBg = InteractionSeverityHelper.getSeverityBackgroundColor(
+      interaction.severity,
+    );
+    final severityIcon = InteractionSeverityHelper.getSeverityIcon(
+      interaction.severity,
+    );
+    final severityLabel =
+        isRTL
+            ? InteractionSeverityHelper.getSeverityLabelAr(interaction.severity)
+            : InteractionSeverityHelper.getSeverityLabelEn(
+              interaction.severity,
+            );
+
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: severityBg,
+        border: Border.all(color: severityColor.withOpacity(0.3)),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 40,
+            height: 40,
+            decoration: BoxDecoration(
+              color: severityBg,
+              shape: BoxShape.circle,
+            ),
+            child: Icon(severityIcon, color: severityColor, size: 20),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Drug Names + Badge
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        '${interaction.ingredient1} + ${interaction.ingredient2}',
+                        style: const TextStyle(fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 3,
+                      ),
+                      decoration: BoxDecoration(
+                        color: severityColor,
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Text(
+                        severityLabel,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 11,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                // Description
+                Text(
+                  isRTL && interaction.arabicEffect.isNotEmpty
+                      ? interaction.arabicEffect
+                      : interaction.effect,
+                  style: TextStyle(
+                    fontSize: 13,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                // Recommendation
+                Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Theme.of(
+                      context,
+                    ).colorScheme.surface.withOpacity(0.5),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        isRTL ? 'التوصية:' : 'Recommendation:',
+                        style: const TextStyle(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        isRTL && interaction.arabicRecommendation.isNotEmpty
+                            ? interaction.arabicRecommendation
+                            : interaction.recommendation,
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInfoNote(
+    BuildContext context,
+    AppLocalizations l10n,
+    bool isRTL,
+  ) {
+    final theme = Theme.of(context);
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surfaceVariant.withOpacity(0.5),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(
+            LucideIcons.info,
+            size: 18,
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+          const SizedBox(width: 12),
           Expanded(
             child: Text(
-              selectedDrug?.tradeName ?? label,
-              overflow: TextOverflow.ellipsis,
+              isRTL
+                  ? 'هذه المعلومات للإرشاد فقط. استشر طبيبك أو الصيدلي قبل إجراء أي تغييرات على أدويتك.'
+                  : 'This information is for guidance only. Consult your doctor or pharmacist before making any changes to your medications.',
               style: TextStyle(
-                color:
-                    selectedDrug != null
-                        ? Theme.of(context).colorScheme.onSurface
-                        : Theme.of(context).hintColor,
-                fontWeight:
-                    selectedDrug != null ? FontWeight.normal : FontWeight.w400,
+                fontSize: 12,
+                color: theme.colorScheme.onSurfaceVariant,
               ),
             ),
           ),
-          const Icon(Icons.search),
         ],
       ),
     );

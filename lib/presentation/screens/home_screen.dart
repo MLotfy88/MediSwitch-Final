@@ -3,7 +3,6 @@ import 'dart:ui' as ui; // For TextDirection
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
@@ -98,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           : _buildLoadingIndicator(),
                 ),
               ),
-              const BannerAdWidget(),
+              const BannerAdWidget(placement: BannerAdPlacement.homeBottom),
             ],
           ),
         ),
@@ -190,8 +189,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Builder(
                       builder: (context) {
-                        final today = DateTime.now();
-                        final todayStr = DateFormat('yyyy-MM-dd').format(today);
                         // Recalculate or just use recent count as proxy like design
                         final recentCount =
                             medicineProvider.recentlyUpdatedDrugs.length;
@@ -347,7 +344,7 @@ class _HomeScreenState extends State<HomeScreen> {
         if (medicineProvider.categories.isNotEmpty)
           _buildCategoriesSection(context, l10n, medicineProvider.categories),
 
-        // Recently Updated
+        // Recently Added (Matches Reference - Vertical List)
         if (!isInitialLoadComplete)
           const SliverToBoxAdapter(
             child: Padding(
@@ -357,25 +354,72 @@ class _HomeScreenState extends State<HomeScreen> {
           )
         else if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty)
           SliverToBoxAdapter(
-            child: Column(
-              children: [
-                _buildHorizontalDrugList(
-                  context,
-                  title: l10n.recentlyUpdatedDrugs,
-                  icon: LucideIcons.history,
-                  // Limit display to top 10 recent drugs
-                  drugs: medicineProvider.recentlyUpdatedDrugs.take(5).toList(),
-                  onViewAll: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute<void>(
-                        builder: (_) => const SearchScreen(initialQuery: ''),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Section Header matching reference
+                  Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: AppColors.successSoft,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: const Icon(
+                          LucideIcons.sparkles,
+                          size: 16,
+                          color: AppColors.success,
+                        ),
                       ),
-                    );
-                  },
-                ),
-                _buildSectionDivider(context, LucideIcons.activity),
-              ],
+                      const SizedBox(width: 12),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Recently Added', // Matches reference title
+                            style: Theme.of(context).textTheme.titleMedium
+                                ?.copyWith(fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            'New drugs this week',
+                            style: TextStyle(
+                              fontSize: 12,
+                              color:
+                                  Theme.of(
+                                    context,
+                                  ).colorScheme.onSurfaceVariant,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 12),
+                  // Vertical List of DrugCards
+                  ...medicineProvider.recentlyUpdatedDrugs
+                      .take(3)
+                      .map(
+                        (drug) => Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: DrugCard(
+                            drug: drug,
+                            type: DrugCardType.detailed,
+                            onTap: () => _navigateToDetails(context, drug),
+                          ).animate().fadeIn(
+                            delay:
+                                (medicineProvider.recentlyUpdatedDrugs.indexOf(
+                                          drug,
+                                        ) *
+                                        100)
+                                    .ms,
+                          ),
+                        ),
+                      ),
+                ],
+              ),
             ),
           ),
 
@@ -486,67 +530,258 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildCategoriesSection(
     BuildContext context,
     AppLocalizations l10n,
-    List<CategoryEntity>
-    categories, // Keeping argument to match signature, but mostly using static list for UI match
+    List<CategoryEntity> categories,
   ) {
-    // Static list from reference design (mediswitch-refresh) to ensure exact UI match
-    final List<Map<String, dynamic>> staticCategories = [
-      {
-        'id': '1',
-        'nameEn': 'Cardiac',
-        'nameAr': 'قلب',
+    // Mapping dictionary: Full category name → display data
+    // This maps real database category names to short display names with icons and colors
+    final Map<String, Map<String, dynamic>> categoryMapping = {
+      // Cardiology / Heart
+      'cardiology': {
+        'short': 'Cardiac',
+        'shortAr': 'قلب',
         'icon': LucideIcons.heart,
-        'count': 245,
         'color': 'red',
       },
-      {
-        'id': '2',
-        'nameEn': 'Neuro',
-        'nameAr': 'أعصاب',
+      'cardiovascular': {
+        'short': 'Cardiac',
+        'shortAr': 'قلب',
+        'icon': LucideIcons.heart,
+        'color': 'red',
+      },
+      'heart': {
+        'short': 'Cardiac',
+        'shortAr': 'قلب',
+        'icon': LucideIcons.heart,
+        'color': 'red',
+      },
+      // Neurology
+      'neurology': {
+        'short': 'Neuro',
+        'shortAr': 'أعصاب',
         'icon': LucideIcons.brain,
-        'count': 189,
         'color': 'purple',
       },
-      {
-        'id': '3',
-        'nameEn': 'Dental',
-        'nameAr': 'أسنان',
+      'neurological': {
+        'short': 'Neuro',
+        'shortAr': 'أعصاب',
+        'icon': LucideIcons.brain,
+        'color': 'purple',
+      },
+      'cns': {
+        'short': 'Neuro',
+        'shortAr': 'أعصاب',
+        'icon': LucideIcons.brain,
+        'color': 'purple',
+      },
+      // Dental
+      'dental': {
+        'short': 'Dental',
+        'shortAr': 'أسنان',
         'icon': LucideIcons.smile,
-        'count': 78,
         'color': 'teal',
       },
-      {
-        'id': '4',
-        'nameEn': 'Pediatric',
-        'nameAr': 'أطفال',
+      'dentistry': {
+        'short': 'Dental',
+        'shortAr': 'أسنان',
+        'icon': LucideIcons.smile,
+        'color': 'teal',
+      },
+      // Pediatrics
+      'pediatric': {
+        'short': 'Pediatric',
+        'shortAr': 'أطفال',
         'icon': LucideIcons.baby,
-        'count': 156,
         'color': 'green',
       },
-      {
-        'id': '5',
-        'nameEn': 'Ophthalmic',
-        'nameAr': 'عيون',
+      'pediatrics': {
+        'short': 'Pediatric',
+        'shortAr': 'أطفال',
+        'icon': LucideIcons.baby,
+        'color': 'green',
+      },
+      'children': {
+        'short': 'Pediatric',
+        'shortAr': 'أطفال',
+        'icon': LucideIcons.baby,
+        'color': 'green',
+      },
+      // Ophthalmology
+      'ophthalmology': {
+        'short': 'Eyes',
+        'shortAr': 'عيون',
         'icon': LucideIcons.eye,
-        'count': 92,
         'color': 'blue',
       },
-      {
-        'id': '6',
-        'nameEn': 'Orthopedic',
-        'nameAr': 'عظام',
+      'ophthalmic': {
+        'short': 'Eyes',
+        'shortAr': 'عيون',
+        'icon': LucideIcons.eye,
+        'color': 'blue',
+      },
+      'eye': {
+        'short': 'Eyes',
+        'shortAr': 'عيون',
+        'icon': LucideIcons.eye,
+        'color': 'blue',
+      },
+      // Orthopedics
+      'orthopedic': {
+        'short': 'Ortho',
+        'shortAr': 'عظام',
         'icon': LucideIcons.bone,
-        'count': 134,
         'color': 'orange',
       },
-    ];
+      'orthopedics': {
+        'short': 'Ortho',
+        'shortAr': 'عظام',
+        'icon': LucideIcons.bone,
+        'color': 'orange',
+      },
+      'musculoskeletal': {
+        'short': 'Ortho',
+        'shortAr': 'عظام',
+        'icon': LucideIcons.bone,
+        'color': 'orange',
+      },
+      // Dermatology
+      'dermatology': {
+        'short': 'Derma',
+        'shortAr': 'جلدية',
+        'icon': LucideIcons.hand,
+        'color': 'purple',
+      },
+      'skin': {
+        'short': 'Derma',
+        'shortAr': 'جلدية',
+        'icon': LucideIcons.hand,
+        'color': 'purple',
+      },
+      // Gastroenterology
+      'gastroenterology': {
+        'short': 'GI',
+        'shortAr': 'هضمي',
+        'icon': LucideIcons.pill,
+        'color': 'orange',
+      },
+      'gastrointestinal': {
+        'short': 'GI',
+        'shortAr': 'هضمي',
+        'icon': LucideIcons.pill,
+        'color': 'orange',
+      },
+      'digestive': {
+        'short': 'GI',
+        'shortAr': 'هضمي',
+        'icon': LucideIcons.pill,
+        'color': 'orange',
+      },
+      // Respiratory
+      'respiratory': {
+        'short': 'Resp',
+        'shortAr': 'تنفسي',
+        'icon': LucideIcons.wind,
+        'color': 'blue',
+      },
+      'pulmonology': {
+        'short': 'Resp',
+        'shortAr': 'تنفسي',
+        'icon': LucideIcons.wind,
+        'color': 'blue',
+      },
+      // Endocrinology
+      'endocrinology': {
+        'short': 'Endo',
+        'shortAr': 'غدد',
+        'icon': LucideIcons.activity,
+        'color': 'teal',
+      },
+      'diabetes': {
+        'short': 'Endo',
+        'shortAr': 'غدد',
+        'icon': LucideIcons.activity,
+        'color': 'teal',
+      },
+      // Antibiotics
+      'antibiotic': {
+        'short': 'Antibio',
+        'shortAr': 'مضاد',
+        'icon': LucideIcons.shield,
+        'color': 'red',
+      },
+      'antibiotics': {
+        'short': 'Antibio',
+        'shortAr': 'مضاد',
+        'icon': LucideIcons.shield,
+        'color': 'red',
+      },
+      'anti-infective': {
+        'short': 'Antibio',
+        'shortAr': 'مضاد',
+        'icon': LucideIcons.shield,
+        'color': 'red',
+      },
+      // Pain / Analgesics
+      'analgesic': {
+        'short': 'Pain',
+        'shortAr': 'مسكن',
+        'icon': LucideIcons.thermometer,
+        'color': 'orange',
+      },
+      'pain': {
+        'short': 'Pain',
+        'shortAr': 'مسكن',
+        'icon': LucideIcons.thermometer,
+        'color': 'orange',
+      },
+      // Default fallback
+    };
+
+    // Get drug counts per category from filteredMedicines
+    final allDrugs = context.read<MedicineProvider>().filteredMedicines;
+    Map<String, int> categoryCounts = {};
+    for (var cat in categories) {
+      final count =
+          allDrugs
+              .where((d) => d.category?.toLowerCase() == cat.name.toLowerCase())
+              .length;
+      categoryCounts[cat.name] = count;
+    }
+
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
+
+    // Build display list from real categories
+    final displayCategories =
+        categories.take(8).map((cat) {
+          final lowerName = cat.name.toLowerCase();
+          final mapping =
+              categoryMapping[lowerName] ??
+              // Fallback for unmapped categories
+              {
+                'short':
+                    cat.name.length > 8
+                        ? '${cat.name.substring(0, 7)}.'
+                        : cat.name,
+                'shortAr': cat.nameAr,
+                'icon': LucideIcons.pill,
+                'color': 'blue',
+              };
+
+          return {
+            'originalName': cat.name,
+            'displayName': isArabic ? mapping['shortAr'] : mapping['short'],
+            'icon': mapping['icon'] as IconData,
+            'color': mapping['color'] as String,
+            'count': categoryCounts[cat.name] ?? cat.drugCount,
+          };
+        }).toList();
 
     return SliverToBoxAdapter(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(
-            height: 140, // Adjusted height for new card design
+            height: 140,
             child: HorizontalListSection(
               title: l10n.medicalCategories,
               icon: LucideIcons.layoutGrid,
@@ -557,29 +792,27 @@ class _HomeScreenState extends State<HomeScreen> {
                 bottom: 8,
               ),
               children:
-                  staticCategories.map((cat) {
-                    final locale = Localizations.localeOf(context);
-                    final isArabic = locale.languageCode == 'ar';
-                    final String nameEn = cat['nameEn'] as String;
-                    final String nameAr = cat['nameAr'] as String;
-                    final displayName = isArabic ? nameAr : nameEn;
-
+                  displayCategories.map((cat) {
                     return Padding(
                       padding: const EdgeInsets.only(right: 8.0),
                       child: CategoryCard(
-                        name: displayName,
+                        name: cat['displayName'] as String,
                         iconData: cat['icon'] as IconData,
                         drugCount: cat['count'] as int,
                         colorKey: cat['color'] as String,
                         onTap: () {
                           _adService.incrementUsageCounterAndShowAdIfNeeded();
-                          // Map back to API category name if needed, using english name for now
-                          context.read<MedicineProvider>().setCategory(nameEn);
+                          context.read<MedicineProvider>().setCategory(
+                            cat['originalName'] as String,
+                          );
                           Navigator.push(
                             context,
                             MaterialPageRoute<void>(
                               builder:
-                                  (_) => SearchScreen(initialCategory: nameEn),
+                                  (_) => SearchScreen(
+                                    initialCategory:
+                                        cat['originalName'] as String,
+                                  ),
                             ),
                           );
                         },

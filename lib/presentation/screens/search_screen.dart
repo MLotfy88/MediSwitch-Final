@@ -251,7 +251,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 ],
               ),
             ),
-            const BannerAdWidget(),
+            const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
           ],
         ),
       ),

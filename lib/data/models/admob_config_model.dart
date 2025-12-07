@@ -9,6 +9,12 @@ class AdMobConfigModel extends AdMobConfigEntity {
     required super.interstitialAdUnitIdAndroid,
     required super.interstitialAdUnitIdIos,
     required super.adsEnabled,
+    required super.testAdsEnabled,
+    required super.homeBottomEnabled,
+    required super.searchBottomEnabled,
+    required super.drugDetailsBottomEnabled,
+    required super.betweenSearchResultsEnabled,
+    required super.betweenAlternativesEnabled,
     required super.interstitialAdFrequency,
   });
 
@@ -22,7 +28,16 @@ class AdMobConfigModel extends AdMobConfigEntity {
           json['interstitial_ad_unit_id_android'] as String? ?? '',
       interstitialAdUnitIdIos:
           json['interstitial_ad_unit_id_ios'] as String? ?? '',
-      adsEnabled: json['ads_enabled'] as bool? ?? false,
+      adsEnabled: json['ads_enabled'] != 'false',
+      testAdsEnabled: json['test_ads_enabled'] != 'false',
+      homeBottomEnabled: json['ad_placement_home_bottom'] != 'false',
+      searchBottomEnabled: json['ad_placement_search_bottom'] != 'false',
+      drugDetailsBottomEnabled:
+          json['ad_placement_drug_details_bottom'] != 'false',
+      betweenSearchResultsEnabled:
+          json['ad_placement_between_search_results'] == 'true',
+      betweenAlternativesEnabled:
+          json['ad_placement_between_alternatives'] == 'true',
       interstitialAdFrequency: json['interstitial_ad_frequency'] as int? ?? 10,
     );
   }
@@ -37,6 +52,12 @@ class AdMobConfigModel extends AdMobConfigEntity {
       'interstitial_ad_unit_id_android': interstitialAdUnitIdAndroid,
       'interstitial_ad_unit_id_ios': interstitialAdUnitIdIos,
       'ads_enabled': adsEnabled,
+      'test_ads_enabled': testAdsEnabled,
+      'ad_placement_home_bottom': homeBottomEnabled,
+      'ad_placement_search_bottom': searchBottomEnabled,
+      'ad_placement_drug_details_bottom': drugDetailsBottomEnabled,
+      'ad_placement_between_search_results': betweenSearchResultsEnabled,
+      'ad_placement_between_alternatives': betweenAlternativesEnabled,
       'interstitial_ad_frequency': interstitialAdFrequency,
     };
   }

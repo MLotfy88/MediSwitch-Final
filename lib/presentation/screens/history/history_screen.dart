@@ -1,10 +1,18 @@
 import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import '../../../core/utils/animation_helpers.dart';
+import 'package:provider/provider.dart';
 
-/// History Screen - shows search history
+import '../../../core/utils/animation_helpers.dart';
+import '../../../domain/entities/drug_entity.dart';
+import '../../bloc/medicine_provider.dart';
+import '../../widgets/drug_card.dart';
+import '../drug_details_screen.dart';
+
+/// History Screen - shows recently viewed drugs
 /// Matches design-refresh/src/components/screens/HistoryScreen.tsx
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({super.key});
@@ -14,69 +22,60 @@ class HistoryScreen extends StatefulWidget {
 }
 
 class _HistoryScreenState extends State<HistoryScreen> {
-  // Mock history data
-  final List<HistoryItem> _history = [
-    HistoryItem(
-      id: '1',
-      query: 'Panadol',
-      timestamp: DateTime.now().subtract(const Duration(hours: 2)),
-    ),
-    HistoryItem(
-      id: '2',
-      query: 'Augmentin',
-      timestamp: DateTime.now().subtract(const Duration(days: 1)),
-    ),
-    HistoryItem(
-      id: '3',
-      query: 'Concor',
-      timestamp: DateTime.now().subtract(const Duration(days: 2)),
-    ),
-    HistoryItem(
-      id: '4',
-      query: 'Aspirin',
-      timestamp: DateTime.now().subtract(const Duration(days: 3)),
-    ),
-  ];
+  // Local history storage - in production, use SharedPreferences or database
+  final List<ViewedDrug> _viewedDrugs = [];
 
-  void _deleteItem(String id) {
+  @override
+  void initState() {
+    super.initState();
+    _loadRecentlyViewedFromProvider();
+  }
+
+  void _loadRecentlyViewedFromProvider() {
+    // Use recently updated drugs as proxy for viewed drugs
+    // In production, implement proper history tracking
+    final provider = context.read<MedicineProvider>();
+    final recentDrugs = provider.recentlyUpdatedDrugs.take(10).toList();
+
     setState(() {
-      _history.removeWhere((item) => item.id == id);
+      _viewedDrugs.clear();
+      for (int i = 0; i < recentDrugs.length; i++) {
+        _viewedDrugs.add(
+          ViewedDrug(
+            drug: recentDrugs[i],
+            viewedAt: DateTime.now().subtract(Duration(hours: i * 2)),
+          ),
+        );
+      }
     });
   }
 
-  void _clearAll() {
+  void _clearHistory() {
+    final l10n = AppLocalizations.of(context)!;
+    final isRTL = Directionality.of(context) == ui.TextDirection.rtl;
+
     showDialog<void>(
       context: context,
       builder:
           (context) => AlertDialog(
-            title: Text(
-              Directionality.of(context) == ui.TextDirection.rtl
-                  ? 'مسح السجل'
-                  : 'Clear History',
-            ),
+            title: Text(isRTL ? 'مسح السجل' : 'Clear History'),
             content: Text(
-              Directionality.of(context) == ui.TextDirection.rtl
-                  ? 'هل تريد مسح جميع سجل البحث؟'
-                  : 'Are you sure you want to clear all search history?',
+              isRTL
+                  ? 'هل تريد مسح جميع سجل المشاهدة؟'
+                  : 'Are you sure you want to clear all viewing history?',
             ),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: Text(
-                  Directionality.of(context) == ui.TextDirection.rtl
-                      ? 'إلغاء'
-                      : 'Cancel',
-                ),
+                child: Text(isRTL ? 'إلغاء' : 'Cancel'),
               ),
               TextButton(
                 onPressed: () {
-                  setState(() => _history.clear());
+                  setState(() => _viewedDrugs.clear());
                   Navigator.pop(context);
                 },
                 child: Text(
-                  Directionality.of(context) == ui.TextDirection.rtl
-                      ? 'مسح'
-                      : 'Clear',
+                  isRTL ? 'مسح' : 'Clear',
                   style: TextStyle(color: Theme.of(context).colorScheme.error),
                 ),
               ),
@@ -85,8 +84,16 @@ class _HistoryScreenState extends State<HistoryScreen> {
     );
   }
 
+  void _navigateToDetails(DrugEntity drug) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => DrugDetailsScreen(drug: drug)),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final isRTL = Directionality.of(context) == ui.TextDirection.rtl;
@@ -95,14 +102,12 @@ class _HistoryScreenState extends State<HistoryScreen> {
       backgroundColor: theme.scaffoldBackgroundColor,
       body: Column(
         children: [
-          // Header
+          // Header - matching reference design
           Container(
             decoration: BoxDecoration(
-              color: colorScheme.surface.withValues(alpha: 0.95),
+              color: colorScheme.surface.withOpacity(0.95),
               border: Border(
-                bottom: BorderSide(
-                  color: colorScheme.outline.withValues(alpha: 0.2),
-                ),
+                bottom: BorderSide(color: colorScheme.outline.withOpacity(0.2)),
               ),
             ),
             child: SafeArea(
@@ -116,7 +121,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                       width: 40,
                       height: 40,
                       decoration: BoxDecoration(
-                        color: colorScheme.primary.withValues(alpha: 0.1),
+                        color: colorScheme.primary.withOpacity(0.1),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Icon(
@@ -127,7 +132,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                     ),
                     const SizedBox(width: 12),
 
-                    // Title
+                    // Title and subtitle
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -140,12 +145,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
                           ),
                           Text(
                             isRTL
-                                ? '${_history.length} عملية بحث'
-                                : '${_history.length} searches',
+                                ? 'الأدوية التي تم عرضها مؤخراً'
+                                : 'Recently viewed drugs',
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: colorScheme.onSurface.withValues(
-                                alpha: 0.6,
-                              ),
+                              color: colorScheme.onSurface.withOpacity(0.6),
                             ),
                           ),
                         ],
@@ -153,19 +156,18 @@ class _HistoryScreenState extends State<HistoryScreen> {
                     ),
 
                     // Clear All Button
-                    if (_history.isNotEmpty)
-                      TextButton.icon(
-                        onPressed: _clearAll,
+                    if (_viewedDrugs.isNotEmpty)
+                      IconButton(
+                        onPressed: _clearHistory,
                         icon: Icon(
                           LucideIcons.trash2,
-                          size: 16,
-                          color: colorScheme.error,
+                          size: 20,
+                          color: colorScheme.onSurface.withOpacity(0.6),
                         ),
-                        label: Text(
-                          isRTL ? 'مسح الكل' : 'Clear All',
-                          style: TextStyle(
-                            color: colorScheme.error,
-                            fontWeight: FontWeight.w600,
+                        style: IconButton.styleFrom(
+                          backgroundColor: colorScheme.surfaceContainerHighest,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
                           ),
                         ),
                       ),
@@ -178,105 +180,59 @@ class _HistoryScreenState extends State<HistoryScreen> {
           // History List
           Expanded(
             child:
-                _history.isEmpty
+                _viewedDrugs.isEmpty
                     ? _buildEmptyState(context, isRTL, colorScheme)
-                    : ListView.separated(
+                    : ListView.builder(
                       padding: const EdgeInsets.all(16),
-                      itemCount: _history.length,
-                      separatorBuilder: (_, __) => const SizedBox(height: 8),
+                      itemCount: _viewedDrugs.length,
                       itemBuilder: (context, index) {
-                        final item = _history[index];
+                        final item = _viewedDrugs[index];
                         return FadeSlideAnimation(
                           delay: StaggeredAnimationHelper.delayFor(index),
-                          child: _buildHistoryItem(
-                            context,
-                            item,
-                            isRTL,
-                            colorScheme,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              // Timestamp row
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  bottom: 8,
+                                  left: 4,
+                                ),
+                                child: Row(
+                                  children: [
+                                    Icon(
+                                      LucideIcons.clock,
+                                      size: 12,
+                                      color: colorScheme.onSurface.withOpacity(
+                                        0.5,
+                                      ),
+                                    ),
+                                    const SizedBox(width: 6),
+                                    Text(
+                                      _formatTimestamp(item.viewedAt, isRTL),
+                                      style: theme.textTheme.bodySmall
+                                          ?.copyWith(
+                                            color: colorScheme.onSurface
+                                                .withOpacity(0.5),
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              // Drug Card
+                              DrugCard(
+                                drug: item.drug,
+                                type: DrugCardType.detailed,
+                                onTap: () => _navigateToDetails(item.drug),
+                              ),
+                              const SizedBox(height: 16),
+                            ],
                           ),
                         );
                       },
                     ),
           ),
         ],
-      ),
-    );
-  }
-
-  Widget _buildHistoryItem(
-    BuildContext context,
-    HistoryItem item,
-    bool isRTL,
-    ColorScheme colorScheme,
-  ) {
-    return Dismissible(
-      key: Key(item.id),
-      direction: DismissDirection.endToStart,
-      background: Container(
-        alignment: Alignment.centerRight,
-        padding: const EdgeInsets.only(right: 20),
-        decoration: BoxDecoration(
-          color: colorScheme.error,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: const Icon(LucideIcons.trash2, color: Colors.white),
-      ),
-      onDismissed: (_) => _deleteItem(item.id),
-      child: Material(
-        color: Colors.transparent,
-        child: InkWell(
-          onTap: () {
-            // TODO: Navigate to search with this query
-          },
-          borderRadius: BorderRadius.circular(12),
-          child: Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: colorScheme.surface,
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(
-                color: colorScheme.outline.withValues(alpha: 0.2),
-              ),
-            ),
-            child: Row(
-              children: [
-                // Clock Icon
-                Icon(
-                  LucideIcons.clock,
-                  size: 20,
-                  color: colorScheme.onSurface.withValues(alpha: 0.6),
-                ),
-                const SizedBox(width: 12),
-
-                // Query Text
-                Expanded(
-                  child: Text(
-                    item.query,
-                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-
-                // Timestamp
-                Text(
-                  _formatTimestamp(item.timestamp, isRTL),
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurface.withValues(alpha: 0.5),
-                  ),
-                ),
-                const SizedBox(width: 8),
-
-                // Arrow Icon
-                Icon(
-                  isRTL ? LucideIcons.chevronLeft : LucideIcons.chevronRight,
-                  size: 16,
-                  color: colorScheme.onSurface.withValues(alpha: 0.4),
-                ),
-              ],
-            ),
-          ),
-        ),
       ),
     );
   }
@@ -302,7 +258,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
               child: Icon(
                 LucideIcons.history,
                 size: 40,
-                color: colorScheme.onSurface.withValues(alpha: 0.4),
+                color: colorScheme.onSurface.withOpacity(0.4),
               ),
             ),
             const SizedBox(height: 16),
@@ -316,10 +272,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
             const SizedBox(height: 8),
             Text(
               isRTL
-                  ? 'سيظهر سجل البحث هنا'
-                  : 'Your search history will appear here',
+                  ? 'الأدوية التي تعرضها ستظهر هنا'
+                  : 'Drugs you view will appear here',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurface.withValues(alpha: 0.6),
+                color: colorScheme.onSurface.withOpacity(0.6),
               ),
               textAlign: TextAlign.center,
             ),
@@ -331,30 +287,30 @@ class _HistoryScreenState extends State<HistoryScreen> {
 
   String _formatTimestamp(DateTime timestamp, bool isRTL) {
     final now = DateTime.now();
-    final difference = now.difference(timestamp);
+    final today = DateTime(now.year, now.month, now.day);
+    final yesterday = today.subtract(const Duration(days: 1));
+    final timestampDate = DateTime(
+      timestamp.year,
+      timestamp.month,
+      timestamp.day,
+    );
 
-    if (difference.inMinutes < 60) {
-      return isRTL
-          ? 'منذ ${difference.inMinutes} دقيقة'
-          : '${difference.inMinutes}m ago';
-    } else if (difference.inHours < 24) {
-      return isRTL
-          ? 'منذ ${difference.inHours} ساعة'
-          : '${difference.inHours}h ago';
-    } else if (difference.inDays < 7) {
-      return isRTL
-          ? 'منذ ${difference.inDays} يوم'
-          : '${difference.inDays}d ago';
+    final timeStr = DateFormat('h:mm a').format(timestamp);
+
+    if (timestampDate == today) {
+      return isRTL ? 'اليوم، $timeStr' : 'Today, $timeStr';
+    } else if (timestampDate == yesterday) {
+      return isRTL ? 'أمس، $timeStr' : 'Yesterday, $timeStr';
     } else {
-      return DateFormat('MMM d').format(timestamp);
+      final dateStr = DateFormat('MMM d').format(timestamp);
+      return '$dateStr, $timeStr';
     }
   }
 }
 
-class HistoryItem {
-  final String id;
-  final String query;
-  final DateTime timestamp;
+class ViewedDrug {
+  final DrugEntity drug;
+  final DateTime viewedAt;
 
-  HistoryItem({required this.id, required this.query, required this.timestamp});
+  ViewedDrug({required this.drug, required this.viewedAt});
 }
