@@ -142,6 +142,21 @@
   - ✅ Updated `AdService` & `AdMobConfig` to read granular settings.
   - ✅ Verified test mode logic propagation.
 
+### 12. UI Design Fixes (December 8, 2025) ✅
+- **Category Card Sizes:**
+  - ✅ Added `shortNameEn`/`shortNameAr` to `CategoryData` and `CategoryEntity`.
+  - ✅ `ModernCategoryCard` now displays abbreviated names for consistent sizes.
+- **Badge Visibility:**
+  - ✅ Fixed dosage form badge in `ModernDrugCard` using `infoSoft`/`infoForeground`.
+- **Drug Details Tabs:**
+  - ✅ Converted to `TabBar`/`TabBarView` with `SingleTickerProviderStateMixin`.
+  - ✅ Fixed tab padding to match reference (`px-4 py-3`).
+  - ✅ Enabled swipe navigation between tabs.
+- **Interaction Cards:**
+  - ✅ Redesigned with circular icon container (40x40 rounded-full).
+  - ✅ Added severity badge with semibold drug name.
+  - ✅ Improved recommendation box styling.
+
 ---
 
 ## 📁 هيكل المشروع

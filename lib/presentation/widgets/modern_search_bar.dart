@@ -29,9 +29,9 @@ class ModernSearchBar extends StatelessWidget {
     return GestureDetector(
       onTap: onSearchTap,
       child: Container(
-        // ✅ تعديل الارتفاع ليكون أنسب
-        height: 52,
-        // ✅ تقليل المسافات حول الحقل
+        // ✅ زيادة الارتفاع ليتناسب مع الكارت
+        height: 56,
+        // ✅ تحسين المسافات حول الحقل
         padding: const EdgeInsets.symmetric(horizontal: 16),
         margin: const EdgeInsets.symmetric(horizontal: 16),
         decoration: BoxDecoration(

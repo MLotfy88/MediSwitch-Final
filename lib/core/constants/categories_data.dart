@@ -6,6 +6,9 @@ class CategoryData {
   final String id;
   final String nameEn;
   final String nameAr;
+  final String
+  shortNameEn; // Abbreviated English name for consistent card sizes
+  final String shortNameAr; // Abbreviated Arabic name for consistent card sizes
   final int count;
   final IconData icon;
   final String colorName;
@@ -14,6 +17,8 @@ class CategoryData {
     required this.id,
     required this.nameEn,
     required this.nameAr,
+    required this.shortNameEn,
+    required this.shortNameAr,
     required this.count,
     required this.icon,
     required this.colorName,
@@ -26,6 +31,8 @@ final List<CategoryData> kAllCategories = [
     id: 'anti_infective',
     nameEn: 'Anti Infective',
     nameAr: 'مضادات العدوى',
+    shortNameEn: 'Anti Inf.',
+    shortNameAr: 'مضادات',
     count: 1468,
     icon: LucideIcons.bug, // محاربة العدوى/البكتيريا
     colorName: 'teal',
@@ -34,6 +41,8 @@ final List<CategoryData> kAllCategories = [
     id: 'cardiovascular',
     nameEn: 'Cardiovascular',
     nameAr: 'القلب والأوعية',
+    shortNameEn: 'Cardio',
+    shortNameAr: 'قلب',
     count: 741,
     icon: LucideIcons.heart, // Heart كما في التصميم المرجعي
     colorName: 'red',
@@ -42,6 +51,8 @@ final List<CategoryData> kAllCategories = [
     id: 'dermatology',
     nameEn: 'Dermatology',
     nameAr: 'الجلدية',
+    shortNameEn: 'Derma',
+    shortNameAr: 'جلدية',
     count: 1280,
     icon: LucideIcons.sun, // الشمس/البشرة والحروق
     colorName: 'orange',
@@ -50,6 +61,8 @@ final List<CategoryData> kAllCategories = [
     id: 'endocrinology',
     nameEn: 'Endocrinology',
     nameAr: 'الغدد الصماء',
+    shortNameEn: 'Endo',
+    shortNameAr: 'غدد',
     count: 11,
     icon: LucideIcons.activity, // النشاط الحيوي/الهرمونات
     colorName: 'purple',
@@ -58,49 +71,61 @@ final List<CategoryData> kAllCategories = [
     id: 'general',
     nameEn: 'General',
     nameAr: 'عام',
+    shortNameEn: 'General',
+    shortNameAr: 'عام',
     count: 17009,
     icon: LucideIcons.stethoscope, // السماعة الطبية - رمز عام
-    colorName: 'blue',
+    colorName: 'cyan',
   ),
   CategoryData(
     id: 'immunology',
     nameEn: 'Immunology',
     nameAr: 'المناعة',
+    shortNameEn: 'Immune',
+    shortNameAr: 'مناعة',
     count: 276,
     icon: LucideIcons.shieldCheck, // الدرع - رمز المناعة والحماية
-    colorName: 'green',
+    colorName: 'emerald',
   ),
   CategoryData(
     id: 'nutrition',
     nameEn: 'Nutrition',
     nameAr: 'التغذية',
+    shortNameEn: 'Nutrition',
+    shortNameAr: 'تغذية',
     count: 3219,
     icon: LucideIcons.apple, // التفاحة - رمز التغذية والصحة
-    colorName: 'green',
+    colorName: 'lime',
   ),
   CategoryData(
     id: 'pain_relief',
     nameEn: 'Pain Relief',
     nameAr: 'مسكنات',
+    shortNameEn: 'Pain',
+    shortNameAr: 'مسكنات',
     count: 564,
     icon: LucideIcons.zap, // البرق - ترمز للألم أو تسكينه السريع
-    colorName: 'blue',
+    colorName: 'indigo',
   ),
   CategoryData(
     id: 'psychiatric',
     nameEn: 'Psychiatric',
     nameAr: 'الأمراض النفسية',
+    shortNameEn: 'Neuro',
+    shortNameAr: 'نفسية',
     count: 534,
     icon: LucideIcons.brain, // الدماغ - رمز الصحة النفسية
-    colorName: 'purple',
+    colorName: 'pink',
   ),
   CategoryData(
     id: 'respiratory',
     nameEn: 'Respiratory',
     nameAr: 'الجهاز التنفسي',
+    shortNameEn: 'Resp.',
+    shortNameAr: 'تنفسي',
     count: 398,
     icon: LucideIcons.wind, // الهواء/الرياح - رمز التنفس
-    colorName: 'blue',
+    colorName: 'sky',
   ),
 ];
 
@@ -157,6 +182,42 @@ CategoryColorStyle getCategoryColorStyle(
         background: appColors.successSoft.withValues(alpha: 0.6),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
+      );
+    case 'cyan':
+      return CategoryColorStyle(
+        background: appColors.infoSoft.withValues(alpha: 0.7),
+        icon: appColors.infoForeground,
+        border: appColors.infoForeground.withValues(alpha: 0.25),
+      );
+    case 'emerald':
+      return CategoryColorStyle(
+        background: appColors.successSoft,
+        icon: appColors.successForeground,
+        border: appColors.successForeground.withValues(alpha: 0.25),
+      );
+    case 'lime':
+      return CategoryColorStyle(
+        background: appColors.successSoft.withValues(alpha: 0.5),
+        icon: appColors.successForeground,
+        border: appColors.successForeground.withValues(alpha: 0.3),
+      );
+    case 'indigo':
+      return CategoryColorStyle(
+        background: appColors.accent,
+        icon: appColors.infoForeground,
+        border: appColors.infoForeground.withValues(alpha: 0.25),
+      );
+    case 'pink':
+      return CategoryColorStyle(
+        background: appColors.dangerSoft.withValues(alpha: 0.5),
+        icon: appColors.dangerForeground,
+        border: appColors.dangerForeground.withValues(alpha: 0.2),
+      );
+    case 'sky':
+      return CategoryColorStyle(
+        background: appColors.infoSoft.withValues(alpha: 0.5),
+        icon: appColors.infoForeground,
+        border: appColors.infoForeground.withValues(alpha: 0.2),
       );
     default:
       return CategoryColorStyle(

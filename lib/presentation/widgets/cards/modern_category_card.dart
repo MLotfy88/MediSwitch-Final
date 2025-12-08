@@ -58,9 +58,9 @@ class ModernCategoryCard extends StatelessWidget {
               child: Icon(iconData, size: 24, color: style.icon),
             ),
             const SizedBox(height: 8),
-            // Category Name
+            // Category Name - Use short name for consistent card sizes
             Text(
-              category.name,
+              category.shortName ?? category.name,
               style: TextStyle(
                 fontSize: 12,
                 fontWeight: FontWeight.w600,

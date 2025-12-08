@@ -12,6 +12,7 @@
   "recentlyUpdatedDrugs": "Recently Updated Drugs",
   "mostSearchedDrugs": "Most Searched Drugs",
   "medicalCategories": "Medical Categories",
+  "browseByCategory": "Browse by category",
   "errorOccurred": "An Error Occurred",
   "retry": "Retry",
   "backTooltip": "Back",
@@ -222,6 +223,14 @@
   "interactionsTab": "Interactions",
   "todaysUpdates": "Today's Updates",
   "newDrugsWeek": "New drugs this week",
+  "drugCount": "+{count} drugs",
+  "@drugCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "checkConflicts": "Check conflicts",
   "calculateDosage": "Calculate dosage",
   "recentlyAdded": "Recently Added",

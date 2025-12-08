@@ -12,6 +12,7 @@
   "recentlyUpdatedDrugs": "أدوية محدثة مؤخراً",
   "mostSearchedDrugs": "الأكثر بحثاً",
   "medicalCategories": "الفئات الطبية",
+  "browseByCategory": "تصفح حسب الفئة",
   "errorOccurred": "حدث خطأ",
   "retry": "إعادة المحاولة",
   "backTooltip": "رجوع",
@@ -222,6 +223,14 @@
   "interactionsTab": "التفاعلات",
   "todaysUpdates": "تحديثات اليوم",
   "newDrugsWeek": "أدوية جديدة هذا الأسبوع",
+  "drugCount": "+{count} دواء",
+  "@drugCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "checkConflicts": "فحص التعارضات",
   "calculateDosage": "حساب الجرعة",
   "recentlyAdded": "أضيفت حديثاً",
