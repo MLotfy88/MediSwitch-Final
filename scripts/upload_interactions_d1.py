@@ -110,7 +110,7 @@ class CloudflareD1Uploader:
         print(f"✅ Cleared table")
         return result
     
-    def batch_insert_interactions(self, interactions: List[Dict], batch_size: int = 100):
+    def batch_insert_interactions(self, interactions: List[Dict], batch_size: int = 10):
         """Insert interactions in batches"""
         total = len(interactions)
         print(f"\n📦 Uploading {total:,} interactions in batches of {batch_size}...")
@@ -119,29 +119,31 @@ class CloudflareD1Uploader:
             batch = interactions[i:i + batch_size]
             
             # Build batch INSERT
-            values = []
+            placeholders = []
+            params = []
+            
             for interaction in batch:
-                # Prepare variables to avoid backslash in f-string expression
-                ing1 = interaction['ingredient1']
-                ing2 = interaction['ingredient2']
-                sev = interaction['severity']
-                typ = interaction['type']
-                eff = interaction['effect'].replace("'", "''")[:1000]
-                ar_eff = interaction.get('arabic_effect', '')
-                rec = interaction.get('recommendation', '').replace("'", "''")[:500]
-                ar_rec = interaction.get('arabic_recommendation', '')
-                src = interaction.get('source', 'OpenFDA')
-
-                values.append(f"('{ing1}', '{ing2}', '{sev}', '{typ}', '{eff}', '{ar_eff}', '{rec}', '{ar_rec}', '{src}')")
+                placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?)")
+                params.extend([
+                    interaction['ingredient1'],
+                    interaction['ingredient2'],
+                    interaction['severity'],
+                    interaction['type'],
+                    interaction['effect'][:1000],  # Truncate if too long (removed replace)
+                    interaction.get('arabic_effect', ''),
+                    interaction.get('recommendation', '')[:500], # Truncate (removed replace)
+                    interaction.get('arabic_recommendation', ''),
+                    interaction.get('source', 'OpenFDA')
+                ])
             
             sql = f"""
                 INSERT INTO drug_interactions 
                 (ingredient1, ingredient2, severity, type, effect, arabic_effect, recommendation, arabic_recommendation, source)
-                VALUES {','.join(values)}
+                VALUES {','.join(placeholders)}
             """
             
             try:
-                self.execute_query(sql)
+                self.execute_query(sql, params)
                 progress = ((i + len(batch)) / total) * 100
                 print(f"  Progress: {progress:.1f}% ({i + len(batch):,}/{total:,})", end='\r')
             except Exception as e:
@@ -177,7 +179,7 @@ def main():
     parser.add_argument('--api-token', help='Cloudflare API Token')
     parser.add_argument('--email', help='Cloudflare Email (for Global Key)')
     parser.add_argument('--global-key', help='Cloudflare Global API Key')
-    parser.add_argument('--batch-size', type=int, default=100, help='Batch size for inserts')
+    parser.add_argument('--batch-size', type=int, default=10, help='Batch size for inserts')
     parser.add_argument('--clear-first', action='store_true', help='Clear table before upload')
     
     args = parser.parse_args()

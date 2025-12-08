@@ -173,7 +173,7 @@ def main():
     parser.add_argument('--database-id', required=True, help='Cloudflare D1 Database ID')
     parser.add_argument('--account-id', required=True, help='Cloudflare Account ID')
     parser.add_argument('--api-token', required=True, help='Cloudflare API Token')
-    parser.add_argument('--batch-size', type=int, default=100, help='Batch size for uploads')
+    parser.add_argument('--batch-size', type=int, default=15, help='Batch size for uploads')
     
     args = parser.parse_args()
     

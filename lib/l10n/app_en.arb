@@ -44,6 +44,7 @@
   "companyLabel": "Company:",
   "categoryLabel": "Category:",
   "formLabel": "Form:",
+  "concentration": "Concentration",
   "concentrationLabel": "Concentration:",
   "priceLabel": "Price",
   "lastUpdateLabel": "Last Update:",

@@ -142,7 +142,13 @@
   - ✅ Updated `AdService` & `AdMobConfig` to read granular settings.
   - ✅ Verified test mode logic propagation.
 
-### 12. UI Design Fixes (December 8, 2025) ✅
+### Phase 12: UI Design Fixes (Part 2) - [Completed]
+- **Compilation Fixes:** Resolved duplication in `MedicineProvider` and syntax errors in `DrugDetailsScreen`.
+- **Search Bar:** Unified background color (transparent input) for seamless integration.
+- **Localization:** Added missing keys for Drug Details screen.
+- **Home Screen:** Verified imports and module connections.
+- **Github Scripts:** Fixed `too many SQL variables` and SQL injection issues in D1 uploaders.
+- **Ads Config:** Refactored `AdConfigProvider` to properly respect remote config for test mode.
 - **Category Card Sizes:**
   - ✅ Added `shortNameEn`/`shortNameAr` to `CategoryData` and `CategoryEntity`.
   - ✅ `ModernCategoryCard` now displays abbreviated names for consistent sizes.
