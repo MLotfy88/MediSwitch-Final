@@ -158,6 +158,11 @@ export default {
                 return handleDeleteNotification(id, DB);
             }
 
+            // ========== BULK UPDATE (GitHub Actions) ==========
+            if (path === '/api/update' && request.method === 'POST') {
+                return handleUpdate(request, env);
+            }
+
             // 404
             return errorResponse('Not found', 404);
 
@@ -728,3 +733,106 @@ async function handleDeleteNotification(id, DB) {
     }
 }
 
+// ========== BULK UPDATE HANDLER (GitHub Actions) ==========
+async function handleUpdate(request, env) {
+    const { DB } = env;
+    if (!DB) return errorResponse('Database not configured', 500);
+
+    // Verify API Key
+    const authHeader = request.headers.get('Authorization');
+    const expectedKey = env.API_KEY || env.UPDATE_API_KEY;
+
+    if (!authHeader || authHeader !== `Bearer ${expectedKey}`) {
+        return errorResponse('Unauthorized', 401);
+    }
+
+    try {
+        const drugs = await request.json();
+
+        if (!Array.isArray(drugs)) {
+            return errorResponse('Expected an array of drugs', 400);
+        }
+
+        let inserted = 0;
+        let updated = 0;
+        let errors = 0;
+
+        for (const drug of drugs) {
+            try {
+                const tradeName = drug.trade_name || drug.tradeName;
+                if (!tradeName) {
+                    errors++;
+                    continue;
+                }
+
+                // Upsert: Insert or Update
+                const existing = await DB.prepare(
+                    'SELECT id FROM drugs WHERE trade_name = ?'
+                ).bind(tradeName).first();
+
+                if (existing) {
+                    // Update
+                    await DB.prepare(`
+                        UPDATE drugs SET 
+                            arabic_name = COALESCE(?, arabic_name),
+                            company = COALESCE(?, company),
+                            price = COALESCE(?, price),
+                            active = COALESCE(?, active),
+                            category = COALESCE(?, category),
+                            dosage_form = COALESCE(?, dosage_form),
+                            concentration = COALESCE(?, concentration),
+                            unit = COALESCE(?, unit),
+                            updated_at = unixepoch('now')
+                        WHERE id = ?
+                    `).bind(
+                        drug.arabic_name || drug.arabicName || null,
+                        drug.company || null,
+                        drug.price || null,
+                        drug.active || null,
+                        drug.category || null,
+                        drug.dosage_form || drug.dosageForm || null,
+                        drug.concentration || null,
+                        drug.unit || null,
+                        existing.id
+                    ).run();
+                    updated++;
+                } else {
+                    // Insert
+                    await DB.prepare(`
+                        INSERT INTO drugs (
+                            trade_name, arabic_name, company, price, active,
+                            category, dosage_form, concentration, unit, updated_at
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, unixepoch('now'))
+                    `).bind(
+                        tradeName,
+                        drug.arabic_name || drug.arabicName || null,
+                        drug.company || null,
+                        drug.price || null,
+                        drug.active || null,
+                        drug.category || null,
+                        drug.dosage_form || drug.dosageForm || null,
+                        drug.concentration || null,
+                        drug.unit || null
+                    ).run();
+                    inserted++;
+                }
+            } catch (drugError) {
+                console.error('Error processing drug:', drug.trade_name || drug.tradeName, drugError);
+                errors++;
+            }
+        }
+
+        return jsonResponse({
+            message: 'Update completed',
+            stats: {
+                total: drugs.length,
+                inserted,
+                updated,
+                errors
+            }
+        });
+    } catch (error) {
+        console.error('Update error:', error);
+        return errorResponse(error.message, 500);
+    }
+}
