@@ -75,6 +75,8 @@ class ModernSearchBar extends StatelessWidget {
                   // ✅ تحسين contentPadding ليتوسط النص
                   contentPadding: EdgeInsets.zero,
                   isDense: true,
+                  filled: true,
+                  fillColor: Colors.transparent,
                 ),
                 style: TextStyle(
                   fontSize: 14,

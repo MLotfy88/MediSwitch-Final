@@ -72,7 +72,7 @@ class DangerousDrugCard extends StatelessWidget {
       onTap: onTap,
       borderRadius: BorderRadius.circular(16),
       child: Container(
-        width: 150,
+        constraints: const BoxConstraints(minWidth: 140, maxWidth: 160),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: softBgColor,

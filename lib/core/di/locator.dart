@@ -38,6 +38,7 @@ import 'package:mediswitch/domain/usecases/get_available_categories.dart';
 import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
 import 'package:mediswitch/domain/usecases/get_general_config.dart';
 import 'package:mediswitch/domain/usecases/get_high_risk_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
@@ -249,7 +250,14 @@ Future<void> setupLocator() async {
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
       getPopularDrugsUseCase: locator<GetPopularDrugsUseCase>(),
       getHighRiskDrugsUseCase: locator<GetHighRiskDrugsUseCase>(),
+      getHighRiskIngredientsUseCase: locator<GetHighRiskIngredientsUseCase>(),
       localDataSource: locator<SqliteLocalDataSource>(),
+    ),
+  );
+
+  locator.registerLazySingleton(
+    () => GetHighRiskIngredientsUseCase(
+      interactionRepository: locator<InteractionRepository>(),
     ),
   );
   locator.registerFactory(

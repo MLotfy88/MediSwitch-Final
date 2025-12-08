@@ -11,6 +11,7 @@ import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
 import 'package:mediswitch/presentation/screens/interaction_checker_screen.dart';
+import 'package:mediswitch/presentation/screens/notifications/notifications_screen.dart';
 import 'package:mediswitch/presentation/screens/search_screen.dart';
 import 'package:mediswitch/presentation/screens/weight_calculator_screen.dart';
 import 'package:mediswitch/presentation/services/ad_service.dart';
@@ -18,9 +19,9 @@ import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/app_header.dart';
 import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
-import 'package:mediswitch/presentation/widgets/cards/dangerous_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_category_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
+import 'package:mediswitch/presentation/widgets/high_risk_ingredient_card.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/section_header.dart';
@@ -71,15 +72,18 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               AppHeader(
                 onNotificationTap: () {
-                  // Navigate to Notifications
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (context) => const NotificationsScreen(),
+                    ),
+                  );
                 },
               ),
               Expanded(
                 child: RefreshIndicator(
                   onRefresh: () {
-                    return context.read<MedicineProvider>().loadInitialData(
-                      forceUpdate: true,
-                    );
+                    return context.read<MedicineProvider>().smartRefresh();
                   },
                   child:
                       isLoading && !isInitialLoadComplete
@@ -376,42 +380,26 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height:
-                175, // Height for DangerousDrugCard - Increased to prevent cutoff
+            height: 160, // Height for HighRiskIngredientCard
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,
               itemCount:
-                  medicineProvider.highRiskDrugs.isNotEmpty
-                      ? medicineProvider.highRiskDrugs.length
-                      : 1, // Fallback or real count
+                  medicineProvider.highRiskIngredients.isNotEmpty
+                      ? medicineProvider.highRiskIngredients.length
+                      : 0,
               separatorBuilder: (_, __) => const SizedBox(width: 12),
               itemBuilder: (context, index) {
-                if (medicineProvider.highRiskDrugs.isEmpty) {
-                  return const Center(
-                    child: Text("No high risk drugs data available"),
-                  );
+                if (medicineProvider.highRiskIngredients.isEmpty) {
+                  return const SizedBox.shrink();
                 }
-                final drug = medicineProvider.highRiskDrugs[index];
+                final ingredient = medicineProvider.highRiskIngredients[index];
 
-                // Determine risk level based on interactions (simplified logic or fetch from repo if stored)
-                // For now, assume if it's in this list, it's at least High.
-                // We'll alternate or use interaction count to decide Critical vs High if possible.
-                // Since we don't have per-drug interaction count in entity readily without async call,
-                // we can default to High or Critical.
-                // Let's make it look dynamic:
-                final isCritical = index.isEven;
-
-                return DangerousDrugCard(
-                  id: drug.id?.toString() ?? '',
-                  name: drug.tradeName,
-                  activeIngredient: drug.active,
-                  riskLevel: isCritical ? RiskLevel.critical : RiskLevel.high,
-                  interactionCount:
-                      isCritical
-                          ? 45
-                          : 24, // Placeholder count until we wire up async count
-                  onTap: () => _navigateToDetails(context, drug),
+                return HighRiskIngredientCard(
+                  ingredient: ingredient,
+                  onTap: () {
+                    // Action for tapping ingredient
+                  },
                 ).animate().slideX(delay: (50 * index).ms);
               },
             ),

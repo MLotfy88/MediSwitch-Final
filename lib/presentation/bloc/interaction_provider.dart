@@ -206,29 +206,52 @@ class InteractionProvider extends ChangeNotifier {
     }
 
     try {
-      // Get drug's active ingredient
-      final activeIngredient = drug.active.toLowerCase().trim();
-      if (activeIngredient.isEmpty) {
+      // Get drug's active ingredients (may contain multiple separated by + or /)
+      final rawActive = drug.active.toLowerCase().trim();
+      if (rawActive.isEmpty) {
         _logger.w(
           "InteractionProvider: Drug '${drug.tradeName}' has no active ingredient",
         );
         return [];
       }
 
+      // Split active ingredients by common separators
+      final activeIngredients =
+          rawActive
+              .split(RegExp(r'[+/,&]|\s+and\s+|\s+with\s+'))
+              .map((e) => e.trim())
+              .where((e) => e.length > 2)
+              .toList();
+
+      if (activeIngredients.isEmpty) {
+        activeIngredients.add(rawActive);
+      }
+
       // Get all interactions
       final allInteractions = _interactionRepository.allLoadedInteractions;
 
-      // Filter interactions that involve this drug's active ingredient
+      // Filter interactions that involve any of this drug's active ingredients
       final drugInteractions =
           allInteractions.where((interaction) {
             final ing1 = interaction.ingredient1.toLowerCase().trim();
             final ing2 = interaction.ingredient2.toLowerCase().trim();
-            return ing1.contains(activeIngredient) ||
-                ing2.contains(activeIngredient);
+
+            // Check if any active ingredient matches
+            for (final activeIng in activeIngredients) {
+              if (ing1 == activeIng ||
+                  ing2 == activeIng ||
+                  ing1.contains(activeIng) ||
+                  ing2.contains(activeIng) ||
+                  activeIng.contains(ing1) ||
+                  activeIng.contains(ing2)) {
+                return true;
+              }
+            }
+            return false;
           }).toList();
 
       _logger.i(
-        "InteractionProvider: Found ${drugInteractions.length} interactions for '${drug.tradeName}'",
+        "InteractionProvider: Found ${drugInteractions.length} interactions for '${drug.tradeName}' with ingredients: $activeIngredients",
       );
 
       return drugInteractions;

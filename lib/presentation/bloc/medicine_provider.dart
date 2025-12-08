@@ -10,10 +10,12 @@ import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart'
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
 import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
 import 'package:mediswitch/domain/usecases/get_high_risk_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
@@ -29,8 +31,8 @@ class MedicineProvider extends ChangeNotifier {
   final GetRecentlyUpdatedDrugsUseCase _getRecentlyUpdatedDrugsUseCase;
   final GetPopularDrugsUseCase _getPopularDrugsUseCase;
   final GetHighRiskDrugsUseCase _getHighRiskDrugsUseCase;
-  final SqliteLocalDataSource
-  _localDataSource; // Kept for direct DB access if needed
+  final GetHighRiskIngredientsUseCase _getHighRiskIngredientsUseCase;
+  final SqliteLocalDataSource _localDataSource;
 
   // Logger
   final FileLoggerService _logger = locator<FileLoggerService>();
@@ -42,6 +44,7 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
   List<DrugEntity> _highRiskDrugs = [];
+  List<HighRiskIngredient> _highRiskIngredients = [];
   List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
 
@@ -75,6 +78,7 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
+  List<HighRiskIngredient> get highRiskIngredients => _highRiskIngredients;
   List<DrugEntity> get favorites => _favorites;
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
   List<CategoryEntity> get categories => _categories;
@@ -110,6 +114,7 @@ class MedicineProvider extends ChangeNotifier {
     required GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase,
     required GetPopularDrugsUseCase getPopularDrugsUseCase,
     required GetHighRiskDrugsUseCase getHighRiskDrugsUseCase,
+    required GetHighRiskIngredientsUseCase getHighRiskIngredientsUseCase,
     required SqliteLocalDataSource localDataSource,
   }) : _searchDrugsUseCase = searchDrugsUseCase,
        _filterDrugsByCategoryUseCase = filterDrugsByCategoryUseCase,
@@ -118,9 +123,16 @@ class MedicineProvider extends ChangeNotifier {
        _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
        _getPopularDrugsUseCase = getPopularDrugsUseCase,
        _getHighRiskDrugsUseCase = getHighRiskDrugsUseCase,
+       _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
        _localDataSource = localDataSource {
     _logger.i("MedicineProvider: Constructor called.");
     loadInitialData();
+  }
+
+  /// Smart refresh checking if update is needed
+  Future<void> smartRefresh() async {
+    _logger.i("MedicineProvider: Smart refresh requested");
+    await loadInitialData(forceUpdate: true);
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
@@ -138,13 +150,21 @@ class MedicineProvider extends ChangeNotifier {
     _logger.i("MedicineProvider: Starting loadInitialData");
     _isLoading = true;
     _error = '';
-    _isInitialLoadComplete = false;
+
+    // reset pagination status
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = [];
-    _recentlyUpdatedDrugs = [];
-    _popularDrugs = [];
-    _highRiskDrugs = [];
+
+    // Only clear data if it's NOT a force update (refresh) to prevent UI flash/blank
+    if (!forceUpdate) {
+      _isInitialLoadComplete = false;
+      _filteredMedicines = [];
+      _recentlyUpdatedDrugs = [];
+      _popularDrugs = [];
+      _highRiskDrugs = [];
+      _highRiskIngredients = [];
+    }
+
     notifyListeners();
 
     try {
@@ -154,14 +174,11 @@ class MedicineProvider extends ChangeNotifier {
       // Load categories
       await _loadCategories();
 
-      // Load simulated sections
-      await _loadSimulatedSections();
+      // Load simulated sections (High Risk Ingredients loaded here)
+      await Future.wait([_loadSimulatedSections(), _loadHighRiskIngredients()]);
 
       // Apply initial filters (fetch first page)
-      await _applyFilters(
-        page: 0,
-        // limit: _initialPageSize, // handled in _applyFilters
-      );
+      await _applyFilters(page: 0);
 
       _isInitialLoadComplete = true;
       _logger.i("MedicineProvider: Initial load successful.");
@@ -176,6 +193,26 @@ class MedicineProvider extends ChangeNotifier {
       _isLoading = false;
       notifyListeners();
     }
+  }
+
+  Future<void> _loadHighRiskIngredients() async {
+    _logger.d("MedicineProvider: Loading high risk ingredients...");
+    // Limit to top 10
+    final result = await _getHighRiskIngredientsUseCase(10);
+    result.fold(
+      (failure) {
+        _logger.e(
+          "MedicineProvider: Failed to load high risk ingredients: $failure",
+        );
+        _highRiskIngredients = [];
+      },
+      (ingredients) {
+        _logger.i(
+          "MedicineProvider: Loaded ${ingredients.length} high risk ingredients.",
+        );
+        _highRiskIngredients = ingredients;
+      },
+    );
   }
 
   Future<void> _loadCategories() async {
@@ -201,7 +238,7 @@ class MedicineProvider extends ChangeNotifier {
           for (var item in kAllCategories) item.nameEn.toLowerCase(): item,
         };
 
-        // Iterate over Map entries (replacing loop over Map directly)
+        // Iterate over Map entries
         for (var entry in categoryCounts.entries) {
           final outputName = entry.key; // Category name
           final dbCount = entry.value; // Count
@@ -290,7 +327,7 @@ class MedicineProvider extends ChangeNotifier {
     if (data.id == 'immunology') return 'shieldcheck';
     if (data.id == 'nutrition') return 'apple';
     if (data.id == 'pain_relief') return 'zap';
-    if (data.id == 'psychiatric') return 'brain'; // Fix for neuro
+    if (data.id == 'psychiatric') return 'brain';
     if (data.id == 'respiratory') return 'wind';
     return 'pill';
   }
@@ -351,7 +388,6 @@ class MedicineProvider extends ChangeNotifier {
       );
 
       // --- High Risk Drugs Logic ---
-      // Fix: Pass limit (int) instead of NoParams()
       final highRiskResult = await _getHighRiskDrugsUseCase(20);
       highRiskResult.fold(
         (l) => _logger.w(
@@ -496,7 +532,6 @@ class MedicineProvider extends ChangeNotifier {
     try {
       await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
     } catch (e) {
-      // Error already handled in applyFilters or just ignore for load more
       _currentPage--; // Revert page on error
     } finally {
       _isLoadingMore = false;
