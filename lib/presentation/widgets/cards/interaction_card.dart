@@ -14,100 +14,128 @@ class InteractionCard extends StatelessWidget {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
     final colorScheme = theme.colorScheme;
+    final severityColor = _getSeverityColor(interaction.severity, appColors);
 
     return Container(
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: theme.cardColor,
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(12),
         boxShadow: appColors.shadowCard,
-        border: Border.all(
-          color: _getSeverityColor(
-            interaction.severity,
-            appColors,
-          ).withValues(alpha: 0.3),
-        ),
+        border: Border.all(color: appColors.border.withValues(alpha: 0.5)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Header: Severity and Drugs
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: _getSeverityColor(
-                interaction.severity,
-                appColors,
-              ).withValues(alpha: 0.1),
-              borderRadius: const BorderRadius.vertical(
-                top: Radius.circular(16),
+          // Row with circular icon and severity label + interacting drug name
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Circular icon container (w-10 h-10 rounded-full)
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: severityColor.withValues(alpha: 0.15),
+                  shape: BoxShape.circle,
+                ),
+                child: Center(
+                  child: Icon(
+                    _getSeverityIcon(interaction.severity),
+                    color: severityColor,
+                    size: 20,
+                  ),
+                ),
               ),
-            ),
-            child: Row(
-              children: [
-                Icon(
-                  _getSeverityIcon(interaction.severity),
-                  color: _getSeverityColor(interaction.severity, appColors),
-                  size: 20,
-                ),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    _getSeverityLabel(interaction.severity),
-                    style: TextStyle(
-                      color: _getSeverityColor(interaction.severity, appColors),
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-
-          Padding(
-            padding: const EdgeInsets.all(16),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                // Interaction Description (Use effect from entity)
-                Text(
-                  interaction.effect,
-                  style: TextStyle(
-                    color: colorScheme.onSurface,
-                    fontSize: 14,
-                    height: 1.5,
-                  ),
-                ),
-
-                if (interaction.recommendation.isNotEmpty) ...[
-                  const SizedBox(height: 12),
-                  const Divider(),
-                  const SizedBox(height: 12),
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Icon(
-                        LucideIcons.stethoscope,
-                        size: 16,
-                        color: appColors.mutedForeground,
+              const SizedBox(width: 12),
+              // Drug name and severity label
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // Interacting drug name (font-semibold)
+                    Text(
+                      interaction.ingredient2,
+                      style: TextStyle(
+                        color: colorScheme.onSurface,
+                        fontWeight: FontWeight.w600,
+                        fontSize: 15,
                       ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          interaction.recommendation,
-                          style: TextStyle(
-                            color: appColors.mutedForeground,
-                            fontSize: 13,
-                            fontStyle: FontStyle.italic,
-                          ),
+                    ),
+                    const SizedBox(height: 4),
+                    // Severity label badge
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: severityColor.withValues(alpha: 0.15),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Text(
+                        _getSeverityLabel(interaction.severity),
+                        style: TextStyle(
+                          color: severityColor,
+                          fontWeight: FontWeight.w500,
+                          fontSize: 12,
                         ),
                       ),
-                    ],
-                  ),
-                ],
-              ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 12),
+
+          // Interaction Effect (description)
+          Text(
+            interaction.effect,
+            style: TextStyle(
+              color: colorScheme.onSurfaceVariant,
+              fontSize: 14,
+              height: 1.5,
             ),
           ),
+
+          // Recommendation box (bg-background/50)
+          if (interaction.recommendation.isNotEmpty) ...[
+            const SizedBox(height: 12),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: colorScheme.surface.withValues(alpha: 0.5),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                  color: appColors.border.withValues(alpha: 0.3),
+                ),
+              ),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(
+                    LucideIcons.lightbulb,
+                    size: 16,
+                    color: appColors.mutedForeground,
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      interaction.recommendation,
+                      style: TextStyle(
+                        color: appColors.mutedForeground,
+                        fontSize: 13,
+                        height: 1.4,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
         ],
       ),
     );

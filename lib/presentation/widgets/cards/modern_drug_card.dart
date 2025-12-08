@@ -138,11 +138,7 @@ class ModernDrugCard extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     color:
-                        isDark
-                            ? appColors.accent.withValues(alpha: 0.15)
-                            : appColors.accent.withValues(
-                              alpha: 0.3,
-                            ), // Darker background in light mode for contrast
+                        appColors.infoSoft, // Better visibility in both themes
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -150,12 +146,7 @@ class ModernDrugCard extends StatelessWidget {
                       Icon(
                         _getFormIcon(drug.form),
                         size: 14,
-                        color:
-                            isDark
-                                ? appColors.accent
-                                : theme
-                                    .colorScheme
-                                    .onSecondaryContainer, // Better contrast in light mode
+                        color: appColors.infoForeground, // Clear contrast
                       ),
                       const SizedBox(width: 6),
                       Text(
@@ -163,10 +154,7 @@ class ModernDrugCard extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 12,
                           fontWeight: FontWeight.w500,
-                          color:
-                              isDark
-                                  ? appColors.accent
-                                  : theme.colorScheme.onSecondaryContainer,
+                          color: appColors.infoForeground, // Clear contrast
                         ),
                       ),
                     ],

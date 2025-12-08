@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
@@ -36,8 +37,10 @@ class AppHeader extends StatelessWidget {
           }
         }).length;
 
-    // ✅ آخر تاريخ تحديث من البيانات الفعلية
-    String lastUpdateText = 'جاري التحميل...';
+    // ✅ آخر تاريخ تحديث من البيانات الفعلية - متوافق مع لغة التطبيق
+    final l10n = AppLocalizations.of(context)!;
+    final locale = Localizations.localeOf(context).languageCode;
+    String lastUpdateText = l10n.neverUpdated;
     if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty) {
       try {
         final latestDrug = medicineProvider.recentlyUpdatedDrugs.first;
@@ -45,10 +48,10 @@ class AppHeader extends StatelessWidget {
           final date = DateFormat(
             'yyyy-MM-dd',
           ).parse(latestDrug.lastPriceUpdate!);
-          lastUpdateText = DateFormat('MMM d, yyyy', 'ar').format(date);
+          lastUpdateText = DateFormat('MMM d, yyyy', locale).format(date);
         }
       } catch (e) {
-        lastUpdateText = 'غير متوفر';
+        lastUpdateText = l10n.lastUpdateUnavailable;
       }
     }
 

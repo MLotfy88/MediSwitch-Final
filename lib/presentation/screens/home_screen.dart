@@ -283,10 +283,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ],
                       ),
-                      // ✅ عرض العدد الحقيقي
+                      // ✅ عرض العدد الحقيقي مع الترجمة
                       ModernBadge(
-                        text:
-                            '+$recentCount ${recentCount == 1 ? 'دواء' : 'أدوية'}',
+                        text: l10n.drugCount(recentCount),
                         variant: BadgeVariant.newBadge,
                         size: BadgeSize.lg,
                       ),
@@ -338,7 +337,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: Theme.of(context).colorScheme.primary,
                 bgColor: Theme.of(
                   context,
-                ).colorScheme.primaryContainer.withValues(alpha: 0.5),
+                ).colorScheme.primaryContainer.withValues(alpha: 0.2),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -365,8 +364,8 @@ class _HomeScreenState extends State<HomeScreen> {
             builder: (context) {
               final appColors = Theme.of(context).appColors;
               return SectionHeader(
-                title: 'الأدوية عالية الخطورة',
-                subtitle: 'أدوية ذات تفاعلات خطيرة',
+                title: l10n.highRiskDrugs,
+                subtitle: l10n.drugsWithKnownInteractions,
                 icon: LucideIcons.alertTriangle,
                 // ✅ استخدام theme colors
                 iconColor: appColors.dangerSoft,
@@ -532,20 +531,12 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           SectionHeader(
             title: l10n.medicalCategories,
-            subtitle: 'تصفح حسب الفئة',
+            subtitle: l10n.browseByCategory,
             // ✅ إصلاح الأيقونة لتتوافق مع الثيم
             icon: LucideIcons.layoutGrid,
             iconColor: theme.colorScheme.primary,
             iconTintColor: theme.colorScheme.onPrimary,
-            onSeeAll: () {
-              // ✅ تفعيل See All - التنقل لجميع الفئات
-              Navigator.push(
-                context,
-                MaterialPageRoute<void>(
-                  builder: (context) => const SearchScreen(),
-                ),
-              );
-            },
+            // ✅ تم إزالة See All
           ),
           const SizedBox(height: 12),
           SizedBox(
