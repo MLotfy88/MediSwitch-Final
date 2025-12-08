@@ -3,6 +3,7 @@
 import 'package:dartz/dartz.dart'; // For Either
 
 import '../../core/error/failures.dart'; // For Failure
+import '../entities/dosage_guidelines.dart'; // Import DosageGuidelines
 import '../entities/drug_entity.dart';
 import '../entities/drug_interaction.dart';
 import '../entities/interaction_severity.dart';
@@ -43,4 +44,7 @@ abstract class InteractionRepository {
 
   /// Get a list of ingredients known to have high-risk (severe/contraindicated) interactions
   List<String> getHighRiskIngredients();
+
+  /// Get dosage guidelines for a specific active ingredient
+  Future<List<DosageGuidelines>> getDosageGuidelines(String activeIngredient);
 }

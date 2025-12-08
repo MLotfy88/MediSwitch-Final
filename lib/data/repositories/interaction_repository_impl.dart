@@ -5,18 +5,18 @@ import 'dart:io';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For debugPrint
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/utils/fuzzy_matcher.dart';
+import 'package:mediswitch/data/services/interaction_sync_service.dart';
+import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/entities/drug_interaction.dart';
+import 'package:mediswitch/domain/entities/interaction_severity.dart';
+import 'package:mediswitch/domain/repositories/interaction_repository.dart';
+import 'package:mediswitch/domain/services/interaction_analyzer_service.dart';
+import 'package:mediswitch/domain/services/interaction_index.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import '../../core/error/failures.dart';
-import '../../core/utils/fuzzy_matcher.dart';
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/entities/drug_interaction.dart';
-import '../../domain/entities/interaction_severity.dart';
-import '../../domain/repositories/interaction_repository.dart';
-import '../../domain/services/interaction_analyzer_service.dart';
-import '../../domain/services/interaction_index.dart';
-import '../services/interaction_sync_service.dart';
 
 class InteractionRepositoryImpl implements InteractionRepository {
   List<DrugInteraction> _allInteractions = [];
@@ -474,6 +474,13 @@ class InteractionRepositoryImpl implements InteractionRepository {
       return [activeLower];
     }
 
+    return [];
+  }
+
+  @override
+  Future<List<DosageGuidelines>> getDosageGuidelines(
+    String activeIngredient,
+  ) async {
     return [];
   }
 }

@@ -113,10 +113,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 
   // Light theme colors & Shadows
   static const light = AppColorsExtension(
-    dangerSoft: Color(0xFFFEF2F2),
-    successSoft: Color(0xFFF0FDF4),
-    warningSoft: Color(0xFFFFFBEB),
-    infoSoft: Color(0xFFEFF6FF),
+    dangerSoft: Color(0xFFFECACA), // Red-200 : Very visible soft red
+    successSoft: Color(0xFFBBF7D0), // Green-200 : Very visible soft green
+    warningSoft: Color(0xFFFDE68A), // Amber-200 : Very visible soft amber
+    infoSoft: Color(0xFFBFDBFE), // Blue-200 : Very visible soft blue
     accent: Color(0xFFEFF6FF), // Approximate light accent
     muted: Color(0xFFEBEEF1), // hsl(210, 15%, 93%)
     border: Color(0xFFE3E8EC), // hsl(210, 20%, 90%)

@@ -1,11 +1,11 @@
 import 'dart:async';
-import 'dart:io';
-import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:path_provider/path_provider.dart';
-import '../../data/models/medicine_model.dart';
 
 import 'package:flutter/foundation.dart';
+import 'package:path/path.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:sqflite/sqflite.dart';
+
+import '../../data/models/medicine_model.dart';
 
 /// Database helper class for managing SQLite database
 class DatabaseHelper {
@@ -17,7 +17,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 2; // Increment version if schema changes
+  static const int _dbVersion = 3; // Increment version if schema changes
   static const String medicinesTable = 'medicines';
 
   // --- Column Names ---
@@ -63,7 +63,17 @@ class DatabaseHelper {
     if (oldVersion < 2) {
       // Version 2: Re-create table to fix date format in data
       await db.execute('DROP TABLE IF EXISTS $medicinesTable');
+      // Re-create V2 schema explicitly or call onCreate if full wipe needed.
+      // But _onCreate creates everything current.
+      // Simplify: if version < current, just running onCreate for missing tables is better
+      // if we assume incremental updates.
+      // For now, keep existing logic for V2:
       await _onCreate(db, newVersion);
+    }
+
+    if (oldVersion < 3) {
+      // Version 3: Add dosage_guidelines table
+      await _onCreateV3(db);
     }
   }
 
@@ -107,9 +117,30 @@ class DatabaseHelper {
     // await db.execute('CREATE INDEX idx_old_price ON $medicinesTable ($colOldPrice)');
     debugPrint('Indices created');
 
+    // Create V3 tables
+    await _onCreateV3(db);
+
     debugPrint(
       'Database tables and indices created. Seeding will be handled externally if needed.',
     );
+  }
+
+  Future<void> _onCreateV3(Database db) async {
+    debugPrint('Creating dosage_guidelines table (V3)...');
+    await db.execute('''
+      CREATE TABLE dosage_guidelines (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        active_ingredient TEXT,
+        strength TEXT,
+        standard_dose TEXT,
+        max_dose TEXT,
+        package_label TEXT
+      )
+    ''');
+    await db.execute(
+      'CREATE INDEX idx_guideline_active ON dosage_guidelines (active_ingredient)',
+    );
+    debugPrint('dosage_guidelines table created');
   }
 
   // --- Basic CRUD Operations ---

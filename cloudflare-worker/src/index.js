@@ -305,8 +305,18 @@ async function handleRequest(request, env) {
     if (path === '/api/admin/drugs' && request.method === 'POST') {
       try {
         const { trade_name, arabic_name, active, company, category, price, description, image_url } = await request.json();
-        if (!trade_name || !active || !company || !category || !price) {
-          return jsonResponse({ error: 'Missing required fields: trade_name, active, company, category, price' }, 400);
+
+        // Enhanced validation
+        if (!trade_name || !active || !company || !category) {
+          return jsonResponse({ error: 'Missing required fields: trade_name, active, company, category' }, 400);
+        }
+
+        if (trade_name.trim().length === 0) {
+          return jsonResponse({ error: 'Trade name cannot be empty' }, 400);
+        }
+
+        if (price !== undefined && (isNaN(price) || price < 0)) {
+          return jsonResponse({ error: 'Price must be a positive number' }, 400);
         }
 
         const drugId = generateId();
@@ -315,7 +325,7 @@ async function handleRequest(request, env) {
         await env.DB.prepare(`
           INSERT INTO drugs (id, trade_name, arabic_name, active, company, category, price, description, image_url, created_at, updated_at)
           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        `).bind(drugId, trade_name, arabic_name || null, active, company, category, price, description || null, image_url || null, now, now).run();
+        `).bind(drugId, trade_name, arabic_name || null, active, company, category, price || 0, description || null, image_url || null, now, now).run();
 
         return jsonResponse({ message: 'Drug created successfully', data: { id: drugId, trade_name } }, 201);
       } catch (e) {
@@ -371,6 +381,201 @@ async function handleRequest(request, env) {
         }
 
         return jsonResponse({ message: 'Drug deleted successfully', data: { id } });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: UPSERT drug (Insert or Update based on ID)
+    if (path === '/api/admin/drugs/upsert' && request.method === 'POST') {
+      try {
+        const { id, trade_name, arabic_name, active, company, category, price, description, image_url, last_price_update } = await request.json();
+
+        // Validation
+        if (!id || !trade_name || !active || !company || !category) {
+          return jsonResponse({ error: 'Missing required fields: id, trade_name, active, company, category' }, 400);
+        }
+
+        if (price !== undefined && (isNaN(price) || price < 0)) {
+          return jsonResponse({ error: 'Price must be a positive number' }, 400);
+        }
+
+        if (trade_name.trim().length === 0) {
+          return jsonResponse({ error: 'Trade name cannot be empty' }, 400);
+        }
+
+        const now = Math.floor(Date.now() / 1000);
+
+        // Check if drug exists
+        const exists = await env.DB.prepare('SELECT id FROM drugs WHERE id = ?').bind(id).first();
+
+        if (exists) {
+          // UPDATE existing drug
+          const fields = [];
+          const params = [];
+
+          if (trade_name !== undefined) { fields.push('trade_name = ?'); params.push(trade_name); }
+          if (arabic_name !== undefined) { fields.push('arabic_name = ?'); params.push(arabic_name); }
+          if (active !== undefined) { fields.push('active = ?'); params.push(active); }
+          if (company !== undefined) { fields.push('company = ?'); params.push(company); }
+          if (category !== undefined) { fields.push('category = ?'); params.push(category); }
+          if (price !== undefined) { fields.push('price = ?'); params.push(price); }
+          if (description !== undefined) { fields.push('description = ?'); params.push(description); }
+          if (image_url !== undefined) { fields.push('image_url = ?'); params.push(image_url); }
+          if (last_price_update !== undefined) { fields.push('last_price_update = ?'); params.push(last_price_update); }
+
+          fields.push('updated_at = ?');
+          params.push(now, id);
+
+          await env.DB.prepare(`UPDATE drugs SET ${fields.join(', ')} WHERE id = ?`).bind(...params).run();
+          return jsonResponse({ message: 'Drug updated successfully', data: { id, action: 'update' } });
+        } else {
+          // INSERT new drug
+          await env.DB.prepare(`
+            INSERT INTO drugs (id, trade_name, arabic_name, active, company, category, price, description, image_url, last_price_update, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          `).bind(
+            id,
+            trade_name,
+            arabic_name || null,
+            active,
+            company,
+            category,
+            price || 0,
+            description || null,
+            image_url || null,
+            last_price_update || new Date().toISOString().split('T')[0],
+            now,
+            now
+          ).run();
+
+          return jsonResponse({ message: 'Drug created successfully', data: { id, action: 'insert' } }, 201);
+        }
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Bulk UPSERT drugs (for daily-update workflow)
+    if (path === '/api/admin/drugs/bulk-upsert' && request.method === 'POST') {
+      try {
+        const { drugs } = await request.json();
+
+        if (!drugs || !Array.isArray(drugs) || drugs.length === 0) {
+          return jsonResponse({ error: 'drugs array required' }, 400);
+        }
+
+        if (drugs.length > 1000) {
+          return jsonResponse({ error: 'Maximum 1000 drugs per batch' }, 400);
+        }
+
+        const now = Math.floor(Date.now() / 1000);
+        let inserted = 0;
+        let updated = 0;
+        let errors = 0;
+
+        for (const drug of drugs) {
+          try {
+            const { id, trade_name, arabic_name, active, company, category, price, description, image_url, last_price_update } = drug;
+
+            if (!id || !trade_name) continue;
+
+            const exists = await env.DB.prepare('SELECT id FROM drugs WHERE id = ?').bind(id).first();
+
+            if (exists) {
+              // UPDATE
+              const fields = [];
+              const params = [];
+
+              if (trade_name) { fields.push('trade_name = ?'); params.push(trade_name); }
+              if (arabic_name !== undefined) { fields.push('arabic_name = ?'); params.push(arabic_name); }
+              if (active) { fields.push('active = ?'); params.push(active); }
+              if (company) { fields.push('company = ?'); params.push(company); }
+              if (category) { fields.push('category = ?'); params.push(category); }
+              if (price !== undefined) { fields.push('price = ?'); params.push(price); }
+              if (description !== undefined) { fields.push('description = ?'); params.push(description); }
+              if (image_url !== undefined) { fields.push('image_url = ?'); params.push(image_url); }
+              if (last_price_update) { fields.push('last_price_update = ?'); params.push(last_price_update); }
+
+              fields.push('updated_at = ?');
+              params.push(now, id);
+
+              await env.DB.prepare(`UPDATE drugs SET ${fields.join(', ')} WHERE id = ?`).bind(...params).run();
+              updated++;
+            } else {
+              // INSERT
+              await env.DB.prepare(`
+                INSERT INTO drugs (id, trade_name, arabic_name, active, company, category, price, description, image_url, last_price_update, created_at, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+              `).bind(
+                id, trade_name, arabic_name || null, active, company, category,
+                price || 0, description || null, image_url || null,
+                last_price_update || new Date().toISOString().split('T')[0],
+                now, now
+              ).run();
+              inserted++;
+            }
+          } catch (e) {
+            errors++;
+          }
+        }
+
+        return jsonResponse({
+          message: 'Bulk upsert completed',
+          data: { inserted, updated, errors, total: drugs.length }
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Sync: Get all drugs for local database sync
+    if (path === '/api/sync/drugs' && request.method === 'GET') {
+      try {
+        const limit = parseInt(url.searchParams.get('limit')) || 0;
+        const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+        let query = 'SELECT * FROM drugs ORDER BY id';
+        if (limit > 0) {
+          query += ` LIMIT ${limit} OFFSET ${offset}`;
+        }
+
+        const { results } = await env.DB.prepare(query).all();
+        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM drugs').first();
+
+        return jsonResponse({
+          data: results,
+          total: countResult.total,
+          limit,
+          offset,
+          hasMore: limit > 0 && (offset + limit) < countResult.total
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Sync: Get all interactions for local database sync
+    if (path === '/api/sync/interactions' && request.method === 'GET') {
+      try {
+        const limit = parseInt(url.searchParams.get('limit')) || 0;
+        const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+        let query = 'SELECT * FROM drug_interactions ORDER BY id';
+        if (limit > 0) {
+          query += ` LIMIT ${limit} OFFSET ${offset}`;
+        }
+
+        const { results } = await env.DB.prepare(query).all();
+        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM drug_interactions').first();
+
+        return jsonResponse({
+          data: results,
+          total: countResult.total,
+          limit,
+          offset,
+          hasMore: limit > 0 && (offset + limit) < countResult.total
+        });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);
       }

@@ -1,99 +1,99 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:mediswitch/core/constants/categories_data.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/core/usecases/usecase.dart';
+import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
+import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/domain/entities/category_entity.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
+import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
+import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
+import 'package:mediswitch/domain/usecases/get_high_risk_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
+import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
+import 'package:mediswitch/domain/usecases/search_drugs.dart';
 
-import '../../core/di/locator.dart';
-import '../../core/error/failures.dart';
-import '../../core/services/file_logger_service.dart';
-// import '../../domain/usecases/get_analytics_summary.dart'; // Keep commented out
-import '../../core/usecases/usecase.dart';
-import '../../data/datasources/local/sqlite_local_data_source.dart';
-import '../../domain/entities/category_entity.dart';
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/usecases/filter_drugs_by_category.dart';
-import '../../domain/usecases/get_all_drugs.dart'; // Still needed for update check/initial load logic
-import '../../domain/usecases/get_available_categories.dart';
-import '../../domain/usecases/get_categories_with_count.dart';
-import '../../domain/usecases/get_high_risk_drugs.dart';
-import '../../domain/usecases/get_last_update_timestamp.dart';
-import '../../domain/usecases/get_popular_drugs.dart';
-import '../../domain/usecases/get_recently_updated_drugs.dart';
-import '../../domain/usecases/search_drugs.dart';
-import '../utils/category_mapper.dart';
+/// Provider responsible for managing medicine-related state and data.
+class MedicineProvider extends ChangeNotifier {
+  // Dependencies (Injected via constructor or locator for default values)
+  final SearchDrugsUseCase _searchDrugsUseCase;
+  final FilterDrugsByCategoryUseCase _filterDrugsByCategoryUseCase;
+  final GetCategoriesWithCountUseCase _getCategoriesWithCountUseCase;
+  final GetLastUpdateTimestampUseCase _getLastUpdateTimestampUseCase;
+  final GetRecentlyUpdatedDrugsUseCase _getRecentlyUpdatedDrugsUseCase;
+  final GetPopularDrugsUseCase _getPopularDrugsUseCase;
+  final GetHighRiskDrugsUseCase _getHighRiskDrugsUseCase;
+  final SqliteLocalDataSource
+  _localDataSource; // Kept for direct DB access if needed
 
-class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
-  final GetAllDrugs getAllDrugsUseCase;
-  final SearchDrugsUseCase searchDrugsUseCase;
-  final FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase;
-  final GetAvailableCategoriesUseCase getAvailableCategoriesUseCase;
-  final GetCategoriesWithCountUseCase getCategoriesWithCountUseCase;
-  final GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase;
-  final GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase;
-  final GetPopularDrugsUseCase getPopularDrugsUseCase;
-  final GetHighRiskDrugsUseCase getHighRiskDrugsUseCase;
-  // Add the data source dependency
-  final SqliteLocalDataSource _localDataSource;
+  // Logger
   final FileLoggerService _logger = locator<FileLoggerService>();
 
-  // --- State variables ---
-  List<DrugEntity> _filteredMedicines = [];
-  List<CategoryEntity> _categories = [];
-  String _searchQuery = '';
-  String _selectedCategory = ''; // Back to single category selection
-  String _selectedDosageForm =
-      ''; // Keep dosage form filter (can be applied locally)
-  RangeValues?
-  _selectedPriceRange; // Keep price range filter (can be applied locally)
-  double _minPrice = 0;
-  double _maxPrice = 1000;
-  bool _isLoading = false; // Initialize to false
-  bool _isLoadingMore = false; // Re-added for pagination
-  String _error = '';
-  // REMOVED: bool _isInitialLoading = false; // Flag specifically for initial load process
-  int? _lastUpdateTimestamp;
-  bool _isInitialLoadComplete = false;
-  // --- Pagination State ---
-  static const int _initialPageSize = 10; // Load 10 drugs initially
-  static const int _pageSize =
-      15; // Load 15 additional drugs when scrolling down
-  int _currentPage = 0; // صفحة البداية
-  bool _hasMoreItems = true; // مؤشر لوجود المزيد من البيانات
-
-  // --- State for Simulated Sections ---
-  // --- State for Simulated Sections ---
+  // State
+  List<DrugEntity> _allDrugs = [];
+  List<DrugEntity> _searchResults = [];
+  // _newDrugs is mapped to _recentlyUpdatedDrugs via getter for backward compatibility
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
-  List<DrugEntity> _highRiskDrugs = []; // List for High Risk Drugs
+  List<DrugEntity> _highRiskDrugs = [];
+  List<DrugEntity> _favorites = []; // List of full entities
+  final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
 
-  // --- Favorites State ---
-  final Set<String> _favoriteIds =
-      {}; // Store IDs (or tradeNames) for O(1) lookup
-  final List<DrugEntity> _favorites = [];
+  List<DrugEntity> _filteredMedicines = [];
+  List<CategoryEntity> _categories = [];
 
-  // --- Getters ---
-  List<DrugEntity> get filteredMedicines => _filteredMedicines;
-  List<DrugEntity> get medicines => _filteredMedicines; // Alias
-  List<CategoryEntity> get categories => _categories;
-  bool get isLoading => _isLoading;
-  // bool get isSeedingDatabase => _isSeedingDatabase; // REMOVED: Getter for seeding state
-  bool get isLoadingMore => _isLoadingMore; // Re-added getter
-  String get error => _error;
-  String get searchQuery => _searchQuery;
-  String get selectedCategory =>
-      _selectedCategory; // Back to single category getter
-  String get selectedDosageForm => _selectedDosageForm;
-  RangeValues? get selectedPriceRange => _selectedPriceRange;
-  double get minPrice => _minPrice;
-  double get maxPrice => _maxPrice;
-  bool get hasMoreItems => _hasMoreItems; // Re-added getter
-  bool get isInitialLoadComplete => _isInitialLoadComplete;
+  bool _isLoading = false;
+  bool _isLoadingMore = false;
+  bool _isInitialLoadComplete = false;
+  String _error = '';
+  int? _lastUpdateTimestamp;
+
+  // Pagination & Filters State
+  String _searchQuery = '';
+  String _selectedCategory = '';
+  String _selectedDosageForm = '';
+  RangeValues? _selectedPriceRange;
+  int _currentPage = 0;
+  final int _pageSize = 20;
+  final int _initialPageSize = 20;
+  bool _hasMoreItems = true;
+
+  // Constants
+  static const double _defaultMinPrice = 0;
+  static const double _defaultMaxPrice = 10000;
+
+  // Getters
+  List<DrugEntity> get allDrugs => _allDrugs;
+  List<DrugEntity> get searchResults => _searchResults;
+  List<DrugEntity> get newDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
-  List<DrugEntity> get highRiskDrugs => _highRiskDrugs; // Getter
+  List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
   List<DrugEntity> get favorites => _favorites;
-  int? get lastUpdateTimestamp =>
-      _lastUpdateTimestamp; // Public getter for raw timestamp
+  List<DrugEntity> get filteredMedicines => _filteredMedicines;
+  List<CategoryEntity> get categories => _categories;
+
+  bool get isLoading => _isLoading;
+  bool get isLoadingMore => _isLoadingMore;
+  bool get isInitialLoadComplete => _isInitialLoadComplete;
+  String get error => _error;
+  int? get lastUpdateTimestamp => _lastUpdateTimestamp;
+
+  String get searchQuery => _searchQuery;
+  String get selectedCategory => _selectedCategory;
+  String get selectedDosageForm => _selectedDosageForm;
+  RangeValues? get selectedPriceRange => _selectedPriceRange;
+  bool get hasMoreItems => _hasMoreItems;
+
+  // Expose min/max price for Filter Widgets
+  double get minPrice => _defaultMinPrice;
+  double get maxPrice => _defaultMaxPrice;
 
   // Helper to parse price string to double
   double? _parsePrice(String? priceString) {
@@ -103,165 +103,201 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   MedicineProvider({
-    required this.getAllDrugsUseCase,
-    required this.searchDrugsUseCase,
-    required this.filterDrugsByCategoryUseCase,
-    required this.getAvailableCategoriesUseCase,
-    required this.getCategoriesWithCountUseCase,
-    required this.getLastUpdateTimestampUseCase,
-    required this.getRecentlyUpdatedDrugsUseCase,
-    required this.getPopularDrugsUseCase,
-    required this.getHighRiskDrugsUseCase,
-    // Inject the data source
+    required SearchDrugsUseCase searchDrugsUseCase,
+    required FilterDrugsByCategoryUseCase filterDrugsByCategoryUseCase,
+    required GetCategoriesWithCountUseCase getCategoriesWithCountUseCase,
+    required GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase,
+    required GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase,
+    required GetPopularDrugsUseCase getPopularDrugsUseCase,
+    required GetHighRiskDrugsUseCase getHighRiskDrugsUseCase,
     required SqliteLocalDataSource localDataSource,
-  }) : _localDataSource = localDataSource {
-    // Initialize it
+  }) : _searchDrugsUseCase = searchDrugsUseCase,
+       _filterDrugsByCategoryUseCase = filterDrugsByCategoryUseCase,
+       _getCategoriesWithCountUseCase = getCategoriesWithCountUseCase,
+       _getLastUpdateTimestampUseCase = getLastUpdateTimestampUseCase,
+       _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
+       _getPopularDrugsUseCase = getPopularDrugsUseCase,
+       _getHighRiskDrugsUseCase = getHighRiskDrugsUseCase,
+       _localDataSource = localDataSource {
     _logger.i("MedicineProvider: Constructor called.");
     loadInitialData();
   }
 
-  // REMOVED: Formatted timestamp getter - formatting moved to UI layer
-  // String get lastUpdateTimestampFormatted { ... }
-
   Future<void> loadInitialData({bool forceUpdate = false}) async {
     _logger.i(
       "MedicineProvider: >>> ENTERING loadInitialData (forceUpdate: $forceUpdate) <<<",
-    ); // ADDED EARLY LOG
-    // Use simple isLoading guard
-    _logger.d(
-      "MedicineProvider: Checking guard. _isLoading = $_isLoading, forceUpdate = $forceUpdate",
-    ); // <-- ADDED DEBUG LOG
+    );
+
     if (_isLoading && !forceUpdate) {
       _logger.i(
-        "MedicineProvider: loadInitialData called but already loading. Skipping. (isLoading=$_isLoading, forceUpdate=$forceUpdate)", // Updated log
+        "MedicineProvider: loadInitialData called but already loading. Skipping.",
       );
       return;
     }
 
-    _logger.i(
-      "MedicineProvider: loadInitialData called (forceUpdate: $forceUpdate)",
-    );
-    _isLoading = true; // Set loading true
-    // _isInitialLoading = true; // Removed flag
-    // Unconditional state reset (Restored)
+    _logger.i("MedicineProvider: Starting loadInitialData");
+    _isLoading = true;
     _error = '';
     _isInitialLoadComplete = false;
-    _currentPage = 0; // Reset pagination
+    _currentPage = 0;
     _hasMoreItems = true;
     _filteredMedicines = [];
-    _recentlyUpdatedDrugs = []; // إعادة تعيين قائمة الأدوية المحدثة عند التحديث
-    _popularDrugs = []; // إعادة تعيين قائمة الأدوية الشائعة عند التحديث
-    _highRiskDrugs = []; // Reset High Risk
-    notifyListeners(); // Notify UI that loading has started
+    _recentlyUpdatedDrugs = [];
+    _popularDrugs = [];
+    _highRiskDrugs = [];
+    notifyListeners();
 
     try {
-      // REMOVED: Seeding is now guaranteed by InitializationScreen before this provider is used.
-      // _logger.i(
-      //   "MedicineProvider: Waiting for database seeding to complete...",
-      // );
-      // await _localDataSource.seedingComplete; // Wait for the seeding Future
-      // _logger.i("MedicineProvider: Database seeding confirmed complete.");
-
       // Load timestamp
-      _logger.i("MedicineProvider: Loading timestamp...");
       await _loadAndUpdateTimestamp();
-      _logger.i("MedicineProvider: Timestamp loaded.");
 
-      // Load categories first
-      _logger.i("MedicineProvider: Loading categories...");
+      // Load categories
       await _loadCategories();
-      _logger.i("MedicineProvider: Categories loaded.");
-      // Load simulated sections needed for HomeScreen UI (Original Order)
-      _logger.i("MedicineProvider: >>> TRYING _loadSimulatedSections...");
-      await _loadSimulatedSections(); // Await section loading
-      _logger.i(
-        "MedicineProvider: <<< FINISHED _loadSimulatedSections. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
-      );
 
-      // Apply initial filters (fetch first page) (Original Order)
-      _logger.i("MedicineProvider: >>> TRYING _applyFilters (initial)...");
+      // Load simulated sections
+      await _loadSimulatedSections();
+
+      // Apply initial filters (fetch first page)
       await _applyFilters(
         page: 0,
-        limit: _initialPageSize,
-        // notifyOnCompletion: false, // Parameter removed
-      ); // Await initial filter application
-      _logger.i(
-        "MedicineProvider: <<< FINISHED _applyFilters (initial). Filtered count: ${_filteredMedicines.length}",
+        // limit: _initialPageSize, // handled in _applyFilters
       );
 
-      // SUCCESS PATH: Only reach here if both sections and initial filters loaded without error
       _isInitialLoadComplete = true;
       _logger.i("MedicineProvider: Initial load successful.");
-      // State (_isLoading) set in finally
     } catch (e, s) {
-      // FAILURE PATH: Catch errors from _loadSimulatedSections OR _applyFilters
       _logger.e("MedicineProvider: Error during initial data load", e, s);
       _error =
           e is Exception
               ? e.toString().replaceFirst('Exception: ', '')
               : "فشل تحميل البيانات الأولية.";
-      _filteredMedicines = [];
-      _recentlyUpdatedDrugs = [];
-      _popularDrugs = [];
-      _highRiskDrugs = [];
-      _hasMoreItems = false;
-      _isInitialLoadComplete = false; // Ensure this is false on error
-      _logger.w("MedicineProvider: Initial load FAILED. Error: '$_error'.");
-      // State (_isLoading) set in finally
+      _isInitialLoadComplete = false;
     } finally {
-      _isLoading = false; // Set loading false at the end
-      // _isInitialLoading = false; // Removed flag
-      _logger.d("loadInitialData: Final notifyListeners() call.");
-      notifyListeners(); // Single notification reflecting final state
+      _isLoading = false;
+      notifyListeners();
     }
   }
 
   Future<void> _loadCategories() async {
     _logger.d("MedicineProvider: _loadCategories called.");
 
-    // NEW: Use getCategoriesWithCountUseCase
-    final failureOrCategoriesCounts = await getCategoriesWithCountUseCase(
-      NoParams(),
-    );
+    // 1. Get raw data from DB
+    final result = await _getCategoriesWithCountUseCase(NoParams());
 
-    failureOrCategoriesCounts.fold(
+    result.fold(
       (failure) {
         _logger.e(
-          "Error loading categories with counts: ${_mapFailureToMessage(failure)}",
+          "MedicineProvider: Failed to load dynamic categories: $failure",
         );
-        // Fallback or empty
-        _categories = [];
+        _useStaticCategories();
       },
       (categoryCounts) {
         _logger.i(
-          "MedicineProvider: Categories with counts loaded (${categoryCounts.length} raw DB categories).",
+          "MedicineProvider: Loaded ${categoryCounts.length} categories from DB.",
         );
 
-        // Use CategoryMapper to map and aggregate
-        _categories = CategoryMapper.mapCategoriesWithCounts(categoryCounts);
+        final List<CategoryEntity> mergedCategories = [];
+        final staticDataMap = {
+          for (var item in kAllCategories) item.nameEn.toLowerCase(): item,
+        };
 
+        // Iterate over Map entries (replacing loop over Map directly)
+        for (var entry in categoryCounts.entries) {
+          final outputName = entry.key; // Category name
+          final dbCount = entry.value; // Count
+
+          final meta = staticDataMap[outputName.toLowerCase()];
+
+          if (meta != null) {
+            mergedCategories.add(
+              CategoryEntity(
+                id: meta.id,
+                name: meta.nameEn,
+                nameAr: meta.nameAr,
+                drugCount: dbCount,
+                icon: _getIconNameFromMeta(meta),
+                color: meta.colorName,
+              ),
+            );
+            staticDataMap.remove(outputName.toLowerCase());
+          } else {
+            mergedCategories.add(
+              CategoryEntity(
+                id: outputName.toLowerCase().replaceAll(' ', '_'),
+                name: outputName,
+                nameAr: outputName,
+                drugCount: dbCount,
+                icon: 'pill',
+                color: 'blue',
+              ),
+            );
+          }
+        }
+
+        // Add remaining static categories with 0 count
+        for (var meta in staticDataMap.values) {
+          mergedCategories.add(
+            CategoryEntity(
+              id: meta.id,
+              name: meta.nameEn,
+              nameAr: meta.nameAr,
+              drugCount: 0,
+              icon: _getIconNameFromMeta(meta),
+              color: meta.colorName,
+            ),
+          );
+        }
+
+        mergedCategories.sort((a, b) => b.drugCount.compareTo(a.drugCount));
+
+        _categories = mergedCategories;
+        notifyListeners();
         _logger.i(
-          "MedicineProvider: Mapped to ${_categories.length} display categories.",
+          "MedicineProvider: Merged and loaded ${_categories.length} categories.",
         );
       },
     );
   }
 
+  void _useStaticCategories() {
+    final List<CategoryEntity> mappedCategories =
+        kAllCategories.map((data) {
+          return CategoryEntity(
+            id: data.id,
+            name: data.nameEn,
+            nameAr: data.nameAr,
+            drugCount: data.count,
+            icon: _getIconNameFromMeta(data),
+            color: data.colorName,
+          );
+        }).toList();
+    _categories = mappedCategories;
+    notifyListeners();
+  }
+
+  String _getIconNameFromMeta(CategoryData data) {
+    if (data.id == 'anti_infective') return 'bug';
+    if (data.id == 'cardiovascular') return 'heart';
+    if (data.id == 'dermatology') return 'sun';
+    if (data.id == 'endocrinology') return 'activity';
+    if (data.id == 'general') return 'stethoscope';
+    if (data.id == 'immunology') return 'shieldcheck';
+    if (data.id == 'nutrition') return 'apple';
+    if (data.id == 'pain_relief') return 'zap';
+    if (data.id == 'psychiatric') return 'brain'; // Fix for neuro
+    if (data.id == 'respiratory') return 'wind';
+    return 'pill';
+  }
+
   Future<void> _loadAndUpdateTimestamp() async {
-    _logger.d("MedicineProvider: _loadAndUpdateTimestamp called.");
-    final failureOrTimestamp = await getLastUpdateTimestampUseCase(NoParams());
+    final failureOrTimestamp = await _getLastUpdateTimestampUseCase(NoParams());
     failureOrTimestamp.fold(
       (failure) {
-        _logger.e(
-          "Error loading last update timestamp: ${_mapFailureToMessage(failure)}",
-        );
+        _logger.e("Error loading timestamp: ${_mapFailureToMessage(failure)}");
         _lastUpdateTimestamp = null;
       },
       (timestamp) {
         _lastUpdateTimestamp = timestamp;
-        _logger.i(
-          "MedicineProvider: Last update timestamp loaded: $_lastUpdateTimestamp",
-        );
       },
     );
   }
@@ -273,13 +309,9 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       final now = DateTime.now();
       final oneMonthAgo = DateTime(now.year, now.month - 1, now.day);
       final cutoffDate = DateFormat('yyyy-MM-dd').format(oneMonthAgo);
-      const recentLimit =
-          50; // Increased limit to allow accurate 'Today' stats calculation
+      const recentLimit = 50;
 
-      _logger.i(
-        "Fetching recently updated drugs since $cutoffDate (limit: $recentLimit)",
-      );
-      final recentResult = await getRecentlyUpdatedDrugsUseCase(
+      final recentResult = await _getRecentlyUpdatedDrugsUseCase(
         GetRecentlyUpdatedDrugsParams(
           cutoffDate: cutoffDate,
           limit: recentLimit,
@@ -287,197 +319,98 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
       );
       recentResult.fold(
         (l) {
-          final errorMsg = _mapFailureToMessage(l);
           _logger.w(
-            "[_loadSimulatedSections] FAILED to load recently updated drugs: $errorMsg",
+            "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
           );
           _recentlyUpdatedDrugs = [];
-          throw Exception('Failed to load recently updated drugs: $errorMsg');
         },
         (r) {
-          _logger.i(
-            "[_loadSimulatedSections] Successfully loaded ${r.length} recently updated drugs.",
-          );
           _recentlyUpdatedDrugs = r;
         },
       );
 
       // --- Popular (Random) Logic ---
       const popularLimit = 10;
-      _logger.i("Fetching $popularLimit popular (random) drugs");
-      final popularResult = await getPopularDrugsUseCase(
+      final popularResult = await _getPopularDrugsUseCase(
         GetPopularDrugsParams(limit: popularLimit),
       );
       popularResult.fold(
         (l) {
-          final errorMsg = _mapFailureToMessage(l);
-          _logger.w(
-            "[_loadSimulatedSections] FAILED to load popular (random) drugs: $errorMsg",
-          );
+          _logger.w("Failed to load popular drugs: ${_mapFailureToMessage(l)}");
           _popularDrugs = [];
-          // throw Exception('Failed to load popular drugs: $errorMsg'); // Don't throw, just log
         },
         (r) {
-          _logger.i(
-            "[_loadSimulatedSections] Successfully loaded ${r.length} popular (random) drugs.",
-          );
           _popularDrugs = r;
         },
       );
 
       // --- High Risk Drugs Logic ---
-      _logger.i("Fetching High Risk drugs based on keywords...");
-      final highRiskKeywords = [
-        'Warfarin',
-        'Digoxin',
-        'Methotrexate',
-        'Lithium',
-        'Insulin',
-      ];
-      List<DrugEntity> highRiskAccumulator = [];
-
-      for (var keyword in highRiskKeywords) {
-        final result = await searchDrugsUseCase(
-          SearchParams(
-            query: keyword,
-            limit: 5,
-            offset: 0,
-          ), // Search by name/active
-        );
-        result.fold(
-          (l) => _logger.w("Failed to fetch high risk for $keyword"),
-          (r) {
-            // Filter to ensure strict match if needed, or just take them
-            // For now, take the first one that seems relevant
-            if (r.isNotEmpty) {
-              highRiskAccumulator.addAll(r);
-            }
-          },
-        );
-      }
-      // Deduplicate by tradeName or ID
-      final ids = <String>{};
-      _highRiskDrugs =
-          highRiskAccumulator.where((drug) {
-            final id = drug.id?.toString() ?? drug.tradeName;
-            return ids.add(id);
-          }).toList();
-      _logger.i("Loaded ${_highRiskDrugs.length} High Risk drugs.");
-
-      _logger.i(
-        "MedicineProvider: Sections loaded. Recent: ${_recentlyUpdatedDrugs.length}, Popular: ${_popularDrugs.length}",
+      // Fix: Pass limit (int) instead of NoParams()
+      final highRiskResult = await _getHighRiskDrugsUseCase(20);
+      highRiskResult.fold(
+        (l) => _logger.w(
+          "Failed to load high risk drugs: ${_mapFailureToMessage(l)}",
+        ),
+        (r) {
+          _highRiskDrugs = r;
+          _logger.i("Loaded ${_highRiskDrugs.length} high risk drugs");
+        },
       );
     } catch (e, s) {
       _logger.e("Error loading sections", e, s);
       _recentlyUpdatedDrugs = [];
       _popularDrugs = [];
+      _highRiskDrugs = [];
     }
   }
 
-  Future<void> setSearchQuery(String query, {bool triggerSearch = true}) async {
-    _logger.d(
-      "MedicineProvider: setSearchQuery called with query: '$query', triggerSearch: $triggerSearch",
-    );
-    if (_isLoading && triggerSearch) {
-      _logger.w("setSearchQuery: Skipping search as loading is in progress.");
-      return;
-    }
+  // --- Filter & Search Setters ---
 
-    // Update state regardless of whether search is triggered immediately
+  Future<void> setSearchQuery(String query, {bool triggerSearch = true}) async {
+    if (_isLoading && triggerSearch) return;
+
     _searchQuery = query;
-    _selectedCategory = ''; // Searching clears category filter
+    _selectedCategory = ''; // Clear category when searching
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = []; // Clear previous results
+    _filteredMedicines = [];
 
     if (!triggerSearch) {
-      _logger.d("setSearchQuery: State updated, search not triggered yet.");
-      notifyListeners(); // Notify UI of filter change without loading state
+      notifyListeners();
       return;
     }
 
-    // Trigger search immediately
-    _isLoading = true;
-    notifyListeners(); // Notify UI that search is starting
-
-    try {
-      await _applyFilters(page: 0, append: false);
-    } catch (e, s) {
-      _logger.e("Error during setSearchQuery._applyFilters", e, s);
-      _error = "خطأ أثناء البحث.";
-    } finally {
-      _isLoading = false;
-      notifyListeners();
-    }
+    _triggerLoadingSearch(page: 0, append: false);
   }
 
   Future<void> setCategory(String category, {bool triggerSearch = true}) async {
-    _logger.d(
-      "MedicineProvider: setCategory called with category: '$category', triggerSearch: $triggerSearch",
-    );
-    if (_isLoading && triggerSearch) {
-      _logger.w(
-        "setCategory: Skipping category change as loading is in progress.",
-      );
-      return;
-    }
+    if (_isLoading && triggerSearch) return;
 
-    // Update state regardless of whether search is triggered immediately
     _selectedCategory = category;
-    _searchQuery = ''; // Setting category clears search query
+    _searchQuery = ''; // Clear search when selecting category
     _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = []; // Clear previous results
+    _filteredMedicines = [];
 
     if (!triggerSearch) {
-      _logger.d("setCategory: State updated, search not triggered yet.");
-      notifyListeners(); // Notify UI of filter change without loading state
+      notifyListeners();
       return;
     }
 
-    // Trigger search immediately
-    _isLoading = true;
-    notifyListeners(); // Notify UI that category change is starting
-
-    try {
-      await _applyFilters(page: 0, append: false);
-    } catch (e, s) {
-      _logger.e("Error during setCategory._applyFilters", e, s);
-      _error = "خطأ أثناء تغيير الفئة.";
-    } finally {
-      _isLoading = false;
-      notifyListeners();
-    }
+    _triggerLoadingSearch(page: 0, append: false);
   }
 
   Future<void> setDosageForm(
     String dosageForm, {
     bool triggerSearch = true,
   }) async {
-    _logger.d(
-      "MedicineProvider: setDosageForm called with dosageForm: '$dosageForm', triggerSearch: $triggerSearch",
-    );
     _selectedDosageForm = dosageForm;
-
-    if (!triggerSearch) {
-      _logger.d("setDosageForm: State updated, search not triggered yet.");
-      notifyListeners();
-      return;
-    }
-
-    _isLoading = true;
-    _currentPage = 0;
-    _hasMoreItems = true;
-    _filteredMedicines = [];
-    notifyListeners();
-
-    try {
-      await _applyFilters(page: 0, append: false);
-    } catch (e, s) {
-      _logger.e("Error during setDosageForm._applyFilters", e, s);
-      _error = "خطأ أثناء تطبيق فلتر الشكل الصيدلاني.";
-    } finally {
-      _isLoading = false;
+    if (triggerSearch) {
+      _currentPage = 0;
+      _hasMoreItems = true;
+      _filteredMedicines = [];
+      _triggerLoadingSearch(page: 0, append: false);
+    } else {
       notifyListeners();
     }
   }
@@ -486,35 +419,18 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     RangeValues? range, {
     bool triggerSearch = true,
   }) async {
-    _logger.d(
-      "MedicineProvider: setPriceRange called with range: $range, triggerSearch: $triggerSearch",
-    );
     _selectedPriceRange = range;
-
-    if (!triggerSearch) {
-      _logger.d("setPriceRange: State updated, search not triggered yet.");
-      notifyListeners();
-      return;
-    }
-
-    _isLoading = true;
-    _currentPage = 0;
-    _hasMoreItems = true;
-    _filteredMedicines = [];
-    notifyListeners();
-
-    try {
-      await _applyFilters(page: 0, append: false);
-    } catch (e, s) {
-      _logger.e("Error during setPriceRange._applyFilters", e, s);
-      _error = "خطأ أثناء تطبيق فلتر السعر.";
-    } finally {
-      _isLoading = false;
+    if (triggerSearch) {
+      _currentPage = 0;
+      _hasMoreItems = true;
+      _filteredMedicines = [];
+      _triggerLoadingSearch(page: 0, append: false);
+    } else {
       notifyListeners();
     }
   }
 
-  // ALIASES for UI compatibility
+  // Aliases
   void updateSearchQuery(String query) => setSearchQuery(query);
   void updateFilters({String? dosageForm, RangeValues? priceRange}) {
     if (dosageForm != null) setDosageForm(dosageForm);
@@ -523,7 +439,6 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
 
   // --- Favorites Logic ---
   bool isFavorite(DrugEntity drug) {
-    // Identify by tradeName if ID is null, or some unique combo
     final id = drug.id?.toString() ?? drug.tradeName;
     return _favoriteIds.contains(id);
   }
@@ -540,25 +455,24 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
     notifyListeners();
   }
 
-  // New method to manually trigger a search/filter application
+  // --- Search Triggering ---
+
   Future<void> triggerSearch() async {
-    _logger.i("MedicineProvider: triggerSearch called manually.");
-    if (_isLoading) {
-      _logger.w("triggerSearch: Skipping as loading is already in progress.");
-      return;
-    }
-
-    _isLoading = true;
-    _currentPage = 0; // Reset pagination for manual trigger
+    if (_isLoading) return;
+    _currentPage = 0;
     _hasMoreItems = true;
-    _filteredMedicines = []; // Clear results before manual trigger
-    notifyListeners();
+    _filteredMedicines = [];
+    _triggerLoadingSearch(page: 0, append: false);
+  }
 
+  void _triggerLoadingSearch({required int page, required bool append}) async {
+    _isLoading = true;
+    notifyListeners();
     try {
-      await _applyFilters(page: 0, append: false);
+      await _applyFilters(page: page, append: append);
     } catch (e, s) {
-      _logger.e("Error during triggerSearch._applyFilters", e, s);
-      _error = "خطأ أثناء بدء البحث.";
+      _logger.e("Error during search/filter", e, s);
+      _error = "حدث خطأ أثناء البحث/الفلترة";
     } finally {
       _isLoading = false;
       notifyListeners();
@@ -566,336 +480,163 @@ class MedicineProvider extends ChangeNotifier with DiagnosticableTreeMixin {
   }
 
   Future<void> loadMoreDrugs() async {
-    if (_isLoading || _isLoadingMore || !_hasMoreItems) {
-      _logger.d(
-        "MedicineProvider: loadMoreDrugs called but skipping. isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems",
-      );
-      return;
-    }
+    if (_isLoading || _isLoadingMore || !_hasMoreItems) return;
 
     _isLoadingMore = true;
     notifyListeners();
 
     _currentPage++;
-    _logger.i(
-      "MedicineProvider: loadMoreDrugs ENTRY - Requesting page $_currentPage",
-    );
 
-    await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
-
-    _isLoadingMore = false;
-    _logger.d(
-      "MedicineProvider: Final state before notify (Load More) - isLoading: $_isLoading, isLoadingMore: $_isLoadingMore, hasMore: $_hasMoreItems, filteredCount: ${_filteredMedicines.length}",
-    );
-    notifyListeners();
-    _logger.i(
-      "MedicineProvider: loadMoreDrugs EXIT - Finished page $_currentPage. hasMore: $_hasMoreItems, Total items: ${_filteredMedicines.length}",
-    );
+    try {
+      await _applyFilters(page: _currentPage, append: true, limit: _pageSize);
+    } catch (e) {
+      // Error already handled in applyFilters or just ignore for load more
+      _currentPage--; // Revert page on error
+    } finally {
+      _isLoadingMore = false;
+      notifyListeners();
+    }
   }
 
-  /// Alias for loadMoreDrugs (used by search results pagination)
+  // Alias
   Future<void> loadMoreResults() => loadMoreDrugs();
 
   Future<void> _applyFilters({
     required int page,
     bool append = false,
     int? limit,
-    // bool notifyOnCompletion = true, // Parameter removed
   }) async {
     final int requestedLimit = limit ?? _pageSize;
-    final int fetchLimit = requestedLimit + 1;
-    // Loading state and initial error reset are handled by calling methods
-
+    final int fetchLimit =
+        requestedLimit + 1; // Fetch one extra to check hasMore
     final int offset =
         (page == 0) ? 0 : _initialPageSize + (page - 1) * _pageSize;
 
-    _logger.i(
-      "MedicineProvider: _applyFilters ENTRY - Page: $page, Append: $append, ReqLimit: $requestedLimit, FetchLimit: $fetchLimit, Offset: $offset, Query: '$_searchQuery', Category: '$_selectedCategory', DosageForm: '$_selectedDosageForm', PriceRange: $_selectedPriceRange",
-    );
-
     Either<Failure, List<DrugEntity>> result;
 
-    try {
-      _logger.i(
-        "MedicineProvider: Preparing to call UseCase. Query: '$_searchQuery', Category: '$_selectedCategory', Page: $page, Fetch Limit: $fetchLimit, Offset: $offset, Append: $append",
+    if (_searchQuery.isNotEmpty) {
+      result = await _searchDrugsUseCase(
+        SearchParams(query: _searchQuery, limit: fetchLimit, offset: offset),
       );
-      _logger.d(
-        "MedicineProvider: UseCase PARAMS - Query: '$_searchQuery', Limit: $fetchLimit, Offset: $offset, Category: '$_selectedCategory'",
+    } else if (_selectedCategory.isNotEmpty) {
+      result = await _filterDrugsByCategoryUseCase(
+        FilterParams(
+          category: _selectedCategory,
+          limit: fetchLimit,
+          offset: offset,
+        ),
       );
-
-      if (_searchQuery.isNotEmpty) {
-        _logger.d(
-          "MedicineProvider: Applying search filter via repository (page $page)...",
-        );
-        result = await searchDrugsUseCase(
-          SearchParams(query: _searchQuery, limit: fetchLimit, offset: offset),
-        );
-      } else if (_selectedCategory.isNotEmpty) {
-        _logger.d(
-          "MedicineProvider: Applying category filter via repository (page $page)...",
-        );
-        result = await filterDrugsByCategoryUseCase(
-          FilterParams(
-            category: _selectedCategory,
-            limit: fetchLimit,
-            offset: offset,
-          ),
-        );
-      } else {
-        _logger.d(
-          "MedicineProvider: Applying no primary filter, fetching all (page $page)...",
-        );
-        result = await searchDrugsUseCase(
-          SearchParams(query: '', limit: fetchLimit, offset: offset),
-        );
-      }
-
-      result.fold(
-        (failure) {
-          _logger.e(
-            "MedicineProvider: Error during repository fetch (page $page): ${_mapFailureToMessage(failure)}",
-          );
-          _error = "خطأ في جلب/فلترة الأدوية: ${_mapFailureToMessage(failure)}";
-          if (!append) _filteredMedicines = [];
-          _hasMoreItems = false;
-        },
-        (drugs) {
-          _logger.i(
-            "MedicineProvider: _applyFilters - UseCase SUCCESS (Page: $page, Append: $append). Fetched ${drugs.length} items.",
-          );
-          _logger.d(
-            "MedicineProvider: Applying secondary local filters (Dosage: '$_selectedDosageForm', Price: $_selectedPriceRange)...",
-          );
-          List<DrugEntity> newlyFiltered = List.from(drugs);
-
-          if (_selectedDosageForm.isNotEmpty) {
-            final formLower = _selectedDosageForm.toLowerCase();
-            newlyFiltered =
-                newlyFiltered
-                    .where(
-                      (drug) =>
-                          drug.dosageForm.toLowerCase().contains(formLower),
-                    )
-                    .toList();
-          }
-          if (_selectedPriceRange != null) {
-            newlyFiltered =
-                newlyFiltered.where((drug) {
-                  final price = _parsePrice(drug.price);
-                  if (price == null) return false;
-                  return price >= _selectedPriceRange!.start &&
-                      price <= _selectedPriceRange!.end;
-                }).toList();
-          }
-
-          _logger.i(
-            "MedicineProvider: Filtering complete for page $page. New items count: ${newlyFiltered.length}",
-          );
-
-          _error = '';
-          _hasMoreItems = drugs.length == fetchLimit;
-
-          final itemsToAdd =
-              _hasMoreItems ? drugs.take(requestedLimit).toList() : drugs;
-
-          _logger.d(
-            "MedicineProvider: hasMoreItems set to $_hasMoreItems. Items received: ${drugs.length}, Items to add: ${itemsToAdd.length}",
-          );
-
-          List<DrugEntity> locallyFilteredItemsToAdd = List.from(itemsToAdd);
-          if (_selectedDosageForm.isNotEmpty) {
-            final formLower = _selectedDosageForm.toLowerCase();
-            locallyFilteredItemsToAdd =
-                locallyFilteredItemsToAdd
-                    .where(
-                      (drug) =>
-                          drug.dosageForm.toLowerCase().contains(formLower),
-                    )
-                    .toList();
-          }
-          if (_selectedPriceRange != null) {
-            locallyFilteredItemsToAdd =
-                locallyFilteredItemsToAdd.where((drug) {
-                  final price = _parsePrice(drug.price);
-                  if (price == null) return false;
-                  return price >= _selectedPriceRange!.start &&
-                      price <= _selectedPriceRange!.end;
-                }).toList();
-          }
-          _logger.i(
-            "MedicineProvider: Filtering complete for page $page. Final items to add count: ${locallyFilteredItemsToAdd.length}",
-          );
-
-          if (append) {
-            final existingTradeNames =
-                _filteredMedicines.map((d) => d.tradeName).toSet();
-            _filteredMedicines.addAll(
-              locallyFilteredItemsToAdd.where(
-                (d) => !existingTradeNames.contains(d.tradeName),
-              ),
-            );
-          } else {
-            _filteredMedicines = locallyFilteredItemsToAdd;
-            if (page == 0) {
-              _calculatePriceRange(_filteredMedicines);
-            }
-          }
-        },
-      );
-    } catch (e, s) {
-      _logger.e(
-        "MedicineProvider: Unexpected error during _applyFilters (page $page)",
-        e,
-        s,
-      );
-      _error = "حدث خطأ غير متوقع أثناء الفلترة.";
-      if (!append) _filteredMedicines = [];
-      _hasMoreItems = false;
-    } finally {
-      // REMOVED: Loading state is managed by the calling methods
-
-      // REMOVED: Notifications handled by calling methods
-      // if (notifyOnCompletion && !append) {
-      //    _logger.d("_applyFilters: Notifying listeners (notifyOnCompletion=true, append=false)");
-      //    notifyListeners();
-      // }
-      // Pagination Logging (Phase 2, Step 4)
-      _logger.i(
-        "MedicineProvider: _applyFilters EXIT - Page: $page, Append: $append. Final State: isLoading=$_isLoading, isLoadingMore=$_isLoadingMore, hasMore=$_hasMoreItems, filteredCount=${_filteredMedicines.length}, error='$_error'",
+    } else {
+      result = await _searchDrugsUseCase(
+        SearchParams(query: '', limit: fetchLimit, offset: offset),
       );
     }
+
+    result.fold(
+      (failure) {
+        _logger.e("Error applying filters: $failure");
+        _error = _mapFailureToMessage(failure);
+        if (!append) _filteredMedicines = [];
+        _hasMoreItems = false;
+      },
+      (drugs) {
+        // Apply in-memory secondary filters
+        List<DrugEntity> filtered = List.from(drugs);
+
+        if (_selectedDosageForm.isNotEmpty) {
+          final formLower = _selectedDosageForm.toLowerCase();
+          filtered =
+              filtered
+                  .where((d) => d.dosageForm.toLowerCase().contains(formLower))
+                  .toList();
+        }
+
+        if (_selectedPriceRange != null) {
+          filtered =
+              filtered.where((d) {
+                final price = _parsePrice(d.price);
+                if (price == null) return false;
+                return price >= _selectedPriceRange!.start &&
+                    price <= _selectedPriceRange!.end;
+              }).toList();
+        }
+
+        _hasMoreItems = drugs.length == fetchLimit;
+        // Remove the extra item if we fetched it
+        final itemsToAdd =
+            _hasMoreItems ? filtered.take(requestedLimit).toList() : filtered;
+
+        if (append) {
+          final existingIds =
+              _filteredMedicines
+                  .map((d) => d.id?.toString() ?? d.tradeName)
+                  .toSet();
+          _filteredMedicines.addAll(
+            itemsToAdd.where(
+              (d) => !existingIds.contains(d.id?.toString() ?? d.tradeName),
+            ),
+          );
+        } else {
+          _filteredMedicines = itemsToAdd;
+        }
+        _error = '';
+      },
+    );
   }
 
-  void _calculatePriceRange(List<DrugEntity> drugs) {
-    if (drugs.isEmpty) {
-      _minPrice = 0;
-      _maxPrice = 1000;
-      return;
-    }
-    double minP = double.maxFinite;
-    double maxP = 0;
-    for (var drug in drugs) {
-      final price = _parsePrice(drug.price);
-      if (price != null) {
-        if (price < minP) minP = price;
-        if (price > maxP) maxP = price;
-      }
-    }
-    _minPrice = (minP == double.maxFinite) ? 0 : minP;
-    _maxPrice = (maxP == 0 || maxP <= _minPrice) ? _minPrice + 1000 : maxP;
-    _logger.i(
-      "MedicineProvider: Calculated price range based on current list: $_minPrice - $_maxPrice",
+  // --- Methods for Drug Details Screen (Added) ---
+
+  Future<List<DrugEntity>> getSimilarDrugs(DrugEntity drug) async {
+    // Similars = Same Active Ingredient (Mathayel)
+    // We use FindDrugAlternativesUseCase which implements active ingredient matching
+    final useCase = locator<FindDrugAlternativesUseCase>();
+    final result = await useCase(drug);
+    return result.fold((l) => [], (r) => r.alternatives);
+  }
+
+  Future<List<DrugEntity>> getAlternativeDrugs(DrugEntity drug) async {
+    // Alternatives = Same Indication/Category but Different Active Ingredient (Badael)
+    if (drug.mainCategory == null || drug.mainCategory!.isEmpty) return [];
+
+    final result = await _filterDrugsByCategoryUseCase(
+      FilterParams(category: drug.mainCategory!, limit: 20, offset: 0),
     );
+
+    return result.fold(
+      (l) => [],
+      (drugs) =>
+          drugs
+              .where(
+                (d) =>
+                    (d.id?.toString() ?? d.tradeName) !=
+                        (drug.id?.toString() ?? drug.tradeName) &&
+                    (d.active?.toLowerCase() != drug.active?.toLowerCase()),
+              )
+              .toList(),
+    );
+  }
+
+  Future<List<DosageGuidelinesModel>> getDosageGuidelines(
+    String activeIngredient,
+  ) async {
+    // Directly access local data source for dosage guidelines
+    // Since this is specific to the local SQLite DB "Dosage Guidelines" table.
+    try {
+      if (activeIngredient.isEmpty) return [];
+      return await _localDataSource.getDosageGuidelines(activeIngredient);
+    } catch (e) {
+      _logger.e("Error fetching dosage guidelines: $e");
+      return [];
+    }
   }
 
   String _mapFailureToMessage(Failure failure) {
-    switch (failure.runtimeType) {
-      case CacheFailure:
-        return 'خطأ في الوصول للبيانات المحلية.';
-      case InitialLoadFailure:
-        return 'فشل تحميل البيانات الأولية. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.';
-      case ServerFailure:
-        return 'خطأ في الاتصال بالخادم.';
-      case NetworkFailure:
-        return 'خطأ في الشبكة. يرجى التحقق من اتصالك.';
-      default:
-        return 'حدث خطأ غير متوقع.';
-    }
-  }
-
-  @override
-  void debugFillProperties(DiagnosticPropertiesBuilder properties) {
-    super.debugFillProperties(properties);
-    properties.add(
-      IterableProperty<DrugEntity>('filteredMedicines', _filteredMedicines),
-    );
-    properties.add(IterableProperty<CategoryEntity>('categories', _categories));
-    properties.add(StringProperty('searchQuery', _searchQuery));
-    properties.add(StringProperty('selectedCategory', _selectedCategory));
-    properties.add(StringProperty('selectedDosageForm', _selectedDosageForm));
-    properties.add(
-      DiagnosticsProperty<RangeValues>(
-        'selectedPriceRange',
-        _selectedPriceRange,
-      ),
-    );
-    properties.add(DoubleProperty('minPrice', _minPrice));
-    properties.add(DoubleProperty('maxPrice', _maxPrice));
-    properties.add(
-      FlagProperty('isLoading', value: _isLoading, ifTrue: 'LOADING'),
-    );
-    // REMOVED: Seeding state debug property
-    // properties.add(
-    //   FlagProperty(
-    //     'isSeedingDatabase',
-    //     value: _isSeedingDatabase,
-    //     ifTrue: 'SEEDING DB',
-    //   ),
-    // );
-    properties.add(
-      FlagProperty(
-        'isLoadingMore',
-        value: _isLoadingMore,
-        ifTrue: 'LOADING MORE',
-      ),
-    );
-    properties.add(StringProperty('error', _error, defaultValue: ''));
-    properties.add(IntProperty('lastUpdateTimestamp', _lastUpdateTimestamp));
-    properties.add(
-      FlagProperty(
-        'isInitialLoadComplete',
-        value: _isInitialLoadComplete,
-        ifTrue: 'LOADED',
-      ),
-    );
-    properties.add(IntProperty('currentPage', _currentPage));
-    properties.add(
-      FlagProperty('hasMoreItems', value: _hasMoreItems, ifTrue: 'HAS MORE'),
-    );
-    properties.add(
-      IterableProperty<DrugEntity>(
-        'recentlyUpdatedDrugs',
-        _recentlyUpdatedDrugs,
-      ),
-    );
-    properties.add(IterableProperty<DrugEntity>('popularDrugs', _popularDrugs));
-  }
-
-  /// Get similar drugs (same active ingredient, different trade name)
-  Future<List<DrugEntity>> getSimilarDrugs(DrugEntity drug) async {
-    try {
-      _logger.i(
-        "MedicineProvider: Getting similar drugs for '${drug.tradeName}'",
-      );
-      final similars = await _localDataSource.findSimilars(
-        drug.active,
-        drug.tradeName,
-      );
-      _logger.i("MedicineProvider: Found ${similars.length} similar drugs");
-      return similars.map((model) => model.toEntity()).toList();
-    } catch (e, s) {
-      _logger.e("Error getting similar drugs", e, s);
-      return [];
-    }
-  }
-
-  /// Get alternative drugs (same description)
-  Future<List<DrugEntity>> getAlternativeDrugs(DrugEntity drug) async {
-    try {
-      _logger.i(
-        "MedicineProvider: Getting alternative drugs for '${drug.tradeName}'",
-      );
-      final alternatives = await _localDataSource.findAlternativesByDescription(
-        drug.description,
-        drug.tradeName,
-      );
-      _logger.i(
-        "MedicineProvider: Found ${alternatives.length} alternative drugs",
-      );
-      return alternatives.map((model) => model.toEntity()).toList();
-    } catch (e, s) {
-      _logger.e("Error getting alternative drugs", e, s);
-      return [];
+    if (failure is ServerFailure) {
+      return 'خطأ في الخادم (Server Failure).';
+    } else if (failure is CacheFailure) {
+      return 'فشل في تحميل البيانات من قاعدة البيانات.';
+    } else {
+      return 'حدث خطأ غير متوقع.';
     }
   }
 }

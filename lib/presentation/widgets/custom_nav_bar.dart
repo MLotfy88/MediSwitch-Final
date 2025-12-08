@@ -2,8 +2,6 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../../presentation/theme/app_colors.dart';
-
 // Data class for navigation bar items
 class NavBarItem {
   final IconData icon;
@@ -12,7 +10,7 @@ class NavBarItem {
   const NavBarItem({required this.icon, required this.label});
 }
 
-// Custom Navigation Bar Widget matching BottomNav.tsx
+/// Custom Navigation Bar Widget with full Dark/Light mode support
 class CustomNavBar extends StatelessWidget {
   final int selectedIndex;
   final ValueChanged<int> onItemSelected;
@@ -27,14 +25,22 @@ class CustomNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
     // Glassmorphism Container
     return ClipRRect(
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12), // blur-lg
+        filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
         child: Container(
           decoration: BoxDecoration(
-            color: AppColors.surface.withValues(alpha: 0.95), // bg-surface/95
-            border: const Border(top: BorderSide(color: AppColors.border)),
+            // ✅ استخدام theme colors للتوافق مع Dark/Light
+            color: colorScheme.surface.withValues(alpha: 0.95),
+            border: Border(
+              top: BorderSide(
+                color: colorScheme.outline.withValues(alpha: 0.2),
+              ),
+            ),
           ),
           padding: EdgeInsets.only(
             bottom: MediaQuery.of(context).padding.bottom + 8,
@@ -47,8 +53,9 @@ class CustomNavBar extends StatelessWidget {
             children: List.generate(items.length, (index) {
               final item = items[index];
               final isActive = index == selectedIndex;
+              // ✅ استخدام theme colors
               final color =
-                  isActive ? AppColors.primary : AppColors.mutedForeground;
+                  isActive ? colorScheme.primary : colorScheme.onSurfaceVariant;
 
               return InkWell(
                 onTap: () => onItemSelected(index),
@@ -62,14 +69,16 @@ class CustomNavBar extends StatelessWidget {
                   decoration: BoxDecoration(
                     color:
                         isActive
-                            ? AppColors.primary.withValues(alpha: 0.1)
+                            ? colorScheme.primaryContainer.withValues(
+                              alpha: 0.5,
+                            )
                             : Colors.transparent,
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(item.icon, size: 24, color: color), // w-6 h-6
+                      Icon(item.icon, size: 24, color: color),
                       const SizedBox(height: 4),
                       Text(
                         item.label,

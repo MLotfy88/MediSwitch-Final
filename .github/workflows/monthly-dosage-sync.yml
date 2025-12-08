@@ -1,0 +1,155 @@
+name: Monthly Dosage Guidelines Sync from OpenFDA
+
+on:
+  # Run on 15th of every month at midnight UTC
+  schedule:
+    - cron: '0 0 15 * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      files_to_process:
+        description: 'Number of files to process (1-13)'
+        required: false
+        default: '13'
+
+env:
+  PYTHON_VERSION: '3.11'
+  DOSAGE_OUTPUT: 'assets/data/dosage_guidelines.json'
+
+jobs:
+  sync-dosage-guidelines:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 3 hours max (dosage extraction is larger)
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Download OpenFDA Drug Label Data
+        id: download
+        run: |
+          echo "::group::Downloading OpenFDA Data"
+          python3 scripts/dosage/download_openfda_labels.py
+          echo "::endgroup::"
+          
+          # Count downloaded files
+          FILE_COUNT=$(ls -1 External_source/drug_interaction/drug-label/downloaded/*.zip 2>/dev/null | wc -l)
+          echo "files_downloaded=$FILE_COUNT" >> $GITHUB_OUTPUT
+          echo "✅ Downloaded $FILE_COUNT files"
+      
+      - name: Extract Dosage Guidelines
+        id: extract
+        run: |
+          echo "::group::Extracting Dosage Guidelines"
+          python3 scripts/interactions/extract_dosages_optimized.py
+          echo "::endgroup::"
+          
+          # Get statistics
+          DOSAGE_COUNT=$(python3 -c "import json, os; print(len(json.load(open(os.environ['DOSAGE_OUTPUT']))))")
+          echo "dosage_count=$DOSAGE_COUNT" >> $GITHUB_OUTPUT
+          echo "✅ Extracted $DOSAGE_COUNT dosage guidelines"
+      
+      - name: Validate Extracted Data
+        run: |
+          python3 -c "
+          import json
+          import sys
+          
+          try:
+            with open('assets/data/dosage_guidelines.json', 'r') as f:
+              data = json.load(f)
+            
+            print(f'Found {len(data):,} dosage guidelines')
+            
+            # Validation checks (expect ~40k records with optimized extraction)
+            assert len(data) > 15000, f'Too few guidelines extracted: {len(data)}'
+            assert all('active_ingredient' in g for g in data), 'Missing active_ingredient'
+            assert all('strength' in g for g in data), 'Missing strength'
+            
+            # Quality checks
+            with_standard = sum(1 for g in data if g.get('standard_dose'))
+            with_max = sum(1 for g in data if g.get('max_dose'))
+            
+            print(f'  • With standard_dose: {with_standard:,} ({with_standard/len(data)*100:.1f}%)')
+            print(f'  • With max_dose: {with_max:,} ({with_max/len(data)*100:.1f}%)')
+            
+            assert with_standard > 5000, f'Too few with standard_dose: {with_standard}'
+            
+            print(f'✅ Validation passed: {len(data):,} quality dosage guidelines')
+          except Exception as e:
+            print(f'❌ Validation failed: {e}')
+            sys.exit(1)
+          "
+      
+      - name: Create Backup
+        run: |
+          if [ -f "${{ env.DOSAGE_OUTPUT }}" ]; then
+            BACKUP_NAME="dosage_guidelines_backup_$(date +%Y%m%d).json"
+            mkdir -p assets/data/backups
+            cp "${{ env.DOSAGE_OUTPUT }}" "assets/data/backups/$BACKUP_NAME"
+            echo "✅ Created backup: $BACKUP_NAME"
+          fi
+      
+      - name: Upload to Cloudflare D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9f7fd7dfef294f26d47d62df34726367' }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID || '77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0' }}
+        run: |
+          echo "::group::Uploading to Cloudflare D1"
+          python3 scripts/upload_dosage_d1.py \
+            --json-file "${{ env.DOSAGE_OUTPUT }}" \
+            --database-id "$D1_DATABASE_ID" \
+            --account-id "$CLOUDFLARE_ACCOUNT_ID" \
+            --api-token "$CLOUDFLARE_API_TOKEN"
+          echo "::endgroup::"
+      
+      - name: Commit Updated Data
+        env:
+          DOSAGE_COUNT: ${{ steps.extract.outputs.dosage_count }}
+        run: |
+          # Run the dedicated commit script
+          bash scripts/commit_dosage.sh
+      
+      - name: Create Summary
+        if: always()
+        run: |
+          echo "## 📊 Monthly Dosage Guidelines Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Files Downloaded:** ${{ steps.download.outputs.files_downloaded }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dosage Guidelines Extracted:** ${{ steps.extract.outputs.dosage_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Files Updated" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ \`${{ env.DOSAGE_OUTPUT }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Cloudflare D1 Database" >> $GITHUB_STEP_SUMMARY
+      
+      - name: Notify on Failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '❌ Monthly Dosage Sync Failed',
+              body: `The monthly dosage guidelines sync failed on ${new Date().toISOString()}.
+              
+              Check the [workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`,
+              labels: ['automated', 'sync-failure']
+            })

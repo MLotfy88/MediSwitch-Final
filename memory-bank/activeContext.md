@@ -3,24 +3,32 @@
 ## ✅ الإنجازات المكتملة
 
 ### Cloudflare Worker (Backend) ✅
-- **Database (D1):** تم بناء جداول المستخدمين، الاشتراكات، المدفوعات، الإعدادات (9 جداول).
-- **API (v2.0):** تم نشر Worker بنجاح (`mediswitch-api`).
+- **Database (D1):**
+  - تم بناء جداول المستخدمين، الاشتراكات، المدفوعات، الإعدادات.
+  - تم إضافة جداول **الإشعارات** (`notifications`, `push_subscriptions`, `scheduled_notifications`).
+  - تم ربط جدول `dosage_guidelines` بنجاح.
+- **API (v3.0):** تم نشر Worker محدث وشامل (`mediswitch-api`).
 - **Endpoints:**
-  - Auth (Register/Login).
-  - Admin (Users/Subs/Drugs CRUD).
-  - Public (Drugs/Stats/Plans).
+  - Auth, Admin (Users/Subs/Drugs/Dosages).
+  - **Notifications:** (Send, Broadcast, History, Delete).
+  - **Config:** إعدادات إعلانات دقيقة (Granular Ad Control).
 
 ### Admin Dashboard (React) ✅
 - **Pages:**
-  - `DrugManagement`: تحديث كامل (CRUD, Sorting, Search).
-  - `UsersManagement`: إنشاء وربط.
-  - `SubscriptionsManagement`: إنشاء وربط.
-  - `Monetization` & `Configuration`: ربط مع D1 Database.
-- **Integration:** API Client محدث ليتصل بالـ Worker المباشر.
+  - `DrugManagement`: (CRUD, Sorting, Search) متصل بـ D1.
+  - `InteractionsManagement`: إدارة التفاعلات الدوائية.
+  - `DosageManagement`: إدارة الجرعات.
+  - `NotificationsManagement`: إرسال وإدارة الإشعارات.
+  - `Monetization`: تحكم كامل في الإعلانات (Banners/Interstitials/Native/Rewarded) بشكل منفصل + Test Mode.
+- **Integration:** شاشات تعرض بيانات حقيقية وإحصائيات فعلية من D1.
 
 ### Flutter App (MediSwitch) ✅
-- Design compliance 100%.
-- جاهز للربط مع الـ Backend الجديد.
+- **Ad Configuration:**
+  - تحديث `AdService` لدعم التحكم الدقيق (إيقاف Banners لا يؤثر على Interstitials).
+  - دعم **Test Mode** المنفصل لكل نوع إعلان.
+  - التزامن الفوري مع إعدادات لوحة التحكم.
+- **Backend Sync:** استخدام الـ Endpoints الجديدة (`/api/config`).
+- جاهز للإطلاق (Production Ready).
 
 ---
 

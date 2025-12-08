@@ -1,37 +1,29 @@
--- MediSwitch D1 Database Schema
--- SQLite database for drug information
+-- D1 Database Schema Creation
+-- Run this to set up required tables for MediSwitch Worker
 
-CREATE TABLE IF NOT EXISTS drugs (
-    id INTEGER PRIMARY KEY,
-    trade_name TEXT NOT NULL,
-    arabic_name TEXT,
-    old_price REAL,
-    price REAL,
-    active TEXT,
-    main_category TEXT,
-    main_category_ar TEXT,
-    category TEXT,
-    category_ar TEXT,
-    company TEXT,
-    dosage_form TEXT,
-    dosage_form_ar TEXT,
-    unit TEXT DEFAULT '1',
-    usage TEXT,
-    usage_ar TEXT,
-    description TEXT,
-    last_price_update TEXT,
-    concentration TEXT,
-    visits INTEGER DEFAULT 0,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+-- Dosage Guidelines Table
+CREATE TABLE IF NOT EXISTS dosage_guidelines (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  active_ingredient TEXT NOT NULL,
+  strength TEXT NOT NULL,
+  standard_dose TEXT,
+  max_dose TEXT,
+  package_label TEXT,
+  source TEXT DEFAULT 'OpenFDA',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Indexes for fast queries
-CREATE INDEX IF NOT EXISTS idx_trade_name ON drugs(trade_name);
-CREATE INDEX IF NOT EXISTS idx_company ON drugs(company);
-CREATE INDEX IF NOT EXISTS idx_category ON drugs(main_category);
-CREATE INDEX IF NOT EXISTS idx_updated_at ON drugs(updated_at);
-CREATE INDEX IF NOT EXISTS idx_last_price_update ON drugs(last_price_update);
+CREATE INDEX IF NOT EXISTS idx_dosage_ingredient ON dosage_guidelines(active_ingredient);
+CREATE INDEX IF NOT EXISTS idx_dosage_strength ON dosage_guidelines(strength);
 
--- Full-text search (for future)
--- CREATE VIRTUAL TABLE drugs_fts USING fts5(trade_name, arabic_name, active, company);
+-- Configuration Table
+CREATE TABLE IF NOT EXISTS config (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert default config values
+INSERT OR IGNORE INTO config (key, value) VALUES ('ads_enabled', 'true');
+INSERT OR IGNORE INTO config (key, value) VALUES ('test_ads_enabled', 'false');
+INSERT OR IGNORE INTO config (key, value) VALUES ('app_version', '1.0.0');

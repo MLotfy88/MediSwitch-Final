@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 
+import '../../../core/constants/categories_data.dart';
 import '../../../domain/entities/category_entity.dart';
 import '../../theme/app_colors_extension.dart';
 
@@ -15,7 +16,15 @@ class ModernCategoryCard extends StatelessWidget {
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final appColors = theme.appColors;
-    final colors = _getColors(context, category.color ?? 'blue');
+
+    // Use shared logic for colors
+    final style = getCategoryColorStyle(category.color ?? 'blue', appColors);
+
+    // Use shared logic or local fallback for icon if Entity icon string is passed
+    // But CategoryData has IconData. The Entity has String.
+    // MedicineProvider maps String icon name.
+    // We can keep a local helper or rely on the provider mapping correctly.
+    // Given the provider maps 'brain' -> 'brain' string, we need to map string to IconData here.
     final iconData = _getIcon(category.icon ?? 'pill');
 
     return GestureDetector(
@@ -26,7 +35,7 @@ class ModernCategoryCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: theme.cardColor,
           borderRadius: BorderRadius.circular(22),
-          border: Border.all(color: colors.borderColor),
+          border: Border.all(color: style.border),
           boxShadow: [
             BoxShadow(
               color: theme.shadowColor.withValues(alpha: isDark ? 0.2 : 0.04),
@@ -43,10 +52,10 @@ class ModernCategoryCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(10),
               decoration: BoxDecoration(
-                color: colors.bgColor,
+                color: style.background,
                 borderRadius: BorderRadius.circular(18),
               ),
-              child: Icon(iconData, size: 24, color: colors.iconColor),
+              child: Icon(iconData, size: 24, color: style.icon),
             ),
             const SizedBox(height: 8),
             // Category Name
@@ -73,60 +82,14 @@ class ModernCategoryCard extends StatelessWidget {
     );
   }
 
-  ({Color bgColor, Color iconColor, Color borderColor}) _getColors(
-    BuildContext context,
-    String colorName,
-  ) {
-    final theme = Theme.of(context);
-    final isDark = theme.brightness == Brightness.dark;
-    final appColors = theme.appColors;
-
-    switch (colorName.toLowerCase()) {
-      case 'red':
-        return (
-          bgColor: appColors.dangerSoft,
-          iconColor: appColors.dangerForeground,
-          borderColor: appColors.dangerForeground.withValues(alpha: 0.2),
-        );
-      case 'purple':
-        return (
-          bgColor: appColors.accent.withValues(alpha: isDark ? 0.2 : 0.1),
-          iconColor: appColors.accent,
-          borderColor: appColors.accent.withValues(alpha: 0.2),
-        );
-      case 'teal':
-        return (
-          bgColor: theme.colorScheme.secondary.withValues(alpha: 0.1),
-          iconColor: theme.colorScheme.secondary,
-          borderColor: theme.colorScheme.secondary.withValues(alpha: 0.2),
-        );
-      case 'green':
-        return (
-          bgColor: appColors.successSoft,
-          iconColor: appColors.successForeground,
-          borderColor: appColors.successForeground.withValues(alpha: 0.2),
-        );
-      case 'orange':
-        return (
-          bgColor: appColors.warningSoft,
-          iconColor: appColors.warningForeground,
-          borderColor: appColors.warningForeground.withValues(alpha: 0.3),
-        );
-      case 'blue':
-      default:
-        return (
-          bgColor: appColors.infoSoft,
-          iconColor: appColors.infoForeground,
-          borderColor: appColors.infoForeground.withValues(alpha: 0.2),
-        );
-    }
-  }
-
   IconData _getIcon(String iconName) {
     switch (iconName.toLowerCase()) {
       case 'heart':
         return LucideIcons.heart;
+      case 'heartpulse':
+        return LucideIcons.heartPulse;
       case 'brain':
+      case 'psychiatric':
         return LucideIcons.brain;
       case 'dental':
       case 'smile':
@@ -137,7 +100,31 @@ class ModernCategoryCard extends StatelessWidget {
         return LucideIcons.eye;
       case 'bone':
         return LucideIcons.bone;
+      case 'bug':
+        return LucideIcons.bug;
+      case 'shield':
+      case 'shieldcheck':
+        return LucideIcons.shieldCheck;
+      case 'sun':
+      case 'dermatology':
+        return LucideIcons.sun;
+      case 'activity':
+      case 'endocrinology':
+        return LucideIcons.activity;
+      case 'stethoscope':
+      case 'general':
+        return LucideIcons.stethoscope;
+      case 'apple':
+      case 'nutrition':
+        return LucideIcons.apple;
+      case 'zap':
+      case 'pain':
+        return LucideIcons.zap;
+      case 'wind':
+      case 'respiratory':
+        return LucideIcons.wind;
       default:
+        if (iconName.contains('infect')) return LucideIcons.bug;
         return LucideIcons.pill;
     }
   }

@@ -22,7 +22,7 @@ class AdService {
   void _onConfigChanged() {
     try {
       final config = locator<AdConfigProvider>();
-      if (config.adsEnabled && !_isAdLoaded) {
+      if (config.interstitialEnabled && !_isAdLoaded) {
         _loadInterstitialAd();
       }
     } catch (e) {
@@ -33,12 +33,16 @@ class AdService {
   void _loadInterstitialAd() {
     final config = locator<AdConfigProvider>();
 
-    if (!config.adsEnabled) return;
+    if (!config.interstitialEnabled) return;
 
     final String adUnitId =
         Platform.isAndroid
-            ? config.interstitialAdUnitIdAndroid
-            : config.interstitialAdUnitIdIos;
+            ? (config.interstitialTestMode
+                ? 'ca-app-pub-3940256099942544/1033173712'
+                : config.interstitialAdUnitIdAndroid)
+            : (config.interstitialTestMode
+                ? 'ca-app-pub-3940256099942544/4411468910'
+                : config.interstitialAdUnitIdIos);
 
     if (adUnitId.isEmpty) return;
 
@@ -64,7 +68,7 @@ class AdService {
   void incrementUsageCounterAndShowAdIfNeeded() {
     final config = locator<AdConfigProvider>();
 
-    if (!config.adsEnabled) return;
+    if (!config.interstitialEnabled) return;
 
     _usageCounter++;
     // print("AdService: Usage counter: $_usageCounter / ${config.interstitialAdFrequency}");

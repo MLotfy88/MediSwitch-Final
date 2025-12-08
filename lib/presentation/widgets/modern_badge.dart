@@ -92,7 +92,8 @@ class ModernBadge extends StatelessWidget {
         break;
       case BadgeVariant.warning:
         backgroundColor = appColors.warningForeground; // Solid orange
-        // Spec says dark brown text logic, but white is safer on solid orange for accessibility
+        // Improved contrast: White is okay on dark orange (dark mode), but on light orange (if any) it might be weak.
+        // warningForeground is usually vibrant/dark enough for white text.
         textColor = Colors.white;
         break;
       case BadgeVariant.info:
@@ -102,6 +103,11 @@ class ModernBadge extends StatelessWidget {
       case BadgeVariant.priceDown:
         backgroundColor = appColors.successSoft;
         textColor = appColors.successForeground;
+        // Ensure legible text on soft background
+        if (!isDark) {
+          // In light mode, soft background is light green, foreground is dark green.
+          // OK as is.
+        }
         fontWeight = FontWeight.bold; // 700
         displayIcon ??= LucideIcons.trendingDown;
         break;
@@ -114,7 +120,7 @@ class ModernBadge extends StatelessWidget {
       case BadgeVariant.interaction:
         backgroundColor = appColors.dangerSoft;
         textColor = appColors.dangerForeground;
-        fontWeight = FontWeight.w500; // 500 (Medium)
+        fontWeight = FontWeight.w600;
         // border-danger/30
         borderColor = appColors.dangerForeground.withValues(alpha: 0.3);
         displayIcon ??= LucideIcons.alertTriangle;
@@ -165,7 +171,8 @@ class ModernBadge extends StatelessWidget {
               fontSize: fontSize,
               fontWeight: fontWeight,
               color: textColor,
-              height: 1,
+              height:
+                  1.2, // Slightly increased height for better centering/readability
             ),
           ),
         ],

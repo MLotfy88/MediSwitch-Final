@@ -242,10 +242,8 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton(
     // Changed from registerFactory
     () => MedicineProvider(
-      getAllDrugsUseCase: locator<GetAllDrugs>(),
       searchDrugsUseCase: locator<SearchDrugsUseCase>(),
       filterDrugsByCategoryUseCase: locator<FilterDrugsByCategoryUseCase>(),
-      getAvailableCategoriesUseCase: locator<GetAvailableCategoriesUseCase>(),
       getCategoriesWithCountUseCase: locator<GetCategoriesWithCountUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),

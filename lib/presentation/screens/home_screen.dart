@@ -70,7 +70,6 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             children: [
               AppHeader(
-                notificationCount: 3,
                 onNotificationTap: () {
                   // Navigate to Notifications
                 },
@@ -184,15 +183,21 @@ class _HomeScreenState extends State<HomeScreen> {
       slivers: [
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
 
-        // Search Bar
+        // Search Bar - ✅ تفعيل البحث
         SliverToBoxAdapter(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
+            padding: EdgeInsets.zero,
             child: ModernSearchBar(
-              onFilterTap: () => widget.onSearchTap?.call(), // Or show filter
-              onMicTap: () {},
-              onChanged: (_) {}, // Handled by separate search screen usually
-              // For now, tapping the search bar navigates to SearchScreen
+              hintText: 'ابحث عن دواء...',
+              onSearchTap: () {
+                // ✅ التنقل لشاشة البحث عند النقر
+                if (widget.onSearchTap != null) {
+                  widget.onSearchTap!();
+                }
+              },
+              onFilterTap: () {
+                // Filter action
+              },
             ),
           ),
         ),
@@ -212,13 +217,42 @@ class _HomeScreenState extends State<HomeScreen> {
         // But let's keep it simple for now matching logic
         const SliverToBoxAdapter(child: SizedBox(height: 16)),
 
-        // Quick Stats (Today's Updates)
+        // Quick Stats (Today's Updates) - ✅ بيانات حقيقية
         SliverToBoxAdapter(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Builder(
               builder: (context) {
                 final appColors = Theme.of(context).appColors;
+                final provider = context.watch<MedicineProvider>();
+
+                // ✅ حساب عدد الأدوية المحدثة اليوم
+                final todayDrugs =
+                    provider.recentlyUpdatedDrugs.where((drug) {
+                      if (drug.lastPriceUpdate == null) return false;
+                      try {
+                        final parts = drug.lastPriceUpdate!.split('-');
+                        if (parts.length != 3) return false;
+                        final updateDate = DateTime(
+                          int.parse(parts[0]),
+                          int.parse(parts[1]),
+                          int.parse(parts[2]),
+                        );
+                        final now = DateTime.now();
+                        return updateDate.year == now.year &&
+                            updateDate.month == now.month &&
+                            updateDate.day == now.day;
+                      } catch (e) {
+                        return false;
+                      }
+                    }).length;
+
+                // ✅ عرض عدد الأدوية المحدثة مؤخراً (آخر 7 أيام) كـ fallback
+                final recentCount =
+                    todayDrugs > 0
+                        ? todayDrugs
+                        : provider.recentlyUpdatedDrugs.length;
+
                 return Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 16,
@@ -249,8 +283,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ],
                       ),
-                      const ModernBadge(
-                        text: '+30 Drugs',
+                      // ✅ عرض العدد الحقيقي
+                      ModernBadge(
+                        text:
+                            '+$recentCount ${recentCount == 1 ? 'دواء' : 'أدوية'}',
                         variant: BadgeVariant.newBadge,
                         size: BadgeSize.lg,
                       ),
@@ -278,8 +314,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: l10n.navInteractions,
                 subtitle: l10n.checkConflicts,
                 icon: LucideIcons.gitCompare,
-                color: AppColors.warning,
-                bgColor: AppColors.warning.withValues(alpha: 0.1),
+                color:
+                    Theme.of(
+                      context,
+                    ).appColors.warningForeground, // Use explicit warning color
+                bgColor: Theme.of(
+                  context,
+                ).appColors.warningSoft.withValues(alpha: 0.2),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -294,8 +335,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: l10n.navCalculator,
                 subtitle: l10n.calculateDosage,
                 icon: LucideIcons.calculator,
-                color: AppColors.primary,
-                bgColor: AppColors.primary.withValues(alpha: 0.1),
+                color: Theme.of(context).colorScheme.primary,
+                bgColor: Theme.of(
+                  context,
+                ).colorScheme.primaryContainer.withValues(alpha: 0.5),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -318,12 +361,18 @@ class _HomeScreenState extends State<HomeScreen> {
 
         // High Risk Drugs
         SliverToBoxAdapter(
-          child: SectionHeader(
-            title: 'High-Risk Drugs',
-            subtitle: 'Drugs with severe interactions',
-            icon: LucideIcons.alertTriangle,
-            iconColor: AppColors.dangerSoft,
-            iconTintColor: AppColors.danger,
+          child: Builder(
+            builder: (context) {
+              final appColors = Theme.of(context).appColors;
+              return SectionHeader(
+                title: 'الأدوية عالية الخطورة',
+                subtitle: 'أدوية ذات تفاعلات خطيرة',
+                icon: LucideIcons.alertTriangle,
+                // ✅ استخدام theme colors
+                iconColor: appColors.dangerSoft,
+                iconTintColor: appColors.dangerForeground,
+              );
+            },
           ),
         ),
         SliverToBoxAdapter(
@@ -374,12 +423,18 @@ class _HomeScreenState extends State<HomeScreen> {
 
         // Recently Added
         SliverToBoxAdapter(
-          child: SectionHeader(
-            title: l10n.recentlyAdded,
-            subtitle: l10n.newDrugsWeek,
-            icon: LucideIcons.sparkles,
-            iconColor: AppColors.successSoft,
-            iconTintColor: AppColors.success,
+          child: Builder(
+            builder: (context) {
+              final appColors = Theme.of(context).appColors;
+              return SectionHeader(
+                title: l10n.recentlyAdded,
+                subtitle: l10n.newDrugsWeek,
+                icon: LucideIcons.sparkles,
+                // ✅ استخدام theme colors
+                iconColor: appColors.successSoft,
+                iconTintColor: appColors.successForeground,
+              );
+            },
           ),
         ),
         SliverPadding(
@@ -470,17 +525,26 @@ class _HomeScreenState extends State<HomeScreen> {
     if (categories.isEmpty)
       return const SliverToBoxAdapter(child: SizedBox.shrink());
 
+    final theme = Theme.of(context);
+
     return SliverToBoxAdapter(
       child: Column(
         children: [
           SectionHeader(
             title: l10n.medicalCategories,
-            subtitle: 'Browse by category',
+            subtitle: 'تصفح حسب الفئة',
+            // ✅ إصلاح الأيقونة لتتوافق مع الثيم
             icon: LucideIcons.layoutGrid,
-            iconColor: AppColors.accent,
-            iconTintColor: AppColors.foreground,
+            iconColor: theme.colorScheme.primary,
+            iconTintColor: theme.colorScheme.onPrimary,
             onSeeAll: () {
-              // TODO: Navigate to all categories
+              // ✅ تفعيل See All - التنقل لجميع الفئات
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder: (context) => const SearchScreen(),
+                ),
+              );
             },
           ),
           const SizedBox(height: 12),
@@ -501,10 +565,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       context,
                       MaterialPageRoute<void>(
                         builder:
-                            (context) => SearchScreen(
-                              initialCategory:
-                                  category.name, // Pass category filter
-                            ),
+                            (context) =>
+                                SearchScreen(initialCategory: category.name),
                       ),
                     );
                   },

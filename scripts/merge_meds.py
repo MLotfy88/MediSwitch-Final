@@ -98,12 +98,29 @@ def merge_csv(main_file, update_file, output_file=None):
 
     print(f"Processed updates: {updates_count} updated, {new_count} new.")
     
+    # Generate comprehensive report
+    report_lines = []
+    
+    if new_count > 0:
+        report_lines.append(f"🆕 *{new_count} أدوية جديدة* تمت إضافتها")
+    
+    if updates_count > 0:
+        report_lines.append(f"🔄 *{updates_count} منتج* تم تحديثهم")
+    
+    # Add price changes (limit to top 10)
+    if changes_report:
+        report_lines.append("\n📊 *تغييرات الأسعار:*")
+        report_lines.extend(changes_report[:10])
+        if len(changes_report) > 10:
+            report_lines.append(f"... و {len(changes_report)-10} تغيير آخر")
+    
     # Save formatted report for Slack
     with open('changes_report.txt', 'w', encoding='utf-8') as report_file:
-        if changes_report:
-            report_file.write("\n".join(changes_report[:10])) # Limit to top 10 to avoid spam
-            if len(changes_report) > 10:
-                report_file.write(f"\n... و {len(changes_report)-10} منتجات أخرى")
+        if report_lines:
+            report_file.write("\n".join(report_lines))
+        else:
+            # Even if no changes, write confirmation
+            report_file.write(f"✅ تم التحقق من {len(meds_db)} منتج - جميع البيانات محدثة")
 
     # Create backup before writing
     backup_file = f"{main_file}.backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
