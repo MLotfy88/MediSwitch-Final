@@ -1,23 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:provider/provider.dart';
 
+import '../bloc/medicine_provider.dart';
 import '../theme/app_colors_extension.dart';
 
+/// App Header with real logo, notifications, and last update date
 class AppHeader extends StatelessWidget {
-  final int notificationCount;
   final VoidCallback? onNotificationTap;
 
-  const AppHeader({
-    super.key,
-    this.notificationCount = 0,
-    this.onNotificationTap,
-  });
+  const AppHeader({super.key, this.onNotificationTap});
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
     final isDark = theme.brightness == Brightness.dark;
+    final medicineProvider = context.watch<MedicineProvider>();
+
+    // ✅ حساب عدد التنبيهات الحقيقي (الأدوية المحدثة اليوم)
+    final todayUpdates =
+        medicineProvider.recentlyUpdatedDrugs.where((drug) {
+          if (drug.lastPriceUpdate == null) return false;
+          try {
+            final updateDate = DateFormat(
+              'yyyy-MM-dd',
+            ).parse(drug.lastPriceUpdate!);
+            final today = DateTime.now();
+            return updateDate.year == today.year &&
+                updateDate.month == today.month &&
+                updateDate.day == today.day;
+          } catch (e) {
+            return false;
+          }
+        }).length;
+
+    // ✅ آخر تاريخ تحديث من البيانات الفعلية
+    String lastUpdateText = 'جاري التحميل...';
+    if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty) {
+      try {
+        final latestDrug = medicineProvider.recentlyUpdatedDrugs.first;
+        if (latestDrug.lastPriceUpdate != null) {
+          final date = DateFormat(
+            'yyyy-MM-dd',
+          ).parse(latestDrug.lastPriceUpdate!);
+          lastUpdateText = DateFormat('MMM d, yyyy', 'ar').format(date);
+        }
+      } catch (e) {
+        lastUpdateText = 'غير متوفر';
+      }
+    }
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -35,6 +68,7 @@ class AppHeader extends StatelessWidget {
             // Logo & Title
             Row(
               children: [
+                // ✅ استخدام اللوجو الحقيقي للتطبيق
                 Container(
                   width: 40,
                   height: 40,
@@ -57,11 +91,21 @@ class AppHeader extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: const Center(
-                    child: Icon(
-                      LucideIcons.heart,
-                      size: 20,
-                      color: Colors.white,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(18),
+                    child: Image.asset(
+                      'assets/images/app_logo.png',
+                      width: 40,
+                      height: 40,
+                      fit: BoxFit.cover,
+                      errorBuilder: (context, error, stackTrace) {
+                        // Fallback إذا لم يكن اللوجو موجوداً
+                        return const Icon(
+                          LucideIcons.pill,
+                          size: 20,
+                          color: Colors.white,
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -77,6 +121,7 @@ class AppHeader extends StatelessWidget {
                         color: theme.colorScheme.onSurface,
                       ),
                     ),
+                    // ✅ عرض تاريخ آخر تحديث الحقيقي
                     Row(
                       children: [
                         Icon(
@@ -86,7 +131,7 @@ class AppHeader extends StatelessWidget {
                         ),
                         const SizedBox(width: 4),
                         Text(
-                          'Updated Dec 5, 2024',
+                          lastUpdateText,
                           style: TextStyle(
                             fontSize: 12,
                             color: appColors.mutedForeground,
@@ -120,7 +165,8 @@ class AppHeader extends StatelessWidget {
                     ),
                   ),
                 ),
-                if (notificationCount > 0)
+                // ✅ عرض عدد التنبيهات الحقيقي
+                if (todayUpdates > 0)
                   Positioned(
                     top: -4,
                     right: -4,
@@ -136,9 +182,7 @@ class AppHeader extends StatelessWidget {
                       ),
                       child: Center(
                         child: Text(
-                          notificationCount > 9
-                              ? '+9'
-                              : notificationCount.toString(),
+                          todayUpdates > 9 ? '+9' : todayUpdates.toString(),
                           style: const TextStyle(
                             fontSize: 10,
                             fontWeight: FontWeight.bold,

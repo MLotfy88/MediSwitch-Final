@@ -1,13 +1,14 @@
 import 'dart:async';
+import 'dart:convert'; // Import dart:convert
 
-import 'package:csv/csv.dart';
+import 'package:csv/csv.dart'; // Restore csv import
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:mediswitch/core/database/database_helper.dart';
+import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sqflite/sqflite.dart'; // Import sqflite
-
-import '../../../core/database/database_helper.dart'; // Import DatabaseHelper
-import '../../models/medicine_model.dart';
+import 'package:sqflite/sqflite.dart';
 
 // --- Constants ---
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
@@ -139,7 +140,44 @@ class SqliteLocalDataSource {
           );
         }
         await batch.commit(noResult: true);
+        await batch.commit(noResult: true);
         print('[Main Thread] Batch insert completed.');
+      }
+
+      // --- Seeding Dosage Guidelines ---
+      print('[Main Thread] Seeding Dosage Guidelines...');
+      try {
+        final dosageJson = await rootBundle.loadString(
+          'assets/data/dosage_guidelines.json',
+        );
+        final List<dynamic> dosageList =
+            json.decode(dosageJson) as List<dynamic>;
+
+        if (dosageList.isNotEmpty) {
+          final batchDosage = db.batch();
+          // Clear existing first if needed? Or just replace. Replace is safer.
+          // However, if we do incremental updates, we might want to check.
+          // For initial seeding, let's assume clear or replace.
+          // Since we don't have a clearDosages method yet, let's just insert with replace.
+
+          for (final item in dosageList) {
+            final model = DosageGuidelinesModel.fromJson(
+              item as Map<String, dynamic>,
+            );
+            batchDosage.insert(
+              'dosage_guidelines',
+              model.toMap(),
+              conflictAlgorithm: ConflictAlgorithm.replace,
+            );
+          }
+          await batchDosage.commit(noResult: true);
+          print(
+            '[Main Thread] Dosage Guidelines seeded: ${dosageList.length} items.',
+          );
+        }
+      } catch (e) {
+        print('[Main Thread] ⚠️ Warning: Failed to seed dosage guidelines: $e');
+        // Don't fail the whole seeding process if just this part fails (e.g. file missing)
       }
 
       final prefs = await _prefs;
@@ -328,22 +366,25 @@ class SqliteLocalDataSource {
     categories.sort();
     return categories;
   }
+  // --- Statistics ---
 
   /// Get categories with their drug counts
+  /// The user requested to use 'category' (General Category) instead of 'mainCategory'.
   Future<Map<String, int>> getCategoriesWithCount() async {
     await seedingComplete; // Wait for seeding
     print("Fetching categories with counts from SQLite...");
     final db = await dbHelper.database;
 
     // Use SQL GROUP BY to get counts
+    // CHANGED: Using DatabaseHelper.colCategory based on user feedback
     final List<Map<String, dynamic>> results = await db.rawQuery('''
-      SELECT ${DatabaseHelper.colMainCategory} as category, COUNT(*) as count
-      FROM ${DatabaseHelper.medicinesTable}
-      WHERE ${DatabaseHelper.colMainCategory} IS NOT NULL 
-        AND ${DatabaseHelper.colMainCategory} != ''
-      GROUP BY ${DatabaseHelper.colMainCategory}
-      ORDER BY count DESC
-    ''');
+    SELECT ${DatabaseHelper.colCategory} as category, COUNT(*) as count
+    FROM ${DatabaseHelper.medicinesTable}
+    WHERE ${DatabaseHelper.colCategory} IS NOT NULL 
+      AND ${DatabaseHelper.colCategory} != ''
+    GROUP BY ${DatabaseHelper.colCategory}
+    ORDER BY count DESC
+  ''');
 
     final Map<String, int> categoryCounts = {};
     for (final row in results) {
@@ -504,6 +545,27 @@ class SqliteLocalDataSource {
 
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  // --- Dosage Guidelines ---
+  Future<List<DosageGuidelinesModel>> getDosageGuidelines(
+    String activeIngredient,
+  ) async {
+    await seedingComplete;
+    if (activeIngredient.isEmpty) return [];
+
+    final db = await dbHelper.database;
+    final lowerActive = activeIngredient.toLowerCase().trim();
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      'dosage_guidelines',
+      where: 'LOWER(active_ingredient) = ?',
+      whereArgs: [lowerActive],
+    );
+
+    return List.generate(maps.length, (i) {
+      return DosageGuidelinesModel.fromMap(maps[i]);
     });
   }
 }

@@ -17,21 +17,22 @@ class CloudflareD1Uploader:
         self.database_id = database_id
         self.base_url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/d1/database/{database_id}"
         
-        if api_token:
-            print("🔑 Using API Token auth")
-            self.headers = {
-                "Authorization": f"Bearer {api_token}",
-                "Content-Type": "application/json"
-            }
-        elif email and global_key:
-            print(f"🔑 Using Global Key auth for {email}")
+        # Prefer Global Key (more reliable) over API Token
+        if email and global_key:
+            print(f"🔑 Using Global Key auth (preferred) for {email}")
             self.headers = {
                 "X-Auth-Email": email,
                 "X-Auth-Key": global_key,
                 "Content-Type": "application/json"
             }
+        elif api_token:
+            print("🔑 Using API Token auth (fallback)")
+            self.headers = {
+                "Authorization": f"Bearer {api_token}",
+                "Content-Type": "application/json"
+            }
         else:
-            raise ValueError("Must provide either api_token OR (email and global_key)")
+            raise ValueError("Must provide either (email and global_key) OR api_token")
     
     def execute_query(self, sql: str, params: List = None) -> Dict:
         """Execute SQL query on D1 database"""

@@ -71,8 +71,6 @@
   final appColors = theme.appColors;
   final isDark = theme.brightness == Brightness.dark;
   ```
-  final isDark = theme.brightness == Brightness.dark;
-  ```
 
 ### 7. Medical Specialties Refinement (100% Match) ✅
 - **Goal:** Ensure "Medical Specialties" section matches design docs (Icons, Colors, Counts).
@@ -81,6 +79,69 @@
   - ✅ **CategoryMapper:** Comprehensive mapping of DB names to 6 design categories (Cardiac, Neuro, Dental, Pediatric, Ophthalmic, Orthopedic).
   - ✅ **UI:** `ModernCategoryCard` uses `LucideIcons` (heart, brain, smile, baby, eye, bone) effectively.
   - ✅ **Aggregated Counts:** Drugs from sub-categories (e.g., 'hypertension') are correctly summed into main categories (e.g., 'Cardiac').
+
+### 8. Critical Bug Fixes & MedicineProvider Overhaul (Phase 7) ✅
+- **MedicineProvider:**
+  - ✅ Rewrote provider to include missing fields (`_minPrice`, `_maxPrice`, `_recentlyUpdatedDrugs`, etc.).
+  - ✅ Implemented missing methods: `getSimilarDrugs()`, `getAlternativeDrugs()`.
+  - ✅ Fixed `NoParams` vs `int` type mismatch in `GetHighRiskDrugsUseCase`.
+  - ✅ Exposed `minPrice` and `maxPrice` getters for Filter widgets.
+- **InteractionCard:**
+  - ✅ Fixed invalid property access (`description` -> `effect`, `management` -> `recommendation`).
+  - ✅ Fixed color access (using `appColors.dangerForeground` etc.).
+- **DrugDetailsScreen:**
+  - ✅ Fixed `MaterialPageRoute` type inference.
+  - ✅ Fixed `_buildTabContent` signature to accept `ThemeData`.
+- **General:**
+  - ✅ Cleaned up unused fields and imports.
+
+### 9. Dark Mode & Dosage Extraction (Phase 9) ✅
+- **Dark Mode Fixes:**
+  - ✅ `HomeScreen`: Quick Tools now use `Theme.of(context)` colors (Warning/Primary).
+  - ✅ `ModernDrugCard`: Improved contrast for Form icon background and text.
+  - ✅ `ModernBadge`: Adjusted text size/weight for better readability.
+- **Dosage Extraction Script:**
+  - ✅ Created `scripts/test_dosage_extraction.py`.
+  - ✅ Successfully extracted `Strength`, `Dosage`, `Forms`, `Instructions` from OpenFDA zip.
+  - ✅ Implemented basic regex for strength/dose logic.
+
+### 10. Dosage Database Integration & Automation (Phase 10) ✅
+- **Data Analysis & Optimization:**
+  - ✅ Comprehensive analysis of 11,697 OpenFDA records
+  - ✅ Optimized extraction algorithm (9.9x improvement: 4,072 → 40,384 guidelines)
+  - ✅ Enhanced regex patterns for standard_dose and max_dose extraction
+  - ✅ Intelligent identifier extraction (substance → generic → brand → SPL)
+- **Database Setup:**
+  - ✅ Created `dosage_guidelines` table in local SQLite (with indexes)
+  - ✅ Created `dosage_guidelines` table in Cloudflare D1
+  - ✅ Implemented automatic seeding from JSON on app initialization
+  - ✅ Verified schema consistency between local and D1
+- **GitHub Actions Automation:**
+  - ✅ Created monthly workflow (`.github/workflows/monthly-dosage-sync.yml`)
+  - ✅ Download script (`scripts/dosage/download_openfda_labels.py`)
+  - ✅ D1 upload script (`scripts/upload_dosage_d1.py`)
+  - ✅ Automated commit script (`scripts/commit_dosage.sh`)
+  - ✅ Runs 15th of every month at midnight UTC
+- **UI Integration:**
+  - ✅ Verified fuzzy matching in DrugDetailsScreen
+  - ✅ Confirmed fallback handling for missing doses
+  - ✅ Tested dosage display with new 40k+ dataset
+- **Repository Cleanup:**
+  - ✅ Added large files to .gitignore (dosage_guidelines.json, ZIP files)
+  - ✅ Files regenerated automatically by GitHub Actions
+
+### 11. Full Stack Completion (December 8, 2025) ✅
+- **Admin Dashboard:**
+  - ✅ **Monetization:** Granular controls for all ad types + Test Mode.
+  - ✅ **Notifications:** Full UI for sending and managing push notifications.
+  - ✅ **Data Mgmt:** Pages for Dosages, Drugs, Interactions connected to D1.
+- **Backend (Cloudflare Worker):**
+  - ✅ API v3.0 deployed with Notification endpoints.
+  - ✅ D1 Database schema finalized (Notifications, Config).
+- **Flutter Integration:**
+  - ✅ Updated `AdService` & `AdMobConfig` to read granular settings.
+  - ✅ Verified test mode logic propagation.
+
 ---
 
 ## 📁 هيكل المشروع
@@ -89,6 +150,7 @@
 MediSwitch-Final/
 ├── lib/                     # Flutter app
 ├── admin-dashboard/         # React admin panel (submodule)
+├── cloudflare-worker/       # Serve-less Backend
 ├── .vscode/                 # VS Code settings
 ├── mediswitch.code-workspace
 └── memory-bank/             # Documentation

@@ -35,6 +35,7 @@ class AdConfigProvider extends ChangeNotifier {
   bool get testAdsEnabled => _testAdsEnabled;
 
   // Placement getters
+  // Placement getters
   bool get homeBottomEnabled => adsEnabled && _homeBottomEnabled;
   bool get searchBottomEnabled => adsEnabled && _searchBottomEnabled;
   bool get drugDetailsBottomEnabled => adsEnabled && _drugDetailsBottomEnabled;
@@ -42,6 +43,20 @@ class AdConfigProvider extends ChangeNotifier {
       adsEnabled && _betweenSearchResultsEnabled;
   bool get betweenAlternativesEnabled =>
       adsEnabled && _betweenAlternativesEnabled;
+
+  // Granular control getters
+  bool get bannerEnabled => adsEnabled && (_config?.bannerEnabled ?? true);
+  bool get bannerTestMode => _config?.bannerTestMode ?? false;
+
+  bool get interstitialEnabled =>
+      adsEnabled && (_config?.interstitialEnabled ?? true);
+  bool get interstitialTestMode => _config?.interstitialTestMode ?? false;
+
+  bool get rewardedEnabled => adsEnabled && (_config?.rewardedEnabled ?? true);
+  bool get rewardedTestMode => _config?.rewardedTestMode ?? false;
+
+  bool get nativeEnabled => adsEnabled && (_config?.nativeEnabled ?? true);
+  bool get nativeTestMode => _config?.nativeTestMode ?? false;
 
   // Get appropriate ad unit ID based on test mode
   String get bannerAdUnitIdAndroid =>

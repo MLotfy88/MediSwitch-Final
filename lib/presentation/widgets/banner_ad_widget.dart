@@ -34,7 +34,8 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
     final adConfig = context.read<AdConfigProvider>();
 
     // Check if ads are globally enabled
-    if (!adConfig.adsEnabled) return;
+    // Check if banners are enabled specifically
+    if (!adConfig.bannerEnabled) return;
 
     // Check placement-specific setting
     bool placementEnabled = true;
@@ -57,8 +58,12 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
     final String adUnitId =
         Platform.isAndroid
-            ? adConfig.bannerAdUnitIdAndroid
-            : adConfig.bannerAdUnitIdIos;
+            ? (adConfig.bannerTestMode
+                ? 'ca-app-pub-3940256099942544/6300978111'
+                : adConfig.bannerAdUnitIdAndroid)
+            : (adConfig.bannerTestMode
+                ? 'ca-app-pub-3940256099942544/2934735716'
+                : adConfig.bannerAdUnitIdIos);
 
     if (adUnitId.isEmpty) return;
 
@@ -98,7 +103,7 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
     // Listen to changes in ad config (e.g. if user disables ads in real-time)
     final adConfig = context.watch<AdConfigProvider>();
 
-    bool shouldShow = adConfig.adsEnabled;
+    bool shouldShow = adConfig.bannerEnabled;
     if (shouldShow) {
       switch (widget.placement) {
         case BannerAdPlacement.homeBottom:

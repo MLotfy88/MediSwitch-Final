@@ -1,17 +1,15 @@
 name = "mediswitch-api"
-main = "src/index.js"
-compatibility_date = "2024-12-02"
-account_id = "9f7fd7dfef294f26d47d62df34726367"  # من GitHub Actions logs
+main = "src/worker.js"
+compatibility_date = "2024-12-08"
 
-# D1 Database binding
+# D1 Database Binding
 [[d1_databases]]
 binding = "DB"
-database_name = "mediswitch-db"
+database_name = "mediswitsh-db"
 database_id = "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
 
-# Environment variables
+# Environment Variables
 [vars]
+API_VERSION = "3.0"
 ENVIRONMENT = "production"
 
-# Secrets (to be set via wrangler secret put)
-# API_KEY = "your-secure-api-key"

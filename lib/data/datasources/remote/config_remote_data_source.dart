@@ -1,7 +1,9 @@
-import 'dart:convert';
 import 'dart:async'; // For TimeoutException
+import 'dart:convert';
 import 'dart:io'; // For SocketException
+
 import 'package:http/http.dart' as http;
+
 import '../../../core/error/exceptions.dart'; // Keep for now, will create if needed
 import '../../models/admob_config_model.dart'; // Corrected path
 import '../../models/general_config_model.dart'; // Corrected path
@@ -24,7 +26,7 @@ class ConfigRemoteDataSourceImpl implements ConfigRemoteDataSource {
 
   @override
   Future<AdMobConfigModel> getAdMobConfig() async {
-    final url = Uri.parse('$baseUrl/api/v1/config/ads/');
+    final url = Uri.parse('$baseUrl/api/config');
     print('Fetching AdMob config from: $url'); // Logging
     try {
       final response = await client

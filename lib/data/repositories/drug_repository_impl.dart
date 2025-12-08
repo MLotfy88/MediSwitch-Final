@@ -1,15 +1,14 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
-
-import '../../core/di/locator.dart'; // Import locator
-import '../../core/error/failures.dart';
-import '../../core/services/file_logger_service.dart'; // Import logger
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/repositories/drug_repository.dart';
-import '../datasources/local/sqlite_local_data_source.dart'; // Use SQLite
-import '../datasources/remote/drug_remote_data_source.dart';
-import '../models/medicine_model.dart'; // Import MedicineModel for conversion
+import 'package:mediswitch/core/di/locator.dart'; // Import locator
+import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
+import 'package:mediswitch/data/models/medicine_model.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/repositories/drug_repository.dart';
 // import '../../core/network/network_info.dart';
 
 // Define specific Failure types

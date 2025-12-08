@@ -137,9 +137,12 @@ class ModernDrugCard extends StatelessWidget {
                     vertical: 4,
                   ),
                   decoration: BoxDecoration(
-                    color: appColors.accent.withValues(
-                      alpha: isDark ? 0.2 : 0.1,
-                    ),
+                    color:
+                        isDark
+                            ? appColors.accent.withValues(alpha: 0.15)
+                            : appColors.accent.withValues(
+                              alpha: 0.3,
+                            ), // Darker background in light mode for contrast
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -147,7 +150,12 @@ class ModernDrugCard extends StatelessWidget {
                       Icon(
                         _getFormIcon(drug.form),
                         size: 14,
-                        color: appColors.accent,
+                        color:
+                            isDark
+                                ? appColors.accent
+                                : theme
+                                    .colorScheme
+                                    .onSecondaryContainer, // Better contrast in light mode
                       ),
                       const SizedBox(width: 6),
                       Text(
@@ -155,7 +163,10 @@ class ModernDrugCard extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 12,
                           fontWeight: FontWeight.w500,
-                          color: appColors.accent,
+                          color:
+                              isDark
+                                  ? appColors.accent
+                                  : theme.colorScheme.onSecondaryContainer,
                         ),
                       ),
                     ],
@@ -244,6 +255,29 @@ class ModernDrugCard extends StatelessWidget {
                   ),
               ],
             ),
+
+            // Last Updated Date
+            if (drug.lastPriceUpdate.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Icon(
+                    LucideIcons.clock,
+                    size: 12,
+                    color: appColors.mutedForeground,
+                  ),
+                  const SizedBox(width: 4),
+                  Text(
+                    'Updated: ${drug.lastPriceUpdate}',
+                    style: TextStyle(
+                      fontSize: 10,
+                      color: appColors.mutedForeground,
+                    ),
+                  ),
+                ],
+              ),
+            ],
           ],
         ),
       ),

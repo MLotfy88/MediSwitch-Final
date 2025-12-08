@@ -3,9 +3,11 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart';
 import 'package:mediswitch/presentation/services/ad_service.dart';
-import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/filter_pills.dart';
@@ -13,12 +15,15 @@ import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/search_filters_sheet.dart';
 import 'package:provider/provider.dart';
 
-import '../../domain/entities/drug_entity.dart';
-import 'details/drug_details_screen.dart';
-
+/// شاشة البحث عن الأدوية مع دعم Infinite scroll والفلاتر
 class SearchScreen extends StatefulWidget {
+  /// الاستعلام الأولي للبحث
   final String initialQuery;
+
+  /// الفئة الأولية للفلترة
   final String? initialCategory;
+
+  /// إنشاء شاشة بحث جديدة
   const SearchScreen({super.key, this.initialQuery = '', this.initialCategory});
 
   @override
@@ -102,7 +107,7 @@ class _SearchScreenState extends State<SearchScreen> {
   // Calculate generic "active filters" count manually
   int get _activeFiltersCount {
     int count = 0;
-    // Price range
+    // Price range - check if changed from default
     if (_currentFilters.priceRange.start > 0 ||
         _currentFilters.priceRange.end < 500) {
       count++;
@@ -113,6 +118,8 @@ class _SearchScreenState extends State<SearchScreen> {
     if (_currentFilters.companies.isNotEmpty) count++;
     // Sort
     if (_currentFilters.sortBy != 'relevance') count++;
+    // Dosage form
+    if (_selectedDosageForm != 'All') count++;
     return count;
   }
 
@@ -122,15 +129,21 @@ class _SearchScreenState extends State<SearchScreen> {
     final provider = context.watch<MedicineProvider>();
     final isRTL = Directionality.of(context) == TextDirection.rtl;
 
+    // ✅ استخدام theme colors
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final colorScheme = theme.colorScheme;
+
     return Scaffold(
-      backgroundColor: AppColors.background,
+      // ✅ استخدام theme background
+      backgroundColor: theme.scaffoldBackgroundColor,
       body: SafeArea(
         child: Column(
           children: [
             // Header with Search Bar
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-              color: AppColors.surface,
+              color: colorScheme.surface,
               child: Row(
                 children: [
                   GestureDetector(
@@ -138,13 +151,13 @@ class _SearchScreenState extends State<SearchScreen> {
                     child: Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
-                        color: AppColors.muted,
+                        color: colorScheme.surfaceContainerHighest,
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: const Icon(
-                        LucideIcons.arrowLeft,
+                      child: Icon(
+                        isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
                         size: 20,
-                        color: AppColors.foreground,
+                        color: colorScheme.onSurface,
                       ),
                     ),
                   ),
@@ -168,7 +181,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
             // Filter Pills
             Container(
-              color: AppColors.surface,
+              color: colorScheme.surface,
               width: double.infinity,
               padding: const EdgeInsets.only(bottom: 12),
               child: FilterPills(
@@ -197,17 +210,17 @@ class _SearchScreenState extends State<SearchScreen> {
                       children: [
                         Text(
                           '${provider.filteredMedicines.length}',
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontWeight: FontWeight.w600,
-                            color: AppColors.foreground,
+                            color: colorScheme.onSurface,
                           ),
                         ),
                         const SizedBox(width: 4),
                         Text(
                           isRTL ? "نتائج" : "results",
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 14,
-                            color: AppColors.mutedForeground,
+                            color: appColors.mutedForeground,
                           ),
                         ),
                       ],
@@ -221,17 +234,17 @@ class _SearchScreenState extends State<SearchScreen> {
                           vertical: 2,
                         ),
                         decoration: BoxDecoration(
-                          color: AppColors.primary.withValues(alpha: 0.1),
+                          color: colorScheme.primaryContainer,
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Text(
                           isRTL
                               ? '$_activeFiltersCount فلاتر نشطة'
                               : '$_activeFiltersCount active filters',
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: AppColors.primary,
+                            color: colorScheme.primary,
                           ),
                         ),
                       ),
@@ -253,6 +266,10 @@ class _SearchScreenState extends State<SearchScreen> {
     MedicineProvider provider,
     AppLocalizations l10n,
   ) {
+    final theme = Theme.of(context);
+    final appColors = theme.appColors;
+    final colorScheme = theme.colorScheme;
+
     if (provider.isLoading && provider.filteredMedicines.isEmpty) {
       return const Center(child: CircularProgressIndicator());
     }
@@ -268,29 +285,29 @@ class _SearchScreenState extends State<SearchScreen> {
             Container(
               width: 80,
               height: 80,
-              decoration: const BoxDecoration(
-                color: AppColors.muted,
+              decoration: BoxDecoration(
+                color: colorScheme.surfaceContainerHighest,
                 shape: BoxShape.circle,
               ),
-              child: const Icon(
-                LucideIcons.x,
+              child: Icon(
+                LucideIcons.searchX,
                 size: 40,
-                color: AppColors.mutedForeground,
+                color: appColors.mutedForeground,
               ),
             ),
             const SizedBox(height: 16),
             Text(
               l10n.noResultsFoundTitle,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
-                color: AppColors.foreground,
+                color: colorScheme.onSurface,
               ),
             ),
             const SizedBox(height: 8),
-            const Text(
-              "Try adjusting your search or filters",
-              style: TextStyle(fontSize: 14, color: AppColors.mutedForeground),
+            Text(
+              "حاول تعديل البحث أو الفلاتر",
+              style: TextStyle(fontSize: 14, color: appColors.mutedForeground),
             ),
           ],
         ),

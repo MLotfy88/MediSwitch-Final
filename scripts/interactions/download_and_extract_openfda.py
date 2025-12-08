@@ -116,64 +116,87 @@ def load_known_ingredients(json_path: str) -> List[str]:
     return sorted(list(ingredients), key=len, reverse=True)
 
 def find_interacting_drug(text: str, current_drug: str, known_ingredients: List[str]) -> str:
-    """Find the other drug name in the interaction text"""
+    """Find the other drug name in the interaction text using smart extraction"""
     text_lower = text.lower()
     current_drug_lower = current_drug.lower()
     
-    # Common drug classes to look for if specific ingredient not found
+    # Common drug classes to look for
     drug_classes = [
         'anticoagulants', 'antibiotics', 'nsaids', 'diuretics', 'beta blockers',
         'calcium channel blockers', 'ace inhibitors', 'statins', 'antidepressants',
         'antihistamines', 'corticosteroids', 'blood thinners', 'mao inhibitors',
-        'alcohol', 'food', 'grapefruit'
+        'ssris', 'snris', 'benzodiazepines', 'opioids', 'antipsychotics',
+        'alcohol', 'food', 'grapefruit juice', 'st john\'s wort'
     ]
     
-    # 1. Search for specific ingredients
-    # Optimization: Check if any known ingredient is in text
-    # This is slow O(N*M), but for offline extraction it's acceptable.
-    # To speed up, we can limit to top 2000 common drugs or use Aho-Corasick, 
-    # but let's stick to simple iteration for now as the list isn't huge (80k entries might be slow though).
-    # Let's try to be smarter: only look for words that look like drugs (capitalized in original text?)
-    # OpenFDA text is often lowercase.
-    
-    # Optimization: Tokenize text and check against set? 
-    # Problem: Multi-word ingredients ("sodium chloride").
-    
-    # Let's try checking drug classes first (high value)
+    # Step 1: Check for drug classes first (these are high-value and fast)
     for dc in drug_classes:
         if dc in text_lower and dc not in current_drug_lower:
             return dc
-            
-    # Then check specific ingredients (limiting to longer ones mostly)
-    # This loop might be too slow if known_ingredients is 20k+. 
-    # Let's rely on a simpler regex for now: look for capitalized words in middle of sentence?
-    # No, text is often unified case.
     
-    # Fallback: Just return 'multiple' if we can't be sure, but let's try to catch at least some.
-    # Actually, we passed known_ingredients. Let's iterate but maybe limit count or size.
+    # Step 2: Use regex patterns to extract candidate drug names
+    # Common patterns in OpenFDA text:
+    patterns = [
+        r'\bwith\s+([a-z][a-z0-9\-\s]{2,25})(?:\s+may|\s+can|\s+should|[,;.])',
+        r'\bco-?administered with\s+([a-z][a-z0-9\-\s]{2,25})(?:\s|[,;.])',
+        r'\btaking\s+([a-z][a-z0-9\-\s]{2,25})(?:\s+may|\s+can|\s+should|[,;.])',
+        r'\bcombination (?:of|with)\s+([a-z][a-z0-9\-\s]{2,25})(?:\s|[,;.])',
+        r'\bconcomitant (?:use of|with)\s+([a-z][a-z0-9\-\s]{2,25})(?:\s|[,;.])',
+        r'\b(?:use of|using)\s+([a-z][a-z0-9\-\s]{2,25})\s+with\s+',
+        r'\b([a-z][a-z0-9\-\s]{2,25})\s+and\s+' + re.escape(current_drug_lower),
+    ]
     
-    # PERFORMANCE HACK: Only check ingredients that are actually present as substrings?
-    # Too expensive. 
-    
-    # Let's search for ingredients but break after first match to save time?
-    # Or finding ALL and taking the longest?
-    
-    # Let's skip the heavy ingredient search for this iteration to avoid TIMEOUTs on GitHub Actions.
-    # Instead, let's use a heuristic: words following "with", "and", "interaction of"
-    
-    headers = ['with', 'co-administered', 'taking', 'combination of', 'and']
-    for header in headers:
-        pattern = rf"\b{header}\s+([a-zA-Z0-9\-\s]+?)(?:[.,;]|\s+and\b|\s+with\b)"
-        match = re.search(pattern, text_lower)
-        if match:
+    candidates = []
+    for pattern in patterns:
+        matches = re.finditer(pattern, text_lower)
+        for match in matches:
             candidate = match.group(1).strip()
             # Clean up candidate
-            if len(candidate) > 2 and len(candidate) < 30 and candidate not in current_drug_lower:
-                # remove stats like "mg"
-                candidate = re.sub(r'\b\d+mg\b', '', candidate).strip()
+            candidate = re.sub(r'\b\d+\s*(?:mg|mcg|ml|g)\b', '', candidate).strip()
+            candidate = re.sub(r'\s{2,}', ' ', candidate)  # Remove extra spaces
+            
+            if len(candidate) > 3 and len(candidate) < 30 and candidate not in current_drug_lower:
+                candidates.append(candidate)
+    
+    # Step 3: Check candidates against known ingredients
+    # This is the KEY improvement - actually use the known_ingredients list!
+    # BUT use it smartly to avoid timeout
+    
+    if candidates and known_ingredients:
+        # Create a fast lookup set from known ingredients (first 5000 most common)
+        # This limits search space while covering most drugs
+        known_set = set(ing.lower() for ing in known_ingredients[:5000])
+        
+        # Check each candidate
+        for candidate in candidates:
+            # Exact match
+            if candidate in known_set:
                 return candidate
-
-    return 'multiple'
+            
+            # Partial match (candidate contains a known ingredient or vice versa)
+            for known in known_set:
+                if len(known) > 5:  # Only check meaningful names
+                    if known in candidate or candidate in known:
+                        return known if len(known) < len(candidate) else candidate
+    
+    # Step 4: If we found candidates but none matched known ingredients,
+    # return the first reasonable candidate
+    if candidates:
+        return candidates[0]
+    
+    # Step 5: Last resort - extract any capitalized words or medical-looking terms
+    # Look for words that might be drug names (3-20 chars, alpha with optional hyphen)
+    potential_drugs = re.findall(r'\b([a-z]{3,20}(?:-[a-z]{3,20})?)\b', text_lower)
+    
+    for word in potential_drugs:
+        if word != current_drug_lower and len(word) > 4:
+            # Check if it looks like a drug name (ends with common suffixes)
+            drug_suffixes = ['cillin', 'mycin', 'pril', 'dipine', 'olol', 'azole', 'statin']
+            if any(word.endswith(suffix) for suffix in drug_suffixes):
+                return word
+    
+    # Fallback: return a more informative placeholder
+    return 'other_medications'
 
 def extract_interactions_from_json(json_path: str, known_ingredients: List[str]) -> List[Dict]:
     """Extract interactions using streaming JSON parser"""
