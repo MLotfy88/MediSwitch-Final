@@ -27,6 +27,8 @@ import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/section_header.dart';
 import 'package:provider/provider.dart';
 
+import 'details/ingredient_interactions_screen.dart';
+
 class HomeScreen extends StatefulWidget {
   final VoidCallback? onSearchTap;
 
@@ -398,7 +400,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 return HighRiskIngredientCard(
                   ingredient: ingredient,
                   onTap: () {
-                    // Action for tapping ingredient
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (_) => IngredientInteractionsScreen(
+                              ingredient: ingredient,
+                            ),
+                      ),
+                    );
                   },
                 ).animate().slideX(delay: (50 * index).ms);
               },

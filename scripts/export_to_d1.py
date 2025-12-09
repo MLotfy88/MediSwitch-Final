@@ -66,7 +66,7 @@ def export_to_sql(db_path='assets/medications.db', output_path='d1_import.sql'):
             
             # Write in batches
             if len(batch) >= batch_size:
-                f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, ")
+                f.write("REPLACE INTO drugs (id, trade_name, arabic_name, old_price, price, active, ")
                 f.write("main_category, main_category_ar, category, category_ar, company, ")
                 f.write("dosage_form, dosage_form_ar, unit, usage, usage_ar, description, ")
                 f.write("last_price_update, concentration, visits) VALUES\n")
@@ -79,7 +79,7 @@ def export_to_sql(db_path='assets/medications.db', output_path='d1_import.sql'):
         
         # Write remaining batch
         if batch:
-            f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, ")
+            f.write("REPLACE INTO drugs (id, trade_name, arabic_name, old_price, price, active, ")
             f.write("main_category, main_category_ar, category, category_ar, company, ")
             f.write("dosage_form, dosage_form_ar, unit, usage, usage_ar, description, ")
             f.write("last_price_update, concentration, visits) VALUES\n")

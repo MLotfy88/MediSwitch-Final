@@ -11,7 +11,7 @@ import '../../domain/entities/drug_entity.dart';
 import '../bloc/dose_calculator_provider.dart';
 import '../bloc/medicine_provider.dart';
 import '../theme/app_colors_extension.dart';
-import '../widgets/custom_searchable_dropdown.dart';
+import '../widgets/drug_search_delegate.dart';
 import '../widgets/modern_badge.dart';
 
 class WeightCalculatorScreen extends StatefulWidget {
@@ -518,6 +518,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     );
   }
 
+  // Implementation of _buildDrugSelectionCard
   Widget _buildDrugSelectionCard(
     BuildContext context,
     AppLocalizations l10n,
@@ -562,23 +563,85 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             ],
           ),
           const SizedBox(height: 16),
-          CustomSearchableDropdown(
-            items: availableDrugs,
-            selectedItem: calculatorProvider.selectedDrug,
-            onChanged: (DrugEntity? newValue) {
-              context.read<DoseCalculatorProvider>().setSelectedDrug(newValue);
+
+          // Replaced Dropdown with Search Button
+          InkWell(
+            onTap: () async {
+              final result = await showSearch<DrugEntity?>(
+                context: context,
+                delegate: DrugSearchDelegate(),
+              );
+              if (result != null) {
+                context.read<DoseCalculatorProvider>().setSelectedDrug(result);
+              }
             },
-            labelText: '',
-            hintText: isRTL ? 'اختر دواء...' : 'Select a drug...',
-            prefixIcon: LucideIcons.chevronDown,
-            validator:
-                (_) =>
-                    calculatorProvider.selectedDrug == null
-                        ? (isRTL
-                            ? 'يرجى اختيار الدواء'
-                            : 'Please select a drug')
-                        : null,
+            borderRadius: BorderRadius.circular(12),
+            child: Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+              decoration: BoxDecoration(
+                color: theme.scaffoldBackgroundColor,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(
+                  color:
+                      calculatorProvider.selectedDrug == null
+                          ? theme.appColors.mutedForeground.withOpacity(0.3)
+                          : theme.colorScheme.primary,
+                ),
+              ),
+              child: Row(
+                children: [
+                  Icon(
+                    LucideIcons.search,
+                    size: 18,
+                    color: theme.appColors.mutedForeground,
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      calculatorProvider.selectedDrug?.tradeName ??
+                          (isRTL ? 'ابحث عن دواء...' : 'Search for a drug...'),
+                      style: TextStyle(
+                        color:
+                            calculatorProvider.selectedDrug == null
+                                ? theme.appColors.mutedForeground
+                                : theme.colorScheme.onSurface,
+                        fontWeight:
+                            calculatorProvider.selectedDrug == null
+                                ? FontWeight.normal
+                                : FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                  if (calculatorProvider.selectedDrug != null)
+                    Icon(
+                      LucideIcons.checkCircle,
+                      size: 18,
+                      color: theme.colorScheme.primary,
+                    )
+                  else
+                    Icon(
+                      LucideIcons.chevronRight,
+                      size: 18,
+                      color: theme.appColors.mutedForeground,
+                    ),
+                ],
+              ),
+            ),
           ),
+
+          if (calculatorProvider.selectedDrug != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 8, right: 4, left: 4),
+              child: Text(
+                '${calculatorProvider.selectedDrug!.active ?? ''} • ${calculatorProvider.selectedDrug!.concentration ?? ''}',
+                style: TextStyle(
+                  fontSize: 12,
+                  color: theme.appColors.mutedForeground,
+                ),
+              ),
+            ),
+
           const SizedBox(height: 16),
           SizedBox(
             width: double.infinity,

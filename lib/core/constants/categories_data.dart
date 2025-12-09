@@ -27,16 +27,7 @@ class CategoryData {
 
 // القاموس الرئيسي للفئات بناءً على بيانات قاعدة البيانات مع تحسين الأيقونات
 final List<CategoryData> kAllCategories = [
-  CategoryData(
-    id: 'anti_infective',
-    nameEn: 'Anti Infective',
-    nameAr: 'مضادات العدوى',
-    shortNameEn: 'Anti Inf.',
-    shortNameAr: 'مضادات',
-    count: 1468,
-    icon: LucideIcons.bug, // محاربة العدوى/البكتيريا
-    colorName: 'teal',
-  ),
+  // 1. Cardiovascular (القلب) - Priority 1
   CategoryData(
     id: 'cardiovascular',
     nameEn: 'Cardiovascular',
@@ -44,69 +35,21 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Cardio',
     shortNameAr: 'قلب',
     count: 741,
-    icon: LucideIcons.heart, // Heart كما في التصميم المرجعي
+    icon: LucideIcons.heart,
     colorName: 'red',
   ),
+  // 2. Anti Infective (مضادات) - Priority 2
   CategoryData(
-    id: 'dermatology',
-    nameEn: 'Dermatology',
-    nameAr: 'الجلدية',
-    shortNameEn: 'Derma',
-    shortNameAr: 'جلدية',
-    count: 1280,
-    icon: LucideIcons.sun, // الشمس/البشرة والحروق
-    colorName: 'orange',
+    id: 'anti_infective',
+    nameEn: 'Anti Infective',
+    nameAr: 'مضادات العدوى',
+    shortNameEn: 'Anti Inf.',
+    shortNameAr: 'مضادات',
+    count: 1468,
+    icon: LucideIcons.bug,
+    colorName: 'teal',
   ),
-  CategoryData(
-    id: 'endocrinology',
-    nameEn: 'Endocrinology',
-    nameAr: 'الغدد الصماء',
-    shortNameEn: 'Endo',
-    shortNameAr: 'غدد',
-    count: 11,
-    icon: LucideIcons.activity, // النشاط الحيوي/الهرمونات
-    colorName: 'purple',
-  ),
-  CategoryData(
-    id: 'general',
-    nameEn: 'General',
-    nameAr: 'عام',
-    shortNameEn: 'General',
-    shortNameAr: 'عام',
-    count: 17009,
-    icon: LucideIcons.stethoscope, // السماعة الطبية - رمز عام
-    colorName: 'cyan',
-  ),
-  CategoryData(
-    id: 'immunology',
-    nameEn: 'Immunology',
-    nameAr: 'المناعة',
-    shortNameEn: 'Immune',
-    shortNameAr: 'مناعة',
-    count: 276,
-    icon: LucideIcons.shieldCheck, // الدرع - رمز المناعة والحماية
-    colorName: 'emerald',
-  ),
-  CategoryData(
-    id: 'nutrition',
-    nameEn: 'Nutrition',
-    nameAr: 'التغذية',
-    shortNameEn: 'Nutrition',
-    shortNameAr: 'تغذية',
-    count: 3219,
-    icon: LucideIcons.apple, // التفاحة - رمز التغذية والصحة
-    colorName: 'lime',
-  ),
-  CategoryData(
-    id: 'pain_relief',
-    nameEn: 'Pain Relief',
-    nameAr: 'مسكنات',
-    shortNameEn: 'Pain',
-    shortNameAr: 'مسكنات',
-    count: 564,
-    icon: LucideIcons.zap, // البرق - ترمز للألم أو تسكينه السريع
-    colorName: 'indigo',
-  ),
+  // 3. Psychiatric (المخ والأعصاب/النفسية) - Priority 3 - CHANGED to Blue
   CategoryData(
     id: 'psychiatric',
     nameEn: 'Psychiatric',
@@ -114,9 +57,43 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Neuro',
     shortNameAr: 'نفسية',
     count: 534,
-    icon: LucideIcons.brain, // الدماغ - رمز الصحة النفسية
-    colorName: 'pink',
+    icon: LucideIcons.brain,
+    colorName: 'blue', // Changed from pink to blue as requested
   ),
+  // 4. General
+  CategoryData(
+    id: 'general',
+    nameEn: 'General',
+    nameAr: 'عام',
+    shortNameEn: 'General',
+    shortNameAr: 'عام',
+    count: 17009,
+    icon: LucideIcons.stethoscope,
+    colorName: 'cyan',
+  ),
+  // 5. Nutrition
+  CategoryData(
+    id: 'nutrition',
+    nameEn: 'Nutrition',
+    nameAr: 'التغذية',
+    shortNameEn: 'Nutrition',
+    shortNameAr: 'تغذية',
+    count: 3219,
+    icon: LucideIcons.apple,
+    colorName: 'lime',
+  ),
+  // 6. Dermatology
+  CategoryData(
+    id: 'dermatology',
+    nameEn: 'Dermatology',
+    nameAr: 'الجلدية',
+    shortNameEn: 'Derma',
+    shortNameAr: 'جلدية',
+    count: 1280,
+    icon: LucideIcons.sun,
+    colorName: 'orange',
+  ),
+  // 7. Respiratory
   CategoryData(
     id: 'respiratory',
     nameEn: 'Respiratory',
@@ -124,8 +101,41 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Resp.',
     shortNameAr: 'تنفسي',
     count: 398,
-    icon: LucideIcons.wind, // الهواء/الرياح - رمز التنفس
+    icon: LucideIcons.wind,
     colorName: 'sky',
+  ),
+  // 8. Pain Relief
+  CategoryData(
+    id: 'pain_relief',
+    nameEn: 'Pain Relief',
+    nameAr: 'مسكنات',
+    shortNameEn: 'Pain',
+    shortNameAr: 'مسكنات',
+    count: 564,
+    icon: LucideIcons.zap,
+    colorName: 'indigo',
+  ),
+  // 9. Immunology
+  CategoryData(
+    id: 'immunology',
+    nameEn: 'Immunology',
+    nameAr: 'المناعة',
+    shortNameEn: 'Immune',
+    shortNameAr: 'مناعة',
+    count: 276,
+    icon: LucideIcons.shieldCheck,
+    colorName: 'emerald',
+  ),
+  // 10. Endocrinology
+  CategoryData(
+    id: 'endocrinology',
+    nameEn: 'Endocrinology',
+    nameAr: 'الغدد الصماء',
+    shortNameEn: 'Endo',
+    shortNameAr: 'غدد',
+    count: 11,
+    icon: LucideIcons.activity,
+    colorName: 'purple',
   ),
 ];
 
@@ -154,7 +164,7 @@ CategoryColorStyle getCategoryColorStyle(
       );
     case 'blue':
       return CategoryColorStyle(
-        background: appColors.infoSoft,
+        background: appColors.infoSoft, // Blue/Info
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
