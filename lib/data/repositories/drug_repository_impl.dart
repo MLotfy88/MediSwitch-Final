@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
+import 'package:flutter/foundation.dart'; // For compute
 import 'package:mediswitch/core/di/locator.dart'; // Import locator
 import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
@@ -11,6 +12,11 @@ import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
+
+// Top-level function for compute
+List<MedicineModel> _parseMedicineModels(List<Map<String, dynamic>> data) {
+  return data.map((json) => MedicineModel.fromMap(json)).toList();
+}
 // import '../../core/network/network_info.dart';
 
 // Define specific Failure types
@@ -354,12 +360,11 @@ class DrugRepositoryImpl implements DrugRepository {
           // Cache the updated drugs to local DB
           final drugsData = data['drugs'];
           if (drugsData != null && drugsData is List && drugsData.isNotEmpty) {
-            final List<MedicineModel> models = [];
-            for (final drug in drugsData) {
-              if (drug is Map<String, dynamic>) {
-                models.add(MedicineModel.fromMap(drug));
-              }
-            }
+            // Use compute to map JSON to Models in a background isolate
+            final List<MedicineModel> models = await compute(
+              _parseMedicineModels,
+              drugsData.cast<Map<String, dynamic>>(),
+            );
 
             if (models.isNotEmpty) {
               // Insert/update drugs in DB
