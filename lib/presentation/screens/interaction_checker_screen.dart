@@ -8,6 +8,7 @@ import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../theme/app_colors.dart';
+import '../theme/app_colors_extension.dart';
 import '../widgets/drug_search_delegate.dart';
 import '../widgets/interaction_card.dart';
 import '../widgets/modern_badge.dart';
@@ -47,7 +48,14 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   }
 
   void _addDrug(DrugEntity drug) {
-    if (_selectedDrugs.any((d) => d.id == drug.id)) return;
+    // Robust check for duplicates
+    if (_selectedDrugs.any(
+      (d) =>
+          (d.id != null && d.id == drug.id) ||
+          (d.tradeName.toLowerCase() == drug.tradeName.toLowerCase()),
+    ))
+      return;
+
     setState(() {
       _selectedDrugs.add(drug);
     });
@@ -56,7 +64,13 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
 
   void _removeDrug(String drugId) {
     setState(() {
-      _selectedDrugs.removeWhere((d) => d.id.toString() == drugId);
+      // Robust removal
+      _selectedDrugs.removeWhere(
+        (d) =>
+            (d.id?.toString() == drugId) ||
+            (d.tradeName ==
+                drugId), // Fallback if ID passed was name, though unlikely with current implementation
+      );
     });
     _checkInteractions();
   }
@@ -65,43 +79,51 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     if (_selectedDrugs.length < 2) {
       setState(() {
         _interactions = [];
-        _errorMessage = null;
       });
       return;
     }
 
     setState(() {
       _isLoading = true;
-      _errorMessage = null;
     });
 
     final result = await _interactionRepository.findInteractionsForMedicines(
       _selectedDrugs,
     );
 
-    if (mounted) {
-      setState(() {
-        result.fold(
-          (failure) {
-            _errorMessage = "Error: ${failure.message}";
-            _interactions = [];
-          },
-          (interactions) {
-            _interactions = interactions;
-          },
+    if (!mounted) return;
+
+    result.fold(
+      (failure) {
+        setState(() {
+          _isLoading = false;
+          // Show error snackbar
+        });
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Failed to check interactions: ${failure.message}'),
+          ),
         );
-        _isLoading = false;
-      });
-    }
+      },
+      (interactions) {
+        setState(() {
+          _interactions = interactions;
+          _isLoading = false;
+        });
+      },
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final appColors = theme.appColors;
 
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: theme.scaffoldBackgroundColor,
       body: CustomScrollView(
         slivers: [
           _buildHeader(context, l10n, isRTL),
@@ -138,14 +160,16 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   }
 
   Widget _buildHeader(BuildContext context, AppLocalizations l10n, bool isRTL) {
+    final theme = Theme.of(context);
     return SliverAppBar(
       pinned: true,
       expandedHeight: 120, // Compact header as per docs style
       backgroundColor: AppColors.warning,
+      // Keep distinct warning color for header but ensure icon contrast
       leading: IconButton(
         icon: Icon(
           isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
-          color: AppColors.warningForeground,
+          color: Colors.white,
         ),
         onPressed: () => Navigator.pop(context),
         style: IconButton.styleFrom(
@@ -225,11 +249,18 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     AppLocalizations l10n,
     bool isRTL,
   ) {
+    final theme = Theme.of(context);
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.card,
+        color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
-        boxShadow: AppColors.shadowCard,
+        boxShadow: [
+          BoxShadow(
+            color: theme.shadowColor.withOpacity(0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       padding: const EdgeInsets.all(16),
       child: Column(
@@ -238,14 +269,18 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
           // Header
           Row(
             children: [
-              const Icon(LucideIcons.pill, size: 16, color: AppColors.primary),
+              Icon(
+                LucideIcons.pill,
+                size: 16,
+                color: theme.colorScheme.primary,
+              ),
               const SizedBox(width: 8),
               Text(
                 isRTL ? 'الأدوية المحددة' : 'Selected Drugs',
-                style: const TextStyle(
+                style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 16,
-                  color: AppColors.foreground,
+                  color: theme.colorScheme.onSurface,
                 ),
               ),
               const SizedBox(width: 12),
@@ -273,8 +308,8 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
               padding: const EdgeInsets.symmetric(vertical: 8),
               child: Text(
                 isRTL ? 'لم يتم تحديد أي أدوية بعد' : 'No drugs selected yet',
-                style: const TextStyle(
-                  color: AppColors.mutedForeground,
+                style: TextStyle(
+                  color: theme.appColors.mutedForeground,
                   fontSize: 14,
                 ),
               ),
@@ -290,24 +325,25 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   }
 
   Widget _buildDrugChip(BuildContext context, DrugEntity drug) {
+    final theme = Theme.of(context);
     return Container(
       padding: const EdgeInsets.fromLTRB(12, 8, 8, 8),
       decoration: BoxDecoration(
-        color: AppColors.primary.withOpacity(0.1),
+        color: theme.colorScheme.primary.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(24),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(LucideIcons.pill, size: 14, color: AppColors.primary),
+          Icon(LucideIcons.pill, size: 14, color: theme.colorScheme.primary),
           const SizedBox(width: 8),
           Flexible(
             child: Text(
               drug.tradeName,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
-                color: AppColors.primary,
+                color: theme.colorScheme.primary,
               ),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -315,18 +351,18 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
           ),
           const SizedBox(width: 8),
           InkWell(
-            onTap: () => _removeDrug(drug.id.toString()),
+            onTap: () => _removeDrug(drug.id?.toString() ?? drug.tradeName),
             borderRadius: BorderRadius.circular(12),
             child: Container(
               padding: const EdgeInsets.all(4),
               decoration: BoxDecoration(
-                color: AppColors.primary.withOpacity(0.2),
+                color: theme.colorScheme.primary.withValues(alpha: 0.2),
                 shape: BoxShape.circle,
               ),
-              child: const Icon(
+              child: Icon(
                 LucideIcons.x,
                 size: 10,
-                color: AppColors.primary,
+                color: theme.colorScheme.primary,
               ),
             ),
           ),
@@ -340,6 +376,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     AppLocalizations l10n,
     bool isRTL,
   ) {
+    final theme = Theme.of(context);
     return InkWell(
       onTap: () async {
         final result = await showSearch<DrugEntity?>(
@@ -356,27 +393,25 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
         padding: const EdgeInsets.symmetric(vertical: 14),
         decoration: BoxDecoration(
           border: Border.all(
-            color: AppColors.mutedForeground.withOpacity(0.3),
+            color: theme.appColors.mutedForeground.withOpacity(0.3),
             width: 2,
-            style:
-                BorderStyle
-                    .solid, // Should be dashed in pure CSS, simpler solid here or use package
+            style: BorderStyle.solid,
           ),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(
+            Icon(
               LucideIcons.plus,
               size: 20,
-              color: AppColors.mutedForeground,
+              color: theme.appColors.mutedForeground,
             ),
             const SizedBox(width: 8),
             Text(
               isRTL ? 'إضافة دواء' : 'Add Drug',
-              style: const TextStyle(
-                color: AppColors.mutedForeground,
+              style: TextStyle(
+                color: theme.appColors.mutedForeground,
                 fontWeight: FontWeight.w500,
                 fontSize: 16,
               ),
@@ -388,6 +423,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   }
 
   Widget _buildResultsHeader(BuildContext context, bool isRTL) {
+    final theme = Theme.of(context);
     return Row(
       children: [
         const Icon(
@@ -398,10 +434,10 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
         const SizedBox(width: 8),
         Text(
           isRTL ? 'نتائج التفاعلات' : 'Interaction Results',
-          style: const TextStyle(
+          style: TextStyle(
             fontWeight: FontWeight.w600,
             fontSize: 16,
-            color: AppColors.foreground,
+            color: theme.colorScheme.onSurface,
           ),
         ),
       ],

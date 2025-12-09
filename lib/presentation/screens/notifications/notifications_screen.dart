@@ -139,6 +139,30 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                 padding: const EdgeInsets.all(16),
                 child: Row(
                   children: [
+                    // Back Button
+                    if (Navigator.canPop(context))
+                      Padding(
+                        padding: const EdgeInsetsDirectional.only(end: 12),
+                        child: IconButton(
+                          onPressed: () => Navigator.pop(context),
+                          icon: Icon(
+                            isRTL
+                                ? LucideIcons.arrowRight
+                                : LucideIcons.arrowLeft,
+                            color: colorScheme.onSurface,
+                          ),
+                          style: IconButton.styleFrom(
+                            backgroundColor:
+                                colorScheme.surfaceContainerHighest,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            padding: const EdgeInsets.all(8),
+                            minimumSize: const Size(40, 40),
+                          ),
+                        ),
+                      ),
+
                     // Icon Container
                     Container(
                       width: 40,

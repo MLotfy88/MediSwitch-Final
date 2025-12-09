@@ -129,10 +129,37 @@ class MedicineProvider extends ChangeNotifier {
     loadInitialData();
   }
 
-  /// Smart refresh checking if update is needed
+  /// True Smart Refresh: Checks if data actually changed before reloading
   Future<void> smartRefresh() async {
-    _logger.i("MedicineProvider: Smart refresh requested");
-    await loadInitialData(forceUpdate: true);
+    _logger.i(
+      "MedicineProvider: Smart refresh requested checking timestamps...",
+    );
+
+    // 1. Check current DB timestamp
+    final result = await _getLastUpdateTimestampUseCase(NoParams());
+
+    await result.fold(
+      (failure) async {
+        // Fallback to force update if check fails
+        _logger.w("Smart refresh timestamp check failed, forcing update.");
+        await loadInitialData(forceUpdate: true);
+      },
+      (newTimestamp) async {
+        if (_lastUpdateTimestamp != null &&
+            newTimestamp == _lastUpdateTimestamp) {
+          _logger.i(
+            "Data is up to date (Timestamp: $newTimestamp). Skipping heavy reload.",
+          );
+          // Optional: Just refresh the "Recently Updated" list or lightweight data
+          // to ensure the UI feels responsive ("pull-to-refresh" completed)
+          await _loadSimulatedSections();
+          notifyListeners();
+        } else {
+          _logger.i("Data changed or timestamp missing. Reloading all.");
+          await loadInitialData(forceUpdate: true);
+        }
+      },
+    );
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
@@ -141,9 +168,6 @@ class MedicineProvider extends ChangeNotifier {
     );
 
     if (_isLoading && !forceUpdate) {
-      _logger.i(
-        "MedicineProvider: loadInitialData called but already loading. Skipping.",
-      );
       return;
     }
 
@@ -155,7 +179,6 @@ class MedicineProvider extends ChangeNotifier {
     _currentPage = 0;
     _hasMoreItems = true;
 
-    // Only clear data if it's NOT a force update (refresh) to prevent UI flash/blank
     if (!forceUpdate) {
       _isInitialLoadComplete = false;
       _filteredMedicines = [];
@@ -168,16 +191,20 @@ class MedicineProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      // Load timestamp
+      // 1. Load Timestamp first
       await _loadAndUpdateTimestamp();
 
-      // Load categories
-      await _loadCategories();
+      // 2. Parallelize Loading Sections to reduce wait time
+      // _loadCategories might be slightly heavy, so let's separate it if needed,
+      // but running it in parallel with sections is better than sequential.
 
-      // Load simulated sections (High Risk Ingredients loaded here)
-      await Future.wait([_loadSimulatedSections(), _loadHighRiskIngredients()]);
+      await Future.wait([
+        _loadCategories(),
+        _loadSimulatedSections(),
+        _loadHighRiskIngredients(),
+      ]);
 
-      // Apply initial filters (fetch first page)
+      // 3. Apply initial filters (fetch first page of ALL drugs)
       await _applyFilters(page: 0);
 
       _isInitialLoadComplete = true;

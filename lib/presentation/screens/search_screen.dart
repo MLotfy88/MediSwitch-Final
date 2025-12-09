@@ -14,6 +14,7 @@ import 'package:mediswitch/presentation/widgets/filter_pills.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/search_filters_sheet.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 /// شاشة البحث عن الأدوية مع دعم Infinite scroll والفلاتر
 class SearchScreen extends StatefulWidget {
@@ -38,23 +39,89 @@ class _SearchScreenState extends State<SearchScreen> {
   String _selectedDosageForm = 'All'; // Local state for filter pill
   FilterState _currentFilters = const FilterState(); // Added filter state
 
+  List<String> _searchHistory = [];
+  bool _isHistoryLoading = true;
+
   @override
   void initState() {
     super.initState();
+    _loadSearchHistory();
     _searchController.text = widget.initialQuery;
 
     // Initial setup listeners ...
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
         final provider = context.read<MedicineProvider>();
+
+        // Handle Initial Query
         if (widget.initialQuery.isNotEmpty &&
             provider.searchQuery != widget.initialQuery) {
-          provider.setSearchQuery(widget.initialQuery); // Trigger search
+          provider.setSearchQuery(widget.initialQuery);
+          _addToHistory(widget.initialQuery);
+        }
+        // Handle Initial Category
+        else if (widget.initialCategory != null &&
+            widget.initialCategory!.isNotEmpty) {
+          provider.setCategory(widget.initialCategory!);
+          // Don't add category to text history usually, or maybe we do?
+          // Usually history is typed text.
         }
       }
     });
 
     _scrollController.addListener(_onScroll);
+  }
+
+  Future<void> _loadSearchHistory() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _searchHistory = prefs.getStringList('search_history') ?? [];
+      _isHistoryLoading = false;
+    });
+  }
+
+  Future<void> _addToHistory(String query) async {
+    if (query.trim().isEmpty) return;
+    final prefs = await SharedPreferences.getInstance();
+    List<String> history = prefs.getStringList('search_history') ?? [];
+
+    // Remove if exists to move to top
+    history.remove(query.trim());
+    // Add to start
+    history.insert(0, query.trim());
+    // Limit to 10
+    if (history.length > 10) {
+      history = history.sublist(0, 10);
+    }
+
+    await prefs.setStringList('search_history', history);
+    if (mounted) {
+      setState(() {
+        _searchHistory = history;
+      });
+    }
+  }
+
+  Future<void> _removeFromHistory(String query) async {
+    final prefs = await SharedPreferences.getInstance();
+    List<String> history = prefs.getStringList('search_history') ?? [];
+    history.remove(query);
+    await prefs.setStringList('search_history', history);
+    if (mounted) {
+      setState(() {
+        _searchHistory = history;
+      });
+    }
+  }
+
+  Future<void> _clearHistory() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove('search_history');
+    if (mounted) {
+      setState(() {
+        _searchHistory = [];
+      });
+    }
   }
 
   @override
@@ -146,18 +213,24 @@ class _SearchScreenState extends State<SearchScreen> {
               color: colorScheme.surface,
               child: Row(
                 children: [
-                  GestureDetector(
-                    onTap: () => Navigator.maybePop(context),
-                    child: Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainerHighest,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Icon(
-                        isRTL ? LucideIcons.arrowRight : LucideIcons.arrowLeft,
-                        size: 20,
-                        color: colorScheme.onSurface,
+                  Material(
+                    color: Colors.transparent,
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(12),
+                      onTap: () => Navigator.of(context).pop(),
+                      child: Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: colorScheme.surfaceContainerHighest,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Icon(
+                          isRTL
+                              ? LucideIcons.arrowRight
+                              : LucideIcons.arrowLeft,
+                          size: 20,
+                          color: colorScheme.onSurface,
+                        ),
                       ),
                     ),
                   ),
@@ -167,10 +240,10 @@ class _SearchScreenState extends State<SearchScreen> {
                       controller: _searchController,
                       hintText: l10n.searchHint,
                       onChanged: (String query) {
-                        provider.setSearchQuery(
-                          query,
-                          triggerSearch: true,
-                        ); // Debouncing usually handled in provider or here
+                        provider.setSearchQuery(query, triggerSearch: true);
+                        if (query.isNotEmpty) {
+                          _addToHistory(query);
+                        }
                       },
                       onFilterTap: _openFilters,
                     ),
@@ -252,12 +325,96 @@ class _SearchScreenState extends State<SearchScreen> {
                 ),
               ),
 
-            // Results List
-            Expanded(child: _buildResultsList(context, provider, l10n)),
+            // Main Content: History OR Results
+            Expanded(
+              child:
+                  (provider.searchQuery.isEmpty &&
+                          provider.selectedCategory.isEmpty)
+                      ? _buildHistoryList(context, isRTL)
+                      : _buildResultsList(context, provider, l10n),
+            ),
             const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildHistoryList(BuildContext context, bool isRTL) {
+    final theme = Theme.of(context);
+    if (_isHistoryLoading) return const SizedBox.shrink();
+
+    if (_searchHistory.isEmpty) {
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              LucideIcons.history,
+              size: 48,
+              color: theme.colorScheme.outlineVariant,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              isRTL ? 'إبحث عن الأدوية' : 'Search for medicines',
+              style: TextStyle(color: theme.colorScheme.outline),
+            ),
+          ],
+        ),
+      );
+    }
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                isRTL ? 'بحث سابق' : 'Recent Searches',
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                  color: theme.colorScheme.onSurface,
+                ),
+              ),
+              TextButton(
+                onPressed: _clearHistory,
+                child: Text(
+                  isRTL ? 'مسح الكل' : 'Clear All',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: theme.colorScheme.error,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        Expanded(
+          child: ListView.builder(
+            itemCount: _searchHistory.length,
+            itemBuilder: (context, index) {
+              final query = _searchHistory[index];
+              return ListTile(
+                leading: const Icon(LucideIcons.clock, size: 16),
+                title: Text(query),
+                trailing: IconButton(
+                  icon: const Icon(LucideIcons.x, size: 16),
+                  onPressed: () => _removeFromHistory(query),
+                ),
+                onTap: () {
+                  _searchController.text = query;
+                  context.read<MedicineProvider>().setSearchQuery(query);
+                  _addToHistory(query);
+                },
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 

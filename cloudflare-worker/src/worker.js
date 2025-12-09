@@ -121,7 +121,7 @@ export default {
                 return handleGetConfig(DB);
             }
 
-            if (path === '/api/config' && request.method === 'PUT') {
+            if (path === '/api/config' && (request.method === 'PUT' || request.method === 'POST')) {
                 return handleUpdateConfig(request, DB);
             }
 
@@ -767,32 +767,58 @@ async function handleUpdate(request, env) {
 
                 // Upsert: Insert or Update
                 const existing = await DB.prepare(
-                    'SELECT id FROM drugs WHERE trade_name = ?'
+                    'SELECT * FROM drugs WHERE trade_name = ?'
                 ).bind(tradeName).first();
 
                 if (existing) {
+                    // Smart Update: Check if ANY field has changed
+                    const input = {
+                        arabic_name: drug.arabic_name || drug.arabicName || existing.arabic_name,
+                        company: drug.company || existing.company,
+                        price: drug.price !== undefined ? drug.price : existing.price,
+                        active: drug.active || existing.active,
+                        category: drug.category || existing.category,
+                        dosage_form: drug.dosage_form || drug.dosageForm || existing.dosage_form,
+                        concentration: drug.concentration || existing.concentration,
+                        unit: drug.unit || existing.unit
+                    };
+
+                    const hasChanges =
+                        input.arabic_name !== existing.arabic_name ||
+                        input.company !== existing.company ||
+                        input.price !== existing.price ||
+                        input.active !== existing.active ||
+                        input.category !== existing.category ||
+                        input.dosage_form !== existing.dosage_form ||
+                        input.concentration !== existing.concentration ||
+                        input.unit !== existing.unit;
+
+                    if (!hasChanges) {
+                        continue; // Skip update if no changes
+                    }
+
                     // Update
                     await DB.prepare(`
                         UPDATE drugs SET 
-                            arabic_name = COALESCE(?, arabic_name),
-                            company = COALESCE(?, company),
-                            price = COALESCE(?, price),
-                            active = COALESCE(?, active),
-                            category = COALESCE(?, category),
-                            dosage_form = COALESCE(?, dosage_form),
-                            concentration = COALESCE(?, concentration),
-                            unit = COALESCE(?, unit),
+                            arabic_name = ?,
+                            company = ?,
+                            price = ?,
+                            active = ?,
+                            category = ?,
+                            dosage_form = ?,
+                            concentration = ?,
+                            unit = ?,
                             updated_at = unixepoch('now')
                         WHERE id = ?
                     `).bind(
-                        drug.arabic_name || drug.arabicName || null,
-                        drug.company || null,
-                        drug.price || null,
-                        drug.active || null,
-                        drug.category || null,
-                        drug.dosage_form || drug.dosageForm || null,
-                        drug.concentration || null,
-                        drug.unit || null,
+                        input.arabic_name,
+                        input.company,
+                        input.price,
+                        input.active,
+                        input.category,
+                        input.dosage_form,
+                        input.concentration,
+                        input.unit,
                         existing.id
                     ).run();
                     updated++;
