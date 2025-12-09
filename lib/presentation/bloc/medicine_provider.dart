@@ -129,7 +129,17 @@ class MedicineProvider extends ChangeNotifier {
        _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
        _localDataSource = localDataSource {
     _logger.i("MedicineProvider: Constructor called.");
-    loadInitialData();
+    // Only load initial data if we don't have any data yet
+    // This prevents reloading on every widget rebuild
+    if (_categories.isEmpty && _recentlyUpdatedDrugs.isEmpty) {
+      _logger.i(
+        "MedicineProvider: No cached data found. Loading initial data...",
+      );
+      loadInitialData();
+    } else {
+      _logger.i("MedicineProvider: Using cached data. Skipping initial load.");
+      _isInitialLoadComplete = true;
+    }
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
