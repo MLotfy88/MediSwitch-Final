@@ -41,116 +41,110 @@ class HighRiskIngredientCard extends StatelessWidget {
 
     final iconData = isCritical ? LucideIcons.skull : LucideIcons.alertTriangle;
 
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        // Increased width and removed restrictive height
-        constraints: const BoxConstraints(minWidth: 160, maxWidth: 190),
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: theme.cardColor, // Use card color background
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(
-            color: mainColor.withValues(alpha: isDark ? 0.5 : 0.3),
-            width: 1.5,
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: mainColor.withValues(alpha: 0.05),
-              blurRadius: 8,
-              spreadRadius: 0,
-              offset: const Offset(0, 4),
-            ),
-          ],
+    return Card(
+      // Changed from Container to Card per user feedback/reference match
+      margin: EdgeInsets.zero,
+      elevation: 2, // Standard elevation
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+        side: BorderSide(
+          color: mainColor.withValues(alpha: isDark ? 0.5 : 0.3),
+          width: 1.5,
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            // Icon Container
-            Container(
-              width: 48, // Slightly larger
-              height: 48,
-              decoration: BoxDecoration(
-                color: softBgColor,
-                borderRadius: BorderRadius.circular(12),
+      ),
+      color: theme.cardColor,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(16),
+        child: Container(
+          // Maintain width constraints but allow height to fill parent if needed (handled by ListView height)
+          constraints: const BoxConstraints(minWidth: 160, maxWidth: 190),
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              // Icon Container
+              Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  color: softBgColor,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                alignment: Alignment.center,
+                child: Icon(iconData, color: mainColor, size: 24),
               ),
-              alignment: Alignment.center,
-              child: Icon(iconData, color: mainColor, size: 24),
-            ),
 
-            const SizedBox(height: 12),
+              const SizedBox(height: 12),
 
-            // Ingredient Name
-            Text(
-              ingredient.displayName,
-              style: TextStyle(
-                color:
-                    isDark
-                        ? theme.colorScheme.onSurface
-                        : mainColor, // Better contrast in dark mode
-                fontWeight: FontWeight.bold,
-                fontSize: 14,
+              // Ingredient Name
+              Text(
+                ingredient.displayName,
+                style: TextStyle(
+                  color: isDark ? theme.colorScheme.onSurface : mainColor,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
               ),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-            ),
 
-            const SizedBox(height: 8),
+              const SizedBox(height: 8),
 
-            // Danger Score Badge
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-              decoration: BoxDecoration(
-                color: softBgColor,
-                borderRadius: BorderRadius.circular(8),
+              // Danger Score Badge
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: softBgColor,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      isRTL
+                          ? 'خطورة: ${ingredient.dangerScore}'
+                          : 'Score: ${ingredient.dangerScore}',
+                      style: TextStyle(
+                        color: mainColor,
+                        fontSize: 11,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
+
+              const SizedBox(height: 8),
+
+              // Interaction Count Badge
+              Row(
                 children: [
-                  Text(
-                    isRTL
-                        ? 'خطورة: ${ingredient.dangerScore}'
-                        : 'Score: ${ingredient.dangerScore}',
-                    style: TextStyle(
-                      color: mainColor,
-                      fontSize: 11,
-                      fontWeight: FontWeight.bold,
+                  Icon(
+                    LucideIcons.alertTriangle,
+                    size: 14,
+                    color: AppColors.mutedForeground,
+                  ),
+                  const SizedBox(width: 4),
+                  Flexible(
+                    child: Text(
+                      isRTL
+                          ? '${ingredient.severeCount} تفاعل شديد'
+                          : '${ingredient.severeCount} severe interactions',
+                      style: TextStyle(
+                        color: AppColors.mutedForeground,
+                        fontSize: 11,
+                        fontWeight: FontWeight.w500,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
                 ],
               ),
-            ),
-
-            const SizedBox(height: 8),
-
-            // Interaction Count Badge
-            Row(
-              children: [
-                Icon(
-                  LucideIcons.alertTriangle,
-                  size: 14,
-                  color: AppColors.mutedForeground,
-                ),
-                const SizedBox(width: 4),
-                Flexible(
-                  child: Text(
-                    isRTL
-                        ? '${ingredient.severeCount} تفاعل شديد'
-                        : '${ingredient.severeCount} severe interactions',
-                    style: TextStyle(
-                      color: AppColors.mutedForeground,
-                      fontSize: 11,
-                      fontWeight: FontWeight.w500,
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-              ],
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

@@ -74,6 +74,9 @@ class _IngredientInteractionsScreenState
                   )
                   .toList();
 
+          // Sort by severity (highest first)
+          filtered.sort((a, b) => b.severity.index.compareTo(a.severity.index));
+
           setState(() {
             _interactions = filtered;
             _isLoading = false;
@@ -143,15 +146,25 @@ class _IngredientInteractionsScreenState
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      LucideIcons.checkCircle,
-                      size: 64,
-                      color: AppColors.success,
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: AppColors.successSoft.withOpacity(0.3),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        LucideIcons.checkCircle,
+                        size: 48,
+                        color: AppColors.success,
+                      ),
                     ),
                     const SizedBox(height: 16),
                     Text(
                       isRTL ? "لا توجد تفاعلات مسجلة" : "No interactions found",
-                      style: theme.textTheme.titleMedium,
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: theme.colorScheme.onSurface,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ],
                 ),

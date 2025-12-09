@@ -233,31 +233,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 final provider = context.watch<MedicineProvider>();
 
                 // ✅ حساب عدد الأدوية المحدثة اليوم
-                final todayDrugs =
-                    provider.recentlyUpdatedDrugs.where((drug) {
-                      if (drug.lastPriceUpdate == null) return false;
-                      try {
-                        final parts = drug.lastPriceUpdate!.split('-');
-                        if (parts.length != 3) return false;
-                        final updateDate = DateTime(
-                          int.parse(parts[0]),
-                          int.parse(parts[1]),
-                          int.parse(parts[2]),
-                        );
-                        final now = DateTime.now();
-                        return updateDate.year == now.year &&
-                            updateDate.month == now.month &&
-                            updateDate.day == now.day;
-                      } catch (e) {
-                        return false;
-                      }
-                    }).length;
-
-                // ✅ عرض عدد الأدوية المحدثة مؤخراً (آخر 7 أيام) كـ fallback
-                final recentCount =
-                    todayDrugs > 0
-                        ? todayDrugs
-                        : provider.recentlyUpdatedDrugs.length;
+                final recentCount = provider.getTodayUpdatesCount();
 
                 return Container(
                   padding: const EdgeInsets.symmetric(
@@ -382,7 +358,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 160, // Height for HighRiskIngredientCard
+            height: 180, // Height for HighRiskIngredientCard (Increased)
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,

@@ -316,7 +316,23 @@ class MedicineProvider extends ChangeNotifier {
           );
         }
 
-        mergedCategories.sort((a, b) => b.drugCount.compareTo(a.drugCount));
+        // Custom sorting: Cardio, Anti-Infective, CNS (Psychiatric/Neurology) first
+        mergedCategories.sort((a, b) {
+          final priority = [
+            'cardiovascular',
+            'anti_infective',
+            'psychiatric',
+            'neurology',
+          ];
+          final indexA = priority.indexOf(a.id.toLowerCase());
+          final indexB = priority.indexOf(b.id.toLowerCase());
+
+          if (indexA != -1 && indexB != -1) return indexA.compareTo(indexB);
+          if (indexA != -1) return -1;
+          if (indexB != -1) return 1;
+
+          return b.drugCount.compareTo(a.drugCount);
+        });
 
         _categories = mergedCategories;
         notifyListeners();
@@ -325,6 +341,36 @@ class MedicineProvider extends ChangeNotifier {
         );
       },
     );
+  }
+
+  /// Calculates the number of drugs updated *today* based on `last_price_update`
+  int getTodayUpdatesCount() {
+    final now = DateTime.now();
+    // Assuming `recentlyUpdatedDrugs` contains a sufficient recent list,
+    // BUT strictly we should check `allDrugs` if we had them loaded,
+    // or rely on `recentlyUpdatedDrugs` being the source of "recent" changes.
+    // Given optimization, `recentlyUpdatedDrugs` is our best "active" source.
+
+    int count = 0;
+    for (var drug in _recentlyUpdatedDrugs) {
+      if (drug.lastPriceUpdate == null) continue;
+      try {
+        // Format: YYYY-MM-DD
+        final parts = drug.lastPriceUpdate!.split('-');
+        if (parts.length == 3) {
+          final year = int.parse(parts[0]);
+          final month = int.parse(parts[1]);
+          final day = int.parse(parts[2]);
+
+          if (year == now.year && month == now.month && day == now.day) {
+            count++;
+          }
+        }
+      } catch (e) {
+        // ignore parse errors
+      }
+    }
+    return count;
   }
 
   void _useStaticCategories() {
