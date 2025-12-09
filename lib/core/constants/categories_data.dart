@@ -158,80 +158,82 @@ CategoryColorStyle getCategoryColorStyle(
   switch (colorName) {
     case 'red':
       return CategoryColorStyle(
-        background: appColors.dangerSoft,
+        background: appColors.dangerSoft.withValues(alpha: 0.25),
         icon: appColors.dangerForeground,
         border: appColors.dangerForeground.withValues(alpha: 0.2),
       );
     case 'blue':
       return CategoryColorStyle(
-        background: appColors.infoSoft, // Blue/Info
+        background: appColors.infoSoft.withValues(alpha: 0.25), // Blue/Info
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
     case 'purple':
       return CategoryColorStyle(
-        background: appColors.accent,
+        background: appColors.accent.withValues(
+          alpha: 0.5,
+        ), // Accent is usually light already
         icon: appColors.infoForeground, // Using info/primary shade
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
     case 'green':
       return CategoryColorStyle(
-        background: appColors.successSoft,
+        background: appColors.successSoft.withValues(alpha: 0.25),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
       );
     case 'orange':
       return CategoryColorStyle(
-        background: appColors.warningSoft,
+        background: appColors.warningSoft.withValues(alpha: 0.25),
         icon: appColors.warningForeground,
         border: appColors.warningForeground.withValues(alpha: 0.3),
       );
     case 'teal':
       // Custom Teal-ish using Success/Secondary mix if needed, or just success
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.6),
+        background: appColors.successSoft.withValues(alpha: 0.25),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
       );
     case 'cyan':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.7),
+        background: appColors.infoSoft.withValues(alpha: 0.3),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.25),
       );
     case 'emerald':
       return CategoryColorStyle(
-        background: appColors.successSoft,
+        background: appColors.successSoft.withValues(alpha: 0.25),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.25),
       );
     case 'lime':
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.5),
+        background: appColors.successSoft.withValues(alpha: 0.25),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.3),
       );
     case 'indigo':
       return CategoryColorStyle(
-        background: appColors.accent,
+        background: appColors.accent.withValues(alpha: 0.5),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.25),
       );
     case 'pink':
       return CategoryColorStyle(
-        background: appColors.dangerSoft.withValues(alpha: 0.5),
+        background: appColors.dangerSoft.withValues(alpha: 0.25),
         icon: appColors.dangerForeground,
         border: appColors.dangerForeground.withValues(alpha: 0.2),
       );
     case 'sky':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.5),
+        background: appColors.infoSoft.withValues(alpha: 0.25),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
     default:
       return CategoryColorStyle(
-        background: appColors.infoSoft,
+        background: appColors.infoSoft.withValues(alpha: 0.25),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );

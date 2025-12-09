@@ -365,7 +365,19 @@ class SettingsScreen extends StatelessWidget {
                       title: isRTL ? 'مسح السجل' : 'Clear History',
                       leadingIcon: LucideIcons.trash2,
                       trailing: const Icon(LucideIcons.chevronRight, size: 18),
-                      onTap: () {},
+                      onTap: () {
+                        context.read<MedicineProvider>().clearRecentlyViewed();
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              isRTL
+                                  ? 'تم مسح سجل البحث'
+                                  : 'Search history cleared',
+                            ),
+                            duration: const Duration(seconds: 2),
+                          ),
+                        );
+                      },
                     ),
                     _buildDivider(context),
                     SettingsListTile(
