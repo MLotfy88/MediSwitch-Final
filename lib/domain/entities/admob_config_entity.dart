@@ -7,6 +7,8 @@ class AdMobConfigEntity extends Equatable {
   final String bannerAdUnitIdIos;
   final String interstitialAdUnitIdAndroid;
   final String interstitialAdUnitIdIos;
+  final String rewardedAdUnitIdAndroid;
+  final String rewardedAdUnitIdIos;
   final bool adsEnabled;
   final bool testAdsEnabled;
   final bool bannerEnabled;
@@ -31,6 +33,8 @@ class AdMobConfigEntity extends Equatable {
     required this.bannerAdUnitIdIos,
     required this.interstitialAdUnitIdAndroid,
     required this.interstitialAdUnitIdIos,
+    required this.rewardedAdUnitIdAndroid,
+    required this.rewardedAdUnitIdIos,
     required this.adsEnabled,
     required this.testAdsEnabled,
     required this.bannerEnabled,
@@ -58,6 +62,8 @@ class AdMobConfigEntity extends Equatable {
       bannerAdUnitIdIos: '',
       interstitialAdUnitIdAndroid: '',
       interstitialAdUnitIdIos: '',
+      rewardedAdUnitIdAndroid: '',
+      rewardedAdUnitIdIos: '',
       adsEnabled: false,
       testAdsEnabled: true,
       bannerEnabled: true,
@@ -85,6 +91,8 @@ class AdMobConfigEntity extends Equatable {
     bannerAdUnitIdIos,
     interstitialAdUnitIdAndroid,
     interstitialAdUnitIdIos,
+    rewardedAdUnitIdAndroid,
+    rewardedAdUnitIdIos,
     adsEnabled,
     testAdsEnabled,
     bannerEnabled,

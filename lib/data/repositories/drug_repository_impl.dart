@@ -9,6 +9,8 @@ import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart'
 import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/repositories/drug_repository.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:sqflite/sqflite.dart';
 // import '../../core/network/network_info.dart';
 
 // Define specific Failure types
@@ -312,22 +314,88 @@ class DrugRepositoryImpl implements DrugRepository {
   }
 
   @override
-  Future<Either<Failure, int?>> getLastUpdateTimestamp() async {
+  Future<Either<Failure, int>> getLastUpdateTimestamp() async {
     _logger.d("DrugRepository: getLastUpdateTimestamp called.");
     try {
       final timestamp = await localDataSource.getLastUpdateTimestamp();
       _logger.i(
         "DrugRepository: getLastUpdateTimestamp successful, timestamp: $timestamp",
       );
-      return Right(timestamp);
+      return Right(timestamp ?? 0); // Return 0 if null
     } catch (e, s) {
-      // Add stack trace
-      _logger.e(
-        'Error getting last update timestamp from local source',
-        e,
-        s,
-      ); // Use logger
+      _logger.e('Error getting last update timestamp from local source', e, s);
       return Left(CacheFailure());
+    }
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
+    int lastTimestamp,
+  ) async {
+    _logger.d(
+      "DrugRepository: getDeltaSyncDrugs called with lastTimestamp: $lastTimestamp",
+    );
+    if (!isConnected) {
+      _logger.w('DrugRepository: Not connected, cannot get delta sync.');
+      return Left(NetworkFailure());
+    }
+    try {
+      final result = await remoteDataSource.getDeltaSyncDrugs(lastTimestamp);
+      return await result.fold(
+        (failure) {
+          _logger.w('DrugRepository: Delta sync failed - $failure');
+          return Left(failure);
+        },
+        (data) async {
+          _logger.i(
+            "DrugRepository: Delta sync successful, received ${data['count']} drugs",
+          );
+
+          // Cache the updated drugs to local DB
+          final drugsData = data['drugs'];
+          if (drugsData != null && drugsData is List && drugsData.isNotEmpty) {
+            final List<MedicineModel> models = [];
+            for (final drug in drugsData) {
+              if (drug is Map<String, dynamic>) {
+                models.add(MedicineModel.fromMap(drug));
+              }
+            }
+
+            if (models.isNotEmpty) {
+              // Insert/update drugs in DB
+              final db = await localDataSource.dbHelper.database;
+              final batch = db.batch();
+              for (final model in models) {
+                batch.insert(
+                  'drugs',
+                  model.toMap(),
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+
+              _logger.i(
+                "DrugRepository: Cached ${models.length} updated drugs",
+              );
+
+              // Update local timestamp
+              final newTimestamp = data['currentTimestamp'] as int?;
+              if (newTimestamp != null) {
+                final prefs = await SharedPreferences.getInstance();
+                await prefs.setInt('csv_last_update_timestamp', newTimestamp);
+                _logger.i(
+                  "DrugRepository: Updated local timestamp to $newTimestamp",
+                );
+              }
+            }
+          }
+
+          return Right(data);
+        },
+      );
+    } catch (e, s) {
+      _logger.e('DrugRepository: Error during delta sync', e, s);
+      return Left(ServerFailure());
     }
   }
 
