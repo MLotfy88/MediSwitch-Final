@@ -102,7 +102,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'تنفسي',
     count: 398,
     icon: LucideIcons.wind,
-    colorName: 'sky',
+    colorName: 'teal',
   ),
   // 8. Pain Relief
   CategoryData(

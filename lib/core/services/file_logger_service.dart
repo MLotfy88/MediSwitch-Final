@@ -1,11 +1,13 @@
-import 'dart:io';
 import 'dart:convert'; // Import for Encoding and utf8
+import 'dart:io';
+
+import 'package:flutter/foundation.dart'; // for kDebugMode
+import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:logger/logger.dart';
+import 'package:path/path.dart' as path; // Import path package
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart'; // Import permission_handler
-import 'package:intl/intl.dart'; // Import intl for DateFormat
-import 'package:path/path.dart' as path; // Import path package
-import 'package:flutter/foundation.dart'; // for kDebugMode
+
 import 'log_notifier.dart'; // Import the new LogNotifier
 
 // --- FileOutput Class (Handles writing to the file sink) ---
@@ -147,26 +149,32 @@ class FileLoggerService {
         if (status.isGranted) {
           logNotifier.addLog('[INFO] Storage permission granted.');
           debugPrint('[FileLoggerService] Storage permission granted.');
-          Directory? externalDir = await getExternalStorageDirectory();
-          if (externalDir != null) {
-            directory = Directory(
-              path.join(externalDir.path, 'MediSwitchLogs'),
-            );
-            logPathSource = "External Storage (App Specific)";
-            print(
-              "[FileLoggerService] Target external directory: ${directory.path}",
-            );
-            if (!await directory.exists()) {
-              print("[FileLoggerService] Creating external log directory...");
-              await directory.create(recursive: true);
+          // Added try-catch for external directory call specifically
+          try {
+            Directory? externalDir = await getExternalStorageDirectory();
+            if (externalDir != null) {
+              directory = Directory(
+                path.join(externalDir.path, 'MediSwitchLogs'),
+              );
+              logPathSource = "External Storage (App Specific)";
+              print(
+                "[FileLoggerService] Target external directory: ${directory.path}",
+              );
+              if (!await directory.exists()) {
+                print("[FileLoggerService] Creating external log directory...");
+                await directory.create(recursive: true);
+              }
+            } else {
+              logNotifier.addLog(
+                "[WARN] getExternalStorageDirectory returned null.",
+              );
+              print(
+                "[FileLoggerService] getExternalStorageDirectory returned null.",
+              );
             }
-          } else {
-            logNotifier.addLog(
-              "[WARN] getExternalStorageDirectory returned null.",
-            );
-            print(
-              "[FileLoggerService] getExternalStorageDirectory returned null.",
-            );
+          } catch (e) {
+            print("[FileLoggerService] Error accessing external storage: $e");
+            logNotifier.addLog("[ERROR] Error accessing external storage: $e");
           }
         } else {
           logNotifier.addLog('[WARN] Storage permission denied.');
@@ -180,7 +188,7 @@ class FileLoggerService {
         directory = await getApplicationSupportDirectory();
         logPathSource = "Application Support (iOS)";
         print(
-          "[FileLoggerService] Using application support directory: ${directory.path}",
+          "[FileLoggerService] Using application support directory: ${directory?.path ?? 'NULL'}",
         );
       }
 
@@ -202,7 +210,8 @@ class FileLoggerService {
       debugPrint(
         '[FileLoggerService] CRITICAL Error determining log directory: $e\n$s',
       );
-      logNotifier.addLog('[CRITICAL] Error determining log directory: $e');
+      // Removed logNotifier call here if it might be cause (unlikely but safe)
+      // logNotifier.addLog('[CRITICAL] Error determining log directory: $e');
       directory = null; // Ensure directory is null on error
     }
 

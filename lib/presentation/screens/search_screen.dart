@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
@@ -157,43 +156,43 @@ class _SearchScreenState extends State<SearchScreen> {
               child: Row(
                 children: [
                   // Back Button
-                  Material(
-                    color: Colors.transparent,
-                    child: InkWell(
-                      borderRadius: BorderRadius.circular(12),
-                      onTap: () {
-                        if (Navigator.canPop(context)) {
-                          Navigator.of(context).pop();
-                        } else {
-                          // If can't pop, we might be at root tab, do nothing or reset
-                          provider.setSearchQuery('', triggerSearch: false);
-                          FocusScope.of(context).unfocus();
-                        }
-                      },
-                      child: Container(
-                        padding: const EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          color: colorScheme.surfaceContainerHighest,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Icon(
+                  Padding(
+                    padding: const EdgeInsetsDirectional.only(end: 8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: colorScheme.surfaceContainerHighest,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: IconButton(
+                        icon: Icon(
                           isRTL
                               ? LucideIcons.arrowRight
                               : LucideIcons.arrowLeft,
                           size: 20,
                           color: colorScheme.onSurface,
                         ),
+                        onPressed: () {
+                          if (Navigator.canPop(context)) {
+                            Navigator.of(context).pop();
+                          } else {
+                            provider.setSearchQuery('', triggerSearch: false);
+                            FocusScope.of(context).unfocus();
+                          }
+                        },
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(
+                          minWidth: 40,
+                          minHeight: 40,
+                        ),
                       ),
                     ),
                   ),
-                  const SizedBox(width: 12),
                   Expanded(
                     child: ModernSearchBar(
                       controller: _searchController,
                       hintText: isRTL ? 'ابحث عن دواء...' : l10n.searchHint,
                       onChanged: (String query) {
                         provider.setSearchQuery(query, triggerSearch: true);
-                        // String history is secondary now, maybe keep it but UI shows cards
                       },
                       onFilterTap: _openFilters,
                     ),
@@ -425,16 +424,13 @@ class _SearchScreenState extends State<SearchScreen> {
         final drug = provider.filteredMedicines[index];
         // Add Animation
         return Padding(
-              padding: const EdgeInsets.only(bottom: 12),
-              child: ModernDrugCard(
-                drug: drug,
-                hasInteraction: false, // Calculate if needed
-                onTap: () => _navigateToDetails(context, drug),
-              ),
-            )
-            .animate()
-            .fadeIn(duration: 300.ms, delay: (50 * index).ms)
-            .slideY(begin: 0.1, end: 0);
+          padding: const EdgeInsets.only(bottom: 12),
+          child: ModernDrugCard(
+            drug: drug,
+            hasInteraction: false, // Calculate if needed
+            onTap: () => _navigateToDetails(context, drug),
+          ),
+        );
       },
     );
   }
