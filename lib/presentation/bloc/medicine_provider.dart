@@ -57,6 +57,7 @@ class MedicineProvider extends ChangeNotifier {
   bool _isInitialLoadComplete = false;
   String _error = '';
   int? _lastUpdateTimestamp;
+  bool _isSyncing = false; // Manual sync state
 
   // Pagination & Filters State
   String _searchQuery = '';
@@ -89,6 +90,7 @@ class MedicineProvider extends ChangeNotifier {
   bool get isInitialLoadComplete => _isInitialLoadComplete;
   String get error => _error;
   int? get lastUpdateTimestamp => _lastUpdateTimestamp;
+  bool get isSyncing => _isSyncing; // Expose syncing state
 
   String get searchQuery => _searchQuery;
   String get selectedCategory => _selectedCategory;
@@ -171,7 +173,7 @@ class MedicineProvider extends ChangeNotifier {
       // _backgroundSync(); // DISABLED: Fix freeze
 
       _logger.i(
-        "MedicineProvider: Local load successful. Background sync started.",
+        "MedicineProvider: Local load successful. Background sync is DISABLED.",
       );
     } catch (e, s) {
       _logger.e("MedicineProvider: Error during initial data load", e, s);
@@ -287,6 +289,72 @@ class MedicineProvider extends ChangeNotifier {
     _logger.i("MedicineProvider: Smart refresh requested (Background Sync)");
     // Just trigger background sync, don't block
     _backgroundSync();
+  }
+
+  /// Manual refresh triggered by user (pull-to-refresh or refresh button)
+  Future<void> manualRefresh() async {
+    if (_isSyncing || _isLoading) {
+      _logger.w("MedicineProvider: Sync already in progress, skipping");
+      return;
+    }
+
+    _logger.i("MedicineProvider: Manual refresh started by user");
+    _isSyncing = true;
+    _error = '';
+    notifyListeners();
+
+    try {
+      // Use Delta Sync for incremental updates
+      final lastTimestamp = _lastUpdateTimestamp ?? 0;
+      _logger.i(
+        "Manual refresh: Fetching updates after timestamp: $lastTimestamp",
+      );
+
+      // Call repository's getDeltaSyncDrugs
+      final result = await _getCategoriesWithCountUseCase.repository
+          .getDeltaSyncDrugs(lastTimestamp);
+
+      await result.fold(
+        (failure) async {
+          _logger.w("Manual refresh: Delta sync failed - $failure");
+          _error = "فشل التحديث. تحقق من الاتصال بالإنترنت.";
+        },
+        (data) async {
+          final count = data['count'] as int? ?? 0;
+          final currentTimestamp = data['currentTimestamp'] as int? ?? 0;
+
+          _logger.i(
+            "Manual refresh: Delta sync successful - $count drugs updated",
+          );
+
+          if (count > 0) {
+            // Reload data from DB (now contains updated drugs)
+            await Future.wait([
+              _loadCategories(forceLocal: false),
+              _loadSimulatedSections(),
+              _loadHighRiskIngredients(),
+            ]);
+
+            // Refresh current view
+            await _applyFilters(page: 0);
+
+            _lastUpdateTimestamp = currentTimestamp;
+            _error = '';
+            _logger.i("Manual refresh: Sync completed successfully");
+          } else {
+            _logger.i("Manual refresh: Data already up to date");
+            _lastUpdateTimestamp = currentTimestamp;
+            _error = '';
+          }
+        },
+      );
+    } catch (e, s) {
+      _logger.e("Manual refresh: Error", e, s);
+      _error = "حدث خطأ أثناء التحديث";
+    } finally {
+      _isSyncing = false;
+      notifyListeners();
+    }
   }
 
   Future<void> _loadHighRiskIngredients() async {

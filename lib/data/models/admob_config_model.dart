@@ -8,6 +8,8 @@ class AdMobConfigModel extends AdMobConfigEntity {
     required super.bannerAdUnitIdIos,
     required super.interstitialAdUnitIdAndroid,
     required super.interstitialAdUnitIdIos,
+    required super.rewardedAdUnitIdAndroid,
+    required super.rewardedAdUnitIdIos,
     required super.adsEnabled,
     required super.testAdsEnabled,
     required super.bannerEnabled,
@@ -43,6 +45,9 @@ class AdMobConfigModel extends AdMobConfigEntity {
           json['interstitial_ad_unit_id_android'] as String? ?? '',
       interstitialAdUnitIdIos:
           json['interstitial_ad_unit_id_ios'] as String? ?? '',
+      rewardedAdUnitIdAndroid:
+          json['rewarded_ad_unit_id_android'] as String? ?? '',
+      rewardedAdUnitIdIos: json['rewarded_ad_unit_id_ios'] as String? ?? '',
       adsEnabled: parseBool(json['ads_master_enabled'], false), // Master switch
       testAdsEnabled: parseBool(json['test_ads_enabled'], true),
       bannerEnabled: parseBool(json['banner_enabled'], true),

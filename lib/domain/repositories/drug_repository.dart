@@ -31,7 +31,12 @@ abstract class DrugRepository {
 
   /// Gets the timestamp of the last successful data update from local storage.
   /// Returns null if no timestamp is found.
-  Future<Either<Failure, int?>> getLastUpdateTimestamp();
+  Future<Either<Failure, int>> getLastUpdateTimestamp();
+
+  /// Get drugs updated after a specific timestamp (Delta Sync)
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
+    int lastTimestamp,
+  );
 
   /// Gets drugs updated after a specific date.
   Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({

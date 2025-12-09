@@ -81,6 +81,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   );
                 },
+                onRefreshTap: () {
+                  context.read<MedicineProvider>().manualRefresh();
+                },
+                isSyncing: medicineProvider.isSyncing,
               ),
               Expanded(
                 child: RefreshIndicator(

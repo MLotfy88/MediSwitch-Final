@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:io'; // For SocketException
+
 import 'package:dartz/dartz.dart'; // Import dartz
 import 'package:http/http.dart' as http;
+
 import '../../../core/error/failures.dart'; // Corrected path for failures.dart
 
 // Abstract class defining the contract for remote data source
@@ -13,6 +15,11 @@ abstract class DrugRemoteDataSource {
   /// Downloads the latest drug data file from the backend
   /// Returns Right(String) with file content on success, Left(Failure) on error
   Future<Either<Failure, String>> downloadLatestData();
+
+  /// Get drugs updated after a specific timestamp (Delta Sync)
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
+    int lastTimestamp,
+  );
 }
 
 // Implementation of the remote data source
@@ -93,6 +100,38 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       return Left(NetworkFailure());
     } catch (e) {
       print('Error: Unexpected error downloading data from $url: $e');
+      return Left(ServerFailure());
+    }
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
+    int lastTimestamp,
+  ) async {
+    final url = Uri.parse('$baseUrl/api/drugs/delta/$lastTimestamp');
+    try {
+      final response = await client.get(
+        url,
+        headers: {'Content-Type': 'application/json'},
+      );
+
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data =
+            json.decode(response.body) as Map<String, dynamic>;
+        return Right(data);
+      } else {
+        print(
+          'Error: Failed to get delta sync from $url - Status: ${response.statusCode}',
+        );
+        return Left(ServerFailure());
+      }
+    } on SocketException {
+      print(
+        'Error: Network error (SocketException) fetching delta sync from $url',
+      );
+      return Left(NetworkFailure());
+    } catch (e) {
+      print('Error: Unexpected error fetching delta sync from $url: $e');
       return Left(ServerFailure());
     }
   }

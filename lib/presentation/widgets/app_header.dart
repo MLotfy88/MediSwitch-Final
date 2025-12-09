@@ -10,8 +10,15 @@ import '../theme/app_colors_extension.dart';
 /// App Header with real logo, notifications, and last update date
 class AppHeader extends StatelessWidget {
   final VoidCallback? onNotificationTap;
+  final VoidCallback? onRefreshTap;
+  final bool isSyncing;
 
-  const AppHeader({super.key, this.onNotificationTap});
+  const AppHeader({
+    super.key,
+    this.onNotificationTap,
+    this.onRefreshTap,
+    this.isSyncing = false,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -147,12 +154,12 @@ class AppHeader extends StatelessWidget {
               ],
             ),
 
-            // Notification Button
-            Stack(
-              clipBehavior: Clip.none,
+            // Action Buttons (Refresh + Notifications)
+            Row(
               children: [
+                // Refresh Button
                 GestureDetector(
-                  onTap: onNotificationTap,
+                  onTap: isSyncing ? null : onRefreshTap,
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
@@ -161,40 +168,74 @@ class AppHeader extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(18),
                     ),
-                    child: Icon(
-                      LucideIcons.bell,
-                      size: 20,
-                      color: theme.colorScheme.onSurface,
-                    ),
+                    child:
+                        isSyncing
+                            ? SizedBox(
+                              width: 20,
+                              height: 20,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 2,
+                                color: theme.colorScheme.primary,
+                              ),
+                            )
+                            : Icon(
+                              LucideIcons.refreshCw,
+                              size: 20,
+                              color: theme.colorScheme.onSurface,
+                            ),
                   ),
                 ),
-                // ✅ عرض عدد التنبيهات الحقيقي
-                if (todayUpdates > 0)
-                  Positioned(
-                    top: -4,
-                    right: -4,
-                    child: Container(
-                      padding: const EdgeInsets.all(4),
-                      decoration: BoxDecoration(
-                        color: theme.colorScheme.error,
-                        shape: BoxShape.circle,
-                      ),
-                      constraints: const BoxConstraints(
-                        minWidth: 18,
-                        minHeight: 18,
-                      ),
-                      child: Center(
-                        child: Text(
-                          todayUpdates > 9 ? '+9' : todayUpdates.toString(),
-                          style: const TextStyle(
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
+                const SizedBox(width: 12),
+                // Notification Button
+                Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    GestureDetector(
+                      onTap: onNotificationTap,
+                      child: Container(
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: appColors.accent.withValues(
+                            alpha: isDark ? 0.2 : 0.1,
                           ),
+                          borderRadius: BorderRadius.circular(18),
+                        ),
+                        child: Icon(
+                          LucideIcons.bell,
+                          size: 20,
+                          color: theme.colorScheme.onSurface,
                         ),
                       ),
                     ),
-                  ),
+                    // ✅ عرض عدد التنبيهات الحقيقي
+                    if (todayUpdates > 0)
+                      Positioned(
+                        top: -4,
+                        right: -4,
+                        child: Container(
+                          padding: const EdgeInsets.all(4),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.error,
+                            shape: BoxShape.circle,
+                          ),
+                          constraints: const BoxConstraints(
+                            minWidth: 18,
+                            minHeight: 18,
+                          ),
+                          child: Center(
+                            child: Text(
+                              todayUpdates > 9 ? '+9' : todayUpdates.toString(),
+                              style: const TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
               ],
             ),
           ],
