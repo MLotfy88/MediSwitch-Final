@@ -56,14 +56,17 @@ export default {
         }
 
         const url = new URL(request.url);
-        const path = url.pathname;
+        // Normalize path: remove trailing slash if present (except for root '/')
+        const path = url.pathname.endsWith('/') && url.pathname.length > 1
+            ? url.pathname.slice(0, -1)
+            : url.pathname;
 
         try {
             // ========== HEALTH CHECK ==========
             if (path === '/api/health') {
                 return jsonResponse({
                     status: 'healthy',
-                    version: '3.0',
+                    version: '3.1',
                     database: DB ? 'connected' : 'not configured'
                 });
             }
@@ -164,7 +167,7 @@ export default {
             }
 
             // 404
-            return errorResponse('Not found', 404);
+            return errorResponse(`Not found: ${path} (Method: ${request.method})`, 404);
 
         } catch (error) {
             console.error('Error:', error);

@@ -119,9 +119,6 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     final l10n = AppLocalizations.of(context)!;
     final isRTL = Directionality.of(context) == TextDirection.rtl;
     final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
-    final appColors = theme.appColors;
-
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       body: CustomScrollView(
@@ -505,8 +502,17 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: AppColors.muted.withOpacity(0.5),
+        color:
+            Theme.of(context).brightness == Brightness.dark
+                ? AppColors.muted.withOpacity(
+                  0.3,
+                ) // Lighter overlay for dark mode
+                : AppColors.muted.withOpacity(0.5),
         borderRadius: BorderRadius.circular(16),
+        border:
+            Theme.of(context).brightness == Brightness.dark
+                ? Border.all(color: AppColors.mutedForeground.withOpacity(0.2))
+                : null,
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,

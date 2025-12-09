@@ -157,9 +157,13 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
                             ),
-                            padding: const EdgeInsets.all(8),
-                            minimumSize: const Size(40, 40),
+                            padding: const EdgeInsets.all(6), // Reduced padding
+                            minimumSize: const Size(
+                              32,
+                              32,
+                            ), // Reduced size (was 40)
                           ),
+                          iconSize: 18, // Reduced icon size
                         ),
                       ),
 
@@ -186,8 +190,10 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                         children: [
                           Text(
                             isRTL ? 'الإشعارات' : 'Notifications',
-                            style: theme.textTheme.titleLarge?.copyWith(
+                            style: theme.textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.bold,
+                              fontSize:
+                                  18, // Explicitly reduced (was titleLarge ~22)
                             ),
                           ),
                           if (unreadCount > 0)

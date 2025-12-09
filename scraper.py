@@ -112,14 +112,22 @@ def get_last_update_timestamp():
         
         for date_str in valid_dates:
             try:
-                # Parse dd/mm/yyyy format
-                dt = datetime.strptime(str(date_str), '%d/%m/%Y')
-                timestamp = int(dt.timestamp() * 1000)  # Convert to milliseconds
+                # Try parsing YYYY-MM-DD format first (ISO 8601)
+                dt = datetime.strptime(str(date_str), '%Y-%m-%d')
+                timestamp = int(dt.timestamp() * 1000)
                 if timestamp > max_timestamp:
                     max_timestamp = timestamp
                     max_date = date_str
-            except:
-                continue
+            except ValueError:
+                try:
+                    # Fallback to dd/mm/yyyy format
+                    dt = datetime.strptime(str(date_str), '%d/%m/%Y')
+                    timestamp = int(dt.timestamp() * 1000)
+                    if timestamp > max_timestamp:
+                        max_timestamp = timestamp
+                        max_date = date_str
+                except:
+                    continue
         
         if max_timestamp > 0:
             log(f"📅 Last update in database: {max_date}")
@@ -231,7 +239,7 @@ def save_incremental(all_meds, batch_num):
         if date_updated:
             try:
                 timestamp = int(date_updated) / 1000
-                date_str = datetime.fromtimestamp(timestamp).strftime('%d/%m/%Y')
+                date_str = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
             except:
                 date_str = ''
         else:
@@ -356,7 +364,7 @@ def process_and_save(raw_data):
         if date_updated:
             try:
                 timestamp = int(date_updated) / 1000  # Convert to seconds
-                date_str = datetime.fromtimestamp(timestamp).strftime('%d/%m/%Y')
+                date_str = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d')
             except:
                 date_str = ''
         else:

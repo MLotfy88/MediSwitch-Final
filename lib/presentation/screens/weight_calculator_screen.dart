@@ -634,7 +634,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
             Padding(
               padding: const EdgeInsets.only(top: 8, right: 4, left: 4),
               child: Text(
-                '${calculatorProvider.selectedDrug!.active ?? ''} • ${calculatorProvider.selectedDrug!.concentration ?? ''}',
+                '${calculatorProvider.selectedDrug!.active} • ${calculatorProvider.selectedDrug!.concentration}',
                 style: TextStyle(
                   fontSize: 12,
                   color: theme.appColors.mutedForeground,
@@ -693,10 +693,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     final theme = Theme.of(context);
 
     // Using appColors for semantic colors success
-    final successColor =
-        theme
-            .appColors
-            .successForeground; // or theme.appColors.success if defined
+    // final successColor = theme.appColors.successForeground;
     // Actually we have successSoft, successForeground.
     // The design uses --success.
     // Usually ColorScheme.error is danger.

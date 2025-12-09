@@ -107,8 +107,8 @@ def update_prices():
             print("   - Drugs not found:", ', '.join(map(str, drugs_not_found[:10])) + ('...' if len(drugs_not_found) > 10 else '')) # Show first 10
 
         # Save the updated DataFrame to a new Excel file
-        # Convert date column back to string format 'dd/mm/yyyy' for saving, handling NaT
-        druglist_df[DRUGLIST_UPDATE_DATE_COL] = druglist_df[DRUGLIST_UPDATE_DATE_COL].dt.strftime('%d/%m/%Y').fillna('')
+        # Convert date column back to string format 'YYYY-MM-DD' for saving, handling NaT
+        druglist_df[DRUGLIST_UPDATE_DATE_COL] = druglist_df[DRUGLIST_UPDATE_DATE_COL].dt.strftime('%Y-%m-%d').fillna('')
 
         # Save the updated DataFrame to a new CSV file
         druglist_df.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig') # Use to_csv and specify encoding
