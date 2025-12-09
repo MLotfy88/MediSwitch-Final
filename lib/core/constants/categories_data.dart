@@ -102,7 +102,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'تنفسي',
     count: 398,
     icon: LucideIcons.wind,
-    colorName: 'teal',
+    colorName: 'orange',
   ),
   // 8. Pain Relief
   CategoryData(
@@ -158,13 +158,13 @@ CategoryColorStyle getCategoryColorStyle(
   switch (colorName) {
     case 'red':
       return CategoryColorStyle(
-        background: appColors.dangerSoft.withValues(alpha: 0.25),
+        background: appColors.dangerSoft.withValues(alpha: 0.4),
         icon: appColors.dangerForeground,
         border: appColors.dangerForeground.withValues(alpha: 0.2),
       );
     case 'blue':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.25), // Blue/Info
+        background: appColors.infoSoft.withValues(alpha: 0.4), // Blue/Info
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
@@ -178,38 +178,38 @@ CategoryColorStyle getCategoryColorStyle(
       );
     case 'green':
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.25),
+        background: appColors.successSoft.withValues(alpha: 0.4),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
       );
     case 'orange':
       return CategoryColorStyle(
-        background: appColors.warningSoft.withValues(alpha: 0.25),
+        background: appColors.warningSoft.withValues(alpha: 0.4),
         icon: appColors.warningForeground,
         border: appColors.warningForeground.withValues(alpha: 0.3),
       );
     case 'teal':
       // Custom Teal-ish using Success/Secondary mix if needed, or just success
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.25),
+        background: appColors.successSoft.withValues(alpha: 0.4),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
       );
     case 'cyan':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.3),
+        background: appColors.infoSoft.withValues(alpha: 0.45),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.25),
       );
     case 'emerald':
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.25),
+        background: appColors.successSoft.withValues(alpha: 0.4),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.25),
       );
     case 'lime':
       return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.25),
+        background: appColors.successSoft.withValues(alpha: 0.4),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.3),
       );
@@ -221,19 +221,19 @@ CategoryColorStyle getCategoryColorStyle(
       );
     case 'pink':
       return CategoryColorStyle(
-        background: appColors.dangerSoft.withValues(alpha: 0.25),
+        background: appColors.dangerSoft.withValues(alpha: 0.4),
         icon: appColors.dangerForeground,
         border: appColors.dangerForeground.withValues(alpha: 0.2),
       );
     case 'sky':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.25),
+        background: appColors.infoSoft.withValues(alpha: 0.4),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
     default:
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.25),
+        background: appColors.infoSoft.withValues(alpha: 0.4),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );

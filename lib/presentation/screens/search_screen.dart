@@ -172,11 +172,21 @@ class _SearchScreenState extends State<SearchScreen> {
                           color: colorScheme.onSurface,
                         ),
                         onPressed: () {
+                          // Force hide keyboard
+                          FocusScope.of(context).unfocus();
+
                           if (Navigator.canPop(context)) {
                             Navigator.of(context).pop();
                           } else {
+                            // If can't pop (e.g. Tab), force reset and maybe go home?
                             provider.setSearchQuery('', triggerSearch: false);
-                            FocusScope.of(context).unfocus();
+                            // Optional: If you want to force go to home tab:
+                            // AppRouter logic needed, but for now just clear query is safer
+                            // Or try popping root navigator if it was a dialog
+                            Navigator.of(
+                              context,
+                              rootNavigator: true,
+                            ).maybePop();
                           }
                         },
                         padding: EdgeInsets.zero,

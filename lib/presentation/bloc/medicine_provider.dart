@@ -192,6 +192,7 @@ class MedicineProvider extends ChangeNotifier {
       ), // Ensure we don't fetch from remote here if possible, or just accept it's "local-ish"
       _loadSimulatedSections(),
       _loadHighRiskIngredients(), // This reads from Repo, which reads from Local Datasource usually
+      // _backgroundSync(), // DISABLED TEMPORARILY TO FIX FREEZE PRECEPTION
     ]);
     await _applyFilters(page: 0);
   }
