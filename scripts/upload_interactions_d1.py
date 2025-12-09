@@ -142,13 +142,20 @@ class CloudflareD1Uploader:
                 VALUES {','.join(placeholders)}
             """
             
-            try:
-                self.execute_query(sql, params)
-                progress = ((i + len(batch)) / total) * 100
-                print(f"  Progress: {progress:.1f}% ({i + len(batch):,}/{total:,})", end='\r')
-            except Exception as e:
-                print(f"\n❌ Error in batch {i//batch_size + 1}: {e}")
-                raise
+            retries = 3
+            for attempt in range(retries):
+                try:
+                    self.execute_query(sql, params)
+                    progress = ((i + len(batch)) / total) * 100
+                    print(f"  Progress: {progress:.1f}% ({i + len(batch):,}/{total:,})", end='\r')
+                    break # Success
+                except Exception as e:
+                    if attempt < retries - 1:
+                        print(f"  ⚠️  Batch {i//batch_size + 1} failed (Attempt {attempt+1}/{retries}): {e}")
+                        time.sleep(2)
+                    else:
+                        print(f"\n❌ Error in batch {i//batch_size + 1}: {e}")
+                        raise
         
         print(f"\n✅ Upload complete: {total:,} interactions")
     

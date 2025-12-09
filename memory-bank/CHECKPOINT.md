@@ -147,7 +147,7 @@
 - **Search Bar:** Unified background color (transparent input) for seamless integration.
 - **Localization:** Added missing keys for Drug Details screen.
 - **Home Screen:** Verified imports and module connections.
-- **Github Scripts:** Fixed `too many SQL variables` and SQL injection issues in D1 uploaders.
+- **Github Scripts:** Fixed SQL errors, added retry logic for uploads, and fixed git push failures.
 - **Ads Config:** Refactored `AdConfigProvider` to properly respect remote config for test mode.
 - **Category Card Sizes:**
   - ✅ Added `shortNameEn`/`shortNameAr` to `CategoryData` and `CategoryEntity`.

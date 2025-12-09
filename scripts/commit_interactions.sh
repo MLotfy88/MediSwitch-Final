@@ -35,6 +35,7 @@ EOF
 # Commit and Push
 echo "Committing changes..."
 git commit -F "$COMMIT_MSG_FILE"
+git pull --rebase origin main
 git push
 
 echo "✅ Changes committed and pushed successfully."
