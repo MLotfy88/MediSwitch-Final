@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io'; // For SocketException
 
 import 'package:dartz/dartz.dart'; // Import dartz
+import 'package:flutter/foundation.dart'; // For compute
 import 'package:http/http.dart' as http;
 
 import '../../../core/error/failures.dart'; // Corrected path for failures.dart
@@ -35,7 +36,8 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
     // Example build command: flutter run --dart-define=BACKEND_URL=https://your-production-url.com
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
-      defaultValue: 'http://localhost:8000', // Default for local development
+      defaultValue:
+          'https://mediswitch-api.m-m-lotfy-88.workers.dev', // Default for local development
     );
     print('Using Backend URL: $backendUrl'); // Log the URL being used
 
@@ -116,8 +118,11 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       );
 
       if (response.statusCode == 200) {
-        final Map<String, dynamic> data =
-            json.decode(response.body) as Map<String, dynamic>;
+        // Use compute to run json.decode in a background isolate
+        final Map<String, dynamic> data = await compute(
+          _parseJson,
+          response.body,
+        );
         return Right(data);
       } else {
         print(
@@ -135,4 +140,9 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       return Left(ServerFailure());
     }
   }
+}
+
+// Top-level function for compute
+Map<String, dynamic> _parseJson(String text) {
+  return json.decode(text) as Map<String, dynamic>;
 }

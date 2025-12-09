@@ -113,7 +113,7 @@ Future<void> setupLocator() async {
     logger.i("Locator: Registering DrugRemoteDataSource...");
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
-      defaultValue: 'http://localhost:8000',
+      defaultValue: 'https://mediswitch-api.m-m-lotfy-88.workers.dev',
     );
     return DrugRemoteDataSourceImpl(
       baseUrl: backendUrl,
@@ -132,7 +132,7 @@ Future<void> setupLocator() async {
     logger.i("Locator: Registering ConfigRemoteDataSource...");
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
-      defaultValue: 'http://localhost:8000',
+      defaultValue: 'https://mediswitch-api.m-m-lotfy-88.workers.dev',
     );
     return ConfigRemoteDataSourceImpl(
       client: locator<http.Client>(),
@@ -143,7 +143,7 @@ Future<void> setupLocator() async {
     logger.i("Locator: Registering AnalyticsRemoteDataSource...");
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
-      defaultValue: 'http://localhost:8000',
+      defaultValue: 'https://mediswitch-api.m-m-lotfy-88.workers.dev',
     );
     return AnalyticsRemoteDataSourceImpl(
       client: locator<http.Client>(),
@@ -230,7 +230,7 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton<AnalyticsService>(() {
     const backendUrl = String.fromEnvironment(
       'BACKEND_URL',
-      defaultValue: 'http://localhost:8000',
+      defaultValue: 'https://mediswitch-api.m-m-lotfy-88.workers.dev',
     );
     return AnalyticsServiceImpl(
       client: locator<http.Client>(),
