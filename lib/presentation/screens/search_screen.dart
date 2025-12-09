@@ -14,7 +14,6 @@ import 'package:mediswitch/presentation/widgets/filter_pills.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/search_filters_sheet.dart';
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 /// شاشة البحث عن الأدوية مع دعم Infinite scroll والفلاتر
 class SearchScreen extends StatefulWidget {
@@ -39,13 +38,9 @@ class _SearchScreenState extends State<SearchScreen> {
   String _selectedDosageForm = 'All'; // Local state for filter pill
   FilterState _currentFilters = const FilterState(); // Added filter state
 
-  List<String> _searchHistory = [];
-  bool _isHistoryLoading = true;
-
   @override
   void initState() {
     super.initState();
-    _loadSearchHistory();
     _searchController.text = widget.initialQuery;
 
     // Initial setup listeners ...
@@ -57,71 +52,16 @@ class _SearchScreenState extends State<SearchScreen> {
         if (widget.initialQuery.isNotEmpty &&
             provider.searchQuery != widget.initialQuery) {
           provider.setSearchQuery(widget.initialQuery);
-          _addToHistory(widget.initialQuery);
         }
         // Handle Initial Category
         else if (widget.initialCategory != null &&
             widget.initialCategory!.isNotEmpty) {
           provider.setCategory(widget.initialCategory!);
-          // Don't add category to text history usually, or maybe we do?
-          // Usually history is typed text.
         }
       }
     });
 
     _scrollController.addListener(_onScroll);
-  }
-
-  Future<void> _loadSearchHistory() async {
-    final prefs = await SharedPreferences.getInstance();
-    setState(() {
-      _searchHistory = prefs.getStringList('search_history') ?? [];
-      _isHistoryLoading = false;
-    });
-  }
-
-  Future<void> _addToHistory(String query) async {
-    if (query.trim().isEmpty) return;
-    final prefs = await SharedPreferences.getInstance();
-    List<String> history = prefs.getStringList('search_history') ?? [];
-
-    // Remove if exists to move to top
-    history.remove(query.trim());
-    // Add to start
-    history.insert(0, query.trim());
-    // Limit to 10
-    if (history.length > 10) {
-      history = history.sublist(0, 10);
-    }
-
-    await prefs.setStringList('search_history', history);
-    if (mounted) {
-      setState(() {
-        _searchHistory = history;
-      });
-    }
-  }
-
-  Future<void> _removeFromHistory(String query) async {
-    final prefs = await SharedPreferences.getInstance();
-    List<String> history = prefs.getStringList('search_history') ?? [];
-    history.remove(query);
-    await prefs.setStringList('search_history', history);
-    if (mounted) {
-      setState(() {
-        _searchHistory = history;
-      });
-    }
-  }
-
-  Future<void> _clearHistory() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.remove('search_history');
-    if (mounted) {
-      setState(() {
-        _searchHistory = [];
-      });
-    }
   }
 
   @override
@@ -163,6 +103,9 @@ class _SearchScreenState extends State<SearchScreen> {
 
   void _navigateToDetails(BuildContext context, DrugEntity drug) {
     _adService.incrementUsageCounterAndShowAdIfNeeded();
+    // Add to Recent History
+    context.read<MedicineProvider>().addToRecentlyViewed(drug);
+
     Navigator.push(
       context,
       MaterialPageRoute<void>(
@@ -213,11 +156,20 @@ class _SearchScreenState extends State<SearchScreen> {
               color: colorScheme.surface,
               child: Row(
                 children: [
+                  // Back Button
                   Material(
                     color: Colors.transparent,
                     child: InkWell(
                       borderRadius: BorderRadius.circular(12),
-                      onTap: () => Navigator.of(context).pop(),
+                      onTap: () {
+                        if (Navigator.canPop(context)) {
+                          Navigator.of(context).pop();
+                        } else {
+                          // If can't pop, we might be at root tab, do nothing or reset
+                          provider.setSearchQuery('', triggerSearch: false);
+                          FocusScope.of(context).unfocus();
+                        }
+                      },
                       child: Container(
                         padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
@@ -238,12 +190,10 @@ class _SearchScreenState extends State<SearchScreen> {
                   Expanded(
                     child: ModernSearchBar(
                       controller: _searchController,
-                      hintText: l10n.searchHint,
+                      hintText: isRTL ? 'ابحث عن دواء...' : l10n.searchHint,
                       onChanged: (String query) {
                         provider.setSearchQuery(query, triggerSearch: true);
-                        if (query.isNotEmpty) {
-                          _addToHistory(query);
-                        }
+                        // String history is secondary now, maybe keep it but UI shows cards
                       },
                       onFilterTap: _openFilters,
                     ),
@@ -330,7 +280,7 @@ class _SearchScreenState extends State<SearchScreen> {
               child:
                   (provider.searchQuery.isEmpty &&
                           provider.selectedCategory.isEmpty)
-                      ? _buildHistoryList(context, isRTL)
+                      ? _buildHistoryList(context, provider, isRTL)
                       : _buildResultsList(context, provider, l10n),
             ),
             const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
@@ -340,11 +290,15 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  Widget _buildHistoryList(BuildContext context, bool isRTL) {
+  Widget _buildHistoryList(
+    BuildContext context,
+    MedicineProvider provider,
+    bool isRTL,
+  ) {
     final theme = Theme.of(context);
-    if (_isHistoryLoading) return const SizedBox.shrink();
+    final recentDrugs = provider.recentlyViewedDrugs;
 
-    if (_searchHistory.isEmpty) {
+    if (recentDrugs.isEmpty) {
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -356,7 +310,9 @@ class _SearchScreenState extends State<SearchScreen> {
             ),
             const SizedBox(height: 16),
             Text(
-              isRTL ? 'إبحث عن الأدوية' : 'Search for medicines',
+              isRTL
+                  ? 'لم تقم بزيارة أي أدوية مؤخراً'
+                  : 'No recently viewed drugs',
               style: TextStyle(color: theme.colorScheme.outline),
             ),
           ],
@@ -369,47 +325,28 @@ class _SearchScreenState extends State<SearchScreen> {
       children: [
         Padding(
           padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                isRTL ? 'بحث سابق' : 'Recent Searches',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  color: theme.colorScheme.onSurface,
-                ),
-              ),
-              TextButton(
-                onPressed: _clearHistory,
-                child: Text(
-                  isRTL ? 'مسح الكل' : 'Clear All',
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: theme.colorScheme.error,
-                  ),
-                ),
-              ),
-            ],
+          child: Text(
+            isRTL ? 'الأدوية التي تم زيارتها مؤخراً' : 'Recently Viewed',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              color: theme.colorScheme.onSurface,
+            ),
           ),
         ),
         Expanded(
           child: ListView.builder(
-            itemCount: _searchHistory.length,
+            padding: const EdgeInsets.all(16),
+            itemCount: recentDrugs.length,
             itemBuilder: (context, index) {
-              final query = _searchHistory[index];
-              return ListTile(
-                leading: const Icon(LucideIcons.clock, size: 16),
-                title: Text(query),
-                trailing: IconButton(
-                  icon: const Icon(LucideIcons.x, size: 16),
-                  onPressed: () => _removeFromHistory(query),
+              final drug = recentDrugs[index];
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: ModernDrugCard(
+                  drug: drug,
+                  hasInteraction: false,
+                  onTap: () => _navigateToDetails(context, drug),
                 ),
-                onTap: () {
-                  _searchController.text = query;
-                  context.read<MedicineProvider>().setSearchQuery(query);
-                  _addToHistory(query);
-                },
               );
             },
           ),

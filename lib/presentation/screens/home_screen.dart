@@ -508,9 +508,17 @@ class _HomeScreenState extends State<HomeScreen> {
             subtitle: l10n.browseByCategory,
             // ✅ إصلاح الأيقونة لتتوافق مع الثيم
             icon: LucideIcons.layoutGrid,
-            iconColor: theme.colorScheme.primary,
-            iconTintColor: theme.colorScheme.onPrimary,
-            // ✅ تم إزالة See All
+            iconColor: theme.colorScheme.primary.withValues(alpha: 0.1),
+            iconTintColor: theme.colorScheme.primary,
+            onSeeAll: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder:
+                      (context) => const SearchScreen(initialCategory: 'All'),
+                ),
+              );
+            },
           ),
           const SizedBox(height: 12),
           SizedBox(
