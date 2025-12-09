@@ -168,7 +168,7 @@ class MedicineProvider extends ChangeNotifier {
 
       // 2. Trigger Background Sync (Fire and Forget)
       // This runs in the background and will notify listeners if data changes
-      _backgroundSync();
+      // _backgroundSync(); // DISABLED: Fix freeze
 
       _logger.i(
         "MedicineProvider: Local load successful. Background sync started.",

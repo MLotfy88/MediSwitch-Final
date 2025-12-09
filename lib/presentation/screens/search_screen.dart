@@ -172,12 +172,17 @@ class _SearchScreenState extends State<SearchScreen> {
                           color: colorScheme.onSurface,
                         ),
                         onPressed: () {
+                          print("[SearchScreen] Back button pressed");
                           // Force hide keyboard
                           FocusScope.of(context).unfocus();
 
                           if (Navigator.canPop(context)) {
+                            print("[SearchScreen] Popping context");
                             Navigator.of(context).pop();
                           } else {
+                            print(
+                              "[SearchScreen] Cannot pop, resetting search",
+                            );
                             // If can't pop (e.g. Tab), force reset and maybe go home?
                             provider.setSearchQuery('', triggerSearch: false);
                             // Optional: If you want to force go to home tab:
