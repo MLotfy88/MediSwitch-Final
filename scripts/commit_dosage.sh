@@ -63,6 +63,7 @@ git commit -m "$FULL_COMMIT_MSG"
 
 # Push changes
 echo "📤 Pushing changes to repository..."
+git pull --rebase origin main
 git push
 
 echo "✅ Dosage guidelines successfully committed and pushed"

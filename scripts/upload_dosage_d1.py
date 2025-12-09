@@ -134,19 +134,26 @@ class CloudflareD1Uploader:
         
         for i in range(0, total, batch_size):
             batch = guidelines[i:i + batch_size]
-            try:
-                count = self.upload_batch(batch, i)
-                uploaded += count
-                print(f"  ✓ Batch {i//batch_size + 1}: Uploaded {count} guidelines " +
-                      f"({uploaded:,}/{total:,} = {uploaded/total*100:.1f}%)")
+            retries = 3
+            for attempt in range(retries):
+                try:
+                    count = self.upload_batch(batch, i)
+                    uploaded += count
+                    print(f"  ✓ Batch {i//batch_size + 1}: Uploaded {count} guidelines " +
+                          f"({uploaded:,}/{total:,} = {uploaded/total*100:.1f}%)")
+                    
+                    # Rate limiting
+                    if i + batch_size < total:
+                        time.sleep(0.5)  # 500ms between batches
+                    break  # Success
                 
-                # Rate limiting
-                if i + batch_size < total:
-                    time.sleep(0.5)  # 500ms between batches
-            
-            except Exception as e:
-                failed += len(batch)
-                print(f"  ✗ Batch {i//batch_size + 1} failed: {e}")
+                except Exception as e:
+                    if attempt < retries - 1:
+                        print(f"  ⚠️  Batch {i//batch_size + 1} failed (Attempt {attempt+1}/{retries}): {e}")
+                        time.sleep(2)  # Wait before retry
+                    else:
+                        failed += len(batch)
+                        print(f"  ✗ Batch {i//batch_size + 1} failed permanently: {e}")
         
         # Create indexes after upload
         self.create_indexes()
