@@ -1,6 +1,5 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:mediswitch/core/constants/categories_data.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
@@ -198,15 +197,46 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   Future<void> _loadLocalDataOnly() async {
+    // Optimized loading for Home Screen as per User Request:
+    // 1. Categories Count
+    // 2. High Risk Ingredients (Not drugs)
+    // 3. Last 20 Updated Drugs (Sorted by last_price_update)
+
     await Future.wait([
-      _loadCategories(
-        forceLocal: true,
-      ), // Ensure we don't fetch from remote here if possible, or just accept it's "local-ish"
-      _loadSimulatedSections(),
-      _loadHighRiskIngredients(), // This reads from Repo, which reads from Local Datasource usually
-      // _backgroundSync(), // DISABLED TEMPORARILY TO FIX FREEZE PRECEPTION
+      _loadCategories(forceLocal: true),
+      _loadHighRiskIngredients(),
+      _loadHomeRecentlyUpdatedDrugs(),
     ]);
-    await _applyFilters(page: 0);
+
+    // Apply filters not needed for Home Screen data, but good to reset state
+    // await _applyFilters(page: 0); // This might trigger search, we can delay it or skip if Home doesn't show search results directly
+  }
+
+  Future<void> _loadHomeRecentlyUpdatedDrugs() async {
+    _logger.d("MedicineProvider: Loading last 20 updated drugs...");
+    // Use a very old date to ensure we get the absolute latest 20 drugs regardless of window
+    // as long as they have a date.
+    final cutoffDate = '2000-01-01';
+    const recentLimit = 20;
+
+    final recentResult = await _getRecentlyUpdatedDrugsUseCase(
+      GetRecentlyUpdatedDrugsParams(cutoffDate: cutoffDate, limit: recentLimit),
+    );
+    recentResult.fold(
+      (l) {
+        _logger.w(
+          "MedicineProvider: Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
+        );
+        _recentlyUpdatedDrugs = [];
+      },
+      (r) {
+        _recentlyUpdatedDrugs = r;
+        _logger.i(
+          "MedicineProvider: Loaded ${_recentlyUpdatedDrugs.length} recently updated drugs.",
+        );
+      },
+    );
+    notifyListeners();
   }
 
   /// Runs in background without blocking UI
@@ -365,7 +395,7 @@ class MedicineProvider extends ChangeNotifier {
             // Reload data from DB (now contains updated drugs)
             await Future.wait([
               _loadCategories(forceLocal: false),
-              _loadSimulatedSections(),
+              // _loadSimulatedSections(), // REMOVED: Performance optimization
               _loadHighRiskIngredients(),
             ]);
 
@@ -578,70 +608,8 @@ class MedicineProvider extends ChangeNotifier {
     return 'pill';
   }
 
-  Future<void> _loadSimulatedSections() async {
-    _logger.d("MedicineProvider: _loadSimulatedSections called.");
-
-    // Delay to let the UI settle and prevent startup freeze/jank
-    await Future.delayed(const Duration(seconds: 2));
-
-    try {
-      // --- Recently Updated Logic ---
-      final now = DateTime.now();
-      final oneMonthAgo = DateTime(now.year, now.month - 1, now.day);
-      final cutoffDate = DateFormat('yyyy-MM-dd').format(oneMonthAgo);
-      const recentLimit = 50;
-
-      final recentResult = await _getRecentlyUpdatedDrugsUseCase(
-        GetRecentlyUpdatedDrugsParams(
-          cutoffDate: cutoffDate,
-          limit: recentLimit,
-        ),
-      );
-      recentResult.fold(
-        (l) {
-          _logger.w(
-            "Failed to load recently updated drugs: ${_mapFailureToMessage(l)}",
-          );
-          _recentlyUpdatedDrugs = [];
-        },
-        (r) {
-          _recentlyUpdatedDrugs = r;
-        },
-      );
-
-      // --- Popular (Random) Logic ---
-      const popularLimit = 10;
-      final popularResult = await _getPopularDrugsUseCase(
-        GetPopularDrugsParams(limit: popularLimit),
-      );
-      popularResult.fold(
-        (l) {
-          _logger.w("Failed to load popular drugs: ${_mapFailureToMessage(l)}");
-          _popularDrugs = [];
-        },
-        (r) {
-          _popularDrugs = r;
-        },
-      );
-
-      // --- High Risk Drugs Logic ---
-      final highRiskResult = await _getHighRiskDrugsUseCase(20);
-      highRiskResult.fold(
-        (l) => _logger.w(
-          "Failed to load high risk drugs: ${_mapFailureToMessage(l)}",
-        ),
-        (r) {
-          _highRiskDrugs = r;
-          _logger.i("Loaded ${_highRiskDrugs.length} high risk drugs");
-        },
-      );
-    } catch (e, s) {
-      _logger.e("Error loading sections", e, s);
-      _recentlyUpdatedDrugs = [];
-      _popularDrugs = [];
-      _highRiskDrugs = [];
-    }
-  }
+  // _loadSimulatedSections REMOVED via optimization
+  // Future<void> _loadSimulatedSections() async { ... }
 
   // --- Filter & Search Setters ---
 

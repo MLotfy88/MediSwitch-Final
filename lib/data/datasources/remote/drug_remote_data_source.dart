@@ -83,28 +83,37 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
   @override
   Future<Either<Failure, String>> downloadLatestData() async {
     final url = Uri.parse('$baseUrl/api/v1/data/latest/');
+    print('DEBUG: Downloading CSV from: $url');
     try {
-      final response = await client.get(url);
+      final response = await client
+          .get(url)
+          .timeout(const Duration(seconds: 30));
+
+      print('DEBUG: Download Status: ${response.statusCode}');
+      print('DEBUG: Content-Type: ${response.headers['content-type']}');
+      print('DEBUG: Body Length: ${response.body.length} chars');
 
       if (response.statusCode == 200) {
         // Return the file content directly
         return Right(response.body);
       } else {
         print(
-          'Error: Failed to download data from $url - Status: ${response.statusCode}',
+          'Error: Failed to download data from $url - Status: ${response.statusCode} - Body: ${response.body.substring(0, min(100, response.body.length))}',
         );
         return Left(ServerFailure());
       }
-    } on SocketException {
+    } on SocketException catch (e) {
       print(
-        'Error: Network error (SocketException) downloading data from $url',
+        'Error: Network error (SocketException) downloading data from $url: $e',
       );
       return Left(NetworkFailure());
-    } catch (e) {
-      print('Error: Unexpected error downloading data from $url: $e');
+    } catch (e, s) {
+      print('Error: Unexpected error downloading data from $url: $e\n$s');
       return Left(ServerFailure());
     }
   }
+
+  int min(int a, int b) => a < b ? a : b;
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(

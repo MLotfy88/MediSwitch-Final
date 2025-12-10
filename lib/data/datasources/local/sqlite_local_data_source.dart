@@ -11,7 +11,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 
 // --- Constants ---
+// --- Constants ---
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
+// Represents the time the APK was built (or the CSV data was generated).
+// This ensures we only fetch updates that happened AFTER the app was released.
+// Current: Dec 10, 2025 (Simulated Build Time)
+const int _initialDataTimestamp = 1765342800000;
 
 // --- Top-level Functions for Isolate ---
 // Keep for update logic
@@ -91,7 +96,11 @@ class SqliteLocalDataSource {
   Future<int?> getLastUpdateTimestamp() async {
     await seedingComplete;
     final prefs = await _prefs;
-    return prefs.getInt(_prefsKeyLastUpdate);
+    final timestamp = prefs.getInt(_prefsKeyLastUpdate);
+    // If we have a stored timestamp, return it.
+    // If not, it means we just seeded from the CSV.
+    // Return the default timestamp of that CSV so we only delta-sync after it.
+    return timestamp ?? _initialDataTimestamp;
   }
 
   // Performs initial seeding from the asset file. Called by SetupScreen.
@@ -181,6 +190,8 @@ class SqliteLocalDataSource {
       }
 
       final prefs = await _prefs;
+      // When we download a FULL updated CSV, we update the timestamp to NOW (or server time if available).
+      // Here we use now() as a fallback for the "current version" of the data we just got.
       await prefs.setInt(
         _prefsKeyLastUpdate,
         DateTime.now().millisecondsSinceEpoch,
