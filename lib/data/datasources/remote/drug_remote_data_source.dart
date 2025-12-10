@@ -110,6 +110,13 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
     int lastTimestamp,
   ) async {
+    // If timestamp is 0, we should use the CSV download endpoint
+    // But this method signature returns Map<String, dynamic>.
+    // The Repository handles the strategy switching.
+    // Here we just keep the endpoint logic pure.
+    // The Repository is already modified to call downloadLatestData() if timestamp is 0.
+    // So we don't need to change this method to download CSV.
+    // We just need to fix the print statement.
     final url = Uri.parse('$baseUrl/api/drugs/delta/$lastTimestamp');
     print('DEBUG: Requesting Delta Sync: $url');
     try {
