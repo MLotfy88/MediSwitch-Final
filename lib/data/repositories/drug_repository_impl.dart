@@ -345,6 +345,35 @@ class DrugRepositoryImpl implements DrugRepository {
       _logger.w('DrugRepository: Not connected, cannot get delta sync.');
       return Left(NetworkFailure());
     }
+
+    // HYBRID SYNC STRATEGY:
+    // If timestamp is 0 (first sync or full reset), use CSV Download (more robust for bulk data).
+    // If timestamp > 0, use JSON Delta Sync (efficient for small updates).
+    if (lastTimestamp == 0) {
+      _logger.i(
+        "DrugRepository: Timestamp is 0. Switching to FULL CSV DOWNLOAD strategy.",
+      );
+      try {
+        await _updateLocalDataFromRemote(); // Reuses existing CSV download logic
+
+        // After successful download, we need to return a "success" map to satisfy the contract.
+        // We fetch the new timestamp to return it.
+        final newTimestamp =
+            await localDataSource.getLastUpdateTimestamp() ??
+            DateTime.now().millisecondsSinceEpoch;
+
+        return Right({
+          'count': 1, // specific count unknown, but > 0
+          'currentTimestamp': newTimestamp,
+          'drugs': [], // Drugs already saved to DB via CSV import
+        });
+      } catch (e) {
+        _logger.e("DrugRepository: Full CSV sync failed", e);
+        return Left(ServerFailure());
+      }
+    }
+
+    // Standard Delta Sync for updates
     try {
       final result = await remoteDataSource.getDeltaSyncDrugs(lastTimestamp);
       return await result.fold(
