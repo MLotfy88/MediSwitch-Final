@@ -580,16 +580,10 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<void> _loadSimulatedSections() async {
     _logger.d("MedicineProvider: _loadSimulatedSections called.");
-    // Simulated categories for "Browse by Category" or similar
-    // We will execute these searches in parallel to save time
-    // and notify only once.
 
-    // The original code did not have notifyListeners() calls inside this method.
-    // It populated _recentlyUpdatedDrugs, _popularDrugs, and _highRiskDrugs.
-    // The instruction "Remove notifyListeners inside loop, call once at end"
-    // implies adding a single notifyListeners() at the end if there were multiple.
-    // Since there were none, no change is needed based on the instruction's premise.
-    // The provided "Code Edit" block seems to be a thought process, not an actual edit.
+    // Delay to let the UI settle and prevent startup freeze/jank
+    await Future.delayed(const Duration(seconds: 2));
+
     try {
       // --- Recently Updated Logic ---
       final now = DateTime.now();
