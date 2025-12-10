@@ -111,12 +111,14 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
     int lastTimestamp,
   ) async {
     final url = Uri.parse('$baseUrl/api/drugs/delta/$lastTimestamp');
+    print('DEBUG: Requesting Delta Sync: $url');
     try {
       final response = await client.get(
         url,
         headers: {'Content-Type': 'application/json'},
       );
 
+      print('DEBUG: Response Status: ${response.statusCode}');
       if (response.statusCode == 200) {
         // Use compute to run json.decode in a background isolate
         final Map<String, dynamic> data = await compute(
@@ -126,17 +128,17 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
         return Right(data);
       } else {
         print(
-          'Error: Failed to get delta sync from $url - Status: ${response.statusCode}',
+          'Error: Failed to get delta sync from $url - Status: ${response.statusCode} - Body: ${response.body.substring(0, 100)}...',
         );
         return Left(ServerFailure());
       }
-    } on SocketException {
+    } on SocketException catch (e) {
       print(
-        'Error: Network error (SocketException) fetching delta sync from $url',
+        'Error: Network error (SocketException) fetching delta sync from $url: $e',
       );
       return Left(NetworkFailure());
-    } catch (e) {
-      print('Error: Unexpected error fetching delta sync from $url: $e');
+    } catch (e, s) {
+      print('Error: Unexpected error fetching delta sync from $url: $e\n$s');
       return Left(ServerFailure());
     }
   }
