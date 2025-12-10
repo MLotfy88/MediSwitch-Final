@@ -208,8 +208,34 @@ class MedicineProvider extends ChangeNotifier {
       _loadHomeRecentlyUpdatedDrugs(),
     ]);
 
+    // Ensure we have the correct timestamp loaded from local prefs/datasource
+    // This is critical for Manual Sync to work correctly (Delta vs Full)
+    await _updateInternalTimestamp();
+
     // Apply filters not needed for Home Screen data, but good to reset state
     // await _applyFilters(page: 0); // This might trigger search, we can delay it or skip if Home doesn't show search results directly
+  }
+
+  Future<void> _updateInternalTimestamp() async {
+    // This helper method isn't strictly defined in the snippet I saw,
+    // but we can implementation it or call the use case.
+    // Actually, localDataSource is available.
+    // Let's rely on the use case if possible or access datasource.
+    // Provider has access to: _getLastUpdateTimestampUseCase (Remote?)
+    // Wait, the UseCases are:
+    // GetLastUpdateTimestampUseCase -> Reposistory -> Remote/Local?
+    // Let's check the UseCase. It might be REMOTE check.
+    // We need LOCAL timestamp.
+    // The provider has `_localDataSource`.
+    try {
+      final timestamp = await _localDataSource.getLastUpdateTimestamp();
+      _lastUpdateTimestamp = timestamp;
+      _logger.i(
+        "MedicineProvider: Initialized local timestamp to: $_lastUpdateTimestamp",
+      );
+    } catch (e) {
+      _logger.w("MedicineProvider: Failed to load local timestamp", e);
+    }
   }
 
   Future<void> _loadHomeRecentlyUpdatedDrugs() async {

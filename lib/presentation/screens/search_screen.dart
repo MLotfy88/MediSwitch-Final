@@ -57,6 +57,17 @@ class _SearchScreenState extends State<SearchScreen> {
             widget.initialCategory!.isNotEmpty) {
           provider.setCategory(widget.initialCategory!);
         }
+        // Handle Default Case (Entry logic)
+        // If coming from Home or Tab, we want to show "All Drugs" (paginated)
+        // Since we don't pre-load them anymore, we MUST trigger a search here.
+        else {
+          // Only trigger if list is empty to avoid re-loading if we navigate back/forth
+          // (though SearchScreen seems to be Pushed, so new instance usually)
+          if (provider.filteredMedicines.isEmpty &&
+              provider.searchQuery.isEmpty) {
+            provider.triggerSearch();
+          }
+        }
       }
     });
 
