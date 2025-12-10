@@ -19,11 +19,6 @@ List<MedicineModel> _parseMedicineModels(List<Map<String, dynamic>> data) {
 }
 // import '../../core/network/network_info.dart';
 
-// Define specific Failure types
-class ServerFailure extends Failure {}
-
-class NetworkFailure extends Failure {}
-
 class DrugRepositoryImpl implements DrugRepository {
   final SqliteLocalDataSource localDataSource; // Changed type to SQLite
   final DrugRemoteDataSource remoteDataSource;
@@ -197,7 +192,7 @@ class DrugRepositoryImpl implements DrugRepository {
       );
     }
     // --- End of Update Check Logic ---
-
+    
     // Fetch all drugs from local storage regardless of update status
     try {
       _logger.i("DrugRepository: Fetching all drugs from local data source...");
@@ -369,7 +364,7 @@ class DrugRepositoryImpl implements DrugRepository {
         });
       } catch (e) {
         _logger.e("DrugRepository: Full CSV sync failed", e);
-        return Left(ServerFailure());
+        return Left(ServerFailure(message: e.toString()));
       }
     }
 

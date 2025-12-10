@@ -32,10 +32,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
   }
 
   void _loadRecentlyViewedFromProvider() {
-    // Use recently updated drugs as proxy for viewed drugs
-    // In production, implement proper history tracking
+    // Use recently viewed drugs from provider
     final provider = context.read<MedicineProvider>();
-    final recentDrugs = provider.recentlyUpdatedDrugs.take(10).toList();
+    final recentDrugs = provider.recentlyViewedDrugs.toList();
 
     setState(() {
       _viewedDrugs.clear();

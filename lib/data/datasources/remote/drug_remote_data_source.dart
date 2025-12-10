@@ -109,7 +109,7 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       return Left(NetworkFailure());
     } catch (e, s) {
       print('Error: Unexpected error downloading data from $url: $e\n$s');
-      return Left(ServerFailure());
+      return Left(ServerFailure(message: 'Unexpected error: $e'));
     }
   }
 
@@ -119,13 +119,6 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
     int lastTimestamp,
   ) async {
-    // If timestamp is 0, we should use the CSV download endpoint
-    // But this method signature returns Map<String, dynamic>.
-    // The Repository handles the strategy switching.
-    // Here we just keep the endpoint logic pure.
-    // The Repository is already modified to call downloadLatestData() if timestamp is 0.
-    // So we don't need to change this method to download CSV.
-    // We just need to fix the print statement.
     final url = Uri.parse('$baseUrl/api/drugs/delta/$lastTimestamp');
     print('DEBUG: Requesting Delta Sync: $url');
     try {
@@ -143,19 +136,19 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
         );
         return Right(data);
       } else {
-        print(
-          'Error: Failed to get delta sync from $url - Status: ${response.statusCode} - Body: ${response.body.substring(0, 100)}...',
-        );
-        return Left(ServerFailure());
+        final errorMsg =
+            'HTTP ${response.statusCode}: ${response.body.substring(0, min(100, response.body.length))}';
+        print('Error: Failed to get delta sync from $url - $errorMsg');
+        return Left(ServerFailure(message: errorMsg));
       }
     } on SocketException catch (e) {
       print(
         'Error: Network error (SocketException) fetching delta sync from $url: $e',
       );
-      return Left(NetworkFailure());
+      return Left(NetworkFailure(message: 'Network error: $e'));
     } catch (e, s) {
       print('Error: Unexpected error fetching delta sync from $url: $e\n$s');
-      return Left(ServerFailure());
+      return Left(ServerFailure(message: 'Unexpected error: $e'));
     }
   }
 }

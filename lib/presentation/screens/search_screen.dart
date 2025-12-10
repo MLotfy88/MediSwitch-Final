@@ -301,13 +301,7 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
 
             // Main Content: History OR Results
-            Expanded(
-              child:
-                  (provider.searchQuery.isEmpty &&
-                          provider.selectedCategory.isEmpty)
-                      ? _buildHistoryList(context, provider, isRTL)
-                      : _buildResultsList(context, provider, l10n),
-            ),
+            Expanded(child: _buildResultsList(context, provider, l10n)),
             const BannerAdWidget(placement: BannerAdPlacement.searchBottom),
           ],
         ),
