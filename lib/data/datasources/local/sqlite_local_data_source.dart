@@ -15,8 +15,8 @@ import 'package:sqflite/sqflite.dart';
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
 // Represents the time the APK was built (or the CSV data was generated).
 // This ensures we only fetch updates that happened AFTER the app was released.
-// Current: Dec 10, 2025 (Simulated Build Time)
-const int _initialDataTimestamp = 1765342800000;
+// 0 means no initial data assumed, triggers full sync/download if no timestamp in prefs
+const int _initialDataTimestamp = 0;
 
 // --- Top-level Functions for Isolate ---
 // Keep for update logic
