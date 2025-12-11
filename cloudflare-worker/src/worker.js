@@ -362,7 +362,7 @@ async function handleRecentPriceChanges(request, DB) {
         const query = `
             SELECT id, trade_name, company, price, old_price, last_price_update, updated_at
             FROM drugs
-            WHERE last_price_update IS NOT NULL
+            WHERE last_price_update IS NOT NULL AND last_price_update != ''
             ORDER BY last_price_update DESC
             LIMIT ?
         `;
@@ -405,7 +405,7 @@ async function handleDailyAnalytics(request, DB) {
         const priceUpdatesQuery = `
             SELECT last_price_update as date, COUNT(*) as count
             FROM drugs 
-            WHERE last_price_update >= date('now', '-' || ? || ' days')
+            WHERE last_price_update >= date('now', '-' || ? || ' days') AND last_price_update != ''
             GROUP BY last_price_update
             ORDER BY last_price_update ASC
         `;
@@ -496,7 +496,8 @@ async function handleAdminGetDrugs(request, DB) {
         const safeSortBy = allowedSortColumns.includes(sortBy) ? sortBy : 'updated_at';
         const safeSortOrder = (sortOrder === 'ASC' || sortOrder === 'DESC') ? sortOrder : 'DESC';
 
-        query += ` ORDER BY ${safeSortBy} ${safeSortOrder} LIMIT ? OFFSET ?`;
+        // Add NULLS LAST to ensure empty values don't clutter the top of the list
+        query += ` ORDER BY ${safeSortBy} ${safeSortOrder} NULLS LAST LIMIT ? OFFSET ?`;
         params.push(limit, offset);
 
         const [dataResult, countResult] = await Promise.all([
