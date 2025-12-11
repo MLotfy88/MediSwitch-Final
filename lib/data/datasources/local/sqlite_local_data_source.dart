@@ -416,10 +416,11 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
     String cutoffDate, {
     required int limit,
+    int? offset,
   }) async {
     await seedingComplete; // Wait for seeding
     print(
-      "Fetching recently updated medicines from SQLite (since $cutoffDate, limit: $limit)...",
+      "Fetching recently updated medicines from SQLite (since $cutoffDate, limit: $limit, offset: $offset)...",
     );
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
@@ -429,6 +430,7 @@ class SqliteLocalDataSource {
       orderBy:
           '${DatabaseHelper.colLastPriceUpdate} DESC', // Optional: Order by most recent
       limit: limit,
+      offset: offset,
     );
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);

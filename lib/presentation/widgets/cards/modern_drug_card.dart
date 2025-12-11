@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:mediswitch/core/utils/date_formatter.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
@@ -257,7 +258,7 @@ class ModernDrugCard extends StatelessWidget {
                   ),
                   const SizedBox(width: 4),
                   Text(
-                    'Updated: ${drug.lastPriceUpdate}',
+                    'Updated: ${DateFormatter.formatDate(drug.lastPriceUpdate)}',
                     style: TextStyle(
                       fontSize: 10,
                       color: appColors.mutedForeground,

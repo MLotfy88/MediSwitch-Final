@@ -638,33 +638,78 @@ class MedicineProvider extends ChangeNotifier {
     _error = '';
     // Clear previous search query/results to avoid confusion
     _searchQuery = '';
+
+    // Reset pagination
+    _currentPage = 0;
+    _hasMoreItems = true;
+    _searchResults = [];
+    _filteredMedicines = [];
+
     // notifyListeners(); // Avoid double notify
 
     try {
-      // Fetch recently updated drugs (e.g., last 20)
-      // We use a cutoff date far in the past to get the absolute latest updates
-      // or we could use getAllDrugs with a limit/sort if available.
-      // Reuse getRecentlyUpdatedDrugs for "Newest"
-      final result = await _getRecentlyUpdatedDrugsUseCase(
-        GetRecentlyUpdatedDrugsParams(cutoffDate: '2000-01-01', limit: 20),
-      );
-
-      result.fold(
-        (failure) {
-          _error = 'Failed to load initial drugs';
-        },
-        (drugs) {
-          _filteredMedicines = drugs;
-          _searchResults = drugs;
-          _hasMoreItems = false; // "Newest" list is finite for now
-        },
-      );
+      // Fetch recently updated drugs (Page 0)
+      await _loadMoreRecentDrugsInternal(page: 0);
     } catch (e) {
       _error = 'Error loading initial drugs';
     } finally {
       _isLoading = false;
       notifyListeners();
     }
+  }
+
+  Future<void> loadMoreRecentDrugs() async {
+    if (_isLoadingMore || !_hasMoreItems) return;
+
+    _isLoadingMore = true;
+    notifyListeners();
+
+    try {
+      final nextPage = _currentPage + 1;
+      await _loadMoreRecentDrugsInternal(page: nextPage);
+    } catch (e) {
+      // handle error
+    } finally {
+      _isLoadingMore = false;
+      notifyListeners();
+    }
+  }
+
+  Future<void> _loadMoreRecentDrugsInternal({required int page}) async {
+    final offset = page * _pageSize;
+    // Use a very old date to ensure we get the absolute latest drugs
+    final cutoffDate = '2000-01-01';
+
+    final result = await _getRecentlyUpdatedDrugsUseCase(
+      GetRecentlyUpdatedDrugsParams(
+        cutoffDate: cutoffDate,
+        limit: _pageSize,
+        offset: offset,
+      ),
+    );
+
+    result.fold(
+      (failure) {
+        if (page == 0) _error = 'Failed to load initial drugs';
+      },
+      (drugs) {
+        if (drugs.isEmpty) {
+          _hasMoreItems = false;
+        } else {
+          if (page == 0) {
+            _searchResults = drugs;
+            _filteredMedicines = drugs;
+          } else {
+            _searchResults.addAll(drugs);
+            _filteredMedicines.addAll(drugs);
+          }
+          _currentPage = page;
+          if (drugs.length < _pageSize) {
+            _hasMoreItems = false;
+          }
+        }
+      },
+    );
   }
 
   /// Clears the search query and resets to initial state (Recent Drugs)
@@ -859,8 +904,15 @@ class MedicineProvider extends ChangeNotifier {
         ),
       );
     } else {
-      result = await _searchDrugsUseCase(
-        SearchParams(query: '', limit: fetchLimit, offset: offset),
+      // Default: Show Recently Updated (Infinite Scroll)
+      // Use a very old date to ensure we get the absolute latest drugs
+      final cutoffDate = '2000-01-01';
+      result = await _getRecentlyUpdatedDrugsUseCase(
+        GetRecentlyUpdatedDrugsParams(
+          cutoffDate: cutoffDate,
+          limit: fetchLimit,
+          offset: offset,
+        ),
       );
     }
 

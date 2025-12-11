@@ -42,6 +42,7 @@ abstract class DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({
     required String cutoffDate,
     required int limit,
+    int? offset,
   });
 
   /// Gets popular drugs (currently implemented as random).
