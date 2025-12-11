@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+
 import '../../core/error/failures.dart';
 import '../../core/usecases/usecase.dart';
 import '../entities/drug_entity.dart';
@@ -17,6 +18,7 @@ class GetRecentlyUpdatedDrugsUseCase
     return await repository.getRecentlyUpdatedDrugs(
       cutoffDate: params.cutoffDate,
       limit: params.limit,
+      offset: params.offset,
     );
   }
 }
@@ -24,9 +26,11 @@ class GetRecentlyUpdatedDrugsUseCase
 class GetRecentlyUpdatedDrugsParams {
   final String cutoffDate;
   final int limit;
+  final int? offset;
 
   GetRecentlyUpdatedDrugsParams({
     required this.cutoffDate,
     required this.limit,
+    this.offset,
   });
 }

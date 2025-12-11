@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/app_spacing.dart';
+import 'package:mediswitch/core/utils/date_formatter.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart'; // Import DosageGuidelinesModel
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
@@ -41,32 +42,6 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   void dispose() {
     _tabController.dispose();
     super.dispose();
-  }
-
-  String _formatDate(String? dateStr) {
-    if (dateStr == null || dateStr.isEmpty) return 'Unknown';
-    try {
-      final date = DateTime.parse(dateStr);
-      final months = [
-        'Jan',
-        'Feb',
-        'Mar',
-        'Apr',
-        'May',
-        'Jun',
-        'Jul',
-        'Aug',
-        'Sep',
-        'Oct',
-        'Nov',
-        'Dec',
-      ];
-      return '${months[date.month - 1]} ${date.day}, ${date.year}';
-    } on FormatException catch (_) {
-      return dateStr; // Return original if parsing fails
-    } catch (e) {
-      return dateStr;
-    }
   }
 
   @override
@@ -342,7 +317,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       ),
                       const SizedBox(width: 4),
                       Text(
-                        'Updated ${_formatDate(widget.drug.lastPriceUpdate)}',
+                        'Updated ${DateFormatter.formatDate(widget.drug.lastPriceUpdate)}',
                         style: TextStyle(
                           fontSize: 12,
                           color: colorScheme.onPrimary.withValues(alpha: 0.6),

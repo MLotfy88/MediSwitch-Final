@@ -192,7 +192,7 @@ class DrugRepositoryImpl implements DrugRepository {
       );
     }
     // --- End of Update Check Logic ---
-    
+
     // Fetch all drugs from local storage regardless of update status
     try {
       _logger.i("DrugRepository: Fetching all drugs from local data source...");
@@ -374,6 +374,16 @@ class DrugRepositoryImpl implements DrugRepository {
       return await result.fold(
         (failure) {
           _logger.w('DrugRepository: Delta sync failed - $failure');
+          // Check for 404 (Not Found) which means our timestamp is invalid/too old for server
+          // or just unknown. In this case, fallback to Full Sync (timestamp=0).
+          if (failure is ServerFailure &&
+              failure.message != null &&
+              failure.message!.contains('404')) {
+            _logger.w(
+              'DrugRepository: Delta sync 404. Falling back to Full Sync (Timestamp=0).',
+            );
+            return getDeltaSyncDrugs(0);
+          }
           return Left(failure);
         },
         (data) async {
@@ -432,15 +442,17 @@ class DrugRepositoryImpl implements DrugRepository {
   Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({
     required String cutoffDate,
     required int limit,
+    int? offset,
   }) async {
     _logger.d(
-      "DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '$cutoffDate', limit: $limit",
+      "DrugRepository: getRecentlyUpdatedDrugs called with cutoffDate: '$cutoffDate', limit: $limit, offset: $offset",
     );
     try {
       final List<MedicineModel> localMedicines = await localDataSource
           .getRecentlyUpdatedMedicines(
             cutoffDate,
             limit: limit,
+            offset: offset,
           ); // Corrected call
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
