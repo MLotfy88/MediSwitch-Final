@@ -13,10 +13,8 @@ import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
 import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
-import 'package:mediswitch/domain/usecases/get_high_risk_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
-import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
 
@@ -28,8 +26,7 @@ class MedicineProvider extends ChangeNotifier {
   final GetCategoriesWithCountUseCase _getCategoriesWithCountUseCase;
   final GetLastUpdateTimestampUseCase _getLastUpdateTimestampUseCase;
   final GetRecentlyUpdatedDrugsUseCase _getRecentlyUpdatedDrugsUseCase;
-  final GetPopularDrugsUseCase _getPopularDrugsUseCase;
-  final GetHighRiskDrugsUseCase _getHighRiskDrugsUseCase;
+
   final GetHighRiskIngredientsUseCase _getHighRiskIngredientsUseCase;
   final SqliteLocalDataSource _localDataSource;
 
@@ -114,8 +111,6 @@ class MedicineProvider extends ChangeNotifier {
     required GetCategoriesWithCountUseCase getCategoriesWithCountUseCase,
     required GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase,
     required GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase,
-    required GetPopularDrugsUseCase getPopularDrugsUseCase,
-    required GetHighRiskDrugsUseCase getHighRiskDrugsUseCase,
     required GetHighRiskIngredientsUseCase getHighRiskIngredientsUseCase,
     required SqliteLocalDataSource localDataSource,
   }) : _searchDrugsUseCase = searchDrugsUseCase,
@@ -123,8 +118,6 @@ class MedicineProvider extends ChangeNotifier {
        _getCategoriesWithCountUseCase = getCategoriesWithCountUseCase,
        _getLastUpdateTimestampUseCase = getLastUpdateTimestampUseCase,
        _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
-       _getPopularDrugsUseCase = getPopularDrugsUseCase,
-       _getHighRiskDrugsUseCase = getHighRiskDrugsUseCase,
        _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
        _localDataSource = localDataSource {
     _logger.i("MedicineProvider: Constructor called.");
@@ -636,6 +629,49 @@ class MedicineProvider extends ChangeNotifier {
 
   // _loadSimulatedSections REMOVED via optimization
   // Future<void> _loadSimulatedSections() async { ... }
+
+  // --- Initial Search Logic ---
+
+  /// Loads recently updated drugs as the initial search state
+  Future<void> loadInitialSearchDrugs() async {
+    _isLoading = true;
+    _error = '';
+    // Clear previous search query/results to avoid confusion
+    _searchQuery = '';
+    // notifyListeners(); // Avoid double notify
+
+    try {
+      // Fetch recently updated drugs (e.g., last 20)
+      // We use a cutoff date far in the past to get the absolute latest updates
+      // or we could use getAllDrugs with a limit/sort if available.
+      // Reuse getRecentlyUpdatedDrugs for "Newest"
+      final result = await _getRecentlyUpdatedDrugsUseCase(
+        GetRecentlyUpdatedDrugsParams(cutoffDate: '2000-01-01', limit: 20),
+      );
+
+      result.fold(
+        (failure) {
+          _error = 'Failed to load initial drugs';
+        },
+        (drugs) {
+          _filteredMedicines = drugs;
+          _searchResults = drugs;
+          _hasMoreItems = false; // "Newest" list is finite for now
+        },
+      );
+    } catch (e) {
+      _error = 'Error loading initial drugs';
+    } finally {
+      _isLoading = false;
+      notifyListeners();
+    }
+  }
+
+  /// Clears the search query and resets to initial state (Recent Drugs)
+  void clearSearch() {
+    _searchQuery = '';
+    loadInitialSearchDrugs();
+  }
 
   // --- Filter & Search Setters ---
 

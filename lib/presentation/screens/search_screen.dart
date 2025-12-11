@@ -65,7 +65,7 @@ class _SearchScreenState extends State<SearchScreen> {
           // (though SearchScreen seems to be Pushed, so new instance usually)
           if (provider.filteredMedicines.isEmpty &&
               provider.searchQuery.isEmpty) {
-            provider.triggerSearch();
+            provider.loadInitialSearchDrugs();
           }
         }
       }

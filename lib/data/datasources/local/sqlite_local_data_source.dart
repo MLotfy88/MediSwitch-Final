@@ -11,7 +11,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 
 // --- Constants ---
-// --- Constants ---
 const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
 // Represents the time the APK was built (or the CSV data was generated).
 // This ensures we only fetch updates that happened AFTER the app was released.
@@ -129,8 +128,12 @@ class SqliteLocalDataSource {
       final rawCsv = await rootBundle.loadString('assets/meds.csv');
       print('[Main Thread] Raw CSV loaded.');
 
-      print('[Main Thread] Parsing CSV...');
-      final List<MedicineModel> medicines = _parseCsvData(rawCsv);
+      print('[Main Thread] Parsing CSV (in background isolate)...');
+      // Use compute to unblock UI thread
+      final List<MedicineModel> medicines = await compute(
+        _parseCsvData,
+        rawCsv,
+      );
       print('[Main Thread] Parsed ${medicines.length} medicines.');
 
       if (medicines.isEmpty) {
