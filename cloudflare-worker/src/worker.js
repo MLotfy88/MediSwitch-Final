@@ -359,10 +359,10 @@ async function handleRecentPriceChanges(request, DB) {
 
     try {
         // Use last_price_update for sorting, and fetch old_price
+        // Default empty dates to 2025-01-01 as requested
         const query = `
-            SELECT id, trade_name, company, price, old_price, last_price_update, updated_at
+            SELECT id, trade_name, company, price, old_price, COALESCE(NULLIF(last_price_update, ''), '2025-01-01') as last_price_update, updated_at
             FROM drugs
-            WHERE last_price_update IS NOT NULL AND last_price_update != ''
             ORDER BY last_price_update DESC
             LIMIT ?
         `;
@@ -401,13 +401,12 @@ async function handleDailyAnalytics(request, DB) {
 
     try {
         // Fetch Real Price Updates per day from drugs table
-        // Assumes last_price_update is 'YYYY-MM-DD'
         const priceUpdatesQuery = `
-            SELECT last_price_update as date, COUNT(*) as count
+            SELECT COALESCE(NULLIF(last_price_update, ''), '2025-01-01') as date, COUNT(*) as count
             FROM drugs 
-            WHERE last_price_update >= date('now', '-' || ? || ' days') AND last_price_update != ''
-            GROUP BY last_price_update
-            ORDER BY last_price_update ASC
+            WHERE last_price_update >= date('now', '-' || ? || ' days') OR last_price_update IS NULL OR last_price_update = ''
+            GROUP BY date
+            ORDER BY date ASC
         `;
 
         // Fetch Analytics Daily stats (searches, etc.)
@@ -473,7 +472,11 @@ async function handleAdminGetDrugs(request, DB) {
     const offset = (page - 1) * limit;
 
     try {
-        let query = 'SELECT * FROM drugs';
+        // Select logic with defaults
+        let query = `
+            SELECT *, COALESCE(NULLIF(last_price_update, ''), '2025-01-01') as last_price_update 
+            FROM drugs
+        `;
         let countQuery = 'SELECT COUNT(*) as total FROM drugs';
         const params = [];
 
