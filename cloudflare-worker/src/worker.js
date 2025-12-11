@@ -361,7 +361,7 @@ async function handleRecentPriceChanges(request, DB) {
         // Use last_price_update for sorting, and fetch old_price
         // Default empty dates to 2025-01-01 as requested
         const query = `
-            SELECT id, trade_name, company, price, old_price, COALESCE(NULLIF(last_price_update, ''), '2025-01-01') as last_price_update, updated_at
+            SELECT id, trade_name, company, price, old_price, last_price_update, updated_at
             FROM drugs
             ORDER BY last_price_update DESC
             LIMIT ?
@@ -370,6 +370,12 @@ async function handleRecentPriceChanges(request, DB) {
         const result = await DB.prepare(query).bind(limit).all();
 
         const dataWithChanges = (result.results || []).map(drug => {
+            // Apply default date logic in JS to be safe
+            let lastPriceUpdate = drug.last_price_update;
+            if (!lastPriceUpdate || lastPriceUpdate.trim() === '') {
+                lastPriceUpdate = '2025-01-01';
+            }
+
             // Use real old_price if available, otherwise fallback (though fallback shouldn't be needed for accurate data)
             const oldPrice = drug.old_price || (drug.price * 0.8);
             const changePercent = oldPrice > 0
@@ -382,7 +388,8 @@ async function handleRecentPriceChanges(request, DB) {
                 new_price: drug.price,
                 change_percent: changePercent,
                 // Ensure updated_at reflects the price update date for the UI
-                updated_at: drug.last_price_update || drug.updated_at
+                updated_at: lastPriceUpdate,
+                last_price_update: lastPriceUpdate
             };
         });
 
@@ -472,11 +479,8 @@ async function handleAdminGetDrugs(request, DB) {
     const offset = (page - 1) * limit;
 
     try {
-        // Select logic with defaults
-        let query = `
-            SELECT *, COALESCE(NULLIF(last_price_update, ''), '2025-01-01') as last_price_update 
-            FROM drugs
-        `;
+        // Select logic with defaults handled in JS
+        let query = 'SELECT * FROM drugs';
         let countQuery = 'SELECT COUNT(*) as total FROM drugs';
         const params = [];
 
