@@ -17,12 +17,12 @@ const String _prefsKeyFontSize = 'font_size';
 const String _prefsKeyOfflineMode = 'offline_mode';
 
 class SettingsProvider extends ChangeNotifier {
-  late final SharedPreferences _prefs;
+  late SharedPreferences _prefs;
   final FileLoggerService _logger = locator<FileLoggerService>();
 
   // --- State Variables ---
   ThemeMode _themeMode = ThemeMode.system;
-  Locale _locale = const Locale('ar');
+  Locale _locale = const Locale('en'); // Default to English
   bool _isInitialized = false;
 
   // Notification settings
@@ -75,7 +75,8 @@ class SettingsProvider extends ChangeNotifier {
     );
 
     // Load Language
-    final langCode = _prefs.getString(_prefsKeyLanguage) ?? 'ar';
+    final langCode =
+        _prefs.getString(_prefsKeyLanguage) ?? 'en'; // Default 'en'
     _locale = Locale(langCode);
 
     // Load Notification settings
@@ -177,7 +178,7 @@ class SettingsProvider extends ChangeNotifier {
     _logger.i('All data cleared');
     // Reset to defaults
     _themeMode = ThemeMode.system;
-    _locale = const Locale('ar');
+    _locale = const Locale('en'); // Reset to English
     _pushNotificationsEnabled = true;
     _priceAlertsEnabled = true;
     _newDrugAlertsEnabled = false;

@@ -248,8 +248,6 @@ Future<void> setupLocator() async {
       getCategoriesWithCountUseCase: locator<GetCategoriesWithCountUseCase>(),
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
-      getPopularDrugsUseCase: locator<GetPopularDrugsUseCase>(),
-      getHighRiskDrugsUseCase: locator<GetHighRiskDrugsUseCase>(),
       getHighRiskIngredientsUseCase: locator<GetHighRiskIngredientsUseCase>(),
       localDataSource: locator<SqliteLocalDataSource>(),
     ),

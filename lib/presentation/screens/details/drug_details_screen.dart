@@ -447,19 +447,23 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
               if (guidelines.isNotEmpty) {
                 try {
-                  bestMatch = guidelines.firstWhere((g) {
-                    if (g.strength == null) return false;
-                    final drugStr =
-                        '${widget.drug.concentration} ${widget.drug.unit}'
-                            .toLowerCase()
-                            .replaceAll(' ', '');
-                    final guidelineStr = g.strength!.toLowerCase().replaceAll(
-                      ' ',
-                      '',
-                    );
-                    return guidelineStr.contains(drugStr) ||
-                        drugStr.contains(guidelineStr);
-                  });
+                  // 1. Try exact/close match on strength
+                  bestMatch = guidelines.firstWhere(
+                    (g) {
+                      if (g.strength == null) return false;
+                      final drugStr =
+                          '${widget.drug.concentration} ${widget.drug.unit}'
+                              .toLowerCase()
+                              .replaceAll(' ', '');
+                      final guidelineStr = g.strength!.toLowerCase().replaceAll(
+                        ' ',
+                        '',
+                      );
+                      return guidelineStr.contains(drugStr) ||
+                          drugStr.contains(guidelineStr);
+                    },
+                    orElse: () => guidelines.first,
+                  ); // Fallback to first if no match!
                 } catch (e) {
                   bestMatch = guidelines.first;
                 }
@@ -473,9 +477,22 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               final instructions =
                   bestMatch?.packageLabel ??
                   'Always read the leaflet and consult your healthcare provider for specific instructions.';
-              final strengthDisplay =
-                  bestMatch?.strength ??
-                  '${widget.drug.concentration} ${widget.drug.unit}';
+
+              // Only use widget.drug data if it looks valid (not 0 or 0.001) and we have no match
+              String strengthDisplay;
+              if (bestMatch?.strength != null) {
+                strengthDisplay = bestMatch!.strength!;
+              } else {
+                // Check if concentration is suspiciously low or zero
+                if (widget.drug.concentration > 0.01) {
+                  strengthDisplay =
+                      '${widget.drug.concentration} ${widget.drug.unit}';
+                } else {
+                  strengthDisplay =
+                      'Standard Strength'; // Fallback text instead of 0.001
+                }
+              }
+
               final maxDose = bestMatch?.maxDose;
 
               return Column(

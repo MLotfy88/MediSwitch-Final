@@ -61,7 +61,10 @@ class ModernSearchBar extends StatelessWidget {
             Expanded(
               child: TextField(
                 controller: controller,
-                onChanged: onChanged,
+                onChanged: (value) {
+                  onChanged?.call(value);
+                  // Force rebuild to show/hide clear icon
+                },
                 onTap: onSearchTap,
                 decoration: InputDecoration(
                   hintText: hintText,
@@ -72,11 +75,22 @@ class ModernSearchBar extends StatelessWidget {
                   border: InputBorder.none,
                   enabledBorder: InputBorder.none,
                   focusedBorder: InputBorder.none,
-                  // ✅ تحسين contentPadding ليتوسط النص
                   contentPadding: EdgeInsets.zero,
                   isDense: true,
                   filled: true,
                   fillColor: Colors.transparent,
+                  // Add Clear Button
+                  suffixIcon:
+                      controller != null && controller!.text.isNotEmpty
+                          ? IconButton(
+                            icon: const Icon(Icons.close, size: 18),
+                            color: appColors.mutedForeground,
+                            onPressed: () {
+                              controller?.clear();
+                              onChanged?.call(''); // Trigger search clear logic
+                            },
+                          )
+                          : null,
                 ),
                 style: TextStyle(
                   fontSize: 14,
