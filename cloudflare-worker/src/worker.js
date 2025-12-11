@@ -358,25 +358,31 @@ async function handleRecentPriceChanges(request, DB) {
     const limit = parseInt(url.searchParams.get('limit') || '10');
 
     try {
+        // Use last_price_update for sorting, and fetch old_price
         const query = `
-            SELECT id, trade_name, company, price, updated_at
+            SELECT id, trade_name, company, price, old_price, last_price_update, updated_at
             FROM drugs
-            WHERE price IS NOT NULL
-            ORDER BY updated_at DESC
+            WHERE last_price_update IS NOT NULL
+            ORDER BY last_price_update DESC
             LIMIT ?
         `;
 
         const result = await DB.prepare(query).bind(limit).all();
 
         const dataWithChanges = (result.results || []).map(drug => {
-            const oldPrice = drug.price * 0.8;
-            const changePercent = ((drug.price - oldPrice) / oldPrice) * 100;
+            // Use real old_price if available, otherwise fallback (though fallback shouldn't be needed for accurate data)
+            const oldPrice = drug.old_price || (drug.price * 0.8);
+            const changePercent = oldPrice > 0
+                ? ((drug.price - oldPrice) / oldPrice) * 100
+                : 0;
 
             return {
                 ...drug,
                 old_price: oldPrice,
                 new_price: drug.price,
-                change_percent: changePercent
+                change_percent: changePercent,
+                // Ensure updated_at reflects the price update date for the UI
+                updated_at: drug.last_price_update || drug.updated_at
             };
         });
 
@@ -394,21 +400,57 @@ async function handleDailyAnalytics(request, DB) {
     const days = parseInt(url.searchParams.get('days') || '7');
 
     try {
+        // Fetch Real Price Updates per day from drugs table
+        // Assumes last_price_update is 'YYYY-MM-DD'
+        const priceUpdatesQuery = `
+            SELECT last_price_update as date, COUNT(*) as count
+            FROM drugs 
+            WHERE last_price_update >= date('now', '-' || ? || ' days')
+            GROUP BY last_price_update
+            ORDER BY last_price_update ASC
+        `;
+
+        // Fetch Analytics Daily stats (searches, etc.)
+        const analyticsQuery = `
+            SELECT * FROM analytics_daily
+            WHERE date >= date('now', '-' || ? || ' days')
+            ORDER BY date ASC
+        `;
+
+        const [priceUpdatesResult, analyticsResult] = await Promise.all([
+            DB.prepare(priceUpdatesQuery).bind(days.toString()).all(),
+            DB.prepare(analyticsQuery).bind(days.toString()).all()
+        ]);
+
+        const priceUpdatesMap = new Map();
+        (priceUpdatesResult.results || []).forEach(row => {
+            if (row.date) priceUpdatesMap.set(row.date, row.count);
+        });
+
+        const analyticsMap = new Map();
+        (analyticsResult.results || []).forEach(row => {
+            if (row.date) analyticsMap.set(row.date, row);
+        });
+
+        // Fill in the last 'days' days
         const data = [];
         const today = new Date();
 
         for (let i = 0; i < days; i++) {
-            const date = new Date(today);
-            date.setDate(date.getDate() - i);
+            const dateObj = new Date();
+            dateObj.setDate(today.getDate() - i);
+            const dateStr = dateObj.toISOString().split('T')[0];
+
+            const analytics = analyticsMap.get(dateStr) || {};
 
             data.push({
-                date: date.toISOString().split('T')[0],
-                total_searches: Math.floor(Math.random() * 100),
-                price_updates: Math.floor(Math.random() * 20),
-                ad_impressions: Math.floor(Math.random() * 500),
-                ad_clicks: Math.floor(Math.random() * 50),
-                ad_revenue: Math.random() * 10,
-                subscription_revenue: Math.random() * 20
+                date: dateStr,
+                total_searches: analytics.total_searches || 0,
+                price_updates: priceUpdatesMap.get(dateStr) || 0,
+                ad_impressions: analytics.ad_impressions || 0,
+                ad_clicks: analytics.ad_clicks || 0,
+                ad_revenue: analytics.ad_revenue || 0,
+                subscription_revenue: analytics.subscription_revenue || 0
             });
         }
 
@@ -442,7 +484,19 @@ async function handleAdminGetDrugs(request, DB) {
             params.push(searchParam, searchParam);
         }
 
-        query += ` ORDER BY ${sortBy} ${sortOrder} LIMIT ? OFFSET ?`;
+        const allowedSortColumns = ['id', 'trade_name', 'company', 'price', 'old_price', 'updated_at', 'last_price_update', 'created_at'];
+        if (!allowedSortColumns.includes(sortBy)) {
+            // Fallback to default if invalid column
+            // But valid columns should pass through
+        }
+
+        // If sorting by last_price_update, ensure we handle NULLs if necessary (SQLite defaults NULLs first for ASC, last for DESC usually, but good to be safe)
+        // For formatted strings YYYY-MM-DD, standard sorting works.
+
+        const safeSortBy = allowedSortColumns.includes(sortBy) ? sortBy : 'updated_at';
+        const safeSortOrder = (sortOrder === 'ASC' || sortOrder === 'DESC') ? sortOrder : 'DESC';
+
+        query += ` ORDER BY ${safeSortBy} ${safeSortOrder} LIMIT ? OFFSET ?`;
         params.push(limit, offset);
 
         const [dataResult, countResult] = await Promise.all([
