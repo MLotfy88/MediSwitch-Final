@@ -13,6 +13,7 @@ import 'presentation/bloc/alternatives_provider.dart';
 import 'presentation/bloc/dose_calculator_provider.dart';
 import 'presentation/bloc/interaction_provider.dart';
 import 'presentation/bloc/medicine_provider.dart';
+import 'presentation/bloc/notification_provider.dart';
 import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
@@ -140,6 +141,12 @@ class MyApp extends StatelessWidget {
           create: (_) {
             logger.d("MyApp: Creating MedicineProvider...");
             return locator<MedicineProvider>();
+          },
+        ),
+        ChangeNotifierProvider(
+          create: (_) {
+            logger.d("MyApp: Creating NotificationProvider...");
+            return locator<NotificationProvider>();
           },
         ),
         ChangeNotifierProvider(

@@ -1,12 +1,14 @@
 import 'dart:convert';
-import 'package:http/http.dart' as http;
+
 import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
+
 import '../../domain/entities/drug_interaction.dart';
 
 class InteractionSyncService {
   // TODO: Replace with your actual Cloudflare Worker URL after deployment
   static const String _baseUrl =
-      'https://mediswitch-worker.YOUR_SUBDOMAIN.workers.dev';
+      'https://mediswitch-api.m-m-lotfy-88.workers.dev';
 
   final http.Client _client;
 

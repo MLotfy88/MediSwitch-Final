@@ -5,9 +5,11 @@ import 'dart:io';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For debugPrint
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/utils/fuzzy_matcher.dart';
 import 'package:mediswitch/data/services/interaction_sync_service.dart';
+import 'package:mediswitch/domain/entities/app_notification.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
@@ -15,6 +17,7 @@ import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/domain/services/interaction_analyzer_service.dart';
 import 'package:mediswitch/domain/services/interaction_index.dart';
+import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -417,6 +420,28 @@ class InteractionRepositoryImpl implements InteractionRepository {
       debugPrint(
         'InteractionRepositoryImpl: Synced and saved ${newInteractions.length} new interactions.',
       );
+
+      // Notify User
+      try {
+        final notifyProvider = locator<NotificationProvider>();
+        await notifyProvider.addNotification(
+          AppNotification(
+            id: 'interaction_update_${DateTime.now().millisecondsSinceEpoch}',
+            type: AppNotificationType.update,
+            title: 'Interactions Updated',
+            titleAr: 'تحديث التفاعلات الدوائية',
+            message:
+                '${newInteractions.length} new interactions added. Source: Official Databases.',
+            messageAr:
+                'تم إضافة ${newInteractions.length} تفاعل جديد. المصدر: قواعد بيانات رسمية.',
+            timestamp: DateTime.now(),
+          ),
+        );
+      } catch (e) {
+        debugPrint(
+          'InteractionRepositoryImpl: Failed to send notification: $e',
+        );
+      }
 
       // Note: We don't update _allInteractions in memory here to avoid complexity with concurrency.
       // The new data will be loaded on next app restart.

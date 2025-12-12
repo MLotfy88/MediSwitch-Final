@@ -5,6 +5,7 @@ import 'package:lucide_icons/lucide_icons.dart';
 import 'package:provider/provider.dart';
 
 import '../bloc/medicine_provider.dart';
+import '../bloc/notification_provider.dart';
 import '../theme/app_colors_extension.dart';
 
 /// App Header with real logo, notifications, and last update date
@@ -26,23 +27,9 @@ class AppHeader extends StatelessWidget {
     final appColors = theme.appColors;
     final isDark = theme.brightness == Brightness.dark;
     final medicineProvider = context.watch<MedicineProvider>();
-
-    // ✅ حساب عدد التنبيهات الحقيقي (الأدوية المحدثة اليوم)
-    final todayUpdates =
-        medicineProvider.recentlyUpdatedDrugs.where((drug) {
-          if (drug.lastPriceUpdate == null) return false;
-          try {
-            final updateDate = DateFormat(
-              'yyyy-MM-dd',
-            ).parse(drug.lastPriceUpdate!);
-            final today = DateTime.now();
-            return updateDate.year == today.year &&
-                updateDate.month == today.month &&
-                updateDate.day == today.day;
-          } catch (e) {
-            return false;
-          }
-        }).length;
+    // Watch NotificationProvider for updates
+    final notificationProvider = context.watch<NotificationProvider>();
+    final unreadCount = notificationProvider.unreadCount;
 
     // ✅ آخر تاريخ مزامنة ناجحة من MedicineProvider
     final l10n = AppLocalizations.of(context)!;
@@ -210,7 +197,7 @@ class AppHeader extends StatelessWidget {
                       ),
                     ),
                     // ✅ عرض عدد التنبيهات الحقيقي
-                    if (todayUpdates > 0)
+                    if (unreadCount > 0)
                       Positioned(
                         top: -4,
                         right: -4,
@@ -226,7 +213,7 @@ class AppHeader extends StatelessWidget {
                           ),
                           child: Center(
                             child: Text(
-                              todayUpdates > 9 ? '+9' : todayUpdates.toString(),
+                              unreadCount > 9 ? '+9' : unreadCount.toString(),
                               style: const TextStyle(
                                 fontSize: 10,
                                 fontWeight: FontWeight.bold,
