@@ -161,6 +161,21 @@ export default {
                 return handleDeleteNotification(id, DB);
             }
 
+            // ========== MAINTENANCE ==========
+            if (path === '/api/admin/fix-dates' && request.method === 'POST') {
+                return handleFixDates(request, DB);
+            }
+
+            if (path === '/api/admin/fix-null-dates' && request.method === 'POST') {
+                return handleFixNullDates(request, DB);
+            }
+
+            // ========== DELTA SYNC ==========
+            if (path.match(/^\/api\/drugs\/delta\/\d+$/) && request.method === 'GET') {
+                const timestamp = path.split('/').pop();
+                return handleDeltaSync(timestamp, DB);
+            }
+
             // ========== BULK UPDATE (GitHub Actions) ==========
             if (path === '/api/update' && request.method === 'POST') {
                 return handleUpdate(request, env);
@@ -360,20 +375,41 @@ async function handleRecentPriceChanges(request, DB) {
     try {
         // Use last_price_update for sorting, and fetch old_price
         // Default empty dates to 2025-01-01 as requested
+        // Query drugs with valid last_price_update, sorted by that field
         const query = `
             SELECT id, trade_name, company, price, old_price, last_price_update, updated_at
             FROM drugs
+            WHERE last_price_update IS NOT NULL 
+              AND last_price_update != '' 
+              AND last_price_update != 'N/A'
+              AND last_price_update != '2000-01-01'
             ORDER BY last_price_update DESC
             LIMIT ?
         `;
 
         const result = await DB.prepare(query).bind(limit).all();
 
-        const dataWithChanges = (result.results || []).map(drug => {
-            // Apply default date logic in JS to be safe
+        let validDrugs = (result.results || []).map(drug => {
+            // STRICT FILTERING: Exclude empty/N/A dates completely
             let lastPriceUpdate = drug.last_price_update;
-            if (!lastPriceUpdate || lastPriceUpdate.trim() === '') {
-                lastPriceUpdate = '2025-01-01';
+            if (!lastPriceUpdate ||
+                (typeof lastPriceUpdate === 'string' && (lastPriceUpdate.trim() === '' || lastPriceUpdate.trim().toUpperCase() === 'N/A' || lastPriceUpdate.trim().toLowerCase() === 'null'))) {
+                return null;
+            }
+
+            let sortableDate = lastPriceUpdate;
+            // Normalize DD/MM/YYYY if present
+            if (typeof lastPriceUpdate === 'string' && /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(lastPriceUpdate)) {
+                // Handle DD/MM/YYYY format found in DB
+                const parts = lastPriceUpdate.split('/');
+                if (parts.length === 3) {
+                    // Convert to YYYY-MM-DD
+                    const day = parts[0].padStart(2, '0');
+                    const month = parts[1].padStart(2, '0');
+                    const year = parts[2];
+                    sortableDate = `${year}-${month}-${day}`;
+                    lastPriceUpdate = sortableDate; // Update lastPriceUpdate to the normalized format
+                }
             }
 
             // Use real old_price if available, otherwise fallback (though fallback shouldn't be needed for accurate data)
@@ -389,14 +425,144 @@ async function handleRecentPriceChanges(request, DB) {
                 change_percent: changePercent,
                 // Ensure updated_at reflects the price update date for the UI
                 updated_at: lastPriceUpdate,
-                last_price_update: lastPriceUpdate
+                last_price_update: lastPriceUpdate,
+                _sortKey: new Date(sortableDate).getTime() // helper for JS sort
             };
-        });
+        })
+            .filter(item => item !== null && !isNaN(item._sortKey))
+            .sort((a, b) => b._sortKey - a._sortKey) // JS Sort DESC
+            .slice(0, limit); // Take top N
 
-        return jsonResponse({ data: dataWithChanges });
+        // cleanup sortKey
+        const finalData = validDrugs.map(({ _sortKey, ...item }) => item);
+
+        return jsonResponse({ data: finalData });
     } catch (error) {
         console.error('Price changes error:', error);
         return errorResponse('Failed to fetch price changes', 500);
+    }
+}
+
+async function handleDeltaSync(timestamp, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+
+    try {
+        const timestampNum = parseInt(timestamp);
+
+        // If timestamp is 0, return last 1000 drugs (full sync)
+        if (timestampNum === 0) {
+            const query = `
+                SELECT * FROM drugs 
+                ORDER BY updated_at DESC 
+                LIMIT 1000
+            `;
+            const result = await DB.prepare(query).all();
+            return jsonResponse({
+                drugs: result.results || [],
+                count: (result.results || []).length,
+                sync_type: 'full'
+            });
+        }
+
+        // Delta sync: return drugs updated after timestamp
+        const query = `
+            SELECT * FROM drugs 
+            WHERE updated_at > ?
+            ORDER BY updated_at ASC
+        `;
+
+        const result = await DB.prepare(query).bind(timestampNum).all();
+
+        return jsonResponse({
+            drugs: result.results || [],
+            count: (result.results || []).length,
+            sync_type: 'delta',
+            timestamp: timestampNum,
+            server_time: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (error) {
+        console.error('Delta sync error:', error);
+        return errorResponse('Delta sync failed: ' + error.message, 500);
+    }
+}
+
+async function handleFixDates(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+
+    try {
+        // 1. Fetch all drugs with slashes in last_price_update (increased to 5000)
+        const query = `SELECT id, last_price_update FROM drugs WHERE last_price_update LIKE '%/%' LIMIT 5000`;
+        const result = await DB.prepare(query).all();
+        const drugsToFix = result.results || [];
+
+        let fixedCount = 0;
+        const stmt = DB.prepare(`UPDATE drugs SET last_price_update = ? WHERE id = ?`);
+        const batch = [];
+
+        for (const drug of drugsToFix) {
+            const parts = drug.last_price_update.split('/');
+            if (parts.length === 3) {
+                // Assume DD/MM/YYYY -> YYYY-MM-DD
+                // Pad with 0 just in case
+                const day = parts[0].padStart(2, '0');
+                const month = parts[1].padStart(2, '0');
+                const year = parts[2];
+                const isoDate = `${year}-${month}-${day}`;
+
+                batch.push(stmt.bind(isoDate, drug.id));
+                fixedCount++;
+            }
+        }
+
+        // Execute in chunks of 50 to avoid limits
+        for (let i = 0; i < batch.length; i += 50) {
+            await DB.batch(batch.slice(i, i + 50));
+        }
+
+        return jsonResponse({
+            success: true,
+            message: `Fixed ${fixedCount} dates`,
+            total_found: drugsToFix.length
+        });
+
+    } catch (e) {
+        return errorResponse('Migration failed: ' + e.message, 500);
+    }
+}
+
+async function handleFixNullDates(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+
+    try {
+        // Fix NULL, empty, or 'N/A' dates to 2000-01-01
+        const query = `
+            SELECT id, last_price_update FROM drugs 
+            WHERE last_price_update IS NULL 
+               OR last_price_update = '' 
+               OR last_price_update = 'N/A' 
+               OR last_price_update = 'null'
+            LIMIT 5000
+        `;
+        const result = await DB.prepare(query).all();
+        const drugsToFix = result.results || [];
+
+        const stmt = DB.prepare(`UPDATE drugs SET last_price_update = '2000-01-01' WHERE id = ?`);
+        const batch = drugsToFix.map(drug => stmt.bind(drug.id));
+
+        // Execute in chunks of 50
+        for (let i = 0; i < batch.length; i += 50) {
+            await DB.batch(batch.slice(i, i + 50));
+        }
+
+        return jsonResponse({
+            success: true,
+            message: `Fixed ${drugsToFix.length} null/empty dates`,
+            total_found: drugsToFix.length
+        });
+
+    } catch (e) {
+        return errorResponse('Null fix failed: ' + e.message, 500);
     }
 }
 
@@ -512,8 +678,33 @@ async function handleAdminGetDrugs(request, DB) {
             DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first()
         ]);
 
+        // Process results to inject default date
+        const processedResults = (dataResult.results || []).map(drug => {
+            let lastPriceUpdate = drug.last_price_update;
+            // Check for null, undefined, or empty/whitespace/N/A string
+            if (!lastPriceUpdate ||
+                (typeof lastPriceUpdate === 'string' && (lastPriceUpdate.trim() === '' || lastPriceUpdate.trim().toUpperCase() === 'N/A' || lastPriceUpdate.trim().toLowerCase() === 'null'))) {
+                // Use a PAST DATE so real updates appear first when sorting DESC
+                lastPriceUpdate = '2000-01-01';
+            } else if (typeof lastPriceUpdate === 'string' && /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(lastPriceUpdate)) {
+                // Handle DD/MM/YYYY format found in DB
+                const parts = lastPriceUpdate.split('/');
+                if (parts.length === 3) {
+                    // Convert to YYYY-MM-DD
+                    const day = parts[0].padStart(2, '0');
+                    const month = parts[1].padStart(2, '0');
+                    const year = parts[2];
+                    lastPriceUpdate = `${year}-${month}-${day}`;
+                }
+            }
+            return {
+                ...drug,
+                last_price_update: lastPriceUpdate
+            };
+        });
+
         return jsonResponse({
-            data: dataResult.results || [],
+            data: processedResults,
             pagination: {
                 page,
                 limit,
@@ -841,22 +1032,31 @@ async function handleUpdate(request, env) {
                         arabic_name: drug.arabic_name || drug.arabicName || existing.arabic_name,
                         company: drug.company || existing.company,
                         price: drug.price !== undefined ? drug.price : existing.price,
+                        old_price: drug.old_price || existing.old_price,
                         active: drug.active || existing.active,
                         category: drug.category || existing.category,
                         dosage_form: drug.dosage_form || drug.dosageForm || existing.dosage_form,
                         concentration: drug.concentration || existing.concentration,
-                        unit: drug.unit || existing.unit
+                        unit: drug.unit || existing.unit,
+                        last_price_update: drug.last_price_update || existing.last_price_update
                     };
 
+                    const priceChanged = input.price !== existing.price;
                     const hasChanges =
                         input.arabic_name !== existing.arabic_name ||
                         input.company !== existing.company ||
-                        input.price !== existing.price ||
+                        priceChanged ||
                         input.active !== existing.active ||
                         input.category !== existing.category ||
                         input.dosage_form !== existing.dosage_form ||
                         input.concentration !== existing.concentration ||
                         input.unit !== existing.unit;
+
+                    // If price changed, update last_price_update to today
+                    if (priceChanged) {
+                        const today = new Date().toISOString().split('T')[0];
+                        input.last_price_update = today;
+                    }
 
                     if (!hasChanges) {
                         continue; // Skip update if no changes
@@ -868,22 +1068,26 @@ async function handleUpdate(request, env) {
                             arabic_name = ?,
                             company = ?,
                             price = ?,
+                            old_price = ?,
                             active = ?,
                             category = ?,
                             dosage_form = ?,
                             concentration = ?,
                             unit = ?,
+                            last_price_update = ?,
                             updated_at = unixepoch('now')
                         WHERE id = ?
                     `).bind(
                         input.arabic_name,
                         input.company,
                         input.price,
+                        input.old_price,
                         input.active,
                         input.category,
                         input.dosage_form,
                         input.concentration,
                         input.unit,
+                        input.last_price_update,
                         existing.id
                     ).run();
                     updated++;
