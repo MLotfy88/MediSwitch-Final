@@ -14,50 +14,52 @@
     -   `cached_network_image: ^3.4.1`: لتخزين صور الأدوية مؤقتًا وتحسين الأداء.
     -   `shared_preferences: ^2.5.3`: لتخزين الإعدادات البسيطة (مثل الثيم واللغة).
 
-### الواجهة الخلفية (Backend & Database) - Updated
--   **Platform**: `Cloudflare Workers` (Serverless Architecture).
--   **Language**: JavaScript / Node.js Runtime.
+### الواجهة الخلفية (Backend - Cloudflare Serverless)
+-   **Platform**: `Cloudflare Workers` (JavaScript/Edge).
 -   **Database**:
-    -   **Cloudflare D1**: معدة لتكون قاعدة البيانات الأساسية (Distributed SQL) للأداء العالي عالمياً.
-    -   **SQLite**: للتطوير المحلي ولتطبيق الجوال.
--   **Framework**: Custom Worker Router (Lightweight).
+    -   **Cloudflare D1**: Distributed SQL Database (Production).
+    -   **SQLite**: Local Development & Flutter App.
+-   **Admin Hosting**: `Cloudflare Pages` (React SPA).
 -   **Services**:
-    -   **Notifications**: Custom implementation using D1 + Push API.
-    -   **Analytics**: تتبع تغييرات الأسعار وتفاعل المستخدمين.
+    -   **Notifications**: D1-based queue + Push API.
+    -   **Analytics**: Custom D1 event tracking.
+    -   **Monetization**: Server-side config & ad mediation control.
 
 ### البنية التحتية (Infrastructure)
--   **Host**: Cloudflare Network (Global Edge).
--   **Deploy**: `wrangler` CLI.
--   **Environment**: Production (`mediswitch-api`) & Development.
+-   **Host**: Cloudflare Global Network.
+-   **CI/CD**: GitHub Actions -> Wrangler (Worker) / Pages (Dashboard).
+-   **Tools**: `wrangler`, `nodejs`, `npm`.
 
 ## 🛠️ بيئة التطوير (Development Setup)
 
 ### المتطلبات المسبقة
 -   **نظام التشغيل**: Windows, Linux, أو macOS.
--   **بيئة التطوير المتكاملة (IDE)**: VS Code (موصى به) أو Android Studio.
--   **Flutter SDK**: مثبت ومضاف لمتغيرات البيئة.
--   **Android SDK**: يجب تثبيت Platform Tools و Build Tools.
--   **Docker**: مطلوب لتشغيل الـ Backend محليًا أو لمحاكاة بيئة الخادم.
+-   **بيئة التطوير المتكاملة (IDE)**: VS Code (موصى به).
+-   **Node.js**: v18+ (للتعامل مع Wrangler & React).
+-   **Flutter SDK**: أحدث إصدار ثابت.
 
-### خطوات إعداد المشروع
+### steps إعداد المشروع
 1.  **نسخ المستودع**:
     ```bash
     git clone https://github.com/MLotfy88/MediSwitch-Final.git
     ```
-2.  **تثبيت اعتماديات التطبيق**:
+2.  **تشغيل تطبيق Flutter**:
     ```bash
-    cd MediSwitch-Final
+    cd lib
     flutter pub get
-    ```
-3.  **تشغيل التطبيق**:
-    ```bash
     flutter run
     ```
-4.  **إعداد الـ Backend (محليًا)**:
+3.  **تشغيل لوحة التحكم (Admin)**:
     ```bash
-    cd backend
-    pip install -r requirements.txt
-    python manage.py runserver
+    cd admin-dashboard
+    npm install
+    npm run dev
+    ```
+4.  **نشر الـ Backend (Worker)**:
+    ```bash
+    cd cloudflare-worker
+    npm install
+    npx wrangler deploy
     ```
 
 ### أدوات التصحيح والاتصال
