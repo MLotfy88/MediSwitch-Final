@@ -50,6 +50,7 @@ import 'package:mediswitch/presentation/bloc/alternatives_provider.dart';
 import 'package:mediswitch/presentation/bloc/dose_calculator_provider.dart';
 import 'package:mediswitch/presentation/bloc/interaction_provider.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
+import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 import 'package:mediswitch/presentation/bloc/settings_provider.dart';
 import 'package:mediswitch/presentation/bloc/subscription_provider.dart';
 import 'package:mediswitch/presentation/services/ad_service.dart';
@@ -288,6 +289,7 @@ Future<void> setupLocator() async {
       // Yes, it uses locator inside. So no args needed.
     ),
   );
+  locator.registerLazySingleton(() => NotificationProvider());
 
   // Ensure all asynchronous singletons are ready before proceeding
   logger.i("Locator: Waiting for all async singletons...");

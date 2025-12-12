@@ -55,7 +55,8 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
       if (response.statusCode == 200) {
         final Map<String, dynamic> data =
-            json.decode(response.body) as Map<String, dynamic>;
+            json.decode(utf8.decode(response.bodyBytes))
+                as Map<String, dynamic>;
         // Expecting {'version': 'timestamp_str', 'file_type': 'csv/xlsx', ...}
         if (data.containsKey('version') && data.containsKey('file_type')) {
           return Right(data);
@@ -95,7 +96,7 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
       if (response.statusCode == 200) {
         // Return the file content directly
-        return Right(response.body);
+        return Right(utf8.decode(response.bodyBytes));
       } else {
         print(
           'Error: Failed to download data from $url - Status: ${response.statusCode} - Body: ${response.body.substring(0, min(100, response.body.length))}',
@@ -129,10 +130,12 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
       print('DEBUG: Response Status: ${response.statusCode}');
       if (response.statusCode == 200) {
+        // Decode UTF-8 first
+        final responseBody = utf8.decode(response.bodyBytes);
         // Use compute to run json.decode in a background isolate
         final Map<String, dynamic> data = await compute(
           _parseJson,
-          response.body,
+          responseBody,
         );
         return Right(data);
       } else {

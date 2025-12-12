@@ -7,6 +7,7 @@ import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/usecases/usecase.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/domain/entities/app_notification.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
@@ -17,6 +18,7 @@ import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
+import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 
 /// Provider responsible for managing medicine-related state and data.
 class MedicineProvider extends ChangeNotifier {
@@ -363,37 +365,27 @@ class MedicineProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      final lastTimestamp = _lastUpdateTimestamp ?? 0;
-      _logger.i(
-        "Manual refresh: Fetching updates after timestamp: $lastTimestamp",
+      // 1. Capture state BEFORE sync for comparison
+      // We load more drugs (limit 100) to ensure we catch most updates
+      final beforeResult = await _getRecentlyUpdatedDrugsUseCase(
+        GetRecentlyUpdatedDrugsParams(cutoffDate: '2000-01-01', limit: 100),
       );
+      final Map<String, double> oldPrices = {};
 
-      // If timestamp is 0, it means we have no data or want full reset.
-      // Use the Full Sync (Download) flow instead of Delta Sync in this case
-      // as it might be safer/optimized for bulk load.
-      if (lastTimestamp == 0) {
-        _logger.i(
-          "Manual refresh: Timestamp is 0, performing full download...",
-        );
-        // This method throws on failure as per Repo implementation, so we catch it.
-        // We need to access repo directly or add a UseCase.
-        // Accessing UseCase's repo:
-        // _getCategoriesWithCountUseCase.repository is valid.
-
-        // Wait, repository methods usually return Either, but _updateLocalDataFromRemote is private helper.
-        // We need to trigger `getAllDrugs` which triggers update check?
-        // Or exposing a `forceUpdate` method.
-        // For now, let's use the DeltaSync(0) path BUT with better error handling.
-        // If DeltaSync(0) returns ALL data, it might be huge.
-        // Does the Delta endpoint support 0? Yes.
-
-        // Let's stick to Delta Sync for now but log the error properly.
-        // The issue might be the backend returning 500 for Delta(0) if too huge.
-      }
+      beforeResult.fold((l) {}, (drugs) {
+        for (var drug in drugs) {
+          if (drug.id != null) {
+            final price = _parsePrice(drug.price);
+            if (price != null) {
+              oldPrices[drug.id.toString()] = price;
+            }
+          }
+        }
+      });
 
       // Call repository's getDeltaSyncDrugs
       final result = await _getCategoriesWithCountUseCase.repository
-          .getDeltaSyncDrugs(lastTimestamp);
+          .getDeltaSyncDrugs(_lastUpdateTimestamp ?? 0);
 
       await result.fold(
         (failure) async {
@@ -404,7 +396,6 @@ class MedicineProvider extends ChangeNotifier {
         },
         (data) async {
           final count = data['count'] as int? ?? 0;
-          final currentTimestamp = data['currentTimestamp'] as int? ?? 0;
 
           _logger.i(
             "Manual refresh: Delta sync successful - $count drugs updated",
@@ -414,14 +405,100 @@ class MedicineProvider extends ChangeNotifier {
             // Reload data from DB (now contains updated drugs)
             await Future.wait([
               _loadCategories(forceLocal: false),
-              // _loadSimulatedSections(), // REMOVED: Performance optimization
               _loadHighRiskIngredients(),
+              _loadHomeRecentlyUpdatedDrugs(),
             ]);
 
             // Refresh current view
             await _applyFilters(page: 0);
 
-            // ✅ استخدام الوقت الحالي الفعلي للمزامنة الناجحة
+            // 2. Compare AFTER sync to generate notifications
+            final afterResult = await _getRecentlyUpdatedDrugsUseCase(
+              GetRecentlyUpdatedDrugsParams(
+                cutoffDate: '2000-01-01',
+                limit: 50,
+              ),
+            );
+
+            await afterResult.fold((l) async {}, (newDrugsList) async {
+              final notifyProvider = locator<NotificationProvider>();
+
+              for (var drug in newDrugsList) {
+                if (drug.id == null) continue;
+
+                final oldPrice = oldPrices[drug.id.toString()];
+                final newPrice = _parsePrice(drug.price);
+
+                if (newPrice == null) continue;
+
+                // Check for Price Change
+                if (oldPrice != null && (oldPrice - newPrice).abs() > 0.01) {
+                  final diff = newPrice - oldPrice;
+                  final percent = (diff / oldPrice) * 100;
+                  final isUp = diff > 0;
+                  final arrow = isUp ? "⬆" : "⬇";
+
+                  await notifyProvider.addNotification(
+                    AppNotification(
+                      id:
+                          'price_${drug.id}_${DateTime.now().millisecondsSinceEpoch}',
+                      type: AppNotificationType.priceChange,
+                      title: 'Price Update: ${drug.tradeName}',
+                      titleAr: 'تحديث سعر: ${drug.arabicName}',
+                      message:
+                          'Price changed from $oldPrice to $newPrice ($arrow${percent.toStringAsFixed(1)}%)',
+                      messageAr:
+                          'تغير السعر من $oldPrice إلى $newPrice ($arrow${percent.toStringAsFixed(1)}%)',
+                      timestamp: DateTime.now(),
+                      metadata: {
+                        'drugId': drug.id.toString(),
+                        'drugName': drug.tradeName,
+                        'drugNameAr': drug.arabicName,
+                        'oldPrice': oldPrice,
+                        'newPrice': newPrice,
+                        'changePercent': percent,
+                      },
+                    ),
+                  );
+                }
+                // Check for New Drug (if not in old map and clearly recent)
+                else if (oldPrice == null) {
+                  await notifyProvider.addNotification(
+                    AppNotification(
+                      id:
+                          'new_${drug.id}_${DateTime.now().millisecondsSinceEpoch}',
+                      type: AppNotificationType.newDrug,
+                      title: 'New Drug: ${drug.tradeName}',
+                      titleAr: 'دواء جديد: ${drug.arabicName}',
+                      message:
+                          '${drug.tradeName} has been added to the database.',
+                      messageAr:
+                          'تم إضافة ${drug.arabicName} إلى قاعدة البيانات.',
+                      timestamp: DateTime.now(),
+                      metadata: {
+                        'drugId': drug.id.toString(),
+                        'drugName': drug.tradeName,
+                      },
+                    ),
+                    showSystemNotification: false,
+                  );
+                }
+              }
+
+              // Add Summary Notification
+              await notifyProvider.addNotification(
+                AppNotification(
+                  id: 'sync_summary_${DateTime.now().millisecondsSinceEpoch}',
+                  type: AppNotificationType.update,
+                  title: 'Database Updated',
+                  titleAr: 'تحديث قاعدة البيانات',
+                  message: '$count drugs updated successfully.',
+                  messageAr: 'تم تحديث $count دواء بنجاح.',
+                  timestamp: DateTime.now(),
+                ),
+              );
+            });
+
             _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
             _error = '';
             _logger.i(
@@ -429,7 +506,6 @@ class MedicineProvider extends ChangeNotifier {
             );
           } else {
             _logger.i("Manual refresh: Data already up to date");
-            // ✅ استخدام الوقت الحالي أيضاً
             _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
             _error = '';
           }
