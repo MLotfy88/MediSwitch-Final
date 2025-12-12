@@ -161,6 +161,11 @@ export default {
                 return handleDeleteNotification(id, DB);
             }
 
+            // ========== PUBLIC NOTIFICATIONS (Mobile App) ==========
+            if (path === '/api/notifications' && request.method === 'GET') {
+                return handleGetUserNotifications(request, DB);
+            }
+
             // ========== MAINTENANCE ==========
             if (path === '/api/admin/fix-dates' && request.method === 'POST') {
                 return handleFixDates(request, DB);
@@ -1305,5 +1310,39 @@ async function handleAdminGrantPremium(userId, request, DB) {
     } catch (error) {
         console.error('Grant premium error:', error);
         return errorResponse('Failed to grant premium', 500);
+    }
+}
+
+async function handleGetUserNotifications(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+
+    const url = new URL(request.url);
+    const limit = parseInt(url.searchParams.get('limit') || '20');
+    // Optional: Filter by 'since' timestamp to get only new ones
+    const since = url.searchParams.get('since');
+
+    try {
+        let query = `
+            SELECT * FROM notifications
+            WHERE target_audience IN ('all', 'public')
+        `;
+        const params = [];
+
+        if (since) {
+            query += ' AND sent_at > ?';
+            params.push(since);
+        }
+
+        query += ' ORDER BY sent_at DESC LIMIT ?';
+        params.push(limit);
+
+        const result = await DB.prepare(query).bind(...params).all();
+
+        return jsonResponse({
+            data: result.results || []
+        });
+    } catch (error) {
+        console.error('Get user notifications error:', error);
+        return errorResponse('Failed to fetch notifications', 500);
     }
 }

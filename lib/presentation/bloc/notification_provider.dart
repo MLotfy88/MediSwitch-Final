@@ -1,7 +1,9 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../domain/entities/app_notification.dart';
@@ -24,6 +26,9 @@ class NotificationProvider extends ChangeNotifier {
     await _loadNotifications();
     await _initLocalNotifications();
     _isInitialized = true;
+
+    // Check for remote notifications after initialization
+    checkRemoteNotifications();
   }
 
   Future<void> _initLocalNotifications() async {
@@ -152,5 +157,119 @@ class NotificationProvider extends ChangeNotifier {
       details,
       payload: notification.id,
     );
+  }
+
+  // --- Remote Fetch Logic ---
+
+  Future<void> checkRemoteNotifications() async {
+    try {
+      debugPrint("NotificationProvider: Checking for remote notifications...");
+      // TODO: Move base URL to a shared config
+      const baseUrl = 'https://mediswitch-api.m-m-lotfy-88.workers.dev';
+
+      // Determine 'since' timestamp based on the latest remote notification we have
+      // We look for IDs starting with 'remote_' and parse the max ID or timestamp
+      // For simplicity, we just fetch recent 20 and filter duplicates by ID
+
+      final uri = Uri.parse('$baseUrl/api/notifications?limit=20');
+      final response = await http.get(uri);
+
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> body =
+            jsonDecode(response.body) as Map<String, dynamic>;
+        final List<dynamic> data = (body['data'] as List<dynamic>?) ?? [];
+
+        int newCount = 0;
+        final now = DateTime.now();
+
+        for (var item in data) {
+          if (item is! Map<String, dynamic>) continue;
+
+          // Map remote ID to local ID format
+          final remoteId = item['id'].toString();
+          final localId = 'remote_$remoteId';
+
+          // Check if already exists
+          if (_notifications.any((n) => n.id == localId)) {
+            continue;
+          }
+
+          // Parse fields
+          final String title = (item['title'] as String?) ?? 'Notification';
+          final String message = (item['message'] as String?) ?? '';
+          final String typeStr = (item['type'] as String?) ?? 'info';
+          final String? metadataRaw = item['metadata'] as String?;
+
+          Map<String, dynamic>? metadata;
+          if (metadataRaw != null && metadataRaw.isNotEmpty) {
+            try {
+              metadata = jsonDecode(metadataRaw) as Map<String, dynamic>;
+            } catch (_) {
+              // ignore
+            }
+          }
+
+          final DateTime timestamp =
+              item['sent_at'] != null
+                  ? DateTime.parse(item['sent_at'] as String).toLocal()
+                  : now;
+
+          // Map type
+          AppNotificationType type;
+          switch (typeStr) {
+            case 'price_change':
+              type = AppNotificationType.priceChange;
+              break;
+            case 'warning':
+              type = AppNotificationType.interaction;
+              break;
+            case 'update':
+              type = AppNotificationType.update;
+              break;
+            case 'promotion':
+            case 'info':
+            default:
+              type = AppNotificationType.general;
+              break;
+          }
+
+          final notification = AppNotification(
+            id: localId,
+            title: title,
+            titleAr: title, // Admin dashboard sends single language for now
+            message: message,
+            messageAr: message,
+            type: type,
+            timestamp: timestamp,
+            metadata: metadata,
+            isRead: false,
+          );
+
+          _notifications.insert(0, notification);
+          newCount++;
+
+          // Show system notification for these remote ones
+          await _showSystemNotification(notification);
+        }
+
+        if (newCount > 0) {
+          debugPrint(
+            "NotificationProvider: Fetched $newCount new remote notifications.",
+          );
+          _notifications.sort((a, b) => b.timestamp.compareTo(a.timestamp));
+          await _saveNotifications();
+        } else {
+          debugPrint("NotificationProvider: No new remote notifications.");
+        }
+      } else {
+        debugPrint(
+          "NotificationProvider: Failed to fetch remote notifications (${response.statusCode})",
+        );
+      }
+    } catch (e) {
+      debugPrint(
+        "NotificationProvider: Error checking remote notifications: $e",
+      );
+    }
   }
 }
