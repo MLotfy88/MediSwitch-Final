@@ -14,20 +14,21 @@
   - **Config:** إعدادات إعلانات دقيقة (Granular Ad Control).
 
 ### Admin Dashboard (React) ✅
+- **Hosting:** Deployed on **Cloudflare Pages** (Fast, Secure, Global).
 - **Pages:**
   - `DrugManagement`: (CRUD, Sorting, Search) متصل بـ D1.
   - `InteractionsManagement`: إدارة التفاعلات الدوائية.
   - `DosageManagement`: إدارة الجرعات.
   - `NotificationsManagement`: إرسال وإدارة الإشعارات.
-  - `Monetization`: تحكم كامل في الإعلانات (Banners/Interstitials/Native/Rewarded) بشكل منفصل + Test Mode.
+  - `Monetization`: تحكم كامل في الإعلانات.
 - **Integration:** شاشات تعرض بيانات حقيقية وإحصائيات فعلية من D1.
 
 ### Flutter App (MediSwitch) ✅
-- **Ad Configuration:**
-  - تحديث `AdService` لدعم التحكم الدقيق (إيقاف Banners لا يؤثر على Interstitials).
-  - دعم **Test Mode** المنفصل لكل نوع إعلان.
-  - التزامن الفوري مع إعدادات لوحة التحكم.
-- **Backend Sync:** استخدام الـ Endpoints الجديدة (`/api/config`).
+- **UI Refinements:**
+  - **High Risk Screen:** New dedicated screen for severe interactions with search.
+  - **Localization:** Search constraints fixed.
+  - **Notifications:** Android 13+ support.
+- **Backend Sync:** استخدام الـ Endpoints الجديدة (`/api/config`, `/api/notifications`).
 - جاهز للإطلاق (Production Ready).
 
 ---
@@ -36,12 +37,9 @@
 
 ```
 MediSwitch-Final/
-├── lib/                     # Flutter (to be integrated)
-├── admin-dashboard/         # React + TypeScript (INTEGRATED ✅)
-├── cloudflare-worker/       # Backend API (DEPLOYED ✅)
-│   ├── src/index.js        # Main Worker logic
-│   ├── schema_users.sql    # Core DB schema
-│   └── schema_config.sql   # Config DB schema
+├── lib/                     # Flutter App
+├── admin-dashboard/         # React (Cloudflare Pages)
+├── cloudflare-worker/       # Backend API (Cloudflare Workers + D1)
 └── memory-bank/             # Documentation
 ```
 
@@ -49,15 +47,13 @@ MediSwitch-Final/
 
 ## 🎯 المهام القادمة
 
-### Phase 3: Flutter Integration & Subscription System
-1. ⏳ **Authentication:** Login/Register screens in Flutter.
-2. ⏳ **Subscription Paywall:** عرض الخطط والاشتراك.
-3. ⏳ **Data Sync:** تحديث المزامنة لتعمل مع الـ API الجديد.
-4. ⏳ **Payment:** ربط بوابات الدفع (لاحقاً).
+### Final Phase: Launch Prep
+1. ⏳ **Store Deployment:** Prepare Play Store listing.
+2. ⏳ **User Testing:** Beta release for selected users.
 
 ---
 
 ## 📝 ملاحظات
 - **Worker URL:** `https://mediswitch-api.admin-lotfy.workers.dev`
-- **Admin Dashboard:** جاهزة وتعمل مع الـ API الحقيقي.
-- **API Documentation:** موجود في `memory-bank/API-Documentation.md`.
+- **Admin Dashboard:** `https://admin.mediswitch.pages.dev` (Example URL)
+- **Tech Stack:** Cloudflare Ecosystem (Worker, D1, Pages) + Flutter.
