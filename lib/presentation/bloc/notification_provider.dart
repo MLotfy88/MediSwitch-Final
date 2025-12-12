@@ -47,6 +47,17 @@ class NotificationProvider extends ChangeNotifier {
         // Handle notification tap
       },
     );
+
+    // Request permission for Android 13+
+    final androidImplementation =
+        _localNotifications
+            .resolvePlatformSpecificImplementation<
+              AndroidFlutterLocalNotificationsPlugin
+            >();
+
+    if (androidImplementation != null) {
+      await androidImplementation.requestNotificationsPermission();
+    }
   }
 
   Future<void> _loadNotifications() async {

@@ -4,14 +4,18 @@ import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
+import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart'; // Ensure this matches interaction repo
 import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
+import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 
 class IngredientInteractionsScreen extends StatefulWidget {
-  final HighRiskIngredient ingredient;
+  /// The ingredient to filter by. If null, shows all high-risk interactions.
+  final HighRiskIngredient? ingredient;
 
-  const IngredientInteractionsScreen({super.key, required this.ingredient});
+  /// Creates a screen to display drug interactions.
+  const IngredientInteractionsScreen({super.key, this.ingredient});
 
   @override
   State<IngredientInteractionsScreen> createState() =>
@@ -22,8 +26,15 @@ class _IngredientInteractionsScreenState
     extends State<IngredientInteractionsScreen> {
   final InteractionRepository _interactionRepository =
       locator<InteractionRepository>();
-  List<DrugInteraction> _interactions = [];
+
+  List<DrugInteraction> _allInteractions = []; // Full list for filtering
+  List<DrugInteraction> _filteredInteractions = []; // Display list
+
+  /// Whether data is currently being loaded
   bool _isLoading = true;
+
+  /// Search query string
+  String _searchQuery = '';
 
   @override
   void initState() {
@@ -31,23 +42,8 @@ class _IngredientInteractionsScreenState
     _loadInteractions();
   }
 
+  /// Loads interaction data from repository and filters based on widget.ingredient
   Future<void> _loadInteractions() async {
-    // We need to fetch ALL interactions for this ingredient.
-    // Assuming the repository has a method for this, or we can use the existing loadInteractionData and filter?
-    // Based on previous code, loadInteractionData loads EVERYTHING into memory.
-    // So let's use that if available, or fetch specifically.
-
-    // For now, we reuse the repository's data source if it exposes it,
-    // OR we implement a filtering mechanism here if checkInteractions logic is reusable.
-
-    // Analyzing InteractionRepository interface from usage in InteractionCheckerScreen:
-    // It has loadInteractionData() and findInteractionsForMedicines().
-    // We likely need a new method or reuse the internal list if public.
-    // Since I can't modify the interface blindly, I'll assume we can get the full list or filter manually.
-
-    // NOTE: In a real scenario, I should add findInteractionsForIngredient to the repo.
-    // For this task, I will simulate it by loading all data (as they are small JSONs) and filtering.
-
     final result = await _interactionRepository.loadInteractionData();
 
     if (mounted) {
@@ -55,30 +51,42 @@ class _IngredientInteractionsScreenState
         (failure) {
           setState(() {
             _isLoading = false;
-            // Handle error - maybe show snackbar
           });
         },
         (_) {
-          // Success (Unit), now get the data from the getter
-          final allInteractions = _interactionRepository.allLoadedInteractions;
+          final allLoaded = _interactionRepository.allLoadedInteractions;
+          List<DrugInteraction> specificList;
 
-          // Filter interactions where ingredient1 matches our ingredient
-          final filtered =
-              allInteractions
-                  .where(
-                    (i) =>
-                        i.ingredient1.toLowerCase() ==
-                            widget.ingredient.name.toLowerCase() ||
-                        i.ingredient2.toLowerCase() ==
-                            widget.ingredient.name.toLowerCase(),
-                  )
-                  .toList();
+          if (widget.ingredient != null) {
+            // Filter specific ingredient
+            specificList =
+                allLoaded
+                    .where(
+                      (i) =>
+                          i.ingredient1.toLowerCase() ==
+                              widget.ingredient!.name.toLowerCase() ||
+                          i.ingredient2.toLowerCase() ==
+                              widget.ingredient!.name.toLowerCase(),
+                    )
+                    .toList();
+          } else {
+            // Get ALL High Risk (Major/Severe/Contraindicated)
+            specificList =
+                allLoaded.where((i) {
+                  return i.severity == InteractionSeverity.contraindicated ||
+                      i.severity == InteractionSeverity.severe ||
+                      i.severity == InteractionSeverity.major;
+                }).toList();
+          }
 
-          // Sort by severity (highest first)
-          filtered.sort((a, b) => b.severity.index.compareTo(a.severity.index));
+          // Initial Sort by severity (highest first)
+          specificList.sort(
+            (a, b) => b.severity.index.compareTo(a.severity.index),
+          );
 
           setState(() {
-            _interactions = filtered;
+            _allInteractions = specificList;
+            _filteredInteractions = specificList;
             _isLoading = false;
           });
         },
@@ -86,10 +94,33 @@ class _IngredientInteractionsScreenState
     }
   }
 
+  void _onSearch(String query) {
+    setState(() {
+      _searchQuery = query;
+      if (query.isEmpty) {
+        _filteredInteractions = List.from(_allInteractions);
+      } else {
+        final lowerQuery = query.toLowerCase();
+        _filteredInteractions =
+            _allInteractions.where((i) {
+              return i.ingredient1.toLowerCase().contains(lowerQuery) ||
+                  i.ingredient2.toLowerCase().contains(lowerQuery) ||
+                  i.effect.toLowerCase().contains(lowerQuery) ||
+                  i.arabicEffect.contains(query) ||
+                  i.recommendation.toLowerCase().contains(lowerQuery) ||
+                  i.arabicRecommendation.contains(query);
+            }).toList();
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final title =
+        widget.ingredient?.displayName ??
+        (isRTL ? 'التفاعلات الخطيرة' : 'High Risk Interactions');
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
@@ -114,7 +145,7 @@ class _IngredientInteractionsScreenState
               ),
               centerTitle: true,
               title: Text(
-                widget.ingredient.displayName,
+                title,
                 style: TextStyle(
                   color: theme.colorScheme.onSurface,
                   fontWeight: FontWeight.bold,
@@ -127,7 +158,7 @@ class _IngredientInteractionsScreenState
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      AppColors.danger.withOpacity(0.1),
+                      AppColors.danger.withValues(alpha: 0.1),
                       theme.scaffoldBackgroundColor,
                     ],
                   ),
@@ -136,11 +167,23 @@ class _IngredientInteractionsScreenState
             ),
           ),
 
+          // Search Bar (Only if showing ALL interactions)
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ModernSearchBar(
+                hintText:
+                    isRTL ? 'ابحث عن مادة فعالة...' : 'Search ingredient...',
+                onChanged: _onSearch,
+              ),
+            ),
+          ),
+
           if (_isLoading)
             const SliverFillRemaining(
               child: Center(child: CircularProgressIndicator()),
             )
-          else if (_interactions.isEmpty)
+          else if (_filteredInteractions.isEmpty)
             SliverFillRemaining(
               child: Center(
                 child: Column(
@@ -149,7 +192,7 @@ class _IngredientInteractionsScreenState
                     Container(
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        color: AppColors.successSoft.withOpacity(0.3),
+                        color: AppColors.successSoft.withValues(alpha: 0.3),
                         shape: BoxShape.circle,
                       ),
                       child: const Icon(
@@ -160,7 +203,13 @@ class _IngredientInteractionsScreenState
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      isRTL ? "لا توجد تفاعلات مسجلة" : "No interactions found",
+                      isRTL
+                          ? (_searchQuery.isNotEmpty
+                              ? 'لا توجد نتائج'
+                              : 'لا توجد تفاعلات مسجلة')
+                          : (_searchQuery.isNotEmpty
+                              ? 'No results found'
+                              : 'No interactions found'),
                       style: theme.textTheme.titleMedium?.copyWith(
                         color: theme.colorScheme.onSurface,
                         fontWeight: FontWeight.w600,
@@ -172,18 +221,18 @@ class _IngredientInteractionsScreenState
             )
           else
             SliverPadding(
-              padding: const EdgeInsets.all(16),
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
               sliver: SliverList(
                 delegate: SliverChildBuilderDelegate((context, index) {
-                  final interaction = _interactions[index];
+                  final interaction = _filteredInteractions[index];
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 12),
                     child:
                         InteractionCard(
                           interaction: interaction,
-                        ).animate().fadeIn(delay: (50 * index).ms).slideX(),
+                        ).animate().fadeIn(delay: (20 * index).ms).slideX(),
                   );
-                }, childCount: _interactions.length),
+                }, childCount: _filteredInteractions.length),
               ),
             ),
         ],

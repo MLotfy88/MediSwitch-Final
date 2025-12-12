@@ -9,7 +9,7 @@ class ModernSearchBar extends StatelessWidget {
   final ValueChanged<String>? onChanged;
   final VoidCallback? onFilterTap;
   final VoidCallback? onSearchTap;
-  final String hintText;
+  final String? hintText;
 
   const ModernSearchBar({
     super.key,
@@ -17,7 +17,7 @@ class ModernSearchBar extends StatelessWidget {
     this.onChanged,
     this.onFilterTap,
     this.onSearchTap,
-    this.hintText = 'ابحث عن دواء...',
+    this.hintText,
   });
 
   @override
@@ -25,6 +25,13 @@ class ModernSearchBar extends StatelessWidget {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
     final isDark = theme.brightness == Brightness.dark;
+
+    // Determine hint text based on locale if not provided
+    final String effectiveHintText =
+        hintText ??
+        (Localizations.localeOf(context).languageCode == 'ar'
+            ? 'ابحث عن دواء...'
+            : 'Search for a medicine...');
 
     return GestureDetector(
       onTap: onSearchTap,
@@ -67,7 +74,7 @@ class ModernSearchBar extends StatelessWidget {
                 },
                 onTap: onSearchTap,
                 decoration: InputDecoration(
-                  hintText: hintText,
+                  hintText: effectiveHintText,
                   hintStyle: TextStyle(
                     fontSize: 14,
                     color: appColors.mutedForeground,
