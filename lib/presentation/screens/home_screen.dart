@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Padding(
             padding: EdgeInsets.zero,
             child: ModernSearchBar(
-              hintText: 'ابحث عن دواء...',
+              hintText: l10n.searchHint,
               onSearchTap: () {
                 // ✅ التنقل لشاشة البحث عند النقر
                 if (widget.onSearchTap != null) {
@@ -356,6 +356,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 // ✅ استخدام theme colors
                 iconColor: appColors.dangerSoft,
                 iconTintColor: appColors.dangerForeground,
+                onSeeAll: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (_) => const IngredientInteractionsScreen(
+                            ingredient: null,
+                          ),
+                    ),
+                  );
+                },
               );
             },
           ),
@@ -514,15 +525,8 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: LucideIcons.layoutGrid,
             iconColor: theme.colorScheme.primary.withValues(alpha: 0.1),
             iconTintColor: theme.colorScheme.primary,
-            onSeeAll: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute<void>(
-                  builder:
-                      (context) => const SearchScreen(initialCategory: 'All'),
-                ),
-              );
-            },
+            // Removed See All as per request
+            onSeeAll: null,
           ),
           const SizedBox(height: 12),
           SizedBox(
