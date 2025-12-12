@@ -1,5 +1,5 @@
-import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 import '../../core/database/database_helper.dart'; // Import DatabaseHelper for column names
+import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
 class MedicineModel {
   final String tradeName;
@@ -19,7 +19,7 @@ class MedicineModel {
   final String usageAr;
   final String description;
   final String lastPriceUpdate;
-  final double? concentration;
+  final String concentration;
   final String? imageUrl;
   final int? id; // Optional ID from database
 
@@ -41,7 +41,7 @@ class MedicineModel {
     required this.usageAr,
     required this.description,
     required this.lastPriceUpdate,
-    this.concentration,
+    required this.concentration,
     this.imageUrl,
     this.id,
   });
@@ -92,7 +92,7 @@ class MedicineModel {
       description: row.length > 15 ? _parseString(row[15]) : '',
       lastPriceUpdate:
           row.length > 16 ? _normalizeDate(_parseString(row[16])) : '',
-      concentration: row.length > 17 ? _parseDouble(row[17]) : null,
+      concentration: row.length > 17 ? _parseString(row[17]) : '',
       imageUrl: row.length > 18 ? _parseString(row[18]) : null,
     );
   }
@@ -112,7 +112,8 @@ class MedicineModel {
       DatabaseHelper.colUsage: usage,
       DatabaseHelper.colDescription: description,
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
-      DatabaseHelper.colConcentration: concentration,
+      DatabaseHelper.colConcentration:
+          concentration.isNotEmpty ? concentration : null,
       DatabaseHelper.colImageUrl: imageUrl,
       // Add category fields to the map (assuming columns exist in DB schema)
       DatabaseHelper.colCategory: category,
@@ -142,13 +143,10 @@ class MedicineModel {
       dosageFormAr: '', // Not stored
       unit: map[DatabaseHelper.colUnit]?.toString() ?? '',
       usage: map[DatabaseHelper.colUsage]?.toString() ?? '',
-      usageAr: '', // Not stored
+      usageAr: '', // Not stored (or read if added to DB)
       description: map[DatabaseHelper.colDescription]?.toString() ?? '',
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
-      concentration:
-          map[DatabaseHelper.colConcentration] != null
-              ? double.tryParse(map[DatabaseHelper.colConcentration].toString())
-              : null,
+      concentration: map[DatabaseHelper.colConcentration]?.toString() ?? '',
       imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
     );
   }
@@ -171,7 +169,7 @@ class MedicineModel {
               ? categoryAr
               : null, // Pass categoryAr if available
       dosageForm: dosageForm,
-      concentration: concentration ?? 0.0,
+      concentration: concentration,
       unit: unit,
       usage: usage,
       description: description,

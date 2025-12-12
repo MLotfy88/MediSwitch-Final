@@ -13,7 +13,7 @@ class DrugEntity extends Equatable {
   final String active;
   final String company;
   final String dosageForm;
-  final double concentration;
+  final String concentration;
   final String unit;
   final String usage;
   final String description;
@@ -63,7 +63,7 @@ class DrugEntity extends Equatable {
       active: '',
       company: '',
       dosageForm: '',
-      concentration: 0.0,
+      concentration: '',
       unit: '',
       usage: '',
       description: '',
