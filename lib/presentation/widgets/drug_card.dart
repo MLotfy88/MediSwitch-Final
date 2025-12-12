@@ -47,18 +47,6 @@ class DrugCard extends StatelessWidget {
     return double.tryParse(cleanedPrice);
   }
 
-  // Helper to format dosage string
-  String _formatDosage(DrugEntity drug) {
-    String dosage = drug.dosageForm;
-    if (drug.concentration > 0) {
-      String concentrationStr = drug.concentration.toStringAsFixed(
-        drug.concentration.truncateToDouble() == drug.concentration ? 0 : 1,
-      );
-      dosage += ' $concentrationStr ${drug.unit}';
-    }
-    return dosage.trim();
-  }
-
   // Helper to get time since update
   String _getTimeSinceUpdate(BuildContext context, String dateString) {
     if (dateString.isEmpty) return '';

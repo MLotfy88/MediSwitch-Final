@@ -388,7 +388,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                     _buildDetailRow(
                       LucideIcons.scale,
                       'Concentration',
-                      '${widget.drug.concentration} ${widget.drug.unit}',
+                      widget.drug.concentration.isNotEmpty
+                          ? widget.drug.concentration
+                          : 'Standard',
                       colorScheme,
                     ),
                   ],
@@ -426,10 +428,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   bestMatch = guidelines.firstWhere(
                     (g) {
                       if (g.strength == null) return false;
-                      final drugStr =
-                          '${widget.drug.concentration} ${widget.drug.unit}'
-                              .toLowerCase()
-                              .replaceAll(' ', '');
+                      final drugStr = widget.drug.concentration
+                          .toLowerCase()
+                          .replaceAll(' ', '');
                       final guidelineStr = g.strength!.toLowerCase().replaceAll(
                         ' ',
                         '',
@@ -458,10 +459,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               if (bestMatch?.strength != null) {
                 strengthDisplay = bestMatch!.strength!;
               } else {
-                // Check if concentration is suspiciously low or zero
-                if (widget.drug.concentration > 0.01) {
-                  strengthDisplay =
-                      '${widget.drug.concentration} ${widget.drug.unit}';
+                //Check if concentration is available
+                if (widget.drug.concentration.isNotEmpty) {
+                  strengthDisplay = widget.drug.concentration;
                 } else {
                   strengthDisplay =
                       'Standard Strength'; // Fallback text instead of 0.001
@@ -635,7 +635,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                           ),
                         ),
                         Text(
-                          '${widget.drug.concentration} ${widget.drug.unit}',
+                          widget.drug.concentration.isNotEmpty
+                              ? widget.drug.concentration.toUpperCase()
+                              : 'Standard',
                           style: TextStyle(
                             color: colorScheme.onSurface,
                             fontSize: 14,

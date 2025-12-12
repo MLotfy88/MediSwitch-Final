@@ -1,10 +1,12 @@
 import 'dart:async';
 import 'dart:io'; // Import for File operations
+
+import 'package:csv/csv.dart';
 import 'package:flutter/foundation.dart'; // Import for compute
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:csv/csv.dart';
 import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart'; // Import shared_preferences
+
 import '../../models/medicine_model.dart';
 
 // --- Constants ---
@@ -61,8 +63,7 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
           usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
           description: row.length > 15 ? row[15]?.toString() ?? '' : '',
           lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
-          // Assuming concentration is at index 17 (already handled in MedicineModel.fromCsv)
-          // Assuming imageUrl is at index 18
+          concentration: row.length > 17 ? row[17]?.toString() ?? '' : '',
           imageUrl: row.length > 18 ? row[18]?.toString() : null,
         );
       }).toList();
