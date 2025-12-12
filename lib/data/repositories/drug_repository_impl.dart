@@ -13,6 +13,8 @@ import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 
+import '../../core/database/database_helper.dart';
+
 // Top-level function for compute
 List<MedicineModel> _parseMedicineModels(List<Map<String, dynamic>> data) {
   return data.map((json) => MedicineModel.fromMap(json)).toList();
@@ -406,7 +408,7 @@ class DrugRepositoryImpl implements DrugRepository {
               final batch = db.batch();
               for (final model in models) {
                 batch.insert(
-                  'drugs',
+                  DatabaseHelper.medicinesTable,
                   model.toMap(),
                   conflictAlgorithm: ConflictAlgorithm.replace,
                 );

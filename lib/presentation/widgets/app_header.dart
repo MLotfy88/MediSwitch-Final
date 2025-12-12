@@ -44,19 +44,17 @@ class AppHeader extends StatelessWidget {
           }
         }).length;
 
-    // ✅ آخر تاريخ تحديث من البيانات الفعلية - متوافق مع لغة التطبيق
+    // ✅ آخر تاريخ مزامنة ناجحة من MedicineProvider
     final l10n = AppLocalizations.of(context)!;
     final locale = Localizations.localeOf(context).languageCode;
     String lastUpdateText = l10n.neverUpdated;
-    if (medicineProvider.recentlyUpdatedDrugs.isNotEmpty) {
+
+    if (medicineProvider.lastUpdateTimestamp != null) {
       try {
-        final latestDrug = medicineProvider.recentlyUpdatedDrugs.first;
-        if (latestDrug.lastPriceUpdate != null) {
-          final date = DateFormat(
-            'yyyy-MM-dd',
-          ).parse(latestDrug.lastPriceUpdate!);
-          lastUpdateText = DateFormat('MMM d, yyyy', locale).format(date);
-        }
+        final syncDate = DateTime.fromMillisecondsSinceEpoch(
+          medicineProvider.lastUpdateTimestamp!,
+        );
+        lastUpdateText = DateFormat('MMM d, yyyy', locale).format(syncDate);
       } catch (e) {
         lastUpdateText = l10n.lastUpdateUnavailable;
       }

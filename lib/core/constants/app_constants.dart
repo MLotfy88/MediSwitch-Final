@@ -61,7 +61,7 @@ final Map<String, IconData> kCategoryIcons = {
   'pain_management': LucideIcons.pill,
   'personal_care': LucideIcons.user,
   'reproductive_health': LucideIcons.heartHandshake,
-  'respiratory': LucideIcons.wind,
+  'respiratory': LucideIcons.airVent,
   'skin_care': LucideIcons.sun,
   'supplements': LucideIcons.apple,
   'urology': LucideIcons.droplets,
