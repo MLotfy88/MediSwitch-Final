@@ -449,33 +449,63 @@ async function handleDeltaSync(timestamp, DB) {
     try {
         const timestampNum = parseInt(timestamp);
 
+        // Transform D1 snake_case to Flutter camelCase
+        const transformDrug = (drug) => ({
+            id: drug.id,
+            tradeName: drug.trade_name,
+            arabicName: drug.arabic_name,
+            oldPrice: drug.old_price,
+            price: drug.price,
+            active: drug.active,
+            mainCategory: drug.main_category,
+            mainCategory_ar: drug.main_category_ar,
+            company: drug.company,
+            dosageForm: drug.dosage_form,
+            dosageForm_ar: drug.dosage_form_ar,
+            unit: drug.unit,
+            usage: drug.usage,
+            usage_ar: drug.usage_ar,
+            description: drug.description || '',
+            lastPriceUpdate: drug.last_price_update,
+            concentration: drug.concentration,
+            imageUrl: drug.image_url || null,
+            category: drug.category,
+            category_ar: drug.category_ar,
+            visits: drug.visits || 0,
+            createdAt: drug.created_at,
+            updatedAt: drug.updated_at
+        });
+
         // If timestamp is 0, return last 1000 drugs (full sync)
         if (timestampNum === 0) {
             const query = `
-                SELECT * FROM drugs 
-                ORDER BY updated_at DESC 
+                SELECT * FROM drugs
+                ORDER BY updated_at DESC
                 LIMIT 1000
             `;
             const result = await DB.prepare(query).all();
+            const transformedDrugs = (result.results || []).map(transformDrug);
+
             return jsonResponse({
-                drugs: result.results || [],
-                count: (result.results || []).length,
+                drugs: transformedDrugs,
+                count: transformedDrugs.length,
                 sync_type: 'full'
             });
         }
 
         // Delta sync: return drugs updated after timestamp
         const query = `
-            SELECT * FROM drugs 
+            SELECT * FROM drugs
             WHERE updated_at > ?
             ORDER BY updated_at ASC
         `;
 
         const result = await DB.prepare(query).bind(timestampNum).all();
+        const transformedDrugs = (result.results || []).map(transformDrug);
 
         return jsonResponse({
-            drugs: result.results || [],
-            count: (result.results || []).length,
+            drugs: transformedDrugs,
+            count: transformedDrugs.length,
             sync_type: 'delta',
             timestamp: timestampNum,
             server_time: Math.floor(Date.now() / 1000)
