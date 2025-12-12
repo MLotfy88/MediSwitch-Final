@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:lucide_icons/lucide_icons.dart'; // Import Lucide Icons
 import 'package:shared_preferences/shared_preferences.dart';
+
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
-import '../../data/datasources/local/sqlite_local_data_source.dart';
 import 'initialization_screen.dart'; // Import InitializationScreen
-import 'main_screen.dart';
-import 'setup_screen.dart';
 
 // Define the key here or move to a shared constants file
 const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -39,6 +37,10 @@ class OnboardingScreen extends StatelessWidget {
     _logger.d("OnboardingScreen: Building widget.");
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+
+    // Detect locale
+    final locale = Localizations.localeOf(context);
+    final isArabic = locale.languageCode == 'ar';
 
     // Define page decoration once
     final pageDecoration = PageDecoration(
@@ -95,29 +97,44 @@ class OnboardingScreen extends StatelessWidget {
 
       pages: [
         PageViewModel(
-          title: "مرحباً بك في MediSwitch",
+          title: isArabic ? "مرحباً بك في MediSwitch" : "Welcome to MediSwitch",
           body:
-              "دليلك الشامل للأدوية في مصر. ابحث بسهولة عن الأدوية، بدائلها، أسعارها، والمزيد.",
+              isArabic
+                  ? "دليلك الشامل للأدوية في مصر. ابحث بسهولة عن الأدوية، بدائلها، أسعارها، والمزيد."
+                  : "Your comprehensive guide to medicines in Egypt. Easily search for medicines, alternatives, prices, and more.",
           image: logoImage, // Use the logo widget for the first page
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "حاسبة الجرعات الذكية",
+          title: isArabic ? "حاسبة الجرعات الذكية" : "Smart Dose Calculator",
           body:
-              "احسب الجرعات بدقة بناءً على وزن وعمر المريض لأدوية الأطفال الشائعة.",
+              isArabic
+                  ? "احسب الجرعات بدقة بناءً على وزن وعمر المريض لأدوية الأطفال الشائعة."
+                  : "Calculate doses accurately based on patient weight and age for common pediatric medications.",
           image: calculatorIcon, // Use the calculator icon
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "مدقق التفاعلات الدوائية",
+          title:
+              isArabic
+                  ? "مدقق التفاعلات الدوائية"
+                  : "Drug Interactions Checker",
           body:
-              "تجنب التفاعلات الخطيرة بين الأدوية عن طريق فحص قائمة الأدوية الخاصة بك.",
+              isArabic
+                  ? "تجنب التفاعلات الخطيرة بين الأدوية عن طريق فحص قائمة الأدوية الخاصة بك."
+                  : "Avoid dangerous drug interactions by checking your medication list.",
           image: interactionsIcon, // Use the interactions icon
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "البدائل والمواد الفعالة",
-          body: "اعثر بسهولة على بدائل الأدوية المتاحة بنفس المادة الفعالة.",
+          title:
+              isArabic
+                  ? "البدائل والمواد الفعالة"
+                  : "Alternatives & Active Ingredients",
+          body:
+              isArabic
+                  ? "اعثر بسهولة على بدائل الأدوية المتاحة بنفس المادة الفعالة."
+                  : "Easily find available drug alternatives with the same active ingredient.",
           image: alternativesIcon, // Use the alternatives icon
           decoration: pageDecoration,
         ),
@@ -127,7 +144,7 @@ class OnboardingScreen extends StatelessWidget {
       onSkip: () => _onOnboardingComplete(context),
       showSkipButton: true,
       skip: Text(
-        'تخطي',
+        isArabic ? 'تخطي' : 'Skip',
         style: TextStyle(
           fontWeight: FontWeight.w600,
           color: colorScheme.primary,
@@ -135,7 +152,7 @@ class OnboardingScreen extends StatelessWidget {
       ),
       next: Icon(LucideIcons.arrowRight, color: colorScheme.primary),
       done: Text(
-        'تم',
+        isArabic ? 'تم' : 'Done',
         style: TextStyle(
           fontWeight: FontWeight.w600,
           color: colorScheme.primary,

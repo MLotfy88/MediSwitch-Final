@@ -421,12 +421,16 @@ class MedicineProvider extends ChangeNotifier {
             // Refresh current view
             await _applyFilters(page: 0);
 
-            _lastUpdateTimestamp = currentTimestamp;
+            // ✅ استخدام الوقت الحالي الفعلي للمزامنة الناجحة
+            _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
             _error = '';
-            _logger.i("Manual refresh: Sync completed successfully");
+            _logger.i(
+              "Manual refresh: Sync completed successfully at $_lastUpdateTimestamp",
+            );
           } else {
             _logger.i("Manual refresh: Data already up to date");
-            _lastUpdateTimestamp = currentTimestamp;
+            // ✅ استخدام الوقت الحالي أيضاً
+            _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
             _error = '';
           }
         },
