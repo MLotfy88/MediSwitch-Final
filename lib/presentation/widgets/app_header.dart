@@ -54,7 +54,11 @@ class AppHeader extends StatelessWidget {
         final syncDate = DateTime.fromMillisecondsSinceEpoch(
           medicineProvider.lastUpdateTimestamp!,
         );
-        lastUpdateText = DateFormat('MMM d, yyyy', locale).format(syncDate);
+        // ✅ إضافة الساعة بصيغة 12 ساعة مع AM/PM
+        lastUpdateText = DateFormat(
+          'MMM d, yyyy h:mm a',
+          locale,
+        ).format(syncDate);
       } catch (e) {
         lastUpdateText = l10n.lastUpdateUnavailable;
       }

@@ -470,111 +470,41 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
 
               final maxDose = bestMatch?.maxDose;
 
-              return Column(
-                children: [
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: theme.cardColor,
-                      borderRadius: BorderRadius.circular(16),
-                      boxShadow: appColors.shadowCard,
-                      border: Border.all(
-                        color: appColors.border.withValues(alpha: 0.5),
+              return Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 24,
+                ),
+                child: Column(
+                  children: [
+                    // Main Info Card (Strength + Doses)
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: theme.cardColor,
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: appColors.shadowCard,
+                        border: Border.all(
+                          color: appColors.border.withValues(alpha: 0.5),
+                        ),
                       ),
-                    ),
-                    child: Column(
-                      children: [
-                        Row(
-                          children: [
-                            Container(
-                              padding: const EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: colorScheme.primary.withValues(
-                                  alpha: 0.1,
-                                ),
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              child: Icon(
-                                LucideIcons.droplets,
-                                color: colorScheme.primary,
-                                size: 24,
-                              ),
-                            ),
-                            const SizedBox(width: 12),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Strength',
-                                  style: TextStyle(
-                                    color: appColors.mutedForeground,
-                                    fontSize: 12,
-                                  ),
-                                ),
-                                Text(
-                                  strengthDisplay,
-                                  style: TextStyle(
-                                    color: colorScheme.onSurface,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 18,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        const Padding(
-                          padding: EdgeInsets.symmetric(vertical: 16),
-                          child: Divider(),
-                        ),
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(top: 2),
-                              child: Icon(
-                                LucideIcons.clock,
-                                size: 20,
-                                color: appColors.mutedForeground,
-                              ),
-                            ),
-                            const SizedBox(width: 12),
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    'Standard Dose',
-                                    style: TextStyle(
-                                      color: appColors.mutedForeground,
-                                      fontSize: 12,
-                                    ),
-                                  ),
-                                  Text(
-                                    standardDose,
-                                    style: TextStyle(
-                                      color: colorScheme.onSurface,
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 14,
-                                      height: 1.5,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        if (maxDose != null && maxDose.isNotEmpty) ...[
-                          const SizedBox(height: 16),
+                      child: Column(
+                        children: [
+                          // Strength Header
                           Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Padding(
-                                padding: const EdgeInsets.only(top: 2),
+                              Container(
+                                padding: const EdgeInsets.all(12),
+                                decoration: BoxDecoration(
+                                  color: colorScheme.primary.withValues(
+                                    alpha: 0.1,
+                                  ),
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
                                 child: Icon(
-                                  LucideIcons.alertCircle,
-                                  size: 20,
-                                  color: appColors.dangerForeground,
+                                  LucideIcons.droplets,
+                                  color: colorScheme.primary,
+                                  size: 24,
                                 ),
                               ),
                               const SizedBox(width: 12),
@@ -583,17 +513,61 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Max Daily Dose',
+                                      'Strength',
                                       style: TextStyle(
                                         color: appColors.mutedForeground,
                                         fontSize: 12,
                                       ),
                                     ),
                                     Text(
-                                      maxDose,
+                                      strengthDisplay,
                                       style: TextStyle(
-                                        color: appColors.dangerForeground,
+                                        color: colorScheme.onSurface,
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 18,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+
+                          const Padding(
+                            padding: EdgeInsets.symmetric(vertical: 16),
+                            child: Divider(),
+                          ),
+
+                          // Standard Dose
+                          Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(top: 2),
+                                child: Icon(
+                                  LucideIcons.clock,
+                                  size: 20,
+                                  color: appColors.mutedForeground,
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'Standard Dose',
+                                      style: TextStyle(
+                                        color: appColors.mutedForeground,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    const SizedBox(height: 2),
+                                    Text(
+                                      standardDose,
+                                      style: TextStyle(
+                                        color: colorScheme.onSurface,
+                                        fontWeight: FontWeight.w500,
                                         fontSize: 14,
                                         height: 1.5,
                                       ),
@@ -603,97 +577,103 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                               ),
                             ],
                           ),
-                        ],
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                      vertical: 12,
-                    ),
-                    decoration: BoxDecoration(
-                      color: colorScheme.surfaceContainerHighest.withValues(
-                        alpha: 0.5,
-                      ),
-                      borderRadius: BorderRadius.circular(12),
-                      border: Border.all(
-                        color: colorScheme.outline.withValues(alpha: 0.1),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          l10n.concentration,
-                          style: TextStyle(
-                            color: appColors.mutedForeground,
-                            fontSize: 14,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                        Text(
-                          widget.drug.concentration.isNotEmpty
-                              ? widget.drug.concentration.toUpperCase()
-                              : 'Standard',
-                          style: TextStyle(
-                            color: colorScheme.onSurface,
-                            fontSize: 14,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
 
-                  const SizedBox(height: 16),
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: appColors.warningSoft,
-                      borderRadius: BorderRadius.circular(16),
-                      border: Border.all(
-                        color: appColors.warningSoft.withValues(alpha: 1.0),
-                        width: 1,
-                      ),
-                    ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Icon(
-                              LucideIcons.alertTriangle,
-                              size: 16,
-                              color: appColors.warningForeground,
-                            ),
-                            const SizedBox(width: 8),
-                            Text(
-                              'Instructions',
-                              style: TextStyle(
-                                fontWeight: FontWeight.w600,
-                                color: appColors.warningForeground,
-                              ),
+                          if (maxDose != null && maxDose.isNotEmpty) ...[
+                            const SizedBox(height: 16),
+                            // Maximum Daily Dose
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 2),
+                                  child: Icon(
+                                    LucideIcons.info,
+                                    size: 20,
+                                    color: appColors.mutedForeground,
+                                  ),
+                                ),
+                                const SizedBox(width: 12),
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Maximum Daily Dose',
+                                        style: TextStyle(
+                                          color: appColors.mutedForeground,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 2),
+                                      Text(
+                                        maxDose,
+                                        style: TextStyle(
+                                          color: colorScheme.onSurface,
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 14,
+                                          height: 1.5,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          instructions,
-                          style: TextStyle(
-                            color: appColors.warningForeground.withValues(
-                              alpha: 0.8,
-                            ),
-                            fontSize: 14,
-                            height: 1.4,
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+
+                    const SizedBox(height: 16),
+
+                    // Instructions Box (Warning Style)
+                    Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: appColors.warningSoft,
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: appColors.warningSoft.withValues(alpha: 1.0),
+                          width: 1,
+                        ),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(
+                                LucideIcons.alertTriangle,
+                                size: 16,
+                                color: appColors.warningForeground,
+                              ),
+                              const SizedBox(width: 8),
+                              Text(
+                                'Instructions',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w600,
+                                  color: appColors.warningForeground,
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            instructions,
+                            style: TextStyle(
+                              color: appColors.warningForeground.withValues(
+                                alpha: 0.9,
+                              ),
+                              fontSize: 14,
+                              height: 1.5,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               );
             },
           ).animate().fadeIn(),
