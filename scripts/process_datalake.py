@@ -22,23 +22,50 @@ OUTPUT_FILE = 'production_data/dosages_final.json'
 # Reuse Dosage Parser Logic (from extract_dosages_production.py)
 class DosageParser:
     def __init__(self):
+        # Precise Pediatric Pattern
         self.mg_kg_pattern = re.compile(r'(\d+(?:\.\d+)?)\s*(?:mg|mcg|g)/kg', re.IGNORECASE)
+        # Adult/Fixed Dose Pattern (Looking for specific "Recommended: X mg" patterns is hard, grabbing standard mg)
+        # We will look for numbers followed by units, excluding /kg
+        self.simple_dose_pattern = re.compile(r'\b(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml)\b(?!\s*/\s*kg)', re.IGNORECASE)
+        
         self.frequency_map = {
-            'once daily': 24, 'daily': 24, 'q24h': 24, 'every 24 hours': 24,
-            'twice daily': 12, 'bid': 12, 'q12h': 12, 'every 12 hours': 12,
-            'three times': 8, 'tid': 8, 'q8h': 8, 'every 8 hours': 8,
-            'four times': 6, 'qid': 6, 'q6h': 6, 'every 6 hours': 6
+            'once daily': 24, 'daily': 24, 'q24h': 24, 'every 24 hours': 24, 'once a day': 24,
+            'twice daily': 12, 'bid': 12, 'q12h': 12, 'every 12 hours': 12, '2 times a day': 12,
+            'three times': 8, 'tid': 8, 'q8h': 8, 'every 8 hours': 8, '3 times a day': 8,
+            'four times': 6, 'qid': 6, 'q6h': 6, 'every 6 hours': 6, '4 times a day': 6
         }
 
     def extract_structured_dose(self, text: str) -> Dict:
         if not text: return {}
-        data = {'dose_mg_kg': None, 'frequency_hours': None, 'max_dose_mg': None, 'is_pediatric': False}
+        data = {
+            'dose_mg_kg': None, 
+            'adult_dose_mg': None,
+            'frequency_hours': None, 
+            'max_dose_mg': None, 
+            'is_pediatric': False
+        }
         
-        match = self.mg_kg_pattern.search(text)
-        if match:
-            data['dose_mg_kg'] = float(match.group(1))
+        # Pediatric mg/kg
+        match_ped = self.mg_kg_pattern.search(text)
+        if match_ped:
+            data['dose_mg_kg'] = float(match_ped.group(1))
             data['is_pediatric'] = True
             
+        # Adult/Fixed Dose (Heuristic: First valid dose mentioning mg usually)
+        # Try to find phrase "recommended dose is X mg"
+        rec_match = re.search(r'recommended\s*(?:dose|dosage)\s*(?:is)?\s*(\d+(?:\.\d+)?)\s*mg', text, re.IGNORECASE)
+        if rec_match:
+             data['adult_dose_mg'] = float(rec_match.group(1))
+        else:
+             # Fallback: Find simple mg occurrences
+             matches = self.simple_dose_pattern.findall(text)
+             # Filter out year-like numbers (1990-2030) or huge numbers if needed
+             valid_doses = [float(x[0]) for x in matches if float(x[0]) < 2000]
+             if valid_doses:
+                 # Take the most common or first? Let's take first for now or median?
+                 # First often is "X mg once daily"
+                 data['adult_dose_mg'] = valid_doses[0]
+
         text_lower = text.lower()
         for key, hours in self.frequency_map.items():
             if key in text_lower:
@@ -147,9 +174,26 @@ def process_datalake():
                 source_concentration = "None"
                 if products and products[0].get('ingredients'):
                     ing = products[0]['ingredients'][0]
+                    # Strategy A: Explicit String
                     if ing.get('concentration_string'):
                         concentration = ing['concentration_string']
                         source_concentration = "XML_Structured"
+                    # Strategy B: Construct from Value/Unit
+                    elif ing.get('strength_value') and ing.get('strength_unit'):
+                        s_val = ing['strength_value']
+                        s_unit = ing['strength_unit']
+                        # Check denominator
+                        if ing.get('denominator_value') and ing.get('denominator_unit'):
+                           d_val = ing['denominator_value']
+                           d_unit = ing['denominator_unit']
+                           if d_val == "1":
+                               concentration = f"{s_val} {s_unit} / {d_unit}"
+                           else:
+                               concentration = f"{s_val} {s_unit} / {d_val} {d_unit}"
+                        else:
+                            concentration = f"{s_val} {s_unit}"
+                        source_concentration = "XML_Constructed"
+                        
                 if not concentration and drug_name:
                     regex_conc = extract_regex_concentration(drug_name)
                     if regex_conc:
