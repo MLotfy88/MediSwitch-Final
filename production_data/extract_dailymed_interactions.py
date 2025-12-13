@@ -418,10 +418,9 @@ def main():
     print("\n" + "="*80)
     print("📊 FINAL SUMMARY")
     print("="*80)
-    print(f"Total files processed: {total_files}")
-    print(f"Files with interactions: {files_with_interactions}")
+    print(f"Total parts processed: {len(DAILYMED_RELEASE_FILES)}")
     print(f"Total interactions extracted: {len(all_interactions):,}")
-    print(f"Unique interactions: {len(final_interactions):,}")
+    print(f"Unique interactions (deduplicated): {len(final_interactions):,}")
     print(f"\nOutput: {OUTPUT_FILE}")
     
     if final_interactions:
