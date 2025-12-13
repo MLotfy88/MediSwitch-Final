@@ -81,6 +81,10 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Download OpenFDA data
+        run: |
+          python3 scripts/dosage/download_openfda_labels.py
+      
       - name: Extract OpenFDA interactions
         run: |
           python3 production_data/extract_interactions_production.py
