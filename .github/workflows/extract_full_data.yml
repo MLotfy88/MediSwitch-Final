@@ -1,0 +1,49 @@
+name: Extract Full DailyMed Data (Data Lake)
+# Extracts the ENTIRE DailyMed database into a unified JSON file
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly on the 1st
+
+jobs:
+  extract-full-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300  # 5 hours (Processing all 5 parts is heavy)
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Download DailyMed Full Release
+        run: |
+          python3 scripts/download_dailymed.py
+      
+      - name: Extract Full Data Lake
+        run: |
+          python3 production_data/extract_full_dailymed.py
+      
+      - name: Compress Output
+        run: |
+          # Compress the huge JSON to be artifact-friendly
+          cd production_data
+          zip dailymed_full_database.json.zip dailymed_full_database.json
+          rm dailymed_full_database.json # Save space
+          cd ..
+
+      - name: Upload Data Lake Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dailymed-full-database
+          path: production_data/dailymed_full_database.json.zip
+          retention-days: 90
