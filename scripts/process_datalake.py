@@ -53,6 +53,12 @@ def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> st
     # 0. Basic Cleanup
     name = re.sub(r'[+,]', ' ', name) # Split multi-ingredients
     
+    # Specific Normalization for 'Type B' drugs where local DB omits 'B'
+    name = name.replace('polymyxin b', 'polymyxin')
+    name = name.replace('amphotericin b', 'amphotericin')
+    name = name.replace('vitamin b12', 'cyanocobalamin') # Common
+    name = name.replace('vitamin b', 'vitamin') # Risky but local might just say 'Vitamin Complex'? -> No, let's stick to safe ones.
+    
     # 1. Tokenize
     parts = name.split()
     clean_parts = []
