@@ -226,33 +226,66 @@ def process_zip_part(zip_path: str, extractor: FullDailyMedExtractor) -> List[Di
 
 def main():
     print("="*80)
-    print("DailyMed FULL DATA LAKE Extractor")
+    print("DailyMed FULL DATA LAKE Extractor (Streaming JSONL)")
     print("="*80)
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     extractor = FullDailyMedExtractor()
-    all_data = [] # Be careful with memory here, might need streaming for 12GB parsed
     
-    # Check if we should stream output instead of collecting all in memory
-    # For now, let's collect. If it crashes, we'll switch to append mode.
+    # Change output to .jsonl
+    output_path = OUTPUT_FILE + 'l' # .jsonl
     
-    for filename in DAILYMED_RELEASE_FILES:
-        path = os.path.join(DAILYMED_DOWNLOAD_DIR, filename)
-        print(f"\n📦 Processing {filename}...")
-        part_data = process_zip_part(path, extractor)
-        all_data.extend(part_data)
-        print(f"  ✅ Extracted {len(part_data):,} records from {filename}")
-
-    print(f"\nTOTAL RECORDS: {len(all_data):,}")
+    print(f"Streaming records to {output_path}...")
     
-    print(f"Saving to {OUTPUT_FILE}...")
+    total_count = 0
+    
     try:
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(all_data, f, ensure_ascii=False) # Minified to save space
-        print("✅ Done!")
-    except MemoryError:
-        print("❌ Memory Error! The dataset is too large.")
-        # Fallback to saving separate parts or NDJSON could be implemented here
+        with open(output_path, 'w', encoding='utf-8') as f_out:
+            for filename in DAILYMED_RELEASE_FILES:
+                path = os.path.join(DAILYMED_DOWNLOAD_DIR, filename)
+                print(f"\n📦 Processing {filename}...")
+                
+                if not os.path.exists(path):
+                    print(f"❌ File not found: {path} (Skipping)")
+                    continue
+
+                # Custom Streaming logic for zip processing
+                # We can't use the previous 'process_zip_part' easily if it returns a list
+                # Let's inline the logic or modify it. 
+                # For simplicity, let's copy the logic here to yield instead of return list
+                
+                try:
+                    with zipfile.ZipFile(path, 'r') as z:
+                        nested_zips = [x for x in z.namelist() if x.endswith('.zip')]
+                        print(f"  Found {len(nested_zips):,} nested files")
+                        
+                        for i, nested_name in enumerate(nested_zips):
+                            try:
+                                nested_data = z.read(nested_name)
+                                import io
+                                with zipfile.ZipFile(io.BytesIO(nested_data)) as nz:
+                                    xml_files = [x for x in nz.namelist() if x.endswith('.xml')]
+                                    if xml_files:
+                                        xml_content = nz.read(xml_files[0])
+                                        record = extractor.extract_from_xml(xml_content)
+                                        if record:
+                                            # Write line immediately
+                                            f_out.write(json.dumps(record, ensure_ascii=False) + '\n')
+                                            total_count += 1
+                            except Exception:
+                                continue
+                                
+                            if (i + 1) % 2000 == 0:
+                                print(f"    Processed {i+1} files... ({total_count} total records)")
+                                f_out.flush() # Ensure wrote to disk
+                                
+                except Exception as e:
+                    print(f"❌ Error reading zip {path}: {e}")
+
+        print(f"\n✅ Done! Total Records: {total_count:,}")
+        
+    except Exception as e:
+        print(f"❌ Fatal Error: {e}")
         
 if __name__ == '__main__':
     main()
