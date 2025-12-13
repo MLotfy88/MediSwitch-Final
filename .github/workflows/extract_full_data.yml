@@ -33,6 +33,11 @@ jobs:
         run: |
           python3 production_data/extract_full_dailymed.py
       
+      - name: Process & Filter Data (Cloud Side)
+        run: |
+          # Filters the 12GB+ data lake into a small, enriched JSON
+          python3 scripts/process_datalake.py
+      
       - name: Compress Output
         run: |
           # Compress the huge JSON to be artifact-friendly
@@ -46,4 +51,11 @@ jobs:
         with:
           name: dailymed-full-database
           path: production_data/dailymed_full_database.json.zip
+          retention-days: 5
+
+      - name: Upload Final Processed Data
+        uses: actions/upload-artifact@v4
+        with:
+          name: dosages-final
+          path: production_data/dosages_final.json
           retention-days: 90
