@@ -87,112 +87,118 @@ def process_datalake():
     print("Processing DailyMed Data Lake")
     print("="*80)
     
-    # 1. Load Data
-    if not os.path.exists(DATALAKE_FILE):
-        print(f"❌ Data Lake file not found: {DATALAKE_FILE}")
-        return
-        
-    print("Loading JSON (this may take a moment)...")
-    try:
-        with open(DATALAKE_FILE, 'r') as f:
-            data = json.load(f)
-        print(f"✅ Loaded {len(data):,} raw records.")
-    except Exception as e:
-        print(f"❌ Error loading JSON: {e}")
-        return
+    # 1. Load Data (Streaming)
+    # Note: Extractor now produces .jsonl
+    DATALAKE_FILE_L = DATALAKE_FILE + 'l' # .jsonl
+    
+    if not os.path.exists(DATALAKE_FILE_L):
+        print(f"❌ Data Lake file not found: {DATALAKE_FILE_L}")
+        # Try fallback to .json if old version ran
+        if os.path.exists(DATALAKE_FILE):
+             print(f"⚠️ Found legacy .json file, using that...")
+             DATALAKE_FILE_L = DATALAKE_FILE
+        else:
+             print("❌ No data file found. Exiting.")
+             return
 
-    # 2. Init Parsers & Maps
+    print(f"Processing {DATALAKE_FILE_L}...")
+    
+    # Init Parsers
     dosage_parser = DosageParser()
     app_data_map = load_app_data()
-    
     final_records = []
     
-    # 3. Iterate & Filter
-    for entry in data:
-        # Skip incomplete records
-        if not entry.get('products') and not entry.get('clinical_data'):
-            continue
-            
-        # Extract basic info
-        clinical = entry.get('clinical_data', {})
-        products = entry.get('products', [])
-        
-        # Primary Drug Name (Try proprietary first, then generic)
-        drug_name = "Unknown"
-        generic_name = "Unknown"
-        
-        if products:
-            drug_name = products[0].get('proprietary_name') or products[0].get('non_proprietary_name')
-            generic_name = products[0].get('non_proprietary_name')
-            
-        if not drug_name: continue
-        
-        # 4. Enrich Concentration
-        # Strategy: 
-        # A. Try Structured Ingredient Strength from XML
-        # B. Try Regex on Proprietary Name
-        # C. Match with App Data
-        
-        concentration = None
-        source_concentration = "None"
-        
-        # A. XML
-        if products and products[0].get('ingredients'):
-            ing = products[0]['ingredients'][0] # Primary ingredient
-            if ing.get('concentration_string'):
-                concentration = ing['concentration_string']
-                source_concentration = "XML_Structured"
-        
-        # B. Regex (if A missing)
-        if not concentration and drug_name:
-            regex_conc = extract_regex_concentration(drug_name)
-            if regex_conc:
-                concentration = regex_conc
-                source_concentration = "Name_Regex"
+    processed_count = 0
+    
+    try:
+        with open(DATALAKE_FILE_L, 'r', encoding='utf-8') as f_in:
+            for line in f_in:
+                if not line.strip(): continue
+                try:
+                    entry = json.loads(line)
+                except json.JSONDecodeError:
+                    if "[" in line and "]" in line: # Fallback for reading array JSON line by line (rare)
+                        continue
+                    continue # Skip invalid line
                 
-        # Link with App Data
-        app_info = app_data_map.get(drug_name.lower().strip())
-        app_id = app_info.get('id') if app_info else None
-        
-        # 5. Re-Parse Dosage Text
-        dosage_text = clinical.get('dosage_and_administration', '')
-        pediatric_text = clinical.get('pediatric_use', '')
-        
-        structured_dose = {}
-        if dosage_text:
-            structured_dose = dosage_parser.extract_structured_dose(dosage_text)
-        if pediatric_text and not structured_dose.get('is_pediatric'):
-             peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
-             # Merge if peds found
-             if peds_struct.get('dose_mg_kg'):
-                 structured_dose = peds_struct
-                 structured_dose['is_pediatric'] = True
+                processed_count += 1
+                if processed_count % 5000 == 0:
+                    print(f"  Processed {processed_count:,} records...")
 
-        # 6. Construct Final Record
-        record = {
-            'id': entry.get('set_id'),
-            'app_id': app_id, # Linkage
-            'drug_name': drug_name,
-            'generic_name': generic_name,
-            'concentration': concentration,
-            'concentration_source': source_concentration,
-            'dosages': {
-                'structured': structured_dose,
-                'text_dosage': dosage_text[:3000] if dosage_text else None,
-                'text_pediatric': pediatric_text[:3000] if pediatric_text else None,
-                'text_pregnancy': clinical.get('pregnancy'),
-                'text_boxed_warning': clinical.get('boxed_warning'),
-            },
-            'metadata': {
-                'source': 'DailyMed',
-                'title': entry.get('title')
-            }
-        }
-        
-        final_records.append(record)
-        
+                # --- Core Logic ---
+                # Skip incomplete records
+                if not entry.get('products') and not entry.get('clinical_data'):
+                    continue
+                    
+                # Extract basic info
+                clinical = entry.get('clinical_data', {})
+                products = entry.get('products', [])
+                
+                # Primary Drug Name
+                drug_name = "Unknown"
+                generic_name = "Unknown"
+                if products:
+                    drug_name = products[0].get('proprietary_name') or products[0].get('non_proprietary_name')
+                    generic_name = products[0].get('non_proprietary_name')
+                if not drug_name: continue
+                
+                # Enrich Concentration
+                concentration = None
+                source_concentration = "None"
+                if products and products[0].get('ingredients'):
+                    ing = products[0]['ingredients'][0]
+                    if ing.get('concentration_string'):
+                        concentration = ing['concentration_string']
+                        source_concentration = "XML_Structured"
+                if not concentration and drug_name:
+                    regex_conc = extract_regex_concentration(drug_name)
+                    if regex_conc:
+                        concentration = regex_conc
+                        source_concentration = "Name_Regex"
+                        
+                # Link
+                app_info = app_data_map.get(drug_name.lower().strip())
+                app_id = app_info.get('id') if app_info else None
+                
+                # Dosage
+                dosage_text = clinical.get('dosage_and_administration', '')
+                pediatric_text = clinical.get('pediatric_use', '')
+                structured_dose = {}
+                if dosage_text:
+                    structured_dose = dosage_parser.extract_structured_dose(dosage_text)
+                if pediatric_text and not structured_dose.get('is_pediatric'):
+                     peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
+                     if peds_struct.get('dose_mg_kg'):
+                         structured_dose = peds_struct
+                         structured_dose['is_pediatric'] = True
+
+                record = {
+                    'id': entry.get('set_id'),
+                    'app_id': app_id,
+                    'drug_name': drug_name,
+                    'generic_name': generic_name,
+                    'concentration': concentration,
+                    'concentration_source': source_concentration,
+                    'dosages': {
+                        'structured': structured_dose,
+                        'text_dosage': dosage_text[:3000] if dosage_text else None,
+                        'text_pediatric': pediatric_text[:3000] if pediatric_text else None,
+                        'text_pregnancy': clinical.get('pregnancy'),
+                        'text_boxed_warning': clinical.get('boxed_warning'),
+                    },
+                    'metadata': {
+                        'source': 'DailyMed',
+                        'title': entry.get('title')
+                    }
+                }
+                final_records.append(record)
+                
+    except Exception as e:
+        print(f"Error during processing: {e}")
+        # Don't return, save what we have
+
     # 7. Save
-    print(f"\nProcessing complete.")
+    print(f"\nProcessing complete. Scanned {processed_count:,} records.")
     print(f"Generated {len(final_records):,} enriched records.")
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
