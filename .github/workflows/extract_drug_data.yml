@@ -89,11 +89,22 @@ jobs:
         run: |
           python3 production_data/extract_interactions_production.py
       
+      - name: Extract DailyMed Dosages
+        run: |
+          python3 production_data/extract_dosages_production.py
+
       - name: Upload OpenFDA results
         uses: actions/upload-artifact@v4
         with:
           name: openfda-interactions
           path: production_data/drug_interactions_clean.json
+          retention-days: 30
+          
+      - name: Upload Dosage results
+        uses: actions/upload-artifact@v4
+        with:
+          name: dailymed-dosages
+          path: production_data/dosages_clean.json
           retention-days: 30
       
       - name: Create summary
@@ -123,8 +134,11 @@ jobs:
       
       - name: Download all artifacts
         uses: actions/download-artifact@v4
-      
-      - name: Merge results
+        
+      - name: List artifacts
+        run: ls -R
+
+      - name: Merge results (Interactions)
         run: |
           python3 scripts/merge_interactions.py
       
