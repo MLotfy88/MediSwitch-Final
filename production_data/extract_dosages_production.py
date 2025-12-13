@@ -206,25 +206,36 @@ def process_release_zip(release_zip_path: str, extractor: DailyMedDosageExtracto
                             dosages = extractor.extract_from_xml(xml_data)
                             if dosages:
                                 all_dosages.extend(dosages)
-                except:
+                except Exception as e:
+                    # Print first few errors to debug
+                    if i < 10: 
+                        print(f"  ❌ Error in nested zip {nested_zip_name}: {e}")
                     continue
                     
                 if (i + 1) % 5000 == 0:
                     print(f"    Processed {i+1:,}/{total:,} drugs ({len(all_dosages):,} records)")
                     
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ Error processing ZIP {release_zip_path}: {e}")
         
     return all_dosages
 
 def main():
     print("="*80)
-    print("DailyMed Dosage Data Extractor - Production Grade")
+    print("DailyMed Dosage Data Extractor - DEBUG VERSION")
     print("="*80)
     
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    # DEBUG: List directory content
+    if os.path.exists(DAILYMED_DOWNLOAD_DIR):
+        print(f"\n📂 Directory listing for {DAILYMED_DOWNLOAD_DIR}:")
+        for f in os.listdir(DAILYMED_DOWNLOAD_DIR):
+            print(f"  - {f} (Size: {os.path.getsize(os.path.join(DAILYMED_DOWNLOAD_DIR, f)) / (1024**3):.2f} GB)")
+    else:
+        print(f"\n❌ Directory not found: {DAILYMED_DOWNLOAD_DIR}")
+        os.makedirs(DAILYMED_DOWNLOAD_DIR, exist_ok=True)
+    
     known = load_known_ingredients()
-    print(f"📚 Targeting {len(known)} known ingredients")
+    print(f"\n📚 Targeting {len(known)} known ingredients")
     
     extractor = DailyMedDosageExtractor(known)
     all_results = []
@@ -235,6 +246,9 @@ def main():
             print(f"\n📦 Processing {part}...")
             results = process_release_zip(path, extractor)
             all_results.extend(results)
+            print(f"  ✅ Extracted {len(results):,} records from {part}")
+        else:
+            print(f"\n❌ File NOT found: {path}")
             
     print(f"\nTotal dosage records extracted: {len(all_results):,}")
     
