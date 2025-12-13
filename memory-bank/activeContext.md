@@ -38,9 +38,9 @@
 - Developing the logic for the dosage calculator using the new data strategy
 
 ## Recent Changes
-- **Data Extraction Success:** Successfully built and executed a production-grade extraction pipeline using GitHub Actions.
-- **Data Sources:** Processed DailyMed Full Release (5 parts, ~12GB) and OpenFDA.
-- **Results:** 22,272 unique, validated drug interactions with severity scores and recommendations.
+- **Dosage Data Success:** Extracted **85,090 dosage records** covering 5,744 unique drugs.
+- **Extraction Workflows:** Split into `extract_interactions.yml` (Stable) and `extract_dosages.yml` (Development).
+- **Data Quality:** Confirmed structured extraction for 6% (pediatric mg/kg) and 33% (frequency), with 100% text coverage fallback.
 - **Infrastructure:** established `production_data` pipeline with quality validation scripts.
 - جاهز للإطلاق (Production Ready).
 

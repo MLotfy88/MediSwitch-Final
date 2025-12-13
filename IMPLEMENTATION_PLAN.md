@@ -1,38 +1,62 @@
-# Implementation Plan - Workflow Separation
+# Implementation Plan - Full DailyMed Extraction & Integration
 
 ## Goal
-Separate the unified `extract_drug_data.yml` into two distinct workflows:
-1. `extract_interactions.yml`: Standardized, stable extraction for Drug Interactions (DailyMed + OpenFDA).
-2. `extract_dosages.yml`: Development-focused extraction for Dosage Data (DailyMed), allowing rapid iteration without re-running heavy interaction logic.
+Establish a foundational "Data Lake" by extracting the **entire** DailyMed Human Prescription Drug dataset (metadata, product details, clinical text, and NDCs) into a unified structure. This allows flexible downstream filtering (e.g., for Dosage Calculator) without re-parsing 12GB+ of XMLs every time.
 
-## User Review Required
-None. (Direct request from user).
+## User Context
+- **Existing App Data:** Uses `scraper.py` to extract concentrations from trade names via Regex.
+- **Strategy:**
+    1. Extract **Full DailyMed Data** first.
+    2. Create a separate workflow to **Filter & Process** specific needs (Dosages, Safety) from this master dataset.
+    3. Leverage DailyMed's **structured strength** (superior to regex) while maintaining compatibility.
 
 ## Proposed Changes
 
-### GitHub Workflows
-#### [MODIFY] [.github/workflows/extract_interactions.yml](file:///home/adminlotfy/project/.github/workflows/extract_interactions.yml)
-- **Remove:**
-    - `Extract DailyMed Dosages` step
-    - `Merge results (Dosages)` step
-    - `Upload Dosage results` step
-    - `Upload merged dosages` step
-- **Keep:** All Interaction-related steps (DailyMed + OpenFDA download/extract/merge).
+### 1. Data Extraction Script (New)
+#### [NEW] [production_data/extract_full_dailymed.py](file:///home/adminlotfy/project/production_data/extract_full_dailymed.py)
+- **Scope:** Extract ALL relevant data points per drug.
+- **Data Points:**
+    - **Metadata:** SetID, Version, Title.
+    - **Product Specs:**
+        - Proprietary Name
+        - Non-Proprietary Name (Generic)
+        - **Active Ingredients & Strengths** (Structured text + XML values)
+        - Dosage Form
+        - **NDC Codes** (Crucial for linking with external databases)
+    - **Clinical Sections (LOINC):**
+        - Boxed Warning
+        - Indications & Usage
+        - Dosage & Administration
+        - Pediatric Use
+        - Geriatric Use
+        - Pregnancy & Lactation
+        - Renal & Hepatic Impairment
+        - Contraindications
+        - Warnings & Precautions
+        - Adverse Reactions
+        - Drug Interactions
 
-#### [NEW] [.github/workflows/extract_dosages.yml](file:///home/adminlotfy/project/.github/workflows/extract_dosages.yml)
-- **Features:**
-    - Trigger: `workflow_dispatch` (manual run).
-    - Download DailyMed Full Release (reuse script).
-    - Run `python3 production_data/extract_dosages_production.py`.
-    - Run `python3 scripts/merge_dosages.py`.
-    - Upload `merged-dosages` artifact.
+### 2. GitHub Workflow (New)
+#### [NEW] [.github/workflows/extract_full_data.yml](file:///home/adminlotfy/project/.github/workflows/extract_full_data.yml)
+- **Triggers:** Manual (`workflow_dispatch`), Weekly Schedule.
+- **Steps:**
+    1. Download DailyMed Full Release (5 Parts).
+    2. Run `extract_full_dailymed.py`.
+    3. Upload artifact: `dailymed_full_database.json.zip` (Compressed).
+
+### 3. Integration Strategy (Data Enrichment)
+- **Strength/Concentration:**
+    - Primary: Use DailyMed structured XML (e.g., `numerator: 100 mg`, `denominator: 5 mL`).
+    - Fallback: Apply the user's `CONCENTRATION_REGEX` on the product name.
+- **Linking:**
+    - Use **Active Ingredient** and **Dosage Form** to match with `dwaprices` data.
 
 ## Verification Plan
-1. **Push to GitHub**:
-    - `git push`
-2. **Check Actions Tab**:
-    - Verify `Extract Interactions` workflow exists and passes.
-    - Verify `Extract Dosages` workflow exists and passes.
-3. **Artifact Check**:
-    - `merged-interactions.zip` from Interactions workflow.
-    - `merged-dosages.zip` from Dosages workflow.
+1. **Local Pilot:**
+    - Run `extract_full_dailymed.py` on a single DailyMed ZIP part (or sample).
+    - Inspect output JSON for completeness of all new fields.
+2. **Workflow Test:**
+    - Push to GitHub.
+    - Run workflow.
+    - Download `dailymed_full_database.json.zip`.
+    - Check file size and JSON structure.
