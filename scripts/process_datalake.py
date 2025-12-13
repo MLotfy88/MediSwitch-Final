@@ -32,11 +32,56 @@ FORMS_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-# Salts to ignore for Generic Matching
+# Salts to ignore for Generic Matching (Support Plurals)
 SALT_PATTERN = re.compile(
-    r'\b(hydrochloride|hcl|sodium|potassium|calcium|magnesium|maleate|tartrate|succinate|phosphate|sulfate|acetate|citrate|nitrate|bromide|fumarate|mesylate|dihydrate|monohydrate|anhydrous|trihydrate|zinc|aluminum|besylate|estolate|ethylsuccinate|gluconate|lithium|pamoate|propionate)\b',
+    r'\b(hydrochloride|hcl|sodium|potassium|calcium|magnesium|maleate|tartrate|succinate|phosphate|sulfate|sulphate|acetate|citrate|nitrate|bromide|fumarate|mesylate|dihydrate|monohydrate|anhydrous|trihydrate|zinc|aluminum|besylate|estolate|ethylsuccinate|gluconate|lithium|pamoate|propionate|hydrate|oxide|peroxide|hydroxide|carbonate|bicarbonate|chloride|lactate|valerate)s?\b',
     re.IGNORECASE
 )
+
+# ... (Synonym Map omitted for brevity, it's fine) ...
+
+def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> str:
+    """
+    Tiered normalization.
+    If strip_salts=False, we keep the salt (e.g. "diclofenac sodium").
+    If strip_salts=True, we remove it (e.g. "diclofenac").
+    Always applies synonym mapping and punctuation cleanup.
+    """
+    if not isinstance(raw_active, str): return ""
+    name = raw_active.lower().strip()
+    
+    # 0. Basic Cleanup
+    name = re.sub(r'[+,]', ' ', name) # Split multi-ingredients
+    
+    # 1. Tokenize
+    parts = name.split()
+    clean_parts = []
+    
+    # Common Stop Words in Drug Names
+    STOP_WORDS = {'and', 'with', 'in', 'of', 'to', 'for', 'oral', 'topical', 'injection'}
+    
+    for part in parts:
+        # Remove punctuation
+        part = re.sub(r'[^\w]', '', part)
+        if not part: continue
+        
+        # Skip Stop Words
+        if part in STOP_WORDS:
+            continue
+        
+        # Synonym Map
+        if part in SYNONYM_MAP:
+            part = SYNONYM_MAP[part]
+            
+        # Skip Salts (ONLY if requested)
+        if strip_salts and SALT_PATTERN.fullmatch(part):
+            continue
+            
+        clean_parts.append(part)
+        
+    # Sort to handle order "Caffeine Paracetamol" == "Paracetamol Caffeine"
+    if not clean_parts: return ""
+    return " ".join(sorted(clean_parts))
 
 # Synonyms (Local -> US Standard) - Expanded for Max Coverage
 SYNONYM_MAP = {
@@ -166,41 +211,6 @@ def clean_drug_name(raw_name: str) -> str:
 
     return name
 
-def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> str:
-    """
-    Tiered normalization.
-    If strip_salts=False, we keep the salt (e.g. "diclofenac sodium").
-    If strip_salts=True, we remove it (e.g. "diclofenac").
-    Always applies synonym mapping and punctuation cleanup.
-    """
-    if not isinstance(raw_active, str): return ""
-    name = raw_active.lower().strip()
-    
-    # 0. Basic Cleanup
-    name = re.sub(r'[+,]', ' ', name) # Split multi-ingredients
-    
-    # 1. Tokenize
-    parts = name.split()
-    clean_parts = []
-    
-    for part in parts:
-        # Remove punctuation
-        part = re.sub(r'[^\w]', '', part)
-        if not part: continue
-        
-        # Synonym Map
-        if part in SYNONYM_MAP:
-            part = SYNONYM_MAP[part]
-            
-        # Skip Salts (ONLY if requested)
-        if strip_salts and SALT_PATTERN.fullmatch(part):
-            continue
-            
-        clean_parts.append(part)
-        
-    # Sort to handle order "Caffeine Paracetamol" == "Paracetamol Caffeine"
-    if not clean_parts: return ""
-    return " ".join(sorted(clean_parts))
 
 # Regex from scraper.py (User's Logic)
 CONCENTRATION_REGEX = re.compile(
