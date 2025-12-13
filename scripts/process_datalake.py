@@ -17,7 +17,7 @@ import traceback
 
 # --- CONFIGURATION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full.json') # Will look for .jsonl too
+DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json') # Will look for .jsonl too
 OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'dosages_final.json')
 PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
