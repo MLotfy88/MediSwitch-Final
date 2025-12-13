@@ -42,8 +42,45 @@ def main():
         if name and name not in known:
             print(f"⚠️ Warning: '{name}' is NOT in known ingredients")
             
+        # PROBE FOR STRENGTH / CONCENTRATIONS
+        print("\n🔍 Probing for Product Strengths:")
+        # Look for manufacturedProduct/manufacturedMedicine
+        products = root.findall(".//ns:manufacturedProduct", namespaces)
+        for prod in products:
+             name_elem = prod.find(".//ns:name", namespaces)
+             prod_name = name_elem.text if name_elem is not None else "Unknown"
+             
+             # Strength is often in ingredient/quantity
+             ingredients = prod.findall(".//ns:ingredient", namespaces)
+             for ing in ingredients:
+                 sub_name_elem = ing.find(".//ns:ingredientSubstance/ns:name", namespaces)
+                 sub_name = sub_name_elem.text if sub_name_elem is not None else "Unknown"
+                 
+                 qty_elem = ing.find(".//ns:quantity/ns:numerator", namespaces)
+                 unit_elem = ing.find(".//ns:quantity/ns:numerator", namespaces) # unit is attr
+                 
+                 val = qty_elem.get('value') if qty_elem is not None else "?"
+                 unit = qty_elem.get('unit') if qty_elem is not None else "?"
+                 
+                 denom_elem = ing.find(".//ns:quantity/ns:denominator", namespaces)
+                 denom_val = denom_elem.get('value') if denom_elem is not None else "1"
+                 denom_unit = denom_elem.get('unit') if denom_elem is not None else ""
+                 
+                 print(f"  - Product: {prod_name}")
+                 print(f"    Active: {sub_name}")
+                 print(f"    Strength: {val} {unit} / {denom_val} {denom_unit}")
+
         # 2. List all sections and their codes
         print("\nAll Sections found in XML:")
+        TARGETS = {
+            '34068-7': 'DOSAGE',
+            '34081-0': 'PEDIATRIC',
+            '42228-7': 'PREGNANCY',
+            '77290-5': 'LACTATION',
+            '34066-1': 'BOXED WARNING',
+            '34067-9': 'INDICATIONS'
+        }
+        
         for section in root.findall(".//ns:section", namespaces):
             code_elem = section.find("ns:code", namespaces)
             title_elem = section.find("ns:title", namespaces)
@@ -51,16 +88,8 @@ def main():
             code = code_elem.get('code') if code_elem is not None else "N/A"
             title = ''.join(title_elem.itertext()) if title_elem is not None else "No Title"
             
-            print(f"  Code: {code} | Title: {title}")
-            
-            # Check if it matches our targets
-            if code == LOINC_DOSAGE_ADMIN:
-                print(f"    ✅ MATCHES DOSAGE_ADMIN (34068-7)")
-                text = ''.join(section.itertext())
-                print(f"    Length: {len(text)} chars")
-                print(f"    Sample: {text[:100]}...")
-            elif code == LOINC_PEDIATRIC:
-                print(f"    ✅ MATCHES PEDIATRIC")
+            if code in TARGETS:
+                print(f"    ✅ MATCHES {TARGETS[code]} ({code}) | Title: {title}")
 
         # 3. Run full extraction
         print("\nRunning Extractor...")

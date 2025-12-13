@@ -1,0 +1,244 @@
+Testing with: External_source/dailymed/downloaded/extracted/prescription/20251211_a774e1ae-3997-49ee-8b0e-99a2b315d409.zip
+Found XMLs: ['65052345-9f7f-4580-8cff-1e61a421843c.xml']
+Extracted Drug Name: 'somatropin'
+⚠️ Warning: 'somatropin' is NOT in known ingredients
+
+🔍 Probing for Product Strengths:
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 6 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 18 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 6 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 1.36 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.9 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 53.2 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 6 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 18 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 6 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 1.36 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.9 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 53.2 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 12 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 36 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 12 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 2.72 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.8 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 9.0 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 12 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 36 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 12 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 2.72 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.8 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 9.0 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 24 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 72 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 24 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 5.43 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.8 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 9.0 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Somatropin
+    Strength: 24 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: mannitol
+    Strength: 72 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycine
+    Strength: 24 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium phosphate, dibasic, heptahydrate
+    Strength: 5.43 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: phosphoric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Water
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: Metacresol
+    Strength: 9.8 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: glycerin
+    Strength: 9.0 mg / 2.88 mL
+  - Product: HUMATROPE
+    Active: hydrochloric acid
+    Strength: ? ? / 1 
+  - Product: HUMATROPE
+    Active: sodium hydroxide
+    Strength: ? ? / 1 
+
+All Sections found in XML:
+    ✅ MATCHES INDICATIONS (34067-9) | Title: 1 INDICATIONS AND USAGE
+
+    ✅ MATCHES DOSAGE (34068-7) | Title: 2 DOSAGE AND ADMINISTRATION
+
+    ✅ MATCHES PREGNANCY (42228-7) | Title: 8.1 Pregnancy
+
+    ✅ MATCHES LACTATION (77290-5) | Title: 8.2 Lactation
+
+    ✅ MATCHES PEDIATRIC (34081-0) | Title: 8.4 Pediatric Use
+
+
+Running Extractor...
+[
+  {
+    "drug_name": "somatropin",
+    "group": "General/Adult",
+    "raw_text": "2 DOSAGE AND ADMINISTRATION Administer by subcutaneous injection to the back of upper arm, abdomen, buttock, or thigh with regular rotation of injection sites. (2.1) Pediatric Dosage - divide the calculated weekly dosage into equal doses given either 6, or 7 days per week. GHD: 0.18 mg/kg/week to 0.3 mg/kg/week. (2.2) Turner Syndrome: Up to 0.375 mg/kg/week. (2.2) ISS: Up to 0.37 mg/kg/week. (2.2) SHOX Deficiency: 0.35 mg/kg/week. (2.2) SGA: Up to 0.47 mg/kg/week. (2.2) Adult Dosage - Either of the following two dosing regimens may be used: Non-weight based dosing: Initiate with a dose of approximately 0.2 mg/day (range: 0.15 mg/day-0.3 mg/day) and increase the dose every 1-2 months by increments of approximately 0.1 mg/day-0.2 mg/day, according to individual patient requirements (2.3) Weight-based dosing (Not recommended for obese patients): Initiate at 0.006 mg/kg daily and increase the dose according to individual patient requirements to a maximum of 0.0125 mg/kg daily (2.3) See Full Prescribing Information for reconstitution instructions. (2.4) 2.1 Administration and Use Instructions Therapy with HUMATROPE should be supervised by a physician who is experienced in the diagnosis and management of patients with the conditions for which HUMATROPE is indicated [see Indications and Usage (1)]. Fundoscopic examination should be performed routinely before initiating treatment with HUMATROPE to exclude preexisting papilledema, and periodically thereafter [see Warnings and Precautions (5.5)]. Leave HUMATROPE at room temperature for 10 minutes prior to administration. Administer HUMATROPE by subcutaneous injection to the back of the upper arm, abdomen, buttock, or thigh with regular rotation of injection sites to avoid lipoatrophy. 2.2 Pediatric Dosage Individualize dosage for each patient based on the growth response. Divide the calculated weekly HUMATROPE dosage into equal doses given either 6 or 7 days per week. The recommended weekly dose in milligrams (mg) per kilogra",
+    "structured": {
+      "dose_mg_kg": 0.18,
+      "frequency_hours": 24,
+      "max_dose_mg": 0.0125,
+      "is_pediatric": true
+    },
+    "source": "DailyMed"
+  },
+  {
+    "drug_name": "somatropin",
+    "group": "Pediatric",
+    "raw_text": "8.4 Pediatric Use Safety and effectiveness of HUMATROPE in pediatric patients have been established in growth failure due to inadequate secretion of endogenous growth hormone, short stature associated with Turner syndrome, idiopathic short stature (ISS), short stature or growth failure in SHOX deficiency, and short stature in children born small for gestational age (SGA) with no catch-up growth by 2 years to 4 years of age. Growth Failure due to Inadequate Secretion of Endogenous Growth Hormone Safety and effectiveness of HUMATROPE have been established in pediatric patients with growth failure due to growth hormone deficiency based on data from an open-label, uncontrolled, multicenter study with HUMATROPE in 314 pediatric patients conducted for up to 8 years [see Clinical Studies (14.1)]. Short Stature Associated with Turner Syndrome Safety and effectiveness of HUMATROPE have been established in pediatric patients with short stature associated with Turner syndrome based on data from one long-term, randomized, open-label, multicenter, concurrently controlled study; two long-term, open-label multicenter, historically controlled US studies; and one long-term, randomized, US dose-response study with HUMATROPE in 181 pediatric patients [see Clinical Studies (14.2)]. Idiopathic Short Stature (ISS) Safety and effectiveness of HUMATROPE have been established in pediatric patients with ISS based on data from two randomized, multicenter studies, one placebo-controlled study and one dose-response study with HUMATROPE in 310 pediatric patients [see Clinical Studies (14.3)]. Short Stature or Growth Failure in SHOX Deficiency Safety and effectiveness of HUMATROPE have been established in pediatric patients with short stature or growth failure in SHOX deficiency based on data from a randomized, controlled, two-year, three-arm, open-label study with HUMATROPE in 52 pediatric patients [see Clinical Studies (14.4)]. Short Stature in Children Born Small for Gestational Age (SGA) with",
+    "structured": {
+      "dose_mg_kg": null,
+      "frequency_hours": null,
+      "max_dose_mg": null,
+      "is_pediatric": true
+    },
+    "source": "DailyMed"
+  }
+]
