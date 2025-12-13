@@ -39,7 +39,8 @@
 
 ## Recent Changes
 - **Dosage Data Success:** Extracted **85,090 dosage records** covering 5,744 unique drugs.
-- **Extraction Workflows:** Split into `extract_interactions.yml` (Stable) and `extract_dosages.yml` (Development).
+- **Linkage Logic:** Implemented **In-Memory Name Cleaning** to link DailyMed data to local App IDs (prioritizing App Name for concentration accuracy).
+- **Extraction Workflows:** Split into `extract_interactions.yml` (Stable) and `extract_full_data.yml` (Production Linked DB).
 - **Data Quality:** Confirmed structured extraction for 6% (pediatric mg/kg) and 33% (frequency), with 100% text coverage fallback.
 - **Infrastructure:** established `production_data` pipeline with quality validation scripts.
 - جاهز للإطلاق (Production Ready).

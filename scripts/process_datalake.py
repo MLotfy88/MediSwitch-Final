@@ -13,11 +13,24 @@ import re
 import os
 import pandas as pd
 from typing import List, Dict, Optional
+import traceback
 
-# File Paths
-DATALAKE_FILE = 'production_data/dailymed_full_database.json'
-MEDS_CSV = 'meds_updated.csv'  # Existing app database
-OUTPUT_FILE = 'production_data/dosages_final.json'
+# --- CONFIGURATION ---
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full.json') # Will look for .jsonl too
+OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'dosages_final.json')
+PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl')
+MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
+
+# --- REGEX PATTERNS ---
+# Matches: 500mg, 1%, 20 mcg/ml, 2000 i.u., 50 mg/5ml
+STRENGTH_PATTERN = re.compile(r'\b\d+(\.\d+)?\s*(mg|ml|gm|g|mcg|iu|i\.u\.|%|u)(\s*/\s*\d*(\.\d+)?\s*(mg|ml|gm|g|mcg|iu|i\.u\.|%|u))?\b', re.IGNORECASE)
+
+# Matches common forms to remove
+FORMS_PATTERN = re.compile(
+    r'\b(tablet|tabs|tab|capsule|caps|cap|syrup|suspension|susp|cream|ointment|oint|gel|lotion|spray|drops|solution|sol|injection|inj|vial|ampoule|amp|suppository|supp|sachet|effervescent|chewable|scored|coated|f\.c\.|s\.r\.|x\.r\.|e\.c\.|topical|top\.|oral|nasal|vaginal|rectal|eye|ear|mouth|wash|sugar|free)\b', 
+    re.IGNORECASE
+)
 
 # Reuse Dosage Parser Logic (from extract_dosages_production.py)
 class DosageParser:
@@ -51,19 +64,16 @@ class DosageParser:
             data['dose_mg_kg'] = float(match_ped.group(1))
             data['is_pediatric'] = True
             
-        # Adult/Fixed Dose (Heuristic: First valid dose mentioning mg usually)
-        # Try to find phrase "recommended dose is X mg"
+        # Adult/Fixed Dose
         rec_match = re.search(r'recommended\s*(?:dose|dosage)\s*(?:is)?\s*(\d+(?:\.\d+)?)\s*mg', text, re.IGNORECASE)
         if rec_match:
              data['adult_dose_mg'] = float(rec_match.group(1))
         else:
              # Fallback: Find simple mg occurrences
              matches = self.simple_dose_pattern.findall(text)
-             # Filter out year-like numbers (1990-2030) or huge numbers if needed
+             # Filter out year-like numbers (1990-2030) or huge numbers
              valid_doses = [float(x[0]) for x in matches if float(x[0]) < 2000]
              if valid_doses:
-                 # Take the most common or first? Let's take first for now or median?
-                 # First often is "X mg once daily"
                  data['adult_dose_mg'] = valid_doses[0]
 
         text_lower = text.lower()
@@ -78,6 +88,23 @@ class DosageParser:
             
         return data
 
+def clean_drug_name(raw_name: str) -> str:
+    """Removes strength and form from name to create a matching key"""
+    if not isinstance(raw_name, str): return ""
+    name = raw_name.lower().strip()
+    
+    # 1. Remove Strengths (500mg, 1%...)
+    name = STRENGTH_PATTERN.sub(' ', name)
+    
+    # 2. Remove Forms
+    name = FORMS_PATTERN.sub(' ', name)
+    
+    # 3. Cleanup Punctuation and Whitespace
+    name = re.sub(r'[^\w\s]', ' ', name)
+    name = re.sub(r'\s+', ' ', name).strip()
+    
+    return name
+
 # Regex from scraper.py (User's Logic)
 CONCENTRATION_REGEX = re.compile(
     r"""(\d+(?:[.,]\d+)?\s*(?:mg|mcg|g|kg|ml|l|iu|%)(?:\s*/\s*(?:ml|mg|g|kg|l))?)""",
@@ -89,21 +116,38 @@ def extract_regex_concentration(name: str) -> Optional[str]:
     match = CONCENTRATION_REGEX.search(name)
     return match.group(1).strip() if match else None
 
-def load_app_data() -> Dict[str, Dict]:
-    """Load meds_updated.csv to get existing app trade names and IDs"""
+def load_app_data() -> Dict[str, list]:
+    """Load meds_updated.csv and map CLEANED Name -> List of Records"""
     if not os.path.exists(MEDS_CSV):
         print("⚠️ meds_updated.csv not found. Skipping linkage.")
         return {}
     
     try:
         df = pd.read_csv(MEDS_CSV, dtype=str)
-        # Create map: Trade Name (lower) -> Data
+        # Map: Cleaned Name -> [List of Records]
+        # We listen to list because "Panadol 500" and "Panadol Extra" might both clean to "Panadol" or similar 
+        # (actually Panadol Extra keeps 'extra').
+        # "Panadol 500mg" -> "Panadol"
+        # "Panadol 1g" -> "Panadol"
         app_map = {}
+        linked_count = 0
+        
         for _, row in df.iterrows():
-            name = str(row.get('trade_name', '')).lower().strip()
-            if name:
-                app_map[name] = row.to_dict()
-        print(f"✅ Loaded {len(app_map)} records from app database.")
+            raw_name = str(row.get('trade_name', ''))
+            key = clean_drug_name(raw_name)
+            
+            if not key: continue
+            
+            if key not in app_map:
+                app_map[key] = []
+            
+            # Store full row plus the original raw name for reference
+            record = row.to_dict()
+            record['original_name'] = raw_name
+            app_map[key].append(record)
+            linked_count += 1
+            
+        print(f"✅ Loaded {linked_count} records. Mapped to {len(app_map)} unique matching keys.")
         return app_map
     except Exception as e:
         print(f"❌ Error loading CSV: {e}")
@@ -201,53 +245,94 @@ def process_datalake():
                         source_concentration = "Name_Regex"
                         
                 # Link
-                app_info = app_data_map.get(drug_name.lower().strip())
-                app_id = app_info.get('id') if app_info else None
+                # Clean the DailyMed Name too
+                dm_clean = clean_drug_name(drug_name)
                 
-                # Dosage
-                dosage_text = clinical.get('dosage_and_administration', '')
-                pediatric_text = clinical.get('pediatric_use', '')
-                structured_dose = {}
-                if dosage_text:
-                    structured_dose = dosage_parser.extract_structured_dose(dosage_text)
-                if pediatric_text and not structured_dose.get('is_pediatric'):
-                     peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
-                     if peds_struct.get('dose_mg_kg'):
-                         structured_dose = peds_struct
-                         structured_dose['is_pediatric'] = True
+                # Try exact match first, then clean match
+                app_records = []
+                
+                # Check mapping (Clean -> List)
+                if dm_clean in app_data_map:
+                    app_records = app_data_map[dm_clean]
+                
+                # If we have matched records in our App, generate a Linked Dosage Record for EACH
+                # This duplicates the Clinical Data for each relevant Product ID (which is what we want for the DB)
+                
+                targets = app_records if app_records else [{'id': None, 'trade_name': drug_name, 'original_name': drug_name}]
+                
+                for app_rec in targets:
+                    
+                    # Merge Concentration:
+                    # Priority 1: Extracted from App Name (Higher trust for the specific inventory item)
+                    # Priority 2: DailyMed (Fallback)
+                    
+                    final_conc = None
+                    conc_source = "None"
+                    
+                    # 1. Try App Name Regex
+                    if app_rec.get('original_name'):
+                         app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
+                         if app_conc_match:
+                             final_conc = app_conc_match.group(0).strip()
+                             conc_source = "App_Name_Regex"
+                    
+                    # 2. Fallback to DailyMed
+                    if (not final_conc or final_conc == "None") and concentration:
+                        final_conc = concentration
+                        conc_source = source_concentration
 
-                record = {
-                    'id': entry.get('set_id'),
-                    'app_id': app_id,
-                    'drug_name': drug_name,
-                    'generic_name': generic_name,
-                    'concentration': concentration,
-                    'concentration_source': source_concentration,
-                    'dosages': {
-                        'structured': structured_dose,
-                        'text_dosage': dosage_text[:3000] if dosage_text else None,
-                        'text_pediatric': pediatric_text[:3000] if pediatric_text else None,
-                        'text_pregnancy': clinical.get('pregnancy'),
-                        'text_boxed_warning': clinical.get('boxed_warning'),
-                    },
-                    'metadata': {
-                        'source': 'DailyMed',
-                        'title': entry.get('title')
+                    dosage_text = clinical.get('dosage_and_administration', '')
+                    pediatric_text = clinical.get('pediatric_use', '')
+                    structured_dose = {}
+                    if dosage_text:
+                        structured_dose = dosage_parser.extract_structured_dose(dosage_text)
+                    if pediatric_text and not structured_dose.get('is_pediatric'):
+                         peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
+                         if peds_struct.get('dose_mg_kg'):
+                             structured_dose = peds_struct
+                             structured_dose['is_pediatric'] = True
+
+                    final_record = {
+                        'med_id': app_rec.get('id'), # The Link!
+                        'trade_name': app_rec.get('trade_name'),
+                        'dailymed_name': drug_name,
+                        'concentration': final_conc,
+                        'concentration_source': conc_source,
+                        'dosages': structured_dose,
+                        'clinical_text': {
+                            'dosage': dosage_text[:1000] if dosage_text else None, # Truncate for DB size? Or keep full?
+                            'interactions': clinical.get('drug_interactions', '')[:500] if clinical.get('drug_interactions') else None,
+                            'contraindications': clinical.get('contraindications', '')[:500] if clinical.get('contraindications') else None,
+                            'pediatric_use': pediatric_text[:1000] if pediatric_text else None,
+                            'pregnancy': clinical.get('pregnancy')[:500] if clinical.get('pregnancy') else None,
+                            'boxed_warning': clinical.get('boxed_warning')[:500] if clinical.get('boxed_warning') else None,
+                        },
+                         'set_id': entry.get('set_id')
                     }
-                }
-                final_records.append(record)
+                if final_record['med_id'] or final_record['dosages'].get('dose_mg_kg') or final_record['dosages'].get('adult_dose_mg'):
+                        final_records.append(final_record)
                 
     except Exception as e:
-        print(f"Error during processing: {e}")
-        # Don't return, save what we have
+        print(f"❌ Error during processing: {e}")
+        import traceback
+        traceback.print_exc()
 
     # 7. Save
     print(f"\nProcessing complete. Scanned {processed_count:,} records.")
     print(f"Generated {len(final_records):,} enriched records.")
     
+    # Save Production Output (JSONL)
+    print(f"Writing production DB to {PRODUCTION_OUTPUT}...")
+    with open(PRODUCTION_OUTPUT, 'w', encoding='utf-8') as f:
+        for rec in final_records:
+            f.write(json.dumps(rec, ensure_ascii=False) + '\n')
+            
+    # Save Debug Condensed Output (First 2000 records)
+    print(f"Writing debug sample to {OUTPUT_FILE}...")
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(final_records, f, indent=2, ensure_ascii=False)
-    print(f"✅ Saved to {OUTPUT_FILE}")
+        json.dump(final_records[:2000], f, indent=2, ensure_ascii=False)
+        
+    print(f"✅ Success.")
 
 if __name__ == '__main__':
     process_datalake()
