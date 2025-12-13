@@ -42,8 +42,8 @@ jobs:
         run: |
           # Compress the huge JSON to be artifact-friendly
           cd production_data
-          zip dailymed_full_database.json.zip dailymed_full_database.json
-          rm dailymed_full_database.json # Save space
+          zip dailymed_full_database.json.zip dailymed_full_database.jsonl
+          rm dailymed_full_database.jsonl # Save space
           cd ..
 
       - name: Upload Data Lake Artifact
