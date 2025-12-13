@@ -9,7 +9,7 @@ import os
 from collections import defaultdict
 
 # Inputs
-DAILYMED_DOSAGES_FILE = 'dailymed-dosages/dosages_clean.json'
+DAILYMED_DOSAGES_FILE = 'production_data/dosages_clean.json'
 # Future: OPENFDA_DOSAGES_FILE = 'openfda-dosages/dosages.json'
 
 OUTPUT_FILE = 'production_data/dosages_merged.json'
