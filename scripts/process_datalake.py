@@ -32,6 +32,65 @@ FORMS_PATTERN = re.compile(
     re.IGNORECASE
 )
 
+# Salts to ignore for Generic Matching
+SALT_PATTERN = re.compile(
+    r'\b(hydrochloride|hcl|sodium|potassium|calcium|magnesium|maleate|tartrate|succinate|phosphate|sulfate|acetate|citrate|nitrate|bromide|fumarate|mesylate|dihydrate|monohydrate|anhydrous|trihydrate|zinc|aluminum|besylate|estolate|ethylsuccinate|gluconate|lithium|pamoate|propionate)\b',
+    re.IGNORECASE
+)
+
+# Synonyms (Local -> US Standard) - Expanded for Max Coverage
+SYNONYM_MAP = {
+    # Common INN -> USAN
+    'paracetamol': 'acetaminophen',
+    'glibenclamide': 'glyburide',
+    'adrenaline': 'epinephrine',
+    'noradrenaline': 'norepinephrine',
+    'salbutamol': 'albuterol',
+    'frusemide': 'furosemide',
+    'pethidine': 'meperidine',
+    'amoxycillin': 'amoxicillin',
+    'sulphamethoxazole': 'sulfamethoxazole',
+    'lignocaine': 'lidocaine',
+    'thyroxine': 'levothyroxine',
+    'oestrogen': 'estrogen',
+    'omberacetam': 'piracetam', # Sometimes needed
+    'isoprenaline': 'isoproterenol',
+    'orciprenaline': 'metaproterenol',
+    'bendrofluazide': 'bendroflumethiazide',
+    'dothiepin': 'dosulepin',
+    'chlorpheniramine': 'chlorphenamine', # Reverse direction sometimes needed
+    'dicyclomine': 'dicycloverine',
+    'procaine benzylpenicillin': 'penicillin g procaine',
+    'benzylpenicillin': 'penicillin g',
+    'clomiphene': 'clomifene',
+    'dosulepin': 'dothiepin',
+    'hydroxycarbamide': 'hydroxyurea',
+    'mitozantrone': 'mitoxantrone',
+    'mustine': 'mechlorethamine',
+    'nicoumalone': 'acenocoumarol',
+    'phenobarbitone': 'phenobarbital',
+    'quinalbarbitone': 'secobarbital',
+    'riboflavine': 'riboflavin',
+    'sodium cromoglycate': 'cromolyn sodium',
+    'stilboestrol': 'diethylstilbestrol',
+    'thiopentone': 'thiopental',
+    'trimethoprim sulfamethoxazole': 'sulfamethoxazole trimethoprim', # Order fix
+    'co-trimoxazole': 'sulfamethoxazole trimethoprim',
+    'valproate sodium': 'valproic acid', # Often interchangeable in search
+    'cefalexin': 'cephalexin',
+    'cefaclor': 'cefaclor', # Spelling
+    'cefadroxil': 'cefadroxil',
+    'cefazolin': 'cephazolin',
+    'cefixime': 'cefixime',
+    'cefotaxime': 'cefotaxime',
+    'ceftriaxone': 'ceftriaxone',
+    'aciclovir': 'acyclovir',
+    'ciclosporin': 'cyclosporine',
+    'dimetindene': 'dimethindene',
+    'fexofenadine': 'fexofenadine', # Same
+    'guaifenesin': 'guaiphenesin', # Reverse check
+}
+
 # Reuse Dosage Parser Logic (from extract_dosages_production.py)
 class DosageParser:
     def __init__(self):
@@ -105,6 +164,44 @@ def clean_drug_name(raw_name: str) -> str:
     
     return name
 
+    return name
+
+def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> str:
+    """
+    Tiered normalization.
+    If strip_salts=False, we keep the salt (e.g. "diclofenac sodium").
+    If strip_salts=True, we remove it (e.g. "diclofenac").
+    Always applies synonym mapping and punctuation cleanup.
+    """
+    if not isinstance(raw_active, str): return ""
+    name = raw_active.lower().strip()
+    
+    # 0. Basic Cleanup
+    name = re.sub(r'[+,]', ' ', name) # Split multi-ingredients
+    
+    # 1. Tokenize
+    parts = name.split()
+    clean_parts = []
+    
+    for part in parts:
+        # Remove punctuation
+        part = re.sub(r'[^\w]', '', part)
+        if not part: continue
+        
+        # Synonym Map
+        if part in SYNONYM_MAP:
+            part = SYNONYM_MAP[part]
+            
+        # Skip Salts (ONLY if requested)
+        if strip_salts and SALT_PATTERN.fullmatch(part):
+            continue
+            
+        clean_parts.append(part)
+        
+    # Sort to handle order "Caffeine Paracetamol" == "Paracetamol Caffeine"
+    if not clean_parts: return ""
+    return " ".join(sorted(clean_parts))
+
 # Regex from scraper.py (User's Logic)
 CONCENTRATION_REGEX = re.compile(
     r"""(\d+(?:[.,]\d+)?\s*(?:mg|mcg|g|kg|ml|l|iu|%)(?:\s*/\s*(?:ml|mg|g|kg|l))?)""",
@@ -126,8 +223,10 @@ def load_app_data() -> Dict[str, list]:
         df = pd.read_csv(MEDS_CSV, dtype=str)
         # Map 1: Cleaned Name -> [List of Records] (Trade Name Match)
         app_map = {}
-        # Map 2: Cleaned Active Ingredient -> [List of Records] (Generic Match)
-        active_map = {}
+        # Map 2a: Exact Active Ingredient (With Salts) -> [List of Records]
+        active_map_exact = {}
+        # Map 2b: Stripped Active Ingredient (No Salts) -> [List of Records]
+        active_map_stripped = {}
         
         linked_count = 0
         
@@ -145,44 +244,34 @@ def load_app_data() -> Dict[str, list]:
                     app_map[key_name] = []
                 app_map[key_name].append(record)
             
-            # Index by Active Ingredient (Split by + or , if multiple?)
-            # For V1: We accept exact string match of the whole active column first
-            # e.g. "ibuprofen" -> matches DailyMed "ibuprofen"
-            # "ibuprofen+pseudoephedrine" -> matches DailyMed "ibuprofen" ?? No, risky.
-            # DailyMed "Ibuprofen and Pseudoephedrine" -> matches "ibuprofen+pseudoephedrine"
-            
-            # Let's normalize the active string: replace + with space, sort words to handle ordering?
-            # "ibuprofen + pseudoephedrine" -> "ibuprofen pseudoephedrine"
-            # "pseudoephedrine + ibuprofen" -> "ibuprofen pseudoephedrine"
-            
+            # Index by Active Ingredient
             if raw_active and raw_active.lower() != 'nan':
-                # Remove + and ,
-                normalized = re.sub(r'[+,]', ' ', raw_active.lower())
-                parts = sorted(normalized.split())
-                key_active = " ".join(parts) # "ibuprofen pseudoephedrine"
                 
-                # Also index individual ingredients? 
-                # If we index "ibuprofen", we might link "Panadol" (Paracetamol) to Ibuprofen if data is wrong.
-                # But if we index unique ingredients, we can match "Ibuprofen" DailyMed to "Ibuprofen" App.
-                # Let's use the FULL STRING matching for now to be safe.
-                
-                key_active_clean = clean_drug_name(key_active) 
-                
-                if key_active_clean:
-                    if key_active_clean not in active_map:
-                        active_map[key_active_clean] = []
-                    active_map[key_active_clean].append(record)
+                # Tier 1: Exact (Keep Salts)
+                key_exact = normalize_active_ingredient(raw_active, strip_salts=False)
+                if key_exact:
+                    if key_exact not in active_map_exact:
+                        active_map_exact[key_exact] = []
+                    active_map_exact[key_exact].append(record)
+                    
+                # Tier 2: Stripped (Remove Salts)
+                key_stripped = normalize_active_ingredient(raw_active, strip_salts=True)
+                if key_stripped:
+                    if key_stripped not in active_map_stripped:
+                        active_map_stripped[key_stripped] = []
+                    active_map_stripped[key_stripped].append(record)
             
             linked_count += 1
             
         print(f"✅ Loaded {linked_count} records.")
         print(f"  - Trade Name Keys: {len(app_map)}")
-        print(f"  - Active Ingredient Keys: {len(active_map)}")
+        print(f"  - Exact Active Keys: {len(active_map_exact)}")
+        print(f"  - Stripped Active Keys: {len(active_map_stripped)}")
         
-        return app_map, active_map
+        return app_map, active_map_exact, active_map_stripped
     except Exception as e:
         print(f"❌ Error loading CSV: {e}")
-        return {}, {}
+        return {}, {}, {}
 
 def process_datalake():
     print("="*80)
@@ -207,7 +296,7 @@ def process_datalake():
     
     # Init Parsers
     dosage_parser = DosageParser()
-    app_data_map, app_active_map = load_app_data()
+    app_data_map, app_active_exact, app_active_stripped = load_app_data()
     final_records = []
     
     processed_count = 0
@@ -282,32 +371,28 @@ def process_datalake():
                 # Try exact match first, then clean match
                 app_records = []
                 
-                # Check mapping (Clean -> List)
-                # Check mapping (Clean -> List)
-                # 1. Try Trade Name Link
+                # 2. Match Strategy
+                
+                # A. Trade Name (Best)
                 if dm_clean in app_data_map:
                     app_records = app_data_map[dm_clean]
+                    for rec in app_records: rec['linkage_type'] = 'Trade_Name'
                 
-                # 2. If no Trade Name match, Try Active Ingredient Link
-                # We need the Generic Name from DailyMed
+                # B. Active Ingredient (Fallback)
                 if not app_records and generic_name and generic_name != "Unknown":
-                    # Normalize DailyMed Generic Name same way: split, sort, join
-                    gn_norm = re.sub(r'[+,]', ' ', generic_name.lower())
+                    # Tier 1: Exact Match (with Salts)
+                    gn_exact = normalize_active_ingredient(generic_name, strip_salts=False)
                     
-                    # Also remove "hydrochloride", "sodium", etc? 
-                    # Maybe clean_drug_name handles some, but salts are tricky.
-                    # For V1, let's rely on clean_drug_name which removes punctuation/forms.
-                    # But we used "sorted parts" for the map key.
-                    
-                    parts = sorted(gn_norm.split())
-                    gn_key_raw = " ".join(parts)
-                    gn_key = clean_drug_name(gn_key_raw)
-                    
-                    if gn_key in app_active_map:
-                        app_records = app_active_map[gn_key]
-                        # Mark them as Linked via Active
-                        for rec in app_records:
-                             rec['linkage_type'] = 'Active_Ingredient'
+                    if gn_exact in app_active_exact:
+                        app_records = app_active_exact[gn_exact]
+                        for rec in app_records: rec['linkage_type'] = 'Active_Exact'
+                        
+                    # Tier 2: Stripped Match (No Salts)
+                    if not app_records:
+                        gn_stripped = normalize_active_ingredient(generic_name, strip_salts=True)
+                        if gn_stripped in app_active_stripped:
+                            app_records = app_active_stripped[gn_stripped]
+                            for rec in app_records: rec['linkage_type'] = 'Active_Stripped'
                 
                 # If we have matched records in our App, generate a Linked Dosage Record for EACH
                 # This duplicates the Clinical Data for each relevant Product ID (which is what we want for the DB)
