@@ -124,34 +124,65 @@ def load_app_data() -> Dict[str, list]:
     
     try:
         df = pd.read_csv(MEDS_CSV, dtype=str)
-        # Map: Cleaned Name -> [List of Records]
-        # We listen to list because "Panadol 500" and "Panadol Extra" might both clean to "Panadol" or similar 
-        # (actually Panadol Extra keeps 'extra').
-        # "Panadol 500mg" -> "Panadol"
-        # "Panadol 1g" -> "Panadol"
+        # Map 1: Cleaned Name -> [List of Records] (Trade Name Match)
         app_map = {}
+        # Map 2: Cleaned Active Ingredient -> [List of Records] (Generic Match)
+        active_map = {}
+        
         linked_count = 0
         
         for _, row in df.iterrows():
             raw_name = str(row.get('trade_name', ''))
-            key = clean_drug_name(raw_name)
+            raw_active = str(row.get('active', ''))
             
-            if not key: continue
-            
-            if key not in app_map:
-                app_map[key] = []
-            
-            # Store full row plus the original raw name for reference
             record = row.to_dict()
             record['original_name'] = raw_name
-            app_map[key].append(record)
+            
+            # Index by Trade Name
+            key_name = clean_drug_name(raw_name)
+            if key_name:
+                if key_name not in app_map:
+                    app_map[key_name] = []
+                app_map[key_name].append(record)
+            
+            # Index by Active Ingredient (Split by + or , if multiple?)
+            # For V1: We accept exact string match of the whole active column first
+            # e.g. "ibuprofen" -> matches DailyMed "ibuprofen"
+            # "ibuprofen+pseudoephedrine" -> matches DailyMed "ibuprofen" ?? No, risky.
+            # DailyMed "Ibuprofen and Pseudoephedrine" -> matches "ibuprofen+pseudoephedrine"
+            
+            # Let's normalize the active string: replace + with space, sort words to handle ordering?
+            # "ibuprofen + pseudoephedrine" -> "ibuprofen pseudoephedrine"
+            # "pseudoephedrine + ibuprofen" -> "ibuprofen pseudoephedrine"
+            
+            if raw_active and raw_active.lower() != 'nan':
+                # Remove + and ,
+                normalized = re.sub(r'[+,]', ' ', raw_active.lower())
+                parts = sorted(normalized.split())
+                key_active = " ".join(parts) # "ibuprofen pseudoephedrine"
+                
+                # Also index individual ingredients? 
+                # If we index "ibuprofen", we might link "Panadol" (Paracetamol) to Ibuprofen if data is wrong.
+                # But if we index unique ingredients, we can match "Ibuprofen" DailyMed to "Ibuprofen" App.
+                # Let's use the FULL STRING matching for now to be safe.
+                
+                key_active_clean = clean_drug_name(key_active) 
+                
+                if key_active_clean:
+                    if key_active_clean not in active_map:
+                        active_map[key_active_clean] = []
+                    active_map[key_active_clean].append(record)
+            
             linked_count += 1
             
-        print(f"✅ Loaded {linked_count} records. Mapped to {len(app_map)} unique matching keys.")
-        return app_map
+        print(f"✅ Loaded {linked_count} records.")
+        print(f"  - Trade Name Keys: {len(app_map)}")
+        print(f"  - Active Ingredient Keys: {len(active_map)}")
+        
+        return app_map, active_map
     except Exception as e:
         print(f"❌ Error loading CSV: {e}")
-        return {}
+        return {}, {}
 
 def process_datalake():
     print("="*80)
@@ -176,7 +207,7 @@ def process_datalake():
     
     # Init Parsers
     dosage_parser = DosageParser()
-    app_data_map = load_app_data()
+    app_data_map, app_active_map = load_app_data()
     final_records = []
     
     processed_count = 0
@@ -252,8 +283,31 @@ def process_datalake():
                 app_records = []
                 
                 # Check mapping (Clean -> List)
+                # Check mapping (Clean -> List)
+                # 1. Try Trade Name Link
                 if dm_clean in app_data_map:
                     app_records = app_data_map[dm_clean]
+                
+                # 2. If no Trade Name match, Try Active Ingredient Link
+                # We need the Generic Name from DailyMed
+                if not app_records and generic_name and generic_name != "Unknown":
+                    # Normalize DailyMed Generic Name same way: split, sort, join
+                    gn_norm = re.sub(r'[+,]', ' ', generic_name.lower())
+                    
+                    # Also remove "hydrochloride", "sodium", etc? 
+                    # Maybe clean_drug_name handles some, but salts are tricky.
+                    # For V1, let's rely on clean_drug_name which removes punctuation/forms.
+                    # But we used "sorted parts" for the map key.
+                    
+                    parts = sorted(gn_norm.split())
+                    gn_key_raw = " ".join(parts)
+                    gn_key = clean_drug_name(gn_key_raw)
+                    
+                    if gn_key in app_active_map:
+                        app_records = app_active_map[gn_key]
+                        # Mark them as Linked via Active
+                        for rec in app_records:
+                             rec['linkage_type'] = 'Active_Ingredient'
                 
                 # If we have matched records in our App, generate a Linked Dosage Record for EACH
                 # This duplicates the Clinical Data for each relevant Product ID (which is what we want for the DB)
@@ -298,6 +352,7 @@ def process_datalake():
                         'dailymed_name': drug_name,
                         'concentration': final_conc,
                         'concentration_source': conc_source,
+                        'linkage_method': app_rec.get('linkage_type', 'Trade_Name'),
                         'dosages': structured_dose,
                         'clinical_text': {
                             'dosage': dosage_text[:1000] if dosage_text else None, # Truncate for DB size? Or keep full?
