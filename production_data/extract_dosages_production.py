@@ -98,7 +98,7 @@ class DailyMedDosageExtractor:
             
             # Identify Drug
             drug_name = self._extract_drug_name(root)
-            if not drug_name or drug_name not in self.known_ingredients:
+            if not drug_name:
                 return []
             
             # Extract Sections
