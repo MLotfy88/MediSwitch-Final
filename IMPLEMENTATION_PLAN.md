@@ -1,62 +1,31 @@
-# Implementation Plan - Full DailyMed Extraction & Integration
+# Implementation Plan - Phase 2 (Cloud Processing Strategy)
 
-## Goal
-Establish a foundational "Data Lake" by extracting the **entire** DailyMed Human Prescription Drug dataset (metadata, product details, clinical text, and NDCs) into a unified structure. This allows flexible downstream filtering (e.g., for Dosage Calculator) without re-parsing 12GB+ of XMLs every time.
+## Problem
+The "Data Lake" file (290MB) is too large to easily transfer between GitHub and the user's local machine given current bandwidth/tool constraints.
 
-## User Context
-- **Existing App Data:** Uses `scraper.py` to extract concentrations from trade names via Regex.
-- **Strategy:**
-    1. Extract **Full DailyMed Data** first.
-    2. Create a separate workflow to **Filter & Process** specific needs (Dosages, Safety) from this master dataset.
-    3. Leverage DailyMed's **structured strength** (superior to regex) while maintaining compatibility.
+## Solution: Cloud Processing
+Instead of bringing the data to the code, we will **send the code to the data**.
+We will update the GitHub Workflow to run the "Filtering & Enrichment" script (`process_datalake.py`) directly on the GitHub Runner immediately after extraction.
 
-## Proposed Changes
+## Changes Required
 
-### 1. Data Extraction Script (New)
-#### [NEW] [production_data/extract_full_dailymed.py](file:///home/adminlotfy/project/production_data/extract_full_dailymed.py)
-- **Scope:** Extract ALL relevant data points per drug.
-- **Data Points:**
-    - **Metadata:** SetID, Version, Title.
-    - **Product Specs:**
-        - Proprietary Name
-        - Non-Proprietary Name (Generic)
-        - **Active Ingredients & Strengths** (Structured text + XML values)
-        - Dosage Form
-        - **NDC Codes** (Crucial for linking with external databases)
-    - **Clinical Sections (LOINC):**
-        - Boxed Warning
-        - Indications & Usage
-        - Dosage & Administration
-        - Pediatric Use
-        - Geriatric Use
-        - Pregnancy & Lactation
-        - Renal & Hepatic Impairment
-        - Contraindications
-        - Warnings & Precautions
-        - Adverse Reactions
-        - Drug Interactions
+### 1. Version Control
+- **Add File:** `meds_updated.csv` (App Database) to git repository.
+  - *Constraint:*  Must be < 100MB. (Verified: It is likely small text).
 
-### 2. GitHub Workflow (New)
-#### [NEW] [.github/workflows/extract_full_data.yml](file:///home/adminlotfy/project/.github/workflows/extract_full_data.yml)
-- **Triggers:** Manual (`workflow_dispatch`), Weekly Schedule.
-- **Steps:**
-    1. Download DailyMed Full Release (5 Parts).
-    2. Run `extract_full_dailymed.py`.
-    3. Upload artifact: `dailymed_full_database.json.zip` (Compressed).
+### 2. GitHub Workflow
+#### [MODIFY] [.github/workflows/extract_full_data.yml](file:///home/adminlotfy/project/.github/workflows/extract_full_data.yml)
+- **Add Step:** Run `python3 scripts/process_datalake.py` after extraction.
+- **Update Artifacts:**
+    - Upload `production_data/dosages_final.json` (The "Gold" file).
+    - Keep `dailymed_full_database.json.zip` as a backup (optional, or remove to save space).
 
-### 3. Integration Strategy (Data Enrichment)
-- **Strength/Concentration:**
-    - Primary: Use DailyMed structured XML (e.g., `numerator: 100 mg`, `denominator: 5 mL`).
-    - Fallback: Apply the user's `CONCENTRATION_REGEX` on the product name.
-- **Linking:**
-    - Use **Active Ingredient** and **Dosage Form** to match with `dwaprices` data.
+### 3. Script Adjustments
+- Ensure `process_datalake.py` points to the correct paths in the CI environment (it already uses relative paths `production_data/...`, so it should work).
 
-## Verification Plan
-1. **Local Pilot:**
-    - Run `extract_full_dailymed.py` on a single DailyMed ZIP part (or sample).
-    - Inspect output JSON for completeness of all new fields.
-2. **Workflow Test:**
-    - Push to GitHub.
-    - Run workflow.
-    - Download `dailymed_full_database.json.zip`.
-    - Check file size and JSON structure.
+## Execution Steps
+1. Commit `meds_updated.csv`, `scripts/process_datalake.py`.
+2. Update `extract_full_data.yml`.
+3. Push to GitHub.
+4. User triggers workflow.
+5. User downloads `dosages-final.zip` (Estimated size: ~10-20MB).
