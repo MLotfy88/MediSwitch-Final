@@ -1,0 +1,2212 @@
+[
+  {
+    "ingredient1": "fluorouracil",
+    "ingredient2": "anticoagulants",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS 7.1 Anticoagulants and CYP 2C9 Substrates Elevated coagulation times have been reported in patients taking Fluorouracil concomitantly with warfarin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "fluorouracil",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS 7.1 Anticoagulants and CYP 2C9 Substrates Elevated coagulation times have been reported in patients taking Fluorouracil concomitantly with warfarin. While pharmacokinetic data are not available to assess the effect of Fluorouracil administration on warfarin pharmacokinetics, the elevation of coagulation times that occurs with the Fluorouracil prodrug capecitabine is accompanied by an increase in warfarin concentrations.",
+    "recommendation": "Increase in warfarin concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "pravastatin sodium",
+    "ingredient2": "pravastatin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "7 DRUG INTERACTIONS See full prescribing information for details regarding concomitant use of pravastatin sodium tablets with other drugs that increase the risk of myopathy and rhabdomyolysis. (2.5, 7.1) Bile Acid Sequestrants: in patients taking a bile acid sequestrant, administer pravastatin sodium tablets at least 1 hour before or at least 4 hours after the bile acid sequestrant (7.2) 7.1 Drug Interactions that Increase the Risk of Myopathy and Rhabdomyolysis with Pravastatin Pravastatin is a substrate of the transport protein OATP1B1. Pravastatin plasma levels can be significantly increased with concomitant administration of inhibitors of OATP1B1.",
+    "recommendation": "Increase the risk of myopathy and rhabdomyolysis.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "pravastatin sodium",
+    "ingredient2": "colchicine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Colchicine Clinical Impact: Cases of myopathy and rhabdomyolysis have been reported with concomitant use of colchicine with pravastatin. Intervention: Consider if the benefit of using colchicine concomitantly with pravastatin outweighs the increased risk of myopathy and rhabdomyolysis.",
+    "recommendation": "Increased risk of myopathy and rhabdomyolysis.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "pravastatin sodium",
+    "ingredient2": "cyclosporine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Cyclosporine Clinical Impact: The risk of myopathy and rhabdomyolysis is increased with concomitant use of cyclosporine with pravastatin.",
+    "recommendation": "Increased with concomitant use of cyclosporine with pravastatin.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "pravastatin sodium",
+    "ingredient2": "clarithromycin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Select Macrolide Antibiotics Clinical Impact: The risk of myopathy and rhabdomyolysis is increased by concomitant use of clarithromycin or erythromycin with pravastatin. Intervention: For patients taking erythromycin or clarithromycin, do not exceed 40 mg pravastatin once daily [see Dosage and Administration (2.5)].",
+    "recommendation": "Do not exceed 40 mg pravastatin once daily [see Dosage and Administration (2.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "pravastatin sodium",
+    "ingredient2": "azithromycin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Other macrolides (e.g., azithromycin) have the potential to increase pravastatin exposures and increase the risk of myopathy and rhabdomyolysis when used concomintantly.",
+    "recommendation": "Increase pravastatin exposures and increase the risk of myopathy and rhabdomyolysis when used concomintantly.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, and caffeine",
+    "ingredient2": "acetaminophen",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Butalbital, acetaminophen, and caffeine may enhance the effects of: other narcotic analgesics, alcohol, general anesthetics, tranquilizers such as chlordiazepoxide, sedative-hypnotics, or other CNS depressants, causing increased CNS depression.",
+    "recommendation": "Increased CNS depression.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "rosuvastatin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Substances increasing the plasma concentrations of COCs Co-administration of atorvastatin or rosuvastatin and certain COCs containing ethinyl estradiol (EE) increase AUC values for EE by approximately 20 to 25%.",
+    "recommendation": "Increase AUC values for EE by approximately 20 to 25%.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "acetaminophen",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Ascorbic acid and acetaminophen may increase plasma EE concentrations, possibly by inhibition of conjugation. • COCs have been shown to decrease plasma concentrations of acetaminophen, clofibric acid, morphine, salicylic acid, temazepam and lamotrigine.",
+    "recommendation": "Increase plasma EE concentrations, possibly by inhibition of conjugation.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "itraconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "CYP3A4 inhibitors such as itraconazole, voriconazole, fluconazole, grapefruit juice, or ketoconazole may increase plasma hormone concentrations.",
+    "recommendation": "Increase plasma hormone concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "morphine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "• COCs have been shown to decrease plasma concentrations of acetaminophen, clofibric acid, morphine, salicylic acid, temazepam and lamotrigine.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "fluconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "CYP3A4 inhibitors such as itraconazole, voriconazole, fluconazole, grapefruit juice, or ketoconazole may increase plasma hormone concentrations.",
+    "recommendation": "Increase plasma hormone concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "atorvastatin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Substances increasing the plasma concentrations of COCs Co-administration of atorvastatin or rosuvastatin and certain COCs containing ethinyl estradiol (EE) increase AUC values for EE by approximately 20 to 25%.",
+    "recommendation": "Increase AUC values for EE by approximately 20 to 25%.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "cyclosporine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.2 Effects of Combined Oral Contraceptives on Other Drugs • COCs containing EE may inhibit the metabolism of other compounds (e.g., cyclosporine, prednisolone, theophylline, tizanidine, and voriconazole) and increase their plasma concentrations.",
+    "recommendation": "Increase their plasma concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Some drugs or herbal products that may decrease the effectiveness of hormonal contraceptives include phenytoin, barbiturates, carbamazepine, bosentan, felbamate, griseofulvin, oxcarbazepine, rifampicin, topiramate, rifabutin, rufinamide, aprepitant, and products containing St.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "ketoconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "CYP3A4 inhibitors such as itraconazole, voriconazole, fluconazole, grapefruit juice, or ketoconazole may increase plasma hormone concentrations.",
+    "recommendation": "Increase plasma hormone concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "carbamazepine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Some drugs or herbal products that may decrease the effectiveness of hormonal contraceptives include phenytoin, barbiturates, carbamazepine, bosentan, felbamate, griseofulvin, oxcarbazepine, rifampicin, topiramate, rifabutin, rufinamide, aprepitant, and products containing St.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "lamotrigine",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "• COCs have been shown to decrease plasma concentrations of acetaminophen, clofibric acid, morphine, salicylic acid, temazepam and lamotrigine. Significant decrease in plasma concentration of lamotrigine has been shown, likely due to induction of lamotrigine glucuronidation. This may reduce seizure control; therefore, dosage adjustments of lamotrigine may be necessary.",
+    "recommendation": "Reduce seizure control; therefore, dosage adjustments of lamotrigine may be necessary.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "voriconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "CYP3A4 inhibitors such as itraconazole, voriconazole, fluconazole, grapefruit juice, or ketoconazole may increase plasma hormone concentrations. 7.2 Effects of Combined Oral Contraceptives on Other Drugs • COCs containing EE may inhibit the metabolism of other compounds (e.g., cyclosporine, prednisolone, theophylline, tizanidine, and voriconazole) and increase their plasma concentrations.",
+    "recommendation": "Increase plasma hormone concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "norgestimate and ethinyl estradiol",
+    "ingredient2": "prednisolone",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.2 Effects of Combined Oral Contraceptives on Other Drugs • COCs containing EE may inhibit the metabolism of other compounds (e.g., cyclosporine, prednisolone, theophylline, tizanidine, and voriconazole) and increase their plasma concentrations.",
+    "recommendation": "Increase their plasma concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diphenoxylate hydrochloride and atropine sulfate",
+    "ingredient2": "opioids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Other Drugs that Cause CNS Depression The concurrent use of diphenoxylate hydrochloride and atropine sulfate tablets with other drugs that cause CNS depression (e.g., barbiturates, benzodiazepines, opioids, buspirone, antihistamines, muscle relaxants), may potentiate the effects of diphenoxylate hydrochloride and atropine sulfate tablets (see WARNINGS ).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diphenoxylate hydrochloride and atropine sulfate",
+    "ingredient2": "benzodiazepines",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Other Drugs that Cause CNS Depression The concurrent use of diphenoxylate hydrochloride and atropine sulfate tablets with other drugs that cause CNS depression (e.g., barbiturates, benzodiazepines, opioids, buspirone, antihistamines, muscle relaxants), may potentiate the effects of diphenoxylate hydrochloride and atropine sulfate tablets (see WARNINGS ).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "varenicline tartrate",
+    "ingredient2": "insulin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "(7.1) Effect of Smoking Cessation on Other Drugs: Pharmacokinetics or pharmacodynamics of certain drugs (e.g., theophylline, warfarin, insulin) may be altered, necessitating dose adjustment. 7.2 Effect of Smoking Cessation on Other Drugs Physiological changes resulting from smoking cessation, with or without treatment with varenicline, may alter the pharmacokinetics or pharmacodynamics of certain drugs (e.g., theophylline, warfarin, insulin) for which dosage adjustment may be necessary.",
+    "recommendation": "Adjustment.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "varenicline tartrate",
+    "ingredient2": "bupropion",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Bupropion Varenicline (1 mg twice daily) did not alter the steady-state pharmacokinetics of bupropion (150 mg twice daily) in 46 smokers. The safety of the combination of bupropion and varenicline has not been established.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "varenicline tartrate",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "(7.1) Effect of Smoking Cessation on Other Drugs: Pharmacokinetics or pharmacodynamics of certain drugs (e.g., theophylline, warfarin, insulin) may be altered, necessitating dose adjustment. 7.2 Effect of Smoking Cessation on Other Drugs Physiological changes resulting from smoking cessation, with or without treatment with varenicline, may alter the pharmacokinetics or pharmacodynamics of certain drugs (e.g., theophylline, warfarin, insulin) for which dosage adjustment may be necessary.",
+    "recommendation": "Adjustment.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "diuretics",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "When corticosteroids are administered concomitantly with potassium-depleting agents (i.e., diuretics, amphotericin-B), patients should be observed closely for development of hypokalemia.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "corticosteroids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Increased activity of both cyclosporin and corticosteroids may occur when the two are used concurrently. Estrogens may decrease the hepatic metabolism of certain corticosteroids thereby increasing their effect. Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60% leading to an increased risk of corticosteroid side effects.",
+    "recommendation": "Increased activity of both cyclosporin and corticosteroids may occur when the two are used concurrently.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions Drugs such as barbiturates, phenytoin, ephedrine, and rifampin, which induce hepatic microsomal drug metabolizing enzyme activity may enhance metabolism of prednisolone and require that the dosage of prednisolone sodium phosphate oral solution be increased.",
+    "recommendation": "Increased.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Coadministration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "ketoconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60% leading to an increased risk of corticosteroid side effects.",
+    "recommendation": "Increased risk of corticosteroid side effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "aspirin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Concomitant use of aspirin (or other non-steroidal anti-inflammatory agents) and corticosteroids increases the risk of gastrointestinal side effects. Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia.",
+    "recommendation": "Increases the risk of gastrointestinal side effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "prednisolone sodium phosphate",
+    "ingredient2": "prednisolone",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions Drugs such as barbiturates, phenytoin, ephedrine, and rifampin, which induce hepatic microsomal drug metabolizing enzyme activity may enhance metabolism of prednisolone and require that the dosage of prednisolone sodium phosphate oral solution be increased.",
+    "recommendation": "Increased.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "phenazopyridine hydrochloride",
+    "ingredient2": "drug_class",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Drug Interactions The interaction of Phenazopyridine Hydrochloride with other drugs has not been studied in a systematic manner. However, the medical literature to date suggests that no significant interactions have been reported.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "hydrochlorothiazide",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Pressor amines (e.g., norepinephrine): Both spironolactone and hydrochlorothiazide reduce the vascular responsiveness to norepinephrine. Therefore, caution should be exercised in the management of patients subjected to regional or general anesthesia while they are being treated with spironolactone and hydrochlorothiazide tablets. Therefore, when spironolactone and hydrochlorothiazide tablets and NSAIDs are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.",
+    "recommendation": "Reduce the vascular responsiveness to norepinephrine.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "insulin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Antidiabetic drugs (e.g., oral agents, insulin): Dosage adjustment of the antidiabetic drug may be required (see Precautions ).",
+    "recommendation": "Adjustment of the antidiabetic drug may be required (see Precautions ).",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "heparin",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Drug interactions: ACE inhibitors, Angiotensin II receptor antagonists, aldosterone blockers, potassium supplements, heparin, low molecular weight heparin, and other drugs known to cause hyperkalemia: Concomitant administration may lead to severe hyperkalemia.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "diuretics",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Lithium: Lithium generally should not be given with diuretics. Nonsteroidal anti-inflammatory drugs (NSAIDs): In some patients, the administration of an NSAID can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing, and thiazide diuretics. Combination of NSAIDs, e.g., indomethacin, with potassium-sparing diuretics has been associated with severe hyperkalemia.",
+    "recommendation": "Should not be given with diuretics.",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "corticosteroids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Corticosteroids, ACTH: Intensified electrolyte depletion, particularly hypokalemia, may occur.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "lithium",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Lithium: Lithium generally should not be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity.",
+    "recommendation": "Should not be given with diuretics.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "ace inhibitors",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Drug interactions: ACE inhibitors, Angiotensin II receptor antagonists, aldosterone blockers, potassium supplements, heparin, low molecular weight heparin, and other drugs known to cause hyperkalemia: Concomitant administration may lead to severe hyperkalemia.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Digoxin: Spironolactone has been shown to increase the half-life of digoxin. This may result in increased serum digoxin levels and subsequent digitalis toxicity. Monitor serum digoxin levels and adjust dose accordingly.",
+    "recommendation": "Increase the half-life of digoxin.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "spironolactone",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Pressor amines (e.g., norepinephrine): Both spironolactone and hydrochlorothiazide reduce the vascular responsiveness to norepinephrine. Therefore, caution should be exercised in the management of patients subjected to regional or general anesthesia while they are being treated with spironolactone and hydrochlorothiazide tablets. Therefore, when spironolactone and hydrochlorothiazide tablets and NSAIDs are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.",
+    "recommendation": "Reduce the vascular responsiveness to norepinephrine.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "spironolactone and hydrochlorothiazide",
+    "ingredient2": "nsaids",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Nonsteroidal anti-inflammatory drugs (NSAIDs): In some patients, the administration of an NSAID can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing, and thiazide diuretics. Combination of NSAIDs, e.g., indomethacin, with potassium-sparing diuretics has been associated with severe hyperkalemia. Therefore, when spironolactone and hydrochlorothiazide tablets and NSAIDs are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.",
+    "recommendation": "Reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing, and thiazide diuretics.",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "mesalamine",
+    "ingredient2": "azathioprine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "( 7.2) • Azathioprine or 6-Mercaptopurine: Increased risk of blood disorders; monitor complete blood cell counts and platelet counts. 7.3 Azathioprine or 6-Mercaptopurine The concurrent use of mesalamine with azathioprine or 6-mercaptopurine and/or other drugs known to cause myelotoxicity may increase the risk for blood disorders, bone marrow failure, and associated complications. If concomitant use of mesalamine extended-release capsules and azathioprine or 6-mercaptopurine cannot be avoided, monitor blood tests, including complete blood cell counts and platelet counts.",
+    "recommendation": "Avoided, monitor blood tests, including complete blood cell counts and platelet counts.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "mesalamine",
+    "ingredient2": "nsaids",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS • Nephrotoxic Agents including NSAIDs: Increased risk of nephrotoxicity; monitor for changes in renal function and mesalamine-related adverse reactions. 7.2 Nephrotoxic Agents, Including Non-Steroidal Anti-Inflammatory Drugs The concurrent use of mesalamine with known nephrotoxic agents, including non-steroidal anti-inflammatory drugs (NSAIDs) may increase the risk of nephrotoxicity.",
+    "recommendation": "Increased risk of nephrotoxicity; monitor for changes in renal function and mesalamine-related adverse reactions.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "methotrexate",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Methotrexate Clinical Impact: Concomitant use of NSAIDs and methotrexate may increase the risk for methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction). Celecoxib has no effect on methotrexate pharmacokinetics. Intervention: During concomitant use of celecoxib and methotrexate, monitor patients for methotrexate toxicity.",
+    "recommendation": "Increase the risk for methotrexate toxicity (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "ssris",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Intervention: Monitor patients with concomitant use of celecoxib with anticoagulants (e.g., warfarin), antiplatelet drugs (e.g., aspirin), SSRIs, and SNRIs for signs of bleeding [see Warnings and Precautions ( 5.11) ]. warfarin, aspirin, selective serotonin reuptake inhibitors[SSRIs]/serotonin norepinephrine reuptake inhibitors [SNRIs]): Monitor patients for bleeding who are concomitantly taking celecoxib capsules with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of celecoxib with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "propranolol",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: NSAIDs may diminish the antihypertensive effect of ACE inhibitors, ARBs, or beta-blockers (including propranolol).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "diuretics",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Diuretics Clinical Impact: Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. Intervention: During concomitant use of celecoxib with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects [ see Warnings and Precautions ( 5.6) ]. In such high risk patients, monitor for signs of worsening renal function ( 7) Diuretics: NSAIDs can reduce natriuretic effect of furosemide and thiazide diuretics.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "corticosteroids",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Corticosteroids Clinical Impact: Concomitant use of corticosteroids with celecoxib may increase the risk of GI ulceration or bleeding. Intervention Monitor patients with concomitant use of celecoxib with corticosteroids for signs of bleeding [ see Warnings and Precautions ( 5.2) ].",
+    "recommendation": "Increase the risk of GI ulceration or bleeding.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "fluconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Co-administration of celecoxib with drugs that are known to inhibit CYP2C9 (e.g., fluconazole) may enhance the exposure and toxicity of celecoxib whereas co-administration with CYP2C9 inducers (e.g., rifampin) may lead to compromised efficacy of celecoxib.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "snris",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Intervention: Monitor patients with concomitant use of celecoxib with anticoagulants (e.g., warfarin), antiplatelet drugs (e.g., aspirin), SSRIs, and SNRIs for signs of bleeding [see Warnings and Precautions ( 5.11) ]. warfarin, aspirin, selective serotonin reuptake inhibitors[SSRIs]/serotonin norepinephrine reuptake inhibitors [SNRIs]): Monitor patients for bleeding who are concomitantly taking celecoxib capsules with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of celecoxib with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "anticoagulants",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Table 3: Clinically Significant Drug Interactions with Celecoxib Drugs That Interfere with Hemostasis Clinical Impact: Celecoxib and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant use of Celecoxib and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone. Intervention: Monitor patients with concomitant use of celecoxib with anticoagulants (e.g., warfarin), antiplatelet drugs (e.g., aspirin), SSRIs, and SNRIs for signs of bleeding [see Warnings and Precautions ( 5.11) ].",
+    "recommendation": "Increased risk of serious bleeding compared to the use of either drug alone.",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "lithium",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Lithium Clinical Impact: NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance. The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. Intervention: During concomitant use of celecoxib and lithium, monitor patients for signs of lithium toxicity.",
+    "recommendation": "Increased 15%, and the renal clearance decreased by approximately 20%.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "ace inhibitors",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: NSAIDs may diminish the antihypertensive effect of ACE inhibitors, ARBs, or beta-blockers (including propranolol). In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. Monitor blood pressure ( 7) ACE Inhibitors and ARBs: Concomitant use with celecoxib capsules in elderly, volume depleted, or those with renal impairment may result in deterioration of renal function.",
+    "recommendation": "Monitor blood pressure ( 7) ACE Inhibitors and ARBs: Concomitant use with celecoxib capsules in elderly, volume depleted, or those with renal impairment may result in deterioration of renal function.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "arbs",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: NSAIDs may diminish the antihypertensive effect of ACE inhibitors, ARBs, or beta-blockers (including propranolol). In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. Intervention: During concomitant use of celecoxib and ACE-inhibitors, ARBs, or beta-blockers, monitor blood pressure to ensure that the desired blood pressure is obtained.",
+    "recommendation": "Monitor blood pressure to ensure that the desired blood pressure is obtained.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "cyclosporine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Cyclosporine Clinical Impact: Concomitant use of celecoxib and cyclosporine may increase cyclosporine's nephrotoxicity. Intervention: During concomitant use of celecoxib and cyclosporine, monitor patients for signs of worsening renal function.",
+    "recommendation": "Increase cyclosporine's nephrotoxicity.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "warfarin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Table 3: Clinically Significant Drug Interactions with Celecoxib Drugs That Interfere with Hemostasis Clinical Impact: Celecoxib and anticoagulants such as warfarin have a synergistic effect on bleeding. Intervention: Monitor patients with concomitant use of celecoxib with anticoagulants (e.g., warfarin), antiplatelet drugs (e.g., aspirin), SSRIs, and SNRIs for signs of bleeding [see Warnings and Precautions ( 5.11) ]. warfarin, aspirin, selective serotonin reuptake inhibitors[SSRIs]/serotonin norepinephrine reuptake inhibitors [SNRIs]): Monitor patients for bleeding who are concomitantly taking celecoxib capsules with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of celecoxib with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "aspirin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Intervention: Monitor patients with concomitant use of celecoxib with anticoagulants (e.g., warfarin), antiplatelet drugs (e.g., aspirin), SSRIs, and SNRIs for signs of bleeding [see Warnings and Precautions ( 5.11) ]. Aspirin Clinical Impact: Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of the NSAID alone [see Warnings and Precautions ( 5.2) ].",
+    "recommendation": "Monitor patients with concomitant use of celecoxib with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "furosemide",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Diuretics Clinical Impact: Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. In such high risk patients, monitor for signs of worsening renal function ( 7) Diuretics: NSAIDs can reduce natriuretic effect of furosemide and thiazide diuretics.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Digoxin Clinical Impact: The concomitant use of Celecoxib with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin. Intervention: During concomitant use of celecoxib and digoxin, monitor serum digoxin levels. Monitor patients to assure diuretic efficacy including antihypertensive effects ( 7) Digoxin: Concomitant use with celecoxib capsules can increase serum concentration and prolong half-life of digoxin.",
+    "recommendation": "Increase the serum concentration and prolong the half-life of digoxin.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "celecoxib",
+    "ingredient2": "nsaids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Aspirin Clinical Impact: Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: NSAIDs may diminish the antihypertensive effect of ACE inhibitors, ARBs, or beta-blockers (including propranolol). Diuretics Clinical Impact: Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "itraconazole",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS The risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.3) ]. Drug Interactions Associated with Increased Risk of Myopathy/Rhabdomyolysis ( 2.6, 5.1, 7, 12.3) Interacting Agents Prescribing Recommendations Cyclosporine, HIV protease inhibitors (tipranavir plus ritonavir), hepatitis C protease inhibitor (telaprevir) Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus riton",
+    "recommendation": "Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus ritonavir, darunavir plus ritonavir, fosamprenavir, fosamprenavir plus ritonavir) Do not exceed 20 mg atorvastatin daily HIV protease inhibitor (nelfinavir) Hepatitis C protease inhibitor (boceprevir) Do not exceed 40 mg atorvastatin daily Other Lipid-Lowering Medications: Use with fibrate products or lipid-modifying doses (≥1 g/day) of niacin increases the risk of adverse skeletal muscle effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "atorvastatin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Drug Interactions Associated with Increased Risk of Myopathy/Rhabdomyolysis ( 2.6, 5.1, 7, 12.3) Interacting Agents Prescribing Recommendations Cyclosporine, HIV protease inhibitors (tipranavir plus ritonavir), hepatitis C protease inhibitor (telaprevir) Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus ritonavir, darunavir plus ritonavir, fosamprenavir, fosamprenavir plus ritonavir) Do not exceed 20 mg atorvastatin daily HIV protease inhibitor (nelfinavir) Hepatitis C protease inhibitor (boceprevir) Do not exceed 40 mg atorvastatin daily Other Lipid-Lowering Medications: Use with fibrate products or lipid-modifying doses (≥1 g/day) of niacin increases the ri",
+    "recommendation": "Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus ritonavir, darunavir plus ritonavir, fosamprenavir, fosamprenavir plus ritonavir) Do not exceed 20 mg atorvastatin daily HIV protease inhibitor (nelfinavir) Hepatitis C protease inhibitor (boceprevir) Do not exceed 40 mg atorvastatin daily Other Lipid-Lowering Medications: Use with fibrate products or lipid-modifying doses (≥1 g/day) of niacin increases the risk of adverse skeletal muscle effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "cyclosporine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS The risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.3) ]. Drug Interactions Associated with Increased Risk of Myopathy/Rhabdomyolysis ( 2.6, 5.1, 7, 12.3) Interacting Agents Prescribing Recommendations Cyclosporine, HIV protease inhibitors (tipranavir plus ritonavir), hepatitis C protease inhibitor (telaprevir) Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus riton",
+    "recommendation": "Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus ritonavir, darunavir plus ritonavir, fosamprenavir, fosamprenavir plus ritonavir) Do not exceed 20 mg atorvastatin daily HIV protease inhibitor (nelfinavir) Hepatitis C protease inhibitor (boceprevir) Do not exceed 40 mg atorvastatin daily Other Lipid-Lowering Medications: Use with fibrate products or lipid-modifying doses (≥1 g/day) of niacin increases the risk of adverse skeletal muscle effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Digoxin: Patients should be monitored appropriately ( 7.8).",
+    "recommendation": "Monitored appropriately ( 7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "statins",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS The risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.3) ].",
+    "recommendation": "Increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atorvastatin calcium",
+    "ingredient2": "clarithromycin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS The risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.3) ]. Drug Interactions Associated with Increased Risk of Myopathy/Rhabdomyolysis ( 2.6, 5.1, 7, 12.3) Interacting Agents Prescribing Recommendations Cyclosporine, HIV protease inhibitors (tipranavir plus ritonavir), hepatitis C protease inhibitor (telaprevir) Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus riton",
+    "recommendation": "Avoid atorvastatin HIV protease inhibitor (lopinavir plus ritonavir) Use with caution and lowest dose necessary Clarithromycin, itraconazole, HIV protease inhibitors (saquinavir plus ritonavir, darunavir plus ritonavir, fosamprenavir, fosamprenavir plus ritonavir) Do not exceed 20 mg atorvastatin daily HIV protease inhibitor (nelfinavir) Hepatitis C protease inhibitor (boceprevir) Do not exceed 40 mg atorvastatin daily Other Lipid-Lowering Medications: Use with fibrate products or lipid-modifying doses (≥1 g/day) of niacin increases the risk of adverse skeletal muscle effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "glycopyrrolate",
+    "ingredient2": "drug_class",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions The concurrent use of glycopyrrolate injection with other anticholinergics or medications with anticholinergic activity, such as phenothiazines, antiparkinson drugs, or tricyclic antidepressants, may intensify the antimuscarinic effects and may result in an increase in anticholinergic side effects. Concomitant administration of glycopyrrolate injection and potassium chloride in a wax matrix may increase the severity of potassium chloride-induced gastrointestinal lesions as a result of a slower gastrointestinal transit time.",
+    "recommendation": "Increase in anticholinergic side effects.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "fenofibrate",
+    "ingredient2": "anticoagulants",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Drug Interactions Oral Anticoagulants CAUTION SHOULD BE EXERCISED WHEN COUMARIN ANTICOAGULANTS ARE GIVEN IN CONJUNCTION WITH FENOFIBRATE CAPSULES. THE DOSAGE OF THE ANTICOAGULANTS SHOULD BE REDUCED TO MAINTAIN THE PROTHROMBIN TIME/INR AT THE DESIRED LEVEL TO PREVENT BLEEDING COMPLICATIONS.",
+    "recommendation": "REDUCED TO MAINTAIN THE PROTHROMBIN TIME/INR AT THE DESIRED LEVEL TO PREVENT BLEEDING COMPLICATIONS.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "fenofibrate",
+    "ingredient2": "cyclosporine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Cyclosporine Because cyclosporine can produce nephrotoxicity with decreases in creatinine clearance and rises in serum creatinine, and because renal excretion is the primary elimination route of fibrate drugs including fenofibrate, there is a risk that an interaction will lead to deterioration.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "arsenic trioxide",
+    "ingredient2": "drug_class",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "7 DRUG INTERACTIONS Drugs That Can Prolong the QT/QTc Interval Concomitant use of these drugs and arsenic trioxide injection may increase the risk of serious QT/QTc interval prolongation [see Warnings and Precautions (5.1)]. Discontinue or replace with an alternative drug that does not prolong the QT/QTc interval while the patient is using arsenic trioxide injection. Monitor ECGs more frequently in patients when it is not feasible to avoid concomitant use. Drugs That Can Lead to Electrolyte Abnormalities Electrolyte abnormalities increase the risk of serious QT/QTc interval prolongation [see Warnings and Precautions (5.1)]. Avoid concomitant use of drugs that can lead to electrolyte abnormalities. Monitor electrolytes more frequently in patients who must receive concomitant use of these dr",
+    "recommendation": "Avoid concomitant use.",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "primaquine phosphate",
+    "ingredient2": "duloxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Effects of Primaquine on the Pharmacokinetics of Other Drugs CYP1A2 Substrates Published clinical and non-clinical reports indicate primaquine inhibits CYP1A2 enzyme activity and thus may lead to increased exposure of CYP1A2 substrate drugs (e.g., duloxetine, alosetron, theophylline and tizanidine) when co-administered with primaquine.",
+    "recommendation": "Increased exposure of CYP1A2 substrate drugs (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "primaquine phosphate",
+    "ingredient2": "dabigatran",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Increase monitoring for adverse reactions associated with narrow therapeutic index drugs that are P-gp substrates (e.g., digoxin and dabigatran) when concomitantly administered with primaquine.",
+    "recommendation": "Increase monitoring for adverse reactions associated with narrow therapeutic index drugs that are P-gp substrates (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "primaquine phosphate",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Increase monitoring for adverse reactions associated with narrow therapeutic index drugs that are P-gp substrates (e.g., digoxin and dabigatran) when concomitantly administered with primaquine.",
+    "recommendation": "Increase monitoring for adverse reactions associated with narrow therapeutic index drugs that are P-gp substrates (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "eszopiclone",
+    "ingredient2": "itraconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Other strong inhibitors of CYP3A4 (e.g., itraconazole, clarithromycin, nefazodone, troleandomycin, ritonavir, nelfinavir) would be expected to behave similarly.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "eszopiclone",
+    "ingredient2": "eszopiclone",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Use with ethanol causes additive psychomotor impairment (7.1) Rifampicin: Combination use may decrease exposure and effects of eszopiclone (7.2) Ketoconazole: Combination use increases exposure and effect of eszopiclone. Dose reduction of eszopiclone is needed (7.2) 7.1 CNS Active Drugs Ethanol: An additive effect on psychomotor performance was seen with coadministration of eszopiclone and ethanol [see Warnings and Precautions (5.1, 5.2)]. Olanzapine: Coadministration of eszopiclone and olanzapine produced a decrease in DSST scores.",
+    "recommendation": "Increases exposure and effect of eszopiclone.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "eszopiclone",
+    "ingredient2": "ketoconazole",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Use with ethanol causes additive psychomotor impairment (7.1) Rifampicin: Combination use may decrease exposure and effects of eszopiclone (7.2) Ketoconazole: Combination use increases exposure and effect of eszopiclone. 7.2 Drugs that Inhibit or Induce CYP3A4 Drugs that Inhibit CYP3A4 (Ketoconazole) CYP3A4 is a major metabolic pathway for elimination of eszopiclone. The exposure of eszopiclone was increased by coadministration of ketoconazole, a potent inhibitor of CYP3A4.",
+    "recommendation": "Increases exposure and effect of eszopiclone.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "eszopiclone",
+    "ingredient2": "clarithromycin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Other strong inhibitors of CYP3A4 (e.g., itraconazole, clarithromycin, nefazodone, troleandomycin, ritonavir, nelfinavir) would be expected to behave similarly.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "eszopiclone",
+    "ingredient2": "olanzapine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Olanzapine: Coadministration of eszopiclone and olanzapine produced a decrease in DSST scores.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "methocarbamol tablets",
+    "ingredient2": "drug_class",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "DRUG INTERACTIONS See WARNINGS and PRECAUTIONS for interaction with CNS drugs and alcohol. Methocarbamol may inhibit the effect of pyridostigmine bromide. Therefore, methocarbamol should be used with caution in patients with myasthenia gravis receiving anticholinesterase agents.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "corticosteroids",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Neuromuscular Blockers Patients receiving corticosteroids, including deflazacort, and concomitant therapy with neuromuscular blocking drugs (e.g., pancuronium) may be at increased risk of developing an acute myopathy [see Warnings and Precautions ( 5.11)].",
+    "recommendation": "Increased risk of developing an acute myopathy [see Warnings and Precautions ( 5.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "diltiazem",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore, give one third the recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.g., clarithromycin, fluconazole, diltiazem, verapamil, grapefruit juice) are used concomitantly with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "fluconazole",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore, give one third the recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.g., clarithromycin, fluconazole, diltiazem, verapamil, grapefruit juice) are used concomitantly with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "phenytoin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Avoid concomitant use of strong (e.g., efavirenz) or moderate (e.g., carbamazepine, phenytoin) CYP3A4 inducers with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Avoid concomitant use of strong (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "verapamil",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore, give one third the recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.g., clarithromycin, fluconazole, diltiazem, verapamil, grapefruit juice) are used concomitantly with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "carbamazepine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Avoid concomitant use of strong (e.g., efavirenz) or moderate (e.g., carbamazepine, phenytoin) CYP3A4 inducers with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Avoid concomitant use of strong (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "deflazacort",
+    "ingredient2": "clarithromycin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Co-administration of deflazacort with clarithromycin, a strong CYP3A4 inhibitor, increased total exposure to 21-desDFZ by about 3-fold. Therefore, give one third the recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.g., clarithromycin, fluconazole, diltiazem, verapamil, grapefruit juice) are used concomitantly with deflazacort [see Dosage and Administration ( 2.5) and Clinical Pharmacology ( 12.3)].",
+    "recommendation": "Recommended dosage of deflazacort when moderate or strong CYP3A4 inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "itraconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Although specific interactions have not been studied, other CYP3A4 inhibitors, such as erythromycin, itraconazole, and grapefruit juice, would likely increase tadalafil exposure.",
+    "recommendation": "Increase tadalafil exposure.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "enalapril",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Clinical pharmacology studies were conducted to assess the effect of tadalafil on the potentiation of the blood-pressure-lowering effects of selected antihypertensive medications (amlodipine, angiotensin II receptor blockers, bendrofluazide, enalapril, and metoprolol).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "tadalafil",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS Tadalafil can potentiate the hypotensive effects of nitrates, alpha-blockers, antihypertensives or alcohol ( 7.1). ketoconazole, ritonavir) increase tadalafil exposure ( 2.7, 5.10, 7.2) requiring dose adjustment: Tadalafil for use as needed: no more than 10 mg every 72 hours Tadalafil for once daily use: dose not to exceed 2.5 mg CYP3A4 inducers (e.g. rifampin) decrease tadalafil exposure ( 7.2).",
+    "recommendation": "Increase tadalafil exposure ( 2.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "amlodipine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Clinical pharmacology studies were conducted to assess the effect of tadalafil on the potentiation of the blood-pressure-lowering effects of selected antihypertensive medications (amlodipine, angiotensin II receptor blockers, bendrofluazide, enalapril, and metoprolol).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Although specific interactions have not been studied, other CYP3A4 inducers, such as carbamazepine, phenytoin, and phenobarbital, would likely decrease tadalafil exposure.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "warfarin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Warfarin) — Tadalafil had no significant effect on exposure (AUC) to S-warfarin or R-warfarin, nor did tadalafil affect changes in prothrombin time induced by warfarin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "metoprolol",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Clinical pharmacology studies were conducted to assess the effect of tadalafil on the potentiation of the blood-pressure-lowering effects of selected antihypertensive medications (amlodipine, angiotensin II receptor blockers, bendrofluazide, enalapril, and metoprolol).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "ketoconazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Ketoconazole, ritonavir) increase tadalafil exposure ( 2.7, 5.10, 7.2) requiring dose adjustment: Tadalafil for use as needed: no more than 10 mg every 72 hours Tadalafil for once daily use: dose not to exceed 2.5 mg CYP3A4 inducers (e.g. CYP3A4 (e.g., Ketoconazole) — Ketoconazole (400 mg daily), a selective and potent inhibitor of CYP3A4, increased tadalafil 20 mg single-dose exposure (AUC) by 312% and Cmax by 22%, relative to the values for tadalafil 20 mg alone. Ketoconazole (200 mg daily) increased tadalafil 10-mg single-dose exposure (AUC) by 107% and Cmax by 15%, relative to the values for tadalafil 10 mg alone [see Dosage and Administration ( 2.7)].",
+    "recommendation": "Increase tadalafil exposure ( 2.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "aspirin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.3 Potential for Tadalafil to Affect Other Drugs Aspirin— Tadalafil did not potentiate the increase in bleeding time caused by aspirin.",
+    "recommendation": "Increase in bleeding time caused by aspirin.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "carbamazepine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Although specific interactions have not been studied, other CYP3A4 inducers, such as carbamazepine, phenytoin, and phenobarbital, would likely decrease tadalafil exposure.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "lovastatin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Midazolam or Lovastatin) — Tadalafil had no significant effect on exposure (AUC) to midazolam or lovastatin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "digoxin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Digoxin) — Coadministration of tadalafil (40 mg once per day) for 10 days did not have a significant effect on the steady-state pharmacokinetics of digoxin (0.25 mg/day) in healthy subjects.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "tadalafil",
+    "ingredient2": "tamsulosin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Clinical pharmacology studies have been conducted with coadministration of tadalafil with doxazosin, tamsulosin or alfuzosin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "brompheniramine maleate, pseudoephedrine hydrochloride and dextromethorphan hydrobromide",
+    "ingredient2": "drug_class",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions Monoamine oxidase (MAO) inhibitors Hyperpyrexia, hypotension, and death have been reported coincident with the coadministration of MAO inhibitors and products containing dextromethorphan. In addition, MAO inhibitors prolong and intensify the anticholinergic (drying) effects of antihistamines and may enhance the effect of pseudoephedrine. Concomitant administration of Brompheniramine Maleate, Pseudoephedrine Hydrochloride and Dextromethorphan Hydrobromide Oral Syrup and MAO inhibitors should be avoided ( see CONTRAINDICATIONS). Central Nervous System (CNS) depressants Antihistamines have additive effects with alcohol and other CNS depressants (hypnotics, sedatives, tranquilizers, antianxiety agents, etc.). Antihypertensive drugs Sympathomimetic may reduce the effects of an",
+    "recommendation": "Avoided ( see CONTRAINDICATIONS).",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "cimetidine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Moderate or Weak CYP1A2 Inhibitors Concomitant use of tizanidine with moderate or weak CYP1A2 inhibitors (e.g., zileuton, antiarrhythmics [amiodarone, mexiletine, propafenone, and verapamil], cimetidine, famotidine, oral contraceptives, acyclovir, and ticlopidine) should be avoided.",
+    "recommendation": "Avoided.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "famotidine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Moderate or Weak CYP1A2 Inhibitors Concomitant use of tizanidine with moderate or weak CYP1A2 inhibitors (e.g., zileuton, antiarrhythmics [amiodarone, mexiletine, propafenone, and verapamil], cimetidine, famotidine, oral contraceptives, acyclovir, and ticlopidine) should be avoided.",
+    "recommendation": "Avoided.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "opioids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Concomitant use of tizanidine with CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may cause additive CNS depressant effects, including sedation.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "acyclovir",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Moderate or Weak CYP1A2 Inhibitors Concomitant use of tizanidine with moderate or weak CYP1A2 inhibitors (e.g., zileuton, antiarrhythmics [amiodarone, mexiletine, propafenone, and verapamil], cimetidine, famotidine, oral contraceptives, acyclovir, and ticlopidine) should be avoided.",
+    "recommendation": "Avoided.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "benzodiazepines",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Concomitant use of tizanidine with CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may cause additive CNS depressant effects, including sedation.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "amiodarone",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Moderate or Weak CYP1A2 Inhibitors Concomitant use of tizanidine with moderate or weak CYP1A2 inhibitors (e.g., zileuton, antiarrhythmics [amiodarone, mexiletine, propafenone, and verapamil], cimetidine, famotidine, oral contraceptives, acyclovir, and ticlopidine) should be avoided.",
+    "recommendation": "Avoided.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "verapamil",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.2 Moderate or Weak CYP1A2 Inhibitors Concomitant use of tizanidine with moderate or weak CYP1A2 inhibitors (e.g., zileuton, antiarrhythmics [amiodarone, mexiletine, propafenone, and verapamil], cimetidine, famotidine, oral contraceptives, acyclovir, and ticlopidine) should be avoided.",
+    "recommendation": "Avoided.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "tizanidine hydrochloride",
+    "ingredient2": "ciprofloxacin",
+    "severity": "contraindicated",
+    "severity_confidence": 1.0,
+    "effect": "(7.2, 12.3) 7.1 Strong CYP1A2 Inhibitors Concomitant use of tizanidine with strong cytochrome P450 1A2 (CYP1A2) inhibitors (e.g., fluvoxamine, ciprofloxacin) is contraindicated.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.9
+  },
+  {
+    "ingredient1": "somatropin",
+    "ingredient2": "insulin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Insulin and/or Other Hypoglycemic Agents Clinical Impact: Treatment with HUMATROPE may decrease insulin sensitivity, particularly at higher doses. Intervention: Patients with diabetes mellitus may require adjustment of their doses of insulin and/or other hypoglycemic agents [see Warnings and Precautions (5.4)]. (7) Insulin and/or Other Hypoglycemic Agents: Dose adjustment of insulin or hypoglycemic agent may be required.",
+    "recommendation": "Adjustment of their doses of insulin and/or other hypoglycemic agents [see Warnings and Precautions (5.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "somatropin",
+    "ingredient2": "prednisone",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Cortisone acetate and prednisone may be effected more than others since conversion of these drugs to their biologically active metabolites is dependent on the activity of 11βHSD-1.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "eculizumab-aagh",
+    "ingredient2": "drug_class",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS 7.1 Plasmapheresis, Plasma Exchange, Fresh Frozen Plasma Infusion or IVIg Concomitant use of eculizumab products with plasma exchange (PE), plasmapheresis (PP), fresh frozen plasma infusion (PE/PI), or in patients with gMG on concomitant IVIg treatment can reduce serum eculizumab product concentrations and requires a supplemental dose of EPYSQLI [see Dosage and Administration (2.5)]. 7.2 Neonatal Fc Receptor Blockers Concomitant use of eculizumab products with neonatal Fc receptor (FcRn) blockers may lower systemic exposures and reduce effectiveness of eculizumab products. Closely monitor for reduced effectiveness of EPYSQLI.",
+    "recommendation": "Reduce serum eculizumab product concentrations and requires a supplemental dose of EPYSQLI [see Dosage and Administration (2.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "diazepam",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "albuterol",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "(7.3) Albuterol (or other beta2 agonists) – Action of albuterol on cardiovascular system can be potentiated. 7.4 Albuterol Atomoxetine should be administered with caution to patients being treated with systemically-administered (oral or intravenous) albuterol (or other beta2 agonists) because the action of albuterol on the cardiovascular system can be potentiated resulting in increases in heart rate and blood pressure. Albuterol (600 mcg iv over 2 hours) induced increases in heart rate and blood pressure.",
+    "recommendation": "Increases in heart rate and blood pressure.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "fluoxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.2 Effect of CYP2D6 Inhibitors on Atomoxetine In extensive metabolizers (EMs), inhibitors of CYP2D6 (e.g., paroxetine, fluoxetine, and quinidine) increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs). In EM individuals treated with paroxetine or fluoxetine, the AUC of atomoxetine is approximately 6- to 8-fold and Css, max is about 3- to 4-fold greater than atomoxetine alone.",
+    "recommendation": "Increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs).",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "omeprazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.9 Drugs that Affect Gastric pH Drugs that elevate gastric pH (magnesium hydroxide/aluminum hydroxide, omeprazole) had no effect on atomoxetine bioavailability.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "atomoxetine",
+    "ingredient2": "paroxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.2 Effect of CYP2D6 Inhibitors on Atomoxetine In extensive metabolizers (EMs), inhibitors of CYP2D6 (e.g., paroxetine, fluoxetine, and quinidine) increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs). In EM individuals treated with paroxetine or fluoxetine, the AUC of atomoxetine is approximately 6- to 8-fold and Css, max is about 3- to 4-fold greater than atomoxetine alone.",
+    "recommendation": "Increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs).",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "ipratropium bromide and albuterol sulfate",
+    "ingredient2": "albuterol",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Caution is, therefore, advised in the co-administration of Ipratropium Bromide and Albuterol Sulfate Inhalation Solution with other drugs having anticholinergic properties. β-adrenergic agents Caution is advised in the co-administration of Ipratropium Bromide and Albuterol Sulfate Inhalation Solution and other sympathomimetic agents due to the increased risk of adverse cardiovascular effects. β-receptor blocking agents These agents and albuterol sulfate inhibit the effect of each other.",
+    "recommendation": "Advised in the co-administration of Ipratropium Bromide and Albuterol Sulfate Inhalation Solution with other drugs having anticholinergic properties.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "ipratropium bromide and albuterol sulfate",
+    "ingredient2": "diuretics",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Diuretics The electrocardiogram (ECG) changes and/or hypokalemia that may result from the administration of non-potassium sparing diuretics (such as loop or thiazide diuretics) can be acutely worsened by β-agonists, especially when the recommended dose of the β-agonist is exceeded. Although the clinical significance of these effects is not known, caution is advised in the co-administration of β-agonist-containing drugs, such as Ipratropium Bromide and Albuterol Sulfate Inhalation Solution, with non-potassium sparing diuretics.",
+    "recommendation": "Recommended dose of the β-agonist is exceeded.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "cimetidine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Pharmacokinetic Interactions CYP450 Inhibitors grapefruit juice, certain fluoroquinolone and macrolide antibiotics, azole antifungals, cimetidine, certain protease inhibitors Increased exposure of amiodarone.",
+    "recommendation": "Increased exposure of amiodarone.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "diltiazem",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "flecainide",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Antiarrhythmics quinidine, procainamide, flecainide Reserve concomitant use for patients who are unresponsive to a single agent.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "beta blockers",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "lithium",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Table 1: Amiodarone Drug Interactions Concomitant Drug Class/Name Examples Clinical Comment Pharmacodynamic Interactions QT Prolonging Drugs class I and III antiarrhythmics, lithium, certain phenothiazines, tricyclic antidepressants, certain fluoroquinolone and macrolide antibiotics, azole antifungals, halogenated inhalation anesthetic agents Increased risk of Torsade de Pointes.",
+    "recommendation": "Increased risk of Torsade de Pointes.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "simvastatin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG- CoA reductase inhibitor. Limit the coadministered dose of simvastatin to 20 mg.",
+    "recommendation": "Increased plasma concentration of HMG- CoA reductase inhibitor.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "atorvastatin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG- CoA reductase inhibitor.",
+    "recommendation": "Increased plasma concentration of HMG- CoA reductase inhibitor.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "cyclosporine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Cyclosporine Increased plasma levels of cyclosporine have been reported resulting in elevated creatinine, despite reduction of cyclosporine dose. Monitor cyclosporine drug levels and renal function with concomitant use.",
+    "recommendation": "Increased plasma levels of cyclosporine have been reported resulting in elevated creatinine, despite reduction of cyclosporine dose.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "phenytoin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Phenytoin Increased steady-state levels of phenytoin. Monitor phenytoin levels.",
+    "recommendation": "Increased steady-state levels of phenytoin.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "warfarin",
+    "severity": "contraindicated",
+    "severity_confidence": 1.0,
+    "effect": "Warfarin Potentiates anticoagulant response and can result in serious or fatal bleeding. Reduce warfarin dose by one-third to one-half and monitor prothrombin times.",
+    "recommendation": "Reduce warfarin dose by one-third to one-half and monitor prothrombin times.",
+    "source": "DailyMed",
+    "confidence_score": 0.9
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "amiodarone",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS Because of amiodarone’s long half-life, expect drug interactions to persist for weeks to months after discontinuation of amiodarone. Drug interactions with amiodarone are described in Table 1 below. Table 1: Amiodarone Drug Interactions Concomitant Drug Class/Name Examples Clinical Comment Pharmacodynamic Interactions QT Prolonging Drugs class I and III antiarrhythmics, lithium, certain phenothiazines, tricyclic antidepressants, certain fluoroquinolone and macrolide antibiotics, azole antifungals, halogenated inhalation anesthetic agents Increased risk of Torsade de Pointes.",
+    "recommendation": "Increased risk of Torsade de Pointes.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "verapamil",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "lovastatin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "HMG-CoA Reductase Inhibitors simvastatin, lovastatin, atorvastatin Increased plasma concentration of HMG- CoA reductase inhibitor. Limit the dose of lovastatin to 40 mg.",
+    "recommendation": "Increased plasma concentration of HMG- CoA reductase inhibitor.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "digoxin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Negative Chronotropes digoxin, beta blockers, verapamil, diltiazem, clonidine, ivabradine Potentiates the electrophysiologic and hemodynamic effects of amiodarone, resulting in bradycardia, sinus arrest, and AV block. Digoxin Increased digoxin concentration. Reduce digoxin by half or discontinue.",
+    "recommendation": "Increased digoxin concentration.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "amiodarone hydrochloride",
+    "ingredient2": "fentanyl",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "CYP3A Substrate fentanyl Fentanyl in combination with amiodarone may cause hypotension, bradycardia, and decreased cardiac output.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "methotrexate",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Methotrexate Clinical Impact: •Concomitant use of NSAIDs and methotrexate may increase the risk for methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction). Intervention: •During concomitant use of diclofenac sodium topical gel and methotrexate, monitor patients for methotrexate toxicity.",
+    "recommendation": "Increase the risk for methotrexate toxicity (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "ssris",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Intervention: •Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see Warnings and Precautions (5.5)]. •Drugs that Interfere with Hemostasis (e.g., warfarin, aspirin, SSRIs/SNRIs): Monitor patients for bleeding who are using diclofenac sodium topical gel concomitantly with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "propranolol",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: •NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "diuretics",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Diuretics Clinical Impact: •Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. Intervention: •During concomitant use of diclofenac sodium topical gel with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects [see Warnings and Precautions (5.9)]. (7) •Diuretics: NSAIDs can reduce natriuretic effect of furosemide and thiazide diuretics.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "snris",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Intervention: •Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see Warnings and Precautions (5.5)]. •Drugs that Interfere with Hemostasis (e.g., warfarin, aspirin, SSRIs/SNRIs): Monitor patients for bleeding who are using diclofenac sodium topical gel concomitantly with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "anticoagulants",
+    "severity": "severe",
+    "severity_confidence": 0.9,
+    "effect": "Table 2: Clinically Significant Drug Interactions with Diclofenac Drugs That Interfere with Hemostasis Clinical Impact: •Diclofenac and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant use of diclofenac and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone. Intervention: •Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see Warnings and Precautions (5.5)].",
+    "recommendation": "Increased risk of serious bleeding compared to the use of either drug alone.",
+    "source": "DailyMed",
+    "confidence_score": 0.81
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "lithium",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Lithium Clinical Impact: •NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance. The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. Intervention: •During concomitant use of diclofenac sodium topical gel and lithium, monitor patients for signs of lithium toxicity.",
+    "recommendation": "Increased 15%, and the renal clearance decreased by approximately 20%.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "ace inhibitors",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: •NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol). •In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. (7) •ACE Inhibitors, Angiotensin Receptor Blockers (ARB), or Beta-Blockers: Concomitant use with diclofenac sodium topical gel may diminish the antihypertensive effect of these drugs.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "arbs",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: •NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol). •In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. Intervention: •During concomitant use of diclofenac sodium topical gel and ACE-inhibitors, ARBs, or beta-blockers, monitor blood pressure to ensure that the desired blood pressure is obtained.",
+    "recommendation": "Monitor blood pressure to ensure that the desired blood pressure is obtained.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "cyclosporine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Cyclosporine Clinical Impact: •Concomitant use of diclofenac sodium topical gel and cyclosporine may increase cyclosporine's nephrotoxicity. Intervention: •During concomitant use of diclofenac sodium topical gel and cyclosporine, monitor patients for signs of worsening renal function.",
+    "recommendation": "Increase cyclosporine's nephrotoxicity.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "warfarin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Table 2: Clinically Significant Drug Interactions with Diclofenac Drugs That Interfere with Hemostasis Clinical Impact: •Diclofenac and anticoagulants such as warfarin have a synergistic effect on bleeding. Intervention: •Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see Warnings and Precautions (5.5)]. •Drugs that Interfere with Hemostasis (e.g., warfarin, aspirin, SSRIs/SNRIs): Monitor patients for bleeding who are using diclofenac sodium topical gel concomitantly with drugs that interfere with hemostasis.",
+    "recommendation": "Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "aspirin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Intervention: •Monitor patients with concomitant use of diclofenac sodium topical gel with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see Warnings and Precautions (5.5)]. Aspirin Clinical Impact: •In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of the NSAID alone [see Warnings and Precautions (5.5)]. Intervention: •Concomitant use of diclofenac sodium topical gel and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding [see Warnings and Precautions (5.12)].",
+    "recommendation": "Recommended because of the increased risk of bleeding [see Warnings and Precautions (5.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "furosemide",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Diuretics Clinical Impact: •Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. (7) •Diuretics: NSAIDs can reduce natriuretic effect of furosemide and thiazide diuretics.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Digoxin Clinical Impact: •The concomitant use of diclofenac with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin. Intervention: •During concomitant use of diclofenac sodium topical gel and digoxin, monitor serum digoxin levels. (7) •Digoxin: Concomitant use with diclofenac sodium topical gel may increase serum concentration and prolong half-life of digoxin.",
+    "recommendation": "Increase the serum concentration and prolong the half-life of digoxin.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "diclofenac sodium topical",
+    "ingredient2": "nsaids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers Clinical Impact: •NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or beta-blockers (including propranolol). Diuretics Clinical Impact: •Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. Lithium Clinical Impact: •NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance.",
+    "recommendation": "Reduced the natriuretic effect of loop diuretics (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "cimetidine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Other drugs that inhibit CYP1A2 metabolism include cimetidine and quinolone antimicrobials such as ciprofloxacin and enoxacin [see Warnings and Precautions (5.12)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "ssris",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Altered anticoagulant effects, including increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin. 7.14 Other Serotonergic Drugs The concomitant use of serotonergic drugs (including other SNRIs, SSRIs, triptans, tricyclic antidepressants, opioids, lithium, buspirone, amphetamines, tryptophan, and St.",
+    "recommendation": "Increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "fluoxetine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Similar effects would be expected with other potent CYP2D6 inhibitors (e.g., fluoxetine, quinidine) [see Warnings and Precautions (5.12)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "famotidine",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "However, co-administration of duloxetine with aluminum- and magnesium-containing antacids (51 mEq) or duloxetine with famotidine, had no significant effect on the rate or extent of duloxetine absorption after administration of a 40 mg oral dose.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "opioids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.14 Other Serotonergic Drugs The concomitant use of serotonergic drugs (including other SNRIs, SSRIs, triptans, tricyclic antidepressants, opioids, lithium, buspirone, amphetamines, tryptophan, and St.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "duloxetine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS Both CYP1A2 and CYP2D6 are responsible for duloxetine metabolism. Potent inhibitors of CYP2D6 may increase duloxetine concentrations (7.2). Duloxetine is a moderate inhibitor of CYP2D6 (7.9).",
+    "recommendation": "Increase duloxetine concentrations (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "lorazepam",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.5 Lorazepam Under steady-state conditions for duloxetine (60 mg Q 12 hours) and lorazepam (2 mg Q 12 hours), the pharmacokinetics of duloxetine were not affected by co-administration.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "snris",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Altered anticoagulant effects, including increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin. 7.14 Other Serotonergic Drugs The concomitant use of serotonergic drugs (including other SNRIs, SSRIs, triptans, tricyclic antidepressants, opioids, lithium, buspirone, amphetamines, tryptophan, and St.",
+    "recommendation": "Increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "lithium",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.14 Other Serotonergic Drugs The concomitant use of serotonergic drugs (including other SNRIs, SSRIs, triptans, tricyclic antidepressants, opioids, lithium, buspirone, amphetamines, tryptophan, and St.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "warfarin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "7.4 Drugs that Interfere with Hemostasis (e.g., NSAIDs, Aspirin, and Warfarin) Serotonin release by platelets plays an important role in hemostasis. Altered anticoagulant effects, including increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin. Concomitant administration of warfarin (2 mg to 9 mg once daily) under steady state conditions with duloxetine 60 mg or 120 mg once daily for up to 14 days in healthy subjects (n=15) did not significantly change INR from baseline (mean INR changes ranged from 0.05 to +0.07).",
+    "recommendation": "Increased bleeding, have been reported when SSRIs or SNRIs are co-administered with warfarin.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "proton pump inhibitors",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "It is unknown whether the concomitant administration of proton pump inhibitors affects duloxetine absorption [see Warnings and Precautions (5.14)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "aspirin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "7.4 Drugs that Interfere with Hemostasis (e.g., NSAIDs, Aspirin, and Warfarin) Serotonin release by platelets plays an important role in hemostasis. Epidemiological studies of the case-control and cohort design that have demonstrated an association between use of psychotropic drugs that interfere with serotonin reuptake and the occurrence of upper gastrointestinal bleeding have also shown that concurrent use of an NSAID or aspirin may potentiate this risk of bleeding.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "ciprofloxacin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Other drugs that inhibit CYP1A2 metabolism include cimetidine and quinolone antimicrobials such as ciprofloxacin and enoxacin [see Warnings and Precautions (5.12)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "nsaids",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "7.4 Drugs that Interfere with Hemostasis (e.g., NSAIDs, Aspirin, and Warfarin) Serotonin release by platelets plays an important role in hemostasis.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "duloxetine",
+    "ingredient2": "paroxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7.2 Inhibitors of CYP2D6 Concomitant use of duloxetine (40 mg once daily) with paroxetine (20 mg once daily) increased the concentration of duloxetine AUC by about 60%, and greater degrees of inhibition are expected with higher doses of paroxetine.",
+    "recommendation": "Increased the concentration of duloxetine AUC by about 60%, and greater degrees of inhibition are expected with higher doses of paroxetine.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "acetaminophen",
+    "severity": "contraindicated",
+    "severity_confidence": 1.0,
+    "effect": "7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules Inhibitors of CYP3A4 Clinical Impact: The concomitant use of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules with CYP3A4 inhibitors may result in an increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine",
+    "recommendation": "Increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules is achieved [see Warnings and Precautions (5.",
+    "source": "DailyMed",
+    "confidence_score": 0.9
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "ssris",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that affect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "hydrocodone",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "If urgent use of an opioid is necessary, use test doses and frequent titration of small doses of other opioids (such as oxycodone, hydrocodone, oxymorphone, hydromorphone, or buprenorphine) to treat pain while closely monitoring blood pressure and signs and symptoms of CNS and respiratory depression.",
+    "recommendation": "Monitoring blood pressure and signs and symptoms of CNS and respiratory depression.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "diuretics",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: cyclobenzaprine, metaxalone Diuretics Clinical Impact: Opioids can reduce the efficacy of diuretics by inducing the release of antidiuretic hormone.",
+    "recommendation": "Reduce the efficacy of diuretics by inducing the release of antidiuretic hormone.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "fluoxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: paroxetine, fluoxetine, bupropion, quinidine Benzodiazepines and Other Central Nervous System (CNS) Depressants Clinical Impact: Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "recommendation": "Increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "opioids",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Examples: Benzodiazepines and other sedatives/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, other opioids, alcohol. Serotonergic Drugs Clinical Impact: The concomitant use of opioids with other drugs that affect the serotonergic neurotransmitter system has resulted in serotonin syndrome. Monoamine Oxidase Inhibitors (MAOIs) Clinical Impact: MAOI interactions with opioids may manifest as serotonin syndrome or opioid toxicity (e.g., respiratory depression, coma) [see Warnings and Precautions (5.10)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "morphine",
+    "severity": "contraindicated",
+    "severity_confidence": 1.0,
+    "effect": "Table 1: Clinically Significant Drug Interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules Inhibitors of CYP3A4 Clinical Impact: The concomitant use of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules with CYP3A4 inhibitors may result in an increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules is achieved [see Warnings and Precautions (5.7)]. After stopping a CYP3A4 inhibitor, as the effects of the inhibitor decline, it may",
+    "recommendation": "Increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules is achieved [see Warnings and Precautions (5.",
+    "source": "DailyMed",
+    "confidence_score": 0.9
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "snris",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that affect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "oxycodone",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "If urgent use of an opioid is necessary, use test doses and frequent titration of small doses of other opioids (such as oxycodone, hydrocodone, oxymorphone, hydromorphone, or buprenorphine) to treat pain while closely monitoring blood pressure and signs and symptoms of CNS and respiratory depression.",
+    "recommendation": "Monitoring blood pressure and signs and symptoms of CNS and respiratory depression.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "codeine",
+    "severity": "contraindicated",
+    "severity_confidence": 1.0,
+    "effect": "7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules Inhibitors of CYP3A4 Clinical Impact: The concomitant use of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules with CYP3A4 inhibitors may result in an increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine",
+    "recommendation": "Increase in codeine plasma concentrations with subsequently greater metabolism by cytochrome CYP2D6, resulting in greater morphine levels, which could increase or prolong adverse reactions and may cause potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules is achieved [see Warnings and Precautions (5.",
+    "source": "DailyMed",
+    "confidence_score": 0.9
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "bupropion",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: paroxetine, fluoxetine, bupropion, quinidine Benzodiazepines and Other Central Nervous System (CNS) Depressants Clinical Impact: Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "recommendation": "Increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "benzodiazepines",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: paroxetine, fluoxetine, bupropion, quinidine Benzodiazepines and Other Central Nervous System (CNS) Depressants Clinical Impact: Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death. Examples: Benzodiazepines and other sedatives/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, other opioids, alcohol.",
+    "recommendation": "Increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Rifampin, carbamazepine, phenytoin Inhibitors of CYP2D6 Clinical Impact: Codeine is metabolized by CYP2D6 to form morphine.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "ketoconazole",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Ketoconazole), protease inhibitors (e.g., ritonavir), grapefruit juice CYP3A4 Inducers Clinical Impact: The concomitant use of Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules and CYP3A4 inducers can result in lower codeine levels, greater norcodeine levels, and less metabolism via 2D6 with resultant lower morphine levels [see Clinical Pharmacology (12.3)], resulting in decreased efficacy or onset of a withdrawal syndrome in patients who have developed physical dependence [see Warnings and Precautions (5.7)].",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "tramadol",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that affect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "carbamazepine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Rifampin, carbamazepine, phenytoin Inhibitors of CYP2D6 Clinical Impact: Codeine is metabolized by CYP2D6 to form morphine.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "mirtazapine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: Selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that affect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue).",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "butalbital, acetaminophen, caffeine, and codeine phosphate",
+    "ingredient2": "paroxetine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Examples: paroxetine, fluoxetine, bupropion, quinidine Benzodiazepines and Other Central Nervous System (CNS) Depressants Clinical Impact: Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "recommendation": "Increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "metronidazole",
+    "ingredient2": "cimetidine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "The simultaneous administration of drugs that decrease microsomal liver enzyme activity, such as cimetidine, may prolong the half-life and decrease plasma clearance of metronidazole.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "metronidazole",
+    "ingredient2": "metronidazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "DRUG INTERACTIONS Metronidazole has been reported to potentiate the anticoagulant effect of warfarin and other oral coumarin anticoagulants, resulting in a prolongation of prothrombin time. This possible drug interaction should be considered when Metronidazole Injection is prescribed for patients on this type of anticoagulant therapy. The simultaneous administration of drugs that induce microsomal liver enzymes, such as phenytoin or phenobarbital, may accelerate the elimination of metronidazole, resulting in reduced plasma levels; impaired clearance of phenytoin has also been reported.",
+    "recommendation": "Reduced plasma levels; impaired clearance of phenytoin has also been reported.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "metronidazole",
+    "ingredient2": "anticoagulants",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "DRUG INTERACTIONS Metronidazole has been reported to potentiate the anticoagulant effect of warfarin and other oral coumarin anticoagulants, resulting in a prolongation of prothrombin time.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "metronidazole",
+    "ingredient2": "phenytoin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "The simultaneous administration of drugs that induce microsomal liver enzymes, such as phenytoin or phenobarbital, may accelerate the elimination of metronidazole, resulting in reduced plasma levels; impaired clearance of phenytoin has also been reported.",
+    "recommendation": "Reduced plasma levels; impaired clearance of phenytoin has also been reported.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "metronidazole",
+    "ingredient2": "warfarin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "DRUG INTERACTIONS Metronidazole has been reported to potentiate the anticoagulant effect of warfarin and other oral coumarin anticoagulants, resulting in a prolongation of prothrombin time.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "cephalexin",
+    "ingredient2": "metformin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS Metformin: increased metformin concentrations. ( 7.3) 7.1 Metformin Administration of cephalexin with metformin results in increased plasma metformin concentrations and decreased renal clearance of metformin. Careful patient monitoring and dose adjustment of metformin is recommended in patients concomitantly taking cephalexin and metformin [ see Clinical Pharmacology ( 12.3 )].",
+    "recommendation": "Recommended in patients concomitantly taking cephalexin and metformin [ see Clinical Pharmacology ( 12.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "cephalexin",
+    "ingredient2": "cephalexin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "( 7.1) Probenecid - The renal excretion of cephalexin is inhibited by probenecid. Co-administration of probenecid with cephalexin is not recommended. ( 7.2) Administration of cephalexin may result in a false-positive reaction for glucose in the urine.",
+    "recommendation": "Recommended.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "oxaliplatin",
+    "ingredient2": "anticoagulants",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7.3 Use with Anticoagulants Prolonged prothrombin time and INR occasionally associated with hemorrhage have been reported in patients who received oxaliplatin with fluorouracil/leucovorin while on anticoagulants [see Warnings and Precautions (5.9), Adverse Reactions (6.2)]. Increase frequency of monitoring in patients who are receiving oxaliplatin with fluorouracil/leucovorin and oral anticoagulants.",
+    "recommendation": "Increase frequency of monitoring in patients who are receiving oxaliplatin with fluorouracil/leucovorin and oral anticoagulants.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "telmisartan",
+    "ingredient2": "telmisartan",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS Aliskiren: Do not co-administer aliskiren with telmisartan in patients with diabetes. Avoid use of aliskiren with telmisartan in patients with renal impairment (GFR <60 mL/min). Digoxin: When telmisartan tablet was co-administered with digoxin, median increases in digoxin peak plasma concentration (49%) and in trough concentration (20%) were observed.",
+    "recommendation": "Do not co-administer aliskiren with telmisartan in patients with diabetes.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "telmisartan",
+    "ingredient2": "lithium",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Lithium: Reversible increases in serum lithium concentrations and toxicity have been reported during concomitant administration of lithium with angiotensin II receptor antagonists including telmisartan. Therefore, monitor serum lithium levels during concomitant use.",
+    "recommendation": "Increases in serum lithium concentrations and toxicity have been reported during concomitant administration of lithium with angiotensin II receptor antagonists including telmisartan.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "telmisartan",
+    "ingredient2": "digoxin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Digoxin: When telmisartan tablet was co-administered with digoxin, median increases in digoxin peak plasma concentration (49%) and in trough concentration (20%) were observed. Therefore, monitor digoxin levels when initiating, adjusting, and discontinuing telmisartan for the purpose of keeping the digoxin level within the therapeutic range.",
+    "recommendation": "Increases in digoxin peak plasma concentration (49%) and in trough concentration (20%) were observed.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "telmisartan",
+    "ingredient2": "nsaids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Non-Steroidal Anti-Inflammatory Agents including Selective Cyclooxygenase-2 Inhibitors (COX-2 Inhibitors): In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with angiotensin II receptor antagonists, including telmisartan, may result in deterioration of renal function, including possible acute renal failure. The antihypertensive effect of angiotensin II receptor antagonists, including telmisartan may be attenuated by NSAIDs including selective COX-2 inhibitors. • NSAIDs: Increased risk of renal impairment and loss of anti-hypertensive effect (7) • Do not co-administer aliskiren with telmisartan tablets in patients with diabetes (7)",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "ipratropium bromide",
+    "ingredient2": "corticosteroids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Ipratropium bromide has also been used with other pulmonary medications, including methylxanthines and corticosteroids, without adverse drug interactions.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "ipratropium bromide",
+    "ingredient2": "bronchodilators",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions Ipratropium bromide has been shown to be a safe and effective bronchodilator when used in conjunction with beta adrenergic bronchodilators.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "diazepam",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on rufinamide should begin valproate therapy at a low dose, and titrate to clinically effective dose (7.2) Dosage adjustment of amitriptyline/nortriptyline, propofol, warfarin, and zidovudine may be necessary if used concomitantly ",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "methotrexate",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on rufinamide should begin valproate therapy at a low dose, and titrate to clinically effective dose (7.2) Dosage adjustment of amitriptyline/nortriptyline, propofol, warfarin, and zidovudine may be necessary if used concomitantly ",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "anticonvulsants",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Patients receiving valproate and ethosuximide, especially along with other anticonvulsants, should be monitored for alterations in serum concentrations of both drugs.",
+    "recommendation": "Monitored for alterations in serum concentrations of both drugs.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "valproate",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS Hepatic enzyme-inducing drugs (e.g., phenytoin, carbamazepine, phenobarbital, primidone, rifampin) can increase valproate clearance, while enzyme inhibitors (e.g., felbamate) can decrease valproate clearance. Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "anticoagulants",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "The therapeutic relevance of this is unknown; however, coagulation tests should be monitored if valproate therapy is instituted in patients taking anticoagulants.",
+    "recommendation": "Monitored if valproate therapy is instituted in patients taking anticoagulants.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "clonazepam",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Clonazepam The concomitant use of valproate and clonazepam may induce absence status in patients with a history of absence type seizures.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "phenytoin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS Hepatic enzyme-inducing drugs (e.g., phenytoin, carbamazepine, phenobarbital, primidone, rifampin) can increase valproate clearance, while enzyme inhibitors (e.g., felbamate) can decrease valproate clearance. Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "warfarin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on rufinamide should begin valproate therapy at a low dose, and titrate to clinically effective dose (7.2) Dosage adjustment of amitriptyline/nortriptyline, propofol, warfarin, and zidovudine may be necessary if used concomitantly ",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "aspirin",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on rufinamide should begin valproate therapy at a low dose, and titrate to clinically effective dose (7.2) Dosage adjustment of amitriptyline/nortriptyline, propofol, warfarin, and zidovudine may be necessary if used concomitantly ",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "carbamazepine",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS Hepatic enzyme-inducing drugs (e.g., phenytoin, carbamazepine, phenobarbital, primidone, rifampin) can increase valproate clearance, while enzyme inhibitors (e.g., felbamate) can decrease valproate clearance. For example, phenytoin, carbamazepine, and phenobarbital (or primidone) can double the clearance of valproate. Carbamazepine/carbamazepine-10,11-Epoxide Serum levels of carbamazepine (CBZ) decreased 17% while that of carbamazepine-10,11- epoxide (CBZ-E) increased by 45% upon co-administration of valproate and CBZ to epileptic patients.",
+    "recommendation": "Increase valproate clearance, while enzyme inhibitors (e.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "divalproex sodium",
+    "ingredient2": "lamotrigine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Therefore increased monitoring of valproate and concomitant drug concentrations and dosage adjustment are indicated whenever enzyme-inducing or inhibiting drugs are introduced or withdrawn (7.1) Aspirin, carbapenem antibiotics, estrogen-containing hormonal contraceptives, methotrexate: Monitoring of valproate concentrations is recommended (7.1) Co-administration of valproate can affect the pharmacokinetics of other drugs (e.g., diazepam, ethosuximide, lamotrigine, phenytoin) by inhibiting their metabolism or protein binding displacement (7.2) Patients stabilized on rufinamide should begin valproate therapy at a low dose, and titrate to clinically effective dose (7.2) Dosage adjustment of amitriptyline/nortriptyline, propofol, warfarin, and zidovudine may be necessary if used concomitantly ",
+    "recommendation": "Recommended (7.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "carisoprodol",
+    "ingredient2": "opioids",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS • CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) – additive sedative effects ( 5.1, 7.1) 7.1 CNS Depressants The sedative effects of carisoprodol and other CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may be additive.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "carisoprodol",
+    "ingredient2": "benzodiazepines",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS • CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) – additive sedative effects ( 5.1, 7.1) 7.1 CNS Depressants The sedative effects of carisoprodol and other CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may be additive.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "carisoprodol",
+    "ingredient2": "aspirin",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Low dose aspirin also showed an induction effect on CYP2C19.",
+    "recommendation": "",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "carisoprodol",
+    "ingredient2": "omeprazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Co-administration of CYP2C19 inhibitors, such as omeprazole or fluvoxamine, with carisoprodol could result in increased exposure of carisoprodol and decreased exposure of meprobamate.",
+    "recommendation": "Increased exposure of carisoprodol and decreased exposure of meprobamate.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "lithium carbonate",
+    "ingredient2": "metronidazole",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "7 DRUG INTERACTIONS Diuretics, NSAID, renin-angiotensin system antagonists, or metronidazole may increase lithium serum concentrations.",
+    "recommendation": "Increase lithium serum concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  },
+  {
+    "ingredient1": "lithium carbonate",
+    "ingredient2": "diuretics",
+    "severity": "major",
+    "severity_confidence": 0.7,
+    "effect": "7 DRUG INTERACTIONS Diuretics, NSAID, renin-angiotensin system antagonists, or metronidazole may increase lithium serum concentrations. ( 5.5, 7.1) 7.1 Drugs Having Clinically Important Interactions with Lithium Table 4: Clinically Important Drug Interactions with Lithium Diuretics Clinical Impact: Diuretic-induced sodium loss may reduce lithium clearance and increase serum lithium concentrations.",
+    "recommendation": "Increase lithium serum concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.63
+  },
+  {
+    "ingredient1": "lithium carbonate",
+    "ingredient2": "lithium",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "7 DRUG INTERACTIONS Diuretics, NSAID, renin-angiotensin system antagonists, or metronidazole may increase lithium serum concentrations. Recommend frequent monitoring of serum lithium concentration and adjust dosage when necessary. ( 2.3, 7.1) Serotonergic Agents: Increased risk of serotonin syndrome when co-administered with lithium.",
+    "recommendation": "Increase lithium serum concentrations.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "lithium carbonate",
+    "ingredient2": "phenytoin",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Methyldopa, Phenytoin and Carbamazepine Clinical Impact: Concomitant use may increase risk of adverse reactions of these drugs. Intervention: Monitor patients closely for adverse reactions of methyldopa, phenytoin, and carbamazepine.",
+    "recommendation": "Increase risk of adverse reactions of these drugs.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "lithium carbonate",
+    "ingredient2": "carbamazepine",
+    "severity": "moderate",
+    "severity_confidence": 0.5,
+    "effect": "Methyldopa, Phenytoin and Carbamazepine Clinical Impact: Concomitant use may increase risk of adverse reactions of these drugs. Intervention: Monitor patients closely for adverse reactions of methyldopa, phenytoin, and carbamazepine.",
+    "recommendation": "Increase risk of adverse reactions of these drugs.",
+    "source": "DailyMed",
+    "confidence_score": 0.45
+  },
+  {
+    "ingredient1": "ampicillin",
+    "ingredient2": "allopurinol",
+    "severity": "minor",
+    "severity_confidence": 0.3,
+    "effect": "Drug Interactions The concurrent administration of allopurinol and ampicillin increases substantially the incidence of skin rashes in patients receiving both drugs as compared to patients receiving ampicillin alone. It is not known whether this potentiation of ampicillin rashes is due to allopurinol or the hyperuricemia present in these patients.",
+    "recommendation": "Increases substantially the incidence of skin rashes in patients receiving both drugs as compared to patients receiving ampicillin alone.",
+    "source": "DailyMed",
+    "confidence_score": 0.27
+  }
+]
