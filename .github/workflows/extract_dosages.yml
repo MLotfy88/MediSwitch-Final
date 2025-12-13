@@ -1,0 +1,61 @@
+name: Extract Dosage Data (DailyMed)
+# Dedicated workflow for dosage extraction
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+
+jobs:
+  extract-dosages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120  # 2 hours max
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Download DailyMed data
+        run: |
+          python3 scripts/download_dailymed.py
+      
+      - name: Extract DailyMed Dosages
+        run: |
+          python3 production_data/extract_dosages_production.py
+      
+      - name: Merge/Clean Dosages
+        run: |
+          python3 scripts/merge_dosages.py
+          
+      - name: Upload Dosage results
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged-dosages
+          path: production_data/dosages_merged.json
+          retention-days: 30
+      
+      - name: Create summary
+        run: |
+          echo "## Dosage Extraction Results" >> $GITHUB_STEP_SUMMARY
+          python3 -c "
+          import json
+          try:
+              with open('production_data/dosages_merged.json') as f:
+                  data = json.load(f)
+              print(f'- Total unique dosages: {len(data):,}')
+              pediatric = sum(1 for d in data if d.get('structured', {}).get('is_pediatric'))
+              print(f'- Pediatric records: {pediatric:,}')
+              print(f'- File size: {len(json.dumps(data))/1024:.1f} KB')
+          except Exception as e:
+              print(f'Error reading results: {e}')
+          " >> $GITHUB_STEP_SUMMARY
