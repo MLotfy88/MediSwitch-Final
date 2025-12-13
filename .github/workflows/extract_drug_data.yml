@@ -141,12 +141,23 @@ jobs:
       - name: Merge results (Interactions)
         run: |
           python3 scripts/merge_interactions.py
+          
+      - name: Merge results (Dosages)
+        run: |
+          python3 scripts/merge_dosages.py
       
-      - name: Upload merged results
+      - name: Upload merged interactions
         uses: actions/upload-artifact@v4
         with:
           name: merged-interactions
           path: production_data/interactions_merged.json
+          retention-days: 90
+
+      - name: Upload merged dosages
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged-dosages
+          path: production_data/dosages_merged.json
           retention-days: 90
       
       - name: Create final summary
