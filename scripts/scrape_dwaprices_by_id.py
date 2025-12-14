@@ -41,7 +41,7 @@ USER_AGENTS = [
 
 def log(message):
     ts = datetime.now().strftime('%H:%M:%S')
-    print(f"[{ts}] {message}")
+    print(f"[{ts}] {message}", flush=True)
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
         f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\n")
 
