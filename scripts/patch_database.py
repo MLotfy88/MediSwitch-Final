@@ -69,10 +69,12 @@ def patch_dosages(main_file, update_file):
                 # Upsert logic
                 new_item = {
                     "active_ingredient": active,
-                    "strength": "general", # Default
+                    "strength": rec.get('strength', "general"),
                     "standard_dose": f"{std_dose} mg" if std_dose else "See label",
-                    "max_dose": None,
-                    "package_label": dosage_text[:2000] # Truncate for JSON limit
+                    "max_dose": rec.get('dosages', {}).get('max_dose_mg'),
+                    "package_label": dosage_text[:2000], # Truncate for JSON limit
+                    "source": "DailyMed (Patch)",
+                    "updated_at": rec.get('published_date', '')
                 }
                 
                 app_map[active] = new_item
