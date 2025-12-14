@@ -4,7 +4,7 @@ import os
 import re
 
 MEDS_CSV = 'assets/meds.csv'
-DB_FILE = 'production_data/production_dosages.jsonl'
+DB_FILE = 'production_data/production_hybrid.jsonl'
 
 def is_valid_concentration(conc):
     if not conc or not isinstance(conc, str): return False

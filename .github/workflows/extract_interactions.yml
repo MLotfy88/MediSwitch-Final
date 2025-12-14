@@ -1,26 +1,15 @@
-name: Extract Drug Data (DailyMed + OpenFDA)
-# Workflow to extract drug interactions and dosages from free sources
+name: Extract Drug Interactions (DailyMed)
+# Workflow to extract drug interactions from DailyMed (Full Database)
 
 on:
   workflow_dispatch:  # Manual trigger
-    inputs:
-      data_source:
-        description: 'Data source to extract'
-        required: true
-        default: 'both'
-        type: choice
-        options:
-          - dailymed_interactions
-          - openfda_interactions
-          - both
   schedule:
-    - cron: '0 0 * * 0'  # Weekly on Sunday (optional)
+    - cron: '0 0 * * 0'  # Weekly on Sunday
 
 jobs:
-  extract-dailymed:
-    if: github.event.inputs.data_source == 'dailymed_interactions' || github.event.inputs.data_source == 'both'
+  extract-interactions:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 2 hours max
+    timeout-minutes: 180
     
     steps:
       - name: Checkout code
@@ -36,130 +25,31 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Download DailyMed data (if needed)
+      - name: Download DailyMed Full Release
         run: |
           python3 scripts/download_dailymed.py
       
-      - name: Extract DailyMed interactions
+      - name: Extract Interactions
         run: |
+          # Extracts ALL interactions from the downloaded XMLs
           python3 production_data/extract_dailymed_interactions.py
       
-      - name: Upload DailyMed results
+      - name: Upload Interactions Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dailymed-interactions
+          name: dailymed_interactions
           path: production_data/dailymed_interactions_clean.json
-          retention-days: 30
-      
-      - name: Create summary
-        run: |
-          echo "## DailyMed Extraction Results" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-          import json
-          with open('production_data/dailymed_interactions_clean.json') as f:
-              data = json.load(f)
-          print(f'- Total interactions: {len(data):,}')
-          print(f'- File size: {len(json.dumps(data))/1024:.1f} KB')
-          " >> $GITHUB_STEP_SUMMARY
-
-  extract-openfda:
-    if: github.event.inputs.data_source == 'openfda_interactions' || github.event.inputs.data_source == 'both'
-    runs-on: ubuntu-latest
-    timeout-minutes: 180  # 3 hours max
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
-      
-      - name: Download OpenFDA data
-        run: |
-          python3 scripts/dosage/download_openfda_labels.py
-      
-      - name: Extract OpenFDA interactions
-        run: |
-          python3 production_data/extract_interactions_production.py
-      
-      - name: Upload OpenFDA results
-        uses: actions/upload-artifact@v4
-        with:
-          name: openfda-interactions
-          path: production_data/drug_interactions_clean.json
-          retention-days: 30
-      
-      - name: Create summary
-        run: |
-          echo "## OpenFDA Extraction Results" >> $GITHUB_STEP_SUMMARY
-          python3 -c "
-          import json
-          with open('production_data/drug_interactions_clean.json') as f:
-              data = json.load(f)
-          print(f'- Total interactions: {len(data):,}')
-          print(f'- File size: {len(json.dumps(data))/1024:.1f} KB')
-          " >> $GITHUB_STEP_SUMMARY
-
-  merge-results:
-    needs: [extract-dailymed, extract-openfda]
-    if: always() && github.event.inputs.data_source == 'both'
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      
-      - name: Download all artifacts
-        uses: actions/download-artifact@v4
-        
-      - name: List artifacts
-        run: ls -R
-
-      - name: Merge results (Interactions)
-        run: |
-          python3 scripts/merge_interactions.py
-          
-      - name: Merge results (Dosages)
-        run: |
-          python3 scripts/merge_dosages.py
-      
-      - name: Upload merged interactions
-        uses: actions/upload-artifact@v4
-        with:
-          name: merged-interactions
-          path: production_data/interactions_merged.json
           retention-days: 90
       
-      - name: Create final summary
+      - name: Interactions Summary
         run: |
-          echo "## 🎯 Final Merged Results" >> $GITHUB_STEP_SUMMARY
+          echo "## DailyMed Interaction Results" >> $GITHUB_STEP_SUMMARY
           python3 -c "
           import json
-          with open('production_data/interactions_merged.json') as f:
-              data = json.load(f)
-          
-          from collections import Counter
-          severities = Counter(d['severity'] for d in data)
-          sources = Counter(d['source'] for d in data)
-          
-          print(f'### Statistics')
-          print(f'- **Total unique interactions**: {len(data):,}')
-          print(f'- **DailyMed**: {sources.get(\"DailyMed\", 0):,}')
-          print(f'- **OpenFDA**: {sources.get(\"OpenFDA\", 0):,}')
-          print(f'')
-          print(f'### Severity Distribution')
-          for severity, count in severities.most_common():
-              print(f'- **{severity}**: {count:,} ({count/len(data)*100:.1f}%)')
+          try:
+              with open('production_data/dailymed_interactions_clean.json') as f:
+                  data = json.load(f)
+              print(f'- Total interactions: {len(data):,}')
+          except:
+              print('- No data generated.')
           " >> $GITHUB_STEP_SUMMARY
