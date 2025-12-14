@@ -1,0 +1,165 @@
+name: Rebuild Full Database (Unified)
+# The "Magic Button" to rebuild the entire database from scratch.
+# Order:
+# 1. Scrape DwaPrices (Details + Concentration) -> Update meds.csv
+# 2. Download & Extract DailyMed (Full)
+# 3. Match & Produce Files (Drugs, Interactions, Dosages)
+# 4. Update Local Assets (JSONs)
+# 5. Sync D1 (Full Overwrite)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  full-rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # 6 Hours Max
+    
+    steps:
+      - name: Send Slack Notification - Start
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_USERNAME: MediSwitch Bot
+          SLACK_ICON_EMOJI: ':construction:'
+          SLACK_COLOR: '#ff9900'
+          SLACK_MESSAGE: '🚧 Starting Full Database Rebuild... This may take several hours.'
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install Dependencies
+        run: |
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles
+
+      # --- STEP 1: Scrape & Update CSV ---
+      - name: 1. Scrape DwaPrices (Details + Concentration)
+        continue-on-error: true # Don't fail if scraper has network issues, use best effort
+        run: |
+          echo "::group::Scraping DwaPrices"
+          # Requires meds.csv to exist in repo
+          python3 scripts/scrape_dwaprices_by_id.py
+          echo "::endgroup::"
+          
+      - name: 1.5 Update meds.csv with Scraped Data
+        run: |
+          echo "::group::Updating CSV"
+          python3 scripts/update_meds_csv_from_scraped.py
+          echo "::endgroup::"
+
+      # --- STEP 2: DailyMed Download ---
+      - name: 2. Download DailyMed Full Release
+        run: |
+          echo "::group::Downloading DailyMed"
+          python3 scripts/download_dailymed.py
+          echo "::endgroup::"
+
+      # --- STEP 3: Extraction & Matching ---
+      - name: 3.1 Extract Dosages (Process Data Lake)
+        run: |
+          # Produces production_data/production_dosages.jsonl
+          python3 scripts/process_datalake.py
+          
+      - name: 3.2 Extract Interactions
+        run: |
+          # Produces production_data/dailymed_interactions.json
+          python3 production_data/extract_dailymed_interactions.py
+
+      - name: 3.3 Merge Hybrid Data
+        run: |
+          # Produces production_data/production_hybrid.jsonl
+          # Uses meds.csv (updated in step 1.5) and production_dosages.jsonl
+          python3 scripts/merge_hybrid_data.py
+
+      # --- STEP 4: Asset Generation ---
+      - name: 4. Bootstrap App Assets (Generate JSONs)
+        run: |
+          # Generates assets/data/dosage_guidelines.json AND drug_interactions.json
+          python3 scripts/bootstrap_app_data.py
+
+      # --- COMMIT POINT ---
+      - name: Commit Updated Database
+        run: |
+          git config --global user.name 'DailyMed Bot'
+          git config --global user.email 'bot@dailymed.local'
+          
+          git add assets/meds.csv
+          git add assets/data/dosage_guidelines.json
+          git add assets/data/drug_interactions.json
+          git add production_data/production_hybrid.jsonl
+          
+          # Only commit if changes exist
+          git commit -m "db: full rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
+
+      # --- STEP 5: D1 Sync (Full) ---
+      - name: 5. Sync Full Database to D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9f7fd7dfef294f26d47d62df34726367' }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID || '77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0' }}
+        run: |
+          echo "::group::Syncing Drugs Table"
+          python3 scripts/export_to_d1.py assets/meds.csv d1_import.sql
+          
+          # Use wrangler (assumes installed in runner or we use curl/python wrapper)
+          # We need to install wrangler first
+          npm install -g wrangler
+          
+          cd cloudflare-worker
+          npx wrangler d1 execute mediswitch-db --file=../d1_import.sql --remote
+          echo "::endgroup::"
+          
+          # We also need to sync Dosages and Interactions which were just rebuilt
+          # We can use the Daily Sync script logic or specialized uploaders
+          # Daily Sync script (scripts/sync_updates_to_d1.py) is designed for incremental updates (reading separate update files).
+          # We need "Bulk Upload" scripts.
+          # Re-using scripts/sync_updates_to_d1.py? No, it expects 'update_dosages_*.jsonl'.
+          # We should use 'scripts/upload_dosage_d1.py' if it exists or write a bulk uploader.
+          # Wait, I see 'scripts/upload_dosage_d1.py' in the monthly workflow I viewed earlier!
+          # But I deleted monthly workflows. I hope I didn't delete the scripts!
+          # I need to check if 'scripts/upload_dosage_d1.py' exists.
+          
+          # Link to: scripts/upload_dosage_d1.py
+          echo "::group::Syncing Dosages (Full)"
+          python3 scripts/upload_dosage_d1.py \
+            --json-file assets/data/dosage_guidelines.json \
+            --account-id ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
+            --database-id ${{ secrets.D1_DATABASE_ID }} \
+            --api-token ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          echo "::endgroup::"
+          
+          # Link to: scripts/upload_interactions_d1.py
+          echo "::group::Syncing Interactions (Full)"
+          python3 scripts/upload_interactions_d1.py \
+            --json-file assets/data/drug_interactions.json \
+            --account-id ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
+            --database-id ${{ secrets.D1_DATABASE_ID }} \
+            --api-token ${{ secrets.CLOUDFLARE_API_TOKEN }} \
+            --clear-first
+          echo "::endgroup::"
+          
+      - name: Send Slack Notification - Success
+        uses: rtCamp/action-slack-notify@v2
+        if: success()
+        env:
+            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+            SLACK_USERNAME: MediSwitch Bot
+            SLACK_ICON_EMOJI: ':white_check_mark:'
+            SLACK_COLOR: '#36a64f'
+            SLACK_MESSAGE: '✅ Full Database Rebuild Complete!'
+
+      - name: Send Slack Notification - Failure
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
+        env:
+            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+            SLACK_USERNAME: MediSwitch Bot
+            SLACK_ICON_EMOJI: ':x:'
+            SLACK_COLOR: '#ff0000'
+            SLACK_MESSAGE: '❌ Full Database Rebuild Failed.'

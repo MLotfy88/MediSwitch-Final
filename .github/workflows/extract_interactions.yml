@@ -40,6 +40,18 @@ jobs:
           name: dailymed_interactions
           path: production_data/dailymed_interactions_clean.json
           retention-days: 90
+          
+      - name: Bootstrap App Assets (Interactions)
+        run: |
+          python3 scripts/bootstrap_app_data.py
+          
+      - name: Commit App Assets
+        run: |
+          git config --global user.name 'DailyMed Bot'
+          git config --global user.email 'bot@dailymed.local'
+          git add assets/data/drug_interactions.json
+          git commit -m "data: full interaction rebuild $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
       
       - name: Interactions Summary
         run: |

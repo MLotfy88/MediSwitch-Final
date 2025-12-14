@@ -79,3 +79,16 @@ jobs:
           name: production-hybrid-db
           path: production_data/production_hybrid.jsonl
           retention-days: 90
+          
+      - name: Bootstrap App Assets (Dosages)
+        run: |
+          # Convert Hybrid DB to App JSON
+          python3 scripts/bootstrap_app_data.py
+          
+      - name: Commit App Assets
+        run: |
+          git config --global user.name 'DailyMed Bot'
+          git config --global user.email 'bot@dailymed.local'
+          git add assets/data/dosage_guidelines.json
+          git commit -m "data: full dosage rebuild $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
