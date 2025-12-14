@@ -38,8 +38,6 @@ SALT_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-# ... (Synonym Map omitted for brevity, it's fine) ...
-
 def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> str:
     """
     Tiered normalization.
@@ -57,7 +55,7 @@ def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> st
     name = name.replace('polymyxin b', 'polymyxin')
     name = name.replace('amphotericin b', 'amphotericin')
     name = name.replace('vitamin b12', 'cyanocobalamin') # Common
-    name = name.replace('vitamin b', 'vitamin') # Risky but local might just say 'Vitamin Complex'? -> No, let's stick to safe ones.
+    name = name.replace('vitamin b', 'vitamin') 
     
     # 1. Tokenize
     parts = name.split()
@@ -89,9 +87,8 @@ def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> st
     if not clean_parts: return ""
     return " ".join(sorted(clean_parts))
 
-# Synonyms (Local -> US Standard) - Expanded for Max Coverage
+# Synonyms (Local -> US Standard)
 SYNONYM_MAP = {
-    # Common INN -> USAN
     'paracetamol': 'acetaminophen',
     'glibenclamide': 'glyburide',
     'adrenaline': 'epinephrine',
@@ -104,12 +101,12 @@ SYNONYM_MAP = {
     'lignocaine': 'lidocaine',
     'thyroxine': 'levothyroxine',
     'oestrogen': 'estrogen',
-    'omberacetam': 'piracetam', # Sometimes needed
+    'omberacetam': 'piracetam', 
     'isoprenaline': 'isoproterenol',
     'orciprenaline': 'metaproterenol',
     'bendrofluazide': 'bendroflumethiazide',
     'dothiepin': 'dosulepin',
-    'chlorpheniramine': 'chlorphenamine', # Reverse direction sometimes needed
+    'chlorpheniramine': 'chlorphenamine',
     'dicyclomine': 'dicycloverine',
     'procaine benzylpenicillin': 'penicillin g procaine',
     'benzylpenicillin': 'penicillin g',
@@ -125,11 +122,11 @@ SYNONYM_MAP = {
     'sodium cromoglycate': 'cromolyn sodium',
     'stilboestrol': 'diethylstilbestrol',
     'thiopentone': 'thiopental',
-    'trimethoprim sulfamethoxazole': 'sulfamethoxazole trimethoprim', # Order fix
+    'trimethoprim sulfamethoxazole': 'sulfamethoxazole trimethoprim',
     'co-trimoxazole': 'sulfamethoxazole trimethoprim',
-    'valproate sodium': 'valproic acid', # Often interchangeable in search
+    'valproate sodium': 'valproic acid',
     'cefalexin': 'cephalexin',
-    'cefaclor': 'cefaclor', # Spelling
+    'cefaclor': 'cefaclor',
     'cefadroxil': 'cefadroxil',
     'cefazolin': 'cephazolin',
     'cefixime': 'cefixime',
@@ -138,8 +135,8 @@ SYNONYM_MAP = {
     'aciclovir': 'acyclovir',
     'ciclosporin': 'cyclosporine',
     'dimetindene': 'dimethindene',
-    'fexofenadine': 'fexofenadine', # Same
-    'guaifenesin': 'guaiphenesin', # Reverse check
+    'fexofenadine': 'fexofenadine',
+    'guaifenesin': 'guaiphenesin',
 }
 
 # Reuse Dosage Parser Logic (from extract_dosages_production.py)
@@ -147,8 +144,7 @@ class DosageParser:
     def __init__(self):
         # Precise Pediatric Pattern
         self.mg_kg_pattern = re.compile(r'(\d+(?:\.\d+)?)\s*(?:mg|mcg|g)/kg', re.IGNORECASE)
-        # Adult/Fixed Dose Pattern (Looking for specific "Recommended: X mg" patterns is hard, grabbing standard mg)
-        # We will look for numbers followed by units, excluding /kg
+        # Adult/Fixed Dose Pattern
         self.simple_dose_pattern = re.compile(r'\b(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml)\b(?!\s*/\s*kg)', re.IGNORECASE)
         
         self.frequency_map = {
@@ -214,9 +210,6 @@ def clean_drug_name(raw_name: str) -> str:
     name = re.sub(r'\s+', ' ', name).strip()
     
     return name
-
-    return name
-
 
 # Regex from scraper.py (User's Logic)
 CONCENTRATION_REGEX = re.compile(
@@ -313,7 +306,7 @@ def process_datalake():
     # Init Parsers
     dosage_parser = DosageParser()
     app_data_map, app_active_exact, app_active_stripped = load_app_data()
-    final_records = []
+    best_matches = {} # med_id -> {score, record}
     
     processed_count = 0
     
@@ -324,7 +317,7 @@ def process_datalake():
                 try:
                     entry = json.loads(line)
                 except json.JSONDecodeError:
-                    if "[" in line and "]" in line: # Fallback for reading array JSON line by line (rare)
+                    if "[" in line or "]" in line: # Skip array brackets
                         continue
                     continue # Skip invalid line
                 
@@ -415,8 +408,14 @@ def process_datalake():
                 
                 targets = app_records if app_records else [{'id': None, 'trade_name': drug_name, 'original_name': drug_name}]
                 
+                # QUALITY SCORING
+                # We want to pick the BEST DailyMed record for this Med ID.
+                # Prioritize: Has Dosage > Has Interaction > Is Single Ingredient
+                
                 for app_rec in targets:
-                    
+                    med_id = app_rec.get('id')
+                    if not med_id: continue # Only care about linking existing IDs
+
                     # Merge Concentration:
                     # Priority 1: Extracted from App Name (Higher trust for the specific inventory item)
                     # Priority 2: DailyMed (Fallback)
@@ -447,8 +446,8 @@ def process_datalake():
                              structured_dose = peds_struct
                              structured_dose['is_pediatric'] = True
 
-                    final_record = {
-                        'med_id': app_rec.get('id'), # The Link!
+                    candidate_record = {
+                        'med_id': med_id,
                         'trade_name': app_rec.get('trade_name'),
                         'dailymed_name': drug_name,
                         'concentration': final_conc,
@@ -456,26 +455,49 @@ def process_datalake():
                         'linkage_method': app_rec.get('linkage_type', 'Trade_Name'),
                         'dosages': structured_dose,
                         'clinical_text': {
-                            'dosage': dosage_text[:1000] if dosage_text else None, # Truncate for DB size? Or keep full?
-                            'interactions': clinical.get('drug_interactions', '')[:500] if clinical.get('drug_interactions') else None,
-                            'contraindications': clinical.get('contraindications', '')[:500] if clinical.get('contraindications') else None,
-                            'pediatric_use': pediatric_text[:1000] if pediatric_text else None,
+                            'dosage': dosage_text[:2000] if dosage_text else None, # Truncate for DB size
+                            'interactions': clinical.get('drug_interactions', '')[:1000] if clinical.get('drug_interactions') else None,
+                            'contraindications': clinical.get('contraindications', '')[:1000] if clinical.get('contraindications') else None,
+                            'pediatric_use': pediatric_text[:2000] if pediatric_text else None,
                             'pregnancy': clinical.get('pregnancy')[:500] if clinical.get('pregnancy') else None,
                             'boxed_warning': clinical.get('boxed_warning')[:500] if clinical.get('boxed_warning') else None,
                         },
                          'set_id': entry.get('set_id')
                     }
-                if final_record['med_id'] or final_record['dosages'].get('dose_mg_kg') or final_record['dosages'].get('adult_dose_mg'):
-                        final_records.append(final_record)
+                    
+                    # --- SCORING LOGIC ---
+                    score = 0
+                    if structured_dose.get('dose_mg_kg'): score += 50
+                    if structured_dose.get('adult_dose_mg'): score += 30
+                    if dosage_text: score += 10
+                    if clinical.get('drug_interactions'): score += 5
+                    if clinical.get('pediatric_use'): score += 5
+                    if app_rec.get('linkage_type') == 'Trade_Name': score += 20
+                    elif app_rec.get('linkage_type') == 'Active_Exact': score += 10
+                    
+                    # Filter out candidates with NO data at all
+                    if score == 0 and not dosage_text:
+                         continue
+                         
+                    # Best Match Selection
+                    if med_id not in best_matches or score > best_matches[med_id]['score']:
+                        candidate_record['quality_score'] = score
+                        best_matches[med_id] = {
+                            'score': score,
+                            'record': candidate_record
+                        }
                 
     except Exception as e:
         print(f"❌ Error during processing: {e}")
         import traceback
         traceback.print_exc()
 
+    # Flatten best matches
+    final_records = [v['record'] for v in best_matches.values()]
+
     # 7. Save
     print(f"\nProcessing complete. Scanned {processed_count:,} records.")
-    print(f"Generated {len(final_records):,} enriched records.")
+    print(f"Generated {len(final_records):,} enriched records unique by ID.")
     
     # Save Production Output (JSONL)
     print(f"Writing production DB to {PRODUCTION_OUTPUT}...")
