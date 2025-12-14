@@ -179,7 +179,12 @@ async def main():
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
     log(f"Total IDs to scrape: {len(all_ids)}")
 
-    # 2. Check Existing (Resume)
+    # 2. Check Existing (Resume vs Reset)
+    if '--reset' in sys.argv:
+        log("🔄 RESET MODE: Wiping existing scraped data to start fresh.")
+        if os.path.exists(OUTPUT_FILE):
+             os.remove(OUTPUT_FILE)
+    
     processed_ids = set()
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -188,9 +193,7 @@ async def main():
                     if line.strip():
                         try:
                             rec = json.loads(line)
-                            # SMART RESUME: Only skip if we have the new data fields (concentration)
-                            if 'concentration' in rec:
-                                processed_ids.add(str(rec['id']))
+                            processed_ids.add(str(rec['id']))
                         except: pass
         except: pass
     
