@@ -188,7 +188,9 @@ async def main():
                     if line.strip():
                         try:
                             rec = json.loads(line)
-                            processed_ids.add(str(rec['id']))
+                            # SMART RESUME: Only skip if we have the new data fields (concentration)
+                            if 'concentration' in rec:
+                                processed_ids.add(str(rec['id']))
                         except: pass
         except: pass
     
