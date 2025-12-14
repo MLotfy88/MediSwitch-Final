@@ -89,8 +89,8 @@ jobs:
           git config --global user.email 'bot@dailymed.local'
           
           git add assets/meds.csv
-          git add assets/data/dosage_guidelines.json
-          git add assets/data/drug_interactions.json
+          git add -f assets/data/dosage_guidelines.json
+          git add -f assets/data/drug_interactions.json
           git add production_data/production_hybrid.jsonl
           
           # Only commit if changes exist
