@@ -37,6 +37,12 @@ jobs:
         run: |
           # Filters the 12GB+ data lake into a small, enriched JSON
           python3 scripts/process_datalake.py
+
+      - name: Merge Hybrid Data (DailyMed + Scraper)
+        run: |
+          # Combines Processed DailyMed Data with Local Scraped Data for >90% coverage
+          # Requires assets/meds_scraped_new.jsonl to be present in repo
+          python3 scripts/merge_hybrid_data.py
       
       - name: Compress Output
         run: |
@@ -65,4 +71,11 @@ jobs:
         with:
           name: production-linked-db
           path: production_data/production_dosages.jsonl
+          retention-days: 90
+
+      - name: Upload Hybrid Final DB
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-hybrid-db
+          path: production_data/production_hybrid.jsonl
           retention-days: 90

@@ -56,8 +56,32 @@ def main():
     coverage_count = len(covered_ids)
     
     print(f"\n🔗 Coverage Analysis (Active Ingredient Drugs):")
-    print(f"  - Covered in DB: {coverage_count:,} / {count_active_source:,}")
-    print(f"  - Coverage Rate: {(coverage_count/count_active_source)*100:.1f}%")
+    print(f"  - Covered in DB: {coverage_count:,} / {count_active_source:,} (Trade Names)")
+    print(f"  - Trade Coverage Rate: {(coverage_count/count_active_source)*100:.1f}%")
+    
+    # --- New Section: Unique Ingredient Coverage ---
+    # 1. Map ID -> Normalized Ingredient
+    id_to_active = {}
+    for _, row in meds_with_active.iterrows():
+        # Simple normalization (lowercase, strip) - ideally reuse process_datalake logic but this is sufficient for stats
+        act = str(row['active']).lower().strip()
+        id_to_active[str(row['id'])] = act
+        
+    unique_active_ingredients = set(id_to_active.values())
+    count_unique_active = len(unique_active_ingredients)
+    
+    # 2. Find which ingredients are covered
+    covered_ingredients = set()
+    for mid in covered_ids:
+        if mid in id_to_active:
+            covered_ingredients.add(id_to_active[mid])
+            
+    count_covered_active = len(covered_ingredients)
+    
+    print(f"\n🧬 Unique Active Ingredient Coverage:")
+    print(f"  - Total Unique Ingredients (Local): {count_unique_active:,}")
+    print(f"  - Covered Ingredients: {count_covered_active:,}")
+    print(f"  - Ingredient Coverage Rate: {(count_covered_active/count_unique_active)*100:.1f}%")
     
     # 4. Detailed Quality Check (Calculator Readiness)
     # Calculator Needs: (Pediatric Dose OR Adult Dose) AND Concentration

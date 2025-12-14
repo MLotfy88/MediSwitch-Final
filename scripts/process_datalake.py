@@ -462,7 +462,8 @@ def process_datalake():
                             'pregnancy': clinical.get('pregnancy')[:500] if clinical.get('pregnancy') else None,
                             'boxed_warning': clinical.get('boxed_warning')[:500] if clinical.get('boxed_warning') else None,
                         },
-                         'set_id': entry.get('set_id')
+                         'set_id': entry.get('set_id'),
+                         'product_codes': [p.get('product_code') for p in products if p.get('product_code')]
                     }
                     
                     # --- SCORING LOGIC ---

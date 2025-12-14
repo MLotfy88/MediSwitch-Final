@@ -1,3 +1,5 @@
-requests>=2.31.0
-ijson>=3.2.3
-pandas>=2.0.0
+requests
+beautifulsoup4
+pandas
+aiohttp
+aiofiles
