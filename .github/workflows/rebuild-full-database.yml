@@ -43,7 +43,7 @@ jobs:
         run: |
           echo "::group::Scraping DwaPrices"
           # Requires meds.csv to exist in repo
-          python3 scripts/scrape_dwaprices_by_id.py --reset
+          python3 -u scripts/scrape_dwaprices_by_id.py --reset
           echo "::endgroup::"
           
       - name: 1.5 Update meds.csv with Scraped Data
