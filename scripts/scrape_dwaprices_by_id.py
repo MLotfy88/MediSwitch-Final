@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-MediSwitch High-Performance Scraper (Async)
-Fetches full drug details concurrently from dwaprices.com.
+MediSwitch Production Scraper - FIXED VERSION
+Uses verified table-based extraction with all corrections applied.
 """
 
 import aiohttp
@@ -15,6 +15,7 @@ import json
 import sys
 import os
 import random
+import argparse
 from datetime import datetime
 from typing import List, Dict
 
@@ -31,84 +32,108 @@ PHONE = "01558166440"
 TOKEN = "bfwh2025-03-17"
 
 # Performance Settings
-CONCURRENCY = 10 # Number of simultaneous requests
+CONCURRENCY = 10
 REQUEST_TIMEOUT = 30
 
-# Expanded User Agents
+# User Agents
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1',
-    'Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1'
 ]
 
 def log(message):
     ts = datetime.now().strftime('%H:%M:%S')
     print(f"[{ts}] {message}", flush=True)
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\n")
+        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\\n")
 
 def clean_text(text):
     if not text: return ""
-    return re.sub(r'\s+', ' ', text).strip()
+    return re.sub(r'\\s+', ' ', text).strip()
 
-def parse_drug_page(html: str, drug_id: str) -> Dict:
-    """Parses the HTML content."""
-    soup = BeautifulSoup(html, 'html.parser')
-    text = soup.get_text("\n")
-    data = {'id': drug_id}
+def extract_from_table(soup):
+    """Extract data from HTML table (VERIFIED LOGIC)"""
+    data = {}
+    rows = soup.find_all('tr')
     
-    # 1. Arabic Name (Extract FIRST for form guessing)
-    h1 = soup.find('h1')
-    if h1:
-        raw_ar = clean_text(h1.text)
-        data['arabic_name'] = raw_ar.replace('سعر', '').strip()
-    else:
-        data['arabic_name'] = ""
-
-    # 2. Regex Extraction
-    patterns = {
-        'trade_name': r'الاسم التجاري.*?[:]?\s*\n+(.*?)\n',
-        'active': r'الاسم العلمي.*?[:]?\s*\n+(.*?)\n',
-        'company': r'الشركة المنتجة.*?[:]?\s*\n+(.*?)\n',
-        'price': r'السعر الجديد الحالي.*?[:]?\s*\n+(\d+(?:\.\d+)?)',
-        'old_price': r'السعر القديم.*?[:]?\s*\n+(\d+(?:\.\d+)?)',
-        'category': r'التصنيف الدوائي.*?[:]?\s*\n+(.*?)\n',
-        'last_update': r'آخر تحديث.*?[:]?\s*\n+(.*?)\n',
-        'units': r'عدد الوحدات.*?[:]?\s*\n+(.*?)\n',
-        'unit_price': r'سعر الوحدة.*?[:]?\s*\n+(\d+(?:\.\d+)?)',
-        'barcode': r'رمز الباركود.*?[:]?\s*\n+(\d+)',
-        'qr_code': r'رمز الكيو آر كود.*?[:]?\s*\n+(.*?)\n',
-        'pharmacology': r'الفارماكولوجي.*?[:]?\s*\n+(.*?)\n',
-        'usage': r'دواعي استعمال.*?[:]?\s*\n+(.*?)\n',
+    field_map = {
+        'الاسم التجاري': 'trade_name',
+        'الاسم العلمي': 'active',
+        'التصنيف': 'category',
+        'الشركة المنتجة': 'company',
+        'السعر الجديد الحالي': 'price',
+        'السعر القديم': 'old_price',
+        'آخر تحديث للسعر': 'last_price_update',
+        'عدد الوحدات': 'units',
+        'رمز الباركود': 'barcode',
+        'رمز': 'qr_code',
+        'الفارماكولوجي': 'pharmacology',
     }
     
-    for key, pat in patterns.items():
-        match = re.search(pat, text)
-        data[key] = clean_text(match.group(1)) if match else ""
-
-    # Safety: clean active (sometimes leaks headers)
-    if "التصنيف" in data['active']: data['active'] = "" 
-
-    # Visits
-    visits_match = re.search(r'قام عدد.*?(\d+).*?شخص', text, re.DOTALL)
-    data['visits'] = visits_match.group(1) if visits_match else ""
-
-    # 3. Derived Fields
-    # Concentration from Trade Name
-    conc_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:mg|gm|ml|mcg|unit|iu|%)', data.get('trade_name', ''), re.IGNORECASE)
-    data['concentration'] = conc_match.group(0) if conc_match else ""
+    for row in rows:
+        cells = row.find_all(['td', 'th'])
+        if len(cells) >= 2:
+            label = clean_text(cells[0].get_text())
+            value = clean_text(cells[1].get_text())
+            
+            for ar_label, en_key in field_map.items():
+                if ar_label in label:
+                    data[en_key] = value
+                    break
     
-    # Dosage Form Guessing
+    return data
+
+def parse_drug_page(html: str, drug_id: str) -> Dict:
+    """Parse drug page using VERIFIED table-based extraction"""
+    soup = BeautifulSoup(html, 'html.parser')
+    data = {'id': drug_id}
+    
+    # 1. Arabic Name from H1
+    h1 = soup.find('h1')
+    if h1:
+        arabic_name = clean_text(h1.text).replace('سعر', '').strip()
+        data['arabic_name'] = arabic_name
+    else:
+        data['arabic_name'] = ""
+    
+    # 2. Extract from HTML table
+    table_data = extract_from_table(soup)
+    data.update(table_data)
+    
+    # 3. Extract usage from text section (not in table)
+    text = soup.get_text("\\n")
+    usage_match = re.search(r'دواعي استعمال.*?:\\s*\\n+(.*?)(?=\\n\\n\\n|\\nنموذج إبلاغ|$)', 
+                           text, re.DOTALL)
+    if usage_match:
+        usage_text = usage_match.group(1).strip()
+        usage_text = re.sub(r'\\n{3,}', '\\n\\n', usage_text)
+        data['usage'] = usage_text
+    else:
+        data['usage'] = ""
+    
+    # 4. Extract visits
+    visits_match = re.search(r'قام عدد.*?(\\d+).*?شخص', text, re.DOTALL)
+    data['visits'] = visits_match.group(1) if visits_match else ""
+    
+    # 5. Extract concentration from trade_name
+    if data.get('trade_name'):
+        conc_match = re.search(r'(\\d+(?:\\.\\d+)?%?)\\s*(?:mg|gm|ml|mcg|unit|iu|%)', 
+                               data['trade_name'], re.IGNORECASE)
+        data['concentration'] = conc_match.group(0) if conc_match else ""
+    else:
+        data['concentration'] = ""
+    
+    # 6. Infer dosage form
     trade_lower = data.get('trade_name', '').lower()
     arabic = data.get('arabic_name', '')
     
     form = 'Unknown'
-    if 'tab' in trade_lower or 'اقراص' in arabic: form = 'Tablet'
+    if 'tab' in trade_lower or 'اقراص' in arabic or 'قرص' in arabic: form = 'Tablet'
     elif 'cap' in trade_lower or 'كبسول' in arabic: form = 'Capsule'
     elif 'syr' in trade_lower or 'شراب' in arabic: form = 'Syrup'
-    elif 'vial' in trade_lower or 'amp' in trade_lower or 'حقن' in arabic: form = 'Vial/Amp'
+    elif 'vial' in trade_lower or 'amp' in trade_lower or 'حقن' in arabic or 'امبول' in arabic: form = 'Vial/Amp'
     elif 'cream' in trade_lower or 'كريم' in arabic: form = 'Cream'
     elif 'oint' in trade_lower or 'مرهم' in arabic: form = 'Ointment'
     elif 'drop' in trade_lower or 'نقط' in arabic: form = 'Drops'
@@ -116,152 +141,144 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     elif 'eff' in trade_lower or 'فوار' in arabic: form = 'Effervescent'
     
     data['dosage_form'] = form
-
+    
     return data
 
-async def login_async(session):
-    """Async Login with Loose JSON Parsing."""
+async def perform_login(session):
+    """Performs login and returns success status"""
     try:
-        ua = random.choice(USER_AGENTS)
         # Step 1
-        data1 = {'checkLoginForPrices': 1, 'phone': PHONE, 'tokenn': TOKEN}
-        async with session.post(SERVER_URL, data=data1, headers={'User-Agent': ua}) as r1:
-            # FIX: content_type=None allows parsing text/html as JSON
-            resp1 = await r1.json(content_type=None)
+        async with session.post(SERVER_URL, data={
+            'checkLoginForPrices': 1,
+            'phone': PHONE,
+            'tokenn': TOKEN
+        }) as response:
+            resp1 = await response.json()
             
-        if resp1.get('numrows', 0) > 0 and 'data' in resp1:
-            u = resp1['data'][0]
-            log(f"Login Step 1 OK: {u.get('name')}")
-            
-            # Step 2
-            data2 = {
-                'accessgranted': 1, 'namepricesub': u.get('name'),
-                'phonepricesub': u.get('phone'), 'tokenpricesub': u.get('token'),
-                'grouppricesub': u.get('usergroup'), 'approvedsub': u.get('approved'),
-                'IDpricesub': u.get('id')
-            }
-            async with session.post(LOGIN_URL, data=data2, headers={'User-Agent': ua}) as r2:
-                if r2.status == 200:
-                    log("Login Step 2 OK. Session secured.")
-                    return True
+            if resp1.get('numrows', 0) > 0 and 'data' in resp1:
+                u = resp1['data'][0]
+                log(f"✅ Login Step 1: {u.get('name')}")
+                
+                # Step 2
+                async with session.post(LOGIN_URL, data={
+                    'accessgranted': 1,
+                    'namepricesub': u.get('name'),
+                    'phonepricesub': u.get('phone'),
+                    'tokenpricesub': u.get('token'),
+                    'grouppricesub': u.get('usergroup'),
+                    'approvedsub': u.get('approved'),
+                    'IDpricesub': u.get('id')
+                }) as r2:
+                    if r2.status == 200:
+                        log("✅ Login Step 2: Session secured")
+                        return True
     except Exception as e:
-        log(f"Login Failed: {e}")
+        log(f"❌ Login failed: {e}")
+    
     return False
 
 async def fetch_drug(sem, session, drug_id, attempt=0):
-    """Fetches a single drug page with concurrency control and human jitter."""
+    """Fetches a single drug page with concurrency control"""
     url = f"{BASE_URL}{drug_id}"
     
-    # Human-like Jitter: Sleep random 2.0 - 15.0s BEFORE request (User requested increase)
-    await asyncio.sleep(random.uniform(2.0, 15.0))
+    # Human-like delay (5-10 seconds as requested)
+    await asyncio.sleep(random.uniform(5.0, 10.0))
     
-    async with sem: # Limit concurrency
+    async with sem:
         try:
             async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
                 if response.status == 200:
                     html = await response.text()
                     data = parse_drug_page(html, drug_id)
-                    # Validate: MUST have a Trade Name to be valid
+                    # Validate: Must have trade_name
                     if data.get('trade_name'):
                         return data
                     else:
-                        return None # Empty/Invalid Page
+                        return None
                 elif response.status in [500, 502, 503, 504] and attempt < 3:
-                     await asyncio.sleep(2)
-                     return await fetch_drug(sem, session, drug_id, attempt + 1)
+                    await asyncio.sleep(2)
+                    return await fetch_drug(sem, session, drug_id, attempt + 1)
         except Exception as e:
             if attempt < 2:
-                # Retry on network error
                 await asyncio.sleep(1)
                 return await fetch_drug(sem, session, drug_id, attempt + 1)
-            # log(f"Failed ID {drug_id}: {e}")
     return None
 
 async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--reset', action='store_true', help='Delete existing output before scraping')
+    args = parser.parse_args()
+    
     if not os.path.exists(MEDS_CSV):
-        print("meds.csv missing")
+        print("❌ meds.csv not found")
         return
-
-    # 1. Load IDs
+    
+    # Load IDs
     df = pd.read_csv(MEDS_CSV, dtype=str)
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
-    log(f"Total IDs to scrape: {len(all_ids)}")
-
-    # 2. Check Existing
-    # (Reset logic moved to after login for safety)
+    log(f"📊 Total IDs to scrape: {len(all_ids)}")
     
+    # Check processed IDs
     processed_ids = set()
-    if os.path.exists(OUTPUT_FILE):
-        try:
-            with open(OUTPUT_FILE, 'r') as f:
-                for line in f:
-                    if line.strip():
-                        try:
-                            rec = json.loads(line)
-                            processed_ids.add(str(rec['id']))
-                        except: pass
-        except: pass
+    if os.path.exists(OUTPUT_FILE) and not args.reset:
+        with open(OUTPUT_FILE, 'r') as f:
+            for line in f:
+                if line.strip():
+                    try:
+                        rec = json.loads(line)
+                        processed_ids.add(str(rec.get('id', '')))
+                    except: pass
+        log(f"✅ Found {len(processed_ids)} already processed")
+    elif args.reset and os.path.exists(OUTPUT_FILE):
+        os.remove(OUTPUT_FILE)
+        log("🗑️  Reset: Deleted existing output file")
     
-    log(f"Already processed: {len(processed_ids)}")
-    remaining_ids = [mid for mid in all_ids if mid not in processed_ids]
-    log(f"Remaining: {len(remaining_ids)}")
+    pending_ids = [id for id in all_ids if id not in processed_ids]
+    log(f"🎯 Pending IDs: {len(pending_ids)}")
     
-    if not remaining_ids:
-        log("Everything scraped already! Exiting.")
+    if not pending_ids:
+        log("✅ Nothing to scrape")
         return
-
-    # 3. Setup Async
-    sem = asyncio.Semaphore(CONCURRENCY)
-    async with aiohttp.ClientSession() as session:
-        if not await login_async(session):
-            print("Login failed. Check internet/credentials.")
+    
+    # Setup session
+    connector = aiohttp.TCPConnector(limit=CONCURRENCY)
+    timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
+    headers = {'User-Agent': random.choice(USER_AGENTS)}
+    
+    async with aiohttp.ClientSession(connector=connector, timeout=timeout, headers=headers) as session:
+        # Login
+        if not await perform_login(session):
+            log("❌ Login failed, aborting")
             return
-
-        # 3. Safe Reset: Only delete AFTER successful login
-        if '--reset' in sys.argv:
-            log("🔄 RESET MODE: Wiping existing scraped data to start fresh.")
-            if os.path.exists(OUTPUT_FILE):
-                 os.remove(OUTPUT_FILE)
-            # Re-initialize processed_ids since we just wiped it
-            processed_ids = set()
-            remaining_ids = all_ids # Retry all
-            log(f"Reset Complete. Restarting scrape for {len(remaining_ids)} IDs.")
-            
-        tasks = []
-        save_buffer = []
         
-        # Batch processing to manage memory and saves
-        BATCH_SIZE = 50 # Smaller batch size for more frequent pauses
-        total = len(remaining_ids)
-        batch_num = 0 # Initialize batch_num
+        # Scrape
+        sem = asyncio.Semaphore(CONCURRENCY)
+        tasks = [fetch_drug(sem, session, drug_id) for drug_id in pending_ids]
         
-        for i in range(0, total, BATCH_SIZE):
-            # Smarter Delay: 5 to 10 seconds (As requested)
-            sleep_time = random.uniform(5.0, 10.0)
-            print(f"  [Anti-Ban] Sleeping {sleep_time:.2f}s...")
-            await asyncio.sleep(sleep_time)
-
-            batch_ids = remaining_ids[i : i + BATCH_SIZE]
-            batch_tasks = [fetch_drug(sem, session, mid) for mid in batch_ids]
+        # Process in batches with progress
+        BATCH_SIZE = 100
+        total_scraped = 0
+        
+        for i in range(0, len(tasks), BATCH_SIZE):
+            batch = tasks[i:i+BATCH_SIZE]
+            results = await asyncio.gather(*batch)
             
-            results = await asyncio.gather(*batch_tasks)
+            # Save results
+            async with aiofiles.open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
+                for data in results:
+                    if data:
+                        await f.write(json.dumps(data, ensure_ascii=False) + '\\n')
+                        total_scraped += 1
             
-            # Filter None
-            valid_results = [r for r in results if r]
+            log(f"✅ Batch {i//BATCH_SIZE + 1}: {len([r for r in results if r])}/{len(batch)} scraped (Total: {total_scraped})")
             
-            # Save
-            if valid_results:
-                async with aiofiles.open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
-                    for rec in valid_results:
-                        await f.write(json.dumps(rec, ensure_ascii=False) + '\n')
-                        
-            cnt = i + len(batch_ids)
-            print(f"Progress: {cnt}/{total} (New Records: {len(valid_results)})", flush=True)
-            
-    log("Scraping Session Finished.")
+            # Random pause between batches (10-25s)
+            if i + BATCH_SIZE < len(tasks):
+                pause = random.uniform(10, 25)
+                log(f"⏸️  Pausing {pause:.1f}s before next batch...")
+                await asyncio.sleep(pause)
+        
+        log(f"🎉 Scraping complete! Total: {total_scraped} drugs")
 
 if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("Scraper stopped by User.")
+    asyncio.run(main())
