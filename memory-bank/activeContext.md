@@ -67,6 +67,11 @@ MediSwitch-Final/
 
 ---
 
+## Latest Updates
+- **🚀 RELEASE v2.0.0:** Project promoted to version 2.0.0 to reflect the major architecture shift (D1 Database, Admin Dashboard, New Flutter UI) compared to the prototyping phase.
+- **Automated CI/CD:** Implemented "Nightly" releases with auto-incrementing build numbers (e.g., `2.0.0.45`) and SemVer support.
+- **Database:** Full "Clean Slate" rebuild workflow established (`rebuild-full-database.yml`).
+
 ## 📝 ملاحظات
 - **Worker URL:** `https://mediswitch-api.admin-lotfy.workers.dev`
 - **Admin Dashboard:** `https://admin.mediswitch.pages.dev` (Example URL)
