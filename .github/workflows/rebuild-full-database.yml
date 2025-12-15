@@ -156,17 +156,16 @@ jobs:
           
           # Link to: scripts/upload_dosage_d1.py
           echo "::group::Syncing Dosages (Full)"
-          python3 scripts/upload_dosage_d1.py \
-            --json-file assets/data/dosage_guidelines.json \
+          python3 ../scripts/upload_dosage_d1.py \
+            --json-file ../assets/data/dosage_guidelines.json \
             --account-id "$CLOUDFLARE_ACCOUNT_ID" \
             --database-id "$D1_DATABASE_ID" \
             --api-token "$CLOUDFLARE_API_TOKEN"
           echo "::endgroup::"
           
-          # Link to: scripts/upload_interactions_d1.py
           echo "::group::Syncing Interactions (Full)"
-          python3 scripts/upload_interactions_d1.py \
-            --json-file assets/data/drug_interactions.json \
+          python3 ../scripts/upload_interactions_d1.py \
+            --json-file ../assets/data/drug_interactions.json \
             --account-id "$CLOUDFLARE_ACCOUNT_ID" \
             --database-id "$D1_DATABASE_ID" \
             --api-token "$CLOUDFLARE_API_TOKEN" \
