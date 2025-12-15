@@ -38,6 +38,8 @@ def download_file(url, output_path):
         total_size = int(response.headers.get('content-length', 0))
         downloaded = 0
         
+        last_printed_step = -1
+        
         with open(output_path, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
                 if chunk:
@@ -45,9 +47,14 @@ def download_file(url, output_path):
                     downloaded += len(chunk)
                     if total_size:
                         percent = (downloaded / total_size) * 100
-                        mb_downloaded = downloaded / (1024 ** 2)
-                        mb_total = total_size / (1024 ** 2)
-                        print(f"\r  {filename}: {percent:.1f}% ({mb_downloaded:.1f}/{mb_total:.1f} MB)", end='')
+                        # Calculate step (0, 1, 2, 3, 4 corresponding to 0, 25, 50, 75, 100)
+                        current_step = int(percent // 25)
+                        
+                        if current_step > last_printed_step:
+                             mb_downloaded = downloaded / (1024 ** 2)
+                             mb_total = total_size / (1024 ** 2)
+                             print(f"  {filename}: {current_step * 25}% ({mb_downloaded:.1f}/{mb_total:.1f} MB)")
+                             last_printed_step = current_step
         
         print(f"\n✅ {filename} downloaded successfully!")
         print(f"   Size: {os.path.getsize(output_path) / (1024 ** 3):.2f} GB")
