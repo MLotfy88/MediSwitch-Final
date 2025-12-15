@@ -23,7 +23,7 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          pip install requests pandas beautifulsoup4 aiohttp aiofiles
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles brotli
 
       # --- SKIPPING STEP 1 (Scraping) ---
       

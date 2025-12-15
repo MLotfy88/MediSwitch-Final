@@ -44,7 +44,7 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          pip install requests pandas beautifulsoup4 aiohttp aiofiles
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles brotli
 
       # --- STEP 1: Scrape & Update CSV ---
       - name: 1. Scrape DwaPrices (Details + Concentration)
