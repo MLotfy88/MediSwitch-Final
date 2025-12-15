@@ -187,11 +187,8 @@ async def main():
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
     log(f"Total IDs to scrape: {len(all_ids)}")
 
-    # 2. Check Existing (Resume vs Reset)
-    if '--reset' in sys.argv:
-        log("🔄 RESET MODE: Wiping existing scraped data to start fresh.")
-        if os.path.exists(OUTPUT_FILE):
-             os.remove(OUTPUT_FILE)
+    # 2. Check Existing
+    # (Reset logic moved to after login for safety)
     
     processed_ids = set()
     if os.path.exists(OUTPUT_FILE):
@@ -219,6 +216,16 @@ async def main():
         if not await login_async(session):
             print("Login failed. Check internet/credentials.")
             return
+
+        # 3. Safe Reset: Only delete AFTER successful login
+        if '--reset' in sys.argv:
+            log("🔄 RESET MODE: Wiping existing scraped data to start fresh.")
+            if os.path.exists(OUTPUT_FILE):
+                 os.remove(OUTPUT_FILE)
+            # Re-initialize processed_ids since we just wiped it
+            processed_ids = set()
+            remaining_ids = all_ids # Retry all
+            log(f"Reset Complete. Restarting scrape for {len(remaining_ids)} IDs.")
             
         tasks = []
         save_buffer = []
