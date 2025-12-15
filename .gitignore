@@ -85,3 +85,12 @@ assets/data/dosage_guidelines.json
 assets/data/backups/dosage_guidelines_backup_*.json
 testing/
 External_source/dailymed
+
+# Production Data (Large Intermediate Files)
+production_data/*.jsonl
+production_data/*.json
+!production_data/dailymed_interactions.json
+!production_data/dailymed_interactions_clean.json
+production_data/dailymed_full_database.jsonl
+production_data/production_dosages.jsonl
+production_data/production_hybrid.jsonl

@@ -78,9 +78,15 @@ jobs:
           git config --global user.name 'DailyMed Bot'
           git config --global user.email 'bot@dailymed.local'
           
+          # 1. Add everything (respecting .gitignore which now excludes large files)
           git add .
           
-          git commit -m "db: resume rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          # 2. FORCE ADD the final assets we actually want (even if ignored)
+          git add -f assets/data/dosage_guidelines.json
+          git add -f assets/data/drug_interactions.json
+          git add -f assets/meds.csv
+          
+          # Only commit if changes exist
           # Rebase favoring OUR changes (the newly generated data) over upstream
           git pull --rebase -X theirs
           git push
