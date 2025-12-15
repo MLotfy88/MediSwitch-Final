@@ -153,15 +153,20 @@ async def perform_login(session):
             'phone': PHONE,
             'tokenn': TOKEN
         }) as response:
-            # Check if response is actually JSON
+            # Check if response is JSON (lax check for misconfigured servers)
             content_type = response.headers.get('Content-Type', '')
-            if 'application/json' not in content_type:
+            text = await response.text()
+            
+            try:
+                if 'application/json' in content_type:
+                    resp1 = await response.json()
+                else:
+                    # Fallback: Try to parse text as JSON even if header is wrong
+                     resp1 = json.loads(text)
+            except json.JSONDecodeError:
                 log(f"❌ Login Step 1 failed: Expected JSON, got {content_type}")
-                text = await response.text()
                 log(f"Response preview: {text[:500]}")
                 return False
-            
-            resp1 = await response.json()
             
             if resp1.get('numrows', 0) > 0 and 'data' in resp1:
                 u = resp1['data'][0]
