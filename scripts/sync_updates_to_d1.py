@@ -5,6 +5,7 @@ Uplods incremental changes to 'med_dosages' and 'drug_interactions' tables.
 """
 
 import sys
+import os
 import json
 import requests
 import argparse
