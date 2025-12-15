@@ -83,7 +83,8 @@ jobs:
             
             ⚠️ *This release is automatically updated with every push to main.*
           files: build/app/outputs/apk/release/app-release.apk
-          prerelease: true
+          prerelease: false
+          make_latest: true
           target_commitish: ${{ github.sha }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
