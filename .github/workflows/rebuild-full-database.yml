@@ -95,6 +95,7 @@ jobs:
           
           # Only commit if changes exist
           git commit -m "db: full rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git pull --rebase
           git push
 
       # --- STEP 5: D1 Sync (Full) ---
