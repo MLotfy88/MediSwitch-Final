@@ -87,6 +87,8 @@ jobs:
           git add -f assets/meds.csv
           
           # Only commit if changes exist
+          git commit -m "db: resume rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          
           # Rebase favoring OUR changes (the newly generated data) over upstream
           git pull --rebase -X theirs
           git push

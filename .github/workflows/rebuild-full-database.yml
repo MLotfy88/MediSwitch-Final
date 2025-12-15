@@ -121,6 +121,7 @@ jobs:
           
           # Only commit if changes exist
           git commit -m "db: full rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          
           # Rebase favoring OUR changes (the newly generated data) over upstream
           git pull --rebase -X theirs
           git push
