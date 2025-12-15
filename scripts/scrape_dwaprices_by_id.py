@@ -188,7 +188,7 @@ async def perform_login(session):
                 log(f"Response: {resp1}")
                 return False
     except Exception as e:
-        log(f"❌ Login failed: {e}")
+        log(f"❌ Login failed: {type(e).__name__}: {e}")
     
     return False
 
@@ -255,23 +255,28 @@ async def main():
         log("✅ Nothing to scrape")
         return
     
+    # Performance Settings
+    CONCURRENCY = 10
+    REQUEST_TIMEOUT = 60
+    
     # Setup session with FULL browser-like headers
     connector = aiohttp.TCPConnector(limit=CONCURRENCY)
     timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
     
     # Complete browser headers to avoid bot detection
+    # MIMIC REAL XHR REQUEST for server.php
     headers = {
         'User-Agent': random.choice(USER_AGENTS),
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept': 'application/json, text/javascript, */*; q=0.01', # Expected for XHR
         'Accept-Language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
         'Accept-Encoding': 'gzip, deflate, br',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'X-Requested-With': 'XMLHttpRequest', # Critical for PHP backends identifying AJAX
         'DNT': '1',
         'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
-        'Cache-Control': 'max-age=0',
+        'Sec-Fetch-Dest': 'empty', # Standard for XHR
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
         'Referer': 'https://dwaprices.com/',
         'Origin': 'https://dwaprices.com'
     }
