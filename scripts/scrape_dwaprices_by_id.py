@@ -226,17 +226,17 @@ async def main():
         # Batch processing to manage memory and saves
         BATCH_SIZE = 50 # Smaller batch size for more frequent pauses
         total = len(remaining_ids)
+        batch_num = 0 # Initialize batch_num
         
         for i in range(0, total, BATCH_SIZE):
+            # Smarter Delay: 5 to 10 seconds (As requested)
+            sleep_time = random.uniform(5.0, 10.0)
+            print(f"  [Anti-Ban] Sleeping {sleep_time:.2f}s...")
+            await asyncio.sleep(sleep_time)
+
             batch_ids = remaining_ids[i : i + BATCH_SIZE]
             batch_tasks = [fetch_drug(sem, session, mid) for mid in batch_ids]
             
-            # Longer pause between batches (Human "Coffee Break" logic)
-            if i > 0:
-                 pause = random.uniform(10.0, 25.0)
-                 # print(f"Taking a short break ({pause:.1f}s)...", flush=True) 
-                 await asyncio.sleep(pause)
-
             results = await asyncio.gather(*batch_tasks)
             
             # Filter None

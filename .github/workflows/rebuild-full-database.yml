@@ -9,6 +9,12 @@ name: Rebuild Full Database (Unified)
 
 on:
   workflow_dispatch:
+    inputs:
+      force_scrape:
+        description: 'Force Full Re-scrape (Delete local DB)?'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   full-rebuild:
@@ -16,34 +22,21 @@ jobs:
     timeout-minutes: 360 # 6 Hours Max
     
     steps:
-      - name: Send Slack Notification - Start
-        uses: rtCamp/action-slack-notify@v2
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_USERNAME: MediSwitch Bot
-          SLACK_ICON_EMOJI: ':construction:'
-          SLACK_COLOR: '#ff9900'
-          SLACK_MESSAGE: '🚧 Starting Full Database Rebuild... This may take several hours.'
-
-      - name: Checkout Code
-        uses: actions/checkout@v4
+      # ... (Existing start steps) ...
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          
-      - name: Install Dependencies
-        run: |
-          pip install requests pandas beautifulsoup4 aiohttp aiofiles
-
       # --- STEP 1: Scrape & Update CSV ---
       - name: 1. Scrape DwaPrices (Details + Concentration)
-        continue-on-error: true # Don't fail if scraper has network issues, use best effort
+        continue-on-error: true
         run: |
           echo "::group::Scraping DwaPrices"
           # Requires meds.csv to exist in repo
-          python3 -u scripts/scrape_dwaprices_by_id.py --reset
+          if [ "${{ inputs.force_scrape }}" == "true" ]; then
+            echo "🔥 FORCE SCRAPE ENABLED: Deleting old data..."
+            python3 -u scripts/scrape_dwaprices_by_id.py --reset
+          else
+            echo "♻️ SMART SCRAPE: Resuming/Updating only..."
+            python3 -u scripts/scrape_dwaprices_by_id.py
+          fi
           echo "::endgroup::"
           
       - name: 1.5 Update meds.csv with Scraped Data
@@ -88,10 +81,7 @@ jobs:
           git config --global user.name 'DailyMed Bot'
           git config --global user.email 'bot@dailymed.local'
           
-          git add assets/meds.csv
-          git add -f assets/data/dosage_guidelines.json
-          git add -f assets/data/drug_interactions.json
-          git add production_data/production_hybrid.jsonl
+          git add .
           
           # Only commit if changes exist
           git commit -m "db: full rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
