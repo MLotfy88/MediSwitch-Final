@@ -22,9 +22,22 @@ jobs:
     timeout-minutes: 360 # 6 Hours Max
     
     steps:
-      # ... (Existing start steps) ...
-      
-      # (Debug step moved to after checkout)
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # --- DEBUG STEP ---
+      - name: Debug File System
+        run: |
+          echo "Current Directory: $(pwd)"
+          ls -R
+          echo "::group::Check Scripts"
+          ls -la scripts/ || echo "Scripts folder missing!"
+          echo "::endgroup::"
+
+      - name: Setup Python
 
       # --- STEP 1: Scrape & Update CSV ---
       - name: 1. Scrape DwaPrices (Details + Concentration)
