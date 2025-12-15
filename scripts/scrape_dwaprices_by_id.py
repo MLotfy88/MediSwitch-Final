@@ -34,9 +34,13 @@ TOKEN = "bfwh2025-03-17"
 CONCURRENCY = 10 # Number of simultaneous requests
 REQUEST_TIMEOUT = 30
 
+# Expanded User Agents
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/120.0.6099.119 Mobile/15E148 Safari/604.1',
+    'Mozilla/5.0 (iPad; CPU OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1'
 ]
 
 def log(message):
@@ -145,8 +149,12 @@ async def login_async(session):
     return False
 
 async def fetch_drug(sem, session, drug_id, attempt=0):
-    """Fetches a single drug page with concurrency control."""
+    """Fetches a single drug page with concurrency control and human jitter."""
     url = f"{BASE_URL}{drug_id}"
+    
+    # Human-like Jitter: Sleep random 0.5 - 2.0s BEFORE request
+    await asyncio.sleep(random.uniform(0.5, 2.0))
+    
     async with sem: # Limit concurrency
         try:
             async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
@@ -216,13 +224,19 @@ async def main():
         save_buffer = []
         
         # Batch processing to manage memory and saves
-        BATCH_SIZE = 100
+        BATCH_SIZE = 50 # Smaller batch size for more frequent pauses
         total = len(remaining_ids)
         
         for i in range(0, total, BATCH_SIZE):
             batch_ids = remaining_ids[i : i + BATCH_SIZE]
             batch_tasks = [fetch_drug(sem, session, mid) for mid in batch_ids]
             
+            # Longer pause between batches (Human "Coffee Break" logic)
+            if i > 0:
+                 pause = random.uniform(2.0, 5.0)
+                 # print(f"Taking a short break ({pause:.1f}s)...", flush=True) 
+                 await asyncio.sleep(pause)
+
             results = await asyncio.gather(*batch_tasks)
             
             # Filter None
@@ -235,7 +249,7 @@ async def main():
                         await f.write(json.dumps(rec, ensure_ascii=False) + '\n')
                         
             cnt = i + len(batch_ids)
-            print(f"Progress: {cnt}/{total} (New Records: {len(valid_results)})")
+            print(f"Progress: {cnt}/{total} (New Records: {len(valid_results)})", flush=True)
             
     log("Scraping Session Finished.")
 

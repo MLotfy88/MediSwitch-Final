@@ -11,6 +11,12 @@ import os
 import shutil
 import sys
 
+# --- Path Configuration ---
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRAPED_DB = os.path.join(BASE_DIR, 'assets', 'meds_scraped_new.jsonl')
+MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
+BACKUP_DIR = os.path.join(BASE_DIR, 'backups')
+
 # --- Translation Dictionaries (from process_drug_data.py) ---
 
 MAIN_CATEGORIES = {
