@@ -153,6 +153,14 @@ async def perform_login(session):
             'phone': PHONE,
             'tokenn': TOKEN
         }) as response:
+            # Check if response is actually JSON
+            content_type = response.headers.get('Content-Type', '')
+            if 'application/json' not in content_type:
+                log(f"❌ Login Step 1 failed: Expected JSON, got {content_type}")
+                text = await response.text()
+                log(f"Response preview: {text[:500]}")
+                return False
+            
             resp1 = await response.json()
             
             if resp1.get('numrows', 0) > 0 and 'data' in resp1:
@@ -172,6 +180,13 @@ async def perform_login(session):
                     if r2.status == 200:
                         log("✅ Login Step 2: Session secured")
                         return True
+                    else:
+                        log(f"❌ Login Step 2 failed: HTTP {r2.status}")
+                        return False
+            else:
+                log(f"❌ Login Step 1 failed: Invalid response data")
+                log(f"Response: {resp1}")
+                return False
     except Exception as e:
         log(f"❌ Login failed: {e}")
     
@@ -240,12 +255,32 @@ async def main():
         log("✅ Nothing to scrape")
         return
     
-    # Setup session
+    # Setup session with FULL browser-like headers
     connector = aiohttp.TCPConnector(limit=CONCURRENCY)
     timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
-    headers = {'User-Agent': random.choice(USER_AGENTS)}
+    
+    # Complete browser headers to avoid bot detection
+    headers = {
+        'User-Agent': random.choice(USER_AGENTS),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Cache-Control': 'max-age=0',
+        'Referer': 'https://dwaprices.com/',
+        'Origin': 'https://dwaprices.com'
+    }
     
     async with aiohttp.ClientSession(connector=connector, timeout=timeout, headers=headers) as session:
+        # Add small delay before login (human behavior)
+        log("⏳ Waiting 2 seconds before login (anti-bot measure)...")
+        await asyncio.sleep(2)
+        
         # Login
         if not await perform_login(session):
             log("❌ Login failed, aborting")
