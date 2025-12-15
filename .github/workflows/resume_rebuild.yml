@@ -1,0 +1,119 @@
+name: Resume Rebuild (Skip Scraping)
+# Uses existing meds.csv / scraped data in the repo and just rebuilds the robust data.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  resume-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # 6 Hours Max
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install Dependencies
+        run: |
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles
+
+      # --- SKIPPING STEP 1 (Scraping) ---
+      
+      # --- STEP 1.5: Ensure CSV is Up-to-Date ---
+      - name: 1.5 Update meds.csv with Scraped Data (If exists)
+        run: |
+          echo "::group::Updating CSV from Repo Data"
+          ls -l scripts/
+          # If user pushed meds_scraped_new.jsonl, we use it.
+          if [ -f "assets/meds_scraped_new.jsonl" ]; then
+             echo "✅ Found scraped data file. Updating meds.csv..."
+             python3 scripts/update_meds.py
+          else
+             echo "⚠️ No scraped data file found. Using existing meds.csv as is."
+          fi
+          echo "::endgroup::"
+
+      # --- STEP 2: DailyMed Download ---
+      - name: 2. Download DailyMed Full Release
+        run: |
+          echo "::group::Downloading DailyMed"
+          python3 scripts/download_dailymed.py
+          echo "::endgroup::"
+
+      - name: 2.5 Extract DailyMed Data Lake
+        run: |
+          echo "::group::Extracting DailyMed XMLs"
+          python3 production_data/extract_full_dailymed.py
+          echo "::endgroup::"
+
+      # --- STEP 3: Extraction & Matching ---
+      - name: 3.1 Extract Dosages (Process Data Lake)
+        run: |
+          python3 scripts/process_datalake.py
+          
+      - name: 3.2 Extract Interactions
+        run: |
+          python3 production_data/extract_dailymed_interactions.py
+
+      - name: 3.3 Merge Hybrid Data
+        run: |
+          python3 scripts/merge_hybrid_data.py
+
+      # --- STEP 4: Asset Generation ---
+      - name: 4. Bootstrap App Assets (Generate JSONs)
+        run: |
+          python3 scripts/bootstrap_app_data.py
+
+      # --- COMMIT POINT ---
+      - name: Commit Updated Database
+        run: |
+          git config --global user.name 'DailyMed Bot'
+          git config --global user.email 'bot@dailymed.local'
+          
+          git add .
+          
+          git commit -m "db: resume rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          # Rebase favoring OUR changes (the newly generated data) over upstream
+          git pull --rebase -X theirs
+          git push
+
+      # --- STEP 5: D1 Sync (Full) ---
+      - name: 5. Sync Full Database to D1
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9f7fd7dfef294f26d47d62df34726367' }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID || '77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0' }}
+        run: |
+          echo "::group::Syncing Drugs Table"
+          python3 scripts/export_to_d1.py assets/meds.csv d1_import.sql
+          
+          npm install -g wrangler
+          cd cloudflare-worker
+          npx wrangler d1 execute mediswitch-db --file=../d1_import.sql --remote
+          echo "::endgroup::"
+          
+          echo "::group::Syncing Dosages (Full)"
+          # (Assuming upload_dosage_d1.py handles the update)
+          python3 ../scripts/upload_dosage_d1.py \
+            --json-file ../assets/data/dosage_guidelines.json \
+            --account-id ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
+            --database-id ${{ secrets.D1_DATABASE_ID }} \
+            --api-token ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          echo "::endgroup::"
+          
+          echo "::group::Syncing Interactions (Full)"
+          python3 ../scripts/upload_interactions_d1.py \
+            --json-file ../assets/data/drug_interactions.json \
+            --account-id ${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
+            --database-id ${{ secrets.D1_DATABASE_ID }} \
+            --api-token ${{ secrets.CLOUDFLARE_API_TOKEN }} \
+            --clear-first
+          echo "::endgroup::"

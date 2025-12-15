@@ -122,8 +122,16 @@ def main():
     # Actually, the user wants to "consider database as zero".
     # So we should build the DataFrame primarily from `scraped_map`.
     
+    # Debug first record keys
+    if scraped_map:
+        first_key = next(iter(scraped_map))
+        print(f"🔍 DEBUG: Sample Keys in JSONL: {list(scraped_map[first_key].keys())}")
+        
     records = []
     for mid, rec in scraped_map.items():
+        # Handle date mapping robustly
+        date_val = rec.get('last_update') or rec.get('last_price_update') or ''
+        
         # Basic Mapping
         row = {
             'id': mid,
@@ -134,7 +142,7 @@ def main():
             'active': rec.get('active', ''),
             'company': rec.get('company', ''),
             'description': rec.get('description', ''),
-            'last_price_update': rec.get('last_update', ''),
+            'last_price_update': date_val,
             'visits': rec.get('visits', ''),
             
             # New/Enriched Columns

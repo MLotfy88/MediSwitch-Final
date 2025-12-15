@@ -75,6 +75,13 @@ jobs:
           python3 scripts/download_dailymed.py
           echo "::endgroup::"
 
+      - name: 2.5 Extract DailyMed Data Lake
+        run: |
+          echo "::group::Extracting DailyMed XMLs"
+          # Converts Zips -> production_data/dailymed_full_database.jsonl
+          python3 production_data/extract_full_dailymed.py
+          echo "::endgroup::"
+
       # --- STEP 3: Extraction & Matching ---
       - name: 3.1 Extract Dosages (Process Data Lake)
         run: |
@@ -108,7 +115,8 @@ jobs:
           
           # Only commit if changes exist
           git commit -m "db: full rebuild $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git pull --rebase
+          # Rebase favoring OUR changes (the newly generated data) over upstream
+          git pull --rebase -X theirs
           git push
 
       # --- STEP 5: D1 Sync (Full) ---
