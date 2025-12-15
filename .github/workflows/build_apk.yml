@@ -42,15 +42,23 @@ jobs:
       - name: Decode Keystore
         run: printf "%s" "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 --decode > android/app/release.jks
 
+      - name: Get Version from pubspec.yaml
+        id: get_version
+        run: |
+          # Extract version (e.g., 1.0.0+1 -> 1.0.0)
+          VERSION=$(grep 'version:' pubspec.yaml | cut -d ' ' -f 2 | cut -d '+' -f 1)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Build Signed Release APK
         env:
           RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
         run: |
-          cd android
-          ./gradlew assembleRelease
           cd ..
+          # Version Name: 1.0.0 (from pubspec) + (Build 45) -> 1.0.0.45
+          # Version Code: 45 (Auto-increment)
+          flutter build apk --release --build-name=${{ env.VERSION }}.${{ github.run_number }} --build-number=${{ github.run_number }}
 
       # إعطاء معرف لهذه الخطوة للوصول إلى مخرجاتها
       - name: Upload Signed APK Artifact
@@ -59,6 +67,23 @@ jobs:
         with:
           name: app-release-signed-apk
           path: android/build/app/outputs/apk/release/app-release.apk
+
+      - name: Publish Nightly Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: nightly
+          name: "Nightly Build (Latest)"
+          body: |
+            ### 🚀 Last Updated Build
+            **📅 Date:** ${{ steps.date.outputs.date }}
+            **🔨 Commit:** `${{ github.sha }}`
+            
+            ⚠️ *This release is automatically updated with every push to main.*
+          files: android/build/app/outputs/apk/release/app-release.apk
+          prerelease: true
+          target_commitish: ${{ github.sha }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cleanup Keystore
         if: always()
