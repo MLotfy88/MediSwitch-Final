@@ -152,8 +152,8 @@ async def fetch_drug(sem, session, drug_id, attempt=0):
     """Fetches a single drug page with concurrency control and human jitter."""
     url = f"{BASE_URL}{drug_id}"
     
-    # Human-like Jitter: Sleep random 0.5 - 2.0s BEFORE request
-    await asyncio.sleep(random.uniform(0.5, 2.0))
+    # Human-like Jitter: Sleep random 2.0 - 15.0s BEFORE request (User requested increase)
+    await asyncio.sleep(random.uniform(2.0, 15.0))
     
     async with sem: # Limit concurrency
         try:
@@ -233,7 +233,7 @@ async def main():
             
             # Longer pause between batches (Human "Coffee Break" logic)
             if i > 0:
-                 pause = random.uniform(2.0, 5.0)
+                 pause = random.uniform(10.0, 25.0)
                  # print(f"Taking a short break ({pause:.1f}s)...", flush=True) 
                  await asyncio.sleep(pause)
 
