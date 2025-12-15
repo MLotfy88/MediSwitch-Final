@@ -24,6 +24,15 @@ jobs:
     steps:
       # ... (Existing start steps) ...
       
+      # --- DEBUG STEP ---
+      - name: Debug File System
+        run: |
+          echo "Current Directory: $(pwd)"
+          ls -R
+          echo "::group::Check Scripts"
+          ls -la scripts/ || echo "Scripts folder missing!"
+          echo "::endgroup::"
+
       # --- STEP 1: Scrape & Update CSV ---
       - name: 1. Scrape DwaPrices (Details + Concentration)
         continue-on-error: true
