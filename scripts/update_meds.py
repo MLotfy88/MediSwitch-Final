@@ -141,7 +141,7 @@ def main():
             'old_price': rec.get('old_price', ''),
             'active': rec.get('active', ''),
             'company': rec.get('company', ''),
-            'description': rec.get('description', ''),
+            'category': rec.get('category', ''),
             'last_price_update': date_val,
             'visits': rec.get('visits', ''),
             
@@ -154,7 +154,6 @@ def main():
             # Fields needing translation/normalization
             'dosage_form': rec.get('dosage_form', ''),
             'usage': rec.get('usage', ''),
-            'category': rec.get('category', ''),
         }
         
         # --- Translation & Enrichment Logic ---
