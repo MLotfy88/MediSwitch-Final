@@ -55,9 +55,6 @@ jobs:
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
         run: |
-          cd ..
-          # Version Name: 1.0.0 (from pubspec) + (Build 45) -> 1.0.0.45
-          # Version Code: 45 (Auto-increment)
           flutter build apk --release --build-name=${{ env.VERSION }}.${{ github.run_number }} --build-number=${{ github.run_number }}
 
       # إعطاء معرف لهذه الخطوة للوصول إلى مخرجاتها
