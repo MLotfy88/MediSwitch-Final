@@ -107,42 +107,54 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     data.update(table_data)
     
     # Post-processing: Clean Barcode (Keep digits only)
-    if 'barcode' in data:
-         # Extract first sequence of digits 5+ chars long to avoid small numbers
-         bc_match = re.search(r'\d{5,}', data['barcode'])
+    if 'barcode' in data and data['barcode']:
+         # Extract barcode from text like "الباركود الدولي 6224000396701"
+         # or just "6224000396701"
+         bc_text = data['barcode']
+         # Try to find a sequence of 13 digits (standard barcode)
+         bc_match = re.search(r'\b(\d{13})\b', bc_text)
          if bc_match:
-             data['barcode'] = bc_match.group(0)
+             data['barcode'] = bc_match.group(1)
          else:
-             # Fallback cleanup
-             data['barcode'] = re.sub(r'[^\d]', '', data['barcode'])
+             # Try any sequence of 8+ digits
+             bc_match = re.search(r'\b(\d{8,})\b', bc_text)
+             if bc_match:
+                 data['barcode'] = bc_match.group(1)
+             else:
+                 data['barcode'] = '' # No valid barcode found
 
-    # 3. Extract usage from text section (Broader Regex)
-    text = soup.get_text("\n")
-    # Debug info logic kept hidden or minimal unless needed
+    # 3. Extract usage - CRITICAL FIX (Targeted Element)
+    # Based on debug HTML, usage is in <p id="usesLink">
+    usage_text = ""
+    uses_p = soup.find('p', id='usesLink')
+    if uses_p:
+        # Extract text, handling <br> as newlines
+        for br in uses_p.find_all('br'):
+            br.replace_with('\n')
+        usage_text = clean_text(uses_p.get_text())
     
-    # Regex refinement: Look for usage keyword, optional colon, newlines, then capture text until next SECTION HEADER
-    # Stop keywords: "نموذج إبلاغ", "الاسم", "السعر", "الشركة", "التصنيف", "عدد الوحدات", "رمز"
-    stop_pattern = r'(?=\n\s*(?:نموذج إبلاغ|الاسم|السعر|الشركة|التصنيف|عدد الوحدات|رمز|\Z))'
-    
-    usage_match = re.search(r'(?:دواع[ب-ي]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام).*?[:\n]+(.*?)' + stop_pattern, 
-                           text, re.DOTALL | re.IGNORECASE)
-    
-    if usage_match:
-        usage_text = usage_match.group(1).strip()
-        
-        # If captured text is very short/header-like, try fuzzy search for next block
-        if len(usage_text) < 10 or usage_text.endswith(':'):
-             # Try capturing the next block
-             next_match = re.search(r'(?:دواع[ب-ي]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام).*?[:\n]+.*?\n+(.*?)' + stop_pattern, 
-                                    text, re.DOTALL | re.IGNORECASE)
-             if next_match:
-                 usage_text = next_match.group(1).strip()
-                 
-        # Clean up newlines: Keep single newlines for list items, remove excessive spacing
+    # Fallback: Try regex if id="usesLink" is missing
+    if not usage_text:
+        text = soup.get_text("\n")
+        usage_match = re.search(
+            r'(?:دواع[يى]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام)[:\s]*\n+(.*?)(?=\n\s*(?:نموذج إبلاغ|كلمات مفتاحية|كم ثمن|اضغط هنا)|$)',
+            text,
+            re.DOTALL | re.IGNORECASE
+        )
+        if usage_match:
+            usage_text = usage_match.group(1).strip()
+            
+    # Final cleaning
+    if usage_text:
+        # Remove excessive newlines
         usage_text = re.sub(r'\n{3,}', '\n\n', usage_text)
-        data['usage'] = usage_text.strip()
-    else:
-        data['usage'] = ""
+        # Remove leading/trailing whitespace
+        usage_text = usage_text.strip()
+        # If it's just a header or very short, clear it
+        if len(usage_text) < 5 or usage_text.endswith(':'):
+            usage_text = ""
+    
+    data['usage'] = usage_text
     
     # 4. Extract visits (Broader Regex)
     # Matches "قام 11897 شخص" or "قام عدد 11897 زائر" etc.
@@ -166,20 +178,35 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     
     # 6. Infer dosage form
     trade_lower = data.get('trade_name', '').lower()
-    arabic = data.get('arabic_name', '')
+    # 7. Extract dosage form from trade_name
+    dosage_form = "Unknown"
+    dosage_form_ar = "غير محدد"
     
-    form = 'Unknown'
-    if 'tab' in trade_lower or 'اقراص' in arabic or 'قرص' in arabic: form = 'Tablet'
-    elif 'cap' in trade_lower or 'كبسول' in arabic: form = 'Capsule'
-    elif 'syr' in trade_lower or 'شراب' in arabic: form = 'Syrup'
-    elif 'vial' in trade_lower or 'amp' in trade_lower or 'حقن' in arabic or 'امبول' in arabic: form = 'Vial/Amp'
-    elif 'cream' in trade_lower or 'كريم' in arabic: form = 'Cream'
-    elif 'oint' in trade_lower or 'مرهم' in arabic: form = 'Ointment'
-    elif 'drop' in trade_lower or 'نقط' in arabic: form = 'Drops'
-    elif 'supp' in trade_lower or 'لبوس' in arabic: form = 'Suppository'
-    elif 'eff' in trade_lower or 'فوار' in arabic: form = 'Effervescent'
+    # Dosage form translation map
+    form_translations = {
+        'tablet': 'قرص', 'tablets': 'أقراص', 'tab': 'قرص', 'tabs': 'أقراص',
+        'capsule': 'كبسولة', 'capsules': 'كبسولات', 'cap': 'كبسولة', 'caps': 'كبسولات',
+        'syrup': 'شراب', 'suspension': 'معلق', 'susp': 'معلق',
+        'cream': 'كريم', 'ointment': 'مرهم', 'oint': 'مرهم',
+        'gel': 'جل', 'lotion': 'لوشن', 'spray': 'بخاخ',
+        'drops': 'نقط', 'drop': 'نقطة',
+        'injection': 'حقن', 'inj': 'حقن', 'vial': 'فيال', 'amp': 'أمبول', 'ampoule': 'أمبول',
+        'suppository': 'لبوس', 'supp': 'لبوس',
+        'powder': 'بودرة', 'sachet': 'كيس',
+        'solution': 'محلول', 'sol': 'محلول',
+        'patch': 'لصقة', 'inhaler': 'بخاخ',
+    }
     
-    data['dosage_form'] = form
+    if data.get('trade_name'):
+        tn_lower = data['trade_name'].lower()
+        for eng, ar in form_translations.items():
+            if eng in tn_lower:
+                dosage_form = eng.capitalize()
+                dosage_form_ar = ar
+                break
+    
+    data['dosage_form'] = dosage_form
+    data['dosage_form_ar'] = dosage_form_ar
     
     return data
 
@@ -245,7 +272,6 @@ async def fetch_drug(sem, session, drug_id, attempt=0):
     
     async with sem:
         try:
-            async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
                 if response.status == 200:
                     html = await response.text()
                     data = parse_drug_page(html, drug_id)
