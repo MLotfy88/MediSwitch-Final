@@ -78,14 +78,7 @@ def load_scraped_data() -> Dict[str, dict]:
         print("⚠️ Scraped DB not found (Skipping Tier 2).")
         return data
         
-    with open(SCRAPER_DB, 'r', encoding='utf-8') as f:
-        for line in f:
-            if not line.strip(): continue
-            try:
-                rec = json.loads(line)
-        # Proceed to fallback if JSONL doesn't exist
-        pass
-        
+
     if os.path.exists(SCRAPER_DB):
         with open(SCRAPER_DB, 'r', encoding='utf-8') as f:
             for line in f:

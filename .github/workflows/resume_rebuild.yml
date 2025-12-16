@@ -25,19 +25,63 @@ jobs:
         run: |
           pip install requests pandas beautifulsoup4 aiohttp aiofiles brotli
 
-      # --- SKIPPING STEP 1 (Scraping) ---
-      
+      # --- STEP 1.0: Check for Existing Scraped Data ---
+      - name: 1.0 Check for Existing Drug Data
+        id: check_scrape
+        run: |
+          csv_file="assets/meds.csv"
+          jsonl_file="assets/meds_scraped_new.jsonl"
+          
+          # Check CSV lines
+          csv_lines=0
+          if [ -f "$csv_file" ]; then
+             csv_lines=$(wc -l < "$csv_file")
+          fi
+          
+          # Check JSONL size
+          jsonl_size=0
+          if [ -f "$jsonl_file" ]; then
+             jsonl_size=$(stat -c%s "$jsonl_file")
+          fi
+          
+          echo "📊 Current Data Status:"
+          echo "   - meds.csv lines: $csv_lines"
+          echo "   - scraped jsonl size: $jsonl_size bytes"
+          
+          # Logic: If we have a healthy CSV (>100 lines) OR a healthy Scrape file (>10KB), we assume resume is possible.
+          # If BOTH are weak, we MUST scrape.
+          
+          if [ "$csv_lines" -gt 100 ] || [ "$jsonl_size" -gt 10000 ]; then
+             echo "✅ Found valid existing drug data."
+             echo "🚀 SKIPPING Scraper!"
+             echo "skip_scrape=true" >> $GITHUB_OUTPUT
+          else
+             echo "⚠️ No valid drug data found. Scraper execution REQUIRED."
+             echo "skip_scrape=false" >> $GITHUB_OUTPUT
+          fi
+
+      # --- STEP 1.1: Scrape DwaPrices (Conditional) ---
+      - name: 1.1 Scrape DwaPrices (If Data Missing)
+        if: steps.check_scrape.outputs.skip_scrape != 'true'
+        continue-on-error: true
+        run: |
+          echo "::group::Scraping DwaPrices (Cleanup Required)"
+          # Since file is missing/bad, allow scraper to run in update mode (resumes or starts fresh if empty)
+          python3 -u scripts/scrape_dwaprices_by_id.py
+          echo "::endgroup::"
+
       # --- STEP 1.5: Ensure CSV is Up-to-Date ---
       - name: 1.5 Update meds.csv with Scraped Data (If exists)
         run: |
           echo "::group::Updating CSV from Repo Data"
           ls -l scripts/
-          # If user pushed meds_scraped_new.jsonl, we use it.
+          # If user pushed meds_scraped_new.jsonl OR scraper just created it
           if [ -f "assets/meds_scraped_new.jsonl" ]; then
              echo "✅ Found scraped data file. Updating meds.csv..."
              python3 scripts/update_meds.py
           else
              echo "⚠️ No scraped data file found. Using existing meds.csv as is."
+             python3 scripts/validate_linked_db.py || echo "Warning: Validation failed"
           fi
           echo "::endgroup::"
 
@@ -56,14 +100,40 @@ jobs:
              git push
           fi
 
+      # --- STEP 1.7: Check for Existing Processed Data (Smart Resume) ---
+      - name: 1.7 Check for Existing Intermediate Data
+        id: check_files
+        run: |
+          dosages="production_data/production_dosages.jsonl"
+          interactions="production_data/dailymed_interactions.json"
+          
+          if [ -f "$dosages" ] && [ -f "$interactions" ]; then
+             lines=$(wc -l < "$dosages")
+             size=$(stat -c%s "$interactions")
+             
+             if [ "$lines" -gt 100 ] && [ "$size" -gt 1000 ]; then
+                echo "✅ Found valid existing data ($lines lines, $size bytes)."
+                echo "🚀 SKIPPING DailyMed Download & Extraction!"
+                echo "skip_dailymed=true" >> $GITHUB_OUTPUT
+             else
+                echo "⚠️ Data files exist but seem small/empty. Re-running processing."
+                echo "skip_dailymed=false" >> $GITHUB_OUTPUT
+             fi
+          else
+             echo "⚠️ Intermediate files validation failed. Re-running processing."
+             echo "skip_dailymed=false" >> $GITHUB_OUTPUT
+          fi
+
       # --- STEP 2: DailyMed Download ---
       - name: 2. Download DailyMed Full Release
+        if: steps.check_files.outputs.skip_dailymed != 'true'
         run: |
           echo "::group::Downloading DailyMed"
           python3 scripts/download_dailymed.py
           echo "::endgroup::"
 
       - name: 2.5 Extract DailyMed Data Lake
+        if: steps.check_files.outputs.skip_dailymed != 'true'
         run: |
           echo "::group::Extracting DailyMed XMLs"
           python3 production_data/extract_full_dailymed.py
@@ -71,10 +141,12 @@ jobs:
 
       # --- STEP 3: Extraction & Matching ---
       - name: 3.1 Extract Dosages (Process Data Lake)
+        if: steps.check_files.outputs.skip_dailymed != 'true'
         run: |
           python3 scripts/process_datalake.py
           
       - name: 3.2 Extract Interactions
+        if: steps.check_files.outputs.skip_dailymed != 'true'
         run: |
           python3 production_data/extract_dailymed_interactions.py
 
