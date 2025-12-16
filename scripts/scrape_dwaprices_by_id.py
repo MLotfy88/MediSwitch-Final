@@ -282,14 +282,8 @@ async def main():
         else:
              return
 
-    # Wipe meds.csv as requested
-    if args.test_mode or args.reset:
-        if os.path.exists(MEDS_CSV):
-            with open(MEDS_CSV, 'w') as f:
-                f.write('id,trade_name\n') # Write minimal header to avoid "empty" errors later if needed
-            log("🔥 Wiped meds.csv (recreated empty) as requested")
-
-    # Load IDs from BACKUP
+    # ✨ CRITICAL FIX: Load IDs FIRST, before any wiping/resetting
+    all_ids = []
     try:
         df = pd.read_csv(INPUT_CSV, dtype=str, encoding='utf-8-sig', on_bad_lines='skip')
         # Normalize columns (strip whitespace, lowercase)
@@ -299,44 +293,32 @@ async def main():
             # Try to find a column that might be ID
             potential = [c for c in df.columns if 'id' in c]
             if potential:
-                log(f"⚠️ 'id' column missing in backup, trying '{potential[0]}'")
                 df.rename(columns={potential[0]: 'id'}, inplace=True)
+                log(f"⚠️ Renamed '{potential[0]}' to 'id'")
             else:
-                raise ValueError("Column 'id' not found in DataFrame")
-                
+                # Fallback: use index or first column
+                log(f"❌ No ID column found in CSV! Columns: {df.columns.tolist()}")
+                return
+        
+        # Extract valid IDs
+        for idx, row in df.iterrows():
+            id_val = str(row.get('id', '')).strip()
+            if id_val and id_val.isdigit():
+                all_ids.append(id_val)
+        
+        all_ids = list(set(all_ids))  # Remove duplicates
+        log(f"📊 Total IDs loaded: {len(all_ids):,}")
+        
     except Exception as e:
-        log(f"⚠️ Error reading meds.csv via pandas: {e}")
-        # Fallback manual read if pandas fails hard or 'id' missing
-        records = []
-        try:
-            with open(MEDS_CSV, 'r', encoding='utf-8-sig', errors='replace') as f:
-                header = next(f).strip().split(',')
-                # normalize header
-                header = [h.strip().lower() for h in header]
-                
-                try:
-                    if 'id' in header:
-                        id_idx = header.index('id')
-                    else:
-                        # Find first column usually
-                        id_idx = 0 
-                except:
-                    id_idx = 0 # Assume first col
-                    
-                for line in f:
-                    parts = line.strip().split(',')
-                    if len(parts) > id_idx:
-                        val = parts[id_idx].strip()
-                        if val.isdigit():
-                            records.append(val)
-            df = pd.DataFrame({'id': records})
-            log(f"✅ Fallback reader recovered {len(df)} IDs")
-        except Exception as e2:
-             log(f"❌ Critical failure reading meds.csv: {e2}")
-             return
-    
-    all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
-    log(f"📊 Total IDs loaded: {len(all_ids)}")
+        log(f"❌ Error reading CSV: {e}")
+        return
+
+    # NOW we can wipe meds.csv if --reset or --test-mode was requested
+    if args.test_mode or args.reset:
+        if os.path.exists(MEDS_CSV):
+            with open(MEDS_CSV, 'w') as f:
+                f.write('id,trade_name\n') # Write minimal header to avoid "empty" errors later if needed
+            log("🔥 Wiped meds.csv (recreated empty) as requested")
     
     # Check processed IDs
     processed_ids = set()
