@@ -69,6 +69,7 @@ jobs:
           echo "::endgroup::"
 
       - name: 1.5 Commit Scraped Data (Safety Checkpoint)
+        if: always()
         run: |
           git config --global user.name 'DailyMed Bot'
           git config --global user.email 'bot@dailymed.local'

@@ -47,11 +47,11 @@ def log(message):
     ts = datetime.now().strftime('%H:%M:%S')
     print(f"[{ts}] {message}", flush=True)
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\n")
+        f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}\\n")
 
 def clean_text(text):
     if not text: return ""
-    return re.sub(r'\s+', ' ', text).strip()
+    return re.sub(r'\\s+', ' ', text).strip()
 
 def extract_from_table(soup):
     """Extract data from HTML table (VERIFIED LOGIC)"""
@@ -103,7 +103,7 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     data.update(table_data)
     
     # 3. Extract usage from text section (not in table)
-    text = soup.get_text("\n")
+    text = soup.get_text("\\n")
     usage_match = re.search(r'دواعي استعمال.*?:\\s*\\n+(.*?)(?=\\n\\n\\n|\\nنموذج إبلاغ|$)', 
                            text, re.DOTALL)
     if usage_match:
@@ -352,17 +352,11 @@ async def main():
             results = await asyncio.gather(*batch)
             
             # Save results
-            # Synchronous batch write to ensure newline integrity and atomicity
-            batch_lines = []
-            for data in results:
-                if data:
-                    batch_lines.append(json.dumps(data, ensure_ascii=False))
-            
-            if batch_lines:
-                # Use append mode with utf-8 encoding
-                with open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
-                    f.write('\n'.join(batch_lines) + '\n')
-                    total_scraped += len(batch_lines)
+            async with aiofiles.open(OUTPUT_FILE, 'a', encoding='utf-8') as f:
+                for data in results:
+                    if data:
+                        await f.write(json.dumps(data, ensure_ascii=False) + '\\n')
+                        total_scraped += 1
             
             log(f"✅ Batch {i//BATCH_SIZE + 1}: {len([r for r in results if r])}/{len(batch)} scraped (Total: {total_scraped})")
             
