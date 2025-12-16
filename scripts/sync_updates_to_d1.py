@@ -26,7 +26,13 @@ class CloudflareD1Uploader:
         if params: payload["params"] = params
         resp = requests.post(self.base_url, headers=self.headers, json=payload)
         resp.raise_for_status()
-        return resp.json()
+        result = resp.json()
+        if not result.get("success", False):
+            # Extract errors
+            errors = result.get("errors", [])
+            error_msg = "; ".join([e.get("message", "Unknown Error") for e in errors])
+            raise Exception(f"D1 Query Failed: {error_msg}")
+        return result
 
     def init_tables(self):
         # 1. Med Dosages (Keyed by med_id)
@@ -79,25 +85,29 @@ class CloudflareD1Uploader:
             placeholders = []
             params = []
             for r in batch:
-                placeholders.append("(?, ?, ?, ?, ?, ?, ?)")
+                placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")  # 10 params now
                 # Extract simplified cols
                 adult_dose = r.get('dosages', {}).get('adult_dose_mg')
                 ped_dose = r.get('dosages', {}).get('dose_mg_kg')
                 
                 params.extend([
                     str(r['med_id']),
+                    r.get('dailymed_setid', ''),           # ✨ NEW
+                    r.get('dailymed_product_name', ''),   # ✨ NEW
                     r.get('trade_name'),
                     r.get('dailymed_name'), # Using dailymed name as active/generic proxy if needed
                     float(adult_dose) if adult_dose else None,
                     float(ped_dose) if ped_dose else None,
                     r.get('clinical_text', {}).get('dosage', '')[:2000],
+                    r.get('matching_confidence', 0.0),    # ✨ NEW
                     json.dumps(r, ensure_ascii=False)
                 ])
-
+            
             sql = f"""
-            INSERT OR REPLACE INTO med_dosages 
-            (med_id, trade_name, active_ingredient, adult_dose_mg, pediatric_dose_mg_kg, dosage_text, json_data)
-            VALUES {', '.join(placeholders)}
+            INSERT OR REPLACE INTO med_dosages  
+            (med_id, dailymed_setid, dailymed_product_name, trade_name, active_ingredient, 
+             adult_dose_mg, pediatric_dose_mg_kg, dosage_text, matching_confidence, json_data)
+            VALUES {','.join(placeholders)}
             """
             try:
                 self.query(sql, params)
