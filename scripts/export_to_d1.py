@@ -43,28 +43,29 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write(f"-- Total records: {count}\n")
         f.write("-- Generated from local assets/meds.csv\n\n")
         
-        # Schema Init (Safe)
+        # Schema Init (Safe) - Updated to match current meds.csv structure
         f.write("CREATE TABLE IF NOT EXISTS drugs (\n")
-        f.write("  id INTEGER PRIMARY KEY,\n") # CSV might not have ID, we might need to auto-gen or allow NULL if AutoInc
+        f.write("  id INTEGER PRIMARY KEY,\n")
         f.write("  trade_name TEXT,\n")
         f.write("  arabic_name TEXT,\n")
-        f.write("  old_price TEXT,\n")
         f.write("  price TEXT,\n")
+        f.write("  old_price TEXT,\n")
         f.write("  active TEXT,\n")
-        f.write("  main_category TEXT,\n")
-        f.write("  main_category_ar TEXT,\n")
-        f.write("  category TEXT,\n")
-        f.write("  category_ar TEXT,\n")
         f.write("  company TEXT,\n")
         f.write("  dosage_form TEXT,\n")
         f.write("  dosage_form_ar TEXT,\n")
-        f.write("  unit TEXT,\n")
         f.write("  usage TEXT,\n")
         f.write("  usage_ar TEXT,\n")
-        f.write("  description TEXT,\n")
-        f.write("  last_price_update TEXT,\n")
+        f.write("  category TEXT,\n")
+        f.write("  category_ar TEXT,\n")
+        f.write("  main_category TEXT,\n")
+        f.write("  main_category_ar TEXT,\n")
         f.write("  concentration TEXT,\n")
-        f.write("  visits INTEGER DEFAULT 0\n")
+        f.write("  pharmacology TEXT,\n")  # Added from scraper
+        f.write("  barcode TEXT,\n")       # Added from scraper
+        f.write("  unit TEXT,\n")
+        f.write("  visits INTEGER DEFAULT 0,\n")
+        f.write("  last_price_update TEXT\n")
         f.write(");\n\n")
         
         # Clear existing data? User wants a sync.

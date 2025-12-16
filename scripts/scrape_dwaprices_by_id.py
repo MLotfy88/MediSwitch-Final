@@ -70,6 +70,10 @@ def extract_from_table(soup):
         'رمز الباركود': 'barcode',
         'رمز': 'qr_code',
         'الفارماكولوجي': 'pharmacology',
+        'الفارماكولوجى': 'pharmacology',
+        'Pharmacology': 'pharmacology',
+        'الوصف': 'pharmacology', # Sometimes description is used here
+        'Description': 'pharmacology',
     }
     
     for row in rows:
@@ -102,26 +106,61 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     table_data = extract_from_table(soup)
     data.update(table_data)
     
-    # 3. Extract usage from text section (not in table)
+    # Post-processing: Clean Barcode (Keep digits only)
+    if 'barcode' in data:
+         # Extract first sequence of digits 5+ chars long to avoid small numbers
+         bc_match = re.search(r'\d{5,}', data['barcode'])
+         if bc_match:
+             data['barcode'] = bc_match.group(0)
+         else:
+             # Fallback cleanup
+             data['barcode'] = re.sub(r'[^\d]', '', data['barcode'])
+
+    # 3. Extract usage from text section (Broader Regex)
     text = soup.get_text("\n")
-    usage_match = re.search(r'دواعي استعمال.*?:\\s*\\n+(.*?)(?=\\n\\n\\n|\\nنموذج إبلاغ|$)', 
-                           text, re.DOTALL)
+    # Debug info logic kept hidden or minimal unless needed
+    
+    # Regex refinement: Look for usage keyword, optional colon, newlines, then capture text until next SECTION HEADER
+    # Stop keywords: "نموذج إبلاغ", "الاسم", "السعر", "الشركة", "التصنيف", "عدد الوحدات", "رمز"
+    stop_pattern = r'(?=\n\s*(?:نموذج إبلاغ|الاسم|السعر|الشركة|التصنيف|عدد الوحدات|رمز|\Z))'
+    
+    usage_match = re.search(r'(?:دواع[ب-ي]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام).*?[:\n]+(.*?)' + stop_pattern, 
+                           text, re.DOTALL | re.IGNORECASE)
+    
     if usage_match:
         usage_text = usage_match.group(1).strip()
-        usage_text = re.sub(r'\\n{3,}', '\\n\\n', usage_text)
-        data['usage'] = usage_text
+        
+        # If captured text is very short/header-like, try fuzzy search for next block
+        if len(usage_text) < 10 or usage_text.endswith(':'):
+             # Try capturing the next block
+             next_match = re.search(r'(?:دواع[ب-ي]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام).*?[:\n]+.*?\n+(.*?)' + stop_pattern, 
+                                    text, re.DOTALL | re.IGNORECASE)
+             if next_match:
+                 usage_text = next_match.group(1).strip()
+                 
+        # Clean up newlines: Keep single newlines for list items, remove excessive spacing
+        usage_text = re.sub(r'\n{3,}', '\n\n', usage_text)
+        data['usage'] = usage_text.strip()
     else:
         data['usage'] = ""
     
-    # 4. Extract visits
-    visits_match = re.search(r'قام عدد.*?(\\d+).*?شخص', text, re.DOTALL)
+    # 4. Extract visits (Broader Regex)
+    # Matches "قام 11897 شخص" or "قام عدد 11897 زائر" etc.
+    visits_match = re.search(r'قام.*?\s+(\d+)\s+', text)
     data['visits'] = visits_match.group(1) if visits_match else ""
     
     # 5. Extract concentration from trade_name
+    # Fix: Catch "0.03%" (no \b needed after %) OR "500 mg" (needs \b)
     if data.get('trade_name'):
-        conc_match = re.search(r'(\\d+(?:\\.\\d+)?%?)\\s*(?:mg|gm|ml|mcg|unit|iu|%)', 
-                               data['trade_name'], re.IGNORECASE)
-        data['concentration'] = conc_match.group(0) if conc_match else ""
+        conc_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:%|(?:mg|gm|ml|mcg|unit|iu)\b)', 
+                              data['trade_name'], re.IGNORECASE)
+        # Verify it actually looks like a concentration
+        if conc_match:
+             # Capture the full match including unit
+             full_conc = conc_match.group(0)
+             data['concentration'] = full_conc
+        else:
+             data['concentration'] = ""
     else:
         data['concentration'] = ""
     
@@ -227,15 +266,32 @@ async def fetch_drug(sem, session, drug_id, attempt=0):
 async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--reset', action='store_true', help='Delete existing output before scraping')
+    parser.add_argument('--test-mode', action='store_true', help='Run verification test (ID 11196 + 10 random)')
+    parser.add_argument('--limit', type=int, default=None, help='Limit number of drugs to scrape (for testing)')
     args = parser.parse_args()
     
-    if not os.path.exists(MEDS_CSV):
-        print("❌ meds.csv not found")
-        return
+    # User Correction: Source IDs from BACKUP, Wipe MAIN CSV
+    INPUT_CSV = os.path.join(os.path.dirname(MEDS_CSV), 'meds_backup.csv')
     
-    # Load IDs
+    if not os.path.exists(INPUT_CSV):
+        print(f"❌ Input file {INPUT_CSV} not found")
+        # Fallback to main if backup missing, but warn
+        if os.path.exists(MEDS_CSV):
+             log(f"⚠️ Backup missing, falling back to {MEDS_CSV}")
+             INPUT_CSV = MEDS_CSV
+        else:
+             return
+
+    # Wipe meds.csv as requested
+    if args.test_mode or args.reset:
+        if os.path.exists(MEDS_CSV):
+            with open(MEDS_CSV, 'w') as f:
+                f.write('id,trade_name\n') # Write minimal header to avoid "empty" errors later if needed
+            log("🔥 Wiped meds.csv (recreated empty) as requested")
+
+    # Load IDs from BACKUP
     try:
-        df = pd.read_csv(MEDS_CSV, dtype=str, encoding='utf-8-sig', on_bad_lines='skip')
+        df = pd.read_csv(INPUT_CSV, dtype=str, encoding='utf-8-sig', on_bad_lines='skip')
         # Normalize columns (strip whitespace, lowercase)
         df.columns = [c.strip().lower() for c in df.columns]
         
@@ -243,7 +299,7 @@ async def main():
             # Try to find a column that might be ID
             potential = [c for c in df.columns if 'id' in c]
             if potential:
-                log(f"⚠️ 'id' column missing, trying '{potential[0]}'")
+                log(f"⚠️ 'id' column missing in backup, trying '{potential[0]}'")
                 df.rename(columns={potential[0]: 'id'}, inplace=True)
             else:
                 raise ValueError("Column 'id' not found in DataFrame")
@@ -278,12 +334,13 @@ async def main():
         except Exception as e2:
              log(f"❌ Critical failure reading meds.csv: {e2}")
              return
+    
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
-    log(f"📊 Total IDs to scrape: {len(all_ids)}")
+    log(f"📊 Total IDs loaded: {len(all_ids)}")
     
     # Check processed IDs
     processed_ids = set()
-    if os.path.exists(OUTPUT_FILE) and not args.reset:
+    if os.path.exists(OUTPUT_FILE) and not args.reset and not args.test_mode:
         with open(OUTPUT_FILE, 'r') as f:
             for line in f:
                 if line.strip():
@@ -295,9 +352,32 @@ async def main():
     elif args.reset and os.path.exists(OUTPUT_FILE):
         os.remove(OUTPUT_FILE)
         log("🗑️  Reset: Deleted existing output file")
-    
+        
     pending_ids = [id for id in all_ids if id not in processed_ids]
-    log(f"🎯 Pending IDs: {len(pending_ids)}")
+    
+    if args.test_mode:
+        # TEST MODE SELECTION
+        target_ids = []
+        # 1. Verification ID 11196
+        if '11196' in all_ids:
+            target_ids.append('11196')
+        else:
+            log("⚠️ ID 11196 not found in CSV! Adding manually for test.")
+            target_ids.append('11196')
+            
+        # 2. Add 10 random others
+        remaining = [x for x in pending_ids if x != '11196']
+        sample_size = min(10, len(remaining))
+        target_ids.extend(random.sample(remaining, sample_size))
+        
+        pending_ids = target_ids
+        log(f"🧪 Testing with {len(pending_ids)} IDs: {pending_ids}")
+    elif args.limit:
+        # LIMIT MODE: Take first N pending IDs
+        pending_ids = pending_ids[:args.limit]
+        log(f"📊 Limit mode: Scraping {len(pending_ids)} drugs")
+    
+    log(f"🎯 Pending IDs to scrape: {len(pending_ids)}")
     
     if not pending_ids:
         log("✅ Nothing to scrape")
@@ -357,6 +437,11 @@ async def main():
             for data in results:
                 if data:
                     batch_lines.append(json.dumps(data, ensure_ascii=False))
+                    # DEBUG: Print ID 11196 for verification
+                    if args.test_mode and str(data.get('id')) == '11196':
+                         print("\n🔍 --- VERIFICATION RECORD [11196] ---")
+                         print(json.dumps(data, indent=2, ensure_ascii=False))
+                         print("----------------------------------------\n")
             
             if batch_lines:
                 # Use append mode with utf-8 encoding
@@ -373,6 +458,7 @@ async def main():
                 await asyncio.sleep(pause)
         
         log(f"🎉 Scraping complete! Total: {total_scraped} drugs")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

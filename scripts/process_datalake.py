@@ -448,6 +448,8 @@ def process_datalake():
 
                     candidate_record = {
                         'med_id': med_id,
+                        'dailymed_setid': entry.get('set_id'),  # ✨ NEW: DailyMed ID tracking
+                        'dailymed_product_name': drug_name,  # ✨ NEW: DailyMed product name
                         'trade_name': app_rec.get('trade_name'),
                         'dailymed_name': drug_name,
                         'concentration': final_conc,
@@ -463,7 +465,8 @@ def process_datalake():
                             'boxed_warning': clinical.get('boxed_warning')[:500] if clinical.get('boxed_warning') else None,
                         },
                          'set_id': entry.get('set_id'),
-                         'product_codes': [p.get('product_code') for p in products if p.get('product_code')]
+                         'product_codes': [p.get('product_code') for p in products if p.get('product_code')],
+                         'matching_confidence': 0.0  # ✨ NEW: Will be calculated below
                     }
                     
                     # --- SCORING LOGIC ---

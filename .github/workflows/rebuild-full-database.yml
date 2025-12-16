@@ -15,6 +15,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      test_mode:
+        description: 'Test mode: Limit drugs for quick validation (default: 0 = all drugs)'
+        required: false
+        default: '0'
+        type: string
 
 jobs:
   full-rebuild:
@@ -51,13 +56,20 @@ jobs:
         continue-on-error: true
         run: |
           echo "::group::Scraping DwaPrices"
+          # Test mode check
+          LIMIT_FLAG=""
+          if [ "${{ inputs.test_mode }}" != "0" ] && [ -n "${{ inputs.test_mode }}" ]; then
+            LIMIT_FLAG="--limit ${{ inputs.test_mode }}"
+            echo "🧪 TEST MODE: Limiting to ${{ inputs.test_mode }} drugs"
+          fi
+          
           # Requires meds.csv to exist in repo
           if [ "${{ inputs.force_scrape }}" == "true" ]; then
             echo "🔥 FORCE SCRAPE ENABLED: Deleting old data..."
-            python3 -u scripts/scrape_dwaprices_by_id.py --reset
+            python3 -u scripts/scrape_dwaprices_by_id.py --reset $LIMIT_FLAG
           else
             echo "♻️ SMART SCRAPE: Resuming/Updating only..."
-            python3 -u scripts/scrape_dwaprices_by_id.py
+            python3 -u scripts/scrape_dwaprices_by_id.py $LIMIT_FLAG
           fi
           echo "::endgroup::"
           

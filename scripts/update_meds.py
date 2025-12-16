@@ -100,20 +100,36 @@ def main():
         print("❌ Scraped DB not found. Run scraper first.")
         sys.exit(1)
         
-    # 1. Backup Existing CSVs
+    # 1. Backup Existing CSVs (Safe Backup)
     if os.path.exists(MEDS_CSV):
-        print("💾 Creating Backups...")
-        os.makedirs(BACKUP_DIR, exist_ok=True)
-        timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-        
-        # Backup 1: To backups/ folder with timestamp
-        backup_path = os.path.join(BACKUP_DIR, f'meds_backup_{timestamp}.csv')
-        shutil.copy(MEDS_CSV, backup_path)
-        print(f"   -> {backup_path}")
-        
-        # Backup 2: To assets/meds_backup.csv (Overwrite previous backup)
-        shutil.copy(MEDS_CSV, MEDS_BACKUP_CSV)
-        print(f"   -> {MEDS_BACKUP_CSV}")
+        # Check if MEDS_CSV is valid/substantial before backing up
+        # This prevents the scraper's "wipe" from destroying the backup source
+        is_valid_csv = False
+        try:
+            if os.path.getsize(MEDS_CSV) > 100: # Arbitrary small threshold
+                is_valid_csv = True
+            else:
+                # Double check line count
+                with open(MEDS_CSV, 'r') as f:
+                    if len(f.readlines()) > 5:
+                         is_valid_csv = True
+        except: pass
+
+        if is_valid_csv:
+            print("💾 Creating Backups...")
+            os.makedirs(BACKUP_DIR, exist_ok=True)
+            timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+            
+            # Backup 1: To backups/ folder with timestamp
+            backup_path = os.path.join(BACKUP_DIR, f'meds_backup_{timestamp}.csv')
+            shutil.copy(MEDS_CSV, backup_path)
+            print(f"   -> {backup_path}")
+            
+            # Backup 2: To assets/meds_backup.csv (Overwrite previous backup)
+            shutil.copy(MEDS_CSV, MEDS_BACKUP_CSV)
+            print(f"   -> {MEDS_BACKUP_CSV}")
+        else:
+            print("⚠️ Skipping backup: meds.csv is too small/empty (preventing data loss).")
 
     # 2. Load Scraped Data
     scraped_map = {}
@@ -194,9 +210,10 @@ def main():
     df = pd.DataFrame(records)
     
     # Define Column Order (Schema)
+    # Define Column Order (Schema) - Description REMOVED per user request
     desired_columns = [
         'id', 'trade_name', 'arabic_name', 'price', 'old_price', 'active', 
-        'company', 'description', 'dosage_form', 'dosage_form_ar', 
+        'company', 'dosage_form', 'dosage_form_ar', 
         'usage', 'usage_ar', 'category', 'category_ar', 
         'main_category', 'main_category_ar', 'concentration', 
         'pharmacology', 'barcode', 'unit', 'visits', 'last_price_update'
@@ -207,7 +224,10 @@ def main():
         if col not in df.columns:
             df[col] = ''
             
-    # Reorder
+    # Remove duplicates columns if any (by name)
+    df = df.loc[:, ~df.columns.duplicated()]
+    
+    # Reorder and Select (Strict)
     df = df[desired_columns]
     
     # Save (Overwrite)

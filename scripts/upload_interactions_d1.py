@@ -45,18 +45,25 @@ class CloudflareD1Uploader:
         try:
             response = requests.post(url, headers=self.headers, json=payload)
             response.raise_for_status()
-            return response.json()
+            result = response.json()
+            if not result.get("success", False):
+                errors = result.get("errors", [])
+                error_msg = "; ".join([e.get("message", "Unknown Error") for e in errors])
+                raise Exception(f"D1 Query Failed: {error_msg}")
+            return result
         except requests.exceptions.RequestException as e:
             print(f"❌ API Error: {e}")
-            if hasattr(e.response, 'text'):
-                print(f"Response: {e.response.text}")
             
-            if e.response.status_code == 401:
-                print("\n⚠️  AUTHENTICATION ERROR: The provided Cloudflare API Token is invalid or expired.")
-                print("   Please verify that your 'CLOUDFLARE_API_TOKEN' secret in GitHub:")
-                print("   1. Is correct and has no extra spaces.")
-                print("   2. Has 'Account.D1:Edit' permissions.")
-                print("   3. Is created for the correct Account ID.")
+            if getattr(e, 'response', None):
+                if hasattr(e.response, 'text'):
+                    print(f"Response: {e.response.text}")
+                
+                if e.response.status_code == 401:
+                    print("\n⚠️  AUTHENTICATION ERROR: The provided Cloudflare API Token is invalid or expired.")
+                    print("   Please verify that your 'CLOUDFLARE_API_TOKEN' secret in GitHub:")
+                    print("   1. Is correct and has no extra spaces.")
+                    print("   2. Has 'Account.D1:Edit' permissions.")
+                    print("   3. Is created for the correct Account ID.")
             raise
     
     def initialize_tables(self):
