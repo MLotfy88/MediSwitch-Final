@@ -236,21 +236,48 @@ async def main():
     # Load IDs
     try:
         df = pd.read_csv(MEDS_CSV, dtype=str, encoding='utf-8-sig', on_bad_lines='skip')
+        # Normalize columns (strip whitespace, lowercase)
+        df.columns = [c.strip().lower() for c in df.columns]
+        
+        if 'id' not in df.columns:
+            # Try to find a column that might be ID
+            potential = [c for c in df.columns if 'id' in c]
+            if potential:
+                log(f"⚠️ 'id' column missing, trying '{potential[0]}'")
+                df.rename(columns={potential[0]: 'id'}, inplace=True)
+            else:
+                raise ValueError("Column 'id' not found in DataFrame")
+                
     except Exception as e:
         log(f"⚠️ Error reading meds.csv via pandas: {e}")
-        # Fallback manual read if pandas fails hard
+        # Fallback manual read if pandas fails hard or 'id' missing
         records = []
-        with open(MEDS_CSV, 'r', encoding='utf-8-sig', errors='replace') as f:
-            header = next(f).split(',')
-            try:
-                id_idx = header.index('id')
-            except:
-                id_idx = 0 # Assume first col
-            for line in f:
-                parts = line.strip().split(',')
-                if len(parts) > id_idx:
-                    records.append(parts[id_idx])
-        df = pd.DataFrame({'id': records})
+        try:
+            with open(MEDS_CSV, 'r', encoding='utf-8-sig', errors='replace') as f:
+                header = next(f).strip().split(',')
+                # normalize header
+                header = [h.strip().lower() for h in header]
+                
+                try:
+                    if 'id' in header:
+                        id_idx = header.index('id')
+                    else:
+                        # Find first column usually
+                        id_idx = 0 
+                except:
+                    id_idx = 0 # Assume first col
+                    
+                for line in f:
+                    parts = line.strip().split(',')
+                    if len(parts) > id_idx:
+                        val = parts[id_idx].strip()
+                        if val.isdigit():
+                            records.append(val)
+            df = pd.DataFrame({'id': records})
+            log(f"✅ Fallback reader recovered {len(df)} IDs")
+        except Exception as e2:
+             log(f"❌ Critical failure reading meds.csv: {e2}")
+             return
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
     log(f"📊 Total IDs to scrape: {len(all_ids)}")
     
