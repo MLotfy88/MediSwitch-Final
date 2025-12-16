@@ -234,7 +234,23 @@ async def main():
         return
     
     # Load IDs
-    df = pd.read_csv(MEDS_CSV, dtype=str)
+    try:
+        df = pd.read_csv(MEDS_CSV, dtype=str, encoding='utf-8-sig', on_bad_lines='skip')
+    except Exception as e:
+        log(f"⚠️ Error reading meds.csv via pandas: {e}")
+        # Fallback manual read if pandas fails hard
+        records = []
+        with open(MEDS_CSV, 'r', encoding='utf-8-sig', errors='replace') as f:
+            header = next(f).split(',')
+            try:
+                id_idx = header.index('id')
+            except:
+                id_idx = 0 # Assume first col
+            for line in f:
+                parts = line.strip().split(',')
+                if len(parts) > id_idx:
+                    records.append(parts[id_idx])
+        df = pd.DataFrame({'id': records})
     all_ids = [str(x) for x in df['id'].unique() if str(x).isdigit()]
     log(f"📊 Total IDs to scrape: {len(all_ids)}")
     
