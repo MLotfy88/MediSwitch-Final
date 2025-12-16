@@ -1,14 +1,14 @@
 id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form,dosage_form_ar,usage,usage_ar,category,category_ar,main_category,main_category_ar,concentration,pharmacology,barcode,unit,visits,last_price_update,﻿trade_name
-11443,,,,,,,,,,,,,,,,,,,,,,
-11500,,,,,,,,,,,,,,,,,,,,,,
-26501,,,,,,,,,,,,,,,,,,,,,,
-24887,,,,,,,,,,,,,,,,,,,,,,
-33920,,,,,,,,,,,,,,,,,,,,,,
-32641,,,,,,,,,,,,,,,,,,,,,,
-27434,,,,,,,,,,,,,,,,,,,,,,
-6306,,,,,,,,,,,,,,,,,,,,,,
-23949,,,,,,,,,,,,,,,,,,,,,,
-3352,,,,,,,,,,,,,,,,,,,,,,
+11443,,تينياكيور كريم 20 جرام,28,13.0,tioconazole,kahira,antifungal,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,1%,,,1,3018,2025-12-02,tineacure 1% top. cream 20 gm
+11500,,تومكس 80 قرص,85,64.0,dried garlic powder,atos pharma,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,2083,2025-12-02,tomex 80 tablets
+26501,,سانيدوكس جل 60 جرام,65,38.0,camphor+menthol crystal+clove extract+eucalyptus oil+fatty acids,smartic > sanitas,topical massage,gel,جل,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,60 g,,,1,1942,2025-12-02,sanidox gel 60 gm
+24887,,فيلوزاك 20 مجم 30 كبسولة,75,57.0,fluoxetine,amoun,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,20mg,,,1,10284,2025-12-02,philozac 20mg 30 caps.
+33920,,زامسيلوس بروبايوتيك نقط فم 10مل,150,65.0,bifidobacterium 5 bilions,hayah,immunity booster,oral drops,نقط فموي,Drops,نقط,General,عام,General,عام,10 ml,,,1,690,2025-12-02,zamcillus probiotic drops 10 ml 
+32641,,كرومومور 30 كبسولة,270,228.0,levosalbutamol,master med pharma,weight loss,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,615,2025-12-02,chromomore 30 caps.
+27434,,سريلان كريم 20 جرام,47,32.5,idrocilamide,mina pharm > lipha sante-france,massage.analgesic,cream,كريم,Topical,موضعي,Pain Relief,مسكنات,Pain Relief,مسكنات,5%,,,1,2665,2025-12-02,srilane 5% cream 20 gm
+6306,,كيدورال نقط فم 30 مل,55,45.0,vitamin d3+vitamin k2,royal care pharma,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,991,2025-12-02,kidoral oral drops 30 ml
+23949,,اوكتوزنريف 6/25مجم 30 كبسولة,93,66.0,fluoxetine+olanzapine,october pharma,psychiatric.antipsychotics,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,25 mg,,,1,1219,2025-12-02,octozinreef 6/25 mg 30 caps.
+3352,,توستيرم شراب 100 مل,63,55.0,primula root fluid extract + thyme fluid extract,dorado,cough products,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,100 ml,,,1,1054,2025-12-02,tussterm 100 ml syrup
 1333,,,,,,,,,,,,,,,,,,,,,,
 13365,,,,,,,,,,,,,,,,,,,,,,
 7990,,,,,,,,,,,,,,,,,,,,,,
@@ -395,7 +395,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 7789,,,,,,,,,,,,,,,,,,,,,,
 10829,,,,,,,,,,,,,,,,,,,,,,
 31819,,,,,,,,,,,,,,,,,,,,,,
-33452,,,,,,,,,,,,,,,,,,,,,,
+33452,,كيو-ريزم 30 كبسولة ,480,405.0,coenzyme q10+vitamin d3,new boston pharmaceuticals,multivitamin,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,3391,2025-12-05,q-rizm 30 caps.
 7788,,,,,,,,,,,,,,,,,,,,,,
 6846,,,,,,,,,,,,,,,,,,,,,,
 1364,,,,,,,,,,,,,,,,,,,,,,
@@ -723,7 +723,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 5559,,,,,,,,,,,,,,,,,,,,,,
 7409,,,,,,,,,,,,,,,,,,,,,,
 13725,,,,,,,,,,,,,,,,,,,,,,
-8829,,,,,,,,,,,,,,,,,,,,,,
+8829,,كيراتوهيل 30 كبسولة,315,270.0,hyaluronic acid+keartin+biotin,atlas pharma,,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,2210,2025-12-08,keratohyl 30 capsules
 21577,,,,,,,,,,,,,,,,,,,,,,
 19518,,,,,,,,,,,,,,,,,,,,,,
 7407,,,,,,,,,,,,,,,,,,,,,,
@@ -748,9 +748,9 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 21876,,,,,,,,,,,,,,,,,,,,,,
 6059,,,,,,,,,,,,,,,,,,,,,,
 20419,,,,,,,,,,,,,,,,,,,,,,
-20421,,,,,,,,,,,,,,,,,,,,,,
+20421,,هيرو بيبي ال اف لبن اطفال 400 جم ,399,379.0,lactose free milk formula,hero > hero mea trading,lactose free milk,piece,,Oral.Solid,صلب فموي,General,عام,General,عام,400 g,,,1,1358,2025-12-15,hero baby lf milk 400 gm
 20424,,,,,,,,,,,,,,,,,,,,,,
-20420,,,,,,,,,,,,,,,,,,,,,,
+20420,,هيرو بيبي اتش ايه لبن اطفال 400 جرام,399,389.0,hypo-allergenic milk formula,hero > hero mea trading,hypo-allergenic milk,piece,,Oral.Solid,صلب فموي,General,عام,General,عام,400 g,,,1,1307,2025-12-15,hero baby ha milk 400 gm
 27004,,,,,,,,,,,,,,,,,,,,,,
 27003,,,,,,,,,,,,,,,,,,,,,,
 27005,,,,,,,,,,,,,,,,,,,,,,
@@ -1349,7 +1349,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 30233,,,,,,,,,,,,,,,,,,,,,,
 30167,,,,,,,,,,,,,,,,,,,,,,
 30130,,,,,,,,,,,,,,,,,,,,,,
-30162,,,,,,,,,,,,,,,,,,,,,,
+30162,,اسكوربيك اسيد نقط بالفم 15 مل,45,35.0,vitamin c,> atlas pharmaceutical,vitamin c,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,15 ml,,,1,1259,2025-12-09,ascorbic acid oral drops 15 ml
 29957,,,,,,,,,,,,,,,,,,,,,,
 29795,,,,,,,,,,,,,,,,,,,,,,
 30127,,,,,,,,,,,,,,,,,,,,,,
@@ -1578,7 +1578,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 31434,,,,,,,,,,,,,,,,,,,,,,
 31435,,,,,,,,,,,,,,,,,,,,,,
 15684,,,,,,,,,,,,,,,,,,,,,,
-15746,,,,,,,,,,,,,,,,,,,,,,
+15746,,نورمابيد 20 قطعة,149,134.0,fenugreek+fennel+ginger+anise oil+dill+caraway+chamomile+calcium,tadawena,herbal lactogogue,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,1269,2025-12-12,normapid 20 pieces
 15733,,,,,,,,,,,,,,,,,,,,,,
 6611,,,,,,,,,,,,,,,,,,,,,,
 31455,,,,,,,,,,,,,,,,,,,,,,
@@ -2311,7 +2311,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 12356,,,,,,,,,,,,,,,,,,,,,,
 6257,,,,,,,,,,,,,,,,,,,,,,
 3867,,,,,,,,,,,,,,,,,,,,,,
-17561,,,,,,,,,,,,,,,,,,,,,,
+17561,,سكوميب لوشن سبراي,120,95.0,,company,,spray,بخاخ,Spray,بخاخ,General,عام,General,عام,,,,1,1048,2025-12-03,scomeb lotion spray
 33078,,,,,,,,,,,,,,,,,,,,,,
 12037,,,,,,,,,,,,,,,,,,,,,,
 15936,,,,,,,,,,,,,,,,,,,,,,
@@ -2448,7 +2448,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 32735,,,,,,,,,,,,,,,,,,,,,,
 25500,,,,,,,,,,,,,,,,,,,,,,
 28042,,,,,,,,,,,,,,,,,,,,,,
-2239,,,,,,,,,,,,,,,,,,,,,,
+2239,,هيرو في d3 + k2 نقط فم 10 مل,99,95.0,vitamin d3+vitamin k2,hero mea trading,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,10 ml,,,1,2334,2025-12-16,hero vitamin d3 + k2 oral drops 10 ml
 7284,,,,,,,,,,,,,,,,,,,,,,
 13197,,,,,,,,,,,,,,,,,,,,,,
 26415,,,,,,,,,,,,,,,,,,,,,,
@@ -2509,7 +2509,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 5824,,,,,,,,,,,,,,,,,,,,,,
 25544,,,,,,,,,,,,,,,,,,,,,,
 2486,,,,,,,,,,,,,,,,,,,,,,
-13110,,,,,,,,,,,,,,,,,,,,,,
+13110,,فوليسيان 30 قرص تحت اللسان,180,165.0,vitamin b12+folic acid+vitamin b6,sita pharma,multivitamins,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,799,2025-12-13,folicyan 30 sublingual tabs (sita pharma )
 218,,,,,,,,,,,,,,,,,,,,,,
 324,,,,,,,,,,,,,,,,,,,,,,
 5809,,,,,,,,,,,,,,,,,,,,,,
@@ -2744,7 +2744,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 6286,,,,,,,,,,,,,,,,,,,,,,
 20097,,,,,,,,,,,,,,,,,,,,,,
 12118,,,,,,,,,,,,,,,,,,,,,,
-27939,,,,,,,,,,,,,,,,,,,,,,
+27939,,دومالتي 20 قرص,140,120.0,multivitamins and minerals,vitality international pharma,multivitamins and minerals,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,881,2025-12-14,dumulti 20 tablets
 28294,,,,,,,,,,,,,,,,,,,,,,
 15616,,,,,,,,,,,,,,,,,,,,,,
 5497,,,,,,,,,,,,,,,,,,,,,,
@@ -3048,7 +3048,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 32852,,,,,,,,,,,,,,,,,,,,,,
 21737,,,,,,,,,,,,,,,,,,,,,,
 19671,,,,,,,,,,,,,,,,,,,,,,
-3713,,,,,,,,,,,,,,,,,,,,,,
+3713,,بلوكسيمين 30 كبسولة,310,185.0,diosmin+hesperidin,drug pharma egypt,vascular-protecting agent,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,1994,2025-12-14,bloximin 30 capsules
 18027,,,,,,,,,,,,,,,,,,,,,,
 30737,,,,,,,,,,,,,,,,,,,,,,
 28403,,,,,,,,,,,,,,,,,,,,,,
@@ -3264,7 +3264,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 14633,,,,,,,,,,,,,,,,,,,,,,
 4074,,,,,,,,,,,,,,,,,,,,,,
 4110,,,,,,,,,,,,,,,,,,,,,,
-31745,,,,,,,,,,,,,,,,,,,,,,
+31745,,روزونيثيو 600مجم 20 قرص,160,150.0,alphalipoic acid 600mg+vit b12+vit b1+calcium+vit d3+omega3,globe health pharmaceutical,antioxidants,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,600 mg,,,1,2153,2025-12-03,rozonethio 600 mg 20 f.c.tabs
 4108,,,,,,,,,,,,,,,,,,,,,,
 26474,,,,,,,,,,,,,,,,,,,,,,
 4102,,,,,,,,,,,,,,,,,,,,,,
@@ -4048,7 +4048,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 27618,,,,,,,,,,,,,,,,,,,,,,
 10765,,,,,,,,,,,,,,,,,,,,,,
 19774,,,,,,,,,,,,,,,,,,,,,,
-3473,,,,,,,,,,,,,,,,,,,,,,
+3473,,توميد فيرو 30 كبسولة,180,150.0,iron+vitamin b12+vitamin b6+vitamin c+folic acid,wellmed,iron supplement,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1320,2025-12-16,tomed ferro 30 capsules
 10452,,,,,,,,,,,,,,,,,,,,,,
 2696,,,,,,,,,,,,,,,,,,,,,,
 17542,,,,,,,,,,,,,,,,,,,,,,
@@ -4356,7 +4356,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 3239,,,,,,,,,,,,,,,,,,,,,,
 3225,,,,,,,,,,,,,,,,,,,,,,
 3224,,,,,,,,,,,,,,,,,,,,,,
-3221,,,,,,,,,,,,,,,,,,,,,,
+3221,,سبيريتوميجا 1000 مجم 20 كبسولة,165,160.0,omega-3 fish oil+vitamin e,spirit pharm,omega-3,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,1000 mg,,,1,951,2025-12-12,spiritomega 1000 mg 20 capsule
 3220,,,,,,,,,,,,,,,,,,,,,,
 3213,,,,,,,,,,,,,,,,,,,,,,
 17836,,,,,,,,,,,,,,,,,,,,,,
@@ -4447,7 +4447,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 8608,,,,,,,,,,,,,,,,,,,,,,
 15599,,,,,,,,,,,,,,,,,,,,,,
 6699,,,,,,,,,,,,,,,,,,,,,,
-27874,,,,,,,,,,,,,,,,,,,,,,
+27874,,تاميلافير 75مجم 10 كبسولات,242,169.0,oseltamivir,eva pharma,anti-viral.release phase,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,75mg,,,1,1460,2025-12-13,tamilavir 75mg 10 caps.
 9206,,,,,,,,,,,,,,,,,,,,,,
 13010,,,,,,,,,,,,,,,,,,,,,,
 3012,,,,,,,,,,,,,,,,,,,,,,
@@ -4461,7 +4461,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 3061,,,,,,,,,,,,,,,,,,,,,,
 24373,,,,,,,,,,,,,,,,,,,,,,
 1151,,,,,,,,,,,,,,,,,,,,,,
-32296,,,,,,,,,,,,,,,,,,,,,,
+32296,,برونكاي شراب 120 مل,55,40.0,primula root fluid extract + thyme fluid extract,mash premiere,cough syrup,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120 ml,,,1,686,2025-12-03,bronchi syrup 120 ml
 30132,,,,,,,,,,,,,,,,,,,,,,
 32147,,,,,,,,,,,,,,,,,,,,,,
 30413,,,,,,,,,,,,,,,,,,,,,,
@@ -4503,7 +4503,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 11337,,,,,,,,,,,,,,,,,,,,,,
 4552,,,,,,,,,,,,,,,,,,,,,,
 9718,,,,,,,,,,,,,,,,,,,,,,
-3043,,,,,,,,,,,,,,,,,,,,,,
+3043,,ميري آيرون 30 مل نقط للفم,70,65.0,iron+vitamin c+folic acid+vitamin b12,biomeric,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,990,2025-12-03,meri iron 30 ml oral drops
 3040,,,,,,,,,,,,,,,,,,,,,,
 3038,,,,,,,,,,,,,,,,,,,,,,
 3035,,,,,,,,,,,,,,,,,,,,,,
@@ -4610,7 +4610,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 21672,,,,,,,,,,,,,,,,,,,,,,
 2878,,,,,,,,,,,,,,,,,,,,,,
 2873,,,,,,,,,,,,,,,,,,,,,,
-2867,,,,,,,,,,,,,,,,,,,,,,
+2867,,سبونسييف 30 قرص,385,375.0,l-arginine - l-carnitine - co-enzyme q10 - folic acid - vit c - vit d3 - vit b6- vit b12 - vit e - zinc - selenium,provak international for pharmaceutical ind,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,2938,2025-12-08,sponsceive 30 tablets
 2859,,,,,,,,,,,,,,,,,,,,,,
 2838,,,,,,,,,,,,,,,,,,,,,,
 2837,,,,,,,,,,,,,,,,,,,,,,
@@ -4748,7 +4748,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 14115,,,,,,,,,,,,,,,,,,,,,,
 14116,,,,,,,,,,,,,,,,,,,,,,
 33893,,,,,,,,,,,,,,,,,,,,,,
-33018,,,,,,,,,,,,,,,,,,,,,,
+33018,,ايفيرويجي شراب 120 مل,65,59.0,ivy leave extract+alpha hederin,organix > egy heart,ivy leave extract cough releaving,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120ml,,,1,972,2025-12-07,ivyroegy syrup 120ml
 30510,,,,,,,,,,,,,,,,,,,,,,
 24135,,,,,,,,,,,,,,,,,,,,,,
 2735,,,,,,,,,,,,,,,,,,,,,,
@@ -5581,7 +5581,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 806,,,,,,,,,,,,,,,,,,,,,,
 8684,,,,,,,,,,,,,,,,,,,,,,
 5174,,,,,,,,,,,,,,,,,,,,,,
-32220,,,,,,,,,,,,,,,,,,,,,,
+32220,,كوليتريكس-د3 1000وحدة دولية 20 قرص للمضغ,70,60.0,cholecalciferol 10mcg eq.to vit d3 400 iu,copad egypt > ibm pharma,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,1000 iu,,,1,2054,2025-12-16,choletrix-d3 1000 iu 20 chew. tabs.
 172,,,,,,,,,,,,,,,,,,,,,,
 8335,,,,,,,,,,,,,,,,,,,,,,
 8334,,,,,,,,,,,,,,,,,,,,,,
@@ -7121,7 +7121,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 1715,,,,,,,,,,,,,,,,,,,,,,
 31287,,,,,,,,,,,,,,,,,,,,,,
 20113,,,,,,,,,,,,,,,,,,,,,,
-28270,,,,,,,,,,,,,,,,,,,,,,
+28270,,توميد لاكتوفيرين 200مجم 10 اكياس,210,190.0,200 mg lactoferrin+27 mg iron+50 mg zn+200 mcg folic acid+vitamin c+vitamin ( b1+b6+b12 ),swivel nutrient > wellmed,iron supplement,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,200mg,,,1,5066,2025-12-14,tomed lactoferrin 200mg multivitamin
 18495,,,,,,,,,,,,,,,,,,,,,,
 10604,,,,,,,,,,,,,,,,,,,,,,
 12159,,,,,,,,,,,,,,,,,,,,,,
@@ -7499,7 +7499,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 7924,,,,,,,,,,,,,,,,,,,,,,
 7438,,,,,,,,,,,,,,,,,,,,,,
 12043,,,,,,,,,,,,,,,,,,,,,,
-7693,,,,,,,,,,,,,,,,,,,,,,
+7693,,ايفي هونتا شراب 120 مل,64,48.0,ivy leaf powder extract+licorice liquid extract+thyme liquid extract,squibal,anti cough syrup,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120 ml,,,1,972,2025-12-10,ivy honta syrup 120 ml
 4125,,,,,,,,,,,,,,,,,,,,,,
 11241,,,,,,,,,,,,,,,,,,,,,,
 14437,,,,,,,,,,,,,,,,,,,,,,
@@ -7652,7 +7652,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 11189,,,,,,,,,,,,,,,,,,,,,,
 15265,,,,,,,,,,,,,,,,,,,,,,
 28586,,,,,,,,,,,,,,,,,,,,,,
-31479,,,,,,,,,,,,,,,,,,,,,,
+31479,,ثيوديو 600مجم 30 كبسولة,195,156.0,thioctic acid(alpha lipoic acid),mash premiere,antioxidant,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,600mg,,,1,8819,2025-12-12,thiodio 600mg 30 caps.
 28216,,,,,,,,,,,,,,,,,,,,,,
 13473,,,,,,,,,,,,,,,,,,,,,,
 10197,,,,,,,,,,,,,,,,,,,,,,
@@ -7932,7 +7932,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 10665,,,,,,,,,,,,,,,,,,,,,,
 3995,,,,,,,,,,,,,,,,,,,,,,
 2459,,,,,,,,,,,,,,,,,,,,,,
-22682,,,,,,,,,,,,,,,,,,,,,,
+22682,,بلوكانزا سبراي 75 مل,120,105.0,isotonic solution+chammomoile+hyaluronic acid,quad,soothing spray,spray,بخاخ,Spray,بخاخ,General,عام,General,عام,75 ml,,,1,3565,2025-12-14,bluekanza 75 ml spray
 22426,,,,,,,,,,,,,,,,,,,,,,
 12567,,,,,,,,,,,,,,,,,,,,,,
 16794,,,,,,,,,,,,,,,,,,,,,,
@@ -8784,7 +8784,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 502,,,,,,,,,,,,,,,,,,,,,,
 5956,,,,,,,,,,,,,,,,,,,,,,
 5958,,,,,,,,,,,,,,,,,,,,,,
-11196,,,,,,,,,,,,,,,,,,,,,,
+11196,,تاروليمس مرهم 03% 15 جم,144,129.0,tacrolimus,andalous pharma,immunosuppressants.psoriasis,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.03%,,,1,11934,2025-12-15,tarolimus 0.03% topical oint. 15 gm
 11700,,,,,,,,,,,,,,,,,,,,,,
 18418,,,,,,,,,,,,,,,,,,,,,,
 29313,,,,,,,,,,,,,,,,,,,,,,
@@ -8804,7 +8804,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 18113,,,,,,,,,,,,,,,,,,,,,,
 9263,,,,,,,,,,,,,,,,,,,,,,
 17794,,,,,,,,,,,,,,,,,,,,,,
-19051,,,,,,,,,,,,,,,,,,,,,,
+19051,,فينشيب 120مجم 30 كبسولة ,240,216.0,orlistat,mash premiere,weight loss,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,120mg,,,1,1829,2025-12-12,finshape 120mg 30 caps.
 5350,,,,,,,,,,,,,,,,,,,,,,
 25918,,,,,,,,,,,,,,,,,,,,,,
 6282,,,,,,,,,,,,,,,,,,,,,,
@@ -8866,7 +8866,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 7691,,,,,,,,,,,,,,,,,,,,,,
 255,,,,,,,,,,,,,,,,,,,,,,
 30427,,,,,,,,,,,,,,,,,,,,,,
-32977,,,,,,,,,,,,,,,,,,,,,,
+32977,,اميونو - ماش كيدز شراب 100 مل,105,80.0,multivitamins,mash premiere,multivitamins,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,100 ml,,,1,1595,2025-12-03,immuno-mash kids syrup 100 ml
 30256,,,,,,,,,,,,,,,,,,,,,,
 25469,,,,,,,,,,,,,,,,,,,,,,
 13401,,,,,,,,,,,,,,,,,,,,,,
@@ -9394,7 +9394,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 15490,,,,,,,,,,,,,,,,,,,,,,
 29227,,,,,,,,,,,,,,,,,,,,,,
 28539,,,,,,,,,,,,,,,,,,,,,,
-10114,,,,,,,,,,,,,,,,,,,,,,
+10114,,نيل د3 نقط فم 30 مل,60,52.0,cholecalciferol vitamin d3,tadawena,vitamin d3,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,836,2025-12-07,nel d3 30 ml drops
 9346,,,,,,,,,,,,,,,,,,,,,,
 9995,,,,,,,,,,,,,,,,,,,,,,
 30331,,,,,,,,,,,,,,,,,,,,,,
@@ -9753,7 +9753,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 3123,,,,,,,,,,,,,,,,,,,,,,
 2432,,,,,,,,,,,,,,,,,,,,,,
 9594,,,,,,,,,,,,,,,,,,,,,,
-30572,,,,,,,,,,,,,,,,,,,,,,
+30572,,فيوراج 6 اكياس ,65,54.0,lactobacillus acidophilus+beta glucan+inulin_zinc,topix nutrition > top care pharmaceutical,maltivitamin,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1131,2025-12-03,furag 6 sachets
 28593,,,,,,,,,,,,,,,,,,,,,,
 28594,,,,,,,,,,,,,,,,,,,,,,
 23525,,,,,,,,,,,,,,,,,,,,,,
@@ -9772,7 +9772,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 5757,,,,,,,,,,,,,,,,,,,,,,
 23413,,,,,,,,,,,,,,,,,,,,,,
 31484,,,,,,,,,,,,,,,,,,,,,,
-14928,,,,,,,,,,,,,,,,,,,,,,
+14928,,فونالي كريم مهبلي 30 جم ,600,220.0,lactic acid+teflose+hyaluronic acid,al andalous pharmaceutical services,vaginal care,cream,كريم,Topical,موضعي,General,عام,General,عام,30 g,,,1,1779,2025-12-07,vonalei bacterial vaginosis cream 30 gm
 25936,,,,,,,,,,,,,,,,,,,,,,
 23708,,,,,,,,,,,,,,,,,,,,,,
 32327,,,,,,,,,,,,,,,,,,,,,,
@@ -10403,10 +10403,10 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 31442,,,,,,,,,,,,,,,,,,,,,,
 6156,,,,,,,,,,,,,,,,,,,,,,
 6158,,,,,,,,,,,,,,,,,,,,,,
-18229,,,,,,,,,,,,,,,,,,,,,,
-17717,,,,,,,,,,,,,,,,,,,,,,
-18741,,,,,,,,,,,,,,,,,,,,,,
-18485,,,,,,,,,,,,,,,,,,,,,,
+18229,,ازوتك ماكس جل 100 جم,250,199.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage cream,gel,جل,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,3328,2025-12-14,azotec max gel 100 gm
+17717,,ازوتك ديكس مساج كريم 100 جم,200,165.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage cream,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,1111,2025-12-14,azotec dex massage cream 100 gm
+18741,,ازوتك فلكس رول اون 80 مل,200,170.0,rosmarinus officinalis extract (rosemary)+hydrogenated potato starch+allium sativum bulb extract+magnesium sulfate+zinc oxide+phenoxyethanol+menthol+(camphora oil)+eugenia caryophyllus cinnamomum camphora bark oil carbomer+phenoxyethanol+aqua+eucalyptus globulus leaf oil (eucalyptus)+laurocapram+triethanolamine+aqua.,koncieve,massage roll on,piece,,Oral.Solid,صلب فموي,Dermatology,الجلدية,Dermatology,الجلدية,80 ml,,,1,884,2025-12-14,azotec flex roll on 80 ml
+18485,,ازوتك مكس مساج سبراي 200 مل,350,290.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage spray,spray,بخاخ,Spray,بخاخ,Dermatology,الجلدية,Dermatology,الجلدية,200 ml,,,1,1843,2025-12-14,azotec mix massage spray 200 ml
 17853,,,,,,,,,,,,,,,,,,,,,,
 25224,,,,,,,,,,,,,,,,,,,,,,
 29056,,,,,,,,,,,,,,,,,,,,,,
@@ -10581,7 +10581,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 16514,,,,,,,,,,,,,,,,,,,,,,
 29900,,,,,,,,,,,,,,,,,,,,,,
 1249,,,,,,,,,,,,,,,,,,,,,,
-11503,,,,,,,,,,,,,,,,,,,,,,
+11503,,تومكس بلاس 50 قرص,80,60.0,dried garlic powder,atos pharma,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,6778,2025-12-03,tomex plus 50 tablets
 11211,,,,,,,,,,,,,,,,,,,,,,
 30977,,,,,,,,,,,,,,,,,,,,,,
 23661,,,,,,,,,,,,,,,,,,,,,,
@@ -10668,7 +10668,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 24577,,,,,,,,,,,,,,,,,,,,,,
 27861,,,,,,,,,,,,,,,,,,,,,,
 23288,,,,,,,,,,,,,,,,,,,,,,
-8595,,,,,,,,,,,,,,,,,,,,,,
+8595,,ناتاميسين 5% قطرة عين 10 مل,74,51.0,natamycin,orchidia pharmaceutical industries,antifungal,eye drops,نقط,Drops,نقط,Dermatology,الجلدية,Dermatology,الجلدية,5%,,,1,3946,2025-12-03,natamycin 5% eye drops 10 ml
 1718,,,,,,,,,,,,,,,,,,,,,,
 22384,,,,,,,,,,,,,,,,,,,,,,
 27802,,,,,,,,,,,,,,,,,,,,,,
@@ -10739,7 +10739,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 11609,,,,,,,,,,,,,,,,,,,,,,
 16383,,,,,,,,,,,,,,,,,,,,,,
 17548,,,,,,,,,,,,,,,,,,,,,,
-31453,,,,,,,,,,,,,,,,,,,,,,
+31453,,تالانتولين 100مجم/ مل محلول 30 مل,99,66.0,citicoline,delta grand pharma > talant pharma,cerebral circulatory inhancer,solution,محلول,Oral.Solid,صلب فموي,General,عام,General,عام,100mg/ml,,,1,1216,2025-12-07,talantoline 100mg/ml oral solution 30 ml
 19063,,,,,,,,,,,,,,,,,,,,,,
 19064,,,,,,,,,,,,,,,,,,,,,,
 31575,,,,,,,,,,,,,,,,,,,,,,
@@ -11156,7 +11156,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 15188,,,,,,,,,,,,,,,,,,,,,,
 721,,,,,,,,,,,,,,,,,,,,,,
 2738,,,,,,,,,,,,,,,,,,,,,,
-10318,,,,,,,,,,,,,,,,,,,,,,
+10318,,سنالاكس 30 قرص,48,29.25,sennoside,el nile.,laxative,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,3475,2025-12-15,senna-lax 30 tab.
 4701,,,,,,,,,,,,,,,,,,,,,,
 12992,,,,,,,,,,,,,,,,,,,,,,
 14271,,,,,,,,,,,,,,,,,,,,,,
@@ -11384,13 +11384,13 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 15377,,,,,,,,,,,,,,,,,,,,,,
 30005,,,,,,,,,,,,,,,,,,,,,,
 6794,,,,,,,,,,,,,,,,,,,,,,
-15085,,,,,,,,,,,,,,,,,,,,,,
+15085,,بيبانثين لوشن 200 مل,730,269.0,dexapanthenol,bayer consumer care-switzerland > ramco,skin care,lotion,لوشن,Topical,موضعي,General,عام,General,عام,200 ml,,,1,1027,2025-12-03,bepanthen lotion 200 ml
 24261,,,,,,,,,,,,,,,,,,,,,,
 31969,,,,,,,,,,,,,,,,,,,,,,
 9364,,,,,,,,,,,,,,,,,,,,,,
 25003,,,,,,,,,,,,,,,,,,,,,,
 3962,,,,,,,,,,,,,,,,,,,,,,
-20179,,,,,,,,,,,,,,,,,,,,,,
+20179,,هيموستاتين 500مجم 30 قرص,84,39.0,ethamsylate,arab caps > multicare,systemic haemostatic,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,500mg,,,1,1402,2025-12-14,haemostatine 500mg 30 tab
 5864,,,,,,,,,,,,,,,,,,,,,,
 21307,,,,,,,,,,,,,,,,,,,,,,
 11147,,,,,,,,,,,,,,,,,,,,,,
@@ -11422,9 +11422,9 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 17605,,,,,,,,,,,,,,,,,,,,,,
 23547,,,,,,,,,,,,,,,,,,,,,,
 5926,,,,,,,,,,,,,,,,,,,,,,
-28353,,,,,,,,,,,,,,,,,,,,,,
-28352,,,,,,,,,,,,,,,,,,,,,,
-28351,,,,,,,,,,,,,,,,,,,,,,
+28353,,توربينير 300مجم 10 كبسولات,157,68.5,cefdinir,utopia pharmaceuticals company,antibiotic.cephalosporin.third-generation,capsule,كبسولة,Oral.Solid,صلب فموي,Anti Infective,مضادات العدوى,Anti Infective,مضادات العدوى,300mg,,,1,4288,2025-12-14,torbener 300mg 10 h.g. caps.
+28352,,توربنير 250مجم/5مل معلق 60 مل,155,62.5,cefdinir,utopia pharmaceuticals company,antibiotic.cephalosporin.third-generation,suspension,معلق,Oral.Liquid,سائل فموي,Anti Infective,مضادات العدوى,Anti Infective,مضادات العدوى,250mg,,,1,7353,2025-12-14,torbener 250mg/5ml pd. for oral susp. 60 ml
+28351,,توربينير 125مجم/5مل معلق 60 مل,88,45.0,cefdinir,utopia pharmaceuticals company,antibiotic.cephalosporin.third-generation,suspension,معلق,Oral.Liquid,سائل فموي,Anti Infective,مضادات العدوى,Anti Infective,مضادات العدوى,125mg,,,1,4724,2025-12-14,torbener 125mg/5ml pd. for oral susp. 60 ml
 14203,,,,,,,,,,,,,,,,,,,,,,
 26520,,,,,,,,,,,,,,,,,,,,,,
 26517,,,,,,,,,,,,,,,,,,,,,,
@@ -11685,14 +11685,14 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 2947,,,,,,,,,,,,,,,,,,,,,,
 23947,,,,,,,,,,,,,,,,,,,,,,
 27048,,,,,,,,,,,,,,,,,,,,,,
-10976,,,,,,,,,,,,,,,,,,,,,,
+10976,,سلفوزنك 20مجم 80 مل شراب,24,15.5,zinc sulphate,cid,zinc supplement,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,20mg,,,1,3421,2025-12-10,sulfozinc 20mg/5ml syrup 80ml
 8251,,,,,,,,,,,,,,,,,,,,,,
 24223,,,,,,,,,,,,,,,,,,,,,,
 30267,,,,,,,,,,,,,,,,,,,,,,
 16752,,,,,,,,,,,,,,,,,,,,,,
 30626,,,,,,,,,,,,,,,,,,,,,,
 29016,,,,,,,,,,,,,,,,,,,,,,
-7923,,,,,,,,,,,,,,,,,,,,,,
+7923,,ميمكسا 10مجم 20 قرص,158,118.0,memantine,marcyrl co. > copad pharma,dopamine d2 agonist,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,10 mg,,,1,2121,2025-12-07,memexa 10 mg 20 f.c.tabs.
 9566,,,,,,,,,,,,,,,,,,,,,,
 5723,,,,,,,,,,,,,,,,,,,,,,
 26666,,,,,,,,,,,,,,,,,,,,,,
@@ -11816,7 +11816,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 13427,,,,,,,,,,,,,,,,,,,,,,
 28221,,,,,,,,,,,,,,,,,,,,,,
 25389,,,,,,,,,,,,,,,,,,,,,,
-3361,,,,,,,,,,,,,,,,,,,,,,
+3361,,ديكلوفين بلس 50/250مجم 30 كبسولة,46,24.0,chlorzoxazone+diclofenac potassium,pharco,skeletal muscle relaxant,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,250mg,,,1,8500,2025-12-16,declophen plus 50/250mg 30 caps.
 3357,,,,,,,,,,,,,,,,,,,,,,
 28440,,,,,,,,,,,,,,,,,,,,,,
 16420,,,,,,,,,,,,,,,,,,,,,,
@@ -12403,7 +12403,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 9402,,,,,,,,,,,,,,,,,,,,,,
 5788,,,,,,,,,,,,,,,,,,,,,,
 20091,,,,,,,,,,,,,,,,,,,,,,
-8207,,,,,,,,,,,,,,,,,,,,,,
+8207,,فيروسباير نقط فم 30 مل,80,,iron+vitamin c+folic acid+vitamin b 12,biogen,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,702,2025-12-07,ferrospire oral drops 30 ml
 5126,,,,,,,,,,,,,,,,,,,,,,
 19376,,,,,,,,,,,,,,,,,,,,,,
 10552,,,,,,,,,,,,,,,,,,,,,,
@@ -12863,7 +12863,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 5381,,,,,,,,,,,,,,,,,,,,,,
 23534,,,,,,,,,,,,,,,,,,,,,,
 22862,,,,,,,,,,,,,,,,,,,,,,
-8250,,,,,,,,,,,,,,,,,,,,,,
+8250,,بلاتيفير 30 كبسولة,160,,iron+vitamin c+vitamin b12,biogen international,multivitamin,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,862,2025-12-07,blutifer 30 capsules
 16803,,,,,,,,,,,,,,,,,,,,,,
 7775,,,,,,,,,,,,,,,,,,,,,,
 40,,,,,,,,,,,,,,,,,,,,,,
@@ -12875,7 +12875,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 8116,,,,,,,,,,,,,,,,,,,,,,
 8118,,,,,,,,,,,,,,,,,,,,,,
 22689,,,,,,,,,,,,,,,,,,,,,,
-8185,,,,,,,,,,,,,,,,,,,,,,
+8185,,لايفوليز شراب 100 مل,65,,alpha amylase,,,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,100 ml,,,1,1066,2025-12-06,lifolase syrup 100 ml
 17860,,,,,,,,,,,,,,,,,,,,,,
 17863,,,,,,,,,,,,,,,,,,,,,,
 23797,,,,,,,,,,,,,,,,,,,,,,
@@ -12896,7 +12896,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 18479,,,,,,,,,,,,,,,,,,,,,,
 10831,,,,,,,,,,,,,,,,,,,,,,
 15392,,,,,,,,,,,,,,,,,,,,,,
-15391,,,,,,,,,,,,,,,,,,,,,,
+15391,,يوجين كريم 100 جم,90,68.0,stearic acid+triethanolamine+menthol+camphr,atlantic group,massage cream,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,1399,2025-12-03,yogin cream 100 gm
 23815,,,,,,,,,,,,,,,,,,,,,,
 9059,,,,,,,,,,,,,,,,,,,,,,
 23397,,,,,,,,,,,,,,,,,,,,,,
@@ -12987,7 +12987,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 10741,,,,,,,,,,,,,,,,,,,,,,
 17119,,,,,,,,,,,,,,,,,,,,,,
 2971,,,,,,,,,,,,,,,,,,,,,,
-28505,,,,,,,,,,,,,,,,,,,,,,
+28505,,ترايجارد 30 كبسولة,85,60.0,vitamin c+vitamin d+zinc,al esraa pharmaceutical optima,multivitamin.inhance immunity,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,5766,2025-12-10,triguard 30 capsules
 15952,,,,,,,,,,,,,,,,,,,,,,
 28992,,,,,,,,,,,,,,,,,,,,,,
 30215,,,,,,,,,,,,,,,,,,,,,,
@@ -13604,7 +13604,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 20600,,,,,,,,,,,,,,,,,,,,,,
 26425,,,,,,,,,,,,,,,,,,,,,,
 10128,,,,,,,,,,,,,,,,,,,,,,
-20448,,,,,,,,,,,,,,,,,,,,,,
+20448,,هيبيريكس لقاح فيال وسرنجة معبأة مسبقا,267,186.0,haemophilus influenza+tetanus toxoid,glaxo smithkline > modern pharma,vaccine,vial,فيال,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,1248,2025-12-12,hiberix vaccine vial and prefilled syringe
 20500,,,,,,,,,,,,,,,,,,,,,,
 20499,,,,,,,,,,,,,,,,,,,,,,
 14982,,,,,,,,,,,,,,,,,,,,,,
@@ -13961,7 +13961,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 9022,,,,,,,,,,,,,,,,,,,,,,
 28109,,,,,,,,,,,,,,,,,,,,,,
 11353,,,,,,,,,,,,,,,,,,,,,,
-11352,,,,,,,,,,,,,,,,,,,,,,
+11352,,صن سيز 250 مجم 30 قرص ,144,105.0,levetiracetam,sun pharma egypt limited,anti-epileptic.pyrrolidine,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,250 mg,,,1,825,2025-12-12,sunseiz 250 mg 30 f.c.tabs.
 11351,,,,,,,,,,,,,,,,,,,,,,
 28106,,,,,,,,,,,,,,,,,,,,,,
 28107,,,,,,,,,,,,,,,,,,,,,,
@@ -15052,35 +15052,35 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 8346,,,,,,,,,,,,,,,,,,,,,,
 8339,,,,,,,,,,,,,,,,,,,,,,
 22942,,,,,,,,,,,,,,,,,,,,,,
-8312,,,,,,,,,,,,,,,,,,,,,,
+8312,,توريكسافا 60 مجم 10 اقراص,108,,,,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,60 mg,,,1,726,2025-12-12,torixava 60 mg 10 tabs
 22939,,,,,,,,,,,,,,,,,,,,,,
 8306,,,,,,,,,,,,,,,,,,,,,,
 22935,,,,,,,,,,,,,,,,,,,,,,
 22931,,,,,,,,,,,,,,,,,,,,,,
-8295,,,,,,,,,,,,,,,,,,,,,,
+8295,,ديكسيجلوفوزين بلس 10/500 مجم 30 قرص,231,,dapagliflozin+metformin,zeta pharma,anti-diabetic.secretagogues.sglt2 inhibitors,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,500 mg,,,1,748,2025-12-08,dexiglofozin plus 10/500 mg 30 ext. rel . f.c. tabs.
 22920,,,,,,,,,,,,,,,,,,,,,,
 8293,,,,,,,,,,,,,,,,,,,,,,
 8281,,,,,,,,,,,,,,,,,,,,,,
 8279,,,,,,,,,,,,,,,,,,,,,,
 8277,,,,,,,,,,,,,,,,,,,,,,
 22872,,,,,,,,,,,,,,,,,,,,,,
-8242,,,,,,,,,,,,,,,,,,,,,,
+8242,,نابي ديرم كريم 50 جم,69,,tocopherol+petrolatum+ricinus communis seed oil+microcrystalline wax+panthenol+aloe vera leaf extract+parfum+water+chamomilla recutita -+glycerin+allantoin+extract+beeswax+dimethicone+stearic acid+triethanolamine+zinc oxide+chlorhexidine fruit oil+olea europaea+lanolin+simmondsia chinensis seed oil,egyheart international pharmaceuticals,skin emollient and soothing cream,cream,كريم,Topical,موضعي,General,عام,General,عام,50 g,,,1,764,2025-12-07,nappy derm 50 gm cream
 22846,,,,,,,,,,,,,,,,,,,,,,
 8237,,,,,,,,,,,,,,,,,,,,,,
-8226,,,,,,,,,,,,,,,,,,,,,,
-8221,,,,,,,,,,,,,,,,,,,,,,
-8219,,,,,,,,,,,,,,,,,,,,,,
+8226,,اسيتيلر 300 مجم 10 اكياس,70,,n-acetylcysteine+bromelain extract+l-ascorbic acid (vitamin c)+zinc,tetracare limited,antioxidant and contribute to normal respiratory system function,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,300 mg,,,1,782,2025-12-07,acetylair 300 mg 10 sachets
+8221,,لاكتو ايجي 30 كبسولة,147,,fenugreek seed (trigonella foenum-graecum seeds) 600 mg+fennel seed (foeniculum vulgare seeds) 100 mg+thyme leaf powder (thymus vulgaris seeds) 100 mg+caraway seed powder (canim carvi seed) 100 mg,egyheart international pharmaceuticals,multivitamin supports normal breast feeding,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,451,2025-12-07,lactoegy 30 capsules
+8219,,ويباسيلاس نقط فم 30 مل,116,,lactobacillus reuteri+lactobacillus rhamnosus+bifidobacterium+fructose,biogen,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,721,2025-12-07,webacillus 30 ml oral drops
 8218,,,,,,,,,,,,,,,,,,,,,,
 22799,,,,,,,,,,,,,,,,,,,,,,
 22792,,,,,,,,,,,,,,,,,,,,,,
-8205,,,,,,,,,,,,,,,,,,,,,,
+8205,,بروباتريبسين 30 قرص,160,,trypsin+bromelain+rutosid,biogen,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,666,2025-12-07,probatripsin 30 e.c tab
 8201,,,,,,,,,,,,,,,,,,,,,,
 22784,,,,,,,,,,,,,,,,,,,,,,
 8197,,,,,,,,,,,,,,,,,,,,,,
 22782,,,,,,,,,,,,,,,,,,,,,,
 22773,,,,,,,,,,,,,,,,,,,,,,
 22766,,,,,,,,,,,,,,,,,,,,,,
-8180,,,,,,,,,,,,,,,,,,,,,,
+8180,,فيفامينيتا شراب 120 مل,80,,l-lysine vitamin c magnesium niacin iron vitamin e zinc pantothenic acid vitamin b1 vitamin b2 vitamin b6 manganese vitamin a folate lodine biotin vitamin b12 vitamin d3,aspex pharma,multi vitamins,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,120 ml,,,1,750,2025-12-05,vivaminita syrup 120 ml
 8168,,,,,,,,,,,,,,,,,,,,,,
 8169,,,,,,,,,,,,,,,,,,,,,,
 8165,,,,,,,,,,,,,,,,,,,,,,
@@ -15360,9 +15360,9 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 20167,,,,,,,,,,,,,,,,,,,,,,
 5828,,,,,,,,,,,,,,,,,,,,,,
 20130,,,,,,,,,,,,,,,,,,,,,,
-8357,,,,,,,,,,,,,,,,,,,,,,
-8356,,,,,,,,,,,,,,,,,,,,,,
-8352,,,,,,,,,,,,,,,,,,,,,,
+8357,,دي اوليه نقط فم 30 مل,50,,,,,oral drops,نقط فموي,Drops,نقط,General,عام,General,عام,30 ml,,,1,707,2025-12-13,d oley oral drops 30 ml
+8356,,كارنيتي كيو 10 شراب 120 مل,220,,l-carnitine 1000 mg+coq 10 100 mg+vitamin b5 5 mg,egy minds,multivitamin,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,120 ml,,,1,768,2025-12-12,carniti q10-b5 120 ml syrup
+8352,,كونيكت بانثينول كريم 30 جم,50,,panthenol - sweet almond oil -jojoba oil - tocopherol ( vit e ) - glycerine - lanolin,egybiotics,panthenol ,cream,كريم,Topical,موضعي,General,عام,General,عام,30 g,,,1,849,2025-12-12,connect panthenol 30 gm cream
 20103,,,,,,,,,,,,,,,,,,,,,,
 20102,,,,,,,,,,,,,,,,,,,,,,
 5792,,,,,,,,,,,,,,,,,,,,,,
@@ -15528,7 +15528,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 4294,,,,,,,,,,,,,,,,,,,,,,
 4262,,,,,,,,,,,,,,,,,,,,,,
 4254,,,,,,,,,,,,,,,,,,,,,,
-18384,,,,,,,,,,,,,,,,,,,,,,
+18384,,ابيكوفلوسين 200 مجم 10 قرص,28,18.0,ofloxacin,eipico,antibiotic.quinolone,tablet,قرص,Oral.Solid,صلب فموي,Anti Infective,مضادات العدوى,Anti Infective,مضادات العدوى,200 mg,,,1,964,2025-12-05,epicoflocin 200 mg 10 f.c.tab.
 18380,,,,,,,,,,,,,,,,,,,,,,
 4198,,,,,,,,,,,,,,,,,,,,,,
 18316,,,,,,,,,,,,,,,,,,,,,,
@@ -16495,7 +16495,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 10946,,,,,,,,,,,,,,,,,,,,,,
 1859,,,,,,,,,,,,,,,,,,,,,,
 1856,,,,,,,,,,,,,,,,,,,,,,
-12570,,,,,,,,,,,,,,,,,,,,,,
+12570,,اوستوناجو 30 قرص,150,120.0,calcium + magnesium + vitamind3 + zinc + selenium + copper + boron,helwan pharma,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1259,2025-12-16,ostonajo 30 tab
 12568,,,,,,,,,,,,,,,,,,,,,,
 19034,,,,,,,,,,,,,,,,,,,,,,
 20657,,,,,,,,,,,,,,,,,,,,,,
@@ -16578,7 +16578,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 26344,,,,,,,,,,,,,,,,,,,,,,
 26343,,,,,,,,,,,,,,,,,,,,,,
 10032,,,,,,,,,,,,,,,,,,,,,,
-8408,,,,,,,,,,,,,,,,,,,,,,
+8408,,سيتوفيلا 250مجم/مل نقط فم 30 مل,235,,citicoline,nutravia,dietary supplement,oral drops,نقط فموي,Drops,نقط,General,عام,General,عام,250mg / ml,,,1,672,2025-12-16,citovila 250mg / ml drops 30 ml
 9965,,,,,,,,,,,,,,,,,,,,,,
 15566,,,,,,,,,,,,,,,,,,,,,,
 28451,,,,,,,,,,,,,,,,,,,,,,
@@ -16822,9 +16822,9 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 20414,,,,,,,,,,,,,,,,,,,,,,
 21594,,,,,,,,,,,,,,,,,,,,,,
 24221,,,,,,,,,,,,,,,,,,,,,,
-8191,,,,,,,,,,,,,,,,,,,,,,
-8190,,,,,,,,,,,,,,,,,,,,,,
-8189,,,,,,,,,,,,,,,,,,,,,,
+8191,,فالوتكسماج 150 مجم 20 قرص,120,,magnesium+vitamin b6,biogen,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,150 mg,,,1,663,2025-12-07,valotexmag 150 mg 20 tab
+8190,,سيسيل اكياس,165,,vitamin e+vitamin c+vitamin a+zinc+selenium+lactiferrin,primex pharma,antioxidant,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,721,2025-12-07,seasel sachets
+8189,,كولدسباير 10 اكياس,112,,l-histidine+vitamin c+zinc+selenium,biogen,multivitamin,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,627,2025-12-07,coldspire 10 sachets
 5375,,,,,,,,,,,,,,,,,,,,,,
 17878,,,,,,,,,,,,,,,,,,,,,,
 5603,,,,,,,,,,,,,,,,,,,,,,
@@ -17294,7 +17294,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 21061,,,,,,,,,,,,,,,,,,,,,,
 16457,,,,,,,,,,,,,,,,,,,,,,
 4612,,,,,,,,,,,,,,,,,,,,,,
-18768,,,,,,,,,,,,,,,,,,,,,,
+18768,,فونالي اتروفي كريم مهبلي 30 جم ,600,220.0,lactic acid+hyaluronic acid+aloe vera,al andalous pharmaceutical services,vaginal care,cream,كريم,Topical,موضعي,General,عام,General,عام,30 g,,,1,1157,2025-12-07,vonalei vaginal atrophy cream 30 gm
 4614,,,,,,,,,,,,,,,,,,,,,,
 25016,,,,,,,,,,,,,,,,,,,,,,
 15956,,,,,,,,,,,,,,,,,,,,,,
@@ -17340,7 +17340,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 2540,,,,,,,,,,,,,,,,,,,,,,
 22743,,,,,,,,,,,,,,,,,,,,,,
 22744,,,,,,,,,,,,,,,,,,,,,,
-8170,,,,,,,,,,,,,,,,,,,,,,
+8170,,برفوتادا 30 كبسولة,220,,,,,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,721,2025-12-03,perfotada 30 capsules
 24530,,,,,,,,,,,,,,,,,,,,,,
 3789,,,,,,,,,,,,,,,,,,,,,,
 16568,,,,,,,,,,,,,,,,,,,,,,
@@ -17532,7 +17532,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 15487,,,,,,,,,,,,,,,,,,,,,,
 1696,,,,,,,,,,,,,,,,,,,,,,
 1688,,,,,,,,,,,,,,,,,,,,,,
-15436,,,,,,,,,,,,,,,,,,,,,,
+15436,,سانسو اوميجا شراب 200 مل ,180,140.0,vitamin a+vitamin c+vitamin d3+vitamin e+vitamin b3+vitamin b6+vitamin b12+folic acid+zinc+fish oil,aug pharma,omega 3,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,200 ml,,,1,1571,2025-12-12,sanso omega syrup 200 ml
 15434,,,,,,,,,,,,,,,,,,,,,,
 15407,,,,,,,,,,,,,,,,,,,,,,
 15384,,,,,,,,,,,,,,,,,,,,,,
@@ -17575,7 +17575,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 14526,,,,,,,,,,,,,,,,,,,,,,
 14513,,,,,,,,,,,,,,,,,,,,,,
 14512,,,,,,,,,,,,,,,,,,,,,,
-14431,,,,,,,,,,,,,,,,,,,,,,
+14431,,يوتوبيا كولد 6 اكياس 6 جم,36,24.0,paracetamol+diphenhydramine+phenylephrine,utopia,cold and cough,sachet,,Oral.Solid,صلب فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,6g,,,1,1634,2025-12-14,utopiacold powder 6gm 6 sachets
 14427,,,,,,,,,,,,,,,,,,,,,,
 966,,,,,,,,,,,,,,,,,,,,,,
 965,,,,,,,,,,,,,,,,,,,,,,
@@ -17837,7 +17837,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 17342,,,,,,,,,,,,,,,,,,,,,,
 3463,,,,,,,,,,,,,,,,,,,,,,
 22916,,,,,,,,,,,,,,,,,,,,,,
-8291,,,,,,,,,,,,,,,,,,,,,,
+8291,,ديكسيجلوفوزين بلس 10/1000 مجم 30 قرص,231,,dapagliflozin+metformin,zeta pharma,anti-diabetic.secretagogues.sglt2 inhibitors,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,1000 mg,,,1,839,2025-12-08,dexiglofozin plus 10/1000 mg 30 ext. rel . f.c. tabs.
 15761,,,,,,,,,,,,,,,,,,,,,,
 20673,,,,,,,,,,,,,,,,,,,,,,
 14240,,,,,,,,,,,,,,,,,,,,,,
@@ -17911,8 +17911,8 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 23215,,,,,,,,,,,,,,,,,,,,,,
 23207,,,,,,,,,,,,,,,,,,,,,,
 8533,,,,,,,,,,,,,,,,,,,,,,
-11573,,,,,,,,,,,,,,,,,,,,,,
-19508,,,,,,,,,,,,,,,,,,,,,,
+11573,,مولنوبيرافير راميدا 200مجم 40 كبسولة,461,420.0,molnupiravir,eva pharma,antiviral,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,200mg,,,1,903,2025-12-14,molnupiravir-rameda 200mg 40 caps
+19508,,مولنوبيرافير ايفا 200مجم 40 كبسولة,461,420.0,molnupiravir,eva pharma,antiviral,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,200mg,,,1,1610,2025-12-14,molnupiravir-eva 200mg 40 caps
 10951,,,,,,,,,,,,,,,,,,,,,,
 4976,,,,,,,,,,,,,,,,,,,,,,
 4989,,,,,,,,,,,,,,,,,,,,,,
@@ -18376,7 +18376,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 5794,,,,,,,,,,,,,,,,,,,,,,
 14260,,,,,,,,,,,,,,,,,,,,,,
 8199,,,,,,,,,,,,,,,,,,,,,,
-8198,,,,,,,,,,,,,,,,,,,,,,
+8198,,مورنينج سيروم للشعر 120 مل,299,,tocopheryl acetate+vitis vinifera seed oil+bht+parfum coffea arabica seed extract+dimethicone+simmondsia chinensis seed oil+thymus vulgaris oil+olea europaea fruit oil+prunus amygdalus dulcis oil keratin+hydroxypropyltrimonium hydrolyzed wheat protein+argania spinosa kernel oil triticum vulgare germ oil+aloe barbadensis leaf extract+paraffinum liquidum+simethicone+polysorbate 80,egyheart international pharmaceuticals,hairtonic serum,serum,,Oral.Solid,صلب فموي,General,عام,General,عام,120 ml,,,1,852,2025-12-07,morning hair serum 120 ml
 22783,,,,,,,,,,,,,,,,,,,,,,
 8202,,,,,,,,,,,,,,,,,,,,,,
 22785,,,,,,,,,,,,,,,,,,,,,,
@@ -18496,7 +18496,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 9421,,,,,,,,,,,,,,,,,,,,,,
 9423,,,,,,,,,,,,,,,,,,,,,,
 8389,,,,,,,,,,,,,,,,,,,,,,
-8388,,,,,,,,,,,,,,,,,,,,,,
+8388,,نيرفو دريم 20 كبسولة,200,,alpha lipoic acid (300 mg)+vitamin b1 (100 mg)+vitamin b6 (25 mg)+vitamin b12 (500 mcg)+vitamin d3 (1000 iu) (25mcg),dream pharma international,nerve tonic,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,798,2025-12-14,nervo dream 20 capsules
 9661,,,,,,,,,,,,,,,,,,,,,,
 8123,,,,,,,,,,,,,,,,,,,,,,
 8125,,,,,,,,,,,,,,,,,,,,,,
@@ -19119,7 +19119,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 22653,,,,,,,,,,,,,,,,,,,,,,
 8091,,,,,,,,,,,,,,,,,,,,,,
 8092,,,,,,,,,,,,,,,,,,,,,,
-8093,,,,,,,,,,,,,,,,,,,,,,
+8093,,لوتيرانول 0.5% مرهم للعين 5 جم,47,41.0,loteprednol etabonate,orchidia,glucocorticoid,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.5%,,,1,1004,2025-12-13,loteranol 0.5% eye oint 5 gm
 8094,,,,,,,,,,,,,,,,,,,,,,
 22657,,,,,,,,,,,,,,,,,,,,,,
 25025,,,,,,,,,,,,,,,,,,,,,,
@@ -19310,7 +19310,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 18303,,,,,,,,,,,,,,,,,,,,,,
 17751,,,,,,,,,,,,,,,,,,,,,,
 26080,,,,,,,,,,,,,,,,,,,,,,
-8376,,,,,,,,,,,,,,,,,,,,,,
+8376,,برونكودريم شراب 120 مل,55,,ivy leaf extract (35 mg)+thyme leaf extract (21.5 mg)+licorice root extract (21.7 mg)/ 5 ml,dream pharma international,expectorant and antitussive,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,120 ml,,,1,825,2025-12-14,bronchodream 120 ml syrup
 22976,,,,,,,,,,,,,,,,,,,,,,
 21162,,,,,,,,,,,,,,,,,,,,,,
 10026,,,,,,,,,,,,,,,,,,,,,,
@@ -19686,7 +19686,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 6989,,,,,,,,,,,,,,,,,,,,,,
 23555,,,,,,,,,,,,,,,,,,,,,,
 8816,,,,,,,,,,,,,,,,,,,,,,
-8285,,,,,,,,,,,,,,,,,,,,,,
+8285,,تاج فيتا شراب 120 مل,50,,,,,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,120 ml,,,1,826,2025-12-07,tag vita syrup 120 ml
 23545,,,,,,,,,,,,,,,,,,,,,,
 26818,,,,,,,,,,,,,,,,,,,,,,
 18849,,,,,,,,,,,,,,,,,,,,,,
@@ -19705,7 +19705,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 20912,,,,,,,,,,,,,,,,,,,,,,
 19643,,,,,,,,,,,,,,,,,,,,,,
 20666,,,,,,,,,,,,,,,,,,,,,,
-28512,,,,,,,,,,,,,,,,,,,,,,
+28512,,سيرفيتولكا كو شراب 60 مل,150,120.0,citicoline,biomed,cerebral circulatory inhancer,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,60ml,,,1,1513,2025-12-03,cervetolka co oral susp. 60ml
 22460,,,,,,,,,,,,,,,,,,,,,,
 24758,,,,,,,,,,,,,,,,,,,,,,
 23212,,,,,,,,,,,,,,,,,,,,,,
@@ -19804,7 +19804,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 17049,,,,,,,,,,,,,,,,,,,,,,
 11213,,,,,,,,,,,,,,,,,,,,,,
 24001,,,,,,,,,,,,,,,,,,,,,,
-6303,,,,,,,,,,,,,,,,,,,,,,
+6303,,هايجى تادين 5 مجم 20 قرص,48,20.0,desloratadine,dbk pharma > hygint pharmaceuticals-egypt,antihistamine.antiallergy,tablet,قرص,Oral.Solid,صلب فموي,Immunology,المناعة,Immunology,المناعة,5 mg,,,1,1773,2025-12-16,hygi-tadine 5 mg 20 f.c. tabs.
 11068,,,,,,,,,,,,,,,,,,,,,,
 21897,,,,,,,,,,,,,,,,,,,,,,
 21100,,,,,,,,,,,,,,,,,,,,,,
@@ -20747,7 +20747,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 29366,,,,,,,,,,,,,,,,,,,,,,
 15031,,,,,,,,,,,,,,,,,,,,,,
 20151,,,,,,,,,,,,,,,,,,,,,,
-22455,,,,,,,,,,,,,,,,,,,,,,
+22455,,ميفاك 20 اقراص,46,23.0,chlorpheniramine+dextromethorphan+paracetamol(acetaminophen)+pseudoephedrine,eimc > suecal pharmaceuticals,cold drugs,tablet,قرص,Oral.Solid,صلب فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,,,,1,1436,2025-12-13,mefac 20 f.c. tabs
 21176,,,,,,,,,,,,,,,,,,,,,,
 28744,,,,,,,,,,,,,,,,,,,,,,
 27926,,,,,,,,,,,,,,,,,,,,,,
@@ -24615,7 +24615,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 20377,,,,,,,,,,,,,,,,,,,,,,
 18871,,,,,,,,,,,,,,,,,,,,,,
 26041,,,,,,,,,,,,,,,,,,,,,,
-19337,,,,,,,,,,,,,,,,,,,,,,
+19337,,فورتاتيك 10جرام 20 كيس,140,50.0,ferrous fumarate+lactoferrin+folic acid+vitamin(b1+b6+b12+c)+calcium,novotec pharma,iron supplement,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,10 g,,,1,1443,2025-12-13,fortatec 10 gm 20 sachets
 11452,,,,,,,,,,,,,,,,,,,,,,
 28356,,,,,,,,,,,,,,,,,,,,,,
 25513,,,,,,,,,,,,,,,,,,,,,,
@@ -24940,7 +24940,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 13669,,,,,,,,,,,,,,,,,,,,,,
 8521,,,,,,,,,,,,,,,,,,,,,,
 15503,,,,,,,,,,,,,,,,,,,,,,
-8309,,,,,,,,,,,,,,,,,,,,,,
+8309,,اسيتيلجلوتا اس اي 20 قرص,170,,n-acetyl cysteine 300mg. glutathione 100mg. selenium 50mcg. vitamin c 64 mg. molybdenum 40mcg,nash pharma,anti oxidant,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,843,2025-12-10,actylogluta se 20 tabs
 592,,,,,,,,,,,,,,,,,,,,,,
 26581,,,,,,,,,,,,,,,,,,,,,,
 10425,,,,,,,,,,,,,,,,,,,,,,
@@ -24978,7 +24978,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 12353,,,,,,,,,,,,,,,,,,,,,,
 20435,,,,,,,,,,,,,,,,,,,,,,
 15451,,,,,,,,,,,,,,,,,,,,,,
-1318,,,,,,,,,,,,,,,,,,,,,,
+1318,,اوديكيان 3 - 20 كبسولة,220,210.0,omega 3(1000mg)+vitamin d3(2000iu)+vitamin e (12mg)+vitamin k2(50mcg),sita pharma,anti triglycerides -dry eye-cadiac protection - diabetes -pregnancy-,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,819,2025-12-16,odekyan 3 20 capsules
 9078,,,,,,,,,,,,,,,,,,,,,,
 27107,,,,,,,,,,,,,,,,,,,,,,
 27106,,,,,,,,,,,,,,,,,,,,,,
@@ -25464,27 +25464,35 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 16642,,,,,,,,,,,,,,,,,,,,,,
 17410,,,,,,,,,,,,,,,,,,,,,,
 24834,,,,,,,,,,,,,,,,,,,,,,
-8163,,,,,,,,,,,,,,,,,,,,,,
-8187,,,,,,,,,,,,,,,,,,,,,,
-8181,,,,,,,,,,,,,,,,,,,,,,
-8178,,,,,,,,,,,,,,,,,,,,,,
-8177,,,,,,,,,,,,,,,,,,,,,,
-8234,,,,,,,,,,,,,,,,,,,,,,
-8223,,,,,,,,,,,,,,,,,,,,,,
-8222,,,,,,,,,,,,,,,,,,,,,,
-8220,,,,,,,,,,,,,,,,,,,,,,
-7400,,,,,,,,,,,,,,,,,,,,,,
-8283,,,,,,,,,,,,,,,,,,,,,,
-8276,,,,,,,,,,,,,,,,,,,,,,
-8267,,,,,,,,,,,,,,,,,,,,,,
-8254,,,,,,,,,,,,,,,,,,,,,,
-8248,,,,,,,,,,,,,,,,,,,,,,
-8304,,,,,,,,,,,,,,,,,,,,,,
-8308,,,,,,,,,,,,,,,,,,,,,,
-8319,,,,,,,,,,,,,,,,,,,,,,
-8313,,,,,,,,,,,,,,,,,,,,,,
-8345,,,,,,,,,,,,,,,,,,,,,,
-33480,,,,,,,,,,,,,,,,,,,,,,
-8359,,,,,,,,,,,,,,,,,,,,,,
-8362,,,,,,,,,,,,,,,,,,,,,,
-19075,,,,,,,,,,,,,,,,,,,,,,
+8163,,بوجانيرف 30 كبسولة,270,,,,,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,775,2025-12-03,poganerve 30 caps
+8187,,اوميجا مارفي شراب 60 مل,75,,omega3 epa 400mg+dha 300mg+vitamine+vitamina+vitamind,gemo pharm,multivitamins,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,60 ml,,,1,841,2025-12-05,omega marve syrup 60 ml
+8181,,موركير ريدي جل منظف 100 مل,90,,tranexamic acid+centella+vit c+salicylic acid+niacinamide,morecare pharmaceutical industries,cleansing gel,gel,جل,Topical,موضعي,General,عام,General,عام,100 ml,,,1,689,2025-12-05,morecare-ready 100 ml cleansing gel
+8178,,فيروكال فورت 20 كبسولة,170,,microencapsulated liposomal iron+2mg copper bisglycinate+12 mg zinc bisglycinate+676mcg methylfolate+10mcg methylcobalamin+1000 iu vitamin d3+5mg vitamin b6+120 mg vitaminc,egyphar,hematinic supplement,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,753,2025-12-05,ferrocal forte 20 sg caps
+8177,,كولاج دال 20 قرص,250,,glucosamine+chondroitin+msm+collagen+jinko bilbao,vidal pharma,joint health supplement,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,719,2025-12-05,colag dal 20 tab
+8234,,ايفيروز شراب 120 مل,60,,thyme herb dry extract+primrose root dry extract+ivy leaf dry extract,tetracare limited,herbal syrup,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,120 ml,,,1,724,2025-12-07,ivyrose syrup 120 ml
+8223,,هيلثوفال وومن للسيدات 30 قرص,180,,vitamin a+vitamin c+vitamin d3+vitamin e+vitamin k+thiamine+riboflavin+niacin+vitamin b6+folic acid+vitamin b12+biotin+pantothenic acid+calcium+iron+phosphorus+iodine+magnesium+zinc+selenium+copper+manganese+chromium+molybdenum+chloride+potassium,tetracare limited,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,521,2025-12-07,healthoval woman 30 tabs
+8222,,هيلثوفال مان 30 قرص,150,,vitamin a+vitamin c+vitamin d3+vitamin e+vitamin k+thiamine+riboflavin+niacin+vitamin b6+folic acid+vitamin b12+biotin+pantothenic acid+calcium+iron+phosphorus+iodine+magnesium+zinc+selenium+copper+manganese+chromium+molybdenum+chloride+potassium+lycopene,tetracare limited,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,479,2025-12-07,healthoval man 30 tabs
+8220,,اوروكريسب سبراي للفم 60 مل,65,,chlorhexidine+thyme+menthol+clove+hyaluronic acid+disodium phosphate+glycyrrhetinic acid+mentha piperita oil+citric acid+potassium sorbate+salicylic acid+eugenia caryophyllus oil+aloe barbadensis extract+propylene glycol+sorbitol+aqua+parfum,egyheart international pharmaceutical,mouth spray for mouth care,spray,بخاخ,Spray,بخاخ,General,عام,General,عام,60ml,,,1,586,2025-12-07,orocrisp 60ml mouth spray
+7400,,ليبوزوم ب12 1000مكجم 30 قرص تحت اللسان,135,90.0,cyanocobalamin,hochster pharmaceutical industries,vitamin b12,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,1000 mcg,,,1,1327,2025-12-07,liposom-b12 1000 mcg 30 sublingual tabs.
+8283,,هوليامين 30 قرص,280,,,,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,896,2025-12-07,holiamine 30 tabs
+8276,,ويزي 10 اكياس,180,,,,,sachet,,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,835,2025-12-07,wezi 10 sachets
+8267,,نيرفوريك 600 مجم 20 قرص,280,,alpha-lipoic acid+benfotiamine+vitamin b6+folic acid+vitamin b12,tetracare limited,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,600 mg,,,1,755,2025-12-07,nervoric 600 mg 20 tabs
+8254,,اوميجاتشو شراب 120 مل,160,,omega 3+epa+dha+omega 6+gla+ala+vitamin e+thyme oil,tetracare limited,multivitamin,,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,120 ml,,,1,473,2025-12-07,omegatchu 120 ml syrup
+8248,,دامبودال نقط فم 30 مل,65,,cholecalciferol,aspire,,oral drops,نقط فموي,Drops,نقط,General,عام,General,عام,30 ml,,,1,865,2025-12-07,dumbodal 30 ml oral drops
+8304,,اوستيوجالتينور 30 قرص,120,,,,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,748,2025-12-09,osteogaltinor 30 tabs
+8308,,لاكيونايتد بلس 50 جم 10 اكياس,100,,lactoferrin+iron+vitamin c+vitamin b12+copper+folic acid,s3r pharma,multivitamin,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,50g,,,1,823,2025-12-10,lacunited plus 50gm 10 sachets
+8319,,توريكسافا 90 مجم 30 قرص,342,,,,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,90 mg,,,1,806,2025-12-12,torixava 90 mg 30 tabs
+8313,,توريكسافا 120 مجم 10 اقراص,131,,,,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,120 mg,,,1,749,2025-12-12,torixava 120 mg 10 tabs
+8345,,تاداجوينت 15 كبسولة,250,,,,,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,761,2025-12-12,tadajoint 15 capsules
+33480,,رابي-كوول مساج كريم 50جم,55,37.0,,clavita pharma,analgesic,cream,كريم,Topical,موضعي,Pain Relief,مسكنات,Pain Relief,مسكنات,50 g,,,1,572,2025-12-13,rapi-cool massage cream 50 gm
+8359,,اتيرنالفيجن كريم 60 جم,135,,lactic acid+alpha arbutin+kojic acid+vitamin c+licorice extract,tag egy pharma,whiting cream,cream,كريم,Topical,موضعي,Nutrition,التغذية,Nutrition,التغذية,60 g,,,1,738,2025-12-13,eternalvesion cream 60 gm
+8362,,ايفيبتو شراب 120 مل,65,,ivy leaves extract 50 mg+n-acetyl-l-cysteine 50 mg+zinc gluconate 13.065 mg/5 ml,care theraputica for pharmaceuticals,mucolytic and expectorant cough therapy,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120 ml,,,1,715,2025-12-14,ivypto 120 ml syrup
+19075,,فلاجيلات فورت 500 مجم 20 كبسولة,15,,metronidazole,mup,antiprotozoal.nitroimidazole,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,500mg,,,1,936,2025-12-14,flagellat forte 500mg 20 caps
+8406,,نيوميليز شراب 100 مل,67,,alpha-amylase 200u.ceip/ml,daf egypt,anti inflammatory and anti edematous,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,100 ml,,,1,704,2025-12-16,neomylase 100 ml syrup
+8404,,كابروكول 30 كبسولة,155,,activated charcoal - ginger extract -fennel extract -peppermint oil,objective pharm,diatery supplement,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,830,2025-12-16,carbokool 30 caps
+8392,,ديوكسنورزيت 30 مجم 30 كبسولة,195,,duloxetine,zeta pharma,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,30 mg,,,1,390,2025-12-16,duxnorzet 30 mg 30 capsules
+8390,,ديوكسنورزيت 60 مجم 30 كبسولة,231,,duloxetine,zeta pharma,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,60 mg,,,1,721,2025-12-16,duxnorzet 60 mg 30 capsules
+8391,,ديوكسنورزيت 20 مجم 30 كبسولة,168,,duloxetine,zeta pharma,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,20 mg,,,1,696,2025-12-16,duxnorzet 20 mg 30 capsules
+30408,,ديجيبلور 10 اكياس,165,75.0,lactoferrin+colustrum+selenium+zinc+vitamin c+vitamin e,> diligent pharmaceuticlas,immunity booster,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1161,2025-12-16,digeplore 10 sachets
+32942,,هاكسيدا كريم 30 جم ,130,60.0,sodium hyaluronate+retinol+cs,mh group pharma,skin care.healing,cream,كريم,Topical,موضعي,General,عام,General,عام,30 g,,,1,2460,2025-12-16,haxida cream 30 gm
+3690,,برايتوبيد شراب 120 مل,180,125.0,iron+vitamin c+zinc+vitamin b,tri star medical group,dietary supplement,syrup,شراب,Oral.Liquid,سائل فموي,Nutrition,التغذية,Nutrition,التغذية,120 ml,,,1,1137,2025-12-16,braytoped syrup 120 ml
