@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Update Meds CSV from Scraped Details
+Update Meds CSV from Scraped Details (Strict Overwrite Mode)
 Reads: assets/meds_scraped_new.jsonl
-Updates: assets/meds.csv (Adds/Updates concentration, pharmacy info, etc)
+Writes: assets/meds.csv (Complete Overwrite)
+Backups: assets/meds_backup.csv, backups/meds_backup_DATE.csv
 """
 
 import pandas as pd
@@ -10,15 +11,16 @@ import json
 import os
 import shutil
 import sys
+import datetime
 
 # --- Path Configuration ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRAPED_DB = os.path.join(BASE_DIR, 'assets', 'meds_scraped_new.jsonl')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
+MEDS_BACKUP_CSV = os.path.join(BASE_DIR, 'assets', 'meds_backup.csv')
 BACKUP_DIR = os.path.join(BASE_DIR, 'backups')
 
-# --- Translation Dictionaries (from process_drug_data.py) ---
-
+# --- Translation Dictionaries ---
 MAIN_CATEGORIES = {
     'oncology': 'علاج الأورام',
     'diabetes_care': 'العناية بمرضى السكري',
@@ -97,9 +99,25 @@ def main():
     if not os.path.exists(SCRAPED_DB):
         print("❌ Scraped DB not found. Run scraper first.")
         sys.exit(1)
+        
+    # 1. Backup Existing CSVs
+    if os.path.exists(MEDS_CSV):
+        print("💾 Creating Backups...")
+        os.makedirs(BACKUP_DIR, exist_ok=True)
+        timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # Backup 1: To backups/ folder with timestamp
+        backup_path = os.path.join(BACKUP_DIR, f'meds_backup_{timestamp}.csv')
+        shutil.copy(MEDS_CSV, backup_path)
+        print(f"   -> {backup_path}")
+        
+        # Backup 2: To assets/meds_backup.csv (Overwrite previous backup)
+        shutil.copy(MEDS_CSV, MEDS_BACKUP_CSV)
+        print(f"   -> {MEDS_BACKUP_CSV}")
 
-    # 1. Load Scraped Data
+    # 2. Load Scraped Data
     scraped_map = {}
+    print(f"📂 Loading scraped data...")
     with open(SCRAPED_DB, 'r', encoding='utf-8') as f:
         for line in f:
             if line.strip():
@@ -108,31 +126,27 @@ def main():
                     mid = str(rec.get('id', ''))
                     if mid:
                         scraped_map[mid] = rec
-                except: pass
-    print(f"✅ Loaded {len(scraped_map)} scraped records.")
-
-    # 2. Backup CSV
-    if os.path.exists(MEDS_CSV):
-        os.makedirs(BACKUP_DIR, exist_ok=True)
-        shutil.copy(MEDS_CSV, os.path.join(BACKUP_DIR, 'meds_backup_pre_enrich.csv'))
-
-    # 3. Read OR Create New CSV (The 'Force Rebuild' approach)
-    # We want to prioritize Scraped Data.
-    # If meds.csv exists, we load it to keep IDs if needed, but we essentially overwrite.
-    # Actually, the user wants to "consider database as zero".
-    # So we should build the DataFrame primarily from `scraped_map`.
+                except json.JSONDecodeError as e:
+                    print(f"❌ JSON Error in line: {e} | Content: {line[:50]}...")
+                except Exception as e:
+                    print(f"❌ Error parsing line: {e}")
     
-    # Debug first record keys
-    if scraped_map:
-        first_key = next(iter(scraped_map))
-        print(f"🔍 DEBUG: Sample Keys in JSONL: {list(scraped_map[first_key].keys())}")
-        
+    count = len(scraped_map)
+    print(f"✅ Loaded {count} scraped records.")
+    
+    if count == 0:
+        print("⚠️  Warning: Scraped data is empty! Aborting overwrite to prevent data loss.")
+        sys.exit(1)
+
+    # 3. Build New Records (Strict Overwrite)
+    print("🔨 Processing records (Wiping old data)...")
     records = []
+    
     for mid, rec in scraped_map.items():
         # Handle date mapping robustly
         date_val = rec.get('last_update') or rec.get('last_price_update') or ''
         
-        # Basic Mapping
+        # Base Row
         row = {
             'id': mid,
             'trade_name': rec.get('trade_name', ''),
@@ -144,23 +158,18 @@ def main():
             'category': rec.get('category', ''),
             'last_price_update': date_val,
             'visits': rec.get('visits', ''),
-            
-            # New/Enriched Columns
             'concentration': rec.get('concentration', ''),
             'pharmacology': rec.get('pharmacology', ''),
             'barcode': rec.get('barcode', ''),
             'unit': rec.get('units', ''),
-            
-            # Fields needing translation/normalization
             'dosage_form': rec.get('dosage_form', ''),
             'usage': rec.get('usage', ''),
         }
         
-        # --- Translation & Enrichment Logic ---
+        # --- Translation & Enrichment ---
         
         # Dosage Form AR
         form_lower = safe_str_lower(row['dosage_form'])
-        # Try exact match or partial
         row['dosage_form_ar'] = DOSAGE_FORM_TRANSLATIONS.get(form_lower, '')
         if not row['dosage_form_ar']:
             # Fallback: Check if any key is substring
@@ -174,22 +183,17 @@ def main():
         row['usage_ar'] = USAGE_TRANSLATIONS.get(usage_lower, '')
         
         # Category AR & Main Category
-        cat_lower = safe_str_lower(row['category'])
-        # (Simplified logic from process_drug_data.py could go here for 'Main Category')
-        # For now, simplistic map if we had one, or just empty.
-        # process_drug_data had massive logic for Main Category, maybe too big for this inline.
-        # We will set placeholders or mapping if available.
-        # User asked for 'missing Arabic columns'.
-        row['category_ar'] = '' # TODO: Add category translation map if specific keys known
-        row['main_category'] = 'Other' # Default
+        # (Could use MAIN_CATEGORIES later if we map them)
+        row['category_ar'] = '' # Placeholder
+        row['main_category'] = 'Other' 
         row['main_category_ar'] = 'أخرى'
         
         records.append(row)
 
-    # 4. Create DataFrame
+    # 4. Create DataFrame & Save
     df = pd.DataFrame(records)
     
-    # 5. Reorder/Ensure Columns
+    # Define Column Order (Schema)
     desired_columns = [
         'id', 'trade_name', 'arabic_name', 'price', 'old_price', 'active', 
         'company', 'description', 'dosage_form', 'dosage_form_ar', 
@@ -198,17 +202,17 @@ def main():
         'pharmacology', 'barcode', 'unit', 'visits', 'last_price_update'
     ]
     
-    # Add missing cols with empty string
+    # Ensure all columns exist
     for col in desired_columns:
         if col not in df.columns:
             df[col] = ''
             
-    # Select and Reorder
+    # Reorder
     df = df[desired_columns]
     
-    # 6. Save
-    df.to_csv(MEDS_CSV, index=False)
-    print(f"✅ Rebuilt meds.csv with {len(df)} records and {len(desired_columns)} columns.")
+    # Save (Overwrite)
+    df.to_csv(MEDS_CSV, index=False, encoding='utf-8-sig') # Use utf-8-sig for Excel compatibility
+    print(f"✅ SUCCESS: Wiped old data and wrote {len(df)} records to {MEDS_CSV}")
 
 if __name__ == "__main__":
     main()

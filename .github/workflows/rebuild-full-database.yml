@@ -68,6 +68,20 @@ jobs:
           python3 scripts/update_meds.py
           echo "::endgroup::"
 
+      - name: 1.5 Commit Scraped Data (Safety Checkpoint)
+        run: |
+          git config --global user.name 'DailyMed Bot'
+          git config --global user.email 'bot@dailymed.local'
+          
+          git add -f assets/meds_scraped_new.jsonl
+          git add -f assets/meds.csv
+          
+          git commit -m "data: save scraped data checkpoint $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          
+          # Pull before push to handle any parallel updates
+          git pull --rebase -X theirs
+          git push
+
       # --- STEP 2: DailyMed Download ---
       - name: 2. Download DailyMed Full Release
         run: |
@@ -92,6 +106,39 @@ jobs:
         run: |
           # Produces production_data/dailymed_interactions.json
           python3 production_data/extract_dailymed_interactions.py
+
+      - name: 3.2.5 Commit Intermediate Data (Dosages & Interactions)
+        run: |
+          dosages="production_data/production_dosages.jsonl"
+          interactions="production_data/dailymed_interactions.json"
+          
+          # Check files exist
+          if [ ! -f "$dosages" ] || [ ! -f "$interactions" ]; then
+             echo "⚠️ Intermediate files missing. Skipping commit."
+             exit 0
+          fi
+          
+          # Check size/content
+          lines=$(wc -l < "$dosages")
+          size=$(stat -c%s "$interactions")
+          
+          echo "📊 Dosages Lines: $lines"
+          echo "📊 Interactions Size: $size bytes"
+          
+          if [ "$lines" -gt 0 ] && [ "$size" -gt 100 ]; then
+             echo "✅ Valid data found. Committing..."
+             git config --global user.name 'DailyMed Bot'
+             git config --global user.email 'bot@dailymed.local'
+             
+             git add -f "$dosages"
+             git add -f "$interactions"
+             
+             git commit -m "data: save intermediate dosages/interactions $(date +'%Y-%m-%d')" || echo "No changes"
+             git pull --rebase -X theirs
+             git push
+          else
+             echo "⚠️ Data appears empty (Lines=0 or Size<100). Skipping commit."
+          fi
 
       - name: 3.3 Merge Hybrid Data
         run: |
