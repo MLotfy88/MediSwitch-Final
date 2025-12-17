@@ -249,6 +249,19 @@ def load_app_data() -> Dict[str, list]:
             raw_name = str(row.get('trade_name', ''))
             raw_active = str(row.get('active', ''))
             
+            # Smart Parsing for Active Ingredient
+            # 1. Split by '+' (Handle combos like "Chlorhexidine+Fluoride")
+            # 2. Take FIRST ingredient as primary key
+            # 3. Clean concentration strings (e.g. "Simvastatin 10mg" -> "Simvastatin")
+            primary_active = ""
+            if raw_active and raw_active.lower() != 'nan':
+                parts = raw_active.split('+')
+                first_part = parts[0].strip()
+                # Remove common concentration patterns (10mg, 5%, etc) embedded in name
+                # This uses the same regex we use for extraction, but to remove it
+                cleaned_part = re.sub(r'\b\d+(?:\.\d+)?\s*(?:mg|ml|%|g|mcg|iu)\b', '', first_part, flags=re.IGNORECASE).strip()
+                primary_active = cleaned_part
+
             record = row.to_dict()
             record['original_name'] = raw_name
             
@@ -260,17 +273,17 @@ def load_app_data() -> Dict[str, list]:
                 app_map[key_name].append(record)
             
             # Index by Active Ingredient
-            if raw_active and raw_active.lower() != 'nan':
+            if primary_active:
                 
                 # Tier 1: Exact (Keep Salts)
-                key_exact = normalize_active_ingredient(raw_active, strip_salts=False)
+                key_exact = normalize_active_ingredient(primary_active, strip_salts=False)
                 if key_exact:
                     if key_exact not in active_map_exact:
                         active_map_exact[key_exact] = []
                     active_map_exact[key_exact].append(record)
                     
                 # Tier 2: Stripped (Remove Salts)
-                key_stripped = normalize_active_ingredient(raw_active, strip_salts=True)
+                key_stripped = normalize_active_ingredient(primary_active, strip_salts=True)
                 if key_stripped:
                     if key_stripped not in active_map_stripped:
                         active_map_stripped[key_stripped] = []
@@ -377,15 +390,12 @@ def process_datalake():
                 # --- MATCHING LOGIC ---
                 matched_app_records = []
                 
-                # Strategy 1: Clean trade name matching
-                cleaned_dailymed_name = clean_drug_name(drug_name)
-                if cleaned_dailymed_name in app_data_map:
-                    for rec in app_data_map[cleaned_dailymed_name]:
-                        rec['linkage_type'] = 'Trade_Name'
-                        matched_app_records.append(rec)
+                # --- MATCHING LOGIC ---
+                matched_app_records = []
                 
-                # Strategy 2: Active ingredient matching (if no trade match)
-                if not matched_app_records and generic_name:
+                # Strategy 1: Active ingredient matching (PRIORITY)
+                # DailyMed often lists generic name. We match against our 'Active' column.
+                if generic_name:
                     # Tier 1: Exact (with salts)
                     norm_exact = normalize_active_ingredient(generic_name, strip_salts=False)
                     if norm_exact in app_active_exact:
@@ -400,6 +410,14 @@ def process_datalake():
                             for rec in app_active_stripped[norm_stripped]:
                                 rec['linkage_type'] = 'Active_Stripped'
                                 matched_app_records.append(rec)
+
+                # Strategy 2: Clean trade name matching (FALLBACK)
+                if not matched_app_records:
+                    cleaned_dailymed_name = clean_drug_name(drug_name)
+                    if cleaned_dailymed_name in app_data_map:
+                        for rec in app_data_map[cleaned_dailymed_name]:
+                            rec['linkage_type'] = 'Trade_Name'
+                            matched_app_records.append(rec)
                 
                 # Skip if no match found
                 if not matched_app_records:
