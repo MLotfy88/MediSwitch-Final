@@ -829,26 +829,41 @@ async function handleGetInteractions(request, DB) {
     const page = parseInt(url.searchParams.get('page') || '1');
     const limit = parseInt(url.searchParams.get('limit') || '50');
     const search = url.searchParams.get('search') || '';
+    const medId = url.searchParams.get('med_id'); // Support precise relational lookup
     const offset = (page - 1) * limit;
 
     try {
         let query = 'SELECT * FROM drug_interactions';
         let countQuery = 'SELECT COUNT(*) as total FROM drug_interactions';
         const params = [];
+        const conditions = [];
+
+        if (medId) {
+            conditions.push('med_id = ?');
+            params.push(medId);
+        }
 
         if (search) {
-            query += ' WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?';
-            countQuery += ' WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?';
+            conditions.push('(ingredient1 LIKE ? OR ingredient2 LIKE ? OR interaction_drug_name LIKE ?)');
             const searchParam = `%${search}%`;
-            params.push(searchParam, searchParam);
+            params.push(searchParam, searchParam, searchParam);
+        }
+
+        if (conditions.length > 0) {
+            const whereClause = ' WHERE ' + conditions.join(' AND ');
+            query += whereClause;
+            countQuery += whereClause;
         }
 
         query += ' ORDER BY severity DESC LIMIT ? OFFSET ?';
+        // params for countQuery are the same as query (minus limit/offset)
+        const countParams = [...params];
+
         params.push(limit, offset);
 
         const [dataResult, countResult] = await Promise.all([
             DB.prepare(query).bind(...params).all(),
-            DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first()
+            DB.prepare(countQuery).bind(...countParams).first()
         ]);
 
         return jsonResponse({
