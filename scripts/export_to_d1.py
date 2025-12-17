@@ -43,7 +43,7 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write(f"-- Total records: {count}\n")
         f.write("-- Generated from local assets/meds.csv\n\n")
         
-        # Schema Init (Safe) - Updated to match current meds.csv structure
+        # Schema Init (Safe) - Updated to match clean meds.csv structure
         f.write("CREATE TABLE IF NOT EXISTS drugs (\n")
         f.write("  id INTEGER PRIMARY KEY,\n")
         f.write("  trade_name TEXT,\n")
@@ -55,36 +55,24 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write("  dosage_form TEXT,\n")
         f.write("  dosage_form_ar TEXT,\n")
         f.write("  usage TEXT,\n")
-        f.write("  usage_ar TEXT,\n")
         f.write("  category TEXT,\n")
-        f.write("  category_ar TEXT,\n")
-        f.write("  main_category TEXT,\n")
-        f.write("  main_category_ar TEXT,\n")
         f.write("  concentration TEXT,\n")
-        f.write("  pharmacology TEXT,\n")  # Added from scraper
-        f.write("  barcode TEXT,\n")       # Added from scraper
+        f.write("  pharmacology TEXT,\n")
+        f.write("  barcode TEXT,\n")
         f.write("  unit TEXT,\n")
         f.write("  visits INTEGER DEFAULT 0,\n")
         f.write("  last_price_update TEXT\n")
         f.write(");\n\n")
         
-        # Clear existing data? User wants a sync.
-        # "Sync Full Database" implies replacing the state.
+        # Clear existing data
         f.write("-- Clear existing data\n")
         f.write("DELETE FROM drugs;\n\n")
         
         print("📝 Exporting records...")
         
-        batch_size = 500 # D1 limit per statement is typically high, but safe batching is good
+        batch_size = 500
         batch = []
         total_exported = 0
-        
-        # Mapping CSV headers to DB columns
-        # CSV headers based on verification: 
-        # Trade Name,Arabic Name,Old Price,Price,Active Ingredient,Main Category,Main Category AR,Category,Category AR,Company,Dosage Form,Dosage Form AR,Unit,Usage,Usage AR,Description,Last Price Update,Concentration,Image URL
-        
-        # We need to ensure we map correctly.
-        # DictReader uses first row keys.
         
         for idx, row in enumerate(rows):
             # Safe value extractor
@@ -93,47 +81,42 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
                 val = val.replace("'", "''") # Escape SQL
                 return f"'{val}'"
             
-            # ID generation: use loop index + 1 if no ID col, or try to find ID
-            # meds.csv typically doesn't have ID column in standard exports unless added
-            # We will use idx+1 as ID for consistency in this bulk load
-            id_val = str(idx + 1)
+            # Map columns (Keys from update_meds.py output)
+            mid = get_val('id') # meds.csv now has 'id'
+            trade = get_val('trade_name')
+            arabic = get_val('arabic_name')
+            old_p = get_val('old_price')
+            price = get_val('price')
+            active = get_val('active')
+            cat = get_val('category')
+            comp = get_val('company')
+            form = get_val('dosage_form')
+            form_ar = get_val('dosage_form_ar')
+            unit = get_val('unit')
+            usage = get_val('usage')
+            last = get_val('last_price_update')
+            conc = get_val('concentration')
+            pharm = get_val('pharmacology')
+            bar = get_val('barcode')
+            # visits is int, handle carefully
+            visits_val = row.get('visits', '0').strip() or '0'
             
-            # Map columns
-            trade = get_val('Trade Name')
-            arabic = get_val('Arabic Name')
-            old_p = get_val('Old Price')
-            price = get_val('Price')
-            active = get_val('Active Ingredient')
-            main = get_val('Main Category')
-            main_ar = get_val('Main Category AR')
-            cat = get_val('Category')
-            cat_ar = get_val('Category AR')
-            comp = get_val('Company')
-            form = get_val('Dosage Form')
-            form_ar = get_val('Dosage Form AR')
-            unit = get_val('Unit')
-            usage = get_val('Usage')
-            usage_ar = get_val('Usage AR')
-            desc = get_val('Description')
-            last = get_val('Last Price Update')
-            conc = get_val('Concentration')
-            visits = '0' # Default
-            
-            values = f"({id_val}, {trade}, {arabic}, {old_p}, {price}, {active}, {main}, {main_ar}, {cat}, {cat_ar}, {comp}, {form}, {form_ar}, {unit}, {usage}, {usage_ar}, {desc}, {last}, {conc}, {visits})"
+            values = f"({mid}, {trade}, {arabic}, {old_p}, {price}, {active}, {comp}, {form}, {form_ar}, {usage}, {cat}, {conc}, {pharm}, {bar}, {unit}, {visits_val}, {last})"
             batch.append(values)
             
             if len(batch) >= batch_size:
-                f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, main_category, main_category_ar, category, category_ar, company, dosage_form, dosage_form_ar, unit, usage, usage_ar, description, last_price_update, concentration, visits) VALUES\n")
+                f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update) VALUES\n")
                 f.write(',\n'.join(batch))
                 f.write(';\n\n')
                 total_exported += len(batch)
                 batch = []
                 
         if batch:
-            f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, main_category, main_category_ar, category, category_ar, company, dosage_form, dosage_form_ar, unit, usage, usage_ar, description, last_price_update, concentration, visits) VALUES\n")
+            f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update) VALUES\n")
             f.write(',\n'.join(batch))
             f.write(';\n\n')
             total_exported += len(batch)
+
 
     # Get file size
     file_size = Path(output_path).stat().st_size / (1024 * 1024)  # MB
