@@ -1578,7 +1578,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 31434,,,,,,,,,,,,,,,,,,,,,,
 31435,,,,,,,,,,,,,,,,,,,,,,
 15684,,,,,,,,,,,,,,,,,,,,,,
-15746,,نورمابيد 20 قطعة,149,134.0,fenugreek+fennel+ginger+anise oil+dill+caraway+chamomile+calcium,tadawena,herbal lactogogue,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,1270,2025-12-12,normapid 20 pieces
+15746,,نورمابيد 20 قطعة,149,134.0,fenugreek+fennel+ginger+anise oil+dill+caraway+chamomile+calcium,tadawena,herbal lactogogue,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,1271,2025-12-12,normapid 20 pieces
 15733,,,,,,,,,,,,,,,,,,,,,,
 6611,,,,,,,,,,,,,,,,,,,,,,
 31455,,,,,,,,,,,,,,,,,,,,,,
@@ -2448,7 +2448,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 32735,,,,,,,,,,,,,,,,,,,,,,
 25500,,,,,,,,,,,,,,,,,,,,,,
 28042,,,,,,,,,,,,,,,,,,,,,,
-2239,,هيرو في d3 + k2 نقط فم 10 مل,99,95.0,vitamin d3+vitamin k2,hero mea trading,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,10 ml,,,1,2339,2025-12-16,hero vitamin d3 + k2 oral drops 10 ml
+2239,,هيرو في d3 + k2 نقط فم 10 مل,99,95.0,vitamin d3+vitamin k2,hero mea trading,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,10 ml,,,1,2340,2025-12-16,hero vitamin d3 + k2 oral drops 10 ml
 7284,,,,,,,,,,,,,,,,,,,,,,
 13197,,,,,,,,,,,,,,,,,,,,,,
 26415,,,,,,,,,,,,,,,,,,,,,,
@@ -4048,7 +4048,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 27618,,,,,,,,,,,,,,,,,,,,,,
 10765,,,,,,,,,,,,,,,,,,,,,,
 19774,,,,,,,,,,,,,,,,,,,,,,
-3473,,توميد فيرو 30 كبسولة,180,150.0,iron+vitamin b12+vitamin b6+vitamin c+folic acid,wellmed,iron supplement,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1321,2025-12-16,tomed ferro 30 capsules
+3473,,توميد فيرو 30 كبسولة,180,150.0,iron+vitamin b12+vitamin b6+vitamin c+folic acid,wellmed,iron supplement,capsule,كبسولة,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,1322,2025-12-16,tomed ferro 30 capsules
 10452,,,,,,,,,,,,,,,,,,,,,,
 2696,,,,,,,,,,,,,,,,,,,,,,
 17542,,,,,,,,,,,,,,,,,,,,,,
@@ -4461,7 +4461,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 3061,,,,,,,,,,,,,,,,,,,,,,
 24373,,,,,,,,,,,,,,,,,,,,,,
 1151,,,,,,,,,,,,,,,,,,,,,,
-32296,,برونكاي شراب 120 مل,55,40.0,primula root fluid extract + thyme fluid extract,mash premiere,cough syrup,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120 ml,,,1,687,2025-12-03,bronchi syrup 120 ml
+32296,,برونكاي شراب 120 مل,55,40.0,primula root fluid extract + thyme fluid extract,mash premiere,cough syrup,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,120 ml,,,1,688,2025-12-03,bronchi syrup 120 ml
 30132,,,,,,,,,,,,,,,,,,,,,,
 32147,,,,,,,,,,,,,,,,,,,,,,
 30413,,,,,,,,,,,,,,,,,,,,,,
@@ -4610,7 +4610,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 21672,,,,,,,,,,,,,,,,,,,,,,
 2878,,,,,,,,,,,,,,,,,,,,,,
 2873,,,,,,,,,,,,,,,,,,,,,,
-2867,,سبونسييف 30 قرص,385,375.0,l-arginine - l-carnitine - co-enzyme q10 - folic acid - vit c - vit d3 - vit b6- vit b12 - vit e - zinc - selenium,provak international for pharmaceutical ind,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,2943,2025-12-08,sponsceive 30 tablets
+2867,,سبونسييف 30 قرص,385,375.0,l-arginine - l-carnitine - co-enzyme q10 - folic acid - vit c - vit d3 - vit b6- vit b12 - vit e - zinc - selenium,provak international for pharmaceutical ind,multivitamin,tablet,قرص,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,,,,1,2944,2025-12-08,sponsceive 30 tablets
 2859,,,,,,,,,,,,,,,,,,,,,,
 2838,,,,,,,,,,,,,,,,,,,,,,
 2837,,,,,,,,,,,,,,,,,,,,,,
@@ -7121,7 +7121,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 1715,,,,,,,,,,,,,,,,,,,,,,
 31287,,,,,,,,,,,,,,,,,,,,,,
 20113,,,,,,,,,,,,,,,,,,,,,,
-28270,,توميد لاكتوفيرين 200مجم 10 اكياس,210,190.0,200 mg lactoferrin+27 mg iron+50 mg zn+200 mcg folic acid+vitamin c+vitamin ( b1+b6+b12 ),swivel nutrient > wellmed,iron supplement,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,200mg,,,1,5067,2025-12-14,tomed lactoferrin 200mg multivitamin
+28270,,توميد لاكتوفيرين 200مجم 10 اكياس,210,190.0,200 mg lactoferrin+27 mg iron+50 mg zn+200 mcg folic acid+vitamin c+vitamin ( b1+b6+b12 ),swivel nutrient > wellmed,iron supplement,sachet,,Oral.Solid,صلب فموي,Nutrition,التغذية,Nutrition,التغذية,200mg,,,1,5068,2025-12-14,tomed lactoferrin 200mg multivitamin
 18495,,,,,,,,,,,,,,,,,,,,,,
 10604,,,,,,,,,,,,,,,,,,,,,,
 12159,,,,,,,,,,,,,,,,,,,,,,
@@ -8784,7 +8784,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 502,,,,,,,,,,,,,,,,,,,,,,
 5956,,,,,,,,,,,,,,,,,,,,,,
 5958,,,,,,,,,,,,,,,,,,,,,,
-11196,,تاروليمس مرهم 03% 15 جم,144,129.0,tacrolimus,andalous pharma,immunosuppressants.psoriasis,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.03%,,,1,11953,2025-12-15,tarolimus 0.03% topical oint. 15 gm
+11196,,تاروليمس مرهم 03% 15 جم,144,129.0,tacrolimus,andalous pharma,immunosuppressants.psoriasis,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.03%,,,1,11955,2025-12-15,tarolimus 0.03% topical oint. 15 gm
 11700,,,,,,,,,,,,,,,,,,,,,,
 18418,,,,,,,,,,,,,,,,,,,,,,
 29313,,,,,,,,,,,,,,,,,,,,,,
@@ -10404,7 +10404,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 6156,,,,,,,,,,,,,,,,,,,,,,
 6158,,,,,,,,,,,,,,,,,,,,,,
 18229,,ازوتك ماكس جل 100 جم,250,199.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage cream,gel,جل,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,3333,2025-12-14,azotec max gel 100 gm
-17717,,ازوتك ديكس مساج كريم 100 جم,200,165.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage cream,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,1112,2025-12-14,azotec dex massage cream 100 gm
+17717,,ازوتك ديكس مساج كريم 100 جم,200,165.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage cream,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,100 g,,,1,1113,2025-12-14,azotec dex massage cream 100 gm
 18741,,ازوتك فلكس رول اون 80 مل,200,170.0,rosmarinus officinalis extract (rosemary)+hydrogenated potato starch+allium sativum bulb extract+magnesium sulfate+zinc oxide+phenoxyethanol+menthol+(camphora oil)+eugenia caryophyllus cinnamomum camphora bark oil carbomer+phenoxyethanol+aqua+eucalyptus globulus leaf oil (eucalyptus)+laurocapram+triethanolamine+aqua.,koncieve,massage roll on,piece,,Oral.Solid,صلب فموي,Dermatology,الجلدية,Dermatology,الجلدية,80 ml,,,1,885,2025-12-14,azotec flex roll on 80 ml
 18485,,ازوتك مكس مساج سبراي 200 مل,350,290.0,tocopherol (vit e)+laurocapram+menthol+eucalyptus globulus leaf (eucalyptus)+eugenia caryophyllus flower extract (clove)+allantoin+magnesium sulfate+(camphora oil)+panax ginseng root extract+persea gratissima oil (avocado oil)+butyrospermum parkii butter (shea butter)+glyceryl stearate+arctium lappa root extract+carbomer+phenoxyethanol+10-hydroxystearic acid+triethanolamine,koncieve,massage spray,spray,بخاخ,Spray,بخاخ,Dermatology,الجلدية,Dermatology,الجلدية,200 ml,,,1,1844,2025-12-14,azotec mix massage spray 200 ml
 17853,,,,,,,,,,,,,,,,,,,,,,
@@ -12875,7 +12875,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 8116,,,,,,,,,,,,,,,,,,,,,,
 8118,,,,,,,,,,,,,,,,,,,,,,
 22689,,,,,,,,,,,,,,,,,,,,,,
-8185,,لايفوليز شراب 100 مل,65,,alpha amylase,,,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,100 ml,,,1,1069,2025-12-06,lifolase syrup 100 ml
+8185,,لايفوليز شراب 100 مل,65,,alpha amylase,,,syrup,شراب,Oral.Liquid,سائل فموي,General,عام,General,عام,100 ml,,,1,1070,2025-12-06,lifolase syrup 100 ml
 17860,,,,,,,,,,,,,,,,,,,,,,
 17863,,,,,,,,,,,,,,,,,,,,,,
 23797,,,,,,,,,,,,,,,,,,,,,,
