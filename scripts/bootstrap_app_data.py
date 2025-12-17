@@ -17,7 +17,7 @@ import sys
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HYBRID_DB = os.path.join(BASE_DIR, 'production_data', 'production_hybrid.jsonl')
-INTERACTIONS_DB = os.path.join(BASE_DIR, 'production_data', 'dailymed_interactions_clean.json')
+INTERACTIONS_DB = os.path.join(BASE_DIR, 'production_data', 'dailymed_interactions.json')
 
 APP_DOSAGES = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json')
 APP_INTERACTIONS = os.path.join(BASE_DIR, 'assets', 'data', 'drug_interactions.json')
