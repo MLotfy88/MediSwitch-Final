@@ -369,10 +369,41 @@ def process_datalake():
                 
                 for prod in products:
                     # Try regex extraction first (pre-computed in extract_full_dailymed)
-                        if prod.get('regex_concentration'):
-                            concentration = prod.get('regex_concentration')
-                            source_concentration = "DailyMed_Regex"
-                            break
+                    if prod.get('regex_concentration'):
+                        concentration = prod.get('regex_concentration')
+                        source_concentration = "DailyMed_Regex"
+                        break
+                
+                # --- MATCHING LOGIC ---
+                matched_app_records = []
+                
+                # Strategy 1: Clean trade name matching
+                cleaned_dailymed_name = clean_drug_name(drug_name)
+                if cleaned_dailymed_name in app_data_map:
+                    for rec in app_data_map[cleaned_dailymed_name]:
+                        rec['linkage_type'] = 'Trade_Name'
+                        matched_app_records.append(rec)
+                
+                # Strategy 2: Active ingredient matching (if no trade match)
+                if not matched_app_records and generic_name:
+                    # Tier 1: Exact (with salts)
+                    norm_exact = normalize_active_ingredient(generic_name, strip_salts=False)
+                    if norm_exact in app_active_exact:
+                        for rec in app_active_exact[norm_exact]:
+                            rec['linkage_type'] = 'Active_Exact'
+                            matched_app_records.append(rec)
+                    
+                    # Tier 2: Stripped (without salts)
+                    if not matched_app_records:
+                        norm_stripped = normalize_active_ingredient(generic_name, strip_salts=True)
+                        if norm_stripped in app_active_stripped:
+                            for rec in app_active_stripped[norm_stripped]:
+                                rec['linkage_type'] = 'Active_Stripped'
+                                matched_app_records.append(rec)
+                
+                # Skip if no match found
+                if not matched_app_records:
+                    continue
                         
                 # Loop through matched App IDs and create candidates
                 for app_rec in matched_app_records:

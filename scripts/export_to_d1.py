@@ -99,7 +99,11 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
             pharm = get_val('pharmacology')
             bar = get_val('barcode')
             # visits is int, handle carefully
-            visits_val = row.get('visits', '0').strip() or '0'
+            visits_raw = row.get('visits', '0').strip() or '0'
+            try:
+                visits_val = int(visits_raw) if visits_raw.isdigit() else 0
+            except:
+                visits_val = 0
             
             values = f"({mid}, {trade}, {arabic}, {old_p}, {price}, {active}, {comp}, {form}, {form_ar}, {usage}, {cat}, {conc}, {pharm}, {bar}, {unit}, {visits_val}, {last})"
             batch.append(values)
