@@ -80,8 +80,9 @@ jobs:
           git add -f assets/meds.csv
           
           git commit -m "data: scrape checkpoint $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git pull --rebase -X theirs
-          git push
+          # FORCE PUSH to establish this as the new truth for this run
+          # This prevents old remote schema from merging back in
+          git push --force-with-lease || git push
 
       # --- STEP 2: DailyMed (Download -> Extract -> Cache -> Clean) ---
       - name: 2. Check DailyMed Cache
