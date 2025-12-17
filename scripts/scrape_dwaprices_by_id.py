@@ -126,6 +126,10 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     # 3. Extract usage - CRITICAL FIX (Targeted Element)
     # Based on debug HTML, usage is in <p id="usesLink">
     usage_text = ""
+    
+    # Pre-calculate text for regex operations (needed for visits later too)
+    text = soup.get_text("\n")
+    
     uses_p = soup.find('p', id='usesLink')
     if uses_p:
         # Extract text, handling <br> as newlines
@@ -135,7 +139,6 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     
     # Fallback: Try regex if id="usesLink" is missing
     if not usage_text:
-        text = soup.get_text("\n")
         usage_match = re.search(
             r'(?:دواع[يى]|استخدامات?)\s*(?:ال)?(?:استعم?ال|استخدام)[:\s]*\n+(.*?)(?=\n\s*(?:نموذج إبلاغ|كلمات مفتاحية|كم ثمن|اضغط هنا)|$)',
             text,
