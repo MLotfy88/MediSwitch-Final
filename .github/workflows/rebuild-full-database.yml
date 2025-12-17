@@ -2,7 +2,7 @@ name: Rebuild Full Database (Unified)
 # The "Magic Button" to rebuild the entire database from scratch.
 # Order:
 # 1. Scrape DwaPrices (Details + Concentration) -> Update meds.csv
-# 2. Download & Extract DailyMed (Full) -> GZIP -> Cleanup Zips
+# 2. Download & Extract DailyMed (Full) -> Extract Interactions -> Cleanup Zips -> Split & Commit
 # 3. Match & Produce Files (Drugs, Interactions, Dosages)
 # 4. Update Local Assets (JSONs)
 # 5. Sync D1 (Full Overwrite)
@@ -81,29 +81,29 @@ jobs:
           
           git commit -m "data: scrape checkpoint $(date +'%Y-%m-%d')" || echo "No changes to commit"
           # FORCE PUSH to establish this as the new truth for this run
-          # This prevents old remote schema from merging back in
           git push --force-with-lease || git push
 
-      # --- STEP 2: DailyMed (Download -> Extract -> Cache -> Clean) ---
-      - name: 2. Check DailyMed Cache
+      # --- STEP 2: DailyMed (Download -> Extract -> Interactions -> Split -> Cleanup) ---
+      - name: 2. Check DailyMed Cache (Chunks)
         id: check_dm_cache
         run: |
-          # We now cache the GZIP file
-          CACHE_FILE="production_data/dailymed_cache/dailymed_full_database.jsonl.gz"
+          # We check for the directory of parts
+          CACHE_DIR="production_data/dailymed_cache"
+          TARGET_PARTS="production_data/dailymed_full_database_parts"
           TARGET_FILE="production_data/dailymed_full_database.jsonl.gz"
           
-          if [ -f "$CACHE_FILE" ]; then
-             size=$(stat -c%s "$CACHE_FILE")
-             if [ "$size" -gt 10000000 ]; then # >10MB check (it should be bigger)
-                echo "✅ Found valid cached DailyMed DB ($size bytes)"
-                cp "$CACHE_FILE" "$TARGET_FILE"
-                echo "skip_dm=true" >> $GITHUB_OUTPUT
-             else
-                echo "⚠️ Cache file too small ($size bytes), re-downloading..."
-                echo "skip_dm=false" >> $GITHUB_OUTPUT
-             fi
+          if [ -d "$CACHE_DIR/dailymed_full_database_parts" ]; then
+             echo "✅ Found valid cached DailyMed DB Parts"
+             mkdir -p "$TARGET_PARTS"
+             cp -r "$CACHE_DIR/dailymed_full_database_parts/." "$TARGET_PARTS/"
+             
+             # Reassemble immediately
+             echo "🧩 Reassembling Cached DB..."
+             python3 scripts/manage_large_file.py join "$TARGET_PARTS" "$TARGET_FILE"
+             
+             echo "skip_dm=true" >> $GITHUB_OUTPUT
           else
-             echo "❌ No DailyMed cache found."
+             echo "❌ No Valid DailyMed cache found."
              echo "skip_dm=false" >> $GITHUB_OUTPUT
           fi
 
@@ -118,29 +118,46 @@ jobs:
         if: steps.check_dm_cache.outputs.skip_dm != 'true'
         run: |
           echo "::group::Extracting DailyMed XMLs"
-          # Produces production_data/dailymed_full_database.jsonl.gz DIRECTLY
+          # Produces production_data/dailymed_full_database.jsonl.gz
           python3 production_data/extract_full_dailymed.py
           echo "::endgroup::"
 
-      - name: 2.3 Cleanup Zips & Cache Database
+      # REORDERED: Extract Interactions BEFORE cleaning Zips
+      - name: 2.3 Extract DailyMed Interactions
         if: steps.check_dm_cache.outputs.skip_dm != 'true'
+        run: |
+          echo "::group::Extracting Interactions"
+          # Reads Zips directly
+          python3 production_data/extract_dailymed_interactions.py
+          echo "::endgroup::"
+          
+          # Cache immediately
+          CACHE_DIR="production_data/final_cache"
+          mkdir -p "$CACHE_DIR"
+          cp "production_data/dailymed_interactions.json" "$CACHE_DIR/"
+
+      - name: 2.4 Cleanup Zips (Space Saver)
+        if: always()
         run: |
           echo "🧹 Cleaning up Downloaded Zips..."
           rm -rf External_source/dailymed/downloaded/*.zip
+
+      - name: 2.5 Split, Cache & Commit DailyMed Database
+        if: steps.check_dm_cache.outputs.skip_dm != 'true'
+        run: |
+          echo "🔪 Splitting Database into git-safe chunks..."
+          python3 scripts/manage_large_file.py split "production_data/dailymed_full_database.jsonl.gz" "production_data/dailymed_full_database_parts"
           
-          echo "💾 Caching Database..."
+          echo "💾 Caching Internal Parts..."
           CACHE_DIR="production_data/dailymed_cache"
           mkdir -p "$CACHE_DIR"
-          cp "production_data/dailymed_full_database.jsonl.gz" "$CACHE_DIR/"
-
-      - name: 2.4 Upload DailyMed Database (Artifact)
-        if: steps.check_dm_cache.outputs.skip_dm != 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: dailymed-full-database-gz
-          path: production_data/dailymed_full_database.jsonl.gz
-          retention-days: 5
-          compression-level: 0 # Already gzipped
+          cp -r "production_data/dailymed_full_database_parts" "$CACHE_DIR/"
+          
+          # Commit parts (NOT the large file)
+          git add -f production_data/dailymed_full_database_parts/
+          git commit -m "data: dailymed db chunks $(date +'%Y-%m-%d')" || echo "No changes"
+          git pull --rebase -X theirs
+          git push
 
       # --- STEP 3: Dosages (Extract -> Cache -> Clean) ---
       - name: 3.1 Check Dosages Cache
@@ -151,7 +168,6 @@ jobs:
           TARGET_DOSAGES="production_data/production_dosages.jsonl"
           
           skip_dosages=false
-          
           if [ -f "$DOSAGES_CACHE" ]; then
              echo "✅ Found valid cached Dosages"
              cp "$DOSAGES_CACHE" "$TARGET_DOSAGES"
@@ -162,7 +178,7 @@ jobs:
       - name: 3.2 Extract Dosages
         if: steps.check_dosages_cache.outputs.skip_dosages != 'true'
         run: |
-          # Reads production_data/dailymed_full_database.jsonl.gz
+          # Reads production_data/dailymed_full_database.jsonl.gz (Guaranteed to exist from Step 2)
           python3 scripts/process_datalake.py
           
           # Save to Cache
@@ -171,90 +187,23 @@ jobs:
           cp "production_data/production_dosages.jsonl" "$CACHE_DIR/"
           echo "💾 Dosages cached"
           
-      - name: 3.3 Commit Dosages Checkpoint
+      - name: 3.3 Commit Dosages & Interactions Checkpoint
         if: steps.check_dosages_cache.outputs.skip_dosages != 'true'
         run: |
           git add -f production_data/production_dosages.jsonl
-          git commit -m "data: dosages checkpoint $(date +'%Y-%m-%d')" || echo "No changes"
-          git pull --rebase -X theirs
-          git push
-
-      # --- STEP 4: Interactions (Assuming it uses Zips? Re-download or skip?) ---
-      # FIXME: Interaciton extractor usually needs Zips. If we deleted them in Step 2.3, this will fail.
-      # SOLUTION: Move Zip Cleanup to AFTER Interactions. 
-      # BUT: We ran out of space.
-      # OPTIMIZATION: Interaction Extractor should use the JSONL Database if possible?
-      # For now, let's DISABLE interaction extraction if zips are gone, OR move zip cleanup later.
-      # To match user request "Extract Dosages -> Commit", then "Extract Interactions -> Commit".
-      # We must move Zip Cleanup effectively.
-      # Or, rely on the fact that we might skip downloading if cache exists.
-      
-      # Let's assume for this fix: We keep Zips until Interaction is done, BUT we trust GZIP saved enough space.
-      # If space is critical, we should extract interactions BEFORE dosages or in parallel?
-      
-      # Let's clean Zips ONLY after Interactions.
-      # BUT user reported space error.
-      # Strategy: Extract Interactions FIRST (from zips) then delete zips, THEN extract dosages (from JSONL).
-      # Interactions script (custom) reads Zips. Full DB extractor reads zips.
-      # Both read zips.
-      
-      # Re-ordering:
-      # 1. Scrape
-      # 2. Download Zips
-      # 3. Extract Full DB (JSONL.GZ)
-      # 4. Extract Interactions (JSON) - reads Zips
-      # 5. DELETE ZIPS (Huge space win)
-      # 6. Extract Dosages (reads JSONL.GZ)
-      # 7. Sync D1
-      
-      - name: 3.4 Check Interactions Cache
-        id: check_interactions_cache
-        run: |
-          CACHE_DIR="production_data/final_cache"
-          INTERACTIONS_CACHE="$CACHE_DIR/dailymed_interactions.json"
-          TARGET_INTERACTIONS="production_data/dailymed_interactions.json"
-          
-          skip_interactions=false
-          if [ -f "$INTERACTIONS_CACHE" ]; then
-             echo "✅ Found valid cached Interactions"
-             cp "$INTERACTIONS_CACHE" "$TARGET_INTERACTIONS"
-             skip_interactions=true
+          # Commit interactions here too if generated
+          if [ -f "production_data/dailymed_interactions.json" ]; then
+             git add -f production_data/dailymed_interactions.json
           fi
-          echo "skip_interactions=$skip_interactions" >> $GITHUB_OUTPUT
-
-      - name: 3.5 Extract Interactions
-        if: steps.check_interactions_cache.outputs.skip_interactions != 'true' && steps.check_dm_cache.outputs.skip_dm != 'true'
-        # Only run if we downloaded fresh data (zips exist)
-        run: |
-          # This script reads Zips from External_source/...
-          python3 production_data/extract_dailymed_interactions.py
-          
-          CACHE_DIR="production_data/final_cache"
-          mkdir -p "$CACHE_DIR"
-          cp "production_data/dailymed_interactions.json" "$CACHE_DIR/"
-          echo "💾 Interactions cached"
-
-      - name: 3.6 Commit Interactions Checkpoint
-        if: steps.check_interactions_cache.outputs.skip_interactions != 'true'
-        run: |
-          git add -f production_data/dailymed_interactions.json
-          git commit -m "data: interactions checkpoint $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "data: dosages & interactions checkpoint $(date +'%Y-%m-%d')" || echo "No changes"
           git pull --rebase -X theirs
           git push
 
-      - name: 3.7 FINAL CLEANUP (Crucial for Space)
-        if: always()
-        run: |
-          echo "🧹 Cleaning up Zips and Large Temp Files..."
-          rm -rf External_source/dailymed/downloaded/*.zip
-          # We keep the JSONL.GZ as it is the data lake for dosages (used in step 3.2 which is now re-ordered in my head, but strictly speaking steps are sequential)
-          # Wait, I put Extract Dosages (3.2) BEFORE this. So zips are safe to delete now.
-
+      # --- STEP 4: Merging & Finalizing ---
       - name: 3.8 Merge Hybrid Data
         run: |
           python3 scripts/merge_hybrid_data.py
 
-      # --- STEP 5: Asset Generation & D1 Sync ---
       - name: 4. Bootstrap App Assets
         run: |
           python3 scripts/bootstrap_app_data.py
@@ -284,7 +233,6 @@ jobs:
           echo "::endgroup::"
           
           echo "::group::Syncing Dosages (Full)"
-          # Assuming upload script exists
           if [ -f "../scripts/upload_dosage_d1.py" ]; then
             python3 ../scripts/upload_dosage_d1.py \
               --json-file ../assets/data/dosage_guidelines.json \
