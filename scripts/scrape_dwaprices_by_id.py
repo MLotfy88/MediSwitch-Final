@@ -265,6 +265,7 @@ async def perform_login(session):
 
 async def fetch_drug(sem, session, drug_id, attempt=0):
     """Fetches a single drug page with concurrency control"""
+    print(f"DEBUG: Entered fetch_drug for {drug_id}")
     url = f"{BASE_URL}{drug_id}"
     
     # Human-like delay (reduced for test mode)
