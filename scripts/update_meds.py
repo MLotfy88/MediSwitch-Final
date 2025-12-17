@@ -206,6 +206,11 @@ def main():
         'pharmacology', 'barcode', 'unit', 'visits', 'last_price_update'
     ]
     
+    # Validating Records Dictionary Keys
+    if records:
+        sample_keys = records[0].keys()
+        # print(f"DEBUG: Sample Record Keys: {list(sample_keys)}")
+
     # Ensure all columns exist
     for col in desired_columns:
         if col not in df.columns:
@@ -217,9 +222,22 @@ def main():
     # Reorder and Select (Strict)
     df = df[desired_columns]
     
+    # NUCLEAR OPTION: Delete existing file to prevent any append/merge weirdness
+    if os.path.exists(MEDS_CSV):
+        try:
+            os.remove(MEDS_CSV)
+            print("🗑️ Deleted old meds.csv to ensure clean write.")
+        except OSError:
+            print("⚠️ Could not delete old meds.csv, attempting overwrite...")
+
     # Save (Overwrite)
     df.to_csv(MEDS_CSV, index=False, encoding='utf-8-sig') # Use utf-8-sig for Excel compatibility
     print(f"✅ SUCCESS: Wiped old data and wrote {len(df)} records to {MEDS_CSV}")
-
+    
+    # Calibration Check
+    with open(MEDS_CSV, 'r', encoding='utf-8-sig') as f:
+        header = f.readline().strip()
+        print(f"🔎 VERIFY HEADER: {header}")
+        
 if __name__ == "__main__":
     main()

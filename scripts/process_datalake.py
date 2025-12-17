@@ -17,8 +17,12 @@ import traceback
 
 # --- CONFIGURATION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json') # Will look for .jsonl too
-OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'dosages_final.json')
+# Try GZIP first, then JSONL, then JSON
+DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.jsonl.gz') 
+if not os.path.exists(DATALAKE_FILE):
+    DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.jsonl')
+if not os.path.exists(DATALAKE_FILE):
+    DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json')
 PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
 
@@ -359,91 +363,74 @@ def process_datalake():
                         if ing.get('denominator_value') and ing.get('denominator_unit'):
                            d_val = ing['denominator_value']
                            d_unit = ing['denominator_unit']
-                           if d_val == "1":
-                               concentration = f"{s_val} {s_unit} / {d_unit}"
-                           else:
-                               concentration = f"{s_val} {s_unit} / {d_val} {d_unit}"
-                        else:
-                            concentration = f"{s_val} {s_unit}"
-                        source_concentration = "XML_Constructed"
+                
+                for prod in products:
+                    # Try regex extraction first (pre-computed in extract_full_dailymed)
+                        if prod.get('regex_concentration'):
+                            concentration = prod.get('regex_concentration')
+                            source_concentration = "DailyMed_Regex"
+                            break
                         
-                if not concentration and drug_name:
-                    regex_conc = extract_regex_concentration(drug_name)
-                    if regex_conc:
-                        concentration = regex_conc
-                        source_concentration = "Name_Regex"
-                        
-                # Link
-                # Clean the DailyMed Name too
-                dm_clean = clean_drug_name(drug_name)
-                
-                # Try exact match first, then clean match
-                app_records = []
-                
-                # 2. Match Strategy
-                
-                # A. Trade Name (Best)
-                if dm_clean in app_data_map:
-                    app_records = app_data_map[dm_clean]
-                    for rec in app_records: rec['linkage_type'] = 'Trade_Name'
-                
-                # B. Active Ingredient (Fallback)
-                if not app_records and generic_name and generic_name != "Unknown":
-                    # Tier 1: Exact Match (with Salts)
-                    gn_exact = normalize_active_ingredient(generic_name, strip_salts=False)
-                    
-                    if gn_exact in app_active_exact:
-                        app_records = app_active_exact[gn_exact]
-                        for rec in app_records: rec['linkage_type'] = 'Active_Exact'
-                        
-                    # Tier 2: Stripped Match (No Salts)
-                    if not app_records:
-                        gn_stripped = normalize_active_ingredient(generic_name, strip_salts=True)
-                        if gn_stripped in app_active_stripped:
-                            app_records = app_active_stripped[gn_stripped]
-                            for rec in app_records: rec['linkage_type'] = 'Active_Stripped'
-                
-                # If we have matched records in our App, generate a Linked Dosage Record for EACH
-                # This duplicates the Clinical Data for each relevant Product ID (which is what we want for the DB)
-                
-                targets = app_records if app_records else [{'id': None, 'trade_name': drug_name, 'original_name': drug_name}]
-                
-                # QUALITY SCORING
-                # We want to pick the BEST DailyMed record for this Med ID.
-                # Prioritize: Has Dosage > Has Interaction > Is Single Ingredient
-                
-                for app_rec in targets:
+                # Loop through matched App IDs and create candidates
+                for app_rec in matched_app_records:
                     med_id = app_rec.get('id')
-                    if not med_id: continue # Only care about linking existing IDs
-
-                    # Merge Concentration:
-                    # Priority 1: Extracted from App Name (Higher trust for the specific inventory item)
-                    # Priority 2: DailyMed (Fallback)
+                    if not med_id: continue
                     
+                    # --- CONCENTRATION MERGE ---
                     final_conc = None
                     conc_source = "None"
                     
-                    # 1. Try App Name Regex
+                    # 1. App Regex
                     if app_rec.get('original_name'):
-                         app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
-                         if app_conc_match:
-                             final_conc = app_conc_match.group(0).strip()
-                             conc_source = "App_Name_Regex"
+                            app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
+                            if app_conc_match:
+                                final_conc = app_conc_match.group(0).strip()
+                                conc_source = "App_Name_Regex"
                     
-                    # 2. Fallback to DailyMed
+                    # 2. DailyMed Fallback
                     if (not final_conc or final_conc == "None") and concentration:
                         final_conc = concentration
                         conc_source = source_concentration
-
+                        
+                    # --- DOSAGE PARSING ---
                     dosage_text = clinical.get('dosage_and_administration', '')
                     pediatric_text = clinical.get('pediatric_use', '')
                     structured_dose = {}
                     if dosage_text:
                         structured_dose = dosage_parser.extract_structured_dose(dosage_text)
-                    if pediatric_text and not structured_dose.get('is_pediatric'):
-                         peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
-                         if peds_struct.get('dose_mg_kg'):
-                             structured_dose = peds_struct
+                    
+                    # Pack Record
+                    candidate_record = {
+                        'med_id': med_id,
+                        'dailymed_setid': entry.get('set_id'),
+                        'dailymed_product_name': drug_name or generic_name,
+                        'trade_name': app_rec.get('trade_name'),
+                        'dailymed_name': drug_name or generic_name,
+                        'concentration': final_conc,
+                        'concentration_source': conc_source,
+                        'linkage_method': app_rec.get('linkage_type'),
+                        'dosages': structured_dose,
+                        'clinical_text': {
+                            'dosage': dosage_text[:2000] if dosage_text else None,
+                            'interactions': clinical.get('drug_interactions', '')[:1000] if clinical.get('drug_interactions') else None,
+                        },
+                        'matching_confidence': 0.0
+                    }
+                    
+                    # Basic Score
+                    score = 0
+                    if structured_dose.get('adult_dose_mg'): score += 30
+                    if app_rec.get('linkage_type') == 'Trade_Name': score += 20
+                    
+                    if med_id not in best_matches or score > best_matches[med_id]['score']:
+                            candidate_record['quality_score'] = score
+                            best_matches[med_id] = {'score': score, 'record': candidate_record}
+
+            if processed_count % 5000 == 0:
+                print(f"   Processed {processed_count:,} records... ({len(best_matches)} matches found)")
+
+    except Exception as e:
+        print(f"❌ Error processing stream: {e}")
                              structured_dose['is_pediatric'] = True
 
                     candidate_record = {
