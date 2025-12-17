@@ -267,23 +267,36 @@ async def fetch_drug(sem, session, drug_id, attempt=0):
     """Fetches a single drug page with concurrency control"""
     url = f"{BASE_URL}{drug_id}"
     
-    # Human-like delay (5-10 seconds as requested)
-    await asyncio.sleep(random.uniform(5.0, 10.0))
+    # Human-like delay (reduced for test mode)
+    # Check if we are in test mode (hacky way via global args if needed, or just standard)
+    # or just use smaller delay for everything since concurrency is low
+    
+    delay = random.uniform(1.0, 3.0) # Reduced from 5-10 for responsiveness during debugging
+    await asyncio.sleep(delay)
     
     async with sem:
         try:
+            log(f"⏳ Fetching {drug_id}...")
+            async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
                 if response.status == 200:
                     html = await response.text()
+                    log(f"✅ Received {drug_id} ({len(html)} bytes)")
+                    
                     data = parse_drug_page(html, drug_id)
                     # Validate: Must have trade_name
                     if data.get('trade_name'):
                         return data
                     else:
+                        log(f"⚠️ {drug_id} missing trade_name")
                         return None
                 elif response.status in [500, 502, 503, 504] and attempt < 3:
+                    log(f"🔄 Retry {drug_id} (Status {response.status})")
                     await asyncio.sleep(2)
                     return await fetch_drug(sem, session, drug_id, attempt + 1)
+                else:
+                     log(f"❌ Failed {drug_id} (Status {response.status})")
         except Exception as e:
+            log(f"💥 Error {drug_id}: {e}")
             if attempt < 2:
                 await asyncio.sleep(1)
                 return await fetch_drug(sem, session, drug_id, attempt + 1)
@@ -406,7 +419,7 @@ async def main():
         'Accept': 'application/json, text/javascript, */*; q=0.01', # Expected for XHR
         'Accept-Language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
         'Accept-Encoding': 'gzip, deflate, br',
-        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        # Content-Type removed strictly; aiohttp adds it for POST automatically
         'X-Requested-With': 'XMLHttpRequest', # Critical for PHP backends identifying AJAX
         'DNT': '1',
         'Connection': 'keep-alive',
