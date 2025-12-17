@@ -26,7 +26,6 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
     # Read CSV
     rows = []
     try:
-    try:
         with open(csv_path, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             # Normalize headers (strip whitespace)
