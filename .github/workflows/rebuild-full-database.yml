@@ -1,22 +1,23 @@
 name: Rebuild Full Database (Unified)
-# The "Magic Button" to rebuild the entire database from scratch.
-# Order:
-# 1. Scrape DwaPrices (Details + Concentration) -> Update meds.csv
-# 2. Download & Extract DailyMed (Full) -> Extract Interactions -> Cleanup Zips -> Split & Commit
-# 3. Match & Produce Files (Drugs, Interactions, Dosages)
-# 4. Update Local Assets (JSONs)
-# 5. Sync D1 (Full Overwrite)
+# STRICT ORDER IMPLEMENTATION:
+# 1. Scrape DwaPrices -> Update meds.csv -> Commit
+# 2. DailyMed Cache Check (Parts) -> IF FOUND: Jump to Step 8
+# 3. Download DailyMed -> Extract to Unified File
+# 4. Split Unified File -> 4 Parts -> Commit (Keep Full for Working)
+# 5. Extract Interactions (Reads Zips) -> Commit
+# 6. Extract Dosages (Reads Unified File) -> Commit
+# 7. Merge Hybrid -> Bootstrap -> Sync D1
 
 on:
   workflow_dispatch:
     inputs:
       force_scrape:
-        description: 'Force Full Re-scrape (Delete local DB)?'
+        description: 'Force Full Re-scrape?'
         required: false
         default: 'false'
         type: boolean
       test_mode:
-        description: 'Test mode: Limit drugs for quick validation (default: 0 = all drugs)'
+        description: 'Test mode limit (0=all)'
         required: false
         default: '0'
         type: string
@@ -42,173 +43,144 @@ jobs:
         run: |
           pip install requests pandas beautifulsoup4 aiohttp aiofiles brotli
 
-      # --- STEP 1: Scrape & Update CSV ---
-      - name: 1. Scrape DwaPrices (Details + Concentration)
+      # --- STEP 1: Scrape & Commit ---
+      - name: 1. Scrape DwaPrices & Update meds.csv
         continue-on-error: true
         run: |
           echo "::group::Scraping DwaPrices"
-          # Test mode check
           LIMIT_FLAG=""
           if [ "${{ inputs.test_mode }}" != "0" ] && [ -n "${{ inputs.test_mode }}" ]; then
             LIMIT_FLAG="--limit ${{ inputs.test_mode }}"
-            echo "🧪 TEST MODE: Limiting to ${{ inputs.test_mode }} drugs"
           fi
           
-          # Requires meds.csv to exist in repo
           if [ "${{ inputs.force_scrape }}" == "true" ]; then
-            echo "🔥 FORCE SCRAPE ENABLED: Deleting old data..."
             python3 -u scripts/scrape_dwaprices_by_id.py --reset $LIMIT_FLAG
           else
-            echo "♻️ SMART SCRAPE: Resuming/Updating only..."
             python3 -u scripts/scrape_dwaprices_by_id.py $LIMIT_FLAG
           fi
-          echo "::endgroup::"
           
-      - name: 1.5 Update meds.csv with Scraped Data
-        run: |
-          echo "::group::Updating CSV"
+          # Update CSV from JSONL
           python3 scripts/update_meds.py
           echo "::endgroup::"
 
-      - name: 1.5 Commit Scraped Data
+      - name: 1.1 Generate Known Ingredients (Required for Interactions)
+        run: |
+          # New Step: Generate known_ingredients.json from scrape data
+          python3 scripts/generate_ingredients.py
+
+      - name: 1.2 Commit Scraped Data
         if: always()
         run: |
           git config --global user.name 'DailyMed Bot'
           git config --global user.email 'bot@dailymed.local'
           
-          git add -f assets/meds_scraped_new.jsonl
           git add -f assets/meds.csv
+          git add -f assets/meds_scraped_new.jsonl
+          git add -f production_data/known_ingredients.json
           
-          git commit -m "data: scrape checkpoint $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          # FORCE PUSH to establish this as the new truth for this run
+          git commit -m "data: scrape update $(date +'%Y-%m-%d')" || echo "No changes"
           git push --force-with-lease || git push
 
-      # --- STEP 2: DailyMed (Download -> Extract -> Interactions -> Split -> Cleanup) ---
-      - name: 2. Check DailyMed Cache (Chunks)
-        id: check_dm_cache
+      # --- STEP 2: Cache Check (Search for Parts) ---
+      - name: 2. Search for DailyMed Cache (Parts)
+        id: check_cache
         run: |
-          # We check for the directory of parts
-          CACHE_DIR="production_data/dailymed_cache"
-          TARGET_PARTS="production_data/dailymed_full_database_parts"
+          # User requested looking for split parts
+          PARTS_DIR="production_data/dailymed_full"
           TARGET_FILE="production_data/dailymed_full_database.jsonl.gz"
           
-          if [ -d "$CACHE_DIR/dailymed_full_database_parts" ]; then
-             echo "✅ Found valid cached DailyMed DB Parts"
-             mkdir -p "$TARGET_PARTS"
-             cp -r "$CACHE_DIR/dailymed_full_database_parts/." "$TARGET_PARTS/"
+          # Check if we have parts in the repo (or restored from cache)
+          # Assuming we are looking at the committed parts in repo
+          if [ -d "$PARTS_DIR" ] && [ "$(ls -A $PARTS_DIR)" ]; then
+             echo "✅ Found valid cached DailyMed Parts in $PARTS_DIR"
              
-             # Reassemble immediately
-             echo "🧩 Reassembling Cached DB..."
-             python3 scripts/manage_large_file.py join "$TARGET_PARTS" "$TARGET_FILE"
+             # Reassemble for later steps (Dosages needs this)
+             echo "🧩 Reassembling Unified Database..."
+             python3 scripts/manage_large_file.py join "$PARTS_DIR" "$TARGET_FILE"
              
-             echo "skip_dm=true" >> $GITHUB_OUTPUT
+             echo "skip_dailymed_download=true" >> $GITHUB_OUTPUT
           else
-             echo "❌ No Valid DailyMed cache found."
-             echo "skip_dm=false" >> $GITHUB_OUTPUT
+             echo "❌ No Valid Cache Found using parts."
+             echo "skip_dailymed_download=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: 2.1 Download DailyMed
-        if: steps.check_dm_cache.outputs.skip_dm != 'true'
+      # --- STEP 3: Download & Extract (If No Cache) ---
+      - name: 3. Download DailyMed Full DB
+        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
         run: |
-          echo "::group::Downloading DailyMed"
           python3 scripts/download_dailymed.py
-          echo "::endgroup::"
 
-      - name: 2.2 Extract DailyMed (Compressed)
-        if: steps.check_dm_cache.outputs.skip_dm != 'true'
+      - name: 3.1 Extract to Unified File
+        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
         run: |
-          echo "::group::Extracting DailyMed XMLs"
-          # Produces production_data/dailymed_full_database.jsonl.gz
+          # Extracts to production_data/dailymed_full_database.jsonl.gz
+          # NOTE: Does NOT delete Zips yet, because Step 5 needs them!
           python3 production_data/extract_full_dailymed.py
-          echo "::endgroup::"
 
-      # REORDERED: Extract Interactions BEFORE cleaning Zips
-      - name: 2.3 Extract DailyMed Interactions
-        if: steps.check_dm_cache.outputs.skip_dm != 'true'
+      # --- STEP 4: Split & Commit Parts (Keep Full for Work) ---
+      - name: 4. Split and Commit DailyMed Parts
+        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
         run: |
-          echo "::group::Extracting Interactions"
-          # Reads Zips directly
-          python3 production_data/extract_dailymed_interactions.py
-          echo "::endgroup::"
+          echo "🔪 Splitting Database into 4 Parts..."
+          PARTS_DIR="production_data/dailymed_full"
+          # Ensure clean dir
+          rm -rf "$PARTS_DIR"
           
-          # Cache immediately
-          CACHE_DIR="production_data/final_cache"
-          mkdir -p "$CACHE_DIR"
-          cp "production_data/dailymed_interactions.json" "$CACHE_DIR/"
+          python3 scripts/manage_large_file.py split "production_data/dailymed_full_database.jsonl.gz" "$PARTS_DIR"
+          
+          git add -f "$PARTS_DIR/"
+          git commit -m "data: dailymed full db split parts $(date +'%Y-%m-%d')" || echo "No changes"
+          git pull --rebase -X theirs
+          git push
 
-      - name: 2.4 Cleanup Zips (Space Saver)
+      # --- STEP 5: Interactions (Matching) ---
+      - name: 5. Extract Interactions (Matching)
+        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
+        run: |
+          echo "🧪 Running Interaction Extraction (Reads Zips)..."
+          # This requires the Zips from Step 3 still exist
+          python3 production_data/extract_dailymed_interactions.py
+          
+      - name: 5.1 Commit Interactions
+        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
+        run: |
+          git add -f production_data/dailymed_interactions.json
+          git commit -m "data: interactions extracted $(date +'%Y-%m-%d')" || echo "No changes"
+          git pull --rebase -X theirs # Pull changes from Step 4
+          git push
+
+      # --- STEP 5.5: Cleanup Zips (Now safe) ---
+      - name: 5.5 Cleanup Zips
         if: always()
         run: |
-          echo "🧹 Cleaning up Downloaded Zips..."
+          echo "🧹 Cleaning up Zips..."
           rm -rf External_source/dailymed/downloaded/*.zip
 
-      - name: 2.5 Split, Cache & Commit DailyMed Database
-        if: steps.check_dm_cache.outputs.skip_dm != 'true'
+      # --- STEP 6: Dosages (Matching) ---
+      - name: 6. Extract Dosages (Matching)
+        # Runs whether cache hit or fresh download, because we have Reassembled DB in both cases
         run: |
-          echo "🔪 Splitting Database into git-safe chunks..."
-          python3 scripts/manage_large_file.py split "production_data/dailymed_full_database.jsonl.gz" "production_data/dailymed_full_database_parts"
-          
-          echo "💾 Caching Internal Parts..."
-          CACHE_DIR="production_data/dailymed_cache"
-          mkdir -p "$CACHE_DIR"
-          cp -r "production_data/dailymed_full_database_parts" "$CACHE_DIR/"
-          
-          # Commit parts (NOT the large file)
-          git add -f production_data/dailymed_full_database_parts/
-          git commit -m "data: dailymed db chunks $(date +'%Y-%m-%d')" || echo "No changes"
-          git pull --rebase -X theirs
-          git push
-
-      # --- STEP 3: Dosages (Extract -> Cache -> Clean) ---
-      - name: 3.1 Check Dosages Cache
-        id: check_dosages_cache
-        run: |
-          CACHE_DIR="production_data/final_cache"
-          DOSAGES_CACHE="$CACHE_DIR/production_dosages.jsonl"
-          TARGET_DOSAGES="production_data/production_dosages.jsonl"
-          
-          skip_dosages=false
-          if [ -f "$DOSAGES_CACHE" ]; then
-             echo "✅ Found valid cached Dosages"
-             cp "$DOSAGES_CACHE" "$TARGET_DOSAGES"
-             skip_dosages=true
-          fi
-          echo "skip_dosages=$skip_dosages" >> $GITHUB_OUTPUT
-
-      - name: 3.2 Extract Dosages
-        if: steps.check_dosages_cache.outputs.skip_dosages != 'true'
-        run: |
-          # Reads production_data/dailymed_full_database.jsonl.gz (Guaranteed to exist from Step 2)
+          echo "💊 Running Dosage Extraction (Reads Unified DB)..."
+          # Reads production_data/dailymed_full_database.jsonl.gz
           python3 scripts/process_datalake.py
-          
-          # Save to Cache
-          CACHE_DIR="production_data/final_cache"
-          mkdir -p "$CACHE_DIR"
-          cp "production_data/production_dosages.jsonl" "$CACHE_DIR/"
-          echo "💾 Dosages cached"
-          
-      - name: 3.3 Commit Dosages & Interactions Checkpoint
-        if: steps.check_dosages_cache.outputs.skip_dosages != 'true'
+
+      - name: 6.1 Commit Dosages
         run: |
           git add -f production_data/production_dosages.jsonl
-          # Commit interactions here too if generated
-          if [ -f "production_data/dailymed_interactions.json" ]; then
-             git add -f production_data/dailymed_interactions.json
-          fi
-          git commit -m "data: dosages & interactions checkpoint $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "data: dosages extracted $(date +'%Y-%m-%d')" || echo "No changes"
           git pull --rebase -X theirs
           git push
 
-      # --- STEP 4: Merging & Finalizing ---
-      - name: 3.8 Merge Hybrid Data
+      # --- STEP 7: Finalize & Sync ---
+      - name: 7. Merge Hybrid Data
         run: |
           python3 scripts/merge_hybrid_data.py
 
-      - name: 4. Bootstrap App Assets
+      - name: 7.1 Bootstrap Assets
         run: |
           python3 scripts/bootstrap_app_data.py
           
-      - name: 4.5 Commit Final DB
+      - name: 7.2 Commit Final Assets
         run: |
           git add -f assets/data/dosage_guidelines.json
           git add -f assets/data/drug_interactions.json
@@ -218,7 +190,7 @@ jobs:
           git pull --rebase -X theirs
           git push
 
-      - name: 5. Sync Full Database to D1
+      - name: 8. Sync to Cloudflare D1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -232,7 +204,7 @@ jobs:
           npx wrangler d1 execute mediswitch-db --file=../d1_import.sql --remote
           echo "::endgroup::"
           
-          echo "::group::Syncing Dosages (Full)"
+          echo "::group::Syncing Dosages"
           if [ -f "../scripts/upload_dosage_d1.py" ]; then
             python3 ../scripts/upload_dosage_d1.py \
               --json-file ../assets/data/dosage_guidelines.json \
@@ -242,7 +214,7 @@ jobs:
           fi
           echo "::endgroup::"
           
-          echo "::group::Syncing Interactions (Full)"
+          echo "::group::Syncing Interactions"
           if [ -f "../scripts/upload_interactions_d1.py" ]; then
             python3 ../scripts/upload_interactions_d1.py \
               --json-file ../assets/data/drug_interactions.json \
