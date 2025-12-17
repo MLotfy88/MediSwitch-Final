@@ -201,28 +201,21 @@ jobs:
           
           npm install -g wrangler
           cd cloudflare-worker
+          
+          # 1. Drugs
           npx wrangler d1 execute mediswitch-db --file=../d1_import.sql --remote
-          echo "::endgroup::"
           
+          # 2. Dosages (Generate SQL -> Execute)
+          echo "::endgroup::"
           echo "::group::Syncing Dosages"
-          if [ -f "../scripts/upload_dosage_d1.py" ]; then
-            python3 ../scripts/upload_dosage_d1.py \
-              --json-file ../assets/data/dosage_guidelines.json \
-              --account-id "$CLOUDFLARE_ACCOUNT_ID" \
-              --database-id "$D1_DATABASE_ID" \
-              --api-token "$CLOUDFLARE_API_TOKEN"
-          fi
+          python3 ../scripts/upload_dosage_d1.py ../assets/data/dosage_guidelines.json
+          npx wrangler d1 execute mediswitch-db --file=d1_dosages.sql --remote
           echo "::endgroup::"
           
+          # 3. Interactions (Generate SQL -> Execute)
           echo "::group::Syncing Interactions"
-          if [ -f "../scripts/upload_interactions_d1.py" ]; then
-            python3 ../scripts/upload_interactions_d1.py \
-              --json-file ../assets/data/drug_interactions.json \
-              --account-id "$CLOUDFLARE_ACCOUNT_ID" \
-              --database-id "$D1_DATABASE_ID" \
-              --api-token "$CLOUDFLARE_API_TOKEN" \
-              --clear-first
-          fi
+          python3 ../scripts/upload_interactions_d1.py ../assets/data/drug_interactions.json
+          npx wrangler d1 execute mediswitch-db --file=d1_interactions.sql --remote
           echo "::endgroup::"
 
       - name: Final Notification

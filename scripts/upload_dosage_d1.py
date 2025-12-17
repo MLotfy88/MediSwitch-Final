@@ -1,213 +1,97 @@
 #!/usr/bin/env python3
 """
-Upload Dosage Guidelines to Cloudflare D1
-Uploads dosage data from JSON file to D1 database with batch processing
+Export Dosage Guidelines to SQL for D1 Import
+Generates: d1_dosages.sql
 """
-
 import json
-import requests
-import argparse
 import sys
-import time
-from typing import List, Dict
+import os
 
-class CloudflareD1Uploader:
-    def __init__(self, account_id: str, database_id: str, api_token: str = None):
-        self.account_id = account_id
-        self.database_id = database_id
-        self.base_url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/d1/database/{database_id}"
+def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
+    if not os.path.exists(json_path):
+        print(f"❌ JSON file not found: {json_path}")
+        return False
         
-        if not api_token:
-            raise ValueError("API token is required")
-        
-        self.headers = {
-            "Authorization": f"Bearer {api_token}",
-            "Content-Type": "application/json"
-        }
-    
-    def execute_query(self, sql: str, params: List = None) -> Dict:
-        """Execute SQL query on D1 database"""
-        url = f"{self.base_url}/query"
-        
-        payload = {"sql": sql}
-        if params:
-            payload["params"] = params
-        
-        try:
-            response = requests.post(url, headers=self.headers, json=payload)
-            response.raise_for_status()
-            return response.json()
-        except requests.exceptions.RequestException as e:
-            print(f"❌ API Error: {e}")
-            if hasattr(e, 'response') and hasattr(e.response, 'text'):
-                print(f"Response: {e.response.text}")
-            raise
-    
-    def initialize_table(self):
-        """Create dosage_guidelines table if it doesn't exist"""
-        print("🛠️  Checking/Creating dosage_guidelines table...")
-        
-        sql = """
-        CREATE TABLE IF NOT EXISTS dosage_guidelines (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            active_ingredient TEXT NOT NULL,
-            strength TEXT NOT NULL,
-            standard_dose TEXT,
-            max_dose TEXT,
-            package_label TEXT,
-            source TEXT DEFAULT 'OpenFDA',
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            UNIQUE(active_ingredient, strength)
-        );
-        """
-        
-        self.execute_query(sql)
-        print("✅ Table ready")
-    
-    def create_indexes(self):
-        """Create indexes for better query performance"""
-        print("🔍 Creating indexes...")
-        
-        indexes = [
-            "CREATE INDEX IF NOT EXISTS idx_active_ingredient ON dosage_guidelines(active_ingredient);",
-            "CREATE INDEX IF NOT EXISTS idx_strength ON dosage_guidelines(strength);",
-        ]
-        
-        for idx_sql in indexes:
-            try:
-                self.execute_query(idx_sql)
-            except Exception as e:
-                print(f"⚠️  Index creation warning: {e}")
-        
-        print("✅ Indexes created")
-    
-    def clear_existing_data(self):
-        """Clear all existing data from dosage_guidelines table"""
-        print("🗑️  Clearing existing data...")
-        self.execute_query("DELETE FROM dosage_guidelines;")
-        print("✅ Existing data cleared")
-    
-    def upload_batch(self, guidelines: List[Dict], start_idx: int) -> int:
-        """Upload a batch of guidelines"""
-        # Build INSERT statement with multiple values
-        values_placeholders = []
-        params = []
-        
-        for g in guidelines:
-            values_placeholders.append("(?, ?, ?, ?, ?, ?)")
-            params.extend([
-                g['active_ingredient'],
-                g['strength'],
-                g.get('standard_dose'),
-                g.get('max_dose'),
-                g.get('package_label'),
-                'OpenFDA'
-            ])
-        
-        sql = f"""
-        INSERT OR REPLACE INTO dosage_guidelines 
-        (active_ingredient, strength, standard_dose, max_dose, package_label, source) 
-        VALUES {', '.join(values_placeholders)};
-        """
-        
-        self.execute_query(sql, params)
-        return len(guidelines)
-    
-    def upload_guidelines(self, json_file: str, batch_size: int = 100):
-        """Upload all dosage guidelines from JSON file"""
-        # Load data
-        print(f"📂 Loading data from {json_file}...")
-        with open(json_file, 'r', encoding='utf-8') as f:
-            guidelines = json.load(f)
-        
-        total = len(guidelines)
-        print(f"📊 Found {total:,} dosage guidelines to upload")
-        
-        # Initialize table
-        self.initialize_table()
-        self.clear_existing_data()
-        
-        # Upload in batches
-        print(f"\n📤 Uploading in batches of {batch_size}...")
-        uploaded = 0
-        failed = 0
-        
-        for i in range(0, total, batch_size):
-            batch = guidelines[i:i + batch_size]
-            retries = 3
-            for attempt in range(retries):
-                try:
-                    count = self.upload_batch(batch, i)
-                    uploaded += count
-                    print(f"  ✓ Batch {i//batch_size + 1}: Uploaded {count} guidelines " +
-                          f"({uploaded:,}/{total:,} = {uploaded/total*100:.1f}%)")
-                    
-                    # Rate limiting
-                    if i + batch_size < total:
-                        time.sleep(0.5)  # 500ms between batches
-                    break  # Success
-                
-                except Exception as e:
-                    if attempt < retries - 1:
-                        print(f"  ⚠️  Batch {i//batch_size + 1} failed (Attempt {attempt+1}/{retries}): {e}")
-                        time.sleep(2)  # Wait before retry
-                    else:
-                        failed += len(batch)
-                        print(f"  ✗ Batch {i//batch_size + 1} failed permanently: {e}")
-        
-        # Create indexes after upload
-        self.create_indexes()
-        
-        # Summary
-        print(f"\n{'='*80}")
-        print(f"📊 Upload Summary")
-        print(f"{'='*80}")
-        print(f"  • Total guidelines: {total:,}")
-        print(f"  • Successfully uploaded: {uploaded:,}")
-        print(f"  • Failed: {failed:,}")
-        print(f"  • Success rate: {uploaded/total*100 if total > 0 else 0:.1f}%")
-        
-        if failed > 0:
-            print(f"\n⚠️  {failed} guidelines failed to upload")
-            return False
-        else:
-            print(f"\n✅ All guidelines uploaded successfully!")
-            return True
-
-def main():
-    parser = argparse.ArgumentParser(description='Upload dosage guidelines to Cloudflare D1')
-    parser.add_argument('--json-file', required=True, help='Path to dosage guidelines JSON file')
-    parser.add_argument('--database-id', required=True, help='Cloudflare D1 Database ID')
-    parser.add_argument('--account-id', required=True, help='Cloudflare Account ID')
-    parser.add_argument('--api-token', required=True, help='Cloudflare API Token')
-    parser.add_argument('--batch-size', type=int, default=15, help='Batch size for uploads')
-    
-    args = parser.parse_args()
-    
-    print("="*80)
-    print("Cloudflare D1 Dosage Guidelines Uploader")
-    print("="*80)
-    print(f"Database ID: {args.database_id}")
-    print(f"Account ID: {args.account_id}")
-    print()
-    
     try:
-        uploader = CloudflareD1Uploader(
-            account_id=args.account_id,
-            database_id=args.database_id,
-            api_token=args.api_token
-        )
-        
-        success = uploader.upload_guidelines(
-            json_file=args.json_file,
-            batch_size=args.batch_size
-        )
-        
-        sys.exit(0 if success else 1)
-    
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
     except Exception as e:
-        print(f"\n❌ Upload failed: {e}")
-        sys.exit(1)
+        print(f"❌ Error reading JSON: {e}")
+        return False
+        
+    dosages = data.get('dosage_guidelines', [])
+    print(f"📊 Found {len(dosages)} dosage guidelines")
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write("-- MediSwitch Dosage Guidelines Import\n\n")
+        f.write("DROP TABLE IF EXISTS dosage_guidelines;\n")
+        f.write("""CREATE TABLE dosage_guidelines (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    med_id INTEGER,
+    min_dose REAL,
+    max_dose REAL,
+    frequency INTEGER,
+    duration INTEGER,
+    instructions TEXT,
+    condition TEXT,
+    source TEXT,
+    is_pediatric BOOLEAN DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);\n\n""")
+        
+        if not dosages:
+            print("⚠️ No dosages to export.")
+            return True
+            
+        print("📝 Generating INSERT statements...")
+        batch_size = 500
+        batch = []
+        
+        for d in dosages:
+            med_id = d.get('med_id')
+            if not med_id: continue
+            
+            # Safe Value Extraction
+            def sql_val(val):
+                if val is None: return "NULL"
+                if isinstance(val, str):
+                    clean_val = val.replace("'", "''")
+                    return f"'{clean_val}'"
+                return str(val)
+                
+            def sql_bool(val):
+                return "1" if val else "0"
+            
+            vals = [
+                d.get('med_id'),
+                d.get('min_dose'),
+                d.get('max_dose'),
+                d.get('frequency'),
+                d.get('duration'),
+                d.get('instructions'),
+                d.get('condition'),
+                d.get('source', 'DailyMed'),
+                d.get('is_pediatric', False)
+            ]
+            
+            # Format: (med_id, min, max, freq, dur, instr, cond, source, ped)
+            v_str = f"({sql_val(vals[0])}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])}, {sql_val(vals[6])}, {sql_val(vals[7])}, {sql_bool(vals[8])})"
+            batch.append(v_str)
+
+            if len(batch) >= batch_size:
+                f.write("INSERT INTO dosage_guidelines (med_id, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES\n")
+                f.write(",\n".join(batch))
+                f.write(";\n\n")
+                batch = []
+        
+        if batch:
+            f.write("INSERT INTO dosage_guidelines (med_id, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES\n")
+            f.write(",\n".join(batch))
+            f.write(";\n\n")
+            
+    print(f"✅ Exported to {output_path}")
+    return True
 
 if __name__ == "__main__":
-    main()
+    json_file = sys.argv[1] if len(sys.argv) > 1 else 'assets/data/dosage_guidelines.json'
+    export_dosages_sql(json_file)

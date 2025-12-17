@@ -26,8 +26,12 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
     # Read CSV
     rows = []
     try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
+    try:
+        with open(csv_path, 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
+            # Normalize headers (strip whitespace)
+            if reader.fieldnames:
+                reader.fieldnames = [name.strip() for name in reader.fieldnames]
             rows = list(reader)
     except Exception as e:
         print(f"❌ Error reading CSV: {e}")
