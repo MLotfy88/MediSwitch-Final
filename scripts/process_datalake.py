@@ -28,9 +28,265 @@ PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosage
 OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'production_debug.json')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
 
-# ... (Regex patterns unchanged) ...
+# --- REGEX PATTERNS ---
+# Matches: 500mg, 1%, 20 mcg/ml, 2000 i.u., 50 mg/5ml
+STRENGTH_PATTERN = re.compile(r'\b\d+(\.\d+)?\s*(mg|ml|gm|g|mcg|iu|i\.u\.|%|u)(\s*/\s*\d*(\.\d+)?\s*(mg|ml|gm|g|mcg|iu|i\.u\.|%|u))?\b', re.IGNORECASE)
 
-# ... (Helper functions unchanged) ...
+# Matches common forms to remove
+FORMS_PATTERN = re.compile(
+    r'\b(tablet|tabs|tab|capsule|caps|cap|syrup|suspension|susp|cream|ointment|oint|gel|lotion|spray|drops|solution|sol|injection|inj|vial|ampoule|amp|suppository|supp|sachet|effervescent|chewable|scored|coated|f\.c\.|s\.r\.|x\.r\.|e\.c\.|topical|top\.|oral|nasal|vaginal|rectal|eye|ear|mouth|wash|sugar|free)\b', 
+    re.IGNORECASE
+)
+
+# Salts to ignore for Generic Matching (Support Plurals)
+SALT_PATTERN = re.compile(
+    r'\b(hydrochloride|hcl|sodium|potassium|calcium|magnesium|maleate|tartrate|succinate|phosphate|sulfate|sulphate|acetate|citrate|nitrate|bromide|fumarate|mesylate|dihydrate|monohydrate|anhydrous|trihydrate|zinc|aluminum|besylate|estolate|ethylsuccinate|gluconate|lithium|pamoate|propionate|hydrate|oxide|peroxide|hydroxide|carbonate|bicarbonate|chloride|lactate|valerate)s?\b',
+    re.IGNORECASE
+)
+
+def normalize_active_ingredient(raw_active: str, strip_salts: bool = True) -> str:
+    """
+    Tiered normalization.
+    If strip_salts=False, we keep the salt (e.g. "diclofenac sodium").
+    If strip_salts=True, we remove it (e.g. "diclofenac").
+    Always applies synonym mapping and punctuation cleanup.
+    """
+    if not isinstance(raw_active, str): return ""
+    name = raw_active.lower().strip()
+    
+    # 0. Basic Cleanup
+    name = re.sub(r'[+,]', ' ', name) # Split multi-ingredients
+    
+    # Specific Normalization for 'Type B' drugs where local DB omits 'B'
+    name = name.replace('polymyxin b', 'polymyxin')
+    name = name.replace('amphotericin b', 'amphotericin')
+    name = name.replace('vitamin b12', 'cyanocobalamin') # Common
+    name = name.replace('vitamin b', 'vitamin') 
+    
+    # 1. Tokenize
+    parts = name.split()
+    clean_parts = []
+    
+    # Common Stop Words in Drug Names
+    STOP_WORDS = {'and', 'with', 'in', 'of', 'to', 'for', 'oral', 'topical', 'injection'}
+    
+    for part in parts:
+        # Remove punctuation
+        part = re.sub(r'[^\w]', '', part)
+        if not part: continue
+        
+        # Skip Stop Words
+        if part in STOP_WORDS:
+            continue
+        
+        # Synonym Map
+        if part in SYNONYM_MAP:
+            part = SYNONYM_MAP[part]
+            
+        # Skip Salts (ONLY if requested)
+        if strip_salts and SALT_PATTERN.fullmatch(part):
+            continue
+            
+        clean_parts.append(part)
+        
+    # Sort to handle order "Caffeine Paracetamol" == "Paracetamol Caffeine"
+    if not clean_parts: return ""
+    return " ".join(sorted(clean_parts))
+
+# Synonyms (Local -> US Standard)
+SYNONYM_MAP = {
+    'paracetamol': 'acetaminophen',
+    'glibenclamide': 'glyburide',
+    'adrenaline': 'epinephrine',
+    'noradrenaline': 'norepinephrine',
+    'salbutamol': 'albuterol',
+    'frusemide': 'furosemide',
+    'pethidine': 'meperidine',
+    'amoxycillin': 'amoxicillin',
+    'sulphamethoxazole': 'sulfamethoxazole',
+    'lignocaine': 'lidocaine',
+    'thyroxine': 'levothyroxine',
+    'oestrogen': 'estrogen',
+    'omberacetam': 'piracetam', 
+    'isoprenaline': 'isoproterenol',
+    'orciprenaline': 'metaproterenol',
+    'bendrofluazide': 'bendroflumethiazide',
+    'dothiepin': 'dosulepin',
+    'chlorpheniramine': 'chlorphenamine',
+    'dicyclomine': 'dicycloverine',
+    'procaine benzylpenicillin': 'penicillin g procaine',
+    'benzylpenicillin': 'penicillin g',
+    'clomiphene': 'clomifene',
+    'dosulepin': 'dothiepin',
+    'hydroxycarbamide': 'hydroxyurea',
+    'mitozantrone': 'mitoxantrone',
+    'mustine': 'mechlorethamine',
+    'nicoumalone': 'acenocoumarol',
+    'phenobarbitone': 'phenobarbital',
+    'quinalbarbitone': 'secobarbital',
+    'riboflavine': 'riboflavin',
+    'sodium cromoglycate': 'cromolyn sodium',
+    'stilboestrol': 'diethylstilbestrol',
+    'thiopentone': 'thiopental',
+    'trimethoprim sulfamethoxazole': 'sulfamethoxazole trimethoprim',
+    'co-trimoxazole': 'sulfamethoxazole trimethoprim',
+    'valproate sodium': 'valproic acid',
+    'cefalexin': 'cephalexin',
+    'cefaclor': 'cefaclor',
+    'cefadroxil': 'cefadroxil',
+    'cefazolin': 'cephazolin',
+    'cefixime': 'cefixime',
+    'cefotaxime': 'cefotaxime',
+    'ceftriaxone': 'ceftriaxone',
+    'aciclovir': 'acyclovir',
+    'ciclosporin': 'cyclosporine',
+    'dimetindene': 'dimethindene',
+    'fexofenadine': 'fexofenadine',
+    'guaifenesin': 'guaiphenesin',
+}
+
+# Reuse Dosage Parser Logic (from extract_dosages_production.py)
+class DosageParser:
+    def __init__(self):
+        # Precise Pediatric Pattern
+        self.mg_kg_pattern = re.compile(r'(\d+(?:\.\d+)?)\s*(?:mg|mcg|g)/kg', re.IGNORECASE)
+        # Adult/Fixed Dose Pattern
+        self.simple_dose_pattern = re.compile(r'\b(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml)\b(?!\s*/\s*kg)', re.IGNORECASE)
+        
+        self.frequency_map = {
+            'once daily': 24, 'daily': 24, 'q24h': 24, 'every 24 hours': 24, 'once a day': 24,
+            'twice daily': 12, 'bid': 12, 'q12h': 12, 'every 12 hours': 12, '2 times a day': 12,
+            'three times': 8, 'tid': 8, 'q8h': 8, 'every 8 hours': 8, '3 times a day': 8,
+            'four times': 6, 'qid': 6, 'q6h': 6, 'every 6 hours': 6, '4 times a day': 6
+        }
+
+    def extract_structured_dose(self, text: str) -> Dict:
+        if not text: return {}
+        data = {
+            'dose_mg_kg': None, 
+            'adult_dose_mg': None,
+            'frequency_hours': None, 
+            'max_dose_mg': None, 
+            'is_pediatric': False
+        }
+        
+        # Pediatric mg/kg
+        match_ped = self.mg_kg_pattern.search(text)
+        if match_ped:
+            data['dose_mg_kg'] = float(match_ped.group(1))
+            data['is_pediatric'] = True
+            
+        # Adult/Fixed Dose
+        rec_match = re.search(r'recommended\s*(?:dose|dosage)\s*(?:is)?\s*(\d+(?:\.\d+)?)\s*mg', text, re.IGNORECASE)
+        if rec_match:
+             data['adult_dose_mg'] = float(rec_match.group(1))
+        else:
+             # Fallback: Find simple mg occurrences
+             matches = self.simple_dose_pattern.findall(text)
+             # Filter out year-like numbers (1990-2030) or huge numbers
+             valid_doses = [float(x[0]) for x in matches if float(x[0]) < 2000]
+             if valid_doses:
+                 data['adult_dose_mg'] = valid_doses[0]
+
+        text_lower = text.lower()
+        for key, hours in self.frequency_map.items():
+            if key in text_lower:
+                data['frequency_hours'] = hours
+                break
+                
+        max_pattern = re.search(r'max(?:imum)?\s*(?:dose)?\s*(?:of)?\s*(\d+(?:\.\d+)?)\s*mg', text_lower)
+        if max_pattern:
+            data['max_dose_mg'] = float(max_pattern.group(1))
+            
+        return data
+
+def clean_drug_name(raw_name: str) -> str:
+    """Removes strength and form from name to create a matching key"""
+    if not isinstance(raw_name, str): return ""
+    name = raw_name.lower().strip()
+    
+    # 1. Remove Strengths (500mg, 1%...)
+    name = STRENGTH_PATTERN.sub(' ', name)
+    
+    # 2. Remove Forms
+    name = FORMS_PATTERN.sub(' ', name)
+    
+    # 3. Cleanup Punctuation and Whitespace
+    name = re.sub(r'[^\w\s]', ' ', name)
+    name = re.sub(r'\s+', ' ', name).strip()
+    
+    return name
+
+# Regex from scraper.py (User's Logic)
+CONCENTRATION_REGEX = re.compile(
+    r"""(\d+(?:[.,]\d+)?\s*(?:mg|mcg|g|kg|ml|l|iu|%)(?:\s*/\s*(?:ml|mg|g|kg|l))?)""",
+    re.IGNORECASE | re.VERBOSE
+)
+
+def extract_regex_concentration(name: str) -> Optional[str]:
+    if not isinstance(name, str): return None
+    match = CONCENTRATION_REGEX.search(name)
+    return match.group(1).strip() if match else None
+
+def load_app_data() -> Dict[str, list]:
+    """Load meds_updated.csv and map CLEANED Name -> List of Records"""
+    if not os.path.exists(MEDS_CSV):
+        print("⚠️ meds_updated.csv not found. Skipping linkage.")
+        return {}
+    
+    try:
+        df = pd.read_csv(MEDS_CSV, dtype=str)
+        # Map 1: Cleaned Name -> [List of Records] (Trade Name Match)
+        app_map = {}
+        # Map 2a: Exact Active Ingredient (With Salts) -> [List of Records]
+        active_map_exact = {}
+        # Map 2b: Stripped Active Ingredient (No Salts) -> [List of Records]
+        active_map_stripped = {}
+        
+        linked_count = 0
+        
+        for _, row in df.iterrows():
+            raw_name = str(row.get('trade_name', ''))
+            raw_active = str(row.get('active', ''))
+            
+            record = row.to_dict()
+            record['original_name'] = raw_name
+            
+            # Index by Trade Name
+            key_name = clean_drug_name(raw_name)
+            if key_name:
+                if key_name not in app_map:
+                    app_map[key_name] = []
+                app_map[key_name].append(record)
+            
+            # Index by Active Ingredient
+            if raw_active and raw_active.lower() != 'nan':
+                
+                # Tier 1: Exact (Keep Salts)
+                key_exact = normalize_active_ingredient(raw_active, strip_salts=False)
+                if key_exact:
+                    if key_exact not in active_map_exact:
+                        active_map_exact[key_exact] = []
+                    active_map_exact[key_exact].append(record)
+                    
+                # Tier 2: Stripped (Remove Salts)
+                key_stripped = normalize_active_ingredient(raw_active, strip_salts=True)
+                if key_stripped:
+                    if key_stripped not in active_map_stripped:
+                        active_map_stripped[key_stripped] = []
+                    active_map_stripped[key_stripped].append(record)
+            
+            linked_count += 1
+            
+        print(f"✅ Loaded {linked_count} records.")
+        print(f"  - Trade Name Keys: {len(app_map)}")
+        print(f"  - Exact Active Keys: {len(active_map_exact)}")
+        print(f"  - Stripped Active Keys: {len(active_map_stripped)}")
+        
+        return app_map, active_map_exact, active_map_stripped
+    except Exception as e:
+        print(f"❌ Error loading CSV: {e}")
+        return {}, {}, {}
 
 def process_datalake():
     print("="*80)
