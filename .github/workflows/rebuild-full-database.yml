@@ -95,30 +95,103 @@ jobs:
           git pull --rebase -X theirs
           git push
 
-      # --- STEP 2: DailyMed Download ---
-      - name: 2. Download DailyMed Full Release
+      # --- STEP 2: DailyMed Caching & Download ---
+      - name: 2. Check DailyMed Cache
+        id: check_dm_cache
+        run: |
+          CACHE_FILE="production_data/dailymed_cache/dailymed_full_database.jsonl"
+          TARGET_FILE="production_data/dailymed_full_database.jsonl"
+          
+          if [ -f "$CACHE_FILE" ]; then
+             size=$(stat -c%s "$CACHE_FILE")
+             if [ "$size" -gt 100000000 ]; then # >100MB check
+                echo "✅ Found valid cached DailyMed DB ($size bytes)"
+                cp "$CACHE_FILE" "$TARGET_FILE"
+                echo "skip_dm=true" >> $GITHUB_OUTPUT
+             else
+                echo "⚠️ Cache file too small ($size bytes), re-downloading..."
+                echo "skip_dm=false" >> $GITHUB_OUTPUT
+             fi
+          else
+             echo "❌ No DailyMed cache found."
+             echo "skip_dm=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 2.1 Download DailyMed Full Release
+        if: steps.check_dm_cache.outputs.skip_dm != 'true'
         run: |
           echo "::group::Downloading DailyMed"
           python3 scripts/download_dailymed.py
           echo "::endgroup::"
 
-      - name: 2.5 Extract DailyMed Data Lake
+      - name: 2.5 Extract DailyMed Data Lake & Cache
+        if: steps.check_dm_cache.outputs.skip_dm != 'true'
         run: |
           echo "::group::Extracting DailyMed XMLs"
           # Converts Zips -> production_data/dailymed_full_database.jsonl
           python3 production_data/extract_full_dailymed.py
+          
+          # Save to Cache
+          CACHE_DIR="production_data/dailymed_cache"
+          mkdir -p "$CACHE_DIR"
+          cp "production_data/dailymed_full_database.jsonl" "$CACHE_DIR/"
+          echo "💾 Full DailyMed DB cached to $CACHE_DIR"
           echo "::endgroup::"
 
       # --- STEP 3: Extraction & Matching ---
+      - name: 3. Check Derived Cache (Dosages/Interactions)
+        id: check_derived_cache
+        run: |
+          CACHE_DIR="production_data/final_cache"
+          DOSAGES_CACHE="$CACHE_DIR/production_dosages.jsonl"
+          INTERACTIONS_CACHE="$CACHE_DIR/dailymed_interactions.json"
+          
+          TARGET_DOSAGES="production_data/production_dosages.jsonl"
+          TARGET_INTERACTIONS="production_data/dailymed_interactions.json"
+          
+          skip_dosages=false
+          skip_interactions=false
+          
+          # Check Dosages
+          if [ -f "$DOSAGES_CACHE" ]; then
+             echo "✅ Found valid cached Dosages"
+             cp "$DOSAGES_CACHE" "$TARGET_DOSAGES"
+             skip_dosages=true
+          fi
+          
+          # Check Interactions
+          if [ -f "$INTERACTIONS_CACHE" ]; then
+             echo "✅ Found valid cached Interactions"
+             cp "$INTERACTIONS_CACHE" "$TARGET_INTERACTIONS"
+             skip_interactions=true
+          fi
+          
+          echo "skip_dosages=$skip_dosages" >> $GITHUB_OUTPUT
+          echo "skip_interactions=$skip_interactions" >> $GITHUB_OUTPUT
+
       - name: 3.1 Extract Dosages (Process Data Lake)
+        if: steps.check_derived_cache.outputs.skip_dosages != 'true'
         run: |
           # Produces production_data/production_dosages.jsonl
           python3 scripts/process_datalake.py
           
+          # Save to Cache
+          CACHE_DIR="production_data/final_cache"
+          mkdir -p "$CACHE_DIR"
+          cp "production_data/production_dosages.jsonl" "$CACHE_DIR/"
+          echo "💾 Dosages cached"
+          
       - name: 3.2 Extract Interactions
+        if: steps.check_derived_cache.outputs.skip_interactions != 'true'
         run: |
           # Produces production_data/dailymed_interactions.json
           python3 production_data/extract_dailymed_interactions.py
+          
+          # Save to Cache
+          CACHE_DIR="production_data/final_cache"
+          mkdir -p "$CACHE_DIR"
+          cp "production_data/dailymed_interactions.json" "$CACHE_DIR/"
+          echo "💾 Interactions cached"
 
       - name: 3.2.5 Commit Intermediate Data (Dosages & Interactions)
         run: |
