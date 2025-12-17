@@ -29,6 +29,7 @@ def export_interactions_sql(json_path, output_path='d1_interactions.sql'):
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     med_id INTEGER,
     interaction_drug_name TEXT,
+    interaction_dailymed_id TEXT,
     severity TEXT,
     description TEXT,
     source TEXT,
@@ -70,22 +71,23 @@ def export_interactions_sql(json_path, output_path='d1_interactions.sql'):
             vals = [
                 i.get('med_id'),
                 i.get('interaction_drug_name'),
+                i.get('interaction_dailymed_id', 'N/A'),
                 i.get('severity', 'Moderate'),
                 i.get('description', ''),
                 i.get('source', 'DailyMed')
             ]
             
-            v_str = f"({vals[0]}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])})"
+            v_str = f"({vals[0]}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])})"
             current_batch.append(v_str)
             
             if len(current_batch) >= batch_size:
-                f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, severity, description, source) VALUES\n")
+                f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, interaction_dailymed_id, severity, description, source) VALUES\n")
                 f.write(",\n".join(current_batch))
                 f.write(";\n\n")
                 current_batch = []
                 
         if current_batch:
-            f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, severity, description, source) VALUES\n")
+            f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, interaction_dailymed_id, severity, description, source) VALUES\n")
             f.write(",\n".join(current_batch))
             f.write(";\n\n")
 
