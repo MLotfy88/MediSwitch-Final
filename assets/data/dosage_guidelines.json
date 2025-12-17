@@ -1,185 +1,248 @@
 [
   {
-    "active_ingredient": "cefoperazone",
+    "active_ingredient": "zinc oxide+lanolon+beeswax+tocopherol+aloe vera",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
   },
   {
-    "active_ingredient": "cherry",
+    "active_ingredient": "antara",
+    "strength": "general",
+    "standard_dose": "130.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION Patients should be placed on an appropriate lipid-lowering diet before receiving Antara, and should continue this diet during treatment with Antara. Antara capsules may be taken without regard to meals.For the treatment of adult patients with primary hypercholesterolemia or mixed hyperlipidemia, the initial dose of Antara is 130 mg per day.For adult patients with hypertriglyceridemia, the initial dose is 43 to 130 mg per day. Dosage should be individualized according to patient response, and should be adjusted if necessary following repeat lipid determinations at 4 to 8 week intervals. The maximum dose is 130 mg per day.Treatment with Antara should be initiated at a dose of 43 mg/day in patients having impaired renal function, and increased only after evaluation of the effects on renal function and lipid levels at this dose. In the elderly, the initial dose should likewise be limited to 43 mg/day.Lipid levels should be monitored periodically and consideration should be given to reducing the dosage of Antara if lipid levels fall significantly below the targeted range."
+  },
+  {
+    "active_ingredient": "cefadroxil",
+    "strength": "general",
+    "standard_dose": "2.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION Cefadroxil monohydrate is acid-stable and may be administered orally without regard to meals. Administration with food may be helpful in diminishing potential gastrointestinal complaints occasionally associated with oral cephalosporin therapy. Adults Urinary Tract Infections: For uncomplicated lower urinary tract infections (i.e., cystitis) the usual dosage is 1 or 2 g per day in a single (q.d.) or divided doses (b.i.d.). For all other urinary tract infections the usual dosage is 2 g per day in divided doses (b.i.d.). Skin and Skin Structure Infections: For skin and skin structure infections the usual dosage is 1 g per day in single (q.d.) or divided doses (b.i.d.). Pharyngitis and Tonsillitis: Treatment of group A beta-hemolytic streptococcal pharyngitis and tonsillitis — 1 g per day in single (q.d.) or divided doses (b.i.d.) for 10 days. ChildrenFor urinary tract infections, the recommended daily dosage for children is 30 mg/kg/day in divided doses every 12 hours. For pharyngitis, tonsillitis, and impetigo, the recommended daily dosage for children is 30 mg/kg/day in a single dose or in equally divided doses every 12 hours. For other skin and skin structure infections, the recommended daily dosage is 30 mg/kg/day in equally divided doses every 12 hours. In the treatment of beta-hemolytic streptococcal infections, a therapeutic dosage of cefadroxil monohydrate should be administered for at least 10 days. See chart for total daily dosage for children. DAILY DOSAGE OF CEFADROXIL FOR ORAL SUSPENSION Child’s Weight lbs kg 125 mg/5mL 250 mg/5mL 500mg/5mL 10 4.5 1 tsp ½ tsp 20 9.1 2 tsp 1 tsp 30 13.6 3 tsp 1 ½ tsp 40 18.2 4 tsp 2 tsp 1 tsp 50 22.7 5 tsp 2 ½ tsp 1 ¼ tsp 60 27.3 6 tsp 3 tsp 1 ½ tsp 70 & above 31.8+ — — 2 tsp Renal Impairment:In patients with renal impairment, the dosage of cefadroxil monohydrate should be adjusted according to creatinine clearance rates to prevent drug accumulation. The following schedule is suggested. In adults, "
+  },
+  {
+    "active_ingredient": "quetiapine",
+    "strength": "general",
+    "standard_dose": "50.0 mg",
+    "max_dose": null,
+    "package_label": "2 DOSAGE AND ADMINISTRATION Swallow tablets whole and do not split, chew or crush (2.1) Take without food or with a light meal (approx. 300 calorie s) (2.1) Administer once daily, preferably in the evening (2.1) Geriatric Use: Consider a lower starting dose (50 mg/day), slower titration, and careful monitoring during the initial dosing period in the elderly. (2.3, 8.5) Hepatic Impairment: Lowe r starting dose (50 mg/day) and slower titration may be ne e de d (2.4, 8.7, 12.3) Indication Initial Dose Recommended Dose Maximum Dose Schizophrenia-Adults (2.2) 300 mg/day 400 to 800 mg/day 800 mg/day Schizophrenia-Adolescents (13 to 17 years) (2.2) 50 mg/day 400 to 800 mg/day 800 mg/day Bipolar I Disorder manic or mixed-Acute monotherapy or adjunct to lithium or divalproex-Adults (2.2) 300 mg/day 400 to 800 mg/day 800 mg/day Bipolar I Disorder, manic Acute monotherapy-Children and Adolescents (10 to 17 years) (2.2) 50 mg/day 400 to 600 mg/day 600 mg/day Bipolar Disorder, Depressive Episode s-Adults (2.2) 50 mg/day 300 mg/day 300 mg/day Major Depressive Disorder, Adjunctive Therapy with Antidepressants- Adults (2.2) 50 mg/day 150 to 300 mg/day 300 mg/day 2.1 Important Administration Instructions Quetiapine extended-release tablets should be swallowed whole and not split, chewed or crushed. It is recommended that quetiapine extended-release tablets be taken without food or with a light meal (approximately 300 calories) [see Clinical Pharmacology ( 12.3 )]. Quetiapine extended-release tablets should be administered once daily, preferably in the evening. 2.2 Recommended Dosing The recommended initial dose, titration, dose range and maximum quetiapine extended-release tablets dose for each approved indication is displayed in Table 1 below. After initial dosing, adjustments can be made upwards or downwards, if necessary, depending upon the clinical response and tolerability of the patient [see Clinical Studies ( 14.1 , 14.2 and 14.3 )]. Table 1: Recommended Dosing for quetiapine"
+  },
+  {
+    "active_ingredient": "doxorubicin hydrochloride",
+    "strength": "general",
+    "standard_dose": "75.0 mg",
+    "max_dose": null,
+    "package_label": "2 DOSAGE AND ADMINISTRATION Single agent: 60 to 75 mg/m2 given intravenously every 21 days (2.1). In combination: 40 to 75 mg/m2 given intravenously every 21 to 28 days (2.1). Discontinue doxorubicin hydrochloride for injection in patients who develop signs or symptoms of cardiomyopathy (2.2). Reduce dose in patients with hepatic impairment (2.3). 2.1 Recommended Dosage for Adjuvant Breast Cancer The recommended dosage of doxorubicin hydrochloride for injection is 60 mg/m2 administered as an intravenous bolus on day 1 of each 21-day treatment cycle, in combination with cyclophosphamide, for a total of four cycles. 2.2 Recommended Dosage for Other Cancers The recommended dosage of doxorubicin hydrochloride for injection when used as a single agent is 60 mg/m2 to 75 mg/m2 intravenously every 21 days. The recommended dosage of doxorubicin hydrochloride for injection, when administered in combination with other chemotherapy drugs, is 40 mg/m2 to 75 mg/m2 intravenously every 21 to 28 days. Consider use of the lower doxorubicin hydrochloride for injection dose in the recommended dosage range or longer intervals between cycles for heavily pretreated patients, elderly patients, or obese patients. Cumulative doses above 550 mg/m2 are associated with an increased risk of cardiomyopathy [see Warnings and Precautions (5.1)]. 2.3 Dosage Modifications for Adverse Reactions Cardiomyopathy Discontinue doxorubicin hydrochloride for injection in patients who develop signs or symptoms of cardiomyopathy [see Warnings and Precautions (5.1)]. 2.4 Dosage Modifications for Hepatic Impairment Doxorubicin hydrochloride for injection is contraindicated in patients with severe hepatic impairment (Child-Pugh Class C or serum bilirubin greater than 5 mg/dL) [see Contraindications (4)]. Dosage modifications for doxorubicin hydrochloride for injection in patients with elevated serum total bilirubin concentrations [see Warnings and Precautions (5.5), Use in Specific Populations (8.6)] are provided "
+  },
+  {
+    "active_ingredient": "vitamins",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "Refer to package insert."
+    "package_label": "مكمل غذائي لعلاج نقص الفيتامينات."
   },
   {
-    "active_ingredient": "olive oil+avocados extract+chamomile extract",
+    "active_ingredient": "dr. throwers beta",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "Refer to package insert."
+    "package_label": "DIRECTIONS: USE AS DIRECTED. STOP USE IF REDNESS, IRRITATION, ITCHING AND/OR DARKENING OCCURS."
   },
   {
-    "active_ingredient": "mineral oil+promulgen d+propylene glycol+allantoin+glycerin+panthenol+vitamin e+methyl paraben+fragr",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "جروح الساق -- القدم السكري -- قرحة الفراش -- الجروح الجراحية"
-  },
-  {
-    "active_ingredient": "leucovorin calcium=folinic acid=calcium folinate",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "diclofenac sodium",
+    "active_ingredient": "clomipramine hydrochloride",
     "strength": "general",
     "standard_dose": "25.0 mg",
     "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthritis. Rheumatoid Arthritis: The recommended dosage is 150 to 200 mg/day in divided doses, 50 mg t.i.d. or q.i.d., or 75 mg b.i.d. Dosages above 225 mg/day are not recommended in patients with rheumatoid arthritis. Ankylosing Spondylitis: The recommended dosage is 100 to 125 mg/day, administered as 25 mg q.i.d., with an extra 25 mg dose at bedtime if necessary. Dosages above 125 mg/day have not been studied in patients with ankylosing spondylitis."
+    "package_label": "DOSAGE AND ADMINISTRATION The treatment regimens described below are based on those used in controlled clinical trials of clomipramine in 520 adults, and 91 children and adolescents with OCD. During initial titration, clomipramine should be given in divided doses with meals to reduce gastrointestinal side effects. The goal of this initial titration phase is to minimize side effects by permitting tolerance to side effects to develop or allowing the patient time to adapt if tolerance does not develop. Because both CMI and its active metabolite, DMI, have long elimination half-lives, the prescriber should take into consideration the fact that steady-state plasma levels may not be achieved until 2 to 3 weeks after dosage change (see CLINICAL PHARMACOLOGY ). Therefore, after initial titration, it may be appropriate to wait 2-3 weeks between further dosage adjustments. Initial Treatment/Dose Adjustment (Adults) Treatment with clomipramine should be initiated at a dosage of 25 mg daily and gradually increased, as tolerated, to approximately 100 mg during the first 2 weeks. During initial titration, clomipramine should be given in divided doses with meals to reduce gastrointestinal side effects. Thereafter, the dosage may be increased gradually over the next several weeks, up to a maximum of 250 mg daily. After titration, the total daily dose may be given once daily at bedtime to minimize daytime sedation. Initial Treatment/Dose Adjustment (Children and Adolescents) As with adults, the starting dose is 25 mg daily and should be gradually increased (also given in divided doses with meals to reduce gastrointestinal side effects) during the first 2 weeks, as tolerated, up to a daily maximum of 3 mg/kg or 100 mg, whichever is smaller. Thereafter, the dosage may be increased gradually over the next several weeks up to a daily maximum of 3 mg/kg or 200 mg, whichever is smaller (see PRECAUTIONS, Pediatric Use ). As with adults, after titration, the total daily dose may be given on"
   },
   {
-    "active_ingredient": "anidulafungin",
+    "active_ingredient": "sun protection formula",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "لوشن للجلد للحماية من الشمس -- تفتيح البشرة وترطيبها"
+  },
+  {
+    "active_ingredient": "duloxetine",
+    "strength": "general",
+    "standard_dose": "40.0 mg",
+    "max_dose": null,
+    "package_label": "2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (once daily) DPNP(2.1) 60 mg/day (once daily) Some patients may benefit from starting at 30 mg once daily (2.1) There is no evidence that doses greater than 60 mg/day confers additional benefit, while some adverse reactions were observed to be dose-dependent (2.1) Discontinuing duloxetine: A gradual dose reduction is recommended to avoid discontinuation symptoms (2.4, 5.7) Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents sprinkled on food or mixed with liquids. All of these might affect the enteric coating. Duloxetine delayed-release capsules can be given without regard to meals. 2.1 Initial Treatment Major Depressive Disorder Duloxetine should be administered at a total dose of 40 mg/day (given as 20 mg twice daily) to 60 mg/day (given either once daily or as 30 mg twice daily). For some patients, it may be desirable to start at 30 mg once daily for 1 week, to allow patients to adjust to the medication before increasing to 60 mg once daily. While a 120 mg/day dose was shown to be effective, there is no evidence that doses greater than 60 mg/day confer any additional benefits. The safety of doses above 120 mg/day has not been adequately evaluated [see CLINICAL STUDIES ( 14.1 )]. Generalized Anxiety Disorder For most patients, the recommended starting dose for duloxetine is 60 mg administered once daily. For some patients, it may be desirable to start at 30 mg once daily for 1 week"
+  },
+  {
+    "active_ingredient": "camphor+menthol+eucalyptus oil+almond oil+silica+ethyl hexyl palmitate",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
   },
   {
-    "active_ingredient": "eucalyptus+grape+willow+thyme+terpene oil",
+    "active_ingredient": "levamisole",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "اسبراي مساج للشد العضلي -- علاج الالام العضلات -- استرخاء العضلات"
+    "package_label": "مضاد للديدان الطفيلية"
   },
   {
-    "active_ingredient": "ascorbic acid+vaccinium oxycoccus fruit flesh ext.",
+    "active_ingredient": "amlodipine and valsartan",
+    "strength": "general",
+    "standard_dose": "160.0 mg",
+    "max_dose": null,
+    "package_label": "2 DOSAGE AND ADMINISTRATION General Considerations: •Majority of effect attained within 2 weeks (2.1) •May be administered with other antihypertensive agents (2.1) Hypertension: •May be used as add-on therapy for patients not controlled on monotherapy (2.2) •Patients who experience dose-limiting adverse reactions on monotherapy may be switched to amlodipine and valsartan tablets containing a lower dose of that component (2.2) •May be substituted for titrated components (2.3) •When used as initial therapy: Initiate with 5/160 mg, then titrate upwards as necessary to a maximum of 10/320 mg once daily (2.4) 2.1 General Considerations Dose once daily. The dosage can be increased after 1 to 2 weeks of therapy to a maximum of one 10/320 mg tablet once daily as needed to control blood pressure. The majority of the antihypertensive effect is attained within 2 weeks after initiation of therapy or a change in dose. Amlodipine and valsartan tablets may be administered with other antihypertensive agents. 2.2 Add-on Therapy A patient whose blood pressure is not adequately controlled with amlodipine (or another dihydropyridine calcium-channel blocker) alone or with valsartan (or another ARB) alone may be switched to combination therapy with amlodipine and valsartan tablets. A patient who experiences dose-limiting adverse reactions on either component alone may be switched to amlodipine and valsartan tablets containing a lower dose of that component in combination with the other to achieve similar blood pressure reductions. The clinical response to amlodipine and valsartan tablets should be subsequently evaluated and if blood pressure remains uncontrolled after 3 to 4 weeks of therapy, the dose may be titrated up to a maximum of 10/320 mg. 2.3 Replacement Therapy For convenience, patients receiving amlodipine and valsartan from separate tablets may instead wish to receive tablets of amlodipine and valsartan containing the same component doses. 2.4 Initial Therapy A patient may be "
+  },
+  {
+    "active_ingredient": "cisplatin",
+    "strength": "general",
+    "standard_dose": "20.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION Cisplatin Injection is administered by slow intravenous infusion. CISPLATIN INJECTION SHOULD NOT BE GIVEN BY RAPID INTRAVENOUS INJECTION. Note: Needles or intravenous sets containing aluminum parts that may come in contact with Cisplatin Injection should not be used for preparation or administration. Aluminum reacts with Cisplatin Injection, causing precipitate formation and a loss of potency. Metastatic Testicular Tumors The usual Cisplatin Injection dose for the treatment of testicular cancer in combination with other approved chemotherapeutic agents is 20 mg/m2 IV daily for 5 days per cycle. Metastatic Ovarian Tumors The usual Cisplatin Injection dose for the treatment of metastatic ovarian tumors in combination with cyclophosphamide is 75 to 100 mg/m2 IV per cycle once every four weeks (DAY 1). The dose of cyclophosphamide when used in combination with Cisplatin Injection is 600 mg/m2 IV once every 4 weeks (DAY 1). For directions for the administration of cyclophosphamide, refer to the cyclophosphamide package insert. In combination therapy, Cisplatin Injection and cyclophosphamide are administered sequentially. As a single agent, Cisplatin Injection should be administered at a dose of 100 mg/m2 IV per cycle once every four weeks. Advanced Bladder Cancer Cisplatin Injection should be administered as a single agent at a dose of 50 to 70 mg/m2 IV per cycle once every 3 to 4 weeks depending on the extent of prior exposure to radiation therapy and/or prior chemotherapy. For heavily pretreated patients an initial dose of 50 mg/m2 per cycle repeated every 4 weeks is recommended. All Patients Pretreatment hydration with 1 to 2 liters of fluid infused for 8 to 12 hours prior to a Cisplatin Injection dose is recommended. The drug is then diluted in 2 liters of 5% Dextrose in 1/2 or 1/3 normal saline containing 37.5 g of mannitol, and infused over a 6- to 8-hour period. If diluted solution is not to be used within 6 hours, protect solution from l"
+  },
+  {
+    "active_ingredient": "magaldrate+simethicone",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "Refer to package insert."
+    "package_label": "حموضة - حرقان الصدر"
   },
   {
-    "active_ingredient": "ribavirin",
-    "strength": "general",
-    "standard_dose": "800.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION CHC Monoinfection The recommended dose of ribavirin tablet is provided in Table 5. The recommended duration of treatment for patients previously untreated with ribavirin and interferon is 24 to 48 weeks. The daily dose of ribavirin tablet is 800 mg to 1200 mg administered orally in two divided doses. The dose should be individualized to the patient depending on baseline disease characteristics (e.g., genotype), response to therapy, and tolerability of the regimen (see Table 5). In the pivotal clinical trials, patients were instructed to take ribavirin tablets with food; therefore, patients are advised to take ribavirin tablets with food. Table 5 Peginterferon alfa-2a and Ribavirin Tablets Dosing Recommendations Genotype Peginterferon alfa-2a Dose Ribavirin Tablets Dose Duration Genotypes non-1 showed no increased response to treatment beyond 24 weeks (see Table 2). Data on genotypes 5 and 6 are insufficient for dosing recommendations. Genotype 1, 4 180 mcg <75 kg = 1000 mg ≥75 kg = 1200 mg 48 weeks 48 weeks Genotype 2, 3 180 mcg 800 mg 24 weeks CHC with HIV Coinfection The recommended dose for hepatitis C in HCV/HIV coinfected patients is peginterferon alfa-2a 180 mcg sc once weekly and ribavirin tablets 800 mg po daily for a total of 48 weeks, regardless of genotype. Dose Modifications If severe adverse reactions or laboratory abnormalities develop during combination ribavirin tablets/peginterferon alfa-2a therapy, the dose should be modified or discontinued, if appropriate, until the adverse reactions abate. If intolerance persists after dose adjustment, ribavirin tablets/peginterferon alfa-2a therapy should be discontinued. Ribavirin tablets should be administered with caution to patients with pre-existing cardiac disease (see Table 6). Patients should be assessed before commencement of therapy and should be appropriately monitored during therapy. If there is any deterioration of cardiovascular status, therapy should be stopped (see WARN"
-  },
-  {
-    "active_ingredient": "terazocin",
+    "active_ingredient": "piribedil",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "علاج ارتفاع ضغط الدم -- تحسين التبول لدي الرجال مع تضخم البروستاتا"
+    "package_label": "علاج مساعد لمرض باركنسون. اضطرابات الدورة الدموية ونقص التروية. الدوخة والدوار"
   },
   {
-    "active_ingredient": "bromelain 250mg+papian 125mg+pancreatin 100mg+trypsin 75mg.",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "كوريكتول"
-  },
-  {
-    "active_ingredient": "diflunisal+naproxen",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "furosemide",
-    "strength": "general",
-    "standard_dose": "80.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Edema Therapy should be individualized according to patient response to gain maximal therapeutic response and to determine the minimal dose needed to maintain that response.Adults -- The usual initial dose of furosemide is 20 to 80 mg given as a single dose. Ordinarily a prompt diuresis ensues. If needed, the same dose can be administered 6 to 8 hours later or the dose may be increased. The dose may be raised by 20 or 40 mg and given not sooner than 6 to 8 hours after the previous dose until the desired diuretic effect has been obtained. The individually determined single dose should then be given once or twice daily (e.g., at 8 am and 2 pm). The dose of furosemide may be carefully titrated up to 600 mg/day in patients with clinically severe edematous states. Edema may be most efficiently and safely mobilized by giving furosemide on 2 to 4 consecutive days each week.When doses exceeding 80 mg/day are given for prolonged periods, careful clinical observation and laboratory monitoring are particularly advisable. (See PRECAUTIONS: Laboratory Tests.)Geriatric patients -- In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range (see PRECAUTIONS: Geriatric Use).Pediatric Patients -- The usual initial dose of oral furosemide in pediatric patients is 2 mg/kg body weight, given as a single dose. If the diuretic response is not satisfactory after the initial dose, dosage may be increased by 1 or 2 mg/kg no sooner than 6 to 8 hours after the previous dose. Doses greater than 6 mg/kg body weight are not recommended. For maintenance therapy in pediatric patients, the dose should be adjusted to the minimum effective level. Hypertension Therapy should be individualized according to the patient’s response to gain maximal therapeutic response and to determine the minimal dose needed to maintain the therapeutic response.Adults -- The usual initial dose of furosemide for hypertension is 80 mg, "
-  },
-  {
-    "active_ingredient": "chlorpromazine hydrochloride",
-    "strength": "general",
-    "standard_dose": "100.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION–ADULTS Adjust dosage to individual and the severity of his condition, recognizing that the milligram for milligram potency relationship among all dosage forms has not been precisely established clinically. It is important to increase dosage until symptoms are controlled. Dosage should be increased more gradually in debilitated or emaciated patients. In continued therapy, gradually reduce dosage to the lowest effective maintenance level, after symptoms have been controlled for a reasonable period. The 100 mg and 200 mg tablets are for use in severe neuropsychiatric conditions. Elderly Patients – In general, dosages in the lower range are sufficient for most elderly patients. Since they appear to be more susceptible to hypotension and neuromuscular reactions, such patients should be observed closely. Dosage should be tailored to the individual, response carefully monitored, and dosage adjusted accordingly. Dosage should be increased more gradually in elderly patients. Psychotic Disorders – Increase dosage gradually until symptoms are controlled. Maximum improvement may not be seen for weeks or even months. Continue optimum dosage for 2 weeks; then gradually reduce dosage to the lowest effective maintenance level. Daily dosage of 200 mg is not unusual. Some patients require higher dosages (e.g., 800 mg daily is not uncommon in discharged mental patients). Hospitalized Patients: Acute Schizophrenic or Manic States – It is recommended that initial treatment be with chlorpromazine HCI injection until patient is controlled. Usually patient becomes quiet and co-operative within 24 to 48 hours and oral doses may be substituted and increased until the patient is calm. 500 mg a day is generally sufficient. While gradual increases to 2,000 mg a day or more may be necessary, there is usually little therapeutic gain to be achieved by exceeding 1,000 mg a day for extended periods. In general, dosage levels should be lower in the elderly, the emaciated and"
-  },
-  {
-    "active_ingredient": "topiramate",
-    "strength": "general",
-    "standard_dose": "400.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Epilepsy In the controlled add-on trials, no correlation has been demonstrated between trough plasma concentrations of topiramate and clinical efficacy. No evidence of tolerance has been demonstrated in humans. Doses above 400 mg/day (600, 800, or 1000 mg/day) have not been shown to improve responses in dose-response studies in adults with partial onset seizures. It is not necessary to monitor topiramate plasma concentrations to optimize topiramate therapy. On occasion, the addition of topiramate to phenytoin may require an adjustment of the dose of phenytoin to achieve optimal clinical outcome. Addition or withdrawal of phenytoin and/or carbamazepine during adjunctive therapy with topiramate may require adjustment of the dose of topiramate. Because of the bitter taste, tablets should not be broken. Topiramate tablets can be taken without regard to meals. Monotherapy Use The recommended dose for topiramate monotherapy in adults and children 10 years of age and older is 400 mg/day in two divided doses. Approximately 58% of patients randomized to 400 mg/day achieved this maximal dose in the monotherapy controlled trial; the mean dose achieved in the trial was 275 mg/day. The dose should be achieved by titrating according to the following schedule: Morning Dose Evening Dose Week 1 25 mg 25 mg Week 2 50 mg 50 mg Week 3 75 mg 75 mg Week 4 100 mg 100 mg Week 5 150 mg 150 mg Week 6 200 mg 200 mg Adjunctive Therapy Use Adults (17 Years of Age and Over) - Partial Seizures, Primary Generalized Tonic-Clonic Seizures, or Lennox-Gastaut Syndrome The recommended total daily dose of topiramate as adjunctive therapy in adults with partial seizures is 200 to 400 mg/day in two divided doses, and 400 mg/day in two divided doses as adjunctive treatment in adults with primary generalized tonic-clonic seizures. It is recommended that therapy be initiated at 25 to 50 mg/day followed by titration to an effective dose in increments of 25 to 50 mg/week. Titrating in"
-  },
-  {
-    "active_ingredient": "ramipril",
-    "strength": "general",
-    "standard_dose": "1.25 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Blood pressure decreases associated with any dose of ramipril depend, in part, on the presence or absence of volume depletion (e.g., past and current diuretic use) or the presence or absence of renal artery stenosis. If such circumstances are suspected to be present, the initial starting dose should be 1.25 mg once daily. Hypertension The recommended initial dose for patients not receiving a diuretic is 2.5 mg once a day. Dosage should be adjusted according to the blood pressure response. The usual maintenance dosage range is 2.5 to 20 mg per day administered as a single dose or in two equally divided doses. In some patients treated once daily, the antihypertensive effect may diminish toward the end of the dosing interval. In such patients, an increase in dosage or twice daily administration should be considered. If blood pressure is not controlled with ramipril alone, a diuretic can be added.After the initial dose of ramipril, the patient should be observed under medical supervision for at least two hours and until blood pressure has stabilized for at least an additional hour. (See WARNINGS and PRECAUTIONS, Drug Interactions.) If possible, the dose of any concomitant diuretic should be reduced which may diminish the likelihood of hypotension. The appearance of hypotension after the initial dose of ramipril does not preclude subsequent careful dose titration with the drug, following effective management of the hypotension.The ramipril capsule is usually swallowed whole. The ramipril capsule can also be opened and the contents sprinkled on a small amount (about 4 oz.) of apple sauce or mixed in 4 oz. (120 ml) of water or apple juice. To be sure that ramipril is not lost when such a mixture is used, the mixture should be consumed in its entirety. The described mixtures can be pre-prepared and stored for up to 24 hours at room temperature or up to 48 hours under refrigeration.Concomitant administration of ramipril with potassium supplements, p"
-  },
-  {
-    "active_ingredient": "vinpocetine",
+    "active_ingredient": "vitamins(b1+b2+b6+b12)+vitamin d3+vitamin k+l-carnitine+alpha lipoic acid",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
   },
   {
-    "active_ingredient": "prednisolone",
+    "active_ingredient": "hypericum+neem",
     "strength": "general",
-    "standard_dose": "5.0 mg",
+    "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION The initial dosage of prednisolone tablets may vary from 5 mg to 60 mg per day depending on the specific disease entity being treated. In situations of less severity, lower doses will generally suffice, while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, prednisolone should be discontinued and the patient transferred to other appropriate therapy.IT SHOULD BE EMPHASIZED THAT DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE UNDER TREATMENT AND THE RESPONSE OF THE PATIENT.After a favorable response is noted, the proper maintenance dosage should be determined by decreasing the initial drug dosage in small increments at appropriate time intervals until the lowest dosage which will maintain an adequate clinical response is reached. It should be kept in mind that constant monitoring is needed in regard to drug dosage. Included in the situations which may make dosage adjustments necessary are changes in clinical status secondary to remissions or exacerbations in the disease process, the patient's individual drug responsiveness, and the effect of patient exposure to stressful situations not directly related to the disease entity under treatment; in this latter situation it may be necessary to increase the dosage of prednisolone for a period of time consistent with the patient's condition. If after long-term therapy the drug is to be stopped, it is recommended that it be withdrawn gradually rather than abruptly. Alternate-Day Therapy Alternate-Day Therapy is a corticosteroid dosing regimen in which twice the usual daily dose of corticoid is administered every other morning. The purpose of this mode of therapy is to provide the patient requiring long-term pharmacologic dose treatment with the beneficial effects of corticoid"
+    "package_label": "لتسريع التئام وشفاء الجروح"
   },
   {
-    "active_ingredient": "metronidazole",
+    "active_ingredient": "levetiracetam",
     "strength": "general",
-    "standard_dose": "250.0 mg",
+    "standard_dose": "1000.0 mg",
     "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION In elderly patients, the pharmacokinetics of metronidazole may be altered, and, therefore, monitoring of serum levels may be necessary to adjust the metronidazole dosage accordingly. Trichomoniasis In the Female One-day treatment— two grams of metronidazole, given either as a single dose or in two divided doses of one gram each given in the same day.Seven-day course of treatment— 250 mg three times daily for seven consecutive days. There is some indication from controlled comparative studies that cure rates as determined by vaginal smears, signs and symptoms, may be higher after a seven-day course of treatment than after a one-day treatment regimen.The dosage regimen should be individualized. Single-dose treatment can assure compliance, especially if administered under supervision, in those patients who cannot be relied on to continue the seven-day regimen. A seven-day course of treatment may minimize reinfection by protecting the patient long enough for the sexual contacts to obtain appropriate treatment. Further, some patients may tolerate one treatment regimen better than the other.Pregnant patients should not be treated during the first trimester. (See CONTRAINDICATIONS.) In pregnant patients in whom alternative treatment has been inadequate, the one-day course of therapy should not be used, as it results in higher serum levels which can reach the fetal circulation (see PRECAUTIONS, Pregnancy).When repeat courses of the drug are required, it is recommended that an interval of four to six weeks elapse between courses and that the presence of the trichomonad be reconfirmed by appropriate laboratory measures. Total and differential leukocyte counts should be made before and after retreatment. In the Male Treatment should beindividualized as for the female. Amebiasis Adults For acute intestinal amebiasis (acute amebic dysentery): 750 mg orally three times daily for 5 to 10 days.For amebic liver abscess: 500 mg or 750 mg orally three times d"
+    "package_label": "DOSAGE AND ADMINISTRATION Levetiracetam is indicated as adjunctive treatment of partial onset seizures in adults and children 4 years of age and older with epilepsy. Partial Onset Seizures Adults 16 Years And Older In clinical trials, daily doses of 1000 mg, 2000 mg, and 3000 mg, given as twice daily dosing, were shown to be effective. Although in some studies there was a tendency toward greater response with higher dose (see CLINICAL STUDIES ), a consistent increase in response with increased dose has not been shown. Treatment should be initiated with a daily dose of 1000 mg/day, given as twice-daily dosing (500 mg BID). Additional dosing increments may be given (1000 mg/day additional every 2 weeks) to a maximum recommended daily dose of 3000 mg. Doses greater than 3000 mg/day have been used in open-label studies for periods of 6 months and longer. There is no evidence that doses greater than 3000 mg/day confer additional benefit. Pediatric Patients Ages 4 To <16 Years Treatment should be initiated with a daily dose of 20 mg/kg in 2 divided doses (10 mg/kg BID). The daily dose should be increased every 2 weeks by increments of 20 mg/kg to the recommended daily dose of 60 mg/kg (30 mg/kg BID). If a patient cannot tolerate a daily dose of 60 mg/kg, the daily dose may be reduced. In the clinical trial, the mean daily dose was 52 mg/kg. Patients with body weight ≤20 kg should be dosed with oral solution. Patients with body weight above 20 kg can be dosed with either tablets or oral solution. Table 9 below provides a guideline for tablet dosing based on weight during titration to 60 mg/kg/day. Only whole tablets should be administered. Levetiracetam is given orally with or without food. Table 9: Levetiracetam Tablet Weight-Based Dosing Guide For Children The following calculation should be used to determine the appropriate daily dose of oral solution for pediatric patients based on a daily dose of 20 mg/kg/day, 40 mg/kg/day or 60 mg/kg/day: A household teaspoon or tabl"
   },
   {
-    "active_ingredient": "blood-coagulation factor viii",
+    "active_ingredient": "calcium+zinc+vitamins",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
   },
   {
-    "active_ingredient": "perindopril",
+    "active_ingredient": "avocado perseose+alcacea oxeoline+sunflower oil",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
   },
   {
-    "active_ingredient": "flubendazole",
+    "active_ingredient": "povidone iodine",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
-    "package_label": "للديدان"
+    "package_label": "محلول مطهر للجروح والحروق الخفيفه"
   },
   {
-    "active_ingredient": "mesalazine(mesalamine)(5-asa)(5-aminosalicylic acid)",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "التهاب القولون التقرحي -- علاج مرض الكرون -- علاج التهاب القولون شديد التقرح -- تقليل الالتهابات والالام"
-  },
-  {
-    "active_ingredient": "fortaz ",
-    "strength": "general",
-    "standard_dose": "250.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Dosage The usual adult dosage is 1 gram administered intravenously or intramuscularly every 8 to 12 hours. The dosage and route should be determined by the susceptibility of the causative organisms, the severity of infection, and the condition and renal function of the patient. The guidelines for dosage of FORTAZ are listed in Table 3 . The following dosage schedule is recommended. Table 3. Recommended Dosage Schedule Dose Frequency Adults Usual recommended dosage 1 gram intravenous or intramuscular every 8 to 12 hours Uncomplicated urinary tract infections 250 mg intravenous or intramuscular every 12 hours Bone and joint infections 2 grams intravenous every 12 hours Complicated urinary tract infections 500 mg intravenous or intramuscular every 8 to 12 hours Uncomplicated pneumonia; mild skin and skin-structure infections 500 mg to 1 gram intravenous or intramuscular every 8 hours Serious gynecologic and intra-abdominal infections 2 grams intravenous every 8 hours Meningitis 2 grams intravenous every 8 hours Very severe life-threatening infections, especially in immunocompromised patients 2 grams intravenous every 8 hours Lung infections caused by Pseudomonas spp. in patients with cystic fibrosis with normal renal functionAlthough clinical improvement has been shown, bacteriologic cures cannot be expected in patients with chronic respiratory disease and cystic fibrosis. 30 to 50 mg/kg intravenous to a maximum of 6 grams per day every 8 hours Neonates (0-4 weeks) 30 mg/kg intravenous every 12 hours Infants and children (1 month-12 years) 30 to 50 mg/kg intravenous to a maximum of 6 grams per dayThe higher dose should be reserved for immunocompromised pediatric patients or pediatric patients with cystic fibrosis or meningitis. every 8 hours Impaired Hepatic Function No adjustment in dosage is required for patients with hepatic dysfunction. Impaired Renal Function Ceftazidime is excreted by the kidneys, almost exclusively by glomerular filtrat"
-  },
-  {
-    "active_ingredient": "zinc sulphate",
+    "active_ingredient": "isoniazid+rifampicin",
     "strength": "general",
     "standard_dose": "See label",
     "max_dose": null,
     "package_label": "Refer to package insert."
+  },
+  {
+    "active_ingredient": "l-carnitine+l-arginine+vitamin b6+vitamin b12+vitamin d3+vitamin e+vitamin c+selenium+zinc+folic acid+co q10 enzyme",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "1- زيادة ودعم الخصوبة والتكاثر للرجال."
+  },
+  {
+    "active_ingredient": "exelon",
+    "strength": "general",
+    "standard_dose": "9.5 mg",
+    "max_dose": null,
+    "package_label": "2 DOSAGE AND ADMINISTRATION 2.1 Alzheimer’s Disease Table 1: Patch Size, Drug Content and Nominal Delivery Rate Rivastigmine Nominal Dose Rivastigmine Content per Exelon Patch Exelon Patch Size 4.6 mg/24 hours 9 mg 5 cm2 9.5 mg/24 hours 18 mg 10 cm2 2.1.1 Initial Dose Treatment is started with Exelon Patch 4.6 mg/24 hours. After a minimum of four weeks of treatment and if well tolerated, this dose should be increased to Exelon Patch 9.5 mg/24 hours, which is the recommended effective dose. 2.1.2 Maintenance Dose Dose increases should occur only after a minimum of 4 weeks at the previous dose, and only if the previous dose has been well tolerated. The maximum recommended dose is 9.5 mg/24 hours. Higher doses confer no appreciable additional benefit, and are associated with significant increase in the incidence of adverse events [see Adverse Reactions (6)]. If adverse effects (e.g., nausea, vomiting, diarrhea, loss of appetite) cause intolerance during treatment, the patient should be instructed to discontinue treatment for several days and then restart at the same or next lower dose level. If treatment is interrupted for longer than several days, treatment should be reinitiated with the lowest daily dose and titrated as described above [also see Warnings and Precautions (5)]. 2.1.3 Switching from Capsules or Oral S olution Patients treated with Exelon capsules or oral solution may be switched to Exelon Patch as follows: A patient who is on a total daily dose of less than 6 mg of oral rivastigmine can be switched to Exelon Patch 4.6 mg/24 hours. A patient who is on a total daily dose of 6-12 mg of oral rivastigmine may be directly switched to Exelon Patch 9.5 mg/24 hours. It is recommended to apply the first patch on the day following the last oral dose. 2.1.4 Method of Administration Exelon Patch should be applied once a day to clean, dry, hairless, intact healthy skin in a place that will not be rubbed against by tight clothing. The upper or lower back is recommende"
+  },
+  {
+    "active_ingredient": "probenecid and colchicine",
+    "strength": "general",
+    "standard_dose": "700.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION Therapy with probenecid and colchicine should not be started until an acute gouty attack has subsided. However, if an acute attack is precipitated during therapy, probenecid and colchicine may be continued without changing the dosage, and additional colchicine or other appropriate therapy should be given to control the acute attack. The recommended adult dosage is 1 tablet of probenecid and colchicine daily for one week, followed by 1 tablet twice a day thereafter. Some degree of renal impairment may be present in patients with gout. A daily dosage of 2 tablets may be adequate. However, if necessary, the daily dosage may be increased by 1 tablet every four weeks within tolerance (and usually not above 4 tablets per day) if symptoms of gouty arthritis are not controlled or the 24 hour uric acid excretion is not above 700 mg. As noted, probenecid may not be effective in chronic renal insufficiency particularly when the glomerular filtration rate is 30 mL/minute or less. Gastric intolerance may be indicative of overdosage, and may be corrected by decreasing the dosage. As uric acid tends to crystallize out of an acid urine, a liberal fluid intake is recommended, as well as sufficient sodium bicarbonate (3 to 7.5 g daily) or potassium citrate (7.5 g daily) to maintain an alkaline urine (see PRECAUTIONS). Alkalization of the urine is recommended until the serum urate level returns to normal limits and tophaceous deposits disappear, i.e., during the period when urinary excretion of uric acid is at a high level. Thereafter, alkalization of the urine and the usual restriction of purine-producing foods may be somewhat relaxed. Probenecid and colchicine (or probenecid) should be continued at the dosage that will maintain normal serum urate levels. When acute attacks have been absent for six months or more and serum urate levels remain within normal limits, the daily dosage of probenecid and colchicine may be decreased by 1 tablet every six months. Th"
+  },
+  {
+    "active_ingredient": "oleanolic acid+ndga (nordihydroguaiaretic acid)+propolis+osmotic gel",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "غسول وجه لحب الشباب"
+  },
+  {
+    "active_ingredient": "azithromycin\n                        ",
+    "strength": "general",
+    "standard_dose": "500.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION (See INDICATIONS AND USAGE and CLINICAL PHARMACOLOGY.) Adults: Infection* Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic obstructive pulmonary disease (mild to moderate) 500 mg QD x 3 days OR 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial sinusitis 500 mg QD x 3 days Genital ulcer disease (chancroid) One single 1 gram dose Non-gonoccocal urethritis and cervicitis One single 1 gram dose Gonococcal urethritis and cervicitis One single 2 gram dose * DUE TO THE INDICATED ORGANISMS (See INDICATIONS AND USAGE.)Azithromycin tablets can be taken with or without food. Renal Insufficiency:No dosage adjustment is recommended for subjects with renal impairment (GFR ≤80 mL/min). The mean AUC0-120 was similar in subjects with GFR 10-80 mL/min compared to subjects with normal renal function, whereas it increased 35% in subjects with GFR <10 mL/min compared to subjects with normal renal function. Caution should be exercised when azithromycin is administered to subjects with severe renal impairment. (See CLINICAL PHARMACOLOGY, Special Populations, Renal Insufficiency.) Hepatic Insufficiency:The pharmacokinetics of azithromycin in subjects with hepatic impairment have not been established. No dose adjustment recommendations can be made in patients with impaired hepatic function (See CLINICAL PHARMACOLOGY, Special Populations, Hepatic Insufficiency.) No dosage adjustment is recommended based on age or gender. (See CLINICAL PHARMACOLOGY, Special Populations.) Pediatric Patients: Azithromycin for oral suspension can be taken with or without food. Acute Otitis Media: The recommended dose of azithromycin for oral suspension for the treatment of pediatric patients with acu"
+  },
+  {
+    "active_ingredient": "ursodeoxycholic acid",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "Refer to package insert."
+  },
+  {
+    "active_ingredient": "oxeladin",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "مهديء للسعال."
+  },
+  {
+    "active_ingredient": "vitamin c",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "فيتامين ج"
+  },
+  {
+    "active_ingredient": "zyvox",
+    "strength": "general",
+    "standard_dose": "600.0 mg",
+    "max_dose": null,
+    "package_label": "DOSAGE AND ADMINISTRATION The recommended dosage for ZYVOX formulations for the treatment of infections is described in Table 14. Table 14. Dosage Guidelines for ZYVOX InfectionDue to the designated pathogens (see INDICATIONS AND USAGE ) Dosage and Route of Administration Recommended Duration of Treatment (consecutive days) Pediatric Patients Neonates <7 days: Most pre-term neonates < 7 days of age (gestational age < 34 weeks) have lower systemic linezolid clearance values and larger AUC values than many full-term neonates and older infants. These neonates should be initiated with a dosing regimen of 10 mg/kg q12h. Consideration may be given to the use of 10 mg/kg q8h regimen in neonates with a sub-optimal clinical response. All neonatal patients should receive 10 mg/kg q8h by 7 days of life (see CLINICAL PHARMACOLOGY, Special Populations, Pediatric ). (Birth through 11 Years of Age) Adults and Adolescents (12 Years and Older) Complicated skin and skin structure infections 10 mg/kg IV or oralOral dosing using either ZYVOX Tablets or ZYVOX for Oral Suspension q8h 600 mg IV or oral q12h 10 to 14 Community-acquired pneumonia, including concurrent bacteremia Nosocomial pneumonia Vancomycin-resistant Enterococcus faecium infections, including concurrent bacteremia 10 mg/kg IV or oral q8h 600 mg IV or oral q12h 14 to 28 Uncomplicated skin and skin structure infections <5 yrs: 10 mg/kg oral q8h5–11 yrs: 10 mg/kg oral q12h Adults: 400 mg oral q12hAdolescents: 600 mg oral q12h 10 to 14 Adult patients with infection due to MRSA should be treated with ZYVOX 600 mg q12h. In limited clinical experience, 5 out of 6 (83%) pediatric patients with infections due to Gram-positive pathogens with MICs of 4 µg/mL treated with ZYVOX had clinical cures. However, pediatric patients exhibit wider variability in linezolid clearance and systemic exposure (AUC) compared with adults. In pediatric patients with a sub-optimal clinical response, particularly those with pathogens with MIC of 4 µg/m"
+  },
+  {
+    "active_ingredient": "caffeine+paracetamol(acetaminophen)+phenylephrine+ascorbic acid",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "Refer to package insert."
+  },
+  {
+    "active_ingredient": "milk protein conc.+cocoa powder+sucrose+lecithin+vanilla+vitamin(k+b1+b6)+niacin+zinc+potassium",
+    "strength": "general",
+    "standard_dose": "See label",
+    "max_dose": null,
+    "package_label": "مكمل غذائي __ متعدد الفيتامينات __ مقوي للمناعة __ يساعد علي الحفاظ علي الوزن المثالي"
+  },
+  {
+    "active_ingredient": "epivir",
+    "strength": "general",
+    "standard_dose": "300.0 mg",
+    "max_dose": null,
+    "package_label": "2 DOSAGE AND ADMINISTRATION Adults and adolescents >16 years of age: 300 mg daily, administered as either 150 mg twice daily or 300 mg once daily. (2.1) Pediatric patients 3 months up to 16 years of age: Dosage should be based on body weight. (2.2) Patients With Renal Impairment: Doses of EPIVIR must be adjusted in accordance with renal function. (2.3) 2.1 Adults and Adolescents >16 years of age The recommended oral dose of EPIVIR in HIV-1-infected adults and adolescents >16 years of age is 300 mg daily, administered as either 150 mg twice daily or 300 mg once daily, in combination with other antiretroviral agents. If lamivudine is administered to a patient infected with HIV-1 and HBV, the dosage indicated for HIV-1 therapy should be used as part of an appropriate combination regimen [see Warnings and Precautions (5.2)]. 2.2 Pediatric Patients The recommended oral dose of EPIVIR Oral Solution in HIV-1-infected pediatric patients 3 months to 16 years of age is 4 mg/kg twice daily (up to a maximum of 150 mg twice a day), administered in combination with other antiretroviral agents. EPIVIR is also available as a scored tablet for HIV-1-infected pediatric patients who weigh ≥14 kg and for whom a solid dosage form is appropriate. Before prescribing EPIVIR Tablets, children should be assessed for the ability to swallow tablets. If a child is unable to reliably swallow EPIVIR Tablets, the oral solution formulation should be prescribed. The recommended oral dosage of EPIVIR Tablets for HIV-1-infected pediatric patients is presented in Table 1. Table 1. Dosing Recommendations for EPIVIR Tablets in Pediatric Patients Weight (kg) Dosage Regimen Using Scored 150-mg Tablet Total Daily Dose AM Dose PM Dose 14 to 21 ½ tablet (75 mg) ½ tablet (75 mg) 150 mg >21 to <30 ½ tablet (75 mg) 1 tablet (150 mg) 225 mg ≥30 1 tablet (150 mg) 1 tablet (150 mg) 300 mg 2.3 Patients With Renal Impairment Dosing of EPIVIR is adjusted in accordance with renal function. Dosage adjustments are listed"
   },
   {
     "active_ingredient": "nexium",
@@ -187,320 +250,5 @@
     "standard_dose": "20.0 mg",
     "max_dose": null,
     "package_label": "2 DOSAGE AND ADMINISTRATION NEXIUM is supplied as delayed-release capsules for oral administration or in packets for preparation of delayed-release oral suspensions. The recommended dosages are outlined in the table below. NEXIUM should be taken at least one hour before meals. The duration of proton pump inhibitor administration should be based on available safety and efficacy data specific to the defined indication and dosing frequency, as described in the Prescribing Information, and individual patient medical needs. Proton pump inhibitor treatment should only be initiated and continued if the benefits outweigh the risks of treatment. Table 1 Recommended Dosage Schedule of NEXIUM Indication Dose Frequency Gastroesophageal Reflux Disease (GERD) Healing of Erosive Esophagitis 20 mg or 40 mg Once Daily for 4 to 8 Weeks[See Clinical Studies (14.1) ]The majority of patients are healed within 4 to 8 weeks. For patients who do not heal after 4 to 8 weeks, an additional 4 to 8 weeks of treatment may be considered. Maintenance of Healing of Erosive Esophagitis 20 mg Once DailyControlled studies did not extend beyond six months. Symptomatic Gastroesophageal Reflux Disease 20 mg Once Daily for 4 WeeksIf symptoms do not resolve completely after 4 weeks, an additional 4 weeks of treatment may be considered. Pediatric GERD 12 to 17 Year Olds Short-term Treatment of GERD 20 mg or 40 mg Once Daily for up to 8 Weeks 1 to 11 Year Olds Doses over 1 mg/kg/day have not been studied. Short-term Treatment of Symptomatic GERD 10 mg Once Daily for up to 8 Weeks Healing of Erosive Esophagitis weight < 20 kg 10 mg Once Daily for 8 Weeks weight ≥ 20 kg 10 mg or 20 mg Once Daily for 8 Weeks Risk Reduction of NSAID-Associated Gastric Ulcer 20 mg or 40 mg Once Daily for up to 6 months H. pylori Eradication to Reduce the Risk of Duodenal Ulcer Recurrence Triple Therapy: NEXIUM 40 mg Once Daily for 10 Days Amoxicillin 1000 mg Twice Daily for 10 Days Clarithromycin 500 mg Twice Daily for 10 Days P"
-  },
-  {
-    "active_ingredient": "neupogen",
-    "strength": "general",
-    "standard_dose": "15.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION NEUPOGEN® is supplied in either vials or in prefilled syringes with UltraSafe® Needle Guards. Following administration of NEUPOGEN® from the prefilled syringe, the UltraSafe® Needle Guard should be activated to prevent accidental needle sticks. To activate the UltraSafe® Needle Guard, place your hands behind the needle, grasp the guard with one hand, and slide the guard forward until the needle is completely covered and the guard clicks into place. NOTE: If an audible click is not heard, the needle guard may not be completely activated. The prefilled syringe should be disposed of by placing the entire prefilled syringe with guard activated into an approved puncture-proof container. Cancer Patients Receiving Myelosuppressive Chemotherapy The recommended starting dose of NEUPOGEN® is 5 mcg/kg/day‚ administered as a single daily injection by SC bolus injection‚ by short IV infusion (15 to 30 minutes)‚ or by continuous SC or continuous IV infusion. A CBC and platelet count should be obtained before instituting NEUPOGEN® therapy‚ and monitored twice weekly during therapy. Doses may be increased in increments of 5 mcg/kg for each chemotherapy cycle‚ according to the duration and severity of the ANC nadir. NEUPOGEN® should be administered no earlier than 24 hours after the administration of cytotoxic chemotherapy. NEUPOGEN® should not be administered in the period 24 hours before the administration of chemotherapy (see PRECAUTIONS ). NEUPOGEN® should be administered daily for up to 2 weeks‚ until the ANC has reached 10‚000/mm3 following the expected chemotherapy-induced neutrophil nadir. The duration of NEUPOGEN® therapy needed to attenuate chemotherapy-induced neutropenia may be dependent on the myelosuppressive potential of the chemotherapy regimen employed. NEUPOGEN® therapy should be discontinued if the ANC surpasses 10‚000/mm3 after the expected chemotherapy-induced neutrophil nadir (see PRECAUTIONS ). In phase 3 trials‚ efficacy was observed"
-  },
-  {
-    "active_ingredient": "dorzolamide hcl",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION The dose is one drop of Dorzolamide HCl Ophthalmic Solution in the affected eye(s) three times daily. Dorzolamide HCl Ophthalmic Solution may be used concomitantly with other topical ophthalmic drug products to lower intraocular pressure. If more than one topical ophthalmic drug is being used, the drugs should be administered at least ten minutes apart."
-  },
-  {
-    "active_ingredient": "procapil+pentavitin+quaterinized panthenol+polyquaternium-67",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "iron",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "breyna",
-    "strength": "general",
-    "standard_dose": "80.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION For oral inhalation only. •Treatment of asthma in patients 12 years and older: 2 inhalations of BREYNA 80 mcg/4.5 mcg or 160 mcg/4.5 mcg twice daily. Starting dosage is based on asthma severity. (2.2) •Treatment of asthma in patients aged 6 to less than 12 years: 2 inhalations of BREYNA 80 mcg/4.5 mcg twice daily. (2.2) •Maintenance treatment in COPD: 2 inhalations of BREYNA 160 mcg/4.5 mcg twice daily. (2.3) 2.1 Administration Information BREYNA should be administered as 2 inhalations twice daily (morning and evening, approximately 12 hours apart), every day by the orally inhaled route only. After inhalation, the patient should rinse the mouth with water without swallowing. Prime BREYNA before using for the first time by releasing two test sprays into the air away from the face, shaking well for 5 seconds before each spray. In cases where the inhaler has not been used for more than 7 days or when it has been dropped, prime the inhaler again by shaking well before each spray and releasing two test sprays into the air away from the face. More frequent administration or a higher number of inhalations (more than 2 inhalations twice daily) of the prescribed strength of BREYNA is not recommended as some patients are more likely to experience adverse effects with higher doses of formoterol. Patients using BREYNA should not use additional LABA for any reason [see Warnings and Precautions (5.3 , 5.12) ]. 2.2 Asthma If asthma symptoms arise in the period between doses, an inhaled, short-acting beta2-agonist should be taken for immediate relief. Adult and Adolescent Patients 12 Years of Age and Older For patients 12 years of age and older, the dosage is 2 inhalations of BREYNA 80 mcg/4.5 mcg or BREYNA 160 mcg/4.5 mcg twice daily. The recommended starting dosages for BREYNA for patients 12 years of age and older are based upon patients’ asthma severity or level of control of asthma symptoms, and risk of exacerbations on current inhaled corticosteroi"
-  },
-  {
-    "active_ingredient": "adalimumab-aacf",
-    "strength": "general",
-    "standard_dose": "40.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION Administer by subcutaneous injection (2) Rheumatoid Arthritis, Psoriatic Arthritis, Ankylosing Spondylitis (2.1): Adults: 40 mg every other week. Some patients with RA not receiving methotrexate may benefit from increasing the dosage to 40 mg every week or 80 mg every other week. Juvenile Idiopathic Arthritis (2.2): Pediatric Weight 2 Years of Age and Older Recommended Dosage 10 kg (22 lbs) to less than 15 kg (33 lbs) 10 mg every other week 15 kg (33 lbs) to less than 30 kg (66 lbs) 20 mg every other week 30 kg (66 lbs) and greater 40 mg every other week Crohn's Disease (2.3): Adults: 160 mg on Day 1 (given in one day or split over two consecutive days); 80 mg on Day 15; and 40 mg every other week starting on Day 29. Pediatric Patients 6 Years of Age and Older: Pediatric Weight Recommended Dosage Days 1 and 15 Starting on Day 29 17 kg (37 lbs) to less than 40 kg (88 lbs) Day 1: 80 mgDay 15: 40 mg 20 mg every other week 40 kg (88 lbs) and greater Day 1: 160 mg (single dose or split over two consecutive days) Day 15: 80 mg 40 mg every other week Ulcerative Colitis (2.4): Adults: 160 mg on Day 1 (given in one day or split over two consecutive days), 80 mg on Day 15 and 40 mg every other week starting on Day 29. Discontinue in patients without evidence of clinical remission by eight weeks (Day 57). Plaque Psoriasis or Adult Uveitis (2.5): Adults: 80 mg initial dose, followed by 40 mg every other week starting one week after initial dose. Hidradenitis Suppurativa (2.6): Adults: Day 1: 160 mg (given in one day or split over two consecutive days) Day 15: 80 mg Day 29 and subsequent doses: 40 mg every week or 80 mg every other week 2.1 Rheumatoid Arthritis, Psoriatic Arthritis, and Ankylosing Spondylitis The recommended subcutaneous dosage of Adalimumab-aacf for adult patients with rheumatoid arthritis (RA), psoriatic arthritis (PsA), or ankylosing spondylitis (AS) is 40 mg administered every other week. Methotrexate (MTX), other non-biologic DMA"
-  },
-  {
-    "active_ingredient": "cefoperazone+sulbactam",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "مضاد حيوى واسع المدى وهو فعال ضد كثير من الجراثيم ويعالج الكثير من الالتهابات"
-  },
-  {
-    "active_ingredient": "atomoxetine",
-    "strength": "general",
-    "standard_dose": "40.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION Initial, Target and Maximum Daily Dose ( 2.1) (Acute and Maintenance/Extended Treatment) Body Weight Initial Daily Dose Target Total Daily Dose Maximum Total Daily Dose Children and adolescents up to 70 kg 0.5 mg/kg 1.2 mg/kg 1.4 mg/kg Children and adolescents over 70 kg and adults 40 mg 80 mg 100 mg Dosing adjustment – Hepatic Impairment, Strong CYP2D6 Inhibitor, and in patients known to be CYP2D6 poor metabolizers (PMs). ( 2.4, 12.3) 2.1 Acute Treatment Dosing of children and adolescents up to 70 kg body weight — Atomoxetine capsules should be initiated at a total daily dose of approximately 0.5 mg/kg and increased after a minimum of 3 days to a target total daily dose of approximately 1.2 mg/kg administered either as a single daily dose in the morning or as evenly divided doses in the morning and late afternoon/early evening. No additional benefit has been demonstrated for doses higher than 1.2 mg/kg/day [ see Clinical Studies ( 14) ]. The total daily dose in children and adolescents should not exceed 1.4 mg/kg or 100 mg, whichever is less. Dosing of children and adolescents over 70 kg body weight and adults — Atomoxetine capsules should be initiated at a total daily dose of 40 mg and increased after a minimum of 3 days to a target total daily dose of approximately 80 mg administered either as a single daily dose in the morning or as evenly divided doses in the morning and late afternoon/early evening. After 2 to 4 additional weeks, the dose may be increased to a maximum of 100 mg in patients who have not achieved an optimal response. There are no data that support increased effectiveness at higher doses [ see Clinical Studies ( 14) ]. The maximum recommended total daily dose in children and adolescents over 70 kg and adults is 100 mg. 2.2 Maintenance/Extended Treatment It is generally agreed that pharmacological treatment of ADHD may be needed for extended periods. The benefit of maintaining pediatric patients (ages 6 to 15 years) wit"
-  },
-  {
-    "active_ingredient": "natural ingredients",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "xigduo",
-    "strength": "general",
-    "standard_dose": "5.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION •Assess renal function prior to initiating and then as clinically indicated. (2.1) •Assess volume status and correct volume depletion before initiating. (2.1) •Individualize the starting dosage based on the patient’s current treatment. (2.3) •Administer orally once daily in the morning with food. (2.2) •To improve glycemic control, for patients aged 10 years and older not already taking dapagliflozin, the recommended starting dosage for dapagliflozin is 5 mg once daily. (2.3) •For indications in adults related to heart failure and chronic kidney disease the recommended dosage of dapagliflozin is 10 mg once daily. (2.3) •Do not exceed a daily dosage of 10 mg dapagliflozin/2,000 mg metformin HCl extended-release. (2.3) •See Full Prescribing Information for dosage recommendations in patients with renal impairment. (2.4) •XIGDUO XR may need to be discontinued at time of, or prior to, iodinated contrast imaging procedures. (2.5) •Withhold XIGDUO XR for at least 3 days, if possible, prior to surgery or procedures associated with prolonged fasting. (2.6) 2.1 Testing Prior to Initiation of XIGDUO XR •Assess renal function prior to initiating XIGDUO XR and then as clinically indicated [see Warnings and Precautions (5.1, 5.3)]. •Assess volume status. In patients with volume depletion, correct this condition before initiating XIGDUO XR [see Warnings and Precautions (5.3) and Use in Specific Populations (8.5, 8.6)]. 2.2 Recommended Administration •Take XIGDUO XR orally once daily in the morning with food. •Swallow XIGDUO XR tablets whole and never crush, cut, or chew. 2.3 Recommended Dosage •Individualize the starting dosage of XIGDUO XR based upon the patient’s current regimen. Patients taking an evening dosage of metformin HCl extended‑release should skip their last dose before starting XIGDUO XR. • To improve glycemic control in adults and pediatric patients aged 10 years and older not already taking: ∘Dapagliflozin: the recommended starting dosag"
-  },
-  {
-    "active_ingredient": "sun protection formula",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "januvia",
-    "strength": "general",
-    "standard_dose": "100.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION The recommended dose of JANUVIA is 100 mg once daily. JANUVIA can be taken with or without food. (2.1) Dosage adjustment is recommended for patients with moderate or severe renal insufficiency or end-stage renal disease. (2.2) Dosage Adjustment in Patients With Moderate, Severe and End Stage Renal Disease (ESRD) (2.2) 50 mg once daily 25 mg once daily Moderate CrCl ≥30 to <50 mL/min ~Serum Cr levels [mg/dL] Men: >1.7–≤3.0; Women: >1.5–≤2.5 Severe and ESRD CrCl <30 mL/min~Serum Cr levels [mg/dL] Men: >3.0; Women: >2.5; or on dialysis 2.1 Recommended Dosing The recommended dose of JANUVIA is 100 mg once daily. JANUVIA can be taken with or without food. 2.2 Patients with Renal Insufficiency For patients with mild renal insufficiency (creatinine clearance [CrCl] ≥50 mL/min, approximately corresponding to serum creatinine levels of ≤1.7 mg/dL in men and ≤1.5 mg/dL in women), no dosage adjustment for JANUVIA is required. For patients with moderate renal insufficiency (CrCl ≥30 to <50 mL/min, approximately corresponding to serum creatinine levels of >1.7 to ≤3.0 mg/dL in men and >1.5 to ≤2.5 mg/dL in women), the dose of JANUVIA is 50 mg once daily. For patients with severe renal insufficiency (CrCl <30 mL/min, approximately corresponding to serum creatinine levels of >3.0 mg/dL in men and >2.5 mg/dL in women) or with end-stage renal disease (ESRD) requiring hemodialysis or peritoneal dialysis, the dose of JANUVIA is 25 mg once daily. JANUVIA may be administered without regard to the timing of hemodialysis. Because there is a need for dosage adjustment based upon renal function, assessment of renal function is recommended prior to initiation of JANUVIA and periodically thereafter. Creatinine clearance can be estimated from serum creatinine using the Cockcroft-Gault formula. [See Clinical Pharmacology (12.3).] 2.3 Concomitant Use with an Insulin Secretagogue (e.g., Sulfonylurea) or with Insulin When JANUVIA is used in combination with an insulin s"
-  },
-  {
-    "active_ingredient": "bisacodyl",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "nalbuphine hydrochloride",
-    "strength": "general",
-    "standard_dose": "10.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Important Dosage and Administration Instructions Nalbuphine Hydrochloride Injection should be administered as a supplement to general anesthesia only by persons specifically trained in the use of intravenous anesthetics and management of the respiratory effects of potent opioids. Naloxone, resuscitative and intubation equipment and oxygen should be readily available. Use the lowest effective dosage for the shortest duration of time ‎consistent with individual patient treatment goals [see WARNINGS]. ‎Because the risk of overdose increases as opioid doses increase, reserve ‎titration to higher doses of Nalbuphine Hydrochloride Injection ‎for patients in whom lower ‎doses are insufficiently effective and in whom the expected benefits of ‎using a higher dose opioid clearly outweigh the substantial risks.‎ There is variability in the opioid analgesic dose and duration needed to ‎adequately manage pain due both to the cause of pain and to individual ‎patient factors. Initiate the dosing regimen for each patient individually, taking into account the patient's underlying cause and severity of pain, prior analgesic treatment and response, and risk factors for addiction, abuse, and misuse [see WARNINGS]. Respiratory depression can occur at any time during opioid therapy, ‎especially when initiating and following dosage increases with ‎Nalbuphine Hydrochloride Injection‎. Consider this risk when selecting an initial dose and when ‎making dose adjustments [see WARNINGS].‎ Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit. Initial Dosage The usual recommended adult dose is 10 mg for a 70 kg individual administered subcutaneously, intramuscularly, or intravenously; this dose may be repeated every 3 to 6 hours as necessary. Use the lowest dose necessary to achieve adequate analgesia. Titrate the dose based upon the individual patient's response to t"
-  },
-  {
-    "active_ingredient": "irbesartan",
-    "strength": "general",
-    "standard_dose": "300.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION Indication Dose Hypertension ( 2.2) 150 to 300 mg once daily Diabetic Nephropathy ( 2.3) 300 mg once daily 2.1 General Considerations Irbesartan tablets may be administered with other antihypertensive agents and with or without food. 2.2 Hypertension The recommended initial dose of irbesartan tablets is 150 mg once daily. The dosage can be increased to a maximum dose of 300 mg once daily as needed to control blood pressure [see Clinical Studies (14.1)]. 2.3 Nephropathy in Type 2 Diabetic Patients The recommended dose is 300 mg once daily [see Clinical Studies (14.2)]. 2.4 Dose Adjustment in Volume and Salt-Depleted Patients The recommended initial dose is 75 mg once daily in patients with depletion of intravascular volume or salt (e.g., patients treated vigorously with diuretics or on hemodialysis) [see Warnings and Precautions (5.2)]."
-  },
-  {
-    "active_ingredient": "di methicone+collagen+elastin+hyaluronic",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "cyclobenzaprine hydrochloride",
-    "strength": "general",
-    "standard_dose": "5.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION For most patients, the recommended dose of cyclobenzaprine HCl tablets USP is 5 mg three times a day. Based on individual patient response, the dose may be increased to 10 mg three times a day. Use of cyclobenzaprine HCl tablets USP for periods longer than two or three weeks is not recommended. (see INDICATIONS AND USAGE). Less frequent dosing should be considered for hepatically impaired or elderly patients (see PRECAUTIONS, Impaired Hepatic Function, and Use in the Elderly )."
-  },
-  {
-    "active_ingredient": "sorbitol+sucralose",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "سكر صناعي لمرضى السكر"
-  },
-  {
-    "active_ingredient": "divalproex sodium delayed-release",
-    "strength": "general",
-    "standard_dose": "60.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Mania Divalproex sodium delayed-release tablets are administered orally. The recommended initial dose is 750 mg daily in divided doses. The dose should be increased as rapidly as possible to achieve the lowest therapeutic dose which produces the desired clinical effect or the desired range of plasma concentrations. In placebo-controlled clinical trials of acute mania, patients were dosed to a clinical response with a trough plasma concentration between 50 and 125 mcg/mL. Maximum concentrations were generally achieved within 14 days. The maximum recommended dosage is 60 mg/kg/day.There is no body of evidence available from controlled trials to guide a clinician in the longer term management of a patient who improves during divalproex sodium treatment of an acute manic episode. While it is generally agreed that pharmacological treatment beyond an acute response in mania is desirable, both for maintenance of the initial response and for prevention of new manic episodes, there are no systematically obtained data to support the benefits of divalproex sodium in such longer-term treatment. Although there are no efficacy data that specifically address longer-term antimanic treatment with divalproex sodium, the safety of divalproex sodium in long-term use is supported by data from record reviews involving approximately 360 patients treated with divalproex sodium for greater than 3 months. Epilepsy Divalproex sodium delayed-release tablets are administered orally. Divalproex sodium is indicated as monotherapy and adjunctive therapy in complex partial seizures in adults and pediatric patients down to the age of 10 years, and in simple and complex absence seizures. As the divalproex sodium dosage is titrated upward, concentrations of phenobarbital, carbamazepine, and/or phenytoin may be affected (see PRECAUTIONS - Drug Interactions). Complex Partial Seizures For adults and children 10 years of age or older. Monotherapy (Initial Therapy) Divalproex sodi"
-  },
-  {
-    "active_ingredient": "zyprexa",
-    "strength": "general",
-    "standard_dose": "10.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION 2.1 Schizophrenia Usual Dose — Oral olanzapine should be administered on a once-a-day schedule without regard to meals, generally beginning with 5 to 10 mg initially, with a target dose of 10 mg/day within several days. Further dosage adjustments, if indicated, should generally occur at intervals of not less than 1 week, since steady state for olanzapine would not be achieved for approximately 1 week in the typical patient. When dosage adjustments are necessary, dose increments/decrements of 5 mg QD are recommended. Efficacy in Schizophrenia was demonstrated in a dose range of 10 to 15 mg/day in clinical trials. However, doses above 10 mg/day were not demonstrated to be more efficacious than the 10 mg/day dose. An increase to a dose greater than the target dose of 10 mg/day (i.e., to a dose of 15 mg/day or greater) is recommended only after clinical assessment. Olanzapine is not indicated for use in doses above 20 mg/day. Dosing in Specific Populations — The recommended starting dose is 5 mg in patients who are debilitated, who have a predisposition to hypotensive reactions, who otherwise exhibit a combination of factors that may result in slower metabolism of olanzapine (e.g., nonsmoking female patients ≥65 years of age), or who may be more pharmacodynamically sensitive to olanzapine [see Warnings and Precautions (5.14), Drug Interactions (7), and Clinical Pharmacology (12.3)]. When indicated, dose escalation should be performed with caution in these patients. Maintenance Treatment — While there is no body of evidence available to answer the question of how long the patient treated with olanzapine should remain on it, the effectiveness of oral olanzapine, 10 mg/day to 20 mg/day, in maintaining treatment response in schizophrenic patients who had been stable on ZYPREXA for approximately 8 weeks and were then followed for a period of up to 8 months has been demonstrated in a placebo-controlled trial [see Clinical Studies (14.1)]. Patients "
-  },
-  {
-    "active_ingredient": "leflunomide",
-    "strength": "general",
-    "standard_dose": "100.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Loading Dose Due to the long half-life in patients with RA and recommended dosing interval (24 hours), a loading dose is needed to provide steady-state concentrations more rapidly. It is recommended that leflunomide therapy be initiated with a loading dose of one 100 mg tablet per day for 3 days. Elimination of the loading dose regimen may decrease the risk of adverse events. This could be especially important for patients at increased risk of hematologic or hepatic toxicity, such as those receiving concomitant treatment with methotrexate or other immunosuppressive agents or on such medications in the recent past. (See WARNINGS: Hepatotoxicity ). Maintenance Therapy Daily dosing of 20 mg is recommended for treatment of patients with RA. A small cohort of patients (n=104), treated with 25 mg/day, experienced a greater incidence of side effects; alopecia, weight loss, liver enzyme elevations. Doses higher than 20 mg/day are not recommended. If dosing at 20 mg/day is not well tolerated clinically, the dose may be decreased to 10 mg daily. Liver enzymes must be monitored and dose adjustments may be necessary (see WARNINGS: Hepatotoxicity ). Due to the prolonged half-life of the active metabolite of leflunomide, patients should be carefully observed after dose reduction, since it may take several weeks for metabolite levels to decline."
-  },
-  {
-    "active_ingredient": "cabergoline",
-    "strength": "general",
-    "standard_dose": "0.25 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION The recommended dosage of Cabergoline Tablets, USP for initiation of therapy is 0.25 mg twice a week. Dosage may be increased by 0.25 mg twice weekly up to a dosage of 1 mg twice a week according to the patient's serum prolactin level. Before initiating treatment, cardiovascular evaluation should be performed and echocardiography should be considered to assess for valvular disease. Dosage increases should not occur more rapidly than every 4 weeks, so that the physician can assess the patient's response to each dosage level. If the patient does not respond adequately, and no additional benefit is observed with higher doses, the lowest dose that achieved maximal response should be used and other therapeutic approaches considered. Patients receiving long term treatment with Cabergoline should undergo periodic assessment of their cardiac status and echocardiography should be considered. After a normal serum prolactin level has been maintained for 6 months, cabergoline may be discontinued, with periodic monitoring of the serum prolactin level to determine whether or when treatment with cabergoline should be reinstituted. The durability of efficacy beyond 24 months of therapy with cabergoline has not been established. HOW SUPPLIED Cabergoline Tablets, USP are a white to off-white, oval shape, flat face, beveled edge tablet containing 0.5 mg Cabergoline USP. Each tablet is debossed \"P\" bisect line \"P\" on one side and \"673\" on the other side. Cabergoline Tablets, USP are available as follows: Bottles of 8 tablets NDC 23155-823-73 STORAGE Store at controlled room temperature 20° to 25° C (68° to 77° F) [see USP]. Dispense in original container. Distributed by: Avet Pharmaceuticals Inc. East Brunswick, NJ 08816 1.866.901.DRUG (3784) Revised: 05/2022 OS673A-01-1-01 logo"
-  },
-  {
-    "active_ingredient": "calcium+vitamin d3+vitamin e",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "gabapentin",
-    "strength": "general",
-    "standard_dose": "600.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Gabapentin capsules is given orally with or without food.If gabapentin dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber). Postherpetic Neuralgia In adults with postherpetic neuralgia, gabapentin therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TID). The dose can subsequently be titrated up as needed for pain relief to a daily dose of 1800 mg (divided TID). In clinical studies, efficacy was demonstrated over a range of doses from 1800 mg/day to 3600 mg/day with comparable effects across the dose range. Additional benefit of using doses greater then 1800 mg/day was not demonstrated. Epilepsy Gabapentin is recommended for add-on therapy in patients 3 years of age and older. Effectiveness in pediatric patients below the age of 3 years has not been established. Patients >12 years of age The effective dose of gabapentin capsules is 900 to 1800 mg/day and given in divided doses (three times a day) using 300 or 400 mg capsules. The starting dose is 300 mg three times a day. If necessary, the dose may be increased using 300 or 400 mg capsules three times a day up to 1800 mg/day Dosages up to 2400 mg/day have been well tolerated in long-term clinical studies. Doses of 3600 mg/day have also been administered to a small number of patients for a relatively short duration, and have been well tolerated. The maximum time between doses in the TID schedule should not exceed 12 hours. Pediatric Patients Age 3-12 years The starting dose should range from 10-15 mg/kg/day in 3 divided doses, and the effective dose reached by upward titration over a period of approximately 3 days. The effective dose of gabapentin in patients 5 years of age and older is 25-35 mg/kg/day and given in divided doses (three times a day). The effective dose in pe"
-  },
-  {
-    "active_ingredient": "insulin lispro+insulin lispro protamine",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "علاج مرض السكر من النوع الأول"
-  },
-  {
-    "active_ingredient": "levitra",
-    "strength": "general",
-    "standard_dose": "10.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION For most patients, the recommended starting dose of LEVITRA is 10 mg, taken orally approximately 60 minutes before sexual activity. The dose may be increased to a maximum recommended dose of 20 mg or decreased to 5 mg based on efficacy and side effects. The maximum recommended dosing frequency is once per day. LEVITRA can be taken with or without food. Sexual stimulation is required for a response to treatment. Geriatrics: A starting dose of 5 mg LEVITRA should be considered in patients ≥65 years of age (see CLINICAL PHARMACOLOGY, Pharmacokinetics in Special Populations and PRECAUTIONS ). Hepatic Impairment: For patients with mild hepatic impairment (Child-Pugh A), no dose adjustment of LEVITRA is required. Vardenafil clearance is reduced in patients with moderate hepatic impairment (Child-Pugh B), and a starting dose of 5 mg LEVITRA is recommended. The maximum dose in patients with moderate hepatic impairment should not exceed 10 mg. LEVITRA has not been evaluated in patients with severe hepatic impairment (Child-Pugh C) (see CLINICAL PHARMACOLOGY, Metabolism and Excretion WARNINGS and PRECAUTIONS ). Renal Impairment: For patients with mild (CLcr = 50-80 ml/min), moderate (CLcr = 30-50 ml/min), or severe (CLcr<30 ml/min) renal impairment, no dose adjustment is required. LEVITRA has not been evaluated in patients on renal dialysis (see CLINICAL PHARMACOLOGY, Metabolism and Excretion and PRECAUTIONS ). Concomitant Medications: The dosage of LEVITRA may require adjustment in patients receiving potent CYP3A4 inhibitors such as ketoconazole, itraconazole, ritonavir, indinavir, saquinavir, atazanavir, and clarithromycin as well as in other patients receiving moderate CYP3A4 inhibitors such as erythromycin (see WARNINGS , PRECAUTIONS, Drug Interactions ). For ritonavir, a single dose of 2.5 mg LEVITRA should not be exceeded in a 72-hour period. For indinavir, saquinavir, atazanavir, ketoconazole 400 mg daily, itraconazole 400 mg daily, and clarit"
-  },
-  {
-    "active_ingredient": "menthol crystals+eucalyptus oil+camphor oil+avocado oil+clove extract+caffeine",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "كريم مساج مثالي لتخفيف الالآم العضلات والروماتيزم يخفف الآلام العرضية مثل آلام الظهر والعضلات والالتواء وآلام التهاب المفاصل وتحفيز الدورة الدموية استرخاء الصلابة"
-  },
-  {
-    "active_ingredient": "sacubitril and valsartan",
-    "strength": "general",
-    "standard_dose": "49.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE & ADMINISTRATION The recommended starting dosage for adults is 49 mg/51 mg orally twice daily. The target maintenance dose is 97 mg/103 mg orally twice daily. (2.2) Adjust adult doses every 2 to 4 weeks to the target maintenance dose, as tolerated by the patient. (2.2) For pediatric patients, see the Full Prescribing Information for recommended dosage, titrations, preparation and administration instructions. (2.3, 2.4) Reduce starting dose to half the usually recommended starting dosage for: patients not currently taking an angiotensin-converting enzyme (ACE) inhibitor or angiotensin II receptor blocker (ARB) or previously taking a low dose of these agents. (2.6) patients with severe renal impairment. (2.7) patients with moderate hepatic impairment. (2.8) 2.1 General Considerations Sacubitril and valsartan tablets are contraindicated with concomitant use of an angiotensin-converting enzyme (ACE) inhibitor. If switching from an ACE inhibitor to sacubitril and valsartan tablets allow a washout period of 36 hours between administration of the two drugs [see Contraindications (4) and Drug Interactions (7.1)]. 2.2 Adult Heart Failure The recommended starting dose of sacubitril and valsartan tablets is 49/51 mg orally twice-daily. Double the dose of sacubitril and valsartan tablets after 2 to 4 weeks to the target maintenance dose of 97/103 mg twice daily, as tolerated by the patient. 2.3 Pediatric Heart Failure For the recommended dosage for pediatric patients aged 1 year and older, refer to Table 1 if using the tablets. Take the recommended dose orally twice daily. Adjust pediatric patient doses every 2 weeks, as tolerated by the patient. Table 1: Recommended Dose and Titration for Pediatric Patients Using Tablets Weight (kg) Titration Step Dose (twice daily) Starting Second Final Less than 40 kg† 1.6 mg/kg 2.3 mg/kg 3.1 mg/kg At least 40 kg, less than 50kg 24 mg/26 mg 49 mg /51 mg 72 mg /78 mg‡ At least 50 kg 49 mg/51 mg 72 mg /78 mg‡ 97 mg /103 mg † Use of th"
-  },
-  {
-    "active_ingredient": "travatan z",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION The recommended dosage is one drop in the affected eye(s) once daily in the evening. TRAVATAN Z ® (travoprost ophthalmic solution) should not be administered more than once daily since it has been shown that more frequent administration of prostaglandin analogs may decrease the intraocular pressure lowering effect. Reduction of the intraocular pressure starts approximately 2 hours after the first administration with maximum effect reached after 12 hours. TRAVATAN Z® may be used concomitantly with other topical ophthalmic drug products to lower intraocular pressure. If more than one topical ophthalmic drug is being used, the drugs should be administered at least five (5) minutes apart. One drop in the affected eye(s) once daily in the evening. (2)"
-  },
-  {
-    "active_ingredient": "apalutamide",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "acnacidol+allantoin+vitamin e+parsol tx+uvinul a plus",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "paracetamol(acetaminophen)+phenylepherine+vitamin c",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "paracetamol(acetaminophen)+pseudoephedrine +dextromethorphan+chlorpheniramine",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "vitamin c+copper+iron+b12+folate dfe+lactoferrin",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "مقوي للرجال"
-  },
-  {
-    "active_ingredient": "multivitamins+minerals",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "diiodohydroxyquinoline",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "لعلاج الاسهال"
-  },
-  {
-    "active_ingredient": "citric acid+sodium bicarbonte+tartaric acid",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "asmanex",
-    "strength": "general",
-    "standard_dose": "220.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION Administer ASMANEX TWISTHALER by the orally inhaled route only. Instruct patients to inhale rapidly and deeply. Advise patients to rinse the mouth after inhalation. Individual patients will experience a variable time to onset and degree of symptom relief. Maximum benefit may not be achieved for 1 to 2 weeks or longer after initiation of treatment. After asthma stability has been achieved, it is desirable to titrate to the lowest effective dosage to reduce the possibility of side effects. For patients ≥12 years of age who do not respond adequately to the starting dose after 2 weeks of therapy, higher doses may provide additional asthma control. The safety and efficacy of ASMANEX TWISTHALER when administered in excess of recommended doses have not been established. FOR ORAL INHALATION ONLY. (2) Instruct patients to inhale rapidly and deeply and to rinse mouth after inhalation. (2) Recommended Dosages for ASMANEX TWISTHALER Treatment Previous Therapy Recommended Starting Dose Highest Recommended Daily Dose Please refer to section 2.1 for full dosage recommendations and details. Patients ≥12 years who received bronchodilators alone 220 mcg once daily in the evening 440 mcg Patients ≥12 years who received inhaled corticosteroids 220 mcg once daily in the evening 440 mcg Patients ≥12 years who received oral corticosteroids 440 mcg twice daily 880 mcg Children 4 – 11 years of age 110 mcg once daily in the evening 110 mcg 2.1 Recommended Dosages in Patients 4 Years of Age and Older The recommended starting doses and highest recommended daily dose for ASMANEX TWISTHALER treatment based on prior asthma therapy are provided in Table 1. TABLE 1: Recommended Dosages for ASMANEX TWISTHALER Treatment Previous Therapy Recommended Starting Dose Highest Recommended Daily Dose Patients ≥12 years who received bronchodilators alone 220 mcg once daily in the eveningWhen administered once daily, ASMANEX TWISTHALER should be taken only in the evening. 440 mcgThe"
-  },
-  {
-    "active_ingredient": "alpha amylase",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "حالات الالتهابات -- مضاد للحساسية"
-  },
-  {
-    "active_ingredient": "royal jelly+soy lecithin",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "povidone- iodine",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "vitamin b complex+vit d+vit c+vit e+vit k+biotin+folic acid+beta carotine+iron+iodine+zinc+magnesium+calcium",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "glucosamine+chondroitin+eucalyptus oil+clove oil+betaine+menthol oil+paraffin oil",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "مساج كريم"
-  },
-  {
-    "active_ingredient": "durezol",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION •For the treatment of inflammation and pain associated with ocular surgery, instill one drop into the conjunctival sac of the affected eye 4 times daily beginning 24 hours after surgery and continuing throughout the first 2 weeks of the postoperative period, followed by 2 times daily for a week and then a taper based on the response. (2.1) •For the treatment of endogenous anterior uveitis instill one drop into the conjunctival sac of the affected eye 4 times daily for 14 days followed by tapering as clinically indicated. (2.2) 2.1 Ocular Surgery Instill one drop into the conjunctival sac of the affected eye 4 times daily beginning 24 hours after surgery and continuing throughout the first 2 weeks of the postoperative period, followed by 2 times daily for a week and then a taper based on the response. 2.2 Endogenous Anterior Uveitis Instill one drop into the conjunctival sac of the affected eye 4 times daily for 14 days followed by tapering as clinically indicated. 2.3 Prescribing Guidelines The initial prescription and renewal of the medication order beyond one bottle should be made by a physician only after examination of the patient with the aid of magnification, such as slit lamp biomicroscopy, and where appropriate, fluorescein staining. If signs and symptoms fail to improve after two days, the patient should be reevaluated. Not more than one bottle should be prescribed initially, and the prescription should not be refilled without further evaluation."
-  },
-  {
-    "active_ingredient": "tranexamic acid",
-    "strength": "general",
-    "standard_dose": "1.0 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION Before Extraction: Administer 10 mg/kg actual body weight of tranexamic acid injection intravenously with replacement therapy. (2.1) After Extraction: Administer 10 mg/kg actual body weight 3 to 4 times daily for 2 to 8 days. Infuse no more than 1 mL/minute to avoid hypotension. (2.1) Reduce the dosage for patients with renal impairment. (2.2, 8.6) 2.1 Recommended Dosage The recommended dose of tranexamic acid injection is 10 mg/kg actual body weight intravenously administered as a single-dose, immediately before tooth extractions. Infuse no more than 1 mL/minute to avoid hypotension [see Warnings and Precautions (5.1)]. Following tooth extraction, tranexamic acid injection may be administered for 2 to 8 days at a dose of 10 mg/kg actual body weight 3 to 4 times daily, intravenously. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. For intravenous infusion, tranexamic acid injection may be mixed with most solutions for infusion such as electrolyte solutions, carbohydrate solutions, amino acid solutions, and Dextran solutions. Heparin may be added to tranexamic acid injection. Tranexamic acid injection should NOT be mixed with blood. The drug is a synthetic amino acid and should NOT be mixed with solutions containing penicillin. Discard any unused portion. The diluted mixture may be stored for up to 4 hours at room temperature prior to patient administration. 2.2 Recommended Dosage for Patients with Varying Degrees of Renal Impairment* For patients with moderate to severe impaired renal function, the following dosages are recommended: Table 1: Recommended Dosage in Patients with Varying Degrees of Renal Impairment * Dose reduction is recommended for all doses, both before and after tooth extraction. Serum Creatinine (mg/dL) Tranexamic Acid Injection Intravenous Dosage 1.36 to 2.83 (120 to 250 micromol/L) 10 mg/kg twice daily 2.83 "
   }
 ]
