@@ -382,10 +382,10 @@ def process_datalake():
                     
                     # 1. App Regex
                     if app_rec.get('original_name'):
-                            app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
-                            if app_conc_match:
-                                final_conc = app_conc_match.group(0).strip()
-                                conc_source = "App_Name_Regex"
+                         app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
+                         if app_conc_match:
+                             final_conc = app_conc_match.group(0).strip()
+                             conc_source = "App_Name_Regex"
                     
                     # 2. DailyMed Fallback
                     if (not final_conc or final_conc == "None") and concentration:
@@ -398,7 +398,12 @@ def process_datalake():
                     structured_dose = {}
                     if dosage_text:
                         structured_dose = dosage_parser.extract_structured_dose(dosage_text)
-                    
+                    if pediatric_text and not structured_dose.get('is_pediatric'):
+                         peds_struct = dosage_parser.extract_structured_dose(pediatric_text)
+                         if peds_struct.get('dose_mg_kg'):
+                             structured_dose = peds_struct
+                             structured_dose['is_pediatric'] = True
+
                     # Pack Record
                     candidate_record = {
                         'med_id': med_id,
@@ -413,39 +418,6 @@ def process_datalake():
                         'clinical_text': {
                             'dosage': dosage_text[:2000] if dosage_text else None,
                             'interactions': clinical.get('drug_interactions', '')[:1000] if clinical.get('drug_interactions') else None,
-                        },
-                        'matching_confidence': 0.0
-                    }
-                    
-                    # Basic Score
-                    score = 0
-                    if structured_dose.get('adult_dose_mg'): score += 30
-                    if app_rec.get('linkage_type') == 'Trade_Name': score += 20
-                    
-                    if med_id not in best_matches or score > best_matches[med_id]['score']:
-                            candidate_record['quality_score'] = score
-                            best_matches[med_id] = {'score': score, 'record': candidate_record}
-
-            if processed_count % 5000 == 0:
-                print(f"   Processed {processed_count:,} records... ({len(best_matches)} matches found)")
-
-    except Exception as e:
-        print(f"❌ Error processing stream: {e}")
-                             structured_dose['is_pediatric'] = True
-
-                    candidate_record = {
-                        'med_id': med_id,
-                        'dailymed_setid': entry.get('set_id'),  # ✨ NEW: DailyMed ID tracking
-                        'dailymed_product_name': drug_name,  # ✨ NEW: DailyMed product name
-                        'trade_name': app_rec.get('trade_name'),
-                        'dailymed_name': drug_name,
-                        'concentration': final_conc,
-                        'concentration_source': conc_source,
-                        'linkage_method': app_rec.get('linkage_type', 'Trade_Name'),
-                        'dosages': structured_dose,
-                        'clinical_text': {
-                            'dosage': dosage_text[:2000] if dosage_text else None, # Truncate for DB size
-                            'interactions': clinical.get('drug_interactions', '')[:1000] if clinical.get('drug_interactions') else None,
                             'contraindications': clinical.get('contraindications', '')[:1000] if clinical.get('contraindications') else None,
                             'pediatric_use': pediatric_text[:2000] if pediatric_text else None,
                             'pregnancy': clinical.get('pregnancy')[:500] if clinical.get('pregnancy') else None,
@@ -453,17 +425,6 @@ def process_datalake():
                         },
                          'set_id': entry.get('set_id'),
                          'product_codes': [p.get('product_code') for p in products if p.get('product_code')],
-                         'matching_confidence': 0.0  # ✨ NEW: Will be calculated below
-                    }
-                    
-                    # --- SCORING LOGIC ---
-                    score = 0
-                    if structured_dose.get('dose_mg_kg'): score += 50
-                    if structured_dose.get('adult_dose_mg'): score += 30
-                    if dosage_text: score += 10
-                    if clinical.get('drug_interactions'): score += 5
-                    if clinical.get('pediatric_use'): score += 5
-                    if app_rec.get('linkage_type') == 'Trade_Name': score += 20
                     elif app_rec.get('linkage_type') == 'Active_Exact': score += 10
                     
                     # Filter out candidates with NO data at all
