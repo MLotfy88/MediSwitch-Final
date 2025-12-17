@@ -133,26 +133,15 @@ jobs:
           mkdir -p "$CACHE_DIR"
           cp "production_data/dailymed_full_database.jsonl.gz" "$CACHE_DIR/"
 
-      - name: 2.4 Commit DailyMed Database (If Small Enough)
+      - name: 2.4 Upload DailyMed Database (Artifact)
         if: steps.check_dm_cache.outputs.skip_dm != 'true'
-        run: |
-           FILE="production_data/dailymed_full_database.jsonl.gz"
-           SIZE=$(stat -c%s "$FILE")
-           # Limit: 95MB (approx 99614720 bytes) to be safe for GitHub 100MB limit
-           LIMIT=99000000
-           
-           if [ "$SIZE" -lt "$LIMIT" ]; then
-               echo "✅ File size ($SIZE) is within GitHub limits. Committing..."
-               git add -f "$FILE"
-               git commit -m "data: dailymed full db update $(date +'%Y-%m-%d')" || echo "No changes"
-               git push --force-with-lease || git push
-           else
-               echo "⚠️ File size ($SIZE) exceeds 99MB safety limit. SKIPPING COMMIT to avoid rejection."
-               echo "   The file is still cached locally in production_data/dailymed_cache/"
-           fi
-          
-      # OPTIONAL: Commit a small sentinel file or strict data, NOT the 1GB file
-      
+        uses: actions/upload-artifact@v4
+        with:
+          name: dailymed-full-database-gz
+          path: production_data/dailymed_full_database.jsonl.gz
+          retention-days: 5
+          compression-level: 0 # Already gzipped
+
       # --- STEP 3: Dosages (Extract -> Cache -> Clean) ---
       - name: 3.1 Check Dosages Cache
         id: check_dosages_cache
