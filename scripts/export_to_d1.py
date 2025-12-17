@@ -44,7 +44,8 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write("-- Generated from local assets/meds.csv\n\n")
         
         # Schema Init (Safe) - Updated to match clean meds.csv structure
-        f.write("CREATE TABLE IF NOT EXISTS drugs (\n")
+        f.write("DROP TABLE IF EXISTS drugs;\n")
+        f.write("CREATE TABLE drugs (\n")
         f.write("  id INTEGER PRIMARY KEY,\n")
         f.write("  trade_name TEXT,\n")
         f.write("  arabic_name TEXT,\n")
@@ -64,10 +65,6 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write("  last_price_update TEXT\n")
         f.write(");\n\n")
         
-        # Clear existing data
-        f.write("-- Clear existing data\n")
-        f.write("DELETE FROM drugs;\n\n")
-        
         print("📝 Exporting records...")
         
         batch_size = 500
@@ -82,7 +79,8 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
                 return f"'{val}'"
             
             # Map columns (Keys from update_meds.py output)
-            mid = get_val('id') # meds.csv now has 'id'
+            mid_raw = row.get('id', '0').strip() # meds.csv now has 'id', insert as raw int
+            mid = int(mid_raw) if mid_raw.isdigit() else 0
             trade = get_val('trade_name')
             arabic = get_val('arabic_name')
             old_p = get_val('old_price')
