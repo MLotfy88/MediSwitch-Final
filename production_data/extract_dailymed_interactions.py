@@ -18,7 +18,7 @@ from collections import Counter
 # Configuration
 DAILYMED_DOWNLOAD_DIR = 'External_source/dailymed/downloaded'
 OUTPUT_DIR = 'production_data'
-OUTPUT_FILE = 'production_data/dailymed_interactions_clean.json'
+OUTPUT_FILE = 'production_data/dailymed_interactions.json'
 
 # LOINC code for Drug Interactions section
 LOINC_DRUG_INTERACTIONS = '34073-7'
