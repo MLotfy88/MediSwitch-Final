@@ -70,17 +70,30 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         batch_size = 500
         batch = []
         total_exported = 0
+        seen_ids = set()
         
         for idx, row in enumerate(rows):
+            # Map columns (Keys from update_meds.py output)
+            mid_raw = row.get('id', '0').strip() # meds.csv now has 'id', insert as raw int
+            mid = int(mid_raw) if mid_raw.isdigit() else 0
+            
+            # Skip invalid or duplicate IDs (D1 Strict Requirement)
+            if mid <= 0:
+                print(f"⚠️ Skipping invalid ID: {mid_raw}")
+                continue
+                
+            if mid in seen_ids:
+                print(f"⚠️ Skipping duplicate ID: {mid} (Trade: {row.get('trade_name')})")
+                continue
+            
+            seen_ids.add(mid)
+
             # Safe value extractor
             def get_val(key):
                 val = row.get(key, '').strip()
                 val = val.replace("'", "''") # Escape SQL
                 return f"'{val}'"
             
-            # Map columns (Keys from update_meds.py output)
-            mid_raw = row.get('id', '0').strip() # meds.csv now has 'id', insert as raw int
-            mid = int(mid_raw) if mid_raw.isdigit() else 0
             trade = get_val('trade_name')
             arabic = get_val('arabic_name')
             old_p = get_val('old_price')
