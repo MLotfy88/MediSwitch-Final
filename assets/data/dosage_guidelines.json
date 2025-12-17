@@ -1,100 +1,184 @@
-[
-  {
-    "active_ingredient": "rupatadine",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "ascorbic acid+green tea ext.+cucumber ext.+liquorice+ivy ext.+tobaco leaf ext.",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "glycerin",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "lactoferrin+chelated iron",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "مكمل غذائي غني بالحديد."
-  },
-  {
-    "active_ingredient": "cholecalciferol(vitamin d3)",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "moexipril hydrochloride",
-    "strength": "general",
-    "standard_dose": "7.5 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Hypertension The recommended initial dose of moexipril hydrochloride in patients not receiving diuretics is 7.5 mg, one hour prior to meals, once daily. Dosage should be adjusted according to blood pressure response. The antihypertensive effect of moexipril hydrochloride may diminish towards the end of the dosing interval. Blood pressure should, therefore, be measured just prior to dosing to determine whether satisfactory blood pressure control is obtained. If control is not adequate, increased dose or divided dosing can be tried. The recommended dose range is 7.5 to 30 mg daily, administered in one or two divided doses one hour before meals. Total daily doses above 60 mg a day have not been studied in hypertensive patients. In patients who are currently being treated with a diuretic, symptomatic hypotension may occasionally occur following the initial dose of moexipril hydrochloride. The diuretic should, if possible, be discontinued for 2 to 3 days before therapy with moexipril hydrochloride is begun, to reduce the likelihood of hypotension (see WARNINGS). If the patient's blood pressure is not controlled with moexipril hydrochloride alone, diuretic therapy may then be reinstituted. If diuretic therapy cannot be discontinued, an initial dose of 3.75 mg of moexipril hydrochloride should be used with medical supervision until blood pressure has stabilized (see WARNINGS and PRECAUTIONS, Drug Interactions). Dosage Adjustment in Renal Impairment For patients with a creatinine clearance </=40 mL/min/1.73 m2, an initial dose of 3.75 mg once daily should be given cautiously. Doses may be titrated upward to a maximum daily dose of 15 mg."
-  },
-  {
-    "active_ingredient": "onglyza",
-    "strength": "general",
-    "standard_dose": "2.5 mg",
-    "max_dose": null,
-    "package_label": "2 DOSAGE AND ADMINISTRATION The recommended dose is 2.5 mg or 5 mg once daily taken regardless of meals. (2.1) 2.5 mg daily is recommended for patients with moderate or severe renal impairment, or end-stage renal disease (CrCl ≤50 mL/min). Assess renal function before starting ONGLYZA and periodically thereafter. (2.2) 2.5 mg daily is recommended for patients also taking strong cytochrome P450 3A4/5 (CYP3A4/5) inhibitors (e.g., ketoconazole). (2.3, 7.1) 2.1 Recommended Dosing The recommended dose of ONGLYZA is 2.5 mg or 5 mg once daily taken regardless of meals. ONGLYZA tablets must not be split or cut. 2.2 Patients with Renal Impairment No dosage adjustment for ONGLYZA is recommended for patients with mild renal impairment (creatinine clearance [CrCl] >50 mL/min). The dose of ONGLYZA is 2.5 mg once daily for patients with moderate or severe renal impairment, or with end-stage renal disease (ESRD) requiring hemodialysis (creatinine clearance [CrCl] ≤50 mL/min) [see Clinical Pharmacology (12.3) and Clinical Studies (14.3) ]. ONGLYZA should be administered following hemodialysis. ONGLYZA has not been studied in patients undergoing peritoneal dialysis. Because the dose of ONGLYZA should be limited to 2.5 mg based upon renal function, assessment of renal function is recommended prior to initiation of ONGLYZA and periodically thereafter. Renal function can be estimated from serum creatinine using the Cockcroft-Gault formula or Modification of Diet in Renal Disease formula. [See Clinical Pharmacology (12.3) .] 2.3 Strong CYP3A4/5 Inhibitors The dose of ONGLYZA is 2.5 mg once daily when coadministered with strong cytochrome P450 3A4/5 (CYP3A4/5) inhibitors (e.g., ketoconazole, atazanavir, clarithromycin, indinavir, itraconazole, nefazodone, nelfinavir, ritonavir, saquinavir, and telithromycin). [See Drug Interactions (7.1) and Clinical Pharmacology (12.3) .] 2.4 Concomitant Use with an Insulin Secretagogue (e.g., Sulfonylurea) or with Insulin When ONGLYZA is used in combin"
-  },
-  {
-    "active_ingredient": "alpha lipoic acid+vitamin b2+vitamin c+vitamin b6+vitamin b12+vitamin d3+folate",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "مكمل غذائى مضاد للاكسدة يدعم الجهاز العصبى ويستخدم فى علاج الانيميا"
-  },
-  {
-    "active_ingredient": "sodium amidotrizoate+meglumine amidotrizoate",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "يستخدم هذا الدواء قبل إجراء اختبارات أشعة اكس أو ما شابه ذلك (مثل التصوير المقطعي)، لمساعدة الطبيب في تحليل الصورة (الفيلم)"
-  },
-  {
-    "active_ingredient": "fexofenadine hydrochloride",
-    "strength": "general",
-    "standard_dose": "60.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Seasonal Allergic Rhinitis Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily, or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as the starting dose in pediatric patients with decreased renal function (see CLINICAL PHARMACOLOGY). Chronic Idiopathic Urticaria Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as the starting dose in pediatric patients with decreased renal function (see CLINICAL PHARMACOLOGY)."
-  },
-  {
-    "active_ingredient": "clindamycin hydrochloride",
-    "strength": "general",
-    "standard_dose": "300.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATIONIf significant diarrhea occurs during therapy, this antibiotic should be discontinued (see WARNING box). Adults: Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours. Pediatric Patients: Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses. To avoid the possibility of esophageal irritation, clindamycin hydrochloride capsules should be taken with a full glass of water. Serious infections due to anaerobic bacteria are usually treated with clindamycin phosphate sterile solution. However, in clinically appropriate circumstances, the physician may elect to initiate treatment or continue treatment with clindamycin hydrochloride capsules. In cases of β-hemolytic streptococcal infections, treatment should continue for at least 10 days."
-  },
-  {
-    "active_ingredient": "ciprofloxacin",
-    "strength": "general",
-    "standard_dose": "100.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION - ADULTS Ciprofloxacin tablets should be administered orally to adults as described in the Dosage Guidelines table. The determination of dosage for any particular patient must take into consideration the severity and nature of the infection, the susceptibility of the causative organism, the integrity of the patient's host-defense mechanisms, and the status of renal function and hepatic function. The duration of treatment depends upon the severity of infection. The usual duration is 7 to 14 days; however, for severe and complicated infections more prolonged therapy may be required. Ciprofloxacin should be administered at least 2 hours before or 6 hours after magnesium/aluminum antacids, or sucralfate, Videx® (didanosine) chewable/buffered tablets or pediatric powder for oral solution, other highly buffered drugs, or other products containing calcium, iron or zinc. ADULT DOSAGE GUIDELINES Infection Severity Dose Frequency Usual Durations † * used in conjunction with metronidazole † Generally ciprofloxacin should be continued for at least 2 days after the signs and symptoms of infection have disappeared, except for inhalational anthrax (post-exposure). ** Drug administration should begin as soon as possible after suspected or confirmed exposure. This indication is based on a surrogate endpoint, ciprofloxacin serum concentrations achieved in humans, reasonably likely to predict clinical benefit.4 For a discussion of ciprofloxacin serum concentrations in various human populations, see INHALATIONAL ANTHRAX – ADDITIONAL INFORMATION). Urinary Tract Acute Uncomplicated 100 mg or 250 mg q 12 h 3 days Mild/Moderate 250 mg q 12 h 7 to 14 days Severe/Complicated 500 mg q 12 h 7 to 14 days Chronic Bacterial Mild/Moderate 500 mg q 12 h 28 days Prostatitis Lower Respiratory Tract Mild/Moderate 500 mg q 12 h 7 to 14 days Severe/Complicated 750 mg q 12 h 7 to 14 days Acute Sinusitis Mild/Moderate 500 mg q 12 h 10 days Skin and Mild/Moderate 500 mg q 12 h 7 t"
-  },
-  {
-    "active_ingredient": "panthenol+salicylic acid+sulpher+thyme oil+lavender oil+chamomile oil+peppermint oil+aloe vera extra",
-    "strength": "general",
-    "standard_dose": "See label",
-    "max_dose": null,
-    "package_label": "Refer to package insert."
-  },
-  {
-    "active_ingredient": "selegiline hydrochloride",
-    "strength": "general",
-    "standard_dose": "10.0 mg",
-    "max_dose": null,
-    "package_label": "DOSAGE AND ADMINISTRATION Selegiline Hydrochloride Tablets, USP are intended for administration to Parkinsonian patients receiving levodopa/carbidopa therapy who demonstrate a deteriorating response to this treatment. The recommended regimen for the administration of Selegiline Hydrochloride Tablets, USP is 10 mg per day administered as divided doses of 5 mg each taken at breakfast and lunch. There is no evidence that additional benefit will be obtained from the administration of higher doses. Moreover, higher doses should ordinarily be avoided because of the increased risk of side effects. After two to three days of selegiline treatment, an attempt may be made to reduce the dose of levodopa/carbidopa. A reduction of 10 to 30% was achieved with the typical participant in the domestic placebo controlled trials who was assigned to selegiline treatment. Further reductions of levodopa/carbidopa may be possible during continued selegiline therapy."
-  }
-]
+{
+  "dosage_guidelines": [
+    {
+      "med_id": 9535,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 25496,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "كريم تفتيح",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 4656,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "مسكن ومضاد للالتهابات",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 2755,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "مضاد حيوي ويستخدم في الوقاية من الحمي الروماتيزمية",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 8286,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "كريم مرطب",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 13195,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "كريم لجميع انواع الشعر يحافظ على الشعر وتغذيته واستطالته ومنع سقوطه",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 6385,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 20389,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 31535,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 22974,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "لوشن للوجه -- للحماية من حب الشباب -- علاج اثار حب السباب -- توحيد لون البشرة",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 16145,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 2682,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 27434,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "لعلاج آلام العظام والروماتيزم والتهابات المفاصل.",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 29903,
+      "dailymed_setid": "aa7e7d95-520a-461c-b1b3-e588aeb6a613",
+      "min_dose": 160.0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "Standard Dose: 160.0mg. 2 DOSAGE AND ADMINISTRATION General Considerations: •Majority of effect attained within 2 weeks (2.1) •May be administered with other antihypertensive agents (2.1) Hypertension: •May be used as add-on therapy for patients not controlled on monotherapy (2.2) •Patients who experience dose-limiting adverse reactions on monotherapy may be switched to amlodipine and valsartan tablets containing a lower dose of that component (2.2) •May be substituted for titrated components (2.3) •When used as initia...",
+      "condition": "General",
+      "source": "DailyMed",
+      "is_pediatric": false
+    },
+    {
+      "med_id": 12637,
+      "dailymed_setid": "N/A",
+      "min_dose": 0,
+      "max_dose": null,
+      "frequency": 24,
+      "duration": 7,
+      "instructions": "See package insert",
+      "condition": "General",
+      "source": "Local_Scraper",
+      "is_pediatric": false
+    }
+  ]
+}
