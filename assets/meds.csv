@@ -2,13 +2,13 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 11443,,تينياكيور كريم 20 جرام,28,13.0,tioconazole,kahira,antifungal,cream,كريم,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,1%,,,1,3019,2025-12-02,tineacure 1% top. cream 20 gm
 11500,,تومكس 80 قرص,85,64.0,dried garlic powder,atos pharma,,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,2084,2025-12-02,tomex 80 tablets
 26501,,سانيدوكس جل 60 جرام,65,38.0,camphor+menthol crystal+clove extract+eucalyptus oil+fatty acids,smartic > sanitas,topical massage,gel,جل,Topical,موضعي,Dermatology,الجلدية,Dermatology,الجلدية,60 g,,,1,1944,2025-12-02,sanidox gel 60 gm
-24887,,فيلوزاك 20 مجم 30 كبسولة,75,57.0,fluoxetine,amoun,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,20mg,,,1,10287,2025-12-02,philozac 20mg 30 caps.
+24887,,فيلوزاك 20 مجم 30 كبسولة,75,57.0,fluoxetine,amoun,psychiatric.antidepressants,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,20mg,,,1,10288,2025-12-02,philozac 20mg 30 caps.
 33920,,زامسيلوس بروبايوتيك نقط فم 10مل,150,65.0,bifidobacterium 5 bilions,hayah,immunity booster,oral drops,نقط فموي,Drops,نقط,General,عام,General,عام,10 ml,,,1,691,2025-12-02,zamcillus probiotic drops 10 ml 
 32641,,كرومومور 30 كبسولة,270,228.0,levosalbutamol,master med pharma,weight loss,capsule,كبسولة,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,616,2025-12-02,chromomore 30 caps.
 27434,,سريلان كريم 20 جرام,47,32.5,idrocilamide,mina pharm > lipha sante-france,massage.analgesic,cream,كريم,Topical,موضعي,Pain Relief,مسكنات,Pain Relief,مسكنات,5%,,,1,2666,2025-12-02,srilane 5% cream 20 gm
 6306,,كيدورال نقط فم 30 مل,55,45.0,vitamin d3+vitamin k2,royal care pharma,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,30 ml,,,1,992,2025-12-02,kidoral oral drops 30 ml
 23949,,اوكتوزنريف 6/25مجم 30 كبسولة,93,66.0,fluoxetine+olanzapine,october pharma,psychiatric.antipsychotics,capsule,كبسولة,Oral.Solid,صلب فموي,Psychiatric,الأمراض النفسية,Psychiatric,الأمراض النفسية,25 mg,,,1,1220,2025-12-02,octozinreef 6/25 mg 30 caps.
-3352,,توستيرم شراب 100 مل,63,55.0,primula root fluid extract + thyme fluid extract,dorado,cough products,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,100 ml,,,1,1055,2025-12-02,tussterm 100 ml syrup
+3352,,توستيرم شراب 100 مل,63,55.0,primula root fluid extract + thyme fluid extract,dorado,cough products,syrup,شراب,Oral.Liquid,سائل فموي,Respiratory,الجهاز التنفسي,Respiratory,الجهاز التنفسي,100 ml,,,1,1056,2025-12-02,tussterm 100 ml syrup
 1333,,,,,,,,,,,,,,,,,,,,,,
 13365,,,,,,,,,,,,,,,,,,,,,,
 7990,,,,,,,,,,,,,,,,,,,,,,
@@ -2448,7 +2448,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 32735,,,,,,,,,,,,,,,,,,,,,,
 25500,,,,,,,,,,,,,,,,,,,,,,
 28042,,,,,,,,,,,,,,,,,,,,,,
-2239,,هيرو في d3 + k2 نقط فم 10 مل,99,95.0,vitamin d3+vitamin k2,hero mea trading,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,10 ml,,,1,2338,2025-12-16,hero vitamin d3 + k2 oral drops 10 ml
+2239,,هيرو في d3 + k2 نقط فم 10 مل,99,95.0,vitamin d3+vitamin k2,hero mea trading,multivitamin,oral drops,نقط فموي,Drops,نقط,Nutrition,التغذية,Nutrition,التغذية,10 ml,,,1,2339,2025-12-16,hero vitamin d3 + k2 oral drops 10 ml
 7284,,,,,,,,,,,,,,,,,,,,,,
 13197,,,,,,,,,,,,,,,,,,,,,,
 26415,,,,,,,,,,,,,,,,,,,,,,
@@ -8784,7 +8784,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 502,,,,,,,,,,,,,,,,,,,,,,
 5956,,,,,,,,,,,,,,,,,,,,,,
 5958,,,,,,,,,,,,,,,,,,,,,,
-11196,,تاروليمس مرهم 03% 15 جم,144,129.0,tacrolimus,andalous pharma,immunosuppressants.psoriasis,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.03%,,,1,11952,2025-12-15,tarolimus 0.03% topical oint. 15 gm
+11196,,تاروليمس مرهم 03% 15 جم,144,129.0,tacrolimus,andalous pharma,immunosuppressants.psoriasis,ointment,مرهم,Topical,موضعي,General,عام,General,عام,0.03%,,,1,11953,2025-12-15,tarolimus 0.03% topical oint. 15 gm
 11700,,,,,,,,,,,,,,,,,,,,,,
 18418,,,,,,,,,,,,,,,,,,,,,,
 29313,,,,,,,,,,,,,,,,,,,,,,
@@ -11156,7 +11156,7 @@ id,trade_name,arabic_name,price,old_price,active,company,description,dosage_form
 15188,,,,,,,,,,,,,,,,,,,,,,
 721,,,,,,,,,,,,,,,,,,,,,,
 2738,,,,,,,,,,,,,,,,,,,,,,
-10318,,سنالاكس 30 قرص,48,29.25,sennoside,el nile.,laxative,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,3476,2025-12-15,senna-lax 30 tab.
+10318,,سنالاكس 30 قرص,48,29.25,sennoside,el nile.,laxative,tablet,قرص,Oral.Solid,صلب فموي,General,عام,General,عام,,,,1,3478,2025-12-15,senna-lax 30 tab.
 4701,,,,,,,,,,,,,,,,,,,,,,
 12992,,,,,,,,,,,,,,,,,,,,,,
 14271,,,,,,,,,,,,,,,,,,,,,,
