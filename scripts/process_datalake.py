@@ -425,6 +425,13 @@ def process_datalake():
                         },
                          'set_id': entry.get('set_id'),
                          'product_codes': [p.get('product_code') for p in products if p.get('product_code')],
+                         'matching_confidence': 0.0
+                    }
+                    
+                    # --- SCORING LOGIC ---
+                    score = 0
+                    if structured_dose.get('adult_dose_mg'): score += 30
+                    if app_rec.get('linkage_type') == 'Trade_Name': score += 20
                     elif app_rec.get('linkage_type') == 'Active_Exact': score += 10
                     
                     # Filter out candidates with NO data at all
