@@ -224,6 +224,8 @@ def process_zip_part(zip_path: str, extractor: FullDailyMedExtractor) -> List[Di
         
     return part_results
 
+import gzip
+
 def main():
     print("="*80)
     print("DailyMed FULL DATA LAKE Extractor (Streaming JSONL)")
@@ -232,15 +234,15 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     extractor = FullDailyMedExtractor()
     
-    # Change output to .jsonl
-    output_path = OUTPUT_FILE + 'l' # .jsonl
+    # Change output to .jsonl.gz
+    output_path = OUTPUT_FILE + 'l.gz'
     
     print(f"Streaming records to {output_path}...")
     
     total_count = 0
     
     try:
-        with open(output_path, 'w', encoding='utf-8') as f_out:
+        with gzip.open(output_path, 'wt', encoding='utf-8') as f_out:
             for filename in DAILYMED_RELEASE_FILES:
                 path = os.path.join(DAILYMED_DOWNLOAD_DIR, filename)
                 print(f"\n📦 Processing {filename}...")
