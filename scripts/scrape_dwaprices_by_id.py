@@ -185,19 +185,32 @@ def parse_drug_page(html: str, drug_id: str) -> Dict:
     dosage_form = "Unknown"
     dosage_form_ar = "غير محدد"
     
-    # Dosage form translation map
+    # Dosage form translation map (Expanded)
     form_translations = {
-        'tablet': 'قرص', 'tablets': 'أقراص', 'tab': 'قرص', 'tabs': 'أقراص',
+        'tablet': 'أقراص', 'tablets': 'أقراص', 'tab': 'أقراص', 'tabs': 'أقراص', 'tabs.': 'أقراص',
         'capsule': 'كبسولة', 'capsules': 'كبسولات', 'cap': 'كبسولة', 'caps': 'كبسولات',
         'syrup': 'شراب', 'suspension': 'معلق', 'susp': 'معلق',
-        'cream': 'كريم', 'ointment': 'مرهم', 'oint': 'مرهم',
-        'gel': 'جل', 'lotion': 'لوشن', 'spray': 'بخاخ',
-        'drops': 'نقط', 'drop': 'نقطة',
-        'injection': 'حقن', 'inj': 'حقن', 'vial': 'فيال', 'amp': 'أمبول', 'ampoule': 'أمبول',
-        'suppository': 'لبوس', 'supp': 'لبوس',
-        'powder': 'بودرة', 'sachet': 'كيس',
-        'solution': 'محلول', 'sol': 'محلول',
-        'patch': 'لصقة', 'inhaler': 'بخاخ',
+        'injection': 'حقن', 'inj': 'حقن', 'ampoule': 'أمبول', 'ampoules': 'أمبولات', 'amp': 'أمبول',
+        'vial': 'فيال', 'syringe': 'حقنة', 'pen': 'قلم',
+        'cream': 'كريم', 'ointment': 'مرهم', 'oint': 'مرهم', 'gel': 'جل',
+        'lotion': 'لوشن', 'solution': 'محلول', 'sol': 'محلول',
+        'spray': 'بخاخ', 'inhaler': 'جهاز استنشاق',
+        'drops': 'نقط', 'drop': 'نقط', 'oral drops': 'نقط للفم', 'ear drops': 'نقط للأذن',
+        'eye drops': 'نقط للعين', 'nasal drops': 'نقط للأنف', 'mouth drops': 'نقط للفم',
+        'eye ointment': 'مرهم للعين',
+        'suppository': 'لبوس', 'suppositories': 'لبوس', 'supp': 'لبوس',
+        'powder': 'بودرة', 'sachet': 'أكياس', 'sachets': 'أكياس',
+        'effervescent': 'فوار', 'eff': 'فوار',
+        'lozenges': 'استحلاب',
+        'mouth wash': 'غسول للفم', 'gargle': 'غرغرة', 'toothpaste': 'معجون أسنان',
+        'shampoo': 'شامبو', 'conditioner': 'بلسم', 'hair oil': 'زيت شعر',
+        'soap': 'صابون', 'facial wash': 'غسول للوجه', 'cleanser': 'منظف',
+        'patch': 'لصقة', 'film': 'فيلم',
+        'foam': 'فوم', 'paint': 'مس/دهان',
+        'oil': 'زيت', 'serum': 'سيروم',
+        'vaginal douche': 'دش مهبلي', 'vaginal wash': 'غسول مهبلي',
+        'bottle': 'زجاجة', 'piece': 'قطعة',
+        'unknown': 'غير محدد'
     }
     
     if data.get('trade_name'):
@@ -268,7 +281,6 @@ async def perform_login(session):
 
 async def fetch_drug(sem, session, drug_id, attempt=0):
     """Fetches a single drug page with concurrency control"""
-    print(f"DEBUG: Entered fetch_drug for {drug_id}")
     url = f"{BASE_URL}{drug_id}"
     
     # Human-like delay (reduced for test mode)
@@ -280,27 +292,20 @@ async def fetch_drug(sem, session, drug_id, attempt=0):
     
     async with sem:
         try:
-            log(f"⏳ Fetching {drug_id}...")
             async with session.get(url, timeout=REQUEST_TIMEOUT) as response:
                 if response.status == 200:
                     html = await response.text()
-                    log(f"✅ Received {drug_id} ({len(html)} bytes)")
                     
                     data = parse_drug_page(html, drug_id)
                     # Validate: Must have trade_name
                     if data.get('trade_name'):
                         return data
                     else:
-                        log(f"⚠️ {drug_id} missing trade_name")
                         return None
                 elif response.status in [500, 502, 503, 504] and attempt < 3:
-                    log(f"🔄 Retry {drug_id} (Status {response.status})")
                     await asyncio.sleep(2)
                     return await fetch_drug(sem, session, drug_id, attempt + 1)
-                else:
-                     log(f"❌ Failed {drug_id} (Status {response.status})")
         except Exception as e:
-            log(f"💥 Error {drug_id}: {e}")
             if attempt < 2:
                 await asyncio.sleep(1)
                 return await fetch_drug(sem, session, drug_id, attempt + 1)

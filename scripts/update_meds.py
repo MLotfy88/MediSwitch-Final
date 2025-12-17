@@ -57,37 +57,30 @@ MAIN_CATEGORIES = {
 }
 
 DOSAGE_FORM_TRANSLATIONS = {
-    'tablets': 'أقراص', 'capsules': 'كبسولات', 'syrup': 'شراب', 'suspension': 'معلق',
-    'injection': 'حقن', 'ampoules': 'أمبولات', 'ampoule': 'أمبولة', 'vial': 'فيال',
-    'cream': 'كريم', 'ointment': 'مرهم', 'gel': 'جل', 'drops': 'نقط',
-    'eye_drops': 'نقط للعين', 'eye_ointment': 'مرهم للعين', 'ear_drops': 'نقط للأذن',
-    'effervescent': 'فوار', 'nasal_spray': 'بخاخ للأنف', 'inhaler': 'جهاز استنشاق',
-    'suppositories': 'لبوس', 'suppository': 'لبوسة', 'powder': 'بودرة', 'sachets': 'أكياس',
-    'lozenges': 'أقراص استحلاب', 'shampoo': 'شامبو', 'lotion': 'لوشن', 'solution': 'محلول',
-    'spray': 'بخاخ', 'patch': 'لصقة', 'oral_gel': 'جل فموي', 'oral_drops': 'نقط بالفم',
-    'oral_suspension': 'معلق فموي', 'effervescent_tablets': 'أقراص فوارة',
-    'chewable_tablets': 'أقراص للمضغ', 'soft_gelatin_capsules': 'كبسولات جيلاتينية رخوة',
-    'hard_gelatin_capsules': 'كبسولات جيلاتينية صلبة', 'hair_oil': 'زيت شعر',
-    'vaginal_suppositories': 'لبوس مهبلي', 'vaginal_cream': 'كريم مهبلي',
-    'vaginal_gel': 'جل مهبلي', 'vaginal_douche': 'دش مهبلي', 'enema': 'حقنة شرجية',
-    'mouthwash': 'غسول فم', 'toothpaste': 'معجون أسنان', 'soap': 'صابون',
-    'intravenous_infusion': 'تسريب وريدي', 'subcutaneous_injection': 'حقن تحت الجلد',
-    'intramuscular_injection': 'حقن عضلي', 'topical_solution': 'محلول موضعي',
-    'topical_spray': 'بخاخ موضعي', 'topical_gel': 'جل موضعي', 'topical_cream': 'كريم موضعي',
-    'transdermal_patch': 'لصقة عبر الجلد', 'film-coated_tablets': 'أقراص مغلفة',
-    'extended-release_tablets': 'أقراص ممتدة المفعول', 'delayed-release_capsules': 'كبسولات مؤجلة المفعول',
-    'rectal_suppositories': 'لبوس شرجي', 'vaginal_tablets': 'أقراص مهبلية',
-    'pre-filled_syringe': 'حقنة معبأة مسبقًا', 'pen': 'قلم', 'piece': 'قطعة',
-    'unknown': 'غير معروف', 'tablet': 'قرص', 'capsule': 'كبسولة'
-}
-
-USAGE_TRANSLATIONS = {
-    'eff': 'فوار', 'oral': 'عن طريق الفم', 'oral.liquid': 'سائل فموي', 'oral.solid': 'صلب فموي',
-    'topical': 'موضعي', 'unknown': 'غير معروف', 'injection': 'حقن', 'inhalation': 'استنشاق',
-    'rectal': 'شرجي', 'soap': 'صابون', 'spray': 'بخاخ', 'vaginal': 'مهبلي',
-    'ophthalmic': 'للعين', 'otic': 'للأذن', 'nasal': 'للأنف', 'sublingual': 'تحت اللسان',
-    'buccal': 'شدقي', 'transdermal': 'عبر الجلد', 'intravenous': 'وريدي',
-    'intramuscular': 'عضلي', 'subcutaneous': 'تحت الجلد'
+    'tablet': 'أقراص', 'tablets': 'أقراص', 'tab': 'أقراص', 'tabs': 'أقراص', 'tabs.': 'أقراص',
+    'capsule': 'كبسولات', 'capsules': 'كبسولات', 'cap': 'كبسولات', 'caps': 'كبسولات',
+    'syrup': 'شراب', 'suspension': 'معلق', 'susp': 'معلق',
+    'injection': 'حقن', 'inj': 'حقن', 'ampoule': 'أمبول', 'ampoules': 'أمبولات', 'amp': 'أمبول',
+    'vial': 'فيال', 'syringe': 'حقنة', 'pen': 'قلم',
+    'cream': 'كريم', 'ointment': 'مرهم', 'oint': 'مرهم', 'gel': 'جل',
+    'lotion': 'لوشن', 'solution': 'محلول', 'sol': 'محلول',
+    'spray': 'بخاخ', 'inhaler': 'جهاز استنشاق',
+    'drops': 'نقط', 'drop': 'نقط', 'oral drops': 'نقط للفم', 'ear drops': 'نقط للأذن',
+    'eye drops': 'نقط للعين', 'nasal drops': 'نقط للأنف', 'mouth drops': 'نقط للفم',
+    'eye ointment': 'مرهم للعين',
+    'suppository': 'لبوس', 'suppositories': 'لبوس', 'supp': 'لبوس',
+    'powder': 'بودرة', 'sachet': 'أكياس', 'sachets': 'أكياس',
+    'effervescent': 'فوار', 'eff': 'فوار',
+    'lozenges': 'استحلاب',
+    'mouth wash': 'غسول للفم', 'gargle': 'غرغرة', 'toothpaste': 'معجون أسنان',
+    'shampoo': 'شامبو', 'conditioner': 'بلسم', 'hair oil': 'زيت شعر',
+    'soap': 'صابون', 'facial wash': 'غسول للوجه', 'cleanser': 'منظف',
+    'patch': 'لصقة', 'film': 'فيلم',
+    'foam': 'فوم', 'paint': 'مس/دهان',
+    'oil': 'زيت', 'serum': 'سيروم',
+    'vaginal douche': 'دش مهبلي', 'vaginal wash': 'غسول مهبلي',
+    'bottle': 'زجاجة', 'piece': 'قطعة',
+    'unknown': 'غير محدد'
 }
 
 def safe_str_lower(value):
@@ -185,37 +178,31 @@ def main():
         # --- Translation & Enrichment ---
         
         # Dosage Form AR
-        form_lower = safe_str_lower(row['dosage_form'])
-        row['dosage_form_ar'] = DOSAGE_FORM_TRANSLATIONS.get(form_lower, '')
+        # 1. Try Scraper's translation first
+        row['dosage_form_ar'] = rec.get('dosage_form_ar', '')
+        
+        # 2. If empty, try matching from map
         if not row['dosage_form_ar']:
-            # Fallback: Check if any key is substring
-            for key, val in DOSAGE_FORM_TRANSLATIONS.items():
-                if key in form_lower:
-                    row['dosage_form_ar'] = val
-                    break
-        
-        # Usage AR
-        usage_lower = safe_str_lower(row['usage'])
-        row['usage_ar'] = USAGE_TRANSLATIONS.get(usage_lower, '')
-        
-        # Category AR & Main Category
-        # (Could use MAIN_CATEGORIES later if we map them)
-        row['category_ar'] = '' # Placeholder
-        row['main_category'] = 'Other' 
-        row['main_category_ar'] = 'أخرى'
+            form_lower = safe_str_lower(row['dosage_form'])
+            # Direct match
+            row['dosage_form_ar'] = DOSAGE_FORM_TRANSLATIONS.get(form_lower, '')
+            # Substring match fallback
+            if not row['dosage_form_ar']:
+                for key, val in DOSAGE_FORM_TRANSLATIONS.items():
+                    if key in form_lower:
+                        row['dosage_form_ar'] = val
+                        break
         
         records.append(row)
 
     # 4. Create DataFrame & Save
     df = pd.DataFrame(records)
     
-    # Define Column Order (Schema)
-    # Define Column Order (Schema) - Description REMOVED per user request
+    # Define Column Order (Schema) - Removed usage_ar, category_ar, etc. per user request
     desired_columns = [
         'id', 'trade_name', 'arabic_name', 'price', 'old_price', 'active', 
         'company', 'dosage_form', 'dosage_form_ar', 
-        'usage', 'usage_ar', 'category', 'category_ar', 
-        'main_category', 'main_category_ar', 'concentration', 
+        'usage', 'category', 'concentration', 
         'pharmacology', 'barcode', 'unit', 'visits', 'last_price_update'
     ]
     
