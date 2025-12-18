@@ -581,6 +581,34 @@ async function handleRequest(request, env) {
       }
     }
 
+    // Sync: Get med-ingredients map for local database sync
+    if (path === '/api/sync/med-ingredients' && request.method === 'GET') {
+      try {
+        const limit = parseInt(url.searchParams.get('limit')) || 0;
+        const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+        // med_ingredients might allow compound key paging or just paging via rowid or similar if no simple PK
+        // The table is (med_id, ingredient) PK. We can order by med_id, ingredient
+        let query = 'SELECT * FROM med_ingredients ORDER BY med_id, ingredient';
+        if (limit > 0) {
+          query += ` LIMIT ${limit} OFFSET ${offset}`;
+        }
+
+        const { results } = await env.DB.prepare(query).all();
+        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM med_ingredients').first();
+
+        return jsonResponse({
+          data: results,
+          total: countResult.total,
+          limit,
+          offset,
+          hasMore: limit > 0 && (offset + limit) < countResult.total
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
     // Admin: Notifications Management
     if (path === '/api/admin/notifications' && request.method === 'GET') {
       try {
