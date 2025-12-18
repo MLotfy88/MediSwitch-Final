@@ -181,6 +181,7 @@ jobs:
       - name: 7.2 Commit Final Assets
         run: |
           git add -f assets/data/interactions/
+          git add -f assets/data/dosage_guidelines.json
           
           git commit -m "db: full rebuild complete $(date +'%Y-%m-%d')" || echo "No changes"
           git pull --rebase -X theirs
@@ -211,7 +212,8 @@ jobs:
           # 3. Interactions (Generate SQL -> Execute)
           echo "::group::Syncing Interactions"
           python3 ../scripts/upload_interactions_d1.py ../assets/data/interactions/
-          npx wrangler d1 execute mediswitch-db --file=d1_interactions.sql --remote
+          # Use helper script to iterate over generated chunks (Rules + Ingredients)
+          bash ../scripts/sync_interactions_d1.sh
           echo "::endgroup::"
 
       - name: Final Notification
