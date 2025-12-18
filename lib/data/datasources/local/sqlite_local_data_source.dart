@@ -618,6 +618,36 @@ class SqliteLocalDataSource {
     }
   }
 
+  Future<bool> hasInteractions() async {
+    try {
+      final db = await dbHelper.database;
+      final count = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+        ),
+      );
+      print("Checking if database has interactions. Count: $count");
+      return count != null && count > 0;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  Future<void> seedDatabaseFromAssetIfNeeded() async {
+    bool medsExist = await hasMedicines();
+    bool interactionsExist = await hasInteractions();
+
+    if (!medsExist || !interactionsExist) {
+      print(
+        "Missing data (Meds: $medsExist, Interactions: $interactionsExist). Triggering Seeding...",
+      );
+      await performInitialSeeding();
+    } else {
+      print("Database already seeded. Skipping initial seeding.");
+      markSeedingAsComplete();
+    }
+  }
+
   // --- Find Similars (Same Active Ingredient, Different Trade Name) ---
   Future<List<MedicineModel>> findSimilars(
     String activeIngredient,
