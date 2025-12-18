@@ -34,9 +34,8 @@ abstract class DrugRepository {
   Future<Either<Failure, int>> getLastUpdateTimestamp();
 
   /// Get drugs updated after a specific timestamp (Delta Sync)
-  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
-    int lastTimestamp,
-  );
+  /// Returns count of updated drugs
+  Future<Either<Failure, int>> getDeltaSyncDrugs(int lastTimestamp);
 
   /// Gets drugs updated after a specific date.
   Future<Either<Failure, List<DrugEntity>>> getRecentlyUpdatedDrugs({

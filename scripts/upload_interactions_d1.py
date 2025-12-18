@@ -44,7 +44,8 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
     severity TEXT,
     effect TEXT,
     source TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at INTEGER DEFAULT (strftime('%s', 'now'))
 );\n\n""")
                     f.write("CREATE INDEX idx_di_ing1 ON drug_interactions(ingredient1);\n")
                     f.write("CREATE INDEX idx_di_ing2 ON drug_interactions(ingredient2);\n\n")
@@ -95,6 +96,7 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
                     f.write("""CREATE TABLE med_ingredients (
     med_id INTEGER,
     ingredient TEXT,
+    updated_at INTEGER DEFAULT (strftime('%s', 'now')),
     PRIMARY KEY (med_id, ingredient)
 );\n\n""")
                     f.write("CREATE INDEX idx_mi_mid ON med_ingredients(med_id);\n\n")

@@ -17,11 +17,13 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 5; // Bumping version for schema update
-  static const String medicinesTable = 'medicines';
+  static const int _dbVersion = 6; // Bumping version for table renaming
+  static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
+  static const String interactionsTable =
+      'drug_interactions'; // Renamed from 'interaction_rules'
 
   // --- Column Names ---
-  static const String colId = 'id'; // INTEGER PRIMARY KEY - NEW
+  static const String colId = 'id';
   static const String colTradeName = 'tradeName';
   static const String colArabicName = 'arabicName';
   static const String colPrice = 'price';
@@ -32,16 +34,17 @@ class DatabaseHelper {
   static const String colActive = 'active';
   static const String colCompany = 'company';
   static const String colDosageForm = 'dosageForm';
-  static const String colDosageFormAr = 'dosageForm_ar'; // NEW
+  static const String colDosageFormAr = 'dosageForm_ar';
   static const String colConcentration = 'concentration';
   static const String colUnit = 'unit';
   static const String colUsage = 'usage';
-  static const String colUsageAr = 'usage_ar'; // NEW
+  static const String colUsageAr = 'usage_ar';
   static const String colDescription = 'description';
-  static const String colBarcode = 'barcode'; // NEW
-  static const String colVisits = 'visits'; // NEW
+  static const String colBarcode = 'barcode';
+  static const String colVisits = 'visits';
   static const String colLastPriceUpdate = 'lastPriceUpdate';
   static const String colImageUrl = 'imageUrl';
+  static const String colUpdatedAt = 'updatedAt'; // New for Delta Sync
 
   Future<Database> get database async {
     if (_database != null) return _database!;
@@ -65,36 +68,30 @@ class DatabaseHelper {
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     debugPrint('Upgrading database from version $oldVersion to $newVersion...');
 
-    // Version 4: Full Schema Reset (Development Breakpoint)
-    if (oldVersion < 4) {
-      debugPrint('Performing full schema reset for Version 4...');
-      await db.execute('DROP TABLE IF EXISTS $medicinesTable');
+    if (oldVersion < 6) {
+      debugPrint(
+        'Performing full schema migration for Version 6 (Renaming)...',
+      );
+      // Full reset is safest for beta to ensure clean state with new naming
+      await db.execute('DROP TABLE IF EXISTS medicines'); // Old name
+      await db.execute('DROP TABLE IF EXISTS drugs'); // New name (if exists)
       await db.execute('DROP TABLE IF EXISTS dosage_guidelines');
-      await db.execute(
-        'DROP TABLE IF EXISTS drug_interactions',
-      ); // Ensure old table is gone too
+      await db.execute('DROP TABLE IF EXISTS interaction_rules'); // Old name
+      await db.execute('DROP TABLE IF EXISTS drug_interactions'); // New name
+      await db.execute('DROP TABLE IF EXISTS med_ingredients');
       await _onCreate(db, newVersion);
       return;
-    }
-
-    // Version 5: Relational Interactions Pivot
-    if (oldVersion < 5) {
-      debugPrint('Performing schema migration to Version 5 (Relational)...');
-      await db.execute(
-        'DROP TABLE IF EXISTS drug_interactions',
-      ); // Drop old exploded table
-      await _onCreateInteractions(db); // Create new relational tables
     }
   }
 
   Future<void> _onCreate(Database db, int version) async {
     debugPrint('Creating database tables and indices...');
 
-    // Updated Medicine Table with ALL columns
+    // Updated Medicine Table (Renamed to drugs)
     await db.execute('''
           CREATE TABLE $medicinesTable (
             $colTradeName TEXT PRIMARY KEY,
-            $colId INTEGER, -- Optional ID linkage
+            $colId INTEGER,
             $colArabicName TEXT,
             $colPrice TEXT,
             $colOldPrice TEXT,
@@ -113,7 +110,8 @@ class DatabaseHelper {
             $colBarcode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
-            $colImageUrl TEXT
+            $colImageUrl TEXT,
+            $colUpdatedAt INTEGER DEFAULT 0 -- For Sync logic
           )
           ''');
     debugPrint('Medicines table created');
@@ -168,27 +166,28 @@ class DatabaseHelper {
   // ...
 
   Future<void> _onCreateInteractions(Database db) async {
-    debugPrint('Creating interaction_rules and med_ingredients tables...');
+    debugPrint('Creating $interactionsTable and med_ingredients tables...');
 
     // 1. Rules Table (Knowledge Base)
     await db.execute('''
-      CREATE TABLE interaction_rules (
+      CREATE TABLE $interactionsTable (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         ingredient1 TEXT,
         ingredient2 TEXT,
         severity TEXT,
         effect TEXT,
-        source TEXT
+        source TEXT,
+        updated_at INTEGER DEFAULT 0 -- For Sync
       )
     ''');
     await db.execute(
-      'CREATE INDEX idx_rules_i1 ON interaction_rules(ingredient1)',
+      'CREATE INDEX idx_rules_i1 ON $interactionsTable(ingredient1)',
     );
     await db.execute(
-      'CREATE INDEX idx_rules_i2 ON interaction_rules(ingredient2)',
+      'CREATE INDEX idx_rules_i2 ON $interactionsTable(ingredient2)',
     );
     await db.execute(
-      'CREATE INDEX idx_rules_pair ON interaction_rules(ingredient1, ingredient2)',
+      'CREATE INDEX idx_rules_pair ON $interactionsTable(ingredient1, ingredient2)',
     );
 
     // 2. Ingredients Index (Map)

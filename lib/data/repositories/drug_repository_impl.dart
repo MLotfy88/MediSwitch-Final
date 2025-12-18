@@ -15,10 +15,6 @@ import 'package:sqflite/sqflite.dart';
 
 import '../../core/database/database_helper.dart';
 
-// Top-level function for compute
-List<MedicineModel> _parseMedicineModels(List<Map<String, dynamic>> data) {
-  return data.map((json) => MedicineModel.fromMap(json)).toList();
-}
 // import '../../core/network/network_info.dart';
 
 class DrugRepositoryImpl implements DrugRepository {
@@ -332,9 +328,7 @@ class DrugRepositoryImpl implements DrugRepository {
   }
 
   @override
-  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
-    int lastTimestamp,
-  ) async {
+  Future<Either<Failure, int>> getDeltaSyncDrugs(int lastTimestamp) async {
     _logger.d(
       "DrugRepository: getDeltaSyncDrugs called with lastTimestamp: $lastTimestamp",
     );
@@ -343,101 +337,64 @@ class DrugRepositoryImpl implements DrugRepository {
       return Left(NetworkFailure());
     }
 
-    // HYBRID SYNC STRATEGY:
-    // If timestamp is 0 (first sync or full reset), use CSV Download (more robust for bulk data).
-    // If timestamp > 0, use JSON Delta Sync (efficient for small updates).
-    if (lastTimestamp == 0) {
-      _logger.i(
-        "DrugRepository: Timestamp is 0. Switching to FULL CSV DOWNLOAD strategy.",
-      );
-      try {
-        await _updateLocalDataFromRemote(); // Reuses existing CSV download logic
-
-        // After successful download, we need to return a "success" map to satisfy the contract.
-        // We fetch the new timestamp to return it.
-        final newTimestamp =
-            await localDataSource.getLastUpdateTimestamp() ??
-            DateTime.now().millisecondsSinceEpoch;
-
-        return Right({
-          'count': 1, // specific count unknown, but > 0
-          'currentTimestamp': newTimestamp,
-          'drugs': [], // Drugs already saved to DB via CSV import
-        });
-      } catch (e) {
-        _logger.e("DrugRepository: Full CSV sync failed", e);
-        return Left(ServerFailure(message: e.toString()));
-      }
-    }
-
-    // Standard Delta Sync for updates
     try {
       final result = await remoteDataSource.getDeltaSyncDrugs(lastTimestamp);
       return await result.fold(
         (failure) {
           _logger.w('DrugRepository: Delta sync failed - $failure');
-          // Check for 404 (Not Found) which means our timestamp is invalid/too old for server
-          // or just unknown. In this case, fallback to Full Sync (timestamp=0).
-          if (failure is ServerFailure &&
-              failure.message != null &&
-              failure.message!.contains('404')) {
-            _logger.w(
-              'DrugRepository: Delta sync 404. Falling back to Full Sync (Timestamp=0).',
-            );
-            return getDeltaSyncDrugs(0);
-          }
           return Left(failure);
         },
         (data) async {
-          _logger.i(
-            "DrugRepository: Delta sync successful, received ${data['count']} drugs",
-          );
+          final List<dynamic> drugsRaw =
+              (data['data'] ?? data['drugs'] ?? []) as List<dynamic>;
+          final List<Map<String, dynamic>> drugsData =
+              drugsRaw.cast<Map<String, dynamic>>();
+          final int count = (data['total'] as int?) ?? drugsData.length;
+          _logger.i("DrugRepository: Sync data received, found $count items");
 
-          // Cache the updated drugs to local DB
-          final drugsData = data['drugs'];
-          if (drugsData != null && drugsData is List && drugsData.isNotEmpty) {
-            // Use compute to map JSON to Models in a background isolate
+          if (drugsData.isNotEmpty) {
+            // Use compute for heavy mapping
             final List<MedicineModel> models = await compute(
-              _parseMedicineModels,
-              drugsData.cast<Map<String, dynamic>>(),
+              _parseSyncDrugs,
+              drugsData,
             );
 
             if (models.isNotEmpty) {
-              // Insert/update drugs in DB
               final db = await localDataSource.dbHelper.database;
-              final batch = db.batch();
-              for (final model in models) {
-                batch.insert(
-                  DatabaseHelper.medicinesTable,
-                  model.toMap(),
-                  conflictAlgorithm: ConflictAlgorithm.replace,
-                );
-              }
-              await batch.commit(noResult: true);
-
-              _logger.i(
-                "DrugRepository: Cached ${models.length} updated drugs",
-              );
-
-              // Update local timestamp
-              final newTimestamp = data['currentTimestamp'] as int?;
-              if (newTimestamp != null) {
-                final prefs = await SharedPreferences.getInstance();
-                await prefs.setInt('csv_last_update_timestamp', newTimestamp);
-                _logger.i(
-                  "DrugRepository: Updated local timestamp to $newTimestamp",
-                );
-              }
+              await db.transaction((txn) async {
+                final batch = txn.batch();
+                for (final model in models) {
+                  batch.insert(
+                    DatabaseHelper.medicinesTable,
+                    model.toMap(),
+                    conflictAlgorithm: ConflictAlgorithm.replace,
+                  );
+                }
+                await batch.commit(noResult: true);
+              });
+              _logger.i("DrugRepository: Updated ${models.length} drugs in DB");
             }
           }
 
-          return Right(data);
+          // Update local timestamp
+          final newTimestamp = data['currentTimestamp'] as int?;
+          if (newTimestamp != null) {
+            final prefs = await SharedPreferences.getInstance();
+            await prefs.setInt('drugs_last_sync_timestamp', newTimestamp);
+          }
+
+          return Right(drugsData.length);
         },
       );
     } catch (e, s) {
       _logger.e('DrugRepository: Error during delta sync', e, s);
-      return Left(ServerFailure());
+      return Left(ServerFailure(message: e.toString()));
     }
+  }
+
+  // Top-level function for compute
+  static List<MedicineModel> _parseSyncDrugs(List<Map<String, dynamic>> data) {
+    return data.map((json) => MedicineModel.fromSyncJson(json)).toList();
   }
 
   @override

@@ -2,7 +2,7 @@ import '../../core/database/database_helper.dart'; // Import DatabaseHelper for 
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
 class MedicineModel {
-  final int? id; // Now the primary identifier
+  final int? id; // Now the primary identifier from D1
   final String tradeName;
   final String arabicName;
   final String price;
@@ -17,13 +17,13 @@ class MedicineModel {
   final String usageAr;
   final String category; // General Category
   final String categoryAr;
-  final String
-  mainCategory; // Main Category (kept for compatibility logic if needed, or mapped to category)
+  final String mainCategory;
   final String description;
   final String barcode;
   final int visits;
   final String lastPriceUpdate;
   final String? imageUrl;
+  final int updatedAt; // Unix timestamp for Sync
 
   MedicineModel({
     this.id,
@@ -41,40 +41,33 @@ class MedicineModel {
     required this.usageAr,
     required this.category,
     required this.categoryAr,
-    this.mainCategory = '', // Default or mapped
+    this.mainCategory = '',
     required this.description,
     required this.barcode,
     required this.visits,
     required this.lastPriceUpdate,
     this.imageUrl,
+    this.updatedAt = 0,
   });
 
   // Helper function to safely parse string from dynamic row data
   static String _parseString(dynamic value) => value?.toString().trim() ?? '';
 
-  // Helper to normalize date from dd/MM/yyyy to yyyy-MM-dd for sorting
+  // Helper to normalize date
   static String _normalizeDate(String date) {
     if (date.isEmpty) return '';
     try {
       final parts = date.split('/');
       if (parts.length == 3) {
-        // Assume dd/MM/yyyy
         final day = parts[0].padLeft(2, '0');
         final month = parts[1].padLeft(2, '0');
         final year = parts[2];
         return '$year-$month-$day';
       }
-    } catch (e) {
-      // Ignore error and return original
-    }
+    } catch (e) {}
     return date;
   }
 
-  // UPDATED CSV MAPPING (20 Columns)
-  // 0: id, 1: trade_name, 2: arabic_name, 3: price, 4: old_price, 5: active,
-  // 6: company, 7: dosage_form, 8: dosage_form_ar, 9: concentration, 10: unit,
-  // 11: usage, 12: usage_ar, 13: category, 14: category_ar, 15: description,
-  // 16: barcode, 17: visits, 18: last_price_update, 19: image_url
   factory MedicineModel.fromCsv(List<dynamic> row) {
     return MedicineModel(
       id: row.length > 0 ? int.tryParse(row[0].toString()) : null,
@@ -92,20 +85,44 @@ class MedicineModel {
       usageAr: row.length > 12 ? _parseString(row[12]) : '',
       category: row.length > 13 ? _parseString(row[13]) : '',
       categoryAr: row.length > 14 ? _parseString(row[14]) : '',
-      mainCategory:
-          row.length > 13
-              ? _parseString(row[13])
-              : '', // Map category to mainCategory for compatibility
+      mainCategory: row.length > 13 ? _parseString(row[13]) : '',
       description: row.length > 15 ? _parseString(row[15]) : '',
       barcode: row.length > 16 ? _parseString(row[16]) : '',
       visits: row.length > 17 ? (int.tryParse(row[17].toString()) ?? 0) : 0,
-      lastPriceUpdate:
-          row.length > 18 ? _normalizeDate(_parseString(row[18])) : '',
+      lastPriceUpdate: row.length > 18 ? _normalizeDate(_parseString(row[18])) : '',
       imageUrl: row.length > 19 ? _parseString(row[19]) : null,
+      updatedAt: 0, // CSV doesn't have it generally
     );
   }
 
-  // Convert model to Map for database insertion
+  // Specialized factory for Cloudflare D1 Sync Data (Snake Case)
+  factory MedicineModel.fromSyncJson(Map<String, dynamic> json) {
+    return MedicineModel(
+      id: json['id'] as int?,
+      tradeName: _parseString(json['trade_name']),
+      arabicName: _parseString(json['arabic_name']),
+      active: _parseString(json['active']),
+      company: _parseString(json['company']),
+      category: _parseString(json['category']),
+      categoryAr: _parseString(json['category_ar']),
+      price: _parseString(json['price']),
+      description: _parseString(json['description']),
+      imageUrl: _parseString(json['image_url']),
+      lastPriceUpdate: _parseString(json['last_price_update']),
+      updatedAt: json['updated_at'] as int? ?? 0,
+      // Mapping defaults for missing D1 fields if any
+      oldPrice: _parseString(json['old_price']),
+      dosageForm: _parseString(json['dosage_form']),
+      dosageFormAr: _parseString(json['dosage_form_ar']),
+      concentration: _parseString(json['concentration']),
+      unit: _parseString(json['unit']),
+      usage: _parseString(json['usage']),
+      usageAr: _parseString(json['usage_ar']),
+      barcode: _parseString(json['barcode']),
+      visits: json['visits'] as int? ?? 0,
+    );
+  }
+
   Map<String, dynamic> toMap() {
     return {
       DatabaseHelper.colId: id,
@@ -123,16 +140,16 @@ class MedicineModel {
       DatabaseHelper.colUsageAr: usageAr,
       DatabaseHelper.colCategory: category,
       DatabaseHelper.colCategoryAr: categoryAr,
-      DatabaseHelper.colMainCategory: mainCategory, // Still store if needed
+      DatabaseHelper.colMainCategory: mainCategory,
       DatabaseHelper.colDescription: description,
       DatabaseHelper.colBarcode: barcode,
       DatabaseHelper.colVisits: visits,
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
       DatabaseHelper.colImageUrl: imageUrl,
+      DatabaseHelper.colUpdatedAt: updatedAt,
     };
   }
 
-  // Create model from Map (from database)
   factory MedicineModel.fromMap(Map<String, dynamic> map) {
     return MedicineModel(
       id: map[DatabaseHelper.colId] as int?,
@@ -156,10 +173,10 @@ class MedicineModel {
       visits: map[DatabaseHelper.colVisits] as int? ?? 0,
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
       imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
+      updatedAt: map[DatabaseHelper.colUpdatedAt] as int? ?? 0,
     );
   }
 
-  // Convert MedicineModel to DrugEntity
   DrugEntity toEntity() {
     return DrugEntity(
       id: id,
@@ -179,12 +196,6 @@ class MedicineModel {
       description: description,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
-      // Pass unused fields if Entity expands: usageAr, barcode, dosageFormAr
     );
-  }
-
-  @override
-  String toString() {
-    return '$tradeName ($id) - $arabicName - $price';
   }
 }
