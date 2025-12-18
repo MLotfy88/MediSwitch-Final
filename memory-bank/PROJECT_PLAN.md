@@ -60,6 +60,7 @@
 
 ### Flutter App
 - [x] Implement `NotificationsScreen` (Backend ready, UI Logic updated)
+- [x] Interaction Checker & Dosage Calculator tools implementation
 - [x] Ad Config Integration
 - [x] Final UI Verification
 - [x] Theme Light/Dark Mode Support
@@ -76,8 +77,9 @@
 | Specialized Screens | ✅ | Dec 7 |
 | Design Doc Review | ✅ | Dec 7 |
 | UI Design Fixes (Category sizes, Badges, Tabs, Search Bar) | ✅ | Dec 8 |
-| Final Testing & Release Prep | ⏳ | Next |
-| Notifications Screen | ⏳ | Next |
+| Final Testing & Release Prep | ✅ | Dec 18 |
+| Interaction & Dosage Tools | ✅ | Dec 18 |
+| Notifications Screen | ✅ | Dec 18 |
 
 ---
 

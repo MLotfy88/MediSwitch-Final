@@ -175,11 +175,22 @@ export default {
                 return handleFixNullDates(request, DB);
             }
 
-            // ========== DELTA SYNC ==========
-            if (path.match(/^\/api\/drugs\/delta\/\d+$/) && request.method === 'GET') {
-                const timestamp = path.split('/').pop();
-                return handleDeltaSync(timestamp, DB);
+            // ========== SYNC ENDPOINTS (New) ==========
+            if (path === '/api/sync/drugs' && request.method === 'GET') {
+                return handleSyncDrugs(request, DB);
             }
+
+            if (path === '/api/sync/interactions' && request.method === 'GET') {
+                return handleSyncInteractions(request, DB);
+            }
+
+            if (path === '/api/sync/dosages' && request.method === 'GET') {
+                // Placeholder if needed, or implement handleSyncDosages
+                return jsonResponse({ data: [] });
+            }
+
+            // ========== DELTA SYNC (Legacy, keeping for safety if anyone uses it? No, replace) ==========
+            // (Removed old regex match)
 
             // ========== BULK UPDATE (GitHub Actions) ==========
             if (path === '/api/update' && request.method === 'POST') {
@@ -448,77 +459,89 @@ async function handleRecentPriceChanges(request, DB) {
     }
 }
 
-async function handleDeltaSync(timestamp, DB) {
+async function handleSyncDrugs(request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
 
     try {
-        const timestampNum = parseInt(timestamp);
-
-        // Transform D1 snake_case to Flutter camelCase
-        const transformDrug = (drug) => ({
-            id: drug.id,
-            tradeName: drug.trade_name,
-            arabicName: drug.arabic_name,
-            oldPrice: drug.old_price,
-            price: drug.price,
-            active: drug.active,
-            mainCategory: drug.main_category,
-            mainCategory_ar: drug.main_category_ar,
-            company: drug.company,
-            dosageForm: drug.dosage_form,
-            dosageForm_ar: drug.dosage_form_ar,
-            unit: drug.unit,
-            usage: drug.usage,
-            usage_ar: drug.usage_ar,
-            description: drug.description || '',
-            lastPriceUpdate: drug.last_price_update,
-            concentration: drug.concentration,
-            imageUrl: drug.image_url || null,
-            category: drug.category,
-            category_ar: drug.category_ar,
-            visits: drug.visits || 0,
-            createdAt: drug.created_at,
-            updatedAt: drug.updated_at
-        });
-
-        // If timestamp is 0, return last 1000 drugs (full sync)
-        if (timestampNum === 0) {
-            const query = `
-                SELECT * FROM drugs
-                ORDER BY updated_at DESC
-                LIMIT 1000
-            `;
-            const result = await DB.prepare(query).all();
-            const transformedDrugs = (result.results || []).map(transformDrug);
-
-            return jsonResponse({
-                drugs: transformedDrugs,
-                count: transformedDrugs.length,
-                sync_type: 'full'
-            });
+        let query = 'SELECT * FROM drugs';
+        const params = [];
+        if (since > 0) {
+            query += ' WHERE updated_at > ?';
+            params.push(since);
+        }
+        query += ' ORDER BY id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
         }
 
-        // Delta sync: return drugs updated after timestamp
-        const query = `
-            SELECT * FROM drugs
-            WHERE updated_at > ?
-            ORDER BY updated_at ASC
-        `;
+        const { results } = await DB.prepare(query).bind(...params).all();
 
-        const result = await DB.prepare(query).bind(timestampNum).all();
-        const transformedDrugs = (result.results || []).map(transformDrug);
+        let countQuery = 'SELECT COUNT(*) as total FROM drugs';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += ' WHERE updated_at > ?';
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
 
+        // Return raw snake_case results as expected by Flutter App's MedicineModel.fromSyncJson
         return jsonResponse({
-            drugs: transformedDrugs,
-            count: transformedDrugs.length,
-            sync_type: 'delta',
-            timestamp: timestampNum,
-            server_time: Math.floor(Date.now() / 1000)
+            data: results,
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
         });
 
-    } catch (error) {
-        console.error('Delta sync error:', error);
-        return errorResponse('Delta sync failed: ' + error.message, 500);
+    } catch (e) {
+        console.error('Sync drugs error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleSyncInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+    try {
+        let query = 'SELECT * FROM drug_interactions';
+        const params = [];
+        if (since > 0) {
+            query += ' WHERE updated_at > ?'; // Ensure updated_at exists in table
+            params.push(since);
+        }
+        query += ' ORDER BY id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
+        }
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+
+        // Count
+        let countQuery = 'SELECT COUNT(*) as total FROM drug_interactions';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += ' WHERE updated_at > ?';
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+            data: results,
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (e) {
+        console.error('Sync interactions error:', e);
+        return errorResponse(e.message, 500);
     }
 }
 

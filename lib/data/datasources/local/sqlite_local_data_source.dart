@@ -5,6 +5,7 @@ import 'package:csv/csv.dart'; // Restore csv import
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:mediswitch/core/database/database_helper.dart';
+import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/data/models/drug_interaction_model.dart'; // Added import
 import 'package:mediswitch/data/models/medicine_model.dart';
@@ -19,6 +20,18 @@ const String _prefsKeyLastUpdate = 'csv_last_update_timestamp';
 const int _initialDataTimestamp = 0;
 
 // --- Top-level Functions for Isolate ---
+
+// Helper to parse ingredients from active string
+List<String> _parseIngredients(String active) {
+  if (active.isEmpty) return [];
+  // Split by +, /, and ,
+  return active
+      .split(RegExp(r'[+/,]'))
+      .map((e) => e.trim().toLowerCase())
+      .where((e) => e.isNotEmpty)
+      .toList();
+}
+
 // Keep for update logic
 List<MedicineModel> _parseCsvData(String rawCsv) {
   final List<List<dynamic>> csvTable = const CsvToListConverter(
@@ -48,6 +61,8 @@ Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
     final List<MedicineModel> medicines = _parseCsvData(rawCsv);
     db = await openDatabase(dbPath);
     await db.delete(DatabaseHelper.medicinesTable);
+    await db.delete('med_ingredients'); // Clear ingredients mapping
+
     final batch = db.batch();
     for (final medicine in medicines) {
       batch.insert(
@@ -55,6 +70,17 @@ Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
         medicine.toMap(),
         conflictAlgorithm: ConflictAlgorithm.replace,
       );
+
+      // Populate ingredients if ID exists
+      if (medicine.id != null && medicine.active.isNotEmpty) {
+        final ingredients = _parseIngredients(medicine.active);
+        for (final ing in ingredients) {
+          batch.insert('med_ingredients', {
+            'med_id': medicine.id,
+            'ingredient': ing,
+          }, conflictAlgorithm: ConflictAlgorithm.replace);
+        }
+      }
     }
     await batch.commit(noResult: true);
     return null;
@@ -145,12 +171,26 @@ class SqliteLocalDataSource {
       } else {
         print('[Main Thread] Starting batch insert...');
         final batch = db.batch();
+        // Also clear invalid ingredients if necessary, but this is initial seeding
+        // db.delete('med_ingredients');
+
         for (final medicine in medicines) {
           batch.insert(
             DatabaseHelper.medicinesTable,
             medicine.toMap(),
             conflictAlgorithm: ConflictAlgorithm.replace,
           );
+
+          // Populate ingredients if ID exists (Dynamic Linking)
+          if (medicine.id != null && medicine.active.isNotEmpty) {
+            final ingredients = _parseIngredients(medicine.active);
+            for (final ing in ingredients) {
+              batch.insert('med_ingredients', {
+                'med_id': medicine.id,
+                'ingredient': ing,
+              }, conflictAlgorithm: ConflictAlgorithm.replace);
+            }
+          }
         }
         await batch.commit(noResult: true);
         await batch.commit(noResult: true);
@@ -432,12 +472,33 @@ class SqliteLocalDataSource {
     }
 
     final db = await dbHelper.database;
-    final lowerCaseCategory = category.toLowerCase();
+
+    // Use CategoryMapperHelper to get keywords for the selected specialty
+    final keywords = CategoryMapperHelper.getKeywords(category);
+
+    String whereClause;
+    List<dynamic> whereArgs;
+
+    if (keywords.isNotEmpty) {
+      // It's a specialty -> filter using keywords on the detailed category column
+      // Construct: (lower(col) LIKE ? OR lower(col) LIKE ?)
+      final conditions = List.generate(
+        keywords.length,
+        (index) => "LOWER(${DatabaseHelper.colCategory}) LIKE ?",
+      ).join(' OR ');
+      whereClause = "($conditions)";
+      whereArgs = keywords.map((k) => '%$k%').toList();
+    } else {
+      // Fallback: Exact match or simple LIKE (if not a specialty)
+      // We check colCategory, not colMainCategory which might be empty
+      whereClause = 'LOWER(${DatabaseHelper.colCategory}) = ?';
+      whereArgs = [category.toLowerCase()];
+    }
 
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'LOWER(${DatabaseHelper.colMainCategory}) = ?',
-      whereArgs: [lowerCaseCategory],
+      where: whereClause,
+      whereArgs: whereArgs,
       limit: limit,
       offset: offset,
     );
@@ -600,15 +661,36 @@ class SqliteLocalDataSource {
     }
 
     final db = await dbHelper.database;
-    final lowerCaseCategory = category.toLowerCase();
     final lowerCaseActive = activeIngredient.toLowerCase();
+
+    // SMART MAPPING: Map detailed category to broad specialty, then get its keywords
+    // This allows finding "Same Classification" drugs (e.g. all Cardiovascular) even if detailed category differs
+    final specialtyId = CategoryMapperHelper.mapCategoryToSpecialty(category);
+    final keywords = CategoryMapperHelper.getKeywords(specialtyId);
+
+    String whereClause;
+    List<dynamic> whereArgs;
+
+    if (keywords.isNotEmpty) {
+      // Broad match using specialty keywords
+      final conditions = List.generate(
+        keywords.length,
+        (index) => "LOWER(${DatabaseHelper.colCategory}) LIKE ?",
+      ).join(' OR ');
+      whereClause = "($conditions) AND LOWER(${DatabaseHelper.colActive}) != ?";
+      whereArgs = [...keywords.map((k) => '%$k%'), lowerCaseActive];
+    } else {
+      // Exact match fallback (if not a mapped specialty)
+      whereClause =
+          'LOWER(${DatabaseHelper.colCategory}) = ? AND LOWER(${DatabaseHelper.colActive}) != ?';
+      whereArgs = [category.toLowerCase(), lowerCaseActive];
+    }
 
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where:
-          'LOWER(${DatabaseHelper.colCategory}) = ? AND LOWER(${DatabaseHelper.colActive}) != ?',
-      whereArgs: [lowerCaseCategory, lowerCaseActive],
-      // Optional: Add limit if needed
+      where: whereClause,
+      whereArgs: whereArgs,
+      limit: 50, // Limit results to avoid overwhelming the UI
     );
 
     return List.generate(maps.length, (i) {

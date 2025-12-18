@@ -369,6 +369,21 @@ class DrugRepositoryImpl implements DrugRepository {
                     model.toMap(),
                     conflictAlgorithm: ConflictAlgorithm.replace,
                   );
+
+                  // Populate ingredients for interactions
+                  if (model.id != null && model.active.isNotEmpty) {
+                    final parts = model.active.split(RegExp(r'[+/,]'));
+                    for (final p in parts) {
+                      final ing = p.trim().toLowerCase();
+                      if (ing.isNotEmpty) {
+                        batch.insert(
+                          'med_ingredients',
+                          {'med_id': model.id, 'ingredient': ing},
+                          conflictAlgorithm: ConflictAlgorithm.replace,
+                        );
+                      }
+                    }
+                  }
                 }
                 await batch.commit(noResult: true);
               });

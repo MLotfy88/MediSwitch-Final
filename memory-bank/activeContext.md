@@ -1,4 +1,4 @@
-# 🎯 آخر تحديث - 6 ديسمبر 2025
+# 🎯 آخر تحديث - 18 ديسمبر 2025
 
 ## ✅ الإنجازات المكتملة
 
@@ -25,25 +25,27 @@
 
 ### Flutter App (MediSwitch) ✅
 - **UI Refinements:**
-  - **High Risk Screen:** New dedicated screen for severe interactions with search.
-  - **Localization:** Search constraints fixed.
+  - **High Risk Section:** Dedicated logic to identify and display high-risk drugs on the HomeScreen via `HighRiskDrugsCard`.
+  - **Drug Details Tabs:** Fully functional "Similars", "Alternatives", and "Interactions" tabs with smart matching logic.
+  - **Localization:** Search constraints and tab labels fixed.
   - **Notifications:** Android 13+ support.
-- **Backend Sync:** استخدام الـ Endpoints الجديدة (`/api/config`, `/api/notifications`).
+- **Backend Sync & D1:**
+  - **Interaction Matching:** Resolved issues with interaction bridging; all drugs now link to interactions via automated `med_ingredients` population.
+  - **D1 Optimization:** Fixed `SQLITE_TOOBIG` errors during large data exports to D1.
+  - **Sync Logic:** Improved delta sync to handle batch processing of ingredient mapping for new drugs.
 
 # Active Context
 
 ## Current Focus
-- **Dosage Calculator & Interaction Checker Implementation**
-- Integrating extracted drug data (22k+ interactions) into the app
-- Developing the logic for the dosage calculator using the new data strategy
+- **Final Polish & Verification:** Ensuring all tools (Interaction Checker, Dosage Calculator) operate flawlessly with the latest production data.
+- **Store Deployment:** Preparing assets and descriptions for app store listings.
 
 ## Recent Changes
-- **Dosage Data Success:** Extracted **85,090 dosage records** covering 5,744 unique drugs.
-- **Linkage Logic:** Implemented **In-Memory Name Cleaning** to link DailyMed data to local App IDs (prioritizing App Name for concentration accuracy).
-- **Extraction Workflows:** Split into `extract_interactions.yml` (Stable) and `extract_full_data.yml` (Production Linked DB).
-- **Data Quality:** Confirmed structured extraction for 6% (pediatric mg/kg) and 33% (frequency), with 100% text coverage fallback.
-- **Infrastructure:** established `production_data` pipeline with quality validation scripts.
-- جاهز للإطلاق (Production Ready).
+- **Interaction Data Bridge:** Automated the population of `med_ingredients` during seeding and sync, resolving "0 interactions" mapping issues.
+- **Smart Alternatives:** Implemented `CategoryMapperHelper` to provide classification-based drug alternatives (same specialty).
+- **Hybrid Dosage Logic:** Updated `DosageCalculatorService` to use a mix of validated pediatric formulas and DB-driven guidelines.
+- **D1 Sync Stability:** Optimized SQL export scripts to handle 23k+ drugs without hitting Cloudflare size limits.
+- **MedicineProvider Overhaul:** Unified initialization sequence to load high-risk data and recently updated drugs correctly.
 
 ---
 
