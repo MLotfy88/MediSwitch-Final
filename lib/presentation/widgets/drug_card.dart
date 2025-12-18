@@ -14,17 +14,14 @@ import '../widgets/custom_badge.dart'; // Import CustomBadge
 
 enum DrugCardType { thumbnail, detailed }
 
-class DrugCard extends StatelessWidget {
-  final FileLoggerService _logger = locator<FileLoggerService>();
-  final InteractionRepository _interactionRepository =
-      locator<InteractionRepository>();
+class DrugCard extends StatefulWidget {
   final DrugEntity drug;
   final VoidCallback? onTap;
   final DrugCardType type;
   final bool isPopular; // Flag for popular drug
   final bool isAlternative; // Flag for alternative drug
 
-  DrugCard({
+  const DrugCard({
     super.key,
     required this.drug,
     this.onTap,
@@ -32,6 +29,50 @@ class DrugCard extends StatelessWidget {
     this.isPopular = false,
     this.isAlternative = false,
   });
+
+  @override
+  State<DrugCard> createState() => _DrugCardState();
+}
+
+class _DrugCardState extends State<DrugCard> {
+  // ignore: unused_field
+  final FileLoggerService _logger = locator<FileLoggerService>();
+  final InteractionRepository _interactionRepository =
+      locator<InteractionRepository>();
+
+  bool _hasInteractions = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkInteractions();
+  }
+
+  @override
+  void didUpdateWidget(covariant DrugCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.drug.active != widget.drug.active ||
+        oldWidget.drug.id != widget.drug.id) {
+      _checkInteractions();
+    }
+  }
+
+  Future<void> _checkInteractions() async {
+    // If active ingredient is empty, it likely has no interactions recorded anyway
+    if (widget.drug.active.isEmpty) {
+      if (mounted) setState(() => _hasInteractions = false);
+      return;
+    }
+
+    final hasIt = await _interactionRepository.hasKnownInteractions(
+      widget.drug,
+    );
+    if (mounted) {
+      setState(() {
+        _hasInteractions = hasIt;
+      });
+    }
+  }
 
   // Helper to format price after parsing
   String _formatPrice(String priceString) {
@@ -94,7 +135,7 @@ class DrugCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return type == DrugCardType.thumbnail
+    return widget.type == DrugCardType.thumbnail
         ? _buildThumbnailCard(context)
         : _buildDetailedCard(context);
   }
@@ -103,6 +144,7 @@ class DrugCard extends StatelessWidget {
   Widget _buildDetailedCard(BuildContext context) {
     final locale = Localizations.localeOf(context);
     final isArabic = locale.languageCode == 'ar';
+    final drug = widget.drug;
     final displayName =
         (isArabic && drug.arabicName.isNotEmpty)
             ? drug.arabicName
@@ -120,11 +162,9 @@ class DrugCard extends StatelessWidget {
         currentPriceValue != null &&
         oldPriceValue != currentPriceValue;
     final bool isPriceIncreased =
-        isPriceChanged && currentPriceValue! > oldPriceValue!;
+        (currentPriceValue != null && oldPriceValue != null) &&
+        (currentPriceValue > oldPriceValue);
 
-    final bool hasInteractions = _interactionRepository.hasKnownInteractions(
-      drug,
-    );
     final String updateTime = _getTimeSinceUpdate(
       context,
       drug.lastPriceUpdate,
@@ -152,7 +192,7 @@ class DrugCard extends StatelessWidget {
       child: Material(
         color: Colors.transparent,
         child: InkWell(
-          onTap: onTap,
+          onTap: widget.onTap,
           borderRadius: BorderRadius.circular(12),
           child: Padding(
             padding: const EdgeInsets.all(12),
@@ -181,7 +221,7 @@ class DrugCard extends StatelessWidget {
                             ),
                           ),
                           // Interaction Warning at TOP
-                          if (hasInteractions)
+                          if (_hasInteractions)
                             Padding(
                               padding: const EdgeInsetsDirectional.only(
                                 start: 6,
@@ -301,20 +341,20 @@ class DrugCard extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     // Type Badge
-                    if (isPopular || isAlternative)
+                    if (widget.isPopular || widget.isAlternative)
                       Padding(
                         padding: const EdgeInsets.only(bottom: 6),
                         child: CustomBadge(
                           label:
-                              isPopular
+                              widget.isPopular
                                   ? (isArabic ? 'شائع' : 'Popular')
                                   : (isArabic ? 'بديل' : 'Alt'),
                           backgroundColor:
-                              isPopular
+                              widget.isPopular
                                   ? colorScheme.primaryContainer
                                   : colorScheme.secondaryContainer,
                           textColor:
-                              isPopular
+                              widget.isPopular
                                   ? colorScheme.onPrimaryContainer
                                   : colorScheme.onSecondaryContainer,
                           padding: const EdgeInsets.symmetric(
@@ -395,6 +435,7 @@ class DrugCard extends StatelessWidget {
   Widget _buildThumbnailCard(BuildContext context) {
     final locale = Localizations.localeOf(context);
     final isArabic = locale.languageCode == 'ar';
+    final drug = widget.drug;
     final displayName =
         (isArabic && drug.arabicName.isNotEmpty)
             ? drug.arabicName
@@ -412,7 +453,8 @@ class DrugCard extends StatelessWidget {
         currentPriceValue != null &&
         oldPriceValue != currentPriceValue;
     final bool isPriceIncreased =
-        isPriceChanged && currentPriceValue! > oldPriceValue!;
+        (currentPriceValue != null && oldPriceValue != null) &&
+        (currentPriceValue > oldPriceValue);
 
     return SizedBox(
       width: 180,
@@ -435,7 +477,7 @@ class DrugCard extends StatelessWidget {
         child: Material(
           color: Colors.transparent,
           child: InkWell(
-            onTap: onTap,
+            onTap: widget.onTap,
             borderRadius: BorderRadius.circular(12),
             child: Padding(
               padding: const EdgeInsets.all(12),

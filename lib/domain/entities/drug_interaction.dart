@@ -7,65 +7,76 @@ import 'interaction_type.dart'; // Import the enum
 
 // نموذج التفاعل الدوائي في طبقة المجال
 class DrugInteraction extends Equatable {
-  final String ingredient1; // المكون النشط الأول (اسم موحد)
-  final String ingredient2; // المكون النشط الثاني (اسم موحد)
-  final InteractionSeverity severity; // شدة التفاعل
-  final InteractionType type; // نوع التفاعل
-  final String effect; // تأثير التفاعل (يفضل بالإنجليزية لسهولة المعالجة)
-  final String arabicEffect; // تأثير التفاعل باللغة العربية (للعرض)
-  final String recommendation; // التوصية (يفضل بالإنجليزية)
-  final String arabicRecommendation; // التوصية باللغة العربية (للعرض)
+  final int? id;
+  final int medId; // ID of the local drug
+  final String interactionDrugName; // Name of the interacting drug
+  final String? interactionDailymedId; // RXCUI/UNII
+  final String severity;
+  final String description;
+  final String source;
 
   const DrugInteraction({
-    required this.ingredient1,
-    required this.ingredient2,
+    this.id,
+    required this.medId,
+    required this.interactionDrugName,
+    this.interactionDailymedId,
     required this.severity,
-    this.type = InteractionType.unknown,
-    required this.effect,
-    this.arabicEffect = '',
-    required this.recommendation,
-    this.arabicRecommendation = '',
+    required this.description,
+    this.source = 'DailyMed',
   });
 
   // Factory constructor to create an instance from JSON
   factory DrugInteraction.fromJson(Map<String, dynamic> json) {
     return DrugInteraction(
-      ingredient1: json['ingredient1'] as String? ?? '',
-      ingredient2: json['ingredient2'] as String? ?? '',
-      severity: _parseSeverity(json['severity'] as String? ?? ''),
-      type: _parseInteractionType(json['type'] as String? ?? ''),
-      effect: json['effect'] as String? ?? '',
-      arabicEffect: json['arabic_effect'] as String? ?? '', // Match JSON key
-      recommendation: json['recommendation'] as String? ?? '',
-      arabicRecommendation:
-          json['arabic_recommendation'] as String? ?? '', // Match JSON key
+      id: json['id'] as int?,
+      medId: json['med_id'] as int? ?? 0,
+      interactionDrugName: json['interaction_drug_name'] as String? ?? '',
+      interactionDailymedId: json['interaction_dailymed_id'] as String?,
+      severity: json['severity'] as String? ?? 'Moderate',
+      description: json['description'] as String? ?? '',
+      source: json['source'] as String? ?? 'DailyMed',
     );
   }
 
   // Method to convert instance back to JSON
   Map<String, dynamic> toJson() {
     return {
-      'ingredient1': ingredient1,
-      'ingredient2': ingredient2,
-      'severity': severity.toString().split('.').last,
-      'type': type.toString().split('.').last,
-      'effect': effect,
-      'arabic_effect': arabicEffect,
-      'recommendation': recommendation,
-      'arabic_recommendation': arabicRecommendation,
+      'id': id,
+      'med_id': medId,
+      'interaction_drug_name': interactionDrugName,
+      'interaction_dailymed_id': interactionDailymedId,
+      'severity': severity,
+      'description': description,
+      'source': source,
     };
+  }
+
+  InteractionSeverity get severityEnum {
+    switch (severity.toLowerCase()) {
+      case 'contraindicated':
+        return InteractionSeverity.contraindicated;
+      case 'severe':
+        return InteractionSeverity.severe;
+      case 'major':
+        return InteractionSeverity.major;
+      case 'moderate':
+        return InteractionSeverity.moderate;
+      case 'minor':
+        return InteractionSeverity.minor;
+      default:
+        return InteractionSeverity.unknown;
+    }
   }
 
   @override
   List<Object?> get props => [
-    ingredient1,
-    ingredient2,
+    id,
+    medId,
+    interactionDrugName,
+    interactionDailymedId,
     severity,
-    type,
-    effect,
-    arabicEffect,
-    recommendation,
-    arabicRecommendation,
+    description,
+    source,
   ];
 }
 

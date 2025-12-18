@@ -1,29 +1,57 @@
 import 'dart:ui' as ui; // Import dart:ui with alias
-import 'package:cached_network_image/cached_network_image.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart'; // Import flutter_animate
 import 'package:lucide_icons/lucide_icons.dart';
+
+import '../../core/di/locator.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/repositories/interaction_repository.dart';
-import '../../core/di/locator.dart';
 
 // Helper widget for displaying a drug item in the list/grid
-class DrugListItem extends StatelessWidget {
+class DrugListItem extends StatefulWidget {
   final DrugEntity drug;
   final VoidCallback onTap;
 
-  const DrugListItem({
-    super.key, // Add super.key
-    required this.drug,
-    required this.onTap,
-  });
+  const DrugListItem({super.key, required this.drug, required this.onTap});
+
+  @override
+  State<DrugListItem> createState() => _DrugListItemState();
+}
+
+class _DrugListItemState extends State<DrugListItem> {
+  bool _hasInteractions = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkInteractions();
+  }
+
+  @override
+  void didUpdateWidget(covariant DrugListItem oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.drug.active != widget.drug.active ||
+        oldWidget.drug.id != widget.drug.id) {
+      _checkInteractions();
+    }
+  }
+
+  Future<void> _checkInteractions() async {
+    if (widget.drug.active.isEmpty) return;
+    final repo = locator<InteractionRepository>();
+    final hasIt = await repo.hasKnownInteractions(widget.drug);
+    if (mounted) {
+      setState(() {
+        _hasInteractions = hasIt;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     final colorScheme = Theme.of(context).colorScheme;
-    final interactionRepo = locator<InteractionRepository>();
-    final hasInteractions = interactionRepo.hasKnownInteractions(drug);
 
     return Card(
           // Removed default margin, handled by parent list/grid padding/spacing
@@ -34,7 +62,7 @@ class DrugListItem extends StatelessWidget {
           clipBehavior: Clip.antiAlias, // Clip image to card shape
           child: InkWell(
             // Make the whole card tappable
-            onTap: onTap,
+            onTap: widget.onTap,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -50,7 +78,7 @@ class DrugListItem extends StatelessWidget {
                         children: [
                           Expanded(
                             child: Text(
-                              drug.tradeName,
+                              widget.drug.tradeName,
                               style: textTheme.titleSmall?.copyWith(
                                 fontWeight: FontWeight.bold,
                               ),
@@ -59,7 +87,7 @@ class DrugListItem extends StatelessWidget {
                             ),
                           ),
                           // Warning icon if drug has interactions
-                          if (hasInteractions)
+                          if (_hasInteractions)
                             Container(
                               margin: const EdgeInsets.only(left: 4),
                               padding: const EdgeInsets.all(4),
@@ -75,10 +103,10 @@ class DrugListItem extends StatelessWidget {
                             ),
                         ],
                       ),
-                      if (drug.arabicName.isNotEmpty &&
-                          drug.arabicName != drug.tradeName)
+                      if (widget.drug.arabicName.isNotEmpty &&
+                          widget.drug.arabicName != widget.drug.tradeName)
                         Text(
-                          drug.arabicName,
+                          widget.drug.arabicName,
                           style: textTheme.bodySmall?.copyWith(
                             color: colorScheme.onSurfaceVariant,
                           ),
@@ -87,7 +115,7 @@ class DrugListItem extends StatelessWidget {
                         ),
                       const SizedBox(height: 4.0),
                       Text(
-                        '${drug.price} L.E', // Use L.E consistently
+                        '${widget.drug.price} L.E', // Use L.E consistently
                         style: textTheme.bodyMedium?.copyWith(
                           color: colorScheme.primary,
                           fontWeight: FontWeight.w600,

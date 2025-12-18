@@ -42,55 +42,59 @@ class _IngredientInteractionsScreenState
     _loadInteractions();
   }
 
-  /// Loads interaction data from repository and filters based on widget.ingredient
+  /// Loads interaction data from repository
   Future<void> _loadInteractions() async {
-    final result = await _interactionRepository.loadInteractionData();
+    try {
+      List<DrugInteraction> specificList;
 
-    if (mounted) {
-      result.fold(
-        (failure) {
-          setState(() {
-            _isLoading = false;
-          });
-        },
-        (_) {
-          final allLoaded = _interactionRepository.allLoadedInteractions;
-          List<DrugInteraction> specificList;
+      if (widget.ingredient != null) {
+        specificList = await _interactionRepository.getInteractionsWith(
+          widget.ingredient!.name,
+        );
+      } else {
+        specificList = await _interactionRepository.getHighRiskInteractions();
+      }
 
-          if (widget.ingredient != null) {
-            // Filter specific ingredient
-            specificList =
-                allLoaded
-                    .where(
-                      (i) =>
-                          i.ingredient1.toLowerCase() ==
-                              widget.ingredient!.name.toLowerCase() ||
-                          i.ingredient2.toLowerCase() ==
-                              widget.ingredient!.name.toLowerCase(),
-                    )
-                    .toList();
-          } else {
-            // Get ALL High Risk (Major/Severe/Contraindicated)
-            specificList =
-                allLoaded.where((i) {
-                  return i.severity == InteractionSeverity.contraindicated ||
-                      i.severity == InteractionSeverity.severe ||
-                      i.severity == InteractionSeverity.major;
-                }).toList();
-          }
-
-          // Initial Sort by severity (highest first)
-          specificList.sort(
-            (a, b) => b.severity.index.compareTo(a.severity.index),
-          );
-
-          setState(() {
-            _allInteractions = specificList;
-            _filteredInteractions = specificList;
-            _isLoading = false;
-          });
-        },
+      // usage of severityEnum
+      specificList.sort(
+        (a, b) => _compareSeverity(b.severityEnum, a.severityEnum),
       );
+
+      if (mounted) {
+        setState(() {
+          _allInteractions = specificList;
+          _filteredInteractions = specificList;
+          _isLoading = false;
+        });
+      }
+    } catch (e) {
+      debugPrint('Error loading interactions: $e');
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+        });
+      }
+    }
+  }
+
+  int _compareSeverity(InteractionSeverity a, InteractionSeverity b) {
+    return _getSeverityWeight(a).compareTo(_getSeverityWeight(b));
+  }
+
+  int _getSeverityWeight(InteractionSeverity severity) {
+    switch (severity) {
+      case InteractionSeverity.contraindicated:
+        return 5;
+      case InteractionSeverity.severe:
+        return 4;
+      case InteractionSeverity.major:
+        return 3;
+      case InteractionSeverity.moderate:
+        return 2;
+      case InteractionSeverity.minor:
+        return 1;
+      case InteractionSeverity.unknown:
+        return 0;
     }
   }
 
@@ -103,12 +107,8 @@ class _IngredientInteractionsScreenState
         final lowerQuery = query.toLowerCase();
         _filteredInteractions =
             _allInteractions.where((i) {
-              return i.ingredient1.toLowerCase().contains(lowerQuery) ||
-                  i.ingredient2.toLowerCase().contains(lowerQuery) ||
-                  i.effect.toLowerCase().contains(lowerQuery) ||
-                  i.arabicEffect.contains(query) ||
-                  i.recommendation.toLowerCase().contains(lowerQuery) ||
-                  i.arabicRecommendation.contains(query);
+              return i.interactionDrugName.toLowerCase().contains(lowerQuery) ||
+                  i.description.toLowerCase().contains(lowerQuery);
             }).toList();
       }
     });

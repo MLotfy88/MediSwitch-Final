@@ -19,32 +19,33 @@ abstract class InteractionRepository {
     List<DrugEntity> medicines,
   );
 
-  /// Gets the list of all loaded drug interactions.
-  /// Returns an empty list if data is not loaded.
-  List<DrugInteraction> get allLoadedInteractions;
-
-  /// Gets the map linking medicine trade names (lowercase) to their active ingredients (lowercase).
-  /// Returns an empty map if data is not loaded.
-  Map<String, List<String>> get medicineToIngredientsMap;
-
-  /// Finds all interactions involving any active ingredient of the given medicine.
+  /// Finds all interactions involving the given medicine.
   Future<Either<Failure, List<DrugInteraction>>> findAllInteractionsForDrug(
     DrugEntity drug,
   );
 
-  /// Checks if a drug has any known interactions efficiently (O(1) lookup).
-  bool hasKnownInteractions(DrugEntity drug);
+  /// Checks if a drug has any known interactions efficiently.
+  /// Note: Now async as it might query DB.
+  Future<bool> hasKnownInteractions(DrugEntity drug);
 
   /// Gets the maximum severity level of known interactions for a drug.
-  /// Returns InteractionSeverity.unknown if no interactions found.
-  InteractionSeverity getMaxSeverityForDrug(DrugEntity drug);
+  Future<InteractionSeverity> getMaxSeverityForDrug(DrugEntity drug);
 
-  /// Gets the count of  /// Get interaction count for a specific drug
-  int getInteractionCountForDrug(DrugEntity drug);
+  /// Get interaction count for a specific drug
+  Future<int> getInteractionCountForDrug(DrugEntity drug);
 
   /// Get a list of ingredients known to have high-risk (severe/contraindicated) interactions
-  List<String> getHighRiskIngredients();
+  Future<List<String>> getHighRiskIngredients();
 
-  /// Get dosage guidelines for a specific active ingredient
-  Future<List<DosageGuidelines>> getDosageGuidelines(String activeIngredient);
+  /// Get high risk drugs based on interaction severity score
+  Future<List<DrugEntity>> getHighRiskDrugs(int limit);
+
+  /// Get dosage guidelines for a specific drug
+  Future<List<DosageGuidelines>> getDosageGuidelines(DrugEntity drug);
+
+  /// Get list of high risk individual interactions
+  Future<List<DrugInteraction>> getHighRiskInteractions({int limit = 50});
+
+  /// Get all interactions matching a specific drug name string (e.g. ingredient)
+  Future<List<DrugInteraction>> getInteractionsWith(String drugName);
 }

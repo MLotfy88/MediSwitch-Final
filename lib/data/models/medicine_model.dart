@@ -2,55 +2,55 @@ import '../../core/database/database_helper.dart'; // Import DatabaseHelper for 
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
 class MedicineModel {
+  final int? id; // Now the primary identifier
   final String tradeName;
   final String arabicName;
-  final String oldPrice;
   final String price;
+  final String oldPrice;
   final String active;
-  final String mainCategory;
-  final String mainCategoryAr;
-  final String category;
-  final String categoryAr;
   final String company;
   final String dosageForm;
   final String dosageFormAr;
+  final String concentration;
   final String unit;
   final String usage;
   final String usageAr;
+  final String category; // General Category
+  final String categoryAr;
+  final String
+  mainCategory; // Main Category (kept for compatibility logic if needed, or mapped to category)
   final String description;
+  final String barcode;
+  final int visits;
   final String lastPriceUpdate;
-  final String concentration;
   final String? imageUrl;
-  final int? id; // Optional ID from database
 
   MedicineModel({
+    this.id,
     required this.tradeName,
     required this.arabicName,
-    required this.oldPrice,
     required this.price,
+    required this.oldPrice,
     required this.active,
-    required this.mainCategory,
-    required this.mainCategoryAr,
-    required this.category,
-    required this.categoryAr,
     required this.company,
     required this.dosageForm,
     required this.dosageFormAr,
+    required this.concentration,
     required this.unit,
     required this.usage,
     required this.usageAr,
+    required this.category,
+    required this.categoryAr,
+    this.mainCategory = '', // Default or mapped
     required this.description,
+    required this.barcode,
+    required this.visits,
     required this.lastPriceUpdate,
-    required this.concentration,
     this.imageUrl,
-    this.id,
   });
 
   // Helper function to safely parse string from dynamic row data
-  static String _parseString(dynamic value) => value?.toString() ?? '';
-  // Helper function to safely parse double from dynamic row data
-  static double? _parseDouble(dynamic value) =>
-      double.tryParse(value?.toString() ?? '');
+  static String _parseString(dynamic value) => value?.toString().trim() ?? '';
 
   // Helper to normalize date from dd/MM/yyyy to yyyy-MM-dd for sorting
   static String _normalizeDate(String date) {
@@ -70,83 +70,91 @@ class MedicineModel {
     return date;
   }
 
+  // UPDATED CSV MAPPING (20 Columns)
+  // 0: id, 1: trade_name, 2: arabic_name, 3: price, 4: old_price, 5: active,
+  // 6: company, 7: dosage_form, 8: dosage_form_ar, 9: concentration, 10: unit,
+  // 11: usage, 12: usage_ar, 13: category, 14: category_ar, 15: description,
+  // 16: barcode, 17: visits, 18: last_price_update, 19: image_url
   factory MedicineModel.fromCsv(List<dynamic> row) {
-    // Assuming CSV columns are in the order defined by the fields
     return MedicineModel(
-      tradeName: row.length > 0 ? _parseString(row[0]) : '',
-      arabicName: row.length > 1 ? _parseString(row[1]) : '',
-      oldPrice:
-          row.length > 2 ? _parseString(row[2]) : '', // Column 3 (index 2)
-      price: row.length > 3 ? _parseString(row[3]) : '', // Column 4 (index 3)
-      active: row.length > 4 ? _parseString(row[4]) : '',
-      mainCategory: row.length > 5 ? _parseString(row[5]) : '',
-      mainCategoryAr: row.length > 6 ? _parseString(row[6]) : '',
-      category: row.length > 7 ? _parseString(row[7]) : '',
-      categoryAr: row.length > 8 ? _parseString(row[8]) : '',
-      company: row.length > 9 ? _parseString(row[9]) : '',
-      dosageForm: row.length > 10 ? _parseString(row[10]) : '',
-      dosageFormAr: row.length > 11 ? _parseString(row[11]) : '',
-      unit: row.length > 12 ? _parseString(row[12]) : '',
-      usage: row.length > 13 ? _parseString(row[13]) : '',
-      usageAr: row.length > 14 ? _parseString(row[14]) : '',
+      id: row.length > 0 ? int.tryParse(row[0].toString()) : null,
+      tradeName: row.length > 1 ? _parseString(row[1]) : '',
+      arabicName: row.length > 2 ? _parseString(row[2]) : '',
+      price: row.length > 3 ? _parseString(row[3]) : '',
+      oldPrice: row.length > 4 ? _parseString(row[4]) : '',
+      active: row.length > 5 ? _parseString(row[5]) : '',
+      company: row.length > 6 ? _parseString(row[6]) : '',
+      dosageForm: row.length > 7 ? _parseString(row[7]) : '',
+      dosageFormAr: row.length > 8 ? _parseString(row[8]) : '',
+      concentration: row.length > 9 ? _parseString(row[9]) : '',
+      unit: row.length > 10 ? _parseString(row[10]) : '',
+      usage: row.length > 11 ? _parseString(row[11]) : '',
+      usageAr: row.length > 12 ? _parseString(row[12]) : '',
+      category: row.length > 13 ? _parseString(row[13]) : '',
+      categoryAr: row.length > 14 ? _parseString(row[14]) : '',
+      mainCategory:
+          row.length > 13
+              ? _parseString(row[13])
+              : '', // Map category to mainCategory for compatibility
       description: row.length > 15 ? _parseString(row[15]) : '',
+      barcode: row.length > 16 ? _parseString(row[16]) : '',
+      visits: row.length > 17 ? (int.tryParse(row[17].toString()) ?? 0) : 0,
       lastPriceUpdate:
-          row.length > 16 ? _normalizeDate(_parseString(row[16])) : '',
-      concentration: row.length > 17 ? _parseString(row[17]) : '',
-      imageUrl: row.length > 18 ? _parseString(row[18]) : null,
+          row.length > 18 ? _normalizeDate(_parseString(row[18])) : '',
+      imageUrl: row.length > 19 ? _parseString(row[19]) : null,
     );
   }
 
   // Convert model to Map for database insertion
   Map<String, dynamic> toMap() {
     return {
+      DatabaseHelper.colId: id,
       DatabaseHelper.colTradeName: tradeName,
       DatabaseHelper.colArabicName: arabicName,
-      DatabaseHelper.colOldPrice: oldPrice, // Use constant from DatabaseHelper
       DatabaseHelper.colPrice: price,
+      DatabaseHelper.colOldPrice: oldPrice,
       DatabaseHelper.colActive: active,
-      DatabaseHelper.colMainCategory: mainCategory,
       DatabaseHelper.colCompany: company,
       DatabaseHelper.colDosageForm: dosageForm,
+      DatabaseHelper.colDosageFormAr: dosageFormAr,
+      DatabaseHelper.colConcentration: concentration,
       DatabaseHelper.colUnit: unit,
       DatabaseHelper.colUsage: usage,
-      DatabaseHelper.colDescription: description,
-      DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
-      DatabaseHelper.colConcentration:
-          concentration.isNotEmpty ? concentration : null,
-      DatabaseHelper.colImageUrl: imageUrl,
-      // Add category fields to the map (assuming columns exist in DB schema)
+      DatabaseHelper.colUsageAr: usageAr,
       DatabaseHelper.colCategory: category,
       DatabaseHelper.colCategoryAr: categoryAr,
-      // Note: Fields like mainCategoryAr, dosageFormAr, usageAr are still not mapped
+      DatabaseHelper.colMainCategory: mainCategory, // Still store if needed
+      DatabaseHelper.colDescription: description,
+      DatabaseHelper.colBarcode: barcode,
+      DatabaseHelper.colVisits: visits,
+      DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
+      DatabaseHelper.colImageUrl: imageUrl,
     };
   }
 
   // Create model from Map (from database)
   factory MedicineModel.fromMap(Map<String, dynamic> map) {
     return MedicineModel(
-      id: map['id'] as int?, // Assuming 'id' is the primary key if needed later
+      id: map[DatabaseHelper.colId] as int?,
       tradeName: map[DatabaseHelper.colTradeName]?.toString() ?? '',
       arabicName: map[DatabaseHelper.colArabicName]?.toString() ?? '',
-      oldPrice:
-          map[DatabaseHelper.colOldPrice]?.toString() ?? '', // Use constant
       price: map[DatabaseHelper.colPrice]?.toString() ?? '',
+      oldPrice: map[DatabaseHelper.colOldPrice]?.toString() ?? '',
       active: map[DatabaseHelper.colActive]?.toString() ?? '',
-      mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
-      mainCategoryAr: '', // Not stored (or read if added to DB)
-      category:
-          map[DatabaseHelper.colCategory]?.toString() ?? '', // Read from map
-      categoryAr:
-          map[DatabaseHelper.colCategoryAr]?.toString() ?? '', // Read from map
       company: map[DatabaseHelper.colCompany]?.toString() ?? '',
       dosageForm: map[DatabaseHelper.colDosageForm]?.toString() ?? '',
-      dosageFormAr: '', // Not stored
+      dosageFormAr: map[DatabaseHelper.colDosageFormAr]?.toString() ?? '',
+      concentration: map[DatabaseHelper.colConcentration]?.toString() ?? '',
       unit: map[DatabaseHelper.colUnit]?.toString() ?? '',
       usage: map[DatabaseHelper.colUsage]?.toString() ?? '',
-      usageAr: '', // Not stored (or read if added to DB)
+      usageAr: map[DatabaseHelper.colUsageAr]?.toString() ?? '',
+      category: map[DatabaseHelper.colCategory]?.toString() ?? '',
+      categoryAr: map[DatabaseHelper.colCategoryAr]?.toString() ?? '',
+      mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
       description: map[DatabaseHelper.colDescription]?.toString() ?? '',
+      barcode: map[DatabaseHelper.colBarcode]?.toString() ?? '',
+      visits: map[DatabaseHelper.colVisits] as int? ?? 0,
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
-      concentration: map[DatabaseHelper.colConcentration]?.toString() ?? '',
       imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
     );
   }
@@ -160,14 +168,10 @@ class MedicineModel {
       price: price,
       oldPrice: oldPrice.isNotEmpty ? oldPrice : null,
       mainCategory: mainCategory,
+      category: category.isNotEmpty ? category : null,
+      category_ar: categoryAr.isNotEmpty ? categoryAr : null,
       active: active,
       company: company,
-      category:
-          category.isNotEmpty ? category : null, // Pass category if available
-      category_ar:
-          categoryAr.isNotEmpty
-              ? categoryAr
-              : null, // Pass categoryAr if available
       dosageForm: dosageForm,
       concentration: concentration,
       unit: unit,
@@ -175,11 +179,12 @@ class MedicineModel {
       description: description,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
+      // Pass unused fields if Entity expands: usageAr, barcode, dosageFormAr
     );
   }
 
   @override
   String toString() {
-    return '$tradeName - $arabicName - $price';
+    return '$tradeName ($id) - $arabicName - $price';
   }
 }

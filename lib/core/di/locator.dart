@@ -27,7 +27,6 @@ import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/domain/services/analytics_service.dart';
 import 'package:mediswitch/domain/services/dosage_calculator_service.dart';
-import 'package:mediswitch/domain/services/interaction_checker_service.dart';
 // Use Cases
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
@@ -162,7 +161,9 @@ Future<void> setupLocator() async {
   });
   locator.registerLazySingleton<InteractionRepository>(() {
     logger.i("Locator: Registering InteractionRepository...");
-    return InteractionRepositoryImpl(); // Loads data internally
+    return InteractionRepositoryImpl(
+      localDataSource: locator<SqliteLocalDataSource>(),
+    );
   });
   locator.registerLazySingleton<ConfigRepository>(() {
     logger.i("Locator: Registering ConfigRepository...");
@@ -207,7 +208,11 @@ Future<void> setupLocator() async {
   locator.registerLazySingleton(
     () => GetHighRiskDrugsUseCase(
       interactionRepository: locator<InteractionRepository>(),
-      drugRepository: locator<DrugRepository>(),
+    ),
+  );
+  locator.registerLazySingleton(
+    () => GetHighRiskIngredientsUseCase(
+      interactionRepository: locator<InteractionRepository>(),
     ),
   );
   locator.registerLazySingleton(
@@ -226,7 +231,7 @@ Future<void> setupLocator() async {
   // --- Services ---
   logger.i("Locator: Registering Services...");
   locator.registerLazySingleton(() => DosageCalculatorService());
-  locator.registerLazySingleton(() => InteractionCheckerService());
+  // InteractionCheckerService removed
   locator.registerLazySingleton(() => AdService());
   locator.registerLazySingleton<AnalyticsService>(() {
     const backendUrl = String.fromEnvironment(
@@ -254,11 +259,6 @@ Future<void> setupLocator() async {
     ),
   );
 
-  locator.registerLazySingleton(
-    () => GetHighRiskIngredientsUseCase(
-      interactionRepository: locator<InteractionRepository>(),
-    ),
-  );
   locator.registerFactory(
     () => AlternativesProvider(
       findDrugAlternativesUseCase: locator<FindDrugAlternativesUseCase>(),
@@ -272,7 +272,6 @@ Future<void> setupLocator() async {
   locator.registerFactory(
     () => InteractionProvider(
       interactionRepository: locator<InteractionRepository>(),
-      interactionCheckerService: locator<InteractionCheckerService>(),
     ),
   );
   locator.registerFactory(

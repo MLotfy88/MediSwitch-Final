@@ -52,7 +52,7 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
           price: row.length > 3 ? row[3]?.toString() ?? '' : '',
           active: row.length > 4 ? row[4]?.toString() ?? '' : '',
           mainCategory: row.length > 5 ? row[5]?.toString() ?? '' : '',
-          mainCategoryAr: row.length > 6 ? row[6]?.toString() ?? '' : '',
+          // Removed mainCategoryAr as it is not in MedicineModel
           category: row.length > 7 ? row[7]?.toString() ?? '' : '',
           categoryAr: row.length > 8 ? row[8]?.toString() ?? '' : '',
           company: row.length > 9 ? row[9]?.toString() ?? '' : '',
@@ -65,6 +65,8 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
           lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
           concentration: row.length > 17 ? row[17]?.toString() ?? '' : '',
           imageUrl: row.length > 18 ? row[18]?.toString() : null,
+          barcode: '', // Default as not in this CSV structure
+          visits: 0, // Default
         );
       }).toList();
 

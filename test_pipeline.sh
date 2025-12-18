@@ -46,7 +46,7 @@ python3 scripts/process_datalake.py
 
 echo ""
 echo "💊 Step 5: Extracting interactions..."
-python3 production_data/extract_dailymed_interactions.py
+python3 production_data/extract_interactions_production.py
 
 echo ""
 echo "🔄 Step 6: Merging hybrid data..."
