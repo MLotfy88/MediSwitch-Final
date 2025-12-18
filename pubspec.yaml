@@ -103,6 +103,7 @@ flutter:
     - assets/data/ # Include the directory for medicine_ingredients.json etc.
     - assets/images/ # Added for logo and other images
     - assets/icon/ # Added for app icon
+    - assets/icons/medical/ # Medical specialty SVG icons from healthicons.org
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

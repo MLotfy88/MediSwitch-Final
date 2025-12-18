@@ -278,13 +278,26 @@ class SqliteLocalDataSource {
   // --- Relational Seeding Helper ---
   Future<void> _seedRelationalInteractions(Database db) async {
     try {
+      print(
+        '[INTERACTION SEEDING] Starting relational interaction data seeding...',
+      );
+
       // 1. Seed Rules
       int chunk = 1;
+      int totalRulesLoaded = 0;
       while (true) {
         try {
           final fname =
               'assets/data/interactions/rules_part_${chunk.toString().padLeft(3, '0')}.json';
+          print(
+            '[INTERACTION SEEDING] Loading rules chunk $chunk from: $fname',
+          );
+
           final jsonString = await rootBundle.loadString(fname);
+          print(
+            '[INTERACTION SEEDING] Rules chunk $chunk loaded (${jsonString.length} bytes)',
+          );
+
           final Map<String, dynamic> content =
               json.decode(jsonString) as Map<String, dynamic>;
           final List<dynamic> rules =
@@ -293,8 +306,16 @@ class SqliteLocalDataSource {
                     dynamic
                   >; // Structure from py script directly uses 'data'
 
-          if (rules.isEmpty) break;
+          if (rules.isEmpty) {
+            print(
+              '[INTERACTION SEEDING] Rules chunk $chunk is empty, stopping.',
+            );
+            break;
+          }
 
+          print(
+            '[INTERACTION SEEDING] Inserting ${rules.length} rules from chunk $chunk...',
+          );
           final batch = db.batch();
           for (final r in rules) {
             batch.insert('interaction_rules', {
@@ -308,29 +329,59 @@ class SqliteLocalDataSource {
             });
           }
           await batch.commit(noResult: true);
-          print('  Loaded Rules Chunk $chunk (${rules.length} items)');
+          totalRulesLoaded += rules.length;
+          print(
+            '[INTERACTION SEEDING] ✅ Loaded Rules Chunk $chunk (${rules.length} items, total so far: $totalRulesLoaded)',
+          );
           chunk++;
-        } catch (e) {
+        } catch (e, stackTrace) {
           // Break on 404/Not Found (End of chunks)
+          if (e.toString().contains('Unable to load asset') ||
+              e.toString().contains('404')) {
+            print(
+              '[INTERACTION SEEDING] No more rules chunks found (chunk $chunk). Total loaded: $totalRulesLoaded',
+            );
+            break;
+          }
+          print('[INTERACTION SEEDING] ❌ ERROR loading rules chunk $chunk: $e');
+          print('[INTERACTION SEEDING] Stack trace: $stackTrace');
           break;
         }
       }
 
       // 2. Seed Ingredients
       chunk = 1;
+      int totalIngredientsLoaded = 0;
       while (true) {
         try {
           final fname =
               'assets/data/interactions/ingredients_part_${chunk.toString().padLeft(3, '0')}.json';
+          print(
+            '[INTERACTION SEEDING] Loading ingredients chunk $chunk from: $fname',
+          );
+
           final jsonString = await rootBundle.loadString(fname);
+          print(
+            '[INTERACTION SEEDING] Ingredients chunk $chunk loaded (${jsonString.length} bytes)',
+          );
+
           final Map<String, dynamic> content =
               json.decode(jsonString) as Map<String, dynamic>;
           // Py script format: {"meta": ..., "data": [{"med_id": 1, "ingredients": ["a", "b"]}, ...]}
           final List<dynamic> items = content['data'] as List<dynamic>;
 
-          if (items.isEmpty) break;
+          if (items.isEmpty) {
+            print(
+              '[INTERACTION SEEDING] Ingredients chunk $chunk is empty, stopping.',
+            );
+            break;
+          }
 
+          print(
+            '[INTERACTION SEEDING] Inserting ingredient mappings from chunk $chunk (${items.length} drugs)...',
+          );
           final batch = db.batch();
+          int ingredientCount = 0;
           for (final item in items) {
             final int medId = item['med_id'] as int;
             final List<dynamic> ingredients =
@@ -340,18 +391,42 @@ class SqliteLocalDataSource {
                 'med_id': medId,
                 'ingredient': ing,
               }, conflictAlgorithm: ConflictAlgorithm.ignore);
+              ingredientCount++;
             }
           }
           await batch.commit(noResult: true);
-          print('  Loaded Ingredients Chunk $chunk (${items.length} items)');
+          totalIngredientsLoaded += ingredientCount;
+          print(
+            '[INTERACTION SEEDING] ✅ Loaded Ingredients Chunk $chunk (${items.length} drugs, $ingredientCount mappings, total so far: $totalIngredientsLoaded)',
+          );
           chunk++;
-        } catch (e) {
+        } catch (e, stackTrace) {
+          if (e.toString().contains('Unable to load asset') ||
+              e.toString().contains('404')) {
+            print(
+              '[INTERACTION SEEDING] No more ingredients chunks found (chunk $chunk). Total loaded: $totalIngredientsLoaded',
+            );
+            break;
+          }
+          print(
+            '[INTERACTION SEEDING] ❌ ERROR loading ingredients chunk $chunk: $e',
+          );
+          print('[INTERACTION SEEDING] Stack trace: $stackTrace');
           break;
         }
       }
-      print('✅ Relational Interaction Data Seeded.');
-    } catch (e) {
-      print('⚠️ Error seeding relational interactions: $e');
+
+      print(
+        '[INTERACTION SEEDING] ✅✅✅ Relational Interaction Data Seeding COMPLETE!',
+      );
+      print(
+        '[INTERACTION SEEDING] Final totals: $totalRulesLoaded rules, $totalIngredientsLoaded ingredient mappings',
+      );
+    } catch (e, stackTrace) {
+      print(
+        '[INTERACTION SEEDING] ⚠️⚠️⚠️ CRITICAL ERROR seeding relational interactions: $e',
+      );
+      print('[INTERACTION SEEDING] Stack trace: $stackTrace');
     }
   }
 
