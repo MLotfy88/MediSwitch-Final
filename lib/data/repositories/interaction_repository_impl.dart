@@ -1,16 +1,16 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:mediswitch/core/error/failures.dart';
-import 'package:mediswitch/core/di/locator.dart';
-import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
-import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/core/database/database_helper.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
+import 'package:sqflite/sqflite.dart';
 
 class InteractionRepositoryImpl implements InteractionRepository {
   final SqliteLocalDataSource localDataSource;
@@ -230,7 +230,8 @@ class InteractionRepositoryImpl implements InteractionRepository {
         (Failure failure) => Left<Failure, int>(failure),
         (Map<String, dynamic> data) async {
           final List<dynamic> rulesRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> rulesData = rulesRaw.cast<Map<String, dynamic>>();
+          final List<Map<String, dynamic>> rulesData =
+              rulesRaw.cast<Map<String, dynamic>>();
 
           if (rulesData.isNotEmpty) {
             final db = await localDataSource.dbHelper.database;
@@ -275,22 +276,19 @@ class InteractionRepositoryImpl implements InteractionRepository {
         (Failure failure) => Left<Failure, int>(failure),
         (Map<String, dynamic> data) async {
           final List<dynamic> mappingRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> mappingData = mappingRaw.cast<Map<String, dynamic>>();
+          final List<Map<String, dynamic>> mappingData =
+              mappingRaw.cast<Map<String, dynamic>>();
 
           if (mappingData.isNotEmpty) {
             final db = await localDataSource.dbHelper.database;
             await db.transaction((txn) async {
               final batch = txn.batch();
               for (final map in mappingData) {
-                batch.insert(
-                  'med_ingredients',
-                  {
-                    'med_id': map['med_id'],
-                    'ingredient': map['ingredient'],
-                    'updated_at': map['updated_at'],
-                  },
-                  conflictAlgorithm: ConflictAlgorithm.replace,
-                );
+                batch.insert('med_ingredients', {
+                  'med_id': map['med_id'],
+                  'ingredient': map['ingredient'],
+                  'updated_at': map['updated_at'],
+                }, conflictAlgorithm: ConflictAlgorithm.replace);
               }
               await batch.commit(noResult: true);
             });
@@ -316,7 +314,8 @@ class InteractionRepositoryImpl implements InteractionRepository {
         (Failure failure) => Left<Failure, int>(failure),
         (Map<String, dynamic> data) async {
           final List<dynamic> dosageRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> dosageData = dosageRaw.cast<Map<String, dynamic>>();
+          final List<Map<String, dynamic>> dosageData =
+              dosageRaw.cast<Map<String, dynamic>>();
 
           if (dosageData.isNotEmpty) {
             final db = await localDataSource.dbHelper.database;
@@ -365,7 +364,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
     // Split by common separators: ';', '+', '/'
     final ingredients =
-        activeStr.split(RegExp(r'[;+/]')).map((e) => e.trim()).toList();
+        activeStr.split(RegExp(r'[+;,/]')).map((e) => e.trim()).toList();
     if (ingredients.contains(name)) return true;
 
     return false;

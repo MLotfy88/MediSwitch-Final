@@ -22,7 +22,7 @@ class GetHighRiskIngredientsUseCase
             // Simplify name to primary ingredient
             final simpleName =
                 drug.active.isNotEmpty
-                    ? drug.active.split(RegExp(r'[+/]')).first.trim()
+                    ? drug.active.split(RegExp(r'[+;,/]')).first.trim()
                     : drug.tradeName;
 
             return HighRiskIngredient(

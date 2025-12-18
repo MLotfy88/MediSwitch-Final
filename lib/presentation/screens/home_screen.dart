@@ -547,7 +547,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       MaterialPageRoute<void>(
                         builder:
                             (context) =>
-                                SearchScreen(initialCategory: category.name),
+                                SearchScreen(initialCategory: category.id),
                       ),
                     );
                   },
