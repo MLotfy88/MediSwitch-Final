@@ -17,7 +17,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 4; // Bumping version for schema update
+  static const int _dbVersion = 5; // Bumping version for schema update
   static const String medicinesTable = 'medicines';
 
   // --- Column Names ---
@@ -167,23 +167,60 @@ class DatabaseHelper {
     debugPrint('dosage_guidelines table created');
   }
 
+  // ... (previous code)
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    debugPrint('Upgrading database from version $oldVersion to $newVersion...');
+
+    if (newVersion >= 5) {
+      debugPrint('Performing schema migration to Version 5 (Relational)...');
+      await db.execute(
+        'DROP TABLE IF EXISTS drug_interactions',
+      ); // Drop old exploded table
+      await _onCreateInteractions(db); // Create new relational tables
+      // Re-seed might be needed? Usually handled by version check or cleared flag.
+    }
+
+    // ... (previous migrations if any, but since we jumping to 5, cascade is fine or irrelevant if fresh install)
+  }
+
+  // ...
+
   Future<void> _onCreateInteractions(Database db) async {
-    debugPrint('Creating drug_interactions table...');
+    debugPrint('Creating interaction_rules and med_ingredients tables...');
+
+    // 1. Rules Table (Knowledge Base)
     await db.execute('''
-      CREATE TABLE drug_interactions (
+      CREATE TABLE interaction_rules (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        med_id INTEGER,
-        interaction_drug_name TEXT,
-        interaction_dailymed_id TEXT,
+        ingredient1 TEXT,
+        ingredient2 TEXT,
         severity TEXT,
-        description TEXT,
+        effect TEXT,
         source TEXT
       )
     ''');
     await db.execute(
-      'CREATE INDEX idx_interaction_med_id ON drug_interactions (med_id)',
+      'CREATE INDEX idx_rules_i1 ON interaction_rules(ingredient1)',
     );
-    debugPrint('drug_interactions table created');
+    await db.execute(
+      'CREATE INDEX idx_rules_i2 ON interaction_rules(ingredient2)',
+    );
+    await db.execute(
+      'CREATE INDEX idx_rules_pair ON interaction_rules(ingredient1, ingredient2)',
+    );
+
+    // 2. Ingredients Index (Map)
+    await db.execute('''
+      CREATE TABLE med_ingredients (
+        med_id INTEGER,
+        ingredient TEXT,
+        PRIMARY KEY (med_id, ingredient)
+      )
+    ''');
+    await db.execute('CREATE INDEX idx_mi_mid ON med_ingredients(med_id)');
+
+    debugPrint('Relational interaction tables created');
   }
 
   // --- Basic CRUD Operations ---
