@@ -37,6 +37,8 @@ graph TD
 2.  **Add-on Architecture**: التعامل مع الإعلانات والميزات الإضافية كخدمات مستقلة (Services).
 3.  **Singleton**: لإدارة الخدمات العامة (NetworkInfo, AdService).
 4.  **Observer**: تحديث الواجهة تلقائياً عبر `ChangeNotifier`.
+5.  **Multi-Table Bridge**: استخدام جدول `med_ingredients` لربط الأدوية بتفاعلاتها عبر المادة الفعالة (Many-to-Many).
+6.  **Smart Classification Mapping**: استخدام `CategoryMapperHelper` لربط التصنيفات الفرعية بتصنيفات رئيسية موحدة لاقتراح بدائل ذكية.
 
 ## ⚙️ القرارات التقنية الرئيسية
 

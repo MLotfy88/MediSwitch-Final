@@ -123,6 +123,22 @@ class ModernCategoryCard extends StatelessWidget {
       case 'wind':
       case 'respiratory':
         return LucideIcons.wind;
+      case 'utensils':
+      case 'digestive':
+      case 'gastroenterology':
+        return LucideIcons.utensils;
+      case 'brain-circuit':
+      case 'neurology':
+        return LucideIcons.brainCircuit;
+      case 'droplets':
+      case 'urology':
+        return LucideIcons.droplets;
+      case 'blood':
+      case 'hematology':
+        return LucideIcons.droplet;
+      case 'microscope':
+      case 'oncology':
+        return LucideIcons.microscope;
       default:
         if (iconName.contains('infect')) return LucideIcons.bug;
         return LucideIcons.pill;

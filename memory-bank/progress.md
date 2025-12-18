@@ -14,8 +14,10 @@
 - [x] حذف backend folder
 - [x] ربط admin-dashboard submodule
 - [x] **Dark Mode Fixes** (Search, Home, Drug Cards)
-- [x] **Dosage Information Integration** (Script, DB, UI)
-- [ ] UI Polish (Category Colors, Neuro Card, Counts)
+- [x] UI Polish (Category Colors, Neuro Card, Counts)
+- [x] Interaction Checker Implementation
+- [x] Dosage Calculator Integration
+- [x] High Risk Drugs Section on Home screen
 - **النتيجة:** بيئة تطوير كاملة
 
 ### 3. Critical Bug Fixes (MedicineProvider) ✅
@@ -64,6 +66,13 @@
     - [x] Add "All Interactions" mode sorted by severity.
     - [x] Implement local search/filter.
     - [x] Update Home Screen navigation.
+- [x] **Interaction & Dosage Tools:**
+    - [x] Interaction Checker tool with multi-drug analysis.
+    - [x] Dosage Calculator with pediatric formulas and DB guidelines.
+    - [x] Automated `med_ingredients` bridging for interactions.
+- [x] **Drug Details Improvements:**
+    - [x] Smart Alternatives logic via `CategoryMapperHelper`.
+    - [x] Accurate "Similars" matching.
 - [x] **Localization Fixes:**
     - [x] Search Bar hint text (Arabic/English).
     - [x] Fix compilation errors and lints.

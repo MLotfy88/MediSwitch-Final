@@ -5,20 +5,25 @@ import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/usecases/usecase.dart';
+import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/domain/entities/app_notification.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
 import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
 import 'package:mediswitch/domain/usecases/get_categories_with_count.dart';
+import 'package:mediswitch/domain/usecases/get_drug_interactions.dart';
+import 'package:mediswitch/domain/usecases/get_high_risk_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_similar_drugs.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
 import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -39,14 +44,14 @@ class MedicineProvider extends ChangeNotifier {
   final FileLoggerService _logger = locator<FileLoggerService>();
 
   // State
-  List<DrugEntity> _allDrugs = [];
+  final List<DrugEntity> _allDrugs = [];
   List<DrugEntity> _searchResults = [];
   // _newDrugs is mapped to _recentlyUpdatedDrugs via getter for backward compatibility
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
   List<DrugEntity> _highRiskDrugs = [];
   List<HighRiskIngredient> _highRiskIngredients = [];
-  List<DrugEntity> _favorites = []; // List of full entities
+  final List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
   List<DrugEntity> _recentlyViewedDrugs = []; // New list for visited drugs
 
@@ -203,6 +208,7 @@ class MedicineProvider extends ChangeNotifier {
     await Future.wait([
       _loadCategories(forceLocal: true),
       _loadHighRiskIngredients(),
+      _loadHighRiskDrugs(),
       _loadHomeRecentlyUpdatedDrugs(),
     ]);
 
@@ -551,6 +557,25 @@ class MedicineProvider extends ChangeNotifier {
     );
   }
 
+  Future<void> _loadHighRiskDrugs() async {
+    _logger.d("MedicineProvider: Loading high risk drugs...");
+    final useCase = locator<GetHighRiskDrugsUseCase>();
+    final result = await useCase(10); // Load top 10 high risk drugs
+    result.fold(
+      (Failure failure) {
+        _logger.e(
+          'MedicineProvider: Failed to load high risk drugs: ${failure.message}',
+        );
+        _highRiskDrugs = [];
+      },
+      (List<DrugEntity> drugs) {
+        _logger.i('MedicineProvider: Loaded ${drugs.length} high risk drugs.');
+        _highRiskDrugs = drugs;
+      },
+    );
+    notifyListeners();
+  }
+
   Future<void> _loadCategories({bool forceLocal = false}) async {
     _logger.d(
       "MedicineProvider: _loadCategories called (forceLocal: $forceLocal).",
@@ -568,51 +593,53 @@ class MedicineProvider extends ChangeNotifier {
       },
       (categoryCounts) {
         _logger.i(
-          "MedicineProvider: Loaded ${categoryCounts.length} categories from DB.",
+          "MedicineProvider: Loaded ${categoryCounts.length} raw categories from DB. Aggregating...",
         );
 
-        final List<CategoryEntity> mergedCategories = [];
-        final staticDataMap = {
-          for (var item in kAllCategories) item.nameEn.toLowerCase(): item,
-        };
+        // Map detailed categories to broad specialties
+        final Map<String, int> specialtyCounts = {};
 
-        // Iterate over Map entries
+        // Initialize with 0 for all known specialties to ensure they appear
+        for (var meta in kAllCategories) {
+          specialtyCounts[meta.id] = 0;
+        }
+
+        // int unmappedCount = 0;
+
         for (var entry in categoryCounts.entries) {
-          final outputName = entry.key; // Category name
-          final dbCount = entry.value; // Count
+          final detailedCategory = entry.key;
+          final count = entry.value;
 
-          final meta = staticDataMap[outputName.toLowerCase()];
+          final specialtyId = CategoryMapperHelper.mapCategoryToSpecialty(
+            detailedCategory,
+          );
+          // Only count if it's one of our defined specialties, otherwise dump to General
+          // 'general' is already in kAllCategories
 
-          if (meta != null) {
-            mergedCategories.add(
-              CategoryEntity(
-                id: meta.id,
-                name: meta.nameEn,
-                nameAr: meta.nameAr,
-                shortName: meta.shortNameEn,
-                shortNameAr: meta.shortNameAr,
-                drugCount: dbCount,
-                icon: _getIconNameFromMeta(meta),
-                color: meta.colorName,
-              ),
-            );
-            staticDataMap.remove(outputName.toLowerCase());
+          if (specialtyCounts.containsKey(specialtyId)) {
+            specialtyCounts[specialtyId] =
+                (specialtyCounts[specialtyId] ?? 0) + count;
           } else {
-            mergedCategories.add(
-              CategoryEntity(
-                id: outputName.toLowerCase().replaceAll(' ', '_'),
-                name: outputName,
-                nameAr: outputName,
-                drugCount: dbCount,
-                icon: 'pill',
-                color: 'blue',
-              ),
-            );
+            // Fallback to general if mapper returns something weird (shouldn't happen with helper)
+            specialtyCounts['general'] =
+                (specialtyCounts['general'] ?? 0) + count;
           }
         }
 
-        // Add remaining static categories with 0 count
-        for (var meta in staticDataMap.values) {
+        _logger.i(
+          "MedicineProvider: mapped items. General bucket has ${specialtyCounts['general'] ?? 0} items.",
+        );
+
+        final List<CategoryEntity> mergedCategories = [];
+
+        // Create entities from aggregated counts
+        for (var meta in kAllCategories) {
+          // Skip if count is 0 and we want to hide empty ones?
+          // User typically wants to see them but maybe empty ones are clutter.
+          // Let's keep them but sort them to bottom.
+          // Actually, let's filter out 0 count unless it's a major one?
+          // For now, keep all defined in kAllCategories.
+
           mergedCategories.add(
             CategoryEntity(
               id: meta.id,
@@ -620,36 +647,27 @@ class MedicineProvider extends ChangeNotifier {
               nameAr: meta.nameAr,
               shortName: meta.shortNameEn,
               shortNameAr: meta.shortNameAr,
-              drugCount: 0,
+              drugCount: specialtyCounts[meta.id] ?? 0,
               icon: _getIconNameFromMeta(meta),
               color: meta.colorName,
             ),
           );
         }
 
-        // Custom sorting: Cardio, Anti-Infective, CNS (Psychiatric/Neurology) first, then Respiratory
+        // Custom sorting: Priority then Count
         mergedCategories.sort((a, b) {
-          final priority = [
-            'cardiovascular',
-            'anti_infective',
-            'psychiatric',
-            'neurology',
-            'respiratory',
-          ];
-          final indexA = priority.indexOf(a.id.toLowerCase());
-          final indexB = priority.indexOf(b.id.toLowerCase());
-
-          if (indexA != -1 && indexB != -1) return indexA.compareTo(indexB);
-          if (indexA != -1) return -1;
-          if (indexB != -1) return 1;
-
-          return b.drugCount.compareTo(a.drugCount);
+          // Keep specific order if desired, or just sort by count DESC
+          // Let's sort by count DESC primarily, but keep Cardio/Anti-Infective on top if they have data
+          if (b.drugCount != a.drugCount) {
+            return b.drugCount.compareTo(a.drugCount);
+          }
+          return 0;
         });
 
         _categories = mergedCategories;
         notifyListeners();
         _logger.i(
-          "MedicineProvider: Merged and loaded ${_categories.length} categories.",
+          "MedicineProvider: Aggregated into ${_categories.length} specialties.",
         );
       },
     );
@@ -715,6 +733,14 @@ class MedicineProvider extends ChangeNotifier {
     if (data.id == 'pain_relief') return 'zap';
     if (data.id == 'psychiatric') return 'brain';
     if (data.id == 'respiratory') return 'wind';
+    if (data.id == 'gastroenterology') return 'utensils';
+    if (data.id == 'neurology') return 'brain-circuit';
+    if (data.id == 'urology') return 'droplets';
+    if (data.id == 'ophthalmology') return 'eye';
+    if (data.id == 'gynecology') return 'baby';
+    if (data.id == 'orthopedics') return 'bone';
+    if (data.id == 'hematology') return 'blood';
+    if (data.id == 'oncology') return 'microscope';
     return 'pill';
   }
 
@@ -1063,32 +1089,40 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<List<DrugEntity>> getSimilarDrugs(DrugEntity drug) async {
     // Similars = Same Active Ingredient (Mathayel)
-    // We use FindDrugAlternativesUseCase which implements active ingredient matching
-    final useCase = locator<FindDrugAlternativesUseCase>();
-    final result = await useCase(drug);
-    return result.fold((l) => [], (r) => r.alternatives);
+    try {
+      final useCase = locator<GetSimilarDrugsUseCase>();
+      final result = await useCase(drug);
+      return result.fold((l) => [], (r) => r);
+    } catch (e) {
+      _logger.e("Error getting similar drugs: $e");
+      return [];
+    }
   }
 
   Future<List<DrugEntity>> getAlternativeDrugs(DrugEntity drug) async {
-    // Alternatives = Same Indication/Category but Different Active Ingredient (Badael)
-    if (drug.mainCategory.isEmpty) return [];
+    // Alternatives = Same Therapeutic Category (Smart Classification)
+    try {
+      final useCase =
+          locator<
+            FindDrugAlternativesUseCase
+          >(); // Updated logic inside UseCase
+      final result = await useCase(drug);
+      return result.fold((l) => [], (r) => r.alternatives);
+    } catch (e) {
+      _logger.e("Error getting alternative drugs: $e");
+      return [];
+    }
+  }
 
-    final result = await _filterDrugsByCategoryUseCase(
-      FilterParams(category: drug.mainCategory, limit: 20, offset: 0),
-    );
-
-    return result.fold(
-      (l) => [],
-      (drugs) =>
-          drugs
-              .where(
-                (d) =>
-                    (d.id?.toString() ?? d.tradeName) !=
-                        (drug.id?.toString() ?? drug.tradeName) &&
-                    (d.active.toLowerCase() != drug.active.toLowerCase()),
-              )
-              .toList(),
-    );
+  Future<List<DrugInteraction>> getDrugInteractions(DrugEntity drug) async {
+    try {
+      final useCase = locator<GetDrugInteractionsUseCase>();
+      final result = await useCase(drug);
+      return result.fold((l) => [], (r) => r);
+    } catch (e) {
+      _logger.e("Error getting drug interactions: $e");
+      return [];
+    }
   }
 
   Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {

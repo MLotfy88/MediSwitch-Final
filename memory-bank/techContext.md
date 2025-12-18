@@ -24,6 +24,7 @@
     -   **Notifications**: D1-based queue + Push API.
     -   **Analytics**: Custom D1 event tracking.
     -   **Monetization**: Server-side config & ad mediation control.
+-   **Data Processing**: Optimized scripts for interaction bridging via `med_ingredients`.
 
 ### البنية التحتية (Infrastructure)
 -   **Host**: Cloudflare Global Network.

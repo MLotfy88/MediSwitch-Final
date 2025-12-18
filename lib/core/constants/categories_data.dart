@@ -133,8 +133,96 @@ final List<CategoryData> kAllCategories = [
     nameAr: 'الغدد الصماء',
     shortNameEn: 'Endo',
     shortNameAr: 'غدد',
-    count: 11,
+    count: 0,
     icon: LucideIcons.activity,
+    colorName: 'purple',
+  ),
+  // 11. Gastroenterology
+  CategoryData(
+    id: 'gastroenterology',
+    nameEn: 'Gastroenterology',
+    nameAr: 'الجهاز الهضمي',
+    shortNameEn: 'GIT',
+    shortNameAr: 'هضمي',
+    count: 0,
+    icon: LucideIcons.utensils,
+    colorName: 'green',
+  ),
+  // 12. Neurology
+  CategoryData(
+    id: 'neurology',
+    nameEn: 'Neurology',
+    nameAr: 'المخ والأعصاب',
+    shortNameEn: 'Neuro',
+    shortNameAr: 'أعصاب',
+    count: 0,
+    icon: LucideIcons.brainCircuit,
+    colorName: 'blue',
+  ),
+  // 13. Urology
+  CategoryData(
+    id: 'urology',
+    nameEn: 'Urology',
+    nameAr: 'المسالك البولية',
+    shortNameEn: 'Uro',
+    shortNameAr: 'مسالك',
+    count: 0,
+    icon: LucideIcons.droplets, // Closest match
+    colorName: 'cyan',
+  ),
+  // 14. Ophthalmology
+  CategoryData(
+    id: 'ophthalmology',
+    nameEn: 'Ophthalmology',
+    nameAr: 'العيون',
+    shortNameEn: 'Eye',
+    shortNameAr: 'عيون',
+    count: 0,
+    icon: LucideIcons.eye,
+    colorName: 'sky',
+  ),
+  // 15. Gynecology
+  CategoryData(
+    id: 'gynecology',
+    nameEn: 'Gynecology',
+    nameAr: 'النساء والتوليد',
+    shortNameEn: 'Gyna',
+    shortNameAr: 'نساء',
+    count: 0,
+    icon: LucideIcons.baby,
+    colorName: 'pink',
+  ),
+  // 16. Orthopedics
+  CategoryData(
+    id: 'orthopedics',
+    nameEn: 'Orthopedics',
+    nameAr: 'العظام',
+    shortNameEn: 'Ortho',
+    shortNameAr: 'عظام',
+    count: 0,
+    icon: LucideIcons.bone,
+    colorName: 'indigo',
+  ),
+  // 17. Hematology
+  CategoryData(
+    id: 'hematology',
+    nameEn: 'Hematology',
+    nameAr: 'أماض الدم',
+    shortNameEn: 'Blood',
+    shortNameAr: 'دم',
+    count: 0,
+    icon: LucideIcons.droplet,
+    colorName: 'red',
+  ),
+  // 18. Oncology
+  CategoryData(
+    id: 'oncology',
+    nameEn: 'Oncology',
+    nameAr: 'الأورام',
+    shortNameEn: 'Onco',
+    shortNameAr: 'أورام',
+    count: 0,
+    icon: LucideIcons.microscope,
     colorName: 'purple',
   ),
 ];
