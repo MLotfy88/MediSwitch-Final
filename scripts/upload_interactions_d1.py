@@ -60,7 +60,7 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
                     
                     batch.append(f"('{i1}', '{i2}', '{sev}', '{eff}', '{src}')")
                     
-                    if len(batch) >= 100:
+                    if len(batch) >= 50:
                          f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, source) VALUES\n")
                          f.write(",\n".join(batch))
                          f.write(";\n")
@@ -109,7 +109,7 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
                         clean_ing = str(ing).replace("'", "''")
                         batch.append(f"({mid}, '{clean_ing}')")
                     
-                    if len(batch) >= 500:
+                    if len(batch) >= 100:
                          f.write("INSERT OR IGNORE INTO med_ingredients (med_id, ingredient) VALUES\n")
                          f.write(",\n".join(batch))
                          f.write(";\n")

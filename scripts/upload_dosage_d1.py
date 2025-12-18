@@ -44,7 +44,7 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
             return True
             
         print("📝 Generating INSERT statements...")
-        batch_size = 500
+        batch_size = 50
         batch = []
         
         for d in dosages:
