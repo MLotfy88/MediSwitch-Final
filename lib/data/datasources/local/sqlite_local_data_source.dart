@@ -26,7 +26,7 @@ List<String> _parseIngredients(String active) {
   if (active.isEmpty) return [];
   // Split by +, /, and ,
   return active
-      .split(RegExp(r'[+/,]'))
+      .split(RegExp(r'[+;,/]'))
       .map((e) => e.trim().toLowerCase())
       .where((e) => e.isNotEmpty)
       .toList();
@@ -318,7 +318,7 @@ class SqliteLocalDataSource {
           );
           final batch = db.batch();
           for (final r in rules) {
-            batch.insert('interaction_rules', {
+            batch.insert(DatabaseHelper.interactionsTable, {
               'ingredient1': r['ingredient1'],
               'ingredient2': r['ingredient2'],
               'severity': r['severity'],

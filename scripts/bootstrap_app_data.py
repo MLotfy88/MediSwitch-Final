@@ -130,7 +130,7 @@ def bootstrap_interactions():
             # Smart Split (semicolon, plus, comma handling)
             # Logic: match scraper's splitting if possible
             import re
-            parts = re.split(r'[+;,]', active)
+            parts = re.split(r'[+;,/]', active)
             cleaned_parts = [p.strip().lower() for p in parts if p.strip()]
             
             if cleaned_parts:
