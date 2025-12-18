@@ -63,13 +63,17 @@ jobs:
           ./gradlew assembleRelease
           cd ..
 
+      - name: Rename APK
+        run: |
+          mv build/app/outputs/apk/release/app-release.apk build/app/outputs/apk/release/MediSwitch_v${{ env.VERSION }}.${{ github.run_number }}.apk
+
       # إعطاء معرف لهذه الخطوة للوصول إلى مخرجاتها
       - name: Upload Signed APK Artifact
         id: upload_artifact # المعرف
         uses: actions/upload-artifact@v4
         with:
           name: app-release-signed-apk
-          path: android/app/build/outputs/apk/release/*.apk
+          path: build/app/outputs/apk/release/*.apk
 
       - name: Publish Nightly Release
         uses: softprops/action-gh-release@v2
@@ -82,7 +86,7 @@ jobs:
             **🔨 Commit:** `${{ github.sha }}`
             
             ⚠️ *This release is automatically updated with every push to main.*
-          files: android/app/build/outputs/apk/release/*.apk
+          files: build/app/outputs/apk/release/*.apk
           prerelease: false
           make_latest: true
           target_commitish: ${{ github.sha }}
