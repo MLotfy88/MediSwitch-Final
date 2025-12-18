@@ -245,7 +245,8 @@ class SqliteLocalDataSource {
           final fname =
               'assets/data/interactions/rules_part_${chunk.toString().padLeft(3, '0')}.json';
           final jsonString = await rootBundle.loadString(fname);
-          final Map<String, dynamic> content = json.decode(jsonString);
+          final Map<String, dynamic> content =
+              json.decode(jsonString) as Map<String, dynamic>;
           final List<dynamic> rules =
               content['data']
                   as List<
@@ -282,7 +283,8 @@ class SqliteLocalDataSource {
           final fname =
               'assets/data/interactions/ingredients_part_${chunk.toString().padLeft(3, '0')}.json';
           final jsonString = await rootBundle.loadString(fname);
-          final Map<String, dynamic> content = json.decode(jsonString);
+          final Map<String, dynamic> content =
+              json.decode(jsonString) as Map<String, dynamic>;
           // Py script format: {"meta": ..., "data": [{"med_id": 1, "ingredients": ["a", "b"]}, ...]}
           final List<dynamic> items = content['data'] as List<dynamic>;
 
@@ -290,8 +292,9 @@ class SqliteLocalDataSource {
 
           final batch = db.batch();
           for (final item in items) {
-            final int medId = item['med_id'];
-            final List<dynamic> ingredients = item['ingredients'];
+            final int medId = item['med_id'] as int;
+            final List<dynamic> ingredients =
+                item['ingredients'] as List<dynamic>;
             for (final ing in ingredients) {
               batch.insert('med_ingredients', {
                 'med_id': medId,
