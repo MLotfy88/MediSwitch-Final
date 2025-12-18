@@ -35,7 +35,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Cardio',
     shortNameAr: 'قلب',
     count: 741,
-    icon: LucideIcons.heartPulse, // More specific
+    icon: LucideIcons.heartPulse,
     colorName: 'rose',
   ),
   // 2. Anti Infective (مضادات)
@@ -46,7 +46,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Anti Inf.',
     shortNameAr: 'مضادات',
     count: 1468,
-    icon: LucideIcons.bug, // Keep bug, fits well
+    icon: LucideIcons.bug,
     colorName: 'teal',
   ),
   // 3. Psychiatric (المخ والأعصاب/النفسية)
@@ -79,7 +79,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Nutrition',
     shortNameAr: 'تغذية',
     count: 3219,
-    icon: LucideIcons.apple, // Fits well
+    icon: LucideIcons.apple,
     colorName: 'lime',
   ),
   // 6. Dermatology
@@ -90,7 +90,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Derma',
     shortNameAr: 'جلدية',
     count: 1280,
-    icon: LucideIcons.sun, // Or UserCheck? Sun is good for skin
+    icon: Icons.face, // Skin/Face
     colorName: 'amber',
   ),
   // 7. Respiratory
@@ -101,9 +101,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Resp.',
     shortNameAr: 'تنفسي',
     count: 398,
-    icon:
-        LucideIcons
-            .wind, // User suggested lungs, but Lucide might not have it. Using Wind for now.
+    icon: Icons.air, // Air/Breath
     colorName: 'cyan',
   ),
   // 8. Pain Relief
@@ -114,7 +112,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Pain',
     shortNameAr: 'مسكنات',
     count: 564,
-    icon: LucideIcons.zap,
+    icon: Icons.healing, // Bandage/Medication
     colorName: 'red',
   ),
   // 9. Immunology
@@ -136,7 +134,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Endo',
     shortNameAr: 'غدد',
     count: 0,
-    icon: LucideIcons.activity,
+    icon: Icons.science, // Lab/Hormones
     colorName: 'purple',
   ),
   // 11. Gastroenterology
@@ -147,7 +145,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'GIT',
     shortNameAr: 'هضمي',
     count: 0,
-    icon: LucideIcons.utensils,
+    icon: Icons.spa, // Wellness/Digestion
     colorName: 'orange',
   ),
   // 12. Neurology
@@ -191,7 +189,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Gyna',
     shortNameAr: 'نساء',
     count: 0,
-    icon: LucideIcons.baby,
+    icon: Icons.pregnant_woman,
     colorName: 'pink',
   ),
   // 16. Orthopedics
@@ -213,7 +211,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Blood',
     shortNameAr: 'دم',
     count: 0,
-    icon: LucideIcons.droplet, // Distinct from droplets
+    icon: Icons.bloodtype,
     colorName: 'crimson',
   ),
   // 18. Oncology
