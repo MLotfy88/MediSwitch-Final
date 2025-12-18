@@ -6,6 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:mediswitch/core/database/database_helper.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/data/models/drug_interaction_model.dart'; // Added import
 import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
@@ -565,23 +566,105 @@ class SqliteLocalDataSource {
   }
 
   // --- Dosage Guidelines ---
-  Future<List<DosageGuidelinesModel>> getDosageGuidelines(
-    String activeIngredient,
-  ) async {
+  Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
     await seedingComplete;
-    if (activeIngredient.isEmpty) return [];
 
     final db = await dbHelper.database;
-    final lowerActive = activeIngredient.toLowerCase().trim();
-
     final List<Map<String, dynamic>> maps = await db.query(
       'dosage_guidelines',
-      where: 'LOWER(active_ingredient) = ?',
-      whereArgs: [lowerActive],
+      where: 'med_id = ?',
+      whereArgs: [medId],
     );
 
     return List.generate(maps.length, (i) {
       return DosageGuidelinesModel.fromMap(maps[i]);
+    });
+  }
+
+  // --- Interaction Methods ---
+
+  Future<List<DrugInteractionModel>> getInteractionsForDrug(int medId) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      'drug_interactions',
+      where: 'med_id = ?',
+      whereArgs: [medId],
+    );
+    return List.generate(maps.length, (i) {
+      return DrugInteractionModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<void> insertInteractionsBatch(
+    List<DrugInteractionModel> interactions,
+  ) async {
+    final db = await dbHelper.database;
+    final batch = db.batch();
+    for (final item in interactions) {
+      batch.insert(
+        'drug_interactions',
+        item.toMap(),
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
+    await batch.commit(noResult: true);
+  }
+
+  Future<List<MedicineModel>> getHighRiskMedicines(int limit) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      SELECT m.*, 
+        SUM(CASE 
+          WHEN di.severity = 'Contraindicated' THEN 10 
+          WHEN di.severity = 'Severe' THEN 8
+          WHEN di.severity = 'Major' THEN 5
+          WHEN di.severity = 'Moderate' THEN 3
+          ELSE 1 
+        END) as risk_score
+      FROM medicines m
+      JOIN drug_interactions di ON m.id = di.med_id
+      GROUP BY m.id
+      ORDER BY risk_score DESC
+      LIMIT ?
+    ''',
+      [limit],
+    );
+
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<List<DrugInteractionModel>> getHighRiskInteractions({
+    int limit = 50,
+  }) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      'drug_interactions',
+      where: "severity IN ('Contraindicated', 'Severe', 'Major')",
+      limit: limit,
+    );
+    return List.generate(maps.length, (i) {
+      return DrugInteractionModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<List<DrugInteractionModel>> getInteractionsWith(
+    String drugName,
+  ) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      'drug_interactions',
+      where: 'interaction_drug_name LIKE ?',
+      whereArgs: ['%$drugName%'],
+    );
+    return List.generate(maps.length, (i) {
+      return DrugInteractionModel.fromMap(maps[i]);
     });
   }
 }

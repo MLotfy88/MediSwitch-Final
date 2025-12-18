@@ -135,14 +135,12 @@ jobs:
 
       # --- STEP 5: Interactions (Matching) ---
       - name: 5. Extract Interactions (Matching)
-        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
         run: |
-          echo "🧪 Running Interaction Extraction (Reads Zips)..."
-          # This requires the Zips from Step 3 still exist
-          python3 production_data/extract_dailymed_interactions.py
+          echo "🧪 Running Interaction Extraction (Reads Cached Parts)..."
+          # Can now run from Cache (Parts) OR Fresh Download
+          python3 production_data/extract_interactions_production.py
           
       - name: 5.1 Commit Interactions
-        if: steps.check_cache.outputs.skip_dailymed_download != 'true'
         run: |
           git add -f production_data/dailymed_interactions.json
           git commit -m "data: interactions extracted $(date +'%Y-%m-%d')" || echo "No changes"

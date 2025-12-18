@@ -14,7 +14,10 @@ class InteractionCard extends StatelessWidget {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
     final colorScheme = theme.colorScheme;
-    final severityColor = _getSeverityColor(interaction.severity, appColors);
+    final severityColor = _getSeverityColor(
+      interaction.severityEnum,
+      appColors,
+    );
 
     return Container(
       padding: const EdgeInsets.all(16),
@@ -41,7 +44,7 @@ class InteractionCard extends StatelessWidget {
                 ),
                 child: Center(
                   child: Icon(
-                    _getSeverityIcon(interaction.severity),
+                    _getSeverityIcon(interaction.severityEnum),
                     color: severityColor,
                     size: 20,
                   ),
@@ -55,7 +58,7 @@ class InteractionCard extends StatelessWidget {
                   children: [
                     // Interacting drug name (font-semibold)
                     Text(
-                      interaction.ingredient2,
+                      interaction.interactionDrugName,
                       style: TextStyle(
                         color: colorScheme.onSurface,
                         fontWeight: FontWeight.w600,
@@ -74,7 +77,7 @@ class InteractionCard extends StatelessWidget {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Text(
-                        _getSeverityLabel(interaction.severity),
+                        _getSeverityLabel(interaction.severityEnum),
                         style: TextStyle(
                           color: severityColor,
                           fontWeight: FontWeight.w500,
@@ -90,52 +93,28 @@ class InteractionCard extends StatelessWidget {
 
           const SizedBox(height: 12),
 
-          // Interaction Effect (description)
-          Text(
-            interaction.effect,
-            style: TextStyle(
-              color: colorScheme.onSurfaceVariant,
-              fontSize: 14,
-              height: 1.5,
+          // Interaction Description
+          if (interaction.description != null &&
+              interaction.description!.isNotEmpty)
+            Text(
+              interaction.description!,
+              style: TextStyle(
+                color: colorScheme.onSurfaceVariant,
+                fontSize: 14,
+                height: 1.5,
+              ),
+            )
+          else
+            Text(
+              "No details available.",
+              style: TextStyle(
+                color: colorScheme.onSurfaceVariant.withOpacity(0.5),
+                fontSize: 14,
+                fontStyle: FontStyle.italic,
+              ),
             ),
-          ),
 
-          // Recommendation box (bg-background/50)
-          if (interaction.recommendation.isNotEmpty) ...[
-            const SizedBox(height: 12),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: colorScheme.surface.withValues(alpha: 0.5),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color: appColors.border.withValues(alpha: 0.3),
-                ),
-              ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Icon(
-                    LucideIcons.lightbulb,
-                    size: 16,
-                    color: appColors.mutedForeground,
-                  ),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      interaction.recommendation,
-                      style: TextStyle(
-                        color: appColors.mutedForeground,
-                        fontSize: 13,
-                        height: 1.4,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
+          // Removed Recommendation box as it's no longer separate field
         ],
       ),
     );

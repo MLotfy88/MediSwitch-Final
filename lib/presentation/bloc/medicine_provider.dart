@@ -655,10 +655,11 @@ class MedicineProvider extends ChangeNotifier {
 
     int count = 0;
     for (var drug in _recentlyUpdatedDrugs) {
-      if (drug.lastPriceUpdate == null) continue;
+      if (drug.lastPriceUpdate.isEmpty)
+        continue; // Check for empty instead of null
       try {
         // Format: YYYY-MM-DD
-        final parts = drug.lastPriceUpdate!.split('-');
+        final parts = drug.lastPriceUpdate.split('-');
         if (parts.length == 3) {
           final year = int.parse(parts[0]);
           final month = int.parse(parts[1]);
@@ -1060,10 +1061,10 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<List<DrugEntity>> getAlternativeDrugs(DrugEntity drug) async {
     // Alternatives = Same Indication/Category but Different Active Ingredient (Badael)
-    if (drug.mainCategory == null || drug.mainCategory!.isEmpty) return [];
+    if (drug.mainCategory.isEmpty) return [];
 
     final result = await _filterDrugsByCategoryUseCase(
-      FilterParams(category: drug.mainCategory!, limit: 20, offset: 0),
+      FilterParams(category: drug.mainCategory, limit: 20, offset: 0),
     );
 
     return result.fold(
@@ -1074,20 +1075,18 @@ class MedicineProvider extends ChangeNotifier {
                 (d) =>
                     (d.id?.toString() ?? d.tradeName) !=
                         (drug.id?.toString() ?? drug.tradeName) &&
-                    (d.active?.toLowerCase() != drug.active?.toLowerCase()),
+                    (d.active.toLowerCase() != drug.active.toLowerCase()),
               )
               .toList(),
     );
   }
 
-  Future<List<DosageGuidelinesModel>> getDosageGuidelines(
-    String activeIngredient,
-  ) async {
+  Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
     // Directly access local data source for dosage guidelines
     // Since this is specific to the local SQLite DB "Dosage Guidelines" table.
     try {
-      if (activeIngredient.isEmpty) return [];
-      return await _localDataSource.getDosageGuidelines(activeIngredient);
+      if (medId == 0) return [];
+      return await _localDataSource.getDosageGuidelines(medId);
     } catch (e) {
       _logger.e("Error fetching dosage guidelines: $e");
       return [];

@@ -70,7 +70,7 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         
         print("📝 Exporting records...")
         
-        batch_size = 500
+        batch_size = 50
         batch = []
         total_exported = 0
         seen_ids = set()

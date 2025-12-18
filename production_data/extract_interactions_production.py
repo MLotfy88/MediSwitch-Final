@@ -9,24 +9,26 @@ Requirements:
 3. Clear severity levels
 4. Recommendations when available
 5. Quality validation
+
+Source: production_data/dailymed_full/ (Split GZIP JSONL)
 """
 
 import json
 import os
-import zipfile
-import ijson
+import gzip
 import re
+import glob
 from typing import List, Dict, Set, Optional, Tuple
 from collections import defaultdict
 
 # Configuration
-DOWNLOAD_DIR = 'External_source/drug_interaction/drug-label/downloaded'
+INPUT_DIR = 'production_data/dailymed_full'
 OUTPUT_DIR = 'production_data'
-OUTPUT_FILE = 'production_data/drug_interactions_clean.json'
+OUTPUT_FILE = 'production_data/dailymed_interactions.json' # Unified name
 
 # Quality thresholds
 MIN_INTERACTION_LENGTH = 50  # Minimum text length
-MAX_INTERACTION_LENGTH = 1000  # Maximum to avoid huge blocks
+MAX_INTERACTION_LENGTH = 2000  # Maximum to avoid huge blocks (Increased for DailyMed)
 MIN_CONFIDENCE_SCORE = 0.7  # Minimum confidence to include
 
 # Known pharmaceutical ingredients (will be expanded)
@@ -42,11 +44,11 @@ class DrugNameExtractor:
         # Common drug patterns
         self.drug_patterns = [
             # "Drug X" or "Drug Y"
-            r'\b([A-Z][a-z]+(?:ine|cin|pril|olol|statin|mycin|cillin))\b',
+            r'\\b([A-Z][a-z]+(?:ine|cin|pril|olol|statin|mycin|cillin))\\b',
             # CAPITALS DRUG
-            r'\b([A-Z]{3,})\b',
+            r'\\b([A-Z]{3,})\\b',
             # hyphenated drugs
-            r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)+)\b',
+            r'\\b([A-Z][a-z]+(?:-[A-Z][a-z]+)+)\\b',
         ]
     
     def extract_interacting_drugs(self, text: str, primary_drug: str) -> List[str]:
@@ -61,6 +63,8 @@ class DrugNameExtractor:
         # Method 1: Known ingredients
         for ingredient in self.known_ingredients:
             if ingredient in text_lower and ingredient != primary_lower:
+                # Basic context check: Ensure it's not part of a longer word?
+                # For now, strict inclusion is okay if list is curated
                 candidates.add(ingredient)
         
         # Method 2: Pattern matching
@@ -84,20 +88,23 @@ class DrugNameExtractor:
         common_words = {
             'the', 'and', 'with', 'use', 'when', 'may', 'can', 'should',
             'take', 'dose', 'drug', 'this', 'other', 'have', 'been',
-            'such', 'been', 'these', 'those', 'some', 'risk', 'effect'
+            'such', 'been', 'these', 'those', 'some', 'risk', 'effect',
+            'medical', 'doctor', 'patient', 'please', 'contact', 'information'
         }
         return word.lower() in common_words
     
     def _extract_drug_classes(self, text: str) -> Set[str]:
         """Extract drug class names (e.g., 'NSAIDs', 'statins')"""
         class_patterns = [
-            r'\b(NSAID|NSAIDs)\b',
-            r'\b(beta[- ]?blocker|beta[- ]?blockers)\b',
-            r'\b(ACE inhibitor|ACE inhibitors)\b',
-            r'\b(statin|statins)\b',
-            r'\b(anticoagulant|anticoagulants)\b',
-            r'\b(antibiotic|antibiotics)\b',
-            r'\b(corticosteroid|corticosteroids)\b',
+            r'\\b(NSAID|NSAIDs)\\b',
+            r'\\b(beta[- ]?blocker|beta[- ]?blockers)\\b',
+            r'\\b(ACE inhibitor|ACE inhibitors)\\b',
+            r'\\b(statin|statins)\\b',
+            r'\\b(anticoagulant|anticoagulants)\\b',
+            r'\\b(antibiotic|antibiotics)\\b',
+            r'\\b(corticosteroid|corticosteroids)\\b',
+            r'\\b(diuretic|diuretics)\\b',
+            r'\\b(MAO inhibitor|MAO inhibitors|MAOI|MAOIs)\\b',
         ]
         
         classes = set()
@@ -119,14 +126,14 @@ class TextFormatter:
             return ""
         
         # Remove excessive whitespace
-        text = re.sub(r'\s+', ' ', text)
+        text = re.sub(r'\\s+', ' ', text)
         
-        # Remove special characters but keep periods, commas, hyphens
-        text = re.sub(r'[^\w\s.,;:()\-/%]', '', text)
+        # Remove special characters but keep periods, commas, hyphens, percents
+        text = re.sub(r'[^\\w\\s.,;:()\\-/%]', '', text)
         
         # Fix spacing around punctuation
-        text = re.sub(r'\s+([.,;:])', r'\1', text)
-        text = re.sub(r'([.,;:])\s*', r'\1 ', text)
+        text = re.sub(r'\\s+([.,;:])', r'\\1', text)
+        text = re.sub(r'([.,;:])\\s*', r'\\1 ', text)
         
         return text.strip()
     
@@ -137,7 +144,7 @@ class TextFormatter:
             return ""
         
         # Capitalize first letter of sentences
-        sentences = re.split(r'([.!?]\s+)', text)
+        sentences = re.split(r'([.!?]\\s+)', text)
         formatted = []
         
         for i, part in enumerate(sentences):
@@ -154,8 +161,8 @@ class TextFormatter:
         """Extract recommendation/advice from text"""
         recommendation_patterns = [
             r'(?:recommendation|caution|contraindication|avoid|should|must|monitor)[^.!?]*[.!?]',
-            r'(?:dose\s+adjustment|reduce\s+dose|increase\s+dose)[^.!?]*[.!?]',
-            r'(?:do\s+not|should\s+not)[^.!?]*[.!?]',
+            r'(?:dose\\s+adjustment|reduce\\s+dose|increase\\s+dose)[^.!?]*[.!?]',
+            r'(?:do\\s+not|should\\s+not)[^.!?]*[.!?]',
         ]
         
         for pattern in recommendation_patterns:
@@ -255,7 +262,7 @@ class QualityValidator:
             reasons.append("Incomplete sentence")
         
         # Check 5: Has meaningful content (not just lists)
-        if effect.count(',') > 10:  # Too many commas suggests alist
+        if effect.count(',') > 15:  # Slightly more lenient for long blocks
             score -= 0.2
             reasons.append("Text appears to be a list")
         
@@ -278,132 +285,115 @@ def load_known_ingredients() -> Set[str]:
             'lisinopril', 'atorvastatin', 'amlodipine', 'metoprolol', 'losartan',
             'hydrochlorothiazide', 'gabapentin', 'omeprazole', 'albuterol',
             'levothyroxine', 'amoxicillin', 'citalopram', 'atenolol', 'furosemide',
+            'ciprofloxacin', 'azithromycin', 'doxycycline', 'tramadol', 'clopidogrel',
             # Add drug classes
             'nsaids', 'ace inhibitors', 'beta blockers', 'statins', 'ssris',
             'anticoagulants', 'corticosteroids', 'opioids', 'benzodiazepines'
         }
 
 
-def process_file_with_quality(zip_path: str, name_extractor: DrugNameExtractor) -> List[Dict]:
-    """Process file with quality validation"""
+def process_part_file(file_path: str, name_extractor: DrugNameExtractor) -> List[Dict]:
+    """Process a single GZIP JSONL part file"""
     interactions = []
     stats = {
         'total_records': 0,
-        'has_interactions': 0,
+        'has_interaction_text': 0,
         'passed_validation': 0,
-        'rejected_generic_drug': 0,
-        'rejected_too_short': 0,
-        'rejected_low_confidence': 0
+        'rejected': 0
     }
     
-    if not os.path.exists(zip_path):
-        return interactions
-    
-    # Extract ZIP
-    json_file = zip_path.replace('.zip', '')
-    if not os.path.exists(json_file):
-        with zipfile.ZipFile(zip_path, 'r') as z:
-            z.extractall(os.path.dirname(zip_path))
-    
-    print(f"\n📄 Processing: {os.path.basename(json_file)}")
+    print(f"\\n📄 Processing: {os.path.basename(file_path)}")
     
     formatter = TextFormatter()
     validator = QualityValidator()
     
     try:
-        with open(json_file, 'rb') as f:
-            parser = ijson.items(f, 'results.item')
-            
-            for record in parser:
+        with gzip.open(file_path, 'rt', encoding='utf-8') as f:
+            for line in f:
+                if not line.strip(): continue
+                try:
+                    record = json.loads(line)
+                except:
+                    continue
+                
                 stats['total_records'] += 1
                 
-                # Get primary drug name
-                openfda = record.get('openfda', {})
+                # 1. Get Primary Drug Name
                 primary_drug = None
-                
-                for field in ['substance_name', 'generic_name', 'brand_name']:
-                    if openfda.get(field):
-                        primary_drug = openfda[field][0]
-                        break
+                products = record.get('products', [])
+                if products:
+                    # Prefer generic name, then proprietary
+                    primary_drug = products[0].get('non_proprietary_name') or products[0].get('proprietary_name')
                 
                 if not primary_drug:
                     continue
                 
                 primary_drug = primary_drug.lower().strip()
                 
-                # Get interaction texts
-                interaction_texts = record.get('drug_interactions', [])
-                if not interaction_texts:
+                # 2. Get Interaction Text
+                clinical = record.get('clinical_data', {})
+                interaction_text = clinical.get('drug_interactions')
+                
+                if not interaction_text:
                     continue
                 
-                stats['has_interactions'] += 1
+                stats['has_interaction_text'] += 1
                 
-                # Process each interaction
-                for text in interaction_texts:
-                    if len(text) < MIN_INTERACTION_LENGTH:
-                        stats['rejected_too_short'] += 1
-                        continue
-                    
-                    # Clean and format text
-                    cleaned_text = formatter.clean_text(text)
-                    formatted_text = formatter.capitalize_properly(cleaned_text)
-                    
-                    # Extract interacting drugs
-                    interacting_drugs = name_extractor.extract_interacting_drugs(
-                        formatted_text,
-                        primary_drug
-                    )
-                    
-                    if not interacting_drugs:
-                        stats['rejected_generic_drug'] += 1
-                        continue
-                    
-                    # Create interactions for each secondary drug
-                    for secondary_drug in interacting_drugs:
-                        # Classify severity
-                        severity, severity_confidence = SeverityClassifier.classify(formatted_text)
-                        
-                        # Extract recommendation
-                        recommendation = formatter.extract_recommendation(formatted_text)
-                        
-                        # Create interaction record
-                        interaction = {
-                            'ingredient1': primary_drug,
-                            'ingredient2': secondary_drug,
-                            'severity': severity,
-                            'severity_confidence': round(severity_confidence, 2),
-                            'effect': formatted_text[:800],  # Limit length
-                            'recommendation': recommendation or '',
-                            'source': 'OpenFDA',
-                            'quality_validated': True
-                        }
-                        
-                        # Validate quality
-                        is_valid, confidence, reason = validator.validate_interaction(interaction)
-                        
-                        if is_valid:
-                            interaction['confidence_score'] = round(confidence, 2)
-                            interactions.append(interaction)
-                            stats['passed_validation'] += 1
-                        else:
-                            stats['rejected_low_confidence'] += 1
+                if len(interaction_text) < MIN_INTERACTION_LENGTH:
+                    continue
                 
-                if stats['total_records'] % 5000 == 0:
-                    print(f"  Processed {stats['total_records']:,} records")
-                    print(f"    ✅ Validated: {stats['passed_validation']:,}")
-                    print(f"    ❌ Rejected: {stats['rejected_generic_drug'] + stats['rejected_too_short'] + stats['rejected_low_confidence']:,}")
+                # 3. Clean Text
+                cleaned_text = formatter.clean_text(interaction_text)
+                formatted_text = formatter.capitalize_properly(cleaned_text)
+                
+                # 4. Extract Interacting Drugs
+                interacting_drugs = name_extractor.extract_interacting_drugs(
+                    formatted_text,
+                    primary_drug
+                )
+                
+                if not interacting_drugs:
+                    stats['rejected'] += 1
+                    continue
+                
+                # 5. Create Interaction Records
+                for secondary_drug in interacting_drugs:
+                    # Classify severity
+                    severity, severity_confidence = SeverityClassifier.classify(formatted_text)
+                    
+                    # Extract recommendation
+                    recommendation = formatter.extract_recommendation(formatted_text)
+                    
+                    # Create interaction record
+                    interaction = {
+                        'ingredient1': primary_drug,
+                        'ingredient2': secondary_drug,
+                        'severity': severity,
+                        'severity_confidence': round(severity_confidence, 2),
+                        'effect': formatted_text[:1000],  # Limit length (slightly larger for DailyMed)
+                        'recommendation': recommendation or '',
+                        'source': 'DailyMed_Full',
+                        'quality_validated': True
+                    }
+                    
+                    # Validate quality
+                    is_valid, confidence, reason = validator.validate_interaction(interaction)
+                    
+                    if is_valid:
+                        interaction['confidence_score'] = round(confidence, 2)
+                        interactions.append(interaction)
+                        stats['passed_validation'] += 1
+                    else:
+                        stats['rejected'] += 1
+                
+                if stats['total_records'] % 2000 == 0:
+                     print(f"  Scanned {stats['total_records']:,} | Found {stats['passed_validation']:,} valid interactions...")
         
-        print(f"\n  📊 Final stats for this file:")
-        print(f"    Total records: {stats['total_records']:,}")
-        print(f"    With interactions: {stats['has_interactions']:,}")
-        print(f"    ✅ Passed validation: {stats['passed_validation']:,}")
-        print(f"    ❌ Rejected (generic drug): {stats['rejected_generic_drug']:,}")
-        print(f"    ❌ Rejected (too short): {stats['rejected_too_short']:,}")
-        print(f"    ❌ Rejected (low confidence): {stats['rejected_low_confidence']:,}")
+        print(f"  Summary for file: {stats['passed_validation']:,} interactions found.")
         
     except Exception as e:
-        print(f"  ❌ Error: {e}")
-    
+        print(f"  ❌ Error reading file: {e}")
+        
     return interactions
 
 
@@ -411,33 +401,36 @@ def main():
     """Main execution"""
     print("="*80)
     print("Production-Grade Drug Interactions Extractor")
-    print("Focus: Quality, Accuracy, Real Drug Names")
+    print(f"Source: {INPUT_DIR}")
     print("="*80)
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     # Load known ingredients
     known_ingredients = load_known_ingredients()
-    print(f"\n📚 Loaded {len(known_ingredients):,} known pharmaceutical ingredients")
+    print(f"\\n📚 Loaded {len(known_ingredients):,} known pharmaceutical ingredients")
     
     # Initialize extractor
     name_extractor = DrugNameExtractor(known_ingredients)
     
-    # Process files (first 3 for testing)
+    # Find all part files
+    part_files = sorted(glob.glob(os.path.join(INPUT_DIR, "part_*.gz")))
+    
+    if not part_files:
+        print(f"❌ No part files found in {INPUT_DIR}")
+        return
+        
+    print(f"Found {len(part_files)} part files.")
+    
     all_interactions = []
     
-    files_to_process = [
-        'drug-label-0001-of-0013.json.zip',
-        'drug-label-0002-of-0013.json.zip',
-        'drug-label-0003-of-0013.json.zip',
-    ]
-    
-    for filename in files_to_process:
-        zip_path = os.path.join(DOWNLOAD_DIR, filename)
-        interactions = process_file_with_quality(zip_path, name_extractor)
+    # Process files
+    for file_path in part_files:
+        interactions = process_part_file(file_path, name_extractor)
         all_interactions.extend(interactions)
     
     # Deduplicate
+    print(f"\\nDeduplicating {len(all_interactions):,} raw interactions...")
     unique_interactions = {}
     for interaction in all_interactions:
         key = (
@@ -460,25 +453,26 @@ def main():
         json.dump(final_interactions, f, indent=2, ensure_ascii=False)
     
     # Summary
-    print("\n" + "="*80)
+    print("\\n" + "="*80)
     print("📊 FINAL SUMMARY")
     print("="*80)
     print(f"Total interactions extracted: {len(all_interactions):,}")
     print(f"Unique interactions (deduplicated): {len(final_interactions):,}")
-    print(f"\nOutput: {OUTPUT_FILE}")
+    print(f"\\nOutput: {OUTPUT_FILE}")
     print(f"Size: {os.path.getsize(OUTPUT_FILE) / 1024:.1f} KB")
     
     # Sample
-    print("\n📋 Sample interactions:")
-    for i, interaction in enumerate(final_interactions[:3], 1):
-        print(f"\n{i}. {interaction['ingredient1'].title()} + {interaction['ingredient2'].title()}")
-        print(f"   Severity: {interaction['severity'].upper()} (confidence: {interaction['severity_confidence']})")
-        print(f"   Effect: {interaction['effect'][:150]}...")
-        if interaction['recommendation']:
-            print(f"   Recommendation: {interaction['recommendation']}")
-        print(f"   Quality Score: {interaction['confidence_score']}")
+    if final_interactions:
+        print("\\n📋 Sample interactions:")
+        for i, interaction in enumerate(final_interactions[:3], 1):
+            print(f"\\n{i}. {interaction['ingredient1'].title()} + {interaction['ingredient2'].title()}")
+            print(f"   Severity: {interaction['severity'].upper()} (confidence: {interaction['severity_confidence']})")
+            print(f"   Effect: {interaction['effect'][:150]}...")
+            if interaction['recommendation']:
+                print(f"   Recommendation: {interaction['recommendation']}")
+            print(f"   Quality Score: {interaction['confidence_score']}")
     
-    print("\n✅ Production-grade extraction complete!")
+    print("\\n✅ Production-grade extraction complete!")
 
 
 if __name__ == '__main__':

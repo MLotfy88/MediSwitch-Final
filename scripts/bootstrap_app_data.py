@@ -84,10 +84,15 @@ def bootstrap_interactions():
         print("❌ Interactions DB not found. Run extraction script first.")
         return
 
-    # Load Interaction Data (Keyed by Ingredient)
+    # Load Interaction Data (List of objects)
     try:
         with open(INTERACTIONS_DB, 'r', encoding='utf-8') as f:
-            interactions_map = json.load(f) # { "drug_X": [ { "name": "drug_Y", "severity": "High", "dailymed_id": "..." } ] }
+            interactions_list = json.load(f) # List of {ingredient1, ingredient2, severity, ...}
+            
+        if not isinstance(interactions_list, list):
+             print(f"❌ Error: Expected list in interactions DB, got {type(interactions_list)}")
+             return
+             
     except Exception as e:
         print(f"❌ Error reading interactions DB: {e}")
         return
@@ -101,16 +106,57 @@ def bootstrap_interactions():
         for _, row in df.iterrows():
             active = str(row.get('active', '')).lower().strip()
             # Basic cleanup to match interaction keys
-            active = active.split('+')[0].strip() # Handle combo drugs (take first ingredient for now)
+            # Handle combo drugs: "a + b" -> ["a", "b"] ?? 
+            # For now, let's just index the whole string AND split parts if needed?
+            # Sticking to simple split by '+' for now as per previous logic, but improved.
+            parts = [p.strip() for p in active.split('+')]
             
             mid = row.get('id')
-            if active and mid:
-                if active not in active_to_ids:
-                     active_to_ids[active] = []
-                active_to_ids[active].append(int(mid))
+            if mid:
+                 for p in parts:
+                     if not p: continue
+                     if p not in active_to_ids:
+                         active_to_ids[p] = []
+                     active_to_ids[p].append(int(mid))
+                     
     except Exception as e:
         print(f"❌ Error reading meds.csv for mapping: {e}")
         return
+
+    # Build Index from Interactions List: Ingredient -> [Interaction Objects]
+    # We need to look up by OUR drug's ingredient, and find the OTHER drug.
+    # Entry: {i1: "A", i2: "B"}
+    # If our drug is "A", interaction is with "B".
+    # If our drug is "B", interaction is with "A".
+    
+    interaction_index = {} # ingredient -> list of {name, severity, ...}
+    
+    for item in interactions_list:
+        i1 = item.get('ingredient1', '').lower().strip()
+        i2 = item.get('ingredient2', '').lower().strip()
+        
+        if not i1 or not i2: continue
+        
+        # Forward: Key = i1, Value = i2
+        if i1 not in interaction_index: interaction_index[i1] = []
+        interaction_index[i1].append({
+            "name": item.get('ingredient2'), # Display name (original case)
+            "rxcui": item.get('rxcui'), # This usually belongs to the PAIR or specific drug? 
+                                        # In this context, simpler to just list the other drug's name/severity
+            "severity": item.get('severity'),
+            "description": item.get('effect') or item.get('description'),
+            "source": item.get('source')
+        })
+        
+        # Reverse: Key = i2, Value = i1
+        if i2 not in interaction_index: interaction_index[i2] = []
+        interaction_index[i2].append({
+            "name": item.get('ingredient1'),
+            "rxcui": item.get('rxcui'),
+            "severity": item.get('severity'),
+            "description": item.get('effect') or item.get('description'),
+            "source": item.get('source')
+        })
 
     final_interactions = {"interactions": []}
     
@@ -118,19 +164,19 @@ def bootstrap_interactions():
     matched_count = 0
     
     for active_key, med_ids in active_to_ids.items():
-        # Look up interactions for this ingredient
-        if active_key in interactions_map:
-            inter_list = interactions_map[active_key]
+        # Look up interactions for this ingredient in our built index
+        if active_key in interaction_index:
+            inter_list = interaction_index[active_key]
             
             for mid in med_ids:
                 for inter in inter_list:
                     new_item = {
                         "med_id": mid, # LINKAGE 1: Our App's Drug ID
-                        "interaction_drug_name": inter.get('name'),
-                        "interaction_dailymed_id": inter.get('rxcui') or inter.get('unii') or 'N/A', # LINKAGE 2: External Drug ID
+                        "interaction_drug_name": inter.get('name', 'Unknown'),
+                        "interaction_dailymed_id": 'N/A', # Not strictly available per partner in this simple schema, but okay.
                         "severity": inter.get('severity', 'Moderate'),
                         "description": inter.get('description', 'Potential interaction identified.'),
-                        "source": "DailyMed"
+                        "source": inter.get('source', 'DailyMed')
                     }
                     final_interactions["interactions"].append(new_item)
                     matched_count += 1

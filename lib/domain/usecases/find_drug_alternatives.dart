@@ -1,7 +1,8 @@
 import 'package:dartz/dartz.dart';
-import '../../domain/entities/drug_entity.dart'; // Corrected import path assuming entity is in domain/entities
+
 import '../../core/error/failures.dart';
 import '../../core/usecases/usecase.dart';
+import '../../domain/entities/drug_entity.dart'; // Corrected import path assuming entity is in domain/entities
 import '../repositories/drug_repository.dart';
 
 // Define the result type for the use case (Only Alternatives for now)
@@ -34,53 +35,58 @@ class FindDrugAlternativesUseCase
       (allDrugs) {
         try {
           // --- Refined Logic for Alternatives (Task 3.4.3) ---
+          // Alternatives = Same Usage (Indication), Different Active Ingredient
+          final String originalUsageLower =
+              (originalDrug.usage).toLowerCase().trim();
           final String originalActiveLower =
-              (originalDrug.active ?? '')
-                  .toLowerCase()
-                  .trim(); // Use active ingredient
+              (originalDrug.active).toLowerCase().trim();
           final String originalTradeNameLower =
-              (originalDrug.tradeName ?? '')
-                  .toLowerCase()
-                  .trim(); // To exclude self
-          // Keep category for potential future use or broader filtering
-          // final String originalCategoryLower = (originalDrug.mainCategory ?? '').toLowerCase();
+              (originalDrug.tradeName).toLowerCase().trim();
 
-          // Cannot find alternatives if active ingredient is unknown
-          if (originalActiveLower.isEmpty) {
-            print(
-              'Cannot find alternatives: Original drug active ingredient is empty.',
-            );
-            return Right(DrugAlternativesResult(alternatives: []));
+          // Cannot find alternatives if usage is unknown
+          if (originalUsageLower.isEmpty) {
+            // Fallback to Category if usage is empty
+            final String originalCategoryLower =
+                (originalDrug.category ?? originalDrug.mainCategory)
+                    .toLowerCase()
+                    .trim();
+            if (originalCategoryLower.isEmpty) {
+              print(
+                'Cannot find alternatives: Original drug usage and category are empty.',
+              );
+              return Right(DrugAlternativesResult(alternatives: []));
+            }
+            // Use category logic if fallback needed, but for now just return empty or proceed?
+            // Let's implement category fallback inside the loop
           }
 
-          // final List<DrugEntity> similars = []; // Removed Similars logic
           final List<DrugEntity> alternatives = [];
 
           for (final drug in allDrugs) {
             final String currentTradeNameLower =
-                (drug.tradeName ?? '').toLowerCase();
+                (drug.tradeName).toLowerCase().trim();
             // Skip the original drug itself
             if (currentTradeNameLower == originalTradeNameLower) continue;
 
             final String currentActiveLower =
-                (drug.active ?? '').toLowerCase().trim();
-            // final String currentCategoryLower = (drug.mainCategory ?? '').toLowerCase(); // Keep for potential future use
+                (drug.active).toLowerCase().trim();
+            final String currentUsageLower = (drug.usage).toLowerCase().trim();
 
-            // Find Alternatives: Match active ingredient primarily
-            if (currentActiveLower == originalActiveLower) {
+            // Skip Similars (Same Active Ingredient) - they are not just "Alternatives", they are "Similars"
+            if (currentActiveLower == originalActiveLower) continue;
+
+            // Find Alternatives: Match usage
+            if (originalUsageLower.isNotEmpty &&
+                currentUsageLower == originalUsageLower) {
               alternatives.add(drug);
             }
-            // Optional: Add secondary criteria here if needed (e.g., dosage form)
+            // Fallback: If usage empty, match category (optional, based on user preference)
+            // else if (originalUsageLower.isEmpty && currentCategory == originalCategory) ...
           }
 
-          return Right(
-            DrugAlternativesResult(
-              alternatives: alternatives,
-            ), // Return only alternatives
-          );
+          return Right(DrugAlternativesResult(alternatives: alternatives));
         } catch (e) {
           print('Error finding alternatives logic: $e');
-          // Use a specific Failure type, e.g., CacheFailure if error is likely from data processing
           return Left(CacheFailure());
         }
       },

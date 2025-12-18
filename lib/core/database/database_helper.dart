@@ -17,25 +17,29 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 3; // Increment version if schema changes
+  static const int _dbVersion = 4; // Bumping version for schema update
   static const String medicinesTable = 'medicines';
 
   // --- Column Names ---
+  static const String colId = 'id'; // INTEGER PRIMARY KEY - NEW
   static const String colTradeName = 'tradeName';
   static const String colArabicName = 'arabicName';
   static const String colPrice = 'price';
-  static const String colOldPrice = 'oldPrice'; // Add column name constant
+  static const String colOldPrice = 'oldPrice';
   static const String colMainCategory = 'mainCategory';
-  static const String colCategory = 'category'; // Add category column name
-  static const String colCategoryAr =
-      'category_ar'; // Add category_ar column name
+  static const String colCategory = 'category';
+  static const String colCategoryAr = 'category_ar';
   static const String colActive = 'active';
   static const String colCompany = 'company';
   static const String colDosageForm = 'dosageForm';
+  static const String colDosageFormAr = 'dosageForm_ar'; // NEW
   static const String colConcentration = 'concentration';
   static const String colUnit = 'unit';
   static const String colUsage = 'usage';
+  static const String colUsageAr = 'usage_ar'; // NEW
   static const String colDescription = 'description';
+  static const String colBarcode = 'barcode'; // NEW
+  static const String colVisits = 'visits'; // NEW
   static const String colLastPriceUpdate = 'lastPriceUpdate';
   static const String colImageUrl = 'imageUrl';
 
@@ -60,41 +64,52 @@ class DatabaseHelper {
   // Handle database upgrades
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     debugPrint('Upgrading database from version $oldVersion to $newVersion...');
-    if (oldVersion < 2) {
-      // Version 2: Re-create table to fix date format in data
+
+    // Aggressive migration for Version 4: Re-create tables to ensure schema compliance
+    // We drop checking previous versions intricately because the schema changed significantly.
+    if (newVersion >= 4) {
+      debugPrint('Performing full schema reset for Version 4...');
       await db.execute('DROP TABLE IF EXISTS $medicinesTable');
-      // Re-create V2 schema explicitly or call onCreate if full wipe needed.
-      // But _onCreate creates everything current.
-      // Simplify: if version < current, just running onCreate for missing tables is better
-      // if we assume incremental updates.
-      // For now, keep existing logic for V2:
+      await db.execute('DROP TABLE IF EXISTS dosage_guidelines');
+      await _onCreate(db, newVersion);
+      return;
+    }
+
+    if (oldVersion < 2) {
+      await db.execute('DROP TABLE IF EXISTS $medicinesTable');
       await _onCreate(db, newVersion);
     }
 
     if (oldVersion < 3) {
-      // Version 3: Add dosage_guidelines table
       await _onCreateV3(db);
     }
   }
 
   Future<void> _onCreate(Database db, int version) async {
     debugPrint('Creating database tables and indices...');
+
+    // Updated Medicine Table with ALL columns
     await db.execute('''
           CREATE TABLE $medicinesTable (
             $colTradeName TEXT PRIMARY KEY,
+            $colId INTEGER, -- Optional ID linkage
             $colArabicName TEXT,
             $colPrice TEXT,
-            $colOldPrice TEXT, -- Add oldPrice column
+            $colOldPrice TEXT,
             $colMainCategory TEXT,
-            $colCategory TEXT, -- Add category column
-            $colCategoryAr TEXT, -- Add category_ar column
+            $colCategory TEXT,
+            $colCategoryAr TEXT,
             $colActive TEXT,
             $colCompany TEXT,
             $colDosageForm TEXT,
+            $colDosageFormAr TEXT,
             $colConcentration REAL,
             $colUnit TEXT,
             $colUsage TEXT,
+            $colUsageAr TEXT,
             $colDescription TEXT,
+            $colBarcode TEXT,
+            $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
             $colImageUrl TEXT
           )
@@ -110,37 +125,65 @@ class DatabaseHelper {
     );
     await db.execute('CREATE INDEX idx_active ON $medicinesTable ($colActive)');
     await db.execute(
-      'CREATE INDEX idx_main_category ON $medicinesTable ($colMainCategory)',
+      'CREATE INDEX idx_category ON $medicinesTable ($colCategory)',
     );
     await db.execute('CREATE INDEX idx_price ON $medicinesTable ($colPrice)');
-    // Add index for oldPrice if needed for querying/sorting later
-    // await db.execute('CREATE INDEX idx_old_price ON $medicinesTable ($colOldPrice)');
-    debugPrint('Indices created');
 
-    // Create V3 tables
-    await _onCreateV3(db);
+    // Create Dosage Guidelines Table (Updated Schema)
+    await _onCreateDosages(db);
 
-    debugPrint(
-      'Database tables and indices created. Seeding will be handled externally if needed.',
-    );
+    // Create Drug Interactions Table (New Schema)
+    await _onCreateInteractions(db);
+
+    debugPrint('Database tables and indices created.');
   }
 
   Future<void> _onCreateV3(Database db) async {
-    debugPrint('Creating dosage_guidelines table (V3)...');
+    // Legacy keeper, redirect to new creators
+    await _onCreateDosages(db);
+    await _onCreateInteractions(db);
+  }
+
+  Future<void> _onCreateDosages(Database db) async {
+    debugPrint('Creating dosage_guidelines table...');
     await db.execute('''
       CREATE TABLE dosage_guidelines (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        active_ingredient TEXT,
-        strength TEXT,
-        standard_dose TEXT,
-        max_dose TEXT,
-        package_label TEXT
+        med_id INTEGER,
+        dailymed_setid TEXT,
+        min_dose REAL,
+        max_dose REAL,
+        frequency INTEGER,
+        duration INTEGER,
+        instructions TEXT,
+        condition TEXT,
+        source TEXT,
+        is_pediatric INTEGER
       )
     ''');
     await db.execute(
-      'CREATE INDEX idx_guideline_active ON dosage_guidelines (active_ingredient)',
+      'CREATE INDEX idx_guideline_med_id ON dosage_guidelines (med_id)',
     );
     debugPrint('dosage_guidelines table created');
+  }
+
+  Future<void> _onCreateInteractions(Database db) async {
+    debugPrint('Creating drug_interactions table...');
+    await db.execute('''
+      CREATE TABLE drug_interactions (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        med_id INTEGER,
+        interaction_drug_name TEXT,
+        interaction_dailymed_id TEXT,
+        severity TEXT,
+        description TEXT,
+        source TEXT
+      )
+    ''');
+    await db.execute(
+      'CREATE INDEX idx_interaction_med_id ON drug_interactions (med_id)',
+    );
+    debugPrint('drug_interactions table created');
   }
 
   // --- Basic CRUD Operations ---
@@ -150,31 +193,34 @@ class DatabaseHelper {
     final db = await database;
     final batch = db.batch();
     for (final med in medicines) {
-      // Use the model's toMap which should now include oldPrice if the column exists
       final dbMap = med.toMap();
-      // Ensure all keys in dbMap match columns in the table definition
-      // (This filtering might be redundant if toMap is correct)
-      dbMap.removeWhere(
-        (key, value) =>
-            ![
-              colTradeName,
-              colArabicName,
-              colPrice,
-              colOldPrice,
-              colMainCategory,
-              colCategory, // Add category to list of valid columns
-              colCategoryAr, // Add category_ar to list of valid columns
-              colActive,
-              colCompany,
-              colDosageForm,
-              colConcentration,
-              colUnit,
-              colUsage,
-              colDescription,
-              colLastPriceUpdate,
-              colImageUrl,
-            ].contains(key),
-      );
+      // Ensure strict column mapping manually if needed, but toMap() should be source of truth
+      // Filter out unknown keys just in case
+      final validColumns = [
+        colTradeName,
+        colId,
+        colArabicName,
+        colPrice,
+        colOldPrice,
+        colMainCategory,
+        colCategory,
+        colCategoryAr,
+        colActive,
+        colCompany,
+        colDosageForm,
+        colDosageFormAr,
+        colConcentration,
+        colUnit,
+        colUsage,
+        colUsageAr,
+        colDescription,
+        colBarcode,
+        colVisits,
+        colLastPriceUpdate,
+        colImageUrl,
+      ];
+
+      dbMap.removeWhere((key, value) => !validColumns.contains(key));
 
       batch.insert(
         medicinesTable,
@@ -196,29 +242,7 @@ class DatabaseHelper {
   /// Get all medicines
   Future<List<MedicineModel>> getAllMedicines() async {
     final db = await database;
-    // Ensure all columns including oldPrice are selected
-    final columnsToSelect = [
-      colTradeName,
-      colArabicName,
-      colPrice,
-      colOldPrice,
-      colMainCategory,
-      colCategory, // Add category to selected columns
-      colCategoryAr, // Add category_ar to selected columns
-      colActive,
-      colCompany,
-      colDosageForm,
-      colConcentration,
-      colUnit,
-      colUsage,
-      colDescription,
-      colLastPriceUpdate,
-      colImageUrl,
-    ];
-    final List<Map<String, dynamic>> maps = await db.query(
-      medicinesTable,
-      columns: columnsToSelect,
-    );
+    final List<Map<String, dynamic>> maps = await db.query(medicinesTable);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
     });

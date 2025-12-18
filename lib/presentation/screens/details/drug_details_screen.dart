@@ -412,63 +412,50 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             future: Provider.of<MedicineProvider>(
               context,
               listen: false,
-            ).getDosageGuidelines(widget.drug.active),
+            ).getDosageGuidelines(widget.drug.id ?? 0),
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const Center(child: CircularProgressIndicator());
               }
 
               final guidelines = snapshot.data ?? [];
-
               DosageGuidelinesModel? bestMatch;
 
+              // 1. Logic to find best match: Just take the first one available
+              // (Since strength is not available in the model to match against)
               if (guidelines.isNotEmpty) {
-                try {
-                  // 1. Try exact/close match on strength
-                  bestMatch = guidelines.firstWhere(
-                    (g) {
-                      if (g.strength == null) return false;
-                      final drugStr = widget.drug.concentration
-                          .toLowerCase()
-                          .replaceAll(' ', '');
-                      final guidelineStr = g.strength!.toLowerCase().replaceAll(
-                        ' ',
-                        '',
-                      );
-                      return guidelineStr.contains(drugStr) ||
-                          drugStr.contains(guidelineStr);
-                    },
-                    orElse: () => guidelines.first,
-                  ); // Fallback to first if no match!
-                } catch (e) {
-                  bestMatch = guidelines.first;
-                }
+                bestMatch = guidelines.first;
               }
 
-              final standardDose =
-                  bestMatch?.standardDose ??
-                  (widget.drug.usage.isNotEmpty
-                      ? widget.drug.usage
-                      : 'Consult your doctor');
+              // 2. Construct Display Values
+              String standardDose;
+              if (bestMatch != null && bestMatch.minDose != null) {
+                final maxPart =
+                    bestMatch.maxDose != null ? ' - ${bestMatch.maxDose}' : '';
+                final freqPart =
+                    bestMatch.frequency != null
+                        ? ' (${bestMatch.frequency}x/day)'
+                        : '';
+                standardDose = '${bestMatch.minDose}$maxPart mg$freqPart';
+              } else {
+                standardDose =
+                    widget.drug.usage.isNotEmpty
+                        ? widget.drug.usage
+                        : 'Consult your doctor';
+              }
+
               final instructions =
-                  bestMatch?.packageLabel ??
+                  bestMatch?.instructions ??
                   'Always read the leaflet and consult your healthcare provider for specific instructions.';
 
-              // Only use widget.drug data if it looks valid (not 0 or 0.001) and we have no match
               String strengthDisplay;
-              if (bestMatch?.strength != null) {
-                strengthDisplay = bestMatch!.strength!;
+              if (widget.drug.concentration.isNotEmpty) {
+                strengthDisplay = widget.drug.concentration;
               } else {
-                //Check if concentration is available
-                if (widget.drug.concentration.isNotEmpty) {
-                  strengthDisplay = widget.drug.concentration;
-                } else {
-                  strengthDisplay =
-                      'Standard Strength'; // Fallback text instead of 0.001
-                }
+                strengthDisplay = 'Standard Strength';
               }
 
-              final maxDose = bestMatch?.maxDose;
+              final maxDose = bestMatch?.maxDose?.toString();
 
               return Padding(
                 padding: const EdgeInsets.symmetric(
@@ -937,7 +924,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             InteractionSeverity.minor: 4,
             InteractionSeverity.unknown: 5,
           };
-          return (order[a.severity] ?? 5).compareTo(order[b.severity] ?? 5);
+          return (order[a.severityEnum] ?? 5).compareTo(
+            order[b.severityEnum] ?? 5,
+          );
         });
 
         return ListView.separated(

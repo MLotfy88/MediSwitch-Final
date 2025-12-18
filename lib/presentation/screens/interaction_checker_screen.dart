@@ -9,8 +9,8 @@ import '../../domain/entities/drug_interaction.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_colors_extension.dart';
+import '../widgets/cards/interaction_card.dart';
 import '../widgets/drug_search_delegate.dart';
-import '../widgets/interaction_card.dart';
 import '../widgets/modern_badge.dart';
 
 class InteractionCheckerScreen extends StatefulWidget {
