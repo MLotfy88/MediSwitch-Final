@@ -41,6 +41,7 @@ import 'package:mediswitch/domain/usecases/get_high_risk_ingredients.dart';
 import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_popular_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
+import 'package:mediswitch/domain/usecases/get_similar_drugs.dart';
 import 'package:mediswitch/domain/usecases/load_interaction_data.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
 import 'package:mediswitch/presentation/bloc/ad_config_provider.dart';
@@ -201,6 +202,9 @@ Future<void> setupLocator() async {
   );
   locator.registerLazySingleton(
     () => GetRecentlyUpdatedDrugsUseCase(locator<DrugRepository>()),
+  );
+  locator.registerLazySingleton(
+    () => GetSimilarDrugsUseCase(locator<DrugRepository>()),
   );
   locator.registerLazySingleton(
     () => GetPopularDrugsUseCase(locator<DrugRepository>()),

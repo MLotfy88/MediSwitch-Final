@@ -696,14 +696,20 @@ class SqliteLocalDataSource {
   Future<bool> hasInteractions() async {
     try {
       final db = await dbHelper.database;
-      final count = Sqflite.firstIntValue(
-        await db.rawQuery(
-          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
-        ),
+      // Check Rules
+      final rulesCount = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(*) FROM interaction_rules'),
       );
-      print("Checking if database has interactions. Count: $count");
-      return count != null && count > 0;
+      // Check Mappings
+      final ingredientsCount = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
+      );
+      print(
+        "Checking interactions: Rules=$rulesCount, Ingredients=$ingredientsCount",
+      );
+      return (rulesCount ?? 0) > 0 && (ingredientsCount ?? 0) > 0;
     } catch (e) {
+      print("Error checking hasInteractions: $e");
       return false;
     }
   }

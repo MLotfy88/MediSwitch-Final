@@ -5,7 +5,7 @@ import '../../../domain/entities/category_entity.dart';
 import '../../theme/app_colors_extension.dart';
 
 /// Modern Category Card matching Quick Tools button styling EXACTLY
-/// Uses custom SVG icons from healthicons.org for proper body organ icons
+/// Uses BOLD (Filled) custom SVG icons from healthicons.org for body organs
 class ModernCategoryCard extends StatelessWidget {
   final CategoryEntity category;
   final VoidCallback? onTap;
@@ -47,6 +47,8 @@ class ModernCategoryCard extends StatelessWidget {
                   width: 22,
                   height: 22,
                   colorFilter: ColorFilter.mode(mainColor, BlendMode.srcIn),
+                  // HealthIcons Filled style can sometimes be very dense,
+                  // but BlendMode.srcIn handles the coloring well.
                 ),
               ),
             ),
@@ -78,6 +80,7 @@ class ModernCategoryCard extends StatelessWidget {
       case 'cardiovascular':
         return Colors.pink.shade600;
       case 'psychiatric':
+        return Colors.indigo.shade600;
       case 'neurology':
         return Colors.deepPurple.shade600;
       case 'dental':
@@ -111,7 +114,7 @@ class ModernCategoryCard extends StatelessWidget {
       case 'hematology':
         return Colors.red.shade800;
       case 'oncology':
-        return Colors.pink.shade600;
+        return Colors.redAccent.shade700;
       case 'general':
       default:
         return Colors.blueGrey.shade600;
@@ -119,50 +122,51 @@ class ModernCategoryCard extends StatelessWidget {
   }
 
   /// Get SVG icon path for each medical specialty
-  /// Using custom SVGs from healthicons.org for proper body organ icons
+  /// Using FILLED/BOLD SVGs from healthicons.org for distinct body organ icons
   String _getCategoryIconPath(String categoryId) {
     const basePath = 'assets/icons/medical/';
     switch (categoryId.toLowerCase()) {
       case 'cardiovascular':
-        return '${basePath}heart.svg'; // ❤️ Heart organ
+        return '${basePath}heart.svg'; // ❤️ Heart
       case 'psychiatric':
+        return '${basePath}head.svg'; // 👤 Head (Mental Health) - Unique
       case 'neurology':
-        return '${basePath}brain.svg'; // 🧠 Brain
+        return '${basePath}brain.svg'; // 🧠 Brain - Unique
       case 'dental':
         return '${basePath}tooth.svg'; // 🦷 Tooth
       case 'pediatric':
         return '${basePath}baby.svg'; // 👶 Baby
       case 'gynecology':
-        return '${basePath}pregnant.svg'; // 🤰 Pregnancy
+        return '${basePath}gyna.svg'; // 🤰 Female Repro - Unique
       case 'ophthalmology':
         return '${basePath}eye.svg'; // 👁️ Eye
       case 'orthopedics':
-        return '${basePath}bone.svg'; // 🦴 Skeleton/Bone
+        return '${basePath}bone.svg'; // 🦴 Bone
       case 'anti_infective':
-        return '${basePath}virus.svg'; // 🦠 Virus/Bacteria
+        return '${basePath}virus.svg'; // 🦠 Virus
       case 'dermatology':
-        return '${basePath}eye.svg'; // Fallback (no skin icon)
+        return '${basePath}arm.svg'; // 💪 Arm/Skin - Unique
       case 'nutrition':
         return '${basePath}nutrition.svg'; // 🍎 Nutrition
       case 'respiratory':
         return '${basePath}lungs.svg'; // 🫁 Lungs
       case 'gastroenterology':
-        return '${basePath}stomach.svg'; // 🍽️ Stomach
+        return '${basePath}intestine.svg'; // 🥨 Intestine - Unique
       case 'pain_relief':
         return '${basePath}medicines.svg'; // 💊 Medicines
       case 'immunology':
-        return '${basePath}virus.svg'; // Shield (fallback)
+        return '${basePath}virus.svg'; // Immunity fallback
       case 'endocrinology':
-        return '${basePath}microscope.svg'; // 🔬 Biochemistry
+        return '${basePath}thyroid.svg'; // 🦋 Thyroid - Unique
       case 'urology':
         return '${basePath}kidneys.svg'; // 🫘 Kidneys
       case 'hematology':
         return '${basePath}blood.svg'; // 🩸 Blood
       case 'oncology':
-        return '${basePath}microscope.svg'; // 🔬 Research
+        return '${basePath}tumour.svg'; // 🎗️ Tumour - Unique
       case 'general':
       default:
-        return '${basePath}stethoscope.svg'; // 🩺 General medicine
+        return '${basePath}stethoscope.svg'; // 🩺 Stethoscope
     }
   }
 }

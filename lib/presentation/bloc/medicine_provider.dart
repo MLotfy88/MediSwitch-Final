@@ -670,10 +670,29 @@ class MedicineProvider extends ChangeNotifier {
           );
         }
 
-        // Custom sorting: Priority then Count
+        // Custom sorting: User Requested Order then Count
         mergedCategories.sort((a, b) {
-          // Keep specific order if desired, or just sort by count DESC
-          // Let's sort by count DESC primarily, but keep Cardio/Anti-Infective on top if they have data
+          final priorityOrder = [
+            'cardiovascular',
+            'respiratory',
+            'neurology',
+            'gynecology',
+            'urology',
+            'gastroenterology',
+          ];
+
+          final indexA = priorityOrder.indexOf(a.id.toLowerCase());
+          final indexB = priorityOrder.indexOf(b.id.toLowerCase());
+
+          if (indexA != -1 && indexB != -1) {
+            return indexA.compareTo(indexB);
+          } else if (indexA != -1) {
+            return -1;
+          } else if (indexB != -1) {
+            return 1;
+          }
+
+          // Then sort by count DESC
           if (b.drugCount != a.drugCount) {
             return b.drugCount.compareTo(a.drugCount);
           }
@@ -739,25 +758,27 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   String _getIconNameFromMeta(CategoryData data) {
-    if (data.id == 'anti_infective') return 'bug';
+    if (data.id == 'anti_infective')
+      return 'virus'; // Distinct from bug/bacteria
     if (data.id == 'cardiovascular') return 'heart';
-    if (data.id == 'dermatology') return 'sun';
-    if (data.id == 'endocrinology') return 'activity';
+    if (data.id == 'dermatology') return 'arm'; // Distinct from eye
+    if (data.id == 'endocrinology') return 'thyroid'; // Distinct from oncology
     if (data.id == 'general') return 'stethoscope';
-    if (data.id == 'immunology') return 'shieldcheck';
-    if (data.id == 'nutrition') return 'apple';
-    if (data.id == 'pain_relief') return 'zap';
-    if (data.id == 'psychiatric') return 'brain';
-    if (data.id == 'respiratory') return 'wind';
-    if (data.id == 'gastroenterology') return 'utensils';
-    if (data.id == 'neurology') return 'brain-circuit';
-    if (data.id == 'urology') return 'droplets';
-    if (data.id == 'ophthalmology') return 'eye';
-    if (data.id == 'gynecology') return 'baby';
+    if (data.id == 'immunology') return 'virus';
+    if (data.id == 'nutrition') return 'nutrition';
+    if (data.id == 'pain_relief') return 'medicines';
+    if (data.id == 'psychiatric') return 'head'; // Distinct from neurology
+    if (data.id == 'neurology') return 'brain'; // Distinct from psychiatry
+    if (data.id == 'oncology') return 'tumour'; // Distinct from endocrinology
+    if (data.id == 'ophthalmology') return 'eye'; // Distinct from dermatology
+    if (data.id == 'gynecology') return 'gyna'; // Specific reproductive icon
+    if (data.id == 'gastroenterology') return 'intestine'; // GIT specific
+    if (data.id == 'urology') return 'kidneys';
+    if (data.id == 'respiratory') return 'lungs';
     if (data.id == 'orthopedics') return 'bone';
-    if (data.id == 'hematology') return 'blood';
-    if (data.id == 'oncology') return 'microscope';
-    return 'pill';
+    if (data.id == 'dental') return 'tooth';
+    if (data.id == 'pediatric') return 'baby';
+    return 'stethoscope';
   }
 
   // _loadSimulatedSections REMOVED via optimization
