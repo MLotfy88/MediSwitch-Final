@@ -216,8 +216,19 @@ class InteractionRepositoryImpl implements InteractionRepository {
   // Helper to match names locally for list checking
   bool _isMatch(String interactionName, DrugEntity drug) {
     final name = interactionName.toLowerCase().trim();
+
+    // 1. Direct Trade Name Match
     if (name == drug.tradeName.toLowerCase().trim()) return true;
-    if (name == drug.active.toLowerCase().trim()) return true;
+
+    // 2. Active Ingredient Match (Handle multiple ingredients)
+    final activeStr = drug.active.toLowerCase().trim();
+    if (name == activeStr) return true;
+
+    // Split by common separators: ';', '+', '/'
+    final ingredients =
+        activeStr.split(RegExp(r'[;+/]')).map((e) => e.trim()).toList();
+    if (ingredients.contains(name)) return true;
+
     return false;
   }
 }

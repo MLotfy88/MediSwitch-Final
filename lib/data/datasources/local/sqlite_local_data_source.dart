@@ -193,6 +193,10 @@ class SqliteLocalDataSource {
         // Don't fail the whole seeding process if just this part fails (e.g. file missing)
       }
 
+      // --- Seeding Interactions (Relational) ---
+      print('[Main Thread] Seeding Relational Interactions...');
+      await _seedRelationalInteractions(db);
+
       final prefs = await _prefs;
       // When we download a FULL updated CSV, we update the timestamp to NOW (or server time if available).
       // Here we use now() as a fallback for the "current version" of the data we just got.
@@ -229,6 +233,83 @@ class SqliteLocalDataSource {
       print('performInitialSeeding finished.');
     }
     return seedingPerformedSuccessfully; // Return success status
+  }
+
+  // --- Relational Seeding Helper ---
+  Future<void> _seedRelationalInteractions(Database db) async {
+    try {
+      // 1. Seed Rules
+      int chunk = 1;
+      while (true) {
+        try {
+          final fname =
+              'assets/data/interactions/rules_part_${chunk.toString().padLeft(3, '0')}.json';
+          final jsonString = await rootBundle.loadString(fname);
+          final Map<String, dynamic> content = json.decode(jsonString);
+          final List<dynamic> rules =
+              content['data']
+                  as List<
+                    dynamic
+                  >; // Structure from py script directly uses 'data'
+
+          if (rules.isEmpty) break;
+
+          final batch = db.batch();
+          for (final r in rules) {
+            batch.insert('interaction_rules', {
+              'ingredient1': r['ingredient1'],
+              'ingredient2': r['ingredient2'],
+              'severity': r['severity'],
+              'effect':
+                  r['effect'] ??
+                  r['description'], // Handle possibly missing key fallback
+              'source': r['source'],
+            });
+          }
+          await batch.commit(noResult: true);
+          print('  Loaded Rules Chunk $chunk (${rules.length} items)');
+          chunk++;
+        } catch (e) {
+          // Break on 404/Not Found (End of chunks)
+          break;
+        }
+      }
+
+      // 2. Seed Ingredients
+      chunk = 1;
+      while (true) {
+        try {
+          final fname =
+              'assets/data/interactions/ingredients_part_${chunk.toString().padLeft(3, '0')}.json';
+          final jsonString = await rootBundle.loadString(fname);
+          final Map<String, dynamic> content = json.decode(jsonString);
+          // Py script format: {"meta": ..., "data": [{"med_id": 1, "ingredients": ["a", "b"]}, ...]}
+          final List<dynamic> items = content['data'] as List<dynamic>;
+
+          if (items.isEmpty) break;
+
+          final batch = db.batch();
+          for (final item in items) {
+            final int medId = item['med_id'];
+            final List<dynamic> ingredients = item['ingredients'];
+            for (final ing in ingredients) {
+              batch.insert('med_ingredients', {
+                'med_id': medId,
+                'ingredient': ing,
+              }, conflictAlgorithm: ConflictAlgorithm.ignore);
+            }
+          }
+          await batch.commit(noResult: true);
+          print('  Loaded Ingredients Chunk $chunk (${items.length} items)');
+          chunk++;
+        } catch (e) {
+          break;
+        }
+      }
+      print('✅ Relational Interaction Data Seeded.');
+    } catch (e) {
+      print('⚠️ Error seeding relational interactions: $e');
+    }
   }
 
   // Method to manually complete the seeder if seeding is known to be done elsewhere
@@ -586,46 +667,83 @@ class SqliteLocalDataSource {
   Future<List<DrugInteractionModel>> getInteractionsForDrug(int medId) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      'drug_interactions',
-      where: 'med_id = ?',
-      whereArgs: [medId],
+
+    // Relational Query: Find rules where one side matches any of this med's ingredients
+    // We project 'other_drug' as the one that is NOT the med's ingredient
+    // Note: If a med has BOTH ingredient1 and ingredient2 (A + B, and A interacts with B), it returns keys relative to row.
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      SELECT 
+        r.id, 
+        r.severity, 
+        r.effect as description, 
+        r.source, 
+        -- Determine which ingredient is the "other" one
+        CASE 
+          WHEN r.ingredient1 = mi.ingredient THEN r.ingredient2 
+          ELSE r.ingredient1 
+        END as interaction_drug_name
+      FROM med_ingredients mi
+      JOIN interaction_rules r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      WHERE mi.med_id = ?
+    ''',
+      [medId],
     );
-    return List.generate(maps.length, (i) {
-      return DrugInteractionModel.fromMap(maps[i]);
-    });
+
+    // Deduplicate? If med has Ing A and Ing B, and Rule is A-C, it appears once.
+    // If Rule is A-B (internal interaction), it matches A (other=B) AND matches B (other=A).
+    // We should probably distinct by rule ID.
+
+    final uniqueIds = <int>{};
+    final List<DrugInteractionModel> results = [];
+
+    for (final map in maps) {
+      final id = map['id'] as int;
+      if (uniqueIds.contains(id)) continue;
+      uniqueIds.add(id);
+
+      results.add(
+        DrugInteractionModel.fromMap({
+          'id': map['id'],
+          'med_id': medId, // Helper context
+          'interaction_drug_name': map['interaction_drug_name'],
+          'severity': map['severity'],
+          'description': map['description'],
+          'source': map['source'],
+          'interaction_dailymed_id': null,
+        }),
+      );
+    }
+    return results;
   }
 
+  // Deprecated: No longer inserting batch directly into exploded table.
   Future<void> insertInteractionsBatch(
     List<DrugInteractionModel> interactions,
   ) async {
-    final db = await dbHelper.database;
-    final batch = db.batch();
-    for (final item in interactions) {
-      batch.insert(
-        'drug_interactions',
-        item.toMap(),
-        conflictAlgorithm: ConflictAlgorithm.replace,
-      );
-    }
-    await batch.commit(noResult: true);
+    // No-op or throw
+    print('⚠️ insertInteractionsBatch called but ignored in Relational Mode.');
   }
 
   Future<List<MedicineModel>> getHighRiskMedicines(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
+    // Count high risk rules linked via ingredients
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT m.*, 
         SUM(CASE 
-          WHEN di.severity = 'Contraindicated' THEN 10 
-          WHEN di.severity = 'Severe' THEN 8
-          WHEN di.severity = 'Major' THEN 5
-          WHEN di.severity = 'Moderate' THEN 3
+          WHEN r.severity = 'Contraindicated' THEN 10 
+          WHEN r.severity = 'Severe' THEN 8
+          WHEN r.severity = 'Major' THEN 5
+          WHEN r.severity = 'Moderate' THEN 3
           ELSE 1 
         END) as risk_score
       FROM medicines m
-      JOIN drug_interactions di ON m.id = di.med_id
+      JOIN med_ingredients mi ON m.id = mi.med_id
+      JOIN interaction_rules r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      WHERE r.severity IN ('Contraindicated', 'Severe', 'Major')
       GROUP BY m.id
       ORDER BY risk_score DESC
       LIMIT ?
@@ -643,13 +761,25 @@ class SqliteLocalDataSource {
   }) async {
     await seedingComplete;
     final db = await dbHelper.database;
+    // Just list rules
     final List<Map<String, dynamic>> maps = await db.query(
-      'drug_interactions',
+      'interaction_rules',
       where: "severity IN ('Contraindicated', 'Severe', 'Major')",
       limit: limit,
     );
+
     return List.generate(maps.length, (i) {
-      return DrugInteractionModel.fromMap(maps[i]);
+      final m = maps[i];
+      // Construct a generic model (med_id 0)
+      return DrugInteractionModel.fromMap({
+        'id': m['id'],
+        'med_id': 0,
+        'interaction_drug_name':
+            '${m['ingredient1']} + ${m['ingredient2']}', // Show pair
+        'severity': m['severity'],
+        'description': m['effect'] ?? m['description'],
+        'source': m['source'],
+      });
     });
   }
 
@@ -658,13 +788,24 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
+    // Search rules for ingredient
+    final query = '%${drugName.toLowerCase()}%';
     final List<Map<String, dynamic>> maps = await db.query(
-      'drug_interactions',
-      where: 'interaction_drug_name LIKE ?',
-      whereArgs: ['%$drugName%'],
+      'interaction_rules',
+      where: 'ingredient1 LIKE ? OR ingredient2 LIKE ?',
+      whereArgs: [query, query],
     );
+
     return List.generate(maps.length, (i) {
-      return DrugInteractionModel.fromMap(maps[i]);
+      final m = maps[i];
+      return DrugInteractionModel.fromMap({
+        'id': m['id'],
+        'med_id': 0,
+        'interaction_drug_name': '${m['ingredient1']} + ${m['ingredient2']}',
+        'severity': m['severity'],
+        'description': m['effect'] ?? m['description'],
+        'source': m['source'],
+      });
     });
   }
 }
