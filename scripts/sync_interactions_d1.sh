@@ -7,8 +7,8 @@ echo "🚀 Starting D1 Interaction Sync..."
 # Directory containing the generated SQL parts
 SQL_DIR="."
 
-# Find all chunk files
-FILES=$(ls $SQL_DIR/d1_interactions_part_*.sql 2>/dev/null | sort -V)
+# Find all chunk files (Rules and Ingredients)
+FILES=$(ls $SQL_DIR/d1_rules_part_*.sql $SQL_DIR/d1_ingredients_part_*.sql 2>/dev/null | sort -V)
 
 if [ -z "$FILES" ]; then
     echo "❌ No SQL chunks found. Run upload_interactions_d1.py first."

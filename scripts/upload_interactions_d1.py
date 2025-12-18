@@ -11,129 +11,117 @@ import math
 import glob
 
 def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
-    interactions = []
-    
-    if os.path.isdir(json_path):
-        print(f"📂 Reading chunks from directory: {json_path}")
-        part_files = sorted(glob.glob(os.path.join(json_path, "interactions_part_*.json")))
-        
-        if not part_files:
-            print("⚠️ No chunk files found in directory.")
-            return False
-            
-        for p in part_files:
-            try:
-                with open(p, 'r', encoding='utf-8') as f:
-                    chunk = json.load(f)
-                    interactions.extend(chunk.get('interactions', []))
-            except Exception as e:
-                print(f"❌ Error reading chunk {p}: {e}")
-                
-    elif os.path.exists(json_path):
-        print(f"📄 Reading single file: {json_path}")
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                 data = json.load(f)
-                 interactions = data.get('interactions', [])
-        except Exception as e:
-            print(f"❌ Error reading JSON: {e}")
-            return False
-    else:
-        print(f"❌ Input path not found: {json_path}")
+    if not os.path.exists(json_path):
+        print(f"❌ Path not found: {json_path}")
         return False
-
-    print(f"📊 Found {len(interactions)} interactions")
+        
+    generated_files = []
     
-    if not interactions:
-        print("⚠️ No interactions to export.")
-        return True
-
-    # Deduplication tracking
-    seen = set()
-    unique_batch = []
-    
-    for i in interactions:
-        med_id = i.get('med_id')
-        drug_name = i.get('interaction_drug_name')
+    # --- 1. Process Rules (drug_interactions table) ---
+    rules_files = sorted(glob.glob(os.path.join(json_path, "rules_part_*.json")))
+    if rules_files:
+        print(f"📜 Found {len(rules_files)} rule chunks. Generating SQL for 'drug_interactions'...")
         
-        if not med_id or not drug_name: continue
-        
-        key = (med_id, drug_name.lower())
-        if key in seen: continue
-        seen.add(key)
-        
-        unique_batch.append(i)
-        
-    print(f"📝 Preparing {len(unique_batch)} unique interactions for export...")
-
-    # Chunking 
-    # D1 has limit (SQLITE_TOOBIG), usually around 1MB-5MB per query or strict size limits.
-    # Safe bet is ~3000 rows per file or less depending on row size.
-    
-    total_chunks = math.ceil(len(unique_batch) / chunk_size)
-    print(f"📦 Splitting into {total_chunks} files (Limit: {chunk_size} rows/file)...")
-    
-    base_name = "d1_interactions"
-    
-    for chunk_idx in range(total_chunks):
-        start = chunk_idx * chunk_size
-        end = start + chunk_size
-        chunk = unique_batch[start:end]
-        
-        filename = f"{base_name}_part_{chunk_idx+1}.sql"
-        output_path = os.path.join(output_dir, filename)
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(f"-- MediSwitch Drug Interactions Import (Part {chunk_idx+1}/{total_chunks})\n")
-            if chunk_idx == 0:
-                f.write("DROP TABLE IF EXISTS drug_interactions;\n")
-                f.write("""CREATE TABLE drug_interactions (
+        for idx, fpath in enumerate(rules_files):
+            with open(fpath, 'r', encoding='utf-8') as f:
+                content = json.load(f)
+                data = content.get('data', [])
+                
+            if not data: continue
+            
+            filename = f"d1_rules_part_{idx+1}.sql"
+            out = os.path.join(output_dir, filename)
+            generated_files.append(out)
+            
+            with open(out, 'w', encoding='utf-8') as f:
+                f.write(f"-- Rules Part {idx+1}\n")
+                if idx == 0:
+                    f.write("DROP TABLE IF EXISTS drug_interactions;\n")
+                    f.write("""CREATE TABLE drug_interactions (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    med_id INTEGER,
-    interaction_drug_name TEXT,
-    interaction_dailymed_id TEXT,
+    ingredient1 TEXT NOT NULL,
+    ingredient2 TEXT NOT NULL,
     severity TEXT,
-    description TEXT,
+    effect TEXT,
     source TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );\n\n""")
-            
-            # Write Inserts in small batches within the file
-            sql_batch_size = 100
-            current_sql_batch = []
-            
-            for i in chunk:
-                def sql_val(val):
-                    if val is None: return "NULL"
-                    clean_val = str(val).replace("'", "''")
-                    return f"'{clean_val}'"
-                    
-                vals = [
-                    i.get('med_id'),
-                    i.get('interaction_drug_name'),
-                    i.get('interaction_dailymed_id', 'N/A'),
-                    i.get('severity', 'Moderate'),
-                    i.get('description', ''),
-                    i.get('source', 'DailyMed')
-                ]
-                
-                v_str = f"({vals[0]}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])})"
-                current_sql_batch.append(v_str)
-                
-                if len(current_sql_batch) >= sql_batch_size:
-                    f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, interaction_dailymed_id, severity, description, source) VALUES\n")
-                    f.write(",\n".join(current_sql_batch))
-                    f.write(";\n\n")
-                    current_sql_batch = []
-            
-            if current_sql_batch:
-                f.write("INSERT INTO drug_interactions (med_id, interaction_drug_name, interaction_dailymed_id, severity, description, source) VALUES\n")
-                f.write(",\n".join(current_sql_batch))
-                f.write(";\n\n")
-        
-        print(f"  -> Generated {filename} ({len(chunk)} rows)")
+                    f.write("CREATE INDEX idx_di_ing1 ON drug_interactions(ingredient1);\n")
+                    f.write("CREATE INDEX idx_di_ing2 ON drug_interactions(ingredient2);\n\n")
 
-    print(f"✅ Export Complete: {total_chunks} files generated.")
+                # Insert Batching
+                batch = []
+                for item in data:
+                    i1 = str(item.get('ingredient1', '')).replace("'", "''")
+                    i2 = str(item.get('ingredient2', '')).replace("'", "''")
+                    sev = str(item.get('severity', '')).replace("'", "''")
+                    eff = str(item.get('effect', '')).replace("'", "''")
+                    src = str(item.get('source', 'DailyMed')).replace("'", "''")
+                    
+                    batch.append(f"('{i1}', '{i2}', '{sev}', '{eff}', '{src}')")
+                    
+                    if len(batch) >= 100:
+                         f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, source) VALUES\n")
+                         f.write(",\n".join(batch))
+                         f.write(";\n")
+                         batch = []
+                
+                if batch:
+                     f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, source) VALUES\n")
+                     f.write(",\n".join(batch))
+                     f.write(";\n")
+            print(f"  -> Generated {filename} ({len(data)} rows)")
+
+    # --- 2. Process Ingredients Map (med_ingredients table) ---
+    ing_files = sorted(glob.glob(os.path.join(json_path, "ingredients_part_*.json")))
+    if ing_files:
+        print(f"🗺️  Found {len(ing_files)} ingredient index chunks. Generating SQL for 'med_ingredients'...")
+        
+        for idx, fpath in enumerate(ing_files):
+            with open(fpath, 'r', encoding='utf-8') as f:
+                content = json.load(f)
+                data = content.get('data', [])
+                
+            if not data: continue
+            
+            filename = f"d1_ingredients_part_{idx+1}.sql"
+            out = os.path.join(output_dir, filename)
+            generated_files.append(out)
+            
+            with open(out, 'w', encoding='utf-8') as f:
+                f.write(f"-- Ingredients Map Part {idx+1}\n")
+                if idx == 0:
+                    f.write("DROP TABLE IF EXISTS med_ingredients;\n")
+                    f.write("""CREATE TABLE med_ingredients (
+    med_id INTEGER,
+    ingredient TEXT,
+    PRIMARY KEY (med_id, ingredient)
+);\n\n""")
+                    f.write("CREATE INDEX idx_mi_mid ON med_ingredients(med_id);\n\n")
+
+                # Insert Batching
+                batch = []
+                for item in data:
+                    mid = item.get('med_id')
+                    ings = item.get('ingredients', [])
+                    
+                    for ing in ings:
+                        clean_ing = str(ing).replace("'", "''")
+                        batch.append(f"({mid}, '{clean_ing}')")
+                    
+                    if len(batch) >= 500:
+                         f.write("INSERT OR IGNORE INTO med_ingredients (med_id, ingredient) VALUES\n")
+                         f.write(",\n".join(batch))
+                         f.write(";\n")
+                         batch = []
+                
+                if batch:
+                     f.write("INSERT OR IGNORE INTO med_ingredients (med_id, ingredient) VALUES\n")
+                     f.write(",\n".join(batch))
+                     f.write(";\n")
+            print(f"  -> Generated {filename}")
+
+    print(f"✅ Export Complete: {len(generated_files)} SQL files generated.")
     return True
 
 if __name__ == "__main__":
