@@ -688,7 +688,7 @@ class SqliteLocalDataSource {
           ELSE r.ingredient1 
         END as interaction_drug_name
       FROM med_ingredients mi
-      JOIN interaction_rules r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
       WHERE mi.med_id = ?
     ''',
       [medId],
@@ -743,9 +743,9 @@ class SqliteLocalDataSource {
           WHEN r.severity = 'Moderate' THEN 3
           ELSE 1 
         END) as risk_score
-      FROM medicines m
+      FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
-      JOIN interaction_rules r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
       WHERE r.severity IN ('Contraindicated', 'Severe', 'Major')
       GROUP BY m.id
       ORDER BY risk_score DESC
@@ -766,7 +766,7 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     // Just list rules
     final List<Map<String, dynamic>> maps = await db.query(
-      'interaction_rules',
+      DatabaseHelper.interactionsTable,
       where: "severity IN ('Contraindicated', 'Severe', 'Major')",
       limit: limit,
     );
@@ -794,7 +794,7 @@ class SqliteLocalDataSource {
     // Search rules for ingredient
     final query = '%${drugName.toLowerCase()}%';
     final List<Map<String, dynamic>> maps = await db.query(
-      'interaction_rules',
+      DatabaseHelper.interactionsTable,
       where: 'ingredient1 LIKE ? OR ingredient2 LIKE ?',
       whereArgs: [query, query],
     );

@@ -534,21 +534,39 @@ async function handleRequest(request, env) {
       try {
         const limit = parseInt(url.searchParams.get('limit')) || 0;
         const offset = parseInt(url.searchParams.get('offset')) || 0;
+        const since = parseInt(url.searchParams.get('since')) || 0;
 
-        let query = 'SELECT * FROM drugs ORDER BY id';
+        let query = 'SELECT * FROM drugs';
+        let conditions = [];
+        let params = [];
+
+        if (since > 0) {
+          conditions.push('updated_at > ?');
+          params.push(since);
+        }
+
+        if (conditions.length > 0) {
+          query += ' WHERE ' + conditions.join(' AND ');
+        }
+
+        query += ' ORDER BY id';
+
         if (limit > 0) {
           query += ` LIMIT ${limit} OFFSET ${offset}`;
         }
 
-        const { results } = await env.DB.prepare(query).all();
-        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM drugs').first();
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+        const countResult = await env.DB.prepare(
+          `SELECT COUNT(*) as total FROM drugs ${conditions.length > 0 ? 'WHERE ' + conditions.join(' AND ') : ''}`
+        ).bind(...params).first();
 
         return jsonResponse({
           data: results,
           total: countResult.total,
           limit,
           offset,
-          hasMore: limit > 0 && (offset + limit) < countResult.total
+          hasMore: limit > 0 && (offset + limit) < countResult.total,
+          currentTimestamp: Math.floor(Date.now() / 1000)
         });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);
@@ -560,21 +578,39 @@ async function handleRequest(request, env) {
       try {
         const limit = parseInt(url.searchParams.get('limit')) || 0;
         const offset = parseInt(url.searchParams.get('offset')) || 0;
+        const since = parseInt(url.searchParams.get('since')) || 0;
 
-        let query = 'SELECT * FROM drug_interactions ORDER BY id';
+        let query = 'SELECT * FROM drug_interactions';
+        let conditions = [];
+        let params = [];
+
+        if (since > 0) {
+          conditions.push('updated_at > ?');
+          params.push(since);
+        }
+
+        if (conditions.length > 0) {
+          query += ' WHERE ' + conditions.join(' AND ');
+        }
+
+        query += ' ORDER BY id';
+
         if (limit > 0) {
           query += ` LIMIT ${limit} OFFSET ${offset}`;
         }
 
-        const { results } = await env.DB.prepare(query).all();
-        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM drug_interactions').first();
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+        const countResult = await env.DB.prepare(
+          `SELECT COUNT(*) as total FROM drug_interactions ${conditions.length > 0 ? 'WHERE ' + conditions.join(' AND ') : ''}`
+        ).bind(...params).first();
 
         return jsonResponse({
           data: results,
           total: countResult.total,
           limit,
           offset,
-          hasMore: limit > 0 && (offset + limit) < countResult.total
+          hasMore: limit > 0 && (offset + limit) < countResult.total,
+          currentTimestamp: Math.floor(Date.now() / 1000)
         });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);
@@ -586,23 +622,108 @@ async function handleRequest(request, env) {
       try {
         const limit = parseInt(url.searchParams.get('limit')) || 0;
         const offset = parseInt(url.searchParams.get('offset')) || 0;
+        const since = parseInt(url.searchParams.get('since')) || 0;
 
-        // med_ingredients might allow compound key paging or just paging via rowid or similar if no simple PK
-        // The table is (med_id, ingredient) PK. We can order by med_id, ingredient
-        let query = 'SELECT * FROM med_ingredients ORDER BY med_id, ingredient';
+        let query = 'SELECT * FROM med_ingredients';
+        let conditions = [];
+        let params = [];
+
+        if (since > 0) {
+          conditions.push('updated_at > ?');
+          params.push(since);
+        }
+
+        if (conditions.length > 0) {
+          query += ' WHERE ' + conditions.join(' AND ');
+        }
+
+        query += ' ORDER BY med_id, ingredient';
+
         if (limit > 0) {
           query += ` LIMIT ${limit} OFFSET ${offset}`;
         }
 
-        const { results } = await env.DB.prepare(query).all();
-        const countResult = await env.DB.prepare('SELECT COUNT(*) as total FROM med_ingredients').first();
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+        const countResult = await env.DB.prepare(
+          `SELECT COUNT(*) as total FROM med_ingredients ${conditions.length > 0 ? 'WHERE ' + conditions.join(' AND ') : ''}`
+        ).bind(...params).first();
 
         return jsonResponse({
           data: results,
           total: countResult.total,
           limit,
           offset,
-          hasMore: limit > 0 && (offset + limit) < countResult.total
+          hasMore: limit > 0 && (offset + limit) < countResult.total,
+          currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Sync: Get all dosages for local database sync
+    if (path === '/api/sync/dosages' && request.method === 'GET') {
+      try {
+        const limit = parseInt(url.searchParams.get('limit')) || 0;
+        const offset = parseInt(url.searchParams.get('offset')) || 0;
+        const since = parseInt(url.searchParams.get('since')) || 0;
+
+        let query = 'SELECT * FROM dosage_guidelines';
+        let conditions = [];
+        let params = [];
+
+        if (since > 0) {
+          conditions.push('updated_at > ?');
+          params.push(since);
+        }
+
+        if (conditions.length > 0) {
+          query += ' WHERE ' + conditions.join(' AND ');
+        }
+
+        query += ' ORDER BY id';
+
+        if (limit > 0) {
+          query += ` LIMIT ${limit} OFFSET ${offset}`;
+        }
+
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+        const countResult = await env.DB.prepare(
+          `SELECT COUNT(*) as total FROM dosage_guidelines ${conditions.length > 0 ? 'WHERE ' + conditions.join(' AND ') : ''}`
+        ).bind(...params).first();
+
+        return jsonResponse({
+          data: results,
+          total: countResult.total,
+          limit,
+          offset,
+          hasMore: limit > 0 && (offset + limit) < countResult.total,
+          currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Delta Sync Alias (Backward Compatibility)
+    if (path.startsWith('/api/drugs/delta/') && request.method === 'GET') {
+      const parts = path.split('/');
+      const timestamp = parseInt(parts[parts.length - 1]) || 0;
+      // Redirect or rewrite to /api/sync/drugs?since=
+      const sinceParam = timestamp > 1000000000 ? timestamp : 0; // Check if valid timestamp
+
+      // We can just call the same logic as sync/drugs
+      url.searchParams.set('since', sinceParam.toString());
+      // Re-trigger the sync/drugs logic by falling through or just copying logic.
+      // Easiest is to fall through if we restructure, but here let's just use JSON response manually or use a helper.
+      // But path matched sync/drugs won't trigger if we are here.
+      // Let's just implement a simple wrapper.
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM drugs WHERE updated_at > ? ORDER BY updated_at DESC').bind(sinceParam).all();
+        return jsonResponse({
+          count: results.length,
+          drugs: results,
+          currentTimestamp: Math.floor(Date.now() / 1000)
         });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);

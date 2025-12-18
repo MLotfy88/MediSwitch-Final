@@ -21,6 +21,21 @@ abstract class DrugRemoteDataSource {
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
     int lastTimestamp,
   );
+
+  /// Get interactions updated after a specific timestamp
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncInteractions(
+    int lastTimestamp,
+  );
+
+  /// Get med-ingredients updated after a specific timestamp
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncMedIngredients(
+    int lastTimestamp,
+  );
+
+  /// Get dosages updated after a specific timestamp
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDosages(
+    int lastTimestamp,
+  );
 }
 
 // Implementation of the remote data source
@@ -46,7 +61,9 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getLatestVersion() async {
-    final url = Uri.parse('$baseUrl/api/v1/data/version/');
+    final url = Uri.parse(
+      '$baseUrl/api/sync/version',
+    ); // Updated to use sync namespace
     try {
       final response = await client.get(
         url,
@@ -57,13 +74,7 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
         final Map<String, dynamic> data =
             json.decode(utf8.decode(response.bodyBytes))
                 as Map<String, dynamic>;
-        // Expecting {'version': 'timestamp_str', 'file_type': 'csv/xlsx', ...}
-        if (data.containsKey('version') && data.containsKey('file_type')) {
-          return Right(data);
-        } else {
-          print('Error: Invalid version response format from $url');
-          return Left(ServerFailure()); // Or a more specific parsing failure
-        }
+        return Right(data);
       } else {
         print(
           'Error: Failed to get version from $url - Status: ${response.statusCode}',
@@ -77,12 +88,13 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
       return Left(NetworkFailure());
     } catch (e) {
       print('Error: Unexpected error fetching version from $url: $e');
-      return Left(ServerFailure()); // General server/unexpected failure
+      return Left(ServerFailure());
     }
   }
 
   @override
   Future<Either<Failure, String>> downloadLatestData() async {
+    // NOTE: This legacy method might be deprecated soon in favor of sync/drugs
     final url = Uri.parse('$baseUrl/api/v1/data/latest/');
     print('DEBUG: Downloading CSV from: $url');
     try {
@@ -91,26 +103,15 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
           .timeout(const Duration(seconds: 30));
 
       print('DEBUG: Download Status: ${response.statusCode}');
-      print('DEBUG: Content-Type: ${response.headers['content-type']}');
-      print('DEBUG: Body Length: ${response.body.length} chars');
 
       if (response.statusCode == 200) {
-        // Return the file content directly
         return Right(utf8.decode(response.bodyBytes));
       } else {
-        print(
-          'Error: Failed to download data from $url - Status: ${response.statusCode} - Body: ${response.body.substring(0, min(100, response.body.length))}',
-        );
+        print('Error: Failed to download data from $url');
         return Left(ServerFailure());
       }
-    } on SocketException catch (e) {
-      print(
-        'Error: Network error (SocketException) downloading data from $url: $e',
-      );
-      return Left(NetworkFailure());
-    } catch (e, s) {
-      print('Error: Unexpected error downloading data from $url: $e\n$s');
-      return Left(ServerFailure(message: 'Unexpected error: $e'));
+    } catch (e) {
+      return Left(ServerFailure());
     }
   }
 
@@ -120,37 +121,57 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
     int lastTimestamp,
   ) async {
-    final url = Uri.parse('$baseUrl/api/drugs/delta/$lastTimestamp');
-    print('DEBUG: Requesting Delta Sync: $url');
+    return _getSyncData('$baseUrl/api/sync/drugs', lastTimestamp);
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncInteractions(
+    int lastTimestamp,
+  ) async {
+    return _getSyncData('$baseUrl/api/sync/interactions', lastTimestamp);
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncMedIngredients(
+    int lastTimestamp,
+  ) async {
+    return _getSyncData('$baseUrl/api/sync/med-ingredients', lastTimestamp);
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDosages(
+    int lastTimestamp,
+  ) async {
+    return _getSyncData('$baseUrl/api/sync/dosages', lastTimestamp);
+  }
+
+  Future<Either<Failure, Map<String, dynamic>>> _getSyncData(
+    String endpoint,
+    int lastTimestamp,
+  ) async {
+    // Ensure we use the correct query parameter
+    final url = Uri.parse('$endpoint?since=$lastTimestamp');
+    print('DEBUG: Requesting Sync: $url');
     try {
-      final response = await client.get(
-        url,
-        headers: {'Content-Type': 'application/json'},
-      );
+      final response = await client
+          .get(url, headers: {'Content-Type': 'application/json'})
+          .timeout(const Duration(seconds: 60));
 
       print('DEBUG: Response Status: ${response.statusCode}');
       if (response.statusCode == 200) {
-        // Decode UTF-8 first
         final responseBody = utf8.decode(response.bodyBytes);
-        // Use compute to run json.decode in a background isolate
         final Map<String, dynamic> data = await compute(
           _parseJson,
           responseBody,
         );
         return Right(data);
       } else {
-        final errorMsg =
-            'HTTP ${response.statusCode}: ${response.body.substring(0, min(100, response.body.length))}';
-        print('Error: Failed to get delta sync from $url - $errorMsg');
+        final errorMsg = 'HTTP ${response.statusCode}';
         return Left(ServerFailure(message: errorMsg));
       }
     } on SocketException catch (e) {
-      print(
-        'Error: Network error (SocketException) fetching delta sync from $url: $e',
-      );
       return Left(NetworkFailure(message: 'Network error: $e'));
-    } catch (e, s) {
-      print('Error: Unexpected error fetching delta sync from $url: $e\n$s');
+    } catch (e) {
       return Left(ServerFailure(message: 'Unexpected error: $e'));
     }
   }

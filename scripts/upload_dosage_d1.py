@@ -36,7 +36,8 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     condition TEXT,
     source TEXT,
     is_pediatric BOOLEAN DEFAULT 0,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at INTEGER DEFAULT (strftime('%s', 'now'))
 );\n\n""")
         
         if not dosages:

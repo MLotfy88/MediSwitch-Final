@@ -1,7 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
 import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
+import 'package:mediswitch/core/database/database_helper.dart';
+import 'package:sqflite/sqflite.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
@@ -214,6 +218,141 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   // Helper to match names locally for list checking
+  // Synchronize interaction rules with remote server
+  @override
+  Future<Either<Failure, int>> syncInteractions(int lastTimestamp) async {
+    try {
+      final remoteDataSource = locator<DrugRemoteDataSource>();
+      final Either<Failure, Map<String, dynamic>> result =
+          await remoteDataSource.getDeltaSyncInteractions(lastTimestamp);
+
+      return await result.fold(
+        (Failure failure) => Left<Failure, int>(failure),
+        (Map<String, dynamic> data) async {
+          final List<dynamic> rulesRaw = (data['data'] as List?) ?? [];
+          final List<Map<String, dynamic>> rulesData = rulesRaw.cast<Map<String, dynamic>>();
+
+          if (rulesData.isNotEmpty) {
+            final db = await localDataSource.dbHelper.database;
+            await db.transaction((txn) async {
+              final batch = txn.batch();
+              for (final ruleMap in rulesData) {
+                batch.insert(
+                  DatabaseHelper.interactionsTable,
+                  {
+                    'id': ruleMap['id'],
+                    'ingredient1': ruleMap['ingredient1'],
+                    'ingredient2': ruleMap['ingredient2'],
+                    'severity': ruleMap['severity'],
+                    'effect': ruleMap['effect'],
+                    'source': ruleMap['source'],
+                    'updated_at': ruleMap['updated_at'],
+                  },
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+            });
+            return Right<Failure, int>(rulesData.length);
+          }
+          return const Right<Failure, int>(0);
+        },
+      );
+    } catch (e) {
+      return Left<Failure, int>(ServerFailure(message: e.toString()));
+    }
+  }
+
+  // Synchronize medicine-ingredient mapping with remote server
+  @override
+  Future<Either<Failure, int>> syncMedIngredients(int lastTimestamp) async {
+    try {
+      final remoteDataSource = locator<DrugRemoteDataSource>();
+      final Either<Failure, Map<String, dynamic>> result =
+          await remoteDataSource.getDeltaSyncMedIngredients(lastTimestamp);
+
+      return await result.fold(
+        (Failure failure) => Left<Failure, int>(failure),
+        (Map<String, dynamic> data) async {
+          final List<dynamic> mappingRaw = (data['data'] as List?) ?? [];
+          final List<Map<String, dynamic>> mappingData = mappingRaw.cast<Map<String, dynamic>>();
+
+          if (mappingData.isNotEmpty) {
+            final db = await localDataSource.dbHelper.database;
+            await db.transaction((txn) async {
+              final batch = txn.batch();
+              for (final map in mappingData) {
+                batch.insert(
+                  'med_ingredients',
+                  {
+                    'med_id': map['med_id'],
+                    'ingredient': map['ingredient'],
+                    'updated_at': map['updated_at'],
+                  },
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+            });
+            return Right<Failure, int>(mappingData.length);
+          }
+          return const Right<Failure, int>(0);
+        },
+      );
+    } catch (e) {
+      return Left<Failure, int>(ServerFailure(message: e.toString()));
+    }
+  }
+
+  // Synchronize dosage guidelines with remote server
+  @override
+  Future<Either<Failure, int>> syncDosages(int lastTimestamp) async {
+    try {
+      final remoteDataSource = locator<DrugRemoteDataSource>();
+      final Either<Failure, Map<String, dynamic>> result =
+          await remoteDataSource.getDeltaSyncDosages(lastTimestamp);
+
+      return await result.fold(
+        (Failure failure) => Left<Failure, int>(failure),
+        (Map<String, dynamic> data) async {
+          final List<dynamic> dosageRaw = (data['data'] as List?) ?? [];
+          final List<Map<String, dynamic>> dosageData = dosageRaw.cast<Map<String, dynamic>>();
+
+          if (dosageData.isNotEmpty) {
+            final db = await localDataSource.dbHelper.database;
+            await db.transaction((txn) async {
+              final batch = txn.batch();
+              for (final dosage in dosageData) {
+                batch.insert(
+                  'dosage_guidelines',
+                  {
+                    'id': dosage['id'],
+                    'med_id': dosage['med_id'],
+                    'min_dose': dosage['min_dose'],
+                    'max_dose': dosage['max_dose'],
+                    'frequency': dosage['frequency'],
+                    'duration': dosage['duration'],
+                    'instructions': dosage['instructions'],
+                    'condition': dosage['condition'],
+                    'source': dosage['source'],
+                    'is_pediatric': dosage['is_pediatric'] == true ? 1 : 0,
+                    'updated_at': dosage['updated_at'],
+                  },
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+            });
+            return Right<Failure, int>(dosageData.length);
+          }
+          return const Right<Failure, int>(0);
+        },
+      );
+    } catch (e) {
+      return Left<Failure, int>(ServerFailure(message: e.toString()));
+    }
+  }
+
   bool _isMatch(String interactionName, DrugEntity drug) {
     final name = interactionName.toLowerCase().trim();
 

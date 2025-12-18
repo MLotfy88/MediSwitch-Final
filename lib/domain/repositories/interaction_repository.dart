@@ -48,4 +48,13 @@ abstract class InteractionRepository {
 
   /// Get all interactions matching a specific drug name string (e.g. ingredient)
   Future<List<DrugInteraction>> getInteractionsWith(String drugName);
+
+  /// Synchronize interaction rules with remote server
+  Future<Either<Failure, int>> syncInteractions(int lastTimestamp);
+
+  /// Synchronize medicine-ingredient mapping with remote server
+  Future<Either<Failure, int>> syncMedIngredients(int lastTimestamp);
+
+  /// Synchronize dosage guidelines with remote server
+  Future<Either<Failure, int>> syncDosages(int lastTimestamp);
 }
