@@ -27,7 +27,7 @@ class CategoryData {
 
 // القاموس الرئيسي للفئات بناءً على بيانات قاعدة البيانات مع تحسين الأيقونات
 final List<CategoryData> kAllCategories = [
-  // 1. Cardiovascular (القلب) - Priority 1
+  // 1. Cardiovascular (القلب)
   CategoryData(
     id: 'cardiovascular',
     nameEn: 'Cardiovascular',
@@ -35,10 +35,10 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Cardio',
     shortNameAr: 'قلب',
     count: 741,
-    icon: LucideIcons.heart,
-    colorName: 'red',
+    icon: LucideIcons.heartPulse, // More specific
+    colorName: 'rose',
   ),
-  // 2. Anti Infective (مضادات) - Priority 2
+  // 2. Anti Infective (مضادات)
   CategoryData(
     id: 'anti_infective',
     nameEn: 'Anti Infective',
@@ -46,19 +46,19 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Anti Inf.',
     shortNameAr: 'مضادات',
     count: 1468,
-    icon: LucideIcons.bug,
+    icon: LucideIcons.bug, // Keep bug, fits well
     colorName: 'teal',
   ),
-  // 3. Psychiatric (المخ والأعصاب/النفسية) - Priority 3 - CHANGED to Blue
+  // 3. Psychiatric (المخ والأعصاب/النفسية)
   CategoryData(
     id: 'psychiatric',
     nameEn: 'Psychiatric',
     nameAr: 'الأمراض النفسية',
-    shortNameEn: 'Neuro',
+    shortNameEn: 'Psych',
     shortNameAr: 'نفسية',
     count: 534,
     icon: LucideIcons.brain,
-    colorName: 'blue', // Changed from pink to blue as requested
+    colorName: 'violet',
   ),
   // 4. General
   CategoryData(
@@ -69,7 +69,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'عام',
     count: 17009,
     icon: LucideIcons.stethoscope,
-    colorName: 'cyan',
+    colorName: 'slate',
   ),
   // 5. Nutrition
   CategoryData(
@@ -79,7 +79,7 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Nutrition',
     shortNameAr: 'تغذية',
     count: 3219,
-    icon: LucideIcons.apple,
+    icon: LucideIcons.apple, // Fits well
     colorName: 'lime',
   ),
   // 6. Dermatology
@@ -90,8 +90,8 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Derma',
     shortNameAr: 'جلدية',
     count: 1280,
-    icon: LucideIcons.sun,
-    colorName: 'orange',
+    icon: LucideIcons.sun, // Or UserCheck? Sun is good for skin
+    colorName: 'amber',
   ),
   // 7. Respiratory
   CategoryData(
@@ -101,8 +101,10 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Resp.',
     shortNameAr: 'تنفسي',
     count: 398,
-    icon: LucideIcons.wind,
-    colorName: 'orange',
+    icon:
+        LucideIcons
+            .wind, // User suggested lungs, but Lucide might not have it. Using Wind for now.
+    colorName: 'cyan',
   ),
   // 8. Pain Relief
   CategoryData(
@@ -113,7 +115,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'مسكنات',
     count: 564,
     icon: LucideIcons.zap,
-    colorName: 'indigo',
+    colorName: 'red',
   ),
   // 9. Immunology
   CategoryData(
@@ -146,7 +148,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'هضمي',
     count: 0,
     icon: LucideIcons.utensils,
-    colorName: 'green',
+    colorName: 'orange',
   ),
   // 12. Neurology
   CategoryData(
@@ -157,7 +159,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'أعصاب',
     count: 0,
     icon: LucideIcons.brainCircuit,
-    colorName: 'blue',
+    colorName: 'indigo',
   ),
   // 13. Urology
   CategoryData(
@@ -167,8 +169,8 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Uro',
     shortNameAr: 'مسالك',
     count: 0,
-    icon: LucideIcons.droplets, // Closest match
-    colorName: 'cyan',
+    icon: LucideIcons.droplets,
+    colorName: 'sky',
   ),
   // 14. Ophthalmology
   CategoryData(
@@ -179,7 +181,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'عيون',
     count: 0,
     icon: LucideIcons.eye,
-    colorName: 'sky',
+    colorName: 'blue',
   ),
   // 15. Gynecology
   CategoryData(
@@ -201,7 +203,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'عظام',
     count: 0,
     icon: LucideIcons.bone,
-    colorName: 'indigo',
+    colorName: 'stone',
   ),
   // 17. Hematology
   CategoryData(
@@ -211,8 +213,8 @@ final List<CategoryData> kAllCategories = [
     shortNameEn: 'Blood',
     shortNameAr: 'دم',
     count: 0,
-    icon: LucideIcons.droplet,
-    colorName: 'red',
+    icon: LucideIcons.droplet, // Distinct from droplets
+    colorName: 'crimson',
   ),
   // 18. Oncology
   CategoryData(
@@ -223,7 +225,7 @@ final List<CategoryData> kAllCategories = [
     shortNameAr: 'أورام',
     count: 0,
     icon: LucideIcons.microscope,
-    colorName: 'purple',
+    colorName: 'fuchsia',
   ),
 ];
 
@@ -250,25 +252,59 @@ CategoryColorStyle getCategoryColorStyle(
         icon: appColors.dangerForeground,
         border: appColors.dangerForeground.withValues(alpha: 0.2),
       );
+    case 'rose':
+      return CategoryColorStyle(
+        background: Colors.pink.shade100.withValues(alpha: 0.4),
+        icon: Colors.pink.shade700,
+        border: Colors.pink.shade700.withValues(alpha: 0.2),
+      );
     case 'blue':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.4), // Blue/Info
+        background: appColors.infoSoft.withValues(alpha: 0.4),
         icon: appColors.infoForeground,
         border: appColors.infoForeground.withValues(alpha: 0.2),
       );
-    case 'purple':
+    case 'sky':
       return CategoryColorStyle(
-        background: appColors.accent.withValues(
-          alpha: 0.5,
-        ), // Accent is usually light already
-        icon: appColors.infoForeground, // Using info/primary shade
-        border: appColors.infoForeground.withValues(alpha: 0.2),
+        background: Colors.lightBlue.shade100.withValues(alpha: 0.4),
+        icon: Colors.lightBlue.shade700,
+        border: Colors.lightBlue.shade700.withValues(alpha: 0.2),
       );
-    case 'green':
+    case 'cyan':
+      return CategoryColorStyle(
+        background: Colors.cyan.shade100.withValues(alpha: 0.4),
+        icon: Colors.cyan.shade700,
+        border: Colors.cyan.shade700.withValues(alpha: 0.2),
+      );
+    case 'teal':
       return CategoryColorStyle(
         background: appColors.successSoft.withValues(alpha: 0.4),
         icon: appColors.successForeground,
         border: appColors.successForeground.withValues(alpha: 0.2),
+      );
+    case 'emerald':
+      return CategoryColorStyle(
+        background: Colors.green.shade100.withValues(alpha: 0.4),
+        icon: Colors.green.shade700,
+        border: Colors.green.shade700.withValues(alpha: 0.2),
+      );
+    case 'green':
+      return CategoryColorStyle(
+        background: Colors.green.shade50.withValues(alpha: 0.4),
+        icon: Colors.green.shade800,
+        border: Colors.green.shade800.withValues(alpha: 0.2),
+      );
+    case 'lime':
+      return CategoryColorStyle(
+        background: Colors.lime.shade100.withValues(alpha: 0.4),
+        icon: Colors.lime.shade800,
+        border: Colors.lime.shade800.withValues(alpha: 0.2),
+      );
+    case 'amber':
+      return CategoryColorStyle(
+        background: Colors.amber.shade100.withValues(alpha: 0.4),
+        icon: Colors.amber.shade800,
+        border: Colors.amber.shade800.withValues(alpha: 0.2),
       );
     case 'orange':
       return CategoryColorStyle(
@@ -276,48 +312,53 @@ CategoryColorStyle getCategoryColorStyle(
         icon: appColors.warningForeground,
         border: appColors.warningForeground.withValues(alpha: 0.3),
       );
-    case 'teal':
-      // Custom Teal-ish using Success/Secondary mix if needed, or just success
-      return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.4),
-        icon: appColors.successForeground,
-        border: appColors.successForeground.withValues(alpha: 0.2),
-      );
-    case 'cyan':
-      return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.45),
-        icon: appColors.infoForeground,
-        border: appColors.infoForeground.withValues(alpha: 0.25),
-      );
-    case 'emerald':
-      return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.4),
-        icon: appColors.successForeground,
-        border: appColors.successForeground.withValues(alpha: 0.25),
-      );
-    case 'lime':
-      return CategoryColorStyle(
-        background: appColors.successSoft.withValues(alpha: 0.4),
-        icon: appColors.successForeground,
-        border: appColors.successForeground.withValues(alpha: 0.3),
-      );
-    case 'indigo':
+    case 'purple':
       return CategoryColorStyle(
         background: appColors.accent.withValues(alpha: 0.5),
         icon: appColors.infoForeground,
-        border: appColors.infoForeground.withValues(alpha: 0.25),
+        border: appColors.infoForeground.withValues(alpha: 0.2),
+      );
+    case 'violet':
+      return CategoryColorStyle(
+        background: Colors.deepPurple.shade100.withValues(alpha: 0.4),
+        icon: Colors.deepPurple.shade700,
+        border: Colors.deepPurple.shade700.withValues(alpha: 0.2),
+      );
+    case 'indigo':
+      return CategoryColorStyle(
+        background: Colors.indigo.shade100.withValues(alpha: 0.4),
+        icon: Colors.indigo.shade700,
+        border: Colors.indigo.shade700.withValues(alpha: 0.2),
       );
     case 'pink':
       return CategoryColorStyle(
-        background: appColors.dangerSoft.withValues(alpha: 0.4),
-        icon: appColors.dangerForeground,
-        border: appColors.dangerForeground.withValues(alpha: 0.2),
+        background: Colors.pinkAccent.shade100.withValues(alpha: 0.4),
+        icon: Colors.pinkAccent.shade700,
+        border: Colors.pinkAccent.shade700.withValues(alpha: 0.2),
       );
-    case 'sky':
+    case 'fuchsia':
       return CategoryColorStyle(
-        background: appColors.infoSoft.withValues(alpha: 0.4),
-        icon: appColors.infoForeground,
-        border: appColors.infoForeground.withValues(alpha: 0.2),
+        background: Colors.purpleAccent.shade100.withValues(alpha: 0.4),
+        icon: Colors.purpleAccent.shade700,
+        border: Colors.purpleAccent.shade700.withValues(alpha: 0.2),
+      );
+    case 'slate':
+      return CategoryColorStyle(
+        background: Colors.blueGrey.shade100.withValues(alpha: 0.4),
+        icon: Colors.blueGrey.shade700,
+        border: Colors.blueGrey.shade700.withValues(alpha: 0.2),
+      );
+    case 'stone':
+      return CategoryColorStyle(
+        background: Colors.brown.shade100.withValues(alpha: 0.4),
+        icon: Colors.brown.shade700,
+        border: Colors.brown.shade700.withValues(alpha: 0.2),
+      );
+    case 'crimson':
+      return CategoryColorStyle(
+        background: Colors.red.shade100.withValues(alpha: 0.4),
+        icon: Colors.red.shade900,
+        border: Colors.red.shade900.withValues(alpha: 0.2),
       );
     default:
       return CategoryColorStyle(
