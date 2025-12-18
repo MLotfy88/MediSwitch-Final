@@ -548,11 +548,27 @@ class MedicineProvider extends ChangeNotifier {
         );
         _highRiskIngredients = [];
       },
-      (ingredients) {
-        _logger.i(
-          "MedicineProvider: Loaded ${ingredients.length} high risk ingredients.",
-        );
-        _highRiskIngredients = ingredients;
+      (ingredients) async {
+        if (ingredients.isEmpty) {
+          _logger.w(
+            "MedicineProvider: High risk ingredients empty. Data might be missing/corrupt. Attempting re-seed check.",
+          );
+          // Self-healing: Trigger check to see if we need to seed
+          await _localDataSource.seedDatabaseFromAssetIfNeeded();
+          // Retry fetch
+          final retryResult = await _getHighRiskIngredientsUseCase(10);
+          retryResult.fold((l) => _highRiskIngredients = [], (r) {
+            _logger.i(
+              "MedicineProvider: Recovered ${r.length} high risk ingredients after re-seed.",
+            );
+            _highRiskIngredients = r;
+          });
+        } else {
+          _logger.i(
+            "MedicineProvider: Loaded ${ingredients.length} high risk ingredients.",
+          );
+          _highRiskIngredients = ingredients;
+        }
       },
     );
   }

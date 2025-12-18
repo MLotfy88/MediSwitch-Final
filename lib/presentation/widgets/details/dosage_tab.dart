@@ -139,11 +139,14 @@ class DosageDetailsCard extends StatelessWidget {
     // Construct Display Values
     String standardDose;
     if (guideline != null && guideline!.minDose != null) {
-      final maxPart =
-          guideline!.maxDose != null ? ' - ${guideline!.maxDose}' : '';
+      // FIX: Do not show range (min-max) if max is likely daily limit.
+      // If min and max are close (e.g. 5-10), it's a range.
+      // If max is much larger (e.g. > 2x min), it's likely daily max.
+      // For safety and clarity, let's just show minDose as "Standard/Single Dose"
+      // and let Max Daily be separate.
       final freqPart =
           guideline!.frequency != null ? ' (${guideline!.frequency}x/day)' : '';
-      standardDose = '${guideline!.minDose}$maxPart mg$freqPart';
+      standardDose = '${guideline!.minDose} mg$freqPart';
     } else {
       standardDose = drug.usage.isNotEmpty ? drug.usage : 'Consult your doctor';
     }

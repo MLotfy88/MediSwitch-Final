@@ -14,7 +14,6 @@ class ModernCategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final isDark = theme.brightness == Brightness.dark;
     final appColors = theme.appColors;
 
     // Use shared logic for colors
@@ -33,17 +32,9 @@ class ModernCategoryCard extends StatelessWidget {
         constraints: const BoxConstraints(minWidth: 88),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: theme.cardColor,
+          color: style.background.withValues(alpha: 0.5),
           borderRadius: BorderRadius.circular(22),
           border: Border.all(color: style.border),
-          boxShadow: [
-            BoxShadow(
-              color: theme.shadowColor.withValues(alpha: isDark ? 0.2 : 0.04),
-              offset: const Offset(0, 2),
-              blurRadius: 8,
-              spreadRadius: -2,
-            ),
-          ],
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
