@@ -181,7 +181,7 @@ jobs:
       - name: 7.2 Commit Final Assets
         run: |
           git add -f assets/data/dosage_guidelines.json
-          git add -f assets/data/drug_interactions.json
+
           git add -f assets/meds.csv
           
           git commit -m "db: full rebuild complete $(date +'%Y-%m-%d')" || echo "No changes"
