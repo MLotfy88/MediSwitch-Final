@@ -1,30 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../core/constants/categories_data.dart';
 import '../../../domain/entities/category_entity.dart';
 import '../../theme/app_colors_extension.dart';
 
+/// Modern Category Card matching Quick Tools button styling EXACTLY
+/// Uses custom SVG icons from healthicons.org for proper body organ icons
 class ModernCategoryCard extends StatelessWidget {
   final CategoryEntity category;
   final VoidCallback? onTap;
 
-  const ModernCategoryCard({super.key, required this.category, this.onTap});
+  const ModernCategoryCard({required this.category, super.key, this.onTap});
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
 
-    // Use shared logic for colors
-    final style = getCategoryColorStyle(category.color ?? 'blue', appColors);
-
-    // Use shared logic or local fallback for icon if Entity icon string is passed
-    // But CategoryData has IconData. The Entity has String.
-    // MedicineProvider maps String icon name.
-    // We can keep a local helper or rely on the provider mapping correctly.
-    // Given the provider maps 'brain' -> 'brain' string, we need to map string to IconData here.
-    final iconData = _getIcon(category.icon ?? 'pill');
+    final mainColor = _getCategoryColor(category.id, appColors);
+    final iconPath = _getCategoryIconPath(category.id);
 
     return GestureDetector(
       onTap: onTap,
@@ -32,24 +26,31 @@ class ModernCategoryCard extends StatelessWidget {
         constraints: const BoxConstraints(minWidth: 88),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: style.background.withValues(alpha: 0.5),
-          borderRadius: BorderRadius.circular(22),
-          border: Border.all(color: style.border),
+          color: mainColor.withValues(alpha: 0.15),
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: mainColor.withValues(alpha: 0.2)),
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Icon Container
             Container(
-              padding: const EdgeInsets.all(10),
+              width: 40,
+              height: 40,
               decoration: BoxDecoration(
-                color: style.background,
-                borderRadius: BorderRadius.circular(18),
+                color: mainColor.withValues(alpha: 0.2),
+                borderRadius: BorderRadius.circular(12),
               ),
-              child: Icon(iconData, size: 24, color: style.icon),
+              child: Center(
+                child: SvgPicture.asset(
+                  iconPath,
+                  width: 22,
+                  height: 22,
+                  colorFilter: ColorFilter.mode(mainColor, BlendMode.srcIn),
+                ),
+              ),
             ),
             const SizedBox(height: 8),
-            // Category Name - Use short name for consistent card sizes
             Text(
               category.shortName ?? category.name,
               style: TextStyle(
@@ -62,7 +63,6 @@ class ModernCategoryCard extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
             const SizedBox(height: 2),
-            // Drug Count
             Text(
               '${category.drugCount} drugs',
               style: TextStyle(fontSize: 10, color: appColors.mutedForeground),
@@ -73,66 +73,96 @@ class ModernCategoryCard extends StatelessWidget {
     );
   }
 
-  IconData _getIcon(String iconName) {
-    switch (iconName.toLowerCase()) {
-      case 'heart':
-        return LucideIcons.heart;
-      case 'heartpulse':
-        return LucideIcons.heartPulse;
-      case 'brain':
+  Color _getCategoryColor(String categoryId, AppColorsExtension appColors) {
+    switch (categoryId.toLowerCase()) {
+      case 'cardiovascular':
+        return Colors.pink.shade600;
       case 'psychiatric':
-        return LucideIcons.brain;
-      case 'dental':
-      case 'smile':
-        return LucideIcons.smile;
-      case 'baby':
-        return LucideIcons.baby;
-      case 'eye':
-        return LucideIcons.eye;
-      case 'bone':
-        return LucideIcons.bone;
-      case 'bug':
-        return LucideIcons.bug;
-      case 'shield':
-      case 'shieldcheck':
-        return LucideIcons.shieldCheck;
-      case 'sun':
-      case 'dermatology':
-        return LucideIcons.sun;
-      case 'activity':
-      case 'endocrinology':
-        return LucideIcons.activity;
-      case 'stethoscope':
-      case 'general':
-        return LucideIcons.stethoscope;
-      case 'apple':
-      case 'nutrition':
-        return LucideIcons.apple;
-      case 'zap':
-      case 'pain':
-        return LucideIcons.zap;
-      case 'wind':
-      case 'respiratory':
-        return LucideIcons.wind;
-      case 'utensils':
-      case 'digestive':
-      case 'gastroenterology':
-        return LucideIcons.utensils;
-      case 'brain-circuit':
       case 'neurology':
-        return LucideIcons.brainCircuit;
-      case 'droplets':
+        return Colors.deepPurple.shade600;
+      case 'dental':
+        return Colors.teal.shade600;
+      case 'pediatric':
+        return appColors.successForeground;
+      case 'gynecology':
+        return Colors.pink.shade400;
+      case 'ophthalmology':
+        return appColors.infoForeground;
+      case 'orthopedics':
+        return Colors.brown.shade600;
+      case 'anti_infective':
+        return Colors.teal.shade700;
+      case 'dermatology':
+        return Colors.amber.shade700;
+      case 'nutrition':
+        return Colors.lime.shade700;
+      case 'respiratory':
+        return Colors.cyan.shade600;
+      case 'gastroenterology':
+        return appColors.warningForeground;
+      case 'pain_relief':
+        return appColors.dangerForeground;
+      case 'immunology':
+        return Colors.green.shade600;
+      case 'endocrinology':
+        return Colors.purple.shade600;
       case 'urology':
-        return LucideIcons.droplets;
-      case 'blood':
+        return Colors.lightBlue.shade600;
       case 'hematology':
-        return LucideIcons.droplet;
-      case 'microscope':
+        return Colors.red.shade800;
       case 'oncology':
-        return LucideIcons.microscope;
+        return Colors.pink.shade600;
+      case 'general':
       default:
-        if (iconName.contains('infect')) return LucideIcons.bug;
-        return LucideIcons.pill;
+        return Colors.blueGrey.shade600;
+    }
+  }
+
+  /// Get SVG icon path for each medical specialty
+  /// Using custom SVGs from healthicons.org for proper body organ icons
+  String _getCategoryIconPath(String categoryId) {
+    const basePath = 'assets/icons/medical/';
+    switch (categoryId.toLowerCase()) {
+      case 'cardiovascular':
+        return '${basePath}heart.svg'; // ❤️ Heart organ
+      case 'psychiatric':
+      case 'neurology':
+        return '${basePath}brain.svg'; // 🧠 Brain
+      case 'dental':
+        return '${basePath}tooth.svg'; // 🦷 Tooth
+      case 'pediatric':
+        return '${basePath}baby.svg'; // 👶 Baby
+      case 'gynecology':
+        return '${basePath}pregnant.svg'; // 🤰 Pregnancy
+      case 'ophthalmology':
+        return '${basePath}eye.svg'; // 👁️ Eye
+      case 'orthopedics':
+        return '${basePath}bone.svg'; // 🦴 Skeleton/Bone
+      case 'anti_infective':
+        return '${basePath}virus.svg'; // 🦠 Virus/Bacteria
+      case 'dermatology':
+        return '${basePath}eye.svg'; // Fallback (no skin icon)
+      case 'nutrition':
+        return '${basePath}nutrition.svg'; // 🍎 Nutrition
+      case 'respiratory':
+        return '${basePath}lungs.svg'; // 🫁 Lungs
+      case 'gastroenterology':
+        return '${basePath}stomach.svg'; // 🍽️ Stomach
+      case 'pain_relief':
+        return '${basePath}medicines.svg'; // 💊 Medicines
+      case 'immunology':
+        return '${basePath}virus.svg'; // Shield (fallback)
+      case 'endocrinology':
+        return '${basePath}microscope.svg'; // 🔬 Biochemistry
+      case 'urology':
+        return '${basePath}kidneys.svg'; // 🫘 Kidneys
+      case 'hematology':
+        return '${basePath}blood.svg'; // 🩸 Blood
+      case 'oncology':
+        return '${basePath}microscope.svg'; // 🔬 Research
+      case 'general':
+      default:
+        return '${basePath}stethoscope.svg'; // 🩺 General medicine
     }
   }
 }
