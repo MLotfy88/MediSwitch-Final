@@ -65,23 +65,25 @@ class DatabaseHelper {
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     debugPrint('Upgrading database from version $oldVersion to $newVersion...');
 
-    // Aggressive migration for Version 4: Re-create tables to ensure schema compliance
-    // We drop checking previous versions intricately because the schema changed significantly.
-    if (newVersion >= 4) {
+    // Version 4: Full Schema Reset (Development Breakpoint)
+    if (oldVersion < 4) {
       debugPrint('Performing full schema reset for Version 4...');
       await db.execute('DROP TABLE IF EXISTS $medicinesTable');
       await db.execute('DROP TABLE IF EXISTS dosage_guidelines');
+      await db.execute(
+        'DROP TABLE IF EXISTS drug_interactions',
+      ); // Ensure old table is gone too
       await _onCreate(db, newVersion);
       return;
     }
 
-    if (oldVersion < 2) {
-      await db.execute('DROP TABLE IF EXISTS $medicinesTable');
-      await _onCreate(db, newVersion);
-    }
-
-    if (oldVersion < 3) {
-      await _onCreateV3(db);
+    // Version 5: Relational Interactions Pivot
+    if (oldVersion < 5) {
+      debugPrint('Performing schema migration to Version 5 (Relational)...');
+      await db.execute(
+        'DROP TABLE IF EXISTS drug_interactions',
+      ); // Drop old exploded table
+      await _onCreateInteractions(db); // Create new relational tables
     }
   }
 
@@ -138,12 +140,6 @@ class DatabaseHelper {
     debugPrint('Database tables and indices created.');
   }
 
-  Future<void> _onCreateV3(Database db) async {
-    // Legacy keeper, redirect to new creators
-    await _onCreateDosages(db);
-    await _onCreateInteractions(db);
-  }
-
   Future<void> _onCreateDosages(Database db) async {
     debugPrint('Creating dosage_guidelines table...');
     await db.execute('''
@@ -168,21 +164,6 @@ class DatabaseHelper {
   }
 
   // ... (previous code)
-
-  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
-    debugPrint('Upgrading database from version $oldVersion to $newVersion...');
-
-    if (newVersion >= 5) {
-      debugPrint('Performing schema migration to Version 5 (Relational)...');
-      await db.execute(
-        'DROP TABLE IF EXISTS drug_interactions',
-      ); // Drop old exploded table
-      await _onCreateInteractions(db); // Create new relational tables
-      // Re-seed might be needed? Usually handled by version check or cleared flag.
-    }
-
-    // ... (previous migrations if any, but since we jumping to 5, cascade is fine or irrelevant if fresh install)
-  }
 
   // ...
 
