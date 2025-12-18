@@ -8,19 +8,40 @@ import sys
 import os
 import math
 
+import glob
+
 def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
-    if not os.path.exists(json_path):
-        print(f"❌ JSON file not found: {json_path}")
-        return False
+    interactions = []
+    
+    if os.path.isdir(json_path):
+        print(f"📂 Reading chunks from directory: {json_path}")
+        part_files = sorted(glob.glob(os.path.join(json_path, "interactions_part_*.json")))
         
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"❌ Error reading JSON: {e}")
+        if not part_files:
+            print("⚠️ No chunk files found in directory.")
+            return False
+            
+        for p in part_files:
+            try:
+                with open(p, 'r', encoding='utf-8') as f:
+                    chunk = json.load(f)
+                    interactions.extend(chunk.get('interactions', []))
+            except Exception as e:
+                print(f"❌ Error reading chunk {p}: {e}")
+                
+    elif os.path.exists(json_path):
+        print(f"📄 Reading single file: {json_path}")
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                 data = json.load(f)
+                 interactions = data.get('interactions', [])
+        except Exception as e:
+            print(f"❌ Error reading JSON: {e}")
+            return False
+    else:
+        print(f"❌ Input path not found: {json_path}")
         return False
-        
-    interactions = data.get('interactions', [])
+
     print(f"📊 Found {len(interactions)} interactions")
     
     if not interactions:

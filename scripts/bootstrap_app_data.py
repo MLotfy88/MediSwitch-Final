@@ -181,8 +181,50 @@ def bootstrap_interactions():
                     final_interactions["interactions"].append(new_item)
                     matched_count += 1
     
-    with open(APP_INTERACTIONS, 'w', encoding='utf-8') as f:
-        json.dump(final_interactions, f, indent=2, ensure_ascii=False)
+    # Sort for consistency
+    final_interactions["interactions"].sort(key=lambda x: x['med_id'])
+    
+    # Split into chunks (Github limit ~100MB, so ~50MB chunks is safe)
+    # Approx record size ~500 bytes -> 100,000 records = 50MB
+    CHUNK_SIZE = 50000 
+    
+    interactions_list = final_interactions["interactions"]
+    total_records = len(interactions_list)
+    
+    # Output Directory
+    OUTPUT_DIR = os.path.join(BASE_DIR, 'assets', 'data', 'interactions')
+    if os.path.exists(OUTPUT_DIR):
+        import shutil
+        shutil.rmtree(OUTPUT_DIR) # Clean old run
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # Clean old monolithic file if exists
+    if os.path.exists(APP_INTERACTIONS):
+        os.remove(APP_INTERACTIONS)
+        
+    num_chunks = (total_records // CHUNK_SIZE) + 1
+    print(f"📦 Splitting {total_records:,} interactions into {num_chunks} chunk files (Target: {OUTPUT_DIR})...")
+    
+    for i in range(0, total_records, CHUNK_SIZE):
+        chunk = interactions_list[i:i + CHUNK_SIZE]
+        chunk_index = (i // CHUNK_SIZE) + 1
+        
+        filename = f"interactions_part_{chunk_index:03d}.json"
+        filepath = os.path.join(OUTPUT_DIR, filename)
+        
+        chunk_data = {
+            "meta": {
+                "chunk_index": chunk_index,
+                "total_chunks": num_chunks,
+                "total_records": total_records
+            },
+            "interactions": chunk
+        }
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(chunk_data, f, indent=None, separators=(',', ':'), ensure_ascii=False) # Minified for space
+            
+        print(f"  -> {filename} ({len(chunk):,} records)")
 
     print(f"✅ Generated {matched_count} interactions linked by ID (Networked).")
 
