@@ -7,6 +7,12 @@ import 'package:provider/provider.dart';
 
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart';
+// Remove unused imports
+// import 'presentation/screens/onboarding_screen.dart';
+// import 'presentation/screens/setup_screen.dart';
+// import 'presentation/screens/main_screen.dart';
+// import 'package:shared_preferences/shared_preferences.dart';
+import 'data/datasources/local/sqlite_local_data_source.dart';
 import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 import 'presentation/bloc/ad_config_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
@@ -18,12 +24,6 @@ import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
 import 'presentation/theme/app_theme.dart';
-// Remove unused imports
-// import 'presentation/screens/onboarding_screen.dart';
-// import 'presentation/screens/setup_screen.dart';
-// import 'presentation/screens/main_screen.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
-// import 'data/datasources/local/sqlite_local_data_source.dart';
 
 // Keys moved to InitializationScreen
 // const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -88,15 +88,16 @@ Future<void> main() async {
     // }
     // logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // REMOVED: Seeding logic is now handled by SetupScreen.
-    // // logger.i("main: Attempting database seeding if needed...");
-    // // try {
-    //   final localDataSource = locator<SqliteLocalDataSource>();
-    //   await localDataSource.seedDatabaseFromAssetIfNeeded();
-    //   logger.i("main: Database seeding check complete.");
-    // } catch (e, s) {
-    //   logger.e("main: Error during post-locator seeding", e, s);
-    // }
+    // Seeding logic is now handled by SetupScreen, but we also check here for existing users
+    // who might have missed the initial seed or need an update.
+    logger.i("main: Attempting database seeding if needed...");
+    try {
+      final localDataSource = locator<SqliteLocalDataSource>();
+      await localDataSource.seedDatabaseFromAssetIfNeeded();
+      logger.i("main: Database seeding check complete.");
+    } catch (e, s) {
+      logger.e("main: Error during post-locator seeding", e, s);
+    }
 
     logger.i("main: Initializing SubscriptionProvider asynchronously...");
     locator<SubscriptionProvider>().initialize();
