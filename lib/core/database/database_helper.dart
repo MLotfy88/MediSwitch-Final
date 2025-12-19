@@ -98,7 +98,7 @@ class DatabaseHelper {
 
     // Updated Medicine Table (Renamed to drugs)
     await db.execute('''
-          CREATE TABLE $medicinesTable (
+          CREATE TABLE IF NOT EXISTS $medicinesTable (
             $colTradeName TEXT PRIMARY KEY,
             $colId INTEGER,
             $colArabicName TEXT,
@@ -128,16 +128,20 @@ class DatabaseHelper {
 
     // Create indices
     await db.execute(
-      'CREATE INDEX idx_trade_name ON $medicinesTable ($colTradeName)',
+      'CREATE INDEX IF NOT EXISTS idx_trade_name ON $medicinesTable ($colTradeName)',
     );
     await db.execute(
-      'CREATE INDEX idx_arabic_name ON $medicinesTable ($colArabicName)',
+      'CREATE INDEX IF NOT EXISTS idx_arabic_name ON $medicinesTable ($colArabicName)',
     );
-    await db.execute('CREATE INDEX idx_active ON $medicinesTable ($colActive)');
     await db.execute(
-      'CREATE INDEX idx_category ON $medicinesTable ($colCategory)',
+      'CREATE INDEX IF NOT EXISTS idx_active ON $medicinesTable ($colActive)',
     );
-    await db.execute('CREATE INDEX idx_price ON $medicinesTable ($colPrice)');
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_category ON $medicinesTable ($colCategory)',
+    );
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_price ON $medicinesTable ($colPrice)',
+    );
 
     // Create Dosage Guidelines Table (Updated Schema)
     await _onCreateDosages(db);
@@ -151,7 +155,7 @@ class DatabaseHelper {
   Future<void> _onCreateDosages(Database db) async {
     debugPrint('Creating dosage_guidelines table...');
     await db.execute('''
-      CREATE TABLE dosage_guidelines (
+      CREATE TABLE IF NOT EXISTS dosage_guidelines (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         med_id INTEGER,
         dailymed_setid TEXT,
@@ -166,7 +170,7 @@ class DatabaseHelper {
       )
     ''');
     await db.execute(
-      'CREATE INDEX idx_guideline_med_id ON dosage_guidelines (med_id)',
+      'CREATE INDEX IF NOT EXISTS idx_guideline_med_id ON dosage_guidelines (med_id)',
     );
     debugPrint('dosage_guidelines table created');
   }
@@ -180,7 +184,7 @@ class DatabaseHelper {
 
     // 1. Rules Table (Knowledge Base)
     await db.execute('''
-      CREATE TABLE $interactionsTable (
+      CREATE TABLE IF NOT EXISTS $interactionsTable (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         ingredient1 TEXT,
         ingredient2 TEXT,
@@ -191,24 +195,26 @@ class DatabaseHelper {
       )
     ''');
     await db.execute(
-      'CREATE INDEX idx_rules_i1 ON $interactionsTable(ingredient1)',
+      'CREATE INDEX IF NOT EXISTS idx_rules_i1 ON $interactionsTable(ingredient1)',
     );
     await db.execute(
-      'CREATE INDEX idx_rules_i2 ON $interactionsTable(ingredient2)',
+      'CREATE INDEX IF NOT EXISTS idx_rules_i2 ON $interactionsTable(ingredient2)',
     );
     await db.execute(
-      'CREATE INDEX idx_rules_pair ON $interactionsTable(ingredient1, ingredient2)',
+      'CREATE INDEX IF NOT EXISTS idx_rules_pair ON $interactionsTable(ingredient1, ingredient2)',
     );
 
     // 2. Ingredients Index (Map)
     await db.execute('''
-      CREATE TABLE med_ingredients (
+      CREATE TABLE IF NOT EXISTS med_ingredients (
         med_id INTEGER,
         ingredient TEXT,
         PRIMARY KEY (med_id, ingredient)
       )
     ''');
-    await db.execute('CREATE INDEX idx_mi_mid ON med_ingredients(med_id)');
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_mi_mid ON med_ingredients(med_id)',
+    );
 
     debugPrint('Relational interaction tables created');
   }
