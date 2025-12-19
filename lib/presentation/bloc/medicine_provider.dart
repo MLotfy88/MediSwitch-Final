@@ -134,16 +134,16 @@ class MedicineProvider extends ChangeNotifier {
        _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
        _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
        _localDataSource = localDataSource {
-    _logger.i("MedicineProvider: Constructor called.");
+    _logger.i('MedicineProvider: Constructor called.');
     // Only load initial data if we don't have any data yet
     // This prevents reloading on every widget rebuild
     if (_categories.isEmpty && _recentlyUpdatedDrugs.isEmpty) {
       _logger.i(
-        "MedicineProvider: No cached data found. Loading initial data...",
+        'MedicineProvider: No cached data found. Loading initial data...',
       );
       loadInitialData();
     } else {
-      _logger.i("MedicineProvider: Using cached data. Skipping initial load.");
+      _logger.i('MedicineProvider: Using cached data. Skipping initial load.');
       _isInitialLoadComplete = true;
     }
     _loadRecentlyViewed();
@@ -1001,7 +1001,7 @@ class MedicineProvider extends ChangeNotifier {
       if (historyJson != null) {
         _recentlyViewedDrugs =
             historyJson.map((item) {
-              final Map<String, dynamic> json = jsonDecode(item);
+              final json = jsonDecode(item) as Map<String, dynamic>;
               return MedicineModel.fromJson(json).toEntity();
             }).toList();
         notifyListeners();
