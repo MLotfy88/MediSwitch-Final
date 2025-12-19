@@ -193,7 +193,6 @@ class SqliteLocalDataSource {
           }
         }
         await batch.commit(noResult: true);
-        await batch.commit(noResult: true);
         print('[Main Thread] Batch insert completed.');
       }
 
@@ -698,7 +697,9 @@ class SqliteLocalDataSource {
       final db = await dbHelper.database;
       // Check Rules
       final rulesCount = Sqflite.firstIntValue(
-        await db.rawQuery('SELECT COUNT(*) FROM interaction_rules'),
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+        ),
       );
       // Check Mappings
       final ingredientsCount = Sqflite.firstIntValue(

@@ -37,10 +37,10 @@ class ModernSearchBar extends StatelessWidget {
       onTap: onSearchTap,
       child: Container(
         // ✅ زيادة الارتفاع ليتناسب مع الكارت
-        height: 56,
+        height: 64,
         // ✅ تحسين المسافات حول الحقل
         padding: const EdgeInsets.symmetric(horizontal: 16),
-        margin: const EdgeInsets.symmetric(horizontal: 16),
+        margin: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
           color: theme.cardColor,
           borderRadius: BorderRadius.circular(16),
@@ -61,7 +61,7 @@ class ModernSearchBar extends StatelessWidget {
           children: [
             Icon(
               LucideIcons.search,
-              size: 20,
+              size: 24,
               color: appColors.mutedForeground,
             ),
             const SizedBox(width: 12),
@@ -76,7 +76,7 @@ class ModernSearchBar extends StatelessWidget {
                 decoration: InputDecoration(
                   hintText: effectiveHintText,
                   hintStyle: TextStyle(
-                    fontSize: 14,
+                    fontSize: 16,
                     color: appColors.mutedForeground,
                   ),
                   border: InputBorder.none,
@@ -90,7 +90,7 @@ class ModernSearchBar extends StatelessWidget {
                   suffixIcon:
                       controller != null && controller!.text.isNotEmpty
                           ? IconButton(
-                            icon: const Icon(Icons.close, size: 18),
+                            icon: const Icon(Icons.close, size: 20),
                             color: appColors.mutedForeground,
                             onPressed: () {
                               controller?.clear();
@@ -100,7 +100,7 @@ class ModernSearchBar extends StatelessWidget {
                           : null,
                 ),
                 style: TextStyle(
-                  fontSize: 14,
+                  fontSize: 16,
                   color: theme.colorScheme.onSurface,
                 ),
               ),

@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 import 'package:mediswitch/core/constants/categories_data.dart';
@@ -8,6 +10,7 @@ import 'package:mediswitch/core/usecases/usecase.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
+import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:mediswitch/domain/entities/app_notification.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
@@ -78,6 +81,7 @@ class MedicineProvider extends ChangeNotifier {
   // Constants
   static const double _defaultMinPrice = 0;
   static const double _defaultMaxPrice = 10000;
+  static const String _historyKey = 'recently_viewed_drugs';
 
   // Getters
   List<DrugEntity> get allDrugs => _allDrugs;
@@ -142,6 +146,7 @@ class MedicineProvider extends ChangeNotifier {
       _logger.i("MedicineProvider: Using cached data. Skipping initial load.");
       _isInitialLoadComplete = true;
     }
+    _loadRecentlyViewed();
   }
 
   Future<void> loadInitialData({bool forceUpdate = false}) async {
@@ -979,12 +984,44 @@ class MedicineProvider extends ChangeNotifier {
     if (_recentlyViewedDrugs.length > 20) {
       _recentlyViewedDrugs = _recentlyViewedDrugs.sublist(0, 20);
     }
+    _saveRecentlyViewed();
     notifyListeners();
   }
 
   void clearRecentlyViewed() {
     _recentlyViewedDrugs.clear();
+    _saveRecentlyViewed();
     notifyListeners();
+  }
+
+  Future<void> _loadRecentlyViewed() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final historyJson = prefs.getStringList(_historyKey);
+      if (historyJson != null) {
+        _recentlyViewedDrugs =
+            historyJson.map((item) {
+              final Map<String, dynamic> json = jsonDecode(item);
+              return MedicineModel.fromJson(json).toEntity();
+            }).toList();
+        notifyListeners();
+      }
+    } catch (e) {
+      _logger.e("Error loading recently viewed: $e");
+    }
+  }
+
+  Future<void> _saveRecentlyViewed() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final historyJson =
+          _recentlyViewedDrugs.map((drug) {
+            return MedicineModel.fromEntity(drug).toJson();
+          }).toList();
+      await prefs.setStringList(_historyKey, historyJson);
+    } catch (e) {
+      _logger.e("Error saving recently viewed: $e");
+    }
   }
 
   // --- Search Triggering ---
