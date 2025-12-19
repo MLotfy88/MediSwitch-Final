@@ -36,6 +36,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   void initState() {
     super.initState();
     _tabController = TabController(length: 5, vsync: this);
+    // Add to history once the widget is built
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        Provider.of<MedicineProvider>(
+          context,
+          listen: false,
+        ).addToRecentlyViewed(widget.drug);
+      }
+    });
   }
 
   @override
@@ -348,13 +357,29 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              if (widget.drug.usage.isNotEmpty)
+                _buildCard(
+                  title: isRTL ? 'دواعي الاستعمال' : 'Indications (Usage)',
+                  colorScheme: colorScheme,
+                  child: Text(
+                    widget.drug.usage,
+                    style: TextStyle(
+                      height: 1.5,
+                      color: colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ),
+              if (widget.drug.usage.isNotEmpty) const SizedBox(height: 16),
               _buildCard(
-                title: l10n.descriptionTitle,
+                title:
+                    l10n.descriptionTitle, // Keep description as fallback or extra info
                 colorScheme: colorScheme,
                 child: Text(
                   widget.drug.description.isNotEmpty
                       ? widget.drug.description
-                      : 'No description available.',
+                      : (widget.drug.usage.isEmpty
+                          ? 'No description available.'
+                          : 'See indications above.'),
                   style: TextStyle(
                     height: 1.5,
                     color: colorScheme.onSurfaceVariant,

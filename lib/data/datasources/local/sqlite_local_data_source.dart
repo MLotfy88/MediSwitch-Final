@@ -927,24 +927,25 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
     // Count high risk rules linked via ingredients
-    // OPTIMIZED QUERY: Removed LOWER() calls to allow index usage.
-    // Assumes severity in DB is stored consistently (e.g. 'Severe', 'Major').
-    // Even if mixed case, 'Severe' != 'severe' without LOWER, but performance is key here.
-    // The seeds use 'Severe', 'Major', 'Contraindicated'.
+    // OPTIMIZED QUERY: Check multiple cases instead of LOWER() to use index.
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT m.*, 
         SUM(CASE 
-          WHEN r.severity = 'Contraindicated' THEN 10 
-          WHEN r.severity = 'Severe' THEN 8
-          WHEN r.severity = 'Major' THEN 5
-          WHEN r.severity = 'Moderate' THEN 3
+          WHEN r.severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED') THEN 10 
+          WHEN r.severity IN ('Severe', 'severe', 'SEVERE') THEN 8
+          WHEN r.severity IN ('Major', 'major', 'MAJOR') THEN 5
+          WHEN r.severity IN ('Moderate', 'moderate', 'MODERATE') THEN 3
           ELSE 1 
         END) as risk_score
       FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
       JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
-      WHERE r.severity IN ('Contraindicated', 'Severe', 'Major')
+      WHERE r.severity IN (
+        'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
+        'Severe', 'severe', 'SEVERE',
+        'Major', 'major', 'MAJOR'
+      )
       GROUP BY m.id
       ORDER BY risk_score DESC
       LIMIT ?
@@ -967,27 +968,35 @@ class SqliteLocalDataSource {
     // Use a CTE to find ingredients involved in high-risk interactions
     // and aggregate their stats. Interaction severity mapping:
     // contraindicated/severe/major -> high
-    // OPTIMIZED QUERY: Removed LOWER() and redundant checks.
+    // OPTIMIZED QUERY: Check multiple cases.
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
         SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE severity IN ('Contraindicated', 'Severe', 'Major')
+        WHERE severity IN (
+          'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
+          'Severe', 'severe', 'SEVERE',
+          'Major', 'major', 'MAJOR'
+        )
         UNION ALL
         SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE severity IN ('Contraindicated', 'Severe', 'Major')
+        WHERE severity IN (
+          'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
+          'Severe', 'severe', 'SEVERE',
+          'Major', 'major', 'MAJOR'
+        )
       )
       SELECT 
         ingredient as name,
         COUNT(*) as totalInteractions,
-        SUM(CASE WHEN severity IN ('Contraindicated', 'Severe') THEN 1 ELSE 0 END) as severeCount,
-        SUM(CASE WHEN severity = 'Major' OR severity = 'Moderate' THEN 1 ELSE 0 END) as moderateCount,
-        SUM(CASE WHEN severity = 'Minor' THEN 1 ELSE 0 END) as minorCount,
+        SUM(CASE WHEN severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED', 'Severe', 'severe', 'SEVERE') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN severity IN ('Major', 'major', 'MAJOR', 'Moderate', 'moderate', 'MODERATE') THEN 1 ELSE 0 END) as moderateCount,
+        SUM(CASE WHEN severity IN ('Minor', 'minor', 'MINOR') THEN 1 ELSE 0 END) as minorCount,
         SUM(CASE 
-          WHEN severity = 'Contraindicated' THEN 10 
-          WHEN severity = 'Severe' THEN 8
-          WHEN severity = 'Major' THEN 5
-          WHEN severity = 'Moderate' THEN 3
+          WHEN severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED') THEN 10 
+          WHEN severity IN ('Severe', 'severe', 'SEVERE') THEN 8
+          WHEN severity IN ('Major', 'major', 'MAJOR') THEN 5
+          WHEN severity IN ('Moderate', 'moderate', 'MODERATE') THEN 3
           ELSE 1 
         END) as dangerScore
       FROM AffectedIngredients

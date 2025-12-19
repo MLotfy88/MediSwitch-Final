@@ -1193,19 +1193,23 @@ List<CategoryEntity> _processCategoriesIsolate(
   // 4. Custom sorting: User Requested Order then Count
   mergedCategories.sort((a, b) {
     final priorityOrder = [
-      'heart',
+      'cardiovascular',
+      'neurology',
       'respiratory',
-      'diabetes',
-      'infection',
+      'hematology',
+      'gynecology',
+      'urology',
+      'dermatology',
+      'endocrinology',
+      'gastroenterology',
       'orthopedics',
-      'pediatrics',
-      'mens_health',
-      'womens_health',
-      'brain',
-      'eyes',
-      'dental',
-      'skin',
-      'supplements',
+      'oncology',
+      'ophthalmology',
+      'psychiatric',
+      'pain_relief',
+      'anti_infective',
+      'nutrition',
+      'immunology',
       'general',
     ];
 
@@ -1228,32 +1232,44 @@ List<CategoryEntity> _processCategoriesIsolate(
 
 String _getIconNameFromMetaStatic(CategoryData meta) {
   switch (meta.id) {
-    case 'heart':
-      return 'Activity';
+    case 'cardiovascular':
+      return 'Activity'; // Heart/Cardio
     case 'respiratory':
       return 'Wind';
-    case 'diabetes':
+    case 'endocrinology': // Was diabetes
       return 'Droplet';
-    case 'infection':
+    case 'anti_infective': // Was infection
       return 'Stethoscope';
     case 'orthopedics':
       return 'Bone';
     case 'pediatrics':
       return 'Baby';
-    case 'mens_health':
+    case 'urology': // Was mens_health (+ others)
       return 'User';
-    case 'womens_health':
+    case 'gynecology': // Was womens_health
       return 'Venus';
-    case 'brain':
+    case 'neurology': // Was brain
       return 'Brain';
-    case 'eyes':
+    case 'ophthalmology': // Was eyes
       return 'Eye';
     case 'dental':
-      return 'Heart';
-    case 'skin':
+      return 'Heart'; // Keep or find better
+    case 'dermatology': // Was skin
       return 'Sun';
-    case 'supplements':
+    case 'nutrition': // Was supplements
       return 'Apple';
+    case 'gastroenterology':
+      return 'Utensils'; // New
+    case 'hematology': // Blood
+      return 'Droplet'; // Reusing droplet or find better like 'Waves'
+    case 'oncology':
+      return 'AlertOctagon';
+    case 'psychiatric':
+      return 'Smile';
+    case 'pain_relief':
+      return 'Zap';
+    case 'immunology':
+      return 'Shield';
     case 'general':
       return 'PlusSquare';
     default:
