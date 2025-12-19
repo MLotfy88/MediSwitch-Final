@@ -162,68 +162,15 @@ class _SearchScreenState extends State<SearchScreen> {
           children: [
             // Header with Search Bar
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              padding: const EdgeInsets.symmetric(vertical: 12),
               color: colorScheme.surface,
-              child: Row(
-                children: [
-                  // Back Button
-                  Padding(
-                    padding: const EdgeInsetsDirectional.only(end: 8.0),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainerHighest,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: IconButton(
-                        icon: Icon(
-                          isRTL
-                              ? LucideIcons.arrowRight
-                              : LucideIcons.arrowLeft,
-                          size: 20,
-                          color: colorScheme.onSurface,
-                        ),
-                        onPressed: () {
-                          print("[SearchScreen] Back button pressed");
-                          // Force hide keyboard
-                          FocusScope.of(context).unfocus();
-
-                          if (Navigator.canPop(context)) {
-                            print("[SearchScreen] Popping context");
-                            Navigator.of(context).pop();
-                          } else {
-                            print(
-                              "[SearchScreen] Cannot pop, resetting search",
-                            );
-                            // If can't pop (e.g. Tab), force reset and maybe go home?
-                            provider.setSearchQuery('', triggerSearch: false);
-                            // Optional: If you want to force go to home tab:
-                            // AppRouter logic needed, but for now just clear query is safer
-                            // Or try popping root navigator if it was a dialog
-                            Navigator.of(
-                              context,
-                              rootNavigator: true,
-                            ).maybePop();
-                          }
-                        },
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(
-                          minWidth: 40,
-                          minHeight: 40,
-                        ),
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: ModernSearchBar(
-                      controller: _searchController,
-                      hintText: isRTL ? 'ابحث عن دواء...' : l10n.searchHint,
-                      onChanged: (String query) {
-                        provider.setSearchQuery(query, triggerSearch: true);
-                      },
-                      onFilterTap: _openFilters,
-                    ),
-                  ),
-                ],
+              child: ModernSearchBar(
+                controller: _searchController,
+                hintText: isRTL ? 'ابحث عن دواء...' : l10n.searchHint,
+                onChanged: (String query) {
+                  provider.setSearchQuery(query, triggerSearch: true);
+                },
+                onFilterTap: _openFilters,
               ),
             ),
 

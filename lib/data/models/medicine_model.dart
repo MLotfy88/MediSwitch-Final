@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import '../../core/database/database_helper.dart'; // Import DatabaseHelper for column names
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
@@ -83,7 +85,8 @@ class MedicineModel {
           row.length > 8 ? _normalizeDate(_parseString(row[8])) : '',
       unit: row.length > 9 ? _parseString(row[9]) : '',
       barcode: row.length > 10 ? _parseString(row[10]) : '',
-      description: row.length > 12 ? _parseString(row[12]) : '',
+      description:
+          row.length > 12 ? _parseString(row[12]) : '', // Skips 11 (qr_code)
       usage: row.length > 13 ? _parseString(row[13]) : '',
       usageAr: '', // Not in CSV
       visits: row.length > 14 ? (int.tryParse(row[14].toString()) ?? 0) : 0,
@@ -196,6 +199,39 @@ class MedicineModel {
       description: description,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
+    );
+  }
+
+  String toJson() => jsonEncode(toMap());
+
+  factory MedicineModel.fromJson(Map<String, dynamic> json) {
+    return MedicineModel.fromMap(json);
+  }
+
+  factory MedicineModel.fromEntity(DrugEntity entity) {
+    return MedicineModel(
+      id: entity.id,
+      tradeName: entity.tradeName,
+      arabicName: entity.arabicName,
+      price: entity.price,
+      oldPrice: entity.oldPrice ?? '',
+      active: entity.active,
+      company: entity.company,
+      dosageForm: entity.dosageForm,
+      dosageFormAr: '',
+      concentration: entity.concentration,
+      unit: entity.unit,
+      usage: entity.usage,
+      usageAr: '',
+      category: entity.category ?? '',
+      categoryAr: entity.category_ar ?? '',
+      mainCategory: entity.mainCategory,
+      description: entity.description,
+      barcode: '',
+      visits: 0,
+      lastPriceUpdate: entity.lastPriceUpdate,
+      imageUrl: entity.imageUrl,
+      updatedAt: 0,
     );
   }
 }
