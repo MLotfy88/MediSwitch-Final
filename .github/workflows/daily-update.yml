@@ -43,12 +43,6 @@ jobs:
           SLACK_COLOR: '#007ec6'
           SLACK_MESSAGE: '🔄 بدء تحديث قاعدة بيانات الأدوية (Smart Mode)...\n*المستودع:* `${{ github.repository }}`'
       
-      - name: Random delay (human-like behavior)
-        run: |
-          DELAY=$((RANDOM % 300))
-          echo "Waiting ${DELAY} seconds to mimic human behavior..."
-          sleep $DELAY
-      
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
