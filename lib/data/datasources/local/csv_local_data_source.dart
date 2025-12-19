@@ -45,29 +45,7 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
 
   final medicines =
       csvTable.map((row) {
-        return MedicineModel(
-          tradeName: row.length > 0 ? row[0]?.toString() ?? '' : '',
-          arabicName: row.length > 1 ? row[1]?.toString() ?? '' : '',
-          oldPrice: row.length > 2 ? row[2]?.toString() ?? '' : '',
-          price: row.length > 3 ? row[3]?.toString() ?? '' : '',
-          active: row.length > 4 ? row[4]?.toString() ?? '' : '',
-          mainCategory: row.length > 5 ? row[5]?.toString() ?? '' : '',
-          // Removed mainCategoryAr as it is not in MedicineModel
-          category: row.length > 7 ? row[7]?.toString() ?? '' : '',
-          categoryAr: row.length > 8 ? row[8]?.toString() ?? '' : '',
-          company: row.length > 9 ? row[9]?.toString() ?? '' : '',
-          dosageForm: row.length > 10 ? row[10]?.toString() ?? '' : '',
-          dosageFormAr: row.length > 11 ? row[11]?.toString() ?? '' : '',
-          unit: row.length > 12 ? row[12]?.toString() ?? '' : '',
-          usage: row.length > 13 ? row[13]?.toString() ?? '' : '',
-          usageAr: row.length > 14 ? row[14]?.toString() ?? '' : '',
-          description: row.length > 15 ? row[15]?.toString() ?? '' : '',
-          lastPriceUpdate: row.length > 16 ? row[16]?.toString() ?? '' : '',
-          concentration: row.length > 17 ? row[17]?.toString() ?? '' : '',
-          imageUrl: row.length > 18 ? row[18]?.toString() : null,
-          barcode: '', // Default as not in this CSV structure
-          visits: 0, // Default
-        );
+        return MedicineModel.fromCsv(row);
       }).toList();
 
   print(

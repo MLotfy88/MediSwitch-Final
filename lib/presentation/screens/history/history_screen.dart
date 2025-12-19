@@ -32,9 +32,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
   }
 
   void _loadRecentlyViewedFromProvider() {
+    if (!mounted) return;
     // Use recently viewed drugs from provider
-    final provider = context.read<MedicineProvider>();
-    final recentDrugs = provider.recentlyViewedDrugs.toList();
+    final recentDrugs =
+        context.read<MedicineProvider>().recentlyViewedDrugs.toList();
 
     setState(() {
       _viewedDrugs.clear();
@@ -42,7 +43,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
         _viewedDrugs.add(
           ViewedDrug(
             drug: recentDrugs[i],
-            viewedAt: DateTime.now().subtract(Duration(hours: i * 2)),
+            // In a real app, viewedAt should come from the entity if stored
+            viewedAt: DateTime.now().subtract(Duration(minutes: i * 5)),
           ),
         );
       }

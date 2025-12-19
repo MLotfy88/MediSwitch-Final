@@ -932,20 +932,16 @@ class SqliteLocalDataSource {
       '''
       SELECT m.*, 
         SUM(CASE 
-          WHEN r.severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED') THEN 10 
-          WHEN r.severity IN ('Severe', 'severe', 'SEVERE') THEN 8
-          WHEN r.severity IN ('Major', 'major', 'MAJOR') THEN 5
-          WHEN r.severity IN ('Moderate', 'moderate', 'MODERATE') THEN 3
+          WHEN LOWER(r.severity) = 'contraindicated' THEN 10 
+          WHEN LOWER(r.severity) = 'severe' THEN 8
+          WHEN LOWER(r.severity) = 'major' THEN 5
+          WHEN LOWER(r.severity) = 'moderate' THEN 3
           ELSE 1 
         END) as risk_score
       FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
       JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
-      WHERE r.severity IN (
-        'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
-        'Severe', 'severe', 'SEVERE',
-        'Major', 'major', 'MAJOR'
-      )
+      WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
       GROUP BY m.id
       ORDER BY risk_score DESC
       LIMIT ?
@@ -973,30 +969,22 @@ class SqliteLocalDataSource {
       '''
       WITH AffectedIngredients AS (
         SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE severity IN (
-          'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
-          'Severe', 'severe', 'SEVERE',
-          'Major', 'major', 'MAJOR'
-        )
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
         UNION ALL
         SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE severity IN (
-          'Contraindicated', 'contraindicated', 'CONTRAINDICATED',
-          'Severe', 'severe', 'SEVERE',
-          'Major', 'major', 'MAJOR'
-        )
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
       )
       SELECT 
         ingredient as name,
         COUNT(*) as totalInteractions,
-        SUM(CASE WHEN severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED', 'Severe', 'severe', 'SEVERE') THEN 1 ELSE 0 END) as severeCount,
-        SUM(CASE WHEN severity IN ('Major', 'major', 'MAJOR', 'Moderate', 'moderate', 'MODERATE') THEN 1 ELSE 0 END) as moderateCount,
-        SUM(CASE WHEN severity IN ('Minor', 'minor', 'MINOR') THEN 1 ELSE 0 END) as minorCount,
+        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate') THEN 1 ELSE 0 END) as moderateCount,
+        SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
         SUM(CASE 
-          WHEN severity IN ('Contraindicated', 'contraindicated', 'CONTRAINDICATED') THEN 10 
-          WHEN severity IN ('Severe', 'severe', 'SEVERE') THEN 8
-          WHEN severity IN ('Major', 'major', 'MAJOR') THEN 5
-          WHEN severity IN ('Moderate', 'moderate', 'MODERATE') THEN 3
+          WHEN LOWER(severity) = 'contraindicated' THEN 10 
+          WHEN LOWER(severity) = 'severe' THEN 8
+          WHEN LOWER(severity) = 'major' THEN 5
+          WHEN LOWER(severity) = 'moderate' THEN 3
           ELSE 1 
         END) as dangerScore
       FROM AffectedIngredients

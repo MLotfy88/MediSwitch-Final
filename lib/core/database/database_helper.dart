@@ -17,7 +17,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 6; // Bumping version for table renaming
+  static const int _dbVersion = 7; // Bumping version for pharmacology column
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -40,6 +40,7 @@ class DatabaseHelper {
   static const String colUsage = 'usage';
   static const String colUsageAr = 'usage_ar';
   static const String colDescription = 'description';
+  static const String colPharmacology = 'pharmacology'; // New Column
   static const String colBarcode = 'barcode';
   static const String colVisits = 'visits';
   static const String colLastPriceUpdate = 'lastPriceUpdate';
@@ -82,6 +83,14 @@ class DatabaseHelper {
       await _onCreate(db, newVersion);
       return;
     }
+
+    if (oldVersion < 7) {
+      debugPrint(
+        'Upgrading to Version 7: Resetting drugs table for new schema...',
+      );
+      await db.execute('DROP TABLE IF EXISTS $medicinesTable');
+      await _onCreate(db, newVersion);
+    }
   }
 
   Future<void> _onCreate(Database db, int version) async {
@@ -107,6 +116,7 @@ class DatabaseHelper {
             $colUsage TEXT,
             $colUsageAr TEXT,
             $colDescription TEXT,
+            $colPharmacology TEXT,
             $colBarcode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,

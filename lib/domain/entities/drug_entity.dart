@@ -17,6 +17,7 @@ class DrugEntity extends Equatable {
   final String unit;
   final String usage;
   final String description;
+  final String? pharmacology; // New Field
   final String lastPriceUpdate;
   final String? imageUrl;
 
@@ -44,6 +45,7 @@ class DrugEntity extends Equatable {
     required this.unit,
     required this.usage,
     required this.description,
+    this.pharmacology, // New Field
     required this.lastPriceUpdate,
     this.imageUrl,
     this.isPopular = false,

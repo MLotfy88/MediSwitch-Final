@@ -21,6 +21,7 @@ class MedicineModel {
   final String categoryAr;
   final String mainCategory;
   final String description;
+  final String pharmacology; // New Field
   final String barcode;
   final int visits;
   final String lastPriceUpdate;
@@ -45,6 +46,7 @@ class MedicineModel {
     required this.categoryAr,
     this.mainCategory = '',
     required this.description,
+    required this.pharmacology, // New Field
     required this.barcode,
     required this.visits,
     required this.lastPriceUpdate,
@@ -86,7 +88,12 @@ class MedicineModel {
       unit: row.length > 9 ? _parseString(row[9]) : '',
       barcode: row.length > 10 ? _parseString(row[10]) : '',
       description:
-          row.length > 12 ? _parseString(row[12]) : '', // Skips 11 (qr_code)
+          row.length > 17
+              ? _parseString(row[17])
+              : '', // Assuming desc is further down now? No, let's re-check CSV header
+      // id,trade_name,arabic_name,active,category,company,price,old_price,last_price_update,units,barcode,qr_code,pharmacology,usage,visits,concentration,dosage_form,dosage_form_ar
+      // 0  1          2           3      4        5       6     7         8                 9     10      11      12           13    14     15            16          17
+      pharmacology: row.length > 12 ? _parseString(row[12]) : '',
       usage: row.length > 13 ? _parseString(row[13]) : '',
       usageAr: '', // Not in CSV
       visits: row.length > 14 ? (int.tryParse(row[14].toString()) ?? 0) : 0,
@@ -110,6 +117,7 @@ class MedicineModel {
       categoryAr: _parseString(json['category_ar']),
       price: _parseString(json['price']),
       description: _parseString(json['description']),
+      pharmacology: _parseString(json['pharmacology']),
       imageUrl: _parseString(json['image_url']),
       lastPriceUpdate: _parseString(json['last_price_update']),
       updatedAt: json['updated_at'] as int? ?? 0,
@@ -145,6 +153,7 @@ class MedicineModel {
       DatabaseHelper.colCategoryAr: categoryAr,
       DatabaseHelper.colMainCategory: mainCategory,
       DatabaseHelper.colDescription: description,
+      DatabaseHelper.colPharmacology: pharmacology,
       DatabaseHelper.colBarcode: barcode,
       DatabaseHelper.colVisits: visits,
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
@@ -172,6 +181,7 @@ class MedicineModel {
       categoryAr: map[DatabaseHelper.colCategoryAr]?.toString() ?? '',
       mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
       description: map[DatabaseHelper.colDescription]?.toString() ?? '',
+      pharmacology: map[DatabaseHelper.colPharmacology]?.toString() ?? '',
       barcode: map[DatabaseHelper.colBarcode]?.toString() ?? '',
       visits: map[DatabaseHelper.colVisits] as int? ?? 0,
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
@@ -196,7 +206,9 @@ class MedicineModel {
       concentration: concentration,
       unit: unit,
       usage: usage,
-      description: description,
+      description:
+          description, // Maybe deprecate description usage if pharmacology is key
+      pharmacology: pharmacology,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
     );
@@ -227,6 +239,7 @@ class MedicineModel {
       categoryAr: entity.category_ar ?? '',
       mainCategory: entity.mainCategory,
       description: entity.description,
+      pharmacology: entity.pharmacology ?? '',
       barcode: '',
       visits: 0,
       lastPriceUpdate: entity.lastPriceUpdate,

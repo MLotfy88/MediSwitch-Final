@@ -371,15 +371,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 ),
               if (widget.drug.usage.isNotEmpty) const SizedBox(height: 16),
               _buildCard(
-                title:
-                    l10n.descriptionTitle, // Keep description as fallback or extra info
+                title: isRTL ? 'علم الأدوية (Pharmacology)' : 'Pharmacology',
                 colorScheme: colorScheme,
                 child: Text(
-                  widget.drug.description.isNotEmpty
-                      ? widget.drug.description
-                      : (widget.drug.usage.isEmpty
-                          ? 'No description available.'
-                          : 'See indications above.'),
+                  (widget.drug.pharmacology != null &&
+                          widget.drug.pharmacology!.isNotEmpty)
+                      ? widget.drug.pharmacology!
+                      : (widget.drug.description.isNotEmpty
+                          ? widget.drug.description
+                          : (widget.drug.usage.isEmpty
+                              ? 'No information available.'
+                              : 'See indications above.')),
                   style: TextStyle(
                     height: 1.5,
                     color: colorScheme.onSurfaceVariant,
