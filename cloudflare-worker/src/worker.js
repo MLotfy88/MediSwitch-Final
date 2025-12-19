@@ -180,6 +180,10 @@ export default {
                 return handleSyncDrugs(request, DB);
             }
 
+            if (path === '/api/sync/med-ingredients' && request.method === 'GET') {
+                return handleSyncMedIngredients(request, DB);
+            }
+
             if (path === '/api/sync/interactions' && request.method === 'GET') {
                 return handleSyncInteractions(request, DB);
             }
@@ -470,7 +474,8 @@ async function handleSyncDrugs(request, DB) {
         let query = 'SELECT * FROM drugs';
         const params = [];
         if (since > 0) {
-            query += ' WHERE updated_at > ?';
+            // Compare using unix epoch to match App's integer timestamp
+            query += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
             params.push(since);
         }
         query += ' ORDER BY id';
@@ -484,14 +489,13 @@ async function handleSyncDrugs(request, DB) {
         let countQuery = 'SELECT COUNT(*) as total FROM drugs';
         const countParams = [];
         if (since > 0) {
-            countQuery += ' WHERE updated_at > ?';
+            countQuery += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
             countParams.push(since);
         }
         const countResult = await DB.prepare(countQuery).bind(...countParams).first();
 
-        // Return raw snake_case results as expected by Flutter App's MedicineModel.fromSyncJson
         return jsonResponse({
-            data: results,
+            data: results || [],
             total: countResult.total || 0,
             currentTimestamp: Math.floor(Date.now() / 1000)
         });
@@ -513,7 +517,7 @@ async function handleSyncInteractions(request, DB) {
         let query = 'SELECT * FROM drug_interactions';
         const params = [];
         if (since > 0) {
-            query += ' WHERE updated_at > ?'; // Ensure updated_at exists in table
+            query += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
             params.push(since);
         }
         query += ' ORDER BY id';
@@ -524,23 +528,66 @@ async function handleSyncInteractions(request, DB) {
 
         const { results } = await DB.prepare(query).bind(...params).all();
 
-        // Count
         let countQuery = 'SELECT COUNT(*) as total FROM drug_interactions';
         const countParams = [];
         if (since > 0) {
-            countQuery += ' WHERE updated_at > ?';
+            countQuery += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
             countParams.push(since);
         }
         const countResult = await DB.prepare(countQuery).bind(...countParams).first();
 
         return jsonResponse({
-            data: results,
+            data: results || [],
             total: countResult.total || 0,
             currentTimestamp: Math.floor(Date.now() / 1000)
         });
 
     } catch (e) {
         console.error('Sync interactions error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleSyncMedIngredients(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+    try {
+        let query = 'SELECT * FROM med_ingredients';
+        const params = [];
+        if (since > 0) {
+            // med_ingredients might not have updated_at in all schemas, 
+            // but we add the check for consistency if it exists.
+            query += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
+            params.push(since);
+        }
+        query += ' ORDER BY med_id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
+        }
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+
+        let countQuery = 'SELECT COUNT(*) as total FROM med_ingredients';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += " WHERE CAST(strftime('%s', updated_at) AS INTEGER) > ?";
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+            data: results || [],
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (e) {
+        console.error('Sync med_ingredients error:', e);
         return errorResponse(e.message, 500);
     }
 }

@@ -65,7 +65,8 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
         f.write("  barcode TEXT,\n")
         f.write("  unit TEXT,\n")
         f.write("  visits INTEGER DEFAULT 0,\n")
-        f.write("  last_price_update TEXT\n")
+        f.write("  last_price_update TEXT,\n")
+        f.write("  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP\n")
         f.write(");\n\n")
         
         print("📝 Exporting records...")
@@ -119,18 +120,18 @@ def export_to_sql(csv_path='assets/meds.csv', output_path='d1_import.sql'):
             except:
                 visits_val = 0
             
-            values = f"({mid}, {trade}, {arabic}, {old_p}, {price}, {active}, {comp}, {form}, {form_ar}, {usage}, {cat}, {conc}, {pharm}, {bar}, {unit}, {visits_val}, {last})"
+            values = f"({mid}, {trade}, {arabic}, {old_p}, {price}, {active}, {comp}, {form}, {form_ar}, {usage}, {cat}, {conc}, {pharm}, {bar}, {unit}, {visits_val}, {last}, CURRENT_TIMESTAMP)"
             batch.append(values)
             
             if len(batch) >= batch_size:
-                f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update) VALUES\n")
+                f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update, updated_at) VALUES\n")
                 f.write(',\n'.join(batch))
                 f.write(';\n\n')
                 total_exported += len(batch)
                 batch = []
                 
         if batch:
-            f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update) VALUES\n")
+            f.write("INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, usage, category, concentration, pharmacology, barcode, unit, visits, last_price_update, updated_at) VALUES\n")
             f.write(',\n'.join(batch))
             f.write(';\n\n')
             total_exported += len(batch)

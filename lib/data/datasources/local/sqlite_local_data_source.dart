@@ -939,7 +939,7 @@ class SqliteLocalDataSource {
         END) as risk_score
       FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
-      JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} r ON (LOWER(r.ingredient1) = LOWER(mi.ingredient) OR LOWER(r.ingredient2) = LOWER(mi.ingredient))
       WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
       GROUP BY m.id
       ORDER BY risk_score DESC
@@ -951,6 +951,48 @@ class SqliteLocalDataSource {
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
     });
+  }
+
+  /// New method to get specialized ingredient high-risk metrics for Home Screen
+  Future<List<Map<String, dynamic>>> getHighRiskIngredientsWithMetrics({
+    int limit = 10,
+  }) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+
+    // Use a CTE to find ingredients involved in high-risk interactions
+    // and aggregate their stats. Interaction severity mapping:
+    // contraindicated/severe/major -> high
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      WITH AffectedIngredients AS (
+        SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        UNION ALL
+        SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+      )
+      SELECT 
+        ingredient as name,
+        COUNT(*) as totalInteractions,
+        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN LOWER(severity) = 'major' OR LOWER(severity) = 'moderate' THEN 1 ELSE 0 END) as moderateCount,
+        SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
+        SUM(CASE 
+          WHEN LOWER(severity) = 'contraindicated' THEN 10 
+          WHEN LOWER(severity) = 'severe' THEN 8
+          WHEN LOWER(severity) = 'major' THEN 5
+          WHEN LOWER(severity) = 'moderate' THEN 3
+          ELSE 1 
+        END) as dangerScore
+      FROM AffectedIngredients
+      WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
+      GROUP BY ingredient
+      ORDER BY dangerScore DESC
+      LIMIT ?
+      ''',
+      [limit],
+    );
+
+    return maps;
   }
 
   Future<List<DrugInteractionModel>> getHighRiskInteractions({

@@ -8,6 +8,7 @@ import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart'
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
+import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:sqflite/sqflite.dart';
@@ -129,9 +130,25 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   @override
-  Future<List<String>> getHighRiskIngredients() async {
-    // Deprecated / Not implemented
-    return [];
+  Future<List<HighRiskIngredient>> getHighRiskIngredients() async {
+    try {
+      final List<Map<String, dynamic>> maps = await localDataSource
+          .getHighRiskIngredientsWithMetrics(limit: 10);
+
+      return maps.map((m) {
+        return HighRiskIngredient(
+          name: m['name'] as String,
+          totalInteractions: m['totalInteractions'] as int,
+          severeCount: m['severeCount'] as int,
+          moderateCount: m['moderateCount'] as int,
+          minorCount: m['minorCount'] as int,
+          dangerScore: m['dangerScore'] as int,
+        );
+      }).toList();
+    } catch (e) {
+      debugPrint('Error getting high risk ingredients: $e');
+      return [];
+    }
   }
 
   @override

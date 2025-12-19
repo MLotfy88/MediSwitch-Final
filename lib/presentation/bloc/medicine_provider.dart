@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mediswitch/core/constants/categories_data.dart';
 import 'package:mediswitch/core/di/locator.dart';
@@ -605,104 +606,23 @@ class MedicineProvider extends ChangeNotifier {
     // 1. Get raw data from DB
     final result = await _getCategoriesWithCountUseCase(NoParams());
 
-    result.fold(
-      (failure) {
+    await result.fold(
+      (failure) async {
         _logger.e(
           "MedicineProvider: Failed to load dynamic categories: $failure",
         );
         _useStaticCategories();
       },
-      (categoryCounts) {
+      (categoryCounts) async {
         _logger.i(
-          "MedicineProvider: Loaded ${categoryCounts.length} raw categories from DB. Aggregating...",
+          "MedicineProvider: Loaded ${categoryCounts.length} raw categories from DB. Aggregating in isolate...",
         );
 
-        // Map detailed categories to broad specialties
-        final Map<String, int> specialtyCounts = {};
-
-        // Initialize with 0 for all known specialties to ensure they appear
-        for (var meta in kAllCategories) {
-          specialtyCounts[meta.id] = 0;
-        }
-
-        // int unmappedCount = 0;
-
-        for (var entry in categoryCounts.entries) {
-          final detailedCategory = entry.key;
-          final count = entry.value;
-
-          final specialtyId = CategoryMapperHelper.mapCategoryToSpecialty(
-            detailedCategory,
-          );
-          // Only count if it's one of our defined specialties, otherwise dump to General
-          // 'general' is already in kAllCategories
-
-          if (specialtyCounts.containsKey(specialtyId)) {
-            specialtyCounts[specialtyId] =
-                (specialtyCounts[specialtyId] ?? 0) + count;
-          } else {
-            // Fallback to general if mapper returns something weird (shouldn't happen with helper)
-            specialtyCounts['general'] =
-                (specialtyCounts['general'] ?? 0) + count;
-          }
-        }
-
-        _logger.i(
-          "MedicineProvider: mapped items. General bucket has ${specialtyCounts['general'] ?? 0} items.",
+        // Map detailed categories to broad specialties using compute
+        final mergedCategories = await compute(
+          _processCategoriesIsolate,
+          categoryCounts,
         );
-
-        final List<CategoryEntity> mergedCategories = [];
-
-        // Create entities from aggregated counts
-        for (var meta in kAllCategories) {
-          // Skip if count is 0 and we want to hide empty ones?
-          // User typically wants to see them but maybe empty ones are clutter.
-          // Let's keep them but sort them to bottom.
-          // Actually, let's filter out 0 count unless it's a major one?
-          // For now, keep all defined in kAllCategories.
-
-          mergedCategories.add(
-            CategoryEntity(
-              id: meta.id,
-              name: meta.nameEn,
-              nameAr: meta.nameAr,
-              shortName: meta.shortNameEn,
-              shortNameAr: meta.shortNameAr,
-              drugCount: specialtyCounts[meta.id] ?? 0,
-              icon: _getIconNameFromMeta(meta),
-              color: meta.colorName,
-            ),
-          );
-        }
-
-        // Custom sorting: User Requested Order then Count
-        mergedCategories.sort((a, b) {
-          final priorityOrder = [
-            'cardiovascular',
-            'respiratory',
-            'neurology',
-            'gynecology',
-            'urology',
-            'gastroenterology',
-          ];
-
-          final indexA = priorityOrder.indexOf(a.id.toLowerCase());
-          final indexB = priorityOrder.indexOf(b.id.toLowerCase());
-
-          if (indexA != -1 && indexB != -1) {
-            return indexA.compareTo(indexB);
-          } else if (indexA != -1) {
-            return -1;
-          } else if (indexB != -1) {
-            return 1;
-          }
-
-          // Then sort by count DESC
-          if (b.drugCount != a.drugCount) {
-            return b.drugCount.compareTo(a.drugCount);
-          }
-          return 0;
-        });
 
         _categories = mergedCategories;
         notifyListeners();
@@ -1219,5 +1139,124 @@ class MedicineProvider extends ChangeNotifier {
     } else {
       return 'حدث خطأ غير متوقع.';
     }
+  }
+}
+
+// --- Top-level Isolate Functions ---
+
+/// Processes raw category counts and maps them to entities in an isolate.
+List<CategoryEntity> _processCategoriesIsolate(
+  Map<String, int> categoryCounts,
+) {
+  final Map<String, int> specialtyCounts = {};
+
+  // 1. Initialize with 0 for all known specialties
+  for (var meta in kAllCategories) {
+    specialtyCounts[meta.id] = 0;
+  }
+
+  // 2. Map detailed categories to broad specialties
+  for (var entry in categoryCounts.entries) {
+    final detailedCategory = entry.key;
+    final count = entry.value;
+
+    final specialtyId = CategoryMapperHelper.mapCategoryToSpecialty(
+      detailedCategory,
+    );
+
+    if (specialtyCounts.containsKey(specialtyId)) {
+      specialtyCounts[specialtyId] =
+          (specialtyCounts[specialtyId] ?? 0) + count;
+    } else {
+      specialtyCounts['general'] = (specialtyCounts['general'] ?? 0) + count;
+    }
+  }
+
+  final List<CategoryEntity> mergedCategories = [];
+
+  // 3. Create entities from aggregated counts
+  for (var meta in kAllCategories) {
+    mergedCategories.add(
+      CategoryEntity(
+        id: meta.id,
+        name: meta.nameEn,
+        nameAr: meta.nameAr,
+        shortName: meta.shortNameEn,
+        shortNameAr: meta.shortNameAr,
+        drugCount: specialtyCounts[meta.id] ?? 0,
+        icon: _getIconNameFromMetaStatic(meta),
+        color: meta.colorName,
+      ),
+    );
+  }
+
+  // 4. Custom sorting: User Requested Order then Count
+  mergedCategories.sort((a, b) {
+    final priorityOrder = [
+      'heart',
+      'respiratory',
+      'diabetes',
+      'infection',
+      'orthopedics',
+      'pediatrics',
+      'mens_health',
+      'womens_health',
+      'brain',
+      'eyes',
+      'dental',
+      'skin',
+      'supplements',
+      'general',
+    ];
+
+    final aPriority = priorityOrder.indexOf(a.id);
+    final bPriority = priorityOrder.indexOf(b.id);
+
+    if (aPriority != -1 && bPriority != -1) {
+      return aPriority.compareTo(bPriority);
+    } else if (aPriority != -1) {
+      return -1;
+    } else if (bPriority != -1) {
+      return 1;
+    }
+
+    return b.drugCount.compareTo(a.drugCount);
+  });
+
+  return mergedCategories;
+}
+
+String _getIconNameFromMetaStatic(CategoryData meta) {
+  switch (meta.id) {
+    case 'heart':
+      return 'Activity';
+    case 'respiratory':
+      return 'Wind';
+    case 'diabetes':
+      return 'Droplet';
+    case 'infection':
+      return 'Stethoscope';
+    case 'orthopedics':
+      return 'Bone';
+    case 'pediatrics':
+      return 'Baby';
+    case 'mens_health':
+      return 'User';
+    case 'womens_health':
+      return 'Venus';
+    case 'brain':
+      return 'Brain';
+    case 'eyes':
+      return 'Eye';
+    case 'dental':
+      return 'Heart';
+    case 'skin':
+      return 'Sun';
+    case 'supplements':
+      return 'Apple';
+    case 'general':
+      return 'PlusSquare';
+    default:
+      return 'Package';
   }
 }

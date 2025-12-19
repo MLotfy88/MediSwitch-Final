@@ -6,6 +6,7 @@ import '../../core/error/failures.dart'; // For Failure
 import '../entities/dosage_guidelines.dart'; // Import DosageGuidelines
 import '../entities/drug_entity.dart';
 import '../entities/drug_interaction.dart';
+import '../entities/high_risk_ingredient.dart';
 import '../entities/interaction_severity.dart';
 // Potentially import ActiveIngredient if needed by the interface
 
@@ -35,7 +36,7 @@ abstract class InteractionRepository {
   Future<int> getInteractionCountForDrug(DrugEntity drug);
 
   /// Get a list of ingredients known to have high-risk (severe/contraindicated) interactions
-  Future<List<String>> getHighRiskIngredients();
+  Future<List<HighRiskIngredient>> getHighRiskIngredients();
 
   /// Get high risk drugs based on interaction severity score
   Future<List<DrugEntity>> getHighRiskDrugs(int limit);
