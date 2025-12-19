@@ -237,6 +237,32 @@
   "recentlyAdded": "أضيفت حديثاً",
   "backButtonTooltip": "رجوع",
   "neverUpdated": "لم يحدث أبداً",
+  "dosageStrength": "قوة الدواء",
+  "regularFrequency": "التردد المعتاد",
+  "maxDailyDose": "أقصى جرعة يومية",
+  "administrationForm": "طريقة التناول",
+  "treatmentDuration": "مدة العلاج",
+  "safetyBuffer": "سقف الأمان",
+  "everyXHours": "كل {hours} ساعات",
+  "@everyXHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "standardDosePerIndication": "الجرعة حسب دواعي الاستعمال",
+  "conditionLabel": "الحالة المرضية",
+  "expectedDuration": "المدة المتوقعة",
+  "standardDose": "الجرعة القياسية",
+  "timesDaily": "{count} مرات يومياً",
+  "@timesDaily": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "@interactionsTab": {
     "description": "تسمية تبويب التفاعلات في صفحة تفاصيل الدواء."
   }

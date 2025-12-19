@@ -26,6 +26,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
   final TextEditingController _weightController = TextEditingController();
   final TextEditingController _ageController = TextEditingController();
+  final TextEditingController _durationController = TextEditingController();
   String _ageUnit = 'years';
 
   @override
@@ -34,12 +35,14 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     final provider = context.read<DoseCalculatorProvider>();
     _weightController.text = provider.weightInput;
     _ageController.text = provider.ageInput;
+    _durationController.text = provider.durationInput;
   }
 
   @override
   void dispose() {
     _weightController.dispose();
     _ageController.dispose();
+    _durationController.dispose();
     super.dispose();
   }
 
@@ -49,6 +52,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
       final provider = context.read<DoseCalculatorProvider>();
       provider.setWeight(_weightController.text);
       provider.setAge(_ageController.text);
+      provider.setDuration(_durationController.text);
       _logger.i("WeightCalculatorScreen: Calculating dose...");
       provider.calculateDose();
     }
@@ -58,6 +62,7 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
     setState(() {
       _weightController.clear();
       _ageController.clear();
+      _durationController.text = '3';
       _ageUnit = 'years';
     });
     context.read<DoseCalculatorProvider>().clearResult();
@@ -422,6 +427,20 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
               size: BadgeSize.md,
               icon: _isChild() ? LucideIcons.baby : LucideIcons.user,
             ),
+          const SizedBox(height: 16),
+
+          // Treatment Duration
+          _buildInputField(
+            context: context,
+            controller: _durationController,
+            label: l10n.treatmentDuration,
+            icon: LucideIcons.calendarDays,
+            keyboardType: TextInputType.number,
+            inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+            onChanged:
+                (v) => context.read<DoseCalculatorProvider>().setDuration(v),
+            theme: theme,
+          ),
         ],
       ),
     );
@@ -818,18 +837,44 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           // Drug Info Section
           if (provider.selectedDrug != null) ...[
             _buildResultRow(
-              isRTL ? 'الجرعة لكل كجم:' : 'Dose per kg:',
-              '${provider.selectedDrug!.concentration} ${provider.selectedDrug!.unit}/kg',
+              isRTL ? 'الجرعة المستخدمة:' : 'Dose used:',
+              '${result.mgPerKgUsed?.toStringAsFixed(1) ?? "N/A"} mg/kg',
               isRTL,
               theme,
             ),
             const SizedBox(height: 8),
             _buildResultRow(
-              isRTL ? 'الحد الأقصى للجرعة:' : 'Maximum dose:',
-              result.maxDose ?? 'N/A',
+              isRTL ? 'الفواصل الزمنية:' : 'Intervals:',
+              result.intervalHours != null
+                  ? l10n.everyXHours(result.intervalHours!)
+                  : 'N/A',
               isRTL,
               theme,
             ),
+            const SizedBox(height: 8),
+            _buildResultRow(
+              isRTL ? 'إجمالي الكمية المطلوبة:' : 'Total quantity needed:',
+              result.totalQuantity ?? 'N/A',
+              isRTL,
+              theme,
+            ),
+            const SizedBox(height: 8),
+            _buildResultRow(
+              isRTL ? 'الحد الأقصى اليومي:' : 'Daily Ceiling:',
+              '${result.dailyCeiling?.toStringAsFixed(0) ?? "N/A"} mg',
+              isRTL,
+              theme,
+            ),
+            const SizedBox(height: 16),
+            if (result.intervalHours != null) ...[
+              _buildSafetyTimeline(
+                context,
+                result.intervalHours!,
+                isRTL,
+                theme,
+              ),
+              const SizedBox(height: 16),
+            ],
             const SizedBox(height: 12),
           ],
 
@@ -964,6 +1009,101 @@ class _WeightCalculatorScreenState extends State<WeightCalculatorScreen> {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildSafetyTimeline(
+    BuildContext context,
+    int interval,
+    bool isRTL,
+    ThemeData theme,
+  ) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Icon(
+              LucideIcons.clock,
+              size: 14,
+              color: theme.appColors.mutedForeground,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              isRTL ? 'خط الأمان الزمني (24 ساعة)' : 'Safety Timeline (24h)',
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: theme.appColors.mutedForeground,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+        Container(
+          height: 32,
+          padding: const EdgeInsets.symmetric(horizontal: 4),
+          decoration: BoxDecoration(
+            color: theme.scaffoldBackgroundColor,
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: List.generate(24, (index) {
+              final isDoseTime = index % interval == 0;
+              return Expanded(
+                child: Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 1),
+                  decoration: BoxDecoration(
+                    color:
+                        isDoseTime
+                            ? theme.colorScheme.primary
+                            : theme.appColors.muted.withValues(alpha: 0.3),
+                    borderRadius: BorderRadius.circular(2),
+                  ),
+                  child:
+                      isDoseTime
+                          ? Center(
+                            child: Icon(
+                              LucideIcons.pill,
+                              size: 8,
+                              color: theme.colorScheme.onPrimary,
+                            ),
+                          )
+                          : null,
+                ),
+              );
+            }),
+          ),
+        ),
+        const SizedBox(height: 6),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              '0h',
+              style: TextStyle(
+                fontSize: 10,
+                color: theme.appColors.mutedForeground,
+              ),
+            ),
+            Text(
+              '12h',
+              style: TextStyle(
+                fontSize: 10,
+                color: theme.appColors.mutedForeground,
+              ),
+            ),
+            Text(
+              '24h',
+              style: TextStyle(
+                fontSize: 10,
+                color: theme.appColors.mutedForeground,
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }

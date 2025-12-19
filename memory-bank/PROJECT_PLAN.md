@@ -78,8 +78,8 @@
 | Design Doc Review | ✅ | Dec 7 |
 | UI Design Fixes (Category sizes, Badges, Tabs, Search Bar) | ✅ | Dec 8 |
 | Final Testing & Release Prep | ✅ | Dec 18 |
-| Interaction & Dosage Tools | ✅ | Dec 18 |
-| Notifications Screen | ✅ | Dec 18 |
+| Interaction & Dosage Tools | ✅ | Dec 19 |
+| Drug Update Workflow Audit | ✅ | Dec 19 |
 
 ---
 

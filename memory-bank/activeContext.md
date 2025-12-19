@@ -41,11 +41,11 @@
 - **Store Deployment:** Preparing assets and descriptions for app store listings.
 
 ## Recent Changes
+- **Dosage System Overhaul (v2.1):** Implemented advanced clinical UI in `DosageTab` (Infographics, Indication Matrix) and enhanced `DosageCalculatorService`.
+- **Drug Update Workflow Audit:** Fixed `bridge_daily_update.py` and structural compatibility of `meds.csv` to prevent data loss.
+- **Lint Sanitization:** Resolved all warnings in `dosage_tab.dart` for production-grade code quality.
 - **Interaction Data Bridge:** Automated the population of `med_ingredients` during seeding and sync, resolving "0 interactions" mapping issues.
-- **Smart Alternatives:** Implemented `CategoryMapperHelper` to provide classification-based drug alternatives (same specialty).
-- **Hybrid Dosage Logic:** Updated `DosageCalculatorService` to use a mix of validated pediatric formulas and DB-driven guidelines.
 - **D1 Sync Stability:** Optimized SQL export scripts to handle 23k+ drugs without hitting Cloudflare size limits.
-- **MedicineProvider Overhaul:** Unified initialization sequence to load high-risk data and recently updated drugs correctly.
 
 ---
 
