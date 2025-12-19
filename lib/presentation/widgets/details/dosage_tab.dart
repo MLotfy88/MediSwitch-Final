@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/app_spacing.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
@@ -8,14 +9,18 @@ import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:provider/provider.dart';
 
+/// Tab displaying dosage information for a specific [drug].
 class DosageTab extends StatelessWidget {
-  final DrugEntity drug;
-
+  /// Creates a new [DosageTab] instance.
   const DosageTab({required this.drug, super.key});
+
+  /// The drug entity for which to display dosage information.
+  final DrugEntity drug;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context)!;
 
     return SingleChildScrollView(
       padding: AppSpacing.edgeInsetsAllLarge,
@@ -30,24 +35,38 @@ class DosageTab extends StatelessWidget {
           }
 
           final guidelines = snapshot.data ?? [];
-          DosageGuidelinesModel? bestMatch;
+          DosageGuidelinesModel? summaryGuideline;
 
-          // Logic to find best match (currently just first)
           if (guidelines.isNotEmpty) {
-            bestMatch = guidelines.first;
+            summaryGuideline = guidelines.first;
           }
 
           return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              StrengthCard(drug: drug),
-              const SizedBox(height: 16),
-              DosageDetailsCard(drug: drug, guideline: bestMatch),
-              const SizedBox(height: 16),
-              if (bestMatch?.instructions != null || bestMatch?.maxDose != null)
+              // Quick Stats Grid
+              _buildQuickStats(context, l10n, summaryGuideline),
+              const SizedBox(height: 24),
+
+              // Standard Matrix Title
+              if (guidelines.isNotEmpty) ...[
+                Text(
+                  l10n.standardDosePerIndication,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 12),
+                _buildIndicationMatrix(context, l10n, guidelines),
+                const SizedBox(height: 24),
+              ],
+
+              // Original Warning for fallback instructions
+              if (summaryGuideline?.instructions != null)
                 InstructionsWarning(
                   instructions:
-                      bestMatch?.instructions ??
-                      'Always read the leaflet and consult your healthcare provider for specific instructions.',
+                      summaryGuideline?.instructions ??
+                      l10n.consultDoctorOrPharmacist,
                 ),
             ],
           ).animate().fadeIn();
@@ -55,106 +74,110 @@ class DosageTab extends StatelessWidget {
       ),
     );
   }
-}
 
-class StrengthCard extends StatelessWidget {
-  final DrugEntity drug;
-
-  const StrengthCard({required this.drug, super.key});
-
-  @override
-  Widget build(BuildContext context) {
+  Widget _buildQuickStats(
+    BuildContext context,
+    AppLocalizations l10n,
+    DosageGuidelinesModel? guideline,
+  ) {
     final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
+
+    return GridView.count(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      crossAxisCount: 2,
+      mainAxisSpacing: 12,
+      crossAxisSpacing: 12,
+      childAspectRatio: 1.5,
+      children: [
+        _buildStatCard(
+          context,
+          l10n.regularFrequency,
+          guideline?.frequency != null
+              ? l10n.timesDaily(guideline!.frequency!)
+              : 'N/A',
+          LucideIcons.clock,
+          theme.colorScheme.primary,
+        ),
+        _buildStatCard(
+          context,
+          l10n.maxDailyDose,
+          guideline?.maxDose != null ? '${guideline!.maxDose} mg' : 'N/A',
+          LucideIcons.alertCircle,
+          theme.colorScheme.error,
+        ),
+        _buildStatCard(
+          context,
+          l10n.administrationForm,
+          drug.dosageForm,
+          LucideIcons.pill,
+          Colors.orange,
+        ),
+        _buildStatCard(
+          context,
+          l10n.treatmentDuration,
+          guideline?.duration?.toString() ?? 'As directed',
+          LucideIcons.calendar,
+          Colors.blue,
+        ),
+      ],
+    );
+  }
+
+  Widget _buildStatCard(
+    BuildContext context,
+    String label,
+    String value,
+    IconData icon,
+    Color color,
+  ) {
+    final theme = Theme.of(context);
     final appColors = theme.appColors;
 
-    String strengthDisplay =
-        drug.concentration.isNotEmpty
-            ? drug.concentration
-            : 'Standard Strength';
-
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
         boxShadow: appColors.shadowCard,
         border: Border.all(color: appColors.border.withValues(alpha: 0.5)),
       ),
-      child: Row(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: colorScheme.primary.withValues(alpha: 0.1),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Icon(
-              LucideIcons.droplets,
-              color: colorScheme.primary,
-              size: 24,
-            ),
+          Icon(icon, color: color, size: 20),
+          const SizedBox(height: 4),
+          Text(
+            label,
+            style: TextStyle(fontSize: 11, color: appColors.mutedForeground),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
           ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Strength', // localize later
-                  style: TextStyle(
-                    color: appColors.mutedForeground,
-                    fontSize: 12,
-                  ),
-                ),
-                Text(
-                  strengthDisplay,
-                  style: TextStyle(
-                    color: colorScheme.onSurface,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18,
-                  ),
-                ),
-              ],
+          Text(
+            value,
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
+              color: theme.colorScheme.onSurface,
             ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
           ),
         ],
       ),
     );
   }
-}
 
-class DosageDetailsCard extends StatelessWidget {
-  final DrugEntity drug;
-  final DosageGuidelinesModel? guideline;
-
-  const DosageDetailsCard({required this.drug, this.guideline, super.key});
-
-  @override
-  Widget build(BuildContext context) {
+  Widget _buildIndicationMatrix(
+    BuildContext context,
+    AppLocalizations l10n,
+    List<DosageGuidelinesModel> guidelines,
+  ) {
     final theme = Theme.of(context);
-    final colorScheme = theme.colorScheme;
     final appColors = theme.appColors;
 
-    // Construct Display Values
-    String standardDose;
-    if (guideline != null && guideline!.minDose != null) {
-      // FIX: Do not show range (min-max) if max is likely daily limit.
-      // If min and max are close (e.g. 5-10), it's a range.
-      // If max is much larger (e.g. > 2x min), it's likely daily max.
-      // For safety and clarity, let's just show minDose as "Standard/Single Dose"
-      // and let Max Daily be separate.
-      final freqPart =
-          guideline!.frequency != null ? ' (${guideline!.frequency}x/day)' : '';
-      standardDose = '${guideline!.minDose} mg$freqPart';
-    } else {
-      standardDose = drug.usage.isNotEmpty ? drug.usage : 'Consult your doctor';
-    }
-
-    final maxDose = guideline?.maxDose?.toString();
-
     return Container(
-      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
@@ -163,101 +186,113 @@ class DosageDetailsCard extends StatelessWidget {
       ),
       child: Column(
         children: [
-          // Standard Dose
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(top: 2),
-                child: Icon(
-                  LucideIcons.clock,
-                  size: 20,
-                  color: appColors.mutedForeground,
-                ),
+          // Header
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            decoration: BoxDecoration(
+              color: theme.colorScheme.primary.withValues(alpha: 0.05),
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(16),
+                topRight: Radius.circular(16),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Standard Dose', // Localize
-                      style: TextStyle(
-                        color: appColors.mutedForeground,
-                        fontSize: 12,
-                      ),
-                    ),
-                    const SizedBox(height: 2),
-                    Text(
-                      standardDose,
-                      style: TextStyle(
-                        color: colorScheme.onSurface,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 14,
-                        height: 1.5,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-
-          if (maxDose != null && maxDose.isNotEmpty) ...[
-            const Padding(
-              padding: EdgeInsets.symmetric(vertical: 12),
-              child: Divider(),
             ),
-            // Maximum Daily Dose
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Row(
               children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 2),
-                  child: Icon(
-                    LucideIcons.info,
-                    size: 20,
-                    color: appColors.mutedForeground,
+                Expanded(
+                  flex: 3,
+                  child: Text(
+                    l10n.conditionLabel,
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                      color: theme.colorScheme.primary,
+                    ),
                   ),
                 ),
-                const SizedBox(width: 12),
                 Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Maximum Daily Dose', // Localize
-                        style: TextStyle(
-                          color: appColors.mutedForeground,
-                          fontSize: 12,
-                        ),
-                      ),
-                      const SizedBox(height: 2),
-                      Text(
-                        '$maxDose mg',
-                        style: TextStyle(
-                          color: colorScheme.onSurface,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 14,
-                          height: 1.5,
-                        ),
-                      ),
-                    ],
+                  flex: 2,
+                  child: Text(
+                    l10n.standardDose,
+                    style: TextStyle(
+                      fontSize: 12,
+                      fontWeight: FontWeight.bold,
+                      color: theme.colorScheme.primary,
+                    ),
                   ),
                 ),
               ],
             ),
-          ],
+          ),
+          // Rows
+          ...guidelines.asMap().entries.map((entry) {
+            final index = entry.key;
+            final g = entry.value;
+            final isLast = index == guidelines.length - 1;
+
+            return Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              decoration: BoxDecoration(
+                border:
+                    isLast
+                        ? null
+                        : Border(
+                          bottom: BorderSide(
+                            color: appColors.border.withValues(alpha: 0.5),
+                          ),
+                        ),
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                    flex: 3,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          g.condition ?? 'General',
+                          style: const TextStyle(
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        if (g.isPediatric)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 2),
+                            child: Text(
+                              'Pediatric',
+                              style: TextStyle(
+                                fontSize: 10,
+                                color: theme.colorScheme.secondary,
+                              ),
+                            ),
+                          ),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    flex: 2,
+                    child: Text(
+                      '${g.minDose ?? "-"} mg',
+                      style: const TextStyle(fontSize: 13),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          }),
         ],
       ),
     );
   }
 }
 
+/// A warning widget that displays dosage instructions.
 class InstructionsWarning extends StatelessWidget {
-  final String instructions;
-
+  /// Creates a new [InstructionsWarning] instance.
   const InstructionsWarning({required this.instructions, super.key});
+
+  /// The instructions to display.
+  final String instructions;
 
   @override
   Widget build(BuildContext context) {
@@ -269,7 +304,7 @@ class InstructionsWarning extends StatelessWidget {
       decoration: BoxDecoration(
         color: appColors.warningSoft,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: appColors.warningSoft.withValues(), width: 1),
+        border: Border.all(color: appColors.warningSoft.withValues()),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -283,7 +318,7 @@ class InstructionsWarning extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               Text(
-                'Instructions', // Localize
+                'Instructions', // Localize later
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   color: appColors.warningForeground,

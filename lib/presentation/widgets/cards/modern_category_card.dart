@@ -5,7 +5,7 @@ import '../../../domain/entities/category_entity.dart';
 import '../../theme/app_colors_extension.dart';
 
 /// Modern Category Card matching Quick Tools button styling EXACTLY
-/// Uses BOLD (Filled) custom SVG icons from healthicons.org for body organs
+/// Uses BOLD (Filled) custom SVG icons from healthicons.org or PNGs for body organs
 class ModernCategoryCard extends StatelessWidget {
   final CategoryEntity category;
   final VoidCallback? onTap;
@@ -41,16 +41,7 @@ class ModernCategoryCard extends StatelessWidget {
                 color: mainColor.withValues(alpha: 0.2),
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Center(
-                child: SvgPicture.asset(
-                  iconPath,
-                  width: 22,
-                  height: 22,
-                  colorFilter: ColorFilter.mode(mainColor, BlendMode.srcIn),
-                  // HealthIcons Filled style can sometimes be very dense,
-                  // but BlendMode.srcIn handles the coloring well.
-                ),
-              ),
+              child: Center(child: _buildIcon(iconPath, mainColor)),
             ),
             const SizedBox(height: 8),
             Text(
@@ -73,6 +64,27 @@ class ModernCategoryCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  /// Builds either an SVG or PNG icon based on the file extension
+  Widget _buildIcon(String path, Color color) {
+    if (path.toLowerCase().endsWith('.svg')) {
+      return SvgPicture.asset(
+        path,
+        width: 22,
+        height: 22,
+        colorFilter: ColorFilter.mode(color, BlendMode.srcIn),
+      );
+    } else {
+      // Handles PNG, JPG, etc.
+      return Image.asset(
+        path,
+        width: 22,
+        height: 22,
+        color: color,
+        colorBlendMode: BlendMode.srcIn,
+      );
+    }
   }
 
   Color _getCategoryColor(String categoryId, AppColorsExtension appColors) {

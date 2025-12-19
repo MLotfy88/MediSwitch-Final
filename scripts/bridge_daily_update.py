@@ -48,30 +48,28 @@ def convert_jsonl_to_clean_csv():
         print("⚠️ No records found in scraper output.")
         return False
 
-    # Define minimal clean schema for updates
-    # merge_meds.py needs: id, price, trade_name, arabic_name (for report)
-    # We populate these from the scraper data.
-    
+    # Define the STRICT schema and order to match assets/meds.csv exactly
+    cols = [
+        'id', 'trade_name', 'arabic_name', 'active', 'category', 'company',
+        'price', 'old_price', 'last_price_update', 'units', 'barcode',
+        'qr_code', 'pharmacology', 'usage', 'visits', 'concentration',
+        'dosage_form', 'dosage_form_ar'
+    ]
+
     clean_records = []
     for r in records:
-        clean_records.append({
-            'id': r.get('id'),
-            'trade_name': r.get('trade_name', ''),
-            'arabic_name': r.get('arabic_name', ''),
-            'price': r.get('price', '0'),
-            'old_price': r.get('old_price', ''),
-            'active': r.get('active', ''),
-            'company': r.get('company', ''),
-            'dosage_form': r.get('dosage_form', ''),
-            'usage': r.get('usage', ''),
-            'concentration': r.get('concentration', ''),
-            'barcode': r.get('barcode', ''),
-            'last_price_update': datetime.now().strftime('%Y-%m-%d')
-        })
+        # Map values from scraper JSON keys to CSV columns
+        row = {}
+        for col in cols:
+            val = r.get(col, '')
+            # Special case for last_price_update if missing from source
+            if col == 'last_price_update' and not val:
+                val = datetime.now().strftime('%Y-%m-%d')
+            row[col] = val
+        clean_records.append(row)
 
-    keys = clean_records[0].keys()
     with open(TEMP_CSV, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=keys)
+        writer = csv.DictWriter(f, fieldnames=cols)
         writer.writeheader()
         writer.writerows(clean_records)
         

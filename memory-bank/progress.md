@@ -69,7 +69,11 @@
 - [x] **Interaction & Dosage Tools:**
     - [x] Interaction Checker tool with multi-drug analysis.
     - [x] Dosage Calculator with pediatric formulas and DB guidelines.
+    - [x] **v2.1 Enhancement**: Infographic stats, Indication Matrix, and Safety Timeline.
     - [x] Automated `med_ingredients` bridging for interactions.
+- [x] **Drug Update Workflow Audit:**
+    - [x] Verified 18-column structural integrity of `meds.csv`.
+    - [x] Fixed `bridge_daily_update.py` for field preservation.
 - [x] **Drug Details Improvements:**
     - [x] Smart Alternatives logic via `CategoryMapperHelper`.
     - [x] Accurate "Similars" matching.

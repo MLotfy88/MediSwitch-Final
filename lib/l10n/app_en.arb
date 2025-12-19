@@ -237,6 +237,32 @@
   "recentlyAdded": "Recently Added",
   "backButtonTooltip": "Back",
   "neverUpdated": "Never Updated",
+  "dosageStrength": "Dose Strength",
+  "regularFrequency": "Regular Frequency",
+  "maxDailyDose": "Max Daily Dose",
+  "administrationForm": "How to Use",
+  "treatmentDuration": "Duration",
+  "safetyBuffer": "Safety Ceiling",
+  "everyXHours": "Every {hours} hours",
+  "@everyXHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "standardDosePerIndication": "Dose per Indication",
+  "conditionLabel": "Medical Condition",
+  "expectedDuration": "Expected Duration",
+  "standardDose": "Standard Dose",
+  "timesDaily": "{count} times daily",
+  "@timesDaily": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "@interactionsTab": {
     "description": "Label for the Interactions tab on the drug details page."
   }

@@ -930,16 +930,16 @@ class SqliteLocalDataSource {
       '''
       SELECT m.*, 
         SUM(CASE 
-          WHEN r.severity = 'Contraindicated' THEN 10 
-          WHEN r.severity = 'Severe' THEN 8
-          WHEN r.severity = 'Major' THEN 5
-          WHEN r.severity = 'Moderate' THEN 3
+          WHEN LOWER(r.severity) = 'contraindicated' THEN 10 
+          WHEN LOWER(r.severity) = 'severe' THEN 8
+          WHEN LOWER(r.severity) = 'major' THEN 5
+          WHEN LOWER(r.severity) = 'moderate' THEN 3
           ELSE 1 
         END) as risk_score
       FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
       JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
-      WHERE r.severity IN ('Contraindicated', 'Severe', 'Major')
+      WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
       GROUP BY m.id
       ORDER BY risk_score DESC
       LIMIT ?
@@ -960,7 +960,7 @@ class SqliteLocalDataSource {
     // Just list rules
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.interactionsTable,
-      where: "severity IN ('Contraindicated', 'Severe', 'Major')",
+      where: "LOWER(severity) IN ('contraindicated', 'severe', 'major')",
       limit: limit,
     );
 

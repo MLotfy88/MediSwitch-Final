@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
-import '../../domain/entities/drug_entity.dart';
+
 import '../../domain/entities/dosage_result.dart'; // Import DosageResult
+import '../../domain/entities/drug_entity.dart';
 import '../../domain/services/dosage_calculator_service.dart'; // Import Service
 
 class DoseCalculatorProvider extends ChangeNotifier {
@@ -8,6 +9,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
   DrugEntity? _selectedDrug;
   String _weightInput = '';
   String _ageInput = ''; // Added age input state
+  String _durationInput = '3'; // Default to 3 days
   DosageResult? _dosageResult; // Changed state variable
   bool _isLoading = false;
   String _error = '';
@@ -27,6 +29,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
   DrugEntity? get selectedDrug => _selectedDrug;
   String get weightInput => _weightInput;
   String get ageInput => _ageInput;
+  String get durationInput => _durationInput;
   DosageResult? get dosageResult => _dosageResult;
   bool get showDrugSelectionError => _showDrugSelectionError;
 
@@ -52,6 +55,12 @@ class DoseCalculatorProvider extends ChangeNotifier {
   void setAge(String age) {
     _ageInput = age;
     clearResult(); // Clear result on input change
+    notifyListeners();
+  }
+
+  void setDuration(String duration) {
+    _durationInput = duration;
+    clearResult();
     notifyListeners();
   }
 
@@ -83,6 +92,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
 
     final weightKg = double.tryParse(_weightInput);
     final ageYears = int.tryParse(_ageInput);
+    final durationDays = int.tryParse(_durationInput);
 
     if (weightKg == null || weightKg <= 0) {
       _error = 'الوزن المدخل غير صالح.';
@@ -105,6 +115,7 @@ class DoseCalculatorProvider extends ChangeNotifier {
         _selectedDrug!,
         weightKg,
         ageYears,
+        durationDays: durationDays,
       );
       _error = ''; // Clear error on success
     } catch (e) {
