@@ -145,10 +145,16 @@ class SqliteLocalDataSource {
     try {
       db = await dbHelper.database; // Ensure DB is initialized first
 
-      // --- Seeding Logic (No count check) ---
-      print(
-        'Seeding database from asset ON MAIN THREAD (unconditional attempt)...',
-      );
+      // --- Seeding Logic (Improved) ---
+      final medsExist = await hasMedicines();
+      if (medsExist) {
+        print('Database already has medicines. Skipping initial seeding.');
+        seedingPerformedSuccessfully = true;
+        markSeedingAsComplete();
+        return true;
+      }
+
+      print('Seeding database from asset ON MAIN THREAD (needed)...');
       final stopwatch = Stopwatch()..start();
 
       print('[Main Thread] Loading raw CSV asset...');
@@ -940,7 +946,7 @@ class SqliteLocalDataSource {
         END) as risk_score
       FROM ${DatabaseHelper.medicinesTable} m
       JOIN med_ingredients mi ON m.id = mi.med_id
-      JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} r ON (LOWER(r.ingredient1) = mi.ingredient OR LOWER(r.ingredient2) = mi.ingredient)
       WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
       GROUP BY m.id
       ORDER BY risk_score DESC
@@ -968,10 +974,10 @@ class SqliteLocalDataSource {
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
-        SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT LOWER(ingredient1) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
         UNION ALL
-        SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT LOWER(ingredient2) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
       )
       SELECT 
