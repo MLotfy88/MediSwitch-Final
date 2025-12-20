@@ -942,8 +942,6 @@ class SqliteLocalDataSource {
       JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = LOWER(r.ingredient1) OR mi.ingredient = LOWER(r.ingredient2))
       WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
       LIMIT ?
-      ORDER BY risk_score DESC
-      LIMIT ?
     ''',
       [limit],
     );
