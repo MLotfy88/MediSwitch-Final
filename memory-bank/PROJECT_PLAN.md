@@ -79,7 +79,8 @@
 | UI Design Fixes (Category sizes, Badges, Tabs, Search Bar) | ✅ | Dec 8 |
 | Final Testing & Release Prep | ✅ | Dec 18 |
 | Interaction & Dosage Tools | ✅ | Dec 19 |
-| Drug Update Workflow Audit | ✅ | Dec 19 |
+| Seeding Loop & High Risk Data Fix | ✅ | Dec 19 |
+| Pharmacology UI Integration | ✅ | Dec 19 |
 
 ---
 

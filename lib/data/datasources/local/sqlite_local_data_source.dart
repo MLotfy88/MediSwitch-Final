@@ -936,19 +936,12 @@ class SqliteLocalDataSource {
     // OPTIMIZED QUERY: Check multiple cases instead of LOWER() to use index.
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
-      SELECT m.*, 
-        SUM(CASE 
-          WHEN LOWER(r.severity) = 'contraindicated' THEN 10 
-          WHEN LOWER(r.severity) = 'severe' THEN 8
-          WHEN LOWER(r.severity) = 'major' THEN 5
-          WHEN LOWER(r.severity) = 'moderate' THEN 3
-          ELSE 1 
-        END) as risk_score
-      FROM ${DatabaseHelper.medicinesTable} m
-      JOIN med_ingredients mi ON m.id = mi.med_id
-      JOIN ${DatabaseHelper.interactionsTable} r ON (LOWER(r.ingredient1) = mi.ingredient OR LOWER(r.ingredient2) = mi.ingredient)
+      SELECT DISTINCT d.* 
+      FROM ${DatabaseHelper.medicinesTable} d
+      JOIN med_ingredients mi ON d.id = mi.med_id
+      JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = LOWER(r.ingredient1) OR mi.ingredient = LOWER(r.ingredient2))
       WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
-      GROUP BY m.id
+      LIMIT ?
       ORDER BY risk_score DESC
       LIMIT ?
     ''',
@@ -974,14 +967,14 @@ class SqliteLocalDataSource {
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
-        SELECT LOWER(ingredient1) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
         UNION ALL
-        SELECT LOWER(ingredient2) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
       )
       SELECT 
-        ingredient as name,
+        LOWER(ingredient) as name,
         COUNT(*) as totalInteractions,
         SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe') THEN 1 ELSE 0 END) as severeCount,
         SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate') THEN 1 ELSE 0 END) as moderateCount,
@@ -994,7 +987,7 @@ class SqliteLocalDataSource {
           ELSE 1 
         END) as dangerScore
       FROM AffectedIngredients
-      GROUP BY ingredient
+      GROUP BY LOWER(ingredient)
       ORDER BY dangerScore DESC
       LIMIT ?
       ''',
