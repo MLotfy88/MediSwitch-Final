@@ -251,12 +251,41 @@ class SqliteLocalDataSource {
           'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
         ),
       );
+      print(
+        '[Main Thread] Food Interactions count in DB: $foodInteractionsCount',
+      );
+
       if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-        print('[Main Thread] Food Interactions table is empty. Seeding...');
+        print('[Main Thread] Food Interactions table is EMPTY. Seeding NOW...');
         await _seedFoodInteractions(db);
+
+        // Verify seeding succeeded
+        final newCount = Sqflite.firstIntValue(
+          await db.rawQuery(
+            'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+          ),
+        );
+        print(
+          '[Main Thread] After seeding, food_interactions count: $newCount',
+        );
+
+        // Sample a few records to verify
+        final sample = await db.rawQuery(
+          'SELECT trade_name FROM ${DatabaseHelper.foodInteractionsTable} LIMIT 3',
+        );
+        print(
+          '[Main Thread] Sample food interaction drugs: ${sample.map((r) => r['trade_name']).join(", ")}',
+        );
       } else {
         print(
           '[Main Thread] Food Interactions already exist ($foodInteractionsCount records).',
+        );
+        // Sample existing data
+        final sample = await db.rawQuery(
+          'SELECT trade_name FROM ${DatabaseHelper.foodInteractionsTable} LIMIT 3',
+        );
+        print(
+          '[Main Thread] Sample existing food interaction drugs: ${sample.map((r) => r['trade_name']).join(", ")}',
         );
       }
 
