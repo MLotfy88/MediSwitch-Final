@@ -94,3 +94,16 @@ production_data/*.json
 production_data/dailymed_full_database.jsonl
 production_data/production_dosages.jsonl
 production_data/production_hybrid.jsonl
+
+# DrugBank Data (too large for git)
+DrugBank_Organized_Data/
+d1_import.sql
+d1_import_replace.sql
+d1_food_interactions.sql
+d1_chunks*/
+scripts/drugbank_integration/output/
+
+# Temp files
+upload_progress.log
+d1_upload_final.log
+d1_replace_upload.log
