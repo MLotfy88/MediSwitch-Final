@@ -561,6 +561,7 @@ class MedicineProvider extends ChangeNotifier {
         _highRiskIngredients = ingredients;
       },
     );
+    notifyListeners(); // ✅ تحديث الواجهة
   }
 
   Future<void> _loadHighRiskDrugs() async {

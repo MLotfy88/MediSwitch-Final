@@ -29,6 +29,20 @@ class _HistoryScreenState extends State<HistoryScreen> {
   void initState() {
     super.initState();
     _loadRecentlyViewedFromProvider();
+    // ✅ الاستماع للتحديثات
+    context.read<MedicineProvider>().addListener(_onProviderUpdate);
+  }
+
+  @override
+  void dispose() {
+    context.read<MedicineProvider>().removeListener(_onProviderUpdate);
+    super.dispose();
+  }
+
+  void _onProviderUpdate() {
+    if (mounted) {
+      _loadRecentlyViewedFromProvider();
+    }
   }
 
   void _loadRecentlyViewedFromProvider() {
