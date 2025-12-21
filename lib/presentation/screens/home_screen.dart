@@ -21,7 +21,6 @@ import 'package:mediswitch/presentation/widgets/app_header.dart';
 import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_category_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
-import 'package:mediswitch/presentation/widgets/high_risk_ingredient_card.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 import 'package:mediswitch/presentation/widgets/section_header.dart';
@@ -387,35 +386,28 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 180, // Height for HighRiskIngredientCard (Increased)
+            height: 200, // Height for ModernDrugCard
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,
               itemCount:
-                  medicineProvider.highRiskIngredients.isNotEmpty
-                      ? medicineProvider.highRiskIngredients.length
+                  medicineProvider.highRiskDrugs.isNotEmpty
+                      ? medicineProvider.highRiskDrugs.length
                       : 0,
               separatorBuilder: (_, __) => const SizedBox(width: 12),
               itemBuilder: (context, index) {
-                if (medicineProvider.highRiskIngredients.isEmpty) {
+                if (medicineProvider.highRiskDrugs.isEmpty) {
                   return const SizedBox.shrink();
                 }
-                final ingredient = medicineProvider.highRiskIngredients[index];
+                final drug = medicineProvider.highRiskDrugs[index];
 
-                return HighRiskIngredientCard(
-                  ingredient: ingredient,
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder:
-                            (_) => IngredientInteractionsScreen(
-                              ingredient: ingredient,
-                            ),
-                      ),
-                    );
-                  },
-                ).animate().slideX(delay: (50 * index).ms);
+                return SizedBox(
+                  width: 280,
+                  child: ModernDrugCard(
+                    drug: drug,
+                    onTap: () => _navigateToDetails(context, drug),
+                  ).animate().slideX(delay: (50 * index).ms),
+                );
               },
             ),
           ),
@@ -434,7 +426,38 @@ class _HomeScreenState extends State<HomeScreen> {
                 icon: LucideIcons.apple, // Using Apple icon for food
                 iconColor: appColors.warningSoft,
                 iconTintColor: appColors.warningForeground,
-                // Optional: onSeeAll
+                onSeeAll: () {
+                  // Navigate to a filtered list of all drugs with food interactions
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder:
+                          (_) => Scaffold(
+                            appBar: AppBar(
+                              title: Text(l10n.foodInteractionsTitle),
+                            ),
+                            body: ListView.builder(
+                              padding: const EdgeInsets.all(16),
+                              itemCount:
+                                  medicineProvider.foodInteractionDrugs.length,
+                              itemBuilder: (context, index) {
+                                final drug =
+                                    medicineProvider
+                                        .foodInteractionDrugs[index];
+                                return Padding(
+                                  padding: const EdgeInsets.only(bottom: 12),
+                                  child: ModernDrugCard(
+                                    drug: drug,
+                                    onTap:
+                                        () => _navigateToDetails(context, drug),
+                                  ),
+                                );
+                              },
+                            ),
+                          ),
+                    ),
+                  );
+                },
               );
             },
           ),

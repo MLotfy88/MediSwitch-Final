@@ -969,17 +969,22 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Get distinct med_ids that have food interactions
+    // Get distinct drugs that have food interactions
+    // Use trade_name for matching since that's the reliable key
     final List<Map<String, dynamic>> results = await db.rawQuery(
       '''
       SELECT DISTINCT d.* 
       FROM ${DatabaseHelper.medicinesTable} d
-      JOIN ${DatabaseHelper.foodInteractionsTable} f ON d.id = f.med_id
+      JOIN ${DatabaseHelper.foodInteractionsTable} f 
+      ON LOWER(d.${DatabaseHelper.colTradeName}) = LOWER(f.trade_name)
       LIMIT ?
     ''',
       [limit],
     );
 
+    print(
+      '[getDrugsWithFoodInteractions] Found ${results.length} drugs with food interactions',
+    );
     return List.generate(results.length, (i) {
       return MedicineModel.fromMap(results[i]);
     });
