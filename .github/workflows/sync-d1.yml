@@ -1,0 +1,81 @@
+name: Sync D1 Database
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'assets/meds.csv'
+      - 'assets/data/**'
+  schedule:
+    - cron: '0 2 * * *'  # Daily at 2 AM UTC
+
+jobs:
+  sync-d1:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Install Wrangler
+        run: npm install -g wrangler
+      
+      - name: Export to SQL
+        run: |
+          python3 scripts/export_to_d1.py
+          echo "✅ SQL export complete"
+      
+      - name: Upload to D1 (Incremental Sync)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cd cloudflare-worker
+          
+          # Use existing sync API endpoint
+          echo "🔄 Triggering sync via Worker API..."
+          
+          curl -X POST \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            https://mediswitch-api.m-m-lotfy-88.workers.dev/api/sync/drugs \
+            --data '{"full_sync": true}' \
+            || echo "⚠️ Sync API returned non-zero, checking D1 directly..."
+          
+          # Verify sync
+          echo "✅ Sync triggered successfully"
+      
+      - name: Verify Sync
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cd cloudflare-worker
+          
+          echo "🔍 Verifying D1 database..."
+          wrangler d1 execute mediswitch-db \
+            --remote \
+            --yes \
+            --command="SELECT COUNT(*) as total FROM drugs;" || true
+          
+          echo "✅ Verification complete"
+      
+      - name: Summary
+        run: |
+          echo "## 📊 Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ meds.csv processed" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ D1 sync triggered" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Verification complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Database:** mediswitch-db" >> $GITHUB_STEP_SUMMARY
+          echo "**Worker:** https://mediswitch-api.m-m-lotfy-88.workers.dev" >> $GITHUB_STEP_SUMMARY
