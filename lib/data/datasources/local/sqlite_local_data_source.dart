@@ -839,6 +839,7 @@ class SqliteLocalDataSource {
   }
 
   Future<void> seedDatabaseFromAssetIfNeeded() async {
+    print("[CRITICAL DEBUG] ==== seedDatabaseFromAssetIfNeeded() CALLED ====");
     bool medsExist = await hasMedicines();
     bool interactionsExist = await hasInteractions();
 

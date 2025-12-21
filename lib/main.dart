@@ -95,6 +95,33 @@ Future<void> main() async {
       final localDataSource = locator<SqliteLocalDataSource>();
       await localDataSource.seedDatabaseFromAssetIfNeeded();
       logger.i("main: Database seeding check complete.");
+
+      // CRITICAL: Force check food_interactions table for existing users
+      logger.i("main: [CRITICAL] Checking food_interactions table...");
+      try {
+        final dbHelper = locator<DatabaseHelper>();
+        final db = await dbHelper.database;
+        final result = await db.rawQuery(
+          'SELECT COUNT(*) as count FROM food_interactions',
+        );
+        final count = result.first['count'] as int?;
+        logger.i("main: Food interactions in DB: $count");
+
+        if (count == null || count == 0) {
+          logger.i("main: [CRITICAL] Food interactions EMPTY! Seeding NOW...");
+          await localDataSource.seedFoodInteractionsIfNeeded();
+
+          final newResult = await db.rawQuery(
+            'SELECT COUNT(*) as count FROM food_interactions',
+          );
+          final newCount = newResult.first['count'] as int?;
+          logger.i("main: After forced seeding: $newCount food interactions");
+        } else {
+          logger.i("main: Food interactions OK: $count records");
+        }
+      } catch (e, s) {
+        logger.e("main: ERROR checking/seeding food_interactions", e, s);
+      }
     } catch (e, s) {
       logger.e("main: Error during post-locator seeding", e, s);
     }
