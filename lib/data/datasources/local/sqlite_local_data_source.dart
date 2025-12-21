@@ -844,11 +844,46 @@ class SqliteLocalDataSource {
 
     if (!medsExist || !interactionsExist) {
       print(
-        "Missing data (Meds: $medsExist, Interactions: $interactionsExist). Triggering Seeding...",
+        "Missing data (Meds: $medsExist, Interactions: $interactionsExist). Triggering FULL Seeding...",
       );
       await performInitialSeeding();
     } else {
-      print("Database already seeded. Skipping initial seeding.");
+      print("Database already seeded. Checking food_interactions...");
+
+      // CRITICAL: Even if main seeding is done, check food_interactions
+      // This ensures existing users get food_interactions table populated
+      final db = await dbHelper.database;
+      final foodInteractionsCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+        ),
+      );
+
+      print(
+        '[seedDatabaseFromAssetIfNeeded] Food interactions count: $foodInteractionsCount',
+      );
+
+      if (foodInteractionsCount == null || foodInteractionsCount == 0) {
+        print(
+          '[seedDatabaseFromAssetIfNeeded] Food interactions table is EMPTY! Seeding NOW...',
+        );
+        await _seedFoodInteractions(db);
+
+        // Verify
+        final newCount = Sqflite.firstIntValue(
+          await db.rawQuery(
+            'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+          ),
+        );
+        print(
+          '[seedDatabaseFromAssetIfNeeded] After seeding: $newCount food interactions',
+        );
+      } else {
+        print(
+          '[seedDatabaseFromAssetIfNeeded] Food interactions already exist: $foodInteractionsCount',
+        );
+      }
+
       markSeedingAsComplete();
     }
   }
