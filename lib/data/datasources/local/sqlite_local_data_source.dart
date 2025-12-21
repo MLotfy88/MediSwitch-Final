@@ -146,105 +146,119 @@ class SqliteLocalDataSource {
       db = await dbHelper.database; // Ensure DB is initialized first
 
       // --- Seeding Logic (Improved) ---
-      final medsExist = await hasMedicines();
-      if (medsExist) {
-        print('Database already has medicines. Skipping initial seeding.');
-        seedingPerformedSuccessfully = true;
-        markSeedingAsComplete();
-        return true;
-      }
-
       print('Seeding database from asset ON MAIN THREAD (needed)...');
       final stopwatch = Stopwatch()..start();
 
-      print('[Main Thread] Loading raw CSV asset...');
-      final rawCsv = await rootBundle.loadString('assets/meds.csv');
-      print('[Main Thread] Raw CSV loaded.');
+      final medsExist = await hasMedicines();
+      if (!medsExist) {
+        // Only seed medicines if they don't exist
+        print('No medicines found. Starting full seeding...');
 
-      print('[Main Thread] Parsing CSV (in background isolate)...');
-      // Use compute to unblock UI thread
-      final List<MedicineModel> medicines = await compute(
-        _parseCsvData,
-        rawCsv,
-      );
-      print('[Main Thread] Parsed ${medicines.length} medicines.');
+        print('[Main Thread] Loading raw CSV asset...');
+        final rawCsv = await rootBundle.loadString('assets/meds.csv');
+        print('[Main Thread] Raw CSV loaded.');
 
-      if (medicines.isEmpty) {
-        print(
-          '[Main Thread] WARNING: Parsed medicine list is empty. Check CSV.',
+        print('[Main Thread] Parsing CSV (in background isolate)...');
+        // Use compute to unblock UI thread
+        final List<MedicineModel> medicines = await compute(
+          _parseCsvData,
+          rawCsv,
         );
-        // Still complete normally, but log warning. Might need error handling?
-      } else {
-        print('[Main Thread] Starting batch insert...');
-        final batch = db.batch();
-        // Also clear invalid ingredients if necessary, but this is initial seeding
-        // db.delete('med_ingredients');
+        print('[Main Thread] Parsed ${medicines.length} medicines.');
 
-        for (final medicine in medicines) {
-          batch.insert(
-            DatabaseHelper.medicinesTable,
-            medicine.toMap(),
-            conflictAlgorithm: ConflictAlgorithm.replace,
+        if (medicines.isEmpty) {
+          print(
+            '[Main Thread] WARNING: Parsed medicine list is empty. Check CSV.',
           );
+          // Still complete normally, but log warning. Might need error handling?
+        } else {
+          print('[Main Thread] Starting batch insert...');
+          final batch = db.batch();
+          // Also clear invalid ingredients if necessary, but this is initial seeding
+          // db.delete('med_ingredients');
 
-          // Populate ingredients if ID exists (Dynamic Linking)
-          if (medicine.id != null && medicine.active.isNotEmpty) {
-            final ingredients = _parseIngredients(medicine.active);
-            for (final ing in ingredients) {
-              batch.insert('med_ingredients', {
-                'med_id': medicine.id,
-                'ingredient': ing,
-              }, conflictAlgorithm: ConflictAlgorithm.replace);
-            }
-          }
-        }
-        await batch.commit(noResult: true);
-        print('[Main Thread] Batch insert completed.');
-      }
-
-      // --- Seeding Dosage Guidelines ---
-      print('[Main Thread] Seeding Dosage Guidelines...');
-      try {
-        final dosageJson = await rootBundle.loadString(
-          'assets/data/dosage_guidelines.json',
-        );
-        final List<dynamic> dosageList =
-            json.decode(dosageJson) as List<dynamic>;
-
-        if (dosageList.isNotEmpty) {
-          final batchDosage = db.batch();
-          // Clear existing first if needed? Or just replace. Replace is safer.
-          // However, if we do incremental updates, we might want to check.
-          // For initial seeding, let's assume clear or replace.
-          // Since we don't have a clearDosages method yet, let's just insert with replace.
-
-          for (final item in dosageList) {
-            final model = DosageGuidelinesModel.fromJson(
-              item as Map<String, dynamic>,
-            );
-            batchDosage.insert(
-              'dosage_guidelines',
-              model.toMap(),
+          for (final medicine in medicines) {
+            batch.insert(
+              DatabaseHelper.medicinesTable,
+              medicine.toMap(),
               conflictAlgorithm: ConflictAlgorithm.replace,
             );
+
+            // Populate ingredients if ID exists (Dynamic Linking)
+            if (medicine.id != null && medicine.active.isNotEmpty) {
+              final ingredients = _parseIngredients(medicine.active);
+              for (final ing in ingredients) {
+                batch.insert('med_ingredients', {
+                  'med_id': medicine.id,
+                  'ingredient': ing,
+                }, conflictAlgorithm: ConflictAlgorithm.replace);
+              }
+            }
           }
-          await batchDosage.commit(noResult: true);
-          print(
-            '[Main Thread] Dosage Guidelines seeded: ${dosageList.length} items.',
-          );
+          await batch.commit(noResult: true);
+          print('[Main Thread] Batch insert completed.');
         }
-      } catch (e) {
-        print('[Main Thread] ⚠️ Warning: Failed to seed dosage guidelines: $e');
-        // Don't fail the whole seeding process if just this part fails (e.g. file missing)
+
+        // --- Seeding Dosage Guidelines ---
+        print('[Main Thread] Seeding Dosage Guidelines...');
+        try {
+          final dosageJson = await rootBundle.loadString(
+            'assets/data/dosage_guidelines.json',
+          );
+          final List<dynamic> dosageList =
+              json.decode(dosageJson) as List<dynamic>;
+
+          if (dosageList.isNotEmpty) {
+            final batchDosage = db.batch();
+            // Clear existing first if needed? Or just replace. Replace is safer.
+            // However, if we do incremental updates, we might want to check.
+            // For initial seeding, let's assume clear or replace.
+            // Since we don't have a clearDosages method yet, let's just insert with replace.
+
+            for (final item in dosageList) {
+              final model = DosageGuidelinesModel.fromJson(
+                item as Map<String, dynamic>,
+              );
+              batchDosage.insert(
+                'dosage_guidelines',
+                model.toMap(),
+                conflictAlgorithm: ConflictAlgorithm.replace,
+              );
+            }
+            await batchDosage.commit(noResult: true);
+            print(
+              '[Main Thread] Dosage Guidelines seeded: ${dosageList.length} items.',
+            );
+          }
+        } catch (e) {
+          print(
+            '[Main Thread] ⚠️ Warning: Failed to seed dosage guidelines: $e',
+          );
+          // Don't fail the whole seeding process if just this part fails (e.g. file missing)
+        }
+
+        // --- Seeding Interactions (Relational) ---
+        print('[Main Thread] Seeding Relational Interactions...');
+        await _seedRelationalInteractions(db);
+      } else {
+        print('Medicines already exist. Skipping medicine seeding.');
       }
 
-      // --- Seeding Interactions (Relational) ---
-      print('[Main Thread] Seeding Relational Interactions...');
-      await _seedRelationalInteractions(db);
-
-      // --- Seeding Food Interactions ---
-      print('[Main Thread] Seeding Food Interactions...');
-      await _seedFoodInteractions(db);
+      // --- Always check and seed Food Interactions if empty ---
+      print('[Main Thread] Checking Food Interactions...');
+      final foodInteractionsCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+        ),
+      );
+      if (foodInteractionsCount == null || foodInteractionsCount == 0) {
+        print('[Main Thread] Food Interactions table is empty. Seeding...');
+        await _seedFoodInteractions(db);
+      } else {
+        print(
+          '[Main Thread] Food Interactions already exist ($foodInteractionsCount records).',
+        );
+      }
 
       final prefs = await _prefs;
       // When we download a FULL updated CSV, we update the timestamp to NOW (or server time if available).

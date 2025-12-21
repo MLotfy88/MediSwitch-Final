@@ -96,7 +96,11 @@ class DatabaseHelper {
 
     if (oldVersion < 8) {
       debugPrint('Upgrading to Version 8: Adding food_interactions table...');
+      // Drop and recreate to ensure clean state
+      await db.execute('DROP TABLE IF EXISTS $foodInteractionsTable');
       await _onCreateFoodInteractions(db);
+      // Set flag to trigger seeding after upgrade
+      debugPrint('Food interactions table created. Seeding will be triggered.');
     }
   }
 
