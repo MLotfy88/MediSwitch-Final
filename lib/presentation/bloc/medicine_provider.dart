@@ -54,6 +54,7 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
   List<DrugEntity> _highRiskDrugs = [];
+  List<DrugEntity> _foodInteractionDrugs = []; // New list for Food Interactions
   List<HighRiskIngredient> _highRiskIngredients = [];
   final List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
@@ -91,6 +92,7 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
+  List<DrugEntity> get foodInteractionDrugs => _foodInteractionDrugs;
   List<HighRiskIngredient> get highRiskIngredients => _highRiskIngredients;
   List<DrugEntity> get favorites => _favorites;
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
@@ -173,6 +175,7 @@ class MedicineProvider extends ChangeNotifier {
       _recentlyUpdatedDrugs = [];
       _popularDrugs = [];
       _highRiskDrugs = [];
+      _foodInteractionDrugs = [];
       _highRiskIngredients = [];
     }
 
@@ -215,6 +218,7 @@ class MedicineProvider extends ChangeNotifier {
       _loadCategories(forceLocal: true),
       _loadHighRiskIngredients(),
       _loadHighRiskDrugs(),
+      _loadFoodInteractionDrugs(),
       _loadHomeRecentlyUpdatedDrugs(),
     ]);
 
@@ -580,6 +584,24 @@ class MedicineProvider extends ChangeNotifier {
         _highRiskDrugs = drugs;
       },
     );
+    notifyListeners();
+  }
+
+  Future<void> _loadFoodInteractionDrugs() async {
+    _logger.d("MedicineProvider: Loading food interaction drugs...");
+    try {
+      final repo = locator<InteractionRepository>();
+      // Use repository directly as we haven't created a specific UseCase wrapper yet
+      // This is acceptable for pragmatic specific data loading
+      final drugs = await repo.getDrugsWithFoodInteractions(10);
+      _foodInteractionDrugs = drugs;
+      _logger.i(
+        "MedicineProvider: Loaded ${_foodInteractionDrugs.length} food interaction drugs.",
+      );
+    } catch (e) {
+      _logger.e("MedicineProvider: Failed to load food interaction drugs: $e");
+      _foodInteractionDrugs = [];
+    }
     notifyListeners();
   }
 

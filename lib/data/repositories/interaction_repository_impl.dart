@@ -386,4 +386,25 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
     return false;
   }
+
+  @override
+  Future<List<String>> getFoodInteractions(int medId) async {
+    try {
+      return await localDataSource.getFoodInteractionsForDrug(medId);
+    } catch (e) {
+      debugPrint('Error getting food interactions: $e');
+      return [];
+    }
+  }
+
+  @override
+  Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit) async {
+    try {
+      final models = await localDataSource.getDrugsWithFoodInteractions(limit);
+      return List<DrugEntity>.from(models);
+    } catch (e) {
+      debugPrint('Error getting drugs with food interactions: $e');
+      return [];
+    }
+  }
 }

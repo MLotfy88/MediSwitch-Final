@@ -102,6 +102,9 @@ d1_import_replace.sql
 d1_food_interactions.sql
 d1_chunks*/
 scripts/drugbank_integration/output/
+/home/adminlotfy/project/d1_clean_chunks
+/home/adminlotfy/project/d1_final_chunks
+
 
 # Temp files
 upload_progress.log

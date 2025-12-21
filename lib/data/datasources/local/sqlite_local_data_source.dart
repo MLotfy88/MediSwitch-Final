@@ -242,6 +242,10 @@ class SqliteLocalDataSource {
       print('[Main Thread] Seeding Relational Interactions...');
       await _seedRelationalInteractions(db);
 
+      // --- Seeding Food Interactions ---
+      print('[Main Thread] Seeding Food Interactions...');
+      await _seedFoodInteractions(db);
+
       final prefs = await _prefs;
       // When we download a FULL updated CSV, we update the timestamp to NOW (or server time if available).
       // Here we use now() as a fallback for the "current version" of the data we just got.
@@ -432,6 +436,45 @@ class SqliteLocalDataSource {
         '[INTERACTION SEEDING] ⚠️⚠️⚠️ CRITICAL ERROR seeding relational interactions: $e',
       );
       print('[INTERACTION SEEDING] Stack trace: $stackTrace');
+    }
+  }
+
+  Future<void> _seedFoodInteractions(Database db) async {
+    try {
+      print('[FOOD INTERACTION SEEDING] Starting food interaction seeding...');
+      final jsonString = await rootBundle.loadString(
+        'assets/data/food_interactions.json',
+      );
+      final List<dynamic> interactions =
+          json.decode(jsonString) as List<dynamic>;
+
+      if (interactions.isNotEmpty) {
+        final batch = db.batch();
+        // Assuming partial updates isn't a thing for initial seeding, can replace.
+        // But table might be empty.
+
+        for (final item in interactions) {
+          batch.insert(
+            DatabaseHelper.foodInteractionsTable,
+            {
+              'med_id': item['med_id'],
+              'trade_name': item['trade_name'],
+              'interaction': item['interaction'],
+              'source': item['source'],
+            },
+            conflictAlgorithm: ConflictAlgorithm.replace,
+          );
+        }
+        await batch.commit(noResult: true);
+        print(
+          '[FOOD INTERACTION SEEDING] ✅ Seeded ${interactions.length} food interactions.',
+        );
+      }
+    } catch (e, stackTrace) {
+      print(
+        '[FOOD INTERACTION SEEDING] ⚠️ CRITICAL ERROR seeding food interactions: $e',
+      );
+      print(stackTrace);
     }
   }
 
@@ -636,7 +679,38 @@ class SqliteLocalDataSource {
     }
 
     print("Found ${categoryCounts.length} categories with counts.");
+    print("Found ${categoryCounts.length} categories with counts.");
     return categoryCounts;
+  }
+
+  Future<Map<String, int>> getDashboardStatistics() async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final drugCount = Sqflite.firstIntValue(
+      await db.rawQuery(
+        'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
+      ),
+    );
+    final pharmCount = Sqflite.firstIntValue(
+      await db.rawQuery(
+        "SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable} WHERE ${DatabaseHelper.colPharmacology} IS NOT NULL AND ${DatabaseHelper.colPharmacology} != ''",
+      ),
+    );
+    final foodCount = Sqflite.firstIntValue(
+      await db.rawQuery(
+        'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+      ),
+    );
+    final dosageCount = Sqflite.firstIntValue(
+      await db.rawQuery('SELECT COUNT(*) FROM dosage_guidelines'),
+    );
+
+    return {
+      'drugs': drugCount ?? 0,
+      'pharmacology': pharmCount ?? 0,
+      'food_interactions': foodCount ?? 0,
+      'dosage_guidelines': dosageCount ?? 0,
+    };
   }
 
   Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
@@ -862,6 +936,38 @@ class SqliteLocalDataSource {
 
     return List.generate(maps.length, (i) {
       return DosageGuidelinesModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<List<String>> getFoodInteractionsForDrug(int medId) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.foodInteractionsTable,
+      columns: ['interaction'],
+      where: 'med_id = ?',
+      whereArgs: [medId],
+    );
+
+    return maps.map((e) => e['interaction'] as String).toList();
+  }
+
+  Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    // Get distinct med_ids that have food interactions
+    final List<Map<String, dynamic>> results = await db.rawQuery(
+      '''
+      SELECT DISTINCT d.* 
+      FROM ${DatabaseHelper.medicinesTable} d
+      JOIN ${DatabaseHelper.foodInteractionsTable} f ON d.id = f.med_id
+      LIMIT ?
+    ''',
+      [limit],
+    );
+
+    return List.generate(results.length, (i) {
+      return MedicineModel.fromMap(results[i]);
     });
   }
 

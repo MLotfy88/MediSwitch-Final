@@ -16,6 +16,11 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
   final Color warningForeground;
   final Color infoForeground;
 
+  final Color danger;
+  final Color success;
+  final Color warning;
+  final Color info;
+
   // Shadows
   final List<BoxShadow> shadowSm;
   final List<BoxShadow> shadowMd;
@@ -35,6 +40,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     required this.successForeground,
     required this.warningForeground,
     required this.infoForeground,
+    required this.danger,
+    required this.success,
+    required this.warning,
+    required this.info,
     required this.shadowSm,
     required this.shadowMd,
     required this.shadowLg,
@@ -55,6 +64,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     Color? successForeground,
     Color? warningForeground,
     Color? infoForeground,
+    Color? danger,
+    Color? success,
+    Color? warning,
+    Color? info,
     List<BoxShadow>? shadowSm,
     List<BoxShadow>? shadowMd,
     List<BoxShadow>? shadowLg,
@@ -73,6 +86,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       successForeground: successForeground ?? this.successForeground,
       warningForeground: warningForeground ?? this.warningForeground,
       infoForeground: infoForeground ?? this.infoForeground,
+      danger: danger ?? this.danger,
+      success: success ?? this.success,
+      warning: warning ?? this.warning,
+      info: info ?? this.info,
       shadowSm: shadowSm ?? this.shadowSm,
       shadowMd: shadowMd ?? this.shadowMd,
       shadowLg: shadowLg ?? this.shadowLg,
@@ -104,6 +121,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
       warningForeground:
           Color.lerp(warningForeground, other.warningForeground, t)!,
       infoForeground: Color.lerp(infoForeground, other.infoForeground, t)!,
+      danger: Color.lerp(danger, other.danger, t)!,
+      success: Color.lerp(success, other.success, t)!,
+      warning: Color.lerp(warning, other.warning, t)!,
+      info: Color.lerp(info, other.info, t)!,
       shadowSm: BoxShadow.lerpList(shadowSm, other.shadowSm, t)!,
       shadowMd: BoxShadow.lerpList(shadowMd, other.shadowMd, t)!,
       shadowLg: BoxShadow.lerpList(shadowLg, other.shadowLg, t)!,
@@ -113,10 +134,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
 
   // Light theme colors & Shadows
   static const light = AppColorsExtension(
-    dangerSoft: Color(0xFFFECACA), // Red-200 : Very visible soft red
-    successSoft: Color(0xFFBBF7D0), // Green-200 : Very visible soft green
-    warningSoft: Color(0xFFFDE68A), // Amber-200 : Very visible soft amber
-    infoSoft: Color(0xFFBFDBFE), // Blue-200 : Very visible soft blue
+    dangerSoft: Color(0xFFFECACA), // Red-200
+    successSoft: Color(0xFFBBF7D0), // Green-200
+    warningSoft: Color(0xFFFDE68A), // Amber-200
+    infoSoft: Color(0xFFBFDBFE), // Blue-200
     accent: Color(0xFFEFF6FF), // Approximate light accent
     muted: Color(0xFFEBEEF1), // hsl(210, 15%, 93%)
     border: Color(0xFFE3E8EC), // hsl(210, 20%, 90%)
@@ -125,6 +146,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     successForeground: Color(0xFF16A34A),
     warningForeground: Color(0xFFEA580C),
     infoForeground: Color(0xFF2563EB),
+    danger: Color(0xFFDC2626), // Red-600
+    success: Color(0xFF16A34A), // Green-600
+    warning: Color(0xFFD97706), // Amber-600
+    info: Color(0xFF2563EB), // Blue-600
     shadowSm: [
       BoxShadow(
         color: Color(0x0A0F172A), // hsl(215 25% 15% / 0.04)
@@ -178,6 +203,10 @@ class AppColorsExtension extends ThemeExtension<AppColorsExtension> {
     successForeground: Color(0xFF22C55E),
     warningForeground: Color(0xFFF97316),
     infoForeground: Color(0xFF3B82F6),
+    danger: Color(0xFFEF4444), // Red-500
+    success: Color(0xFF22C55E), // Green-500
+    warning: Color(0xFFF59E0B), // Amber-500
+    info: Color(0xFF3B82F6), // Blue-500
     shadowSm: [
       BoxShadow(
         color: Color(0x33000000), // hsl(0 0% 0% / 0.2)

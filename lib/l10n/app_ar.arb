@@ -265,5 +265,7 @@
   },
   "@interactionsTab": {
     "description": "تسمية تبويب التفاعلات في صفحة تفاصيل الدواء."
-  }
+  },
+  "foodInteractionsTitle": "تفاعلات غذائية",
+  "foodInteractionsSubtitle": "أدوية تتطلب حذر غذائي"
 }

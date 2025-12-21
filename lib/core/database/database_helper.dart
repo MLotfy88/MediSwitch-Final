@@ -17,10 +17,11 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 7; // Bumping version for pharmacology column
+  static const int _dbVersion = 8; // Bumping version for food interactions
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
+  static const String foodInteractionsTable = 'food_interactions';
 
   // --- Column Names ---
   static const String colId = 'id';
@@ -80,6 +81,7 @@ class DatabaseHelper {
       await db.execute('DROP TABLE IF EXISTS interaction_rules'); // Old name
       await db.execute('DROP TABLE IF EXISTS drug_interactions'); // New name
       await db.execute('DROP TABLE IF EXISTS med_ingredients');
+      await db.execute('DROP TABLE IF EXISTS $foodInteractionsTable');
       await _onCreate(db, newVersion);
       return;
     }
@@ -90,6 +92,11 @@ class DatabaseHelper {
       );
       await db.execute('DROP TABLE IF EXISTS $medicinesTable');
       await _onCreate(db, newVersion);
+    }
+
+    if (oldVersion < 8) {
+      debugPrint('Upgrading to Version 8: Adding food_interactions table...');
+      await _onCreateFoodInteractions(db);
     }
   }
 
@@ -148,6 +155,9 @@ class DatabaseHelper {
 
     // Create Drug Interactions Table (New Schema)
     await _onCreateInteractions(db);
+
+    // Create Food Interactions Table
+    await _onCreateFoodInteractions(db);
 
     debugPrint('Database tables and indices created.');
   }
@@ -217,6 +227,23 @@ class DatabaseHelper {
     );
 
     debugPrint('Relational interaction tables created');
+  }
+
+  Future<void> _onCreateFoodInteractions(Database db) async {
+    debugPrint('Creating $foodInteractionsTable table...');
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS $foodInteractionsTable (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        med_id INTEGER,
+        trade_name TEXT,
+        interaction TEXT,
+        source TEXT
+      )
+    ''');
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_food_med_id ON $foodInteractionsTable(med_id)',
+    );
+    debugPrint('$foodInteractionsTable table created');
   }
 
   // --- Basic CRUD Operations ---

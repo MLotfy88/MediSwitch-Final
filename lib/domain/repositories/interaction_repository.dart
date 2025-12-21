@@ -58,4 +58,10 @@ abstract class InteractionRepository {
 
   /// Synchronize dosage guidelines with remote server
   Future<Either<Failure, int>> syncDosages(int lastTimestamp);
+
+  /// Get food interactions for a specific drug
+  Future<List<String>> getFoodInteractions(int medId);
+
+  /// Get drugs that have known food interactions (for Home Screen)
+  Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit);
 }

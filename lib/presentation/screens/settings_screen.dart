@@ -10,6 +10,7 @@ import '../../core/services/file_logger_service.dart';
 import '../bloc/medicine_provider.dart';
 import '../bloc/settings_provider.dart';
 import '../widgets/settings_list_tile.dart';
+import 'admin/dashboard_screen.dart';
 import 'debug/log_viewer_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -468,6 +469,30 @@ class SettingsScreen extends StatelessWidget {
                       title: l10n.appVersionTitle,
                       subtitle: '1.0.0',
                       leadingIcon: LucideIcons.tag,
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 24),
+
+                // 7. Administration Section (New)
+                _buildSectionTitle(
+                  context,
+                  isRTL ? 'الإدارة' : 'Administration',
+                ),
+                _buildCard(
+                  context,
+                  children: [
+                    SettingsListTile(
+                      title: isRTL ? 'لوحة التحكم' : 'Admin Dashboard',
+                      leadingIcon: LucideIcons.layoutDashboard,
+                      leadingIconColor: theme.colorScheme.primary,
+                      onTap:
+                          () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => const AdminDashboardScreen(),
+                            ),
+                          ),
                     ),
                   ],
                 ),

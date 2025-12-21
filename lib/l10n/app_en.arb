@@ -265,5 +265,7 @@
   },
   "@interactionsTab": {
     "description": "Label for the Interactions tab on the drug details page."
-  }
+  },
+  "foodInteractionsTitle": "Food Interactions",
+  "foodInteractionsSubtitle": "Drugs requiring dietary caution"
 }

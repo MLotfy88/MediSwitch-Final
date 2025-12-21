@@ -33,16 +33,19 @@ class ModernDrugCard extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: theme.cardColor,
-          borderRadius: BorderRadius.circular(18),
+          borderRadius: BorderRadius.circular(20), // More rounded
           boxShadow: [
             BoxShadow(
-              color: theme.shadowColor.withValues(alpha: isDark ? 0.3 : 0.06),
-              offset: const Offset(0, 2),
-              blurRadius: 8,
+              color: theme.shadowColor.withOpacity(isDark ? 0.3 : 0.08),
+              offset: const Offset(0, 4),
+              blurRadius: 12,
               spreadRadius: -2,
             ),
           ],
-          border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+          border: Border.all(
+            color: theme.dividerColor.withOpacity(isDark ? 0.1 : 0.05),
+            width: 1.5,
+          ),
         ),
         child: Column(
           children: [
@@ -60,9 +63,10 @@ class ModernDrugCard extends StatelessWidget {
                             child: Text(
                               drug.tradeName,
                               style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
+                                fontSize: 17, // Slightly larger
+                                fontWeight: FontWeight.w700, // Bolder
                                 color: theme.colorScheme.onSurface,
+                                letterSpacing: -0.5,
                               ),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
@@ -89,14 +93,17 @@ class ModernDrugCard extends StatelessWidget {
                           ],
                         ],
                       ),
+                      const SizedBox(height: 4),
                       Text(
                         drug.nameAr,
                         style: TextStyle(
                           fontSize: 14,
                           color: appColors.mutedForeground,
+                          fontFamily: 'Cairo', // Ensure Arabic font usage
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
+                        textDirection: TextDirection.rtl,
                       ),
                     ],
                   ),
@@ -109,14 +116,15 @@ class ModernDrugCard extends StatelessWidget {
                       color:
                           isFavorite
                               ? appColors.dangerSoft
-                              : theme.colorScheme.surface.withValues(
-                                alpha: isDark ? 0.3 : 0.5,
-                              ),
+                              : theme.colorScheme.surfaceContainerHighest
+                                  .withOpacity(0.5),
                       shape: BoxShape.circle,
                     ),
                     child: Icon(
-                      LucideIcons.heart,
-                      size: 16,
+                      isFavorite
+                          ? LucideIcons.heart
+                          : LucideIcons.heart, // Solid if filled logic exists
+                      size: 18,
                       color:
                           isFavorite
                               ? appColors.dangerForeground
@@ -127,19 +135,20 @@ class ModernDrugCard extends StatelessWidget {
               ],
             ),
 
-            const SizedBox(height: 12),
+            const SizedBox(height: 16),
 
             // Form & Ingredient
             Row(
               children: [
                 Container(
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 8,
-                    vertical: 4,
+                    horizontal: 10,
+                    vertical: 6,
                   ),
                   decoration: BoxDecoration(
-                    color:
-                        appColors.infoSoft, // Better visibility in both themes
+                    color: theme.colorScheme.secondaryContainer.withOpacity(
+                      0.4,
+                    ),
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -147,126 +156,131 @@ class ModernDrugCard extends StatelessWidget {
                       Icon(
                         _getFormIcon(drug.form),
                         size: 14,
-                        color: appColors.infoForeground, // Clear contrast
+                        color: theme.colorScheme.secondary,
                       ),
                       const SizedBox(width: 6),
                       Text(
                         drug.form,
                         style: TextStyle(
                           fontSize: 12,
-                          fontWeight: FontWeight.w500,
-                          color: appColors.infoForeground, // Clear contrast
+                          fontWeight: FontWeight.w600,
+                          color: theme.colorScheme.secondary,
                         ),
                       ),
                     ],
                   ),
                 ),
-                const SizedBox(width: 8),
-                Text('•', style: TextStyle(color: appColors.mutedForeground)),
-                const SizedBox(width: 8),
+                const SizedBox(width: 12),
                 Expanded(
-                  child: Text(
-                    drug.active, // activeIngredient
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: appColors.mutedForeground,
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
+                  child: Row(
+                    children: [
+                      Icon(
+                        LucideIcons.flaskConical,
+                        size: 14,
+                        color: appColors.mutedForeground,
+                      ),
+                      const SizedBox(width: 4),
+                      Expanded(
+                        child: Text(
+                          drug.active,
+                          style: TextStyle(
+                            fontSize: 13,
+                            color: appColors.mutedForeground,
+                            fontWeight: FontWeight.w500,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
             ),
 
+            const SizedBox(height: 16),
+            Divider(height: 1, color: theme.dividerColor.withOpacity(0.1)),
             const SizedBox(height: 12),
 
-            // Price & Interaction
+            // Price & Interaction Footer
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.baseline,
-                  textBaseline: TextBaseline.alphabetic,
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      '${drug.price} EGP',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: theme.colorScheme.onSurface,
-                      ),
-                    ),
-                    if (drug.oldPrice != null) ...[
-                      const SizedBox(width: 8),
-                      Text(
-                        '${drug.oldPrice}',
-                        style: TextStyle(
-                          fontSize: 14,
-                          decoration: TextDecoration.lineThrough,
-                          color: appColors.mutedForeground,
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.baseline,
+                      textBaseline: TextBaseline.alphabetic,
+                      children: [
+                        Text(
+                          '${drug.price} EGP',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w800,
+                            color: theme.colorScheme.primary,
+                          ),
                         ),
-                      ),
-                      const SizedBox(width: 8),
-                      // Price change badge
-                      _buildPriceChangeBadge(),
-                    ],
+                        if (drug.oldPrice != null) ...[
+                          const SizedBox(width: 6),
+                          Text(
+                            '${drug.oldPrice}',
+                            style: TextStyle(
+                              fontSize: 13,
+                              decoration: TextDecoration.lineThrough,
+                              color: appColors.mutedForeground.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      ],
+                    ),
+                    // Price change badge moved here if needed or kept separate
                   ],
                 ),
 
                 if (hasInteraction)
                   Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 8,
+                      horizontal: 10,
+                      vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: appColors.dangerSoft,
-                      borderRadius: BorderRadius.circular(14),
+                      color: appColors.danger.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(
+                        color: appColors.danger.withOpacity(0.2),
+                      ),
                     ),
                     child: Row(
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         Icon(
                           LucideIcons.alertTriangle,
-                          size: 16,
-                          color: appColors.dangerForeground,
+                          size: 14,
+                          color: appColors.danger,
                         ),
-                        const SizedBox(width: 8),
+                        const SizedBox(width: 6),
                         Text(
                           'Interaction',
                           style: TextStyle(
                             fontSize: 12,
-                            fontWeight: FontWeight.w500,
-                            color: appColors.dangerForeground,
+                            fontWeight: FontWeight.bold,
+                            color: appColors.danger,
                           ),
                         ),
                       ],
                     ),
+                  )
+                else if (drug.lastPriceUpdate.isNotEmpty)
+                  Text(
+                    DateFormatter.formatDate(drug.lastPriceUpdate),
+                    style: TextStyle(
+                      fontSize: 11,
+                      color: appColors.mutedForeground.withOpacity(0.8),
+                    ),
                   ),
               ],
             ),
-
-            // Last Updated Date
-            if (drug.lastPriceUpdate.isNotEmpty) ...[
-              const SizedBox(height: 8),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Icon(
-                    LucideIcons.clock,
-                    size: 12,
-                    color: appColors.mutedForeground,
-                  ),
-                  const SizedBox(width: 4),
-                  Text(
-                    'Updated: ${DateFormatter.formatDate(drug.lastPriceUpdate)}',
-                    style: TextStyle(
-                      fontSize: 10,
-                      color: appColors.mutedForeground,
-                    ),
-                  ),
-                ],
-              ),
-            ],
           ],
         ),
       ),

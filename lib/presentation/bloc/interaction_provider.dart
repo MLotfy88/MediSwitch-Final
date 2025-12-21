@@ -134,6 +134,31 @@ class InteractionProvider extends ChangeNotifier {
     }
   }
 
+  Future<List<String>> getFoodInteractions(DrugEntity drug) async {
+    try {
+      if (drug.id == null) return [];
+      return await _interactionRepository.getFoodInteractions(drug.id!);
+    } catch (e, s) {
+      _logger.e("InteractionProvider: Error getting food interactions", e, s);
+      return [];
+    }
+  }
+
+  Future<List<DrugEntity>> getDrugsWithFoodInteractions({
+    int limit = 10,
+  }) async {
+    try {
+      return await _interactionRepository.getDrugsWithFoodInteractions(limit);
+    } catch (e, s) {
+      _logger.e(
+        "InteractionProvider: Error getting drugs with food interactions",
+        e,
+        s,
+      );
+      return [];
+    }
+  }
+
   InteractionSeverity _calculateOverallSeverity(
     List<DrugInteraction> interactions,
   ) {

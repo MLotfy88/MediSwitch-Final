@@ -69,49 +69,63 @@ class _HomeScreenState extends State<HomeScreen> {
       final theme = Theme.of(context);
       return Scaffold(
         backgroundColor: theme.scaffoldBackgroundColor,
-        body: SafeArea(
-          child: Column(
-            children: [
-              AppHeader(
-                onNotificationTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute<void>(
-                      builder: (context) => const NotificationsScreen(),
-                    ),
-                  );
-                },
-                onRefreshTap: () {
-                  context.read<MedicineProvider>().manualRefresh();
-                },
-                isSyncing: medicineProvider.isSyncing,
-              ),
-              Expanded(
-                child: RefreshIndicator(
-                  onRefresh: () {
-                    return context.read<MedicineProvider>().smartRefresh();
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [
+                theme.colorScheme.primary.withOpacity(0.04), // Subtle top tint
+                theme.scaffoldBackgroundColor,
+                theme.scaffoldBackgroundColor,
+              ],
+              stops: const [0.0, 0.3, 1.0],
+            ),
+          ),
+          child: SafeArea(
+            child: Column(
+              children: [
+                AppHeader(
+                  onNotificationTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder: (context) => const NotificationsScreen(),
+                      ),
+                    );
                   },
-                  child:
-                      isLoading && !isInitialLoadComplete
-                          ? _buildLoadingIndicator()
-                          : error.isNotEmpty
-                          ? _buildErrorWidget(context, error, l10n)
-                          : (isInitialLoadComplete ||
-                              recentlyUpdatedCount > 0 ||
-                              popularCount > 0)
-                          ? _buildContent(
-                            context,
-                            medicineProvider,
-                            isLoading,
-                            error,
-                            isInitialLoadComplete,
-                            l10n,
-                          )
-                          : _buildLoadingIndicator(),
+                  onRefreshTap: () {
+                    context.read<MedicineProvider>().manualRefresh();
+                  },
+                  isSyncing: medicineProvider.isSyncing,
                 ),
-              ),
-              const BannerAdWidget(placement: BannerAdPlacement.homeBottom),
-            ],
+                Expanded(
+                  child: RefreshIndicator(
+                    onRefresh: () {
+                      return context.read<MedicineProvider>().smartRefresh();
+                    },
+                    child:
+                        isLoading && !isInitialLoadComplete
+                            ? _buildLoadingIndicator()
+                            : error.isNotEmpty
+                            ? _buildErrorWidget(context, error, l10n)
+                            : (isInitialLoadComplete ||
+                                recentlyUpdatedCount > 0 ||
+                                popularCount > 0)
+                            ? _buildContent(
+                              context,
+                              medicineProvider,
+                              isLoading,
+                              error,
+                              isInitialLoadComplete,
+                              l10n,
+                            )
+                            : _buildLoadingIndicator(),
+                  ),
+                ),
+                const BannerAdWidget(placement: BannerAdPlacement.homeBottom),
+              ],
+            ),
           ),
         ),
       );
@@ -404,6 +418,44 @@ class _HomeScreenState extends State<HomeScreen> {
                 ).animate().slideX(delay: (50 * index).ms);
               },
             ),
+          ),
+        ),
+
+        const SliverToBoxAdapter(child: SizedBox(height: 24)),
+
+        // Food Interactions Section
+        SliverToBoxAdapter(
+          child: Builder(
+            builder: (context) {
+              final appColors = Theme.of(context).appColors;
+              return SectionHeader(
+                title: l10n.foodInteractionsTitle,
+                subtitle: l10n.foodInteractionsSubtitle,
+                icon: LucideIcons.apple, // Using Apple icon for food
+                iconColor: appColors.warningSoft,
+                iconTintColor: appColors.warningForeground,
+                // Optional: onSeeAll
+              );
+            },
+          ),
+        ),
+        SliverPadding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          sliver: SliverList(
+            delegate: SliverChildBuilderDelegate((context, index) {
+              if (medicineProvider.foodInteractionDrugs.isEmpty) return null;
+              if (index >= medicineProvider.foodInteractionDrugs.length)
+                return null;
+
+              final drug = medicineProvider.foodInteractionDrugs[index];
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: ModernDrugCard(
+                  drug: drug,
+                  onTap: () => _navigateToDetails(context, drug),
+                ).animate().fadeIn(delay: (100 * index).ms),
+              );
+            }, childCount: medicineProvider.foodInteractionDrugs.length),
           ),
         ),
 

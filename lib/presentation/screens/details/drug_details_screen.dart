@@ -615,11 +615,17 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   }
 
   Widget _buildInteractionsTab(bool isRTL, ColorScheme colorScheme) {
-    return FutureBuilder<List<DrugInteraction>>(
-      future: Provider.of<InteractionProvider>(
-        context,
-        listen: false,
-      ).getDrugInteractions(widget.drug),
+    return FutureBuilder<List<dynamic>>(
+      future: Future.wait([
+        Provider.of<InteractionProvider>(
+          context,
+          listen: false,
+        ).getDrugInteractions(widget.drug),
+        Provider.of<InteractionProvider>(
+          context,
+          listen: false,
+        ).getFoodInteractions(widget.drug),
+      ]),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator());
@@ -648,9 +654,11 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           );
         }
 
-        final interactions = snapshot.data ?? [];
+        final drugInteractions =
+            snapshot.data?[0] as List<DrugInteraction>? ?? [];
+        final foodInteractions = snapshot.data?[1] as List<String>? ?? [];
 
-        if (interactions.isEmpty) {
+        if (drugInteractions.isEmpty && foodInteractions.isEmpty) {
           return Center(
             child: Padding(
               padding: const EdgeInsets.all(32.0),
@@ -693,7 +701,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           );
         }
 
-        final sortedInteractions = List<DrugInteraction>.from(interactions);
+        final sortedInteractions = List<DrugInteraction>.from(drugInteractions);
         sortedInteractions.sort((a, b) {
           const order = {
             InteractionSeverity.contraindicated: 0,
@@ -708,13 +716,57 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           );
         });
 
-        return ListView.separated(
+        return ListView(
           padding: const EdgeInsets.all(16),
-          itemCount: sortedInteractions.length,
-          separatorBuilder: (_, __) => const SizedBox(height: 12),
-          itemBuilder: (context, index) {
-            return InteractionCard(interaction: sortedInteractions[index]);
-          },
+          children: [
+            if (foodInteractions.isNotEmpty) ...[
+              _buildCard(
+                title: AppLocalizations.of(context)!.foodInteractionsTitle,
+                colorScheme: colorScheme,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children:
+                      foodInteractions
+                          .map(
+                            (interaction) => Padding(
+                              padding: const EdgeInsets.only(bottom: 8),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Icon(
+                                    LucideIcons.apple,
+                                    size: 16,
+                                    color:
+                                        Theme.of(
+                                          context,
+                                        ).appColors.warningForeground,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Text(
+                                      interaction,
+                                      style: TextStyle(
+                                        color: colorScheme.onSurface,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          )
+                          .toList(),
+                ),
+              ),
+              const SizedBox(height: 16),
+            ],
+            if (sortedInteractions.isNotEmpty)
+              ...sortedInteractions.map(
+                (interaction) => Padding(
+                  padding: const EdgeInsets.only(bottom: 12),
+                  child: InteractionCard(interaction: interaction),
+                ),
+              ),
+          ],
         );
       },
     );
