@@ -969,25 +969,69 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Get distinct drugs that have food interactions
-    // Use trade_name for matching since that's the reliable key
-    final List<Map<String, dynamic>> results = await db.rawQuery(
-      '''
-      SELECT DISTINCT d.* 
-      FROM ${DatabaseHelper.medicinesTable} d
-      JOIN ${DatabaseHelper.foodInteractionsTable} f 
-      ON LOWER(d.${DatabaseHelper.colTradeName}) = LOWER(f.trade_name)
-      LIMIT ?
-    ''',
-      [limit],
-    );
 
-    print(
-      '[getDrugsWithFoodInteractions] Found ${results.length} drugs with food interactions',
-    );
-    return List.generate(results.length, (i) {
-      return MedicineModel.fromMap(results[i]);
-    });
+    try {
+      // First check if food_interactions table has data
+      final countResult = await db.rawQuery(
+        'SELECT COUNT(*) as count FROM ${DatabaseHelper.foodInteractionsTable}',
+      );
+      final totalFoodInteractions = Sqflite.firstIntValue(countResult) ?? 0;
+      print(
+        '[getDrugsWithFoodInteractions] Total food interactions in DB: $totalFoodInteractions',
+      );
+
+      if (totalFoodInteractions == 0) {
+        print(
+          '[getDrugsWithFoodInteractions] WARNING: No food interactions found in database!',
+        );
+        return [];
+      }
+
+      // Step 1: Get distinct trade_names from food_interactions table
+      final List<Map<String, dynamic>> tradeNames = await db.rawQuery(
+        '''
+        SELECT DISTINCT trade_name 
+        FROM ${DatabaseHelper.foodInteractionsTable}
+        LIMIT ?
+      ''',
+        [limit],
+      );
+
+      print(
+        '[getDrugsWithFoodInteractions] Found ${tradeNames.length} unique trade names with food interactions',
+      );
+
+      if (tradeNames.isEmpty) {
+        return [];
+      }
+
+      // Step 2: Fetch drugs matching these trade names
+      final results = <MedicineModel>[];
+      for (final row in tradeNames) {
+        final tradeName = row['trade_name'] as String?;
+        if (tradeName == null || tradeName.isEmpty) continue;
+
+        final drugs = await db.query(
+          DatabaseHelper.medicinesTable,
+          where: 'LOWER(${DatabaseHelper.colTradeName}) = LOWER(?)',
+          whereArgs: [tradeName],
+          limit: 1,
+        );
+
+        if (drugs.isNotEmpty) {
+          results.add(MedicineModel.fromMap(drugs.first));
+        }
+      }
+
+      print(
+        '[getDrugsWithFoodInteractions] Successfully matched ${results.length} drugs',
+      );
+      return results;
+    } catch (e, stackTrace) {
+      print('[getDrugsWithFoodInteractions] ERROR: $e');
+      print(stackTrace);
+      return [];
+    }
   }
 
   // --- Interaction Methods ---

@@ -569,39 +569,61 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   Future<void> _loadHighRiskDrugs() async {
-    _logger.d("MedicineProvider: Loading high risk drugs...");
-    final useCase = locator<GetHighRiskDrugsUseCase>();
-    final result = await useCase(10); // Load top 10 high risk drugs
-    result.fold(
-      (Failure failure) {
-        _logger.e(
-          'MedicineProvider: Failed to load high risk drugs: ${failure.message}',
-        );
-        _highRiskDrugs = [];
-      },
-      (List<DrugEntity> drugs) {
-        _logger.i('MedicineProvider: Loaded ${drugs.length} high risk drugs.');
-        _highRiskDrugs = drugs;
-      },
+    _logger.d("MedicineProvider: ===== LOADING HIGH RISK DRUGS =====");
+    try {
+      final useCase = locator<GetHighRiskDrugsUseCase>();
+      final result = await useCase(10); // Load top 10 high risk drugs
+      result.fold(
+        (Failure failure) {
+          _logger.e(
+            'MedicineProvider: FAILED to load high risk drugs: ${failure.message}',
+          );
+          _highRiskDrugs = [];
+        },
+        (List<DrugEntity> drugs) {
+          _logger.i(
+            'MedicineProvider: ✅ SUCCESS! Loaded ${drugs.length} high risk drugs',
+          );
+          if (drugs.isNotEmpty) {
+            _logger.d('First drug: ${drugs.first.tradeName}');
+          }
+          _highRiskDrugs = drugs;
+        },
+      );
+    } catch (e, stackTrace) {
+      _logger.e('MedicineProvider: EXCEPTION in _loadHighRiskDrugs: $e');
+      _logger.e(stackTrace);
+      _highRiskDrugs = [];
+    }
+    _logger.d(
+      'MedicineProvider: High risk drugs count after load: ${_highRiskDrugs.length}',
     );
     notifyListeners();
   }
 
   Future<void> _loadFoodInteractionDrugs() async {
-    _logger.d("MedicineProvider: Loading food interaction drugs...");
+    _logger.d("MedicineProvider: ===== LOADING FOOD INTERACTION DRUGS =====");
     try {
       final repo = locator<InteractionRepository>();
-      // Use repository directly as we haven't created a specific UseCase wrapper yet
-      // This is acceptable for pragmatic specific data loading
+      _logger.d('Repository instance: $repo');
       final drugs = await repo.getDrugsWithFoodInteractions(10);
-      _foodInteractionDrugs = drugs;
       _logger.i(
-        "MedicineProvider: Loaded ${_foodInteractionDrugs.length} food interaction drugs.",
+        "MedicineProvider: ✅ SUCCESS! Loaded ${drugs.length} food interaction drugs",
       );
-    } catch (e) {
-      _logger.e("MedicineProvider: Failed to load food interaction drugs: $e");
+      if (drugs.isNotEmpty) {
+        _logger.d('First drug with food interaction: ${drugs.first.tradeName}');
+      } else {
+        _logger.w('WARNING: Food interaction drugs list is EMPTY!');
+      }
+      _foodInteractionDrugs = drugs;
+    } catch (e, stackTrace) {
+      _logger.e("MedicineProvider: EXCEPTION in _loadFoodInteractionDrugs: $e");
+      _logger.e(stackTrace);
       _foodInteractionDrugs = [];
     }
+    _logger.d(
+      'MedicineProvider: Food interaction drugs count after load: ${_foodInteractionDrugs.length}',
+    );
     notifyListeners();
   }
 
