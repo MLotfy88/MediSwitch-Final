@@ -1130,23 +1130,71 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getHighRiskMedicines(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Count high risk rules linked via ingredients
-    // OPTIMIZED QUERY: Check multiple cases instead of LOWER() to use index.
-    final List<Map<String, dynamic>> maps = await db.rawQuery(
-      '''
-      SELECT DISTINCT d.* 
-      FROM ${DatabaseHelper.medicinesTable} d
-      JOIN med_ingredients mi ON d.id = mi.med_id
-      JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = LOWER(r.ingredient1) OR mi.ingredient = LOWER(r.ingredient2))
-      WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
-      LIMIT ?
-    ''',
-      [limit],
-    );
 
-    return List.generate(maps.length, (i) {
-      return MedicineModel.fromMap(maps[i]);
-    });
+    try {
+      // Step 1: Verify med_ingredients table has data
+      final ingredientsCount = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
+      );
+      print('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
+
+      // Step 2: Verify drug_interactions table has data
+      final interactionsCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+        ),
+      );
+      print(
+        '[getHighRiskMedicines] drug_interactions count: $interactionsCount',
+      );
+
+      if (interactionsCount == 0) {
+        print(
+          '[getHighRiskMedicines] WARNING: No drug interactions in database!',
+        );
+        return [];
+      }
+
+      // Step 3: Check high-severity interactions
+      final highSeverityCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          "SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable} WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')",
+        ),
+      );
+      print(
+        '[getHighRiskMedicines] High-severity interactions: $highSeverityCount',
+      );
+
+      // Step 4: Run the main query
+      final List<Map<String, dynamic>> maps = await db.rawQuery(
+        '''
+        SELECT DISTINCT d.* 
+        FROM ${DatabaseHelper.medicinesTable} d
+        JOIN med_ingredients mi ON d.id = mi.med_id
+        JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = LOWER(r.ingredient1) OR mi.ingredient = LOWER(r.ingredient2))
+        WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
+        LIMIT ?
+      ''',
+        [limit],
+      );
+
+      print(
+        '[getHighRiskMedicines] Query returned ${maps.length} high-risk drugs',
+      );
+
+      if (maps.isNotEmpty) {
+        // Sample first result
+        print('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
+      }
+
+      return List.generate(maps.length, (i) {
+        return MedicineModel.fromMap(maps[i]);
+      });
+    } catch (e, stackTrace) {
+      print('[getHighRiskMedicines] ERROR: $e');
+      print(stackTrace);
+      return [];
+    }
   }
 
   /// New method to get specialized ingredient high-risk metrics for Home Screen
