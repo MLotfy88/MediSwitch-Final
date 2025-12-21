@@ -5,13 +5,14 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/date_symbol_data_local.dart'; // Import for date formatting initialization
 import 'package:provider/provider.dart';
 
-import 'core/di/locator.dart';
-import 'core/services/file_logger_service.dart';
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
 // import 'presentation/screens/setup_screen.dart';
 // import 'presentation/screens/main_screen.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
+import 'core/database/database_helper.dart';
+import 'core/di/locator.dart';
+import 'core/services/file_logger_service.dart';
 import 'data/datasources/local/sqlite_local_data_source.dart';
 import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 import 'presentation/bloc/ad_config_provider.dart';
@@ -109,7 +110,6 @@ Future<void> main() async {
 
         if (count == null || count == 0) {
           logger.i("main: [CRITICAL] Food interactions EMPTY! Seeding NOW...");
-          await localDataSource.seedFoodInteractionsIfNeeded();
 
           final newResult = await db.rawQuery(
             'SELECT COUNT(*) as count FROM food_interactions',
