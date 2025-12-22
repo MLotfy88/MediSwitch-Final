@@ -482,6 +482,8 @@ class MedicineProvider extends ChangeNotifier {
         await Future.wait([
           _loadCategories(forceLocal: false),
           _loadHighRiskIngredients(),
+          _loadHighRiskDrugs(),
+          _loadFoodInteractionDrugs(),
           _loadHomeRecentlyUpdatedDrugs(),
         ]);
 
