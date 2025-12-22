@@ -17,7 +17,8 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 8; // Bumping version for food interactions
+  static const int _dbVersion =
+      9; // Bumping version for med_ingredients sync support
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -101,6 +102,21 @@ class DatabaseHelper {
       await _onCreateFoodInteractions(db);
       // Set flag to trigger seeding after upgrade
       debugPrint('Food interactions table created. Seeding will be triggered.');
+    }
+
+    if (oldVersion < 9) {
+      debugPrint(
+        'Upgrading to Version 9: Adding updated_at to med_ingredients...',
+      );
+      try {
+        await db.execute(
+          'ALTER TABLE med_ingredients ADD COLUMN updated_at INTEGER DEFAULT 0',
+        );
+      } catch (e) {
+        debugPrint(
+          'Note: updated_at might already exist in med_ingredients: $e',
+        );
+      }
     }
   }
 
@@ -223,6 +239,7 @@ class DatabaseHelper {
       CREATE TABLE IF NOT EXISTS med_ingredients (
         med_id INTEGER,
         ingredient TEXT,
+        updated_at INTEGER DEFAULT 0, -- For Sync support
         PRIMARY KEY (med_id, ingredient)
       )
     ''');

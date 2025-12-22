@@ -60,40 +60,53 @@ class MedicineModel extends DrugEntity {
     return date;
   }
 
+  static int _parseInt(dynamic value) {
+    if (value == null) return 0;
+    if (value is int) return value;
+    return int.tryParse(value.toString()) ?? 0;
+  }
+
   factory MedicineModel.fromCsv(List<dynamic> row) {
+    // CSV Header: id,trade_name,arabic_name,active,category,company,price,old_price,last_price_update,units,barcode,qr_code,pharmacology,usage,visits,concentration,dosage_form,dosage_form_ar
     return MedicineModel(
-      // 0: Trade Name
-      tradeName: row.isNotEmpty ? _parseString(row[0]) : '',
-      // 1: Arabic Name
+      // 0: ID
+      id: row.isNotEmpty ? _parseInt(row[0]) : 0,
+      // 1: Trade Name
+      tradeName: row.length > 1 ? _parseString(row[1]) : '',
+      // 2: Arabic Name
       arabicName: row.length > 2 ? _parseString(row[2]) : '',
-      // 2: Active Ingredient -> Mapped to 'active'
+      // 3: Active Ingredient -> Mapped to 'active'
       active: row.length > 3 ? _parseString(row[3]) : '',
-      // 3: Company
+      // 4: Category
+      category: row.length > 4 ? _parseString(row[4]) : '',
+      // 5: Company
       company: row.length > 5 ? _parseString(row[5]) : '',
-      // 4: Price
+      // 6: Price
       price: row.length > 6 ? _parseString(row[6]) : '0',
-      // Old Price
+      // 7: Old Price
       oldPrice: row.length > 7 ? _parseString(row[7]) : '',
-      // Last Price Update
+      // 8: Last Price Update
       lastPriceUpdate:
           row.length > 8 ? _normalizeDate(_parseString(row[8])) : '',
-      // Category
-      category: row.length > 4 ? _parseString(row[4]) : '',
       categoryAr: '', // Not in CSV
+      // 9: Units
       unit: row.length > 9 ? _parseString(row[9]) : '',
+      // 10: Barcode
       barcode: row.length > 10 ? _parseString(row[10]) : '',
-      description:
-          row.length > 17
-              ? _parseString(row[17])
-              : '', // Assuming desc is further down now? No, let's re-check CSV header
-      // id,trade_name,arabic_name,active,category,company,price,old_price,last_price_update,units,barcode,qr_code,pharmacology,usage,visits,concentration,dosage_form,dosage_form_ar
-      // 0  1          2           3      4        5       6     7         8                 9     10      11      12           13    14     15            16          17
+      // 11: QR Code (unused as description)
+      // 12: Pharmacology (Mapping to both description and pharmacology)
+      description: row.length > 12 ? _parseString(row[12]) : '',
       pharmacology: row.length > 12 ? _parseString(row[12]) : '',
+      // 13: Usage
       usage: row.length > 13 ? _parseString(row[13]) : '',
       usageAr: '', // Not in CSV
-      visits: row.length > 14 ? (int.tryParse(row[14].toString()) ?? 0) : 0,
+      // 14: Visits
+      visits: row.length > 14 ? _parseInt(row[14]) : 0,
+      // 15: Concentration
       concentration: row.length > 15 ? _parseString(row[15]) : '',
+      // 16: Dosage Form
       dosageForm: row.length > 16 ? _parseString(row[16]) : '',
+      // 17: Dosage Form Ar
       dosageFormAr: row.length > 17 ? _parseString(row[17]) : '',
       mainCategory: row.length > 4 ? _parseString(row[4]) : '',
       updatedAt: 0,
@@ -103,7 +116,7 @@ class MedicineModel extends DrugEntity {
   // Specialized factory for Cloudflare D1 Sync Data (Snake Case)
   factory MedicineModel.fromSyncJson(Map<String, dynamic> json) {
     return MedicineModel(
-      id: json['id'] as int?,
+      id: _parseInt(json['id']),
       tradeName: _parseString(json['trade_name']),
       arabicName: _parseString(json['arabic_name']),
       active: _parseString(json['active']),
@@ -115,7 +128,7 @@ class MedicineModel extends DrugEntity {
       pharmacology: _parseString(json['pharmacology']),
       imageUrl: _parseString(json['image_url']),
       lastPriceUpdate: _parseString(json['last_price_update']),
-      updatedAt: json['updated_at'] as int? ?? 0,
+      updatedAt: _parseInt(json['updated_at']),
       // Mapping defaults for missing D1 fields if any
       oldPrice: _parseString(json['old_price']),
       dosageForm: _parseString(json['dosage_form']),
@@ -125,7 +138,7 @@ class MedicineModel extends DrugEntity {
       usage: _parseString(json['usage']),
       usageAr: _parseString(json['usage_ar']),
       barcode: _parseString(json['barcode']),
-      visits: json['visits'] as int? ?? 0,
+      visits: _parseInt(json['visits']),
     );
   }
 
