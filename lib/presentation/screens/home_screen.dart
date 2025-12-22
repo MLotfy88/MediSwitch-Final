@@ -462,23 +462,32 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           ),
         ),
-        SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-          sliver: SliverList(
-            delegate: SliverChildBuilderDelegate((context, index) {
-              if (medicineProvider.foodInteractionDrugs.isEmpty) return null;
-              if (index >= medicineProvider.foodInteractionDrugs.length)
-                return null;
+        SliverToBoxAdapter(
+          child: SizedBox(
+            height: 200, // Height for ModernDrugCard
+            child: ListView.separated(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              scrollDirection: Axis.horizontal,
+              itemCount:
+                  medicineProvider.foodInteractionDrugs.isNotEmpty
+                      ? medicineProvider.foodInteractionDrugs.length
+                      : 0,
+              separatorBuilder: (_, __) => const SizedBox(width: 12),
+              itemBuilder: (context, index) {
+                if (medicineProvider.foodInteractionDrugs.isEmpty) {
+                  return const SizedBox.shrink();
+                }
+                final drug = medicineProvider.foodInteractionDrugs[index];
 
-              final drug = medicineProvider.foodInteractionDrugs[index];
-              return Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: ModernDrugCard(
-                  drug: drug,
-                  onTap: () => _navigateToDetails(context, drug),
-                ).animate().fadeIn(delay: (100 * index).ms),
-              );
-            }, childCount: medicineProvider.foodInteractionDrugs.length),
+                return SizedBox(
+                  width: 280,
+                  child: ModernDrugCard(
+                    drug: drug,
+                    onTap: () => _navigateToDetails(context, drug),
+                  ).animate().slideX(delay: (50 * index).ms),
+                );
+              },
+            ),
           ),
         ),
 

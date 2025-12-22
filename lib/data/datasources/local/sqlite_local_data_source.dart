@@ -242,10 +242,31 @@ class SqliteLocalDataSource {
         }
 
         // --- Seeding Interactions (Relational) ---
-        print('[Main Thread] Seeding Relational Interactions...');
-        await _seedRelationalInteractions(db);
+        // (Removed nested call to _seedRelationalInteractions)
       } else {
         print('Medicines already exist. Skipping medicine seeding.');
+      }
+
+      // --- Always check and seed Relational Interactions if empty ---
+      print('[Main Thread] Checking Relational Interactions...');
+      final interactionsCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+        ),
+      );
+      print(
+        '[Main Thread] Relational Interactions count in DB: $interactionsCount',
+      );
+
+      if (interactionsCount == null || interactionsCount == 0) {
+        print(
+          '[Main Thread] Relational Interactions table is EMPTY. Seeding NOW...',
+        );
+        await _seedRelationalInteractions(db);
+      } else {
+        print(
+          '[Main Thread] Relational Interactions already exist ($interactionsCount records).',
+        );
       }
 
       // --- Always check and seed Food Interactions if empty ---
