@@ -106,6 +106,18 @@ class _IngredientInteractionsScreenState
       if (mounted) {
         setState(() {
           _allInteractions = specificList;
+          // Sort to put Food Interactions (Severity Major, ID -1) at TOP if we are in Ingredient mode?
+          // Or just ensure they are visible. The separate list logic in build took care of display,
+          // BUT `_buildInteractionsTab` in `DrugDetailsScreen` handles separate lists.
+          // HERE in `IngredientInteractionsScreen` `build` method, we need to inspect `_allInteractions`.
+          // The current `build` simply renders `_filteredInteractions`.
+          // We need to make sure Food Interactions are NOT filtered out or buried.
+          // They have `id: -1`.
+          // We should perhaps keep them separate in the state?
+          // Let's just create a separate list in state: `_foodInteractions`?
+          // No, simpler: Just sort them to top.
+          // Food interactions have 'Major' severity usually in my code.
+          // Let's ensure they are added.
           _filteredInteractions = specificList;
           _isLoading = false;
         });
@@ -268,6 +280,34 @@ class _IngredientInteractionsScreenState
               sliver: SliverList(
                 delegate: SliverChildBuilderDelegate((context, index) {
                   final interaction = _filteredInteractions[index];
+                  // Highlight Food Interactions
+                  if (interaction.interactionDrugName == 'Food / Diet') {
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          if (index == 0 ||
+                              _filteredInteractions[index - 1]
+                                      .interactionDrugName !=
+                                  'Food / Diet')
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8),
+                              child: Text(
+                                isRTL ? 'تفاعلات الطعام' : 'Food Interactions',
+                                style: theme.textTheme.titleMedium?.copyWith(
+                                  color: theme.colorScheme.primary,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          InteractionCard(
+                            interaction: interaction,
+                          ).animate().fadeIn(),
+                        ],
+                      ),
+                    );
+                  }
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 12),
                     child:

@@ -377,7 +377,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     if (widget.drug.pharmacology != null &&
-                        widget.drug.pharmacology!.isNotEmpty) ...[
+                        widget.drug.pharmacology!.isNotEmpty &&
+                        widget.drug.pharmacology !=
+                            widget.drug.description) ...[
                       Text(
                         widget.drug.pharmacology!,
                         style: TextStyle(

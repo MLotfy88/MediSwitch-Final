@@ -72,18 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: theme.scaffoldBackgroundColor,
         body: Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                theme.colorScheme.primary.withValues(
-                  alpha: 0.04,
-                ), // Subtle top tint
-                theme.scaffoldBackgroundColor,
-                theme.scaffoldBackgroundColor,
-              ],
-              stops: const [0.0, 0.3, 1.0],
-            ),
+            color: theme.scaffoldBackgroundColor, // Match reference flat color
           ),
           child: SafeArea(
             child: Column(
@@ -218,6 +207,9 @@ class _HomeScreenState extends State<HomeScreen> {
               hintText: l10n.searchHint,
               onSearchTap: () {
                 // ✅ التنقل لشاشة البحث عند النقر
+                // The provided code snippet for onSearchTap was syntactically incorrect
+                // and referenced `widget.drug` which is not available in HomeScreen.
+                // Reverting to the original correct logic for navigation.
                 if (widget.onSearchTap != null) {
                   widget.onSearchTap!();
                 }
