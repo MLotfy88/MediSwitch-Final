@@ -153,26 +153,12 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getHighRiskDrugs(int limit) async {
-    // FORCE A VISIBLE ERROR TO VERIFY THIS CODE IS ACTUALLY RUNNING
-    throw Exception(
-      '[CRITICAL TEST] getHighRiskDrugs WAS CALLED! limit=$limit',
-    );
-
-    print('[InteractionRepo] getHighRiskDrugs called with limit=$limit');
     try {
-      debugPrint(
-        '[InteractionRepo] Calling localDataSource.getHighRiskMedicines...',
-      );
       final models = await localDataSource.getHighRiskMedicines(limit);
-      debugPrint(
-        '[InteractionRepo] Received ${models.length} models from data source',
-      );
-      final entities = List<DrugEntity>.from(models);
-      print('[InteractionRepo] Converted to ${entities.length} entities');
-      return entities;
+      return List<DrugEntity>.from(models);
     } catch (e, stackTrace) {
       print('[InteractionRepo] ❌ EXCEPTION in getHighRiskDrugs: $e');
-      debugPrint(stackTrace.toString());
+      print(stackTrace.toString());
       return [];
     }
   }
