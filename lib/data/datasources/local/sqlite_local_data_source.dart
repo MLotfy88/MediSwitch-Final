@@ -1066,28 +1066,68 @@ class SqliteLocalDataSource {
         '[getDrugsWithFoodInteractions] Found ${tradeNames.length} unique trade names with food interactions',
       );
 
+      // DEBUG: Print first 5 trade names from food_interactions
+      if (tradeNames.isNotEmpty) {
+        print(
+          '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${tradeNames.take(5).map((e) => e['trade_name']).toList()}',
+        );
+      }
+
       if (tradeNames.isEmpty) {
         return [];
       }
 
       // Step 2: Fetch drugs matching these trade names
       final results = <MedicineModel>[];
+      int matchAttempts = 0;
+      int matchesFound = 0;
+
       for (final row in tradeNames) {
         final tradeName = row['trade_name'] as String?;
         if (tradeName == null || tradeName.isEmpty) continue;
 
-        final drugs = await db.query(
+        matchAttempts++;
+        // Limit extensive logging to first 10 attempts
+        final bool logDetail = matchAttempts <= 10;
+
+        // Try exact match first (case-insensitive) -- Adding trim()
+        var drugs = await db.query(
           DatabaseHelper.medicinesTable,
           where: 'LOWER(${DatabaseHelper.colTradeName}) = LOWER(?)',
-          whereArgs: [tradeName],
+          whereArgs: [tradeName.trim()],
           limit: 1,
         );
 
+        if (drugs.isEmpty) {
+          // Try LIKE match
+          drugs = await db.query(
+            DatabaseHelper.medicinesTable,
+            where: 'LOWER(${DatabaseHelper.colTradeName}) LIKE LOWER(?)',
+            whereArgs: ['%${tradeName.trim()}%'],
+            limit: 1,
+          );
+          if (logDetail) {
+            print(
+              '[getDrugsWithFoodInteractions] Exact match failed for "$tradeName". LIKE match found: ${drugs.length}',
+            );
+          }
+        } else {
+          if (logDetail) {
+            print(
+              '[getDrugsWithFoodInteractions] Exact match success for "$tradeName"',
+            );
+          }
+        }
+
         if (drugs.isNotEmpty) {
+          matchesFound++;
           results.add(MedicineModel.fromMap(drugs.first));
         }
       }
 
+      print(
+        '[getDrugsWithFoodInteractions] Match summary: Attempts=$matchAttempts, Matches=$matchesFound',
+      );
       print(
         '[getDrugsWithFoodInteractions] Successfully matched ${results.length} drugs',
       );
@@ -1173,6 +1213,22 @@ class SqliteLocalDataSource {
         await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
       );
       print('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
+
+      if (ingredientsCount == 0) {
+        print(
+          '[getHighRiskMedicines] FATAL: med_ingredients table is empty! Logic relying on ingredients will fail.',
+        );
+        // Debug: check text content of one medicine to see if ingredients are raw in there
+        final sampleMed = await db.query(
+          DatabaseHelper.medicinesTable,
+          limit: 1,
+        );
+        if (sampleMed.isNotEmpty) {
+          print(
+            '[getHighRiskMedicines] Sample Med Active Ingredient: ${sampleMed.first['activeIngredient']}',
+          );
+        }
+      }
 
       // Step 2: Verify drug_interactions table has data
       final interactionsCount = Sqflite.firstIntValue(
