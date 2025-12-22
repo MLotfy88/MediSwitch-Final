@@ -4,10 +4,9 @@ import 'dart:io'; // Import for File operations
 import 'package:csv/csv.dart';
 import 'package:flutter/foundation.dart'; // Import for compute
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart'; // Import shared_preferences
-
-import '../../models/medicine_model.dart';
 
 // --- Constants ---
 const String _localCsvFileName = 'meds_local.csv';
@@ -84,7 +83,7 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
     if (mainCatLower.isNotEmpty) {
       indexByCategory.putIfAbsent(mainCatLower, () => []).add(i);
     }
-    final catLower = med.category.toLowerCase();
+    final catLower = med.category?.toLowerCase() ?? '';
     // Avoid adding duplicates if main and sub are the same (or sub is empty)
     if (catLower.isNotEmpty && catLower != mainCatLower) {
       indexByCategory.putIfAbsent(catLower, () => []).add(i);

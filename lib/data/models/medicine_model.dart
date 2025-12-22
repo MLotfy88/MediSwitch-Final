@@ -3,56 +3,44 @@ import 'dart:convert';
 import '../../core/database/database_helper.dart'; // Import DatabaseHelper for column names
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
-class MedicineModel {
-  final int? id; // Now the primary identifier from D1
-  final String tradeName;
-  final String arabicName;
-  final String price;
-  final String oldPrice;
-  final String active;
-  final String company;
-  final String dosageForm;
+class MedicineModel extends DrugEntity {
   final String dosageFormAr;
-  final String concentration;
-  final String unit;
-  final String usage;
   final String usageAr;
-  final String category; // General Category
   final String categoryAr;
-  final String mainCategory;
-  final String description;
-  final String pharmacology; // New Field
   final String barcode;
   final int visits;
-  final String lastPriceUpdate;
-  final String? imageUrl;
-  final int updatedAt; // Unix timestamp for Sync
+  final int updatedAt;
 
-  MedicineModel({
-    this.id,
-    required this.tradeName,
-    required this.arabicName,
-    required this.price,
-    required this.oldPrice,
-    required this.active,
-    required this.company,
-    required this.dosageForm,
+  const MedicineModel({
+    super.id,
+    required super.tradeName,
+    required super.arabicName,
+    required super.price,
+    required String oldPrice,
+    required super.active,
+    required super.company,
+    required super.dosageForm,
     required this.dosageFormAr,
-    required this.concentration,
-    required this.unit,
-    required this.usage,
+    required super.concentration,
+    required super.unit,
+    required super.usage,
     required this.usageAr,
-    required this.category,
+    required String category,
     required this.categoryAr,
-    this.mainCategory = '',
-    required this.description,
-    required this.pharmacology, // New Field
+    super.mainCategory = '',
+    required super.description,
+    required String pharmacology,
     required this.barcode,
     required this.visits,
-    required this.lastPriceUpdate,
-    this.imageUrl,
+    required super.lastPriceUpdate,
+    super.imageUrl,
     this.updatedAt = 0,
-  });
+  }) : super(
+         oldPrice: oldPrice == '' ? null : oldPrice,
+         category: category == '' ? null : category,
+         category_ar: categoryAr == '' ? null : categoryAr,
+         pharmacology: pharmacology == '' ? null : pharmacology,
+       );
 
   // Helper function to safely parse string from dynamic row data
   static String _parseString(dynamic value) => value?.toString().trim() ?? '';
@@ -74,17 +62,24 @@ class MedicineModel {
 
   factory MedicineModel.fromCsv(List<dynamic> row) {
     return MedicineModel(
-      id: row.length > 0 ? int.tryParse(row[0].toString()) : null,
-      tradeName: row.length > 1 ? _parseString(row[1]) : '',
+      // 0: Trade Name
+      tradeName: row.isNotEmpty ? _parseString(row[0]) : '',
+      // 1: Arabic Name
       arabicName: row.length > 2 ? _parseString(row[2]) : '',
+      // 2: Active Ingredient -> Mapped to 'active'
       active: row.length > 3 ? _parseString(row[3]) : '',
-      category: row.length > 4 ? _parseString(row[4]) : '',
-      categoryAr: '', // Not in CSV
+      // 3: Company
       company: row.length > 5 ? _parseString(row[5]) : '',
-      price: row.length > 6 ? _parseString(row[6]) : '',
+      // 4: Price
+      price: row.length > 6 ? _parseString(row[6]) : '0',
+      // Old Price
       oldPrice: row.length > 7 ? _parseString(row[7]) : '',
+      // Last Price Update
       lastPriceUpdate:
           row.length > 8 ? _normalizeDate(_parseString(row[8])) : '',
+      // Category
+      category: row.length > 4 ? _parseString(row[4]) : '',
+      categoryAr: '', // Not in CSV
       unit: row.length > 9 ? _parseString(row[9]) : '',
       barcode: row.length > 10 ? _parseString(row[10]) : '',
       description:
@@ -196,9 +191,9 @@ class MedicineModel {
       tradeName: tradeName,
       arabicName: arabicName,
       price: price,
-      oldPrice: oldPrice.isNotEmpty ? oldPrice : null,
+      oldPrice: oldPrice != null && oldPrice!.isNotEmpty ? oldPrice : null,
       mainCategory: mainCategory,
-      category: category.isNotEmpty ? category : null,
+      category: category != null && category!.isNotEmpty ? category : null,
       category_ar: categoryAr.isNotEmpty ? categoryAr : null,
       active: active,
       company: company,
@@ -206,8 +201,7 @@ class MedicineModel {
       concentration: concentration,
       unit: unit,
       usage: usage,
-      description:
-          description, // Maybe deprecate description usage if pharmacology is key
+      description: description,
       pharmacology: pharmacology,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
