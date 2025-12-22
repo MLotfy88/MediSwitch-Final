@@ -118,7 +118,40 @@ Future<void> main() async {
           logger.i("main: After forced seeding: $newCount food interactions");
         } else {
           logger.i("main: Food interactions OK: $count records");
-        }
+
+          // DIAGNOSTIC BLOCK
+          logger.i("main: --- DIAGNOSTICS START ---");
+          
+          // 1. Get sample food interactions
+          final foodSamples = await db.rawQuery('SELECT trade_name FROM food_interactions LIMIT 5');
+          logger.i("main: Sample food_interactions trade_names: ${foodSamples.map((e) => '"${e['trade_name']}"').toList()}");
+          
+          if (foodSamples.isNotEmpty) {
+             final firstFoodDrug = foodSamples.first['trade_name'] as String;
+             logger.i("main: Attempting match for first food drug: '$firstFoodDrug'");
+             
+             // 2. Try to find this drug in medicines
+             final matchExact = await db.rawQuery("SELECT * FROM medicines WHERE LOWER(tradeName) = LOWER(?)", [firstFoodDrug.trim()]);
+             logger.i("main: Exact match result count: ${matchExact.length}");
+             
+             final matchLike = await db.rawQuery("SELECT * FROM medicines WHERE LOWER(tradeName) LIKE LOWER(?)", ['%${firstFoodDrug.trim()}%']);
+             logger.i("main: LIKE match result count: ${matchLike.length}");
+          }
+
+          // 3. Get sample medicines
+          final medSamples = await db.rawQuery('SELECT tradeName FROM medicines LIMIT 5');
+          logger.i("main: Sample medicines tradeNames: ${medSamples.map((e) => '"${e['tradeName']}"').toList()}");
+
+          // 4. Check med_ingredients count
+          final ingCountRes = await db.rawQuery('SELECT COUNT(*) as count FROM med_ingredients');
+           final ingCount = ingCountRes.first['count'] as int?;
+          logger.i("main: med_ingredients count: $ingCount");
+          
+          if (ingCount == 0) {
+              logger.w("main: med_ingredients is EMPTY. High risk drugs will definitely fail.");
+          }
+
+          logger.i("main: --- DIAGNOSTICS END ---");
       } catch (e, s) {
         logger.e("main: ERROR checking/seeding food_interactions", e, s);
       }
