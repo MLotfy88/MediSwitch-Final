@@ -882,78 +882,78 @@ class SqliteLocalDataSource {
   }
 
   Future<void> seedDatabaseFromAssetIfNeeded() async {
-    print("[CRITICAL DEBUG] ==== seedDatabaseFromAssetIfNeeded() CALLED ====");
-    bool medsExist = await hasMedicines();
-    bool interactionsExist = await hasInteractions();
+    logger.i("[seedDatabaseFromAssetIfNeeded] checking database state...");
 
-    if (!medsExist || !interactionsExist) {
-      print(
-        "Missing data (Meds: $medsExist, Interactions: $interactionsExist). Triggering FULL Seeding...",
-      );
-      await performInitialSeeding();
-    } else {
-      print("Database already seeded. Checking food_interactions...");
-
-      // CRITICAL: Even if main seeding is done, check food_interactions
-      // This ensures existing users get food_interactions table populated
+    try {
       final db = await dbHelper.database;
-      final foodInteractionsCount = Sqflite.firstIntValue(
-        await db.rawQuery(
-          'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
-        ),
+
+      // Check Medicines
+      bool medsExist = await hasMedicines();
+
+      // Check Ingredients (High Risk & Food Interactions depend on this)
+      final ingredientsCount =
+          Sqflite.firstIntValue(
+            await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
+          ) ??
+          0;
+
+      // Check Relational Interactions (Rules)
+      final interactionsCount =
+          Sqflite.firstIntValue(
+            await db.rawQuery(
+              'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+            ),
+          ) ??
+          0;
+
+      logger.i(
+        "[seedDatabaseFromAssetIfNeeded] Status: Meds=$medsExist, Ingredients=$ingredientsCount, Interactions=$interactionsCount",
       );
 
-      print(
-        '[seedDatabaseFromAssetIfNeeded] Food interactions count: $foodInteractionsCount',
-      );
-
-      if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-        print(
-          '[seedDatabaseFromAssetIfNeeded] Food interactions table is EMPTY! Seeding NOW...',
+      // CRITICAL CHECK: If any basic building block is missing, trigger FULL seeding/repair
+      if (!medsExist || ingredientsCount == 0 || interactionsCount == 0) {
+        logger.w(
+          "[seedDatabaseFromAssetIfNeeded] MISSING CRITICAL DATA. Triggering REPAIR/SEEDING...",
         );
-        await _seedFoodInteractions(db);
+        // performInitialSeeding now handles clearing tables if needed (based on previous fix)
+        await performInitialSeeding();
+      } else {
+        logger.i(
+          "[seedDatabaseFromAssetIfNeeded] Core data exists. Checking food_interactions...",
+        );
 
-        // Verify
-        final newCount = Sqflite.firstIntValue(
+        // Check Food Interactions
+        final foodInteractionsCount = Sqflite.firstIntValue(
           await db.rawQuery(
             'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
           ),
         );
-        print(
-          '[seedDatabaseFromAssetIfNeeded] After seeding: $newCount food interactions',
+        logger.i(
+          '[seedDatabaseFromAssetIfNeeded] Food interactions count: $foodInteractionsCount',
         );
-      } else {
-        print(
-          '[seedDatabaseFromAssetIfNeeded] Food interactions already exist: $foodInteractionsCount',
-        );
+
+        if (foodInteractionsCount == null || foodInteractionsCount == 0) {
+          logger.i(
+            '[seedDatabaseFromAssetIfNeeded] Food interactions EMPTY! Seeding NOW...',
+          );
+          await _seedFoodInteractions(db);
+
+          final newCount = Sqflite.firstIntValue(
+            await db.rawQuery(
+              'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+            ),
+          );
+          logger.i(
+            '[seedDatabaseFromAssetIfNeeded] After seeding: $newCount food interactions',
+          );
+        } else {
+          logger.i('[seedDatabaseFromAssetIfNeeded] Food interactions OK.');
+        }
+
+        markSeedingAsComplete();
       }
-
-      // CRITICAL: Also check High Risk Interactions (Relational) here
-      // This ensures existing users get the high risk data if it's missing (e.g. from previous update)
-      print(
-        '[seedDatabaseFromAssetIfNeeded] Checking High Risk Interactions (Relational)...',
-      );
-      final interactionsCount = Sqflite.firstIntValue(
-        await db.rawQuery(
-          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
-        ),
-      );
-      print(
-        '[seedDatabaseFromAssetIfNeeded] Relational Interactions count: $interactionsCount',
-      );
-
-      if (interactionsCount == null || interactionsCount == 0) {
-        print(
-          '[seedDatabaseFromAssetIfNeeded] Relational Interactions table is EMPTY! Seeding NOW...',
-        );
-        await _seedRelationalInteractions(db);
-      } else {
-        print(
-          '[seedDatabaseFromAssetIfNeeded] Relational Interactions already exist: $interactionsCount',
-        );
-      }
-
-      markSeedingAsComplete();
+    } catch (e, s) {
+      logger.e("[seedDatabaseFromAssetIfNeeded] ERROR during check/seed", e, s);
     }
   }
 
