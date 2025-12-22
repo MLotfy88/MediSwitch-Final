@@ -19,6 +19,7 @@ import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/app_header.dart';
 import 'package:mediswitch/presentation/widgets/banner_ad_widget.dart';
+import 'package:mediswitch/presentation/widgets/cards/dangerous_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_category_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
@@ -402,9 +403,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 final drug = medicineProvider.highRiskDrugs[index];
 
                 return SizedBox(
-                  width: 280,
-                  child: ModernDrugCard(
+                  width:
+                      160, // Slight constraint wrapper, though Card has internal minWidth
+                  child: DangerousDrugCard(
                     drug: drug,
+                    riskLevel: RiskLevel.critical,
+                    interactionCount:
+                        24, // Mock count matching React demo until data joined
                     onTap: () => _navigateToDetails(context, drug),
                   ).animate().slideX(delay: (50 * index).ms),
                 );
@@ -480,9 +485,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 final drug = medicineProvider.foodInteractionDrugs[index];
 
                 return SizedBox(
-                  width: 280,
-                  child: ModernDrugCard(
+                  width: 160,
+                  child: DangerousDrugCard(
                     drug: drug,
+                    riskLevel: RiskLevel.high,
+                    interactionCount: 1,
                     onTap: () => _navigateToDetails(context, drug),
                   ).animate().slideX(delay: (50 * index).ms),
                 );

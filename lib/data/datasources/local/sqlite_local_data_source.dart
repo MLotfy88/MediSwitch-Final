@@ -910,6 +910,31 @@ class SqliteLocalDataSource {
         );
       }
 
+      // CRITICAL: Also check High Risk Interactions (Relational) here
+      // This ensures existing users get the high risk data if it's missing (e.g. from previous update)
+      print(
+        '[seedDatabaseFromAssetIfNeeded] Checking High Risk Interactions (Relational)...',
+      );
+      final interactionsCount = Sqflite.firstIntValue(
+        await db.rawQuery(
+          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+        ),
+      );
+      print(
+        '[seedDatabaseFromAssetIfNeeded] Relational Interactions count: $interactionsCount',
+      );
+
+      if (interactionsCount == null || interactionsCount == 0) {
+        print(
+          '[seedDatabaseFromAssetIfNeeded] Relational Interactions table is EMPTY! Seeding NOW...',
+        );
+        await _seedRelationalInteractions(db);
+      } else {
+        print(
+          '[seedDatabaseFromAssetIfNeeded] Relational Interactions already exist: $interactionsCount',
+        );
+      }
+
       markSeedingAsComplete();
     }
   }
