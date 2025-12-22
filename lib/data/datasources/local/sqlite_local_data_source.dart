@@ -882,7 +882,7 @@ class SqliteLocalDataSource {
   }
 
   Future<void> seedDatabaseFromAssetIfNeeded() async {
-    logger.i("[seedDatabaseFromAssetIfNeeded] checking database state...");
+    _logger.i("[seedDatabaseFromAssetIfNeeded] checking database state...");
 
     try {
       final db = await dbHelper.database;
@@ -906,19 +906,19 @@ class SqliteLocalDataSource {
           ) ??
           0;
 
-      logger.i(
+      _logger.i(
         "[seedDatabaseFromAssetIfNeeded] Status: Meds=$medsExist, Ingredients=$ingredientsCount, Interactions=$interactionsCount",
       );
 
       // CRITICAL CHECK: If any basic building block is missing, trigger FULL seeding/repair
       if (!medsExist || ingredientsCount == 0 || interactionsCount == 0) {
-        logger.w(
+        _logger.w(
           "[seedDatabaseFromAssetIfNeeded] MISSING CRITICAL DATA. Triggering REPAIR/SEEDING...",
         );
         // performInitialSeeding now handles clearing tables if needed (based on previous fix)
         await performInitialSeeding();
       } else {
-        logger.i(
+        _logger.i(
           "[seedDatabaseFromAssetIfNeeded] Core data exists. Checking food_interactions...",
         );
 
@@ -928,12 +928,12 @@ class SqliteLocalDataSource {
             'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
           ),
         );
-        logger.i(
+        _logger.i(
           '[seedDatabaseFromAssetIfNeeded] Food interactions count: $foodInteractionsCount',
         );
 
         if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-          logger.i(
+          _logger.i(
             '[seedDatabaseFromAssetIfNeeded] Food interactions EMPTY! Seeding NOW...',
           );
           await _seedFoodInteractions(db);
@@ -943,17 +943,21 @@ class SqliteLocalDataSource {
               'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
             ),
           );
-          logger.i(
+          _logger.i(
             '[seedDatabaseFromAssetIfNeeded] After seeding: $newCount food interactions',
           );
         } else {
-          logger.i('[seedDatabaseFromAssetIfNeeded] Food interactions OK.');
+          _logger.i('[seedDatabaseFromAssetIfNeeded] Food interactions OK.');
         }
 
         markSeedingAsComplete();
       }
     } catch (e, s) {
-      logger.e("[seedDatabaseFromAssetIfNeeded] ERROR during check/seed", e, s);
+      _logger.e(
+        "[seedDatabaseFromAssetIfNeeded] ERROR during check/seed",
+        e,
+        s,
+      );
     }
   }
 
