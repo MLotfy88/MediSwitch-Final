@@ -153,11 +153,21 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getHighRiskDrugs(int limit) async {
+    debugPrint('[InteractionRepo] getHighRiskDrugs called with limit=$limit');
     try {
+      debugPrint(
+        '[InteractionRepo] Calling localDataSource.getHighRiskMedicines...',
+      );
       final models = await localDataSource.getHighRiskMedicines(limit);
-      return List<DrugEntity>.from(models);
-    } catch (e) {
-      debugPrint('Error getting high risk drugs: $e');
+      debugPrint(
+        '[InteractionRepo] Received ${models.length} models from data source',
+      );
+      final entities = List<DrugEntity>.from(models);
+      debugPrint('[InteractionRepo] Converted to ${entities.length} entities');
+      return entities;
+    } catch (e, stackTrace) {
+      debugPrint('[InteractionRepo] ❌ EXCEPTION in getHighRiskDrugs: $e');
+      debugPrint(stackTrace.toString());
       return [];
     }
   }
@@ -399,11 +409,25 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit) async {
+    debugPrint(
+      '[InteractionRepo] getDrugsWithFoodInteractions called with limit=$limit',
+    );
     try {
+      debugPrint(
+        '[InteractionRepo] Calling localDataSource.getDrugsWithFoodInteractions...',
+      );
       final models = await localDataSource.getDrugsWithFoodInteractions(limit);
-      return List<DrugEntity>.from(models);
-    } catch (e) {
-      debugPrint('Error getting drugs with food interactions: $e');
+      debugPrint(
+        '[InteractionRepo] Received ${models.length} models from data source',
+      );
+      final entities = List<DrugEntity>.from(models);
+      debugPrint('[InteractionRepo] Converted to ${entities.length} entities');
+      return entities;
+    } catch (e, stackTrace) {
+      debugPrint(
+        '[InteractionRepo] ❌ EXCEPTION in getDrugsWithFoodInteractions: $e',
+      );
+      debugPrint(stackTrace.toString());
       return [];
     }
   }
