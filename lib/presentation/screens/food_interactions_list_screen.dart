@@ -70,6 +70,7 @@ class FoodInteractionsListScreen extends StatelessWidget {
                         builder:
                             (_) => IngredientInteractionsScreen(
                               ingredient: ingredient,
+                              onlyFood: true,
                             ),
                       ),
                     );

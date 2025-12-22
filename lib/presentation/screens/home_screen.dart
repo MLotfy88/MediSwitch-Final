@@ -13,7 +13,7 @@ import 'package:mediswitch/presentation/screens/details/drug_details_screen.dart
 import 'package:mediswitch/presentation/screens/interaction_checker_screen.dart';
 import 'package:mediswitch/presentation/screens/notifications/notifications_screen.dart';
 import 'package:mediswitch/presentation/screens/search_screen.dart';
-import 'package:mediswitch/presentation/screens/weight_calculator_screen.dart';
+import 'package:mediswitch/presentation/screens/standalone_dosage_calculator_screen.dart';
 import 'package:mediswitch/presentation/services/ad_service.dart';
 import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
@@ -337,7 +337,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute<void>(
-                      builder: (_) => const WeightCalculatorScreen(),
+                      builder:
+                          (_) => const StandAlonePediatricCalculatorScreen(),
                     ),
                   );
                 },
@@ -485,6 +486,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           builder:
                               (_) => IngredientInteractionsScreen(
                                 ingredient: ingredient,
+                                onlyFood: true,
                               ),
                         ),
                       );

@@ -15,8 +15,15 @@ class IngredientInteractionsScreen extends StatefulWidget {
   /// The ingredient to filter by. If null, shows all high-risk interactions.
   final HighRiskIngredient? ingredient;
 
+  /// Whether to show only food interactions.
+  final bool onlyFood;
+
   /// Creates a screen to display drug interactions.
-  const IngredientInteractionsScreen({super.key, this.ingredient});
+  const IngredientInteractionsScreen({
+    super.key,
+    this.ingredient,
+    this.onlyFood = false,
+  });
 
   @override
   State<IngredientInteractionsScreen> createState() =>
@@ -49,9 +56,11 @@ class _IngredientInteractionsScreenState
       List<DrugInteraction> specificList = [];
 
       if (widget.ingredient != null) {
-        specificList = await _interactionRepository.getInteractionsWith(
-          widget.ingredient!.name,
-        );
+        if (!widget.onlyFood) {
+          specificList = await _interactionRepository.getInteractionsWith(
+            widget.ingredient!.name,
+          );
+        }
 
         // Fetch Food Interactions
         try {
@@ -174,8 +183,10 @@ class _IngredientInteractionsScreenState
     final theme = Theme.of(context);
     final isRTL = Directionality.of(context) == TextDirection.rtl;
     final title =
-        widget.ingredient?.displayName ??
-        (isRTL ? 'التفاعلات الخطيرة' : 'High Risk Interactions');
+        widget.onlyFood
+            ? (isRTL ? 'تفاعلات الطعام' : 'Food Interactions')
+            : (widget.ingredient?.displayName ??
+                (isRTL ? 'التفاعلات الخطيرة' : 'High Risk Interactions'));
 
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,

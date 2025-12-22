@@ -7,6 +7,7 @@ import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/widgets/details/universal_dosage_calculator.dart';
 import 'package:provider/provider.dart';
 
 /// Tab displaying dosage information for a specific [drug].
@@ -47,6 +48,16 @@ class DosageTab extends StatelessWidget {
               // Quick Stats Grid
               _buildQuickStats(context, l10n, summaryGuideline),
               const SizedBox(height: 24),
+
+              // Pediatric Calculator (Collapsible or always visible if pediatric)
+              if (drug.concentration.isNotEmpty) ...[
+                UniversalDosageCalculator(
+                  concentration: drug.concentration,
+                  medName: drug.tradeName,
+                  guidelines: guidelines,
+                ),
+                const SizedBox(height: 24),
+              ],
 
               // Standard Matrix Title
               if (guidelines.isNotEmpty) ...[
