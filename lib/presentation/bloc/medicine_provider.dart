@@ -54,8 +54,14 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
   List<DrugEntity> _highRiskDrugs = [];
-  List<DrugEntity> _foodInteractionDrugs = []; // New list for Food Interactions
+
+  // DRUGS list for reference, but we primarily use INGREDIENTS for UI
+  List<DrugEntity> _foodInteractionDrugs = [];
+
   List<HighRiskIngredient> _highRiskIngredients = [];
+  List<HighRiskIngredient> _foodInteractionIngredients =
+      []; // Deduplicated for UI
+
   final List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
   List<DrugEntity> _recentlyViewedDrugs = []; // New list for visited drugs
@@ -76,8 +82,8 @@ class MedicineProvider extends ChangeNotifier {
   String _selectedDosageForm = '';
   RangeValues? _selectedPriceRange;
   int _currentPage = 0;
-  final int _pageSize = 20;
-  final int _initialPageSize = 20;
+  final int _pageSize = 8; // Request: Load 8 drugs at a time
+  final int _initialPageSize = 8;
   bool _hasMoreItems = true;
 
   // Constants
@@ -94,6 +100,8 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
   List<DrugEntity> get foodInteractionDrugs => _foodInteractionDrugs;
   List<HighRiskIngredient> get highRiskIngredients => _highRiskIngredients;
+  List<HighRiskIngredient> get foodInteractionIngredients =>
+      _foodInteractionIngredients;
   List<DrugEntity> get favorites => _favorites;
   List<DrugEntity> get filteredMedicines => _filteredMedicines;
   List<CategoryEntity> get categories => _categories;
@@ -618,6 +626,42 @@ class MedicineProvider extends ChangeNotifier {
         _logger.w('WARNING: Food interaction drugs list is EMPTY!');
       }
       _foodInteractionDrugs = drugs;
+
+      // Deduplicate into Ingredients for Clinical UI
+      final Set<String> seenIngredients = {};
+      _foodInteractionIngredients = [];
+
+      for (final drug in drugs) {
+        // Normalize: take first ingredient if multiple, trim whitespace
+        final rawActive = drug.active;
+        if (rawActive.isEmpty) continue;
+
+        // Split by +, ;, / to get the primary molecule
+        final parts = rawActive.split(RegExp(r'[+;,/]'));
+        final primaryIngredient =
+            parts.isNotEmpty ? parts.first.trim() : rawActive;
+
+        if (primaryIngredient.length < 3) continue; // Skip garbage
+
+        final key = primaryIngredient.toLowerCase();
+        if (!seenIngredients.contains(key)) {
+          seenIngredients.add(key);
+          _foodInteractionIngredients.add(
+            HighRiskIngredient(
+              name: primaryIngredient,
+              totalInteractions:
+                  0, // Not querying full interactions for this view
+              severeCount: 0,
+              moderateCount: 0,
+              minorCount: 0,
+              dangerScore: 0,
+            ),
+          );
+        }
+      }
+      _logger.i(
+        'MedicineProvider: Deduplicated to ${_foodInteractionIngredients.length} unique food ingredients',
+      );
     } catch (e, stackTrace) {
       _logger.e("MedicineProvider: EXCEPTION in _loadFoodInteractionDrugs: $e");
       _logger.e(stackTrace);

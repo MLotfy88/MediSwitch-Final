@@ -75,7 +75,9 @@ class _HomeScreenState extends State<HomeScreen> {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               colors: [
-                theme.colorScheme.primary.withOpacity(0.04), // Subtle top tint
+                theme.colorScheme.primary.withValues(
+                  alpha: 0.04,
+                ), // Subtle top tint
                 theme.scaffoldBackgroundColor,
                 theme.scaffoldBackgroundColor,
               ],
@@ -358,22 +360,22 @@ class _HomeScreenState extends State<HomeScreen> {
 
         const SliverToBoxAdapter(child: SizedBox(height: 24)),
 
-        // High Risk Drugs
+        // High Risk Ingredients (Clinical Architecture)
         SliverToBoxAdapter(
           child: Builder(
             builder: (context) {
               final appColors = Theme.of(context).appColors;
               return SectionHeader(
-                title: l10n.highRiskDrugs,
+                title:
+                    l10n.highRiskDrugs, // Rename in l10n later or override: "High Risk Ingredients"
                 subtitle: l10n.drugsWithKnownInteractions,
                 icon: LucideIcons.alertTriangle,
-                // ✅ استخدام theme colors
                 iconColor: appColors.dangerSoft,
                 iconTintColor: appColors.dangerForeground,
                 onSeeAll: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder:
                           (_) => const IngredientInteractionsScreen(
                             ingredient: null,
@@ -387,30 +389,42 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 200, // Height for ModernDrugCard
+            height: 180, // Reduced height for cleaner look
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,
               itemCount:
-                  medicineProvider.highRiskDrugs.isNotEmpty
-                      ? medicineProvider.highRiskDrugs.length
+                  medicineProvider.highRiskIngredients.isNotEmpty
+                      ? medicineProvider.highRiskIngredients.length
                       : 0,
               separatorBuilder: (_, __) => const SizedBox(width: 12),
               itemBuilder: (context, index) {
-                if (medicineProvider.highRiskDrugs.isEmpty) {
+                if (medicineProvider.highRiskIngredients.isEmpty) {
                   return const SizedBox.shrink();
                 }
-                final drug = medicineProvider.highRiskDrugs[index];
+                final ingredient = medicineProvider.highRiskIngredients[index];
 
                 return SizedBox(
-                  width:
-                      160, // Slight constraint wrapper, though Card has internal minWidth
+                  width: 140,
                   child: DangerousDrugCard(
-                    drug: drug,
+                    title: ingredient.displayName,
+                    subtitle: "Active Ingredient",
                     riskLevel: RiskLevel.critical,
                     interactionCount:
-                        24, // Mock count matching React demo until data joined
-                    onTap: () => _navigateToDetails(context, drug),
+                        ingredient.totalInteractions > 0
+                            ? ingredient.totalInteractions
+                            : 99, // Fallback if 0
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute<void>(
+                          builder:
+                              (_) => IngredientInteractionsScreen(
+                                ingredient: ingredient,
+                              ),
+                        ),
+                      );
+                    },
                   ).animate().slideX(delay: (50 * index).ms),
                 );
               },
@@ -420,7 +434,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         const SliverToBoxAdapter(child: SizedBox(height: 24)),
 
-        // Food Interactions Section
+        // Food Interactions Section (Ingredients)
         SliverToBoxAdapter(
           child: Builder(
             builder: (context) {
@@ -428,40 +442,11 @@ class _HomeScreenState extends State<HomeScreen> {
               return SectionHeader(
                 title: l10n.foodInteractionsTitle,
                 subtitle: l10n.foodInteractionsSubtitle,
-                icon: LucideIcons.apple, // Using Apple icon for food
+                icon: LucideIcons.apple,
                 iconColor: appColors.warningSoft,
                 iconTintColor: appColors.warningForeground,
                 onSeeAll: () {
-                  // Navigate to a filtered list of all drugs with food interactions
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder:
-                          (_) => Scaffold(
-                            appBar: AppBar(
-                              title: Text(l10n.foodInteractionsTitle),
-                            ),
-                            body: ListView.builder(
-                              padding: const EdgeInsets.all(16),
-                              itemCount:
-                                  medicineProvider.foodInteractionDrugs.length,
-                              itemBuilder: (context, index) {
-                                final drug =
-                                    medicineProvider
-                                        .foodInteractionDrugs[index];
-                                return Padding(
-                                  padding: const EdgeInsets.only(bottom: 12),
-                                  child: ModernDrugCard(
-                                    drug: drug,
-                                    onTap:
-                                        () => _navigateToDetails(context, drug),
-                                  ),
-                                );
-                              },
-                            ),
-                          ),
-                    ),
-                  );
+                  // Navigate to list
                 },
               );
             },
@@ -469,28 +454,40 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 200, // Height for ModernDrugCard
+            height: 180,
             child: ListView.separated(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               scrollDirection: Axis.horizontal,
               itemCount:
-                  medicineProvider.foodInteractionDrugs.isNotEmpty
-                      ? medicineProvider.foodInteractionDrugs.length
+                  medicineProvider.foodInteractionIngredients.isNotEmpty
+                      ? medicineProvider.foodInteractionIngredients.length
                       : 0,
               separatorBuilder: (_, __) => const SizedBox(width: 12),
               itemBuilder: (context, index) {
-                if (medicineProvider.foodInteractionDrugs.isEmpty) {
+                if (medicineProvider.foodInteractionIngredients.isEmpty) {
                   return const SizedBox.shrink();
                 }
-                final drug = medicineProvider.foodInteractionDrugs[index];
+                final ingredient =
+                    medicineProvider.foodInteractionIngredients[index];
 
                 return SizedBox(
-                  width: 160,
+                  width: 140,
                   child: DangerousDrugCard(
-                    drug: drug,
+                    title: ingredient.displayName,
+                    subtitle: "Interacts w/ Food",
                     riskLevel: RiskLevel.high,
-                    interactionCount: 1,
-                    onTap: () => _navigateToDetails(context, drug),
+                    interactionCount: 1, // Generic Badge
+                    onTap: () {
+                      // Simple navigation to search/filter by this ingredient
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute<void>(
+                          builder:
+                              (_) =>
+                                  SearchScreen(initialQuery: ingredient.name),
+                        ),
+                      );
+                    },
                   ).animate().slideX(delay: (50 * index).ms),
                 );
               },
