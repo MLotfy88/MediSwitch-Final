@@ -152,27 +152,27 @@ class SqliteLocalDataSource {
       final medsExist = await hasMedicines();
       if (!medsExist) {
         // Only seed medicines if they don't exist
-        print('No medicines found. Starting full seeding...');
+        debugPrint('No medicines found. Starting full seeding...');
 
-        print('[Main Thread] Loading raw CSV asset...');
+        debugPrint('[Main Thread] Loading raw CSV asset...');
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
-        print('[Main Thread] Raw CSV loaded.');
+        debugPrint('[Main Thread] Raw CSV loaded.');
 
-        print('[Main Thread] Parsing CSV (in background isolate)...');
+        debugPrint('[Main Thread] Parsing CSV (in background isolate)...');
         // Use compute to unblock UI thread
         final List<MedicineModel> medicines = await compute(
           _parseCsvData,
           rawCsv,
         );
-        print('[Main Thread] Parsed ${medicines.length} medicines.');
+        debugPrint('[Main Thread] Parsed ${medicines.length} medicines.');
 
         if (medicines.isEmpty) {
-          print(
+          debugPrint(
             '[Main Thread] WARNING: Parsed medicine list is empty. Check CSV.',
           );
           // Still complete normally, but log warning. Might need error handling?
         } else {
-          print('[Main Thread] Starting batch insert...');
+          debugPrint('[Main Thread] Starting batch insert...');
           final batch = db.batch();
           // Also clear invalid ingredients if necessary, but this is initial seeding
           // db.delete('med_ingredients');
@@ -196,11 +196,11 @@ class SqliteLocalDataSource {
             }
           }
           await batch.commit(noResult: true);
-          print('[Main Thread] Batch insert completed.');
+          debugPrint('[Main Thread] Batch insert completed.');
         }
 
         // --- Seeding Dosage Guidelines ---
-        print('[Main Thread] Seeding Dosage Guidelines...');
+        debugPrint('[Main Thread] Seeding Dosage Guidelines...');
         try {
           final dosageJson = await rootBundle.loadString(
             'assets/data/dosage_guidelines.json',
@@ -226,22 +226,22 @@ class SqliteLocalDataSource {
               );
             }
             await batchDosage.commit(noResult: true);
-            print(
+            debugPrint(
               '[Main Thread] Dosage Guidelines seeded: ${dosageList.length} items.',
             );
           }
         } catch (e) {
-          print(
+          debugPrint(
             '[Main Thread] ⚠️ Warning: Failed to seed dosage guidelines: $e',
           );
           // Don't fail the whole seeding process if just this part fails (e.g. file missing)
         }
 
         // --- Seeding Interactions (Relational) ---
-        print('[Main Thread] Seeding Relational Interactions...');
+        debugPrint('[Main Thread] Seeding Relational Interactions...');
         await _seedRelationalInteractions(db);
       } else {
-        print('Medicines already exist. Skipping medicine seeding.');
+        debugPrint('Medicines already exist. Skipping medicine seeding.');
       }
 
       // --- Always check and seed Food Interactions if empty ---
@@ -256,7 +256,7 @@ class SqliteLocalDataSource {
       );
 
       if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-        print('[Main Thread] Food Interactions table is EMPTY. Seeding NOW...');
+        debugPrint('[Main Thread] Food Interactions table is EMPTY. Seeding NOW...');
         await _seedFoodInteractions(db);
 
         // Verify seeding succeeded
@@ -265,7 +265,7 @@ class SqliteLocalDataSource {
             'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
           ),
         );
-        print(
+        debugPrint(
           '[Main Thread] After seeding, food_interactions count: $newCount',
         );
 
@@ -273,18 +273,18 @@ class SqliteLocalDataSource {
         final sample = await db.rawQuery(
           'SELECT trade_name FROM ${DatabaseHelper.foodInteractionsTable} LIMIT 3',
         );
-        print(
+        debugPrint(
           '[Main Thread] Sample food interaction drugs: ${sample.map((r) => r['trade_name']).join(", ")}',
         );
       } else {
-        print(
+        debugPrint(
           '[Main Thread] Food Interactions already exist ($foodInteractionsCount records).',
         );
         // Sample existing data
         final sample = await db.rawQuery(
           'SELECT trade_name FROM ${DatabaseHelper.foodInteractionsTable} LIMIT 3',
         );
-        print(
+        debugPrint(
           '[Main Thread] Sample existing food interaction drugs: ${sample.map((r) => r['trade_name']).join(", ")}',
         );
       }
@@ -317,7 +317,7 @@ class SqliteLocalDataSource {
     } finally {
       // Ensure completer is completed if something unexpected happened before completion
       if (!_seedingCompleter.isCompleted) {
-        print(
+        debugPrint(
           'Completing seeding completer in finally block (unexpected state).',
         );
         _seedingCompleter.complete(); // Complete normally as a fallback
@@ -341,12 +341,12 @@ class SqliteLocalDataSource {
         try {
           final fname =
               'assets/data/interactions/rules_part_${chunk.toString().padLeft(3, '0')}.json';
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Loading rules chunk $chunk from: $fname',
           );
 
           final jsonString = await rootBundle.loadString(fname);
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Rules chunk $chunk loaded (${jsonString.length} bytes)',
           );
 
@@ -359,13 +359,13 @@ class SqliteLocalDataSource {
                   >; // Structure from py script directly uses 'data'
 
           if (rules.isEmpty) {
-            print(
+            debugPrint(
               '[INTERACTION SEEDING] Rules chunk $chunk is empty, stopping.',
             );
             break;
           }
 
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Inserting ${rules.length} rules from chunk $chunk...',
           );
           final batch = db.batch();
@@ -382,7 +382,7 @@ class SqliteLocalDataSource {
           }
           await batch.commit(noResult: true);
           totalRulesLoaded += rules.length;
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] ✅ Loaded Rules Chunk $chunk (${rules.length} items, total so far: $totalRulesLoaded)',
           );
           chunk++;
@@ -390,13 +390,13 @@ class SqliteLocalDataSource {
           // Break on 404/Not Found (End of chunks)
           if (e.toString().contains('Unable to load asset') ||
               e.toString().contains('404')) {
-            print(
+            debugPrint(
               '[INTERACTION SEEDING] No more rules chunks found (chunk $chunk). Total loaded: $totalRulesLoaded',
             );
             break;
           }
-          print('[INTERACTION SEEDING] ❌ ERROR loading rules chunk $chunk: $e');
-          print('[INTERACTION SEEDING] Stack trace: $stackTrace');
+          debugPrint('[INTERACTION SEEDING] ❌ ERROR loading rules chunk $chunk: $e');
+          debugPrint('[INTERACTION SEEDING] Stack trace: $stackTrace');
           break;
         }
       }
@@ -408,12 +408,12 @@ class SqliteLocalDataSource {
         try {
           final fname =
               'assets/data/interactions/ingredients_part_${chunk.toString().padLeft(3, '0')}.json';
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Loading ingredients chunk $chunk from: $fname',
           );
 
           final jsonString = await rootBundle.loadString(fname);
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Ingredients chunk $chunk loaded (${jsonString.length} bytes)',
           );
 
@@ -423,13 +423,13 @@ class SqliteLocalDataSource {
           final List<dynamic> items = content['data'] as List<dynamic>;
 
           if (items.isEmpty) {
-            print(
+            debugPrint(
               '[INTERACTION SEEDING] Ingredients chunk $chunk is empty, stopping.',
             );
             break;
           }
 
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] Inserting ingredient mappings from chunk $chunk (${items.length} drugs)...',
           );
           final batch = db.batch();
@@ -448,22 +448,22 @@ class SqliteLocalDataSource {
           }
           await batch.commit(noResult: true);
           totalIngredientsLoaded += ingredientCount;
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] ✅ Loaded Ingredients Chunk $chunk (${items.length} drugs, $ingredientCount mappings, total so far: $totalIngredientsLoaded)',
           );
           chunk++;
         } catch (e, stackTrace) {
           if (e.toString().contains('Unable to load asset') ||
               e.toString().contains('404')) {
-            print(
+            debugPrint(
               '[INTERACTION SEEDING] No more ingredients chunks found (chunk $chunk). Total loaded: $totalIngredientsLoaded',
             );
             break;
           }
-          print(
+          debugPrint(
             '[INTERACTION SEEDING] ❌ ERROR loading ingredients chunk $chunk: $e',
           );
-          print('[INTERACTION SEEDING] Stack trace: $stackTrace');
+          debugPrint('[INTERACTION SEEDING] Stack trace: $stackTrace');
           break;
         }
       }
@@ -509,7 +509,7 @@ class SqliteLocalDataSource {
           );
         }
         await batch.commit(noResult: true);
-        print(
+        debugPrint(
           '[FOOD INTERACTION SEEDING] ✅ Seeded ${interactions.length} food interactions.',
         );
       }
@@ -547,19 +547,19 @@ class SqliteLocalDataSource {
       });
 
       if (isolateResult != null) {
-        print(
+        debugPrint(
           '!!! ERROR RETURNED FROM _updateDatabaseIsolate (logged from main thread) !!!',
         );
-        print(isolateResult);
+        debugPrint(isolateResult);
         throw Exception('Update isolate failed: $isolateResult');
       } else {
-        print('[Main Thread] Isolate update completed successfully.');
+        debugPrint('[Main Thread] Isolate update completed successfully.');
         final prefs = await _prefs;
         await prefs.setInt(
           _prefsKeyLastUpdate,
           DateTime.now().millisecondsSinceEpoch,
         );
-        print(
+        debugPrint(
           'Database updated successfully from downloaded CSV (via isolate).',
         );
       }
@@ -865,7 +865,7 @@ class SqliteLocalDataSource {
       );
 
       if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-        print(
+        debugPrint(
           '[seedDatabaseFromAssetIfNeeded] Food interactions table is EMPTY! Seeding NOW...',
         );
         await _seedFoodInteractions(db);
@@ -876,11 +876,11 @@ class SqliteLocalDataSource {
             'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
           ),
         );
-        print(
+        debugPrint(
           '[seedDatabaseFromAssetIfNeeded] After seeding: $newCount food interactions',
         );
       } else {
-        print(
+        debugPrint(
           '[seedDatabaseFromAssetIfNeeded] Food interactions already exist: $foodInteractionsCount',
         );
       }
@@ -1041,12 +1041,12 @@ class SqliteLocalDataSource {
         'SELECT COUNT(*) as count FROM ${DatabaseHelper.foodInteractionsTable}',
       );
       final totalFoodInteractions = Sqflite.firstIntValue(countResult) ?? 0;
-      print(
+      debugPrint(
         '[getDrugsWithFoodInteractions] Total food interactions in DB: $totalFoodInteractions',
       );
 
       if (totalFoodInteractions == 0) {
-        print(
+        debugPrint(
           '[getDrugsWithFoodInteractions] WARNING: No food interactions found in database!',
         );
         return [];
@@ -1062,13 +1062,13 @@ class SqliteLocalDataSource {
         [limit],
       );
 
-      print(
+      debugPrint(
         '[getDrugsWithFoodInteractions] Found ${tradeNames.length} unique trade names with food interactions',
       );
 
       // DEBUG: Print first 5 trade names from food_interactions
       if (tradeNames.isNotEmpty) {
-        print(
+        debugPrint(
           '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${tradeNames.take(5).map((e) => e['trade_name']).toList()}',
         );
       }
@@ -1107,13 +1107,13 @@ class SqliteLocalDataSource {
             limit: 1,
           );
           if (logDetail) {
-            print(
+            debugPrint(
               '[getDrugsWithFoodInteractions] Exact match failed for "$tradeName". LIKE match found: ${drugs.length}',
             );
           }
         } else {
           if (logDetail) {
-            print(
+            debugPrint(
               '[getDrugsWithFoodInteractions] Exact match success for "$tradeName"',
             );
           }
@@ -1125,16 +1125,16 @@ class SqliteLocalDataSource {
         }
       }
 
-      print(
+      debugPrint(
         '[getDrugsWithFoodInteractions] Match summary: Attempts=$matchAttempts, Matches=$matchesFound',
       );
-      print(
+      debugPrint(
         '[getDrugsWithFoodInteractions] Successfully matched ${results.length} drugs',
       );
       return results;
     } catch (e, stackTrace) {
-      print('[getDrugsWithFoodInteractions] ERROR: $e');
-      print(stackTrace);
+      debugPrint('[getDrugsWithFoodInteractions] ERROR: $e');
+      debugPrint(stackTrace.toString());
       return [];
     }
   }
@@ -1212,10 +1212,10 @@ class SqliteLocalDataSource {
       final ingredientsCount = Sqflite.firstIntValue(
         await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
       );
-      print('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
+      debugPrint('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
 
       if (ingredientsCount == 0) {
-        print(
+        debugPrint(
           '[getHighRiskMedicines] FATAL: med_ingredients table is empty! Logic relying on ingredients will fail.',
         );
         // Debug: check text content of one medicine to see if ingredients are raw in there
@@ -1224,7 +1224,7 @@ class SqliteLocalDataSource {
           limit: 1,
         );
         if (sampleMed.isNotEmpty) {
-          print(
+          debugPrint(
             '[getHighRiskMedicines] Sample Med Active Ingredient: ${sampleMed.first['activeIngredient']}',
           );
         }
@@ -1241,7 +1241,7 @@ class SqliteLocalDataSource {
       );
 
       if (interactionsCount == 0) {
-        print(
+        debugPrint(
           '[getHighRiskMedicines] WARNING: No drug interactions in database!',
         );
         return [];
@@ -1276,14 +1276,14 @@ class SqliteLocalDataSource {
 
       if (maps.isNotEmpty) {
         // Sample first result
-        print('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
+        debugPrint('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
       }
 
       return List.generate(maps.length, (i) {
         return MedicineModel.fromMap(maps[i]);
       });
     } catch (e, stackTrace) {
-      print('[getHighRiskMedicines] ERROR: $e');
+      debugPrint('[getHighRiskMedicines] ERROR: $e');
       print(stackTrace);
       return [];
     }
