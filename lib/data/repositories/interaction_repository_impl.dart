@@ -153,6 +153,11 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getHighRiskDrugs(int limit) async {
+    // FORCE A VISIBLE ERROR TO VERIFY THIS CODE IS ACTUALLY RUNNING
+    throw Exception(
+      '[CRITICAL TEST] getHighRiskDrugs WAS CALLED! limit=$limit',
+    );
+
     print('[InteractionRepo] getHighRiskDrugs called with limit=$limit');
     try {
       debugPrint(
