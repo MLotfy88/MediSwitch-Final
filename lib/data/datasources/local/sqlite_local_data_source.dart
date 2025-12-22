@@ -5,11 +5,10 @@ import 'package:csv/csv.dart'; // Restore csv import
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:mediswitch/core/database/database_helper.dart';
+import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/data/models/drug_interaction_model.dart'; // Added import
-import 'package:mediswitch/core/services/file_logger_service.dart';
-
 import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
@@ -112,8 +111,11 @@ class SqliteLocalDataSource {
   // Remove isSeeding getter
   // bool get isSeeding => _isSeeding;
 
+  final FileLoggerService _logger;
+
   // Constructor no longer automatically triggers seeding
-  SqliteLocalDataSource({required this.dbHelper});
+  SqliteLocalDataSource({required this.dbHelper, FileLoggerService? logger})
+    : _logger = logger ?? FileLoggerService();
 
   Future<SharedPreferences> get _prefs async {
     return await SharedPreferences.getInstance();
@@ -1033,19 +1035,6 @@ class SqliteLocalDataSource {
     return maps.map((e) => e['interaction'] as String).toList();
   }
 
-import 'package:mediswitch/core/services/file_logger_service.dart';
-
-class SqliteLocalDataSource {
-  final DatabaseHelper dbHelper;
-  final FileLoggerService _logger;
-
-  SqliteLocalDataSource({
-    required this.dbHelper,
-    FileLoggerService? logger,
-  }) : _logger = logger ?? FileLoggerService();
-
-  // ... (rest of class)
-
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
@@ -1148,11 +1137,7 @@ class SqliteLocalDataSource {
       );
       return results;
     } catch (e, stackTrace) {
-      _logger.e(
-        '[getDrugsWithFoodInteractions] ERROR',
-        e,
-        stackTrace,
-      );
+      _logger.e('[getDrugsWithFoodInteractions] ERROR', e, stackTrace);
       return [];
     }
   }
@@ -1230,7 +1215,9 @@ class SqliteLocalDataSource {
       final ingredientsCount = Sqflite.firstIntValue(
         await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
       );
-      _logger.d('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
+      _logger.d(
+        '[getHighRiskMedicines] med_ingredients count: $ingredientsCount',
+      );
 
       if (ingredientsCount == 0) {
         _logger.e(
@@ -1294,7 +1281,9 @@ class SqliteLocalDataSource {
 
       if (maps.isNotEmpty) {
         // Sample first result
-        _logger.d('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
+        _logger.d(
+          '[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}',
+        );
       }
 
       return List.generate(maps.length, (i) {
