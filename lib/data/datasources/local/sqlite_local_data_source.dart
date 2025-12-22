@@ -154,9 +154,25 @@ class SqliteLocalDataSource {
       final stopwatch = Stopwatch()..start();
 
       final medsExist = await hasMedicines();
-      if (!medsExist) {
-        // Only seed medicines if they don't exist
-        print('No medicines found. Starting full seeding...');
+      final ingredientsCount = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
+      );
+      print(
+        '[Main Thread] Meds exist: $medsExist, Ingredients count: $ingredientsCount',
+      );
+
+      if (!medsExist || (ingredientsCount == null || ingredientsCount == 0)) {
+        // Only seed medicines if they don't exist OR if ingredients are missing
+        print('Missing medicines or ingredients. Starting full seeding...');
+
+        // Clear tables to be safe if we are re-seeding (especially for partial states)
+        if (medsExist) {
+          print(
+            '[Main Thread] clearing existing medicines and ingredients to ensure clean slate...',
+          );
+          await db.delete('med_ingredients');
+          await db.delete(DatabaseHelper.medicinesTable);
+        }
 
         print('[Main Thread] Loading raw CSV asset...');
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
@@ -244,7 +260,9 @@ class SqliteLocalDataSource {
         // --- Seeding Interactions (Relational) ---
         // (Removed nested call to _seedRelationalInteractions)
       } else {
-        print('Medicines already exist. Skipping medicine seeding.');
+        print(
+          'Medicines and ingredients already exist. Skipping medicine seeding.',
+        );
       }
 
       // --- Always check and seed Relational Interactions if empty ---
