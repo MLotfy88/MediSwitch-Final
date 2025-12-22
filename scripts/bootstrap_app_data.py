@@ -13,6 +13,12 @@ Target:
 import json
 import os
 import sys
+import re
+
+# Add scripts directory to path to allow importing from other scripts
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from process_datalake import normalize_active_ingredient
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -128,10 +134,16 @@ def bootstrap_interactions():
             if not mid or not active or str(mid).lower() == 'nan': continue
             
             # Smart Split (semicolon, plus, comma handling)
-            # Logic: match scraper's splitting if possible
-            import re
             parts = re.split(r'[+;,/]', active)
-            cleaned_parts = [p.strip().lower() for p in parts if p.strip()]
+            cleaned_parts = []
+            for p in parts:
+                p = p.strip()
+                if not p: continue
+                # Remove common concentration patterns (10mg, 5%, etc)
+                cleaned_part = re.sub(r'\b\d+(?:\.\d+)?\s*(?:mg|ml|%|g|mcg|iu)\b', '', p, flags=re.IGNORECASE).strip()
+                normalized = normalize_active_ingredient(cleaned_part)
+                if normalized:
+                    cleaned_parts.append(normalized)
             
             if cleaned_parts:
                 med_ingredients_list.append({

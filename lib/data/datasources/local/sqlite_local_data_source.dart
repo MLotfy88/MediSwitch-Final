@@ -424,13 +424,21 @@ class SqliteLocalDataSource {
           );
           final batch = db.batch();
           for (final r in rules) {
+            final i1 = _normalizeIngredientName(
+              r['ingredient1'] as String? ?? '',
+            );
+            final i2 = _normalizeIngredientName(
+              r['ingredient2'] as String? ?? '',
+            );
+            if (i1.isEmpty || i2.isEmpty) continue;
+
             batch.insert(DatabaseHelper.interactionsTable, {
-              'ingredient1': r['ingredient1'],
-              'ingredient2': r['ingredient2'],
+              'ingredient1': i1,
+              'ingredient2': i2,
               'severity': r['severity'],
               'effect': r['effect'] ?? r['description'],
               'source': r['source'],
-              'updated_at': 0, // FIXED for DB Version 9
+              'updated_at': 0,
             });
           }
           await batch.commit(noResult: true);
@@ -492,10 +500,15 @@ class SqliteLocalDataSource {
             final List<dynamic> ingredients =
                 item['ingredients'] as List<dynamic>;
             for (final ing in ingredients) {
+              final normalizedIng = _normalizeIngredientName(
+                ing as String? ?? '',
+              );
+              if (normalizedIng.isEmpty) continue;
+
               batch.insert('med_ingredients', {
                 'med_id': medId,
-                'ingredient': ing,
-                'updated_at': 0, // NEW COLUMN for DB Version 9
+                'ingredient': normalizedIng,
+                'updated_at': 0,
               }, conflictAlgorithm: ConflictAlgorithm.ignore);
               ingredientCount++;
             }
@@ -1333,7 +1346,7 @@ class SqliteLocalDataSource {
         SELECT DISTINCT d.* 
         FROM ${DatabaseHelper.medicinesTable} d
         JOIN med_ingredients mi ON d.id = mi.med_id
-        JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = LOWER(r.ingredient1) OR mi.ingredient = LOWER(r.ingredient2))
+        JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = r.ingredient1 OR mi.ingredient = r.ingredient2)
         WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
         LIMIT ?
       ''',
@@ -1455,5 +1468,44 @@ class SqliteLocalDataSource {
         'source': m['source'],
       });
     });
+  }
+
+  /// Helper to normalize ingredient names for consistent matching
+  String _normalizeIngredientName(String name) {
+    if (name.isEmpty) return '';
+
+    // 1. Lowercase and trim
+    String processed = name.toLowerCase().trim();
+
+    // 2. Remove parenthetical info: paracetamol(acetaminophen) -> paracetamol
+    processed = processed.split('(').first.trim();
+
+    // 3. Remove common pharmaceutical salt/form suffixes if they are separate words
+    final suffixesToRemove = [
+      ' tablets',
+      ' tablet',
+      ' capsule',
+      ' capsules',
+      ' hydrochloride',
+      ' hcl',
+      ' sodium',
+      ' potassium',
+      ' phosphate',
+      ' sulfate',
+      ' acetate',
+      ' fumarate',
+      ' suspension',
+      ' oral solution',
+      ' injection',
+    ];
+
+    for (final suffix in suffixesToRemove) {
+      if (processed.endsWith(suffix)) {
+        processed =
+            processed.substring(0, processed.length - suffix.length).trim();
+      }
+    }
+
+    return processed;
   }
 }

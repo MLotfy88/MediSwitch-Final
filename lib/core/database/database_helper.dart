@@ -18,7 +18,7 @@ class DatabaseHelper {
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
   static const int _dbVersion =
-      9; // Bumping version for med_ingredients sync support
+      10; // Bumping version for case-insensitive interaction matching
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -118,6 +118,15 @@ class DatabaseHelper {
         );
       }
     }
+
+    if (oldVersion < 10) {
+      debugPrint(
+        'Upgrading to Version 10: Recreating interaction tables for case-insensitivity...',
+      );
+      await db.execute('DROP TABLE IF EXISTS $interactionsTable');
+      await db.execute('DROP TABLE IF EXISTS med_ingredients');
+      await _onCreateInteractions(db);
+    }
   }
 
   Future<void> _onCreate(Database db, int version) async {
@@ -216,8 +225,8 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS $interactionsTable (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        ingredient1 TEXT,
-        ingredient2 TEXT,
+        ingredient1 TEXT COLLATE NOCASE,
+        ingredient2 TEXT COLLATE NOCASE,
         severity TEXT,
         effect TEXT,
         source TEXT,
@@ -238,7 +247,7 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS med_ingredients (
         med_id INTEGER,
-        ingredient TEXT,
+        ingredient TEXT COLLATE NOCASE,
         updated_at INTEGER DEFAULT 0, -- For Sync support
         PRIMARY KEY (med_id, ingredient)
       )
