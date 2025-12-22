@@ -123,7 +123,10 @@ Future<void> setupLocator() async {
   });
   locator.registerLazySingleton<SqliteLocalDataSource>(() {
     logger.i("Locator: Registering SqliteLocalDataSource...");
-    return SqliteLocalDataSource(dbHelper: locator<DatabaseHelper>());
+    return SqliteLocalDataSource(
+      dbHelper: locator<DatabaseHelper>(),
+      logger: locator<FileLoggerService>(),
+    );
   });
   locator.registerLazySingleton<InteractionLocalDataSource>(() {
     logger.i("Locator: Registering InteractionLocalDataSource...");
@@ -164,6 +167,7 @@ Future<void> setupLocator() async {
     logger.i("Locator: Registering InteractionRepository...");
     return InteractionRepositoryImpl(
       localDataSource: locator<SqliteLocalDataSource>(),
+      logger: locator<FileLoggerService>(),
     );
   });
   locator.registerLazySingleton<ConfigRepository>(() {

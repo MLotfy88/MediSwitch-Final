@@ -8,6 +8,8 @@ import 'package:mediswitch/core/database/database_helper.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/data/models/drug_interaction_model.dart'; // Added import
+import 'package:mediswitch/core/services/file_logger_service.dart';
+
 import 'package:mediswitch/data/models/medicine_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
@@ -1031,22 +1033,35 @@ class SqliteLocalDataSource {
     return maps.map((e) => e['interaction'] as String).toList();
   }
 
+import 'package:mediswitch/core/services/file_logger_service.dart';
+
+class SqliteLocalDataSource {
+  final DatabaseHelper dbHelper;
+  final FileLoggerService _logger;
+
+  SqliteLocalDataSource({
+    required this.dbHelper,
+    FileLoggerService? logger,
+  }) : _logger = logger ?? FileLoggerService();
+
+  // ... (rest of class)
+
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
 
     try {
-      // First check if food_interactions table has data
+      // Check if food_interactions table has data
       final countResult = await db.rawQuery(
         'SELECT COUNT(*) as count FROM ${DatabaseHelper.foodInteractionsTable}',
       );
       final totalFoodInteractions = Sqflite.firstIntValue(countResult) ?? 0;
-      print(
+      _logger.d(
         '[getDrugsWithFoodInteractions] Total food interactions in DB: $totalFoodInteractions',
       );
 
       if (totalFoodInteractions == 0) {
-        print(
+        _logger.w(
           '[getDrugsWithFoodInteractions] WARNING: No food interactions found in database!',
         );
         return [];
@@ -1062,13 +1077,13 @@ class SqliteLocalDataSource {
         [limit],
       );
 
-      print(
+      _logger.d(
         '[getDrugsWithFoodInteractions] Found ${tradeNames.length} unique trade names with food interactions',
       );
 
       // DEBUG: Print first 5 trade names from food_interactions
       if (tradeNames.isNotEmpty) {
-        print(
+        _logger.d(
           '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${tradeNames.take(5).map((e) => e['trade_name']).toList()}',
         );
       }
@@ -1107,13 +1122,13 @@ class SqliteLocalDataSource {
             limit: 1,
           );
           if (logDetail) {
-            print(
+            _logger.d(
               '[getDrugsWithFoodInteractions] Exact match failed for "$tradeName". LIKE match found: ${drugs.length}',
             );
           }
         } else {
           if (logDetail) {
-            print(
+            _logger.d(
               '[getDrugsWithFoodInteractions] Exact match success for "$tradeName"',
             );
           }
@@ -1125,16 +1140,19 @@ class SqliteLocalDataSource {
         }
       }
 
-      print(
+      _logger.i(
         '[getDrugsWithFoodInteractions] Match summary: Attempts=$matchAttempts, Matches=$matchesFound',
       );
-      print(
+      _logger.i(
         '[getDrugsWithFoodInteractions] Successfully matched ${results.length} drugs',
       );
       return results;
     } catch (e, stackTrace) {
-      print('[getDrugsWithFoodInteractions] ERROR: $e');
-      print(stackTrace.toString());
+      _logger.e(
+        '[getDrugsWithFoodInteractions] ERROR',
+        e,
+        stackTrace,
+      );
       return [];
     }
   }
@@ -1212,10 +1230,10 @@ class SqliteLocalDataSource {
       final ingredientsCount = Sqflite.firstIntValue(
         await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
       );
-      print('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
+      _logger.d('[getHighRiskMedicines] med_ingredients count: $ingredientsCount');
 
       if (ingredientsCount == 0) {
-        print(
+        _logger.e(
           '[getHighRiskMedicines] FATAL: med_ingredients table is empty! Logic relying on ingredients will fail.',
         );
         // Debug: check text content of one medicine to see if ingredients are raw in there
@@ -1224,7 +1242,7 @@ class SqliteLocalDataSource {
           limit: 1,
         );
         if (sampleMed.isNotEmpty) {
-          print(
+          _logger.d(
             '[getHighRiskMedicines] Sample Med Active Ingredient: ${sampleMed.first['activeIngredient']}',
           );
         }
@@ -1236,12 +1254,12 @@ class SqliteLocalDataSource {
           'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
         ),
       );
-      print(
+      _logger.d(
         '[getHighRiskMedicines] drug_interactions count: $interactionsCount',
       );
 
       if (interactionsCount == 0) {
-        print(
+        _logger.w(
           '[getHighRiskMedicines] WARNING: No drug interactions in database!',
         );
         return [];
@@ -1253,7 +1271,7 @@ class SqliteLocalDataSource {
           "SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable} WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')",
         ),
       );
-      print(
+      _logger.d(
         '[getHighRiskMedicines] High-severity interactions: $highSeverityCount',
       );
 
@@ -1270,21 +1288,20 @@ class SqliteLocalDataSource {
         [limit],
       );
 
-      print(
+      _logger.i(
         '[getHighRiskMedicines] Query returned ${maps.length} high-risk drugs',
       );
 
       if (maps.isNotEmpty) {
         // Sample first result
-        print('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
+        _logger.d('[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}');
       }
 
       return List.generate(maps.length, (i) {
         return MedicineModel.fromMap(maps[i]);
       });
     } catch (e, stackTrace) {
-      print('[getHighRiskMedicines] ERROR: $e');
-      print(stackTrace);
+      _logger.e('[getHighRiskMedicines] ERROR', e, stackTrace);
       return [];
     }
   }

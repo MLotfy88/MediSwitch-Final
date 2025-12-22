@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:mediswitch/core/database/database_helper.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
@@ -15,8 +16,12 @@ import 'package:sqflite/sqflite.dart';
 
 class InteractionRepositoryImpl implements InteractionRepository {
   final SqliteLocalDataSource localDataSource;
+  final FileLoggerService _logger;
 
-  InteractionRepositoryImpl({required this.localDataSource});
+  InteractionRepositoryImpl({
+    required this.localDataSource,
+    required FileLoggerService logger,
+  }) : _logger = logger;
 
   @override
   Future<Either<Failure, Unit>> loadInteractionData() async {
@@ -153,12 +158,19 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getHighRiskDrugs(int limit) async {
+    _logger.d('[InteractionRepo] getHighRiskDrugs called with limit=$limit');
     try {
       final models = await localDataSource.getHighRiskMedicines(limit);
+      _logger.d(
+        '[InteractionRepo] Received ${models.length} models from data source',
+      );
       return List<DrugEntity>.from(models);
     } catch (e, stackTrace) {
-      print('[InteractionRepo] ❌ EXCEPTION in getHighRiskDrugs: $e');
-      print(stackTrace.toString());
+      _logger.e(
+        '[InteractionRepo] ❌ EXCEPTION in getHighRiskDrugs',
+        e,
+        stackTrace,
+      );
       return [];
     }
   }
@@ -400,25 +412,26 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit) async {
-    debugPrint(
+    _logger.d(
       '[InteractionRepo] getDrugsWithFoodInteractions called with limit=$limit',
     );
     try {
-      debugPrint(
+      _logger.d(
         '[InteractionRepo] Calling localDataSource.getDrugsWithFoodInteractions...',
       );
       final models = await localDataSource.getDrugsWithFoodInteractions(limit);
-      debugPrint(
+      _logger.d(
         '[InteractionRepo] Received ${models.length} models from data source',
       );
       final entities = List<DrugEntity>.from(models);
-      print('[InteractionRepo] Converted to ${entities.length} entities');
+      _logger.i('[InteractionRepo] Converted to ${entities.length} entities');
       return entities;
     } catch (e, stackTrace) {
-      debugPrint(
-        '[InteractionRepo] ❌ EXCEPTION in getDrugsWithFoodInteractions: $e',
+      _logger.e(
+        '[InteractionRepo] ❌ EXCEPTION in getDrugsWithFoodInteractions',
+        e,
+        stackTrace,
       );
-      debugPrint(stackTrace.toString());
       return [];
     }
   }
