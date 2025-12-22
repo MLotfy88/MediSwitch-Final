@@ -138,13 +138,13 @@ Future<void> main() async {
 
             // 2. Try to find this drug in medicines
             final matchExact = await db.rawQuery(
-              "SELECT * FROM medicines WHERE LOWER(tradeName) = LOWER(?)",
+              "SELECT * FROM ${DatabaseHelper.medicinesTable} WHERE LOWER(tradeName) = LOWER(?)",
               [firstFoodDrug.trim()],
             );
             logger.i("main: Exact match result count: ${matchExact.length}");
 
             final matchLike = await db.rawQuery(
-              "SELECT * FROM medicines WHERE LOWER(tradeName) LIKE LOWER(?)",
+              "SELECT * FROM ${DatabaseHelper.medicinesTable} WHERE LOWER(tradeName) LIKE LOWER(?)",
               ['%${firstFoodDrug.trim()}%'],
             );
             logger.i("main: LIKE match result count: ${matchLike.length}");
@@ -152,7 +152,7 @@ Future<void> main() async {
 
           // 3. Get sample medicines
           final medSamples = await db.rawQuery(
-            'SELECT tradeName FROM medicines LIMIT 5',
+            'SELECT tradeName FROM ${DatabaseHelper.medicinesTable} LIMIT 5',
           );
           logger.i(
             "main: Sample medicines tradeNames: ${medSamples.map((e) => '"${e['tradeName']}"').toList()}",
