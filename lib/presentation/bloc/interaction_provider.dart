@@ -136,8 +136,8 @@ class InteractionProvider extends ChangeNotifier {
 
   Future<List<String>> getFoodInteractions(DrugEntity drug) async {
     try {
-      if (drug.id == null) return [];
-      return await _interactionRepository.getFoodInteractions(drug.id!);
+      if (drug.id == null && drug.active.isEmpty) return [];
+      return await _interactionRepository.getFoodInteractions(drug);
     } catch (e, s) {
       _logger.e("InteractionProvider: Error getting food interactions", e, s);
       return [];

@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
-import 'package:mediswitch/domain/repositories/interaction_repository.dart'; // Ensure this matches interaction repo
+import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
@@ -45,12 +46,54 @@ class _IngredientInteractionsScreenState
   /// Loads interaction data from repository
   Future<void> _loadInteractions() async {
     try {
-      List<DrugInteraction> specificList;
+      List<DrugInteraction> specificList = [];
 
       if (widget.ingredient != null) {
         specificList = await _interactionRepository.getInteractionsWith(
           widget.ingredient!.name,
         );
+
+        // Fetch Food Interactions
+        try {
+          // Create a temporary drug entity with the active ingredient name to lookup food interactions
+          final tempDrug = DrugEntity(
+            id: null,
+            tradeName: '',
+            arabicName: '',
+            price: '0',
+            // oldPrice: null,
+            mainCategory: '',
+            active: widget.ingredient!.name,
+            company: '',
+            dosageForm: '',
+            concentration: '',
+            unit: '',
+            usage: '',
+            description: '',
+            lastPriceUpdate: '',
+            pharmacology: '',
+          );
+
+          final foodInteractions = await _interactionRepository
+              .getFoodInteractions(tempDrug);
+
+          // Convert strings to DrugInteraction objects
+          for (final foodDesc in foodInteractions) {
+            specificList.add(
+              DrugInteraction(
+                id: -1, // Dummy ID
+                medId: 0,
+                interactionDrugName: 'Food / Diet',
+                severity: 'Major', // Assume significant if listed
+                description: foodDesc,
+                source: 'Database', // or 'Food'
+                // interactionDailyMedId: null
+              ),
+            );
+          }
+        } catch (e) {
+          debugPrint('Error loading food interactions: $e');
+        }
       } else {
         specificList = await _interactionRepository.getHighRiskInteractions();
       }

@@ -28,6 +28,7 @@ import 'package:mediswitch/presentation/widgets/section_header.dart';
 import 'package:provider/provider.dart';
 
 import 'details/ingredient_interactions_screen.dart';
+import 'food_interactions_list_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final VoidCallback? onSearchTap;
@@ -367,7 +368,9 @@ class _HomeScreenState extends State<HomeScreen> {
               final appColors = Theme.of(context).appColors;
               return SectionHeader(
                 title:
-                    l10n.highRiskDrugs, // Rename in l10n later or override: "High Risk Ingredients"
+                    Directionality.of(context) == TextDirection.rtl
+                        ? 'المكونات الخطيرة'
+                        : 'High Risk Ingredients',
                 subtitle: l10n.drugsWithKnownInteractions,
                 icon: LucideIcons.alertTriangle,
                 iconColor: appColors.dangerSoft,
@@ -446,7 +449,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 iconColor: appColors.warningSoft,
                 iconTintColor: appColors.warningForeground,
                 onSeeAll: () {
-                  // Navigate to list
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder: (_) => const FoodInteractionsListScreen(),
+                    ),
+                  );
                 },
               );
             },
@@ -478,13 +486,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     riskLevel: RiskLevel.high,
                     interactionCount: 1, // Generic Badge
                     onTap: () {
-                      // Simple navigation to search/filter by this ingredient
+                      // Navigate to Ingredient Interactions Screen (Same as High Risk)
                       Navigator.push(
                         context,
                         MaterialPageRoute<void>(
                           builder:
-                              (_) =>
-                                  SearchScreen(initialQuery: ingredient.name),
+                              (_) => IngredientInteractionsScreen(
+                                ingredient: ingredient,
+                              ),
                         ),
                       );
                     },

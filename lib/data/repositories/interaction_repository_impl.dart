@@ -401,9 +401,24 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   @override
-  Future<List<String>> getFoodInteractions(int medId) async {
+  Future<List<String>> getFoodInteractions(DrugEntity drug) async {
     try {
-      return await localDataSource.getFoodInteractionsForDrug(medId);
+      final Set<String> allInteractions = {};
+
+      // 1. Check by ID (Legacy/Direct Match)
+      if (drug.id != null) {
+        final byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
+        allInteractions.addAll(byId);
+      }
+
+      // 2. Check by Active Ingredient (Molecular Match - Preferred)
+      if (drug.active.isNotEmpty) {
+        final byIngredient = await localDataSource
+            .getFoodInteractionsForIngredient(drug.active);
+        allInteractions.addAll(byIngredient);
+      }
+
+      return allInteractions.toList();
     } catch (e) {
       debugPrint('Error getting food interactions: $e');
       return [];

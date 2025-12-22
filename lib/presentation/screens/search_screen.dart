@@ -87,9 +87,15 @@ class _SearchScreenState extends State<SearchScreen> {
     if (!_scrollController.hasClients) return;
     final maxScroll = _scrollController.position.maxScrollExtent;
     final currentScroll = _scrollController.position.pixels;
-    if (currentScroll >= (maxScroll - 200) &&
+
+    // Check if we are near bottom (threshold 100 or 10% of list)
+    // If the list is small, maxScroll might be small, so we must be careful.
+    final threshold = 100.0;
+
+    if (currentScroll >= (maxScroll - threshold) &&
         provider.hasMoreItems &&
         !provider.isLoadingMore) {
+      // Debounce slightly if needed, but provider locks with _isLoadingMore
       provider.loadMoreDrugs();
     }
   }
@@ -374,9 +380,24 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
+    // Auto-load more if the list is too short to scroll
+    if (provider.hasMoreItems &&
+        !provider.isLoadingMore &&
+        provider.filteredMedicines.isNotEmpty &&
+        provider.filteredMedicines.length <= 8) {
+      // Schedule a load after build
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted && provider.hasMoreItems && !provider.isLoadingMore) {
+          provider.loadMoreDrugs();
+        }
+      });
+    }
+
     return ListView.builder(
       controller: _scrollController,
       padding: const EdgeInsets.all(16),
+      physics:
+          const AlwaysScrollableScrollPhysics(), // Ensure scrollable even if short
       itemCount:
           provider.filteredMedicines.length + (provider.isLoadingMore ? 1 : 0),
       itemBuilder: (context, index) {

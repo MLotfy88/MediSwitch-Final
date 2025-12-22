@@ -60,7 +60,9 @@ abstract class InteractionRepository {
   Future<Either<Failure, int>> syncDosages(int lastTimestamp);
 
   /// Get food interactions for a specific drug
-  Future<List<String>> getFoodInteractions(int medId);
+  /// Get food interactions for a specific drug
+  /// Checks both ID and active ingredient for robust matching
+  Future<List<String>> getFoodInteractions(DrugEntity drug);
 
   /// Get drugs that have known food interactions (for Home Screen)
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit);

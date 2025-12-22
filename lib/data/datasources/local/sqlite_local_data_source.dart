@@ -1113,6 +1113,36 @@ class SqliteLocalDataSource {
     return maps.map((e) => e['interaction'] as String).toList();
   }
 
+  /// Finds food interactions by matching the active ingredient.
+  /// Steps:
+  /// 1. Find all med_ids that contain the target [ingredient].
+  /// 2. Check if any of those med_ids exist in [food_interactions] table.
+  /// 3. Return the interaction text.
+  Future<List<String>> getFoodInteractionsForIngredient(
+    String ingredient,
+  ) async {
+    await seedingComplete;
+    if (ingredient.isEmpty) return [];
+
+    final db = await dbHelper.database;
+    final normalized = _normalizeIngredientName(ingredient);
+    if (normalized.isEmpty) return [];
+
+    // Query: Join food_interactions with med_ingredients on med_id
+    // Select interaction where med_ingredients.ingredient = ?
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      SELECT DISTINCT f.interaction 
+      FROM ${DatabaseHelper.foodInteractionsTable} f
+      JOIN med_ingredients mi ON f.med_id = mi.med_id
+      WHERE mi.ingredient = ?
+      ''',
+      [normalized],
+    );
+
+    return maps.map((e) => e['interaction'] as String).toList();
+  }
+
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;

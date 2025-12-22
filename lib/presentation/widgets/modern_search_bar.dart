@@ -82,8 +82,10 @@ class ModernSearchBar extends StatelessWidget {
                   border: InputBorder.none,
                   enabledBorder: InputBorder.none,
                   focusedBorder: InputBorder.none,
-                  contentPadding: EdgeInsets.zero,
-                  isDense: true,
+                  contentPadding: EdgeInsets.symmetric(
+                    vertical: 10,
+                  ), // ✅ Give it breathing room
+                  isDense: false, // ✅ Relax density
                   filled: true,
                   fillColor: Colors.transparent,
                   // Add Clear Button
@@ -103,6 +105,8 @@ class ModernSearchBar extends StatelessWidget {
                   fontSize: 16,
                   color: theme.colorScheme.onSurface,
                 ),
+                textAlignVertical:
+                    TextAlignVertical.center, // ✅ Fix vertical alignment
               ),
             ),
             const SizedBox(width: 8),
