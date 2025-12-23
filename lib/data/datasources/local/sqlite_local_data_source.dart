@@ -631,11 +631,18 @@ class SqliteLocalDataSource {
 
   Future<List<MedicineModel>> getAllMedicines() async {
     await seedingComplete; // Wait for seeding
-    print("Fetching all medicines from SQLite...");
     final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-    );
+    final queryStr = '''
+      SELECT m.*,
+        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
+         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+         LIMIT 1) as has_drug_interaction,
+        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
+         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
+      FROM ${DatabaseHelper.medicinesTable} m
+    ''';
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
     });
@@ -646,11 +653,6 @@ class SqliteLocalDataSource {
     int? limit,
     int? offset,
   }) async {
-    await seedingComplete; // Wait for seeding
-    print(
-      "Searching medicines in SQLite for query: '$query', limit: $limit, offset: $offset",
-    );
-
     final db = await dbHelper.database;
     final lowerCaseQuery = '%${query.toLowerCase()}%';
 
@@ -659,22 +661,32 @@ class SqliteLocalDataSource {
 
     if (query.isNotEmpty) {
       whereClause = '''
-         LOWER(${DatabaseHelper.colTradeName}) LIKE ? OR
-         LOWER(${DatabaseHelper.colArabicName}) LIKE ? OR
+         LOWER(${DatabaseHelper.colTradeName}) LIKE ? OR 
+         LOWER(${DatabaseHelper.colArabicName}) LIKE ? OR 
          LOWER(${DatabaseHelper.colActive}) LIKE ?
        ''';
       whereArgs = [lowerCaseQuery, lowerCaseQuery, lowerCaseQuery];
     }
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: whereClause,
-      whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
-      orderBy:
-          '${DatabaseHelper.colLastPriceUpdate} DESC', // Order by newest first
-      limit: limit,
-      offset: offset,
-    );
+    final queryStr = '''
+      SELECT m.*,
+        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
+         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+         LIMIT 1) as has_drug_interaction,
+        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
+         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
+      FROM ${DatabaseHelper.medicinesTable} m
+      WHERE $whereClause
+      ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
+      LIMIT ? OFFSET ?
+    ''';
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      ...whereArgs,
+      limit,
+      offset,
+    ]);
 
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
@@ -718,13 +730,24 @@ class SqliteLocalDataSource {
       whereArgs = [category.toLowerCase()];
     }
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: whereClause,
-      whereArgs: whereArgs,
-      limit: limit,
-      offset: offset,
-    );
+    final queryStr = '''
+      SELECT m.*,
+        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
+         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+         LIMIT 1) as has_drug_interaction,
+        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
+         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
+      FROM ${DatabaseHelper.medicinesTable} m
+      WHERE $whereClause
+      LIMIT ? OFFSET ?
+    ''';
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      ...whereArgs,
+      limit,
+      offset,
+    ]);
 
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
@@ -819,19 +842,25 @@ class SqliteLocalDataSource {
     int? offset,
   }) async {
     await seedingComplete; // Wait for seeding
-    print(
-      "Fetching recently updated medicines from SQLite (since $cutoffDate, limit: $limit, offset: $offset)...",
-    );
     final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: '${DatabaseHelper.colLastPriceUpdate} >= ?',
-      whereArgs: [cutoffDate],
-      orderBy:
-          '${DatabaseHelper.colLastPriceUpdate} DESC', // Optional: Order by most recent
-      limit: limit,
-      offset: offset,
-    );
+    final queryStr = '''
+      SELECT m.*,
+        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
+         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+         LIMIT 1) as has_drug_interaction,
+        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
+         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
+      FROM ${DatabaseHelper.medicinesTable} m
+      WHERE ${DatabaseHelper.colLastPriceUpdate} >= ?
+      ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
+      LIMIT ? OFFSET ?
+    ''';
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      cutoffDate,
+      limit,
+      offset,
+    ]);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
     });
@@ -839,13 +868,22 @@ class SqliteLocalDataSource {
 
   Future<List<MedicineModel>> getRandomMedicines({required int limit}) async {
     await seedingComplete; // Wait for seeding
-    print("Fetching $limit random medicines from SQLite...");
     final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      orderBy: 'RANDOM()', // SQLite specific function for random order
-      limit: limit,
-    );
+    final queryStr = '''
+      SELECT m.*,
+        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
+         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
+         LIMIT 1) as has_drug_interaction,
+        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
+         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
+      FROM ${DatabaseHelper.medicinesTable} m
+      ORDER BY RANDOM()
+      LIMIT ?
+    ''';
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      limit,
+    ]);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
     });

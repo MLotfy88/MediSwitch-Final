@@ -4,10 +4,16 @@ import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
+/// A card that displays information about a drug-drug or drug-food interaction.
 class InteractionCard extends StatelessWidget {
+  /// Creates a new [InteractionCard] instance.
+  const InteractionCard({required this.interaction, super.key, this.onTap});
+
+  /// The interaction data to display.
   final DrugInteraction interaction;
 
-  const InteractionCard({super.key, required this.interaction});
+  /// Callback when the card is tapped.
+  final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -30,135 +36,145 @@ class InteractionCard extends StatelessWidget {
                 '')
             : (interaction.recommendation ?? '');
 
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: theme.cardColor,
+    return Card(
+      elevation: 0,
+      margin: EdgeInsets.zero,
+      shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
-        boxShadow: appColors.shadowCard,
-        border: Border.all(color: appColors.border.withValues(alpha: 0.5)),
+        side: BorderSide(color: appColors.border.withValues(alpha: 0.5)),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // Row with circular icon and severity label + ingredients
-          Row(
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Circular icon container
-              Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  color: severityColor.withValues(alpha: 0.15),
-                  shape: BoxShape.circle,
-                ),
-                child: Center(
-                  child: Icon(
-                    _getSeverityIcon(interaction.severityEnum),
-                    color: severityColor,
-                    size: 20,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 12),
-              // Ingredients and severity label
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      '${interaction.ingredient1} + ${interaction.ingredient2}',
-                      style: TextStyle(
-                        color: colorScheme.onSurface,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 15,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    // Severity label badge
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        color: severityColor.withValues(alpha: 0.15),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Text(
-                        _getSeverityLabel(interaction.severityEnum),
-                        style: TextStyle(
-                          color: severityColor,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 12,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-
-          const SizedBox(height: 12),
-
-          // Interaction Effect
-          if (effect.isNotEmpty)
-            Text(
-              effect,
-              style: TextStyle(
-                color: colorScheme.onSurfaceVariant,
-                fontSize: 14,
-                height: 1.5,
-              ),
-            ),
-
-          if (recommendation.isNotEmpty) ...[
-            const SizedBox(height: 8),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: severityColor.withValues(alpha: 0.05),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: severityColor.withValues(alpha: 0.2)),
-              ),
-              child: Column(
+              // Row with circular icon and severity label + ingredients
+              Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    isRTL ? 'التوصية:' : 'Recommendation:',
-                    style: TextStyle(
-                      color: severityColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 13,
+                  // Circular icon container
+                  Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: severityColor.withValues(alpha: 0.15),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Center(
+                      child: Icon(
+                        _getSeverityIcon(interaction.severityEnum),
+                        color: severityColor,
+                        size: 20,
+                      ),
                     ),
                   ),
-                  const SizedBox(height: 4),
-                  Text(
-                    recommendation,
-                    style: TextStyle(
-                      color: colorScheme.onSurface,
-                      fontSize: 13,
-                      height: 1.4,
+                  const SizedBox(width: 12),
+                  // Ingredients and severity label
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          '${interaction.ingredient1} + '
+                          '${interaction.ingredient2}',
+                          style: TextStyle(
+                            color: colorScheme.onSurface,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 15,
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        // Severity label badge
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 2,
+                          ),
+                          decoration: BoxDecoration(
+                            color: severityColor.withValues(alpha: 0.15),
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                          child: Text(
+                            _getSeverityLabel(interaction.severityEnum),
+                            style: TextStyle(
+                              color: severityColor,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
               ),
-            ),
-          ],
 
-          if (effect.isEmpty && recommendation.isEmpty)
-            Text(
-              isRTL ? "لا توجد تفاصيل متاحة." : "No details available.",
-              style: TextStyle(
-                color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
-                fontSize: 14,
-                fontStyle: FontStyle.italic,
-              ),
-            ),
-        ],
+              const SizedBox(height: 12),
+
+              // Interaction Effect
+              if (effect.isNotEmpty)
+                Text(
+                  effect,
+                  style: TextStyle(
+                    color: colorScheme.onSurfaceVariant,
+                    fontSize: 14,
+                    height: 1.5,
+                  ),
+                ),
+
+              if (recommendation.isNotEmpty) ...[
+                const SizedBox(height: 8),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: severityColor.withValues(alpha: 0.05),
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(
+                      color: severityColor.withValues(alpha: 0.2),
+                    ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        isRTL ? 'التوصية:' : 'Recommendation:',
+                        style: TextStyle(
+                          color: severityColor,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        recommendation,
+                        style: TextStyle(
+                          color: colorScheme.onSurface,
+                          fontSize: 13,
+                          height: 1.4,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+              const SizedBox(height: 8),
+
+              if (effect.isEmpty && recommendation.isEmpty)
+                Text(
+                  isRTL ? 'لا توجد تفاصيل متاحة.' : 'No details available.',
+                  style: TextStyle(
+                    color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
+                    fontSize: 14,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -172,14 +188,12 @@ class InteractionCard extends StatelessWidget {
       case InteractionSeverity.severe:
         return appColors.dangerForeground; // Use foreground for better contrast
       case InteractionSeverity.major:
-        return Colors
-            .orange; // Assuming orange isn't in appColors or using warning
+        return Colors.orange;
       case InteractionSeverity.moderate:
         return appColors.warningForeground;
       case InteractionSeverity.minor:
         return appColors.infoForeground;
       case InteractionSeverity.unknown:
-      default:
         return appColors.mutedForeground;
     }
   }
@@ -197,7 +211,6 @@ class InteractionCard extends StatelessWidget {
       case InteractionSeverity.minor:
         return LucideIcons.info;
       case InteractionSeverity.unknown:
-      default:
         return LucideIcons.helpCircle;
     }
   }
@@ -216,7 +229,6 @@ class InteractionCard extends StatelessWidget {
       case InteractionSeverity.minor:
         return 'Minor Interaction';
       case InteractionSeverity.unknown:
-      default:
         return 'Unknown Severity';
     }
   }

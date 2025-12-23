@@ -22,8 +22,12 @@ class DrugEntity extends Equatable {
   final String? barcode;
   final String? qrCode; // New Field
   final int visits; // New Field
-  final String lastPriceUpdate;
   final String? imageUrl;
+  final String lastPriceUpdate;
+
+  // Interaction Flags for UI
+  final bool hasDrugInteraction;
+  final bool hasFoodInteraction;
 
   // Aliases for compatibility
   String get nameAr => arabicName;
@@ -58,6 +62,8 @@ class DrugEntity extends Equatable {
     this.imageUrl,
     this.isPopular = false,
     this.isNew = false,
+    this.hasDrugInteraction = false,
+    this.hasFoodInteraction = false,
   });
 
   factory DrugEntity.empty() {
@@ -108,5 +114,8 @@ class DrugEntity extends Equatable {
     lastPriceUpdate,
     imageUrl,
     isPopular,
+    isNew,
+    hasDrugInteraction,
+    hasFoodInteraction,
   ];
 }

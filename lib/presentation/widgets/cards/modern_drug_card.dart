@@ -8,7 +8,8 @@ import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 class ModernDrugCard extends StatelessWidget {
   final DrugEntity drug;
   final bool isFavorite;
-  final bool hasInteraction;
+  final bool hasDrugInteraction;
+  final bool hasFoodInteraction;
   final VoidCallback? onTap;
   final VoidCallback? onFavoriteToggle;
 
@@ -16,7 +17,8 @@ class ModernDrugCard extends StatelessWidget {
     super.key,
     required this.drug,
     this.isFavorite = false,
-    this.hasInteraction = false,
+    this.hasDrugInteraction = false,
+    this.hasFoodInteraction = false,
     this.onTap,
     this.onFavoriteToggle,
   });
@@ -36,14 +38,14 @@ class ModernDrugCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(20), // More rounded
           boxShadow: [
             BoxShadow(
-              color: theme.shadowColor.withOpacity(isDark ? 0.3 : 0.08),
+              color: theme.shadowColor.withValues(alpha: isDark ? 0.3 : 0.08),
               offset: const Offset(0, 4),
               blurRadius: 12,
               spreadRadius: -2,
             ),
           ],
           border: Border.all(
-            color: theme.dividerColor.withOpacity(isDark ? 0.1 : 0.05),
+            color: theme.dividerColor.withValues(alpha: isDark ? 0.1 : 0.05),
             width: 1.5,
           ),
         ),
@@ -117,7 +119,7 @@ class ModernDrugCard extends StatelessWidget {
                           isFavorite
                               ? appColors.dangerSoft
                               : theme.colorScheme.surfaceContainerHighest
-                                  .withOpacity(0.5),
+                                  .withValues(alpha: 0.5),
                       shape: BoxShape.circle,
                     ),
                     child: Icon(
@@ -146,8 +148,8 @@ class ModernDrugCard extends StatelessWidget {
                     vertical: 6,
                   ),
                   decoration: BoxDecoration(
-                    color: theme.colorScheme.secondaryContainer.withOpacity(
-                      0.4,
+                    color: theme.colorScheme.secondaryContainer.withValues(
+                      alpha: 0.4,
                     ),
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -199,7 +201,10 @@ class ModernDrugCard extends StatelessWidget {
             ),
 
             const SizedBox(height: 16),
-            Divider(height: 1, color: theme.dividerColor.withOpacity(0.1)),
+            Divider(
+              height: 1,
+              color: theme.dividerColor.withValues(alpha: 0.1),
+            ),
             const SizedBox(height: 12),
 
             // Price & Interaction Footer
@@ -228,27 +233,36 @@ class ModernDrugCard extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 13,
                               decoration: TextDecoration.lineThrough,
-                              color: appColors.mutedForeground.withOpacity(0.7),
+                              color: appColors.mutedForeground.withValues(
+                                alpha: 0.7,
+                              ),
                             ),
                           ),
+                          const SizedBox(width: 8),
+                          _buildPriceChangeBadge(),
                         ],
                       ],
                     ),
-                    // Price change badge moved here if needed or kept separate
                   ],
                 ),
 
-                if (hasInteraction)
+                if (hasDrugInteraction || hasFoodInteraction)
                   Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 10,
-                      vertical: 6,
+                      horizontal: 8,
+                      vertical: 4,
                     ),
                     decoration: BoxDecoration(
-                      color: appColors.danger.withOpacity(0.1),
+                      color:
+                          hasDrugInteraction
+                              ? appColors.danger.withValues(alpha: 0.1)
+                              : appColors.warning.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(
-                        color: appColors.danger.withOpacity(0.2),
+                        color:
+                            hasDrugInteraction
+                                ? appColors.danger.withValues(alpha: 0.2)
+                                : appColors.warning.withValues(alpha: 0.2),
                       ),
                     ),
                     child: Row(
@@ -257,15 +271,21 @@ class ModernDrugCard extends StatelessWidget {
                         Icon(
                           LucideIcons.alertTriangle,
                           size: 14,
-                          color: appColors.danger,
+                          color:
+                              hasDrugInteraction
+                                  ? appColors.danger
+                                  : appColors.warning,
                         ),
-                        const SizedBox(width: 6),
+                        const SizedBox(width: 4),
                         Text(
-                          'Interaction',
+                          hasDrugInteraction ? 'Drug' : 'Food',
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 11,
                             fontWeight: FontWeight.bold,
-                            color: appColors.danger,
+                            color:
+                                hasDrugInteraction
+                                    ? appColors.danger
+                                    : appColors.warning,
                           ),
                         ),
                       ],
@@ -276,7 +296,7 @@ class ModernDrugCard extends StatelessWidget {
                     DateFormatter.formatDate(drug.lastPriceUpdate),
                     style: TextStyle(
                       fontSize: 11,
-                      color: appColors.mutedForeground.withOpacity(0.8),
+                      color: appColors.mutedForeground.withValues(alpha: 0.8),
                     ),
                   ),
               ],

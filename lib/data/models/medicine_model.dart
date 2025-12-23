@@ -29,6 +29,8 @@ class MedicineModel extends DrugEntity {
     super.visits = 0,
     required super.lastPriceUpdate,
     super.imageUrl,
+    super.hasDrugInteraction = false,
+    super.hasFoodInteraction = false,
     this.updatedAt = 0,
   });
 
@@ -116,6 +118,12 @@ class MedicineModel extends DrugEntity {
       barcode: _parseString(json['barcode']),
       qrCode: _parseString(json['qr_code']),
       visits: _parseInt(json['visits']),
+      hasDrugInteraction:
+          json['has_drug_interaction'] == 1 ||
+          json['has_drug_interaction'] == true,
+      hasFoodInteraction:
+          json['has_food_interaction'] == 1 ||
+          json['has_food_interaction'] == true,
     );
   }
 
@@ -144,6 +152,8 @@ class MedicineModel extends DrugEntity {
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
       DatabaseHelper.colImageUrl: imageUrl,
       DatabaseHelper.colUpdatedAt: updatedAt,
+      'has_drug_interaction': hasDrugInteraction ? 1 : 0,
+      'has_food_interaction': hasFoodInteraction ? 1 : 0,
     };
   }
 
@@ -172,6 +182,12 @@ class MedicineModel extends DrugEntity {
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
       imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
       updatedAt: map[DatabaseHelper.colUpdatedAt] as int? ?? 0,
+      hasDrugInteraction:
+          map['has_drug_interaction'] == 1 ||
+          map['has_drug_interaction'] == true,
+      hasFoodInteraction:
+          map['has_food_interaction'] == 1 ||
+          map['has_food_interaction'] == true,
     );
   }
 
@@ -199,6 +215,8 @@ class MedicineModel extends DrugEntity {
       visits: visits,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
+      hasDrugInteraction: hasDrugInteraction,
+      hasFoodInteraction: hasFoodInteraction,
     );
   }
 

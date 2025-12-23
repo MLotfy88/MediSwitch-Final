@@ -11,6 +11,7 @@ import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
 import 'package:mediswitch/presentation/widgets/modern_search_bar.dart';
 
+/// A screen that displays interactions for a specific ingredient or drug.
 class IngredientInteractionsScreen extends StatefulWidget {
   /// The ingredient to filter by. If null, shows all high-risk interactions.
   final HighRiskIngredient? ingredient;
@@ -57,7 +58,8 @@ class _IngredientInteractionsScreenState
 
       if (widget.ingredient != null) {
         if (!widget.onlyFood) {
-          specificList = await _interactionRepository.getInteractionsWith(
+          final repo = _interactionRepository;
+          specificList = await repo.getInteractionsWith(
             widget.ingredient!.name,
           );
         }
@@ -100,7 +102,7 @@ class _IngredientInteractionsScreenState
               ),
             );
           }
-        } catch (e) {
+        } on Exception catch (e) {
           debugPrint('Error loading food interactions: $e');
         }
       } else {
@@ -115,23 +117,11 @@ class _IngredientInteractionsScreenState
       if (mounted) {
         setState(() {
           _allInteractions = specificList;
-          // Sort to put Food Interactions (Severity Major, ID -1) at TOP if we are in Ingredient mode?
-          // Or just ensure they are visible. The separate list logic in build took care of display,
-          // BUT `_buildInteractionsTab` in `DrugDetailsScreen` handles separate lists.
-          // HERE in `IngredientInteractionsScreen` `build` method, we need to inspect `_allInteractions`.
-          // The current `build` simply renders `_filteredInteractions`.
-          // We need to make sure Food Interactions are NOT filtered out or buried.
-          // They have `id: -1`.
-          // We should perhaps keep them separate in the state?
-          // Let's just create a separate list in state: `_foodInteractions`?
-          // No, simpler: Just sort them to top.
-          // Food interactions have 'Major' severity usually in my code.
-          // Let's ensure they are added.
           _filteredInteractions = specificList;
           _isLoading = false;
         });
       }
-    } catch (e) {
+    } on Exception catch (e) {
       debugPrint('Error loading interactions: $e');
       if (mounted) {
         setState(() {
@@ -180,8 +170,14 @@ class _IngredientInteractionsScreenState
                       ? i.ingredient2
                       : i.ingredient1;
 
+              final isFoodInteraction = i.type == 'food';
+
               return otherIngredient.toLowerCase().contains(lowerQuery) ||
-                  effect.toLowerCase().contains(lowerQuery);
+                  effect.toLowerCase().contains(lowerQuery) ||
+                  (isFoodInteraction &&
+                      (isRTL ? 'طعام' : 'food').toLowerCase().contains(
+                        lowerQuery,
+                      ));
             }).toList();
       }
     });
@@ -301,9 +297,7 @@ class _IngredientInteractionsScreenState
                 delegate: SliverChildBuilderDelegate((context, index) {
                   final interaction = _filteredInteractions[index];
                   // Highlight Food Interactions
-                  final isFood =
-                      interaction.ingredient1 == 'Food / Diet' ||
-                      interaction.ingredient2 == 'Food / Diet';
+                  final isFood = interaction.type == 'food';
                   // Highlight Food Interactions
                   if (isFood) {
                     return Padding(
@@ -312,11 +306,7 @@ class _IngredientInteractionsScreenState
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           if (index == 0 ||
-                              (_filteredInteractions[index - 1].ingredient1 !=
-                                      'Food / Diet' &&
-                                  _filteredInteractions[index - 1]
-                                          .ingredient2 !=
-                                      'Food / Diet'))
+                              _filteredInteractions[index - 1].type != 'food')
                             Padding(
                               padding: const EdgeInsets.only(bottom: 8),
                               child: Text(
@@ -329,6 +319,10 @@ class _IngredientInteractionsScreenState
                             ),
                           InteractionCard(
                             interaction: interaction,
+                            onTap: () {
+                              // If there's ever a detail screen, navigate here.
+                              // For now, it shows full info in the card.
+                            },
                           ).animate().fadeIn(),
                         ],
                       ),
@@ -339,6 +333,9 @@ class _IngredientInteractionsScreenState
                     child:
                         InteractionCard(
                           interaction: interaction,
+                          onTap: () {
+                            // Handle drug interaction tap
+                          },
                         ).animate().fadeIn(delay: (20 * index).ms).slideX(),
                   );
                 }, childCount: _filteredInteractions.length),

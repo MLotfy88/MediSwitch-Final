@@ -105,15 +105,19 @@ class DosageTab extends StatelessWidget {
           context,
           l10n.regularFrequency,
           guideline?.frequency != null
-              ? l10n.timesDaily(guideline!.frequency!)
-              : 'N/A',
+              ? (guideline!.frequency == 24
+                  ? (l10n.localeName == 'ar' ? 'مرة يومياً' : 'Once daily')
+                  : l10n.timesDaily(guideline!.frequency!))
+              : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
           LucideIcons.clock,
           theme.colorScheme.primary,
         ),
         _buildStatCard(
           context,
           l10n.maxDailyDose,
-          guideline?.maxDose != null ? '${guideline!.maxDose} mg' : 'N/A',
+          guideline?.maxDose != null && guideline!.maxDose! > 0
+              ? '${guideline!.maxDose} mg'
+              : (l10n.localeName == 'ar' ? 'راجع النشرة' : 'See leaflet'),
           LucideIcons.alertCircle,
           theme.colorScheme.error,
         ),
@@ -127,9 +131,11 @@ class DosageTab extends StatelessWidget {
         _buildStatCard(
           context,
           l10n.treatmentDuration,
-          guideline?.duration?.toString() ?? 'As directed',
+          guideline?.duration != null && guideline!.duration! > 0
+              ? '${guideline!.duration} ${l10n.localeName == 'ar' ? 'أيام' : 'days'}'
+              : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
           LucideIcons.calendar,
-          Colors.blue,
+          theme.colorScheme.secondary,
         ),
       ],
     );

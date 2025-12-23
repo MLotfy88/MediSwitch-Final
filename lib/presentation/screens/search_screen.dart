@@ -316,7 +316,8 @@ class _SearchScreenState extends State<SearchScreen> {
                 padding: const EdgeInsets.only(bottom: 12),
                 child: ModernDrugCard(
                   drug: drug,
-                  hasInteraction: false,
+                  hasDrugInteraction: drug.hasDrugInteraction,
+                  hasFoodInteraction: drug.hasFoodInteraction,
                   onTap: () => _navigateToDetails(context, drug),
                 ),
               );
@@ -415,7 +416,8 @@ class _SearchScreenState extends State<SearchScreen> {
           padding: const EdgeInsets.only(bottom: 12),
           child: ModernDrugCard(
             drug: drug,
-            hasInteraction: false, // Calculate if needed
+            hasDrugInteraction: drug.hasDrugInteraction,
+            hasFoodInteraction: drug.hasFoodInteraction,
             onTap: () => _navigateToDetails(context, drug),
           ),
         );
