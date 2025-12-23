@@ -7,17 +7,16 @@ import 'package:mediswitch/core/constants/categories_data.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
+import 'package:mediswitch/core/services/unified_sync_service.dart';
 import 'package:mediswitch/core/usecases/usecase.dart';
 import 'package:mediswitch/core/utils/category_mapper_helper.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/models/dosage_guidelines_model.dart';
 import 'package:mediswitch/data/models/medicine_model.dart';
-import 'package:mediswitch/domain/entities/app_notification.dart';
 import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
-import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
@@ -29,7 +28,6 @@ import 'package:mediswitch/domain/usecases/get_last_update_timestamp.dart';
 import 'package:mediswitch/domain/usecases/get_recently_updated_drugs.dart';
 import 'package:mediswitch/domain/usecases/get_similar_drugs.dart';
 import 'package:mediswitch/domain/usecases/search_drugs.dart';
-import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Provider responsible for managing medicine-related state and data.
@@ -379,9 +377,9 @@ class MedicineProvider extends ChangeNotifier {
     _backgroundSync();
   }
 
-  /// Manual refresh triggered by user (pull-to-refresh or refresh button)
+  /// Manual refresh triggered by user (Sync button in header)
   Future<void> manualRefresh() async {
-    if (_isSyncing || _isLoading) {
+    if (_isSyncing) {
       _logger.w("MedicineProvider: Sync already in progress, skipping");
       return;
     }
@@ -392,164 +390,26 @@ class MedicineProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final notifyProvider = locator<NotificationProvider>();
-      final drugRepo = locator<DrugRepository>();
-      final interactionRepo = locator<InteractionRepository>();
+      final syncService = locator<UnifiedSyncService>();
+      final result = await syncService.syncAllData();
 
-      // 1. Capture Prices BEFORE sync
-      final beforeResult = await _getRecentlyUpdatedDrugsUseCase(
-        GetRecentlyUpdatedDrugsParams(cutoffDate: '2000-01-01', limit: 100),
-      );
-      final Map<String, double> oldPrices = {};
-      beforeResult.fold((l) {}, (drugs) {
-        for (var drug in drugs) {
-          if (drug.id != null) {
-            final price = _parsePrice(drug.price);
-            if (price != null) oldPrices[drug.id.toString()] = price;
-          }
-        }
-      });
+      await result.fold(
+        (Failure failure) async {
+          _logger.e("MedicineProvider: Sync failed", failure);
+          _error = "فشل التحديث. حاول لاحقاً.";
+        },
+        (success) async {
+          _logger.i("Sync complete. Refreshing UI data...");
+          // Reload local data to reflect changes
+          await _loadLocalDataOnly();
+          _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
 
-      // 2. Perform Multi-Table Sync
-      final drugsSyncTs = prefs.getInt('drugs_last_sync_timestamp') ?? 0;
-      final interactionsSyncTs =
-          prefs.getInt('interactions_last_sync_timestamp') ?? 0;
-      final ingredientsSyncTs =
-          prefs.getInt('ingredients_last_sync_timestamp') ?? 0;
-      final dosagesSyncTs = prefs.getInt('dosages_last_sync_timestamp') ?? 0;
-
-      _logger.i(
-        "Syncing with timestamps - Drugs: $drugsSyncTs, Interactions: $interactionsSyncTs",
-      );
-
-      // We run them in sequence to manage load
-      final drugsResult = await drugRepo.getDeltaSyncDrugs(drugsSyncTs);
-      final interactionsResult = await interactionRepo.syncInteractions(
-        interactionsSyncTs,
-      );
-      final ingredientsResult = await interactionRepo.syncMedIngredients(
-        ingredientsSyncTs,
-      );
-      final dosagesResult = await interactionRepo.syncDosages(dosagesSyncTs);
-
-      // Check for any success
-      bool anyUpdated = false;
-      int totalUpdatedCount = 0;
-
-      drugsResult.fold((Failure l) => _logger.w("Drugs sync failed: $l"), (
-        int count,
-      ) {
-        if (count > 0) anyUpdated = true;
-        totalUpdatedCount += count;
-      });
-
-      interactionsResult.fold(
-        (Failure l) => _logger.w("Interactions sync failed: $l"),
-        (int count) {
-          if (count > 0) {
-            anyUpdated = true;
-            prefs.setInt(
-              'interactions_last_sync_timestamp',
-              DateTime.now().millisecondsSinceEpoch,
-            );
-          }
+          // Show success message via notification if possible
+          _logger.i("MedicineProvider: Manual sync finished successfully.");
         },
       );
-
-      ingredientsResult.fold(
-        (Failure l) => _logger.w("Ingredients sync failed: $l"),
-        (int count) {
-          if (count > 0) {
-            anyUpdated = true;
-            prefs.setInt(
-              'ingredients_last_sync_timestamp',
-              DateTime.now().millisecondsSinceEpoch,
-            );
-          }
-        },
-      );
-
-      dosagesResult.fold((Failure l) => _logger.w("Dosages sync failed: $l"), (
-        int count,
-      ) {
-        if (count > 0) {
-          anyUpdated = true;
-          prefs.setInt(
-            'dosages_last_sync_timestamp',
-            DateTime.now().millisecondsSinceEpoch,
-          );
-        }
-      });
-
-      if (anyUpdated) {
-        _logger.i(
-          "Sync complete. $totalUpdatedCount updates found. refreshing UI...",
-        );
-
-        await Future.wait([
-          _loadCategories(forceLocal: false),
-          _loadHighRiskIngredients(),
-          _loadHighRiskDrugs(),
-          _loadFoodInteractionDrugs(),
-          _loadHomeRecentlyUpdatedDrugs(),
-        ]);
-
-        // Generate Detailed Notifications (Price Change / New Drugs)
-        final afterResult = await _getRecentlyUpdatedDrugsUseCase(
-          GetRecentlyUpdatedDrugsParams(cutoffDate: '2000-01-01', limit: 50),
-        );
-
-        await afterResult.fold((l) async {}, (newDrugsList) async {
-          for (var drug in newDrugsList) {
-            if (drug.id == null) continue;
-            final oldPrice = oldPrices[drug.id.toString()];
-            final newPrice = _parsePrice(drug.price);
-            if (newPrice == null) continue;
-
-            if (oldPrice != null && (oldPrice - newPrice).abs() > 0.01) {
-              final isUp = newPrice > oldPrice;
-              final percent = (((newPrice - oldPrice) / oldPrice) * 100).abs();
-              await notifyProvider.addNotification(
-                AppNotification(
-                  id: 'price_${drug.id}_${DateTime.now().millisecondsSinceEpoch}',
-                  type: AppNotificationType.priceChange,
-                  title:
-                      'Price ${isUp ? "Increase" : "Decrease"}: ${drug.tradeName}',
-                  titleAr: 'سعر ${isUp ? "زيادة" : "نقص"}: ${drug.arabicName}',
-                  message:
-                      'Now ${drug.price} (${isUp ? "+" : "-"}${percent.toStringAsFixed(1)}%)',
-                  messageAr:
-                      'الآن ${drug.price} (${isUp ? "+" : "-"}${percent.toStringAsFixed(1)}%)',
-                  timestamp: DateTime.now(),
-                  metadata: {'drugId': drug.id.toString()},
-                ),
-              );
-            } else if (oldPrice == null) {
-              await notifyProvider.addNotification(
-                AppNotification(
-                  id: 'new_${drug.id}_${DateTime.now().millisecondsSinceEpoch}',
-                  type: AppNotificationType.newDrug,
-                  title: 'New Drug Available: ${drug.tradeName}',
-                  titleAr: 'دواء جديد متاح: ${drug.arabicName}',
-                  message: '${drug.tradeName} added to database.',
-                  messageAr: 'تم إضافة ${drug.arabicName} لقاعدة البيانات.',
-                  timestamp: DateTime.now(),
-                  metadata: {'drugId': drug.id.toString()},
-                ),
-              );
-            }
-          }
-        });
-
-        _lastUpdateTimestamp = DateTime.now().millisecondsSinceEpoch;
-      } else {
-        _logger.i("No updates found during sync.");
-      }
-
-      _error = '';
     } catch (e, s) {
-      _logger.e("MedicineProvider: Sync failed", e, s);
+      _logger.e("MedicineProvider: Unexpected sync error", e, s);
       _error = "فشل التحديث. حاول لاحقاً.";
     } finally {
       _isSyncing = false;

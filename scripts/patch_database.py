@@ -12,7 +12,7 @@ import glob
 
 # App Paths
 APP_DOSAGE_FILE = "assets/data/dosage_guidelines.json"
-APP_INTERACTION_FILE = "assets/data/drug_interactions.json"
+APP_INTERACTION_FILE = "assets/data/drug_interactions_complete.json"
 
 def patch_dosages(main_file, update_file):
     print(f"💊 Patching Dosages: {main_file} <-- {update_file}")

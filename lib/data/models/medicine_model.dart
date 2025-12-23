@@ -4,11 +4,6 @@ import '../../core/database/database_helper.dart'; // Import DatabaseHelper for 
 import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
 
 class MedicineModel extends DrugEntity {
-  final String dosageFormAr;
-  final String usageAr;
-  final String categoryAr;
-  final String barcode;
-  final int visits;
   final int updatedAt;
 
   const MedicineModel({
@@ -16,36 +11,31 @@ class MedicineModel extends DrugEntity {
     required super.tradeName,
     required super.arabicName,
     required super.price,
-    required String oldPrice,
+    super.oldPrice,
     required super.active,
     required super.company,
     required super.dosageForm,
-    required this.dosageFormAr,
+    super.dosageFormAr,
     required super.concentration,
     required super.unit,
     required super.usage,
-    required this.usageAr,
-    required String category,
-    required this.categoryAr,
+    super.category,
+    super.categoryAr,
     super.mainCategory = '',
     required super.description,
-    required String pharmacology,
-    required this.barcode,
-    required this.visits,
+    super.pharmacology,
+    super.barcode,
+    super.qrCode,
+    super.visits = 0,
     required super.lastPriceUpdate,
     super.imageUrl,
     this.updatedAt = 0,
-  }) : super(
-         oldPrice: oldPrice == '' ? null : oldPrice,
-         category: category == '' ? null : category,
-         category_ar: categoryAr == '' ? null : categoryAr,
-         pharmacology: pharmacology == '' ? null : pharmacology,
-       );
+  });
 
   // Helper function to safely parse string from dynamic row data
   static String _parseString(dynamic value) => value?.toString().trim() ?? '';
 
-  // Helper to normalize date
+  // Helper to normalize date (YYYY-MM-DD or DD/MM/YYYY)
   static String _normalizeDate(String date) {
     if (date.isEmpty) return '';
     try {
@@ -68,47 +58,35 @@ class MedicineModel extends DrugEntity {
 
   factory MedicineModel.fromCsv(List<dynamic> row) {
     // CSV Header: id,trade_name,arabic_name,active,category,company,price,old_price,last_price_update,units,barcode,qr_code,pharmacology,usage,visits,concentration,dosage_form,dosage_form_ar
+    final cat = row.length > 4 ? _parseString(row[4]) : '';
+    final pharm = row.length > 12 ? _parseString(row[12]) : '';
+    final desc =
+        row.length > 12
+            ? _parseString(row[12])
+            : ''; // Use pharmacology as fallback for description
+
     return MedicineModel(
-      // 0: ID
       id: row.isNotEmpty ? _parseInt(row[0]) : 0,
-      // 1: Trade Name
       tradeName: row.length > 1 ? _parseString(row[1]) : '',
-      // 2: Arabic Name
       arabicName: row.length > 2 ? _parseString(row[2]) : '',
-      // 3: Active Ingredient -> Mapped to 'active'
       active: row.length > 3 ? _parseString(row[3]) : '',
-      // 4: Category
-      category: row.length > 4 ? _parseString(row[4]) : '',
-      // 5: Company
+      category: cat,
+      mainCategory: cat,
       company: row.length > 5 ? _parseString(row[5]) : '',
-      // 6: Price
       price: row.length > 6 ? _parseString(row[6]) : '0',
-      // 7: Old Price
       oldPrice: row.length > 7 ? _parseString(row[7]) : '',
-      // 8: Last Price Update
       lastPriceUpdate:
           row.length > 8 ? _normalizeDate(_parseString(row[8])) : '',
-      categoryAr: '', // Not in CSV
-      // 9: Units
       unit: row.length > 9 ? _parseString(row[9]) : '',
-      // 10: Barcode
       barcode: row.length > 10 ? _parseString(row[10]) : '',
-      // 11: QR Code (unused as description)
-      // 12: Pharmacology (Mapping to both description and pharmacology)
-      description: row.length > 12 ? _parseString(row[12]) : '',
-      pharmacology: row.length > 12 ? _parseString(row[12]) : '',
-      // 13: Usage
+      qrCode: row.length > 11 ? _parseString(row[11]) : '',
+      pharmacology: pharm,
+      description: desc,
       usage: row.length > 13 ? _parseString(row[13]) : '',
-      usageAr: '', // Not in CSV
-      // 14: Visits
       visits: row.length > 14 ? _parseInt(row[14]) : 0,
-      // 15: Concentration
       concentration: row.length > 15 ? _parseString(row[15]) : '',
-      // 16: Dosage Form
       dosageForm: row.length > 16 ? _parseString(row[16]) : '',
-      // 17: Dosage Form Ar
       dosageFormAr: row.length > 17 ? _parseString(row[17]) : '',
-      mainCategory: row.length > 4 ? _parseString(row[4]) : '',
       updatedAt: 0,
     );
   }
@@ -129,15 +107,14 @@ class MedicineModel extends DrugEntity {
       imageUrl: _parseString(json['image_url']),
       lastPriceUpdate: _parseString(json['last_price_update']),
       updatedAt: _parseInt(json['updated_at']),
-      // Mapping defaults for missing D1 fields if any
       oldPrice: _parseString(json['old_price']),
       dosageForm: _parseString(json['dosage_form']),
       dosageFormAr: _parseString(json['dosage_form_ar']),
       concentration: _parseString(json['concentration']),
       unit: _parseString(json['unit']),
       usage: _parseString(json['usage']),
-      usageAr: _parseString(json['usage_ar']),
       barcode: _parseString(json['barcode']),
+      qrCode: _parseString(json['qr_code']),
       visits: _parseInt(json['visits']),
     );
   }
@@ -156,13 +133,13 @@ class MedicineModel extends DrugEntity {
       DatabaseHelper.colConcentration: concentration,
       DatabaseHelper.colUnit: unit,
       DatabaseHelper.colUsage: usage,
-      DatabaseHelper.colUsageAr: usageAr,
       DatabaseHelper.colCategory: category,
       DatabaseHelper.colCategoryAr: categoryAr,
       DatabaseHelper.colMainCategory: mainCategory,
       DatabaseHelper.colDescription: description,
       DatabaseHelper.colPharmacology: pharmacology,
       DatabaseHelper.colBarcode: barcode,
+      DatabaseHelper.colQrCode: qrCode,
       DatabaseHelper.colVisits: visits,
       DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
       DatabaseHelper.colImageUrl: imageUrl,
@@ -184,13 +161,13 @@ class MedicineModel extends DrugEntity {
       concentration: map[DatabaseHelper.colConcentration]?.toString() ?? '',
       unit: map[DatabaseHelper.colUnit]?.toString() ?? '',
       usage: map[DatabaseHelper.colUsage]?.toString() ?? '',
-      usageAr: map[DatabaseHelper.colUsageAr]?.toString() ?? '',
       category: map[DatabaseHelper.colCategory]?.toString() ?? '',
       categoryAr: map[DatabaseHelper.colCategoryAr]?.toString() ?? '',
       mainCategory: map[DatabaseHelper.colMainCategory]?.toString() ?? '',
       description: map[DatabaseHelper.colDescription]?.toString() ?? '',
       pharmacology: map[DatabaseHelper.colPharmacology]?.toString() ?? '',
       barcode: map[DatabaseHelper.colBarcode]?.toString() ?? '',
+      qrCode: map[DatabaseHelper.colQrCode]?.toString() ?? '',
       visits: map[DatabaseHelper.colVisits] as int? ?? 0,
       lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
       imageUrl: map[DatabaseHelper.colImageUrl]?.toString(),
@@ -204,18 +181,22 @@ class MedicineModel extends DrugEntity {
       tradeName: tradeName,
       arabicName: arabicName,
       price: price,
-      oldPrice: oldPrice != null && oldPrice!.isNotEmpty ? oldPrice : null,
+      oldPrice: oldPrice,
       mainCategory: mainCategory,
-      category: category != null && category!.isNotEmpty ? category : null,
-      category_ar: categoryAr.isNotEmpty ? categoryAr : null,
+      category: category,
+      categoryAr: categoryAr,
       active: active,
       company: company,
       dosageForm: dosageForm,
+      dosageFormAr: dosageFormAr,
       concentration: concentration,
       unit: unit,
       usage: usage,
       description: description,
       pharmacology: pharmacology,
+      barcode: barcode,
+      qrCode: qrCode,
+      visits: visits,
       lastPriceUpdate: lastPriceUpdate,
       imageUrl: imageUrl,
     );
@@ -224,6 +205,9 @@ class MedicineModel extends DrugEntity {
   String toJson() => jsonEncode(toMap());
 
   factory MedicineModel.fromJson(Map<String, dynamic> json) {
+    if (json.containsKey('trade_name')) {
+      return MedicineModel.fromSyncJson(json);
+    }
     return MedicineModel.fromMap(json);
   }
 
@@ -233,22 +217,22 @@ class MedicineModel extends DrugEntity {
       tradeName: entity.tradeName,
       arabicName: entity.arabicName,
       price: entity.price,
-      oldPrice: entity.oldPrice ?? '',
+      oldPrice: entity.oldPrice,
       active: entity.active,
       company: entity.company,
       dosageForm: entity.dosageForm,
-      dosageFormAr: '',
+      dosageFormAr: entity.dosageFormAr,
       concentration: entity.concentration,
       unit: entity.unit,
       usage: entity.usage,
-      usageAr: '',
-      category: entity.category ?? '',
-      categoryAr: entity.category_ar ?? '',
+      category: entity.category,
+      categoryAr: entity.categoryAr,
       mainCategory: entity.mainCategory,
       description: entity.description,
-      pharmacology: entity.pharmacology ?? '',
-      barcode: '',
-      visits: 0,
+      pharmacology: entity.pharmacology,
+      barcode: entity.barcode,
+      qrCode: entity.qrCode,
+      visits: entity.visits,
       lastPriceUpdate: entity.lastPriceUpdate,
       imageUrl: entity.imageUrl,
       updatedAt: 0,

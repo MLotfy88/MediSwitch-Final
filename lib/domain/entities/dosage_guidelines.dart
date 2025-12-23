@@ -24,4 +24,36 @@ class DosageGuidelines {
     this.source = 'Local',
     this.isPediatric = false,
   });
+
+  factory DosageGuidelines.fromJson(Map<String, dynamic> json) {
+    return DosageGuidelines(
+      id: json['id'] as int?,
+      medId: json['med_id'] as int? ?? 0,
+      dailymedSetid: json['dailymed_setid'] as String?,
+      minDose: (json['min_dose'] as num?)?.toDouble(),
+      maxDose: (json['max_dose'] as num?)?.toDouble(),
+      frequency: json['frequency'] as int?,
+      duration: json['duration'] as int?,
+      instructions: json['instructions'] as String?,
+      condition: json['condition'] as String?,
+      source: json['source'] as String? ?? 'Local',
+      isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'med_id': medId,
+      'dailymed_setid': dailymedSetid,
+      'min_dose': minDose,
+      'max_dose': maxDose,
+      'frequency': frequency,
+      'duration': duration,
+      'instructions': instructions,
+      'condition': condition,
+      'source': source,
+      'is_pediatric': isPediatric ? 1 : 0,
+    };
+  }
 }

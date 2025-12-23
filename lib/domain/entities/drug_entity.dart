@@ -9,15 +9,19 @@ class DrugEntity extends Equatable {
   final String? oldPrice; // Add optional old price field
   final String mainCategory;
   final String? category; // Add optional category field
-  final String? category_ar; // Add optional Arabic category field
+  final String? categoryAr; // Standardized Naming
   final String active;
   final String company;
   final String dosageForm;
+  final String? dosageFormAr; // New Field
   final String concentration;
   final String unit;
   final String usage;
   final String description;
-  final String? pharmacology; // New Field
+  final String? pharmacology;
+  final String? barcode;
+  final String? qrCode; // New Field
+  final int visits; // New Field
   final String lastPriceUpdate;
   final String? imageUrl;
 
@@ -37,15 +41,19 @@ class DrugEntity extends Equatable {
     this.oldPrice,
     required this.mainCategory,
     this.category,
-    this.category_ar,
+    this.categoryAr,
     required this.active,
     required this.company,
     required this.dosageForm,
+    this.dosageFormAr,
     required this.concentration,
     required this.unit,
     required this.usage,
     required this.description,
-    this.pharmacology, // New Field
+    this.pharmacology,
+    this.barcode,
+    this.qrCode,
+    this.visits = 0,
     required this.lastPriceUpdate,
     this.imageUrl,
     this.isPopular = false,
@@ -61,7 +69,7 @@ class DrugEntity extends Equatable {
       oldPrice: null,
       mainCategory: '',
       category: null,
-      category_ar: null,
+      categoryAr: null,
       active: '',
       company: '',
       dosageForm: '',
@@ -84,14 +92,19 @@ class DrugEntity extends Equatable {
     oldPrice,
     mainCategory,
     category,
-    category_ar,
+    categoryAr,
     active,
     company,
     dosageForm,
+    dosageFormAr,
     concentration,
     unit,
     usage,
     description,
+    pharmacology,
+    barcode,
+    qrCode,
+    visits,
     lastPriceUpdate,
     imageUrl,
     isPopular,

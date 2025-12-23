@@ -144,51 +144,10 @@ class DrugRepositoryImpl implements DrugRepository {
     bool updateAttempted = false;
     bool updateFailed = false;
 
-    // --- Update Check Logic (Re-enabled) ---
-    // _logger.w(
-    //   "DrugRepository: Update check in getAllDrugs is temporarily DISABLED for testing.",
-    // );
-    if (isConnected) {
-      try {
-        updateAttempted = true;
-        _logger.d("DrugRepository: Checking if update is needed...");
-        final shouldUpdate = await _shouldUpdateData();
-        if (shouldUpdate) {
-          _logger.i("DrugRepository: Update needed, starting download/save...");
-          await _updateLocalDataFromRemote();
-          _logger.i("DrugRepository: Remote data update process finished.");
-        } else {
-          _logger.i("DrugRepository: Update not needed.");
-        }
-      } catch (e, s) {
-        // Add stack trace
-        updateFailed = true;
-        _logger.e(
-          'Update check/download failed in getAllDrugs',
-          e,
-          s,
-        ); // Use logger
-        // Don't return Left here, proceed to fetch local data anyway
-        // if (e is Failure) return Left(e);
-        // return Left(InitialLoadFailure());
-      }
-    } else {
-      _logger.i("DrugRepository: Skipping update check (offline).");
-    }
-
-    if (updateFailed) {
-      _logger.w(
-        "DrugRepository: Update failed, but proceeding to fetch local data.",
-      );
-    } else if (!updateAttempted) {
-      _logger.i(
-        "DrugRepository: Offline or update check skipped. Proceeding to fetch local data.",
-      );
-    } else {
-      _logger.i(
-        "DrugRepository: Update check complete (or update performed). Proceeding to fetch local data.",
-      );
-    }
+    // --- Update Check Logic (DISABLED by user request for performance) ---
+    _logger.i(
+      "DrugRepository: Manual sync requested? Currently handled via UnifiedSyncService.",
+    );
     // --- End of Update Check Logic ---
 
     // Fetch all drugs from local storage regardless of update status

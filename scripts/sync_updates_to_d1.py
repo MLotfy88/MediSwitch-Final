@@ -35,39 +35,57 @@ class CloudflareD1Uploader:
         return result
 
     def init_tables(self):
-        # 1. Med Dosages (Keyed by med_id)
+        # 1. Dosage Guidelines (Keyed by id, but med_id used for sync)
         sql_dosages = """
-        CREATE TABLE IF NOT EXISTS med_dosages (
-            med_id TEXT PRIMARY KEY,
-            trade_name TEXT,
-            active_ingredient TEXT,
-            adult_dose_mg REAL,
-            pediatric_dose_mg_kg REAL,
-            dosage_text TEXT,
-            json_data TEXT, 
-            last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        CREATE TABLE IF NOT EXISTS dosage_guidelines (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            med_id INTEGER NOT NULL,
+            dailymed_setid TEXT,
+            min_dose REAL,
+            max_dose REAL,
+            frequency INTEGER,
+            duration INTEGER,
+            instructions TEXT,
+            condition TEXT,
+            source TEXT,
+            is_pediatric BOOLEAN,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
         """
         self.query(sql_dosages)
         
-        # 2. Drug Interactions (Keyed by pair) - Ensuring it exists
+        # 2. Drug Interactions
         sql_interactions = """
         CREATE TABLE IF NOT EXISTS drug_interactions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             ingredient1 TEXT NOT NULL,
             ingredient2 TEXT NOT NULL,
-            severity TEXT NOT NULL,
+            severity TEXT,
             effect TEXT,
+            arabic_effect TEXT,
             recommendation TEXT,
+            arabic_recommendation TEXT,
             source TEXT,
+            type TEXT,
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             UNIQUE(ingredient1, ingredient2)
         );
         """
         self.query(sql_interactions)
         
-        # Indexes
-        self.query("CREATE INDEX IF NOT EXISTS idx_int_ing1 ON drug_interactions(ingredient1);")
+        # 3. Food Interactions
+        sql_food = """
+        CREATE TABLE IF NOT EXISTS food_interactions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            med_id INTEGER NOT NULL,
+            trade_name TEXT,
+            interaction TEXT NOT NULL,
+            source TEXT DEFAULT 'DrugBank',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        """
+        self.query(sql_food)
+        
         print("✅ Tables Initialized.")
 
     def sync_dosages(self, file_path):
@@ -85,28 +103,23 @@ class CloudflareD1Uploader:
             placeholders = []
             params = []
             for r in batch:
-                placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")  # 10 params now
-                # Extract simplified cols
-                adult_dose = r.get('dosages', {}).get('adult_dose_mg')
-                ped_dose = r.get('dosages', {}).get('dose_mg_kg')
-                
+                placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
                 params.extend([
-                    str(r['med_id']),
-                    r.get('dailymed_setid', ''),           # ✨ NEW
-                    r.get('dailymed_product_name', ''),   # ✨ NEW
-                    r.get('trade_name'),
-                    r.get('dailymed_name'), # Using dailymed name as active/generic proxy if needed
-                    float(adult_dose) if adult_dose else None,
-                    float(ped_dose) if ped_dose else None,
-                    r.get('clinical_text', {}).get('dosage', '')[:2000],
-                    r.get('matching_confidence', 0.0),    # ✨ NEW
-                    json.dumps(r, ensure_ascii=False)
+                    int(r['med_id']),
+                    r.get('dailymed_setid', ''),
+                    float(r.get('min_dose', 0)),
+                    float(r.get('max_dose')) if r.get('max_dose') else None,
+                    int(r.get('frequency', 0)),
+                    int(r.get('duration', 0)),
+                    r.get('instructions', ''),
+                    r.get('condition', ''),
+                    r.get('source', 'DailyMed'),
+                    1 if r.get('is_pediatric') else 0
                 ])
             
             sql = f"""
-            INSERT OR REPLACE INTO med_dosages  
-            (med_id, dailymed_setid, dailymed_product_name, trade_name, active_ingredient, 
-             adult_dose_mg, pediatric_dose_mg_kg, dosage_text, matching_confidence, json_data)
+            INSERT OR REPLACE INTO dosage_guidelines  
+            (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric)
             VALUES {','.join(placeholders)}
             """
             try:
@@ -118,7 +131,10 @@ class CloudflareD1Uploader:
     def sync_interactions(self, file_path):
         print(f"🔄 Syncing Interactions from {file_path}")
         with open(file_path, 'r') as f:
-            records = json.load(f)
+             if file_path.endswith('.jsonl'):
+                 records = [json.loads(line) for line in f if line.strip()]
+             else:
+                 records = json.load(f)
 
         if not records: return
         
@@ -129,19 +145,22 @@ class CloudflareD1Uploader:
              placeholders = []
              params = []
              for r in batch:
-                 placeholders.append("(?, ?, ?, ?, ?, ?)")
+                 placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?)")
                  params.extend([
-                     r['ingredient1'].lower(), # Normalize case for better matching
+                     r['ingredient1'].lower(),
                      r['ingredient2'].lower(), 
                      r['severity'],
-                     r.get('effect', '')[:500],
-                     r.get('recommendation', '')[:500],
-                     r.get('source', 'DailyMed')
+                     r.get('effect', ''),
+                     r.get('arabic_effect', ''),
+                     r.get('recommendation', ''),
+                     r.get('arabic_recommendation', ''),
+                     r.get('source', 'DailyMed'),
+                     r.get('type', 'pharmacodynamic')
                  ])
                  
              sql = f"""
              INSERT OR REPLACE INTO drug_interactions 
-             (ingredient1, ingredient2, severity, effect, recommendation, source)
+             (ingredient1, ingredient2, severity, effect, arabic_effect, recommendation, arabic_recommendation, source, type)
              VALUES {', '.join(placeholders)}
              """
              try:

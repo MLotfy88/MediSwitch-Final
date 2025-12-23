@@ -5,6 +5,7 @@ import 'package:mediswitch/core/database/database_helper.dart';
 // Services
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/services/log_notifier.dart';
+import 'package:mediswitch/core/services/unified_sync_service.dart';
 // Database Helper
 // Database Helper
 
@@ -249,6 +250,15 @@ Future<void> setupLocator() async {
     return AnalyticsServiceImpl(
       client: locator<http.Client>(),
       baseUrl: backendUrl,
+    );
+  });
+
+  locator.registerLazySingleton<UnifiedSyncService>(() {
+    logger.i("Locator: Registering UnifiedSyncService...");
+    return UnifiedSyncService(
+      drugRepository: locator<DrugRepository>(),
+      interactionRepository: locator<InteractionRepository>(),
+      logger: locator<FileLoggerService>(),
     );
   });
 

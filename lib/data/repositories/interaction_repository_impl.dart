@@ -41,7 +41,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
         final medA = medicines[i];
         if (medA.id == null) continue;
 
-        // Fetch interactions where medA is the 'primary' drug
+        // Fetch interactions where medA is involved via its ingredients
         final interactionsA = await localDataSource.getInteractionsForDrug(
           medA.id!,
         );
@@ -52,8 +52,17 @@ class InteractionRepositoryImpl implements InteractionRepository {
             if (i == j) continue;
             final medB = medicines[j];
 
-            if (_isMatch(interaction.interactionDrugName, medB)) {
-              // We found a match! medA interacts with medB.
+            // A rule (Ing1, Ing2) matches if:
+            // (medA has Ing1 AND medB has Ing2) OR (medA has Ing2 AND medB has Ing1)
+            final matchA1B2 =
+                _isMatch(interaction.ingredient1, medA) &&
+                _isMatch(interaction.ingredient2, medB);
+            final matchA2B1 =
+                _isMatch(interaction.ingredient2, medA) &&
+                _isMatch(interaction.ingredient1, medB);
+
+            if (matchA1B2 || matchA2B1) {
+              // We found a match!
               if (!addedIds.contains(interaction.id.toString())) {
                 results.add(interaction);
                 addedIds.add(interaction.id.toString());
@@ -276,7 +285,11 @@ class InteractionRepositoryImpl implements InteractionRepository {
                     'ingredient2': ruleMap['ingredient2'],
                     'severity': ruleMap['severity'],
                     'effect': ruleMap['effect'],
+                    'arabic_effect': ruleMap['arabic_effect'],
+                    'recommendation': ruleMap['recommendation'],
+                    'arabic_recommendation': ruleMap['arabic_recommendation'],
                     'source': ruleMap['source'],
+                    'type': ruleMap['type'],
                     'updated_at': ruleMap['updated_at'],
                   },
                   conflictAlgorithm: ConflictAlgorithm.replace,
@@ -357,6 +370,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
                   {
                     'id': dosage['id'],
                     'med_id': dosage['med_id'],
+                    'dailymed_setid': dosage['dailymed_setid'],
                     'min_dose': dosage['min_dose'],
                     'max_dose': dosage['max_dose'],
                     'frequency': dosage['frequency'],
@@ -364,7 +378,11 @@ class InteractionRepositoryImpl implements InteractionRepository {
                     'instructions': dosage['instructions'],
                     'condition': dosage['condition'],
                     'source': dosage['source'],
-                    'is_pediatric': dosage['is_pediatric'] == true ? 1 : 0,
+                    'is_pediatric':
+                        (dosage['is_pediatric'] == 1 ||
+                                dosage['is_pediatric'] == true)
+                            ? 1
+                            : 0,
                     'updated_at': dosage['updated_at'],
                   },
                   conflictAlgorithm: ConflictAlgorithm.replace,

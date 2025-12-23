@@ -1,6 +1,14 @@
-# 🎯 آخر تحديث - 18 ديسمبر 2025
+# 🎯 آخر تحديث - 23 ديسمبر 2025
 
 ## ✅ الإنجازات المكتملة
+
+### Drug Data & Sync Optimization ✅ (NEW)
+- **Database Schema Sync:** Renamed `last_update` to `last_price_update` in D1 to match source `meds.csv`.
+- **Data Mapping Fixes:**
+  - Fixed `unit` field mapping (previously empty due to `units` vs `unit` mismatch).
+  - Linked `usage` from CSV to `description` in D1.
+- **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
+- **Frontend Alignment:** Updated `ClinicalLab` to display `Last Price Sync` and `System Update` separately for transparency.
 
 ### Cloudflare Worker (Backend) ✅
 - **Database (D1):**

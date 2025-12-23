@@ -8,33 +8,42 @@ import 'interaction_type.dart'; // Import the enum
 // نموذج التفاعل الدوائي في طبقة المجال
 class DrugInteraction extends Equatable {
   final int? id;
-  final int medId; // ID of the local drug
-  final String interactionDrugName; // Name of the interacting drug
-  final String? interactionDailymedId; // RXCUI/UNII
+  final String ingredient1;
+  final String ingredient2;
   final String severity;
-  final String description;
+  final String? effect;
+  final String? arabicEffect;
+  final String? recommendation;
+  final String? arabicRecommendation;
   final String source;
+  final String type;
 
   const DrugInteraction({
     this.id,
-    required this.medId,
-    required this.interactionDrugName,
-    this.interactionDailymedId,
+    required this.ingredient1,
+    required this.ingredient2,
     required this.severity,
-    required this.description,
+    this.effect,
+    this.arabicEffect,
+    this.recommendation,
+    this.arabicRecommendation,
     this.source = 'DailyMed',
+    this.type = 'pharmacodynamic',
   });
 
   // Factory constructor to create an instance from JSON
   factory DrugInteraction.fromJson(Map<String, dynamic> json) {
     return DrugInteraction(
       id: json['id'] as int?,
-      medId: json['med_id'] as int? ?? 0,
-      interactionDrugName: json['interaction_drug_name'] as String? ?? '',
-      interactionDailymedId: json['interaction_dailymed_id'] as String?,
+      ingredient1: json['ingredient1'] as String? ?? '',
+      ingredient2: json['ingredient2'] as String? ?? '',
       severity: json['severity'] as String? ?? 'Moderate',
-      description: json['description'] as String? ?? '',
+      effect: json['effect'] as String?,
+      arabicEffect: json['arabic_effect'] as String?,
+      recommendation: json['recommendation'] as String?,
+      arabicRecommendation: json['arabic_recommendation'] as String?,
       source: json['source'] as String? ?? 'DailyMed',
+      type: json['type'] as String? ?? 'pharmacodynamic',
     );
   }
 
@@ -42,12 +51,15 @@ class DrugInteraction extends Equatable {
   Map<String, dynamic> toJson() {
     return {
       'id': id,
-      'med_id': medId,
-      'interaction_drug_name': interactionDrugName,
-      'interaction_dailymed_id': interactionDailymedId,
+      'ingredient1': ingredient1,
+      'ingredient2': ingredient2,
       'severity': severity,
-      'description': description,
+      'effect': effect,
+      'arabic_effect': arabicEffect,
+      'recommendation': recommendation,
+      'arabic_recommendation': arabicRecommendation,
       'source': source,
+      'type': type,
     };
   }
 
@@ -71,12 +83,15 @@ class DrugInteraction extends Equatable {
   @override
   List<Object?> get props => [
     id,
-    medId,
-    interactionDrugName,
-    interactionDailymedId,
+    ingredient1,
+    ingredient2,
     severity,
-    description,
+    effect,
+    arabicEffect,
+    recommendation,
+    arabicRecommendation,
     source,
+    type,
   ];
 }
 

@@ -18,6 +18,17 @@ class InteractionCard extends StatelessWidget {
       interaction.severityEnum,
       appColors,
     );
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final effect =
+        isRTL
+            ? (interaction.arabicEffect ?? interaction.effect ?? '')
+            : (interaction.effect ?? '');
+    final recommendation =
+        isRTL
+            ? (interaction.arabicRecommendation ??
+                interaction.recommendation ??
+                '')
+            : (interaction.recommendation ?? '');
 
     return Container(
       padding: const EdgeInsets.all(16),
@@ -30,11 +41,11 @@ class InteractionCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Row with circular icon and severity label + interacting drug name
+          // Row with circular icon and severity label + ingredients
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Circular icon container (w-10 h-10 rounded-full)
+              // Circular icon container
               Container(
                 width: 40,
                 height: 40,
@@ -51,14 +62,13 @@ class InteractionCard extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 12),
-              // Drug name and severity label
+              // Ingredients and severity label
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Interacting drug name (font-semibold)
                     Text(
-                      interaction.interactionDrugName,
+                      '${interaction.ingredient1} + ${interaction.ingredient2}',
                       style: TextStyle(
                         color: colorScheme.onSurface,
                         fontWeight: FontWeight.w600,
@@ -93,28 +103,61 @@ class InteractionCard extends StatelessWidget {
 
           const SizedBox(height: 12),
 
-          // Interaction Description
-          if (interaction.description != null &&
-              interaction.description!.isNotEmpty)
+          // Interaction Effect
+          if (effect.isNotEmpty)
             Text(
-              interaction.description!,
+              effect,
               style: TextStyle(
                 color: colorScheme.onSurfaceVariant,
                 fontSize: 14,
                 height: 1.5,
               ),
-            )
-          else
+            ),
+
+          if (recommendation.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: severityColor.withValues(alpha: 0.05),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(color: severityColor.withValues(alpha: 0.2)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    isRTL ? 'التوصية:' : 'Recommendation:',
+                    style: TextStyle(
+                      color: severityColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 13,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    recommendation,
+                    style: TextStyle(
+                      color: colorScheme.onSurface,
+                      fontSize: 13,
+                      height: 1.4,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+
+          if (effect.isEmpty && recommendation.isEmpty)
             Text(
-              "No details available.",
+              isRTL ? "لا توجد تفاصيل متاحة." : "No details available.",
               style: TextStyle(
-                color: colorScheme.onSurfaceVariant.withOpacity(0.5),
+                color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
                 fontSize: 14,
                 fontStyle: FontStyle.italic,
               ),
             ),
-
-          // Removed Recommendation box as it's no longer separate field
         ],
       ),
     );

@@ -81,7 +81,7 @@ if __name__ == "__main__":
     print("🔍 Inspecting D1 Database Schema...")
     print(f"Database ID: {DATABASE_ID}\n")
     
-    tables = ['drugs', 'med_dosages', 'drug_interactions']
+    tables = ['drugs', 'dosage_guidelines', 'drug_interactions', 'food_interactions']
     
     for table in tables:
         columns = get_table_info(table)

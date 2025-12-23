@@ -4,6 +4,7 @@ import 'package:flutter_localizations/flutter_localizations.dart'; // Added for 
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/date_symbol_data_local.dart'; // Import for date formatting initialization
 import 'package:provider/provider.dart';
+import 'package:workmanager/workmanager.dart';
 
 // Remove unused imports
 // import 'presentation/screens/onboarding_screen.dart';
@@ -13,6 +14,7 @@ import 'package:provider/provider.dart';
 import 'core/database/database_helper.dart';
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart';
+import 'core/services/unified_sync_service.dart';
 import 'data/datasources/local/sqlite_local_data_source.dart';
 import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 import 'presentation/bloc/ad_config_provider.dart';
@@ -25,6 +27,21 @@ import 'presentation/bloc/settings_provider.dart';
 import 'presentation/bloc/subscription_provider.dart';
 import 'presentation/screens/initialization_screen.dart'; // Import InitializationScreen
 import 'presentation/theme/app_theme.dart';
+
+@pragma('vm:entry-point')
+void callbackDispatcher() {
+  Workmanager().executeTask((task, inputData) async {
+    try {
+      // Re-initialize DI for the background isolate
+      await setupLocator();
+      final syncService = locator<UnifiedSyncService>();
+      final result = await syncService.syncAllData();
+      return result.isRight();
+    } catch (e) {
+      return false;
+    }
+  });
+}
 
 // Keys moved to InitializationScreen
 // const String _prefsKeyOnboardingDone = 'onboarding_complete';
@@ -60,6 +77,34 @@ Future<void> main() async {
     logger.i("main: Initializing Mobile Ads SDK...");
     MobileAds.instance.initialize();
     logger.i("main: Mobile Ads SDK initialized.");
+
+    // --- Background Sync Initialization ---
+    logger.i("main: Initializing Workmanager for background sync...");
+    await Workmanager().initialize(callbackDispatcher, isInDebugMode: false);
+
+    // Calculate delay to 2:00 AM
+    final now = DateTime.now();
+    var scheduledTime = DateTime(now.year, now.month, now.day, 2, 0);
+    if (scheduledTime.isBefore(now)) {
+      scheduledTime = scheduledTime.add(const Duration(days: 1));
+    }
+    final initialDelay = scheduledTime.difference(now);
+
+    logger.i(
+      "main: Scheduling daily sync for 2:00 AM (Delay: ${initialDelay.inHours}h ${initialDelay.inMinutes % 60}m)",
+    );
+
+    await Workmanager().registerPeriodicTask(
+      "unified-sync-daily",
+      "unifiedSyncTask",
+      frequency: const Duration(hours: 24),
+      initialDelay: initialDelay,
+      constraints: Constraints(
+        networkType: NetworkType.connected,
+        requiresBatteryNotLow: true,
+      ),
+      existingWorkPolicy: ExistingWorkPolicy.replace,
+    );
 
     // REMOVED: Routing logic moved to InitializationScreen
     // logger.i("main: Checking onboarding status...");

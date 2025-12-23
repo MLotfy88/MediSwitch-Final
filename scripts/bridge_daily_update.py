@@ -209,9 +209,9 @@ def sync_to_d1(updates):
             
             sql = f"""
             INSERT OR REPLACE INTO drugs 
-            (id, trade_name, arabic_name, price, old_price, active, company, dosage_form, usage, visits, last_price_update, barcode, unit, pharmacology, concentration)
+            (id, trade_name, arabic_name, price, old_price, active, company, dosage_form, description, visits, last_price_update, barcode, unit, pharmacology, concentration, qr_code)
             VALUES 
-            ({mid}, {val('trade_name')}, {val('arabic_name')}, {val('price')}, {val('old_price')}, {val('active')}, {val('company')}, {val('dosage_form')}, {val('usage')}, {vsts}, {val('last_price_update')}, {val('barcode')}, {val('units')}, {val('pharmacology')}, {val('concentration')});
+            ({mid}, {val('trade_name')}, {val('arabic_name')}, {val('price')}, {val('old_price')}, {val('active')}, {val('company')}, {val('dosage_form')}, {val('usage')}, {vsts}, {val('last_price_update')}, {val('barcode')}, {val('units')}, {val('pharmacology')}, {val('concentration')}, {val('qr_code')});
             """
             sql_statements += sql.strip() + "\n"
         

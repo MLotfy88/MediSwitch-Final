@@ -91,12 +91,12 @@ class _IngredientInteractionsScreenState
             specificList.add(
               DrugInteraction(
                 id: -1, // Dummy ID
-                medId: 0,
-                interactionDrugName: 'Food / Diet',
+                ingredient1: widget.ingredient!.name,
+                ingredient2: 'Food / Diet',
                 severity: 'Major', // Assume significant if listed
-                description: foodDesc,
+                effect: foodDesc,
                 source: 'Database', // or 'Food'
-                // interactionDailyMedId: null
+                type: 'food',
               ),
             );
           }
@@ -163,6 +163,7 @@ class _IngredientInteractionsScreenState
   }
 
   void _onSearch(String query) {
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
     setState(() {
       _searchQuery = query;
       if (query.isEmpty) {
@@ -171,8 +172,16 @@ class _IngredientInteractionsScreenState
         final lowerQuery = query.toLowerCase();
         _filteredInteractions =
             _allInteractions.where((i) {
-              return i.interactionDrugName.toLowerCase().contains(lowerQuery) ||
-                  i.description.toLowerCase().contains(lowerQuery);
+              final effect =
+                  isRTL ? (i.arabicEffect ?? i.effect ?? '') : (i.effect ?? '');
+              final otherIngredient =
+                  i.ingredient1.toLowerCase() ==
+                          widget.ingredient?.name.toLowerCase()
+                      ? i.ingredient2
+                      : i.ingredient1;
+
+              return otherIngredient.toLowerCase().contains(lowerQuery) ||
+                  effect.toLowerCase().contains(lowerQuery);
             }).toList();
       }
     });
@@ -292,16 +301,22 @@ class _IngredientInteractionsScreenState
                 delegate: SliverChildBuilderDelegate((context, index) {
                   final interaction = _filteredInteractions[index];
                   // Highlight Food Interactions
-                  if (interaction.interactionDrugName == 'Food / Diet') {
+                  final isFood =
+                      interaction.ingredient1 == 'Food / Diet' ||
+                      interaction.ingredient2 == 'Food / Diet';
+                  // Highlight Food Interactions
+                  if (isFood) {
                     return Padding(
                       padding: const EdgeInsets.only(bottom: 12),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           if (index == 0 ||
-                              _filteredInteractions[index - 1]
-                                      .interactionDrugName !=
-                                  'Food / Diet')
+                              (_filteredInteractions[index - 1].ingredient1 !=
+                                      'Food / Diet' &&
+                                  _filteredInteractions[index - 1]
+                                          .ingredient2 !=
+                                      'Food / Diet'))
                             Padding(
                               padding: const EdgeInsets.only(bottom: 8),
                               child: Text(

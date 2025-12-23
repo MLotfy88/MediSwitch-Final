@@ -85,5 +85,10 @@ public final class GeneratedPluginRegistrant {
     } catch (Exception e) {
       Log.e(TAG, "Error registering plugin webview_flutter_android, io.flutter.plugins.webviewflutter.WebViewFlutterPlugin", e);
     }
+    try {
+      flutterEngine.getPlugins().add(new dev.fluttercommunity.workmanager.WorkmanagerPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin workmanager, dev.fluttercommunity.workmanager.WorkmanagerPlugin", e);
+    }
   }
 }

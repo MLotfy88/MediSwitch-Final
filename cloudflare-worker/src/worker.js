@@ -167,6 +167,15 @@ export default {
                 if (method === 'PUT') return handleUpdateFeedback(id, request, DB);
             }
 
+            // Food Interactions
+            if (path === '/api/admin/food-interactions' && method === 'GET') return handleGetFoodInteractions(request, DB);
+            if (path === '/api/admin/food-interactions' && method === 'POST') return handleCreateFoodInteraction(request, DB);
+            if (path.startsWith('/api/admin/food-interactions/')) {
+                const id = path.split('/').pop();
+                if (method === 'PUT') return handleUpdateFoodInteraction(id, request, DB);
+                if (method === 'DELETE') return handleDeleteFoodInteraction(id, DB);
+            }
+
             // Missed Searches
             if (path === '/api/admin/missed-searches' && method === 'GET') return handleGetMissedSearches(DB);
             if (path === '/api/searches/missed' && method === 'GET') return handleGetMissedSearches(DB);
@@ -186,6 +195,7 @@ export default {
                 if (path === '/api/sync/drugs') return handleSyncDrugs(request, DB);
                 if (path === '/api/sync/med-ingredients') return handleSyncMedIngredients(request, DB);
                 if (path === '/api/sync/interactions') return handleSyncInteractions(request, DB);
+                if (path === '/api/sync/dosages') return handleSyncDosages(request, DB);
             }
 
             // Bulk Update (GitHub Actions)
@@ -238,7 +248,8 @@ async function handleGetDosages(request, DB) {
     const page = parseInt(url.searchParams.get('page') || '1');
     const limit = parseInt(url.searchParams.get('limit') || '100');
     const search = url.searchParams.get('search') || '';
-    const sort = url.searchParams.get('sort') || 'active_ingredient';
+    const sortBy = url.searchParams.get('sortBy') || 'med_id';
+    const sortOrder = url.searchParams.get('sortOrder') === 'DESC' ? 'DESC' : 'ASC';
     const offset = (page - 1) * limit;
 
     try {
@@ -247,18 +258,19 @@ async function handleGetDosages(request, DB) {
         const params = [];
 
         if (search) {
-            query += ' WHERE active_ingredient LIKE ? OR strength LIKE ?';
-            countQuery += ' WHERE active_ingredient LIKE ? OR strength LIKE ?';
+            query += ' WHERE instructions LIKE ? OR condition LIKE ?';
+            countQuery += ' WHERE instructions LIKE ? OR condition LIKE ?';
             const searchParam = `%${search}%`;
             params.push(searchParam, searchParam);
         }
 
-        query += ` ORDER BY ${sort} LIMIT ? OFFSET ?`;
+        query += ` ORDER BY ${sortBy} ${sortOrder} LIMIT ? OFFSET ?`;
+        const countParams = search ? [`%${search}%`, `%${search}%`] : [];
         params.push(limit, offset);
 
         const [dataResult, countResult] = await Promise.all([
             DB.prepare(query).bind(...params).all(),
-            DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first()
+            DB.prepare(countQuery).bind(...countParams).first()
         ]);
 
         return jsonResponse({
@@ -299,22 +311,27 @@ async function handleCreateDosage(request, DB) {
     try {
         const data = await request.json();
 
-        if (!data.active_ingredient || !data.strength) {
-            return errorResponse('Active ingredient and strength are required', 400);
+        if (!data.med_id) {
+            return errorResponse('med_id is required', 400);
         }
 
         const query = `
             INSERT INTO dosage_guidelines 
-            (active_ingredient, strength, standard_dose, max_dose, package_label) 
-            VALUES (?, ?, ?, ?, ?)
+            (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         `;
 
         const result = await DB.prepare(query).bind(
-            data.active_ingredient,
-            data.strength,
-            data.standard_dose || null,
+            data.med_id,
+            data.dailymed_setid || null,
+            data.min_dose || 0,
             data.max_dose || null,
-            data.package_label || null
+            data.frequency || null,
+            data.duration || null,
+            data.instructions || '',
+            data.condition || '',
+            data.source || 'DailyMed',
+            data.is_pediatric ? 1 : 0
         ).run();
 
         return jsonResponse({
@@ -337,16 +354,23 @@ async function handleUpdateDosage(id, request, DB) {
 
         const query = `
             UPDATE dosage_guidelines 
-            SET active_ingredient = ?, strength = ?, standard_dose = ?, max_dose = ?, package_label = ?
+            SET med_id = ?, dailymed_setid = ?, min_dose = ?, max_dose = ?, 
+                frequency = ?, duration = ?, instructions = ?, condition = ?, 
+                source = ?, is_pediatric = ?
             WHERE id = ?
         `;
 
         const result = await DB.prepare(query).bind(
-            data.active_ingredient,
-            data.strength,
-            data.standard_dose || null,
+            data.med_id,
+            data.dailymed_setid || null,
+            data.min_dose || 0,
             data.max_dose || null,
-            data.package_label || null,
+            data.frequency || null,
+            data.duration || null,
+            data.instructions || '',
+            data.condition || '',
+            data.source || 'DailyMed',
+            data.is_pediatric ? 1 : 0,
             id
         ).run();
 
@@ -458,6 +482,118 @@ async function handleRecentPriceChanges(request, DB) {
     }
 }
 
+async function handleAdminGetInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const page = parseInt(url.searchParams.get('page')) || 1;
+    const limit = parseInt(url.searchParams.get('limit')) || 20;
+    const search = url.searchParams.get('search') || '';
+    const sortBy = url.searchParams.get('sortBy') || 'id';
+    const sortOrder = url.searchParams.get('sortOrder') === 'DESC' ? 'DESC' : 'ASC';
+    const offset = (page - 1) * limit;
+
+    try {
+        let query = 'SELECT * FROM drug_interactions';
+        const params = [];
+
+        if (search) {
+            query += ' WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?';
+            params.push(`%${search}%`, `%${search}%`);
+        }
+
+        query += ` ORDER BY ${sortBy} ${sortOrder} LIMIT ? OFFSET ?`;
+        params.push(limit, offset);
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+        const countQuery = 'SELECT COUNT(*) as count FROM drug_interactions' + (search ? ' WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?' : '');
+        const { count } = await DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first();
+
+        return jsonResponse({
+            data: results,
+            pagination: { page, limit, total: count }
+        });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+async function handleGetFoodInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const page = parseInt(url.searchParams.get('page')) || 1;
+    const limit = parseInt(url.searchParams.get('limit')) || 20;
+    const search = url.searchParams.get('search') || '';
+    const sortBy = url.searchParams.get('sortBy') || 'trade_name';
+    const sortOrder = url.searchParams.get('sortOrder') === 'DESC' ? 'DESC' : 'ASC';
+    const offset = (page - 1) * limit;
+
+    try {
+        let query = 'SELECT * FROM food_interactions';
+        const params = [];
+
+        if (search) {
+            query += ' WHERE trade_name LIKE ? OR interaction LIKE ?';
+            params.push(`%${search}%`, `%${search}%`);
+        }
+
+        query += ` ORDER BY ${sortBy} ${sortOrder} LIMIT ? OFFSET ?`;
+        params.push(limit, offset);
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+        const countQuery = 'SELECT COUNT(*) as count FROM food_interactions' + (search ? ' WHERE trade_name LIKE ? OR interaction LIKE ?' : '');
+        const { count } = await DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first();
+
+        return jsonResponse({
+            data: results,
+            pagination: { page, limit, total: count }
+        });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleCreateFoodInteraction(request, DB) {
+    try {
+        const data = await request.json();
+        const { med_id, trade_name, interaction, source } = data;
+
+        await DB.prepare(`
+            INSERT INTO food_interactions 
+            (med_id, trade_name, interaction, source)
+            VALUES (?, ?, ?, ?)
+        `).bind(med_id, trade_name, interaction, source || 'DrugBank').run();
+
+        return jsonResponse({ message: 'Food interaction created' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateFoodInteraction(id, request, DB) {
+    try {
+        const data = await request.json();
+        const { med_id, trade_name, interaction, source } = data;
+
+        await DB.prepare(`
+            UPDATE food_interactions SET
+            med_id = ?, trade_name = ?, interaction = ?, source = ?
+            WHERE id = ?
+        `).bind(med_id, trade_name, interaction, source || 'DrugBank', id).run();
+
+        return jsonResponse({ message: 'Food interaction updated' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleDeleteFoodInteraction(id, DB) {
+    try {
+        await DB.prepare('DELETE FROM food_interactions WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'Food interaction deleted' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
 async function handleSyncDrugs(request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
     const url = new URL(request.url);
@@ -539,6 +675,48 @@ async function handleSyncInteractions(request, DB) {
 
     } catch (e) {
         console.error('Sync interactions error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleSyncDosages(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+    try {
+        let query = 'SELECT * FROM dosage_guidelines';
+        const params = [];
+        if (since > 0) {
+            query += " WHERE CAST(strftime('%s', created_at) AS INTEGER) > ?";
+            params.push(since);
+        }
+        query += ' ORDER BY id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
+        }
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+
+        let countQuery = 'SELECT COUNT(*) as total FROM dosage_guidelines';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += " WHERE CAST(strftime('%s', created_at) AS INTEGER) > ?";
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+            data: results || [],
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (e) {
+        console.error('Sync dosages error:', e);
         return errorResponse(e.message, 500);
     }
 }
@@ -735,86 +913,37 @@ async function handleDailyAnalytics(request, DB) {
 
 async function handleAdminGetDrugs(request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
-
     const url = new URL(request.url);
-    const page = parseInt(url.searchParams.get('page') || '1');
-    const limit = parseInt(url.searchParams.get('limit') || '50');
+    const page = parseInt(url.searchParams.get('page')) || 1;
+    const limit = parseInt(url.searchParams.get('limit')) || 20;
     const search = url.searchParams.get('search') || '';
     const sortBy = url.searchParams.get('sortBy') || 'updated_at';
-    const sortOrder = url.searchParams.get('sortOrder') || 'DESC';
+    const sortOrder = url.searchParams.get('sortOrder') === 'ASC' ? 'ASC' : 'DESC';
     const offset = (page - 1) * limit;
 
     try {
-        // Select logic with defaults handled in JS
         let query = 'SELECT * FROM drugs';
-        let countQuery = 'SELECT COUNT(*) as total FROM drugs';
         const params = [];
 
         if (search) {
-            query += ' WHERE trade_name LIKE ? OR company LIKE ?';
-            countQuery += ' WHERE trade_name LIKE ? OR company LIKE ?';
-            const searchParam = `%${search}%`;
-            params.push(searchParam, searchParam);
+            query += ' WHERE trade_name LIKE ? OR active LIKE ?';
+            params.push(`%${search}%`, `%${search}%`);
         }
 
-        const allowedSortColumns = ['id', 'trade_name', 'company', 'price', 'old_price', 'updated_at', 'last_price_update', 'created_at'];
-        if (!allowedSortColumns.includes(sortBy)) {
-            // Fallback to default if invalid column
-            // But valid columns should pass through
-        }
-
-        // If sorting by last_price_update, ensure we handle NULLs if necessary (SQLite defaults NULLs first for ASC, last for DESC usually, but good to be safe)
-        // For formatted strings YYYY-MM-DD, standard sorting works.
-
-        const safeSortBy = allowedSortColumns.includes(sortBy) ? sortBy : 'updated_at';
-        const safeSortOrder = (sortOrder === 'ASC' || sortOrder === 'DESC') ? sortOrder : 'DESC';
-
-        // Add NULLS LAST to ensure empty values don't clutter the top of the list
-        query += ` ORDER BY ${safeSortBy} ${safeSortOrder} NULLS LAST LIMIT ? OFFSET ?`;
+        const allowedColumns = ['id', 'trade_name', 'price', 'updated_at', 'company', 'category'];
+        const safeSortBy = allowedColumns.includes(sortBy) ? sortBy : 'updated_at';
+        query += ` ORDER BY ${safeSortBy} ${sortOrder} LIMIT ? OFFSET ?`;
         params.push(limit, offset);
 
-        const [dataResult, countResult] = await Promise.all([
-            DB.prepare(query).bind(...params).all(),
-            DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first()
-        ]);
-
-        // Process results to inject default date
-        const processedResults = (dataResult.results || []).map(drug => {
-            let lastPriceUpdate = drug.last_price_update;
-            // Check for null, undefined, or empty/whitespace/N/A string
-            if (!lastPriceUpdate ||
-                (typeof lastPriceUpdate === 'string' && (lastPriceUpdate.trim() === '' || lastPriceUpdate.trim().toUpperCase() === 'N/A' || lastPriceUpdate.trim().toLowerCase() === 'null'))) {
-                // Use a PAST DATE so real updates appear first when sorting DESC
-                lastPriceUpdate = '2000-01-01';
-            } else if (typeof lastPriceUpdate === 'string' && /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(lastPriceUpdate)) {
-                // Handle DD/MM/YYYY format found in DB
-                const parts = lastPriceUpdate.split('/');
-                if (parts.length === 3) {
-                    // Convert to YYYY-MM-DD
-                    const day = parts[0].padStart(2, '0');
-                    const month = parts[1].padStart(2, '0');
-                    const year = parts[2];
-                    lastPriceUpdate = `${year}-${month}-${day}`;
-                }
-            }
-            return {
-                ...drug,
-                last_price_update: lastPriceUpdate
-            };
-        });
+        const { results } = await DB.prepare(query).bind(...params).all();
+        const { count } = await DB.prepare('SELECT COUNT(*) as count FROM drugs' + (search ? ' WHERE trade_name LIKE ? OR active LIKE ?' : '')).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first();
 
         return jsonResponse({
-            data: processedResults,
-            pagination: {
-                page,
-                limit,
-                total: countResult.total || 0,
-                totalPages: Math.ceil((countResult.total || 0) / limit)
-            }
+            data: results,
+            pagination: { page, limit, total: count }
         });
-    } catch (error) {
-        console.error('Admin get drugs error:', error);
-        return errorResponse('Failed to fetch drugs', 500);
+    } catch (e) {
+        return errorResponse(e.message, 500);
     }
 }
 

@@ -18,36 +18,37 @@ class DatabaseHelper {
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
   static const int _dbVersion =
-      10; // Bumping version for case-insensitive interaction matching
+      11; // Universal Schema Alignment (snake_case + Source of Truth)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
   static const String foodInteractionsTable = 'food_interactions';
 
-  // --- Column Names ---
+  // --- Column Names (Strictly snake_case to match D1 & Assets) ---
   static const String colId = 'id';
-  static const String colTradeName = 'tradeName';
-  static const String colArabicName = 'arabicName';
+  static const String colTradeName = 'trade_name';
+  static const String colArabicName = 'arabic_name';
   static const String colPrice = 'price';
-  static const String colOldPrice = 'oldPrice';
-  static const String colMainCategory = 'mainCategory';
+  static const String colOldPrice = 'old_price';
+  static const String colMainCategory = 'main_category';
   static const String colCategory = 'category';
   static const String colCategoryAr = 'category_ar';
   static const String colActive = 'active';
   static const String colCompany = 'company';
-  static const String colDosageForm = 'dosageForm';
-  static const String colDosageFormAr = 'dosageForm_ar';
+  static const String colDosageForm = 'dosage_form';
+  static const String colDosageFormAr = 'dosage_form_ar';
   static const String colConcentration = 'concentration';
   static const String colUnit = 'unit';
   static const String colUsage = 'usage';
   static const String colUsageAr = 'usage_ar';
   static const String colDescription = 'description';
-  static const String colPharmacology = 'pharmacology'; // New Column
+  static const String colPharmacology = 'pharmacology';
   static const String colBarcode = 'barcode';
+  static const String colQrCode = 'qr_code';
   static const String colVisits = 'visits';
-  static const String colLastPriceUpdate = 'lastPriceUpdate';
-  static const String colImageUrl = 'imageUrl';
-  static const String colUpdatedAt = 'updatedAt'; // New for Delta Sync
+  static const String colLastPriceUpdate = 'last_price_update';
+  static const String colImageUrl = 'image_url';
+  static const String colUpdatedAt = 'updated_at';
 
   Future<Database> get database async {
     if (_database != null) return _database!;
@@ -119,13 +120,15 @@ class DatabaseHelper {
       }
     }
 
-    if (oldVersion < 10) {
-      debugPrint(
-        'Upgrading to Version 10: Recreating interaction tables for case-insensitivity...',
-      );
-      await db.execute('DROP TABLE IF EXISTS $interactionsTable');
+    if (oldVersion < 11) {
+      debugPrint('Upgrading to Version 11: Full Schema Reset for Unity...');
+      await db.execute('DROP TABLE IF EXISTS drugs');
+      await db.execute('DROP TABLE IF EXISTS dosage_guidelines');
+      await db.execute('DROP TABLE IF EXISTS drug_interactions');
       await db.execute('DROP TABLE IF EXISTS med_ingredients');
-      await _onCreateInteractions(db);
+      await db.execute('DROP TABLE IF EXISTS food_interactions');
+      await _onCreate(db, newVersion);
+      return;
     }
   }
 
@@ -135,8 +138,8 @@ class DatabaseHelper {
     // Updated Medicine Table (Renamed to drugs)
     await db.execute('''
           CREATE TABLE IF NOT EXISTS $medicinesTable (
-            $colTradeName TEXT PRIMARY KEY,
-            $colId INTEGER,
+            $colId INTEGER PRIMARY KEY,
+            $colTradeName TEXT,
             $colArabicName TEXT,
             $colPrice TEXT,
             $colOldPrice TEXT,
@@ -147,17 +150,18 @@ class DatabaseHelper {
             $colCompany TEXT,
             $colDosageForm TEXT,
             $colDosageFormAr TEXT,
-            $colConcentration REAL,
+            $colConcentration TEXT,
             $colUnit TEXT,
             $colUsage TEXT,
             $colUsageAr TEXT,
             $colDescription TEXT,
             $colPharmacology TEXT,
             $colBarcode TEXT,
+            $colQrCode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
             $colImageUrl TEXT,
-            $colUpdatedAt INTEGER DEFAULT 0 -- For Sync logic
+            $colUpdatedAt INTEGER DEFAULT 0
           )
           ''');
     debugPrint('Medicines table created');
@@ -196,7 +200,7 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS dosage_guidelines (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        med_id INTEGER,
+        med_id INTEGER NOT NULL,
         dailymed_setid TEXT,
         min_dose REAL,
         max_dose REAL,
@@ -229,8 +233,12 @@ class DatabaseHelper {
         ingredient2 TEXT COLLATE NOCASE,
         severity TEXT,
         effect TEXT,
+        arabic_effect TEXT,
+        recommendation TEXT,
+        arabic_recommendation TEXT,
         source TEXT,
-        updated_at INTEGER DEFAULT 0 -- For Sync
+        type TEXT,
+        updated_at INTEGER DEFAULT 0
       )
     ''');
     await db.execute(
@@ -264,10 +272,10 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS $foodInteractionsTable (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        med_id INTEGER,
+        med_id INTEGER NOT NULL,
         trade_name TEXT,
-        interaction TEXT,
-        source TEXT
+        interaction TEXT NOT NULL,
+        source TEXT DEFAULT 'DrugBank'
       )
     ''');
     await db.execute(
@@ -308,6 +316,7 @@ class DatabaseHelper {
         colVisits,
         colLastPriceUpdate,
         colImageUrl,
+        colQrCode,
       ];
 
       dbMap.removeWhere((key, value) => !validColumns.contains(key));

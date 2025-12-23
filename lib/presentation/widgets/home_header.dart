@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/core/services/unified_sync_service.dart';
 
 import '../screens/notifications/notifications_screen.dart';
 
@@ -84,98 +86,194 @@ class HomeHeader extends StatelessWidget {
             ],
           ),
 
-          // Notification Button with Badge
-          Stack(
-            clipBehavior: Clip.none,
+          Row(
             children: [
-              Material(
-                    color: Colors.transparent,
-                    child: InkWell(
-                      onTap: () {
-                        if (onNotificationTap != null) {
-                          onNotificationTap!();
-                        } else {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const NotificationsScreen(),
-                            ),
-                          );
-                        }
-                      },
-                      borderRadius: BorderRadius.circular(12),
-                      child: Container(
-                        width: 44,
-                        height: 44,
-                        decoration: BoxDecoration(
-                          color: colorScheme.surfaceContainerHighest
-                              .withOpacity(0.5),
+              // Sync button
+              _SyncButton(),
+              const SizedBox(width: 8),
+              // Notification Button with Badge
+              Stack(
+                clipBehavior: Clip.none,
+                children: [
+                  Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            if (onNotificationTap != null) {
+                              onNotificationTap!();
+                            } else {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder:
+                                      (context) => const NotificationsScreen(),
+                                ),
+                              );
+                            }
+                          },
                           borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: Icon(
-                          LucideIcons.bell,
-                          size: 22,
-                          color: colorScheme.onSurface,
-                        ),
-                      ),
-                    ),
-                  )
-                  .animate(onPlay: (controller) => controller.repeat())
-                  .shake(
-                    duration: hasNotifications ? 2000.ms : 0.ms,
-                    delay: 3000.ms,
-                    hz: 3,
-                    curve: Curves.easeInOut,
-                  ),
-              // Notification Badge
-              if (hasNotifications)
-                Positioned(
-                  right: 0,
-                  top: 0,
-                  child: Container(
-                        padding: const EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          color: colorScheme.error,
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: colorScheme.surface,
-                            width: 2,
-                          ),
-                        ),
-                        constraints: const BoxConstraints(
-                          minWidth: 18,
-                          minHeight: 18,
-                        ),
-                        child: Center(
-                          child: Text(
-                            notificationCount > 9 ? '9+' : '$notificationCount',
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 10,
-                              fontWeight: FontWeight.bold,
+                          child: Container(
+                            width: 44,
+                            height: 44,
+                            decoration: BoxDecoration(
+                              color: colorScheme.surfaceContainerHighest
+                                  .withOpacity(0.5),
+                              borderRadius: BorderRadius.circular(12),
                             ),
-                            textAlign: TextAlign.center,
+                            child: Icon(
+                              LucideIcons.bell,
+                              size: 22,
+                              color: colorScheme.onSurface,
+                            ),
                           ),
                         ),
                       )
                       .animate(onPlay: (controller) => controller.repeat())
-                      .scale(
-                        duration: 1000.ms,
-                        begin: const Offset(0.9, 0.9),
-                        end: const Offset(1.1, 1.1),
-                        curve: Curves.easeInOut,
-                      )
-                      .then()
-                      .scale(
-                        duration: 1000.ms,
-                        begin: const Offset(1.1, 1.1),
-                        end: const Offset(0.9, 0.9),
+                      .shake(
+                        duration: hasNotifications ? 2000.ms : 0.ms,
+                        delay: 3000.ms,
+                        hz: 3,
                         curve: Curves.easeInOut,
                       ),
-                ),
+                  // Notification Badge
+                  if (hasNotifications)
+                    Positioned(
+                      right: 0,
+                      top: 0,
+                      child: Container(
+                            padding: const EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              color: colorScheme.error,
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: colorScheme.surface,
+                                width: 2,
+                              ),
+                            ),
+                            constraints: const BoxConstraints(
+                              minWidth: 18,
+                              minHeight: 18,
+                            ),
+                            child: Center(
+                              child: Text(
+                                notificationCount > 9
+                                    ? '9+'
+                                    : '$notificationCount',
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 10,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          )
+                          .animate(onPlay: (controller) => controller.repeat())
+                          .scale(
+                            duration: 1000.ms,
+                            begin: const Offset(0.9, 0.9),
+                            end: const Offset(1.1, 1.1),
+                            curve: Curves.easeInOut,
+                          )
+                          .then()
+                          .scale(
+                            duration: 1000.ms,
+                            begin: const Offset(1.1, 1.1),
+                            end: const Offset(0.9, 0.9),
+                            curve: Curves.easeInOut,
+                          ),
+                    ),
+                ],
+              ),
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _SyncButton extends StatefulWidget {
+  @override
+  State<_SyncButton> createState() => _SyncButtonState();
+}
+
+class _SyncButtonState extends State<_SyncButton> {
+  bool _isSyncing = false;
+
+  Future<void> _handleSync() async {
+    if (_isSyncing) return;
+
+    setState(() => _isSyncing = true);
+
+    try {
+      final syncService = locator<UnifiedSyncService>();
+      final result = await syncService.syncAllData();
+
+      if (mounted) {
+        result.fold(
+          (Failure failure) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('Sync failed: ${failure.message}'),
+                backgroundColor: Colors.red,
+              ),
+            );
+          },
+          (success) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Synchronization successful!'),
+                backgroundColor: Colors.green,
+              ),
+            );
+          },
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() => _isSyncing = false);
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: _handleSync,
+        borderRadius: BorderRadius.circular(12),
+        child: Container(
+          width: 44,
+          height: 44,
+          decoration: BoxDecoration(
+            color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: Center(
+            child:
+                _isSyncing
+                    ? SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        valueColor: AlwaysStoppedAnimation<Color>(
+                          colorScheme.primary,
+                        ),
+                      ),
+                    )
+                    : Icon(
+                      LucideIcons.refreshCw,
+                      size: 20,
+                      color: colorScheme.onSurface,
+                    ),
+          ),
+        ),
       ),
     );
   }

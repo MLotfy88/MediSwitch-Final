@@ -3,36 +3,45 @@ import '../../domain/entities/drug_interaction.dart';
 class DrugInteractionModel extends DrugInteraction {
   const DrugInteractionModel({
     super.id,
-    required super.medId,
-    required super.interactionDrugName,
-    super.interactionDailymedId,
-    super.severity = 'Unknown',
-    required super.description,
-    super.source = 'Local',
+    required super.ingredient1,
+    required super.ingredient2,
+    required super.severity,
+    super.effect,
+    super.arabicEffect,
+    super.recommendation,
+    super.arabicRecommendation,
+    super.source = 'DailyMed',
+    super.type = 'pharmacodynamic',
   });
 
   factory DrugInteractionModel.fromJson(Map<String, dynamic> json) {
     return DrugInteractionModel(
       id: json['id'] as int?,
-      medId: json['med_id'] as int? ?? 0,
-      interactionDrugName:
-          json['interaction_drug_name'] as String? ?? 'Unknown Drug',
-      interactionDailymedId: json['interaction_dailymed_id'] as String?,
-      severity: json['severity'] as String? ?? 'Unknown',
-      description: json['description'] as String? ?? 'No description available',
-      source: json['source'] as String? ?? 'Local',
+      ingredient1: json['ingredient1'] as String? ?? '',
+      ingredient2: json['ingredient2'] as String? ?? '',
+      severity: json['severity'] as String? ?? 'Moderate',
+      effect: json['effect'] as String?,
+      arabicEffect: json['arabic_effect'] as String?,
+      recommendation: json['recommendation'] as String?,
+      arabicRecommendation: json['arabic_recommendation'] as String?,
+      source: json['source'] as String? ?? 'DailyMed',
+      type: json['type'] as String? ?? 'pharmacodynamic',
     );
   }
 
+  @override
   Map<String, dynamic> toJson() {
     return {
       'id': id,
-      'med_id': medId,
-      'interaction_drug_name': interactionDrugName,
-      'interaction_dailymed_id': interactionDailymedId,
+      'ingredient1': ingredient1,
+      'ingredient2': ingredient2,
       'severity': severity,
-      'description': description,
+      'effect': effect,
+      'arabic_effect': arabicEffect,
+      'recommendation': recommendation,
+      'arabic_recommendation': arabicRecommendation,
       'source': source,
+      'type': type,
     };
   }
 

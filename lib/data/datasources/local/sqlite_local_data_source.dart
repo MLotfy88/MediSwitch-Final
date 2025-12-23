@@ -1256,32 +1256,16 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // Relational Query: Find rules where one side matches any of this med's ingredients
-    // We project 'other_drug' as the one that is NOT the med's ingredient
-    // Note: If a med has BOTH ingredient1 and ingredient2 (A + B, and A interacts with B), it returns keys relative to row.
-
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT 
-        r.id, 
-        r.severity, 
-        r.effect as description, 
-        r.source, 
-        -- Determine which ingredient is the "other" one
-        CASE 
-          WHEN r.ingredient1 = mi.ingredient THEN r.ingredient2 
-          ELSE r.ingredient1 
-        END as interaction_drug_name
+        r.*
       FROM med_ingredients mi
       JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
       WHERE mi.med_id = ?
     ''',
       [medId],
     );
-
-    // Deduplicate? If med has Ing A and Ing B, and Rule is A-C, it appears once.
-    // If Rule is A-B (internal interaction), it matches A (other=B) AND matches B (other=A).
-    // We should probably distinct by rule ID.
 
     final uniqueIds = <int>{};
     final List<DrugInteractionModel> results = [];
@@ -1291,17 +1275,7 @@ class SqliteLocalDataSource {
       if (uniqueIds.contains(id)) continue;
       uniqueIds.add(id);
 
-      results.add(
-        DrugInteractionModel.fromMap({
-          'id': map['id'],
-          'med_id': medId, // Helper context
-          'interaction_drug_name': map['interaction_drug_name'],
-          'severity': map['severity'],
-          'description': map['description'],
-          'source': map['source'],
-          'interaction_dailymed_id': null,
-        }),
-      );
+      results.add(DrugInteractionModel.fromMap(map));
     }
     return results;
   }

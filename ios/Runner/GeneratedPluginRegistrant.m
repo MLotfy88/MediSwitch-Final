@@ -84,6 +84,12 @@
 @import webview_flutter_wkwebview;
 #endif
 
+#if __has_include(<workmanager/WorkmanagerPlugin.h>)
+#import <workmanager/WorkmanagerPlugin.h>
+#else
+@import workmanager;
+#endif
+
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
@@ -100,6 +106,7 @@
   [SqflitePlugin registerWithRegistrar:[registry registrarForPlugin:@"SqflitePlugin"]];
   [URLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"URLLauncherPlugin"]];
   [WebViewFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"WebViewFlutterPlugin"]];
+  [WorkmanagerPlugin registerWithRegistrar:[registry registrarForPlugin:@"WorkmanagerPlugin"]];
 }
 
 @end
