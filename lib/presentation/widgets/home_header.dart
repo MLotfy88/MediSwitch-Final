@@ -2,19 +2,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/unified_sync_service.dart';
+import 'package:mediswitch/presentation/screens/notifications/notifications_screen.dart';
 
-import '../screens/notifications/notifications_screen.dart';
-
+/// Header widget for the home screen containing app logo, sync button,
+/// and notifications.
 class HomeHeader extends StatelessWidget {
-  final int notificationCount;
-  final VoidCallback? onNotificationTap;
-
+  /// Creates a [HomeHeader] widget.
   const HomeHeader({
     super.key,
     this.notificationCount = 0,
     this.onNotificationTap,
   });
+
+  /// Number of unread notifications.
+  final int notificationCount;
+
+  /// Callback when the notification button is tapped.
+  final VoidCallback? onNotificationTap;
 
   @override
   Widget build(BuildContext context) {
@@ -23,15 +29,12 @@ class HomeHeader extends StatelessWidget {
     final hasNotifications = notificationCount > 0;
 
     return Container(
-      height: 64.0,
-      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+      height: 64,
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       decoration: BoxDecoration(
         color: colorScheme.surface,
         border: Border(
-          bottom: BorderSide(
-            color: colorScheme.outline.withOpacity(0.2),
-            width: 1.0,
-          ),
+          bottom: BorderSide(color: colorScheme.outline.withValues(alpha: 0.2)),
         ),
       ),
       child: Row(
@@ -60,7 +63,7 @@ class HomeHeader extends StatelessWidget {
                         width: 40,
                         height: 40,
                         decoration: BoxDecoration(
-                          color: colorScheme.primary.withOpacity(0.1),
+                          color: colorScheme.primary.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Icon(
@@ -104,7 +107,7 @@ class HomeHeader extends StatelessWidget {
                             } else {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(
+                                MaterialPageRoute<void>(
                                   builder:
                                       (context) => const NotificationsScreen(),
                                 ),
@@ -117,7 +120,7 @@ class HomeHeader extends StatelessWidget {
                             height: 44,
                             decoration: BoxDecoration(
                               color: colorScheme.surfaceContainerHighest
-                                  .withOpacity(0.5),
+                                  .withValues(alpha: 0.5),
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Icon(
@@ -251,7 +254,7 @@ class _SyncButtonState extends State<_SyncButton> {
           width: 44,
           height: 44,
           decoration: BoxDecoration(
-            color: colorScheme.surfaceContainerHighest.withOpacity(0.5),
+            color: colorScheme.surfaceContainerHighest.withValues(alpha: 0.5),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Center(

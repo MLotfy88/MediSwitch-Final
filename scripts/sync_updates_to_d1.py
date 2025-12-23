@@ -103,18 +103,23 @@ class CloudflareD1Uploader:
             placeholders = []
             params = []
             for r in batch:
+                # Handle nested structure from fetch_daily_updates.py
+                dosages = r.get('dosages', {})
+                clinical = r.get('clinical_text', {})
+                
+                # Linkage mapping
                 placeholders.append("(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
                 params.extend([
                     int(r['med_id']),
-                    r.get('dailymed_setid', ''),
-                    float(r.get('min_dose', 0)),
-                    float(r.get('max_dose')) if r.get('max_dose') else None,
-                    int(r.get('frequency', 0)),
-                    int(r.get('duration', 0)),
-                    r.get('instructions', ''),
-                    r.get('condition', ''),
+                    r.get('set_id', r.get('dailymed_setid', '')),
+                    float(dosages.get('adult_dose_mg') or dosages.get('min_dose') or 0),
+                    float(dosages.get('max_dose_mg') or dosages.get('max_dose')) if (dosages.get('max_dose_mg') or dosages.get('max_dose')) else None,
+                    int(dosages.get('frequency_hours') or dosages.get('frequency') or 24),
+                    7, # Default duration
+                    clinical.get('dosage', '')[:1000],
+                    r.get('condition', 'General'),
                     r.get('source', 'DailyMed'),
-                    1 if r.get('is_pediatric') else 0
+                    1 if dosages.get('is_pediatric') else 0
                 ])
             
             sql = f"""

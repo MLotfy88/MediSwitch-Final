@@ -11,38 +11,63 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
       
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      
+          
       - name: Install dependencies
         run: |
-          pip install requests pandas
-      
-      - name: Fetch Daily Updates
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles brotli
+          
+      - name: Fetch & Sync DwaPrices Changes (Smart)
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          # Fetch last 24h updates from DailyMed
-          python3 scripts/fetch_daily_updates.py --days 1
+          # This script handles fetching and syncing drugs/prices to D1
+          # I've fixed the visits column issue in this script.
+          python3 scripts/bridge_daily_update.py
+
+      - name: Resolve DailyMed Sync Date
+        id: sync_date
+        run: |
+          LAST_DATE=$(python3 scripts/prepare_daily_sync.py)
+          echo "last_date=$LAST_DATE" >> $GITHUB_OUTPUT
+          
+          # Calculate days since last date (simple bash math)
+          TODAY=$(date +%s)
+          PREV=$(date -d "$LAST_DATE" +%s)
+          DIFF=$(( (TODAY - PREV) / 86400 ))
+          # Always fetch at least 1 day, max 7 to avoid timeout
+          FETCH_DAYS=$(( DIFF + 1 ))
+          if [ $FETCH_DAYS -gt 7 ]; then FETCH_DAYS=7; fi
+          echo "fetch_days=$FETCH_DAYS" >> $GITHUB_OUTPUT
+          echo "🔄 Syncing DailyMed data for last $FETCH_DAYS days (since $LAST_DATE)"
+
+      - name: Fetch DailyMed Updates
+        run: |
+          # Fetch recent updates from DailyMed API
+          python3 scripts/fetch_daily_updates.py --days ${{ steps.sync_date.outputs.fetch_days }}
       
       - name: Patch Local Database
         run: |
-          # Merge updates into main files
-          # Dosages
+          # Merge updates into main assets
+          # 1. Dosages
           python3 scripts/patch_database.py dosages assets/data/dosage_guidelines.json "production_data/updates/update_dosages_*.jsonl"
           
-          # Interactions
+          # 2. Interactions
           python3 scripts/patch_database.py interactions assets/data/drug_interactions_complete.json "production_data/updates/update_interactions_*.json"
       
-      - name: Sync to Cloudflare D1
+      - name: Sync Updates to Cloudflare D1
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID || '9f7fd7dfef294f26d47d62df34726367' }}
           D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID || '77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0' }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
+          # Push incremental updates found in production_data/updates to D1
           python3 scripts/sync_updates_to_d1.py \
             --dosages "production_data/updates/update_dosages_*.jsonl" \
             --interactions "production_data/updates/update_interactions_*.json" \
@@ -50,10 +75,14 @@ jobs:
             --database-id "$D1_DATABASE_ID" \
             --api-token "$CLOUDFLARE_API_TOKEN"
             
+      - name: Update Sync Bookmark
+        run: |
+          python3 scripts/prepare_daily_sync.py save
+
       - name: Commit & Push Changes
         run: |
           git config --global user.name 'DailyMed Bot'
           git config --global user.email 'bot@dailymed.local'
-          git add assets/data/dosage_guidelines.json assets/data/drug_interactions_complete.json
-          git commit -m "data: daily update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git add assets/data/dosage_guidelines.json assets/data/drug_interactions_complete.json assets/meds.csv production_data/last_dailymed_sync.txt
+          git commit -m "data: daily total sync $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push

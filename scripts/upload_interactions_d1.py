@@ -41,34 +41,43 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     ingredient1 TEXT NOT NULL,
     ingredient2 TEXT NOT NULL,
-    severity TEXT,
-    effect TEXT,
-    source TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    severity TEXT NOT NULL,
+    type TEXT NOT NULL DEFAULT 'pharmacodynamic',
+    effect TEXT NOT NULL,
+    arabic_effect TEXT DEFAULT '',
+    recommendation TEXT DEFAULT '',
+    arabic_recommendation TEXT DEFAULT '',
+    source TEXT DEFAULT 'OpenFDA',
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );\n\n""")
                     f.write("CREATE INDEX idx_di_ing1 ON drug_interactions(ingredient1);\n")
-                    f.write("CREATE INDEX idx_di_ing2 ON drug_interactions(ingredient2);\n\n")
+                    f.write("CREATE INDEX idx_di_ing2 ON drug_interactions(ingredient2);\n")
+                    f.write("CREATE INDEX idx_di_pair ON drug_interactions(ingredient1, ingredient2);\n\n")
 
                 # Insert Batching
                 batch = []
                 for item in data:
                     i1 = str(item.get('ingredient1', '')).replace("'", "''")
                     i2 = str(item.get('ingredient2', '')).replace("'", "''")
-                    sev = str(item.get('severity', '')).replace("'", "''")
+                    sev = str(item.get('severity', 'moderate')).replace("'", "''")
+                    typ = str(item.get('type', 'pharmacodynamic')).replace("'", "''")
                     eff = str(item.get('effect', '')).replace("'", "''")
+                    eff_ar = str(item.get('arabic_effect', '')).replace("'", "''")
+                    rec = str(item.get('recommendation', '')).replace("'", "''")
+                    rec_ar = str(item.get('arabic_recommendation', '')).replace("'", "''")
                     src = str(item.get('source', 'DailyMed')).replace("'", "''")
                     
-                    batch.append(f"('{i1}', '{i2}', '{sev}', '{eff}', '{src}')")
+                    batch.append(f"('{i1}', '{i2}', '{sev}', '{typ}', '{eff}', '{eff_ar}', '{rec}', '{rec_ar}', '{src}')")
                     
                     if len(batch) >= 50:
-                         f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, source) VALUES\n")
+                         f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, type, effect, arabic_effect, recommendation, arabic_recommendation, source) VALUES\n")
                          f.write(",\n".join(batch))
                          f.write(";\n")
                          batch = []
                 
                 if batch:
-                     f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, source) VALUES\n")
+                     f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, type, effect, arabic_effect, recommendation, arabic_recommendation, source) VALUES\n")
                      f.write(",\n".join(batch))
                      f.write(";\n")
             print(f"  -> Generated {filename} ({len(data)} rows)")
