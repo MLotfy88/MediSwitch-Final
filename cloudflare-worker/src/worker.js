@@ -161,6 +161,38 @@ export default {
                 return handleDeleteNotification(id, DB);
             }
 
+            // ========== SPONSORED DRUGS ==========
+            if (path === '/api/admin/sponsored' && request.method === 'GET') {
+                return handleGetSponsoredDrugs(DB);
+            }
+            if (path === '/api/admin/sponsored' && request.method === 'POST') {
+                return handleCreateSponsoredDrug(request, DB);
+            }
+            if (path.match(/^\/api\/admin\/sponsored\/\d+$/) && request.method === 'PUT') {
+                const id = path.split('/').pop();
+                return handleUpdateSponsoredDrug(id, request, DB);
+            }
+            if (path.match(/^\/api\/admin\/sponsored\/\d+$/) && request.method === 'DELETE') {
+                const id = path.split('/').pop();
+                return handleDeleteSponsoredDrug(id, DB);
+            }
+
+            // ========== IAP PRODUCTS ==========
+            if (path === '/api/admin/iap' && request.method === 'GET') {
+                return handleGetIapProducts(DB);
+            }
+            if (path === '/api/admin/iap' && request.method === 'POST') {
+                return handleCreateIapProduct(request, DB);
+            }
+            if (path.match(/^\/api\/admin\/iap\/\d+$/) && request.method === 'PUT') {
+                const id = path.split('/').pop();
+                return handleUpdateIapProduct(id, request, DB);
+            }
+            if (path.match(/^\/api\/admin\/iap\/\d+$/) && request.method === 'DELETE') {
+                const id = path.split('/').pop();
+                return handleDeleteIapProduct(id, DB);
+            }
+
             // ========== PUBLIC NOTIFICATIONS (Mobile App) ==========
             if (path === '/api/notifications' && request.method === 'GET') {
                 return handleGetUserNotifications(request, DB);
@@ -195,6 +227,20 @@ export default {
 
             // ========== DELTA SYNC (Legacy, keeping for safety if anyone uses it? No, replace) ==========
             // (Removed old regex match)
+
+            // ========== FEEDBACK ==========
+            if (path === '/api/admin/feedback' && request.method === 'GET') {
+                return handleGetFeedback(request, DB);
+            }
+            if (path.match(/^\/api\/admin\/feedback\/\d+$/) && request.method === 'PUT') {
+                const id = path.split('/').pop();
+                return handleUpdateFeedback(id, request, DB);
+            }
+
+            // ========== MISSED SEARCHES ==========
+            if (path === '/api/admin/missed-searches' && request.method === 'GET') {
+                return handleGetMissedSearches(DB);
+            }
 
             // ========== BULK UPDATE (GitHub Actions) ==========
             if (path === '/api/update' && request.method === 'POST') {
@@ -830,7 +876,7 @@ async function handleAdminUpdateDrug(id, request, DB) {
         const data = await request.json();
 
         const query = `
-            UPDATE medicines 
+            UPDATE drugs 
             SET trade_name = ?, company = ?, price = ?, updated_at = unixepoch('now')
             WHERE id = ?
         `;
@@ -1429,5 +1475,158 @@ async function handleGetUserNotifications(request, DB) {
     } catch (error) {
         console.error('Get user notifications error:', error);
         return errorResponse('Failed to fetch notifications', 500);
+    }
+}
+
+// ============================================
+// MONETIZATION HANDLERS (Sponsored & IAP)
+// ============================================
+
+async function handleGetSponsoredDrugs(DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const { results } = await DB.prepare('SELECT * FROM sponsored_drugs ORDER BY priority DESC').all();
+        return jsonResponse({ data: results || [] });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleCreateSponsoredDrug(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        const result = await DB.prepare(`
+            INSERT INTO sponsored_drugs (drug_id, company, banner_url, campaign_type, priority, status, starts_at, ends_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        `).bind(
+            data.drug_id, data.company, data.banner_url || null,
+            data.campaign_type || 'search_top', data.priority || 0,
+            data.status || 'active', data.starts_at || null, data.ends_at || null
+        ).run();
+        return jsonResponse({ data: { id: result.meta.last_row_id, ...data } }, 201);
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateSponsoredDrug(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        await DB.prepare(`
+            UPDATE sponsored_drugs SET 
+                drug_id = ?, company = ?, banner_url = ?, campaign_type = ?, 
+                priority = ?, status = ?, starts_at = ?, ends_at = ?
+            WHERE id = ?
+        `).bind(
+            data.drug_id, data.company, data.banner_url, data.campaign_type,
+            data.priority, data.status, data.starts_at, data.ends_at, id
+        ).run();
+        return jsonResponse({ data: { id: parseInt(id), ...data } });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleDeleteSponsoredDrug(id, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        await DB.prepare('DELETE FROM sponsored_drugs WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'Sponsored drug deleted' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleGetIapProducts(DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const { results } = await DB.prepare('SELECT * FROM iap_products ORDER BY price ASC').all();
+        return jsonResponse({ data: results || [] });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleCreateIapProduct(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        const result = await DB.prepare(`
+            INSERT INTO iap_products (product_id, tier, name, description, price, currency, duration_days, status)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        `).bind(
+            data.product_id, data.tier, data.name, data.description,
+            data.price, data.currency || 'EGP', data.duration_days, data.status || 'active'
+        ).run();
+        return jsonResponse({ data: { id: result.meta.last_row_id, ...data } }, 201);
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateIapProduct(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        await DB.prepare(`
+            UPDATE iap_products SET 
+                product_id = ?, tier = ?, name = ?, description = ?, 
+                price = ?, currency = ?, duration_days = ?, status = ?
+            WHERE id = ?
+        `).bind(
+            data.product_id, data.tier, data.name, data.description,
+            data.price, data.currency, data.duration_days, data.status, id
+        ).run();
+        return jsonResponse({ data: { id: parseInt(id), ...data } });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleDeleteIapProduct(id, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        await DB.prepare('DELETE FROM iap_products WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'IAP product deleted' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+// ============================================
+// FEEDBACK & ANALYTICS HANDLERS
+// ============================================
+
+async function handleGetFeedback(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const { results } = await DB.prepare('SELECT * FROM user_feedback ORDER BY created_at DESC').all();
+        return jsonResponse({ data: results || [] });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateFeedback(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        await DB.prepare('UPDATE user_feedback SET status = ? WHERE id = ?')
+            .bind(data.status, id).run();
+        return jsonResponse({ message: 'Feedback updated' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleGetMissedSearches(DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const { results } = await DB.prepare('SELECT * FROM missed_searches ORDER BY count DESC LIMIT 100').all();
+        return jsonResponse({ data: results || [] });
+    } catch (e) {
+        return errorResponse(e.message, 500);
     }
 }
