@@ -478,16 +478,19 @@ async function handleRecentPriceChanges(request, DB) {
                 }
             }
 
-            // Use real old_price if available, otherwise fallback (though fallback shouldn't be needed for accurate data)
-            const oldPrice = drug.old_price || (drug.price * 0.8);
+            // Ensure prices are numbers
+            const currentPrice = Number(drug.price) || 0;
+            const oldPrice = drug.old_price !== null ? Number(drug.old_price) : (currentPrice * 0.8);
+
             const changePercent = oldPrice > 0
-                ? ((drug.price - oldPrice) / oldPrice) * 100
+                ? ((currentPrice - oldPrice) / oldPrice) * 100
                 : 0;
 
             return {
                 ...drug,
+                price: currentPrice,
                 old_price: oldPrice,
-                new_price: drug.price,
+                new_price: currentPrice,
                 change_percent: changePercent,
                 // Ensure updated_at reflects the price update date for the UI
                 updated_at: lastPriceUpdate,
