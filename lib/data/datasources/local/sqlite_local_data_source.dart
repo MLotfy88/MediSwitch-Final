@@ -697,8 +697,15 @@ class SqliteLocalDataSource {
     }
 
     final queryStr = '''
-      SELECT *
-      FROM ${DatabaseHelper.medicinesTable}
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
       WHERE $whereClause
       ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
@@ -753,8 +760,15 @@ class SqliteLocalDataSource {
     }
 
     final queryStr = '''
-      SELECT *
-      FROM ${DatabaseHelper.medicinesTable}
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
       WHERE $whereClause
       LIMIT ? OFFSET ?
     ''';
@@ -861,11 +875,18 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final actualOffset = offset ?? 0; // Default to 0 if null
     final queryStr = '''
-      SELECT *
-      FROM ${DatabaseHelper.medicinesTable}
-      WHERE ${DatabaseHelper.colLastPriceUpdate} IS NOT NULL 
-        AND ${DatabaseHelper.colLastPriceUpdate} != ''
-      ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
+      WHERE d.${DatabaseHelper.colLastPriceUpdate} IS NOT NULL 
+        AND d.${DatabaseHelper.colLastPriceUpdate} != ''
+      ORDER BY d.${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
@@ -881,8 +902,15 @@ class SqliteLocalDataSource {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
     final queryStr = '''
-      SELECT *
-      FROM ${DatabaseHelper.medicinesTable}
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
       ORDER BY RANDOM()
       LIMIT ?
     ''';
@@ -1047,13 +1075,23 @@ class SqliteLocalDataSource {
     final lowerCaseActive = activeIngredient.toLowerCase();
     final lowerCaseTradeName = currentTradeName.toLowerCase();
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where:
-          'LOWER(${DatabaseHelper.colActive}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?',
-      whereArgs: [lowerCaseActive, lowerCaseTradeName],
-      // Optional: Add limit if needed
-    );
+    final queryStr = '''
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
+      WHERE LOWER(${DatabaseHelper.colActive}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?
+    ''';
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      lowerCaseActive,
+      lowerCaseTradeName,
+    ]);
 
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
@@ -1102,12 +1140,23 @@ class SqliteLocalDataSource {
       whereArgs = [category.toLowerCase(), lowerCaseActive];
     }
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: whereClause,
-      whereArgs: whereArgs,
-      limit: 50, // Limit results to avoid overwhelming the UI
-    );
+    final queryStr = '''
+      SELECT d.*,
+        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
+        EXISTS(
+          SELECT 1 FROM med_ingredients mi 
+          JOIN ${DatabaseHelper.interactionsTable} di 
+          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
+          WHERE mi.med_id = d.id AND di.severity = 'High'
+        ) as has_drug_interaction
+      FROM ${DatabaseHelper.medicinesTable} d
+      WHERE $whereClause
+      LIMIT 50
+    ''';
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      ...whereArgs,
+    ]);
 
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
