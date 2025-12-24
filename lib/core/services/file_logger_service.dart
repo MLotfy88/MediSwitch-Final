@@ -7,6 +7,7 @@ import 'package:logger/logger.dart';
 import 'package:path/path.dart' as path; // Import path package
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart'; // Import permission_handler
+import 'package:share_plus/share_plus.dart'; // Add share_plus
 
 import 'log_notifier.dart'; // Import the new LogNotifier
 
@@ -384,6 +385,24 @@ class FileLoggerService {
       logger.f(message, error: error, stackTrace: stackTrace);
     } else {
       debugPrint('[Log NOINIT] F: $message');
+    }
+  }
+
+  /// Returns the current log file if initialized
+  File? getLogFile() => _logFile;
+
+  /// Share the log file using share_plus
+  Future<void> shareLogFile() async {
+    if (_logFile == null || !await _logFile!.exists()) {
+      debugPrint('[FileLoggerService] Cannot share: Log file does not exist.');
+      return;
+    }
+
+    try {
+      final xFile = XFile(_logFile!.path);
+      await Share.shareXFiles([xFile], text: 'MediSwitch App Logs');
+    } catch (e) {
+      debugPrint('[FileLoggerService] Error sharing log file: $e');
     }
   }
 

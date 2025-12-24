@@ -20,6 +20,8 @@ class InitializationScreen extends StatefulWidget {
 
 class _InitializationScreenState extends State<InitializationScreen> {
   final FileLoggerService _logger = locator<FileLoggerService>();
+  bool _hasError = false;
+  String _errorMessage = "";
 
   @override
   void initState() {
@@ -80,6 +82,13 @@ class _InitializationScreenState extends State<InitializationScreen> {
               _logger.e(
                 "InitializationScreen: Seeding FAILED. Halting navigation.",
               );
+              if (mounted) {
+                setState(() {
+                  _hasError = true;
+                  _errorMessage =
+                      "فشل في تهيئة قاعدة البيانات. تأكد من وجود الملفات المطلوبة.";
+                });
+              }
               // Throw an error to be caught below, preventing navigation.
               throw Exception("Database seeding failed.");
             }
@@ -115,11 +124,11 @@ class _InitializationScreenState extends State<InitializationScreen> {
         }
       } catch (e, s) {
         _logger.e("InitializationScreen: Error determining route", e, s);
-        // Optionally show an error screen here
         if (mounted) {
-          ScaffoldMessenger.of(
-            context,
-          ).showSnackBar(SnackBar(content: Text("Error initializing app: $e")));
+          setState(() {
+            _hasError = true;
+            _errorMessage = "خطأ في تشغيل التطبيق: $e";
+          });
         }
       }
     });
@@ -127,6 +136,70 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (_hasError) {
+      return Scaffold(
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.error_outline, size: 80, color: Colors.red),
+                const SizedBox(height: 24),
+                const Text(
+                  "عذراً، حدث خطأ أثناء التشغيل",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  _errorMessage,
+                  style: const TextStyle(fontSize: 14, color: Colors.grey),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 48),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        setState(() {
+                          _hasError = false;
+                          _errorMessage = "";
+                        });
+                        _determineInitialRoute();
+                      },
+                      icon: const Icon(Icons.refresh),
+                      label: const Text("إعادة المحاولة"),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.teal,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
+                      ),
+                    ),
+                    OutlinedButton.icon(
+                      onPressed: () => _logger.shareLogFile(),
+                      icon: const Icon(Icons.share),
+                      label: const Text("مشاركة السجلات"),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 20,
+                          vertical: 12,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
     _logger.d("InitializationScreen: Building loading indicator UI.");
     // Show a simple loading indicator while determining the route
     return const Scaffold(body: Center(child: CircularProgressIndicator()));
