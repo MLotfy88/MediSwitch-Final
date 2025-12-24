@@ -192,11 +192,15 @@ export default {
 
             // Sync (Internal/Admin)
             if (path.startsWith('/api/sync/')) {
+                if (path === '/api/sync/version') return handleSyncVersion(DB);
                 if (path === '/api/sync/drugs') return handleSyncDrugs(request, DB);
                 if (path === '/api/sync/med-ingredients') return handleSyncMedIngredients(request, DB);
                 if (path === '/api/sync/interactions') return handleSyncInteractions(request, DB);
                 if (path === '/api/sync/dosages') return handleSyncDosages(request, DB);
             }
+
+            // Public Sync Aliases (for backward compatibility)
+            if (path === '/api/interactions/sync' && method === 'GET') return handleSyncInteractions(request, DB);
 
             // Bulk Update (GitHub Actions)
             if (path === '/api/update' && method === 'POST') {
@@ -217,6 +221,23 @@ export default {
 // HANDLER FUNCTIONS
 // ==========================================
 
+async function handleSyncVersion(DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const result = await DB.prepare('SELECT MAX(updated_at) as last_update FROM drugs').first();
+        const lastUpdate = result.last_update || '2024-06-01 00:00:00';
+        const timestamp = Math.floor(new Date(lastUpdate).getTime() / 1000);
+
+        return jsonResponse({
+            version: timestamp, // Flutter expects this as the version/timestamp
+            lastUpdate: lastUpdate,
+            timestamp: Math.floor(Date.now() / 1000)
+        });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
 async function handleStats(DB) {
     if (!DB) return errorResponse('Database not configured', 500);
 
@@ -225,7 +246,12 @@ async function handleStats(DB) {
             SELECT 
                 (SELECT COUNT(*) FROM drugs) as total_drugs,
                 (SELECT COUNT(DISTINCT company) FROM drugs WHERE company IS NOT NULL) as total_companies,
-                (SELECT COUNT(*) FROM drugs WHERE updated_at > unixepoch('now', '-7 days')) as recent_updates_7d
+                (SELECT COUNT(*) FROM drugs WHERE updated_at > datetime('now', '-7 days')) as recent_updates_7d,
+                (SELECT COUNT(*) FROM users) as total_users,
+                (SELECT COUNT(*) FROM subscriptions WHERE status = 'active' AND expires_at > unixepoch('now')) as active_subscriptions,
+                (SELECT COUNT(*) FROM sponsored_drugs WHERE active = 1) as sponsored_count,
+                (SELECT COUNT(*) FROM drugs WHERE price > 0) as drugs_with_price,
+                (SELECT COUNT(*) FROM drugs WHERE qr_code IS NOT NULL) as drugs_with_barcode
         `;
 
         const result = await DB.prepare(statsQuery).first();
@@ -233,11 +259,31 @@ async function handleStats(DB) {
         return jsonResponse({
             total_drugs: result.total_drugs || 0,
             total_companies: result.total_companies || 0,
-            recent_updates_7d: result.recent_updates_7d || 0
+            recent_updates_7d: result.recent_updates_7d || 0,
+            total_users: result.total_users || 0,
+            active_subscriptions: result.active_subscriptions || 0,
+            sponsored_count: result.sponsored_count || 0,
+            drugs_with_price: result.drugs_with_price || 0,
+            drugs_with_barcode: result.drugs_with_barcode || 0
         });
     } catch (error) {
         console.error('Stats error:', error);
-        return errorResponse('Failed to fetch stats', 500);
+        // Fallback to basic stats if some tables still fail
+        try {
+            const basicResult = await DB.prepare('SELECT COUNT(*) as count FROM drugs').first();
+            return jsonResponse({
+                total_drugs: basicResult.count || 0,
+                total_companies: 0,
+                recent_updates_7d: 0,
+                total_users: 0,
+                active_subscriptions: 0,
+                sponsored_count: 0,
+                drugs_with_price: 0,
+                drugs_with_barcode: 0
+            });
+        } catch (e) {
+            return errorResponse('Failed to fetch stats', 500);
+        }
     }
 }
 
@@ -248,11 +294,21 @@ async function handleGetDosages(request, DB) {
     const page = parseInt(url.searchParams.get('page') || '1');
     const limit = parseInt(url.searchParams.get('limit') || '100');
     const search = url.searchParams.get('search') || '';
-    const sortBy = url.searchParams.get('sortBy') || 'med_id';
+    // Map UI column names to DB column names if they differ
+    let sortBy = url.searchParams.get('sortBy') || 'id';
+    if (sortBy === 'active_ingredient') sortBy = 'med_id';
+    if (sortBy === 'strength') sortBy = 'med_id'; // Placeholder if strength not in DB
+
     const sortOrder = url.searchParams.get('sortOrder') === 'DESC' ? 'DESC' : 'ASC';
     const offset = (page - 1) * limit;
 
     try {
+        // Table existence check
+        const tableCheck = await DB.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='dosage_guidelines'").first();
+        if (!tableCheck) {
+            return jsonResponse({ data: [], pagination: { page, limit, total: 0, totalPages: 0 } });
+        }
+
         let query = 'SELECT * FROM dosage_guidelines';
         let countQuery = 'SELECT COUNT(*) as total FROM dosage_guidelines';
         const params = [];
@@ -1722,11 +1778,16 @@ async function handleAdminUpdateSubscription(id, request, DB) {
 }
 
 async function handleGetMissedSearches(DB) {
-    if (!DB) return errorResponse('Database not configured', 500);
+    if (!DB) return jsonResponse({ data: [] });
     try {
+        const tableCheck = await DB.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='missed_searches'").first();
+        if (!tableCheck) {
+            return jsonResponse({ data: [] });
+        }
         const { results } = await DB.prepare('SELECT * FROM missed_searches ORDER BY hit_count DESC LIMIT 100').all();
         return jsonResponse({ data: results || [] });
     } catch (e) {
-        return errorResponse(e.message, 500);
+        console.error('Missed searches error:', e);
+        return jsonResponse({ data: [] }); // Return empty instead of 500 for non-critical analytics
     }
 }

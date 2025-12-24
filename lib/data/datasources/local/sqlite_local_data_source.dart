@@ -174,8 +174,19 @@ class SqliteLocalDataSource {
         }
 
         _logger.i('[Main Thread] Loading raw CSV asset...');
-        final rawCsv = await rootBundle.loadString('assets/meds.csv');
-        _logger.i('[Main Thread] Raw CSV loaded.');
+        String rawCsv;
+        try {
+          rawCsv = await rootBundle.loadString('assets/meds.csv');
+          _logger.i(
+            '[Main Thread] Raw CSV loaded successfully (${rawCsv.length} characters).',
+          );
+        } catch (e) {
+          _logger.e(
+            '[Main Thread] CRITICAL: Failed to load meds.csv from assets. This may indicate: '
+            '1) Asset not bundled in APK/build, 2) File path incorrect, 3) Insufficient permissions. Error: $e',
+          );
+          throw Exception('Failed to load meds.csv asset: $e');
+        }
 
         _logger.i('[Main Thread] Parsing CSV (in background isolate)...');
         final List<MedicineModel> medicines = await compute(
@@ -200,11 +211,13 @@ class SqliteLocalDataSource {
             ingredientsMap =
                 json.decode(ingredientsJson) as Map<String, dynamic>;
             _logger.i(
-              '[Main Thread] medicine_ingredients.json loaded (${ingredientsMap.length} drugs mapped).',
+              '[Main Thread] medicine_ingredients.json loaded successfully (${ingredientsMap.length} drugs mapped).',
             );
           } catch (e) {
             _logger.w(
-              '[Main Thread] Could not load medicine_ingredients.json, will use regex fallback: $e',
+              '[Main Thread] Could not load medicine_ingredients.json. '
+              'Will use regex fallback for ingredient extraction. '
+              'This is not critical but may reduce accuracy. Error: $e',
             );
           }
 
@@ -281,14 +294,17 @@ class SqliteLocalDataSource {
             }
             await batchDosage.commit(noResult: true);
             _logger.i(
-              '[Main Thread] Dosage Guidelines seeded: ${dosageList.length} items.',
+              '[Main Thread] Dosage Guidelines seeded successfully: ${dosageList.length} items.',
             );
+          } else {
+            _logger.w('[Main Thread] Dosage guidelines JSON was empty.');
           }
         } catch (e) {
-          _logger.e(
-            '[Main Thread] ⚠️ Warning: Failed to seed dosage guidelines',
-            e,
+          _logger.w(
+            '[Main Thread] ⚠️ Non-critical: Failed to seed dosage guidelines. '
+            'App will function but dosage calculator may have limited data. Error: $e',
           );
+          // This is non-critical, app can continue without dosage guidelines
         }
 
         // --- Seeding Interactions ---
