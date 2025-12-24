@@ -55,28 +55,27 @@ class FoodInteractionsListScreen extends StatelessWidget {
             separatorBuilder: (_, __) => const SizedBox(height: 12),
             itemBuilder: (context, index) {
               final ingredient = ingredients[index];
-              return SizedBox(
-                height: 140, // Consistent height for the card
-                child: DangerousDrugCard(
-                  title: ingredient.displayName,
-                  subtitle: "Interacts w/ Food",
-                  riskLevel: RiskLevel.high,
-                  interactionCount: 1, // Generic
-                  onTap: () {
-                    // Navigate to Search Screen filtering by this ingredient
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute<void>(
-                        builder:
-                            (_) => IngredientInteractionsScreen(
-                              ingredient: ingredient,
-                              onlyFood: true,
-                            ),
-                      ),
-                    );
-                  },
-                ),
-              ).animate().fadeIn(delay: (30 * index).ms).slideX();
+              final card = DangerousDrugCard(
+                title: ingredient.displayName,
+                subtitle: "Interacts w/ Food",
+                riskLevel: RiskLevel.high,
+                interactionCount: 1, // Generic
+                onTap: () {
+                  // Navigate to Search Screen filtering by this ingredient
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                      builder:
+                          (_) => IngredientInteractionsScreen(
+                            ingredient: ingredient,
+                            onlyFood: true,
+                          ),
+                    ),
+                  );
+                },
+              );
+
+              return card.animate().fadeIn(delay: (30 * index).ms).slideX();
             },
           );
         },

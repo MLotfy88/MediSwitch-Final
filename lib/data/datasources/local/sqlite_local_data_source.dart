@@ -859,17 +859,41 @@ class SqliteLocalDataSource {
   }) async {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
+
+    // Use a query that sorts by last_price_update DESC, but also fallback to id DESC
+    // to ensure newest additions appear even if date is missing or identical.
+    // Removed the strict WHERE last_price_update >= cutoffDate to ensure we ALWAYS show data
+    // unless the table is empty.
     final queryStr = '''
       SELECT *
       FROM ${DatabaseHelper.medicinesTable}
-      WHERE ${DatabaseHelper.colLastPriceUpdate} >= ?
-      ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
+      ORDER BY 
+        CASE WHEN ${DatabaseHelper.colLastPriceUpdate} != '' THEN 0 ELSE 1 END,
+        ${DatabaseHelper.colLastPriceUpdate} DESC,
+        ${DatabaseHelper.colId} DESC
       LIMIT ? OFFSET ?
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
-      cutoffDate,
       limit,
       offset,
+    ]);
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
+  Future<List<MedicineModel>> getPopularMedicines({required int limit}) async {
+    await seedingComplete; // Wait for seeding
+    final db = await dbHelper.database;
+    // Popularity based on visits column
+    final queryStr = '''
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
+      ORDER BY ${DatabaseHelper.colVisits} DESC, ${DatabaseHelper.colId} DESC
+      LIMIT ?
+    ''';
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      limit,
     ]);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);

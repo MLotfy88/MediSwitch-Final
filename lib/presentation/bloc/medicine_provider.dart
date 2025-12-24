@@ -226,6 +226,7 @@ class MedicineProvider extends ChangeNotifier {
       _loadHighRiskDrugs(),
       _loadFoodInteractionDrugs(),
       _loadHomeRecentlyUpdatedDrugs(),
+      _loadPopularDrugs(),
     ]);
 
     // Ensure we have the correct timestamp loaded from local prefs/datasource
@@ -281,6 +282,20 @@ class MedicineProvider extends ChangeNotifier {
           "MedicineProvider: Loaded ${_recentlyUpdatedDrugs.length} recently updated drugs.",
         );
       },
+    );
+    notifyListeners();
+  }
+
+  Future<void> _loadPopularDrugs() async {
+    _logger.d("MedicineProvider: Loading top 20 popular drugs...");
+    const popularLimit = 20;
+
+    final popularDrugs = await _localDataSource.getPopularMedicines(
+      limit: popularLimit,
+    );
+    _popularDrugs = popularDrugs.map((m) => m.toEntity()).toList();
+    _logger.i(
+      "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs.",
     );
     notifyListeners();
   }

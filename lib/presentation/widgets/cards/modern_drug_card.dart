@@ -95,13 +95,14 @@ class ModernDrugCard extends StatelessWidget {
                           ],
                         ],
                       ),
-                      const SizedBox(height: 4),
+                      const SizedBox(height: 6), // Increased spacing
                       Text(
                         drug.nameAr,
                         style: TextStyle(
                           fontSize: 14,
                           color: appColors.mutedForeground,
-                          fontFamily: 'Cairo', // Ensure Arabic font usage
+                          fontWeight: FontWeight.w500,
+                          fontFamily: 'Cairo',
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
@@ -169,6 +170,23 @@ class ModernDrugCard extends StatelessWidget {
                           color: theme.colorScheme.secondary,
                         ),
                       ),
+                      // Interaction Triangle Badges moved here
+                      if (drug.hasDrugInteraction) ...[
+                        const SizedBox(width: 8),
+                        Icon(
+                          LucideIcons.alertTriangle,
+                          size: 14,
+                          color: appColors.danger,
+                        ),
+                      ],
+                      if (drug.hasFoodInteraction) ...[
+                        const SizedBox(width: 4),
+                        Icon(
+                          LucideIcons.alertTriangle,
+                          size: 14,
+                          color: appColors.warning,
+                        ),
+                      ],
                     ],
                   ),
                 ),

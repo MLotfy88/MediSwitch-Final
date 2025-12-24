@@ -225,6 +225,11 @@ class MedicineModel extends DrugEntity {
       imageUrl: imageUrl,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
+      // Logic for NEW: ID is significantly higher than base seed (e.g., > 25500)
+      // or lastPriceUpdate is very recent (handled here as high ID for simplicity)
+      isNew: (id ?? 0) > 25500,
+      // Logic for POPULAR: More than 20 visits
+      isPopular: visits > 20,
     );
   }
 
