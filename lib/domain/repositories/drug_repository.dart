@@ -54,4 +54,7 @@ abstract class DrugRepository {
 
   /// Finds drugs with a different active ingredient but the same category.
   Future<Either<Failure, List<DrugEntity>>> findAlternatives(DrugEntity drug);
+
+  /// Gets the IDs of the newest drugs added to the database.
+  Future<Either<Failure, List<int>>> getNewestDrugIds(int limit);
 }

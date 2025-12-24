@@ -1624,4 +1624,19 @@ class SqliteLocalDataSource {
 
     return processed;
   }
+
+  Future<List<int>> getNewestDrugIds(int limit) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+
+    // Sort by ID descending to get the newest drugs added
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      columns: [DatabaseHelper.colId],
+      orderBy: '${DatabaseHelper.colId} DESC',
+      limit: limit,
+    );
+
+    return maps.map((map) => map[DatabaseHelper.colId] as int).toList();
+  }
 }

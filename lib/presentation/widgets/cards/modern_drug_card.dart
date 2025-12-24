@@ -170,6 +170,35 @@ class ModernDrugCard extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
+                      // Interaction warnings moved here
+                      if (hasDrugInteraction)
+                        Container(
+                          padding: const EdgeInsets.all(4),
+                          margin: const EdgeInsets.only(left: 4),
+                          decoration: BoxDecoration(
+                            color: appColors.danger.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Icon(
+                            LucideIcons.alertTriangle,
+                            size: 14,
+                            color: appColors.danger,
+                          ),
+                        ),
+                      if (hasFoodInteraction)
+                        Container(
+                          padding: const EdgeInsets.all(4),
+                          margin: const EdgeInsets.only(left: 4),
+                          decoration: BoxDecoration(
+                            color: appColors.warning.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Icon(
+                            LucideIcons.alertTriangle,
+                            size: 14,
+                            color: appColors.warning,
+                          ),
+                        ),
                     ],
                   ),
                 ),
@@ -221,53 +250,16 @@ class ModernDrugCard extends StatelessWidget {
                     ),
                   ],
                 ),
-
-                // Interaction warnings row
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    if (hasDrugInteraction)
-                      Container(
-                        padding: const EdgeInsets.all(6),
-                        margin: const EdgeInsets.only(left: 4),
-                        decoration: BoxDecoration(
-                          color: appColors.danger.withValues(alpha: 0.15),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        child: Icon(
-                          LucideIcons.alertTriangle,
-                          size: 16,
-                          color: appColors.danger,
-                        ),
-                      ),
-                    if (hasFoodInteraction)
-                      Container(
-                        padding: const EdgeInsets.all(6),
-                        margin: const EdgeInsets.only(left: 4),
-                        decoration: BoxDecoration(
-                          color: appColors.warning.withValues(alpha: 0.15),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        child: Icon(
-                          LucideIcons.alertTriangle,
-                          size: 16,
-                          color: appColors.warning,
-                        ),
-                      ),
-                    if (!hasDrugInteraction &&
-                        !hasFoodInteraction &&
-                        drug.lastPriceUpdate.isNotEmpty)
-                      Text(
-                        DateFormatter.formatDate(drug.lastPriceUpdate),
-                        style: TextStyle(
-                          fontSize: 11,
-                          color: appColors.mutedForeground.withValues(
-                            alpha: 0.8,
-                          ),
-                        ),
-                      ),
-                  ],
-                ),
+                if (!hasDrugInteraction &&
+                    !hasFoodInteraction &&
+                    drug.lastPriceUpdate.isNotEmpty)
+                  Text(
+                    DateFormatter.formatDate(drug.lastPriceUpdate),
+                    style: TextStyle(
+                      fontSize: 11,
+                      color: appColors.mutedForeground.withValues(alpha: 0.8),
+                    ),
+                  ),
               ],
             ),
           ],

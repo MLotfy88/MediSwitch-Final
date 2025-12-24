@@ -17,6 +17,7 @@ import 'package:mediswitch/domain/entities/category_entity.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/high_risk_ingredient.dart';
+import 'package:mediswitch/domain/repositories/drug_repository.dart'; // Ensure import
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/domain/usecases/filter_drugs_by_category.dart';
 import 'package:mediswitch/domain/usecases/find_drug_alternatives.dart';
@@ -41,6 +42,7 @@ class MedicineProvider extends ChangeNotifier {
 
   final GetHighRiskIngredientsUseCase _getHighRiskIngredientsUseCase;
   final SqliteLocalDataSource _localDataSource;
+  final DrugRepository _drugRepository;
 
   // Logger
   final FileLoggerService _logger = locator<FileLoggerService>();
@@ -63,6 +65,7 @@ class MedicineProvider extends ChangeNotifier {
 
   final List<DrugEntity> _favorites = []; // List of full entities
   final Set<String> _favoriteIds = {}; // Set of IDs for O(1) lookup
+  Set<int> _newDrugIds = {}; // For O(1) new lookup (Last 50 IDs)
   List<DrugEntity> _recentlyViewedDrugs = []; // New list for visited drugs
 
   List<DrugEntity> _filteredMedicines = [];
@@ -101,6 +104,9 @@ class MedicineProvider extends ChangeNotifier {
   /// Check if a drug is in the top 50 popular list
   bool isDrugPopular(int? drugId) =>
       drugId != null && _popularDrugIds.contains(drugId);
+
+  /// Check if a drug is in the latest 50 drugs list
+  bool isDrugNew(int? drugId) => drugId != null && _newDrugIds.contains(drugId);
 
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
   List<DrugEntity> get foodInteractionDrugs => _foodInteractionDrugs;
@@ -143,13 +149,16 @@ class MedicineProvider extends ChangeNotifier {
     required GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase,
     required GetHighRiskIngredientsUseCase getHighRiskIngredientsUseCase,
     required SqliteLocalDataSource localDataSource,
+    required DrugRepository drugRepository, // Added for _loadNewDrugIds
   }) : _searchDrugsUseCase = searchDrugsUseCase,
        _filterDrugsByCategoryUseCase = filterDrugsByCategoryUseCase,
        _getCategoriesWithCountUseCase = getCategoriesWithCountUseCase,
        _getLastUpdateTimestampUseCase = getLastUpdateTimestampUseCase,
        _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
        _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
-       _localDataSource = localDataSource {
+       _localDataSource = localDataSource,
+       _drugRepository = drugRepository {
+    // Initialized _drugRepository
     _logger.i('MedicineProvider: Constructor called.');
     // Only load initial data if we don't have any data yet
     // This prevents reloading on every widget rebuild
@@ -234,6 +243,7 @@ class MedicineProvider extends ChangeNotifier {
       _loadFoodInteractionDrugs(),
       _loadHomeRecentlyUpdatedDrugs(),
       _loadPopularDrugs(),
+      _loadNewDrugIds(), // Added _loadNewDrugIds
     ]);
 
     // Ensure we have the correct timestamp loaded from local prefs/datasource
@@ -289,6 +299,19 @@ class MedicineProvider extends ChangeNotifier {
       },
     );
     notifyListeners();
+  }
+
+  Future<void> _loadNewDrugIds() async {
+    final result = await _drugRepository.getNewestDrugIds(50);
+    result.fold(
+      (l) => _logger.w("MedicineProvider: Failed to load new drug IDs: $l"),
+      (ids) {
+        _newDrugIds = ids.toSet();
+        _logger.i(
+          "MedicineProvider: Loaded ${_newDrugIds.length} new drug IDs.",
+        );
+      },
+    );
   }
 
   /// Loads top 50 popular drugs based on visits count

@@ -314,6 +314,7 @@ class _SearchScreenState extends State<SearchScreen> {
               final drug = recentDrugs[index];
               final displayDrug = drug.copyWith(
                 isPopular: provider.isDrugPopular(drug.id),
+                isNew: provider.isDrugNew(drug.id),
               );
               return Padding(
                 padding: const EdgeInsets.only(bottom: 12),

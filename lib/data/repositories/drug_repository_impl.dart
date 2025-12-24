@@ -474,4 +474,19 @@ class DrugRepositoryImpl implements DrugRepository {
       return Left(CacheFailure());
     }
   }
+
+  @override
+  Future<Either<Failure, List<int>>> getNewestDrugIds(int limit) async {
+    _logger.d("DrugRepository: getNewestDrugIds called with limit: $limit");
+    try {
+      final ids = await localDataSource.getNewestDrugIds(limit);
+      _logger.i(
+        "DrugRepository: getNewestDrugIds successful, found ${ids.length} IDs.",
+      );
+      return Right(ids);
+    } catch (e, s) {
+      _logger.e('Error getting newest drug IDs in repository', e, s);
+      return Left(CacheFailure());
+    }
+  }
 }

@@ -6,6 +6,7 @@ DrugUIModel drugEntityToUIModel(
   DrugEntity entity, {
   bool isFavorite = false,
   bool? isPopularOverride,
+  bool? isNewOverride,
 }) {
   // Parse current price
   final currentPrice = double.tryParse(entity.price) ?? 0.0;

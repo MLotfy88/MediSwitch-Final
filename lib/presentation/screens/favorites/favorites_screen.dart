@@ -119,6 +119,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                           drug,
                           isFavorite: true,
                           isPopularOverride: provider.isDrugPopular(drug.id),
+                          isNewOverride: provider.isDrugNew(drug.id),
                         ),
                         onFavoriteToggle: (String drugId) {
                           // Since we pass the whole entity to DrugCard now,
