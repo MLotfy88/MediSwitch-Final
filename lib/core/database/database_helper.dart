@@ -161,7 +161,9 @@ class DatabaseHelper {
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
             $colImageUrl TEXT,
-            $colUpdatedAt INTEGER DEFAULT 0
+            $colUpdatedAt INTEGER DEFAULT 0,
+            has_drug_interaction INTEGER DEFAULT 0,
+            has_food_interaction INTEGER DEFAULT 0
           )
           ''');
     debugPrint('Medicines table created');
@@ -317,6 +319,8 @@ class DatabaseHelper {
         colLastPriceUpdate,
         colImageUrl,
         colQrCode,
+        'has_drug_interaction',
+        'has_food_interaction',
       ];
 
       dbMap.removeWhere((key, value) => !validColumns.contains(key));

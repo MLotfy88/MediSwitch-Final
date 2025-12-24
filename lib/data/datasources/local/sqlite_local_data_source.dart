@@ -669,16 +669,7 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getAllMedicines() async {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
-    final queryStr = '''
-      SELECT m.*,
-        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
-         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-         LIMIT 1) as has_drug_interaction,
-        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
-         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
-      FROM ${DatabaseHelper.medicinesTable} m
-    ''';
+    final queryStr = 'SELECT * FROM ${DatabaseHelper.medicinesTable}';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
@@ -706,14 +697,8 @@ class SqliteLocalDataSource {
     }
 
     final queryStr = '''
-      SELECT m.*,
-        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
-         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-         LIMIT 1) as has_drug_interaction,
-        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
-         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
-      FROM ${DatabaseHelper.medicinesTable} m
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
       WHERE $whereClause
       ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
@@ -768,14 +753,8 @@ class SqliteLocalDataSource {
     }
 
     final queryStr = '''
-      SELECT m.*,
-        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
-         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-         LIMIT 1) as has_drug_interaction,
-        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
-         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
-      FROM ${DatabaseHelper.medicinesTable} m
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
       WHERE $whereClause
       LIMIT ? OFFSET ?
     ''';
@@ -881,14 +860,8 @@ class SqliteLocalDataSource {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
     final queryStr = '''
-      SELECT m.*,
-        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
-         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-         LIMIT 1) as has_drug_interaction,
-        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
-         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
-      FROM ${DatabaseHelper.medicinesTable} m
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
       WHERE ${DatabaseHelper.colLastPriceUpdate} >= ?
       ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
@@ -907,14 +880,8 @@ class SqliteLocalDataSource {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
     final queryStr = '''
-      SELECT m.*,
-        (SELECT 1 FROM ${DatabaseHelper.interactionsTable} r 
-         WHERE r.ingredient1 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-            OR r.ingredient2 IN (SELECT ingredient FROM med_ingredients WHERE med_id = m.id)
-         LIMIT 1) as has_drug_interaction,
-        (SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} f 
-         WHERE f.med_id = m.id LIMIT 1) as has_food_interaction
-      FROM ${DatabaseHelper.medicinesTable} m
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
       ORDER BY RANDOM()
       LIMIT ?
     ''';
