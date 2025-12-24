@@ -274,6 +274,7 @@ Future<void> setupLocator() async {
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
       getHighRiskIngredientsUseCase: locator<GetHighRiskIngredientsUseCase>(),
       localDataSource: locator<SqliteLocalDataSource>(),
+      drugRepository: locator<DrugRepository>(),
     ),
   );
 
