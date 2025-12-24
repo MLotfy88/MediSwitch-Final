@@ -115,7 +115,11 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                     return FadeSlideAnimation(
                       delay: StaggeredAnimationHelper.delayFor(index),
                       child: DrugCard(
-                        drug: drugEntityToUIModel(drug, isFavorite: true),
+                        drug: drugEntityToUIModel(
+                          drug,
+                          isFavorite: true,
+                          isPopularOverride: provider.isDrugPopular(drug.id),
+                        ),
                         onFavoriteToggle: (String drugId) {
                           // Since we pass the whole entity to DrugCard now,
                           // we should ideally pass a callback that takes ID for convenience

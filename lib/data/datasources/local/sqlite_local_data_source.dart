@@ -859,41 +859,17 @@ class SqliteLocalDataSource {
   }) async {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
-
-    // Use a query that sorts by last_price_update DESC, but also fallback to id DESC
-    // to ensure newest additions appear even if date is missing or identical.
-    // Removed the strict WHERE last_price_update >= cutoffDate to ensure we ALWAYS show data
-    // unless the table is empty.
     final queryStr = '''
       SELECT *
       FROM ${DatabaseHelper.medicinesTable}
-      ORDER BY 
-        CASE WHEN ${DatabaseHelper.colLastPriceUpdate} != '' THEN 0 ELSE 1 END,
-        ${DatabaseHelper.colLastPriceUpdate} DESC,
-        ${DatabaseHelper.colId} DESC
+      WHERE ${DatabaseHelper.colLastPriceUpdate} >= ?
+      ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      cutoffDate,
       limit,
       offset,
-    ]);
-    return List.generate(maps.length, (i) {
-      return MedicineModel.fromMap(maps[i]);
-    });
-  }
-
-  Future<List<MedicineModel>> getPopularMedicines({required int limit}) async {
-    await seedingComplete; // Wait for seeding
-    final db = await dbHelper.database;
-    // Popularity based on visits column
-    final queryStr = '''
-      SELECT *
-      FROM ${DatabaseHelper.medicinesTable}
-      ORDER BY ${DatabaseHelper.colVisits} DESC, ${DatabaseHelper.colId} DESC
-      LIMIT ?
-    ''';
-    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
-      limit,
     ]);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
@@ -917,7 +893,27 @@ class SqliteLocalDataSource {
     });
   }
 
+  /// Get top 50 popular medicines based on visits count
+  Future<List<MedicineModel>> getPopularMedicines({int limit = 50}) async {
+    await seedingComplete; // Wait for seeding
+    final db = await dbHelper.database;
+    final queryStr = '''
+      SELECT *
+      FROM ${DatabaseHelper.medicinesTable}
+      WHERE ${DatabaseHelper.colVisits} > 0
+      ORDER BY ${DatabaseHelper.colVisits} DESC
+      LIMIT ?
+    ''';
+    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
+      limit,
+    ]);
+    return List.generate(maps.length, (i) {
+      return MedicineModel.fromMap(maps[i]);
+    });
+  }
+
   /// Checks if the medicines table has any data.
+
   Future<bool> hasMedicines() async {
     try {
       final db = await dbHelper.database;

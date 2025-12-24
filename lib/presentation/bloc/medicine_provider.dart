@@ -51,6 +51,7 @@ class MedicineProvider extends ChangeNotifier {
   // _newDrugs is mapped to _recentlyUpdatedDrugs via getter for backward compatibility
   List<DrugEntity> _recentlyUpdatedDrugs = [];
   List<DrugEntity> _popularDrugs = [];
+  Set<int> _popularDrugIds = {}; // Set of IDs for O(1) popular lookup
   List<DrugEntity> _highRiskDrugs = [];
 
   // DRUGS list for reference, but we primarily use INGREDIENTS for UI
@@ -95,6 +96,12 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> get newDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get recentlyUpdatedDrugs => _recentlyUpdatedDrugs;
   List<DrugEntity> get popularDrugs => _popularDrugs;
+  Set<int> get popularDrugIds => _popularDrugIds;
+
+  /// Check if a drug is in the top 50 popular list
+  bool isDrugPopular(int? drugId) =>
+      drugId != null && _popularDrugIds.contains(drugId);
+
   List<DrugEntity> get highRiskDrugs => _highRiskDrugs;
   List<DrugEntity> get foodInteractionDrugs => _foodInteractionDrugs;
   List<HighRiskIngredient> get highRiskIngredients => _highRiskIngredients;
@@ -286,17 +293,24 @@ class MedicineProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Loads top 50 popular drugs based on visits count
   Future<void> _loadPopularDrugs() async {
-    _logger.d("MedicineProvider: Loading top 20 popular drugs...");
-    const popularLimit = 20;
-
-    final popularDrugs = await _localDataSource.getPopularMedicines(
-      limit: popularLimit,
-    );
-    _popularDrugs = popularDrugs.map((m) => m.toEntity()).toList();
-    _logger.i(
-      "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs.",
-    );
+    _logger.d("MedicineProvider: Loading top 50 popular drugs...");
+    try {
+      final popularModels = await _localDataSource.getPopularMedicines(
+        limit: 50,
+      );
+      // Create a set of popular drug IDs for O(1) lookup
+      _popularDrugIds = popularModels.map((m) => m.id).whereType<int>().toSet();
+      _popularDrugs = popularModels.map((m) => m.toEntity()).toList();
+      _logger.i(
+        "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs.",
+      );
+    } catch (e, s) {
+      _logger.e("MedicineProvider: Failed to load popular drugs", e, s);
+      _popularDrugs = [];
+      _popularDrugIds = {};
+    }
     notifyListeners();
   }
 

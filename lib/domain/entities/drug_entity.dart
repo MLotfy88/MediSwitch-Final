@@ -89,6 +89,38 @@ class DrugEntity extends Equatable {
     );
   }
 
+  /// Creates a copy of this entity with the isPopular flag updated
+  DrugEntity copyWith({bool? isPopular, bool? isNew}) {
+    return DrugEntity(
+      id: id,
+      tradeName: tradeName,
+      arabicName: arabicName,
+      price: price,
+      oldPrice: oldPrice,
+      mainCategory: mainCategory,
+      category: category,
+      categoryAr: categoryAr,
+      active: active,
+      company: company,
+      dosageForm: dosageForm,
+      dosageFormAr: dosageFormAr,
+      concentration: concentration,
+      unit: unit,
+      usage: usage,
+      description: description,
+      pharmacology: pharmacology,
+      barcode: barcode,
+      qrCode: qrCode,
+      visits: visits,
+      lastPriceUpdate: lastPriceUpdate,
+      imageUrl: imageUrl,
+      hasDrugInteraction: hasDrugInteraction,
+      hasFoodInteraction: hasFoodInteraction,
+      isPopular: isPopular ?? this.isPopular,
+      isNew: isNew ?? this.isNew,
+    );
+  }
+
   @override
   List<Object?> get props => [
     id,

@@ -68,33 +68,45 @@ class _DangerousDrugCardState extends State<DangerousDrugCard>
     final appColors = theme.appColors;
     final isRTL = Directionality.of(context) == TextDirection.rtl;
 
+    // Determine styles based on risk level
     final isCritical = widget.riskLevel == RiskLevel.critical;
 
+    // Using exact tailwind-like opacity from React reference
+    // React: bg-danger/10 vs warning-soft (usually 20-30%)
     final backgroundColor =
         isCritical
-            ? appColors.danger.withOpacity(0.08)
-            : appColors.warning.withOpacity(0.08);
+            ? appColors.danger.withOpacity(0.1)
+            : appColors.warning.withOpacity(0.1);
 
+    // React: border-danger/30 vs border-warning/30
     final borderColor =
+        isCritical
+            ? appColors.danger.withOpacity(0.3)
+            : appColors.warning.withOpacity(0.3);
+
+    // React: bg-danger/20 vs bg-warning/20
+    final iconBg =
         isCritical
             ? appColors.danger.withOpacity(0.2)
             : appColors.warning.withOpacity(0.2);
 
-    final iconBg =
+    final iconColor =
         isCritical
-            ? appColors.danger.withOpacity(0.15)
-            : appColors.warning.withOpacity(0.15);
-
-    final iconColor = isCritical ? appColors.danger : appColors.warning;
+            ? appColors.danger
+            : appColors
+                .warning; // Use main color not foreground for sharper contrast on light bg
 
     final iconData = isCritical ? LucideIcons.skull : LucideIcons.alertTriangle;
 
-    final textColor = isCritical ? appColors.danger : appColors.warning;
+    final textColor =
+        isCritical
+            ? appColors.danger
+            : appColors.warning; // Match text with icon
 
     final badgeBg =
         isCritical
-            ? appColors.danger.withOpacity(0.12)
-            : appColors.warning.withOpacity(0.12);
+            ? appColors.danger.withOpacity(0.2)
+            : appColors.warning.withOpacity(0.2);
 
     return AnimatedBuilder(
       animation: _scaleAnimation,
@@ -106,110 +118,140 @@ class _DangerousDrugCardState extends State<DangerousDrugCard>
             onTapUp: _handleTapUp,
             onTapCancel: _handleTapCancel,
             child: Container(
-              padding: const EdgeInsets.all(16),
+              width: 140, // Fixed width
+              padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
-                color: theme.cardColor,
-                borderRadius: BorderRadius.circular(24),
-                border: Border.all(color: borderColor, width: 1.5),
-                boxShadow: [
-                  BoxShadow(
-                    color: (isCritical ? appColors.danger : appColors.warning)
-                        .withOpacity(0.05),
-                    blurRadius: 10,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
+                color: backgroundColor,
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: borderColor),
               ),
-              child: IntrinsicHeight(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    // Large Warning Icon Container
-                    Container(
-                      width: 56,
-                      height: 56,
-                      decoration: BoxDecoration(
-                        color: iconBg,
-                        borderRadius: BorderRadius.circular(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Icon & Header
+                  Container(
+                    width: isRTL ? double.infinity : 40,
+                    alignment:
+                        isRTL ? Alignment.centerRight : Alignment.centerLeft,
+                    child:
+                        isRTL
+                            ? Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // Placeholder for potential top-right badge if needed in future
+                                const SizedBox(),
+                                Container(
+                                  width: 40,
+                                  height: 40,
+                                  decoration: BoxDecoration(
+                                    color: iconBg,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: Icon(
+                                    iconData,
+                                    size: 20,
+                                    color: iconColor,
+                                  ),
+                                ),
+                              ],
+                            )
+                            : Container(
+                              width: 40,
+                              height: 40,
+                              decoration: BoxDecoration(
+                                color: iconBg,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Icon(iconData, size: 20, color: iconColor),
+                            ),
+                  ),
+
+                  const SizedBox(height: 10),
+
+                  // Content
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        widget.title,
+                        style: TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          color: textColor,
+                          height: 1.2,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
-                      child: Icon(iconData, size: 28, color: iconColor),
+                      const SizedBox(height: 4),
+                      Text(
+                        widget.subtitle,
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: appColors.mutedForeground,
+                          height: 1.2,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
+
+                  const Spacer(),
+
+                  // Interaction Badge
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 4,
                     ),
-
-                    const SizedBox(width: 16),
-
-                    // Content Area
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            widget.title,
+                    decoration: BoxDecoration(
+                      color: badgeBg,
+                      borderRadius: BorderRadius.circular(999),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment:
+                          isRTL
+                              ? MainAxisAlignment.end
+                              : MainAxisAlignment.start,
+                      children: [
+                        if (!isRTL) ...[
+                          Icon(
+                            LucideIcons.alertTriangle,
+                            size: 10,
+                            color: iconColor,
+                          ),
+                          const SizedBox(width: 4),
+                        ],
+                        Expanded(
+                          child: Text(
+                            isRTL
+                                ? '${widget.interactionCount} تفاعلات'
+                                : '${widget.interactionCount} interactions',
+                            textAlign: isRTL ? TextAlign.right : TextAlign.left,
                             style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700,
+                              fontSize: 10,
+                              fontWeight: FontWeight.bold,
                               color: textColor,
-                              letterSpacing: -0.2,
                             ),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                           ),
-                          const SizedBox(height: 2),
-                          Text(
-                            widget.subtitle,
-                            style: TextStyle(
-                              fontSize: 13,
-                              color: appColors.mutedForeground,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
-                          const SizedBox(height: 12),
-                          // Premium Horizontal Badge
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 10,
-                              vertical: 4,
-                            ),
-                            decoration: BoxDecoration(
-                              color: badgeBg,
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(
-                                  LucideIcons.alertTriangle,
-                                  size: 12,
-                                  color: iconColor,
-                                ),
-                                const SizedBox(width: 6),
-                                Text(
-                                  isRTL
-                                      ? '${widget.interactionCount} تفاعلات'
-                                      : '${widget.interactionCount} interactions',
-                                  style: TextStyle(
-                                    fontSize: 11,
-                                    fontWeight: FontWeight.w700,
-                                    color: textColor,
-                                  ),
-                                ),
-                              ],
-                            ),
+                        ),
+                        if (isRTL) ...[
+                          const SizedBox(width: 4),
+                          Icon(
+                            LucideIcons.alertTriangle,
+                            size: 10,
+                            color: iconColor,
                           ),
                         ],
-                      ),
+                      ],
                     ),
-
-                    // Action Arrow
-                    Icon(
-                      isRTL
-                          ? LucideIcons.chevronLeft
-                          : LucideIcons.chevronRight,
-                      size: 20,
-                      color: appColors.mutedForeground.withOpacity(0.4),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
           ),

@@ -200,6 +200,12 @@ class MedicineModel extends DrugEntity {
   }
 
   DrugEntity toEntity() {
+    // Compute isNew: added within last 7 days based on updated_at timestamp
+    final nowMs = DateTime.now().millisecondsSinceEpoch;
+    final sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+    final isNewDrug =
+        updatedAt > 0 && (nowMs - (updatedAt * 1000)) < sevenDaysMs;
+
     return DrugEntity(
       id: id,
       tradeName: tradeName,
@@ -225,11 +231,8 @@ class MedicineModel extends DrugEntity {
       imageUrl: imageUrl,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
-      // Logic for NEW: ID is significantly higher than base seed (e.g., > 25500)
-      // or lastPriceUpdate is very recent (handled here as high ID for simplicity)
-      isNew: (id ?? 0) > 25500,
-      // Logic for POPULAR: More than 20 visits
-      isPopular: visits > 20,
+      isNew: isNewDrug,
+      isPopular: false, // Will be set by provider based on top 50 visits
     );
   }
 

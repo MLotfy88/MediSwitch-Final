@@ -55,27 +55,37 @@ class FoodInteractionsListScreen extends StatelessWidget {
             separatorBuilder: (_, __) => const SizedBox(height: 12),
             itemBuilder: (context, index) {
               final ingredient = ingredients[index];
-              final card = DangerousDrugCard(
-                title: ingredient.displayName,
-                subtitle: "Interacts w/ Food",
-                riskLevel: RiskLevel.high,
-                interactionCount: 1, // Generic
-                onTap: () {
-                  // Navigate to Search Screen filtering by this ingredient
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute<void>(
-                      builder:
-                          (_) => IngredientInteractionsScreen(
-                            ingredient: ingredient,
-                            onlyFood: true,
-                          ),
-                    ),
-                  );
-                },
-              );
+              // Get the count of food interactions for this ingredient (use totalInteractions if available)
+              final interactionCount =
+                  ingredient.totalInteractions > 0
+                      ? ingredient.totalInteractions
+                      : 1;
 
-              return card.animate().fadeIn(delay: (30 * index).ms).slideX();
+              return SizedBox(
+                height: 160, // Reduced height for better fit
+                child: DangerousDrugCard(
+                  title: ingredient.displayName,
+                  subtitle:
+                      Directionality.of(context) == TextDirection.rtl
+                          ? "يتفاعل مع الطعام"
+                          : "Food Interaction",
+                  riskLevel: RiskLevel.high,
+                  interactionCount: interactionCount,
+                  onTap: () {
+                    // Navigate to Search Screen filtering by this ingredient
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute<void>(
+                        builder:
+                            (_) => IngredientInteractionsScreen(
+                              ingredient: ingredient,
+                              onlyFood: true,
+                            ),
+                      ),
+                    );
+                  },
+                ),
+              ).animate().fadeIn(delay: (30 * index).ms).slideX();
             },
           );
         },

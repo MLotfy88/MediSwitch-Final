@@ -51,7 +51,6 @@ class ModernDrugCard extends StatelessWidget {
         ),
         child: Column(
           children: [
-            // Header Row: Name & Badges + Fav Button
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -74,35 +73,15 @@ class ModernDrugCard extends StatelessWidget {
                               overflow: TextOverflow.ellipsis,
                             ),
                           ),
-                          const SizedBox(width: 8),
-                          // NEW badge for new drugs
-                          if (drug.isNew) ...[
-                            const ModernBadge(
-                              text: 'NEW',
-                              variant: BadgeVariant.newBadge,
-                              size: BadgeSize.sm,
-                            ),
-                            const SizedBox(width: 4),
-                          ],
-                          // POPULAR badge
-                          if (drug.isPopular) ...[
-                            const ModernBadge(
-                              text: 'POPULAR',
-                              variant: BadgeVariant.popular,
-                              size: BadgeSize.sm,
-                            ),
-                            const SizedBox(width: 4),
-                          ],
                         ],
                       ),
-                      const SizedBox(height: 6), // Increased spacing
+                      const SizedBox(height: 4),
                       Text(
                         drug.nameAr,
                         style: TextStyle(
                           fontSize: 14,
                           color: appColors.mutedForeground,
-                          fontWeight: FontWeight.w500,
-                          fontFamily: 'Cairo',
+                          fontFamily: 'Cairo', // Ensure Arabic font usage
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
@@ -111,29 +90,25 @@ class ModernDrugCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                GestureDetector(
-                  onTap: onFavoriteToggle,
-                  child: Container(
-                    padding: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color:
-                          isFavorite
-                              ? appColors.dangerSoft
-                              : theme.colorScheme.surfaceContainerHighest
-                                  .withValues(alpha: 0.5),
-                      shape: BoxShape.circle,
-                    ),
-                    child: Icon(
-                      isFavorite
-                          ? LucideIcons.heart
-                          : LucideIcons.heart, // Solid if filled logic exists
-                      size: 18,
-                      color:
-                          isFavorite
-                              ? appColors.dangerForeground
-                              : appColors.mutedForeground,
-                    ),
-                  ),
+                // Top-right badges (NEW / POPULAR)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    if (drug.isNew)
+                      const ModernBadge(
+                        text: 'NEW',
+                        variant: BadgeVariant.newBadge,
+                        size: BadgeSize.sm,
+                      ),
+                    if (drug.isPopular) ...[
+                      if (drug.isNew) const SizedBox(height: 4),
+                      const ModernBadge(
+                        text: 'POPULAR',
+                        variant: BadgeVariant.popular,
+                        size: BadgeSize.sm,
+                      ),
+                    ],
+                  ],
                 ),
               ],
             ),
@@ -170,23 +145,6 @@ class ModernDrugCard extends StatelessWidget {
                           color: theme.colorScheme.secondary,
                         ),
                       ),
-                      // Interaction Triangle Badges moved here
-                      if (drug.hasDrugInteraction) ...[
-                        const SizedBox(width: 8),
-                        Icon(
-                          LucideIcons.alertTriangle,
-                          size: 14,
-                          color: appColors.danger,
-                        ),
-                      ],
-                      if (drug.hasFoodInteraction) ...[
-                        const SizedBox(width: 4),
-                        Icon(
-                          LucideIcons.alertTriangle,
-                          size: 14,
-                          color: appColors.warning,
-                        ),
-                      ],
                     ],
                   ),
                 ),
@@ -264,59 +222,52 @@ class ModernDrugCard extends StatelessWidget {
                   ],
                 ),
 
-                if (hasDrugInteraction || hasFoodInteraction)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 4,
-                    ),
-                    decoration: BoxDecoration(
-                      color:
-                          hasDrugInteraction
-                              ? appColors.danger.withValues(alpha: 0.1)
-                              : appColors.warning.withValues(alpha: 0.1),
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        color:
-                            hasDrugInteraction
-                                ? appColors.danger.withValues(alpha: 0.2)
-                                : appColors.warning.withValues(alpha: 0.2),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          LucideIcons.alertTriangle,
-                          size: 14,
-                          color:
-                              hasDrugInteraction
-                                  ? appColors.danger
-                                  : appColors.warning,
+                // Interaction warnings row
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (hasDrugInteraction)
+                      Container(
+                        padding: const EdgeInsets.all(6),
+                        margin: const EdgeInsets.only(left: 4),
+                        decoration: BoxDecoration(
+                          color: appColors.danger.withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(8),
                         ),
-                        const SizedBox(width: 4),
-                        Text(
-                          hasDrugInteraction ? 'Drug' : 'Food',
-                          style: TextStyle(
-                            fontSize: 11,
-                            fontWeight: FontWeight.bold,
-                            color:
-                                hasDrugInteraction
-                                    ? appColors.danger
-                                    : appColors.warning,
+                        child: Icon(
+                          LucideIcons.alertTriangle,
+                          size: 16,
+                          color: appColors.danger,
+                        ),
+                      ),
+                    if (hasFoodInteraction)
+                      Container(
+                        padding: const EdgeInsets.all(6),
+                        margin: const EdgeInsets.only(left: 4),
+                        decoration: BoxDecoration(
+                          color: appColors.warning.withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Icon(
+                          LucideIcons.alertTriangle,
+                          size: 16,
+                          color: appColors.warning,
+                        ),
+                      ),
+                    if (!hasDrugInteraction &&
+                        !hasFoodInteraction &&
+                        drug.lastPriceUpdate.isNotEmpty)
+                      Text(
+                        DateFormatter.formatDate(drug.lastPriceUpdate),
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: appColors.mutedForeground.withValues(
+                            alpha: 0.8,
                           ),
                         ),
-                      ],
-                    ),
-                  )
-                else if (drug.lastPriceUpdate.isNotEmpty)
-                  Text(
-                    DateFormatter.formatDate(drug.lastPriceUpdate),
-                    style: TextStyle(
-                      fontSize: 11,
-                      color: appColors.mutedForeground.withValues(alpha: 0.8),
-                    ),
-                  ),
+                      ),
+                  ],
+                ),
               ],
             ),
           ],
