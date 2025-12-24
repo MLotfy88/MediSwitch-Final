@@ -222,53 +222,74 @@ class SqliteLocalDataSource {
           }
 
           _logger.i(
-            '[Main Thread] Starting batch insert (Meds & Ingredients)...',
+            '[Main Thread] Starting chunked batch insert (Meds & Ingredients)...',
           );
-          final batch = db.batch();
 
-          for (final medicine in medicines) {
-            batch.insert(
-              DatabaseHelper.medicinesTable,
-              medicine.toMap(),
-              conflictAlgorithm: ConflictAlgorithm.replace,
+          const int chunkSize = 500;
+          for (int i = 0; i < medicines.length; i += chunkSize) {
+            final end =
+                (i + chunkSize < medicines.length)
+                    ? i + chunkSize
+                    : medicines.length;
+            final chunk = medicines.sublist(i, end);
+
+            _logger.i(
+              '[Main Thread] Inserting chunk ${i ~/ chunkSize + 1} (${chunk.length} items)...',
             );
 
-            // Populate ingredients
-            if (medicine.id != null && medicine.id != 0) {
-              List<String> ingredients = [];
-              // Try precise map first
-              if (ingredientsMap.containsKey(medicine.tradeName)) {
-                final dynamic mapped = ingredientsMap[medicine.tradeName];
-                if (mapped is List) {
-                  ingredients =
-                      mapped
-                          .map((e) => e.toString().toLowerCase().trim())
-                          .toList();
-                }
-              }
+            final batch = db.batch();
+            for (final medicine in chunk) {
+              try {
+                batch.insert(
+                  DatabaseHelper.medicinesTable,
+                  medicine.toMap(),
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
 
-              // Fallback to regex if precise map failed or empty but active string exists
-              if (ingredients.isEmpty && medicine.active.isNotEmpty) {
-                ingredients = _parseIngredients(medicine.active);
-              }
+                // Populate ingredients
+                if (medicine.id != null && medicine.id != 0) {
+                  List<String> ingredients = [];
+                  // Try precise map first
+                  if (ingredientsMap.containsKey(medicine.tradeName)) {
+                    final dynamic mapped = ingredientsMap[medicine.tradeName];
+                    if (mapped is List) {
+                      ingredients =
+                          mapped
+                              .map((e) => e.toString().toLowerCase().trim())
+                              .toList();
+                    }
+                  }
 
-              if (ingredients.isNotEmpty) {
-                for (final ing in ingredients) {
-                  batch.insert(
-                    'med_ingredients',
-                    {
-                      'med_id': medicine.id,
-                      'ingredient': ing,
-                      'updated_at': 0, // Fill for new column
-                    },
-                    conflictAlgorithm: ConflictAlgorithm.replace,
-                  );
+                  // Fallback to regex if precise map failed or empty but active string exists
+                  if (ingredients.isEmpty && medicine.active.isNotEmpty) {
+                    ingredients = _parseIngredients(medicine.active);
+                  }
+
+                  if (ingredients.isNotEmpty) {
+                    for (final ing in ingredients) {
+                      batch.insert(
+                        'med_ingredients',
+                        {
+                          'med_id': medicine.id,
+                          'ingredient': ing,
+                          'updated_at': 0, // Fill for new column
+                        },
+                        conflictAlgorithm: ConflictAlgorithm.replace,
+                      );
+                    }
+                  }
                 }
+              } catch (e) {
+                _logger.e(
+                  '[Main Thread] Skipping bad medicine record: ${medicine.tradeName}',
+                  e,
+                );
               }
             }
+            await batch.commit(noResult: true);
+            _logger.i('[Main Thread] Chunk ${i ~/ chunkSize + 1} committed.');
           }
-          await batch.commit(noResult: true);
-          _logger.i('[Main Thread] Batch insert completed.');
+          _logger.i('[Main Thread] All medicine chunks inserted successfully.');
         }
 
         // --- Seeding Dosage Guidelines ---

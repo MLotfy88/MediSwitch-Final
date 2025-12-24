@@ -55,7 +55,15 @@ class MedicineModel extends DrugEntity {
   static int _parseInt(dynamic value) {
     if (value == null) return 0;
     if (value is int) return value;
-    return int.tryParse(value.toString()) ?? 0;
+    // Remove any non-digit characters except for negative sign
+    final clean = value.toString().replaceAll(RegExp(r'[^-0-9]'), '');
+    return int.tryParse(clean) ?? 0;
+  }
+
+  static String _parsePrice(dynamic value) {
+    if (value == null) return '0';
+    // Remove commas from price (e.g., "1,250" -> "1250")
+    return value.toString().replaceAll(',', '').trim();
   }
 
   factory MedicineModel.fromCsv(List<dynamic> row) {
@@ -75,8 +83,8 @@ class MedicineModel extends DrugEntity {
       category: cat,
       mainCategory: cat,
       company: row.length > 5 ? _parseString(row[5]) : '',
-      price: row.length > 6 ? _parseString(row[6]) : '0',
-      oldPrice: row.length > 7 ? _parseString(row[7]) : '',
+      price: row.length > 6 ? _parsePrice(row[6]) : '0',
+      oldPrice: row.length > 7 ? _parsePrice(row[7]) : '',
       lastPriceUpdate:
           row.length > 8 ? _normalizeDate(_parseString(row[8])) : '',
       unit: row.length > 9 ? _parseString(row[9]) : '',
