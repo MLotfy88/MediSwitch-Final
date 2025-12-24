@@ -862,12 +862,12 @@ class SqliteLocalDataSource {
     final queryStr = '''
       SELECT *
       FROM ${DatabaseHelper.medicinesTable}
-      WHERE ${DatabaseHelper.colLastPriceUpdate} >= ?
+      WHERE ${DatabaseHelper.colLastPriceUpdate} IS NOT NULL 
+        AND ${DatabaseHelper.colLastPriceUpdate} != ''
       ORDER BY ${DatabaseHelper.colLastPriceUpdate} DESC
       LIMIT ? OFFSET ?
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
-      cutoffDate,
       limit,
       offset,
     ]);

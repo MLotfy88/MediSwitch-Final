@@ -267,14 +267,12 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   Future<void> _loadHomeRecentlyUpdatedDrugs() async {
-    _logger.d("MedicineProvider: Loading last 20 updated drugs...");
-    // Use a very old date to ensure we get the absolute latest 20 drugs regardless of window
-    // as long as they have a date.
-    final cutoffDate = '2000-01-01';
-    const recentLimit = 20;
+    _logger.d("MedicineProvider: Loading last 8 updated drugs...");
+    // Updated to load last 8 drugs based on last_price_update
+    const recentLimit = 8;
 
     final recentResult = await _getRecentlyUpdatedDrugsUseCase(
-      GetRecentlyUpdatedDrugsParams(cutoffDate: cutoffDate, limit: recentLimit),
+      GetRecentlyUpdatedDrugsParams(cutoffDate: '', limit: recentLimit),
     );
     recentResult.fold(
       (l) {
