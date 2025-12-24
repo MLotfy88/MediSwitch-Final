@@ -859,6 +859,7 @@ class SqliteLocalDataSource {
   }) async {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
+    final actualOffset = offset ?? 0; // Default to 0 if null
     final queryStr = '''
       SELECT *
       FROM ${DatabaseHelper.medicinesTable}
@@ -869,7 +870,7 @@ class SqliteLocalDataSource {
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
       limit,
-      offset,
+      actualOffset,
     ]);
     return List.generate(maps.length, (i) {
       return MedicineModel.fromMap(maps[i]);
