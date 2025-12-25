@@ -64,6 +64,9 @@ abstract class InteractionRepository {
   /// Checks both ID and active ingredient for robust matching
   Future<List<String>> getFoodInteractions(DrugEntity drug);
 
+  /// Gets a list of ingredients that have food interactions, with counts.
+  Future<List<HighRiskIngredient>> getFoodInteractionIngredients();
+
   /// Get drugs that have known food interactions (for Home Screen)
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit);
 }

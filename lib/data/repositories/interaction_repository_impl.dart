@@ -444,6 +444,29 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   @override
+  Future<List<HighRiskIngredient>> getFoodInteractionIngredients() async {
+    try {
+      final List<Map<String, dynamic>> maps =
+          await localDataSource.getFoodInteractionCounts();
+
+      return maps.map((m) {
+        return HighRiskIngredient(
+          name: m['name'] as String,
+          totalInteractions: m['count'] as int,
+          severeCount:
+              0, // Food interactions usually don't have severity breakdown here
+          moderateCount: 0,
+          minorCount: 0,
+          dangerScore: 0,
+        );
+      }).toList();
+    } catch (e) {
+      _logger.e('Error getting food interaction ingredients: $e');
+      return [];
+    }
+  }
+
+  @override
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit) async {
     _logger.d(
       '[InteractionRepo] getDrugsWithFoodInteractions called with limit=$limit',

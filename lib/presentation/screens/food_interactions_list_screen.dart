@@ -56,10 +56,7 @@ class FoodInteractionsListScreen extends StatelessWidget {
             itemBuilder: (context, index) {
               final ingredient = ingredients[index];
               // Get the count of food interactions for this ingredient (use totalInteractions if available)
-              final interactionCount =
-                  ingredient.totalInteractions > 0
-                      ? ingredient.totalInteractions
-                      : 1;
+              final interactionCount = ingredient.totalInteractions;
 
               return SizedBox(
                 height: 160, // Reduced height for better fit

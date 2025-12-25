@@ -407,9 +407,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     subtitle: "Active Ingredient",
                     riskLevel: RiskLevel.critical,
                     interactionCount:
-                        ingredient.totalInteractions > 0
-                            ? ingredient.totalInteractions
-                            : 99, // Fallback if 0
+                        ingredient.totalInteractions, // Show actual count
                     onTap: () {
                       Navigator.push(
                         context,
@@ -477,7 +475,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     title: ingredient.displayName,
                     subtitle: "Interacts w/ Food",
                     riskLevel: RiskLevel.high,
-                    interactionCount: 1, // Generic Badge
+                    interactionCount:
+                        ingredient.totalInteractions, // Show actual count
                     onTap: () {
                       // Navigate to Ingredient Interactions Screen (Same as High Risk)
                       Navigator.push(

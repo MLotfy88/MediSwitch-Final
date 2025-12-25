@@ -1631,6 +1631,40 @@ class SqliteLocalDataSource {
     return processed;
   }
 
+  Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+
+    // We need to link food interactions back to ingredients
+    // food_interactions has med_id. med_ingredients has med_id and ingredient.
+    // We want to count how many food interactions exist for each ingredient.
+
+    /*
+      food_interactions:
+      med_id | interaction
+      1      | No alcohol
+      
+      med_ingredients:
+      med_id | ingredient
+      1      | Paracetamol
+      
+      Result: Paracetamol -> 1
+    */
+
+    final List<Map<String, dynamic>> maps = await db.rawQuery('''
+      SELECT 
+        LOWER(mi.ingredient) as name, 
+        COUNT(DISTINCT fi.interaction) as count
+      FROM ${DatabaseHelper.foodInteractionsTable} fi
+      JOIN med_ingredients mi ON fi.med_id = mi.med_id
+      GROUP BY LOWER(mi.ingredient)
+      ORDER BY count DESC
+      LIMIT 20
+      ''');
+
+    return maps;
+  }
+
   Future<List<int>> getNewestDrugIds(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;

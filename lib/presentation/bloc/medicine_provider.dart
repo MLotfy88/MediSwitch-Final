@@ -525,61 +525,28 @@ class MedicineProvider extends ChangeNotifier {
     _logger.d("MedicineProvider: ===== LOADING FOOD INTERACTION DRUGS =====");
     try {
       final repo = locator<InteractionRepository>();
-      _logger.d('Repository instance: $repo');
+
+      // Load Ingredients with Counts directly from Repository (Efficient)
+      final ingredients = await repo.getFoodInteractionIngredients();
+      _foodInteractionIngredients = ingredients;
+
+      _logger.i(
+        "MedicineProvider: ✅ SUCCESS! Loaded ${ingredients.length} unique food ingredients with counts.",
+      );
+
+      // Also load sample drugs for other usages if needed, or keep previous logic if drugs are needed elsewhere.
+      // Assuming we need drugs list for some other view, or we can query it on demand.
+      // Keeping original behavior: Load sample drugs just to have them available or for logging
+      // But _foodInteractionDrugs list is used?
+      // Checking usages: It's just exposed. Let's keep loading it for safety but optimized.
       final drugs = await repo.getDrugsWithFoodInteractions(10);
-      _logger.i(
-        "MedicineProvider: ✅ SUCCESS! Loaded ${drugs.length} food interaction drugs",
-      );
-      if (drugs.isNotEmpty) {
-        _logger.d('First drug with food interaction: ${drugs.first.tradeName}');
-      } else {
-        _logger.w('WARNING: Food interaction drugs list is EMPTY!');
-      }
       _foodInteractionDrugs = drugs;
-
-      // Deduplicate into Ingredients for Clinical UI
-      final Set<String> seenIngredients = {};
-      _foodInteractionIngredients = [];
-
-      for (final drug in drugs) {
-        // Normalize: take first ingredient if multiple, trim whitespace
-        final rawActive = drug.active;
-        if (rawActive.isEmpty) continue;
-
-        // Split by +, ;, / to get the primary molecule
-        final parts = rawActive.split(RegExp(r'[+;,/]'));
-        final primaryIngredient =
-            parts.isNotEmpty ? parts.first.trim() : rawActive;
-
-        if (primaryIngredient.length < 3) continue; // Skip garbage
-
-        final key = primaryIngredient.toLowerCase();
-        if (!seenIngredients.contains(key)) {
-          seenIngredients.add(key);
-          _foodInteractionIngredients.add(
-            HighRiskIngredient(
-              name: primaryIngredient,
-              totalInteractions:
-                  0, // Not querying full interactions for this view
-              severeCount: 0,
-              moderateCount: 0,
-              minorCount: 0,
-              dangerScore: 0,
-            ),
-          );
-        }
-      }
-      _logger.i(
-        'MedicineProvider: Deduplicated to ${_foodInteractionIngredients.length} unique food ingredients',
-      );
     } catch (e, stackTrace) {
       _logger.e("MedicineProvider: EXCEPTION in _loadFoodInteractionDrugs: $e");
       _logger.e(stackTrace);
+      _foodInteractionIngredients = [];
       _foodInteractionDrugs = [];
     }
-    _logger.d(
-      'MedicineProvider: Food interaction drugs count after load: ${_foodInteractionDrugs.length}',
-    );
     notifyListeners();
   }
 
