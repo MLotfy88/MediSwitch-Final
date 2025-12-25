@@ -1567,11 +1567,15 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
     // Search rules for ingredient
-    final query = '%${drugName.toLowerCase()}%';
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.interactionsTable,
-      where: 'ingredient1 LIKE ? OR ingredient2 LIKE ?',
-      whereArgs: [query, query],
+    final query = '%${drugName.trim().toLowerCase()}%';
+
+    // Using rawQuery with explicit LOWER() for safety
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      SELECT * FROM ${DatabaseHelper.interactionsTable} 
+      WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
+      ''',
+      [query, query],
     );
 
     return List.generate(maps.length, (i) {
