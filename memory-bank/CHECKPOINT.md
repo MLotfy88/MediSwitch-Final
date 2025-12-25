@@ -1,4 +1,31 @@
-# 🎯 ملخص المشروع - December### CHECKPOINT 132 (2025-12-25)
+# 🎯 ملخص المشروع - December
+
+### CHECKPOINT 134 (2025-12-25)
+- **Fixed High Risk Ingredient Names Display**
+  - Modified SQL query in `getHighRiskIngredientsWithMetrics` to preserve original case names
+  - Ingredient names now display fully (e.g., "Metformin", "Probiotics") instead of truncated lowercase ("met", "pro")
+- **Fixed Badge Display System (NEW/POPULAR)**  
+  - Added `_applyDrugFlags` helper method in `MedicineProvider`
+  - Applied flags centrally in all drug loading methods:
+    - `_loadHomeRecentlyUpdatedDrugs()`
+    - `_loadPopularDrugs()`
+    - `_applyFilters()` (search & filters)
+    - `_loadMoreRecentDrugsInternal()` (pagination)
+  - Removed duplicate `copyWith` code from `home_screen.dart` and `search_screen.dart`
+  - Badges now display correctly on all drug cards (Home, Search, Favorites)
+- **Files Modified:**
+  - `sqlite_local_data_source.dart` - SQL query optimization
+  - `medicine_provider.dart` - Centralized flag application
+  - `home_screen.dart`, `search_screen.dart` - Removed duplicate code
+- **Verification:** `flutter analyze` - 0 errors, 425 style warnings (acceptable)
+
+### CHECKPOINT 133 (2025-12-25)
+- Fixed UI Badge Displays (NEW/POPULAR) in `MedicineProvider` and `SearchScreen`
+- Implemented `getRulesCount` and `incrementVisits` in `InteractionRepository`
+- Cleaned up `InteractionRepositoryImpl` code quality and addressed linter warnings
+- Verified full ingredient names display in `HighRiskIngredient` entity
+
+### CHECKPOINT 132 (2025-12-25)
 - Fixed Interaction Name Truncation in `HighRiskIngredient` entity
 - Removed hardcoded 30-character limit to ensure full names (e.g., Metformin, Probiotics) display correctly
 - Documentation updated in Memory Bank

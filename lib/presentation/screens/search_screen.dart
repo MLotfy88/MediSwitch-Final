@@ -312,14 +312,10 @@ class _SearchScreenState extends State<SearchScreen> {
             itemCount: recentDrugs.length,
             itemBuilder: (context, index) {
               final drug = recentDrugs[index];
-              final displayDrug = drug.copyWith(
-                isPopular: provider.isDrugPopular(drug.id),
-                isNew: provider.isDrugNew(drug.id),
-              );
               return Padding(
                 padding: const EdgeInsets.only(bottom: 12),
                 child: ModernDrugCard(
-                  drug: displayDrug,
+                  drug: drug,
                   hasDrugInteraction: drug.hasDrugInteraction,
                   hasFoodInteraction: drug.hasFoodInteraction,
                   onTap: () => _navigateToDetails(context, drug),
@@ -415,15 +411,11 @@ class _SearchScreenState extends State<SearchScreen> {
           );
         }
         final drug = provider.filteredMedicines[index];
-        final displayDrug = drug.copyWith(
-          isPopular: provider.isDrugPopular(drug.id),
-          isNew: provider.isDrugNew(drug.id),
-        );
         // Add Animation
         return Padding(
           padding: const EdgeInsets.only(bottom: 12),
           child: ModernDrugCard(
-            drug: displayDrug,
+            drug: drug,
             hasDrugInteraction: drug.hasDrugInteraction,
             hasFoodInteraction: drug.hasFoodInteraction,
             onTap: () => _navigateToDetails(context, drug),

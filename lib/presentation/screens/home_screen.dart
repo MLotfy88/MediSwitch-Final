@@ -523,15 +523,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (index >= medicineProvider.recentlyUpdatedDrugs.length)
                   return null;
                 final drug = medicineProvider.recentlyUpdatedDrugs[index];
-                // Apply isPopular and isNew flags dynamically
-                final displayDrug = drug.copyWith(
-                  isPopular: medicineProvider.isDrugPopular(drug.id),
-                  isNew: medicineProvider.isDrugNew(drug.id),
-                );
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 12),
                   child: ModernDrugCard(
-                    drug: displayDrug,
+                    drug: drug,
                     hasDrugInteraction: drug.hasDrugInteraction,
                     hasFoodInteraction: drug.hasFoodInteraction,
                     onTap: () => _navigateToDetails(context, drug),

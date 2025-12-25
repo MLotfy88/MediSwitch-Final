@@ -83,6 +83,12 @@
 - [x] Unified Sync System (Manual & Background)
 - [x] Fix Interaction Counts Display (High Risk & Food Interactions)
 - [x] Fix Interaction Name Truncation (إصلاح مشكلة تقصير الأسماء)
+- [x] Fix Badge Displays (NEW/POPULAR) & Repository Cleanup
+- [x] Fix High Risk Ingredient Names & Badge Display Issues (Dec 25, 2025)
+  - Fixed SQL query to return original case ingredient names
+  - Added `_applyDrugFlags` helper in MedicineProvider
+  - Applied flags across all drug loading methods
+  - Removed duplicate `copyWith` code from UI screens
 
 ---
 

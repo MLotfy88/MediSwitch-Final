@@ -298,7 +298,8 @@ class MedicineProvider extends ChangeNotifier {
         _recentlyUpdatedDrugs = [];
       },
       (r) {
-        _recentlyUpdatedDrugs = r;
+        // Apply flags after loading
+        _recentlyUpdatedDrugs = _applyDrugFlags(r);
         _logger.i(
           "MedicineProvider: Loaded ${_recentlyUpdatedDrugs.length} recently updated drugs.",
         );
@@ -320,6 +321,16 @@ class MedicineProvider extends ChangeNotifier {
     );
   }
 
+  /// Helper method to apply isNew and isPopular flags to a list of drugs
+  List<DrugEntity> _applyDrugFlags(List<DrugEntity> drugs) {
+    return drugs.map((drug) {
+      return drug.copyWith(
+        isPopular: isDrugPopular(drug.id),
+        isNew: isDrugNew(drug.id),
+      );
+    }).toList();
+  }
+
   /// Loads top 50 popular drugs based on visits count
   Future<void> _loadPopularDrugs() async {
     _logger.d("MedicineProvider: Loading top 50 popular drugs...");
@@ -329,7 +340,9 @@ class MedicineProvider extends ChangeNotifier {
       );
       // Create a set of popular drug IDs for O(1) lookup
       _popularDrugIds = popularModels.map((m) => m.id).whereType<int>().toSet();
-      _popularDrugs = popularModels.map((m) => m.toEntity()).toList();
+      final entities = popularModels.map((m) => m.toEntity()).toList();
+      // Apply flags AFTER loading
+      _popularDrugs = _applyDrugFlags(entities);
       _logger.i(
         "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs.",
       );
@@ -733,12 +746,15 @@ class MedicineProvider extends ChangeNotifier {
         if (drugs.isEmpty) {
           _hasMoreItems = false;
         } else {
+          // Apply flags to drugs
+          final drugsWithFlags = _applyDrugFlags(drugs);
+
           if (page == 0) {
-            _searchResults = drugs;
-            _filteredMedicines = drugs;
+            _searchResults = drugsWithFlags;
+            _filteredMedicines = drugsWithFlags;
           } else {
-            _searchResults.addAll(drugs);
-            _filteredMedicines.addAll(drugs);
+            _searchResults.addAll(drugsWithFlags);
+            _filteredMedicines.addAll(drugsWithFlags);
           }
           _currentPage = page;
           if (drugs.length < _pageSize) {
@@ -1019,6 +1035,9 @@ class MedicineProvider extends ChangeNotifier {
                     price <= _selectedPriceRange!.end;
               }).toList();
         }
+
+        // Apply isNew and isPopular flags BEFORE final assignment
+        filtered = _applyDrugFlags(filtered);
 
         _hasMoreItems = drugs.length == fetchLimit;
         // Remove the extra item if we fetched it

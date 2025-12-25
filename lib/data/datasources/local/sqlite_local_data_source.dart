@@ -1496,35 +1496,51 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // Use a CTE to find ingredients involved in high-risk interactions
-    // and aggregate their stats. Interaction severity mapping:
-    // contraindicated/severe/major -> high
-    // OPTIMIZED QUERY: Check multiple cases.
+    // Get high-risk ingredients with proper case names
+    // We'll aggregate by lowercase for counting, but preserve original case for display
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
-        SELECT TRIM(LOWER(ingredient1)) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT 
+          ingredient1 as original_name,
+          TRIM(LOWER(ingredient1)) as ingredient_key, 
+          severity 
+        FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
         UNION ALL
-        SELECT TRIM(LOWER(ingredient2)) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT 
+          ingredient2 as original_name,
+          TRIM(LOWER(ingredient2)) as ingredient_key, 
+          severity 
+        FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
+      ),
+      IngredientStats AS (
+        SELECT 
+          ingredient_key,
+          COUNT(*) as totalInteractions,
+          SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
+          SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
+          SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
+          SUM(CASE 
+            WHEN LOWER(severity) = 'contraindicated' THEN 10 
+            WHEN LOWER(severity) IN ('severe', 'critical') THEN 8
+            WHEN LOWER(severity) IN ('high', 'serious') THEN 7
+            WHEN LOWER(severity) = 'major' THEN 5
+            WHEN LOWER(severity) = 'moderate' THEN 3
+            ELSE 1 
+          END) as dangerScore
+        FROM AffectedIngredients
+        GROUP BY ingredient_key
       )
       SELECT 
-        ingredient as name,
-        COUNT(*) as totalInteractions,
-        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
-        SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
-        SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
-        SUM(CASE 
-          WHEN LOWER(severity) = 'contraindicated' THEN 10 
-          WHEN LOWER(severity) IN ('severe', 'critical') THEN 8
-          WHEN LOWER(severity) IN ('high', 'serious') THEN 7
-          WHEN LOWER(severity) = 'major' THEN 5
-          WHEN LOWER(severity) = 'moderate' THEN 3
-          ELSE 1 
-        END) as dangerScore
-      FROM AffectedIngredients
-      GROUP BY ingredient
+        (SELECT original_name FROM AffectedIngredients ai WHERE ai.ingredient_key = stats.ingredient_key LIMIT 1) as name,
+        stats.totalInteractions,
+        stats.severeCount,
+        stats.moderateCount,
+        stats.minorCount,
+        stats.dangerScore
+      FROM IngredientStats stats
       ORDER BY dangerScore DESC
       LIMIT ?
       ''',
