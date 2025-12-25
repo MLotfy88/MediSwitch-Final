@@ -144,12 +144,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
   }
 
   @override
-  Future<List<HighRiskIngredient>> getHighRiskIngredients() async {
+  Future<List<HighRiskIngredient>> getHighRiskIngredients(int limit) async {
     try {
       final List<Map<String, dynamic>> maps = await localDataSource
-          .getHighRiskIngredientsWithMetrics(limit: 10);
+          .getHighRiskIngredientsWithMetrics(limit: limit);
 
       return maps.map((m) {
+        _logger.d(
+          'Mapping HighRiskIngredient: ${m['name']} - Total: ${m['totalInteractions']}',
+        );
         return HighRiskIngredient(
           name: m['name'] as String,
           totalInteractions: m['totalInteractions'] as int,

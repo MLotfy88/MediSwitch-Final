@@ -14,36 +14,11 @@ class GetHighRiskIngredientsUseCase
   @override
   Future<Either<Failure, List<HighRiskIngredient>>> call(int limit) async {
     try {
-      // Fetch high risk drugs directly from DB
-      final drugs = await interactionRepository.getHighRiskDrugs(limit);
-
-      final results =
-          drugs.map((drug) {
-            // Simplify name to primary ingredient
-            final simpleName =
-                drug.active.isNotEmpty
-                    ? drug.active.split(RegExp(r'[+;,/]')).first.trim()
-                    : drug.tradeName;
-
-            return HighRiskIngredient(
-              name: simpleName.isEmpty ? 'Unknown' : simpleName,
-              totalInteractions: 0, // Not available from drug query directly
-              severeCount: 0,
-              moderateCount: 0,
-              minorCount: 0,
-              dangerScore: 100, // Placeholder
-            );
-          }).toList();
-
-      // Deduplicate by name
-      final uniqueResults = <String, HighRiskIngredient>{};
-      for (final item in results) {
-        if (!uniqueResults.containsKey(item.name.toLowerCase())) {
-          uniqueResults[item.name.toLowerCase()] = item;
-        }
-      }
-
-      return Right(uniqueResults.values.take(limit).toList());
+      // Fetch high risk ingredients metrics directly from DB
+      final ingredients = await interactionRepository.getHighRiskIngredients(
+        limit,
+      );
+      return Right(ingredients);
     } catch (e) {
       return Left(
         CacheFailure(message: 'Error fetching high risk ingredients: $e'),

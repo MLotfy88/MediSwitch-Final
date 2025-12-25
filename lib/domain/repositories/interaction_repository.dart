@@ -36,7 +36,7 @@ abstract class InteractionRepository {
   Future<int> getInteractionCountForDrug(DrugEntity drug);
 
   /// Get a list of ingredients known to have high-risk (severe/contraindicated) interactions
-  Future<List<HighRiskIngredient>> getHighRiskIngredients();
+  Future<List<HighRiskIngredient>> getHighRiskIngredients(int limit);
 
   /// Get high risk drugs based on interaction severity score
   Future<List<DrugEntity>> getHighRiskDrugs(int limit);
