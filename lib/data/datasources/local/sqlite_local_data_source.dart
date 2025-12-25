@@ -1552,10 +1552,10 @@ class SqliteLocalDataSource {
       return DrugInteractionModel.fromMap({
         'id': m['id'],
         'med_id': 0,
-        'interaction_drug_name':
-            '${m['ingredient1']} + ${m['ingredient2']}', // Show pair
+        'ingredient1': m['ingredient1'],
+        'ingredient2': m['ingredient2'],
         'severity': m['severity'],
-        'description': m['effect'] ?? m['description'],
+        'effect': m['effect'] ?? m['description'],
         'source': m['source'],
       });
     });
@@ -1579,9 +1579,10 @@ class SqliteLocalDataSource {
       return DrugInteractionModel.fromMap({
         'id': m['id'],
         'med_id': 0,
-        'interaction_drug_name': '${m['ingredient1']} + ${m['ingredient2']}',
+        'ingredient1': m['ingredient1'],
+        'ingredient2': m['ingredient2'],
         'severity': m['severity'],
-        'description': m['effect'] ?? m['description'],
+        'effect': m['effect'] ?? m['description'],
         'source': m['source'],
       });
     });
