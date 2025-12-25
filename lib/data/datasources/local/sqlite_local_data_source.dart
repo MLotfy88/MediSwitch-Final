@@ -703,7 +703,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       WHERE $whereClause
@@ -766,7 +766,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       WHERE $whereClause
@@ -881,7 +881,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       WHERE d.${DatabaseHelper.colLastPriceUpdate} IS NOT NULL 
@@ -908,7 +908,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       ORDER BY RANDOM()
@@ -1082,7 +1082,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       WHERE LOWER(${DatabaseHelper.colActive}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?
@@ -1147,7 +1147,7 @@ class SqliteLocalDataSource {
           SELECT 1 FROM med_ingredients mi 
           JOIN ${DatabaseHelper.interactionsTable} di 
           ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND di.severity = 'High'
+          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
         ) as has_drug_interaction
       FROM ${DatabaseHelper.medicinesTable} d
       WHERE $whereClause
@@ -1449,7 +1449,7 @@ class SqliteLocalDataSource {
       // Step 3: Check high-severity interactions
       final highSeverityCount = Sqflite.firstIntValue(
         await db.rawQuery(
-          "SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable} WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')",
+          "SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable} WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')",
         ),
       );
       _logger.d(
@@ -1463,7 +1463,7 @@ class SqliteLocalDataSource {
         FROM ${DatabaseHelper.medicinesTable} d
         JOIN med_ingredients mi ON d.id = mi.med_id
         JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = r.ingredient1 OR mi.ingredient = r.ingredient2)
-        WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major')
+        WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major', 'high')
         LIMIT ?
       ''',
         [limit],
@@ -1504,20 +1504,20 @@ class SqliteLocalDataSource {
       '''
       WITH AffectedIngredients AS (
         SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
         UNION ALL
         SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major')
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
       )
       SELECT 
         LOWER(ingredient) as name,
         COUNT(*) as totalInteractions,
-        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'high') THEN 1 ELSE 0 END) as severeCount,
         SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate') THEN 1 ELSE 0 END) as moderateCount,
         SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
         SUM(CASE 
           WHEN LOWER(severity) = 'contraindicated' THEN 10 
-          WHEN LOWER(severity) = 'severe' THEN 8
+          WHEN LOWER(severity) IN ('severe', 'high') THEN 8
           WHEN LOWER(severity) = 'major' THEN 5
           WHEN LOWER(severity) = 'moderate' THEN 3
           ELSE 1 
@@ -1541,7 +1541,8 @@ class SqliteLocalDataSource {
     // Just list rules
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.interactionsTable,
-      where: "LOWER(severity) IN ('contraindicated', 'severe', 'major')",
+      where:
+          "LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')",
       limit: limit,
     );
 
