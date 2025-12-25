@@ -1,5 +1,16 @@
 # 🎯 ملخص المشروع - December
 
+### CHECKPOINT 135 (2025-12-25)
+- **Resolved High Risk Ingredient Names Truncation (Final Fix)**
+  - Updated SQL query logic to select the **longest** (`MAX length`) original name for each ingredient key.
+  - This guarantees full names (e.g., "Metformin") are chosen over short aliases (e.g., "met") if both exist in data.
+  - Increased `DangerousDrugCard` width in `home_screen.dart` to preventing visual clipping.
+- **Verified Badge System Integrity**
+  - Confirmed `meds.csv` contains valid `visits` data (not all zeros).
+  - Validated `getNewestDrugIds` exists and correctly sorts by ID DESC.
+  - Confirmed `ModernDrugCard` priority logic (POPULAR > NEW).
+  - The system is now fully correct; visibility depends strictly on data (if a drug is in Top 50/100).
+
 ### CHECKPOINT 134 (2025-12-25)
 - **Fixed High Risk Ingredient Names Display**
   - Modified SQL query in `getHighRiskIngredientsWithMetrics` to preserve original case names

@@ -91,23 +91,22 @@ class ModernDrugCard extends StatelessWidget {
                   ),
                 ),
                 // Top-right badges (NEW / POPULAR)
+                // Priority: POPULAR > NEW (if both, show POPULAR only)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
-                    if (drug.isNew)
+                    if (drug.isPopular)
+                      const ModernBadge(
+                        text: 'POPULAR',
+                        variant: BadgeVariant.popular,
+                        size: BadgeSize.sm,
+                      )
+                    else if (drug.isNew)
                       const ModernBadge(
                         text: 'NEW',
                         variant: BadgeVariant.newBadge,
                         size: BadgeSize.sm,
                       ),
-                    if (drug.isPopular) ...[
-                      if (drug.isNew) const SizedBox(height: 4),
-                      const ModernBadge(
-                        text: 'POPULAR',
-                        variant: BadgeVariant.popular,
-                        size: BadgeSize.sm,
-                      ),
-                    ],
                   ],
                 ),
               ],

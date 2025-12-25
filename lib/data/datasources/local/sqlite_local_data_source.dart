@@ -922,15 +922,15 @@ class SqliteLocalDataSource {
     });
   }
 
-  /// Get top 50 popular medicines based on visits count
+  /// Get top popular medicines based on visits count
+  /// If all have 0 visits, returns by newest ID
   Future<List<MedicineModel>> getPopularMedicines({int limit = 50}) async {
     await seedingComplete; // Wait for seeding
     final db = await dbHelper.database;
     final queryStr = '''
       SELECT *
       FROM ${DatabaseHelper.medicinesTable}
-      WHERE ${DatabaseHelper.colVisits} > 0
-      ORDER BY ${DatabaseHelper.colVisits} DESC
+      ORDER BY ${DatabaseHelper.colVisits} DESC, ${DatabaseHelper.colId} DESC
       LIMIT ?
     ''';
     final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
@@ -1534,7 +1534,7 @@ class SqliteLocalDataSource {
         GROUP BY ingredient_key
       )
       SELECT 
-        (SELECT original_name FROM AffectedIngredients ai WHERE ai.ingredient_key = stats.ingredient_key LIMIT 1) as name,
+        (SELECT original_name FROM AffectedIngredients ai WHERE ai.ingredient_key = stats.ingredient_key ORDER BY LENGTH(original_name) DESC LIMIT 1) as name,
         stats.totalInteractions,
         stats.severeCount,
         stats.moderateCount,

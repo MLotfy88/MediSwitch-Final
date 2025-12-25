@@ -401,7 +401,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 final ingredient = medicineProvider.highRiskIngredients[index];
 
                 return SizedBox(
-                  width: 140,
+                  width: 160,
                   child: DangerousDrugCard(
                     title: ingredient.displayName,
                     subtitle: "Active Ingredient",

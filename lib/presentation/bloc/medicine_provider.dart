@@ -315,7 +315,7 @@ class MedicineProvider extends ChangeNotifier {
       (ids) {
         _newDrugIds = ids.toSet();
         _logger.i(
-          "MedicineProvider: Loaded ${_newDrugIds.length} new drug IDs.",
+          "MedicineProvider: Loaded ${_newDrugIds.length} new drug IDs: ${ids.take(10).toList()}...",
         );
       },
     );
@@ -323,20 +323,30 @@ class MedicineProvider extends ChangeNotifier {
 
   /// Helper method to apply isNew and isPopular flags to a list of drugs
   List<DrugEntity> _applyDrugFlags(List<DrugEntity> drugs) {
+    _logger.d(
+      "_applyDrugFlags: Processing ${drugs.length} drugs. NewDrugIds: ${_newDrugIds.length}, PopularDrugIds: ${_popularDrugIds.length}",
+    );
+
     return drugs.map((drug) {
-      return drug.copyWith(
-        isPopular: isDrugPopular(drug.id),
-        isNew: isDrugNew(drug.id),
-      );
+      final isNew = isDrugNew(drug.id);
+      final isPopular = isDrugPopular(drug.id);
+
+      if (isNew || isPopular) {
+        _logger.d(
+          "_applyDrugFlags: Drug ID ${drug.id} (${drug.tradeName}) -> isNew: $isNew, isPopular: $isPopular",
+        );
+      }
+
+      return drug.copyWith(isPopular: isPopular, isNew: isNew);
     }).toList();
   }
 
-  /// Loads top 50 popular drugs based on visits count
+  /// Loads top 100 popular drugs based on visits count
   Future<void> _loadPopularDrugs() async {
-    _logger.d("MedicineProvider: Loading top 50 popular drugs...");
+    _logger.d("MedicineProvider: Loading top 100 popular drugs...");
     try {
       final popularModels = await _localDataSource.getPopularMedicines(
-        limit: 50,
+        limit: 100, // Changed from 50 to 100 per user requirement
       );
       // Create a set of popular drug IDs for O(1) lookup
       _popularDrugIds = popularModels.map((m) => m.id).whereType<int>().toSet();
@@ -344,7 +354,7 @@ class MedicineProvider extends ChangeNotifier {
       // Apply flags AFTER loading
       _popularDrugs = _applyDrugFlags(entities);
       _logger.i(
-        "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs.",
+        "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs. IDs: ${_popularDrugIds.take(10).toList()}...",
       );
     } catch (e, s) {
       _logger.e("MedicineProvider: Failed to load popular drugs", e, s);
