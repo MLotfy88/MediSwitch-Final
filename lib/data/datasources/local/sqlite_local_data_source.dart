@@ -1504,10 +1504,10 @@ class SqliteLocalDataSource {
       '''
       WITH AffectedIngredients AS (
         SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
         UNION ALL
         SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
+        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
       )
       SELECT 
         LOWER(ingredient) as name,

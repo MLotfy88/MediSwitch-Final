@@ -41,6 +41,8 @@ class MedicineProvider extends ChangeNotifier {
   final GetRecentlyUpdatedDrugsUseCase _getRecentlyUpdatedDrugsUseCase;
 
   final GetHighRiskIngredientsUseCase _getHighRiskIngredientsUseCase;
+  final GetHighRiskDrugsUseCase _getHighRiskDrugsUseCase; // Added
+  final InteractionRepository _interactionRepository; // Added
   final SqliteLocalDataSource _localDataSource;
   final DrugRepository _drugRepository;
 
@@ -148,6 +150,8 @@ class MedicineProvider extends ChangeNotifier {
     required GetLastUpdateTimestampUseCase getLastUpdateTimestampUseCase,
     required GetRecentlyUpdatedDrugsUseCase getRecentlyUpdatedDrugsUseCase,
     required GetHighRiskIngredientsUseCase getHighRiskIngredientsUseCase,
+    required GetHighRiskDrugsUseCase getHighRiskDrugsUseCase, // Added
+    required InteractionRepository interactionRepository, // Added
     required SqliteLocalDataSource localDataSource,
     required DrugRepository drugRepository, // Added for _loadNewDrugIds
   }) : _searchDrugsUseCase = searchDrugsUseCase,
@@ -156,6 +160,8 @@ class MedicineProvider extends ChangeNotifier {
        _getLastUpdateTimestampUseCase = getLastUpdateTimestampUseCase,
        _getRecentlyUpdatedDrugsUseCase = getRecentlyUpdatedDrugsUseCase,
        _getHighRiskIngredientsUseCase = getHighRiskIngredientsUseCase,
+       _getHighRiskDrugsUseCase = getHighRiskDrugsUseCase, // Initialized
+       _interactionRepository = interactionRepository, // Initialized
        _localDataSource = localDataSource,
        _drugRepository = drugRepository {
     // Initialized _drugRepository
@@ -491,8 +497,7 @@ class MedicineProvider extends ChangeNotifier {
   Future<void> _loadHighRiskDrugs() async {
     _logger.d("MedicineProvider: ===== LOADING HIGH RISK DRUGS =====");
     try {
-      final useCase = locator<GetHighRiskDrugsUseCase>();
-      final result = await useCase(10); // Load top 10 high risk drugs
+      final result = await _getHighRiskDrugsUseCase(10); // Use injected usecase
       result.fold(
         (Failure failure) {
           _logger.e(
@@ -524,10 +529,9 @@ class MedicineProvider extends ChangeNotifier {
   Future<void> _loadFoodInteractionDrugs() async {
     _logger.d("MedicineProvider: ===== LOADING FOOD INTERACTION DRUGS =====");
     try {
-      final repo = locator<InteractionRepository>();
-
       // Load Ingredients with Counts directly from Repository (Efficient)
-      final ingredients = await repo.getFoodInteractionIngredients();
+      final ingredients =
+          await _interactionRepository.getFoodInteractionIngredients();
       _foodInteractionIngredients = ingredients;
 
       _logger.i(
@@ -539,7 +543,9 @@ class MedicineProvider extends ChangeNotifier {
       // Keeping original behavior: Load sample drugs just to have them available or for logging
       // But _foodInteractionDrugs list is used?
       // Checking usages: It's just exposed. Let's keep loading it for safety but optimized.
-      final drugs = await repo.getDrugsWithFoodInteractions(10);
+      final drugs = await _interactionRepository.getDrugsWithFoodInteractions(
+        10,
+      );
       _foodInteractionDrugs = drugs;
     } catch (e, stackTrace) {
       _logger.e("MedicineProvider: EXCEPTION in _loadFoodInteractionDrugs: $e");

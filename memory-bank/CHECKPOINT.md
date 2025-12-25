@@ -1,4 +1,10 @@
-# 🎯 ملخص المشروع - December### CHECKPOINT 130 (2025-12-23)
+# 🎯 ملخص المشروع - December### CHECKPOINT 131 (2025-12-23)
+- Fixed Interaction Counts Display (High Risk Ingredients & Food Interactions)
+- Refactored `GetHighRiskIngredientsUseCase` to fetch real counts from DB
+- Implemented `getFoodInteractionCounts` in `SqliteLocalDataSource`
+- Removed hardcoded fallback counts (99, 1) from UI screens
+
+### CHECKPOINT 130 (2025-12-23)
 - Integrated D1 Cloud Sync System (Multi-table synchronization)
 - Refactored Flutter Interaction matching for Clinical Rules
 - Implemented Background Sync (Workmanager) and Manual Sync Button

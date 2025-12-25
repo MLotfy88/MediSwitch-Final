@@ -81,6 +81,7 @@
 - [x] Interaction Checker & Dosage Calculator tools
 - [x] Ad Config Integration
 - [x] Unified Sync System (Manual & Background)
+- [x] Fix Interaction Counts Display (High Risk & Food Interactions)
 
 ---
 

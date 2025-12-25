@@ -273,6 +273,10 @@ Future<void> setupLocator() async {
       getLastUpdateTimestampUseCase: locator<GetLastUpdateTimestampUseCase>(),
       getRecentlyUpdatedDrugsUseCase: locator<GetRecentlyUpdatedDrugsUseCase>(),
       getHighRiskIngredientsUseCase: locator<GetHighRiskIngredientsUseCase>(),
+      getHighRiskDrugsUseCase:
+          locator<GetHighRiskDrugsUseCase>(), // Explicitly injected
+      interactionRepository:
+          locator<InteractionRepository>(), // Explicitly injected
       localDataSource: locator<SqliteLocalDataSource>(),
       drugRepository: locator<DrugRepository>(),
     ),
