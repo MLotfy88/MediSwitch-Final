@@ -32,6 +32,12 @@ abstract class InteractionRepository {
   /// Gets the maximum severity level of known interactions for a drug.
   Future<InteractionSeverity> getMaxSeverityForDrug(DrugEntity drug);
 
+  /// Get total count of interaction rules in the database
+  Future<int> getRulesCount();
+
+  /// Increment visits for a drug
+  Future<void> incrementVisits(int drugId);
+
   /// Get interaction count for a specific drug
   Future<int> getInteractionCountForDrug(DrugEntity drug);
 

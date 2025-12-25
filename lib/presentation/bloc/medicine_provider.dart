@@ -850,6 +850,12 @@ class MedicineProvider extends ChangeNotifier {
   List<DrugEntity> get recentlyViewedDrugs => _recentlyViewedDrugs;
 
   void addToRecentlyViewed(DrugEntity drug) {
+    // 1. Increment visits in DB
+    if (drug.id != null) {
+      _interactionRepository.incrementVisits(drug.id!);
+    }
+
+    // 2. Manage in-memory recently viewed list
     // Remove if exists to move to top
     _recentlyViewedDrugs.removeWhere(
       (d) =>

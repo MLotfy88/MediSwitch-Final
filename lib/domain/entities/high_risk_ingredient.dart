@@ -17,6 +17,5 @@ class HighRiskIngredient {
   });
 
   /// Display name formatted for UI
-  String get displayName =>
-      name.length > 30 ? '${name.substring(0, 27)}...' : name;
+  String get displayName => name;
 }

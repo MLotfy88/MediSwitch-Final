@@ -14,10 +14,12 @@ import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:sqflite/sqflite.dart';
 
+/// Implementation of [InteractionRepository] using SQLite as the local data source.
 class InteractionRepositoryImpl implements InteractionRepository {
   final SqliteLocalDataSource localDataSource;
   final FileLoggerService _logger;
 
+  /// Creates a new [InteractionRepositoryImpl] instance.
   InteractionRepositoryImpl({
     required this.localDataSource,
     required FileLoggerService logger,
@@ -34,10 +36,10 @@ class InteractionRepositoryImpl implements InteractionRepository {
     List<DrugEntity> medicines,
   ) async {
     try {
-      final List<DrugInteraction> results = [];
-      final Set<String> addedIds = {}; // Use a string key for uniqueness
+      final results = <DrugInteraction>[];
+      final addedIds = <String>{}; // Use a string key for uniqueness
 
-      for (int i = 0; i < medicines.length; i++) {
+      for (var i = 0; i < medicines.length; i++) {
         final medA = medicines[i];
         if (medA.id == null) continue;
 
@@ -268,43 +270,41 @@ class InteractionRepositoryImpl implements InteractionRepository {
       final Either<Failure, Map<String, dynamic>> result =
           await remoteDataSource.getDeltaSyncInteractions(lastTimestamp);
 
-      return await result.fold(
-        (Failure failure) => Left<Failure, int>(failure),
-        (Map<String, dynamic> data) async {
-          final List<dynamic> rulesRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> rulesData =
-              rulesRaw.cast<Map<String, dynamic>>();
+      return await result.fold((failure) => Left<Failure, int>(failure), (
+        data,
+      ) async {
+        final rulesRaw = (data['data'] as List?) ?? [];
+        final rulesData = rulesRaw.cast<Map<String, dynamic>>();
 
-          if (rulesData.isNotEmpty) {
-            final db = await localDataSource.dbHelper.database;
-            await db.transaction((txn) async {
-              final batch = txn.batch();
-              for (final ruleMap in rulesData) {
-                batch.insert(
-                  DatabaseHelper.interactionsTable,
-                  {
-                    'id': ruleMap['id'],
-                    'ingredient1': ruleMap['ingredient1'],
-                    'ingredient2': ruleMap['ingredient2'],
-                    'severity': ruleMap['severity'],
-                    'effect': ruleMap['effect'],
-                    'arabic_effect': ruleMap['arabic_effect'],
-                    'recommendation': ruleMap['recommendation'],
-                    'arabic_recommendation': ruleMap['arabic_recommendation'],
-                    'source': ruleMap['source'],
-                    'type': ruleMap['type'],
-                    'updated_at': ruleMap['updated_at'],
-                  },
-                  conflictAlgorithm: ConflictAlgorithm.replace,
-                );
-              }
-              await batch.commit(noResult: true);
-            });
-            return Right<Failure, int>(rulesData.length);
-          }
-          return const Right<Failure, int>(0);
-        },
-      );
+        if (rulesData.isNotEmpty) {
+          final db = await localDataSource.dbHelper.database;
+          await db.transaction((txn) async {
+            final batch = txn.batch();
+            for (final ruleMap in rulesData) {
+              batch.insert(
+                DatabaseHelper.interactionsTable,
+                {
+                  'id': ruleMap['id'],
+                  'ingredient1': ruleMap['ingredient1'],
+                  'ingredient2': ruleMap['ingredient2'],
+                  'severity': ruleMap['severity'],
+                  'effect': ruleMap['effect'],
+                  'arabic_effect': ruleMap['arabic_effect'],
+                  'recommendation': ruleMap['recommendation'],
+                  'arabic_recommendation': ruleMap['arabic_recommendation'],
+                  'source': ruleMap['source'],
+                  'type': ruleMap['type'],
+                  'updated_at': ruleMap['updated_at'],
+                },
+                conflictAlgorithm: ConflictAlgorithm.replace,
+              );
+            }
+            await batch.commit(noResult: true);
+          });
+          return Right<Failure, int>(rulesData.length);
+        }
+        return const Right<Failure, int>(0);
+      });
     } catch (e) {
       return Left<Failure, int>(ServerFailure(message: e.toString()));
     }
@@ -318,31 +318,29 @@ class InteractionRepositoryImpl implements InteractionRepository {
       final Either<Failure, Map<String, dynamic>> result =
           await remoteDataSource.getDeltaSyncMedIngredients(lastTimestamp);
 
-      return await result.fold(
-        (Failure failure) => Left<Failure, int>(failure),
-        (Map<String, dynamic> data) async {
-          final List<dynamic> mappingRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> mappingData =
-              mappingRaw.cast<Map<String, dynamic>>();
+      return await result.fold((failure) => Left<Failure, int>(failure), (
+        data,
+      ) async {
+        final mappingRaw = (data['data'] as List?) ?? [];
+        final mappingData = mappingRaw.cast<Map<String, dynamic>>();
 
-          if (mappingData.isNotEmpty) {
-            final db = await localDataSource.dbHelper.database;
-            await db.transaction((txn) async {
-              final batch = txn.batch();
-              for (final map in mappingData) {
-                batch.insert('med_ingredients', {
-                  'med_id': map['med_id'],
-                  'ingredient': map['ingredient'],
-                  'updated_at': map['updated_at'],
-                }, conflictAlgorithm: ConflictAlgorithm.replace);
-              }
-              await batch.commit(noResult: true);
-            });
-            return Right<Failure, int>(mappingData.length);
-          }
-          return const Right<Failure, int>(0);
-        },
-      );
+        if (mappingData.isNotEmpty) {
+          final db = await localDataSource.dbHelper.database;
+          await db.transaction((txn) async {
+            final batch = txn.batch();
+            for (final map in mappingData) {
+              batch.insert('med_ingredients', {
+                'med_id': map['med_id'],
+                'ingredient': map['ingredient'],
+                'updated_at': map['updated_at'],
+              }, conflictAlgorithm: ConflictAlgorithm.replace);
+            }
+            await batch.commit(noResult: true);
+          });
+          return Right<Failure, int>(mappingData.length);
+        }
+        return const Right<Failure, int>(0);
+      });
     } catch (e) {
       return Left<Failure, int>(ServerFailure(message: e.toString()));
     }
@@ -356,48 +354,42 @@ class InteractionRepositoryImpl implements InteractionRepository {
       final Either<Failure, Map<String, dynamic>> result =
           await remoteDataSource.getDeltaSyncDosages(lastTimestamp);
 
-      return await result.fold(
-        (Failure failure) => Left<Failure, int>(failure),
-        (Map<String, dynamic> data) async {
-          final List<dynamic> dosageRaw = (data['data'] as List?) ?? [];
-          final List<Map<String, dynamic>> dosageData =
-              dosageRaw.cast<Map<String, dynamic>>();
+      return await result.fold((failure) => Left<Failure, int>(failure), (
+        data,
+      ) async {
+        final dosageRaw = (data['data'] as List?) ?? [];
+        final dosageData = dosageRaw.cast<Map<String, dynamic>>();
 
-          if (dosageData.isNotEmpty) {
-            final db = await localDataSource.dbHelper.database;
-            await db.transaction((txn) async {
-              final batch = txn.batch();
-              for (final dosage in dosageData) {
-                batch.insert(
-                  'dosage_guidelines',
-                  {
-                    'id': dosage['id'],
-                    'med_id': dosage['med_id'],
-                    'dailymed_setid': dosage['dailymed_setid'],
-                    'min_dose': dosage['min_dose'],
-                    'max_dose': dosage['max_dose'],
-                    'frequency': dosage['frequency'],
-                    'duration': dosage['duration'],
-                    'instructions': dosage['instructions'],
-                    'condition': dosage['condition'],
-                    'source': dosage['source'],
-                    'is_pediatric':
-                        (dosage['is_pediatric'] == 1 ||
-                                dosage['is_pediatric'] == true)
-                            ? 1
-                            : 0,
-                    'updated_at': dosage['updated_at'],
-                  },
-                  conflictAlgorithm: ConflictAlgorithm.replace,
-                );
-              }
-              await batch.commit(noResult: true);
-            });
-            return Right<Failure, int>(dosageData.length);
-          }
-          return const Right<Failure, int>(0);
-        },
-      );
+        if (dosageData.isNotEmpty) {
+          final db = await localDataSource.dbHelper.database;
+          await db.transaction((txn) async {
+            final batch = txn.batch();
+            for (final dosage in dosageData) {
+              batch.insert('dosage_guidelines', {
+                'id': dosage['id'],
+                'med_id': dosage['med_id'],
+                'dailymed_setid': dosage['dailymed_setid'],
+                'min_dose': dosage['min_dose'],
+                'max_dose': dosage['max_dose'],
+                'frequency': dosage['frequency'],
+                'duration': dosage['duration'],
+                'instructions': dosage['instructions'],
+                'condition': dosage['condition'],
+                'source': dosage['source'],
+                'is_pediatric':
+                    (dosage['is_pediatric'] == 1 ||
+                            dosage['is_pediatric'] == true)
+                        ? 1
+                        : 0,
+                'updated_at': dosage['updated_at'],
+              }, conflictAlgorithm: ConflictAlgorithm.replace);
+            }
+            await batch.commit(noResult: true);
+          });
+          return Right<Failure, int>(dosageData.length);
+        }
+        return const Right<Failure, int>(0);
+      });
     } catch (e) {
       return Left<Failure, int>(ServerFailure(message: e.toString()));
     }
@@ -492,6 +484,25 @@ class InteractionRepositoryImpl implements InteractionRepository {
         stackTrace,
       );
       return [];
+    }
+  }
+
+  @override
+  Future<int> getRulesCount() async {
+    try {
+      return await localDataSource.getInteractionsCount();
+    } catch (e) {
+      _logger.e('Error getting rules count', e);
+      return 0;
+    }
+  }
+
+  @override
+  Future<void> incrementVisits(int drugId) async {
+    try {
+      await localDataSource.incrementVisits(drugId);
+    } catch (e) {
+      _logger.e('Error incrementing visits for drug $drugId', e);
     }
   }
 }

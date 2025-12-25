@@ -417,6 +417,7 @@ class _SearchScreenState extends State<SearchScreen> {
         final drug = provider.filteredMedicines[index];
         final displayDrug = drug.copyWith(
           isPopular: provider.isDrugPopular(drug.id),
+          isNew: provider.isDrugNew(drug.id),
         );
         // Add Animation
         return Padding(

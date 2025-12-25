@@ -1503,27 +1503,28 @@ class SqliteLocalDataSource {
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
-        SELECT ingredient1 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT TRIM(LOWER(ingredient1)) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
         UNION ALL
-        SELECT ingredient2 as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
+        SELECT TRIM(LOWER(ingredient2)) as ingredient, severity FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
       )
       SELECT 
-        LOWER(ingredient) as name,
+        ingredient as name,
         COUNT(*) as totalInteractions,
-        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'high') THEN 1 ELSE 0 END) as severeCount,
-        SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate') THEN 1 ELSE 0 END) as moderateCount,
+        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
         SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
         SUM(CASE 
           WHEN LOWER(severity) = 'contraindicated' THEN 10 
-          WHEN LOWER(severity) IN ('severe', 'high') THEN 8
+          WHEN LOWER(severity) IN ('severe', 'critical') THEN 8
+          WHEN LOWER(severity) IN ('high', 'serious') THEN 7
           WHEN LOWER(severity) = 'major' THEN 5
           WHEN LOWER(severity) = 'moderate' THEN 3
           ELSE 1 
         END) as dangerScore
       FROM AffectedIngredients
-      GROUP BY LOWER(ingredient)
+      GROUP BY ingredient
       ORDER BY dangerScore DESC
       LIMIT ?
       ''',
@@ -1678,5 +1679,26 @@ class SqliteLocalDataSource {
     );
 
     return maps.map((map) => map[DatabaseHelper.colId] as int).toList();
+  }
+
+  /// Increments the visits count for a specific drug.
+  Future<void> incrementVisits(int drugId) async {
+    final db = await dbHelper.database;
+    await db.rawUpdate(
+      'UPDATE ${DatabaseHelper.medicinesTable} SET ${DatabaseHelper.colVisits} = ${DatabaseHelper.colVisits} + 1 WHERE ${DatabaseHelper.colId} = ?',
+      [drugId],
+    );
+  }
+
+  /// Get the total count of interaction rules in the database.
+  Future<int> getInteractionsCount() async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final count = Sqflite.firstIntValue(
+      await db.rawQuery(
+        'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
+      ),
+    );
+    return count ?? 0;
   }
 }

@@ -82,6 +82,7 @@
 - [x] Ad Config Integration
 - [x] Unified Sync System (Manual & Background)
 - [x] Fix Interaction Counts Display (High Risk & Food Interactions)
+- [x] Fix Interaction Name Truncation (إصلاح مشكلة تقصير الأسماء)
 
 ---
 

@@ -1,4 +1,9 @@
-# 🎯 ملخص المشروع - December### CHECKPOINT 131 (2025-12-23)
+# 🎯 ملخص المشروع - December### CHECKPOINT 132 (2025-12-25)
+- Fixed Interaction Name Truncation in `HighRiskIngredient` entity
+- Removed hardcoded 30-character limit to ensure full names (e.g., Metformin, Probiotics) display correctly
+- Documentation updated in Memory Bank
+
+### CHECKPOINT 131 (2025-12-23)
 - Fixed Interaction Counts Display (High Risk Ingredients & Food Interactions)
 - Refactored `GetHighRiskIngredientsUseCase` to fetch real counts from DB
 - Implemented `getFoodInteractionCounts` in `SqliteLocalDataSource`
