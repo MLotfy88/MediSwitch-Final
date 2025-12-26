@@ -1660,7 +1660,13 @@ class SqliteLocalDataSource {
               .map((e) => _normalizeIngredientName(e))
               .toList();
     } else {
-      searchTerms = [_normalizeIngredientName(normalizedQuery)];
+      // If it's a single word, we might want to try both the raw name (for exact DB match)
+      // and the normalized name (for pharmaceutical generic match)
+      final norm = _normalizeIngredientName(normalizedQuery);
+      searchTerms = [normalizedQuery];
+      if (norm != normalizedQuery && norm.isNotEmpty) {
+        searchTerms.add(norm);
+      }
     }
 
     // Also consider the raw name if normalization strips too much
@@ -1680,18 +1686,37 @@ class SqliteLocalDataSource {
 
     for (final term in searchTerms) {
       if (term.length < 3) continue; // Skip very short terms
-      // Check if DB ingredient contains term (Forward)
-      // OR if term contains DB ingredient (Reverse - for "Melaleuca Extract" matching "Melaleuca")
+
+      // Priority 1: Exact Match
+      whereClauses.add('(LOWER(ingredient1) = ? OR LOWER(ingredient2) = ?)');
+      args.add(term);
+      args.add(term);
+
+      // Priority 2: Word boundaries
       whereClauses.add('''
         (
           LOWER(ingredient1) LIKE ? OR 
           LOWER(ingredient2) LIKE ? OR
+          LOWER(ingredient1) LIKE ? OR 
+          LOWER(ingredient2) LIKE ? OR
+          LOWER(ingredient1) LIKE ? OR 
+          LOWER(ingredient2) LIKE ?
+        )
+      ''');
+      args.add('% $term %');
+      args.add('% $term %');
+      args.add('$term %');
+      args.add('$term %');
+      args.add('% $term');
+      args.add('% $term');
+
+      // Priority 3: Component match (term contains DB ingredient)
+      whereClauses.add('''
+        (
           ? LIKE ('%' || LOWER(ingredient1) || '%') OR
           ? LIKE ('%' || LOWER(ingredient2) || '%')
         )
       ''');
-      args.add('%$term%');
-      args.add('%$term%');
       args.add(term);
       args.add(term);
     }
@@ -1786,11 +1811,11 @@ class SqliteLocalDataSource {
 
     final List<Map<String, dynamic>> maps = await db.rawQuery('''
       SELECT 
-        LOWER(mi.ingredient) as name, 
+        mi.ingredient as name, 
         COUNT(DISTINCT fi.interaction) as count
       FROM ${DatabaseHelper.foodInteractionsTable} fi
       JOIN med_ingredients mi ON fi.med_id = mi.med_id
-      GROUP BY LOWER(mi.ingredient)
+      GROUP BY mi.ingredient
       ORDER BY count DESC
       LIMIT 100
       ''');

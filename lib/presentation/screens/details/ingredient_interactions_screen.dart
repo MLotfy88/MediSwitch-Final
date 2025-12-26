@@ -165,9 +165,14 @@ class _IngredientInteractionsScreenState
             _allInteractions.where((i) {
               final effect =
                   isRTL ? (i.arabicEffect ?? i.effect ?? '') : (i.effect ?? '');
+
+              // Use normalizedName for comparison if available
+              final searchKey =
+                  widget.ingredient?.normalizedName?.toLowerCase() ??
+                  widget.ingredient?.name.toLowerCase();
+
               final otherIngredient =
-                  i.ingredient1.toLowerCase() ==
-                          widget.ingredient?.name.toLowerCase()
+                  i.ingredient1.toLowerCase() == searchKey
                       ? i.ingredient2
                       : i.ingredient1;
 
