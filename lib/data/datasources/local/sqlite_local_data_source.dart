@@ -1679,11 +1679,20 @@ class SqliteLocalDataSource {
 
     for (final term in searchTerms) {
       if (term.length < 3) continue; // Skip very short terms
-      whereClauses.add(
-        '(LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?)',
-      );
+      // Check if DB ingredient contains term (Forward)
+      // OR if term contains DB ingredient (Reverse - for "Melaleuca Extract" matching "Melaleuca")
+      whereClauses.add('''
+        (
+          LOWER(ingredient1) LIKE ? OR 
+          LOWER(ingredient2) LIKE ? OR
+          ? LIKE ('%' || LOWER(ingredient1) || '%') OR
+          ? LIKE ('%' || LOWER(ingredient2) || '%')
+        )
+      ''');
       args.add('%$term%');
       args.add('%$term%');
+      args.add(term);
+      args.add(term);
     }
 
     if (whereClauses.isEmpty) return [];
@@ -1782,7 +1791,7 @@ class SqliteLocalDataSource {
       JOIN med_ingredients mi ON fi.med_id = mi.med_id
       GROUP BY LOWER(mi.ingredient)
       ORDER BY count DESC
-      LIMIT 50
+      LIMIT 100
       ''');
 
     return maps;
