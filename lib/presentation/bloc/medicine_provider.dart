@@ -309,14 +309,28 @@ class MedicineProvider extends ChangeNotifier {
   }
 
   Future<void> _loadNewDrugIds() async {
+    _logger.d("MedicineProvider: ===== LOADING NEW DRUG IDS =====");
     final result = await _drugRepository.getNewestDrugIds(50);
     result.fold(
-      (l) => _logger.w("MedicineProvider: Failed to load new drug IDs: $l"),
+      (l) {
+        _logger.e("MedicineProvider: ❌ FAILED to load new drug IDs: $l");
+        _newDrugIds = {};
+      },
       (ids) {
         _newDrugIds = ids.toSet();
         _logger.i(
-          "MedicineProvider: Loaded ${_newDrugIds.length} new drug IDs: ${ids.take(10).toList()}...",
+          "MedicineProvider: ✅ SUCCESS! Loaded ${_newDrugIds.length} new drug IDs",
         );
+        if (ids.isNotEmpty) {
+          _logger.d(
+            "MedicineProvider: First 10 NEW IDs: ${ids.take(10).toList()}",
+          );
+          _logger.d(
+            "MedicineProvider: Last 10 NEW IDs: ${ids.skip(ids.length > 10 ? ids.length - 10 : 0).toList()}",
+          );
+        } else {
+          _logger.w("MedicineProvider: ⚠️ No new drug IDs found in database!");
+        }
       },
     );
   }
@@ -343,21 +357,56 @@ class MedicineProvider extends ChangeNotifier {
 
   /// Loads top 100 popular drugs based on visits count
   Future<void> _loadPopularDrugs() async {
-    _logger.d("MedicineProvider: Loading top 100 popular drugs...");
+    _logger.d("MedicineProvider: ===== LOADING POPULAR DRUGS =====");
     try {
       final popularModels = await _localDataSource.getPopularMedicines(
         limit: 100, // Changed from 50 to 100 per user requirement
       );
+
+      _logger.d(
+        "MedicineProvider: Received ${popularModels.length} popular models from DB",
+      );
+
       // Create a set of popular drug IDs for O(1) lookup
       _popularDrugIds = popularModels.map((m) => m.id).whereType<int>().toSet();
       final entities = popularModels.map((m) => m.toEntity()).toList();
+
+      // Log visits info for debugging
+      if (popularModels.isNotEmpty) {
+        _logger.d(
+          "MedicineProvider: First popular drug: ID=${popularModels.first.id}, "
+          "Name=${popularModels.first.tradeName}, Visits=${popularModels.first.visits}",
+        );
+        if (popularModels.length > 1) {
+          _logger.d(
+            "MedicineProvider: Last popular drug: ID=${popularModels.last.id}, "
+            "Name=${popularModels.last.tradeName}, Visits=${popularModels.last.visits}",
+          );
+        }
+      }
+
       // Apply flags AFTER loading
       _popularDrugs = _applyDrugFlags(entities);
+
       _logger.i(
-        "MedicineProvider: Loaded ${_popularDrugs.length} popular drugs. IDs: ${_popularDrugIds.take(10).toList()}...",
+        "MedicineProvider: ✅ SUCCESS! Loaded ${_popularDrugs.length} popular drugs",
       );
+
+      if (_popularDrugIds.isNotEmpty) {
+        final idsList = _popularDrugIds.toList();
+        _logger.d(
+          "MedicineProvider: First 10 POPULAR IDs: ${idsList.take(10).toList()}",
+        );
+        if (idsList.length > 10) {
+          _logger.d(
+            "MedicineProvider: Last 10 POPULAR IDs: ${idsList.skip(idsList.length - 10).toList()}",
+          );
+        }
+      } else {
+        _logger.w("MedicineProvider: ⚠️ No popular drug IDs found!");
+      }
     } catch (e, s) {
-      _logger.e("MedicineProvider: Failed to load popular drugs", e, s);
+      _logger.e("MedicineProvider: ❌ FAILED to load popular drugs", e, s);
       _popularDrugs = [];
       _popularDrugIds = {};
     }

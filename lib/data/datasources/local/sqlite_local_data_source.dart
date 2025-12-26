@@ -1507,8 +1507,9 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // Get high-risk ingredients with proper case names
-    // We'll aggregate by lowercase for counting, but preserve original case for display
+    // Get high-risk ingredients with FULL names including salts and compounds
+    // Strategy: Join with medicines table to get complete activeIngredient names
+    // Fallback to interaction table names only if no match in medicines
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
@@ -1543,9 +1544,30 @@ class SqliteLocalDataSource {
           END) as dangerScore
         FROM AffectedIngredients
         GROUP BY ingredient_key
+      ),
+      FullNames AS (
+        SELECT DISTINCT
+          TRIM(LOWER(mi.ingredient)) as ingredient_key,
+          m.${DatabaseHelper.colActive} as full_name,
+          LENGTH(m.${DatabaseHelper.colActive}) as name_length
+        FROM med_ingredients mi
+        JOIN ${DatabaseHelper.medicinesTable} m ON mi.med_id = m.${DatabaseHelper.colId}
+        WHERE m.${DatabaseHelper.colActive} IS NOT NULL 
+          AND TRIM(m.${DatabaseHelper.colActive}) != ''
       )
       SELECT 
-        (SELECT original_name FROM AffectedIngredients ai WHERE ai.ingredient_key = stats.ingredient_key ORDER BY LENGTH(original_name) DESC LIMIT 1) as name,
+        COALESCE(
+          (SELECT full_name 
+           FROM FullNames fn 
+           WHERE fn.ingredient_key = stats.ingredient_key 
+           ORDER BY name_length DESC 
+           LIMIT 1),
+          (SELECT original_name 
+           FROM AffectedIngredients ai 
+           WHERE ai.ingredient_key = stats.ingredient_key 
+           ORDER BY LENGTH(original_name) DESC 
+           LIMIT 1)
+        ) as name,
         stats.totalInteractions,
         stats.severeCount,
         stats.moderateCount,
