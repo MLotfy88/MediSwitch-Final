@@ -1,10 +1,12 @@
 # 🎯 ملخص المشروع - December
 
 ### CHECKPOINT 135 (2025-12-25)
-- **Resolved High Risk Ingredient Names Truncation (Final Fix)**
+- **Resolved High Risk Ingredient Names Truncation & Junk Data (Final Fix)**
   - Updated SQL query logic to select the **longest** (`MAX length`) original name for each ingredient key.
-  - This guarantees full names (e.g., "Metformin") are chosen over short aliases (e.g., "met") if both exist in data.
+  - **Added Seeding Filter:** Modified `_seedRelationalInteractions` to block junk names ("interactions", "uses", "side effects") and short names (< 3 chars).
+  - This guarantees full names (e.g., "Metformin") are chosen and removes garbage data.
   - Increased `DangerousDrugCard` width in `home_screen.dart` to preventing visual clipping.
+  - **Fixed Date Display:** Modified `ModernDrugCard` to always show `last_price_update` even if interactions warnings are present.
 - **Verified Badge System Integrity**
   - Confirmed `meds.csv` contains valid `visits` data (not all zeros).
   - Validated `getNewestDrugIds` exists and correctly sorts by ID DESC.

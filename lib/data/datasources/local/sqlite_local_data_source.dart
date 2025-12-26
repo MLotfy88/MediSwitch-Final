@@ -467,6 +467,17 @@ class SqliteLocalDataSource {
             final i2 = _normalizeIngredientName(
               r['ingredient2'] as String? ?? '',
             );
+            // Filter out junk data and short names
+            final junkWords = [
+              'interactions',
+              'uses',
+              'side effects',
+              'dosage',
+              'precautions',
+            ];
+            if (i1.length < 3 || junkWords.contains(i1.toLowerCase())) continue;
+            if (i2.length < 3 || junkWords.contains(i2.toLowerCase())) continue;
+
             if (i1.isEmpty || i2.isEmpty) continue;
 
             batch.insert(DatabaseHelper.interactionsTable, {

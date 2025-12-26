@@ -249,9 +249,7 @@ class ModernDrugCard extends StatelessWidget {
                     ),
                   ],
                 ),
-                if (!hasDrugInteraction &&
-                    !hasFoodInteraction &&
-                    drug.lastPriceUpdate.isNotEmpty)
+                if (drug.lastPriceUpdate.isNotEmpty)
                   Text(
                     DateFormatter.formatDate(drug.lastPriceUpdate),
                     style: TextStyle(

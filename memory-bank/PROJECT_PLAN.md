@@ -87,6 +87,7 @@
   - Added `_applyDrugFlags` helper in MedicineProvider
   - Applied flags across all drug loading methods
   - Removed duplicate `copyWith` code from UI screens
+  - **Fixed Parsing Bug:** Filtered out "interactions", "pro", etc. during seeding by blocking invalid ingredient names.
 
 ---
 
