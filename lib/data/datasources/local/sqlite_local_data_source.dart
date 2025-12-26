@@ -1508,8 +1508,11 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
 
     // Get high-risk ingredients with FULL names including salts and compounds
-    // Strategy: Join with medicines table to get complete activeIngredient names
-    // Fallback to interaction table names only if no match in medicines
+    // Strategy:
+    // 1. Split combination drugs (A + B) into separate ingredients
+    // 2. Join with medicines table to get complete activeIngredient names
+    // 3. Match each ingredient separately against interactions
+    // 4. Fallback to interaction table names only if no match in medicines
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
@@ -1545,21 +1548,48 @@ class SqliteLocalDataSource {
         FROM AffectedIngredients
         GROUP BY ingredient_key
       ),
-      FullNames AS (
+      SplitIngredients AS (
+        -- Split combination drugs (e.g., "Paracetamol + Caffeine" -> two rows)
+        -- Handle first ingredient (before +)
         SELECT DISTINCT
-          TRIM(LOWER(mi.ingredient)) as ingredient_key,
-          m.${DatabaseHelper.colActive} as full_name,
+          TRIM(LOWER(
+            CASE 
+              WHEN INSTR(mi.ingredient, '+') > 0 
+              THEN SUBSTR(mi.ingredient, 1, INSTR(mi.ingredient, '+') - 1)
+              ELSE mi.ingredient
+            END
+          )) as ingredient_key,
+          m.${DatabaseHelper.colActive} as full_combination_name,
+          CASE 
+            WHEN INSTR(m.${DatabaseHelper.colActive}, '+') > 0 
+            THEN TRIM(SUBSTR(m.${DatabaseHelper.colActive}, 1, INSTR(m.${DatabaseHelper.colActive}, '+') - 1))
+            ELSE m.${DatabaseHelper.colActive}
+          END as full_name,
           LENGTH(m.${DatabaseHelper.colActive}) as name_length
         FROM med_ingredients mi
         JOIN ${DatabaseHelper.medicinesTable} m ON mi.med_id = m.${DatabaseHelper.colId}
         WHERE m.${DatabaseHelper.colActive} IS NOT NULL 
           AND TRIM(m.${DatabaseHelper.colActive}) != ''
+        
+        UNION
+        
+        -- Handle second ingredient (after +), only if + exists
+        SELECT DISTINCT
+          TRIM(LOWER(SUBSTR(mi.ingredient, INSTR(mi.ingredient, '+') + 1))) as ingredient_key,
+          m.${DatabaseHelper.colActive} as full_combination_name,
+          TRIM(SUBSTR(m.${DatabaseHelper.colActive}, INSTR(m.${DatabaseHelper.colActive}, '+') + 1)) as full_name,
+          LENGTH(m.${DatabaseHelper.colActive}) as name_length
+        FROM med_ingredients mi
+        JOIN ${DatabaseHelper.medicinesTable} m ON mi.med_id = m.${DatabaseHelper.colId}
+        WHERE m.${DatabaseHelper.colActive} IS NOT NULL 
+          AND TRIM(m.${DatabaseHelper.colActive}) != ''
+          AND INSTR(mi.ingredient, '+') > 0
       )
       SELECT 
         COALESCE(
           (SELECT full_name 
-           FROM FullNames fn 
-           WHERE fn.ingredient_key = stats.ingredient_key 
+           FROM SplitIngredients si 
+           WHERE si.ingredient_key = stats.ingredient_key 
            ORDER BY name_length DESC 
            LIMIT 1),
           (SELECT original_name 

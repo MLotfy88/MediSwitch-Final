@@ -3,12 +3,10 @@ import 'package:http/http.dart' as http;
 // Database Helper
 import 'package:mediswitch/core/database/database_helper.dart';
 // Services
+import 'package:mediswitch/core/services/app_config_service.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/services/log_notifier.dart';
 import 'package:mediswitch/core/services/unified_sync_service.dart';
-// Database Helper
-// Database Helper
-
 // Data Sources
 import 'package:mediswitch/data/datasources/local/interaction_local_data_source.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
@@ -251,6 +249,12 @@ Future<void> setupLocator() async {
       client: locator<http.Client>(),
       baseUrl: backendUrl,
     );
+  });
+
+  // App Configuration Service
+  locator.registerLazySingleton<AppConfigService>(() {
+    logger.i("Locator: Registering AppConfigService...");
+    return AppConfigService(locator<SharedPreferences>());
   });
 
   locator.registerLazySingleton<UnifiedSyncService>(() {

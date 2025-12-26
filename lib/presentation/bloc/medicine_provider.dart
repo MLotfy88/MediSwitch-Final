@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:mediswitch/core/constants/categories_data.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/core/error/failures.dart';
+import 'package:mediswitch/core/services/app_config_service.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/core/services/unified_sync_service.dart';
 import 'package:mediswitch/core/usecases/usecase.dart';
@@ -238,18 +239,21 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<void> _loadLocalDataOnly() async {
     // Optimized loading for Home Screen as per User Request:
-    // 1. Categories Count
-    // 2. High Risk Ingredients (Not drugs)
-    // 3. Last 20 Updated Drugs (Sorted by last_price_update)
+    // CRITICAL FIX: Load badge IDs FIRST before loading drugs that need them
+    // This ensures _newDrugIds and _popularDrugIds are populated before _applyDrugFlags is called
 
+    _logger.d("MedicineProvider: Phase 1 - Loading badge IDs...");
+    // Phase 1: Load badge IDs first (MUST complete before Phase 2)
+    await Future.wait([_loadPopularDrugs(), _loadNewDrugIds()]);
+
+    _logger.d("MedicineProvider: Phase 2 - Loading drugs and other data...");
+    // Phase 2: Load everything else (now badge IDs are available)
     await Future.wait([
       _loadCategories(forceLocal: true),
       _loadHighRiskIngredients(),
       _loadHighRiskDrugs(),
       _loadFoodInteractionDrugs(),
-      _loadHomeRecentlyUpdatedDrugs(),
-      _loadPopularDrugs(),
-      _loadNewDrugIds(), // Added _loadNewDrugIds
+      _loadHomeRecentlyUpdatedDrugs(), // Now badges will be applied correctly!
     ]);
 
     // Ensure we have the correct timestamp loaded from local prefs/datasource
@@ -310,7 +314,12 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<void> _loadNewDrugIds() async {
     _logger.d("MedicineProvider: ===== LOADING NEW DRUG IDS =====");
-    final result = await _drugRepository.getNewestDrugIds(50);
+    // Get limit from AppConfigService
+    final configService = locator<AppConfigService>();
+    final limit = configService.newDrugsLimit;
+    _logger.d("MedicineProvider: Using NEW drugs limit from config: $limit");
+
+    final result = await _drugRepository.getNewestDrugIds(limit);
     result.fold(
       (l) {
         _logger.e("MedicineProvider: ❌ FAILED to load new drug IDs: $l");
@@ -359,8 +368,15 @@ class MedicineProvider extends ChangeNotifier {
   Future<void> _loadPopularDrugs() async {
     _logger.d("MedicineProvider: ===== LOADING POPULAR DRUGS =====");
     try {
+      // Get limit from AppConfigService
+      final configService = locator<AppConfigService>();
+      final limit = configService.popularDrugsLimit;
+      _logger.d(
+        "MedicineProvider: Using POPULAR drugs limit from config: $limit",
+      );
+
       final popularModels = await _localDataSource.getPopularMedicines(
-        limit: 100, // Changed from 50 to 100 per user requirement
+        limit: limit,
       );
 
       _logger.d(
