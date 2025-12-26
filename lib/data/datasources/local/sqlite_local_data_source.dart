@@ -1646,17 +1646,60 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Search rules for ingredient
-    final query = '%${drugName.trim().toLowerCase()}%';
+
+    // 1. Normalize and Split the query name
+    // e.g. "Paracetamol + Caffeine" -> ["paracetamol", "caffeine"]
+    final normalizedQuery = drugName.toLowerCase().trim();
+    List<String> searchTerms = [];
+
+    if (normalizedQuery.contains('+')) {
+      searchTerms =
+          normalizedQuery
+              .split('+')
+              .map((e) => _normalizeIngredientName(e))
+              .toList();
+    } else {
+      searchTerms = [_normalizeIngredientName(normalizedQuery)];
+    }
+
+    // Also consider the raw name if normalization strips too much
+    if (searchTerms.isEmpty) searchTerms.add(normalizedQuery);
+
+    // 2. Build Query to match ANY of the terms
+    // matching against ingredient1 OR ingredient2
+
+    /* 
+       Optimization:
+       Instead of just LIKE %term%, we should also check equality for better performance on exact matches 
+       and use the normalized name logic.
+    */
+
+    final whereClauses = <String>[];
+    final args = <String>[];
+
+    for (final term in searchTerms) {
+      if (term.length < 3) continue; // Skip very short terms
+      whereClauses.add(
+        '(LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?)',
+      );
+      args.add('%$term%');
+      args.add('%$term%');
+    }
+
+    if (whereClauses.isEmpty) return [];
+
+    final fullWhere = whereClauses.join(' OR ');
 
     // Using rawQuery with explicit LOWER() for safety
-    final List<Map<String, dynamic>> maps = await db.rawQuery(
-      '''
+    final List<Map<String, dynamic>> maps = await db.rawQuery('''
       SELECT * FROM ${DatabaseHelper.interactionsTable} 
-      WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
-      ''',
-      [query, query],
-    );
+      WHERE $fullWhere
+      ORDER BY 
+        CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
+             WHEN LOWER(severity) = 'severe' THEN 2
+             WHEN LOWER(severity) = 'major' THEN 3
+             ELSE 4 END
+      ''', args);
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
@@ -1739,7 +1782,7 @@ class SqliteLocalDataSource {
       JOIN med_ingredients mi ON fi.med_id = mi.med_id
       GROUP BY LOWER(mi.ingredient)
       ORDER BY count DESC
-      LIMIT 20
+      LIMIT 50
       ''');
 
     return maps;
