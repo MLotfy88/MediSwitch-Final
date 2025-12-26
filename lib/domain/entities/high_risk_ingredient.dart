@@ -7,6 +7,9 @@ class HighRiskIngredient {
   final int minorCount;
   final int dangerScore;
 
+  /// The exact key used in the database (e.g. sorted words "oil olive" vs display "Olive Oil")
+  final String? normalizedName;
+
   const HighRiskIngredient({
     required this.name,
     required this.totalInteractions,
@@ -14,6 +17,7 @@ class HighRiskIngredient {
     required this.moderateCount,
     required this.minorCount,
     required this.dangerScore,
+    this.normalizedName,
   });
 
   /// Display name formatted for UI

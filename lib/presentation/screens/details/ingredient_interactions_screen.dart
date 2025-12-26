@@ -60,7 +60,7 @@ class _IngredientInteractionsScreenState
         if (!widget.onlyFood) {
           final repo = _interactionRepository;
           specificList = await repo.getInteractionsWith(
-            widget.ingredient!.name,
+            widget.ingredient!.normalizedName ?? widget.ingredient!.name,
           );
         }
 
@@ -74,7 +74,8 @@ class _IngredientInteractionsScreenState
             price: '0',
             // oldPrice: null,
             mainCategory: '',
-            active: widget.ingredient!.name,
+            active:
+                widget.ingredient!.normalizedName ?? widget.ingredient!.name,
             company: '',
             dosageForm: '',
             concentration: '',

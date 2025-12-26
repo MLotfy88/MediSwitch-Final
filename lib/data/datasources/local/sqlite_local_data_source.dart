@@ -1598,6 +1598,7 @@ class SqliteLocalDataSource {
            ORDER BY LENGTH(original_name) DESC 
            LIMIT 1)
         ) as name,
+        stats.ingredient_key as normalized_name,
         stats.totalInteractions,
         stats.severeCount,
         stats.moderateCount,

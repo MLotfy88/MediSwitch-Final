@@ -162,6 +162,7 @@ class InteractionRepositoryImpl implements InteractionRepository {
           moderateCount: m['moderateCount'] as int,
           minorCount: m['minorCount'] as int,
           dangerScore: m['dangerScore'] as int,
+          normalizedName: m['normalized_name'] as String?,
         );
       }).toList();
     } catch (e) {
