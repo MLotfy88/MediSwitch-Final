@@ -1710,11 +1710,16 @@ class SqliteLocalDataSource {
       args.add('% $term');
       args.add('% $term');
 
-      // Priority 3: Component match (term contains DB ingredient)
+      // Priority 3: Component match (term contains DB ingredient as a WHOLE WORD)
+      // Only for ingredients with length >= 4 and not generic words to avoid junk matches
       whereClauses.add('''
         (
-          ? LIKE ('%' || LOWER(ingredient1) || '%') OR
-          ? LIKE ('%' || LOWER(ingredient2) || '%')
+          (length(ingredient1) >= 4 AND 
+           LOWER(ingredient1) NOT IN ('extract', 'oil', 'tablets', 'tablet', 'capsules', 'capsule') AND 
+           (' ' || ? || ' ') LIKE ('% ' || LOWER(ingredient1) || ' %')) OR
+          (length(ingredient2) >= 4 AND 
+           LOWER(ingredient2) NOT IN ('extract', 'oil', 'tablets', 'tablet', 'capsules', 'capsule') AND 
+           (' ' || ? || ' ') LIKE ('% ' || LOWER(ingredient2) || ' %'))
         )
       ''');
       args.add(term);
