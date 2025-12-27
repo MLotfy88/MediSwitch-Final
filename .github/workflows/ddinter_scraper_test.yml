@@ -3,33 +3,66 @@ name: DDInter Scraper Test Run
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  scrape:
+  scrape-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run Scraper (Exhaustive V6 Test 5 Drugs)
+      - name: Run Scraper (Full V7 - Stealth Mode)
         run: |
           cd assets/external_research_data
-          python -u bulk_scraper_v6.py
+          python -u bulk_scraper_v7.py
+
+      - name: Archive and Split Large Files
+        run: |
+          cd assets/external_research_data
+          # Clean old parts if any
+          rm -f ddinter_v7_part_*
+          # Create a compressed bundle of the main outputs
+          zip -r ddinter_v7_bundle.zip ddinter_exhaustive_v7.json ddinter_drugs_metadata_v7.csv ddinter_interactions_v7.csv
+          # Split if larger than 45MB
+          if [ $(stat -c%s "ddinter_v7_bundle.zip") -gt 47185920 ]; then
+            echo "File is large, splitting into parts..."
+            split -b 40M ddinter_v7_bundle.zip "ddinter_v7_part_"
+            rm ddinter_v7_bundle.zip
+            # We also remove the raw large JSON from the repo to keep it slim, 
+            # keep CSVs as they are usually smaller and readable
+            rm ddinter_exhaustive_v7.json
+          fi
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/external_research_data/*.csv
+          git add assets/external_research_data/ddinter_v7_*
+          # Optional: add the JSON if it wasn't deleted by the split step
+          git add assets/external_research_data/*.json || true
+          git commit -m "Data Update: DDInter V7 (Automated) [skip ci]" || echo "No changes to commit"
+          git push
 
       - name: Upload Results as Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ddinter-exhaustive-v6-data
+          name: ddinter-exhaustive-v7-data
           path: |
-            assets/external_research_data/ddinter_exhaustive_v6.json
-            assets/external_research_data/ddinter_drugs_metadata_v6.csv
-            assets/external_research_data/ddinter_interactions_v6.csv
+            assets/external_research_data/ddinter_exhaustive_v7.json
+            assets/external_research_data/ddinter_drugs_metadata_v7.csv
+            assets/external_research_data/ddinter_interactions_v7.csv
+            assets/external_research_data/ddinter_v7_part_*
+            assets/external_research_data/ddinter_v7_bundle.zip
