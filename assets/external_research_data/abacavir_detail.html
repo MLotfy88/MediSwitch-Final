@@ -1,0 +1,1682 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>DDInter 2.0</title>
+    <link rel="stylesheet" href="/static/common/layui/css/layui.css">
+    <script src="/static/common/layui/layui.js"></script>
+    
+    <link rel="stylesheet" href="/static/common/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <link href="/static/common/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/static/home/css/style.css"/>
+    <script src="/static/common/js/jquery.min.js"></script>
+    
+    <script src="/static/common/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/common/nav/css/style.css"/>
+        <script src="/static/common/nav/js/style.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="/static/common/footer/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/static/common/banner/css/style.css"/>
+
+    <link rel="stylesheet" href="/static/services/css/jquery.dataTables.min.css">
+    <script src="/static/services/js/jquery.dataTables.min.js"></script>
+
+    
+    <link href="/static/common/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="antin-container">
+    
+        
+<style>
+    .box-with-border {
+        border-bottom: 1px solid rgb(6, 101, 183); /* 边框样式，2px 宽度，颜色 #333 */
+    
+    }
+
+    /* 添加阴影 */
+    .box-with-shadow {
+        box-shadow: 0 0 10px 0 rgba(6, 101, 183, 0.3); /* x偏移、y偏移、模糊度、颜色（rgba格式） */
+    
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+</style>
+<header class="header-area overlay box-with-border box-with-shadow" style="">
+    <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
+        <div class="offset-1 col-10 d-flex align-items-center justify-content-between">
+            <a href="/" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="/static/favicon.ico" width="45" height="45"
+                     class="d-inline-block justify-content-center align-items-center me-2" alt=""/>
+                <h1 class="" style="font-family: 'Lobster', sans-serif">DDInter 2.0</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-atom"></i> Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/server/drug/">Drug</a></li>
+                            <li><a class="dropdown-item" href="/server/dis_food/">Disease</a></li>
+                            <li><a class="dropdown-item" href="/server/interaction/">Drug-Drug
+                                Interaction</a></li>
+                            <li><a class="dropdown-item" href="/server/other_interaction/">Drug-Others
+                                Interaction</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inter-checker/">
+                            <i class="fab fa-staylinked nav-icon"></i>
+                            Interaction Checker
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                            <i class="far fa-file-alt"></i> About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/explanation/">Explanation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/statistics/">Statistics</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/tutorials/">Tutorials</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/terms/">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/"><i class="fas fa-id-card"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+
+    
+
+
+    <div class="antin-contain">
+        
+    
+
+
+<link rel="stylesheet" href="/static/home/css/header.css">
+
+<link rel="stylesheet" href="/static/services/drug/css/style.css">
+<link rel="stylesheet" href="/static/services/database/css/grapher.css">
+<link href="/static/common/select2/css/select2.min.css" rel="stylesheet"/>
+<script src="/static/services/js/echarts.js"></script>
+<style>
+    table td.key, td.value {
+        padding: 15px 25px 15px 25px;
+        color: rgb(102, 102, 102);
+    }
+
+    
+    
+    
+    
+
+    .dataTables_filter input {
+        width: 460px;
+    }
+</style>
+<script src="/static/services/database/js/renderGraph.js"></script>
+<script>
+    function plotRelation(keyWord) {
+        $.getJSON("/server/grapher-datasource/DDInter1/", function (data) {
+            render(data, keyWord);
+        });
+    }
+</script>
+<main class="">
+    <div class="offset-1 col-10 mt-5 mb-5">
+        <div class="p-3" role="alert" style="word-break:break-all;border: 2px solid rgb(38,97,158)">
+            <div class="py-1 d-flex align-items-center justify-content-between">
+                <div class="" style="font-size: 1.1rem">
+                    <span class="d-flex align-items-center"><strong class="me-2">Drugs Information:</strong>
+                        Abacavir</span>
+                </div>
+            </div>
+        </div>
+        <div class="sub-title mt-3"><i class="fas fa-arrow-right"></i> Basic Information</div>
+        <table class="table table-bordered table-hover mt-0 align-middle">
+            <colgroup>
+                <col width="20%">
+                <col width="20%">
+                <col width="">
+            </colgroup>
+            <tbody>
+            <tr>
+                <td rowspan="8" class="text-center">
+                    
+                        <?xml version='1.0' encoding='iso-8859-1'?>
+<svg version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='300px' height='300px' viewBox='0 0 300 300'>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:none;stroke:none' width='300.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 196.5,101.4 L 195.0,112.5' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 195.0,112.5 L 193.4,123.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 193.4,123.7 L 182.7,128.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 182.7,128.0 L 172.0,132.4' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 192.8,128.3 L 183.1,132.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 183.1,132.3 L 173.5,136.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 167.5,138.7 L 165.9,149.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 165.9,149.8 L 164.4,160.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 164.4,160.9 L 185.9,177.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 168.8,159.2 L 186.6,173.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 185.9,177.7 L 182.1,188.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 182.1,188.1 L 178.3,198.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 172.8,203.2 L 161.1,202.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 161.1,202.8 L 149.4,202.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 172.9,199.1 L 162.7,198.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 162.7,198.8 L 152.5,198.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 149.4,202.4 L 146.3,191.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 146.3,191.7 L 143.2,181.0' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 119.5,168.6 L 119.8,167.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 122.8,170.2 L 123.4,168.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 126.2,171.9 L 127.0,169.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 129.5,173.5 L 130.6,170.4' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 132.9,175.2 L 134.2,171.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-8 atom-8 atom-9' d='M 116.1,166.9 L 93.6,182.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-9 atom-9 atom-10' d='M 93.6,182.2 L 72.0,165.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 68.7,166.1 L 68.8,166.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 65.3,166.8 L 65.7,167.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 62.0,167.4 L 62.5,169.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 58.6,168.1 L 59.3,170.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 55.3,168.8 L 56.1,171.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 51.9,169.4 L 52.9,172.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 48.6,170.1 L 49.7,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-11 atom-11 atom-12' d='M 45.8,173.0 L 38.2,165.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-11 atom-11 atom-12' d='M 38.2,165.7 L 30.6,158.4' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-12 atom-10 atom-13' d='M 72.0,165.5 L 81.3,139.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-13 atom-13 atom-14' d='M 81.3,139.8 L 108.6,140.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-13 atom-13 atom-14' d='M 84.2,144.0 L 105.5,144.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-14 atom-4 atom-15' d='M 185.9,177.7 L 211.2,167.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-15 atom-15 atom-16' d='M 211.2,167.4 L 220.0,174.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-15 atom-15 atom-16' d='M 220.0,174.3 L 228.9,181.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-16 atom-16 atom-17' d='M 236.5,182.7 L 247.3,178.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-16 atom-16 atom-17' d='M 247.3,178.3 L 258.0,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-17 atom-17 atom-18' d='M 258.0,174.0 L 274.7,152.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-18 atom-18 atom-19' d='M 274.7,152.4 L 285.0,177.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 211.2,167.4 L 212.7,156.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 212.7,156.3 L 214.3,145.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 207.5,164.5 L 208.8,154.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 208.8,154.6 L 210.2,144.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-20 atom-20 atom-1' d='M 211.1,137.4 L 202.3,130.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-20 atom-20 atom-1' d='M 202.3,130.6 L 193.4,123.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-21 atom-7 atom-3' d='M 145.6,173.6 L 155.0,167.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-21 atom-7 atom-3' d='M 155.0,167.3 L 164.4,160.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-22 atom-14 atom-8' d='M 108.6,140.7 L 116.1,166.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-23 atom-19 atom-17' d='M 285.0,177.7 L 258.0,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 149.9,202.5 L 149.4,202.4 L 149.2,201.9' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 115.0,167.7 L 116.1,166.9 L 115.8,165.6' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 94.7,181.5 L 93.6,182.2 L 92.5,181.4' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 73.1,166.3 L 72.0,165.5 L 72.5,164.2' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 80.9,141.1 L 81.3,139.8 L 82.7,139.9' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 107.2,140.7 L 108.6,140.7 L 109.0,142.0' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 273.9,153.5 L 274.7,152.4 L 275.3,153.7' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 284.5,176.5 L 285.0,177.7 L 283.6,177.5' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path class='atom-0' d='M 195.5 92.8
+L 198.0 96.9
+Q 198.3 97.3, 198.7 98.0
+Q 199.1 98.7, 199.1 98.8
+L 199.1 92.8
+L 200.1 92.8
+L 200.1 100.5
+L 199.1 100.5
+L 196.3 96.0
+Q 196.0 95.5, 195.7 94.9
+Q 195.4 94.3, 195.3 94.1
+L 195.3 100.5
+L 194.3 100.5
+L 194.3 92.8
+L 195.5 92.8
+' fill='#0000FF'/>
+<path class='atom-0' d='M 201.6 92.8
+L 202.6 92.8
+L 202.6 96.1
+L 206.6 96.1
+L 206.6 92.8
+L 207.6 92.8
+L 207.6 100.5
+L 206.6 100.5
+L 206.6 96.9
+L 202.6 96.9
+L 202.6 100.5
+L 201.6 100.5
+L 201.6 92.8
+' fill='#0000FF'/>
+<path class='atom-0' d='M 209.1 100.2
+Q 209.3 99.8, 209.8 99.5
+Q 210.2 99.2, 210.8 99.2
+Q 211.6 99.2, 212.0 99.6
+Q 212.5 100.1, 212.5 100.8
+Q 212.5 101.6, 211.9 102.3
+Q 211.4 103.0, 210.2 103.8
+L 212.6 103.8
+L 212.6 104.4
+L 209.1 104.4
+L 209.1 103.9
+Q 210.1 103.2, 210.6 102.7
+Q 211.2 102.2, 211.5 101.8
+Q 211.8 101.3, 211.8 100.8
+Q 211.8 100.3, 211.5 100.1
+Q 211.3 99.8, 210.8 99.8
+Q 210.4 99.8, 210.2 100.0
+Q 209.9 100.1, 209.7 100.5
+L 209.1 100.2
+' fill='#0000FF'/>
+<path class='atom-2' d='M 166.4 130.1
+L 169.0 134.2
+Q 169.2 134.6, 169.6 135.3
+Q 170.0 136.0, 170.0 136.1
+L 170.0 130.1
+L 171.1 130.1
+L 171.1 137.8
+L 170.0 137.8
+L 167.3 133.3
+Q 167.0 132.8, 166.6 132.2
+Q 166.3 131.6, 166.2 131.4
+L 166.2 137.8
+L 165.2 137.8
+L 165.2 130.1
+L 166.4 130.1
+' fill='#0000FF'/>
+<path class='atom-5' d='M 174.9 199.5
+L 177.4 203.6
+Q 177.7 204.0, 178.1 204.7
+Q 178.5 205.4, 178.5 205.5
+L 178.5 199.5
+L 179.5 199.5
+L 179.5 207.2
+L 178.5 207.2
+L 175.8 202.7
+Q 175.5 202.2, 175.1 201.6
+Q 174.8 201.0, 174.7 200.8
+L 174.7 207.2
+L 173.7 207.2
+L 173.7 199.5
+L 174.9 199.5
+' fill='#0000FF'/>
+<path class='atom-7' d='M 140.1 172.4
+L 142.6 176.5
+Q 142.9 176.9, 143.3 177.6
+Q 143.7 178.3, 143.7 178.4
+L 143.7 172.4
+L 144.7 172.4
+L 144.7 180.1
+L 143.7 180.1
+L 140.9 175.6
+Q 140.6 175.1, 140.3 174.5
+Q 140.0 173.9, 139.9 173.7
+L 139.9 180.1
+L 138.9 180.1
+L 138.9 172.4
+L 140.1 172.4
+' fill='#0000FF'/>
+<path class='atom-12' d='M 15.0 150.3
+L 16.0 150.3
+L 16.0 153.6
+L 20.0 153.6
+L 20.0 150.3
+L 21.0 150.3
+L 21.0 158.0
+L 20.0 158.0
+L 20.0 154.4
+L 16.0 154.4
+L 16.0 158.0
+L 15.0 158.0
+L 15.0 150.3
+' fill='#FF0000'/>
+<path class='atom-12' d='M 22.6 154.1
+Q 22.6 152.3, 23.5 151.2
+Q 24.5 150.2, 26.2 150.2
+Q 27.9 150.2, 28.8 151.2
+Q 29.7 152.3, 29.7 154.1
+Q 29.7 156.0, 28.8 157.1
+Q 27.9 158.1, 26.2 158.1
+Q 24.5 158.1, 23.5 157.1
+Q 22.6 156.0, 22.6 154.1
+M 26.2 157.2
+Q 27.4 157.2, 28.0 156.5
+Q 28.6 155.7, 28.6 154.1
+Q 28.6 152.6, 28.0 151.8
+Q 27.4 151.1, 26.2 151.1
+Q 25.0 151.1, 24.4 151.8
+Q 23.7 152.6, 23.7 154.1
+Q 23.7 155.7, 24.4 156.5
+Q 25.0 157.2, 26.2 157.2
+' fill='#FF0000'/>
+<path class='atom-16' d='M 231.0 180.4
+L 233.5 184.4
+Q 233.8 184.8, 234.2 185.6
+Q 234.6 186.3, 234.6 186.4
+L 234.6 180.4
+L 235.6 180.4
+L 235.6 188.1
+L 234.6 188.1
+L 231.9 183.6
+Q 231.5 183.1, 231.2 182.5
+Q 230.9 181.9, 230.8 181.7
+L 230.8 188.1
+L 229.8 188.1
+L 229.8 180.4
+L 231.0 180.4
+' fill='#0000FF'/>
+<path class='atom-16' d='M 229.7 188.8
+L 230.7 188.8
+L 230.7 192.1
+L 234.7 192.1
+L 234.7 188.8
+L 235.7 188.8
+L 235.7 196.6
+L 234.7 196.6
+L 234.7 193.0
+L 230.7 193.0
+L 230.7 196.6
+L 229.7 196.6
+L 229.7 188.8
+' fill='#0000FF'/>
+<path class='atom-20' d='M 213.2 136.6
+L 215.8 140.7
+Q 216.0 141.1, 216.4 141.8
+Q 216.8 142.5, 216.8 142.6
+L 216.8 136.6
+L 217.9 136.6
+L 217.9 144.3
+L 216.8 144.3
+L 214.1 139.8
+Q 213.8 139.3, 213.4 138.7
+Q 213.1 138.1, 213.0 137.9
+L 213.0 144.3
+L 212.0 144.3
+L 212.0 136.6
+L 213.2 136.6
+' fill='#0000FF'/>
+</svg>
+                    
+                    
+                        <div class="row gx-5 mb-3 px-5">
+                            <div class="col-md-6 text-center">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" style="width: 100%"
+                                        data-bs-toggle="modal" data-bs-target="#structure2">2D
+                                </button>
+                                <div class="modal fade" id="structure2" tabindex="-1"
+                                     aria-labelledby="structure2-label"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <?xml version='1.0' encoding='iso-8859-1'?>
+<svg version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='300px' height='300px' viewBox='0 0 300 300'>
+<!-- END OF HEADER -->
+<rect style='opacity:1.0;fill:none;stroke:none' width='300.0' height='300.0' x='0.0' y='0.0'> </rect>
+<path class='bond-0 atom-0 atom-1' d='M 196.5,101.4 L 195.0,112.5' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 195.0,112.5 L 193.4,123.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 193.4,123.7 L 182.7,128.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 182.7,128.0 L 172.0,132.4' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 192.8,128.3 L 183.1,132.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 183.1,132.3 L 173.5,136.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 167.5,138.7 L 165.9,149.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 165.9,149.8 L 164.4,160.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 164.4,160.9 L 185.9,177.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 168.8,159.2 L 186.6,173.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 185.9,177.7 L 182.1,188.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 182.1,188.1 L 178.3,198.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 172.8,203.2 L 161.1,202.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 161.1,202.8 L 149.4,202.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 172.9,199.1 L 162.7,198.8' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-5 atom-5 atom-6' d='M 162.7,198.8 L 152.5,198.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 149.4,202.4 L 146.3,191.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-6 atom-6 atom-7' d='M 146.3,191.7 L 143.2,181.0' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 119.5,168.6 L 119.8,167.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 122.8,170.2 L 123.4,168.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 126.2,171.9 L 127.0,169.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 129.5,173.5 L 130.6,170.4' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-7 atom-8 atom-7' d='M 132.9,175.2 L 134.2,171.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-8 atom-8 atom-9' d='M 116.1,166.9 L 93.6,182.2' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-9 atom-9 atom-10' d='M 93.6,182.2 L 72.0,165.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 68.7,166.1 L 68.8,166.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 65.3,166.8 L 65.7,167.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 62.0,167.4 L 62.5,169.1' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 58.6,168.1 L 59.3,170.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 55.3,168.8 L 56.1,171.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 51.9,169.4 L 52.9,172.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-10 atom-10 atom-11' d='M 48.6,170.1 L 49.7,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-11 atom-11 atom-12' d='M 45.8,173.0 L 38.2,165.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-11 atom-11 atom-12' d='M 38.2,165.7 L 30.6,158.4' style='fill:none;fill-rule:evenodd;stroke:#FF0000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-12 atom-10 atom-13' d='M 72.0,165.5 L 81.3,139.8' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-13 atom-13 atom-14' d='M 81.3,139.8 L 108.6,140.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-13 atom-13 atom-14' d='M 84.2,144.0 L 105.5,144.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-14 atom-4 atom-15' d='M 185.9,177.7 L 211.2,167.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-15 atom-15 atom-16' d='M 211.2,167.4 L 220.0,174.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-15 atom-15 atom-16' d='M 220.0,174.3 L 228.9,181.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-16 atom-16 atom-17' d='M 236.5,182.7 L 247.3,178.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-16 atom-16 atom-17' d='M 247.3,178.3 L 258.0,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-17 atom-17 atom-18' d='M 258.0,174.0 L 274.7,152.4' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-18 atom-18 atom-19' d='M 274.7,152.4 L 285.0,177.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 211.2,167.4 L 212.7,156.3' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 212.7,156.3 L 214.3,145.2' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 207.5,164.5 L 208.8,154.6' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-19 atom-15 atom-20' d='M 208.8,154.6 L 210.2,144.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-20 atom-20 atom-1' d='M 211.1,137.4 L 202.3,130.6' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-20 atom-20 atom-1' d='M 202.3,130.6 L 193.4,123.7' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-21 atom-7 atom-3' d='M 145.6,173.6 L 155.0,167.3' style='fill:none;fill-rule:evenodd;stroke:#0000FF;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-21 atom-7 atom-3' d='M 155.0,167.3 L 164.4,160.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-22 atom-14 atom-8' d='M 108.6,140.7 L 116.1,166.9' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-23 atom-19 atom-17' d='M 285.0,177.7 L 258.0,174.0' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 149.9,202.5 L 149.4,202.4 L 149.2,201.9' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 115.0,167.7 L 116.1,166.9 L 115.8,165.6' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 94.7,181.5 L 93.6,182.2 L 92.5,181.4' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 73.1,166.3 L 72.0,165.5 L 72.5,164.2' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 80.9,141.1 L 81.3,139.8 L 82.7,139.9' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 107.2,140.7 L 108.6,140.7 L 109.0,142.0' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 273.9,153.5 L 274.7,152.4 L 275.3,153.7' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path d='M 284.5,176.5 L 285.0,177.7 L 283.6,177.5' style='fill:none;stroke:#000000;stroke-width:2.0px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;' />
+<path class='atom-0' d='M 195.5 92.8
+L 198.0 96.9
+Q 198.3 97.3, 198.7 98.0
+Q 199.1 98.7, 199.1 98.8
+L 199.1 92.8
+L 200.1 92.8
+L 200.1 100.5
+L 199.1 100.5
+L 196.3 96.0
+Q 196.0 95.5, 195.7 94.9
+Q 195.4 94.3, 195.3 94.1
+L 195.3 100.5
+L 194.3 100.5
+L 194.3 92.8
+L 195.5 92.8
+' fill='#0000FF'/>
+<path class='atom-0' d='M 201.6 92.8
+L 202.6 92.8
+L 202.6 96.1
+L 206.6 96.1
+L 206.6 92.8
+L 207.6 92.8
+L 207.6 100.5
+L 206.6 100.5
+L 206.6 96.9
+L 202.6 96.9
+L 202.6 100.5
+L 201.6 100.5
+L 201.6 92.8
+' fill='#0000FF'/>
+<path class='atom-0' d='M 209.1 100.2
+Q 209.3 99.8, 209.8 99.5
+Q 210.2 99.2, 210.8 99.2
+Q 211.6 99.2, 212.0 99.6
+Q 212.5 100.1, 212.5 100.8
+Q 212.5 101.6, 211.9 102.3
+Q 211.4 103.0, 210.2 103.8
+L 212.6 103.8
+L 212.6 104.4
+L 209.1 104.4
+L 209.1 103.9
+Q 210.1 103.2, 210.6 102.7
+Q 211.2 102.2, 211.5 101.8
+Q 211.8 101.3, 211.8 100.8
+Q 211.8 100.3, 211.5 100.1
+Q 211.3 99.8, 210.8 99.8
+Q 210.4 99.8, 210.2 100.0
+Q 209.9 100.1, 209.7 100.5
+L 209.1 100.2
+' fill='#0000FF'/>
+<path class='atom-2' d='M 166.4 130.1
+L 169.0 134.2
+Q 169.2 134.6, 169.6 135.3
+Q 170.0 136.0, 170.0 136.1
+L 170.0 130.1
+L 171.1 130.1
+L 171.1 137.8
+L 170.0 137.8
+L 167.3 133.3
+Q 167.0 132.8, 166.6 132.2
+Q 166.3 131.6, 166.2 131.4
+L 166.2 137.8
+L 165.2 137.8
+L 165.2 130.1
+L 166.4 130.1
+' fill='#0000FF'/>
+<path class='atom-5' d='M 174.9 199.5
+L 177.4 203.6
+Q 177.7 204.0, 178.1 204.7
+Q 178.5 205.4, 178.5 205.5
+L 178.5 199.5
+L 179.5 199.5
+L 179.5 207.2
+L 178.5 207.2
+L 175.8 202.7
+Q 175.5 202.2, 175.1 201.6
+Q 174.8 201.0, 174.7 200.8
+L 174.7 207.2
+L 173.7 207.2
+L 173.7 199.5
+L 174.9 199.5
+' fill='#0000FF'/>
+<path class='atom-7' d='M 140.1 172.4
+L 142.6 176.5
+Q 142.9 176.9, 143.3 177.6
+Q 143.7 178.3, 143.7 178.4
+L 143.7 172.4
+L 144.7 172.4
+L 144.7 180.1
+L 143.7 180.1
+L 140.9 175.6
+Q 140.6 175.1, 140.3 174.5
+Q 140.0 173.9, 139.9 173.7
+L 139.9 180.1
+L 138.9 180.1
+L 138.9 172.4
+L 140.1 172.4
+' fill='#0000FF'/>
+<path class='atom-12' d='M 15.0 150.3
+L 16.0 150.3
+L 16.0 153.6
+L 20.0 153.6
+L 20.0 150.3
+L 21.0 150.3
+L 21.0 158.0
+L 20.0 158.0
+L 20.0 154.4
+L 16.0 154.4
+L 16.0 158.0
+L 15.0 158.0
+L 15.0 150.3
+' fill='#FF0000'/>
+<path class='atom-12' d='M 22.6 154.1
+Q 22.6 152.3, 23.5 151.2
+Q 24.5 150.2, 26.2 150.2
+Q 27.9 150.2, 28.8 151.2
+Q 29.7 152.3, 29.7 154.1
+Q 29.7 156.0, 28.8 157.1
+Q 27.9 158.1, 26.2 158.1
+Q 24.5 158.1, 23.5 157.1
+Q 22.6 156.0, 22.6 154.1
+M 26.2 157.2
+Q 27.4 157.2, 28.0 156.5
+Q 28.6 155.7, 28.6 154.1
+Q 28.6 152.6, 28.0 151.8
+Q 27.4 151.1, 26.2 151.1
+Q 25.0 151.1, 24.4 151.8
+Q 23.7 152.6, 23.7 154.1
+Q 23.7 155.7, 24.4 156.5
+Q 25.0 157.2, 26.2 157.2
+' fill='#FF0000'/>
+<path class='atom-16' d='M 231.0 180.4
+L 233.5 184.4
+Q 233.8 184.8, 234.2 185.6
+Q 234.6 186.3, 234.6 186.4
+L 234.6 180.4
+L 235.6 180.4
+L 235.6 188.1
+L 234.6 188.1
+L 231.9 183.6
+Q 231.5 183.1, 231.2 182.5
+Q 230.9 181.9, 230.8 181.7
+L 230.8 188.1
+L 229.8 188.1
+L 229.8 180.4
+L 231.0 180.4
+' fill='#0000FF'/>
+<path class='atom-16' d='M 229.7 188.8
+L 230.7 188.8
+L 230.7 192.1
+L 234.7 192.1
+L 234.7 188.8
+L 235.7 188.8
+L 235.7 196.6
+L 234.7 196.6
+L 234.7 193.0
+L 230.7 193.0
+L 230.7 196.6
+L 229.7 196.6
+L 229.7 188.8
+' fill='#0000FF'/>
+<path class='atom-20' d='M 213.2 136.6
+L 215.8 140.7
+Q 216.0 141.1, 216.4 141.8
+Q 216.8 142.5, 216.8 142.6
+L 216.8 136.6
+L 217.9 136.6
+L 217.9 144.3
+L 216.8 144.3
+L 214.1 139.8
+Q 213.8 139.3, 213.4 138.7
+Q 213.1 138.1, 213.0 137.9
+L 213.0 144.3
+L 212.0 144.3
+L 212.0 136.6
+L 213.2 136.6
+' fill='#0000FF'/>
+</svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <button type="button"
+                                        class="btn btn-outline-secondary btn-sm" style="width: 100%"
+                                        data-bs-toggle="modal" data-bs-target="#structure3">3D
+                                </button>
+                                <div class="modal fade" id="structure3" tabindex="-1"
+                                     aria-labelledby="structure3-label"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content">
+                                            <div id="3d_structure_container" class="mol-container"
+                                                 data-num="DDInter1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">ID</td>
+                <td class="value">DDInter1</td>
+            </tr>
+            <tr>
+                <td class="key">Drug Type</td>
+                <td class="value">small molecule</td>
+            </tr>
+            <tr>
+                <td class="key">
+                    
+                        Molecular Formula
+                    
+                </td>
+                <td class="value">C14H18N6O</td>
+            </tr>
+            <tr>
+                <td class="key">
+                    
+                        Molecular Weight
+                    
+                </td>
+                <td class="value">
+                    
+                        286.332
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">CAS Number</td>
+                <td class="value">
+                    
+                        136470-78-5
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Description</td>
+                <td class="value" style="text-align: justify"
+                    id="description">
+                    
+                        Abacavir (ABC) is a powerful nucleoside analog reverse transcriptase inhibitor (NRTI) used to treat HIV and AIDS. Chemically, it is a synthetic carbocyclic nucleoside and is the enantiomer with 1S, 4R absolute configuration on the cyclopentene ring. In vivo, abacavir sulfate dissociates to its free base, abacavir.
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">ATC Classification</td>
+                
+                    <td class="value">
+                        
+                            <span class="badge rounded-pill bg-danger"
+                                  data-tippy-content="J05AR13: Lamivudine, abacavir and dolutegravir&lt;br&gt;J05AR: Antivirals for treatment of hiv infections, combinations&lt;br&gt;J05A: Direct acting antivirals&lt;br&gt;J05: Antivirals for systemic use&lt;br&gt;J: Antiinfectives for systemic use&lt;br&gt;"
+                            >J05AR13</span>
+                        
+                            <span class="badge rounded-pill bg-danger"
+                                  data-tippy-content="J05AR02: Abacavir/lamivudine&lt;br&gt;J05AR: Antivirals for treatment of hiv infections, combinations&lt;br&gt;J05A: Direct acting antivirals&lt;br&gt;J05: Antivirals for systemic use&lt;br&gt;J: Antiinfectives for systemic use&lt;br&gt;"
+                            >J05AR02</span>
+                        
+                            <span class="badge rounded-pill bg-danger"
+                                  data-tippy-content="J05AR04: Abacavir/lamivudine/zidovudine&lt;br&gt;J05AR: Antivirals for treatment of hiv infections, combinations&lt;br&gt;J05A: Direct acting antivirals&lt;br&gt;J05: Antivirals for systemic use&lt;br&gt;J: Antiinfectives for systemic use&lt;br&gt;"
+                            >J05AR04</span>
+                        
+                            <span class="badge rounded-pill bg-danger"
+                                  data-tippy-content="J05AF06: Abacavir&lt;br&gt;J05AF: Nucleoside and nucleotide reverse transcriptase inhibitors&lt;br&gt;J05A: Direct acting antivirals&lt;br&gt;J05: Antivirals for systemic use&lt;br&gt;J: Antiinfectives for systemic use&lt;br&gt;"
+                            >J05AF06</span>
+                        
+                    </td>
+                
+            </tr>
+            
+                <tr>
+                    <td class="key">IUPAC Name</td>
+                    <td class="value" colspan="2">[(1S,4R)-4-[2-amino-6-(cyclopropylamino)-9H-purin-9-yl]cyclopent-2-en-1-yl]methanol</td>
+                </tr>
+                <tr>
+                    <td class="key">InChI</td>
+                    <td id="inchi" class="value" colspan="2">MCGSCOLBFJQGHM-SCZZXKLOSA-N</td>
+                </tr>
+                <tr>
+                    <td class="key">Canonical SMILES</td>
+                    <td class="value" colspan="2">NC1=NC2=C(N=CN2[C@@H]2C[C@H](CO)C=C2)C(NC2CC2)=N1</td>
+                </tr>
+            
+            <tr>
+                <td class="key">Useful Links</td>
+                <td class="value" colspan="2">
+                    <a href="https://go.drugbank.com/drugs/DB01048" target="_blank">
+                        <span class="badge rounded-pill bg-success" style="font-size: .8rem;">DrugBank</span>
+                    </a>
+                    
+                        <a href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=421707" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">ChEBI</span>
+                        </a>
+                    
+                        <a href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46505718" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">PubChem Substance</span>
+                        </a>
+                    
+                        <a href="http://www.genome.jp/dbget-bin/www_bget?cpd:C07624" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">KEGG Compound</span>
+                        </a>
+                    
+                        <a href="http://www.genome.jp/dbget-bin/www_bget?drug:D07057" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">KEGG Drug</span>
+                        </a>
+                    
+                        <a href="http://www.chemspider.com/Chemical-Structure.390063.html" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">ChemSpider</span>
+                        </a>
+                    
+                        <a href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50366816" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">BindingDB</span>
+                        </a>
+                    
+                        <a href="http://www.pharmgkb.org/drug/PA448004" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">PharmGKB</span>
+                        </a>
+                    
+                        <a href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000704" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">Therapeutic Targets Database</span>
+                        </a>
+                    
+                        <a href="https://en.wikipedia.org/wiki/Abacavir" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">Wikipedia</span>
+                        </a>
+                    
+                        <a href="https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1380/" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">ChEMBL</span>
+                        </a>
+                    
+                        <a href="https://zinc.docking.org/substances/ZINC000002015928" target="_blank">
+                            <span class="badge rounded-pill bg-success" style="font-size: .8rem;">ZINC</span>
+                        </a>
+                    
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        
+            <div class="sub-title mt-5"
+                 data-tippy-content="The interaction network is based on the current knowledge and some DDI associations that do exist may have not been identified.">
+                <i class="fas fa-arrow-right"></i> Interactions with
+                Abacavir</div>
+
+
+            <div class="contain mb-3 mt-3" style="position: relative; width: 100%; height: 800px;">
+                <div id="main" style="width: 100%; height: 800px;"></div>
+                <div class="switch-button">
+                    <input class="switch-button-checkbox" type="checkbox" value="actions" id="select-type">
+                    <label class="switch-button-label" for="select-type"><span
+                            class="switch-button-label-span">Actions</span></label>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <div class="mb-4">
+                    <span class="" style="font-weight: 600; font-size: 1.2rem">Filter: </span>
+                    <select id="Severity" style="width: 200px;">
+                        <option value="">Select Severity</option>
+                        <option value="1">Major</option>
+                        <option value="2">Moderate</option>
+                        <option value="3">Minor</option>
+                    </select>
+                    <select id="Mechanism" style="width: 200px;">
+                        <option value="">Select Mechanism</option>
+                        <option value="5">Antagonism</option>
+                        <option value="6">Synergy</option>
+                        <option value="7">Absorption</option>
+                        <option value="8">Distribution</option>
+                        <option value="9">Metabolism</option>
+                        <option value="10">Excretion</option>
+                        <option value="11">Others</option>
+                    </select>
+                </div>
+
+                <table id="interaction-table" class="table table-hover mt-0 align-middle">
+                    <thead>
+                    <tr>
+                        <th class="text-center">Severity level</th>
+                        <th class="text-left">ID</th>
+                        <th class="text-left">Name</th>
+                        <th class="text-center">Mechanism</th>
+                        <th class="text-center">Detail</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        
+
+        <div class="sub-title mt-5"
+             data-tippy-content="The interaction network is based on the current knowledge and some DDI associations that do exist may have not been identified.">
+            <i class="fas fa-arrow-right"></i> Interactions with diseases
+        </div>
+
+        <div class="mt-4">
+            <div class="mb-4">
+                <span class="" style="font-weight: 600; font-size: 1.2rem">Filter: </span>
+                <select id="disSeverity" style="width: 200px;">
+                    <option value="">Select Severity</option>
+                    <option value="1">Major</option>
+                    <option value="2">Moderate</option>
+                    <option value="3">Minor</option>
+                </select>
+            </div>
+
+            <table id="ddsi-table" class="table table-hover mt-0 align-middle">
+                <thead>
+                <tr>
+                    <th class="text-center">Severity level</th>
+                    <th class="text-left">Disease name</th>
+                    <th class="text-left">Text</th>
+                    <th class="text-left">References</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="sub-title mt-5"
+             data-tippy-content="The interaction network is based on the current knowledge and some DDI associations that do exist may have not been identified.">
+            <i class="fas fa-arrow-right"></i> Interactions with foods
+        </div>
+
+        <div class="mt-4">
+            <div class="mb-4">
+                <span class="" style="font-weight: 600; font-size: 1.2rem">Filter: </span>
+                <select id="foodSeverity" style="width: 200px;">
+                    <option value="">Select Severity</option>
+                    <option value="1">Major</option>
+                    <option value="2">Moderate</option>
+                    <option value="3">Minor</option>
+                </select>
+                <select id="foodMechanism" style="width: 200px;">
+                    <option value="">Select Mechanism</option>
+                    <option value="5">Antagonism</option>
+                    <option value="6">Synergy</option>
+                    <option value="7">Absorption</option>
+                    <option value="8">Distribution</option>
+                    <option value="9">Metabolism</option>
+                    <option value="10">Excretion</option>
+                    <option value="11">Others</option>
+                </select>
+            </div>
+
+            <table id="dfi-table" class="table table-hover mt-0 align-middle">
+                <thead>
+                <tr>
+                    <th class="text-center">Severity level</th>
+                    <th class="">Food name</th>
+                    <th class="text-left">Description</th>
+                    <th class="text-left">Management</th>
+                    <th class="text-left">Mechanism</th>
+                    <th class="text-center">References</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="sub-title mt-5"
+             data-tippy-content="The interaction network is based on the current knowledge and some DDI associations that do exist may have not been identified.">
+            <i class="fas fa-arrow-right"></i> Interactions with compound preparation
+        </div>
+
+        <div class="mt-4">
+            <table id="multi-table" class="table table-hover mt-0 align-middle">
+                <thead>
+                <tr>
+                    <th class="text-left">Multi-DRUG trade</th>
+                    <th class="text-left">Multi-DRUG</th>
+                    <th class="text-left">Drug type</th>
+                    <th class="text-left">Warning</th>
+                    <th class="text-left">Note</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+<script src="/static/common/select2/js/select2.min.js"></script>
+<script src="/static/common/js/popper.min.js"></script>
+<script src="/static/common/js/tippy-bundle.umd.min.js"></script>
+
+<script>plotRelation("actions")</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js"></script>
+
+<script>
+    tippy('[data-tippy-content]', {
+        maxWidth: 'none',
+        role: 'tooltip',
+        allowHTML: true,
+        placement: 'top',
+    });
+
+    const sw = document.querySelector(".switch-button-checkbox")
+    sw.addEventListener("click", () => {
+        sw.value = sw.value === "actions" ? "level" : "actions"
+        plotRelation(sw.value)
+    })
+
+    function changeShowRemarks(obj) {//obj是td
+        const content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {//当前显示的是详细备注，切换到显示部分
+                //$(obj).removeAttr('isDetail');//remove也可以
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksHtml(content));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksHtml(content));
+            }
+        }
+    }
+
+    function getPartialRemarksHtml(remarks) {
+        return remarks.substring(0, 200) + '...&nbsp;&nbsp;<a href="javascript:void(0);" >More</a>';
+    }
+
+    function getTotalRemarksHtml(remarks) {
+        return remarks + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function changeShowRemarksList(obj) {
+        const content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {//当前显示的是详细备注，切换到显示部分
+                //$(obj).removeAttr('isDetail');//remove也可以
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksList(content));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksList(content));
+            }
+        }
+    }
+
+    function getPartialRemarksList(remarks) {
+        let html_str = '';
+        if (typeof remarks == 'string')
+            remarks = remarks.split('|')
+        for (let i = 0; i < 3; i++) {
+            html_str += '[' + (i + 1) + ']' + remarks[i] + '<br/>';
+        }
+        return html_str + '...&nbsp;&nbsp;<a href="javascript:void(0);" >More</a>';
+    }
+
+    function getTotalRemarksList(remarks) {
+        let html_str = '';
+        if (typeof remarks == 'string')
+            remarks = remarks.split('|')
+        for (let i = 0; i < remarks.length; i++) {
+            html_str += '[' + (i + 1) + ']' + remarks[i] + '<br/>';
+        }
+        return html_str + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function getPartialRemarksHtmlFoodMana(remarks) {
+        return remarks.substring(0, 200) + '...&nbsp;&nbsp;<a href="javascript:void(0);" >More</a>';
+    }
+
+    function set_datatable_data(type, idx) {
+        let request_url = '/server/interact-with/' + "DDInter1" + '/';
+        let requestData = {
+            "url": request_url,
+            "type": "post",
+            "data": function (d) {
+                d.severity = $('#Severity').val();
+                d.mechanism = $('#Mechanism').val();
+                if (type != null) {
+                    d.type = type
+                }
+                if (idx != null) {
+                    d.idx = idx
+                }
+            }
+        }
+        return $('#interaction-table').DataTable({
+            "pageLength": 10,
+            "aLengthMenu": [5, 10, 20],
+            "AutoWidth": false,
+            destroy: true,
+            "serverSide": true,
+            scrollCollapse: true,
+            "pagingType": "simple_numbers",
+            ajax: requestData,
+            data: '',
+            "columns": [
+                {
+                    "data": "level", width: "10%", 'render': function (data, type, full, meta) {
+                        if (full.level === 3) {
+                            return '<span class="badge rounded-pill" style="background-color:#a8456b;font-size:.9rem;">Major</span>';
+                        } else if (full.level === 2) {
+                            return '<span class="badge rounded-pill" style="background-color:#ddc871;font-size:.9rem;">Moderate</span>';
+                        } else if (full.level === 1) {
+                            return '<span class="badge rounded-pill" style="background-color:#83a78d;font-size:.9rem;">Minor</span>';
+                        } else {
+                            return '<span class="badge rounded-pill" style="background-color:#b6b2b2;font-size:.9rem;">Unknown</span>';
+                        }
+                    }
+                }, {
+                    "data": "drug_id", width: "20%", 'render': function (data, type, full, meta) {
+                        return full.drug_id;
+                    }
+                }, {
+                    "data": "drug_name", width: "20%", 'render': function (data, type, full, meta) {
+                        return full.drug_name;
+                    }
+                }, {
+                    "data": "idx", width: "20%", 'render': function (data, type, full, meta) {
+                        let html_text = '';
+                        if (full.antagonistic_effect === '1') {
+                            html_text += '<span class="badge" style="background-color:#61649f;font-size:.7rem;' +
+                                '">Antagonism</span> ';
+                        }
+                        if (full.synergistic_effect === '1') {
+                            html_text += '<span class="badge" style="background-color:#cf7543;font-size:.7rem;' +
+                                '">Synergy</span> ';
+                        }
+                        if (full.absorption === '1') {
+                            html_text += '<span class="badge" style="background-color:#579572;font-size:.7rem;' +
+                                '">Absorption</span> ';
+                        }
+                        if (full.distribution === '1') {
+                            html_text += '<span class="badge" style="background-color:#c45a65;font-size:.7rem;' +
+                                '">Distribution</span> ';
+                        }
+                        if (full.metabolism === '1') {
+                            html_text += '<span class="badge" style="background-color:#1491a8;font-size:.7rem;' +
+                                '">Metabolism</span> ';
+                        }
+                        if (full.excretion === '1') {
+                            html_text += '<span class="badge" style="background-color:#8a988e;font-size:.7rem;' +
+                                '">Excretion</span> ';
+                        }
+                        if (full.others === '1') {
+                            html_text += '<span class="badge" style="background-color:#f9d27d;font-size:.7rem;' +
+                                '">Others</span> ';
+                        }
+                        if (html_text === '') {
+                            return '<span class="badge" style="background-color:#b5aa90;font-size:.7rem;' +
+                                '">Unknown</span> ';
+                        } else {
+                            return html_text;
+                        }
+                    }
+                }, {
+                    "data": "null", width: "20%", 'render': function (data, type, full, meta) {
+                        return '<a href="/server/interact/' + full.interaction_id + '/">view</a>';
+                    }
+                }
+            ],
+            "createdRow": function (row, data, dataIndex) {
+                $(row).children('td').eq(1).attr('style', 'text-align:left');
+                $(row).children('td').eq(2).attr('style', 'text-align:left');
+                
+            },
+            "processing": true,
+            "language": {
+                "paginate": {
+                    "first": "First Page",
+                    "last": "Last Page",
+                    "next": "<i class='far fa-chevron-right'></i>",
+                    "previous": "<i class='far fa-chevron-left'></i>",
+                },
+                "zeroRecords": "No matching records",
+                "info": "_START_ to _END_ items，total _TOTAL_ items",
+                "search": "Search: ",
+                "processing": "Loading...",
+                "searchPlaceholder": "Search by Drugbank ID",
+            },
+            "ordering": false,
+            "searching": false,
+        });
+    }
+
+    function changeShowRemarksFood(obj) {
+        const content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {   //当前显示的是详细备注，切换到显示部分
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksHtmlFood(content));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksHtmlFood(content));
+            }
+        }
+    }
+
+    function changeShowRemarksFoodMana(obj) {
+        const content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {   //当前显示的是详细备注，切换到显示部分
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksHtmlFoodMana(content));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksHtmlFoodMana(content));
+            }
+        }
+    }
+
+    function getTotalRemarksHtmlFood(remarks) {
+        return remarks + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function getTotalRemarksHtmlFoodMana(remarks) {
+        return remarks + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function set_dfi_data(idx, type) {
+        let request_url = '/server/interact-with-food/' + "DDInter1" + '/';
+        let requestData = {
+            "url": request_url,
+            "type": "post",
+            "data": function (d) {
+                d.severity = $('#foodSeverity').val();
+                d.mechanism = $('#foodMechanism').val();
+                if (type != null) {
+                    d.type = type
+                }
+                if (idx != null) {
+                    d.idx = idx
+                }
+            }
+        }
+        return $('#dfi-table').DataTable({
+            "pageLength": 10,
+            "aLengthMenu": [5, 10, 20],
+            "AutoWidth": false,
+            destroy: true,
+            "serverSide": true,
+            scrollCollapse: true,
+            "pagingType": "simple_numbers",
+            ajax: requestData,
+            data: '',
+            "columns": [{
+                "data": "level", width: "10%", 'render': function (data, type, full, meta) {
+                    if (full.level === "3") {
+                        return '<span class="badge rounded-pill" style="background-color:#a8456b;font-size:.9rem;">Major</span>';
+                    } else if (full.level === "2") {
+                        return '<span class="badge rounded-pill" style="background-color:#ddc871;font-size:.9rem;">Moderate</span>';
+                    } else if (full.level === "1") {
+                        return '<span class="badge rounded-pill" style="background-color:#83a78d;font-size:.9rem;">Minor</span>';
+                    } else {
+                        return '<span class="badge rounded-pill" style="background-color:#b6b2b2;font-size:.9rem;">Unknown</span>';
+                    }
+                }
+            }, {
+                "data": "null", width: "10%", 'render': function (data, type, full, meta) {
+                    return full.foodName;
+                }
+            }, {
+                "data": "null", width: "33%", 'render': function (data, type, full, meta) {
+                    return full.newInteraction;
+                }
+            }, {
+                "data": "null", width: "33%", 'render': function (data, type, full, meta) {
+                    if (full.newManagement === null) {
+                        return '-';
+                    } else {
+                        
+                        if (full.newManagement.length > 200) {
+                            return getPartialRemarksHtmlFoodMana(full.newManagement);
+                        } else {
+                            return full.newManagement;
+                        }
+                    }
+                }
+            }, {
+                "data": "null", width: "8%", 'render': function (data, type, full, meta) {
+                    let html_text = '';
+                    if (full.magnesium === 'Antagonism') {
+                        html_text += '<span class="badge" style="background-color:#61649f;font-size:.7em;' +
+                            '">Antagonism</span>';
+                    } else if (full.magnesium === 'Synergy') {
+                        html_text += '<span class="badge" style="background-color:#cf7543;font-size:.7em;' +
+                            '">Synergy</span>';
+                    } else if (full.magnesium === 'Absorption') {
+                        html_text += '<span class="badge" style="background-color:#579572;font-size:.7em;' +
+                            '">Absorption</span>';
+                    } else if (full.magnesium === 'Distribution') {
+                        html_text += '<span class="badge" style="background-color:#c45a65;font-size:.7em;' +
+                            '">Distribution</span>';
+                    } else if (full.magnesium === 'Metabolism') {
+                        html_text += '<span class="badge" style="background-color:#1491a8;font-size:.7em;' +
+                            '">Metabolism</span>';
+                    } else if (full.magnesium === 'Excretion') {
+                        html_text += '<span class="badge" style="background-color:#8a988e;font-size:.7em;' +
+                            '">Excretion</span>';
+                    } else if (full.magnesium === 'Others') {
+                        html_text += '<span class="badge" style="background-color:#f9d27d;font-size:.7em;' +
+                            '">Others</span>';
+                    } else {
+                        return '<span class="badge" style="background-color:#b5aa90;font-size:.7em;' +
+                            '">Unknown</span>';
+                    }
+                    return html_text;
+                }
+            }, {
+                "data": "null", width: '6%', 'render': function (data, type, full, meta) {
+                    let html_str = '';
+                    full.references.split('|').forEach(function (item, index) {
+                        html_str += '<li>' + (index + 1) + '. ' + item.replace(/"/g, "'") + '</li>';
+                    });
+                    return '<i class="fas fa-info-circle" data-tippy-content="' + html_str + '"></i>';
+                }
+            }],
+            "createdRow": function (row, data, dataIndex) {
+                
+                
+                if (data.newInteraction != null && data.newInteraction.length > 200) {//只有超长，才有td点击事件
+                    $(row).children('td').eq(2).attr('onclick', 'javascript:changeShowRemarksFood(this);');
+                }
+                $(row).children('td').eq(2).attr('content', data.newInteraction);
+                $(row).children('td').eq(2).attr('style', 'text-align:justify');
+
+
+                if (data.newManagement != null && data.newManagement.length > 200) {//只有超长，才有td点击事件
+                    $(row).children('td').eq(3).attr('onclick', 'javascript:changeShowRemarksFoodMana(this);');
+                }
+                $(row).children('td').eq(3).attr('content', data.newManagement);
+                $(row).children('td').eq(3).attr('style', 'text-align:justify');
+            },
+            "processing": true,
+            "language": {
+                "paginate": {
+                    "first": "First Page",
+                    "last": "Last Page",
+                    "next": "<i class='far fa-chevron-right'></i>",
+                    "previous": "<i class='far fa-chevron-left'></i>",
+                },
+                "zeroRecords": "No matching records",
+                "info": "_START_ to _END_ items，total _TOTAL_ items",
+                "search": "Search: ",
+                "processing": "Loading...",
+                "searchPlaceholder": "Search by Drugbank ID",
+            },
+            "ordering": false,
+            "searching": false,
+            "columnDefs": [
+                {className: "dt-center", "targets": [0, 5]}
+            ]
+        });
+    }
+
+    function set_multi_data() {
+        let request_url = '/server/interact-with-multi/' + "DDInter1" + '/';
+        var table = $('#multi-table').DataTable({
+            "pageLength": 10,
+            "aLengthMenu": [5, 10, 20],
+            "AutoWidth": false,
+            destroy: true,
+            "serverSide": true,
+            scrollCollapse: true,
+            "pagingType": "simple_numbers",
+            ajax: {
+                "url": request_url,
+                "type": "post",
+            },
+            data: '',
+            "columns": [{
+                "data": "level", width: "20%", 'render': function (data, type, full, meta) {
+                    return full.drugmulti_trade;
+                }
+            }, {
+                "data": "null", width: '10%', 'render': function (data, type, full, meta) {
+                    return full.drugmulti;
+                }
+            }, {
+                "data": "null", width: '10%', 'render': function (data, type, full, meta) {
+                    return full.drugtype;
+                }
+            }, {
+                "data": "null", width: '30%', 'render': function (data, type, full, meta) {
+                    return full.warning;
+                }
+            }, {
+                "data": "null", width: '30%', 'render': function (data, type, full, meta) {
+                    return full.note.replace('Note: ', '');
+                }
+            }],
+            "createdRow": function (row, data, dataIndex) {
+
+            },
+            "processing": true,
+            "language": {
+                "paginate": {
+                    "first": "First Page",
+                    "last": "Last Page",
+                    "next": "<i class='far fa-chevron-right'></i>",
+                    "previous": "<i class='far fa-chevron-left'></i>",
+                },
+                "zeroRecords": "No matching records",
+                "info": "_START_ to _END_ items，total _TOTAL_ items",
+                "search": "Search: ",
+                "processing": "Loading...",
+                "searchPlaceholder": "Search by MULTI-DRUG trade/MULTI-DRUG/Drug type",
+            },
+            "ordering": false,
+            "searching": true,
+        });
+    }
+
+    function set_ddsi_data(idx, type) {
+        let request_url = '/server/interact-with-dis/' + "DDInter1" + '/';
+        let requestData = {
+            "url": request_url,
+            "type": "post",
+            "data": function (d) {
+                d.severity = $('#disSeverity').val();
+                if (type != null) {
+                    d.type = type
+                }
+                if (idx != null) {
+                    d.idx = idx
+                }
+            }
+        }
+        return $('#ddsi-table').DataTable({
+            "pageLength": 10,
+            "aLengthMenu": [5, 10, 20],
+            "AutoWidth": false,
+            destroy: true,
+            "serverSide": true,
+            scrollCollapse: true,
+            "pagingType": "simple_numbers",
+            ajax: requestData,
+            data: '',
+            "columns": [{
+                "data": "level", width: "10%", 'render': function (data, type, full, meta) {
+                    if (full.level === "3") {
+                        return '<span class="badge rounded-pill" style="background-color:#a8456b;font-size:.9rem;">Major</span>';
+                    } else if (full.level === "2") {
+                        return '<span class="badge rounded-pill" style="background-color:#ddc871;font-size:.9rem;">Moderate</span>';
+                    } else if (full.level === "1") {
+                        return '<span class="badge rounded-pill" style="background-color:#83a78d;font-size:.9rem;">Minor</span>';
+                    } else {
+                        return '<span class="badge rounded-pill" style="background-color:#b6b2b2;font-size:.9rem;">Unknown</span>';
+                    }
+                }
+            }, {
+                "data": "null", width: '10%', 'render': function (data, type, full, meta) {
+                    return full.diseaseName;
+                }
+            }, {
+                "data": "null", width: '74%', 'render': function (data, type, full, meta) {
+                    if (full.text) {
+                        if (full.text.length > 200) {
+                            return getPartialRemarksHtml(full.text);
+                        } else {
+                            return full.text;
+                        }
+                    } else {
+                        return '-';
+                    }
+                }
+            }, {
+                "data": "null", width: '6%', 'render': function (data, type, full, meta) {
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    let html_str = '';
+                    full.references.split('|').forEach(function (item, index) {
+                        html_str += '<li>' + (index + 1) + '. ' + item.replace(/"/g, "'") + '</li>';
+                    });
+                    return '<i class="fas fa-info-circle" data-tippy-content="' + html_str + '"></i>';
+                }
+            }],
+            "createdRow": function (row, data, dataIndex) {
+                $(row).children('td').eq(0).attr('style', 'text-align:center');
+                if (data.text != null && data.text.length > 200) {//只有超长，才有td点击事件
+                    $(row).children('td').eq(2).attr('onclick', 'javascript:changeShowRemarks(this);');
+                }
+                $(row).children('td').eq(2).attr('content', data.text);
+                $(row).children('td').eq(2).attr('style', 'text-align:justify');
+
+                if (data.references != null && data.references.split('|').length > 5) {
+                    $(row).children('td').eq(3).attr('onclick', 'javascript:changeShowRemarksList(this);');
+                }
+                if (data.references != null && typeof data.references === 'object') {
+                    $(row).children('td').eq(3).attr('content', data.references.join("|"));
+                } else {
+                    $(row).children('td').eq(3).attr('content', data.references);
+                }
+            },
+            "processing": true,
+            "language": {
+                "paginate": {
+                    "first": "First Page",
+                    "last": "Last Page",
+                    "next": "<i class='far fa-chevron-right'></i>",
+                    "previous": "<i class='far fa-chevron-left'></i>",
+                },
+                "zeroRecords": "No matching records",
+                "info": "_START_ to _END_ items，total _TOTAL_ items",
+                "search": "Search: ",
+                "processing": "Loading...",
+                "searchPlaceholder": "Search by Drugbank ID",
+            },
+            "ordering": false,
+            "searching": false,
+            "columnDefs": [
+                {className: "dt-center", "targets": [3]}
+            ]
+        });
+    }
+
+    function structure() {
+        let element = $('#3d_structure_container');
+        let config = {backgroundColor: 'white'};
+        let viewer = $3Dmol.createViewer(element, config);
+        let id = document.getElementById("3d_structure_container").getAttribute("data-num");
+        let sdfUrl = '/static/media/drugs_3D/' + id + '.sdf';
+        jQuery.ajax(sdfUrl, {
+            success: function (data) {
+                var v = viewer;
+                var lig_model = v.addModel(data, "sdf");
+                /* load data */
+                v.setStyle({}, {stick: {}});
+                /*style all atoms*/
+                v.zoomTo({}, 500);
+                /* set camera */
+                v.render();
+                /* render scene */
+            },
+            error: function (hdr, status, err) {
+                console.error("Failed to load sdf " + sdfUrl + ": " + err);
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        $.ajaxSetup({
+            data: {csrfmiddlewaretoken: 'o36IrfOZALPxz6s2MK7wrDNuuG7Az0A5TDTjYnHN3y4feMlKUbpc8VCFLkSgwAMb',}
+        });
+        const table = set_datatable_data(null, null);
+        const dis_table = set_ddsi_data(null, null);
+        const dfi_table = set_dfi_data(null, null);
+
+        dfi_table.on('draw', function () {
+            tippy('[data-tippy-content]', {
+                maxWidth: 'none',
+                role: 'tooltip',
+                allowHTML: true,
+            });
+        });
+        set_multi_data();
+
+        $('#Severity, #Mechanism').select2({
+            // Optionally, use Ajax to load options dynamically
+        }).on('change', function () {
+            table.draw();
+        });
+
+        $('#disSeverity').select2({
+            // Optionally, use Ajax to load options dynamically
+        }).on('change', function () {
+            dis_table.draw();
+        });
+
+        $('#foodSeverity, #foodMechanism').select2({
+            // Optionally, use Ajax to load options dynamically
+        }).on('change', function () {
+            dfi_table.draw();
+        });
+
+        structure();
+    });
+
+</script>
+
+
+    </div>
+    
+        
+
+<footer class="site-footer" id="footer">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="copyright">
+      &copy; Copyright &nbsp; <a href="http://www.scbdd.com/" target="_blank">Computational Biology & Drug DesignGroup</a>. All Rights Reserved<div class="heart d-inline-block mx-2"></div>
+      
+    </div>
+    <div style="width: 200px;">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=TXcYuwgsTf230Gc363rPwJc4RS20yZ5QOakSiw4gHgw&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .heart {
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    position: relative;
+    filter: drop-shadow(0px 0px 20px rgb(255, 20, 20));
+    transform: rotate(45deg);
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    border-radius: 5px;
+  }
+  
+  .heart:before {
+    left: -5px;
+  }
+  
+  .heart:after {
+    left: 0;
+    top: -5px;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+    25% {
+      transform: rotate(45deg) scale(1, 1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+  }
+</style>
+
+    
+</div>
+</body>
+
+
+
+</html>

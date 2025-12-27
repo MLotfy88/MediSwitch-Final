@@ -1,0 +1,215 @@
+{
+  "file": "drug_20.html",
+  "drug_id": "DDInter20",
+  "type": "small molecule",
+  "description": "Also known as _Aspirin_, acetylsalicylic acid (ASA) is a commonly used drug for the treatment of pain and fever due to various causes. Acetylsalicylic acid has both anti-inflammatory and antipyretic effects. This drug also inhibits platelet aggregation and is used in the prevention of blood clots stroke, and myocardial infarction (MI) [FDA label]. Interestingly, the results of various studies have demonstrated that long-term use of acetylsalicylic acid may decrease the risk of various cancers, including colorectal, esophageal, breast, lung, prostate, liver and skin cancer [A177325]. Aspirin is classified as a _non-selective cyclooxygenase (COX) inhibitor_ [A32682, A177268] and is available in many doses and forms, including chewable tablets, suppositories, extended release formulations, and others [L5968]. Acetylsalicylic acid is a very common cause of accidental poisoning in young children. It should be kept out of reach from young children, toddlers, and infants [FDA label].",
+  "atc_classifications": [
+    {
+      "code": "B01AC06",
+      "hierarchy": "B01AC06: Aspirin<br>B01AC: Platelet aggregation inhibitors excl. heparin<br>B01A: Antithrombotic agents<br>B01: Antithrombotic agents<br>B: Blood and blood forming organs<br>"
+    },
+    {
+      "code": "C07FX04",
+      "hierarchy": "C07FX04: Bisoprolol and acetylsalicylic acid<br>C07FX: Beta blocking agents, other combinations<br>C07F: Beta blocking agents, other combinations<br>C07: Beta blocking agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "C10BX04",
+      "hierarchy": "C10BX04: Simvastatin, acetylsalicylic acid and ramipril<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "M01BA03",
+      "hierarchy": "M01BA03: Acetylsalicylic acid and corticosteroids<br>M01BA: Antiinflammatory/antirheumatic agents in combination with corticosteroids<br>M01B: Antiinflammatory/antirheumatic agents in combination<br>M01: Antiinflammatory and antirheumatic products<br>M: Musculo-skeletal system<br>"
+    },
+    {
+      "code": "N02BA71",
+      "hierarchy": "N02BA71: Acetylsalicylic acid, combinations with psycholeptics<br>N02BA: Salicylic acid and derivatives<br>N02B: Other analgesics and antipyretics<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "C10BX02",
+      "hierarchy": "C10BX02: Pravastatin and acetylsalicylic acid<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "B01AC56",
+      "hierarchy": "B01AC56: Acetylsalicylic acid, combinations with proton pump inhibitors<br>B01AC: Platelet aggregation inhibitors excl. heparin<br>B01A: Antithrombotic agents<br>B01: Antithrombotic agents<br>B: Blood and blood forming organs<br>"
+    },
+    {
+      "code": "N02AJ07",
+      "hierarchy": "N02AJ07: Codeine and acetylsalicylic acid<br>N02AJ: Opioids in combination with non-opioid analgesics<br>N02A: Opioids<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "N02AJ02",
+      "hierarchy": "N02AJ02: Dihydrocodeine and acetylsalicylic acid<br>N02AJ: Opioids in combination with non-opioid analgesics<br>N02A: Opioids<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "N02BA01",
+      "hierarchy": "N02BA01: Aspirin<br>N02BA: Salicylic acid and derivatives<br>N02B: Other analgesics and antipyretics<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "C10BX05",
+      "hierarchy": "C10BX05: Rosuvastatin and acetylsalicylic acid<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "N02BA51",
+      "hierarchy": "N02BA51: Acetylsalicylic acid, combinations excl. psycholeptics<br>N02BA: Salicylic acid and derivatives<br>N02B: Other analgesics and antipyretics<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "A01AD05",
+      "hierarchy": "A01AD05: Aspirin<br>A01AD: Other agents for local oral treatment<br>A01A: Stomatological preparations<br>A01: Stomatological preparations<br>A: Alimentary tract and metabolism<br>"
+    },
+    {
+      "code": "C10BX01",
+      "hierarchy": "C10BX01: Simvastatin and acetylsalicylic acid<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "C07FX03",
+      "hierarchy": "C07FX03: Metoprolol and acetylsalicylic acid<br>C07FX: Beta blocking agents, other combinations<br>C07F: Beta blocking agents, other combinations<br>C07: Beta blocking agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "N02AJ18",
+      "hierarchy": "N02AJ18: Oxycodone and acetylsalicylic acid<br>N02AJ: Opioids in combination with non-opioid analgesics<br>N02A: Opioids<br>N02: Analgesics<br>N: Nervous system<br>"
+    },
+    {
+      "code": "C10BX12",
+      "hierarchy": "C10BX12: Atorvastatin, acetylsalicylic acid and perindopril<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "C10BX08",
+      "hierarchy": "C10BX08: Atorvastatin and acetylsalicylic acid<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "C10BX06",
+      "hierarchy": "C10BX06: Atorvastatin, acetylsalicylic acid and ramipril<br>C10BX: Lipid modifying agents in combination with other drugs<br>C10B: Lipid modifying agents, combinations<br>C10: Lipid modifying agents<br>C: Cardiovascular system<br>"
+    },
+    {
+      "code": "C07FX02",
+      "hierarchy": "C07FX02: Sotalol and acetylsalicylic acid<br>C07FX: Beta blocking agents, other combinations<br>C07F: Beta blocking agents, other combinations<br>C07: Beta blocking agents<br>C: Cardiovascular system<br>"
+    }
+  ],
+  "external_links": {
+    "DrugBank": "https://go.drugbank.com/drugs/DB00945",
+    "ChEBI": "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=15365",
+    "PubChem Substance": "http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46505803",
+    "KEGG Compound": "http://www.genome.jp/dbget-bin/www_bget?cpd:C01405",
+    "KEGG Drug": "http://www.genome.jp/dbget-bin/www_bget?drug:D00109",
+    "ChemSpider": "http://www.chemspider.com/Chemical-Structure.2157.html",
+    "BindingDB": "http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=22360",
+    "PharmGKB": "http://www.pharmgkb.org/drug/PA448497",
+    "Therapeutic Targets Database": "http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000843",
+    "Guide to Pharmacology": "http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=4139",
+    "Wikipedia": "https://en.wikipedia.org/wiki/Aspirin",
+    "ChEMBL": "https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL25/",
+    "ZINC": "https://zinc.docking.org/substances/ZINC000000000053"
+  }
+}
+{
+  "file": "interact_2728.html",
+  "severity": "Major",
+  "mechanism_tags": [
+    "Synergy"
+  ],
+  "interaction_description": "Coadministration of acalabrutinib and drugs that interfere with platelet function or coagulation may potentiate the risk of bleeding complications.",
+  "management_advice": "Concomitant use of acalabrutinib in patients receiving other medications that interfere with platelet function or coagulation should be approached with caution. Close clinical and laboratory monitoring for bleeding complications is recommended during therapy. Patients should be advised to promptly report any signs and symptoms of bleeding to their physician.",
+  "references": [
+    "[1] \"Product Information. Calquence (acalabrutinib).\" Astra-Zeneca Pharmaceuticals, Wilmington, DE.",
+    "[2] \"Product Information. Calquence (acalabrutinib).\" Astra-Zeneca Pharmaceuticals, Wilmington, DE.",
+    "[3] \"Product Information. Brukinsa (zanubrutinib).\" BeiGene USA, Inc, San Mateo, CA."
+  ],
+  "alternatives_drug_a": {
+    "target": "Acetylsalicylic acid",
+    "list": [
+      {
+        "name": "Protein C",
+        "link": "/server/drug-detail/DDInter1542/"
+      },
+      {
+        "name": "Acenocoumarol",
+        "link": "/server/drug-detail/DDInter13/"
+      },
+      {
+        "name": "Selexipag",
+        "link": "/server/drug-detail/DDInter1656/"
+      },
+      {
+        "name": "Felodipine",
+        "link": "/server/drug-detail/DDInter716/"
+      },
+      {
+        "name": "Propranolol",
+        "link": "/server/drug-detail/DDInter1539/"
+      },
+      {
+        "name": "Metoprolol",
+        "link": "/server/drug-detail/DDInter1200/"
+      },
+      {
+        "name": "Carvedilol",
+        "link": "/server/drug-detail/DDInter305/"
+      },
+      {
+        "name": "Nebivolol",
+        "link": "/server/drug-detail/DDInter1271/"
+      },
+      {
+        "name": "Bisoprolol",
+        "link": "/server/drug-detail/DDInter216/"
+      },
+      {
+        "name": "Ivabradine",
+        "link": "/server/drug-detail/DDInter996/"
+      },
+      {
+        "name": "Sotalol",
+        "link": "/server/drug-detail/DDInter1704/"
+      }
+    ]
+  },
+  "alternatives_drug_b": {
+    "target": "Acalabrutinib",
+    "list": [
+      {
+        "name": "Entrectinib",
+        "link": "/server/drug-detail/DDInter648/"
+      },
+      {
+        "name": "Pralsetinib",
+        "link": "/server/drug-detail/DDInter1504/"
+      },
+      {
+        "name": "Dabrafenib",
+        "link": "/server/drug-detail/DDInter462/"
+      },
+      {
+        "name": "Asciminib",
+        "link": "/server/drug-detail/DDInter1998/"
+      },
+      {
+        "name": "Dacomitinib",
+        "link": "/server/drug-detail/DDInter465/"
+      },
+      {
+        "name": "Pexidartinib",
+        "link": "/server/drug-detail/DDInter1435/"
+      },
+      {
+        "name": "Pacritinib",
+        "link": "/server/drug-detail/DDInter2037/"
+      },
+      {
+        "name": "Tepotinib",
+        "link": "/server/drug-detail/DDInter2050/"
+      },
+      {
+        "name": "Fedratinib",
+        "link": "/server/drug-detail/DDInter714/"
+      },
+      {
+        "name": "Larotrectinib",
+        "link": "/server/drug-detail/DDInter1026/"
+      },
+      {
+        "name": "Bosutinib",
+        "link": "/server/drug-detail/DDInter224/"
+      }
+    ]
+  }
+}

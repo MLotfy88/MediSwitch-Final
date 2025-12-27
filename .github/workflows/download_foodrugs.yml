@@ -1,0 +1,45 @@
+name: Download FooDrugs v4
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download-and-process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Create directory
+      run: mkdir -p assets/external_research_data
+
+    - name: Download FooDrugs v4
+      run: |
+        echo "Downloading FooDrugs v4..."
+        curl -L -o assets/external_research_data/FinalFooDrugs_v4.sql "https://zenodo.org/records/8192515/files/FinalFooDrugs_v4.sql?download=1"
+
+    - name: Compress and Split (Chunking)
+      run: |
+        cd assets/external_research_data
+        echo "Compressing and splitting into 90MB chunks..."
+        # Compress using gzip and pipe to split
+        # This creates files named FinalFooDrugs_v4.sql.gz.aa, .ab, etc.
+        tar -czf - FinalFooDrugs_v4.sql | split -b 90M - FinalFooDrugs_v4.sql.tar.gz.part_
+        
+        # Remove the original huge file to avoid committing it
+        rm FinalFooDrugs_v4.sql
+        
+        echo "Created chunks:"
+        ls -lh FinalFooDrugs_v4.sql.tar.gz.part_*
+
+    - name: Commit and Push
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        
+        git add assets/external_research_data/FinalFooDrugs_v4.sql.tar.gz.part_*
+        git commit -m "Add downloaded and split FooDrugs v4 dataset"
+        git push

@@ -1,0 +1,98 @@
+{
+  "DDInter1": {
+    "metadata": {
+      "id": "DDInter1",
+      "url": "https://ddinter2.scbdd.com/server/drug-detail/DDInter1/",
+      "type": "small molecule",
+      "formula": "C14H18N6O",
+      "weight": "286.332",
+      "cas": "136470-78-5",
+      "description": "Abacavir (ABC) is a powerful nucleoside analog reverse transcriptase inhibitor (NRTI) used to treat HIV and AIDS. Chemically, it is a synthetic carbocyclic nucleoside and is the enantiomer with 1S, 4R absolute configuration on the cyclopentene ring. In vivo, abacavir sulfate dissociates to its free base, abacavir.",
+      "atc": [
+        {
+          "code": "J05AR13",
+          "hierarchy": "J05AR13: Lamivudine, abacavir and dolutegravir<br>J05AR: Antivirals for treatment of hiv infections, combinations<br>J05A: Direct acting antivirals<br>J05: Antivirals for systemic use<br>J: Antiinfectives for systemic use<br>"
+        },
+        {
+          "code": "J05AR02",
+          "hierarchy": "J05AR02: Abacavir/lamivudine<br>J05AR: Antivirals for treatment of hiv infections, combinations<br>J05A: Direct acting antivirals<br>J05: Antivirals for systemic use<br>J: Antiinfectives for systemic use<br>"
+        },
+        {
+          "code": "J05AR04",
+          "hierarchy": "J05AR04: Abacavir/lamivudine/zidovudine<br>J05AR: Antivirals for treatment of hiv infections, combinations<br>J05A: Direct acting antivirals<br>J05: Antivirals for systemic use<br>J: Antiinfectives for systemic use<br>"
+        },
+        {
+          "code": "J05AF06",
+          "hierarchy": "J05AF06: Abacavir<br>J05AF: Nucleoside and nucleotide reverse transcriptase inhibitors<br>J05A: Direct acting antivirals<br>J05: Antivirals for systemic use<br>J: Antiinfectives for systemic use<br>"
+        }
+      ]
+    },
+    "interaction_list": []
+  },
+  "DDInter10": {
+    "metadata": {
+      "id": "DDInter10",
+      "url": "https://ddinter2.scbdd.com/server/drug-detail/DDInter10/",
+      "type": "small molecule",
+      "formula": "C5H11NO4S",
+      "weight": "181.210",
+      "cas": "77337-76-9",
+      "description": "Alcohol use disorder is responsible for a large worldwide burden of morbidity, premature mortality, and economic consequences resulting from accidents, violence, incarceration, decreased productivity, and increased healthcare spending.[A229073] Acamprosate, also known by the brand name Campral, is a drug used for the maintenance of alcohol abstinence. It is a structural analogue of the neurotransmitter γ-aminobutyric acid (GABA).[L31758] Acamprosate is the first medication specifically formulated for the maintenance of alcohol abstinence in ethanol-dependent patients after alcohol detoxification[A997], unlike [naltrexone] and [disulfiram]. It was first approved by the FDA in 2004 and initially marketed by Forest Laboratories.[L31783]",
+      "atc": [
+        {
+          "code": "N07BB03",
+          "hierarchy": "N07BB03: Acamprosate<br>N07BB: Drugs used in alcohol dependence<br>N07B: Drugs used in addictive disorders<br>N07: Other nervous system drugs<br>N: Nervous system<br>"
+        }
+      ]
+    },
+    "interaction_list": []
+  },
+  "DDInter100": {
+    "metadata": {
+      "id": "DDInter100",
+      "url": "https://ddinter2.scbdd.com/server/drug-detail/DDInter100/",
+      "type": "biotech",
+      "formula": "None",
+      "weight": "-",
+      "cas": "-",
+      "description": "Anthrax vaccine is a vaccine used for the pre- or post-exposure prophylaxis of disease in at high risk of, suspected or confirmed exposure to *Bacillus anthracis*. It is subcutaneously or intramuscularly administered. It is derived from cell-free filtrates of microaerophilic cultures of an avirulent, nonencapsulated strain of Bacillus anthracis which are grown in a chemically defined protein-free medium [FDA Label]."
+    },
+    "interaction_list": []
+  },
+  "DDInter1000": {
+    "metadata": {
+      "id": "DDInter1000",
+      "url": "https://ddinter2.scbdd.com/server/drug-detail/DDInter1000/",
+      "type": "small molecule",
+      "formula": "C28H22ClF3N6O3",
+      "weight": "582.970",
+      "cas": "1448347-49-6",
+      "description": "Ivosidenib is a first-in-class isocitrate dehydrogenase-1 (IDH1) inhibitor. IDH1 is an enzyme that is often mutated and overexpressed in some cancers, leading to aberrant cell growth and proliferation.[A248750] Ivosidenib inhibits mutated IDH1, blocking the enzymatic activity and further differentiation of cancer cells.[A248745] Ivosidenib was granted accelerated approval by the FDA in July 2018 for the treatment of relapsed of refractory acute myeloid leukemia in adults.[A248745] It is currently approved to also treat newly diagnosed acute myeloid leukemia in older adults in combination [azacitidine] or as monotherapy, as well as locally advanced or metastatic cholangiocarcinoma in adults. The drug is only effective in patients with a susceptible IDH1 mutation.[L41870]",
+      "atc": [
+        {
+          "code": "L01XX62",
+          "hierarchy": "L01XX62: Ivosidenib<br>L01XX: Other antineoplastic agents<br>L01X: Other antineoplastic agents<br>L01: Antineoplastic agents<br>L: Antineoplastic and immunomodulating agents<br>"
+        }
+      ]
+    },
+    "interaction_list": []
+  },
+  "DDInter1001": {
+    "metadata": {
+      "id": "DDInter1001",
+      "url": "https://ddinter2.scbdd.com/server/drug-detail/DDInter1001/",
+      "type": "small molecule",
+      "formula": "C27H42N2O5S",
+      "weight": "506.700",
+      "cas": "219989-84-1",
+      "description": "Ixabepilone is an epothilone B analog developed by Bristol-Myers Squibb as a cancer drug. It was FDA approved on October 16, 2007, for the treatment of unresponsive aggressive metastatic or locally advanced breast cancer. Ixabepilone is administered through injection, and will be marketed under the trade name Ixempra. Ixabepilone is a semisynthetic analogue of epothilone B. It has a lactone–lactam modification that minimizes susceptibility to esterase degradation.",
+      "atc": [
+        {
+          "code": "L01DC04",
+          "hierarchy": "L01DC04: Ixabepilone<br>L01DC: Other cytotoxic antibiotics<br>L01D: Cytotoxic antibiotics and related substances<br>L01: Antineoplastic agents<br>L: Antineoplastic and immunomodulating agents<br>"
+        }
+      ]
+    },
+    "interaction_list": []
+  }
+}

@@ -1,0 +1,1207 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>DDInter 2.0</title>
+    <link rel="stylesheet" href="/static/common/layui/css/layui.css">
+    <script src="/static/common/layui/layui.js"></script>
+    
+    <link rel="stylesheet" href="/static/common/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <link href="/static/common/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/static/home/css/style.css"/>
+    <script src="/static/common/js/jquery.min.js"></script>
+    
+    <script src="/static/common/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/common/nav/css/style.css"/>
+        <script src="/static/common/nav/js/style.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="/static/common/footer/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/static/common/banner/css/style.css"/>
+
+    <link rel="stylesheet" href="/static/services/css/jquery.dataTables.min.css">
+    <script src="/static/services/js/jquery.dataTables.min.js"></script>
+
+    
+    <link href="/static/common/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="antin-container">
+    
+        
+<style>
+    .box-with-border {
+        border-bottom: 1px solid rgb(6, 101, 183); /* 边框样式，2px 宽度，颜色 #333 */
+    
+    }
+
+    /* 添加阴影 */
+    .box-with-shadow {
+        box-shadow: 0 0 10px 0 rgba(6, 101, 183, 0.3); /* x偏移、y偏移、模糊度、颜色（rgba格式） */
+    
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+</style>
+<header class="header-area overlay box-with-border box-with-shadow" style="">
+    <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
+        <div class="offset-1 col-10 d-flex align-items-center justify-content-between">
+            <a href="/" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="/static/favicon.ico" width="45" height="45"
+                     class="d-inline-block justify-content-center align-items-center me-2" alt=""/>
+                <h1 class="" style="font-family: 'Lobster', sans-serif">DDInter 2.0</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-atom"></i> Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/server/drug/">Drug</a></li>
+                            <li><a class="dropdown-item" href="/server/dis_food/">Disease</a></li>
+                            <li><a class="dropdown-item" href="/server/interaction/">Drug-Drug
+                                Interaction</a></li>
+                            <li><a class="dropdown-item" href="/server/other_interaction/">Drug-Others
+                                Interaction</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inter-checker/">
+                            <i class="fab fa-staylinked nav-icon"></i>
+                            Interaction Checker
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                            <i class="far fa-file-alt"></i> About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/explanation/">Explanation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/statistics/">Statistics</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/tutorials/">Tutorials</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/terms/">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/"><i class="fas fa-id-card"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+
+    
+
+
+    <div class="antin-contain">
+        
+    
+
+
+<link rel="stylesheet" href="/static/home/css/header.css">
+<link rel="stylesheet" href="/static/services/interaction/detail/style.css">
+<link rel="stylesheet" href="/static/services/interaction/style.css">
+<script src="/static/services/js/echarts.js"></script>
+<script src="/static/services/database/js/renderLineMarker.js"></script>
+<style>
+    table td.key, td.value {
+        padding: 15px 25px 15px 25px;
+        color: rgb(102, 102, 102);
+    }
+
+    table td.key {
+        font-weight: 600;
+    }
+
+    .sub-title {
+        /*background-color: #404E69;*/
+        background: #33619B;
+        color: white;
+        padding-left: 20px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-family: Poppins, serif;
+        font-weight: 600;
+    }
+
+    .blockquote-info {
+        border-left: 4px solid #33619B;
+        padding: 10px 15px 10px 15px;
+        line-height: 2rem;
+    }
+</style>
+<script>
+    function plotLineMarker() {
+        $.getJSON("/server/linkmarker/2728/", function (data) {
+            renderLineMarker(data);
+        });
+    }
+</script>
+<main class="">
+    <div class="offset-1 col-10 mt-5 mb-5">
+        <div class="p-3" role="alert" style="word-break:break-all;border: 2px solid rgb(38,97,158)">
+            <div class="py-1 d-flex align-items-center justify-content-between">
+                <div class="" style="font-size: 1.1rem">
+                    <span class="d-flex align-items-center">Interaction between <strong class="mx-2">
+                        Acetylsalicylic acid</strong>
+                        and
+                        <strong class="mx-2">Acalabrutinib</strong></span>
+                    
+                        <span class="badge rounded-pill" style="background-color:#a8456b">Major</span>
+                    
+
+                    
+                        
+                            <span class="badge rounded-pill" style="background-color:#cf7543">Synergy</span>
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-title mt-3"><i class="fas fa-arrow-right"></i> Basic Information</div>
+
+        <table class="table table-hover table-bordered align-middle">
+            <colgroup>
+                <col width="20%">
+                <col width="">
+            </colgroup>
+            <tbody>
+            <tr></tr>
+            <tr>
+                <td class="key">ID</td>
+                <td style="font-weight: 700" class="value"><a
+                        href="/server/drug-detail/DDInter20/">
+                    DDInter20</a>
+                    and
+                    <a href="/server/drug-detail/DDInter9/">
+                        DDInter9</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Interaction</td>
+                <td style="text-align: justify" class="value">
+                    Coadministration of acalabrutinib and drugs that interfere with platelet function or coagulation may potentiate the risk of bleeding complications.
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Management</td>
+                <td style="text-align: justify" class="value">
+                    
+                        Concomitant use of acalabrutinib in patients receiving other medications that interfere with platelet function or coagulation should be approached with caution. Close clinical and laboratory monitoring for bleeding complications is recommended during therapy. Patients should be advised to promptly report any signs and symptoms of bleeding to their physician.
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">References</td>
+                <td id="reference-text" style="text-align: justify;font-style: italic" class="value">
+                    
+                        
+                            <span class="d-block my-2">[1] &quot;Product Information. Calquence (acalabrutinib).&quot; Astra-Zeneca Pharmaceuticals, Wilmington, DE.</span>
+                        
+                            <span class="d-block my-2">[2] &quot;Product Information. Calquence (acalabrutinib).&quot; Astra-Zeneca Pharmaceuticals, Wilmington, DE.</span>
+                        
+                            <span class="d-block my-2">[3] &quot;Product Information. Brukinsa (zanubrutinib).&quot; BeiGene USA, Inc, San Mateo, CA.</span>
+                        
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Alternative for <span style="color: #a94442"
+                >Acetylsalicylic acid</span>
+                    <i class="fas fa-info-circle"
+                       data-tippy-content="The alternatives are based on the third level (pharmacological subgroup) of ATC codes."></i>
+                </td>
+                <td class="value">
+                    
+                        
+                            
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">B01A</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter1542/" class="col-md-2">
+                                            Protein C
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter13/" class="col-md-2">
+                                            Acenocoumarol
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1656/" class="col-md-2">
+                                            Selexipag
+                                        </a>
+                                    
+                                    </div>
+                            
+                                
+                                    <br>
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">C07F</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter716/" class="col-md-2">
+                                            Felodipine
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1539/" class="col-md-2">
+                                            Propranolol
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1200/" class="col-md-2">
+                                            Metoprolol
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter305/" class="col-md-2">
+                                            Carvedilol
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1271/" class="col-md-2">
+                                            Nebivolol
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter216/" class="col-md-2">
+                                            Bisoprolol
+                                        </a>
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter996/" class="col-md-2">
+                                            Ivabradine
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1704/" class="col-md-2">
+                                            Sotalol
+                                        </a>
+                                    
+                                    </div>
+                            
+                            <a href="javascript:void(0);" onclick="changeCandidateContext($(this))" isDetail="true"
+                               class="col-md-2 more-hide" style="color: #a94442">
+                                More
+                            </a>
+                        
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Alternative for <span
+                        style="color: #a94442">Acalabrutinib</span>
+                    <i class="fas fa-info-circle"
+                       data-tippy-content="The alternatives are based on the third level (pharmacological subgroup) of ATC codes."></i>
+                </td>
+                <td class="value">
+                    
+                        
+                            
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">L01E</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter648/" class="col-md-2">
+                                            Entrectinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1504/" class="col-md-2">
+                                            Pralsetinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter462/" class="col-md-2">
+                                            Dabrafenib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1998/" class="col-md-2">
+                                            Asciminib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter465/" class="col-md-2">
+                                            Dacomitinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1435/" class="col-md-2">
+                                            Pexidartinib
+                                        </a>
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter2037/" class="col-md-2">
+                                            Pacritinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2050/" class="col-md-2">
+                                            Tepotinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter714/" class="col-md-2">
+                                            Fedratinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1026/" class="col-md-2">
+                                            Larotrectinib
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter224/" class="col-md-2">
+                                            Bosutinib
+                                        </a>
+                                    
+                                    </div>
+                            
+                            <a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" isDetail="true"
+                               class="col-md-2 more-hide" style="color: #a94442">
+                                More
+                            </a>
+                        
+                    
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        
+
+        <div class="sub-title mt-3"><i class="fas fa-arrow-right"></i> Potential Metabolism Interactions</div>
+        <div class="row mt-5">
+            <div class="contain" style="position: relative; width: 100%; height: 400px;">
+                <div id="lineMarker" style="width: 100%; height: 100%;"></div>
+            </div>
+        </div>
+
+        <blockquote class="blockquote-info" style="text-align: justify;">
+            <strong><i class="fas fa-star"></i> Substrate-Substrate Interaction</strong>：If more than one drug is
+            metabolized by the same CYP, it is
+            possible that its metabolism is inhibited because of the competition between the drugs. That means, it
+            can
+            be useful to lower the dosage of the drugs in the drug-cocktail because they remain longer in the
+            organism
+            than in monotherapy. <br>
+            <strong><i class="fas fa-star"></i> Inhibitor-Inhibitor Interaction</strong>：Combining two or more
+            inhibitors of one CYP, should be
+            compensated by lowering the dosage of these drugs because the metabolism is reduced and the drugs remain
+            longer in the organism than in monotherapy. Not adapting the dosage bears the risk of even more side
+            effects. <br>
+            <strong><i class="fas fa-star"></i> Inhibitor-Substrate Interaction</strong>：Combining drugs that have
+            inhibitory effect and are
+            substrates of one particular CYP, should be compensated by lowering the dosage. They rest longer in the
+            organism than in monotherapy. Not adapting the dosage bears the risk of even more side effects.
+        </blockquote>
+        
+    </div>
+</main>
+<script src="/static/common/js/popper.min.js"></script>
+<script src="/static/common/js/tippy-bundle.umd.min.js"></script>
+<script>plotLineMarker()</script>
+<script>
+    tippy('[data-tippy-content]', {
+        maxWidth: 'none',
+        role: 'tooltip',
+        allowHTML: true,
+    });
+
+    function changeShowRemarks(obj, max_length) {//obj是td
+        var content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {//当前显示的是详细备注，切换到显示部分
+                //$(obj).removeAttr('isDetail');//remove也可以
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksHtml(content, max_length));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksHtml(content));
+            }
+        }
+    }
+
+    function getPartialRemarksHtml(remarks, max_length) {
+        return remarks.substr(0, max_length) + '...&nbsp;&nbsp;<a href="javascript:void(0);" >More</a>';
+    }
+
+    function getTotalRemarksHtml(remarks) {
+        return remarks + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function set_show_hide_init(item, max_length, content) {
+        if (content.length > max_length) {
+            item.attr('onclick', 'javascript:changeShowRemarks(this, ' + max_length + ');');
+            item.html(getPartialRemarksHtml(content, max_length));
+        }
+        item.attr('content', content);
+        item.attr('style', 'word-break: break-all;');
+    }
+
+    var all_candidate_a_html = '';
+    var part_candidate_a_html = '';
+    
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">B01A</span>';
+            
+                all_candidate_a_html += base_str
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1542/" class="col-md-2">Protein C</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter13/" class="col-md-2">Acenocoumarol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1656/" class="col-md-2">Selexipag</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">C07F</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter716/" class="col-md-2">Felodipine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1539/" class="col-md-2">Propranolol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1200/" class="col-md-2">Metoprolol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter305/" class="col-md-2">Carvedilol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1271/" class="col-md-2">Nebivolol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter216/" class="col-md-2">Bisoprolol</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter996/" class="col-md-2">Ivabradine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1704/" class="col-md-2">Sotalol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter130/" class="col-md-2">Atenolol</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">C10B</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1565/" class="col-md-2">Ramipril</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1915/" class="col-md-2">Valsartan</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1675/" class="col-md-2">Simvastatin</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter133/" class="col-md-2">Atorvastatin</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1098/" class="col-md-2">Lovastatin</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1622/" class="col-md-2">Rosuvastatin</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1079/" class="col-md-2">Lisinopril</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1431/" class="col-md-2">Perindopril</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1286/" class="col-md-2">Niacin</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1509/" class="col-md-2">Pravastatin</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter707/" class="col-md-2">Ezetimibe</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter176/" class="col-md-2">Bempedoic acid</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter916/" class="col-md-2">Indapamide</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter718/" class="col-md-2">Fenofibrate</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">M01B</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02B</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2085/" class="col-md-2">Salicylic acid</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter14/" class="col-md-2">Acetaminophen</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter370/" class="col-md-2">Choline salicylate</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1960/" class="col-md-2">Ziconotide</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1179/" class="col-md-2">Methoxyflurane</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1637/" class="col-md-2">Salsalate</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02A</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1263/" class="col-md-2">Naltrexone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1372/" class="col-md-2">Oxymorphone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1366/" class="col-md-2">Oxycodone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1166/" class="col-md-2">Methadone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1421/" class="col-md-2">Pentazocine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter251/" class="col-md-2">Buprenorphine</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1329/" class="col-md-2">Oliceridine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1244/" class="col-md-2">Morphine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter258/" class="col-md-2">Butorphanol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter722/" class="col-md-2">Fentanyl</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter429/" class="col-md-2">Codeine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1257/" class="col-md-2">Nalbuphine</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter14/" class="col-md-2">Acetaminophen</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1841/" class="col-md-2">Tramadol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter556/" class="col-md-2">Dihydrocodeine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1262/" class="col-md-2">Naloxone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1746/" class="col-md-2">Tapentadol</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1150/" class="col-md-2">Meperidine</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter890/" class="col-md-2">Hydromorphone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter531/" class="col-md-2">Dezocine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1344/" class="col-md-2">Opium</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter528/" class="col-md-2">Dextropropoxyphene</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter336/" class="col-md-2">Celecoxib</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">A01A</span>';
+            
+                all_candidate_a_html += ('<br> ' + base_str)
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1783/" class="col-md-2">Tetracycline</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1224/" class="col-md-2">Minocycline</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter85/" class="col-md-2">Amphotericin B</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter598/" class="col-md-2">Doxycycline</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter885/" class="col-md-2">Hydrocortisone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1202/" class="col-md-2">Metronidazole</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1513/" class="col-md-2">Prednisolone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1855/" class="col-md-2">Triamcinolone</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter652/" class="col-md-2">Epinephrine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter356/" class="col-md-2">Chlorhexidine</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1277/" class="col-md-2">Neomycin</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">B01A</span>';
+            
+                part_candidate_a_html += base_str;
+            
+            
+                
+                    part_candidate_a_html += '</div>';
+                    part_candidate_a_html += '<div class="row">';
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1542/" class="col-md-2">Protein C</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter13/" class="col-md-2">Acenocoumarol</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1656/" class="col-md-2">Selexipag</a>';
+            
+            part_candidate_a_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">C07F</span>';
+            
+                part_candidate_a_html += ('<br> ' + base_str);
+            
+            
+                
+                    part_candidate_a_html += '</div>';
+                    part_candidate_a_html += '<div class="row">';
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter716/" class="col-md-2">Felodipine</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1539/" class="col-md-2">Propranolol</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1200/" class="col-md-2">Metoprolol</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter305/" class="col-md-2">Carvedilol</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1271/" class="col-md-2">Nebivolol</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter216/" class="col-md-2">Bisoprolol</a>';
+            
+                
+                    part_candidate_a_html += '</div>';
+                    part_candidate_a_html += '<div class="row">';
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter996/" class="col-md-2">Ivabradine</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1704/" class="col-md-2">Sotalol</a>';
+            
+            part_candidate_a_html += '</div>';
+        
+
+        function changeCandidateContext(object) {
+            if (object.attr("isDetail") === 'false') {      //显示的是全部
+                let html_text = part_candidate_a_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidateContext($(this))" ' +
+                    'class="more-hide" isDetail="true"><div class="col-md-2" style="color: #a94442">More</div></a>'
+                object.parents('td').html(html_text);
+                
+            } else {//当前显示的是部分
+                let html_text = all_candidate_a_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidateContext($(this))" ' +
+                    'class="more-hide" isDetail="false"><div class="col-md-2" style="color: #a94442">Hide</div></a>'
+                object.parents('td').html(html_text);
+                
+            }
+        }
+    
+
+    var all_candidate_b_html = '';
+    var part_candidate_b_html = '';
+    
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">L01E</span>';
+            
+                all_candidate_b_html += base_str
+            
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter648/" class="col-md-2">Entrectinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1504/" class="col-md-2">Pralsetinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter462/" class="col-md-2">Dabrafenib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1998/" class="col-md-2">Asciminib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter465/" class="col-md-2">Dacomitinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1435/" class="col-md-2">Pexidartinib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2037/" class="col-md-2">Pacritinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2050/" class="col-md-2">Tepotinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter714/" class="col-md-2">Fedratinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1026/" class="col-md-2">Larotrectinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter224/" class="col-md-2">Bosutinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1925/" class="col-md-2">Vemurafenib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1024/" class="col-md-2">Lapatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1588/" class="col-md-2">Ribociclib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1917/" class="col-md-2">Vandetanib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter425/" class="col-md-2">Cobimetinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter287/" class="col-md-2">Capmatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter32/" class="col-md-2">Afatinib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter612/" class="col-md-2">Duvelisib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1820/" class="col-md-2">Tivozanib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter233/" class="col-md-2">Brigatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter640/" class="col-md-2">Encorafenib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1094/" class="col-md-2">Lorlatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1658/" class="col-md-2">Selpercatinib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter147/" class="col-md-2">Axitinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1731/" class="col-md-2">Sunitinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1601/" class="col-md-2">Ripretinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter53/" class="col-md-2">Alpelisib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1628/" class="col-md-2">Ruxolitinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1293/" class="col-md-2">Nilotinib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1036/" class="col-md-2">Lenvatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1281/" class="col-md-2">Neratinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter661/" class="col-md-2">Erdafitinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1352/" class="col-md-2">Osimertinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2046/" class="col-md-2">Infigratinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter39/" class="col-md-2">Alectinib</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter210/" class="col-md-2">Binimetinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter817/" class="col-md-2">Gilteritinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2108/" class="col-md-2">Futibatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1891/" class="col-md-2">Tucatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1214/" class="col-md-2">Midostaurin</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1763/" class="col-md-2">Temsirolimus</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter7/" class="col-md-2">Abemaciclib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1842/" class="col-md-2">Trametinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter448/" class="col-md-2">Crizotinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter905/" class="col-md-2">Idelalisib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter340/" class="col-md-2">Ceritinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter704/" class="col-md-2">Everolimus</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1415/" class="col-md-2">Pemigatinib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter441/" class="col-md-2">Copanlisib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1400/" class="col-md-2">Pazopanib</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1379/" class="col-md-2">Palbociclib</a>';
+            
+            all_candidate_b_html += '</div>';
+        
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">L01E</span>';
+            
+                part_candidate_b_html += base_str
+            
+            
+                
+                    part_candidate_b_html += '</div>';
+                    part_candidate_b_html += '<div class="row">';
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter648/" class="col-md-2">Entrectinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1504/" class="col-md-2">Pralsetinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter462/" class="col-md-2">Dabrafenib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1998/" class="col-md-2">Asciminib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter465/" class="col-md-2">Dacomitinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1435/" class="col-md-2">Pexidartinib</a>';
+            
+                
+                    part_candidate_b_html += '</div>';
+                    part_candidate_b_html += '<div class="row">';
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2037/" class="col-md-2">Pacritinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2050/" class="col-md-2">Tepotinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter714/" class="col-md-2">Fedratinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1026/" class="col-md-2">Larotrectinib</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter224/" class="col-md-2">Bosutinib</a>';
+            
+            part_candidate_b_html += '</div>';
+        
+        function changeCandidatebContext(object) {
+            if (object.attr("isDetail") === 'false') {      //显示的是全部
+                let html_text = part_candidate_b_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" ' +
+                    'class="more-hide" isDetail="true"><div class="col-md-2" style="color: #a94442">More</div></a>'
+                object.parents('td').html(html_text);
+                
+            } else {//当前显示的是部分
+                let html_text = all_candidate_b_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" ' +
+                    'class="more-hide" isDetail="false"><div class="col-md-2" style="color: #a94442">Hide</div></a>'
+                object.parents('td').html(html_text);
+                
+            }
+        }
+    
+</script>
+
+    </div>
+    
+        
+
+<footer class="site-footer" id="footer">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="copyright">
+      &copy; Copyright &nbsp; <a href="http://www.scbdd.com/" target="_blank">Computational Biology & Drug DesignGroup</a>. All Rights Reserved<div class="heart d-inline-block mx-2"></div>
+      
+    </div>
+    <div style="width: 200px;">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=TXcYuwgsTf230Gc363rPwJc4RS20yZ5QOakSiw4gHgw&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .heart {
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    position: relative;
+    filter: drop-shadow(0px 0px 20px rgb(255, 20, 20));
+    transform: rotate(45deg);
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    border-radius: 5px;
+  }
+  
+  .heart:before {
+    left: -5px;
+  }
+  
+  .heart:after {
+    left: 0;
+    top: -5px;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+    25% {
+      transform: rotate(45deg) scale(1, 1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+  }
+</style>
+
+    
+</div>
+</body>
+
+
+
+</html>
