@@ -23,10 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run Scraper (Full V7 - Stealth Mode)
+      - name: Run Scraper (V7 GitHub - Nuclear Mode)
         run: |
           cd assets/external_research_data
-          python -u bulk_scraper_v7.py
+          python -u bulk_scraper_v7_github.py
 
       - name: Archive and Split Large Files
         run: |

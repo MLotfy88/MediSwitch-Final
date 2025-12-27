@@ -54,6 +54,8 @@ cp /storage/E7FF-5A04/Download/py/ddinter_inter_cache.json ~/
 1. `ddinter_exhaustive_v7_turbo.json` (البيانات الكاملة)
 2. `ddinter_drugs_metadata_v7_turbo.csv` (بيانات الأدوية)
 3. `ddinter_interactions_v7_turbo.csv` (بيانات التفاعلات)
+4. `ddinter_food_disease_metabolism_v7_turbo.csv` (الطعام، الأمراض، التمثيل الغذائي، والمستحضرات المركبة)
+5. `ddinter_inter_cache.json` (الكاش - للاستئناف السريع)
 
 ### كيف تنقل الملفات لذاكرة الموبايل العادية؟
 لرؤية الملفات في تطبيق "ملفاتي" (My Files) أو نسخها للكمبيوتر، استخدم هذه الأوامر لنقلها لمجلد التحميلات (Download):
