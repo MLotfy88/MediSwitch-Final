@@ -213,9 +213,40 @@ class DDInterScraperV7Turbo:
             drugs_processed_this_session += 1
 
     def export_csv(self):
-        print("\n>>> EXPORTING CSV (TURBO)...", flush=True)
-        # Simplified export same as V7
-        pass 
+        print("\n>>> FINALIZING DATA STRUCTURES FOR CSV EXPORT (TURBO)...", flush=True)
+        # Metadata
+        with open("ddinter_drugs_metadata_v7_turbo.csv", "w", newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, fieldnames=["id", "name", "type", "formula", "weight", "cas", "iupac", "inchi", "smiles", "atc_primary", "atc_others", "links", "url"])
+            w.writeheader()
+            for d_id, d_val in self.results.items():
+                if d_val.get("status") != "completed": continue
+                m = d_val["metadata"]
+                atcs = m.get("atc", [])
+                w.writerow({
+                    "id": d_id, "name": m.get("name", ""), "type": m.get("type", ""), "formula": m.get("formula", ""),
+                    "weight": m.get("weight", ""), "cas": m.get("cas", ""), "iupac": m.get("iupac", ""), "inchi": m.get("inchi", ""),
+                    "smiles": m.get("smiles", ""), "atc_primary": atcs[0]["code"] if atcs else "",
+                    "atc_others": "; ".join([x["code"] for x in atcs[1:]]),
+                    "links": "; ".join([f"{k}: {v}" for k,v in m.get("links", {}).items()]),
+                    "url": m.get("url", "")
+                })
+
+        # Interactions
+        with open("ddinter_interactions_v7_turbo.csv", "w", newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, fieldnames=["drug_a_id", "drug_a_name", "drug_b_id", "drug_b_name", "severity", "mechanisms", "description", "management", "idx", "references", "url"])
+            w.writeheader()
+            for d_id, d_val in self.results.items():
+                if d_val.get("status") != "completed": continue
+                name_a = d_val["metadata"].get("name", "")
+                for inter in d_val["interactions"]:
+                    w.writerow({
+                        "drug_a_id": d_id, "drug_a_name": name_a, "drug_b_id": inter.get("drug_id", ""), "drug_b_name": inter.get("drug_name", ""),
+                        "severity": inter.get("severity", inter.get("level", "")), "mechanisms": "; ".join(inter.get("mechanisms", []) if isinstance(inter.get("mechanisms"), list) else []),
+                        "description": inter.get("description", ""), "management": inter.get("management", ""),
+                        "idx": inter.get("interaction_id", ""), "references": " | ".join(inter.get("references", [])),
+                        "url": INTERACT_DETAIL_URL.format(id=inter.get("interaction_id", ""))
+                    })
+        print(">>> SUCCESS: CSV OUTPUTS GENERATED.", flush=True)
 
 if __name__ == "__main__":
     def get_full_ids():
@@ -224,4 +255,5 @@ if __name__ == "__main__":
 
     scraper = DDInterScraperV7Turbo(get_full_ids())
     scraper.run()
+    scraper.export_csv()
     print(">>> TURBO RUN COMPLETE.", flush=True)
