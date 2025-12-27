@@ -3,18 +3,19 @@ import os
 import random
 import time
 import datetime
-
-# IMMEDIATE UNBUFFERED OUTPUT - TURBO MODE
-print(">>> DDInter Scraper V7-TURBO: BOOTING UP...", flush=True)
-print(">>> MODE: ULTRA-HIGH SPEED (LOCAL ONLY)", flush=True)
-print(">>> WARNING: NO STEALTH DELAYS. HIGH RISK OF IP-BAN.", flush=True)
-
+import concurrent.futures
+import threading
 import requests
 from bs4 import BeautifulSoup
 import urllib3
 import json
 import csv
 import re
+
+# IMMEDIATE UNBUFFERED OUTPUT - TURBO MODE
+print(">>> DDInter Scraper V7-TURBO: BOOTING UP...", flush=True)
+print(">>> MODE: ULTRA-HIGH SPEED (LOCAL ONLY)", flush=True)
+print(">>> WARNING: NO STEALTH DELAYS. HIGH RISK OF IP-BAN.", flush=True)
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -43,25 +44,40 @@ def human_delay(level=None):
     """
     TURBO MODE: Delays are minimized to almost zero or very small jitter.
     """
-    # Just a tiny jitter to prevent protocol saturation
     delay = random.uniform(0.1, 0.4)
     time.sleep(delay)
 
 class DDInterScraperV7Turbo:
-    def __init__(self, drug_ids, output_json="ddinter_exhaustive_v7_turbo.json"):
+    def __init__(self, drug_ids, output_json="ddinter_exhaustive_v7_turbo.json", cache_json="ddinter_inter_cache.json"):
         self.drug_ids = drug_ids
         self.output_json = output_json
+        self.cache_json = cache_json
         self.results = {}
+        self.inter_cache = {}
+        self.lock = threading.Lock()
+        
+        # Load existing results
         if os.path.exists(self.output_json):
             try:
                 with open(self.output_json, "r", encoding='utf-8') as f:
                     self.results = json.load(f)
                 print(f">>> Resumed from existing {self.output_json} ({len(self.results)} drugs loaded)", flush=True)
             except: pass
+            
+        # Load interaction cache
+        if os.path.exists(self.cache_json):
+            try:
+                with open(self.cache_json, "r", encoding='utf-8') as f:
+                    self.inter_cache = json.load(f)
+                print(f">>> Interaction Cache loaded: {len(self.inter_cache)} entries.", flush=True)
+            except: pass
 
     def save(self):
-        with open(self.output_json, "w", encoding='utf-8') as f:
-            json.dump(self.results, f, indent=2, ensure_ascii=False)
+        with self.lock:
+            with open(self.output_json, "w", encoding='utf-8') as f:
+                json.dump(self.results, f, indent=2, ensure_ascii=False)
+            with open(self.cache_json, "w", encoding='utf-8') as f:
+                json.dump(self.inter_cache, f, indent=2, ensure_ascii=False)
 
     def fetch_api_data(self, url, referer):
         print(f"  [AJAX Log] Requesting: {url}", flush=True)
@@ -132,6 +148,11 @@ class DDInterScraperV7Turbo:
         return {}
 
     def scrape_interaction_details(self, inter_idx):
+        idx_str = str(inter_idx)
+        # 1. Global Cache Check (Thread safe read)
+        if idx_str in self.inter_cache:
+            return self.inter_cache[idx_str]
+
         url = INTERACT_DETAIL_URL.format(id=inter_idx)
         try:
             res = requests.get(url, headers=HEADERS, verify=False, timeout=60)
@@ -166,6 +187,10 @@ class DDInterScraperV7Turbo:
                             alts = [{"name": clean_text(a.get_text()), "id": a.get('href').split('/')[-2], "url": BASE_URL + a.get('href')} 
                                     for a in v_td.find_all('a', class_='col-md-2') if '/server/drug-detail/' in a.get('href', '')]
                             detail.setdefault("alternatives", {})[target] = alts
+            
+            # 2. Update Global Cache (Thread safe write)
+            with self.lock:
+                self.inter_cache[idx_str] = detail
             return detail
         except Exception as e:
             print(f"    [Detail Error] {inter_idx}: {e}", flush=True)
@@ -212,14 +237,29 @@ class DDInterScraperV7Turbo:
             total_inter = len(raw_list)
             print(f"  [Interaction Log] Found {total_inter} primary interactions.", flush=True)
             
-            for j, item in enumerate(raw_list):
+            # TURBO: Fetch interaction details in parallel (Threading)
+            ids_to_fetch = [item.get("interaction_id") for item in raw_list if item.get("interaction_id")]
+            print(f"  [Turbo Engine] Fetching details for {len(ids_to_fetch)} interactions using 10 threads...", flush=True)
+            
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                # Map results back to index to maintain order if needed, but here we just need to fill drug_data
+                future_to_idx = {executor.submit(self.scrape_interaction_details, idx): idx for idx in ids_to_fetch}
+                
+                details_map = {}
+                for future in concurrent.futures.as_completed(future_to_idx):
+                    idx = future_to_idx[future]
+                    try:
+                        details_map[idx] = future.result()
+                    except Exception as e:
+                        print(f"    [Thread Error] {idx}: {e}")
+
+            # Merge details back into drug_data
+            for item in raw_list:
                 idx = item.get("interaction_id")
-                if not idx: continue
-                if j % 50 == 0: print(f"    ... Scraped {j}/{total_inter} details", flush=True)
-                details = self.scrape_interaction_details(idx)
+                details = details_map.get(idx, {})
                 drug_data["interactions"].append({**item, **details})
-                if j % 100 == 0: self.save()
-                human_delay() # Micro jitter
+            
+            self.save() # Save after all interactions are merged
             
             drug_data["status"] = "completed"
             self.results[drug_id] = drug_data
