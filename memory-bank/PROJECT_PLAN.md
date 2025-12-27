@@ -14,13 +14,22 @@
 - [x] npm environment setup
 - [x] VS Code configuration
 
-### المرحلة 3: Admin Dashboard Build Fixes ✅
+### 3. تحميل ومعالجة البيانات (GitHub Action)
+- [x] إنشاء ملف Workflow: `.github/workflows/ddinter_scraper_test.yml`.
+- [x] تطوير سكربت `bulk_scraper_v5.py`:
+    - [x] استخراج اسم المادة الفعالة بشكل صريح.
+    - [x] فصل البيانات (ATC Codes, External Links) في أعمدة منفصلة.
+    - [x] تصحيح منطق اكتشاف التفاعلات (AJAX Discovery Fix) بجلب كافة النتائج (`length=5000`).
+    - [x] حفظ البيانات بشكل تراكمي (Incremental JSON) وتحويلها النهائي لـ CSV مطور.
+- [x] تنفيذ التشغيل التجريبي المحلي للتأكد من جودة البيانات.
+
+### المرحلة 4: Admin Dashboard Build Fixes ✅
 - [x] CSS import order
 - [x] Configuration.tsx syntax
 - [x] Local build success
 - [x] Push to GitHub
 
-### المرحلة 4: Specialized Screens Implementation ✅
+### المرحلة 5: Specialized Screens Implementation ✅
 - [x] HomeScreen Refactoring & Design System Integration
 - [x] DrugDetailsScreen Implementation
 - [x] SettingsScreen & ProfileScreen Updates

@@ -20,16 +20,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run Scraper (Exhaustive Test 5 Drugs)
+      - name: Run Scraper (Exhaustive V5 Test 5 Drugs)
         run: |
           cd assets/external_research_data
-          python bulk_scraper_v3.py
+          python bulk_scraper_v5.py
 
       - name: Upload Results as Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ddinter-exhaustive-data
+          name: ddinter-exhaustive-v5-data
           path: |
-            assets/external_research_data/ddinter_exhaustive_data.json
-            assets/external_research_data/exhaustive_drugs_metadata.csv
-            assets/external_research_data/exhaustive_drug_interactions.csv
+            assets/external_research_data/ddinter_exhaustive_v5.json
+            assets/external_research_data/ddinter_drugs_metadata_v5.csv
+            assets/external_research_data/ddinter_interactions_v5.csv
