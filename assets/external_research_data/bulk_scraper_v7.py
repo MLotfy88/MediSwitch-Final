@@ -38,9 +38,30 @@ def clean_text(text):
     if not text: return ""
     return " ".join(text.replace("\n", " ").split()).strip()
 
-def human_delay():
-    delay = random.uniform(20, 35)
-    print(f"  [Stealth] Waiting {delay:.2f} seconds to mimic human behavior...", flush=True)
+def human_delay(level="medium"):
+    """
+    Adaptive Random Throttling:
+    - short: 5-15s (micro-pauses during repetitive tasks)
+    - medium: 20-35s (standard page transitions)
+    - long: 45-90s (simulated research/reading breaks)
+    - deep_rest: 180-300s (simulated coffee/phone break)
+    """
+    if level == "short":
+        delay = random.uniform(5, 15)
+    elif level == "medium":
+        delay = random.uniform(20, 35)
+    elif level == "long":
+        delay = random.uniform(45, 90)
+    elif level == "deep_rest":
+        delay = random.uniform(180, 300)
+    else:
+        delay = random.uniform(10, 20)
+        
+    # Add minor jitter to every delay (plus or minus 1-3 seconds)
+    delay += random.uniform(-3, 3)
+    if delay < 1: delay = 1
+
+    print(f"  [Adaptive Stealth] Mode: {level.upper()} | Waiting {delay:.2f} seconds...", flush=True)
     time.sleep(delay)
 
 class DDInterScraperV7:
@@ -48,6 +69,8 @@ class DDInterScraperV7:
         self.drug_ids = drug_ids
         self.output_json = output_json
         self.results = {}
+        self.drugs_since_rest = 0
+        self.rest_threshold = random.randint(5, 12) # Randomly choose when to take a deep rest
         if os.path.exists(self.output_json):
             try:
                 with open(self.output_json, "r", encoding='utf-8') as f:
@@ -210,22 +233,22 @@ class DDInterScraperV7:
             self.results[drug_id] = drug_data
             self.save()
 
-            # HUMAN DELAY BEFORE NEXT REQUEST
-            human_delay()
+            # RANDOM DELAY BEFORE NEXT REQUEST
+            human_delay(level=random.choice(["short", "medium"]))
 
             # STEP 2: Secondary APIs (Food, Disease, Metabolism)
             print(f"  [Discovery Log] Scanning secondary data (Food/Disease/Metabolism)...", flush=True)
             drug_data["food"] = self.fetch_api_data(FOOD_API_URL.format(id=drug_id), ref)
             self.save() # Auto-save
-            human_delay()
+            human_delay(level="short")
             
             drug_data["disease"] = self.fetch_api_data(DISEASE_API_URL.format(id=drug_id), ref)
             self.save() # Auto-save
-            human_delay()
+            human_delay(level="short")
             
             drug_data["metabolism"] = self.fetch_api_data(METABOLISM_API_URL.format(id=drug_id), ref)
             self.save() # Auto-save
-            human_delay()
+            human_delay(level=random.choice(["short", "medium"]))
 
             # STEP 3: Interactions Discovery
             raw_list = self.fetch_api_data(INTERACT_API_URL.format(id=drug_id), ref)
@@ -241,24 +264,34 @@ class DDInterScraperV7:
                 details = self.scrape_interaction_details(idx)
                 drug_data["interactions"].append({**item, **details})
                 
-                # Auto-save every 10 interactions for safety if it's a long list
+                # Auto-save every 10 interactions
                 if j % 10 == 0:
                     self.save()
 
-                # HUMAN DELAY BETWEEN INTERACTIONS (TO BE SAFE IF LIST IS LONG)
+                # HUMAN DELAY BETWEEN INTERACTIONS
                 if j < total_inter - 1:
-                    human_delay()
+                    # Occasionally take a standard pause instead of just short
+                    lv = "short" if random.random() > 0.1 else "medium"
+                    human_delay(level=lv)
             
             # Finalize drug
             drug_data["status"] = "completed"
             self.results[drug_id] = drug_data
             self.save()
             drugs_processed_this_session += 1
-            print(f"  [Persistence Success] Core data for {drug_id} committed to {self.output_json}.", flush=True)
+            self.drugs_since_rest += 1
             
-            # ADDITIONAL COOLDOWN BETWEEN DRUGS
-            print(f"  [Phase Transition] Moving to next drug target...", flush=True)
-            human_delay()
+            print(f"  [Persistence Success] Core data for {drug_id} committed.", flush=True)
+            
+            # DEEP REST CHECK
+            if self.drugs_since_rest >= self.rest_threshold:
+                print(f"\n>>> [Adaptive Stealth] Triggering DEEP REST after {self.drugs_since_rest} drugs.", flush=True)
+                human_delay(level="deep_rest")
+                self.drugs_since_rest = 0
+                self.rest_threshold = random.randint(5, 12)
+            else:
+                # NORMAL COOLDOWN BETWEEN DRUGS
+                human_delay(level=random.choice(["medium", "long"]))
 
     def export_csv(self):
         print("\n>>> FINALIZING DATA STRUCTURES FOR CSV EXPORT...", flush=True)
