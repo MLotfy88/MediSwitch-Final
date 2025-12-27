@@ -37,8 +37,8 @@ termux-setup-storage
 *(ستظهر لك رسالة تأكيد على شاشة الموبايل، اضغط Allow).*
 2. الآن يمكنك نسخ الملفات من المجلد العادي إلى Termux:
 ```bash
-cp /sdcard/Download/py/bulk_scraper_v7_turbo.py ~/
-cp /sdcard/Download/py/unique_drugs.json ~/
+cp /storage/E7FF-5A04/Download/py/bulk_scraper_v7_turbo.py ~/
+cp /storage/E7FF-5A04/Download/py/unique_drugs.json ~/
 ```
 
 ## أين يتم حفظ النتائج وكيف أصل إليها؟

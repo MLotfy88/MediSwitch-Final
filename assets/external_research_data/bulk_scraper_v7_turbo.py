@@ -64,6 +64,7 @@ class DDInterScraperV7Turbo:
             json.dump(self.results, f, indent=2, ensure_ascii=False)
 
     def fetch_api_data(self, url, referer):
+        print(f"  [AJAX Log] Requesting: {url}", flush=True)
         payload = {"draw": "1", "start": "0", "length": "5000", "search[value]": "", "search[regex]": "false"}
         h = {**HEADERS, "Referer": referer}
         try:
@@ -75,16 +76,22 @@ class DDInterScraperV7Turbo:
             if res.status_code == 200:
                 data = res.json()
                 results = data.get("data", data)
+                print(f"  [AJAX Success] Captured {len(results)} items.", flush=True)
                 return results
+            else:
+                print(f"  [AJAX Warning] HTTP {res.status_code} for {url}", flush=True)
         except Exception as e:
             print(f"  [AJAX Error] {e}", flush=True)
         return []
 
     def scrape_drug_metadata(self, drug_id):
         url = DRUG_DETAIL_URL.format(id=drug_id)
+        print(f"  [Metadata Log] Accessing: {url}", flush=True)
         try:
             res = requests.get(url, headers=HEADERS, verify=False, timeout=60)
-            if res.status_code != 200: return {}
+            if res.status_code != 200: 
+                print(f"  [Metadata Warning] Status {res.status_code}", flush=True)
+                return {}
             soup = BeautifulSoup(res.text, 'html.parser')
             meta = {"id": drug_id, "url": url, "name": "Unknown"}
             
@@ -94,6 +101,7 @@ class DDInterScraperV7Turbo:
                 text = alert.get_text()
                 if "Drugs Information:" in text:
                     meta["name"] = clean_text(text.split("Drugs Information:")[-1])
+                    print(f"  [Metadata Success] Drug: {meta['name']}", flush=True)
             
             # Table Data
             table = soup.find('table', class_='table-bordered')
@@ -117,6 +125,7 @@ class DDInterScraperV7Turbo:
                                            for b in v_td.find_all('span', class_='badge')]
                         elif "Links" in k:
                             meta["links"] = {clean_text(a.get_text()): a.get('href') for a in v_td.find_all('a')}
+                print(f"  [Metadata Success] Table data extracted.", flush=True)
             return meta
         except Exception as e:
             print(f"  [Metadata Error] {e}", flush=True)
@@ -193,18 +202,23 @@ class DDInterScraperV7Turbo:
             self.results[drug_id] = drug_data
             self.save()
 
+            print(f"  [Discovery Log] Scanning secondary data (Food/Disease/Metabolism)...", flush=True)
             drug_data["food"] = self.fetch_api_data(FOOD_API_URL.format(id=drug_id), ref)
             drug_data["disease"] = self.fetch_api_data(DISEASE_API_URL.format(id=drug_id), ref)
             drug_data["metabolism"] = self.fetch_api_data(METABOLISM_API_URL.format(id=drug_id), ref)
             self.save()
 
             raw_list = self.fetch_api_data(INTERACT_API_URL.format(id=drug_id), ref)
+            total_inter = len(raw_list)
+            print(f"  [Interaction Log] Found {total_inter} primary interactions.", flush=True)
+            
             for j, item in enumerate(raw_list):
                 idx = item.get("interaction_id")
                 if not idx: continue
+                if j % 50 == 0: print(f"    ... Scraped {j}/{total_inter} details", flush=True)
                 details = self.scrape_interaction_details(idx)
                 drug_data["interactions"].append({**item, **details})
-                if j % 50 == 0: self.save()
+                if j % 100 == 0: self.save()
                 human_delay() # Micro jitter
             
             drug_data["status"] = "completed"
