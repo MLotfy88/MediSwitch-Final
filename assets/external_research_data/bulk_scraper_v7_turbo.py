@@ -12,13 +12,14 @@ import json
 import csv
 import re
 
-# IMMEDIATE UNBUFFERED OUTPUT - TURBO MODE
-print(">>> DDInter Scraper V7-TURBO: BOOTING UP...", flush=True)
-print(">>> MODE: ULTRA-HIGH SPEED (LOCAL ONLY)", flush=True)
-print(">>> WARNING: NO STEALTH DELAYS. HIGH RISK OF IP-BAN.", flush=True)
-
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Global Session with Retries
+session = requests.Session()
+retries = urllib3.util.Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
+session.mount('https://', requests.adapters.HTTPAdapter(max_retries=retries))
+session.verify = False
 
 BASE_URL = "https://ddinter2.scbdd.com"
 DRUG_DETAIL_URL = f"{BASE_URL}/server/drug-detail/{{id}}/"
@@ -41,9 +42,6 @@ def clean_text(text):
     return " ".join(text.replace("\n", " ").split()).strip()
 
 def human_delay(level=None):
-    """
-    TURBO MODE: Delays are minimized to almost zero or very small jitter.
-    """
     delay = random.uniform(0.1, 0.4)
     time.sleep(delay)
 
@@ -56,7 +54,9 @@ class DDInterScraperV7Turbo:
         self.inter_cache = {}
         self.lock = threading.Lock()
         
-        # Load existing results
+        print("\n>>> TURBO ENGINE NOTE: ETA will start high but drop RAPIDLY as Global Cache grows.", flush=True)
+        print(">>> ENGINE NOTE: Automatic retries enabled for timeouts/errors.", flush=True)
+        
         if os.path.exists(self.output_json):
             try:
                 with open(self.output_json, "r", encoding='utf-8') as f:
@@ -64,7 +64,6 @@ class DDInterScraperV7Turbo:
                 print(f">>> Resumed from existing {self.output_json} ({len(self.results)} drugs loaded)", flush=True)
             except: pass
             
-        # Load interaction cache
         if os.path.exists(self.cache_json):
             try:
                 with open(self.cache_json, "r", encoding='utf-8') as f:
@@ -85,9 +84,9 @@ class DDInterScraperV7Turbo:
         h = {**HEADERS, "Referer": referer}
         try:
             if "linkmarker" in url:
-                res = requests.get(url, headers=h, verify=False, timeout=60)
+                res = session.get(url, headers=h, timeout=60)
             else:
-                res = requests.post(url, headers=h, data=payload, verify=False, timeout=60)
+                res = session.post(url, headers=h, data=payload, timeout=60)
             
             if res.status_code == 200:
                 data = res.json()
@@ -104,14 +103,13 @@ class DDInterScraperV7Turbo:
         url = DRUG_DETAIL_URL.format(id=drug_id)
         print(f"  [Metadata Log] Accessing: {url}", flush=True)
         try:
-            res = requests.get(url, headers=HEADERS, verify=False, timeout=60)
+            res = session.get(url, headers=HEADERS, timeout=60)
             if res.status_code != 200: 
                 print(f"  [Metadata Warning] Status {res.status_code}", flush=True)
                 return {}
             soup = BeautifulSoup(res.text, 'html.parser')
             meta = {"id": drug_id, "url": url, "name": "Unknown"}
             
-            # Name Extraction
             alert = soup.find('div', role='alert')
             if alert:
                 text = alert.get_text()
@@ -119,7 +117,6 @@ class DDInterScraperV7Turbo:
                     meta["name"] = clean_text(text.split("Drugs Information:")[-1])
                     print(f"  [Metadata Success] Drug: {meta['name']}", flush=True)
             
-            # Table Data
             table = soup.find('table', class_='table-bordered')
             if table:
                 for row in table.find_all('tr'):
@@ -149,13 +146,12 @@ class DDInterScraperV7Turbo:
 
     def scrape_interaction_details(self, inter_idx):
         idx_str = str(inter_idx)
-        # 1. Global Cache Check (Thread safe read)
         if idx_str in self.inter_cache:
             return self.inter_cache[idx_str]
 
         url = INTERACT_DETAIL_URL.format(id=inter_idx)
         try:
-            res = requests.get(url, headers=HEADERS, verify=False, timeout=60)
+            res = session.get(url, headers=HEADERS, timeout=60)
             if res.status_code != 200: return {}
             soup = BeautifulSoup(res.text, 'html.parser')
             detail = {"interaction_idx": inter_idx, "url": url}
@@ -188,7 +184,6 @@ class DDInterScraperV7Turbo:
                                     for a in v_td.find_all('a', class_='col-md-2') if '/server/drug-detail/' in a.get('href', '')]
                             detail.setdefault("alternatives", {})[target] = alts
             
-            # 2. Update Global Cache (Thread safe write)
             with self.lock:
                 self.inter_cache[idx_str] = detail
             return detail
@@ -202,20 +197,25 @@ class DDInterScraperV7Turbo:
         drugs_processed_this_session = 0
         
         for i, drug_id in enumerate(self.drug_ids):
-            # ETA Calculation
             if drugs_processed_this_session > 0:
                 elapsed = time.time() - start_time
                 avg_time = elapsed / drugs_processed_this_session
                 remaining = total_drugs - i
                 eta_seconds = avg_time * remaining
                 eta_str = str(datetime.timedelta(seconds=int(eta_seconds)))
-                print(f"[{i+1}/{total_drugs}] >>> TARGET: {drug_id} | ETA: {eta_str}", flush=True)
+                print(f"\n[{i+1}/{total_drugs}] >>> TARGET: {drug_id} | Session Processed: {drugs_processed_this_session} | ETA: {eta_str}", flush=True)
             else:
-                print(f"[{i+1}/{total_drugs}] >>> TARGET: {drug_id}", flush=True)
+                print(f"\n[{i+1}/{total_drugs}] >>> TARGET: {drug_id}", flush=True)
             
-            if drug_id in self.results and self.results[drug_id].get("status") == "completed":
-                continue
-
+            if drug_id in self.results:
+                status = self.results[drug_id].get("status")
+                if status == "completed":
+                    # Fully processed, safe to skip
+                    continue
+                else:
+                    print(f"  [Resume Log] Target {drug_id} was partially acquired. Re-initiating full scan...", flush=True)
+            
+            # Start/Restart Scan
             meta = self.scrape_drug_metadata(drug_id)
             if not meta: continue
             
@@ -237,29 +237,22 @@ class DDInterScraperV7Turbo:
             total_inter = len(raw_list)
             print(f"  [Interaction Log] Found {total_inter} primary interactions.", flush=True)
             
-            # TURBO: Fetch interaction details in parallel (Threading)
             ids_to_fetch = [item.get("interaction_id") for item in raw_list if item.get("interaction_id")]
-            print(f"  [Turbo Engine] Fetching details for {len(ids_to_fetch)} interactions using 10 threads...", flush=True)
+            cached_count = sum(1 for idx in ids_to_fetch if str(idx) in self.inter_cache)
+            print(f"  [Turbo Engine] Cache Hit: {cached_count}/{len(ids_to_fetch)}. Fetching {len(ids_to_fetch)-cached_count} details using 15 threads...", flush=True)
             
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-                # Map results back to index to maintain order if needed, but here we just need to fill drug_data
+            with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
                 future_to_idx = {executor.submit(self.scrape_interaction_details, idx): idx for idx in ids_to_fetch}
-                
                 details_map = {}
                 for future in concurrent.futures.as_completed(future_to_idx):
                     idx = future_to_idx[future]
-                    try:
-                        details_map[idx] = future.result()
-                    except Exception as e:
-                        print(f"    [Thread Error] {idx}: {e}")
+                    try: details_map[idx] = future.result()
+                    except: pass
 
-            # Merge details back into drug_data
             for item in raw_list:
                 idx = item.get("interaction_id")
                 details = details_map.get(idx, {})
                 drug_data["interactions"].append({**item, **details})
-            
-            self.save() # Save after all interactions are merged
             
             drug_data["status"] = "completed"
             self.results[drug_id] = drug_data
@@ -268,14 +261,12 @@ class DDInterScraperV7Turbo:
 
     def export_csv(self):
         print("\n>>> FINALIZING DATA STRUCTURES FOR CSV EXPORT (TURBO)...", flush=True)
-        # Metadata
         with open("ddinter_drugs_metadata_v7_turbo.csv", "w", newline='', encoding='utf-8') as f:
             w = csv.DictWriter(f, fieldnames=["id", "name", "type", "formula", "weight", "cas", "iupac", "inchi", "smiles", "atc_primary", "atc_others", "links", "url"])
             w.writeheader()
             for d_id, d_val in self.results.items():
                 if d_val.get("status") != "completed": continue
-                m = d_val["metadata"]
-                atcs = m.get("atc", [])
+                m = d_val["metadata"]; atcs = m.get("atc", [])
                 w.writerow({
                     "id": d_id, "name": m.get("name", ""), "type": m.get("type", ""), "formula": m.get("formula", ""),
                     "weight": m.get("weight", ""), "cas": m.get("cas", ""), "iupac": m.get("iupac", ""), "inchi": m.get("inchi", ""),
@@ -285,7 +276,6 @@ class DDInterScraperV7Turbo:
                     "url": m.get("url", "")
                 })
 
-        # Interactions
         with open("ddinter_interactions_v7_turbo.csv", "w", newline='', encoding='utf-8') as f:
             w = csv.DictWriter(f, fieldnames=["drug_a_id", "drug_a_name", "drug_b_id", "drug_b_name", "severity", "mechanisms", "description", "management", "idx", "references", "url"])
             w.writeheader()
@@ -306,8 +296,6 @@ if __name__ == "__main__":
     def get_full_ids():
         with open("unique_drugs.json", "r") as f:
             return json.load(f)["unique_drugs"]
-
     scraper = DDInterScraperV7Turbo(get_full_ids())
     scraper.run()
     scraper.export_csv()
-    print(">>> TURBO RUN COMPLETE.", flush=True)
