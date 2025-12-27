@@ -172,12 +172,26 @@ class DDInterScraperV7:
 
     def run(self):
         total_drugs = len(self.drug_ids)
+        start_time = time.time()
+        drugs_processed_this_session = 0
+        
+        import datetime
+
         for i, drug_id in enumerate(self.drug_ids):
-            print(f"\n[{i+1}/{total_drugs}] >>> TARGET ACQUISITION: {drug_id}", flush=True)
+            # ETA Calculation
+            if drugs_processed_this_session > 0:
+                elapsed = time.time() - start_time
+                avg_time = elapsed / drugs_processed_this_session
+                remaining = total_drugs - i
+                eta_seconds = avg_time * remaining
+                eta_str = str(datetime.timedelta(seconds=int(eta_seconds)))
+                print(f"\n[{i+1}/{total_drugs}] >>> TARGET ACQUISITION: {drug_id} | ETA: {eta_str}", flush=True)
+            else:
+                print(f"\n[{i+1}/{total_drugs}] >>> TARGET ACQUISITION: {drug_id}", flush=True)
             
-            # Check if already processed (full sweep)
-            if drug_id in self.results and self.results[drug_id].get("interactions"):
-                print(f"  [Skip] {drug_id} is already cached in local database.", flush=True)
+            # Robust Resume check - check for 'completed' flag
+            if drug_id in self.results and self.results[drug_id].get("status") == "completed":
+                print(f"  [Resume] {drug_id} already fully processed. Skipping.", flush=True)
                 continue
 
             # STEP 1: Metadata
@@ -189,8 +203,12 @@ class DDInterScraperV7:
             ref = meta.get("url")
             drug_data = {
                 "metadata": meta,
-                "food": [], "disease": [], "metabolism": [], "interactions": []
+                "food": [], "disease": [], "metabolism": [], "interactions": [],
+                "status": "partial" # Mark as partial during scraping
             }
+            # Initial save of partial record
+            self.results[drug_id] = drug_data
+            self.save()
 
             # HUMAN DELAY BEFORE NEXT REQUEST
             human_delay()
@@ -198,10 +216,15 @@ class DDInterScraperV7:
             # STEP 2: Secondary APIs (Food, Disease, Metabolism)
             print(f"  [Discovery Log] Scanning secondary data (Food/Disease/Metabolism)...", flush=True)
             drug_data["food"] = self.fetch_api_data(FOOD_API_URL.format(id=drug_id), ref)
+            self.save() # Auto-save
             human_delay()
+            
             drug_data["disease"] = self.fetch_api_data(DISEASE_API_URL.format(id=drug_id), ref)
+            self.save() # Auto-save
             human_delay()
+            
             drug_data["metabolism"] = self.fetch_api_data(METABOLISM_API_URL.format(id=drug_id), ref)
+            self.save() # Auto-save
             human_delay()
 
             # STEP 3: Interactions Discovery
@@ -218,12 +241,19 @@ class DDInterScraperV7:
                 details = self.scrape_interaction_details(idx)
                 drug_data["interactions"].append({**item, **details})
                 
+                # Auto-save every 10 interactions for safety if it's a long list
+                if j % 10 == 0:
+                    self.save()
+
                 # HUMAN DELAY BETWEEN INTERACTIONS (TO BE SAFE IF LIST IS LONG)
                 if j < total_inter - 1:
                     human_delay()
             
+            # Finalize drug
+            drug_data["status"] = "completed"
             self.results[drug_id] = drug_data
             self.save()
+            drugs_processed_this_session += 1
             print(f"  [Persistence Success] Core data for {drug_id} committed to {self.output_json}.", flush=True)
             
             # ADDITIONAL COOLDOWN BETWEEN DRUGS
@@ -237,6 +267,7 @@ class DDInterScraperV7:
             w = csv.DictWriter(f, fieldnames=["id", "name", "type", "formula", "weight", "cas", "iupac", "inchi", "smiles", "atc_primary", "atc_others", "links", "url"])
             w.writeheader()
             for d_id, d_val in self.results.items():
+                if d_val.get("status") != "completed": continue
                 m = d_val["metadata"]
                 atcs = m.get("atc", [])
                 w.writerow({
@@ -253,6 +284,7 @@ class DDInterScraperV7:
             w = csv.DictWriter(f, fieldnames=["drug_a_id", "drug_a_name", "drug_b_id", "drug_b_name", "severity", "mechanisms", "description", "management", "idx", "references", "url"])
             w.writeheader()
             for d_id, d_val in self.results.items():
+                if d_val.get("status") != "completed": continue
                 name_a = d_val["metadata"].get("name", "")
                 for inter in d_val["interactions"]:
                     w.writerow({
@@ -274,10 +306,10 @@ if __name__ == "__main__":
             return ["DDInter20", "DDInter1", "DDInter2", "DDInter3", "DDInter4"]
 
     print(">>> INITIALIZING DDINTER SCRAPER V7...", flush=True)
-    # FOR USER SAFETY, WE START WITH THE 5 REQUESTED DRUGS FIRST 
-    # BUT WITHOUT INTERACTION LIMITS
-    target_ids = get_full_ids()[:5] 
+    # Full run on all IDs found in the registry
+    target_ids = get_full_ids()
     
+    print(f">>> SCOPE: {len(target_ids)} DRUGS DETECTED FOR EXTRACTION.", flush=True)
     scraper = DDInterScraperV7(target_ids)
     scraper.run()
     scraper.export_csv()
