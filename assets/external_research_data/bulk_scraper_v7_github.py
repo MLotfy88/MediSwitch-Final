@@ -5,6 +5,7 @@ import time
 import datetime
 import concurrent.futures
 import threading
+import subprocess
 import requests
 from bs4 import BeautifulSoup
 import urllib3
@@ -12,9 +13,9 @@ import json
 import csv
 import re
 
-print(">>> DDInter Scraper V7-GitHub: NUCLEAR MODE ACTIVATED", flush=True)
-print(">>> MODE: MAXIMUM SPEED + GLOBAL CACHING + THREADING", flush=True)
-print(">>> TARGET: Complete 1939 drugs within 6 hours", flush=True)
+print(">>> DDInter Scraper V7-GitHub: CHECKPOINT MODE ACTIVATED", flush=True)
+print(">>> MODE: Auto-Commit every 100 drugs to survive 6-hour limit", flush=True)
+print(">>> MAXIMUM SPEED + GLOBAL CACHING + THREADING", flush=True)
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -46,6 +47,29 @@ def clean_text(text):
     if not text: return ""
     return " ".join(text.replace("\n", " ").split()).strip()
 
+def auto_commit_checkpoint(message, file_paths):
+    """Auto-commit progress to GitHub during scraping"""
+    try:
+        print(f"\n>>> [CHECKPOINT] {message}", flush=True)
+        # Add files
+        for fp in file_paths:
+            subprocess.run(["git", "add", fp], check=False, capture_output=True)
+        # Commit
+        result = subprocess.run(
+            ["git", "commit", "-m", f"Checkpoint: {message} [skip ci]"],
+            check=False,
+            capture_output=True,
+            text=True
+        )
+        if result.returncode == 0:
+            # Push
+            subprocess.run(["git", "push"], check=False, capture_output=True)
+            print(f">>> [CHECKPOINT] Committed and pushed successfully", flush=True)
+        else:
+            print(f">>> [CHECKPOINT] No changes to commit", flush=True)
+    except Exception as e:
+        print(f">>> [CHECKPOINT ERROR] {e}", flush=True)
+
 class DDInterScraperV7GitHub:
     def __init__(self, drug_ids, output_json="ddinter_exhaustive_v7.json", cache_json="ddinter_inter_cache.json"):
         self.drug_ids = drug_ids
@@ -54,6 +78,7 @@ class DDInterScraperV7GitHub:
         self.results = {}
         self.inter_cache = {}
         self.lock = threading.Lock()
+        self.checkpoint_every = 100  # Auto-commit every 100 drugs
         
         # Load existing results
         if os.path.exists(self.output_json):
@@ -190,6 +215,7 @@ class DDInterScraperV7GitHub:
         total_drugs = len(self.drug_ids)
         start_time = time.time()
         drugs_processed = 0
+        last_checkpoint = 0
         
         for i, drug_id in enumerate(self.drug_ids):
             if drugs_processed > 0:
@@ -250,6 +276,14 @@ class DDInterScraperV7GitHub:
             self.results[drug_id] = drug_data
             self.save()
             drugs_processed += 1
+            
+            # CHECKPOINT: Auto-commit every N drugs
+            if drugs_processed - last_checkpoint >= self.checkpoint_every:
+                auto_commit_checkpoint(
+                    f"{drugs_processed} drugs completed ({len(self.inter_cache)} cached interactions)",
+                    [self.output_json, self.cache_json]
+                )
+                last_checkpoint = drugs_processed
 
     def export_csv(self):
         print("\n>>> Exporting CSVs...", flush=True)
@@ -309,4 +343,12 @@ if __name__ == "__main__":
     scraper = DDInterScraperV7GitHub(get_full_ids())
     scraper.run()
     scraper.export_csv()
+    
+    # Final checkpoint
+    auto_commit_checkpoint(
+        "Scraping completed - Final export",
+        ["ddinter_exhaustive_v7.json", "ddinter_inter_cache.json", 
+         "ddinter_drugs_metadata_v7.csv", "ddinter_interactions_v7.csv",
+         "ddinter_food_disease_metabolism_v7.csv"]
+    )
     print(">>> COMPLETE", flush=True)
