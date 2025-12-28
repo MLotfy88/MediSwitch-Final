@@ -59,9 +59,18 @@ class _IngredientInteractionsScreenState
       if (widget.ingredient != null) {
         if (!widget.onlyFood) {
           final repo = _interactionRepository;
-          specificList = await repo.getInteractionsWith(
-            widget.ingredient!.normalizedName ?? widget.ingredient!.name,
+
+          // DEBUG: Print what we're searching for
+          final searchTerm =
+              widget.ingredient!.normalizedName ?? widget.ingredient!.name;
+          debugPrint('🔍 [IngredientInteractionsScreen] Ingredient Card Info:');
+          debugPrint('   - Display Name: ${widget.ingredient!.name}');
+          debugPrint(
+            '   - Normalized Name: ${widget.ingredient!.normalizedName}',
           );
+          debugPrint('   - Searching with: "$searchTerm"');
+
+          specificList = await repo.getInteractionsWith(searchTerm);
         }
 
         // Fetch Food Interactions

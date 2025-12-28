@@ -1518,14 +1518,16 @@ class SqliteLocalDataSource {
       WITH AffectedIngredients AS (
         SELECT 
           ingredient1 as original_name,
-          TRIM(LOWER(ingredient1)) as ingredient_key, 
+          -- FIX: Apply same normalization as _normalizeIngredientName() - remove parentheses
+          TRIM(REPLACE(REPLACE(LOWER(ingredient1), '(', ''), ')', '')) as ingredient_key, 
           severity 
         FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
         UNION ALL
         SELECT 
           ingredient2 as original_name,
-          TRIM(LOWER(ingredient2)) as ingredient_key, 
+          -- FIX: Apply same normalization as _normalizeIngredientName() - remove parentheses
+          TRIM(REPLACE(REPLACE(LOWER(ingredient2), '(', ''), ')', '')) as ingredient_key, 
           severity 
         FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
@@ -1669,6 +1671,11 @@ class SqliteLocalDataSource {
       }
     }
 
+    // DEBUG LOGGING
+    debugPrint('🔍 [getInteractionsWith] Searching for: "$drugName"');
+    debugPrint('🔍 [getInteractionsWith] Normalized query: "$normalizedQuery"');
+    debugPrint('🔍 [getInteractionsWith] Search terms: $searchTerms');
+
     // Also consider the raw name if normalization strips too much
     if (searchTerms.isEmpty) searchTerms.add(normalizedQuery);
 
@@ -1731,7 +1738,7 @@ class SqliteLocalDataSource {
     final fullWhere = whereClauses.join(' OR ');
 
     // Using rawQuery with explicit LOWER() for safety
-    final List<Map<String, dynamic>> maps = await db.rawQuery('''
+    List<Map<String, dynamic>> maps = await db.rawQuery('''
       SELECT * FROM ${DatabaseHelper.interactionsTable} 
       WHERE $fullWhere
       ORDER BY 
@@ -1740,6 +1747,100 @@ class SqliteLocalDataSource {
              WHEN LOWER(severity) = 'major' THEN 3
              ELSE 4 END
       ''', args);
+
+    // FALLBACK STRATEGIES: If no results found, try alternative search methods
+    if (maps.isEmpty && searchTerms.isNotEmpty) {
+      // Fallback 1: Try with the original raw name (no normalization at all)
+      final rawName = drugName.toLowerCase().trim();
+      maps = await db.rawQuery(
+        '''
+        SELECT * FROM ${DatabaseHelper.interactionsTable} 
+        WHERE LOWER(ingredient1) = ? OR LOWER(ingredient2) = ?
+        ORDER BY 
+          CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
+               WHEN LOWER(severity) = 'severe' THEN 2
+               WHEN LOWER(severity) = 'major' THEN 3
+               ELSE 4 END
+      ''',
+        [rawName, rawName],
+      );
+
+      // Fallback 2: If name contains parentheses, try the part before parentheses
+      if (maps.isEmpty && drugName.contains('(')) {
+        final simpleName = drugName.split('(')[0].trim().toLowerCase();
+        if (simpleName.length >= 3) {
+          maps = await db.rawQuery(
+            '''
+            SELECT * FROM ${DatabaseHelper.interactionsTable} 
+            WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
+            ORDER BY 
+              CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
+                   WHEN LOWER(severity) = 'severe' THEN 2
+                   WHEN LOWER(severity) = 'major' THEN 3
+                   ELSE 4 END
+          ''',
+            ['%$simpleName%', '%$simpleName%'],
+          );
+        }
+      }
+
+      // Fallback 3: If name contains +, try splitting and search for any part
+      if (maps.isEmpty && drugName.contains('+')) {
+        final parts =
+            drugName.split('+').map((e) => e.trim().toLowerCase()).toList();
+        final Set<Map<String, dynamic>> allMaps = {};
+
+        for (final part in parts) {
+          if (part.length < 3) continue;
+          final partMaps = await db.rawQuery(
+            '''
+            SELECT * FROM ${DatabaseHelper.interactionsTable} 
+            WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
+          ''',
+            ['%$part%', '%$part%'],
+          );
+          allMaps.addAll(partMaps);
+        }
+
+        if (allMaps.isNotEmpty) {
+          maps = allMaps.toList();
+          // Re-sort by severity
+          maps.sort((a, b) {
+            final aSeverity = (a['severity'] as String? ?? '').toLowerCase();
+            final bSeverity = (b['severity'] as String? ?? '').toLowerCase();
+            final aWeight =
+                aSeverity == 'contraindicated'
+                    ? 1
+                    : aSeverity == 'severe'
+                    ? 2
+                    : aSeverity == 'major'
+                    ? 3
+                    : 4;
+            final bWeight =
+                bSeverity == 'contraindicated'
+                    ? 1
+                    : bSeverity == 'severe'
+                    ? 2
+                    : bSeverity == 'major'
+                    ? 3
+                    : 4;
+            return aWeight.compareTo(bWeight);
+          });
+        }
+      }
+    }
+
+    // DEBUG LOGGING - Show results
+    debugPrint('🔍 [getInteractionsWith] Found ${maps.length} interactions');
+    if (maps.isNotEmpty) {
+      final first3 = maps.take(3).toList();
+      for (var i = 0; i < first3.length; i++) {
+        final m = first3[i];
+        debugPrint(
+          '   ${i + 1}. ${m['ingredient1']} + ${m['ingredient2']} (${m['severity']})',
+        );
+      }
+    }
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
