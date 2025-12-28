@@ -1,0 +1,101 @@
+name: DDInter Ultimate Scraper v10
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of drugs to process (0 = all remaining)'
+        required: false
+        default: '0'
+      
+jobs:
+  scrape-ddinter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6 hours max
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 lxml
+    
+    - name: Download previous database (if exists)
+      continue-on-error: true
+      uses: actions/download-artifact@v3
+      with:
+        name: ddinter-database
+        path: assets/external_research_data/
+    
+    - name: Run Ultimate Scraper v10
+      working-directory: assets/external_research_data
+      run: |
+        echo "🚀 Starting DDInter v10 Scraper..."
+        echo "📅 Start time: $(date)"
+        
+        python ultimate_scraper_v10.py 2>&1 | tee scraper_v10_log.txt
+        
+        echo "✅ Scraper finished"
+        echo "📅 End time: $(date)"
+        
+    - name: Display database stats
+      working-directory: assets/external_research_data
+      run: |
+        echo "📊 Database Statistics:"
+        sqlite3 ddinter_complete.db "
+          SELECT 'Drugs: ' || COUNT(*) FROM drugs
+          UNION ALL
+          SELECT 'Drug-Drug Interactions: ' || COUNT(*) FROM drug_drug_interactions
+          UNION ALL
+          SELECT 'Drug-Food Interactions: ' || COUNT(*) FROM drug_food_interactions
+          UNION ALL
+          SELECT 'Compound Preparations: ' || COUNT(*) FROM compound_preparations;
+        "
+        
+        echo ""
+        echo "💾 Database size:"
+        ls -lh ddinter_complete.db
+    
+    - name: Export database to CSV
+      working-directory: assets/external_research_data
+      run: |
+        echo "📊 Exporting to CSV..."
+        python export_to_csv.py
+        
+        echo ""
+        echo "📁 CSV files created:"
+        ls -lh csv_exports/
+    
+    - name: Upload database artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ddinter-database
+        path: |
+          assets/external_research_data/ddinter_complete.db
+          assets/external_research_data/csv_exports/*.csv
+          assets/external_research_data/scraper_v10_log.txt
+        retention-days: 30
+    
+    - name: Upload database to release (if complete)
+      if: success()
+      continue-on-error: true
+      run: |
+        echo "📦 Compressing database and CSV files..."
+        cd assets/external_research_data
+        tar -czf ddinter_complete_$(date +%Y%m%d_%H%M%S).tar.gz ddinter_complete.db csv_exports/
+        echo "✅ Database and CSV files compressed and ready for download"
+    
+    - name: Upload compressed database
+      if: success()
+      uses: actions/upload-artifact@v3
+      with:
+        name: ddinter-database-compressed
+        path: assets/external_research_data/ddinter_complete_*.tar.gz
+        retention-days: 90

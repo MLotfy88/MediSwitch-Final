@@ -1,0 +1,43 @@
+name: DDInter HTML Scraper V8
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_id:
+        description: 'Start ID'
+        required: true
+        default: '1'
+      end_id:
+        description: 'End ID'
+        required: true
+        default: '2000'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4
+        
+    - name: Run Scraper V8
+      run: |
+        # Override the hardcoded range in the script with inputs
+        sed -i "s/START_ID = 1/START_ID = ${{ inputs.start_id }}/" assets/external_research_data/bulk_scraper_v8_html.py
+        sed -i "s/END_ID = 40000/END_ID = ${{ inputs.end_id }}/" assets/external_research_data/bulk_scraper_v8_html.py
+        
+        python assets/external_research_data/bulk_scraper_v8_html.py
+        
+    - name: Upload Database
+      uses: actions/upload-artifact@v3
+      with:
+        name: mediswitch_v8_data
+        path: mediswitch.db
