@@ -305,59 +305,229 @@ class _IngredientInteractionsScreenState
                 ),
               ),
             )
-          else
-            SliverPadding(
-              padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-              sliver: SliverList(
-                delegate: SliverChildBuilderDelegate((context, index) {
-                  final interaction = _filteredInteractions[index];
-                  // Highlight Food Interactions
-                  final isFood = interaction.type == 'food';
-                  // Highlight Food Interactions
-                  if (isFood) {
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 12),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          if (index == 0 ||
-                              _filteredInteractions[index - 1].type != 'food')
-                            Padding(
-                              padding: const EdgeInsets.only(bottom: 8),
-                              child: Text(
-                                isRTL ? 'تفاعلات الطعام' : 'Food Interactions',
-                                style: theme.textTheme.titleMedium?.copyWith(
-                                  color: theme.colorScheme.primary,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                          InteractionCard(
-                            interaction: interaction,
-                            onTap: () {
-                              // If there's ever a detail screen, navigate here.
-                              // For now, it shows full info in the card.
-                            },
-                          ).animate().fadeIn(),
-                        ],
-                      ),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child:
-                        InteractionCard(
+          else ...[
+            // 1. Primary Interactions (High Priority)
+            if (_filteredInteractions.any((i) => i.isPrimaryIngredient))
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                sliver: SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) {
+                      final primaryList =
+                          _filteredInteractions
+                              .where((i) => i.isPrimaryIngredient)
+                              .toList();
+                      if (index == 0) {
+                        return Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: _InteractionSectionHeader(
+                            title:
+                                isRTL
+                                    ? 'تفاعلات مباشرة'
+                                    : 'Direct Interactions',
+                            subtitle:
+                                isRTL
+                                    ? '${widget.ingredient?.name ?? 'المادة'} كمكون أساسي'
+                                    : '${widget.ingredient?.name ?? 'Ingredient'} as primary component',
+                            icon: LucideIcons.alertTriangle,
+                            color: AppColors.danger,
+                          ),
+                        );
+                      }
+                      final interaction = primaryList[index - 1];
+                      return PaginationWrapper(
+                        key: ValueKey('primary_${interaction.id}_$index'),
+                        index: index - 1,
+                        child: InteractionCard(
                           interaction: interaction,
-                          onTap: () {
-                            // Handle drug interaction tap
-                          },
-                        ).animate().fadeIn(delay: (20 * index).ms).slideX(),
-                  );
-                }, childCount: _filteredInteractions.length),
+                          onTap: () {},
+                        ),
+                      );
+                    },
+                    childCount:
+                        _filteredInteractions
+                            .where((i) => i.isPrimaryIngredient)
+                            .length +
+                        1, // +1 for header
+                  ),
+                ),
               ),
-            ),
+
+            // 2. Secondary Interactions (Low Priority / Contextual)
+            if (_filteredInteractions.any((i) => !i.isPrimaryIngredient))
+              SliverPadding(
+                padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
+                sliver: SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) {
+                      final secondaryList =
+                          _filteredInteractions
+                              .where((i) => !i.isPrimaryIngredient)
+                              .toList();
+
+                      if (index == 0) {
+                        return Padding(
+                          padding: const EdgeInsets.only(top: 8, bottom: 12),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              _InfoBanner(
+                                text:
+                                    isRTL
+                                        ? 'التفاعلات التالية تحدث عند وجود ${widget.ingredient?.name} كمكون ثانوي أو ضمن تركيبة دوائية، وقد تكون أقل خطورة أو تعتمد على الكمية.'
+                                        : 'These interactions occur when ${widget.ingredient?.name} is present as a secondary component. They might be less critical or dose-dependent.',
+                                color: AppColors.info,
+                              ),
+                              const SizedBox(height: 16),
+                              _InteractionSectionHeader(
+                                title:
+                                    isRTL
+                                        ? 'تفاعلات ثانوية'
+                                        : 'Secondary Interactions',
+                                subtitle:
+                                    isRTL
+                                        ? 'أدوية تحتوي على ${widget.ingredient?.name}'
+                                        : 'Drugs containing ${widget.ingredient?.name}',
+                                icon: LucideIcons.info,
+                                color: AppColors.info,
+                              ),
+                            ],
+                          ),
+                        );
+                      }
+                      final interaction = secondaryList[index - 1];
+                      return PaginationWrapper(
+                        key: ValueKey('secondary_${interaction.id}_$index'),
+                        index: index - 1,
+                        child: InteractionCard(
+                          interaction: interaction,
+                          onTap: () {},
+                        ),
+                      );
+                    },
+                    childCount:
+                        _filteredInteractions
+                            .where((i) => !i.isPrimaryIngredient)
+                            .length +
+                        1, // +1 for header
+                  ),
+                ),
+              ),
+          ],
         ],
       ),
     );
+  }
+}
+
+class _InteractionSectionHeader extends StatelessWidget {
+  final String title;
+  final String? subtitle;
+  final IconData? icon;
+  final Color? color;
+
+  const _InteractionSectionHeader({
+    required this.title,
+    this.subtitle,
+    this.icon,
+    this.color,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Row(
+      children: [
+        if (icon != null) ...[
+          Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: (color ?? theme.colorScheme.primary).withValues(
+                alpha: 0.1,
+              ),
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Icon(
+              icon,
+              size: 20,
+              color: color ?? theme.colorScheme.primary,
+            ),
+          ),
+          const SizedBox(width: 12),
+        ],
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                title,
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: theme.colorScheme.onSurface,
+                ),
+              ),
+              if (subtitle != null)
+                Text(
+                  subtitle!,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _InfoBanner extends StatelessWidget {
+  final String text;
+  final Color color;
+
+  const _InfoBanner({required this.text, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(LucideIcons.info, size: 20, color: color),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              text,
+              style: const TextStyle(fontSize: 13, height: 1.4),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class PaginationWrapper extends StatelessWidget {
+  final Widget child;
+  final int index;
+
+  const PaginationWrapper({
+    super.key,
+    required this.child,
+    required this.index,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return child
+        .animate(delay: (20 * (index % 10)).ms) // Limit delay for long lists
+        .fadeIn()
+        .slideX(begin: 0.1, end: 0);
   }
 }

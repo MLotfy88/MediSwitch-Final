@@ -17,6 +17,8 @@ class DrugInteraction extends Equatable {
   final String? arabicRecommendation;
   final String source;
   final String type;
+  final bool
+  isPrimaryIngredient; // true if the searched ingredient is ingredient1
 
   const DrugInteraction({
     this.id,
@@ -29,6 +31,7 @@ class DrugInteraction extends Equatable {
     this.arabicRecommendation,
     this.source = 'DailyMed',
     this.type = 'pharmacodynamic',
+    this.isPrimaryIngredient = true,
   });
 
   // Factory constructor to create an instance from JSON
@@ -92,6 +95,7 @@ class DrugInteraction extends Equatable {
     arabicRecommendation,
     source,
     type,
+    isPrimaryIngredient,
   ];
 }
 

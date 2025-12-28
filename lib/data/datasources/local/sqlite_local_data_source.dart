@@ -1844,6 +1844,40 @@ class SqliteLocalDataSource {
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
+
+      // Determine if this is a primary interaction (searched drug is ingredient1)
+      final ing1 = (m['ingredient1'] as String? ?? '').toLowerCase();
+      // We check if ingredient1 contains the search term (simple match)
+      // or if we used specific search terms, check against those.
+      // Since we don't have the exact term that matched readily available for each row without re-checking,
+      // we'll use the original normalized query.
+      bool isPrimary = false;
+
+      // Logic: If ingredient1 matches the search term more closely?
+      // Or simply if ingredient1 contains the search term.
+      // If the search term is 'olive', and ing1 is 'olive oil', contains is true.
+      // If ing1 is 'warfarin', contains is false (usually).
+
+      // Check against all searchTerms we used
+      final termToCheck =
+          (searchTerms.isNotEmpty ? searchTerms.first : normalizedQuery)
+              .toLowerCase();
+
+      // Robust check:
+      // If ingredient1 contains the term, we consider it primary.
+      // Note: If BOTH contain it (e.g. self-interaction or similar names), it defaults to primary.
+      if (ing1.contains(termToCheck)) {
+        isPrimary = true;
+      } else {
+        // Fallback: Check if ingredient1 matches any of the split parts if used
+        for (final t in searchTerms) {
+          if (ing1.contains(t.toLowerCase())) {
+            isPrimary = true;
+            break;
+          }
+        }
+      }
+
       return DrugInteractionModel.fromMap({
         'id': m['id'],
         'med_id': 0,
@@ -1852,6 +1886,7 @@ class SqliteLocalDataSource {
         'severity': m['severity'],
         'effect': m['effect'] ?? m['description'],
         'source': m['source'],
+        'is_primary_ingredient': isPrimary,
       });
     });
   }

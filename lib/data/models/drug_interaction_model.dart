@@ -12,9 +12,11 @@ class DrugInteractionModel extends DrugInteraction {
     super.arabicRecommendation,
     super.source = 'DailyMed',
     super.type = 'pharmacodynamic',
+    super.isPrimaryIngredient = true,
   });
 
   factory DrugInteractionModel.fromJson(Map<String, dynamic> json) {
+    // Note: isPrimaryIngredient is usually calculated at runtime, defaulting to true or reading if present
     return DrugInteractionModel(
       id: json['id'] as int?,
       ingredient1: json['ingredient1'] as String? ?? '',
@@ -26,6 +28,11 @@ class DrugInteractionModel extends DrugInteraction {
       arabicRecommendation: json['arabic_recommendation'] as String?,
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
+      isPrimaryIngredient:
+          (json['is_primary_ingredient'] == 1 ||
+                  json['is_primary_ingredient'] == true)
+              ? true
+              : true, // Default to true if not specified, logic in repo handles setting it
     );
   }
 
