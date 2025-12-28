@@ -94,7 +94,7 @@ jobs:
     
     - name: Upload compressed database
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ddinter-database-compressed
         path: assets/external_research_data/ddinter_complete_*.tar.gz
