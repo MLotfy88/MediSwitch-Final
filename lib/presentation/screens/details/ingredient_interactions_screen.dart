@@ -417,8 +417,11 @@ class _IngredientInteractionsScreenState
           ],
         ],
       ),
+    );
+  }
+
   void _showInteractionDetails(DrugInteraction interaction) {
-    showDialog(
+    showDialog<void>(
       context: context,
       builder: (context) {
         final isRTL = Directionality.of(context) == TextDirection.rtl;
@@ -451,8 +454,12 @@ class _IngredientInteractionsScreenState
                   style: const TextStyle(fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
+                const SizedBox(height: 8),
                 Text(
-                  interaction.effect,
+                  interaction.effect ??
+                      (isRTL
+                          ? 'لا توجد تفاصيل إضافية'
+                          : 'No additional details available'),
                   style: const TextStyle(height: 1.5, fontSize: 15),
                 ),
               ],
@@ -500,9 +507,10 @@ class _DetailRow extends StatelessWidget {
               value,
               style: TextStyle(
                 fontWeight: FontWeight.w500,
-                color: isSeverity && value.toLowerCase().contains('severe')
-                    ? AppColors.danger
-                    : null,
+                color:
+                    isSeverity && value.toLowerCase().contains('severe')
+                        ? AppColors.danger
+                        : null,
               ),
             ),
           ),

@@ -66,9 +66,15 @@ def log_progress(current_id):
 
 def scrape_interaction(drug_id):
     url = f"{BASE_URL}{drug_id}/"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'application/json, text/plain, */*',
+        'Referer': 'http://ddinter.scbdd.com/ddinter/interaction_detail',
+        'Connection': 'keep-alive'
+    }
     try:
         # NO TIMEOUT DELAY - Go as fast as possible
-        response = requests.get(url, timeout=5) 
+        response = requests.get(url, headers=headers, timeout=10) # Increased timeout slightly for stability 
         
         with lock:
             stats["scanned"] += 1
