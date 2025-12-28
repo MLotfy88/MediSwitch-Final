@@ -57,7 +57,51 @@ class _IngredientInteractionsScreenState
       List<DrugInteraction> specificList = [];
 
       if (widget.ingredient != null) {
-        if (!widget.onlyFood) {
+        if (widget.onlyFood) {
+          // --- FOOD ONLY ---
+          try {
+            // Create a temporary drug entity with the active ingredient name to lookup food interactions
+            final tempDrug = DrugEntity(
+              id: null,
+              tradeName: '',
+              arabicName: '',
+              price: '0',
+              // oldPrice: null,
+              mainCategory: '',
+              active:
+                  widget.ingredient!.normalizedName ?? widget.ingredient!.name,
+              company: '',
+              dosageForm: '',
+              concentration: '',
+              unit: '',
+              usage: '',
+              description: '',
+              lastPriceUpdate: '',
+              pharmacology: '',
+            );
+
+            final foodInteractions = await _interactionRepository
+                .getFoodInteractions(tempDrug);
+
+            // Convert strings to DrugInteraction objects
+            for (final foodDesc in foodInteractions) {
+              specificList.add(
+                DrugInteraction(
+                  id: -1, // Dummy ID
+                  ingredient1: widget.ingredient!.name,
+                  ingredient2: 'Food / Diet',
+                  severity: 'Major', // Assume significant if listed
+                  effect: foodDesc,
+                  source: 'Database', // or 'Food'
+                  type: 'food',
+                ),
+              );
+            }
+          } on Exception catch (e) {
+            debugPrint('Error loading food interactions: $e');
+          }
+        } else {
+          // --- DRUG ONLY (High Risk) ---
           final repo = _interactionRepository;
 
           // DEBUG: Print what we're searching for
@@ -71,49 +115,6 @@ class _IngredientInteractionsScreenState
           debugPrint('   - Searching with: "$searchTerm"');
 
           specificList = await repo.getInteractionsWith(searchTerm);
-        }
-
-        // Fetch Food Interactions
-        try {
-          // Create a temporary drug entity with the active ingredient name to lookup food interactions
-          final tempDrug = DrugEntity(
-            id: null,
-            tradeName: '',
-            arabicName: '',
-            price: '0',
-            // oldPrice: null,
-            mainCategory: '',
-            active:
-                widget.ingredient!.normalizedName ?? widget.ingredient!.name,
-            company: '',
-            dosageForm: '',
-            concentration: '',
-            unit: '',
-            usage: '',
-            description: '',
-            lastPriceUpdate: '',
-            pharmacology: '',
-          );
-
-          final foodInteractions = await _interactionRepository
-              .getFoodInteractions(tempDrug);
-
-          // Convert strings to DrugInteraction objects
-          for (final foodDesc in foodInteractions) {
-            specificList.add(
-              DrugInteraction(
-                id: -1, // Dummy ID
-                ingredient1: widget.ingredient!.name,
-                ingredient2: 'Food / Diet',
-                severity: 'Major', // Assume significant if listed
-                effect: foodDesc,
-                source: 'Database', // or 'Food'
-                type: 'food',
-              ),
-            );
-          }
-        } on Exception catch (e) {
-          debugPrint('Error loading food interactions: $e');
         }
       } else {
         specificList = await _interactionRepository.getHighRiskInteractions();
@@ -340,7 +341,7 @@ class _IngredientInteractionsScreenState
                         index: index - 1,
                         child: InteractionCard(
                           interaction: interaction,
-                          onTap: () {},
+                          onTap: () => _showInteractionDetails(interaction),
                         ),
                       );
                     },
@@ -401,7 +402,7 @@ class _IngredientInteractionsScreenState
                         index: index - 1,
                         child: InteractionCard(
                           interaction: interaction,
-                          onTap: () {},
+                          onTap: () => _showInteractionDetails(interaction),
                         ),
                       );
                     },
@@ -414,6 +415,97 @@ class _IngredientInteractionsScreenState
                 ),
               ),
           ],
+        ],
+      ),
+  void _showInteractionDetails(DrugInteraction interaction) {
+    showDialog(
+      context: context,
+      builder: (context) {
+        final isRTL = Directionality.of(context) == TextDirection.rtl;
+        return AlertDialog(
+          title: Text(
+            isRTL ? 'تفاصيل التفاعل' : 'Interaction Details',
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
+          content: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _DetailRow(
+                  label: isRTL ? 'المادة الأولى' : 'Ingredient 1',
+                  value: interaction.ingredient1,
+                ),
+                _DetailRow(
+                  label: isRTL ? 'المادة الثانية' : 'Ingredient 2',
+                  value: interaction.ingredient2,
+                ),
+                _DetailRow(
+                  label: isRTL ? 'الخطورة' : 'Severity',
+                  value: interaction.severity,
+                  isSeverity: true,
+                ),
+                const Divider(height: 24),
+                Text(
+                  isRTL ? 'التأثير:' : 'Effect:',
+                  style: const TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  interaction.effect,
+                  style: const TextStyle(height: 1.5, fontSize: 15),
+                ),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: Text(isRTL ? 'إغلاق' : 'Close'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _DetailRow extends StatelessWidget {
+  final String label;
+  final String value;
+  final bool isSeverity;
+
+  const _DetailRow({
+    required this.label,
+    required this.value,
+    this.isSeverity = false,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            '$label: ',
+            style: const TextStyle(
+              fontWeight: FontWeight.w600,
+              color: Colors.grey,
+            ),
+          ),
+          Expanded(
+            child: Text(
+              value,
+              style: TextStyle(
+                fontWeight: FontWeight.w500,
+                color: isSeverity && value.toLowerCase().contains('severe')
+                    ? AppColors.danger
+                    : null,
+              ),
+            ),
+          ),
         ],
       ),
     );

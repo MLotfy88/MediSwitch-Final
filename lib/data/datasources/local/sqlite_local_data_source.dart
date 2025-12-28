@@ -1548,6 +1548,12 @@ class SqliteLocalDataSource {
             ELSE 1 
           END) as dangerScore
         FROM AffectedIngredients
+        WHERE ingredient_key NOT IN (
+          'pro', 'met', 'ors', 'interactions', 'bee', 'sage', 
+          'bet', 'vit', 'but', 'epa', 'thy', 'ros', 'eru', 'prop',
+          'drugs', 'food', 'alcohol', 'water'
+        )
+        AND LENGTH(ingredient_key) > 2 
         GROUP BY ingredient_key
       ),
       SplitIngredients AS (

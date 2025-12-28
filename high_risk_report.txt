@@ -1,0 +1,200 @@
+=== MEDICAL APP SIMULATION REPORT ===
+Database: /home/adminlotfy/project/mediswitch.db
+======================================
+
+--- STEP 1: High Risk Ingredients List (Top 10) ---
+• phenytoin (Total: 616, Severe: 448)
+• ketoconazole (Total: 551, Severe: 404)
+• digoxin (Total: 547, Severe: 436)
+• carbamazepine (Total: 528, Severe: 394)
+• warfarin (Total: 630, Severe: 327)
+• ritonavir (Total: 403, Severe: 312)
+• gre (Total: 401, Severe: 302)
+• cla (Total: 400, Severe: 290)
+• vera (Total: 360, Severe: 245)
+• diuretics (Total: 352, Severe: 284)
+• cyclosporin (Total: 341, Severe: 239)
+• ala (Total: 317, Severe: 235)
+• clarithromycin (Total: 276, Severe: 214)
+• protein (Total: 306, Severe: 213)
+• cyclosporine (Total: 289, Severe: 258)
+• cimetidine (Total: 326, Severe: 192)
+• tar (Total: 286, Severe: 211)
+• erythromycin (Total: 278, Severe: 199)
+• theophylline (Total: 293, Severe: 215)
+• epinephrine (Total: 295, Severe: 210)
+
+
+--- STEP 2: Detail View for 'olive oil' ---
+User clicks on card: olive oil
+Search Query: 'olive oil', Search Terms: ['olive oil']
+Total Results: 0
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 0)
+  (No direct interactions found)
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 0)
+  (No secondary interactions found)
+
+========================================
+
+--- STEP 2: Detail View for 'warfarin' ---
+User clicks on card: warfarin
+Search Query: 'warfarin', Search Terms: ['warfarin']
+Total Results: 954
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 429)
+  ✅ warfarin sodium + fos (severe)
+  ✅ warfarin sodium + fenofibrate (severe)
+  ✅ warfarin sodium + norfloxacin (severe)
+  ✅ warfarin sodium + fenoprofen (severe)
+  ✅ warfarin sodium + cefoxitin (severe)
+  ✅ warfarin sodium + salicylic a (severe)
+  ✅ warfarin sodium + fluconazole (severe)
+  ✅ warfarin sodium + alcohol (severe)
+  ✅ warfarin sodium + vitamin c (severe)
+  ✅ warfarin sodium + tramadol (severe)
+  ... and 419 more
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 525)
+  ℹ️ trovafloxacin mesylate + warfarin (major)
+  ℹ️ dantrolene sodium + warfarin (major)
+  ℹ️ lomefloxacin hydrochloride + warfarin (severe)
+  ℹ️ cimetidine and sodium chloride + warfarin (major)
+  ℹ️ metronidazole + warfarin (severe)
+  ℹ️ ketorolac tromethamine + warfarin (contraindicated)
+  ℹ️ tramadol hydrochloride + warfarin (severe)
+  ℹ️ famotidine + warfarin (major)
+  ℹ️ sotalol hydrochloride + warfarin (major)
+  ℹ️ meloxicam + warfarin (severe)
+  ... and 515 more
+
+========================================
+
+--- STEP 2: Detail View for 'aspirin' ---
+User clicks on card: aspirin
+Search Query: 'aspirin', Search Terms: ['aspirin']
+Total Results: 657
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 447)
+  ✅ butalbital, aspirin, and caffeine + salicylate (severe)
+  ✅ butalbital, aspirin, and caffeine + caf (severe)
+  ✅ butalbital, aspirin, and caffeine + sage (severe)
+  ✅ butalbital, aspirin, and caffeine + alcohol (severe)
+  ✅ butalbital, aspirin, and caffeine + met (severe)
+  ✅ butalbital, aspirin, and caffeine + corticosteroids (severe)
+  ✅ butalbital, aspirin, and caffeine + protein (severe)
+  ✅ butalbital, aspirin, and caffeine + caffeine (severe)
+  ✅ butalbital, aspirin, and caffeine + aspirin (severe)
+  ✅ butalbital, aspirin, and caffeine + probenecid (severe)
+  ... and 437 more
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 210)
+  ℹ️ lithium carbonate + aspirin (severe)
+  ℹ️ cortisone acetate + aspirin (severe)
+  ℹ️ atenolol + aspirin (severe)
+  ℹ️ meloxicam + aspirin (severe)
+  ℹ️ torsemide + aspirin (severe)
+  ℹ️ ibuprofen + aspirin (severe)
+  ℹ️ prednisone + aspirin (severe)
+  ℹ️ nitroglycerin + aspirin (contraindicated)
+  ℹ️ acetaminophen, caffeine and dihydrocodeine bitartrate + aspirin (severe)
+  ℹ️ naproxen + aspirin (severe)
+  ... and 200 more
+
+========================================
+
+--- STEP 2: Detail View for 'testosterone' ---
+User clicks on card: testosterone
+Search Query: 'testosterone', Search Terms: ['testosterone']
+Total Results: 132
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 126)
+  ✅ testosterone + met (minor)
+  ✅ testosterone + corticosteroids (minor)
+  ✅ testosterone + epa (minor)
+  ✅ testosterone + eru (minor)
+  ✅ testosterone + glucose (minor)
+  ✅ testosterone + acth (minor)
+  ✅ testosterone + bet (minor)
+  ✅ testosterone + but (minor)
+  ✅ testosterone cypionate + sage (minor)
+  ✅ testosterone cypionate + met (minor)
+  ... and 116 more
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 6)
+  ℹ️ warfarin sodium + testosterone (severe)
+  ℹ️ lovastatin + testosterone (severe)
+  ℹ️ medroxyprogesterone acetate + testosterone (major)
+  ℹ️ pravastatin sodium + testosterone (severe)
+  ℹ️ prasterone and ibuprofen + testosterone (moderate)
+  ℹ️ estradiol + testosterone (minor)
+
+========================================
+
+--- STEP 2: Detail View for 'phenytoin' ---
+User clicks on card: phenytoin
+Search Query: 'phenytoin', Search Terms: ['phenytoin']
+Total Results: 1139
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 608)
+  ✅ phenytoin sodium + diazepam (minor)
+  ✅ phenytoin sodium + alcohol (minor)
+  ✅ phenytoin sodium + methylphenidate (minor)
+  ✅ phenytoin sodium + corticosteroids (minor)
+  ✅ phenytoin sodium + carbamazepine (minor)
+  ✅ phenytoin sodium + eru (minor)
+  ✅ phenytoin sodium + vitamin (minor)
+  ✅ phenytoin sodium + cimetidine (minor)
+  ✅ phenytoin sodium + but (minor)
+  ✅ phenytoin sodium + fluoxetine (minor)
+  ... and 598 more
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 531)
+  ℹ️ tolazamide + phenytoin (severe)
+  ℹ️ meperidine hydrochloride + phenytoin (moderate)
+  ℹ️ lomefloxacin hydrochloride + phenytoin (severe)
+  ℹ️ cortisone acetate + phenytoin (severe)
+  ℹ️ cimetidine and sodium chloride + phenytoin (major)
+  ℹ️ metronidazole + phenytoin (severe)
+  ℹ️ metformin hydrochloride + phenytoin (major)
+  ℹ️ ketorolac tromethamine + phenytoin (contraindicated)
+  ℹ️ calcitriol + phenytoin (moderate)
+  ℹ️ famotidine + phenytoin (major)
+  ... and 521 more
+
+========================================
+
+--- STEP 2: Detail View for 'ketoconazole' ---
+User clicks on card: ketoconazole
+Search Query: 'ketoconazole', Search Terms: ['ketoconazole']
+Total Results: 578
+
+[SECTION 1: DIRECT INTERACTIONS] (Count: 134)
+  ✅ ketoconazole + loratadine (contraindicated)
+  ✅ ketoconazole + thy (contraindicated)
+  ✅ ketoconazole + sage (contraindicated)
+  ✅ ketoconazole + prop (contraindicated)
+  ✅ ketoconazole + met (contraindicated)
+  ✅ ketoconazole + alcohol (contraindicated)
+  ✅ ketoconazole + digoxin (contraindicated)
+  ✅ ketoconazole + pea (contraindicated)
+  ✅ ketoconazole + anticoagulant (contraindicated)
+  ✅ ketoconazole + contraindications (contraindicated)
+  ... and 124 more
+
+[SECTION 2: SECONDARY INTERACTIONS] (Count: 444)
+  ℹ️ cortisone acetate + ketoconazole (severe)
+  ℹ️ cimetidine and sodium chloride + ketoconazole (major)
+  ℹ️ bexarotene + ketoconazole (severe)
+  ℹ️ calcitriol + ketoconazole (moderate)
+  ℹ️ theophyllin, anhydrous + ketoconazole (severe)
+  ℹ️ fomepizole + ketoconazole (major)
+  ℹ️ omeprazole, sodium bicarbonate and magnesium hydroxide + ketoconazole (contraindicated)
+  ℹ️ prednisone + ketoconazole (severe)
+  ℹ️ theophylline, anhydrous + ketoconazole (severe)
+  ℹ️ donepezil hydrochloride + ketoconazole (major)
+  ... and 434 more
+
+========================================
+
