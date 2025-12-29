@@ -1,0 +1,906 @@
+
+    <!DOCTYPE html>
+    <html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <title>تقرير اكتمال قاعدة البيانات</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                direction: rtl;
+            }
+            h1 {
+                color: #2c3e50;
+                border-bottom: 3px solid #3498db;
+                padding-bottom: 10px;
+            }
+            h2 {
+                color: #34495e;
+                margin-top: 30px;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                margin: 20px 0;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            th {
+                background-color: #3498db;
+                color: white;
+                padding: 12px;
+                text-align: right;
+            }
+            td {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: right;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .high-empty {
+                background-color: #e74c3c;
+                color: white;
+                font-weight: bold;
+            }
+            .medium-empty {
+                background-color: #f39c12;
+                color: white;
+            }
+            .low-empty {
+                background-color: #2ecc71;
+                color: white;
+            }
+            .full {
+                background-color: #27ae60;
+                color: white;
+                font-weight: bold;
+            }
+            .summary {
+                background-color: #ecf0f1;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 20px 0;
+            }
+            .stats {
+                display: inline-block;
+                margin: 10px 20px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>📊 تقرير اكتمال قاعدة بيانات DDInter</h1>
+        <div class="summary">
+            <p><strong>📅 تاريخ التحليل:</strong> 2025-12-29 00:20:19</p>
+            <p><strong>🗄️ قاعدة البيانات:</strong> ddinter_complete.db</p>
+        </div>
+    
+        <h2>📋 جدول: drugs</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>1,939</strong></span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم العمود</th>
+                    <th>النوع</th>
+                    <th>مملوء</th>
+                    <th>فارغ</th>
+                    <th>نسبة الامتلاء</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td><strong>id</strong></td>
+                <td>INTEGER</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>ddinter_id</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_name</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_type</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>molecular_formula</strong></td>
+                <td>TEXT</td>
+                <td>1,682 (86.75%)</td>
+                <td>257 (13.25%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 86.75%, #e74c3c 86.75%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        86.75%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>molecular_weight</strong></td>
+                <td>REAL</td>
+                <td>1,682 (86.75%)</td>
+                <td>257 (13.25%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 86.75%, #e74c3c 86.75%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        86.75%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>cas_number</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>description</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>iupac_name</strong></td>
+                <td>TEXT</td>
+                <td>1,567 (80.81%)</td>
+                <td>372 (19.19%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 80.81%, #e74c3c 80.81%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        80.81%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>inchi</strong></td>
+                <td>TEXT</td>
+                <td>1,567 (80.81%)</td>
+                <td>372 (19.19%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 80.81%, #e74c3c 80.81%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        80.81%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>smiles</strong></td>
+                <td>TEXT</td>
+                <td>1,567 (80.81%)</td>
+                <td>372 (19.19%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 80.81%, #e74c3c 80.81%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        80.81%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>atc_codes</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>1,939 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>external_links</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>1,939 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>structure_2d_svg</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>1,939 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>scraped_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>updated_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <h2>📋 جدول: drug_drug_interactions</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>299,114</strong></span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم العمود</th>
+                    <th>النوع</th>
+                    <th>مملوء</th>
+                    <th>فارغ</th>
+                    <th>نسبة الامتلاء</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td><strong>id</strong></td>
+                <td>INTEGER</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>interaction_id</strong></td>
+                <td>INTEGER</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_a_id</strong></td>
+                <td>TEXT</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_b_id</strong></td>
+                <td>TEXT</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>severity</strong></td>
+                <td>TEXT</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>mechanism_flags</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>interaction_description</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>management_text</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>alternative_drugs_a</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>alternative_drugs_b</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>metabolism_info</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>reference_text</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>299,114 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>source_url</strong></td>
+                <td>TEXT</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>scraped_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>299,114 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <h2>📋 جدول: drug_disease_interactions</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>0</strong></span>
+        </div>
+        <p>⚠️ الجدول فارغ تماماً</p>
+        <h2>📋 جدول: drug_food_interactions</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>805</strong></span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم العمود</th>
+                    <th>النوع</th>
+                    <th>مملوء</th>
+                    <th>فارغ</th>
+                    <th>نسبة الامتلاء</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td><strong>id</strong></td>
+                <td>INTEGER</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_id</strong></td>
+                <td>TEXT</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>food_name</strong></td>
+                <td>TEXT</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>severity</strong></td>
+                <td>TEXT</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>description</strong></td>
+                <td>TEXT</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>management</strong></td>
+                <td>TEXT</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>mechanism_flags</strong></td>
+                <td>TEXT</td>
+                <td>804 (99.88%)</td>
+                <td>1 (0.12%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 99.88%, #e74c3c 99.88%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        99.88%
+                    </div>
+                </td>
+                <td class="low-empty">✓ جيد</td>
+            </tr>
+            
+            <tr>
+                <td><strong>reference_text</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>805 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>scraped_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>805 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <h2>📋 جدول: compound_preparations</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>5,663</strong></span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم العمود</th>
+                    <th>النوع</th>
+                    <th>مملوء</th>
+                    <th>فارغ</th>
+                    <th>نسبة الامتلاء</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td><strong>id</strong></td>
+                <td>INTEGER</td>
+                <td>5,663 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>drug_id</strong></td>
+                <td>TEXT</td>
+                <td>5,663 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>preparation_name</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>5,663 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>components</strong></td>
+                <td>TEXT</td>
+                <td>5,663 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>interaction_info</strong></td>
+                <td>TEXT</td>
+                <td>5,663 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>scraped_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>5,663 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <h2>📋 جدول: scraping_progress</h2>
+        <div class="summary">
+            <span class="stats">📊 عدد الصفوف: <strong>1,939</strong></span>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>اسم العمود</th>
+                    <th>النوع</th>
+                    <th>مملوء</th>
+                    <th>فارغ</th>
+                    <th>نسبة الامتلاء</th>
+                    <th>الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+        
+            <tr>
+                <td><strong>id</strong></td>
+                <td>INTEGER</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>entity_type</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>entity_id</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>status</strong></td>
+                <td>TEXT</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            <tr>
+                <td><strong>error_message</strong></td>
+                <td>TEXT</td>
+                <td>0 (0.0%)</td>
+                <td>1,939 (100.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 0.0%, #e74c3c 0.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        0.0%
+                    </div>
+                </td>
+                <td class="high-empty">❌ ضعيف</td>
+            </tr>
+            
+            <tr>
+                <td><strong>scraped_at</strong></td>
+                <td>TIMESTAMP</td>
+                <td>1,939 (100.0%)</td>
+                <td>0 (0.0%)</td>
+                <td>
+                    <div style="background: linear-gradient(to right, #2ecc71 100.0%, #e74c3c 100.0%); 
+                                height: 20px; border-radius: 10px; text-align: center; color: white; font-weight: bold;">
+                        100.0%
+                    </div>
+                </td>
+                <td class="full">✅ ممتاز</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+    </body>
+    </html>
+    

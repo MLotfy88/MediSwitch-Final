@@ -1,0 +1,497 @@
+[
+  {
+    "table_name": "drugs",
+    "total_rows": 1939,
+    "columns": [
+      {
+        "column_name": "id",
+        "column_type": "INTEGER",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "ddinter_id",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_name",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_type",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "molecular_formula",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1682,
+        "null_or_empty": 257,
+        "filled_percentage": 86.75,
+        "null_percentage": 13.25
+      },
+      {
+        "column_name": "molecular_weight",
+        "column_type": "REAL",
+        "total_rows": 1939,
+        "filled": 1682,
+        "null_or_empty": 257,
+        "filled_percentage": 86.75,
+        "null_percentage": 13.25
+      },
+      {
+        "column_name": "cas_number",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "description",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "iupac_name",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1567,
+        "null_or_empty": 372,
+        "filled_percentage": 80.81,
+        "null_percentage": 19.19
+      },
+      {
+        "column_name": "inchi",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1567,
+        "null_or_empty": 372,
+        "filled_percentage": 80.81,
+        "null_percentage": 19.19
+      },
+      {
+        "column_name": "smiles",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1567,
+        "null_or_empty": 372,
+        "filled_percentage": 80.81,
+        "null_percentage": 19.19
+      },
+      {
+        "column_name": "atc_codes",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 0,
+        "null_or_empty": 1939,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "external_links",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 0,
+        "null_or_empty": 1939,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "structure_2d_svg",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 0,
+        "null_or_empty": 1939,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "scraped_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "updated_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      }
+    ]
+  },
+  {
+    "table_name": "drug_drug_interactions",
+    "total_rows": 299114,
+    "columns": [
+      {
+        "column_name": "id",
+        "column_type": "INTEGER",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "interaction_id",
+        "column_type": "INTEGER",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_a_id",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_b_id",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "severity",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "mechanism_flags",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "interaction_description",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "management_text",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "alternative_drugs_a",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "alternative_drugs_b",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "metabolism_info",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "reference_text",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 0,
+        "null_or_empty": 299114,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "source_url",
+        "column_type": "TEXT",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "scraped_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 299114,
+        "filled": 299114,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      }
+    ]
+  },
+  {
+    "table_name": "drug_disease_interactions",
+    "total_rows": 0,
+    "columns": [],
+    "message": "Table is empty"
+  },
+  {
+    "table_name": "drug_food_interactions",
+    "total_rows": 805,
+    "columns": [
+      {
+        "column_name": "id",
+        "column_type": "INTEGER",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_id",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "food_name",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "severity",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "description",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "management",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "mechanism_flags",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 804,
+        "null_or_empty": 1,
+        "filled_percentage": 99.88,
+        "null_percentage": 0.12
+      },
+      {
+        "column_name": "reference_text",
+        "column_type": "TEXT",
+        "total_rows": 805,
+        "filled": 0,
+        "null_or_empty": 805,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "scraped_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 805,
+        "filled": 805,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      }
+    ]
+  },
+  {
+    "table_name": "compound_preparations",
+    "total_rows": 5663,
+    "columns": [
+      {
+        "column_name": "id",
+        "column_type": "INTEGER",
+        "total_rows": 5663,
+        "filled": 5663,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "drug_id",
+        "column_type": "TEXT",
+        "total_rows": 5663,
+        "filled": 5663,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "preparation_name",
+        "column_type": "TEXT",
+        "total_rows": 5663,
+        "filled": 0,
+        "null_or_empty": 5663,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "components",
+        "column_type": "TEXT",
+        "total_rows": 5663,
+        "filled": 5663,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "interaction_info",
+        "column_type": "TEXT",
+        "total_rows": 5663,
+        "filled": 5663,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "scraped_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 5663,
+        "filled": 5663,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      }
+    ]
+  },
+  {
+    "table_name": "scraping_progress",
+    "total_rows": 1939,
+    "columns": [
+      {
+        "column_name": "id",
+        "column_type": "INTEGER",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "entity_type",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "entity_id",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "status",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      },
+      {
+        "column_name": "error_message",
+        "column_type": "TEXT",
+        "total_rows": 1939,
+        "filled": 0,
+        "null_or_empty": 1939,
+        "filled_percentage": 0.0,
+        "null_percentage": 100.0
+      },
+      {
+        "column_name": "scraped_at",
+        "column_type": "TIMESTAMP",
+        "total_rows": 1939,
+        "filled": 1939,
+        "null_or_empty": 0,
+        "filled_percentage": 100.0,
+        "null_percentage": 0.0
+      }
+    ]
+  }
+]
