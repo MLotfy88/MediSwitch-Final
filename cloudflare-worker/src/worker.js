@@ -207,6 +207,37 @@ export default {
                 return handleUpdate(request, env);
             }
 
+            // Admin: Generic DB Manager
+            if (path === '/api/admin/db/tables' && method === 'GET') {
+                try {
+                    const { results } = await DB.prepare("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%'").all();
+                    const tables = results.map(r => r.name);
+                    return jsonResponse({ data: tables });
+                } catch (e) {
+                    return errorResponse(e.message, 500);
+                }
+            }
+
+            if (path === '/api/admin/db/query' && method === 'POST') {
+                try {
+                    const { query, params = [] } = await request.json();
+                    if (!query) return errorResponse('Query required', 400);
+
+                    const stmt = DB.prepare(query).bind(...params);
+                    const isSelect = query.trim().toUpperCase().startsWith('SELECT') || query.trim().toUpperCase().startsWith('PRAGMA');
+
+                    if (isSelect) {
+                        const { results } = await stmt.all();
+                        return jsonResponse({ data: results || [] });
+                    } else {
+                        const { meta } = await stmt.run();
+                        return jsonResponse({ message: 'Query executed', meta });
+                    }
+                } catch (e) {
+                    return errorResponse(e.message, 500);
+                }
+            }
+
             // 404
             return errorResponse(`Not found: ${path} (Method: ${method})`, 404);
 
@@ -1688,11 +1719,12 @@ async function handleCreateIapProduct(request, DB) {
     try {
         const data = await request.json();
         const result = await DB.prepare(`
-            INSERT INTO iap_products (product_id, tier, name, description, price, currency, duration_days, status)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO iap_products (product_id, tier, name, description, price, currency, duration_days, status, permissions)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         `).bind(
             data.product_id, data.tier, data.name, data.description,
-            data.price, data.currency || 'EGP', data.duration_days, data.status || 'active'
+            data.price, data.currency || 'EGP', data.duration_days, data.status || 'active',
+            data.permissions ? JSON.stringify(data.permissions) : '{}'
         ).run();
         return jsonResponse({ data: { id: result.meta.last_row_id, ...data } }, 201);
     } catch (e) {
@@ -1707,11 +1739,12 @@ async function handleUpdateIapProduct(id, request, DB) {
         await DB.prepare(`
             UPDATE iap_products SET 
                 product_id = ?, tier = ?, name = ?, description = ?, 
-                price = ?, currency = ?, duration_days = ?, status = ?
+                price = ?, currency = ?, duration_days = ?, status = ?, permissions = ?
             WHERE id = ?
         `).bind(
             data.product_id, data.tier, data.name, data.description,
-            data.price, data.currency, data.duration_days, data.status, id
+            data.price, data.currency, data.duration_days, data.status,
+            data.permissions ? JSON.stringify(data.permissions) : '{}', id
         ).run();
         return jsonResponse({ data: { id: parseInt(id), ...data } });
     } catch (e) {

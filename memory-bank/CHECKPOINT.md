@@ -1,5 +1,20 @@
 # 🎯 ملخص المشروع - December
 
+### CHECKPOINT 136 (2025-12-29)
+- **Feature Gating & IAP Permissions System**
+  - إضافة عمود `permissions` لجدول `iap_products` في قاعدة بيانات D1 السحابية.
+  - تحديث الـ Worker لدعم حفظ واسترجاع الصلاحيات بتنسيق JSON.
+  - إضافة واجهة اختيار الميزات (Feature Selector) في صفحة Monetization للتحكم في مستويات الاشتراك.
+- **Notification Reliability Fix**
+  - دمج Background Notification Polling في `UnifiedSyncService.dart` لجلب الإشعارات وعرضها محلياً.
+  - إصلاح تخزين الإشعارات في الـ Backend بإضافة معرفات (IDs) وطوابع زمنية دقيقة.
+- **Admin Dashboard Production Deploy**
+  - إصلاح واجهة إضافة الأدوية الممولة وتصحيح هيكل البيانات.
+  - النشر النهائي للـ Worker و الـ Dashboard باستخدام مفاتيح الإنتاج.
+- **Follow-up: Type Safety & Stability Fixes**
+  - إصلاح أخطاء الـ Type Assignment في `unified_sync_service.dart` وتعزيز استقرار برمجة جلب الإشعارات.
+  - معالجة أخطاء الـ Mapping في `Monetization.tsx` لضمان عرض الصلاحيات بشكل سليم وآمن نوعياً (Type-Safe).
+
 ### CHECKPOINT 135 (2025-12-25)
 - **Resolved High Risk Ingredient Names Truncation & Junk Data (Final Fix)**
   - Updated SQL query logic to select the **longest** (`MAX length`) original name for each ingredient key.

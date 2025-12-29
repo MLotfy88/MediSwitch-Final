@@ -162,17 +162,58 @@ async function handleRequest(request, env) {
       return jsonResponse({ message: 'Login successful', data: { userId: user.id, email: user.email, name: user.name } });
     }
 
-    // Admin: Get all users
+    // Admin: Get all users with Real Intelligence
     if (path === '/api/admin/users' && request.method === 'GET') {
       try {
         const { results } = await env.DB.prepare(`
           SELECT u.id, u.email, u.name, u.phone, u.status, u.created_at, u.last_login,
-                 s.plan_id, s.status as subscription_status, s.expires_at
+                 s.plan_id, s.status as subscription_status, s.expires_at,
+                 (SELECT COUNT(*) FROM user_searches WHERE user_id = u.id) as search_count
           FROM users u
           LEFT JOIN user_subscriptions s ON u.id = s.user_id AND s.status = 'active'
           ORDER BY u.created_at DESC
         `).all();
-        return jsonResponse({ data: results || [] });
+
+        const now = Math.floor(Date.now() / 1000);
+
+        // Enhance with computed intelligence
+        const enriched = results.map(u => {
+          // 1. Calculate Last Login Days
+          const lastLogin = u.last_login || u.created_at;
+          const daysSinceLogin = Math.floor((now - lastLogin) / 86400);
+
+          // 2. Engagement Score (0-100)
+          // Base: 100
+          // Penalty: -2 per day since login
+          // Bonus: +1 per search (capped at 20)
+          let score = 100 - (daysSinceLogin * 2);
+          score += Math.min(u.search_count || 0, 20);
+          score = Math.max(0, Math.min(100, score));
+
+          // 3. Churn Risk
+          let churn = 'low';
+          if (daysSinceLogin > 30) churn = 'high';
+          else if (daysSinceLogin > 14) churn = 'medium';
+
+          // 4. Persona Inference
+          let persona = 'patient';
+          const email = (u.email || '').toLowerCase();
+          const name = (u.name || '').toLowerCase();
+
+          if (email.includes('dr') || name.startsWith('dr') || email.includes('clinic') || email.includes('hospital')) persona = 'doctor';
+          else if (email.includes('pharma') || name.includes('pharm')) persona = 'pharmacist';
+          else if (email.includes('admin')) persona = 'admin';
+
+          return {
+            ...u,
+            engagement_score: score,
+            churn_risk: churn,
+            persona: persona,
+            days_inactive: daysSinceLogin
+          };
+        });
+
+        return jsonResponse({ data: enriched });
       } catch (e) {
         return jsonResponse({ error: e.message }, 500);
       }
@@ -866,18 +907,110 @@ async function handleRequest(request, env) {
       }
     }
 
+    // Admin: Generic DB Manager - List Tables
+    if (path === '/api/admin/db/tables' && request.method === 'GET') {
+      try {
+        // Fetch all tables excluding sqlite internal ones
+        const { results } = await env.DB.prepare("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%'").all();
+        const tables = results.map(r => r.name);
+        return jsonResponse({ data: tables });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: Generic DB Manager - Execute Query
+    if (path === '/api/admin/db/query' && request.method === 'POST') {
+      try {
+        const { query, params = [] } = await request.json();
+
+        // Basic security check (though it is admin only)
+        if (!query) return jsonResponse({ error: 'Query required' }, 400);
+
+        // Simple protection against multiple statements if needed, but D1 prepare usually handles one.
+        // We trust the admin context here.
+
+        const stmt = env.DB.prepare(query).bind(...params);
+
+        // Check if it's a SELECT or modifying query
+        const isSelect = query.trim().toUpperCase().startsWith('SELECT') || query.trim().toUpperCase().startsWith('PRAGMA');
+
+        if (isSelect) {
+          const { results } = await stmt.all();
+          return jsonResponse({ data: results || [] });
+        } else {
+          const { meta } = await stmt.run();
+          return jsonResponse({ message: 'Query executed', meta });
+        }
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+
+    // Admin: Sponsored Drugs
+    if (path === '/api/admin/sponsored' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare(`
+          SELECT s.*, d.trade_name as drug_name 
+          FROM sponsored_drugs s
+          LEFT JOIN drugs d ON s.drug_id = d.id
+          ORDER BY s.priority DESC
+        `).all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ data: [] }); // Start with empty if table missing
+      }
+    }
+
+    if (path === '/api/admin/sponsored' && request.method === 'POST') {
+      try {
+        const { drug_id, priority, expires_at } = await request.json();
+        const id = generateId();
+        await env.DB.prepare('INSERT INTO sponsored_drugs (id, drug_id, priority, active, expires_at) VALUES (?, ?, ?, ?, ?)')
+          .bind(id, drug_id, priority || 1, 1, expires_at).run();
+        return jsonResponse({ message: 'Sponsored drug added', data: { id } }, 201);
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Admin: IAP Products
+    if (path === '/api/admin/iap' && request.method === 'GET') {
+      try {
+        const { results } = await env.DB.prepare('SELECT * FROM iap_products ORDER BY price').all();
+        return jsonResponse({ data: results || [] });
+      } catch (e) {
+        return jsonResponse({ data: [] });
+      }
+    }
+
+    // Update Config
+    if (path === '/api/config' && request.method === 'PUT') {
+      try {
+        const updates = await request.json();
+        // Upsert config keys
+        for (const [key, value] of Object.entries(updates)) {
+          const exists = await env.DB.prepare('SELECT 1 FROM app_config WHERE key = ?').bind(key).first();
+          if (exists) {
+            await env.DB.prepare('UPDATE app_config SET value = ?, updated_at = CURRENT_TIMESTAMP WHERE key = ?').bind(String(value), key).run();
+          } else {
+            await env.DB.prepare('INSERT INTO app_config (key, value) VALUES (?, ?)').bind(key, String(value)).run();
+          }
+        }
+        return jsonResponse({ message: 'Config updated' });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
     // 404
     return jsonResponse({ error: 'Not found' }, 404);
 
-  } catch (error) {
-    console.error('Error:', error);
-    return jsonResponse({ error: error.message }, 500);
-  }
-}
 
-// Event listener (Service Worker format)
-export default {
-  async fetch(request, env, ctx) {
-    return handleRequest(request, env);
-  }
-};
+    // Event listener (Service Worker format)
+    export default {
+      async fetch(request, env, ctx) {
+        return handleRequest(request, env);
+      }
+    };
