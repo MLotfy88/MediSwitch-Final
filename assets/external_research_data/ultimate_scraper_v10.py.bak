@@ -67,7 +67,6 @@ stats = {
     'drugs_processed': ThreadSafeCounter(),
     'ddi_fetched': ThreadSafeCounter(),
     'dfi_fetched': ThreadSafeCounter(),
-    'dsi_fetched': ThreadSafeCounter(),
     'multi_fetched': ThreadSafeCounter(),
     'errors': ThreadSafeCounter(),
     'details_enriched': ThreadSafeCounter()
@@ -360,34 +359,10 @@ def extract_drug_basic_info(drug_id):
         
         # استخراج اسم الدواء من العنوان
         drug_name = None
-        title_elem = soup.find('strong', string=re.compile('Drugs Information:', re.I))
+        title_elem = soup.find('strong', string='Drugs Information:')
         if title_elem and title_elem.next_sibling:
             drug_name = title_elem.next_sibling.strip()
         
-        # 2D SVG
-        svg_elem = soup.find('svg')
-        svg_content = str(svg_elem) if svg_elem else None
-
-        # ATC Codes
-        atc_td = soup.find('td', class_='key', string=re.compile('ATC Classification', re.I))
-        atc_codes = []
-        if atc_td:
-            val_td = atc_td.find_next_sibling('td', class_='value')
-            if val_td:
-                atc_codes = [span.get_text(strip=True) for span in val_td.find_all('span', class_='badge')]
-
-        # External Links
-        links_td = soup.find('td', class_='key', string=re.compile('Useful Links', re.I))
-        external_links = {}
-        if links_td:
-            val_td = links_td.find_next_sibling('td', class_='value')
-            if val_td:
-                for a in val_td.find_all('a', href=True):
-                    site_name = a.get_text(strip=True)
-                    url = a['href']
-                    if site_name:
-                        external_links[site_name] = url
-
         drug_data = {
             'ddinter_id': drug_id,
             'drug_name': drug_name,
@@ -398,11 +373,8 @@ def extract_drug_basic_info(drug_id):
             'description': extract_table_value(soup, 'Description'),
             'iupac_name': extract_table_value(soup, 'IUPAC Name'),
             'inchi': extract_table_value(soup, 'InChI'),
-            'smiles': extract_table_value(soup, 'Canonical SMILES'),
-            'atc_codes': json.dumps(atc_codes),
-            'external_links': json.dumps(external_links),
-            'structure_2d_svg': svg_content
-        } 
+            'smiles': extract_table_value(soup, 'Canonical SMILES')
+        }
         
         return drug_data
         
@@ -527,47 +499,10 @@ def fetch_compound_preparations(drug_id):
         print(f"⚠️ Error fetching preparations for {drug_id}: {e}")
         return []
 
-def fetch_drug_disease_interactions(drug_id):
-    """جلب تفاعلات دواء-مرض عبر API"""
-    url = f"{BASE_URL}/server/interact-with-dis/{drug_id}/"
-    interactions = []
-    
-    try:
-        data = {
-            'draw': 1,
-            'start': 0,
-            'length': 100,
-            'severity': ''
-        }
-        
-        response = requests.post(url, data=data, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
-        if response.status_code != 200:
-            return []
-        
-        json_response = response.json()
-        total_records = json_response.get('recordsTotal', 0)
-        interactions.extend(json_response.get('data', []))
-        
-        for offset in range(100, total_records, 100):
-            data['start'] = offset
-            data['draw'] += 1
-            
-            response = requests.post(url, data=data, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
-            if response.status_code == 200:
-                json_response = response.json()
-                interactions.extend(json_response.get('data', []))
-        
-        stats['dsi_fetched'].increment()
-        return interactions
-        
-    except Exception as e:
-        print(f"⚠️ Error fetching DSI for {drug_id}: {e}")
-        return []
-
 # ============================================
 # Database Saving
 # ============================================
-def save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
+def save_drug_data(drug_data, ddi_list, dfi_list, prep_list):
     """حفظ جميع بيانات الدواء في قاعدة البيانات"""
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
@@ -577,14 +512,13 @@ def save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
         c.execute('''
             INSERT OR REPLACE INTO drugs 
             (ddinter_id, drug_name, drug_type, molecular_formula, molecular_weight, 
-             cas_number, description, iupac_name, inchi, smiles, atc_codes, external_links, structure_2d_svg)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             cas_number, description, iupac_name, inchi, smiles)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             drug_data['ddinter_id'], drug_data['drug_name'], drug_data['drug_type'],
             drug_data['molecular_formula'], drug_data['molecular_weight'],
             drug_data['cas_number'], drug_data['description'], drug_data['iupac_name'],
-            drug_data['inchi'], drug_data['smiles'], drug_data['atc_codes'],
-            drug_data['external_links'], drug_data['structure_2d_svg']
+            drug_data['inchi'], drug_data['smiles']
         ))
         
         # 2. حفظ تفاعلات دواء-دواء (لكن فقط إذا كان هذا الدواء هو drug_a)
@@ -631,25 +565,6 @@ def save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
                 prep.get('warning')
             ))
         
-        # 5. حفظ تفاعلات الأمراض
-        for dsi in dsi_list:
-            # معالجة المراجع كقائمة JSON إذا كانت موجودة
-            refs = dsi.get('references', [])
-            if isinstance(refs, str):
-                refs = refs.split('|')
-            
-            c.execute('''
-                INSERT OR IGNORE INTO drug_disease_interactions 
-                (drug_id, disease_name, severity, interaction_text, reference_text)
-                VALUES (?, ?, ?, ?, ?)
-            ''', (
-                drug_data['ddinter_id'],
-                dsi.get('diseaseName'),
-                {1: 'Minor', 2: 'Moderate', 3: 'Major'}.get(int(dsi.get('level', 0)), 'Unknown'),
-                dsi.get('text'),
-                json.dumps(refs)
-            ))
-        
         conn.commit()
         return True
         
@@ -681,12 +596,9 @@ def process_single_drug(drug_id):
         
         # 4. المستحضرات المركبة
         prep_list = fetch_compound_preparations(drug_id)
-
-        # 5. تفاعلات الأمراض
-        dsi_list = fetch_drug_disease_interactions(drug_id)
         
-        # 6. حفظ كل شيء
-        if save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
+        # 5. حفظ كل شيء
+        if save_drug_data(drug_data, ddi_list, dfi_list, prep_list):
             mark_drug_processed(drug_id, 'completed')
             
             count = stats['drugs_processed'].increment()
