@@ -256,9 +256,6 @@ def main():
     print(f"   Enriched with Text: {enriched_ddi} ({(enriched_ddi/total_ddi*100) if total_ddi else 0:.1f}%)")
     print("="*70)
 
-if __name__ == "__main__":
-    main()
-
 # ============================================
 # Database Functions
 # ============================================
@@ -604,3 +601,6 @@ def process_single_drug(drug_id):
         return False
 
 
+
+if __name__ == "__main__":
+    main()
