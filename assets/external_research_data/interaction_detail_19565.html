@@ -1,0 +1,1081 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <link rel="shortcut icon" href="/static/favicon.ico"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>DDInter 2.0</title>
+    <link rel="stylesheet" href="/static/common/layui/css/layui.css">
+    <script src="/static/common/layui/layui.js"></script>
+    
+    <link rel="stylesheet" href="/static/common/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <link href="/static/common/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/static/home/css/style.css"/>
+    <script src="/static/common/js/jquery.min.js"></script>
+    
+    <script src="/static/common/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+        <link rel="stylesheet" type="text/css" href="/static/common/nav/css/style.css"/>
+        <script src="/static/common/nav/js/style.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="/static/common/footer/css/style.css"/>
+
+    
+    <link rel="stylesheet" href="/static/common/banner/css/style.css"/>
+
+    <link rel="stylesheet" href="/static/services/css/jquery.dataTables.min.css">
+    <script src="/static/services/js/jquery.dataTables.min.js"></script>
+
+    
+    <link href="/static/common/fontawesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="antin-container">
+    
+        
+<style>
+    .box-with-border {
+        border-bottom: 1px solid rgb(6, 101, 183); /* 边框样式，2px 宽度，颜色 #333 */
+    
+    }
+
+    /* 添加阴影 */
+    .box-with-shadow {
+        box-shadow: 0 0 10px 0 rgba(6, 101, 183, 0.3); /* x偏移、y偏移、模糊度、颜色（rgba格式） */
+    
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+</style>
+<header class="header-area overlay box-with-border box-with-shadow" style="">
+    <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
+        <div class="offset-1 col-10 d-flex align-items-center justify-content-between">
+            <a href="/" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="/static/favicon.ico" width="45" height="45"
+                     class="d-inline-block justify-content-center align-items-center me-2" alt=""/>
+                <h1 class="" style="font-family: 'Lobster', sans-serif">DDInter 2.0</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fas fa-atom"></i> Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/server/drug/">Drug</a></li>
+                            <li><a class="dropdown-item" href="/server/dis_food/">Disease</a></li>
+                            <li><a class="dropdown-item" href="/server/interaction/">Drug-Drug
+                                Interaction</a></li>
+                            <li><a class="dropdown-item" href="/server/other_interaction/">Drug-Others
+                                Interaction</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inter-checker/">
+                            <i class="fab fa-staylinked nav-icon"></i>
+                            Interaction Checker
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                            <i class="far fa-file-alt"></i> About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/explanation/">Explanation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/statistics/">Statistics</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/tutorials/">Tutorials</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/terms/">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/"><i class="fas fa-id-card"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    
+
+    
+
+
+    <div class="antin-contain">
+        
+    
+
+
+<link rel="stylesheet" href="/static/home/css/header.css">
+<link rel="stylesheet" href="/static/services/interaction/detail/style.css">
+<link rel="stylesheet" href="/static/services/interaction/style.css">
+<script src="/static/services/js/echarts.js"></script>
+<script src="/static/services/database/js/renderLineMarker.js"></script>
+<style>
+    table td.key, td.value {
+        padding: 15px 25px 15px 25px;
+        color: rgb(102, 102, 102);
+    }
+
+    table td.key {
+        font-weight: 600;
+    }
+
+    .sub-title {
+        /*background-color: #404E69;*/
+        background: #33619B;
+        color: white;
+        padding-left: 20px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-family: Poppins, serif;
+        font-weight: 600;
+    }
+
+    .blockquote-info {
+        border-left: 4px solid #33619B;
+        padding: 10px 15px 10px 15px;
+        line-height: 2rem;
+    }
+</style>
+<script>
+    function plotLineMarker() {
+        $.getJSON("/server/linkmarker/19565/", function (data) {
+            renderLineMarker(data);
+        });
+    }
+</script>
+<main class="">
+    <div class="offset-1 col-10 mt-5 mb-5">
+        <div class="p-3" role="alert" style="word-break:break-all;border: 2px solid rgb(38,97,158)">
+            <div class="py-1 d-flex align-items-center justify-content-between">
+                <div class="" style="font-size: 1.1rem">
+                    <span class="d-flex align-items-center">Interaction between <strong class="mx-2">
+                        Zolmitriptan</strong>
+                        and
+                        <strong class="mx-2">Sumatriptan</strong></span>
+                    
+                        <span class="badge rounded-pill" style="background-color:#a8456b">Major</span>
+                    
+
+                    
+                        
+                            <span class="badge rounded-pill" style="background-color:#cf7543">Synergy</span>
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-title mt-3"><i class="fas fa-arrow-right"></i> Basic Information</div>
+
+        <table class="table table-hover table-bordered align-middle">
+            <colgroup>
+                <col width="20%">
+                <col width="">
+            </colgroup>
+            <tbody>
+            <tr></tr>
+            <tr>
+                <td class="key">ID</td>
+                <td style="font-weight: 700" class="value"><a
+                        href="/server/drug-detail/DDInter1969/">
+                    DDInter1969</a>
+                    and
+                    <a href="/server/drug-detail/DDInter1730/">
+                        DDInter1730</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Interaction</td>
+                <td style="text-align: justify" class="value">
+                    Coadministration of two or more 5-HT1 receptor agonists and/or ergotamine-containing or ergot-type medications may potentiate the risk of vasospastic reactions, including coronary artery vasospasm, peripheral vascular ischemia and colonic ischemia, due to additive pharmacologic effects.
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Management</td>
+                <td style="text-align: justify" class="value">
+                    
+                        The concomitant use of two or more 5-HT1 receptor agonists and/or ergotamine-containing or ergot-type medications, or use within 24 hours of each other, is considered contraindicated.
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">References</td>
+                <td id="reference-text" style="text-align: justify;font-style: italic" class="value">
+                    
+                        
+                            <span class="d-block my-2">[1] &quot;Product Information. Parlodel (bromocriptine).&quot; Sandoz Pharmaceuticals Corporation, East Hanover, NJ.</span>
+                        
+                            <span class="d-block my-2">[2] &quot;Product Information. Axert (almotriptan)&quot; Pharmacia and Upjohn, Kalamazoo, MI.</span>
+                        
+                            <span class="d-block my-2">[3] &quot;Product Information. Maxalt (rizatriptan).&quot; Merck &amp; Co, Inc, West Point, PA.</span>
+                        
+                            <span class="d-block my-2">[4] &quot;Product Information. Relpax (eletriptan).&quot; Pfizer U.S. Pharmaceuticals, New York, NY.</span>
+                        
+                            <span class="d-block my-2">[5] &quot;Product Information. Amerge (naratriptan).&quot; Glaxo Wellcome, Research Triangle Park, NC.</span>
+                        
+                            <span class="d-block my-2">[6] &quot;Product Information. Imitrex (sumatriptan).&quot; Glaxo Wellcome, Research Triangle Park, NC.</span>
+                        
+                            <span class="d-block my-2">[7] &quot;Product Information. Migranal (dihydroergotamine nasal).&quot; Novartis Pharmaceuticals, East Hanover, NJ.</span>
+                        
+                            <span class="d-block my-2">[8] &quot;Product Information. Zomig (zolmitriptan).&quot; Zeneca Pharmaceuticals, Wilmington, DE.</span>
+                        
+                            <span class="d-block my-2">[9] Liston H, Bennett L, Usher B, Nappi J &quot;The association of the combination of sumatriptan and methysergide in myocardial infarction in a premenopausal woman.&quot; Arch Intern Med 159 (1999): 511-3</span>
+                        
+                            <span class="d-block my-2">[10] Gunston GD, Mehta U &quot;Potentially serious drug interactions with grapefruit juice.&quot; S Afr Med J 90 (2000): 41</span>
+                        
+                            <span class="d-block my-2">[11] Bailey DG, Arnold JMO, Spence JD &quot;Grapefruit juice and drugs - how significant is the interaction.&quot; Clin Pharmacokinet 26 (1994): 91-8</span>
+                        
+                            <span class="d-block my-2">[12] Fuhr U, Maier-Bruggemann A, Blume H, et al. &quot;Grapefruit juice increases oral nimodipine bioavailability.&quot; Int J Clin Pharmacol Ther 36 (1998): 126-32</span>
+                        
+                            <span class="d-block my-2">[13] &quot;Grapefruit juice interactions with drugs.&quot; Med Lett Drugs Ther 37 (1995): 73-4</span>
+                        
+                            <span class="d-block my-2">[14] Libersa CC, Brique SA, Motte KB, et al. &quot;Dramatic inhibition of amiodarone metabolism induced by grapefruit juice.&quot; Br J Clin Pharmacol 49 (2000): 373-8</span>
+                        
+                            <span class="d-block my-2">[15] Bailey DG, Malcolm J, Arnold O, Spence JD &quot;Grapefruit juice-drug interactions.&quot; Br J Clin Pharmacol 46 (1998): 101-10</span>
+                        
+                            <span class="d-block my-2">[16] Bailey DG, Kreeft JH, Munoz C, Freeman DJ, Bend JR &quot;Grapefruit juice felodipine interaction: Effect of naringin and 6&#x27;,7&#x27;-dihydroxybergamottin in humans.&quot; Clin Pharmacol Ther 64 (1998): 248-56</span>
+                        
+                            <span class="d-block my-2">[17] Takanaga H, Ohnishi A, Maatsuo H, et al. &quot;Pharmacokinetic analysis of felodipine-grapefruit juice interaction based on an irreversible enzyme inhibition model.&quot; Br J Clin Pharmacol 49 (2000): 49-58</span>
+                        
+                            <span class="d-block my-2">[18] Bailey DG, Dresser GR, Kreeft JH, Munoz C, Freeman DJ, Bend JR &quot;Grapefruit-felodipine interaction: Effect of unprocessed fruit and probable active ingredients.&quot; Clin Pharmacol Ther 68 (2000): 468-77</span>
+                        
+                            <span class="d-block my-2">[19] Clifford CP, Adams DA, Murray S, Taylor GW, Wilkins MR, Boobis AR, Davies DS &quot;Pharmacokinetic and cardiac effects of terfenadine after inhibition of its metabolism by grapefruit juice.&quot; Br J Clin Pharmacol 42 (1996): p662</span>
+                        
+                            <span class="d-block my-2">[20] Eagling VA, Profit L, Back DJ &quot;Inhibition of the CYP3A4-mediated metabolism and P-glycoprotein-mediated transport of the HIV-I protease inhibitor saquinavir by grapefruit juice components.&quot; Br J Clin Pharmacol 48 (1999): 543-52</span>
+                        
+                            <span class="d-block my-2">[21] Bailey DG, Arnold JM, Strong HA, Munoz C, Spence JD &quot;Effect of grapefruit juice and naringin on nisoldipine pharmacokinetics.&quot; Clin Pharmacol Ther 54 (1993): 589-94</span>
+                        
+                            <span class="d-block my-2">[22] Damkier P, Hansen LL, Brosen K &quot;Effect of diclofenac, disulfiram, itraconazole, grapefruit juice and erythromycin on the pharmacokinetics of quinidine.&quot; Br J Clin Pharmacol 48 (1999): 829-38</span>
+                        
+                            <span class="d-block my-2">[23] Min DI, Ku YM, Geraets DR, Lee HC &quot;Effect of grapefruit juice on the pharmacokinetics and pharmacodynamics of quinidine in healthy volunteers.&quot; J Clin Pharmacol 36 (1996): 469-76</span>
+                        
+                            <span class="d-block my-2">[24] Josefsson M, Zackrisson AL, Ahlner J &quot;Effect of grapefruit juice on the pharmacokinetics of amlodipine in healthy volunteers.&quot; Eur J Clin Pharmacol 51 (1996): 189-93</span>
+                        
+                            <span class="d-block my-2">[25] Majeed A, Kareem A &quot;Effect of grapefruit juice on cyclosporine pharmacokinetics.&quot; Pediatr Nephrol 10 (1996): 395</span>
+                        
+                            <span class="d-block my-2">[26] Flanagan D &quot;Understanding the grapefruit-drug interaction.&quot; Gen Dent 53 (2005): 282-5; quiz 286</span>
+                        
+                            <span class="d-block my-2">[27] Hukkinen SK, Varhe A, Olkkola KT, Neuvonen PJ &quot;Plasma concentrations of triazolam are increased by concomitant ingestion of grapefruit juice.&quot; Clin Pharmacol Ther 58 (1995): 127-31</span>
+                        
+                            <span class="d-block my-2">[28] Jonkman JH, Sollie FA, Sauter R, Steinijans VW &quot;The influence of caffeine on the steady-state pharmacokinetics of theophylline.&quot; Clin Pharmacol Ther 49 (1991): 248-55</span>
+                        
+                            <span class="d-block my-2">[29] Ozdemir M, Aktan Y, Boydag BS, Cingi MI, Musmul A &quot;Interaction between grapefruit juice and diazepam in humans.&quot; Eur J Drug Metab Pharmacokinet 23 (1998): 55-9</span>
+                        
+                            <span class="d-block my-2">[30] Edgar B, Bailey D, Bergstrand R, et al &quot;Acute effects of drinking grapefruit juice on the pharmacokinetics and dynamics on felodipine and its potential clinical relevance.&quot; Eur J Clin Pharmacol 42 (1992): 313-7</span>
+                        
+                            <span class="d-block my-2">[31] Kantola T, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice greatly increases serum concentrations of lovastatin and lovastatin acid.&quot; Clin Pharmacol Ther 63 (1998): 397-402</span>
+                        
+                            <span class="d-block my-2">[32] Lee AJ, Chan WK, Harralson AF, Buffum J, Bui BCC &quot;The effects of grapefruit juice on sertraline metabolism: An in vitro and in vivo study.&quot; Clin Ther 21 (1999): 1890-9</span>
+                        
+                            <span class="d-block my-2">[33] Sato J, Nakata H, Owada E, Kikuta T, Umetsu M, Ito K &quot;Influence of usual intake of dietary caffeine on single-dose kinetics of theophylline in healthy human subjects.&quot; Eur J Clin Pharmacol 44 (1993): 295-8</span>
+                        
+                            <span class="d-block my-2">[34] Dresser GK, Spence JD, Bailey DG &quot;Pharmacokinetic-pharmacodynamic consequences and clinical relevance of cytochrome P450 3A4 inhibition.&quot; Clin Pharmacokinet 38 (2000): 41-57</span>
+                        
+                            <span class="d-block my-2">[35] Lilja JJ, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice increases serum concentrations of atorvastatin and has no effect on pravastatin.&quot; Clin Pharmacol Ther 66 (1999): 118-27</span>
+                        
+                            <span class="d-block my-2">[36] Sigusch H, Hippius M, Henschel L, Kaufmann K, Hoffmann A &quot;Influence of grapefruit juice on the pharmacokinetics of a slow release nifedipine formulation.&quot; Pharmazie 49 (1994): 522-4</span>
+                        
+                            <span class="d-block my-2">[37] Bailey DG, Arnold JM, Munoz C, Spence JD &quot;Grapefruit juice--felodipine interaction: mechanism, predictability, and effect of naringin.&quot; Clin Pharmacol Ther 53 (1993): 637-42</span>
+                        
+                            <span class="d-block my-2">[38] Zaidenstein R, Soback S, Gips M, Avni B, Dishi V, Weissgarten Y, Golik A, Scapa E &quot;Effect of grapefruit juice on the pharmacokinetics of losartan and its active metabolite E3174 in healthy volunteers.&quot; Ther Drug Monit 23 (2001): 369-73</span>
+                        
+                            <span class="d-block my-2">[39] Yamreudeewong W, Henann NE, Fazio A, Lower DL, Cassidy TG &quot;Drug-food interactions in clinical practice.&quot; J Fam Pract 40 (1995): 376-84</span>
+                        
+                            <span class="d-block my-2">[40] Lilja JJ, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice-simvastatin interaction: Effect on serum concentrations of simvastatin, simvastatin acid, and HMG-CoA reductase inhibitors.&quot; Clin Pharmacol Ther 64 (1998): 477-83</span>
+                        
+                            <span class="d-block my-2">[41] Garg SK, Kumar N, Bhargava VK, Prabhakar SK &quot;Effect of grapefruit juice on carbamazepine bioavailability in patients with epilepsy.&quot; Clin Pharmacol Ther 64 (1998): 286-8</span>
+                        
+                            <span class="d-block my-2">[42] Gunston GD, Mehta U &quot;Potentially serious drug interactions with grapefruit juice.&quot; S Afr Med J 90 (2000): 41</span>
+                        
+                            <span class="d-block my-2">[43] Bailey DG, Arnold JMO, Spence JD &quot;Grapefruit juice and drugs - how significant is the interaction.&quot; Clin Pharmacokinet 26 (1994): 91-8</span>
+                        
+                            <span class="d-block my-2">[44] Fuhr U, Maier-Bruggemann A, Blume H, et al. &quot;Grapefruit juice increases oral nimodipine bioavailability.&quot; Int J Clin Pharmacol Ther 36 (1998): 126-32</span>
+                        
+                            <span class="d-block my-2">[45] &quot;Grapefruit juice interactions with drugs.&quot; Med Lett Drugs Ther 37 (1995): 73-4</span>
+                        
+                            <span class="d-block my-2">[46] Libersa CC, Brique SA, Motte KB, et al. &quot;Dramatic inhibition of amiodarone metabolism induced by grapefruit juice.&quot; Br J Clin Pharmacol 49 (2000): 373-8</span>
+                        
+                            <span class="d-block my-2">[47] Bailey DG, Malcolm J, Arnold O, Spence JD &quot;Grapefruit juice-drug interactions.&quot; Br J Clin Pharmacol 46 (1998): 101-10</span>
+                        
+                            <span class="d-block my-2">[48] Bailey DG, Kreeft JH, Munoz C, Freeman DJ, Bend JR &quot;Grapefruit juice felodipine interaction: Effect of naringin and 6&#x27;,7&#x27;-dihydroxybergamottin in humans.&quot; Clin Pharmacol Ther 64 (1998): 248-56</span>
+                        
+                            <span class="d-block my-2">[49] Takanaga H, Ohnishi A, Maatsuo H, et al. &quot;Pharmacokinetic analysis of felodipine-grapefruit juice interaction based on an irreversible enzyme inhibition model.&quot; Br J Clin Pharmacol 49 (2000): 49-58</span>
+                        
+                            <span class="d-block my-2">[50] Bailey DG, Dresser GR, Kreeft JH, Munoz C, Freeman DJ, Bend JR &quot;Grapefruit-felodipine interaction: Effect of unprocessed fruit and probable active ingredients.&quot; Clin Pharmacol Ther 68 (2000): 468-77</span>
+                        
+                            <span class="d-block my-2">[51] Clifford CP, Adams DA, Murray S, Taylor GW, Wilkins MR, Boobis AR, Davies DS &quot;Pharmacokinetic and cardiac effects of terfenadine after inhibition of its metabolism by grapefruit juice.&quot; Br J Clin Pharmacol 42 (1996): p662</span>
+                        
+                            <span class="d-block my-2">[52] Eagling VA, Profit L, Back DJ &quot;Inhibition of the CYP3A4-mediated metabolism and P-glycoprotein-mediated transport of the HIV-I protease inhibitor saquinavir by grapefruit juice components.&quot; Br J Clin Pharmacol 48 (1999): 543-52</span>
+                        
+                            <span class="d-block my-2">[53] Bailey DG, Arnold JM, Strong HA, Munoz C, Spence JD &quot;Effect of grapefruit juice and naringin on nisoldipine pharmacokinetics.&quot; Clin Pharmacol Ther 54 (1993): 589-94</span>
+                        
+                            <span class="d-block my-2">[54] Damkier P, Hansen LL, Brosen K &quot;Effect of diclofenac, disulfiram, itraconazole, grapefruit juice and erythromycin on the pharmacokinetics of quinidine.&quot; Br J Clin Pharmacol 48 (1999): 829-38</span>
+                        
+                            <span class="d-block my-2">[55] Min DI, Ku YM, Geraets DR, Lee HC &quot;Effect of grapefruit juice on the pharmacokinetics and pharmacodynamics of quinidine in healthy volunteers.&quot; J Clin Pharmacol 36 (1996): 469-76</span>
+                        
+                            <span class="d-block my-2">[56] Josefsson M, Zackrisson AL, Ahlner J &quot;Effect of grapefruit juice on the pharmacokinetics of amlodipine in healthy volunteers.&quot; Eur J Clin Pharmacol 51 (1996): 189-93</span>
+                        
+                            <span class="d-block my-2">[57] Majeed A, Kareem A &quot;Effect of grapefruit juice on cyclosporine pharmacokinetics.&quot; Pediatr Nephrol 10 (1996): 395</span>
+                        
+                            <span class="d-block my-2">[58] Flanagan D &quot;Understanding the grapefruit-drug interaction.&quot; Gen Dent 53 (2005): 282-5; quiz 286</span>
+                        
+                            <span class="d-block my-2">[59] Hukkinen SK, Varhe A, Olkkola KT, Neuvonen PJ &quot;Plasma concentrations of triazolam are increased by concomitant ingestion of grapefruit juice.&quot; Clin Pharmacol Ther 58 (1995): 127-31</span>
+                        
+                            <span class="d-block my-2">[60] Jonkman JH, Sollie FA, Sauter R, Steinijans VW &quot;The influence of caffeine on the steady-state pharmacokinetics of theophylline.&quot; Clin Pharmacol Ther 49 (1991): 248-55</span>
+                        
+                            <span class="d-block my-2">[61] Ozdemir M, Aktan Y, Boydag BS, Cingi MI, Musmul A &quot;Interaction between grapefruit juice and diazepam in humans.&quot; Eur J Drug Metab Pharmacokinet 23 (1998): 55-9</span>
+                        
+                            <span class="d-block my-2">[62] Edgar B, Bailey D, Bergstrand R, et al &quot;Acute effects of drinking grapefruit juice on the pharmacokinetics and dynamics on felodipine and its potential clinical relevance.&quot; Eur J Clin Pharmacol 42 (1992): 313-7</span>
+                        
+                            <span class="d-block my-2">[63] Kantola T, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice greatly increases serum concentrations of lovastatin and lovastatin acid.&quot; Clin Pharmacol Ther 63 (1998): 397-402</span>
+                        
+                            <span class="d-block my-2">[64] Lee AJ, Chan WK, Harralson AF, Buffum J, Bui BCC &quot;The effects of grapefruit juice on sertraline metabolism: An in vitro and in vivo study.&quot; Clin Ther 21 (1999): 1890-9</span>
+                        
+                            <span class="d-block my-2">[65] Sato J, Nakata H, Owada E, Kikuta T, Umetsu M, Ito K &quot;Influence of usual intake of dietary caffeine on single-dose kinetics of theophylline in healthy human subjects.&quot; Eur J Clin Pharmacol 44 (1993): 295-8</span>
+                        
+                            <span class="d-block my-2">[66] Dresser GK, Spence JD, Bailey DG &quot;Pharmacokinetic-pharmacodynamic consequences and clinical relevance of cytochrome P450 3A4 inhibition.&quot; Clin Pharmacokinet 38 (2000): 41-57</span>
+                        
+                            <span class="d-block my-2">[67] Lilja JJ, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice increases serum concentrations of atorvastatin and has no effect on pravastatin.&quot; Clin Pharmacol Ther 66 (1999): 118-27</span>
+                        
+                            <span class="d-block my-2">[68] Sigusch H, Hippius M, Henschel L, Kaufmann K, Hoffmann A &quot;Influence of grapefruit juice on the pharmacokinetics of a slow release nifedipine formulation.&quot; Pharmazie 49 (1994): 522-4</span>
+                        
+                            <span class="d-block my-2">[69] Bailey DG, Arnold JM, Munoz C, Spence JD &quot;Grapefruit juice--felodipine interaction: mechanism, predictability, and effect of naringin.&quot; Clin Pharmacol Ther 53 (1993): 637-42</span>
+                        
+                            <span class="d-block my-2">[70] Zaidenstein R, Soback S, Gips M, Avni B, Dishi V, Weissgarten Y, Golik A, Scapa E &quot;Effect of grapefruit juice on the pharmacokinetics of losartan and its active metabolite E3174 in healthy volunteers.&quot; Ther Drug Monit 23 (2001): 369-73</span>
+                        
+                            <span class="d-block my-2">[71] Yamreudeewong W, Henann NE, Fazio A, Lower DL, Cassidy TG &quot;Drug-food interactions in clinical practice.&quot; J Fam Pract 40 (1995): 376-84</span>
+                        
+                            <span class="d-block my-2">[72] Lilja JJ, Kivisto KT, Neuvonen PJ &quot;Grapefruit juice-simvastatin interaction: Effect on serum concentrations of simvastatin, simvastatin acid, and HMG-CoA reductase inhibitors.&quot; Clin Pharmacol Ther 64 (1998): 477-83</span>
+                        
+                            <span class="d-block my-2">[73] Garg SK, Kumar N, Bhargava VK, Prabhakar SK &quot;Effect of grapefruit juice on carbamazepine bioavailability in patients with epilepsy.&quot; Clin Pharmacol Ther 64 (1998): 286-8</span>
+                        
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Alternative for <span style="color: #a94442"
+                >Zolmitriptan</span>
+                    <i class="fas fa-info-circle"
+                       data-tippy-content="The alternatives are based on the third level (pharmacological subgroup) of ATC codes."></i>
+                </td>
+                <td class="value">
+                    
+                        
+                            
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">N02C</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter1598/" class="col-md-2">
+                                            Rimegepant
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2258/" class="col-md-2">
+                                            Eptinezumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2043/" class="col-md-2">
+                                            Atogepant
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1896/" class="col-md-2">
+                                            Ubrogepant
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2263/" class="col-md-2">
+                                            Galcanezumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1730/" class="col-md-2">
+                                            Sumatriptan
+                                        </a>
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter2259/" class="col-md-2">
+                                            Erenumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2262/" class="col-md-2">
+                                            Fremanezumab
+                                        </a>
+                                    
+                                    </div>
+                            
+                        
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="key">Alternative for <span
+                        style="color: #a94442">Sumatriptan</span>
+                    <i class="fas fa-info-circle"
+                       data-tippy-content="The alternatives are based on the third level (pharmacological subgroup) of ATC codes."></i>
+                </td>
+                <td class="value">
+                    
+                        
+                            
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">N02C</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter1598/" class="col-md-2">
+                                            Rimegepant
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2258/" class="col-md-2">
+                                            Eptinezumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1896/" class="col-md-2">
+                                            Ubrogepant
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2263/" class="col-md-2">
+                                            Galcanezumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1969/" class="col-md-2">
+                                            Zolmitriptan
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2043/" class="col-md-2">
+                                            Atogepant
+                                        </a>
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter412/" class="col-md-2">
+                                            Clonidine
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2259/" class="col-md-2">
+                                            Erenumab
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter2262/" class="col-md-2">
+                                            Fremanezumab
+                                        </a>
+                                    
+                                    </div>
+                            
+                                
+                                    <br>
+                                
+                                <i class="fas fa-yin-yang" style="color: #2F4056"></i>
+                                <span class="badge text-bg-dark" style="background-color: #2F4056">G01A</span>
+                                <div class="row">
+                                    
+                                        
+                                            </div>
+                                            <div class="row">
+                                        
+                                        <a href="/server/drug-detail/DDInter1745/" class="col-md-2">
+                                            Tamsulosin
+                                        </a>
+                                    
+                                        
+                                        <a href="/server/drug-detail/DDInter1811/" class="col-md-2">
+                                            Tinidazole
+                                        </a>
+                                    
+                                    </div>
+                            
+                            <a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" isDetail="true"
+                               class="col-md-2 more-hide" style="color: #a94442">
+                                More
+                            </a>
+                        
+                    
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        
+
+        <div class="sub-title mt-3"><i class="fas fa-arrow-right"></i> Potential Metabolism Interactions</div>
+        <div class="row mt-5">
+            <div class="contain" style="position: relative; width: 100%; height: 400px;">
+                <div id="lineMarker" style="width: 100%; height: 100%;"></div>
+            </div>
+        </div>
+
+        <blockquote class="blockquote-info" style="text-align: justify;">
+            <strong><i class="fas fa-star"></i> Substrate-Substrate Interaction</strong>：If more than one drug is
+            metabolized by the same CYP, it is
+            possible that its metabolism is inhibited because of the competition between the drugs. That means, it
+            can
+            be useful to lower the dosage of the drugs in the drug-cocktail because they remain longer in the
+            organism
+            than in monotherapy. <br>
+            <strong><i class="fas fa-star"></i> Inhibitor-Inhibitor Interaction</strong>：Combining two or more
+            inhibitors of one CYP, should be
+            compensated by lowering the dosage of these drugs because the metabolism is reduced and the drugs remain
+            longer in the organism than in monotherapy. Not adapting the dosage bears the risk of even more side
+            effects. <br>
+            <strong><i class="fas fa-star"></i> Inhibitor-Substrate Interaction</strong>：Combining drugs that have
+            inhibitory effect and are
+            substrates of one particular CYP, should be compensated by lowering the dosage. They rest longer in the
+            organism than in monotherapy. Not adapting the dosage bears the risk of even more side effects.
+        </blockquote>
+        
+    </div>
+</main>
+<script src="/static/common/js/popper.min.js"></script>
+<script src="/static/common/js/tippy-bundle.umd.min.js"></script>
+<script>plotLineMarker()</script>
+<script>
+    tippy('[data-tippy-content]', {
+        maxWidth: 'none',
+        role: 'tooltip',
+        allowHTML: true,
+    });
+
+    function changeShowRemarks(obj, max_length) {//obj是td
+        var content = $(obj).attr("content");
+        if (content != null && content !== '') {
+            if ($(obj).attr("isDetail") === 'true') {//当前显示的是详细备注，切换到显示部分
+                //$(obj).removeAttr('isDetail');//remove也可以
+                $(obj).attr('isDetail', false);
+                $(obj).html(getPartialRemarksHtml(content, max_length));
+            } else {//当前显示的是部分备注信息，切换到显示全部
+                $(obj).attr('isDetail', true);
+                $(obj).html(getTotalRemarksHtml(content));
+            }
+        }
+    }
+
+    function getPartialRemarksHtml(remarks, max_length) {
+        return remarks.substr(0, max_length) + '...&nbsp;&nbsp;<a href="javascript:void(0);" >More</a>';
+    }
+
+    function getTotalRemarksHtml(remarks) {
+        return remarks + '&nbsp;&nbsp;<a href="javascript:void(0);" >Hide</a>';
+    }
+
+    function set_show_hide_init(item, max_length, content) {
+        if (content.length > max_length) {
+            item.attr('onclick', 'javascript:changeShowRemarks(this, ' + max_length + ');');
+            item.html(getPartialRemarksHtml(content, max_length));
+        }
+        item.attr('content', content);
+        item.attr('style', 'word-break: break-all;');
+    }
+
+    var all_candidate_a_html = '';
+    var part_candidate_a_html = '';
+    
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02C</span>';
+            
+                all_candidate_a_html += base_str
+            
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1598/" class="col-md-2">Rimegepant</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2258/" class="col-md-2">Eptinezumab</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2043/" class="col-md-2">Atogepant</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1896/" class="col-md-2">Ubrogepant</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2263/" class="col-md-2">Galcanezumab</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter1730/" class="col-md-2">Sumatriptan</a>';
+            
+                
+                    all_candidate_a_html += '</div>';
+                    all_candidate_a_html += '<div class="row">';
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2259/" class="col-md-2">Erenumab</a>';
+            
+                
+                all_candidate_a_html += '<a href="/server/drug-detail/DDInter2262/" class="col-md-2">Fremanezumab</a>';
+            
+            all_candidate_a_html += '</div>';
+        
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02C</span>';
+            
+                part_candidate_a_html += base_str;
+            
+            
+                
+                    part_candidate_a_html += '</div>';
+                    part_candidate_a_html += '<div class="row">';
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1598/" class="col-md-2">Rimegepant</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter2258/" class="col-md-2">Eptinezumab</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter2043/" class="col-md-2">Atogepant</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1896/" class="col-md-2">Ubrogepant</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter2263/" class="col-md-2">Galcanezumab</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter1730/" class="col-md-2">Sumatriptan</a>';
+            
+                
+                    part_candidate_a_html += '</div>';
+                    part_candidate_a_html += '<div class="row">';
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter2259/" class="col-md-2">Erenumab</a>';
+            
+                
+                part_candidate_a_html += '<a href="/server/drug-detail/DDInter2262/" class="col-md-2">Fremanezumab</a>';
+            
+            part_candidate_a_html += '</div>';
+        
+
+        function changeCandidateContext(object) {
+            if (object.attr("isDetail") === 'false') {      //显示的是全部
+                let html_text = part_candidate_a_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidateContext($(this))" ' +
+                    'class="more-hide" isDetail="true"><div class="col-md-2" style="color: #a94442">More</div></a>'
+                object.parents('td').html(html_text);
+                
+            } else {//当前显示的是部分
+                let html_text = all_candidate_a_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidateContext($(this))" ' +
+                    'class="more-hide" isDetail="false"><div class="col-md-2" style="color: #a94442">Hide</div></a>'
+                object.parents('td').html(html_text);
+                
+            }
+        }
+    
+
+    var all_candidate_b_html = '';
+    var part_candidate_b_html = '';
+    
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02C</span>';
+            
+                all_candidate_b_html += base_str
+            
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1598/" class="col-md-2">Rimegepant</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2258/" class="col-md-2">Eptinezumab</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1896/" class="col-md-2">Ubrogepant</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2263/" class="col-md-2">Galcanezumab</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1969/" class="col-md-2">Zolmitriptan</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2043/" class="col-md-2">Atogepant</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter412/" class="col-md-2">Clonidine</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2259/" class="col-md-2">Erenumab</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2262/" class="col-md-2">Fremanezumab</a>';
+            
+            all_candidate_b_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">G01A</span>';
+            
+                all_candidate_b_html += ('<br/> ' + base_str)
+            
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1745/" class="col-md-2">Tamsulosin</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1811/" class="col-md-2">Tinidazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter124/" class="col-md-2">Ascorbic acid</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter889/" class="col-md-2">Hydroflumethiazide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter360/" class="col-md-2">Chlorothiazide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1202/" class="col-md-2">Metronidazole</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1673/" class="col-md-2">Simeprevir</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1721/" class="col-md-2">Sulfadiazine</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1015/" class="col-md-2">Lactic acid</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2014/" class="col-md-2">Mitapivat</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1167/" class="col-md-2">Methazolamide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter85/" class="col-md-2">Amphotericin B</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1861/" class="col-md-2">Trichlormethiazide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter377/" class="col-md-2">Ciclopirox</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter482/" class="col-md-2">Darunavir</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1008/" class="col-md-2">Ketoconazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1522/" class="col-md-2">Probenecid</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter237/" class="col-md-2">Brinzolamide</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter416/" class="col-md-2">Clotrimazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1813/" class="col-md-2">Tioconazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter916/" class="col-md-2">Indapamide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter559/" class="col-md-2">Diiodohydroxyquinoline</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter790/" class="col-md-2">Furosemide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter188/" class="col-md-2">Benzthiazide</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1374/" class="col-md-2">Oxytetracycline</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1723/" class="col-md-2">Sulfamethizole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter535/" class="col-md-2">Diazoxide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter616/" class="col-md-2">Econazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter351/" class="col-md-2">Chloramphenicol</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1199/" class="col-md-2">Metolazone</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter540/" class="col-md-2">Diclofenamide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter223/" class="col-md-2">Bosentan</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1722/" class="col-md-2">Sulfadoxine</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter179/" class="col-md-2">Bendroflumethiazide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1490/" class="col-md-2">Polythiazide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1209/" class="col-md-2">Miconazole</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1724/" class="col-md-2">Sulfamethoxazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1318/" class="col-md-2">Nystatin</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter365/" class="col-md-2">Chlorthalidone</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1725/" class="col-md-2">Sulfasalazine</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1727/" class="col-md-2">Sulfisoxazole</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter15/" class="col-md-2">Acetazolamide</a>';
+            
+                
+                    all_candidate_b_html += '</div>';
+                    all_candidate_b_html += '<div class="row">';
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2288/" class="col-md-2">Mafenide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter1836/" class="col-md-2">Torasemide</a>';
+            
+                
+                all_candidate_b_html += '<a href="/server/drug-detail/DDInter2256/" class="col-md-2">Povidone-iodine</a>';
+            
+            all_candidate_b_html += '</div>';
+        
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">N02C</span>';
+            
+                part_candidate_b_html += base_str
+            
+            
+                
+                    part_candidate_b_html += '</div>';
+                    part_candidate_b_html += '<div class="row">';
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1598/" class="col-md-2">Rimegepant</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2258/" class="col-md-2">Eptinezumab</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1896/" class="col-md-2">Ubrogepant</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2263/" class="col-md-2">Galcanezumab</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1969/" class="col-md-2">Zolmitriptan</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2043/" class="col-md-2">Atogepant</a>';
+            
+                
+                    part_candidate_b_html += '</div>';
+                    part_candidate_b_html += '<div class="row">';
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter412/" class="col-md-2">Clonidine</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2259/" class="col-md-2">Erenumab</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter2262/" class="col-md-2">Fremanezumab</a>';
+            
+            part_candidate_b_html += '</div>';
+        
+            base_str = '<i class="fas fa-yin-yang" style="color: #2F4056"></i> <span class="badge text-bg-dark" ' +
+                'style="background-color: #2F4056">G01A</span>';
+            
+                part_candidate_b_html += ('<br/> ' + base_str)
+            
+            
+                
+                    part_candidate_b_html += '</div>';
+                    part_candidate_b_html += '<div class="row">';
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1745/" class="col-md-2">Tamsulosin</a>';
+            
+                
+                part_candidate_b_html += '<a href="/server/drug-detail/DDInter1811/" class="col-md-2">Tinidazole</a>';
+            
+            part_candidate_b_html += '</div>';
+        
+        function changeCandidatebContext(object) {
+            if (object.attr("isDetail") === 'false') {      //显示的是全部
+                let html_text = part_candidate_b_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" ' +
+                    'class="more-hide" isDetail="true"><div class="col-md-2" style="color: #a94442">More</div></a>'
+                object.parents('td').html(html_text);
+                
+            } else {//当前显示的是部分
+                let html_text = all_candidate_b_html;
+                html_text += '<a href="javascript:void(0);" onclick="changeCandidatebContext($(this))" ' +
+                    'class="more-hide" isDetail="false"><div class="col-md-2" style="color: #a94442">Hide</div></a>'
+                object.parents('td').html(html_text);
+                
+            }
+        }
+    
+</script>
+
+    </div>
+    
+        
+
+<footer class="site-footer" id="footer">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="copyright">
+      &copy; Copyright &nbsp; <a href="http://www.scbdd.com/" target="_blank">Computational Biology & Drug DesignGroup</a>. All Rights Reserved<div class="heart d-inline-block mx-2"></div>
+      
+    </div>
+    <div style="width: 200px;">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=TXcYuwgsTf230Gc363rPwJc4RS20yZ5QOakSiw4gHgw&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .heart {
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    position: relative;
+    filter: drop-shadow(0px 0px 20px rgb(255, 20, 20));
+    transform: rotate(45deg);
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    border-radius: 5px;
+  }
+  
+  .heart:before {
+    left: -5px;
+  }
+  
+  .heart:after {
+    left: 0;
+    top: -5px;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+    25% {
+      transform: rotate(45deg) scale(1, 1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: rotate(45deg) scale(0.8, 0.8);
+      opacity: 1;
+    }
+  }
+</style>
+
+    
+</div>
+</body>
+
+
+
+</html>
