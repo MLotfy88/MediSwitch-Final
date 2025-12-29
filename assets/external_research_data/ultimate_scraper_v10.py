@@ -46,13 +46,30 @@ HEADERS = {
     'Connection': 'keep-alive'
 }
 
+# ============================================
+# Utility Classes
+# ============================================
+class ThreadSafeCounter:
+    def __init__(self):
+        self._value = 0
+        self._lock = threading.Lock()
+
+    def increment(self):
+        with self._lock:
+            self._value += 1
+            return self._value
+
+    def get(self):
+        with self._lock:
+            return self._value
+
 stats = {
-    'drugs_processed': Counter(),
-    'ddi_fetched': Counter(),
-    'dfi_fetched': Counter(),
-    'multi_fetched': Counter(),
-    'errors': Counter(),
-    'details_enriched': Counter()  # New counter
+    'drugs_processed': ThreadSafeCounter(),
+    'ddi_fetched': ThreadSafeCounter(),
+    'dfi_fetched': ThreadSafeCounter(),
+    'multi_fetched': ThreadSafeCounter(),
+    'errors': ThreadSafeCounter(),
+    'details_enriched': ThreadSafeCounter()
 }
 
 # ============================================
