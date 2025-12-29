@@ -110,3 +110,9 @@ scripts/drugbank_integration/output/
 upload_progress.log
 d1_upload_final.log
 d1_replace_upload.log
+
+# DDInter Database Investigation (large files, temporary analysis)
+ddinter_inspect/
+*.db
+*.db-shm
+*.db-wal
