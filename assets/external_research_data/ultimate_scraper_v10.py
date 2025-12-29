@@ -14,6 +14,7 @@ API Endpoints المستخدمة:
 - /server/interact-with-multi/{drug_id}/ → Compound preparations
 """
 
+import re
 import requests
 import sqlite3
 import json
@@ -22,6 +23,7 @@ import time
 import urllib3
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+from collections import Counter
 from bs4 import BeautifulSoup
 import threading
 
@@ -32,41 +34,230 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ============================================
 DB_PATH = 'ddinter_complete.db'
 SCHEMA_SQL = 'database_schema.sql'
-DRUG_IDS_FILE = 'discovered_ids.json'
+DRUG_IDS_FILE = 'unique_drugs.json'
 BASE_URL = 'https://ddinter2.scbdd.com'
-MAX_WORKERS = 25
-REQUEST_TIMEOUT = 15
+MAX_WORKERS = 20
+REQUEST_TIMEOUT = 30
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-    'Accept': 'application/json, text/javascript, */*; q=0.01',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    'X-Requested-With': 'XMLHttpRequest',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Referer': 'https://ddinter2.scbdd.com/',
     'Connection': 'keep-alive'
 }
-
-# Thread-safe counters
-class Counter:
-    def __init__(self):
-        self.value = 0
-        self.lock = threading.Lock()
-    def increment(self):
-        with self.lock:
-            self.value += 1
-            return self.value
-    def get(self):
-        with self.lock:
-            return self.value
 
 stats = {
     'drugs_processed': Counter(),
     'ddi_fetched': Counter(),
     'dfi_fetched': Counter(),
     'multi_fetched': Counter(),
-    'errors': Counter()
+    'errors': Counter(),
+    'details_enriched': Counter()  # New counter
 }
+
+# ============================================
+# Phase 2: Detail Enrichment Functions
+# ============================================
+def fetch_interaction_details(interaction_id):
+    """جلب تفاصيل التفاعل النصية من صفحة HTML"""
+    url = f"{BASE_URL}/server/interact/{interaction_id}/"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
+        if response.status_code != 200:
+            return None
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # 1. Interaction Description
+        # البحث عن خلية تحتوي على "Interaction" ثم الخلية التي تليها
+        desc_cell = soup.find('td', class_='key', string=re.compile(r'Interaction', re.I))
+        description = None
+        if desc_cell:
+            val_cell = desc_cell.find_next_sibling('td', class_='value')
+            if val_cell:
+                description = val_cell.get_text(strip=True)
+
+        # 2. Management
+        # البحث عن خلية تحتوي على "Management"
+        mgmt_cell = soup.find('td', class_='key', string=re.compile(r'Management', re.I))
+        management = None
+        if mgmt_cell:
+            val_cell = mgmt_cell.find_next_sibling('td', class_='value')
+            if val_cell:
+                management = val_cell.get_text(strip=True)
+                
+        # 3. References
+        # البحث عن عنصر بمعرف reference-text
+        ref_elem = soup.find(id='reference-text')
+        references = None
+        if ref_elem:
+            # استخراج النصوص من داخل span
+            refs = [span.get_text(strip=True) for span in ref_elem.find_all('span')]
+            if refs:
+                references = "\\n".join(refs)
+            else:
+                references = ref_elem.get_text(strip=True)
+
+        # إذا لم نجد أي بيانات، نعتبرها فشل
+        if not description and not management:
+            return None
+
+        return {
+            'interaction_id': interaction_id,
+            'interaction_description': description,
+            'management_text': management,
+            'reference_text': references
+        }
+
+    except Exception as e:
+        # print(f"⚠️ Error details for {interaction_id}: {e}") # Silent error to reduce noise
+        return None
+
+def update_interaction_details(details):
+    """تحديث قاعدة البيانات بالتفاصيل الجديدة"""
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    try:
+        c.execute('''
+            UPDATE drug_drug_interactions
+            SET interaction_description = ?,
+                management_text = ?,
+                reference_text = ?
+            WHERE interaction_id = ?
+        ''', (
+            details.get('interaction_description'),
+            details.get('management_text'),
+            details.get('reference_text'),
+            details.get('interaction_id')
+        ))
+        conn.commit()
+        return True
+    except Exception as e:
+        print(f"❌ DB Error update {details['interaction_id']}: {e}")
+        return False
+    finally:
+        conn.close()
+
+def process_enrichment_item(interaction_id):
+    """معالجة عنصر واحد في مرحلة الإثراء"""
+    details = fetch_interaction_details(interaction_id)
+    if details:
+        if update_interaction_details(details):
+            stats['details_enriched'].increment()
+            return True
+    return False
+
+def get_interactions_needing_enrichment():
+    """الحصول على التفاعلات التي تنقصها التفاصيل"""
+    print("running query to find missing details...") 
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    # نختار التفاعلات التي فيها الوصف فارغ
+    c.execute("SELECT interaction_id FROM drug_drug_interactions WHERE interaction_description IS NULL OR interaction_description = ''")
+    ids = [row[0] for row in c.fetchall()]
+    conn.close()
+    return ids
+
+def run_phase_2_enrichment():
+    """تشغيل المرحلة الثانية: إثراء البيانات بالتفاصيل"""
+    print("\n" + "="*70)
+    print("🚀 Phase 2: Enriching Interaction Details (Texts)")
+    print("="*70)
+    
+    missing_ids = get_interactions_needing_enrichment()
+    
+    if not missing_ids:
+        print("✅ No interactions pending enrichment! (All have descriptions)")
+        return
+
+    print(f"📦 Found {len(missing_ids)} interactions needing text details.")
+    print(f"🔄 Starting enrichment with {MAX_WORKERS} workers...")
+    
+    start_time = time.time()
+    
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # تقسيم العمل إلى دفعات صغيرة لتحديث واجهة المستخدم
+        batch_size = 1000
+        total_processed = 0
+        
+        for i in range(0, len(missing_ids), batch_size):
+            batch = missing_ids[i:i+batch_size]
+            futures = {executor.submit(process_enrichment_item, iid): iid for iid in batch}
+            
+            for future in as_completed(futures):
+                iid = futures[future]
+                try:
+                    future.result()
+                except Exception:
+                    pass
+            
+            total_processed += len(batch)
+            elapsed = time.time() - start_time
+            rate = total_processed / elapsed if elapsed > 0 else 0
+            remaining = len(missing_ids) - total_processed
+            eta = remaining / rate / 60 if rate > 0 else 0
+            
+            print(f"📈 Progress: {stats['details_enriched'].get()}/{len(missing_ids)} | Rate: {rate:.1f}/s | ETA: {eta:.1f} min")
+
+    print("✅ Phase 2 Completed!")
+
+
+# ============================================
+# Main Execution
+# ============================================
+def main():
+    print("="*70)
+    print("🚀 DDInter2 Ultimate Scraper v10.1 - Full Stack")
+    print("="*70)
+    print(f"⏰ Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # 1. تهيئة قاعدة البيانات
+    if not os.path.exists(DB_PATH):
+        if not init_database():
+            return
+    else:
+        print(f"📦 Using existing database: {DB_PATH}")
+    
+    # Phase 1: API Scraping (IDs & Lists)
+    print("\n🔹 Checking Phase 1 (Core Data)...")
+    all_drug_ids = load_drug_ids()
+    if all_drug_ids:
+        pending_drugs = get_pending_drugs(all_drug_ids)
+        if pending_drugs:
+            print(f"\n🔄 Phase 1: Processing {len(pending_drugs)} remaining drugs...")
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                futures = {executor.submit(process_single_drug, drug_id): drug_id for drug_id in pending_drugs}
+                for future in as_completed(futures):
+                    try:
+                        future.result()
+                    except:
+                        pass
+        else:
+            print("✅ Phase 1 Complete (All drugs processed).")
+
+    # Phase 2: Detail Enrichment
+    print("\n🔹 Checking Phase 2 (Text Details)...")
+    run_phase_2_enrichment()
+    
+    # Final Stats
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    c.execute("SELECT COUNT(*) FROM drugs")
+    total_drugs = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM drug_drug_interactions")
+    total_ddi = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM drug_drug_interactions WHERE interaction_description IS NOT NULL AND interaction_description != ''")
+    enriched_ddi = c.fetchone()[0]
+    conn.close()
+    
+    print(f"\n📊 Final Statistics:")
+    print(f"   Drugs: {total_drugs}")
+    print(f"   Interactions: {total_ddi}")
+    print(f"   Enriched with Text: {enriched_ddi} ({(enriched_ddi/total_ddi*100) if total_ddi else 0:.1f}%)")
+    print("="*70)
+
+if __name__ == "__main__":
+    main()
 
 # ============================================
 # Database Functions
@@ -412,83 +603,4 @@ def process_single_drug(drug_id):
         print(f"❌ Error processing {drug_id}: {e}")
         return False
 
-# ============================================
-# Main Execution
-# ============================================
-def main():
-    print("="*70)
-    print("🚀 DDInter2 Ultimate Scraper v10 - API Edition")
-    print("="*70)
-    print(f"⏰ Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    
-    # 1. إنشاء/فتح قاعدة البيانات
-    if not os.path.exists(DB_PATH):
-        if not init_database():
-            return
-    else:
-        print(f"📦 Using existing database: {DB_PATH}")
-    
-    # 2. تحميل قائمة الأدوية
-    all_drug_ids = load_drug_ids()
-    if not all_drug_ids:
-        print("❌ No drug IDs to process")
-        return
-    
-    # 3. فلترة الأدوية المعالجة (Resume Support)
-    pending_drugs = get_pending_drugs(all_drug_ids)
-    
-    if not pending_drugs:
-        print("✅ All drugs already processed!")
-        return
-    
-    print(f"\n🔄 Processing {len(pending_drugs)} drugs with {MAX_WORKERS} workers...\n")
-    
-    # 4. معالجة متوازية
-    start_time = time.time()
-    
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(process_single_drug, drug_id): drug_id for drug_id in pending_drugs}
-        
-        for future in as_completed(futures):
-            drug_id = futures[future]
-            try:
-                future.result()
-            except Exception as e:
-                print(f"❌ Unexpected error for {drug_id}: {e}")
-    
-    elapsed = time.time() - start_time
-    
-    # 5. إحصائيات نهائية
-    print("\n" + "="*70)
-    print("🎉 Scraping Complete!")
-    print("="*70)
-    print(f"⏱️  Total time: {elapsed/60:.2f} minutes")
-    print(f"✅ Drugs processed: {stats['drugs_processed'].get()}")
-    print(f"📊 Drug-Drug interactions: {stats['ddi_fetched'].get()} drugs")
-    print(f"🍔 Drug-Food interactions: {stats['dfi_fetched'].get()} drugs")
-    print(f"💊 Compound preparations: {stats['multi_fetched'].get()} drugs")
-    print(f"❌ Errors: {stats['errors'].get()}")
-    print("="*70)
-    
-    # عرض إحصائيات قاعدة البيانات
-    conn = sqlite3.connect(DB_PATH)
-    c = conn.cursor()
-    c.execute("SELECT COUNT(*) FROM drugs")
-    total_drugs = c.fetchone()[0]
-    c.execute("SELECT COUNT(*) FROM drug_drug_interactions")
-    total_ddi = c.fetchone()[0]
-    c.execute("SELECT COUNT(*) FROM drug_food_interactions")
-    total_dfi = c.fetchone()[0]
-    c.execute("SELECT COUNT(*) FROM compound_preparations")
-    total_prep = c.fetchone()[0]
-    conn.close()
-    
-    print(f"\n📊 Database Statistics:")
-    print(f"   Drugs: {total_drugs}")
-    print(f"   Drug-Drug Interactions: {total_ddi}")
-    print(f"   Drug-Food Interactions: {total_dfi}")
-    print(f"   Compound Preparations: {total_prep}")
-    print("="*70)
 
-if __name__ == "__main__":
-    main()
