@@ -10,6 +10,7 @@
 - Fixed Android Notification Icon: Added metadata to `AndroidManifest.xml` to prevent blank white square icon.
 - Enhanced Notifications: Added "Large Icon" support to show App Logo in notification shade.
 - Fixed Admin Dashboard: Fixed `ReferenceError: DatabaseExplorer is not defined` in `App.tsx`.
+- **CRITICAL FIX:** Resolved App Startup Crash caused by incorrect resource string formats in `NotificationProvider.dart`.
 
 ### CHECKPOINT 138
 **Date:** 2025-01-08

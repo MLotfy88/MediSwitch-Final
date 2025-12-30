@@ -36,7 +36,7 @@ class NotificationProvider extends ChangeNotifier {
 
   Future<void> _initLocalNotifications() async {
     const androidSettings = AndroidInitializationSettings(
-      '@drawable/ic_stat_notification',
+      'ic_stat_notification',
     );
     const iosSettings = DarwinInitializationSettings();
     const initSettings = InitializationSettings(
@@ -146,7 +146,7 @@ class NotificationProvider extends ChangeNotifier {
       color: Colors.teal, // Tint the small icon with brand color
       styleInformation: BigTextStyleInformation(''), // To allow long text
       // Set the large icon to the app logo (launcher icon)
-      largeIcon: const DrawableResourceAndroidBitmap('@mipmap/launcher_icon'),
+      largeIcon: const DrawableResourceAndroidBitmap('launcher_icon'),
     );
     const iosDetails = DarwinNotificationDetails();
     const details = NotificationDetails(
