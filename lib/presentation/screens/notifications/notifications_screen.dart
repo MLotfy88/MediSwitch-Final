@@ -9,8 +9,22 @@ import 'package:mediswitch/presentation/bloc/notification_provider.dart';
 import 'package:provider/provider.dart';
 
 /// Notifications Screen
-class NotificationsScreen extends StatelessWidget {
+class NotificationsScreen extends StatefulWidget {
   const NotificationsScreen({super.key});
+
+  @override
+  State<NotificationsScreen> createState() => _NotificationsScreenState();
+}
+
+class _NotificationsScreenState extends State<NotificationsScreen> {
+  @override
+  void initState() {
+    super.initState();
+    // Reload notifications from storage to catch any background updates
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      context.read<NotificationProvider>().reload();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

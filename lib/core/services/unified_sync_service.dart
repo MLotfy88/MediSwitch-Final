@@ -176,7 +176,7 @@ class UnifiedSyncService {
       final fln = FlutterLocalNotificationsPlugin();
       // Initialize for Android (required even if redundant)
       const androidSettings = AndroidInitializationSettings(
-        '@mipmap/ic_launcher',
+        '@drawable/ic_stat_notification',
       );
       const initSettings = InitializationSettings(android: androidSettings);
       await fln.initialize(initSettings);

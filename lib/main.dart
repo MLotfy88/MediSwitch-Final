@@ -6,17 +6,9 @@ import 'package:intl/date_symbol_data_local.dart'; // Import for date formatting
 import 'package:provider/provider.dart';
 import 'package:workmanager/workmanager.dart';
 
-// Remove unused imports
-// import 'presentation/screens/onboarding_screen.dart';
-// import 'presentation/screens/setup_screen.dart';
-// import 'presentation/screens/main_screen.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
-import 'core/database/database_helper.dart';
 import 'core/di/locator.dart';
 import 'core/services/file_logger_service.dart';
 import 'core/services/unified_sync_service.dart';
-import 'data/datasources/local/sqlite_local_data_source.dart';
-import 'domain/repositories/interaction_repository.dart'; // Import InteractionRepository interface
 import 'presentation/bloc/ad_config_provider.dart';
 import 'presentation/bloc/alternatives_provider.dart';
 import 'presentation/bloc/dose_calculator_provider.dart';
@@ -134,53 +126,8 @@ Future<void> main() async {
     // }
     // logger.i("main: Initial screen determined: ${initialScreen.runtimeType}");
 
-    // Seeding logic is now handled by SetupScreen, but we also check here for existing users
-    // who might have missed the initial seed or need an update.
-    logger.i("main: Attempting database seeding if needed...");
-    try {
-      final localDataSource = locator<SqliteLocalDataSource>();
-      await localDataSource.seedDatabaseFromAssetIfNeeded();
-      logger.i("main: Database seeding check complete.");
-
-      // CRITICAL: Force check food_interactions table for existing users
-      logger.i("main: [CRITICAL] Checking food_interactions table...");
-      try {
-        final dbHelper = locator<DatabaseHelper>();
-        final db = await dbHelper.database;
-        final result = await db.rawQuery(
-          'SELECT COUNT(*) as count FROM food_interactions',
-        );
-        final count = result.first['count'] as int?;
-        logger.i("main: Food interactions in DB: $count");
-
-        if (count == null || count == 0) {
-          logger.i("main: [CRITICAL] Food interactions EMPTY! Seeding NOW...");
-
-          final newResult = await db.rawQuery(
-            'SELECT COUNT(*) as count FROM food_interactions',
-          );
-          final newCount = newResult.first['count'] as int?;
-          logger.i("main: After forced seeding: $newCount food interactions");
-        } else {
-          logger.i("main: Food interactions OK: $count records");
-        }
-      } catch (e, s) {
-        logger.e("main: ERROR checking/seeding food_interactions", e, s);
-      }
-    } catch (e, s) {
-      logger.e("main: Error during post-locator seeding", e, s);
-    }
-
-    logger.i("main: Initializing SubscriptionProvider asynchronously...");
-    locator<SubscriptionProvider>().initialize();
-
-    logger.i("main: Preloading interaction data...");
-    try {
-      await locator<InteractionRepository>().loadInteractionData();
-      logger.i("main: Interaction data loaded successfully.");
-    } catch (e, s) {
-      logger.e("main: Failed to load interaction data", e, s);
-    }
+    // MOVED: Database seeding and Interaction loading logic moved to InitializationScreen
+    // to prevent startup black screen delay.
 
     logger.i("main: Setup complete. Preparing to run MyApp...");
     // Always start with InitializationScreen, which handles the routing logic.

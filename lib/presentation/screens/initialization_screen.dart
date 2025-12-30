@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../core/database/database_helper.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
 import '../../data/datasources/local/sqlite_local_data_source.dart';
+import '../../domain/repositories/interaction_repository.dart';
+import '../../presentation/bloc/subscription_provider.dart';
 import 'main_screen.dart';
 import 'onboarding_screen.dart';
 
@@ -105,6 +108,64 @@ class _InitializationScreenState extends State<InitializationScreen> {
             }
             nextScreen = const MainScreen();
           }
+        }
+
+        // --- Logic migrated from main.dart to prevent startup delay ---
+
+        // 1. Ensure Database is fully seeded (including food_interactions)
+        _logger.i(
+          "InitializationScreen: Running post-initialization checks...",
+        );
+        try {
+          final localDataSource = locator<SqliteLocalDataSource>();
+          await localDataSource.seedDatabaseFromAssetIfNeeded();
+
+          // CRITICAL: Force check food_interactions table for existing users
+          _logger.i(
+            "InitializationScreen: [CRITICAL] Checking food_interactions table...",
+          );
+          try {
+            final dbHelper = locator<DatabaseHelper>();
+            final db = await dbHelper.database;
+            final result = await db.rawQuery(
+              'SELECT COUNT(*) as count FROM food_interactions',
+            );
+            final count = result.first['count'] as int?;
+            _logger.i("InitializationScreen: Food interactions in DB: $count");
+
+            if (count == null || count == 0) {
+              _logger.i(
+                "InitializationScreen: [CRITICAL] Food interactions EMPTY! Seeding NOW...",
+              );
+              // Attempt to force re-seeding if possible via generic method
+              await localDataSource.performInitialSeeding();
+            }
+          } catch (e) {
+            _logger.e(
+              "InitializationScreen: Error checking food_interactions",
+              e,
+            );
+          }
+        } catch (e) {
+          _logger.e(
+            "InitializationScreen: Error during database maintenance",
+            e,
+          );
+        }
+
+        // 2. Initialize SubscriptionProvider
+        _logger.i("InitializationScreen: Initializing SubscriptionProvider...");
+        locator<SubscriptionProvider>().initialize();
+
+        // 3. Preload Interaction Data
+        _logger.i("InitializationScreen: Preloading interaction data...");
+        try {
+          await locator<InteractionRepository>().loadInteractionData();
+          _logger.i(
+            "InitializationScreen: Interaction data loaded successfully.",
+          );
+        } catch (e) {
+          _logger.e("InitializationScreen: Failed to load interaction data", e);
         }
 
         // Only navigate if a next screen was determined successfully

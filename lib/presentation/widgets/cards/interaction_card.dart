@@ -6,14 +6,23 @@ import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 /// A card that displays information about a drug-drug or drug-food interaction.
 class InteractionCard extends StatelessWidget {
-  /// Creates a new [InteractionCard] instance.
-  const InteractionCard({required this.interaction, super.key, this.onTap});
-
   /// The interaction data to display.
   final DrugInteraction interaction;
 
   /// Callback when the card is tapped.
   final VoidCallback? onTap;
+
+  /// Whether to show the full details (effect, recommendation).
+  /// Defaults to true. If false, shows a compact version.
+  final bool showDetails;
+
+  /// Creates a new [InteractionCard] instance.
+  const InteractionCard({
+    required this.interaction,
+    super.key,
+    this.onTap,
+    this.showDetails = true,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -114,64 +123,88 @@ class InteractionCard extends StatelessWidget {
 
               const SizedBox(height: 12),
 
-              // Interaction Effect
-              if (effect.isNotEmpty)
-                Text(
-                  effect,
-                  style: TextStyle(
-                    color: colorScheme.onSurfaceVariant,
-                    fontSize: 14,
-                    height: 1.5,
-                  ),
-                ),
-
-              if (recommendation.isNotEmpty) ...[
-                const SizedBox(height: 8),
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    color: severityColor.withValues(alpha: 0.05),
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                      color: severityColor.withValues(alpha: 0.2),
+              if (showDetails) ...[
+                // Interaction Effect
+                if (effect.isNotEmpty)
+                  Text(
+                    effect,
+                    style: TextStyle(
+                      color: colorScheme.onSurfaceVariant,
+                      fontSize: 14,
+                      height: 1.5,
                     ),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        isRTL ? 'التوصية:' : 'Recommendation:',
-                        style: TextStyle(
-                          color: severityColor,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 13,
-                        ),
+
+                if (recommendation.isNotEmpty) ...[
+                  const SizedBox(height: 8),
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: severityColor.withValues(alpha: 0.05),
+                      borderRadius: BorderRadius.circular(8),
+                      border: Border.all(
+                        color: severityColor.withValues(alpha: 0.2),
                       ),
-                      const SizedBox(height: 4),
-                      Text(
-                        recommendation,
-                        style: TextStyle(
-                          color: colorScheme.onSurface,
-                          fontSize: 13,
-                          height: 1.4,
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          isRTL ? 'التوصية:' : 'Recommendation:',
+                          style: TextStyle(
+                            color: severityColor,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 13,
+                          ),
                         ),
-                      ),
-                    ],
+                        const SizedBox(height: 4),
+                        Text(
+                          recommendation,
+                          style: TextStyle(
+                            color: colorScheme.onSurface,
+                            fontSize: 13,
+                            height: 1.4,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
+                ],
+                const SizedBox(height: 8),
+
+                if (effect.isEmpty && recommendation.isEmpty)
+                  Text(
+                    isRTL ? 'لا توجد تفاصيل متاحة.' : 'No details available.',
+                    style: TextStyle(
+                      color: colorScheme.onSurfaceVariant.withValues(
+                        alpha: 0.5,
+                      ),
+                      fontSize: 14,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+              ] else ...[
+                // Compact Mode Hint
+                Row(
+                  children: [
+                    Text(
+                      isRTL ? 'اضغط لعرض التفاصيل' : 'Tap for details',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: theme.colorScheme.primary.withValues(alpha: 0.8),
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    const SizedBox(width: 4),
+                    Icon(
+                      isRTL ? LucideIcons.arrowLeft : LucideIcons.arrowRight,
+                      size: 14,
+                      color: theme.colorScheme.primary.withValues(alpha: 0.8),
+                    ),
+                  ],
                 ),
               ],
-              const SizedBox(height: 8),
-
-              if (effect.isEmpty && recommendation.isEmpty)
-                Text(
-                  isRTL ? 'لا توجد تفاصيل متاحة.' : 'No details available.',
-                  style: TextStyle(
-                    color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
-                    fontSize: 14,
-                    fontStyle: FontStyle.italic,
-                  ),
-                ),
             ],
           ),
         ),

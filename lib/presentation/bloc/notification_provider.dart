@@ -22,6 +22,10 @@ class NotificationProvider extends ChangeNotifier {
     _init();
   }
 
+  /// Reloads notifications from storage.
+  /// Call this when entering the notification screen to ensure fresh data.
+  Future<void> reload() => _loadNotifications();
+
   Future<void> _init() async {
     await _loadNotifications();
     await _initLocalNotifications();
@@ -33,7 +37,7 @@ class NotificationProvider extends ChangeNotifier {
 
   Future<void> _initLocalNotifications() async {
     const androidSettings = AndroidInitializationSettings(
-      '@mipmap/ic_launcher',
+      '@drawable/ic_stat_notification',
     );
     const iosSettings = DarwinInitializationSettings();
     const initSettings = InitializationSettings(
