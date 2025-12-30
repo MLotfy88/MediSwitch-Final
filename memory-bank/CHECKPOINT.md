@@ -8,6 +8,8 @@
 - Fixed `initialization_screen.dart`: Added missing imports for DatabaseHelper and Repositories.
 - Fixed `Sidebar.tsx`: Added missing `Database` icon import from `lucide-react`.
 - Fixed Android Notification Icon: Added metadata to `AndroidManifest.xml` to prevent blank white square icon.
+- Enhanced Notifications: Added "Large Icon" support to show App Logo in notification shade.
+- Fixed Admin Dashboard: Fixed `ReferenceError: DatabaseExplorer is not defined` in `App.tsx`.
 
 ### CHECKPOINT 138
 **Date:** 2025-01-08

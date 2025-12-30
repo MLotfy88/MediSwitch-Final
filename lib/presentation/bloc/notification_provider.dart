@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:http/http.dart' as http;
@@ -144,7 +143,10 @@ class NotificationProvider extends ChangeNotifier {
       channelDescription: 'Notifications for drug updates and alerts',
       importance: Importance.max,
       priority: Priority.high,
+      color: Colors.teal, // Tint the small icon with brand color
       styleInformation: BigTextStyleInformation(''), // To allow long text
+      // Set the large icon to the app logo (launcher icon)
+      largeIcon: const DrawableResourceAndroidBitmap('@mipmap/launcher_icon'),
     );
     const iosDetails = DarwinNotificationDetails();
     const details = NotificationDetails(
