@@ -9,7 +9,8 @@ export CLOUDFLARE_API_TOKEN="yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-"
 export CLOUDFLARE_EMAIL="eedf653449abdca28e865ddf3511dd4c62ed2"
 DB_NAME="mediswitsh-db"
 
-cd cloudflare-worker
+# Navigate to worker directory relative to script location
+cd "$(dirname "$0")/../cloudflare-worker"
 
 echo "🚀 Starting D1 Deployment..."
 

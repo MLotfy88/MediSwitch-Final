@@ -40,15 +40,22 @@ void callbackDispatcher() {
 // const String _prefsKeyFirstLaunchDone = 'first_launch_done';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   // --- Early Log Attempt 1 ---
   // Try initializing a temporary logger *before* locator setup
   // This helps if locator setup itself fails silently.
-  final earlyLogger = FileLoggerService();
-  await earlyLogger.initialize(); // Initialize it immediately
-  earlyLogger.i("main: >>> ENTERING main() <<<");
+  FileLoggerService? earlyLogger;
+  try {
+    earlyLogger = FileLoggerService();
+    await earlyLogger.initialize(); // Initialize it immediately
+    earlyLogger.i("main: >>> ENTERING main() <<<");
+    earlyLogger.i("main: WidgetsFlutterBinding initialized.");
+  } catch (e) {
+    print("Early logger failed to initialize: $e");
+  }
   // --- End Early Log Attempt 1 ---
 
-  WidgetsFlutterBinding.ensureInitialized();
   FileLoggerService? logger; // Keep this for later use after locator setup
 
   try {
@@ -57,8 +64,10 @@ Future<void> main() async {
       'en',
       null,
     ); // Explicitly initialize for 'en' locale
-    // Log after initialization attempt (using early logger as locator isn't ready yet)
-    earlyLogger.i("main: Date formatting initialized.");
+    // Log after initialization attempt
+    if (earlyLogger != null) {
+      earlyLogger.i("main: Date formatting initialized.");
+    }
     await setupLocator();
     // Assign the fully initialized logger from the locator
     // The instance in the locator should be the same as earlyLogger if setup succeeded
