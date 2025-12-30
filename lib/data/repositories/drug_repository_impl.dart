@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For compute
@@ -36,106 +35,6 @@ class DrugRepositoryImpl implements DrugRepository {
   // Removed in-memory cache and indices
 
   // Removed _buildIndices and _clearCache methods
-
-  // --- Helper: Check for Updates ---
-  Future<bool> _shouldUpdateData() async {
-    _logger.d(
-      "DrugRepository: _shouldUpdateData called. isConnected: $isConnected",
-    );
-    if (!isConnected) {
-      _logger.i('DrugRepository: Not connected, skipping update check.');
-      return false;
-    }
-    final stopwatch = Stopwatch()..start();
-    try {
-      _logger.i('DrugRepository: Checking for remote data updates...');
-      final remoteVersionResult = await remoteDataSource.getLatestVersion();
-
-      return await remoteVersionResult.fold(
-        (failure) {
-          _logger.w(
-            'DrugRepository: Failed to get remote version: $failure. Not updating.',
-          );
-          return false;
-        },
-        (remoteVersionInfo) async {
-          final localTimestamp = await localDataSource.getLastUpdateTimestamp();
-          final remoteTimestamp =
-              int.tryParse(remoteVersionInfo['version']?.toString() ?? '0') ??
-              0;
-
-          _logger.d(
-            'DrugRepository: Remote version timestamp: $remoteTimestamp',
-          );
-          _logger.d('DrugRepository: Local version timestamp: $localTimestamp');
-
-          final needsUpdate =
-              localTimestamp == null || remoteTimestamp > localTimestamp;
-          _logger.i('DrugRepository: Needs update: $needsUpdate');
-          return needsUpdate;
-        },
-      );
-    } catch (e, s) {
-      _logger.e('DrugRepository: Error during update check', e, s);
-      return false;
-    } finally {
-      stopwatch.stop();
-      _logger.i(
-        'DrugRepository: Update check took ${stopwatch.elapsedMilliseconds}ms.',
-      );
-    }
-  }
-
-  // --- Helper: Update Local Data ---
-  Future<void> _updateLocalDataFromRemote() async {
-    _logger.i(
-      "DrugRepository: _updateLocalDataFromRemote called. isConnected: $isConnected",
-    );
-    if (!isConnected) {
-      _logger.w('DrugRepository: Not connected, cannot download remote data.');
-      throw NetworkFailure(); // Throw specific failure
-    }
-    final stopwatch = Stopwatch()..start();
-    try {
-      _logger.i(
-        'DrugRepository: Downloading latest data from remote source...',
-      );
-      final downloadResult = await remoteDataSource.downloadLatestData();
-
-      await downloadResult.fold(
-        (failure) async {
-          _logger.e('DrugRepository: Failed to download remote data: $failure');
-          throw failure; // Propagate failure
-        },
-        (fileData) async {
-          _logger.i(
-            'DrugRepository: Downloaded data successfully. Saving locally...',
-          );
-          await localDataSource.saveDownloadedCsv(
-            utf8.encode(fileData),
-          ); // This now clears DB and inserts
-          _logger.i('DrugRepository: Local data updated via SQLite.');
-        },
-      );
-    } catch (e, s) {
-      // Add stack trace
-      _logger.e(
-        'DrugRepository: Error during remote data download/save',
-        e,
-        s,
-      ); // Correct parameters
-      if (e is Failure) {
-        rethrow;
-      } else {
-        throw ServerFailure();
-      }
-    } finally {
-      stopwatch.stop();
-      _logger.i(
-        'DrugRepository: Remote data download/save took ${stopwatch.elapsedMilliseconds}ms.',
-      );
-    }
-  }
 
   // --- Repository Method Implementations ---
 
@@ -304,7 +203,7 @@ class DrugRepositoryImpl implements DrugRepository {
         },
         (data) async {
           final List<Map<String, dynamic>> drugsData =
-              (data['data'] ?? data['drugs'] ?? [] as List)
+              ((data['data'] ?? data['drugs'] ?? []) as List)
                   .cast<Map<String, dynamic>>();
           final int count = (data['total'] as int?) ?? drugsData.length;
           _logger.i("DrugRepository: Sync data received, found $count items");

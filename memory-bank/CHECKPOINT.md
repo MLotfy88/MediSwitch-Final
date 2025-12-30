@@ -1,4 +1,23 @@
 # 🎯 ملخص المشروع - December
+ 
+### CHECKPOINT 140
+**Date:** 2025-12-30
+**Goal:** Finalize Admin Dashboard CRUD and stabilize Flutter repository.
+**Changes:**
+- **Admin Dashboard:**
+    - Created `DiseaseInteractionsManagement.tsx` page for managing drug-disease interactions.
+    - Updated `InteractionsManagement.tsx` with new columns: Risk Level, Management Text, and Mechanism Text.
+    - Updated `Sidebar.tsx` and `App.tsx` with new routing and icons.
+    - Updated `api.ts` with Disease Interactions CRUD methods.
+- **Backend (Worker):**
+    - Added API endpoints for Disease Interactions (GET, POST, PUT, DELETE).
+    - Enhanced Drug Interactions handlers to support all data fields.
+- **Flutter:**
+    - Fixed `DrugRepositoryImpl.dart`: Resolved type mismatch in `saveDownloadedCsv`, updated imports, and removed unused variables/members.
+- **Infrastructure:**
+    - Updated `.gitignore` to exclude large SQL files, DBs, and ZIP files.
+    - Committed changes locally (Git push blocked by credentials).
+    - Worker deployment prepared (Pending authentication resolution).
 
 ### CHECKPOINT 139
 **Date:** 2025-01-08
