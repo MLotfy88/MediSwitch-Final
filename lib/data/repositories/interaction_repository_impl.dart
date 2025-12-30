@@ -6,6 +6,7 @@ import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
+import 'package:mediswitch/domain/entities/disease_interaction.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
@@ -504,6 +505,32 @@ class InteractionRepositoryImpl implements InteractionRepository {
       await localDataSource.incrementVisits(drugId);
     } catch (e) {
       _logger.e('Error incrementing visits for drug $drugId', e);
+    }
+  }
+
+  @override
+  Future<List<DiseaseInteraction>> getDiseaseInteractions(
+    DrugEntity drug,
+  ) async {
+    if (drug.id == null) return [];
+    try {
+      return await localDataSource.getDiseaseInteractionsForDrug(drug.id!);
+    } catch (e) {
+      _logger.e('Error getting disease interactions: $e');
+      return [];
+    }
+  }
+
+  @override
+  Future<List<Map<String, dynamic>>> getDetailedFoodInteractions(
+    DrugEntity drug,
+  ) async {
+    if (drug.id == null) return [];
+    try {
+      return await localDataSource.getFoodInteractionsDetailedForDrug(drug.id!);
+    } catch (e) {
+      _logger.e('Error getting detailed food interactions: $e');
+      return [];
     }
   }
 }

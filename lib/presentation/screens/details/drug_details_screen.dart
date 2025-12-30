@@ -4,6 +4,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/constants/app_spacing.dart';
 import 'package:mediswitch/core/utils/date_formatter.dart';
+import 'package:mediswitch/domain/entities/disease_interaction.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
@@ -35,7 +36,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 5, vsync: this);
+    final hasDisease = widget.drug.hasDiseaseInteraction;
+    _tabController = TabController(length: hasDisease ? 6 : 5, vsync: this);
     // Add to history once the widget is built
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
@@ -79,6 +81,14 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         'icon': LucideIcons.alertTriangle,
       },
     ];
+
+    if (widget.drug.hasDiseaseInteraction) {
+      tabs.add({
+        'id': 'disease_interactions',
+        'label': isRTL ? 'تفاعلات الأمراض' : 'Disease Interactions',
+        'icon': LucideIcons.alertOctagon,
+      });
+    }
 
     return Scaffold(
       backgroundColor: colorScheme.surface,
@@ -142,6 +152,8 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 _buildSimilaritiesTab(isRTL, l10n, colorScheme),
                 _buildAlternativesTab(isRTL, l10n, colorScheme),
                 _buildInteractionsTab(isRTL, colorScheme),
+                if (widget.drug.hasDiseaseInteraction)
+                  _buildDiseaseInteractionsTab(theme, isRTL, colorScheme),
               ],
             ),
           ),
@@ -512,6 +524,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             return ModernDrugCard(
               drug: drug,
               isFavorite: isFav,
+              hasDrugInteraction: drug.hasDrugInteraction,
+              hasFoodInteraction: drug.hasFoodInteraction,
+              hasDiseaseInteraction: drug.hasDiseaseInteraction,
               onFavoriteToggle:
                   () => Provider.of<MedicineProvider>(
                     context,
@@ -596,6 +611,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
             return ModernDrugCard(
               drug: drug,
               isFavorite: isFav,
+              hasDrugInteraction: drug.hasDrugInteraction,
+              hasFoodInteraction: drug.hasFoodInteraction,
+              hasDiseaseInteraction: drug.hasDiseaseInteraction,
               onFavoriteToggle:
                   () => Provider.of<MedicineProvider>(
                     context,
@@ -769,6 +787,97 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                 ),
               ),
           ],
+        );
+      },
+    );
+  }
+
+  Widget _buildDiseaseInteractionsTab(
+    ThemeData theme,
+    bool isRTL,
+    ColorScheme colorScheme,
+  ) {
+    return FutureBuilder<List<DiseaseInteraction>>(
+      future: Provider.of<InteractionProvider>(
+        context,
+        listen: false,
+      ).getDiseaseInteractions(widget.drug),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator());
+        }
+
+        if (snapshot.hasError) {
+          return Center(
+            child: Text(
+              'Error loading disease interactions',
+              style: TextStyle(color: colorScheme.error),
+            ),
+          );
+        }
+
+        final interactions = snapshot.data ?? [];
+
+        if (interactions.isEmpty) {
+          return Center(
+            child: Padding(
+              padding: const EdgeInsets.all(32.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    LucideIcons.shieldCheck,
+                    size: 48,
+                    color: colorScheme.outline,
+                  ),
+                  const SizedBox(height: 16),
+                  Text(
+                    isRTL ? 'لا توجد بيانات' : 'No data available',
+                    style: TextStyle(color: colorScheme.onSurfaceVariant),
+                  ),
+                ],
+              ),
+            ),
+          );
+        }
+
+        return ListView.separated(
+          padding: const EdgeInsets.all(16),
+          itemCount: interactions.length,
+          separatorBuilder: (_, __) => const SizedBox(height: 16),
+          itemBuilder: (context, index) {
+            final interaction = interactions[index];
+            return _buildCard(
+              title: interaction.diseaseName,
+              colorScheme: colorScheme,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    interaction.interactionText,
+                    style: TextStyle(
+                      fontSize: 14,
+                      height: 1.5,
+                      color: colorScheme.onSurface,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Align(
+                    alignment: AlignmentDirectional.centerEnd,
+                    child: Text(
+                      isRTL
+                          ? 'المصدر: ${interaction.source}'
+                          : 'Source: ${interaction.source}',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ).animate().fadeIn(delay: (100 * index).ms).slideY(begin: 0.1);
+          },
         );
       },
     );

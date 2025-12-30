@@ -28,6 +28,7 @@ class DrugEntity extends Equatable {
   // Interaction Flags for UI
   final bool hasDrugInteraction;
   final bool hasFoodInteraction;
+  final bool hasDiseaseInteraction;
 
   // Aliases for compatibility
   String get nameAr => arabicName;
@@ -64,6 +65,7 @@ class DrugEntity extends Equatable {
     this.isNew = false,
     this.hasDrugInteraction = false,
     this.hasFoodInteraction = false,
+    this.hasDiseaseInteraction = false,
   });
 
   factory DrugEntity.empty() {
@@ -116,6 +118,7 @@ class DrugEntity extends Equatable {
       imageUrl: imageUrl,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
+      hasDiseaseInteraction: hasDiseaseInteraction,
       isPopular: isPopular ?? this.isPopular,
       isNew: isNew ?? this.isNew,
     );
@@ -149,5 +152,6 @@ class DrugEntity extends Equatable {
     isNew,
     hasDrugInteraction,
     hasFoodInteraction,
+    hasDiseaseInteraction,
   ];
 }

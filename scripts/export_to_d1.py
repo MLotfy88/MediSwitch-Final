@@ -30,26 +30,38 @@ def export_to_sql(csv_file, output_file):
 
 DROP TABLE IF EXISTS drugs;
 
-    CREATE TABLE IF NOT EXISTS drugs (
-    id INTEGER PRIMARY KEY,
-    trade_name TEXT,
-    arabic_name TEXT,
-    old_price TEXT,
-    price TEXT,
-    active TEXT,
-    company TEXT,
-    dosage_form TEXT,
-    dosage_form_ar TEXT,
-    unit TEXT,
-    description TEXT,
-    category TEXT,
-    pharmacology TEXT,
-    category_ar TEXT,
-    size INTEGER,
-    last_price_update TEXT,
-    qr_code TEXT,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+CREATE TABLE IF NOT EXISTS drugs (
+  id INTEGER PRIMARY KEY,
+  trade_name TEXT,
+  arabic_name TEXT,
+  price TEXT,
+  old_price TEXT,
+  main_category TEXT,
+  category TEXT,
+  category_ar TEXT,
+  active TEXT,
+  company TEXT,
+  dosage_form TEXT,
+  dosage_form_ar TEXT,
+  concentration TEXT,
+  unit TEXT,
+  usage TEXT,
+  usage_ar TEXT,
+  description TEXT,
+  pharmacology TEXT,
+  barcode TEXT,
+  qr_code TEXT,
+  visits INTEGER DEFAULT 0,
+  last_price_update TEXT,
+  image_url TEXT,
+  updated_at INTEGER DEFAULT 0,
+  has_drug_interaction INTEGER DEFAULT 0,
+  has_food_interaction INTEGER DEFAULT 0,
+  has_disease_interaction INTEGER DEFAULT 0
 );
+CREATE INDEX IF NOT EXISTS idx_trade_name ON drugs (trade_name);
+CREATE INDEX IF NOT EXISTS idx_category ON drugs (category);
+CREATE INDEX IF NOT EXISTS idx_active ON drugs (active);
 
 -- Data (one INSERT per drug)
 """)
@@ -83,30 +95,40 @@ DROP TABLE IF EXISTS drugs;
                 s = str(val).strip()
                 s = s.replace("'", "''")  # SQL escape
                 return f"'{s}'"
-            
+
             # Extract all fields with correct mapping
             trade = esc(row.get('trade_name', ''))
             arabic = esc(row.get('arabic_name', ''))
-            old_p = esc(row.get('old_price', ''))
             price = esc(row.get('price', ''))
+            old_p = esc(row.get('old_price', ''))
+            main_cat = esc(row.get('main_category', ''))
+            cat = esc(row.get('category', ''))
+            cat_ar = esc(row.get('category_ar', ''))
             active = esc(row.get('active', ''))
             company = esc(row.get('company', ''))
             form = esc(row.get('dosage_form', ''))
             form_ar = esc(row.get('dosage_form_ar', ''))
-            unit = esc(row.get('units', '')) # Maps 'units' from CSV to 'unit' in D1
-            desc = esc(row.get('usage', '')) # Maps 'usage' from CSV to 'description' in D1
-            cat = esc(row.get('category', ''))
+            conc = esc(row.get('concentration', ''))
+            unit = esc(row.get('units', '')) # Map 'units' -> 'unit'
+            usage = esc(row.get('usage', ''))
+            usage_ar = esc(row.get('usage_ar', ''))
+            desc = esc(row.get('description', ''))
             pharm = esc(row.get('pharmacology', ''))
-            cat_ar = esc(row.get('category_ar', ''))
-            qr = esc(row.get('barcode', row.get('qr_code', ''))) # Map barcode or qr_code
+            barcode = esc(row.get('barcode', ''))
+            qr = esc(row.get('qr_code', ''))
             
-            size_raw = row.get('size', '0').strip()
-            size = size_raw if size_raw.isdigit() else '0'
+            visits = 0
             
-            update = esc(row.get('last_price_update', '')) # Maps 'last_price_update'
+            update = esc(row.get('last_price_update', ''))
+            img = esc(row.get('image_url', ''))
+            
+            # New flags (defaults)
+            has_drug = 0
+            has_food = 0
+            has_disease = 0
             
             # Write single INSERT
-            sql = f"INSERT INTO drugs (id, trade_name, arabic_name, old_price, price, active, company, dosage_form, dosage_form_ar, unit, description, category, pharmacology, category_ar, size, last_price_update, qr_code, updated_at) VALUES ({drug_id}, {trade}, {arabic}, {old_p}, {price}, {active}, {company}, {form}, {form_ar}, {unit}, {desc}, {cat}, {pharm}, {cat_ar}, {size}, {update}, {qr}, CURRENT_TIMESTAMP);\n"
+            sql = f"INSERT INTO drugs (id, trade_name, arabic_name, price, old_price, main_category, category, category_ar, active, company, dosage_form, dosage_form_ar, concentration, unit, usage, usage_ar, description, pharmacology, barcode, qr_code, visits, last_price_update, image_url, updated_at, has_drug_interaction, has_food_interaction, has_disease_interaction) VALUES ({drug_id}, {trade}, {arabic}, {price}, {old_p}, {main_cat}, {cat}, {cat_ar}, {active}, {company}, {form}, {form_ar}, {conc}, {unit}, {usage}, {usage_ar}, {desc}, {pharm}, {barcode}, {qr}, {visits}, {update}, {img}, 0, {has_drug}, {has_food}, {has_disease});\n"
             
             f.write(sql)
             count += 1

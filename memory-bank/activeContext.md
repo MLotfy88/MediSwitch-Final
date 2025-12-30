@@ -8,7 +8,14 @@
   - Fixed `unit` field mapping (previously empty due to `units` vs `unit` mismatch).
   - Linked `usage` from CSV to `description` in D1.
 - **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
+- **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
 - **Frontend Alignment:** Updated `ClinicalLab` to display `Last Price Sync` and `System Update` separately for transparency.
+
+### DDInter Data Integration ✅ (NEW)
+- **Massive Enrichment:** Integrated `DDInter` database (~1GB) with local app data.
+- **Enhanced Interactions:** Added "Clinical Management" advice and "Mechanism" validation text.
+- **Smart Matching:** Implemented a robust pipeline matching by Trade Name and Active Ingredients.
+- **Artifacts:** Generated 141 chunked JSON files optimized for mobile performance.
 
 ### Cloudflare Worker (Backend) ✅
 - **Database (D1):**

@@ -1,7 +1,9 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart'; // For compute
+import 'package:mediswitch/core/database/database_helper.dart';
 import 'package:mediswitch/core/di/locator.dart'; // Import locator
 import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
@@ -13,11 +15,17 @@ import 'package:mediswitch/domain/repositories/drug_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 
-import '../../core/database/database_helper.dart';
-
 // import '../../core/network/network_info.dart';
 
 class DrugRepositoryImpl implements DrugRepository {
+  /// Constructor for DrugRepositoryImpl
+  DrugRepositoryImpl({
+    required this.localDataSource,
+    required this.remoteDataSource,
+    // required this.networkInfo,
+    this.isConnected = true, // Default, should be determined by NetworkInfo
+  });
+
   final SqliteLocalDataSource localDataSource; // Changed type to SQLite
   final DrugRemoteDataSource remoteDataSource;
   // final NetworkInfo networkInfo;
@@ -26,13 +34,6 @@ class DrugRepositoryImpl implements DrugRepository {
       locator<FileLoggerService>(); // Get logger instance
 
   // Removed in-memory cache and indices
-
-  DrugRepositoryImpl({
-    required this.localDataSource,
-    required this.remoteDataSource,
-    // required this.networkInfo,
-    this.isConnected = true, // Default, should be determined by NetworkInfo
-  });
 
   // Removed _buildIndices and _clearCache methods
 
@@ -111,7 +112,7 @@ class DrugRepositoryImpl implements DrugRepository {
             'DrugRepository: Downloaded data successfully. Saving locally...',
           );
           await localDataSource.saveDownloadedCsv(
-            fileData,
+            utf8.encode(fileData),
           ); // This now clears DB and inserts
           _logger.i('DrugRepository: Local data updated via SQLite.');
         },
@@ -141,8 +142,6 @@ class DrugRepositoryImpl implements DrugRepository {
   @override
   Future<Either<Failure, List<DrugEntity>>> getAllDrugs() async {
     _logger.i("DrugRepository: getAllDrugs called (Update Check Trigger)");
-    bool updateAttempted = false;
-    bool updateFailed = false;
 
     // --- Update Check Logic (DISABLED by user request for performance) ---
     _logger.i(
@@ -304,10 +303,9 @@ class DrugRepositoryImpl implements DrugRepository {
           return Left(failure);
         },
         (data) async {
-          final List<dynamic> drugsRaw =
-              (data['data'] ?? data['drugs'] ?? []) as List<dynamic>;
           final List<Map<String, dynamic>> drugsData =
-              drugsRaw.cast<Map<String, dynamic>>();
+              (data['data'] ?? data['drugs'] ?? [] as List)
+                  .cast<Map<String, dynamic>>();
           final int count = (data['total'] as int?) ?? drugsData.length;
           _logger.i("DrugRepository: Sync data received, found $count items");
 

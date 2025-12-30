@@ -15,10 +15,13 @@ class DrugInteraction extends Equatable {
   final String? arabicEffect;
   final String? recommendation;
   final String? arabicRecommendation;
+  final String? managementText; // New: Clinical Advice
+  final String? mechanismText; // New: Mechanism
+  final String? riskLevel; // New: DDInter Risk Level
+  final String? ddinterId; // New: Link to DDInter DB
   final String source;
   final String type;
-  final bool
-  isPrimaryIngredient; // true if the searched ingredient is ingredient1
+  final bool isPrimaryIngredient;
 
   const DrugInteraction({
     this.id,
@@ -29,6 +32,10 @@ class DrugInteraction extends Equatable {
     this.arabicEffect,
     this.recommendation,
     this.arabicRecommendation,
+    this.managementText,
+    this.mechanismText,
+    this.riskLevel,
+    this.ddinterId,
     this.source = 'DailyMed',
     this.type = 'pharmacodynamic',
     this.isPrimaryIngredient = true,
@@ -93,6 +100,10 @@ class DrugInteraction extends Equatable {
     arabicEffect,
     recommendation,
     arabicRecommendation,
+    managementText,
+    mechanismText,
+    riskLevel,
+    ddinterId,
     source,
     type,
     isPrimaryIngredient,

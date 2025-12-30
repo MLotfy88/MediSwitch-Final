@@ -1,6 +1,8 @@
-import '../../domain/entities/drug_interaction.dart';
+import 'package:mediswitch/domain/entities/drug_interaction.dart';
 
+/// Model class for drug interactions, extending the domain entity
 class DrugInteractionModel extends DrugInteraction {
+  /// Creates a DrugInteractionModel instance
   const DrugInteractionModel({
     super.id,
     required super.ingredient1,
@@ -10,11 +12,16 @@ class DrugInteractionModel extends DrugInteraction {
     super.arabicEffect,
     super.recommendation,
     super.arabicRecommendation,
+    super.managementText,
+    super.mechanismText,
+    super.riskLevel,
+    super.ddinterId,
     super.source = 'DailyMed',
     super.type = 'pharmacodynamic',
     super.isPrimaryIngredient = true,
   });
 
+  /// Creates a DrugInteractionModel from JSON data
   factory DrugInteractionModel.fromJson(Map<String, dynamic> json) {
     // Note: isPrimaryIngredient is usually calculated at runtime, defaulting to true or reading if present
     return DrugInteractionModel(
@@ -26,13 +33,15 @@ class DrugInteractionModel extends DrugInteraction {
       arabicEffect: json['arabic_effect'] as String?,
       recommendation: json['recommendation'] as String?,
       arabicRecommendation: json['arabic_recommendation'] as String?,
+      managementText: json['management_text'] as String?,
+      mechanismText: json['mechanism_text'] as String?,
+      riskLevel: json['risk_level'] as String?,
+      ddinterId: json['ddinter_id'] as String?,
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
       isPrimaryIngredient:
-          (json['is_primary_ingredient'] == 1 ||
-                  json['is_primary_ingredient'] == true)
-              ? true
-              : true, // Default to true if not specified, logic in repo handles setting it
+          json['is_primary_ingredient'] == 1 ||
+          json['is_primary_ingredient'] == true,
     );
   }
 
@@ -47,16 +56,21 @@ class DrugInteractionModel extends DrugInteraction {
       'arabic_effect': arabicEffect,
       'recommendation': recommendation,
       'arabic_recommendation': arabicRecommendation,
+      'management_text': managementText,
+      'mechanism_text': mechanismText,
+      'risk_level': riskLevel,
+      'ddinter_id': ddinterId,
       'source': source,
       'type': type,
     };
   }
 
-  // Database Helpers
+  /// Creates a DrugInteractionModel from a database map
   factory DrugInteractionModel.fromMap(Map<String, dynamic> map) {
     return DrugInteractionModel.fromJson(map);
   }
 
+  /// Converts the model to a database map
   Map<String, dynamic> toMap() {
     return toJson();
   }

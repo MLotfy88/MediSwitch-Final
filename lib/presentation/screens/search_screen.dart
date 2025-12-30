@@ -318,6 +318,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   drug: drug,
                   hasDrugInteraction: drug.hasDrugInteraction,
                   hasFoodInteraction: drug.hasFoodInteraction,
+                  hasDiseaseInteraction: drug.hasDiseaseInteraction,
                   onTap: () => _navigateToDetails(context, drug),
                 ),
               );
@@ -418,6 +419,7 @@ class _SearchScreenState extends State<SearchScreen> {
             drug: drug,
             hasDrugInteraction: drug.hasDrugInteraction,
             hasFoodInteraction: drug.hasFoodInteraction,
+            hasDiseaseInteraction: drug.hasDiseaseInteraction,
             onTap: () => _navigateToDetails(context, drug),
           ),
         );

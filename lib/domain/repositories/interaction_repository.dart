@@ -3,6 +3,7 @@
 import 'package:dartz/dartz.dart'; // For Either
 
 import '../../core/error/failures.dart'; // For Failure
+import '../entities/disease_interaction.dart'; // Added import
 import '../entities/dosage_guidelines.dart'; // Import DosageGuidelines
 import '../entities/drug_entity.dart';
 import '../entities/drug_interaction.dart';
@@ -75,4 +76,12 @@ abstract class InteractionRepository {
 
   /// Get drugs that have known food interactions (for Home Screen)
   Future<List<DrugEntity>> getDrugsWithFoodInteractions(int limit);
+
+  /// Get disease interactions for a specific drug
+  Future<List<DiseaseInteraction>> getDiseaseInteractions(DrugEntity drug);
+
+  /// Get detailed food interactions for a specific drug
+  Future<List<Map<String, dynamic>>> getDetailedFoodInteractions(
+    DrugEntity drug,
+  );
 }

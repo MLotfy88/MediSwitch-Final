@@ -18,11 +18,12 @@ class DatabaseHelper {
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
   static const int _dbVersion =
-      11; // Universal Schema Alignment (snake_case + Source of Truth)
+      12; // Universal Schema Alignment (snake_case + Source of Truth)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
   static const String foodInteractionsTable = 'food_interactions';
+  static const String diseaseInteractionsTable = 'disease_interactions';
 
   // --- Column Names (Strictly snake_case to match D1 & Assets) ---
   static const String colId = 'id';
@@ -84,6 +85,7 @@ class DatabaseHelper {
       await db.execute('DROP TABLE IF EXISTS drug_interactions'); // New name
       await db.execute('DROP TABLE IF EXISTS med_ingredients');
       await db.execute('DROP TABLE IF EXISTS $foodInteractionsTable');
+      await db.execute('DROP TABLE IF EXISTS $diseaseInteractionsTable');
       await _onCreate(db, newVersion);
       return;
     }
@@ -127,8 +129,27 @@ class DatabaseHelper {
       await db.execute('DROP TABLE IF EXISTS drug_interactions');
       await db.execute('DROP TABLE IF EXISTS med_ingredients');
       await db.execute('DROP TABLE IF EXISTS food_interactions');
+      await db.execute(
+        'DROP TABLE IF EXISTS $diseaseInteractionsTable',
+      ); // Add drop for disease interactions
       await _onCreate(db, newVersion);
       return;
+    }
+
+    if (oldVersion < 12) {
+      debugPrint(
+        'Upgrading to Version 12: Adding disease_interactions table...',
+      );
+      await db.execute('DROP TABLE IF EXISTS $diseaseInteractionsTable');
+      await _onCreateDiseaseInteractions(db);
+      // Add has_disease_interaction column to drugs table
+      try {
+        await db.execute(
+          'ALTER TABLE $medicinesTable ADD COLUMN has_disease_interaction INTEGER DEFAULT 0',
+        );
+      } catch (e) {
+        debugPrint('Note: has_disease_interaction might already exist: $e');
+      }
     }
   }
 
@@ -163,7 +184,8 @@ class DatabaseHelper {
             $colImageUrl TEXT,
             $colUpdatedAt INTEGER DEFAULT 0,
             has_drug_interaction INTEGER DEFAULT 0,
-            has_food_interaction INTEGER DEFAULT 0
+            has_food_interaction INTEGER DEFAULT 0,
+            has_disease_interaction INTEGER DEFAULT 0
           )
           ''');
     debugPrint('Medicines table created');
@@ -193,6 +215,9 @@ class DatabaseHelper {
 
     // Create Food Interactions Table
     await _onCreateFoodInteractions(db);
+
+    // Create Disease Interactions Table
+    await _onCreateDiseaseInteractions(db);
 
     debugPrint('Database tables and indices created.');
   }
@@ -238,11 +263,34 @@ class DatabaseHelper {
         arabic_effect TEXT,
         recommendation TEXT,
         arabic_recommendation TEXT,
+        management_text TEXT, -- New: Clinical Advice
+        mechanism_text TEXT,  -- New: Mechanism
+        risk_level TEXT,      -- New: DDInter Risk Level
+        ddinter_id TEXT,      -- New: Link to DDInter DB
         source TEXT,
         type TEXT,
         updated_at INTEGER DEFAULT 0
       )
     ''');
+    // Migration for existing users (Add columns if they don't exist)
+    try {
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN management_text TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN mechanism_text TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN risk_level TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN ddinter_id TEXT',
+      );
+    } catch (e) {
+      // Columns might already exist, ignore error or handle better column check
+      debugPrint('Columns might already exist: $e');
+    }
+
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_rules_i1 ON $interactionsTable(ingredient1)',
     );
@@ -286,6 +334,24 @@ class DatabaseHelper {
     debugPrint('$foodInteractionsTable table created');
   }
 
+  Future<void> _onCreateDiseaseInteractions(Database db) async {
+    debugPrint('Creating $diseaseInteractionsTable table...');
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS $diseaseInteractionsTable (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        med_id INTEGER NOT NULL,
+        trade_name TEXT,
+        disease_name TEXT NOT NULL,
+        interaction_text TEXT NOT NULL,
+        source TEXT DEFAULT 'DDInter'
+      )
+    ''');
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_disease_med_id ON $diseaseInteractionsTable(med_id)',
+    );
+    debugPrint('$diseaseInteractionsTable table created');
+  }
+
   // --- Basic CRUD Operations ---
 
   /// Insert or replace a batch of medicines
@@ -321,6 +387,7 @@ class DatabaseHelper {
         colQrCode,
         'has_drug_interaction',
         'has_food_interaction',
+        'has_disease_interaction',
       ];
 
       dbMap.removeWhere((key, value) => !validColumns.contains(key));

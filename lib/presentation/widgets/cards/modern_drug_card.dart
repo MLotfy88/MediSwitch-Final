@@ -10,6 +10,7 @@ class ModernDrugCard extends StatelessWidget {
   final bool isFavorite;
   final bool hasDrugInteraction;
   final bool hasFoodInteraction;
+  final bool hasDiseaseInteraction;
   final VoidCallback? onTap;
   final VoidCallback? onFavoriteToggle;
 
@@ -19,6 +20,7 @@ class ModernDrugCard extends StatelessWidget {
     this.isFavorite = false,
     this.hasDrugInteraction = false,
     this.hasFoodInteraction = false,
+    this.hasDiseaseInteraction = false,
     this.onTap,
     this.onFavoriteToggle,
   });
@@ -196,6 +198,20 @@ class ModernDrugCard extends StatelessWidget {
                             LucideIcons.alertTriangle,
                             size: 14,
                             color: appColors.warning,
+                          ),
+                        ),
+                      if (hasDiseaseInteraction)
+                        Container(
+                          padding: const EdgeInsets.all(4),
+                          margin: const EdgeInsets.only(left: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.redAccent.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Icon(
+                            LucideIcons.alertOctagon,
+                            size: 14,
+                            color: Colors.redAccent,
                           ),
                         ),
                     ],

@@ -28,6 +28,7 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
         f.write("""CREATE TABLE dosage_guidelines (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     med_id INTEGER,
+    dailymed_setid TEXT,
     min_dose REAL,
     max_dose REAL,
     frequency INTEGER,
@@ -35,9 +36,12 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     instructions TEXT,
     condition TEXT,
     source TEXT,
-    is_pediatric BOOLEAN DEFAULT 0,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at INTEGER DEFAULT (strftime('%s', 'now'))
+    is_pediatric INTEGER,
+    active_ingredient TEXT,
+    strength TEXT,
+    standard_dose TEXT,
+    package_label TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );\n\n""")
         
         if not dosages:
@@ -65,6 +69,7 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
             
             vals = [
                 d.get('med_id'),
+                d.get('dailymed_setid'),
                 d.get('min_dose'),
                 d.get('max_dose'),
                 d.get('frequency'),
@@ -75,18 +80,19 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
                 d.get('is_pediatric', False)
             ]
             
-            # Format: (med_id, min, max, freq, dur, instr, cond, source, ped)
-            v_str = f"({sql_val(vals[0])}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])}, {sql_val(vals[6])}, {sql_val(vals[7])}, {sql_bool(vals[8])})"
+            # Format: (med_id, dailymed, min, max, freq, dur, instr, cond, source, ped)
+            # Extra fields set to NULL
+            v_str = f"({sql_val(vals[0])}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])}, {sql_val(vals[6])}, {sql_val(vals[7])}, {sql_val(vals[8])}, {sql_bool(vals[9])}, NULL, NULL, NULL, NULL)"
             batch.append(v_str)
 
             if len(batch) >= batch_size:
-                f.write("INSERT INTO dosage_guidelines (med_id, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES\n")
+                f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, active_ingredient, strength, standard_dose, package_label) VALUES\n")
                 f.write(",\n".join(batch))
                 f.write(";\n\n")
                 batch = []
         
         if batch:
-            f.write("INSERT INTO dosage_guidelines (med_id, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES\n")
+            f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, active_ingredient, strength, standard_dose, package_label) VALUES\n")
             f.write(",\n".join(batch))
             f.write(";\n\n")
             

@@ -100,7 +100,14 @@ DrugBank_Organized_Data/
 d1_import.sql
 d1_import_replace.sql
 d1_food_interactions.sql
+d1_disease_interactions.sql
+d1_dosages.sql
+d1_rules_part_*.sql
+d1_part_*
 d1_chunks*/
+d1_final_chunks/
+d1_clean_chunks/
+d1_safe_chunks/
 scripts/drugbank_integration/output/
 /home/adminlotfy/project/d1_clean_chunks
 /home/adminlotfy/project/d1_final_chunks
@@ -116,3 +123,22 @@ ddinter_inspect/
 *.db
 *.db-shm
 *.db-wal
+
+# DDInter Integration Data
+ddinter-database-compressed.zip
+ddinter-database (1).zip
+ddinter_data/
+*.zip
+*.jpg
+*.log
+drugs.json
+mediswitch.db
+meds_enriched.csv
+meds_updated.csv
+analysis.log
+errors.txt
+debug_output.txt
+file_list.txt
+processed_ids_v8.txt
+high_risk_report.txt
+ingredient_matching_report.txt

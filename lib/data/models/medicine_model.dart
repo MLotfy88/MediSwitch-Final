@@ -31,6 +31,7 @@ class MedicineModel extends DrugEntity {
     super.imageUrl,
     super.hasDrugInteraction = false,
     super.hasFoodInteraction = false,
+    super.hasDiseaseInteraction = false,
     this.updatedAt = 0,
   });
 
@@ -132,6 +133,9 @@ class MedicineModel extends DrugEntity {
       hasFoodInteraction:
           json['has_food_interaction'] == 1 ||
           json['has_food_interaction'] == true,
+      hasDiseaseInteraction:
+          json['has_disease_interaction'] == 1 ||
+          json['has_disease_interaction'] == true,
     );
   }
 
@@ -162,6 +166,7 @@ class MedicineModel extends DrugEntity {
       DatabaseHelper.colUpdatedAt: updatedAt,
       'has_drug_interaction': hasDrugInteraction ? 1 : 0,
       'has_food_interaction': hasFoodInteraction ? 1 : 0,
+      'has_disease_interaction': hasDiseaseInteraction ? 1 : 0,
     };
   }
 
@@ -196,6 +201,9 @@ class MedicineModel extends DrugEntity {
       hasFoodInteraction:
           map['has_food_interaction'] == 1 ||
           map['has_food_interaction'] == true,
+      hasDiseaseInteraction:
+          map['has_disease_interaction'] == 1 ||
+          map['has_disease_interaction'] == true,
     );
   }
 
@@ -231,6 +239,7 @@ class MedicineModel extends DrugEntity {
       imageUrl: imageUrl,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
+      hasDiseaseInteraction: hasDiseaseInteraction,
       isNew: isNewDrug,
       isPopular: false, // Will be set by provider based on top 50 visits
     );

@@ -167,6 +167,15 @@ export default {
                 if (method === 'PUT') return handleUpdateFeedback(id, request, DB);
             }
 
+            // Disease Interactions
+            if (path === '/api/admin/disease-interactions' && method === 'GET') return handleGetDiseaseInteractions(request, DB);
+            if (path === '/api/admin/disease-interactions' && method === 'POST') return handleCreateDiseaseInteraction(request, DB);
+            if (path.startsWith('/api/admin/disease-interactions/')) {
+                const id = path.split('/').pop();
+                if (method === 'PUT') return handleUpdateDiseaseInteraction(id, request, DB);
+                if (method === 'DELETE') return handleDeleteDiseaseInteraction(id, DB);
+            }
+
             // Food Interactions
             if (path === '/api/admin/food-interactions' && method === 'GET') return handleGetFoodInteractions(request, DB);
             if (path === '/api/admin/food-interactions' && method === 'POST') return handleCreateFoodInteraction(request, DB);
@@ -681,6 +690,86 @@ async function handleDeleteFoodInteraction(id, DB) {
     }
 }
 
+async function handleGetDiseaseInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const page = parseInt(url.searchParams.get('page')) || 1;
+    const limit = parseInt(url.searchParams.get('limit') || '50');
+    const search = url.searchParams.get('search') || '';
+    const offset = (page - 1) * limit;
+
+    try {
+        let query = 'SELECT * FROM disease_interactions';
+        const params = [];
+
+        if (search) {
+            query += ' WHERE disease_name LIKE ? OR trade_name LIKE ?';
+            params.push(`%${search}%`, `%${search}%`);
+        }
+
+        query += ' ORDER BY id DESC LIMIT ? OFFSET ?';
+        params.push(limit, offset);
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+        const countQuery = 'SELECT COUNT(*) as count FROM disease_interactions' + (search ? ' WHERE disease_name LIKE ? OR trade_name LIKE ?' : '');
+        const { count } = await DB.prepare(countQuery).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first();
+
+        return jsonResponse({
+            data: results || [],
+            pagination: { page, limit, total: count || 0 }
+        });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleCreateDiseaseInteraction(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        const result = await DB.prepare(`
+            INSERT INTO disease_interactions (med_id, trade_name, disease_name, interaction_text, source)
+            VALUES (?, ?, ?, ?, ?)
+        `).bind(
+            data.med_id, data.trade_name, data.disease_name,
+            data.interaction_text, data.source || 'DDInter'
+        ).run();
+
+        return jsonResponse({ data: { id: result.meta.last_row_id, ...data } }, 201);
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleUpdateDiseaseInteraction(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        await DB.prepare(`
+            UPDATE disease_interactions SET 
+                med_id = ?, trade_name = ?, disease_name = ?, 
+                interaction_text = ?, source = ?
+            WHERE id = ?
+        `).bind(
+            data.med_id, data.trade_name, data.disease_name,
+            data.interaction_text, data.source || 'DDInter', id
+        ).run();
+        return jsonResponse({ data: { id: parseInt(id), ...data } });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleDeleteDiseaseInteraction(id, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        await DB.prepare('DELETE FROM disease_interactions WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'Disease interaction deleted' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
 async function handleSyncDrugs(request, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
     const url = new URL(request.url);
@@ -1170,8 +1259,10 @@ async function handleCreateInteraction(request, DB) {
 
         const query = `
             INSERT INTO drug_interactions 
-            (ingredient1, ingredient2, severity, effect, recommendation) 
-            VALUES (?, ?, ?, ?, ?)
+            (ingredient1, ingredient2, severity, effect, recommendation, 
+             arabic_effect, arabic_recommendation, management_text, mechanism_text, 
+             risk_level, source, type) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         `;
 
         const result = await DB.prepare(query).bind(
@@ -1179,7 +1270,14 @@ async function handleCreateInteraction(request, DB) {
             data.ingredient2,
             data.severity,
             data.effect,
-            data.recommendation
+            data.recommendation,
+            data.arabic_effect || null,
+            data.arabic_recommendation || null,
+            data.management_text || null,
+            data.mechanism_text || null,
+            data.risk_level || null,
+            data.source || 'Manual',
+            data.type || 'pharmacodynamic'
         ).run();
 
         return jsonResponse({
@@ -1202,7 +1300,9 @@ async function handleUpdateInteraction(id, request, DB) {
 
         const query = `
             UPDATE drug_interactions 
-            SET ingredient1 = ?, ingredient2 = ?, severity = ?, effect = ?, recommendation = ?
+            SET ingredient1 = ?, ingredient2 = ?, severity = ?, effect = ?, recommendation = ?,
+                arabic_effect = ?, arabic_recommendation = ?, management_text = ?, 
+                mechanism_text = ?, risk_level = ?, source = ?, type = ?
             WHERE id = ?
         `;
 
@@ -1212,6 +1312,13 @@ async function handleUpdateInteraction(id, request, DB) {
             data.severity,
             data.effect,
             data.recommendation,
+            data.arabic_effect || null,
+            data.arabic_recommendation || null,
+            data.management_text || null,
+            data.mechanism_text || null,
+            data.risk_level || null,
+            data.source || 'Manual',
+            data.type || 'pharmacodynamic',
             id
         ).run();
 

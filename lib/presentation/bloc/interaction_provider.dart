@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
+import '../../domain/entities/disease_interaction.dart';
 import '../../domain/entities/drug_entity.dart';
 import '../../domain/entities/drug_interaction.dart';
 import '../../domain/entities/interaction_analysis_result.dart';
@@ -152,6 +153,38 @@ class InteractionProvider extends ChangeNotifier {
     } catch (e, s) {
       _logger.e(
         "InteractionProvider: Error getting drugs with food interactions",
+        e,
+        s,
+      );
+      return [];
+    }
+  }
+
+  Future<List<DiseaseInteraction>> getDiseaseInteractions(
+    DrugEntity drug,
+  ) async {
+    try {
+      if (drug.id == null) return [];
+      return await _interactionRepository.getDiseaseInteractions(drug);
+    } catch (e, s) {
+      _logger.e(
+        "InteractionProvider: Error getting disease interactions",
+        e,
+        s,
+      );
+      return [];
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> getDetailedFoodInteractions(
+    DrugEntity drug,
+  ) async {
+    try {
+      if (drug.id == null) return [];
+      return await _interactionRepository.getDetailedFoodInteractions(drug);
+    } catch (e, s) {
+      _logger.e(
+        "InteractionProvider: Error getting detailed food interactions",
         e,
         s,
       );

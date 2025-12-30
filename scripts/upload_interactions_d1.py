@@ -18,7 +18,7 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
     generated_files = []
     
     # --- 1. Process Rules (drug_interactions table) ---
-    rules_files = sorted(glob.glob(os.path.join(json_path, "rules_part_*.json")))
+    rules_files = sorted(glob.glob(os.path.join(json_path, "enriched_rules_part_*.json")))
     if rules_files:
         print(f"📜 Found {len(rules_files)} rule chunks. Generating SQL for 'drug_interactions'...")
         
@@ -39,21 +39,24 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
                     f.write("DROP TABLE IF EXISTS drug_interactions;\n")
                     f.write("""CREATE TABLE drug_interactions (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    ingredient1 TEXT NOT NULL,
-    ingredient2 TEXT NOT NULL,
-    severity TEXT NOT NULL,
-    type TEXT NOT NULL DEFAULT 'pharmacodynamic',
-    effect TEXT NOT NULL,
-    arabic_effect TEXT DEFAULT '',
-    recommendation TEXT DEFAULT '',
-    arabic_recommendation TEXT DEFAULT '',
-    source TEXT DEFAULT 'OpenFDA',
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    ingredient1 TEXT,
+    ingredient2 TEXT,
+    severity TEXT,
+    effect TEXT,
+    arabic_effect TEXT,
+    recommendation TEXT,
+    arabic_recommendation TEXT,
+    management_text TEXT,
+    mechanism_text TEXT,
+    risk_level TEXT,
+    ddinter_id TEXT,
+    source TEXT,
+    type TEXT,
+    updated_at INTEGER DEFAULT 0
 );\n\n""")
-                    f.write("CREATE INDEX idx_di_ing1 ON drug_interactions(ingredient1);\n")
-                    f.write("CREATE INDEX idx_di_ing2 ON drug_interactions(ingredient2);\n")
-                    f.write("CREATE INDEX idx_di_pair ON drug_interactions(ingredient1, ingredient2);\n\n")
+                    f.write("CREATE INDEX IF NOT EXISTS idx_rules_pair ON drug_interactions(ingredient1, ingredient2);\n")
+                    f.write("CREATE INDEX IF NOT EXISTS idx_rules_i1 ON drug_interactions(ingredient1);\n")
+                    f.write("CREATE INDEX IF NOT EXISTS idx_rules_i2 ON drug_interactions(ingredient2);\n\n")
 
                 # Insert Batching
                 batch = []
@@ -63,21 +66,29 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
                     sev = str(item.get('severity', 'moderate')).replace("'", "''")
                     typ = str(item.get('type', 'pharmacodynamic')).replace("'", "''")
                     eff = str(item.get('effect', '')).replace("'", "''")
+                    # Enriched data might not have arabic_effect populated in the json if it is just passed through, 
+                    # but let's assume keys exist or default to empty
                     eff_ar = str(item.get('arabic_effect', '')).replace("'", "''")
                     rec = str(item.get('recommendation', '')).replace("'", "''")
                     rec_ar = str(item.get('arabic_recommendation', '')).replace("'", "''")
-                    src = str(item.get('source', 'DailyMed')).replace("'", "''")
                     
-                    batch.append(f"('{i1}', '{i2}', '{sev}', '{typ}', '{eff}', '{eff_ar}', '{rec}', '{rec_ar}', '{src}')")
+                    mgmt = str(item.get('management_text', '')).replace("'", "''")
+                    mech = str(item.get('mechanism_text', '')).replace("'", "''")
+                    risk = str(item.get('risk_level', '')).replace("'", "''")
+                    dd_id = str(item.get('ddinter_id', '')).replace("'", "''")
+                    
+                    src = str(item.get('source', 'DDInter')).replace("'", "''")
+                    
+                    batch.append(f"('{i1}', '{i2}', '{sev}', '{eff}', '{eff_ar}', '{rec}', '{rec_ar}', '{mgmt}', '{mech}', '{risk}', '{dd_id}', '{src}', '{typ}', 0)")
                     
                     if len(batch) >= 50:
-                         f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, type, effect, arabic_effect, recommendation, arabic_recommendation, source) VALUES\n")
+                         f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, arabic_effect, recommendation, arabic_recommendation, management_text, mechanism_text, risk_level, ddinter_id, source, type, updated_at) VALUES\n")
                          f.write(",\n".join(batch))
                          f.write(";\n")
                          batch = []
                 
                 if batch:
-                     f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, type, effect, arabic_effect, recommendation, arabic_recommendation, source) VALUES\n")
+                     f.write("INSERT INTO drug_interactions (ingredient1, ingredient2, severity, effect, arabic_effect, recommendation, arabic_recommendation, management_text, mechanism_text, risk_level, ddinter_id, source, type, updated_at) VALUES\n")
                      f.write(",\n".join(batch))
                      f.write(";\n")
             print(f"  -> Generated {filename} ({len(data)} rows)")
@@ -136,5 +147,5 @@ def export_interactions_sql(json_path, output_dir='.', chunk_size=3000):
     return True
 
 if __name__ == "__main__":
-    json_file = sys.argv[1] if len(sys.argv) > 1 else 'assets/data/drug_interactions.json'
-    export_interactions_sql(json_file)
+    json_path = sys.argv[1] if len(sys.argv) > 1 else 'assets/data/interactions/enriched/'
+    export_interactions_sql(json_path)

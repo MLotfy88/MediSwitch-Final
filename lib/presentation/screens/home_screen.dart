@@ -529,6 +529,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     drug: drug,
                     hasDrugInteraction: drug.hasDrugInteraction,
                     hasFoodInteraction: drug.hasFoodInteraction,
+                    hasDiseaseInteraction: drug.hasDiseaseInteraction,
                     onTap: () => _navigateToDetails(context, drug),
                   ).animate().fadeIn(delay: (100 * index).ms),
                 );
