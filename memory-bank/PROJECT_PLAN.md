@@ -125,8 +125,9 @@
 ### المرحلة 12: Admin Dashboard & Cloudflare D1 Finalization ✅
 - [x] إدارة تفاعلات الأمراض (Admin UI & API)
 - [x] تحديث هيكل تفاعلات الأدوية (Risk Level, Management, Mechanism)
-- [x] إصلاح أخطاء الـ Repository في Flutter
-- [x] تحديث .gitignore للملفات الضخمة (SQL, DB, ZIP)
+- [x] حل مشكلة البيانات الثابتة في التفاعلات (Seeding Fix)
+- [x] حذف شاشة الـ Onboarding وتبسيط مسار التشغيل
+- [x] إصلاح أخطاء الـ Repository في Flutter وتحسين الـ Lints
 
 ---
 

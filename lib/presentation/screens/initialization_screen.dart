@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../core/database/database_helper.dart';
 import '../../core/di/locator.dart';
@@ -10,10 +9,9 @@ import '../../data/datasources/local/sqlite_local_data_source.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../../presentation/bloc/subscription_provider.dart';
 import 'main_screen.dart';
-import 'onboarding_screen.dart';
 
 // Keys from main.dart
-const String _prefsKeyOnboardingDone = 'onboarding_complete';
+// Onboarding key removed as it's no longer used
 
 class InitializationScreen extends StatefulWidget {
   const InitializationScreen({super.key});
@@ -109,20 +107,6 @@ class _InitializationScreenState extends State<InitializationScreen> {
       if (!mounted) return;
 
       try {
-        final prefs = await locator.getAsync<SharedPreferences>();
-        final bool onboardingComplete =
-            prefs.getBool(_prefsKeyOnboardingDone) ?? false;
-
-        if (!onboardingComplete) {
-          _backgroundPrime();
-          if (mounted) {
-            Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (_) => const OnboardingScreen()),
-            );
-          }
-          return;
-        }
-
         final startTime = DateTime.now();
         final bool success = await _performFullInitialization();
 
@@ -152,6 +136,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
     });
   }
 
+  // Placeholder for background tasks if needed
   void _backgroundPrime() {
     Future.microtask(() async {
       try {

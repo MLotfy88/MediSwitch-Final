@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../domain/entities/drug_interaction.dart';
+
 import '../../../domain/entities/interaction_severity.dart';
 
 /// Helper class for interaction severity visualization

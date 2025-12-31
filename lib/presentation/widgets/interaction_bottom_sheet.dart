@@ -72,11 +72,13 @@ class InteractionBottomSheet extends StatelessWidget {
                       const SizedBox(height: 4),
                       Text(
                         isRTL
-                            ? 'تحليل المخاطر السريرية'
-                            : 'Clinical Risk Analysis',
-                        style: theme.textTheme.titleLarge?.copyWith(
+                            ? 'تحليل المخاطر السريرية والملف الشخصي'
+                            : 'Clinical Risk Analysis & Profile',
+                        style: theme.textTheme.titleSmall?.copyWith(
                           fontWeight: FontWeight.w800,
-                          fontSize: 18,
+                          letterSpacing: 0.8,
+                          fontSize: 12.5, // Further reduced as requested
+                          color: severityColor.withOpacity(0.9),
                         ),
                       ),
                     ],
@@ -88,11 +90,9 @@ class InteractionBottomSheet extends StatelessWidget {
                     vertical: 8,
                   ),
                   decoration: BoxDecoration(
-                    color: severityColor.withValues(alpha: 0.1),
+                    color: severityColor.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(12),
-                    border: Border.all(
-                      color: severityColor.withValues(alpha: 0.2),
-                    ),
+                    border: Border.all(color: severityColor.withOpacity(0.2)),
                   ),
                   child: Column(
                     children: [

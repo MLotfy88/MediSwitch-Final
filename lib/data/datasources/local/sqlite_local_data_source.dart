@@ -491,12 +491,16 @@ class SqliteLocalDataSource {
               'ingredient1': i1,
               'ingredient2': i2,
               'severity': r['severity'],
-              'effect': r['effect'] ?? r['description'],
+              'effect': r['effect'],
+              'arabic_effect': r['arabic_effect'],
+              'recommendation': r['recommendation'] ?? r['management_text'],
+              'arabic_recommendation': r['arabic_recommendation'],
               'management_text': r['management_text'],
               'mechanism_text': r['mechanism_text'],
               'risk_level': r['risk_level'],
-              'ddinter_id': r['ddinter_id'],
+              'ddinter_id': r['ddinter_id']?.toString(),
               'source': r['source'] ?? 'DDInter',
+              'type': 'pharmacodynamic',
               'updated_at': 0,
             });
           }

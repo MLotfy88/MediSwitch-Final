@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lucide_icons/lucide_icons.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:lucide_icons/lucide_icons.dart';
 
 class QuickStatsBanner extends StatelessWidget {
   final int totalDrugs;
@@ -20,8 +20,7 @@ class QuickStatsBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
-    final textTheme = theme.textTheme;
-    final isDark = theme.brightness == Brightness.dark;
+    // Variables removed as they were unused
 
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
