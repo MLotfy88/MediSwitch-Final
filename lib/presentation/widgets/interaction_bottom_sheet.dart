@@ -4,6 +4,12 @@ import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/presentation/theme/app_colors.dart';
 
+/// Completely redesigned interaction details bottom sheet
+/// Features:
+/// - Medical-grade premium design
+/// - Automatic RECOMMENDATION extraction from text
+/// - Severity-aware color theming
+/// - RTL support for Arabic
 class InteractionBottomSheet extends StatelessWidget {
   const InteractionBottomSheet({super.key, required this.interaction});
 
@@ -13,290 +19,432 @@ class InteractionBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final isDark = theme.brightness == Brightness.dark;
+
     final isFood =
         interaction.type == 'food' ||
         interaction.ingredient2.toLowerCase().contains('food') ||
-        interaction.ingredient2.toLowerCase().contains('diet');
+        interaction.ingredient2.toLowerCase().contains('diet') ||
+        interaction.ingredient2.toLowerCase().contains('grapefruit') ||
+        interaction.ingredient2.toLowerCase().contains('alcohol');
 
-    final severityColor = _getSeverityColor(interaction.severityEnum, theme);
+    final severityColor = _getSeverityColor(interaction.severityEnum);
     final severityIcon = _getSeverityIcon(interaction.severityEnum);
+    final severityBgColor = severityColor.withOpacity(isDark ? 0.15 : 0.08);
+
+    // Parse sections from text (for food interactions that have embedded RECOMMENDATION)
+    final parsedContent = _parseInteractionContent(interaction, isRTL);
 
     return Container(
       decoration: BoxDecoration(
         color: theme.scaffoldBackgroundColor,
-        borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
-      ),
-      padding: EdgeInsets.only(
-        bottom: MediaQuery.of(context).viewInsets.bottom + 24,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.15),
+            blurRadius: 20,
+            offset: const Offset(0, -5),
+          ),
+        ],
       ),
       constraints: BoxConstraints(
-        maxHeight: MediaQuery.of(context).size.height * 0.9,
+        maxHeight: MediaQuery.of(context).size.height * 0.92,
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // 1. Drag Handle
-          Center(
-            child: Container(
-              margin: const EdgeInsets.symmetric(vertical: 16),
-              width: 40,
-              height: 4,
-              decoration: BoxDecoration(
-                color: theme.colorScheme.onSurface.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(2),
-              ),
-            ),
+          // ═══════════════════════════════════════════════════════════
+          // HEADER: Drag Handle + Severity Badge
+          // ═══════════════════════════════════════════════════════════
+          _buildHeader(
+            context,
+            theme,
+            isRTL,
+            isFood,
+            severityColor,
+            severityIcon,
+            severityBgColor,
           ),
 
-          // 2. Header with Severity Badge
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        isFood
-                            ? (isRTL ? 'تفاعل غذائي' : 'Food Interaction')
-                            : (isRTL ? 'تفاعل دوائي' : 'Drug Interaction'),
-                        style: theme.textTheme.labelLarge?.copyWith(
-                          color: severityColor,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 1.1,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        isRTL
-                            ? 'تحليل المخاطر السريرية والملف الشخصي'
-                            : 'Clinical Risk Analysis & Profile',
-                        style: theme.textTheme.titleSmall?.copyWith(
-                          fontWeight: FontWeight.w800,
-                          letterSpacing: 0.8,
-                          fontSize: 11, // Reduced from 12.5 as per user request
-                          color: severityColor.withOpacity(0.9),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 8,
-                  ),
-                  decoration: BoxDecoration(
-                    color: severityColor.withOpacity(0.1),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: severityColor.withOpacity(0.2)),
-                  ),
-                  child: Column(
-                    children: [
-                      Icon(severityIcon, color: severityColor, size: 20),
-                      const SizedBox(height: 4),
-                      Text(
-                        _getSeverityLabel(interaction.severityEnum, isRTL),
-                        style: TextStyle(
-                          color: severityColor,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 10,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-            child: Divider(),
-          ),
-
-          // 3. Content
+          // ═══════════════════════════════════════════════════════════
+          // CONTENT: Scrollable Sections
+          // ═══════════════════════════════════════════════════════════
           Flexible(
             child: SingleChildScrollView(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
+              physics: const BouncingScrollPhysics(),
+              padding: const EdgeInsets.fromLTRB(20, 0, 20, 16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Interaction Pair
-                  _AgentBox(
+                  // Interaction Pair Card
+                  _InteractionPairCard(
                     theme: theme,
-                    isRTL: isRTL,
                     agent1: interaction.ingredient1,
                     agent2: interaction.ingredient2,
                     isFood: isFood,
-                  ),
-
-                  const SizedBox(height: 24),
-
-                  // CLINICAL EFFECT
-                  _SectionHeader(
-                    title: isRTL ? 'التأثير السريري' : 'Clinical Effect',
-                    icon: LucideIcons.stethoscope,
-                    theme: theme,
-                  ),
-                  _ContentBox(
-                    content:
-                        (isRTL
-                            ? interaction.arabicEffect
-                            : interaction.effect) ??
-                        interaction.effect ??
-                        (isRTL ? 'لا تفاصيل' : 'No details'),
-                    theme: theme,
+                    isRTL: isRTL,
+                    severityColor: severityColor,
                   ),
 
                   const SizedBox(height: 20),
 
-                  // MECHANISM (NEW)
-                  if (interaction.mechanismText != null &&
-                      interaction.mechanismText!.isNotEmpty) ...[
-                    _SectionHeader(
-                      title: isRTL ? 'آلية التفاعل' : 'Mechanism of Action',
-                      icon: LucideIcons.layers,
+                  // ─── CLINICAL EFFECT ───
+                  if (parsedContent.effect.isNotEmpty)
+                    _InfoSection(
                       theme: theme,
+                      title: isRTL ? 'التأثير السريري' : 'Clinical Effect',
+                      icon: LucideIcons.activity,
+                      content: parsedContent.effect,
+                      accentColor: AppColors.info,
+                      isRTL: isRTL,
                     ),
-                    _ContentBox(
-                      content: interaction.mechanismText!,
-                      theme: theme,
-                      isDimmed: true,
-                    ),
-                    const SizedBox(height: 20),
-                  ],
 
-                  // RECOMMENDATION / MANAGEMENT (ENRICHED)
-                  if (!isFood) ...[
-                    _SectionHeader(
-                      title: isRTL ? 'التوصية الطبية' : 'Clinical Management',
+                  // ─── MECHANISM ───
+                  if (parsedContent.mechanism.isNotEmpty)
+                    _InfoSection(
+                      theme: theme,
+                      title: isRTL ? 'آلية التفاعل' : 'Mechanism',
+                      icon: LucideIcons.dna,
+                      content: parsedContent.mechanism,
+                      accentColor: AppColors.secondary,
+                      isRTL: isRTL,
+                    ),
+
+                  // ─── MANAGEMENT / RECOMMENDATION ───
+                  if (parsedContent.management.isNotEmpty)
+                    _InfoSection(
+                      theme: theme,
+                      title:
+                          isRTL ? 'التوصية الطبية' : 'Clinical Recommendation',
                       icon: LucideIcons.shieldCheck,
-                      theme: theme,
-                      color: AppColors.success,
+                      content: parsedContent.management,
+                      accentColor: AppColors.success,
+                      isRTL: isRTL,
+                      isHighlighted: true,
                     ),
-                    _ContentBox(
-                      content: _buildManagementValue(interaction, isRTL),
-                      theme: theme,
-                      color: AppColors.success.withValues(alpha: 0.05),
-                      borderColor: AppColors.success.withValues(alpha: 0.2),
-                      textColor: AppColors.success,
+
+                  // ─── METADATA CHIPS ───
+                  if (interaction.riskLevel != null ||
+                      interaction.ddinterId != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 16),
+                      child: Wrap(
+                        spacing: 10,
+                        runSpacing: 10,
+                        children: [
+                          if (interaction.riskLevel != null)
+                            _MetadataChip(
+                              label: isRTL ? 'مستوى الخطر' : 'Risk Level',
+                              value: interaction.riskLevel!,
+                              icon: LucideIcons.gauge,
+                              color: severityColor,
+                            ),
+                          if (interaction.ddinterId != null)
+                            _MetadataChip(
+                              label: isRTL ? 'المرجع' : 'Reference',
+                              value: 'DDInter #${interaction.ddinterId}',
+                              icon: LucideIcons.fileText,
+                              color: AppColors.mutedForeground,
+                            ),
+                          _MetadataChip(
+                            label: isRTL ? 'المصدر' : 'Source',
+                            value: interaction.source,
+                            icon: LucideIcons.database,
+                            color: AppColors.primary,
+                          ),
+                        ],
+                      ),
                     ),
-                    const SizedBox(height: 20),
-                  ],
 
-                  // RISK LEVEL & ID (NEW)
-                  Row(
-                    children: [
-                      if (interaction.riskLevel != null)
-                        Expanded(
-                          child: _DetailChip(
-                            label: isRTL ? 'مستوى الخطر' : 'Risk Level',
-                            value: interaction.riskLevel!,
-                            icon: LucideIcons.alertOctagon,
-                            color: severityColor,
-                            theme: theme,
-                          ),
-                        ),
-                      if (interaction.riskLevel != null &&
-                          interaction.ddinterId != null)
-                        const SizedBox(width: 12),
-                      if (interaction.ddinterId != null)
-                        Expanded(
-                          child: _DetailChip(
-                            label: isRTL ? 'معرف المرجع' : 'Reference ID',
-                            value: interaction.ddinterId!,
-                            icon: LucideIcons.hash,
-                            color: theme.colorScheme.secondary,
-                            theme: theme,
-                          ),
-                        ),
-                    ],
-                  ),
-
-                  const SizedBox(height: 32),
+                  const SizedBox(height: 24),
                 ],
               ),
             ),
           ),
 
-          // 4. Action
-          Padding(
-            padding: const EdgeInsets.fromLTRB(24, 8, 24, 24),
-            child: ElevatedButton(
-              onPressed: () => Navigator.pop(context),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: theme.colorScheme.primary,
-                foregroundColor: theme.colorScheme.onPrimary,
-                padding: const EdgeInsets.symmetric(vertical: 18),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                elevation: 0,
-              ),
-              child: Text(
-                isRTL ? 'إغلاق التفاصيل' : 'Dismiss Analysis',
-                style: const TextStyle(fontWeight: FontWeight.bold),
-              ),
+          // ═══════════════════════════════════════════════════════════
+          // FOOTER: Action Button
+          // ═══════════════════════════════════════════════════════════
+          _buildFooter(context, theme, isRTL, severityColor),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildHeader(
+    BuildContext context,
+    ThemeData theme,
+    bool isRTL,
+    bool isFood,
+    Color severityColor,
+    IconData severityIcon,
+    Color severityBgColor,
+  ) {
+    return Container(
+      padding: const EdgeInsets.fromLTRB(20, 12, 20, 16),
+      decoration: BoxDecoration(
+        color: severityBgColor,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      child: Column(
+        children: [
+          // Drag indicator
+          Container(
+            width: 40,
+            height: 4,
+            margin: const EdgeInsets.only(bottom: 16),
+            decoration: BoxDecoration(
+              color: severityColor.withOpacity(0.3),
+              borderRadius: BorderRadius.circular(2),
             ),
+          ),
+          Row(
+            children: [
+              // Type + Title
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
+                          decoration: BoxDecoration(
+                            color: severityColor.withOpacity(0.15),
+                            borderRadius: BorderRadius.circular(6),
+                          ),
+                          child: Text(
+                            isFood
+                                ? (isRTL ? 'تفاعل غذائي' : 'Food')
+                                : (isRTL ? 'تفاعل دوائي' : 'Drug'),
+                            style: TextStyle(
+                              color: severityColor,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 11,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        Icon(
+                          isFood ? LucideIcons.apple : LucideIcons.pill,
+                          size: 14,
+                          color: severityColor.withOpacity(0.7),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      isRTL ? 'تحليل التفاعل الدوائي' : 'Interaction Analysis',
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: severityColor,
+                        letterSpacing: 0.3,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              // Severity Badge
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: severityColor.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(color: severityColor.withOpacity(0.25)),
+                ),
+                child: Column(
+                  children: [
+                    Icon(severityIcon, color: severityColor, size: 24),
+                    const SizedBox(height: 4),
+                    Text(
+                      _getSeverityLabel(interaction.severityEnum, isRTL),
+                      style: TextStyle(
+                        color: severityColor,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 10,
+                        letterSpacing: 0.5,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
         ],
       ),
     );
   }
 
-  String _buildManagementValue(DrugInteraction interaction, bool isRTL) {
-    final List<String> parts = [];
+  Widget _buildFooter(
+    BuildContext context,
+    ThemeData theme,
+    bool isRTL,
+    Color severityColor,
+  ) {
+    return Container(
+      padding: EdgeInsets.fromLTRB(
+        20,
+        12,
+        20,
+        MediaQuery.of(context).viewInsets.bottom + 20,
+      ),
+      decoration: BoxDecoration(
+        color: theme.scaffoldBackgroundColor,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.05),
+            blurRadius: 10,
+            offset: const Offset(0, -2),
+          ),
+        ],
+      ),
+      child: SafeArea(
+        top: false,
+        child: FilledButton(
+          onPressed: () => Navigator.pop(context),
+          style: FilledButton.styleFrom(
+            backgroundColor: AppColors.primary,
+            foregroundColor: Colors.white,
+            padding: const EdgeInsets.symmetric(vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+            elevation: 0,
+          ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(LucideIcons.checkCircle, size: 18),
+              const SizedBox(width: 8),
+              Text(
+                isRTL ? 'تم الاطلاع' : 'Understood',
+                style: const TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 15,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 
-    // Priority 1: Recommendation (specific clinical advice)
-    final mainRec =
+  // ═══════════════════════════════════════════════════════════════════════
+  // CONTENT PARSING - Extract sections from raw text
+  // ═══════════════════════════════════════════════════════════════════════
+  _ParsedContent _parseInteractionContent(
+    DrugInteraction interaction,
+    bool isRTL,
+  ) {
+    String effect = '';
+    String mechanism = '';
+    String management = '';
+
+    // Get base effect text
+    effect =
+        (isRTL ? interaction.arabicEffect : interaction.effect) ??
+        interaction.effect ??
+        '';
+
+    // Get mechanism if available
+    mechanism = interaction.mechanismText ?? '';
+
+    // Get management/recommendation
+    final recommendation =
         isRTL ? interaction.arabicRecommendation : interaction.recommendation;
-    if (mainRec != null && mainRec.isNotEmpty && mainRec.trim().isNotEmpty) {
-      parts.add(mainRec);
+    final managementText = interaction.managementText ?? '';
+
+    if (recommendation != null && recommendation.trim().isNotEmpty) {
+      management = recommendation;
+      // Append management_text if different
+      if (managementText.isNotEmpty && managementText != recommendation) {
+        management = '$management\n\n$managementText';
+      }
+    } else if (managementText.isNotEmpty) {
+      management = managementText;
     }
 
-    // Priority 2: Management Text (general management)
-    if (interaction.managementText != null &&
-        interaction.managementText!.isNotEmpty &&
-        interaction.managementText!.trim().isNotEmpty) {
-      parts.add(interaction.managementText!);
-    }
-
-    // Priority 3: Effect (as clinical context if nothing else available)
-    if (parts.isEmpty) {
-      final effectText = isRTL ? interaction.arabicEffect : interaction.effect;
-      if (effectText != null && effectText.isNotEmpty) {
-        parts.add(
-          (isRTL ? 'التأثير المحتمل: ' : 'Potential effect: ') + effectText,
-        );
+    // For food interactions: try to extract RECOMMENDATION from the effect text
+    if (interaction.type == 'food' ||
+        interaction.ingredient2.toLowerCase().contains('food')) {
+      final extracted = _extractRecommendationFromText(effect);
+      if (extracted.recommendation.isNotEmpty) {
+        effect = extracted.mainText;
+        if (management.isEmpty) {
+          management = extracted.recommendation;
+        } else {
+          management = '$management\n\n${extracted.recommendation}';
+        }
       }
     }
 
-    // Last resort: Generic message
-    return parts.isEmpty
-        ? (isRTL
-            ? 'تم الإبلاغ عن تفاعل؛ استشر الصيدلي للحصول على نصيحة تفصيلية.'
-            : 'Interaction reported; consult pharmacist for detailed advice.')
-        : parts.join('\n\n');
+    // Fallback: if still no management, use effect as context
+    if (management.isEmpty && effect.isNotEmpty) {
+      management =
+          isRTL
+              ? 'استشر الطبيب أو الصيدلي قبل الجمع بين هذه العناصر.'
+              : 'Consult your physician or pharmacist before combining these items.';
+    }
+
+    return _ParsedContent(
+      effect: effect.trim(),
+      mechanism: mechanism.trim(),
+      management: management.trim(),
+    );
   }
 
-  Color _getSeverityColor(InteractionSeverity severity, ThemeData theme) {
+  /// Extract "RECOMMENDATION:" section from text
+  _ExtractedRecommendation _extractRecommendationFromText(String text) {
+    // Common patterns for recommendation sections
+    final patterns = [
+      RegExp(
+        r'RECOMMENDATION[:\s]+(.+?)(?=$|\n\n|\. [A-Z])',
+        caseSensitive: false,
+        dotAll: true,
+      ),
+      RegExp(
+        r'MANAGEMENT[:\s]+(.+?)(?=$|\n\n|\. [A-Z])',
+        caseSensitive: false,
+        dotAll: true,
+      ),
+      RegExp(
+        r'ADVICE[:\s]+(.+?)(?=$|\n\n|\. [A-Z])',
+        caseSensitive: false,
+        dotAll: true,
+      ),
+    ];
+
+    for (final pattern in patterns) {
+      final match = pattern.firstMatch(text);
+      if (match != null && match.group(1) != null) {
+        final recommendation = match.group(1)!.trim();
+        // Remove the recommendation section from main text
+        final mainText = text.replaceFirst(match.group(0)!, '').trim();
+        return _ExtractedRecommendation(mainText, recommendation);
+      }
+    }
+
+    return _ExtractedRecommendation(text, '');
+  }
+
+  Color _getSeverityColor(InteractionSeverity severity) {
     switch (severity) {
       case InteractionSeverity.contraindicated:
-        return AppColors.danger;
+        return const Color(0xFFDC2626); // Red-600
       case InteractionSeverity.severe:
-        return AppColors.danger;
+        return const Color(0xFFEA580C); // Orange-600
       case InteractionSeverity.major:
-        return Colors.orange[800]!;
+        return const Color(0xFFD97706); // Amber-600
       case InteractionSeverity.moderate:
-        return AppColors.warning;
+        return const Color(0xFFCA8A04); // Yellow-600
       case InteractionSeverity.minor:
-        return AppColors.info;
+        return const Color(0xFF0891B2); // Cyan-600
       default:
-        return Colors.grey;
+        return const Color(0xFF6B7280); // Gray-500
     }
   }
 
@@ -308,8 +456,12 @@ class InteractionBottomSheet extends StatelessWidget {
         return LucideIcons.alertOctagon;
       case InteractionSeverity.major:
         return LucideIcons.alertTriangle;
-      default:
+      case InteractionSeverity.moderate:
+        return LucideIcons.alertCircle;
+      case InteractionSeverity.minor:
         return LucideIcons.info;
+      default:
+        return LucideIcons.helpCircle;
     }
   }
 
@@ -318,32 +470,61 @@ class InteractionBottomSheet extends StatelessWidget {
       case InteractionSeverity.contraindicated:
         return isRTL ? 'ممنوع' : 'CI';
       case InteractionSeverity.severe:
-        return isRTL ? 'شديد خطورة' : 'Severe';
+        return isRTL ? 'شديد' : 'Severe';
       case InteractionSeverity.major:
-        return isRTL ? 'هام جداً' : 'Major';
+        return isRTL ? 'هام' : 'Major';
       case InteractionSeverity.moderate:
         return isRTL ? 'متوسط' : 'Moderate';
       case InteractionSeverity.minor:
-        return isRTL ? 'طفيـف' : 'Minor';
+        return isRTL ? 'طفيف' : 'Minor';
       default:
         return isRTL ? 'غير محدد' : 'N/A';
     }
   }
 }
 
-class _AgentBox extends StatelessWidget {
+// ═══════════════════════════════════════════════════════════════════════════
+// HELPER CLASSES
+// ═══════════════════════════════════════════════════════════════════════════
+
+class _ParsedContent {
+  final String effect;
+  final String mechanism;
+  final String management;
+
+  _ParsedContent({
+    required this.effect,
+    required this.mechanism,
+    required this.management,
+  });
+}
+
+class _ExtractedRecommendation {
+  final String mainText;
+  final String recommendation;
+
+  _ExtractedRecommendation(this.mainText, this.recommendation);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// UI COMPONENTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+class _InteractionPairCard extends StatelessWidget {
   final ThemeData theme;
-  final bool isRTL;
   final String agent1;
   final String agent2;
   final bool isFood;
+  final bool isRTL;
+  final Color severityColor;
 
-  const _AgentBox({
+  const _InteractionPairCard({
     required this.theme,
-    required this.isRTL,
     required this.agent1,
     required this.agent2,
     required this.isFood,
+    required this.isRTL,
+    required this.severityColor,
   });
 
   @override
@@ -351,29 +532,47 @@ class _AgentBox extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHighest.withValues(
-          alpha: 0.15,
+        gradient: LinearGradient(
+          colors: [
+            theme.colorScheme.surfaceContainerHighest.withOpacity(0.5),
+            theme.colorScheme.surfaceContainerHighest.withOpacity(0.2),
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(
-          color: theme.colorScheme.outline.withValues(alpha: 0.1),
-        ),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: theme.colorScheme.outline.withOpacity(0.1)),
       ),
-      child: Column(
+      child: Row(
         children: [
-          _AgentRow(
-            name: agent1,
-            icon: LucideIcons.pill,
-            color: theme.colorScheme.primary,
+          // Agent 1
+          Expanded(
+            child: _AgentItem(
+              name: agent1,
+              icon: LucideIcons.pill,
+              color: AppColors.primary,
+              theme: theme,
+            ),
           ),
-          const Padding(
-            padding: EdgeInsets.symmetric(vertical: 8),
-            child: Icon(LucideIcons.plus, size: 16, color: Colors.grey),
+          // Interaction indicator
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 12),
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: severityColor.withOpacity(0.1),
+              shape: BoxShape.circle,
+            ),
+            child: Icon(LucideIcons.zap, color: severityColor, size: 16),
           ),
-          _AgentRow(
-            name: agent2,
-            icon: isFood ? LucideIcons.apple : LucideIcons.pill,
-            color: isFood ? Colors.orange : theme.colorScheme.primary,
+          // Agent 2
+          Expanded(
+            child: _AgentItem(
+              name: agent2,
+              icon: isFood ? LucideIcons.apple : LucideIcons.pill,
+              color: isFood ? Colors.orange.shade600 : AppColors.primary,
+              theme: theme,
+              alignEnd: true,
+            ),
           ),
         ],
       ),
@@ -381,61 +580,131 @@ class _AgentBox extends StatelessWidget {
   }
 }
 
-class _AgentRow extends StatelessWidget {
+class _AgentItem extends StatelessWidget {
   final String name;
   final IconData icon;
   final Color color;
+  final ThemeData theme;
+  final bool alignEnd;
 
-  const _AgentRow({
+  const _AgentItem({
     required this.name,
     required this.icon,
     required this.color,
+    required this.theme,
+    this.alignEnd = false,
   });
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
+      crossAxisAlignment:
+          alignEnd ? CrossAxisAlignment.end : CrossAxisAlignment.start,
       children: [
-        Icon(icon, color: color, size: 18),
-        const SizedBox(width: 12),
-        Expanded(
-          child: Text(
-            name,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            color: color.withOpacity(0.1),
+            borderRadius: BorderRadius.circular(10),
           ),
+          child: Icon(icon, color: color, size: 18),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          name,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w700,
+            height: 1.3,
+          ),
+          textAlign: alignEnd ? TextAlign.end : TextAlign.start,
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
         ),
       ],
     );
   }
 }
 
-class _SectionHeader extends StatelessWidget {
+class _InfoSection extends StatelessWidget {
+  final ThemeData theme;
   final String title;
   final IconData icon;
-  final ThemeData theme;
-  final Color? color;
+  final String content;
+  final Color accentColor;
+  final bool isRTL;
+  final bool isHighlighted;
 
-  const _SectionHeader({
+  const _InfoSection({
+    required this.theme,
     required this.title,
     required this.icon,
-    required this.theme,
-    this.color,
+    required this.content,
+    required this.accentColor,
+    required this.isRTL,
+    this.isHighlighted = false,
   });
 
   @override
   Widget build(BuildContext context) {
-    final activeColor = color ?? theme.colorScheme.primary;
     return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
-      child: Row(
+      padding: const EdgeInsets.only(bottom: 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(icon, size: 18, color: activeColor),
-          const SizedBox(width: 8),
-          Text(
-            title,
-            style: theme.textTheme.titleSmall?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: activeColor,
+          // Section Header
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(6),
+                decoration: BoxDecoration(
+                  color: accentColor.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Icon(icon, size: 14, color: accentColor),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(
+                  title,
+                  style: theme.textTheme.titleSmall?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    color: accentColor,
+                    letterSpacing: 0.3,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          // Section Content
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              color:
+                  isHighlighted
+                      ? accentColor.withOpacity(0.06)
+                      : theme.colorScheme.surfaceContainerHighest.withOpacity(
+                        0.4,
+                      ),
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(
+                color:
+                    isHighlighted
+                        ? accentColor.withOpacity(0.2)
+                        : theme.colorScheme.outline.withOpacity(0.08),
+              ),
+            ),
+            child: Text(
+              content,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                height: 1.6,
+                color:
+                    isHighlighted
+                        ? accentColor.withOpacity(0.9)
+                        : theme.colorScheme.onSurface.withOpacity(0.85),
+                fontSize: 13.5,
+              ),
             ),
           ),
         ],
@@ -444,101 +713,53 @@ class _SectionHeader extends StatelessWidget {
   }
 }
 
-class _ContentBox extends StatelessWidget {
-  final String content;
-  final ThemeData theme;
-  final Color? color;
-  final Color? borderColor;
-  final Color? textColor;
-  final bool isDimmed;
-
-  const _ContentBox({
-    required this.content,
-    required this.theme,
-    this.color,
-    this.borderColor,
-    this.textColor,
-    this.isDimmed = false,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color:
-            color ??
-            theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.3),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color:
-              borderColor ?? theme.colorScheme.outline.withValues(alpha: 0.1),
-        ),
-      ),
-      child: Text(
-        content,
-        style: theme.textTheme.bodyMedium?.copyWith(
-          height: 1.6,
-          color:
-              textColor ??
-              (isDimmed
-                  ? theme.colorScheme.onSurface.withValues(alpha: 0.7)
-                  : theme.colorScheme.onSurface),
-          fontSize: 14,
-        ),
-      ),
-    );
-  }
-}
-
-class _DetailChip extends StatelessWidget {
+class _MetadataChip extends StatelessWidget {
   final String label;
   final String value;
   final IconData icon;
   final Color color;
-  final ThemeData theme;
 
-  const _DetailChip({
+  const _MetadataChip({
     required this.label,
     required this.value,
     required this.icon,
     required this.color,
-    required this.theme,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.05),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: color.withValues(alpha: 0.1)),
+        color: color.withOpacity(0.08),
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(color: color.withOpacity(0.12)),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
-          Row(
+          Icon(icon, size: 12, color: color),
+          const SizedBox(width: 6),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(icon, size: 14, color: color),
-              const SizedBox(width: 6),
               Text(
                 label,
-                style: theme.textTheme.labelSmall?.copyWith(
-                  color: color.withValues(alpha: 0.7),
-                  fontWeight: FontWeight.bold,
+                style: TextStyle(
+                  fontSize: 9,
+                  color: color.withOpacity(0.7),
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              Text(
+                value,
+                style: TextStyle(
+                  fontSize: 11,
+                  color: color,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
             ],
-          ),
-          const SizedBox(height: 4),
-          Text(
-            value,
-            style: theme.textTheme.bodySmall?.copyWith(
-              fontWeight: FontWeight.w800,
-              color: color,
-            ),
           ),
         ],
       ),
