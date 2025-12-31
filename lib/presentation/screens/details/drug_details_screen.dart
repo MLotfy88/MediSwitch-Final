@@ -133,9 +133,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Icon(tab['icon'] as IconData, size: 16),
+                          Icon(tab['icon']! as IconData, size: 16),
                           const SizedBox(width: 6),
-                          Text(tab['label'] as String),
+                          Text(tab['label']! as String),
                         ],
                       ),
                     );

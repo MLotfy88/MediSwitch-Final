@@ -202,7 +202,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
         ),
         onPressed: () => Navigator.pop(context),
         style: IconButton.styleFrom(
-          backgroundColor: Colors.white.withOpacity(0.1),
+          backgroundColor: Colors.white.withValues(alpha: 0.1),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
@@ -229,7 +229,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                     width: 48,
                     height: 48,
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: const Icon(
@@ -258,7 +258,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                               : 'Add drugs to check for interactions',
                           style: TextStyle(
                             fontSize: 12,
-                            color: Colors.white.withOpacity(0.8),
+                            color: Colors.white.withValues(alpha: 0.8),
                           ),
                         ),
                       ],
@@ -285,7 +285,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: theme.shadowColor.withOpacity(0.05),
+            color: theme.shadowColor.withValues(alpha: 0.05),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -422,7 +422,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
         padding: const EdgeInsets.symmetric(vertical: 14),
         decoration: BoxDecoration(
           border: Border.all(
-            color: theme.appColors.mutedForeground.withOpacity(0.3),
+            color: theme.appColors.mutedForeground.withValues(alpha: 0.3),
             width: 2,
             style: BorderStyle.solid,
           ),
@@ -478,7 +478,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: AppColors.successSoft,
-        border: Border.all(color: AppColors.success.withOpacity(0.3)),
+        border: Border.all(color: AppColors.success.withValues(alpha: 0.3)),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
@@ -487,7 +487,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: AppColors.success.withOpacity(0.2),
+              color: AppColors.success.withValues(alpha: 0.2),
               shape: BoxShape.circle,
             ),
             child: const Icon(
@@ -515,7 +515,7 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                       : 'Selected drugs are safe to use together',
                   style: TextStyle(
                     fontSize: 14,
-                    color: AppColors.success.withOpacity(0.8),
+                    color: AppColors.success.withValues(alpha: 0.8),
                   ),
                 ),
               ],
@@ -536,10 +536,10 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
       decoration: BoxDecoration(
         color:
             Theme.of(context).brightness == Brightness.dark
-                ? AppColors.muted.withOpacity(
-                  0.3,
+                ? AppColors.muted.withValues(
+                  alpha: 0.3,
                 ) // Lighter overlay for dark mode
-                : AppColors.muted.withOpacity(0.5),
+                : AppColors.muted.withValues(alpha: 0.5),
         borderRadius: BorderRadius.circular(16),
         border:
             Theme.of(context).brightness == Brightness.dark
