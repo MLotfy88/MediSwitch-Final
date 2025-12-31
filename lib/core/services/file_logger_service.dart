@@ -139,81 +139,64 @@ class FileLoggerService {
     try {
       if (Platform.isAndroid) {
         logNotifier.addLog("[INFO] Checking storage permission (Android)...");
-        print("[FileLoggerService] Checking storage permission (Android)...");
-        var status = await Permission.storage.status;
-        if (!status.isGranted) {
+
+        // On Android 11+ (API 30+), use MANAGE_EXTERNAL_STORAGE for broad access if needed,
+        // but for Downloads/MediSwitchLogs, standard storage permission or just using the path might work depending on scoped storage.
+        // However, for maximum accessibility as requested, we'll try the common Downloads path.
+
+        bool hasPermission = false;
+        if (await Permission.manageExternalStorage.isGranted ||
+            await Permission.storage.isGranted) {
+          hasPermission = true;
+        } else {
           logNotifier.addLog("[INFO] Requesting storage permission...");
-          print("[FileLoggerService] Requesting storage permission...");
-          status = await Permission.storage.request();
+          final status = await Permission.storage.request();
+          hasPermission = status.isGranted;
+
+          if (!hasPermission &&
+              await Permission.manageExternalStorage.request().isGranted) {
+            hasPermission = true;
+          }
         }
 
-        if (status.isGranted) {
+        if (hasPermission) {
           logNotifier.addLog('[INFO] Storage permission granted.');
-          debugPrint('[FileLoggerService] Storage permission granted.');
-          // Added try-catch for external directory call specifically
           try {
-            Directory? externalDir = await getExternalStorageDirectory();
-            if (externalDir != null) {
-              directory = Directory(
-                path.join(externalDir.path, 'MediSwitchLogs'),
-              );
-              logPathSource = "External Storage (App Specific)";
-              print(
-                "[FileLoggerService] Target external directory: ${directory.path}",
-              );
-              if (!await directory.exists()) {
-                print("[FileLoggerService] Creating external log directory...");
-                await directory.create(recursive: true);
-              }
-            } else {
-              logNotifier.addLog(
-                "[WARN] getExternalStorageDirectory returned null.",
-              );
-              print(
-                "[FileLoggerService] getExternalStorageDirectory returned null.",
-              );
+            // Target the public Downloads directory
+            final String downloadPath =
+                '/storage/emulated/0/Download/MediSwitchLogs';
+            directory = Directory(downloadPath);
+            logPathSource = "Public Downloads Folder";
+
+            if (!await directory.exists()) {
+              await directory.create(recursive: true);
             }
           } catch (e) {
-            print("[FileLoggerService] Error accessing external storage: $e");
-            logNotifier.addLog("[ERROR] Error accessing external storage: $e");
+            _logger.e(
+              "[FileLoggerService] Error creating public log directory: $e",
+            );
+            directory = null; // Fallback
           }
         } else {
           logNotifier.addLog('[WARN] Storage permission denied.');
-          debugPrint('[FileLoggerService] Storage permission denied.');
         }
       } else if (Platform.isIOS) {
-        // On iOS, use Application Support Directory
-        print(
-          "[FileLoggerService] Getting application support directory (iOS)...",
-        );
         directory = await getApplicationSupportDirectory();
         logPathSource = "Application Support (iOS)";
-        print(
-          "[FileLoggerService] Using application support directory: ${directory?.path ?? 'NULL'}",
-        );
       }
 
-      // Fallback to internal documents directory if external/support failed or not applicable
+      // Fallback
       if (directory == null) {
         logNotifier.addLog(
           "[INFO] Falling back to internal documents directory.",
         );
-        print(
-          "[FileLoggerService] Falling back to internal documents directory.",
-        );
         directory = await getApplicationDocumentsDirectory();
         logPathSource = "Internal Documents";
-        print(
-          "[FileLoggerService] Using internal documents directory: ${directory.path}",
-        );
       }
     } catch (e, s) {
-      debugPrint(
-        '[FileLoggerService] CRITICAL Error determining log directory: $e\n$s',
-      );
-      // Removed logNotifier call here if it might be cause (unlikely but safe)
-      // logNotifier.addLog('[CRITICAL] Error determining log directory: $e');
-      directory = null; // Ensure directory is null on error
+      debugPrint('[FileLoggerService] Error determining log directory: $e\n$s');
+      directory = await getApplicationDocumentsDirectory();
+      logPathSource = "Internal Documents (Emergency Fallback)";
     }
 
     // --- Check if a directory was obtained ---

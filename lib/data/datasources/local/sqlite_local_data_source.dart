@@ -1794,7 +1794,6 @@ class SqliteLocalDataSource {
 
   // Dashboard Statistics
   Future<Map<String, int>> getDashboardStatistics() async {
-    await seedingComplete;
     final db = await dbHelper.database;
     final drugsCount =
         Sqflite.firstIntValue(
@@ -1803,6 +1802,7 @@ class SqliteLocalDataSource {
           ),
         ) ??
         0;
+
     final interactionsCount =
         Sqflite.firstIntValue(
           await db.rawQuery(
@@ -1810,13 +1810,26 @@ class SqliteLocalDataSource {
           ),
         ) ??
         0;
-    // Assuming we might want to count other tables later
+
+    final ingredientsCount =
+        Sqflite.firstIntValue(
+          await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
+        ) ??
+        0;
+
+    final foodCount =
+        Sqflite.firstIntValue(
+          await db.rawQuery(
+            'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
+          ),
+        ) ??
+        0;
 
     return {
       'total_medicines': drugsCount,
       'total_interactions': interactionsCount,
-      'active_ingredients': 0, // Placeholder
-      'categories': 0, // Placeholder
+      'active_ingredients': ingredientsCount,
+      'food_interactions': foodCount,
     };
   }
 
