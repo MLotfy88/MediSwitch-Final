@@ -4,12 +4,11 @@ import 'dart:io';
 import 'package:flutter/foundation.dart'; // for kDebugMode
 import 'package:intl/intl.dart'; // Import intl for DateFormat
 import 'package:logger/logger.dart';
+import 'package:mediswitch/core/services/log_notifier.dart'; // Fixed: Use package import
 import 'package:path/path.dart' as path; // Import path package
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart'; // Import permission_handler
 import 'package:share_plus/share_plus.dart'; // Add share_plus
-
-import 'log_notifier.dart'; // Import the new LogNotifier
 
 // --- FileOutput Class (Handles writing to the file sink) ---
 /// Output to file
@@ -172,8 +171,8 @@ class FileLoggerService {
               await directory.create(recursive: true);
             }
           } catch (e) {
-            _logger.e(
-              "[FileLoggerService] Error creating public log directory: $e",
+            debugPrint(
+              '[FileLoggerService] Error creating public log directory: $e',
             );
             directory = null; // Fallback
           }
@@ -188,10 +187,10 @@ class FileLoggerService {
       // Fallback
       if (directory == null) {
         logNotifier.addLog(
-          "[INFO] Falling back to internal documents directory.",
+          '[INFO] Falling back to internal documents directory.',
         );
         directory = await getApplicationDocumentsDirectory();
-        logPathSource = "Internal Documents";
+        logPathSource = 'Internal Documents';
       }
     } catch (e, s) {
       debugPrint('[FileLoggerService] Error determining log directory: $e\n$s');
@@ -204,11 +203,11 @@ class FileLoggerService {
       debugPrint(
         '[FileLoggerService] Could not obtain a valid directory for logging. Using console only.',
       );
-      final errorMsg =
+      const errorMsg =
           'Could not obtain ANY valid directory for logging. Using console only.';
       logger.e(errorMsg);
       logNotifier.addLog(
-        "[CRITICAL] $errorMsg",
+        '[CRITICAL] $errorMsg',
       ); // Log critical error to notifier
       _isInitialized = true; // Mark as initialized, but file logging failed
       _fileOutputInitialized = false;
@@ -278,25 +277,18 @@ class FileLoggerService {
       }
 
       _isInitialized = true;
-      print(
-        "[FileLoggerService] Initialization process complete. File output initialized: $_fileOutputInitialized",
+      debugPrint(
+        '[FileLoggerService] Initialization process complete. File output initialized: $_fileOutputInitialized',
       );
     } catch (e, s) {
-      print(
-        "[FileLoggerService] CRITICAL Error during file output setup: $e\n$s",
+      debugPrint(
+        '[FileLoggerService] CRITICAL Error during file output setup: $e\n$s',
       );
-      final errorMsg =
-          "FileLoggerService critical initialization error during file setup";
-      // Ensure logger exists before calling methods on it
-      // Check if logger is initialized before using it for the error itself
-      if (_isInitialized && logger != null) {
-        logger.e(errorMsg, error: e, stackTrace: s);
-      } else {
-        print(
-          "[FileLoggerService] Logger not available to log critical setup error.",
-        );
-      }
-      logNotifier.addLog("[CRITICAL] $errorMsg: $e"); // Log critical error
+      const errorMsg =
+          'FileLoggerService critical initialization error during file setup';
+
+      // Fixed: Logger will eventually be initialized in v/d/i methods even if file setup fails
+      logNotifier.addLog('[CRITICAL] $errorMsg: $e');
       _isInitialized = true;
       _fileOutputInitialized = false;
     }
@@ -305,12 +297,12 @@ class FileLoggerService {
   // Methods to log messages
   // Ensure logger is initialized before calling methods
   // Also directly add to notifier for redundancy
-  /// Log verbose message
+  /// Log trace/verbose message
   void v(dynamic message) {
     final msg = '[V] $message';
     logNotifier.addLog(msg); // Add directly to notifier
     if (_isInitialized) {
-      logger.v(message);
+      logger.t(message); // Updated from .v to .t
     } else {
       debugPrint('[Log NOINIT] V: $message');
     }
