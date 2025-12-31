@@ -102,7 +102,11 @@ d1_import_replace.sql
 d1_food_interactions.sql
 d1_disease_interactions.sql
 d1_dosages.sql
+d1_import_part_*.sql
 d1_rules_part_*.sql
+d1_food_part_*.sql
+d1_disease_part_*.sql
+d1_dosages_part_*.sql
 d1_part_*
 d1_chunks*/
 d1_final_chunks/
