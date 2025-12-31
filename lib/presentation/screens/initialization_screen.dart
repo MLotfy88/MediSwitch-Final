@@ -36,13 +36,11 @@ class _InitializationScreenState extends State<InitializationScreen> {
   Future<void> _determineInitialRoute() async {
     // Ensure widgets are built before navigating
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      if (!mounted) return; // Check if widget is still mounted
+      if (!mounted) return;
 
       _logger.i("InitializationScreen: Determining initial route...");
       try {
         final prefs = await locator.getAsync<SharedPreferences>();
-        final localDataSource = locator<SqliteLocalDataSource>();
-
         final bool onboardingComplete =
             prefs.getBool(_prefsKeyOnboardingDone) ?? false;
 
@@ -50,141 +48,41 @@ class _InitializationScreenState extends State<InitializationScreen> {
           "InitializationScreen: Flags - OnboardingDone: $onboardingComplete",
         );
 
-        Widget? nextScreen; // Make nullable
-
         if (!onboardingComplete) {
-          _logger.i("InitializationScreen: Routing to OnboardingScreen.");
-          nextScreen = const OnboardingScreen();
-        } else {
-          // Onboarding is complete, check database.
-          _logger.i(
-            "InitializationScreen: Onboarding complete. Checking if database has medicines...",
-          );
-          final bool databaseHasMedicines =
-              await localDataSource.hasMedicines();
-          _logger.i(
-            "InitializationScreen: Database has medicines: $databaseHasMedicines",
-          );
-
-          if (!databaseHasMedicines) {
-            _logger.i(
-              "InitializationScreen: Database is empty. Attempting seeding directly...",
+          _logger.i("InitializationScreen: Fast Path -> OnboardingScreen.");
+          // Trigger background priming but DON'T await it
+          _backgroundPrime();
+          if (mounted) {
+            Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (_) => const OnboardingScreen()),
             );
-            // Show seeding indicator (optional, could update state here)
-            // setState(() { _statusMessage = "Seeding database..."; });
-
-            final bool seedingSuccessful =
-                await localDataSource.performInitialSeeding();
-
-            if (seedingSuccessful) {
-              _logger.i(
-                "InitializationScreen: Seeding successful. Routing to MainScreen.",
-              );
-              nextScreen = const MainScreen();
-            } else {
-              _logger.e(
-                "InitializationScreen: Seeding FAILED. Halting navigation.",
-              );
-              if (mounted) {
-                setState(() {
-                  _hasError = true;
-                  _errorMessage =
-                      "فشل في تهيئة قاعدة البيانات. تأكد من وجود الملفات المطلوبة.";
-                });
-              }
-              // Throw an error to be caught below, preventing navigation.
-              throw Exception("Database seeding failed.");
-            }
-          } else {
-            _logger.i(
-              "InitializationScreen: Database already contains medicines. Routing to MainScreen.",
-            );
-            // Ensure completer is marked if needed (though less critical now)
-            if (!localDataSource.isSeedingCompleted) {
-              _logger.w(
-                "InitializationScreen: Seeding completer was not marked complete, but DB has data. Marking complete now.",
-              );
-              localDataSource.markSeedingAsComplete();
-            }
-            nextScreen = const MainScreen();
           }
+          return;
         }
 
-        // --- Logic migrated from main.dart to prevent startup delay ---
+        // --- Safe Path: Full awaited initialization for MainScreen ---
+        _logger.i("InitializationScreen: Safe Path -> Full Initialization.");
+        final bool success = await _performFullInitialization();
 
-        // 1. Ensure Database is fully seeded (including food_interactions)
-        _logger.i(
-          "InitializationScreen: Running post-initialization checks...",
-        );
-        try {
-          final localDataSource = locator<SqliteLocalDataSource>();
-          await localDataSource.seedDatabaseFromAssetIfNeeded();
-
-          // CRITICAL: Force check food_interactions table for existing users
+        if (success && mounted) {
           _logger.i(
-            "InitializationScreen: [CRITICAL] Checking food_interactions table...",
+            "InitializationScreen: Initialization success -> MainScreen.",
           );
-          try {
-            final dbHelper = locator<DatabaseHelper>();
-            final db = await dbHelper.database;
-            final result = await db.rawQuery(
-              'SELECT COUNT(*) as count FROM food_interactions',
-            );
-            final count = result.first['count'] as int?;
-            _logger.i("InitializationScreen: Food interactions in DB: $count");
-
-            if (count == null || count == 0) {
-              _logger.i(
-                "InitializationScreen: [CRITICAL] Food interactions EMPTY! Seeding NOW...",
-              );
-              // Attempt to force re-seeding if possible via generic method
-              await localDataSource.performInitialSeeding();
-            }
-          } catch (e) {
-            _logger.e(
-              "InitializationScreen: Error checking food_interactions",
-              e,
-            );
-          }
-        } catch (e) {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (_) => const MainScreen()),
+          );
+        } else if (mounted) {
           _logger.e(
-            "InitializationScreen: Error during database maintenance",
-            e,
+            "InitializationScreen: Initialization failed. Showing error.",
           );
-        }
-
-        // 2. Initialize SubscriptionProvider
-        _logger.i("InitializationScreen: Initializing SubscriptionProvider...");
-        locator<SubscriptionProvider>().initialize();
-
-        // 3. Preload Interaction Data
-        _logger.i("InitializationScreen: Preloading interaction data...");
-        try {
-          await locator<InteractionRepository>().loadInteractionData();
-          _logger.i(
-            "InitializationScreen: Interaction data loaded successfully.",
-          );
-        } catch (e) {
-          _logger.e("InitializationScreen: Failed to load interaction data", e);
-        }
-
-        // Only navigate if a next screen was determined successfully
-        if (nextScreen != null && mounted) {
-          _logger.i(
-            "InitializationScreen: Navigating to ${nextScreen.runtimeType}",
-          );
-          Navigator.of(
-            context,
-          ).pushReplacement(MaterialPageRoute(builder: (_) => nextScreen!));
-        } else if (nextScreen == null) {
-          _logger.w(
-            "InitializationScreen: No next screen determined (likely due to seeding error). Staying on loading/error screen.",
-          );
-          // Optionally update state to show a persistent error message here
-          // setState(() { _showError = true; _errorMessage = "Failed to initialize database."; });
+          // Error state is already updated in _performFullInitialization
         }
       } catch (e, s) {
-        _logger.e("InitializationScreen: Error determining route", e, s);
+        _logger.e(
+          "InitializationScreen: Fatal Error in route determination",
+          e,
+          s,
+        );
         if (mounted) {
           setState(() {
             _hasError = true;
@@ -193,6 +91,92 @@ class _InitializationScreenState extends State<InitializationScreen> {
         }
       }
     });
+  }
+
+  /// Fire-and-forget background priming
+  void _backgroundPrime() {
+    Future.microtask(() async {
+      _logger.i("InitializationScreen: Background priming started...");
+      try {
+        await _performFullInitialization(isBackground: true);
+        _logger.i("InitializationScreen: Background priming finished.");
+      } catch (e) {
+        _logger.e(
+          "InitializationScreen: Background priming failed (silently)",
+          e,
+        );
+      }
+    });
+  }
+
+  /// Encapsulates the heavy lifting of database seeding and preloading
+  Future<bool> _performFullInitialization({bool isBackground = false}) async {
+    try {
+      final localDataSource = locator<SqliteLocalDataSource>();
+
+      // 1. Check/Seed Medicines
+      _logger.i("InitializationScreen: Checking database medicines...");
+      final bool hasMeds = await localDataSource.hasMedicines();
+      if (!hasMeds) {
+        _logger.i("InitializationScreen: Database empty. Seeding...");
+        final success = await localDataSource.performInitialSeeding();
+        if (!success && !isBackground) {
+          _updateError("فشل في تهيئة قاعدة البيانات الأساسية.");
+          return false;
+        }
+      }
+
+      // 2. Maintenance checks (Food interactions etc.)
+      _logger.i("InitializationScreen: Running maintenance checks...");
+      await localDataSource.seedDatabaseFromAssetIfNeeded();
+
+      try {
+        final dbHelper = locator<DatabaseHelper>();
+        final db = await dbHelper.database;
+        final result = await db.rawQuery(
+          'SELECT COUNT(*) as count FROM food_interactions',
+        );
+        final count = result.first['count'] as int?;
+        if (count == null || count == 0) {
+          _logger.i(
+            "InitializationScreen: Food interactions missing. Seeding now...",
+          );
+          await localDataSource.performInitialSeeding();
+        }
+      } catch (e) {
+        _logger.e("InitializationScreen: Error checking food_interactions", e);
+      }
+
+      // 3. Initialize Subscription
+      _logger.i("InitializationScreen: Initializing SubscriptionProvider...");
+      locator<SubscriptionProvider>().initialize();
+
+      // 4. Preload Interactions
+      _logger.i("InitializationScreen: Preloading interaction data...");
+      try {
+        await locator<InteractionRepository>().loadInteractionData();
+      } catch (e) {
+        _logger.e("InitializationScreen: Interaction preload failed", e);
+        // Non-fatal if interactions fail to load, but we log it
+      }
+
+      return true;
+    } catch (e, s) {
+      _logger.e("InitializationScreen: Full initialization error", e, s);
+      if (!isBackground) {
+        _updateError("حدث خطأ أثناء تحميل البيانات: $e");
+      }
+      return false;
+    }
+  }
+
+  void _updateError(String msg) {
+    if (mounted) {
+      setState(() {
+        _hasError = true;
+        _errorMessage = msg;
+      });
+    }
   }
 
   @override
