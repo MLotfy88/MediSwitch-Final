@@ -35,26 +35,29 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
   final List<Map<String, String>> _insights = [
     {
-      "title": "فلسفة التفاعل",
+      "title": "Interaction Logic",
       "subtitle":
-          "MediSwitch يفحص أكثر من 140,000 قاعدة تفاعل في أجزاء من الثانية لضمان سلامة مريضك.",
+          "MediSwitch checks over 140,000 interaction rules in milliseconds to ensure your patient's safety.",
     },
     {
-      "title": "سرعة البحث",
+      "title": "Search Speed",
       "subtitle":
-          "نصيحة: يمكنك البحث بجزء من اسم الدواء للوصول السريع لكافة الأشكال الدوائية المتاحة.",
+          "Pro Tip: Search with partial names to quickly find all available dosage forms and brands.",
     },
     {
-      "title": "حقائق طبية",
+      "title": "Medical Facts",
       "subtitle":
-          "حقيقة طبية: عصير الجريب فروت يثبط إنزيم CYP3A4. نحن ننبهك لهذه التفاعلات الغذائية الحرجة فوراً.",
+          "Grapefruit juice inhibits CYP3A4. We alert you to these critical food-drug interactions instantly.",
     },
     {
-      "title": "بدائل ذكية",
+      "title": "Smart Alternatives",
       "subtitle":
-          "توفير الوقت: ابحث عن أيقونة 'البدائل المماثلة' لتجد الدواء المتوفر بالسوق بنفس الفعالية.",
+          "Save Time: Look for the 'Similars' icon to find available market alternatives with the same efficacy.",
     },
   ];
+
+  double _loadingProgress = 0.0;
+  Timer? _progressTimer;
 
   @override
   void initState() {
@@ -67,12 +70,13 @@ class _InitializationScreenState extends State<InitializationScreen> {
   @override
   void dispose() {
     _timer?.cancel();
+    _progressTimer?.cancel();
     _pageController.dispose();
     super.dispose();
   }
 
   void _startAutoSlide() {
-    _timer = Timer.periodic(const Duration(seconds: 4), (timer) {
+    _timer = Timer.periodic(const Duration(seconds: 6), (timer) {
       if (_currentPage < _insights.length - 1) {
         _currentPage++;
       } else {
@@ -81,10 +85,22 @@ class _InitializationScreenState extends State<InitializationScreen> {
       if (_pageController.hasClients) {
         _pageController.animateToPage(
           _currentPage,
-          duration: const Duration(milliseconds: 800),
+          duration: const Duration(milliseconds: 1000),
           curve: Curves.easeInOutCubic,
         );
       }
+    });
+
+    // Smoother progress bar animation over 5 seconds
+    _progressTimer = Timer.periodic(const Duration(milliseconds: 50), (timer) {
+      if (!mounted) return;
+      setState(() {
+        if (_loadingProgress < 1.0) {
+          _loadingProgress += 0.01; // 50ms * 100 = 5000ms
+        } else {
+          _progressTimer?.cancel();
+        }
+      });
     });
   }
 
@@ -112,7 +128,8 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
         if (success && mounted) {
           final elapsed = DateTime.now().difference(startTime).inMilliseconds;
-          const minDelay = 5000; // User requested 5 seconds
+          const minDelay =
+              5500; // Slightly more than 5s to allow progress bar to finish
           if (elapsed < minDelay) {
             await Future.delayed(Duration(milliseconds: minDelay - elapsed));
           }
@@ -128,7 +145,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
         if (mounted) {
           setState(() {
             _hasError = true;
-            _errorMessage = "خطأ في تشغيل التطبيق: $e";
+            _errorMessage = "App launch error: $e";
           });
         }
       }
@@ -172,7 +189,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
     } catch (e, s) {
       _logger.e("InitializationScreen: Initialization error", e, s);
       if (!isBackground) {
-        _updateError("حدث خطأ أثناء تحميل البيانات: $e");
+        _updateError("Error loading data: $e");
       }
       return false;
     }
@@ -200,14 +217,14 @@ class _InitializationScreenState extends State<InitializationScreen> {
                 const Icon(Icons.error_outline, size: 80, color: Colors.red),
                 const SizedBox(height: 24),
                 const Text(
-                  "عذراً، حدث خطأ أثناء التشغيل",
+                  "Sorry, an error occurred during launch",
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 Text(_errorMessage, textAlign: TextAlign.center),
                 const SizedBox(height: 48),
                 ElevatedButton(
                   onPressed: () => _determineInitialRoute(),
-                  child: const Text("إعادة المحاولة"),
+                  child: const Text("Retry"),
                 ),
               ],
             ),
@@ -284,9 +301,10 @@ class _InitializationScreenState extends State<InitializationScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 80),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
-                  child: const LinearProgressIndicator(
+                  child: LinearProgressIndicator(
+                    value: _loadingProgress,
                     backgroundColor: Colors.black12,
-                    valueColor: AlwaysStoppedAnimation<Color>(
+                    valueColor: const AlwaysStoppedAnimation<Color>(
                       Color(0xFF1EB980),
                     ),
                     minHeight: 6,
@@ -301,7 +319,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
-                    "${_dbStats['total_medicines']} دواء | ${_dbStats['total_interactions']} تداخل | ${_dbStats['active_ingredients']} مادة فعالة",
+                    "${_dbStats['total_medicines']} Drugs | ${_dbStats['total_interactions']} Interactions | ${_dbStats['active_ingredients']} Ingredients",
                     style: theme.textTheme.labelSmall?.copyWith(
                       color: isDark ? Colors.white38 : Colors.black38,
                       letterSpacing: 0.5,
@@ -312,7 +330,7 @@ class _InitializationScreenState extends State<InitializationScreen> {
                 )
               else
                 Text(
-                  "جاري تحديث قاعدة البيانات...",
+                  "Updating database rules...",
                   style: theme.textTheme.labelSmall?.copyWith(
                     color: isDark ? Colors.white38 : Colors.black38,
                     fontStyle: FontStyle.italic,

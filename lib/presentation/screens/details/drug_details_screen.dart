@@ -702,19 +702,9 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
         }
 
         final sortedInteractions = List<DrugInteraction>.from(drugInteractions);
-        sortedInteractions.sort((a, b) {
-          const order = {
-            InteractionSeverity.contraindicated: 0,
-            InteractionSeverity.severe: 1,
-            InteractionSeverity.major: 2,
-            InteractionSeverity.moderate: 3,
-            InteractionSeverity.minor: 4,
-            InteractionSeverity.unknown: 5,
-          };
-          return (order[a.severityEnum] ?? 5).compareTo(
-            order[b.severityEnum] ?? 5,
-          );
-        });
+        sortedInteractions.sort(
+          (a, b) => b.severityEnum.priority.compareTo(a.severityEnum.priority),
+        );
 
         return ListView(
           padding: const EdgeInsets.all(16),

@@ -100,6 +100,11 @@ nagement (CRUD).
 - [x] **Notifications:**
     - [x] Handle Android 13+ permissions request.
     - [x] Fix system tray notifications.
+- [x] **Phase 12: Startup & Interaction UI Refinements** ✅ (NEW)
+    - [x] English-only startup carousel with slowed animations.
+    - [x] Standardized severity sorting (Priority system) across all screens.
+    - [x] Enhanced Interaction Detail View with Risk Level & Reference ID.
+    - [x] Removed legacy splash screen configurations.
 
 ---
 

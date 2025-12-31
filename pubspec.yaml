@@ -154,14 +154,3 @@ flutter_launcher_icons:
     generate: true
     image_path: "assets/icon/app_icon_placeholder.ico" # Updated path
 
-# flutter_native_splash configuration
-flutter_native_splash:
-  color: "#FFFFFF"
-  color_dark: "#121212"
-  image: assets/images/logo.png # Keep logo for splash
-  image_dark: assets/images/logo.png # Keep logo for splash dark
-  # android_12:
-    # image: assets/branding/android12_logo.png
-    # icon_background_color: "#FFFFFF"
-    # image_dark: assets/branding/android12_logo_dark.png
-    # icon_background_color_dark: "#121212"

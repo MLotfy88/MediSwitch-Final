@@ -1,5 +1,23 @@
 # 🎯 ملخص المشروع - December
  
++### CHECKPOINT 141
++**Date:** 2025-12-31
++**Goal:** Refine Startup UX and Interaction Details.
++**Changes:**
++- **Startup UX:**
++    - Hardcoded English strings for `InitializationScreen` for a premium global feel.
++    - Increased animation timings (6s carousel, 5s progress bar).
++    - Removed `flutter_native_splash` from `pubspec.yaml` to avoid legacy conflicts.
++- **Interaction Logic:**
++    - Added `priority` getter to `InteractionSeverity` extension for standardized sorting.
++    - Ensured all interaction lists (Checker, Details) sort by severity descending (CI first).
++    - Fixed critical compilation errors and imports across interaction screens.
++- **Interaction Details:**
++    - Redesigned `InteractionBottomSheet` with smaller title (18sp) and enriched data.
++    - Added **Risk Level** and **Reference ID** fields.
++    - Combined `managementText` and `recommendation` for comprehensive clinical advice.
++    - Removed redundant `source` field and polished theme alignment.
+ 
 ### CHECKPOINT 140
 **Date:** 2025-12-30
 **Goal:** Finalize Admin Dashboard CRUD and stabilize Flutter repository.

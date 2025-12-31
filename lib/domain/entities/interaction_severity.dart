@@ -30,6 +30,24 @@ extension InteractionSeverityExtension on InteractionSeverity {
     );
   }
 
+  /// The priority level of the severity (higher is more severe).
+  int get priority {
+    switch (this) {
+      case InteractionSeverity.contraindicated:
+        return 6;
+      case InteractionSeverity.severe:
+        return 5;
+      case InteractionSeverity.major:
+        return 4;
+      case InteractionSeverity.moderate:
+        return 3;
+      case InteractionSeverity.minor:
+        return 2;
+      case InteractionSeverity.unknown:
+        return 1;
+    }
+  }
+
   // Optional: Add Arabic names if needed for UI
   String get arabicName {
     switch (this) {

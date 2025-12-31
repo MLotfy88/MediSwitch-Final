@@ -5,6 +5,7 @@ import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/core/di/locator.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
+import 'package:mediswitch/domain/entities/interaction_severity.dart';
 import 'package:mediswitch/domain/repositories/interaction_repository.dart';
 import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
@@ -106,7 +107,12 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
       },
       (interactions) {
         setState(() {
-          _interactions = interactions;
+          // Sort by severity priority (descending)
+          _interactions =
+              interactions.toList()..sort(
+                (a, b) =>
+                    b.severityEnum.priority.compareTo(a.severityEnum.priority),
+              );
           _isLoading = false;
         });
       },
@@ -189,7 +195,6 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
   }
 
   Widget _buildHeader(BuildContext context, AppLocalizations l10n, bool isRTL) {
-    final theme = Theme.of(context);
     return SliverAppBar(
       pinned: true,
       expandedHeight: 120, // Compact header as per docs style

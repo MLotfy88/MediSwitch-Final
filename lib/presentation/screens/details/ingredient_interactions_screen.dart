@@ -121,7 +121,7 @@ class _IngredientInteractionsScreenState
 
       // usage of severityEnum
       specificList.sort(
-        (a, b) => _compareSeverity(b.severityEnum, a.severityEnum),
+        (a, b) => b.severityEnum.priority.compareTo(a.severityEnum.priority),
       );
 
       if (mounted) {
@@ -138,27 +138,6 @@ class _IngredientInteractionsScreenState
           _isLoading = false;
         });
       }
-    }
-  }
-
-  int _compareSeverity(InteractionSeverity a, InteractionSeverity b) {
-    return _getSeverityWeight(a).compareTo(_getSeverityWeight(b));
-  }
-
-  int _getSeverityWeight(InteractionSeverity severity) {
-    switch (severity) {
-      case InteractionSeverity.contraindicated:
-        return 5;
-      case InteractionSeverity.severe:
-        return 4;
-      case InteractionSeverity.major:
-        return 3;
-      case InteractionSeverity.moderate:
-        return 2;
-      case InteractionSeverity.minor:
-        return 1;
-      case InteractionSeverity.unknown:
-        return 0;
     }
   }
 

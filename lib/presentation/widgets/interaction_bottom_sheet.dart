@@ -72,11 +72,11 @@ class InteractionBottomSheet extends StatelessWidget {
                       const SizedBox(height: 4),
                       Text(
                         isRTL
-                            ? 'تفاصيل الأسباب والمخاطر'
-                            : 'Analysis & Risk Profile',
-                        style: theme.textTheme.headlineSmall?.copyWith(
+                            ? 'تحليل المخاطر السريرية'
+                            : 'Clinical Risk Analysis',
+                        style: theme.textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.w800,
-                          fontSize: 22,
+                          fontSize: 18,
                         ),
                       ),
                     ],
@@ -171,33 +171,51 @@ class InteractionBottomSheet extends StatelessWidget {
                   ],
 
                   // RECOMMENDATION / MANAGEMENT (ENRICHED)
-                  _SectionHeader(
-                    title:
-                        isRTL
-                            ? 'التوصية الطبية'
-                            : 'Management & Recommendation',
-                    icon: LucideIcons.shieldCheck,
-                    theme: theme,
-                    color: AppColors.success,
-                  ),
-                  _ContentBox(
-                    content: _buildManagementValue(interaction, isRTL),
-                    theme: theme,
-                    color: AppColors.success.withValues(alpha: 0.05),
-                    borderColor: AppColors.success.withValues(alpha: 0.2),
-                    textColor: AppColors.success,
-                  ),
-
-                  if (interaction.source != null)
-                    Padding(
-                      padding: const EdgeInsets.only(top: 16),
-                      child: Text(
-                        "${isRTL ? 'المصدر:' : 'Source:'} ${interaction.source}",
-                        style: theme.textTheme.labelSmall?.copyWith(
-                          color: Colors.grey,
-                        ),
-                      ),
+                  if (!isFood) ...[
+                    _SectionHeader(
+                      title: isRTL ? 'التوصية الطبية' : 'Clinical Management',
+                      icon: LucideIcons.shieldCheck,
+                      theme: theme,
+                      color: AppColors.success,
                     ),
+                    _ContentBox(
+                      content: _buildManagementValue(interaction, isRTL),
+                      theme: theme,
+                      color: AppColors.success.withValues(alpha: 0.05),
+                      borderColor: AppColors.success.withValues(alpha: 0.2),
+                      textColor: AppColors.success,
+                    ),
+                    const SizedBox(height: 20),
+                  ],
+
+                  // RISK LEVEL & ID (NEW)
+                  Row(
+                    children: [
+                      if (interaction.riskLevel != null)
+                        Expanded(
+                          child: _DetailChip(
+                            label: isRTL ? 'مستوى الخطر' : 'Risk Level',
+                            value: interaction.riskLevel!,
+                            icon: LucideIcons.alertOctagon,
+                            color: severityColor,
+                            theme: theme,
+                          ),
+                        ),
+                      if (interaction.riskLevel != null &&
+                          interaction.ddinterId != null)
+                        const SizedBox(width: 12),
+                      if (interaction.ddinterId != null)
+                        Expanded(
+                          child: _DetailChip(
+                            label: isRTL ? 'معرف المرجع' : 'Reference ID',
+                            value: interaction.ddinterId!,
+                            icon: LucideIcons.hash,
+                            color: theme.colorScheme.secondary,
+                            theme: theme,
+                          ),
+                        ),
+                    ],
+                  ),
 
                   const SizedBox(height: 32),
                 ],
@@ -452,6 +470,60 @@ class _ContentBox extends StatelessWidget {
                   : theme.colorScheme.onSurface),
           fontSize: 14,
         ),
+      ),
+    );
+  }
+}
+
+class _DetailChip extends StatelessWidget {
+  final String label;
+  final String value;
+  final IconData icon;
+  final Color color;
+  final ThemeData theme;
+
+  const _DetailChip({
+    required this.label,
+    required this.value,
+    required this.icon,
+    required this.color,
+    required this.theme,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: color.withValues(alpha: 0.1)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(icon, size: 14, color: color),
+              const SizedBox(width: 6),
+              Text(
+                label,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: color.withValues(alpha: 0.7),
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            value,
+            style: theme.textTheme.bodySmall?.copyWith(
+              fontWeight: FontWeight.w800,
+              color: color,
+            ),
+          ),
+        ],
       ),
     );
   }

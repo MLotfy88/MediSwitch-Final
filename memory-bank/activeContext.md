@@ -10,6 +10,20 @@
 - **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
 - **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
 - **Frontend Alignment:** Updated `ClinicalLab` to display `Last Price Sync` and `System Update` separately for transparency.
+### Phase 2: UI & Startup Refinements ✅ (NEW)
+- **Startup Experience:**
+  - Hardcoded English strings for carousel and footer (English-only UX).
+  - Increased carousel transition to 6s and slide duration to 1s.
+  - Implemented 5s smooth determinate progress bar.
+  - Removed legacy `flutter_native_splash` configuration.
+- **Interaction Data Sorting:**
+  - Implemented standardized `priority` getter in `InteractionSeverity`.
+  - Applied severity-based sorting (CI > Severe > Major...) in Checker, Drug Details, and Ingredient Details screens.
+- **Interaction Details UI:**
+  - Polished `InteractionBottomSheet` with smaller tiles (18sp) and theme-aligned spacing.
+  - Added dedicated chips for **Risk Level** and **Reference ID**.
+  - Enriched "Clinical Management" section by combining recommendations and management text.
+  - Removed redundant "Source" field.
 
 ### DDInter Data Integration ✅ (NEW)
 - **Massive Enrichment:** Integrated `DDInter` database (~1GB) with local app data.
