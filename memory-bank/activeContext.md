@@ -51,15 +51,14 @@
 
 # Active Context
 
-## Current Focus
-- System Monitoring and ensuring production stability after the Strategy Command Center deployment.
-- Verifying D1 data integrity across all analytic nodes.
+## Active Decisions
+- **Schema Simplification:** Removed 6 outdated columns (`main_category`, `category_ar`, `usage_ar`, `description`, `image_url`, `updated_at`) from D1 and Flutter app to strictly align with available data and reduce maintenance overhead.
+- **Strict Sync:** `rebuild_d1_data.py` is now the single source of truth for D1 structure, matching the 21-column schema.
+- **Startup Optimization:** Initialization logic now runs in background; splash screen unblocked immediately.
 
-## Recent Changes
-- Resolved `ReferenceError` in Dashboard via component import standardization.
-- Fixed 500 API errors by instantiating missing `analytics_daily` and monetization tables in D1.
-- Enhanced type safety for price fields in Worker and Frontend.
-- Deployed final stable build to Cloudflare.
+## Current Focus
+-   **Verification:** User needs to run `sync-d1` workflow to populate the new D1 schema.
+-   **Testing:** Verify app launches and displays data correctly with new `MedicineModel`.
 
 ---
 

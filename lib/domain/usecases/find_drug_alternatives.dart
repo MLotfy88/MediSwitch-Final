@@ -29,7 +29,7 @@ class FindDrugAlternativesUseCase
       try {
         // Alternatives = Same Therapeutic Category, Different Active Ingredient
         // 1. Determine Target Category (Smart Mapping)
-        final originalCategory = originalDrug.mainCategory.trim();
+        final originalCategory = (originalDrug.category ?? '').trim();
         final String targetSpecialty =
             originalCategory.isNotEmpty
                 ? CategoryMapperHelper.mapCategoryToSpecialty(originalCategory)
@@ -50,7 +50,7 @@ class FindDrugAlternativesUseCase
           if (currentActiveLower == originalActiveLower) continue;
 
           // Check Category Match
-          final currentCategory = drug.mainCategory.trim();
+          final currentCategory = (drug.category ?? '').trim();
           // Optimization: If strings match exactly, it's a match
           if (currentCategory.isNotEmpty &&
               currentCategory.toLowerCase() == originalCategory.toLowerCase()) {

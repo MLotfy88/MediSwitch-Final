@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../../core/constants/app_spacing.dart'; // Import spacing constants
 import '../../domain/entities/drug_entity.dart';
 import '../bloc/alternatives_provider.dart';
 import '../widgets/alternative_drug_card.dart'; // Import the new card widget
-import '../../core/constants/app_spacing.dart'; // Import spacing constants
 
 class AlternativesScreen extends StatefulWidget {
   final DrugEntity originalDrug;
@@ -95,13 +96,14 @@ class _AlternativesScreenState extends State<AlternativesScreen> {
                           ),
                         ),
                       ),
-                    if (widget.originalDrug.mainCategory.isNotEmpty)
+                    if (widget.originalDrug.category != null &&
+                        widget.originalDrug.category!.isNotEmpty)
                       Padding(
                         padding: const EdgeInsets.only(
                           top: AppSpacing.xxsmall,
                         ), // 2px
                         child: Text(
-                          'الفئة: ${widget.originalDrug.mainCategory}',
+                          'الفئة: ${widget.originalDrug.category}',
                           style: theme.textTheme.bodyMedium?.copyWith(
                             color:
                                 theme

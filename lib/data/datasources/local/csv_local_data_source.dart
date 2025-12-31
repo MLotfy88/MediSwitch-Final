@@ -78,14 +78,9 @@ ParsedMedicineData _parseCsvData(String rawCsv) {
       indexByActiveIngredient.putIfAbsent(activeLower, () => []).add(i);
     }
 
-    // Index by Category (Main and Sub, lowercase)
-    final mainCatLower = med.mainCategory.toLowerCase();
-    if (mainCatLower.isNotEmpty) {
-      indexByCategory.putIfAbsent(mainCatLower, () => []).add(i);
-    }
+    // Index by Category (lowercase)
     final catLower = med.category?.toLowerCase() ?? '';
-    // Avoid adding duplicates if main and sub are the same (or sub is empty)
-    if (catLower.isNotEmpty && catLower != mainCatLower) {
+    if (catLower.isNotEmpty) {
       indexByCategory.putIfAbsent(catLower, () => []).add(i);
     }
   }
@@ -255,28 +250,6 @@ class CsvLocalDataSource {
     final categories = data.indexByCategory.keys.toList();
     categories.sort(); // Sort alphabetically
     return categories;
-    /*
-    // Alternative: Get original casing from the first medicine in each category index
-    final categoriesMap = <String, String>{}; // lowercase -> original case
-    data.indexByCategory.forEach((key, indices) {
-      if (indices.isNotEmpty) {
-        final med = data.medicines[indices.first];
-        // Prefer main category casing if available
-        final mainCat = med.mainCategory ?? '';
-        final cat = med.category ?? '';
-        if (mainCat.toLowerCase() == key) {
-          categoriesMap[key] = mainCat;
-        } else if (cat.toLowerCase() == key) {
-           categoriesMap[key] = cat;
-        } else {
-           categoriesMap[key] = key; // Fallback to key if casing not found
-        }
-      }
-    });
-    final categoriesList = categoriesMap.values.toList();
-    categoriesList.sort();
-    return categoriesList;
-    */
   }
 
   // Save new CSV data downloaded from remote source

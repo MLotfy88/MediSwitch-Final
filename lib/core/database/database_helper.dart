@@ -31,9 +31,7 @@ class DatabaseHelper {
   static const String colArabicName = 'arabic_name';
   static const String colPrice = 'price';
   static const String colOldPrice = 'old_price';
-  static const String colMainCategory = 'main_category';
   static const String colCategory = 'category';
-  static const String colCategoryAr = 'category_ar';
   static const String colActive = 'active';
   static const String colCompany = 'company';
   static const String colDosageForm = 'dosage_form';
@@ -41,15 +39,11 @@ class DatabaseHelper {
   static const String colConcentration = 'concentration';
   static const String colUnit = 'unit';
   static const String colUsage = 'usage';
-  static const String colUsageAr = 'usage_ar';
-  static const String colDescription = 'description';
   static const String colPharmacology = 'pharmacology';
   static const String colBarcode = 'barcode';
   static const String colQrCode = 'qr_code';
   static const String colVisits = 'visits';
   static const String colLastPriceUpdate = 'last_price_update';
-  static const String colImageUrl = 'image_url';
-  static const String colUpdatedAt = 'updated_at';
 
   Future<Database> get database async {
     if (_database != null) return _database!;
@@ -164,9 +158,7 @@ class DatabaseHelper {
             $colArabicName TEXT,
             $colPrice TEXT,
             $colOldPrice TEXT,
-            $colMainCategory TEXT,
             $colCategory TEXT,
-            $colCategoryAr TEXT,
             $colActive TEXT,
             $colCompany TEXT,
             $colDosageForm TEXT,
@@ -174,15 +166,11 @@ class DatabaseHelper {
             $colConcentration TEXT,
             $colUnit TEXT,
             $colUsage TEXT,
-            $colUsageAr TEXT,
-            $colDescription TEXT,
             $colPharmacology TEXT,
             $colBarcode TEXT,
             $colQrCode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
-            $colImageUrl TEXT,
-            $colUpdatedAt INTEGER DEFAULT 0,
             has_drug_interaction INTEGER DEFAULT 0,
             has_food_interaction INTEGER DEFAULT 0,
             has_disease_interaction INTEGER DEFAULT 0
@@ -368,9 +356,7 @@ class DatabaseHelper {
         colArabicName,
         colPrice,
         colOldPrice,
-        colMainCategory,
         colCategory,
-        colCategoryAr,
         colActive,
         colCompany,
         colDosageForm,
@@ -378,12 +364,10 @@ class DatabaseHelper {
         colConcentration,
         colUnit,
         colUsage,
-        colUsageAr,
-        colDescription,
+        colPharmacology,
         colBarcode,
         colVisits,
         colLastPriceUpdate,
-        colImageUrl,
         colQrCode,
         'has_drug_interaction',
         'has_food_interaction',

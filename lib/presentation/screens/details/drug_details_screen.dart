@@ -382,40 +382,20 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
                   ),
                 ),
               if (widget.drug.usage.isNotEmpty) const SizedBox(height: 16),
-              _buildCard(
-                title: l10n.descriptionTitle,
-                colorScheme: colorScheme,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    if (widget.drug.pharmacology != null &&
-                        widget.drug.pharmacology!.isNotEmpty &&
-                        widget.drug.pharmacology !=
-                            widget.drug.description) ...[
-                      Text(
-                        widget.drug.pharmacology!,
-                        style: TextStyle(
-                          height: 1.5,
-                          color: colorScheme.onSurfaceVariant,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const Divider(height: 24),
-                    ],
-                    Text(
-                      widget.drug.description.isNotEmpty
-                          ? widget.drug.description
-                          : (widget.drug.usage.isEmpty
-                              ? 'No extra description available.'
-                              : 'See indications above.'),
-                      style: TextStyle(
-                        height: 1.5,
-                        color: colorScheme.onSurfaceVariant,
-                      ),
+              if (widget.drug.pharmacology != null &&
+                  widget.drug.pharmacology!.isNotEmpty)
+                _buildCard(
+                  title: l10n.descriptionTitle,
+                  colorScheme: colorScheme,
+                  child: Text(
+                    widget.drug.pharmacology!,
+                    style: TextStyle(
+                      height: 1.5,
+                      color: colorScheme.onSurfaceVariant,
+                      fontWeight: FontWeight.bold,
                     ),
-                  ],
+                  ),
                 ),
-              ),
               const SizedBox(height: 16),
               _buildCard(
                 title: l10n.infoTab,

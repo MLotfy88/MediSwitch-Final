@@ -44,10 +44,10 @@ def process_drugs():
     sql_rows = []
     # Full 27-column schema from schema.sql
     header = """INSERT OR IGNORE INTO drugs (
-        id, trade_name, arabic_name, price, old_price, main_category, category, category_ar,
-        active, company, dosage_form, dosage_form_ar, concentration, unit, usage, usage_ar,
-        description, pharmacology, barcode, qr_code, visits, last_price_update, image_url,
-        updated_at, has_drug_interaction, has_food_interaction, has_disease_interaction
+        id, trade_name, arabic_name, price, old_price, category,
+        active, company, dosage_form, dosage_form_ar, concentration, unit, usage,
+        pharmacology, barcode, qr_code, visits, last_price_update,
+        has_drug_interaction, has_food_interaction, has_disease_interaction
     ) VALUES"""
     
     with open(csv_path, 'r', encoding='utf-8') as f:
@@ -66,9 +66,7 @@ def process_drugs():
                     row.get('arabic_name', ''),                # arabic_name
                     row.get('price', ''),                      # price
                     row.get('old_price', ''),                  # old_price
-                    row.get('category', ''),                   # main_category (use category as main)
                     row.get('category', ''),                   # category
-                    '',                                         # category_ar (not in CSV)
                     row.get('active', ''),                     # active
                     row.get('company', ''),                    # company
                     row.get('dosage_form', ''),                # dosage_form
@@ -76,15 +74,11 @@ def process_drugs():
                     row.get('concentration', ''),              # concentration
                     row.get('units', ''),                      # unit (note: CSV has 'units')
                     row.get('usage', ''),                      # usage
-                    '',                                         # usage_ar (not in CSV)
-                    '',                                         # description (empty in CSV)
                     row.get('pharmacology', ''),               # pharmacology
                     row.get('barcode', ''),                    # barcode
                     row.get('qr_code', ''),                    # qr_code
                     int(row.get('visits', 0)) if row.get('visits', '').isdigit() else 0,  # visits
                     row.get('last_price_update', ''),          # last_price_update
-                    '',                                         # image_url (not in CSV)
-                    0,                                          # updated_at
                     0,                                          # has_drug_interaction
                     0,                                          # has_food_interaction
                     0                                           # has_disease_interaction

@@ -68,7 +68,6 @@ class _IngredientInteractionsScreenState
               arabicName: '',
               price: '0',
               // oldPrice: null,
-              mainCategory: '',
               active:
                   widget.ingredient!.normalizedName ?? widget.ingredient!.name,
               company: '',
@@ -76,7 +75,6 @@ class _IngredientInteractionsScreenState
               concentration: '',
               unit: '',
               usage: '',
-              description: '',
               lastPriceUpdate: '',
               pharmacology: '',
             );

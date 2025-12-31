@@ -902,39 +902,6 @@ class SqliteLocalDataSource {
     });
   }
 
-  // --- Find Alternatives by Description (Same Description) ---
-  Future<List<MedicineModel>> findAlternativesByDescription(
-    String description,
-    String currentTradeName,
-  ) async {
-    await seedingComplete; // Wait for seeding
-    print(
-      "Finding alternatives by description in SQLite for description: '$description', excluding: '$currentTradeName'",
-    );
-
-    // If description is empty, return empty list
-    if (description.isEmpty) {
-      print("Cannot find alternatives: Description is empty.");
-      return [];
-    }
-
-    final db = await dbHelper.database;
-    final lowerCaseDescription = description.toLowerCase().trim();
-    final lowerCaseTradeName = currentTradeName.toLowerCase();
-
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where:
-          'LOWER(${DatabaseHelper.colDescription}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?',
-      whereArgs: [lowerCaseDescription, lowerCaseTradeName],
-      // Optional: Add limit if needed
-    );
-
-    return List.generate(maps.length, (i) {
-      return MedicineModel.fromMap(maps[i]);
-    });
-  }
-
   // --- Dosage Guidelines ---
   Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
     await seedingComplete;
