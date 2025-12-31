@@ -18,7 +18,7 @@ class DatabaseHelper {
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
   static const int _dbVersion =
-      12; // Universal Schema Alignment (snake_case + Source of Truth)
+      13; // Force rebuild to fix recommendation data (was 12)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -144,6 +144,19 @@ class DatabaseHelper {
       } catch (e) {
         debugPrint('Note: has_disease_interaction might already exist: $e');
       }
+    }
+
+    if (oldVersion < 13) {
+      debugPrint(
+        'Upgrading to Version 13: Rebuilding interactions with full data...',
+      );
+      // Drop and recreate interactions table to ensure all fields are populated
+      await db.execute('DROP TABLE IF EXISTS $interactionsTable');
+      await _onCreateInteractions(db);
+      // Seeding will be triggered automatically by SqliteLocalDataSource
+      debugPrint(
+        'Interactions table reset. Fresh seeding will populate all fields.',
+      );
     }
   }
 

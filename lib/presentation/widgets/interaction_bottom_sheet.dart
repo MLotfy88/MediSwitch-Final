@@ -77,7 +77,7 @@ class InteractionBottomSheet extends StatelessWidget {
                         style: theme.textTheme.titleSmall?.copyWith(
                           fontWeight: FontWeight.w800,
                           letterSpacing: 0.8,
-                          fontSize: 12.5, // Further reduced as requested
+                          fontSize: 11, // Reduced from 12.5 as per user request
                           color: severityColor.withOpacity(0.9),
                         ),
                       ),
@@ -250,19 +250,36 @@ class InteractionBottomSheet extends StatelessWidget {
 
   String _buildManagementValue(DrugInteraction interaction, bool isRTL) {
     final List<String> parts = [];
+
+    // Priority 1: Recommendation (specific clinical advice)
     final mainRec =
         isRTL ? interaction.arabicRecommendation : interaction.recommendation;
-    if (mainRec != null && mainRec.isNotEmpty) parts.add(mainRec);
+    if (mainRec != null && mainRec.isNotEmpty && mainRec.trim().isNotEmpty) {
+      parts.add(mainRec);
+    }
 
+    // Priority 2: Management Text (general management)
     if (interaction.managementText != null &&
-        interaction.managementText!.isNotEmpty) {
+        interaction.managementText!.isNotEmpty &&
+        interaction.managementText!.trim().isNotEmpty) {
       parts.add(interaction.managementText!);
     }
 
+    // Priority 3: Effect (as clinical context if nothing else available)
+    if (parts.isEmpty) {
+      final effectText = isRTL ? interaction.arabicEffect : interaction.effect;
+      if (effectText != null && effectText.isNotEmpty) {
+        parts.add(
+          (isRTL ? 'التأثير المحتمل: ' : 'Potential effect: ') + effectText,
+        );
+      }
+    }
+
+    // Last resort: Generic message
     return parts.isEmpty
         ? (isRTL
-            ? 'تم الإبلاغ عن تفاعل؛ استشر الصيدلي.'
-            : 'Interaction reported; consult pharmacist.')
+            ? 'تم الإبلاغ عن تفاعل؛ استشر الصيدلي للحصول على نصيحة تفصيلية.'
+            : 'Interaction reported; consult pharmacist for detailed advice.')
         : parts.join('\n\n');
   }
 
