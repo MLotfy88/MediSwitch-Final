@@ -1747,7 +1747,7 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'trade_name LIKE ? OR scientific_name LIKE ?',
+      where: 'trade_name LIKE ? OR active LIKE ?',
       whereArgs: ['%$query%', '%$query%'],
       limit: limit,
       offset: offset,

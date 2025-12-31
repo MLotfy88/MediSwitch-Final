@@ -106,6 +106,8 @@ nagement (CRUD).
     - [x] Enhanced Interaction Detail View with Risk Level & Reference ID.
     - [x] Removed legacy splash screen and **Onboarding Screen**.
     - [x] **Critical Fix:** Resolved clinical data seeding bug (Recommendations mapping).
+    - [x] **Data Verification:** Confirmed availability of critical fields (Effect, Risk, Recommendation) and identified mechanism data gap.
+    - [x] **Critical Bug Fix:** Resolved `no such column: scientific_name` error in drug search by correcting the SQL query to use `active`.
 
 ---
 

@@ -23,6 +23,14 @@
 - **Interaction UI Polish:**
   - Further refined `InteractionBottomSheet` title font size (12.5sp) for premium look.
   - Verified gravity-based sorting (Priority system) across all screens (Checker, Drug Details, Ingredient Details).
+  - **Simplified UI:** Removed `Reference ID` and `Source` chips as per user request to declutter the interface.
+  - **Data Verification:** Confirmed `mechanism_text` absence in enriched JSONs (technical gap) while verifying robustness of `risk_level` and `recommendation` display.
+
+### Phase 3: Critical Bug Fixes (Search)
+- **Issue**: "Failed to load data from database" error when searching for medicines.
+- **Root Cause**: The `searchMedicinesByName` method in `SqliteLocalDataSource` was querying a non-existent column `scientific_name`.
+- **Fix**: Replaced `scientific_name` with `active` (the correct column for active ingredient) in the SQL query.
+- **Verification**: Verified schema in `DatabaseHelper` and model mapping in `MedicineModel`.
 
 ### DDInter Data Integration ✅ (NEW)
 - **Massive Enrichment:** Integrated `DDInter` database (~1GB) with local app data.

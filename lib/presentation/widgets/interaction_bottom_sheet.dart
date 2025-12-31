@@ -7,9 +7,10 @@ import 'package:mediswitch/presentation/theme/app_colors.dart';
 /// Completely redesigned interaction details bottom sheet
 /// Features:
 /// - Medical-grade premium design
-/// - Automatic RECOMMENDATION extraction from text
+/// - Automatic RECOMMENDATION extraction from text (enhanced logic)
 /// - Severity-aware color theming
 /// - RTL support for Arabic
+/// - Professional UI for medical experts
 class InteractionBottomSheet extends StatelessWidget {
   const InteractionBottomSheet({super.key, required this.interaction});
 
@@ -32,7 +33,7 @@ class InteractionBottomSheet extends StatelessWidget {
     final severityIcon = _getSeverityIcon(interaction.severityEnum);
     final severityBgColor = severityColor.withOpacity(isDark ? 0.15 : 0.08);
 
-    // Parse sections from text (for food interactions that have embedded RECOMMENDATION)
+    // Parse sections from text
     final parsedContent = _parseInteractionContent(interaction, isRTL);
 
     return Container(
@@ -77,6 +78,8 @@ class InteractionBottomSheet extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // Interaction Pair Card
+                  // Added extra spacing from header as requested
+                  const SizedBox(height: 12),
                   _InteractionPairCard(
                     theme: theme,
                     agent1: interaction.ingredient1,
@@ -86,7 +89,7 @@ class InteractionBottomSheet extends StatelessWidget {
                     severityColor: severityColor,
                   ),
 
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 24),
 
                   // ─── CLINICAL EFFECT ───
                   if (parsedContent.effect.isNotEmpty)
@@ -124,39 +127,25 @@ class InteractionBottomSheet extends StatelessWidget {
                     ),
 
                   // ─── METADATA CHIPS ───
-                  if (interaction.riskLevel != null ||
-                      interaction.ddinterId != null)
+                  // ─── METADATA CHIPS ───
+                  if (interaction.riskLevel != null)
                     Padding(
                       padding: const EdgeInsets.only(top: 16),
                       child: Wrap(
-                        spacing: 10,
-                        runSpacing: 10,
+                        spacing: 12,
+                        runSpacing: 12,
                         children: [
-                          if (interaction.riskLevel != null)
-                            _MetadataChip(
-                              label: isRTL ? 'مستوى الخطر' : 'Risk Level',
-                              value: interaction.riskLevel!,
-                              icon: LucideIcons.gauge,
-                              color: severityColor,
-                            ),
-                          if (interaction.ddinterId != null)
-                            _MetadataChip(
-                              label: isRTL ? 'المرجع' : 'Reference',
-                              value: 'DDInter #${interaction.ddinterId}',
-                              icon: LucideIcons.fileText,
-                              color: AppColors.mutedForeground,
-                            ),
                           _MetadataChip(
-                            label: isRTL ? 'المصدر' : 'Source',
-                            value: interaction.source,
-                            icon: LucideIcons.database,
-                            color: AppColors.primary,
+                            label: isRTL ? 'مستوى الخطر' : 'Risk Level',
+                            value: interaction.riskLevel!,
+                            icon: LucideIcons.gauge,
+                            color: severityColor,
                           ),
                         ],
                       ),
                     ),
 
-                  const SizedBox(height: 24),
+                  const SizedBox(height: 32),
                 ],
               ),
             ),
@@ -382,13 +371,9 @@ class InteractionBottomSheet extends StatelessWidget {
       }
     }
 
-    // Fallback: if still no management, use effect as context
-    if (management.isEmpty && effect.isNotEmpty) {
-      management =
-          isRTL
-              ? 'استشر الطبيب أو الصيدلي قبل الجمع بين هذه العناصر.'
-              : 'Consult your physician or pharmacist before combining these items.';
-    }
+    // REMOVED FALLBACK:
+    // We do NOT show "Consult your physician" text as requested by the user.
+    // If management is empty, the section will simply not render.
 
     return _ParsedContent(
       effect: effect.trim(),
@@ -530,97 +515,65 @@ class _InteractionPairCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            theme.colorScheme.surfaceContainerHighest.withOpacity(0.5),
-            theme.colorScheme.surfaceContainerHighest.withOpacity(0.2),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        color: theme.colorScheme.surface,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: theme.colorScheme.outline.withOpacity(0.1)),
-      ),
-      child: Row(
-        children: [
-          // Agent 1
-          Expanded(
-            child: _AgentItem(
-              name: agent1,
-              icon: LucideIcons.pill,
-              color: AppColors.primary,
-              theme: theme,
-            ),
-          ),
-          // Interaction indicator
-          Container(
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            padding: const EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              color: severityColor.withOpacity(0.1),
-              shape: BoxShape.circle,
-            ),
-            child: Icon(LucideIcons.zap, color: severityColor, size: 16),
-          ),
-          // Agent 2
-          Expanded(
-            child: _AgentItem(
-              name: agent2,
-              icon: isFood ? LucideIcons.apple : LucideIcons.pill,
-              color: isFood ? Colors.orange.shade600 : AppColors.primary,
-              theme: theme,
-              alignEnd: true,
-            ),
+        border: Border.all(color: theme.colorScheme.outline.withOpacity(0.08)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.03),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
           ),
         ],
       ),
-    );
-  }
-}
+      child: Column(
+        children: [
+          // Row containing both agents opposing each other
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              // Agent 1 (Left/Start)
+              Expanded(
+                child: Text(
+                  agent1,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    height: 1.3,
+                  ),
+                  textAlign: TextAlign.start,
+                ),
+              ),
 
-class _AgentItem extends StatelessWidget {
-  final String name;
-  final IconData icon;
-  final Color color;
-  final ThemeData theme;
-  final bool alignEnd;
+              // Center Interaction Icon
+              Container(
+                margin: const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: severityColor.withOpacity(0.1),
+                  shape: BoxShape.circle,
+                ),
+                child: Icon(LucideIcons.zap, color: severityColor, size: 20),
+              ),
 
-  const _AgentItem({
-    required this.name,
-    required this.icon,
-    required this.color,
-    required this.theme,
-    this.alignEnd = false,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment:
-          alignEnd ? CrossAxisAlignment.end : CrossAxisAlignment.start,
-      children: [
-        Container(
-          padding: const EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
-            borderRadius: BorderRadius.circular(10),
+              // Agent 2 (Right/End)
+              Expanded(
+                child: Text(
+                  agent2,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w700,
+                    height: 1.3,
+                    color: isFood ? Colors.orange.shade700 : null,
+                  ),
+                  textAlign: TextAlign.end,
+                ),
+              ),
+            ],
           ),
-          child: Icon(icon, color: color, size: 18),
-        ),
-        const SizedBox(height: 8),
-        Text(
-          name,
-          style: theme.textTheme.bodyMedium?.copyWith(
-            fontWeight: FontWeight.w700,
-            height: 1.3,
-          ),
-          textAlign: alignEnd ? TextAlign.end : TextAlign.start,
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
