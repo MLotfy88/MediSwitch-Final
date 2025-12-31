@@ -134,8 +134,52 @@ class SqliteLocalDataSource {
     return timestamp ?? _initialDataTimestamp;
   }
 
-  // Performs initial seeding from the asset file. Called by SetupScreen.
-  // Returns true if seeding was attempted and completed successfully, false otherwise.
+  // Consolidates all initialization checks into one fast entry point.
+  // This is the ONLY method InitializationScreen should call.
+  Future<void> ensureDatabaseInitialized() async {
+    if (_seedingCompleter.isCompleted) return;
+
+    try {
+      final db = await dbHelper.database;
+
+      // Check if medicines exist
+      final medsCount =
+          Sqflite.firstIntValue(
+            await db.rawQuery(
+              'SELECT COUNT(*) FROM ${DatabaseHelper.medicinesTable}',
+            ),
+          ) ??
+          0;
+
+      if (medsCount == 0) {
+        _logger.i(
+          '[ensureDatabaseInitialized] Database empty, performing initial seeding...',
+        );
+        await performInitialSeeding();
+      } else {
+        _logger.i(
+          '[ensureDatabaseInitialized] Core data exists, checking maintenance...',
+        );
+        await seedDatabaseFromAssetIfNeeded();
+      }
+    } catch (e, s) {
+      _logger.e(
+        '[ensureDatabaseInitialized] Critical failure during initialization',
+        e,
+        s,
+      );
+      if (!_seedingCompleter.isCompleted) {
+        _seedingCompleter.completeError(e);
+      }
+    } finally {
+      // ABSOLUTE SAFETY: Ensure we never hang the app if somehow completion wasn't called.
+      if (!_seedingCompleter.isCompleted) {
+        _seedingCompleter.complete();
+      }
+    }
+  }
+
+  // Performs initial seeding from the asset file.
   // --- Data classes for Isolate ---
   static List<MedicineModel> _parseMedicines(String csv) {
     final List<List<dynamic>> csvTable = const CsvToListConverter(
@@ -711,46 +755,9 @@ class SqliteLocalDataSource {
         await performInitialSeeding();
         // Since initial seeding should cover everything, we might return here,
         // but let's allow it to fall through to check specifically for the new tables just in case.
-      } else {
         _logger.i(
-          "[seedDatabaseFromAssetIfNeeded] Core data exists. Checking specific interaction tables...",
+          '[seedDatabaseFromAssetIfNeeded] All interaction tables verified.',
         );
-
-        // Check Food Interactions
-        final foodInteractionsCount = Sqflite.firstIntValue(
-          await db.rawQuery(
-            'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
-          ),
-        );
-        _logger.i(
-          '[seedDatabaseFromAssetIfNeeded] Food interactions count: $foodInteractionsCount',
-        );
-
-        if (foodInteractionsCount == null || foodInteractionsCount == 0) {
-          _logger.i(
-            '[seedDatabaseFromAssetIfNeeded] Food interactions EMPTY! Seeding NOW...',
-          );
-          await _seedFoodInteractions(db);
-        }
-
-        // Check Disease Interactions
-        final diseaseInteractionsCount = Sqflite.firstIntValue(
-          await db.rawQuery(
-            'SELECT COUNT(*) FROM ${DatabaseHelper.diseaseInteractionsTable}',
-          ),
-        );
-        _logger.i(
-          '[seedDatabaseFromAssetIfNeeded] Disease interactions count: $diseaseInteractionsCount',
-        );
-
-        if (diseaseInteractionsCount == null || diseaseInteractionsCount == 0) {
-          _logger.i(
-            '[seedDatabaseFromAssetIfNeeded] Disease interactions EMPTY! Seeding NOW...',
-          );
-          await _seedDiseaseInteractions(db);
-        }
-
-        markSeedingAsComplete();
       }
     } catch (e, s) {
       _logger.e(
@@ -758,6 +765,10 @@ class SqliteLocalDataSource {
         e,
         s,
       );
+    } finally {
+      if (!_seedingCompleter.isCompleted) {
+        _seedingCompleter.complete();
+      }
     }
   }
 

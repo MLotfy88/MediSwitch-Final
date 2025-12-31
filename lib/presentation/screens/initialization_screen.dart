@@ -121,38 +121,9 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
       final localDataSource = locator<SqliteLocalDataSource>();
 
-      // 1. Check/Seed Medicines
-      _logger.i("InitializationScreen: Checking database medicines...");
-      final bool hasMeds = await localDataSource.hasMedicines();
-      if (!hasMeds) {
-        _logger.i("InitializationScreen: Database empty. Seeding...");
-        final success = await localDataSource.performInitialSeeding();
-        if (!success && !isBackground) {
-          _updateError("فشل في تهيئة قاعدة البيانات الأساسية.");
-          return false;
-        }
-      }
-
-      // 2. Maintenance checks (Food interactions etc.)
-      _logger.i("InitializationScreen: Running maintenance checks...");
-      await localDataSource.seedDatabaseFromAssetIfNeeded();
-
-      try {
-        final dbHelper = locator<DatabaseHelper>();
-        final db = await dbHelper.database;
-        final result = await db.rawQuery(
-          'SELECT COUNT(*) as count FROM food_interactions',
-        );
-        final count = result.first['count'] as int?;
-        if (count == null || count == 0) {
-          _logger.i(
-            "InitializationScreen: Food interactions missing. Seeding now...",
-          );
-          await localDataSource.performInitialSeeding();
-        }
-      } catch (e) {
-        _logger.e("InitializationScreen: Error checking food_interactions", e);
-      }
+      // 1. Consolidated Initialization (Handles medicines, interactions, and seeding signal)
+      _logger.i("InitializationScreen: Running consolidated initialization...");
+      await localDataSource.ensureDatabaseInitialized();
 
       // 3. Initialize Subscription
       _logger.i("InitializationScreen: Initializing SubscriptionProvider...");
