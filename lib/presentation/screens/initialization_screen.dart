@@ -112,6 +112,13 @@ class _InitializationScreenState extends State<InitializationScreen> {
   /// Encapsulates the heavy lifting of database seeding and preloading
   Future<bool> _performFullInitialization({bool isBackground = false}) async {
     try {
+      // 0. Wait for DatabaseHelper to be ready (Critical check)
+      if (!isBackground) {
+        // Only log if foreground, to avoid spam/confusion
+        _logger.i("InitializationScreen: Waiting for DatabaseHelper...");
+      }
+      await locator.isReady<DatabaseHelper>();
+
       final localDataSource = locator<SqliteLocalDataSource>();
 
       // 1. Check/Seed Medicines

@@ -94,20 +94,10 @@ Future<void> setupLocator() async {
   });
 
   // --- Data Sources ---
-  logger.i("Locator: Waiting for SharedPreferences and DatabaseHelper...");
-  try {
-    await Future.wait([
-      locator.isReady<SharedPreferences>(),
-      locator.isReady<DatabaseHelper>(),
-    ]);
-    logger.i("Locator: SharedPreferences and DatabaseHelper ready.");
-  } catch (e, s) {
-    logger.e(
-      "Locator: Error waiting for SharedPreferences/DatabaseHelper",
-      e,
-      s,
-    );
-  }
+  // --- Data Sources ---
+  // We do NOT wait for DatabaseHelper here effectively.
+  // It is handled in InitializationScreen/background.
+  logger.i("Locator: Processing Data Sources registration...");
 
   locator.registerLazySingleton<DrugRemoteDataSource>(() {
     logger.i("Locator: Registering DrugRemoteDataSource...");
@@ -317,10 +307,11 @@ Future<void> setupLocator() async {
   );
   locator.registerLazySingleton(() => NotificationProvider());
 
-  // Ensure all asynchronous singletons are ready before proceeding
-  logger.i("Locator: Waiting for all async singletons...");
-  await locator.allReady();
-  logger.i("--- Full Locator Setup Complete ---");
+  // Ensure ESSENTIAL asynchronous singletons are ready (SharedPreferences)
+  // We do NOT wait for DatabaseHelper here to allow UI to launch immediately.
+  logger.i("Locator: Waiting for SharedPreferences...");
+  await locator.isReady<SharedPreferences>();
+  logger.i("--- Locator Setup (Essentials) Complete ---");
 }
 
 // Dummy implementation is no longer needed
