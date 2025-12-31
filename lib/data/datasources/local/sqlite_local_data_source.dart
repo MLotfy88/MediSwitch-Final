@@ -1825,7 +1825,7 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'scraped_category = ?',
+      where: 'category = ?',
       whereArgs: [category],
       limit: limit,
       offset: offset,
@@ -1889,10 +1889,10 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
     final List<Map<String, dynamic>> maps = await db.rawQuery(
-      'SELECT DISTINCT scraped_category FROM ${DatabaseHelper.medicinesTable} ORDER BY scraped_category ASC',
+      'SELECT DISTINCT category FROM ${DatabaseHelper.medicinesTable} ORDER BY category ASC',
     );
     return maps
-        .map((e) => e['scraped_category'] as String?)
+        .map((e) => e['category'] as String?)
         .where((e) => e != null && e.isNotEmpty)
         .cast<String>()
         .toList();
@@ -1901,17 +1901,16 @@ class SqliteLocalDataSource {
   Future<Map<String, int>> getCategoriesWithCount() async {
     await seedingComplete;
     final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.rawQuery(
-      'SELECT scraped_category, COUNT(*) as count FROM ${DatabaseHelper.medicinesTable} GROUP BY scraped_category',
+    final List<Map<String, dynamic>> result = await db.rawQuery(
+      'SELECT category, COUNT(*) as count FROM ${DatabaseHelper.medicinesTable} GROUP BY category',
     );
-
-    final Map<String, int> result = {};
-    for (final map in maps) {
-      if (map['scraped_category'] != null) {
-        result[map['scraped_category'] as String] = map['count'] as int;
+    final Map<String, int> categories = {};
+    for (var row in result) {
+      if (row['category'] != null) {
+        categories[row['category'] as String] = row['count'] as int;
       }
     }
-    return result;
+    return categories;
   }
 
   Future<List<MedicineModel>> getRecentlyUpdatedMedicines(

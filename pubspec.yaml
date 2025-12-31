@@ -103,6 +103,7 @@ flutter:
     - assets/drug_interactions_structured_data.json # Explicitly add the main interaction file
     - assets/data/ # Include the directory for medicine_ingredients.json etc.
     - assets/data/interactions/ # Added for chunked interaction rules and ingredients
+    - assets/data/interactions/enriched/ # Explicitly added for enriched interaction files
     - assets/images/ # Added for logo and other images
     - assets/icon/ # Added for app icon
     - assets/icons/medical/ # Medical specialty SVG icons from healthicons.org
