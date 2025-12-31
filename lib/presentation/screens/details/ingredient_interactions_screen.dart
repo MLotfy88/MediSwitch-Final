@@ -338,10 +338,13 @@ class _IngredientInteractionsScreenState
                       return PaginationWrapper(
                         key: ValueKey('primary_${interaction.id}_$index'),
                         index: index - 1,
-                        child: InteractionCard(
-                          interaction: interaction,
-                          showDetails: false, // Compact mode
-                          onTap: () => _showInteractionDetails(interaction),
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: InteractionCard(
+                            interaction: interaction,
+                            showDetails: false, // Compact mode
+                            onTap: () => _showInteractionDetails(interaction),
+                          ),
                         ),
                       );
                     },
@@ -400,10 +403,13 @@ class _IngredientInteractionsScreenState
                       return PaginationWrapper(
                         key: ValueKey('secondary_${interaction.id}_$index'),
                         index: index - 1,
-                        child: InteractionCard(
-                          interaction: interaction,
-                          showDetails: false, // Compact mode
-                          onTap: () => _showInteractionDetails(interaction),
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: InteractionCard(
+                            interaction: interaction,
+                            showDetails: false, // Compact mode
+                            onTap: () => _showInteractionDetails(interaction),
+                          ),
                         ),
                       );
                     },

@@ -2,16 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-
-import '../../core/di/locator.dart';
-import '../../domain/entities/drug_entity.dart';
-import '../../domain/entities/drug_interaction.dart';
-import '../../domain/repositories/interaction_repository.dart';
-import '../theme/app_colors.dart';
-import '../theme/app_colors_extension.dart';
-import '../widgets/cards/interaction_card.dart';
-import '../widgets/drug_search_delegate.dart';
-import '../widgets/modern_badge.dart';
+import 'package:mediswitch/core/di/locator.dart';
+import 'package:mediswitch/domain/entities/drug_entity.dart';
+import 'package:mediswitch/domain/entities/drug_interaction.dart';
+import 'package:mediswitch/domain/repositories/interaction_repository.dart';
+import 'package:mediswitch/presentation/theme/app_colors.dart';
+import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
+import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
+import 'package:mediswitch/presentation/widgets/drug_search_delegate.dart';
+import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 
 class InteractionCheckerScreen extends StatefulWidget {
   const InteractionCheckerScreen({super.key});
@@ -135,6 +134,39 @@ class _InteractionCheckerScreenState extends State<InteractionCheckerScreen> {
                   const SizedBox(height: 12),
                   if (_isLoading)
                     const Center(child: CircularProgressIndicator())
+                  else if (_errorMessage != null)
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 24),
+                      child: Center(
+                        child: Column(
+                          children: [
+                            const Icon(
+                              LucideIcons.alertCircle,
+                              color: AppColors.danger,
+                              size: 48,
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              _errorMessage!,
+                              style: TextStyle(
+                                color: theme.appColors.mutedForeground,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            const SizedBox(height: 16),
+                            ElevatedButton(
+                              onPressed: () {
+                                setState(() {
+                                  _errorMessage = null;
+                                });
+                                _ensureInteractionDataLoaded();
+                              },
+                              child: const Text('Retry'),
+                            ),
+                          ],
+                        ),
+                      ),
+                    )
                   else if (_interactions.isEmpty)
                     _buildNoInteractionsCard(context, isRTL)
                   else

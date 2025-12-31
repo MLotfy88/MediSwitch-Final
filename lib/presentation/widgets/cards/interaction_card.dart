@@ -2,10 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 import 'package:mediswitch/domain/entities/interaction_severity.dart';
+import 'package:mediswitch/presentation/theme/app_colors.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 
 /// A card that displays information about a drug-drug or drug-food interaction.
 class InteractionCard extends StatelessWidget {
+  /// Creates a new [InteractionCard] instance.
+  const InteractionCard({
+    required this.interaction,
+    super.key,
+    this.onTap,
+    this.showDetails = true,
+  });
+
   /// The interaction data to display.
   final DrugInteraction interaction;
 
@@ -15,14 +24,6 @@ class InteractionCard extends StatelessWidget {
   /// Whether to show the full details (effect, recommendation).
   /// Defaults to true. If false, shows a compact version.
   final bool showDetails;
-
-  /// Creates a new [InteractionCard] instance.
-  const InteractionCard({
-    required this.interaction,
-    super.key,
-    this.onTap,
-    this.showDetails = true,
-  });
 
   @override
   Widget build(BuildContext context) {
@@ -218,12 +219,13 @@ class InteractionCard extends StatelessWidget {
   ) {
     switch (severity) {
       case InteractionSeverity.contraindicated:
+        return const Color(0xFF8B0000); // Deep Dark Red
       case InteractionSeverity.severe:
-        return appColors.dangerForeground; // Use foreground for better contrast
+        return AppColors.danger; // Standard Red
       case InteractionSeverity.major:
-        return Colors.orange;
+        return Colors.orange[900]!; // Dark Orange/Brown
       case InteractionSeverity.moderate:
-        return appColors.warningForeground;
+        return Colors.orange[400]!; // Lighter Orange
       case InteractionSeverity.minor:
         return appColors.infoForeground;
       case InteractionSeverity.unknown:

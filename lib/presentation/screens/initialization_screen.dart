@@ -107,12 +107,21 @@ class _InitializationScreenState extends State<InitializationScreen> {
           return;
         }
 
+        final startTime = DateTime.now();
         final bool success = await _performFullInitialization();
 
         if (success && mounted) {
-          Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (_) => const MainScreen()),
-          );
+          final elapsed = DateTime.now().difference(startTime).inMilliseconds;
+          const minDelay = 5000; // User requested 5 seconds
+          if (elapsed < minDelay) {
+            await Future.delayed(Duration(milliseconds: minDelay - elapsed));
+          }
+
+          if (mounted) {
+            Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (_) => const MainScreen()),
+            );
+          }
         }
       } catch (e, s) {
         _logger.e("InitializationScreen: Fatal Error", e, s);
@@ -154,11 +163,10 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
       // 2. Initialize Provider & Interactions
       locator<SubscriptionProvider>().initialize();
-      try {
-        await locator<InteractionRepository>().loadInteractionData();
-      } catch (e) {
-        _logger.e("InitializationScreen: Interaction preload failed", e);
-      }
+
+      // Force reload interaction data to ensure it's not stale after seeding
+      final interactionRepo = locator<InteractionRepository>();
+      await interactionRepo.loadInteractionData();
 
       return true;
     } catch (e, s) {
