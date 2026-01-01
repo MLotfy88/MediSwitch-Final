@@ -19,6 +19,8 @@ class DrugInteraction extends Equatable {
   final String? mechanismText; // New: Mechanism
   final String? riskLevel; // New: DDInter Risk Level
   final String? ddinterId; // New: Link to DDInter DB
+  final List<String>? alternativesA; // New
+  final List<String>? alternativesB; // New
   final String source;
   final String type;
   final bool isPrimaryIngredient;
@@ -36,6 +38,8 @@ class DrugInteraction extends Equatable {
     this.mechanismText,
     this.riskLevel,
     this.ddinterId,
+    this.alternativesA,
+    this.alternativesB,
     this.source = 'DailyMed',
     this.type = 'pharmacodynamic',
     this.isPrimaryIngredient = true,
@@ -52,9 +56,28 @@ class DrugInteraction extends Equatable {
       arabicEffect: json['arabic_effect'] as String?,
       recommendation: json['recommendation'] as String?,
       arabicRecommendation: json['arabic_recommendation'] as String?,
+      managementText: json['management_text'] as String?,
+      mechanismText: json['mechanism_text'] as String?,
+      alternativesA: _parseAlternatives(json['alternatives_a']),
+      alternativesB: _parseAlternatives(json['alternatives_b']),
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
     );
+  }
+
+  static List<String>? _parseAlternatives(dynamic val) {
+    if (val == null) return null;
+    if (val is String && val.isNotEmpty) {
+      // Very basic parse assuming ["Item 1", "Item 2"] format from JSON
+      final cleaned = val.replaceAll(RegExp(r'[\[\]"]'), '');
+      if (cleaned.isEmpty) return null;
+      return cleaned
+          .split(',')
+          .map((e) => e.trim())
+          .where((e) => e.isNotEmpty)
+          .toList();
+    }
+    return null;
   }
 
   // Method to convert instance back to JSON
@@ -68,6 +91,10 @@ class DrugInteraction extends Equatable {
       'arabic_effect': arabicEffect,
       'recommendation': recommendation,
       'arabic_recommendation': arabicRecommendation,
+      'management_text': managementText,
+      'mechanism_text': mechanismText,
+      'alternatives_a': alternativesA,
+      'alternatives_b': alternativesB,
       'source': source,
       'type': type,
     };

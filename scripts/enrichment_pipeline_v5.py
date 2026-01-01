@@ -1,270 +1,223 @@
+
 import sqlite3
-import csv
 import json
 import os
-import re
-from typing import List, Dict, Set
-import sys
+import csv
+from typing import List, Dict, Any
 
-# Import synonym dictionary
-sys.path.insert(0, os.path.dirname(__file__))
-from drug_synonyms import DRUG_SYNONYMS
-
-# Configuration
-DDINTER_DB_PATH = 'ddinter_data/ddinter_complete.db'
-LOCAL_MEDS_CSV = 'assets/meds.csv'
+# --- Configuration ---
+DDINTER_DB_PATH = 'assets/external_research_data/updated/ddinter_complete.db'
 OUTPUT_DIR = 'assets/data/interactions/enriched'
-CHUNK_SIZE = 1000
-
-# Regex for splitting ingredients
-INGREDIENT_SEPARATORS = re.compile(r'[+;/,]|\s+and\s+|\s+with\s+', re.IGNORECASE)
-
-def normalize_ingredient(text: str) -> str:
-    """Advanced normalization"""
-    if not text:
-        return ""
-    text = text.lower().strip()
-    text = re.sub(r'\d+\s*(mg|mcg|g|ml|iu|i\.u\.|%)', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\([^)]*\)', '', text)
-    suffixes = [
-        ' hydrochloride', ' hcl', ' sulfate', ' sulphate', ' sodium', 
-        ' calcium', ' magnesium', ' potassium', ' acetate', ' chloride', 
-        ' maleate', ' citrate', ' phosphate', ' succinate', ' tartrate', 
-        ' mesylate', ' besylate', ' fumarate', ' gluconate', ' lactate',
-        ' bromide', ' nitrate', ' oxalate', ' stearate', ' benzoate'
-    ]
-    for suffix in suffixes:
-        text = text.replace(suffix, '')
-    text = re.sub(r'[^a-z0-9\s]', ' ', text)
-    text = ' '.join(text.split())
-    return text.strip()
+RAW_CSV_PATH = 'assets/external_research_data/ddinter_interactions_v6.csv'
 
 def connect_db(db_path):
-    try:
-        conn = sqlite3.connect(db_path)
-        conn.row_factory = sqlite3.Row
-        return conn
-    except sqlite3.Error as e:
-        print(f"Error connecting to database {db_path}: {e}")
+    """Connect to SQLite database."""
+    if not os.path.exists(db_path):
+        print(f"❌ Error: Database not found at {db_path}")
         return None
+    return sqlite3.connect(db_path)
 
-def get_local_meds(csv_path: str) -> List[Dict]:
-    meds = []
+def load_mechanism_map(csv_path: str) -> Dict[str, str]:
+    """Load mechanism descriptions from raw CSV (Legacy support)."""
+    mapping = {}
+    if not os.path.exists(csv_path):
+        print(f"⚠️ Warning: Mechanism CSV not found at {csv_path}")
+        return mapping
+        
+    print(f"📖 Loading mechanisms from {csv_path}...")
     try:
         with open(csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                meds.append({
-                    'id': row.get('id'),
-                    'trade_name': row.get('trade_name', ''),
-                    'active': row.get('active', '')
-                })
+                idx = row.get('idx')
+                mech = row.get('mechanisms')
+                if idx and mech:
+                    mech = ' '.join(mech.split()).strip()
+                    if mech:
+                        mapping[str(idx)] = mech
     except Exception as e:
-        print(f"Error reading {csv_path}: {e}")
-    return meds
+        print(f"❌ Error loading mechanisms: {e}")
+    return mapping
 
-def build_ddinter_index(conn):
-    cursor = conn.execute("SELECT ddinter_id, drug_name FROM drugs")
-    index = {}
-    for row in cursor.fetchall():
-        ddinter_id = row['ddinter_id']
-        drug_name = row['drug_name']
-        normalized = normalize_ingredient(drug_name)
-        if normalized:
-            index[normalized] = ddinter_id
-        index[drug_name.lower().strip()] = ddinter_id
-    return index
-
-def find_ddinter_id(ddinter_index: Dict, ingredient: str) -> str:
-    synonym = DRUG_SYNONYMS.get(ingredient.lower().strip())
-    if synonym:
-        syn_normalized = normalize_ingredient(synonym)
-        if syn_normalized in ddinter_index: return ddinter_index[syn_normalized]
-        if synonym.lower().strip() in ddinter_index: return ddinter_index[synonym.lower().strip()]
+def fetch_drug_drug_interactions(conn, mechanism_map) -> List[Dict]:
+    """Fetch enriched DDI data with updated fields."""
+    print("🚀 Fetching Drug-Drug Interactions...")
+    c = conn.cursor()
     
-    normalized = normalize_ingredient(ingredient)
-    if normalized in ddinter_index: return ddinter_index[normalized]
-    if ingredient.lower().strip() in ddinter_index: return ddinter_index[ingredient.lower().strip()]
-    return None
-
-def split_compound_ingredients(active_str: str) -> List[str]:
-    if not active_str: return []
-    ingredients = INGREDIENT_SEPARATORS.split(active_str)
-    return [i.strip() for i in ingredients if i.strip() and len(i.strip()) > 1]
-
-def fetch_interactions(conn, ddinter_id: str) -> List[Dict]:
+    # Query updated schema
+    # Note: We join with drugs table to get drug names
+    sql = """
+        SELECT 
+            d1.drug_name as drug_a,
+            d2.drug_name as drug_b,
+            di.severity,
+            di.interaction_description,
+            di.management_text,
+            di.mechanism_flags,
+            di.alternative_drugs_a,
+            di.alternative_drugs_b,
+            di.interaction_id,
+            d1.ddinter_id as id_a,
+            d2.ddinter_id as id_b
+        FROM drug_drug_interactions di
+        JOIN drugs d1 ON di.drug_a_id = d1.ddinter_id
+        JOIN drugs d2 ON di.drug_b_id = d2.ddinter_id
+        WHERE di.interaction_description IS NOT NULL
+    """
+    
     try:
-        sql = """
-            SELECT d.drug_name, di.severity, di.interaction_description, 
-                   di.management_text, di.mechanism_flags, di.interaction_id
-            FROM drug_drug_interactions di
-            JOIN drugs d ON di.drug_b_id = d.ddinter_id
-            WHERE di.drug_a_id = ?
-        """
-        cursor = conn.execute(sql, (ddinter_id,))
-        return [{
-            'ingredient2': r['drug_name'],
-            'severity': r['severity'],
-            'effect': r['interaction_description'],
-            'management_text': r['management_text'],
-            'mechanism_text': r['mechanism_flags'],
-            'risk_level': r['severity'],
-            'source': 'DDInter',
-            'ddinter_id': r['interaction_id']
-        } for r in cursor.fetchall()]
-    except:
+        c.execute(sql)
+        rows = c.fetchall()
+        results = []
+        
+        for r in rows:
+            inter_id = str(r[8])
+            mech_json = r[5]
+            mech_text = None
+            
+            # 1. Try DB Mechanism Flags
+            if mech_json:
+                try:
+                    mechs = json.loads(mech_json)
+                    if mechs:
+                        mech_text = ", ".join(mechs)
+                except:
+                    pass
+            
+            # 2. Fallback to CSV Map
+            if not mech_text and mechanism_map:
+                mech_text = mechanism_map.get(inter_id)
+
+            results.append({
+                'ingredient1': r[0],
+                'ingredient2': r[1],
+                'severity': r[2],
+                'effect': r[3],
+                'arabic_effect': None,
+                'recommendation': None,
+                'arabic_recommendation': None,
+                'management_text': r[4],
+                'mechanism_text': mech_text,
+                'alternatives_a': r[6], # JSON string
+                'alternatives_b': r[7], # JSON string
+                'risk_level': r[2],
+                'ddinter_id': r[8],
+                'source': 'DDInter'
+            })
+            
+        print(f"✅ Fetched {len(results)} enriched DDIs.")
+        return results
+    except Exception as e:
+        print(f"❌ Error fetching DDI: {e}")
         return []
 
-def fetch_food_interactions(conn, ddinter_id: str) -> List[Dict]:
+def export_disease_interactions(conn, output_dir):
+    """Export Drug-Disease Interactions to JSON."""
+    print("🚀 Exporting Disease Interactions...")
+    c = conn.cursor()
     try:
-        sql = "SELECT food_name, severity, description, management FROM drug_food_interactions WHERE drug_id = ?"
-        cursor = conn.execute(sql, (ddinter_id,))
-        return [{
-            'food_name': r['food_name'],
-            'severity': r['severity'],
-            'description': r['description'],
-            'management': r['management']
-        } for r in cursor.fetchall()]
-    except:
-        return []
+        c.execute('''
+            SELECT d.ddinter_id, d.drug_name, di.disease_name, di.severity, di.interaction_text, di.reference_text
+            FROM drug_disease_interactions di
+            JOIN drugs d ON di.drug_id = d.ddinter_id
+        ''')
+        
+        rows = c.fetchall()
+        results = []
+        for r in rows:
+            results.append({
+                'ddinter_id': r[0],
+                'trade_name': r[1],
+                'disease_name': r[2],
+                'severity': r[3],
+                'interaction_text': r[4],
+                'references': r[5],
+                'source': 'DDInter'
+            })
+            
+        out_path = os.path.join(output_dir, 'enriched_disease_interactions.json')
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"✅ Exported {len(results)} disease interactions to {out_path}")
+    except Exception as e:
+        print(f"⚠️ Error exporting disease interactions (Table might be empty/missing): {e}")
 
-def fetch_disease_interactions(conn, ddinter_id: str) -> List[Dict]:
-    """Fetch drug-disease interactions (contraindications)."""
+def export_food_interactions(conn, output_dir):
+    """Export Drug-Food Interactions to JSON."""
+    print("🚀 Exporting Food Interactions...")
+    c = conn.cursor()
     try:
-        sql = "SELECT disease_name, interaction_text FROM drug_disease_interactions WHERE drug_id = ?"
-        cursor = conn.execute(sql, (ddinter_id,))
-        return [{
-            'disease_name': r['disease_name'],
-            'interaction_text': r['interaction_text']
-        } for r in cursor.fetchall()]
-    except:
-        return []
+        c.execute('''
+            SELECT d.ddinter_id, d.drug_name, fi.food_name, fi.severity, fi.description, fi.management, fi.mechanism_flags
+            FROM drug_food_interactions fi
+            JOIN drugs d ON fi.drug_id = d.ddinter_id
+        ''')
+        
+        rows = c.fetchall()
+        results = []
+        for r in rows:
+            mech = r[6]
+            if mech:
+                try:
+                    m_list = json.loads(mech)
+                    if m_list: mech = ", ".join(m_list)
+                except: pass
+            
+            results.append({
+                 'ddinter_id': r[0],
+                 'trade_name': r[1],
+                 'food_name': r[2],
+                 'severity': r[3],
+                 'interaction': f"{r[4]}\n\nManagement: {r[5]}",
+                 'mechanism': mech,
+                 'source': 'DDInter'
+            })
 
-def process_pipeline():
-    print("🚀 Enhanced Enrichment Pipeline v5 (DDI + Food + Disease)\n")
-    print("=" * 70)
+        out_path = os.path.join(output_dir, 'enriched_food_interactions.json')
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f"✅ Exported {len(results)} food interactions to {out_path}")
+    except Exception as e:
+        print(f"⚠️ Error exporting food interactions: {e}")
+
+def main():
+    print("🌟 Starting Enrichment Pipeline v5...")
     
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
         
-    conn_ddinter = connect_db(DDINTER_DB_PATH)
-    if not conn_ddinter: return
+    conn = connect_db(DDINTER_DB_PATH)
+    if not conn:
+        return
 
-    print("📝 Building Index...")
-    ddinter_index = build_ddinter_index(conn_ddinter)
-    print(f"   Index size: {len(ddinter_index):,}")
+    # 1. Load Legacy Map
+    mech_map = load_mechanism_map(RAW_CSV_PATH)
 
-    local_meds = get_local_meds(LOCAL_MEDS_CSV)
-    print(f"📦 Loaded {len(local_meds):,} local medicines\n")
+    # 2. Export New Data Types (Disease, Food)
+    export_disease_interactions(conn, OUTPUT_DIR)
+    export_food_interactions(conn, OUTPUT_DIR)
     
-    all_rules = []
-    all_food_interactions = []
-    all_disease_interactions = []
+    # 3. Export Main Drug-Drug Interactions
+    ddi_data = fetch_drug_drug_interactions(conn, mech_map)
     
-    processed_pairs = set()
-    processed_food_pairs = set()
-    processed_disease_pairs = set()
-    
-    stats = {
-        'total_meds': 0, 'meds_with_match': 0,
-        'ddi_rules': 0, 'dfi_rules': 0, 'dsci_rules': 0
-    }
-
-    print("🔄 Processing medicines...")
-    
-    for i_med, med in enumerate(local_meds):
-        stats['total_meds'] += 1
-        active_str = med['active']
-        med_id = med['id']
-        trade_name = med['trade_name']
+    if ddi_data:
+        # Split into chunks
+        chunk_size = 5000
+        total = len(ddi_data)
+        print(f"📦 Splitting {total} records into chunks...")
         
-        if not active_str or not med_id: continue
-        
-        ingredients = split_compound_ingredients(active_str)
-        med_matched = False
-        
-        for ingredient in ingredients:
-            ddinter_id = find_ddinter_id(ddinter_index, ingredient)
+        for i in range(0, total, chunk_size):
+            chunk = ddi_data[i:i + chunk_size]
+            part_num = (i // chunk_size) + 1
+            part_path = os.path.join(OUTPUT_DIR, f'enriched_rules_part_{part_num:03d}.json')
             
-            if ddinter_id:
-                med_matched = True
-                
-                # 1. Drug-Drug (DDI)
-                interactions = fetch_interactions(conn_ddinter, ddinter_id)
-                for rule in interactions:
-                    key = tuple(sorted((normalize_ingredient(ingredient), normalize_ingredient(rule['ingredient2']))))
-                    if key in processed_pairs: continue
-                    processed_pairs.add(key)
-                    new_rule = rule.copy()
-                    new_rule['ingredient1'] = ingredient
-                    all_rules.append(new_rule)
-                
-                # 2. Drug-Food (DFI)
-                food_interactions = fetch_food_interactions(conn_ddinter, ddinter_id)
-                for food in food_interactions:
-                    food_key = (med_id, food['food_name'])
-                    if food_key in processed_food_pairs: continue
-                    processed_food_pairs.add(food_key)
-                    
-                    formatted_text = f"{food['food_name'].upper()}: {food['description']}"
-                    if food['management']: formatted_text += f"\n\nManagement: {food['management']}"
-                    
-                    all_food_interactions.append({
-                        'med_id': int(med_id),
-                        'trade_name': trade_name,
-                        'interaction': formatted_text,
-                        'source': 'DDInter'
-                    })
-                
-                # 3. Drug-Disease (DScI)
-                disease_interactions = fetch_disease_interactions(conn_ddinter, ddinter_id)
-                for disease in disease_interactions:
-                    disease_key = (med_id, disease['disease_name'])
-                    if disease_key in processed_disease_pairs: continue
-                    processed_disease_pairs.add(disease_key)
-                    
-                    all_disease_interactions.append({
-                        'med_id': int(med_id),
-                        'trade_name': trade_name,
-                        'disease_name': disease['disease_name'],
-                        'interaction_text': disease['interaction_text'],
-                        'source': 'DDInter'
-                    })
+            with open(part_path, 'w', encoding='utf-8') as f:
+                json.dump({'data': chunk}, f, ensure_ascii=False, indent=2)
         
-        if med_matched: stats['meds_with_match'] += 1
-        if (i_med + 1) % 2000 == 0:
-            print(f"   Processed {i_med + 1:,} meds | DDI: {len(all_rules):,} | DFI: {len(all_food_interactions):,} | DScI: {len(all_disease_interactions):,}", flush=True)
-
-    conn_ddinter.close()
-    
-    # Save Outputs
-    # 1. DDI (Chunked)
-    print(f"\n💾 Saving DDI Rules...")
-    total_chunks = (len(all_rules) // CHUNK_SIZE) + 1
-    for i in range(total_chunks):
-        chunk_data = all_rules[i*CHUNK_SIZE : (i+1)*CHUNK_SIZE]
-        if not chunk_data: continue
-        with open(os.path.join(OUTPUT_DIR, f'enriched_rules_part_{i+1:03d}.json'), 'w', encoding='utf-8') as f:
-            json.dump({'data': chunk_data}, f, ensure_ascii=False, indent=2)
-            
-    # 2. Food (Single)
-    print(f"💾 Saving Food Interactions...")
-    with open(os.path.join(OUTPUT_DIR, 'enriched_food_interactions.json'), 'w', encoding='utf-8') as f:
-        json.dump(all_food_interactions, f, ensure_ascii=False, indent=2)
-
-    # 3. Disease (Single)
-    print(f"💾 Saving Disease Interactions...")
-    with open(os.path.join(OUTPUT_DIR, 'enriched_disease_interactions.json'), 'w', encoding='utf-8') as f:
-        json.dump(all_disease_interactions, f, ensure_ascii=False, indent=2)
-    
-    print("=" * 70)
-    print("📊 FINAL RESULTS (v5):")
-    print(f"Total Medicines: {stats['total_meds']:,}")
-    print(f"Matched: {stats['meds_with_match']:,}")
-    print(f"Drug-Drug Interactions (DDI): {len(all_rules):,}")
-    print(f"Drug-Food Interactions (DFI): {len(all_food_interactions):,}")
-    print(f"Drug-Disease Interactions (DScI): {len(all_disease_interactions):,}")
-    print("=" * 70)
+        print(f"✅ Created {(total // chunk_size) + 1} JSON parts.")
+        
+    conn.close()
+    print("🎉 Pipeline Completed Successfully!")
 
 if __name__ == '__main__':
-    process_pipeline()
+    main()

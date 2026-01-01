@@ -17,8 +17,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion =
-      13; // Force rebuild to fix recommendation data (was 12)
+  static const int _dbVersion = 14; // Force rebuild for alternatives (was 13)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -266,6 +265,8 @@ class DatabaseHelper {
         arabic_recommendation TEXT,
         management_text TEXT, -- New: Clinical Advice
         mechanism_text TEXT,  -- New: Mechanism
+        alternatives_a TEXT,  -- New: Safe Alternatives A (JSON)
+        alternatives_b TEXT,  -- New: Safe Alternatives B (JSON)
         risk_level TEXT,      -- New: DDInter Risk Level
         ddinter_id TEXT,      -- New: Link to DDInter DB
         source TEXT,
@@ -273,7 +274,7 @@ class DatabaseHelper {
         updated_at INTEGER DEFAULT 0
       )
     ''');
-    // Migration for existing users (Add columns if they don't exist)
+    // Migration for existing users
     try {
       await db.execute(
         'ALTER TABLE $interactionsTable ADD COLUMN management_text TEXT',
@@ -282,13 +283,18 @@ class DatabaseHelper {
         'ALTER TABLE $interactionsTable ADD COLUMN mechanism_text TEXT',
       );
       await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN alternatives_a TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN alternatives_b TEXT',
+      );
+      await db.execute(
         'ALTER TABLE $interactionsTable ADD COLUMN risk_level TEXT',
       );
       await db.execute(
         'ALTER TABLE $interactionsTable ADD COLUMN ddinter_id TEXT',
       );
     } catch (e) {
-      // Columns might already exist, ignore error or handle better column check
       debugPrint('Columns might already exist: $e');
     }
 

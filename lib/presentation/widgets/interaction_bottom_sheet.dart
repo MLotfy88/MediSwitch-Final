@@ -42,7 +42,7 @@ class InteractionBottomSheet extends StatelessWidget {
         borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.15),
+            color: Colors.black.withValues(alpha: 0.15),
             blurRadius: 20,
             offset: const Offset(0, -5),
           ),
@@ -126,7 +126,20 @@ class InteractionBottomSheet extends StatelessWidget {
                       isHighlighted: true,
                     ),
 
-                  // ─── METADATA CHIPS ───
+                  // ─── ALTERNATIVES ───
+                  if ((interaction.alternativesA != null &&
+                          interaction.alternativesA!.isNotEmpty) ||
+                      (interaction.alternativesB != null &&
+                          interaction.alternativesB!.isNotEmpty))
+                    _AlternativesSection(
+                      theme: theme,
+                      agent1: interaction.ingredient1,
+                      alternatives1: interaction.alternativesA,
+                      agent2: interaction.ingredient2,
+                      alternatives2: interaction.alternativesB,
+                      isRTL: isRTL,
+                    ),
+
                   // ─── METADATA CHIPS ───
                   if (interaction.riskLevel != null)
                     Padding(
@@ -202,7 +215,7 @@ class InteractionBottomSheet extends StatelessWidget {
                             vertical: 4,
                           ),
                           decoration: BoxDecoration(
-                            color: severityColor.withOpacity(0.15),
+                            color: severityColor.withValues(alpha: 0.15),
                             borderRadius: BorderRadius.circular(6),
                           ),
                           child: Text(
@@ -714,6 +727,140 @@ class _MetadataChip extends StatelessWidget {
               ),
             ],
           ),
+        ],
+      ),
+    );
+  }
+}
+
+class _AlternativesSection extends StatelessWidget {
+  final ThemeData theme;
+  final String agent1;
+  final List<String>? alternatives1;
+  final String agent2;
+  final List<String>? alternatives2;
+  final bool isRTL;
+
+  const _AlternativesSection({
+    required this.theme,
+    required this.agent1,
+    required this.alternatives1,
+    required this.agent2,
+    required this.alternatives2,
+    required this.isRTL,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(6),
+              decoration: BoxDecoration(
+                color: AppColors.success.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Icon(
+                LucideIcons.thumbsUp,
+                size: 14,
+                color: AppColors.success,
+              ),
+            ),
+            const SizedBox(width: 10),
+            Text(
+              isRTL ? 'البدائل الآمنة المقترحة' : 'Safer Alternatives',
+              style: theme.textTheme.titleSmall?.copyWith(
+                fontWeight: FontWeight.w700,
+                color: AppColors.success,
+                letterSpacing: 0.3,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+        if (alternatives1 != null && alternatives1!.isNotEmpty)
+          _buildDrugAlternatives(agent1, alternatives1!),
+
+        if (alternatives1 != null &&
+            alternatives1!.isNotEmpty &&
+            alternatives2 != null &&
+            alternatives2!.isNotEmpty)
+          const SizedBox(height: 12),
+
+        if (alternatives2 != null && alternatives2!.isNotEmpty)
+          _buildDrugAlternatives(agent2, alternatives2!),
+
+        const SizedBox(height: 16),
+      ],
+    );
+  }
+
+  Widget _buildDrugAlternatives(String drugName, List<String> alts) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.surface,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: theme.colorScheme.outline.withOpacity(0.1)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            isRTL ? 'بديل لـ $drugName:' : 'Alternative for $drugName:',
+            style: theme.textTheme.bodySmall?.copyWith(
+              fontWeight: FontWeight.bold,
+              color: theme.colorScheme.onSurface.withOpacity(0.7),
+            ),
+          ),
+          const SizedBox(height: 8),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children:
+                alts
+                    .take(5)
+                    .map(
+                      (alt) => Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 6,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.success.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(6),
+                          border: Border.all(
+                            color: AppColors.success.withOpacity(0.2),
+                          ),
+                        ),
+                        child: Text(
+                          alt,
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                            color: const Color(
+                              0xFF1B6646,
+                            ), // Darker success green
+                          ),
+                        ),
+                      ),
+                    )
+                    .toList(),
+          ),
+          if (alts.length > 5)
+            Padding(
+              padding: const EdgeInsets.only(top: 6),
+              child: Text(
+                isRTL
+                    ? '+ ${alts.length - 5} المزيد'
+                    : '+ ${alts.length - 5} more',
+                style: theme.textTheme.bodySmall?.copyWith(fontSize: 10),
+              ),
+            ),
         ],
       ),
     );

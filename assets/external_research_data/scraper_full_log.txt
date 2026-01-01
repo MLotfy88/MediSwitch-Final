@@ -1,0 +1,120 @@
+======================================================================
+🚀 DDInter2 Ultimate Scraper v10.1 - Full Stack
+======================================================================
+⏰ Start time: 2026-01-01 11:59:29
+📦 Initializing database...
+✅ Database initialized: ddinter_complete.db
+
+🔹 Checking Phase 1 (Core Data)...
+📋 Loaded 1939 drug IDs
+📊 Status: 0 completed, 1939 pending
+
+🔄 Phase 1: Processing 1939 remaining drugs...
+✅ Progress: 10 drugs | DDI: 17 | DFI: 15 | Multi: 11 | Errors: 0
+✅ Progress: 20 drugs | DDI: 28 | DFI: 25 | Multi: 22 | Errors: 0
+✅ Progress: 30 drugs | DDI: 40 | DFI: 35 | Multi: 33 | Errors: 0
+✅ Progress: 40 drugs | DDI: 48 | DFI: 46 | Multi: 40 | Errors: 0
+✅ Progress: 50 drugs | DDI: 61 | DFI: 59 | Multi: 55 | Errors: 0
+✅ Progress: 60 drugs | DDI: 68 | DFI: 65 | Multi: 62 | Errors: 0
+✅ Progress: 70 drugs | DDI: 78 | DFI: 76 | Multi: 75 | Errors: 0
+✅ Progress: 80 drugs | DDI: 85 | DFI: 83 | Multi: 80 | Errors: 0
+✅ Progress: 90 drugs | DDI: 97 | DFI: 96 | Multi: 93 | Errors: 0
+✅ Progress: 100 drugs | DDI: 107 | DFI: 104 | Multi: 103 | Errors: 0
+✅ Progress: 110 drugs | DDI: 120 | DFI: 116 | Multi: 113 | Errors: 0
+✅ Progress: 120 drugs | DDI: 128 | DFI: 126 | Multi: 122 | Errors: 0
+✅ Progress: 130 drugs | DDI: 142 | DFI: 136 | Multi: 132 | Errors: 0
+✅ Progress: 140 drugs | DDI: 148 | DFI: 146 | Multi: 143 | Errors: 0
+✅ Progress: 150 drugs | DDI: 158 | DFI: 156 | Multi: 152 | Errors: 0
+✅ Progress: 160 drugs | DDI: 169 | DFI: 167 | Multi: 162 | Errors: 0
+✅ Progress: 170 drugs | DDI: 181 | DFI: 176 | Multi: 173 | Errors: 0
+✅ Progress: 180 drugs | DDI: 186 | DFI: 182 | Multi: 181 | Errors: 0
+✅ Progress: 190 drugs | DDI: 200 | DFI: 196 | Multi: 194 | Errors: 0
+✅ Progress: 200 drugs | DDI: 206 | DFI: 203 | Multi: 202 | Errors: 0
+✅ Progress: 210 drugs | DDI: 216 | DFI: 213 | Multi: 211 | Errors: 0
+✅ Progress: 220 drugs | DDI: 226 | DFI: 225 | Multi: 222 | Errors: 0
+✅ Progress: 230 drugs | DDI: 238 | DFI: 236 | Multi: 233 | Errors: 0
+✅ Progress: 240 drugs | DDI: 247 | DFI: 245 | Multi: 245 | Errors: 0
+✅ Progress: 250 drugs | DDI: 255 | DFI: 255 | Multi: 253 | Errors: 0
+✅ Progress: 260 drugs | DDI: 269 | DFI: 266 | Multi: 264 | Errors: 0
+✅ Progress: 270 drugs | DDI: 273 | DFI: 271 | Multi: 270 | Errors: 0
+✅ Progress: 280 drugs | DDI: 292 | DFI: 288 | Multi: 282 | Errors: 0
+✅ Progress: 290 drugs | DDI: 297 | DFI: 295 | Multi: 293 | Errors: 0
+✅ Progress: 300 drugs | DDI: 308 | DFI: 307 | Multi: 301 | Errors: 0
+✅ Progress: 310 drugs | DDI: 320 | DFI: 317 | Multi: 314 | Errors: 0
+✅ Progress: 320 drugs | DDI: 328 | DFI: 324 | Multi: 322 | Errors: 0
+✅ Progress: 330 drugs | DDI: 335 | DFI: 334 | Multi: 332 | Errors: 0
+✅ Progress: 340 drugs | DDI: 350 | DFI: 345 | Multi: 341 | Errors: 0
+✅ Progress: 350 drugs | DDI: 357 | DFI: 355 | Multi: 352 | Errors: 0
+✅ Progress: 360 drugs | DDI: 368 | DFI: 364 | Multi: 362 | Errors: 0
+✅ Progress: 370 drugs | DDI: 378 | DFI: 376 | Multi: 374 | Errors: 0
+✅ Progress: 380 drugs | DDI: 391 | DFI: 387 | Multi: 382 | Errors: 0
+✅ Progress: 390 drugs | DDI: 394 | DFI: 393 | Multi: 391 | Errors: 0
+✅ Progress: 400 drugs | DDI: 409 | DFI: 406 | Multi: 404 | Errors: 0
+✅ Progress: 410 drugs | DDI: 419 | DFI: 419 | Multi: 415 | Errors: 0
+✅ Progress: 420 drugs | DDI: 428 | DFI: 425 | Multi: 422 | Errors: 0
+✅ Progress: 430 drugs | DDI: 439 | DFI: 438 | Multi: 436 | Errors: 0
+✅ Progress: 440 drugs | DDI: 451 | DFI: 446 | Multi: 446 | Errors: 0
+✅ Progress: 450 drugs | DDI: 458 | DFI: 454 | Multi: 452 | Errors: 0
+✅ Progress: 460 drugs | DDI: 468 | DFI: 466 | Multi: 463 | Errors: 0
+✅ Progress: 470 drugs | DDI: 479 | DFI: 476 | Multi: 472 | Errors: 0
+✅ Progress: 480 drugs | DDI: 485 | DFI: 484 | Multi: 482 | Errors: 0
+✅ Progress: 490 drugs | DDI: 498 | DFI: 496 | Multi: 495 | Errors: 0
+✅ Progress: 500 drugs | DDI: 509 | DFI: 508 | Multi: 503 | Errors: 0
+✅ Progress: 510 drugs | DDI: 518 | DFI: 515 | Multi: 511 | Errors: 0
+✅ Progress: 520 drugs | DDI: 528 | DFI: 526 | Multi: 522 | Errors: 0
+✅ Progress: 530 drugs | DDI: 538 | DFI: 535 | Multi: 535 | Errors: 0
+✅ Progress: 540 drugs | DDI: 547 | DFI: 545 | Multi: 541 | Errors: 0
+✅ Progress: 550 drugs | DDI: 562 | DFI: 560 | Multi: 554 | Errors: 0
+✅ Progress: 560 drugs | DDI: 566 | DFI: 563 | Multi: 562 | Errors: 0
+✅ Progress: 570 drugs | DDI: 577 | DFI: 573 | Multi: 571 | Errors: 0
+✅ Progress: 580 drugs | DDI: 586 | DFI: 584 | Multi: 582 | Errors: 0
+✅ Progress: 590 drugs | DDI: 597 | DFI: 594 | Multi: 591 | Errors: 0
+✅ Progress: 600 drugs | DDI: 605 | DFI: 605 | Multi: 602 | Errors: 0
+✅ Progress: 610 drugs | DDI: 616 | DFI: 612 | Multi: 611 | Errors: 0
+✅ Progress: 620 drugs | DDI: 627 | DFI: 626 | Multi: 623 | Errors: 0
+✅ Progress: 630 drugs | DDI: 638 | DFI: 637 | Multi: 634 | Errors: 0
+✅ Progress: 640 drugs | DDI: 650 | DFI: 648 | Multi: 647 | Errors: 0
+✅ Progress: 650 drugs | DDI: 656 | DFI: 655 | Multi: 653 | Errors: 0
+✅ Progress: 660 drugs | DDI: 668 | DFI: 666 | Multi: 662 | Errors: 0
+✅ Progress: 670 drugs | DDI: 676 | DFI: 676 | Multi: 673 | Errors: 0
+✅ Progress: 680 drugs | DDI: 689 | DFI: 686 | Multi: 681 | Errors: 0
+✅ Progress: 690 drugs | DDI: 697 | DFI: 696 | Multi: 694 | Errors: 0
+✅ Progress: 700 drugs | DDI: 707 | DFI: 703 | Multi: 702 | Errors: 0
+✅ Progress: 710 drugs | DDI: 714 | DFI: 712 | Multi: 710 | Errors: 0
+✅ Progress: 720 drugs | DDI: 728 | DFI: 724 | Multi: 722 | Errors: 0
+✅ Progress: 730 drugs | DDI: 739 | DFI: 738 | Multi: 736 | Errors: 0
+✅ Progress: 740 drugs | DDI: 746 | DFI: 743 | Multi: 742 | Errors: 0
+✅ Progress: 750 drugs | DDI: 756 | DFI: 754 | Multi: 753 | Errors: 0
+✅ Progress: 760 drugs | DDI: 767 | DFI: 765 | Multi: 763 | Errors: 0
+✅ Progress: 770 drugs | DDI: 779 | DFI: 776 | Multi: 774 | Errors: 0
+✅ Progress: 780 drugs | DDI: 791 | DFI: 788 | Multi: 783 | Errors: 0
+✅ Progress: 790 drugs | DDI: 798 | DFI: 795 | Multi: 792 | Errors: 0
+✅ Progress: 800 drugs | DDI: 808 | DFI: 805 | Multi: 801 | Errors: 0
+✅ Progress: 810 drugs | DDI: 818 | DFI: 815 | Multi: 812 | Errors: 0
+✅ Progress: 820 drugs | DDI: 823 | DFI: 823 | Multi: 822 | Errors: 0
+✅ Progress: 830 drugs | DDI: 839 | DFI: 836 | Multi: 833 | Errors: 0
+✅ Progress: 840 drugs | DDI: 850 | DFI: 847 | Multi: 845 | Errors: 0
+✅ Progress: 850 drugs | DDI: 859 | DFI: 854 | Multi: 852 | Errors: 0
+✅ Progress: 860 drugs | DDI: 866 | DFI: 865 | Multi: 864 | Errors: 0
+✅ Progress: 870 drugs | DDI: 876 | DFI: 875 | Multi: 872 | Errors: 0
+✅ Progress: 880 drugs | DDI: 889 | DFI: 888 | Multi: 885 | Errors: 0
+✅ Progress: 890 drugs | DDI: 897 | DFI: 894 | Multi: 891 | Errors: 0
+✅ Progress: 900 drugs | DDI: 908 | DFI: 905 | Multi: 904 | Errors: 0
+✅ Progress: 910 drugs | DDI: 918 | DFI: 912 | Multi: 912 | Errors: 0
+✅ Progress: 920 drugs | DDI: 930 | DFI: 925 | Multi: 922 | Errors: 0
+✅ Progress: 930 drugs | DDI: 936 | DFI: 934 | Multi: 931 | Errors: 0
+✅ Progress: 940 drugs | DDI: 949 | DFI: 945 | Multi: 942 | Errors: 0
+✅ Progress: 950 drugs | DDI: 958 | DFI: 956 | Multi: 952 | Errors: 0
+✅ Progress: 960 drugs | DDI: 967 | DFI: 963 | Multi: 961 | Errors: 0
+✅ Progress: 970 drugs | DDI: 979 | DFI: 974 | Multi: 974 | Errors: 0
+✅ Progress: 980 drugs | DDI: 992 | DFI: 989 | Multi: 986 | Errors: 0
+⚠️ Error fetching DFI for DDInter1844: HTTPSConnectionPool(host='ddinter2.scbdd.com', port=443): Read timed out. (read timeout=30)
+✅ Progress: 990 drugs | DDI: 994 | DFI: 993 | Multi: 993 | Errors: 0
+✅ Progress: 1000 drugs | DDI: 1009 | DFI: 1005 | Multi: 1002 | Errors: 0
+✅ Progress: 1010 drugs | DDI: 1014 | DFI: 1012 | Multi: 1013 | Errors: 0
+✅ Progress: 1020 drugs | DDI: 1029 | DFI: 1025 | Multi: 1023 | Errors: 0
+✅ Progress: 1030 drugs | DDI: 1033 | DFI: 1031 | Multi: 1031 | Errors: 0
+✅ Progress: 1040 drugs | DDI: 1049 | DFI: 1045 | Multi: 1044 | Errors: 0
+✅ Progress: 1050 drugs | DDI: 1057 | DFI: 1054 | Multi: 1050 | Errors: 0
+✅ Progress: 1060 drugs | DDI: 1069 | DFI: 1066 | Multi: 1062 | Errors: 0
+✅ Progress: 1070 drugs | DDI: 1077 | DFI: 1073 | Multi: 1071 | Errors: 0

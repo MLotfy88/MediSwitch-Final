@@ -497,6 +497,8 @@ class SqliteLocalDataSource {
               'arabic_recommendation': r['arabic_recommendation'],
               'management_text': r['management_text'],
               'mechanism_text': r['mechanism_text'],
+              'alternatives_a': r['alternatives_a'], // New
+              'alternatives_b': r['alternatives_b'], // New
               'risk_level': r['risk_level'],
               'ddinter_id': r['ddinter_id']?.toString(),
               'source': r['source'] ?? 'DDInter',
