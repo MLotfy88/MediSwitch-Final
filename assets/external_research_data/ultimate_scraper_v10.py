@@ -131,8 +131,46 @@ def fetch_interaction_details(interaction_id):
         # print(f"⚠️ Error details for {interaction_id}: {e}") # Silent error to reduce noise
         return None
 
+def fetch_interaction_alternatives(interaction_id):
+    """جلب البدائل الآمنة من صفحة التفاعل"""
+    url = f"{BASE_URL}/server/interact/{interaction_id}/"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
+        if response.status_code != 200:
+            return None, None
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # استخراج البدائل
+        alternatives_a = []
+        alternatives_b = []
+        
+        # البحث عن قسم "Alternative for"
+        key_cells = soup.find_all('td', class_='key')
+        for i, key_cell in enumerate(key_cells):
+            text = key_cell.get_text(strip=True)
+            if 'Alternative for' in text:
+                value_cell = key_cell.find_next_sibling('td', class_='value')
+                if value_cell:
+                    # استخراج أسماء الأدوية من الروابط
+                    links = value_cell.find_all('a', href=lambda x: x and 'drug-detail' in x)
+                    alts = [link.get_text(strip=True) for link in links if link.get_text(strip=True)]
+                    
+                    # تحديد الدواء A أو B
+                    if len(alternatives_a) == 0:
+                        alternatives_a = alts
+                    else:
+                        alternatives_b = alts
+        
+        return alternatives_a if alternatives_a else None, alternatives_b if alternatives_b else None
+        
+    except Exception as e:
+        # print(f"⚠️ Error fetching alternatives for {interaction_id}: {e}")
+        return None, None
+
+
 def update_interaction_details(details):
-    """تحديث قاعدة البيانات بالتفاصيل الجديدة"""
+    """تحديث قاعدة البيانات بالتفاصيل الجديدة مع alternatives"""
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     try:
@@ -140,12 +178,16 @@ def update_interaction_details(details):
             UPDATE drug_drug_interactions
             SET interaction_description = ?,
                 management_text = ?,
-                reference_text = ?
+                reference_text = ?,
+                alternative_drugs_a = ?,
+                alternative_drugs_b = ?
             WHERE interaction_id = ?
         ''', (
             details.get('interaction_description'),
             details.get('management_text'),
             details.get('reference_text'),
+            details.get('alternatives_a'),
+            details.get('alternatives_b'),
             details.get('interaction_id')
         ))
         conn.commit()
@@ -157,9 +199,15 @@ def update_interaction_details(details):
         conn.close()
 
 def process_enrichment_item(interaction_id):
-    """معالجة عنصر واحد في مرحلة الإثراء"""
+    """معالجة عنصر واحد في مرحلة الإثراء - مع alternatives"""
     details = fetch_interaction_details(interaction_id)
     if details:
+        # جلب البدائل أيضاً
+        alt_a, alt_b = fetch_interaction_alternatives(interaction_id)
+        if alt_a or alt_b:
+            details['alternatives_a'] = json.dumps(alt_a) if alt_a else None
+            details['alternatives_b'] = json.dumps(alt_b) if alt_b else None
+        
         if update_interaction_details(details):
             stats['details_enriched'].increment()
             return True
@@ -414,7 +462,7 @@ def extract_drug_basic_info(drug_id):
 # API Calls (Interactions)
 # ============================================
 def fetch_drug_drug_interactions(drug_id):
-    """جلب تفاعلات دواء-دواء عبر API"""
+    """جلب تفاعلات دواء-دواء عبر API مع استخراج mechanisms"""
     url = f"{BASE_URL}/server/interact-with/{drug_id}/"
     interactions = []
     
@@ -434,7 +482,31 @@ def fetch_drug_drug_interactions(drug_id):
         
         json_response = response.json()
         total_records = json_response.get('recordsTotal', 0)
-        interactions.extend(json_response.get('data', []))
+        
+        # معالجة البيانات مع استخراج mechanisms
+        for item in json_response.get('data', []):
+            mechanisms = []
+            if str(item.get('metabolism', '0')) == '1':
+                mechanisms.append('Metabolism')
+            if str(item.get('synergistic_effect', '0')) == '1':
+                mechanisms.append('Synergism')
+            if str(item.get('antagonistic_effect', '0')) == '1':
+                mechanisms.append('Antagonism')
+            if str(item.get('absorption', '0')) == '1':
+                mechanisms.append('Absorption')
+            if str(item.get('distribution', '0')) == '1':
+                mechanisms.append('Distribution')
+            if str(item.get('excretion', '0')) == '1':
+                mechanisms.append('Excretion')
+            if str(item.get('others', '0')) == '1':
+                mechanisms.append('Others')
+            
+            interactions.append({
+                'interaction_id': item.get('interaction_id'),
+                'drug_id': item.get('drug_id'),
+                'level': item.get('level'),
+                'mechanisms': json.dumps(mechanisms) if mechanisms else None
+            })
         
         # جلب الصفحات المتبقية
         for offset in range(100, total_records, 100):
@@ -444,7 +516,29 @@ def fetch_drug_drug_interactions(drug_id):
             response = requests.post(url, data=data, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
             if response.status_code == 200:
                 json_response = response.json()
-                interactions.extend(json_response.get('data', []))
+                for item in json_response.get('data', []):
+                    mechanisms = []
+                    if str(item.get('metabolism', '0')) == '1':
+                        mechanisms.append('Metabolism')
+                    if str(item.get('synergistic_effect', '0')) == '1':
+                        mechanisms.append('Synergism')
+                    if str(item.get('antagonistic_effect', '0')) == '1':
+                        mechanisms.append('Antagonism')
+                    if str(item.get('absorption', '0')) == '1':
+                        mechanisms.append('Absorption')
+                    if str(item.get('distribution', '0')) == '1':
+                        mechanisms.append('Distribution')
+                    if str(item.get('excretion', '0')) == '1':
+                        mechanisms.append('Excretion')
+                    if str(item.get('others', '0')) == '1':
+                        mechanisms.append('Others')
+                    
+                    interactions.append({
+                        'interaction_id': item.get('interaction_id'),
+                        'drug_id': item.get('drug_id'),
+                        'level': item.get('level'),
+                        'mechanisms': json.dumps(mechanisms) if mechanisms else None
+                    })
                 
         stats['ddi_fetched'].increment()
         return interactions
@@ -587,19 +681,18 @@ def save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
             drug_data['external_links'], drug_data['structure_2d_svg']
         ))
         
-        # 2. حفظ تفاعلات دواء-دواء (لكن فقط إذا كان هذا الدواء هو drug_a)
-        # لتجنب التكرار، نحفظ فقط عندما يكون الدواء الحالي هو الأول alphabetically
+        # 2. حفظ تفاعلات دواء-دواء مع mechanism_flags
         for interaction in ddi_list:
-            # نحفظ interaction_id فقط مرة واحدة
             c.execute('''
                 INSERT OR IGNORE INTO drug_drug_interactions 
-                (interaction_id, drug_a_id, drug_b_id, severity, source_url)
-                VALUES (?, ?, ?, ?, ?)
+                (interaction_id, drug_a_id, drug_b_id, severity, mechanism_flags, source_url)
+                VALUES (?, ?, ?, ?, ?, ?)
             ''', (
                 interaction.get('interaction_id'),
                 drug_data['ddinter_id'],
                 interaction.get('drug_id'),
                 {1: 'Minor', 2: 'Moderate', 3: 'Major'}.get(interaction.get('level'), 'Unknown'),
+                interaction.get('mechanisms'),
                 f"{BASE_URL}/server/interact/{interaction.get('interaction_id')}/"
             ))
         
