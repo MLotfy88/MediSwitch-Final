@@ -411,9 +411,17 @@ class TurboScraper:
                 return sib.get_text(strip=True) if sib else None
             return None
 
-        # SVGs, ATC, etc
-        atc_links = soup.select('a[href*="whocc.no"]')
-        atc_codes = [a.get_text(strip=True) for a in atc_links]
+        # ATC Codes (Fixed)
+        atc_codes = []
+        atc_key = soup.find('td', class_='key', string=lambda s: s and 'ATC Classification' in s)
+        if atc_key:
+            atc_val = atc_key.find_next_sibling('td')
+            if atc_val:
+                atc_codes = [s.get_text(strip=True) for s in atc_val.find_all('span', class_='badge')]
+
+        # SVG (Fixed)
+        svg_tag = soup.find('svg')
+        svg_str = str(svg_tag) if svg_tag else None
         
         ext_links = []
         # External links logic (simplified)
@@ -431,7 +439,7 @@ class TurboScraper:
             get_val('Canonical SMILES'),
             json.dumps(atc_codes),
             json.dumps(ext_links),
-            None # svg - skipping for speed/size unless critical
+            svg_str
         )
         
         await self.db_queue.put(('insert_drug', drug_data))
@@ -519,7 +527,7 @@ class TurboScraper:
                 return v.get_text(strip=True) if v else None
             return None
             
-        desc = get_text('Description')
+        desc = get_text('Interaction')
         manage = get_text('Management')
         refs = get_text('References')
         
