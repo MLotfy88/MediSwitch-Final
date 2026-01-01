@@ -379,7 +379,7 @@ class TurboScraper:
         print(f"Processing {drug_id}...")
         
         # A. Basic Info
-        html = await self.fetch(f"{BASE_URL}/ddinter/drug/{drug_id}/")
+        html = await self.fetch(f"{BASE_URL}/server/drug-detail/{drug_id}/")
         if html:
              await self.parse_and_save_drug_info(drug_id, html)
         else:
