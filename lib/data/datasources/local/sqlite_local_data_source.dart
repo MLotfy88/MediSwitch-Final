@@ -1769,10 +1769,36 @@ class SqliteLocalDataSource {
   }) async {
     await seedingComplete;
     final db = await dbHelper.database;
+
+    // Get keywords associated with this broad category (specialty)
+    final keywords = CategoryMapperHelper.getKeywords(category);
+
+    if (keywords.isEmpty) {
+      // Fallback for categories without keywords or 'general' (if not handled explicitly)
+      // Or if the category string passed IS actually a raw category name (e.g. from search suggestions)
+      // We try exact match first, if no keywords found.
+      final List<Map<String, dynamic>> maps = await db.query(
+        DatabaseHelper.medicinesTable,
+        where: 'category = ?',
+        whereArgs: [category],
+        limit: limit,
+        offset: offset,
+      );
+      if (maps.isNotEmpty)
+        return maps.map((e) => MedicineModel.fromMap(e)).toList();
+
+      // If 'general' or unknown and no exact match, return empty or handle differently
+      return [];
+    }
+
+    // Build dynamic OR query: category LIKE '%key1%' OR category LIKE '%key2%' ...
+    final whereClause = keywords.map((_) => 'category LIKE ?').join(' OR ');
+    final args = keywords.map((k) => '%$k%').toList();
+
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'category = ?',
-      whereArgs: [category],
+      where: whereClause,
+      whereArgs: args,
       limit: limit,
       offset: offset,
     );

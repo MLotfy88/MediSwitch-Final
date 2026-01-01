@@ -1,4 +1,4 @@
-name: DDInter Ultimate Scraper v10
+name: DDInter Turbo Scraper v11 (Async)
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 lxml
+        pip install requests beautifulsoup4 lxml aiohttp
     
     - name: Download previous database (if exists)
       continue-on-error: true
@@ -37,10 +37,10 @@ jobs:
     - name: Run Ultimate Scraper v10
       working-directory: assets/external_research_data
       run: |
-        echo "🚀 Starting DDInter v10 Scraper..."
+        echo "🚀 Starting DDInter Turbo Scraper..."
         echo "📅 Start time: $(date)"
         
-        python ultimate_scraper_v10.py 2>&1 | tee scraper_v10_log.txt
+        python ddinter_turbo_scraper.py 2>&1 | tee scraper_turbo_log.txt
         
         echo "✅ Scraper finished"
         echo "📅 End time: $(date)"
@@ -80,7 +80,7 @@ jobs:
         path: |
           assets/external_research_data/ddinter_complete.db
           assets/external_research_data/csv_exports/*.csv
-          assets/external_research_data/scraper_v10_log.txt
+          assets/external_research_data/scraper_turbo_log.txt
         retention-days: 30
     
     - name: Upload database to release (if complete)
