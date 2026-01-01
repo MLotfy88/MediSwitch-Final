@@ -15,7 +15,7 @@ from datetime import datetime
 # Too high might trigger WAF bans or timeouts
 CONCURRENCY_LIMIT = 20 
 DB_PATH = 'ddinter_complete.db'
-BASE_URL = 'https://ddinter.scbdd.com'
+BASE_URL = 'https://ddinter2.scbdd.com'
 
 # Standard Browser Headers (for GET)
 HEADERS_GET = {
