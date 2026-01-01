@@ -13,15 +13,31 @@ from datetime import datetime
 # --- Configuration ---
 # Optimal concurrency for local wifi/mobile data usually around 20-50
 # Too high might trigger WAF bans or timeouts
-CONCURRENCY_LIMIT = 30 
+CONCURRENCY_LIMIT = 20 
 DB_PATH = 'ddinter_complete.db'
 BASE_URL = 'https://ddinter.scbdd.com'
-HEADERS = {
+
+# Standard Browser Headers (for GET)
+HEADERS_GET = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1'
+}
+
+# AJAX Headers (for POST APIs)
+HEADERS_POST = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'application/json, text/javascript, */*; q=0.01',
     'X-Requested-With': 'XMLHttpRequest',
     'Origin': BASE_URL,
-    'Referer': f'{BASE_URL}/'
+    'Referer': f'{BASE_URL}/',
+    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
 }
 TIMEOUT = aiohttp.ClientTimeout(total=60, connect=20)
 
@@ -236,7 +252,7 @@ class TurboScraper:
         
         # Use a single session for connection pooling
         connector = aiohttp.TCPConnector(limit=CONCURRENCY_LIMIT, ssl=False)
-        async with aiohttp.ClientSession(headers=HEADERS, timeout=TIMEOUT, connector=connector) as session:
+        async with aiohttp.ClientSession(headers=HEADERS_GET, timeout=TIMEOUT, connector=connector) as session:
             self.session = session
             await self.main_loop()
         
@@ -248,24 +264,33 @@ class TurboScraper:
     async def fetch(self, url, method='GET', data=None):
         if not self.running: return None
         
+        # Select Headers
+        headers = None # Use session default (GET)
+        if method == 'POST':
+            headers = HEADERS_POST
+
         for attempt in range(3):
             try:
                 async with self.sem: # Rate limit
                     if method == 'GET':
-                        async with self.session.get(url) as resp:
+                        async with self.session.get(url, headers=headers) as resp:
                             if resp.status == 200:
                                 return await resp.text()
                             elif resp.status == 429:
                                 print(f"Rate limited (429) on {url}. Sleeping...")
                                 await asyncio.sleep(5)
                                 continue
+                            else:
+                                print(f"GET Fail {resp.status} on {url}")
                     else:
-                        async with self.session.post(url, data=data) as resp:
+                        async with self.session.post(url, data=data, headers=headers) as resp:
                             if resp.status == 200:
                                 return await resp.json()
                             elif resp.status == 429:
                                 await asyncio.sleep(5)
                                 continue
+                            else:
+                                print(f"POST Fail {resp.status} on {url}")
             except Exception as e:
                 print(f"Fetch Error ({url}): {e}")
                 await asyncio.sleep(1)
@@ -309,10 +334,6 @@ class TurboScraper:
         
         while True and self.running:
             url = f"{BASE_URL}/server/drug_list/"
-            # Ensure headers are correct for AJAX POST
-            headers = self.session._default_headers.copy() if self.session else HEADERS.copy()
-            # headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8' 
-            # aiohttp handles form encoding automatically if data is dict, but let's be sure.
             
             params = {
                 'draw': str(page),
@@ -361,6 +382,8 @@ class TurboScraper:
         html = await self.fetch(f"{BASE_URL}/ddinter/drug/{drug_id}/")
         if html:
              await self.parse_and_save_drug_info(drug_id, html)
+        else:
+             print(f"Skipping {drug_id}: Could not fetch Basic Info HTML.")
         
         # B. DDI (The heavy part)
         # Fetching List of Interactions
