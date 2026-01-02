@@ -8,6 +8,8 @@ on:
       - 'assets/meds.csv'
       - 'assets/data/**'
       - 'scripts/rebuild_d1_data.py'
+      - 'export_mediswitch_to_sql.py'
+      - 'd1_sql_chunks/**'
 
 jobs:
   sync-d1:

@@ -1,5 +1,14 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 146
+**Date:** 2026-01-02
+**Goal:** Fix D1 Sync Error (food_interactions schema mismatch).
+**Changes:**
+- **Script:** Updated `export_mediswitch_to_sql.py` to explicitly map `interaction_text` to `interaction` for the `food_interactions` table.
+- **Flutter:** Updated `DatabaseHelper.dart` to include the `severity` column in the `disease_interactions` table, ensuring consistency with the D1 schema.
+- **CI/CD:** Updated `sync-d1.yml` to trigger on changes to `d1_sql_chunks/**` and the export script itself.
+- **Verification:** Regenerated SQL chunks and pushed all changes to GitHub.
+
 ### CHECKPOINT 145
 **Date:** 2025-01-10
 **Goal:** Fix Interaction UI Bugs and Implement Food/Disease Sync.
