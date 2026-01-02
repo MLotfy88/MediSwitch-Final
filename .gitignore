@@ -87,31 +87,9 @@ testing/
 External_source/dailymed
 
 # Production Data (Large Intermediate Files)
-production_data/*.jsonl
-production_data/*.json
-!production_data/dailymed_interactions.json
-!production_data/dailymed_interactions_clean.json
-production_data/dailymed_full_database.jsonl
-production_data/production_dosages.jsonl
-production_data/production_hybrid.jsonl
-
-# DrugBank Data (too large for git)
-DrugBank_Organized_Data/
-d1_import.sql
-d1_import_replace.sql
-d1_food_interactions.sql
-d1_disease_interactions.sql
-d1_dosages.sql
-d1_import_part_*.sql
-d1_rules_part_*.sql
-d1_food_part_*.sql
-d1_disease_part_*.sql
-d1_dosages_part_*.sql
-d1_part_*
-d1_chunks*/
-d1_final_chunks/
-d1_clean_chunks/
-d1_safe_chunks/
+production_data/
+# d1_sql_chunks are needed for GitHub Actions sync
+!d1_sql_chunks/
 scripts/drugbank_integration/output/
 /home/adminlotfy/project/d1_clean_chunks
 /home/adminlotfy/project/d1_final_chunks
