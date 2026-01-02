@@ -44,7 +44,7 @@ CREATE TABLE dosage_guidelines (
             is_pediatric INTEGER
         );
 
-CREATE TABLE sqlite_sequence(name,seq);
+
 
 DROP TABLE IF EXISTS drug_interactions;
 
