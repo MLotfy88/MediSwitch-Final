@@ -689,57 +689,69 @@ class SqliteLocalDataSource {
   Future<void> _seedDiseaseInteractions(Database db) async {
     try {
       _logger.i(
-        '[DISEASE INTERACTION SEEDING] Starting disease interaction seeding...',
-      );
-      // Load as string (async)
-      final jsonString = await rootBundle.loadString(
-        'assets/data/interactions/enriched/enriched_disease_interactions.json',
+        '[DISEASE INTERACTION SEEDING] Starting disease interaction seeding (Chunked)...',
       );
 
-      // Parse in Isolate to avoid UI freeze (file is ~67MB)
-      _logger.i('[DISEASE INTERACTION SEEDING] Parsing JSON in Isolate...');
-      final List<dynamic> interactions = await compute(
-        _parseJsonString,
-        jsonString,
-      );
+      int chunk = 0;
+      int totalSeeded = 0;
 
-      if (interactions.isNotEmpty) {
-        _logger.i(
-          '[DISEASE INTERACTION SEEDING] Inserting ${interactions.length} items in chunks...',
-        );
+      while (true) {
+        try {
+          final String fileName =
+              'assets/data/interactions/enriched/enriched_disease_part_${chunk.toString().padLeft(3, '0')}.json';
 
-        // Chunk insertion to prevent blocking the main thread for too long
-        const int batchSize = 2000;
-        for (var i = 0; i < interactions.length; i += batchSize) {
-          final end =
-              (i + batchSize < interactions.length)
-                  ? i + batchSize
-                  : interactions.length;
-          final batch = db.batch();
+          // Load as string (async) - will throw if asset not found
+          final jsonString = await rootBundle.loadString(fileName);
 
-          for (var j = i; j < end; j++) {
-            final item = interactions[j];
-            batch.insert(
-              DatabaseHelper.diseaseInteractionsTable,
-              {
-                'med_id': item['med_id'],
-                'trade_name': item['trade_name'],
-                'disease_name': item['disease_name'],
-                'interaction_text': item['interaction_text'],
-                'source': item['source'],
-              },
-              conflictAlgorithm: ConflictAlgorithm.replace,
-            );
+          // Parse in Isolate to avoid UI freeze
+          final List<dynamic> interactions = await compute(
+            _parseJsonString,
+            jsonString,
+          );
+
+          if (interactions.isNotEmpty) {
+            // _logger.i(
+            //   '[DISEASE SEEDING] Processing chunk $chunk (${interactions.length} items)...',
+            // );
+
+            // Chunk insertion to prevent blocking the main thread
+            const int batchSize = 2000;
+            for (var i = 0; i < interactions.length; i += batchSize) {
+              final end =
+                  (i + batchSize < interactions.length)
+                      ? i + batchSize
+                      : interactions.length;
+              final batch = db.batch();
+
+              for (var j = i; j < end; j++) {
+                final item = interactions[j];
+                batch.insert(
+                  DatabaseHelper.diseaseInteractionsTable,
+                  {
+                    'med_id': item['med_id'],
+                    'trade_name': item['trade_name'],
+                    'disease_name': item['disease_name'],
+                    'interaction_text': item['interaction_text'],
+                    'source': item['source'],
+                  },
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+              await Future<void>.delayed(Duration.zero);
+            }
+            totalSeeded += interactions.length;
           }
-          await batch.commit(noResult: true);
-          // Yield to UI thread to keep splash screen animating
-          await Future<void>.delayed(Duration.zero);
+          chunk++;
+        } catch (_) {
+          // Asset not found means we processed all chunks
+          break;
         }
-
-        _logger.i(
-          '[DISEASE INTERACTION SEEDING] ✅ Seeded ${interactions.length} disease interactions.',
-        );
       }
+
+      _logger.i(
+        '[DISEASE INTERACTION SEEDING] ✅ Seeded $totalSeeded disease interactions from $chunk chunks.',
+      );
     } catch (e, stackTrace) {
       _logger.e('[DISEASE INTERACTION SEEDING] CRITICAL ERROR', e, stackTrace);
     }

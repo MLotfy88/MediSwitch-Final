@@ -107,17 +107,41 @@ def export_food_interactions():
     conn.close()
 
 def export_disease_interactions():
-    print("🏥 Exporting disease interactions...")
+    print("🏥 Exporting disease interactions (chunked)...")
     conn = get_db_connection()
     c = conn.cursor()
-    c.execute("SELECT * FROM disease_interactions")
-    rows = [dict(row) for row in c.fetchall()]
     
-    json_path = os.path.join(INTERACTIONS_DIR, 'enriched_disease_interactions.json')
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(rows, f, ensure_ascii=False, indent=2)
+    # Remove old chunks
+    for f in os.listdir(INTERACTIONS_DIR):
+        if f.startswith('enriched_disease_part_') and f.endswith('.json'):
+            os.remove(os.path.join(INTERACTIONS_DIR, f))
+    
+    # Remove old large file if exists
+    old_large_file = os.path.join(INTERACTIONS_DIR, 'enriched_disease_interactions.json')
+    if os.path.exists(old_large_file):
+        os.remove(old_large_file)
+
+    chunk_size = 5000
+    offset = 0
+    part_num = 0
+    
+    while True:
+        c.execute(f"SELECT * FROM disease_interactions LIMIT {chunk_size} OFFSET {offset}")
+        rows = [dict(row) for row in c.fetchall()]
         
-    print(f"✅ Exported {len(rows)} disease interactions to {json_path}")
+        if not rows:
+            break
+            
+        filename = f"enriched_disease_part_{part_num:03d}.json"
+        
+        json_path = os.path.join(INTERACTIONS_DIR, filename)
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(rows, f, ensure_ascii=False)
+            
+        offset += chunk_size
+        part_num += 1
+        
+    print(f"✅ Exported disease interactions into {part_num} chunks.")
     conn.close()
 
 def export_drug_interactions_chunks():
