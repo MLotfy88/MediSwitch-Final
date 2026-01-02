@@ -187,10 +187,10 @@ def main():
     if not print_comparison("Food Interactions", db_food, asset_food):
         overall_success = False
         
-    # 4. Disease Interactions (JSON)
-    print("\n4️⃣  Checking Disease Interactions...")
+    # 4. Disease Interactions (Chunked JSON)
+    print("\n4️⃣  Checking Disease Interactions (Chunks)...")
     db_disease = analyze_db_table('disease_interactions')
-    asset_disease = analyze_json(os.path.join(ASSETS_DIR, 'data/interactions/enriched/enriched_disease_interactions.json'))
+    asset_disease = analyze_json_chunks(os.path.join(ASSETS_DIR, 'data/interactions/enriched/enriched_disease_part_*.json'))
     if not print_comparison("Disease Interactions", db_disease, asset_disease):
         overall_success = False
 
