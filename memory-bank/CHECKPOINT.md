@@ -1,5 +1,41 @@
-# 🎯 ملخص المشروع - December
- 
+# 🎯 ملخص المشروع - January 2025
+
+### CHECKPOINT 145
+**Date:** 2025-01-10
+**Goal:** Fix Interaction UI Bugs and Implement Food/Disease Sync.
+**Changes:**
+- **UI:** Implemented dynamic recalculation of interaction flags, fixing the missing medicine card icons.
+- **Data Fetching:** Updated repository methods to fetch all interaction columns (management, mechanism, risk level).
+- **Search:** Repaired "High Risk" search functionality for null/all ingredient scenarios.
+- **Sync:** Implemented incremental synchronization for Food and Disease interactions in `UnifiedSyncService`.
+- **Code Quality:** Resolved several lint warnings in `rewarded_ad_service.dart`, `main_screen.dart`, and others.
+- **Verification:** Created a comprehensive walkthrough documenting the improvements.
+
+### CHECKPOINT 144
+**Date:** 2025-01-09 (Part 2)
+**Goal:** Update Splash Screen Insights and Optimize Home Screen Loading.
+**Changes:**
+- **UI:** Updated `InitializationScreen` with professional medical insights (DDInter 2.0, Food interactions, Pediatric guidelines).
+- **Performance:** Implemented a new caching system (`home_sections_cache` table) for expensive home screen sections.
+- **Data:** Modified `MedicineProvider` to load High Risk and Food Interaction cards from cache instantly.
+- **Database:** Incremented schema to version 15 and added cache table.
+- **Verification:** Confirmed logo path as `assets/images/logo.png`.
+
+### CHECKPOINT 143
+**Date:** 2025-01-09
+**Goal:** Synchronize Admin Dashboard with Database Schema and Enable Full Column Visibility.
+**Changes:**
+- **Admin Dashboard:**
+    - Updated `DrugManagement.tsx` to include all 27+ database columns (indication, MoA, pharmacodynamics, barcodes, etc.).
+    - Updated `InteractionsManagement.tsx` with `alternatives_a`, `alternatives_b`, and `ddinter_id`.
+    - Updated `DiseaseInteractionsManagement.tsx` with `severity` and `created_at`.
+    - Refactored `FoodInteractionsManagement.tsx` to match the actual `food_interactions` schema.
+    - Updated `DosageManagement.tsx` to include `min_dose`, `max_dose`, `frequency`, `duration`, and `is_pediatric`.
+    - **Visibility:** Removed `initialColumnVisibility` from all management pages to show all columns by default.
+- **Database Schema:**
+    - Updated `d1_migration_sql/01_schema.sql` to include the `severity` column in the `disease_interactions` table.
+- **Documentation:** Updated Project Plan and Checkout to reflect the full sync.
+
 ### CHECKPOINT 142
 **Date:** 2025-12-31 (Part 2)
 **Goal:** Finalize Cleanup and Resolve Clinical Data Bug.

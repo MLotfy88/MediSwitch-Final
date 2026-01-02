@@ -90,6 +90,27 @@ class MedicineModel extends DrugEntity {
       concentration: row.length > 15 ? _parseString(row[15]) : '',
       dosageForm: row.length > 16 ? _parseString(row[16]) : '',
       dosageFormAr: row.length > 17 ? _parseString(row[17]) : '',
+      hasDrugInteraction:
+          row.length > 18
+              ? (row[18] == 1 ||
+                  row[18] == '1' ||
+                  row[18] == true ||
+                  row[18] == 'true')
+              : false,
+      hasFoodInteraction:
+          row.length > 19
+              ? (row[19] == 1 ||
+                  row[19] == '1' ||
+                  row[19] == true ||
+                  row[19] == 'true')
+              : false,
+      hasDiseaseInteraction:
+          row.length > 20
+              ? (row[20] == 1 ||
+                  row[20] == '1' ||
+                  row[20] == true ||
+                  row[20] == 'true')
+              : false,
     );
   }
 
@@ -245,6 +266,9 @@ class MedicineModel extends DrugEntity {
       qrCode: entity.qrCode,
       visits: entity.visits,
       lastPriceUpdate: entity.lastPriceUpdate,
+      hasDrugInteraction: entity.hasDrugInteraction,
+      hasFoodInteraction: entity.hasFoodInteraction,
+      hasDiseaseInteraction: entity.hasDiseaseInteraction,
     );
   }
 }

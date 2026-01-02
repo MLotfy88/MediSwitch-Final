@@ -22,4 +22,28 @@ class HighRiskIngredient {
 
   /// Display name formatted for UI
   String get displayName => name;
+
+  factory HighRiskIngredient.fromJson(Map<String, dynamic> json) {
+    return HighRiskIngredient(
+      name: json['name'] as String,
+      totalInteractions: json['totalInteractions'] as int,
+      severeCount: json['severeCount'] as int,
+      moderateCount: json['moderateCount'] as int,
+      minorCount: json['minorCount'] as int,
+      dangerScore: json['dangerScore'] as int,
+      normalizedName: json['normalizedName'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'totalInteractions': totalInteractions,
+      'severeCount': severeCount,
+      'moderateCount': moderateCount,
+      'minorCount': minorCount,
+      'dangerScore': dangerScore,
+      'normalizedName': normalizedName,
+    };
+  }
 }

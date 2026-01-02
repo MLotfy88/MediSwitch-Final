@@ -108,6 +108,11 @@ nagement (CRUD).
     - [x] **Critical Fix:** Resolved clinical data seeding bug (Recommendations mapping).
     - [x] **Data Verification:** Confirmed availability of critical fields (Effect, Risk, Recommendation) and identified mechanism data gap.
     - [x] **Critical Bug Fix:** Resolved `no such column: scientific_name` error in drug search by correcting the SQL query to use `active`.
+    - [x] **Interaction UI & Sync Fixes**:
+        - [x] Dynamic interaction flags with background recalculation.
+        - [x] Unified detailed interaction views (fetching all columns).
+        - [x] Fixed High Risk "See All" search and null ingredient handling.
+        - [x] Implemented end-to-end sync for Food & Disease interactions.
 
 ---
 

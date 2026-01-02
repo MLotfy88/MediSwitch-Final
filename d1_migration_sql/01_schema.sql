@@ -94,6 +94,7 @@ CREATE TABLE disease_interactions (
     trade_name TEXT,
     disease_name TEXT NOT NULL,
     interaction_text TEXT NOT NULL,
+    severity TEXT,
     source TEXT DEFAULT 'DDInter'
 );
 

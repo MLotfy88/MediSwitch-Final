@@ -125,13 +125,86 @@ class SqliteLocalDataSource {
   // --- Core Logic ---
 
   Future<int?> getLastUpdateTimestamp() async {
-    await seedingComplete;
-    final prefs = await _prefs;
+    final prefs = await SharedPreferences.getInstance();
     final timestamp = prefs.getInt(_prefsKeyLastUpdate);
     // If we have a stored timestamp, return it.
-    // If not, it means we just seeded from the CSV.
+    // Otherwise, we might have just initialized from asset SQL or CSV.
     // Return the default timestamp of that CSV so we only delta-sync after it.
     return timestamp ?? _initialDataTimestamp;
+  }
+
+  Future<String?> getHomeCache(String key) async {
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.homeCacheTable,
+      where: 'key = ?',
+      whereArgs: [key],
+    );
+    if (maps.isNotEmpty) {
+      return maps.first['data'] as String?;
+    }
+    return null;
+  }
+
+  Future<void> saveHomeCache(String key, String data) async {
+    final db = await dbHelper.database;
+    await db.insert(DatabaseHelper.homeCacheTable, {
+      'key': key,
+      'data': data,
+    }, conflictAlgorithm: ConflictAlgorithm.replace);
+  }
+
+  /// Recalculates interaction flags for all drugs in the database.
+  /// This ensures that has_drug_interaction, has_food_interaction, and has_disease_interaction
+  /// columns are correctly populated based on current tables.
+  Future<void> recalculateInteractionFlags() async {
+    final db = await dbHelper.database;
+    await db.transaction((txn) async {
+      _logger.i('Starting interaction flags recalculation...');
+
+      // 1. Reset all flags to 0 first
+      await txn.execute('''
+        UPDATE ${DatabaseHelper.medicinesTable} 
+        SET has_drug_interaction = 0, 
+            has_food_interaction = 0, 
+            has_disease_interaction = 0
+      ''');
+
+      // 2. Set has_drug_interaction = 1 for drugs matching any interaction ingredient
+      // We join med_ingredients with drug_interactions
+      await txn.execute('''
+        UPDATE ${DatabaseHelper.medicinesTable}
+        SET has_drug_interaction = 1
+        WHERE id IN (
+          SELECT DISTINCT mi.med_id
+          FROM med_ingredients mi
+          JOIN ${DatabaseHelper.interactionsTable} ri 
+          ON (LOWER(mi.ingredient) = LOWER(ri.ingredient1) OR LOWER(mi.ingredient) = LOWER(ri.ingredient2))
+        )
+      ''');
+
+      // 3. Set has_food_interaction = 1 for drugs in food_interactions or matching ingredient
+      await txn.execute('''
+        UPDATE ${DatabaseHelper.medicinesTable}
+        SET has_food_interaction = 1
+        WHERE id IN (SELECT med_id FROM ${DatabaseHelper.foodInteractionsTable})
+        OR id IN (
+          SELECT DISTINCT mi.med_id
+          FROM med_ingredients mi
+          JOIN ${DatabaseHelper.foodInteractionsTable} fi
+          ON LOWER(mi.ingredient) = LOWER(fi.trade_name) -- some food interactions use ingredient as trade_name
+        )
+      ''');
+
+      // 4. Set has_disease_interaction = 1
+      await txn.execute('''
+        UPDATE ${DatabaseHelper.medicinesTable}
+        SET has_disease_interaction = 1
+        WHERE id IN (SELECT med_id FROM ${DatabaseHelper.diseaseInteractionsTable})
+      ''');
+
+      _logger.i('Interaction flags recalculation completed.');
+    });
   }
 
   // Consolidates all initialization checks into one fast entry point.
@@ -1311,16 +1384,10 @@ class SqliteLocalDataSource {
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
-      // Construct a generic model (med_id 0)
-      return DrugInteractionModel.fromMap({
-        'id': m['id'],
-        'med_id': 0,
-        'ingredient1': m['ingredient1'],
-        'ingredient2': m['ingredient2'],
-        'severity': m['severity'],
-        'effect': m['effect'] ?? m['description'],
-        'source': m['source'],
-      });
+      // Use the full map but ensure med_id is 0 if not present (as this is a general interaction list)
+      final fullMap = Map<String, dynamic>.from(m);
+      fullMap['med_id'] ??= 0;
+      return DrugInteractionModel.fromMap(fullMap);
     });
   }
 
@@ -1558,16 +1625,11 @@ class SqliteLocalDataSource {
         }
       }
 
-      return DrugInteractionModel.fromMap({
-        'id': m['id'],
-        'med_id': 0,
-        'ingredient1': m['ingredient1'],
-        'ingredient2': m['ingredient2'],
-        'severity': m['severity'],
-        'effect': m['effect'] ?? m['description'],
-        'source': m['source'],
-        'is_primary_ingredient': isPrimary,
-      });
+      final fullMap = Map<String, dynamic>.from(m);
+      fullMap['med_id'] ??= 0;
+      fullMap['is_primary_ingredient'] = isPrimary;
+
+      return DrugInteractionModel.fromMap(fullMap);
     });
   }
 

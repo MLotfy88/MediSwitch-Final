@@ -86,7 +86,7 @@ class _MainScreenState extends State<MainScreen> {
                   _logger.i("Debug FAB tapped: Navigating to LogViewerScreen.");
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder: (context) => const LogViewerScreen(),
                     ),
                   );

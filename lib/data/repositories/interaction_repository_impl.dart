@@ -397,6 +397,91 @@ class InteractionRepositoryImpl implements InteractionRepository {
     }
   }
 
+  @override
+  Future<Either<Failure, int>> syncFoodInteractions(int lastTimestamp) async {
+    try {
+      final remoteDataSource = locator<DrugRemoteDataSource>();
+      final result = await remoteDataSource.getDeltaSyncFoodInteractions(
+        lastTimestamp,
+      );
+
+      return await result.fold((failure) => Left(failure), (data) async {
+        final raw = (data['data'] as List?) ?? [];
+        final items = raw.cast<Map<String, dynamic>>();
+
+        if (items.isNotEmpty) {
+          final db = await localDataSource.dbHelper.database;
+          await db.transaction((txn) async {
+            final batch = txn.batch();
+            for (final item in items) {
+              batch.insert(
+                DatabaseHelper.foodInteractionsTable,
+                {
+                  'id': item['id'],
+                  'med_id': item['med_id'],
+                  'trade_name': item['trade_name'],
+                  'interaction': item['interaction'],
+                  'source': item['source'],
+                  'updated_at': item['updated_at'],
+                },
+                conflictAlgorithm: ConflictAlgorithm.replace,
+              );
+            }
+            await batch.commit(noResult: true);
+          });
+          return Right(items.length);
+        }
+        return const Right(0);
+      });
+    } catch (e) {
+      return Left(ServerFailure(message: e.toString()));
+    }
+  }
+
+  @override
+  Future<Either<Failure, int>> syncDiseaseInteractions(
+    int lastTimestamp,
+  ) async {
+    try {
+      final remoteDataSource = locator<DrugRemoteDataSource>();
+      final result = await remoteDataSource.getDeltaSyncDiseaseInteractions(
+        lastTimestamp,
+      );
+
+      return await result.fold((failure) => Left(failure), (data) async {
+        final raw = (data['data'] as List?) ?? [];
+        final items = raw.cast<Map<String, dynamic>>();
+
+        if (items.isNotEmpty) {
+          final db = await localDataSource.dbHelper.database;
+          await db.transaction((txn) async {
+            final batch = txn.batch();
+            for (final item in items) {
+              batch.insert(
+                DatabaseHelper.diseaseInteractionsTable,
+                {
+                  'id': item['id'],
+                  'med_id': item['med_id'],
+                  'disease_name': item['disease_name'],
+                  'severity': item['severity'],
+                  'interaction': item['interaction'],
+                  'source': item['source'],
+                  'updated_at': item['updated_at'],
+                },
+                conflictAlgorithm: ConflictAlgorithm.replace,
+              );
+            }
+            await batch.commit(noResult: true);
+          });
+          return Right(items.length);
+        }
+        return const Right(0);
+      });
+    } catch (e) {
+      return Left(ServerFailure(message: e.toString()));
+    }
+  }
+
   bool _isMatch(String interactionName, DrugEntity drug) {
     final name = interactionName.toLowerCase().trim();
 

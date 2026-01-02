@@ -159,10 +159,16 @@ class _IngredientInteractionsScreenState
                   widget.ingredient?.normalizedName?.toLowerCase() ??
                   widget.ingredient?.name.toLowerCase();
 
-              final otherIngredient =
-                  i.ingredient1.toLowerCase() == searchKey
-                      ? i.ingredient2
-                      : i.ingredient1;
+              final String otherIngredient;
+              if (searchKey != null) {
+                otherIngredient =
+                    i.ingredient1.toLowerCase() == searchKey
+                        ? i.ingredient2
+                        : i.ingredient1;
+              } else {
+                // If in "See All" mode (ingredient is null), search in both ingredient names
+                otherIngredient = "${i.ingredient1} ${i.ingredient2}";
+              }
 
               final isFoodInteraction = i.type == 'food';
 

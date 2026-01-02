@@ -66,6 +66,12 @@ abstract class InteractionRepository {
   /// Synchronize dosage guidelines with remote server
   Future<Either<Failure, int>> syncDosages(int lastTimestamp);
 
+  /// Synchronize food interactions with remote server
+  Future<Either<Failure, int>> syncFoodInteractions(int lastTimestamp);
+
+  /// Synchronize disease interactions with remote server
+  Future<Either<Failure, int>> syncDiseaseInteractions(int lastTimestamp);
+
   /// Get food interactions for a specific drug
   /// Get food interactions for a specific drug
   /// Checks both ID and active ingredient for robust matching

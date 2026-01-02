@@ -36,6 +36,16 @@ abstract class DrugRemoteDataSource {
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDosages(
     int lastTimestamp,
   );
+
+  /// Get food interactions updated after a specific timestamp
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncFoodInteractions(
+    int lastTimestamp,
+  );
+
+  /// Get disease interactions updated after a specific timestamp
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDiseaseInteractions(
+    int lastTimestamp,
+  );
 }
 
 // Implementation of the remote data source
@@ -143,6 +153,23 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
     int lastTimestamp,
   ) async {
     return _getSyncData('$baseUrl/api/sync/dosages', lastTimestamp);
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncFoodInteractions(
+    int lastTimestamp,
+  ) async {
+    return _getSyncData('$baseUrl/api/sync/food-interactions', lastTimestamp);
+  }
+
+  @override
+  Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDiseaseInteractions(
+    int lastTimestamp,
+  ) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/disease-interactions',
+      lastTimestamp,
+    );
   }
 
   Future<Either<Failure, Map<String, dynamic>>> _getSyncData(

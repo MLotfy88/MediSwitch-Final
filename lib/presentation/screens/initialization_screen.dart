@@ -33,24 +33,29 @@ class _InitializationScreenState extends State<InitializationScreen> {
 
   final List<Map<String, String>> _insights = [
     {
-      "title": "Interaction Logic",
+      "title": "Clinical Intelligence",
       "subtitle":
-          "MediSwitch checks over 140,000 interaction rules in milliseconds to ensure your patient's safety.",
+          "MediSwitch identifies over 15,000 disease-drug contraindications instantly powered by DDInter 2.0.",
     },
     {
-      "title": "Search Speed",
+      "title": "Interaction Matrix",
       "subtitle":
-          "Pro Tip: Search with partial names to quickly find all available dosage forms and brands.",
+          "Our engine analyzes 140,000+ interaction rules in milliseconds to maximize patient safety.",
     },
     {
-      "title": "Medical Facts",
+      "title": "Dietary Awareness",
       "subtitle":
-          "Grapefruit juice inhibits CYP3A4. We alert you to these critical food-drug interactions instantly.",
+          "From grapefruit juice to caffeine, we alert you to critical food-drug interactions as they happen.",
     },
     {
-      "title": "Smart Alternatives",
+      "title": "Advanced Management",
       "subtitle":
-          "Save Time: Look for the 'Similars' icon to find available market alternatives with the same efficacy.",
+          "Get evidence-based clinical management text and safe alternatives for high-risk prescriptions.",
+    },
+    {
+      "title": "Pediatric Precision",
+      "subtitle":
+          "Access specific dosage guidelines for children ensured by reliable clinical sources.",
     },
   ];
 

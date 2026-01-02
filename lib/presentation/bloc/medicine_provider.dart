@@ -218,6 +218,13 @@ class MedicineProvider extends ChangeNotifier {
       _isLoading = false;
       notifyListeners();
 
+      // Recalculate interaction flags to ensure icons are up to date
+      _localDataSource.recalculateInteractionFlags().then((_) {
+        _logger.i(
+          'MedicineProvider: Interaction flags recalculated in background.',
+        );
+      });
+
       // 2. Trigger Background Sync (Fire and Forget)
       // This runs in the background and will notify listeners if data changes
       // _backgroundSync(); // DISABLED: Fix freeze
@@ -563,23 +570,65 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<void> _loadHighRiskIngredients() async {
     _logger.d("MedicineProvider: Loading high risk ingredients...");
-    // Limit to top 10
+
+    // 1. Try loading from cache FIRST for instant UI feedback
+    try {
+      final cachedData = await _localDataSource.getHomeCache(
+        'high_risk_ingredients',
+      );
+      if (cachedData != null) {
+        final List<dynamic> decoded = jsonDecode(cachedData) as List<dynamic>;
+        _highRiskIngredients =
+            decoded
+                .map(
+                  (item) =>
+                      HighRiskIngredient.fromJson(item as Map<String, dynamic>),
+                )
+                .toList();
+        _logger.i(
+          "MedicineProvider: Loaded ${_highRiskIngredients.length} high risk ingredients from CACHE.",
+        );
+        notifyListeners();
+      }
+    } catch (e) {
+      _logger.w(
+        "MedicineProvider: Error loading high risk ingredients from cache: $e",
+      );
+    }
+
+    // 2. Proceed with heavy calculation in background
     final result = await _getHighRiskIngredientsUseCase(10);
     result.fold(
       (failure) {
         _logger.e(
           "MedicineProvider: Failed to load high risk ingredients: $failure",
         );
-        _highRiskIngredients = [];
       },
       (ingredients) async {
         _logger.i(
-          "MedicineProvider: Loaded ${ingredients.length} high risk ingredients.",
+          "MedicineProvider: Calculated ${ingredients.length} high risk ingredients.",
         );
+
+        // 3. Save to cache for next launch
+        try {
+          final encoded = jsonEncode(
+            ingredients.map((e) => e.toJson()).toList(),
+          );
+          await _localDataSource.saveHomeCache(
+            'high_risk_ingredients',
+            encoded,
+          );
+        } catch (e) {
+          _logger.w(
+            "MedicineProvider: Error saving high risk ingredients to cache: $e",
+          );
+        }
+
+        // 4. Update state and notify UI
         _highRiskIngredients = ingredients;
+        notifyListeners();
       },
     );
-    notifyListeners(); // ✅ تحديث الواجهة
   }
 
   Future<void> _loadHighRiskDrugs() async {
@@ -616,21 +665,56 @@ class MedicineProvider extends ChangeNotifier {
 
   Future<void> _loadFoodInteractionDrugs() async {
     _logger.d("MedicineProvider: ===== LOADING FOOD INTERACTION DRUGS =====");
+
+    // 1. Try loading from cache FIRST
     try {
-      // Load Ingredients with Counts directly from Repository (Efficient)
+      final cachedData = await _localDataSource.getHomeCache(
+        'food_interaction_ingredients',
+      );
+      if (cachedData != null) {
+        final List<dynamic> decoded = jsonDecode(cachedData) as List<dynamic>;
+        _foodInteractionIngredients =
+            decoded
+                .map(
+                  (item) =>
+                      HighRiskIngredient.fromJson(item as Map<String, dynamic>),
+                )
+                .toList();
+        _logger.i(
+          "MedicineProvider: Loaded ${_foodInteractionIngredients.length} food ingredients from CACHE.",
+        );
+        notifyListeners();
+      }
+    } catch (e) {
+      _logger.w(
+        "MedicineProvider: Error loading food ingredients from cache: $e",
+      );
+    }
+
+    try {
+      // 2. Load Ingredients with Counts directly from Repository (Expensive Calc)
       final ingredients =
           await _interactionRepository.getFoodInteractionIngredients();
-      _foodInteractionIngredients = ingredients;
 
+      // 3. Save to cache
+      try {
+        final encoded = jsonEncode(ingredients.map((e) => e.toJson()).toList());
+        await _localDataSource.saveHomeCache(
+          'food_interaction_ingredients',
+          encoded,
+        );
+      } catch (e) {
+        _logger.w(
+          "MedicineProvider: Error saving food ingredients to cache: $e",
+        );
+      }
+
+      _foodInteractionIngredients = ingredients;
       _logger.i(
         "MedicineProvider: ✅ SUCCESS! Loaded ${ingredients.length} unique food ingredients with counts.",
       );
 
-      // Also load sample drugs for other usages if needed, or keep previous logic if drugs are needed elsewhere.
-      // Assuming we need drugs list for some other view, or we can query it on demand.
-      // Keeping original behavior: Load sample drugs just to have them available or for logging
-      // But _foodInteractionDrugs list is used?
-      // Checking usages: It's just exposed. Let's keep loading it for safety but optimized.
+      // Also load sample drugs for other usages if needed (usually fast)
       final drugs = await _interactionRepository.getDrugsWithFoodInteractions(
         10,
       );
@@ -638,8 +722,6 @@ class MedicineProvider extends ChangeNotifier {
     } catch (e, stackTrace) {
       _logger.e("MedicineProvider: EXCEPTION in _loadFoodInteractionDrugs: $e");
       _logger.e(stackTrace);
-      _foodInteractionIngredients = [];
-      _foodInteractionDrugs = [];
     }
     notifyListeners();
   }

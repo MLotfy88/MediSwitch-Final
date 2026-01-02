@@ -82,6 +82,34 @@ class UnifiedSyncService {
         dosageResult.fold((f) => logger.e('Dosage sync failed', f), (_) {});
       }
 
+      // 5. Sync Food Interactions
+      logger.i('Syncing Food Interactions...');
+      final lastFoodSync =
+          prefs.getInt('food_interactions_last_sync_timestamp') ?? 0;
+      final foodResult = await interactionRepository.syncFoodInteractions(
+        lastFoodSync,
+      );
+      if (foodResult.isLeft()) {
+        foodResult.fold(
+          (f) => logger.e('Food interaction sync failed', f),
+          (_) {},
+        );
+      }
+
+      // 6. Sync Disease Interactions
+      logger.i('Syncing Disease Interactions...');
+      final lastDiseaseSync =
+          prefs.getInt('disease_interactions_last_sync_timestamp') ?? 0;
+      final diseaseResult = await interactionRepository.syncDiseaseInteractions(
+        lastDiseaseSync,
+      );
+      if (diseaseResult.isLeft()) {
+        diseaseResult.fold(
+          (f) => logger.e('Disease interaction sync failed', f),
+          (_) {},
+        );
+      }
+
       stopwatch.stop();
       logger.i('Unified Sync completed in ${stopwatch.elapsedMilliseconds}ms');
 

@@ -4,7 +4,6 @@ import 'package:equatable/equatable.dart';
 
 import 'disease_interaction.dart';
 import 'interaction_severity.dart'; // Import the enum
-import 'interaction_type.dart'; // Import the enum
 
 // نموذج التفاعل الدوائي في طبقة المجال
 class DrugInteraction extends Equatable {
@@ -147,25 +146,5 @@ class DrugInteraction extends Equatable {
     ddinterId,
     source,
     type,
-    isPrimaryIngredient,
   ];
-}
-
-// Helper function to parse InteractionSeverity from string safely
-InteractionSeverity _parseSeverity(String severityString) {
-  return InteractionSeverity.values.firstWhere(
-    (e) =>
-        e.toString().split('.').last.toLowerCase() ==
-        severityString.toLowerCase(),
-    orElse: () => InteractionSeverity.unknown, // Default if not found
-  );
-}
-
-// Helper function to parse InteractionType from string safely
-InteractionType _parseInteractionType(String typeString) {
-  return InteractionType.values.firstWhere(
-    (e) =>
-        e.toString().split('.').last.toLowerCase() == typeString.toLowerCase(),
-    orElse: () => InteractionType.unknown, // Default if not found
-  );
 }

@@ -16,14 +16,14 @@ class RewardedAdService {
     final config = _configProvider.config;
 
     // Check if rewarded ads are enabled
-    if (config == null || !(config.rewardedEnabled ?? false)) {
+    if (config == null || !(config.rewardedEnabled)) {
       debugPrint('Rewarded ads are disabled');
       return;
     }
 
     // Get ad unit ID based on platform and test mode
     String adUnitId;
-    if (config.rewardedTestMode ?? false) {
+    if (config.rewardedTestMode) {
       // Test ad unit IDs
       adUnitId =
           defaultTargetPlatform == TargetPlatform.android
@@ -33,11 +33,11 @@ class RewardedAdService {
       // Production ad unit IDs from config
       adUnitId =
           defaultTargetPlatform == TargetPlatform.android
-              ? ((config.rewardedAdUnitIdAndroid ?? '').isNotEmpty
-                  ? config.rewardedAdUnitIdAndroid!
+              ? ((config.rewardedAdUnitIdAndroid).isNotEmpty
+                  ? config.rewardedAdUnitIdAndroid
                   : 'ca-app-pub-3940256099942544/5224354917')
-              : ((config.rewardedAdUnitIdIos ?? '').isNotEmpty
-                  ? config.rewardedAdUnitIdIos!
+              : ((config.rewardedAdUnitIdIos).isNotEmpty
+                  ? config.rewardedAdUnitIdIos
                   : 'ca-app-pub-3940256099942544/1712485313');
     }
 

@@ -17,12 +17,13 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 14; // Force rebuild for alternatives (was 13)
+  static const int _dbVersion = 15; // Added home_sections_cache (was 14)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
   static const String foodInteractionsTable = 'food_interactions';
   static const String diseaseInteractionsTable = 'disease_interactions';
+  static const String homeCacheTable = 'home_sections_cache';
 
   // --- Column Names (Strictly snake_case to match D1 & Assets) ---
   static const String colId = 'id';
@@ -157,6 +158,13 @@ class DatabaseHelper {
         'Interactions table reset. Fresh seeding will populate all fields.',
       );
     }
+
+    if (oldVersion < 15) {
+      debugPrint('Upgrading to Version 15: Adding home_sections_cache...');
+      await db.execute(
+        'CREATE TABLE IF NOT EXISTS $homeCacheTable (key TEXT PRIMARY KEY, data TEXT)',
+      );
+    }
   }
 
   Future<void> _onCreate(Database db, int version) async {
@@ -218,6 +226,11 @@ class DatabaseHelper {
 
     // Create Disease Interactions Table
     await _onCreateDiseaseInteractions(db);
+
+    // Create Home Cache Table
+    await db.execute(
+      'CREATE TABLE IF NOT EXISTS $homeCacheTable (key TEXT PRIMARY KEY, data TEXT)',
+    );
 
     debugPrint('Database tables and indices created.');
   }
