@@ -149,3 +149,4 @@ ingredient_matching_report.txt
 assets/external_research_data/*.db
 assets/external_research_data/csv_exports/
 assets/external_research_data/ddinter-database.zip
+assets/external_research_data/csv_exports/

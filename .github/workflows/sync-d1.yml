@@ -30,24 +30,19 @@ jobs:
       - name: Install Wrangler
         run: npm install -g wrangler
       
-      - name: Generate Clinical SQL Fragments
-        run: |
-          python3 scripts/rebuild_d1_data.py
-          echo "✅ SQL fragments generation complete"
-      
       - name: Resilient Deploy to Cloudflare D1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           DB_NAME: "mediswitsh-db"
         run: |
-          echo "🚀 Starting Resilient D1 Data Sync..."
+          echo "🚀 Starting Resilient D1 Data Sync (Pre-Generated Chunks)..."
           
           # Function to execute a pattern of files
           execute_pattern() {
             local pattern=$1
             local label=$2
             echo "📦 Deploying $label dataset ($pattern)..."
-            FILES=$(find . -maxdepth 1 -name "$pattern" | sort)
+            FILES=$(find d1_sql_chunks/ -maxdepth 1 -name "$pattern" | sort)
             if [ -z "$FILES" ]; then
               echo "  ⚠️ No files matching $pattern found."
               return
@@ -56,7 +51,7 @@ jobs:
             for f in $FILES; do
               echo "  - Executing $f..."
               for i in {1..3}; do
-                if npx wrangler d1 execute $DB_NAME --yes --remote --file="$f" --config=cloudflare-worker/wrangler.toml; then
+                if npx wrangler d1 execute $DB_NAME --yes --remote --file="$f"; then
                   echo "    ✅ Success: $f"
                   break
                 else
@@ -73,11 +68,17 @@ jobs:
             done
           }
           
-          # 1. Apply Schema first
+          # 1. Apply Schema first (from main schema file or d1_migration_sql)
           echo "📄 Applying Schema..."
-          npx wrangler d1 execute $DB_NAME --yes --remote --file=cloudflare-worker/schema.sql --config=cloudflare-worker/wrangler.toml
+          if [ -f "d1_migration_sql/01_schema.sql" ]; then
+            npx wrangler d1 execute $DB_NAME --yes --remote --file=d1_migration_sql/01_schema.sql
+          elif [ -f "cloudflare-worker/schema.sql" ]; then
+            npx wrangler d1 execute $DB_NAME --yes --remote --file=cloudflare-worker/schema.sql
+          else
+            echo "⚠️ No schema file found, skipping..."
+          fi
           
-          # 2. Deploy all datasets in order
+          # 2. Deploy all datasets in order (from d1_sql_chunks/)
           execute_pattern "d1_import_part_*.sql" "Drugs"
           execute_pattern "d1_rules_part_*.sql" "Drug Interactions"
           execute_pattern "d1_food_part_*.sql" "Food Interactions"

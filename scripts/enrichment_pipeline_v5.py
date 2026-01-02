@@ -6,7 +6,7 @@ import csv
 from typing import List, Dict, Any
 
 # --- Configuration ---
-DDINTER_DB_PATH = 'assets/external_research_data/updated/ddinter_complete.db'
+DDINTER_DB_PATH = 'assets/external_research_data/ddinter_complete.db'
 OUTPUT_DIR = 'assets/data/interactions/enriched'
 RAW_CSV_PATH = 'assets/external_research_data/ddinter_interactions_v6.csv'
 
@@ -148,7 +148,7 @@ def export_food_interactions(conn, output_dir):
     c = conn.cursor()
     try:
         c.execute('''
-            SELECT d.ddinter_id, d.drug_name, fi.food_name, fi.severity, fi.description, fi.management, fi.mechanism_flags
+            SELECT d.ddinter_id, d.drug_name, fi.food_name, fi.severity, fi.description, fi.management_text, fi.mechanism_flags
             FROM drug_food_interactions fi
             JOIN drugs d ON fi.drug_id = d.ddinter_id
         ''')

@@ -1,0 +1,97 @@
+📊 Auditing Database: mediswitch.db
+============================================================
+
+Table: drugs (22,639 rows)
+------------------------------------------------------------
+  tradeName                 | Filled:   22,639 | Rate:  100.0%
+  id                        | Filled:   22,639 | Rate:  100.0%
+  arabicName                | Filled:   22,639 | Rate:  100.0%
+  price                     | Filled:   22,639 | Rate:  100.0%
+  oldPrice                  | Filled:    9,821 | Rate:   43.4%
+  mainCategory              | Filled:   21,711 | Rate:   95.9%
+  category                  | Filled:   21,711 | Rate:   95.9%
+  category_ar               | Filled:        0 | Rate:    0.0%
+  active                    | Filled:   20,284 | Rate:   89.6%
+  company                   | Filled:   22,523 | Rate:   99.5%
+  dosageForm                | Filled:   22,639 | Rate:  100.0%
+  dosageForm_ar             | Filled:   22,639 | Rate:  100.0%
+  concentration             | Filled:   18,474 | Rate:   81.6%
+  unit                      | Filled:   22,639 | Rate:  100.0%
+  usage                     | Filled:    6,551 | Rate:   28.9%
+  usage_ar                  | Filled:        0 | Rate:    0.0%
+  description               | Filled:   11,781 | Rate:   52.0%
+  barcode                   | Filled:    9,678 | Rate:   42.7%
+  visits                    | Filled:   22,639 | Rate:  100.0%
+  lastPriceUpdate           | Filled:   22,603 | Rate:   99.8%
+  imageUrl                  | Filled:        0 | Rate:    0.0%
+  updatedAt                 | Filled:   22,639 | Rate:  100.0%
+  indication                | Filled:   11,418 | Rate:   50.4%
+  mechanism_of_action       | Filled:   11,489 | Rate:   50.7%
+  pharmacodynamics          | Filled:   11,152 | Rate:   49.3%
+  data_source_pharmacology  | Filled:   11,570 | Rate:   51.1%
+
+Table: dosage_guidelines (25,489 rows)
+------------------------------------------------------------
+  id                        | Filled:   25,489 | Rate:  100.0%
+  med_id                    | Filled:   25,489 | Rate:  100.0%
+  dailymed_setid            | Filled:    9,377 | Rate:   36.8%
+  min_dose                  | Filled:   25,489 | Rate:  100.0%
+  max_dose                  | Filled:      978 | Rate:    3.8%
+  frequency                 | Filled:   24,038 | Rate:   94.3%
+  duration                  | Filled:   25,489 | Rate:  100.0%
+  instructions              | Filled:   25,489 | Rate:  100.0%
+  condition                 | Filled:   25,489 | Rate:  100.0%
+  source                    | Filled:   25,489 | Rate:  100.0%
+  is_pediatric              | Filled:   25,489 | Rate:  100.0%
+
+Table: drug_interactions (53,123 rows)
+------------------------------------------------------------
+  id                        | Filled:   53,123 | Rate:  100.0%
+  ingredient1               | Filled:   53,123 | Rate:  100.0%
+  ingredient2               | Filled:   53,123 | Rate:  100.0%
+  severity                  | Filled:   53,123 | Rate:  100.0%
+  effect                    | Filled:   53,123 | Rate:  100.0%
+  source                    | Filled:   53,123 | Rate:  100.0%
+  updated_at                | Filled:   53,123 | Rate:  100.0%
+  management_text           | Filled:        0 | Rate:    0.0%
+  mechanism_text            | Filled:        0 | Rate:    0.0%
+  recommendation            | Filled:        0 | Rate:    0.0%
+  arabic_recommendation     | Filled:        0 | Rate:    0.0%
+  arabic_effect             | Filled:        0 | Rate:    0.0%
+  risk_level                | Filled:        0 | Rate:    0.0%
+  type                      | Filled:        0 | Rate:    0.0%
+
+Table: med_ingredients (49,107 rows)
+------------------------------------------------------------
+  med_id                    | Filled:   49,107 | Rate:  100.0%
+  ingredient                | Filled:   49,107 | Rate:  100.0%
+
+Table: food_interactions (13,945 rows)
+------------------------------------------------------------
+  id                        | Filled:   13,945 | Rate:  100.0%
+  med_id                    | Filled:   13,945 | Rate:  100.0%
+  interaction_text          | Filled:   13,945 | Rate:  100.0%
+  source                    | Filled:   13,945 | Rate:  100.0%
+  created_at                | Filled:   13,945 | Rate:  100.0%
+
+Table: drug_interactions_v8 (18,130 rows)
+------------------------------------------------------------
+  id                        | Filled:   18,130 | Rate:  100.0%
+  ddinter_interaction_id    | Filled:   18,130 | Rate:  100.0%
+  drug_a_id                 | Filled:   18,130 | Rate:  100.0%
+  drug_b_id                 | Filled:   18,130 | Rate:  100.0%
+  severity                  | Filled:   18,130 | Rate:  100.0%
+  interaction_text          | Filled:   18,130 | Rate:  100.0%
+  management_text           | Filled:   18,130 | Rate:  100.0%
+  source                    | Filled:   18,130 | Rate:  100.0%
+
+Table: disease_interactions (0 rows)
+------------------------------------------------------------
+  id                        | Filled:        0 | Rate:    0.0%
+  med_id                    | Filled:        0 | Rate:    0.0%
+  trade_name                | Filled:        0 | Rate:    0.0%
+  disease_name              | Filled:        0 | Rate:    0.0%
+  interaction_text          | Filled:        0 | Rate:    0.0%
+  severity                  | Filled:        0 | Rate:    0.0%
+  source                    | Filled:        0 | Rate:    0.0%
+  created_at                | Filled:        0 | Rate:    0.0%

@@ -1,0 +1,8 @@
+name = "mediswitch-api"
+main = "src/index.ts"
+compatibility_date = "2023-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mediswitsh-db"
+database_id = "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"

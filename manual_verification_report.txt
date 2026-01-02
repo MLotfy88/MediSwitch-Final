@@ -1,0 +1,172 @@
+====================================================================================================
+🔍 الفحص اليدوي لبيانات التفاعلات - MediSwitch Database
+====================================================================================================
+
+📌 الجزء الأول: فحص تفاعلات الأدوية (Drug-Drug Interactions)
+----------------------------------------------------------------------------------------------------
+
+العينة #1:
+  الدواء الأول: Metformin
+  الدواء الثاني: Acarbose
+  الخطورة: Minor
+  التأثير: Metformin, when coadministered with acarbose may have a delayed onset of action ...
+  إدارة التفاعل: -...
+  التوصية: -...
+  الآلية: Absorption
+  ✓ هل التوصية مختلفة عن الإدارة؟ لا - متطابقة!
+
+العينة #2:
+  الدواء الأول: Warfarin
+  الدواء الثاني: Acarbose
+  الخطورة: Minor
+  التأثير: Limited data suggest that the anticoagulant effect of warfarin may be increased ...
+  إدارة التفاعل: -...
+  التوصية: -...
+  الآلية: Synergism
+  ✓ هل التوصية مختلفة عن الإدارة؟ لا - متطابقة!
+
+العينة #3:
+  الدواء الأول: Warfarin
+  الدواء الثاني: Acetaminophen
+  الخطورة: Moderate
+  التأثير: Acetaminophen (APAP) may potentiate the hypoprothrombinemic effect of warfarin a...
+  إدارة التفاعل: Due to the lack of safer alternatives, acetaminophen is considered the analgesic...
+  التوصية: Due to the lack of safer alternatives, acetaminophen is considered the analgesic...
+  الآلية: Synergism
+  ✓ هل التوصية مختلفة عن الإدارة؟ لا - متطابقة!
+
+العينة #4:
+  الدواء الأول: Warfarin
+  الدواء الثاني: Ranitidine
+  الخطورة: Moderate
+  التأثير: Limited data suggest that ranitidine may occasionally alter the hypoprothrombine...
+  إدارة التفاعل: Until more data are available, caution may be advisable if ranitidine is used in...
+  التوصية: Until more data are available, caution may be advisable if ranitidine is used in...
+  الآلية: Others
+  ✓ هل التوصية مختلفة عن الإدارة؟ لا - متطابقة!
+
+العينة #5:
+  الدواء الأول: Warfarin
+  الدواء الثاني: Rabeprazole
+  الخطورة: Moderate
+  التأثير: Coadministration with proton pump inhibitors (PPIs) has occasionally been associ...
+  إدارة التفاعل: Given the potential for interaction and the high degree of interpatient variabil...
+  التوصية: Given the potential for interaction and the high degree of interpatient variabil...
+  الآلية: Metabolism
+  ✓ هل التوصية مختلفة عن الإدارة؟ لا - متطابقة!
+
+
+📌 الجزء الثاني: فحص تفاعلات الأمراض (Drug-Disease Interactions)
+----------------------------------------------------------------------------------------------------
+
+العينة #1:
+  المادة الفعالة (DDInter): Mycophenolic acid
+  الدواء المحلي المرتبط: Herbamix hair oil 60 ml
+  رقم الدواء (med_id): 6051
+  المرض: Leukoencephalopathy, Progressive Multifocal
+  الخطورة: 3
+  التفاعل: Immunosuppressive agents may increase the risk of progressive multifocal leukoencephalopathy (PML). ...
+  ✓ هل تم الربط؟ نعم - صحيح!
+
+العينة #2:
+  المادة الفعالة (DDInter): Meclofenamic acid
+  الدواء المحلي المرتبط: Lenzy contact lenses soln. 120 ml
+  رقم الدواء (med_id): 30813
+  المرض: Thrombosis
+  الخطورة: 3
+  التفاعل: Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thro...
+  ✓ هل تم الربط؟ نعم - صحيح!
+
+العينة #3:
+  المادة الفعالة (DDInter): Cefotetan
+  الدواء المحلي المرتبط: Adezia topical cream 60 gm
+  رقم الدواء (med_id): 13492
+  المرض: Kidney Diseases
+  الخطورة: 2
+  التفاعل: Most beta-lactam antibiotics are eliminated by the kidney as unchanged drug and, in some cases, also...
+  ✓ هل تم الربط؟ نعم - صحيح!
+
+العينة #4:
+  المادة الفعالة (DDInter): Fedratinib
+  الدواء المحلي المرتبط: Pharmaceris f-mild fluid foundation spf20 01 ivory intense coverage
+  رقم الدواء (med_id): 24799
+  المرض: Liver Failure
+  الخطورة: 3
+  التفاعل: The pharmacokinetics of fedratinib have not been evaluated in patients with severe hepatic impairmen...
+  ✓ هل تم الربط؟ نعم - صحيح!
+
+العينة #5:
+  المادة الفعالة (DDInter): Protriptyline
+  الدواء المحلي المرتبط: Foltene shampoo women 200 ml
+  رقم الدواء (med_id): 19311
+  المرض: Bipolar Disorder
+  الخطورة: 2
+  التفاعل: A major depressive episode can be the initial presentation of bipolar disorder.  Patients with depre...
+  ✓ هل تم الربط؟ نعم - صحيح!
+
+
+📌 الجزء الثالث: فحص تفاعلات الطعام (Drug-Food Interactions)
+----------------------------------------------------------------------------------------------------
+
+العينة #1:
+  الدواء المحلي: Blanka-s cream 40 gm
+  المادة الفعالة: 
+  رقم الدواء (med_id): 15361
+  التفاعل: Interaction Type: food
+Severity: Moderate
+
+Effect: Certain penicillins may exhibit reduced gastrointestinal absorption i...
+  ✓ التفاعل يحتوي على تفاصيل؟ نعم
+
+العينة #2:
+  الدواء المحلي: Bonny face cream 50 gm
+  المادة الفعالة: 
+  رقم الدواء (med_id): 15430
+  التفاعل: Interaction Type: alcohol
+Severity: Moderate
+
+Effect: Use of anticholinergic agents with alcohol may result in sufficien...
+  ✓ التفاعل يحتوي على تفاصيل؟ نعم
+
+العينة #3:
+  الدواء المحلي: Solantra ultra moisturizing cream 100 gm
+  المادة الفعالة: 
+  رقم الدواء (med_id): 5891
+  التفاعل: Interaction Type: alcohol
+Severity: Moderate
+
+Effect: Some cephalosporins may occasionally induce a disulfiram-like reac...
+  ✓ التفاعل يحتوي على تفاصيل؟ نعم
+
+العينة #4:
+  الدواء المحلي: Tri tect acne soap 100 gm
+  المادة الفعالة: 
+  رقم الدواء (med_id): 11628
+  التفاعل: Interaction Type: high-fat foods
+Severity: Moderate
+
+Effect: Food may alter the oral bioavailability of cabozantinib.  W...
+  ✓ التفاعل يحتوي على تفاصيل؟ نعم
+
+العينة #5:
+  الدواء المحلي: Vitix regulating gel 50 ml
+  المادة الفعالة: 
+  رقم الدواء (med_id): 29534
+  التفاعل: Interaction Type: alcohol
+Severity: Moderate
+
+Effect: Many psychotherapeutic and CNS-active agents (e.g., anxiolytics, s...
+  ✓ التفاعل يحتوي على تفاصيل؟ نعم
+
+
+📊 إحصائيات نهائية:
+----------------------------------------------------------------------------------------------------
+إجمالي تفاعلات الأدوية: 254,114
+تفاعلات الأمراض المرتبطة: 7,720,521 / 7,720,521 (100.0%)
+تفاعلات الطعام المرتبطة: 815,710 / 815,710 (100.0%)
+
+التفاعلات التي فيها تكرار (management = recommendation): 73,441 / 254,114 (28.9%)
+
+====================================================================================================
+✅ انتهى الفحص اليدوي
+====================================================================================================

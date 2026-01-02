@@ -1,0 +1,47 @@
+{
+  "total_tables": 7,
+  "tables": [
+    {
+      "table": "drugs",
+      "rows": 22639,
+      "size_mb": 0
+    },
+    {
+      "table": "dosage_guidelines",
+      "rows": 25489,
+      "size_mb": 0
+    },
+    {
+      "table": "drug_interactions",
+      "rows": 254114,
+      "size_mb": 0
+    },
+    {
+      "table": "med_ingredients",
+      "rows": 49107,
+      "size_mb": 0
+    },
+    {
+      "table": "drug_interactions_v8",
+      "rows": 18130,
+      "size_mb": 0
+    },
+    {
+      "table": "disease_interactions",
+      "rows": 7785,
+      "size_mb": 0
+    },
+    {
+      "table": "food_interactions",
+      "rows": 804,
+      "size_mb": 0
+    }
+  ],
+  "strategy": "incremental",
+  "notes": [
+    "⚠️ حجم قاعدة البيانات كبير جداً (6.2 GB)",
+    "💡 الحل: استخدام wrangler d1 execute مع batch inserts",
+    "📦 تقسيم كل جدول لـ chunks صغيرة (1000 row/chunk)",
+    "⚡ رفع كل chunk على حدة"
+  ]
+}

@@ -1,0 +1,85 @@
+
+====================================================================================================
+🔍 Drug-Drug Interactions (Sample)
+====================================================================================================
+
+📌 Sample #1:
+  ingredient1          : Telaprevir
+  ingredient2          : Revefenacin
+  severity             : Moderate
+  effect               : Coadministration of revefenacin with inhibitors of organic anion transporting polypeptide (OATP) 1B1 and/or 1B3 may increase systemic exposure to its active metabolite, which has been reported to b...
+  management_text      : Concomitant use of revefenacin with OATP 1B1 and/or 1B3 inhibitors is not recommended.
+  mechanism_text       : Metabolism
+  recommendation       : Concomitant use of revefenacin with OATP 1B1 and/or 1B3 inhibitors is not recommended.
+
+📌 Sample #2:
+  ingredient1          : Nalbuphine
+  ingredient2          : Lamotrigine
+  severity             : Moderate
+  effect               : Central nervous system- and/or respiratory-depressant effects may be additively or synergistically increased in patients taking multiple drugs that cause these effects, especially in elderly or deb...
+  management_text      : During concomitant use of these drugs, patients should be monitored for potentially excessive or prolonged CNS and respiratory depression. Cautious dosage titration may be required, particularly at...
+  mechanism_text       : Synergism
+  recommendation       : During concomitant use of these drugs, patients should be monitored for potentially excessive or prolonged CNS and respiratory depression. Cautious dosage titration may be required, particularly at...
+
+📌 Sample #3:
+  ingredient1          : Buprenorphine
+  ingredient2          : Meperidine
+  severity             : Major
+  effect               : Concomitant use of opioids with other central nervous system (CNS) depressants including mixed agonist-antagonist or partial agonist opioids may result in profound sedation, respiratory depression,...
+  management_text      : The use of opioids in conjunction with other CNS depressants including mixed agonist-antagonist or partial agonist opioids should generally be avoided unless alternative treatment options are inade...
+  mechanism_text       : Synergism
+  recommendation       : The use of opioids in conjunction with other CNS depressants including mixed agonist-antagonist or partial agonist opioids should generally be avoided unless alternative treatment options are inade...
+
+====================================================================================================
+🔍 Disease Interactions (Sample)
+====================================================================================================
+
+📌 Sample #1:
+  trade_name           : Ramipril
+  local_trade_name     : Ramipress 1.25 mg 14 f.c.tab.
+  disease_name         : Heart Failure
+  severity             : 3
+  interaction_text     : ACE inhibitors can cause marked renal impairment in patients whose renal function depends on the activity of the renin-angiotensin-aldosterone system.  In addition, symptomatic and sometimes excess...
+  med_id               : 13074
+
+📌 Sample #2:
+  trade_name           : Aripiprazole
+  local_trade_name     : Apilipex 30 mg 30 f.c. tab.
+  disease_name         : Alcoholic Intoxication
+  severity             : 3
+  interaction_text     : The use of neuroleptic agents is contraindicated in patients with acute alcohol intoxication exhibiting depressed vital signs.  The central nervous system depressant effects of neuroleptic agents m...
+  med_id               : 14310
+
+📌 Sample #3:
+  trade_name           : Dapagliflozin
+  local_trade_name     : Dapilart 10 mg 28 tabs
+  disease_name         : Liver Diseases
+  severity             : 3
+  interaction_text     : Sodium-glucose cotransporter 2 (SGLT2) inhibitors ertugliflozin and canagliflozin are not recommended for use in patients with severe hepatic impairment due to lack of clinical data.  Dapagliflozin...
+  med_id               : 23654
+
+====================================================================================================
+🔍 Food Interactions (Sample)
+====================================================================================================
+
+📌 Sample #1:
+  local_trade_name     : Lovastamed 40mg 30 tab
+  interaction_text     : Food: grapefruit juice
+Severity: Major
+Coadministration with grapefruit juice may significantly increase the plasma concentrations of lovastatin and simvastatin and their active acid metabolites.  ...
+  med_id               : 7568
+
+📌 Sample #2:
+  local_trade_name     : Erec 100mg 12 f.c. tablets
+  interaction_text     : Food: grapefruit juice
+Severity: Moderate
+Coadministration with grapefruit juice may slightly increase the oral bioavailability and delay the onset of action of sildenafil.  The proposed mechanism ...
+  med_id               : 18513
+
+📌 Sample #3:
+  local_trade_name     : Quetiapine 100mg 30 f.c. tab.
+  interaction_text     : Food: alcohol
+Severity: Minor
+Quetiapine has been reported to potentiate the cognitive and motor effects of alcohol.
+Management: Alcohol should be avoided by patients who are receiving quetiapine.
+  med_id               : 25539
