@@ -153,16 +153,30 @@ def export_drug_interactions(conn):
 def export_disease_interactions(conn):
     """Export disease_interactions table (optimized)"""
     print("\n📦 Exporting Disease Interactions (Optimized)...")
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM disease_interactions")
-    columns = [desc[0] for desc in cursor.description]
     
-    header = f"INSERT OR IGNORE INTO disease_interactions ({', '.join(columns)}) VALUES"
+    # Target Schema in D1:
+    # id, med_id, trade_name, disease_name, interaction_text, severity, source
+    header = "INSERT OR IGNORE INTO disease_interactions (id, med_id, trade_name, disease_name, interaction_text, severity, source) VALUES"
     sql_rows = []
     
     for row in cursor.fetchall():
-        vals = [escape_sql(v) for v in row]
-        sql_rows.append(f"({', '.join(vals)})")
+        def get_col(name):
+            return row[name] if name in row.keys() else None
+
+        vals = [
+            get_col('id'),
+            get_col('med_id'),
+            get_col('trade_name'),
+            get_col('disease_name'),
+            get_col('interaction_text'),
+            get_col('severity'),
+            get_col('source') or 'DDInter'
+        ]
+        escaped_vals = [escape_sql(v) for v in vals]
+        sql_rows.append(f"({', '.join(escaped_vals)})")
     
     print(f"   Total: {len(sql_rows):,} rows")
     write_chunked_sql("d1_disease", header, sql_rows)
@@ -170,16 +184,29 @@ def export_disease_interactions(conn):
 def export_food_interactions(conn):
     """Export food_interactions table (optimized)"""
     print("\n📦 Exporting Food Interactions (Optimized)...")
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM food_interactions")
-    columns = [desc[0] for desc in cursor.description]
     
-    header = f"INSERT OR IGNORE INTO food_interactions ({', '.join(columns)}) VALUES"
+    # Target Schema in D1:
+    # id, med_id, trade_name, interaction, source
+    # Local has 'interaction_text', so we map it to 'interaction'
+    header = "INSERT OR IGNORE INTO food_interactions (id, med_id, trade_name, interaction, source) VALUES"
     sql_rows = []
     
     for row in cursor.fetchall():
-        vals = [escape_sql(v) for v in row]
-        sql_rows.append(f"({', '.join(vals)})")
+        def get_col(name):
+            return row[name] if name in row.keys() else None
+
+        vals = [
+            get_col('id'),
+            get_col('med_id'),
+            get_col('trade_name'), # Might be None in local, D1 allows it
+            get_col('interaction') if 'interaction' in row.keys() else get_col('interaction_text'),
+            get_col('source') or 'DrugBank'
+        ]
+        escaped_vals = [escape_sql(v) for v in vals]
+        sql_rows.append(f"({', '.join(escaped_vals)})")
     
     print(f"   Total: {len(sql_rows):,} rows")
     write_chunked_sql("d1_food", header, sql_rows)
@@ -187,16 +214,34 @@ def export_food_interactions(conn):
 def export_dosage_guidelines(conn):
     """Export dosage_guidelines table"""
     print("\n📦 Exporting Dosage Guidelines...")
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM dosage_guidelines")
-    columns = [desc[0] for desc in cursor.description]
     
-    header = f"INSERT OR IGNORE INTO dosage_guidelines ({', '.join(columns)}) VALUES"
+    # Target Schema:
+    # id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric
+    header = "INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES"
     sql_rows = []
     
     for row in cursor.fetchall():
-        vals = [escape_sql(v) for v in row]
-        sql_rows.append(f"({', '.join(vals)})")
+        def get_col(name):
+            return row[name] if name in row.keys() else None
+
+        vals = [
+            get_col('id'),
+            get_col('med_id'),
+            get_col('dailymed_setid'),
+            get_col('min_dose'),
+            get_col('max_dose'),
+            get_col('frequency'),
+            get_col('duration'),
+            get_col('instructions'),
+            get_col('condition'),
+            get_col('source'),
+            get_col('is_pediatric')
+        ]
+        escaped_vals = [escape_sql(v) for v in vals]
+        sql_rows.append(f"({', '.join(escaped_vals)})")
     
     print(f"   Total: {len(sql_rows):,} rows")
     write_chunked_sql("d1_dosages", header, sql_rows)
