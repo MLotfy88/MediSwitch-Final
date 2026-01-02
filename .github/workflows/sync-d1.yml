@@ -101,14 +101,20 @@ jobs:
           echo "🔍 Verifying D1 database counts..."
           npx wrangler d1 execute mediswitsh-db --remote --yes --command="SELECT (SELECT COUNT(*) FROM drugs) as drugs, (SELECT COUNT(*) FROM drug_interactions) as interactions;" --config=cloudflare-worker/wrangler.toml
       
-      - name: Summary
+      
+      - name: Detailed D1 Audit Report
         if: always()
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          echo "## 📊 D1 Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "📊 Generating detailed D1 database report..."
+          python3 scripts/audit_d1_database.py > d1_audit_report.txt
+          
+          echo "## 📊 تقرير مزامنة D1 المفصل" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- ✅ Schema synchronized" >> $GITHUB_STEP_SUMMARY
-          echo "- ✅ Drugs, Interactions, Food, Disease, Dosage datasets processed" >> $GITHUB_STEP_SUMMARY
-          echo "- ✅ Remote D1 populated successfully" >> $GITHUB_STEP_SUMMARY
+          cat d1_audit_report.txt >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
           echo "**Database:** mediswitsh-db" >> $GITHUB_STEP_SUMMARY
-          echo "**Worker:** https://mediswitch-api.m-m-lotfy-88.workers.dev" >> $GITHUB_STEP_SUMMARY
+          echo "**Worker API:** https://mediswitch-api.m-m-lotfy-88.workers.dev" >> $GITHUB_STEP_SUMMARY
+          echo "**Admin Dashboard:** https://mediswitch-admin-dashboard.pages.dev" >> $GITHUB_STEP_SUMMARY
