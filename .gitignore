@@ -88,8 +88,8 @@ External_source/dailymed
 
 # Production Data (Large Intermediate Files)
 production_data/
-# d1_sql_chunks are needed for GitHub Actions sync
-!d1_sql_chunks/
+# d1_sql_chunks are large and will be handled by a direct sync script (not git)
+d1_sql_chunks/
 scripts/drugbank_integration/output/
 /home/adminlotfy/project/d1_clean_chunks
 /home/adminlotfy/project/d1_final_chunks
