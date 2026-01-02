@@ -3,7 +3,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (18060, 'Ectohylo eye drops 0.35ml*30 amp.', 'اكتوهيلو قطرة عين 0.35مل*30 امبول', '660', '510', 'Eye lubricant', 'Ectoin+sodium hyaluronate+sodium chloride', 'Bitop ag > innomed pharm', 'Amp', 'أمبول', '0.35ml', '1', 'مرطب وملطف للعين -- تقليل الاحمرار و الالتهابات بالعين', '-treats and prevent dry eyes symptoms. -moistens dry and irritated eyes. -suitable for use with contact lenses. -suitable for children.', '6224011119030', NULL, 7192, '2025-02-18', 0, 0, 0);
+    ) VALUES (18060, 'Ectohylo eye drops 0.35ml*30 amp.', 'اكتوهيلو قطرة عين 0.35مل*30 امبول', '660', '510', 'Eye lubricant', 'Ectoin+sodium hyaluronate+sodium chloride', 'Bitop ag > innomed pharm', 'Amp', 'أمبول', '0.35ml', '1', 'مرطب وملطف للعين -- تقليل الاحمرار و الالتهابات بالعين', NULL, '6224011119030', NULL, 7192, '2025-02-18', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -21,7 +21,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (15035, 'Beesline whitening intimate wash 200 ml', 'بيزلين غسول لتفتيح المناطق الحساسة 200 مل', '235', NULL, 'Vaginal care', NULL, 'Beesline > pharma cruise medical', 'Unknown', 'غير محدد', '200 ml', '1', NULL, 'active ingredients sodium lactate vitamin c olive leaf rosemary parsley lemon peel extract vitamin b3 oatmeal thyme lactic acid & propolis. a natural daily wash that gently cleanses the skin without disrupting the delicate ph levels of the vagina. elimina', NULL, NULL, 970, '2022-07-15', 0, 0, 0);
+    ) VALUES (15035, 'Beesline whitening intimate wash 200 ml', 'بيزلين غسول لتفتيح المناطق الحساسة 200 مل', '235', NULL, 'Vaginal care', NULL, 'Beesline > pharma cruise medical', 'Unknown', 'غير محدد', '200 ml', '1', NULL, NULL, NULL, NULL, 970, '2022-07-15', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -125,31 +125,31 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (23520, 'New gel+ e (ngo-800) silicone gel 15 gm', 'نيو جل + اي سليكون 15 جم', '900', NULL, 'Scar therapy', 'Polymerized siloxanes (silicone gel)+tocopherol (vitamin e)', 'New medical technology > pharma cruise medical', 'Gel', 'جل', '15 gm', '1', 'علاج اثار العمليات الجراحية -- علاج اثار الحروق -- علاج الندبات', 'advanced gel for scars: reduces and fades old & new scars', NULL, NULL, 1717, '2022-08-18', 0, 0, 0);
+    ) VALUES (23520, 'New gel+ e (ngo-800) silicone gel 15 gm', 'نيو جل + اي سليكون 15 جم', '900', NULL, 'Scar therapy', 'Polymerized siloxanes (silicone gel)+tocopherol (vitamin e)', 'New medical technology > pharma cruise medical', 'Gel', 'جل', '15 gm', '1', 'علاج اثار العمليات الجراحية -- علاج اثار الحروق -- علاج الندبات', NULL, NULL, NULL, 1717, '2022-08-18', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (16774, 'Convaliptic 400 mg 21 f.c. tabs.', 'كونفاليبتيك 400 مجم 21 قرص', '71', NULL, 'Anti-epileptic', 'Retigabine', 'Liptis', 'Tab', 'أقراص', '400 mg', '3', NULL, 'retigabine or ezogabine is an anticonvulsant used as an adjunctive treatment for partial epilepsies in treatment-experienced adult patients. retigabine works primarily as a potassium channel openerï¿½that is by activating a certain family of voltage-gated', NULL, NULL, 751, '2022-07-30', 0, 0, 0);
+    ) VALUES (16774, 'Convaliptic 400 mg 21 f.c. tabs.', 'كونفاليبتيك 400 مجم 21 قرص', '71', NULL, 'Anti-epileptic', 'Retigabine', 'Liptis', 'Tab', 'أقراص', '400 mg', '3', NULL, NULL, NULL, NULL, 751, '2022-07-30', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (26825, 'Seretide diskus 100/50mcg 60 doses', 'سيريتايد ديسكس 100/50مكجم 60 جرعة', '244', '187', 'Bronchodilator.glucocorticoid steroid and long-acting b2 agonist', 'Fluticasone+salmeterol', 'Glaxo smithkline > modern pharma', 'Unknown', 'غير محدد', '50mcg', '1', NULL, 'about fluticasone synthetic topical glucocorticoid anti inflammatory and antipruritic in corticosteroid-responsive dermatoses; atopic dermatitis. mechanism of action of fluticasone it reduces prostaglandin synthesis by inhibiting cyclo oxygenase enzymes b', NULL, NULL, 1060, '2024-12-19', 0, 0, 0);
+    ) VALUES (26825, 'Seretide diskus 100/50mcg 60 doses', 'سيريتايد ديسكس 100/50مكجم 60 جرعة', '244', '187', 'Bronchodilator.glucocorticoid steroid and long-acting b2 agonist', 'Fluticasone+salmeterol', 'Glaxo smithkline > modern pharma', 'Unknown', 'غير محدد', '50mcg', '1', NULL, NULL, NULL, NULL, 1060, '2024-12-19', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (10142, 'Safamood forte 600mg 20 f.c.tab.', 'صفامود فورت 600مجم 20 قرص', '18', NULL, 'Psychiatric.mood stabilizers', 'Hypericum', 'Atos pharma', 'Tab', 'أقراص', '600mg', '2', NULL, 'properties and actions: safamood forte is an active antide- pressant because it inhibits synaptic reuptake of serotonin and to a lesser extent norepinephrine resulting in increased levels in the synaptic gap. safamood forte suppresses interleukin- 6 (il6)', '6223000470954', NULL, 1839, '2022-12-08', 0, 0, 0);
+    ) VALUES (10142, 'Safamood forte 600mg 20 f.c.tab.', 'صفامود فورت 600مجم 20 قرص', '18', NULL, 'Psychiatric.mood stabilizers', 'Hypericum', 'Atos pharma', 'Tab', 'أقراص', '600mg', '2', NULL, NULL, '6223000470954', NULL, 1839, '2022-12-08', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (31617, 'Wellssage massage gel 30gm', 'ويلساج مساج جل 30 جم', '40', '18', 'Massage gel', 'Camphor oil+peppermint oil+eucalyptus oil', 'Smartic > wellness pharma', 'Gel', 'جل', '30gm', '1', NULL, 'massage gel', NULL, NULL, 1306, '2023-12-23', 0, 0, 0);
+    ) VALUES (31617, 'Wellssage massage gel 30gm', 'ويلساج مساج جل 30 جم', '40', '18', 'Massage gel', 'Camphor oil+peppermint oil+eucalyptus oil', 'Smartic > wellness pharma', 'Gel', 'جل', '30gm', '1', NULL, NULL, NULL, NULL, 1306, '2023-12-23', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -221,7 +221,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (26097, 'Rilastil advance hair loss shampoo 200 ml', 'ريلاسيل ادفانس شامبو لتساقط الشعر 200مل', '200', NULL, 'Hair care', NULL, 'Rilastil laboratori milano > vamer pharma', 'Amp', 'أمبول', '200 ml', '1', NULL, 'anti-hair loss coadjuvant treatment. helps reactivate local microcirculation and stimulates hair regeneration and restructuring. antioxidant calming and conditioning action. sulphate-free. colourant-free. allergen-free perfume. paraben-free. clinically an', NULL, NULL, 461, '2022-08-06', 0, 0, 0);
+    ) VALUES (26097, 'Rilastil advance hair loss shampoo 200 ml', 'ريلاسيل ادفانس شامبو لتساقط الشعر 200مل', '200', NULL, 'Hair care', NULL, 'Rilastil laboratori milano > vamer pharma', 'Amp', 'أمبول', '200 ml', '1', NULL, NULL, NULL, NULL, 461, '2022-08-06', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -303,7 +303,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (28601, 'Tuki baby lotion 120 ml', 'توكي بيبي لوشن 120مل', '25', NULL, 'Soothing topical', NULL, 'Egyptian company for cosmetics > spg', 'Lotion', 'لوشن', '120 ml', '1', 'يحتوي على مضادات الأكسدة ليحافظ على صحة وملمس الجلد', 'soothing lotion with anti-oxidant', NULL, NULL, 1881, '2022-05-15', 0, 0, 0);
+    ) VALUES (28601, 'Tuki baby lotion 120 ml', 'توكي بيبي لوشن 120مل', '25', NULL, 'Soothing topical', NULL, 'Egyptian company for cosmetics > spg', 'Lotion', 'لوشن', '120 ml', '1', 'يحتوي على مضادات الأكسدة ليحافظ على صحة وملمس الجلد', NULL, NULL, NULL, 1881, '2022-05-15', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -393,7 +393,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (4580, 'Ezadoxine 20 tab', 'ايزادوكسين 20 قرص', '12', NULL, 'Antiemetic', 'Meclizine+vitamin b6', 'Multi-apex', 'Tab', 'أقراص', NULL, '2', NULL, 'about meclizine first generation h1 antagonist piperazine derivative antihistamine antiemetic antinauseant. mechanism of action of meclizine meclizine produces antiemetic action by its central action on chemoreceptor trigger zone (ctz). it decreases the s', '6223003201272', NULL, 945, '2022-12-05', 0, 0, 0);
+    ) VALUES (4580, 'Ezadoxine 20 tab', 'ايزادوكسين 20 قرص', '12', NULL, 'Antiemetic', 'Meclizine+vitamin b6', 'Multi-apex', 'Tab', 'أقراص', NULL, '2', NULL, NULL, '6223003201272', NULL, 945, '2022-12-05', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -405,7 +405,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (28407, 'Travonorm plus 0.004%/0.5% eye drops 5 ml', 'ترافونورم بلس 0.004%/0.55 قطرة للعين 5مل', '123', NULL, 'Antiglaucoma', 'Timolol+travoprost', 'Orchidia pharmaceutical industries', 'Drops', 'نقط', '0.004%', '1', NULL, 'about timolol nonselective beta adrenergic blocker ophthalmic- antiglaucoma antimigraine. mechanism of action of timolol timolol is a non selective beta blocker. it inhibits the beta receptors (?2) present in the eye such as in the ciliary body epithelium', NULL, NULL, 950, '2022-07-25', 0, 0, 0);
+    ) VALUES (28407, 'Travonorm plus 0.004%/0.5% eye drops 5 ml', 'ترافونورم بلس 0.004%/0.55 قطرة للعين 5مل', '123', NULL, 'Antiglaucoma', 'Timolol+travoprost', 'Orchidia pharmaceutical industries', 'Drops', 'نقط', '0.004%', '1', NULL, NULL, NULL, NULL, 950, '2022-07-25', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -475,7 +475,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (19166, 'Floxia disco - exfoliating soap 125 gm', 'فلوكسيا ديسكو - صابون مقشر 125 جم', '69', NULL, 'Soap', NULL, 'Floxia international sarl > bio-earth egypt', 'Soap', 'صابون', '125 gm', '1', NULL, 'floxia soap shows a quadruple action : natural peeling cleansing reinvigorating and helps unifying skin complexion thanks to various vegetal and marine extracts. on skin surface dry algae as chondrus crispus algae very rich in mineral elements iodine and', NULL, NULL, 761, '2022-07-27', 0, 0, 0);
+    ) VALUES (19166, 'Floxia disco - exfoliating soap 125 gm', 'فلوكسيا ديسكو - صابون مقشر 125 جم', '69', NULL, 'Soap', NULL, 'Floxia international sarl > bio-earth egypt', 'Soap', 'صابون', '125 gm', '1', NULL, NULL, NULL, NULL, 761, '2022-07-27', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -493,7 +493,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (29017, 'Vashe wound solution 118 ml', 'فاشي محلول جروح 118 مل', '275', NULL, NULL, 'Water+sodium chloride+hypochlorus acid', 'Steadmed >', 'Solution', 'محلول', '118 ml', '1', NULL, 'skin wound and burn cleansing solution. -debridement irrigation. -physical disruption of biofilm. -removal of microorganisms.', NULL, NULL, 1512, '2022-07-11', 0, 0, 0);
+    ) VALUES (29017, 'Vashe wound solution 118 ml', 'فاشي محلول جروح 118 مل', '275', NULL, NULL, 'Water+sodium chloride+hypochlorus acid', 'Steadmed >', 'Solution', 'محلول', '118 ml', '1', NULL, NULL, NULL, NULL, 1512, '2022-07-11', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -517,13 +517,13 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (25625, 'Raibyax 12/25 mg 30 caps.', 'ريبياكس 12/25 مجم كبسول', '249', '186', 'Psychiatric.antipsychotics', 'Fluoxetine+olanzapine', 'Marcyrl > rai pharmaceuticals', 'Cap', 'كبسولة', '25 mg', '3', NULL, 'this medication is a combination of 2 drugs olanzapine (an antipsychotic drug) and fluoxetine (a selective serotonin reuptake inhibitor-ssri). it is used to treat a certain type of mental/mood disorder (depression associated with bipolar disorder). it is', NULL, NULL, 1077, '2025-03-11', 0, 0, 0);
+    ) VALUES (25625, 'Raibyax 12/25 mg 30 caps.', 'ريبياكس 12/25 مجم كبسول', '249', '186', 'Psychiatric.antipsychotics', 'Fluoxetine+olanzapine', 'Marcyrl > rai pharmaceuticals', 'Cap', 'كبسولة', '25 mg', '3', NULL, NULL, NULL, NULL, 1077, '2025-03-11', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (2017, 'Capozide 50/25mg 30 tab.', 'كابوزايد 25/50مجم 30قرص', '93', '58', 'Antihypertensive.combined ace with diuretic', 'Captopril+hydrochlorothiazide', 'Smithkline beecham', 'Tab', 'أقراص', '25mg', '3', 'علاج ضغط الدم المرتفع', 'about captopril a specific competitive angiotensin-converting enzyme (ace) inhibitor antihypertensive. about hydrochlorothiazide thiazide derivatibve diuretic. mechanism of action of hydrochlorothiazide it is thiazide diuretic which exerts its action by a', '6224001007125', NULL, 6232, '2024-11-11', 0, 0, 0);
+    ) VALUES (2017, 'Capozide 50/25mg 30 tab.', 'كابوزايد 25/50مجم 30قرص', '93', '58', 'Antihypertensive.combined ace with diuretic', 'Captopril+hydrochlorothiazide', 'Smithkline beecham', 'Tab', 'أقراص', '25mg', '3', 'علاج ضغط الدم المرتفع', NULL, '6224001007125', NULL, 6232, '2024-11-11', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -539,13 +539,13 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (29796, 'Yaref gel 50 gm', 'ياريف جل 50جم', '35', NULL, 'Massage', 'Glucosamine+msm+menthol+camphor+emu oil', 'El-helou perfumes & cosmetics > dawaa pharma', 'Gel', 'جل', '50 gm', '1', 'كريم مساج', 'for osteoarthritis', NULL, NULL, 546, '2022-05-20', 0, 0, 0);
+    ) VALUES (29796, 'Yaref gel 50 gm', 'ياريف جل 50جم', '35', NULL, 'Massage', 'Glucosamine+msm+menthol+camphor+emu oil', 'El-helou perfumes & cosmetics > dawaa pharma', 'Gel', 'جل', '50 gm', '1', 'كريم مساج', NULL, NULL, NULL, 546, '2022-05-20', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (13644, 'Aldactazide 20 tab', 'الداكتازايد 25 مجم 20 قرص', '6', NULL, 'Diuretic.combined thiazide with potassium-sparing', 'Hydrochlorothiazide+spironolactone', 'Kahira > searle-canada', 'Tab', 'أقراص', NULL, '2', NULL, 'about hydrochlorothiazide thiazide derivative diuretic. mechanism of action of hydrochlorothiazide it is thiazide diuretic which exerts its action by acting at site-3(central dilating segment of early distal tubule). it binds to na+cl- symporter and inhib', '6221068904855', NULL, 889, '2022-12-01', 0, 0, 0);
+    ) VALUES (13644, 'Aldactazide 20 tab', 'الداكتازايد 25 مجم 20 قرص', '6', NULL, 'Diuretic.combined thiazide with potassium-sparing', 'Hydrochlorothiazide+spironolactone', 'Kahira > searle-canada', 'Tab', 'أقراص', NULL, '2', NULL, NULL, '6221068904855', NULL, 889, '2022-12-01', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -581,13 +581,13 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (21212, 'Juviex syrup 120 ml', 'جوفيكس شراب 120 مل', '12', NULL, 'Cough drugs', 'Guava leaves+tilia flower+fennel oil', 'Hochster pharmaceutical industries', 'Syrup', 'شراب', '120 ml', '1', NULL, 'helps in improving respiratory functions', NULL, NULL, 975, '2022-07-23', 0, 0, 0);
+    ) VALUES (21212, 'Juviex syrup 120 ml', 'جوفيكس شراب 120 مل', '12', NULL, 'Cough drugs', 'Guava leaves+tilia flower+fennel oil', 'Hochster pharmaceutical industries', 'Syrup', 'شراب', '120 ml', '1', NULL, NULL, NULL, NULL, 975, '2022-07-23', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (18580, 'Ester-c 30 tabs.', 'استر-سي 30 قرص', '55', '48.75', 'Vitamin c', 'Calcium+vitamin c', 'Amcomed > s&s pharmaceuticals', 'Tab', 'أقراص', NULL, '3', NULL, 'dietary supplement for vitamin c', NULL, NULL, 933, '2025-08-12', 0, 0, 0);
+    ) VALUES (18580, 'Ester-c 30 tabs.', 'استر-سي 30 قرص', '55', '48.75', 'Vitamin c', 'Calcium+vitamin c', 'Amcomed > s&s pharmaceuticals', 'Tab', 'أقراص', NULL, '3', NULL, NULL, NULL, NULL, 933, '2025-08-12', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -611,7 +611,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (25436, 'Protovex cream 60 gm', 'بروتوفيكس كريم 60جم', '30', NULL, 'Massage', NULL, 'Egyptian company for cosmetics > epsilon health care', 'Cream', 'كريم', '60 gm', '1', NULL, 'massage cream apply 2-3 times daily.', '6224008059622', NULL, 773, '2022-12-08', 0, 0, 0);
+    ) VALUES (25436, 'Protovex cream 60 gm', 'بروتوفيكس كريم 60جم', '30', NULL, 'Massage', NULL, 'Egyptian company for cosmetics > epsilon health care', 'Cream', 'كريم', '60 gm', '1', NULL, NULL, '6224008059622', NULL, 773, '2022-12-08', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -779,7 +779,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (15205, 'Bio balance facial whitening night cream 55 ml', 'بيو بالانس كريم تفتيح ليلي للوجه 55 ملي', '185', NULL, 'Whitening topical', NULL, 'Alpaya dermaceuticals > vamer pharma', 'Cream', 'كريم', '55 ml', '1', NULL, 'product details advanced brightening complex reduces dark spots and skin discolorations. non greasy and quickly absorbed formula. natural safe and effective. with uva/uvb protection. brightens the overall complexion whitens dark skin spots old scars tans', NULL, NULL, 706, '2022-07-24', 0, 0, 0);
+    ) VALUES (15205, 'Bio balance facial whitening night cream 55 ml', 'بيو بالانس كريم تفتيح ليلي للوجه 55 ملي', '185', NULL, 'Whitening topical', NULL, 'Alpaya dermaceuticals > vamer pharma', 'Cream', 'كريم', '55 ml', '1', NULL, NULL, NULL, NULL, 706, '2022-07-24', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -835,7 +835,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (15957, 'Cavloline whitenin cream 60 gm', 'كافلولين كريم تفتيح 60 جم', '250', '150', 'Whitening cream moisturizing cream', 'Collagen+clavier+caffeine+vitamin b3+bearberry+kojic acid+retinol+liquorice+hyaluronic acid', 'Egyptian co. for cosmetics > meroza pharma', 'Cream', 'كريم', '60 gm', '1', 'ترطيب الجلد -- تفتيح الجلد -- علاج اثار الشمس -- استعادة رونق الجلد', 'whitening anti-aging skin unitone moisturizing cream (27 active ingredients) used: daily at night.', NULL, NULL, 2048, '2024-08-06', 0, 0, 0);
+    ) VALUES (15957, 'Cavloline whitenin cream 60 gm', 'كافلولين كريم تفتيح 60 جم', '250', '150', 'Whitening cream moisturizing cream', 'Collagen+clavier+caffeine+vitamin b3+bearberry+kojic acid+retinol+liquorice+hyaluronic acid', 'Egyptian co. for cosmetics > meroza pharma', 'Cream', 'كريم', '60 gm', '1', 'ترطيب الجلد -- تفتيح الجلد -- علاج اثار الشمس -- استعادة رونق الجلد', NULL, NULL, NULL, 2048, '2024-08-06', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -853,7 +853,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (14935, 'Basebone 2 f.c. tabs', 'بيزبون 2 قرص', '19', NULL, 'Osteoporosis.bisphosphonates.plus vitamin d', 'Alendronate+vitamin d3', 'October pharma', 'Tab', 'أقراص', NULL, '1', 'يستخدم لعلاج هشاشة العظام التي تحدث للسيدات بعد سن الياس.', 'it is indicated for the treatment of osteoporosis in postmenopausal women. in postmenopausal women it increases bone mass and reduces the incidence of fractures including those of the hip and spine (vertebral compression fractures). alendronate sodium is', NULL, NULL, 1279, '2022-05-13', 0, 0, 0);
+    ) VALUES (14935, 'Basebone 2 f.c. tabs', 'بيزبون 2 قرص', '19', NULL, 'Osteoporosis.bisphosphonates.plus vitamin d', 'Alendronate+vitamin d3', 'October pharma', 'Tab', 'أقراص', NULL, '1', 'يستخدم لعلاج هشاشة العظام التي تحدث للسيدات بعد سن الياس.', NULL, NULL, NULL, 1279, '2022-05-13', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -997,7 +997,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (6779, 'Kanzar-h 100/25 mg 8 f.c. tabs.', 'كانزار اتش 100/25مجم 8 اقراص', '32', NULL, 'Antihypertensive. combined angiotensin blocker with diuretic', 'Hydrochlorothiazide+losartan', 'Hikma pharma', 'Tab', 'أقراص', '25 mg', '1', NULL, 'about hydrochlorothiazide thiazide derivatibve diuretic. mechanism of action of hydrochlorothiazide it is thiazide diuretic which exerts its action by acting at site-3(central dilating segment of early distal tubule). it binds to na+cl- symporter and inhi', NULL, NULL, 1071, '2022-10-24', 0, 0, 0);
+    ) VALUES (6779, 'Kanzar-h 100/25 mg 8 f.c. tabs.', 'كانزار اتش 100/25مجم 8 اقراص', '32', NULL, 'Antihypertensive. combined angiotensin blocker with diuretic', 'Hydrochlorothiazide+losartan', 'Hikma pharma', 'Tab', 'أقراص', '25 mg', '1', NULL, NULL, NULL, NULL, 1071, '2022-10-24', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -1081,7 +1081,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (17278, 'Depiderm white lightening cleansing foam (mousse) 100 ml', 'ديبيديرم غسول منظف لتفتيح وتبييض البشرة 100 مل', '210', NULL, 'Whitening topical', NULL, 'Uriage dermatological laboratories > biotech egypt', 'Foam', 'فوم', '100 ml', '1', NULL, 'ideal for : face & neck a creamy lightweight and delicately scented foam that cleanses and purifies skin adding a radiant glow to the complexion. brightens and illuminates: the antioxidant properties of uriage thermal water purify skin while evening out t', NULL, NULL, 643, '2022-08-17', 0, 0, 0);
+    ) VALUES (17278, 'Depiderm white lightening cleansing foam (mousse) 100 ml', 'ديبيديرم غسول منظف لتفتيح وتبييض البشرة 100 مل', '210', NULL, 'Whitening topical', NULL, 'Uriage dermatological laboratories > biotech egypt', 'Foam', 'فوم', '100 ml', '1', NULL, NULL, NULL, NULL, 643, '2022-08-17', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
@@ -1127,7 +1127,7 @@ INSERT OR IGNORE INTO drugs (
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
         barcode, qr_code, visits, last_price_update,
         has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES (15020, 'Beesline propolis facial wash 250 ml', 'بيزلين بروبوليس غسول الوجه 250 مل', '245', NULL, 'Skin care', NULL, 'Beesline > pharma cruise medical', 'Facial wash', 'غسول للوجه', '250 ml', '1', NULL, 'active ingredients honey vegetable glycerin rosemary thyme oat peppermint lemon peel willow bark sage lactic acid sodium lactate propolis lavender jojoba oil eucalyptus & clove essential oil. a gentle foaming gel that thoroughly cleanses the skin reducing', NULL, NULL, 835, '2022-07-15', 0, 0, 0);
+    ) VALUES (15020, 'Beesline propolis facial wash 250 ml', 'بيزلين بروبوليس غسول الوجه 250 مل', '245', NULL, 'Skin care', NULL, 'Beesline > pharma cruise medical', 'Facial wash', 'غسول للوجه', '250 ml', '1', NULL, NULL, NULL, NULL, 835, '2022-07-15', 0, 0, 0);
 INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category, active, company,
         dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,

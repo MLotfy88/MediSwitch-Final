@@ -1,300 +1,1500 @@
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531894, 'Vancomycin', 'Tegaserod', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531895, 'Vancomycin', 'Rosuvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531896, 'Vancomycin', 'Atovaquone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531897, 'Calcium chloride', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531898, 'Vancomycin', 'Arsenic trioxide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531899, 'Zopiclone', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531900, 'Vancomycin', 'Levetiracetam', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531901, 'Clarithromycin', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531902, 'Vancomycin', 'Rifaximin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531903, 'Aminophylline', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531904, 'Vancomycin', 'Saquinavir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531905, 'Vancomycin', 'Aripiprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531906, 'Dasatinib', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531907, 'Vancomycin', 'Posaconazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531908, 'Vancomycin', 'Varenicline', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531909, 'Fosphenytoin', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531910, 'Vancomycin', 'Sodium bicarbonate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531911, 'Vancomycin', 'Tiotropium', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531912, 'Vancomycin', 'Acenocoumarol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531913, 'Vancomycin', 'Valganciclovir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531914, 'Ambrisentan', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531915, 'Clobetasol', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531916, 'Fluticasone', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531917, 'Aminocaproic acid', 'Desmopressin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531918, 'Aminocaproic acid', 'Cyclosporine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531919, 'Aminocaproic acid', 'Octreotide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531920, 'Folic acid', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531921, 'Aminocaproic acid', 'Lorazepam', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531922, 'Fluconazole', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531923, 'Aminocaproic acid', 'Azithromycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531924, 'Aminocaproic acid', 'Dapsone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531925, 'Aminocaproic acid', 'Metoprolol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531926, 'Aminocaproic acid', 'Morphine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531927, 'Aminocaproic acid', 'Acetaminophen', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531928, 'Aminocaproic acid', 'Atenolol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531929, 'Aminocaproic acid', 'Omeprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531930, 'Aminocaproic acid', 'Diltiazem', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531931, 'Amlodipine', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531932, 'Aminocaproic acid', 'Digoxin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531933, 'Aminocaproic acid', 'Zolpidem', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531934, 'Aminocaproic acid', 'Prochlorperazine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531935, 'Aminocaproic acid', 'Allopurinol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531936, 'Aminocaproic acid', 'Lansoprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531937, 'Aminocaproic acid', 'Levothyroxine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531938, 'Aminocaproic acid', 'Loratadine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531939, 'Fluoxetine', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531940, 'Aminocaproic acid', 'Lenalidomide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531941, 'Aminocaproic acid', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531942, 'Aminocaproic acid', 'Ciprofloxacin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531943, 'Aminocaproic acid', 'Methotrexate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531944, 'Aminocaproic acid', 'Valaciclovir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531945, 'Aminocaproic acid', 'Simvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531946, 'Aminocaproic acid', 'Nystatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531947, 'Aminocaproic acid', 'Epinephrine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531948, 'Aminocaproic acid', 'Warfarin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531949, 'Furosemide', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531950, 'Aminocaproic acid', 'Lisinopril', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531951, 'Aminocaproic acid', 'Nitroglycerin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531952, 'Hydrocortisone', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531953, 'Aminocaproic acid', 'Potassium chloride', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531954, 'Aminocaproic acid', 'Acyclovir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531955, 'Fentanyl', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531956, 'Aminocaproic acid', 'Ranitidine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531957, 'Aminocaproic acid', 'Tacrolimus', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531958, 'Aminocaproic acid', 'Ondansetron', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531959, 'Aminocaproic acid', 'Metronidazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531960, 'Famotidine', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531961, 'Aminocaproic acid', 'Acetylsalicylic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531962, 'Ezetimibe', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531963, 'Aminocaproic acid', 'Cytarabine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531964, 'Hydrochlorothiazide', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531965, 'Aminocaproic acid', 'Salbutamol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531966, 'Ganciclovir', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531967, 'Aminocaproic acid', 'Thalidomide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531968, 'Aminocaproic acid', 'Atorvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531969, 'Aminocaproic acid', 'Rosuvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531970, 'Aminocaproic acid', 'Sertraline', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531971, 'Heparin', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531972, 'Amiodarone', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531973, 'Aminocaproic acid', 'Ofloxacin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531974, 'Aminocaproic acid', 'Metoclopramide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531975, 'Gemfibrozil', 'Aminocaproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531976, 'Aminocaproic acid', 'Cefazolin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531977, 'Aminocaproic acid', 'Pancuronium', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531978, 'Aminocaproic acid', 'Sodium bicarbonate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531979, 'Aminocaproic acid', 'Cefepime', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531980, 'Folic acid', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531981, 'Dextromethorphan', 'Valsartan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531982, 'Fluconazole', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531983, 'Dextromethorphan', 'Pantoprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531984, 'Dextromethorphan', 'Omeprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531985, 'Dextromethorphan', 'Montelukast', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531986, 'Dextromethorphan', 'Zidovudine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531987, 'Dextromethorphan', 'Warfarin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531988, 'Furosemide', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531989, 'Dextromethorphan', 'Potassium chloride', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531990, 'Dextromethorphan', 'Loperamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531991, 'Dextromethorphan', 'Ranitidine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531992, 'Famotidine', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531993, 'Fexofenadine', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531994, 'Dextromethorphan', 'Carboplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531995, 'Dextromethorphan', 'Methylprednisolone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531996, 'Dextromethorphan', 'Telithromycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531997, 'Ibuprofen', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531998, 'Dextromethorphan', 'Ofloxacin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1531999, 'Dextromethorphan', 'Paclitaxel', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532000, 'Fluticasone', 'Dextromethorphan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532001, 'Cisplatin', 'Sucralfate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532002, 'Cisplatin', 'Montelukast', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532003, 'Trandolapril', 'Rosiglitazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532004, 'Trandolapril', 'Montelukast', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532005, 'Trandolapril', 'Simvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532006, 'Warfarin', 'Trandolapril', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532007, 'Ezetimibe', 'Trandolapril', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532008, 'Caspofungin', 'Sucralfate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532009, 'Cisplatin', 'Caspofungin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532010, 'Pravastatin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532011, 'Valsartan', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532012, 'Tramadol', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532013, 'Moxifloxacin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532014, 'Pregabalin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532015, 'Ranolazine', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532016, 'Ropinirole', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532017, 'Pamidronic acid', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532018, 'Minoxidil', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532019, 'Sucralfate', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532020, 'Zoledronic acid', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532021, 'Mupirocin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532022, 'Pramipexole', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532023, 'Spironolactone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532024, 'Montelukast', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532025, 'Metolazone', 'Lenalidomide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532026, 'Raloxifene', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532027, 'Entacapone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532028, 'Ritonavir', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532029, 'Vancomycin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532030, 'Nortriptyline', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532031, 'Zafirlukast', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532032, 'Bosentan', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532033, 'Valaciclovir', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532034, 'Amiloride', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532035, 'Testosterone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532036, 'Simvastatin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532037, 'Nystatin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532038, 'Sevelamer', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532039, 'Tamoxifen', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532040, 'Tobramycin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532041, 'Nitrofurantoin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532042, 'Eplerenone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532043, 'Naltrexone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532044, 'Tamsulosin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532045, 'Ibandronate', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532046, 'Nitroglycerin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532047, 'Modafinil', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532048, 'Potassium chloride', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532049, 'Metolazone', 'Methimazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532050, 'Primidone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532051, 'Propofol', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532052, 'Dobutamine', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532053, 'Ranitidine', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532054, 'Tacrolimus', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532055, 'Sirolimus', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532056, 'Risedronic acid', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532057, 'Triazolam', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532058, 'Ondansetron', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532059, 'Bimatoprost', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532060, 'Metronidazole', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532061, 'Carboplatin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532062, 'Telmisartan', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532063, 'Desloratadine', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532064, 'Ezetimibe', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532065, 'Frovatriptan', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532066, 'Cinacalcet', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532067, 'Isosorbide mononitrate', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532068, 'Phylloquinone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532069, 'Thalidomide', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532070, 'Gatifloxacin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532071, 'Tegaserod', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532072, 'Orlistat', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532073, 'Rosuvastatin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532074, 'Nifedipine', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532075, 'Dutasteride', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532076, 'Ofloxacin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532077, 'Brinzolamide', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532078, 'Zopiclone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532079, 'Metolazone', 'Levetiracetam', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532080, 'Clarithromycin', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532081, 'Aminophylline', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532082, 'Paclitaxel', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532083, 'Varenicline', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532084, 'Sodium bicarbonate', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532085, 'Tiotropium', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532086, 'Acenocoumarol', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532087, 'Ambrisentan', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532088, 'Aliskiren', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532089, 'Clobetasol', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532090, 'Fluticasone', 'Metolazone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532091, 'Oxaliplatin', 'Octreotide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532092, 'Valsartan', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532093, 'Ramipril', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532094, 'Pantoprazole', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532095, 'Torasemide', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532096, 'Pregabalin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532097, 'Temazepam', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532098, 'Gefitinib', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532099, 'Piperacillin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532100, 'Sucralfate', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532101, 'Timolol', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532102, 'Rosiglitazone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532103, 'Spironolactone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532104, 'Zolpidem', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532105, 'Allopurinol', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532106, 'Oxaliplatin', 'Montelukast', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532107, 'Duloxetine', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532108, 'Raloxifene', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532109, 'Oxycodone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532110, 'Trandolapril', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532111, 'Erlotinib', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532112, 'Cefdinir', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532113, 'Propranolol', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532114, 'Triamcinolone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532115, 'Prednisone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532116, 'Oxaliplatin', 'Nystatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532117, 'Oxaliplatin', 'Aprepitant', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532118, 'Warfarin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532119, 'Tamsulosin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532120, 'Paroxetine', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532121, 'Oxaliplatin', 'Nateglinide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532122, 'Tetracycline', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532123, 'Potassium chloride', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532124, 'Oxaliplatin', 'Olopatadine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532125, 'Perindopril', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532126, 'Oxazepam', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532127, 'Prednisolone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532128, 'Ranitidine', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532129, 'Quinapril', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532130, 'Risedronic acid', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532131, 'Triazolam', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532132, 'Oxaliplatin', 'Misoprostol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532133, 'Telmisartan', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532134, 'Ezetimibe', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532135, 'Isosorbide mononitrate', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532136, 'Tolterodine', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532137, 'Oxybutynin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532138, 'Pilocarpine', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532139, 'Dutasteride', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532140, 'Rabeprazole', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532141, 'Pioglitazone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532142, 'Terazosin', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532143, 'Calcium chloride', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532144, 'Zopiclone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532145, 'Sodium bicarbonate', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532146, 'Tiotropium', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532147, 'Ursodeoxycholic acid', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532148, 'Fluticasone', 'Oxaliplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532149, 'Foscarnet', 'Morphine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532150, 'Foscarnet', 'Ritonavir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532151, 'Foscarnet', 'Vancomycin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532152, 'Foscarnet', 'Methotrexate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532153, 'Foscarnet', 'Stavudine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532154, 'Foscarnet', 'Lamivudine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532155, 'Ganciclovir', 'Foscarnet', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532156, 'Foscarnet', 'Atazanavir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532157, 'Foscarnet', 'Atovaquone', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532158, 'Itraconazole', 'Foscarnet', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532159, 'Foscarnet', 'Ursodeoxycholic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532160, 'Erlotinib', 'Sucralfate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532161, 'Erlotinib', 'Montelukast', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532162, 'Erlotinib', 'Cisplatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532163, 'Erlotinib', 'Nystatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532164, 'Erlotinib', 'Rosuvastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532165, 'Goserelin', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532166, 'Cyclophosphamide', 'Octreotide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532167, 'Folic acid', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532168, 'Cyclophosphamide', 'Pravastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532169, 'Cyclophosphamide', 'Valsartan', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532170, 'Cyclophosphamide', 'Ramipril', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532171, 'Cyclophosphamide', 'Lorazepam', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532172, 'Cyclophosphamide', 'Bortezomib', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532173, 'Cyclophosphamide', 'Tramadol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532174, 'Fluconazole', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532175, 'Cyclophosphamide', 'Oseltamivir', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532176, 'Erythromycin', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532177, 'Cyclophosphamide', 'Sildenafil', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532178, 'Cyclophosphamide', 'Pantoprazole', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532179, 'Cyclophosphamide', 'Torasemide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532180, 'Gadodiamide', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532181, 'Cyclophosphamide', 'Lovastatin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532182, 'Cyclophosphamide', 'Pregabalin', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532183, 'Cyclophosphamide', 'Temazepam', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532184, 'Dapsone', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532185, 'Doxycycline', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532186, 'Cyclophosphamide', 'Metoprolol', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532187, 'Isradipine', 'Cyclophosphamide', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532188, 'Cyclophosphamide', 'Topiramate', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532189, 'Cyclophosphamide', 'Lidocaine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532190, 'Cyclophosphamide', 'Pamidronic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532191, 'Cyclophosphamide', 'Venlafaxine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532192, 'Cyclophosphamide', 'Morphine', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
-INSERT OR IGNORE INTO drug_interactions (id, ingredient1, ingredient2, severity, effect, source, updated_at, management_text, mechanism_text, recommendation, arabic_recommendation, arabic_effect, risk_level, type) VALUES (1532193, 'Cyclophosphamide', 'Valproic acid', 'Unknown', 'None', 'DDInter', 1767317477, '-', NULL, '-', NULL, NULL, 'Unknown', 'pharmacodynamic');
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531894, 'Vancomycin', 'Tegaserod', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531895, 'Vancomycin', 'Rosuvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531896, 'Vancomycin', 'Atovaquone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531897, 'Calcium chloride', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531898, 'Vancomycin', 'Arsenic trioxide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531899, 'Zopiclone', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531900, 'Vancomycin', 'Levetiracetam', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531901, 'Clarithromycin', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531902, 'Vancomycin', 'Rifaximin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531903, 'Aminophylline', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531904, 'Vancomycin', 'Saquinavir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531905, 'Vancomycin', 'Aripiprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531906, 'Dasatinib', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531907, 'Vancomycin', 'Posaconazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531908, 'Vancomycin', 'Varenicline', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531909, 'Fosphenytoin', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531910, 'Vancomycin', 'Sodium bicarbonate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531911, 'Vancomycin', 'Tiotropium', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531912, 'Vancomycin', 'Acenocoumarol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531913, 'Vancomycin', 'Valganciclovir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531914, 'Ambrisentan', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531915, 'Clobetasol', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531916, 'Fluticasone', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531917, 'Aminocaproic acid', 'Desmopressin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531918, 'Aminocaproic acid', 'Cyclosporine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531919, 'Aminocaproic acid', 'Octreotide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531920, 'Folic acid', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531921, 'Aminocaproic acid', 'Lorazepam', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531922, 'Fluconazole', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531923, 'Aminocaproic acid', 'Azithromycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531924, 'Aminocaproic acid', 'Dapsone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531925, 'Aminocaproic acid', 'Metoprolol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531926, 'Aminocaproic acid', 'Morphine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531927, 'Aminocaproic acid', 'Acetaminophen', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531928, 'Aminocaproic acid', 'Atenolol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531929, 'Aminocaproic acid', 'Omeprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531930, 'Aminocaproic acid', 'Diltiazem', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531931, 'Amlodipine', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531932, 'Aminocaproic acid', 'Digoxin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531933, 'Aminocaproic acid', 'Zolpidem', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531934, 'Aminocaproic acid', 'Prochlorperazine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531935, 'Aminocaproic acid', 'Allopurinol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531936, 'Aminocaproic acid', 'Lansoprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531937, 'Aminocaproic acid', 'Levothyroxine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531938, 'Aminocaproic acid', 'Loratadine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531939, 'Fluoxetine', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531940, 'Aminocaproic acid', 'Lenalidomide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531941, 'Aminocaproic acid', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531942, 'Aminocaproic acid', 'Ciprofloxacin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531943, 'Aminocaproic acid', 'Methotrexate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531944, 'Aminocaproic acid', 'Valaciclovir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531945, 'Aminocaproic acid', 'Simvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531946, 'Aminocaproic acid', 'Nystatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531947, 'Aminocaproic acid', 'Epinephrine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531948, 'Aminocaproic acid', 'Warfarin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531949, 'Furosemide', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531950, 'Aminocaproic acid', 'Lisinopril', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531951, 'Aminocaproic acid', 'Nitroglycerin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531952, 'Hydrocortisone', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531953, 'Aminocaproic acid', 'Potassium chloride', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531954, 'Aminocaproic acid', 'Acyclovir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531955, 'Fentanyl', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531956, 'Aminocaproic acid', 'Ranitidine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531957, 'Aminocaproic acid', 'Tacrolimus', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531958, 'Aminocaproic acid', 'Ondansetron', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531959, 'Aminocaproic acid', 'Metronidazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531960, 'Famotidine', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531961, 'Aminocaproic acid', 'Acetylsalicylic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531962, 'Ezetimibe', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531963, 'Aminocaproic acid', 'Cytarabine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531964, 'Hydrochlorothiazide', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531965, 'Aminocaproic acid', 'Salbutamol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531966, 'Ganciclovir', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531967, 'Aminocaproic acid', 'Thalidomide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531968, 'Aminocaproic acid', 'Atorvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531969, 'Aminocaproic acid', 'Rosuvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531970, 'Aminocaproic acid', 'Sertraline', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531971, 'Heparin', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531972, 'Amiodarone', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531973, 'Aminocaproic acid', 'Ofloxacin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531974, 'Aminocaproic acid', 'Metoclopramide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531975, 'Gemfibrozil', 'Aminocaproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531976, 'Aminocaproic acid', 'Cefazolin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531977, 'Aminocaproic acid', 'Pancuronium', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531978, 'Aminocaproic acid', 'Sodium bicarbonate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531979, 'Aminocaproic acid', 'Cefepime', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531980, 'Folic acid', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531981, 'Dextromethorphan', 'Valsartan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531982, 'Fluconazole', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531983, 'Dextromethorphan', 'Pantoprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531984, 'Dextromethorphan', 'Omeprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531985, 'Dextromethorphan', 'Montelukast', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531986, 'Dextromethorphan', 'Zidovudine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531987, 'Dextromethorphan', 'Warfarin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531988, 'Furosemide', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531989, 'Dextromethorphan', 'Potassium chloride', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531990, 'Dextromethorphan', 'Loperamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531991, 'Dextromethorphan', 'Ranitidine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531992, 'Famotidine', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531993, 'Fexofenadine', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531994, 'Dextromethorphan', 'Carboplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531995, 'Dextromethorphan', 'Methylprednisolone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531996, 'Dextromethorphan', 'Telithromycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531997, 'Ibuprofen', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531998, 'Dextromethorphan', 'Ofloxacin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1531999, 'Dextromethorphan', 'Paclitaxel', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532000, 'Fluticasone', 'Dextromethorphan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532001, 'Cisplatin', 'Sucralfate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532002, 'Cisplatin', 'Montelukast', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532003, 'Trandolapril', 'Rosiglitazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532004, 'Trandolapril', 'Montelukast', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532005, 'Trandolapril', 'Simvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532006, 'Warfarin', 'Trandolapril', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532007, 'Ezetimibe', 'Trandolapril', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532008, 'Caspofungin', 'Sucralfate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532009, 'Cisplatin', 'Caspofungin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532010, 'Pravastatin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532011, 'Valsartan', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532012, 'Tramadol', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532013, 'Moxifloxacin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532014, 'Pregabalin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532015, 'Ranolazine', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532016, 'Ropinirole', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532017, 'Pamidronic acid', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532018, 'Minoxidil', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532019, 'Sucralfate', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532020, 'Zoledronic acid', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532021, 'Mupirocin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532022, 'Pramipexole', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532023, 'Spironolactone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532024, 'Montelukast', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532025, 'Metolazone', 'Lenalidomide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532026, 'Raloxifene', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532027, 'Entacapone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532028, 'Ritonavir', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532029, 'Vancomycin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532030, 'Nortriptyline', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532031, 'Zafirlukast', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532032, 'Bosentan', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532033, 'Valaciclovir', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532034, 'Amiloride', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532035, 'Testosterone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532036, 'Simvastatin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532037, 'Nystatin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532038, 'Sevelamer', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532039, 'Tamoxifen', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532040, 'Tobramycin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532041, 'Nitrofurantoin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532042, 'Eplerenone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532043, 'Naltrexone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532044, 'Tamsulosin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532045, 'Ibandronate', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532046, 'Nitroglycerin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532047, 'Modafinil', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532048, 'Potassium chloride', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532049, 'Metolazone', 'Methimazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532050, 'Primidone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532051, 'Propofol', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532052, 'Dobutamine', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532053, 'Ranitidine', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532054, 'Tacrolimus', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532055, 'Sirolimus', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532056, 'Risedronic acid', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532057, 'Triazolam', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532058, 'Ondansetron', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532059, 'Bimatoprost', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532060, 'Metronidazole', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532061, 'Carboplatin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532062, 'Telmisartan', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532063, 'Desloratadine', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532064, 'Ezetimibe', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532065, 'Frovatriptan', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532066, 'Cinacalcet', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532067, 'Isosorbide mononitrate', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532068, 'Phylloquinone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532069, 'Thalidomide', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532070, 'Gatifloxacin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532071, 'Tegaserod', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532072, 'Orlistat', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532073, 'Rosuvastatin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532074, 'Nifedipine', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532075, 'Dutasteride', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532076, 'Ofloxacin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532077, 'Brinzolamide', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532078, 'Zopiclone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532079, 'Metolazone', 'Levetiracetam', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532080, 'Clarithromycin', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532081, 'Aminophylline', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532082, 'Paclitaxel', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532083, 'Varenicline', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532084, 'Sodium bicarbonate', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532085, 'Tiotropium', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532086, 'Acenocoumarol', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532087, 'Ambrisentan', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532088, 'Aliskiren', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532089, 'Clobetasol', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532090, 'Fluticasone', 'Metolazone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532091, 'Oxaliplatin', 'Octreotide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532092, 'Valsartan', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532093, 'Ramipril', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532094, 'Pantoprazole', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532095, 'Torasemide', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532096, 'Pregabalin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532097, 'Temazepam', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532098, 'Gefitinib', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532099, 'Piperacillin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532100, 'Sucralfate', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532101, 'Timolol', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532102, 'Rosiglitazone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532103, 'Spironolactone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532104, 'Zolpidem', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532105, 'Allopurinol', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532106, 'Oxaliplatin', 'Montelukast', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532107, 'Duloxetine', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532108, 'Raloxifene', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532109, 'Oxycodone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532110, 'Trandolapril', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532111, 'Erlotinib', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532112, 'Cefdinir', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532113, 'Propranolol', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532114, 'Triamcinolone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532115, 'Prednisone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532116, 'Oxaliplatin', 'Nystatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532117, 'Oxaliplatin', 'Aprepitant', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532118, 'Warfarin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532119, 'Tamsulosin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532120, 'Paroxetine', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532121, 'Oxaliplatin', 'Nateglinide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532122, 'Tetracycline', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532123, 'Potassium chloride', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532124, 'Oxaliplatin', 'Olopatadine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532125, 'Perindopril', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532126, 'Oxazepam', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532127, 'Prednisolone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532128, 'Ranitidine', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532129, 'Quinapril', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532130, 'Risedronic acid', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532131, 'Triazolam', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532132, 'Oxaliplatin', 'Misoprostol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532133, 'Telmisartan', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532134, 'Ezetimibe', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532135, 'Isosorbide mononitrate', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532136, 'Tolterodine', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532137, 'Oxybutynin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532138, 'Pilocarpine', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532139, 'Dutasteride', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532140, 'Rabeprazole', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532141, 'Pioglitazone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532142, 'Terazosin', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532143, 'Calcium chloride', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532144, 'Zopiclone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532145, 'Sodium bicarbonate', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532146, 'Tiotropium', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532147, 'Ursodeoxycholic acid', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532148, 'Fluticasone', 'Oxaliplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532149, 'Foscarnet', 'Morphine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532150, 'Foscarnet', 'Ritonavir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532151, 'Foscarnet', 'Vancomycin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532152, 'Foscarnet', 'Methotrexate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532153, 'Foscarnet', 'Stavudine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532154, 'Foscarnet', 'Lamivudine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532155, 'Ganciclovir', 'Foscarnet', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532156, 'Foscarnet', 'Atazanavir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532157, 'Foscarnet', 'Atovaquone', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532158, 'Itraconazole', 'Foscarnet', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532159, 'Foscarnet', 'Ursodeoxycholic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532160, 'Erlotinib', 'Sucralfate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532161, 'Erlotinib', 'Montelukast', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532162, 'Erlotinib', 'Cisplatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532163, 'Erlotinib', 'Nystatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532164, 'Erlotinib', 'Rosuvastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532165, 'Goserelin', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532166, 'Cyclophosphamide', 'Octreotide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532167, 'Folic acid', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532168, 'Cyclophosphamide', 'Pravastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532169, 'Cyclophosphamide', 'Valsartan', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532170, 'Cyclophosphamide', 'Ramipril', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532171, 'Cyclophosphamide', 'Lorazepam', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532172, 'Cyclophosphamide', 'Bortezomib', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532173, 'Cyclophosphamide', 'Tramadol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532174, 'Fluconazole', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532175, 'Cyclophosphamide', 'Oseltamivir', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532176, 'Erythromycin', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532177, 'Cyclophosphamide', 'Sildenafil', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532178, 'Cyclophosphamide', 'Pantoprazole', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532179, 'Cyclophosphamide', 'Torasemide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532180, 'Gadodiamide', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532181, 'Cyclophosphamide', 'Lovastatin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532182, 'Cyclophosphamide', 'Pregabalin', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532183, 'Cyclophosphamide', 'Temazepam', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532184, 'Dapsone', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532185, 'Doxycycline', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532186, 'Cyclophosphamide', 'Metoprolol', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532187, 'Isradipine', 'Cyclophosphamide', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532188, 'Cyclophosphamide', 'Topiramate', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532189, 'Cyclophosphamide', 'Lidocaine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532190, 'Cyclophosphamide', 'Pamidronic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532191, 'Cyclophosphamide', 'Venlafaxine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532192, 'Cyclophosphamide', 'Morphine', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);
+INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES (1532193, 'Cyclophosphamide', 'Valproic acid', 'Unknown', 'None', NULL, '-', NULL, '-', NULL, NULL, NULL, 'Unknown', NULL, 'DDInter', 'pharmacodynamic', 1767317477);

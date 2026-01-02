@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Export optimized mediswitch.db to chunked SQL files for D1 sync via GitHub Actions.
-Updated to map local (camelCase) schema to D1 (snake_case) schema manually for drugs table.
+Export optimized mediswitch.db to chunked SQL files for D1 sync.
+STRICT EXPLICIT MAPPING to prevent schema mismatch errors.
 """
 import sqlite3
 import os
@@ -24,9 +24,6 @@ def escape_sql(val):
 def write_chunked_sql(base_name, header, rows, chunk_size=CHUNK_SIZE):
     """Write SQL rows to chunked files"""
     chunk_index = 0
-    # Clear previous chunks for this base_name to avoid leftovers
-    # (Actually better to just overwrite, but assuming user deleted old ones or clean slate)
-    
     for i in range(0, len(rows), chunk_size):
         chunk = rows[i:i + chunk_size]
         filename = f"{base_name}_part_{chunk_index:03d}.sql"
@@ -34,31 +31,13 @@ def write_chunked_sql(base_name, header, rows, chunk_size=CHUNK_SIZE):
         with open(filepath, 'w', encoding='utf-8') as f:
             for row in chunk:
                 f.write(f"{header} {row};\n")
-        print(f"   ✅ {filename} ({len(chunk)} rows)")
         chunk_index += 1
+    print(f"   ✅ {base_name}: {len(rows)} rows in {chunk_index} chunks.")
 
 def export_drugs(conn):
-    """
-    Export drugs table with explicit mapping from local (camelCase) to D1 (snake_case).
-    """
-    print("\n📦 Exporting Drugs (Mapping camelCase -> snake_case)...")
-    conn.row_factory = sqlite3.Row # Enable name access
+    print("📦 Exporting Drugs (Strict Mapping)...")
+    conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
-    
-    # Check what columns we actually have in local DB
-    cursor.execute("SELECT * FROM drugs LIMIT 1")
-    row = cursor.fetchone()
-    cols = row.keys()
-    print(f"   Local Columns: {cols}")
-
-    # Map D1 (Target) <- Local (Source)
-    # Target Schema:
-    # id, trade_name, arabic_name, price, old_price, category, active, company, 
-    # dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology, 
-    # barcode, qr_code, visits, last_price_update, 
-    # has_drug_interaction, has_food_interaction, has_disease_interaction
-
-    # Prepare Query
     cursor.execute("SELECT * FROM drugs")
     
     header = """INSERT OR IGNORE INTO drugs (
@@ -69,42 +48,13 @@ def export_drugs(conn):
     ) VALUES"""
     
     sql_rows = []
-    
     for row in cursor.fetchall():
-        # strict mapping
-        vals = [
-            row['id'],
-            row['tradeName'] if 'tradeName' in row.keys() else '',
-            row['arabicName'] if 'arabicName' in row.keys() else '',
-            row['price'],
-            row['oldPrice'] if 'oldPrice' in row.keys() else '',
-            row['category'], # 'mainCategory' is ignored!
-            row['active'],
-            row['company'],
-            row['dosageForm'] if 'dosageForm' in row.keys() else '',
-            row['dosageForm_ar'] if 'dosageForm_ar' in row.keys() else '',
-            row['concentration'],
-            row['unit'],
-            row['usage'],
-            row['description'] if 'description' in row.keys() else '', # Map description -> pharmacology? Or is there a pharmacology column? CHECK. DatabaseHelper says pharmacology. Local might be description or mechanism_of_action?
-            # Let's check logic: MedicineModel.fromCsv maps row[12] to pharmacology AND description.
-            # Local DB has 'indication', 'mechanism_of_action', 'pharmacodynamics'.
-            # It also has 'description'.
-            # Let's map 'description' to 'pharmacology' for now as closest match or empty.
-            row['barcode'],
-            '', # qr_code (not in local keys usually or named differently? 'imageUrl' exists. let's put empty for qr_code)
-            row['visits'],
-            row['lastPriceUpdate'] if 'lastPriceUpdate' in row.keys() else '',
-            0, # has_drug_interaction (re-calc or set 0)
-            0, # has_food_interaction
-            0  # has_disease_interaction
-        ]
-        
-        # Helper to safely get column even if missing
-        def get_col(name):
-            return row[name] if name in row.keys() else ''
+        def get_col(names):
+            if isinstance(names, str): names = [names]
+            for name in names:
+                if name in row.keys(): return row[name]
+            return None
 
-        # Refined Mapping based on viewed schema
         vals = [
             get_col('id'),
             get_col('tradeName'),
@@ -119,53 +69,100 @@ def export_drugs(conn):
             get_col('concentration'),
             get_col('unit'),
             get_col('usage'),
-            get_col('indication') if get_col('indication') else get_col('description'), # Indication/Desc -> Pharmacology
+            get_col(['indication', 'description', 'pharmacology']),
             get_col('barcode'),
-            '', # qr_code
-            get_col('visits'),
+            get_col(['qrCode', 'imageUrl']),
+            get_col('visits') or 0,
             get_col('lastPriceUpdate'),
-            0, 0, 0
+            0, 0, 0 # Interaction flags
         ]
-        
-        escaped_vals = [escape_sql(v) for v in vals]
-        sql_rows.append(f"({', '.join(escaped_vals)})")
-    
-    print(f"   Total: {len(sql_rows):,} rows")
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
     write_chunked_sql("d1_import", header, sql_rows)
 
 def export_drug_interactions(conn):
-    """Export drug_interactions table"""
-    print("\n📦 Exporting Drug Interactions...")
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM drug_interactions")
-    columns = [desc[0] for desc in cursor.description]
-    
-    header = f"INSERT OR IGNORE INTO drug_interactions ({', '.join(columns)}) VALUES"
-    sql_rows = []
-    
-    for row in cursor.fetchall():
-        vals = [escape_sql(v) for v in row]
-        sql_rows.append(f"({', '.join(vals)})")
-    
-    print(f"   Total: {len(sql_rows):,} rows")
-    write_chunked_sql("d1_rules", header, sql_rows, chunk_size=300)
-
-def export_disease_interactions(conn):
-    """Export disease_interactions table (optimized)"""
-    print("\n📦 Exporting Disease Interactions (Optimized)...")
+    print("📦 Exporting Drug Interactions (Strict Mapping)...")
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM disease_interactions")
+    cursor.execute("SELECT * FROM drug_interactions")
     
-    # Target Schema in D1:
-    # id, med_id, trade_name, disease_name, interaction_text, severity, source
-    header = "INSERT OR IGNORE INTO disease_interactions (id, med_id, trade_name, disease_name, interaction_text, severity, source) VALUES"
+    header = """INSERT OR IGNORE INTO drug_interactions (
+        id, ingredient1, ingredient2, severity, effect, arabic_effect,
+        recommendation, arabic_recommendation, management_text, mechanism_text,
+        alternatives_a, alternatives_b, risk_level, ddinter_id, source, type, updated_at
+    ) VALUES"""
+    
     sql_rows = []
-    
     for row in cursor.fetchall():
         def get_col(name):
             return row[name] if name in row.keys() else None
 
+        vals = [
+            get_col('id'),
+            get_col('ingredient1'),
+            get_col('ingredient2'),
+            get_col('severity'),
+            get_col('effect'),
+            get_col('arabic_effect'),
+            get_col('recommendation'),
+            get_col('arabic_recommendation'),
+            get_col('management_text'),
+            get_col('mechanism_text'),
+            get_col('alternatives_a'), # NULL if missing
+            get_col('alternatives_b'), # NULL if missing
+            get_col('risk_level'),
+            get_col('ddinter_id'),
+            get_col('source') or 'DailyMed',
+            get_col('type') or 'pharmacodynamic',
+            get_col('updated_at') or 0
+        ]
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
+    write_chunked_sql("d1_rules", header, sql_rows, chunk_size=300)
+
+def export_med_ingredients(conn):
+    print("📦 Exporting Med Ingredients (Strict Mapping)...")
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM med_ingredients")
+    
+    header = "INSERT OR IGNORE INTO med_ingredients (med_id, ingredient, updated_at) VALUES"
+    sql_rows = []
+    for row in cursor.fetchall():
+        vals = [row['med_id'], row['ingredient'], 0]
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
+    write_chunked_sql("d1_ingredients", header, sql_rows)
+
+def export_food_interactions(conn):
+    print("📦 Exporting Food Interactions (Strict Mapping)...")
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM food_interactions")
+    
+    header = "INSERT OR IGNORE INTO food_interactions (id, med_id, trade_name, interaction, source) VALUES"
+    sql_rows = []
+    for row in cursor.fetchall():
+        def get_col(name): return row[name] if name in row.keys() else None
+        
+        vals = [
+            get_col('id'),
+            get_col('med_id'),
+            get_col('trade_name'),
+            get_col('interaction') if 'interaction' in row.keys() else get_col('interaction_text'),
+            get_col('source') or 'DrugBank'
+        ]
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
+    write_chunked_sql("d1_food", header, sql_rows)
+
+def export_disease_interactions(conn):
+    print("📦 Exporting Disease Interactions (Strict Mapping)...")
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM disease_interactions")
+    
+    header = "INSERT OR IGNORE INTO disease_interactions (id, med_id, trade_name, disease_name, interaction_text, severity, source) VALUES"
+    sql_rows = []
+    for row in cursor.fetchall():
+        def get_col(name): return row[name] if name in row.keys() else None
+        
         vals = [
             get_col('id'),
             get_col('med_id'),
@@ -175,58 +172,24 @@ def export_disease_interactions(conn):
             get_col('severity'),
             get_col('source') or 'DDInter'
         ]
-        escaped_vals = [escape_sql(v) for v in vals]
-        sql_rows.append(f"({', '.join(escaped_vals)})")
-    
-    print(f"   Total: {len(sql_rows):,} rows")
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
     write_chunked_sql("d1_disease", header, sql_rows)
 
-def export_food_interactions(conn):
-    """Export food_interactions table (optimized)"""
-    print("\n📦 Exporting Food Interactions (Optimized)...")
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM food_interactions")
-    
-    # Target Schema in D1:
-    # id, med_id, trade_name, interaction, source
-    # Local has 'interaction_text', so we map it to 'interaction'
-    header = "INSERT OR IGNORE INTO food_interactions (id, med_id, trade_name, interaction, source) VALUES"
-    sql_rows = []
-    
-    for row in cursor.fetchall():
-        def get_col(name):
-            return row[name] if name in row.keys() else None
-
-        vals = [
-            get_col('id'),
-            get_col('med_id'),
-            get_col('trade_name'), # Might be None in local, D1 allows it
-            get_col('interaction') if 'interaction' in row.keys() else get_col('interaction_text'),
-            get_col('source') or 'DrugBank'
-        ]
-        escaped_vals = [escape_sql(v) for v in vals]
-        sql_rows.append(f"({', '.join(escaped_vals)})")
-    
-    print(f"   Total: {len(sql_rows):,} rows")
-    write_chunked_sql("d1_food", header, sql_rows)
-
 def export_dosage_guidelines(conn):
-    """Export dosage_guidelines table"""
-    print("\n📦 Exporting Dosage Guidelines...")
+    print("📦 Exporting Dosage Guidelines (Strict Mapping)...")
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM dosage_guidelines")
     
-    # Target Schema:
-    # id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric
-    header = "INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES"
-    sql_rows = []
+    header = """INSERT OR IGNORE INTO dosage_guidelines (
+        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
+        duration, instructions, condition, source, is_pediatric
+    ) VALUES"""
     
+    sql_rows = []
     for row in cursor.fetchall():
-        def get_col(name):
-            return row[name] if name in row.keys() else None
-
+        def get_col(name): return row[name] if name in row.keys() else None
+        
         vals = [
             get_col('id'),
             get_col('med_id'),
@@ -240,36 +203,25 @@ def export_dosage_guidelines(conn):
             get_col('source'),
             get_col('is_pediatric')
         ]
-        escaped_vals = [escape_sql(v) for v in vals]
-        sql_rows.append(f"({', '.join(escaped_vals)})")
-    
-    print(f"   Total: {len(sql_rows):,} rows")
+        sql_rows.append(f"({', '.join(escape_sql(v) for v in vals)})")
     write_chunked_sql("d1_dosages", header, sql_rows)
 
 def main():
     if not os.path.exists(DB_PATH):
         print(f"❌ Database not found: {DB_PATH}")
         return
-    
-    # Create output directory
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    print("🚀 Exporting MediSwitch Database to D1-Ready SQL Chunks (FIXED SCHEMA)")
-    print("="*80)
-    
     conn = sqlite3.connect(DB_PATH)
-    
     try:
         export_drugs(conn)
         export_drug_interactions(conn)
+        export_med_ingredients(conn)
         export_disease_interactions(conn)
         export_food_interactions(conn)
         export_dosage_guidelines(conn)
     finally:
         conn.close()
-    
-    print("\n" + "="*80)
-    print(f"✅ Export Complete! Files saved to: {OUTPUT_DIR}/")
+    print("\n✅ Export Complete! All chunks generated with STRICT mapping.")
 
 if __name__ == "__main__":
     main()

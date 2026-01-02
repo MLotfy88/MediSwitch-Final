@@ -83,6 +83,7 @@ jobs:
           # 2. Deploy all datasets in order (from d1_sql_chunks/)
           execute_pattern "d1_import_part_*.sql" "Drugs"
           execute_pattern "d1_rules_part_*.sql" "Drug Interactions"
+          execute_pattern "d1_ingredients_part_*.sql" "Med Ingredients"
           execute_pattern "d1_food_part_*.sql" "Food Interactions"
           execute_pattern "d1_disease_part_*.sql" "Disease Interactions"
           execute_pattern "d1_dosages_part_*.sql" "Dosage Guidelines"
