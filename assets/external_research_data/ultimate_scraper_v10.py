@@ -708,7 +708,7 @@ def save_drug_data(drug_data, ddi_list, dfi_list, prep_list, dsi_list):
                 {1: 'Minor', 2: 'Moderate', 3: 'Major'}.get(int(interaction.get('level', 0)), 'Unknown'),
                 interaction.get('newInteraction'),
                 interaction.get('newManagement'),
-                interaction.get('magnesium')
+                interaction.get('mechanism')
             ))
         
         # 4. حفظ المستحضرات المركبة

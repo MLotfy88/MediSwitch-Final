@@ -17,7 +17,8 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 15; // Added home_sections_cache (was 14)
+  static const int _dbVersion =
+      16; // Added enriched interaction columns (was 15)
   static const String medicinesTable = 'drugs'; // Renamed from 'medicines'
   static const String interactionsTable =
       'drug_interactions'; // Renamed from 'interaction_rules'
@@ -165,9 +166,55 @@ class DatabaseHelper {
     }
 
     if (oldVersion < 15) {
-      debugPrint('Upgrading to Version 15: Adding home_sections_cache...');
       await db.execute(
         'CREATE TABLE IF NOT EXISTS $homeCacheTable (key TEXT PRIMARY KEY, data TEXT)',
+      );
+    }
+
+    if (oldVersion < 16) {
+      debugPrint(
+        'Upgrading to Version 16: Enriching interaction data schema...',
+      );
+      // 1. Drugs Table
+      await db.execute(
+        'ALTER TABLE $medicinesTable ADD COLUMN description TEXT',
+      );
+      await db.execute('ALTER TABLE $medicinesTable ADD COLUMN atc_codes TEXT');
+      await db.execute(
+        'ALTER TABLE $medicinesTable ADD COLUMN external_links TEXT',
+      );
+
+      // 2. Drug Interactions Table
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN metabolism_info TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN source_url TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $interactionsTable ADD COLUMN reference_text TEXT',
+      );
+
+      // 3. Food Interactions Table
+      await db.execute(
+        'ALTER TABLE $foodInteractionsTable ADD COLUMN ingredient TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $foodInteractionsTable ADD COLUMN severity TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $foodInteractionsTable ADD COLUMN management_text TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $foodInteractionsTable ADD COLUMN mechanism_text TEXT',
+      );
+      await db.execute(
+        'ALTER TABLE $foodInteractionsTable ADD COLUMN reference_text TEXT',
+      );
+
+      // 4. Disease Interactions Table
+      await db.execute(
+        'ALTER TABLE $diseaseInteractionsTable ADD COLUMN reference_text TEXT',
       );
     }
   }
@@ -203,7 +250,10 @@ class DatabaseHelper {
             $colDataSourcePharmacology TEXT,
             has_drug_interaction INTEGER DEFAULT 0,
             has_food_interaction INTEGER DEFAULT 0,
-            has_disease_interaction INTEGER DEFAULT 0
+            has_disease_interaction INTEGER DEFAULT 0,
+            description TEXT,
+            atc_codes TEXT,
+            external_links TEXT
           )
           ''');
     debugPrint('Medicines table created');
@@ -294,6 +344,9 @@ class DatabaseHelper {
         ddinter_id TEXT,
         source TEXT,
         type TEXT,
+        metabolism_info TEXT,
+        source_url TEXT,
+        reference_text TEXT,
         updated_at INTEGER DEFAULT 0
       )
     ''');
@@ -332,7 +385,13 @@ class DatabaseHelper {
         med_id INTEGER NOT NULL,
         trade_name TEXT,
         interaction TEXT NOT NULL,
-        source TEXT DEFAULT 'DrugBank'
+        ingredient TEXT,
+        severity TEXT,
+        management_text TEXT,
+        mechanism_text TEXT,
+        reference_text TEXT,
+        source TEXT DEFAULT 'DrugBank',
+        created_at INTEGER DEFAULT 0
       )
     ''');
     await db.execute(
@@ -351,7 +410,9 @@ class DatabaseHelper {
         disease_name TEXT NOT NULL,
         interaction_text TEXT NOT NULL,
         severity TEXT,
-        source TEXT DEFAULT 'DDInter'
+        reference_text TEXT,
+        source TEXT DEFAULT 'DDInter',
+        created_at INTEGER DEFAULT 0
       )
     ''');
     await db.execute(
@@ -397,6 +458,9 @@ class DatabaseHelper {
         'has_drug_interaction',
         'has_food_interaction',
         'has_disease_interaction',
+        'description',
+        'atc_codes',
+        'external_links',
       ];
 
       dbMap.removeWhere((key, value) => !validColumns.contains(key));

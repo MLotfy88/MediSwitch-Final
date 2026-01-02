@@ -16,6 +16,8 @@ class DrugInteractionModel extends DrugInteraction {
     super.mechanismText,
     super.riskLevel,
     super.ddinterId,
+    super.alternativesA,
+    super.alternativesB,
     super.source = 'DailyMed',
     super.type = 'pharmacodynamic',
     super.isPrimaryIngredient = true,
@@ -36,7 +38,9 @@ class DrugInteractionModel extends DrugInteraction {
       managementText: json['management_text'] as String?,
       mechanismText: json['mechanism_text'] as String?,
       riskLevel: json['risk_level'] as String?,
-      ddinterId: json['ddinter_id'] as String?,
+      ddinterId: json['ddinter_id'] as String? ?? json['ddinterId'] as String?,
+      alternativesA: DrugInteraction.parseAlternatives(json['alternatives_a']),
+      alternativesB: DrugInteraction.parseAlternatives(json['alternatives_b']),
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
       isPrimaryIngredient:
@@ -60,6 +64,8 @@ class DrugInteractionModel extends DrugInteraction {
       'mechanism_text': mechanismText,
       'risk_level': riskLevel,
       'ddinter_id': ddinterId,
+      'alternatives_a': alternativesA?.join(','),
+      'alternatives_b': alternativesB?.join(','),
       'source': source,
       'type': type,
     };

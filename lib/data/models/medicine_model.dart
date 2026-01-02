@@ -30,6 +30,9 @@ class MedicineModel extends DrugEntity {
     super.hasDrugInteraction = false,
     super.hasFoodInteraction = false,
     super.hasDiseaseInteraction = false,
+    super.description,
+    super.atcCodes,
+    super.externalLinks,
   });
 
   // Helper function to safely parse string from dynamic row data
@@ -116,6 +119,9 @@ class MedicineModel extends DrugEntity {
                   row[25] == true ||
                   row[25] == 'true')
               : false,
+      description: row.length > 26 ? _parseString(row[26]) : null,
+      atcCodes: row.length > 27 ? _parseString(row[27]) : null,
+      externalLinks: row.length > 28 ? _parseString(row[28]) : null,
     );
   }
 
@@ -155,6 +161,9 @@ class MedicineModel extends DrugEntity {
       hasDiseaseInteraction:
           json['has_disease_interaction'] == 1 ||
           json['has_disease_interaction'] == true,
+      description: _parseString(json['description']),
+      atcCodes: _parseString(json['atc_codes']),
+      externalLinks: _parseString(json['external_links']),
     );
   }
 
@@ -186,6 +195,9 @@ class MedicineModel extends DrugEntity {
       'has_drug_interaction': hasDrugInteraction ? 1 : 0,
       'has_food_interaction': hasFoodInteraction ? 1 : 0,
       'has_disease_interaction': hasDiseaseInteraction ? 1 : 0,
+      'description': description,
+      'atc_codes': atcCodes,
+      'external_links': externalLinks,
     };
   }
 
@@ -223,6 +235,9 @@ class MedicineModel extends DrugEntity {
       hasDiseaseInteraction:
           map['has_disease_interaction'] == 1 ||
           map['has_disease_interaction'] == true,
+      description: map['description']?.toString(),
+      atcCodes: map['atc_codes']?.toString(),
+      externalLinks: map['external_links']?.toString(),
     );
   }
 
@@ -256,6 +271,9 @@ class MedicineModel extends DrugEntity {
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
       hasDiseaseInteraction: hasDiseaseInteraction,
+      description: description,
+      atcCodes: atcCodes,
+      externalLinks: externalLinks,
       isNew: isNewDrug,
       isPopular: false, // Will be set by provider based on top 50 visits
     );
@@ -297,6 +315,9 @@ class MedicineModel extends DrugEntity {
       hasDrugInteraction: entity.hasDrugInteraction,
       hasFoodInteraction: entity.hasFoodInteraction,
       hasDiseaseInteraction: entity.hasDiseaseInteraction,
+      description: entity.description,
+      atcCodes: entity.atcCodes,
+      externalLinks: entity.externalLinks,
     );
   }
 }

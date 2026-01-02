@@ -1102,54 +1102,164 @@ async function handleAdminGetDrugs(request, DB) {
         const params = [];
 
         if (search) {
-            query += ' WHERE trade_name LIKE ? OR active LIKE ?';
-            params.push(`%${search}%`, `%${search}%`);
+            query += ' WHERE trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ? OR company LIKE ? OR category LIKE ?';
+            const pattern = `%${search}%`;
+            params.push(pattern, pattern, pattern, pattern, pattern);
         }
 
-        const allowedColumns = ['id', 'trade_name', 'price', 'updated_at', 'company', 'category'];
+        const allowedColumns = ['id', 'trade_name', 'arabic_name', 'price', 'updated_at', 'company', 'category'];
         const safeSortBy = allowedColumns.includes(sortBy) ? sortBy : 'updated_at';
         query += ` ORDER BY ${safeSortBy} ${sortOrder} LIMIT ? OFFSET ?`;
         params.push(limit, offset);
 
         const { results } = await DB.prepare(query).bind(...params).all();
-        const { count } = await DB.prepare('SELECT COUNT(*) as count FROM drugs' + (search ? ' WHERE trade_name LIKE ? OR active LIKE ?' : '')).bind(...(search ? [`%${search}%`, `%${search}%`] : [])).first();
+
+        let countQuery = 'SELECT COUNT(*) as count FROM drugs';
+        const countParams = [];
+        if (search) {
+            countQuery += ' WHERE trade_name LIKE ? OR arabic_name LIKE ? OR active LIKE ? OR company LIKE ? OR category LIKE ?';
+            const pattern = `%${search}%`;
+            countParams.push(pattern, pattern, pattern, pattern, pattern);
+        }
+
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
 
         return jsonResponse({
             data: results,
-            pagination: { page, limit, total: count }
+            pagination: { page, limit, total: countResult.count }
         });
     } catch (e) {
         return errorResponse(e.message, 500);
     }
 }
 
-async function handleAdminUpdateDrug(id, request, DB) {
+async function handleAdminGetDrug(id, DB) {
     if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const drug = await DB.prepare('SELECT * FROM drugs WHERE id = ?').bind(id).first();
+        if (!drug) return errorResponse('Drug not found', 404);
+        return jsonResponse({ data: drug });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
 
+async function handleAdminDeleteDrug(id, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const result = await DB.prepare('DELETE FROM drugs WHERE id = ?').bind(id).run();
+        if (result.meta.changes === 0) return errorResponse('Drug not found', 404);
+        return jsonResponse({ message: 'Drug deleted successfully' });
+    } catch (e) {
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleAdminCreateDrug(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
     try {
         const data = await request.json();
 
+        // Basic validation
+        if (!data.trade_name) return errorResponse('trade_name is required', 400);
+
         const query = `
-            UPDATE drugs 
-            SET trade_name = ?, company = ?, price = ?, updated_at = unixepoch('now')
+            INSERT INTO drugs (
+                id, trade_name, arabic_name, price, old_price, category, active, company, 
+                dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology, 
+                barcode, qr_code, visits, last_price_update, updated_at, indication, 
+                mechanism_of_action, pharmacodynamics, data_source_pharmacology, 
+                has_drug_interaction, has_food_interaction, has_disease_interaction
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, unixepoch('now'), ?, ?, ?, ?, ?, ?, ?)
+        `;
+
+        const result = await DB.prepare(query).bind(
+            data.id || null, // Auto-increment if null
+            data.trade_name,
+            data.arabic_name || null,
+            data.price || null,
+            data.old_price || null,
+            data.category || null,
+            data.active || null,
+            data.company || null,
+            data.dosage_form || null,
+            data.dosage_form_ar || null,
+            data.concentration || null,
+            data.unit || null,
+            data.usage || null,
+            data.pharmacology || null,
+            data.barcode || null,
+            data.qr_code || null,
+            data.visits || 0,
+            data.last_price_update || new Date().toISOString().split('T')[0],
+            data.indication || null,
+            data.mechanism_of_action || null,
+            data.pharmacodynamics || null,
+            data.data_source_pharmacology || null,
+            data.has_drug_interaction ? 1 : 0,
+            data.has_food_interaction ? 1 : 0,
+            data.has_disease_interaction ? 1 : 0
+        ).run();
+
+        return jsonResponse({
+            message: 'Drug created successfully',
+            data: { id: result.meta.last_row_id, trade_name: data.trade_name }
+        }, 201);
+    } catch (e) {
+        console.error('Admin create drug error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleAdminUpdateDrug(id, request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    try {
+        const data = await request.json();
+        const query = `
+            UPDATE drugs SET 
+                trade_name = ?, arabic_name = ?, price = ?, old_price = ?, category = ?, 
+                active = ?, company = ?, dosage_form = ?, dosage_form_ar = ?, 
+                concentration = ?, unit = ?, usage = ?, pharmacology = ?, 
+                barcode = ?, qr_code = ?, visits = ?, last_price_update = ?, 
+                updated_at = unixepoch('now'), indication = ?, mechanism_of_action = ?, 
+                pharmacodynamics = ?, data_source_pharmacology = ?, 
+                has_drug_interaction = ?, has_food_interaction = ?, has_disease_interaction = ?
             WHERE id = ?
         `;
 
         const result = await DB.prepare(query).bind(
             data.trade_name,
-            data.company,
-            data.price,
+            data.arabic_name || null,
+            data.price || null,
+            data.old_price || null,
+            data.category || null,
+            data.active || null,
+            data.company || null,
+            data.dosage_form || null,
+            data.dosage_form_ar || null,
+            data.concentration || null,
+            data.unit || null,
+            data.usage || null,
+            data.pharmacology || null,
+            data.barcode || null,
+            data.qr_code || null,
+            data.visits || 0,
+            data.last_price_update || null,
+            data.indication || null,
+            data.mechanism_of_action || null,
+            data.pharmacodynamics || null,
+            data.data_source_pharmacology || null,
+            data.has_drug_interaction ? 1 : 0,
+            data.has_food_interaction ? 1 : 0,
+            data.has_disease_interaction ? 1 : 0,
             id
         ).run();
 
-        if (result.meta.changes === 0) {
-            return errorResponse('Drug not found', 404);
-        }
-
+        if (result.meta.changes === 0) return errorResponse('Drug not found', 404);
         return jsonResponse({ data: { id: parseInt(id), ...data } });
     } catch (error) {
         console.error('Admin update drug error:', error);
-        return errorResponse('Failed to update drug', 500);
+        return errorResponse(error.message, 500);
     }
 }
 

@@ -287,8 +287,8 @@ class SqliteLocalDataSource {
 
       List<String> ingredients = [];
       // Try precise map first
-      if (ingredientsMap.containsKey(med.trade_name)) {
-        final dynamic mapped = ingredientsMap[med.trade_name];
+      if (ingredientsMap.containsKey(med.tradeName)) {
+        final dynamic mapped = ingredientsMap[med.tradeName];
         if (mapped is List) {
           ingredients =
               mapped.map((e) => e.toString().toLowerCase().trim()).toList();

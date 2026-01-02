@@ -138,11 +138,12 @@
 
 ## 📅 الجدول الزمني
 
-### المرحلة 13: Interaction UI & Sync Optimization ✅ (Jan 10, 2025)
-- [x] **Interaction Warning Icons**: Dynamic recalculation of `has_interaction` flags in `MedicineProvider`.
-- [x] **Comprehensive Data Fetching**: Updated SQL queries to fetch all 10+ interaction detail columns.
-- [x] **Search Enhancements**: Fixed High Risk "See All" search for null ingredients.
-- [x] **End-to-End Sync**: Implemented incremental sync for Food and Disease interactions in `UnifiedSyncService`.
+### المرحلة 13: Cloudflare Worker & Dashboard CRUD Finalization ✅ (Jan 02, 2026)
+- [x] **Cloudflare Worker Audit**: تم فحص الكود ومعالجة الدوال المفقودة (`create`, `get`, `delete`).
+- [x] **26-Column Support**: توسيع نطاق الـ API ليشمل كافة بيانات الأدوية (السريرية والإدارية).
+- [x] **Flutter Alignment**: تصحيح تسمية `trade_name` لضمان التوافق التام مع واجهة الـ API.
+- [x] **Admin Dashboard CRUD**: بناء واجهة إضافة وتعديل متكاملة (Dialog) تدعم كافة حقول البيانات.
+- [x] **Production Deployment**: نشر الـ Worker ولوحة التحكم بنجاح باستخدام رموز الوصول (Tokens) الرسمية.
 
 ---
 
@@ -161,10 +162,11 @@
 | D1 Sync & Flutter Alignment | ✅ | Dec 23 |
 | Admin Dashboard & D1 Finalization | ✅ | Dec 30 |
 | Interaction UI & Sync Optimization | ✅ | Jan 10 |
+| Cloudflare CRUD & Deploy | ✅ | Jan 02 |
 
 ---
 
 ## 🎯 الأولويات القادمة
 
-1. الاختبار الشامل لتدفق البيانات بين الـ Admin والـ Mobile بعد تفعيل الـ Sync الجديد.
+1. المراقبة الدورية لأداء النظام بعد النشر.
 2. إعداد ملفات النشر النهائي للمتاجر.

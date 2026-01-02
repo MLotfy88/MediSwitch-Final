@@ -26,7 +26,7 @@ class DosageGuidelinesModel extends DosageGuidelines {
       duration: json['duration'] as int?,
       instructions: json['instructions'] as String?,
       condition: json['condition'] as String?,
-      source: json['source'] as String? ?? 'Local',
+      source: json['source'] as String? ?? 'DailyMed',
       isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
     );
   }

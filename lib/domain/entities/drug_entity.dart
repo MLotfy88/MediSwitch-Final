@@ -22,6 +22,11 @@ class DrugEntity extends Equatable {
   final String lastPriceUpdate;
   final int updatedAt;
 
+  // Extra Metadata
+  final String? description;
+  final String? atcCodes;
+  final String? externalLinks;
+
   // Clinical Data Fields
   final String? indication;
   final String? mechanismOfAction;
@@ -70,6 +75,9 @@ class DrugEntity extends Equatable {
     this.hasDrugInteraction = false,
     this.hasFoodInteraction = false,
     this.hasDiseaseInteraction = false,
+    this.description,
+    this.atcCodes,
+    this.externalLinks,
   });
 
   factory DrugEntity.empty() {
@@ -122,6 +130,9 @@ class DrugEntity extends Equatable {
       hasDiseaseInteraction: hasDiseaseInteraction,
       isPopular: isPopular ?? this.isPopular,
       isNew: isNew ?? this.isNew,
+      description: description ?? this.description,
+      atcCodes: atcCodes ?? this.atcCodes,
+      externalLinks: externalLinks ?? this.externalLinks,
     );
   }
 
@@ -155,5 +166,8 @@ class DrugEntity extends Equatable {
     hasDrugInteraction,
     hasFoodInteraction,
     hasDiseaseInteraction,
+    description,
+    atcCodes,
+    externalLinks,
   ];
 }

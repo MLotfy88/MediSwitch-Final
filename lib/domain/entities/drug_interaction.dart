@@ -58,8 +58,8 @@ class DrugInteraction extends Equatable {
       arabicRecommendation: json['arabic_recommendation'] as String?,
       managementText: json['management_text'] as String?,
       mechanismText: json['mechanism_text'] as String?,
-      alternativesA: _parseAlternatives(json['alternatives_a']),
-      alternativesB: _parseAlternatives(json['alternatives_b']),
+      alternativesA: DrugInteraction.parseAlternatives(json['alternatives_a']),
+      alternativesB: DrugInteraction.parseAlternatives(json['alternatives_b']),
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
     );
@@ -78,7 +78,7 @@ class DrugInteraction extends Equatable {
     );
   }
 
-  static List<String>? _parseAlternatives(dynamic val) {
+  static List<String>? parseAlternatives(dynamic val) {
     if (val == null) return null;
     if (val is String && val.isNotEmpty) {
       // Very basic parse assuming ["Item 1", "Item 2"] format from JSON
