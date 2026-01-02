@@ -37,7 +37,11 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           DB_NAME: "mediswitsh-db"
         run: |
-          echo "🚀 Starting Resilient D1 Data Sync (Pre-Generated Chunks)..."
+          echo "🚀 Generating SQL Chunks from source assets..."
+          mkdir -p d1_sql_chunks
+          python3 scripts/rebuild_d1_data.py
+          
+          echo "🚀 Starting Resilient D1 Data Sync (On-the-fly Generated)..."
           
           # Function to execute a pattern of files
           execute_pattern() {

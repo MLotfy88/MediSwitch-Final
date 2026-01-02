@@ -1,250 +1,123 @@
 import csv
 import json
 import os
-import glob
+import re
 
-# Output dir - dynamic for CI/Local compatibility
-OUTPUT_DIR = os.getcwd()
+# --- Configuration ---
+CHUNK_DIR = "d1_sql_chunks"
+BATCH_SIZE = 1000
 
-def escape_sql(val):
-    """Escape SQL values properly"""
-    if val is None or val == '':
-        return "NULL"
-    if isinstance(val, (int, float)):
-        return str(val)
-    if isinstance(val, bool):
-        return "1" if val else "0"
-    val = str(val).replace("'", "''")
-    return f"'{val}'"
+# File Paths
+MEDS_CSV = "assets/meds.csv"
+DOSAGES_JSON = "assets/data/dosage_guidelines.json"
+FOOD_JSON = "assets/data/interactions/enriched/enriched_food_interactions.json"
+RULES_DIR = "assets/data/interactions/enriched"
 
-def write_chunked_sql(base_name, header, rows, chunk_size=1000):
-    """Write SQL rows to chunked files"""
-    chunk_index = 0
-    for i in range(0, len(rows), chunk_size):
-        chunk = rows[i:i + chunk_size]
-        filename = f"{base_name}_part_{chunk_index:03d}.sql"
-        filepath = os.path.join(OUTPUT_DIR, filename)
-        with open(filepath, 'w', encoding='utf-8') as f:
-            for row in chunk:
-                f.write(f"{header} {row};\n")
-        print(f"Created {filename} with {len(chunk)} rows")
-        chunk_index += 1
+def clean_sql_val(val):
+    if val is None or val == "": return "NULL"
+    if isinstance(val, (int, float)): return str(val)
+    # Escape single quotes
+    safe_v = str(val).replace("'", "''")
+    return f"'{safe_v}'"
+
+def write_chunk(table_name, alias, data_list, cols):
+    if not data_list: return
+    
+    os.makedirs(CHUNK_DIR, exist_ok=True)
+    
+    for i in range(0, len(data_list), BATCH_SIZE):
+        chunk_idx = i // BATCH_SIZE
+        batch = data_list[i:i + BATCH_SIZE]
+        
+        sql_lines = []
+        for row in batch:
+            vals = [clean_sql_val(row.get(col)) for col in cols]
+            sql_lines.append(f"INSERT OR REPLACE INTO {table_name} ({', '.join(cols)}) VALUES ({', '.join(vals)});")
+        
+        fname = f"{alias}_part_{chunk_idx:03d}.sql"
+        with open(os.path.join(CHUNK_DIR, fname), "w", encoding="utf-8") as f:
+            f.write("\n".join(sql_lines))
+
+def parse_ingredients(active):
+    if not active: return []
+    return [ing.strip().lower() for ing in re.split(r'[+;,/]', active) if ing.strip()]
 
 def process_drugs():
-    """
-    Process drugs table with FULL 27-column schema matching schema.sql
-    Uses DictReader for robust name-based mapping
-    """
-    print("Processing Drugs from meds.csv...")
-    csv_path = "assets/meds.csv"
-    if not os.path.exists(csv_path):
-        print(f"File not found: {csv_path}")
-        return
+    print("💊 Processing Drugs & Ingredients...")
+    drugs = []
+    ingredients = []
     
-    sql_rows = []
-    # Full 27-column schema from schema.sql
-    header = """INSERT OR IGNORE INTO drugs (
-        id, trade_name, arabic_name, price, old_price, category,
-        active, company, dosage_form, dosage_form_ar, concentration, unit, usage,
-        pharmacology, barcode, qr_code, visits, last_price_update, updated_at,
-        indication, mechanism_of_action, pharmacodynamics, data_source_pharmacology,
-        has_drug_interaction, has_food_interaction, has_disease_interaction
-    ) VALUES"""
-    
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            try:
-                # Extract and cast values using column names
-                drug_id = int(row.get('id', 0))
-                if drug_id == 0:
-                    continue  # Skip invalid IDs
+    if os.path.exists(MEDS_CSV):
+        with open(MEDS_CSV, mode='r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Map CSV to D1 table columns
+                drug_id = int(row['id'])
+                drugs.append(row)
                 
-                # Build values list matching exact schema order
-                vals = [
-                    drug_id,                                    # id
-                    row.get('trade_name', ''),                 # trade_name
-                    row.get('arabic_name', ''),                # arabic_name
-                    row.get('price', ''),                      # price
-                    row.get('old_price', ''),                  # old_price
-                    row.get('category', ''),                   # category
-                    row.get('active', ''),                     # active
-                    row.get('company', ''),                    # company
-                    row.get('dosage_form', ''),                # dosage_form
-                    row.get('dosage_form_ar', ''),             # dosage_form_ar
-                    row.get('concentration', ''),              # concentration
-                    row.get('unit', '') or row.get('units', ''), # unit
-                    row.get('usage', ''),                      # usage
-                    row.get('pharmacology', ''),               # pharmacology
-                    row.get('barcode', ''),                    # barcode
-                    row.get('qr_code', ''),                    # qr_code
-                    int(row.get('visits', 0)) if str(row.get('visits', '')).isdigit() else 0,  # visits
-                    row.get('last_price_update', ''),          # last_price_update
-                    int(row.get('updated_at', 0)) if str(row.get('updated_at', '')).isdigit() else 0, # updated_at
-                    row.get('indication', ''),                 # indication
-                    row.get('mechanism_of_action', ''),        # mechanism_of_action
-                    row.get('pharmacodynamics', ''),           # pharmacodynamics
-                    row.get('data_source_pharmacology', ''),   # data_source_pharmacology
-                    int(row.get('has_drug_interaction', 0)) if str(row.get('has_drug_interaction', '')).isdigit() else 0,
-                    int(row.get('has_food_interaction', 0)) if str(row.get('has_food_interaction', '')).isdigit() else 0,
-                    int(row.get('has_disease_interaction', 0)) if str(row.get('has_disease_interaction', '')).isdigit() else 0
-                ]
-                
-                sql_rows.append(f"({', '.join(map(escape_sql, vals))})")
-            except Exception as e:
-                print(f"Skipping row {row.get('id', 'unknown')}: {e}")
-                continue
-    
-    print(f"Processed {len(sql_rows)} drug records")
-    write_chunked_sql("d1_import", header, sql_rows, 1000)
+                # Mapping Ingredients
+                active = row.get('active', '')
+                ings = parse_ingredients(active)
+                for ing in ings:
+                    ingredients.append({"med_id": drug_id, "ingredient": ing})
 
-def process_drug_interactions():
-    """
-    Process drug interactions with FULL 15-column schema matching schema.sql
-    """
-    print("Processing Enriched (DDInter 2.0) Drug Interactions...")
-    files = sorted(glob.glob("assets/data/interactions/enriched/enriched_rules_part_*.json"))
-    sql_rows = []
+    drug_cols = ['id', 'trade_name', 'arabic_name', 'price', 'old_price', 'category', 'active', 'company', 
+                 'dosage_form', 'dosage_form_ar', 'concentration', 'unit', 'usage', 'pharmacology', 
+                 'barcode', 'qr_code', 'visits', 'last_price_update', 'updated_at', 'indication', 
+                 'mechanism_of_action', 'pharmacodynamics', 'data_source_pharmacology', 
+                 'has_drug_interaction', 'has_food_interaction', 'has_disease_interaction', 
+                 'description', 'atc_codes', 'external_links']
     
-    # Full 15-column schema (excluding id which is auto-increment)
-    header = """INSERT OR IGNORE INTO drug_interactions (
-        ingredient1, ingredient2, severity, effect, arabic_effect, recommendation, arabic_recommendation,
-        management_text, mechanism_text, risk_level, ddinter_id, source, type, updated_at
-    ) VALUES"""
+    # Filter only keys that exist in CSV
+    drug_data = []
+    for d in drugs:
+        d_mapped = {k: d.get(k) for k in drug_cols if k in d}
+        drug_data.append(d_mapped)
     
-    for fpath in files:
-        with open(fpath, 'r', encoding='utf-8') as f:
-            content = json.load(f)
-            data = content.get('data', [])
-            for item in data:
-                vals = [
-                    item.get('ingredient1', '').lower().strip(),      # ingredient1
-                    item.get('ingredient2', '').lower().strip(),      # ingredient2
-                    item.get('severity', 'unknown'),                   # severity
-                    item.get('effect') or item.get('description', ''), # effect
-                    '',                                                 # arabic_effect (not in data)
-                    item.get('recommendation', ''),                    # recommendation
-                    '',                                                 # arabic_recommendation (not in data)
-                    item.get('management_text', ''),                   # management_text
-                    item.get('mechanism_text', ''),                    # mechanism_text
-                    item.get('risk_level', ''),                        # risk_level
-                    item.get('ddinter_id', ''),                        # ddinter_id
-                    item.get('source', 'DDInter'),                     # source
-                    '',                                                 # type (not in data)
-                    0                                                   # updated_at
-                ]
-                sql_rows.append(f"({', '.join(map(escape_sql, vals))})")
-    
-    print(f"Processed {len(sql_rows)} drug interaction records")
-    write_chunked_sql("d1_rules", header, sql_rows, 800)
-
-def process_food_interactions():
-    """Process food interactions matching schema.sql"""
-    print("Processing Enriched Food Interactions...")
-    path = "assets/data/interactions/enriched/enriched_food_interactions.json"
-    if not os.path.exists(path):
-        print(f"File not found: {path}")
-        return
-    
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    # Schema: id (auto), med_id, trade_name, interaction, source
-    header = "INSERT OR IGNORE INTO food_interactions (med_id, trade_name, interaction, source) VALUES"
-    sql_rows = []
-    
-    for item in data:
-        vals = [
-            item.get('med_id'),
-            item.get('trade_name'),
-            item.get('interaction'),
-            item.get('source', 'DrugBank')
-        ]
-        sql_rows.append(f"({', '.join(map(escape_sql, vals))})")
-    
-    print(f"Processed {len(sql_rows)} food interaction records")
-    write_chunked_sql("d1_food", header, sql_rows, 1000)
-
-def process_disease_interactions():
-    """Process disease interactions matching schema.sql"""
-    print("Processing Enriched Disease Interactions...")
-    path = "assets/data/interactions/enriched/enriched_disease_interactions.json"
-    if not os.path.exists(path):
-        print(f"File not found: {path}")
-        return
-    
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    # Schema: id (auto), med_id, trade_name, disease_name, interaction_text, source
-    header = "INSERT OR IGNORE INTO disease_interactions (med_id, trade_name, disease_name, interaction_text, source) VALUES"
-    sql_rows = []
-    
-    for item in data:
-        vals = [
-            item.get('med_id'),
-            item.get('trade_name'),
-            item.get('disease_name'),
-            item.get('interaction_text'),
-            item.get('source', 'DDInter')
-        ]
-        sql_rows.append(f"({', '.join(map(escape_sql, vals))})")
-    
-    print(f"Processed {len(sql_rows)} disease interaction records")
-    write_chunked_sql("d1_disease", header, sql_rows, 1000)
+    write_chunk("drugs", "d1_import", drug_data, drug_cols)
+    write_chunk("med_ingredients", "d1_ingredients", ingredients, ["med_id", "ingredient"])
 
 def process_dosages():
-    """Process dosage guidelines matching schema.sql with full 11-column structure"""
-    print("Processing Dosage Guidelines...")
-    path = "assets/data/dosage_guidelines.json"
-    if not os.path.exists(path):
-        print(f"File not found: {path}")
-        return
+    print("🧪 Processing Dosages...")
+    if os.path.exists(DOSAGES_JSON):
+        with open(DOSAGES_JSON, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            # Handle both list and {"dosage_guidelines": [...]}
+            dosages = data if isinstance(data, list) else data.get("dosage_guidelines", [])
+            cols = ["med_id", "dailymed_setid", "min_dose", "max_dose", "frequency", "duration", "instructions", "condition", "source", "is_pediatric"]
+            write_chunk("dosage_guidelines", "d1_dosages", dosages, cols)
+
+def process_food():
+    print("🍎 Processing Food Interactions...")
+    if os.path.exists(FOOD_JSON):
+        with open(FOOD_JSON, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            cols = ["med_id", "trade_name", "interaction", "ingredient", "severity", "management_text", "mechanism_text", "reference_text", "source"]
+            write_chunk("food_interactions", "d1_food", data, cols)
+
+def process_rules():
+    print("🧪 Processing Drug Rules...")
+    all_rules = []
+    for fname in sorted(os.listdir(RULES_DIR)):
+        if fname.startswith("enriched_rules_part_") and fname.endswith(".json"):
+            with open(os.path.join(RULES_DIR, fname), "r", encoding="utf-8") as f:
+                content = json.load(f)
+                rules = (content.get('data') if isinstance(content, dict) else []) or []
+                all_rules.extend(rules)
     
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        # Handle { "dosage_guidelines": [...] }
-        if isinstance(data, dict) and "dosage_guidelines" in data:
-            data = data["dosage_guidelines"]
+    cols = ["ingredient1", "ingredient2", "severity", "effect", "arabic_effect", "recommendation", 
+            "arabic_recommendation", "management_text", "mechanism_text", "alternatives_a", 
+            "alternatives_b", "risk_level", "ddinter_id", "source", "type", "updated_at"]
     
-    # Full schema from schema.sql (excluding id and created_at which have defaults)
-    header = """INSERT OR IGNORE INTO dosage_guidelines (
-        med_id, dailymed_setid, min_dose, max_dose, frequency, duration,
-        instructions, condition, source, is_pediatric, active_ingredient
-    ) VALUES"""
-    
-    sql_rows = []
-    for item in data:
-        if not isinstance(item, dict):
-            continue
-        
-        vals = [
-            item.get('med_id'),                                    # med_id
-            None,                                                   # dailymed_setid (not in data)
-            None,                                                   # min_dose (not in data)
-            None,                                                   # max_dose (not in data)
-            None,                                                   # frequency (not in data)
-            None,                                                   # duration (not in data)
-            item.get('instructions') or item.get('dosage_text', ''), # instructions
-            item.get('condition', ''),                             # condition
-            item.get('source', 'DailyMed'),                        # source
-            1 if item.get('is_pediatric') else 0,                  # is_pediatric
-            item.get('active_ingredient', '')                      # active_ingredient
-        ]
-        sql_rows.append(f"({', '.join(map(escape_sql, vals))})")
-    
-    print(f"Processed {len(sql_rows)} dosage guideline records")
-    write_chunked_sql("d1_dosages", header, sql_rows, 1000)
+    write_chunk("drug_interactions", "d1_rules", all_rules, cols)
+
+def main():
+    print("🚀 Starting SQL Data Generation...")
+    process_drugs()
+    process_dosages()
+    process_food()
+    process_rules()
+    print("✅ All SQL Chunks Generated in d1_sql_chunks/")
 
 if __name__ == "__main__":
-    print("=" * 60)
-    print("D1 Data Export - Full Schema Alignment")
-    print("=" * 60)
-    process_drugs()
-    process_drug_interactions()
-    process_food_interactions()
-    process_disease_interactions()
-    process_dosages()
-    print("=" * 60)
-    print("All tasks completed successfully!")
-    print("=" * 60)
+    main()
