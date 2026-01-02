@@ -29,7 +29,10 @@ CREATE TABLE drugs (
     data_source_pharmacology TEXT,
     has_drug_interaction INTEGER DEFAULT 0,
     has_food_interaction INTEGER DEFAULT 0,
-    has_disease_interaction INTEGER DEFAULT 0
+    has_disease_interaction INTEGER DEFAULT 0,
+    description TEXT,
+    atc_codes TEXT,
+    external_links TEXT
 );
 
 DROP TABLE IF EXISTS dosage_guidelines;
@@ -69,6 +72,9 @@ CREATE TABLE drug_interactions (
     ddinter_id TEXT,
     source TEXT,
     type TEXT,
+    metabolism_info TEXT,
+    source_url TEXT,
+    reference_text TEXT,
     updated_at INTEGER DEFAULT 0
 );
 
@@ -88,7 +94,13 @@ CREATE TABLE food_interactions (
     med_id INTEGER NOT NULL,
     trade_name TEXT,
     interaction TEXT NOT NULL,
-    source TEXT DEFAULT 'DrugBank'
+    ingredient TEXT,
+    severity TEXT,
+    management_text TEXT,
+    mechanism_text TEXT,
+    reference_text TEXT,
+    source TEXT DEFAULT 'DrugBank',
+    created_at INTEGER DEFAULT 0
 );
 
 DROP TABLE IF EXISTS disease_interactions;
@@ -100,7 +112,9 @@ CREATE TABLE disease_interactions (
     disease_name TEXT NOT NULL,
     interaction_text TEXT NOT NULL,
     severity TEXT,
-    source TEXT DEFAULT 'DDInter'
+    reference_text TEXT,
+    source TEXT DEFAULT 'DDInter',
+    created_at INTEGER DEFAULT 0
 );
 
 CREATE INDEX idx_trade_name ON drugs(trade_name);

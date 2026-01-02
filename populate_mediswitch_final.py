@@ -42,11 +42,48 @@ def update_mediswitch():
     
     print(f"✅ Loaded {len(local_drug_map):,} unique base ingredients from local DB.")
 
+    # --- NEW: Enrich Drugs Table with DDInter Metadata ---
+    print("\n💊 Enriching Drugs Table with DDInter Metadata...")
+    try:
+        c_dd.execute("""
+            SELECT ddinter_id, description, atc_codes, external_links 
+            FROM drugs 
+            WHERE description IS NOT NULL OR atc_codes IS NOT NULL
+        """)
+        drug_enrichments = c_dd.fetchall()
+
+        enriched_count = 0
+        for dd_id, desc, atc, links in drug_enrichments:
+            # Find matching local drug by ingredient name
+            c_dd.execute("SELECT drug_name FROM drugs WHERE ddinter_id = ?", (dd_id,))
+            result = c_dd.fetchone()
+            if not result:
+                continue
+            
+            drug_name = result[0]
+            cleaned = clean_name(drug_name)
+            
+            if cleaned in local_drug_map:
+                for local_id in local_drug_map[cleaned]:
+                    c_ms.execute("""
+                        UPDATE drugs 
+                        SET description = ?, atc_codes = ?, external_links = ?
+                        WHERE id = ?
+                    """, (desc, atc, links, local_id))
+                    enriched_count += 1
+
+        print(f"✅ Enriched {enriched_count:,} drugs with DDInter metadata.")
+    except sqlite3.OperationalError as e:
+        print(f"⚠️ Skipping drug enrichment: {e}")
+        print("   (Local database not yet migrated to V16. Enrichment will occur after Flutter app update.)")
+
     # 1. Update drug_interactions
     print("\n🧪 Processing Drug-Drug Interactions (DDIs)...")
     c_ms.execute("DELETE FROM drug_interactions")
     sql_ddi = """
-        SELECT d1.drug_name, d2.drug_name, di.severity, di.interaction_description, di.management_text, di.mechanism_flags
+        SELECT d1.drug_name, d2.drug_name, di.severity, di.interaction_description, 
+               di.management_text, di.mechanism_flags, di.metabolism_info, 
+               di.source_url, di.reference_text
         FROM drug_drug_interactions di
         JOIN drugs d1 ON di.drug_a_id = d1.ddinter_id
         JOIN drugs d2 ON di.drug_b_id = d2.ddinter_id
@@ -57,8 +94,9 @@ def update_mediswitch():
     insert_sql = """
         INSERT INTO drug_interactions (
             ingredient1, ingredient2, severity, effect, source, 
-            management_text, mechanism_text, recommendation, risk_level, type, updated_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            management_text, mechanism_text, recommendation, risk_level, type,
+            metabolism_info, source_url, reference_text, updated_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """
     
     batch_size = 5000
@@ -81,7 +119,8 @@ def update_mediswitch():
             
             data_to_insert.append((
                 r[0], r[1], r[2], r[3], 'DDInter', 
-                management, mech_text, recommendation, r[2], 'pharmacodynamic', int(time.time())
+                management, mech_text, recommendation, r[2], 'pharmacodynamic',
+                r[6], r[7], r[8], int(time.time())  # metabolism_info, source_url, reference_text
             ))
         c_ms.executemany(insert_sql, data_to_insert)
     print(f"✅ Inserted {len(rows):,} DDIs (Unique recommendations generated).")
@@ -90,7 +129,7 @@ def update_mediswitch():
     print("\n🚀 Processing Disease Interactions...")
     c_ms.execute("DELETE FROM disease_interactions")
     c_dd.execute("""
-        SELECT d.drug_name, di.disease_name, di.severity, di.interaction_text
+        SELECT d.drug_name, di.disease_name, di.severity, di.interaction_text, di.reference_text
         FROM drug_disease_interactions di
         JOIN drugs d ON di.drug_id = d.ddinter_id
     """)
@@ -104,22 +143,24 @@ def update_mediswitch():
         matched_ids = local_drug_map.get(cleaned_dd, [])
         
         if not matched_ids:
-            # Sub-match
-            for local_active_clean, ids in local_drug_map.items():
-                if cleaned_dd in local_active_clean or local_active_clean in cleaned_dd:
-                    matched_ids = ids
-                    break
+            # Safer fuzzy match: require min length 4
+            if len(cleaned_dd) >= 4:
+                for local_active_clean, ids in local_drug_map.items():
+                    if len(local_active_clean) >= 4:
+                        if cleaned_dd in local_active_clean or local_active_clean in cleaned_dd:
+                            matched_ids = ids
+                            break
         
         if matched_ids:
             for local_id in matched_ids:
-                disease_data.append((local_id, drug_name, r[1], r[3], r[2], 'DDInter', 0))
+                disease_data.append((local_id, drug_name, r[1], r[3], r[2], r[4], 'DDInter', 0))  # Added reference_text
             linked_count += 1
         else:
-            disease_data.append((0, drug_name, r[1], r[3], r[2], 'DDInter', 0))
+            disease_data.append((0, drug_name, r[1], r[3], r[2], r[4], 'DDInter', 0))
 
     c_ms.executemany("""
-        INSERT INTO disease_interactions (med_id, trade_name, disease_name, interaction_text, severity, source, created_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO disease_interactions (med_id, trade_name, disease_name, interaction_text, severity, reference_text, source, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     """, disease_data)
     print(f"✅ Inserted {len(disease_data):,} records. Linked {linked_count:,}/{len(dis_rows):,} DDInter drugs.")
 
@@ -127,7 +168,8 @@ def update_mediswitch():
     print("\n🍎 Processing Food Interactions...")
     c_ms.execute("DELETE FROM food_interactions")
     c_dd.execute("""
-        SELECT d.drug_name, fi.food_name, fi.severity, fi.description, fi.management_text
+        SELECT d.drug_name, fi.food_name, fi.severity, fi.description, 
+               fi.management_text, fi.mechanism_flags, fi.reference_text
         FROM drug_food_interactions fi
         JOIN drugs d ON fi.drug_id = d.ddinter_id
     """)
@@ -136,25 +178,55 @@ def update_mediswitch():
     food_data = []
     f_linked_count = 0
     for r in food_rows:
-        drug_name = r[0]
+        drug_name, food_name, severity, desc, mgmt, mech_flags, refs = r
         cleaned_dd = clean_name(drug_name)
-        full_text = f"Interaction Type: {r[1]}\nSeverity: {r[2]}\n\nEffect: {r[3]}\n\nManagement: {r[4]}"
+        
+        # Parse mechanism if JSON
+        mechanism_text = ""
+        if mech_flags:
+            try:
+                mechs = json.loads(mech_flags)
+                if mechs: mechanism_text = ", ".join(mechs)
+            except: 
+                mechanism_text = str(mech_flags) if mech_flags else ""
         
         matched_ids = local_drug_map.get(cleaned_dd, [])
         if not matched_ids:
-            for local_active_clean, ids in local_drug_map.items():
-                if cleaned_dd in local_active_clean or local_active_clean in cleaned_dd:
-                    matched_ids = ids
-                    break
+            # Safer fuzzy match: require min length 4 to avoid generic matches like "acid", "iron", "oil"
+            if len(cleaned_dd) >= 4:
+                for local_active_clean, ids in local_drug_map.items():
+                    if len(local_active_clean) >= 4:
+                        if cleaned_dd in local_active_clean or local_active_clean in cleaned_dd:
+                            matched_ids = ids
+                            break
                     
         if matched_ids:
             for local_id in matched_ids:
-                food_data.append((local_id, full_text, 'DDInter', 0))
+                food_data.append((
+                    local_id,           # med_id
+                    drug_name,          # trade_name (from DDInter)
+                    desc or "",         # interaction (main description)
+                    food_name,          # ingredient
+                    severity,           # severity
+                    mgmt,               # management_text
+                    mechanism_text,     # mechanism_text
+                    refs,               # reference_text
+                    'DDInter',          # source
+                    0                   # created_at
+                ))
             f_linked_count += 1
         else:
-            food_data.append((0, full_text, 'DDInter', 0))
+            food_data.append((
+                0, drug_name, desc or "", food_name, severity, 
+                mgmt, mechanism_text, refs, 'DDInter', 0
+            ))
 
-    c_ms.executemany("INSERT INTO food_interactions (med_id, interaction_text, source, created_at) VALUES (?, ?, ?, ?)", food_data)
+    c_ms.executemany("""
+        INSERT INTO food_interactions 
+        (med_id, trade_name, interaction, ingredient, severity, management_text, 
+         mechanism_text, reference_text, source, created_at) 
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, food_data)
     print(f"✅ Inserted {len(food_data):,} records. Linked {f_linked_count:,}/{len(food_rows):,} DDInter drugs.")
 
     conn_ms.commit()
