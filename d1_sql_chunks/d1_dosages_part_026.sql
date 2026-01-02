@@ -1,2000 +1,500 @@
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13001, 5097, '04212000-ec03-42a3-8b9e-3a28237f415e', 24.0, NULL, 24, 7, 'Standard Dose: 24.0mg. DOSAGE AND ADMINISTRATION FORADIL capsules should be administered only by the oral inhalation route and only using the AEROLIZER Inhaler (see the accompanying Medication Guide). FORADIL capsules should not be ingested (i.e., swallowed) orally . FORADIL capsules should always be stored in the blister, and only removed IMMEDIATELY BEFORE USE. Treatment of Asthma Long-acting beta2-adrenergic agonists (LABA), such as formoterol, the active ingredient in FORADIL AEROLIZER, increase the risk of asthma...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13002, 23813, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13003, 3783, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13004, 25003, 'b951455c-c235-4e23-9e21-08672d108726', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The recommended starting dose is 5 mg once a day. Depending on the patient''s response, the dosage can be decreased to 2.5 mg or increased to 10 mg once a day. These adjustments should occur generally at intervals of not less than 2 weeks. The recommended dosage range is 2.5 - 10 mg once daily. In clinical trials, doses above 10 mg daily showed an increased blood pressure response but a large increase in the rate of peripheral edema and other vasodilatory adverse events ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13005, 33330, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13006, 17042, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13007, 6811, 'N/A', 0.0, NULL, 24, 7, 'مضاد للتقلصات و للمغص الكلوي.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13008, 24885, '8609ed02-0b30-4c82-bab1-4d51d92ec224', 20.0, NULL, NULL, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Indication Adult Pediatric MDD (2.1) 20 mg/day in am (initial dose) 10 to 20 mg/day (initial dose) OCD (2.2) 20 mg/day in am (initial dose) 10 mg/day (initial dose) Bulimia Nervosa (2.3) 60 mg/day in am - Panic Disorder (2.4) 10 mg/day (initial dose) - Depressive Episodes Associated with Bipolar I Disorder (2.5) Oral in combination with olanzapine: 5 mg of oral olanzapine and 20 mg of fluoxetine once daily (initial dose) - Consider tapering the dose of fluoxetine for ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13009, 21245, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13010, 17098, '5e2dbda9-aceb-4bfb-9c3f-e7b6118f580c', 16.0, NULL, 24, 7, 'Standard Dose: 16.0mg. DOSAGE AND ADMINISTRATION Instructions for Use/Handling ondansetron orally disintegrating tablets:Do not attempt to push ondansetron orally disintegrating tablets through the foil backing. With dry hands, PEEL BACK the foil backing of 1 blister and GENTLY remove the tablet. IMMEDIATELY place the ondansetron orally disintegrating tablet on top of the tongue where it will dissolve in seconds, then swallow with saliva. Administration with liquid is not necessary. Prevention of Nausea and Vomiting A...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13011, 16264, 'cb18564f-663f-4da2-9dd9-700ea9bdd398', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 General Dosing InformationThe recommended dose of ZETIA is 10 mg once daily. ZETIA can be administered with or without food. 2.2 Concomitant Lipid-Lowering TherapyZETIA may be administered with a statin (in patients with primary hyperlipidemia) or with fenofibrate (in patients with mixed hyperlipidemia) for incremental effect. For convenience, the daily dose of ZETIA may be taken at the same time as the statin or fenofibrate, according to the dosing recommendation...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13012, 18050, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13013, 11793, '3b4ab1cf-8642-44f5-b3a2-3f1f7c620ce9', 1000.0, 4000.0, 24, 7, 'Standard Dose: 1000.0mg. 2 DOSAGE AND ADMINISTRATION •Acetaminophen injection may be given as a single or repeated dose. (2.1) •Acetaminophen injection should be administered only as a 15-minute intravenous infusion. (2.4) Adults and Adolescents Weighing 50 kg and Over: •1000 mg every 6 hours or 650 mg every 4 hours to a maximum of 4000 mg per day. Minimum dosing interval of 4 hours. (2.2) Adults and Adolescents Weighing Under 50 kg: •15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours to a maximum of 75 mg/kg per day. M...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13014, 20611, '78987a51-82f7-4ca6-80ad-fa22d1f3e11a', 200.0, NULL, NULL, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Adults and children 12 years of age and older: One to 2 tablets (200 mg to 400 mg) every four hours, not to exceed 2400 mg (12 tablets) in 24 hours. PATIENTS SHOULD BE ADVISED TO KEEP THESE AND ALL DRUGS OUT OF THE REACH OF CHILDREN AND TO SEEK PROFESSIONAL ASSISTANCE OR CONTACT A POISON CONTROL CENTER IMMEDIATELY IN CASE OF ACCIDENTAL OVERDOSE....', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13015, 8200, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13016, 15143, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13017, 22323, 'N/A', 0.0, NULL, 24, 7, 'علاج تساقط الشعر', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13018, 1168, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13019, 13127, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13020, 7214, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13021, 20047, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13022, 943, '217e52b5-3a7b-4bbe-af3c-b18de7d426c3', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION InitialDose RecommendedDose MaximumDose Schizophrenia – adults (2.1) 10-15 mg/day 10-15 mg/day 30 mg/day Schizophrenia – adolescents (2.1) 2 mg/day 10 mg/day 30 mg/day Bipolar mania – adults: monotherapy or as an adjunct to lithium or valproate (2.2) 15 mg/day 15 mg/day 30 mg/day Bipolar mania – pediatric patients: monotherapy or as an adjunct to lithium or valproate (2.2) 2 mg/day 10 mg/day 30 mg/day As an adjunct to antidepressants for the treatment of major depress...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13023, 868, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13024, 30374, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13025, 11469, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13026, 21857, '32ebf046-73e4-b11b-e063-6294a90a5bf4', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. 2 DOSAGE AND ADMINISTRATION ACS or History of MI Initiate treatment with 180 mg oral loading dose of ticagrelor tablets. Then administer 90 mg twice daily during the first year. After one year, administer 60 mg twice daily. ( 2.2) Patients with CAD and No Prior Stroke or MI Administer 60 mg ticagrelor tablets twice daily. ( 2.3) Acute Ischemic Stroke Initiate treatment with a 180 mg loading dose of ticagrelor tablets then continue with 90 mg twice daily for up to 30 days. ( 2.4) Use ticagrelor t...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13027, 12296, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13028, 23792, 'N/A', 0.0, NULL, 24, 7, 'اسبراي مساج للشد العضلي -- تقليل الالام العضلية -- استرخاء العضلات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13029, 11122, 'N/A', 0.0, NULL, 24, 7, 'مرطب للعين', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13030, 25099, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13031, 21000, '13c9c37a-0c3d-450a-a61e-d2796818b18f', 0.0, NULL, 8, 7, '2 DOSAGE AND ADMINISTRATION • Isoflurane USP should be administered only by persons trained in the administration of general anesthesia. Isoflurane USP should only be delivered using a vaporizer specifically designed and designated for use with isoflurane. ( 2) • The administration of general anesthesia must be individualized and titrated based on the patient’s age and clinical status. ( 2) 2.1 Important Dosage and Administration Information Isoflurane should be administered only by persons trai', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13032, 33871, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13033, 16977, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13034, 5564, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13035, 2691, 'a26d709b-b294-4b02-9a88-7e840f099a33', 50.0, NULL, NULL, 7, 'Standard Dose: 50.0mg. DOSAGE AND ADMINISTRATION Sodium Bicarbonate Injection, USP is administered by the intravenous route. In cardiac arrest, a rapid intravenous dose of one to two 50 mL vials (44.6 to 100 mEq) may be given initially and continued at a rate of 50 mL (44.6 to 50 mEq) every 5 to 10 minutes if necessary (as indicated by arterial pH and blood gas monitoring) to reverse the acidosis. Caution should be observed in emergencies where very rapid infusion of large quantities of bicarbonate is indicated. Bicar...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13036, 343, 'N/A', 0.0, NULL, 24, 7, 'غسول للانف والمهبل', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13037, 17613, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13038, 9142, 'f168b0a9-4e9a-47f7-b391-edcea871956e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION Regardless of the indication, the starting dose in patients with moderate hepatic impairment should be 5 mg twice daily, followed by adjustment based on therapeutic response and tolerability. Patients with mild hepatic insufficiency do not require dosage reductions. The use of pilocarpine in patients with severe hepatic insufficiency is not recommended. If needed, refer to the Hepatic Insufficiency subsection of the Precautions section of this label for definitions of m...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13039, 27558, 'dc7ba02c-bdbb-5136-e053-2995a90ac545', 40.0, 100.0, 24, 7, 'Standard Dose: 40.0mg. 2 DOSAGE AND ADMINISTRATION Initial, Target and Maximum Daily Dose ( 2.1) (Acute and Maintenance/Extended Treatment) Body Weight Initial Daily Dose Target Total Daily Dose Maximum Total Daily Dose Children and adolescents up to 70 kg 0.5 mg/kg 1.2 mg/kg 1.4 mg/kg Children and adolescents over 70 kg and adults 40 mg 80 mg 100 mg Dosing adjustment – Hepatic Impairment, Strong CYP2D6 Inhibitor, and in patients known to be CYP2D6 poor metabolizers (PMs). ( 2.4, 12.3) 2.1 Acute Treatment Dosing of ch...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13040, 19665, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13041, 9664, 'N/A', 0.0, NULL, 24, 7, 'استرخاء العضلات -- مخدر عام للجسم -- مضاد للحساسية', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13042, 4980, 'e98f6d83-5172-97a1-ee41-5d7d1d8ba2fd', 2.5, NULL, 24, 7, 'Standard Dose: 2.5mg. 2 DOSAGE AND ADMINISTRATION CAD or PAD: 2.5 mg orally twice daily with or without food, in combination with aspirin (75 to 100 mg) once daily (2.1) 2.1 Recommended Dosage in Adults Table 1: Recommended Dosage in Adults Indication Renal Considerations* Dosage Food/Timing† Reduction of Risk of Major Cardiovascular Events (CV Death, MI, and Stroke) in CAD No dose adjustment needed based on CrCl 2.5 mg twice daily, plus aspirin (75 to 100 mg) once daily Take with or without food Reduction of Risk of...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13043, 23756, '51a6d28c-2c9c-4e6b-8a4c-29aac6745256', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Adults and children over 10: Usual dose is one 100 mg or 200 mg capsule t.i.d. as required. If necessary, up to 600 mg daily may be given....', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13044, 2239, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13045, 6532, 'N/A', 0.0, NULL, 24, 7, 'مضاد للإسهال', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13046, 27464, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13047, 630, 'de8990a6-f3b6-478f-acbe-eda961b6da4b', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION Amoxicillin capsules may be given without regard to meals. However, food effect studies have not been performed with the 500 mg formulation. Neonates and infants aged ≤ 12 weeks (≤ 3 months): Due to incompletely developed renal function affecting elimination of amoxicillin in this age group, the recommended upper dose of amoxicillin is 30 mg/kg/day divided q12h.Adults and pediatric patients >3 months: * Dosing for infections caused by less susceptible organisms should f...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13048, 8222, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13049, 32600, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13050, 24852, '525136c9-7758-437b-b57b-94b905786825', 30.0, NULL, NULL, 7, 'Standard Dose: 30.0mg. DOSAGE AND ADMINISTRATION Sodium citrate and citric acid oral solution should be taken diluted in water, followed by additional water, if desired. SHAKE WELL BEFORE USING. For Systemic Alkalization Usual Adult Dose 2 to 6 teaspoonfuls (10 to 30 mL), diluted in 1 to 3 ounces of water, after meals and at bedtime, or as directed by a physician. Usual Pediatric Dose 1 to 3 teaspoonfuls (5 to 15 mL), diluted in 1 to 3 ounces of water, after meals and at bedtime, or as directed by a physician. For chi...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13051, 25066, 'N/A', 0.0, NULL, 24, 7, 'للعناية وترطيب الجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13052, 20687, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13053, 19554, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13054, 32320, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتحسين الذاكرة وزيادة التركيز وتحسين الجهاز المناعى والعصبى', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13055, 27203, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13056, 18402, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13057, 15797, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13058, 27128, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13059, 17984, '0a639bb3-2883-47f7-b117-737df8bed33c', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Special Precautions Fentanyl transdermal system contains a high concentration of a potent Schedule II opioid agonist, fentanyl. Schedule II opioid substances which include fentanyl, hydromorphone, methadone, morphine, oxycodone, and oxymorphone have the highest potential for abuse and associated risk of fatal overdose due to respiratory depression. Fentanyl can be abused and is subject to criminal diversion. The high content of fentanyl in fentanyl transdermal system ma...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13060, 8999, 'N/A', 0.0, NULL, 24, 7, 'لتعزيز ودعم صحة البروستاتا لدى الرجال.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13061, 21381, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13062, 7003, 'cb1e9df4-dd74-4073-9d78-bb55593dd000', 0.0, NULL, 24, 7, '2 DOSAGE AND ADMINISTRATION •The recommended starting dose is 10 mg administered orally once daily without regard to meals (2.1). •The dose should then be increased to 20 mg/day, as tolerated (2.1). •Consider 5 mg/day for patients who do not tolerate higher doses (2.1). •TRINTELLIX can be discontinued abruptly. However, it is recommended that doses of 15 mg/day or 20 mg/day be reduced to 10 mg/day for one week prior to full discontinuation if possible (2.3). •The maximum recommended dose is 10 m', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13063, 33888, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13064, 11187, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13065, 5099, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13066, 26795, 'N/A', 0.0, NULL, 24, 7, 'عناية بالجلد.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13067, 9221, 'b43f6b44-9de3-4efb-a467-487aee28f6a0', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Omeprazole delayed-release capsules should be taken before eating. In the clinical trials, antacids were used concomitantly with omeprazole delayed-release capsules. Patients should be informed that the omeprazole delayed-release capsule should be swallowed whole. For patients unable to swallow an intact capsule, alternative administration options are available [ See Dosage and Administration (2.8)]. Indication Omeprazole Dose Frequency Short-Term Treatment of Active ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13068, 6212, 'fbc1ff07-701e-4b7f-93a3-f4309e238e5a', 0.0, NULL, NULL, 7, 'DOSAGE AND ADMINISTRATION Table 1: Summary of Pharmacodynamic Properties of Insulin Products (Pooled Cross-Study Comparison) Insulin Products Dose, U/kg Time of Peak Activity, Hours After Dosing Percent of Total Activity Occurring in the First 4 Hours Humalog 0.3 2.4(0.8 – 4.3) 70%(49 – 89%) Humulin R 0.32(0.26 – 0.37) 4.4(4.0 – 5.5) 54%(38 – 65%) Humalog Mix75/25 0.3 2.6(1.0 – 6.5) 35%(21 – 56%) Humulin 70/30 0.3 4.4(1.5 – 16) 32%(14 – 60%) Humalog Mix50/50 0.3 2.3(0.8 – 4.8) 45%(27 – 69%) Humu', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13069, 20299, '6f41228b-974a-443b-a313-2fbb3d845915', 250.0, 400.0, 12, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Adults Ciprofloxacin tablets should be administered orally to adults as described in the Dosage Guidelines table. The determination of dosage for any particular patient must take into consideration the severity and nature of the infection, the susceptibility of the causative organism, the integrity of the patient''s host-defense mechanisms, and the status of renal function and hepatic function. The duration of treatment depends upon the severity of infection. The usual d...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13070, 23310, 'e59d3b87-af2e-4262-b89d-e95aa79f11b7', 9.0, NULL, 6, 7, 'Standard Dose: 9.0mg. DOSAGE AND ADMINISTRATION For oral administration DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE AND THE RESPONSE OF THE PATIENT. The initial dosage varies from 0.75 to 9 mg a day depending on the disease being treated. In less severe diseases doses lower than 0.75 mg may suffice, while in severe diseases doses higher than 9 mg may be required. The initial dosage should be maintained or adjusted until the patient''s response is satisfactory. If satisfactor...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13071, 24402, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13072, 17486, '0a3b8e0e-efb0-465b-84cb-d120b3096ebd', 1.0, NULL, NULL, 7, 'Standard Dose: 1.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Important Administration Instructions Administer Calcium Chloride Injection by slow intravenous infusion in a central or deep vein in adults and pediatric patients (with or without renal impairment); do not administer by bolus [see Warnings and Precautions (5.2, 5.4)]. The maximum recommended infusion rate is 1 mL/minute (100 mg/minute). Additional important administration instructions regarding Calcium Chloride Injection are as follows: • Do not use intramuscular...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13073, 22076, 'A1DA5A84-7529-4F62-867F-808A6CAB40B8', 1200.0, NULL, NULL, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION The recommended dose for adults is 1200 mg administered in two divided doses 30 minutes before the morning and evening meal (seeCLINICAL PHARMACOLOGY)....', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13074, 7031, 'EE2B4869-CD13-489B-B12F-1CE4FE081157', 500.0, NULL, NULL, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION The recommended initial dose of Nascobal Nasal Spray is one spray (500 mcg) administered in ONE nostril once weekly. Nascobal Nasal Spray should be administered at least one hour before or one hour after ingestion of hot foods or liquids. Periodic monitoring of serum B12 levels should be obtained to establish adequacy of therapy.Before the first dose and administration, the pump must be primed. Remove the clear plastic cover and the plastic safety clip from the pump. To...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13075, 3291, '26fcf4be-4785-4922-a37b-4546570a132c', 300.0, NULL, 6, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATIONIf significant diarrhea occurs during therapy, this antibiotic should be discontinued (see WARNING box). Adults: Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours. Pediatric Patients: Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses. To avoid the possibility of esophageal irrit...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13076, 21431, 'aaeaef94-f3f5-4367-8ea2-b181d7be2da8', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. 2 DOSAGE AND ADMINISTRATION KISQALI tablets are taken orally with or without food in combination with an aromatase inhibitor or fulvestrant. (2) Early Breast Cancer Recommended starting dose: 400 mg orally (two 200 mg tablets) taken once daily with or without food for 21 consecutive days followed by 7 days off treatment. (2.1) Advanced or Metastatic Breast Cancer Recommended starting dose: 600 mg orally (three 200 mg tablets) taken once daily with or without food for 21 consecutive days followed...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13077, 316, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13078, 29648, '32ebf046-73e4-b11b-e063-6294a90a5bf4', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. 2 DOSAGE AND ADMINISTRATION ACS or History of MI Initiate treatment with 180 mg oral loading dose of ticagrelor tablets. Then administer 90 mg twice daily during the first year. After one year, administer 60 mg twice daily. ( 2.2) Patients with CAD and No Prior Stroke or MI Administer 60 mg ticagrelor tablets twice daily. ( 2.3) Acute Ischemic Stroke Initiate treatment with a 180 mg loading dose of ticagrelor tablets then continue with 90 mg twice daily for up to 30 days. ( 2.4) Use ticagrelor t...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13079, 8586, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13080, 11368, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13081, 24986, 'a5b3455a-e842-7d4b-e053-2995a90adee3', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION: One hydroxychloroquine sulfate tablet contains 200 mg of hydroxychloroquine sulfate, which is equivalent to 155 mg base. Take hydroxychloroquine sulfate tablets with a meal or a glass of milk. Malaria Prophylaxis Adults: 400 mg (310 mg base) once weekly on the same day of each week starting 2 weeks prior to exposure, and continued for 4 weeks after leaving the endemic area. Weight-based dosing in adults and pediatric patients: 6.5 mg/kg (5 mg/kg base), not to exceed 40...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13082, 30344, 'N/A', 0.0, NULL, 24, 7, 'ماسك للشعر غنى بالفيتامينات لترطيب وترميم الشعر ومنع تساقط الشعر وعلاج الهيشان والتقصيف', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13083, 9285, 'N/A', 0.0, NULL, 24, 7, 'يعمل على تقليل انتفاخ قرنية العين في بعض امراض العين', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13084, 27, 'N/A', 0.0, NULL, 24, 7, 'خافض حرارة ومسكن', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13085, 22354, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13086, 2181, 'fe8b7729-d870-4e61-a5a4-91e28bdd5a94', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Cefaclor is administered orally. Adults –The usual adult dosage is 250 mg every 8 hours. For more severe infections (such as pneumonia) or those caused by less susceptible organisms, doses may be doubled. Pediatric patients–The usual recommended daily dosage for children is 20 mg/kg/day in divided doses every 8 hours. In more serious infections, otitis media, and infections caused by less susceptible organisms, 40 mg/kg/day are recommended, with a maximum dosage of 1 g/...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13087, 28009, 'e122435e-cd0b-4c90-940a-b7a0d090d866', 300.0, NULL, 24, 7, 'Standard Dose: 300.0mg. 2 DOSAGE AND ADMINISTRATION Recommended dose for the treatment of HIV or chronic hepatitis B: 300 mg once daily taken orally without regard to food. (2.1) Dose recommended in renal impairment:Creatinine clearance 30–49 mL/min: 300 mg every 48 hours. (2.2)Creatinine clearance 10–29 mL/min: 300 mg every 72 to 96 hours. (2.2)Hemodialysis: 300 mg every 7 days or after approximately 12 hours of dialysis. (2.2) 2.1 Recommended Dose For the treatment of HIV-1 or chronic hepatitis B: The dose of VIREAD ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13088, 31891, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13089, 13887, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13090, 21156, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13091, 20709, '4902b757-1387-4dc4-a685-ad5af29fe8c2', 75.0, 375.0, 24, 7, 'Standard Dose: 75.0mg. DOSAGE AND ADMINISTRATION Initial Treatment The recommended starting dose for venlafaxine tablets, USP is 75 mg/day, administered in two or three divided doses, taken with food. Depending on tolerability and the need for further clinical effect, the dose may be increased to 150 mg/day. If needed, the dose should be further increased up to 225 mg/day. When increasing the dose, increments of up to 75 mg/day should be made at intervals of no less than 4 days. In outpatient settings there was no evi...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13092, 14419, '68165d90-953c-e2f5-e053-2a91aa0ada25', 200.0, 400.0, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Itraconazole capsules should be taken with a full meal to ensure maximal absorption. Itraconazole capsules must be swallowed whole. Itraconazole capsules are a different preparation than itraconazole oral solution and should not be used interchangeably. Treatment of Blastomycosis and Histoplasmosis: The recommended dose is 200 mg once daily (2 capsules). If there is no obvious improvement, or there is evidence of progressive fungal disease, the dose should be increased ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13093, 5295, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13094, 32246, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13095, 14526, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13096, 626, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13097, 11263, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13098, 31437, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13099, 12208, 'fc61fd7e-63ca-4714-851f-31b2a045903d', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Theophylline (Anhydrous) Extended-Release Tablets 200 or 300 mg Tablets can be taken once a day in the morning or evening. It is recommended that Theophylline (Anhydrous) Extended-Release Tablets be taken with meals. Patients should be advised that if they choose to take Theophylline (Anhydrous) Extended-Release Tablets with food it should be taken consistently with food and if they take it in a fasted condition it should routinely be taken fasted. It is important that ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13100, 7362, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13101, 20223, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13102, 26178, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13103, 10749, 'da10031f-9da8-49a2-a019-5ce80c4b7ede', 160.0, NULL, 24, 7, 'Standard Dose: 160.0mg. DOSAGE AND ADMINISTRATION DOSAGE MUST BE ADJUSTED TO INDIVIDUAL PATIENT NEEDS. (See CLINICAL PHARMACOLOGY .) Adults-Oral The only oral dose clearly shown to be effective is 160 mg per day (in 4 equally divided doses). Since this dose is associated with a significant incidence of side effects, it is prudent to begin with 80 mg per day (in 4 equally divided doses). Depending upon the patient''s response during the first week of therapy, the dose should be increased to 160 mg per day unless side eff...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13104, 11244, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13105, 21792, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13106, 27970, '11d5c110-c48c-438f-9c7d-5adf99938534', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION 200 mg administered once daily orally or as an intravenous (IV) infusion over 1 hour for six (6) days in adult and pediatric patients 12 years of age and older. (2.1) 2.1 Recommended Dosage The recommended dosage of SIVEXTRO is 200 mg administered once daily for six (6) days either orally (with or without food) or as an intravenous (IV) infusion in patients 12 years of age or older. The recommended dosage and administration of SIVEXTRO are described in Table 1. Table ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13107, 24308, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13108, 29753, 'A0EEEC15-C76D-41DF-80F3-5572C9857DA6', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The initial dosage of prednisolone tablets may vary from 5 mg to 60 mg per day depending on the specific disease entity being treated. In situations of less severity, lower doses will generally suffice, while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, prednisolone should be dis...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13109, 19041, 'N/A', 0.0, NULL, 24, 7, 'كرم شرجى مضاد للالتهابات ومسكن للالام يستخدم فى حالة البواسير', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13110, 4927, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13111, 16807, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13112, 13047, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13113, 32160, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتحسين الجهاز العصبى', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13114, 32020, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى علاج حالات فقر الدم ودعم الجهاز العصبى والمناعى وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13115, 5083, '64ae46f5-889c-4c13-ab07-92bebe8d5ef2', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. DOSAGE AND ADMINISTRATION: When estrogen is prescribed for a postmenopausal woman with a uterus, a progestin should also be initiated to reduce the risk of endometrial cancer. A woman without a uterus does not need progestin. Use of estrogen, alone or in combination with a progestin, should be with the lowest effective dose and for the shortest duration consistent with treatment goals and risks for the individual woman. Patients should be reevaluated periodically as clinically appropriate (e.g.,...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13116, 25554, '7d74dfa6-0468-43ad-ad7f-dd90d9ae7706', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The dose of AVELOX is 400 mg (orally or as an intravenous infusion) once every 24 hours. The duration of therapy depends on the type of infection as described below. For Complicated Intra-Abdominal Infections, therapy should usually be initiated with the intravenous formulation. When switching from intravenous to oral dosage administration, no dosage adjustment is necessary. Patients whose therapy is started with AVELOX I.V. may be switched to AVELOX Tablets when clinic...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13117, 17346, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13118, 19656, 'A51DC88F-C298-402E-B204-618609A4721C', 320.0, NULL, 24, 7, 'Standard Dose: 320.0mg. DOSAGE AND ADMINISTRATION FACTIVE can be taken with or without food and should be swallowed whole with a liberal amount of liquid. The recommended dose of FACTIVE is 320 mg daily, according to the following table (Table 4).The clinical decision regarding the use of a 5 or 7 day regimen should be guided by results of the initial sputum culture.Table 4. Recommended Dosage Regimen of FACTIVE INDICATIONDOSE / DURATION *MDRSP: multi-drug resistant Streptococcus pneumoniae, includes isolates previousl...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13119, 27849, '9bc7f6c2-4b16-449b-b383-76106540206c', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Cytarabine Injection is not active orally. The schedule and method of administration varies with the program of therapy to be used. Cytarabine Injection may be given by intravenous infusion or injection, subcutaneously, or intrathecally (preservative free preparation only). Thrombophlebitis has occurred at the site of drug injection or infusion in some patients, and rarely patients have noted pain and inflammation at subcutaneous injection sites. In most instances, howe...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13120, 20924, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13121, 22011, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13122, 18818, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13123, 28978, 'f776421b-bd46-4664-b9ff-533d805e1277', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. 2 DOSAGE AND ADMINISTRATION THE INTENT OF THIS PHARMACY BULK PACKAGE IS FOR THE PREPARATION OF SOLUTIONS FOR INTRAVENOUS INFUSION ONLY. BEFORE ADMINISTRATION, THIS PHARMACY BULK PACKAGE REQUIRES RECONSTITUTION TO A CONCENTRATION OF 100 mg/mL AND FURTHER DILUTION IN 50 mL OF A COMPATIBLE SOLUTION. THIS IS A PHARMACY BULK PACKAGE – NOT FOR DIRECT INJECTION For intravenous use only over approximately 30 minutes (2) THIS IS A PHARMACY BULK PACKAGE - NOT FOR DIRECT INJECTION. Cefepime for Injection, ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13124, 12933, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13125, 27094, 'e433dc68-6b2a-4c48-beae-4ec946f1ff1e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION 5 mg tablet taken once daily, and if well tolerated may be increased to 10 mg once daily (2.1) Do not exceed 5 mg tablet once daily in patients with: severe renal impairment [Creatinine Clearance] (CLcr <30 ml/min) (2.1) moderate hepatic impairment (Child-Pugh B) (2.2) concomitant use of potent CYP3A4 inhibitors (2.3) Use of VESIcare is not recommended in patients with severe hepatic impairment (Child-Pugh C) (2.2) 2.1 Dosing Information The recommended dose of VESIca...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13126, 5181, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي موضعي للجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13127, 24393, 'N/A', 0.0, NULL, 24, 7, 'مهديء للسعال.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13128, 25038, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13129, 5238, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13130, 32129, '57c62928-63d8-4505-9b9e-c085a3a12c95', 10.0, 60.0, 24, 7, 'Standard Dose: 10.0mg. DOSAGE AND ADMINISTRATION Hypertension The usual initial dosage of timolol maleate is 10 mg twice a day, whether used alone or added to diuretic therapy. Dosage may be increased or decreased depending on heart rate and blood pressure response. The usual total maintenance dosage is 20 to 40 mg per day. Increases in dosage to a maximum of 60 mg per day divided into two doses may be necessary. There should be an interval of at least 7 days between increases in dosages. Timolol maleate tablets may b...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13131, 10756, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13132, 22662, 'N/A', 0.0, NULL, 24, 7, '1- بديل فعال وآمن لحقن فيتامين ب12.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13133, 30316, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13134, 8816, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13135, 16792, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13136, 17319, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13137, 15023, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13138, 10597, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13139, 33036, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13140, 31479, 'N/A', 0.0, NULL, 24, 7, 'يساعد علي دعم أداء الجهاز العصبي وعملية التمثيل الغذائي للجلوكوز ومضاد للاكسدة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13141, 25713, 'a3d17e8d-a8ce-4e1a-9ec2-13736af1d7b5', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. DOSAGE AND ADMINISTRATION Seasonal Allergic Rhinitis Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily, or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as th...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13142, 31938, 'A36432F9-BDDD-4B22-BE6D-ED6AC2B3846A', 600.0, NULL, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION Gabapentin capsules is given orally with or without food.If gabapentin dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber). Postherpetic Neuralgia In adults with postherpetic neuralgia, gabapentin therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TI...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13143, 26545, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13144, 2934, '0ab861c2-d5ca-4f92-854c-6477971a1b38', 801.0, NULL, 24, 7, 'Standard Dose: 801.0mg. 2 DOSAGE AND ADMINISTRATION Recommended dosage: 801 mg (three capsules) three times daily taken with food. (2) Upon initiation of treatment, the daily dosage should be titrated to the full dosage of nine capsules per day over a 14-day period as follows: Treatment days Dosage Days 1 through 7 1 capsule three times a day with meals Days 8 through 14 2 capsules three times a day with meals Days 15 onward 3 capsules three times a day with meals Consider temporary dosage reduction, treatment interrup...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13145, 25952, 'N/A', 0.0, NULL, 24, 7, 'كريم مرطب للجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13146, 24806, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13147, 26393, 'd1dd3991-68e2-4970-8701-b3b89aed8418', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Avoid using the intravenous route. Use of this product intravenously will result in almost all of the vitamin being lost in the urine. Pernicious Anemia: Parenteral vitamin B12 is the recommended treatment and will be required for the remainder of the patient''s life. The oral form is not dependable. A dose of 100 mcg daily for 6 or 7 days should be administered by intramuscular or deep subcutaneous injection. If there is clinical improvement and if a reticulocyte respon...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13148, 19543, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13149, 23962, '698AAA0A-9FD3-40C2-EC93-0DC2170A75BA', 0.0, NULL, NULL, 7, 'Dosage and Administration A small amount of ointment placed in the lower conjunctival sac every three hours, or more frequently if deemed advisable by the prescribing physician. Administration should be continued day and night the first 48 hours, after which the interval between applications may be increased. Treatment should be continued for at least 48 hours after the eye appears normal.', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13150, 13931, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13151, 4933, '5e46b7e9-e640-4db5-882f-73a5dd2482d2', 0.0, NULL, NULL, 7, 'DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of Flector® Patch and other treatment options before deciding to use Flector® Patch. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). The recommended dose of Flector® Patch is one (1) patch to the most painful area twice a day. Flector® patch should not be applied to damaged or non-intact skin. Flector® patch should not be worn when bathing or s', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13152, 15134, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13153, 9217, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى يعمل على زيادة التركيز وامداد الجسم بالطاقة وتحسين ضربات القلب ومستوى الكوليسترول بالدم', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13154, 2236, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13155, 18079, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13156, 15150, '00a642fd-fbbc-41d8-ac62-83444f0b8284', 0.0, NULL, NULL, 7, 'DIRECTIONS: USE AS DIRECTED. STOP USE IF REDNESS, IRRITATION, ITCHING AND/OR DARKENING OCCURS.', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13157, 17209, 'd7870c45-5a8b-8369-e053-2a95a90ae1f3', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION Administration (by indications): • Asthma (2.1): Once daily in the evening for patients 15 years and older. • Acute prevention of EIB (2.2): One tablet at least 2 hours before exercise for patients 15 years of age and older. • Seasonal allergic rhinitis (2.3): Once daily for patients 15 years and older. • Perennial allergic rhinitis (2.3): Once daily for patients 15 years and older. Dosage (by age) (2): • 15 years and older: one 10 mg tablet. Patients with both asthma...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13158, 29078, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13159, 22410, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13160, 22438, 'N/A', 0.0, NULL, 24, 7, 'خافض للحرارة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13161, 21728, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13162, 20117, 'N/A', 0.0, NULL, 24, 7, 'حبوب منع حمل عن طريق الفم', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13163, 2281, '8b55504e-38c5-fa0c-7766-ee68d38c041b', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Dosage The usual adult dosage is 1 gram administered intravenously or intramuscularly every 8 to 12 hours. The dosage and route should be determined by the susceptibility of the causative organisms, the severity of infection, and the condition and renal function of the patient. The guidelines for dosage of FORTAZ are listed in Table 3 . The following dosage schedule is recommended. Table 3. Recommended Dosage Schedule Dose Frequency Adults Usual recommended dosage 1 gra...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13164, 9910, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13165, 27690, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13166, 22590, 'ea79f802-e9ac-480b-91e6-1e3900b11803', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION NEXIUM is supplied as delayed-release capsules for oral administration or in packets for preparation of delayed-release oral suspensions. The recommended dosages are outlined in the table below. NEXIUM should be taken at least one hour before meals. The duration of proton pump inhibitor administration should be based on available safety and efficacy data specific to the defined indication and dosing frequency, as described in the Prescribing Information, and individua...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13167, 28869, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13168, 3384, '7d74dfa6-0468-43ad-ad7f-dd90d9ae7706', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The dose of AVELOX is 400 mg (orally or as an intravenous infusion) once every 24 hours. The duration of therapy depends on the type of infection as described below. For Complicated Intra-Abdominal Infections, therapy should usually be initiated with the intravenous formulation. When switching from intravenous to oral dosage administration, no dosage adjustment is necessary. Patients whose therapy is started with AVELOX I.V. may be switched to AVELOX Tablets when clinic...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13169, 26670, 'N/A', 0.0, NULL, 24, 7, 'كريم للتفتيح الجلدي -- حالات الحجة الجلدية والالتهاب -- ترطيب الجلد -- معالجة اثار حروق الشمس', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13170, 17982, '0a639bb3-2883-47f7-b117-737df8bed33c', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Special Precautions Fentanyl transdermal system contains a high concentration of a potent Schedule II opioid agonist, fentanyl. Schedule II opioid substances which include fentanyl, hydromorphone, methadone, morphine, oxycodone, and oxymorphone have the highest potential for abuse and associated risk of fatal overdose due to respiratory depression. Fentanyl can be abused and is subject to criminal diversion. The high content of fentanyl in fentanyl transdermal system ma...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13171, 15829, 'N/A', 0.0, NULL, 24, 7, 'فيتامينات متعددة -- مصدر للطاقة -- مصدر للزنك والكالسيوم -- مصدر للحديد -- مصدر لفيتامين ب -- مقوي للاعصاب -- يحسن التركيز والانتباه و الذاكرة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13172, 77, 'a81f2db7-78b0-45fd-93cc-b7fe43bcb45a', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Adapalene Gel should be applied once a day to affected areas after washing in the evening before retiring. A thin film of the gel should be applied, avoiding eyes, lips, and mucous membranes. During the early weeks of therapy, an apparent exacerbation of acne may occur. This is due to the action of the medication on previously unseen lesions and should not be considered a reason to discontinue therapy. Therapeutic results should be noticed after eight to twelve weeks of', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13173, 24938, 'f776421b-bd46-4664-b9ff-533d805e1277', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. 2 DOSAGE AND ADMINISTRATION THE INTENT OF THIS PHARMACY BULK PACKAGE IS FOR THE PREPARATION OF SOLUTIONS FOR INTRAVENOUS INFUSION ONLY. BEFORE ADMINISTRATION, THIS PHARMACY BULK PACKAGE REQUIRES RECONSTITUTION TO A CONCENTRATION OF 100 mg/mL AND FURTHER DILUTION IN 50 mL OF A COMPATIBLE SOLUTION. THIS IS A PHARMACY BULK PACKAGE – NOT FOR DIRECT INJECTION For intravenous use only over approximately 30 minutes (2) THIS IS A PHARMACY BULK PACKAGE - NOT FOR DIRECT INJECTION. Cefepime for Injection, ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13174, 7092, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13175, 20317, 'N/A', 0.0, NULL, 24, 7, 'مرضى نزيف الدم (هيموفليا)', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13176, 10214, 'N/A', 0.0, NULL, 24, 7, 'العناية بالشعر', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13177, 14093, '13c9c37a-0c3d-450a-a61e-d2796818b18f', 0.0, NULL, 8, 7, '2 DOSAGE AND ADMINISTRATION • Isoflurane USP should be administered only by persons trained in the administration of general anesthesia. Isoflurane USP should only be delivered using a vaporizer specifically designed and designated for use with isoflurane. ( 2) • The administration of general anesthesia must be individualized and titrated based on the patient’s age and clinical status. ( 2) 2.1 Important Dosage and Administration Information Isoflurane should be administered only by persons trai', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13178, 3342, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13179, 7050, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13180, 8083, 'N/A', 0.0, NULL, 24, 7, 'يستخدم لتحفيز الولادة.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13181, 9759, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج حالات الانيميا ودعم الجهاز العصبى وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13182, 24136, 'dfe327e8-f6ab-41e5-bdef-d520118cd83a', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION •The recommended dosage of TRADJENTA is 5 mg orally once daily (2.1) •TRADJENTA can be taken with or without food (2.1) 2.1 Recommended Dosage and Administration The recommended dosage of TRADJENTA is 5 mg taken orally once daily, with or without food....', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13183, 20682, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13184, 7118, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13185, 19572, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13186, 2941, 'f2073122-5138-41ba-b791-a9b088bb98b7', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Single 5 mg dose; may repeat after 2 hours if needed; not to exceed 10 mg in any 24-hour period; benefit of a second dose not established (2) 2.1 Acute Treatment of Migraine Attacks Administer one dose of ZOMIG Nasal Spray 5 mg for the treatment of acute migraine. If the headache returns, the dose may be repeated after 2 hours. The effectiveness of a second dose has not been established in placebo-controlled trials. The maximum daily dose should not exceed 10 mg in an...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13187, 3683, 'd42b0f1d-8930-4b69-9624-8d6c500caba8', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. DOSAGE AND ADMINISTRATION Chlorhexidine gluconate oral rinse therapy should be initiated directly following a dental prophylaxis. Patients using chlorhexidine gluconate oral rinse should be reevaluated and given a thorough prophylaxis at intervals no longer than six months. Recommended use is twice daily oral rinsing for 30 seconds, morning and evening after tooth brushing. Usual dosage is 15 ml (marked in cap) of undiluted chlorhexidine gluconate oral rinse. Patients should be instructed to not...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13188, 11549, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13189, 11914, '2bf8d2fb-80c8-401d-8e9b-d58463f5e954', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Cisplatin Injection is administered by slow intravenous infusion. CISPLATIN INJECTION SHOULD NOT BE GIVEN BY RAPID INTRAVENOUS INJECTION. Note: Needles or intravenous sets containing aluminum parts that may come in contact with Cisplatin Injection should not be used for preparation or administration. Aluminum reacts with Cisplatin Injection, causing precipitate formation and a loss of potency. Metastatic Testicular Tumors The usual Cisplatin Injection dose for the treat...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13190, 17474, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13191, 19544, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13192, 3799, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13193, 27065, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13194, 20496, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13195, 23332, '673f5ad2-c09b-4a89-9407-efdadd007917', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2. DOSAGE AND ADMINISTRATION Can be taken with and without food. Individualize to the needs of the patient and monitor during up-titration. (2) Hypertension: Most patients start at 5 mg once daily. Dose can be increased at 2-week intervals up to 40 mg. (2.1) 2.1 Hypertension The dose of BYSTOLIC must be individualized to the needs of the patient. For most patients, the recommended starting dose is 5 mg once daily, with or without food, as monotherapy or in combination with other agents. For pati...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13196, 22302, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13197, 32912, '5777b8a8-ada6-4950-8548-43a1de11f075', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION •Assess renal function before initiating and as clinically indicated. Assess volume status and correct volume depletion before initiating. (2.1) •Recommended dosage is 10 mg orally once daily in the morning, taken with or without food. (2.2) •For additional glycemic control, dosage may be increased to 25 mg orally once daily in patients tolerating JARDIANCE. (2.2) •Withhold JARDIANCE for at least 3 days, if possible, prior to major surgery or procedures associated wit...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13198, 9878, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13199, 29772, '1781fc07-5a2a-4b31-aad9-d0457eb704f4', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Ceftriaxone for injection may be administered intravenously or intramuscularly. Do not use diluents containing calcium, such as Ringer''s solution or Hartmann''s solution, to reconstitute ceftriaxone for injection vials or to further dilute a reconstituted vial for IV administration because a precipitate can form. Precipitation of ceftriaxone-calcium can also occur when ceftriaxone for injection is mixed with calcium-containing solutions in the same IV administration line...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13200, 14385, 'N/A', 0.0, NULL, 24, 7, 'احماض امينية حمض الارجينين', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13201, 17726, '16f2b9c4-a260-4a31-bd52-e5945913246c', 600.0, NULL, 8, 7, 'Standard Dose: 600.0mg. 2 DOSAGE AND ADMINISTRATION Schistosomiasis: 20 mg/kg body weight 3 times a day separated by 4 to 6 hours for 1 day only. (2.1) Clonorchiasis and Opisthorchiasis: 25 mg/kg 3 times a day separated by 4 to 6 hours for 1 day only. (2.1) Take with water during meals. Do not chew or keep segments in the mouth. (2.2) For pediatric patients under 6 years of age, the tablets may be crushed or disintegrated and mixed with semi-solid food or liquid. (2.2) For additional administration instructions see the...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13202, 15786, 'a7b85288-9099-4c20-beb7-ee2be484c9b9', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Captopril should be taken one hour before meals. Dosage must be individualized. Hypertension Initiation of therapy requires consideration of recent antihypertensive drug treatment, the extent of blood pressure elevation, salt restriction, and other clinical circumstances. If possible, discontinue the patient’s previous antihypertensive drug regimen for one week before starting captopril. The initial dose of captopril is 25 mg b.i.d. or t.i.d. If satisfactory reduction o...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13203, 13394, 'N/A', 0.0, NULL, 24, 7, 'كريم تفتيح', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13204, 3465, '7464e883-6286-4f04-ae38-b7ddc3fec754', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Mycelex® Troches are administered only as a lozenge that must be slowly dissolved in the mouth. The recommended dose is one troche five times a day for fourteen consecutive days. Only limited data are available on the safety and effectiveness of the clotrimazole troche after prolonged administration; therefore, therapy should be limited to short term use, if possible.For prophylaxis to reduce the incidence of oropharyngeal candidiasis in patients immunocompromised by co', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13205, 22627, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13206, 17711, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13207, 24344, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13208, 31760, 'N/A', 0.0, NULL, 24, 7, 'كريم يستخدم لازالة الندبات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13209, 27172, 'fb77dffc-b38d-461c-8926-bc57bef1f321', 0.0, NULL, 24, 7, 'See package insert', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13210, 32657, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13211, 8330, 'N/A', 0.0, NULL, 24, 7, 'ارتجاع المريء وحرقة المعدة.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13212, 15804, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13213, 2913, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13214, 5481, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13215, 4793, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13216, 29854, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13217, 972, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13218, 23033, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13219, 28672, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13220, 31968, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج حالات فقر الدم', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13221, 4489, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13222, 26843, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى ومعزز للمناعة وفاتح للشهية للكبار والاطفال', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13223, 25755, '8b59207a-ea5c-4697-a8b6-94c3015a00de', 1.25, NULL, 24, 7, 'Standard Dose: 1.25mg. DOSAGE AND ADMINISTRATION Blood pressure decreases associated with any dose of ramipril depend, in part, on the presence or absence of volume depletion (e.g., past and current diuretic use) or the presence or absence of renal artery stenosis. If such circumstances are suspected to be present, the initial starting dose should be 1.25 mg once daily. Hypertension The recommended initial dose for patients not receiving a diuretic is 2.5 mg once a day. Dosage should be adjusted according to the blood...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13224, 30025, 'd049bfcf-0634-4649-a782-12976ee4c49e', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Zonisamide capsules are recommended as adjunctive therapy for the treatment of partial seizures in adults. Safety and efficacy in pediatric patients below the age of 16 have not been established. Zonisamide capsules should be administered once or twice daily, using 25 mg, 50 mg or 100 mg capsules. Zonisamide capsules are given orally and can be taken with or without food. Capsules should be swallowed whole. Adults over Age 16: The prescriber should be aware that, becaus...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13225, 12836, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13226, 4238, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13227, 13650, 'N/A', 0.0, NULL, 24, 7, 'علاج للسرطان.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13228, 30009, '11d5c110-c48c-438f-9c7d-5adf99938534', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION 200 mg administered once daily orally or as an intravenous (IV) infusion over 1 hour for six (6) days in adult and pediatric patients 12 years of age and older. (2.1) 2.1 Recommended Dosage The recommended dosage of SIVEXTRO is 200 mg administered once daily for six (6) days either orally (with or without food) or as an intravenous (IV) infusion in patients 12 years of age or older. The recommended dosage and administration of SIVEXTRO are described in Table 1. Table ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13229, 21263, 'N/A', 0.0, NULL, 24, 7, 'غسول للوجه يوحد لون البشرة ويزيل التصبغات ويعمل على تنشيط البشرة وزيادة نضارتها. يمكن استخدام كمية صغيرة لتنظيف الوجه بالكامل وإزالة المكياج.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13230, 1487, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13231, 2877, '2324d60b-4f49-4759-a46e-a06bfce7e8aa', 7.0, NULL, 8, 7, 'Standard Dose: 7.0mg. 2 DOSAGE AND ADMINISTRATION Pre-Treatment Assessment Following Acute Ingestion (2.1): Obtain a plasma or serum sample to assay for acetaminophen concentration at least 4 hours after ingestion. If the time of acetaminophen ingestion is unknown: Administer a loading dose of acetylcysteine injection immediately. Obtain an acetaminophen concentration to determine need for continued treatment. If the acetaminophen concentration cannot be obtained (or is unavailable or uninterpretable) within the 8-ho...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13232, 16699, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13233, 19206, 'AC76ACA8-E718-4232-92AB-399166CE9E46', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2 DOSAGE AND ADMINISTRATION Note: The oral dose is different than the intravenous dose.Chronic Lymphocytic Leukemia (CLL) (2.1):The recommended adult dose is 40 mg/m2 administered daily for five consecutive days by the oral route.Begin each 5-day course of treatment every 28 days.Renal Impairment (2.2): Reduce dose by 20% in patients with mild to moderate renal impairment (creatinine clearance 30 to 70 mL/min/1.73 m2).Reduce dose by 50% in patients with severe renal impairment (creatinine cleara...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13234, 20161, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13235, 22347, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13236, 27487, '1eb9a361-cd8d-44b0-bf40-42b97a470ddd', 100.0, NULL, NULL, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION The recommended dosage of cilostazol is 100 mg b.i.d. taken at least half an hour before or two hours after breakfast and dinner. A dose of 50 mg b.i.d. should be considered during coadministration of such inhibitors of CYP3A4 as ketoconazole, itraconazole, erythromycin and diltiazem, and during coadministration of such inhibitors of CYP2C19 as omeprazole. Patients may respond as early as 2 to 4 weeks after the initiation of therapy, but treatment for up to 12 weeks may...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13237, 14270, 'N/A', 0.0, NULL, 24, 7, 'مضاد للفيروسات يستخدم فى علاج فيروس الكورونا', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13238, 13091, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13239, 24619, '6f94f6e7-3218-4271-86b5-2265b68d920d', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION The patient or care giver should apply a thin layer of ELIDEL (pimecrolimus) Cream 1% to the affected skin twice daily. The patient or caregiver should stop using when signs and symptoms (e.g., itch, rash and redness) resolve and should be instructed on what actions to take if symptoms recur. If signs and symptoms persist beyond 6 weeks, patients should be re-examined by their health care provider to confirm the diagnosis of atopic dermatitis. Continuous long-term use o', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13240, 32666, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13241, 31962, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13242, 12659, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13243, 13771, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13244, 7728, 'de06a4da-ea70-441e-bba2-e40eb51a8c3a', 48.0, NULL, NULL, 7, 'Standard Dose: 48.0mg. DOSAGE AND ADMINISTRATION: At the onset of an attack, one or two metered sprays should be administered onto or under the tongue. No more than three metered sprays are recommended within a 15-minute period. If the chest pain persists, prompt medical attention is recommended. Nitrolingual® Pumpspray may be used prophylactically five to ten minutes prior to engaging in activities which might precipitate an acute attack. Each metered spray of Nitrolingual® Pumpspray delivers 48 mg of solution contai...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13245, 32962, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13246, 2426, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13247, 26142, '0a3b8e0e-efb0-465b-84cb-d120b3096ebd', 1.0, NULL, NULL, 7, 'Standard Dose: 1.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Important Administration Instructions Administer Calcium Chloride Injection by slow intravenous infusion in a central or deep vein in adults and pediatric patients (with or without renal impairment); do not administer by bolus [see Warnings and Precautions (5.2, 5.4)]. The maximum recommended infusion rate is 1 mL/minute (100 mg/minute). Additional important administration instructions regarding Calcium Chloride Injection are as follows: • Do not use intramuscular...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13248, 17040, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13249, 21501, 'ea66eb30-e665-4693-99a1-a9d3b4bbe2d6', 70.0, NULL, NULL, 7, 'Standard Dose: 70.0mg. 2 DOSAGE AND ADMINISTRATION Hydrate prior to and following Kyprolis as needed. (2.1) Premedicate prior to all Cycle 1 doses and if infusion-related reactions develop or reappear. (2.1) The recommended dosing regimens are as follows. See Full Prescribing Information for additional dosage information. (2.2) Regimen Dosage Infusion Time Kyprolis and Dexamethasone (Kd) orKyprolis, Daratumumab and Dexamethasone (DKd) orKyprolis, Daratumumab and hyaluronidase-fihj and Dexamethasone (DKd) 20/70 mg/m2 o...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13250, 24811, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13251, 16525, '26fcf4be-4785-4922-a37b-4546570a132c', 300.0, NULL, 6, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATIONIf significant diarrhea occurs during therapy, this antibiotic should be discontinued (see WARNING box). Adults: Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours. Pediatric Patients: Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses. To avoid the possibility of esophageal irrit...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13252, 11374, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13253, 21407, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13254, 2297, 'c6d3c1ff-d873-4903-befa-c0ba47034c6e', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Cefprozil for oral suspension is administered orally. Population/Infection Dosage (mg) Duration (days) ADULTS (13 years and older) UPPER RESPIRATORY TRACT Pharyngitis/Tonsillitis 500 q24h 10 a Acute Sinusitis 250 q12h or 10 (For moderate to severe infections, the higher dose should be used) 500 q12h LOWER RESPIRATORY TRACT Secondary Bacterial Infection of Acute Bronchitis and Acute Bacterial Exacerbation of Chronic Bronchitis 500 q12h 10 SKIN AND SKIN STRUCTURE Uncompli', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13255, 15783, 'N/A', 0.0, NULL, 24, 7, 'فيتامين سي للمناعة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13256, 23815, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13257, 24781, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13258, 31882, '6fadde9e-dab3-4d01-b3fb-795eef7eff2f', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION (See INDICATIONS AND USAGE and CLINICAL PHARMACOLOGY.) Adults: Infection* Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic obstructive pulmonary disease (mild to moderate) 500 mg QD x 3 days OR 500 mg as a single dose on Day 1, follo...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13259, 26760, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13260, 24121, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13261, 5859, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13262, 4457, '24d10449-2936-4cd3-b7db-a7683db721e4', 260.0, NULL, NULL, 7, 'Standard Dose: 260.0mg. 2 DOSAGE AND ADMINISTRATION • Do not substitute ABRAXANE for other paclitaxel products. (2.1) • Extravasation: Closely monitor the infusion site for extravasation and infiltration. (2.1) • Metastatic Breast Cancer (MBC): Recommended dosage of ABRAXANE is 260 mg/m2 intravenously over 30 minutes every 3 weeks. (2. 2) • Non-Small Cell Lung Cancer (NSCLC): Recommended dosage of ABRAXANE is 100 mg/m2 intravenously over 30 minutes on Days 1, 8, and 15 of each 21-day cycle; administer carboplatin on Da...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13263, 5074, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13264, 3024, 'A36432F9-BDDD-4B22-BE6D-ED6AC2B3846A', 600.0, NULL, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION Gabapentin capsules is given orally with or without food.If gabapentin dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber). Postherpetic Neuralgia In adults with postherpetic neuralgia, gabapentin therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TI...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13265, 21572, '80aab848-8739-4259-a092-ed99d0f6a56d', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. 2 DOSAGE AND ADMINISTRATION Prior to administering, evaluate patients for evidence of chronic or active liver disease. ( 2.1) Fingernail onychomycosis: One 250 mg tablet, once daily for 6 weeks. ( 2.2) Toenail onychomycosis: One 250 mg tablet, once daily for 12 weeks. ( 2.2) 2.1 Assessment Prior to Initiation Before administering terbinafine tablets, evaluate patients for evidence of chronic or active liver disease [see Contraindications (4) and Warnings and Precautions (5.1)]. 2.2 Dosage Finger...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13266, 2586, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13267, 8727, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13268, 30759, 'N/A', 0.0, NULL, 24, 7, 'علاج المغص والتقلصات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13269, 21535, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13270, 18609, '3e823928-c853-4617-acad-21b27174aa7b', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Optimal blood levels are obtained when Erythromycin Base Filmtab tablets are given in the fasting state (at least ½ hour and preferably 2 hours before meals). AdultsThe usual dosage of Erythromycin Base Filmtab is one 250 mg tablet four times daily in equally spaced doses or one 500 mg tablet every 12 hours. Dosage may be increased up to 4 g per day according to the severity of the infection. However, twice-a-day dosing is not recommended when doses larger than 1 g dail...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13271, 18353, '9c70817f-e721-4f04-b095-0747702df614', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION A single dose of 8 mg of tizanidine reduces muscle tone in patients with spasticity for a period of several hours. The effect peaks at approximately 1 to 2 hours and dissipates between 3 to 6 hours. Effects are dose-related. Although single doses of less than 8 mg have not been demonstrated to be effective in controlled clinical studies, the dose-related nature of tizanidine’s common adverse events make it prudent to begin treatment with single oral doses of 4 mg. Incre...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13272, 25956, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13273, 18624, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13274, 15467, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13275, 9455, 'N/A', 0.0, NULL, 24, 7, 'نقط مضاد للبكتيريا والفطريات يستخدم فى علاج العديد من التهابات الاذن', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13276, 12967, 'N/A', 0.0, NULL, 24, 7, 'حموضة - قرحة معدة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13277, 28157, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13278, 30723, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13279, 3004, 'C33601EC-EF89-4BD4-8485-F81871AFAD94', 50.0, NULL, 24, 7, 'Standard Dose: 50.0mg. DOSAGE & ADMINISTRATION Adults (17 years of age and over)For patients with moderate to moderately severe chronic pain not requiring rapid onset of analgesic effect, the tolerability of tramadol hydrochloride can be improved by initiating therapy with a titration regimen: The total daily dose may be increased by 50 mg as tolerated every 3 days to reach 200 mg/day (50 mg q.i.d.). After titration, tramadol hydrochloride 50 mg to 100 mg can be administered as needed for pain relief every four to six...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13280, 23095, '05964DAE-8B84-467C-AF97-C82706A3CAD2', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. DOSAGE AND ADMINISTRATION The usual dosage used in adult and pediatric patients is 6 grams per day administered orally in divided doses of 3 grams two times per day. Dosages of up to 20 grams per day have been necessary to control homocysteine levels in some patients. In pediatric patients less than 3 years of age, dosage may be started at 100 mg/kg/day and then increased weekly by 50 mg/kg increments. In one study by Matthewsi et al., pharmacokinetic and pharmacodynamic simulation indicated min...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13281, 26799, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13282, 7891, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13283, 3632, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13284, 32397, 'N/A', 0.0, NULL, 24, 7, 'دعم الجهاز الهضمي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13285, 9284, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج الانيميا وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13286, 24198, 'N/A', 0.0, NULL, 24, 7, 'كالسيوم', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13287, 21529, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13288, 18951, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13289, 9310, 'e433dc68-6b2a-4c48-beae-4ec946f1ff1e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION 5 mg tablet taken once daily, and if well tolerated may be increased to 10 mg once daily (2.1) Do not exceed 5 mg tablet once daily in patients with: severe renal impairment [Creatinine Clearance] (CLcr <30 ml/min) (2.1) moderate hepatic impairment (Child-Pugh B) (2.2) concomitant use of potent CYP3A4 inhibitors (2.3) Use of VESIcare is not recommended in patients with severe hepatic impairment (Child-Pugh C) (2.2) 2.1 Dosing Information The recommended dose of VESIca...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13290, 10234, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13291, 21690, 'N/A', 0.0, NULL, 24, 7, 'مقوي للمناعة ومضاد للاكسدة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13292, 7095, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13293, 23885, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13294, 24538, '9daa1483-5a36-44db-9e0d-904d100da262', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION Indication Dose Frequency Short-Term Treatment of Erosive Esophagitis Associated With GERD ( 2.1) Adults 40 mg Once Daily for up to 8 wks Children (5 years and older) ≥ 15 kg to < 40 kg 20 mg Once Daily for up to 8 wks ≥ 40 kg 40 mg Maintenance of Healing of Erosive Esophagitis ( 2.1) Adults 40 mg Once Daily* Pathological Hypersecretory Conditions Including Zollinger-Ellison Syndrome ( 2.1) Adults 40 mg Twice Daily * Controlled studies did not extend beyond 12 months ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13295, 25703, '5777b8a8-ada6-4950-8548-43a1de11f075', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION •Assess renal function before initiating and as clinically indicated. Assess volume status and correct volume depletion before initiating. (2.1) •Recommended dosage is 10 mg orally once daily in the morning, taken with or without food. (2.2) •For additional glycemic control, dosage may be increased to 25 mg orally once daily in patients tolerating JARDIANCE. (2.2) •Withhold JARDIANCE for at least 3 days, if possible, prior to major surgery or procedures associated wit...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13296, 22730, 'N/A', 0.0, NULL, 24, 7, 'علاج الإلحاح البولي و سلس البول ، وجميع أعراض متلازمة فرط نشاط المثانة.', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13297, 1995, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13298, 6147, '0478f0e7-87fb-4adb-ae9b-6624555ccbe4', 15.0, 45.0, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION •Initiate pioglitazone tablets at 15 mg or 30 mg once daily. Limit initial dose to 15 mg once daily in patients with NYHA Class I or II heart failure. (2.1) •If there is inadequate glycemic control, the dose can be increased in 15 mg increments up to a maximum of 45 mg once daily. (2.1) •The maximum recommended dose of pioglitazone tablets is 15 mg once daily in patients taking strong CYP2C8 inhibitors (e.g., gemfibrozil). (2.3, 7.1) •Obtain liver tests before startin...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13299, 26540, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13300, 29948, 'N/A', 0.0, NULL, 24, 7, 'كريم مرطب للجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13301, 26369, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتنشيط الذاكرة وزيادة التركيز', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13302, 8700, '6fadde9e-dab3-4d01-b3fb-795eef7eff2f', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION (See INDICATIONS AND USAGE and CLINICAL PHARMACOLOGY.) Adults: Infection* Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic obstructive pulmonary disease (mild to moderate) 500 mg QD x 3 days OR 500 mg as a single dose on Day 1, follo...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13303, 4435, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13304, 25308, '9bc31f67-cfce-4ad6-9c07-3845ead3542c', 300.0, NULL, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of a ketoprofen immediate-release capsules and ketoprofen extended-release capsules and other treatment options before deciding to use ketoprofen immediate-release capsules and ketoprofen extended-release capsules. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS). After observing the response to initial therapy with ketoprofen immediate-release ca...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13305, 28010, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13306, 27723, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13307, 7930, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13308, 5175, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13309, 4267, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13310, 21254, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13311, 24392, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13312, 19413, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13313, 24848, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13314, 4890, '881785a5-41b4-4679-a29b-5d77ca51ca60', 36.0, NULL, 24, 7, 'Standard Dose: 36.0mg. 2 DOSAGE AND ADMINISTRATION The recommended once-daily dosage is approximately 0.9 mg/kg/day administered orally (2.2) Discontinue gradually when administered for more than a few days (2.3) 2.1 Assessments Prior to First Dose of Deflazacort Oral Suspension Administer all immunizations according to immunization guidelines prior to starting deflazacort oral suspension. Administer live-attenuated or live vaccines at least 4 to 6 weeks prior to starting deflazacort oral suspension [see Warnings and ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13315, 21637, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13316, 5274, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13317, 10958, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13318, 10933, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13319, 28034, 'c7bc9486-8e61-4ba1-827f-2cd8c304b454', 25.0, 50.0, 24, 7, 'Standard Dose: 25.0mg. 2 DOSAGE AND ADMINISTRATION CHF Post-MI : Initiate treatment with 25 mg once daily. Titrate to maximum of 50 mg once daily within 4 weeks, as tolerated. Dose adjustments may be required based on potassium levels. (2.1) Hypertension : 50 mg once daily, alone or combined with other antihypertensive agents. For inadequate response, increase to 50 mg twice daily. Higher dosages are not recommended. (2.2) For all patients: Measure serum potassium before starting INSPRA and periodically thereafter. (2...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13320, 26554, '029a90b6-0722-49be-8400-3ec29526aafd', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. 2 DOSAGE AND ADMINISTRATION Indication Dose Hypertension ( 2.2) 150 to 300 mg once daily Diabetic Nephropathy ( 2.3) 300 mg once daily 2.1 General Considerations Irbesartan tablets may be administered with other antihypertensive agents and with or without food. 2.2 Hypertension The recommended initial dose of irbesartan tablets is 150 mg once daily. The dosage can be increased to a maximum dose of 300 mg once daily as needed to control blood pressure [see Clinical Studies (14.1)]. 2.3 Nephropath...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13321, 1637, '94a59260-d2b6-464a-b5b9-bbc599e57e10', 16.0, NULL, 24, 7, 'Standard Dose: 16.0mg. 2 DOSAGE AND ADMINISTRATION Starting Dose Target Dose Adult Hypertension (2.1) 16 mg tablet once daily 8 – 32 mg tablet total daily dose Pediatric Hypertension (1 to < 6 years) (2.2) 0.20 mg/kg oral suspension once daily 0.05 – 0.4 mg/kg oral suspension once daily or consider divided dose Pediatric Hypertension (6 to < 17 years) (2.2) < 50 kg 4 – 8 mg tablet once daily >50 kg 8 – 16 mg tablet once daily < 50 kg 4 – 16 mg tablet once daily or consider divided dose > 50 kg 4 – 32 mg tablet once da...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13322, 29956, '3ecde48b-75a2-4beb-9999-369f3f61bb8a', 600.0, NULL, 12, 7, 'Standard Dose: 600.0mg. 2. DOSAGE AND ADMINISTRATION Dosage of Teflaro by Indication in Adult and Pediatric Patients ( 2.1 , 2.2 ) Indication Age Range Dosage Infusion Time Duration Acute Bacterial Skin and Skin Structure Infections (ABSSSI) 18 years and older 600 mg every 12 hours 5 to 60 minutes 5 to 14 days ≥2 years to < 18 years (> 33 kg) 400 mg every 8 hoursOR600 mg every 12 hours 5 to 60 minutes 5 to 14 days ≥2 years to < 18 years (≤ 33kg) 12 mg/kg every 8 hours 5 to 60 minutes 5 to 14 days 2 months to < 2 years ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13323, 29029, '73f8cef4-39f3-4f71-b3cc-8da07b8fd65f', 400.0, NULL, 8, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The usual dosage of Pentoxifylline extended-release Tablet form is one tablet (400 mg) three times a day with meals. While the effect of Pentoxifylline extended-release Tablet may be seen within 2 to 4 weeks, it is recommended that treatment be continued for at least 8 weeks. Efficacy has been demonstrated in double-blind clinical studies of 6 months duration. Digestive and central nervous system side effects are dose related. If patients develop these effects it is rec...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13324, 14983, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13325, 8227, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13326, 32578, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13327, 25959, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13328, 33350, 'N/A', 0.0, NULL, 24, 7, 'مكمل غائى يدعم نمو العظام ويمنع الكساح ولين العظام', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13329, 4426, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13330, 31787, 'N/A', 0.0, NULL, 24, 7, 'كريم لتفتيح البشرة وازالة التصبغات وعلاج حب الشباب والبثور السوداء', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13331, 16780, '6d46258b-31d0-4e43-9acd-4c821f09ec0f', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION Epilepsy In the controlled add-on trials, no correlation has been demonstrated between trough plasma concentrations of topiramate and clinical efficacy. No evidence of tolerance has been demonstrated in humans. Doses above 400 mg/day (600, 800, or 1000 mg/day) have not been shown to improve responses in dose-response studies in adults with partial onset seizures. It is not necessary to monitor topiramate plasma concentrations to optimize topiramate therapy. On occasion,...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13332, 32108, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13333, 33188, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13334, 8638, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13335, 11348, 'fc61fd7e-63ca-4714-851f-31b2a045903d', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Theophylline (Anhydrous) Extended-Release Tablets 200 or 300 mg Tablets can be taken once a day in the morning or evening. It is recommended that Theophylline (Anhydrous) Extended-Release Tablets be taken with meals. Patients should be advised that if they choose to take Theophylline (Anhydrous) Extended-Release Tablets with food it should be taken consistently with food and if they take it in a fasted condition it should routinely be taken fasted. It is important that ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13336, 14066, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13337, 14285, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13338, 4018, 'EC09AB1C-52FA-4F41-BF65-A632DCE8F097', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION (SEE INDICATIONS AND USAGE) The recommended regimen of Ismo tablets is 20 mg (one tablet) twice daily, with the two doses given 7 hours apart. For most patients, this can be accomplished by taking the first dose on awakening and the second dose 7 hours later. Dosage adjustments are not necessary for elderly patients or patients with altered renal or hepatic function. As noted above (CLINICAL PHARMACOLOGY), multiple studies of organic nitrates have shown that maintenance...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13339, 12851, 'N/A', 0.0, NULL, 24, 7, 'مرطب للجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13340, 3517, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13341, 9207, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13342, 12719, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13343, 26683, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13344, 32027, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13345, 21214, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13346, 9014, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13347, 833, 'ACBCE0E8-5098-4785-943B-8BDB5FF17FAB', 1.5, 4.0, 24, 7, 'Standard Dose: 1.5mg. DOSAGE AND ADMINISTRATION Clonazepam is available as a tablet. The tablets should be administered with water by swallowing the tablet whole. Seizure Disorders Adults: The initial dose for adults with seizure disorders should not exceed 1.5 mg/day divided into three doses. Dosage may be increased in increments of 0.5 to 1 mg every 3 days until seizures are adequately controlled or until side effects preclude any further increase. Maintenance dosage must be individualized for each patient dependin...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13348, 32800, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13349, 14872, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13350, 16349, 'ebddb745-81f9-4b25-8739-b2886032ed26', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION CIALIS for use as needed: Starting dose: 10 mg up to once daily. Increase to 20 mg or decrease to 5 mg based upon efficacy/tolerability. Improves erectile function compared to placebo up to 36 hours post dose (2.1). CIALIS for once daily use: 2.5 mg taken once daily, without regard to timing of sexual activity. May increase to 5 mg based upon efficacy and tolerability (2.1). CIALIS may be taken without regard to food (2.2). 2.1 Erectile Dysfunction CIALIS for Use as N...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13351, 33574, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13352, 26282, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13353, 29476, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13354, 24236, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13355, 6244, 'N/A', 0.0, NULL, 24, 7, 'حالات عسر الهضم والتقلصات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13356, 22103, 'aa3d6d9a-ec31-4d66-8151-ec3bfad799e9', 0.5, NULL, 24, 7, 'Standard Dose: 0.5mg. 2 DOSAGE AND ADMINISTRATION Nucleoside-inhibitor-treatment-naïve with compensated liver disease (greater than or equal to 16 years old): 0.5 mg once daily. (2.2) Lamivudine-refractory or known lamivudine or telbivudine resistance substitutions (greater than or equal to 16 years old): 1 mg once daily. (2.2) Decompensated liver disease (adults): 1 mg once daily. (2.2) Renal impairment: Dosage adjustment is recommended if creatinine clearance is less than 50 mL/min. (2.4) Entecavir tablets should b...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13357, 28671, 'N/A', 0.0, NULL, 24, 7, 'تعمل علي تقليل الوزن -- الحفاظ علي ثبات الوزن المثالي -- الحفاظ علي المعادن الموجودة بالجسم بصورة طبيعية', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13358, 13662, 'N/A', 0.0, NULL, 24, 7, 'مسكن ومضاد للالتهابات وخافض للحرارة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13359, 12694, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13360, 13783, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13361, 25688, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13362, 32369, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13363, 18187, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13364, 8304, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13365, 17810, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13366, 14735, 'd9243be5-bd27-4f37-ba8b-9f6f55f8b3e4', 600.0, 600.0, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION (see INDICATIONS AND USAGE for Indicated Pathogens) The recommended dosage and duration of treatment for infections in pediatric patients are described in the following chart; the total daily dose for all infections is 14 mg/kg, up to a maximum dose of 600 mg per day. Once-daily dosing for 10 days is as effective as BID dosing. Once-daily dosing has not been studied in skin infections; therefore, cefdinir for oral suspension should be administered twice daily in this in...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13367, 18037, 'A0EEEC15-C76D-41DF-80F3-5572C9857DA6', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The initial dosage of prednisolone tablets may vary from 5 mg to 60 mg per day depending on the specific disease entity being treated. In situations of less severity, lower doses will generally suffice, while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, prednisolone should be dis...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13368, 23175, '523f0320-cc73-445a-a48d-7a181c182307', 200.0, NULL, 8, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION Travelers’ diarrhea: One 200 mg tablet taken orally three times a day for 3 days, with or without food (2.1) Hepatic encephalopathy: One 550 mg tablet taken orally two times a day, with or without food (2.2) 2.1 Dosage for Travelers’ Diarrhea The recommended dose of XIFAXAN is one 200 mg tablet taken orally three times a day for 3 days. XIFAXAN can be administered orally, with or without food [see Clinical Pharmacology (12.3)]. 2.2 Dosage for Hepatic Encephalopathy Th...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13369, 28178, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13370, 26446, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13371, 27807, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13372, 9588, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13373, 21453, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13374, 25766, 'fdb77e13-f5a7-4c4a-9f8e-338b702239c8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION See Full Prescribing Information for detailed dosing instructions. 2.1 Important Dosage and Administration Information Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit. Shake well before use. Do not use if there is evidence of excessive creaming or aggregation, if large droplets are visible, or if there are other forms of phase separation indicating that the st...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13375, 26850, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13376, 18013, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13377, 6290, 'a5b3455a-e842-7d4b-e053-2995a90adee3', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION: One hydroxychloroquine sulfate tablet contains 200 mg of hydroxychloroquine sulfate, which is equivalent to 155 mg base. Take hydroxychloroquine sulfate tablets with a meal or a glass of milk. Malaria Prophylaxis Adults: 400 mg (310 mg base) once weekly on the same day of each week starting 2 weeks prior to exposure, and continued for 4 weeks after leaving the endemic area. Weight-based dosing in adults and pediatric patients: 6.5 mg/kg (5 mg/kg base), not to exceed 40...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13378, 8372, '4EC9BF84-D0B0-4092-8E3D-C67CCFB2780B', 7.5, NULL, 24, 7, 'Standard Dose: 7.5mg. DOSAGE AND ADMINISTRATION Osteoarthritis Carefully consider the potential benefits and risks of meloxicam tablets and other treatment options before deciding to use meloxicam tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with meloxicam tablets, the dose should be adjusted to suit an individual patient''s needs.For the relief of the signs and symptoms of osteoarthrit...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13379, 7452, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لدعم صحة الكبد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13380, 28065, '29ccf947-91c1-405a-aba6-5889e3c75d70', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. DOSAGE AND ADMINISTRATION INFANTS: 2 mL (200,000 units) four times daily (in infants and young children, use dropper to place one-half of dose in each side of mouth and avoid feeding for 5 to 10 minutes). NOTE: Limited clinical studies in premature and low birth weight infants indicate that 1 mL four times daily is effective. CHILDREN AND ADULTS: 4–6 mL (400,000 to 600,000 units) four times daily (one-half of dose in each side of mouth). The preparation should be retained in the mouth as long as...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13381, 356, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13382, 2678, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13383, 25565, 'a70d857a-50d3-4e69-828c-a72fd6b98c99', 50.0, NULL, 24, 7, 'Standard Dose: 50.0mg. 2 DOSAGE AND ADMINISTRATION Swallow tablets whole and do not split, chew or crush (2.1) Take without food or with a light meal (approx. 300 calorie s) (2.1) Administer once daily, preferably in the evening (2.1) Geriatric Use: Consider a lower starting dose (50 mg/day), slower titration, and careful monitoring during the initial dosing period in the elderly. (2.3, 8.5) Hepatic Impairment: Lowe r starting dose (50 mg/day) and slower titration may be ne e de d (2.4, 8.7, 12.3) Indication Initial D...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13384, 21788, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13385, 4918, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13386, 2228, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13387, 23397, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13388, 27835, 'N/A', 0.0, NULL, 24, 7, 'مرطب للعين', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13389, 26636, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13390, 33665, 'N/A', 0.0, NULL, 24, 7, 'كريم تقليل أعراض الأكزيما والحساسية والحكة المصاحبة لها و لتهدئة البشرة من الالتهابات وترطيب وترميم البشرة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13391, 6806, '68fba58a-7748-4581-8432-f5286c46d90a', 4.0, NULL, 24, 7, 'Standard Dose: 4.0mg. DOSAGE AND ADMINISTRATION Keflex is administered orally. Adults— The adult dosage ranges from 1 to 4 g daily in divided doses. The 333 mg and 750 mg strengths should be administered such that the daily dose is within 1 to 4 grams per day. The usual adult dose is 250 mg every 6 hours. For the following infections, a dosage of 500 mg may be administered every 12 hours: streptococcal pharyngitis, skin and skin structure infections, and uncomplicated cystitis in patients over 15 years of age. Cystit...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13392, 27989, '0950cd08-a48b-4376-9647-da22cf5a8a70', 360.0, NULL, 24, 7, 'Standard Dose: 360.0mg. 2 DOSAGE AND ADMINISTRATION PULMICORT FLEXHALER should be administered twice daily by the orally inhaled route only. After inhalation, the patient should rinse the mouth with water without swallowing [see Patient Counseling Information (17.1) ]. Patients should be instructed to prime PULMICORT FLEXHALER prior to its initial use, and instructed to inhale deeply and forcefully each time the device is used. The safety and efficacy of PULMICORT FLEXHALER when administered in excess of recommended do...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13393, 6491, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13394, 2747, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13395, 24193, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13396, 13545, 'N/A', 0.0, NULL, 24, 7, 'مصدر لفيتامين ب -- مصدر للطاقة -- مقوي للاعصاب --يستخدم في حالات مرضي السكر', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13397, 7703, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13398, 25875, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13399, 789, '4EC9BF84-D0B0-4092-8E3D-C67CCFB2780B', 7.5, NULL, 24, 7, 'Standard Dose: 7.5mg. DOSAGE AND ADMINISTRATION Osteoarthritis Carefully consider the potential benefits and risks of meloxicam tablets and other treatment options before deciding to use meloxicam tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with meloxicam tablets, the dose should be adjusted to suit an individual patient''s needs.For the relief of the signs and symptoms of osteoarthrit...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13400, 1117, 'Lf69f100f-c766-490f-9143-5e8e0c8cb7c9', 500.0, NULL, 6, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION The usual dosage of Ipratropium Bromide Inhalation Solution is 500 mcg (1 Unit-Dose vial) administered three to four times a day by oral nebulization, with doses 6 to 8 hours apart. Ipratropium Bromide Inhalation Solution Unit-Dose vials contain 500 mcg ipratropium bromide anhydrous in 2.5 mL normal saline. Ipratropium Bromide Inhalation Solution can be mixed in the nebulizer with albuterol or metaproterenol if used within one hour. Drug stability and safety of Ipratrop...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13401, 31342, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13402, 2836, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13403, 21862, '347c802f-4ea9-41d4-80d6-e4a183f22179', 80.0, NULL, 24, 7, 'Standard Dose: 80.0mg. DOSAGE AND ADMINISTRATION The patient should be placed on a standard cholesterol-lowering diet before receiving lovastatin tablets and should continue on this diet during treatment with lovastatin tablets (see NCEP Treatment Guidelines for details on dietary therapy). Lovastatin tablets should be given with meals. Adult Patients The usual recommended starting dose is 20 mg once a day given with the evening meal. The recommended dosing range is 10-80 mg/day in single or two divided doses; the max...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13404, 4586, 'a1e2c14f-0682-4b19-9159-de0aca1960c6', 5.0, NULL, NULL, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION When Lidocaine Ointment 5% is used concomitantly with other products containing lidocaine, the total dose contributed by all formulations must be kept in mind. Adult A single application should not exceed 5 g of Lidocaine Ointment 5%, containing 250 mg of lidocaine base (equivalent chemically to approximately 300 mg of lidocaine hydrochloride). This is roughly equivalent to squeezing a six (6) inch length of ointment from the tube. In a 70 kg adult this dose equals 3.6 ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13405, 17457, 'N/A', 0.0, NULL, 24, 7, 'علاج التشقق الجلدي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13406, 22118, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13407, 29916, 'c6d3c1ff-d873-4903-befa-c0ba47034c6e', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Cefprozil for oral suspension is administered orally. Population/Infection Dosage (mg) Duration (days) ADULTS (13 years and older) UPPER RESPIRATORY TRACT Pharyngitis/Tonsillitis 500 q24h 10 a Acute Sinusitis 250 q12h or 10 (For moderate to severe infections, the higher dose should be used) 500 q12h LOWER RESPIRATORY TRACT Secondary Bacterial Infection of Acute Bronchitis and Acute Bacterial Exacerbation of Chronic Bronchitis 500 q12h 10 SKIN AND SKIN STRUCTURE Uncompli', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13408, 8218, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13409, 16177, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13410, 17494, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13411, 17940, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13412, 27014, 'cb18564f-663f-4da2-9dd9-700ea9bdd398', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 General Dosing InformationThe recommended dose of ZETIA is 10 mg once daily. ZETIA can be administered with or without food. 2.2 Concomitant Lipid-Lowering TherapyZETIA may be administered with a statin (in patients with primary hyperlipidemia) or with fenofibrate (in patients with mixed hyperlipidemia) for incremental effect. For convenience, the daily dose of ZETIA may be taken at the same time as the statin or fenofibrate, according to the dosing recommendation...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13413, 27247, 'f2149727-c2df-41b0-97f1-45ea75e0aa1a', 0.0, NULL, 24, 7, '2. DOSAGE AND ADMINISTRATION The starting dose should be individualized based on the type of diabetes and whether the patient is insulin-naïve (2.1, 2.2, 2.3) Administer subcutaneously once daily at any time of day, but at the same time every day. (2.1) Rotate injection sites within an injection area (abdomen, thigh, or deltoid) to reduce the risk of lipodystrophy. (2.1) Converting from other insulin therapies may require adjustment of timing and dose of LANTUS. Closely monitor glucoses especial', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13414, 24061, '23fc71d7-0367-4e71-848a-ed72957bd230', 0.05, NULL, 24, 7, 'Standard Dose: 0.05mg. DOSAGE AND ADMINISTRATION Central Diabetes InsipidusThe dosage of desmopressin acetate tablets must be determined for each individual patient and adjusted according to the diurnal pattern of response. Response should be estimated by two parameters: adequate duration of sleep and adequate, not excessive, water turnover. Patients previously on intranasal desmopressin acetate therapy should begin tablet therapy twelve hours after the last intranasal dose. During the initial dose titration period, p...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13415, 11135, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13416, 17127, '856ecdad-a8e0-4bda-a217-cd7948ddfa59', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. 2 DOSAGE AND ADMINISTRATION Valproate Sodium Injection is intended for intravenous use only. Epilepsy Complex Partial Seizures in Adults and Children 10 years of age or older: Initial dose is 10 to 15 mg/kg/day, increasing at 1 week intervals by 5 to 10 mg/kg/day to achieve optimal clinical response. Maximum recommended dose is 60 mg/kg/day ( 2.1) Simple and Complex Absence Seizures: Initial dose is 10 to 15 mg/kg/day, increasing at 1 week intervals by 5 to 10 mg/kg/day to achieve optimal clinic...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13417, 14287, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13418, 8033, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13419, 8887, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13420, 14412, '10f918f7-4782-470e-a50e-35c7c66bfd79', 150.0, NULL, 24, 7, 'Standard Dose: 150.0mg. DOSAGE AND ADMINISTRATION Obstructive Sleep Apnea (OSA) and Narcolepsy The recommended dose of NUVIGIL for patients with OSA or narcolepsy is 150 mg or 250 mg given as a single dose in the morning. In patients with OSA, doses up to 250 mg/day, given as a single dose, have been well tolerated, but there is no consistent evidence that this dose confers additional benefit beyond that of the 150 mg/day dose (See CLINICAL PHARMACOLOGY and CLINICAL TRIALS ). Shift Work Sleep Disorder (SWD) The recomme...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13421, 19408, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13422, 5532, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13423, 17297, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13424, 9205, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13425, 14681, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13426, 29256, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13427, 32362, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13428, 18226, 'db16d6b9-3b89-431d-97f9-9b4a8300e913', 125.0, NULL, 24, 7, 'Standard Dose: 125.0mg. 2 DOSAGE AND ADMINISTRATION Prevention of Chemotherapy Induced Nausea and Vomiting (2.1) EMEND is given for 3 days as part of the chemotherapy induced nausea and vomiting (CINV) regimen that includes a corticosteroid and a 5-HT3 antagonist. (2.1) The recommended dose of EMEND is 125 mg orally 1 hour prior to chemotherapy treatment (Day 1) and 80 mg orally once daily in the morning on Days 2 and 3. (2.1) EMEND (fosaprepitant dimeglumine) for Injection may be substituted for oral EMEND (125 mg) on...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13429, 22241, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13430, 3665, '5d8db96a-c0f5-44c5-aadd-72433ea30e46', 12.0, NULL, 24, 7, 'Standard Dose: 12.0mg. DOSAGE AND ADMINISTRATION Dosage and Administration in Adults: Single Dose Vaginal candidiasis: The recommended dosage of fluconazole for vaginal candidiasis is 150 mg as a single oral dose. Multiple Dose SINCE ORAL ABSORPTION IS RAPID AND ALMOST COMPLETE, THE DAILY DOSE OF FLUCONAZOLE IS THE SAME FOR ORAL TABLETS AND INTRAVENOUS ADMINISTRATION. In general, a loading dose of twice the daily dose is recommended on the first day of therapy to result in plasma concentrations close to steady-state b...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13431, 13087, '4801d296-7194-4c8c-895d-0dc1a3e6eb25', 15.0, 45.0, NULL, 7, 'Standard Dose: 15.0mg. DOSAGE AND ADMINISTRATION Initial Treatment The recommended starting dose for mirtazapine tablet, USP is 15 mg/day, administered in a single dose, preferably in the evening prior to sleep. In the controlled clinical trials establishing the efficacy of mirtazapine tablets, USP in the treatment of major depressive disorder, the effective dose range was generally 15-45 mg/day. While the relationship between dose and satisfactory response in the treatment of major depressive disorder for mirtazapine...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13432, 23604, 'a323ebd8-ef1b-439b-93d1-ba73a5b0127d', 30.0, NULL, NULL, 7, 'Standard Dose: 30.0mg. DOSAGE AND ADMINISTRATION DO NOT ADMINISTER NIMODIPINE CAPSULES INTRAVENOUSLY OR BY OTHER PARENTERAL ROUTES (see WARNINGS ). If nimodipine is inadvertently administered intravenously, clinically significant hypotension may require cardiovascular support with pressor agents. Specific treatments for calcium channel blocker overdose should also be given promptly. Nimodipine is given orally in the form of soft gelatin 30 mg capsules for subarachnoid hemorrhage. The recommended oral dose is 60 mg (tw...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13433, 18156, '8609ed02-0b30-4c82-bab1-4d51d92ec224', 20.0, NULL, NULL, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Indication Adult Pediatric MDD (2.1) 20 mg/day in am (initial dose) 10 to 20 mg/day (initial dose) OCD (2.2) 20 mg/day in am (initial dose) 10 mg/day (initial dose) Bulimia Nervosa (2.3) 60 mg/day in am - Panic Disorder (2.4) 10 mg/day (initial dose) - Depressive Episodes Associated with Bipolar I Disorder (2.5) Oral in combination with olanzapine: 5 mg of oral olanzapine and 20 mg of fluoxetine once daily (initial dose) - Consider tapering the dose of fluoxetine for ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13434, 16874, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13435, 10865, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13436, 30004, '082A3791-20C6-4FFA-A113-B60128344381', 6.0, NULL, 24, 7, 'Standard Dose: 6.0mg. DOSAGE AND ADMINISTRATION Alprazolam extended-release tablets may be administered once daily, preferably in the morning. The tablets should be taken intact; they should not be chewed, crushed, or broken. The suggested total daily dose ranges between 3 to 6 mg/day. Dosage should be individualized for maximum beneficial effect. While the suggested total daily dosages given will meet the needs of most patients, there will be some patients who require doses greater than 6 mg/day. In such cases, dosa...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13437, 32513, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13438, 28623, '45a7e3c2-8527-4447-90fe-07ce688f25d3', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION The dose is one drop of Dorzolamide HCl Ophthalmic Solution in the affected eye(s) three times daily. Dorzolamide HCl Ophthalmic Solution may be used concomitantly with other topical ophthalmic drug products to lower intraocular pressure. If more than one topical ophthalmic drug is being used, the drugs should be administered at least ten minutes apart.', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13439, 15605, 'N/A', 0.0, NULL, 24, 7, 'غسول مهبلي مضاد للالتهابات والافرازات والروائح الكريهة', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13440, 21114, '26b5e5e8-45cd-4a98-9af4-2d04c1130881', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2 DOSAGE AND ADMINISTRATION •Take orally once daily with or without food at the same time each day. (2.1) •For patients requiring a high-intensity statin or are unable to achieve their LDL-C goal receiving pitavastatin tablets 4 mg daily, prescribe alternative LDL-C-lowering treatment. (2.1) •Assess LDL-C when clinically appropriate, as early as 4 weeks after initiation of pitavastatin tablets, and adjust the dosage if necessary. (2.1) •Recommended dosage is 2 mg to 4 mg once daily. Maximum reco...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13441, 33818, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13442, 26644, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13443, 9293, 'f4f54d5b-32f7-4765-8702-50a78c9d657e', 0.25, NULL, 24, 7, 'Standard Dose: 0.25mg. DOSAGE AND ADMINISTRATION Otitis Externa The recommended dosage regimen for the treatment of otitis externa is: For pediatric patients (from 6 months to 13 years old): Five drops (0.25 mL, 0.75 mg ofloxacin) instilled into the affected ear once daily for seven days. For patients 13 years and older: Ten drops (0.5 mL, 1.5 mg ofloxacin) instilled into the affected ear once daily for seven days. The solution should be warmed by holding the bottle in the hand for one or two minutes to avoid dizzines...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13444, 24740, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13445, 32293, '60bee69b-be70-412c-9e83-a24a0a8a5e7b', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. 2 DOSAGE AND ADMINISTRATION Use this formulation of Vancomycin Injection only in patients who require the entire (500 mg, 750 mg, 1 g, 1.25 g, 1.5 g, 1.75 g or 2 g) dose and not any fraction thereof. (2.1) For intravenous use only. Do Not administer orally. Administer Vancomycin Injection by intravenous infusion over 60 minutes or greater to reduce the risk of infusion reactions (2.1) Adult Patients: 2 g divided either as 0.5 grams (g) every 6 hours or 1 g every 12 hours (2.2) Pediatric Patients...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13446, 27980, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13447, 28771, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13448, 24553, 'N/A', 0.0, NULL, 24, 7, 'مسكن -- خافض للحرارة -- امن علي الحوامل والمرضعات -- مسكن للصداع -- مسكن لالام الاسنان -- مسكن لاعراض البرد -- لالام العظام -- امن على المعدة -- امن للاطفال -- امن لمرضى الضغط والسكر', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13449, 29322, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13450, 29358, 'N/A', 0.0, NULL, 24, 7, 'غسول مهبلي للتنظيف -- تقليل الالتهابات و الحكة و الاحمرار -- اعطاء المهبل رائحة زكية', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13451, 21520, '1310e776-65c8-413d-aab5-81a8c15719c5', 50.0, 300.0, 24, 7, 'Standard Dose: 50.0mg. 2 DOSAGE AND ADMINISTRATION VIMPAT may be taken with or without food. When using VIMPAT oral solution, it is recommended that a calibrated measuring device be obtained and used. A household teaspoon or tablespoon is not an adequate measuring device. Healthcare providers should recommend a device that can measure and deliver the prescribed dose accurately, and provide instructions for measuring the dosage. Partial-onset seizures (2.1): Initially, give 50 mg twice daily (100 mg/day). The dose may ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13452, 24004, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13453, 30086, '92018a65-38f6-45f7-91d4-a34921b81d0d', 5.0, 7.5, 24, 7, 'Standard Dose: 5.0mg. 2. DOSAGE AND ADMINIST R ATION Adult and pediatric patients greater than 40 kg Starting dose is 2.5 (pediatrics and vulnerable adults) or 5 mg twice daily with food. After 2 weeks of treatment, adjust dose based on heart rate. The maximum dose is 7.5 mg twice daily. (2.1) Pediatric patients less than 40 kg Starting dose is 0.05 mg/kg twice daily with food. Adjust dose at two-week intervals by 0.05 mg/kg based on heart rate. Maximum dose is 0.2 mg/kg (patients 6 months to less than 1 year old) or...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13454, 19273, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13455, 15485, 'c899b329-cc5e-4443-8e94-451314de47c9', 0.0, NULL, 24, 7, '2 DOSAGE AND ADMINISTRATION Apply a pea-sized amount once daily to each of the five areas of the face: central forehead, chin, nose, each cheek. Brimonidine topical gel should be applied smoothly and evenly as a thin layer across the entire face avoiding the eyes and lips. Wash hands after applying brimonidine topical gel. Brimonidine topical gel is for topical use only and not for oral, ophthalmic, or intravaginal use. •Apply a pea-sized amount once daily to each of the five areas of the face (', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13456, 29076, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13457, 27237, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13458, 20072, 'ba17a773-7f7a-4cc5-9297-359decedfed0', 220.0, NULL, 24, 7, 'Standard Dose: 220.0mg. 2 DOSAGE AND ADMINISTRATION Administer ASMANEX TWISTHALER by the orally inhaled route only. Instruct patients to inhale rapidly and deeply. Advise patients to rinse the mouth after inhalation. Individual patients will experience a variable time to onset and degree of symptom relief. Maximum benefit may not be achieved for 1 to 2 weeks or longer after initiation of treatment. After asthma stability has been achieved, it is desirable to titrate to the lowest effective dosage to reduce the possibil...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13459, 25754, 'N/A', 0.0, NULL, 24, 7, 'كريم يساعد علي التئام الجروح __ يعمل علي اخفاء اثار الندبات والجروح __ تفتيح الجلد وتوحيد لون الجلد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13460, 2259, 'a401a44e-2c5c-4c4a-81d8-56a3ef9d57f7', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION Adults Dosage and route of administration should be determined by susceptibility of the causative organisms, severity of the infection, and the condition of the patient (see table for dosage guideline). Cefotaxime for injection may be administered IM or IV after reconstitution. The maximum daily dosage should not exceed 12 grams. GUIDELINES FOR DOSAGE OF CEFOTAXIME FOR INJECTION Type of Infection Daily Dose grams) Frequency and Route Gonococcal urethritis/cervicitis in ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13461, 17609, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13462, 11262, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13463, 29635, 'N/A', 0.0, NULL, 24, 7, 'مقوي للرجال', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13464, 3287, 'cf4d2e56-eb0d-43c9-b44b-764381a23326', 240.0, NULL, NULL, 7, 'Standard Dose: 240.0mg. DOSAGE AND ADMINISTRATION For oral administrationDOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE AND THE RESPONSE OF THE PATIENT.The initial dosage varies from 20 to 240 mg a day depending on the disease being treated. In less severe diseases doses lower than 20 mg may suffice, while in severe diseases doses higher than 240 mg may be required. The initial dosage should be maintained or adjusted until the patient''s response is satisfactory. If satisfactory ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13465, 25348, 'N/A', 0.0, NULL, 24, 7, 'لوشن لترطيب وتغذية الشعر ومنع التساقط والهيشان وملئ الفراغات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13466, 3769, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13467, 9044, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13468, 24253, 'N/A', 0.0, NULL, 24, 7, '1- تفتيح وتبييض لون البشرة .', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13469, 13208, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13470, 29725, '78987a51-82f7-4ca6-80ad-fa22d1f3e11a', 200.0, NULL, NULL, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Adults and children 12 years of age and older: One to 2 tablets (200 mg to 400 mg) every four hours, not to exceed 2400 mg (12 tablets) in 24 hours. PATIENTS SHOULD BE ADVISED TO KEEP THESE AND ALL DRUGS OUT OF THE REACH OF CHILDREN AND TO SEEK PROFESSIONAL ASSISTANCE OR CONTACT A POISON CONTROL CENTER IMMEDIATELY IN CASE OF ACCIDENTAL OVERDOSE....', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13471, 6435, 'N/A', 0.0, NULL, 24, 7, 'مضاد تقلصات الجهاز البولي', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13472, 845, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13473, 32010, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13474, 11207, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13475, 4954, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13476, 135, 'dcc29902-1fe6-4713-947e-335503959464', 800.0, NULL, 24, 7, 'Standard Dose: 800.0mg. DOSAGE AND ADMINISTRATION Acute Treatment of Herpes Zoster:800 mg every 4 hours orally, 5 times daily for 7 to 10 days. Genital Herpes: Treatment of Initial Genital Herpes:200 mg every 4 hours, 5 times daily for 10 days. Chronic Suppressive Therapy for Recurrent Disease:400 mg 2 times daily for up to 12 months, followed by re-evaluation. Alternative regimens have included doses ranging from 200 mg 3 times daily to 200 mg 5 times daily. The frequency and severity of episodes of untreated genital ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13477, 19315, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13478, 6317, 'a7b85288-9099-4c20-beb7-ee2be484c9b9', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Captopril should be taken one hour before meals. Dosage must be individualized. Hypertension Initiation of therapy requires consideration of recent antihypertensive drug treatment, the extent of blood pressure elevation, salt restriction, and other clinical circumstances. If possible, discontinue the patient’s previous antihypertensive drug regimen for one week before starting captopril. The initial dose of captopril is 25 mg b.i.d. or t.i.d. If satisfactory reduction o...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13479, 27997, '61bf535a-3ed5-4c50-b285-6dcee0624c2d', 360.0, NULL, 24, 7, 'Standard Dose: 360.0mg. DOSAGE AND ADMINISTRATION Patients controlled on diltiazem alone or in combination with other medications may be switched to diltiazem hydrochloride extended-release capsules at the nearest equivalent total daily dose. Higher doses of diltiazem hydrochloride extended-release capsules may be needed in some patients. Patients should be closely monitored. Subsequent titration to higher or lower doses may be necessary and should be initiated as clinically warranted. There is limited general clinical...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13480, 32301, '66ef201f-85eb-44f0-9ef0-1b618c6e0bff', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Schizophrenia Usual Dose — Oral olanzapine should be administered on a once-a-day schedule without regard to meals, generally beginning with 5 to 10 mg initially, with a target dose of 10 mg/day within several days. Further dosage adjustments, if indicated, should generally occur at intervals of not less than 1 week, since steady state for olanzapine would not be achieved for approximately 1 week in the typical patient. When dosage adjustments are necessary, dose ...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13481, 9925, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13482, 20288, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13483, 20810, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13484, 30233, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى مضاد للسعال ويدعم الجهاز التنفسي ويخفف من اعراض البرد', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13485, 30036, 'dcc29902-1fe6-4713-947e-335503959464', 800.0, NULL, 24, 7, 'Standard Dose: 800.0mg. DOSAGE AND ADMINISTRATION Acute Treatment of Herpes Zoster:800 mg every 4 hours orally, 5 times daily for 7 to 10 days. Genital Herpes: Treatment of Initial Genital Herpes:200 mg every 4 hours, 5 times daily for 10 days. Chronic Suppressive Therapy for Recurrent Disease:400 mg 2 times daily for up to 12 months, followed by re-evaluation. Alternative regimens have included doses ranging from 200 mg 3 times daily to 200 mg 5 times daily. The frequency and severity of episodes of untreated genital ...', 'General', 'DailyMed', 1);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13486, 7300, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13487, 28816, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13488, 18864, 'a3d17e8d-a8ce-4e1a-9ec2-13736af1d7b5', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. DOSAGE AND ADMINISTRATION Seasonal Allergic Rhinitis Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily, or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as th...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13489, 22369, 'N/A', 0.0, NULL, 24, 7, 'للتأخير للرجال', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13490, 4181, '0cc52ac5-77ec-4d66-a770-762a1a960914', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Recommended Dosage: Healing of Erosive Esophagitis: 20 mg once daily for 8 weeks. (2.1) Maintenance of Healed Erosive Esophagitis: 10 mg once daily for up to 6 months. (2.1) Relief of Heartburn Associated with Non-Erosive Gastroesophageal Reflux Disease: 10 mg once daily for 4 weeks. (2.1) Treatment of H. pylori Infection: see full prescribing information. (2.1) See also full prescribing information for the recommended dosage by indication for patients with renal or h...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13491, 23423, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13492, 19427, 'N/A', 0.0, NULL, 24, 7, 'مساج جل لالام العضلات', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13493, 20838, '27e95caf-7938-ef8e-e063-6394a90a6a1a', 30.0, NULL, 24, 7, 'Standard Dose: 30.0mg. 2 DOSAGE AND ADMINISTRATION • Non-valvular Atrial Fibrillation in Adult Patients: o For patients with CrCl >30 mL/min: 150 mg orally, twice daily ( 2.2) o For patients with CrCl 15 to 30 mL/min: 75 mg orally, twice daily ( 2.2) • Treatment of DVT and PE in Adult Patients : o For patients with CrCl > 30 mL/min: 150 mg orally, twice daily after 5-10 days of parenteral anticoagulation ( 2.2) • Reduction in the Risk of Recurrence of DVT and PE in Adult Patients: o For patients with CrCl > 30 mL/min:...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13494, 7510, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13495, 4000, 'N/A', 0.0, NULL, 24, 7, 'يطيل عمر الخلايا العصبية بالدماغ', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13496, 4575, 'N/A', 0.0, NULL, 24, 7, 'اسبرين', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13497, 16897, '24bc527e-c682-4c66-964e-c21d31eca5dd', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION In controlled clinical trials, single doses of 5, 10, or 20 mg of sumatriptan nasal spray administered into 1 nostril were effective for the acute treatment of migraine in adults. A greater proportion of patients had headache response following a 20-mg dose than following a 5- or 10-mg dose (see CLINICAL TRIALS). Individuals may vary in response to doses of Sumatriptan Nasal Spray. The choice of dose should therefore be made on an individual basis, weighing the possible...', 'General', 'DailyMed', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13498, 757, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13499, 26669, 'N/A', 0.0, NULL, 24, 7, 'لوشن للحماية من اشعة الشمس -- يحافظ علي الجلد موحد اللون', 'General', 'Local_Scraper', 0);
-INSERT OR IGNORE INTO dosage_guidelines (
-        id, med_id, dailymed_setid, min_dose, max_dose, frequency,
-        duration, instructions, condition, source, is_pediatric
-    ) VALUES (13500, 12322, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13001, 5097, '04212000-ec03-42a3-8b9e-3a28237f415e', 24.0, NULL, 24, 7, 'Standard Dose: 24.0mg. DOSAGE AND ADMINISTRATION FORADIL capsules should be administered only by the oral inhalation route and only using the AEROLIZER Inhaler (see the accompanying Medication Guide). FORADIL capsules should not be ingested (i.e., swallowed) orally . FORADIL capsules should always be stored in the blister, and only removed IMMEDIATELY BEFORE USE. Treatment of Asthma Long-acting beta2-adrenergic agonists (LABA), such as formoterol, the active ingredient in FORADIL AEROLIZER, increase the risk of asthma...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13002, 23813, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13003, 3783, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13004, 25003, 'b951455c-c235-4e23-9e21-08672d108726', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The recommended starting dose is 5 mg once a day. Depending on the patient''s response, the dosage can be decreased to 2.5 mg or increased to 10 mg once a day. These adjustments should occur generally at intervals of not less than 2 weeks. The recommended dosage range is 2.5 - 10 mg once daily. In clinical trials, doses above 10 mg daily showed an increased blood pressure response but a large increase in the rate of peripheral edema and other vasodilatory adverse events ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13005, 33330, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13006, 17042, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13007, 6811, 'N/A', 0.0, NULL, 24, 7, 'مضاد للتقلصات و للمغص الكلوي.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13008, 24885, '8609ed02-0b30-4c82-bab1-4d51d92ec224', 20.0, NULL, NULL, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Indication Adult Pediatric MDD (2.1) 20 mg/day in am (initial dose) 10 to 20 mg/day (initial dose) OCD (2.2) 20 mg/day in am (initial dose) 10 mg/day (initial dose) Bulimia Nervosa (2.3) 60 mg/day in am - Panic Disorder (2.4) 10 mg/day (initial dose) - Depressive Episodes Associated with Bipolar I Disorder (2.5) Oral in combination with olanzapine: 5 mg of oral olanzapine and 20 mg of fluoxetine once daily (initial dose) - Consider tapering the dose of fluoxetine for ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13009, 21245, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13010, 17098, '5e2dbda9-aceb-4bfb-9c3f-e7b6118f580c', 16.0, NULL, 24, 7, 'Standard Dose: 16.0mg. DOSAGE AND ADMINISTRATION Instructions for Use/Handling ondansetron orally disintegrating tablets:Do not attempt to push ondansetron orally disintegrating tablets through the foil backing. With dry hands, PEEL BACK the foil backing of 1 blister and GENTLY remove the tablet. IMMEDIATELY place the ondansetron orally disintegrating tablet on top of the tongue where it will dissolve in seconds, then swallow with saliva. Administration with liquid is not necessary. Prevention of Nausea and Vomiting A...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13011, 16264, 'cb18564f-663f-4da2-9dd9-700ea9bdd398', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 General Dosing InformationThe recommended dose of ZETIA is 10 mg once daily. ZETIA can be administered with or without food. 2.2 Concomitant Lipid-Lowering TherapyZETIA may be administered with a statin (in patients with primary hyperlipidemia) or with fenofibrate (in patients with mixed hyperlipidemia) for incremental effect. For convenience, the daily dose of ZETIA may be taken at the same time as the statin or fenofibrate, according to the dosing recommendation...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13012, 18050, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13013, 11793, '3b4ab1cf-8642-44f5-b3a2-3f1f7c620ce9', 1000.0, 4000.0, 24, 7, 'Standard Dose: 1000.0mg. 2 DOSAGE AND ADMINISTRATION •Acetaminophen injection may be given as a single or repeated dose. (2.1) •Acetaminophen injection should be administered only as a 15-minute intravenous infusion. (2.4) Adults and Adolescents Weighing 50 kg and Over: •1000 mg every 6 hours or 650 mg every 4 hours to a maximum of 4000 mg per day. Minimum dosing interval of 4 hours. (2.2) Adults and Adolescents Weighing Under 50 kg: •15 mg/kg every 6 hours or 12.5 mg/kg every 4 hours to a maximum of 75 mg/kg per day. M...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13014, 20611, '78987a51-82f7-4ca6-80ad-fa22d1f3e11a', 200.0, NULL, NULL, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Adults and children 12 years of age and older: One to 2 tablets (200 mg to 400 mg) every four hours, not to exceed 2400 mg (12 tablets) in 24 hours. PATIENTS SHOULD BE ADVISED TO KEEP THESE AND ALL DRUGS OUT OF THE REACH OF CHILDREN AND TO SEEK PROFESSIONAL ASSISTANCE OR CONTACT A POISON CONTROL CENTER IMMEDIATELY IN CASE OF ACCIDENTAL OVERDOSE....', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13015, 8200, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13016, 15143, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13017, 22323, 'N/A', 0.0, NULL, 24, 7, 'علاج تساقط الشعر', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13018, 1168, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13019, 13127, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13020, 7214, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13021, 20047, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13022, 943, '217e52b5-3a7b-4bbe-af3c-b18de7d426c3', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION InitialDose RecommendedDose MaximumDose Schizophrenia – adults (2.1) 10-15 mg/day 10-15 mg/day 30 mg/day Schizophrenia – adolescents (2.1) 2 mg/day 10 mg/day 30 mg/day Bipolar mania – adults: monotherapy or as an adjunct to lithium or valproate (2.2) 15 mg/day 15 mg/day 30 mg/day Bipolar mania – pediatric patients: monotherapy or as an adjunct to lithium or valproate (2.2) 2 mg/day 10 mg/day 30 mg/day As an adjunct to antidepressants for the treatment of major depress...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13023, 868, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13024, 30374, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13025, 11469, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13026, 21857, '32ebf046-73e4-b11b-e063-6294a90a5bf4', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. 2 DOSAGE AND ADMINISTRATION ACS or History of MI Initiate treatment with 180 mg oral loading dose of ticagrelor tablets. Then administer 90 mg twice daily during the first year. After one year, administer 60 mg twice daily. ( 2.2) Patients with CAD and No Prior Stroke or MI Administer 60 mg ticagrelor tablets twice daily. ( 2.3) Acute Ischemic Stroke Initiate treatment with a 180 mg loading dose of ticagrelor tablets then continue with 90 mg twice daily for up to 30 days. ( 2.4) Use ticagrelor t...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13027, 12296, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13028, 23792, 'N/A', 0.0, NULL, 24, 7, 'اسبراي مساج للشد العضلي -- تقليل الالام العضلية -- استرخاء العضلات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13029, 11122, 'N/A', 0.0, NULL, 24, 7, 'مرطب للعين', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13030, 25099, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13031, 21000, '13c9c37a-0c3d-450a-a61e-d2796818b18f', 0.0, NULL, 8, 7, '2 DOSAGE AND ADMINISTRATION • Isoflurane USP should be administered only by persons trained in the administration of general anesthesia. Isoflurane USP should only be delivered using a vaporizer specifically designed and designated for use with isoflurane. ( 2) • The administration of general anesthesia must be individualized and titrated based on the patient’s age and clinical status. ( 2) 2.1 Important Dosage and Administration Information Isoflurane should be administered only by persons trai', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13032, 33871, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13033, 16977, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13034, 5564, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13035, 2691, 'a26d709b-b294-4b02-9a88-7e840f099a33', 50.0, NULL, NULL, 7, 'Standard Dose: 50.0mg. DOSAGE AND ADMINISTRATION Sodium Bicarbonate Injection, USP is administered by the intravenous route. In cardiac arrest, a rapid intravenous dose of one to two 50 mL vials (44.6 to 100 mEq) may be given initially and continued at a rate of 50 mL (44.6 to 50 mEq) every 5 to 10 minutes if necessary (as indicated by arterial pH and blood gas monitoring) to reverse the acidosis. Caution should be observed in emergencies where very rapid infusion of large quantities of bicarbonate is indicated. Bicar...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13036, 343, 'N/A', 0.0, NULL, 24, 7, 'غسول للانف والمهبل', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13037, 17613, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13038, 9142, 'f168b0a9-4e9a-47f7-b391-edcea871956e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION Regardless of the indication, the starting dose in patients with moderate hepatic impairment should be 5 mg twice daily, followed by adjustment based on therapeutic response and tolerability. Patients with mild hepatic insufficiency do not require dosage reductions. The use of pilocarpine in patients with severe hepatic insufficiency is not recommended. If needed, refer to the Hepatic Insufficiency subsection of the Precautions section of this label for definitions of m...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13039, 27558, 'dc7ba02c-bdbb-5136-e053-2995a90ac545', 40.0, 100.0, 24, 7, 'Standard Dose: 40.0mg. 2 DOSAGE AND ADMINISTRATION Initial, Target and Maximum Daily Dose ( 2.1) (Acute and Maintenance/Extended Treatment) Body Weight Initial Daily Dose Target Total Daily Dose Maximum Total Daily Dose Children and adolescents up to 70 kg 0.5 mg/kg 1.2 mg/kg 1.4 mg/kg Children and adolescents over 70 kg and adults 40 mg 80 mg 100 mg Dosing adjustment – Hepatic Impairment, Strong CYP2D6 Inhibitor, and in patients known to be CYP2D6 poor metabolizers (PMs). ( 2.4, 12.3) 2.1 Acute Treatment Dosing of ch...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13040, 19665, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13041, 9664, 'N/A', 0.0, NULL, 24, 7, 'استرخاء العضلات -- مخدر عام للجسم -- مضاد للحساسية', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13042, 4980, 'e98f6d83-5172-97a1-ee41-5d7d1d8ba2fd', 2.5, NULL, 24, 7, 'Standard Dose: 2.5mg. 2 DOSAGE AND ADMINISTRATION CAD or PAD: 2.5 mg orally twice daily with or without food, in combination with aspirin (75 to 100 mg) once daily (2.1) 2.1 Recommended Dosage in Adults Table 1: Recommended Dosage in Adults Indication Renal Considerations* Dosage Food/Timing† Reduction of Risk of Major Cardiovascular Events (CV Death, MI, and Stroke) in CAD No dose adjustment needed based on CrCl 2.5 mg twice daily, plus aspirin (75 to 100 mg) once daily Take with or without food Reduction of Risk of...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13043, 23756, '51a6d28c-2c9c-4e6b-8a4c-29aac6745256', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Adults and children over 10: Usual dose is one 100 mg or 200 mg capsule t.i.d. as required. If necessary, up to 600 mg daily may be given....', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13044, 2239, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13045, 6532, 'N/A', 0.0, NULL, 24, 7, 'مضاد للإسهال', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13046, 27464, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13047, 630, 'de8990a6-f3b6-478f-acbe-eda961b6da4b', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION Amoxicillin capsules may be given without regard to meals. However, food effect studies have not been performed with the 500 mg formulation. Neonates and infants aged ≤ 12 weeks (≤ 3 months): Due to incompletely developed renal function affecting elimination of amoxicillin in this age group, the recommended upper dose of amoxicillin is 30 mg/kg/day divided q12h.Adults and pediatric patients >3 months: * Dosing for infections caused by less susceptible organisms should f...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13048, 8222, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13049, 32600, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13050, 24852, '525136c9-7758-437b-b57b-94b905786825', 30.0, NULL, NULL, 7, 'Standard Dose: 30.0mg. DOSAGE AND ADMINISTRATION Sodium citrate and citric acid oral solution should be taken diluted in water, followed by additional water, if desired. SHAKE WELL BEFORE USING. For Systemic Alkalization Usual Adult Dose 2 to 6 teaspoonfuls (10 to 30 mL), diluted in 1 to 3 ounces of water, after meals and at bedtime, or as directed by a physician. Usual Pediatric Dose 1 to 3 teaspoonfuls (5 to 15 mL), diluted in 1 to 3 ounces of water, after meals and at bedtime, or as directed by a physician. For chi...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13051, 25066, 'N/A', 0.0, NULL, 24, 7, 'للعناية وترطيب الجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13052, 20687, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13053, 19554, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13054, 32320, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتحسين الذاكرة وزيادة التركيز وتحسين الجهاز المناعى والعصبى', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13055, 27203, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13056, 18402, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13057, 15797, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13058, 27128, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13059, 17984, '0a639bb3-2883-47f7-b117-737df8bed33c', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Special Precautions Fentanyl transdermal system contains a high concentration of a potent Schedule II opioid agonist, fentanyl. Schedule II opioid substances which include fentanyl, hydromorphone, methadone, morphine, oxycodone, and oxymorphone have the highest potential for abuse and associated risk of fatal overdose due to respiratory depression. Fentanyl can be abused and is subject to criminal diversion. The high content of fentanyl in fentanyl transdermal system ma...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13060, 8999, 'N/A', 0.0, NULL, 24, 7, 'لتعزيز ودعم صحة البروستاتا لدى الرجال.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13061, 21381, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13062, 7003, 'cb1e9df4-dd74-4073-9d78-bb55593dd000', 0.0, NULL, 24, 7, '2 DOSAGE AND ADMINISTRATION •The recommended starting dose is 10 mg administered orally once daily without regard to meals (2.1). •The dose should then be increased to 20 mg/day, as tolerated (2.1). •Consider 5 mg/day for patients who do not tolerate higher doses (2.1). •TRINTELLIX can be discontinued abruptly. However, it is recommended that doses of 15 mg/day or 20 mg/day be reduced to 10 mg/day for one week prior to full discontinuation if possible (2.3). •The maximum recommended dose is 10 m', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13063, 33888, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13064, 11187, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13065, 5099, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13066, 26795, 'N/A', 0.0, NULL, 24, 7, 'عناية بالجلد.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13067, 9221, 'b43f6b44-9de3-4efb-a467-487aee28f6a0', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Omeprazole delayed-release capsules should be taken before eating. In the clinical trials, antacids were used concomitantly with omeprazole delayed-release capsules. Patients should be informed that the omeprazole delayed-release capsule should be swallowed whole. For patients unable to swallow an intact capsule, alternative administration options are available [ See Dosage and Administration (2.8)]. Indication Omeprazole Dose Frequency Short-Term Treatment of Active ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13068, 6212, 'fbc1ff07-701e-4b7f-93a3-f4309e238e5a', 0.0, NULL, NULL, 7, 'DOSAGE AND ADMINISTRATION Table 1: Summary of Pharmacodynamic Properties of Insulin Products (Pooled Cross-Study Comparison) Insulin Products Dose, U/kg Time of Peak Activity, Hours After Dosing Percent of Total Activity Occurring in the First 4 Hours Humalog 0.3 2.4(0.8 – 4.3) 70%(49 – 89%) Humulin R 0.32(0.26 – 0.37) 4.4(4.0 – 5.5) 54%(38 – 65%) Humalog Mix75/25 0.3 2.6(1.0 – 6.5) 35%(21 – 56%) Humulin 70/30 0.3 4.4(1.5 – 16) 32%(14 – 60%) Humalog Mix50/50 0.3 2.3(0.8 – 4.8) 45%(27 – 69%) Humu', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13069, 20299, '6f41228b-974a-443b-a313-2fbb3d845915', 250.0, 400.0, 12, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Adults Ciprofloxacin tablets should be administered orally to adults as described in the Dosage Guidelines table. The determination of dosage for any particular patient must take into consideration the severity and nature of the infection, the susceptibility of the causative organism, the integrity of the patient''s host-defense mechanisms, and the status of renal function and hepatic function. The duration of treatment depends upon the severity of infection. The usual d...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13070, 23310, 'e59d3b87-af2e-4262-b89d-e95aa79f11b7', 9.0, NULL, 6, 7, 'Standard Dose: 9.0mg. DOSAGE AND ADMINISTRATION For oral administration DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE AND THE RESPONSE OF THE PATIENT. The initial dosage varies from 0.75 to 9 mg a day depending on the disease being treated. In less severe diseases doses lower than 0.75 mg may suffice, while in severe diseases doses higher than 9 mg may be required. The initial dosage should be maintained or adjusted until the patient''s response is satisfactory. If satisfactor...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13071, 24402, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13072, 17486, '0a3b8e0e-efb0-465b-84cb-d120b3096ebd', 1.0, NULL, NULL, 7, 'Standard Dose: 1.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Important Administration Instructions Administer Calcium Chloride Injection by slow intravenous infusion in a central or deep vein in adults and pediatric patients (with or without renal impairment); do not administer by bolus [see Warnings and Precautions (5.2, 5.4)]. The maximum recommended infusion rate is 1 mL/minute (100 mg/minute). Additional important administration instructions regarding Calcium Chloride Injection are as follows: • Do not use intramuscular...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13073, 22076, 'A1DA5A84-7529-4F62-867F-808A6CAB40B8', 1200.0, NULL, NULL, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION The recommended dose for adults is 1200 mg administered in two divided doses 30 minutes before the morning and evening meal (seeCLINICAL PHARMACOLOGY)....', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13074, 7031, 'EE2B4869-CD13-489B-B12F-1CE4FE081157', 500.0, NULL, NULL, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION The recommended initial dose of Nascobal Nasal Spray is one spray (500 mcg) administered in ONE nostril once weekly. Nascobal Nasal Spray should be administered at least one hour before or one hour after ingestion of hot foods or liquids. Periodic monitoring of serum B12 levels should be obtained to establish adequacy of therapy.Before the first dose and administration, the pump must be primed. Remove the clear plastic cover and the plastic safety clip from the pump. To...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13075, 3291, '26fcf4be-4785-4922-a37b-4546570a132c', 300.0, NULL, 6, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATIONIf significant diarrhea occurs during therapy, this antibiotic should be discontinued (see WARNING box). Adults: Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours. Pediatric Patients: Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses. To avoid the possibility of esophageal irrit...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13076, 21431, 'aaeaef94-f3f5-4367-8ea2-b181d7be2da8', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. 2 DOSAGE AND ADMINISTRATION KISQALI tablets are taken orally with or without food in combination with an aromatase inhibitor or fulvestrant. (2) Early Breast Cancer Recommended starting dose: 400 mg orally (two 200 mg tablets) taken once daily with or without food for 21 consecutive days followed by 7 days off treatment. (2.1) Advanced or Metastatic Breast Cancer Recommended starting dose: 600 mg orally (three 200 mg tablets) taken once daily with or without food for 21 consecutive days followed...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13077, 316, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13078, 29648, '32ebf046-73e4-b11b-e063-6294a90a5bf4', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. 2 DOSAGE AND ADMINISTRATION ACS or History of MI Initiate treatment with 180 mg oral loading dose of ticagrelor tablets. Then administer 90 mg twice daily during the first year. After one year, administer 60 mg twice daily. ( 2.2) Patients with CAD and No Prior Stroke or MI Administer 60 mg ticagrelor tablets twice daily. ( 2.3) Acute Ischemic Stroke Initiate treatment with a 180 mg loading dose of ticagrelor tablets then continue with 90 mg twice daily for up to 30 days. ( 2.4) Use ticagrelor t...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13079, 8586, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13080, 11368, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13081, 24986, 'a5b3455a-e842-7d4b-e053-2995a90adee3', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION: One hydroxychloroquine sulfate tablet contains 200 mg of hydroxychloroquine sulfate, which is equivalent to 155 mg base. Take hydroxychloroquine sulfate tablets with a meal or a glass of milk. Malaria Prophylaxis Adults: 400 mg (310 mg base) once weekly on the same day of each week starting 2 weeks prior to exposure, and continued for 4 weeks after leaving the endemic area. Weight-based dosing in adults and pediatric patients: 6.5 mg/kg (5 mg/kg base), not to exceed 40...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13082, 30344, 'N/A', 0.0, NULL, 24, 7, 'ماسك للشعر غنى بالفيتامينات لترطيب وترميم الشعر ومنع تساقط الشعر وعلاج الهيشان والتقصيف', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13083, 9285, 'N/A', 0.0, NULL, 24, 7, 'يعمل على تقليل انتفاخ قرنية العين في بعض امراض العين', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13084, 27, 'N/A', 0.0, NULL, 24, 7, 'خافض حرارة ومسكن', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13085, 22354, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13086, 2181, 'fe8b7729-d870-4e61-a5a4-91e28bdd5a94', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Cefaclor is administered orally. Adults –The usual adult dosage is 250 mg every 8 hours. For more severe infections (such as pneumonia) or those caused by less susceptible organisms, doses may be doubled. Pediatric patients–The usual recommended daily dosage for children is 20 mg/kg/day in divided doses every 8 hours. In more serious infections, otitis media, and infections caused by less susceptible organisms, 40 mg/kg/day are recommended, with a maximum dosage of 1 g/...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13087, 28009, 'e122435e-cd0b-4c90-940a-b7a0d090d866', 300.0, NULL, 24, 7, 'Standard Dose: 300.0mg. 2 DOSAGE AND ADMINISTRATION Recommended dose for the treatment of HIV or chronic hepatitis B: 300 mg once daily taken orally without regard to food. (2.1) Dose recommended in renal impairment:Creatinine clearance 30–49 mL/min: 300 mg every 48 hours. (2.2)Creatinine clearance 10–29 mL/min: 300 mg every 72 to 96 hours. (2.2)Hemodialysis: 300 mg every 7 days or after approximately 12 hours of dialysis. (2.2) 2.1 Recommended Dose For the treatment of HIV-1 or chronic hepatitis B: The dose of VIREAD ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13088, 31891, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13089, 13887, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13090, 21156, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13091, 20709, '4902b757-1387-4dc4-a685-ad5af29fe8c2', 75.0, 375.0, 24, 7, 'Standard Dose: 75.0mg. DOSAGE AND ADMINISTRATION Initial Treatment The recommended starting dose for venlafaxine tablets, USP is 75 mg/day, administered in two or three divided doses, taken with food. Depending on tolerability and the need for further clinical effect, the dose may be increased to 150 mg/day. If needed, the dose should be further increased up to 225 mg/day. When increasing the dose, increments of up to 75 mg/day should be made at intervals of no less than 4 days. In outpatient settings there was no evi...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13092, 14419, '68165d90-953c-e2f5-e053-2a91aa0ada25', 200.0, 400.0, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Itraconazole capsules should be taken with a full meal to ensure maximal absorption. Itraconazole capsules must be swallowed whole. Itraconazole capsules are a different preparation than itraconazole oral solution and should not be used interchangeably. Treatment of Blastomycosis and Histoplasmosis: The recommended dose is 200 mg once daily (2 capsules). If there is no obvious improvement, or there is evidence of progressive fungal disease, the dose should be increased ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13093, 5295, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13094, 32246, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13095, 14526, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13096, 626, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13097, 11263, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13098, 31437, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13099, 12208, 'fc61fd7e-63ca-4714-851f-31b2a045903d', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Theophylline (Anhydrous) Extended-Release Tablets 200 or 300 mg Tablets can be taken once a day in the morning or evening. It is recommended that Theophylline (Anhydrous) Extended-Release Tablets be taken with meals. Patients should be advised that if they choose to take Theophylline (Anhydrous) Extended-Release Tablets with food it should be taken consistently with food and if they take it in a fasted condition it should routinely be taken fasted. It is important that ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13100, 7362, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13101, 20223, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13102, 26178, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13103, 10749, 'da10031f-9da8-49a2-a019-5ce80c4b7ede', 160.0, NULL, 24, 7, 'Standard Dose: 160.0mg. DOSAGE AND ADMINISTRATION DOSAGE MUST BE ADJUSTED TO INDIVIDUAL PATIENT NEEDS. (See CLINICAL PHARMACOLOGY .) Adults-Oral The only oral dose clearly shown to be effective is 160 mg per day (in 4 equally divided doses). Since this dose is associated with a significant incidence of side effects, it is prudent to begin with 80 mg per day (in 4 equally divided doses). Depending upon the patient''s response during the first week of therapy, the dose should be increased to 160 mg per day unless side eff...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13104, 11244, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13105, 21792, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13106, 27970, '11d5c110-c48c-438f-9c7d-5adf99938534', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION 200 mg administered once daily orally or as an intravenous (IV) infusion over 1 hour for six (6) days in adult and pediatric patients 12 years of age and older. (2.1) 2.1 Recommended Dosage The recommended dosage of SIVEXTRO is 200 mg administered once daily for six (6) days either orally (with or without food) or as an intravenous (IV) infusion in patients 12 years of age or older. The recommended dosage and administration of SIVEXTRO are described in Table 1. Table ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13107, 24308, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13108, 29753, 'A0EEEC15-C76D-41DF-80F3-5572C9857DA6', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The initial dosage of prednisolone tablets may vary from 5 mg to 60 mg per day depending on the specific disease entity being treated. In situations of less severity, lower doses will generally suffice, while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, prednisolone should be dis...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13109, 19041, 'N/A', 0.0, NULL, 24, 7, 'كرم شرجى مضاد للالتهابات ومسكن للالام يستخدم فى حالة البواسير', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13110, 4927, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13111, 16807, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13112, 13047, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13113, 32160, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتحسين الجهاز العصبى', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13114, 32020, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى علاج حالات فقر الدم ودعم الجهاز العصبى والمناعى وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13115, 5083, '64ae46f5-889c-4c13-ab07-92bebe8d5ef2', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. DOSAGE AND ADMINISTRATION: When estrogen is prescribed for a postmenopausal woman with a uterus, a progestin should also be initiated to reduce the risk of endometrial cancer. A woman without a uterus does not need progestin. Use of estrogen, alone or in combination with a progestin, should be with the lowest effective dose and for the shortest duration consistent with treatment goals and risks for the individual woman. Patients should be reevaluated periodically as clinically appropriate (e.g.,...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13116, 25554, '7d74dfa6-0468-43ad-ad7f-dd90d9ae7706', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The dose of AVELOX is 400 mg (orally or as an intravenous infusion) once every 24 hours. The duration of therapy depends on the type of infection as described below. For Complicated Intra-Abdominal Infections, therapy should usually be initiated with the intravenous formulation. When switching from intravenous to oral dosage administration, no dosage adjustment is necessary. Patients whose therapy is started with AVELOX I.V. may be switched to AVELOX Tablets when clinic...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13117, 17346, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13118, 19656, 'A51DC88F-C298-402E-B204-618609A4721C', 320.0, NULL, 24, 7, 'Standard Dose: 320.0mg. DOSAGE AND ADMINISTRATION FACTIVE can be taken with or without food and should be swallowed whole with a liberal amount of liquid. The recommended dose of FACTIVE is 320 mg daily, according to the following table (Table 4).The clinical decision regarding the use of a 5 or 7 day regimen should be guided by results of the initial sputum culture.Table 4. Recommended Dosage Regimen of FACTIVE INDICATIONDOSE / DURATION *MDRSP: multi-drug resistant Streptococcus pneumoniae, includes isolates previousl...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13119, 27849, '9bc7f6c2-4b16-449b-b383-76106540206c', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Cytarabine Injection is not active orally. The schedule and method of administration varies with the program of therapy to be used. Cytarabine Injection may be given by intravenous infusion or injection, subcutaneously, or intrathecally (preservative free preparation only). Thrombophlebitis has occurred at the site of drug injection or infusion in some patients, and rarely patients have noted pain and inflammation at subcutaneous injection sites. In most instances, howe...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13120, 20924, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13121, 22011, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13122, 18818, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13123, 28978, 'f776421b-bd46-4664-b9ff-533d805e1277', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. 2 DOSAGE AND ADMINISTRATION THE INTENT OF THIS PHARMACY BULK PACKAGE IS FOR THE PREPARATION OF SOLUTIONS FOR INTRAVENOUS INFUSION ONLY. BEFORE ADMINISTRATION, THIS PHARMACY BULK PACKAGE REQUIRES RECONSTITUTION TO A CONCENTRATION OF 100 mg/mL AND FURTHER DILUTION IN 50 mL OF A COMPATIBLE SOLUTION. THIS IS A PHARMACY BULK PACKAGE – NOT FOR DIRECT INJECTION For intravenous use only over approximately 30 minutes (2) THIS IS A PHARMACY BULK PACKAGE - NOT FOR DIRECT INJECTION. Cefepime for Injection, ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13124, 12933, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13125, 27094, 'e433dc68-6b2a-4c48-beae-4ec946f1ff1e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION 5 mg tablet taken once daily, and if well tolerated may be increased to 10 mg once daily (2.1) Do not exceed 5 mg tablet once daily in patients with: severe renal impairment [Creatinine Clearance] (CLcr <30 ml/min) (2.1) moderate hepatic impairment (Child-Pugh B) (2.2) concomitant use of potent CYP3A4 inhibitors (2.3) Use of VESIcare is not recommended in patients with severe hepatic impairment (Child-Pugh C) (2.2) 2.1 Dosing Information The recommended dose of VESIca...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13126, 5181, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي موضعي للجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13127, 24393, 'N/A', 0.0, NULL, 24, 7, 'مهديء للسعال.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13128, 25038, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13129, 5238, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13130, 32129, '57c62928-63d8-4505-9b9e-c085a3a12c95', 10.0, 60.0, 24, 7, 'Standard Dose: 10.0mg. DOSAGE AND ADMINISTRATION Hypertension The usual initial dosage of timolol maleate is 10 mg twice a day, whether used alone or added to diuretic therapy. Dosage may be increased or decreased depending on heart rate and blood pressure response. The usual total maintenance dosage is 20 to 40 mg per day. Increases in dosage to a maximum of 60 mg per day divided into two doses may be necessary. There should be an interval of at least 7 days between increases in dosages. Timolol maleate tablets may b...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13131, 10756, '2bd238d4-4657-4341-9c28-1b468b8f3bf8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Prior to initiation of caffeine citrate, baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta. The recommended loading dose and maintenance doses of caffeine citrate follow. Dose of caffeine ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13132, 22662, 'N/A', 0.0, NULL, 24, 7, '1- بديل فعال وآمن لحقن فيتامين ب12.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13133, 30316, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13134, 8816, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13135, 16792, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13136, 17319, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13137, 15023, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13138, 10597, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13139, 33036, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13140, 31479, 'N/A', 0.0, NULL, 24, 7, 'يساعد علي دعم أداء الجهاز العصبي وعملية التمثيل الغذائي للجلوكوز ومضاد للاكسدة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13141, 25713, 'a3d17e8d-a8ce-4e1a-9ec2-13736af1d7b5', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. DOSAGE AND ADMINISTRATION Seasonal Allergic Rhinitis Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily, or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as th...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13142, 31938, 'A36432F9-BDDD-4B22-BE6D-ED6AC2B3846A', 600.0, NULL, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION Gabapentin capsules is given orally with or without food.If gabapentin dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber). Postherpetic Neuralgia In adults with postherpetic neuralgia, gabapentin therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TI...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13143, 26545, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13144, 2934, '0ab861c2-d5ca-4f92-854c-6477971a1b38', 801.0, NULL, 24, 7, 'Standard Dose: 801.0mg. 2 DOSAGE AND ADMINISTRATION Recommended dosage: 801 mg (three capsules) three times daily taken with food. (2) Upon initiation of treatment, the daily dosage should be titrated to the full dosage of nine capsules per day over a 14-day period as follows: Treatment days Dosage Days 1 through 7 1 capsule three times a day with meals Days 8 through 14 2 capsules three times a day with meals Days 15 onward 3 capsules three times a day with meals Consider temporary dosage reduction, treatment interrup...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13145, 25952, 'N/A', 0.0, NULL, 24, 7, 'كريم مرطب للجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13146, 24806, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13147, 26393, 'd1dd3991-68e2-4970-8701-b3b89aed8418', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION Avoid using the intravenous route. Use of this product intravenously will result in almost all of the vitamin being lost in the urine. Pernicious Anemia: Parenteral vitamin B12 is the recommended treatment and will be required for the remainder of the patient''s life. The oral form is not dependable. A dose of 100 mcg daily for 6 or 7 days should be administered by intramuscular or deep subcutaneous injection. If there is clinical improvement and if a reticulocyte respon...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13148, 19543, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13149, 23962, '698AAA0A-9FD3-40C2-EC93-0DC2170A75BA', 0.0, NULL, NULL, 7, 'Dosage and Administration A small amount of ointment placed in the lower conjunctival sac every three hours, or more frequently if deemed advisable by the prescribing physician. Administration should be continued day and night the first 48 hours, after which the interval between applications may be increased. Treatment should be continued for at least 48 hours after the eye appears normal.', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13150, 13931, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13151, 4933, '5e46b7e9-e640-4db5-882f-73a5dd2482d2', 0.0, NULL, NULL, 7, 'DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of Flector® Patch and other treatment options before deciding to use Flector® Patch. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS ). The recommended dose of Flector® Patch is one (1) patch to the most painful area twice a day. Flector® patch should not be applied to damaged or non-intact skin. Flector® patch should not be worn when bathing or s', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13152, 15134, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13153, 9217, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى يعمل على زيادة التركيز وامداد الجسم بالطاقة وتحسين ضربات القلب ومستوى الكوليسترول بالدم', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13154, 2236, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13155, 18079, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13156, 15150, '00a642fd-fbbc-41d8-ac62-83444f0b8284', 0.0, NULL, NULL, 7, 'DIRECTIONS: USE AS DIRECTED. STOP USE IF REDNESS, IRRITATION, ITCHING AND/OR DARKENING OCCURS.', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13157, 17209, 'd7870c45-5a8b-8369-e053-2a95a90ae1f3', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION Administration (by indications): • Asthma (2.1): Once daily in the evening for patients 15 years and older. • Acute prevention of EIB (2.2): One tablet at least 2 hours before exercise for patients 15 years of age and older. • Seasonal allergic rhinitis (2.3): Once daily for patients 15 years and older. • Perennial allergic rhinitis (2.3): Once daily for patients 15 years and older. Dosage (by age) (2): • 15 years and older: one 10 mg tablet. Patients with both asthma...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13158, 29078, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13159, 22410, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13160, 22438, 'N/A', 0.0, NULL, 24, 7, 'خافض للحرارة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13161, 21728, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13162, 20117, 'N/A', 0.0, NULL, 24, 7, 'حبوب منع حمل عن طريق الفم', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13163, 2281, '8b55504e-38c5-fa0c-7766-ee68d38c041b', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Dosage The usual adult dosage is 1 gram administered intravenously or intramuscularly every 8 to 12 hours. The dosage and route should be determined by the susceptibility of the causative organisms, the severity of infection, and the condition and renal function of the patient. The guidelines for dosage of FORTAZ are listed in Table 3 . The following dosage schedule is recommended. Table 3. Recommended Dosage Schedule Dose Frequency Adults Usual recommended dosage 1 gra...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13164, 9910, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13165, 27690, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13166, 22590, 'ea79f802-e9ac-480b-91e6-1e3900b11803', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION NEXIUM is supplied as delayed-release capsules for oral administration or in packets for preparation of delayed-release oral suspensions. The recommended dosages are outlined in the table below. NEXIUM should be taken at least one hour before meals. The duration of proton pump inhibitor administration should be based on available safety and efficacy data specific to the defined indication and dosing frequency, as described in the Prescribing Information, and individua...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13167, 28869, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13168, 3384, '7d74dfa6-0468-43ad-ad7f-dd90d9ae7706', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The dose of AVELOX is 400 mg (orally or as an intravenous infusion) once every 24 hours. The duration of therapy depends on the type of infection as described below. For Complicated Intra-Abdominal Infections, therapy should usually be initiated with the intravenous formulation. When switching from intravenous to oral dosage administration, no dosage adjustment is necessary. Patients whose therapy is started with AVELOX I.V. may be switched to AVELOX Tablets when clinic...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13169, 26670, 'N/A', 0.0, NULL, 24, 7, 'كريم للتفتيح الجلدي -- حالات الحجة الجلدية والالتهاب -- ترطيب الجلد -- معالجة اثار حروق الشمس', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13170, 17982, '0a639bb3-2883-47f7-b117-737df8bed33c', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Special Precautions Fentanyl transdermal system contains a high concentration of a potent Schedule II opioid agonist, fentanyl. Schedule II opioid substances which include fentanyl, hydromorphone, methadone, morphine, oxycodone, and oxymorphone have the highest potential for abuse and associated risk of fatal overdose due to respiratory depression. Fentanyl can be abused and is subject to criminal diversion. The high content of fentanyl in fentanyl transdermal system ma...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13171, 15829, 'N/A', 0.0, NULL, 24, 7, 'فيتامينات متعددة -- مصدر للطاقة -- مصدر للزنك والكالسيوم -- مصدر للحديد -- مصدر لفيتامين ب -- مقوي للاعصاب -- يحسن التركيز والانتباه و الذاكرة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13172, 77, 'a81f2db7-78b0-45fd-93cc-b7fe43bcb45a', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Adapalene Gel should be applied once a day to affected areas after washing in the evening before retiring. A thin film of the gel should be applied, avoiding eyes, lips, and mucous membranes. During the early weeks of therapy, an apparent exacerbation of acne may occur. This is due to the action of the medication on previously unseen lesions and should not be considered a reason to discontinue therapy. Therapeutic results should be noticed after eight to twelve weeks of', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13173, 24938, 'f776421b-bd46-4664-b9ff-533d805e1277', 100.0, NULL, 24, 7, 'Standard Dose: 100.0mg. 2 DOSAGE AND ADMINISTRATION THE INTENT OF THIS PHARMACY BULK PACKAGE IS FOR THE PREPARATION OF SOLUTIONS FOR INTRAVENOUS INFUSION ONLY. BEFORE ADMINISTRATION, THIS PHARMACY BULK PACKAGE REQUIRES RECONSTITUTION TO A CONCENTRATION OF 100 mg/mL AND FURTHER DILUTION IN 50 mL OF A COMPATIBLE SOLUTION. THIS IS A PHARMACY BULK PACKAGE – NOT FOR DIRECT INJECTION For intravenous use only over approximately 30 minutes (2) THIS IS A PHARMACY BULK PACKAGE - NOT FOR DIRECT INJECTION. Cefepime for Injection, ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13174, 7092, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13175, 20317, 'N/A', 0.0, NULL, 24, 7, 'مرضى نزيف الدم (هيموفليا)', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13176, 10214, 'N/A', 0.0, NULL, 24, 7, 'العناية بالشعر', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13177, 14093, '13c9c37a-0c3d-450a-a61e-d2796818b18f', 0.0, NULL, 8, 7, '2 DOSAGE AND ADMINISTRATION • Isoflurane USP should be administered only by persons trained in the administration of general anesthesia. Isoflurane USP should only be delivered using a vaporizer specifically designed and designated for use with isoflurane. ( 2) • The administration of general anesthesia must be individualized and titrated based on the patient’s age and clinical status. ( 2) 2.1 Important Dosage and Administration Information Isoflurane should be administered only by persons trai', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13178, 3342, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13179, 7050, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13180, 8083, 'N/A', 0.0, NULL, 24, 7, 'يستخدم لتحفيز الولادة.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13181, 9759, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج حالات الانيميا ودعم الجهاز العصبى وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13182, 24136, 'dfe327e8-f6ab-41e5-bdef-d520118cd83a', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION •The recommended dosage of TRADJENTA is 5 mg orally once daily (2.1) •TRADJENTA can be taken with or without food (2.1) 2.1 Recommended Dosage and Administration The recommended dosage of TRADJENTA is 5 mg taken orally once daily, with or without food....', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13183, 20682, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13184, 7118, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13185, 19572, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13186, 2941, 'f2073122-5138-41ba-b791-a9b088bb98b7', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Single 5 mg dose; may repeat after 2 hours if needed; not to exceed 10 mg in any 24-hour period; benefit of a second dose not established (2) 2.1 Acute Treatment of Migraine Attacks Administer one dose of ZOMIG Nasal Spray 5 mg for the treatment of acute migraine. If the headache returns, the dose may be repeated after 2 hours. The effectiveness of a second dose has not been established in placebo-controlled trials. The maximum daily dose should not exceed 10 mg in an...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13187, 3683, 'd42b0f1d-8930-4b69-9624-8d6c500caba8', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. DOSAGE AND ADMINISTRATION Chlorhexidine gluconate oral rinse therapy should be initiated directly following a dental prophylaxis. Patients using chlorhexidine gluconate oral rinse should be reevaluated and given a thorough prophylaxis at intervals no longer than six months. Recommended use is twice daily oral rinsing for 30 seconds, morning and evening after tooth brushing. Usual dosage is 15 ml (marked in cap) of undiluted chlorhexidine gluconate oral rinse. Patients should be instructed to not...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13188, 11549, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13189, 11914, '2bf8d2fb-80c8-401d-8e9b-d58463f5e954', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION Cisplatin Injection is administered by slow intravenous infusion. CISPLATIN INJECTION SHOULD NOT BE GIVEN BY RAPID INTRAVENOUS INJECTION. Note: Needles or intravenous sets containing aluminum parts that may come in contact with Cisplatin Injection should not be used for preparation or administration. Aluminum reacts with Cisplatin Injection, causing precipitate formation and a loss of potency. Metastatic Testicular Tumors The usual Cisplatin Injection dose for the treat...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13190, 17474, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13191, 19544, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13192, 3799, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13193, 27065, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13194, 20496, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13195, 23332, '673f5ad2-c09b-4a89-9407-efdadd007917', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2. DOSAGE AND ADMINISTRATION Can be taken with and without food. Individualize to the needs of the patient and monitor during up-titration. (2) Hypertension: Most patients start at 5 mg once daily. Dose can be increased at 2-week intervals up to 40 mg. (2.1) 2.1 Hypertension The dose of BYSTOLIC must be individualized to the needs of the patient. For most patients, the recommended starting dose is 5 mg once daily, with or without food, as monotherapy or in combination with other agents. For pati...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13196, 22302, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13197, 32912, '5777b8a8-ada6-4950-8548-43a1de11f075', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION •Assess renal function before initiating and as clinically indicated. Assess volume status and correct volume depletion before initiating. (2.1) •Recommended dosage is 10 mg orally once daily in the morning, taken with or without food. (2.2) •For additional glycemic control, dosage may be increased to 25 mg orally once daily in patients tolerating JARDIANCE. (2.2) •Withhold JARDIANCE for at least 3 days, if possible, prior to major surgery or procedures associated wit...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13198, 9878, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13199, 29772, '1781fc07-5a2a-4b31-aad9-d0457eb704f4', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Ceftriaxone for injection may be administered intravenously or intramuscularly. Do not use diluents containing calcium, such as Ringer''s solution or Hartmann''s solution, to reconstitute ceftriaxone for injection vials or to further dilute a reconstituted vial for IV administration because a precipitate can form. Precipitation of ceftriaxone-calcium can also occur when ceftriaxone for injection is mixed with calcium-containing solutions in the same IV administration line...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13200, 14385, 'N/A', 0.0, NULL, 24, 7, 'احماض امينية حمض الارجينين', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13201, 17726, '16f2b9c4-a260-4a31-bd52-e5945913246c', 600.0, NULL, 8, 7, 'Standard Dose: 600.0mg. 2 DOSAGE AND ADMINISTRATION Schistosomiasis: 20 mg/kg body weight 3 times a day separated by 4 to 6 hours for 1 day only. (2.1) Clonorchiasis and Opisthorchiasis: 25 mg/kg 3 times a day separated by 4 to 6 hours for 1 day only. (2.1) Take with water during meals. Do not chew or keep segments in the mouth. (2.2) For pediatric patients under 6 years of age, the tablets may be crushed or disintegrated and mixed with semi-solid food or liquid. (2.2) For additional administration instructions see the...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13202, 15786, 'a7b85288-9099-4c20-beb7-ee2be484c9b9', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Captopril should be taken one hour before meals. Dosage must be individualized. Hypertension Initiation of therapy requires consideration of recent antihypertensive drug treatment, the extent of blood pressure elevation, salt restriction, and other clinical circumstances. If possible, discontinue the patient’s previous antihypertensive drug regimen for one week before starting captopril. The initial dose of captopril is 25 mg b.i.d. or t.i.d. If satisfactory reduction o...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13203, 13394, 'N/A', 0.0, NULL, 24, 7, 'كريم تفتيح', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13204, 3465, '7464e883-6286-4f04-ae38-b7ddc3fec754', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Mycelex® Troches are administered only as a lozenge that must be slowly dissolved in the mouth. The recommended dose is one troche five times a day for fourteen consecutive days. Only limited data are available on the safety and effectiveness of the clotrimazole troche after prolonged administration; therefore, therapy should be limited to short term use, if possible.For prophylaxis to reduce the incidence of oropharyngeal candidiasis in patients immunocompromised by co', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13205, 22627, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13206, 17711, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13207, 24344, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13208, 31760, 'N/A', 0.0, NULL, 24, 7, 'كريم يستخدم لازالة الندبات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13209, 27172, 'fb77dffc-b38d-461c-8926-bc57bef1f321', 0.0, NULL, 24, 7, 'See package insert', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13210, 32657, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13211, 8330, 'N/A', 0.0, NULL, 24, 7, 'ارتجاع المريء وحرقة المعدة.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13212, 15804, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13213, 2913, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13214, 5481, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13215, 4793, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13216, 29854, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13217, 972, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13218, 23033, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13219, 28672, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13220, 31968, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج حالات فقر الدم', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13221, 4489, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13222, 26843, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى ومعزز للمناعة وفاتح للشهية للكبار والاطفال', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13223, 25755, '8b59207a-ea5c-4697-a8b6-94c3015a00de', 1.25, NULL, 24, 7, 'Standard Dose: 1.25mg. DOSAGE AND ADMINISTRATION Blood pressure decreases associated with any dose of ramipril depend, in part, on the presence or absence of volume depletion (e.g., past and current diuretic use) or the presence or absence of renal artery stenosis. If such circumstances are suspected to be present, the initial starting dose should be 1.25 mg once daily. Hypertension The recommended initial dose for patients not receiving a diuretic is 2.5 mg once a day. Dosage should be adjusted according to the blood...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13224, 30025, 'd049bfcf-0634-4649-a782-12976ee4c49e', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Zonisamide capsules are recommended as adjunctive therapy for the treatment of partial seizures in adults. Safety and efficacy in pediatric patients below the age of 16 have not been established. Zonisamide capsules should be administered once or twice daily, using 25 mg, 50 mg or 100 mg capsules. Zonisamide capsules are given orally and can be taken with or without food. Capsules should be swallowed whole. Adults over Age 16: The prescriber should be aware that, becaus...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13225, 12836, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13226, 4238, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13227, 13650, 'N/A', 0.0, NULL, 24, 7, 'علاج للسرطان.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13228, 30009, '11d5c110-c48c-438f-9c7d-5adf99938534', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION 200 mg administered once daily orally or as an intravenous (IV) infusion over 1 hour for six (6) days in adult and pediatric patients 12 years of age and older. (2.1) 2.1 Recommended Dosage The recommended dosage of SIVEXTRO is 200 mg administered once daily for six (6) days either orally (with or without food) or as an intravenous (IV) infusion in patients 12 years of age or older. The recommended dosage and administration of SIVEXTRO are described in Table 1. Table ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13229, 21263, 'N/A', 0.0, NULL, 24, 7, 'غسول للوجه يوحد لون البشرة ويزيل التصبغات ويعمل على تنشيط البشرة وزيادة نضارتها. يمكن استخدام كمية صغيرة لتنظيف الوجه بالكامل وإزالة المكياج.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13230, 1487, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13231, 2877, '2324d60b-4f49-4759-a46e-a06bfce7e8aa', 7.0, NULL, 8, 7, 'Standard Dose: 7.0mg. 2 DOSAGE AND ADMINISTRATION Pre-Treatment Assessment Following Acute Ingestion (2.1): Obtain a plasma or serum sample to assay for acetaminophen concentration at least 4 hours after ingestion. If the time of acetaminophen ingestion is unknown: Administer a loading dose of acetylcysteine injection immediately. Obtain an acetaminophen concentration to determine need for continued treatment. If the acetaminophen concentration cannot be obtained (or is unavailable or uninterpretable) within the 8-ho...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13232, 16699, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13233, 19206, 'AC76ACA8-E718-4232-92AB-399166CE9E46', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2 DOSAGE AND ADMINISTRATION Note: The oral dose is different than the intravenous dose.Chronic Lymphocytic Leukemia (CLL) (2.1):The recommended adult dose is 40 mg/m2 administered daily for five consecutive days by the oral route.Begin each 5-day course of treatment every 28 days.Renal Impairment (2.2): Reduce dose by 20% in patients with mild to moderate renal impairment (creatinine clearance 30 to 70 mL/min/1.73 m2).Reduce dose by 50% in patients with severe renal impairment (creatinine cleara...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13234, 20161, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13235, 22347, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13236, 27487, '1eb9a361-cd8d-44b0-bf40-42b97a470ddd', 100.0, NULL, NULL, 7, 'Standard Dose: 100.0mg. DOSAGE AND ADMINISTRATION The recommended dosage of cilostazol is 100 mg b.i.d. taken at least half an hour before or two hours after breakfast and dinner. A dose of 50 mg b.i.d. should be considered during coadministration of such inhibitors of CYP3A4 as ketoconazole, itraconazole, erythromycin and diltiazem, and during coadministration of such inhibitors of CYP2C19 as omeprazole. Patients may respond as early as 2 to 4 weeks after the initiation of therapy, but treatment for up to 12 weeks may...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13237, 14270, 'N/A', 0.0, NULL, 24, 7, 'مضاد للفيروسات يستخدم فى علاج فيروس الكورونا', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13238, 13091, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13239, 24619, '6f94f6e7-3218-4271-86b5-2265b68d920d', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION The patient or care giver should apply a thin layer of ELIDEL (pimecrolimus) Cream 1% to the affected skin twice daily. The patient or caregiver should stop using when signs and symptoms (e.g., itch, rash and redness) resolve and should be instructed on what actions to take if symptoms recur. If signs and symptoms persist beyond 6 weeks, patients should be re-examined by their health care provider to confirm the diagnosis of atopic dermatitis. Continuous long-term use o', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13240, 32666, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13241, 31962, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13242, 12659, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13243, 13771, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13244, 7728, 'de06a4da-ea70-441e-bba2-e40eb51a8c3a', 48.0, NULL, NULL, 7, 'Standard Dose: 48.0mg. DOSAGE AND ADMINISTRATION: At the onset of an attack, one or two metered sprays should be administered onto or under the tongue. No more than three metered sprays are recommended within a 15-minute period. If the chest pain persists, prompt medical attention is recommended. Nitrolingual® Pumpspray may be used prophylactically five to ten minutes prior to engaging in activities which might precipitate an acute attack. Each metered spray of Nitrolingual® Pumpspray delivers 48 mg of solution contai...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13245, 32962, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13246, 2426, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13247, 26142, '0a3b8e0e-efb0-465b-84cb-d120b3096ebd', 1.0, NULL, NULL, 7, 'Standard Dose: 1.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Important Administration Instructions Administer Calcium Chloride Injection by slow intravenous infusion in a central or deep vein in adults and pediatric patients (with or without renal impairment); do not administer by bolus [see Warnings and Precautions (5.2, 5.4)]. The maximum recommended infusion rate is 1 mL/minute (100 mg/minute). Additional important administration instructions regarding Calcium Chloride Injection are as follows: • Do not use intramuscular...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13248, 17040, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13249, 21501, 'ea66eb30-e665-4693-99a1-a9d3b4bbe2d6', 70.0, NULL, NULL, 7, 'Standard Dose: 70.0mg. 2 DOSAGE AND ADMINISTRATION Hydrate prior to and following Kyprolis as needed. (2.1) Premedicate prior to all Cycle 1 doses and if infusion-related reactions develop or reappear. (2.1) The recommended dosing regimens are as follows. See Full Prescribing Information for additional dosage information. (2.2) Regimen Dosage Infusion Time Kyprolis and Dexamethasone (Kd) orKyprolis, Daratumumab and Dexamethasone (DKd) orKyprolis, Daratumumab and hyaluronidase-fihj and Dexamethasone (DKd) 20/70 mg/m2 o...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13250, 24811, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13251, 16525, '26fcf4be-4785-4922-a37b-4546570a132c', 300.0, NULL, 6, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATIONIf significant diarrhea occurs during therapy, this antibiotic should be discontinued (see WARNING box). Adults: Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours. Pediatric Patients: Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses. To avoid the possibility of esophageal irrit...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13252, 11374, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13253, 21407, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13254, 2297, 'c6d3c1ff-d873-4903-befa-c0ba47034c6e', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Cefprozil for oral suspension is administered orally. Population/Infection Dosage (mg) Duration (days) ADULTS (13 years and older) UPPER RESPIRATORY TRACT Pharyngitis/Tonsillitis 500 q24h 10 a Acute Sinusitis 250 q12h or 10 (For moderate to severe infections, the higher dose should be used) 500 q12h LOWER RESPIRATORY TRACT Secondary Bacterial Infection of Acute Bronchitis and Acute Bacterial Exacerbation of Chronic Bronchitis 500 q12h 10 SKIN AND SKIN STRUCTURE Uncompli', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13255, 15783, 'N/A', 0.0, NULL, 24, 7, 'فيتامين سي للمناعة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13256, 23815, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13257, 24781, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13258, 31882, '6fadde9e-dab3-4d01-b3fb-795eef7eff2f', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION (See INDICATIONS AND USAGE and CLINICAL PHARMACOLOGY.) Adults: Infection* Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic obstructive pulmonary disease (mild to moderate) 500 mg QD x 3 days OR 500 mg as a single dose on Day 1, follo...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13259, 26760, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13260, 24121, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13261, 5859, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13262, 4457, '24d10449-2936-4cd3-b7db-a7683db721e4', 260.0, NULL, NULL, 7, 'Standard Dose: 260.0mg. 2 DOSAGE AND ADMINISTRATION • Do not substitute ABRAXANE for other paclitaxel products. (2.1) • Extravasation: Closely monitor the infusion site for extravasation and infiltration. (2.1) • Metastatic Breast Cancer (MBC): Recommended dosage of ABRAXANE is 260 mg/m2 intravenously over 30 minutes every 3 weeks. (2. 2) • Non-Small Cell Lung Cancer (NSCLC): Recommended dosage of ABRAXANE is 100 mg/m2 intravenously over 30 minutes on Days 1, 8, and 15 of each 21-day cycle; administer carboplatin on Da...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13263, 5074, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13264, 3024, 'A36432F9-BDDD-4B22-BE6D-ED6AC2B3846A', 600.0, NULL, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION Gabapentin capsules is given orally with or without food.If gabapentin dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber). Postherpetic Neuralgia In adults with postherpetic neuralgia, gabapentin therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TI...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13265, 21572, '80aab848-8739-4259-a092-ed99d0f6a56d', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. 2 DOSAGE AND ADMINISTRATION Prior to administering, evaluate patients for evidence of chronic or active liver disease. ( 2.1) Fingernail onychomycosis: One 250 mg tablet, once daily for 6 weeks. ( 2.2) Toenail onychomycosis: One 250 mg tablet, once daily for 12 weeks. ( 2.2) 2.1 Assessment Prior to Initiation Before administering terbinafine tablets, evaluate patients for evidence of chronic or active liver disease [see Contraindications (4) and Warnings and Precautions (5.1)]. 2.2 Dosage Finger...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13266, 2586, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13267, 8727, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13268, 30759, 'N/A', 0.0, NULL, 24, 7, 'علاج المغص والتقلصات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13269, 21535, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13270, 18609, '3e823928-c853-4617-acad-21b27174aa7b', 250.0, NULL, 24, 7, 'Standard Dose: 250.0mg. DOSAGE AND ADMINISTRATION Optimal blood levels are obtained when Erythromycin Base Filmtab tablets are given in the fasting state (at least ½ hour and preferably 2 hours before meals). AdultsThe usual dosage of Erythromycin Base Filmtab is one 250 mg tablet four times daily in equally spaced doses or one 500 mg tablet every 12 hours. Dosage may be increased up to 4 g per day according to the severity of the infection. However, twice-a-day dosing is not recommended when doses larger than 1 g dail...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13271, 18353, '9c70817f-e721-4f04-b095-0747702df614', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION A single dose of 8 mg of tizanidine reduces muscle tone in patients with spasticity for a period of several hours. The effect peaks at approximately 1 to 2 hours and dissipates between 3 to 6 hours. Effects are dose-related. Although single doses of less than 8 mg have not been demonstrated to be effective in controlled clinical studies, the dose-related nature of tizanidine’s common adverse events make it prudent to begin treatment with single oral doses of 4 mg. Incre...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13272, 25956, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13273, 18624, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13274, 15467, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13275, 9455, 'N/A', 0.0, NULL, 24, 7, 'نقط مضاد للبكتيريا والفطريات يستخدم فى علاج العديد من التهابات الاذن', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13276, 12967, 'N/A', 0.0, NULL, 24, 7, 'حموضة - قرحة معدة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13277, 28157, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13278, 30723, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13279, 3004, 'C33601EC-EF89-4BD4-8485-F81871AFAD94', 50.0, NULL, 24, 7, 'Standard Dose: 50.0mg. DOSAGE & ADMINISTRATION Adults (17 years of age and over)For patients with moderate to moderately severe chronic pain not requiring rapid onset of analgesic effect, the tolerability of tramadol hydrochloride can be improved by initiating therapy with a titration regimen: The total daily dose may be increased by 50 mg as tolerated every 3 days to reach 200 mg/day (50 mg q.i.d.). After titration, tramadol hydrochloride 50 mg to 100 mg can be administered as needed for pain relief every four to six...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13280, 23095, '05964DAE-8B84-467C-AF97-C82706A3CAD2', 180.0, NULL, 24, 7, 'Standard Dose: 180.0mg. DOSAGE AND ADMINISTRATION The usual dosage used in adult and pediatric patients is 6 grams per day administered orally in divided doses of 3 grams two times per day. Dosages of up to 20 grams per day have been necessary to control homocysteine levels in some patients. In pediatric patients less than 3 years of age, dosage may be started at 100 mg/kg/day and then increased weekly by 50 mg/kg increments. In one study by Matthewsi et al., pharmacokinetic and pharmacodynamic simulation indicated min...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13281, 26799, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13282, 7891, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13283, 3632, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13284, 32397, 'N/A', 0.0, NULL, 24, 7, 'دعم الجهاز الهضمي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13285, 9284, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لعلاج الانيميا وامداد الجسم بالطاقة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13286, 24198, 'N/A', 0.0, NULL, 24, 7, 'كالسيوم', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13287, 21529, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13288, 18951, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13289, 9310, 'e433dc68-6b2a-4c48-beae-4ec946f1ff1e', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION 5 mg tablet taken once daily, and if well tolerated may be increased to 10 mg once daily (2.1) Do not exceed 5 mg tablet once daily in patients with: severe renal impairment [Creatinine Clearance] (CLcr <30 ml/min) (2.1) moderate hepatic impairment (Child-Pugh B) (2.2) concomitant use of potent CYP3A4 inhibitors (2.3) Use of VESIcare is not recommended in patients with severe hepatic impairment (Child-Pugh C) (2.2) 2.1 Dosing Information The recommended dose of VESIca...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13290, 10234, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13291, 21690, 'N/A', 0.0, NULL, 24, 7, 'مقوي للمناعة ومضاد للاكسدة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13292, 7095, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13293, 23885, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13294, 24538, '9daa1483-5a36-44db-9e0d-904d100da262', 15.0, NULL, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION Indication Dose Frequency Short-Term Treatment of Erosive Esophagitis Associated With GERD ( 2.1) Adults 40 mg Once Daily for up to 8 wks Children (5 years and older) ≥ 15 kg to < 40 kg 20 mg Once Daily for up to 8 wks ≥ 40 kg 40 mg Maintenance of Healing of Erosive Esophagitis ( 2.1) Adults 40 mg Once Daily* Pathological Hypersecretory Conditions Including Zollinger-Ellison Syndrome ( 2.1) Adults 40 mg Twice Daily * Controlled studies did not extend beyond 12 months ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13295, 25703, '5777b8a8-ada6-4950-8548-43a1de11f075', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION •Assess renal function before initiating and as clinically indicated. Assess volume status and correct volume depletion before initiating. (2.1) •Recommended dosage is 10 mg orally once daily in the morning, taken with or without food. (2.2) •For additional glycemic control, dosage may be increased to 25 mg orally once daily in patients tolerating JARDIANCE. (2.2) •Withhold JARDIANCE for at least 3 days, if possible, prior to major surgery or procedures associated wit...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13296, 22730, 'N/A', 0.0, NULL, 24, 7, 'علاج الإلحاح البولي و سلس البول ، وجميع أعراض متلازمة فرط نشاط المثانة.', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13297, 1995, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13298, 6147, '0478f0e7-87fb-4adb-ae9b-6624555ccbe4', 15.0, 45.0, 24, 7, 'Standard Dose: 15.0mg. 2 DOSAGE AND ADMINISTRATION •Initiate pioglitazone tablets at 15 mg or 30 mg once daily. Limit initial dose to 15 mg once daily in patients with NYHA Class I or II heart failure. (2.1) •If there is inadequate glycemic control, the dose can be increased in 15 mg increments up to a maximum of 45 mg once daily. (2.1) •The maximum recommended dose of pioglitazone tablets is 15 mg once daily in patients taking strong CYP2C8 inhibitors (e.g., gemfibrozil). (2.3, 7.1) •Obtain liver tests before startin...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13299, 26540, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13300, 29948, 'N/A', 0.0, NULL, 24, 7, 'كريم مرطب للجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13301, 26369, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لتنشيط الذاكرة وزيادة التركيز', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13302, 8700, '6fadde9e-dab3-4d01-b3fb-795eef7eff2f', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION (See INDICATIONS AND USAGE and CLINICAL PHARMACOLOGY.) Adults: Infection* Recommended Dose/Duration of Therapy Community-acquired pneumonia (mild severity) Pharyngitis/tonsillitis (second line therapy) Skin/skin structure (uncomplicated) 500 mg as a single dose on Day 1, followed by 250 mg once daily on Days 2 through 5. Acute bacterial exacerbations of chronic obstructive pulmonary disease (mild to moderate) 500 mg QD x 3 days OR 500 mg as a single dose on Day 1, follo...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13303, 4435, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13304, 25308, '9bc31f67-cfce-4ad6-9c07-3845ead3542c', 300.0, NULL, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of a ketoprofen immediate-release capsules and ketoprofen extended-release capsules and other treatment options before deciding to use ketoprofen immediate-release capsules and ketoprofen extended-release capsules. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS). After observing the response to initial therapy with ketoprofen immediate-release ca...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13305, 28010, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13306, 27723, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13307, 7930, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13308, 5175, 'N/A', 0.0, NULL, 24, 7, 'مضاد حيوي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13309, 4267, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13310, 21254, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13311, 24392, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13312, 19413, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13313, 24848, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13314, 4890, '881785a5-41b4-4679-a29b-5d77ca51ca60', 36.0, NULL, 24, 7, 'Standard Dose: 36.0mg. 2 DOSAGE AND ADMINISTRATION The recommended once-daily dosage is approximately 0.9 mg/kg/day administered orally (2.2) Discontinue gradually when administered for more than a few days (2.3) 2.1 Assessments Prior to First Dose of Deflazacort Oral Suspension Administer all immunizations according to immunization guidelines prior to starting deflazacort oral suspension. Administer live-attenuated or live vaccines at least 4 to 6 weeks prior to starting deflazacort oral suspension [see Warnings and ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13315, 21637, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13316, 5274, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13317, 10958, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13318, 10933, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13319, 28034, 'c7bc9486-8e61-4ba1-827f-2cd8c304b454', 25.0, 50.0, 24, 7, 'Standard Dose: 25.0mg. 2 DOSAGE AND ADMINISTRATION CHF Post-MI : Initiate treatment with 25 mg once daily. Titrate to maximum of 50 mg once daily within 4 weeks, as tolerated. Dose adjustments may be required based on potassium levels. (2.1) Hypertension : 50 mg once daily, alone or combined with other antihypertensive agents. For inadequate response, increase to 50 mg twice daily. Higher dosages are not recommended. (2.2) For all patients: Measure serum potassium before starting INSPRA and periodically thereafter. (2...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13320, 26554, '029a90b6-0722-49be-8400-3ec29526aafd', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. 2 DOSAGE AND ADMINISTRATION Indication Dose Hypertension ( 2.2) 150 to 300 mg once daily Diabetic Nephropathy ( 2.3) 300 mg once daily 2.1 General Considerations Irbesartan tablets may be administered with other antihypertensive agents and with or without food. 2.2 Hypertension The recommended initial dose of irbesartan tablets is 150 mg once daily. The dosage can be increased to a maximum dose of 300 mg once daily as needed to control blood pressure [see Clinical Studies (14.1)]. 2.3 Nephropath...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13321, 1637, '94a59260-d2b6-464a-b5b9-bbc599e57e10', 16.0, NULL, 24, 7, 'Standard Dose: 16.0mg. 2 DOSAGE AND ADMINISTRATION Starting Dose Target Dose Adult Hypertension (2.1) 16 mg tablet once daily 8 – 32 mg tablet total daily dose Pediatric Hypertension (1 to < 6 years) (2.2) 0.20 mg/kg oral suspension once daily 0.05 – 0.4 mg/kg oral suspension once daily or consider divided dose Pediatric Hypertension (6 to < 17 years) (2.2) < 50 kg 4 – 8 mg tablet once daily >50 kg 8 – 16 mg tablet once daily < 50 kg 4 – 16 mg tablet once daily or consider divided dose > 50 kg 4 – 32 mg tablet once da...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13322, 29956, '3ecde48b-75a2-4beb-9999-369f3f61bb8a', 600.0, NULL, 12, 7, 'Standard Dose: 600.0mg. 2. DOSAGE AND ADMINISTRATION Dosage of Teflaro by Indication in Adult and Pediatric Patients ( 2.1 , 2.2 ) Indication Age Range Dosage Infusion Time Duration Acute Bacterial Skin and Skin Structure Infections (ABSSSI) 18 years and older 600 mg every 12 hours 5 to 60 minutes 5 to 14 days ≥2 years to < 18 years (> 33 kg) 400 mg every 8 hoursOR600 mg every 12 hours 5 to 60 minutes 5 to 14 days ≥2 years to < 18 years (≤ 33kg) 12 mg/kg every 8 hours 5 to 60 minutes 5 to 14 days 2 months to < 2 years ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13323, 29029, '73f8cef4-39f3-4f71-b3cc-8da07b8fd65f', 400.0, NULL, 8, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION The usual dosage of Pentoxifylline extended-release Tablet form is one tablet (400 mg) three times a day with meals. While the effect of Pentoxifylline extended-release Tablet may be seen within 2 to 4 weeks, it is recommended that treatment be continued for at least 8 weeks. Efficacy has been demonstrated in double-blind clinical studies of 6 months duration. Digestive and central nervous system side effects are dose related. If patients develop these effects it is rec...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13324, 14983, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13325, 8227, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13326, 32578, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13327, 25959, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13328, 33350, 'N/A', 0.0, NULL, 24, 7, 'مكمل غائى يدعم نمو العظام ويمنع الكساح ولين العظام', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13329, 4426, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13330, 31787, 'N/A', 0.0, NULL, 24, 7, 'كريم لتفتيح البشرة وازالة التصبغات وعلاج حب الشباب والبثور السوداء', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13331, 16780, '6d46258b-31d0-4e43-9acd-4c821f09ec0f', 400.0, NULL, 24, 7, 'Standard Dose: 400.0mg. DOSAGE AND ADMINISTRATION Epilepsy In the controlled add-on trials, no correlation has been demonstrated between trough plasma concentrations of topiramate and clinical efficacy. No evidence of tolerance has been demonstrated in humans. Doses above 400 mg/day (600, 800, or 1000 mg/day) have not been shown to improve responses in dose-response studies in adults with partial onset seizures. It is not necessary to monitor topiramate plasma concentrations to optimize topiramate therapy. On occasion,...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13332, 32108, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13333, 33188, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13334, 8638, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13335, 11348, 'fc61fd7e-63ca-4714-851f-31b2a045903d', 300.0, 300.0, 24, 7, 'Standard Dose: 300.0mg. DOSAGE AND ADMINISTRATION Theophylline (Anhydrous) Extended-Release Tablets 200 or 300 mg Tablets can be taken once a day in the morning or evening. It is recommended that Theophylline (Anhydrous) Extended-Release Tablets be taken with meals. Patients should be advised that if they choose to take Theophylline (Anhydrous) Extended-Release Tablets with food it should be taken consistently with food and if they take it in a fasted condition it should routinely be taken fasted. It is important that ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13336, 14066, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13337, 14285, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13338, 4018, 'EC09AB1C-52FA-4F41-BF65-A632DCE8F097', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION (SEE INDICATIONS AND USAGE) The recommended regimen of Ismo tablets is 20 mg (one tablet) twice daily, with the two doses given 7 hours apart. For most patients, this can be accomplished by taking the first dose on awakening and the second dose 7 hours later. Dosage adjustments are not necessary for elderly patients or patients with altered renal or hepatic function. As noted above (CLINICAL PHARMACOLOGY), multiple studies of organic nitrates have shown that maintenance...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13339, 12851, 'N/A', 0.0, NULL, 24, 7, 'مرطب للجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13340, 3517, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13341, 9207, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13342, 12719, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13343, 26683, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13344, 32027, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13345, 21214, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13346, 9014, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13347, 833, 'ACBCE0E8-5098-4785-943B-8BDB5FF17FAB', 1.5, 4.0, 24, 7, 'Standard Dose: 1.5mg. DOSAGE AND ADMINISTRATION Clonazepam is available as a tablet. The tablets should be administered with water by swallowing the tablet whole. Seizure Disorders Adults: The initial dose for adults with seizure disorders should not exceed 1.5 mg/day divided into three doses. Dosage may be increased in increments of 0.5 to 1 mg every 3 days until seizures are adequately controlled or until side effects preclude any further increase. Maintenance dosage must be individualized for each patient dependin...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13348, 32800, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13349, 14872, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13350, 16349, 'ebddb745-81f9-4b25-8739-b2886032ed26', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION CIALIS for use as needed: Starting dose: 10 mg up to once daily. Increase to 20 mg or decrease to 5 mg based upon efficacy/tolerability. Improves erectile function compared to placebo up to 36 hours post dose (2.1). CIALIS for once daily use: 2.5 mg taken once daily, without regard to timing of sexual activity. May increase to 5 mg based upon efficacy and tolerability (2.1). CIALIS may be taken without regard to food (2.2). 2.1 Erectile Dysfunction CIALIS for Use as N...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13351, 33574, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13352, 26282, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13353, 29476, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13354, 24236, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13355, 6244, 'N/A', 0.0, NULL, 24, 7, 'حالات عسر الهضم والتقلصات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13356, 22103, 'aa3d6d9a-ec31-4d66-8151-ec3bfad799e9', 0.5, NULL, 24, 7, 'Standard Dose: 0.5mg. 2 DOSAGE AND ADMINISTRATION Nucleoside-inhibitor-treatment-naïve with compensated liver disease (greater than or equal to 16 years old): 0.5 mg once daily. (2.2) Lamivudine-refractory or known lamivudine or telbivudine resistance substitutions (greater than or equal to 16 years old): 1 mg once daily. (2.2) Decompensated liver disease (adults): 1 mg once daily. (2.2) Renal impairment: Dosage adjustment is recommended if creatinine clearance is less than 50 mL/min. (2.4) Entecavir tablets should b...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13357, 28671, 'N/A', 0.0, NULL, 24, 7, 'تعمل علي تقليل الوزن -- الحفاظ علي ثبات الوزن المثالي -- الحفاظ علي المعادن الموجودة بالجسم بصورة طبيعية', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13358, 13662, 'N/A', 0.0, NULL, 24, 7, 'مسكن ومضاد للالتهابات وخافض للحرارة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13359, 12694, 'd6718f02-8eea-4c2f-9aa2-65121d9a6e4c', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. 2 DOSAGE AND ADMINISTRATION · Adults: 400 mg daily ( 2.1) 2.1 Adults The recommended dose of cefixime is 400 mg daily. This may be given as a 400 mg capsule daily. For the treatment of uncomplicated cervical/urethral gonococcal infections, a single oral dose of 400 mg is recommended. The capsule may be administered without regard to food. In the treatment of infections due to Streptococcus pyogenes, a therapeutic dosage of cefixime should be administered for at least 10 days. 2.2 Pediatric Patie...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13360, 13783, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13361, 25688, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13362, 32369, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13363, 18187, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13364, 8304, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13365, 17810, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13366, 14735, 'd9243be5-bd27-4f37-ba8b-9f6f55f8b3e4', 600.0, 600.0, 24, 7, 'Standard Dose: 600.0mg. DOSAGE AND ADMINISTRATION (see INDICATIONS AND USAGE for Indicated Pathogens) The recommended dosage and duration of treatment for infections in pediatric patients are described in the following chart; the total daily dose for all infections is 14 mg/kg, up to a maximum dose of 600 mg per day. Once-daily dosing for 10 days is as effective as BID dosing. Once-daily dosing has not been studied in skin infections; therefore, cefdinir for oral suspension should be administered twice daily in this in...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13367, 18037, 'A0EEEC15-C76D-41DF-80F3-5572C9857DA6', 5.0, NULL, 24, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION The initial dosage of prednisolone tablets may vary from 5 mg to 60 mg per day depending on the specific disease entity being treated. In situations of less severity, lower doses will generally suffice, while in selected patients higher initial doses may be required. The initial dosage should be maintained or adjusted until a satisfactory response is noted. If after a reasonable period of time there is a lack of satisfactory clinical response, prednisolone should be dis...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13368, 23175, '523f0320-cc73-445a-a48d-7a181c182307', 200.0, NULL, 8, 7, 'Standard Dose: 200.0mg. 2 DOSAGE AND ADMINISTRATION Travelers’ diarrhea: One 200 mg tablet taken orally three times a day for 3 days, with or without food (2.1) Hepatic encephalopathy: One 550 mg tablet taken orally two times a day, with or without food (2.2) 2.1 Dosage for Travelers’ Diarrhea The recommended dose of XIFAXAN is one 200 mg tablet taken orally three times a day for 3 days. XIFAXAN can be administered orally, with or without food [see Clinical Pharmacology (12.3)]. 2.2 Dosage for Hepatic Encephalopathy Th...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13369, 28178, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13370, 26446, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13371, 27807, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13372, 9588, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13373, 21453, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13374, 25766, 'fdb77e13-f5a7-4c4a-9f8e-338b702239c8', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION See Full Prescribing Information for detailed dosing instructions. 2.1 Important Dosage and Administration Information Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit. Shake well before use. Do not use if there is evidence of excessive creaming or aggregation, if large droplets are visible, or if there are other forms of phase separation indicating that the st...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13375, 26850, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13376, 18013, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13377, 6290, 'a5b3455a-e842-7d4b-e053-2995a90adee3', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION: One hydroxychloroquine sulfate tablet contains 200 mg of hydroxychloroquine sulfate, which is equivalent to 155 mg base. Take hydroxychloroquine sulfate tablets with a meal or a glass of milk. Malaria Prophylaxis Adults: 400 mg (310 mg base) once weekly on the same day of each week starting 2 weeks prior to exposure, and continued for 4 weeks after leaving the endemic area. Weight-based dosing in adults and pediatric patients: 6.5 mg/kg (5 mg/kg base), not to exceed 40...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13378, 8372, '4EC9BF84-D0B0-4092-8E3D-C67CCFB2780B', 7.5, NULL, 24, 7, 'Standard Dose: 7.5mg. DOSAGE AND ADMINISTRATION Osteoarthritis Carefully consider the potential benefits and risks of meloxicam tablets and other treatment options before deciding to use meloxicam tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with meloxicam tablets, the dose should be adjusted to suit an individual patient''s needs.For the relief of the signs and symptoms of osteoarthrit...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13379, 7452, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى لدعم صحة الكبد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13380, 28065, '29ccf947-91c1-405a-aba6-5889e3c75d70', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. DOSAGE AND ADMINISTRATION INFANTS: 2 mL (200,000 units) four times daily (in infants and young children, use dropper to place one-half of dose in each side of mouth and avoid feeding for 5 to 10 minutes). NOTE: Limited clinical studies in premature and low birth weight infants indicate that 1 mL four times daily is effective. CHILDREN AND ADULTS: 4–6 mL (400,000 to 600,000 units) four times daily (one-half of dose in each side of mouth). The preparation should be retained in the mouth as long as...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13381, 356, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13382, 2678, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13383, 25565, 'a70d857a-50d3-4e69-828c-a72fd6b98c99', 50.0, NULL, 24, 7, 'Standard Dose: 50.0mg. 2 DOSAGE AND ADMINISTRATION Swallow tablets whole and do not split, chew or crush (2.1) Take without food or with a light meal (approx. 300 calorie s) (2.1) Administer once daily, preferably in the evening (2.1) Geriatric Use: Consider a lower starting dose (50 mg/day), slower titration, and careful monitoring during the initial dosing period in the elderly. (2.3, 8.5) Hepatic Impairment: Lowe r starting dose (50 mg/day) and slower titration may be ne e de d (2.4, 8.7, 12.3) Indication Initial D...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13384, 21788, 'c1730a51-4383-4c61-a9a1-7e1326bd0abe', 5.0, 10.0, 24, 7, 'Standard Dose: 5.0mg. 2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with a maximum of 10 mg orally once daily. (2.1) Small, fragile, or elderly patients, or patients with hepatic insufficiency may be started on 2.5 mg orally once daily. (2.1) Pediatric starting dose: 2.5 mg to 5 mg orally once daily. (2.2) 2.1 Adults The usual initial antihypertensive oral dose of NORLIQVA is 5 mg orally once daily, and the maximum dose is 10 mg orally once daily. Small, fragile, or elderly patie...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13385, 4918, '953CEE06-5C26-4F30-870A-46B9FBB66E79', 1200.0, NULL, 24, 7, 'Standard Dose: 1200.0mg. DOSAGE AND ADMINISTRATION Carefully consider the potential benefits and risks of ibuprofen tablets and other treatment options before deciding to use ibuprofen tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with ibuprofen tablets, the dose and frequency should be adjusted to suit an individual patient''s needs.Do not exceed 3200 mg total daily dose. If gastrointestin...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13386, 2228, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13387, 23397, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13388, 27835, 'N/A', 0.0, NULL, 24, 7, 'مرطب للعين', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13389, 26636, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13390, 33665, 'N/A', 0.0, NULL, 24, 7, 'كريم تقليل أعراض الأكزيما والحساسية والحكة المصاحبة لها و لتهدئة البشرة من الالتهابات وترطيب وترميم البشرة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13391, 6806, '68fba58a-7748-4581-8432-f5286c46d90a', 4.0, NULL, 24, 7, 'Standard Dose: 4.0mg. DOSAGE AND ADMINISTRATION Keflex is administered orally. Adults— The adult dosage ranges from 1 to 4 g daily in divided doses. The 333 mg and 750 mg strengths should be administered such that the daily dose is within 1 to 4 grams per day. The usual adult dose is 250 mg every 6 hours. For the following infections, a dosage of 500 mg may be administered every 12 hours: streptococcal pharyngitis, skin and skin structure infections, and uncomplicated cystitis in patients over 15 years of age. Cystit...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13392, 27989, '0950cd08-a48b-4376-9647-da22cf5a8a70', 360.0, NULL, 24, 7, 'Standard Dose: 360.0mg. 2 DOSAGE AND ADMINISTRATION PULMICORT FLEXHALER should be administered twice daily by the orally inhaled route only. After inhalation, the patient should rinse the mouth with water without swallowing [see Patient Counseling Information (17.1) ]. Patients should be instructed to prime PULMICORT FLEXHALER prior to its initial use, and instructed to inhale deeply and forcefully each time the device is used. The safety and efficacy of PULMICORT FLEXHALER when administered in excess of recommended do...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13393, 6491, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13394, 2747, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13395, 24193, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13396, 13545, 'N/A', 0.0, NULL, 24, 7, 'مصدر لفيتامين ب -- مصدر للطاقة -- مقوي للاعصاب --يستخدم في حالات مرضي السكر', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13397, 7703, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13398, 25875, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13399, 789, '4EC9BF84-D0B0-4092-8E3D-C67CCFB2780B', 7.5, NULL, 24, 7, 'Standard Dose: 7.5mg. DOSAGE AND ADMINISTRATION Osteoarthritis Carefully consider the potential benefits and risks of meloxicam tablets and other treatment options before deciding to use meloxicam tablets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals (see WARNINGS).After observing the response to initial therapy with meloxicam tablets, the dose should be adjusted to suit an individual patient''s needs.For the relief of the signs and symptoms of osteoarthrit...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13400, 1117, 'Lf69f100f-c766-490f-9143-5e8e0c8cb7c9', 500.0, NULL, 6, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION The usual dosage of Ipratropium Bromide Inhalation Solution is 500 mcg (1 Unit-Dose vial) administered three to four times a day by oral nebulization, with doses 6 to 8 hours apart. Ipratropium Bromide Inhalation Solution Unit-Dose vials contain 500 mcg ipratropium bromide anhydrous in 2.5 mL normal saline. Ipratropium Bromide Inhalation Solution can be mixed in the nebulizer with albuterol or metaproterenol if used within one hour. Drug stability and safety of Ipratrop...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13401, 31342, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13402, 2836, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13403, 21862, '347c802f-4ea9-41d4-80d6-e4a183f22179', 80.0, NULL, 24, 7, 'Standard Dose: 80.0mg. DOSAGE AND ADMINISTRATION The patient should be placed on a standard cholesterol-lowering diet before receiving lovastatin tablets and should continue on this diet during treatment with lovastatin tablets (see NCEP Treatment Guidelines for details on dietary therapy). Lovastatin tablets should be given with meals. Adult Patients The usual recommended starting dose is 20 mg once a day given with the evening meal. The recommended dosing range is 10-80 mg/day in single or two divided doses; the max...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13404, 4586, 'a1e2c14f-0682-4b19-9159-de0aca1960c6', 5.0, NULL, NULL, 7, 'Standard Dose: 5.0mg. DOSAGE AND ADMINISTRATION When Lidocaine Ointment 5% is used concomitantly with other products containing lidocaine, the total dose contributed by all formulations must be kept in mind. Adult A single application should not exceed 5 g of Lidocaine Ointment 5%, containing 250 mg of lidocaine base (equivalent chemically to approximately 300 mg of lidocaine hydrochloride). This is roughly equivalent to squeezing a six (6) inch length of ointment from the tube. In a 70 kg adult this dose equals 3.6 ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13405, 17457, 'N/A', 0.0, NULL, 24, 7, 'علاج التشقق الجلدي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13406, 22118, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13407, 29916, 'c6d3c1ff-d873-4903-befa-c0ba47034c6e', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION Cefprozil for oral suspension is administered orally. Population/Infection Dosage (mg) Duration (days) ADULTS (13 years and older) UPPER RESPIRATORY TRACT Pharyngitis/Tonsillitis 500 q24h 10 a Acute Sinusitis 250 q12h or 10 (For moderate to severe infections, the higher dose should be used) 500 q12h LOWER RESPIRATORY TRACT Secondary Bacterial Infection of Acute Bronchitis and Acute Bacterial Exacerbation of Chronic Bronchitis 500 q12h 10 SKIN AND SKIN STRUCTURE Uncompli', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13408, 8218, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13409, 16177, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13410, 17494, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13411, 17940, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13412, 27014, 'cb18564f-663f-4da2-9dd9-700ea9bdd398', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 General Dosing InformationThe recommended dose of ZETIA is 10 mg once daily. ZETIA can be administered with or without food. 2.2 Concomitant Lipid-Lowering TherapyZETIA may be administered with a statin (in patients with primary hyperlipidemia) or with fenofibrate (in patients with mixed hyperlipidemia) for incremental effect. For convenience, the daily dose of ZETIA may be taken at the same time as the statin or fenofibrate, according to the dosing recommendation...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13413, 27247, 'f2149727-c2df-41b0-97f1-45ea75e0aa1a', 0.0, NULL, 24, 7, '2. DOSAGE AND ADMINISTRATION The starting dose should be individualized based on the type of diabetes and whether the patient is insulin-naïve (2.1, 2.2, 2.3) Administer subcutaneously once daily at any time of day, but at the same time every day. (2.1) Rotate injection sites within an injection area (abdomen, thigh, or deltoid) to reduce the risk of lipodystrophy. (2.1) Converting from other insulin therapies may require adjustment of timing and dose of LANTUS. Closely monitor glucoses especial', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13414, 24061, '23fc71d7-0367-4e71-848a-ed72957bd230', 0.05, NULL, 24, 7, 'Standard Dose: 0.05mg. DOSAGE AND ADMINISTRATION Central Diabetes InsipidusThe dosage of desmopressin acetate tablets must be determined for each individual patient and adjusted according to the diurnal pattern of response. Response should be estimated by two parameters: adequate duration of sleep and adequate, not excessive, water turnover. Patients previously on intranasal desmopressin acetate therapy should begin tablet therapy twelve hours after the last intranasal dose. During the initial dose titration period, p...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13415, 11135, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13416, 17127, '856ecdad-a8e0-4bda-a217-cd7948ddfa59', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. 2 DOSAGE AND ADMINISTRATION Valproate Sodium Injection is intended for intravenous use only. Epilepsy Complex Partial Seizures in Adults and Children 10 years of age or older: Initial dose is 10 to 15 mg/kg/day, increasing at 1 week intervals by 5 to 10 mg/kg/day to achieve optimal clinical response. Maximum recommended dose is 60 mg/kg/day ( 2.1) Simple and Complex Absence Seizures: Initial dose is 10 to 15 mg/kg/day, increasing at 1 week intervals by 5 to 10 mg/kg/day to achieve optimal clinic...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13417, 14287, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13418, 8033, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13419, 8887, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13420, 14412, '10f918f7-4782-470e-a50e-35c7c66bfd79', 150.0, NULL, 24, 7, 'Standard Dose: 150.0mg. DOSAGE AND ADMINISTRATION Obstructive Sleep Apnea (OSA) and Narcolepsy The recommended dose of NUVIGIL for patients with OSA or narcolepsy is 150 mg or 250 mg given as a single dose in the morning. In patients with OSA, doses up to 250 mg/day, given as a single dose, have been well tolerated, but there is no consistent evidence that this dose confers additional benefit beyond that of the 150 mg/day dose (See CLINICAL PHARMACOLOGY and CLINICAL TRIALS ). Shift Work Sleep Disorder (SWD) The recomme...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13421, 19408, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13422, 5532, 'c68bb847-5d17-4d63-99d4-e72f92a31392', 8.0, NULL, 24, 7, 'Standard Dose: 8.0mg. DOSAGE AND ADMINISTRATION There is no fixed dosage regimen for the management of diabetes mellitus with glimepiride or any other hypoglycemic agent. The patient’s fasting blood glucose and HbA1c must be measured periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of adequate blood glucose lowering response after an init...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13423, 17297, '5e7fad97-2e62-4f1c-92aa-ea1318c3db09', 40.0, NULL, 24, 7, 'Standard Dose: 40.0mg. 2. DOSAGE AND ADMINISTRATION Duloxetine should generally be administered once daily without regard to meals. Duloxetine delayed-release capsules should be swallowed whole and should not be chewed or crushed, nor should the capsule be opened and its contents be sprinkled on food or mixed with liquids (2). Indication Recommended Dose MDD (2.1, 2.2) Acute Treatment: 40 mg/day (20 mg twicedaily) to 60 mg/day (once daily or as 30 mgtwice daily); Maintenance Treatment: 60 mg/day GAD(2.1) 60 mg/day (on...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13424, 9205, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13425, 14681, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13426, 29256, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13427, 32362, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13428, 18226, 'db16d6b9-3b89-431d-97f9-9b4a8300e913', 125.0, NULL, 24, 7, 'Standard Dose: 125.0mg. 2 DOSAGE AND ADMINISTRATION Prevention of Chemotherapy Induced Nausea and Vomiting (2.1) EMEND is given for 3 days as part of the chemotherapy induced nausea and vomiting (CINV) regimen that includes a corticosteroid and a 5-HT3 antagonist. (2.1) The recommended dose of EMEND is 125 mg orally 1 hour prior to chemotherapy treatment (Day 1) and 80 mg orally once daily in the morning on Days 2 and 3. (2.1) EMEND (fosaprepitant dimeglumine) for Injection may be substituted for oral EMEND (125 mg) on...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13429, 22241, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13430, 3665, '5d8db96a-c0f5-44c5-aadd-72433ea30e46', 12.0, NULL, 24, 7, 'Standard Dose: 12.0mg. DOSAGE AND ADMINISTRATION Dosage and Administration in Adults: Single Dose Vaginal candidiasis: The recommended dosage of fluconazole for vaginal candidiasis is 150 mg as a single oral dose. Multiple Dose SINCE ORAL ABSORPTION IS RAPID AND ALMOST COMPLETE, THE DAILY DOSE OF FLUCONAZOLE IS THE SAME FOR ORAL TABLETS AND INTRAVENOUS ADMINISTRATION. In general, a loading dose of twice the daily dose is recommended on the first day of therapy to result in plasma concentrations close to steady-state b...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13431, 13087, '4801d296-7194-4c8c-895d-0dc1a3e6eb25', 15.0, 45.0, NULL, 7, 'Standard Dose: 15.0mg. DOSAGE AND ADMINISTRATION Initial Treatment The recommended starting dose for mirtazapine tablet, USP is 15 mg/day, administered in a single dose, preferably in the evening prior to sleep. In the controlled clinical trials establishing the efficacy of mirtazapine tablets, USP in the treatment of major depressive disorder, the effective dose range was generally 15-45 mg/day. While the relationship between dose and satisfactory response in the treatment of major depressive disorder for mirtazapine...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13432, 23604, 'a323ebd8-ef1b-439b-93d1-ba73a5b0127d', 30.0, NULL, NULL, 7, 'Standard Dose: 30.0mg. DOSAGE AND ADMINISTRATION DO NOT ADMINISTER NIMODIPINE CAPSULES INTRAVENOUSLY OR BY OTHER PARENTERAL ROUTES (see WARNINGS ). If nimodipine is inadvertently administered intravenously, clinically significant hypotension may require cardiovascular support with pressor agents. Specific treatments for calcium channel blocker overdose should also be given promptly. Nimodipine is given orally in the form of soft gelatin 30 mg capsules for subarachnoid hemorrhage. The recommended oral dose is 60 mg (tw...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13433, 18156, '8609ed02-0b30-4c82-bab1-4d51d92ec224', 20.0, NULL, NULL, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Indication Adult Pediatric MDD (2.1) 20 mg/day in am (initial dose) 10 to 20 mg/day (initial dose) OCD (2.2) 20 mg/day in am (initial dose) 10 mg/day (initial dose) Bulimia Nervosa (2.3) 60 mg/day in am - Panic Disorder (2.4) 10 mg/day (initial dose) - Depressive Episodes Associated with Bipolar I Disorder (2.5) Oral in combination with olanzapine: 5 mg of oral olanzapine and 20 mg of fluoxetine once daily (initial dose) - Consider tapering the dose of fluoxetine for ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13434, 16874, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13435, 10865, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13436, 30004, '082A3791-20C6-4FFA-A113-B60128344381', 6.0, NULL, 24, 7, 'Standard Dose: 6.0mg. DOSAGE AND ADMINISTRATION Alprazolam extended-release tablets may be administered once daily, preferably in the morning. The tablets should be taken intact; they should not be chewed, crushed, or broken. The suggested total daily dose ranges between 3 to 6 mg/day. Dosage should be individualized for maximum beneficial effect. While the suggested total daily dosages given will meet the needs of most patients, there will be some patients who require doses greater than 6 mg/day. In such cases, dosa...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13437, 32513, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13438, 28623, '45a7e3c2-8527-4447-90fe-07ce688f25d3', 0.0, NULL, 24, 7, 'DOSAGE AND ADMINISTRATION The dose is one drop of Dorzolamide HCl Ophthalmic Solution in the affected eye(s) three times daily. Dorzolamide HCl Ophthalmic Solution may be used concomitantly with other topical ophthalmic drug products to lower intraocular pressure. If more than one topical ophthalmic drug is being used, the drugs should be administered at least ten minutes apart.', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13439, 15605, 'N/A', 0.0, NULL, 24, 7, 'غسول مهبلي مضاد للالتهابات والافرازات والروائح الكريهة', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13440, 21114, '26b5e5e8-45cd-4a98-9af4-2d04c1130881', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2 DOSAGE AND ADMINISTRATION •Take orally once daily with or without food at the same time each day. (2.1) •For patients requiring a high-intensity statin or are unable to achieve their LDL-C goal receiving pitavastatin tablets 4 mg daily, prescribe alternative LDL-C-lowering treatment. (2.1) •Assess LDL-C when clinically appropriate, as early as 4 weeks after initiation of pitavastatin tablets, and adjust the dosage if necessary. (2.1) •Recommended dosage is 2 mg to 4 mg once daily. Maximum reco...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13441, 33818, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13442, 26644, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13443, 9293, 'f4f54d5b-32f7-4765-8702-50a78c9d657e', 0.25, NULL, 24, 7, 'Standard Dose: 0.25mg. DOSAGE AND ADMINISTRATION Otitis Externa The recommended dosage regimen for the treatment of otitis externa is: For pediatric patients (from 6 months to 13 years old): Five drops (0.25 mL, 0.75 mg ofloxacin) instilled into the affected ear once daily for seven days. For patients 13 years and older: Ten drops (0.5 mL, 1.5 mg ofloxacin) instilled into the affected ear once daily for seven days. The solution should be warmed by holding the bottle in the hand for one or two minutes to avoid dizzines...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13444, 24740, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13445, 32293, '60bee69b-be70-412c-9e83-a24a0a8a5e7b', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. 2 DOSAGE AND ADMINISTRATION Use this formulation of Vancomycin Injection only in patients who require the entire (500 mg, 750 mg, 1 g, 1.25 g, 1.5 g, 1.75 g or 2 g) dose and not any fraction thereof. (2.1) For intravenous use only. Do Not administer orally. Administer Vancomycin Injection by intravenous infusion over 60 minutes or greater to reduce the risk of infusion reactions (2.1) Adult Patients: 2 g divided either as 0.5 grams (g) every 6 hours or 1 g every 12 hours (2.2) Pediatric Patients...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13446, 27980, 'c13bc0b8-7900-4ef4-98ed-e1315a08d95d', 200.0, NULL, 24, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION (see table below)Monitoring of blood levels has increased the efficacy and safety of anticonvulsants (see PRECAUTIONS, Laboratory Tests). Dosage should be adjusted to the needs of the individual patient. A low initial daily dosage with a gradual increase is advised. As soon as adequate control is achieved, the dosage may be reduced very gradually to the minimum effective level. Medication should be taken with meals.Conversion of patients from oral carbamazepine tablets ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13447, 28771, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13448, 24553, 'N/A', 0.0, NULL, 24, 7, 'مسكن -- خافض للحرارة -- امن علي الحوامل والمرضعات -- مسكن للصداع -- مسكن لالام الاسنان -- مسكن لاعراض البرد -- لالام العظام -- امن على المعدة -- امن للاطفال -- امن لمرضى الضغط والسكر', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13449, 29322, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13450, 29358, 'N/A', 0.0, NULL, 24, 7, 'غسول مهبلي للتنظيف -- تقليل الالتهابات و الحكة و الاحمرار -- اعطاء المهبل رائحة زكية', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13451, 21520, '1310e776-65c8-413d-aab5-81a8c15719c5', 50.0, 300.0, 24, 7, 'Standard Dose: 50.0mg. 2 DOSAGE AND ADMINISTRATION VIMPAT may be taken with or without food. When using VIMPAT oral solution, it is recommended that a calibrated measuring device be obtained and used. A household teaspoon or tablespoon is not an adequate measuring device. Healthcare providers should recommend a device that can measure and deliver the prescribed dose accurately, and provide instructions for measuring the dosage. Partial-onset seizures (2.1): Initially, give 50 mg twice daily (100 mg/day). The dose may ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13452, 24004, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13453, 30086, '92018a65-38f6-45f7-91d4-a34921b81d0d', 5.0, 7.5, 24, 7, 'Standard Dose: 5.0mg. 2. DOSAGE AND ADMINIST R ATION Adult and pediatric patients greater than 40 kg Starting dose is 2.5 (pediatrics and vulnerable adults) or 5 mg twice daily with food. After 2 weeks of treatment, adjust dose based on heart rate. The maximum dose is 7.5 mg twice daily. (2.1) Pediatric patients less than 40 kg Starting dose is 0.05 mg/kg twice daily with food. Adjust dose at two-week intervals by 0.05 mg/kg based on heart rate. Maximum dose is 0.2 mg/kg (patients 6 months to less than 1 year old) or...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13454, 19273, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13455, 15485, 'c899b329-cc5e-4443-8e94-451314de47c9', 0.0, NULL, 24, 7, '2 DOSAGE AND ADMINISTRATION Apply a pea-sized amount once daily to each of the five areas of the face: central forehead, chin, nose, each cheek. Brimonidine topical gel should be applied smoothly and evenly as a thin layer across the entire face avoiding the eyes and lips. Wash hands after applying brimonidine topical gel. Brimonidine topical gel is for topical use only and not for oral, ophthalmic, or intravaginal use. •Apply a pea-sized amount once daily to each of the five areas of the face (', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13456, 29076, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13457, 27237, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13458, 20072, 'ba17a773-7f7a-4cc5-9297-359decedfed0', 220.0, NULL, 24, 7, 'Standard Dose: 220.0mg. 2 DOSAGE AND ADMINISTRATION Administer ASMANEX TWISTHALER by the orally inhaled route only. Instruct patients to inhale rapidly and deeply. Advise patients to rinse the mouth after inhalation. Individual patients will experience a variable time to onset and degree of symptom relief. Maximum benefit may not be achieved for 1 to 2 weeks or longer after initiation of treatment. After asthma stability has been achieved, it is desirable to titrate to the lowest effective dosage to reduce the possibil...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13459, 25754, 'N/A', 0.0, NULL, 24, 7, 'كريم يساعد علي التئام الجروح __ يعمل علي اخفاء اثار الندبات والجروح __ تفتيح الجلد وتوحيد لون الجلد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13460, 2259, 'a401a44e-2c5c-4c4a-81d8-56a3ef9d57f7', 500.0, NULL, 24, 7, 'Standard Dose: 500.0mg. DOSAGE AND ADMINISTRATION Adults Dosage and route of administration should be determined by susceptibility of the causative organisms, severity of the infection, and the condition of the patient (see table for dosage guideline). Cefotaxime for injection may be administered IM or IV after reconstitution. The maximum daily dosage should not exceed 12 grams. GUIDELINES FOR DOSAGE OF CEFOTAXIME FOR INJECTION Type of Infection Daily Dose grams) Frequency and Route Gonococcal urethritis/cervicitis in ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13461, 17609, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13462, 11262, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13463, 29635, 'N/A', 0.0, NULL, 24, 7, 'مقوي للرجال', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13464, 3287, 'cf4d2e56-eb0d-43c9-b44b-764381a23326', 240.0, NULL, NULL, 7, 'Standard Dose: 240.0mg. DOSAGE AND ADMINISTRATION For oral administrationDOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE AND THE RESPONSE OF THE PATIENT.The initial dosage varies from 20 to 240 mg a day depending on the disease being treated. In less severe diseases doses lower than 20 mg may suffice, while in severe diseases doses higher than 240 mg may be required. The initial dosage should be maintained or adjusted until the patient''s response is satisfactory. If satisfactory ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13465, 25348, 'N/A', 0.0, NULL, 24, 7, 'لوشن لترطيب وتغذية الشعر ومنع التساقط والهيشان وملئ الفراغات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13466, 3769, 'A4FD2D68-019F-4C89-8923-4E61262F6EEE', 25.0, NULL, NULL, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Diclofenac sodium may be administered as 25 mg, 50 mg, or 75 mg delayed-release tablets. Regardless of the indication, the dosage of diclofenac should be individualized to the lowest effective dose to minimize adverse effects (see CLINICAL PHARMACOLOGY: Individualization of Dosage) Osteoarthritis: The recommended dosage is 100 to 150 mg/day in divided doses, 50 mg b.i.d. or t.i.d. or 75 mg b.i.d. Dosages above 150 mg/day have not been studied in patients with osteoarthr...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13467, 9044, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13468, 24253, 'N/A', 0.0, NULL, 24, 7, '1- تفتيح وتبييض لون البشرة .', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13469, 13208, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13470, 29725, '78987a51-82f7-4ca6-80ad-fa22d1f3e11a', 200.0, NULL, NULL, 7, 'Standard Dose: 200.0mg. DOSAGE AND ADMINISTRATION Adults and children 12 years of age and older: One to 2 tablets (200 mg to 400 mg) every four hours, not to exceed 2400 mg (12 tablets) in 24 hours. PATIENTS SHOULD BE ADVISED TO KEEP THESE AND ALL DRUGS OUT OF THE REACH OF CHILDREN AND TO SEEK PROFESSIONAL ASSISTANCE OR CONTACT A POISON CONTROL CENTER IMMEDIATELY IN CASE OF ACCIDENTAL OVERDOSE....', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13471, 6435, 'N/A', 0.0, NULL, 24, 7, 'مضاد تقلصات الجهاز البولي', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13472, 845, 'f9e04064-6b9e-4209-8149-8761f29d1cec', 2.0, NULL, 24, 7, 'Standard Dose: 2.0mg. 2DOSAGE AND ADMINISTRATION Initial Dose Titration Target Dose Effective Dose Range Schizophrenia – adults (2.1) 2 mg/day 1 to 2 mg daily 4 to 8 mg daily 4 to 16 mg / day Bipolar mania- adults (2.2) 2 to 3 mg / day 1 mg daily 1 to 6 mg / day 1 to 6 mg / day 2.1Schizophrenia AdultsUsual Initial DoseRisperidone can be administered once or twice daily. Initial dosing is generally 2 mg/day. Dose increases should then occur at intervals not less than 24 hours, in increments of 1 to 2 mg/day, as tolera...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13473, 32010, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13474, 11207, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13475, 4954, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13476, 135, 'dcc29902-1fe6-4713-947e-335503959464', 800.0, NULL, 24, 7, 'Standard Dose: 800.0mg. DOSAGE AND ADMINISTRATION Acute Treatment of Herpes Zoster:800 mg every 4 hours orally, 5 times daily for 7 to 10 days. Genital Herpes: Treatment of Initial Genital Herpes:200 mg every 4 hours, 5 times daily for 10 days. Chronic Suppressive Therapy for Recurrent Disease:400 mg 2 times daily for up to 12 months, followed by re-evaluation. Alternative regimens have included doses ranging from 200 mg 3 times daily to 200 mg 5 times daily. The frequency and severity of episodes of untreated genital ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13477, 19315, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13478, 6317, 'a7b85288-9099-4c20-beb7-ee2be484c9b9', 25.0, NULL, 24, 7, 'Standard Dose: 25.0mg. DOSAGE AND ADMINISTRATION Captopril should be taken one hour before meals. Dosage must be individualized. Hypertension Initiation of therapy requires consideration of recent antihypertensive drug treatment, the extent of blood pressure elevation, salt restriction, and other clinical circumstances. If possible, discontinue the patient’s previous antihypertensive drug regimen for one week before starting captopril. The initial dose of captopril is 25 mg b.i.d. or t.i.d. If satisfactory reduction o...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13479, 27997, '61bf535a-3ed5-4c50-b285-6dcee0624c2d', 360.0, NULL, 24, 7, 'Standard Dose: 360.0mg. DOSAGE AND ADMINISTRATION Patients controlled on diltiazem alone or in combination with other medications may be switched to diltiazem hydrochloride extended-release capsules at the nearest equivalent total daily dose. Higher doses of diltiazem hydrochloride extended-release capsules may be needed in some patients. Patients should be closely monitored. Subsequent titration to higher or lower doses may be necessary and should be initiated as clinically warranted. There is limited general clinical...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13480, 32301, '66ef201f-85eb-44f0-9ef0-1b618c6e0bff', 10.0, NULL, 24, 7, 'Standard Dose: 10.0mg. 2 DOSAGE AND ADMINISTRATION 2.1 Schizophrenia Usual Dose — Oral olanzapine should be administered on a once-a-day schedule without regard to meals, generally beginning with 5 to 10 mg initially, with a target dose of 10 mg/day within several days. Further dosage adjustments, if indicated, should generally occur at intervals of not less than 1 week, since steady state for olanzapine would not be achieved for approximately 1 week in the typical patient. When dosage adjustments are necessary, dose ...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13481, 9925, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13482, 20288, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13483, 20810, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13484, 30233, 'N/A', 0.0, NULL, 24, 7, 'مكمل غذائى مضاد للسعال ويدعم الجهاز التنفسي ويخفف من اعراض البرد', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13485, 30036, 'dcc29902-1fe6-4713-947e-335503959464', 800.0, NULL, 24, 7, 'Standard Dose: 800.0mg. DOSAGE AND ADMINISTRATION Acute Treatment of Herpes Zoster:800 mg every 4 hours orally, 5 times daily for 7 to 10 days. Genital Herpes: Treatment of Initial Genital Herpes:200 mg every 4 hours, 5 times daily for 10 days. Chronic Suppressive Therapy for Recurrent Disease:400 mg 2 times daily for up to 12 months, followed by re-evaluation. Alternative regimens have included doses ranging from 200 mg 3 times daily to 200 mg 5 times daily. The frequency and severity of episodes of untreated genital ...', 'General', 'DailyMed', 1);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13486, 7300, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13487, 28816, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13488, 18864, 'a3d17e8d-a8ce-4e1a-9ec2-13736af1d7b5', 60.0, NULL, 24, 7, 'Standard Dose: 60.0mg. DOSAGE AND ADMINISTRATION Seasonal Allergic Rhinitis Adults and Children 12 Years and OlderThe recommended dose of Fexofenadine Hydrochloride Tablets is 60 mg twice daily, or 180 mg once daily with water. A dose of 60 mg once daily is recommended as the starting dose in patients with decreased renal function (see CLINICAL PHARMACOLOGY). Children 6 to 11 YearsThe recommended dose of Fexofenadine Hydrochloride Tablets is 30 mg twice daily with water. A dose of 30 mg once daily is recommended as th...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13489, 22369, 'N/A', 0.0, NULL, 24, 7, 'للتأخير للرجال', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13490, 4181, '0cc52ac5-77ec-4d66-a770-762a1a960914', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. 2 DOSAGE AND ADMINISTRATION Recommended Dosage: Healing of Erosive Esophagitis: 20 mg once daily for 8 weeks. (2.1) Maintenance of Healed Erosive Esophagitis: 10 mg once daily for up to 6 months. (2.1) Relief of Heartburn Associated with Non-Erosive Gastroesophageal Reflux Disease: 10 mg once daily for 4 weeks. (2.1) Treatment of H. pylori Infection: see full prescribing information. (2.1) See also full prescribing information for the recommended dosage by indication for patients with renal or h...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13491, 23423, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13492, 19427, 'N/A', 0.0, NULL, 24, 7, 'مساج جل لالام العضلات', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13493, 20838, '27e95caf-7938-ef8e-e063-6394a90a6a1a', 30.0, NULL, 24, 7, 'Standard Dose: 30.0mg. 2 DOSAGE AND ADMINISTRATION • Non-valvular Atrial Fibrillation in Adult Patients: o For patients with CrCl >30 mL/min: 150 mg orally, twice daily ( 2.2) o For patients with CrCl 15 to 30 mL/min: 75 mg orally, twice daily ( 2.2) • Treatment of DVT and PE in Adult Patients : o For patients with CrCl > 30 mL/min: 150 mg orally, twice daily after 5-10 days of parenteral anticoagulation ( 2.2) • Reduction in the Risk of Recurrence of DVT and PE in Adult Patients: o For patients with CrCl > 30 mL/min:...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13494, 7510, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13495, 4000, 'N/A', 0.0, NULL, 24, 7, 'يطيل عمر الخلايا العصبية بالدماغ', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13496, 4575, 'N/A', 0.0, NULL, 24, 7, 'اسبرين', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13497, 16897, '24bc527e-c682-4c66-964e-c21d31eca5dd', 20.0, NULL, 24, 7, 'Standard Dose: 20.0mg. DOSAGE AND ADMINISTRATION In controlled clinical trials, single doses of 5, 10, or 20 mg of sumatriptan nasal spray administered into 1 nostril were effective for the acute treatment of migraine in adults. A greater proportion of patients had headache response following a 20-mg dose than following a 5- or 10-mg dose (see CLINICAL TRIALS). Individuals may vary in response to doses of Sumatriptan Nasal Spray. The choice of dose should therefore be made on an individual basis, weighing the possible...', 'General', 'DailyMed', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13498, 757, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13499, 26669, 'N/A', 0.0, NULL, 24, 7, 'لوشن للحماية من اشعة الشمس -- يحافظ علي الجلد موحد اللون', 'General', 'Local_Scraper', 0);
+INSERT OR IGNORE INTO dosage_guidelines (id, med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric) VALUES (13500, 12322, 'N/A', 0.0, NULL, 24, 7, 'See package insert', 'General', 'Local_Scraper', 0);

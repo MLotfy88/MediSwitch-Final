@@ -22,6 +22,10 @@ CREATE TABLE drugs (
     qr_code TEXT,
     visits INTEGER,
     last_price_update TEXT,
+    indication TEXT,
+    mechanism_of_action TEXT,
+    pharmacodynamics TEXT,
+    data_source_pharmacology TEXT,
     has_drug_interaction INTEGER DEFAULT 0,
     has_food_interaction INTEGER DEFAULT 0,
     has_disease_interaction INTEGER DEFAULT 0

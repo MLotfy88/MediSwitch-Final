@@ -2,12 +2,13 @@
 
 ### CHECKPOINT 146
 **Date:** 2026-01-02
-**Goal:** Fix D1 Sync Error (food_interactions schema mismatch).
+**Goal:** Final & Rigid D1 Sync Fix (Explicit Schema Mapping).
 **Changes:**
-- **Script:** Updated `export_mediswitch_to_sql.py` to explicitly map `interaction_text` to `interaction` for the `food_interactions` table.
-- **Flutter:** Updated `DatabaseHelper.dart` to include the `severity` column in the `disease_interactions` table, ensuring consistency with the D1 schema.
-- **CI/CD:** Updated `sync-d1.yml` to trigger on changes to `d1_sql_chunks/**` and the export script itself.
-- **Verification:** Regenerated SQL chunks and pushed all changes to GitHub.
+- **Explicit Mapping**: Rewrote `export_mediswitch_to_sql.py` to use 100% explicit column mapping for all 6 tables. This eliminates any reliance on local column names (like camelCase) and ensures perfect alignment with D1.
+- **Handling Missing Columns**: Added logic to handle local columns missing in SQLite (e.g., `alternatives`, `ddinter_id`, `updated_at`) by providing default `NULL` or `0` values in the SQL chunks.
+- **Full Database Export**: Added a missing export function for the `med_ingredients` table and updated the sync workflow accordingly.
+- **Consistency**: Verified that `01_schema.sql` and `DatabaseHelper.dart` are perfectly synchronized in terms of structure and snake_case naming.
+- **Verification**: Regenerated ~1,000 SQL chunks and verified they contain the correct `INSERT` statements with explicit column lists.
 
 ### CHECKPOINT 145
 **Date:** 2025-01-10

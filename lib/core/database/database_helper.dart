@@ -44,6 +44,10 @@ class DatabaseHelper {
   static const String colQrCode = 'qr_code';
   static const String colVisits = 'visits';
   static const String colLastPriceUpdate = 'last_price_update';
+  static const String colIndication = 'indication';
+  static const String colMechanismOfAction = 'mechanism_of_action';
+  static const String colPharmacodynamics = 'pharmacodynamics';
+  static const String colDataSourcePharmacology = 'data_source_pharmacology';
 
   Future<Database> get database async {
     if (_database != null) return _database!;
@@ -191,6 +195,10 @@ class DatabaseHelper {
             $colQrCode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
+            $colIndication TEXT,
+            $colMechanismOfAction TEXT,
+            $colPharmacodynamics TEXT,
+            $colDataSourcePharmacology TEXT,
             has_drug_interaction INTEGER DEFAULT 0,
             has_food_interaction INTEGER DEFAULT 0,
             has_disease_interaction INTEGER DEFAULT 0
@@ -276,40 +284,17 @@ class DatabaseHelper {
         arabic_effect TEXT,
         recommendation TEXT,
         arabic_recommendation TEXT,
-        management_text TEXT, -- New: Clinical Advice
-        mechanism_text TEXT,  -- New: Mechanism
-        alternatives_a TEXT,  -- New: Safe Alternatives A (JSON)
-        alternatives_b TEXT,  -- New: Safe Alternatives B (JSON)
-        risk_level TEXT,      -- New: DDInter Risk Level
-        ddinter_id TEXT,      -- New: Link to DDInter DB
+        management_text TEXT,
+        mechanism_text TEXT,
+        alternatives_a TEXT,
+        alternatives_b TEXT,
+        risk_level TEXT,
+        ddinter_id TEXT,
         source TEXT,
         type TEXT,
         updated_at INTEGER DEFAULT 0
       )
     ''');
-    // Migration for existing users
-    try {
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN management_text TEXT',
-      );
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN mechanism_text TEXT',
-      );
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN alternatives_a TEXT',
-      );
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN alternatives_b TEXT',
-      );
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN risk_level TEXT',
-      );
-      await db.execute(
-        'ALTER TABLE $interactionsTable ADD COLUMN ddinter_id TEXT',
-      );
-    } catch (e) {
-      debugPrint('Columns might already exist: $e');
-    }
 
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_rules_i1 ON $interactionsTable(ingredient1)',
@@ -402,6 +387,10 @@ class DatabaseHelper {
         colVisits,
         colLastPriceUpdate,
         colQrCode,
+        colIndication,
+        colMechanismOfAction,
+        colPharmacodynamics,
+        colDataSourcePharmacology,
         'has_drug_interaction',
         'has_food_interaction',
         'has_disease_interaction',

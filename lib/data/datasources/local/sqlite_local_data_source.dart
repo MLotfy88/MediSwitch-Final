@@ -287,8 +287,8 @@ class SqliteLocalDataSource {
 
       List<String> ingredients = [];
       // Try precise map first
-      if (ingredientsMap.containsKey(med.tradeName)) {
-        final dynamic mapped = ingredientsMap[med.tradeName];
+      if (ingredientsMap.containsKey(med.trade_name)) {
+        final dynamic mapped = ingredientsMap[med.trade_name];
         if (mapped is List) {
           ingredients =
               mapped.map((e) => e.toString().toLowerCase().trim()).toList();
@@ -1035,7 +1035,7 @@ class SqliteLocalDataSource {
       }
 
       // Step 1: Get distinct trade_names from food_interactions table
-      final List<Map<String, dynamic>> tradeNames = await db.rawQuery(
+      final List<Map<String, dynamic>> trade_names = await db.rawQuery(
         '''
         SELECT DISTINCT trade_name 
         FROM ${DatabaseHelper.foodInteractionsTable}
@@ -1045,17 +1045,17 @@ class SqliteLocalDataSource {
       );
 
       _logger.d(
-        '[getDrugsWithFoodInteractions] Found ${tradeNames.length} unique trade names with food interactions',
+        '[getDrugsWithFoodInteractions] Found ${trade_names.length} unique trade names with food interactions',
       );
 
       // DEBUG: Print first 5 trade names from food_interactions
-      if (tradeNames.isNotEmpty) {
+      if (trade_names.isNotEmpty) {
         _logger.d(
-          '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${tradeNames.take(5).map((e) => e['trade_name']).toList()}',
+          '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${trade_names.take(5).map((e) => e['trade_name']).toList()}',
         );
       }
 
-      if (tradeNames.isEmpty) {
+      if (trade_names.isEmpty) {
         return [];
       }
 
@@ -1064,9 +1064,9 @@ class SqliteLocalDataSource {
       int matchAttempts = 0;
       int matchesFound = 0;
 
-      for (final row in tradeNames) {
-        final tradeName = row['trade_name'] as String?;
-        if (tradeName == null || tradeName.isEmpty) continue;
+      for (final row in trade_names) {
+        final trade_name = row['trade_name'] as String?;
+        if (trade_name == null || trade_name.isEmpty) continue;
 
         matchAttempts++;
         // Limit extensive logging to first 10 attempts
@@ -1076,7 +1076,7 @@ class SqliteLocalDataSource {
         var drugs = await db.query(
           DatabaseHelper.medicinesTable,
           where: 'LOWER(${DatabaseHelper.colTradeName}) = LOWER(?)',
-          whereArgs: [tradeName.trim()],
+          whereArgs: [trade_name.trim()],
           limit: 1,
         );
 
@@ -1085,18 +1085,18 @@ class SqliteLocalDataSource {
           drugs = await db.query(
             DatabaseHelper.medicinesTable,
             where: 'LOWER(${DatabaseHelper.colTradeName}) LIKE LOWER(?)',
-            whereArgs: ['%${tradeName.trim()}%'],
+            whereArgs: ['%${trade_name.trim()}%'],
             limit: 1,
           );
           if (logDetail) {
             _logger.d(
-              '[getDrugsWithFoodInteractions] Exact match failed for "$tradeName". LIKE match found: ${drugs.length}',
+              '[getDrugsWithFoodInteractions] Exact match failed for "$trade_name". LIKE match found: ${drugs.length}',
             );
           }
         } else {
           if (logDetail) {
             _logger.d(
-              '[getDrugsWithFoodInteractions] Exact match success for "$tradeName"',
+              '[getDrugsWithFoodInteractions] Exact match success for "$trade_name"',
             );
           }
         }
@@ -1234,7 +1234,7 @@ class SqliteLocalDataSource {
       if (maps.isNotEmpty) {
         // Sample first result
         _logger.d(
-          '[getHighRiskMedicines] Sample drug: ${maps.first['tradeName']}',
+          '[getHighRiskMedicines] Sample drug: ${maps.first['trade_name']}',
         );
       }
 

@@ -21,6 +21,12 @@ class DrugEntity extends Equatable {
   final int visits; // New Field
   final String lastPriceUpdate;
 
+  // Clinical Data Fields
+  final String? indication;
+  final String? mechanismOfAction;
+  final String? pharmacodynamics;
+  final String? dataSourcePharmacology;
+
   // Interaction Flags for UI
   final bool hasDrugInteraction;
   final bool hasFoodInteraction;
@@ -53,6 +59,10 @@ class DrugEntity extends Equatable {
     this.qrCode,
     this.visits = 0,
     required this.lastPriceUpdate,
+    this.indication,
+    this.mechanismOfAction,
+    this.pharmacodynamics,
+    this.dataSourcePharmacology,
     this.isPopular = false,
     this.isNew = false,
     this.hasDrugInteraction = false,
@@ -100,6 +110,10 @@ class DrugEntity extends Equatable {
       qrCode: qrCode,
       visits: visits,
       lastPriceUpdate: lastPriceUpdate,
+      indication: indication,
+      mechanismOfAction: mechanismOfAction,
+      pharmacodynamics: pharmacodynamics,
+      dataSourcePharmacology: dataSourcePharmacology,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
       hasDiseaseInteraction: hasDiseaseInteraction,
@@ -128,6 +142,10 @@ class DrugEntity extends Equatable {
     qrCode,
     visits,
     lastPriceUpdate,
+    indication,
+    mechanismOfAction,
+    pharmacodynamics,
+    dataSourcePharmacology,
     isPopular,
     isNew,
     hasDrugInteraction,

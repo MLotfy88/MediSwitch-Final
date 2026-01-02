@@ -1,7 +1,6 @@
 import 'dart:convert';
 
-import '../../core/database/database_helper.dart'; // Import DatabaseHelper for column names
-import '../../domain/entities/drug_entity.dart'; // Import DrugEntity
+import '../../domain/entities/drug_entity.dart';
 
 class MedicineModel extends DrugEntity {
   const MedicineModel({
@@ -23,6 +22,10 @@ class MedicineModel extends DrugEntity {
     super.qrCode,
     super.visits = 0,
     required super.lastPriceUpdate,
+    super.indication,
+    super.mechanismOfAction,
+    super.pharmacodynamics,
+    super.dataSourcePharmacology,
     super.hasDrugInteraction = false,
     super.hasFoodInteraction = false,
     super.hasDiseaseInteraction = false,
@@ -64,10 +67,6 @@ class MedicineModel extends DrugEntity {
     // CSV Header: id,trade_name,arabic_name,active,category,company,price,old_price,last_price_update,units,barcode,qr_code,pharmacology,usage,visits,concentration,dosage_form,dosage_form_ar
     final cat = row.length > 4 ? _parseString(row[4]) : '';
     final pharm = row.length > 12 ? _parseString(row[12]) : '';
-    final desc =
-        row.length > 12
-            ? _parseString(row[12])
-            : ''; // Use pharmacology as fallback for description
 
     return MedicineModel(
       id: row.isNotEmpty ? _parseInt(row[0]) : 0,
@@ -90,26 +89,30 @@ class MedicineModel extends DrugEntity {
       concentration: row.length > 15 ? _parseString(row[15]) : '',
       dosageForm: row.length > 16 ? _parseString(row[16]) : '',
       dosageFormAr: row.length > 17 ? _parseString(row[17]) : '',
+      indication: row.length > 18 ? _parseString(row[18]) : null,
+      mechanismOfAction: row.length > 19 ? _parseString(row[19]) : null,
+      pharmacodynamics: row.length > 20 ? _parseString(row[20]) : null,
+      dataSourcePharmacology: row.length > 21 ? _parseString(row[21]) : null,
       hasDrugInteraction:
-          row.length > 18
-              ? (row[18] == 1 ||
-                  row[18] == '1' ||
-                  row[18] == true ||
-                  row[18] == 'true')
+          row.length > 22
+              ? (row[22] == 1 ||
+                  row[22] == '1' ||
+                  row[22] == true ||
+                  row[22] == 'true')
               : false,
       hasFoodInteraction:
-          row.length > 19
-              ? (row[19] == 1 ||
-                  row[19] == '1' ||
-                  row[19] == true ||
-                  row[19] == 'true')
+          row.length > 23
+              ? (row[23] == 1 ||
+                  row[23] == '1' ||
+                  row[23] == true ||
+                  row[23] == 'true')
               : false,
       hasDiseaseInteraction:
-          row.length > 20
-              ? (row[20] == 1 ||
-                  row[20] == '1' ||
-                  row[20] == true ||
-                  row[20] == 'true')
+          row.length > 24
+              ? (row[24] == 1 ||
+                  row[24] == '1' ||
+                  row[24] == true ||
+                  row[24] == 'true')
               : false,
     );
   }
@@ -136,6 +139,10 @@ class MedicineModel extends DrugEntity {
       barcode: _parseString(json['barcode']),
       qrCode: _parseString(json['qr_code']),
       visits: _parseInt(json['visits']),
+      indication: _parseString(json['indication']),
+      mechanismOfAction: _parseString(json['mechanism_of_action']),
+      pharmacodynamics: _parseString(json['pharmacodynamics']),
+      dataSourcePharmacology: _parseString(json['data_source_pharmacology']),
       hasDrugInteraction:
           json['has_drug_interaction'] == 1 ||
           json['has_drug_interaction'] == true,
@@ -150,24 +157,28 @@ class MedicineModel extends DrugEntity {
 
   Map<String, dynamic> toMap() {
     return {
-      DatabaseHelper.colId: id,
-      DatabaseHelper.colTradeName: tradeName,
-      DatabaseHelper.colArabicName: arabicName,
-      DatabaseHelper.colPrice: price,
-      DatabaseHelper.colOldPrice: oldPrice,
-      DatabaseHelper.colActive: active,
-      DatabaseHelper.colCompany: company,
-      DatabaseHelper.colDosageForm: dosageForm,
-      DatabaseHelper.colDosageFormAr: dosageFormAr,
-      DatabaseHelper.colConcentration: concentration,
-      DatabaseHelper.colUnit: unit,
-      DatabaseHelper.colUsage: usage,
-      DatabaseHelper.colCategory: category,
-      DatabaseHelper.colPharmacology: pharmacology,
-      DatabaseHelper.colBarcode: barcode,
-      DatabaseHelper.colQrCode: qrCode,
-      DatabaseHelper.colVisits: visits,
-      DatabaseHelper.colLastPriceUpdate: lastPriceUpdate,
+      'id': id,
+      'trade_name': tradeName,
+      'arabic_name': arabicName,
+      'price': price,
+      'old_price': oldPrice,
+      'active': active,
+      'company': company,
+      'dosage_form': dosageForm,
+      'dosage_form_ar': dosageFormAr,
+      'concentration': concentration,
+      'unit': unit,
+      'usage': usage,
+      'category': category,
+      'pharmacology': pharmacology,
+      'barcode': barcode,
+      'qr_code': qrCode,
+      'visits': visits,
+      'last_price_update': lastPriceUpdate,
+      'indication': indication,
+      'mechanism_of_action': mechanismOfAction,
+      'pharmacodynamics': pharmacodynamics,
+      'data_source_pharmacology': dataSourcePharmacology,
       'has_drug_interaction': hasDrugInteraction ? 1 : 0,
       'has_food_interaction': hasFoodInteraction ? 1 : 0,
       'has_disease_interaction': hasDiseaseInteraction ? 1 : 0,
@@ -176,24 +187,28 @@ class MedicineModel extends DrugEntity {
 
   factory MedicineModel.fromMap(Map<String, dynamic> map) {
     return MedicineModel(
-      id: map[DatabaseHelper.colId] as int?,
-      tradeName: map[DatabaseHelper.colTradeName]?.toString() ?? '',
-      arabicName: map[DatabaseHelper.colArabicName]?.toString() ?? '',
-      price: map[DatabaseHelper.colPrice]?.toString() ?? '',
-      oldPrice: map[DatabaseHelper.colOldPrice]?.toString() ?? '',
-      active: map[DatabaseHelper.colActive]?.toString() ?? '',
-      company: map[DatabaseHelper.colCompany]?.toString() ?? '',
-      dosageForm: map[DatabaseHelper.colDosageForm]?.toString() ?? '',
-      dosageFormAr: map[DatabaseHelper.colDosageFormAr]?.toString() ?? '',
-      concentration: map[DatabaseHelper.colConcentration]?.toString() ?? '',
-      unit: map[DatabaseHelper.colUnit]?.toString() ?? '',
-      usage: map[DatabaseHelper.colUsage]?.toString() ?? '',
-      category: map[DatabaseHelper.colCategory]?.toString() ?? '',
-      pharmacology: map[DatabaseHelper.colPharmacology]?.toString() ?? '',
-      barcode: map[DatabaseHelper.colBarcode]?.toString() ?? '',
-      qrCode: map[DatabaseHelper.colQrCode]?.toString() ?? '',
-      visits: map[DatabaseHelper.colVisits] as int? ?? 0,
-      lastPriceUpdate: map[DatabaseHelper.colLastPriceUpdate]?.toString() ?? '',
+      id: map['id'] as int?,
+      tradeName: map['trade_name']?.toString() ?? '',
+      arabicName: map['arabic_name']?.toString() ?? '',
+      price: map['price']?.toString() ?? '',
+      oldPrice: map['old_price']?.toString() ?? '',
+      active: map['active']?.toString() ?? '',
+      company: map['company']?.toString() ?? '',
+      dosageForm: map['dosage_form']?.toString() ?? '',
+      dosageFormAr: map['dosage_form_ar']?.toString() ?? '',
+      concentration: map['concentration']?.toString() ?? '',
+      unit: map['unit']?.toString() ?? '',
+      usage: map['usage']?.toString() ?? '',
+      category: map['category']?.toString() ?? '',
+      pharmacology: map['pharmacology']?.toString() ?? '',
+      barcode: map['barcode']?.toString() ?? '',
+      qrCode: map['qr_code']?.toString() ?? '',
+      visits: map['visits'] as int? ?? 0,
+      lastPriceUpdate: map['last_price_update']?.toString() ?? '',
+      indication: map['indication']?.toString(),
+      mechanismOfAction: map['mechanism_of_action']?.toString(),
+      pharmacodynamics: map['pharmacodynamics']?.toString(),
+      dataSourcePharmacology: map['data_source_pharmacology']?.toString(),
       hasDrugInteraction:
           map['has_drug_interaction'] == 1 ||
           map['has_drug_interaction'] == true,
@@ -229,6 +244,10 @@ class MedicineModel extends DrugEntity {
       qrCode: qrCode,
       visits: visits,
       lastPriceUpdate: lastPriceUpdate,
+      indication: indication,
+      mechanismOfAction: mechanismOfAction,
+      pharmacodynamics: pharmacodynamics,
+      dataSourcePharmacology: dataSourcePharmacology,
       hasDrugInteraction: hasDrugInteraction,
       hasFoodInteraction: hasFoodInteraction,
       hasDiseaseInteraction: hasDiseaseInteraction,
@@ -266,6 +285,10 @@ class MedicineModel extends DrugEntity {
       qrCode: entity.qrCode,
       visits: entity.visits,
       lastPriceUpdate: entity.lastPriceUpdate,
+      indication: entity.indication,
+      mechanismOfAction: entity.mechanismOfAction,
+      pharmacodynamics: entity.pharmacodynamics,
+      dataSourcePharmacology: entity.dataSourcePharmacology,
       hasDrugInteraction: entity.hasDrugInteraction,
       hasFoodInteraction: entity.hasFoodInteraction,
       hasDiseaseInteraction: entity.hasDiseaseInteraction,
