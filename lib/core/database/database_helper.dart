@@ -48,6 +48,7 @@ class DatabaseHelper {
   static const String colMechanismOfAction = 'mechanism_of_action';
   static const String colPharmacodynamics = 'pharmacodynamics';
   static const String colDataSourcePharmacology = 'data_source_pharmacology';
+  static const String colUpdatedAt = 'updated_at';
 
   Future<Database> get database async {
     if (_database != null) return _database!;
@@ -187,7 +188,7 @@ class DatabaseHelper {
             $colCompany TEXT,
             $colDosageForm TEXT,
             $colDosageFormAr TEXT,
-            $colConcentration TEXT,
+            $colConcentration REAL,
             $colUnit TEXT,
             $colUsage TEXT,
             $colPharmacology TEXT,
@@ -195,6 +196,7 @@ class DatabaseHelper {
             $colQrCode TEXT,
             $colVisits INTEGER,
             $colLastPriceUpdate TEXT,
+            $colUpdatedAt INTEGER DEFAULT 0,
             $colIndication TEXT,
             $colMechanismOfAction TEXT,
             $colPharmacodynamics TEXT,
@@ -391,6 +393,7 @@ class DatabaseHelper {
         colMechanismOfAction,
         colPharmacodynamics,
         colDataSourcePharmacology,
+        colUpdatedAt,
         'has_drug_interaction',
         'has_food_interaction',
         'has_disease_interaction',

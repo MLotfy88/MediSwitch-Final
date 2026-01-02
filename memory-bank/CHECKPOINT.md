@@ -1,5 +1,15 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 147
+**Date:** 2026-01-02
+**Goal:** Root Cause Resolution - Unified Snake_Case Schema.
+**Changes:**
+- **Local DB Migration**: Ran a migration script to standardize `mediswitch.db` columns to `snake_case` (e.g., `tradeName` -> `trade_name`).
+- **Flutter Model Alignment**: Updated `MedicineModel` and `DrugEntity` to include clinical data columns (`indication`, `mechanism_of_action`, `pharmacodynamics`) and mapped them correctly.
+- **Data Source Standard**: Unified `SqliteLocalDataSource` to use `snake_case` strings for all DB queries, eliminating hardcoded camelCase.
+- **Rigid Export**: Streamlined `export_mediswitch_to_sql.py` to be a direct mirror of the now-standardized local DB.
+- **Schema Parity**: Verified that `01_schema.sql` and `DatabaseHelper` are 100% identical in structure.
+
 ### CHECKPOINT 146
 **Date:** 2026-01-02
 **Goal:** Final & Rigid D1 Sync Fix (Explicit Schema Mapping).

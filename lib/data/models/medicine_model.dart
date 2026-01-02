@@ -22,6 +22,7 @@ class MedicineModel extends DrugEntity {
     super.qrCode,
     super.visits = 0,
     required super.lastPriceUpdate,
+    super.updatedAt = 0,
     super.indication,
     super.mechanismOfAction,
     super.pharmacodynamics,
@@ -89,30 +90,31 @@ class MedicineModel extends DrugEntity {
       concentration: row.length > 15 ? _parseString(row[15]) : '',
       dosageForm: row.length > 16 ? _parseString(row[16]) : '',
       dosageFormAr: row.length > 17 ? _parseString(row[17]) : '',
-      indication: row.length > 18 ? _parseString(row[18]) : null,
-      mechanismOfAction: row.length > 19 ? _parseString(row[19]) : null,
-      pharmacodynamics: row.length > 20 ? _parseString(row[20]) : null,
-      dataSourcePharmacology: row.length > 21 ? _parseString(row[21]) : null,
+      updatedAt: row.length > 18 ? _parseInt(row[18]) : 0,
+      indication: row.length > 19 ? _parseString(row[19]) : null,
+      mechanismOfAction: row.length > 20 ? _parseString(row[20]) : null,
+      pharmacodynamics: row.length > 21 ? _parseString(row[21]) : null,
+      dataSourcePharmacology: row.length > 22 ? _parseString(row[22]) : null,
       hasDrugInteraction:
-          row.length > 22
-              ? (row[22] == 1 ||
-                  row[22] == '1' ||
-                  row[22] == true ||
-                  row[22] == 'true')
-              : false,
-      hasFoodInteraction:
           row.length > 23
               ? (row[23] == 1 ||
                   row[23] == '1' ||
                   row[23] == true ||
                   row[23] == 'true')
               : false,
-      hasDiseaseInteraction:
+      hasFoodInteraction:
           row.length > 24
               ? (row[24] == 1 ||
                   row[24] == '1' ||
                   row[24] == true ||
                   row[24] == 'true')
+              : false,
+      hasDiseaseInteraction:
+          row.length > 25
+              ? (row[25] == 1 ||
+                  row[25] == '1' ||
+                  row[25] == true ||
+                  row[25] == 'true')
               : false,
     );
   }
@@ -139,6 +141,7 @@ class MedicineModel extends DrugEntity {
       barcode: _parseString(json['barcode']),
       qrCode: _parseString(json['qr_code']),
       visits: _parseInt(json['visits']),
+      updatedAt: _parseInt(json['updated_at']),
       indication: _parseString(json['indication']),
       mechanismOfAction: _parseString(json['mechanism_of_action']),
       pharmacodynamics: _parseString(json['pharmacodynamics']),
@@ -175,6 +178,7 @@ class MedicineModel extends DrugEntity {
       'qr_code': qrCode,
       'visits': visits,
       'last_price_update': lastPriceUpdate,
+      'updated_at': updatedAt,
       'indication': indication,
       'mechanism_of_action': mechanismOfAction,
       'pharmacodynamics': pharmacodynamics,
@@ -205,6 +209,7 @@ class MedicineModel extends DrugEntity {
       qrCode: map['qr_code']?.toString() ?? '',
       visits: map['visits'] as int? ?? 0,
       lastPriceUpdate: map['last_price_update']?.toString() ?? '',
+      updatedAt: map['updated_at'] as int? ?? 0,
       indication: map['indication']?.toString(),
       mechanismOfAction: map['mechanism_of_action']?.toString(),
       pharmacodynamics: map['pharmacodynamics']?.toString(),

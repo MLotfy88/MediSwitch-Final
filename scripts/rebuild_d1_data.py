@@ -46,7 +46,8 @@ def process_drugs():
     header = """INSERT OR IGNORE INTO drugs (
         id, trade_name, arabic_name, price, old_price, category,
         active, company, dosage_form, dosage_form_ar, concentration, unit, usage,
-        pharmacology, barcode, qr_code, visits, last_price_update,
+        pharmacology, barcode, qr_code, visits, last_price_update, updated_at,
+        indication, mechanism_of_action, pharmacodynamics, data_source_pharmacology,
         has_drug_interaction, has_food_interaction, has_disease_interaction
     ) VALUES"""
     
@@ -72,16 +73,21 @@ def process_drugs():
                     row.get('dosage_form', ''),                # dosage_form
                     row.get('dosage_form_ar', ''),             # dosage_form_ar
                     row.get('concentration', ''),              # concentration
-                    row.get('units', ''),                      # unit (note: CSV has 'units')
+                    row.get('unit', '') or row.get('units', ''), # unit
                     row.get('usage', ''),                      # usage
                     row.get('pharmacology', ''),               # pharmacology
                     row.get('barcode', ''),                    # barcode
                     row.get('qr_code', ''),                    # qr_code
-                    int(row.get('visits', 0)) if row.get('visits', '').isdigit() else 0,  # visits
+                    int(row.get('visits', 0)) if str(row.get('visits', '')).isdigit() else 0,  # visits
                     row.get('last_price_update', ''),          # last_price_update
-                    0,                                          # has_drug_interaction
-                    0,                                          # has_food_interaction
-                    0                                           # has_disease_interaction
+                    int(row.get('updated_at', 0)) if str(row.get('updated_at', '')).isdigit() else 0, # updated_at
+                    row.get('indication', ''),                 # indication
+                    row.get('mechanism_of_action', ''),        # mechanism_of_action
+                    row.get('pharmacodynamics', ''),           # pharmacodynamics
+                    row.get('data_source_pharmacology', ''),   # data_source_pharmacology
+                    int(row.get('has_drug_interaction', 0)) if str(row.get('has_drug_interaction', '')).isdigit() else 0,
+                    int(row.get('has_food_interaction', 0)) if str(row.get('has_food_interaction', '')).isdigit() else 0,
+                    int(row.get('has_disease_interaction', 0)) if str(row.get('has_disease_interaction', '')).isdigit() else 0
                 ]
                 
                 sql_rows.append(f"({', '.join(map(escape_sql, vals))})")

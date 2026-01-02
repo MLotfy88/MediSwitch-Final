@@ -208,9 +208,9 @@ def sync_to_d1(updates):
             
             sql = f"""
             INSERT OR REPLACE INTO drugs 
-            (id, trade_name, arabic_name, price, old_price, active, company, dosage_form, description, last_price_update, unit, pharmacology, qr_code, updated_at)
+            (id, trade_name, arabic_name, price, old_price, category, active, company, dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology, barcode, qr_code, visits, last_price_update, updated_at, indication, mechanism_of_action, pharmacodynamics, data_source_pharmacology, has_drug_interaction, has_food_interaction, has_disease_interaction)
             VALUES 
-            ({mid}, {val('trade_name')}, {val('arabic_name')}, {val('price')}, {val('old_price')}, {val('active')}, {val('company')}, {val('dosage_form')}, {val('usage')}, {val('last_price_update')}, {val('units')}, {val('pharmacology')}, {val('qr_code')}, CURRENT_TIMESTAMP);
+            ({mid}, {val('trade_name')}, {val('arabic_name')}, {val('price')}, {val('old_price')}, {val('category')}, {val('active')}, {val('company')}, {val('dosage_form')}, {val('dosage_form_ar')}, {val('concentration')}, {val('unit')}, {val('usage')}, {val('pharmacology')}, {val('barcode')}, {val('qr_code')}, {val('visits')}, {val('last_price_update')}, strftime('%s','now'), {val('indication')}, {val('mechanism_of_action')}, {val('pharmacodynamics')}, {val('data_source_pharmacology')}, {r.get('has_drug_interaction', 0)}, {r.get('has_food_interaction', 0)}, {r.get('has_disease_interaction', 0)});
             """
             sql_statements += sql.strip() + "\n"
         

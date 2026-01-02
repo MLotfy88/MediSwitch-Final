@@ -70,11 +70,12 @@ def main():
     try:
         # Standardized direct export
         export_table(conn, "drugs", "d1_import", columns=[
-            "id", "trade_name", "arabic_name", "price", "old_price", "category", "active", "company",
-            "dosage_form", "dosage_form_ar", "concentration", "unit", "usage", "pharmacology",
-            "barcode", "qr_code", "visits", "last_price_update", "indication", "mechanism_of_action",
-            "pharmacodynamics", "data_source_pharmacology", "has_drug_interaction", "has_food_interaction",
-            "has_disease_interaction"
+            "id", "trade_name", "arabic_name", "price", "old_price", "category",
+            "active", "company", "dosage_form", "dosage_form_ar", "concentration",
+            "unit", "usage", "pharmacology", "barcode", "qr_code", "visits",
+            "last_price_update", "updated_at", "indication", "mechanism_of_action",
+            "pharmacodynamics", "data_source_pharmacology", "has_drug_interaction",
+            "has_food_interaction", "has_disease_interaction"
         ])
         
         export_table(conn, "drug_interactions", "d1_rules", chunk_size=300)
