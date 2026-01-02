@@ -3,14 +3,18 @@
  * With Authentication & Subscriptions
  */
 
-// CORS headers
-const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-};
+import {
+  corsHeaders,
+  generateId,
+  hashPassword,
+  jsonResponse,
+  verifyPassword
+} from './utils.js';
 
-// Utilities are imported from utils.js via concatenation
+// Use exported corsHeaders as CORS_HEADERS for compatibility
+const CORS_HEADERS = corsHeaders;
+
+// Main request handler function
 
 // Main request handler function
 async function handleRequest(request, env) {
@@ -810,6 +814,97 @@ async function handleRequest(request, env) {
       }
     }
 
+    // Dosage Guidelines - Admin Listing
+    if (path === '/api/dosages' && request.method === 'GET') {
+      try {
+        const page = parseInt(url.searchParams.get('page') || '1');
+        const limit = Math.min(parseInt(url.searchParams.get('limit') || '50'), 100);
+        const search = url.searchParams.get('search') || '';
+        const sortBy = url.searchParams.get('sortBy') || 'id';
+        const sortOrder = url.searchParams.get('sortOrder') || 'ASC';
+        const offset = (page - 1) * limit;
+
+        let query = 'SELECT * FROM dosage_guidelines WHERE 1=1';
+        const params = [];
+
+        if (search) {
+          query += ' AND (instructions LIKE ? OR condition LIKE ? OR source LIKE ?)';
+          const pattern = `%${search}%`;
+          params.push(pattern, pattern, pattern);
+        }
+
+        const validSorts = ['id', 'med_id', 'min_dose', 'max_dose', 'frequency', 'duration', 'source'];
+        const sort = validSorts.includes(sortBy) ? sortBy : 'id';
+        const order = sortOrder.toUpperCase() === 'DESC' ? 'DESC' : 'ASC';
+
+        query += ` ORDER BY ${sort} ${order} LIMIT ? OFFSET ?`;
+        params.push(limit, offset);
+
+        const { results } = await env.DB.prepare(query).bind(...params).all();
+        const { total } = await env.DB.prepare('SELECT COUNT(*) as total FROM dosage_guidelines').first();
+
+        return jsonResponse({
+          data: results,
+          pagination: { page, limit, total }
+        });
+      } catch (e) {
+        return jsonResponse({ error: e.message }, 500);
+      }
+    }
+
+    // Dosage Guidelines - Single CRUD
+    if (path.match(/^\/api\/dosages\/[^/]+$/)) {
+      const id = path.split('/').pop();
+
+      if (request.method === 'GET') {
+        const result = await env.DB.prepare('SELECT * FROM dosage_guidelines WHERE id = ?').bind(id).first();
+        if (!result) return jsonResponse({ error: 'Not found' }, 404);
+        return jsonResponse({ data: result });
+      }
+
+      if (request.method === 'DELETE') {
+        await env.DB.prepare('DELETE FROM dosage_guidelines WHERE id = ?').bind(id).run();
+        return jsonResponse({ message: 'Deleted successfully' });
+      }
+
+      if (request.method === 'PUT') {
+        const updates = await request.json();
+        const fields = [];
+        const params = [];
+        const allowed = ['min_dose', 'max_dose', 'frequency', 'duration', 'instructions', 'condition', 'is_pediatric'];
+
+        for (const key of allowed) {
+          if (updates[key] !== undefined) {
+            fields.push(`${key} = ?`);
+            params.push(updates[key]);
+          }
+        }
+
+        if (fields.length > 0) {
+          params.push(id);
+          await env.DB.prepare(`UPDATE dosage_guidelines SET ${fields.join(', ')} WHERE id = ?`).bind(...params).run();
+        }
+        return jsonResponse({ message: 'Updated successfully' });
+      }
+    }
+
+    if (path === '/api/dosages' && request.method === 'POST') {
+      const data = await request.json();
+      const { med_id, instructions, source } = data;
+      if (!med_id || !instructions) return jsonResponse({ error: 'med_id and instructions required' }, 400);
+
+      await env.DB.prepare(`
+        INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `).bind(
+        med_id, data.dailymed_setid || null, data.min_dose || 0, data.max_dose || null,
+        data.frequency || 0, data.duration || 0, instructions, data.condition || '',
+        source || 'Admin', data.is_pediatric ? 1 : 0
+      ).run();
+
+      return jsonResponse({ message: 'Created successfully' }, 201);
+    }
+
     // Delta Sync Alias (Backward Compatibility)
     if (path.startsWith('/api/drugs/delta/') && request.method === 'GET') {
       const parts = path.split('/');
@@ -1070,11 +1165,14 @@ async function handleRequest(request, env) {
 
     // 404
     return jsonResponse({ error: 'Not found' }, 404);
+  } catch (e) {
+    return jsonResponse({ error: e.message || 'Server Error' }, 500);
+  }
+}
 
-
-    // Event listener (Service Worker format)
-    export default {
-      async fetch(request, env, ctx) {
-        return handleRequest(request, env);
-      }
-    };
+// Event listener (Service Worker format)
+export default {
+  async fetch(request, env, ctx) {
+    return handleRequest(request, env);
+  }
+};

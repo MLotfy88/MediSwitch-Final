@@ -1,114 +1,44 @@
-# 🎯 آخر تحديث - 23 ديسمبر 2025
+# 🎯 السياق النشط (Active Context)
+*آخر تحديث: 2 يناير 2026*
 
-## ✅ الإنجازات المكتملة
+## 🚀 الحالة الحالية (Current Status)
+المشروع الآن في مرحلة **النشر والمزامنة النهائية** (Final Deployment & Sync) بعد إتمام نقلة نوعية في هيكلية البيانات والواجهة الخلفية.
 
-### Drug Data & Sync Optimization ✅ (NEW)
-- **Database Schema Sync:** Renamed `last_update` to `last_price_update` in D1 to match source `meds.csv`.
-- **Data Mapping Fixes:**
-  - Fixed `unit` field mapping (previously empty due to `units` vs `unit` mismatch).
-  - Linked `usage` from CSV to `description` in D1.
-- **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
-- **Improved Automation:** Updated `bridge_daily_update.py` and `export_to_d1.py` with robust mappings for daily sync.
-- **Frontend Alignment:** Updated `ClinicalLab` to display `Last Price Sync` and `System Update` separately for transparency.
-### Phase 2: UI & Startup Refinements ✅ (FINALIZED)
-- **Startup Experience:**
-  - Hardcoded English strings for carousel and footer (English-only UX).
-  - Increased carousel transition to 6s and slide duration to 1s.
-  - Implemented 5s smooth determinate progress bar.
-  - Removed legacy `flutter_native_splash` configuration.
-  - **Removed Onboarding Screen:** Deleted `onboarding_screen.dart` and removed its routing logic; app now starts directly in 5-6s.
-- **Interaction Data Integrity:**
-  - **Critical Fix:** Corrected database seeding in `SqliteLocalDataSource` to include `recommendation` and `arabic_recommendation` fields.
-  - Implemented fallback to `management_text` for clinical advice if specific recommendations are missing.
-- **Interaction UI Polish:**
-  - Further refined `InteractionBottomSheet` title font size (12.5sp) for premium look.
-  - Verified gravity-based sorting (Priority system) across all screens (Checker, Drug Details, Ingredient Details).
-  - **Simplified UI:** Removed `Reference ID` and `Source` chips as per user request to declutter the interface.
-  - **Data Verification:** Confirmed `mechanism_text` absence in enriched JSONs (technical gap) while verifying robustness of `risk_level` and `recommendation` display.
+### ✅ تم إنجازه مؤخراً
+1.  **هيكلية البيانات الجديدة (V16 Schema)**:
+    -   توحيد أسماء الأعمدة إلى `snake_case` في كامل النظام (SQLite, Scripts, D1, Flutter).
+    -   إثراء قاعدة البيانات بـ 58,000 تعارض مرضي و 6,000 تعارض غذائي من مصدر `DDInter` الموثوق.
+    -   إضافة حقول سريرية جديدة: `mechanism_text`, `management_text`, `severity`, `atc_codes`.
 
-### Phase 3: Critical Bug Fixes (Search)
-- **Issue**: "Failed to load data from database" error when searching for medicines.
-- **Root Cause**: The `searchMedicinesByName` method in `SqliteLocalDataSource` was querying a non-existent column `scientific_name`.
-- **Fix**: Replaced `scientific_name` with `active` (the correct column for active ingredient) in the SQL query.
-- **Verification**: Verified schema in `DatabaseHelper` and model mapping in `MedicineModel`.
+2.  **خط أنابيب البيانات (Data Pipeline)**:
+    -   إعادة بناء قاعدة البيانات المحلية `mediswitch.db` بالكامل (Clean Slate).
+    -   تصدير آمن للبيانات عبر `Stream Export` لتوليد ~700 ملف SQL صغير (`chunks`) جاهزة للرفع.
+    -   أتمتة عملية الرفع عبر GitHub Actions (`High-Fidelity D1 Sync`).
 
-### DDInter Data Integration ✅ (NEW)
-- **Massive Enrichment:** Integrated `DDInter` database (~1GB) with local app data.
-- **Enhanced Interactions:** Added "Clinical Management" advice and "Mechanism" validation text.
-- **Smart Matching:** Implemented a robust pipeline matching by Trade Name and Active Ingredients.
-- **Artifacts:** Generated 141 chunked JSON files optimized for mobile performance.
+3.  **تحديث الـ API (Cloudflare Worker)**:
+    -   إصلاح مشاكل `index.js` واعتماد نمط ES Modules.
+    -   إضافة نقاط مزامنة جديدة (`/api/sync/interactions/food`, `/api/sync/interactions/disease`).
+    -   نشر الـ Worker بنجاح إلى البيئة الحية.
 
-### Cloudflare Worker (Backend) ✅
-- **Database (D1):**
-  - تم بناء جداول المستخدمين، الاشتراكات، المدفوعات، الإعدادات.
-  - تم إضافة جداول **الإشعارات** (`notifications`, `push_subscriptions`, `scheduled_notifications`).
-  - تم ربط جدول `dosage_guidelines` بنجاح.
-- **API (v3.0):** تم نشر Worker محدث وشامل (`mediswitch-api`).
-- **Endpoints:**
-  - Auth, Admin (Users/Subs/Drugs/Dosages).
-  - **Notifications:** (Send, Broadcast, History, Delete).
-  - **Config:** إعدادات إعلانات دقيقة (Granular Ad Control).
+4.  **تحديث واجهة الإدارة (Admin Dashboard)**:
+    -   تعديل جداول عرض الأدوية والتفاعلات لتعرض الحقول الجديدة (Severity Badge, References).
+    -   إضافة نماذج إدخال للبيانات المثرية (Rich Data Input).
+    -   تفعيل صفحة **إدارة الجرعات** (Dosage Management) وربطها بالـ API الجديد.
 
-### Admin Dashboard (React) ✅
-- **Hosting:** Deployed on **Cloudflare Pages** (Fast, Secure, Global).
-- **Pages:**
-  - `DrugManagement`: (CRUD, Sorting, Search) متصل بـ D1.
-  - `InteractionsManagement`: إدارة التفاعلات الدوائية.
-  - `DosageManagement`: إدارة الجرعات.
-  - `NotificationsManagement`: إرسال وإدارة الإشعارات.
-  - `Monetization`: تحكم كامل في الإعلانات.
-- **Integration:** شاشات تعرض بيانات حقيقية وإحصائيات فعلية من D1.
+5.  **إثراء بيانات الجرعات (WHO Enrichment)**:
+    -   ربط المواد الفعالة ببيانات منظمة الصحة العالمية (WHO ATC/DDD 2024).
+    -   إثراء أكثر من 5,700 سجل جرعات ببيانات موثوقة وعلمية باللغة العربية.
+    -   تحديث الـ API لدعم عمليات الحذف والتعديل والإضافة للجرعات من لوحة الإدارة.
 
-### Flutter App (MediSwitch) ✅
-- **UI Refinements:**
-  - **High Risk Section:** Dedicated logic to identify and display high-risk drugs on the HomeScreen via `HighRiskDrugsCard`.
-  - **Drug Details Tabs:** Fully functional "Similars", "Alternatives", and "Interactions" tabs with smart matching logic.
-  - **Localization:** Search constraints and tab labels fixed.
-  - **Notifications:** Android 13+ support.
-- **Backend Sync & D1:**
-  - **Interaction Matching:** Resolved issues with interaction bridging; all drugs now link to interactions via automated `med_ingredients` population.
-  - **D1 Optimization:** Fixed `SQLITE_TOOBIG` errors during large data exports to D1.
-  - **Sync Logic:** Improved delta sync to handle batch processing of ingredient mapping for new drugs.
+## 🔭 التركيز الحالي (Current Focus)
+1.  **مزامنة البيانات (Data Sync)**: تشغيل Workflow المزامنة على GitHub لملء قاعدة بيانات D1 السحابية بـ 750+ ملف SQL.
+2.  **التحقق (Verification)**: التأكد من ظهور البيانات الجديدة (التفاعلات والجرعات المثرية) في تطبيق Flutter بعد المزامنة.
 
-# Active Context
+## 💡 القرارات النشطة (Active Decisions)
+-   **المصدر الوحيد للحقيقة**: قاعدة بيانات `Cloudflare D1` هي المرجع الأساسي، والتطبيق يقوم بسحب التحديثات منها محلياً (Offline-First cache).
+-   **البيانات النظيفة**: تم اعتماد سياسة "إعادة البناء" (Rebuild) بدلاً من "الترقيع" (Patching) لضمان سلامة البيانات بنسبة 100%.
+-   **الأمان**: استخدام `CLOUDFLARE_API_TOKEN` حصرياً للنشر والمزامنة.
 
-## Active Decisions
-- **Schema Simplification:** Removed 6 outdated columns (`main_category`, `category_ar`, `usage_ar`, `description`, `image_url`, `updated_at`) from D1 and Flutter app to strictly align with available data and reduce maintenance overhead.
-- **Strict Sync:** `rebuild_d1_data.py` is now the single source of truth for D1 structure, matching the 21-column schema.
-- **Startup Optimization:** Initialization logic now runs in background; splash screen unblocked immediately.
-
-## Current Focus
--   **Verification:** User needs to run `sync-d1` workflow to populate the new D1 schema.
--   **Testing:** Verify app launches and displays data correctly with new `MedicineModel`.
-
----
-
-## 📁 الحالة الحالية
-
-```
-MediSwitch-Final/
-├── lib/                     # Flutter App
-├── admin-dashboard/         # React (Cloudflare Pages)
-├── cloudflare-worker/       # Backend API (Cloudflare Workers + D1)
-└── memory-bank/             # Documentation
-```
-
----
-
-## 🎯 المهام القادمة
-
-### Final Phase: Launch Prep
-1. ⏳ **Store Deployment:** Prepare Play Store listing.
-2. ⏳ **User Testing:** Beta release for selected users.
-
----
-
-## Latest Updates
-- **🚀 RELEASE v2.0.0:** Project promoted to version 2.0.0 to reflect the major architecture shift (D1 Database, Admin Dashboard, New Flutter UI) compared to the prototyping phase.
-- **Automated CI/CD:** Implemented "Nightly" releases with auto-incrementing build numbers (e.g., `2.0.0.45`) and SemVer support.
-- **Database:** Full "Clean Slate" rebuild workflow established (`rebuild-full-database.yml`).
-
-## 📝 ملاحظات
-- **Worker URL:** `https://mediswitch-api.admin-lotfy.workers.dev`
-- **Admin Dashboard:** `https://admin.mediswitch.pages.dev` (Example URL)
-- **Tech Stack:** Cloudflare Ecosystem (Worker, D1, Pages) + Flutter.
+## 🚧 التحديات والمخاطر المتبقية
+-   **حجم البيانات**: حجم البيانات المثرى كبير نسبياً، لذا يجب مراقبة أداء المزامنة الأولى على أجهزة المستخدمين.
+-   **التوافق**: التأكد من أن جميع إصدارات التطبيق القديمة (إن وجدت) لن تتعارض مع الـ API الجديد (تم اعتماد Versioning v3.0).
