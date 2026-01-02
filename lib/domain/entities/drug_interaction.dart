@@ -2,6 +2,7 @@
 
 import 'package:equatable/equatable.dart';
 
+import 'disease_interaction.dart';
 import 'interaction_severity.dart'; // Import the enum
 import 'interaction_type.dart'; // Import the enum
 
@@ -62,6 +63,19 @@ class DrugInteraction extends Equatable {
       alternativesB: _parseAlternatives(json['alternatives_b']),
       source: json['source'] as String? ?? 'DailyMed',
       type: json['type'] as String? ?? 'pharmacodynamic',
+    );
+  }
+
+  /// Creates a DrugInteraction from a DiseaseInteraction for UI compatibility.
+  factory DrugInteraction.fromDisease(DiseaseInteraction disease) {
+    return DrugInteraction(
+      id: -1, // Dummy ID
+      ingredient1: disease.tradeName,
+      ingredient2: disease.diseaseName,
+      severity: disease.severity,
+      effect: disease.interactionText,
+      source: disease.source,
+      type: 'disease',
     );
   }
 

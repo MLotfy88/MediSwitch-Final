@@ -111,6 +111,10 @@
 - [x] Implement `NotificationsScreen`
 - [x] Interaction Checker & Dosage Calculator tools
 - [x] Ad Config Integration
+- [x] **Phase 6: UI Refinement**
+  - [x] Refactor interactions into compact cards.
+  - [x] Integrate detailed bottom sheet for all interaction types (Drug-Drug, Food, Disease).
+  - [x] Add severity support for disease interactions.
 - [x] Unified Sync System (Manual & Background)
 - [x] Fix High Risk Ingredient Names & Badge Display Issues (Dec 25, 2025)
   - Fixed SQL query to return original case ingredient names using MAX Length logic

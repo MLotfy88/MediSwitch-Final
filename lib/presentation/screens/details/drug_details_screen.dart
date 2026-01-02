@@ -14,6 +14,7 @@ import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
 import 'package:mediswitch/presentation/widgets/details/dosage_tab.dart';
+import 'package:mediswitch/presentation/widgets/interaction_bottom_sheet.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 import 'package:provider/provider.dart';
 
@@ -753,12 +754,25 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
               ...sortedInteractions.map(
                 (interaction) => Padding(
                   padding: const EdgeInsets.only(bottom: 12),
-                  child: InteractionCard(interaction: interaction),
+                  child: InteractionCard(
+                    interaction: interaction,
+                    showDetails: false,
+                    onTap: () => _showInteractionDetails(interaction),
+                  ),
                 ),
               ),
           ],
         );
       },
+    );
+  }
+
+  void _showInteractionDetails(DrugInteraction interaction) {
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => InteractionBottomSheet(interaction: interaction),
     );
   }
 
@@ -816,36 +830,15 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen>
           itemCount: interactions.length,
           separatorBuilder: (_, __) => const SizedBox(height: 16),
           itemBuilder: (context, index) {
-            final interaction = interactions[index];
-            return _buildCard(
-              title: interaction.diseaseName,
-              colorScheme: colorScheme,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    interaction.interactionText,
-                    style: TextStyle(
-                      fontSize: 14,
-                      height: 1.5,
-                      color: colorScheme.onSurface,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Align(
-                    alignment: AlignmentDirectional.centerEnd,
-                    child: Text(
-                      isRTL
-                          ? 'المصدر: ${interaction.source}'
-                          : 'Source: ${interaction.source}',
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: colorScheme.onSurfaceVariant,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+            final diseaseInteraction = interactions[index];
+            final drugInteraction = DrugInteraction.fromDisease(
+              diseaseInteraction,
+            );
+
+            return InteractionCard(
+              interaction: drugInteraction,
+              showDetails: false,
+              onTap: () => _showInteractionDetails(drugInteraction),
             ).animate().fadeIn(delay: (100 * index).ms).slideY(begin: 0.1);
           },
         );

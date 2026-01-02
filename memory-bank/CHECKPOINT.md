@@ -22,6 +22,7 @@
     - Added `priority` getter to `InteractionSeverity` extension for standardized sorting.
     - Ensured all interaction lists (Checker, Details) sort by severity descending (CI first).
     - Fixed critical compilation errors and imports across interaction screens.
+- [x] **UI Interaction Refactor**: Compact cards + Bottom Sheet integration completed for all types.
 - **Interaction Details:**
     - Redesigned `InteractionBottomSheet` with smaller title (18sp) and enriched data.
     - Added **Risk Level** and **Reference ID** fields.

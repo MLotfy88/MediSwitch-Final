@@ -46,6 +46,9 @@ class InteractionCard extends StatelessWidget {
                 '')
             : (interaction.recommendation ?? '');
 
+    final isFood = interaction.type == 'food';
+    final isDisease = interaction.type == 'disease';
+
     return Card(
       elevation: 0,
       margin: EdgeInsets.zero,
@@ -57,85 +60,107 @@ class InteractionCard extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Row with circular icon and severity label + ingredients
               Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  // Circular icon container
+                  // Severity Icon Indicator
                   Container(
-                    width: 40,
-                    height: 40,
+                    width: 36,
+                    height: 36,
                     decoration: BoxDecoration(
-                      color: severityColor.withValues(alpha: 0.15),
-                      shape: BoxShape.circle,
+                      color: severityColor.withValues(alpha: 0.1),
+                      borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
                       child: Icon(
-                        _getSeverityIcon(interaction.severityEnum),
+                        isFood
+                            ? LucideIcons.apple
+                            : (isDisease
+                                ? LucideIcons.activity
+                                : _getSeverityIcon(interaction.severityEnum)),
                         color: severityColor,
-                        size: 20,
+                        size: 18,
                       ),
                     ),
                   ),
                   const SizedBox(width: 12),
-                  // Ingredients and severity label
+                  // Ingredients / Target
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '${interaction.ingredient1} + '
-                          '${interaction.ingredient2}',
+                          isDisease
+                              ? '${interaction.ingredient1} + ${interaction.ingredient2}'
+                              : (isFood
+                                  ? '${interaction.ingredient1} + ${isRTL ? 'طعام' : 'Food'}'
+                                  : '${interaction.ingredient1} + ${interaction.ingredient2}'),
                           style: TextStyle(
                             color: colorScheme.onSurface,
-                            fontWeight: FontWeight.w600,
-                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14,
                           ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                         ),
-                        const SizedBox(height: 4),
-                        // Severity label badge
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 2,
-                          ),
-                          decoration: BoxDecoration(
-                            color: severityColor.withValues(alpha: 0.15),
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Text(
-                            _getSeverityLabel(interaction.severityEnum),
-                            style: TextStyle(
-                              color: severityColor,
-                              fontWeight: FontWeight.w500,
-                              fontSize: 12,
+                        const SizedBox(height: 2),
+                        Row(
+                          children: [
+                            // Small Severity Dot + Label
+                            Container(
+                              width: 8,
+                              height: 8,
+                              decoration: BoxDecoration(
+                                color: severityColor,
+                                shape: BoxShape.circle,
+                              ),
                             ),
-                          ),
+                            const SizedBox(width: 6),
+                            Text(
+                              _getSeverityLabel(
+                                interaction.severityEnum,
+                                isRTL,
+                              ),
+                              style: TextStyle(
+                                color: severityColor,
+                                fontWeight: FontWeight.w600,
+                                fontSize: 11,
+                                letterSpacing: 0.2,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
                   ),
+                  if (!showDetails)
+                    Icon(
+                      isRTL
+                          ? LucideIcons.chevronLeft
+                          : LucideIcons.chevronRight,
+                      size: 16,
+                      color: colorScheme.onSurfaceVariant.withValues(
+                        alpha: 0.4,
+                      ),
+                    ),
                 ],
               ),
-
-              const SizedBox(height: 12),
-
               if (showDetails) ...[
+                const SizedBox(height: 12),
                 // Interaction Effect
                 if (effect.isNotEmpty)
                   Text(
                     effect,
                     style: TextStyle(
                       color: colorScheme.onSurfaceVariant,
-                      fontSize: 14,
+                      fontSize: 13,
                       height: 1.5,
                     ),
                   ),
-
                 if (recommendation.isNotEmpty) ...[
                   const SizedBox(height: 8),
                   Container(
@@ -145,66 +170,19 @@ class InteractionCard extends StatelessWidget {
                       color: severityColor.withValues(alpha: 0.05),
                       borderRadius: BorderRadius.circular(8),
                       border: Border.all(
-                        color: severityColor.withValues(alpha: 0.2),
+                        color: severityColor.withValues(alpha: 0.1),
                       ),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          isRTL ? 'التوصية:' : 'Recommendation:',
-                          style: TextStyle(
-                            color: severityColor,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 13,
-                          ),
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          recommendation,
-                          style: TextStyle(
-                            color: colorScheme.onSurface,
-                            fontSize: 13,
-                            height: 1.4,
-                          ),
-                        ),
-                      ],
+                    child: Text(
+                      recommendation,
+                      style: TextStyle(
+                        color: colorScheme.onSurface,
+                        fontSize: 13,
+                        height: 1.4,
+                      ),
                     ),
                   ),
                 ],
-                const SizedBox(height: 8),
-
-                if (effect.isEmpty && recommendation.isEmpty)
-                  Text(
-                    isRTL ? 'لا توجد تفاصيل متاحة.' : 'No details available.',
-                    style: TextStyle(
-                      color: colorScheme.onSurfaceVariant.withValues(
-                        alpha: 0.5,
-                      ),
-                      fontSize: 14,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
-              ] else ...[
-                // Compact Mode Hint
-                Row(
-                  children: [
-                    Text(
-                      isRTL ? 'اضغط لعرض التفاصيل' : 'Tap for details',
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: theme.colorScheme.primary.withValues(alpha: 0.8),
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    const SizedBox(width: 4),
-                    Icon(
-                      isRTL ? LucideIcons.arrowLeft : LucideIcons.arrowRight,
-                      size: 14,
-                      color: theme.colorScheme.primary.withValues(alpha: 0.8),
-                    ),
-                  ],
-                ),
               ],
             ],
           ),
@@ -250,21 +228,21 @@ class InteractionCard extends StatelessWidget {
     }
   }
 
-  String _getSeverityLabel(InteractionSeverity severity) {
+  String _getSeverityLabel(InteractionSeverity severity, bool isRTL) {
     // Localization can be added here
     switch (severity) {
       case InteractionSeverity.contraindicated:
-        return 'Contraindicated';
+        return isRTL ? 'ممنوع' : 'CI';
       case InteractionSeverity.severe:
-        return 'Severe Interaction';
+        return isRTL ? 'شديد' : 'Severe';
       case InteractionSeverity.major:
-        return 'Major Interaction';
+        return isRTL ? 'هام' : 'Major';
       case InteractionSeverity.moderate:
-        return 'Moderate Interaction';
+        return isRTL ? 'متوسط' : 'Moderate';
       case InteractionSeverity.minor:
-        return 'Minor Interaction';
+        return isRTL ? 'طفيف' : 'Minor';
       case InteractionSeverity.unknown:
-        return 'Unknown Severity';
+        return isRTL ? 'غير محدد' : 'N/A';
     }
   }
 }

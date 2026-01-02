@@ -6,12 +6,14 @@ class DiseaseInteractionModel extends DiseaseInteraction {
     required String tradeName,
     required String diseaseName,
     required String interactionText,
+    required String severity,
     String source = 'DDInter',
   }) : super(
          medId: medId,
          tradeName: tradeName,
          diseaseName: diseaseName,
          interactionText: interactionText,
+         severity: severity,
          source: source,
        );
 
@@ -21,6 +23,7 @@ class DiseaseInteractionModel extends DiseaseInteraction {
       tradeName: json['trade_name'] as String? ?? '',
       diseaseName: json['disease_name'] as String? ?? 'Unknown Disease',
       interactionText: json['interaction_text'] as String? ?? '',
+      severity: json['severity'] as String? ?? 'Major',
       source: json['source'] as String? ?? 'DDInter',
     );
   }
@@ -31,6 +34,7 @@ class DiseaseInteractionModel extends DiseaseInteraction {
       'trade_name': tradeName,
       'disease_name': diseaseName,
       'interaction_text': interactionText,
+      'severity': severity,
       'source': source,
     };
   }
@@ -41,6 +45,7 @@ class DiseaseInteractionModel extends DiseaseInteraction {
       tradeName: map['trade_name'] as String? ?? '',
       diseaseName: map['disease_name'] as String? ?? '',
       interactionText: map['interaction_text'] as String? ?? '',
+      severity: map['severity'] as String? ?? 'Major',
       source: map['source'] as String? ?? 'DDInter',
     );
   }

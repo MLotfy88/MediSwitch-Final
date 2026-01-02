@@ -22,12 +22,8 @@ class InteractionBottomSheet extends StatelessWidget {
     final isRTL = Directionality.of(context) == TextDirection.rtl;
     final isDark = theme.brightness == Brightness.dark;
 
-    final isFood =
-        interaction.type == 'food' ||
-        interaction.ingredient2.toLowerCase().contains('food') ||
-        interaction.ingredient2.toLowerCase().contains('diet') ||
-        interaction.ingredient2.toLowerCase().contains('grapefruit') ||
-        interaction.ingredient2.toLowerCase().contains('alcohol');
+    final isFood = interaction.type == 'food';
+    final isDisease = interaction.type == 'disease';
 
     final severityColor = _getSeverityColor(interaction.severityEnum);
     final severityIcon = _getSeverityIcon(interaction.severityEnum);
@@ -62,6 +58,7 @@ class InteractionBottomSheet extends StatelessWidget {
             theme,
             isRTL,
             isFood,
+            isDisease,
             severityColor,
             severityIcon,
             severityBgColor,
@@ -178,6 +175,7 @@ class InteractionBottomSheet extends StatelessWidget {
     ThemeData theme,
     bool isRTL,
     bool isFood,
+    bool isDisease,
     Color severityColor,
     IconData severityIcon,
     Color severityBgColor,
@@ -221,7 +219,9 @@ class InteractionBottomSheet extends StatelessWidget {
                           child: Text(
                             isFood
                                 ? (isRTL ? 'تفاعل غذائي' : 'Food')
-                                : (isRTL ? 'تفاعل دوائي' : 'Drug'),
+                                : (isDisease
+                                    ? (isRTL ? 'تحذير مرضي' : 'Disease')
+                                    : (isRTL ? 'تفاعل دوائي' : 'Drug')),
                             style: TextStyle(
                               color: severityColor,
                               fontWeight: FontWeight.w700,
@@ -231,7 +231,11 @@ class InteractionBottomSheet extends StatelessWidget {
                         ),
                         const SizedBox(width: 8),
                         Icon(
-                          isFood ? LucideIcons.apple : LucideIcons.pill,
+                          isFood
+                              ? LucideIcons.apple
+                              : (isDisease
+                                  ? LucideIcons.activity
+                                  : LucideIcons.pill),
                           size: 14,
                           color: severityColor.withOpacity(0.7),
                         ),
