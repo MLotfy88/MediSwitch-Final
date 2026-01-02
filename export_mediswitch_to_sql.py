@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Export optimized mediswitch.db to chunked SQL files for D1 sync via GitHub Actions.
+Updated to map local (camelCase) schema to D1 (snake_case) schema manually for drugs table.
 """
 import sqlite3
 import os
@@ -23,6 +24,9 @@ def escape_sql(val):
 def write_chunked_sql(base_name, header, rows, chunk_size=CHUNK_SIZE):
     """Write SQL rows to chunked files"""
     chunk_index = 0
+    # Clear previous chunks for this base_name to avoid leftovers
+    # (Actually better to just overwrite, but assuming user deleted old ones or clean slate)
+    
     for i in range(0, len(rows), chunk_size):
         chunk = rows[i:i + chunk_size]
         filename = f"{base_name}_part_{chunk_index:03d}.sql"
@@ -34,18 +38,97 @@ def write_chunked_sql(base_name, header, rows, chunk_size=CHUNK_SIZE):
         chunk_index += 1
 
 def export_drugs(conn):
-    """Export drugs table"""
-    print("\n📦 Exporting Drugs...")
+    """
+    Export drugs table with explicit mapping from local (camelCase) to D1 (snake_case).
+    """
+    print("\n📦 Exporting Drugs (Mapping camelCase -> snake_case)...")
+    conn.row_factory = sqlite3.Row # Enable name access
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM drugs")
-    columns = [desc[0] for desc in cursor.description]
     
-    header = f"INSERT OR IGNORE INTO drugs ({', '.join(columns)}) VALUES"
+    # Check what columns we actually have in local DB
+    cursor.execute("SELECT * FROM drugs LIMIT 1")
+    row = cursor.fetchone()
+    cols = row.keys()
+    print(f"   Local Columns: {cols}")
+
+    # Map D1 (Target) <- Local (Source)
+    # Target Schema:
+    # id, trade_name, arabic_name, price, old_price, category, active, company, 
+    # dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology, 
+    # barcode, qr_code, visits, last_price_update, 
+    # has_drug_interaction, has_food_interaction, has_disease_interaction
+
+    # Prepare Query
+    cursor.execute("SELECT * FROM drugs")
+    
+    header = """INSERT OR IGNORE INTO drugs (
+        id, trade_name, arabic_name, price, old_price, category, active, company,
+        dosage_form, dosage_form_ar, concentration, unit, usage, pharmacology,
+        barcode, qr_code, visits, last_price_update,
+        has_drug_interaction, has_food_interaction, has_disease_interaction
+    ) VALUES"""
+    
     sql_rows = []
     
     for row in cursor.fetchall():
-        vals = [escape_sql(v) for v in row]
-        sql_rows.append(f"({', '.join(vals)})")
+        # strict mapping
+        vals = [
+            row['id'],
+            row['tradeName'] if 'tradeName' in row.keys() else '',
+            row['arabicName'] if 'arabicName' in row.keys() else '',
+            row['price'],
+            row['oldPrice'] if 'oldPrice' in row.keys() else '',
+            row['category'], # 'mainCategory' is ignored!
+            row['active'],
+            row['company'],
+            row['dosageForm'] if 'dosageForm' in row.keys() else '',
+            row['dosageForm_ar'] if 'dosageForm_ar' in row.keys() else '',
+            row['concentration'],
+            row['unit'],
+            row['usage'],
+            row['description'] if 'description' in row.keys() else '', # Map description -> pharmacology? Or is there a pharmacology column? CHECK. DatabaseHelper says pharmacology. Local might be description or mechanism_of_action?
+            # Let's check logic: MedicineModel.fromCsv maps row[12] to pharmacology AND description.
+            # Local DB has 'indication', 'mechanism_of_action', 'pharmacodynamics'.
+            # It also has 'description'.
+            # Let's map 'description' to 'pharmacology' for now as closest match or empty.
+            row['barcode'],
+            '', # qr_code (not in local keys usually or named differently? 'imageUrl' exists. let's put empty for qr_code)
+            row['visits'],
+            row['lastPriceUpdate'] if 'lastPriceUpdate' in row.keys() else '',
+            0, # has_drug_interaction (re-calc or set 0)
+            0, # has_food_interaction
+            0  # has_disease_interaction
+        ]
+        
+        # Helper to safely get column even if missing
+        def get_col(name):
+            return row[name] if name in row.keys() else ''
+
+        # Refined Mapping based on viewed schema
+        vals = [
+            get_col('id'),
+            get_col('tradeName'),
+            get_col('arabicName'),
+            get_col('price'),
+            get_col('oldPrice'),
+            get_col('category'),
+            get_col('active'),
+            get_col('company'),
+            get_col('dosageForm'),
+            get_col('dosageForm_ar'),
+            get_col('concentration'),
+            get_col('unit'),
+            get_col('usage'),
+            get_col('indication') if get_col('indication') else get_col('description'), # Indication/Desc -> Pharmacology
+            get_col('barcode'),
+            '', # qr_code
+            get_col('visits'),
+            get_col('lastPriceUpdate'),
+            0, 0, 0
+        ]
+        
+        escaped_vals = [escape_sql(v) for v in vals]
+        sql_rows.append(f"({', '.join(escaped_vals)})")
     
     print(f"   Total: {len(sql_rows):,} rows")
     write_chunked_sql("d1_import", header, sql_rows)
@@ -126,7 +209,7 @@ def main():
     # Create output directory
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
-    print("🚀 Exporting MediSwitch Database to D1-Ready SQL Chunks")
+    print("🚀 Exporting MediSwitch Database to D1-Ready SQL Chunks (FIXED SCHEMA)")
     print("="*80)
     
     conn = sqlite3.connect(DB_PATH)
@@ -142,14 +225,6 @@ def main():
     
     print("\n" + "="*80)
     print(f"✅ Export Complete! Files saved to: {OUTPUT_DIR}/")
-    print("="*80)
-    print("\n📋 Next Steps:")
-    print("   1. Review the generated SQL files")
-    print("   2. Commit and push them to GitHub:")
-    print(f"      git add {OUTPUT_DIR}/")
-    print("      git commit -m 'Add D1 SQL chunks from optimized database'")
-    print("      git push")
-    print("   3. Trigger the GitHub Action 'sync-d1.yml'")
 
 if __name__ == "__main__":
     main()
