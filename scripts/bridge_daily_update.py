@@ -98,8 +98,8 @@ def fetch_and_map_updates(session, latest_date_str):
                 seen_ids.add(mid)
 
                 # 2. Map JSON fields to our 18-column schema
-                # Current schema: id, trade_name, arabic_name, active, category, company, 
-                # price, old_price, last_price_update, units, barcode, qr_code, 
+                # current schema: id, trade_name, arabic_name, active, category, company, 
+                # price, old_price, last_price_update, unit, barcode, qr_code, 
                 # pharmacology, usage, visits, concentration, dosage_form, dosage_form_ar
                 
                 # Format date
@@ -120,7 +120,7 @@ def fetch_and_map_updates(session, latest_date_str):
                     'price': item.get('price', ''),
                     'old_price': item.get('oldprice', ''),
                     'last_price_update': update_date,
-                    'units': item.get('units', ''),
+                    'unit': item.get('units', ''),
                     'barcode': item.get('barcode', ''),
                     'qr_code': item.get('qrcode', ''),
                     'pharmacology': item.get('pharmacology', ''),
