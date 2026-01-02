@@ -1,6 +1,8 @@
 -- Cloudflare D1 Schema
 -- Generated for MediSwitch Database
 
+DROP TABLE IF EXISTS drugs;
+
 CREATE TABLE drugs (
             tradeName TEXT PRIMARY KEY,
             id INTEGER,
@@ -26,6 +28,8 @@ CREATE TABLE drugs (
             updatedAt INTEGER DEFAULT 0
         , indication TEXT, mechanism_of_action TEXT, pharmacodynamics TEXT, data_source_pharmacology TEXT);
 
+DROP TABLE IF EXISTS dosage_guidelines;
+
 CREATE TABLE dosage_guidelines (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             med_id INTEGER,
@@ -42,6 +46,8 @@ CREATE TABLE dosage_guidelines (
 
 CREATE TABLE sqlite_sequence(name,seq);
 
+DROP TABLE IF EXISTS drug_interactions;
+
 CREATE TABLE drug_interactions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             ingredient1 TEXT,
@@ -52,11 +58,15 @@ CREATE TABLE drug_interactions (
             updated_at INTEGER DEFAULT 0
         , management_text TEXT, mechanism_text TEXT, recommendation TEXT, arabic_recommendation TEXT, arabic_effect TEXT, risk_level TEXT, type TEXT);
 
+DROP TABLE IF EXISTS med_ingredients;
+
 CREATE TABLE med_ingredients (
             med_id INTEGER,
             ingredient TEXT,
             PRIMARY KEY (med_id, ingredient)
         );
+
+DROP TABLE IF EXISTS drug_interactions_v8;
 
 CREATE TABLE drug_interactions_v8 (
             id INTEGER PRIMARY KEY,
@@ -77,6 +87,8 @@ CREATE INDEX idx_ddi_severity ON drug_interactions(severity);
 
 CREATE INDEX idx_drugs_active ON drugs(active);
 
+DROP TABLE IF EXISTS disease_interactions;
+
 CREATE TABLE disease_interactions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             med_id INTEGER,
@@ -87,6 +99,8 @@ CREATE TABLE disease_interactions (
             source TEXT,
             created_at INTEGER
         );
+
+DROP TABLE IF EXISTS food_interactions;
 
 CREATE TABLE food_interactions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
