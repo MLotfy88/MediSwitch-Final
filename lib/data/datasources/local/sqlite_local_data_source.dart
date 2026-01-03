@@ -471,35 +471,33 @@ class SqliteLocalDataSource {
   }
 
   Future<void> _checkAndSeedInteractions(Database db) async {
+    // HYBRID ARCHITECTURE: Interaction seeding from large JSON assets is disabled
+    // to keep the app size small (~40MB instead of 250MB+).
+    // Interactions will now be fetched from Cloudflare D1 API and cached locally on demand.
+
+    _logger.i(
+      '[INTERACTION SEEDING] Hybrid Mode: Skipping large offline assets seeding.',
+    );
+
+    /* Legacy Offline-Only Seeding: 
     // Relational
-    final interactionsCount =
-        Sqflite.firstIntValue(
-          await db.rawQuery(
-            'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
-          ),
-        ) ??
-        0;
+    final interactionsCount = Sqflite.firstIntValue(
+      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}')
+    ) ?? 0;
     if (interactionsCount == 0) await _seedRelationalInteractions(db);
 
     // Food
-    final foodCount =
-        Sqflite.firstIntValue(
-          await db.rawQuery(
-            'SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}',
-          ),
-        ) ??
-        0;
+    final foodCount = Sqflite.firstIntValue(
+      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}')
+    ) ?? 0;
     if (foodCount == 0) await _seedFoodInteractions(db);
 
     // Disease
-    final diseaseCount =
-        Sqflite.firstIntValue(
-          await db.rawQuery(
-            'SELECT COUNT(*) FROM ${DatabaseHelper.diseaseInteractionsTable}',
-          ),
-        ) ??
-        0;
+    final diseaseCount = Sqflite.firstIntValue(
+      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.diseaseInteractionsTable}')
+    ) ?? 0;
     if (diseaseCount == 0) await _seedDiseaseInteractions(db);
+    */
   }
 
   // --- Relational Seeding Helper ---
@@ -842,10 +840,11 @@ class SqliteLocalDataSource {
         "[seedDatabaseFromAssetIfNeeded] Status: Meds=$medsExist, Ingredients=$ingredientsCount, Interactions=$interactionsCount",
       );
 
-      // CRITICAL CHECK: If any basic building block is missing, trigger FULL seeding/repair
-      if (!medsExist || ingredientsCount == 0 || interactionsCount == 0) {
+      // CRITICAL CHECK: In Hybrid Architecture, we only require Medicines and Ingredients to be present.
+      // Interactions tables (InteractionsTable, Food, Disease) are now fetched from API on-demand.
+      if (!medsExist || ingredientsCount == 0) {
         _logger.w(
-          "[seedDatabaseFromAssetIfNeeded] MISSING CRITICAL DATA. Triggering REPAIR/SEEDING...",
+          "[seedDatabaseFromAssetIfNeeded] MISSING CRITICAL CORE DATA. Triggering REPAIR/SEEDING...",
         );
         // performInitialSeeding now handles clearing tables if needed (based on previous fix)
         await performInitialSeeding();
@@ -2019,5 +2018,61 @@ class SqliteLocalDataSource {
     } catch (e) {
       return getRandomMedicines(limit: limit);
     }
+  }
+
+  // --- Hybrid Caching Methods ---
+
+  Future<void> saveDrugInteractions(
+    List<Map<String, dynamic>> interactions,
+  ) async {
+    final db = await dbHelper.database;
+    final batch = db.batch();
+    for (final interaction in interactions) {
+      batch.insert(
+        DatabaseHelper.interactionsTable,
+        interaction,
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
+    await batch.commit(noResult: true);
+    _logger.i(
+      '[SqliteLocalDataSource] Cached ${interactions.length} drug interactions.',
+    );
+  }
+
+  Future<void> saveFoodInteractions(
+    List<Map<String, dynamic>> interactions,
+  ) async {
+    final db = await dbHelper.database;
+    final batch = db.batch();
+    for (final interaction in interactions) {
+      batch.insert(
+        DatabaseHelper.foodInteractionsTable,
+        interaction,
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
+    await batch.commit(noResult: true);
+    _logger.i(
+      '[SqliteLocalDataSource] Cached ${interactions.length} food interactions.',
+    );
+  }
+
+  Future<void> saveDiseaseInteractions(
+    List<Map<String, dynamic>> interactions,
+  ) async {
+    final db = await dbHelper.database;
+    final batch = db.batch();
+    for (final interaction in interactions) {
+      batch.insert(
+        DatabaseHelper.diseaseInteractionsTable,
+        interaction,
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
+    await batch.commit(noResult: true);
+    _logger.i(
+      '[SqliteLocalDataSource] Cached ${interactions.length} disease interactions.',
+    );
   }
 }

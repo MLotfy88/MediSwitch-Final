@@ -8,6 +8,11 @@ binding = "DB"
 database_name = "mediswitsh-db"
 database_id = "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
 
+[[d1_databases]]
+binding = "INTERACTIONS_DB"
+database_name = "mediswitch-interactions"
+database_id = "0e7a5070-f4c8-47c5-9027-c6aade971d83"
+
 # Environment Variables
 [vars]
 API_VERSION = "3.0"

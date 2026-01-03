@@ -59,15 +59,9 @@ def export_from_db():
                  'description', 'atc_codes', 'external_links']
     write_chunk("drugs", "d1_import", drugs, drug_cols)
     
-    # 2. تصدير التفاعلات الدوائية (drug_interactions)
-    print("\n🧪 تصدير التفاعلات الدوائية (drug_interactions)...")
-    cursor = conn.execute("SELECT * FROM drug_interactions")
-    interactions = [dict(row) for row in cursor.fetchall()]
-    interaction_cols = ['id', 'ingredient1', 'ingredient2', 'severity', 'effect', 'arabic_effect', 
-                        'recommendation', 'arabic_recommendation', 'management_text', 'mechanism_text', 
-                        'alternatives_a', 'alternatives_b', 'risk_level', 'ddinter_id', 'source', 
-                        'type', 'metabolism_info', 'source_url', 'reference_text', 'updated_at']
-    write_chunk("drug_interactions", "d1_rules", interactions, interaction_cols)
+    # Note: drug_interactions, food_interactions, and disease_interactions 
+    # are now handled by migrate_interactions.py and synced to INTERACTIONS_DB.
+    # They are removed from here to keep the main DB small.
     
     # 3. تصدير المكونات (med_ingredients)
     print("\n🧬 تصدير المكونات (med_ingredients)...")
@@ -78,21 +72,7 @@ def export_from_db():
     else:
         print("  ⚠️ جدول المكونات فارغ - التخطي")
     
-    # 4. تصدير تفاعلات الغذاء (food_interactions)
-    print("\n🍎 تصدير تفاعلات الغذاء (food_interactions)...")
-    cursor = conn.execute("SELECT * FROM food_interactions")
-    food = [dict(row) for row in cursor.fetchall()]
-    food_cols = ['id', 'med_id', 'trade_name', 'interaction', 'ingredient', 'severity', 
-                 'management_text', 'mechanism_text', 'reference_text', 'source', 'created_at']
-    write_chunk("food_interactions", "d1_food", food, food_cols)
-    
-    # 5. تصدير تفاعلات الأمراض (disease_interactions)
-    print("\n🏥 تصدير تفاعلات الأمراض (disease_interactions)...")
-    cursor = conn.execute("SELECT * FROM disease_interactions")
-    disease = [dict(row) for row in cursor.fetchall()]
-    disease_cols = ['id', 'med_id', 'trade_name', 'disease_name', 'interaction_text', 
-                    'severity', 'reference_text', 'source', 'created_at']
-    write_chunk("disease_interactions", "d1_disease", disease, disease_cols)
+    # Food and Disease interactions are also moved to INTERACTIONS_DB.
     
     # 6. تصدير الجرعات (dosage_guidelines)
     print("\n💉 تصدير إرشادات الجرعات (dosage_guidelines)...")

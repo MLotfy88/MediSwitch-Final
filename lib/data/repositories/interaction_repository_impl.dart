@@ -6,6 +6,7 @@ import 'package:mediswitch/core/error/failures.dart';
 import 'package:mediswitch/core/services/file_logger_service.dart';
 import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/interaction_remote_data_source.dart';
 import 'package:mediswitch/domain/entities/disease_interaction.dart';
 import 'package:mediswitch/domain/entities/dosage_guidelines.dart';
 import 'package:mediswitch/domain/entities/drug_entity.dart';
@@ -18,11 +19,13 @@ import 'package:sqflite/sqflite.dart';
 /// Implementation of [InteractionRepository] using SQLite as the local data source.
 class InteractionRepositoryImpl implements InteractionRepository {
   final SqliteLocalDataSource localDataSource;
+  final InteractionRemoteDataSource remoteDataSource;
   final FileLoggerService _logger;
 
   /// Creates a new [InteractionRepositoryImpl] instance.
   InteractionRepositoryImpl({
     required this.localDataSource,
+    required this.remoteDataSource,
     required FileLoggerService logger,
   }) : _logger = logger;
 
@@ -86,9 +89,31 @@ class InteractionRepositoryImpl implements InteractionRepository {
   ) async {
     try {
       if (drug.id == null) return const Right([]);
-      final interactions = await localDataSource.getInteractionsForDrug(
-        drug.id!,
-      );
+
+      // 1. Try Local Cache
+      var interactions = await localDataSource.getInteractionsForDrug(drug.id!);
+
+      // 2. If empty and has connection, try API (Hybrid Mode)
+      if (interactions.isEmpty) {
+        _logger.i(
+          '[InteractionRepo] No local interactions for ${drug.tradeName}, fetching from API...',
+        );
+        try {
+          final remoteData = await remoteDataSource.getDrugInteractions(
+            drug.id!,
+          );
+          if (remoteData.isNotEmpty) {
+            await localDataSource.saveDrugInteractions(remoteData);
+            // Re-fetch from local to get proper models
+            interactions = await localDataSource.getInteractionsForDrug(
+              drug.id!,
+            );
+          }
+        } catch (e) {
+          _logger.w('[InteractionRepo] API fetch failed: $e');
+        }
+      }
+
       return Right(interactions);
     } catch (e) {
       return Left(
@@ -505,13 +530,30 @@ class InteractionRepositoryImpl implements InteractionRepository {
     try {
       final Set<String> allInteractions = {};
 
-      // 1. Check by ID (Legacy/Direct Match)
+      // 1. Check by ID (Local Cache)
       if (drug.id != null) {
-        final byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
+        var byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
+        if (byId.isEmpty) {
+          // 2. Hybrid API Fetch
+          _logger.i(
+            '[InteractionRepo] Fetching food interactions from API for ${drug.tradeName}...',
+          );
+          try {
+            final remoteData = await remoteDataSource.getFoodInteractions(
+              drug.id!,
+            );
+            if (remoteData.isNotEmpty) {
+              await localDataSource.saveFoodInteractions(remoteData);
+              byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
+            }
+          } catch (e) {
+            _logger.w('[InteractionRepo] Food API fetch failed: $e');
+          }
+        }
         allInteractions.addAll(byId);
       }
 
-      // 2. Check by Active Ingredient (Molecular Match - Preferred)
+      // 3. Fallback/Molecular Match (Local)
       if (drug.active.isNotEmpty) {
         final byIngredient = await localDataSource
             .getFoodInteractionsForIngredient(drug.active);
@@ -599,7 +641,31 @@ class InteractionRepositoryImpl implements InteractionRepository {
   ) async {
     if (drug.id == null) return [];
     try {
-      return await localDataSource.getDiseaseInteractionsForDrug(drug.id!);
+      var interactions = await localDataSource.getDiseaseInteractionsForDrug(
+        drug.id!,
+      );
+
+      if (interactions.isEmpty) {
+        // Hybrid API Fetch
+        _logger.i(
+          '[InteractionRepo] Fetching disease interactions from API for ${drug.tradeName}...',
+        );
+        try {
+          final remoteData = await remoteDataSource.getDiseaseInteractions(
+            drug.id!,
+          );
+          if (remoteData.isNotEmpty) {
+            await localDataSource.saveDiseaseInteractions(remoteData);
+            interactions = await localDataSource.getDiseaseInteractionsForDrug(
+              drug.id!,
+            );
+          }
+        } catch (e) {
+          _logger.w('[InteractionRepo] Disease API fetch failed: $e');
+        }
+      }
+
+      return interactions;
     } catch (e) {
       _logger.e('Error getting disease interactions: $e');
       return [];

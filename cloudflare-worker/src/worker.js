@@ -48,7 +48,7 @@ function errorResponse(message, status = 400) {
 // ==========================================
 export default {
     async fetch(request, env, ctx) {
-        const { DB } = env; // D1 database binding
+        const { DB, INTERACTIONS_DB } = env; // D1 database bindings
 
         // Handle CORS preflight
         if (request.method === 'OPTIONS') {
@@ -151,38 +151,38 @@ export default {
                 return handleDeleteNotification(path.split('/').pop(), DB);
             }
 
-            // Interactions
-            if (path === '/api/admin/interactions' && method === 'GET') return handleAdminGetInteractions(request, DB);
-            if (path === '/api/admin/interactions' && method === 'POST') return handleCreateInteraction(request, DB);
+            // Interactions (Hybrid Split - Routed to INTERACTIONS_DB)
+            if (path === '/api/admin/interactions' && method === 'GET') return handleAdminGetInteractions(request, INTERACTIONS_DB || DB);
+            if (path === '/api/admin/interactions' && method === 'POST') return handleCreateInteraction(request, INTERACTIONS_DB || DB);
             if (path.startsWith('/api/admin/interactions/')) {
                 const id = path.split('/').pop();
-                if (method === 'PUT') return handleAdminUpdateInteraction(id, request, DB);
-                if (method === 'DELETE') return handleDeleteInteraction(id, DB);
+                if (method === 'PUT') return handleAdminUpdateInteraction(id, request, INTERACTIONS_DB || DB);
+                if (method === 'DELETE') return handleDeleteInteraction(id, INTERACTIONS_DB || DB);
             }
 
-            // Feedback
+            // Feedback (Main DB)
             if (path === '/api/admin/feedback' && method === 'GET') return handleGetFeedback(request, DB);
             if (path.startsWith('/api/admin/feedback/')) {
                 const id = path.split('/').pop();
                 if (method === 'PUT') return handleUpdateFeedback(id, request, DB);
             }
 
-            // Disease Interactions
-            if (path === '/api/admin/disease-interactions' && method === 'GET') return handleGetDiseaseInteractions(request, DB);
-            if (path === '/api/admin/disease-interactions' && method === 'POST') return handleCreateDiseaseInteraction(request, DB);
+            // Disease Interactions (Hybrid Split - Routed to INTERACTIONS_DB)
+            if (path === '/api/admin/disease-interactions' && method === 'GET') return handleGetDiseaseInteractions(request, INTERACTIONS_DB || DB);
+            if (path === '/api/admin/disease-interactions' && method === 'POST') return handleCreateDiseaseInteraction(request, INTERACTIONS_DB || DB);
             if (path.startsWith('/api/admin/disease-interactions/')) {
                 const id = path.split('/').pop();
-                if (method === 'PUT') return handleUpdateDiseaseInteraction(id, request, DB);
-                if (method === 'DELETE') return handleDeleteDiseaseInteraction(id, DB);
+                if (method === 'PUT') return handleUpdateDiseaseInteraction(id, request, INTERACTIONS_DB || DB);
+                if (method === 'DELETE') return handleDeleteDiseaseInteraction(id, INTERACTIONS_DB || DB);
             }
 
-            // Food Interactions
-            if (path === '/api/admin/food-interactions' && method === 'GET') return handleGetFoodInteractions(request, DB);
-            if (path === '/api/admin/food-interactions' && method === 'POST') return handleCreateFoodInteraction(request, DB);
+            // Food Interactions (Hybrid Split - Routed to INTERACTIONS_DB)
+            if (path === '/api/admin/food-interactions' && method === 'GET') return handleGetFoodInteractions(request, INTERACTIONS_DB || DB);
+            if (path === '/api/admin/food-interactions' && method === 'POST') return handleCreateFoodInteraction(request, INTERACTIONS_DB || DB);
             if (path.startsWith('/api/admin/food-interactions/')) {
                 const id = path.split('/').pop();
-                if (method === 'PUT') return handleUpdateFoodInteraction(id, request, DB);
-                if (method === 'DELETE') return handleDeleteFoodInteraction(id, DB);
+                if (method === 'PUT') return handleUpdateFoodInteraction(id, request, INTERACTIONS_DB || DB);
+                if (method === 'DELETE') return handleDeleteFoodInteraction(id, INTERACTIONS_DB || DB);
             }
 
             // Missed Searches
@@ -195,8 +195,8 @@ export default {
                 if (method === 'POST' || method === 'PUT') return handleUpdateConfig(request, DB);
             }
 
-            // Generic Interaction Lookup (Public)
-            if (path === '/api/interactions' && method === 'GET') return handleGetInteractions(request, DB);
+            // Generic Interaction Lookup (Public - Hybrid Split)
+            if (path === '/api/interactions' && method === 'GET') return handleGetInteractions(request, INTERACTIONS_DB || DB);
             if (path === '/api/notifications' && method === 'GET') return handleGetUserNotifications(request, DB);
 
             // Sync (Internal/Admin)
@@ -204,12 +204,12 @@ export default {
                 if (path === '/api/sync/version') return handleSyncVersion(DB);
                 if (path === '/api/sync/drugs') return handleSyncDrugs(request, DB);
                 if (path === '/api/sync/med-ingredients') return handleSyncMedIngredients(request, DB);
-                if (path === '/api/sync/interactions') return handleSyncInteractions(request, DB);
+                if (path === '/api/sync/interactions') return handleSyncInteractions(request, INTERACTIONS_DB || DB);
                 if (path === '/api/sync/dosages') return handleSyncDosages(request, DB);
             }
 
             // Public Sync Aliases (for backward compatibility)
-            if (path === '/api/interactions/sync' && method === 'GET') return handleSyncInteractions(request, DB);
+            if (path === '/api/interactions/sync' && method === 'GET') return handleSyncInteractions(request, INTERACTIONS_DB || DB);
 
             // Bulk Update (GitHub Actions)
             if (path === '/api/update' && method === 'POST') {

@@ -13,6 +13,7 @@ import 'package:mediswitch/data/datasources/local/sqlite_local_data_source.dart'
 import 'package:mediswitch/data/datasources/remote/analytics_remote_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/config_remote_data_source.dart';
 import 'package:mediswitch/data/datasources/remote/drug_remote_data_source.dart';
+import 'package:mediswitch/data/datasources/remote/interaction_remote_data_source.dart';
 // Repositories
 import 'package:mediswitch/data/repositories/analytics_repository_impl.dart';
 import 'package:mediswitch/data/repositories/config_repository_impl.dart';
@@ -143,6 +144,17 @@ Future<void> setupLocator() async {
       baseUrl: backendUrl,
     );
   });
+  locator.registerLazySingleton<InteractionRemoteDataSource>(() {
+    logger.i("Locator: Registering InteractionRemoteDataSource...");
+    const backendUrl = String.fromEnvironment(
+      'BACKEND_URL',
+      defaultValue: 'https://mediswitch-api.m-m-lotfy-88.workers.dev',
+    );
+    return InteractionRemoteDataSourceImpl(
+      client: locator<http.Client>(),
+      baseUrl: backendUrl,
+    );
+  });
 
   // --- Repositories ---
   locator.registerLazySingleton<DrugRepository>(() {
@@ -156,6 +168,7 @@ Future<void> setupLocator() async {
     logger.i("Locator: Registering InteractionRepository...");
     return InteractionRepositoryImpl(
       localDataSource: locator<SqliteLocalDataSource>(),
+      remoteDataSource: locator<InteractionRemoteDataSource>(),
       logger: locator<FileLoggerService>(),
     );
   });

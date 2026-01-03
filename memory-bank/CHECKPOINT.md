@@ -1,5 +1,16 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 149
+**Date:** 2026-01-03
+**Goal:** Hybrid Architecture Implementation & D1 Database Split.
+**Changes:**
+- **D1 Database Split**: Created `mediswitch-interactions` (D1 ID: `0e7a5070-f4c8-47c5-9027-c6aade971d83`) and migrated 320,000+ interaction rows (Drug, Food, Disease).
+- **Storage Optimization**: Dropped interaction tables from `mediswitsh-db` to resolve the 500MB storage limit error (Code 7500).
+- **Flutter App Size**: Reduced app size from 250MB to ~40MB by removing bulky local JSON assets.
+- **Hybrid Data Flow**: Implemented `InteractionRemoteDataSource` and refactored `InteractionRepositoryImpl` to fetch data from API on-demand with local SQLite caching.
+- **Worker Logic**: Updated `worker.js` to automatically route interaction queries to the new dedicated database.
+- **Verification**: Verified 100% row-count match between local and cloud databases.
+
 ### CHECKPOINT 148
 **Date:** 2026-01-02
 **Goal:** Cloudflare Worker Audit & Full CRUD UI Implementation.
