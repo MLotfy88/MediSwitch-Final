@@ -101,7 +101,16 @@ flutter:
   assets:
     - assets/meds.csv
     - assets/drug_interactions_structured_data.json # Explicitly add the main interaction file
-    - assets/database/parts/ # Split pre-packaged database parts
+    - assets/database/parts/mediswitch.db.part-aa
+    - assets/database/parts/mediswitch.db.part-ab
+    - assets/database/parts/mediswitch.db.part-ac
+    - assets/database/parts/mediswitch.db.part-ad
+    - assets/database/parts/mediswitch.db.part-ae
+    - assets/database/parts/mediswitch.db.part-af
+    - assets/database/parts/mediswitch.db.part-ag
+    - assets/database/parts/mediswitch.db.part-ah
+    - assets/database/parts/mediswitch.db.part-ai
+    - assets/database/parts/mediswitch.db.part-aj
     - assets/database/ # Pre-packaged database fallback
     - assets/data/ # Include the directory for medicine_ingredients.json etc.
     - assets/data/interactions/ # Added for chunked interaction rules and ingredients

@@ -301,11 +301,7 @@ class SqliteLocalDataSource {
       }
 
       for (final ing in ingredients) {
-        allIngredients.add({
-          'med_id': med.id,
-          'ingredient': ing,
-          'updated_at': 0,
-        });
+        allIngredients.add({'med_id': med.id, 'ingredient': ing});
       }
     }
     return allIngredients;
@@ -644,7 +640,6 @@ class SqliteLocalDataSource {
               batch.insert('med_ingredients', {
                 'med_id': medId,
                 'ingredient': normalizedIng,
-                'updated_at': 0,
               }, conflictAlgorithm: ConflictAlgorithm.ignore);
               ingredientCount++;
             }
@@ -730,6 +725,7 @@ class SqliteLocalDataSource {
                     'trade_name': item['trade_name'],
                     'disease_name': item['disease_name'],
                     'interaction_text': item['interaction_text'],
+                    'severity': item['severity'] ?? 'Major',
                     'source': item['source'],
                   },
                   conflictAlgorithm: ConflictAlgorithm.replace,
