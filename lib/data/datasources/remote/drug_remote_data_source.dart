@@ -19,33 +19,45 @@ abstract class DrugRemoteDataSource {
 
   /// Get drugs updated after a specific timestamp (Delta Sync)
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 
   /// Get interactions updated after a specific timestamp
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncInteractions(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 
   /// Get med-ingredients updated after a specific timestamp
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncMedIngredients(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 
   /// Get dosages updated after a specific timestamp
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDosages(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 
   /// Get food interactions updated after a specific timestamp
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncFoodInteractions(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 
   /// Get disease interactions updated after a specific timestamp
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDiseaseInteractions(
-    int lastTimestamp,
-  );
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  });
 }
 
 // Implementation of the remote data source
@@ -129,55 +141,100 @@ class DrugRemoteDataSourceImpl implements DrugRemoteDataSource {
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDrugs(
-    int lastTimestamp,
-  ) async {
-    return _getSyncData('$baseUrl/api/sync/drugs', lastTimestamp);
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/drugs',
+      lastTimestamp,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncInteractions(
-    int lastTimestamp,
-  ) async {
-    return _getSyncData('$baseUrl/api/sync/interactions', lastTimestamp);
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/interactions',
+      lastTimestamp,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncMedIngredients(
-    int lastTimestamp,
-  ) async {
-    return _getSyncData('$baseUrl/api/sync/med-ingredients', lastTimestamp);
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/med-ingredients',
+      lastTimestamp,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDosages(
-    int lastTimestamp,
-  ) async {
-    return _getSyncData('$baseUrl/api/sync/dosages', lastTimestamp);
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/dosages',
+      lastTimestamp,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncFoodInteractions(
-    int lastTimestamp,
-  ) async {
-    return _getSyncData('$baseUrl/api/sync/food-interactions', lastTimestamp);
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
+    return _getSyncData(
+      '$baseUrl/api/sync/food-interactions',
+      lastTimestamp,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   @override
   Future<Either<Failure, Map<String, dynamic>>> getDeltaSyncDiseaseInteractions(
-    int lastTimestamp,
-  ) async {
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
     return _getSyncData(
       '$baseUrl/api/sync/disease-interactions',
       lastTimestamp,
+      limit: limit,
+      offset: offset,
     );
   }
 
   Future<Either<Failure, Map<String, dynamic>>> _getSyncData(
     String endpoint,
-    int lastTimestamp,
-  ) async {
+    int lastTimestamp, {
+    int limit = 0,
+    int offset = 0,
+  }) async {
     // Ensure we use the correct query parameter
-    final url = Uri.parse('$endpoint?since=$lastTimestamp');
+    var urlString = '$endpoint?since=$lastTimestamp';
+    if (limit > 0) {
+      urlString += '&limit=$limit&offset=$offset';
+    }
+    final url = Uri.parse(urlString);
     print('DEBUG: Requesting Sync: $url');
     try {
       final response = await client

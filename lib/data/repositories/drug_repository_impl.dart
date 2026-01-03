@@ -195,68 +195,98 @@ class DrugRepositoryImpl implements DrugRepository {
     }
 
     try {
-      final result = await remoteDataSource.getDeltaSyncDrugs(lastTimestamp);
-      return await result.fold(
-        (failure) {
-          _logger.w('DrugRepository: Delta sync failed - $failure');
-          return Left(failure);
-        },
-        (data) async {
-          final List<Map<String, dynamic>> drugsData =
-              ((data['data'] ?? data['drugs'] ?? []) as List)
-                  .cast<Map<String, dynamic>>();
-          final int count = (data['total'] as int?) ?? drugsData.length;
-          _logger.i("DrugRepository: Sync data received, found $count items");
+      int offset = 0;
+      const limit = 2000;
+      int totalSynced = 0;
+      bool hasMore = true;
 
-          if (drugsData.isNotEmpty) {
-            // Use compute for heavy mapping
-            final List<MedicineModel> models = await compute(
-              _parseSyncDrugs,
-              drugsData,
+      while (hasMore) {
+        _logger.d(
+          "DrugRepository: Syncing drugs batch: offset=$offset, limit=$limit",
+        );
+
+        final result = await remoteDataSource.getDeltaSyncDrugs(
+          lastTimestamp,
+          limit: limit,
+          offset: offset,
+        );
+
+        final shouldContinue = await result.fold(
+          (failure) async {
+            _logger.w('DrugRepository: Delta sync batch failed - $failure');
+            return false; // Stop on error
+          },
+          (data) async {
+            final List<Map<String, dynamic>> drugsData =
+                ((data['data'] ?? data['drugs'] ?? []) as List)
+                    .cast<Map<String, dynamic>>();
+            final int count = drugsData.length;
+            _logger.i(
+              "DrugRepository: Sync batch received, found $count items",
             );
 
-            if (models.isNotEmpty) {
-              final db = await localDataSource.dbHelper.database;
-              await db.transaction((txn) async {
-                final batch = txn.batch();
-                for (final model in models) {
-                  batch.insert(
-                    DatabaseHelper.medicinesTable,
-                    model.toMap(),
-                    conflictAlgorithm: ConflictAlgorithm.replace,
-                  );
+            if (drugsData.isNotEmpty) {
+              // Use compute for heavy mapping
+              final List<MedicineModel> models = await compute(
+                _parseSyncDrugs,
+                drugsData,
+              );
 
-                  // Populate ingredients for interactions
-                  if (model.id != null && model.active.isNotEmpty) {
-                    final parts = model.active.split(RegExp(r'[+/,]'));
-                    for (final p in parts) {
-                      final ing = p.trim().toLowerCase();
-                      if (ing.isNotEmpty) {
-                        batch.insert(
-                          'med_ingredients',
-                          {'med_id': model.id, 'ingredient': ing},
-                          conflictAlgorithm: ConflictAlgorithm.replace,
-                        );
+              if (models.isNotEmpty) {
+                final db = await localDataSource.dbHelper.database;
+                await db.transaction((txn) async {
+                  final batch = txn.batch();
+                  for (final model in models) {
+                    batch.insert(
+                      DatabaseHelper.medicinesTable,
+                      model.toMap(),
+                      conflictAlgorithm: ConflictAlgorithm.replace,
+                    );
+
+                    // Populate ingredients for interactions
+                    if (model.id != null && model.active.isNotEmpty) {
+                      final parts = model.active.split(RegExp(r'[+/,]'));
+                      for (final p in parts) {
+                        final ing = p.trim().toLowerCase();
+                        if (ing.isNotEmpty) {
+                          batch.insert(
+                            'med_ingredients',
+                            {'med_id': model.id, 'ingredient': ing},
+                            conflictAlgorithm: ConflictAlgorithm.replace,
+                          );
+                        }
                       }
                     }
                   }
-                }
-                await batch.commit(noResult: true);
-              });
-              _logger.i("DrugRepository: Updated ${models.length} drugs in DB");
+                  await batch.commit(noResult: true);
+                });
+                _logger.i(
+                  "DrugRepository: Updated ${models.length} drugs in DB (Batch)",
+                );
+              }
             }
-          }
 
-          // Update local timestamp
-          final newTimestamp = data['currentTimestamp'] as int?;
-          if (newTimestamp != null) {
-            final prefs = await SharedPreferences.getInstance();
-            await prefs.setInt('drugs_last_sync_timestamp', newTimestamp);
-          }
+            // Update local timestamp (update on every successful batch or just once?
+            // Better to update purely at the end, but getting partial data is better than none.
+            // For now, only update if successful batch)
+            final newTimestamp = data['currentTimestamp'] as int?;
+            if (newTimestamp != null) {
+              final prefs = await SharedPreferences.getInstance();
+              await prefs.setInt('drugs_last_sync_timestamp', newTimestamp);
+            }
 
-          return Right(drugsData.length);
-        },
-      );
+            totalSynced += count;
+            offset += limit;
+            return count >= limit;
+          },
+        );
+
+        if (!shouldContinue) {
+          hasMore = false;
+        }
+      }
+
+      return Right(totalSynced);
     } catch (e, s) {
       _logger.e('DrugRepository: Error during delta sync', e, s);
       return Left(ServerFailure(message: e.toString()));

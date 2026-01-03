@@ -294,46 +294,76 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Future<Either<Failure, int>> syncInteractions(int lastTimestamp) async {
     try {
       final remoteDataSource = locator<DrugRemoteDataSource>();
-      final Either<Failure, Map<String, dynamic>> result =
-          await remoteDataSource.getDeltaSyncInteractions(lastTimestamp);
+      int offset = 0;
+      const limit = 2000;
+      int totalSynced = 0;
+      bool hasMore = true;
 
-      return await result.fold((failure) => Left<Failure, int>(failure), (
-        data,
-      ) async {
-        final rulesRaw = (data['data'] as List?) ?? [];
-        final rulesData = rulesRaw.cast<Map<String, dynamic>>();
+      while (hasMore) {
+        _logger.d(
+          '[InteractionRepo] Syncing interactions batch: offset=$offset, limit=$limit',
+        );
 
-        if (rulesData.isNotEmpty) {
-          final db = await localDataSource.dbHelper.database;
-          await db.transaction((txn) async {
-            final batch = txn.batch();
-            for (final ruleMap in rulesData) {
-              batch.insert(
-                DatabaseHelper.interactionsTable,
-                {
-                  'id': ruleMap['id'],
-                  'ingredient1': ruleMap['ingredient1'],
-                  'ingredient2': ruleMap['ingredient2'],
-                  'severity': ruleMap['severity'],
-                  'effect': ruleMap['effect'],
-                  'arabic_effect': ruleMap['arabic_effect'],
-                  'recommendation': ruleMap['recommendation'],
-                  'arabic_recommendation': ruleMap['arabic_recommendation'],
-                  'source': ruleMap['source'],
-                  'type': ruleMap['type'],
-                  'updated_at': ruleMap['updated_at'],
-                },
-                conflictAlgorithm: ConflictAlgorithm.replace,
-              );
+        final Either<Failure, Map<String, dynamic>> result =
+            await remoteDataSource.getDeltaSyncInteractions(
+              lastTimestamp,
+              limit: limit,
+              offset: offset,
+            );
+
+        final shouldContinue = await result.fold(
+          (failure) async {
+            _logger.e('[InteractionRepo] Sync batch failed: $failure');
+            return false; // Stop on error
+          },
+          (data) async {
+            final rulesRaw = (data['data'] as List?) ?? [];
+            final rulesData = rulesRaw.cast<Map<String, dynamic>>();
+
+            if (rulesData.isEmpty) {
+              return false; // No more data
             }
-            await batch.commit(noResult: true);
-          });
-          return Right<Failure, int>(rulesData.length);
+
+            final db = await localDataSource.dbHelper.database;
+            await db.transaction((txn) async {
+              final batch = txn.batch();
+              for (final ruleMap in rulesData) {
+                batch.insert(
+                  DatabaseHelper.interactionsTable,
+                  {
+                    'id': ruleMap['id'],
+                    'ingredient1': ruleMap['ingredient1'],
+                    'ingredient2': ruleMap['ingredient2'],
+                    'severity': ruleMap['severity'],
+                    'effect': ruleMap['effect'],
+                    'arabic_effect': ruleMap['arabic_effect'],
+                    'recommendation': ruleMap['recommendation'],
+                    'arabic_recommendation': ruleMap['arabic_recommendation'],
+                    'source': ruleMap['source'],
+                    'type': ruleMap['type'],
+                    'updated_at': ruleMap['updated_at'],
+                  },
+                  conflictAlgorithm: ConflictAlgorithm.replace,
+                );
+              }
+              await batch.commit(noResult: true);
+            });
+
+            totalSynced += rulesData.length;
+            offset += limit;
+
+            // If we received fewer items than the limit, we're done
+            return rulesData.length >= limit;
+          },
+        );
+
+        if (!shouldContinue) {
+          hasMore = false;
         }
-        return const Right<Failure, int>(0);
-      });
+      }
+      return Right(totalSynced);
     } catch (e) {
-      return Left<Failure, int>(ServerFailure(message: e.toString()));
+      return Left(ServerFailure(message: e.toString()));
     }
   }
 
@@ -342,34 +372,64 @@ class InteractionRepositoryImpl implements InteractionRepository {
   Future<Either<Failure, int>> syncMedIngredients(int lastTimestamp) async {
     try {
       final remoteDataSource = locator<DrugRemoteDataSource>();
-      final Either<Failure, Map<String, dynamic>> result =
-          await remoteDataSource.getDeltaSyncMedIngredients(lastTimestamp);
+      int offset = 0;
+      const limit = 2000;
+      int totalSynced = 0;
+      bool hasMore = true;
 
-      return await result.fold((failure) => Left<Failure, int>(failure), (
-        data,
-      ) async {
-        final mappingRaw = (data['data'] as List?) ?? [];
-        final mappingData = mappingRaw.cast<Map<String, dynamic>>();
+      while (hasMore) {
+        _logger.d(
+          '[InteractionRepo] Syncing ingredients batch: offset=$offset, limit=$limit',
+        );
 
-        if (mappingData.isNotEmpty) {
-          final db = await localDataSource.dbHelper.database;
-          await db.transaction((txn) async {
-            final batch = txn.batch();
-            for (final map in mappingData) {
-              batch.insert('med_ingredients', {
-                'med_id': map['med_id'],
-                'ingredient': map['ingredient'],
-                'updated_at': map['updated_at'],
-              }, conflictAlgorithm: ConflictAlgorithm.replace);
+        final Either<Failure, Map<String, dynamic>> result =
+            await remoteDataSource.getDeltaSyncMedIngredients(
+              lastTimestamp,
+              limit: limit,
+              offset: offset,
+            );
+
+        final shouldContinue = await result.fold(
+          (failure) async {
+            _logger.e(
+              '[InteractionRepo] Sync ingredients batch failed: $failure',
+            );
+            return false;
+          },
+          (data) async {
+            final mappingRaw = (data['data'] as List?) ?? [];
+            final mappingData = mappingRaw.cast<Map<String, dynamic>>();
+
+            if (mappingData.isEmpty) {
+              return false;
             }
-            await batch.commit(noResult: true);
-          });
-          return Right<Failure, int>(mappingData.length);
+
+            final db = await localDataSource.dbHelper.database;
+            await db.transaction((txn) async {
+              final batch = txn.batch();
+              for (final map in mappingData) {
+                batch.insert('med_ingredients', {
+                  'med_id': map['med_id'],
+                  'ingredient': map['ingredient'],
+                  'updated_at': map['updated_at'],
+                }, conflictAlgorithm: ConflictAlgorithm.replace);
+              }
+              await batch.commit(noResult: true);
+            });
+
+            totalSynced += mappingData.length;
+            offset += limit;
+            return mappingData.length >= limit;
+          },
+        );
+
+        if (!shouldContinue) {
+          hasMore = false;
         }
-        return const Right<Failure, int>(0);
-      });
+      }
+      return Right(totalSynced);
     } catch (e) {
-      return Left<Failure, int>(ServerFailure(message: e.toString()));
+      return Left(ServerFailure(message: e.toString()));
     }
   }
 
