@@ -101,8 +101,8 @@ flutter:
   assets:
     - assets/meds.csv
     - assets/drug_interactions_structured_data.json # Explicitly add the main interaction file
-    - assets/database/ # Pre-packaged database fallback
     - assets/database/parts/ # Split pre-packaged database parts
+    - assets/database/ # Pre-packaged database fallback
     - assets/data/ # Include the directory for medicine_ingredients.json etc.
     - assets/data/interactions/ # Added for chunked interaction rules and ingredients
     - assets/data/interactions/enriched/ # Explicitly added for enriched interaction files
