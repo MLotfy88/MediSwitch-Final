@@ -205,6 +205,8 @@ export default {
                 if (path === '/api/sync/drugs') return handleSyncDrugs(request, DB);
                 if (path === '/api/sync/med-ingredients') return handleSyncMedIngredients(request, DB);
                 if (path === '/api/sync/interactions') return handleSyncInteractions(request, INTERACTIONS_DB || DB);
+                if (path === '/api/sync/food-interactions') return handleSyncFoodInteractions(request, INTERACTIONS_DB || DB);
+                if (path === '/api/sync/disease-interactions') return handleSyncDiseaseInteractions(request, INTERACTIONS_DB || DB);
                 if (path === '/api/sync/dosages') return handleSyncDosages(request, DB);
             }
 
@@ -2045,3 +2047,88 @@ async function handleGetMissedSearches(DB) {
         return jsonResponse({ data: [] }); // Return empty instead of 500 for non-critical analytics
     }
 }
+
+async function handleSyncFoodInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+    try {
+        let query = 'SELECT * FROM food_interactions';
+        const params = [];
+        if (since > 0) {
+            query += " WHERE created_at > ?";
+            params.push(since);
+        }
+        query += ' ORDER BY id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
+        }
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+
+        let countQuery = 'SELECT COUNT(*) as total FROM food_interactions';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += " WHERE created_at > ?";
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+            data: results || [],
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (e) {
+        console.error('Sync food interactions error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
+async function handleSyncDiseaseInteractions(request, DB) {
+    if (!DB) return errorResponse('Database not configured', 500);
+    const url = new URL(request.url);
+    const since = parseInt(url.searchParams.get('since')) || 0;
+    const limit = parseInt(url.searchParams.get('limit')) || 0;
+    const offset = parseInt(url.searchParams.get('offset')) || 0;
+
+    try {
+        let query = 'SELECT * FROM disease_interactions';
+        const params = [];
+        if (since > 0) {
+            query += " WHERE created_at > ?";
+            params.push(since);
+        }
+        query += ' ORDER BY id';
+        if (limit > 0) {
+            query += ' LIMIT ? OFFSET ?';
+            params.push(limit, offset);
+        }
+
+        const { results } = await DB.prepare(query).bind(...params).all();
+
+        let countQuery = 'SELECT COUNT(*) as total FROM disease_interactions';
+        const countParams = [];
+        if (since > 0) {
+            countQuery += " WHERE created_at > ?";
+            countParams.push(since);
+        }
+        const countResult = await DB.prepare(countQuery).bind(...countParams).first();
+
+        return jsonResponse({
+            data: results || [],
+            total: countResult.total || 0,
+            currentTimestamp: Math.floor(Date.now() / 1000)
+        });
+
+    } catch (e) {
+        console.error('Sync disease interactions error:', e);
+        return errorResponse(e.message, 500);
+    }
+}
+
