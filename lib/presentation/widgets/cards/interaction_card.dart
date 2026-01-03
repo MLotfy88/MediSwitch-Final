@@ -97,7 +97,9 @@ class InteractionCard extends StatelessWidget {
                           isDisease
                               ? '${interaction.ingredient1} + ${interaction.ingredient2}'
                               : (isFood
-                                  ? '${interaction.ingredient1} + ${isRTL ? 'طعام' : 'Food'}'
+                                  ? (effect.isNotEmpty
+                                      ? effect
+                                      : '${interaction.ingredient1} + ${isRTL ? 'طعام' : 'Food'}')
                                   : '${interaction.ingredient1} + ${interaction.ingredient2}'),
                           style: TextStyle(
                             color: colorScheme.onSurface,

@@ -99,9 +99,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
           '[InteractionRepo] No local interactions for ${drug.tradeName}, fetching from API...',
         );
         try {
-          final remoteData = await remoteDataSource.getDrugInteractions(
-            drug.id!,
-          );
+          final remoteData = await remoteDataSource
+              .getDrugInteractions(drug.id!)
+              .timeout(const Duration(seconds: 10));
           if (remoteData.isNotEmpty) {
             await localDataSource.saveDrugInteractions(remoteData);
             // Re-fetch from local to get proper models
@@ -603,9 +603,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
             '[InteractionRepo] Fetching food interactions from API for ${drug.tradeName}...',
           );
           try {
-            final remoteData = await remoteDataSource.getFoodInteractions(
-              drug.id!,
-            );
+            final remoteData = await remoteDataSource
+                .getFoodInteractions(drug.id!)
+                .timeout(const Duration(seconds: 10));
             if (remoteData.isNotEmpty) {
               await localDataSource.saveFoodInteractions(remoteData);
               byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
@@ -715,9 +715,9 @@ class InteractionRepositoryImpl implements InteractionRepository {
           '[InteractionRepo] Fetching disease interactions from API for ${drug.tradeName}...',
         );
         try {
-          final remoteData = await remoteDataSource.getDiseaseInteractions(
-            drug.id!,
-          );
+          final remoteData = await remoteDataSource
+              .getDiseaseInteractions(drug.id!)
+              .timeout(const Duration(seconds: 10));
           if (remoteData.isNotEmpty) {
             await localDataSource.saveDiseaseInteractions(remoteData);
             interactions = await localDataSource.getDiseaseInteractionsForDrug(

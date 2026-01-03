@@ -216,6 +216,9 @@ class DatabaseHelper {
       await db.execute(
         'ALTER TABLE $diseaseInteractionsTable ADD COLUMN reference_text TEXT',
       );
+
+      // Ensure indices are created/updated
+      await _onCreateIndices(db);
     }
   }
 
@@ -425,30 +428,56 @@ class DatabaseHelper {
   }
 
   Future<void> _onCreateIndices(Database db) async {
-    // 1. Critical: Ingredient Search Index
+    // --- ADVANCED INDEXING STRATEGY (High Performance) ---
+
+    // 1. Critical: Ingredient Search Index (Covering key columns)
+    // Using COLLATE NOCASE relies on columns being defined that way.
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_mi_ingredient ON med_ingredients(ingredient)',
     );
 
-    // 2. Critical: High Risk Severity Index (Filtering)
-    await db.execute(
-      'CREATE INDEX IF NOT EXISTS idx_interactions_severity ON $interactionsTable(severity)',
-    );
+    // 2. Functional Index for Severity (Matches query "LOWER(severity) IN ...")
+    // Standard indexes are ignored if you wrap the column in a function like LOWER().
+    // We create an index on the RESULT of the function.
+    try {
+      await db.execute(
+        'CREATE INDEX IF NOT EXISTS idx_interactions_severity_lower ON $interactionsTable(LOWER(severity))',
+      );
+    } catch (e) {
+      // Fallback for older SQLite versions
+      await db.execute(
+        'CREATE INDEX IF NOT EXISTS idx_interactions_severity ON $interactionsTable(severity)',
+      );
+    }
 
-    // 3. Food Interactions Lookups
+    // 3. Partial Index for High Risk (The "Strongest" Strategy)
+    // Only indexes the rows that matter. Tiny size, instant speed.
+    // Note: Syntax requires specific SQLite versions, usually safe on modern Flutter.
+    try {
+      await db.execute('''
+        CREATE INDEX IF NOT EXISTS idx_high_risk_partial 
+        ON $interactionsTable(ingredient1, ingredient2) 
+        WHERE severity IN ('Contraindicated', 'Severe', 'Major', 'High')
+      ''');
+    } catch (e) {
+      debugPrint('Partial index not supported on this device, skipping.');
+    }
+
+    // 4. Covering Index for Food Stats
+    // Allows counting interactions without reading the main table files (Index Only Scan).
     await db.execute(
-      'CREATE INDEX IF NOT EXISTS idx_fi_interaction ON $foodInteractionsTable(interaction)',
+      'CREATE INDEX IF NOT EXISTS idx_fi_covering ON $foodInteractionsTable(ingredient, interaction)',
     );
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_fi_trade_name ON $foodInteractionsTable(trade_name)',
     );
 
-    // 4. Drugs Flags for instant Home Screen filtering
+    // 5. Drugs Flags for instant Home Screen filtering
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_drugs_flags ON $medicinesTable(has_drug_interaction, has_food_interaction, has_disease_interaction)',
     );
 
-    debugPrint('Additional performance indices created');
+    debugPrint('Advanced performance indices created');
   }
 
   // --- Basic CRUD Operations ---
