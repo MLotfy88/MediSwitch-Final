@@ -1313,20 +1313,24 @@ async function handleGetInteractions(request, DB) {
     const offset = (page - 1) * limit;
 
     try {
-        let query = 'SELECT * FROM drug_interactions';
-        let countQuery = 'SELECT COUNT(*) as total FROM drug_interactions';
+        let query = 'SELECT di.* FROM drug_interactions di';
+        let countQuery = 'SELECT COUNT(DISTINCT di.id) as total FROM drug_interactions di';
         const params = [];
         const conditions = [];
 
         if (medId) {
-            conditions.push('med_id = ?');
+            // Join with med_ingredients to link med_id to ingredients
+            query += ' JOIN med_ingredients mi ON (di.ingredient1 = mi.ingredient OR di.ingredient2 = mi.ingredient)';
+            countQuery += ' JOIN med_ingredients mi ON (di.ingredient1 = mi.ingredient OR di.ingredient2 = mi.ingredient)';
+
+            conditions.push('mi.med_id = ?');
             params.push(medId);
         }
 
         if (search) {
-            conditions.push('(ingredient1 LIKE ? OR ingredient2 LIKE ? OR interaction_drug_name LIKE ?)');
+            conditions.push('(di.ingredient1 LIKE ? OR di.ingredient2 LIKE ?)'); // Removed interaction_drug_name if not exist
             const searchParam = `%${search}%`;
-            params.push(searchParam, searchParam, searchParam);
+            params.push(searchParam, searchParam);
         }
 
         if (conditions.length > 0) {
@@ -1335,7 +1339,7 @@ async function handleGetInteractions(request, DB) {
             countQuery += whereClause;
         }
 
-        query += ' ORDER BY severity DESC LIMIT ? OFFSET ?';
+        query += ' ORDER BY di.severity DESC LIMIT ? OFFSET ?';
         // params for countQuery are the same as query (minus limit/offset)
         const countParams = [...params];
 
