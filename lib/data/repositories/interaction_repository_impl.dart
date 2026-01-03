@@ -264,11 +264,15 @@ class InteractionRepositoryImpl implements InteractionRepository {
 
   @override
   Future<List<DrugInteraction>> getHighRiskInteractions({
-    int limit = 50,
+    int limit = 20,
+    int offset = 0,
+    String? searchQuery,
   }) async {
     try {
       final interactions = await localDataSource.getHighRiskInteractions(
         limit: limit,
+        offset: offset,
+        searchQuery: searchQuery,
       );
       return List<DrugInteraction>.from(interactions);
     } catch (e) {

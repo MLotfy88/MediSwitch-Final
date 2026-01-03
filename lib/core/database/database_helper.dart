@@ -287,6 +287,9 @@ class DatabaseHelper {
     // Create Disease Interactions Table
     await _onCreateDiseaseInteractions(db);
 
+    // Create Index
+    await _onCreateIndices(db);
+
     // Create Home Cache Table
     await db.execute(
       'CREATE TABLE IF NOT EXISTS $homeCacheTable (key TEXT PRIMARY KEY, data TEXT)',
@@ -419,6 +422,33 @@ class DatabaseHelper {
       'CREATE INDEX IF NOT EXISTS idx_disease_med_id ON $diseaseInteractionsTable(med_id)',
     );
     debugPrint('$diseaseInteractionsTable table created');
+  }
+
+  Future<void> _onCreateIndices(Database db) async {
+    // 1. Critical: Ingredient Search Index
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_mi_ingredient ON med_ingredients(ingredient)',
+    );
+
+    // 2. Critical: High Risk Severity Index (Filtering)
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_interactions_severity ON $interactionsTable(severity)',
+    );
+
+    // 3. Food Interactions Lookups
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_fi_interaction ON $foodInteractionsTable(interaction)',
+    );
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_fi_trade_name ON $foodInteractionsTable(trade_name)',
+    );
+
+    // 4. Drugs Flags for instant Home Screen filtering
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_drugs_flags ON $medicinesTable(has_drug_interaction, has_food_interaction, has_disease_interaction)',
+    );
+
+    debugPrint('Additional performance indices created');
   }
 
   // --- Basic CRUD Operations ---

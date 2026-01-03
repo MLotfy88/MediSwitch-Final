@@ -1034,102 +1034,23 @@ class SqliteLocalDataSource {
     final db = await dbHelper.database;
 
     try {
-      // Check if food_interactions table has data
-      final countResult = await db.rawQuery(
-        'SELECT COUNT(*) as count FROM ${DatabaseHelper.foodInteractionsTable}',
-      );
-      final totalFoodInteractions = Sqflite.firstIntValue(countResult) ?? 0;
-      _logger.d(
-        '[getDrugsWithFoodInteractions] Total food interactions in DB: $totalFoodInteractions',
-      );
-
-      if (totalFoodInteractions == 0) {
-        _logger.w(
-          '[getDrugsWithFoodInteractions] WARNING: No food interactions found in database!',
-        );
-        return [];
-      }
-
-      // Step 1: Get distinct trade_names from food_interactions table
-      final List<Map<String, dynamic>> trade_names = await db.rawQuery(
+      // Efficient JOIN query
+      final List<Map<String, dynamic>> maps = await db.rawQuery(
         '''
-        SELECT DISTINCT trade_name 
-        FROM ${DatabaseHelper.foodInteractionsTable}
+        SELECT d.* 
+        FROM ${DatabaseHelper.medicinesTable} d
+        JOIN ${DatabaseHelper.foodInteractionsTable} fi ON d.id = fi.med_id
+        GROUP BY d.id
         LIMIT ?
       ''',
         [limit],
       );
 
-      _logger.d(
-        '[getDrugsWithFoodInteractions] Found ${trade_names.length} unique trade names with food interactions',
-      );
-
-      // DEBUG: Print first 5 trade names from food_interactions
-      if (trade_names.isNotEmpty) {
-        _logger.d(
-          '[getDrugsWithFoodInteractions] Sample food interaction trade names: ${trade_names.take(5).map((e) => e['trade_name']).toList()}',
-        );
-      }
-
-      if (trade_names.isEmpty) {
-        return [];
-      }
-
-      // Step 2: Fetch drugs matching these trade names
-      final results = <MedicineModel>[];
-      int matchAttempts = 0;
-      int matchesFound = 0;
-
-      for (final row in trade_names) {
-        final trade_name = row['trade_name'] as String?;
-        if (trade_name == null || trade_name.isEmpty) continue;
-
-        matchAttempts++;
-        // Limit extensive logging to first 10 attempts
-        final bool logDetail = matchAttempts <= 10;
-
-        // Try exact match first (case-insensitive) -- Adding trim()
-        var drugs = await db.query(
-          DatabaseHelper.medicinesTable,
-          where: 'LOWER(${DatabaseHelper.colTradeName}) = LOWER(?)',
-          whereArgs: [trade_name.trim()],
-          limit: 1,
-        );
-
-        if (drugs.isEmpty) {
-          // Try LIKE match
-          drugs = await db.query(
-            DatabaseHelper.medicinesTable,
-            where: 'LOWER(${DatabaseHelper.colTradeName}) LIKE LOWER(?)',
-            whereArgs: ['%${trade_name.trim()}%'],
-            limit: 1,
-          );
-          if (logDetail) {
-            _logger.d(
-              '[getDrugsWithFoodInteractions] Exact match failed for "$trade_name". LIKE match found: ${drugs.length}',
-            );
-          }
-        } else {
-          if (logDetail) {
-            _logger.d(
-              '[getDrugsWithFoodInteractions] Exact match success for "$trade_name"',
-            );
-          }
-        }
-
-        if (drugs.isNotEmpty) {
-          matchesFound++;
-          results.add(MedicineModel.fromMap(drugs.first));
-        }
-      }
-
       _logger.i(
-        '[getDrugsWithFoodInteractions] Match summary: Attempts=$matchAttempts, Matches=$matchesFound',
+        '[getDrugsWithFoodInteractions] Found ${maps.length} drugs with food interactions',
       );
-      _logger.i(
-        '[getDrugsWithFoodInteractions] Successfully matched ${results.length} drugs',
-      );
-      return results;
+
+      return maps.map((m) => MedicineModel.fromMap(m)).toList();
     } catch (e, stackTrace) {
       _logger.e('[getDrugsWithFoodInteractions] ERROR', e, stackTrace);
       return [];
@@ -1387,20 +1308,35 @@ class SqliteLocalDataSource {
 
   Future<List<DrugInteractionModel>> getHighRiskInteractions({
     int limit = 50,
+    int offset = 0,
+    String? searchQuery,
   }) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Just list rules
+
+    // Base WHERE clause
+    String whereClause =
+        "LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')";
+    List<dynamic> whereArgs = [];
+
+    // Add search filter if present
+    if (searchQuery != null && searchQuery.trim().isNotEmpty) {
+      whereClause += " AND (ingredient1 LIKE ? OR ingredient2 LIKE ?)";
+      whereArgs.add('%$searchQuery%');
+      whereArgs.add('%$searchQuery%');
+    }
+
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.interactionsTable,
-      where:
-          "LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')",
+      where: whereClause,
+      whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
       limit: limit,
+      offset: offset,
+      orderBy: 'id ASC',
     );
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
-      // Use the full map but ensure med_id is 0 if not present (as this is a general interaction list)
       final fullMap = Map<String, dynamic>.from(m);
       fullMap['med_id'] ??= 0;
       return DrugInteractionModel.fromMap(fullMap);

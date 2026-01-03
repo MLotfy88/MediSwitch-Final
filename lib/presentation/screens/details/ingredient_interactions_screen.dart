@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:lucide_icons/lucide_icons.dart';
@@ -36,38 +38,98 @@ class _IngredientInteractionsScreenState
     extends State<IngredientInteractionsScreen> {
   final InteractionRepository _interactionRepository =
       locator<InteractionRepository>();
+  final ScrollController _scrollController = ScrollController();
 
-  List<DrugInteraction> _allInteractions = []; // Full list for filtering
+  List<DrugInteraction> _allInteractions =
+      []; // Full list for filtering (Specific mode)
   List<DrugInteraction> _filteredInteractions = []; // Display list
+  List<DrugInteraction> _paginatedInteractions = []; // List for See All mode
 
   /// Whether data is currently being loaded
   bool _isLoading = true;
+  bool _isLoadingMore = false;
+  bool _hasMore = true;
+  int _currentOffset = 0;
+  static const int _pageSize = 20;
 
   /// Search query string
   String _searchQuery = '';
 
+  // Debounce search
+  Timer? _debounce;
+
   @override
   void initState() {
     super.initState();
+    _scrollController.addListener(_onScroll);
     _loadInteractions();
   }
 
-  /// Loads interaction data from repository
-  Future<void> _loadInteractions() async {
-    try {
-      List<DrugInteraction> specificList = [];
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    _debounce?.cancel();
+    super.dispose();
+  }
 
-      if (widget.ingredient != null) {
+  void _onScroll() {
+    if (_isSeeAllMode() &&
+        _scrollController.position.pixels >=
+            _scrollController.position.maxScrollExtent - 200 &&
+        !_isLoading &&
+        !_isLoadingMore &&
+        _hasMore) {
+      _loadMore();
+    }
+  }
+
+  bool _isSeeAllMode() => widget.ingredient == null;
+
+  /// Loads interaction data from repository
+  Future<void> _loadInteractions({bool reset = false}) async {
+    if (reset) {
+      setState(() {
+        _isLoading = true;
+        _currentOffset = 0;
+        _hasMore = true;
+        _paginatedInteractions = [];
+        _filteredInteractions = []; // Clear display
+      });
+    }
+
+    try {
+      if (_isSeeAllMode()) {
+        // --- SEE ALL HIGH RISK (Paginated) ---
+        final newInteractions = await _interactionRepository
+            .getHighRiskInteractions(
+              limit: _pageSize,
+              offset: _currentOffset,
+              searchQuery: _searchQuery,
+            );
+
+        if (mounted) {
+          setState(() {
+            if (newInteractions.length < _pageSize) {
+              _hasMore = false;
+            }
+            _paginatedInteractions.addAll(newInteractions);
+            _filteredInteractions = _paginatedInteractions; // Direct mapping
+            _currentOffset += newInteractions.length;
+            _isLoading = false;
+          });
+        }
+      } else {
+        // --- SPECIFIC INGREDIENT (Legacy / Full Load) ---
+        List<DrugInteraction> specificList = [];
+
         if (widget.onlyFood) {
-          // --- FOOD ONLY ---
+          // Food Logic (Same as before)
           try {
-            // Create a temporary drug entity with the active ingredient name to lookup food interactions
             final tempDrug = DrugEntity(
               id: null,
               tradeName: '',
               arabicName: '',
               price: '0',
-              // oldPrice: null,
               active:
                   widget.ingredient!.normalizedName ?? widget.ingredient!.name,
               company: '',
@@ -78,107 +140,142 @@ class _IngredientInteractionsScreenState
               lastPriceUpdate: '',
               pharmacology: '',
             );
-
             final foodInteractions = await _interactionRepository
                 .getFoodInteractions(tempDrug);
-
-            // Convert strings to DrugInteraction objects
             for (final foodDesc in foodInteractions) {
               specificList.add(
                 DrugInteraction(
-                  id: -1, // Dummy ID
+                  id: -1,
                   ingredient1: widget.ingredient!.name,
                   ingredient2: 'Food / Diet',
-                  severity: 'Major', // Assume significant if listed
+                  severity: 'Major',
                   effect: foodDesc,
-                  source: 'Database', // or 'Food'
+                  source: 'Database',
                   type: 'food',
                 ),
               );
             }
-          } on Exception catch (e) {
-            debugPrint('Error loading food interactions: $e');
+          } catch (e) {
+            debugPrint('Error loading food: $e');
           }
         } else {
-          // --- DRUG ONLY (High Risk) ---
-          final repo = _interactionRepository;
-
-          // DEBUG: Print what we're searching for
+          // Ingredient Logic
           final searchTerm =
               widget.ingredient!.normalizedName ?? widget.ingredient!.name;
-          debugPrint('🔍 [IngredientInteractionsScreen] Ingredient Card Info:');
-          debugPrint('   - Display Name: ${widget.ingredient!.name}');
-          debugPrint(
-            '   - Normalized Name: ${widget.ingredient!.normalizedName}',
+          specificList = await _interactionRepository.getInteractionsWith(
+            searchTerm,
           );
-          debugPrint('   - Searching with: "$searchTerm"');
-
-          specificList = await repo.getInteractionsWith(searchTerm);
         }
-      } else {
-        specificList = await _interactionRepository.getHighRiskInteractions();
-      }
 
-      // usage of severityEnum
-      specificList.sort(
-        (a, b) => b.severityEnum.priority.compareTo(a.severityEnum.priority),
-      );
+        // Sort locally
+        specificList.sort(
+          (a, b) => b.severityEnum.priority.compareTo(a.severityEnum.priority),
+        );
 
-      if (mounted) {
-        setState(() {
-          _allInteractions = specificList;
-          _filteredInteractions = specificList;
-          _isLoading = false;
-        });
+        if (mounted) {
+          setState(() {
+            _allInteractions = specificList;
+            _filteredInteractions = specificList; // Initial full list
+            _isLoading = false;
+          });
+          // Apply local filter if search query exists (restoring state)
+          if (_searchQuery.isNotEmpty) _filterLocalList(_searchQuery);
+        }
       }
     } on Exception catch (e) {
       debugPrint('Error loading interactions: $e');
-      if (mounted) {
-        setState(() {
-          _isLoading = false;
-        });
-      }
+      if (mounted) setState(() => _isLoading = false);
     }
   }
 
-  void _onSearch(String query) {
-    final isRTL = Directionality.of(context) == TextDirection.rtl;
+  Future<void> _loadMore() async {
+    if (!_isSeeAllMode()) return;
+
     setState(() {
-      _searchQuery = query;
-      if (query.isEmpty) {
-        _filteredInteractions = List.from(_allInteractions);
+      _isLoadingMore = true;
+    });
+
+    try {
+      final newInteractions = await _interactionRepository
+          .getHighRiskInteractions(
+            limit: _pageSize,
+            offset: _currentOffset,
+            searchQuery: _searchQuery,
+          );
+
+      if (mounted) {
+        setState(() {
+          if (newInteractions.length < _pageSize) {
+            _hasMore = false;
+          }
+          _paginatedInteractions.addAll(newInteractions);
+          _filteredInteractions = _paginatedInteractions;
+          _currentOffset += newInteractions.length;
+          _isLoadingMore = false;
+        });
+      }
+    } catch (e) {
+      if (mounted) setState(() => _isLoadingMore = false);
+    }
+  }
+
+  // Local filtering for Specific Ingredient Mode
+  void _filterLocalList(String query) {
+    if (_isSeeAllMode()) return; // Should not happen
+
+    final isRTL = Directionality.of(context) == TextDirection.rtl;
+    final lowerQuery = query.toLowerCase();
+
+    final filtered =
+        _allInteractions.where((i) {
+          final effect =
+              isRTL ? (i.arabicEffect ?? i.effect ?? '') : (i.effect ?? '');
+          // Use normalizedName for comparison if available
+          final searchKey =
+              widget.ingredient?.normalizedName?.toLowerCase() ??
+              widget.ingredient?.name.toLowerCase();
+
+          final String otherIngredient;
+          if (searchKey != null) {
+            otherIngredient =
+                i.ingredient1.toLowerCase() == searchKey
+                    ? i.ingredient2
+                    : i.ingredient1;
+          } else {
+            otherIngredient = "${i.ingredient1} ${i.ingredient2}";
+          }
+
+          final isFoodInteraction = i.type == 'food';
+
+          return otherIngredient.toLowerCase().contains(lowerQuery) ||
+              effect.toLowerCase().contains(lowerQuery) ||
+              (isFoodInteraction &&
+                  (isRTL ? 'طعام' : 'food').toLowerCase().contains(lowerQuery));
+        }).toList();
+
+    setState(() {
+      _filteredInteractions = filtered;
+    });
+  }
+
+  void _onSearch(String query) {
+    if (_debounce?.isActive ?? false) _debounce?.cancel();
+
+    _debounce = Timer(const Duration(milliseconds: 500), () {
+      if (_searchQuery == query) return;
+
+      setState(() {
+        _searchQuery = query;
+      });
+
+      if (_isSeeAllMode()) {
+        _loadInteractions(reset: true); // Server-side search
       } else {
-        final lowerQuery = query.toLowerCase();
-        _filteredInteractions =
-            _allInteractions.where((i) {
-              final effect =
-                  isRTL ? (i.arabicEffect ?? i.effect ?? '') : (i.effect ?? '');
-
-              // Use normalizedName for comparison if available
-              final searchKey =
-                  widget.ingredient?.normalizedName?.toLowerCase() ??
-                  widget.ingredient?.name.toLowerCase();
-
-              final String otherIngredient;
-              if (searchKey != null) {
-                otherIngredient =
-                    i.ingredient1.toLowerCase() == searchKey
-                        ? i.ingredient2
-                        : i.ingredient1;
-              } else {
-                // If in "See All" mode (ingredient is null), search in both ingredient names
-                otherIngredient = "${i.ingredient1} ${i.ingredient2}";
-              }
-
-              final isFoodInteraction = i.type == 'food';
-
-              return otherIngredient.toLowerCase().contains(lowerQuery) ||
-                  effect.toLowerCase().contains(lowerQuery) ||
-                  (isFoodInteraction &&
-                      (isRTL ? 'طعام' : 'food').toLowerCase().contains(
-                        lowerQuery,
-                      ));
-            }).toList();
+        if (query.isEmpty) {
+          setState(() => _filteredInteractions = _allInteractions);
+        } else {
+          _filterLocalList(query);
+        }
       }
     });
   }
@@ -196,6 +293,7 @@ class _IngredientInteractionsScreenState
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       body: CustomScrollView(
+        controller: _scrollController,
         slivers: [
           SliverAppBar(
             pinned: true,
@@ -238,7 +336,7 @@ class _IngredientInteractionsScreenState
             ),
           ),
 
-          // Search Bar (Only if showing ALL interactions)
+          // Search Bar
           SliverToBoxAdapter(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
@@ -291,121 +389,148 @@ class _IngredientInteractionsScreenState
               ),
             )
           else ...[
-            // 1. Primary Interactions (High Priority)
-            if (_filteredInteractions.any((i) => i.isPrimaryIngredient))
+            if (_isSeeAllMode()) ...[
+              // --- SEE ALL MODE (Infinite Scroll) ---
               SliverPadding(
                 padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
                 sliver: SliverList(
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) {
-                      final primaryList =
+                  delegate: SliverChildBuilderDelegate((context, index) {
+                    final interaction = _filteredInteractions[index];
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child:
+                          InteractionCard(
+                            interaction: interaction,
+                            showDetails: false,
+                            onTap: () => _showInteractionDetails(interaction),
+                          ).animate().fadeIn(),
+                    );
+                  }, childCount: _filteredInteractions.length),
+                ),
+              ),
+              if (_isLoadingMore)
+                const SliverToBoxAdapter(
+                  child: Padding(
+                    padding: EdgeInsets.all(16.0),
+                    child: Center(child: CircularProgressIndicator()),
+                  ),
+                ),
+            ] else ...[
+              // --- SPECIFIC INGREDIENT MODE (Grouped) ---
+              if (_filteredInteractions.any((i) => i.isPrimaryIngredient))
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                  sliver: SliverList(
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) {
+                        final primaryList =
+                            _filteredInteractions
+                                .where((i) => i.isPrimaryIngredient)
+                                .toList();
+                        if (index == 0) {
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: 12),
+                            child: _InteractionSectionHeader(
+                              title:
+                                  isRTL
+                                      ? 'تفاعلات مباشرة'
+                                      : 'Direct Interactions',
+                              subtitle:
+                                  isRTL
+                                      ? '${widget.ingredient?.name ?? 'المادة'} كمكون أساسي'
+                                      : '${widget.ingredient?.name ?? 'Ingredient'} as primary component',
+                              icon: LucideIcons.alertTriangle,
+                              color: AppColors.danger,
+                            ),
+                          );
+                        }
+                        final interaction = primaryList[index - 1];
+                        return PaginationWrapper(
+                          key: ValueKey('primary_${interaction.id}_$index'),
+                          index: index - 1,
+                          child: Padding(
+                            padding: const EdgeInsets.only(bottom: 12),
+                            child: InteractionCard(
+                              interaction: interaction,
+                              showDetails: false,
+                              onTap: () => _showInteractionDetails(interaction),
+                            ),
+                          ),
+                        );
+                      },
+                      childCount:
                           _filteredInteractions
                               .where((i) => i.isPrimaryIngredient)
-                              .toList();
-                      if (index == 0) {
-                        return Padding(
-                          padding: const EdgeInsets.only(bottom: 12),
-                          child: _InteractionSectionHeader(
-                            title:
-                                isRTL
-                                    ? 'تفاعلات مباشرة'
-                                    : 'Direct Interactions',
-                            subtitle:
-                                isRTL
-                                    ? '${widget.ingredient?.name ?? 'المادة'} كمكون أساسي'
-                                    : '${widget.ingredient?.name ?? 'Ingredient'} as primary component',
-                            icon: LucideIcons.alertTriangle,
-                            color: AppColors.danger,
-                          ),
-                        );
-                      }
-                      final interaction = primaryList[index - 1];
-                      return PaginationWrapper(
-                        key: ValueKey('primary_${interaction.id}_$index'),
-                        index: index - 1,
-                        child: Padding(
-                          padding: const EdgeInsets.only(bottom: 12),
-                          child: InteractionCard(
-                            interaction: interaction,
-                            showDetails: false, // Compact mode
-                            onTap: () => _showInteractionDetails(interaction),
-                          ),
-                        ),
-                      );
-                    },
-                    childCount:
-                        _filteredInteractions
-                            .where((i) => i.isPrimaryIngredient)
-                            .length +
-                        1, // +1 for header
+                              .length +
+                          1,
+                    ),
                   ),
                 ),
-              ),
+              if (_filteredInteractions.any((i) => !i.isPrimaryIngredient))
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
+                  sliver: SliverList(
+                    delegate: SliverChildBuilderDelegate(
+                      (context, index) {
+                        final secondaryList =
+                            _filteredInteractions
+                                .where((i) => !i.isPrimaryIngredient)
+                                .toList();
 
-            // 2. Secondary Interactions (Low Priority / Contextual)
-            if (_filteredInteractions.any((i) => !i.isPrimaryIngredient))
-              SliverPadding(
-                padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
-                sliver: SliverList(
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) {
-                      final secondaryList =
+                        if (index == 0) {
+                          return Padding(
+                            padding: const EdgeInsets.only(top: 8, bottom: 12),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                _InfoBanner(
+                                  text:
+                                      isRTL
+                                          ? 'التفاعلات التالية تحدث عند وجود ${widget.ingredient?.name} كمكون ثانوي أو ضمن تركيبة دوائية، وقد تكون أقل خطورة أو تعتمد على الكمية.'
+                                          : 'These interactions occur when ${widget.ingredient?.name} is present as a secondary component. They might be less critical or dose-dependent.',
+                                  color: AppColors.info,
+                                ),
+                                const SizedBox(height: 16),
+                                _InteractionSectionHeader(
+                                  title:
+                                      isRTL
+                                          ? 'تفاعلات ثانوية'
+                                          : 'Secondary Interactions',
+                                  subtitle:
+                                      isRTL
+                                          ? 'أدوية تحتوي على ${widget.ingredient?.name}'
+                                          : 'Drugs containing ${widget.ingredient?.name}',
+                                  icon: LucideIcons.info,
+                                  color: AppColors.info,
+                                ),
+                              ],
+                            ),
+                          );
+                        }
+                        final interaction = secondaryList[index - 1];
+                        return PaginationWrapper(
+                          key: ValueKey('secondary_${interaction.id}_$index'),
+                          index: index - 1,
+                          child: Padding(
+                            padding: const EdgeInsets.only(bottom: 12),
+                            child: InteractionCard(
+                              interaction: interaction,
+                              showDetails: false,
+                              onTap: () => _showInteractionDetails(interaction),
+                            ),
+                          ),
+                        );
+                      },
+                      childCount:
                           _filteredInteractions
                               .where((i) => !i.isPrimaryIngredient)
-                              .toList();
-
-                      if (index == 0) {
-                        return Padding(
-                          padding: const EdgeInsets.only(top: 8, bottom: 12),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              _InfoBanner(
-                                text:
-                                    isRTL
-                                        ? 'التفاعلات التالية تحدث عند وجود ${widget.ingredient?.name} كمكون ثانوي أو ضمن تركيبة دوائية، وقد تكون أقل خطورة أو تعتمد على الكمية.'
-                                        : 'These interactions occur when ${widget.ingredient?.name} is present as a secondary component. They might be less critical or dose-dependent.',
-                                color: AppColors.info,
-                              ),
-                              const SizedBox(height: 16),
-                              _InteractionSectionHeader(
-                                title:
-                                    isRTL
-                                        ? 'تفاعلات ثانوية'
-                                        : 'Secondary Interactions',
-                                subtitle:
-                                    isRTL
-                                        ? 'أدوية تحتوي على ${widget.ingredient?.name}'
-                                        : 'Drugs containing ${widget.ingredient?.name}',
-                                icon: LucideIcons.info,
-                                color: AppColors.info,
-                              ),
-                            ],
-                          ),
-                        );
-                      }
-                      final interaction = secondaryList[index - 1];
-                      return PaginationWrapper(
-                        key: ValueKey('secondary_${interaction.id}_$index'),
-                        index: index - 1,
-                        child: Padding(
-                          padding: const EdgeInsets.only(bottom: 12),
-                          child: InteractionCard(
-                            interaction: interaction,
-                            showDetails: false, // Compact mode
-                            onTap: () => _showInteractionDetails(interaction),
-                          ),
-                        ),
-                      );
-                    },
-                    childCount:
-                        _filteredInteractions
-                            .where((i) => !i.isPrimaryIngredient)
-                            .length +
-                        1, // +1 for header
+                              .length +
+                          1,
+                    ),
                   ),
                 ),
-              ),
+            ],
+            const SliverToBoxAdapter(child: SizedBox(height: 50)),
           ],
         ],
       ),

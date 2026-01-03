@@ -52,7 +52,11 @@ abstract class InteractionRepository {
   Future<List<DosageGuidelines>> getDosageGuidelines(DrugEntity drug);
 
   /// Get list of high risk individual interactions
-  Future<List<DrugInteraction>> getHighRiskInteractions({int limit = 50});
+  Future<List<DrugInteraction>> getHighRiskInteractions({
+    int limit = 20,
+    int offset = 0,
+    String? searchQuery,
+  });
 
   /// Get all interactions matching a specific drug name string (e.g. ingredient)
   Future<List<DrugInteraction>> getInteractionsWith(String drugName);
