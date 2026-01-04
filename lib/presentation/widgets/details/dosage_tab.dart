@@ -93,51 +93,59 @@ class DosageTab extends StatelessWidget {
   ) {
     final theme = Theme.of(context);
 
-    return GridView.count(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      crossAxisCount: 2,
-      mainAxisSpacing: 12,
-      crossAxisSpacing: 12,
-      childAspectRatio: 1.5,
+    return Wrap(
+      spacing: 12,
+      runSpacing: 12,
       children: [
-        _buildStatCard(
-          context,
-          l10n.regularFrequency,
-          guideline?.frequency != null && guideline!.frequency! > 0
-              ? (guideline!.frequency == 24
-                  ? (l10n.localeName == 'ar' ? 'مرة يومياً' : 'Once daily')
-                  : (24 % guideline!.frequency! == 0
-                      ? l10n.timesDaily(24 ~/ guideline!.frequency!)
-                      : l10n.everyXHours(guideline!.frequency!)))
-              : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
-          LucideIcons.clock,
-          theme.colorScheme.primary,
+        SizedBox(
+          width: (MediaQuery.of(context).size.width - 48) / 2,
+          child: _buildStatCard(
+            context,
+            l10n.regularFrequency,
+            guideline?.frequency != null && guideline!.frequency! > 0
+                ? (guideline!.frequency == 24
+                    ? (l10n.localeName == 'ar' ? 'مرة يومياً' : 'Once daily')
+                    : (24 % guideline!.frequency! == 0
+                        ? l10n.timesDaily(24 ~/ guideline!.frequency!)
+                        : l10n.everyXHours(guideline!.frequency!)))
+                : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
+            LucideIcons.clock,
+            theme.colorScheme.primary,
+          ),
         ),
-        _buildStatCard(
-          context,
-          l10n.maxDailyDose,
-          guideline?.maxDose != null && guideline!.maxDose! > 0
-              ? '${guideline!.maxDose} mg'
-              : (l10n.localeName == 'ar' ? 'راجع النشرة' : 'See leaflet'),
-          LucideIcons.alertCircle,
-          theme.colorScheme.error,
+        SizedBox(
+          width: (MediaQuery.of(context).size.width - 48) / 2,
+          child: _buildStatCard(
+            context,
+            l10n.maxDailyDose,
+            guideline?.maxDose != null && guideline!.maxDose! > 0
+                ? '${guideline!.maxDose} mg'
+                : (l10n.localeName == 'ar' ? 'راجع النشرة' : 'See leaflet'),
+            LucideIcons.alertCircle,
+            theme.colorScheme.error,
+          ),
         ),
-        _buildStatCard(
-          context,
-          l10n.administrationForm,
-          drug.dosageForm,
-          LucideIcons.pill,
-          Colors.orange,
+        SizedBox(
+          width: (MediaQuery.of(context).size.width - 48) / 2,
+          child: _buildStatCard(
+            context,
+            l10n.administrationForm,
+            drug.dosageForm,
+            LucideIcons.pill,
+            Colors.orange,
+          ),
         ),
-        _buildStatCard(
-          context,
-          l10n.treatmentDuration,
-          guideline?.duration != null && guideline!.duration! > 0
-              ? '${guideline!.duration} ${l10n.localeName == 'ar' ? 'أيام' : 'days'}'
-              : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
-          LucideIcons.calendar,
-          theme.colorScheme.secondary,
+        SizedBox(
+          width: (MediaQuery.of(context).size.width - 48) / 2,
+          child: _buildStatCard(
+            context,
+            l10n.treatmentDuration,
+            guideline?.duration != null && guideline!.duration! > 0
+                ? '${guideline!.duration} ${l10n.localeName == 'ar' ? 'أيام' : 'days'}'
+                : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
+            LucideIcons.calendar,
+            theme.colorScheme.secondary,
+          ),
         ),
       ],
     );
@@ -170,8 +178,6 @@ class DosageTab extends StatelessWidget {
           Text(
             label,
             style: TextStyle(fontSize: 11, color: appColors.mutedForeground),
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
           ),
           Text(
             value,
@@ -180,8 +186,6 @@ class DosageTab extends StatelessWidget {
               fontWeight: FontWeight.bold,
               color: theme.colorScheme.onSurface,
             ),
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
           ),
         ],
       ),
@@ -250,7 +254,7 @@ class DosageTab extends StatelessWidget {
             final isLast = index == guidelines.length - 1;
 
             return Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
               decoration: BoxDecoration(
                 border:
                     isLast
@@ -261,76 +265,84 @@ class DosageTab extends StatelessWidget {
                           ),
                         ),
               ),
-              child: Row(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(
-                    flex: 3,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        flex: 3,
+                        child: Text(
                           g.condition ?? 'General',
                           style: const TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        if (g.instructions != null &&
-                            g.instructions!.isNotEmpty)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 6),
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Icon(
-                                  LucideIcons.info,
-                                  size: 12,
-                                  color: theme.colorScheme.primary.withValues(
-                                    alpha: 0.7,
-                                  ),
-                                ),
-                                const SizedBox(width: 6),
-                                Expanded(
-                                  child: Text(
-                                    g.instructions!,
-                                    style: TextStyle(
-                                      fontSize: 11,
-                                      fontStyle: FontStyle.italic,
-                                      color: theme.colorScheme.onSurfaceVariant,
-                                      height: 1.4,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
+                      ),
+                      Expanded(
+                        flex: 2,
+                        child: Text(
+                          g.maxDose != null && g.maxDose! > (g.minDose ?? 0)
+                              ? '${g.minDose ?? 0}-${g.maxDose} mg'
+                              : '${g.minDose ?? "-"} mg',
+                          textAlign: TextAlign.end,
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                            color: theme.colorScheme.primary,
                           ),
-                        if (g.isPediatric)
-                          Padding(
-                            padding: const EdgeInsets.only(top: 2),
-                            child: Text(
-                              l10n.localeName == 'ar' ? 'للأطفال' : 'Pediatric',
-                              style: TextStyle(
-                                fontSize: 10,
-                                fontWeight: FontWeight.bold,
-                                color: theme.colorScheme.secondary,
-                              ),
-                            ),
-                          ),
-                      ],
-                    ),
+                        ),
+                      ),
+                    ],
                   ),
-                  Expanded(
-                    flex: 2,
-                    child: Text(
-                      g.maxDose != null && g.maxDose! > (g.minDose ?? 0)
-                          ? '${g.minDose ?? 0}-${g.maxDose} mg'
-                          : '${g.minDose ?? "-"} mg',
-                      style: const TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.bold,
+                  if (g.isPediatric)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 2),
+                      child: Text(
+                        l10n.localeName == 'ar' ? 'للأطفال' : 'Pediatric',
+                        style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: theme.colorScheme.secondary,
+                        ),
                       ),
                     ),
-                  ),
+                  if (g.instructions != null && g.instructions!.isNotEmpty)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: theme.colorScheme.surfaceContainerHighest
+                              .withValues(alpha: 0.3),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(
+                              LucideIcons.info,
+                              size: 14,
+                              color: theme.colorScheme.primary,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                g.instructions!,
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  color: theme.colorScheme.onSurfaceVariant,
+                                  height: 1.5,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                 ],
               ),
             );
