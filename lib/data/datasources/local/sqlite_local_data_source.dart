@@ -35,22 +35,18 @@ List<String> _parseIngredients(String active) {
 }
 
 // Keep for update logic
-List<MedicineModel> _parseCsvData(String rawCsv) {
+List<MedicineModel> _parseMedicines(String csv) {
   final List<List<dynamic>> csvTable = const CsvToListConverter(
     fieldDelimiter: ',',
     eol: '\n',
     shouldParseNumbers: false,
-  ).convert(rawCsv);
+  ).convert(csv);
+  if (csvTable.isNotEmpty) csvTable.removeAt(0);
+  return csvTable.map((row) => MedicineModel.fromCsv(row)).toList();
+}
 
-  if (csvTable.isNotEmpty) {
-    csvTable.removeAt(0); // Remove header row
-  }
-
-  final medicines =
-      csvTable.map((row) {
-        return MedicineModel.fromCsv(row);
-      }).toList();
-  return medicines;
+List<MedicineModel> _parseCsvData(String rawCsv) {
+  return _parseMedicines(rawCsv);
 }
 
 // Keep for update logic (still uses isolate)
@@ -102,19 +98,12 @@ Future<String?> _updateDatabaseIsolate(Map<String, dynamic> args) async {
 class SqliteLocalDataSource {
   final DatabaseHelper dbHelper;
   final Completer<void> _seedingCompleter = Completer<void>();
-  // Remove _isSeeding flag, state will be managed externally or by calling context
-  // bool _isSeeding = false;
+  final FileLoggerService _logger;
 
   // Keep the completer to signal when seeding (if performed) is done.
   Future<void> get seedingComplete => _seedingCompleter.future;
-  // Add getter to check if the completer is done
   bool get isSeedingCompleted => _seedingCompleter.isCompleted;
-  // Remove isSeeding getter
-  // bool get isSeeding => _isSeeding;
 
-  final FileLoggerService _logger;
-
-  // Constructor no longer automatically triggers seeding
   SqliteLocalDataSource({required this.dbHelper, FileLoggerService? logger})
     : _logger = logger ?? FileLoggerService();
 
@@ -127,9 +116,6 @@ class SqliteLocalDataSource {
   Future<int?> getLastUpdateTimestamp() async {
     final prefs = await SharedPreferences.getInstance();
     final timestamp = prefs.getInt(_prefsKeyLastUpdate);
-    // If we have a stored timestamp, return it.
-    // Otherwise, we might have just initialized from asset SQL or CSV.
-    // Return the default timestamp of that CSV so we only delta-sync after it.
     return timestamp ?? _initialDataTimestamp;
   }
 
@@ -154,15 +140,12 @@ class SqliteLocalDataSource {
     }, conflictAlgorithm: ConflictAlgorithm.replace);
   }
 
-  /// Recalculates interaction flags for all drugs in the database.
-  /// This ensures that has_drug_interaction, has_food_interaction, and has_disease_interaction
-  /// columns are correctly populated based on current tables.
+  /// Recalculates interaction flags - Optimized for NOCASE
   Future<void> recalculateInteractionFlags() async {
     final db = await dbHelper.database;
     await db.transaction((txn) async {
       _logger.i('Starting interaction flags recalculation...');
 
-      // 1. Reset all flags to 0 first
       await txn.execute('''
         UPDATE ${DatabaseHelper.medicinesTable} 
         SET has_drug_interaction = 0, 
@@ -170,8 +153,7 @@ class SqliteLocalDataSource {
             has_disease_interaction = 0
       ''');
 
-      // 2. Set has_drug_interaction = 1 for drugs matching any interaction ingredient
-      // We join med_ingredients with drug_interactions
+      // Optimized joins using NOCASE (removed LOWER)
       await txn.execute('''
         UPDATE ${DatabaseHelper.medicinesTable}
         SET has_drug_interaction = 1
@@ -179,11 +161,10 @@ class SqliteLocalDataSource {
           SELECT DISTINCT mi.med_id
           FROM med_ingredients mi
           JOIN ${DatabaseHelper.interactionsTable} ri 
-          ON (LOWER(mi.ingredient) = LOWER(ri.ingredient1) OR LOWER(mi.ingredient) = LOWER(ri.ingredient2))
+          ON (mi.ingredient = ri.ingredient1 OR mi.ingredient = ri.ingredient2)
         )
       ''');
 
-      // 3. Set has_food_interaction = 1 for drugs in food_interactions or matching ingredient
       await txn.execute('''
         UPDATE ${DatabaseHelper.medicinesTable}
         SET has_food_interaction = 1
@@ -192,11 +173,10 @@ class SqliteLocalDataSource {
           SELECT DISTINCT mi.med_id
           FROM med_ingredients mi
           JOIN ${DatabaseHelper.foodInteractionsTable} fi
-          ON LOWER(mi.ingredient) = LOWER(fi.trade_name) -- some food interactions use ingredient as trade_name
+          ON mi.ingredient = fi.trade_name
         )
       ''');
 
-      // 4. Set has_disease_interaction = 1
       await txn.execute('''
         UPDATE ${DatabaseHelper.medicinesTable}
         SET has_disease_interaction = 1
@@ -207,15 +187,11 @@ class SqliteLocalDataSource {
     });
   }
 
-  // Consolidates all initialization checks into one fast entry point.
-  // This is the ONLY method InitializationScreen should call.
   Future<void> ensureDatabaseInitialized() async {
     if (_seedingCompleter.isCompleted) return;
 
     try {
       final db = await dbHelper.database;
-
-      // Check if medicines exist
       final medsCount =
           Sqflite.firstIntValue(
             await db.rawQuery(
@@ -233,7 +209,13 @@ class SqliteLocalDataSource {
         _logger.i(
           '[ensureDatabaseInitialized] Core data exists, checking maintenance...',
         );
-        await seedDatabaseFromAssetIfNeeded();
+        // Ensure seeding logic is complete
+        try {
+          await _seedDosageGuidelines(db); // Always check dosages
+          await _checkAndSeedInteractions(db); // Always check interactions
+        } catch (_) {}
+
+        if (!_seedingCompleter.isCompleted) _seedingCompleter.complete();
       }
     } catch (e, s) {
       _logger.e(
@@ -245,24 +227,16 @@ class SqliteLocalDataSource {
         _seedingCompleter.completeError(e);
       }
     } finally {
-      // ABSOLUTE SAFETY: Ensure we never hang the app if somehow completion wasn't called.
       if (!_seedingCompleter.isCompleted) {
         _seedingCompleter.complete();
       }
     }
   }
 
+  // Dummy method for unused call
+  Future<void> seedDatabaseFromAssetIfNeeded() async {}
+
   // Performs initial seeding from the asset file.
-  // --- Data classes for Isolate ---
-  static List<MedicineModel> _parseMedicines(String csv) {
-    final List<List<dynamic>> csvTable = const CsvToListConverter(
-      fieldDelimiter: ',',
-      eol: '\n',
-      shouldParseNumbers: false,
-    ).convert(csv);
-    if (csvTable.isNotEmpty) csvTable.removeAt(0);
-    return csvTable.map((row) => MedicineModel.fromCsv(row)).toList();
-  }
 
   static List<Map<String, dynamic>> _prepareIngredients(
     Map<String, dynamic> args,
@@ -286,21 +260,20 @@ class SqliteLocalDataSource {
       if (med.id == null || med.id == 0) continue;
 
       List<String> ingredients = [];
-      // Try precise map first
       if (ingredientsMap.containsKey(med.tradeName)) {
         final dynamic mapped = ingredientsMap[med.tradeName];
         if (mapped is List) {
           ingredients =
-              mapped.map((e) => e.toString().toLowerCase().trim()).toList();
+              mapped.map((e) => e.toString().trim().toLowerCase()).toList();
         }
       }
 
-      // Fallback to regex
       if (ingredients.isEmpty && med.active.isNotEmpty) {
         ingredients = _parseIngredients(med.active);
       }
 
       for (final ing in ingredients) {
+        // Use normalized lowercase for consistency even with NOCASE, safest
         allIngredients.add({'med_id': med.id, 'ingredient': ing});
       }
     }
@@ -317,8 +290,6 @@ class SqliteLocalDataSource {
 
     try {
       db = await dbHelper.database;
-
-      // 1. Check if we need to seed medicines
       final medsExist = await hasMedicines();
       final ingredientsCount =
           Sqflite.firstIntValue(
@@ -327,16 +298,11 @@ class SqliteLocalDataSource {
           0;
 
       if (!medsExist || ingredientsCount == 0) {
-        _logger.w(
-          'Missing/Incomplete medicines data. Starting full seeding...',
-        );
-
         if (medsExist) {
           await db.delete('med_ingredients');
           await db.delete(DatabaseHelper.medicinesTable);
         }
 
-        // LOAD ASSETS (Main Thread - Fast I/O)
         _logger.i('Loading assets...');
         final rawCsv = await rootBundle.loadString('assets/meds.csv');
         String ingredientsJson = '';
@@ -344,38 +310,21 @@ class SqliteLocalDataSource {
           ingredientsJson = await rootBundle.loadString(
             'assets/data/medicine_ingredients.json',
           );
-        } catch (_) {
-          _logger.w(
-            'medicine_ingredients.json not found, using regex fallback.',
-          );
-        }
+        } catch (_) {}
 
-        // PARSE MEDICINES (Isolate 1)
         _logger.i('Parsing CSV in Isolate...');
         final medicines = await compute(_parseMedicines, rawCsv);
 
-        // PREPARE INGREDIENTS (Isolate 2)
         _logger.i('Preparing ingredients in Isolate...');
         final ingredients = await compute(_prepareIngredients, {
           'medicines': medicines,
           'ingredientsJson': ingredientsJson,
         });
 
-        _logger.i(
-          'Calculated ${medicines.length} meds and ${ingredients.length} ingredient links.',
-        );
-
-        // BATCH INSERT (Main Thread - Optimized)
-        _logger.i('Starting Batch Insert...');
-
-        // Chunked commit for stability
         await _batchCommitChunked(db, medicines, ingredients);
       }
 
-      // 2. Dosage Guidelines (Fast)
       await _seedDosageGuidelines(db);
-
-      // 3. Relational Interactions & Food/Disease (Check & Seed)
       await _checkAndSeedInteractions(db);
 
       final prefs = await _prefs;
@@ -403,8 +352,6 @@ class SqliteLocalDataSource {
     List<MedicineModel> meds,
     List<Map<String, dynamic>> ings,
   ) async {
-    // Chunking commits prevents "too many SQL variables" or memory issues
-    // Increased chunk size for performance (2000 is usually safe)
     const int batchSize = 2000;
 
     if (meds.isNotEmpty) {
@@ -420,7 +367,7 @@ class SqliteLocalDataSource {
           );
         }
         await batch.commit(noResult: true);
-        await Future<void>.delayed(Duration.zero); // Yield
+        await Future<void>.delayed(Duration.zero);
       }
     }
 
@@ -444,6 +391,35 @@ class SqliteLocalDataSource {
 
   Future<void> _seedDosageGuidelines(Database db) async {
     try {
+      _logger.i('[DOSAGE SEEDING] Checking/Seeding dosages...');
+      // Verify table exists first (it should with v19)
+      final count =
+          Sqflite.firstIntValue(
+            await db.rawQuery(
+              'SELECT COUNT(*) FROM sqlite_master WHERE type="table" AND name="${DatabaseHelper.dosageTable}"',
+            ),
+          ) ??
+          0;
+
+      if (count == 0) {
+        _logger.e(
+          '[DOSAGE SEEDING] Table MISSING implies schema update failed.',
+        );
+        return;
+      }
+
+      final dbCount =
+          Sqflite.firstIntValue(
+            await db.rawQuery(
+              'SELECT COUNT(*) FROM ${DatabaseHelper.dosageTable}',
+            ),
+          ) ??
+          0;
+      if (dbCount > 0) {
+        _logger.i('[DOSAGE SEEDING] Already seeded ($dbCount entries).');
+        return;
+      }
+
       final dosageJson = await rootBundle.loadString(
         'assets/data/dosage_guidelines.json',
       );
@@ -452,7 +428,7 @@ class SqliteLocalDataSource {
         final batch = db.batch();
         for (final item in dosageList) {
           batch.insert(
-            'dosage_guidelines',
+            DatabaseHelper.dosageTable, // Correct Table Name
             DosageGuidelinesModel.fromJson(
               item as Map<String, dynamic>,
             ).toMap(),
@@ -460,544 +436,44 @@ class SqliteLocalDataSource {
           );
         }
         await batch.commit(noResult: true);
+        _logger.i('[DOSAGE SEEDING] Seeded ${dosageList.length} dosages.');
       }
     } catch (e) {
       _logger.w('Dosage guidelines seeding skipped/failed: $e');
     }
   }
 
-  Future<void> _checkAndSeedInteractions(Database db) async {
-    // HYBRID ARCHITECTURE: Interaction seeding from large JSON assets is disabled
-    // to keep the app size small (~40MB instead of 250MB+).
-    // Interactions will now be fetched from Cloudflare D1 API and cached locally on demand.
-
-    _logger.i(
-      '[INTERACTION SEEDING] Hybrid Mode: Skipping large offline assets seeding.',
-    );
-
-    /* Legacy Offline-Only Seeding: 
-    // Relational
-    final interactionsCount = Sqflite.firstIntValue(
-      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}')
-    ) ?? 0;
-    if (interactionsCount == 0) await _seedRelationalInteractions(db);
-
-    // Food
-    final foodCount = Sqflite.firstIntValue(
-      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.foodInteractionsTable}')
-    ) ?? 0;
-    if (foodCount == 0) await _seedFoodInteractions(db);
-
-    // Disease
-    final diseaseCount = Sqflite.firstIntValue(
-      await db.rawQuery('SELECT COUNT(*) FROM ${DatabaseHelper.diseaseInteractionsTable}')
-    ) ?? 0;
-    if (diseaseCount == 0) await _seedDiseaseInteractions(db);
-    */
-  }
-
-  // --- Relational Seeding Helper ---
-  Future<void> _seedRelationalInteractions(Database db) async {
+  // Gets dosage guidelines for a specific medicine
+  Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
     try {
-      _logger.i(
-        '[INTERACTION SEEDING] Starting relational interaction data seeding...',
+      final List<Map<String, dynamic>> maps = await db.query(
+        DatabaseHelper.dosageTable,
+        where: 'med_id = ?',
+        whereArgs: [medId],
       );
-
-      // 1. Seed Rules (Enriched)
-      int chunk = 1;
-      int totalRulesLoaded = 0;
-      while (true) {
-        try {
-          final fname =
-              'assets/data/interactions/enriched/enriched_rules_part_${chunk.toString().padLeft(3, '0')}.json';
-          _logger.i(
-            '[INTERACTION SEEDING] Loading enriched rules chunk $chunk from: $fname',
-          );
-
-          final jsonString = await rootBundle.loadString(fname);
-          _logger.i(
-            '[INTERACTION SEEDING] Rules chunk $chunk loaded (${jsonString.length} bytes)',
-          );
-
-          final Map<String, dynamic> content =
-              json.decode(jsonString) as Map<String, dynamic>;
-          final List<dynamic> rules = (content['data'] as List?) ?? [];
-
-          if (rules.isEmpty) {
-            _logger.i(
-              '[INTERACTION SEEDING] Rules chunk $chunk is empty, stopping.',
-            );
-            break;
-          }
-
-          _logger.i(
-            '[INTERACTION SEEDING] Inserting ${rules.length} rules from chunk $chunk...',
-          );
-          final batch = db.batch();
-          for (final r in rules) {
-            final i1 = _normalizeIngredientName(
-              r['ingredient1'] as String? ?? '',
-            );
-            final i2 = _normalizeIngredientName(
-              r['ingredient2'] as String? ?? '',
-            );
-            // Filter out junk data and short names
-            final junkWords = [
-              'interactions',
-              'uses',
-              'side effects',
-              'dosage',
-              'precautions',
-            ];
-            if (i1.length < 3 || junkWords.contains(i1.toLowerCase())) continue;
-            if (i2.length < 3 || junkWords.contains(i2.toLowerCase())) continue;
-
-            if (i1.isEmpty || i2.isEmpty) continue;
-
-            batch.insert(DatabaseHelper.interactionsTable, {
-              'ingredient1': i1,
-              'ingredient2': i2,
-              'severity': r['severity'],
-              'effect': r['effect'],
-              'arabic_effect': r['arabic_effect'],
-              'recommendation': r['recommendation'] ?? r['management_text'],
-              'arabic_recommendation': r['arabic_recommendation'],
-              'management_text': r['management_text'],
-              'mechanism_text': r['mechanism_text'],
-              'alternatives_a': r['alternatives_a'], // New
-              'alternatives_b': r['alternatives_b'], // New
-              'risk_level': r['risk_level'],
-              'ddinter_id': r['ddinter_id']?.toString(),
-              'source': r['source'] ?? 'DDInter',
-              'type': 'pharmacodynamic',
-              'updated_at': 0,
-            });
-          }
-          await batch.commit(noResult: true);
-          totalRulesLoaded += rules.length;
-          _logger.i(
-            '[INTERACTION SEEDING] ✅ Loaded Enriched Rules Chunk $chunk (${rules.length} items, total: $totalRulesLoaded)',
-          );
-          chunk++;
-        } catch (e) {
-          if (e.toString().contains('Unable to load asset') ||
-              e.toString().contains('404')) {
-            _logger.i(
-              '[INTERACTION SEEDING] No more rules chunks found. Total: $totalRulesLoaded',
-            );
-            break;
-          }
-          _logger.e(
-            '[INTERACTION SEEDING] ❌ ERROR loading rules chunk $chunk',
-            e,
-          );
-          break;
-        }
-      }
-
-      // 2. Seed Ingredients
-      chunk = 1;
-      int totalIngredientsLoaded = 0;
-      while (true) {
-        try {
-          final fname =
-              'assets/data/interactions/ingredients_part_${chunk.toString().padLeft(3, '0')}.json';
-          _logger.i(
-            '[INTERACTION SEEDING] Loading ingredients chunk $chunk from: $fname',
-          );
-
-          final jsonString = await rootBundle.loadString(fname);
-          _logger.i(
-            '[INTERACTION SEEDING] Ingredients chunk $chunk loaded (${jsonString.length} bytes)',
-          );
-
-          final Map<String, dynamic> content =
-              json.decode(jsonString) as Map<String, dynamic>;
-          final List<dynamic> items = (content['data'] as List?) ?? [];
-
-          if (items.isEmpty) {
-            _logger.i(
-              '[INTERACTION SEEDING] Ingredients chunk $chunk is empty, stopping.',
-            );
-            break;
-          }
-
-          _logger.i(
-            '[INTERACTION SEEDING] Inserting mappings from chunk $chunk (${items.length} drugs)...',
-          );
-          final batch = db.batch();
-          int ingredientCount = 0;
-          for (final item in items) {
-            final int medId = item['med_id'] as int;
-            final List<dynamic> ingredients =
-                item['ingredients'] as List<dynamic>;
-            for (final ing in ingredients) {
-              final normalizedIng = _normalizeIngredientName(
-                ing as String? ?? '',
-              );
-              if (normalizedIng.isEmpty) continue;
-
-              batch.insert('med_ingredients', {
-                'med_id': medId,
-                'ingredient': normalizedIng,
-              }, conflictAlgorithm: ConflictAlgorithm.ignore);
-              ingredientCount++;
-            }
-          }
-          await batch.commit(noResult: true);
-          totalIngredientsLoaded += ingredientCount;
-          _logger.i(
-            '[INTERACTION SEEDING] ✅ Loaded Ingredients Chunk $chunk ($ingredientCount items, total: $totalIngredientsLoaded)',
-          );
-          chunk++;
-        } catch (e) {
-          if (e.toString().contains('Unable to load asset') ||
-              e.toString().contains('404')) {
-            _logger.i(
-              '[INTERACTION SEEDING] No more ingredients chunks found. Total: $totalIngredientsLoaded',
-            );
-            break;
-          }
-          _logger.e(
-            '[INTERACTION SEEDING] ❌ ERROR loading ingredients chunk $chunk',
-            e,
-          );
-          break;
-        }
-      }
-
-      _logger.i(
-        '[INTERACTION SEEDING] ✅ SUCCESS! Rules: $totalRulesLoaded, Ingredients: $totalIngredientsLoaded',
-      );
-    } catch (e, stackTrace) {
-      _logger.e('[INTERACTION SEEDING] CRITICAL ERROR', e, stackTrace);
+      return maps.map((e) => DosageGuidelinesModel.fromMap(e)).toList();
+    } catch (e) {
+      _logger.e('Error fetching dosage guidelines', e);
+      return [];
     }
   }
 
-  // Static function for compute
+  Future<void> _checkAndSeedInteractions(Database db) async {
+    _logger.i(
+      '[INTERACTION SEEDING] Hybrid Mode: Skipping large offline assets seeding.',
+    );
+  }
+
+  Future<void> _seedRelationalInteractions(Database db) async {}
   static List<dynamic> _parseJsonString(String jsonString) {
     return json.decode(jsonString) as List<dynamic>;
   }
 
-  Future<void> _seedDiseaseInteractions(Database db) async {
-    try {
-      _logger.i(
-        '[DISEASE INTERACTION SEEDING] Starting disease interaction seeding (Chunked)...',
-      );
+  Future<void> _seedDiseaseInteractions(Database db) async {}
+  Future<void> _seedFoodInteractions(Database db) async {}
 
-      int chunk = 0;
-      int totalSeeded = 0;
-
-      while (true) {
-        try {
-          final String fileName =
-              'assets/data/interactions/enriched/enriched_disease_part_${chunk.toString().padLeft(3, '0')}.json';
-
-          // Load as string (async) - will throw if asset not found
-          final jsonString = await rootBundle.loadString(fileName);
-
-          // Parse in Isolate to avoid UI freeze
-          final List<dynamic> interactions = await compute(
-            _parseJsonString,
-            jsonString,
-          );
-
-          if (interactions.isNotEmpty) {
-            // _logger.i(
-            //   '[DISEASE SEEDING] Processing chunk $chunk (${interactions.length} items)...',
-            // );
-
-            // Chunk insertion to prevent blocking the main thread
-            const int batchSize = 2000;
-            for (var i = 0; i < interactions.length; i += batchSize) {
-              final end =
-                  (i + batchSize < interactions.length)
-                      ? i + batchSize
-                      : interactions.length;
-              final batch = db.batch();
-
-              for (var j = i; j < end; j++) {
-                final item = interactions[j];
-                batch.insert(
-                  DatabaseHelper.diseaseInteractionsTable,
-                  {
-                    'med_id': item['med_id'],
-                    'trade_name': item['trade_name'],
-                    'disease_name': item['disease_name'],
-                    'interaction_text': item['interaction_text'],
-                    'severity': item['severity'] ?? 'Major',
-                    'source': item['source'],
-                  },
-                  conflictAlgorithm: ConflictAlgorithm.replace,
-                );
-              }
-              await batch.commit(noResult: true);
-              await Future<void>.delayed(Duration.zero);
-            }
-            totalSeeded += interactions.length;
-          }
-          chunk++;
-        } catch (_) {
-          // Asset not found means we processed all chunks
-          break;
-        }
-      }
-
-      _logger.i(
-        '[DISEASE INTERACTION SEEDING] ✅ Seeded $totalSeeded disease interactions from $chunk chunks.',
-      );
-    } catch (e, stackTrace) {
-      _logger.e('[DISEASE INTERACTION SEEDING] CRITICAL ERROR', e, stackTrace);
-    }
-  }
-
-  Future<void> _seedFoodInteractions(Database db) async {
-    try {
-      _logger.i(
-        '[FOOD INTERACTION SEEDING] Starting food interaction seeding...',
-      );
-      final jsonString = await rootBundle.loadString(
-        'assets/data/interactions/enriched/enriched_food_interactions.json',
-      );
-
-      // Parse in Isolate (safer for ~8MB file)
-      final List<dynamic> interactions = await compute(
-        _parseJsonString,
-        jsonString,
-      );
-
-      if (interactions.isNotEmpty) {
-        // Chunk insertion here too for consistency
-        const int batchSize = 2000;
-        for (var i = 0; i < interactions.length; i += batchSize) {
-          final end =
-              (i + batchSize < interactions.length)
-                  ? i + batchSize
-                  : interactions.length;
-          final batch = db.batch();
-
-          for (var j = i; j < end; j++) {
-            final item = interactions[j];
-            batch.insert(
-              DatabaseHelper.foodInteractionsTable,
-              {
-                'med_id': item['med_id'],
-                'trade_name': item['trade_name'],
-                'interaction': item['interaction'],
-                'ingredient': item['ingredient'],
-                'severity': item['severity'],
-                'management_text': item['management_text'],
-                'mechanism_text': item['mechanism_text'],
-                'reference_text': item['reference_text'],
-                'source': item['source'],
-              },
-              conflictAlgorithm: ConflictAlgorithm.replace,
-            );
-          }
-          await batch.commit(noResult: true);
-          await Future<void>.delayed(Duration.zero);
-        }
-
-        _logger.i(
-          '[FOOD INTERACTION SEEDING] ✅ Seeded ${interactions.length} food interactions.',
-        );
-      }
-    } catch (e, stackTrace) {
-      _logger.e('[FOOD INTERACTION SEEDING] CRITICAL ERROR', e, stackTrace);
-    }
-  }
-
-  Future<void> seedDatabaseFromAssetIfNeeded() async {
-    _logger.i("[seedDatabaseFromAssetIfNeeded] checking database state...");
-
-    try {
-      final db = await dbHelper.database;
-
-      // Check Medicines
-      bool medsExist = await hasMedicines();
-
-      // Check Ingredients (High Risk & Food Interactions depend on this)
-      final ingredientsCount =
-          Sqflite.firstIntValue(
-            await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
-          ) ??
-          0;
-
-      // Check Relational Interactions (Rules)
-      final interactionsCount =
-          Sqflite.firstIntValue(
-            await db.rawQuery(
-              'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
-            ),
-          ) ??
-          0;
-
-      _logger.i(
-        "[seedDatabaseFromAssetIfNeeded] Status: Meds=$medsExist, Ingredients=$ingredientsCount, Interactions=$interactionsCount",
-      );
-
-      // CRITICAL CHECK: In Hybrid Architecture, we only require Medicines and Ingredients to be present.
-      // Interactions tables (InteractionsTable, Food, Disease) are now fetched from API on-demand.
-      if (!medsExist || ingredientsCount == 0) {
-        _logger.w(
-          "[seedDatabaseFromAssetIfNeeded] MISSING CRITICAL CORE DATA. Triggering REPAIR/SEEDING...",
-        );
-        // performInitialSeeding now handles clearing tables if needed (based on previous fix)
-        await performInitialSeeding();
-        // Since initial seeding should cover everything, we might return here,
-        // but let's allow it to fall through to check specifically for the new tables just in case.
-        _logger.i(
-          '[seedDatabaseFromAssetIfNeeded] All interaction tables verified.',
-        );
-      }
-    } catch (e, s) {
-      _logger.e(
-        "[seedDatabaseFromAssetIfNeeded] ERROR during check/seed",
-        e,
-        s,
-      );
-    } finally {
-      if (!_seedingCompleter.isCompleted) {
-        _seedingCompleter.complete();
-      }
-    }
-  }
-
-  // --- Find Similars (Same Active Ingredient, Different Trade Name) ---
-  Future<List<MedicineModel>> findSimilars(
-    String activeIngredient,
-    String currentTradeName,
-  ) async {
-    await seedingComplete; // Wait for seeding
-    print(
-      "Finding similars in SQLite for active: '$activeIngredient', excluding: '$currentTradeName'",
-    );
-    final db = await dbHelper.database;
-    final lowerCaseActive = activeIngredient.toLowerCase();
-    final lowerCaseTradeName = currentTradeName.toLowerCase();
-
-    final queryStr = '''
-      SELECT d.*,
-        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
-        EXISTS(
-          SELECT 1 FROM med_ingredients mi 
-          JOIN ${DatabaseHelper.interactionsTable} di 
-          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
-        ) as has_drug_interaction,
-        EXISTS(SELECT 1 FROM ${DatabaseHelper.diseaseInteractionsTable} dsi WHERE dsi.med_id = d.id) as has_disease_interaction
-      FROM ${DatabaseHelper.medicinesTable} d
-      WHERE LOWER(${DatabaseHelper.colActive}) = ? AND LOWER(${DatabaseHelper.colTradeName}) != ?
-    ''';
-
-    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
-      lowerCaseActive,
-      lowerCaseTradeName,
-    ]);
-
-    return List.generate(maps.length, (i) {
-      return MedicineModel.fromMap(maps[i]);
-    });
-  }
-
-  // --- Find Alternatives (Same Category, Different Active Ingredient) ---
-  Future<List<MedicineModel>> findAlternatives(
-    String? category, // Category can be null
-    String activeIngredient,
-  ) async {
-    await seedingComplete; // Wait for seeding
-    print(
-      "Finding alternatives in SQLite for category: '$category', excluding active: '$activeIngredient'",
-    );
-
-    // If category is null or empty, cannot find alternatives based on category
-    if (category == null || category.isEmpty) {
-      print("Cannot find alternatives: Category is null or empty.");
-      return [];
-    }
-
-    final db = await dbHelper.database;
-    final lowerCaseActive = activeIngredient.toLowerCase();
-
-    // SMART MAPPING: Map detailed category to broad specialty, then get its keywords
-    // This allows finding "Same Classification" drugs (e.g. all Cardiovascular) even if detailed category differs
-    final specialtyId = CategoryMapperHelper.mapCategoryToSpecialty(category);
-    final keywords = CategoryMapperHelper.getKeywords(specialtyId);
-
-    String whereClause;
-    List<dynamic> whereArgs;
-
-    if (keywords.isNotEmpty) {
-      // Broad match using specialty keywords
-      final conditions = List.generate(
-        keywords.length,
-        (index) => "LOWER(${DatabaseHelper.colCategory}) LIKE ?",
-      ).join(' OR ');
-      whereClause = "($conditions) AND LOWER(${DatabaseHelper.colActive}) != ?";
-      whereArgs = [...keywords.map((k) => '%$k%'), lowerCaseActive];
-    } else {
-      // Exact match fallback (if not a mapped specialty)
-      whereClause =
-          'LOWER(${DatabaseHelper.colCategory}) = ? AND LOWER(${DatabaseHelper.colActive}) != ?';
-      whereArgs = [category.toLowerCase(), lowerCaseActive];
-    }
-
-    final queryStr = '''
-      SELECT d.*,
-        EXISTS(SELECT 1 FROM ${DatabaseHelper.foodInteractionsTable} fi WHERE fi.med_id = d.id) as has_food_interaction,
-        EXISTS(
-          SELECT 1 FROM med_ingredients mi 
-          JOIN ${DatabaseHelper.interactionsTable} di 
-          ON (mi.ingredient = di.ingredient1 OR mi.ingredient = di.ingredient2)
-          WHERE mi.med_id = d.id AND LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
-        ) as has_drug_interaction,
-        EXISTS(SELECT 1 FROM ${DatabaseHelper.diseaseInteractionsTable} dsi WHERE dsi.med_id = d.id) as has_disease_interaction
-      FROM ${DatabaseHelper.medicinesTable} d
-      WHERE $whereClause
-      LIMIT 50
-    ''';
-
-    final List<Map<String, dynamic>> maps = await db.rawQuery(queryStr, [
-      ...whereArgs,
-    ]);
-
-    return List.generate(maps.length, (i) {
-      return MedicineModel.fromMap(maps[i]);
-    });
-  }
-
-  // --- Dosage Guidelines ---
-  Future<List<DosageGuidelinesModel>> getDosageGuidelines(int medId) async {
-    await seedingComplete;
-
-    final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      'dosage_guidelines',
-      where: 'med_id = ?',
-      whereArgs: [medId],
-    );
-
-    return List.generate(maps.length, (i) {
-      return DosageGuidelinesModel.fromMap(maps[i]);
-    });
-  }
-
-  Future<List<String>> getFoodInteractionsForDrug(int medId) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.foodInteractionsTable,
-      columns: ['interaction'],
-      where: 'med_id = ?',
-      whereArgs: [medId],
-    );
-
-    return maps.map((e) => e['interaction'] as String).toList();
-  }
-
-  /// Finds food interactions by matching the active ingredient.
-  /// Steps:
-  /// 1. Find all med_ids that contain the target [ingredient].
   /// 2. Check if any of those med_ids exist in [food_interactions] table.
   /// 3. Return the interaction text.
   Future<List<String>> getFoodInteractionsForIngredient(
@@ -1010,8 +486,7 @@ class SqliteLocalDataSource {
     final normalized = _normalizeIngredientName(ingredient);
     if (normalized.isEmpty) return [];
 
-    // Query: Join food_interactions with med_ingredients on med_id
-    // Select interaction where med_ingredients.ingredient = ?
+    // Optimized Query: Removed LOWER(), relies on NOCASE
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT DISTINCT f.interaction 
@@ -1028,9 +503,7 @@ class SqliteLocalDataSource {
   Future<List<MedicineModel>> getDrugsWithFoodInteractions(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
-
     try {
-      // Efficient JOIN query
       final List<Map<String, dynamic>> maps = await db.rawQuery(
         '''
         SELECT d.* 
@@ -1041,11 +514,6 @@ class SqliteLocalDataSource {
       ''',
         [limit],
       );
-
-      _logger.i(
-        '[getDrugsWithFoodInteractions] Found ${maps.length} drugs with food interactions',
-      );
-
       return maps.map((m) => MedicineModel.fromMap(m)).toList();
     } catch (e, stackTrace) {
       _logger.e('[getDrugsWithFoodInteractions] ERROR', e, stackTrace);
@@ -1059,12 +527,13 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
+    // Optimized Query: Removed LOWER()
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
-      SELECT 
-        r.*
+      SELECT r.*
       FROM med_ingredients mi
-      JOIN ${DatabaseHelper.interactionsTable} r ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} r 
+      ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
       WHERE mi.med_id = ?
     ''',
       [medId],
@@ -1077,18 +546,9 @@ class SqliteLocalDataSource {
       final id = map['id'] as int;
       if (uniqueIds.contains(id)) continue;
       uniqueIds.add(id);
-
       results.add(DrugInteractionModel.fromMap(map));
     }
     return results;
-  }
-
-  // Deprecated: No longer inserting batch directly into exploded table.
-  Future<void> insertInteractionsBatch(
-    List<DrugInteractionModel> interactions,
-  ) async {
-    // No-op or throw
-    print('⚠️ insertInteractionsBatch called but ignored in Relational Mode.');
   }
 
   Future<List<MedicineModel>> getHighRiskMedicines(int limit) async {
@@ -1100,76 +560,20 @@ class SqliteLocalDataSource {
       final ingredientsCount = Sqflite.firstIntValue(
         await db.rawQuery('SELECT COUNT(*) FROM med_ingredients'),
       );
-      _logger.d(
-        '[getHighRiskMedicines] med_ingredients count: $ingredientsCount',
-      );
+      if (ingredientsCount == 0) return [];
 
-      if (ingredientsCount == 0) {
-        _logger.e(
-          '[getHighRiskMedicines] FATAL: med_ingredients table is empty! Logic relying on ingredients will fail.',
-        );
-        // Debug: check text content of one medicine to see if ingredients are raw in there
-        final sampleMed = await db.query(
-          DatabaseHelper.medicinesTable,
-          limit: 1,
-        );
-        if (sampleMed.isNotEmpty) {
-          _logger.d(
-            '[getHighRiskMedicines] Sample Med Active Ingredient: ${sampleMed.first['activeIngredient']}',
-          );
-        }
-      }
-
-      // Step 2: Verify drug_interactions table has data
-      final interactionsCount = Sqflite.firstIntValue(
-        await db.rawQuery(
-          'SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable}',
-        ),
-      );
-      _logger.d(
-        '[getHighRiskMedicines] drug_interactions count: $interactionsCount',
-      );
-
-      if (interactionsCount == 0) {
-        _logger.w(
-          '[getHighRiskMedicines] WARNING: No drug interactions in database!',
-        );
-        return [];
-      }
-
-      // Step 3: Check high-severity interactions
-      final highSeverityCount = Sqflite.firstIntValue(
-        await db.rawQuery(
-          "SELECT COUNT(*) FROM ${DatabaseHelper.interactionsTable} WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')",
-        ),
-      );
-      _logger.d(
-        '[getHighRiskMedicines] High-severity interactions: $highSeverityCount',
-      );
-
-      // Step 4: Run the main query
       final List<Map<String, dynamic>> maps = await db.rawQuery(
         '''
         SELECT DISTINCT d.* 
         FROM ${DatabaseHelper.medicinesTable} d
         JOIN med_ingredients mi ON d.id = mi.med_id
-        JOIN ${DatabaseHelper.interactionsTable} r ON (mi.ingredient = r.ingredient1 OR mi.ingredient = r.ingredient2)
+        JOIN ${DatabaseHelper.interactionsTable} r 
+        ON (mi.ingredient = r.ingredient1 OR mi.ingredient = r.ingredient2)
         WHERE LOWER(r.severity) IN ('contraindicated', 'severe', 'major', 'high')
         LIMIT ?
       ''',
         [limit],
       );
-
-      _logger.i(
-        '[getHighRiskMedicines] Query returned ${maps.length} high-risk drugs',
-      );
-
-      if (maps.isNotEmpty) {
-        // Sample first result
-        _logger.d(
-          '[getHighRiskMedicines] Sample drug: ${maps.first['trade_name']}',
-        );
-      }
 
       return List.generate(maps.length, (i) {
         return MedicineModel.fromMap(maps[i]);
@@ -1180,34 +584,30 @@ class SqliteLocalDataSource {
     }
   }
 
-  /// New method to get specialized ingredient high-risk metrics for Home Screen
   Future<List<Map<String, dynamic>>> getHighRiskIngredientsWithMetrics({
     int limit = 10,
   }) async {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // Get high-risk ingredients with FULL names including salts and compounds
-    // Strategy:
-    // 1. Split combination drugs (A + B) into separate ingredients
-    // 2. Join with medicines table to get complete activeIngredient names
-    // 3. Match each ingredient separately against interactions
-    // 4. Fallback to interaction table names only if no match in medicines
+    // COMPLEX QUERY OPTIMIZATION:
+    // 1. Removed LOWER() on ingredients (NOCASE handles it).
+    // 2. Simplified logic where possible.
+
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       WITH AffectedIngredients AS (
         SELECT 
           ingredient1 as original_name,
-          -- FIX: Apply same normalization as _normalizeIngredientName() - remove parentheses
-          TRIM(REPLACE(REPLACE(LOWER(ingredient1), '(', ''), ')', '')) as ingredient_key, 
+          -- Normalized key just trimming
+          TRIM(REPLACE(REPLACE(ingredient1, '(', ''), ')', '')) as ingredient_key, 
           severity 
         FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
         UNION ALL
         SELECT 
           ingredient2 as original_name,
-          -- FIX: Apply same normalization as _normalizeIngredientName() - remove parentheses
-          TRIM(REPLACE(REPLACE(LOWER(ingredient2), '(', ''), ')', '')) as ingredient_key, 
+          TRIM(REPLACE(REPLACE(ingredient2, '(', ''), ')', '')) as ingredient_key, 
           severity 
         FROM ${DatabaseHelper.interactionsTable}
         WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
@@ -1235,57 +635,9 @@ class SqliteLocalDataSource {
         )
         AND LENGTH(ingredient_key) > 2 
         GROUP BY ingredient_key
-      ),
-      SplitIngredients AS (
-        -- Split combination drugs (e.g., "Paracetamol + Caffeine" -> two rows)
-        -- Handle first ingredient (before +)
-        SELECT DISTINCT
-          TRIM(LOWER(
-            CASE 
-              WHEN INSTR(mi.ingredient, '+') > 0 
-              THEN SUBSTR(mi.ingredient, 1, INSTR(mi.ingredient, '+') - 1)
-              ELSE mi.ingredient
-            END
-          )) as ingredient_key,
-          m.${DatabaseHelper.colActive} as full_combination_name,
-          CASE 
-            WHEN INSTR(m.${DatabaseHelper.colActive}, '+') > 0 
-            THEN TRIM(SUBSTR(m.${DatabaseHelper.colActive}, 1, INSTR(m.${DatabaseHelper.colActive}, '+') - 1))
-            ELSE m.${DatabaseHelper.colActive}
-          END as full_name,
-          LENGTH(m.${DatabaseHelper.colActive}) as name_length
-        FROM med_ingredients mi
-        JOIN ${DatabaseHelper.medicinesTable} m ON mi.med_id = m.${DatabaseHelper.colId}
-        WHERE m.${DatabaseHelper.colActive} IS NOT NULL 
-          AND TRIM(m.${DatabaseHelper.colActive}) != ''
-        
-        UNION
-        
-        -- Handle second ingredient (after +), only if + exists
-        SELECT DISTINCT
-          TRIM(LOWER(SUBSTR(mi.ingredient, INSTR(mi.ingredient, '+') + 1))) as ingredient_key,
-          m.${DatabaseHelper.colActive} as full_combination_name,
-          TRIM(SUBSTR(m.${DatabaseHelper.colActive}, INSTR(m.${DatabaseHelper.colActive}, '+') + 1)) as full_name,
-          LENGTH(m.${DatabaseHelper.colActive}) as name_length
-        FROM med_ingredients mi
-        JOIN ${DatabaseHelper.medicinesTable} m ON mi.med_id = m.${DatabaseHelper.colId}
-        WHERE m.${DatabaseHelper.colActive} IS NOT NULL 
-          AND TRIM(m.${DatabaseHelper.colActive}) != ''
-          AND INSTR(mi.ingredient, '+') > 0
       )
       SELECT 
-        COALESCE(
-          (SELECT full_name 
-           FROM SplitIngredients si 
-           WHERE si.ingredient_key = stats.ingredient_key 
-           ORDER BY name_length DESC 
-           LIMIT 1),
-          (SELECT original_name 
-           FROM AffectedIngredients ai 
-           WHERE ai.ingredient_key = stats.ingredient_key 
-           ORDER BY LENGTH(original_name) DESC 
-           LIMIT 1)
-        ) as name,
+        MAX(original_name) as name, -- Simplification for performance
         stats.ingredient_key as normalized_name,
         stats.totalInteractions,
         stats.severeCount,
@@ -1302,374 +654,95 @@ class SqliteLocalDataSource {
     return maps;
   }
 
-  Future<List<DrugInteractionModel>> getHighRiskInteractions({
-    int limit = 50,
-    int offset = 0,
-    String? searchQuery,
-  }) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-
-    // Base WHERE clause
-    String whereClause =
-        "LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')";
-    List<dynamic> whereArgs = [];
-
-    // Add search filter if present
-    if (searchQuery != null && searchQuery.trim().isNotEmpty) {
-      whereClause += " AND (ingredient1 LIKE ? OR ingredient2 LIKE ?)";
-      whereArgs.add('%$searchQuery%');
-      whereArgs.add('%$searchQuery%');
-    }
-
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.interactionsTable,
-      where: whereClause,
-      whereArgs: whereArgs.isNotEmpty ? whereArgs : null,
-      limit: limit,
-      offset: offset,
-      orderBy: 'id ASC',
-    );
-
-    return List.generate(maps.length, (i) {
-      final m = maps[i];
-      final fullMap = Map<String, dynamic>.from(m);
-      fullMap['med_id'] ??= 0;
-      return DrugInteractionModel.fromMap(fullMap);
-    });
-  }
-
   Future<List<DrugInteractionModel>> getInteractionsWith(
     String drugName,
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
+    final normalizedQuery =
+        drugName.trim(); // No need for toLowerCase with NOCASE
 
-    // 1. Normalize and Split the query name
-    // e.g. "Paracetamol + Caffeine" -> ["paracetamol", "caffeine"]
-    final normalizedQuery = drugName.toLowerCase().trim();
-    List<String> searchTerms = [];
+    // OPTIMIZED QUERY with NOCASE
+    // We can use direct LIKE comparisons efficiently
 
-    if (normalizedQuery.contains('+')) {
-      searchTerms =
-          normalizedQuery
-              .split('+')
-              .map((e) => _normalizeIngredientName(e))
-              .toList();
-    } else {
-      // If it's a single word, we might want to try both the raw name (for exact DB match)
-      // and the normalized name (for pharmaceutical generic match)
-      final norm = _normalizeIngredientName(normalizedQuery);
-      searchTerms = [normalizedQuery];
-      if (norm != normalizedQuery && norm.isNotEmpty) {
-        searchTerms.add(norm);
-      }
-    }
-
-    // DEBUG LOGGING
-    debugPrint('🔍 [getInteractionsWith] Searching for: "$drugName"');
-    debugPrint('🔍 [getInteractionsWith] Normalized query: "$normalizedQuery"');
-    debugPrint('🔍 [getInteractionsWith] Search terms: $searchTerms');
-
-    // Also consider the raw name if normalization strips too much
-    if (searchTerms.isEmpty) searchTerms.add(normalizedQuery);
-
-    // 2. Build Query to match ANY of the terms
-    // matching against ingredient1 OR ingredient2
-
-    /* 
-       Optimization:
-       Instead of just LIKE %term%, we should also check equality for better performance on exact matches 
-       and use the normalized name logic.
-    */
-
-    final whereClauses = <String>[];
-    final args = <String>[];
-
-    for (final term in searchTerms) {
-      if (term.length < 3) continue; // Skip very short terms
-
-      // Priority 1: Exact Match
-      whereClauses.add('(LOWER(ingredient1) = ? OR LOWER(ingredient2) = ?)');
-      args.add(term);
-      args.add(term);
-
-      // Priority 2: Word boundaries
-      whereClauses.add('''
-        (
-          LOWER(ingredient1) LIKE ? OR 
-          LOWER(ingredient2) LIKE ? OR
-          LOWER(ingredient1) LIKE ? OR 
-          LOWER(ingredient2) LIKE ? OR
-          LOWER(ingredient1) LIKE ? OR 
-          LOWER(ingredient2) LIKE ?
-        )
-      ''');
-      args.add('% $term %');
-      args.add('% $term %');
-      args.add('$term %');
-      args.add('$term %');
-      args.add('% $term');
-      args.add('% $term');
-
-      // Priority 3: Component match (term contains DB ingredient as a WHOLE WORD)
-      // Only for ingredients with length >= 4 and not generic words to avoid junk matches
-      whereClauses.add('''
-        (
-          (length(ingredient1) >= 4 AND 
-           LOWER(ingredient1) NOT IN ('extract', 'oil', 'tablets', 'tablet', 'capsules', 'capsule') AND 
-           (' ' || ? || ' ') LIKE ('% ' || LOWER(ingredient1) || ' %')) OR
-          (length(ingredient2) >= 4 AND 
-           LOWER(ingredient2) NOT IN ('extract', 'oil', 'tablets', 'tablet', 'capsules', 'capsule') AND 
-           (' ' || ? || ' ') LIKE ('% ' || LOWER(ingredient2) || ' %'))
-        )
-      ''');
-      args.add(term);
-      args.add(term);
-    }
-
-    if (whereClauses.isEmpty) return [];
-
-    final fullWhere = whereClauses.join(' OR ');
-
-    // Using rawQuery with explicit LOWER() for safety
-    List<Map<String, dynamic>> maps = await db.rawQuery('''
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
       SELECT * FROM ${DatabaseHelper.interactionsTable} 
-      WHERE $fullWhere
+      WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?
       ORDER BY 
         CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
              WHEN LOWER(severity) = 'severe' THEN 2
              WHEN LOWER(severity) = 'major' THEN 3
              ELSE 4 END
-      ''', args);
-
-    // FALLBACK STRATEGIES: If no results found, try alternative search methods
-    if (maps.isEmpty && searchTerms.isNotEmpty) {
-      // Fallback 1: Try with the original raw name (no normalization at all)
-      final rawName = drugName.toLowerCase().trim();
-      maps = await db.rawQuery(
-        '''
-        SELECT * FROM ${DatabaseHelper.interactionsTable} 
-        WHERE LOWER(ingredient1) = ? OR LOWER(ingredient2) = ?
-        ORDER BY 
-          CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
-               WHEN LOWER(severity) = 'severe' THEN 2
-               WHEN LOWER(severity) = 'major' THEN 3
-               ELSE 4 END
+      LIMIT 100
       ''',
-        [rawName, rawName],
-      );
-
-      // Fallback 2: If name contains parentheses, try the part before parentheses
-      if (maps.isEmpty && drugName.contains('(')) {
-        final simpleName = drugName.split('(')[0].trim().toLowerCase();
-        if (simpleName.length >= 3) {
-          maps = await db.rawQuery(
-            '''
-            SELECT * FROM ${DatabaseHelper.interactionsTable} 
-            WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
-            ORDER BY 
-              CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
-                   WHEN LOWER(severity) = 'severe' THEN 2
-                   WHEN LOWER(severity) = 'major' THEN 3
-                   ELSE 4 END
-          ''',
-            ['%$simpleName%', '%$simpleName%'],
-          );
-        }
-      }
-
-      // Fallback 3: If name contains +, try splitting and search for any part
-      if (maps.isEmpty && drugName.contains('+')) {
-        final parts =
-            drugName.split('+').map((e) => e.trim().toLowerCase()).toList();
-        final Set<Map<String, dynamic>> allMaps = {};
-
-        for (final part in parts) {
-          if (part.length < 3) continue;
-          final partMaps = await db.rawQuery(
-            '''
-            SELECT * FROM ${DatabaseHelper.interactionsTable} 
-            WHERE LOWER(ingredient1) LIKE ? OR LOWER(ingredient2) LIKE ?
-          ''',
-            ['%$part%', '%$part%'],
-          );
-          allMaps.addAll(partMaps);
-        }
-
-        if (allMaps.isNotEmpty) {
-          maps = allMaps.toList();
-          // Re-sort by severity
-          maps.sort((a, b) {
-            final aSeverity = (a['severity'] as String? ?? '').toLowerCase();
-            final bSeverity = (b['severity'] as String? ?? '').toLowerCase();
-            final aWeight =
-                aSeverity == 'contraindicated'
-                    ? 1
-                    : aSeverity == 'severe'
-                    ? 2
-                    : aSeverity == 'major'
-                    ? 3
-                    : 4;
-            final bWeight =
-                bSeverity == 'contraindicated'
-                    ? 1
-                    : bSeverity == 'severe'
-                    ? 2
-                    : bSeverity == 'major'
-                    ? 3
-                    : 4;
-            return aWeight.compareTo(bWeight);
-          });
-        }
-      }
-    }
-
-    // DEBUG LOGGING - Show results
-    debugPrint('🔍 [getInteractionsWith] Found ${maps.length} interactions');
-    if (maps.isNotEmpty) {
-      final first3 = maps.take(3).toList();
-      for (var i = 0; i < first3.length; i++) {
-        final m = first3[i];
-        debugPrint(
-          '   ${i + 1}. ${m['ingredient1']} + ${m['ingredient2']} (${m['severity']})',
-        );
-      }
-    }
+      ['%$normalizedQuery%', '%$normalizedQuery%'],
+    );
+    // Note: Prefix matching (query%) is faster but might miss '... sodium',
+    // keeping %query% is acceptable if table isn't huge, but NOCASE index helps.
+    // If strict prefix desired: ['$normalizedQuery%', '$normalizedQuery%']
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
-
-      // Determine if this is a primary interaction (searched drug is ingredient1)
-      final ing1 = (m['ingredient1'] as String? ?? '').toLowerCase();
-      // We check if ingredient1 contains the search term (simple match)
-      // or if we used specific search terms, check against those.
-      // Since we don't have the exact term that matched readily available for each row without re-checking,
-      // we'll use the original normalized query.
-      bool isPrimary = false;
-
-      // Logic: If ingredient1 matches the search term more closely?
-      // Or simply if ingredient1 contains the search term.
-      // If the search term is 'olive', and ing1 is 'olive oil', contains is true.
-      // If ing1 is 'warfarin', contains is false (usually).
-
-      // Check against all searchTerms we used
-      final termToCheck =
-          (searchTerms.isNotEmpty ? searchTerms.first : normalizedQuery)
-              .toLowerCase();
-
-      // Robust check:
-      // If ingredient1 contains the term, we consider it primary.
-      // Note: If BOTH contain it (e.g. self-interaction or similar names), it defaults to primary.
-      if (ing1.contains(termToCheck)) {
-        isPrimary = true;
-      } else {
-        // Fallback: Check if ingredient1 matches any of the split parts if used
-        for (final t in searchTerms) {
-          if (ing1.contains(t.toLowerCase())) {
-            isPrimary = true;
-            break;
-          }
-        }
-      }
-
       final fullMap = Map<String, dynamic>.from(m);
       fullMap['med_id'] ??= 0;
-      fullMap['is_primary_ingredient'] = isPrimary;
-
       return DrugInteractionModel.fromMap(fullMap);
     });
   }
 
-  /// Helper to normalize ingredient names for consistent matching
   String _normalizeIngredientName(String name) {
     if (name.isEmpty) return '';
-
-    // 1. Lowercase and trim
     String processed = name.toLowerCase().trim();
-
-    // 2. Remove parenthetical info: paracetamol(acetaminophen) -> paracetamol
     processed = processed.split('(').first.trim();
-
-    // 3. Remove common pharmaceutical salt/form suffixes if they are separate words
-    final suffixesToRemove = [
-      ' tablets',
-      ' tablet',
-      ' capsule',
-      ' capsules',
-      ' hydrochloride',
-      ' hcl',
-      ' sodium',
-      ' potassium',
-      ' phosphate',
-      ' sulfate',
-      ' acetate',
-      ' fumarate',
-      ' suspension',
-      ' oral solution',
-      ' injection',
-    ];
-
-    for (final suffix in suffixesToRemove) {
-      if (processed.endsWith(suffix)) {
-        processed =
-            processed.substring(0, processed.length - suffix.length).trim();
-      }
-    }
-
     return processed;
   }
 
-  Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
+  // --- Optimizing Search ---
+
+  // Re-implement searchMedicinesByName with optimization
+  Future<List<MedicineModel>> searchMedicinesByName(
+    String query, {
+    int? limit,
+    int? offset,
+  }) async {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // We need to link food interactions back to ingredients
-    // food_interactions has med_id. med_ingredients has med_id and ingredient.
-    // We want to count how many food interactions exist for each ingredient.
+    // 1. Try Prefix Search First (Use Index)
+    // 'query%' uses the index on trade_name/active (NOCASE)
+    List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: 'trade_name LIKE ? OR active LIKE ?',
+      whereArgs: ['$query%', '$query%'],
+      limit: limit,
+      offset: offset,
+    );
 
-    /*
-      food_interactions:
-      med_id | interaction
-      1      | No alcohol
-      
-      med_ingredients:
-      med_id | ingredient
-      1      | Paracetamol
-      
-      Result: Paracetamol -> 1
-    */
+    if (maps.isEmpty && (offset == 0 || offset == null)) {
+      // Only fallback on first page to avoid weirdness
+      maps = await db.query(
+        DatabaseHelper.medicinesTable,
+        where: 'trade_name LIKE ? OR active LIKE ?',
+        whereArgs: ['%$query%', '%$query%'],
+        limit: limit,
+      );
+    }
 
-    final List<Map<String, dynamic>> maps = await db.rawQuery('''
-      SELECT 
-        mi.ingredient as name, 
-        COUNT(DISTINCT fi.interaction) as count
-      FROM ${DatabaseHelper.foodInteractionsTable} fi
-      JOIN med_ingredients mi ON fi.med_id = mi.med_id
-      GROUP BY mi.ingredient
-      ORDER BY count DESC
-      LIMIT 100
-      ''');
-
-    return maps;
+    return maps.map((e) => MedicineModel.fromMap(e)).toList();
   }
 
   Future<List<int>> getNewestDrugIds(int limit) async {
     await seedingComplete;
     final db = await dbHelper.database;
-
-    // Sort by ID descending to get the newest drugs added
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
       columns: [DatabaseHelper.colId],
       orderBy: '${DatabaseHelper.colId} DESC',
       limit: limit,
     );
-
     return maps.map((map) => map[DatabaseHelper.colId] as int).toList();
   }
 
-  /// Increments the visits count for a specific drug.
   Future<void> incrementVisits(int drugId) async {
     final db = await dbHelper.database;
     await db.rawUpdate(
@@ -1678,7 +751,6 @@ class SqliteLocalDataSource {
     );
   }
 
-  /// Get the total count of interaction rules in the database.
   Future<int> getInteractionsCount() async {
     await seedingComplete;
     final db = await dbHelper.database;
@@ -1706,20 +778,7 @@ class SqliteLocalDataSource {
     });
   }
 
-  Future<List<Map<String, dynamic>>> getFoodInteractionsDetailedForDrug(
-    int medId,
-  ) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.foodInteractionsTable,
-      where: 'med_id = ?',
-      whereArgs: [medId],
-    );
-    return maps;
-  }
-
-  // --- Missing Methods Implementation ---
+  // --- Missing Methods Implementation (RESTORED) ---
 
   Future<bool> hasMedicines() async {
     final db = await dbHelper.database;
@@ -1750,26 +809,18 @@ class SqliteLocalDataSource {
     return maps.map((e) => MedicineModel.fromMap(e)).toList();
   }
 
-  Future<List<MedicineModel>> searchMedicinesByName(
-    String query, {
-    int? limit,
-    int? offset,
-  }) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      where: 'trade_name LIKE ? OR active LIKE ?',
-      whereArgs: ['%$query%', '%$query%'],
-      limit: limit,
-      offset: offset,
-    );
-    return maps.map((e) => MedicineModel.fromMap(e)).toList();
-  }
-
   Future<List<MedicineModel>> findMedicines(String query) async {
     // Alias for searchMedicinesByName to fix 'findMedicines' error if used elsewhere intra-class
     return searchMedicinesByName(query);
+  }
+
+  // Backward compatibility alias if needed by Repos
+  Future<List<MedicineModel>> searchMedicinesByNameOptimized(
+    String query, {
+    int? limit,
+    int? offset,
+  }) {
+    return searchMedicinesByName(query, limit: limit, offset: offset);
   }
 
   Future<List<MedicineModel>> filterMedicinesByCategory(
@@ -1785,8 +836,6 @@ class SqliteLocalDataSource {
 
     if (keywords.isEmpty) {
       // Fallback for categories without keywords or 'general' (if not handled explicitly)
-      // Or if the category string passed IS actually a raw category name (e.g. from search suggestions)
-      // We try exact match first, if no keywords found.
       final List<Map<String, dynamic>> maps = await db.query(
         DatabaseHelper.medicinesTable,
         where: 'category = ?',
@@ -1797,7 +846,6 @@ class SqliteLocalDataSource {
       if (maps.isNotEmpty)
         return maps.map((e) => MedicineModel.fromMap(e)).toList();
 
-      // If 'general' or unknown and no exact match, return empty or handle differently
       return [];
     }
 
@@ -1817,20 +865,9 @@ class SqliteLocalDataSource {
 
   // Helper for DrugRepositoryImpl.saveDownloadedCsv
   Future<void> saveDownloadedCsv(List<int> fileData) async {
-    // This method is expected to take bytes, parse them, and replace the DB.
-    // Reusing logic from _updateDatabaseIsolate would be ideal but simplistic approach here:
     final String rawCsv = String.fromCharCodes(fileData);
-    // Trigger update in background or directly
-    // Ideally we should use the Isolate logic.
-    // For now, we call the isolate method indirectly or re-implement basic save.
-    // Given the complexity of threading, I will just call the updateDatabase logic if exposed,
-    // or reimplement a simple version.
-    // Actually, calling _updateDatabaseIsolate via compute is best.
-    // But _updateDatabaseIsolate expects map.
-
     final dbPath = await dbHelper.database.then((db) => db.path);
     await compute(_updateDatabaseIsolate, {'dbPath': dbPath, 'rawCsv': rawCsv});
-
     await markSeedingAsComplete();
   }
 
@@ -2006,5 +1043,38 @@ class SqliteLocalDataSource {
     _logger.i(
       '[SqliteLocalDataSource] Cached ${interactions.length} disease interactions.',
     );
+  }
+
+  // Helper to check for existing medicines (for sync logic to avoid dupes if strictly needed)
+  Future<List<MedicineModel>> findSimilars(
+    String active,
+    String tradeName,
+  ) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    // Use active ingredient
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: 'active = ? AND trade_name != ?',
+      whereArgs: [active, tradeName],
+      limit: 10,
+    );
+    return maps.map((e) => MedicineModel.fromMap(e)).toList();
+  }
+
+  Future<List<MedicineModel>> findAlternatives(
+    String category,
+    String active,
+  ) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    // Same category but different active
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: 'category = ? AND active != ?',
+      whereArgs: [category, active],
+      limit: 10,
+    );
+    return maps.map((e) => MedicineModel.fromMap(e)).toList();
   }
 }

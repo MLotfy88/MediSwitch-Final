@@ -20,12 +20,13 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 18;
+  static const int _dbVersion = 19; // Updated for Schema Fixes
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
   static const String diseaseInteractionsTable = 'disease_interactions';
   static const String homeCacheTable = 'home_sections_cache';
+  static const String dosageTable = 'dosage_guidelines'; // NEW
 
   // --- Column Names for Drugs ---
   static const String colId = 'id';
@@ -79,8 +80,8 @@ class DatabaseHelper {
     _logger.i('DatabaseHelper: Initializing database at $path');
 
     // --- PRE-PACKAGED DATABASE LOGIC ---
-    // v18 marker for the final schema alignment
-    final markerFilePath = join(documentsDirectory.path, 'db_v18_final.txt');
+    // v19 marker for the final schema alignment
+    final markerFilePath = join(documentsDirectory.path, 'db_v19_nocase.txt');
     final markerFile = File(markerFilePath);
 
     final dbFile = File(path);
@@ -88,7 +89,7 @@ class DatabaseHelper {
 
     if (needsCopy) {
       _logger.i(
-        'DatabaseHelper: Database marker missing (v18) or DB not found. Attempting asset copy...',
+        'DatabaseHelper: Database marker missing (v19) or DB not found. Attempting asset copy...',
       );
       try {
         await Directory(dirname(path)).create(recursive: true);
@@ -159,10 +160,6 @@ class DatabaseHelper {
             );
             final tempDb = await openDatabase(path, version: _dbVersion);
             await tempDb.close();
-            // Opening with version sets the version automatically if onCreate/onUpgrade succeeds?
-            // Actually, simply opening it lets onUpgrade/onCreate run within the transaction.
-            // We want to avoid onCreate accidentally running if version is 0.
-            // But we are returning openDatabase below anyway.
           } catch (_) {
             // Ignore temporary open errors
           }
@@ -181,15 +178,9 @@ class DatabaseHelper {
       }
     } else {
       _logger.i(
-        'DatabaseHelper: Existing database found with v18 marker. Skipping copy.',
+        'DatabaseHelper: Existing database found with v19 marker. Skipping copy.',
       );
     }
-
-    // Use singleInstance: false internally or ensure locking (we did locking above).
-    // Note: 'onCreate' is called if the database file is created by openDatabase.
-    // IF the file exists but has no version, it might trigger onCreate in some sqflite versions?
-    // Documentation says onUpgrade is for version 0 -> X.
-    // To be perfectly safe, we use CREATE TABLE IF NOT EXISTS.
 
     return openDatabase(
       path,
@@ -207,12 +198,12 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS $medicinesTable (
         $colId INTEGER PRIMARY KEY,
-        $colTradeName TEXT,
+        $colTradeName TEXT COLLATE NOCASE,
         $colArabicName TEXT,
         $colPrice TEXT,
         $colOldPrice TEXT,
-        $colCategory TEXT,
-        $colActive TEXT,
+        $colCategory TEXT COLLATE NOCASE, -- Indexed
+        $colActive TEXT COLLATE NOCASE, -- Indexed
         $colCompany TEXT,
         $colDosageForm TEXT,
         $colDosageFormAr TEXT,
@@ -223,7 +214,7 @@ class DatabaseHelper {
         $colBarcode TEXT,
         $colQrCode TEXT,
         $colVisits INTEGER DEFAULT 0,
-        $colLastPriceUpdate TEXT,
+        $colLastPriceUpdate TEXT, -- Indexed
         $colIndication TEXT,
         $colMechanismOfAction TEXT,
         $colPharmacodynamics TEXT,
@@ -238,12 +229,12 @@ class DatabaseHelper {
       )
     ''');
 
-    // Drug-Drug Interactions table
+    // Drug-Drug Interactions table - COLLATE NOCASE for fast search
     await db.execute('''
       CREATE TABLE IF NOT EXISTS $interactionsTable (
         id INTEGER PRIMARY KEY,
-        ingredient1 TEXT,
-        ingredient2 TEXT,
+        ingredient1 TEXT COLLATE NOCASE,
+        ingredient2 TEXT COLLATE NOCASE,
         severity TEXT,
         effect TEXT,
         arabic_effect TEXT,
@@ -265,12 +256,31 @@ class DatabaseHelper {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS med_ingredients (
         med_id INTEGER,
-        ingredient TEXT,
+        ingredient TEXT COLLATE NOCASE,
         PRIMARY KEY (med_id, ingredient)
       )
     ''');
 
-    // Indices for performance
+    // NEW: Dosage Guidelines Table (Was missing)
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS $dosageTable (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        med_id INTEGER,
+        population_group TEXT DEFAULT 'Adults',
+        min_dose REAL DEFAULT 0.0,
+        max_dose REAL DEFAULT 0.0,
+        unit TEXT,
+        frequency TEXT,
+        max_daily_dose REAL DEFAULT 0.0,
+        route TEXT DEFAULT 'Oral',
+        conditions TEXT,
+        source TEXT DEFAULT 'Manual/Aggregated',
+        created_at INTEGER DEFAULT 0
+      )
+    ''');
+
+    // Indices for performance - CRITICAL FIXES
+    // 1. Medicines
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_trade_name ON $medicinesTable($colTradeName)',
     );
@@ -278,11 +288,26 @@ class DatabaseHelper {
       'CREATE INDEX IF NOT EXISTS idx_drugs_active ON $medicinesTable($colActive)',
     );
     await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_category ON $medicinesTable($colCategory)',
+    );
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_last_price ON $medicinesTable($colLastPriceUpdate)',
+    );
+
+    // 2. Ingredients
+    await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_mi_med_id ON med_ingredients(med_id)',
     );
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_mi_ingredient ON med_ingredients(ingredient)',
     );
+
+    // 3. Dosages
+    await db.execute(
+      'CREATE INDEX IF NOT EXISTS idx_dosage_med_id ON $dosageTable(med_id)',
+    );
+
+    // 4. Interactions
     await db.execute(
       'CREATE INDEX IF NOT EXISTS idx_di_ing1 ON $interactionsTable(ingredient1)',
     );
@@ -295,8 +320,8 @@ class DatabaseHelper {
       CREATE TABLE IF NOT EXISTS $foodInteractionsTable (
         id INTEGER PRIMARY KEY,
         med_id INTEGER,
-        trade_name TEXT,
-        ingredient TEXT,
+        trade_name TEXT COLLATE NOCASE,
+        ingredient TEXT COLLATE NOCASE,
         interaction TEXT,
         severity TEXT,
         management_text TEXT,
@@ -315,8 +340,8 @@ class DatabaseHelper {
       CREATE TABLE IF NOT EXISTS $diseaseInteractionsTable (
         id INTEGER PRIMARY KEY,
         med_id INTEGER,
-        trade_name TEXT,
-        disease_name TEXT,
+        trade_name TEXT COLLATE NOCASE,
+        disease_name TEXT COLLATE NOCASE,
         interaction_text TEXT,
         severity TEXT,
         source TEXT,
