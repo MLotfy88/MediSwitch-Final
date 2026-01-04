@@ -1,5 +1,17 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 150
+**Date:** 2026-01-04
+**Goal:** Dosage Tab Clinical Accuracy & UI Redesign.
+**Changes:**
+- **UI Redesign**: Overhauled `DosageTab` layout to ensure 100% visibility of clinical instructions by separating them into dedicated full-width rows below each medical condition.
+- **Redundancy Removal**: Deleted the temporary `InstructionsWarning` widget and consolidated all medical notes within the primary dosage matrix for a cleaner, professional look.
+- **Responsiveness**: Replaced static grid layouts with `Wrap` and `SizedBox` logic, allowing dosage cards to expand vertically and accommodate long values/labels without truncation.
+- **Dosage Calculator**: Integrated suggested dose chips that dynamically pull data from the SQLite database and update calculator inputs on tap.
+- **Stability**: Fixed all null-safety related crashes and syntax errors in `dosage_tab.dart` using a clean local-variable pattern.
+- **Localization**: Ensured full support for both Arabic and English clinical terms and instructions.
+- **Data Integrity**: Verified that raw JSON source data contains full strings and updated the UI to display them without any programmatic limits.
+
 ### CHECKPOINT 149
 **Date:** 2026-01-03
 **Goal:** Hybrid Architecture Implementation & D1 Database Split.

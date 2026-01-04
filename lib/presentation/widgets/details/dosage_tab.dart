@@ -49,7 +49,7 @@ class DosageTab extends StatelessWidget {
               _buildQuickStats(context, l10n, summaryGuideline),
               const SizedBox(height: 24),
 
-              // Pediatric Calculator (Collapsible or always visible if pediatric)
+              // Pediatric Calculator
               if (drug.concentration.isNotEmpty) ...[
                 UniversalDosageCalculator(
                   concentration: drug.concentration,
@@ -71,14 +71,6 @@ class DosageTab extends StatelessWidget {
                 _buildIndicationMatrix(context, l10n, guidelines),
                 const SizedBox(height: 24),
               ],
-
-              // Original Warning for fallback instructions
-              if (summaryGuideline?.instructions != null)
-                InstructionsWarning(
-                  instructions:
-                      summaryGuideline?.instructions ??
-                      l10n.consultDoctorOrPharmacist,
-                ),
             ],
           ).animate().fadeIn();
         },
@@ -92,6 +84,11 @@ class DosageTab extends StatelessWidget {
     DosageGuidelinesModel? guideline,
   ) {
     final theme = Theme.of(context);
+    final isAr = l10n.localeName == 'ar';
+
+    final frequency = guideline?.frequency;
+    final maxDose = guideline?.maxDose;
+    final duration = guideline?.duration;
 
     return Wrap(
       spacing: 12,
@@ -102,12 +99,12 @@ class DosageTab extends StatelessWidget {
           child: _buildStatCard(
             context,
             l10n.regularFrequency,
-            guideline?.frequency != null && guideline!.frequency! > 0
-                ? (guideline!.frequency == 24
+            frequency != null && frequency > 0
+                ? (frequency == 24
                     ? (l10n.localeName == 'ar' ? 'مرة يومياً' : 'Once daily')
-                    : (24 % guideline!.frequency! == 0
-                        ? l10n.timesDaily(24 ~/ guideline!.frequency!)
-                        : l10n.everyXHours(guideline!.frequency!)))
+                    : (24 % frequency == 0
+                        ? l10n.timesDaily(24 ~/ frequency)
+                        : l10n.everyXHours(frequency)))
                 : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
             LucideIcons.clock,
             theme.colorScheme.primary,
@@ -118,8 +115,8 @@ class DosageTab extends StatelessWidget {
           child: _buildStatCard(
             context,
             l10n.maxDailyDose,
-            guideline?.maxDose != null && guideline!.maxDose! > 0
-                ? '${guideline!.maxDose} mg'
+            maxDose != null && maxDose > 0
+                ? '$maxDose mg'
                 : (l10n.localeName == 'ar' ? 'راجع النشرة' : 'See leaflet'),
             LucideIcons.alertCircle,
             theme.colorScheme.error,
@@ -140,8 +137,8 @@ class DosageTab extends StatelessWidget {
           child: _buildStatCard(
             context,
             l10n.treatmentDuration,
-            guideline?.duration != null && guideline!.duration! > 0
-                ? '${guideline!.duration} ${l10n.localeName == 'ar' ? 'أيام' : 'days'}'
+            duration != null && duration > 0
+                ? '$duration ${isAr ? 'أيام' : 'days'}'
                 : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
             LucideIcons.calendar,
             theme.colorScheme.secondary,
@@ -311,35 +308,13 @@ class DosageTab extends StatelessWidget {
                     ),
                   if (g.instructions != null && g.instructions!.isNotEmpty)
                     Padding(
-                      padding: const EdgeInsets.only(top: 10),
-                      child: Container(
-                        width: double.infinity,
-                        padding: const EdgeInsets.all(12),
-                        decoration: BoxDecoration(
-                          color: theme.colorScheme.surfaceContainerHighest
-                              .withValues(alpha: 0.3),
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Icon(
-                              LucideIcons.info,
-                              size: 14,
-                              color: theme.colorScheme.primary,
-                            ),
-                            const SizedBox(width: 8),
-                            Expanded(
-                              child: Text(
-                                g.instructions!,
-                                style: TextStyle(
-                                  fontSize: 13,
-                                  color: theme.colorScheme.onSurfaceVariant,
-                                  height: 1.5,
-                                ),
-                              ),
-                            ),
-                          ],
+                      padding: const EdgeInsets.only(top: 12),
+                      child: SelectableText(
+                        g.instructions!,
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: theme.colorScheme.onSurfaceVariant,
+                          height: 1.6,
                         ),
                       ),
                     ),
