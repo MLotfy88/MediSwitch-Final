@@ -163,5 +163,48 @@ def enrich_data_high_fidelity():
     print(f"🔹 تم إضافة {added_count:,} سجل جرعات جديد من WHO.")
     print(f"💾 تم حفظ التغييرات في القاعدة و {DOSAGE_JSON}")
 
+    # --- 4. إعادة تقسيم قاعدة البيانات لحفظ التغييرات ---
+    print("🧩 إعادة تقسيم قاعدة البيانات إلى أجزاء لحفظها في Git...")
+    split_database(temp_db_path, parts_dir)
+
+def split_database(input_file, output_dir, chunk_size=50*1024*1024): # 50MB matches existing parts roughly
+    """Split the DB back into parts matching 'split' command naming (aa, ab, ...)"""
+    if not os.path.exists(input_file): return
+    
+    # Clean old parts
+    for f in os.listdir(output_dir):
+        if f.startswith('mediswitch.db.part-'):
+            os.remove(os.path.join(output_dir, f))
+            
+    # Generate suffixes: aa, ab, ac...
+    import string
+    chars = string.ascii_lowercase
+    suffixes = []
+    for c1 in chars:
+        for c2 in chars:
+            suffixes.append(c1 + c2)
+            
+    part_num = 0
+    with open(input_file, 'rb') as infile:
+        while True:
+            chunk = infile.read(chunk_size)
+            if not chunk: break
+            
+            if part_num >= len(suffixes):
+                print("❌ Too many parts!")
+                break
+                
+            suffix = suffixes[part_num]
+            filename = f"mediswitch.db.part-{suffix}"
+            output_path = os.path.join(output_dir, filename)
+            
+            with open(output_path, 'wb') as outfile:
+                outfile.write(chunk)
+            
+            print(f"  ✅ Created {filename}")
+            part_num += 1
+            
+    print(f"✅ تم إنشاء {part_num} جزء بنجاح.")
+
 if __name__ == "__main__":
     enrich_data_high_fidelity()
