@@ -23,24 +23,54 @@ def clean_name(name):
     return name
 
 def enrich_data_high_fidelity():
-    if not os.path.exists(WHO_CSV) or not os.path.exists(DB_PATH) or not os.path.exists(DOSAGE_JSON):
+    if not os.path.exists(WHO_CSV) or not os.path.exists(DOSAGE_JSON):
         print("❌ الملفات المطلوبة غير موجودة!")
         return
 
+    # --- 0. تجميع قاعدة البيانات (لضمان وجودها) ---
+    print("🧩 تجميع قاعدة البيانات من الأجزاء...")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    parts_dir = os.path.join(base_dir, 'assets', 'database', 'parts')
+    temp_db_path = os.path.join(base_dir, 'mediswitch.db')
+    
+    # دائماً نجمع النسخة الطازجة
+    if os.path.exists(temp_db_path):
+        os.remove(temp_db_path)
+    
+    parts = sorted([f for f in os.listdir(parts_dir) if f.startswith('mediswitch.db.part-')])
+    if not parts:
+        print("❌ لم يتم العثور على أجزاء قاعدة البيانات!")
+        return
+        
+    with open(temp_db_path, 'wb') as outfile:
+        for part in parts:
+            part_path = os.path.join(parts_dir, part)
+            with open(part_path, 'rb') as infile:
+                outfile.write(infile.read())
+    print(f"✅ تم تجميع قاعدة البيانات: {temp_db_path}")
+
     print("🔗 جاري الاتصال بقاعدة البيانات وبناء خريطة المطابقة...")
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(temp_db_path)
     conn.execute("PRAGMA busy_timeout = 10000")
     c = conn.cursor()
 
-    # --- 1. بناء خريطة الأدوية المحلية بنفس منطق DDInter ---
-    c.execute("SELECT id, active FROM drugs WHERE active IS NOT NULL")
+    # --- 1. بناء خريطة الأدوية المحلية من جدول med_ingredients ---
+    # نستخدم med_ingredients لأنه أدق ويربط كل مادة فعالة بالـ ID
+    c.execute("SELECT med_id, ingredient FROM med_ingredients")
     local_drug_map = {}
-    for local_id, active in c.fetchall():
-        cleaned = clean_name(active)
+    
+    for med_id, ingredient in c.fetchall():
+        if not ingredient: continue
+        cleaned = clean_name(ingredient)
+        if not cleaned: continue
+        
         if cleaned not in local_drug_map:
             local_drug_map[cleaned] = []
-        local_drug_map[cleaned].append(local_id)
-    print(f"✅ تم تحميل {len(local_drug_map):,} مادة فعالة محلية.")
+        # تجنب التكرار لنفس الدواء
+        if med_id not in local_drug_map[cleaned]:
+            local_drug_map[cleaned].append(med_id)
+            
+    print(f"✅ تم تحميل {len(local_drug_map):,} مادة فعالة محلية (من med_ingredients).")
 
     # --- 2. تحميل ملف الجرعات JSON للتحديث ---
     with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
