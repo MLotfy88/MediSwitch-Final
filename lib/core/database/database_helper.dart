@@ -20,7 +20,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 19; // Updated for Schema Fixes
+  static const int _dbVersion = 20; // Updated for Dosage Schema Fix
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
@@ -261,21 +261,22 @@ class DatabaseHelper {
       )
     ''');
 
-    // NEW: Dosage Guidelines Table (Was missing)
+    // NEW: Dosage Guidelines Table (Corrected to match Model)
+    // Dropping and recreating in onUpgrade is required.
     await db.execute('''
       CREATE TABLE IF NOT EXISTS $dosageTable (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         med_id INTEGER,
-        population_group TEXT DEFAULT 'Adults',
-        min_dose REAL DEFAULT 0.0,
-        max_dose REAL DEFAULT 0.0,
-        unit TEXT,
-        frequency TEXT,
-        max_daily_dose REAL DEFAULT 0.0,
-        route TEXT DEFAULT 'Oral',
-        conditions TEXT,
-        source TEXT DEFAULT 'Manual/Aggregated',
-        created_at INTEGER DEFAULT 0
+        dailymed_setid TEXT,
+        min_dose REAL,
+        max_dose REAL,
+        frequency INTEGER,
+        duration INTEGER,
+        instructions TEXT,
+        condition TEXT,
+        source TEXT DEFAULT 'Local',
+        is_pediatric INTEGER DEFAULT 0,
+        updated_at INTEGER DEFAULT 0
       )
     ''');
 
@@ -366,8 +367,19 @@ class DatabaseHelper {
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     _logger.i('DatabaseHelper: Upgrading from $oldVersion to $newVersion...');
-    // Asset copy is managed in _initDatabase via marker file for major logic changes.
-    // If the tables don't exist, we create them (just in case)
+
+    if (oldVersion < 20) {
+      _logger.i(
+        'DatabaseHelper: Upgrading dosage_guidelines table to v20 schema...',
+      );
+      // We need to drop and recreate the dosage table because the schema changed significantly.
+      await db.execute('DROP TABLE IF EXISTS $dosageTable');
+      await _onCreate(
+        db,
+        newVersion,
+      ); // This will skip existing tables and only create missing ones (dosageTable)
+    }
+
     if (oldVersion == 0) {
       await _onCreate(db, newVersion);
     }

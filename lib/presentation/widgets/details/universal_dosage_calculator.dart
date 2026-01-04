@@ -192,6 +192,12 @@ class _UniversalDosageCalculatorState extends State<UniversalDosageCalculator> {
           ),
           const SizedBox(height: 16),
 
+          // Guidelines Suggestions (Real Data Integration)
+          if (widget.guidelines != null && widget.guidelines!.isNotEmpty) ...[
+            _buildRecommendations(context, appColors),
+            const SizedBox(height: 16),
+          ],
+
           // Pediatric Fields
           if (_selectedType == PatientType.pediatric) ...[
             Row(
@@ -301,6 +307,71 @@ class _UniversalDosageCalculatorState extends State<UniversalDosageCalculator> {
           ],
         ],
       ),
+    );
+  }
+
+  Widget _buildRecommendations(
+    BuildContext context,
+    AppColorsExtension appColors,
+  ) {
+    final theme = Theme.of(context);
+    final isAr = Localizations.localeOf(context).languageCode == 'ar';
+
+    // Filter guidelines based on patient type
+    final filtered =
+        widget.guidelines!.where((g) {
+          if (_selectedType == PatientType.pediatric) return g.isPediatric;
+          return !g.isPediatric;
+        }).toList();
+
+    if (filtered.isEmpty) return const SizedBox.shrink();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          isAr
+              ? 'جرعات مقترحة بناءً على الحالة:'
+              : 'Suggested doses by condition:',
+          style: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+            color: appColors.mutedForeground,
+          ),
+        ),
+        const SizedBox(height: 8),
+        SizedBox(
+          height: 40,
+          child: ListView.separated(
+            scrollDirection: Axis.horizontal,
+            itemCount: filtered.length,
+            separatorBuilder: (_, __) => const SizedBox(width: 8),
+            itemBuilder: (context, index) {
+              final g = filtered[index];
+              return ActionChip(
+                label: Text(
+                  '${g.condition ?? (isAr ? "عام" : "General")} (${g.minDose?.toStringAsFixed(0) ?? "?"} mg)',
+                  style: const TextStyle(fontSize: 11),
+                ),
+                onPressed: () {
+                  setState(() {
+                    _dosageController.text =
+                        g.minDose?.toStringAsFixed(0) ?? _dosageController.text;
+                    _calculate();
+                  });
+                },
+                backgroundColor: theme.colorScheme.primaryContainer.withValues(
+                  alpha: 0.2,
+                ),
+                side: BorderSide(
+                  color: theme.colorScheme.primary.withValues(alpha: 0.2),
+                ),
+                padding: EdgeInsets.zero,
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 

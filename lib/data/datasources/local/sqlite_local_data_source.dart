@@ -743,13 +743,6 @@ class SqliteLocalDataSource {
     });
   }
 
-  String _normalizeIngredientName(String name) {
-    if (name.isEmpty) return '';
-    String processed = name.toLowerCase().trim();
-    processed = processed.split('(').first.trim();
-    return processed;
-  }
-
   // --- Optimizing Search ---
 
   // Re-implement searchMedicinesByName with optimization

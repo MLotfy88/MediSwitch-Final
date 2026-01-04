@@ -104,10 +104,12 @@ class DosageTab extends StatelessWidget {
         _buildStatCard(
           context,
           l10n.regularFrequency,
-          guideline?.frequency != null
+          guideline?.frequency != null && guideline!.frequency! > 0
               ? (guideline!.frequency == 24
                   ? (l10n.localeName == 'ar' ? 'مرة يومياً' : 'Once daily')
-                  : l10n.timesDaily(guideline!.frequency!))
+                  : (24 % guideline!.frequency! == 0
+                      ? l10n.timesDaily(24 ~/ guideline!.frequency!)
+                      : l10n.everyXHours(guideline!.frequency!)))
               : (l10n.localeName == 'ar' ? 'حسب الإرشاد' : 'As directed'),
           LucideIcons.clock,
           theme.colorScheme.primary,
@@ -193,6 +195,7 @@ class DosageTab extends StatelessWidget {
   ) {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
+    final isAr = l10n.localeName == 'ar';
 
     return Container(
       decoration: BoxDecoration(
@@ -205,9 +208,9 @@ class DosageTab extends StatelessWidget {
         children: [
           // Header
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
             decoration: BoxDecoration(
-              color: theme.colorScheme.primary.withValues(alpha: 0.05),
+              color: theme.colorScheme.primary.withValues(alpha: 0.08),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(16),
                 topRight: Radius.circular(16),
@@ -218,9 +221,9 @@ class DosageTab extends StatelessWidget {
                 Expanded(
                   flex: 3,
                   child: Text(
-                    l10n.conditionLabel,
+                    isAr ? 'دواعي الاستعمال' : 'Indication / Condition',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 13,
                       fontWeight: FontWeight.bold,
                       color: theme.colorScheme.primary,
                     ),
@@ -229,9 +232,9 @@ class DosageTab extends StatelessWidget {
                 Expanded(
                   flex: 2,
                   child: Text(
-                    l10n.standardDose,
+                    isAr ? 'الجرعة' : 'Dosage Range',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 13,
                       fontWeight: FontWeight.bold,
                       color: theme.colorScheme.primary,
                     ),
@@ -272,13 +275,43 @@ class DosageTab extends StatelessWidget {
                             fontWeight: FontWeight.w600,
                           ),
                         ),
+                        if (g.instructions != null &&
+                            g.instructions!.isNotEmpty)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 6),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Icon(
+                                  LucideIcons.info,
+                                  size: 12,
+                                  color: theme.colorScheme.primary.withValues(
+                                    alpha: 0.7,
+                                  ),
+                                ),
+                                const SizedBox(width: 6),
+                                Expanded(
+                                  child: Text(
+                                    g.instructions!,
+                                    style: TextStyle(
+                                      fontSize: 11,
+                                      fontStyle: FontStyle.italic,
+                                      color: theme.colorScheme.onSurfaceVariant,
+                                      height: 1.4,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                         if (g.isPediatric)
                           Padding(
                             padding: const EdgeInsets.only(top: 2),
                             child: Text(
-                              'Pediatric',
+                              l10n.localeName == 'ar' ? 'للأطفال' : 'Pediatric',
                               style: TextStyle(
                                 fontSize: 10,
+                                fontWeight: FontWeight.bold,
                                 color: theme.colorScheme.secondary,
                               ),
                             ),
@@ -289,8 +322,13 @@ class DosageTab extends StatelessWidget {
                   Expanded(
                     flex: 2,
                     child: Text(
-                      '${g.minDose ?? "-"} mg',
-                      style: const TextStyle(fontSize: 13),
+                      g.maxDose != null && g.maxDose! > (g.minDose ?? 0)
+                          ? '${g.minDose ?? 0}-${g.maxDose} mg'
+                          : '${g.minDose ?? "-"} mg',
+                      style: const TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],
