@@ -630,17 +630,33 @@ class SqliteLocalDataSource {
     return maps.map((e) => e['interaction'] as String).toList();
   }
 
-  // Modified to include med_id for navigation
+  // Added for consistent querying by trade name (matching the counts)
+  Future<List<String>> getFoodInteractionsByTradeName(String tradeName) async {
+    await seedingComplete;
+    if (tradeName.isEmpty) return [];
+
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.foodInteractionsTable,
+      columns: ['interaction'],
+      where: 'trade_name = ?',
+      whereArgs: [tradeName],
+    );
+    return maps.map((e) => e['interaction'] as String).toList();
+  }
+
+  // Modified to group by Ingredient (active) as per user request
   Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // We group by trade_name to avoid duplicates, but we need a valid med_id for navigation.
-    // MAX(med_id) gives us one valid ID to fetch details.
+    // Group by Ingredient so the list shows Active Ingredients, not Trade Names.
+    // MAX(med_id) is selected but irrelevant as we use ingredient name for lookup.
     return await db.rawQuery('''
-      SELECT MAX(med_id) as med_id, trade_name as name, COUNT(*) as count 
-      FROM ${DatabaseHelper.foodInteractionsTable} 
-      GROUP BY trade_name 
-      ORDER BY count DESC 
+      SELECT MAX(med_id) as med_id, ingredient as name, COUNT(*) as count 
+      FROM ${DatabaseHelper.foodInteractionsTable}
+      WHERE ingredient IS NOT NULL AND ingredient != ''
+      GROUP BY ingredient
+      ORDER BY count DESC
       LIMIT 20
     ''');
   }

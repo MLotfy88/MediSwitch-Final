@@ -594,11 +594,11 @@ class InteractionRepositoryImpl implements InteractionRepository {
     try {
       final Set<String> allInteractions = {};
 
-      // 1. Check by ID (Local Cache)
+      // 1. Check by ID (Local Cache) - Specific Dose Form
       if (drug.id != null) {
         var byId = await localDataSource.getFoodInteractionsForDrug(drug.id!);
+        // If local is empty, try API (Hybrid)
         if (byId.isEmpty) {
-          // 2. Hybrid API Fetch
           _logger.i(
             '[InteractionRepo] Fetching food interactions from API for ${drug.tradeName}...',
           );
@@ -617,8 +617,19 @@ class InteractionRepositoryImpl implements InteractionRepository {
         allInteractions.addAll(byId);
       }
 
+      // 2. Check by Trade Name (Matches "Food Interaction List" counts)
+      // This is crucial because "Counts" are grouped by trade_name.
+      if (drug.tradeName.isNotEmpty) {
+        final byName = await localDataSource.getFoodInteractionsByTradeName(
+          drug.tradeName,
+        );
+        allInteractions.addAll(byName);
+      }
+
       // 3. Fallback/Molecular Match (Local)
       if (drug.active.isNotEmpty) {
+        // Only if we haven't found anything yet? Or always?
+        // Usually ingredient interactions are broader. Let's include them.
         final byIngredient = await localDataSource
             .getFoodInteractionsForIngredient(drug.active);
         allInteractions.addAll(byIngredient);

@@ -125,23 +125,12 @@ class _IngredientInteractionsScreenState
         if (widget.onlyFood) {
           // Food Logic (Same as before)
           try {
-            // Try to parse ID from normalizedName (hack for navigation)
-            int? medId;
-            if (widget.ingredient!.normalizedName != null) {
-              medId = int.tryParse(widget.ingredient!.normalizedName!);
-            }
-
             final tempDrug = DrugEntity(
-              id: medId, // Use parsed ID if available
+              id: null,
               tradeName: widget.ingredient!.name,
               arabicName: '',
               price: '0',
-              // Use name as active as fallback if normalizedName was an ID string
-              active:
-                  medId != null
-                      ? widget.ingredient!.name
-                      : (widget.ingredient!.normalizedName ??
-                          widget.ingredient!.name),
+              active: widget.ingredient!.name, // Fallback active = name
               company: '',
               dosageForm: '',
               concentration: '',
