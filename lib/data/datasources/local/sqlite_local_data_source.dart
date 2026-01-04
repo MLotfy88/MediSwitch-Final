@@ -584,6 +584,76 @@ class SqliteLocalDataSource {
     }
   }
 
+  // Added missing method for InteractionRepositoryImpl
+  Future<List<DrugInteractionModel>> getHighRiskInteractions({
+    int limit = 20,
+    int offset = 0,
+    String? searchQuery,
+  }) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    String whereClause =
+        "LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')";
+    List<dynamic> args = [];
+
+    if (searchQuery != null && searchQuery.isNotEmpty) {
+      whereClause += " AND (ingredient1 LIKE ? OR ingredient2 LIKE ?)";
+      args.add('%$searchQuery%');
+      args.add('%$searchQuery%');
+    }
+
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.interactionsTable,
+      where: whereClause,
+      whereArgs: args.isEmpty ? null : args,
+      limit: limit,
+      offset: offset,
+      orderBy:
+          "CASE WHEN LOWER(severity) = 'contraindicated' THEN 1 WHEN LOWER(severity) = 'severe' THEN 2 ELSE 3 END",
+    );
+
+    return maps.map((e) => DrugInteractionModel.fromMap(e)).toList();
+  }
+
+  // Added missing method for InteractionRepositoryImpl
+  Future<List<String>> getFoodInteractionsForDrug(int medId) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.foodInteractionsTable,
+      columns: ['interaction'],
+      where: 'med_id = ?',
+      whereArgs: [medId],
+    );
+    return maps.map((e) => e['interaction'] as String).toList();
+  }
+
+  // Added missing method for InteractionRepositoryImpl
+  Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    return await db.rawQuery('''
+      SELECT trade_name as name, COUNT(*) as count 
+      FROM ${DatabaseHelper.foodInteractionsTable} 
+      GROUP BY trade_name 
+      ORDER BY count DESC 
+      LIMIT 20
+    ''');
+  }
+
+  // Added missing method for InteractionRepositoryImpl
+  Future<List<Map<String, dynamic>>> getFoodInteractionsDetailedForDrug(
+    int medId,
+  ) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    return await db.query(
+      DatabaseHelper.foodInteractionsTable,
+      where: 'med_id = ?',
+      whereArgs: [medId],
+    );
+  }
+
   Future<List<Map<String, dynamic>>> getHighRiskIngredientsWithMetrics({
     int limit = 10,
   }) async {
