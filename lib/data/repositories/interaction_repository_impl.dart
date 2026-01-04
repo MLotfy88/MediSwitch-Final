@@ -641,11 +641,12 @@ class InteractionRepositoryImpl implements InteractionRepository {
         return HighRiskIngredient(
           name: m['name'] as String,
           totalInteractions: m['count'] as int,
-          severeCount:
-              0, // Food interactions usually don't have severity breakdown here
+          severeCount: 0,
           moderateCount: 0,
           minorCount: 0,
           dangerScore: 0,
+          // Store med_id in normalizedName for navigation
+          normalizedName: m['med_id']?.toString(),
         );
       }).toList();
     } catch (e) {

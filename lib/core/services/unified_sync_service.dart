@@ -37,7 +37,7 @@ class UnifiedSyncService {
       final prefs = await SharedPreferences.getInstance();
 
       // 0. Sync Notifications (Background check)
-      await _syncNotifications(prefs);
+      await syncNotifications(prefs);
 
       // 1. Sync Drugs
       logger.i('Syncing Drugs...');
@@ -48,6 +48,7 @@ class UnifiedSyncService {
         drugResult.fold((f) => logger.e('Drug sync failed', f), (_) {});
       }
 
+      /*
       // 2. Sync Interactions
       logger.i('Syncing Interactions...');
       final lastIntSync = prefs.getInt('interactions_last_sync_timestamp') ?? 0;
@@ -109,6 +110,7 @@ class UnifiedSyncService {
           (_) {},
         );
       }
+      */
 
       stopwatch.stop();
       logger.i('Unified Sync completed in ${stopwatch.elapsedMilliseconds}ms');
@@ -120,7 +122,8 @@ class UnifiedSyncService {
     }
   }
 
-  Future<void> _syncNotifications(SharedPreferences prefs) async {
+  // Made public for direct calling from initialization screen
+  Future<void> syncNotifications(SharedPreferences prefs) async {
     try {
       logger.i('Syncing Notifications...');
       // Use proper URL constant if available, otherwise hardcode for background reliability

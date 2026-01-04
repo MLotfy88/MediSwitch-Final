@@ -464,6 +464,8 @@ class SqliteLocalDataSource {
     _logger.i(
       '[INTERACTION SEEDING] Hybrid Mode: Skipping large offline assets seeding.',
     );
+    // Ensure flags are correct (critical for icons)
+    await recalculateInteractionFlags();
   }
 
   Future<void> _seedRelationalInteractions(Database db) async {}
@@ -628,12 +630,14 @@ class SqliteLocalDataSource {
     return maps.map((e) => e['interaction'] as String).toList();
   }
 
-  // Added missing method for InteractionRepositoryImpl
+  // Modified to include med_id for navigation
   Future<List<Map<String, dynamic>>> getFoodInteractionCounts() async {
     await seedingComplete;
     final db = await dbHelper.database;
+    // We group by trade_name to avoid duplicates, but we need a valid med_id for navigation.
+    // MAX(med_id) gives us one valid ID to fetch details.
     return await db.rawQuery('''
-      SELECT trade_name as name, COUNT(*) as count 
+      SELECT MAX(med_id) as med_id, trade_name as name, COUNT(*) as count 
       FROM ${DatabaseHelper.foodInteractionsTable} 
       GROUP BY trade_name 
       ORDER BY count DESC 
@@ -641,7 +645,7 @@ class SqliteLocalDataSource {
     ''');
   }
 
-  // Added missing method for InteractionRepositoryImpl
+  // Same as before
   Future<List<Map<String, dynamic>>> getFoodInteractionsDetailedForDrug(
     int medId,
   ) async {
@@ -660,61 +664,26 @@ class SqliteLocalDataSource {
     await seedingComplete;
     final db = await dbHelper.database;
 
-    // COMPLEX QUERY OPTIMIZATION:
-    // 1. Removed LOWER() on ingredients (NOCASE handles it).
-    // 2. Simplified logic where possible.
+    // Simplified Query to avoid complex CTE issues on some devices/versions
+    // Also removed the restrictive NOT IN list for now or limited it.
 
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
-      WITH AffectedIngredients AS (
-        SELECT 
-          ingredient1 as original_name,
-          -- Normalized key just trimming
-          TRIM(REPLACE(REPLACE(ingredient1, '(', ''), ')', '')) as ingredient_key, 
-          severity 
-        FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
-        UNION ALL
-        SELECT 
-          ingredient2 as original_name,
-          TRIM(REPLACE(REPLACE(ingredient2, '(', ''), ')', '')) as ingredient_key, 
-          severity 
-        FROM ${DatabaseHelper.interactionsTable}
-        WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high', 'moderate', 'critical', 'serious')
-      ),
-      IngredientStats AS (
-        SELECT 
-          ingredient_key,
-          COUNT(*) as totalInteractions,
-          SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
-          SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
-          SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
-          SUM(CASE 
+      SELECT 
+        ingredient1 as name, 
+        ingredient1 as normalized_name,
+        COUNT(*) as totalInteractions,
+        SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
+        SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
+        SUM(CASE WHEN LOWER(severity) = 'minor' THEN 1 ELSE 0 END) as minorCount,
+        SUM(CASE 
             WHEN LOWER(severity) = 'contraindicated' THEN 10 
             WHEN LOWER(severity) IN ('severe', 'critical') THEN 8
-            WHEN LOWER(severity) IN ('high', 'serious') THEN 7
-            WHEN LOWER(severity) = 'major' THEN 5
-            WHEN LOWER(severity) = 'moderate' THEN 3
             ELSE 1 
           END) as dangerScore
-        FROM AffectedIngredients
-        WHERE ingredient_key NOT IN (
-          'pro', 'met', 'ors', 'interactions', 'bee', 'sage', 
-          'bet', 'vit', 'but', 'epa', 'thy', 'ros', 'eru', 'prop',
-          'drugs', 'food', 'alcohol', 'water'
-        )
-        AND LENGTH(ingredient_key) > 2 
-        GROUP BY ingredient_key
-      )
-      SELECT 
-        MAX(original_name) as name, -- Simplification for performance
-        stats.ingredient_key as normalized_name,
-        stats.totalInteractions,
-        stats.severeCount,
-        stats.moderateCount,
-        stats.minorCount,
-        stats.dangerScore
-      FROM IngredientStats stats
+      FROM ${DatabaseHelper.interactionsTable}
+      WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
+      GROUP BY ingredient1
       ORDER BY dangerScore DESC
       LIMIT ?
       ''',

@@ -1,10 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart'; // Added
 
 import '../../core/database/database_helper.dart';
 import '../../core/di/locator.dart';
 import '../../core/services/file_logger_service.dart';
+import '../../core/services/unified_sync_service.dart'; // Added
 import '../../data/datasources/local/sqlite_local_data_source.dart';
 import '../../domain/repositories/interaction_repository.dart';
 import '../../presentation/bloc/subscription_provider.dart';
@@ -174,6 +176,16 @@ class _InitializationScreenState extends State<InitializationScreen> {
       // Force reload interaction data to ensure it's not stale after seeding
       final interactionRepo = locator<InteractionRepository>();
       await interactionRepo.loadInteractionData();
+
+      // 3. Quick Notification Sync (Added for background update)
+      try {
+        final syncService = locator<UnifiedSyncService>();
+        final prefs = await SharedPreferences.getInstance();
+        // Fire and forget - don't block UI for this
+        syncService.syncNotifications(prefs).ignore();
+      } catch (e) {
+        _logger.w("InitializationScreen: Notification sync warning: $e");
+      }
 
       return true;
     } catch (e, s) {
