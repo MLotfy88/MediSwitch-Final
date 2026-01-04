@@ -1,5 +1,15 @@
 # 🎯 ملخص المشروع - January 2025
 
+### CHECKPOINT 151
+**Date:** 2026-01-04
+**Goal:** Fixed dosage instruction truncation by removing hardcoded limits in extraction/patch scripts.
+**Changes:**
+- Fixed dosage instruction truncation by removing hardcoded limits in extraction/patch scripts.
+- "Healed" 8,569 truncated dosage records using the full Data Lake source.
+- Improved WHO data integration to be additive, adding 15,690 high-fidelity guidelines.
+- Verified Folic Acid accuracy (0.1mg DailyMed + 0.4mg/10mg WHO).
+- Refactored Dosage Tab UI for superior clinical readability.
+
 ### CHECKPOINT 150
 **Date:** 2026-01-04
 **Goal:** Dosage Tab Clinical Accuracy & UI Redesign.

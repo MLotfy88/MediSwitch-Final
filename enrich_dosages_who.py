@@ -45,13 +45,21 @@ def enrich_data_high_fidelity():
     # --- 2. تحميل ملف الجرعات JSON للتحديث ---
     with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
         dosage_data = json.load(f)
-    # خريطة لسهولة الوصول للجرعات بالـ med_id
-    dosage_map = {g['med_id']: g for g in dosage_data.get('dosage_guidelines', [])}
+    
+    # خريطة لمعرفة هل يوجد سجل WHO مسبقاً لتجنب التكرار
+    # (med_id, atc_code, ddd, route) -> record
+    who_existing_map = {}
+    for g in dosage_data:
+        if g.get('source') == 'WHO ATC/DDD 2024':
+            who_existing_map[(g['med_id'], g.get('atc_code'), g.get('min_dose'), g.get('route_code'))] = g
+
+    # أعلى ID مستخدم
+    max_id = max([g.get('id', 0) for g in dosage_data]) if dosage_data else 0
 
     # --- 3. معالجة بيانات WHO ومطابقتها ---
     print("\n🧪 المباشرة في مطابقة بيانات WHO وتحديث الجداول...")
     atc_update_count = 0
-    dosage_enrich_count = 0
+    added_count = 0
     
     with open(WHO_CSV, mode='r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -60,9 +68,12 @@ def enrich_data_high_fidelity():
             
             who_drug_name = row['atc_name']
             who_atc = row['atc_code']
+            ddd_val = row['ddd']
+            adm_r = row['adm_r']
+            
             cleaned_who = clean_name(who_drug_name)
             
-            # منطق المطابقة (Direct ثم Fuzzy) كما في DDInter
+            # منطق المطابقة
             matched_ids = local_drug_map.get(cleaned_who, [])
             
             if not matched_ids and len(cleaned_who) >= 4:
@@ -74,26 +85,42 @@ def enrich_data_high_fidelity():
             
             if matched_ids:
                 for local_id in matched_ids:
-                    # أ. تحديث كود ATC في جدول الأدوية (Enrichment)
+                    # أ. تحديث كود ATC
                     c.execute("UPDATE drugs SET atc_codes = ? WHERE id = ? AND (atc_codes IS NULL OR atc_codes = '')", (who_atc, local_id))
                     if c.rowcount > 0: atc_update_count += 1
                     
-                    # ب. تحديث بيانات الجرعات إذا كانت الجودة منخفضة
-                    if local_id in dosage_map:
-                        g = dosage_map[local_id]
-                        if "See package insert" in g.get('instructions', '') or g.get('source') == 'Local_Scraper':
-                            ddd = row['ddd']
-                            uom = row['uom']
-                            adm_r = row['adm_r']
-                            route_map = {'O': 'عن طريق الفم', 'P': 'عن طريق الحقن', 'R': 'عن طريق الشرج', 'V': 'عن طريق المهبل', 'Inhal': 'استنشاق', 'N': 'عن طريق الأنف', 'TD': 'عن طريق الجلد'}
-                            route_ar = route_map.get(adm_r, adm_r)
-                            
-                            if ddd != 'NA':
-                                g['instructions'] = f"الجرعة اليومية المحددة (WHO DDD): {ddd} {uom} ({route_ar})."
-                                g['min_dose'] = float(ddd)
-                                g['source'] = 'WHO ATC/DDD 2024'
-                                dosage_enrich_count += 1
+                    # ب. إضافة سجل WHO إذا لم يكن موجوداً لهذا الدواء (بناءً على med_id + code + ddd + route)
+                    try:
+                        numeric_ddd = float(ddd_val) if ddd_val != 'NA' else None
+                    except: numeric_ddd = None
 
+                    if ddd_val != 'NA' and (local_id, who_atc, numeric_ddd, adm_r) not in who_existing_map:
+                        uom = row['uom']
+                        note = row['note']
+                        
+                        route_map = {'O': 'عن طريق الفم', 'P': 'عن طريق الحقن', 'R': 'عن طريق الشرج', 'V': 'عن طريق المهبل', 'Inhal': 'استنشاق', 'N': 'عن طريق الأنف', 'TD': 'عن طريق الجلد'}
+                        route_ar = route_map.get(adm_r, adm_r)
+                        
+                        max_id += 1
+                        new_g = {
+                            "id": max_id,
+                            "med_id": local_id,
+                            "dailymed_setid": "N/A",
+                            "min_dose": numeric_ddd,
+                            "max_dose": None,
+                            "frequency": 24,
+                            "duration": 7,
+                            "instructions": f"الجرعة اليومية المحددة (WHO DDD): {ddd_val} {uom} ({route_ar}). {note if note != 'NA' else ''}".strip(),
+                            "condition": "General",
+                            "source": "WHO ATC/DDD 2024",
+                            "is_pediatric": 0,
+                            "atc_code": who_atc,
+                            "route_code": adm_r
+                        }
+                        dosage_data.append(new_g)
+                        who_existing_map[(local_id, who_atc, numeric_ddd, adm_r)] = new_g
+                        added_count += 1
+    
     # حفظ التغييرات
     conn.commit()
     conn.close()
@@ -103,7 +130,7 @@ def enrich_data_high_fidelity():
 
     print(f"\n✨ التقرير النهائي:")
     print(f"🔹 تم تحديث أكواد ATC لـ {atc_update_count:,} دواء.")
-    print(f"🔹 تم إثراء {dosage_enrich_count:,} سجل جرعات من WHO.")
+    print(f"🔹 تم إضافة {added_count:,} سجل جرعات جديد من WHO.")
     print(f"💾 تم حفظ التغييرات في القاعدة و {DOSAGE_JSON}")
 
 if __name__ == "__main__":

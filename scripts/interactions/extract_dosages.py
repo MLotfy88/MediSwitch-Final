@@ -175,7 +175,7 @@ def process_file(zip_path: str, known_ingredients: set) -> List[Dict]:
                     
                     if not package_label and dosage_text:
                          # Use a clean slice of dosage text
-                         package_label = dosage_text[:500].replace('\n', ' ')
+                         package_label = dosage_text.replace('\n', ' ')
                     
                     package_label = package_label.strip()
 

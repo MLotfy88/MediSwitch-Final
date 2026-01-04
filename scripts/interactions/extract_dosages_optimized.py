@@ -232,7 +232,7 @@ def process_file(zip_path: str) -> List[Dict]:
                     
                     # Fallback to dosage text snippet
                     if not package_label and dosage_text:
-                        package_label = dosage_text[:500].replace('\n', ' ')
+                        package_label = dosage_text.replace('\n', ' ')
                     
                     package_label = package_label.strip()
                     

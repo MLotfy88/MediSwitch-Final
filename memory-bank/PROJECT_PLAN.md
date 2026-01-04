@@ -154,7 +154,7 @@
 - [x] **Hybrid Data Flow**: تطبيق منطق الجلب من الـ API عند الحاجة مع التخزين المؤقت (Local Caching).
 - [x] **Worker API Refactor**: تحديث الـ Worker لدعم توجيه الطلبات للقاعدة الجديدة تلقائياً.
 
-### المرحلة 15: Dosage Tab Clinical Accuracy ✅ (Jan 04, 2026)
+### Phase 15: Dosage Tab Clinical Accuracy (UI Refinement & Data Integrity) ✅ (Jan 04, 2026)
 - [x] **UI Redesign**: إعادة تصميم واجهة الجرعات لمنع بتر النصوص الطويلة.
 - [x] **Full Visibility**: فصل التعليمات الطبية في سطر مستقل لضمان ظهورها كاملة.
 - [x] **Calculator Integration**: ربط الحاسبة باقتراحات الجرعات المباشرة من قاعدة البيانات.
