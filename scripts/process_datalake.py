@@ -228,78 +228,97 @@ def extract_regex_concentration(name: str) -> Optional[str]:
     match = CONCENTRATION_REGEX.search(name)
     return match.group(1).strip() if match else None
 
-def load_app_data() -> Dict[str, list]:
-    """Load meds_updated.csv and map CLEANED Name -> List of Records"""
-    if not os.path.exists(MEDS_CSV):
-        print("⚠️ meds.csv not found. Skipping linkage.")
-        return {}
-    
-    try:
-        df = pd.read_csv(MEDS_CSV, dtype=str)
-        # Map 1: Cleaned Name -> [List of Records] (Trade Name Match)
-        app_map = {}
-        # Map 2a: Exact Active Ingredient (With Salts) -> [List of Records]
-        active_map_exact = {}
-        # Map 2b: Stripped Active Ingredient (No Salts) -> [List of Records]
-        active_map_stripped = {}
-        
-        linked_count = 0
-        
-        for _, row in df.iterrows():
-            raw_name = str(row.get('trade_name', ''))
-            raw_active = str(row.get('active', ''))
-            
-            # Smart Parsing for Active Ingredient
-            # 1. Split by '+' (Handle combos like "Chlorhexidine+Fluoride")
-            # 2. Take FIRST ingredient as primary key
-            # 3. Clean concentration strings (e.g. "Simvastatin 10mg" -> "Simvastatin")
-            primary_active = ""
-            if raw_active and raw_active.lower() != 'nan':
-                parts = raw_active.split('+')
-                first_part = parts[0].strip()
-                # Remove common concentration patterns (10mg, 5%, etc) embedded in name
-                # This uses the same regex we use for extraction, but to remove it
-                cleaned_part = re.sub(r'\b\d+(?:\.\d+)?\s*(?:mg|ml|%|g|mcg|iu)\b', '', first_part, flags=re.IGNORECASE).strip()
-                primary_active = cleaned_part
+import sqlite3
+import os # Assuming os is needed for file operations
 
-            record = row.to_dict()
-            record['original_name'] = raw_name
-            
-            # Index by Trade Name
-            key_name = clean_drug_name(raw_name)
-            if key_name:
-                if key_name not in app_map:
-                    app_map[key_name] = []
-                app_map[key_name].append(record)
-            
-            # Index by Active Ingredient
-            if primary_active:
-                
-                # Tier 1: Exact (Keep Salts)
-                key_exact = normalize_active_ingredient(primary_active, strip_salts=False)
-                if key_exact:
-                    if key_exact not in active_map_exact:
-                        active_map_exact[key_exact] = []
-                    active_map_exact[key_exact].append(record)
-                    
-                # Tier 2: Stripped (Remove Salts)
-                key_stripped = normalize_active_ingredient(primary_active, strip_salts=True)
-                if key_stripped:
-                    if key_stripped not in active_map_stripped:
-                        active_map_stripped[key_stripped] = []
-                    active_map_stripped[key_stripped].append(record)
-            
-            linked_count += 1
-            
-        print(f"✅ Loaded {linked_count} records.")
-        print(f"  - Trade Name Keys: {len(app_map)}")
-        print(f"  - Exact Active Keys: {len(active_map_exact)}")
-        print(f"  - Stripped Active Keys: {len(active_map_stripped)}")
+def assemble_db():
+    """Assembles the database from split parts."""
+    print("  🧩 Assembling database from parts...")
+    parts_dir = os.path.join(BASE_DIR, 'assets', 'database', 'parts')
+    temp_db_path = os.path.join(BASE_DIR, 'temp_mediswitch.db')
+    
+    if os.path.exists(temp_db_path):
+        os.remove(temp_db_path)
         
-        return app_map, active_map_exact, active_map_stripped
+    parts = sorted([f for f in os.listdir(parts_dir) if f.startswith('mediswitch.db.part-')])
+    
+    with open(temp_db_path, 'wb') as outfile:
+        for part in parts:
+            part_path = os.path.join(parts_dir, part)
+            with open(part_path, 'rb') as infile:
+                outfile.write(infile.read())
+                
+    print(f"  ✅ Database assembled at {temp_db_path}")
+    return temp_db_path
+
+def load_ingredients_from_db():
+    """Matches DailyMed to App using med_ingredients table."""
+    try:
+        db_path = assemble_db()
     except Exception as e:
-        print(f"❌ Error loading CSV: {e}")
+        print(f"❌ Failed to assemble DB: {e}")
         return {}, {}, {}
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    
+    # Check if table exists
+    try:
+        cursor.execute("SELECT count(*) FROM med_ingredients")
+        count = cursor.fetchone()[0]
+        print(f"  🔍 Found {count} ingredient links in med_ingredients table.")
+    except sqlite3.OperationalError:
+        print("❌ med_ingredients table NOT FOUND in assembled DB.")
+        conn.close()
+        return {}, {}, {}
+
+    # Map: Normalized Ingredient -> List of (med_id, trade_name)
+    # We join with 'drugs' table (as defined in DatabaseHelper) to get trade name
+    query = """
+    SELECT m.id, m.trade_name, mi.ingredient 
+    FROM med_ingredients mi
+    JOIN drugs m ON mi.med_id = m.id
+    """
+    
+    active_map_exact = {}
+    active_map_stripped = {}
+    
+    cursor.execute(query)
+    rows = cursor.fetchall()
+    
+    for med_id, trade_name, ingredient in rows:
+        if not ingredient: continue
+        
+        record = {'id': med_id, 'trade_name': trade_name, 'original_active': ingredient}
+        
+        # Tier 1: Exact
+        norm_exact = normalize_active_ingredient(ingredient, strip_salts=False)
+        if norm_exact:
+            if norm_exact not in active_map_exact: active_map_exact[norm_exact] = []
+            active_map_exact[norm_exact].append(record)
+            
+        # Tier 2: Stripped
+        norm_stripped = normalize_active_ingredient(ingredient, strip_salts=True)
+        if norm_stripped:
+             if norm_stripped not in active_map_stripped: active_map_stripped[norm_stripped] = []
+             active_map_stripped[norm_stripped].append(record)
+
+    conn.close()
+    if os.path.exists(db_path):
+        os.remove(db_path)
+        
+    print(f"✅ Loaded Ingredient Maps from DB:")
+    print(f"  - Exact Keys: {len(active_map_exact)}")
+    print(f"  - Stripped Keys: {len(active_map_stripped)}")
+    
+    return {}, active_map_exact, active_map_stripped
+
+def load_app_data() -> Dict[str, list]:
+    """Wrapper to switch between CSV and DB mode."""
+    # Priority: DB (med_ingredients)
+    return load_ingredients_from_db()
+
+# Legacy med.csv loader removed/bypassed
 
 def process_datalake():
     print("="*80)
