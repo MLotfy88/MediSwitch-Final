@@ -485,18 +485,16 @@ class SqliteLocalDataSource {
     if (ingredient.isEmpty) return [];
 
     final db = await dbHelper.database;
-    final normalized = _normalizeIngredientName(ingredient);
-    if (normalized.isEmpty) return [];
+    // Normalized check not strictly needed if we trust the list, but good practice.
+    // However, since we group by 'ingredient' in the count method, we should query by 'ingredient' here across the same values.
 
-    // Optimized Query: Removed LOWER(), relies on NOCASE
-    final List<Map<String, dynamic>> maps = await db.rawQuery(
-      '''
-      SELECT DISTINCT f.interaction 
-      FROM ${DatabaseHelper.foodInteractionsTable} f
-      JOIN med_ingredients mi ON f.med_id = mi.med_id
-      WHERE mi.ingredient = ?
-      ''',
-      [normalized],
+    // We query the food_interactions table directly.
+    // This matches the logic of 'getFoodInteractionCounts' which groups by this column.
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.foodInteractionsTable,
+      columns: ['interaction'],
+      where: 'ingredient = ?',
+      whereArgs: [ingredient],
     );
 
     return maps.map((e) => e['interaction'] as String).toList();
