@@ -109,16 +109,21 @@ jobs:
       # ============================================
       # 📥 STEP 2: DOWNLOAD EXTERNAL DATA SOURCES
       # ============================================
-      - name: 📥 Download DailyMed Full Release
+      - name: 📥 Download & Process DailyMed (Streamlined)
         if: (github.event.inputs.skip_download != 'true') && (github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == '')
         run: |
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "📥 DOWNLOADING DAILYMED RELEASE"
+          echo "📥 STREAMING DAILYMED (Download -> Extract -> Delete)"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           
-          mkdir -p "$DAILYMED_DIR"
-          python3 scripts/download_dailymed.py
+          # Use new streamlined script to save disk space
+          python3 scripts/stream_dailymed.py
           
+          if [ -f "production_data/dailymed_full_database.jsonl.gz" ]; then
+            SIZE=$(du -h production_data/dailymed_full_database.jsonl.gz | cut -f1)
+            echo "✅ Data Lake created: $SIZE"
+          fi
+
       - name: 📥 Download OpenFDA Drug Labels
         if: (github.event.inputs.skip_download != 'true') && (github.event.inputs.sources == 'all' || github.event.inputs.sources == 'openfda' || github.event.inputs.sources == '')
         run: |
@@ -128,23 +133,6 @@ jobs:
           
           mkdir -p "$OPENFDA_DIR"
           python3 scripts/dosage/download_openfda_labels.py
-          
-      # ============================================
-      # 🔬 STEP 3: EXTRACT & PROCESS DAILYMED
-      # ============================================
-      - name: 🔬 Extract DailyMed Full Data Lake
-        if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == ''
-        run: |
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "🔬 EXTRACTING DAILYMED DATA LAKE"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          
-          python3 production_data/extract_full_dailymed.py
-          
-          if [ -f "production_data/dailymed_full_database.jsonl.gz" ]; then
-            SIZE=$(du -h production_data/dailymed_full_database.jsonl.gz | cut -f1)
-            echo "✅ Data Lake created: $SIZE"
-          fi
           
       - name: 🏗️ Process Data Lake into Production Dosages
         if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == ''
