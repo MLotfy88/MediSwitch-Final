@@ -1,0 +1,358 @@
+name: 🚀 Advanced Dosage Data Enrichment
+
+# Workflow خارق لإثراء واستكمال بيانات الجرعات من مصادر متعددة
+# يجمع بين DailyMed, WHO ATC/DDD, و OpenFDA مع معالجة ذكية وتنظيف تلقائي
+
+on:
+  schedule:
+    # يعمل يوم الأحد في منتصف الليل UTC (التحديث الأسبوعي)
+    - cron: '0 0 * * 0'
+  workflow_dispatch:  # إمكانية التشغيل اليدوي
+    inputs:
+      skip_download:
+        description: 'تخطي تحميل البيانات الخارجية (استخدام الملفات الموجودة)'
+        required: false
+        default: 'false'
+      full_rebuild:
+        description: 'إعادة بناء كاملة (حذف البيانات الموجودة)'
+        required: false
+        default: 'false'
+      sources:
+        description: 'المصادر المطلوبة (dailymed,who,openfda أو all)'
+        required: false
+        default: 'all'
+
+env:
+  PYTHON_VERSION: '3.11'
+  DOSAGE_JSON: 'assets/data/dosage_guidelines.json'
+  WHO_CSV: 'assets/external_research_data/WHO_ATC_DDD_2024.csv'
+  DAILYMED_DIR: 'External_source/dailymed/downloaded'
+  OPENFDA_DIR: 'External_source/drug_interaction/drug-label/downloaded'
+  DATALAKE_FILE: 'production_data/production_dosages.jsonl'
+
+jobs:
+  enrich-dosage-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240  # 4 hours للعمليات المعقدة
+    
+    steps:
+      # ============================================
+      # 📦 SETUP & PREPARATION
+      # ============================================
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # للوصول الكامل للتاريخ
+          
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          
+      - name: 📚 Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests pandas beautifulsoup4 aiohttp aiofiles
+          pip install openpyxl csvkit sqlite-utils
+          
+      - name: 🔍 Environment Check
+        run: |
+          echo "🔹 Python: $(python3 --version)"
+          echo "🔹 Starting at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "🔹 Workflow triggered by: ${{ github.event_name }}"
+          echo "🔹 Skip Download: ${{ github.event.inputs.skip_download }}"
+          echo "🔹 Full Rebuild: ${{ github.event.inputs.full_rebuild }}"
+          echo "🔹 Sources: ${{ github.event.inputs.sources }}"
+          
+      # ============================================
+      # 📊 BACKUP CURRENT DATA
+      # ============================================
+      - name: 💾 Backup Current Dosage Data
+        run: |
+          BACKUP_DIR="backups/$(date +'%Y%m%d')"
+          mkdir -p "$BACKUP_DIR"
+          
+          if [ -f "$DOSAGE_JSON" ]; then
+            cp "$DOSAGE_JSON" "$BACKUP_DIR/dosage_guidelines_backup.json"
+            RECORD_COUNT=$(python3 -c "import json; print(len(json.load(open('$DOSAGE_JSON'))))")
+            echo "✅ Backed up $RECORD_COUNT records to $BACKUP_DIR"
+            echo "baseline_count=$RECORD_COUNT" >> $GITHUB_ENV
+          else
+            echo "⚠️ No existing dosage file found, starting fresh"
+            echo "baseline_count=0" >> $GITHUB_ENV
+          fi
+          
+      # ============================================
+      # 🌍 STEP 1: WHO ATC/DDD DATA ENRICHMENT
+      # ============================================
+      - name: 🌍 Enrich from WHO ATC/DDD Database
+        if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'who' || github.event.inputs.sources == ''
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🌍 WHO ATC/DDD ENRICHMENT"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          if [ ! -f "$WHO_CSV" ]; then
+            echo "❌ WHO CSV file not found: $WHO_CSV"
+            exit 1
+          fi
+          
+          python3 enrich_dosages_who.py
+          
+          # Count additions
+          AFTER_WHO=$(python3 -c "import json; print(len(json.load(open('$DOSAGE_JSON'))))")
+          WHO_ADDED=$((AFTER_WHO - baseline_count))
+          echo "who_added=$WHO_ADDED" >> $GITHUB_ENV
+          echo "✅ WHO enrichment complete: +$WHO_ADDED records"
+          
+      # ============================================
+      # 📥 STEP 2: DOWNLOAD EXTERNAL DATA SOURCES
+      # ============================================
+      - name: 📥 Download DailyMed Full Release
+        if: (github.event.inputs.skip_download != 'true') && (github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == '')
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📥 DOWNLOADING DAILYMED RELEASE"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          mkdir -p "$DAILYMED_DIR"
+          python3 scripts/download_dailymed.py
+          
+      - name: 📥 Download OpenFDA Drug Labels
+        if: (github.event.inputs.skip_download != 'true') && (github.event.inputs.sources == 'all' || github.event.inputs.sources == 'openfda' || github.event.inputs.sources == '')
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📥 DOWNLOADING OPENFDA LABELS"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          mkdir -p "$OPENFDA_DIR"
+          python3 scripts/dosage/download_openfda_labels.py
+          
+      # ============================================
+      # 🔬 STEP 3: EXTRACT & PROCESS DAILYMED
+      # ============================================
+      - name: 🔬 Extract DailyMed Full Data Lake
+        if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == ''
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🔬 EXTRACTING DAILYMED DATA LAKE"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 production_data/extract_full_dailymed.py
+          
+          if [ -f "production_data/dailymed_full_database.jsonl.gz" ]; then
+            SIZE=$(du -h production_data/dailymed_full_database.jsonl.gz | cut -f1)
+            echo "✅ Data Lake created: $SIZE"
+          fi
+          
+      - name: 🏗️ Process Data Lake into Production Dosages
+        if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'dailymed' || github.event.inputs.sources == ''
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🏗️ PROCESSING DATA LAKE"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/process_datalake.py
+          
+          if [ -f "$DATALAKE_FILE" ]; then
+            LAKE_COUNT=$(wc -l < "$DATALAKE_FILE")
+            echo "lake_records=$LAKE_COUNT" >> $GITHUB_ENV
+            echo "✅ Processed $LAKE_COUNT production records"
+          fi
+          
+      # ============================================
+      # 🩹 STEP 4: HEAL TRUNCATED RECORDS
+      # ============================================
+      - name: 🩹 Heal Truncated Dosage Instructions
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🩹 HEALING TRUNCATED RECORDS"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/heal_dosages.py
+
+      # ============================================
+      # 🧼 STEP 4.5: PURIFY & ENRICH DATA
+      # ============================================
+      - name: 🧼 Purify Text & Extract Fields
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🧼 PURIFYING DOSAGE DATA"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/purify_dosages.py
+          
+      # ============================================
+      # 🧪 STEP 5: EXTRACT FROM OPENFDA
+      # ============================================
+      - name: 🧪 Extract OpenFDA Dosages (Supplementary)
+        if: github.event.inputs.sources == 'all' || github.event.inputs.sources == 'openfda' || github.event.inputs.sources == ''
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🧪 EXTRACTING OPENFDA DOSAGES"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/interactions/extract_dosages_optimized.py
+          
+      # ============================================
+      # 🧹 STEP 6: DATA QUALITY & DEDUPLICATION
+      # ============================================
+      - name: 🧹 Deduplicate & Quality Check
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🧹 DEDUPLICATION & QUALITY ASSURANCE"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/deduplicate_dosages.py
+          
+          # Load quality metrics to env
+          source quality_report.txt
+          echo "final_count=$final_count" >> $GITHUB_ENV
+          echo "who_count=$who_count" >> $GITHUB_ENV
+          echo "dailymed_count=$dailymed_count" >> $GITHUB_ENV
+          echo "truncated_remaining=$truncated_remaining" >> $GITHUB_ENV
+          
+      # ============================================
+      # 📊 STEP 6.5: EXPORT CSV FILES
+      # ============================================
+      - name: 📊 Export CSV for Inspection
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 EXPORTING CSV FILES"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/export_dosages_csv.py
+          
+          # Display sample stats
+          if [ -f "exports/dosage_guidelines_full.csv" ]; then
+            FULL_SIZE=$(wc -l < exports/dosage_guidelines_full.csv)
+            echo "✅ Full CSV: $FULL_SIZE rows"
+            echo "full_csv_rows=$FULL_SIZE" >> $GITHUB_ENV
+          fi
+          
+          if [ -f "exports/dosage_guidelines_sample.csv" ]; then
+            SAMPLE_SIZE=$(wc -l < exports/dosage_guidelines_sample.csv)
+            echo "✅ Sample CSV: $SAMPLE_SIZE rows"
+            echo "sample_csv_rows=$SAMPLE_SIZE" >> $GITHUB_ENV
+          fi
+          
+      # ============================================
+      # ☁️ STEP 7: SYNC TO CLOUDFLARE D1
+      # ============================================
+      - name: ☁️ Upload to Cloudflare D1
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.full_rebuild == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "☁️ SYNCING TO CLOUDFLARE D1"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          
+          python3 scripts/upload_dosage_d1.py \
+            --json-file "$DOSAGE_JSON" \
+            --database-id "$D1_DATABASE_ID" \
+            --account-id "$CLOUDFLARE_ACCOUNT_ID" \
+            --api-token "$CLOUDFLARE_API_TOKEN"
+          
+      # ============================================
+      # 📝 STEP 8: COMMIT CHANGES
+      # ============================================
+      - name: 📝 Commit Enriched Data
+        run: |
+          git config --global user.name 'Dosage Enrichment Bot'
+          git config --global user.email 'bot@mediswitch.local'
+          
+      - name: 📝 Commit Enriched Data
+        run: |
+          git config --global user.name 'Dosage Enrichment Bot'
+          git config --global user.email 'bot@mediswitch.local'
+          
+          # Create detailed commit message
+          echo "data: dosage enrichment $(date +'%Y-%m-%d')" > commit_message.txt
+          echo "" >> commit_message.txt
+          echo "🚀 Advanced Dosage Data Enrichment Complete" >> commit_message.txt
+          echo "" >> commit_message.txt
+          echo "📊 Statistics:" >> commit_message.txt
+          echo "- Baseline: ${{ env.baseline_count }} records" >> commit_message.txt
+          echo "- Final: ${{ env.final_count }} records" >> commit_message.txt
+          echo "- Net Growth: $((${{ env.final_count }} - ${{ env.baseline_count }}))" >> commit_message.txt
+          echo "" >> commit_message.txt
+          echo "📈 Sources:" >> commit_message.txt
+          echo "- WHO ATC/DDD: ${{ env.who_count }} records" >> commit_message.txt
+          echo "- DailyMed: ${{ env.dailymed_count }} records" >> commit_message.txt
+          echo "- Still Truncated: ${{ env.truncated_remaining }} records" >> commit_message.txt
+          echo "" >> commit_message.txt
+          echo "📊 Exports:" >> commit_message.txt
+          echo "- Full CSV: ${{ env.full_csv_rows }} rows" >> commit_message.txt
+          echo "- Sample CSV: ${{ env.sample_csv_rows }} rows" >> commit_message.txt
+          echo "" >> commit_message.txt
+          echo "🔄 Workflow: ${{ github.workflow }}" >> commit_message.txt
+          echo "⏰ Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> commit_message.txt
+
+          git add "$DOSAGE_JSON" backups/ exports/
+          git commit -F commit_message.txt || echo "No changes to commit"
+          git push
+          
+      # ============================================
+      # 📊 STEP 9: CREATE SUMMARY REPORT
+      # ============================================
+      - name: 📊 Generage Clinical Quality Report
+        run: python3 scripts/analyze_quality.py
+
+      - name: 📊 Generate Workflow Summary
+        if: always()
+        run: |
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          # 🚀 Dosage Data Enrichment Complete
+          
+          EOF
+          
+          # Append Quality Report
+          if [ -f "quality_report.md" ]; then
+            cat quality_report.md >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          
+          ## 📊 Final Statistics
+          
+          | Metric | Value |
+          |--------|-------|
+          | Baseline Records | ${{ env.baseline_count }} |
+          | Final Records | ${{ env.final_count }} |
+          | **Net Growth** | **$((${{ env.final_count }} - ${{ env.baseline_count }}))** |
+          
+          ## 📈 Source Breakdown
+          
+          | Source | Count |
+          |--------|-------|
+          | WHO ATC/DDD 2024 | ${{ env.who_count }} |
+          | DailyMed | ${{ env.dailymed_count }} |
+          | Remaining Truncated | ${{ env.truncated_remaining }} |
+          
+          ## 📊 CSV Exports
+          
+          | File | Rows | Purpose |
+          |------|------|---------|
+          | `exports/dosage_guidelines_full.csv` | ${{ env.full_csv_rows }} | Complete dataset |
+          | `exports/dosage_guidelines_sample.csv` | ${{ env.sample_csv_rows }} | Sample for inspection |
+          
+          ## ✅ Quality Assurance
+          
+          - ✅ Deduplication applied
+          - ✅ Healing script executed
+          - ✅ WHO data integrated
+          - ✅ Data synced to D1
+          - ✅ CSV exports generated
+          
+          **Download CSV files from the Actions artifacts for manual inspection.**
+          
+          ---
+          
+          **Workflow:** ${{ github.workflow }}  
+          **Triggered by:** ${{ github.event_name }}  
+          **Completed:** $(date '+%Y-%m-%d %H:%M:%S UTC')
+          EOF

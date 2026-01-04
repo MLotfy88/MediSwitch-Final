@@ -20,7 +20,7 @@ class DatabaseHelper {
 
   // --- Database Constants ---
   static const String dbName = 'mediswitch.db';
-  static const int _dbVersion = 20; // Updated for Dosage Schema Fix
+  static const int _dbVersion = 21; // Updated for Dosage Schema Fix
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
   static const String foodInteractionsTable = 'food_interactions';
@@ -276,6 +276,7 @@ class DatabaseHelper {
         condition TEXT,
         source TEXT DEFAULT 'Local',
         is_pediatric INTEGER DEFAULT 0,
+        route TEXT, -- New column
         updated_at INTEGER DEFAULT 0
       )
     ''');
@@ -378,6 +379,17 @@ class DatabaseHelper {
         db,
         newVersion,
       ); // This will skip existing tables and only create missing ones (dosageTable)
+    }
+
+    if (oldVersion < 21) {
+      _logger.i(
+        'DatabaseHelper: Upgrading dosage_guidelines to v21 (Route)...',
+      );
+      try {
+        await db.execute('ALTER TABLE $dosageTable ADD COLUMN route TEXT');
+      } catch (e) {
+        _logger.e('Error adding route column: $e');
+      }
     }
 
     if (oldVersion == 0) {
