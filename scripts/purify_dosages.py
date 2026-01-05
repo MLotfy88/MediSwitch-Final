@@ -3,11 +3,12 @@
 Advanced Dosage Purification Script
 Parses structured data from clinical text and cleans up instructions.
 """
+import gzip
 import json
 import re
 import sys
 
-DOSAGE_JSON = 'assets/data/dosage_guidelines.json'
+DOSAGE_JSON = 'assets/data/dosage_guidelines.json.gz'
 
 # --- REGEX PATTERNS ---
 
@@ -114,10 +115,11 @@ def extract_structured_data(rec):
         
     return rec
 
+
 def main():
     print("🧹 Purifying dosage data...")
     try:
-        with open(DOSAGE_JSON, 'r') as f:
+        with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
         print(f"❌ File not found: {DOSAGE_JSON}")
@@ -141,7 +143,7 @@ def main():
     print(f"✨ Enriched/Cleaned {enriched_count:,} records")
     
     # Save
-    with open(DOSAGE_JSON, 'w') as f:
+    with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
         json.dump(cleaned_data, f, ensure_ascii=False, separators=(',', ':'))
         
     return 0

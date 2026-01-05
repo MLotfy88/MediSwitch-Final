@@ -6,20 +6,35 @@ Generates: d1_dosages.sql
 import json
 import sys
 import os
+import gzip  # Import gzip
+
+def load_json(file_path):
+    """Load JSON from file (supports .gz)"""
+    try:
+        if file_path.endswith('.gz'):
+            with gzip.open(file_path, 'rt', encoding='utf-8') as f:
+                return json.load(f)
+        else:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"❌ Error loading {file_path}: {e}")
+        return []
 
 def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     if not os.path.exists(json_path):
         print(f"❌ JSON file not found: {json_path}")
         return False
         
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"❌ Error reading JSON: {e}")
+    data = load_json(json_path)
+    if not data: # load_json returns [] on error
         return False
         
-    dosages = data.get('dosage_guidelines', [])
+    if isinstance(data, list):
+        dosages = data
+    else:
+        dosages = data.get('dosage_guidelines', [])
+    
     print(f"📊 Found {len(dosages)} dosage guidelines")
     
     with open(output_path, 'w', encoding='utf-8') as f:
@@ -100,5 +115,15 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     return True
 
 if __name__ == "__main__":
-    json_file = sys.argv[1] if len(sys.argv) > 1 else 'assets/data/dosage_guidelines.json'
-    export_dosages_sql(json_file)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Export dosages to SQL for D1')
+    parser.add_argument('--json-file', default='assets/data/dosage_guidelines.json.gz', help='Input JSON file')
+    # Add other arguments expected by workflow to avoid errors, even if unused for now
+    parser.add_argument('--database-id', help='D1 Database ID')
+    parser.add_argument('--account-id', help='Cloudflare Account ID')
+    parser.add_argument('--api-token', help='Cloudflare API Token')
+    
+    args = parser.parse_args()
+    
+    export_dosages_sql(args.json_file)

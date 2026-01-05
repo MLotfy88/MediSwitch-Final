@@ -7,11 +7,19 @@ import json
 from collections import defaultdict
 import sys
 
-DOSAGE_JSON = 'assets/data/dosage_guidelines.json'
+import gzip
+import os
+
+DOSAGE_JSON = 'assets/data/dosage_guidelines.json.gz'
 
 def main():
-    print("📊 Loading data...")
-    with open(DOSAGE_JSON, 'r') as f:
+    # Load raw data
+    if not os.path.exists(DOSAGE_JSON):
+        print(f"File not found: {DOSAGE_JSON}")
+        return 1
+
+    print(f"Loading {DOSAGE_JSON}...")
+    with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
         data = json.load(f)
 
     original_count = len(data)

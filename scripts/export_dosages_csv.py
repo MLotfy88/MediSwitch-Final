@@ -8,7 +8,7 @@ import csv
 import random
 import sys
 
-DOSAGE_JSON = 'assets/data/dosage_guidelines.json'
+DOSAGE_JSON = 'assets/data/dosage_guidelines.json.gz'
 FULL_CSV = 'exports/dosage_guidelines_full.csv'
 SAMPLE_CSV = 'exports/dosage_guidelines_sample.csv'
 SAMPLE_SIZE = 500
@@ -17,8 +17,12 @@ def main():
     import os
     os.makedirs('exports', exist_ok=True)
     
+import gzip
+
+# ...
+
     print("📖 Loading dosage data...")
-    with open(DOSAGE_JSON, 'r') as f:
+    with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
         data = json.load(f)
     
     print(f"Total records: {len(data):,}")

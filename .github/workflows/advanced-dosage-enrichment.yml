@@ -74,8 +74,8 @@ jobs:
           mkdir -p "$BACKUP_DIR"
           
           if [ -f "$DOSAGE_JSON" ]; then
-            cp "$DOSAGE_JSON" "$BACKUP_DIR/dosage_guidelines_backup.json"
-            RECORD_COUNT=$(python3 -c "import json; print(len(json.load(open('$DOSAGE_JSON'))))")
+            cp "$DOSAGE_JSON" "$BACKUP_DIR/dosage_guidelines_backup.json.gz"
+            RECORD_COUNT=$(python3 -c "import json, gzip; print(len(json.load(gzip.open('$DOSAGE_JSON', 'rt', encoding='utf-8'))))")
             echo "✅ Backed up $RECORD_COUNT records to $BACKUP_DIR"
             echo "baseline_count=$RECORD_COUNT" >> $GITHUB_ENV
           else
@@ -101,7 +101,7 @@ jobs:
           python3 enrich_dosages_who.py
           
           # Count additions
-          AFTER_WHO=$(python3 -c "import json; print(len(json.load(open('$DOSAGE_JSON'))))")
+          AFTER_WHO=$(python3 -c "import json, gzip; print(len(json.load(gzip.open('$DOSAGE_JSON', 'rt', encoding='utf-8'))))")
           WHO_ADDED=$((AFTER_WHO - baseline_count))
           echo "who_added=$WHO_ADDED" >> $GITHUB_ENV
           echo "✅ WHO enrichment complete: +$WHO_ADDED records"

@@ -1,13 +1,15 @@
 import json
-import csv
 import sqlite3
-import re
+import pandas as pd
 import os
 import time
+import gzip
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # المسارات
 WHO_CSV = "assets/external_research_data/WHO_ATC_DDD_2024.csv"
-DOSAGE_JSON = "assets/data/dosage_guidelines.json"
+DOSAGE_JSON = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json.gz')
 DB_PATH = "mediswitch.db"
 
 def clean_name(name):
@@ -23,9 +25,17 @@ def clean_name(name):
     return name
 
 def enrich_data_high_fidelity():
-    if not os.path.exists(WHO_CSV) or not os.path.exists(DOSAGE_JSON):
-        print("❌ الملفات المطلوبة غير موجودة!")
+    if not os.path.exists(WHO_CSV):
+        print(f"❌ ملف WHO غير موجود: {WHO_CSV}")
         return
+
+    # Create empty list if dosage file doesn't exist
+    if not os.path.exists(DOSAGE_JSON):
+        print("⚠️ ملف الجرعات غير موجود، سيتم إنشاؤه.")
+        dosage_data = [] # Will be populated later or used as base
+    else:
+        # Check happens later in loading block
+        pass
 
     # --- 0. تجميع قاعدة البيانات (لضمان وجودها) ---
     print("🧩 تجميع قاعدة البيانات من الأجزاء...")
@@ -155,7 +165,7 @@ def enrich_data_high_fidelity():
     conn.commit()
     conn.close()
     
-    with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
+    with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
         json.dump(dosage_data, f, ensure_ascii=False, separators=(',', ':'))
 
     print(f"\n✨ التقرير النهائي:")
