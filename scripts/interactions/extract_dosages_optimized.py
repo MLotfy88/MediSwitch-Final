@@ -358,7 +358,7 @@ def main():
     print(f"  • With package_label: {with_label:,} ({with_label/len(existing_data)*100:.1f}%)") # Changed to existing_data
     
     # Save MERGED data
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+    with gzip.open(OUTPUT_FILE, 'wt', encoding='utf-8') as f:
         json.dump(existing_data, f, ensure_ascii=False, separators=(',', ':'))
     
     print(f"\n💾 Saved {len(existing_data):,} total records to: {OUTPUT_FILE}")

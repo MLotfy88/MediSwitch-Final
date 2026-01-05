@@ -579,7 +579,7 @@ def process_datalake():
     print(f"Total records after merge: {len(existing_data):,}")
     
     # Save to main dosage guidelines file
-    with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
+    with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
         json.dump(existing_data, f, ensure_ascii=False, separators=(',', ':'))
     
     print(f"💾 Saved {len(existing_data):,} total records to {DOSAGE_JSON}")
