@@ -24,7 +24,7 @@ on:
 
 env:
   PYTHON_VERSION: '3.11'
-  DOSAGE_JSON: 'assets/data/dosage_guidelines.json'
+  DOSAGE_JSON: 'assets/data/dosage_guidelines.json.gz'
   WHO_CSV: 'assets/external_research_data/WHO_ATC_DDD_2024.csv'
   DAILYMED_DIR: 'External_source/dailymed/downloaded'
   OPENFDA_DIR: 'External_source/drug_interaction/drug-label/downloaded'
