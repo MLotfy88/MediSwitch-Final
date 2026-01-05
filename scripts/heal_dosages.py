@@ -9,7 +9,7 @@ import gzip
 import sys
 
 DOSAGE_JSON = "assets/data/dosage_guidelines.json.gz"
-DATALAKE_FILE = "production_data/production_dosages.jsonl"
+DATALAKE_FILE = "production_data/production_dosages.jsonl.gz"
 
 def heal_dosages():
     if not os.path.exists(DOSAGE_JSON):
@@ -39,6 +39,7 @@ def heal_dosages():
 
     print(f"🔍 Found {len(truncated_candidates)} truncated records. Building Data Lake map...")
 
+    DATALAKE_FILE = "production_data/production_dosages.jsonl.gz"
     if not os.path.exists(DATALAKE_FILE):
         print(f"⚠️ Data Lake file not found: {DATALAKE_FILE}. Cannot heal records.")
         return
@@ -46,13 +47,7 @@ def heal_dosages():
     # Build Map from Data Lake
     lake_map = {}
     try:
-        # Check if datalake is gzipped or not (based on previous scripts, it might be .gz or .jsonl)
-        # In process_datalake.py it seems to write to production_dosages.jsonl (plain text)
-        # But wait, did I change that too? 
-        # process_datalake.py:590 writes to PRODUCTION_OUTPUT ('production_data/production_dosages.jsonl') using open()
-        # So it is plain text.
-        
-        with open(DATALAKE_FILE, 'r', encoding='utf-8') as f:
+        with gzip.open(DATALAKE_FILE, 'rt', encoding='utf-8') as f:
             for line in f:
                 if not line.strip(): continue
                 try:

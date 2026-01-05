@@ -275,8 +275,8 @@ jobs:
           echo "🔄 Workflow: ${{ github.workflow }}" >> commit_message.txt
           echo "⏰ Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> commit_message.txt
 
-          # Force add production_data because it is in .gitignore
-          git add -f "$DOSAGE_JSON" backups/ exports/ production_data/
+          # Force add compressed production map only (exclude raw 156MB file)
+          git add -f "$DOSAGE_JSON" backups/ exports/ production_data/production_dosages.jsonl.gz
           git commit -F commit_message.txt || echo "No changes to commit"
           
           # Handle concurrent updates (stash just in case, then pull-rebase)
