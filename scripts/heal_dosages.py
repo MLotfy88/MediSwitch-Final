@@ -2,17 +2,26 @@
 import json
 import os
 
-DOSAGE_JSON = "assets/data/dosage_guidelines.json"
+import gzip
+
+DOSAGE_JSON = "assets/data/dosage_guidelines.json.gz"
 DATALAKE_FILE = "production_data/production_dosages.jsonl"
 
 def heal_dosages():
-    if not os.path.exists(DOSAGE_JSON) or not os.path.exists(DATALAKE_FILE):
-        print("❌ Missing source files.")
+    if not os.path.exists(DOSAGE_JSON):
+        print(f"❌ Missing source file: {DOSAGE_JSON}")
         return
 
     print("📖 Loading guidelines...")
-    with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
+    with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
         guidelines = json.load(f)
+
+# ... (rest of logic) ...
+
+    if heal_count > 0:
+        with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
+            json.dump(guidelines, f, ensure_ascii=False, separators=(',', ':'))
+        print(f"💾 Saved changes to {DOSAGE_JSON}")
 
     print("📖 Building map from Data Lake (this may take a moment)...")
     lake_map = {}

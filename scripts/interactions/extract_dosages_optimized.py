@@ -15,11 +15,12 @@ import os
 import zipfile
 import re
 import sys
+import gzip
 from typing import List, Dict, Optional
 
 # Configuration
 DOWNLOAD_DIR = 'External_source/drug_interaction/drug-label/downloaded'
-OUTPUT_FILE = 'assets/data/dosage_guidelines.json'
+OUTPUT_FILE = 'assets/data/dosage_guidelines.json.gz'
 
 def extract_identifier_from_spl(spl_text: str) -> Optional[str]:
     """
@@ -314,7 +315,7 @@ def main():
     existing_data = []
     if os.path.exists(OUTPUT_FILE):
         try:
-            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            with gzip.open(OUTPUT_FILE, 'rt', encoding='utf-8') as f:
                 existing_data = json.load(f)
             print(f"📂 Loaded {len(existing_data):,} existing records from {OUTPUT_FILE}")
         except:

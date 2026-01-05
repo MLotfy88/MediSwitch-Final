@@ -6,20 +6,35 @@ Generates: d1_dosages.sql
 import json
 import sys
 import os
+import gzip  # Import gzip
+
+def load_json(file_path):
+    """Load JSON from file (supports .gz)"""
+    try:
+        if file_path.endswith('.gz'):
+            with gzip.open(file_path, 'rt', encoding='utf-8') as f:
+                return json.load(f)
+        else:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"❌ Error loading {file_path}: {e}")
+        return []
 
 def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     if not os.path.exists(json_path):
         print(f"❌ JSON file not found: {json_path}")
         return False
         
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"❌ Error reading JSON: {e}")
+    data = load_json(json_path)
+    if not data: # load_json returns [] on error
         return False
         
-    dosages = data.get('dosage_guidelines', [])
+    if isinstance(data, list):
+        dosages = data
+    else:
+        dosages = data.get('dosage_guidelines', [])
+    
     print(f"📊 Found {len(dosages)} dosage guidelines")
     
     with open(output_path, 'w', encoding='utf-8') as f:

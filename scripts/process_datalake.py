@@ -527,12 +527,13 @@ def process_datalake():
     final_records = [v['record'] for v in best_matches.values()]
 
     # === MERGE WITH EXISTING DATA (WHO) ===
-    DOSAGE_JSON = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json')
+    import gzip
+    DOSAGE_JSON = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json.gz')
     existing_data = []
     
     if os.path.exists(DOSAGE_JSON):
         try:
-            with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
+            with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
                 existing_data = json.load(f)
             print(f"📂 Loaded {len(existing_data):,} existing records (WHO, etc.) from {DOSAGE_JSON}")
         except:
