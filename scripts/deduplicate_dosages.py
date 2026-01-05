@@ -17,13 +17,19 @@ def main():
     original_count = len(data)
     print(f"Original records: {original_count:,}")
 
-    # Deduplication by (med_id, source, instructions)
+    # Deduplication by (med_id, source, active_ingredient, instructions)
+    # Include active_ingredient to handle OpenFDA records (which have None for med_id)
     seen = set()
     unique = []
     duplicates = 0
 
     for rec in data:
-        key = (rec.get('med_id'), rec.get('source'), rec.get('instructions'))
+        key = (
+            rec.get('med_id'),
+            rec.get('source'),
+            rec.get('active_ingredient'),
+            rec.get('instructions')
+        )
         if key not in seen:
             seen.add(key)
             unique.append(rec)
