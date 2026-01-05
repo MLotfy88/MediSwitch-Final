@@ -84,8 +84,16 @@ def enrich_data_high_fidelity():
     print(f"✅ تم تحميل {len(local_drug_map):,} مادة فعالة محلية (من med_ingredients).")
 
     # --- 2. تحميل ملف الجرعات JSON للتحديث ---
-    with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
-        dosage_data = json.load(f)
+    if os.path.exists(DOSAGE_JSON):
+        # Only load if we haven't already initialized it as empty
+        if 'dosage_data' not in locals() or dosage_data is None: 
+            print(f"📖 جارٍ تحميل بيانات الجرعات من {DOSAGE_JSON}...")
+            with gzip.open(DOSAGE_JSON, 'rt', encoding='utf-8') as f:
+                dosage_data = json.load(f)
+    else:
+        # Assurance that it's a list
+        if 'dosage_data' not in locals():
+            dosage_data = []
     
     # خريطة لمعرفة هل يوجد سجل WHO مسبقاً لتجنب التكرار
     # (med_id, atc_code, ddd, route) -> record
