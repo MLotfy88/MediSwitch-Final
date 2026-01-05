@@ -1,501 +1,501 @@
 id,med_id,dailymed_setid,min_dose,max_dose,frequency,duration,instructions,condition,source,is_pediatric,atc_code,route_code,route
-,,,,,,,,,,,,,
-,,,,60 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,1 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,225 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,50 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,20 mg,,,,,,,,,
-,,,,500 mcg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,2 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,500 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,12 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,12 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,20 g,,,,,,,,,
-,,,,7.5 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,174 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,2 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,50 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,3200 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,300 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,1.5 g,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,3 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,20 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,30 g,,,,,,,,,
-,,,,2.25 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
+,,,,,,10,,,,,,,Intravenous
+29514,2596,N/A,6.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 6 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N06BX03,P,Parenteral
+22180,23832,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J05AP08,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,8,,,,,,,,Topical
+14894,31877,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق المهبل).,General,WHO ATC/DDD 2024,0,G01AX11,V,Vaginal
+,,,,,,,,,,,,,
+24206,23785,N/A,1.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AE01,P,Parenteral
+10222,16913,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 mg (عن طريق الفم). prophylactic dose,General,WHO ATC/DDD 2024,0,B03BB01,O,Oral
+,,,,,,,,,,,,,Topical
+22557,19358,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,L03AX14,P,Parenteral
+3588,17654,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A10BK01,O,Oral
+15468,6435,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G04BD07,O,Oral
+9665,8336,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الحقن). Fe,General,WHO ATC/DDD 2024,0,B03AC,P,Parenteral
+,,,,,,,,,,,,,Oral
+26408,24483,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N02BE01,P,Parenteral
+13119,8878,N/A,50.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 50 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,C08CA06,P,Parenteral
+13604,1060,N/A,8.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 8 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09CA06,O,Oral
+17507,1792,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01CA04,O,Oral
+15705,14442,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G04BX01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,8,,,,,,,,
+32191,22263,N/A,0.8,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.8 g (Inhal.powder).,General,WHO ATC/DDD 2024,0,R05CB16,Inhal.powder,
+23807,14203,N/A,20.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 20 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M01AC02,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,24,,,,,,,,
+27178,27980,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N03AF01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,12,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+5733,2829,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CB01,O,Oral
+27555,9389,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N04AB02,P,Parenteral
+12797,16716,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C07AB07,O,Oral
+15109,6716,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,G03CA03,R,Rectal
+,,,,,,,,,,,,,Oral
+,,,,,24,,,,,,,,Topical
+,,,,,,,,,,,,,
+21669,29592,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J02AC03,O,Oral
+5596,26127,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CA01,O,Oral
+,,,,,,,,,,,,,
+18733,2714,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الحقن). Refers to amoxicillin,General,WHO ATC/DDD 2024,0,J01CR02,P,Parenteral
+,,,,,,,,,,,,,
+8377,18173,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,B01AF02,O,Oral
+16504,28748,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,H02AB06,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,"2 DOSAGE AND ADMINISTRATION Confirm the patient is not pregnant prior to ExEm Foam administrations ( 2.1 ) Recommended dose is 2 mL to 3 mL of ExEm Foam by intrauterine infusion using a 5-Fr or larger catheter. Dose may be repeated in 2 mL to 3 mL increments, as needed, to achieve visualization of the fallopian tubes. Maximum total dose is 10 mL ( 2.2 )",,,,,,Intravenous
+,,,,,8,,,,,,,,Oral
+,,,,,8,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Oral
+31860,22951,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R03DC03,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+7282,32336,N/A,88.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 88 mg (عن طريق الفم). 40 mg fluoride,General,WHO ATC/DDD 2024,0,A12CD01,O,Oral
+27639,26292,N/A,6.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 6 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N04BC04,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Inhalation
+,,,,,,,,,,,,,Nasal
+,,,,,8,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+23021,12561,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M01AB05,O,Oral
+13970,17172,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C10AA07,O,Oral
+18682,22208,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم). Refers to amoxicillin,General,WHO ATC/DDD 2024,0,J01CR02,O,Oral
+,,,,200 mg,24,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,8,,,,,,,,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Subcutaneous
+,,,,,,,,,,,,,Topical
+,,,,,4,,,,,,,,
+,,,,,,,2 DOSAGE AND ADMINISTRATION The recommended target dose of XENOVIEW for adult and pediatric patients aged 6 years and older is 75 mL to 100 mL Dose Equivalent (DE) volume of hyperpolarized xenon Xe 129 by oral inhalation of the entire contents of one XENOVIEW Dose Delivery Bag. ( 2.1 ) Choose an appropriate size of the Dose Delivery Bag based on patient’s Total Lung Capacity (TLC) or Forced Vital Capacity (FVC). ( 2.1 ) Administer dose within 5 minutes of DE measurement. ( 2.2 ) Initiate imaging immediately after inhalation. ( 2.2 ),,,,,,Oral
+,,,,,,,,,,,,,Topical
+25344,20603,N/A,0.9,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.9 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M09AB02,P,Parenteral
+20103,29980,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01FA10,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+31495,4660,N/A,12.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 12 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R03CC02,O,Oral
+,,,,,24,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+21275,19450,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01XC01,P,Parenteral
+,,,,,24,,,,,,,,Oral
+6267,31744,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CB01,O,Oral
+3916,24366,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A11GA01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,24,,,,,,,,
+,,,,,,,,,,,,,
+7640,8355,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A16AX05,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+23500,3795,N/A,30.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 30 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AB15,P,Parenteral
+,,,,,12,,,,,,,,Subcutaneous
+27959,20892,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N05AH03,P,Parenteral
+25408,32853,N/A,0.9,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.9 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M09AB02,P,Parenteral
+,,,,300 mg,24,,,,,,,,
+7729,15132,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A16AX05,O,Oral
+,,,,,24,28,,,,,,,Topical
+16462,6208,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,H02AB06,P,Parenteral
+6706,10946,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CC02,O,Oral
+15443,24408,N/A,15.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 15 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G04BD04,O,Oral
+,,,,,,,,,,,,,Subcutaneous
+32650,22024,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R06AX27,O,Oral
+29212,797,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N06BC01,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,24,,,,,,,,Oral
+10624,8466,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن). therapeutic dose,General,WHO ATC/DDD 2024,0,B03BB01,P,Parenteral
+,,,,,,,,,,,,,
+4934,8381,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم). Ca2+,General,WHO ATC/DDD 2024,0,A12AA20,O,Oral
+23620,17614,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الفم). Refers to diclofenac,General,WHO ATC/DDD 2024,0,M01AB55,O,Oral
+,,,,,,,,,,,,,
+22339,6716,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,L02AA03,O,Oral
+,,,,,,,,,,,,,
+,,,,,24,42,,,,,,,Topical
+15331,20117,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G03DB08,O,Oral
+23218,17613,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AB05,P,Parenteral
+1502,22850,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A04AA02,O,Oral
+,,,,,,,,,,,,,Subcutaneous
+,,,,,,,,,,,,,Topical
+485,23647,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A02BA04,O,Oral
+5565,24757,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CA01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+3906,19321,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A11GA01,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+10133,7922,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 mg (عن طريق الفم). prophylactic dose,General,WHO ATC/DDD 2024,0,B03BB01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+27993,10364,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AH04,O,Oral
+29038,15611,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N06BC01,O,Oral
+,,,,,,,,,,,,,
+11788,21989,N/A,25.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 25 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C03AA03,O,Oral
+,,,,,24,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Intravenous
+30035,16926,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,P01AX11,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,200 mg,12,,,,,,,,
+27064,20929,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N03AB02,P,Parenteral
+,,,,3 tablet,24,,,,,,,,
+27411,11096,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N03AX14,P,Parenteral
+,,,,,,,,,,,,,
+32655,27079,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R06AX27,O,Oral
+26599,13525,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,N02BE01,R,Rectal
+32572,14937,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R06AX22,O,Oral
+,,,,,12,,,,,,,,Topical
+2111,31475,N/A,7.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 7 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A06AD04,O,Oral
+3785,28250,N/A,50.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 50 TU (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,A11CA01,P,Parenteral
+,,,,,24,,,,,,,,Oral
+4535,22248,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12AA01,O,Oral
+,,,,,24,,,,,,,,Topical
+23184,9966,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AB05,P,Parenteral
+23923,790,N/A,15.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 15 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M01AC06,O,Oral
+,,,,,4,,,,,,,,Oral
+13041,23296,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C08CA01,O,Oral
+,,,,,,,,,,,,,Oral
+11235,25303,N/A,50.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 50 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,C01CA26,P,Parenteral
+,,,,,,,,,,,,,
+18754,5008,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الحقن). Refers to amoxicillin,General,WHO ATC/DDD 2024,0,J01CR02,P,Parenteral
+,,,,,,,,,,,,,
+20805,7275,N/A,0.24,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.24 g (Inhal.solution).,General,WHO ATC/DDD 2024,0,J01MA12,Inhal.solution,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+26957,25203,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N02CA04,O,Oral
+10955,33491,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن). therapeutic dose,General,WHO ATC/DDD 2024,0,B03BB01,P,Parenteral
+,,,,40 mg,,,,,,,,,Intravenous
+11857,751,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C03AA04,O,Oral
+,,,,,4,,,,,,,,
+28570,25574,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05CM01,O,Oral
+11977,18944,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C03AA04,O,Oral
+31997,32929,N/A,0.9,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.9 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,R05CA03,P,Parenteral
+4296,1471,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12AA01,O,Oral
+27300,21561,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N03AX09,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Oral
+,,,,1 tablet,24,14,,,,,,,Oral
+21050,25556,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01MA14,O,Oral
+,,,,,,,,,,,,,Intravenous
+,,,,,,,,,,,,,Topical
+,,,,,8,,,,,,,,Topical
+25537,16481,N/A,3.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 3.6 mg (عن طريق الحقن). intraarticular,General,WHO ATC/DDD 2024,0,M09AX01,P,Parenteral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+20907,21761,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01MA12,O,Oral
+,,,,,,,,,,,,,
+7605,7344,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A16AX05,O,Oral
+16570,3287,N/A,30.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 30 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,H02AB09,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+27242,17129,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N03AG01,O,Oral
+,,,,,,,,,,,,,
+18928,2365,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01DB01,O,Oral
+,,,,,,,,,,,,,
+28915,14550,N/A,80.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 80 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N06BA09,O,Oral
+30265,1198,N/A,0.56,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.56 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AC03,N,
+,,,,,,,,,,,,,
+,,,,3 g,,,,,,,,,Oral
+,,,,,24,,,,,,,,Intravenous
+7279,30393,N/A,88.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 88 mg (عن طريق الفم). 40 mg fluoride,General,WHO ATC/DDD 2024,0,A12CD01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,0.009 mg,6,,,,,,,,Intravenous
+,,,,,24,,,,,,,,Topical
+,,,,,,,,,,,,,Ophthalmic
+,,,,,12,,2 DOSAGE AND ADMINISTRATION Recommended Dosage ( 2.1 ) Administer fosaprepitant for injection as an intravenous infusion; complete the infusion approximately 30 minutes prior to chemotherapy. Adults: 150 mg on Day 1. Administer fosaprepitant for injection on Day 1 as an intravenous infusion over 20 to 30 minutes (adults).,,,,,,Intravenous
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+32126,8043,N/A,1.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.2 g (Inhal.solution).,General,WHO ATC/DDD 2024,0,R05CB05,Inhal.solution,
+,,,,,12,,,,,,,,Oral
+,,,,,12,,,,,,,,Topical
+,,,,3200 mg,4,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+4262,21658,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,A11HA03,P,Parenteral
+,,,,,,,,,,,,,Topical
+20417,6638,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01GB05,P,Parenteral
+,,,,,,,,,,,,,
+21903,28228,N/A,12.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 12 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J04AA01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+17114,7921,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01BA01,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Oral
+,,,,20 mg,24,,,,,,,,
+,,,,15 mg,,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+17603,14640,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01CA04,O,Oral
+6446,17499,N/A,2.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 2.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CC01,O,Oral
+,,,,,,,,,,,,,Oral
+25916,14498,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,N02BA01,R,Rectal
+30246,9023,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AA08,N,
+13037,22338,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C08CA01,O,Oral
+32493,3243,N/A,12.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 12 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R06AX02,O,Oral
+,,,,,12,10,,,,,,,Oral
+21967,9834,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J04AB02,P,Parenteral
+1805,24308,N/A,7.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 7 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A06AD01,O,Oral
+,,,,,,,,,,,,,Oral
+,,,,,24,,,,,,,,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Inhalation
+25582,26397,N/A,3.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 3.6 mg (عن طريق الحقن). intraarticular,General,WHO ATC/DDD 2024,0,M09AX01,P,Parenteral
+,,,,200 mg,24,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+30268,13135,N/A,0.56,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.56 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AC03,N,
+,,,,,8,,,,,,,,Oral
+,,,,225 mg,,,,,,,,,Oral
+,,,,,,14,,,,,,,
+,,,,,12,4,,,,,,,Intravenous
+1017,17149,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A03AA05,O,Oral
+,,,,,4,,,,,,,,
+,,,,,,,,,,,,,
+4235,7427,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,A11HA03,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Intravenous
+30521,100,N/A,0.24,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.24 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R01BA02,O,Oral
+,,,,,8,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+3531,15592,N/A,0.286,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.286 mg (عن طريق الحقن). depot inj,General,WHO ATC/DDD 2024,0,A10BJ01,P,Parenteral
+9328,19253,N/A,0.11,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.11 g (عن طريق الفم). Fe3+,General,WHO ATC/DDD 2024,0,B03AB02,O,Oral
+,,,,,4,,,,,,,,
+29117,25109,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N06BC01,O,Oral
+,,,,,,,,,,,,,Topical
+18963,27459,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J01DB01,O,Oral
+16797,27847,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,H03AA01,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+7467,2861,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A16AX05,O,Oral
+19234,16067,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01DD04,P,Parenteral
+,,,,,,,,,,,,,
+6941,1889,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CC04,O,Oral
+,,,,,,,"2 DOSAGE AND ADMINISTRATION Acute Hyperammonemia due to NAGS deficiency ( 2.2 ) The recommended dosage in adult and pediatric patients is 100 mg/kg to 250 mg/kg orally daily. Divide the daily dosage into 2 to 4 doses. Chronic Hyperammonemia due to NAGS deficiency (2.2) The recommended dosage in adult and pediatric patients is 10 mg/kg to 100 mg/kg orally daily. Divide the daily dosage into 2 to 4 doses. Therapeutic Monitoring for NAGS Deficiency (2.2) Closely monitor plasma ammonia and titrate dosage to maintain the ammonia level within normal range for the patient's age, taking into consideration their clinical condition. Patients with Renal Impairment ( 2.4 )",,,,,,Oral
+31635,21683,N/A,20.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 20 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R03CC12,O,Oral
+30231,2936,N/A,0.8,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.8 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AA06,N,
+28103,21058,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AX08,O,Oral
+,,,,,,,,,,,,,Topical
+22115,24546,N/A,6.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 6 g (Inhal.solution).,General,WHO ATC/DDD 2024,0,J05AP01,Inhal.solution,
+,,,,12 capsule,4,,,,,,,,Nasal
+,,,,,,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,8,,,,,,,,Oral
+,,,,,,,,,,,,,Intramuscular
+,,,,,,,,,,,,,Topical
+22427,19670,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,L03AA14,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,24,28,,,,,,,Topical
+30206,24476,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AA04,N,
+6485,24765,N/A,2.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 2.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CC01,O,Oral
+,,,,,,,,,,,,,Topical
+16233,9549,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,H02AB02,O,Oral
+15774,13724,N/A,7.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 7.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G04CA01,O,Oral
+29971,16701,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,P01AB02,O,Oral
+,,,,,,,,,,,,,
+,,,,,8,,,,,,,,Topical
+12934,4511,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C08CA01,O,Oral
+,,,,,,,,,,,,,
+23402,17795,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,M01AB05,R,Rectal
+19331,16052,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01DD12,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+21525,6869,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J02AB02,O,Oral
+,,,,,,,,,,,,,Topical
+28496,4832,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05CF04,O,Oral
+,,,,,,,,,,,,,Subcutaneous
+,,,,,8,,,,,,,,Oral
+8584,26244,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم). Fe2+,General,WHO ATC/DDD 2024,0,B03AA02,O,Oral
+30200,20445,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AA04,N,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+26696,24735,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,N02BE01,R,Rectal
+,,,,,,,,,,,,,
+31612,28063,N/A,15.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 15 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,R03CC03,P,Parenteral
+,,,,,,,,,,,,,Topical
+,,,,200 mg,,,,,,,,,Subcutaneous
+,,,,,,,,,,,,,
+25709,13291,N/A,1.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.2 mg (عن طريق الجلد).,General,WHO ATC/DDD 2024,0,N02AB03,TD,Transdermal
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Nasal
+4143,1884,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A11HA03,O,Oral
+13392,29841,N/A,2.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 2.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09AA08,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+12701,11268,N/A,75.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 75 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C07AB03,O,Oral
+31142,14598,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 mg (Inhal.aerosol).,General,WHO ATC/DDD 2024,0,R03AC04,Inhal.aerosol,
+26972,6400,N/A,50.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 50 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N02CC01,O,Oral
+22232,6611,N/A,0.25,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.25 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,L01EB01,O,Oral
+20726,16398,N/A,0.8,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.8 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01MA02,P,Parenteral
 ,,,,6 dose,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,6 g,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,50 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,5 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,81 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,5 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,1.5 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,8 tablet,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,600 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,750 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,40 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,1 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,8 capsule,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,6 dose,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,400 mg,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,3 mg,,,,,,,,,
-,,,,4 g,,,,,,,,,
+,,,,,24,,,,,,,,Intravenous
+,,,,,6,,,,,,,,Oral
+24159,13409,N/A,1.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AE01,P,Parenteral
+,,,,,12,,,,,,,,Topical
+29691,4411,N/A,15.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 15 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N07AX01,O,Oral
+,,,,,8,,,,,,,,
+,,,,,,,,,,,,,
+8497,19233,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,B02AB02,P,Parenteral
+3671,30475,N/A,17.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 17.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A10BK03,O,Oral
+,,,,,,,,,,,,,Oral
+15367,21094,N/A,75.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 75 U (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,G03GA02,P,Parenteral
+27914,23998,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AH03,O,Oral
+,,,,,,,,,,,,,
+31078,15511,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (Inhal.solution).,General,WHO ATC/DDD 2024,0,R03AC02,Inhal.solution,
+10987,14357,N/A,4.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 4.5 mcg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,B03XA02,P,Parenteral
+136,19691,N/A,30.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 30 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A01AB03,O,Oral
+,,,,,,,,,,,,,
+,,,,,24,,,,,,,,Oral
+911,18556,N/A,30.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 30 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,A02BC05,P,Parenteral
+12964,13958,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C08CA01,O,Oral
+10808,25705,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن). therapeutic dose,General,WHO ATC/DDD 2024,0,B03BB01,P,Parenteral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,"2 DOSAGE AND ADMINISTRATION Do not substitute Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound) for other non-protein-bound paclitaxel products. ( 2.1 ) Extravasation : Closely monitor the infusion site for extravasation and infiltration. ( 2.1 ) Metastatic Breast Cancer (MBC) : Recommended dosage of Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound) is 260 mg/m 2 intravenously over 30 minutes every 3 weeks. ( 2.2 ) Non-Small Cell Lung Cancer (NSCLC) : Recommended dosage of Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound) is 100 mg/m 2 intravenously over 30 minutes on Days 1, 8, and 15 of each 21-day cycle; administer carboplatin on Day 1 of each 21-day cycle immediately after Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound). ( 2.2 ) Adenocarcinoma of the Pancreas : Recommended dosage of Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound) is 125 mg/m 2 intravenously over 30-40 minutes on Days 1, 8 and 15 of each 28-day cycle; administer gemcitabine on Days 1, 8 and 15 of each 28-day cycle immediately after Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound). ( 2.4 ) Use in Patients with Hepatic Impairment: Paclitaxel Protein-Bound Particles for Injectable Suspension (Albumin-Bound) is not recommended for use in patients with AST greater than 10 x the upper limit of normal (ULN); or bilirubin greater than 5 x ULN or patients with metastatic adenocarcinoma of the pancreas who have moderate to severe hepatic impairment. For MBC or NSCLC, reduce starting dose in patients with moderate to severe hepatic impairment. ( 2.5 ) Dose Reductions for Adverse Reactions : Dose reductions or discontinuation may be needed based on severe hematologic, neurologic, cutaneous, or gastrointestinal toxicities. ( 2.6 )",,,,,,Intravenous
+12269,28039,N/A,25.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 25 mg (عن طريق الفم). Refers to hydrochlorothiazide,General,WHO ATC/DDD 2024,0,C03AB03,O,Oral
+22682,27199,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,L03AX14,P,Parenteral
+24736,6106,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم). Refers to glucosamine sulfate,General,WHO ATC/DDD 2024,0,M01AX05,O,Oral
+14129,22174,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C10AX06,O,Oral
+26919,30255,N/A,25.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 25 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N02BF03,O,Oral
+4877,4565,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم). Ca2+,General,WHO ATC/DDD 2024,0,A12AA20,O,Oral
+25094,9026,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M04AA01,O,Oral
+,,,,,4,,,,,,,,
+,,,,6 dose,4,,,,,,,,
+14762,11737,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق المهبل). Single dose treatment,General,WHO ATC/DDD 2024,0,G01AF08,V,Vaginal
+,,,,,24,,,,,,,,
+28122,26613,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AX08,O,Oral
+,,,,,,,,,,,,,
+13682,14741,N/A,20.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 20 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09CA08,O,Oral
+32105,1603,N/A,24.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 24 mg (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,R05CB02,P,Parenteral
+24124,45,N/A,1.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M01AE01,P,Parenteral
+29185,32108,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N06BC01,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,12,,2 DOSAGE AND ADMINISTRATION • INLYTA 5 mg orally twice daily with avelumab 800 mg every 2 weeks. ( 2.1 ) • INLYTA 5 mg orally twice daily with pembrolizumab 200 mg every 3 weeks or 400 mg every 6 weeks. ( 2.1 ) • INLYTA as a single agent the starting dose is 5 mg orally twice daily. ( 2.1 ) • Dose adjustments can be made based on individual safety and tolerability. ( 2.2 ) • Administer INLYTA dose approximately 12 hours apart with or without food. ( 2.1 ) • INLYTA should be swallowed whole with a glass of water. ( 2.1 ) •,,,,,,Oral
+9836,29443,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الحقن). Fe,General,WHO ATC/DDD 2024,0,B03AC,P,Parenteral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+12312,4511,N/A,2.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 2.5 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C03BA11,O,Oral
+22830,1193,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,L04AX01,O,Oral
+,,,,,,,,,,,,,
+28169,20,N/A,15.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 15 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AX12,O,Oral
+24749,8542,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الفم). Refers to glucosamine sulfate,General,WHO ATC/DDD 2024,0,M01AX05,O,Oral
+24576,24385,N/A,0.9,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.9 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M01AE12,O,Oral
+15184,6322,N/A,24.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 24 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G03CA06,O,Oral
+,,,,,,,,,,,,,
+3404,30690,N/A,30.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 30 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A10BG03,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+13216,4170,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09AA02,O,Oral
+26226,43,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N02BE01,P,Parenteral
+,,,,,,,,,,,,,Topical
+10817,26522,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الحقن). therapeutic dose,General,WHO ATC/DDD 2024,0,B03BB01,P,Parenteral
+9809,25450,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الحقن). Fe,General,WHO ATC/DDD 2024,0,B03AC,P,Parenteral
+23113,29580,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,M01AB05,O,Oral
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+7776,18041,N/A,0.15,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.15 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A16AX05,O,Oral
+25864,9922,N/A,1.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 1 g (عن طريق الحقن). Expressed as lysine acetylsalisylate,General,WHO ATC/DDD 2024,0,N02BA01,P,Parenteral
+,,,,,,,,,,,,,Nasal
+22163,21149,N/A,60.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 60 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J05AP07,O,Oral
+21348,30008,N/A,1.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 1.5 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01XD01,P,Parenteral
+,,,,,,,,,,,,,
+21694,26240,N/A,21.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 21 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,J02AC06,O,Oral
+,,,,,,,,,,,,,Ophthalmic
+6332,32989,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CB01,O,Oral
+,,,,6 tablet,4,,,,,,,,
+31150,14598,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (Inhal.solution).,General,WHO ATC/DDD 2024,0,R03AC04,Inhal.solution,
+,,,,,,,,,,,,,
+12821,1068,N/A,50.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 50 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C07AB11,O,Oral
+,,,,,,,,,,,,,Nasal
+,,,,,,,,,,,,,Topical
+1130,30105,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A03AB16,O,Oral
+13692,21785,N/A,20.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 20 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09CA08,O,Oral
+17773,7884,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,J01CA04,P,Parenteral
+,,,,,,,,,,,,,Oral
+,,,,,,,,,,,,,
+5833,6155,N/A,0.6,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.6 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12CB01,O,Oral
+,,,,,12,,,,,,,,Intravenous
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,Subcutaneous
+,,,,,,,,,,,,,Topical
+,,,,,24,,,,,,,,Oral
+25107,9026,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,M04AA01,P,Parenteral
+,,,,,,,,,,,,,Topical
+13281,4521,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C09AA04,O,Oral
+,,,,240 mg,24,,2 DOSAGE AND ADMINISTRATION Indication Dose Frequency Short-Term Treatment of Erosive Esophagitis Associated With GERD ( 2.1 ) Adults 40 mg Once Daily for up to 8 wks Children (5 years and older) ≥ 15 kg to < 40 kg 20 mg Once Daily for up to 8 wks ≥ 40 kg 40 mg Maintenance of Healing of Erosive Esophagitis ( 2.1 ) Adults 40 mg Once Daily Controlled studies did not extend beyond 12 months Pathological Hypersecretory Conditions Including Zollinger-Ellison Syndrome ( 2.1 ) Adults 40 mg Twice Daily,,,,,,Oral
+,,,,,,,,,,,,,
+,,,,,24,,,,,,,,
+,,,,,,,,,,,,,
+12609,21642,N/A,20.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 20 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C07AA06,O,Oral
+,,,,,,,,,,,,,Topical
+,,,,,24,28,,,,,,,Topical
+,,,,,8,,,,,,,,Topical
+4342,4212,N/A,2.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 2 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A12AA01,O,Oral
+,,,,,,,,,,,,,
+31897,11757,N/A,0.9,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.9 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,R05CA03,O,Oral
+27909,19808,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N05AH03,O,Oral
+,,,,,24,,,,,,,,Oral
+,,,,,,,,,,,,,Oral
+1819,28880,N/A,7.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 7 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A06AD01,O,Oral
+,,,,1 mg,,,,,,,,,Intravenous
+2178,21655,N/A,6.7,,24,7,الجرعة اليومية المحددة (WHO DDD): 6.7 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,A06AD11,O,Oral
+,,,,,12,,,,,,,,Oral
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+29822,28466,N/A,40.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 40 mg (عن طريق الفم). Refers to dextromethorphan,General,WHO ATC/DDD 2024,0,N07XX59,O,Oral
+25926,26464,N/A,3.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 3 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N02BA03,O,Oral
+29026,14187,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,N06BC01,O,Oral
+15729,29817,N/A,0.5,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.5 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,G04BX01,O,Oral
+,,,,,8,,,,,,,,
+25772,11581,N/A,0.3,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.3 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,N02AX02,P,Parenteral
+14123,14910,N/A,4.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 4 g (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C10AX06,O,Oral
+,,,,,,,,,,,,,Nasal
+,,,,,,,,,,,,,Nasal
+3934,2317,N/A,0.2,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.2 g (عن طريق الحقن).,General,WHO ATC/DDD 2024,0,A11GA01,P,Parenteral
+,,,,,,,,,,,,,Topical
+,,,,,24,168,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+11268,1344,N/A,5.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 5 mg (عن طريق الجلد).,General,WHO ATC/DDD 2024,0,C01DA02,TD,Transdermal
+23322,3629,N/A,0.1,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.1 g (عن طريق الشرج).,General,WHO ATC/DDD 2024,0,M01AB05,R,Rectal
+,,,,,,,,,,,,,Oral
+,,,,,,28,,,,,,,Oral
+,,,,,8,,,,,,,,Oral
+10113,6533,N/A,0.4,,24,7,الجرعة اليومية المحددة (WHO DDD): 0.4 mg (عن طريق الفم). prophylactic dose,General,WHO ATC/DDD 2024,0,B03BB01,O,Oral
+,,,,,6,,,,,,,,Topical
+,,,,,,,,,,,,,Topical
+,,,,,,,,,,,,,
+30465,3244,N/A,800.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 800 U (عن طريق الأنف).,General,WHO ATC/DDD 2024,0,R01AX02,N,
+12780,6464,N/A,10.0,,24,7,الجرعة اليومية المحددة (WHO DDD): 10 mg (عن طريق الفم).,General,WHO ATC/DDD 2024,0,C07AB07,O,Oral
