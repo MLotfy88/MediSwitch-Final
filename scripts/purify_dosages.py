@@ -142,7 +142,7 @@ def main():
     
     # Save
     with open(DOSAGE_JSON, 'w') as f:
-        json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
+        json.dump(cleaned_data, f, ensure_ascii=False, separators=(',', ':'))
         
     return 0
 

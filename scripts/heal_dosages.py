@@ -65,7 +65,7 @@ def heal_dosages():
     
     if heal_count > 0:
         with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
-            json.dump(guidelines, f, indent=2, ensure_ascii=False)
+            json.dump(guidelines, f, ensure_ascii=False, separators=(',', ':'))
         print(f"💾 Saved changes to {DOSAGE_JSON}")
     else:
         print("ℹ️ No changes needed.")

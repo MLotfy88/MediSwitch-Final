@@ -358,7 +358,7 @@ def main():
     
     # Save MERGED data
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(existing_data, f, indent=2, ensure_ascii=False)
+        json.dump(existing_data, f, ensure_ascii=False, separators=(',', ':'))
     
     print(f"\n💾 Saved {len(existing_data):,} total records to: {OUTPUT_FILE}")
     print(f"{'='*80}\n")

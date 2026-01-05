@@ -53,7 +53,7 @@ def main():
 
     # Save deduplicated
     with open(DOSAGE_JSON, 'w') as f:
-        json.dump(unique, f, indent=2, ensure_ascii=False)
+        json.dump(unique, f, ensure_ascii=False, separators=(',', ':'))
 
     # Write metrics for GitHub Actions
     with open('quality_report.txt', 'w') as f:

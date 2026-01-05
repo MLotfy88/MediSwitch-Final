@@ -579,7 +579,7 @@ def process_datalake():
     
     # Save to main dosage guidelines file
     with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
-        json.dump(existing_data, f, indent=2, ensure_ascii=False)
+        json.dump(existing_data, f, ensure_ascii=False, separators=(',', ':'))
     
     print(f"💾 Saved {len(existing_data):,} total records to {DOSAGE_JSON}")
     

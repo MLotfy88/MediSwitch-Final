@@ -156,7 +156,7 @@ def enrich_data_high_fidelity():
     conn.close()
     
     with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
-        json.dump(dosage_data, f, indent=2, ensure_ascii=False)
+        json.dump(dosage_data, f, ensure_ascii=False, separators=(',', ':'))
 
     print(f"\n✨ التقرير النهائي:")
     print(f"🔹 تم تحديث أكواد ATC لـ {atc_update_count:,} دواء.")
