@@ -310,29 +310,57 @@ def main():
         
         print(f"  Aggregated {len(all_guidelines):,} unique guidelines so far...")
     
+    # === LOAD EXISTING DATA FIRST (WHO + DailyMed) ===
+    existing_data = []
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+            print(f"📂 Loaded {len(existing_data):,} existing records from {OUTPUT_FILE}")
+        except:
+            print(f"⚠️ Could not load existing file, starting fresh.")
+    
     # Convert to list
     final_list = list(all_guidelines.values())
+    
+    # === MERGE: Add OpenFDA to existing data ===
+    # Track what we already have (avoid duplicates with WHO/DailyMed)
+    existing_keys = set()
+    for rec in existing_data:
+        # Use active_ingredient + instructions as key (similar to deduplicate logic)
+        key = (rec.get('active_ingredient'), rec.get('instructions'))
+        existing_keys.add(key)
+    
+    # Add only new OpenFDA records
+    added_count = 0
+    for openfda_rec in final_list:
+        key = (openfda_rec.get('active_ingredient'), openfda_rec.get('package_label'))
+        if key not in existing_keys:
+            existing_data.append(openfda_rec)
+            added_count += 1
+    
+    print(f"➕ Added {added_count:,} new OpenFDA records (skipped {len(final_list) - added_count:,} duplicates)")
     
     print(f"\n{'='*80}")
     print(f"✅ EXTRACTION COMPLETE!")
     print(f"{'='*80}")
-    print(f"Total unique dosage guidelines extracted: {len(final_list):,}")
+    print(f"Total unique dosage guidelines extracted: {len(existing_data):,}") # Changed to existing_data for total
     
     # Statistics
-    with_standard = sum(1 for g in final_list if g['standard_dose'])
-    with_max = sum(1 for g in final_list if g['max_dose'])
-    with_label = sum(1 for g in final_list if g['package_label'])
+    with_standard = sum(1 for g in existing_data if g.get('standard_dose')) # Changed to existing_data
+    with_max = sum(1 for g in existing_data if g.get('max_dose')) # Changed to existing_data
+    with_label = sum(1 for g in existing_data if g.get('package_label')) # Changed to existing_data
     
     print(f"\nBreakdown:")
-    print(f"  • With standard_dose: {with_standard:,} ({with_standard/len(final_list)*100:.1f}%)")
-    print(f"  • With max_dose: {with_max:,} ({with_max/len(final_list)*100:.1f}%)")
-    print(f"  • With package_label: {with_label:,} ({with_label/len(final_list)*100:.1f}%)")
+    print(f"  • With standard_dose: {with_standard:,} ({with_standard/len(existing_data)*100:.1f}%)") # Changed to existing_data
+    print(f"  • With max_dose: {with_max:,} ({with_max/len(existing_data)*100:.1f}%)") # Changed to existing_data
+    print(f"  • With package_label: {with_label:,} ({with_label/len(existing_data)*100:.1f}%)") # Changed to existing_data
     
-    # Save to JSON
+    # Save MERGED data
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(final_list, f, indent=2)
+        json.dump(existing_data, f, indent=2, ensure_ascii=False)
     
-    print(f"\n💾 Saved to: {OUTPUT_FILE}")
+    print(f"\n💾 Saved {len(existing_data):,} total records to: {OUTPUT_FILE}")
     print(f"{'='*80}\n")
 
 if __name__ == "__main__":
