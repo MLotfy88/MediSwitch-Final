@@ -153,6 +153,15 @@ class DosageParser:
         # Adult/Fixed Dose Pattern
         self.simple_dose_pattern = re.compile(r'\b(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml)\b(?!\s*/\s*kg)', re.IGNORECASE)
         
+        # Ranges & Routes
+        self.range_pattern = re.compile(r'(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)\s*mg', re.IGNORECASE)
+        self.route_patterns = {
+            'oral': re.compile(r'\b(oral|tablet|capsule|swallow|mouth|po)\b', re.IGNORECASE),
+            'iv': re.compile(r'\b(intravenous|iv|infusion|injection)\b', re.IGNORECASE),
+            'topical': re.compile(r'\b(topical|cream|gel|ointment|skin|apply)\b', re.IGNORECASE),
+            'inhalation': re.compile(r'\b(inhal|breath|nebuliz)\b', re.IGNORECASE),
+        }
+
         self.frequency_map = {
             'once daily': 24, 'daily': 24, 'q24h': 24, 'every 24 hours': 24, 'once a day': 24,
             'twice daily': 12, 'bid': 12, 'q12h': 12, 'every 12 hours': 12, '2 times a day': 12,
@@ -161,39 +170,60 @@ class DosageParser:
         }
 
     def extract_structured_dose(self, text: str) -> Dict:
-        if not text: return {}
+        """Attempt to extract structured numeric variables from text"""
         data = {
-            'dose_mg_kg': None, 
             'adult_dose_mg': None,
-            'frequency_hours': None, 
-            'max_dose_mg': None, 
+            'min_dose_mg': None,
+            'max_dose_mg': None,
+            'dose_range': None,
+            'frequency_hours': None,
+            'route': None,
             'is_pediatric': False
         }
         
-        # Pediatric mg/kg
+        if not text: return data
+        
+        # 1. Route Detection
+        for route, pattern in self.route_patterns.items():
+            if pattern.search(text):
+                data['route'] = route
+                break
+
+        # 2. Mg/Kg (Pediatric indicator)
         match_ped = self.mg_kg_pattern.search(text)
         if match_ped:
             data['dose_mg_kg'] = float(match_ped.group(1))
             data['is_pediatric'] = True
             
-        # Adult/Fixed Dose
-        rec_match = re.search(r'recommended\s*(?:dose|dosage)\s*(?:is)?\s*(\d+(?:\.\d+)?)\s*mg', text, re.IGNORECASE)
-        if rec_match:
-             data['adult_dose_mg'] = float(rec_match.group(1))
-        else:
-             # Fallback: Find simple mg occurrences
-             matches = self.simple_dose_pattern.findall(text)
-             # Filter out year-like numbers (1990-2030) or huge numbers
-             valid_doses = [float(x[0]) for x in matches if float(x[0]) < 2000]
-             if valid_doses:
-                 data['adult_dose_mg'] = valid_doses[0]
+        # 3. Dose Range (e.g. 50-100 mg)
+        range_match = self.range_pattern.search(text)
+        if range_match:
+            d1, d2 = float(range_match.group(1)), float(range_match.group(2))
+            data['min_dose_mg'] = min(d1, d2)
+            data['max_dose_mg'] = max(d1, d2)
+            data['dose_range'] = f"{d1}-{d2}"
+            data['adult_dose_mg'] = min(d1, d2) # Use lower bound as conservative default
+        
+        # 4. Adult/Fixed Dose (Single Value)
+        if not data['adult_dose_mg']:
+            rec_match = re.search(r'recommended\s*(?:dose|dosage)\s*(?:is)?\s*(\d+(?:\.\d+)?)\s*mg', text, re.IGNORECASE)
+            if rec_match:
+                 data['adult_dose_mg'] = float(rec_match.group(1))
+            else:
+                 # Fallback: Find simple mg occurrences
+                 matches = self.simple_dose_pattern.findall(text)
+                 valid_doses = [float(x[0]) for x in matches if float(x[0]) < 2000]
+                 if valid_doses:
+                     data['adult_dose_mg'] = valid_doses[0]
 
+        # 5. Frequency
         text_lower = text.lower()
         for key, hours in self.frequency_map.items():
             if key in text_lower:
                 data['frequency_hours'] = hours
                 break
                 
+        # 6. Explicit Max Dose Overwrite
         max_pattern = re.search(r'max(?:imum)?\s*(?:dose)?\s*(?:of)?\s*(\d+(?:\.\d+)?)\s*mg', text_lower)
         if max_pattern:
             data['max_dose_mg'] = float(max_pattern.group(1))
@@ -552,12 +582,23 @@ def process_datalake():
         dosages = rec.get('dosages', {})
         clinical = rec.get('clinical_text', {})
         
+        # Smart Text Construction
+        instr = clinical.get('dosage', '')
+        route = dosages.get('route')
+        drange = dosages.get('dose_range')
+        
+        prefix = []
+        if route: prefix.append(f"Route: {route.upper()}")
+        if drange: prefix.append(f"Range: {drange} mg")
+        
+        final_instr = " | ".join(prefix) + "\n" + instr if prefix else instr
+
         guideline = {
             'med_id': rec.get('med_id'),
             'dailymed_setid': rec.get('dailymed_setid'),
             'source': 'DailyMed',
-            'instructions': clinical.get('dosage', ''),
-            'min_dose': dosages.get('adult_dose_mg'),
+            'instructions': final_instr[:5000] if final_instr else None,
+            'min_dose': dosages.get('min_dose_mg') or dosages.get('adult_dose_mg'),
             'max_dose': dosages.get('max_dose_mg'),
             'frequency': dosages.get('frequency_hours'),
             'is_pediatric': dosages.get('is_pediatric', 0)
@@ -581,14 +622,20 @@ def process_datalake():
     
     # 7. Save MERGED data to main file
     print(f"\nProcessing complete. Scanned {processed_count:,} DailyMed records.")
+    
+    if len(dailymed_for_merge) == 0 and processed_count > 0:
+        raise ValueError(f"CRITICAL FAILURE: Scanned {processed_count} records but matched 0! Sample failure: Check logs for '⚠️ No match for'.")
+
+    # Combine with existing data
+    final_dataset = existing_data + dailymed_for_merge
     print(f"Generated {len(final_records):,} enriched DailyMed records unique by ID.")
-    print(f"Total records after merge: {len(existing_data):,}")
+    print(f"Total records after merge: {len(final_dataset):,}")
     
     # Save to main dosage guidelines file
     with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
-        json.dump(existing_data, f, ensure_ascii=False, separators=(',', ':'))
+        json.dump(final_dataset, f, ensure_ascii=False, separators=(',', ':'))
     
-    print(f"💾 Saved {len(existing_data):,} total records to {DOSAGE_JSON}")
+    print(f"💾 Saved {len(final_dataset):,} total records to {DOSAGE_JSON}")
     
     # Also save production output for reference (keep the detailed format)
     print(f"\nWriting detailed production DB to {PRODUCTION_OUTPUT}...")
