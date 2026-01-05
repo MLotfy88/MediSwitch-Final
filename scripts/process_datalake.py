@@ -623,8 +623,11 @@ def process_datalake():
     # 7. Save MERGED data to main file
     print(f"\nProcessing complete. Scanned {processed_count:,} DailyMed records.")
     
-    if len(dailymed_for_merge) == 0 and processed_count > 0:
-        raise ValueError(f"CRITICAL FAILURE: Scanned {processed_count} records but matched 0! Sample failure: Check logs for '⚠️ No match for'.")
+    if processed_count == 0:
+         raise ValueError("CRITICAL FAILURE: processed_count is 0. The input file (dailymed_full_database.jsonl.gz) appears empty. Check stream_dailymed.py logs.")
+    
+    if len(dailymed_for_merge) == 0:
+        raise ValueError(f"CRITICAL FAILURE: Scanned {processed_count} records but matched 0! Check matching logic.")
 
     # Combine with existing data
     final_dataset = existing_data + dailymed_for_merge

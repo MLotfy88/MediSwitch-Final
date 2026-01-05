@@ -199,7 +199,8 @@ def process_and_delete(zip_path, writer, extractor):
                             if record:
                                 writer.write(json.dumps(record, ensure_ascii=False) + '\n')
                                 count += 1
-                except Exception:
+                except Exception as e:
+                    if count < 5: print(f"⚠️ Extraction Error (Sample): {e}")
                     continue
                     
                 if (i + 1) % 5000 == 0:
