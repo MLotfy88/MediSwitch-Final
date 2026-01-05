@@ -7,6 +7,7 @@ import json
 import csv
 import random
 import sys
+import gzip
 
 DOSAGE_JSON = 'assets/data/dosage_guidelines.json.gz'
 FULL_CSV = 'exports/dosage_guidelines_full.csv'
