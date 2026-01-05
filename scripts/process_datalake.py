@@ -369,9 +369,11 @@ def process_datalake():
     # Init Parsers
     dosage_parser = DosageParser()
     app_data_map, app_active_exact, app_active_stripped = load_app_data()
-    best_matches = {} # med_id -> {score, record}
     
+    # Counters
     processed_count = 0
+    match_log_count = 0
+    best_matches = {} # med_id -> {score, record}
     
     try:
         # Smart Open (GZIP vs Text)
@@ -475,8 +477,9 @@ def process_datalake():
                     continue
                         
                 # Log success sample
-                if added_count < 5:
+                if match_log_count < 5:
                      print(f"✅ MATCH! {drug_name} -> ID: {matched_app_records[0]['id']} (Method: {matched_app_records[0]['linkage_type']})")
+                     match_log_count += 1
                         
                 # Loop through matched App IDs and create candidates
                 for app_rec in matched_app_records:
