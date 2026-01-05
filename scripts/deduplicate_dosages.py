@@ -40,7 +40,7 @@ def main():
     print(f"Unique records: {len(unique):,}")
 
     # Quality metrics
-    truncated = sum(1 for r in unique if r.get('instructions', '').endswith('...'))
+    truncated = sum(1 for r in unique if (r.get('instructions') or '').endswith('...'))
     who_count = sum(1 for r in unique if r.get('source') == 'WHO ATC/DDD 2024')
     dailymed_count = sum(1 for r in unique if r.get('source') == 'DailyMed')
     local_count = sum(1 for r in unique if r.get('source') == 'Local_Scraper')
