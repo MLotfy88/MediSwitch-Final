@@ -49,28 +49,67 @@ FREQ_MAP = {
 # Durations (Days) - Heuristic
 DURATION_PATTERN = re.compile(r'\b(?:for|x)\s*(\d+)\s*(days|weeks)', re.IGNORECASE)
 
-# Boilerplate Removal
+# Enhanced Boilerplate Removal
 BOILERPLATE_PATTERNS = [
-    r'PATIENTS SHOULD BE ADVISED TO.*',
-    r'See full prescribing information.*',
-    r'Please refer to the full.*',
-    r'Section \d+\.\d+.*',
+    r'PATIENTS? SHOULD BE (ADVISED|INSTRUCTED|INFORMED).*?(\.|$)',
+    r'See (full|complete) prescrib(ing|tion) information.*?(\.|$)',
+    r'Please (refer to|consult) the (full|package insert).*?(\.|$)',
+    r'Section \d+(\.\d+)?:?\s*',
+    r'Table \d+:?\s*',
+    r'Figure \d+:?\s*',
+    r'\(?see (section|table|figure) \d+.*?\)?',
+    r'For (complete|full|additional) information.*?(\.|$)',
+    r'The following is a summary.*?(\.|$)',
+    r'This [a-z]+ contains.*?(\.|$)',
+    r'CLINICAL PHARMACOLOGY.*',
+    r'INDICATIONS AND USAGE.*',
+    r'Always (consult|check|follow).*physician.*?(\.|$)',
+    r'As directed by.*physician.*?(\.|$)',
+]
+
+# Actionable Sentence Starters (Clinical)
+CLINICAL_VERBS = [
+    r'\bThe recommended (dose|dosage) (is|for)',
+    r'\b(Take|Administer|Give|Apply|Inject|Swallow)',
+    r'\b(Initial|Starting|Usual|Typical) (dose|dosage)',
+    r'\b(Maintenance|Daily|Maximum|Minimum) (dose|dosage)',
+    r'\b(\d+\s*(?:mg|mcg|g|ml|units?))',  # Contains numeric dosage
 ]
 
 def clean_text(text):
+    """Advanced clinical text purification"""
     if not text: return ""
     
-    # 1. Remove Headers (e.g., "2.1 Adult Dosage")
-    text = re.sub(r'^\d+(\.\d+)*\s+[A-Z][a-z]+.*?\n', '', text, flags=re.MULTILINE)
+    # Step 1: Remove section headers (e.g., "2.1 Adult Dosage")
+    text = re.sub(r'^\d+(\.\d+)*\s+[A-Z].*?\n', '', text, flags=re.MULTILINE)
     
-    # 2. Remove Boilerplate
+    # Step 2: Remove boilerplate (Legal disclaimers, references)
     for pattern in BOILERPLATE_PATTERNS:
-        text = re.sub(pattern, '', text, flags=re.IGNORECASE)
-        
-    # 3. Collapse whitespace
-    text = re.sub(r'\s+', ' ', text).strip()
+        text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.DOTALL)
     
-    return text
+    # Step 3: Extract only clinically actionable sentences
+    sentences = re.split(r'[.!]\s+', text)
+    useful_sentences = []
+    
+    for sent in sentences:
+        sent = sent.strip()
+        if len(sent) < 15: continue  # Too short
+        
+        # Must match at least one clinical pattern
+        is_clinical = any(re.search(pattern, sent, re.IGNORECASE) for pattern in CLINICAL_VERBS)
+        
+        if is_clinical:
+            useful_sentences.append(sent)
+    
+    # Step 4: Reconstruct text
+    cleaned = '. '.join(useful_sentences)
+    if cleaned and not cleaned.endswith('.'): 
+        cleaned += '.'
+    
+    # Step 5: Collapse whitespace
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    
+    return cleaned
 
 def extract_structured_data(rec):
     instructions = rec.get('instructions', '') or rec.get('package_label', '')
