@@ -5,6 +5,7 @@ import os
 import time
 import gzip
 import re
+import csv
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
