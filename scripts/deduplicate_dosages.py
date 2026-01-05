@@ -60,7 +60,8 @@ def main():
     print(f"  Still truncated: {truncated:,}")
 
     # Save deduplicated
-    with open(DOSAGE_JSON, 'w') as f:
+    # Save deduplicated
+    with gzip.open(DOSAGE_JSON, 'wt', encoding='utf-8') as f:
         json.dump(unique, f, ensure_ascii=False, separators=(',', ':'))
 
     # Write metrics for GitHub Actions
