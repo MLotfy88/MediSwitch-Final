@@ -35,23 +35,24 @@ def heal_dosages():
     skip_count = 0
     
     print("🩹 Healing truncated records...")
-    for g in guidelines:
-        instructions = g.get('instructions', '')
-        setid = g.get('dailymed_setid')
+    for guideline in guidelines:
+        instructions = guideline.get('instructions', '')
+        setid = guideline.get('dailymed_setid', '')
         
-        if instructions.endswith('...') and setid and setid != 'N/A':
+        # If truncated and has DailyMed setid (check instructions is not None)
+        if instructions and instructions.endswith('...') and setid and setid != 'N/A':
             if setid in lake_map:
                 full_text = lake_map[setid]
                 # Compare start of string to ensure it's the right text
                 # (Remove "Standard Dose: Xmg. " if it was added by the extraction script)
                 clean_instructions = instructions.rstrip('.')
                 if clean_instructions in full_text or full_text[:100] in instructions:
-                    g['instructions'] = full_text
+                    guideline['instructions'] = full_text
                     heal_count += 1
                 else:
                     # Try a more fuzzy check if the extraction script prepended info
                     if "DOSAGE AND ADMINISTRATION" in full_text and "DOSAGE AND ADMINISTRATION" in instructions:
-                        g['instructions'] = full_text
+                        guideline['instructions'] = full_text
                         heal_count += 1
                     else:
                         skip_count += 1
