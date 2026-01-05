@@ -253,11 +253,6 @@ jobs:
           git config --global user.name 'Dosage Enrichment Bot'
           git config --global user.email 'bot@mediswitch.local'
           
-      - name: 📝 Commit Enriched Data
-        run: |
-          git config --global user.name 'Dosage Enrichment Bot'
-          git config --global user.email 'bot@mediswitch.local'
-          
           # Create detailed commit message
           echo "data: dosage enrichment $(date +'%Y-%m-%d')" > commit_message.txt
           echo "" >> commit_message.txt
@@ -282,7 +277,10 @@ jobs:
 
           git add "$DOSAGE_JSON" backups/ exports/
           git commit -F commit_message.txt || echo "No changes to commit"
-          git push
+          
+          # Handle concurrent updates
+          git pull --rebase origin main
+          git push origin main
           
       # ============================================
       # 📊 STEP 9: CREATE SUMMARY REPORT
