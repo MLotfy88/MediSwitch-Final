@@ -113,5 +113,12 @@ def main():
         f.write(f'| ✨ **MEDIUM** | {stats["Medium"]:,} | {stats["Medium"]/total*100:.1f}% | Useful Text or Numbers Only |\n')
         f.write(f'| ⚠️ **LOW** | {stats["Low"]:,} | {stats["Low"]/total*100:.1f}% | Generic/Lazy Content |\n\n')
 
+    # Print Report to Stdout (Backup for Visibility)
+    print("\n" + "="*50)
+    print("📢 GITHUB ACTION SUMMARY (Preview)")
+    print("="*50)
+    print(open('quality_report.md').read())
+    print("="*50 + "\n")
+
 if __name__ == '__main__':
     main()
