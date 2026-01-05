@@ -563,7 +563,6 @@ def process_datalake():
     final_records = [v['record'] for v in best_matches.values()]
 
     # === MERGE WITH EXISTING DATA (WHO) ===
-    import gzip
     DOSAGE_JSON = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json.gz')
     existing_data = []
     
