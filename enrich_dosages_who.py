@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import time
 import gzip
+import re
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
