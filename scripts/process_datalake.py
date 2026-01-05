@@ -24,7 +24,7 @@ if not os.path.exists(DATALAKE_FILE):
     DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.jsonl')
 if not os.path.exists(DATALAKE_FILE):
     DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json')
-PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl')
+PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl.gz')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'production_debug.json')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
 
@@ -644,7 +644,7 @@ def process_datalake():
     
     # Also save production output for reference (keep the detailed format)
     print(f"\nWriting detailed production DB to {PRODUCTION_OUTPUT}...")
-    with open(PRODUCTION_OUTPUT, 'w', encoding='utf-8') as f:
+    with gzip.open(PRODUCTION_OUTPUT, 'wt', encoding='utf-8') as f:
         for rec in final_records:
             f.write(json.dumps(rec, ensure_ascii=False) + '\n')
             
