@@ -526,12 +526,65 @@ def process_datalake():
     # Flatten best matches
     final_records = [v['record'] for v in best_matches.values()]
 
-    # 7. Save
-    print(f"\nProcessing complete. Scanned {processed_count:,} records.")
-    print(f"Generated {len(final_records):,} enriched records unique by ID.")
+    # === MERGE WITH EXISTING DATA (WHO) ===
+    DOSAGE_JSON = os.path.join(BASE_DIR, 'assets', 'data', 'dosage_guidelines.json')
+    existing_data = []
     
-    # Save Production Output (JSONL)
-    print(f"Writing production DB to {PRODUCTION_OUTPUT}...")
+    if os.path.exists(DOSAGE_JSON):
+        try:
+            with open(DOSAGE_JSON, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+            print(f"📂 Loaded {len(existing_data):,} existing records (WHO, etc.) from {DOSAGE_JSON}")
+        except:
+            print(f"⚠️ Could not load existing file, starting fresh.")
+    
+    # Convert DailyMed records to dosage_guidelines format
+    dailymed_for_merge = []
+    for rec in final_records:
+        # Extract structured dosage info if available
+        dosages = rec.get('dosages', {})
+        clinical = rec.get('clinical_text', {})
+        
+        guideline = {
+            'med_id': rec.get('med_id'),
+            'dailymed_setid': rec.get('dailymed_setid'),
+            'source': 'DailyMed',
+            'instructions': clinical.get('dosage', ''),
+            'min_dose': dosages.get('adult_dose_mg'),
+            'max_dose': dosages.get('max_dose_mg'),
+            'frequency': dosages.get('frequency_hours'),
+            'is_pediatric': dosages.get('is_pediatric', 0)
+        }
+        dailymed_for_merge.append(guideline)
+    
+    # Check for duplicates before adding
+    existing_keys = set()
+    for rec in existing_data:
+        key = (rec.get('med_id'), rec.get('source'), rec.get('instructions'))
+        existing_keys.add(key)
+    
+    added_count = 0
+    for dm_rec in dailymed_for_merge:
+        key = (dm_rec.get('med_id'), dm_rec.get('source'), dm_rec.get('instructions'))
+        if key not in existing_keys:
+            existing_data.append(dm_rec)
+            added_count += 1
+    
+    print(f"➕ Added {added_count:,} new DailyMed records (skipped {len(dailymed_for_merge) - added_count:,} duplicates)")
+    
+    # 7. Save MERGED data to main file
+    print(f"\nProcessing complete. Scanned {processed_count:,} DailyMed records.")
+    print(f"Generated {len(final_records):,} enriched DailyMed records unique by ID.")
+    print(f"Total records after merge: {len(existing_data):,}")
+    
+    # Save to main dosage guidelines file
+    with open(DOSAGE_JSON, 'w', encoding='utf-8') as f:
+        json.dump(existing_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"💾 Saved {len(existing_data):,} total records to {DOSAGE_JSON}")
+    
+    # Also save production output for reference (keep the detailed format)
+    print(f"\nWriting detailed production DB to {PRODUCTION_OUTPUT}...")
     with open(PRODUCTION_OUTPUT, 'w', encoding='utf-8') as f:
         for rec in final_records:
             f.write(json.dumps(rec, ensure_ascii=False) + '\n')
