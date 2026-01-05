@@ -485,6 +485,7 @@ def process_datalake():
                         'concentration': final_conc,
                         'concentration_source': conc_source,
                         'linkage_method': app_rec.get('linkage_type'),
+                        'source': 'DailyMed',  # ADD SOURCE FIELD
                         'dosages': structured_dose,
                         'clinical_text': {
                             'dosage': dosage_text[:10000] if dosage_text else None,
