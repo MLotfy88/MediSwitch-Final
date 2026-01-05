@@ -275,11 +275,13 @@ jobs:
           echo "🔄 Workflow: ${{ github.workflow }}" >> commit_message.txt
           echo "⏰ Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> commit_message.txt
 
-          git add "$DOSAGE_JSON" backups/ exports/
+          git add "$DOSAGE_JSON" backups/ exports/ "production_data/"
           git commit -F commit_message.txt || echo "No changes to commit"
           
-          # Handle concurrent updates
+          # Handle concurrent updates (stash just in case, then pull-rebase)
+          git stash
           git pull --rebase origin main
+          git stash pop || echo "No stash to pop"
           git push origin main
           
       # ============================================
