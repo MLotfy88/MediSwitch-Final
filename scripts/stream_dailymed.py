@@ -80,10 +80,21 @@ class DailyMedExtractor:
 
     def _extract_products(self, root: ET.Element) -> List[Dict]:
         products = []
+        
+        # 1. Global Fallback Name (The logic from extract_dosages_production.py)
+        global_generic = None
+        gen_elem = root.find(".//ns:genericMedicine/ns:name", self.namespaces)
+        if gen_elem is not None: global_generic = gen_elem.text
+        
+        if not global_generic:
+            # Try ingredient substance as fallback
+            ing_elem = root.find(".//ns:ingredientSubstance/ns:name", self.namespaces)
+            if ing_elem is not None: global_generic = ing_elem.text
+
         for prod in root.findall(".//ns:manufacturedProduct", self.namespaces):
             product_data = {
                 'proprietary_name': None,
-                'non_proprietary_name': None,
+                'non_proprietary_name': global_generic, # Default to global find
                 'ingredients': []
             }
             # Names
@@ -91,6 +102,7 @@ class DailyMedExtractor:
             if name_elem is not None:
                 product_data['proprietary_name'] = name_elem.text
             
+            # Try specific generic name first
             generic_elem = prod.find(".//ns:asEntityWithGeneric/ns:genericMedicine/ns:name", self.namespaces)
             if generic_elem is not None:
                 product_data['non_proprietary_name'] = generic_elem.text
@@ -112,6 +124,14 @@ class DailyMedExtractor:
                 
             if not products: # If no ingredients found (rare), still add product
                  products.append(product_data)
+                 
+        # If no products found via manufacturedProduct but we have a name, create dummy product
+        if not products and global_generic:
+            products.append({
+                'proprietary_name': None,
+                'non_proprietary_name': global_generic,
+                'ingredients': []
+            })
                  
         return products
 

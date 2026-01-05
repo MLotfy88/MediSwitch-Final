@@ -440,7 +440,13 @@ def process_datalake():
                 
                 # Skip if no match found
                 if not matched_app_records:
+                    if processed_count < 10: # Print failure samples
+                         print(f"⚠️ No match for: '{drug_name}' (Generics: {generic_name}) - Norm: '{normalize_active_ingredient(generic_name) if generic_name else 'N/A'}'")
                     continue
+                        
+                # Log success sample
+                if added_count < 5:
+                     print(f"✅ MATCH! {drug_name} -> ID: {matched_app_records[0]['id']} (Method: {matched_app_records[0]['linkage_type']})")
                         
                 # Loop through matched App IDs and create candidates
                 for app_rec in matched_app_records:
