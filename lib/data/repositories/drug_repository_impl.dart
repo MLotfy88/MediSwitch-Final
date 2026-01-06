@@ -353,11 +353,17 @@ class DrugRepositoryImpl implements DrugRepository {
     DrugEntity drug,
   ) async {
     _logger.d(
-      "DrugRepository: findSimilars called for drug: '${drug.tradeName}' with active: '${drug.active}'",
+      "DrugRepository: findSimilars called for drug: '${drug.tradeName}' (ID: ${drug.id})",
     );
     try {
+      if (drug.id == null) {
+        _logger.w(
+          "DrugRepository: Cannot find similars for drug with null ID.",
+        );
+        return const Right([]);
+      }
       final List<MedicineModel> localMedicines = await localDataSource
-          .findSimilars(drug.active, drug.tradeName);
+          .findSimilars(drug.id!);
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
       _logger.i(
