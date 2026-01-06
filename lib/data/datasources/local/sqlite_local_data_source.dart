@@ -207,13 +207,10 @@ class SqliteLocalDataSource {
         await performInitialSeeding();
       } else {
         _logger.i(
-          '[ensureDatabaseInitialized] Core data exists, checking maintenance...',
+          '[ensureDatabaseInitialized] Core data exists from pre-packaged DB.',
         );
-        // Ensure seeding logic is complete
-        try {
-          await _seedDosageGuidelines(db); // Always check dosages
-          await _checkAndSeedInteractions(db); // Always check interactions
-        } catch (_) {}
+        // Pre-packaged DB already contains all tables with data
+        // No additional seeding needed - interactions, dosages, etc. are already present
 
         if (!_seedingCompleter.isCompleted) _seedingCompleter.complete();
       }
