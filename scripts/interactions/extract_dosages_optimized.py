@@ -113,11 +113,11 @@ def extract_dosage_info(dosage_text: str) -> tuple:
     # === Standard Dose Patterns ===
     standard_patterns = [
         # "recommended dose is 50 mg", "usual dose 100mg"
-        r'(?:recommended|usual|starting|initial)\s+(?:adult|pediatric)?\s*dose\s*(?:is|of)?\s*:?\s*(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml|tablet|capsule)s?',
-        # "take 1 tablet", "take 2 capsules"
-        r'take\s*(\d+(?:\.\d+)?)\s*(tablet|capsule|pill|caplet)s?',
-        # "1 to 2 tablets every", "2-4 capsules daily"
-        r'(\d+)\s*(?:to|-)\s*(\d+)\s*(tablet|capsule|pill|caplet)s?\s*(?:every|daily|per\s*day)',
+        r'(?:recommended|usual|starting|initial)\s+(?:adult|pediatric)?\s*dose\s*(?:is|of)?\s*:?\s*(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml|tablet|capsule|pellet|lozenge|drop|spray)s?',
+        # "take 1 tablet", "take 2 capsules", "take 4 pellets"
+        r'take\s*(\d+(?:\.\d+)?)\s*(tablet|capsule|pill|caplet|pellet|lozenge|drop)s?',
+        # "1 to 2 tablets", "4 or 6 pellets"
+        r'(\d+)\s*(?:to|-|or)\s*(\d+)\s*(tablet|capsule|pill|caplet|pellet|lozenge|drop)s?',
         # "50 mg every 6 hours", "100mg once daily", "20mg twice daily"
         r'(\d+(?:\.\d+)?)\s*(mg|mcg|g|ml)\s+(?:every|once|twice|three\s*times|q\d+h?|daily)',
         # "dose: 250 mg", "dosage: 10mg"
@@ -223,6 +223,10 @@ def process_file(zip_path: str) -> List[Dict]:
                     dosage_text_list = record.get('dosage_and_administration', [])
                     dosage_text = dosage_text_list[0] if dosage_text_list else ""
                     
+                    # Improve Regex for Pellets/Drops/Sprays and "OR" ranges
+                    # This logic should be inside extract_dosage_info really, but modifying regexes there is cleaner.
+                    # I will modify extract_dosage_info function instead if possible, but here is safer for now.
+                    
                     standard_dose, max_dose = extract_dosage_info(dosage_text)
                     
                     # === 4. Extract Instructions ===
@@ -252,11 +256,14 @@ def process_file(zip_path: str) -> List[Dict]:
                     
                     # === 6. Create Guideline Record ===
                     guideline = {
+                        'med_id': None, # OpenFDA has no internal ID, rely on deduplication
+                        'source': 'OpenFDA', # CRITICAL FIX
                         'active_ingredient': active_ingredient,
                         'strength': strength,
                         'standard_dose': standard_dose if standard_dose else None,
                         'max_dose': max_dose if max_dose else None,
-                        'package_label': package_label if package_label else None
+                        'package_label': package_label if package_label else None,
+                        'instructions': package_label if package_label else None # Ensure instructions field exists
                     }
                     
                     file_guidelines.append(guideline)
