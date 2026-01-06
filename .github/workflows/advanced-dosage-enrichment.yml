@@ -301,7 +301,7 @@ jobs:
       # ============================================
       # 📊 STEP 9: CREATE SUMMARY REPORT
       # ============================================
-      - name: 📊 Generage Clinical Quality Report
+      - name: 📊 Generate Clinical Quality Report
         run: python3 scripts/analyze_quality.py
 
       - name: 📊 Generate Workflow Summary

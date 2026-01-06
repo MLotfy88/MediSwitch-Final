@@ -7,8 +7,11 @@ import csv
 import re
 import sys
 
+import json
+import gzip
+
 # Input File
-INPUT_CSV = 'exports/dosage_guidelines_full.csv'
+INPUT_FILE = 'assets/data/dosage_guidelines.json.gz'
 
 # "Junk" Patterns - Content that is NOT clinically useful
 JUNK_PATTERNS = [
@@ -70,10 +73,11 @@ def main():
     print("🔬 Analyzing Clinical Quality...\n")
     
     try:
-        rows = list(csv.DictReader(open(INPUT_CSV)))
-    except FileNotFoundError:
-        print(f"❌ File {INPUT_CSV} not found.")
-        return
+        with gzip.open(INPUT_FILE, 'rt', encoding='utf-8') as f:
+            rows = json.load(f)
+    except Exception as e:
+        print(f"❌ Error loading {INPUT_FILE}: {e}")
+        sys.exit(1)
         
     total = len(rows)
     stats = {'High': 0, 'Medium': 0, 'Low': 0}
