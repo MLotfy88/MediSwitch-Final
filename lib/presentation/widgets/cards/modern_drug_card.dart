@@ -191,13 +191,13 @@ class ModernDrugCard extends StatelessWidget {
                           padding: const EdgeInsets.all(4),
                           margin: const EdgeInsets.only(left: 4),
                           decoration: BoxDecoration(
-                            color: appColors.warning.withValues(alpha: 0.1),
+                            color: Colors.orange.withValues(alpha: 0.15),
                             borderRadius: BorderRadius.circular(4),
                           ),
                           child: Icon(
-                            LucideIcons.alertTriangle,
+                            LucideIcons.apple,
                             size: 14,
-                            color: appColors.warning,
+                            color: Colors.orange,
                           ),
                         ),
                       if (hasDiseaseInteraction)
@@ -205,13 +205,13 @@ class ModernDrugCard extends StatelessWidget {
                           padding: const EdgeInsets.all(4),
                           margin: const EdgeInsets.only(left: 4),
                           decoration: BoxDecoration(
-                            color: Colors.redAccent.withValues(alpha: 0.1),
+                            color: Colors.purple.withValues(alpha: 0.15),
                             borderRadius: BorderRadius.circular(4),
                           ),
                           child: Icon(
-                            LucideIcons.alertOctagon,
+                            LucideIcons.heartPulse,
                             size: 14,
-                            color: Colors.redAccent,
+                            color: Colors.purple,
                           ),
                         ),
                     ],

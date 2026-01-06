@@ -52,6 +52,7 @@ class DosageTab extends StatelessWidget {
                 _MiniDoseCalculator(
                   concentration: drug.concentration,
                   standardDose: primary?.minDose,
+                  frequency: primary?.frequency,
                   isAr: isAr,
                 ),
               if (primary?.instructions != null &&
@@ -245,10 +246,12 @@ class _MiniDoseCalculator extends StatefulWidget {
     required this.concentration,
     required this.isAr,
     this.standardDose,
+    this.frequency,
   });
 
   final String concentration;
   final double? standardDose;
+  final int? frequency;
   final bool isAr;
 
   @override
@@ -261,11 +264,21 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
   double? _resultMg;
   double? _resultMl;
 
+  // New: Frequency logic
+  int _timesPerDay = 3; // Default
+
   @override
   void initState() {
     super.initState();
     if (widget.standardDose != null) {
       _dosePerKgController.text = widget.standardDose!.toStringAsFixed(0);
+    }
+    if (widget.frequency != null) {
+      // If frequency is hours (e.g. 8), times = 24/8 = 3.
+      if (widget.frequency! > 0 && widget.frequency! <= 24) {
+        _timesPerDay = (24 / widget.frequency!).round();
+        if (_timesPerDay == 0) _timesPerDay = 1;
+      }
     }
   }
 
@@ -303,11 +316,26 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
 
   void _copyResult() {
     if (_resultMg == null) return;
-    final text =
+
+    // Construct detailed string
+    String doseStr =
         _resultMl != null
-            ? '${_resultMg!.toStringAsFixed(1)} mg '
-                '(${_resultMl!.toStringAsFixed(1)} ml)'
+            ? '${_resultMg!.toStringAsFixed(1)} mg (${_resultMl!.toStringAsFixed(1)} ml)'
             : '${_resultMg!.toStringAsFixed(1)} mg';
+
+    String freqStr =
+        widget.isAr ? '$_timesPerDay مرات يومياً' : '$_timesPerDay times daily';
+
+    if (widget.frequency != null && widget.frequency! > 0) {
+      // If usage is specifically "Every X hours"
+      freqStr =
+          widget.isAr
+              ? 'كل ${widget.frequency} ساعة ($_timesPerDay مرات يومياً)'
+              : 'Every ${widget.frequency} hours ($_timesPerDay times daily)';
+    }
+
+    final text = '$doseStr - $freqStr';
+
     Clipboard.setData(ClipboardData(text: text));
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
@@ -342,7 +370,7 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
               ),
               const SizedBox(width: 8),
               Text(
-                widget.isAr ? 'حاسبة الجرعة' : 'Dose Calculator',
+                widget.isAr ? 'حاسبة الجرعة السريعة' : 'Quick Dose Calculator',
                 style: theme.textTheme.titleSmall?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
@@ -408,6 +436,18 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
                           style: theme.textTheme.titleMedium?.copyWith(
                             fontWeight: FontWeight.bold,
                             color: theme.colorScheme.primary,
+                          ),
+                        ),
+                        // Frequency display
+                        const SizedBox(height: 2),
+                        Text(
+                          widget.isAr
+                              ? '$_timesPerDay مرات يومياً ${widget.frequency != null && widget.frequency! > 0 ? "(كل ${widget.frequency} ساعة)" : ""}'
+                              : '$_timesPerDay times daily ${widget.frequency != null && widget.frequency! > 0 ? "(Every ${widget.frequency}h)" : ""}',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: theme.colorScheme.secondary,
+                            fontWeight: FontWeight.w600,
                           ),
                         ),
                       ],
