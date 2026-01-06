@@ -31,42 +31,61 @@ def main():
     unique_map = {}
     duplicates = 0
     legacy_removed = 0
+    garbage_dropped = 0
     
+    import re
+    def is_garbage(r):
+        # Allow confirmed sources
+        src = r.get('source', '')
+        if src in ['WHO ATC/DDD 2024', 'DailyMed', 'OpenFDA']:
+            return False
+            
+        # For legacy/unknown sources, require quality
+        text = r.get('instructions', '')
+        has_nums = bool(re.search(r'\d+', text))
+        has_freq = bool(r.get('frequency'))
+        
+        # If no numbers in text, and no freq -> It's garbage dosage info
+        if not has_nums and not has_freq:
+            return True
+        return False
+
     for rec in data:
+        if is_garbage(rec):
+            garbage_dropped += 1
+            continue
+
         med_id = rec.get('med_id')
         source = rec.get('source')
         
         # Primary Key: (med_id, source)
-        # Only valid if med_id exists. If not, fallback to full unique content.
         if med_id:
             key = (str(med_id), source)
             
             if key in unique_map:
                 duplicates += 1
-                # Check if we are replacing a legacy record without Route with one with Route
                 old_rec = unique_map[key]
                 if not old_rec.get('route') and rec.get('route'):
                     legacy_removed += 1
             
-            # Always overwrite (Keep Last = Keep Newest)
             unique_map[key] = rec
             
         else:
-            # Fallback for records without med_id (e.g. OpenFDA match errors?)
-            # Use content hash
-            key = (
-                rec.get('active_ingredient'),
-                rec.get('instructions'),
-                source
-            )
-            if key not in unique_map: # Here we can't easily overwrite, implies distinct drug
-                 unique_map[key] = rec
-            else:
-                 duplicates += 1
+            # Fallback per ingredient for legacy/OpenFDA
+            ing = rec.get('active_ingredient')
+            if ing:
+                # If we already have a record for this ingredient from a GOOD source, skip this one?
+                # This is complex. Stick to content hash for now but filter garbage first.
+                key = (ing, rec.get('instructions'), source)
+                if key not in unique_map:
+                     unique_map[key] = rec
+                else:
+                     duplicates += 1
 
     unique = list(unique_map.values())
 
     print(f"Duplicates removed: {duplicates:,}")
+    print(f"Garbage records dropped: {garbage_dropped:,}")
     print(f"Legacy records upgraded: {legacy_removed:,}")
     print(f"Unique records: {len(unique):,}")
 
@@ -74,7 +93,7 @@ def main():
     truncated = sum(1 for r in unique if (r.get('instructions') or '').endswith('...'))
     who_count = sum(1 for r in unique if r.get('source') == 'WHO ATC/DDD 2024')
     dailymed_count = sum(1 for r in unique if r.get('source') == 'DailyMed')
-    local_count = sum(1 for r in unique if r.get('source') == 'Local_Scraper')
+    local_count = sum(1 for r in unique if r.get('source') == 'Local_Scraper' or not r.get('source'))
 
     print(f"\n📈 Quality Metrics:")
     print(f"  WHO entries: {who_count:,}")
