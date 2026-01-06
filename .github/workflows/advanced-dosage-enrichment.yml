@@ -212,12 +212,18 @@ jobs:
           
           python3 scripts/export_dosages_csv.py
           
-          # Display sample stats
-          if [ -f "exports/dosage_guidelines_full.csv" ]; then
-            FULL_SIZE=$(wc -l < exports/dosage_guidelines_full.csv)
-            echo "✅ Full CSV: $FULL_SIZE rows"
-            echo "full_csv_rows=$FULL_SIZE" >> $GITHUB_ENV
-          fi
+          # Count rows across all CSV parts
+          TOTAL_ROWS=0
+          for part in exports/dosage_guidelines_part_*.csv; do
+            if [ -f "$part" ]; then
+              ROWS=$(wc -l < "$part")
+              TOTAL_ROWS=$((TOTAL_ROWS + ROWS - 1))
+            fi
+          done
+          TOTAL_ROWS=$((TOTAL_ROWS + 1))
+          
+          echo "✅ Total CSV rows: $TOTAL_ROWS"
+          echo "full_csv_rows=$TOTAL_ROWS" >> $GITHUB_ENV
           
           if [ -f "exports/dosage_guidelines_sample.csv" ]; then
             SAMPLE_SIZE=$(wc -l < exports/dosage_guidelines_sample.csv)
@@ -333,7 +339,7 @@ jobs:
           
           | File | Rows | Purpose |
           |------|------|---------|
-          | `exports/dosage_guidelines_full.csv` | ${{ env.full_csv_rows }} | Complete dataset |
+          | All CSV Parts (chunked) | ${{ env.full_csv_rows }} | Complete dataset |
           | `exports/dosage_guidelines_sample.csv` | ${{ env.sample_csv_rows }} | Sample for inspection |
           
           ## ✅ Quality Assurance
