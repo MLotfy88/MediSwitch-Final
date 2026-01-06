@@ -31,14 +31,31 @@ def main():
         'is_pediatric', 'atc_code', 'route_code', 'route'
     ]
     
-    # Write full CSV
-    print(f"Writing full CSV to {FULL_CSV}...")
-    with open(FULL_CSV, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
-        writer.writeheader()
-        writer.writerows(data)
+    # Write Split CSVs (Chunks of 50k records ~= 50MB)
+    CHUNK_SIZE = 50000
+    total_parts = (len(data) + CHUNK_SIZE - 1) // CHUNK_SIZE
     
-    print(f"✅ Full CSV exported: {len(data):,} records")
+    print(f"Splitting into {total_parts} parts (max {CHUNK_SIZE} records/file)...")
+    
+    for i in range(total_parts):
+        start_idx = i * CHUNK_SIZE
+        end_idx = start_idx + CHUNK_SIZE
+        chunk = data[start_idx:end_idx]
+        
+        part_filename = f"exports/dosage_guidelines_part_{i+1}.csv"
+        print(f"  Writing {part_filename} ({len(chunk):,} records)...")
+        
+        with open(part_filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            writer.writerows(chunk)
+            
+    # Remove full file if it exists to prevent git errors
+    if os.path.exists(FULL_CSV):
+        os.remove(FULL_CSV)
+        print(f"🗑️ Removed oversize file: {FULL_CSV}")
+
+    print(f"✅ Exported {len(data):,} records across {total_parts} files.")
     
     # Create sample
     sample = random.sample(data, min(SAMPLE_SIZE, len(data)))

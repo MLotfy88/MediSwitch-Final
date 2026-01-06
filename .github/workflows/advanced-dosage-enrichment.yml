@@ -267,23 +267,30 @@ jobs:
           echo "- WHO ATC/DDD: ${{ env.who_count }} records" >> commit_message.txt
           echo "- DailyMed: ${{ env.dailymed_count }} records" >> commit_message.txt
           echo "- Still Truncated: ${{ env.truncated_remaining }} records" >> commit_message.txt
-          echo "" >> commit_message.txt
-          echo "📊 Exports:" >> commit_message.txt
-          echo "- Full CSV: ${{ env.full_csv_rows }} rows" >> commit_message.txt
-          echo "- Sample CSV: ${{ env.sample_csv_rows }} rows" >> commit_message.txt
-          echo "" >> commit_message.txt
-          echo "🔄 Workflow: ${{ github.workflow }}" >> commit_message.txt
-          echo "⏰ Completed: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> commit_message.txt
-
-          # Force add compressed production map only (exclude raw 156MB file)
-          git add -f "$DOSAGE_JSON" backups/ exports/ production_data/production_dosages.jsonl.gz
-          git commit -F commit_message.txt || echo "No changes to commit"
-          
-          # Handle concurrent updates (stash just in case, then pull-rebase)
-          git stash
-          git pull --rebase origin main
-          git stash pop || echo "No stash to pop"
-          git push origin main
+      # Commit Enriched Data
+      - name: 💾 Commit Enriched Data
+        run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "Dosage Enrichment Bot"
+            
+            # Force add output files
+            git add -f production_data/production_dosages.jsonl.gz
+            git add assets/data/dosage_guidelines.json.gz
+            
+            # Add ALL CSV parts (chunked to avoid 100MB limit)
+            git add exports/dosage_guidelines_part_*.csv
+            git add exports/dosage_guidelines_sample.csv
+            
+            # Check status
+            git status
+            
+            # Commit and Push with Rebase Strategy
+            git stash  # Stash any unstaged changes just in case
+            git pull --rebase origin main
+            git stash pop || echo "No stash to pop"
+            
+            git commit -m "data: dosage enrichment $(date +'%Y-%m-%d')" || echo "No changes to commit"
+            git push origin main
           
       # ============================================
       # 📊 STEP 9: CREATE SUMMARY REPORT
