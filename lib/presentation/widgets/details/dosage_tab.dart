@@ -127,7 +127,7 @@ class DosageTab extends StatelessWidget {
           child: _buildStatCard(
             context,
             l10n.administrationForm,
-            drug.dosageForm,
+            guideline?.route ?? drug.dosageForm,
             LucideIcons.pill,
             Colors.orange,
           ),

@@ -1098,10 +1098,10 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Use active ingredient
+    // Use LIKE for safer matching with text (case/whitespace resilience)
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'active = ? AND trade_name != ?',
+      where: 'active LIKE ? AND trade_name != ?',
       whereArgs: [active, tradeName],
       limit: 10,
     );
@@ -1114,10 +1114,10 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-    // Same category but different active
+    // Use LIKE for category matching
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: 'category = ? AND active != ?',
+      where: 'category LIKE ? AND active != ?',
       whereArgs: [category, active],
       limit: 10,
     );

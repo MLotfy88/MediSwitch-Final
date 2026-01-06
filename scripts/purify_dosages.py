@@ -80,10 +80,15 @@ def clean_text(text):
     """Advanced clinical text purification"""
     if not text: return ""
     
+    # Pre-cleaning: remove artifacts seen in screenshots
+    text = re.sub(r'Standard Dose:\s*\d+(\.\d+)?\s*(mg|g|mcg|ml)\.?', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'Pediatric Dose:.*?(?=\.|$)', '', text, flags=re.IGNORECASE) # Remove separate pediatric section if mixed
+
     # Step 1: Remove specific section headers (Robust)
     # Matches: "2 DOSAGE AND ADMINISTRATION", "2.1 Adults", "DOSAGE AND ADMINISTRATION"
     text = re.sub(r'^\s*\d+(\.\d+)*\s*[A-Z\s]+\s+', '', text)
-    text = re.sub(r'^DOSAGE AND ADMINISTRATION\s+', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'DOSAGE AND ADMINISTRATION', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'INDICATIONS AND USAGE', '', text, flags=re.IGNORECASE)
 
     # Step 2: Remove boilerplate (Legal disclaimers, references)
     for pattern in BOILERPLATE_PATTERNS:
@@ -101,6 +106,9 @@ def clean_text(text):
         sent = sent.strip()
         if len(sent) < 10: continue
         
+        # Remove partial header residues
+        if re.match(r'^[A-Z\s]+$', sent): continue # All caps sentence usually header
+        
         # Deduplication (Simple Hash)
         sent_hash = hash(sent.lower())
         if sent_hash in seen_hashes: continue
@@ -108,6 +116,10 @@ def clean_text(text):
         # Must match at least one clinical pattern
         is_clinical = any(re.search(pattern, sent, re.IGNORECASE) for pattern in CLINICAL_VERBS)
         
+        # Special Case: If it starts with a number (Dosage), keep it
+        if re.match(r'^\d+(\.\d+)?\s*(mg|g|mcg|ml|tablet|capsule)', sent, re.IGNORECASE):
+            is_clinical = True
+
         if is_clinical:
             useful_sentences.append(sent)
             seen_hashes.add(sent_hash)
@@ -120,6 +132,12 @@ def clean_text(text):
     # Step 5: Collapse whitespace
     cleaned = re.sub(r'\s+', ' ', cleaned).strip()
     
+    # Safety: If result is empty or just punctuation, return original (truncated) or None?
+    # Better to return original cleaned of gross headers than nothing
+    if len(cleaned) < 5: 
+        # Fallback: simple strip
+        return text.strip()
+        
     return cleaned
 
 def extract_frequency_advanced(text):
