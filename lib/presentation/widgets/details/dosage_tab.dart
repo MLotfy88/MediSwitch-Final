@@ -11,10 +11,12 @@ import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:provider/provider.dart';
 
-/// تبويبة الجرعات المصغرة - للأطباء والصيادلة
+/// تبويبة الجرعات المصغرة
 class DosageTab extends StatelessWidget {
+  /// Creates a dosage tab
   const DosageTab({required this.drug, super.key});
 
+  /// The drug entity
   final DrugEntity drug;
 
   @override
@@ -40,23 +42,18 @@ class DosageTab extends StatelessWidget {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // 1️⃣ بطاقة الجرعة القياسية
               _StandardDoseCard(
                 guideline: primary,
                 drugForm: drug.dosageForm,
                 isAr: isAr,
               ),
               const SizedBox(height: 16),
-
-              // 2️⃣ حاسبة الجرعة المصغرة
               if (drug.concentration.isNotEmpty)
                 _MiniDoseCalculator(
                   concentration: drug.concentration,
                   standardDose: primary?.minDose,
                   isAr: isAr,
                 ),
-
-              // 3️⃣ تعليمات WHO (إن وجدت)
               if (primary?.instructions != null &&
                   primary!.instructions!.isNotEmpty) ...[
                 const SizedBox(height: 16),
@@ -74,7 +71,6 @@ class DosageTab extends StatelessWidget {
   }
 }
 
-/// بطاقة الجرعة القياسية
 class _StandardDoseCard extends StatelessWidget {
   const _StandardDoseCard({
     required this.guideline,
@@ -90,7 +86,6 @@ class _StandardDoseCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final appColors = theme.appColors;
-
     final dose = guideline?.minDose;
     final maxDose = guideline?.maxDose;
     final freq = guideline?.frequency;
@@ -102,19 +97,18 @@ class _StandardDoseCard extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            theme.colorScheme.primary.withValues(alpha:(0.08),
-            theme.colorScheme.primary.withValues(alpha:(0.02),
+            theme.colorScheme.primary.withValues(alpha: 0.08),
+            theme.colorScheme.primary.withValues(alpha: 0.02),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: appColors.border.withValues(alpha:(0.3)),
+        border: Border.all(color: appColors.border.withValues(alpha: 0.3)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // العنوان
           Row(
             children: [
               Icon(
@@ -133,8 +127,6 @@ class _StandardDoseCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 16),
-
-          // الجرعة الرئيسية
           Row(
             children: [
               Expanded(
@@ -192,7 +184,9 @@ class _StandardDoseCard extends StatelessWidget {
   }
 
   String _formatFrequency(int? freq, bool isAr) {
-    if (freq == null || freq <= 0) return isAr ? 'حسب الإرشاد' : 'As directed';
+    if (freq == null || freq <= 0) {
+      return isAr ? 'حسب الإرشاد' : 'As directed';
+    }
     if (freq == 24) return isAr ? 'مرة يومياً' : 'Once daily';
     if (freq == 12) return isAr ? 'مرتين يومياً' : 'Twice daily';
     if (freq == 8) return isAr ? '3 مرات يومياً' : '3 times daily';
@@ -201,7 +195,6 @@ class _StandardDoseCard extends StatelessWidget {
   }
 }
 
-/// بلاطة معلومات صغيرة
 class _InfoTile extends StatelessWidget {
   const _InfoTile({
     required this.icon,
@@ -218,11 +211,10 @@ class _InfoTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: color.withValues(alpha:(0.08),
+        color: color.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
@@ -248,7 +240,6 @@ class _InfoTile extends StatelessWidget {
   }
 }
 
-/// حاسبة الجرعة المصغرة
 class _MiniDoseCalculator extends StatefulWidget {
   const _MiniDoseCalculator({
     required this.concentration,
@@ -267,14 +258,12 @@ class _MiniDoseCalculator extends StatefulWidget {
 class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
   final _weightController = TextEditingController();
   final _dosePerKgController = TextEditingController(text: '10');
-
   double? _resultMg;
   double? _resultMl;
 
   @override
   void initState() {
     super.initState();
-    // استخدام الجرعة القياسية إن وجدت
     if (widget.standardDose != null) {
       _dosePerKgController.text = widget.standardDose!.toStringAsFixed(0);
     }
@@ -316,7 +305,8 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
     if (_resultMg == null) return;
     final text =
         _resultMl != null
-            ? '${_resultMg!.toStringAsFixed(1)} mg (${_resultMl!.toStringAsFixed(1)} ml)'
+            ? '${_resultMg!.toStringAsFixed(1)} mg '
+                '(${_resultMl!.toStringAsFixed(1)} ml)'
             : '${_resultMg!.toStringAsFixed(1)} mg';
     Clipboard.setData(ClipboardData(text: text));
     ScaffoldMessenger.of(context).showSnackBar(
@@ -337,13 +327,12 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
       decoration: BoxDecoration(
         color: theme.cardColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: appColors.border.withValues(alpha:(0.3)),
+        border: Border.all(color: appColors.border.withValues(alpha: 0.3)),
         boxShadow: appColors.shadowCard,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // العنوان
           Row(
             children: [
               Icon(
@@ -361,8 +350,6 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
             ],
           ),
           const SizedBox(height: 12),
-
-          // حقول الإدخال
           Row(
             children: [
               Expanded(
@@ -385,8 +372,6 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
             ],
           ),
           const SizedBox(height: 12),
-
-          // النتيجة
           if (_resultMg != null)
             GestureDetector(
               onTap: _copyResult,
@@ -396,7 +381,7 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
                   vertical: 12,
                 ),
                 decoration: BoxDecoration(
-                  color: theme.colorScheme.primary.withValues(alpha:(0.1),
+                  color: theme.colorScheme.primary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Row(
@@ -406,16 +391,19 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          widget.isAr ? 'الجرعة المحسوبة:' : 'Calculated Dose:',
+                          widget.isAr ? 'الجرعة المحسوبة:' : 'Calculated:',
                           style: TextStyle(
                             fontSize: 12,
-                            color: theme.colorScheme.onSurface.withValues(alpha:(0.7),
+                            color: theme.colorScheme.onSurface.withValues(
+                              alpha: 0.7,
+                            ),
                           ),
                         ),
                         const SizedBox(height: 4),
                         Text(
                           _resultMl != null
-                              ? '${_resultMg!.toStringAsFixed(1)} mg (${_resultMl!.toStringAsFixed(1)} ml)'
+                              ? '${_resultMg!.toStringAsFixed(1)} mg '
+                                  '(${_resultMl!.toStringAsFixed(1)} ml)'
                               : '${_resultMg!.toStringAsFixed(1)} mg',
                           style: theme.textTheme.titleMedium?.copyWith(
                             fontWeight: FontWeight.bold,
@@ -439,7 +427,6 @@ class _MiniDoseCalculatorState extends State<_MiniDoseCalculator> {
   }
 }
 
-/// حقل إدخال مخصص
 class _InputField extends StatelessWidget {
   const _InputField({
     required this.controller,
@@ -456,7 +443,6 @@ class _InputField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -464,7 +450,7 @@ class _InputField extends StatelessWidget {
           label,
           style: TextStyle(
             fontSize: 12,
-            color: theme.colorScheme.onSurface.withValues(alpha:(0.6),
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
           ),
         ),
         const SizedBox(height: 4),
@@ -493,7 +479,6 @@ class _InputField extends StatelessWidget {
   }
 }
 
-/// بطاقة التعليمات
 class _InstructionsCard extends StatelessWidget {
   const _InstructionsCard({
     required this.instructions,
@@ -515,7 +500,7 @@ class _InstructionsCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: appColors.infoSoft,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: appColors.info.withValues(alpha:(0.3)),
+        border: Border.all(color: appColors.info.withValues(alpha: 0.3)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -537,7 +522,7 @@ class _InstructionsCard extends StatelessWidget {
                 source,
                 style: TextStyle(
                   fontSize: 10,
-                  color: appColors.info.withValues(alpha:(0.7),
+                  color: appColors.info.withValues(alpha: 0.7),
                 ),
               ),
             ],
