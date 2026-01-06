@@ -25,26 +25,49 @@ def main():
     original_count = len(data)
     print(f"Original records: {original_count:,}")
 
-    # Deduplication by (med_id, source, active_ingredient, instructions)
-    # Include active_ingredient to handle OpenFDA records (which have None for med_id)
-    seen = set()
-    unique = []
+    # Deduplication Strategy: Keep LAST (Newest) record for each (med_id, source)
+    # This ensures refined/enriched records replace legacy ones.
+    
+    unique_map = {}
     duplicates = 0
-
+    legacy_removed = 0
+    
     for rec in data:
-        key = (
-            rec.get('med_id'),
-            rec.get('source'),
-            rec.get('active_ingredient'),
-            rec.get('instructions')
-        )
-        if key not in seen:
-            seen.add(key)
-            unique.append(rec)
+        med_id = rec.get('med_id')
+        source = rec.get('source')
+        
+        # Primary Key: (med_id, source)
+        # Only valid if med_id exists. If not, fallback to full unique content.
+        if med_id:
+            key = (str(med_id), source)
+            
+            if key in unique_map:
+                duplicates += 1
+                # Check if we are replacing a legacy record without Route with one with Route
+                old_rec = unique_map[key]
+                if not old_rec.get('route') and rec.get('route'):
+                    legacy_removed += 1
+            
+            # Always overwrite (Keep Last = Keep Newest)
+            unique_map[key] = rec
+            
         else:
-            duplicates += 1
+            # Fallback for records without med_id (e.g. OpenFDA match errors?)
+            # Use content hash
+            key = (
+                rec.get('active_ingredient'),
+                rec.get('instructions'),
+                source
+            )
+            if key not in unique_map: # Here we can't easily overwrite, implies distinct drug
+                 unique_map[key] = rec
+            else:
+                 duplicates += 1
+
+    unique = list(unique_map.values())
 
     print(f"Duplicates removed: {duplicates:,}")
+    print(f"Legacy records upgraded: {legacy_removed:,}")
     print(f"Unique records: {len(unique):,}")
 
     # Quality metrics
