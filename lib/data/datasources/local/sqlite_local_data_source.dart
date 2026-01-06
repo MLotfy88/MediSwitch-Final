@@ -1092,32 +1092,19 @@ class SqliteLocalDataSource {
   }
 
   // Helper to check for existing medicines (for sync logic to avoid dupes if strictly needed)
-  // Revised findSimilars using med_ingredients intersection
-  Future<List<MedicineModel>> findSimilars(int medId) async {
+  Future<List<MedicineModel>> findSimilars(
+    String active,
+    String tradeName,
+  ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-
-    // Find drugs that share at least one ingredient with the current drug
-    // Exclude the drug itself.
-    final List<Map<String, dynamic>> maps = await db.rawQuery(
-      '''
-      SELECT DISTINCT d.* 
-      FROM ${DatabaseHelper.medicinesTable} d
-      JOIN med_ingredients mi ON d.id = mi.med_id
-      WHERE mi.ingredient IN (
-        SELECT ingredient FROM med_ingredients WHERE med_id = ?
-      )
-      AND d.id != ?
-      LIMIT 10
-    ''',
-      [medId, medId],
+    // Use LIKE for safer matching with text (case/whitespace resilience)
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: 'active LIKE ? AND trade_name != ?',
+      whereArgs: [active, tradeName],
+      limit: 10,
     );
-
-    if (maps.isEmpty) {
-      // Fallback: If no ingredients mapped, return empty (or try fuzzy string search if needed)
-      return [];
-    }
-
     return maps.map((e) => MedicineModel.fromMap(e)).toList();
   }
 
@@ -1127,36 +1114,11 @@ class SqliteLocalDataSource {
   ) async {
     await seedingComplete;
     final db = await dbHelper.database;
-
-    // 1. Identify Broad Specialty
-    final specialty = CategoryMapperHelper.mapCategoryToSpecialty(category);
-
-    // 2. Get Associated Keywords
-    final keywords = CategoryMapperHelper.getKeywords(specialty);
-
-    // 3. Build Query
-    String whereClause;
-    List<dynamic> args = [];
-
-    if (keywords.isNotEmpty) {
-      // Match any keyword for the category
-      final keywordClauses = keywords
-          .map((_) => 'category LIKE ?')
-          .join(' OR ');
-      whereClause = '($keywordClauses) AND active != ?';
-      args.addAll(keywords.map((k) => '%$k%'));
-      args.add(active);
-    } else {
-      // Fallback for general/unmapped categories: Strictish LIKE
-      whereClause = 'category LIKE ? AND active != ?';
-      args.add('%$category%');
-      args.add(active);
-    }
-
+    // Use LIKE for category matching
     final List<Map<String, dynamic>> maps = await db.query(
       DatabaseHelper.medicinesTable,
-      where: whereClause,
-      whereArgs: args,
+      where: 'category LIKE ? AND active != ?',
+      whereArgs: [category, active],
       limit: 10,
     );
     return maps.map((e) => MedicineModel.fromMap(e)).toList();

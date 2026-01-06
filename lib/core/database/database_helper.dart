@@ -80,8 +80,8 @@ class DatabaseHelper {
     _logger.i('DatabaseHelper: Initializing database at $path');
 
     // --- PRE-PACKAGED DATABASE LOGIC ---
-    // v21 marker for the final schema alignment and data refresh
-    final markerFilePath = join(documentsDirectory.path, 'db_v21_refresh.txt');
+    // v19 marker for the final schema alignment
+    final markerFilePath = join(documentsDirectory.path, 'db_v19_nocase.txt');
     final markerFile = File(markerFilePath);
 
     final dbFile = File(path);
@@ -89,12 +89,12 @@ class DatabaseHelper {
 
     if (needsCopy) {
       _logger.i(
-        'DatabaseHelper: Database marker missing (v21_refresh) or DB not found. Attempting asset copy...',
+        'DatabaseHelper: Database marker missing (v19) or DB not found. Attempting asset copy...',
       );
       try {
         await Directory(dirname(path)).create(recursive: true);
 
-        // Parts list (aa to at)
+        // Parts list (aa to aj)
         const partNames = [
           'aa',
           'ab',
@@ -106,16 +106,6 @@ class DatabaseHelper {
           'ah',
           'ai',
           'aj',
-          'ak',
-          'al',
-          'am',
-          'an',
-          'ao',
-          'ap',
-          'aq',
-          'ar',
-          'as',
-          'at',
         ];
 
         // Explicitly delete old DB and any old markers to ensure clean state
