@@ -12,29 +12,7 @@ class GetSimilarDrugsUseCase implements UseCase<List<DrugEntity>, DrugEntity> {
 
   @override
   Future<Either<Failure, List<DrugEntity>>> call(DrugEntity params) async {
-    // Similars logic: Same Active Ingredient
-    final allDrugsResult = await repository.getAllDrugs();
-
-    return allDrugsResult.fold((failure) => Left(failure), (allDrugs) {
-      try {
-        final targetActive = params.active.toLowerCase().trim();
-        if (targetActive.isEmpty) return Right([]);
-
-        final similars =
-            allDrugs.where((drug) {
-              // Exclude self
-              if (drug.id == params.id) return false;
-
-              final currentActive = drug.active.toLowerCase().trim();
-              return currentActive == targetActive;
-            }).toList();
-
-        return Right(similars);
-      } catch (e) {
-        return Left(
-          CacheFailure(message: "Failed to filter similar drugs: $e"),
-        );
-      }
-    });
+    // Delegate to repository which uses SQL for efficient lookup
+    return await repository.findSimilars(params);
   }
 }
