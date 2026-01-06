@@ -603,6 +603,7 @@ def process_datalake():
             'min_dose': dosages.get('min_dose_mg') or dosages.get('adult_dose_mg'),
             'max_dose': dosages.get('max_dose_mg'),
             'frequency': dosages.get('frequency_hours'),
+            'route': dosages.get('route'),
             'is_pediatric': dosages.get('is_pediatric', 0)
         }
         dailymed_for_merge.append(guideline)

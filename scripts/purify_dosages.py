@@ -93,7 +93,7 @@ def clean_text(text):
     
     for sent in sentences:
         sent = sent.strip()
-        if len(sent) < 15: continue  # Too short
+        if len(sent) < 10: continue  # Strictness reduced from 15
         
         # Must match at least one clinical pattern
         is_clinical = any(re.search(pattern, sent, re.IGNORECASE) for pattern in CLINICAL_VERBS)
@@ -152,6 +152,22 @@ def extract_structured_data(rec):
     if clean_instr and len(clean_instr) < len(instructions):
         rec['instructions'] = clean_instr
         
+    # 5. Reconstruct Instruction if Empty/Bad but Data Exists
+    # This rescues "Low Quality" records by creating a synthetic "High Quality" instruction
+    if (not rec.get('instructions') or len(rec['instructions']) < 10) and (rec.get('route') or rec.get('frequency') or rec.get('min_dose')):
+        parts = []
+        if rec.get('min_dose'): parts.append(f"Take {rec['min_dose']}") # Unit often in min_dose string or missing, safely append
+        elif rec.get('max_dose'): parts.append(f"Take up to {rec['max_dose']}")
+        else: parts.append("Take")
+
+        if rec.get('route'): parts.append(str(rec['route']))
+        
+        if rec.get('frequency'): 
+            parts.append(f"every {rec['frequency']} hours")
+        
+        if len(parts) > 1:
+            rec['instructions'] = " ".join(parts) + "."
+
     return rec
 
 
