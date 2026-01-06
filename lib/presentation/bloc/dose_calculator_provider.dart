@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 
-import '../../domain/entities/dosage_result.dart'; // Import DosageResult
+import '../../domain/entities/dosage_result.dart';
 import '../../domain/entities/drug_entity.dart';
-import '../../domain/services/dosage_calculator_service.dart'; // Import Service
+import '../../domain/services/dosage_calculator_service.dart';
 
 class DoseCalculatorProvider extends ChangeNotifier {
   // --- State Variables ---
@@ -15,10 +15,8 @@ class DoseCalculatorProvider extends ChangeNotifier {
   String _error = '';
   bool _showDrugSelectionError = false;
 
-  // Inject the service
   final DosageCalculatorService _dosageCalculatorService;
 
-  // Constructor
   DoseCalculatorProvider({DosageCalculatorService? dosageCalculatorService})
     : _dosageCalculatorService =
           dosageCalculatorService ?? DosageCalculatorService();
@@ -73,7 +71,6 @@ class DoseCalculatorProvider extends ChangeNotifier {
   }
 
   Future<void> calculateDose() async {
-    // Reset errors first
     _error = '';
     _showDrugSelectionError = false;
     _dosageResult = null;
@@ -110,14 +107,14 @@ class DoseCalculatorProvider extends ChangeNotifier {
     notifyListeners();
 
     try {
-      // Call the dosage calculation service using internal state
-      _dosageResult = _dosageCalculatorService.calculateDosage(
+      // استخدام الدالة الجديدة مع guidelines
+      _dosageResult = _dosageCalculatorService.calculateDosageFromDB(
         _selectedDrug!,
         weightKg,
         ageYears,
         durationDays: durationDays,
       );
-      _error = ''; // Clear error on success
+      _error = '';
     } catch (e) {
       print('Error during dose calculation: $e');
       _error = 'حدث خطأ غير متوقع أثناء حساب الجرعة.';
