@@ -90,18 +90,27 @@ def clean_text(text):
         text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.DOTALL)
     
     # Step 3: Extract only clinically actionable sentences
-    sentences = re.split(r'[.!]\s+', text)
+    sentences = re.split(r'(?<=[.!])\s+', text) # Split after punctuation
+    if len(sentences) == 1 and len(text) > 100: # Fallback for bad punctuation
+         sentences = re.split(r'\.\s+', text)
+
     useful_sentences = []
+    seen_hashes = set()
     
     for sent in sentences:
         sent = sent.strip()
-        if len(sent) < 10: continue  # Strictness reduced from 15
+        if len(sent) < 10: continue
+        
+        # Deduplication (Simple Hash)
+        sent_hash = hash(sent.lower())
+        if sent_hash in seen_hashes: continue
         
         # Must match at least one clinical pattern
         is_clinical = any(re.search(pattern, sent, re.IGNORECASE) for pattern in CLINICAL_VERBS)
         
         if is_clinical:
             useful_sentences.append(sent)
+            seen_hashes.add(sent_hash)
     
     # Step 4: Reconstruct text
     cleaned = '. '.join(useful_sentences)
@@ -112,6 +121,22 @@ def clean_text(text):
     cleaned = re.sub(r'\s+', ' ', cleaned).strip()
     
     return cleaned
+
+def extract_frequency_advanced(text):
+    """Parses complex frequency patterns"""
+    # 1. "Every X to Y days" -> Take avg or min? Take Min (Conservative)
+    match = re.search(r'every\s+(\d+)\s*(?:[-to]\s*(\d+))?\s*days?', text, re.IGNORECASE)
+    if match:
+        days = int(match.group(1))
+        return days * 24
+        
+    # 2. "Every X to Y hours"
+    match = re.search(r'every\s+(\d+)\s*(?:[-to]\s*(\d+))?\s*hours?', text, re.IGNORECASE)
+    if match:
+        hours = int(match.group(1))
+        return hours
+        
+    return None
 
 def extract_structured_data(rec):
     instructions = rec.get('instructions', '') or rec.get('package_label', '')
@@ -139,6 +164,10 @@ def extract_structured_data(rec):
             if re.search(pattern, instructions, re.IGNORECASE):
                 rec['frequency'] = freq
                 break
+        
+        # Try advanced patterns if still missing
+        if not rec.get('frequency'):
+            rec['frequency'] = extract_frequency_advanced(instructions)
                 
     # 3. Extract Duration (if missing)
     if not rec.get('duration'):
