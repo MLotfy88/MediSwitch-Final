@@ -52,6 +52,7 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
     condition TEXT,
     source TEXT,
     is_pediatric INTEGER,
+    route TEXT,
     active_ingredient TEXT,
     strength TEXT,
     standard_dose TEXT,
@@ -92,22 +93,26 @@ def export_dosages_sql(json_path, output_path='d1_dosages.sql'):
                 d.get('instructions'),
                 d.get('condition'),
                 d.get('source', 'DailyMed'),
-                d.get('is_pediatric', False)
+                d.get('is_pediatric', False),
+                d.get('route'),               # New Field
+                d.get('active_ingredient'),   # Extra
+                d.get('strength'),            # Extra
+                d.get('standard_dose'),       # Extra
+                d.get('package_label')        # Extra
             ]
             
-            # Format: (med_id, dailymed, min, max, freq, dur, instr, cond, source, ped)
-            # Extra fields set to NULL
-            v_str = f"({sql_val(vals[0])}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])}, {sql_val(vals[6])}, {sql_val(vals[7])}, {sql_val(vals[8])}, {sql_bool(vals[9])}, NULL, NULL, NULL, NULL)"
+            # Format: (med_id, dailymed, min, max, freq, dur, instr, cond, source, ped, route, active, strength, std_dose, pkg_lbl)
+            v_str = f"({sql_val(vals[0])}, {sql_val(vals[1])}, {sql_val(vals[2])}, {sql_val(vals[3])}, {sql_val(vals[4])}, {sql_val(vals[5])}, {sql_val(vals[6])}, {sql_val(vals[7])}, {sql_val(vals[8])}, {sql_bool(vals[9])}, {sql_val(vals[10])}, {sql_val(vals[11])}, {sql_val(vals[12])}, {sql_val(vals[13])}, {sql_val(vals[14])})"
             batch.append(v_str)
 
             if len(batch) >= batch_size:
-                f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, active_ingredient, strength, standard_dose, package_label) VALUES\n")
+                f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, route, active_ingredient, strength, standard_dose, package_label) VALUES\n")
                 f.write(",\n".join(batch))
                 f.write(";\n\n")
                 batch = []
         
         if batch:
-            f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, active_ingredient, strength, standard_dose, package_label) VALUES\n")
+            f.write("INSERT INTO dosage_guidelines (med_id, dailymed_setid, min_dose, max_dose, frequency, duration, instructions, condition, source, is_pediatric, route, active_ingredient, strength, standard_dose, package_label) VALUES\n")
             f.write(",\n".join(batch))
             f.write(";\n\n")
             

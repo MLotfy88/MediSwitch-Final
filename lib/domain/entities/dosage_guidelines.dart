@@ -10,6 +10,7 @@ class DosageGuidelines {
   final String? condition;
   final String source; // 'DailyMed' or 'Local'
   final bool isPediatric;
+  final String? route;
 
   const DosageGuidelines({
     this.id,
@@ -23,6 +24,7 @@ class DosageGuidelines {
     this.condition,
     this.source = 'Local',
     this.isPediatric = false,
+    this.route,
   });
 
   factory DosageGuidelines.fromJson(Map<String, dynamic> json) {
@@ -38,6 +40,7 @@ class DosageGuidelines {
       condition: json['condition'] as String?,
       source: json['source'] as String? ?? 'Local',
       isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
+      route: json['route'] as String?,
     );
   }
 
@@ -54,6 +57,7 @@ class DosageGuidelines {
       'condition': condition,
       'source': source,
       'is_pediatric': isPediatric ? 1 : 0,
+      'route': route,
     };
   }
 }

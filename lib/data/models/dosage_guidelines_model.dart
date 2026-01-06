@@ -13,6 +13,7 @@ class DosageGuidelinesModel extends DosageGuidelines {
     super.condition,
     super.source = 'Local',
     super.isPediatric = false,
+    super.route,
   });
 
   factory DosageGuidelinesModel.fromJson(Map<String, dynamic> json) {
@@ -28,6 +29,7 @@ class DosageGuidelinesModel extends DosageGuidelines {
       condition: json['condition'] as String?,
       source: json['source'] as String? ?? 'DailyMed',
       isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
+      route: json['route'] as String?,
     );
   }
 
@@ -44,6 +46,7 @@ class DosageGuidelinesModel extends DosageGuidelines {
       'condition': condition,
       'source': source,
       'is_pediatric': isPediatric ? 1 : 0,
+      'route': route,
     };
   }
 

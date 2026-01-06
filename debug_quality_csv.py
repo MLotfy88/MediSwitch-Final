@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import csv
+import glob
 import re
 import sys
 
@@ -28,21 +29,18 @@ def is_clinically_useful(text):
     return True
 
 def analyze_row(row):
-    text = row.get('instructions', '')
-    route = row.get('route', '')
+    # Logic matching analyze_quality.py
+    instructions = row.get('instructions', '')
     freq = row.get('frequency', '')
-
-    has_useful_text = is_clinically_useful(text)
+    route = row.get('route', '')
     
-    # Check Freq
-    has_freq = False
     try:
-        # analyze_quality expects frequency > 0
-        if freq and float(freq) > 0: has_freq = True
-    except: pass
-    
-    # Check Route
-    has_route = bool(route and len(route) > 2)
+        has_freq = bool(freq and float(freq) > 0)
+    except:
+        has_freq = False
+        
+    has_route = bool(route and len(route) > 0)
+    has_useful_text = is_clinically_useful(instructions)
     
     status = 'Low'
     if has_useful_text and has_freq and has_route:
@@ -50,49 +48,52 @@ def analyze_row(row):
     elif has_useful_text or (has_freq and has_route):
         status = 'Medium'
         
-    return status, text, freq, route, row.get('source')
+    return status, instructions, freq, route, row.get('source')
 
 def main():
-    csv_file = 'exports/dosage_guidelines_full.csv'
-    print(f"Analyzing {csv_file} for LOW quality records...")
+    csv_files = sorted(glob.glob('exports/dosage_guidelines_part_*.csv'))
+    print(f"Analyzing {len(csv_files)} output files...")
     
     low_count = 0
     total = 0
+    stats = {'High': 0, 'Medium': 0, 'Low': 0}
+    sources = {}
     
-    sources_of_low = {}
-    reasons = {'no_text': 0, 'no_freq': 0, 'no_route': 0, 'text_no_numbers': 0}
+    for csv_file in csv_files:
+        print(f"Reading {csv_file}...")
+        with open(csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                total += 1
+                status, text, freq, route, source = analyze_row(row)
+                stats[status] += 1
+                
+                # Track Source Stats
+                src = source or 'Unknown'
+                if src not in sources: sources[src] = {'High': 0, 'Medium': 0, 'Low': 0}
+                sources[src][status] += 1
+                
+                if status == 'Low':
+                    low_count += 1
+                    # Debug print for first few Lows
+                    if low_count <= 5:
+                        print(f"\n[LOW] Source: {source}")
+                        print(f"  Txt: {repr(text)}")
+                        print(f"  Frq: {repr(freq)} | Rte: {repr(route)}")
+
+    print("\n" + "="*50)
+    print(f"📊 Local Quality Check Results (Total: {total:,})")
+    print("="*50)
+    print(f"🏆 HIGH   : {stats['High']:,} ({stats['High']/total*100:.1f}%)")
+    print(f"✨ MEDIUM : {stats['Medium']:,} ({stats['Medium']/total*100:.1f}%)")
+    print(f"⚠️ LOW    : {stats['Low']:,} ({stats['Low']/total*100:.1f}%)")
+    print("-" * 50)
     
-    with open(csv_file, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            total += 1
-            status, text, freq, route, source = analyze_row(row)
-            
-            if status == 'Low':
-                low_count += 1
-                sources_of_low[source] = sources_of_low.get(source, 0) + 1
-                
-                # Analyze reason
-                if not text: reasons['no_text'] += 1
-                elif not re.search(r'\d+', text): reasons['text_no_numbers'] += 1
-                
-                if not freq or freq == '0': reasons['no_freq'] += 1
-                if not route: reasons['no_route'] += 1
-                
-                # Print breakdown for DailyMed specifically
-                if source == 'DailyMed' and low_count < 50:
-                    print(f"\n[LOW DailyMed] ID: {row.get('med_id')}")
-                    print(f"  Txt: {repr(text)}")
-                    print(f"  Frq: {repr(freq)} | Rte: {repr(route)}")
-                    
-    print("\n--- Summary ---")
-    print(f"Total Low: {low_count}/{total} ({low_count/total*100:.1f}%)")
-    print("Sources of Low:")
-    for s, c in sources_of_low.items():
-        print(f"  {s}: {c}")
-    print("Reasons (overlap possible):")
-    for r, c in reasons.items():
-        print(f"  {r}: {c}")
+    print("\n🔍 Breakdown by Source:")
+    for src, counts in sources.items():
+        t = sum(counts.values())
+        print(f"  • {src}: {counts['High']/t*100:.1f}% High / {counts['Low']/t*100:.1f}% Low (n={t:,})")
+
 
 if __name__ == '__main__':
     main()
