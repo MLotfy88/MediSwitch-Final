@@ -80,9 +80,11 @@ def clean_text(text):
     """Advanced clinical text purification"""
     if not text: return ""
     
-    # Step 1: Remove section headers (e.g., "2.1 Adult Dosage")
-    text = re.sub(r'^\d+(\.\d+)*\s+[A-Z].*?\n', '', text, flags=re.MULTILINE)
-    
+    # Step 1: Remove specific section headers (Robust)
+    # Matches: "2 DOSAGE AND ADMINISTRATION", "2.1 Adults", "DOSAGE AND ADMINISTRATION"
+    text = re.sub(r'^\s*\d+(\.\d+)*\s*[A-Z\s]+\s+', '', text)
+    text = re.sub(r'^DOSAGE AND ADMINISTRATION\s+', '', text, flags=re.IGNORECASE)
+
     # Step 2: Remove boilerplate (Legal disclaimers, references)
     for pattern in BOILERPLATE_PATTERNS:
         text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.DOTALL)
@@ -147,10 +149,9 @@ def extract_structured_data(rec):
             if 'week' in unit: val *= 7
             rec['duration'] = val
             
-    # 4. Clean Instructions
+    # 4. Clean Instructions - ALWAYS APPLY or Fallback to Reconstruction
     clean_instr = clean_text(instructions)
-    if clean_instr and len(clean_instr) < len(instructions):
-        rec['instructions'] = clean_instr
+    rec['instructions'] = clean_instr
         
     # 5. Reconstruct Instruction if Empty/Bad but Data Exists
     # This rescues "Low Quality" records by creating a synthetic "High Quality" instruction
