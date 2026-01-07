@@ -20,7 +20,7 @@ ROUTE_PATTERNS = {
     'Subcutaneous': r'\b(subcutaneous|sc|s\.c\.|injection|حقن تحت الجلد|تحت الجلد)\b',
     'Topical': r'\b(topical|apply|skin|cream|ointment|gel|lotion|موضعي|دهان|كريم|مرهم)\b',
     'Inhalation': r'\b(inhalation|inhale|nebulizer|inhaler|استنشاق|بخاخ)\b',
-    'Ophthalmic': r'\b(ophthalmic|eye|ocular|عين|قطرة عين)\b',
+    'Ophthalmic': r'\b(ophthalmic|eye|eyes|ocular|instill|drop|drops|conjunctival|قطرة عين|عين)\b',
     'Nasal': r'\b(nasal|nose|spray|أنف|بخاخ أنف)\b',
     'Rectal': r'\b(rectal|suppository|شرج|تحاميل|لبوس)\b',
     'Vaginal': r'\b(vaginal|مهبل|تحاميل مهبلية)\b',
@@ -65,6 +65,11 @@ BOILERPLATE_PATTERNS = [
     r'INDICATIONS AND USAGE.*',
     r'Always (consult|check|follow).*physician.*?(\.|$)',
     r'As directed by.*physician.*?(\.|$)',
+    # NEW: From LOW quality diagnostic
+    r'Care should be taken.*?(\.|$)',
+    r'If signs and symptoms fail.*?(\.|$)',
+    r'the patient should be re-evaluated.*?(\.|$)',
+    r'therapy prematurely.*?(\.|$)',
 ]
 
 # Actionable Sentence Starters (Clinical)
@@ -141,8 +146,27 @@ def clean_text(text):
     return cleaned
 
 def extract_frequency_advanced(text):
-    """Parses complex frequency patterns"""
-    # 1. "Every X to Y days" -> Take avg or min? Take Min (Conservative)
+    """Parses complex frequency patterns including word-based"""
+    # Word-based frequencies
+    word_freq_patterns = {
+        r'\bevery (one|1) hour\b': 1,
+        r'\bevery (two|2) hours?\b': 2,
+        r'\bevery (three|3) hours?\b': 3,
+        r'\bevery (four|4) hours?\b': 4,
+        r'\bevery (six|6) hours?\b': 6,
+        r'\bevery (eight|8) hours?\b': 8,
+        r'\bevery (twelve|12) hours?\b': 12,
+        # Ranges: "every three to four hours" → take minimum (conservative)
+        r'\bevery (three|3) to (four|4) hours?\b': 3,
+        r'\bevery (four|4) to (six|6) hours?\b': 4,
+    }
+    
+    for pattern, freq in word_freq_patterns.items():
+        if re.search(pattern, text, re.IGNORECASE):
+            return freq
+    
+    # Numeric patterns (existing logic)
+    # 1. "Every X to Y days" → Take min (Conservative)
     match = re.search(r'every\s+(\d+)\s*(?:[-to]\s*(\d+))?\s*days?', text, re.IGNORECASE)
     if match:
         days = int(match.group(1))
@@ -156,8 +180,34 @@ def extract_frequency_advanced(text):
         
     return None
 
+def normalize_word_numbers(text):
+    """Convert word numbers to digits: 'one drop' → '1 drop'"""
+    if not text:
+        return text
+    
+    word_map = {
+        r'\bone\b': '1',
+        r'\btwo\b': '2', 
+        r'\bthree\b': '3',
+        r'\bfour\b': '4',
+        r'\bfive\b': '5',
+        r'\bsix\b': '6',
+        r'\bseven\b': '7',
+        r'\beight\b': '8',
+    }
+    
+    for word, digit in word_map.items():
+        text = re.sub(word, digit, text, flags=re.IGNORECASE)
+    
+    return text
+
 def extract_structured_data(rec):
     instructions = rec.get('instructions', '') or rec.get('package_label', '')
+    
+    # Normalize word numbers first to help detection
+    if instructions:
+        instructions = normalize_word_numbers(instructions)
+        rec['instructions'] = instructions
     
     # 0. WHO Code Mapping (High Priority & Accuracy)
     route_code = rec.get('route_code')
