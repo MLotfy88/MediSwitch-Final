@@ -28,10 +28,19 @@ def main():
     # Deduplication Strategy: Keep LAST (Newest) record for each (med_id, source)
     # This ensures refined/enriched records replace legacy ones.
     
+    # Phase 1: Identify ingredients covered by Premium Sources
+    premium_ingredients = set()
+    for rec in data:
+        src = rec.get('source', '')
+        ing = rec.get('active_ingredient')
+        if src in ['WHO ATC/DDD 2024', 'DailyMed'] and ing:
+            premium_ingredients.add(ing.lower())
+
     unique_map = {}
     duplicates = 0
     legacy_removed = 0
     garbage_dropped = 0
+    ingredient_redundancy_dropped = 0
     
     import re
     def is_garbage(r):
@@ -51,9 +60,29 @@ def main():
         return False
 
     for rec in data:
-        if is_garbage(rec):
-            garbage_dropped += 1
-            continue
+        # Check if garbage or redundant
+        src = rec.get('source', '')
+        is_premium = src in ['WHO ATC/DDD 2024', 'DailyMed', 'OpenFDA']
+        
+        if not is_premium:
+            # Check redundancy
+            ing = rec.get('active_ingredient')
+            if ing and ing.lower() in premium_ingredients:
+                ingredient_redundancy_dropped += 1
+                continue
+                
+            # Check content quality
+            text = rec.get('instructions', '')
+            has_nums = bool(re.search(r'\d+', text))
+            has_freq = bool(rec.get('frequency'))
+            has_route = bool(rec.get('route'))
+            
+            if not has_nums and not has_freq and not has_route:
+                garbage_dropped += 1
+                continue
+                
+        if is_garbage(rec): # Redundant call? The logic above replaces is_garbage but safer to keep functional structure if needed
+             pass 
 
         med_id = rec.get('med_id')
         source = rec.get('source')
@@ -86,7 +115,8 @@ def main():
 
     print(f"Duplicates removed: {duplicates:,}")
     print(f"Garbage records dropped: {garbage_dropped:,}")
-    print(f"Legacy records upgraded: {legacy_removed:,}")
+    print(f"Redundant Legacy Dropped: {ingredient_redundancy_dropped:,}")
+    print(f"Legacy upgraded (Route fix): {legacy_removed:,}")
     print(f"Unique records: {len(unique):,}")
 
     # Quality metrics
