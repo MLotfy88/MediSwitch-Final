@@ -569,7 +569,7 @@ class _InstructionsCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           SelectableText(
-            instructions,
+            _cleanInstructions(instructions),
             style: TextStyle(
               color: theme.colorScheme.onSurface,
               fontSize: 13,
@@ -579,5 +579,36 @@ class _InstructionsCard extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  String _cleanInstructions(String text) {
+    var cleaned = text;
+
+    // 1. Remove "Standard Dose: X mg." prefix if present
+    // Matches "Standard Dose: 1000.0mg. " or similar variations
+    final prefixRegex = RegExp(
+      r'^Standard Dose:\s*[\d\.]+\s*mg\.?\s*',
+      caseSensitive: false,
+    );
+    cleaned = cleaned.replaceAll(prefixRegex, '');
+
+    // 2. Format headers (WORDS IN CAPS)
+    // Add double newline before headers like "DOSAGE AND ADMINISTRATION"
+    // Heuristic: continuous uppercase words of length > 3
+    final headerRegex = RegExp(r'([A-Z]{3,}(\s+[A-Z]{3,})*)');
+    cleaned = cleaned.replaceAllMapped(headerRegex, (match) {
+      final header = match.group(0);
+      // Avoid matching simple acronyms like WHO, FDA unless it's a longer phrase
+      if (header != null && header.length > 5) {
+        return '\n\n$header\n';
+      }
+      return header ?? '';
+    });
+
+    // 3. Clean up generic weirdness
+    cleaned = cleaned.replaceAll(' .', '.'); // fix space before dot
+    cleaned = cleaned.trim();
+
+    return cleaned;
   }
 }
