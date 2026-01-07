@@ -612,7 +612,13 @@ def process_datalake():
             'max_dose': dosages.get('max_dose_mg'),
             'frequency': dosages.get('frequency_hours'),
             'route': dosages.get('route'),
-            'is_pediatric': dosages.get('is_pediatric', 0)
+            'is_pediatric': dosages.get('is_pediatric', 0),
+            # NEW EXTRACTED FIELDS
+            'clinical_studies': clinical.get('clinical_studies'),
+            'adverse_reactions': clinical.get('adverse_reactions'),
+            'clinical_pharmacology': clinical.get('clinical_pharmacology'),
+            'overdosage': clinical.get('overdosage'),
+            'diff_concentration': rec.get('concentration') # Store as diff_concentration to avoid conflict if model changes
         }
         dailymed_for_merge.append(guideline)
     
