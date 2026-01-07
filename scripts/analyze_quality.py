@@ -9,6 +9,7 @@ import sys
 
 import json
 import gzip
+from collections import defaultdict
 
 # Input File
 INPUT_FILE = 'assets/data/dosage_guidelines.json.gz'
@@ -116,6 +117,37 @@ def main():
         f.write(f'| 🏆 **HIGH** | {stats["High"]:,} | {stats["High"]/total*100:.1f}% | Useful Text + Freq + Route |\n')
         f.write(f'| ✨ **MEDIUM** | {stats["Medium"]:,} | {stats["Medium"]/total*100:.1f}% | Useful Text or Numbers Only |\n')
         f.write(f'| ⚠️ **LOW** | {stats["Low"]:,} | {stats["Low"]/total*100:.1f}% | Generic/Lazy Content |\n\n')
+
+        # === New: Field Coverage Table ===
+        
+        # 1. Identify all fields
+        all_fields = set()
+        for row in rows:
+            all_fields.update(row.keys())
+            
+        # 2. Count non-empty
+        field_stats = defaultdict(int)
+        for row in rows:
+            for field in all_fields:
+                val = row.get(field)
+                if val is not None and val != "" and val != "None":
+                    field_stats[field] += 1
+                    
+        # 3. Write Table
+        f.write('### 📊 Field Coverage Analysis\n\n')
+        f.write('| Field Name | Filled Count | Coverage % |\n')
+        f.write('|---|---|---|\n')
+        
+        # Sort by coverage desc
+        sorted_fields = sorted(field_stats.items(), key=lambda x: x[1], reverse=True)
+        
+        for field, count in sorted_fields:
+            if field in ['dailymed_setid', 'linkage_method', 'med_id']: continue # Skip technical IDs for cleaner report
+            pct = (count / total) * 100
+            f.write(f'| `{field}` | {count:,} | **{pct:.1f}%** |\n')
+            print(f"  • {field}: {pct:.1f}% ({count:,})")
+            
+        f.write('\n')
 
     # Print Report to Stdout (Backup for Visibility)
     print("\n" + "="*50)
