@@ -28,7 +28,10 @@ def main():
     fieldnames = [
         'id', 'med_id', 'dailymed_setid', 'min_dose', 'max_dose',
         'frequency', 'duration', 'instructions', 'condition', 'source',
-        'is_pediatric', 'atc_code', 'route_code', 'route'
+        'is_pediatric', 'atc_code', 'route_code', 'route',
+        # New Enriched Fields
+        'clinical_studies', 'adverse_reactions', 'clinical_pharmacology', 
+        'overdosage', 'diff_concentration'
     ]
     
     # Write Split CSVs (Chunks of 50k records ~= 50MB)
