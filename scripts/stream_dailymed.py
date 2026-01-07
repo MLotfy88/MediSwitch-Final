@@ -54,7 +54,11 @@ SECTIONS_MAP = {
     '88822-3': 'hepatic_impairment',
     '34070-3': 'contraindications',
     '34071-1': 'warnings_and_precautions',
-    '34073-7': 'drug_interactions',
+    # '34073-7': 'drug_interactions', # Removed as per user request
+    '34092-7': 'clinical_studies',
+    '34084-4': 'adverse_reactions',
+    '34090-1': 'clinical_pharmacology',
+    '34088-5': 'overdosage',
 }
 
 class DailyMedExtractor:

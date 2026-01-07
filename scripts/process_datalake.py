@@ -302,10 +302,10 @@ def load_ingredients_from_db():
         conn.close()
         return {}, {}, {}
 
-    # Map: Normalized Ingredient -> List of (med_id, trade_name)
-    # We join with 'drugs' table (as defined in DatabaseHelper) to get trade name
+    # Map: Normalized Ingredient -> List of (med_id, trade_name, concentration)
+    # We join with 'drugs' table (as defined in DatabaseHelper) to get trade name and concentration
     query = """
-    SELECT m.id, m.trade_name, mi.ingredient 
+    SELECT m.id, m.trade_name, m.concentration, mi.ingredient 
     FROM med_ingredients mi
     JOIN drugs m ON mi.med_id = m.id
     """
@@ -316,10 +316,15 @@ def load_ingredients_from_db():
     cursor.execute(query)
     rows = cursor.fetchall()
     
-    for med_id, trade_name, ingredient in rows:
+    for med_id, trade_name, concentration, ingredient in rows:
         if not ingredient: continue
         
-        record = {'id': med_id, 'trade_name': trade_name, 'original_active': ingredient}
+        record = {
+            'id': med_id, 
+            'trade_name': trade_name, 
+            'concentration': concentration, # From Local DB
+            'original_active': ingredient
+        }
         
         # Tier 1: Exact
         norm_exact = normalize_active_ingredient(ingredient, strip_salts=False)
@@ -490,15 +495,13 @@ def process_datalake():
                     final_conc = None
                     conc_source = "None"
                     
-                    # 1. App Regex
-                    if app_rec.get('original_name'):
-                         app_conc_match = STRENGTH_PATTERN.search(app_rec['original_name'])
-                         if app_conc_match:
-                             final_conc = app_conc_match.group(0).strip()
-                             conc_source = "App_Name_Regex"
+                    # 1. Local DB Concentration (PRIORITY)
+                    if app_rec.get('concentration'):
+                        final_conc = app_rec.get('concentration')
+                        conc_source = "Local_DB"
                     
                     # 2. DailyMed Fallback
-                    if (not final_conc or final_conc == "None") and concentration:
+                    elif concentration:
                         final_conc = concentration
                         conc_source = source_concentration
                         
@@ -533,6 +536,11 @@ def process_datalake():
                             'pediatric_use': pediatric_text[:10000] if pediatric_text else None,
                             'pregnancy': clinical.get('pregnancy')[:5000] if clinical.get('pregnancy') else None,
                             'boxed_warning': clinical.get('boxed_warning')[:5000] if clinical.get('boxed_warning') else None,
+                            # NEW FIELDS
+                            'clinical_studies': clinical.get('clinical_studies')[:10000] if clinical.get('clinical_studies') else None,
+                            'adverse_reactions': clinical.get('adverse_reactions')[:10000] if clinical.get('adverse_reactions') else None,
+                            'clinical_pharmacology': clinical.get('clinical_pharmacology')[:10000] if clinical.get('clinical_pharmacology') else None,
+                            'overdosage': clinical.get('overdosage')[:5000] if clinical.get('overdosage') else None,
                         },
                          'set_id': entry.get('set_id'),
                          'product_codes': [p.get('product_code') for p in products if p.get('product_code')],
