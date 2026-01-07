@@ -50,6 +50,25 @@ def is_clinically_useful(text):
     if not re.search(r'\d+', text): return False
     return True
 
+def is_truncated(text):
+    """Detects if text appears cut off."""
+    if not text: return False
+    text = text.strip()
+    
+    # 1. Obvious markers
+    if text.endswith('...') or text.endswith('..'): return True
+    
+    # 2. Common web scraping artifacts
+    lower = text.lower()
+    if lower.endswith(' see more') or lower.endswith(' read more'): return True
+    
+    # 3. Long text without punctuation at end (suggests cut off mid-sentence)
+    # shorter texts might be "10mg daily" (no dot), so only check long blocks
+    if len(text) > 150 and text[-1] not in ['.', '!', '?', ':', ')', ']', '"', ';']:
+        return True
+        
+    return False
+
 def analyze_row(row):
     instructions = row.get('instructions', '')
     freq = row.get('frequency')
@@ -61,8 +80,12 @@ def analyze_row(row):
     has_dur = bool(dur and float(dur) > 0)
     has_route = bool(route)
     has_useful_text = is_clinically_useful(instructions)
+    is_cut_off = is_truncated(instructions)
     
     # Classification
+    if is_cut_off:
+        return 'Low' # Penalty for truncation
+        
     if has_useful_text and has_freq and has_route:
         return 'High'
     elif has_useful_text or (has_freq and has_route):
@@ -83,10 +106,14 @@ def main():
     total = len(rows)
     stats = {'High': 0, 'Medium': 0, 'Low': 0}
     sources = {}
+    truncated_count = 0
     
     for row in rows:
         rating = analyze_row(row)
         stats[rating] += 1
+        
+        if is_truncated(row.get('instructions', '')):
+            truncated_count += 1
         
         src = row.get('source', 'Unknown')
         if src not in sources: sources[src] = {'High': 0, 'Medium': 0, 'Low': 0}
@@ -99,8 +126,9 @@ def main():
     print(f"   {stats['High']:,} ({stats['High']/total*100:.1f}%)")
     print(f"✨ MEDIUM Quality (Useful Text OR Freq/Route):")
     print(f"   {stats['Medium']:,} ({stats['Medium']/total*100:.1f}%)")
-    print(f"⚠️ LOW Quality (Generic/Empty/Lazy):")
+    print(f"⚠️ LOW Quality (Generic/Empty/Lazy/Truncated):")
     print(f"   {stats['Low']:,} ({stats['Low']/total*100:.1f}%)")
+    print(f"   (Includes {truncated_count:,} truncated records)")
     
     print("\n🔍 Breakdown by Source:")
     for src, counts in sources.items():
@@ -116,7 +144,8 @@ def main():
         f.write('|---|---|---|---|\n')
         f.write(f'| 🏆 **HIGH** | {stats["High"]:,} | {stats["High"]/total*100:.1f}% | Useful Text + Freq + Route |\n')
         f.write(f'| ✨ **MEDIUM** | {stats["Medium"]:,} | {stats["Medium"]/total*100:.1f}% | Useful Text or Numbers Only |\n')
-        f.write(f'| ⚠️ **LOW** | {stats["Low"]:,} | {stats["Low"]/total*100:.1f}% | Generic/Lazy Content |\n\n')
+        f.write(f'| ⚠️ **LOW** | {stats["Low"]:,} | {stats["Low"]/total*100:.1f}% | Generic/Lazy/Truncated Content |\n')
+        f.write(f'\n> ℹ️ **Note:** {truncated_count:,} records were flagged as truncated/incomplete.\n\n')
 
         # === New: Field Coverage Table ===
         
