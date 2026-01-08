@@ -24,6 +24,10 @@ if not os.path.exists(DATALAKE_FILE):
     DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.jsonl')
 if not os.path.exists(DATALAKE_FILE):
     DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json')
+    
+# NEW: High-Quality SPL Enriched Data (from ingest_spl_data.py)
+SPL_ENRICHED_FILE = os.path.join(BASE_DIR, 'production_data', 'spl_enriched_dosages.jsonl')
+
 PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl.gz')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'production_debug.json')
 MEDS_CSV = os.path.join(BASE_DIR, 'assets', 'meds.csv')
@@ -379,6 +383,59 @@ def process_datalake():
     processed_count = 0
     match_log_count = 0
     best_matches = {} # med_id -> {score, record}
+    
+    # 2. Load SPL Enriched Data (Priority 1)
+    if os.path.exists(SPL_ENRICHED_FILE):
+        print(f"✅ Loading SPL Enriched Data from {SPL_ENRICHED_FILE}...")
+        try:
+            with open(SPL_ENRICHED_FILE, 'r', encoding='utf-8') as f_spl:
+                for line in f_spl:
+                    if not line.strip(): continue
+                    try:
+                        record = json.loads(line)
+                        med_id = record.get('med_id')
+                        if med_id:
+                            # SPL Data is Gold Standard (Score 1000)
+                            # We create a pseudo-Datalake entry for it
+                            
+                            # Clean up section text
+                            text = record.get('section_text', '')
+                            
+                            # Use Parser to extract structured dosage from this text if raw
+                            # Or assumes ingest_spl_data already did some structuring?
+                            # For now, let's treat it as a high-quality "Raw" entry that Purify step will love.
+                            
+                            # Convert SPL record to compatible candidate structure
+                            # Re-using DosageParser on the high-quality text
+                            extracted_guides = dosage_parser.extract_structured_data(text, record.get('spl_generic', ''))
+                            
+                            spl_candidate = {
+                                "med_id": med_id,
+                                "source": "DailyMed_SPL", # Gold Standard
+                                "dailymed_setid": record.get('spl_set_id'),
+                                "dailymed_name": record.get('spl_generic'),
+                                "trade_name": None, # Could link if needed
+                                "concentration": None,
+                                "dosages": extracted_guides if extracted_guides else {},
+                                "clinical_text": {
+                                    "dosage": text,
+                                    "section_type": record.get('section_type') # Extra metadata
+                                },
+                                "quality_score": 1000
+                            }
+
+                            best_matches[med_id] = {
+                                "score": 1000,
+                                "record": spl_candidate
+                            }
+                            match_log_count += 1
+                            
+        except Exception as e:
+             print(f"⚠️ Error loading SPL data: {e}")
+             import traceback
+             traceback.print_exc()
+             
+    print(f"Loaded {len(best_matches)} SPL records as baseline.")
     
     try:
         # Smart Open (GZIP vs Text)
