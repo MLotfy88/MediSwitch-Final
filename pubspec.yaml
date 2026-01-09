@@ -102,7 +102,6 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/meds.csv
-    - assets/drug_interactions_structured_data.json # Explicitly add the main interaction file
     - assets/database/parts/mediswitch.db.part-aa
     - assets/database/parts/mediswitch.db.part-ab
     - assets/database/parts/mediswitch.db.part-ac
@@ -115,9 +114,6 @@ flutter:
     - assets/database/parts/mediswitch.db.part-aj
     - assets/database/parts/mediswitch.db.part-ak
     - assets/database/ # Pre-packaged database fallback
-    - assets/data/ # Include the directory for medicine_ingredients.json etc.
-    - assets/data/interactions/ # Added for chunked interaction rules and ingredients
-    - assets/data/interactions/enriched/ # Explicitly added for enriched interaction files
     - assets/images/ # Added for logo and other images
     - assets/icon/ # Added for app icon
     - assets/icons/medical/ # Medical specialty SVG icons from healthicons.org
