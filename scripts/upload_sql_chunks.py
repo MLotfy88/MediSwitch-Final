@@ -1,6 +1,7 @@
 import os
 import subprocess
 import time
+import argparse
 
 CLOUDFLARE_API_TOKEN = "yy-vk8KC4yth3Cn2lpva1AgrP2kGMJrQQrGIUM1-"
 CLOUDFLARE_EMAIL = "eedf653449abdca28e865ddf3511dd4c62ed2"
@@ -30,16 +31,26 @@ def upload_chunks():
         print(f"Directory {SQL_DIR} not found.")
         return
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start-index", type=int, default=0, help="Index of the chunk to start from")
+    args = parser.parse_args()
+
     files = sorted([f for f in os.listdir(SQL_DIR) if f.endswith(".sql")])
     if not files:
         print(f"❌ Error: No SQL files found in {SQL_DIR}!")
         exit(1)
         
-    print(f"Found {len(files)} SQL chunks to process.")
+    print(f"Found {len(files)} SQL chunks to process. Starting from index {args.start_index}.")
     
     completed_files = get_completed_files()
     
     for i, filename in enumerate(files):
+        # Calculate numeric index logic if needed, but simple list index is easier regarding the 'start input' context
+        # The user sees "Start from file number". 
+        if i < args.start_index:
+             print(f"[{i+1}/{len(files)}] Skipping {filename} (Index {i} < {args.start_index})")
+             continue
+
         if filename in completed_files:
             print(f"[{i+1}/{len(files)}] Skipping {filename} (Already uploaded)")
             continue
