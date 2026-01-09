@@ -31,6 +31,12 @@ def upload_chunks():
         return
 
     files = sorted([f for f in os.listdir(SQL_DIR) if f.endswith(".sql")])
+    if not files:
+        print(f"❌ Error: No SQL files found in {SQL_DIR}!")
+        exit(1)
+        
+    print(f"Found {len(files)} SQL chunks to process.")
+    
     completed_files = get_completed_files()
     
     for i, filename in enumerate(files):

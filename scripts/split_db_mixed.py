@@ -21,6 +21,30 @@ def split_db():
         shutil.rmtree(OUTPUT_DIR)
     os.makedirs(OUTPUT_DIR)
 
+    # Reconstruct DB from parts if missing (Critical for GitHub Actions)
+    if not os.path.exists(DB_PATH) or os.path.getsize(DB_PATH) == 0:
+        print(f"Main database {DB_PATH} not found or empty. Attempting to reconstruct from parts...")
+        parts_dir = "assets/database/parts"
+        if os.path.exists(parts_dir):
+            parts = sorted([p for p in os.listdir(parts_dir) if p.startswith("mediswitch.db.part-")])
+            if parts:
+                print(f"Found {len(parts)} parts. Reassembling...")
+                with open(DB_PATH, "wb") as outfile:
+                    for part in parts:
+                        part_path = os.path.join(parts_dir, part)
+                        print(f"  Appending {part}...")
+                        with open(part_path, "rb") as infile:
+                            shutil.copyfileobj(infile, outfile)
+                print(f"Reconstructed database size: {os.path.getsize(DB_PATH) / (1024*1024):.2f} MB")
+            else:
+                print(f"No parts found in {parts_dir}!")
+        else:
+            print(f"Parts directory {parts_dir} not found!")
+
+    if not os.path.exists(DB_PATH) or os.path.getsize(DB_PATH) == 0:
+        print("❌ Error: Could not find or reconstruct database!")
+        return
+
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
