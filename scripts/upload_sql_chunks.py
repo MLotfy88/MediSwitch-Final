@@ -79,7 +79,7 @@ def upload_chunks():
                 time.sleep(3)  # تأخير 3 ثوان لتجنب قيود معدل الطلبات
                 break
             except subprocess.CalledProcessError as e:
-                print(f"  ❌ Attempt {attempt+1} failed: {e.stderr[:200]}")
+                print(f"  ❌ Attempt {attempt+1} failed: {e.stderr}")
                 time.sleep(2)
         
         if not success:

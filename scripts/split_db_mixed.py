@@ -125,8 +125,12 @@ def split_db():
                 insert_stmt = f"INSERT OR REPLACE INTO {table} ({col_list}) VALUES {','.join(row_vals_list)};\n"
             
             stmt_size = len(insert_stmt)
+            
+            # Dynamic MAX_SIZE based on table
+            # Dosage guidelines are heavy and prone to timeouts => 50KB
+            current_max_size = 50 * 1024 if table == 'dosage_guidelines' else MAX_FILE_SIZE_BYTES
 
-            if current_file_size + stmt_size > MAX_FILE_SIZE_BYTES:
+            if current_file_size + stmt_size > current_max_size:
                 # Flush current file
                 chunk_file = f"{OUTPUT_DIR}/{file_counter:04d}_{table}.sql"
                 with open(chunk_file, "w", encoding="utf-8") as f:
