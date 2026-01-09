@@ -12,6 +12,18 @@ class DosageGuidelines {
   final bool isPediatric;
   final String? route;
 
+  // New Rich Data Fields
+  final String? warnings;
+  final String? contraindications;
+  final String? adverseReactions;
+  final String? renalAdjustment;
+  final String? hepaticAdjustment;
+  final String? blackBoxWarning;
+  final String? overdoseManagement;
+  final String? pregnancyCategory;
+  final String? lactationInfo;
+  final String? specialPopulations;
+
   const DosageGuidelines({
     this.id,
     required this.medId,
@@ -25,6 +37,16 @@ class DosageGuidelines {
     this.source = 'Local',
     this.isPediatric = false,
     this.route,
+    this.warnings,
+    this.contraindications,
+    this.adverseReactions,
+    this.renalAdjustment,
+    this.hepaticAdjustment,
+    this.blackBoxWarning,
+    this.overdoseManagement,
+    this.pregnancyCategory,
+    this.lactationInfo,
+    this.specialPopulations,
   });
 
   factory DosageGuidelines.fromJson(Map<String, dynamic> json) {

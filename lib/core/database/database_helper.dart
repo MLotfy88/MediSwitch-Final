@@ -106,6 +106,11 @@ class DatabaseHelper {
           'ah',
           'ai',
           'aj',
+          'ak',
+          'al',
+          'am',
+          'an',
+          'ao',
         ];
 
         // Explicitly delete old DB and any old markers to ensure clean state

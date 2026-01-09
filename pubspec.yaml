@@ -42,6 +42,8 @@ dependencies:
   # flutter_secure_storage: ^9.0.0  # Removed: Not needed without encryption key
   csv: ^5.1.1  # للتعامل مع ملفات CSV
   file_picker: ^9.2.3  # لاختيار الملفات (May still be needed for future updates?)
+  archive: ^3.6.1 # For ZLIB decompression of database text
+
 
   # Added dependencies for Clean Architecture & Features
   http: ^1.2.1 # For network requests (RemoteDataSource)

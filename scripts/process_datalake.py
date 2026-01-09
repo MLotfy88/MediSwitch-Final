@@ -15,6 +15,7 @@ import pandas as pd
 from typing import List, Dict, Optional
 import traceback
 import gzip
+import glob as glob_module
 
 # --- CONFIGURATION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +27,7 @@ if not os.path.exists(DATALAKE_FILE):
     DATALAKE_FILE = os.path.join(BASE_DIR, 'production_data', 'dailymed_full_database.json')
     
 # NEW: High-Quality SPL Enriched Data (from ingest_spl_data.py)
-SPL_ENRICHED_FILE = os.path.join(BASE_DIR, 'production_data', 'spl_enriched_dosages.jsonl')
+SPL_ENRICHED_FILE = os.path.join(BASE_DIR, 'production_data', 'spl_enriched_dosages.jsonl.gz')
 
 PRODUCTION_OUTPUT = os.path.join(BASE_DIR, 'production_data', 'production_dosages.jsonl.gz')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'production_data', 'production_debug.json')
@@ -380,61 +381,55 @@ def process_datalake():
     app_data_map, app_active_exact, app_active_stripped = load_app_data()
     
     # Counters
+
     processed_count = 0
     match_log_count = 0
     best_matches = {} # med_id -> {score, record}
     
     # 2. Load SPL Enriched Data (Priority 1)
-    if os.path.exists(SPL_ENRICHED_FILE):
-        print(f"✅ Loading SPL Enriched Data from {SPL_ENRICHED_FILE}...")
-        try:
-            with open(SPL_ENRICHED_FILE, 'r', encoding='utf-8') as f_spl:
-                for line in f_spl:
-                    if not line.strip(): continue
-                    try:
-                        record = json.loads(line)
-                        med_id = record.get('med_id')
-                        if med_id:
-                            # SPL Data is Gold Standard (Score 1000)
-                            # We create a pseudo-Datalake entry for it
+    # البحث عن جميع أجزاء ملفات SPL
+    spl_pattern = os.path.join(BASE_DIR, 'production_data', 'spl_enriched_dosages_part*.jsonl.gz')
+    spl_files = sorted(glob_module.glob(spl_pattern))
+    
+    if spl_files:
+        print(f"✅ Found {len(spl_files)} SPL data file(s)")
+        for spl_file in spl_files:
+            print(f"   Loading {os.path.basename(spl_file)}...")
+            try:
+                with gzip.open(spl_file, 'rt', encoding='utf-8') as f_spl:
+                    for line in f_spl:
+                        if not line.strip(): continue
+                        try:
+                            record = json.loads(line)
+                            med_id = record.get('med_id')
+                            if not med_id: continue
                             
-                            # Clean up section text
                             text = record.get('section_text', '')
-                            
-                            # Use Parser to extract structured dosage from this text if raw
-                            # Or assumes ingest_spl_data already did some structuring?
-                            # For now, let's treat it as a high-quality "Raw" entry that Purify step will love.
-                            
-                            # Convert SPL record to compatible candidate structure
-                            # Re-using DosageParser on the high-quality text
                             extracted_guides = dosage_parser.extract_structured_data(text, record.get('spl_generic', ''))
                             
                             spl_candidate = {
                                 "med_id": med_id,
-                                "source": "DailyMed_SPL", # Gold Standard
+                                "source": "DailyMed_SPL",
                                 "dailymed_setid": record.get('spl_set_id'),
                                 "dailymed_name": record.get('spl_generic'),
-                                "trade_name": None, # Could link if needed
+                                "trade_name": None,
                                 "concentration": None,
                                 "dosages": extracted_guides if extracted_guides else {},
                                 "clinical_text": {
                                     "dosage": text,
-                                    "section_type": record.get('section_type') # Extra metadata
+                                    "section_type": record.get('section_type')
                                 },
                                 "quality_score": 1000
                             }
-
-                            best_matches[med_id] = {
-                                "score": 1000,
-                                "record": spl_candidate
-                            }
+                            best_matches[med_id] = {"score": 1000, "record": spl_candidate}
                             match_log_count += 1
-                            
-        except Exception as e:
-             print(f"⚠️ Error loading SPL data: {e}")
-             import traceback
-             traceback.print_exc()
-             
+                        except (json.JSONDecodeError, KeyError):
+                            continue
+            except Exception as e:
+                print(f"⚠️ Error loading {os.path.basename(spl_file)}: {e}")
+              
+    print(f"Loaded {len(best_matches)} SPL records as baseline.")
+
     print(f"Loaded {len(best_matches)} SPL records as baseline.")
     
     try:

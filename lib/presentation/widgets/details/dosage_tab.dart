@@ -64,6 +64,80 @@ class DosageTab extends StatelessWidget {
                   isAr: isAr,
                 ),
               ],
+
+              // --- New Rich Data Sections ---
+              if (primary?.blackBoxWarning != null &&
+                  primary!.blackBoxWarning!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'تحذير خطير (Boxed Warning)' : 'Boxed Warning',
+                  content: primary.blackBoxWarning!,
+                  icon: LucideIcons.alertTriangle,
+                  color: Colors.red,
+                  isAr: isAr,
+                ),
+              ],
+
+              if (primary?.renalAdjustment != null &&
+                  primary!.renalAdjustment!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'تعديل جرعة الكلى' : 'Renal Adjustment',
+                  content: primary.renalAdjustment!,
+                  icon: LucideIcons.filter,
+                  color: Colors.purple,
+                  isAr: isAr,
+                ),
+              ],
+
+              if (primary?.hepaticAdjustment != null &&
+                  primary!.hepaticAdjustment!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'تعديل جرعة الكبد' : 'Hepatic Adjustment',
+                  content: primary.hepaticAdjustment!,
+                  icon: LucideIcons.activity,
+                  color: Colors.brown,
+                  isAr: isAr,
+                ),
+              ],
+
+              if (primary?.contraindications != null &&
+                  primary!.contraindications!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'موانع الاستعمال' : 'Contraindications',
+                  content: primary.contraindications!,
+                  icon: LucideIcons.ban,
+                  color: Colors.redAccent,
+                  isAr: isAr,
+                ),
+              ],
+
+              if (primary?.warnings != null &&
+                  primary!.warnings!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'تحذيرات' : 'Warnings',
+                  content: primary.warnings!,
+                  icon: LucideIcons.alertCircle,
+                  color: Colors.orange[800]!,
+                  isAr: isAr,
+                ),
+              ],
+
+              if (primary?.adverseReactions != null &&
+                  primary!.adverseReactions!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _SafetyAlertCard(
+                  title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
+                  content: primary.adverseReactions!,
+                  icon: LucideIcons.frown,
+                  color: Colors.grey[700]!,
+                  isAr: isAr,
+                  isCollapsible: true, // Side effects are long
+                ),
+              ],
             ],
           ).animate().fadeIn(duration: 300.ms);
         },
@@ -612,3 +686,36 @@ class _InstructionsCard extends StatelessWidget {
     return cleaned;
   }
 }
+                 _SafetyAlertCard(
+                    title: isAr ? 'موانع الاستعمال' : 'Contraindications',
+                    content: primary.contraindications!,
+                    icon: LucideIcons.ban,
+                    color: Colors.redAccent,
+                    isAr: isAr,
+                 ),
+              ],
+              
+              if (primary?.warnings != null && primary!.warnings!.isNotEmpty) ...[
+                 const SizedBox(height: 16),
+                 _SafetyAlertCard(
+                    title: isAr ? 'تحذيرات' : 'Warnings',
+                    content: primary.warnings!,
+                    icon: LucideIcons.alertCircle,
+                    color: Colors.orange[800]!,
+                    isAr: isAr,
+                 ),
+              ],
+              
+              if (primary?.adverseReactions != null && primary!.adverseReactions!.isNotEmpty) ...[
+                 const SizedBox(height: 16),
+                 _SafetyAlertCard(
+                    title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
+                    content: primary.adverseReactions!,
+                    icon: LucideIcons.frown,
+                    color: Colors.grey[700]!,
+                    isAr: isAr,
+                    isCollapsible: true, // Side effects are long
+                 ),
+              ],
+
+              // ... existing code ...

@@ -13,9 +13,11 @@ import glob
 # --- Configuration ---
 MEDS_DB_PATH = 'assets/database/mediswitch.db' 
 SPL_RESULTS_DIR = 'external_repo_analysis/data/dailymed/results'
-OUTPUT_JSONL = 'production_data/spl_enriched_dosages.jsonl'
+OUTPUT_DIR = 'production_data'
+OUTPUT_PREFIX = 'spl_enriched_dosages'
+MAX_RECORDS_PER_FILE = 50000  # تقريباً 50-60MB بعد الضغط
 
-# ... (rest of normalization) ...
+
 
 def normalize_ingredient(active_ing):
     """
@@ -139,15 +141,85 @@ def main():
                 local_lookup[key].append(row.to_dict())
 
         total_matches = 0
-        print(f"Writing matches incrementally to {OUTPUT_JSONL}...")
+        total_records = 0
+        part_num = 1
+        current_file_records = 0
         
-        with open(OUTPUT_JSONL, 'w', encoding='utf-8') as f_out:
+        # إنشاء مجلد المخرجات إذا لم يكن موجوداً
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        
+        # فتح أول ملف جزء
+        output_path = os.path.join(OUTPUT_DIR, f"{OUTPUT_PREFIX}_part{part_num}.jsonl.gz")
+        print(f"Writing to {output_path}...")
+        f_out = gzip.open(output_path, 'wt', encoding='utf-8')
+        
+        try:
             for csv_path in csv_files:
-                count = process_spl_file(csv_path, local_lookup, f_out)
-                total_matches += count
-                f_out.flush() # Ensure wrote to disk
+                print(f"Processing {os.path.basename(csv_path)}...")
+                try:
+                    spl_df = pd.read_csv(csv_path, compression='gzip')
+                except Exception as e:
+                    print(f"Error reading {csv_path}: {e}")
+                    continue
 
-        print(f"Done. Total ingredients matched: {total_matches}")
+                spl_df['generic_name'] = spl_df['generic_name'].fillna('')
+                spl_df['norm_generic'] = spl_df['generic_name'].apply(normalize_ingredient)
+                
+                spl_grouped = spl_df.groupby('norm_generic')
+                
+                file_match_count = 0
+                
+                for spl_active, spl_rows in spl_grouped:
+                    if not spl_active: continue
+                    
+                    matches = local_lookup.get(spl_active)
+                    if matches:
+                        file_match_count += 1
+                        for local_drug in matches:
+                            for _, spl_row in spl_rows.iterrows():
+                                # التحقق من الحد الأقصى للسجلات في الملف الحالي
+                                if current_file_records >= MAX_RECORDS_PER_FILE:
+                                    f_out.close()
+                                    print(f"  ✅ Part {part_num}: {current_file_records:,} records")
+                                    
+                                    # فتح ملف جزء جديد
+                                    part_num += 1
+                                    current_file_records = 0
+                                    output_path = os.path.join(OUTPUT_DIR, f"{OUTPUT_PREFIX}_part{part_num}.jsonl.gz")
+                                    print(f"Writing to {output_path}...")
+                                    f_out = gzip.open(output_path, 'wt', encoding='utf-8')
+                                
+                                # Clean SPL text separators (###)
+                                raw_text = str(spl_row.get('text', ''))
+                                cleaned_spl_text = raw_text.replace('###', '\n\n')
+                                
+                                record = {
+                                    "med_id": local_drug['id'],
+                                    "active_ingredient": local_drug['active'],
+                                    "spl_set_id": spl_row['set_id'],
+                                    "spl_generic": spl_row['generic_name'],
+                                    "section_type": spl_row['type'],
+                                    "section_text": cleaned_spl_text,
+                                    "source": "dailymed_spl_xml"
+                                }
+                                f_out.write(json.dumps(record) + '\n')
+                                current_file_records += 1
+                                total_records += 1
+                
+                total_matches += file_match_count
+                print(f"  Matched {file_match_count} ingredients")
+        
+        finally:
+            # إغلاق الملف الأخير
+            if f_out:
+                f_out.close()
+                print(f"  ✅ Part {part_num}: {current_file_records:,} records")
+
+        print(f"\n{'='*60}")
+        print(f"✅ Done! Created {part_num} file(s)")
+        print(f"   Total ingredients matched: {total_matches}")
+        print(f"   Total records written: {total_records:,}")
+        print(f"{'='*60}")
         
     else:
          print(f"Directory {SPL_RESULTS_DIR} not found.")

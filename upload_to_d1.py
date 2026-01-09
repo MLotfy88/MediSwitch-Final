@@ -11,7 +11,7 @@ DATABASE_NAME = "mediswitsh-db"
 DATABASE_ID = "77da23cd-a8cc-40bf-9c0f-f0effe7eeaa0"
 
 # Paths
-DB_PATH = "mediswitch.db"
+DB_PATH = "assets/database/mediswitch.db"
 CHUNK_SIZE = 50  # Further reduced
 MAX_RETRIES = 5
 
@@ -41,6 +41,43 @@ def run_command(cmd, env=None):
         log_error(err_msg)
         return False, err_msg
 
+def _upload_batch(table, columns, values_list, env):
+    sql = f"INSERT INTO {table} ({','.join(columns)}) VALUES {','.join(values_list)};"
+    with open("temp_batch.sql", "w", encoding="utf-8") as f:
+        f.write(sql)
+    
+    # Retry logic
+    for attempt in range(5):
+        cmd = f"npx wrangler d1 execute {DATABASE_NAME} --file=temp_batch.sql --remote"
+        success, output = run_command(cmd, env)
+        if success:
+           return
+        else:
+           if attempt == 4:
+                # Fallback to slow mode if batch failed (likely too big or other error)
+                if "SQLITE_TOOBIG" in output:
+                     pass # handled by caller? No, caller relies on this. 
+                     # Wait, I moved logic OUT of the caller loop.
+                     # I should put the Adaptive Logic HERE inside the helper.
+                     print(f"\n      ⚠️ Batch failed ({len(values_list)} rows), splitting...")
+                     _upload_batch_slow(table, columns, values_list, env)
+                     return
+
+                print(f"\n      ❌ Failed batch. Error: {output[:100]}")
+           else:
+                time.sleep(1)
+
+def _upload_batch_slow(table, columns, values_list, env):
+    # One by one
+    print("      ⚠️ fallback: uploading row by row...")
+    for val_str in values_list:
+         # val_str is "(...)"
+         single_sql = f"INSERT INTO {table} ({','.join(columns)}) VALUES {val_str};"
+         with open("temp_single.sql", "w", encoding="utf-8") as f:
+            f.write(single_sql)
+         run_command(f"npx wrangler d1 execute {DATABASE_NAME} --file=temp_single.sql --remote", env)
+
+
 def upload_to_d1():
     print("🚀 Starting Cloudflare D1 Sync...")
     print(f"   Database: {DATABASE_NAME} ({DATABASE_ID})")
@@ -61,54 +98,34 @@ def upload_to_d1():
         run_command(cmd, env)
         print(f"   🗑️  Dropped {table}")
 
-    # 1. Upload Schema (Statement by Statement)
-    print("\n📋 Step 1: Creating Schema (Statement by Statement)...")
-    schema_file = "d1_migration_sql/01_schema.sql"
-    if os.path.exists(schema_file):
-        with open(schema_file, 'r', encoding='utf-8') as f:
-            full_sql = f.read()
+    # 1. Upload Schema (Dynamic)
+    print("\n📋 Step 1: Creating Schema (Dynamic from Local DB)...")
+    conn_schema = sqlite3.connect(DB_PATH)
+    cursor_schema = conn_schema.cursor()
+    # Explicitly exclude sqlite_sequence
+    cursor_schema.execute("SELECT name, sql FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' AND name != 'sqlite_sequence'")
+    tables_schema = cursor_schema.fetchall()
+    conn_schema.close()
+
+    for i, (tbl_name, sql) in enumerate(tables_schema):
+        if not sql: continue
+        print(f"   🔨 Creating Table {i+1}: {tbl_name}...")
         
-        # Split by semicolon but be careful about triggers/quotes (simple split works for simple schema)
-        statements = [s.strip() for s in full_sql.split(';') if s.strip()]
+        # Write to temp file
+        with open("temp_schema.sql", "w", encoding="utf-8") as f:
+            f.write(sql)
         
-        for i, sql in enumerate(statements):
-            # Skip comments
-            if sql.startswith('--'):
-                continue
-            
-            # Escape quotes for command line (basic)
-            # Wrangler --command accepts string. 
-            # Best to use a temporary file for each statement if it's complex? 
-            # Or just try --command.
-            # SQL contains newlines, better to put in temp file.
-            
-            temp_stmt_file = f"temp_schema_{i}.sql"
-            with open(temp_stmt_file, 'w') as tf:
-                tf.write(sql + ";")
-            
-            print(f"   🔨 Executing Statement {i+1}...")
-            cmd = f"npx wrangler d1 execute {DATABASE_NAME} --file={temp_stmt_file} --remote"
-            success, output = run_command(cmd, env)
-            
-            if success:
-                print(f"      ✅ Success")
-            else:
-                print(f"      ❌ Failed: {output[:100]}...")
-                # Dont stop, try next
-            
-            if os.path.exists(temp_stmt_file):
-                os.remove(temp_stmt_file)
-            
-    else:
-        print("   ❌ Schema file not found.")
+        cmd = f"npx wrangler d1 execute {DATABASE_NAME} --file=temp_schema.sql --remote"
+        run_command(cmd, env)
+
 
     # 2. Upload Data
     print("\n📦 Step 2: Uploading Data...")
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
-    # Get tables
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'")
+    # Get tables again (or reuse)
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' AND name != 'sqlite_sequence'")
     tables = [r[0] for r in cursor.fetchall()]
     
     for table in tables:
@@ -123,53 +140,74 @@ def upload_to_d1():
         cursor.execute(f"SELECT * FROM {table}")
         columns = [description[0] for description in cursor.description]
         
-        chunk = []
+        # Smart Batching Configuration
+        MAX_BATCH_SIZE_BYTES = 800 * 1024  # 800KB safe limit (D1 limit is ~1MB)
+        MAX_ROW_COUNT = 1000               # Also cap by count to avoid parsing issues
+        
+        current_batch_rows = []
+        current_batch_size = 0
+        
         processed = 0
         
         while True:
-            rows = cursor.fetchmany(CHUNK_SIZE)
+            # Fetch one by one to pack efficiently? 
+            # Or fetch a chunk and split? Fetching larger chunks is better for cursor.
+            rows = cursor.fetchmany(MAX_ROW_COUNT)
             if not rows:
+                # Process remaining buffer
+                if current_batch_rows:
+                    _upload_batch(table, columns, current_batch_rows, env)
+                    processed += len(current_batch_rows)
+                    print(f"\r      Uploaded {processed:,} / {count:,} rows...", end="")
                 break
-                
-            # Build SQL INSERT batch
-            values_list = []
+            
             for row in rows:
-                # Sanitize values
+                # Calculate row size approximation
+                # This is a rough estimate: values string length + delimiters
+                # It doesn't need to be perfect, just safe.
+                row_size = 0
                 formatted_values = []
                 for val in row:
                     if val is None:
                         formatted_values.append("NULL")
+                        row_size += 4
                     elif isinstance(val, (int, float)):
-                        formatted_values.append(str(val))
+                        s_val = str(val)
+                        formatted_values.append(s_val)
+                        row_size += len(s_val)
+                    elif isinstance(val, bytes):
+                        # Hex string x'...'
+                        hex_val = val.hex()
+                        s_val = f"x'{hex_val}'"
+                        formatted_values.append(s_val)
+                        row_size += len(s_val)
                     else:
-                        # Escape single quotes
                         clean_val = str(val).replace("'", "''")
-                        formatted_values.append(f"'{clean_val}'")
-                values_list.append(f"({','.join(formatted_values)})")
-            
-            sql = f"INSERT INTO {table} ({','.join(columns)}) VALUES {','.join(values_list)};"
-            
-            # Write to temp file
-            with open("temp_batch.sql", "w", encoding="utf-8") as f:
-                f.write(sql)
-            
-            # Execute with retry logic
-            for attempt in range(MAX_RETRIES):
-                cmd = f"npx wrangler d1 execute {DATABASE_NAME} --file=temp_batch.sql --remote"
-                success, output = run_command(cmd, env)
-                if success:
-                    processed += len(rows)
-                    print(f"\r      Uploaded {processed:,} / {count:,} rows...", end="")
-                    break
-                else:
-                    if attempt == MAX_RETRIES - 1:
-                        print(f"\n      ❌ Failed batch after {MAX_RETRIES} attempts. Error: {output[:100]}...")
-                    else:
-                        time.sleep(2) # Wait before retry
-            
-            # Clean up
-            if os.path.exists("temp_batch.sql"):
-                os.remove("temp_batch.sql")
+                        s_val = f"'{clean_val}'"
+                        formatted_values.append(s_val)
+                        row_size += len(s_val)
+                
+                # Check if adding this row exceeds limits
+                if (current_batch_size + row_size > MAX_BATCH_SIZE_BYTES) or (len(current_batch_rows) >= MAX_ROW_COUNT):
+                    # Upload current batch
+                    if current_batch_rows:
+                        _upload_batch(table, columns, current_batch_rows, env)
+                        processed += len(current_batch_rows)
+                        print(f"\r      Uploaded {processed:,} / {count:,} rows...", end="")
+                        
+                        # Reset batch
+                        current_batch_rows = []
+                        current_batch_size = 0
+                
+                # Add row to batch
+                current_batch_rows.append(f"({','.join(formatted_values)})")
+                current_batch_size += row_size
+
+        # Flush final batch
+        if current_batch_rows:
+            _upload_batch(table, columns, current_batch_rows, env)
+            processed += len(current_batch_rows)
+            print(f"\r      Uploaded {processed:,} / {count:,} rows...", end="")
 
     conn.close()
     print("\n\n🎉 Migration Complete!")
