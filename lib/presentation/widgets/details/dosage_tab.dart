@@ -686,36 +686,98 @@ class _InstructionsCard extends StatelessWidget {
     return cleaned;
   }
 }
-                 _SafetyAlertCard(
-                    title: isAr ? 'موانع الاستعمال' : 'Contraindications',
-                    content: primary.contraindications!,
-                    icon: LucideIcons.ban,
-                    color: Colors.redAccent,
-                    isAr: isAr,
-                 ),
-              ],
-              
-              if (primary?.warnings != null && primary!.warnings!.isNotEmpty) ...[
-                 const SizedBox(height: 16),
-                 _SafetyAlertCard(
-                    title: isAr ? 'تحذيرات' : 'Warnings',
-                    content: primary.warnings!,
-                    icon: LucideIcons.alertCircle,
-                    color: Colors.orange[800]!,
-                    isAr: isAr,
-                 ),
-              ],
-              
-              if (primary?.adverseReactions != null && primary!.adverseReactions!.isNotEmpty) ...[
-                 const SizedBox(height: 16),
-                 _SafetyAlertCard(
-                    title: isAr ? 'الأعراض الجانبية' : 'Adverse Reactions',
-                    content: primary.adverseReactions!,
-                    icon: LucideIcons.frown,
-                    color: Colors.grey[700]!,
-                    isAr: isAr,
-                    isCollapsible: true, // Side effects are long
-                 ),
-              ],
 
-              // ... existing code ...
+class _SafetyAlertCard extends StatefulWidget {
+  const _SafetyAlertCard({
+    required this.title,
+    required this.content,
+    required this.icon,
+    required this.color,
+    required this.isAr,
+    this.isCollapsible = false,
+  });
+
+  final String title;
+  final String content;
+  final IconData icon;
+  final Color color;
+  final bool isAr;
+  final bool isCollapsible;
+
+  @override
+  State<_SafetyAlertCard> createState() => _SafetyAlertCardState();
+}
+
+class _SafetyAlertCardState extends State<_SafetyAlertCard> {
+  bool _isExpanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    // Truncate long content if collapsible and not expanded
+    final showContent =
+        widget.isCollapsible && !_isExpanded
+            ? (widget.content.length > 150
+                ? '${widget.content.substring(0, 150)}...'
+                : widget.content)
+            : widget.content;
+
+    return Container(
+      decoration: BoxDecoration(
+        color: widget.color.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: widget.color.withValues(alpha: 0.2)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Row(
+              children: [
+                Icon(widget.icon, color: widget.color, size: 20),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    widget.title,
+                    style: theme.textTheme.titleSmall?.copyWith(
+                      color: widget.color,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                if (widget.isCollapsible)
+                  InkWell(
+                    onTap: () => setState(() => _isExpanded = !_isExpanded),
+                    borderRadius: BorderRadius.circular(20),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4),
+                      child: Icon(
+                        _isExpanded
+                            ? LucideIcons.chevronUp
+                            : LucideIcons.chevronDown,
+                        size: 16,
+                        color: widget.color,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+          Divider(height: 1, color: widget.color.withValues(alpha: 0.1)),
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: SelectableText(
+              showContent,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: theme.colorScheme.onSurface,
+                height: 1.5,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

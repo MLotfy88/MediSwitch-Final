@@ -13,7 +13,8 @@ import 'package:mediswitch/presentation/bloc/medicine_provider.dart';
 import 'package:mediswitch/presentation/theme/app_colors_extension.dart';
 import 'package:mediswitch/presentation/widgets/cards/interaction_card.dart';
 import 'package:mediswitch/presentation/widgets/cards/modern_drug_card.dart';
-import 'package:mediswitch/presentation/widgets/details/dosage_tab.dart';
+import 'package:mediswitch/presentation/widgets/details/dosage_tab.dart'
+    hide SizedBox;
 import 'package:mediswitch/presentation/widgets/interaction_bottom_sheet.dart';
 import 'package:mediswitch/presentation/widgets/modern_badge.dart';
 import 'package:provider/provider.dart';
