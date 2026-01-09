@@ -37,7 +37,33 @@ class DosageTab extends StatelessWidget {
           }
 
           final guidelines = snapshot.data ?? [];
-          final primary = guidelines.isNotEmpty ? guidelines.first : null;
+          final primary =
+              guidelines.isNotEmpty
+                  ? guidelines.reduce((curr, next) {
+                    int currScore = 0;
+                    int nextScore = 0;
+
+                    if (curr.blackBoxWarning?.isNotEmpty == true)
+                      currScore += 5;
+                    if (curr.contraindications?.isNotEmpty == true)
+                      currScore += 2;
+                    if (curr.warnings?.isNotEmpty == true) currScore += 1;
+                    if (curr.adverseReactions?.isNotEmpty == true)
+                      currScore += 1;
+
+                    if (next.blackBoxWarning?.isNotEmpty == true)
+                      nextScore += 5;
+                    if (next.contraindications?.isNotEmpty == true)
+                      nextScore += 2;
+                    if (next.warnings?.isNotEmpty == true) nextScore += 1;
+                    if (next.adverseReactions?.isNotEmpty == true)
+                      nextScore += 1;
+
+                    // Prefer Local/DailyMed source if scores equal?
+                    // For now, richness is king.
+                    return currScore >= nextScore ? curr : next;
+                  })
+                  : null;
 
           return Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,

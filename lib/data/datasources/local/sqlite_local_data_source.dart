@@ -599,14 +599,20 @@ class SqliteLocalDataSource {
       args.add('%$searchQuery%');
     }
 
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.interactionsTable,
-      where: whereClause,
-      whereArgs: args.isEmpty ? null : args,
-      limit: limit,
-      offset: offset,
-      orderBy:
-          "CASE WHEN LOWER(severity) = 'contraindicated' THEN 1 WHEN LOWER(severity) = 'severe' THEN 2 ELSE 3 END",
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      '''
+      SELECT DISTINCT di.* 
+      FROM ${DatabaseHelper.interactionsTable} di
+      JOIN (SELECT DISTINCT ingredient FROM med_ingredients) mi ON di.ingredient1 = mi.ingredient
+      WHERE $whereClause
+      ORDER BY 
+          CASE WHEN LOWER(di.severity) = 'contraindicated' THEN 1 
+               WHEN LOWER(di.severity) = 'severe' THEN 2 
+               ELSE 3 
+          END
+      LIMIT ? OFFSET ?
+      ''',
+      [...args, limit, offset],
     );
 
     return maps.map((e) => DrugInteractionModel.fromMap(e)).toList();
@@ -682,7 +688,8 @@ class SqliteLocalDataSource {
       '''
       SELECT 
         ingredient1 as name, 
-        ingredient1 as normalized_name,
+        ingredient1 as name, 
+        ingredient1 as normalizedName,
         COUNT(*) as totalInteractions,
         SUM(CASE WHEN LOWER(severity) IN ('contraindicated', 'severe', 'critical', 'high') THEN 1 ELSE 0 END) as severeCount,
         SUM(CASE WHEN LOWER(severity) IN ('major', 'moderate', 'serious') THEN 1 ELSE 0 END) as moderateCount,
@@ -692,8 +699,9 @@ class SqliteLocalDataSource {
             WHEN LOWER(severity) IN ('severe', 'critical') THEN 8
             ELSE 1 
           END) as dangerScore
-      FROM ${DatabaseHelper.interactionsTable}
-      WHERE LOWER(severity) IN ('contraindicated', 'severe', 'major', 'high')
+      FROM ${DatabaseHelper.interactionsTable} di
+      JOIN (SELECT DISTINCT ingredient FROM med_ingredients) mi ON di.ingredient1 = mi.ingredient
+      WHERE LOWER(di.severity) IN ('contraindicated', 'severe', 'major', 'high')
       GROUP BY ingredient1
       ORDER BY dangerScore DESC
       LIMIT ?

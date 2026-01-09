@@ -61,13 +61,6 @@ class DiseaseInteractionModel extends DiseaseInteraction {
   }
 
   factory DiseaseInteractionModel.fromMap(Map<String, dynamic> map) {
-    return DiseaseInteractionModel(
-      medId: map['med_id'] as int? ?? 0,
-      tradeName: map['trade_name'] as String? ?? '',
-      diseaseName: map['disease_name'] as String? ?? '',
-      interactionText: map['interaction_text'] as String? ?? '',
-      severity: map['severity'] as String? ?? 'Major',
-      source: map['source'] as String? ?? 'DDInter',
-    );
+    return DiseaseInteractionModel.fromJson(map);
   }
 }
