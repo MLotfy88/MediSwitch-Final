@@ -723,60 +723,64 @@ class _SafetyAlertCardState extends State<_SafetyAlertCard> {
                 : widget.content)
             : widget.content;
 
-    return Container(
-      decoration: BoxDecoration(
-        color: widget.color.withValues(alpha: 0.05),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: widget.color.withValues(alpha: 0.2)),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(12),
-            child: Row(
-              children: [
-                Icon(widget.icon, color: widget.color, size: 20),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    widget.title,
-                    style: theme.textTheme.titleSmall?.copyWith(
-                      color: widget.color,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-                if (widget.isCollapsible)
-                  InkWell(
-                    onTap: () => setState(() => _isExpanded = !_isExpanded),
-                    borderRadius: BorderRadius.circular(20),
-                    child: Padding(
-                      padding: const EdgeInsets.all(4),
-                      child: Icon(
-                        _isExpanded
-                            ? LucideIcons.chevronUp
-                            : LucideIcons.chevronDown,
-                        size: 16,
+    return Directionality(
+      textDirection: widget.isAr ? TextDirection.rtl : TextDirection.ltr,
+      child: Container(
+        decoration: BoxDecoration(
+          color: widget.color.withValues(alpha: 0.05),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: widget.color.withValues(alpha: 0.2)),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  Icon(widget.icon, color: widget.color, size: 20),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      widget.title,
+                      style: theme.textTheme.titleSmall?.copyWith(
                         color: widget.color,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
-              ],
-            ),
-          ),
-          Divider(height: 1, color: widget.color.withValues(alpha: 0.1)),
-          Padding(
-            padding: const EdgeInsets.all(12),
-            child: SelectableText(
-              showContent,
-              style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onSurface,
-                height: 1.5,
+                  if (widget.isCollapsible)
+                    InkWell(
+                      onTap: () => setState(() => _isExpanded = !_isExpanded),
+                      borderRadius: BorderRadius.circular(20),
+                      child: Padding(
+                        padding: const EdgeInsets.all(4),
+                        child: Icon(
+                          _isExpanded
+                              ? LucideIcons.chevronUp
+                              : LucideIcons.chevronDown,
+                          size: 16,
+                          color: widget.color,
+                        ),
+                      ),
+                    ),
+                ],
               ),
             ),
-          ),
-        ],
+            Divider(height: 1, color: widget.color.withValues(alpha: 0.1)),
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: SelectableText(
+                showContent,
+                style: theme.textTheme.bodyMedium?.copyWith(
+                  color: theme.colorScheme.onSurface,
+                  height: 1.5,
+                ),
+                textAlign: widget.isAr ? TextAlign.justify : TextAlign.left,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
