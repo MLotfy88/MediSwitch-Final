@@ -24,6 +24,9 @@ class DosageGuidelines {
   final String? lactationInfo;
   final String? specialPopulations;
 
+  // Offline Structured Data (ZLIB Compressed JSON)
+  final List<int>? structuredDosage;
+
   const DosageGuidelines({
     this.id,
     required this.medId,
@@ -47,6 +50,7 @@ class DosageGuidelines {
     this.pregnancyCategory,
     this.lactationInfo,
     this.specialPopulations,
+    this.structuredDosage,
   });
 
   factory DosageGuidelines.fromJson(Map<String, dynamic> json) {

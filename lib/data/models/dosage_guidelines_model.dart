@@ -28,6 +28,7 @@ class DosageGuidelinesModel extends DosageGuidelines {
     super.pregnancyCategory,
     super.lactationInfo,
     super.specialPopulations,
+    super.structuredDosage,
   });
 
   factory DosageGuidelinesModel.fromJson(Map<String, dynamic> json) {
@@ -57,6 +58,10 @@ class DosageGuidelinesModel extends DosageGuidelines {
       source: json['source'] as String? ?? 'DailyMed',
       isPediatric: json['is_pediatric'] == 1 || json['is_pediatric'] == true,
       route: json['route'] as String?,
+      structuredDosage:
+          json['structured_dosage'] is List
+              ? (json['structured_dosage'] as List).cast<int>()
+              : null,
     );
   }
 

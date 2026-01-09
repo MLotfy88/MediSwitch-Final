@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:archive/archive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -164,9 +167,285 @@ class DosageTab extends StatelessWidget {
                   isCollapsible: true, // Side effects are long
                 ),
               ],
+
+              if (primary?.structuredDosage != null &&
+                  primary!.structuredDosage!.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                _StructuredDosageView(
+                  compressedData: primary.structuredDosage!,
+                  isAr: isAr,
+                ),
+              ],
             ],
           ).animate().fadeIn(duration: 300.ms);
         },
+      ),
+    );
+  }
+}
+
+/// Renders the new JSON-based cards (The "Focused" View)
+class _StructuredDosageView extends StatefulWidget {
+  const _StructuredDosageView({
+    required this.compressedData,
+    required this.isAr,
+  });
+
+  final List<int> compressedData;
+  final bool isAr;
+
+  @override
+  State<_StructuredDosageView> createState() => _StructuredDosageViewState();
+}
+
+class _StructuredDosageViewState extends State<_StructuredDosageView> {
+  Map<String, dynamic>? _data;
+
+  @override
+  void initState() {
+    super.initState();
+    _parseData();
+  }
+
+  void _parseData() {
+    try {
+      // 1. Decompress ZLIB
+      final bytes = ZLibDecoder().decodeBytes(widget.compressedData);
+      final jsonStr = utf8.decode(bytes);
+      final jsonMap = json.decode(jsonStr) as Map<String, dynamic>;
+      setState(() {
+        _data = jsonMap;
+      });
+    } catch (e) {
+      debugPrint('Error parsing structured dosage: $e');
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (_data == null) return const SizedBox.shrink();
+
+    final uiSections = _data!['ui_sections'] as List<dynamic>? ?? [];
+    if (uiSections.isEmpty) return const SizedBox.shrink();
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Header for the new section
+        Row(
+          children: [
+            Icon(LucideIcons.sparkles, size: 18, color: Colors.blue),
+            const SizedBox(width: 8),
+            Text(
+              widget.isAr ? 'الجرعات الذكية (Beta)' : 'Smart Dosages (FDA)',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue[800],
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+
+        ...uiSections.map((section) {
+          if (section['type'] == 'table_cards') {
+            final cards = section['data'] as List<dynamic>;
+            return Column(
+              children:
+                  cards
+                      .map(
+                        (c) => _FocusedDosageCard(
+                          data: c as Map<String, dynamic>,
+                          isAr: widget.isAr,
+                        ),
+                      )
+                      .toList(),
+            );
+          }
+          return const SizedBox.shrink();
+        }).toList(),
+      ],
+    );
+  }
+}
+
+class _FocusedDosageCard extends StatefulWidget {
+  const _FocusedDosageCard({required this.data, required this.isAr});
+
+  final Map<String, dynamic> data;
+  final bool isAr;
+
+  @override
+  State<_FocusedDosageCard> createState() => _FocusedDosageCardState();
+}
+
+class _FocusedDosageCardState extends State<_FocusedDosageCard> {
+  bool _expanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final data = widget.data;
+
+    // Extract fields
+    final hero = data['hero_dose'] as String?;
+    final contextTitle =
+        data['Indication/Context'] ?? data['Population'] ?? 'Dosage Info';
+    final String instruction =
+        (data['Dosage Instruction'] ?? data.values.join('\n')).toString();
+    final maxDose = data['max_dose_constraint'];
+
+    return Container(
+      margin: const EdgeInsets.only(bottom: 12),
+      decoration: BoxDecoration(
+        color: theme.cardColor,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: theme.dividerColor.withValues(alpha: 0.5)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.03),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // 1. Header (Context)
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+            decoration: BoxDecoration(
+              color: theme.colorScheme.surfaceContainerHighest.withValues(
+                alpha: 0.3,
+              ),
+              borderRadius: const BorderRadius.vertical(
+                top: Radius.circular(12),
+              ),
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  LucideIcons.activity,
+                  size: 16,
+                  color: theme.colorScheme.primary,
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    (contextTitle ?? 'Dosage Info').toString(),
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      color: theme.colorScheme.primary,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // 2. HERO DOSE (The "Focus")
+                if (hero != null) ...[
+                  Text(
+                    hero,
+                    style: theme.textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: theme.colorScheme.primary,
+                      letterSpacing: -0.5,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                ],
+
+                // 3. Max Dose tag
+                if (maxDose != null)
+                  Container(
+                    margin: const EdgeInsets.only(bottom: 8),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 4,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.red.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(6),
+                      border: Border.all(color: Colors.red.withOpacity(0.2)),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(
+                          LucideIcons.ban,
+                          size: 12,
+                          color: Colors.red,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'Max: $maxDose',
+                          style: const TextStyle(
+                            color: Colors.red,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                // 4. Collapsible Details
+                InkWell(
+                  onTap: () => setState(() => _expanded = !_expanded),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+                    child: Row(
+                      children: [
+                        Text(
+                          _expanded
+                              ? (widget.isAr
+                                  ? 'إخفاء التفاصيل'
+                                  : 'Hide Details')
+                              : (widget.isAr
+                                  ? 'عرض التفاصيل والتحذيرات'
+                                  : 'Show Details & Warnings'),
+                          style: TextStyle(
+                            color: theme.colorScheme.secondary,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 13,
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        Icon(
+                          _expanded
+                              ? LucideIcons.chevronUp
+                              : LucideIcons.chevronDown,
+                          size: 16,
+                          color: theme.colorScheme.secondary,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                if (_expanded)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: Text(
+                      instruction,
+                      style: TextStyle(
+                        height: 1.5,
+                        fontSize: 13,
+                        color: theme.colorScheme.onSurface,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
