@@ -465,14 +465,6 @@ class SqliteLocalDataSource {
     await recalculateInteractionFlags();
   }
 
-  Future<void> _seedRelationalInteractions(Database db) async {}
-  static List<dynamic> _parseJsonString(String jsonString) {
-    return json.decode(jsonString) as List<dynamic>;
-  }
-
-  Future<void> _seedDiseaseInteractions(Database db) async {}
-  Future<void> _seedFoodInteractions(Database db) async {}
-
   /// 2. Check if any of those med_ids exist in [food_interactions] table.
   /// 3. Return the interaction text.
   Future<List<String>> getFoodInteractionsForIngredient(
@@ -527,12 +519,13 @@ class SqliteLocalDataSource {
     // Optimized Query: Removed LOWER()
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
-      SELECT r.*
+      SELECT DISTINCT di.*
       FROM med_ingredients mi
-      JOIN ${DatabaseHelper.interactionsTable} r 
-      ON (r.ingredient1 = mi.ingredient OR r.ingredient2 = mi.ingredient)
+      JOIN ${DatabaseHelper.interactionsTable} di 
+      ON (LOWER(TRIM(di.ingredient1)) = LOWER(TRIM(mi.ingredient)) 
+          OR LOWER(TRIM(di.ingredient2)) = LOWER(TRIM(mi.ingredient)))
       WHERE mi.med_id = ?
-    ''',
+      ''',
       [medId],
     );
 
@@ -726,7 +719,7 @@ class SqliteLocalDataSource {
     final List<Map<String, dynamic>> maps = await db.rawQuery(
       '''
       SELECT * FROM ${DatabaseHelper.interactionsTable} 
-      WHERE ingredient1 LIKE ? OR ingredient2 LIKE ?
+      WHERE LOWER(TRIM(ingredient1)) = LOWER(TRIM(?)) OR LOWER(TRIM(ingredient2)) = LOWER(TRIM(?))
       ORDER BY 
         CASE WHEN LOWER(severity) = 'contraindicated' THEN 1
              WHEN LOWER(severity) = 'severe' THEN 2
@@ -734,11 +727,8 @@ class SqliteLocalDataSource {
              ELSE 4 END
       LIMIT 100
       ''',
-      ['%$normalizedQuery%', '%$normalizedQuery%'],
+      [normalizedQuery, normalizedQuery],
     );
-    // Note: Prefix matching (query%) is faster but might miss '... sodium',
-    // keeping %query% is acceptable if table isn't huge, but NOCASE index helps.
-    // If strict prefix desired: ['$normalizedQuery%', '$normalizedQuery%']
 
     return List.generate(maps.length, (i) {
       final m = maps[i];
@@ -846,6 +836,21 @@ class SqliteLocalDataSource {
     await prefs.setBool('is_database_seeded', true);
   }
 
+  // --- Medicines Management ---
+
+  Future<MedicineModel?> getMedicineById(int id) async {
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      where: 'id = ?',
+      whereArgs: [id],
+    );
+    if (maps.isNotEmpty) {
+      return MedicineModel.fromMap(maps.first);
+    }
+    return null;
+  }
+
   Future<List<MedicineModel>> getAllMedicines({
     int limit = 20,
     int offset = 0,
@@ -856,8 +861,67 @@ class SqliteLocalDataSource {
       DatabaseHelper.medicinesTable,
       limit: limit,
       offset: offset,
+      orderBy: 'tradenames',
     );
     return maps.map((e) => MedicineModel.fromMap(e)).toList();
+  }
+
+  Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
+    String cutoffDate, {
+    int limit = 10,
+    int? offset,
+  }) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    // Note: cutoffDate logic is simplified here as we mainly just sort by update
+    // If strict cutoff is needed: where: 'last_price_update > ?', whereArgs: [cutoffDate]
+    final List<Map<String, dynamic>> maps = await db.query(
+      DatabaseHelper.medicinesTable,
+      orderBy: 'last_price_update DESC',
+      limit: limit,
+      offset: offset,
+    );
+    return maps.map((e) => MedicineModel.fromMap(e)).toList();
+  }
+
+  Future<List<MedicineModel>> getRandomMedicines({int limit = 5}) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    final List<Map<String, dynamic>> maps = await db.rawQuery(
+      'SELECT * FROM ${DatabaseHelper.medicinesTable} ORDER BY RANDOM() LIMIT ?',
+      [limit],
+    );
+    return maps.map((e) => MedicineModel.fromMap(e)).toList();
+  }
+
+  Future<List<MedicineModel>> findSimilars(int medId) async {
+    await seedingComplete;
+    final db = await dbHelper.database;
+    // Basic implementation: Find meds with same active ingredient
+    try {
+      // Assuming getMedicineById is available and returns MedicineModel
+      // and MedicineModel has an activeIngredient property.
+      // This method is not provided in the context, so it's a placeholder.
+      // You might need to implement getMedicineById or adjust this logic.
+      final med = await getMedicineById(medId);
+      if (med == null || med.active.isEmpty) return [];
+
+      final List<Map<String, dynamic>> maps = await db.query(
+        DatabaseHelper.medicinesTable,
+        where: 'active_ingredients = ? AND id != ?',
+        whereArgs: [med.active, medId],
+        limit: 10,
+      );
+      return maps.map((e) => MedicineModel.fromMap(e)).toList();
+    } catch (e) {
+      // Log error or handle it appropriately
+      return [];
+    }
+  }
+
+  Future<List<MedicineModel>> findAlternatives(int medId) async {
+    // Same as similars for now
+    return findSimilars(medId);
   }
 
   Future<List<MedicineModel>> findMedicines(String query) async {
@@ -996,35 +1060,6 @@ class SqliteLocalDataSource {
     return categories;
   }
 
-  Future<List<MedicineModel>> getRecentlyUpdatedMedicines(
-    String cutoffDate, {
-    int limit = 10,
-    int? offset,
-  }) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-    // Note: cutoffDate logic is simplified here as we mainly just sort by update
-    // If strict cutoff is needed: where: 'last_price_update > ?', whereArgs: [cutoffDate]
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      orderBy: 'last_price_update DESC',
-      limit: limit,
-      offset: offset,
-    );
-    return maps.map((e) => MedicineModel.fromMap(e)).toList();
-  }
-
-  Future<List<MedicineModel>> getRandomMedicines({int limit = 5}) async {
-    await seedingComplete;
-    final db = await dbHelper.database;
-    final List<Map<String, dynamic>> maps = await db.query(
-      DatabaseHelper.medicinesTable,
-      orderBy: 'RANDOM()',
-      limit: limit,
-    );
-    return maps.map((e) => MedicineModel.fromMap(e)).toList();
-  }
-
   Future<List<MedicineModel>> getPopularMedicines({int limit = 10}) async {
     await seedingComplete;
     final db = await dbHelper.database;
@@ -1097,7 +1132,8 @@ class SqliteLocalDataSource {
   }
 
   // Helper to check for existing medicines (for sync logic to avoid dupes if strictly needed)
-  Future<List<MedicineModel>> findSimilars(
+
+  Future<List<MedicineModel>> findSimilarsByAttributes(
     String active,
     String tradeName,
   ) async {
@@ -1113,7 +1149,7 @@ class SqliteLocalDataSource {
     return maps.map((e) => MedicineModel.fromMap(e)).toList();
   }
 
-  Future<List<MedicineModel>> findAlternatives(
+  Future<List<MedicineModel>> findAlternativesByAttributes(
     String category,
     String active,
   ) async {

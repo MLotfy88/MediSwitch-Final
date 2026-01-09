@@ -357,7 +357,7 @@ class DrugRepositoryImpl implements DrugRepository {
     );
     try {
       final List<MedicineModel> localMedicines = await localDataSource
-          .findSimilars(drug.active, drug.tradeName);
+          .findSimilarsByAttributes(drug.active, drug.tradeName);
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
       _logger.i(
@@ -389,7 +389,7 @@ class DrugRepositoryImpl implements DrugRepository {
 
     try {
       final List<MedicineModel> localMedicines = await localDataSource
-          .findAlternatives(categoryToSearch, drug.active);
+          .findAlternativesByAttributes(categoryToSearch, drug.active);
       final List<DrugEntity> drugEntities =
           localMedicines.map((model) => model.toEntity()).toList();
       _logger.i(
