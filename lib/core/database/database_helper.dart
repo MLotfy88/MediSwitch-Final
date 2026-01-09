@@ -80,8 +80,11 @@ class DatabaseHelper {
     _logger.i('DatabaseHelper: Initializing database at $path');
 
     // --- PRE-PACKAGED DATABASE LOGIC ---
-    // v19 marker for the final schema alignment
-    final markerFilePath = join(documentsDirectory.path, 'db_v19_nocase.txt');
+    // v21 marker for the final split fix
+    final markerFilePath = join(
+      documentsDirectory.path,
+      'db_v21_split_fixed.txt',
+    );
     final markerFile = File(markerFilePath);
 
     final dbFile = File(path);
@@ -107,10 +110,6 @@ class DatabaseHelper {
           'ai',
           'aj',
           'ak',
-          'al',
-          'am',
-          'an',
-          'ao',
         ];
 
         // Explicitly delete old DB and any old markers to ensure clean state

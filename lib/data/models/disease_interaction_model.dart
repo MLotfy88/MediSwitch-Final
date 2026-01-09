@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:archive/archive.dart';
 import 'package:mediswitch/domain/entities/disease_interaction.dart';
 
 class DiseaseInteractionModel extends DiseaseInteraction {
@@ -22,10 +25,28 @@ class DiseaseInteractionModel extends DiseaseInteraction {
       medId: json['med_id'] as int? ?? 0,
       tradeName: json['trade_name'] as String? ?? '',
       diseaseName: json['disease_name'] as String? ?? 'Unknown Disease',
-      interactionText: json['interaction_text'] as String? ?? '',
+      interactionText: _decompress(json['interaction_text']) ?? '',
       severity: json['severity'] as String? ?? 'Major',
       source: json['source'] as String? ?? 'DDInter',
     );
+  }
+
+  // ZLIB Decompression Helper
+  static String? _decompress(dynamic content) {
+    if (content == null) return null;
+    if (content is String) return content;
+    if (content is List<int>) {
+      try {
+        return utf8.decode(ZLibDecoder().decodeBytes(content));
+      } catch (e) {
+        try {
+          return utf8.decode(content, allowMalformed: true);
+        } catch (_) {
+          return null;
+        }
+      }
+    }
+    return null;
   }
 
   Map<String, dynamic> toMap() {

@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:archive/archive.dart';
 import 'package:mediswitch/domain/entities/drug_interaction.dart';
 
 /// Model class for drug interactions, extending the domain entity
@@ -25,7 +28,6 @@ class DrugInteractionModel extends DrugInteraction {
 
   /// Creates a DrugInteractionModel from JSON data
   factory DrugInteractionModel.fromJson(Map<String, dynamic> json) {
-    // Note: isPrimaryIngredient is usually calculated at runtime, defaulting to true or reading if present
     return DrugInteractionModel(
       id: json['id'] as int?,
       ingredient1: json['ingredient1'] as String? ?? '',
@@ -35,8 +37,8 @@ class DrugInteractionModel extends DrugInteraction {
       arabicEffect: json['arabic_effect'] as String?,
       recommendation: json['recommendation'] as String?,
       arabicRecommendation: json['arabic_recommendation'] as String?,
-      managementText: json['management_text'] as String?,
-      mechanismText: json['mechanism_text'] as String?,
+      managementText: _decompress(json['management_text']),
+      mechanismText: _decompress(json['mechanism_text']),
       riskLevel: json['risk_level'] as String?,
       ddinterId: json['ddinter_id'] as String? ?? json['ddinterId'] as String?,
       alternativesA: DrugInteraction.parseAlternatives(json['alternatives_a']),
@@ -47,6 +49,24 @@ class DrugInteractionModel extends DrugInteraction {
           json['is_primary_ingredient'] == 1 ||
           json['is_primary_ingredient'] == true,
     );
+  }
+
+  // ZLIB Decompression Helper
+  static String? _decompress(dynamic content) {
+    if (content == null) return null;
+    if (content is String) return content;
+    if (content is List<int>) {
+      try {
+        return utf8.decode(ZLibDecoder().decodeBytes(content));
+      } catch (e) {
+        try {
+          return utf8.decode(content, allowMalformed: true);
+        } catch (_) {
+          return null;
+        }
+      }
+    }
+    return null;
   }
 
   @override

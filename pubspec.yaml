@@ -113,6 +113,7 @@ flutter:
     - assets/database/parts/mediswitch.db.part-ah
     - assets/database/parts/mediswitch.db.part-ai
     - assets/database/parts/mediswitch.db.part-aj
+    - assets/database/parts/mediswitch.db.part-ak
     - assets/database/ # Pre-packaged database fallback
     - assets/data/ # Include the directory for medicine_ingredients.json etc.
     - assets/data/interactions/ # Added for chunked interaction rules and ingredients
