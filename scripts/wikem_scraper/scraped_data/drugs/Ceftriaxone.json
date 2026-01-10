@@ -1,0 +1,176 @@
+{
+  "drug_name": "Ceftriaxone",
+  "url": "https://wikem.org/wiki/Ceftriaxone",
+  "scraped_at": "2026-01-10T03:07:30.428114",
+  "sections": {
+    "General": {
+      "text": "Type: 3rd generation\nCephalosporin\nDosage Forms: injectable solution, powder for injection\nDosage Strengths: injectable solution: 1g/50mL, 2g/50mL; powder for injection: 250mg, 500mg, 1g, 2g, 10g, 100g\nRoutes of Administration: IV, IM\nCommon Trade Names: Rocephin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "1-2g IM/IV q24h\nFirst ED Dose: 1g IM/IV x 1\nMax: 4g/24h",
+          "tables": []
+        },
+        "Bacterial_Meningitis": {
+          "text": "4g IV divided q12-24h x 7-21 days\nFirst ED Dose: 2g IM/IV x 1",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Uncomplicated, initial: 250mg IM x 1\nAlso treat for chlamydia regardless of test results\nUncomplicated, recurrent of persistent: 500-1000mg IM x 1\nDisseminated: 1g IM/IV q24h\nMay switch to cefixime PO after 24-48h if clinical improvement\nConjunctivitis: 1g IM x 1\nProphylaxis (sexual assault victims)\n250mg IM x 1",
+          "tables": []
+        },
+        "PID": {
+          "text": "250mg IM x 1\nUse with doxycycline +/- metronidazole",
+          "tables": []
+        },
+        "Sinusitis,_Severe": {
+          "text": "1-2g IV q12-24h x 7-10 days",
+          "tables": []
+        },
+        "Endocarditis": {
+          "text": "1g IM/IV x 1\n30-60 min before procedure",
+          "tables": []
+        },
+        "Proctitis,_Epididymitis,_Chancroid": {
+          "text": "250mg IM x 1\nGive with doxycycline",
+          "tables": []
+        },
+        "Surgical_Prophylaxis": {
+          "text": "1g IV x 1\nGive 0.5-2h preop",
+          "tables": []
+        },
+        "Typhoid_Fever": {
+          "text": "60mg/kg IV q24h x 2wk\nMax: 4g/24h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_(<7_Days_Old)": {
+          "text": "50mg/kg IM/IV q24h\nFirst Dose: 50mg/kg IM/IV x 1",
+          "tables": []
+        },
+        "General_(7_Days_-_1_Month)": {
+          "text": "<2000g\n50mg/kg IM/IV q24h\nFirst Dose: 50mg/kg IM/IV x 1\n>2000g\n50-75mg/kg IM/IV q24h\nFirst Dose: 50-75mg/kg IM/IV x 1",
+          "tables": []
+        },
+        "General_(>1_Month_-_Adult)": {
+          "text": "50-100mg/kg IM/IV divided q12-24h\nFirst Dose: 50-100mg/kg IM/IV x 1\nMax: 4g/24h",
+          "tables": []
+        },
+        "Acute_Otitis_Media_(2_Months_-_12_Years)": {
+          "text": "50mg/kg IM/IV x 1\nGive 50mg/kg IM/IV q24h x 3 days for recurrent infection\nMax 1g/dose",
+          "tables": []
+        },
+        "Bacterial_Meningitis_2": {
+          "text": "80-100mg/kg IV divided q12-24h x 7-21 days\nFirst Dose: 100mg/kg IV x 1\nMax: 4g/24h",
+          "tables": []
+        },
+        "Pneumonia,_Community-Acquired_(>3_Months)": {
+          "text": "50-100mg/kg/day IM/IV divided q12-24h x 10 days\nFirst Dose:\nMax: 2g/day\nInfo: May switch to PO when possible to complete course",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Probably safe\nRenal Dosing\nAdult\nRenal failure: No initial adjustment, monitor serum levels\nHemodialysis: give dose after dialysis, no supplement\nPeritoneal Dialysis: 750mg q12h\nPediatric\nCrCl <10: give q24h\nHemodialysis: 50mg/kg q24, no supplement\nPeritoneal Dialysis: 50mg/kg q24, no supplement\nHepatic Dosing\nAdult\nHepatic and renal disease: max 2g/day, unless closely monitoring serum levels\nPediatric\nMay requrire dose adjustment but specific dosing not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug (see also\nCephalosporin Cross-reactivity\n)\nPatients <1 month old\nHyperbillirubinemia\nIV calcium containing product\nIf a 3rd generation cephalosporin is required, consider using Cefotaxime instead",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalosporin Cross-reactivity",
+          "url": "https://wikem.org/wiki/Cephalosporin_Cross-reactivity"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nBroncospasm\nStevens-Johnson Syndrome\nToxic Epidermal Necrolysis\nErythema multiforme\nSerum sickness\nPneumonitis\nNeutropenia\nLeukopenia\nHemolytic anemia\nThrombocytopenia\nHypoprothrombinemia\nAgranulocytosis\nSuperinfection\nClostridium difficile\nColitis\nBilliary/gallbladder sludge\nJaundice\nPancreatitis\nSeizures\nNephrolithiasis\nLung/kidney calcium precipitate (neonates)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Local infection site reaction\nEosinophilia\nThrombocytosis\nTransaminitis\nDiarrhea\nLeukopenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.8-8.7h, 15h (CrCl 5-15)\nMetabolism: CYP450\nExcretion: Primarily urine\nMechanism of Action: bactericidal; inhibits cell wall synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
