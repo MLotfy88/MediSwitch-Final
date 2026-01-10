@@ -475,12 +475,7 @@ class WikEMScraper:
         except subprocess.CalledProcessError as e:
             logger.warning(f"Git commit/push failed: {e}")
 
-# Anti-Ban Configuration (Optimized for Speed)
-MIN_DELAY = 1  # seconds (Aggressive)
-MAX_DELAY = 4  # seconds
-MAX_RETRIES = 3
-BACKOFF_FACTOR = 2
-COMMIT_EVERY = 100  # Commit less frequently to save time
+
 
     def run(self, drug_list: List[str]):
         """Main scraping loop with PARALLEL execution"""
