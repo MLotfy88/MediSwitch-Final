@@ -1,0 +1,240 @@
+{
+  "drug_name": "Healthcare_occupational_exposure_to_blood_or_other_body_fluids",
+  "url": "https://wikem.org/wiki/Healthcare_occupational_exposure_to_blood_or_other_body_fluids",
+  "scraped_at": "2026-01-10T07:54:22.361841",
+  "sections": {
+    "Background": {
+      "text": "The majority of persons (e.g. source patients) chronically infected with hepatitis B and C (65% to 75%) are not aware of their infection\n[1]\nThe CDC has a\npost exposure prophylaxis hotline\nat 1-888-448-4911",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Frequently from needlestick injuries or other occupational exposures to bodily fluids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Laceration\nRetained\nforeign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Most commonly, the only actionable lab on the day of exposure is a rapid\nHIV\ntest from the source-patient (for consideration of\nPEP\n)\nLess severe percutaneous exposures are associated with solid and blunt tip needles\nMore severe percutaneous exposures are associated with deep punctures, large bore hollow needles, visible blood on the device, and needles used in patients arteries and veins.\nSmaller volume (few drops) exposures are considered to be lower risk than higher volume (major blood splash) for mucous membranes and non-intact skin exposures.\nMost occupational exposures to HIV are not associated with transmission.",
+      "subsections": {
+        "Source-patient_labs": {
+          "text": "Rapid HIV\nConsider\nhepatitis\npanel and possibly RPR\nHepatitis B and C infectivity of source patient:\nHBs-Ag (active infection)\nHBc-Ab IgM (window period)\nHepC-Ab, plus or minus viral load",
+          "tables": []
+        },
+        "Exposed-patient_labs": {
+          "text": "In some systems, NO immediate laboratory testing is performed\nIn many systems, a standardized baseline lab panel is sent in the ED and then followed up at employee health the next day\nIf giving HIV\nPEP\n:\nRapid\nHIV\n(to confirm they do not\nalready\nhave HIV)\nCBC, C7, LFTs, pregnancy test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "PEP",
+          "url": "https://wikem.org/wiki/PEP"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "PEP",
+          "url": "https://wikem.org/wiki/PEP"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Source-patient_labs": {
+      "text": "Rapid HIV\nConsider\nhepatitis\npanel and possibly RPR\nHepatitis B and C infectivity of source patient:\nHBs-Ag (active infection)\nHBc-Ab IgM (window period)\nHepC-Ab, plus or minus viral load",
+      "subsections": {
+        "Exposed-patient_labs": {
+          "text": "In some systems, NO immediate laboratory testing is performed\nIn many systems, a standardized baseline lab panel is sent in the ED and then followed up at employee health the next day\nIf giving HIV\nPEP\n:\nRapid\nHIV\n(to confirm they do not\nalready\nhave HIV)\nCBC, C7, LFTs, pregnancy test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "PEP",
+          "url": "https://wikem.org/wiki/PEP"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Exposed-patient_labs": {
+      "text": "In some systems, NO immediate laboratory testing is performed\nIn many systems, a standardized baseline lab panel is sent in the ED and then followed up at employee health the next day\nIf giving HIV\nPEP\n:\nRapid\nHIV\n(to confirm they do not\nalready\nhave HIV)\nCBC, C7, LFTs, pregnancy test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PEP",
+          "url": "https://wikem.org/wiki/PEP"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "HIV": {
+          "text": "Consider\nHIV post-exposure prophylaxis",
+          "tables": []
+        },
+        "Preferred_HIV_PEP_Regimen[2]": {
+          "text": "PEP should be started as soon as possible after significant exposure and continued for 28 days\n[4]\nRaltegravir\n(Isentress; RAL) 400 mg PO twice daily,\nplus\nTruvada\n, 1 PO once daily (Tenofovir DF [Viread; TDF] 300 mg emtricitabine [Emtriva; FTC] 200 mg)\nOther Considerations\nIf known source patient with resistant HIV strain, consult HIV service for source-patient-specific PEP\nConsider interactions with current medication interactions and contraindications, such as renal impairment with\nTruvada\nFor patients with creatinine clearance <60mL/min, consider\nRaltegravir\n400mg PO twice daily,\nplus\nZidovudine\nand\nLamivudine\nwith doses adjusted to the degree of renal dysfunction.\n[5]\nIf the  source  exposure  does  report  exposure  to HIV  within the  last  6 weeks, HIV  RNA  PCR (HIV  viral  load)  should be  sent  along  with HIV  Ag/Ab screen on  the  source  and nPEP  should be  initiated for  the  exposed patient\nIf  both tests  result  not  detected  and nonreactive, respectively, nPEP  should  be  discontinued.\nIf the  source  is  willing  and  able  to be  tested and is  found to be  HIV-negative with  no  recent high-risk  exposures  to HIV, nPEP  is  not  indicated  and  should not  be  initiated, or  discontinued if  already  started.\nThe exposed  patient  still  warrants  baseline HIV  testing  and  should  be offered  baseline  and follow-up testing  for  other  transmissible  infections,  e.g. hepatitis  A, B, and C, syphilis, chlamydia, and gonorrhea.",
+          "tables": []
+        },
+        "Hepatitis_B": {
+          "text": "Not normally indicated, assuming patient has had full course of Hepatitis B vaccination (as all healthcare workers should have)\nIf exposed-patient NOT already vaccinated, see\nHepatitis B Post-Exposure Prophylaxis",
+          "tables": []
+        },
+        "Hepatitis_C": {
+          "text": "No prophylaxis regimen has any benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Hepatitis B Post-Exposure Prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B#Hepatitis_B_Post-Exposure_Prophylaxis"
+        }
+      ]
+    },
+    "HIV": {
+      "text": "Consider\nHIV post-exposure prophylaxis",
+      "subsections": {
+        "Preferred_HIV_PEP_Regimen[2]": {
+          "text": "PEP should be started as soon as possible after significant exposure and continued for 28 days\n[4]\nRaltegravir\n(Isentress; RAL) 400 mg PO twice daily,\nplus\nTruvada\n, 1 PO once daily (Tenofovir DF [Viread; TDF] 300 mg emtricitabine [Emtriva; FTC] 200 mg)\nOther Considerations\nIf known source patient with resistant HIV strain, consult HIV service for source-patient-specific PEP\nConsider interactions with current medication interactions and contraindications, such as renal impairment with\nTruvada\nFor patients with creatinine clearance <60mL/min, consider\nRaltegravir\n400mg PO twice daily,\nplus\nZidovudine\nand\nLamivudine\nwith doses adjusted to the degree of renal dysfunction.\n[5]\nIf the  source  exposure  does  report  exposure  to HIV  within the  last  6 weeks, HIV  RNA  PCR (HIV  viral  load)  should be  sent  along  with HIV  Ag/Ab screen on  the  source  and nPEP  should be  initiated for  the  exposed patient\nIf  both tests  result  not  detected  and nonreactive, respectively, nPEP  should  be  discontinued.\nIf the  source  is  willing  and  able  to be  tested and is  found to be  HIV-negative with  no  recent high-risk  exposures  to HIV, nPEP  is  not  indicated  and  should not  be  initiated, or  discontinued if  already  started.\nThe exposed  patient  still  warrants  baseline HIV  testing  and  should  be offered  baseline  and follow-up testing  for  other  transmissible  infections,  e.g. hepatitis  A, B, and C, syphilis, chlamydia, and gonorrhea.",
+          "tables": []
+        },
+        "Hepatitis_B": {
+          "text": "Not normally indicated, assuming patient has had full course of Hepatitis B vaccination (as all healthcare workers should have)\nIf exposed-patient NOT already vaccinated, see\nHepatitis B Post-Exposure Prophylaxis",
+          "tables": []
+        },
+        "Hepatitis_C": {
+          "text": "No prophylaxis regimen has any benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Truvada",
+          "url": "https://wikem.org/wiki/Truvada"
+        },
+        {
+          "text": "Raltegravir",
+          "url": "https://wikem.org/wiki/Raltegravir"
+        },
+        {
+          "text": "Hepatitis B Post-Exposure Prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B#Hepatitis_B_Post-Exposure_Prophylaxis"
+        }
+      ]
+    },
+    "Hepatitis_B": {
+      "text": "Not normally indicated, assuming patient has had full course of Hepatitis B vaccination (as all healthcare workers should have)\nIf exposed-patient NOT already vaccinated, see\nHepatitis B Post-Exposure Prophylaxis",
+      "subsections": {
+        "Hepatitis_C": {
+          "text": "No prophylaxis regimen has any benefit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis B Post-Exposure Prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B#Hepatitis_B_Post-Exposure_Prophylaxis"
+        }
+      ]
+    },
+    "Hepatitis_C": {
+      "text": "No prophylaxis regimen has any benefit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient management with employee health follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV post-exposure prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    }
+  }
+}

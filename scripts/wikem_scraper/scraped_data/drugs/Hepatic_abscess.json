@@ -1,0 +1,499 @@
+{
+  "drug_name": "Hepatic_abscess",
+  "url": "https://wikem.org/wiki/Hepatic_abscess",
+  "scraped_at": "2026-01-10T07:54:34.863543",
+  "sections": {
+    "Background": {
+      "text": "Uncommon overall - usually occurs in right liver lobe\nMore abscesses → more severe disease\nHistory of camping is common\nEndemic of Midwest",
+      "subsections": {
+        "Types": {
+          "text": "Pyogenic (80%)\nMost common cause\nAssociated with biliary tract obstruction (most common),\ncholangitis\n,\ndiverticulitis\n, pancreatic abscess,\nappendicitis\nand\ninflammatory bowel disease\n.\nPossible arterial hematogenous seeding:\nsepsis\n, direct\ntrauma\nor instrumentation\nUsually polymicrobial\nAmebic\n(10%)\nE. histolytica most common\nUsually not septic and sick, rarely needs drainage\nFungal\n(<10%),\ncandidal\nHydatid cyst (\nechinococcosis\n)\nAssociated with sheep farmers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Pyogenic (80%)\nMost common cause\nAssociated with biliary tract obstruction (most common),\ncholangitis\n,\ndiverticulitis\n, pancreatic abscess,\nappendicitis\nand\ninflammatory bowel disease\n.\nPossible arterial hematogenous seeding:\nsepsis\n, direct\ntrauma\nor instrumentation\nUsually polymicrobial\nAmebic\n(10%)\nE. histolytica most common\nUsually not septic and sick, rarely needs drainage\nFungal\n(<10%),\ncandidal\nHydatid cyst (\nechinococcosis\n)\nAssociated with sheep farmers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "RUQ pain\nHigh\nfever\nNausea\n,\nvomiting\n, anorexia\nClay-colored stool\nDark urine\nJaundice\n- seen with pyogenic, as opposed to amebic\n[1]\nOften with right\npleural effusions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hepatic_abscess": {
+          "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+          "tables": []
+        },
+        "RUQ_Pain": {
+          "text": "Gallbladder disease\nSymptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nPancreatitis\nAcute hepatitis\nPancreatitis\nGERD\nAppendicitis\n(retrocecal)\nPyogenic liver abscess\nBowel obstruction\nCirrhosis\nBudd-Chiari syndrome\nGU\nPyelonephritis\nKidney stone\nFitz-Hugh-Curtis Syndrome\nOther\nHepatomegaly\ndue to\nCHF\nPeptic ulcer disease\nwith or without perforation\nPneumonia\nHerpes zoster\nMyocardial ischemia\nPulmonary embolism\nAbdominal aortic aneurysm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Acute hepatitis",
+          "url": "https://wikem.org/wiki/Acute_hepatitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "Hepatic_abscess": {
+      "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+      "subsections": {
+        "RUQ_Pain": {
+          "text": "Gallbladder disease\nSymptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nPancreatitis\nAcute hepatitis\nPancreatitis\nGERD\nAppendicitis\n(retrocecal)\nPyogenic liver abscess\nBowel obstruction\nCirrhosis\nBudd-Chiari syndrome\nGU\nPyelonephritis\nKidney stone\nFitz-Hugh-Curtis Syndrome\nOther\nHepatomegaly\ndue to\nCHF\nPeptic ulcer disease\nwith or without perforation\nPneumonia\nHerpes zoster\nMyocardial ischemia\nPulmonary embolism\nAbdominal aortic aneurysm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Acute hepatitis",
+          "url": "https://wikem.org/wiki/Acute_hepatitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "RUQ_Pain": {
+      "text": "Gallbladder disease\nSymptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nPancreatitis\nAcute hepatitis\nPancreatitis\nGERD\nAppendicitis\n(retrocecal)\nPyogenic liver abscess\nBowel obstruction\nCirrhosis\nBudd-Chiari syndrome\nGU\nPyelonephritis\nKidney stone\nFitz-Hugh-Curtis Syndrome\nOther\nHepatomegaly\ndue to\nCHF\nPeptic ulcer disease\nwith or without perforation\nPneumonia\nHerpes zoster\nMyocardial ischemia\nPulmonary embolism\nAbdominal aortic aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Acute hepatitis",
+          "url": "https://wikem.org/wiki/Acute_hepatitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "CBC - Elevated white blood count (70-80%)\nBMP\nLFTs\n- Elevated alkaline phosphatase levels (90%)\nCoags\nBlood cultures\nAmebic and echinococcal serologies\nUltrasound\n(80-100% sensitivity)\nCT abd/pelvis (\nImaging study of choice\n)\nTriphasic CT scan to define the proximity of the\nabscess\nto the major branches of the portal and hepatic veins",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Diagnosis usually made on imaging studies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "CBC - Elevated white blood count (70-80%)\nBMP\nLFTs\n- Elevated alkaline phosphatase levels (90%)\nCoags\nBlood cultures\nAmebic and echinococcal serologies\nUltrasound\n(80-100% sensitivity)\nCT abd/pelvis (\nImaging study of choice\n)\nTriphasic CT scan to define the proximity of the\nabscess\nto the major branches of the portal and hepatic veins",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Diagnosis usually made on imaging studies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Diagnosis usually made on imaging studies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IV antibiotics\n[2]\nTwo or more antibiotics\nGram Negs\n: third or fourth generation\ncephalosporin\n(\nceftriaxone\n) or\naminoglycoside\nGram Pos\n:\npenicillin\nfor\nstreptococcal\nspecies (\nampicillin\n)\nFor penicillin allergic, use\nfluoroquinolones\nAnaerobes\n:\nmetronidazole\nor\nclindamycin\nDiagnostic aspiration and drainage of the\nabscess\nfollowed by placement of drainage catheter\nSonographic guidance for small or superficial abscesses\nCT guidance for deep or multiple abscesses\nSurgical drainage\nAbscesses > 5cm\nAbscesses not amenable to percutaneous drainage due to location\nFailure of percutaneous aspiration and drainage\nCoexistence of inra-abdominal disease that requires surgical management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for IV\nantibiotics\nand surgical drainage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Right upper quadrant abdominal pain\nAmebiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

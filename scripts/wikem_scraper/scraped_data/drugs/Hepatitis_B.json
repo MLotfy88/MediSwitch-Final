@@ -1,0 +1,601 @@
+{
+  "drug_name": "Hepatitis_B",
+  "url": "https://wikem.org/wiki/Hepatitis_B",
+  "scraped_at": "2026-01-10T07:54:34.737346",
+  "sections": {
+    "Background": {
+      "text": "Blood-borne DNA virus\nIncubation period: 1-3 months\nVirus can cause acute, chronic, or asymptomatic infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nausea/vomiting\nRUQ pain\nJaundice\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[1]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        },
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[1]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "LFTs\nAST, ALT > 1000s\nElevated bilirubin\nElevated alk phophatase\nElevated INR\nCBC, BMP\nAssess for alternative etiologies of symptoms as appropriate (see:\njaundice\n,\nRUQ pain\n,\nnausea/vomiting\n)",
+      "subsections": {
+        "Interpreting_Acute_Hepatitis_Panel_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anti-hepatitis A, IgM": "Positive",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis A"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Chronichepatitis Binfection"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Positive",
+                "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+              }
+            ]
+          ]
+        },
+        "Evaluating_Hepatitis_B_Serology_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Scenario": "Susceptible to infection",
+                "HBsAg": "negative",
+                "anti-HBc": "negative",
+                "anti-HBs": "negative"
+              },
+              {
+                "Clinical Scenario": "Immune due to natural infection",
+                "HBsAg": "negative",
+                "anti-HBc": "positive",
+                "anti-HBs": "positive"
+              },
+              {
+                "Clinical Scenario": "Immune due to Hep B infection",
+                "HBsAg": "negative",
+                "anti-HBc": "negative",
+                "anti-HBs": "positive"
+              },
+              {
+                "Clinical Scenario": "Acutely infected",
+                "HBsAg": "positive",
+                "anti-HBc": "anti-HBc- positive;        IgM anti-HBc- positive",
+                "anti-HBs": "negative"
+              },
+              {
+                "Clinical Scenario": "Chronically infected",
+                "HBsAg": "positive",
+                "anti-HBc": "anti-HBc- positive;       IgM anti-HBc- negative",
+                "anti-HBs": "negative"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Interpreting_Acute_Hepatitis_Panel_Results": {
+      "text": "",
+      "subsections": {
+        "Evaluating_Hepatitis_B_Serology_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Scenario": "Susceptible to infection",
+                "HBsAg": "negative",
+                "anti-HBc": "negative",
+                "anti-HBs": "negative"
+              },
+              {
+                "Clinical Scenario": "Immune due to natural infection",
+                "HBsAg": "negative",
+                "anti-HBc": "positive",
+                "anti-HBs": "positive"
+              },
+              {
+                "Clinical Scenario": "Immune due to Hep B infection",
+                "HBsAg": "negative",
+                "anti-HBc": "negative",
+                "anti-HBs": "positive"
+              },
+              {
+                "Clinical Scenario": "Acutely infected",
+                "HBsAg": "positive",
+                "anti-HBc": "anti-HBc- positive;        IgM anti-HBc- positive",
+                "anti-HBs": "negative"
+              },
+              {
+                "Clinical Scenario": "Chronically infected",
+                "HBsAg": "positive",
+                "anti-HBc": "anti-HBc- positive;       IgM anti-HBc- negative",
+                "anti-HBs": "negative"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Anti-hepatitis A, IgM": "Positive",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis A"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Chronichepatitis Binfection"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Positive",
+            "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluating_Hepatitis_B_Serology_Results": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical Scenario": "Susceptible to infection",
+            "HBsAg": "negative",
+            "anti-HBc": "negative",
+            "anti-HBs": "negative"
+          },
+          {
+            "Clinical Scenario": "Immune due to natural infection",
+            "HBsAg": "negative",
+            "anti-HBc": "positive",
+            "anti-HBs": "positive"
+          },
+          {
+            "Clinical Scenario": "Immune due to Hep B infection",
+            "HBsAg": "negative",
+            "anti-HBc": "negative",
+            "anti-HBs": "positive"
+          },
+          {
+            "Clinical Scenario": "Acutely infected",
+            "HBsAg": "positive",
+            "anti-HBc": "anti-HBc- positive;        IgM anti-HBc- positive",
+            "anti-HBs": "negative"
+          },
+          {
+            "Clinical Scenario": "Chronically infected",
+            "HBsAg": "positive",
+            "anti-HBc": "anti-HBc- positive;       IgM anti-HBc- negative",
+            "anti-HBs": "negative"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care for acute disease",
+      "subsections": {
+        "Hepatitis_B_Post-Exposure_Prophylaxis": {
+          "text": "Treatment is generally initiated after coordination with occupational health and infectious disease service and based the the exposed patient's vaccination history\n[2]",
+          "tables": []
+        },
+        "Unvaccinated": {
+          "text": "If the source is HBsAg(+) then give HBIG x1 and initiate HBV vaccine in two separate sites\nIf source is HGsAG(-) then start the HBV vaccine series\nIf source blood is unavailable and high risk then give HBIG x1 initiate the HBV series\nIf source blood is low risk and unavailable then begin HBV series",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(one_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x 1 and begin revaccination series\nCan also opt to perform second HBIG administration in one month\nIf source is HBsAg(-) then no treatment is needed\nIf source blood is unavailable and high risk then treat as if HBsAg(+)",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(two_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x2 and no HBV series\nIf source is HGsAG(-) then no treatment is needed\nIf source blood is unavailable then initiate the HBV series",
+          "tables": []
+        },
+        "Treatment_Dosing": {
+          "text": "No contraindications for pregnancy or breast feeding\nHBIG 0.06 mL/kg IM\nGive in opposite arm from hepatitis B vaccine if patient also receiving vaccine\nVaccination series: HBV vaccine options:\nEngerix-B 20mcg IM\nRecombivax HB 10mcg IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatitis_B_Post-Exposure_Prophylaxis": {
+      "text": "Treatment is generally initiated after coordination with occupational health and infectious disease service and based the the exposed patient's vaccination history\n[2]",
+      "subsections": {
+        "Unvaccinated": {
+          "text": "If the source is HBsAg(+) then give HBIG x1 and initiate HBV vaccine in two separate sites\nIf source is HGsAG(-) then start the HBV vaccine series\nIf source blood is unavailable and high risk then give HBIG x1 initiate the HBV series\nIf source blood is low risk and unavailable then begin HBV series",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(one_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x 1 and begin revaccination series\nCan also opt to perform second HBIG administration in one month\nIf source is HBsAg(-) then no treatment is needed\nIf source blood is unavailable and high risk then treat as if HBsAg(+)",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(two_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x2 and no HBV series\nIf source is HGsAG(-) then no treatment is needed\nIf source blood is unavailable then initiate the HBV series",
+          "tables": []
+        },
+        "Treatment_Dosing": {
+          "text": "No contraindications for pregnancy or breast feeding\nHBIG 0.06 mL/kg IM\nGive in opposite arm from hepatitis B vaccine if patient also receiving vaccine\nVaccination series: HBV vaccine options:\nEngerix-B 20mcg IM\nRecombivax HB 10mcg IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider admission for:\nINR >2, Bilirubin >30, hypoglycemia\nAny GI bleeding\nIntractable pain, inability to tolerate PO\nSignificant comorbidity/immunocompromised or age >50 years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Viral hepatitis\nAcute hepatitis\nJaundice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Antibiotics (By_Diagnosis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

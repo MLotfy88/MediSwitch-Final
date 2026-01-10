@@ -1,0 +1,158 @@
+{
+  "drug_name": "Hemorrhage_of_AV_fistula",
+  "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula",
+  "scraped_at": "2026-01-10T07:54:29.101921",
+  "sections": {
+    "Background": {
+      "text": "Potentially life-threatening\nCan result from aneurysms, anastomosis rupture, or over-anticoagulation",
+      "subsections": {
+        "Types": {
+          "text": "Aneursym (true)\nMost are asymptomatic; rarely rupture\nPseudoaneurysm\nResults from subcutaneous extravasation of blood from puncture sites\nBleeding from puncture site is usually controlled by digital pressure or subq suture (if placed deep will often ruin shunt)\nConsider vascular surgery consultation for continued bleeding or infection\nArterial Doppler\nultrasound\nstudies can identify the aneurysm or pseudoaneurysm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Aneursym (true)\nMost are asymptomatic; rarely rupture\nPseudoaneurysm\nResults from subcutaneous extravasation of blood from puncture sites\nBleeding from puncture site is usually controlled by digital pressure or subq suture (if placed deep will often ruin shunt)\nConsider vascular surgery consultation for continued bleeding or infection\nArterial Doppler\nultrasound\nstudies can identify the aneurysm or pseudoaneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clotting of AV fistula",
+          "url": "https://wikem.org/wiki/Clotting_of_AV_fistula"
+        },
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider Doppler\nUS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Control bleeding with pressure applied to puncture site for 5-10min; observe for 1-2hr\nUtilize fistula clamp to apply small focus of direct pressure\nBulky dressing with allow for continued bleeding\nCorrect\ncoagulopathy\nProtamine\nsulfate for severe\nUnfractionated heparin reversal\nDDAVP\nfor\nUremic bleeding syndrome\nTopical thrombin\nQuikClot or similar product application\nPurse string suture with 3-0 nylon suture\n[1]\nFigure-of-8 stitch with 3-0 nylon or 5-0 prolene\nCan attempt desmopressin acetate 0.3 mcg/kg IV\n[2]\nIf can not be stopped with above measures, place upper extremity\ntourniquet\nand consult vascular surgeon vs IR.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "Unfractionated heparin reversal",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin_reversal"
+        },
+        {
+          "text": "DDAVP",
+          "url": "https://wikem.org/wiki/DDAVP"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge if hemodynamically stable with minimal blood loss",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.youtube.com/watch?v=toFiGSfesZk&feature=youtu.be",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

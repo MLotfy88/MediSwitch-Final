@@ -1,0 +1,298 @@
+{
+  "drug_name": "Hematuria_(peds)",
+  "url": "https://wikem.org/wiki/Hematuria_(peds)",
+  "scraped_at": "2026-01-10T07:54:28.191026",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nhematuria\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Make sure hematuria is not myoglobin (e.g. 2/2\nrhabdomyolysis\n) or bleeding from non-urinary source",
+      "subsections": {
+        "Common_Causes": {
+          "text": "Pediatric patients\nGlomerulonephritis\nUTI\nCongenital urinary tract anomaly\nYounger adults\nUTI\nNephrolithiasis\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Common_Causes": {
+      "text": "Pediatric patients\nGlomerulonephritis\nUTI\nCongenital urinary tract anomaly\nYounger adults\nUTI\nNephrolithiasis\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Types_of_hematuria": {
+          "text": "Initial hematuria\nBlood at beginning of micturition with subsequent clearing\nSuggests urethral disease\nIntervoid hematuria\nBlood between voiding only (voided urine is clear)\nSuggests lesions at distal urethra or meatus\nTotal hematuria\nBlood visible throughout micturition\nSuggests disease of kidneys, ureters, or bladder\nTerminal hematuria\nBlood seen at end of micturition after initial voiding of clear urine\nSuggests disease at bladder neck or prostatic urethra\nGross hematuria\nIndicates lower tract cause\nMicroscopic hematuria\nTends to occur with kidney disease\nBrown urine with RBC casts and proteinuria\nSuggests glomerular source\nClotted blood\nIndicates source below kidneys",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types_of_hematuria": {
+      "text": "Initial hematuria\nBlood at beginning of micturition with subsequent clearing\nSuggests urethral disease\nIntervoid hematuria\nBlood between voiding only (voided urine is clear)\nSuggests lesions at distal urethra or meatus\nTotal hematuria\nBlood visible throughout micturition\nSuggests disease of kidneys, ureters, or bladder\nTerminal hematuria\nBlood seen at end of micturition after initial voiding of clear urine\nSuggests disease at bladder neck or prostatic urethra\nGross hematuria\nIndicates lower tract cause\nMicroscopic hematuria\nTends to occur with kidney disease\nBrown urine with RBC casts and proteinuria\nSuggests glomerular source\nClotted blood\nIndicates source below kidneys",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Hematuria": {
+          "text": "Look-Alikes\nFoods or medications\nFor example beets,\nrifampin\n, multivitamins,\npyridium\nUric acid crystalluria\nGastrointestinal bleeding (peds)\nVaginal bleeding\nPrepubertal vaginal bleeding\nOther causes of\nabnormally colored urine",
+          "tables": [
+            [
+              {
+                "Macroscopic Hematuria": "Blunt abdominal trauma",
+                "Transient Microhematuria": "Strenuous exercise",
+                "Persistent Microhematuria": "Benign familial hematuria"
+              },
+              {
+                "Macroscopic Hematuria": "Urinary tract infection",
+                "Transient Microhematuria": "Congenital anomalies",
+                "Persistent Microhematuria": "Idiopathic hypercalciuria"
+              },
+              {
+                "Macroscopic Hematuria": "Nephrolithiasis",
+                "Transient Microhematuria": "Trauma",
+                "Persistent Microhematuria": "Immunoglobulin A nephropathy"
+              },
+              {
+                "Macroscopic Hematuria": "Infections",
+                "Transient Microhematuria": "Menstruation",
+                "Persistent Microhematuria": ""
+              },
+              {
+                "Macroscopic Hematuria": "Poststreptococcal glomerulonephritis",
+                "Transient Microhematuria": "Bladder catheterization",
+                "Persistent Microhematuria": "Alport syndrome"
+              },
+              {
+                "Macroscopic Hematuria": "",
+                "Transient Microhematuria": "Highfever",
+                "Persistent Microhematuria": "Sickle cell trait or anemia"
+              },
+              {
+                "Macroscopic Hematuria": "Immunoglobulin A nephropathy",
+                "Transient Microhematuria": "",
+                "Persistent Microhematuria": "Henoch-Schonlein purpura"
+              },
+              {
+                "Macroscopic Hematuria": "Hypercalciuria",
+                "Transient Microhematuria": "",
+                "Persistent Microhematuria": "Drugs andtoxins"
+              },
+              {
+                "Macroscopic Hematuria": "Sickle cell disease",
+                "Transient Microhematuria": "",
+                "Persistent Microhematuria": "Lupusnephritis"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "abnormally colored urine",
+          "url": "https://wikem.org/wiki/Abnormally_colored_urine"
+        }
+      ]
+    },
+    "Pediatric_Hematuria": {
+      "text": "Look-Alikes\nFoods or medications\nFor example beets,\nrifampin\n, multivitamins,\npyridium\nUric acid crystalluria\nGastrointestinal bleeding (peds)\nVaginal bleeding\nPrepubertal vaginal bleeding\nOther causes of\nabnormally colored urine",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Macroscopic Hematuria": "Blunt abdominal trauma",
+            "Transient Microhematuria": "Strenuous exercise",
+            "Persistent Microhematuria": "Benign familial hematuria"
+          },
+          {
+            "Macroscopic Hematuria": "Urinary tract infection",
+            "Transient Microhematuria": "Congenital anomalies",
+            "Persistent Microhematuria": "Idiopathic hypercalciuria"
+          },
+          {
+            "Macroscopic Hematuria": "Nephrolithiasis",
+            "Transient Microhematuria": "Trauma",
+            "Persistent Microhematuria": "Immunoglobulin A nephropathy"
+          },
+          {
+            "Macroscopic Hematuria": "Infections",
+            "Transient Microhematuria": "Menstruation",
+            "Persistent Microhematuria": ""
+          },
+          {
+            "Macroscopic Hematuria": "Poststreptococcal glomerulonephritis",
+            "Transient Microhematuria": "Bladder catheterization",
+            "Persistent Microhematuria": "Alport syndrome"
+          },
+          {
+            "Macroscopic Hematuria": "",
+            "Transient Microhematuria": "Highfever",
+            "Persistent Microhematuria": "Sickle cell trait or anemia"
+          },
+          {
+            "Macroscopic Hematuria": "Immunoglobulin A nephropathy",
+            "Transient Microhematuria": "",
+            "Persistent Microhematuria": "Henoch-Schonlein purpura"
+          },
+          {
+            "Macroscopic Hematuria": "Hypercalciuria",
+            "Transient Microhematuria": "",
+            "Persistent Microhematuria": "Drugs andtoxins"
+          },
+          {
+            "Macroscopic Hematuria": "Sickle cell disease",
+            "Transient Microhematuria": "",
+            "Persistent Microhematuria": "Lupusnephritis"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "pyridium",
+          "url": "https://wikem.org/wiki/Pyridium"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Prepubertal vaginal bleeding",
+          "url": "https://wikem.org/wiki/Prepubertal_vaginal_bleeding"
+        },
+        {
+          "text": "abnormally colored urine",
+          "url": "https://wikem.org/wiki/Abnormally_colored_urine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urinalysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment dependent on cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependent on cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hematuria\n(adult)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        }
+      ]
+    }
+  }
+}

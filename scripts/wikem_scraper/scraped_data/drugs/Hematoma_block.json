@@ -1,0 +1,83 @@
+{
+  "drug_name": "Hematoma_block",
+  "url": "https://wikem.org/wiki/Hematoma_block",
+  "scraped_at": "2026-01-10T07:54:23.060791",
+  "sections": {
+    "Background": {
+      "text": "Method of providing local anesthesia/analgesia around the site of a fracture as an alternative to procedural sedation when reduction or manipulation is required\nInvolves injecting anesthetic into the hematoma that forms around fracture site\nCommonly used for\nColles' fracture\nand\nankle fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "ankle fractures",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Need for closed reduction or manipulation of any diaphyseal or metaphyseal fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Open fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment": {
+      "text": "Sterile gloves\nSterile gauze\nAntiseptic (e.g. chlorhexidine or alcohol)\nSyringe\nNeedles (large bore for drawing up local, small gauge for injection)\nAnesthetic (e.g. 2%\nlidocaine\nor 0.5% bupivicaine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Position extremity on hard surface\nFind landmarks\nFracture site based on imaging\nArea of swelling or deformity\nDraw up anesthetic\nPrep skin\nEnter skin directly over fracture\nAdvance needle until bone encountered\nAspirate until blood is seen to confirm placement within hematoma\nInject anesthetic (5 to 15 mL of plain 1% lidocaine or 5 to 10 mL of plain 2% lidocaine)\n[1]\nGoal is to anesthetize bone and periosteum\nRemove needle, apply pressure with gauze\nDress site, proceed with reduction(s) only after 5-10 minutes when block is fully in effect",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls": {
+      "text": "Can use a combination of lidocaine and bupivicaine for rapid onset and longer acting analgesia/anesthesia\nCan use C-arm to guide the needle to the fracture site to increase the chance of successful block in distal radius fractures\nIf it has been several hours since injury, hematoma may have already started to organize and be unaspiratable\nUltrasound\n-guidance may improve success\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Colles' fracture\nProcedural Sedation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Procedural Sedation",
+          "url": "https://wikem.org/wiki/Procedural_Sedation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.youtube.com/watch?v=EhJ7kpurKnk\nhttp://epmonthly.com/article/hematoma-blocks-for-reduction-of-distal-radius-fractures/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

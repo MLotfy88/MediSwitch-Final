@@ -1,0 +1,140 @@
+{
+  "drug_name": "Hemodialysis/Hemoperfusion",
+  "url": "https://wikem.org/wiki/Hemodialysis/Hemoperfusion",
+  "scraped_at": "2026-01-10T07:54:28.340376",
+  "sections": {
+    "Intro": {
+      "text": "See also:\ndialysis complications\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Reserved for toxins that are both life-threatening and amenable to removal by this method\nIneffective for toxins that have large Vd, large molecular weight, or protein bound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Acidosis\nHyperkalemia\nHyponatremia\nFluid overload\nUremia\nOverdoses of the following:\nSalicylates\nMethanol\nEthylene glycol\nLithium\nTheophylline\nCarbamazepine\nAmanita mushrooms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        }
+      ]
+    },
+    "Dialyzable_drugs": {
+      "text": "For complete list, see\ndialyzable drugs\nB -\nBarbiturates\nL -\nLithium\nI -\nIsoniazid\nS -\nSalicylates\nT -\nTheophyline\n/\nCaffeine\n(both are methylxanthines)\nM -\nMethanol\n,\nmetformin\nE -\nEthylene glycol\nD - Depakote\nOthers -\nCarbamezepine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dialyzable drugs",
+          "url": "https://wikem.org/wiki/Dialyzable_drugs"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_Toxicity"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/INH_Toxicity"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Theophyline",
+          "url": "https://wikem.org/wiki/Theophylline_toxicity"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Toxicity"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Carbamezepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_Toxicity"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Dialysis catheter placement\nDialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis catheter placement",
+          "url": "https://wikem.org/wiki/Dialysis_catheter_placement"
+        },
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

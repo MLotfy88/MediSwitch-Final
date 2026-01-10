@@ -1,0 +1,243 @@
+{
+  "drug_name": "Hemostatic_agents",
+  "url": "https://wikem.org/wiki/Hemostatic_agents",
+  "scraped_at": "2026-01-10T07:54:32.107005",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Characteristics": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Charateristic": "Hemostatic efficacy",
+                "QuikClot ACS+": "+",
+                "HemCon": "+",
+                "Celox": "+++",
+                "WoundSat": "++++",
+                "Combat Gauze": "++++"
+              },
+              {
+                "Charateristic": "Side effects",
+                "QuikClot ACS+": "No",
+                "HemCon": "No",
+                "Celox": "No",
+                "WoundSat": "Yes",
+                "Combat Gauze": "No"
+              },
+              {
+                "Charateristic": "Ready to use",
+                "QuikClot ACS+": "Yes",
+                "HemCon": "Yes",
+                "Celox": "Yes",
+                "WoundSat": "Yes",
+                "Combat Gauze": "Yes"
+              },
+              {
+                "Charateristic": "Training requirement",
+                "QuikClot ACS+": "+",
+                "HemCon": "+",
+                "Celox": "+",
+                "WoundSat": "+++",
+                "Combat Gauze": "++"
+              },
+              {
+                "Charateristic": "Lightweight, durable",
+                "QuikClot ACS+": "+",
+                "HemCon": "+++",
+                "Celox": "+++",
+                "WoundSat": "+",
+                "Combat Gauze": "+++"
+              },
+              {
+                "Charateristic": "2-year shelf life",
+                "QuikClot ACS+": "Yes",
+                "HemCon": "Yes",
+                "Celox": "Yes",
+                "WoundSat": "Yes",
+                "Combat Gauze": "Yes"
+              },
+              {
+                "Charateristic": "Stable in extreme conditions",
+                "QuikClot ACS+": "Yes",
+                "HemCon": "Yes",
+                "Celox": "Yes",
+                "WoundSat": "Yes",
+                "Combat Gauze": "Yes"
+              },
+              {
+                "Charateristic": "Cleared by FDA",
+                "QuikClot ACS+": "Yes",
+                "HemCon": "Yes",
+                "Celox": "Yes",
+                "WoundSat": "Yes",
+                "Combat Gauze": "Yes"
+              },
+              {
+                "Charateristic": "Biodegradable",
+                "QuikClot ACS+": "No",
+                "HemCon": "No",
+                "Celox": "Yes",
+                "WoundSat": "No",
+                "Combat Gauze": "No"
+              },
+              {
+                "Charateristic": "Cost ($)",
+                "QuikClot ACS+": "~30",
+                "HemCon": "~75",
+                "Celox": "~25",
+                "WoundSat": "~30",
+                "Combat Gauze": "~25"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Plant-Based": "Gelatin-based",
+            "Oxidized cellulose (OC) and oxidized regenerated cellulose (ORC)": "Purified pork or bovine skin; absorbs 45 times its weight of its initial volume causing hemostasis. Excessive swelling can lead to nerve compression"
+          },
+          {
+            "Plant-Based": "Collagen-based",
+            "Oxidized cellulose (OC) and oxidized regenerated cellulose (ORC)": "Derived from tissue; shows cell compatibility, adhesion, growth and migration."
+          },
+          {
+            "Plant-Based": "Fibrin-based",
+            "Oxidized cellulose (OC) and oxidized regenerated cellulose (ORC)": "High concentrations of fibrinogen, thrombin and additional components (clotting factors)"
+          },
+          {
+            "Plant-Based": "Thrombin-based",
+            "Oxidized cellulose (OC) and oxidized regenerated cellulose (ORC)": "Directly participate in the coagulation cascade process that promotes and modulates coagulation. Provides a lattice for platelet aggregation and thrombus formation."
+          },
+          {
+            "Plant-Based": "Chitin-based",
+            "Oxidized cellulose (OC) and oxidized regenerated cellulose (ORC)": "Polysaccharide biopolymer produced naturally by algae through fermentation. Also known as chitosan in its deacetylated form. Chitosan has been shown to be more effective that chitin in controlling severe hemorrhage."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Characteristics": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Charateristic": "Hemostatic efficacy",
+            "QuikClot ACS+": "+",
+            "HemCon": "+",
+            "Celox": "+++",
+            "WoundSat": "++++",
+            "Combat Gauze": "++++"
+          },
+          {
+            "Charateristic": "Side effects",
+            "QuikClot ACS+": "No",
+            "HemCon": "No",
+            "Celox": "No",
+            "WoundSat": "Yes",
+            "Combat Gauze": "No"
+          },
+          {
+            "Charateristic": "Ready to use",
+            "QuikClot ACS+": "Yes",
+            "HemCon": "Yes",
+            "Celox": "Yes",
+            "WoundSat": "Yes",
+            "Combat Gauze": "Yes"
+          },
+          {
+            "Charateristic": "Training requirement",
+            "QuikClot ACS+": "+",
+            "HemCon": "+",
+            "Celox": "+",
+            "WoundSat": "+++",
+            "Combat Gauze": "++"
+          },
+          {
+            "Charateristic": "Lightweight, durable",
+            "QuikClot ACS+": "+",
+            "HemCon": "+++",
+            "Celox": "+++",
+            "WoundSat": "+",
+            "Combat Gauze": "+++"
+          },
+          {
+            "Charateristic": "2-year shelf life",
+            "QuikClot ACS+": "Yes",
+            "HemCon": "Yes",
+            "Celox": "Yes",
+            "WoundSat": "Yes",
+            "Combat Gauze": "Yes"
+          },
+          {
+            "Charateristic": "Stable in extreme conditions",
+            "QuikClot ACS+": "Yes",
+            "HemCon": "Yes",
+            "Celox": "Yes",
+            "WoundSat": "Yes",
+            "Combat Gauze": "Yes"
+          },
+          {
+            "Charateristic": "Cleared by FDA",
+            "QuikClot ACS+": "Yes",
+            "HemCon": "Yes",
+            "Celox": "Yes",
+            "WoundSat": "Yes",
+            "Combat Gauze": "Yes"
+          },
+          {
+            "Charateristic": "Biodegradable",
+            "QuikClot ACS+": "No",
+            "HemCon": "No",
+            "Celox": "Yes",
+            "WoundSat": "No",
+            "Combat Gauze": "No"
+          },
+          {
+            "Charateristic": "Cost ($)",
+            "QuikClot ACS+": "~30",
+            "HemCon": "~75",
+            "Celox": "~25",
+            "WoundSat": "~30",
+            "Combat Gauze": "~25"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Use": {
+      "text": "For compressible hemorrhage not amenable to\ntourniquet\nuse or as an adjunct to\ntourniquet\nremoval (if evacuation time is anticipated to be longer than two hours), use Combat Gauze\nCelox Gauze and ChitoGauze may also be used if Combat Gauze is not available.\nHemostatic dressings should be applied with at least 3 minutes of direct pressure.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        },
+        {
+          "text": "tourniquet",
+          "url": "https://wikem.org/wiki/Tourniquet"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bleeding treatments\nTactical combat casualty care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding treatments",
+          "url": "https://wikem.org/wiki/Bleeding_treatments"
+        },
+        {
+          "text": "Tactical combat casualty care",
+          "url": "https://wikem.org/wiki/Tactical_combat_casualty_care"
+        }
+      ]
+    }
+  }
+}

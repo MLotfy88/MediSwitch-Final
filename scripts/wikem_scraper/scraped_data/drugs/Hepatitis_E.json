@@ -1,0 +1,489 @@
+{
+  "drug_name": "Hepatitis_E",
+  "url": "https://wikem.org/wiki/Hepatitis_E",
+  "scraped_at": "2026-01-10T07:54:37.383550",
+  "sections": {
+    "Background": {
+      "text": "Nonenveloped, RNA virus\nFecal-oral transmission\nCommon in Southeast Asia, but different genotypes found globally across Asia, Africa, Latin America\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period 2-10 weeks, usually 5-6\nAcute infection typically presents similar to\nhepatitis A\nProdrome of\nnausea/vomiting\n, mild\nfever\n, malaise, anorexia,\npruritus\nJaundice\n, dark urine/pale stools,\nRUQ pain\n,\nhepatomegaly\nLiver failure\nrare\nexcept\nin pregnant women\nPregnant women tend to have more severe disease, higher risk of fulminant hepatitis and liver failure, increased risk of fetal loss\nMortality of HEV infection in 3rd trimester: 20-25%\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[3]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[3]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "LFTs\nINR\nCoagulopathy\ncorrelates w/more severe liver dysfunction\nAcute hepatitis panel\nHep A Ab IgM\nHep B cAb IgM\nHep B sAg\nHep B sAb\nHep C Ab",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinically indistinguishable from other viral hepatitides, no serologic test available\n[4]",
+          "tables": []
+        },
+        "Interpreting_Acute_Hepatitis_Panel_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anti-hepatitis A, IgM": "Positive",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis A"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Chronichepatitis Binfection"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Positive",
+                "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "LFTs\nINR\nCoagulopathy\ncorrelates w/more severe liver dysfunction\nAcute hepatitis panel\nHep A Ab IgM\nHep B cAb IgM\nHep B sAg\nHep B sAb\nHep C Ab",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinically indistinguishable from other viral hepatitides, no serologic test available\n[4]",
+          "tables": []
+        },
+        "Interpreting_Acute_Hepatitis_Panel_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anti-hepatitis A, IgM": "Positive",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis A"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Chronichepatitis Binfection"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Positive",
+                "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinically indistinguishable from other viral hepatitides, no serologic test available\n[4]",
+      "subsections": {
+        "Interpreting_Acute_Hepatitis_Panel_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anti-hepatitis A, IgM": "Positive",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis A"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Chronichepatitis Binfection"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Positive",
+                "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Interpreting_Acute_Hepatitis_Panel_Results": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Anti-hepatitis A, IgM": "Positive",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis A"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Chronichepatitis Binfection"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Positive",
+            "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive\nAntiemetics\nOral\nor\nIV hydration\nAvoid hepatotoxic medications\nPatients with fulminant\nhepatic failure\nmay be considered for liver transplant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "Oral",
+          "url": "https://wikem.org/wiki/Oral_rehydration_therapy"
+        },
+        {
+          "text": "IV hydration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically discharge, admit if:\nPregnant\nINR >2\nUnable to tolerate PO\nIntractable pain\nBilirubin >30\nHypoglycemia\nSignificant comorbidity/immunocompromised",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Viral hepatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        }
+      ]
+    }
+  }
+}

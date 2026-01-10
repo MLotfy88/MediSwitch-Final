@@ -1,0 +1,133 @@
+{
+  "drug_name": "Hemorrhoids",
+  "url": "https://wikem.org/wiki/Hemorrhoids",
+  "scraped_at": "2026-01-10T07:54:36.259245",
+  "sections": {
+    "Background": {
+      "text": "Pathologic state cccurs when internal or external hemorrhoid plexus become engorged, prolapsed, or thrombosed\nBleeding is usually limited (surface of stool, on toilet tissue, at end of defecation)\nPassage of blood clots requires evaluation for colon lesions",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Constipation\nand straining at stool\nFrequent\ndiarrhea\nOlder age\nIBD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Constipation\nand straining at stool\nFrequent\ndiarrhea\nOlder age\nIBD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Internal hemorrhoid\nOriginate above the dentate line\nPainless\nExternal hemorrhoid\nOriginate below the dentate line\nPainful",
+      "subsections": {
+        "Internal_hemorrhoid_chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Description": "Luminal protrusion above dentate lineNo prolapsePainless bleeding",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "II",
+                "Description": "Prolapse with spontaneous reductionProlapse during straining",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "III",
+                "Description": "Prolapse requires manual reductionProlapse during straining",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "IV",
+                "Description": "Prolapse—nonreducibleCan result in edema and strangulation",
+                "Diagram": "",
+                "Picture": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Internal_hemorrhoid_chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "I",
+            "Description": "Luminal protrusion above dentate lineNo prolapsePainless bleeding",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "II",
+            "Description": "Prolapse with spontaneous reductionProlapse during straining",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "III",
+            "Description": "Prolapse requires manual reductionProlapse during straining",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "IV",
+            "Description": "Prolapse—nonreducibleCan result in edema and strangulation",
+            "Diagram": "",
+            "Picture": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Treatment": {
+      "text": "Increase fiber\nSitz baths\nTopical steroid - Hydrocortizone\nTopical anti-spasmodic - Nifedipine\nSee also treatment by specific type:\nInternal hemorrhoid\nExternal hemorrhoid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

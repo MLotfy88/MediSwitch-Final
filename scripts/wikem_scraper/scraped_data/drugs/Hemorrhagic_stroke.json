@@ -1,0 +1,2275 @@
+{
+  "drug_name": "Hemorrhagic_stroke",
+  "url": "https://wikem.org/wiki/Hemorrhagic_stroke",
+  "scraped_at": "2026-01-10T07:54:33.637878",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"spontaneous intracerebral hemorrhage\" and sometimes generally as \"cerebral hemorrhage\"\n~10% of all acute strokes\nWarfarin\nuse is significant risk factor\nAccounts for 5-15% of all cases\nRisk of ICH doubles for each 0.5 increase in INR above 4.5",
+      "subsections": {
+        "Hemorrhagic_stroke_causes_(13%)": {
+          "text": "Intracerebral\nHypertension\nCerebral amyloid angiopathy\n(usually found in elderly, tends to be lobar in nature)\n[1]\nAnticoagulation\nVascular malformations (e.g.\nAVM\n,\nmoyamoya\nCocaine\nuse\nSubarachnoid hemorrhage\nBerry aneurysm rupture\nArteriovenous malformation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Intracerebral",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Cerebral amyloid angiopathy",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "moyamoya",
+          "url": "https://wikem.org/wiki/Moyamoya"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Often clinically indistinguishable from\nSAH\nand\nischemic stroke\nSigns and symptoms suggestive of hemorrhagic stroke\nVomiting\nSBP >220 mm Hg\nSevere\nheadache\nComa\nor decreased LOC\nSymptom progression over minutes or hours all suggest ICH\nHeadache\nand\nnausea and vomiting\noften precede the neurologic deficit\nFindings\ndictated by location of bleed (in order of most common)\nPutamen\nThalamus\nPons\nCerebellum\nThe ICH score can predict mortality",
+      "subsections": {
+        "Anterior_Circulation": {
+          "text": "Blood supply via internal carotid system\nIncludes\nACA\nand\nMCA",
+          "tables": []
+        },
+        "Internal_Carotid_Artery": {
+          "text": "Tonic gaze deviation towards lesion\nGlobal aphasia, dysgraphia, dyslexia, dyscalculia, disorientation (dominant lesion)\nSpatial or visual neglect (non-dominant lesion)",
+          "tables": []
+        },
+        "Anterior_Cerebral_Artery_(ACA)": {
+          "text": "Signs and Symptoms:\nContralateral\nsensory\nand\nmotor\nsymptoms in the lower extremity (sparing hands/face)\nUrinary\nand bowel incontinence\nLeft sided lesion: akinetic mutism, transcortical motor aphasia\nRight sided lesion:\nConfusion\n, motor hemineglect\nPresence of primitive grasp and suck reflexes\nMay manifest gait apraxia",
+          "tables": []
+        },
+        "Middle_Cerebral_Artery_(MCA)": {
+          "text": "Signs and Symptoms:\nHemiparesis\n,\nfacial plegia\n,\nsensory loss\ncontralateral to affected cortex\nMotor deficits\nfound more commonly in face and upper extremity than lower extremity\nDominant hemisphere involved: aphasia\nWernicke's aphasia\n(receptive aphasia) -> patient unable to process sensory input and does not understand verbal communication\nBroca's aphasia\n(expressive aphasia) -> patient unable to communicate verbally, even though understanding may be intact\nNondominant hemisphere involved: dysarthria (motor deficit of the mouth and speech muscles; understanding intact) w/o aphasia, inattention and neglect side opposite to infarct\nContralateral homonymous hemianopsia\nGaze preference toward side of infarct\nAgnosia (inability to recognize previously known subjects)",
+          "tables": []
+        },
+        "Posterior_circulation": {
+          "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+          "tables": []
+        },
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[2]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[3]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[4]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[5]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "SBP >220 mm Hg",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Findings",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "ACA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Anterior_Cerebral_Artery_.28ACA.29"
+        },
+        {
+          "text": "MCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Middle_Cerebral_Artery_.28MCA.29"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial plegia",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Anterior_Circulation": {
+      "text": "Blood supply via internal carotid system\nIncludes\nACA\nand\nMCA",
+      "subsections": {
+        "Internal_Carotid_Artery": {
+          "text": "Tonic gaze deviation towards lesion\nGlobal aphasia, dysgraphia, dyslexia, dyscalculia, disorientation (dominant lesion)\nSpatial or visual neglect (non-dominant lesion)",
+          "tables": []
+        },
+        "Anterior_Cerebral_Artery_(ACA)": {
+          "text": "Signs and Symptoms:\nContralateral\nsensory\nand\nmotor\nsymptoms in the lower extremity (sparing hands/face)\nUrinary\nand bowel incontinence\nLeft sided lesion: akinetic mutism, transcortical motor aphasia\nRight sided lesion:\nConfusion\n, motor hemineglect\nPresence of primitive grasp and suck reflexes\nMay manifest gait apraxia",
+          "tables": []
+        },
+        "Middle_Cerebral_Artery_(MCA)": {
+          "text": "Signs and Symptoms:\nHemiparesis\n,\nfacial plegia\n,\nsensory loss\ncontralateral to affected cortex\nMotor deficits\nfound more commonly in face and upper extremity than lower extremity\nDominant hemisphere involved: aphasia\nWernicke's aphasia\n(receptive aphasia) -> patient unable to process sensory input and does not understand verbal communication\nBroca's aphasia\n(expressive aphasia) -> patient unable to communicate verbally, even though understanding may be intact\nNondominant hemisphere involved: dysarthria (motor deficit of the mouth and speech muscles; understanding intact) w/o aphasia, inattention and neglect side opposite to infarct\nContralateral homonymous hemianopsia\nGaze preference toward side of infarct\nAgnosia (inability to recognize previously known subjects)",
+          "tables": []
+        },
+        "Posterior_circulation": {
+          "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+          "tables": []
+        },
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[2]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[3]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[4]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[5]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Anterior_Cerebral_Artery_.28ACA.29"
+        },
+        {
+          "text": "MCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Middle_Cerebral_Artery_.28MCA.29"
+        },
+        {
+          "text": "sensory",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "motor",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial plegia",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Posterior_circulation": {
+      "text": "Blood supply via the vertebral artery\nBranches include, AICA,\nBasilar artery\n,\nPCA\nand\nPICA\nSigns and Symptoms:\nCrossed neuro deficits (i.e., ipsilateral\nCN deficits\nw/ contralateral motor\nweakness\n)\nMultiple, simultaneous complaints are the rule (including\nloss of consciousness\n,\nnausea/vomiting\n, alexia, visual agnosia)\n5 Ds: Dizziness (\nVertigo\n),\nDysarthria\n,\nDystaxia\n,\nDiplopia\n,\nDysphagia\nIsolated events are not attributable to vertebral occlusive disease (e.g. isolated lightheadedness, vertigo, transient ALOC, drop attacks)\nApproximately 25% associated with aortic dissection",
+      "subsections": {
+        "Basilar_artery": {
+          "text": "Signs and Symptoms:\nQuadriplegia\n,\ncoma\n, locked-in syndrome\n\"Crossed signs\" in which a patient has unilateral cranial nerve deficits but contralateral hemiparesis and hemisensory loss suggest brainstem infarction\nMillard-Gubler syndrome (ventral pontine syndrome) -- ipsilateral\nCN VI\nand\nVII palsy\nwith contralateral hemiplegia of extremities\nSparing of vertical eye movements (CN III exits brainstem just above lesion)\nThus, may also have miosis b/l\nOne and a half syndrome (seen in a variety of brainstem infarctions)\n\"Half\" - INO (\ninternuclear ophthalmoplegia\n) in one direction\n\"One\" - inability for conjugate gaze in other direction\nConvergence and vertical EOM intact\nMedial inferior pontine syndrome (paramedian basilar artery branch)\nIpsilateral conjugate gaze towards lesion (PPRF),\nnystagmus\n(CN VIII),\nataxia\n,\ndiplopia\non lateral gaze (CN VI)\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial midpontine syndrome (paramedian midbasilar artery branch)\nIpsilateral\nataxia\nContralateral face/arm/leg\nparalysis\nand decreased proprioception\nMedial superior pontine syndrome (paramedian upper basilar artery branches)\nIpsilateral\nataxia\n,\nINO\n, myoclonus of pharynx/vocal cords/face\nContralateral face/arm/leg\nparalysis\nand decreased proprioception",
+          "tables": []
+        },
+        "Superior_Cerebellar_Artery_(SCA)": {
+          "text": "~2% of all cerebral infarctions\n[2]\nMay present with nonspecific symptoms -\nnausea/vomiting\n,\ndizziness\n,\nataxia\n,\nnystagmus\n(more commonly horizontal)\n[3]\nLateral superior pontine syndrome\nIpsilateral\nataxia\n,\nnausea/vomiting\n,\nnystagmus\n,\nHorner syndrome\n, conjugate gaze paresis\nContralateral loss of pain/temperature in face/extremities/trunk, and loss of proprioception/vibration in LE > UE",
+          "tables": []
+        },
+        "Posterior_Cerebral_Artery_(PCA)": {
+          "text": "Signs and Symptoms:\nCommon after CPR, as occipital cortex is a watershed area\nUnilateral headache (most common presenting complaint)\nVisual field defects (contralateral homonymous hemianopsia, unilateral blindness)\nVisual agnosia - can't recognize objects\nPossible macular sparing if MCA unaffected\nMotor function is typically minimally affected\nLateral midbrain syndrome (penetrating arteries from PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral hemi\nataxia\n,\ntremor\n, hyperkinesis (red nucleus)\nMedial midbrain syndrome (upper basilar and proximal PCA)\nIpsilateral\nCN III\n- eye down and out, pupil dilated\nContralateral\nparalysis\nof face, arm, leg (corticospinal)",
+          "tables": []
+        },
+        "Anterior_Inferior_Cerebellar_Artery_(AICA)": {
+          "text": "Lateral inferior pontine syndrome\nIpsilateral\nfacial paralysis\n, loss of corneal reflex (CN VII)\nIpsilateral loss of pain/temperature (CN V)\nNystagmus\n,\nnausea/vomiting\n,\nvertigo\n, ipsilateral\nhearing loss\n(CN VIII)\nIpsilateral limb and gait\nataxia\nIpsilateral\nHorner syndrome\nContralateral loss of pain/temperature in trunk and extremities (lateral spinothalamic)",
+          "tables": []
+        },
+        "Posterior_Inferior_Cerebellar_Artery_(PICA)": {
+          "text": "Signs and Symptoms:\nLateral medullary/Wallenberg syndrome\nIpsilateral cerebellar signs, ipsilateral loss of pain/temperature of face, ipsilateral\nHorner syndrome\n, ipsilateral\ndysphagia\nand\nhoarseness\n,\ndysarthria\n,\nvertigo\n/\nnystagmus\nContralateral loss of pain/temp over body\nAlso caused by vertebral artery occlusion (most cases)",
+          "tables": []
+        },
+        "Internal_Capsule_and_Lacunar_Infarcts": {
+          "text": "May present with either lacunar c/l pure motor or c/l pure sensory (of face and body)\n[4]\nPure c/l motor - posterior limb of internal capsule infarct\nPure c/l sensory - thalamic infarct (Dejerine and Roussy syndrome)\nC/l motor plus sensory if large enough\nClinically to cortical large ACA + MCA stroke - the following signs suggest cortical rather than internal capsule\n[5]\n:\nGaze preference\nVisual field defects\nAphasia (dominant lesion, MCA)\nSpatial neglect (non-dominant lesion)\nOthers\nIpsilateral ataxic\nhemiparesis\n, with legs worse than arms - posterior limb of internal capsule infarct\nDysarthria\n/Clumsy Hand Syndrome - basilar pons or anterior limb of internal capsule infarct",
+          "tables": []
+        },
+        "Superior_ASA": {
+          "text": "Medial medullary syndrome - displays alternating pattern of sidedness of symptoms below\nContralateral arm/leg\nweakness\nand proprioception/vibration\nTongue deviation towards lesion",
+          "tables": []
+        },
+        "Inferior_ASA": {
+          "text": "ASA syndrome\nWatershed area of hypoperfusion in T4-T8\nBilateral\npain/temp\nloss in trunk and extremities (spinothalamic)\nBilateral\nweakness\nin trunk and extremities (corticospinal)\nPreservation of dorsal columns",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Basilar artery",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Basilar_artery"
+        },
+        {
+          "text": "PCA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posterior_Cerebral_Artery_.28PCA.29"
+        },
+        {
+          "text": "PICA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)#Posteroinferior_Cerebellar_Artery_.28PICA.29"
+        },
+        {
+          "text": "CN deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of consciousness",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Dystaxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Quadriplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "CN VI",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "VII palsy",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "INO",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "CN III",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "facial paralysis",
+          "url": "https://wikem.org/wiki/Facial_paralysis"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "hemiparesis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "pain/temp",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Hemorrhage_Types": {
+          "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Intracranial_Hemorrhage_Types": {
+      "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Stroke_Work-Up": {
+          "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[6]\nIn acute ICH the sensitivity is 95-100%\n[7]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[8]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+          "tables": []
+        },
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[9]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[10]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Stroke_Work-Up": {
+      "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[6]\nIn acute ICH the sensitivity is 95-100%\n[7]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[8]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+      "subsections": {
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[9]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[10]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Elevating_head_of_bed": {
+          "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[11]",
+          "tables": []
+        },
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[12]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[13]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[14]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[15]\n, but more recent work has found no difference between SBP <140 and <180\n[16]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[17]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[18]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Elevating_head_of_bed": {
+      "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[11]",
+      "subsections": {
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[12]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[13]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[14]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[15]\n, but more recent work has found no difference between SBP <140 and <180\n[16]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[17]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[18]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Seizure_Prophylaxis_and_Treatment": {
+      "text": "Prophylactic antiepileptics\nnot\nrecommended\n[12]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[13]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[14]",
+      "subsections": {
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[15]\n, but more recent work has found no difference between SBP <140 and <180\n[16]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[17]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[18]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Blood_Pressure": {
+      "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[15]\n, but more recent work has found no difference between SBP <140 and <180\n[16]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+      "subsections": {
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[17]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[18]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Reverse_coagulopathy": {
+      "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[17]",
+      "subsections": {
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[18]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "Intubation": {
+      "text": "Consider neuroprotective intubation\n3 minutes before intubation\nLidocaine\n1-2mg/kg to blunt sharp MAP increase\nFentanyl\n2-5mcg/kg as sympatholytic\n[19]\nSedation\nEtomidate\nif blood pressure normal\nPropofol\nif blood pressure high\nSuccinylcholine\nwithout defasciculating dose\nEnsure patient is pain-free for post-intubation sedation\nPropofol with fentanyl\nTry to prioritize pain control with fentanyl",
+      "subsections": {
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+      "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+      "subsections": {
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        },
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "AHA_ICH_Coagulopathy_Guidelines_2015": {
+      "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+      "subsections": {
+        "BP_Goals_in_Acute_Stroke": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stoke Type": "Acuteischemic stroke",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "IVtPAeligble",
+                "Target BP(mm Hg)": "<185/110",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "During/aftertPA",
+                "Target BP(mm Hg)": "<180/105",
+                "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+              },
+              {
+                "Stoke Type": "NotPA",
+                "Target BP(mm Hg)": "<220/120",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Mechanical thrombectomy",
+                "Target BP(mm Hg)": "≤180/105",
+                "Notes": "Maintain during and for 24 h after procedure"
+              },
+              {
+                "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Unsecured",
+                "Target BP(mm Hg)": "SBP <140-160",
+                "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+              },
+              {
+                "Stoke Type": "Secured",
+                "Target BP(mm Hg)": "Unclear",
+                "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+              },
+              {
+                "Stoke Type": "Intraparenchymal hemorrhage",
+                "Target BP(mm Hg)": "",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB 150-220",
+                "Target BP(mm Hg)": "SBP <140",
+                "Notes": ""
+              },
+              {
+                "Stoke Type": "Initial SPB >220",
+                "Target BP(mm Hg)": "SBP 140-160",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "BP_Goals_in_Acute_Stroke": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Stoke Type": "Acuteischemic stroke",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "IVtPAeligble",
+            "Target BP(mm Hg)": "<185/110",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "During/aftertPA",
+            "Target BP(mm Hg)": "<180/105",
+            "Notes": "Monitor BP every 15 min for 2 hr, then every 30 minfor 6 hr, then hourly until 24 hr."
+          },
+          {
+            "Stoke Type": "NotPA",
+            "Target BP(mm Hg)": "<220/120",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Mechanical thrombectomy",
+            "Target BP(mm Hg)": "≤180/105",
+            "Notes": "Maintain during and for 24 h after procedure"
+          },
+          {
+            "Stoke Type": "Aneurysmalsubarachnoid hemorrhage",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Unsecured",
+            "Target BP(mm Hg)": "SBP <140-160",
+            "Notes": "Controversy regarding exact number; others recommend <100 MAP"
+          },
+          {
+            "Stoke Type": "Secured",
+            "Target BP(mm Hg)": "Unclear",
+            "Notes": "May depend on ppremorbid BP and presence of vasospasm"
+          },
+          {
+            "Stoke Type": "Intraparenchymal hemorrhage",
+            "Target BP(mm Hg)": "",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Initial SPB 150-220",
+            "Target BP(mm Hg)": "SBP <140",
+            "Notes": ""
+          },
+          {
+            "Stoke Type": "Initial SPB >220",
+            "Target BP(mm Hg)": "SBP 140-160",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission for acute or subacute",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Intracranial Hemorrhage (Main)\nStroke (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial Hemorrhage (Main)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(Main)"
+        },
+        {
+          "text": "Stroke (main)",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMcrit Podcast 17:Reversal of Anti-coagulant and Anti-platelet Drugs in Head Bleeds\nThe ICH score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "drug_name": "Hereditary_hemorrhagic_telangiectasia",
+  "url": "https://wikem.org/wiki/Hereditary_hemorrhagic_telangiectasia",
+  "scraped_at": "2026-01-10T07:54:37.576384",
+  "sections": {
+    "Background": {
+      "text": "AKA Osler–Weber–Rendu disease\nRare genetic dysfunction of angiogenesis that leads to multiple vascular malformations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Telangiectasias\nSkin/oral mucosa, characteristically on lips, nose, fingers, face (in sun exposed areas)\nNasal mucosa -->\nepistaxis\nGI tract (~20%)-->\nGI bleeding\nAVMs\nLungs\nBypassing pulmonary vasculature can -->\nbrain abscess\n, embolic\nstroke\nHemoptysis\n,\nhemothorax\n,\ndyspnea\n, abnormal lung sounds\nLiver\nBrain\nHeadache\n, increased\nseizure\nrisk, risk of\nICH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "AVMs",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1405 @@
+{
+  "drug_name": "Hemolytic_anemia",
+  "url": "https://wikem.org/wiki/Hemolytic_anemia",
+  "scraped_at": "2026-01-10T07:54:27.100065",
+  "sections": {
+    "Background": {
+      "text": "Wide variety of clinical presentation given the large differential diagnosis\nClinical presentation and lab findings differ depending on intravascular vs. extravascular hemolysis, acute vs. chronic\nCommon findings\nlow hemoglobin and hematocrit\nreticulocytosis\nelevated indirect bilirubin\nMost important lab to elucidate diagnosis is blood smear\nMost common emergent presentations are due to acute intravascular hemolytic anemias",
+      "subsections": {
+        "Etiologies": {
+          "text": "Divided by etiology: acquired vs. hereditary\nAcquired:\nMicroangiopathic (\nMAHA\n),\nautoimmune\n, infection\nHereditary:\nSickle cell disease\n,\nthalassemia\n,\nG6PD\n,\nhereditary spherocytosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MAHA",
+          "url": "https://wikem.org/wiki/MAHA"
+        },
+        {
+          "text": "autoimmune",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Divided by etiology: acquired vs. hereditary\nAcquired:\nMicroangiopathic (\nMAHA\n),\nautoimmune\n, infection\nHereditary:\nSickle cell disease\n,\nthalassemia\n,\nG6PD\n,\nhereditary spherocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MAHA",
+          "url": "https://wikem.org/wiki/MAHA"
+        },
+        {
+          "text": "autoimmune",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Anemia\nsymptoms\nDyspnea\n/dypsnea on exertion\nFatigue\nStigmata of intravascular hemolysis\nJaundice\n(new onset)\nDark urine\nChanges in stool color\nNeuro (\nTTP\n)\nHeadache\nAltered mental status\nSeizure\nFocal neuro deficits\nComa\nRectal bleeding\n(\nHUS\n)\nStigmata of\nthrombocytopenia\nPetechiae\nBleeding\nStigmata of extravascular RBC destruction\nAbdominal pain\nBack pain\nSystemic Symptoms\nFever\nNight sweats\nWeight loss\nConfusion\nOther\nTrauma\nInitiation of new medication\nRecent travel\nRecent\ninsect bites",
+          "tables": []
+        },
+        "PMH": {
+          "text": "Hereditary spherocytosis\nSickle cell disease\nG6PD\nDeficiency recently started new medication:\nDapsone\nPhenazopyridine\nNitrofurantoin\nPrimaquine\nRasburicase\nMethylene blue\nTolonium chloride (toluidine blue)\nMalignancy\nRenal failure\nConnective tissue disease\nFamily history of Anemia/Bleeding",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Cardiovascular\nTachycardia\nwith flow murmur\nHeart murmur – prosthetic heart valve\nAbdominal Exam\nHepatomegaly, splenomegaly\nAscites\nSkin\nPetechiae\nBruising\nLymphadenopathy\nBrown recluse\nspider bites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Focal neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Rectal bleeding",
+          "url": "https://wikem.org/wiki/Rectal_bleeding"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        }
+      ]
+    },
+    "History": {
+      "text": "Anemia\nsymptoms\nDyspnea\n/dypsnea on exertion\nFatigue\nStigmata of intravascular hemolysis\nJaundice\n(new onset)\nDark urine\nChanges in stool color\nNeuro (\nTTP\n)\nHeadache\nAltered mental status\nSeizure\nFocal neuro deficits\nComa\nRectal bleeding\n(\nHUS\n)\nStigmata of\nthrombocytopenia\nPetechiae\nBleeding\nStigmata of extravascular RBC destruction\nAbdominal pain\nBack pain\nSystemic Symptoms\nFever\nNight sweats\nWeight loss\nConfusion\nOther\nTrauma\nInitiation of new medication\nRecent travel\nRecent\ninsect bites",
+      "subsections": {
+        "PMH": {
+          "text": "Hereditary spherocytosis\nSickle cell disease\nG6PD\nDeficiency recently started new medication:\nDapsone\nPhenazopyridine\nNitrofurantoin\nPrimaquine\nRasburicase\nMethylene blue\nTolonium chloride (toluidine blue)\nMalignancy\nRenal failure\nConnective tissue disease\nFamily history of Anemia/Bleeding",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Cardiovascular\nTachycardia\nwith flow murmur\nHeart murmur – prosthetic heart valve\nAbdominal Exam\nHepatomegaly, splenomegaly\nAscites\nSkin\nPetechiae\nBruising\nLymphadenopathy\nBrown recluse\nspider bites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Focal neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Rectal bleeding",
+          "url": "https://wikem.org/wiki/Rectal_bleeding"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        }
+      ]
+    },
+    "PMH": {
+      "text": "Hereditary spherocytosis\nSickle cell disease\nG6PD\nDeficiency recently started new medication:\nDapsone\nPhenazopyridine\nNitrofurantoin\nPrimaquine\nRasburicase\nMethylene blue\nTolonium chloride (toluidine blue)\nMalignancy\nRenal failure\nConnective tissue disease\nFamily history of Anemia/Bleeding",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Cardiovascular\nTachycardia\nwith flow murmur\nHeart murmur – prosthetic heart valve\nAbdominal Exam\nHepatomegaly, splenomegaly\nAscites\nSkin\nPetechiae\nBruising\nLymphadenopathy\nBrown recluse\nspider bites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Cardiovascular\nTachycardia\nwith flow murmur\nHeart murmur – prosthetic heart valve\nAbdominal Exam\nHepatomegaly, splenomegaly\nAscites\nSkin\nPetechiae\nBruising\nLymphadenopathy\nBrown recluse\nspider bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Brown recluse",
+          "url": "https://wikem.org/wiki/Brown_recluse"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia": {
+          "text": "HUS\nTTP\nDIC\nHypertensive emergency",
+          "tables": []
+        },
+        "Autoimmune": {
+          "text": "Autoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Malaria\nBabesiosis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brown recluse spider venom",
+          "tables": []
+        },
+        "Hereditary/Congenital_Hemolytic_Anemia": {
+          "text": "G6PD\n– medication induced hemolytic anemia\nSickle cell disease\nThalassemia\nHereditary spherocytosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Brown recluse spider venom",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_venom"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Acquired_Hemolytic_Anemia": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia": {
+          "text": "HUS\nTTP\nDIC\nHypertensive emergency",
+          "tables": []
+        },
+        "Autoimmune": {
+          "text": "Autoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Infection": {
+          "text": "Malaria\nBabesiosis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brown recluse spider venom",
+          "tables": []
+        },
+        "Hereditary/Congenital_Hemolytic_Anemia": {
+          "text": "G6PD\n– medication induced hemolytic anemia\nSickle cell disease\nThalassemia\nHereditary spherocytosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Brown recluse spider venom",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_venom"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Hereditary/Congenital_Hemolytic_Anemia": {
+      "text": "G6PD\n– medication induced hemolytic anemia\nSickle cell disease\nThalassemia\nHereditary spherocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nLow hemaglobin/hematocrit\nLow platelet count → microangiopathic hemolytic anemia\nBlood smear\nReticulocyte count\nCMP\nMost important:  indirect bilirubin and creatinine\nUA\n(for hemoglobin, hemosiderin), uHCG\nPT/INR\nHemolysis labs\nLDH\nHaptoglobin\nFibrinogen\nDirect Anti-Globulin Test or Coombs test\nIf concern for Malaria:\nThick and thin prep\nParasitemia\nHIV\nBlood cultures, urine cultures\nConsider\nLP\nif neuro symptoms",
+          "tables": []
+        },
+        "Lab_Interpretation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Microangiopathic Hemolytic Anemia": "HUS",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "highly elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "wnl",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "TTP",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "wnl",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "DIC",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "elevated",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "low",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Malignant Hypertension",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "variable",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Autoimmune",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Warm Antibody AHA",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "spherocytes",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "positive",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Infection",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Malaria",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "see thick/thin prep",
+                "PT/INR": "variable",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "paracytes"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Babesia",
+                "H/H": "",
+                "Platelets": "",
+                "Indirect Bili": "",
+                "Creatinine": "",
+                "Blood Smear": "see thick/thin prep",
+                "PT/INR": "",
+                "LDH": "",
+                "Haptoglobin": "",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "paracytes"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Other",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Brown recluse",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "positive",
+                "Thick/Thin Prep": "negative"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nLow hemaglobin/hematocrit\nLow platelet count → microangiopathic hemolytic anemia\nBlood smear\nReticulocyte count\nCMP\nMost important:  indirect bilirubin and creatinine\nUA\n(for hemoglobin, hemosiderin), uHCG\nPT/INR\nHemolysis labs\nLDH\nHaptoglobin\nFibrinogen\nDirect Anti-Globulin Test or Coombs test\nIf concern for Malaria:\nThick and thin prep\nParasitemia\nHIV\nBlood cultures, urine cultures\nConsider\nLP\nif neuro symptoms",
+      "subsections": {
+        "Lab_Interpretation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Microangiopathic Hemolytic Anemia": "HUS",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "highly elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "wnl",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "TTP",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "wnl",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "DIC",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "elevated",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "elevated",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "low",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Malignant Hypertension",
+                "H/H": "low",
+                "Platelets": "low",
+                "Indirect Bili": "elevated",
+                "Creatinine": "variable",
+                "Blood Smear": "schistocytes",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Autoimmune",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Warm Antibody AHA",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "spherocytes",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "positive",
+                "Thick/Thin Prep": "negative"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Infection",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Malaria",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "see thick/thin prep",
+                "PT/INR": "variable",
+                "LDH": "elevated",
+                "Haptoglobin": "low",
+                "Fibrinogen": "wnl",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "paracytes"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Babesia",
+                "H/H": "",
+                "Platelets": "",
+                "Indirect Bili": "",
+                "Creatinine": "",
+                "Blood Smear": "see thick/thin prep",
+                "PT/INR": "",
+                "LDH": "",
+                "Haptoglobin": "",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "negative",
+                "Thick/Thin Prep": "paracytes"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Other",
+                "H/H": "H/H",
+                "Platelets": "Platelets",
+                "Indirect Bili": "Indirect Bili",
+                "Creatinine": "Creatinine",
+                "Blood Smear": "Blood Smear",
+                "PT/INR": "PT/INR",
+                "LDH": "LDH",
+                "Haptoglobin": "Haptoglobin",
+                "Fibrinogen": "Fibrinogen",
+                "DAT/Coombs Test": "DAT/Coombs Test",
+                "Thick/Thin Prep": "Thick/Thin Prep"
+              },
+              {
+                "Microangiopathic Hemolytic Anemia": "Brown recluse",
+                "H/H": "low",
+                "Platelets": "wnl",
+                "Indirect Bili": "elevated",
+                "Creatinine": "",
+                "Blood Smear": "",
+                "PT/INR": "",
+                "LDH": "elevated",
+                "Haptoglobin": "",
+                "Fibrinogen": "",
+                "DAT/Coombs Test": "positive",
+                "Thick/Thin Prep": "negative"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Lab_Interpretation": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Microangiopathic Hemolytic Anemia": "HUS",
+            "H/H": "low",
+            "Platelets": "low",
+            "Indirect Bili": "elevated",
+            "Creatinine": "highly elevated",
+            "Blood Smear": "schistocytes",
+            "PT/INR": "wnl",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "wnl",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "negative"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "TTP",
+            "H/H": "low",
+            "Platelets": "low",
+            "Indirect Bili": "elevated",
+            "Creatinine": "elevated",
+            "Blood Smear": "schistocytes",
+            "PT/INR": "wnl",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "wnl",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "negative"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "DIC",
+            "H/H": "low",
+            "Platelets": "low",
+            "Indirect Bili": "elevated",
+            "Creatinine": "elevated",
+            "Blood Smear": "schistocytes",
+            "PT/INR": "elevated",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "low",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "negative"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Malignant Hypertension",
+            "H/H": "low",
+            "Platelets": "low",
+            "Indirect Bili": "elevated",
+            "Creatinine": "variable",
+            "Blood Smear": "schistocytes",
+            "PT/INR": "",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "negative"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Autoimmune",
+            "H/H": "H/H",
+            "Platelets": "Platelets",
+            "Indirect Bili": "Indirect Bili",
+            "Creatinine": "Creatinine",
+            "Blood Smear": "Blood Smear",
+            "PT/INR": "PT/INR",
+            "LDH": "LDH",
+            "Haptoglobin": "Haptoglobin",
+            "Fibrinogen": "Fibrinogen",
+            "DAT/Coombs Test": "DAT/Coombs Test",
+            "Thick/Thin Prep": "Thick/Thin Prep"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Warm Antibody AHA",
+            "H/H": "low",
+            "Platelets": "wnl",
+            "Indirect Bili": "elevated",
+            "Creatinine": "",
+            "Blood Smear": "spherocytes",
+            "PT/INR": "",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "wnl",
+            "DAT/Coombs Test": "positive",
+            "Thick/Thin Prep": "negative"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Infection",
+            "H/H": "H/H",
+            "Platelets": "Platelets",
+            "Indirect Bili": "Indirect Bili",
+            "Creatinine": "Creatinine",
+            "Blood Smear": "Blood Smear",
+            "PT/INR": "PT/INR",
+            "LDH": "LDH",
+            "Haptoglobin": "Haptoglobin",
+            "Fibrinogen": "Fibrinogen",
+            "DAT/Coombs Test": "DAT/Coombs Test",
+            "Thick/Thin Prep": "Thick/Thin Prep"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Malaria",
+            "H/H": "low",
+            "Platelets": "wnl",
+            "Indirect Bili": "elevated",
+            "Creatinine": "",
+            "Blood Smear": "see thick/thin prep",
+            "PT/INR": "variable",
+            "LDH": "elevated",
+            "Haptoglobin": "low",
+            "Fibrinogen": "wnl",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "paracytes"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Babesia",
+            "H/H": "",
+            "Platelets": "",
+            "Indirect Bili": "",
+            "Creatinine": "",
+            "Blood Smear": "see thick/thin prep",
+            "PT/INR": "",
+            "LDH": "",
+            "Haptoglobin": "",
+            "Fibrinogen": "",
+            "DAT/Coombs Test": "negative",
+            "Thick/Thin Prep": "paracytes"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Other",
+            "H/H": "H/H",
+            "Platelets": "Platelets",
+            "Indirect Bili": "Indirect Bili",
+            "Creatinine": "Creatinine",
+            "Blood Smear": "Blood Smear",
+            "PT/INR": "PT/INR",
+            "LDH": "LDH",
+            "Haptoglobin": "Haptoglobin",
+            "Fibrinogen": "Fibrinogen",
+            "DAT/Coombs Test": "DAT/Coombs Test",
+            "Thick/Thin Prep": "Thick/Thin Prep"
+          },
+          {
+            "Microangiopathic Hemolytic Anemia": "Brown recluse",
+            "H/H": "low",
+            "Platelets": "wnl",
+            "Indirect Bili": "elevated",
+            "Creatinine": "",
+            "Blood Smear": "",
+            "PT/INR": "",
+            "LDH": "elevated",
+            "Haptoglobin": "",
+            "Fibrinogen": "",
+            "DAT/Coombs Test": "positive",
+            "Thick/Thin Prep": "negative"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "ABC’s and resuscitation if necessary, 2 large bore IVs\nEmergent hematology consultation if patient is very ill appearing",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_2": {
+          "text": "HUS\nSupportive Care\nHydration\nPain control\nHemodialysis if acute renal failure\nDo NOT give antibiotics: results in increased expression of Shiga Toxin from E. Coli O157:H7\nTTP\nAvoid\nplatelet transfusion, except in life-threatening bleeding or intracranial hemorrhage\nPlasma exchange\nIf Plasma exchange cannot be performed immediately, give FFP and plasmapharese later.\nFactor VIII concentrate\nDIC\nPlatelet transfusion if count is <50,000 and/or significant bleeding\npRBC if active bleeding or hemodynamically unstable\nFFP\nif active bleeding\nCryoprecipitate\nif fibrinogen <150 and bleeding\nTXA\nis only indicated for active or massive bleeding\nMalignant hypertension\nReduce blood pressure as clinically indicated",
+          "tables": []
+        },
+        "Autoimmune_2": {
+          "text": "Warm antibody autoimmune hemolytic anemia\nHigh-dose\ncorticosteroids\nPO (1-2mg/kg per day for 3-4 weeks)\nMonoclonal antibodies and immunosuppressive agents\nPlasma exchange for severe hemolysis\nAllogeneic RBC transfusion for life-threatening anemia",
+          "tables": []
+        },
+        "Infection_2": {
+          "text": "Malaria\nVisit CDC website to determine resistance pattern:\nhttps://www.cdc.gov/malaria/diagnosis_treatment/treatment.html\nCDC Malaria Hotline: (770) 488-7788 or (855) 856-4713 toll-free Monday-Friday 9 am to 5 pm EST - (770) 488-7100 after hours, weekends and holidays\nBabesiosis\nMild/moderate Disease\nAtovaquone\n750mg PO q12hr\nAND\nAzithromycin\n500mg PO on day 1, then 250mg/day PO\nSevere Disease\nClindamycin\n300-600mg IV QID\nOR\n600mg PO TID\nAND\nQuinine\n650mg PO TID x7-10 days\nConsider exchange transfusion if parasitemia >10%\nSupportive treatment",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Brown recluse spider bite\nSupportive care\nHemodynamic support with fluids and pressers if necessary\nBlood product transfusion if necessary",
+          "tables": []
+        },
+        "Hereditary/Congenital_Hemolytic_Anemia_2": {
+          "text": "G6PD\nStop new medications\nTreat any infections aggressively\nOvoid oxidant drugs\nBlood transfusion if severe illness\nSickle Cell Disease\n,\nThalassemia\n,\nHereditary spherocytosis\nHemolytic anemia in the above diseases typically chronic, usually does not require treatment in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Brown recluse spider bite",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Acquired_Hemolytic_Anemia_2": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_2": {
+          "text": "HUS\nSupportive Care\nHydration\nPain control\nHemodialysis if acute renal failure\nDo NOT give antibiotics: results in increased expression of Shiga Toxin from E. Coli O157:H7\nTTP\nAvoid\nplatelet transfusion, except in life-threatening bleeding or intracranial hemorrhage\nPlasma exchange\nIf Plasma exchange cannot be performed immediately, give FFP and plasmapharese later.\nFactor VIII concentrate\nDIC\nPlatelet transfusion if count is <50,000 and/or significant bleeding\npRBC if active bleeding or hemodynamically unstable\nFFP\nif active bleeding\nCryoprecipitate\nif fibrinogen <150 and bleeding\nTXA\nis only indicated for active or massive bleeding\nMalignant hypertension\nReduce blood pressure as clinically indicated",
+          "tables": []
+        },
+        "Autoimmune_2": {
+          "text": "Warm antibody autoimmune hemolytic anemia\nHigh-dose\ncorticosteroids\nPO (1-2mg/kg per day for 3-4 weeks)\nMonoclonal antibodies and immunosuppressive agents\nPlasma exchange for severe hemolysis\nAllogeneic RBC transfusion for life-threatening anemia",
+          "tables": []
+        },
+        "Infection_2": {
+          "text": "Malaria\nVisit CDC website to determine resistance pattern:\nhttps://www.cdc.gov/malaria/diagnosis_treatment/treatment.html\nCDC Malaria Hotline: (770) 488-7788 or (855) 856-4713 toll-free Monday-Friday 9 am to 5 pm EST - (770) 488-7100 after hours, weekends and holidays\nBabesiosis\nMild/moderate Disease\nAtovaquone\n750mg PO q12hr\nAND\nAzithromycin\n500mg PO on day 1, then 250mg/day PO\nSevere Disease\nClindamycin\n300-600mg IV QID\nOR\n600mg PO TID\nAND\nQuinine\n650mg PO TID x7-10 days\nConsider exchange transfusion if parasitemia >10%\nSupportive treatment",
+          "tables": []
+        },
+        "Other_2": {
+          "text": "Brown recluse spider bite\nSupportive care\nHemodynamic support with fluids and pressers if necessary\nBlood product transfusion if necessary",
+          "tables": []
+        },
+        "Hereditary/Congenital_Hemolytic_Anemia_2": {
+          "text": "G6PD\nStop new medications\nTreat any infections aggressively\nOvoid oxidant drugs\nBlood transfusion if severe illness\nSickle Cell Disease\n,\nThalassemia\n,\nHereditary spherocytosis\nHemolytic anemia in the above diseases typically chronic, usually does not require treatment in ED",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Atovaquone",
+          "url": "https://wikem.org/wiki/Atovaquone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Brown recluse spider bite",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Hereditary/Congenital_Hemolytic_Anemia_2": {
+      "text": "G6PD\nStop new medications\nTreat any infections aggressively\nOvoid oxidant drugs\nBlood transfusion if severe illness\nSickle Cell Disease\n,\nThalassemia\n,\nHereditary spherocytosis\nHemolytic anemia in the above diseases typically chronic, usually does not require treatment in ED",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Sickle Cell Disease",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Disease"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on severity, complications, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    }
+  }
+}

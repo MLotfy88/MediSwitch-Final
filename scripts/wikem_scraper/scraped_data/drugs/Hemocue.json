@@ -1,0 +1,42 @@
+{
+  "drug_name": "Hemocue",
+  "url": "https://wikem.org/wiki/Hemocue",
+  "scraped_at": "2026-01-10T07:54:26.995436",
+  "sections": {
+    "Background": {
+      "text": "The Hemocue is a method for point-of-care measurement of hemoglobin.\nMethod: Spectrophotometry\n[1]\nSample: Capillary, venous or arterial whole blood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism": {
+      "text": "The Hemocue device uses a method first described in 1960’s: modified azide-methemoglobin reaction.\nSodium deoxycholate hemolyses erythrocytes and hemoglobin is released.\nSodium nitrite converts hemoglobin to methemoglobin which, together with sodium azide, gives azidemethemoglobin\nThe absorbance is measured at two wavelengths (570 nm and 880 nm) in order to compensate for turbidity in the sample.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Performance": {
+      "text": "Multiple studies have repeatedly demonstrated accuracy of HemoCue – generally agreement within 0.5g/dL of laboratory analyzer.\n[2]\n[3]\n[4]\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\nSomewhat compromised reliability in the emergency department or critically-ill patients, particularly with capillary sample.\n[11]\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Hemocue 201 Product Page",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    }
+  }
+}

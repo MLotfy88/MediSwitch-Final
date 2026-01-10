@@ -1,0 +1,1024 @@
+{
+  "drug_name": "Hemophilia",
+  "url": "https://wikem.org/wiki/Hemophilia",
+  "scraped_at": "2026-01-10T07:54:29.674368",
+  "sections": {
+    "Background": {
+      "text": "TREAT FIRST, Diagnose second. Assume bleeding until proven otherwise.\nTwo types (clinically indistinguishable):\nHemophilia A: Factor VIII deficiency\nHemophilia B (Christmas disease): Factor IX deficiency\nSubstantial proportion (~1/3) of both types arise from spontaneous mutations\nMost common X-linked disorder\n[1]\n(overwhelmingly a disease of men)\nICH\nis most common cause of hemorrhagic death\nDo\nnot\ngive\nNSAIDs\nor IM injections\nAvoid invasive procedures (e.g. central lines, LP)",
+      "subsections": {
+        "Prehospital_Care": {
+          "text": "Rapid transport to definitive care\nApply pressure and achieve hemostasis in active bleeding patients\nBring Factor therapy with patient and encourage use during transport\nDetermine history of trauma or prior complications with hemophilia\nFor hemarthrosis; elevate, ice, and protect joint (crutches for knee/ankle)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        }
+      ]
+    },
+    "Prehospital_Care": {
+      "text": "Rapid transport to definitive care\nApply pressure and achieve hemostasis in active bleeding patients\nBring Factor therapy with patient and encourage use during transport\nDetermine history of trauma or prior complications with hemophilia\nFor hemarthrosis; elevate, ice, and protect joint (crutches for knee/ankle)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Patient does not need objective exam finding to treat. Subjective complaints are a harbinger of serious issues.",
+      "subsections": {
+        "Hemarthroses": {
+          "text": "Location\nPeds: Ankle 80% of the time\nAdults: Knees, then elbows, then ankles\nLeads to joint destruction and chronic arthropathy if not adequately treated\nPatients can reliably report when bleeding is occurring\nMost common bleeding complaint",
+          "tables": []
+        },
+        "Hematomas": {
+          "text": "Bleeding into soft tissues or muscle\nNeck (airway compromise)\nLimbs (compartment syndromes)\nEye (\nretro-orbital hematoma\n)\nSpine (\nepidural hematoma\n)\nRetroperitoneum\n(iliopsoas bleeds and massive blood loss)\nMost common initial complaint",
+          "tables": []
+        },
+        "Mucocutaneous_bleeding": {
+          "text": "Spontaneous bleeding uncommon from oropharynx,\nGI tract\n,\nepistaxis\n, or\nhemoptysis",
+          "tables": []
+        },
+        "CNS": {
+          "text": "Intracranial bleeding\nis most common cause of hemorrhagic death\nSubdural hematomas\noccur spontaneously or with minimal trauma",
+          "tables": []
+        },
+        "Hematuria": {
+          "text": "Common, usually not serious, source is rarely found",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "retro-orbital hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "GI tract",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "Hemarthroses": {
+      "text": "Location\nPeds: Ankle 80% of the time\nAdults: Knees, then elbows, then ankles\nLeads to joint destruction and chronic arthropathy if not adequately treated\nPatients can reliably report when bleeding is occurring\nMost common bleeding complaint",
+      "subsections": {
+        "Hematomas": {
+          "text": "Bleeding into soft tissues or muscle\nNeck (airway compromise)\nLimbs (compartment syndromes)\nEye (\nretro-orbital hematoma\n)\nSpine (\nepidural hematoma\n)\nRetroperitoneum\n(iliopsoas bleeds and massive blood loss)\nMost common initial complaint",
+          "tables": []
+        },
+        "Mucocutaneous_bleeding": {
+          "text": "Spontaneous bleeding uncommon from oropharynx,\nGI tract\n,\nepistaxis\n, or\nhemoptysis",
+          "tables": []
+        },
+        "CNS": {
+          "text": "Intracranial bleeding\nis most common cause of hemorrhagic death\nSubdural hematomas\noccur spontaneously or with minimal trauma",
+          "tables": []
+        },
+        "Hematuria": {
+          "text": "Common, usually not serious, source is rarely found",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "retro-orbital hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "GI tract",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "Hematomas": {
+      "text": "Bleeding into soft tissues or muscle\nNeck (airway compromise)\nLimbs (compartment syndromes)\nEye (\nretro-orbital hematoma\n)\nSpine (\nepidural hematoma\n)\nRetroperitoneum\n(iliopsoas bleeds and massive blood loss)\nMost common initial complaint",
+      "subsections": {
+        "Mucocutaneous_bleeding": {
+          "text": "Spontaneous bleeding uncommon from oropharynx,\nGI tract\n,\nepistaxis\n, or\nhemoptysis",
+          "tables": []
+        },
+        "CNS": {
+          "text": "Intracranial bleeding\nis most common cause of hemorrhagic death\nSubdural hematomas\noccur spontaneously or with minimal trauma",
+          "tables": []
+        },
+        "Hematuria": {
+          "text": "Common, usually not serious, source is rarely found",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "retro-orbital hematoma",
+          "url": "https://wikem.org/wiki/Retrobulbar_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "GI tract",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "Mucocutaneous_bleeding": {
+      "text": "Spontaneous bleeding uncommon from oropharynx,\nGI tract\n,\nepistaxis\n, or\nhemoptysis",
+      "subsections": {
+        "CNS": {
+          "text": "Intracranial bleeding\nis most common cause of hemorrhagic death\nSubdural hematomas\noccur spontaneously or with minimal trauma",
+          "tables": []
+        },
+        "Hematuria": {
+          "text": "Common, usually not serious, source is rarely found",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GI tract",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "CNS": {
+      "text": "Intracranial bleeding\nis most common cause of hemorrhagic death\nSubdural hematomas\noccur spontaneously or with minimal trauma",
+      "subsections": {
+        "Hematuria": {
+          "text": "Common, usually not serious, source is rarely found",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial bleeding",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Subdural hematomas",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        }
+      ]
+    },
+    "Hematuria": {
+      "text": "Common, usually not serious, source is rarely found",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Coags\nOnly helpful in making the diagnosis; once established unlikely to yield new information\nPT - normal\nPTT - abnormal (unless mild hemophilia)\nPTT s/p factor - should correct to normal\nFactor VIII assay",
+          "tables": []
+        },
+        "Consider": {
+          "text": "Head CT\nIf\nheadache\n,\naltered mental status\n, blunt\nhead injury\nMRI\nis preferred to CT if available (better visualization of posterior fossa)\nCT A/P\nBack, thigh, groin, or abdominal pain\nIf\nLP\nrequired\nreplete factor before attempting",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Pain in soft tissue is bleeding until proven otherwise\nParesthesias in legs - consider retroperitoneal bleed\nFlexion contracture at the hip- iliopsoas bleed\nEasy bruising or bleeding out of proportion to the history of trauma\nRecurrent bleeding into joints and muscles\nArthrocentesis not indicated\nProlonged PTT; normal PT",
+          "tables": []
+        },
+        "Factor_VIII_assay": {
+          "text": "Consider before treatment (for heme to follow)\nNormal: 50-150%\nMild: >5% (usually an insult causes bleeding)\nModerate: 1-5% (usually an insult causes bleeding)\nSevere: <1% (spontaneous bleeding not uncommon, multiple bleeding episodes/month)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Coags\nOnly helpful in making the diagnosis; once established unlikely to yield new information\nPT - normal\nPTT - abnormal (unless mild hemophilia)\nPTT s/p factor - should correct to normal\nFactor VIII assay",
+      "subsections": {
+        "Consider": {
+          "text": "Head CT\nIf\nheadache\n,\naltered mental status\n, blunt\nhead injury\nMRI\nis preferred to CT if available (better visualization of posterior fossa)\nCT A/P\nBack, thigh, groin, or abdominal pain\nIf\nLP\nrequired\nreplete factor before attempting",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Pain in soft tissue is bleeding until proven otherwise\nParesthesias in legs - consider retroperitoneal bleed\nFlexion contracture at the hip- iliopsoas bleed\nEasy bruising or bleeding out of proportion to the history of trauma\nRecurrent bleeding into joints and muscles\nArthrocentesis not indicated\nProlonged PTT; normal PT",
+          "tables": []
+        },
+        "Factor_VIII_assay": {
+          "text": "Consider before treatment (for heme to follow)\nNormal: 50-150%\nMild: >5% (usually an insult causes bleeding)\nModerate: 1-5% (usually an insult causes bleeding)\nSevere: <1% (spontaneous bleeding not uncommon, multiple bleeding episodes/month)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "head injury",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Pain in soft tissue is bleeding until proven otherwise\nParesthesias in legs - consider retroperitoneal bleed\nFlexion contracture at the hip- iliopsoas bleed\nEasy bruising or bleeding out of proportion to the history of trauma\nRecurrent bleeding into joints and muscles\nArthrocentesis not indicated\nProlonged PTT; normal PT",
+      "subsections": {
+        "Factor_VIII_assay": {
+          "text": "Consider before treatment (for heme to follow)\nNormal: 50-150%\nMild: >5% (usually an insult causes bleeding)\nModerate: 1-5% (usually an insult causes bleeding)\nSevere: <1% (spontaneous bleeding not uncommon, multiple bleeding episodes/month)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Treatment": {
+      "text": "Always inquire whether patient has known inhibitors - may be refractory to conventional treatment\nIf so, obtain hematology consult before treatment\nIf no known inhibitors, and patient not improving after replacement, order mixing study\nPTT will not correct if inhibitors present",
+      "subsections": {
+        "Indications_for_Factor_Replacement": {
+          "text": "Suspected bleeding into muscles or joints\nTrauma to\nhead\nor\nneck\nAny new or concerning\nheadache\n(spontaneous or traumatic)\nTrauma\nwith potential for internal bleeding\nPrior to any planned invasive procedure or surgery\nGastrointestinal\nbleeding\nAcute\nfractures\n,\ndislocations\nand sprains",
+          "tables": []
+        },
+        "Factor_Replacement": {
+          "text": "Major bleeding (GI, CNS, large muscle, trauma) requires factor replacement level 80-100%\nModerate bleeding (soft tissue, small muscle, joint) requires 30-50%\nDiagnosis unknown\nGive\nFFP\n(contains VIII and IX)\nEach bag raises factor levels by 3-5%\nSevere mechanism of injury (head, neck trauma), even without evidence of bleeding\nHemophilia is factor deficiency, not platelet deficiency/malfunction so initial hemostasis may be achieved but clot stabilization will not persist\nDelayed bleeding is a serious risk, so factor replacement must occur immediately",
+          "tables": []
+        },
+        "Hemophilia_A": {
+          "text": "Dose of Factor VIII = weight (kg) x % increased desired x 0.5\nAfter initial correction give half this dose q8-12hr\n1 IU/kg will increase the plasma concentration by 2%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nDesmopressin\nMay be sufficient in patients with mild bleeding\n0.3mcg/kg IV over 15-30min",
+          "tables": []
+        },
+        "Hemophilia_B": {
+          "text": "Dose of Factor IX = weight (kg) x % increase desired\nAfter initial correction give half this dose 24 hr later\n1 IU/kg will increase the plasma concentration by 1%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nUse the percentage as integer, not percentage (e.g. for 25% multiply by \"25\" not \"0.25\")",
+          "tables": []
+        },
+        "Desired_Level_Repletion": {
+          "text": "For isolated oral mucosal bleeding consider antifibrinolytic agents (e.g. -\nTXA\n)",
+          "tables": [
+            [
+              {
+                "Site of Bleed": "Joint",
+                "Hemostatic Level": "80% acutely, then 40% every other day until resolved",
+                "Hemophilia A": "40 units/kg initially and then 20 units/kg every other day until healed",
+                "Hemophilia B": "80 units/kg initially and then 40 units/kg every other day or third day as needed"
+              },
+              {
+                "Site of Bleed": "Muscles",
+                "Hemostatic Level": "40-50%",
+                "Hemophilia A": "20-40 units/kg per day until healed",
+                "Hemophilia B": "40-60 units/kg then 20-30 every other day as needed"
+              },
+              {
+                "Site of Bleed": "Oral",
+                "Hemostatic Level": "100%",
+                "Hemophilia A": "50 units/kg",
+                "Hemophilia B": "100 units/kg"
+              },
+              {
+                "Site of Bleed": "Nose",
+                "Hemostatic Level": "Initially 80-100%, then 30% until healing",
+                "Hemophilia A": "40-50 units/kg, then 30-40 units per day",
+                "Hemophilia B": "80-100 units/kg then 35-40 units every day"
+              },
+              {
+                "Site of Bleed": "Gastrointestinal",
+                "Hemostatic Level": "Initially 100%, then 50% until healing",
+                "Hemophilia A": "50 units/kg, then 30-40 units/ kg per day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Genitourinary",
+                "Hemostatic Level": "Initially 100%, then 30% until healing",
+                "Hemophilia A": "50 units/kg then 30-40 units/ kg/day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Central Nervous System",
+                "Hemostatic Level": "Initially 100%, then 50-100% for 14 days",
+                "Hemophilia A": "50 units/kg then 25 units/kg every 12 hours",
+                "Hemophilia B": "100 units/kg then 50 units/kg every day"
+              },
+              {
+                "Site of Bleed": "Surgery/trauma",
+                "Hemostatic Level": "Initially 100%, then 80-100% until wound healing begins, then 30% until suture removed",
+                "Hemophilia A": "50 units/kg then 40-50 units every 12 hours adjusted according to healing",
+                "Hemophilia B": "100 units/kg then 50 units every day adjusted according to healing"
+              }
+            ]
+          ]
+        },
+        "Inhibitors_to_Factors": {
+          "text": "Antibody inhibitors to factor therapy more common in Factor concentrates and rare in recombinant factor therapy\n[4]\nTreatment should be in consultation with hematologist\nIn major bleeding, rVII has been suggested as potential salvage therapy for patients with inhibitors to recombinant factor\n[5]",
+          "tables": []
+        },
+        "Treatment_Options": {
+          "text": "Activated Prothrombin Complex Concentrate Dosing: 75 units/kg\nFEIBA (Immuno)\nRecombinant Activate VII Dosing: 90ug/kg every 2-3 hours\nSeveral studies suggest treatment with higher dosing of Recombinant Activate VII initially\n[6]\n270 mcg/kg dosing\nSeparate further dosing by at least 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "neck",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Gastrointestinal",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Indications_for_Factor_Replacement": {
+      "text": "Suspected bleeding into muscles or joints\nTrauma to\nhead\nor\nneck\nAny new or concerning\nheadache\n(spontaneous or traumatic)\nTrauma\nwith potential for internal bleeding\nPrior to any planned invasive procedure or surgery\nGastrointestinal\nbleeding\nAcute\nfractures\n,\ndislocations\nand sprains",
+      "subsections": {
+        "Factor_Replacement": {
+          "text": "Major bleeding (GI, CNS, large muscle, trauma) requires factor replacement level 80-100%\nModerate bleeding (soft tissue, small muscle, joint) requires 30-50%\nDiagnosis unknown\nGive\nFFP\n(contains VIII and IX)\nEach bag raises factor levels by 3-5%\nSevere mechanism of injury (head, neck trauma), even without evidence of bleeding\nHemophilia is factor deficiency, not platelet deficiency/malfunction so initial hemostasis may be achieved but clot stabilization will not persist\nDelayed bleeding is a serious risk, so factor replacement must occur immediately",
+          "tables": []
+        },
+        "Hemophilia_A": {
+          "text": "Dose of Factor VIII = weight (kg) x % increased desired x 0.5\nAfter initial correction give half this dose q8-12hr\n1 IU/kg will increase the plasma concentration by 2%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nDesmopressin\nMay be sufficient in patients with mild bleeding\n0.3mcg/kg IV over 15-30min",
+          "tables": []
+        },
+        "Hemophilia_B": {
+          "text": "Dose of Factor IX = weight (kg) x % increase desired\nAfter initial correction give half this dose 24 hr later\n1 IU/kg will increase the plasma concentration by 1%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nUse the percentage as integer, not percentage (e.g. for 25% multiply by \"25\" not \"0.25\")",
+          "tables": []
+        },
+        "Desired_Level_Repletion": {
+          "text": "For isolated oral mucosal bleeding consider antifibrinolytic agents (e.g. -\nTXA\n)",
+          "tables": [
+            [
+              {
+                "Site of Bleed": "Joint",
+                "Hemostatic Level": "80% acutely, then 40% every other day until resolved",
+                "Hemophilia A": "40 units/kg initially and then 20 units/kg every other day until healed",
+                "Hemophilia B": "80 units/kg initially and then 40 units/kg every other day or third day as needed"
+              },
+              {
+                "Site of Bleed": "Muscles",
+                "Hemostatic Level": "40-50%",
+                "Hemophilia A": "20-40 units/kg per day until healed",
+                "Hemophilia B": "40-60 units/kg then 20-30 every other day as needed"
+              },
+              {
+                "Site of Bleed": "Oral",
+                "Hemostatic Level": "100%",
+                "Hemophilia A": "50 units/kg",
+                "Hemophilia B": "100 units/kg"
+              },
+              {
+                "Site of Bleed": "Nose",
+                "Hemostatic Level": "Initially 80-100%, then 30% until healing",
+                "Hemophilia A": "40-50 units/kg, then 30-40 units per day",
+                "Hemophilia B": "80-100 units/kg then 35-40 units every day"
+              },
+              {
+                "Site of Bleed": "Gastrointestinal",
+                "Hemostatic Level": "Initially 100%, then 50% until healing",
+                "Hemophilia A": "50 units/kg, then 30-40 units/ kg per day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Genitourinary",
+                "Hemostatic Level": "Initially 100%, then 30% until healing",
+                "Hemophilia A": "50 units/kg then 30-40 units/ kg/day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Central Nervous System",
+                "Hemostatic Level": "Initially 100%, then 50-100% for 14 days",
+                "Hemophilia A": "50 units/kg then 25 units/kg every 12 hours",
+                "Hemophilia B": "100 units/kg then 50 units/kg every day"
+              },
+              {
+                "Site of Bleed": "Surgery/trauma",
+                "Hemostatic Level": "Initially 100%, then 80-100% until wound healing begins, then 30% until suture removed",
+                "Hemophilia A": "50 units/kg then 40-50 units every 12 hours adjusted according to healing",
+                "Hemophilia B": "100 units/kg then 50 units every day adjusted according to healing"
+              }
+            ]
+          ]
+        },
+        "Inhibitors_to_Factors": {
+          "text": "Antibody inhibitors to factor therapy more common in Factor concentrates and rare in recombinant factor therapy\n[4]\nTreatment should be in consultation with hematologist\nIn major bleeding, rVII has been suggested as potential salvage therapy for patients with inhibitors to recombinant factor\n[5]",
+          "tables": []
+        },
+        "Treatment_Options": {
+          "text": "Activated Prothrombin Complex Concentrate Dosing: 75 units/kg\nFEIBA (Immuno)\nRecombinant Activate VII Dosing: 90ug/kg every 2-3 hours\nSeveral studies suggest treatment with higher dosing of Recombinant Activate VII initially\n[6]\n270 mcg/kg dosing\nSeparate further dosing by at least 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "neck",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Gastrointestinal",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Factor_Replacement": {
+      "text": "Major bleeding (GI, CNS, large muscle, trauma) requires factor replacement level 80-100%\nModerate bleeding (soft tissue, small muscle, joint) requires 30-50%\nDiagnosis unknown\nGive\nFFP\n(contains VIII and IX)\nEach bag raises factor levels by 3-5%\nSevere mechanism of injury (head, neck trauma), even without evidence of bleeding\nHemophilia is factor deficiency, not platelet deficiency/malfunction so initial hemostasis may be achieved but clot stabilization will not persist\nDelayed bleeding is a serious risk, so factor replacement must occur immediately",
+      "subsections": {
+        "Hemophilia_A": {
+          "text": "Dose of Factor VIII = weight (kg) x % increased desired x 0.5\nAfter initial correction give half this dose q8-12hr\n1 IU/kg will increase the plasma concentration by 2%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nDesmopressin\nMay be sufficient in patients with mild bleeding\n0.3mcg/kg IV over 15-30min",
+          "tables": []
+        },
+        "Hemophilia_B": {
+          "text": "Dose of Factor IX = weight (kg) x % increase desired\nAfter initial correction give half this dose 24 hr later\n1 IU/kg will increase the plasma concentration by 1%\nFor severe bleeding, desired factor level is 80-100%.\nFor less severe bleeding, the desired factor level is 30-50%\nUse the percentage as integer, not percentage (e.g. for 25% multiply by \"25\" not \"0.25\")",
+          "tables": []
+        },
+        "Desired_Level_Repletion": {
+          "text": "For isolated oral mucosal bleeding consider antifibrinolytic agents (e.g. -\nTXA\n)",
+          "tables": [
+            [
+              {
+                "Site of Bleed": "Joint",
+                "Hemostatic Level": "80% acutely, then 40% every other day until resolved",
+                "Hemophilia A": "40 units/kg initially and then 20 units/kg every other day until healed",
+                "Hemophilia B": "80 units/kg initially and then 40 units/kg every other day or third day as needed"
+              },
+              {
+                "Site of Bleed": "Muscles",
+                "Hemostatic Level": "40-50%",
+                "Hemophilia A": "20-40 units/kg per day until healed",
+                "Hemophilia B": "40-60 units/kg then 20-30 every other day as needed"
+              },
+              {
+                "Site of Bleed": "Oral",
+                "Hemostatic Level": "100%",
+                "Hemophilia A": "50 units/kg",
+                "Hemophilia B": "100 units/kg"
+              },
+              {
+                "Site of Bleed": "Nose",
+                "Hemostatic Level": "Initially 80-100%, then 30% until healing",
+                "Hemophilia A": "40-50 units/kg, then 30-40 units per day",
+                "Hemophilia B": "80-100 units/kg then 35-40 units every day"
+              },
+              {
+                "Site of Bleed": "Gastrointestinal",
+                "Hemostatic Level": "Initially 100%, then 50% until healing",
+                "Hemophilia A": "50 units/kg, then 30-40 units/ kg per day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Genitourinary",
+                "Hemostatic Level": "Initially 100%, then 30% until healing",
+                "Hemophilia A": "50 units/kg then 30-40 units/ kg/day",
+                "Hemophilia B": "100 units/kg then 30-40 units every day"
+              },
+              {
+                "Site of Bleed": "Central Nervous System",
+                "Hemostatic Level": "Initially 100%, then 50-100% for 14 days",
+                "Hemophilia A": "50 units/kg then 25 units/kg every 12 hours",
+                "Hemophilia B": "100 units/kg then 50 units/kg every day"
+              },
+              {
+                "Site of Bleed": "Surgery/trauma",
+                "Hemostatic Level": "Initially 100%, then 80-100% until wound healing begins, then 30% until suture removed",
+                "Hemophilia A": "50 units/kg then 40-50 units every 12 hours adjusted according to healing",
+                "Hemophilia B": "100 units/kg then 50 units every day adjusted according to healing"
+              }
+            ]
+          ]
+        },
+        "Inhibitors_to_Factors": {
+          "text": "Antibody inhibitors to factor therapy more common in Factor concentrates and rare in recombinant factor therapy\n[4]\nTreatment should be in consultation with hematologist\nIn major bleeding, rVII has been suggested as potential salvage therapy for patients with inhibitors to recombinant factor\n[5]",
+          "tables": []
+        },
+        "Treatment_Options": {
+          "text": "Activated Prothrombin Complex Concentrate Dosing: 75 units/kg\nFEIBA (Immuno)\nRecombinant Activate VII Dosing: 90ug/kg every 2-3 hours\nSeveral studies suggest treatment with higher dosing of Recombinant Activate VII initially\n[6]\n270 mcg/kg dosing\nSeparate further dosing by at least 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Desired_Level_Repletion": {
+      "text": "For isolated oral mucosal bleeding consider antifibrinolytic agents (e.g. -\nTXA\n)",
+      "subsections": {
+        "Inhibitors_to_Factors": {
+          "text": "Antibody inhibitors to factor therapy more common in Factor concentrates and rare in recombinant factor therapy\n[4]\nTreatment should be in consultation with hematologist\nIn major bleeding, rVII has been suggested as potential salvage therapy for patients with inhibitors to recombinant factor\n[5]",
+          "tables": []
+        },
+        "Treatment_Options": {
+          "text": "Activated Prothrombin Complex Concentrate Dosing: 75 units/kg\nFEIBA (Immuno)\nRecombinant Activate VII Dosing: 90ug/kg every 2-3 hours\nSeveral studies suggest treatment with higher dosing of Recombinant Activate VII initially\n[6]\n270 mcg/kg dosing\nSeparate further dosing by at least 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Site of Bleed": "Joint",
+            "Hemostatic Level": "80% acutely, then 40% every other day until resolved",
+            "Hemophilia A": "40 units/kg initially and then 20 units/kg every other day until healed",
+            "Hemophilia B": "80 units/kg initially and then 40 units/kg every other day or third day as needed"
+          },
+          {
+            "Site of Bleed": "Muscles",
+            "Hemostatic Level": "40-50%",
+            "Hemophilia A": "20-40 units/kg per day until healed",
+            "Hemophilia B": "40-60 units/kg then 20-30 every other day as needed"
+          },
+          {
+            "Site of Bleed": "Oral",
+            "Hemostatic Level": "100%",
+            "Hemophilia A": "50 units/kg",
+            "Hemophilia B": "100 units/kg"
+          },
+          {
+            "Site of Bleed": "Nose",
+            "Hemostatic Level": "Initially 80-100%, then 30% until healing",
+            "Hemophilia A": "40-50 units/kg, then 30-40 units per day",
+            "Hemophilia B": "80-100 units/kg then 35-40 units every day"
+          },
+          {
+            "Site of Bleed": "Gastrointestinal",
+            "Hemostatic Level": "Initially 100%, then 50% until healing",
+            "Hemophilia A": "50 units/kg, then 30-40 units/ kg per day",
+            "Hemophilia B": "100 units/kg then 30-40 units every day"
+          },
+          {
+            "Site of Bleed": "Genitourinary",
+            "Hemostatic Level": "Initially 100%, then 30% until healing",
+            "Hemophilia A": "50 units/kg then 30-40 units/ kg/day",
+            "Hemophilia B": "100 units/kg then 30-40 units every day"
+          },
+          {
+            "Site of Bleed": "Central Nervous System",
+            "Hemostatic Level": "Initially 100%, then 50-100% for 14 days",
+            "Hemophilia A": "50 units/kg then 25 units/kg every 12 hours",
+            "Hemophilia B": "100 units/kg then 50 units/kg every day"
+          },
+          {
+            "Site of Bleed": "Surgery/trauma",
+            "Hemostatic Level": "Initially 100%, then 80-100% until wound healing begins, then 30% until suture removed",
+            "Hemophilia A": "50 units/kg then 40-50 units every 12 hours adjusted according to healing",
+            "Hemophilia B": "100 units/kg then 50 units every day adjusted according to healing"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        }
+      ]
+    },
+    "Inhibitors_to_Factors": {
+      "text": "Antibody inhibitors to factor therapy more common in Factor concentrates and rare in recombinant factor therapy\n[4]\nTreatment should be in consultation with hematologist\nIn major bleeding, rVII has been suggested as potential salvage therapy for patients with inhibitors to recombinant factor\n[5]",
+      "subsections": {
+        "Treatment_Options": {
+          "text": "Activated Prothrombin Complex Concentrate Dosing: 75 units/kg\nFEIBA (Immuno)\nRecombinant Activate VII Dosing: 90ug/kg every 2-3 hours\nSeveral studies suggest treatment with higher dosing of Recombinant Activate VII initially\n[6]\n270 mcg/kg dosing\nSeparate further dosing by at least 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Patients requiring  multiple factor replacement doses\nBleeding in head, neck, pharynx, retropharynx, or retroperitoneum\nPotential for compartment syndrome",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "If close follow-up and mild hemarthrosis\nIf no bleeding and prophylaxis given\nCoordinate follow-up with patient's hematologist or primary care provider",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Patients requiring  multiple factor replacement doses\nBleeding in head, neck, pharynx, retropharynx, or retroperitoneum\nPotential for compartment syndrome",
+      "subsections": {
+        "Discharge": {
+          "text": "If close follow-up and mild hemarthrosis\nIf no bleeding and prophylaxis given\nCoordinate follow-up with patient's hematologist or primary care provider",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "If close follow-up and mild hemarthrosis\nIf no bleeding and prophylaxis given\nCoordinate follow-up with patient's hematologist or primary care provider",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nVon Willebrand Disease (vWD)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Von Willebrand Disease (vWD)",
+          "url": "https://wikem.org/wiki/Von_Willebrand_Disease_(vWD)"
+        }
+      ]
+    }
+  }
+}

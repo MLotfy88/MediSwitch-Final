@@ -1,0 +1,371 @@
+{
+  "drug_name": "Herpes_gingivostomatitis",
+  "url": "https://wikem.org/wiki/Herpes_gingivostomatitis",
+  "scraped_at": "2026-01-10T07:54:41.471931",
+  "sections": {
+    "Background": {
+      "text": "Primary\nHSV-1\ninfection of lips, gingiva, and tongue\nHSV-2 associated with genital disease\nUsually occurs in childhood\n[1]\n90% of population is seropositive by age 40\n[1]\nTreatment does not affect dormant virus in nerve ganglions → recurrent disease remains possible",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV-1",
+          "url": "https://wikem.org/wiki/HSV-1"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Prodrome of\nfever\n,\nmyalgias\n, and cervical\nlymphadenopathy\n[2]\nPainful vesicular and/or ulcerative lesions of mucocutaneous areas (non-keratinized mucosa)\nCan be extremely painful and → odynophagia\nLasts approximately 1-4 weeks without treatment, course shortened with treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Herpes_Simplex_Virus-1": {
+          "text": "Eczema herpeticum\nHerpes gingivostomatitis\nHerpes keratitis\nHerpes labialis\n(cold sore)\nHerpes simplex encephalitis\nHerpetic whitlow",
+          "tables": []
+        },
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Herpes simplex encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Herpes_Simplex_Virus-1": {
+      "text": "Eczema herpeticum\nHerpes gingivostomatitis\nHerpes keratitis\nHerpes labialis\n(cold sore)\nHerpes simplex encephalitis\nHerpetic whitlow",
+      "subsections": {
+        "Oral_rashes_and_lesions": {
+          "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Herpes simplex encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Oral_rashes_and_lesions": {
+      "text": "Angioedema\nAphthous stomatitis\nHerpes gingivostomatitis\nHerpes labialis\nMeasles\n(Koplik's spots)\nPerioral dermatitis\nOral thrush\nSteven Johnson syndrome\nStreptococcal pharyngitis\nTongue diagnoses\nVincent's angina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aphthous stomatitis",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Herpes labialis",
+          "url": "https://wikem.org/wiki/Herpes_labialis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Steven Johnson syndrome",
+          "url": "https://wikem.org/wiki/Steven_Johnson_syndrome"
+        },
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Tongue diagnoses",
+          "url": "https://wikem.org/wiki/Tongue_diagnoses"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam\nAvailable laboratory studies (not required for diagnosis)\n[2]\n:\nViral culture (gold standard)\nDirect immunofluorescence\nTzanck smear (poor specificity)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Normal_Host": {
+          "text": "Options:\nAcyclovir\n400 mg PO 5x/day (q4hrs while awake) x 5 days, OR\n40-80mg/kg PO divided in 3-4 doses for 5-7 days, OR\nCan also be used as a cream or oral suspension (swish and swallow)\n[2]\nFamciclovir\n500mg PO BID x 7 days, OR\nValacyclovir\n2gm PO q12 x 1 day",
+          "tables": []
+        },
+        "Immunocompromised": {
+          "text": "Options:\nAcyclovir\n5 mg/kg IV (over 1 hours) q8h x 7 days, OR\n400mg PO 5x/day x 14-21 days\nFamciclovir\n500mg PO BID x 7 days, OR\nValacyclovir\n500mg PO BID x 5-10 days\nAnalgesia\n(e.g.\nacetaminophen\nand/or\nibuprofen\n)\nPO intake is important\nConsider viscous\nlidocaine\nbefore meals\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Anti-viral_Treatment": {
+      "text": "",
+      "subsections": {
+        "Normal_Host": {
+          "text": "Options:\nAcyclovir\n400 mg PO 5x/day (q4hrs while awake) x 5 days, OR\n40-80mg/kg PO divided in 3-4 doses for 5-7 days, OR\nCan also be used as a cream or oral suspension (swish and swallow)\n[2]\nFamciclovir\n500mg PO BID x 7 days, OR\nValacyclovir\n2gm PO q12 x 1 day",
+          "tables": []
+        },
+        "Immunocompromised": {
+          "text": "Options:\nAcyclovir\n5 mg/kg IV (over 1 hours) q8h x 7 days, OR\n400mg PO 5x/day x 14-21 days\nFamciclovir\n500mg PO BID x 7 days, OR\nValacyclovir\n500mg PO BID x 5-10 days\nAnalgesia\n(e.g.\nacetaminophen\nand/or\nibuprofen\n)\nPO intake is important\nConsider viscous\nlidocaine\nbefore meals\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if uncomplicated\nConsider admission if immunocompromized, critically ill, or with large necrotic ulcers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Herpes Simplex Virus-1\nOropharynx and jaw diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Oropharynx and jaw diagnoses",
+          "url": "https://wikem.org/wiki/Oropharynx_and_jaw_diagnoses"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "drug_name": "Hereditary_spherocytosis",
+  "url": "https://wikem.org/wiki/Hereditary_spherocytosis",
+  "scraped_at": "2026-01-10T07:54:38.934066",
+  "sections": {
+    "Background": {
+      "text": "Hereditary hemolytic anemia due to defect in RBC cell membrane (mainly spectrin, ankyrin)\n75% Autosomal Dominant, 25% Autosomal Recessive",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Deficient/Nonfunctional RBC cell membrane proteins that connect the cell membrane skeleton to the lipid bilayer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Deficient/Nonfunctional RBC cell membrane proteins that connect the cell membrane skeleton to the lipid bilayer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Classic triad:\nanemia\n,\njaundice\n, splenomegaly",
+      "subsections": {
+        "Mild": {
+          "text": "No anemia, normal retic count, little or no jaundice/splenomegaly\nNo RBC transfusions\nDx’d later in life",
+          "tables": []
+        },
+        "Moderate": {
+          "text": "Anemic, elevated retic, elevated bili, maybe splenomegaly\nMay require RBC transfusions\nDx’d in infancy or early childhood",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Marked\nhemolysis\n,\nanemia\n,\nhyperbilirubinemia\n, splenomegaly\nRequire regular RBC transfusions\nDx’d in infancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        }
+      ]
+    },
+    "Mild": {
+      "text": "No anemia, normal retic count, little or no jaundice/splenomegaly\nNo RBC transfusions\nDx’d later in life",
+      "subsections": {
+        "Moderate": {
+          "text": "Anemic, elevated retic, elevated bili, maybe splenomegaly\nMay require RBC transfusions\nDx’d in infancy or early childhood",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Marked\nhemolysis\n,\nanemia\n,\nhyperbilirubinemia\n, splenomegaly\nRequire regular RBC transfusions\nDx’d in infancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        }
+      ]
+    },
+    "Moderate": {
+      "text": "Anemic, elevated retic, elevated bili, maybe splenomegaly\nMay require RBC transfusions\nDx’d in infancy or early childhood",
+      "subsections": {
+        "Severe": {
+          "text": "Marked\nhemolysis\n,\nanemia\n,\nhyperbilirubinemia\n, splenomegaly\nRequire regular RBC transfusions\nDx’d in infancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "Marked\nhemolysis\n,\nanemia\n,\nhyperbilirubinemia\n, splenomegaly\nRequire regular RBC transfusions\nDx’d in infancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Low hemoglobin, elevated retic count, spherocytes on peripheral smear\nElevated MCHC (RBC membrane leaky causing RBC dehydration)\nOsmotic fragility test, AGLT, EMA binding test, cryohemolysis\nOne study showed AGLT + EMA binding test identified all HS patients\nNegative Coombs test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Folic acid\npRBC\ntransfusion\nEPO\nSplenectomy\nAs late as possible, preferably >6 yo\nPost-op need encapsulated bacteria prophylaxis: Strep Pneumo, H Influenza, Neiserria Meningitidis\nPossible higher risk of arterial/venous thrombosis in HS after splenectomy\nHematopoietic cell transplant (most agree risks outweigh benefits)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "pRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Cholelithiasis\nsecondary to intravascular hemolysis causing development of bilirubin gallstones\nPseudohyperkalemia: K+ leaks out of RBCs after blood draw",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        }
+      ]
+    }
+  }
+}

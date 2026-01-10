@@ -1,0 +1,267 @@
+{
+  "drug_name": "Herpes_B_virus",
+  "url": "https://wikem.org/wiki/Herpes_B_virus",
+  "scraped_at": "2026-01-10T07:54:42.307833",
+  "sections": {
+    "Background": {
+      "text": "Cercopithecine herpesvirus 1 (commonly referred to as B virus)\nZoonotic Endemic in Macaque Monkeys-mild symptoms like blisters\nFatal Encephalomyelitis in Humans: 80% fatal without treatment\nMost common transmission by bite, but very few cases\nConsider in Patients with Exposure, especial penetrating bites, to Macaque Monkeys in the wild or research",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Vesicular Herpetic Lesions\nNonspecific Flu-like Illness\nLymphadenitis\nSite of inoculation - pain, numbness, itching\nCNS - poor coordination, respiratory depression\nEncephalitis - late stage of the disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Rabies\nHerpes zoster\nCat-scratch disease\nHerpes simplex virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical\nPCR specificity and sensitivity at nearly 100% for serologic\nPCR wound samples less reliable\nAll symptomatic should be tested",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider\nrabies\nprophylaxis for all",
+      "subsections": {
+        "Asymptomatic_Prophylaxis_(Acute_Exposure)": {
+          "text": "<20 minutes clean and irrigate\nAntiviral prophylaxis\n14 day course of PO\nvalacyclovir\n1gm three times daily OR\n14 day course of PO\nacyclovir\n800mg five times daily\n[2]\nIndications\nPenetrating (especially head, neck, torso)\nFluid on mucosa\nBlistering Monkey",
+          "tables": []
+        },
+        "All_non-CNS_symptomatic": {
+          "text": "Admit and treat\nAntiviral\nAcyclovir\nIV 12.5-15mg/kg every eight hours OR\nGanciclovir\nIV 5mg/kg every 12 hours\n[2]",
+          "tables": []
+        },
+        "All_CNS_Symptomatic": {
+          "text": "Admit and treat\nGanciclovir\nIV 5mg/kg every 12 hours\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        }
+      ]
+    },
+    "All_non-CNS_symptomatic": {
+      "text": "Admit and treat\nAntiviral\nAcyclovir\nIV 12.5-15mg/kg every eight hours OR\nGanciclovir\nIV 5mg/kg every 12 hours\n[2]",
+      "subsections": {
+        "All_CNS_Symptomatic": {
+          "text": "Admit and treat\nGanciclovir\nIV 5mg/kg every 12 hours\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        }
+      ]
+    },
+    "All_CNS_Symptomatic": {
+      "text": "Admit and treat\nGanciclovir\nIV 5mg/kg every 12 hours\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Asymptomatic Discharge\nSymptomatic Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Mammalian bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: B Virus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

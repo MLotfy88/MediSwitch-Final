@@ -1,0 +1,103 @@
+{
+  "drug_name": "Hepatic_encephalopathy",
+  "url": "https://wikem.org/wiki/Hepatic_encephalopathy",
+  "scraped_at": "2026-01-10T07:54:35.307836",
+  "sections": {
+    "Background": {
+      "text": "Diagnosis of exclusion\nDue to accumulation of nitrogenous waste products normally metabolized by the liver\nIncreased metabolism of ammonia to glutamine in CNS\nSpectrum of illness ranges from chronic fatigue to acute lethargy",
+      "subsections": {
+        "Precipitants": {
+          "text": "Increased ammonia production, absorption or entry into brain:\nGI Bleed\nExcess dietary intake of protein\nInfection\n(e.g.\nSBP\n)\nHypokalemia\nMetabolic Alkalosis\nConstipation\nDehydration\nVomiting\nDiuretics\nDrugs\nOpioids\nBenzodiazepines\n(including\nwithdrawal\n)\nETOH\n(including withdrawal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Precipitants": {
+      "text": "Increased ammonia production, absorption or entry into brain:\nGI Bleed\nExcess dietary intake of protein\nInfection\n(e.g.\nSBP\n)\nHypokalemia\nMetabolic Alkalosis\nConstipation\nDehydration\nVomiting\nDiuretics\nDrugs\nOpioids\nBenzodiazepines\n(including\nwithdrawal\n)\nETOH\n(including withdrawal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Stages": {
+          "text": "Stage I - General apathy\nStage II - Lethargy, drowsiness, variable orientation, asterixis\nStage III - Stupor with hyperreflexia, marked disorientation, inability to follow commands, extensor plantar reflexes\nStage IV - Coma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stages": {
+      "text": "Stage I - General apathy\nStage II - Lethargy, drowsiness, variable orientation, asterixis\nStage III - Stupor with hyperreflexia, marked disorientation, inability to follow commands, extensor plantar reflexes\nStage IV - Coma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Subdural Hematoma\nHypoglycemia\nWernicke-Korsakoff Syndrome\nHyper\n/\nhyponatremia\nBenzodiazepine Overdose\n(decreased hepatic clearance)\nRenal Failure\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChemistry\nAmmonia level\nLFTs\nPT/PTT\nUrinalysis\nCXR\nHead CT\nParacentesis\nin patient with ascites (rule out\nSBP\n)\nConsider\nLP",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Full neuro exam including asterixis\nElevated ammonia\nlevel. Ammonia is not predictive of severity of disease.\nHistory of any new medications or toxin ingestion\nFocus exam on looking for signs of\nGI bleed\nor\nhypovolemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nChemistry\nAmmonia level\nLFTs\nPT/PTT\nUrinalysis\nCXR\nHead CT\nParacentesis\nin patient with ascites (rule out\nSBP\n)\nConsider\nLP",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Full neuro exam including asterixis\nElevated ammonia\nlevel. Ammonia is not predictive of severity of disease.\nHistory of any new medications or toxin ingestion\nFocus exam on looking for signs of\nGI bleed\nor\nhypovolemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Full neuro exam including asterixis\nElevated ammonia\nlevel. Ammonia is not predictive of severity of disease.\nHistory of any new medications or toxin ingestion\nFocus exam on looking for signs of\nGI bleed\nor\nhypovolemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Lactulose\n20g PO or (300mL in 700cc H2O retention enema x30min)\nIn colon degrades into lactic acid: acidic environment traps ammonia\nAlso inhibits ammonia production in gut wall\nRifaximin is second line.\nSome new evidence suggest use of PEG in patients who are not candidates for Lactulose.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge stage I if good resources.\nStage II will need admission unless known encephalopathy and who is otherwise well.\nStage III and IV admission +/- ICU or obs bed.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Patient_Information": {
+      "text": "Hepatic Encephalopathy\n(Medline Plus)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute hepatic failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

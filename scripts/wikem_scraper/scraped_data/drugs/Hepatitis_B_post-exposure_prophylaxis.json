@@ -1,0 +1,57 @@
+{
+  "drug_name": "Hepatitis_B_post-exposure_prophylaxis",
+  "url": "https://wikem.org/wiki/Hepatitis_B_post-exposure_prophylaxis",
+  "scraped_at": "2026-01-10T07:54:36.923282",
+  "sections": {
+    "Hepatitis_B_Post-Exposure_Prophylaxis": {
+      "text": "Treatment is generally initiated after coordination with occupational health and infectious disease service and based the the exposed patient's vaccination history\n[1]",
+      "subsections": {
+        "Unvaccinated": {
+          "text": "If the source is HBsAg(+) then give HBIG x1 and initiate HBV vaccine in two separate sites\nIf source is HGsAG(-) then start the HBV vaccine series\nIf source blood is unavailable and high risk then give HBIG x1 initiate the HBV series\nIf source blood is low risk and unavailable then begin HBV series",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(one_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x 1 and begin revaccination series\nCan also opt to perform second HBIG administration in one month\nIf source is HBsAg(-) then no treatment is needed\nIf source blood is unavailable and high risk then treat as if HBsAg(+)",
+          "tables": []
+        },
+        "Previously_vaccinated_non_responder_(two_series)": {
+          "text": "Non responder status is defined as anti-has <10mIU/mL\nIf the source is HBsAg(+) then give HBIG x2 and no HBV series\nIf source is HGsAG(-) then no treatment is needed\nIf source blood is unavailable then initiate the HBV series",
+          "tables": []
+        },
+        "Treatment_Dosing": {
+          "text": "No contraindications for pregnancy or breast feeding\nHBIG 0.06 mL/kg IM\nGive in opposite arm from hepatitis B vaccine if patient also receiving vaccine\nVaccination series: HBV vaccine options:\nEngerix-B 20mcg IM\nRecombivax HB 10mcg IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Occupational exposure\nSexual assault\nHIV post-exposure prophylaxis\nHepatitis B\nPost exposure prophylaxis antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Occupational exposure",
+          "url": "https://wikem.org/wiki/Occupational_exposure"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        }
+      ]
+    }
+  }
+}

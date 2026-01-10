@@ -1,0 +1,301 @@
+{
+  "drug_name": "Hepatitis_C",
+  "url": "https://wikem.org/wiki/Hepatitis_C",
+  "scraped_at": "2026-01-10T07:54:35.595774",
+  "sections": {
+    "Background": {
+      "text": "Bloodborne transmission\nNO acute phase\n>75% progress to chronic hepatitis C infection\nDisease course depends on comorbidities (e.g. alcohol use, HIV status, etc.)\nMay progress to\ncirrhosis\n, +/-\nhepatocellular carcinoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic during first few years\nSymptoms occur once\ncirrhosis\nhas developed\nMalaise,\nweakness\n(from\nelectrolyte derangements\n)\nAbdominal pain\nAscites\n,\nSBP\n(fever, abdominal tenderness)\nAltered mental status\ndue to\nhepatic encephalopathy\nCoagulopathy\nGI bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[1]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[1]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Interpreting_Acute_Hepatitis_Panel_Results": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Anti-hepatitis A, IgM": "Positive",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis A"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Positive",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Chronichepatitis Binfection"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Positive",
+                "Anti-hepatitis C": "Negative",
+                "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+              },
+              {
+                "Anti-hepatitis A, IgM": "Negative",
+                "Hepatitis B surface antigen": "Negative",
+                "Anti-hepatitis B core, IgM": "Negative",
+                "Anti-hepatitis C": "Positive",
+                "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Interpreting_Acute_Hepatitis_Panel_Results": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Anti-hepatitis A, IgM": "Positive",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis A"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Positive",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Chronichepatitis Binfection"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Positive",
+            "Anti-hepatitis C": "Negative",
+            "Interpretation": "Acutehepatitis B; quantity of hepatitis B surface antigen is too low to detect"
+          },
+          {
+            "Anti-hepatitis A, IgM": "Negative",
+            "Hepatitis B surface antigen": "Negative",
+            "Anti-hepatitis B core, IgM": "Negative",
+            "Anti-hepatitis C": "Positive",
+            "Interpretation": "Acute or chronichepatitis C; additional tests are required to make the determination"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Complications of cirrhosis\nAscites\nEsophageal varices\nHepatic encephalopathy\nSpontaneous bacterial peritonitis\nHepatorenal syndrome\nPortal hypertension\nUpper gastrointestinal bleed\nHepatocellular carcinoma\nOutpatient HCV treatment may include:\nInterferon-α\nor pegylated interferons\nRibavirin\nDirect-acting antiviral agents (boceprevir, telaprevir, simeprevir, sofosbuvir, Harvoni, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Often complex and should be based on presence/absence of acute complications\nIf no complications present, discussion with patient's primary care provider or gastroenterologist recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cirrhosis\nAscites\n,\nSBP\nHepatic encephalopathy\nHepatorenal syndrome\nUpper gastrointestinal bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

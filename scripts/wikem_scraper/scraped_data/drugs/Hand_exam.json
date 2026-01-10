@@ -1,0 +1,151 @@
+{
+  "drug_name": "Hand_exam",
+  "url": "https://wikem.org/wiki/Hand_exam",
+  "scraped_at": "2026-01-10T07:54:22.623400",
+  "sections": {
+    "Background": {
+      "text": "Must exam tendon injuries in their entirety through full range of motion\nInjuries with digits in flexion may cause retraction of cut end of tendon when examined in neutral position\nAll exams should include a thorough history of events",
+      "subsections": {
+        "Hand_Anatomy": {
+          "text": "Volar = anterior = palmar\nDorsal = posterior",
+          "tables": []
+        },
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Anatomy": {
+      "text": "Volar = anterior = palmar\nDorsal = posterior",
+      "subsections": {
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nailtip_Anatomy": {
+      "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Exam": {
+      "text": "",
+      "subsections": {
+        "Inspection": {
+          "text": "General appearance\nWounds, atrophy, discoloration, swelling, masses, nail changes\nPalpate for: Crepitus, deformity, joint tenderness, rotation deformity, snuffbox tenderness",
+          "tables": []
+        },
+        "Motor": {
+          "text": "Bilateral grip strength\nHave patient make a clenched fist\nObserve orientation and rotation of middle and distal phalanxes\nAssess for scissoring (overlapping of digits)\nAll phalanges should be oriented parallel to each other with nails in same plane\nHave patient draw fingertips together so tip of thumb touches tips of the other 4 digits\nGross estimation of intact median, ulnar, and radial nerve motor function\nPincer function test\nWeakness suggests median nerve or ulnar collateral ligament disruption",
+          "tables": []
+        },
+        "Tendons": {
+          "text": "Must test with resistance\nPain along course of tendon during resistance testing suggests partial rupture\nFlexor digitorum profundus (FDP)\nFlex DIP against resistance while MCP and PIP joints are held in extension\nFlexor digitorum superficialis (FDS)\nFlex PIP against resistance while remaining fingers are held in extension, especially the DIPs of the remaining fingers\nExtensor tendons\nHand flat on surface and lift fingers individually",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Assess via cap refill and radial pulse\nAllen test",
+          "tables": []
+        },
+        "Nerve_Testing": {
+          "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Inspection": {
+      "text": "General appearance\nWounds, atrophy, discoloration, swelling, masses, nail changes\nPalpate for: Crepitus, deformity, joint tenderness, rotation deformity, snuffbox tenderness",
+      "subsections": {
+        "Motor": {
+          "text": "Bilateral grip strength\nHave patient make a clenched fist\nObserve orientation and rotation of middle and distal phalanxes\nAssess for scissoring (overlapping of digits)\nAll phalanges should be oriented parallel to each other with nails in same plane\nHave patient draw fingertips together so tip of thumb touches tips of the other 4 digits\nGross estimation of intact median, ulnar, and radial nerve motor function\nPincer function test\nWeakness suggests median nerve or ulnar collateral ligament disruption",
+          "tables": []
+        },
+        "Tendons": {
+          "text": "Must test with resistance\nPain along course of tendon during resistance testing suggests partial rupture\nFlexor digitorum profundus (FDP)\nFlex DIP against resistance while MCP and PIP joints are held in extension\nFlexor digitorum superficialis (FDS)\nFlex PIP against resistance while remaining fingers are held in extension, especially the DIPs of the remaining fingers\nExtensor tendons\nHand flat on surface and lift fingers individually",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Assess via cap refill and radial pulse\nAllen test",
+          "tables": []
+        },
+        "Nerve_Testing": {
+          "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Motor": {
+      "text": "Bilateral grip strength\nHave patient make a clenched fist\nObserve orientation and rotation of middle and distal phalanxes\nAssess for scissoring (overlapping of digits)\nAll phalanges should be oriented parallel to each other with nails in same plane\nHave patient draw fingertips together so tip of thumb touches tips of the other 4 digits\nGross estimation of intact median, ulnar, and radial nerve motor function\nPincer function test\nWeakness suggests median nerve or ulnar collateral ligament disruption",
+      "subsections": {
+        "Tendons": {
+          "text": "Must test with resistance\nPain along course of tendon during resistance testing suggests partial rupture\nFlexor digitorum profundus (FDP)\nFlex DIP against resistance while MCP and PIP joints are held in extension\nFlexor digitorum superficialis (FDS)\nFlex PIP against resistance while remaining fingers are held in extension, especially the DIPs of the remaining fingers\nExtensor tendons\nHand flat on surface and lift fingers individually",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Assess via cap refill and radial pulse\nAllen test",
+          "tables": []
+        },
+        "Nerve_Testing": {
+          "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tendons": {
+      "text": "Must test with resistance\nPain along course of tendon during resistance testing suggests partial rupture\nFlexor digitorum profundus (FDP)\nFlex DIP against resistance while MCP and PIP joints are held in extension\nFlexor digitorum superficialis (FDS)\nFlex PIP against resistance while remaining fingers are held in extension, especially the DIPs of the remaining fingers\nExtensor tendons\nHand flat on surface and lift fingers individually",
+      "subsections": {
+        "Circulation": {
+          "text": "Assess via cap refill and radial pulse\nAllen test",
+          "tables": []
+        },
+        "Nerve_Testing": {
+          "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Circulation": {
+      "text": "Assess via cap refill and radial pulse\nAllen test",
+      "subsections": {
+        "Nerve_Testing": {
+          "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nerve_Testing": {
+      "text": "Median\nControls thumb opposition and 1st and 2nd lumbricals\nRecurrent motor branch: Have patient touch tip of thumb to tip of little finger so the nails are touching\nAnterior interosseous branch: Have patient make an OK-sign. Thumb IP and index DIP should be flexed, making a circle shape rather than a teardrop shape\nSensation to distal 2nd digit\nUlnar\nControls thumb adduction and 3 and 4th lumbricals\nHave patient spread the fingers apart against resistance\nInterpose a tongue depressor between thumb and index finger and try to pull radially\nSensation to distal 5th digit\nRadial\nControls thumb and wrist extension\nHave patient make \"thumbs up\". Alternatively, have patient perform wrist extension against resistance (tests for wrist drop)\nSensation over the dorsal web space between the 1st and 2nd digits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger diagnoses",
+          "url": "https://wikem.org/wiki/Hand_and_finger_diagnoses"
+        }
+      ]
+    }
+  }
+}

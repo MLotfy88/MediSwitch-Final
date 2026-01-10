@@ -1,0 +1,396 @@
+{
+  "drug_name": "Hemoptysis",
+  "url": "https://wikem.org/wiki/Hemoptysis",
+  "scraped_at": "2026-01-10T07:54:30.133152",
+  "sections": {
+    "Background": {
+      "text": "Coughing of blood that originates from respiratory tract below level of larynx\nDeath usually occurs from asphyxiation, not exanguination\nEasy to confuse with\nepistaxis\nor oropharynx bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Coughing up blood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Epistaxis\nOropharynx bleeding\nHematemesis",
+      "subsections": {
+        "Hemoptysis": {
+          "text": "Infectious\nBronchitis\nPneumonia\nLung abscess\nTuberculosis\nPlague\nAspergilloma\nCoccidioidomycosis\nNeoplastic\nLung cancer\nMetastatic cancer\nCardiovascular\nPulmonary embolism\nCongestive heart failure\nPulmonary hypertension\nAV malformation\nMitral stenosis\nAlveolar hemorrhage syndromes\nGoodpasture syndrome\nGranulomatosis with polyangiitis\n(Wegener)\nSLE\nHematologic\nUremia\nPlatelet dysfunction (\nASA\n,\nclopidogrel\n)\nAnticoagulant\ntherapy\nTraumatic\nForeign body aspiration\nRuptured bronchus\nInflammatory\nBronchiectasis\nCystic fibrosis\nMiscellaneous\nCocaine inhalation\n(crack lung)\nCatamenial pneumothorax\nGoodpasture syndrome\nCystic fibrosis\nEpistaxis\nBlood-laced mucus from the sinus or nose area\nUpper GI bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Aspergilloma",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cocaine inhalation",
+          "url": "https://wikem.org/wiki/Cocaine_inhalation"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding"
+        }
+      ]
+    },
+    "Hemoptysis": {
+      "text": "Infectious\nBronchitis\nPneumonia\nLung abscess\nTuberculosis\nPlague\nAspergilloma\nCoccidioidomycosis\nNeoplastic\nLung cancer\nMetastatic cancer\nCardiovascular\nPulmonary embolism\nCongestive heart failure\nPulmonary hypertension\nAV malformation\nMitral stenosis\nAlveolar hemorrhage syndromes\nGoodpasture syndrome\nGranulomatosis with polyangiitis\n(Wegener)\nSLE\nHematologic\nUremia\nPlatelet dysfunction (\nASA\n,\nclopidogrel\n)\nAnticoagulant\ntherapy\nTraumatic\nForeign body aspiration\nRuptured bronchus\nInflammatory\nBronchiectasis\nCystic fibrosis\nMiscellaneous\nCocaine inhalation\n(crack lung)\nCatamenial pneumothorax\nGoodpasture syndrome\nCystic fibrosis\nEpistaxis\nBlood-laced mucus from the sinus or nose area\nUpper GI bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Aspergilloma",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cocaine inhalation",
+          "url": "https://wikem.org/wiki/Cocaine_inhalation"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Imaging\nCXR\nNml in 30% (most of whom end up having bronchitis)\nChest CT with IV contrast\nIndicated for gross hemoptysis or suspicious CXR\nBronchoscopy\nLabs\nCBC\nCoags\nSputum stain/culture\nChem (Cr)\nT&S/T&C\nUrinalysis\n(autoimmune)\nECG\n(pulmonary hypertension/PE)",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Massive = A single expectoration of ≥ 50cc\nOR\n>600cc/24h\nRare, occurring in 1-5% of patients.\nMay differentiate from hematemesis with pH litmus paper\nHemoptysis tends to be alkaline\nHematemesis\ntends to be acidic, and stomach acid tends to turn bright red blood in stomach to brown/black fragments unless massive",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Imaging\nCXR\nNml in 30% (most of whom end up having bronchitis)\nChest CT with IV contrast\nIndicated for gross hemoptysis or suspicious CXR\nBronchoscopy\nLabs\nCBC\nCoags\nSputum stain/culture\nChem (Cr)\nT&S/T&C\nUrinalysis\n(autoimmune)\nECG\n(pulmonary hypertension/PE)",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Massive = A single expectoration of ≥ 50cc\nOR\n>600cc/24h\nRare, occurring in 1-5% of patients.\nMay differentiate from hematemesis with pH litmus paper\nHemoptysis tends to be alkaline\nHematemesis\ntends to be acidic, and stomach acid tends to turn bright red blood in stomach to brown/black fragments unless massive",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Massive = A single expectoration of ≥ 50cc\nOR\n>600cc/24h\nRare, occurring in 1-5% of patients.\nMay differentiate from hematemesis with pH litmus paper\nHemoptysis tends to be alkaline\nHematemesis\ntends to be acidic, and stomach acid tends to turn bright red blood in stomach to brown/black fragments unless massive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Patient Placement\nPlacing patient with affected lung down may actually worsen V-Q mismatch\nSome advocate for prone positioning\nIntubation\nUse 8-0 tube to allow for subsequent bronchoscopy\nIf possible can selectively intubate the unaffected bronchus to prevent aspiration\nAfter tube passes through cords rotate 90degrees left or right and advance\nCan also use\ncoude\ntip of\nbougie\n[1]\nCoagulopathy\nFFP\nEmergent bronchoscopy or embolization for life-threatening hemorrhage\nNebulized\nTXA\n500 mg tid\n[2]\nPediatric: used in\nreport\nIV\nTXA\nmay reduce in-hospital mortality, length of stay, and total healthcare costs\n[3]\nAbsolute in-hospital mortality reduction was 2.5% in the retrospective study of nearly 20,000 patients\nNo particular dosing regimen, but in this study, no association was found between TXA and seizures, in part per the authors, due to most patients receiving no more than 2 g of TXA total",
+      "subsections": {
+        "Massive": {
+          "text": "Angle head down with affected lung low\nConsider angio embolization\nConsider\nintubation\nwith >8.0 (for bronch)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Massive": {
+      "text": "Angle head down with affected lung low\nConsider angio embolization\nConsider\nintubation\nwith >8.0 (for bronch)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Gross hemoptysis:\nAdmit\nYoung patient (<40yr) with scant hemoptysis, normal\nCXR\n, no smoking history:\nDischarge\nRisk factors for neoplasm (even if CXR normal) or suspicious CXR:\nDiscuss with pulmonologist before discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    }
+  }
+}

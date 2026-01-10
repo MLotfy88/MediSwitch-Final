@@ -1,0 +1,130 @@
+{
+  "drug_name": "Hemophagocytic_lymphohistiocytosis",
+  "url": "https://wikem.org/wiki/Hemophagocytic_lymphohistiocytosis",
+  "scraped_at": "2026-01-10T07:54:25.902116",
+  "sections": {
+    "Background": {
+      "text": "Hemophagocytic lymphohistiocytosis (HLH) is a rapidly progressive hyperinflammatory syndrome which results in 100% case fatality rate if untreated\n[1]\n. Even with appropriate treatment, mortality may approach 50%\n[2]\n. Delay in diagnosis is thought to be one factor contributing to excessive mortality. Recognition of HLH is likely hampered by its relative rarity (incidence of approximately one case per million person years), nonspecific findings, as well as the multitude of etiologies that can catalyze its onset. HLH is traditionally categorized as either primary or secondary. Primary HLH is caused by genetic factors and seen in pediatric populations; secondary HLH has a variety of etiologies including infection, rheumatic disease, and malignancy, and is seen across the age spectrum.\nHistologic hallmark is macrophages containing erythrocytes, leukocytes, or platelets (hemophagocytosis).\nHemophagocytosis is a specific but not sensitive finding.\nAbsence of hemphagocytosis on microscopy does not exclude HLH.\nMacrophage activation syndrome\nis one form of HLH seen with rheumatoid conditions such as JIA.",
+      "subsections": {
+        "Causes": {
+          "text": "HLH results from immune over-activation owing to some combination of inappropriate immunologic (CD8+ and macrophage) feedback mechanisms and chronic inflammation. Epstein-Barr virus is the most commonly implicated etiology of acquired HLH\n[3]\n, with other triggers including viral, bacterial, protozoal, and fungal infections, as well as malignancy and rheumatic disease.",
+          "tables": []
+        },
+        "Primary_/_Genetic": {
+          "text": "Familial HLH manifests in childhood and even with appropriate treatment, the five-year survival rate is ~21%. Allogeneic hematopoietic cell transplantation is the definitive therapy, with survival rates rising to ~66%\n[4]\n. Genes implicated include: PRF (FHLH2), UNC13D (FHLH3), STX11 (FHLH4), SRXBP2 (FHLH5). Other genetic mutations implicated in primary HLH include: RAB27A (Griscelli type 2), LYST (Chediak-Higashi), and AP3B1 (Hermansky-Pudlak type 2), among others.",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "EBV, CMV, parvovirus B-19, HSV, HHV6/8, HIV, SARS-CoV-2 (COVID-19), tuberculosis, brucellosis, malaria, leishmaniasis, various fungi.",
+          "tables": []
+        },
+        "Rheumatic": {
+          "text": "Systemic JIA, adult-onset Stills disease, SLE, systemic sclerosis.",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Leukemia and lymphoma are most common, although solid tumors account for approximately 30% of malignancy-associated HLH.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "HLH results from immune over-activation owing to some combination of inappropriate immunologic (CD8+ and macrophage) feedback mechanisms and chronic inflammation. Epstein-Barr virus is the most commonly implicated etiology of acquired HLH\n[3]\n, with other triggers including viral, bacterial, protozoal, and fungal infections, as well as malignancy and rheumatic disease.",
+      "subsections": {
+        "Primary_/_Genetic": {
+          "text": "Familial HLH manifests in childhood and even with appropriate treatment, the five-year survival rate is ~21%. Allogeneic hematopoietic cell transplantation is the definitive therapy, with survival rates rising to ~66%\n[4]\n. Genes implicated include: PRF (FHLH2), UNC13D (FHLH3), STX11 (FHLH4), SRXBP2 (FHLH5). Other genetic mutations implicated in primary HLH include: RAB27A (Griscelli type 2), LYST (Chediak-Higashi), and AP3B1 (Hermansky-Pudlak type 2), among others.",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "EBV, CMV, parvovirus B-19, HSV, HHV6/8, HIV, SARS-CoV-2 (COVID-19), tuberculosis, brucellosis, malaria, leishmaniasis, various fungi.",
+          "tables": []
+        },
+        "Rheumatic": {
+          "text": "Systemic JIA, adult-onset Stills disease, SLE, systemic sclerosis.",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Leukemia and lymphoma are most common, although solid tumors account for approximately 30% of malignancy-associated HLH.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A high index of suspicion is required when HLH may be on the differential. In particular, HLH may be a reasonable consideration for any critically ill patient with an unexplained bicytopenia, hypertriglyceridemia, or hyperferritinemia.\nA ferritin >10,000 ug/L, for example, should trigger a consideration of HLH in nearly any critically ill patient. Such a patient, if moderately febrile, with a bicytopenia, and triglycerides of 400, would be expected (by\nH-Score\n) to have a 54-70% probability of HLH, notwithstanding other labwork that might further increase post-test probability.",
+      "subsections": {
+        "H-Score": {
+          "text": "The H-Score is a validated\n[5]\nclinical decision aid for use with both adult and pediatric populations. Patients are given a cumulative score from 0 to 337 for various clinical features and assigned a probability of HLH ranging from <1 % to >99%. One advantage of the score is its inclusion into popular clinical decision tools/apps, such as\nMDCalc\n. Further, it is validated for use in adults and children, whereas HLH-94 and HLH-2004 were derived in pediatric populations.",
+          "tables": []
+        },
+        "HLH-94,_HLH-2004,_Modified_2009_criteria": {
+          "text": "The original diagnostic criteria were developed in 1994 as a result of HLH-94\n[6]\n(a trial of children ≤ 15 years of age) which introduced five criteria. These were supplemented by a follow-up pediatric trial (HLH-2004\n[7]\n) which introduced a further three criteria. Five of the eight criteria are considered sufficient for diagnosis, although clinicians are cautioned that with delays in send-out labs (eg: IL-2R), some experts advocate for diagnosis and empiric treatment of HLH even if diagnostic criteria are not satisfied.\nFever >38.5°C\nSplenomegaly\nCytopenia of at least two cell lines:\nHgb < 9 g/dL\nPLT < 100 K/cumm\nANC < 1000 K/cumm\nHypertriglyceridemia (> 265 mg/dL)\nand/or hypofibrinogenemia (< 150 mg/dL)\nHemophagocytosis on biopsy (marrow, spleen, lymph node, liver)\nFerritin > 500ug/L\nLow/absent NK-cell activity\nElevated soluble IL-2R (“sCD25”) [> 2400 U/mL]\nThe modified 2009 HLH criteria are:\nAt least three:\nfever\nsplenomegaly\nbicytopenia (defined as above)\nhepatitis\nPlus at least one:\nferritinemia\nelevated soluble IL-2R\nhemophagocytosis\nlow/absent NK-cell activity.\nSupportive features include:\nhypertriglyceridemia\nhypofibrinogenemia\nhyponatremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Macrophage activation syndrome\n(MAS)\nDRESS\nSepsis\nEncephalitis\nMultiple organ dysfunction syndrome\n(MODS),\nKawasaki disease\nCytophagic histiocytic panniculitis\nTTP\nHUS\nLangerhans cell histiocytosis\n(may also rarely present with HLH)\nLysinuric protein intolerance\nSCID\n/\nOmenn syndrome\nDiGeorge syndrome\nAutoimmune lymphoproliferative syndrome\n(ALPS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DRESS",
+          "url": "https://wikem.org/wiki/DRESS"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DiGeorge syndrome",
+          "url": "https://wikem.org/wiki/DiGeorge_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Basic workup:\nCBC\nFerritin\nFibrinogen\nTriglyceride level (fasting)\nHepatic function panel / LFTs\nConsider additional workup:\nCoags, d-dimer\nSerum PCR for EBV, CMV, HSV\nImaging (eg: POCUS) for hepatosplenomegaly\nSoluble IL-2R (typically takes days to result)\nBiopsy as indicated (liver, marrow, etc)\nLP / brain MRI as indicated\nOther investigations designed toward discovering etiology. For example:\nCT chest / abdomen / pelvis\nHIV serology\nANA\n1,3-beta-D-glucan\nHHV6 PCR\nAs mentioned above,\nH-Score\ncan be helpful for calculating a post-test probability of HLH.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "At initiation of therapy, hematologists typically establish baseline values for the “basic workup” listed above as well as d-dimer and IL-2R. Treatment should be initiated in consultation with a hematologist whenever possible. If hematology consultation is not available, the patient should be transferred to a center with a hematologist who is experienced in HLH treatment. Treatment course lasts eight weeks or more, and the regimen is often highly individualized based on clinical characteristics.\nHigh-dose steroids (eg: dexamethasone 10mg/m\n2\n) are the mainstay of treatment, but etoposide, intrathecal methotrexate and hydrocortisone (for CNS disease), cyclosporine, cyclophosphamide, IVIG, anakinra, ruxolitinib, emapalumab, and other adjuncts may be employed. Targeted management (beyond steroids) is often designed to address the underlying etiology. For example, anakinra and IVIG for HLH of rheumatic nature.\nPrompt treatment of HLH is critical, particularly in deteriorating patients. Even with treatment, mortality is high.\nBeware the risk of DIC, as well as other coagulation defects due to liver failure\nAvoid use of anticoagulants unless clear indication\n40% of HLH patients will experience a major hemorrhage\n[8]\nElevated risk of\nPRES\nif already on cyclosporine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PRES",
+          "url": "https://wikem.org/wiki/PRES"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (or transfer to nearest center with experienced hematology service).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

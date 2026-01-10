@@ -1,0 +1,396 @@
+{
+  "drug_name": "Helminth_infections",
+  "url": "https://wikem.org/wiki/Helminth_infections",
+  "scraped_at": "2026-01-10T07:54:26.826056",
+  "sections": {
+    "Background": {
+      "text": "Approximately 2 billion people infected worldwide\nMany are WHO-designated Neglected Tropical Diseases\n[1]\nAt-risk populations include impoverished, children, immigrants, tourists, HIV/AIDS patients, refugees\n[2]\nMost common in subtropical and tropical areas, moist climates, poor sanitation and hygiene\n[3]",
+      "subsections": {
+        "Transmission:": {
+          "text": "No direct person-to-person transmission\nFecal-oral transmission (ingestion of eggs in contaminated soil / vegetables / water)\n[3]\nAscaris and whipworm from human feces\nToxocara from dog / cat feces\nEchinococcus from sheep / cattle feces\nTaenia eggs from human feces\nCutaneous transmission\nHookworm eggs hatch in the soil, mature larvae penetrate skin\nLymphatic filariasis transmitted via bite from infected mosquito (Anopheles, Aedes, and Culex)\nOnchocerciasis\ntransmitted via bite from blackflies (Simulium species)\nFood or waterborne transmission\nTaenia also transmitted by ingestion of larval cysts in undercooked pork or beef\nDiphyllobothrium tapeworm transmitted by contaminated freshwater fish\nDracunculiasis transmitted by ingestion of infected Cyclops water fleas in contaminated water (adult worm erodes through skin of leg, releases larvae in water when host wades in pond / open well, infecting the water fleas)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        }
+      ]
+    },
+    "Transmission:": {
+      "text": "No direct person-to-person transmission\nFecal-oral transmission (ingestion of eggs in contaminated soil / vegetables / water)\n[3]\nAscaris and whipworm from human feces\nToxocara from dog / cat feces\nEchinococcus from sheep / cattle feces\nTaenia eggs from human feces\nCutaneous transmission\nHookworm eggs hatch in the soil, mature larvae penetrate skin\nLymphatic filariasis transmitted via bite from infected mosquito (Anopheles, Aedes, and Culex)\nOnchocerciasis\ntransmitted via bite from blackflies (Simulium species)\nFood or waterborne transmission\nTaenia also transmitted by ingestion of larval cysts in undercooked pork or beef\nDiphyllobothrium tapeworm transmitted by contaminated freshwater fish\nDracunculiasis transmitted by ingestion of infected Cyclops water fleas in contaminated water (adult worm erodes through skin of leg, releases larvae in water when host wades in pond / open well, infecting the water fleas)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Parasitic infections can be in the differential diagnosis for nearly every sign/symptom (GI, dermatologic, neurologic, pulmonary, ophthalmologic, hematologic)\nObtain a travel history in every patient\ncountries of travel\nduration of stay\nactivities while traveling (adventure travel, tourism, working, swimming)\nliving arrangements – city / village / hotel / tent\ndrinking water source\nsymptom chronology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Parasitic infections can be in the differential diagnosis for nearly every sign/symptom (GI, dermatologic, neurologic, pulmonary, ophthalmologic, hematologic)\nObtain a travel history in every patient\ncountries of travel\nduration of stay\nactivities while traveling (adventure travel, tourism, working, swimming)\nliving arrangements – city / village / hotel / tent\ndrinking water source\nsymptom chronology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Helminth_infections": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Stool studies (ova and parasites)\nCBC to identify peripheral\neosinophilia\nor anemia (not sensitive or specific)\nPeripheral blood smear to identify microfilariae (e.g. lymphatic filariasis)",
+          "tables": []
+        },
+        "Disease/Symptom_Specific": {
+          "text": "Pulmonary symptoms: CXR and sputum smear (e.g. Löffler’s syndrome)\nCNS symptoms\nNeuroimaging (CT with contrast or MR brain) may reveal ring-enhancing lesions, calcifications, or focal enhancing lesions in neurocysticercosis\n[4]\n[5]\nCSF serologies/ELISA for echinococcus, cysticercosis\nUltrasound or CT can localize cyst of echinococcus\nELISA or biopsy of affected tissue to diagnosis toxocariasis, cysticercosis\nIdentification of adult worm or microscopic larvae in cutaneous ulcer fluid can confirm dracunculiasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        }
+      ]
+    },
+    "General": {
+      "text": "Stool studies (ova and parasites)\nCBC to identify peripheral\neosinophilia\nor anemia (not sensitive or specific)\nPeripheral blood smear to identify microfilariae (e.g. lymphatic filariasis)",
+      "subsections": {
+        "Disease/Symptom_Specific": {
+          "text": "Pulmonary symptoms: CXR and sputum smear (e.g. Löffler’s syndrome)\nCNS symptoms\nNeuroimaging (CT with contrast or MR brain) may reveal ring-enhancing lesions, calcifications, or focal enhancing lesions in neurocysticercosis\n[4]\n[5]\nCSF serologies/ELISA for echinococcus, cysticercosis\nUltrasound or CT can localize cyst of echinococcus\nELISA or biopsy of affected tissue to diagnosis toxocariasis, cysticercosis\nIdentification of adult worm or microscopic larvae in cutaneous ulcer fluid can confirm dracunculiasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        }
+      ]
+    },
+    "Disease/Symptom_Specific": {
+      "text": "Pulmonary symptoms: CXR and sputum smear (e.g. Löffler’s syndrome)\nCNS symptoms\nNeuroimaging (CT with contrast or MR brain) may reveal ring-enhancing lesions, calcifications, or focal enhancing lesions in neurocysticercosis\n[4]\n[5]\nCSF serologies/ELISA for echinococcus, cysticercosis\nUltrasound or CT can localize cyst of echinococcus\nELISA or biopsy of affected tissue to diagnosis toxocariasis, cysticercosis\nIdentification of adult worm or microscopic larvae in cutaneous ulcer fluid can confirm dracunculiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic Diseases\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

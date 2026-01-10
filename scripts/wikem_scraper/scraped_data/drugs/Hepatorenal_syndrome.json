@@ -1,0 +1,54 @@
+{
+  "drug_name": "Hepatorenal_syndrome",
+  "url": "https://wikem.org/wiki/Hepatorenal_syndrome",
+  "scraped_at": "2026-01-10T07:54:38.311826",
+  "sections": {
+    "Background": {
+      "text": "Acute renal failure\nin patient with normal kidneys in presence of acute/chronic hepatic failure\nOften heralded by the presence of\nSBP\nArterial vasodilatation in the splanchnic circulation, which is triggered by portal hypertension\nDiagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Type 1\nDoubling of serum creatinine over a 2-week period\nProgressive oliguria\nType 2\nGradual impairment in renal function (that may not advance beyond moderate)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Hypovolemia-induced renal failure\nGI bleed\nDiuretics\nDiarrhea\nParenchymal renal disease\nUrinary excretion of >500mg protein/d, >50 RBC/hpf, abnormal kidneys on U/S\nDrug-induced renal failure (\nNSAIDs\n,\naminoglycosides\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Abdominal US\nDiagnostic\nparacentesis\nAscites fluid cultures and analysis\nLabs:\nCBC with diff\nBMP\nLFTs\nBlood cultures\nUrinalysis\nUrine electrolytes and osmolality\nConsultants: alpha-fetoprotein, cryoglobulins\nAll major criteria must be met for diagnosis for both HRS types 1 and 2:\nSerum creatinine >1.5mg/dL\nNo improvement in renal function after halting diuretics AND admin of 1.5 L of plasma expander\nProteinuria\n<500mg/d\nNo\nultrasound\nevidence of obstructive uropathy or renal parenchymal disease\nAbsence of shock, bacterial infection, hypovolemia, nephrotoxic meds\nSupporting criteria not required for diagnosis:\nUop <500 cc/day\nUrine sodium <10 mEq/L\nUrine osmolality > plasma osmolality\nUrine RBC <50 cells/hpf\nSerum sodium <130 mEq/L",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal US",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Vasopressors\nTerlipressin: 0.5-1mg q 4-6 IV us 5-15d\nNorepinephrine\n: 0.5-3mg/hr to increase MAP by 10mmHg\nMidodrine\n: 7.5mg PO tid with Octreotide 100mcg sq\nAlbumin: 1-1.5g/kg with one of above\nOther:\nTIPS\n,\nrenal replacement therapy\nAvoid diuretics and benzodiazepines\nDiscuss giving octreotide and/or midodrine with admitting physician",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "1-month survival: 50%\n6-month survival: 20%\nShould be evaluated at liver transplant center\nMay require TIPS, vasoconstrictors as bridge to transplant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "NEJM vol 361 no 13 P. Gines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "drug_name": "Hematuria",
+  "url": "https://wikem.org/wiki/Hematuria",
+  "scraped_at": "2026-01-10T07:54:30.713105",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients; for pediatric patients see\nhematuria (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Hematuria can be macroscopic/gross or microscopic\nMicroscopic hematuria generally defined as >3 RBCs per high-power field of an uncontaminated sample\nHematuria can also be divided into glomerular and nonglomerular causes\nMake sure hematuria is not myoglobin (due to rhabdo), hemoglobinuria (due to hemolysis), or bleeding from non-urinary source (ex. menstruation)\nHematuria + pain suggests UTI or nephrolithiasis\nHematuria + no pain suggests malignancy, hyperplasia, or vascular cause",
+      "subsections": {
+        "Common_Causes": {
+          "text": "Younger adults\nUTI\nNephrolithiasis\nOlder adults\nUTI\nNeoplasm\nBPH\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/BPH"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Common_Causes": {
+      "text": "Younger adults\nUTI\nNephrolithiasis\nOlder adults\nUTI\nNeoplasm\nBPH\nAny age\nSchistosomiasis\n(most common cause worldwide)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "BPH",
+          "url": "https://wikem.org/wiki/BPH"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Types_of_hematuria": {
+          "text": "Initial hematuria\nBlood at beginning of micturition with subsequent clearing\nSuggests urethral disease\nIntervoid hematuria\nBlood between voiding only (voided urine is clear)\nSuggests lesions at distal urethra or meatus\nTotal hematuria\nBlood visible throughout micturition\nSuggests disease of kidneys, ureters, or bladder\nTerminal hematuria\nBlood seen at end of micturition after initial voiding of clear urine\nSuggests disease at bladder neck or prostatic urethra\nGross hematuria\nIndicates lower tract cause\nMicroscopic hematuria\nTends to occur with kidney disease\nBrown urine with RBC casts and proteinuria\nSuggests glomerular source\nClotted blood\nIndicates source below kidneys",
+          "tables": []
+        },
+        "Blunt_Trauma": {
+          "text": "Renal injuries\nare associated with:\nSudden deceleration injury without hematuria\nGross Hematuria\nMicroscopic Hematuria with Shock (SBP<90 mm Hg)\nThe degree of hematuria does not correlate with significance of renal injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal injuries",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Types_of_hematuria": {
+      "text": "Initial hematuria\nBlood at beginning of micturition with subsequent clearing\nSuggests urethral disease\nIntervoid hematuria\nBlood between voiding only (voided urine is clear)\nSuggests lesions at distal urethra or meatus\nTotal hematuria\nBlood visible throughout micturition\nSuggests disease of kidneys, ureters, or bladder\nTerminal hematuria\nBlood seen at end of micturition after initial voiding of clear urine\nSuggests disease at bladder neck or prostatic urethra\nGross hematuria\nIndicates lower tract cause\nMicroscopic hematuria\nTends to occur with kidney disease\nBrown urine with RBC casts and proteinuria\nSuggests glomerular source\nClotted blood\nIndicates source below kidneys",
+      "subsections": {
+        "Blunt_Trauma": {
+          "text": "Renal injuries\nare associated with:\nSudden deceleration injury without hematuria\nGross Hematuria\nMicroscopic Hematuria with Shock (SBP<90 mm Hg)\nThe degree of hematuria does not correlate with significance of renal injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal injuries",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Blunt_Trauma": {
+      "text": "Renal injuries\nare associated with:\nSudden deceleration injury without hematuria\nGross Hematuria\nMicroscopic Hematuria with Shock (SBP<90 mm Hg)\nThe degree of hematuria does not correlate with significance of renal injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal injuries",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hematuria": {
+          "text": "Urologic (lower tract)\nAny location\nIatrogenic/postprocedure\nGU trauma\nInfection\nKidney stone\nErosion or mechanical obstruction by tumor\nUreter(s)\nDilatation of stricture\nBladder\nTransitional cell carcinoma\nVascular lesions or malformations\nChemical or radiation cystitis\nProstate\nBenign prostatic hypertrophy\nProstatitis\nUrethra\nStricture\nDiverticulosis\nForeign body\nEndometriosis\n(cyclic hematuria with menstrual pain)\nRenal (upper tract)\nGlomerular\nGlomerulonephritis\nIgA nephropathy\n(Berger disease)\nLupus nephritis\nHereditary nephritis\n(Alport syndrome)\nToxemia of pregnancy\nSerum sickness\nErythema multiforme\nNonglomerular\nInterstitial nephritis\nPyelonephritis\nPapillary necrosis:\nsickle cell disease\n,\ndiabetes\n,\nNSAID\nuse\nVascular: arteriovenous malformations, emboli, aortocaval fistula\nMalignancy\nPolycystic kidney disease\nMedullary sponge disease\nTuberculosis\nRenal trauma\nHematologic\nPrimary\ncoagulopathy\n(e.g.,\nhemophilia\n)\nPharmacologic\nanticoagulation\nSickle cell disease\nMyoglobinuria - positive blood, no RBCs:\nrhabdomyolysis\nHemoglobinuria - positive blood, no RBCs\nTTP\n/\nHUS\nDIC\nMechanical valve emergency\nHemolytic anemia\nParoxysmal Nocturnal Hemoglobinuria\nMiscellaneous\nEroding\nabdominal aortic aneurysm\nMalignant hypertension\nLoin pain–hematuria syndrome\nRenal vein thrombosis\nExercise-induced hematuria\nCantharidin (Spanish fly) poisoning\nStings/bites by insects/reptiles having venom with anticoagulant properties\nSchistosomiasis\nSickle Cell Trait",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GU trauma",
+          "url": "https://wikem.org/wiki/GU_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Paroxysmal Nocturnal Hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_Nocturnal_Hemoglobinuria"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Hematuria": {
+      "text": "Urologic (lower tract)\nAny location\nIatrogenic/postprocedure\nGU trauma\nInfection\nKidney stone\nErosion or mechanical obstruction by tumor\nUreter(s)\nDilatation of stricture\nBladder\nTransitional cell carcinoma\nVascular lesions or malformations\nChemical or radiation cystitis\nProstate\nBenign prostatic hypertrophy\nProstatitis\nUrethra\nStricture\nDiverticulosis\nForeign body\nEndometriosis\n(cyclic hematuria with menstrual pain)\nRenal (upper tract)\nGlomerular\nGlomerulonephritis\nIgA nephropathy\n(Berger disease)\nLupus nephritis\nHereditary nephritis\n(Alport syndrome)\nToxemia of pregnancy\nSerum sickness\nErythema multiforme\nNonglomerular\nInterstitial nephritis\nPyelonephritis\nPapillary necrosis:\nsickle cell disease\n,\ndiabetes\n,\nNSAID\nuse\nVascular: arteriovenous malformations, emboli, aortocaval fistula\nMalignancy\nPolycystic kidney disease\nMedullary sponge disease\nTuberculosis\nRenal trauma\nHematologic\nPrimary\ncoagulopathy\n(e.g.,\nhemophilia\n)\nPharmacologic\nanticoagulation\nSickle cell disease\nMyoglobinuria - positive blood, no RBCs:\nrhabdomyolysis\nHemoglobinuria - positive blood, no RBCs\nTTP\n/\nHUS\nDIC\nMechanical valve emergency\nHemolytic anemia\nParoxysmal Nocturnal Hemoglobinuria\nMiscellaneous\nEroding\nabdominal aortic aneurysm\nMalignant hypertension\nLoin pain–hematuria syndrome\nRenal vein thrombosis\nExercise-induced hematuria\nCantharidin (Spanish fly) poisoning\nStings/bites by insects/reptiles having venom with anticoagulant properties\nSchistosomiasis\nSickle Cell Trait",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GU trauma",
+          "url": "https://wikem.org/wiki/GU_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Paroxysmal Nocturnal Hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_Nocturnal_Hemoglobinuria"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Urinalysis\nUrine microscopy can show abnormal RBC morphologies suggesting glomerular source of hematuria\nMicroscopic hematuria associated with proteinuria suggests glomerular disease and requires further investigation (as an outpatient)\nUrine dipstick may be performed quickly in some centers but has high false-positive rate\n[2]\nCBC - for anemia and thrombocytopenia\nBMP - for renal function\nCoags",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Utilize multiphasic CT urography (\"hematuria protocol\") to assess for pathology in the kidney and urinary collecting system\n[3]\nA noncontrast phase is useful for visualizing stones or hydronephrosis\nA nephrographic phase has contrast enhancing renal parenchyma, useful for pyelonephritis and renal tumors\nA delayed excretory phase visualizes urothelial and bladder tumors\nUltrasound useful to assess for\nhydronephrosis\nor a\nAbdominal Aortic Aneurysm\nUltimately, cystoscopy and/or kidney biopsies may be necessary as follow-up procedures after the final disposition",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on\nUA\nIsolated hematuria with dysmorphic red cells or red cells with a decreased mean corpuscular volume (MCV), should prompt an evaluation for glomerulopathy (e.g., IgA nephropathy & Alport's syndrome)\n[4]\nIsolated hematuria may be elusive. In some series, more than half of the patients have microhematuria with no definable cause.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hydronephrosis",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Urinalysis\nUrine microscopy can show abnormal RBC morphologies suggesting glomerular source of hematuria\nMicroscopic hematuria associated with proteinuria suggests glomerular disease and requires further investigation (as an outpatient)\nUrine dipstick may be performed quickly in some centers but has high false-positive rate\n[2]\nCBC - for anemia and thrombocytopenia\nBMP - for renal function\nCoags",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Utilize multiphasic CT urography (\"hematuria protocol\") to assess for pathology in the kidney and urinary collecting system\n[3]\nA noncontrast phase is useful for visualizing stones or hydronephrosis\nA nephrographic phase has contrast enhancing renal parenchyma, useful for pyelonephritis and renal tumors\nA delayed excretory phase visualizes urothelial and bladder tumors\nUltrasound useful to assess for\nhydronephrosis\nor a\nAbdominal Aortic Aneurysm\nUltimately, cystoscopy and/or kidney biopsies may be necessary as follow-up procedures after the final disposition",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on\nUA\nIsolated hematuria with dysmorphic red cells or red cells with a decreased mean corpuscular volume (MCV), should prompt an evaluation for glomerulopathy (e.g., IgA nephropathy & Alport's syndrome)\n[4]\nIsolated hematuria may be elusive. In some series, more than half of the patients have microhematuria with no definable cause.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "hydronephrosis",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Based on\nUA\nIsolated hematuria with dysmorphic red cells or red cells with a decreased mean corpuscular volume (MCV), should prompt an evaluation for glomerulopathy (e.g., IgA nephropathy & Alport's syndrome)\n[4]\nIsolated hematuria may be elusive. In some series, more than half of the patients have microhematuria with no definable cause.\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying cause\nGross hematuria\nOften associated with intravesicular clot formation and bladder outlet obstruction\nUse triple-lumen urinary drainage catheter with intermittent or continuous bladder irrigation\nAdequate urinary drainage must be ensured; otherwise consult urology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Outpaient": {
+          "text": "Outpatient management appropriate if:\nHemodynamically stable without life-threatening cause of hematuria\nAble to tolerate oral fluids, antibiotics, and analgesics as indicated\nAble to void\nNo significant anemia or acute renal insufficiency",
+          "tables": []
+        },
+        "Referral_Considerations": {
+          "text": "Patients <40 yr: refer to primary care provider for repeat UA within 2wk\nPatients >40 yr with risk factor for urologic cancer: refer to urologist within 2wk\nRisk factors:\nSmoking history\nOccupational exposure to chemicals or dyes\nHistory of gross hematuria\nPrevious urologic history\nHistory of recurrent UTI\nAnalgesic abuse\nHistory of pelvic irradiation\nCyclophosphamide\nuse\nPregnancy\nKnown malignancy\nSickle cell disease\nProteinuria\nRenal insufficiency\nConsider nephrology referral for signs of glomerular hematuria such as concommittant AKI, proteinuria, dysmorphic RBCs, RBC casts",
+          "tables": []
+        },
+        "Admission": {
+          "text": "If:\nIntractable pain\nIntolerance of oral fluids and medications\nBladder outlet obstruction\nSuspected or newly diagnosed\nglomerulonephritis\nHigh risk of developing complications (\npulmonary edema\n, volume overload,\nhypertensive emergency\n)\nPregnant women (hematuria can accompany\npreeclampsia\n,\npyelonephritis\nor obstructing\nnephrolithiasis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        }
+      ]
+    },
+    "Outpaient": {
+      "text": "Outpatient management appropriate if:\nHemodynamically stable without life-threatening cause of hematuria\nAble to tolerate oral fluids, antibiotics, and analgesics as indicated\nAble to void\nNo significant anemia or acute renal insufficiency",
+      "subsections": {
+        "Referral_Considerations": {
+          "text": "Patients <40 yr: refer to primary care provider for repeat UA within 2wk\nPatients >40 yr with risk factor for urologic cancer: refer to urologist within 2wk\nRisk factors:\nSmoking history\nOccupational exposure to chemicals or dyes\nHistory of gross hematuria\nPrevious urologic history\nHistory of recurrent UTI\nAnalgesic abuse\nHistory of pelvic irradiation\nCyclophosphamide\nuse\nPregnancy\nKnown malignancy\nSickle cell disease\nProteinuria\nRenal insufficiency\nConsider nephrology referral for signs of glomerular hematuria such as concommittant AKI, proteinuria, dysmorphic RBCs, RBC casts",
+          "tables": []
+        },
+        "Admission": {
+          "text": "If:\nIntractable pain\nIntolerance of oral fluids and medications\nBladder outlet obstruction\nSuspected or newly diagnosed\nglomerulonephritis\nHigh risk of developing complications (\npulmonary edema\n, volume overload,\nhypertensive emergency\n)\nPregnant women (hematuria can accompany\npreeclampsia\n,\npyelonephritis\nor obstructing\nnephrolithiasis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "If:\nIntractable pain\nIntolerance of oral fluids and medications\nBladder outlet obstruction\nSuspected or newly diagnosed\nglomerulonephritis\nHigh risk of developing complications (\npulmonary edema\n, volume overload,\nhypertensive emergency\n)\nPregnant women (hematuria can accompany\npreeclampsia\n,\npyelonephritis\nor obstructing\nnephrolithiasis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hematuria (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria (peds)",
+          "url": "https://wikem.org/wiki/Hematuria_(peds)"
+        }
+      ]
+    }
+  }
+}
