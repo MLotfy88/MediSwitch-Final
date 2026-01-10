@@ -1,0 +1,430 @@
+{
+  "drug_name": "Multisystem_inflammatory_syndrome_in_children",
+  "url": "https://wikem.org/wiki/Multisystem_inflammatory_syndrome_in_children",
+  "scraped_at": "2026-01-10T07:57:43.911172",
+  "sections": {
+    "Background": {
+      "text": "In April 2020 during the\nSARS-CoV-2\noutbreak UK pediatricians alerted the National Health Service of a new systemic inflammatory condition similar to Kawasaki disease in children testing positive for the virus\nCases were then reported worldwide with patients admitted to ICUs in the USA\n4,5,10\n, Canada\n10\nItaly\n11\n, and UK\n2,3\nThought to be an immunologically mediated inflammatory syndrome associated with previous\nSARS-CoV-2\ninfection\n1\nCases occur 3-5.5 weeks after patients tested positive for\nSARS-CoV-2\nWhile\nKawasaki\ndisease has a predilection for children of Asian descent, MIS-C seems to affect African American children more often\n9\nCompared to Kawasaki patients are generally older (median age 8.6 vs 2.5)\n1\nand had a predominance of GI symptoms\nPatients with MIS-C are significantly more likely to present with\ndyspnea\n,\nvomiting\n,\ndiarrhea\n, lymphopenia, and elevated LDH and and D-dimer compared to patients with\nCOVID-19\nwithout MIS-C\n6",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Occurs in 2/100,000 persons under 21\n4\nIn a systematic review published June 2020, 11/7780 (0.14%) COVID-19 positive children met the CDC’s criteria for MIS-C\n6",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SARS-CoV-2",
+          "url": "https://wikem.org/wiki/SARS-CoV-2"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "url": "https://wikem.org/wiki/SARS-CoV-2"
+        },
+        {
+          "text": "SARS-CoV-2",
+          "url": "https://wikem.org/wiki/SARS-CoV-2"
+        },
+        {
+          "text": "Kawasaki",
+          "url": "https://wikem.org/wiki/Kawasaki"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Occurs in 2/100,000 persons under 21\n4\nIn a systematic review published June 2020, 11/7780 (0.14%) COVID-19 positive children met the CDC’s criteria for MIS-C\n6",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\nAbdominal pain\nDiarrhea\nHeadache\nConjunctivitis\nRash\nSore throat\nCardiac dysfunction\nShock\nAcute kidney injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "SARS-CoV-2\nKawasaki disease\nToxic shock syndrome\nJuvenile idiopathic arthritis\nPneumonia (Peds)\nSepsis\nMyocarditis\nHemophagocytic lymphohistiocytosis\nMacrophage activation syndrome\nRocky Mountain Spotted Fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SARS-CoV-2",
+          "url": "https://wikem.org/wiki/SARS-CoV-2"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Pneumonia (Peds)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Hemophagocytic lymphohistiocytosis",
+          "url": "https://wikem.org/wiki/Hemophagocytic_lymphohistiocytosis"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nCBC\nLymphopenia\nNeutrophilia\nCMP\nLow albumin\nInflammatory markers (elevated)\nCRP\nESR\nFibrinogen\nProcalcitonin\nD-dimer\nFerritin\nLDH\nIL-6\nBNP\nTroponin\nImaging\nChest X-ray\n/CT\nMay show bilateral patchy infiltrates or ground glass opacities\nEchocardiogram\nto evaluate for LV dysfunction, coronary aneurysm/dilation",
+      "subsections": {
+        "Case_Definition": {
+          "text": "CDC\n12\nAn individual aged <21 years presenting with fever\ni\n, laboratory evidence of inflammation, and evidence of clinically severe illness requiring hospitalization, with multisystem (>2) organ involvement (cardiac, renal, respiratory, hematologic, gastrointestinal, dermatologic or neurological); AND\nNo alternative plausible diagnoses; AND\nPositive for current or recent SARS-CoV-2 infection by RT-PCR, serology, or antigen test; or COVID-19 exposure within the 4 weeks prior to the onset of symptoms\ni\nFever >38.0°C for ≥24 hours, or report of subjective fever lasting ≥24 hours\nii\nIncluding, but not limited to, one or more of the following: an elevated C-reactive protein (CRP), erythrocyte sedimentation rate (ESR), fibrinogen, procalcitonin, d-dimer, ferritin, lactic acid dehydrogenase (LDH), or interleukin 6 (IL-6), elevated neutrophils, reduced lymphocytes and low albumin\nSome individuals may fulfill full or partial criteria for Kawasaki disease but should be reported if they meet the case definition for MIS-C\nConsider MIS-C in any pediatric death with evidence of SARS-CoV-2 infection\nWHO\n13\nChildren and adolescents 0–19 years of age with fever > 3 days\nAND two of the following:\na) Rash or bilateral non-purulent conjunctivitis or muco-cutaneous inflammation signs (oral, hands or feet).\nb) Hypotension or shock.\nc) Features of myocardial dysfunction, pericarditis, valvulitis, or coronary abnormalities (including ECHO findings or elevated Troponin/NT-proBNP),\nd) Evidence of coagulopathy (by PT, PTT, elevated d-Dimers).\ne) Acute gastrointestinal problems (diarrhoea, vomiting, or abdominal pain).\nAND\nElevated markers of inflammation such as ESR, C-reactive protein, or procalcitonin.\nAND\nNo other obvious microbial cause of inflammation, including bacterial sepsis, staphylococcal or streptococcal shock syndromes.\nAND\nEvidence of COVID-19 (RT-PCR, antigen test or serology positive), or likely contact with patients with COVID-19.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest X-ray",
+          "url": "https://wikem.org/wiki/Chest_X-ray"
+        },
+        {
+          "text": "Echocardiogram",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Case_Definition": {
+      "text": "CDC\n12\nAn individual aged <21 years presenting with fever\ni\n, laboratory evidence of inflammation, and evidence of clinically severe illness requiring hospitalization, with multisystem (>2) organ involvement (cardiac, renal, respiratory, hematologic, gastrointestinal, dermatologic or neurological); AND\nNo alternative plausible diagnoses; AND\nPositive for current or recent SARS-CoV-2 infection by RT-PCR, serology, or antigen test; or COVID-19 exposure within the 4 weeks prior to the onset of symptoms\ni\nFever >38.0°C for ≥24 hours, or report of subjective fever lasting ≥24 hours\nii\nIncluding, but not limited to, one or more of the following: an elevated C-reactive protein (CRP), erythrocyte sedimentation rate (ESR), fibrinogen, procalcitonin, d-dimer, ferritin, lactic acid dehydrogenase (LDH), or interleukin 6 (IL-6), elevated neutrophils, reduced lymphocytes and low albumin\nSome individuals may fulfill full or partial criteria for Kawasaki disease but should be reported if they meet the case definition for MIS-C\nConsider MIS-C in any pediatric death with evidence of SARS-CoV-2 infection\nWHO\n13\nChildren and adolescents 0–19 years of age with fever > 3 days\nAND two of the following:\na) Rash or bilateral non-purulent conjunctivitis or muco-cutaneous inflammation signs (oral, hands or feet).\nb) Hypotension or shock.\nc) Features of myocardial dysfunction, pericarditis, valvulitis, or coronary abnormalities (including ECHO findings or elevated Troponin/NT-proBNP),\nd) Evidence of coagulopathy (by PT, PTT, elevated d-Dimers).\ne) Acute gastrointestinal problems (diarrhoea, vomiting, or abdominal pain).\nAND\nElevated markers of inflammation such as ESR, C-reactive protein, or procalcitonin.\nAND\nNo other obvious microbial cause of inflammation, including bacterial sepsis, staphylococcal or streptococcal shock syndromes.\nAND\nEvidence of COVID-19 (RT-PCR, antigen test or serology positive), or likely contact with patients with COVID-19.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "ASA\nIVIG\nCorticosteroids\n(shock or risk of coronary aneurysm)\n1\nAntibiotics\nfor sepsis or pneumonia\nMechanical ventilation\nVasopressors\nBiologics (unresponsive to IVIG and steroids)\n1\nECMO",
+      "subsections": {
+        "Complications": {
+          "text": "i\nStudy contained only patients admitted to pediatric ICUs.",
+          "tables": [
+            [
+              {
+                "'": "Complication (%)",
+                "Study": "ICU admission",
+                "Capone et al.1": "79",
+                "Davies et al.3": "100%i",
+                "Dufort et al.4": "80",
+                "Fields et al.5": "80",
+                "Lee et al.7": "61",
+                "Shekerdemian et al.10": "100%i"
+              },
+              {
+                "'": "",
+                "Study": "Invasive mechanical ventilation",
+                "Capone et al.1": "18",
+                "Davies et al.3": "46",
+                "Dufort et al.4": "10",
+                "Fields et al.5": "20",
+                "Lee et al.7": "0",
+                "Shekerdemian et al.10": "38"
+              },
+              {
+                "'": "",
+                "Study": "Vasopressor support",
+                "Capone et al.1": "76",
+                "Davies et al.3": "83",
+                "Dufort et al.4": "62",
+                "Fields et al.5": "48",
+                "Lee et al.7": "25",
+                "Shekerdemian et al.10": "25"
+              },
+              {
+                "'": "",
+                "Study": "Coronary artery abnormalities",
+                "Capone et al.1": "24",
+                "Davies et al.3": "36",
+                "Dufort et al.4": "9",
+                "Fields et al.5": "8",
+                "Lee et al.7": "21",
+                "Shekerdemian et al.10": "N/A"
+              },
+              {
+                "'": "",
+                "Study": "LV dysfunction",
+                "Capone et al.1": "19",
+                "Davies et al.3": "N/A",
+                "Dufort et al.4": "52",
+                "Fields et al.5": "38",
+                "Lee et al.7": "39",
+                "Shekerdemian et al.10": "N/A"
+              },
+              {
+                "'": "",
+                "Study": "Acute kidney injury",
+                "Capone et al.1": "70",
+                "Davies et al.3": "N/A",
+                "Dufort et al.4": "10",
+                "Fields et al.5": "5",
+                "Lee et al.7": "21",
+                "Shekerdemian et al.10": "N/A"
+              },
+              {
+                "'": "",
+                "Study": "RRT",
+                "Capone et al.1": "N/A",
+                "Davies et al.3": "1",
+                "Dufort et al.4": "N/A",
+                "Fields et al.5": "N/A",
+                "Lee et al.7": "N/A",
+                "Shekerdemian et al.10": "0"
+              },
+              {
+                "'": "",
+                "Study": "ECMO",
+                "Capone et al.1": "N/A",
+                "Davies et al.3": "4",
+                "Dufort et al.4": "4",
+                "Fields et al.5": "4",
+                "Lee et al.7": "0",
+                "Shekerdemian et al.10": "2"
+              },
+              {
+                "'": "",
+                "Study": "Death",
+                "Capone et al.1": "0",
+                "Davies et al.3": "3",
+                "Dufort et al.4": "2",
+                "Fields et al.5": "2",
+                "Lee et al.7": "0",
+                "Shekerdemian et al.10": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "i\nStudy contained only patients admitted to pediatric ICUs.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "'": "Complication (%)",
+            "Study": "ICU admission",
+            "Capone et al.1": "79",
+            "Davies et al.3": "100%i",
+            "Dufort et al.4": "80",
+            "Fields et al.5": "80",
+            "Lee et al.7": "61",
+            "Shekerdemian et al.10": "100%i"
+          },
+          {
+            "'": "",
+            "Study": "Invasive mechanical ventilation",
+            "Capone et al.1": "18",
+            "Davies et al.3": "46",
+            "Dufort et al.4": "10",
+            "Fields et al.5": "20",
+            "Lee et al.7": "0",
+            "Shekerdemian et al.10": "38"
+          },
+          {
+            "'": "",
+            "Study": "Vasopressor support",
+            "Capone et al.1": "76",
+            "Davies et al.3": "83",
+            "Dufort et al.4": "62",
+            "Fields et al.5": "48",
+            "Lee et al.7": "25",
+            "Shekerdemian et al.10": "25"
+          },
+          {
+            "'": "",
+            "Study": "Coronary artery abnormalities",
+            "Capone et al.1": "24",
+            "Davies et al.3": "36",
+            "Dufort et al.4": "9",
+            "Fields et al.5": "8",
+            "Lee et al.7": "21",
+            "Shekerdemian et al.10": "N/A"
+          },
+          {
+            "'": "",
+            "Study": "LV dysfunction",
+            "Capone et al.1": "19",
+            "Davies et al.3": "N/A",
+            "Dufort et al.4": "52",
+            "Fields et al.5": "38",
+            "Lee et al.7": "39",
+            "Shekerdemian et al.10": "N/A"
+          },
+          {
+            "'": "",
+            "Study": "Acute kidney injury",
+            "Capone et al.1": "70",
+            "Davies et al.3": "N/A",
+            "Dufort et al.4": "10",
+            "Fields et al.5": "5",
+            "Lee et al.7": "21",
+            "Shekerdemian et al.10": "N/A"
+          },
+          {
+            "'": "",
+            "Study": "RRT",
+            "Capone et al.1": "N/A",
+            "Davies et al.3": "1",
+            "Dufort et al.4": "N/A",
+            "Fields et al.5": "N/A",
+            "Lee et al.7": "N/A",
+            "Shekerdemian et al.10": "0"
+          },
+          {
+            "'": "",
+            "Study": "ECMO",
+            "Capone et al.1": "N/A",
+            "Davies et al.3": "4",
+            "Dufort et al.4": "4",
+            "Fields et al.5": "4",
+            "Lee et al.7": "0",
+            "Shekerdemian et al.10": "2"
+          },
+          {
+            "'": "",
+            "Study": "Death",
+            "Capone et al.1": "0",
+            "Davies et al.3": "3",
+            "Dufort et al.4": "2",
+            "Fields et al.5": "2",
+            "Lee et al.7": "0",
+            "Shekerdemian et al.10": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission\nVaried reports on proportion requiring ICU level of care (21-80)\n1,4",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "COVID-19",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NY Webinar\nhttps://www.cdc.gov/mis-c/hcp/\nhttps://www.who.int/news-room/commentaries/detail/multisystem-inflammatory-syndrome-in-children-and-adolescents-with-covid-19",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Capone CA et al. Characteristics, cardiac involvement, and outcomes of multisystem inflammatory disease of childhood (MIS-C) associated with SARS-CoV-2 infection. J Pediatr. 2020. (Epub ahead of print).\nChiotos K et al. Multisystem Inflammatory Syndrome in Children During the Coronavirus 2019 Pandemic: A Case Series. J Pediatric Infect Dis Soc. 2020;9(3):393-398.\nDavies P et al. Intensive care admissions of children with paediatric inflammatory multisystem syndrome temporally associated with SARS-CoV-2 (PIMS-TS) in the UK: a multicenter observational study. doi: 10.1016/S2352-4642(20)30215-7\nDufort EM et al. Multisystem Inflammatory Syndrome in Children in New York State. N Eng J Med. 2020;383(4):347-358.\nFeldstein LR et al. Multisystem Inflammatory Syndrome in U.S. Children and Adolescents. N Eng J Med. 2020;383(4):334-346.\nHoang et al. COVID-19 in 7780 pediatric patients: A systemic review. EClinicalMedicine. 2020;24. Accessed August 1, 2020. DOI:\nhttps://doi.org/10.1016/j.eclinm.2020.100433\nLevin M. Childhood Multisystem Inflammatory Syndrome – A New Challenge in the Pandemic. N Eng J Med. 2020;383(4):393-395.\nLee PY et al. Distinct clinical and immunological features of SARS-COV-2-induced multisystem inflammatory syndrome in children. J Clin Invest. 2020.\nhttps://doi.org/10.1172/JCI141113\nMiller J et al. Gastrointestinal symptoms as a major presentation component of a novel multisystem inflammatory syndrome in children (MIS-C) that is related to COVID-19: a single center experience of 44 cases. Gastroenterology. 2020. (Epub ahead of print). doi: 10.1053/j.gastro.2020.05.079\nRowley A. Understanding SARS-CoV-2 related multisystem inflammatory syndrome in children. Nat Rev Immunol. 2020;20(453-454).\nhttps://doi.org/10.1038/s41577-020-0367-5\nShekerdemian LS et al. Characteristics and Outcomes of Children With Coronavirus Disease 2019 (COVID-19) Infection Admitted to US and Canadian Pediatric Intensive Care Units. JAMA Pediatr. 2020. doi:10.1001/jamapediatrics.2020.1948\nVerdoni L et al. An outbreak of severe Kawasaki-like disease at the Italian epicentre of the SARS-CoV-2 epidemic: an observational cohort study. Lancet 2020; 395: 1771-8.\nCenter for Disease Control and Prevention. Health Alert Network (HAN). Multisystem inflammatory syndrome in children (MIS-C) associated with coronavirus disease 2019 (COVID-19). Accessed July 2020.\nhttps://emergency.cdc.gov/han/2020/han00432.asp\nhttps://www.who.int/news-room/commentaries/detail/multisystem-inflammatory-syndrome-in-children-and-adolescents-with-covid-19",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

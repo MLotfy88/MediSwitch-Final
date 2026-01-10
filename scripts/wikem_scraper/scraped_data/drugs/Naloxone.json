@@ -1,0 +1,98 @@
+{
+  "drug_name": "Naloxone",
+  "url": "https://wikem.org/wiki/Naloxone",
+  "scraped_at": "2026-01-10T07:57:58.096183",
+  "sections": {
+    "General": {
+      "text": "Type:\nOpioid\nantagonists,\nantidote\nDosage Forms:\nCommon Trade Names: Narcan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Opioid_toxicity": {
+          "text": "Bolus (May repeat q3min up to max dose 10mg)\nApneic or near-apneic - 2mg IV\nOpioid-naive with minimal respiratory depression - 0.4mg IV\nOpioid-dependent with minimal respiratory depression - 0.05mg IV\nInfusion\nOnly give if the patient responded to the bolus and required repeat administration\nStep 1: Determine the \"wake-up dose\" or bolus required to wake the pt\nStep 2: Give 2/3 of the \"wake-up dose\" per hr; mix in 1L D5W\nIntranasal\nPre-mixed nasal spray: 3,4, or 8 mg (1 spray) in one nostril. May repeat q 2-3 minutes if no response\nIV solution: 2 mg (1 mg each nostril using atomizer)\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Opioid_toxicity": {
+      "text": "Bolus (May repeat q3min up to max dose 10mg)\nApneic or near-apneic - 2mg IV\nOpioid-naive with minimal respiratory depression - 0.4mg IV\nOpioid-dependent with minimal respiratory depression - 0.05mg IV\nInfusion\nOnly give if the patient responded to the bolus and required repeat administration\nStep 1: Determine the \"wake-up dose\" or bolus required to wake the pt\nStep 2: Give 2/3 of the \"wake-up dose\" per hr; mix in 1L D5W\nIntranasal\nPre-mixed nasal spray: 3,4, or 8 mg (1 spray) in one nostril. May repeat q 2-3 minutes if no response\nIV solution: 2 mg (1 mg each nostril using atomizer)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Full reversal (overdose or intoxication)\nIV/IO: 0.1 mg/kg (max 2 mg). Repeat every 2 to 3 minutes as needed\nTitrated correction of respiratory depression from therapeutic opioid\nIV/IM/SUBQ: 0.005 to 0.01mg/kg IV every 2 to 3 minutes as needed to desired degree of reversal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: insufficient data\nRenal Dosing: No dose adjustment\nHepatic Dosing: No dose adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Opioid withdrawal\nNon-cardiogenic\npulmonary edema\n[2]\nSerious complications are rare",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Metabolism: hepatic\nExcretion: renal\nMechanism of Action: opioid antagonist (competes for mu receptor binding sites, displacing opioid)\nOnset of action - 1-2min\nDuration of action - 20-90min (\nmay be less than that of the ingested opioid\n)\nFor this reason many hospital algorithms call for ~3 hours of ED observation prior to discharge\nSome small studies have called for decreasing this time frame to 1 hour but there are often adverse events in a significant proportion of these patients (one study showed that 15% of patients had adverse events such as need for supplemental oxygen after attempting discharge at 1 hour)\n[3]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid toxicity\nOpioid withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    }
+  }
+}

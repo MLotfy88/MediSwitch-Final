@@ -1,0 +1,961 @@
+{
+  "drug_name": "Myxedema_coma",
+  "url": "https://wikem.org/wiki/Myxedema_coma",
+  "scraped_at": "2026-01-10T07:57:59.217601",
+  "sections": {
+    "Background": {
+      "text": "Hypothyroidism\n+\nmental status changes\n/\ncoma\n+\nhypothermia\n+ precipitating stressor\n[1]\nMajority of the patients > 60yo\n[2]\nOccurs in 0.1% of patients with hypothyroidism\nUsually occurs after precipitating incident in patient with untreated hypothyroidism\n[3]\nMortality may be as high as 60%\n[4]\nUntreated mortality approaches 100%\n[5]\n~50% of cases become evident\nafter\nadmission\nSevere hypothyroidism may be first time presentation of hypothyroid\n[6]",
+      "subsections": {
+        "Precipitants": {
+          "text": "Bradycardia\nand\nhypothermia\nBurns\nCHF\nCVA\nCold exposure\nGI bleed\nMetabolic abnormalities (\nhypoxia\n,\nhypercapnia\n,\nhyponatremia\n,\nhypoglycemia\n)\nMedications:\nBeta blockers\n,\nsedatives\n,\nopioids\n,\nphenothiazines\n,\namiodarone\n[7]\nEspecially medications with CNS depressant effect\n[8]\nMedication non-adherence (thyroid meds)\nMI\nSepsis\nTrauma\nPE",
+          "tables": []
+        },
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "mental status changes",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Bradycardia\nand\nhypothermia\nBurns\nCHF\nCVA\nCold exposure\nGI bleed\nMetabolic abnormalities (\nhypoxia\n,\nhypercapnia\n,\nhyponatremia\n,\nhypoglycemia\n)\nMedications:\nBeta blockers\n,\nsedatives\n,\nopioids\n,\nphenothiazines\n,\namiodarone\n[7]\nEspecially medications with CNS depressant effect\n[8]\nMedication non-adherence (thyroid meds)\nMI\nSepsis\nTrauma\nPE",
+      "subsections": {
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Spectrum_of_Thyroid_Disease": {
+      "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Hypothermia": {
+          "text": "Temperature <35.5°C (95.9°F).\nDegree of hypothermia is proportional to mortality\n[9]",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Bradycardia\nHypotension\nPericardial effusion",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Hypoventilation,\nhypercapnia\nThere is often diaphragmatic dysfunction that causes worsening hypoventilation.  The dysfunction is reversed after thyroid hormone administration\n[10]\nEarly respiratory support with intubation may be necessary to prevent respiratory collapse\nHypoxia\nPleural Effusion\nUpper airway obstruction from glottic edema, vocal cord edema, and macroglossia can complicate intubation.",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Altered mental status\n/\nComa\ndue to CO2 narcosis\nComa\nis very rare\nPseudomyotonic \"hung up\" deep tendon reflexes\nParticularly Achilles reflex\nRelaxation phase of DTR twice as long as contraction phase\nNeuropsychiatric symptoms\n[11]\nDepression\nPsychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Pleural Effusion",
+          "url": "https://wikem.org/wiki/Pleural_Effusion"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Hypothermia": {
+      "text": "Temperature <35.5°C (95.9°F).\nDegree of hypothermia is proportional to mortality\n[9]",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Bradycardia\nHypotension\nPericardial effusion",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "Hypoventilation,\nhypercapnia\nThere is often diaphragmatic dysfunction that causes worsening hypoventilation.  The dysfunction is reversed after thyroid hormone administration\n[10]\nEarly respiratory support with intubation may be necessary to prevent respiratory collapse\nHypoxia\nPleural Effusion\nUpper airway obstruction from glottic edema, vocal cord edema, and macroglossia can complicate intubation.",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Altered mental status\n/\nComa\ndue to CO2 narcosis\nComa\nis very rare\nPseudomyotonic \"hung up\" deep tendon reflexes\nParticularly Achilles reflex\nRelaxation phase of DTR twice as long as contraction phase\nNeuropsychiatric symptoms\n[11]\nDepression\nPsychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Pleural Effusion",
+          "url": "https://wikem.org/wiki/Pleural_Effusion"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Bradycardia\nHypotension\nPericardial effusion",
+      "subsections": {
+        "Pulmonary": {
+          "text": "Hypoventilation,\nhypercapnia\nThere is often diaphragmatic dysfunction that causes worsening hypoventilation.  The dysfunction is reversed after thyroid hormone administration\n[10]\nEarly respiratory support with intubation may be necessary to prevent respiratory collapse\nHypoxia\nPleural Effusion\nUpper airway obstruction from glottic edema, vocal cord edema, and macroglossia can complicate intubation.",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Altered mental status\n/\nComa\ndue to CO2 narcosis\nComa\nis very rare\nPseudomyotonic \"hung up\" deep tendon reflexes\nParticularly Achilles reflex\nRelaxation phase of DTR twice as long as contraction phase\nNeuropsychiatric symptoms\n[11]\nDepression\nPsychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Pleural Effusion",
+          "url": "https://wikem.org/wiki/Pleural_Effusion"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Pulmonary": {
+      "text": "Hypoventilation,\nhypercapnia\nThere is often diaphragmatic dysfunction that causes worsening hypoventilation.  The dysfunction is reversed after thyroid hormone administration\n[10]\nEarly respiratory support with intubation may be necessary to prevent respiratory collapse\nHypoxia\nPleural Effusion\nUpper airway obstruction from glottic edema, vocal cord edema, and macroglossia can complicate intubation.",
+      "subsections": {
+        "Neurologic": {
+          "text": "Altered mental status\n/\nComa\ndue to CO2 narcosis\nComa\nis very rare\nPseudomyotonic \"hung up\" deep tendon reflexes\nParticularly Achilles reflex\nRelaxation phase of DTR twice as long as contraction phase\nNeuropsychiatric symptoms\n[11]\nDepression\nPsychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Pleural Effusion",
+          "url": "https://wikem.org/wiki/Pleural_Effusion"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Neurologic": {
+      "text": "Altered mental status\n/\nComa\ndue to CO2 narcosis\nComa\nis very rare\nPseudomyotonic \"hung up\" deep tendon reflexes\nParticularly Achilles reflex\nRelaxation phase of DTR twice as long as contraction phase\nNeuropsychiatric symptoms\n[11]\nDepression\nPsychosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Adrenal crisis\nCHF\nCVA\nDepression\nDrug overdose\nHypoglycemia\nHypothermia\nMeningitis\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Drug overdose",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "TSH, FT4, FT3\nIn primary hypothyroidism TSH will be elevated and T4 and T3 will be low\nIf the patient has secondary hypothyroidism (Pituitary dysfunction) the TSH may be low or normal and T4 and T3 will be low\nChemistry\nHyponatremia\nHypoglycemia\n+/-\nElevated creatinine\nCBC\nMild\nanemia\n,\nleukopenia\nBlood cultures\nLFTs\nElevated transaminases\nElevated CPK\nCortisol level\nVBG\n/ABG\nHypercapnia\nHypoxia\nLipid levels\nHypercholesterolemia\nCXR\nECG\nSinus bradycardia\nNon-specific ST-T wave changes\nProlonged QTc\nVentricular dysrhythmias\nBedside\ncardiac US\nfor\npericardial effusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Elevated creatinine",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Elevated CPK",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "cardiac US",
+          "url": "https://wikem.org/wiki/Cardiac_US"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "TSH, FT4, FT3\nIn primary hypothyroidism TSH will be elevated and T4 and T3 will be low\nIf the patient has secondary hypothyroidism (Pituitary dysfunction) the TSH may be low or normal and T4 and T3 will be low\nChemistry\nHyponatremia\nHypoglycemia\n+/-\nElevated creatinine\nCBC\nMild\nanemia\n,\nleukopenia\nBlood cultures\nLFTs\nElevated transaminases\nElevated CPK\nCortisol level\nVBG\n/ABG\nHypercapnia\nHypoxia\nLipid levels\nHypercholesterolemia\nCXR\nECG\nSinus bradycardia\nNon-specific ST-T wave changes\nProlonged QTc\nVentricular dysrhythmias\nBedside\ncardiac US\nfor\npericardial effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Elevated creatinine",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Elevated CPK",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "cardiac US",
+          "url": "https://wikem.org/wiki/Cardiac_US"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Respiratory_Support": {
+          "text": "Early mechanical ventilation will prevent respiratory collapse and severe respiratory acidosis.",
+          "tables": []
+        },
+        "Fluid_Resuscitation": {
+          "text": "Often intravascularly depleted\nMay have underlying illness causing dehydration\nIn patients who are hyponatremic, be cautious with rapid correction of hyponatremia\nConsider fluid restriction\nUse D5NS if hypoglycemic\nMonitor for unmasking of CHF",
+          "tables": []
+        },
+        "Hypotension": {
+          "text": "Vasopressors\nwill be ineffective without concomitant thyroid hormone replacement",
+          "tables": []
+        },
+        "Hormone_Replacement": {
+          "text": "Levothyroxine\n(T4)\n(generally agreed upon first line therapy)\nDose: 100 to 500 mcg (4mcg/kg IV) followed by 75 to 100 mcg administered IV daily until the patient takes oral replacement.\n[12]\nDoes require extrathyroidal conversion which can be reduced in myxedema but will have a slow steady onset of action\nPotentially safer in patients with CAD\nAmerican Thyroid Association recommends treatment with both T4 and T3\n[13]\nT3\n5-20mcg IV followed by 2.5-10mcg q8hr\n[14]\n[15]\nStart with 10mcg if elderly or has CAD\nDoes not require extrathyroidal conversion\nMore rapid onset but may be harmful in patients with CAD",
+          "tables": []
+        },
+        "Adrenal_Insufficiency": {
+          "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+          "tables": []
+        },
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Respiratory_Support": {
+      "text": "Early mechanical ventilation will prevent respiratory collapse and severe respiratory acidosis.",
+      "subsections": {
+        "Fluid_Resuscitation": {
+          "text": "Often intravascularly depleted\nMay have underlying illness causing dehydration\nIn patients who are hyponatremic, be cautious with rapid correction of hyponatremia\nConsider fluid restriction\nUse D5NS if hypoglycemic\nMonitor for unmasking of CHF",
+          "tables": []
+        },
+        "Hypotension": {
+          "text": "Vasopressors\nwill be ineffective without concomitant thyroid hormone replacement",
+          "tables": []
+        },
+        "Hormone_Replacement": {
+          "text": "Levothyroxine\n(T4)\n(generally agreed upon first line therapy)\nDose: 100 to 500 mcg (4mcg/kg IV) followed by 75 to 100 mcg administered IV daily until the patient takes oral replacement.\n[12]\nDoes require extrathyroidal conversion which can be reduced in myxedema but will have a slow steady onset of action\nPotentially safer in patients with CAD\nAmerican Thyroid Association recommends treatment with both T4 and T3\n[13]\nT3\n5-20mcg IV followed by 2.5-10mcg q8hr\n[14]\n[15]\nStart with 10mcg if elderly or has CAD\nDoes not require extrathyroidal conversion\nMore rapid onset but may be harmful in patients with CAD",
+          "tables": []
+        },
+        "Adrenal_Insufficiency": {
+          "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+          "tables": []
+        },
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Fluid_Resuscitation": {
+      "text": "Often intravascularly depleted\nMay have underlying illness causing dehydration\nIn patients who are hyponatremic, be cautious with rapid correction of hyponatremia\nConsider fluid restriction\nUse D5NS if hypoglycemic\nMonitor for unmasking of CHF",
+      "subsections": {
+        "Hypotension": {
+          "text": "Vasopressors\nwill be ineffective without concomitant thyroid hormone replacement",
+          "tables": []
+        },
+        "Hormone_Replacement": {
+          "text": "Levothyroxine\n(T4)\n(generally agreed upon first line therapy)\nDose: 100 to 500 mcg (4mcg/kg IV) followed by 75 to 100 mcg administered IV daily until the patient takes oral replacement.\n[12]\nDoes require extrathyroidal conversion which can be reduced in myxedema but will have a slow steady onset of action\nPotentially safer in patients with CAD\nAmerican Thyroid Association recommends treatment with both T4 and T3\n[13]\nT3\n5-20mcg IV followed by 2.5-10mcg q8hr\n[14]\n[15]\nStart with 10mcg if elderly or has CAD\nDoes not require extrathyroidal conversion\nMore rapid onset but may be harmful in patients with CAD",
+          "tables": []
+        },
+        "Adrenal_Insufficiency": {
+          "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+          "tables": []
+        },
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Hypotension": {
+      "text": "Vasopressors\nwill be ineffective without concomitant thyroid hormone replacement",
+      "subsections": {
+        "Hormone_Replacement": {
+          "text": "Levothyroxine\n(T4)\n(generally agreed upon first line therapy)\nDose: 100 to 500 mcg (4mcg/kg IV) followed by 75 to 100 mcg administered IV daily until the patient takes oral replacement.\n[12]\nDoes require extrathyroidal conversion which can be reduced in myxedema but will have a slow steady onset of action\nPotentially safer in patients with CAD\nAmerican Thyroid Association recommends treatment with both T4 and T3\n[13]\nT3\n5-20mcg IV followed by 2.5-10mcg q8hr\n[14]\n[15]\nStart with 10mcg if elderly or has CAD\nDoes not require extrathyroidal conversion\nMore rapid onset but may be harmful in patients with CAD",
+          "tables": []
+        },
+        "Adrenal_Insufficiency": {
+          "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+          "tables": []
+        },
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Hormone_Replacement": {
+      "text": "Levothyroxine\n(T4)\n(generally agreed upon first line therapy)\nDose: 100 to 500 mcg (4mcg/kg IV) followed by 75 to 100 mcg administered IV daily until the patient takes oral replacement.\n[12]\nDoes require extrathyroidal conversion which can be reduced in myxedema but will have a slow steady onset of action\nPotentially safer in patients with CAD\nAmerican Thyroid Association recommends treatment with both T4 and T3\n[13]\nT3\n5-20mcg IV followed by 2.5-10mcg q8hr\n[14]\n[15]\nStart with 10mcg if elderly or has CAD\nDoes not require extrathyroidal conversion\nMore rapid onset but may be harmful in patients with CAD",
+      "subsections": {
+        "Adrenal_Insufficiency": {
+          "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+          "tables": []
+        },
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Adrenal_Insufficiency": {
+      "text": "Hydrocortisone\n100 mg IV q8h for possible concomitant adrenal insufficiency\nAlternative:\ndexamethasone\n2-4mg q12hrs (will not affect cortisol level or ACTH stimulation test)",
+      "subsections": {
+        "Hypothermia_2": {
+          "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Hypothermia_2": {
+      "text": "Treat with passive rewarming\nHypothermia\nwill also reverse with thyroid hormone administration\nAvoid mechanical stimulation\nDo not actively rewarm:\nUsually are volume depleted\nRapid peripheral vasodilation may induce worsening hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypothyroidism\nThyroid (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Thyroid (Main)",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "IBCC Decompensated Hypothyroidism (“Myxedema Coma”)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

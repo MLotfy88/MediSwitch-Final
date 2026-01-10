@@ -1,0 +1,22 @@
+{
+  "drug_name": "Mural_thrombus",
+  "url": "https://wikem.org/wiki/Mural_thrombus",
+  "scraped_at": "2026-01-10T07:57:48.225025",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Myxoma\nValvular vegetations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Valvular vegetations",
+          "url": "https://wikem.org/wiki/Valvular_vegetations"
+        }
+      ]
+    }
+  }
+}

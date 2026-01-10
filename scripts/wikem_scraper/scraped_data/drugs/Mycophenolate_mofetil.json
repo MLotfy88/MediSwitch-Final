@@ -1,0 +1,226 @@
+{
+  "drug_name": "Mycophenolate_mofetil",
+  "url": "https://wikem.org/wiki/Mycophenolate_mofetil",
+  "scraped_at": "2026-01-10T07:57:45.207925",
+  "sections": {
+    "Administration": {
+      "text": "Type: Immunosuppressant\nDosage Forms: 250,500; 200mg/mL; IV\nRoutes of Administration: PO, IV\nCommon Trade Names: CellCept",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Kidney_transplant_rejection_prophylaxis": {
+          "text": "1 g PO/IV bid\nStart: IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach; stable patients may take with food",
+          "tables": []
+        },
+        "Heart_transplant_rejection_prophylaxis": {
+          "text": "1.5 g PO/IV bid\nStart: IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+          "tables": []
+        },
+        "Liver_transplant_rejection_prophylaxis": {
+          "text": "1.5 g PO BID or 1 g IV bid\nInfo: start IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+          "tables": []
+        },
+        "Lupus_nephritis": {
+          "text": "1 g PO bid\nInfo: use with\nprednisone\n, consider decease dose 50% after 6mo treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Kidney_transplant_rejection_prophylaxis": {
+      "text": "1 g PO/IV bid\nStart: IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach; stable patients may take with food",
+      "subsections": {
+        "Heart_transplant_rejection_prophylaxis": {
+          "text": "1.5 g PO/IV bid\nStart: IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+          "tables": []
+        },
+        "Liver_transplant_rejection_prophylaxis": {
+          "text": "1.5 g PO BID or 1 g IV bid\nInfo: start IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+          "tables": []
+        },
+        "Lupus_nephritis": {
+          "text": "1 g PO bid\nInfo: use with\nprednisone\n, consider decease dose 50% after 6mo treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Heart_transplant_rejection_prophylaxis": {
+      "text": "1.5 g PO/IV bid\nStart: IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+      "subsections": {
+        "Liver_transplant_rejection_prophylaxis": {
+          "text": "1.5 g PO BID or 1 g IV bid\nInfo: start IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+          "tables": []
+        },
+        "Lupus_nephritis": {
+          "text": "1 g PO bid\nInfo: use with\nprednisone\n, consider decease dose 50% after 6mo treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Liver_transplant_rejection_prophylaxis": {
+      "text": "1.5 g PO BID or 1 g IV bid\nInfo: start IV with in 24h post transplant, continue up to 14 days, switch to PO ASAP; Info: give on empty stomach",
+      "subsections": {
+        "Lupus_nephritis": {
+          "text": "1 g PO bid\nInfo: use with\nprednisone\n, consider decease dose 50% after 6mo treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Lupus_nephritis": {
+      "text": "1 g PO bid\nInfo: use with\nprednisone\n, consider decease dose 50% after 6mo treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Kidney_transplant_rejection_prophylaxis_2": {
+          "text": "3 mo-18 yo: Dose: 600mg/m^2 PO bid; Alt: 750mg PO BID for body surf. area = 1.25-1.5 m^2; 1 g PO BID for body surf. area >1.5 m^2; Max: 1 g/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kidney_transplant_rejection_prophylaxis_2": {
+      "text": "3 mo-18 yo: Dose: 600mg/m^2 PO bid; Alt: 750mg PO BID for body surf. area = 1.25-1.5 m^2; 1 g PO BID for body surf. area >1.5 m^2; Max: 1 g/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: possibly unsafe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nkidney transplant patients, delayed graft function immediate postop: no adjustment\nkidney transplant patients, outside immediate post-transplant period:CrCl <25: max 1 g bid; HD/PD: no supplement\nheart or liver transplant patients: CrCl <25: weigh risk/benefit; HD/PD: not defined\nPediatric:\nkidney transplant patients, delayed graft function immediate postop: no adjustment\nkidney transplant patients, outside immediate post-transplant period: CrCl <30: max 600mg/m^2/day; HD/PD: no supplement",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined\nPediatric: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nkidney transplant patients, delayed graft function immediate postop: no adjustment\nkidney transplant patients, outside immediate post-transplant period:CrCl <25: max 1 g bid; HD/PD: no supplement\nheart or liver transplant patients: CrCl <25: weigh risk/benefit; HD/PD: not defined\nPediatric:\nkidney transplant patients, delayed graft function immediate postop: no adjustment\nkidney transplant patients, outside immediate post-transplant period: CrCl <30: max 600mg/m^2/day; HD/PD: no supplement",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined\nPediatric: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined\nPediatric: renal transplant with severe hepatic parenchymal disease: no adjustment; other hepatic impairment: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nhypersens. to polysorbate 80 (IV form)\nLesch-Nyhan syndrome\nKelly-Seegmiller syndrome\ncaution in elderly patients\ncaution if GI disorder\ncaution if renal disease, severe\ncaution if bone marrow depression\ncaution if PKU (phenylalanine-containing forms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "thrombocytopenia\nleukopenia\nneutropenia\nimmunosuppression\ninfection, severe\nopportunistic infection\nviral reactivation\npolyomavirus-assoc. nephropathy\nPML\npure red cell aplasia\nlymphoma\nlymphoproliferative disorders\nmalignancy\nGI bleeding\nGI perforation/ulcer\ncolitis\nacute renal failure\ninterstitial lung disease\npregnancy loss, 1st trimester\ncongenital malformations",
+          "tables": []
+        },
+        "Common": {
+          "text": "hypertension\ninfection\ndiarrhea\nperipheral edema\nanemia\nabdominal pain\nconstipation\nleukopenia\nfever\nheadache\nnausea/vomiting\ndyspepsia\nhypotension (rapid IV use)\ndyspnea\ncough\nhypercholesterolemia\nhypokalemia\ntremor\nacne\ninsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "thrombocytopenia\nleukopenia\nneutropenia\nimmunosuppression\ninfection, severe\nopportunistic infection\nviral reactivation\npolyomavirus-assoc. nephropathy\nPML\npure red cell aplasia\nlymphoma\nlymphoproliferative disorders\nmalignancy\nGI bleeding\nGI perforation/ulcer\ncolitis\nacute renal failure\ninterstitial lung disease\npregnancy loss, 1st trimester\ncongenital malformations",
+      "subsections": {
+        "Common": {
+          "text": "hypertension\ninfection\ndiarrhea\nperipheral edema\nanemia\nabdominal pain\nconstipation\nleukopenia\nfever\nheadache\nnausea/vomiting\ndyspepsia\nhypotension (rapid IV use)\ndyspnea\ncough\nhypercholesterolemia\nhypokalemia\ntremor\nacne\ninsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "hypertension\ninfection\ndiarrhea\nperipheral edema\nanemia\nabdominal pain\nconstipation\nleukopenia\nfever\nheadache\nnausea/vomiting\ndyspepsia\nhypotension (rapid IV use)\ndyspnea\ncough\nhypercholesterolemia\nhypokalemia\ntremor\nacne\ninsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 17.9h (PO route), 16.6h (IV route)\nMetabolism: liver; CYP450: Info: prodrug converted to mycophenolic acid (MPA)\nExcretion: urine 93% (<1% unchanged), feces 6%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "inhibits B- and T-lymphocyte proliferation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

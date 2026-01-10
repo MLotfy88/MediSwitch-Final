@@ -1,0 +1,628 @@
+{
+  "drug_name": "Murine_typhus",
+  "url": "https://wikem.org/wiki/Murine_typhus",
+  "scraped_at": "2026-01-10T07:57:46.148988",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\ntyphoid fever\n, a distinct disease caused by a different genera of bacteria\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Also known as \"\nendemic\ntyphus\" and \"flea-borne typhus\"\nCaused by Rickettsia typhi\nGram negative, obligate, intracellular bacterium\nReplicates in epithelial cells of\nflea\n's midgut",
+      "subsections": {
+        "Types_of_Typhus": {
+          "text": "Multiple diseases include the word \"typhus\" in their description. Types include:",
+          "tables": [
+            [
+              {
+                "Condition": "Epidemic \"Louse-borne\" typhus",
+                "Bacteria": "Rickettsia prowazekii",
+                "Reservoir/vector": "Human Body louse",
+                "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+              },
+              {
+                "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+                "Bacteria": "Rickettsia typhi",
+                "Reservoir/vector": "Fleas on rats",
+                "Notes": ""
+              },
+              {
+                "Condition": "Scrub typhus",
+                "Bacteria": "Orientia tsutsugamushi",
+                "Reservoir/vector": "Harvest mites on humans or rodents",
+                "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+              },
+              {
+                "Condition": "Queensland tick typhus",
+                "Bacteria": "Rickettsia australis",
+                "Reservoir/vector": "Ticks",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Vector": {
+          "text": "Infection is transmitted by\nfleas\nTypically rat\nfleas\nAlso Rickettsia felis (indistinguishable from R. typhi) carried by fleas on opossum and cats\nFeces containing R. typhi are deposited into wound made by flea bites\nFound in areas with large populations of urban rats\nUnited States\nSouthern Texas\nSouthern California\nInternationally: Tropical/Subtropical urban seaboard regions\nSeasonal predilection for summer months\nTexas: Spring to summer\nCalifornia:  Summer to fall",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flea",
+          "url": "https://wikem.org/wiki/Flea"
+        },
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        }
+      ]
+    },
+    "Types_of_Typhus": {
+      "text": "Multiple diseases include the word \"typhus\" in their description. Types include:",
+      "subsections": {
+        "Vector": {
+          "text": "Infection is transmitted by\nfleas\nTypically rat\nfleas\nAlso Rickettsia felis (indistinguishable from R. typhi) carried by fleas on opossum and cats\nFeces containing R. typhi are deposited into wound made by flea bites\nFound in areas with large populations of urban rats\nUnited States\nSouthern Texas\nSouthern California\nInternationally: Tropical/Subtropical urban seaboard regions\nSeasonal predilection for summer months\nTexas: Spring to summer\nCalifornia:  Summer to fall",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Condition": "Epidemic \"Louse-borne\" typhus",
+            "Bacteria": "Rickettsia prowazekii",
+            "Reservoir/vector": "Human Body louse",
+            "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+          },
+          {
+            "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+            "Bacteria": "Rickettsia typhi",
+            "Reservoir/vector": "Fleas on rats",
+            "Notes": ""
+          },
+          {
+            "Condition": "Scrub typhus",
+            "Bacteria": "Orientia tsutsugamushi",
+            "Reservoir/vector": "Harvest mites on humans or rodents",
+            "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+          },
+          {
+            "Condition": "Queensland tick typhus",
+            "Bacteria": "Rickettsia australis",
+            "Reservoir/vector": "Ticks",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        }
+      ]
+    },
+    "Vector": {
+      "text": "Infection is transmitted by\nfleas\nTypically rat\nfleas\nAlso Rickettsia felis (indistinguishable from R. typhi) carried by fleas on opossum and cats\nFeces containing R. typhi are deposited into wound made by flea bites\nFound in areas with large populations of urban rats\nUnited States\nSouthern Texas\nSouthern California\nInternationally: Tropical/Subtropical urban seaboard regions\nSeasonal predilection for summer months\nTexas: Spring to summer\nCalifornia:  Summer to fall",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        },
+        {
+          "text": "fleas",
+          "url": "https://wikem.org/wiki/Fleas"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Incubation period: 7-14 days",
+      "subsections": {
+        "Symptoms": {
+          "text": "Variable and non-specific\nOften presents as acute, self-limited illness, with no complications\n[1]\nMost Common Symptoms\nHigh\nfever\nCan last ~1 week\nRash\nMacular or maculopapular, blanching, non-pruritic\nStarts centrally and moves to the extremities\nCan involve palms/soles but usually sparing\nStarts 6-7 days after symptom onset (fever onset)\nHeadache\nArthralgias\nOther Symptoms/Complications\nHepatomegaly\nSplenomegaly\nCough\nDiarrhea\nNausea/Vomiting\nAbdominal pain\nMeningitis\nConfusion\nEndocarditis\nRarely\ndeath\n(<1% of cases)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea/Vomiting",
+          "url": "https://wikem.org/wiki/Nausea/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Variable and non-specific\nOften presents as acute, self-limited illness, with no complications\n[1]\nMost Common Symptoms\nHigh\nfever\nCan last ~1 week\nRash\nMacular or maculopapular, blanching, non-pruritic\nStarts centrally and moves to the extremities\nCan involve palms/soles but usually sparing\nStarts 6-7 days after symptom onset (fever onset)\nHeadache\nArthralgias\nOther Symptoms/Complications\nHepatomegaly\nSplenomegaly\nCough\nDiarrhea\nNausea/Vomiting\nAbdominal pain\nMeningitis\nConfusion\nEndocarditis\nRarely\ndeath\n(<1% of cases)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea/Vomiting",
+          "url": "https://wikem.org/wiki/Nausea/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Death"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Non-specific\nviral illness\nMost common admitting diagnosis in one case study was \"fever of unknown origin\"\n[2]",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        },
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "viral illness",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Infectious work up\nNot sensitive or specific\nCBC- can show\nanemia\nand\nthrombocytopenia\nLFTs\n- often elevated 3-5x normal\nLumbar puncture\n- resembles aseptic meningitis",
+      "subsections": {
+        "Diagnostic_labs": {
+          "text": "Immunofluorescent assay is the gold standard\nBecomes diagnostic with time.  Rarely positive at onset of illness.\nPCR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Diagnostic_labs": {
+      "text": "Immunofluorescent assay is the gold standard\nBecomes diagnostic with time.  Rarely positive at onset of illness.\nPCR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "May need to treat empirically while awaiting confirmatory testing.\nDoxycycline\n100mg BID continue for 3 days after resolution of symptoms\n[3]\nChildren - 2.2mg/kg BID\nChloramphenicol\n50-100mg/kg/day div Q6hr (Max dose = 4g/day)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Typhus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        }
+      ]
+    }
+  }
+}

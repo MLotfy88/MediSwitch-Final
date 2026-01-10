@@ -1,0 +1,752 @@
+{
+  "drug_name": "Nafcillin",
+  "url": "https://wikem.org/wiki/Nafcillin",
+  "scraped_at": "2026-01-10T07:57:57.284101",
+  "sections": {
+    "General": {
+      "text": "Type:\nPenicillin\n, Beta-Lactamase-Resistant Penicillin\nDosage Forms: IV\nCommon Trade Names: Nafcil, Nallpen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "0.5-2 g IV q4-6h\nMax: 12 g/day IV; Info: dose, duration varies with infection type, severity",
+          "tables": []
+        },
+        "Osteomyelitis": {
+          "text": "1-2 g IV q4h x4-6wk\nMax: 12 g/day",
+          "tables": []
+        },
+        "Bacterial_Meningitis": {
+          "text": "100-200mg/kg/day IV divided q4-6h\nMax: 12 g/day",
+          "tables": []
+        },
+        "Endocarditis,_Native_valve": {
+          "text": "2 g IV q4h x4-6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1mg/kg IV q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve": {
+          "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Bacterial_infections": {
+      "text": "0.5-2 g IV q4-6h\nMax: 12 g/day IV; Info: dose, duration varies with infection type, severity",
+      "subsections": {
+        "Osteomyelitis": {
+          "text": "1-2 g IV q4h x4-6wk\nMax: 12 g/day",
+          "tables": []
+        },
+        "Bacterial_Meningitis": {
+          "text": "100-200mg/kg/day IV divided q4-6h\nMax: 12 g/day",
+          "tables": []
+        },
+        "Endocarditis,_Native_valve": {
+          "text": "2 g IV q4h x4-6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1mg/kg IV q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve": {
+          "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Osteomyelitis": {
+      "text": "1-2 g IV q4h x4-6wk\nMax: 12 g/day",
+      "subsections": {
+        "Bacterial_Meningitis": {
+          "text": "100-200mg/kg/day IV divided q4-6h\nMax: 12 g/day",
+          "tables": []
+        },
+        "Endocarditis,_Native_valve": {
+          "text": "2 g IV q4h x4-6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1mg/kg IV q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve": {
+          "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Bacterial_Meningitis": {
+      "text": "100-200mg/kg/day IV divided q4-6h\nMax: 12 g/day",
+      "subsections": {
+        "Endocarditis,_Native_valve": {
+          "text": "2 g IV q4h x4-6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1mg/kg IV q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve": {
+          "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Endocarditis,_Native_valve": {
+      "text": "2 g IV q4h x4-6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1mg/kg IV q8h x3-5 days",
+      "subsections": {
+        "Endocarditis,_Prosthetic_valve": {
+          "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Endocarditis,_Prosthetic_valve": {
+      "text": "2 g IV q4h x6wk\nMax: 12 g/day; Info: give with\ngentamicin\n1-2mg/kg IV q8h x2wk and rifampin",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Consider decrease dose if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Consider decrease dose if concomitant hepatic impairment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Consider decrease dose if concomitant renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Bacterial_Infections_2": {
+          "text": "0-4 wk old, <1200 g\nDose: 50mg/kg/day IV divided q12h\n<1 wk old, 1200-2000 g\nDose: 50mg/kg/day IV divided q12h\n<1 wk old, >2000 g\nDose: 75mg/kg/day IV divided q8h\n1 wk old-1 mo, 1200-2000 g\nDose: 75mg/kg/day IV divided q8h\n1 wk old-1 mo, >2000 g\nDose: 100mg/kg/day IV divided q6h\n1 mo-16 yo\nDose: 50-100mg/kg/day IV divided q6h if mild-mod. infection; 100-200mg/kg/day IV divided q4-6h if severe infection; Max: 12 g/day",
+          "tables": []
+        },
+        "Endocarditis,_Native_valve_2": {
+          "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve_2": {
+          "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk or longer; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "No adjustment unless concomitant hepatic impairment\nCrCl 10-29: 9-25mg/kg q6h if concomitant hepatic impairment; CrCl <10: 7.5-15mg/kg q6h if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Bacterial_Infections_2": {
+      "text": "0-4 wk old, <1200 g\nDose: 50mg/kg/day IV divided q12h\n<1 wk old, 1200-2000 g\nDose: 50mg/kg/day IV divided q12h\n<1 wk old, >2000 g\nDose: 75mg/kg/day IV divided q8h\n1 wk old-1 mo, 1200-2000 g\nDose: 75mg/kg/day IV divided q8h\n1 wk old-1 mo, >2000 g\nDose: 100mg/kg/day IV divided q6h\n1 mo-16 yo\nDose: 50-100mg/kg/day IV divided q6h if mild-mod. infection; 100-200mg/kg/day IV divided q4-6h if severe infection; Max: 12 g/day",
+      "subsections": {
+        "Endocarditis,_Native_valve_2": {
+          "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x3-5 days",
+          "tables": []
+        },
+        "Endocarditis,_Prosthetic_valve_2": {
+          "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk or longer; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "No adjustment unless concomitant hepatic impairment\nCrCl 10-29: 9-25mg/kg q6h if concomitant hepatic impairment; CrCl <10: 7.5-15mg/kg q6h if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Endocarditis,_Native_valve_2": {
+      "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x3-5 days",
+      "subsections": {
+        "Endocarditis,_Prosthetic_valve_2": {
+          "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk or longer; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x2wk and rifampin",
+          "tables": []
+        },
+        "Renal_Dosing_2": {
+          "text": "No adjustment unless concomitant hepatic impairment\nCrCl 10-29: 9-25mg/kg q6h if concomitant hepatic impairment; CrCl <10: 7.5-15mg/kg q6h if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Endocarditis,_Prosthetic_valve_2": {
+      "text": "[1 mo-16 yo]\nDose: 200mg/kg/day IV divided q4-6h x6wk or longer; Max: 12 g/day; Info: give with\ngentamicin\n3mg/kg/day IV divided q8h x2wk and rifampin",
+      "subsections": {
+        "Renal_Dosing_2": {
+          "text": "No adjustment unless concomitant hepatic impairment\nCrCl 10-29: 9-25mg/kg q6h if concomitant hepatic impairment; CrCl <10: 7.5-15mg/kg q6h if concomitant hepatic impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing_2": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Renal_Dosing_2": {
+      "text": "No adjustment unless concomitant hepatic impairment\nCrCl 10-29: 9-25mg/kg q6h if concomitant hepatic impairment; CrCl <10: 7.5-15mg/kg q6h if concomitant hepatic impairment",
+      "subsections": {
+        "Hepatic_Dosing_2": {
+          "text": "Consider decrease dose if concomitant renal impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing_2": {
+      "text": "Consider decrease dose if concomitant renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Safety": {
+      "text": "Pregnancy: Class B\nLactation: Probably Safe",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Hypersensitivity to drug/class.\nAnaphylactic reaction to beta-lactams\nCaution if non-anaphylactic hypersensitivity to beta-lactams\nCaution if hypersensitivity to multiple allergens\nCaution if asthma or history of asthma.\nCaution if recent antibiotic-associated colitis\nCaution if seizure disorder\nCaution if concomitant hepatic and renal impairment\nCaution if sodium restriction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nHypersensitivity reaction, immediate or delayed\nSerum sickness-like reaction\nNeutropenia\nAgranulocytosis\nMyelosuppression\nClostridium difficile associated diarrhea\nRenal tubular necrosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nNausea/Vomiting\nUtricaria\nPruritus\nRash\nFever\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nHypersensitivity reaction, immediate or delayed\nSerum sickness-like reaction\nNeutropenia\nAgranulocytosis\nMyelosuppression\nClostridium difficile associated diarrhea\nRenal tubular necrosis",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nNausea/Vomiting\nUtricaria\nPruritus\nRash\nFever\nEosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nNausea/Vomiting\nUtricaria\nPruritus\nRash\nFever\nEosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30-90 min\nMetabolism: Liver; CYP450:3A4 inducer\nExcretion: bile (primarily), urine\nMechanism of Action: bactericidal; inhibits cell wall mucopeptide synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

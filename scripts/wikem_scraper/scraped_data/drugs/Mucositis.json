@@ -1,0 +1,90 @@
+{
+  "drug_name": "Mucositis",
+  "url": "https://wikem.org/wiki/Mucositis",
+  "scraped_at": "2026-01-10T07:57:46.778967",
+  "sections": {
+    "Background": {
+      "text": "One of the most common side effects of cancer treatment with chemotherapy or radiation\n[1]\nOccurs in almost all cases of head or neck radiation\n20-80% of people who receive chemotherapy\nMajor dose limiting toxicity of chemotherapy and head and neck radiation therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_features": {
+      "text": "Stomatotoxic effect begins approximately 7 days after therapy\nErythema of the soft tissue of buccal mucosa or soft palate and burning sensation in mouth->elevated, white desquamative patches->epithelial sloughing leading to shallow ulcerations with pseudomembranous look->coalesce into large, painful ulcerations\nErythema and ulcerations of the mucosal lining of the gastrointestinal tract\nCauses\ndysphagia\n, changes in taste, secondary infections, weight loss\nOral mucositis is associated with increased inpatient hospitalization duration,\nbacteremia\nand higher 100‐day mortality.\nGI mucositis is associated with\nnausea/vomiting\n, bloating,\ndiarrhea\n, intestinal cramping and anal pain.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Oral candidiasis\nHerpes simplex virus\ninfection\nAcute\ngraft-versus-host disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oral candidiasis",
+          "url": "https://wikem.org/wiki/Oral_candidiasis"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Graft-versus-host_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is typically clinical, based on history and exam\nGrading system: National Cancer Institute Common Terminology Criteria for Adverse Events(CTCAE)\n[2]\nGrade 1 - Aysymptomatic or mild symptoms, no intervention needed\nGrade 2 - Moderate pain or ulcer that does not interfere with oral intake, modified diet indicated\nGrade 3 - Severe pain, interfering with oral intake\nGrade 4 - Life threatening consequences; urgent intervention indicated\nGrade 5 - Death",
+      "subsections": {
+        "Workup": {
+          "text": "Typically clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Typically clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "2020 guidelines from Multinational Association of Supportive Care in Cancer and International Society for Oral Oncology (MASCC/ISOO):\nPrevention with multi agent, combination oral care\n[3]\nTooth brushing, flossing, mouthwashes (bland rinses, reduce bacterial build‐up) and applying moisturizing agents to the oral mucosal surfaces\nbenzydamine mouthwash for prevention\nTopical morphine 0.2% mouthwash\nHoney\nMucosal-protective agents(oral antacids, Gelcair, Orabase, Episil, topical kaolin/pectin) without any concrete evidence showing effectiveness\nSaline and sodium bicarb rinses\nNo strong evidence but relatively harmless, expert opinion level of recommendation\nChewing gum was NOT effective in preventing oral mucositis in pediatrics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for PO intolerance, significant weight loss, otherwise typically discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Epstein JB, Schubert MM. Oropharyngeal mucositis in cancer therapy. Review of pathogenesis, diagnosis, and management. Oncology (Williston Park). 2003;17(12):1767-1792.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

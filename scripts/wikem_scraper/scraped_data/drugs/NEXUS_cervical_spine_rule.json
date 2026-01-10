@@ -1,0 +1,72 @@
+{
+  "drug_name": "NEXUS_cervical_spine_rule",
+  "url": "https://wikem.org/wiki/NEXUS_cervical_spine_rule",
+  "scraped_at": "2026-01-10T07:57:53.559841",
+  "sections": {
+    "Background": {
+      "text": "Inclusion criteria is\nblunt neck trauma\n99.6% sensitive for a clinically important injury (only 12.9% Sp)\nOnly 8.6% of patients were elderly in the initial study; use caution in applying to elderly\nNexus does not risk stratify based on age like CCR\nSmall studies show elderly patients with c-spine fractures do not often have midline tenderness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "NEXUS_Cervical_Spine_Rule": {
+          "text": "Radiography is not necessary if the patient satisfies\nALL\nof the following low risk criteria:\nNo midline cervical tenderness\nNo focal neuro deficits\nNormal alertness\nNo intoxication\nNo painful distracting injury\nC-spine imaging should be considered unless the patient meets all of the above low risk criteria\n[1]\n[2]\nMnemonic -\nNSAID\n:\nN\neuro deficit\nS\npinal midline tenderness in C-spine\nA\nlertness\nI\nntoxication\nD\nistracting injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "NEXUS_Cervical_Spine_Rule": {
+      "text": "Radiography is not necessary if the patient satisfies\nALL\nof the following low risk criteria:\nNo midline cervical tenderness\nNo focal neuro deficits\nNormal alertness\nNo intoxication\nNo painful distracting injury\nC-spine imaging should be considered unless the patient meets all of the above low risk criteria\n[1]\n[2]\nMnemonic -\nNSAID\n:\nN\neuro deficit\nS\npinal midline tenderness in C-spine\nA\nlertness\nI\nntoxication\nD\nistracting injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Blunt neck trauma\nC-Spine X-Ray\nCervical spine clearance\nCanadian cervical spine rule\nEBQ:Canadian C-spine Rule Study\nEBQ:NEXUS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "C-Spine X-Ray",
+          "url": "https://wikem.org/wiki/C-Spine_X-Ray"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        },
+        {
+          "text": "EBQ:Canadian C-spine Rule Study",
+          "url": "https://wikem.org/wiki/EBQ:Canadian_C-spine_Rule_Study"
+        },
+        {
+          "text": "EBQ:NEXUS",
+          "url": "https://wikem.org/wiki/EBQ:NEXUS"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc Canadian C-Spine Rule\nMDCalc NEXUS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

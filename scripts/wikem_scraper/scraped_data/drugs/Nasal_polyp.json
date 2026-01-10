@@ -1,0 +1,48 @@
+{
+  "drug_name": "Nasal_polyp",
+  "url": "https://wikem.org/wiki/Nasal_polyp",
+  "scraped_at": "2026-01-10T07:58:00.867627",
+  "sections": {
+    "Background": {
+      "text": "Benign masses filled with inflammatory material that may form in the nasal cavity or paranasal sinuses\nCan be associated with cystic fibrosis in children\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nasal airway congestion or obstruction\nThick nasal discharge\nAnosmia\nMay present in patients with chronic rhinosinusitis, asthma, and aspirin sensitivity (in the syndrome of aspirin-exacerbated respiratory disease)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Choanal atresia\nMucocele\nDeviated or dislocated nasal septum\nHematoma\nChordoma\nIsolated piriform aperture stenosis\nNasal dermoid\nNasolacrimal duct cyst\nTurbinate hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Physical exam with a nasal speculum or rhinoscope\nAppear as gray, glistening masses\nMay also be visualized on CT imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Intranasal glucocorticoids are preferred\n[2]\nOral glucocorticoids should only be used in severe or refractory cases\nConsider treatment of underlying allergies, antileukotriene agents, and daily saline lavage of the sinuses\nIndividuals who fail medical therapy should be considered for surgery\nSurgery may only offer temporary relief as polyps tend to recur after surgery alone\nContinued medical therapy should follow surgery\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge, outpatient follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

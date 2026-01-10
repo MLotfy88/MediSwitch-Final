@@ -1,0 +1,221 @@
+{
+  "drug_name": "N-Acetylcysteine",
+  "url": "https://wikem.org/wiki/N-Acetylcysteine",
+  "scraped_at": "2026-01-10T07:57:54.950019",
+  "sections": {
+    "General": {
+      "text": "Acetylcysteine, or\nN\n-acetylcysteine (NAC), is a medication that is used to treat acetaminophen overdose. It can also be used as a nebulized medication to help loosen thick pulmonary sections.\nWhen acetaminophen is taken in large doses, a toxic metabolite N-acetyl-pbenzoquinone imine (NAPQI) accumulates in the body. NAC helps to replete glutathione reserves in the liver, which helps the liver prevent damage from the hepatotoxic NAPQI metabolite.\nType: Antioxidant,\nantidote\nDosage Forms:, IV, PO, Nebulized\nCommon Trade Names: NAC;",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "PO": {
+          "text": "Less preferred than IV route due to unpleasant taste and smell\n140 mg/kg PO load\n70 mg/kg PO q4hr x17 doses additional; dilute to 5% soln",
+          "tables": []
+        },
+        "IV": {
+          "text": "Loading dose: 150mg/kg in 100 mL D5W over 60min\nSecond (maintenance) dose: 50mg/kg in 250 mL D5W over 4hr\nThird dose: 100mg/kg in 500 mL D5W over 16hr",
+          "tables": []
+        },
+        "Comments": {
+          "text": "Almost 100% effective if given <8 hr post-ingestion; less effective if 16-24 hr post-ingestion\nMay still be useful >24 hr post-ingestion, even with fulminant hepatic failure. Give NAC until LFTs improve (not until APAP level is 0)\n[1]\n[2]\nBe aware NAC treatment may affect PT. May see a dose-dependent increase in PT following NAC in patients without hepatotoxicity.\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acetaminophen_toxicity": {
+      "text": "",
+      "subsections": {
+        "PO": {
+          "text": "Less preferred than IV route due to unpleasant taste and smell\n140 mg/kg PO load\n70 mg/kg PO q4hr x17 doses additional; dilute to 5% soln",
+          "tables": []
+        },
+        "IV": {
+          "text": "Loading dose: 150mg/kg in 100 mL D5W over 60min\nSecond (maintenance) dose: 50mg/kg in 250 mL D5W over 4hr\nThird dose: 100mg/kg in 500 mL D5W over 16hr",
+          "tables": []
+        },
+        "Comments": {
+          "text": "Almost 100% effective if given <8 hr post-ingestion; less effective if 16-24 hr post-ingestion\nMay still be useful >24 hr post-ingestion, even with fulminant hepatic failure. Give NAC until LFTs improve (not until APAP level is 0)\n[1]\n[2]\nBe aware NAC treatment may affect PT. May see a dose-dependent increase in PT following NAC in patients without hepatotoxicity.\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Acetaminophen_toxicity_2": {
+          "text": "For children there is a diluent added to the\nNAC\nso that there is no electrolyte and volume complications.",
+          "tables": []
+        },
+        "PO_2": {
+          "text": "140 mg/kg body weight, orally, once as a loading dose\nMaintenance Dose: 70 mg/kg body weight, orally, 4 hours after the loading dose and every 4 hours for 17 total doses, unless repeated acetaminophen assays reveal nontoxic levels\n100 to 109 kg:\nLoading dose: 15 g (75 mL)\nin 225 mL diluent;\ntotal volume: 300 mL\nMaintenance Dose: 7.5 g (37 mL)\nin 113 mL diluent;\ntotal volume: 150 mL\n90 to 99 kg:\nLoading dose: 14 g (70 mL)\nin 210 mL diluent;\ntotal volume: 280 mL\nMaintenance Dose: 7 g (35 mL)\nin 105 mL diluent;\ntotal volume: 140 mL\n80 to 89 kg\nLoading dose: 13 g (65 mL)\nin 195 mL diluent\n; total volume: 260 mL\nMaintenance Dose: 6.5 g (33 mL)\nin 97 mL diluent\n; total volume: 130 mL\n70 to 79 kg\nLoading dose: 11 g (55 mL) in\n165 mL in diluent\n; total volume: 220 mL\nMaintenance Dose: 5.5 g (28 mL) in\n82 mL diluent\n; total volume: 110 mL\n60 to 69 kg\nLoading dose: 10 g (50 mL)\nin 150 mL diluent\n; total volume: 200 mL\nMaintenance Dose: 5 g (25 mL)\nin 75 mL diluent\n; total volume: 100 mL\n50 to 59 kg\nLoading dose: 8 g (40 mL) in\n120 mL diluent\n; total volume: 160 mL\nMaintenance Dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\n40 to 49 kg\nLoading dose: 7 g (35 mL)\nin 105 mL diluent\n; total volume: 140 mL\nMaintenance Dose: 3.5 g (18 mL)\nin 52 mL diluent\n; total volume: 70 mL\n30 to 39 kg\nLoading dose: 6 g (30 mL)\nin 90 mL diluent\n; total volume: 120 mL\nMaintenance Dose: 3 g (15 mL)\nin 45 mL diluent\n; total volume: 60 mL\n20 to 29 kg\nLoading dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\nMaintenance Dose: 2 g (10 mL)\nin 30 mL diluent\n; total volume: 40 mL\nLess than 20 kg\nAdd 3 mL of diluent to each 1 mL (200 mg) of 20% acetylcysteine solution\nLoading dose: 140 g/kg\nMaintenance Dose: 70 g/kg",
+          "tables": []
+        },
+        "IV_2": {
+          "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Acetaminophen_toxicity_2": {
+      "text": "For children there is a diluent added to the\nNAC\nso that there is no electrolyte and volume complications.",
+      "subsections": {
+        "PO_2": {
+          "text": "140 mg/kg body weight, orally, once as a loading dose\nMaintenance Dose: 70 mg/kg body weight, orally, 4 hours after the loading dose and every 4 hours for 17 total doses, unless repeated acetaminophen assays reveal nontoxic levels\n100 to 109 kg:\nLoading dose: 15 g (75 mL)\nin 225 mL diluent;\ntotal volume: 300 mL\nMaintenance Dose: 7.5 g (37 mL)\nin 113 mL diluent;\ntotal volume: 150 mL\n90 to 99 kg:\nLoading dose: 14 g (70 mL)\nin 210 mL diluent;\ntotal volume: 280 mL\nMaintenance Dose: 7 g (35 mL)\nin 105 mL diluent;\ntotal volume: 140 mL\n80 to 89 kg\nLoading dose: 13 g (65 mL)\nin 195 mL diluent\n; total volume: 260 mL\nMaintenance Dose: 6.5 g (33 mL)\nin 97 mL diluent\n; total volume: 130 mL\n70 to 79 kg\nLoading dose: 11 g (55 mL) in\n165 mL in diluent\n; total volume: 220 mL\nMaintenance Dose: 5.5 g (28 mL) in\n82 mL diluent\n; total volume: 110 mL\n60 to 69 kg\nLoading dose: 10 g (50 mL)\nin 150 mL diluent\n; total volume: 200 mL\nMaintenance Dose: 5 g (25 mL)\nin 75 mL diluent\n; total volume: 100 mL\n50 to 59 kg\nLoading dose: 8 g (40 mL) in\n120 mL diluent\n; total volume: 160 mL\nMaintenance Dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\n40 to 49 kg\nLoading dose: 7 g (35 mL)\nin 105 mL diluent\n; total volume: 140 mL\nMaintenance Dose: 3.5 g (18 mL)\nin 52 mL diluent\n; total volume: 70 mL\n30 to 39 kg\nLoading dose: 6 g (30 mL)\nin 90 mL diluent\n; total volume: 120 mL\nMaintenance Dose: 3 g (15 mL)\nin 45 mL diluent\n; total volume: 60 mL\n20 to 29 kg\nLoading dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\nMaintenance Dose: 2 g (10 mL)\nin 30 mL diluent\n; total volume: 40 mL\nLess than 20 kg\nAdd 3 mL of diluent to each 1 mL (200 mg) of 20% acetylcysteine solution\nLoading dose: 140 g/kg\nMaintenance Dose: 70 g/kg",
+          "tables": []
+        },
+        "IV_2": {
+          "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "PO_2": {
+      "text": "140 mg/kg body weight, orally, once as a loading dose\nMaintenance Dose: 70 mg/kg body weight, orally, 4 hours after the loading dose and every 4 hours for 17 total doses, unless repeated acetaminophen assays reveal nontoxic levels\n100 to 109 kg:\nLoading dose: 15 g (75 mL)\nin 225 mL diluent;\ntotal volume: 300 mL\nMaintenance Dose: 7.5 g (37 mL)\nin 113 mL diluent;\ntotal volume: 150 mL\n90 to 99 kg:\nLoading dose: 14 g (70 mL)\nin 210 mL diluent;\ntotal volume: 280 mL\nMaintenance Dose: 7 g (35 mL)\nin 105 mL diluent;\ntotal volume: 140 mL\n80 to 89 kg\nLoading dose: 13 g (65 mL)\nin 195 mL diluent\n; total volume: 260 mL\nMaintenance Dose: 6.5 g (33 mL)\nin 97 mL diluent\n; total volume: 130 mL\n70 to 79 kg\nLoading dose: 11 g (55 mL) in\n165 mL in diluent\n; total volume: 220 mL\nMaintenance Dose: 5.5 g (28 mL) in\n82 mL diluent\n; total volume: 110 mL\n60 to 69 kg\nLoading dose: 10 g (50 mL)\nin 150 mL diluent\n; total volume: 200 mL\nMaintenance Dose: 5 g (25 mL)\nin 75 mL diluent\n; total volume: 100 mL\n50 to 59 kg\nLoading dose: 8 g (40 mL) in\n120 mL diluent\n; total volume: 160 mL\nMaintenance Dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\n40 to 49 kg\nLoading dose: 7 g (35 mL)\nin 105 mL diluent\n; total volume: 140 mL\nMaintenance Dose: 3.5 g (18 mL)\nin 52 mL diluent\n; total volume: 70 mL\n30 to 39 kg\nLoading dose: 6 g (30 mL)\nin 90 mL diluent\n; total volume: 120 mL\nMaintenance Dose: 3 g (15 mL)\nin 45 mL diluent\n; total volume: 60 mL\n20 to 29 kg\nLoading dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\nMaintenance Dose: 2 g (10 mL)\nin 30 mL diluent\n; total volume: 40 mL\nLess than 20 kg\nAdd 3 mL of diluent to each 1 mL (200 mg) of 20% acetylcysteine solution\nLoading dose: 140 g/kg\nMaintenance Dose: 70 g/kg",
+      "subsections": {
+        "IV_2": {
+          "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IV_2": {
+      "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nBoth IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[4]\nIV formulation may be preferred to increase fetal NAC concentrations\nLactation:\nUnknown if excreted in breast milk\nRenal Dosing\nAdult\nNot defined\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylactoid reaction but also associated with seizures, cerebral edema, & herniation.\n[5]\nAnaphylaxis\nresponds to standard therapies and can usually restart NAC safely without complications.\n[6]\nNo treatment is necessary for isolated flushing\nIf urticaria, then\nDiphenhydramine\nIf angioedema, bronchospasm, or hypotension, then\nDiphenhydramine\n, corticosteroids, and bronchodilators along with cessation of the NAC\nRestart NAC infusion at a slower rate 1 hour after administration of medical therapy\nEpinephrine\nis not recommended although it can be used in patients with severe progressive symptoms\n[7]",
+          "tables": []
+        },
+        "Common": {
+          "text": "sulfur-smell causes nausea and vomiting. Consider mixing with juice or soda, in a cup with a lid and straw",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylactoid reaction but also associated with seizures, cerebral edema, & herniation.\n[5]\nAnaphylaxis\nresponds to standard therapies and can usually restart NAC safely without complications.\n[6]\nNo treatment is necessary for isolated flushing\nIf urticaria, then\nDiphenhydramine\nIf angioedema, bronchospasm, or hypotension, then\nDiphenhydramine\n, corticosteroids, and bronchodilators along with cessation of the NAC\nRestart NAC infusion at a slower rate 1 hour after administration of medical therapy\nEpinephrine\nis not recommended although it can be used in patients with severe progressive symptoms\n[7]",
+      "subsections": {
+        "Common": {
+          "text": "sulfur-smell causes nausea and vomiting. Consider mixing with juice or soda, in a cup with a lid and straw",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "Common": {
+      "text": "sulfur-smell causes nausea and vomiting. Consider mixing with juice or soda, in a cup with a lid and straw",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nReduced acetylcysteine: 2 hours\nTotal acetylcysteine: Adults: 5.6 hours, Newborns: 11 hours\nMetabolism:\nExcretion:\nUrine (13 - 38%)\nMechanism of Action:\nIntravenous acetylcysteine is indicated for the treatment of acetaminophen overdose by preventing depletion of glutathione reserves.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acetaminophen (tylenol) toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen (tylenol) toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        }
+      ]
+    }
+  }
+}

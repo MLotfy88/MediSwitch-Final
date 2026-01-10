@@ -1,0 +1,112 @@
+{
+  "drug_name": "Myelophthistic_anemia",
+  "url": "https://wikem.org/wiki/Myelophthistic_anemia",
+  "scraped_at": "2026-01-10T07:57:50.156253",
+  "sections": {
+    "Background": {
+      "text": "Form of normocytic\nanemia\nAssociated with infiltrative disorder or bone marrow in the setting of malignancy--\nleukemia\n,\nlymphoma\n, granuloma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Anemia\nin patient with history of malignancy\nPale skin\nTachycardia\n/\nhypotension\nin severe cases\nHepatosplenomegaly\nas sign of extra medullary hematopoiesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Aplastic anemia\nMyelofibrosis\nAcute blood\nloss anemia\nBone marrow suppression\nAnemia of chronic disease\nHemolytic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Myelofibrosis",
+          "url": "https://wikem.org/wiki/Myelofibrosis"
+        },
+        {
+          "text": "Acute blood",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Requires bone marrow biopsy\nLabs show normocytic anemia with decreased reticulocyte count\nExam with signs of extra medullary hematopoiesis\nIndex of suspicion in setting of malignancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Identify anemia as emergent or non-emergent\nEvaluate for superimposed etiologies of anemia (Ie acute blood loss) and target treatment in the ED\nIf emergent anemia get IV access,\ntransfuse\nfor signs of end organ damage--altered mental status, hypotension, chest pain, shortness of breath, decreased UOP\nWill need treatment of underlying malignancy to allow marrow recovery while supporting hemodynamics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "transfuse",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for bone marrow biopsy and treatment of underlying disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rosen, Peter, John A. Marx, Robert S. Hockberger, and Ron M. Walls. \"Anemia\". Rosen's Emergency Medicine Concepts and Clinical Practice. 8th ed. Vol. 2. Philadelphia, PA: Elsevier/Saunders, 2013.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

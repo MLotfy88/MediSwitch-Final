@@ -1,0 +1,434 @@
+{
+  "drug_name": "Multiple_myeloma",
+  "url": "https://wikem.org/wiki/Multiple_myeloma",
+  "scraped_at": "2026-01-10T07:57:46.034019",
+  "sections": {
+    "Background": {
+      "text": "Malignant proliferation of plasma cells  overproduction of abnormal antibodies (paraproteins or light-chain protein)\nOsteoclasts are activated through the RANK pathway by the abnormal antibodies leading to osteolytic lesions\nSymptoms result from accumulation of plasma cells and paraproteins\nMost common primary bone malignancy\nMore commonly seen in African Americans and males",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Percentages below correspond to clinical presentations in newly diagnosed disease\nBone (plasma cell proliferation in marrow) lesions in ~80%\nPathologic\nfractures\nDue to lytic lesions and osteopenia\n”Punched-out” lytic lesion on x-ray\nFrequently involve spine, as well as ribs, skull, extremities\nBone pain (even in absence of fracture) in ~60%\n[1]\nCommonly in back, ribs, extremities, often worse with movement\nRenal impairment\nin 20-40%\n[2]\nRanges from mild creatinine elevation to\nESRD\nDue to light-chain deposition, myeloma cast nephropathy and/or amyloidosis\nHypercalcemia\nexacerbates\nVulnerable to further damage from nephrotoxic mediations/contrast\nHematologic\nAnemia\nin ~70%\n[3]\nDue to plasma cell infiltration in marrow +/- renal failure\nHyperviscosity syndrome\nIncrease serum viscosity due to paraproteins  poor capillary flow and organ congestion\nCryoglobulinemic vasculitis\nAltered mental status, syncope, stroke\nRouleaux formation on peripheral smear\nNeuro\nSpinal cord compression\ndue to vertebral fracture or collapse or plasmacytoma\nIntracranial plasmacytoma (rare)\nPeripheral neuropathy, radiculopathy\nHypercalcemia\nDue to local osteolysis\nThough overall uncommon as first presentation finding\nInfection\nMost common cause of death in patients with multiple myeloma\nImpaired plasma cell function decreased effective antibody production\nOften on immunosuppressive chemotherapy or bone marrow transplant meds\nSplinting due to rib pain/fractures increased pneumonia risk\nCoagulopathy can occur due to dysfibrinogenemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Renal impairment",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Spinal cord compression",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        },
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        },
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chondrosarcoma",
+          "url": "https://wikem.org/wiki/Chondrosarcoma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Definitive diagnosis is by biopsy of marrow or plasmacytoma\nCBC\nPeripheral smear- may see Rouleaux formation of RBCs, atypical plasma cells\nBMP, ionized Ca, Mg, phos\nParaproteins bind calcium, so non-ionized Ca levels could be falsely elevated\nPseudohyponatremia from paraproteinemia\nHyperphosphatemia from increased bone turnover\nSerum and urine testing for monoclonal protein (to aid in initial diagnosis if patient not already known to have MM)\nSPEP and UPEP electrophoresis\nUrine analysis will show large, waxy, laminated casts due to monoclonal proteins known as Bence Jones proteinuria\nUrine dipstick will be negative for protein as it detects albumin rather than monoclonal proteins\nMost common monoclonal proteins in order are as follows: IgG, IgA, Kappa > lambda light chains\nOther work up contingent on presentation:\nMRI spine: low threshold if any clinical evidence of cord compression\nPlain films of suspected pathologic fractures\nInfectious work up\nECG can show shortened QT interval secondary to hypercalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat pain\nConsider referring to\npalliative care\nif feasible (or suggesting consult to patient/inpatient team)\nManage other complications:\nIf\nfebrile\n, get cultures, start broad-spectrum\nantibiotics\nSplint\nfractures\nand/or consult ortho as appropriate\nSee\nHypercalcemia\n,\nHypercalcemia of malignancy\nPrednisone\n60mg PO daily can be helpful in addition to standard hypercalcemia treatments\nSee\nCord Compression\n,\nMalignant spinal cord compression\n,\nEpidural compression syndromes\nSee\nRenal failure\nSee\nAnemia\nIf patient is eligible for transplant and indication equivocal, may want to avoid transfusion and/or consult oncology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Treat pain",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "palliative care",
+          "url": "https://wikem.org/wiki/Palliative_care"
+        },
+        {
+          "text": "febrile",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Cord Compression",
+          "url": "https://wikem.org/wiki/Cord_Compression"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consideration for heme/onc consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies\nLymphoma\nHypercalcemia of malignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Emergency Medicine Cases Episode 33: Oncologic Emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Multiple Myeloma. Antonio Palumbo, M.D., and Kenneth Anderson, M.D. N Engl J Med 2011; 364:1046-1060March 17, 2011. DOI: 10.1056/NEJMra1011442",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

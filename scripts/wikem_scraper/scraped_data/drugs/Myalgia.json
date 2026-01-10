@@ -1,0 +1,415 @@
+{
+  "drug_name": "Myalgia",
+  "url": "https://wikem.org/wiki/Myalgia",
+  "scraped_at": "2026-01-10T07:57:44.791415",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Muscle pain/ache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Myalgia": {
+          "text": "Infection:\nViral infection\n(e.g.\nInfluenza\n)\nBacterial infection\nSpirochete infection (E.g.\nDengue fever\n;\nTrichinella\n)\nDrugs:\nStatins\nBisphosphonates\nCorticosteroids\nCiprofloxacin\nClofibrate\nColchicine\nChloroquine\nEmetine\nAminocaproic acid\nZidovudine\nBretylium\nPenicillamine\nDrugs causing\nhypokalemia\nMetabolic disorders:\nVitamin D deficiency\nMitochondrial myopathy\nScurvy\nOsteomalacia\nFibromyalgia\nEndocrine:\nHypothyroidism\nHyperthyroidism\nCushing’s syndrome\nAdrenal insufficiency\nHyperparathyroidism\nPolymyalgia rheumatica\nRhabdomyolysis\nMyositis\nPolymyositis\nDermatomyositis\nMyositis (peds)\nSystemic lupus erythematosus\nRheumatoid arthritis\nInclusion body myositis\nSarcoidosis\nScleroderma\nSjögren’s syndrome\nPsychiatric (e.g. somatic manifestations of\ndepression\n)\nDomestic abuse\nCrush injury\nLyme disease\nEhlers-Danlos syndrome\n(hypermobility syndrome)\nHIV\nmyopathy\nHypophosphatemia\nHypokalemia\nHypothermia\nProlonged immobility\nStrenuous exercise (overuse) or\nheat stroke\nSeizure\nSevere\nvolume contraction\nAlcoholism\nMuscular dystrophy\nDuchenne\nBecker\nLimb-girdle\nFacioscapulohumeral\nMyotonic dystrophy\nMyotonia congenita\nCompartment syndrome\n; Muscle infarction\nNeuropathic\nChronic fatigue syndrome\nVasculitis\nSarcocystosis\nSpinal stenosis\nDiabetic lumbosacral plexopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral infection",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Bacterial infection",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "Dengue fever",
+          "url": "https://wikem.org/wiki/Dengue_fever"
+        },
+        {
+          "text": "Trichinella",
+          "url": "https://wikem.org/wiki/Trichinella"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Cushing’s syndrome",
+          "url": "https://wikem.org/wiki/Cushing%E2%80%99s_syndrome"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Polymyalgia rheumatica",
+          "url": "https://wikem.org/wiki/Polymyalgia_rheumatica"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Myositis (peds)",
+          "url": "https://wikem.org/wiki/Myositis_(peds)"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Domestic abuse",
+          "url": "https://wikem.org/wiki/Domestic_abuse"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Ehlers-Danlos syndrome",
+          "url": "https://wikem.org/wiki/Ehlers-Danlos_syndrome"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "volume contraction",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        }
+      ]
+    },
+    "Myalgia": {
+      "text": "Infection:\nViral infection\n(e.g.\nInfluenza\n)\nBacterial infection\nSpirochete infection (E.g.\nDengue fever\n;\nTrichinella\n)\nDrugs:\nStatins\nBisphosphonates\nCorticosteroids\nCiprofloxacin\nClofibrate\nColchicine\nChloroquine\nEmetine\nAminocaproic acid\nZidovudine\nBretylium\nPenicillamine\nDrugs causing\nhypokalemia\nMetabolic disorders:\nVitamin D deficiency\nMitochondrial myopathy\nScurvy\nOsteomalacia\nFibromyalgia\nEndocrine:\nHypothyroidism\nHyperthyroidism\nCushing’s syndrome\nAdrenal insufficiency\nHyperparathyroidism\nPolymyalgia rheumatica\nRhabdomyolysis\nMyositis\nPolymyositis\nDermatomyositis\nMyositis (peds)\nSystemic lupus erythematosus\nRheumatoid arthritis\nInclusion body myositis\nSarcoidosis\nScleroderma\nSjögren’s syndrome\nPsychiatric (e.g. somatic manifestations of\ndepression\n)\nDomestic abuse\nCrush injury\nLyme disease\nEhlers-Danlos syndrome\n(hypermobility syndrome)\nHIV\nmyopathy\nHypophosphatemia\nHypokalemia\nHypothermia\nProlonged immobility\nStrenuous exercise (overuse) or\nheat stroke\nSeizure\nSevere\nvolume contraction\nAlcoholism\nMuscular dystrophy\nDuchenne\nBecker\nLimb-girdle\nFacioscapulohumeral\nMyotonic dystrophy\nMyotonia congenita\nCompartment syndrome\n; Muscle infarction\nNeuropathic\nChronic fatigue syndrome\nVasculitis\nSarcocystosis\nSpinal stenosis\nDiabetic lumbosacral plexopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral infection",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Bacterial infection",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "Dengue fever",
+          "url": "https://wikem.org/wiki/Dengue_fever"
+        },
+        {
+          "text": "Trichinella",
+          "url": "https://wikem.org/wiki/Trichinella"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Cushing’s syndrome",
+          "url": "https://wikem.org/wiki/Cushing%E2%80%99s_syndrome"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Polymyalgia rheumatica",
+          "url": "https://wikem.org/wiki/Polymyalgia_rheumatica"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Myositis (peds)",
+          "url": "https://wikem.org/wiki/Myositis_(peds)"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Domestic abuse",
+          "url": "https://wikem.org/wiki/Domestic_abuse"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Ehlers-Danlos syndrome",
+          "url": "https://wikem.org/wiki/Ehlers-Danlos_syndrome"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "volume contraction",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Myalgias can be divided into diffuse (systemic) myalgias vs. localized myalgias.\nMuscle pain can come from\nrhabdomyolysis\n,\nmyositis\n, or myopathy.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        }
+      ]
+    }
+  }
+}

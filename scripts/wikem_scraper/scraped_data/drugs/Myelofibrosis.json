@@ -1,0 +1,203 @@
+{
+  "drug_name": "Myelofibrosis",
+  "url": "https://wikem.org/wiki/Myelofibrosis",
+  "scraped_at": "2026-01-10T07:57:50.896738",
+  "sections": {
+    "Background": {
+      "text": "Chronic\nmyeloproliferative disorder\nAbnormal proliferation is seen in all 3 cell lines\nTypically in elderly\nCan be asymptomatic or symptomatic\nCan be primary or develop secondary to\npolycythemia vera\nor\nessential thrombocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative disorder",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Palpable splenomegaly\nBone pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Polycythemia vera\n(PV)\nEssential thrombocytosis\n(ET)\nChronic myelogenous leukemia\n(CML)\nLeukemoid Reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Chronic myelogenous leukemia",
+          "url": "https://wikem.org/wiki/Chronic_myelogenous_leukemia"
+        },
+        {
+          "text": "Leukemoid Reaction",
+          "url": "https://wikem.org/wiki/Leukemoid_Reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nBlood smear\nChem 7\nBone marrow biopsy",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Anemia\nPancytopenia\n(in late disease)\nIncreased serum LDH\nCriteria: The diagnosis of primary myelofibrosis requires meeting all 3 major criteria and 2 minor criteria.",
+          "tables": [
+            [
+              {
+                "Major criteria": "Megakaryocyte proliferation and atypia with reticulin and/or collagen fibrosis,or with increased marrow cellularity, granulocytic proliferation, and decreased erythropoiesis"
+              },
+              {
+                "Major criteria": "Not meeting WHO criteria for CML, PV, MDS, or other myeloid neoplasm"
+              },
+              {
+                "Major criteria": "Demonstration of JAK2V617F or other clonal marker or no evidence of reactive bone marrow fibrosis"
+              }
+            ],
+            [
+              {
+                "Minor criteria": "Leukoerythroblastosis"
+              },
+              {
+                "Minor criteria": "Increased serum LDH"
+              },
+              {
+                "Minor criteria": "Anemia"
+              },
+              {
+                "Minor criteria": "Palpable splenomegaly"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nBlood smear\nChem 7\nBone marrow biopsy",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Anemia\nPancytopenia\n(in late disease)\nIncreased serum LDH\nCriteria: The diagnosis of primary myelofibrosis requires meeting all 3 major criteria and 2 minor criteria.",
+          "tables": [
+            [
+              {
+                "Major criteria": "Megakaryocyte proliferation and atypia with reticulin and/or collagen fibrosis,or with increased marrow cellularity, granulocytic proliferation, and decreased erythropoiesis"
+              },
+              {
+                "Major criteria": "Not meeting WHO criteria for CML, PV, MDS, or other myeloid neoplasm"
+              },
+              {
+                "Major criteria": "Demonstration of JAK2V617F or other clonal marker or no evidence of reactive bone marrow fibrosis"
+              }
+            ],
+            [
+              {
+                "Minor criteria": "Leukoerythroblastosis"
+              },
+              {
+                "Minor criteria": "Increased serum LDH"
+              },
+              {
+                "Minor criteria": "Anemia"
+              },
+              {
+                "Minor criteria": "Palpable splenomegaly"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Anemia\nPancytopenia\n(in late disease)\nIncreased serum LDH\nCriteria: The diagnosis of primary myelofibrosis requires meeting all 3 major criteria and 2 minor criteria.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Major criteria": "Megakaryocyte proliferation and atypia with reticulin and/or collagen fibrosis,or with increased marrow cellularity, granulocytic proliferation, and decreased erythropoiesis"
+          },
+          {
+            "Major criteria": "Not meeting WHO criteria for CML, PV, MDS, or other myeloid neoplasm"
+          },
+          {
+            "Major criteria": "Demonstration of JAK2V617F or other clonal marker or no evidence of reactive bone marrow fibrosis"
+          }
+        ],
+        [
+          {
+            "Minor criteria": "Leukoerythroblastosis"
+          },
+          {
+            "Minor criteria": "Increased serum LDH"
+          },
+          {
+            "Minor criteria": "Anemia"
+          },
+          {
+            "Minor criteria": "Palpable splenomegaly"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Blood transfusion\nRuxolitinib\nAllogeneic stem cell transplantation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood transfusion",
+          "url": "https://wikem.org/wiki/Blood_transfusion"
+        }
+      ]
+    }
+  }
+}

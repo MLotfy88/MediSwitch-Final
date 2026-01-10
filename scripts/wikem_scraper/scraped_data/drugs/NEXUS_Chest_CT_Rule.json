@@ -1,0 +1,37 @@
+{
+  "drug_name": "NEXUS_Chest_CT_Rule",
+  "url": "https://wikem.org/wiki/NEXUS_Chest_CT_Rule",
+  "scraped_at": "2026-01-10T07:57:54.023669",
+  "sections": {
+    "Background": {
+      "text": "8 United States level 1 trauma centers enrolled patients for derivation and validation of a decision instrument to aid in the decision to perform a chest CT in patients with blunt trauma.\n[1]\nThe rule has two sub-rules, one for detection of major injuries, and one for detection of all injuries (major and minor injuries) in hemodynamically stable, non-intubated patients",
+      "subsections": {
+        "Nexus_chest_CT_in_trauma_rule_(major_injury)": {
+          "text": "CT if any one of the following:\nAbnormal CXR\nDistracting injury\nTenderness of:\nChest wall\nSternum\nThoracic spine\nScapula\nSensitivity\n99% for major injuries\n90% for minor injuries",
+          "tables": []
+        },
+        "Nexus_chest_CT_in_trauma_rule_(minor_injury)": {
+          "text": "CT if any one of the following:\nAbnormal CXR\nDistracting injury\nTenderness of:\nChest wall\nSternum\nThoracic spine\nScapula\nRapid deceleration mechanism\nSensitivity\n99% for major injuries\n95% for minor injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NEXUS cervical spine rule\nThoracic trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NEXUS cervical spine rule",
+          "url": "https://wikem.org/wiki/NEXUS_cervical_spine_rule"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    }
+  }
+}

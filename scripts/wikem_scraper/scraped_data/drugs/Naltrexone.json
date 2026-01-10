@@ -1,0 +1,160 @@
+{
+  "drug_name": "Naltrexone",
+  "url": "https://wikem.org/wiki/Naltrexone",
+  "scraped_at": "2026-01-10T07:58:00.405288",
+  "sections": {
+    "Administration": {
+      "text": "Type: Opioid antagonist\nDosage Forms:\nRoutes of Administration: PO, IM\nCommon Trade Names: ReVia, Vivitrol, Depade",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Opioid dependence (prevention of relapse after opioid-free x 7-10d), ETOH dependence: 25-50mg PO daily OR 380mg IM q4w",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Minimally excreted in breastmilk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Minimally excreted in breastmilk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Minimally excreted in breastmilk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Use caution",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Use caution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPatients who are on opioid analgesics/partial agonists, are opioid-dependant, or in acute opioid withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Depression, suicide, and suicidality\nVulnerability to opioid overdose: Patients should be alerted that they may be more sensitive to opioids, even at lower doses, after discontinuance of naltrexone\nHepatotoxicity\nSevere injection-site reactions (e.g. necrosis, cellulitis, hematoma)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Injection site reaction\nNausea/vomiting, diarrhea, decreased appetite, dry mouth\nLFT abnormalities,\nElevated CPK\nHeadache, dizziness, anxiety, insomnia, somnolence\nURI, pharyngitis\nArthralgia, muscle cramps, back pain\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Depression, suicide, and suicidality\nVulnerability to opioid overdose: Patients should be alerted that they may be more sensitive to opioids, even at lower doses, after discontinuance of naltrexone\nHepatotoxicity\nSevere injection-site reactions (e.g. necrosis, cellulitis, hematoma)",
+      "subsections": {
+        "Common": {
+          "text": "Injection site reaction\nNausea/vomiting, diarrhea, decreased appetite, dry mouth\nLFT abnormalities,\nElevated CPK\nHeadache, dizziness, anxiety, insomnia, somnolence\nURI, pharyngitis\nArthralgia, muscle cramps, back pain\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Injection site reaction\nNausea/vomiting, diarrhea, decreased appetite, dry mouth\nLFT abnormalities,\nElevated CPK\nHeadache, dizziness, anxiety, insomnia, somnolence\nURI, pharyngitis\nArthralgia, muscle cramps, back pain\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: PO- 4-13h;IM- 5-10 days\nMetabolism: Hepatic\nExcretion: Urinary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Potent nonselective opioid competitive receptor antagonist\nReduces the rewarding effects of alcohol consumption  by inhibiting the activity of endogenous opioids in the mesolimbic system.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    }
+  }
+}

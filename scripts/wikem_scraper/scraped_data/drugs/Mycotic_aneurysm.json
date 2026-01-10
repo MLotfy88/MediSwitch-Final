@@ -1,0 +1,166 @@
+{
+  "drug_name": "Mycotic_aneurysm",
+  "url": "https://wikem.org/wiki/Mycotic_aneurysm",
+  "scraped_at": "2026-01-10T07:57:52.034712",
+  "sections": {
+    "Background": {
+      "text": "Arterial vessel wall dilation due to bacterial, fungal, or viral infection\n[1]\nIncidence is rare\n1-5% of aortic aneurysms\n[2]\n[3]\nand intracranial aneurysms\n[4]\n[5]\nSeen in up to 2% of infective endocarditis cases\n[6]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Immunocompromised\nIV drug use\nInfective\nendocarditis\nStatus post invasive intravascular procedures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Immunocompromised\nIV drug use\nInfective\nendocarditis\nStatus post invasive intravascular procedures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Signs/Symptoms": {
+          "text": "Fever\nPulsatile mass\nLocalized inflammation at arterial access site (if s/p intravascular intervention)\nSymptoms may vary by location affected (e.g.\nstroke\n-like symptoms with intracranial aneurysm,\nabdominal pain\nwith mycotic\nAAA\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        }
+      ]
+    },
+    "Signs/Symptoms": {
+      "text": "Fever\nPulsatile mass\nLocalized inflammation at arterial access site (if s/p intravascular intervention)\nSymptoms may vary by location affected (e.g.\nstroke\n-like symptoms with intracranial aneurysm,\nabdominal pain\nwith mycotic\nAAA\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "CBC\nESR/CRP\nCMP\nUrinalysis\nBlood cultures\nCoagulation studies\nType and Cross",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CT angiography (Sensitivity 0.82 (95% CI, 0.77–0.87), specificity 0.93 (95% CI, 0.89–0.95))\n[7]\nMR angiography (Sensitivity 0.79 (95% CI, 0.61–0.91), specificity 0.89 (95% CI, 0.81–0.95))\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "CBC\nESR/CRP\nCMP\nUrinalysis\nBlood cultures\nCoagulation studies\nType and Cross",
+      "subsections": {
+        "Imaging": {
+          "text": "CT angiography (Sensitivity 0.82 (95% CI, 0.77–0.87), specificity 0.93 (95% CI, 0.89–0.95))\n[7]\nMR angiography (Sensitivity 0.79 (95% CI, 0.61–0.91), specificity 0.89 (95% CI, 0.81–0.95))\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CT angiography (Sensitivity 0.82 (95% CI, 0.77–0.87), specificity 0.93 (95% CI, 0.89–0.95))\n[7]\nMR angiography (Sensitivity 0.79 (95% CI, 0.61–0.91), specificity 0.89 (95% CI, 0.81–0.95))\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Emergent vascular surgery consultation\nBroad spectrum IV antibiotics with gram positive, gram negative, and anaerobic coverage\nBilateral large-bore peripheral IVs\nDefinitive care with surgical debridement and endovascular vs open repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission to OR or ICU in consultation with vascular surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal aortic aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    }
+  }
+}

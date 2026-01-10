@@ -1,0 +1,169 @@
+{
+  "drug_name": "Myelodysplastic_syndrome",
+  "url": "https://wikem.org/wiki/Myelodysplastic_syndrome",
+  "scraped_at": "2026-01-10T07:57:50.347758",
+  "sections": {
+    "Background": {
+      "text": "Acquired clonal disorder of hematopoietic stem cells, leading to hypercellular marrow, abnormal cell morphology, and cytopenias\nIdiopathic or secondary to chemotherapy or radiation\nMay evolve into\nacute myeloid leukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic\nSigns/symptoms of\nanemia\nSigns/symptoms of\ninfection\nif\nneutropenic\nSigns/symptoms of\nthrombocytopenia\nSplenomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "neutropenic",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Acute leukemia\n, infiltrative malignancy (e.g.\nlymphoma\n,\nmultiple myeloma\n, metastatic carcinoma)\nMyelodysplastic syndrome\n, myelofibrosis\nAplastic anemia\nParoxysmal nocturnal hemoglobinuria\nMedication/radiation induced\nTuberculosis\n,\nAIDS\nLeishmaniasis\n,\nbrucellosis\n,\nhistoplasmosis\n.\nViruses causing\naplastic anemia\n(\nhepatitis\n,\nEpstein-Barr virus\n,\nHIV\n,\nparvovirus B19\n)\nSystemic lupus erythematosus\nHypersplenism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nMarked normo or macrocytic\nanemia\nLeukopenia\n, commonly with abnormal neutrophil morphology\nThrombocytopenia\nPeripheral smear\nType and screen\nInfectious workup, if signs of infection present\nEvaluate for other causes of symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nanemia\n,\nthrombocytopenia\n,\nneutropenic fever\nOutside of ED, treatments may include\nEPO, filgrastim, romiplostim, eltrombopag\nLenalidomide\nStem cell transplant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Stem cell transplant",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pancytopenia\nOncologic emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        }
+      ]
+    }
+  }
+}

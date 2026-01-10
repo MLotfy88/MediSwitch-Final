@@ -1,0 +1,63 @@
+{
+  "drug_name": "Myxoma",
+  "url": "https://wikem.org/wiki/Myxoma",
+  "scraped_at": "2026-01-10T07:57:56.200152",
+  "sections": {
+    "Background": {
+      "text": "Most common primary cardiac neoplasm\n~80% of myxomas originate in the left atrium, with the remainder in the right atrium\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Cardiovascular symptoms mimicking mitral valve obstruction (e.g., left atrial hypertrophy)\nIncreased risk of systemic embolization\nConstitutional symptoms (e.g., fever, weight loss)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Transthoracic echocardiogram\nTransesophageal echocardiogram\nCardiac MRI",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typical location of myxomas is amenable to visualization with TTE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Transthoracic echocardiogram\nTransesophageal echocardiogram\nCardiac MRI",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typical location of myxomas is amenable to visualization with TTE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typical location of myxomas is amenable to visualization with TTE",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Once presumptive diagnosis made, prompt resection is required due to elevated risk of embolization or cardiac complications\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most often admit for further management including potential anticoagulation and resection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

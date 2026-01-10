@@ -1,0 +1,77 @@
+{
+  "drug_name": "Multiple_endocrine_neoplasia",
+  "url": "https://wikem.org/wiki/Multiple_endocrine_neoplasia",
+  "scraped_at": "2026-01-10T07:57:45.479307",
+  "sections": {
+    "Background": {
+      "text": "Autosomal dominant predisposition to tumors within endocrine organs/glands\nClassified into two distinct syndromes, multiple endocrine neoplasia type 1 (MEN1), and multiple endocrine neoplasia type 2 (MEN2)\nType 2 further subclassified into MEN2A and MEN2B",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "MEN1:\nPrimary\nhyperparathyroidism\nMost common manifestation of MEN1\n[1]\nPituitary adenomas\nPancreatic islet cell/GI endocrine tumors (e.g.,\nZollinger-Ellison syndrome\n,\nInsulinoma\n)\nMEN2A:\nPrimary\nhyperparathyroidism\nMedullary thyroid cancer\nPheochromocytoma\nMEN2B:\nMedullary thyroid cancer\nPheochromocytoma\nMucosal neuromas, often involving the lips and tongue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "MEN1: Should be suspected in any patient with two or more primary MEN1 tumor types\nMEN2: Should be suspected in any patient with medullary thyroid cancer or\npheochromocytoma",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis with confirmatory genetic testing\nMEN1: Germline MEN1 mutation\nMEN2: Germline RET mutation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis with confirmatory genetic testing\nMEN1: Germline MEN1 mutation\nMEN2: Germline RET mutation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis with confirmatory genetic testing\nMEN1: Germline MEN1 mutation\nMEN2: Germline RET mutation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

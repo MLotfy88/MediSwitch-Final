@@ -1,0 +1,63 @@
+{
+  "drug_name": "Naphthalene",
+  "url": "https://wikem.org/wiki/Naphthalene",
+  "scraped_at": "2026-01-10T07:57:56.772882",
+  "sections": {
+    "Background": {
+      "text": "Common ingredients in toilet bowl deodorizers and moth repellants (i.e. mothballs)",
+      "subsections": {
+        "Mechanism_of_toxicity": {
+          "text": "GI upset\nCNS stimulation\nHemolysis (especially in\nG6PD deficiency\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD deficiency",
+          "url": "https://wikem.org/wiki/G6PD_deficiency"
+        }
+      ]
+    },
+    "Mechanism_of_toxicity": {
+      "text": "GI upset\nCNS stimulation\nHemolysis (especially in\nG6PD deficiency\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD deficiency",
+          "url": "https://wikem.org/wiki/G6PD_deficiency"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea and vomiting\nInhalational exposure can cause eye, nose, and throat irritation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical history\nMothball smell around mouth\nNaphthalene is radiopaque\nSerum levels are not available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Support airway and breathing\nTreat coma and seizures as needed\nTreat hemolysis with IV hydration and alkalinization of urine\nGut emptying and activated charcoal are usually not indicated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

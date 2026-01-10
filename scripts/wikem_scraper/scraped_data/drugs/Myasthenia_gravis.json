@@ -1,0 +1,864 @@
+{
+  "drug_name": "Myasthenia_gravis",
+  "url": "https://wikem.org/wiki/Myasthenia_gravis",
+  "scraped_at": "2026-01-10T07:57:49.035723",
+  "sections": {
+    "Background": {
+      "text": "Autoantibody degradation, dysfunction, and blockade of acetylcholine receptor at the NMJ\nThymus is abnormal in 75% of patients\nThymectomy resolves or improves symptoms in most patients, especially those with a thymoma\nNo sensory, reflex, pupillary, or cerebellar deficits",
+      "subsections": {
+        "May_Unmask_or_Worsen": {
+          "text": "Antimicrobials (\nAminoglycosides\n,\nclindamycin\n,\nerythromycin\n,\ntetracycline\n,\ndoxycycline\n,\nazithromycin\n,\nfluoroquinolones\n,\nvancomycin\n,\nchloroquine\n,\nhydroxychloroquine\n, )\n[2]\nCardiovascular drugs (\nbeta blockers\n,\nprocainamide\n,\nquinidine\n)\nNeuro/psych meds (\nchlorpromazine\n,\nlithium\n,\nprochlorperazine\n,\nphenytoin\n,\nrisperidone\n,\nOther (Botox,\nquinines\n,\nmagnesium\n)",
+          "tables": []
+        },
+        "Usually_Well-tolerated,_but_Occasionally_Associated": {
+          "text": "Local anesthetics\nAntibiotics (\nTetracycline\n/\ndoxycycline\n,\nmacrolides\n,\nmetronidazole\n,\nnitrofurantoin\n)\nAnticonvulsants (\ncarbamazepine\n,\nethosuximide\n,\ngabapentin\n,\nphenobarbital\n,\nphenytoin\n)\nButyrophenones (\nhaloperidol\n)\nPhenothiazines (\nchlorpromazine\n/\nprochlorperazine\n)\nCalcium channel blockers\nSteroids\nOphthalmic drugs (betaxolol/timolol/proparacaine)\nOther (Iodinated contrast agent)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "quinines",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "ethosuximide",
+          "url": "https://wikem.org/wiki/Ethosuximide"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Drugs_Associated_with_Exacerbations": {
+      "text": "",
+      "subsections": {
+        "May_Unmask_or_Worsen": {
+          "text": "Antimicrobials (\nAminoglycosides\n,\nclindamycin\n,\nerythromycin\n,\ntetracycline\n,\ndoxycycline\n,\nazithromycin\n,\nfluoroquinolones\n,\nvancomycin\n,\nchloroquine\n,\nhydroxychloroquine\n, )\n[2]\nCardiovascular drugs (\nbeta blockers\n,\nprocainamide\n,\nquinidine\n)\nNeuro/psych meds (\nchlorpromazine\n,\nlithium\n,\nprochlorperazine\n,\nphenytoin\n,\nrisperidone\n,\nOther (Botox,\nquinines\n,\nmagnesium\n)",
+          "tables": []
+        },
+        "Usually_Well-tolerated,_but_Occasionally_Associated": {
+          "text": "Local anesthetics\nAntibiotics (\nTetracycline\n/\ndoxycycline\n,\nmacrolides\n,\nmetronidazole\n,\nnitrofurantoin\n)\nAnticonvulsants (\ncarbamazepine\n,\nethosuximide\n,\ngabapentin\n,\nphenobarbital\n,\nphenytoin\n)\nButyrophenones (\nhaloperidol\n)\nPhenothiazines (\nchlorpromazine\n/\nprochlorperazine\n)\nCalcium channel blockers\nSteroids\nOphthalmic drugs (betaxolol/timolol/proparacaine)\nOther (Iodinated contrast agent)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "quinines",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "ethosuximide",
+          "url": "https://wikem.org/wiki/Ethosuximide"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Muscle\nweakness\nProximal extremities\nNeck extensors\nFacial/bulbar muscles (\ndysphagia\n,\ndysarthria\n,\ndysphonia\n)\nOcular weakness\nPtosis\nDiplopia\nCN III, IV, or VI weakness\nSymptoms worsen with repetitive use / as the day progresses\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "CN III, IV, or VI weakness",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ED_Workup": {
+          "text": "Always evaluate:\n[4]\nTidal volume\nForced Vital capacity (normal is >25cc/kg in MG)\nFEV\nNegative inspiratory force (NIF) (normal is -80 to -100; respiratory support is indicated for -20 to 0)\nAbility to handle secretions",
+          "tables": []
+        },
+        "Neuro_Workup": {
+          "text": "The following may be considered for neurologic workup, but are not typically indicated in the ED:\n[5]\nACh-R antibody testing: first-line investigation. Indication for thymectomy if < 45 years.\nMuSK antibody testing: for patients negative for ACh-R antibodies\nThyroid function\nNeurophysiology: Repetitive nerve stimulation is the initial test; if negative, consider single-fibre electromyography.\nMR scan of brain: Patients with negative serology and neurophysiology, and symptoms compatible with ocular myasthenia may have structural brain disease.\nThymus scanning: All patients with suspected myasthenia, irrespective of distribution (ocular/generalised) or serology (seropositive/negative), should undergo thymus imaging. The modality (CT or MRI) should be decided locally.\nEdrophonium/Tensilon test",
+          "tables": []
+        },
+        "Myasthenic_versus_cholinergic_crisis": {
+          "text": "Flaccid paralysis resulting from cholinergic crisis can be distinguished from\nmyasthenia gravis\nby the use of the drug\nedrophonium\n, which worsens the paralysis caused by cholinergic crisis, but strengthens the muscle in the case of myasthenia gravis. (Edrophonium is an cholinesterase inhibitor hence increases the concentration of acetylcholine present).\nMyasthenic Crisis\nRespiratory failure is feared complication\nMuch more common\nDue to medication non-adherence, infection, surgery, tapering of immunosuppressants, meds\nCholinergic Crisis\nExcessive anticholinesterase medication may cause weakness and cholinergic symptoms\nRarely if ever seen with dose limitation of pyridostigmine to less than 120mg q3hr\nIf on usual dose of meds assume exacerbation due to MG even with cholinergic side effects\nEdrophonium\n(Tensilon) test to distinguish the two is controversial\nGive 1-2mg IV slow push. If any fasciculations, respiratory depression, or cholinergic symptoms within a few minutes, problem is likely cholinergic crisis (no more edrophonium). If no evidence of cholinergic excess, give total of 10mg and observe improvement in case of myasthenic crisis.\nSide effects of Edrophonium: Arrhythmias, Hypotension, Bronchospasm\nThus, need to be on a monitor, with atropine on hand\nTreatment: Atropine",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Prolonged upward gaze test\n[6]\nHave the patient gaze upward at examiner's finger for 30 seconds\nDiplopia or ptosis that develops is suggestive of MG\nIce Pack Test - should improve symptoms temporarily (usually ptosis; high specificity)\nPlace ice-pack on eyes for 2 mins, if ptosis decreases by ≥2mm the test is positive\nAcetylcholine receptor antibodies (AcHR-Ab). Positive in 80-90% of generalized MG and 40-55% in Ocular MG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        },
+        {
+          "text": "Edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "ED_Workup": {
+          "text": "Always evaluate:\n[4]\nTidal volume\nForced Vital capacity (normal is >25cc/kg in MG)\nFEV\nNegative inspiratory force (NIF) (normal is -80 to -100; respiratory support is indicated for -20 to 0)\nAbility to handle secretions",
+          "tables": []
+        },
+        "Neuro_Workup": {
+          "text": "The following may be considered for neurologic workup, but are not typically indicated in the ED:\n[5]\nACh-R antibody testing: first-line investigation. Indication for thymectomy if < 45 years.\nMuSK antibody testing: for patients negative for ACh-R antibodies\nThyroid function\nNeurophysiology: Repetitive nerve stimulation is the initial test; if negative, consider single-fibre electromyography.\nMR scan of brain: Patients with negative serology and neurophysiology, and symptoms compatible with ocular myasthenia may have structural brain disease.\nThymus scanning: All patients with suspected myasthenia, irrespective of distribution (ocular/generalised) or serology (seropositive/negative), should undergo thymus imaging. The modality (CT or MRI) should be decided locally.\nEdrophonium/Tensilon test",
+          "tables": []
+        },
+        "Myasthenic_versus_cholinergic_crisis": {
+          "text": "Flaccid paralysis resulting from cholinergic crisis can be distinguished from\nmyasthenia gravis\nby the use of the drug\nedrophonium\n, which worsens the paralysis caused by cholinergic crisis, but strengthens the muscle in the case of myasthenia gravis. (Edrophonium is an cholinesterase inhibitor hence increases the concentration of acetylcholine present).\nMyasthenic Crisis\nRespiratory failure is feared complication\nMuch more common\nDue to medication non-adherence, infection, surgery, tapering of immunosuppressants, meds\nCholinergic Crisis\nExcessive anticholinesterase medication may cause weakness and cholinergic symptoms\nRarely if ever seen with dose limitation of pyridostigmine to less than 120mg q3hr\nIf on usual dose of meds assume exacerbation due to MG even with cholinergic side effects\nEdrophonium\n(Tensilon) test to distinguish the two is controversial\nGive 1-2mg IV slow push. If any fasciculations, respiratory depression, or cholinergic symptoms within a few minutes, problem is likely cholinergic crisis (no more edrophonium). If no evidence of cholinergic excess, give total of 10mg and observe improvement in case of myasthenic crisis.\nSide effects of Edrophonium: Arrhythmias, Hypotension, Bronchospasm\nThus, need to be on a monitor, with atropine on hand\nTreatment: Atropine",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Prolonged upward gaze test\n[6]\nHave the patient gaze upward at examiner's finger for 30 seconds\nDiplopia or ptosis that develops is suggestive of MG\nIce Pack Test - should improve symptoms temporarily (usually ptosis; high specificity)\nPlace ice-pack on eyes for 2 mins, if ptosis decreases by ≥2mm the test is positive\nAcetylcholine receptor antibodies (AcHR-Ab). Positive in 80-90% of generalized MG and 40-55% in Ocular MG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        },
+        {
+          "text": "Edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        }
+      ]
+    },
+    "Myasthenic_versus_cholinergic_crisis": {
+      "text": "Flaccid paralysis resulting from cholinergic crisis can be distinguished from\nmyasthenia gravis\nby the use of the drug\nedrophonium\n, which worsens the paralysis caused by cholinergic crisis, but strengthens the muscle in the case of myasthenia gravis. (Edrophonium is an cholinesterase inhibitor hence increases the concentration of acetylcholine present).\nMyasthenic Crisis\nRespiratory failure is feared complication\nMuch more common\nDue to medication non-adherence, infection, surgery, tapering of immunosuppressants, meds\nCholinergic Crisis\nExcessive anticholinesterase medication may cause weakness and cholinergic symptoms\nRarely if ever seen with dose limitation of pyridostigmine to less than 120mg q3hr\nIf on usual dose of meds assume exacerbation due to MG even with cholinergic side effects\nEdrophonium\n(Tensilon) test to distinguish the two is controversial\nGive 1-2mg IV slow push. If any fasciculations, respiratory depression, or cholinergic symptoms within a few minutes, problem is likely cholinergic crisis (no more edrophonium). If no evidence of cholinergic excess, give total of 10mg and observe improvement in case of myasthenic crisis.\nSide effects of Edrophonium: Arrhythmias, Hypotension, Bronchospasm\nThus, need to be on a monitor, with atropine on hand\nTreatment: Atropine",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Prolonged upward gaze test\n[6]\nHave the patient gaze upward at examiner's finger for 30 seconds\nDiplopia or ptosis that develops is suggestive of MG\nIce Pack Test - should improve symptoms temporarily (usually ptosis; high specificity)\nPlace ice-pack on eyes for 2 mins, if ptosis decreases by ≥2mm the test is positive\nAcetylcholine receptor antibodies (AcHR-Ab). Positive in 80-90% of generalized MG and 40-55% in Ocular MG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        },
+        {
+          "text": "Edrophonium",
+          "url": "https://wikem.org/wiki/Edrophonium"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Prolonged upward gaze test\n[6]\nHave the patient gaze upward at examiner's finger for 30 seconds\nDiplopia or ptosis that develops is suggestive of MG\nIce Pack Test - should improve symptoms temporarily (usually ptosis; high specificity)\nPlace ice-pack on eyes for 2 mins, if ptosis decreases by ≥2mm the test is positive\nAcetylcholine receptor antibodies (AcHR-Ab). Positive in 80-90% of generalized MG and 40-55% in Ocular MG.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Avoid medications that can cause/worsen exacerbations (see Background), including\nmagnesium\n(which can cause\nrespiratory failure\n)",
+      "subsections": {
+        "Myasthenic_Crisis": {
+          "text": "Acetylcholinesterase inhibitors are discontinued to avoid excessive bronchial secretions\nIntubation\n(if needed)\nIf possible avoid depolarizing AND non-depolarizing agents\nIf patient requires paralysis use non-depolarizing agent at smaller dose\nIf must use depolarizing agents, will need higher doses\nIVIG\n0.4 g/kg/day for 5 days\nEffect lasts 30-45 days\nPlasmapheresis\nEffect lasts 15-20 days",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Pyridostigmine\nand\nneostigmine\nprimarily used for symptomatic relief but does not alter course of crisis\n[7]\n. Consider avoiding in ICU ventilated patients, as these may increase secretions. Continued use of these meds also prevents assessment of other treatment modalities and can increase muscle weakness if used in excess\nPyridostigmine\n: Titrate up to find the lowest effective dose\nInitially 30 mg four times daily for 2–4 days\nThen 60 mg (1 tablet) four times daily for 5 days and experiment with timing\nThen increase to 90 mg four times daily over 1 week if required.\nIf patient's usual dose has been missed the next dose is usually doubled\nIV route: 1/30th of the PO dose (2-3mg) by slow IV infusion\nNeostigmine\n0.5mg IV\nPrednisolone\n: If symptomatic despite Pyridostigmine. Monitor diabetes mellitus.\nOcular myasthenia gravis\nStart 5 mg on alternate days for three doses and increase by 5 mg every three doses until symptoms improve.\nThe maximum dose is 50 mg on alternate days or 0.75 mg/kg/alternate day\nGeneralized myasthenia gravis\nStart 10 mg on alternate days for three doses and increase by 10 mg every three doses until symptoms improve.\nMaximum dose is 100 mg alternate days or 1.5 mg/kg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Myasthenic_Crisis": {
+      "text": "Acetylcholinesterase inhibitors are discontinued to avoid excessive bronchial secretions\nIntubation\n(if needed)\nIf possible avoid depolarizing AND non-depolarizing agents\nIf patient requires paralysis use non-depolarizing agent at smaller dose\nIf must use depolarizing agents, will need higher doses\nIVIG\n0.4 g/kg/day for 5 days\nEffect lasts 30-45 days\nPlasmapheresis\nEffect lasts 15-20 days",
+      "subsections": {
+        "Other_Medications": {
+          "text": "Pyridostigmine\nand\nneostigmine\nprimarily used for symptomatic relief but does not alter course of crisis\n[7]\n. Consider avoiding in ICU ventilated patients, as these may increase secretions. Continued use of these meds also prevents assessment of other treatment modalities and can increase muscle weakness if used in excess\nPyridostigmine\n: Titrate up to find the lowest effective dose\nInitially 30 mg four times daily for 2–4 days\nThen 60 mg (1 tablet) four times daily for 5 days and experiment with timing\nThen increase to 90 mg four times daily over 1 week if required.\nIf patient's usual dose has been missed the next dose is usually doubled\nIV route: 1/30th of the PO dose (2-3mg) by slow IV infusion\nNeostigmine\n0.5mg IV\nPrednisolone\n: If symptomatic despite Pyridostigmine. Monitor diabetes mellitus.\nOcular myasthenia gravis\nStart 5 mg on alternate days for three doses and increase by 5 mg every three doses until symptoms improve.\nThe maximum dose is 50 mg on alternate days or 0.75 mg/kg/alternate day\nGeneralized myasthenia gravis\nStart 10 mg on alternate days for three doses and increase by 10 mg every three doses until symptoms improve.\nMaximum dose is 100 mg alternate days or 1.5 mg/kg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Other_Medications": {
+      "text": "Pyridostigmine\nand\nneostigmine\nprimarily used for symptomatic relief but does not alter course of crisis\n[7]\n. Consider avoiding in ICU ventilated patients, as these may increase secretions. Continued use of these meds also prevents assessment of other treatment modalities and can increase muscle weakness if used in excess\nPyridostigmine\n: Titrate up to find the lowest effective dose\nInitially 30 mg four times daily for 2–4 days\nThen 60 mg (1 tablet) four times daily for 5 days and experiment with timing\nThen increase to 90 mg four times daily over 1 week if required.\nIf patient's usual dose has been missed the next dose is usually doubled\nIV route: 1/30th of the PO dose (2-3mg) by slow IV infusion\nNeostigmine\n0.5mg IV\nPrednisolone\n: If symptomatic despite Pyridostigmine. Monitor diabetes mellitus.\nOcular myasthenia gravis\nStart 5 mg on alternate days for three doses and increase by 5 mg every three doses until symptoms improve.\nThe maximum dose is 50 mg on alternate days or 0.75 mg/kg/alternate day\nGeneralized myasthenia gravis\nStart 10 mg on alternate days for three doses and increase by 10 mg every three doses until symptoms improve.\nMaximum dose is 100 mg alternate days or 1.5 mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically MICU or neuro ICU, consideration for thymectomy if not done already\nConsideration for\ncorticosteroids\nor other immunosuppressants (i.e. corticosteroids, azathioprine, mycophenolate mofetil, cyclosporine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weakness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,951 @@
+{
+  "drug_name": "Mushroom_toxicity",
+  "url": "https://wikem.org/wiki/Mushroom_toxicity",
+  "scraped_at": "2026-01-10T07:57:48.153833",
+  "sections": {
+    "Background": {
+      "text": "Clinically broken into two main categories:\nEarly-Onset Poisoning (toxicity begins within 2hr of ingestion)\nClinical course is usually benign\nComprises majority of mushroom-induced intoxications\nLate-Onset Poisoning (toxicity begins 6hr after ingestion)\nClinical course is often serious/ possibly fatal\nAmanita species causes 95% of deaths\nMost frequent species:\nA. phalloides\n, bisporigera, magnivelaris, ocreata, verna, virosa\n[1]\nToxin inhibits formation of mRNA and is heat stable",
+      "subsections": {
+        "Mushroom_Identification": {
+          "text": "Cortinarius mushroom\nGyromitra mushrooms\nAmanita phalloides mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "A. phalloides",
+          "url": "https://wikem.org/wiki/A._phalloides"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita phalloides mushroom",
+          "url": "https://wikem.org/wiki/Amanita_phalloides_mushroom"
+        }
+      ]
+    },
+    "Mushroom_Identification": {
+      "text": "Cortinarius mushroom\nGyromitra mushrooms\nAmanita phalloides mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita phalloides mushroom",
+          "url": "https://wikem.org/wiki/Amanita_phalloides_mushroom"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Early-Onset": {
+          "text": "Depends on the type of mushroom ingested\nGI\nNausea/vomiting\n, diarrhea\nResolves within 24hr\nCNS\n[2]\nIsoxazoles (ibotenic acid and muscimol) -\ndysarthria\n,\nataxia\n, muscle cramps\nPsilocybin - euphoria, visual\nhallucinations\n,\nagitation\n,\nsympathomimetic\nsymptoms\nLasts 4-8hrs\nMuscarinic\nSLUDGE symptoms\nDiaphoresis, muscle fasciculations, miosis,\nbradycardia\n, bronchorrhea\nResolves in 4-12hr\nDisulfiram-like effect\nUsually when drinking alcohol\nFlushing,\ntachycardia\n, diaphoresis,\nhypotension",
+          "tables": []
+        },
+        "Delayed-Onset": {
+          "text": "Four Stages\n[3]\n[4]\nLatent (symptom free, up to 24 hours)\nSymptomatic (GI distress)\nConvalescent (feel better, but LFT's increasing)\nFulminant (day 2-4)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Early-Onset": {
+      "text": "Depends on the type of mushroom ingested\nGI\nNausea/vomiting\n, diarrhea\nResolves within 24hr\nCNS\n[2]\nIsoxazoles (ibotenic acid and muscimol) -\ndysarthria\n,\nataxia\n, muscle cramps\nPsilocybin - euphoria, visual\nhallucinations\n,\nagitation\n,\nsympathomimetic\nsymptoms\nLasts 4-8hrs\nMuscarinic\nSLUDGE symptoms\nDiaphoresis, muscle fasciculations, miosis,\nbradycardia\n, bronchorrhea\nResolves in 4-12hr\nDisulfiram-like effect\nUsually when drinking alcohol\nFlushing,\ntachycardia\n, diaphoresis,\nhypotension",
+      "subsections": {
+        "Delayed-Onset": {
+          "text": "Four Stages\n[3]\n[4]\nLatent (symptom free, up to 24 hours)\nSymptomatic (GI distress)\nConvalescent (feel better, but LFT's increasing)\nFulminant (day 2-4)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Delayed-Onset": {
+      "text": "Four Stages\n[3]\n[4]\nLatent (symptom free, up to 24 hours)\nSymptomatic (GI distress)\nConvalescent (feel better, but LFT's increasing)\nFulminant (day 2-4)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mushroom_toxicity_by_Type": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Mushroom": "Amanita",
+                "Toxin": "Amatoxin",
+                "Pathologic Effect": "Hepatotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Coprine",
+                "Pathologic Effect": "Disulfiram-like"
+              },
+              {
+                "Mushroom": "Crotinarius",
+                "Toxin": "Orellanine",
+                "Pathologic Effect": "Delayed renal failure"
+              },
+              {
+                "Mushroom": "Gyromitra",
+                "Toxin": "Gyromitrin",
+                "Pathologic Effect": "Seizures"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Ibotenic Acid",
+                "Pathologic Effect": "Anticholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Muscarine",
+                "Pathologic Effect": "Cholinergic"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Orellanin",
+                "Pathologic Effect": "Nephrotoxicity"
+              },
+              {
+                "Mushroom": "",
+                "Toxin": "Psilocybin",
+                "Pathologic Effect": "Hallucinations"
+              }
+            ]
+          ]
+        },
+        "SLUDGE_Syndrome": {
+          "text": "Carbamate toxicity\nMushroom toxicity\n, especially:\nAmanita muscaria\nInocybe\nClitocybe\nOrganophosphate toxicity\nNerve agent\nSarin\nVX\nNovichok agent\nNicotine toxicity\n(look alike)\nAcetylcholinesterase inhibitor\noverdose (e.g in\nmyasthenia gravis\nor post anesthesia reversal)",
+          "tables": []
+        },
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbamate toxicity",
+          "url": "https://wikem.org/wiki/Carbamate_toxicity"
+        },
+        {
+          "text": "Amanita muscaria",
+          "url": "https://wikem.org/wiki/Amanita_muscaria"
+        },
+        {
+          "text": "Inocybe",
+          "url": "https://wikem.org/wiki/Inocybe"
+        },
+        {
+          "text": "Clitocybe",
+          "url": "https://wikem.org/wiki/Clitocybe"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Nerve agent",
+          "url": "https://wikem.org/wiki/Nerve_agent"
+        },
+        {
+          "text": "Sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Novichok agent",
+          "url": "https://wikem.org/wiki/Novichok_agent"
+        },
+        {
+          "text": "Nicotine toxicity",
+          "url": "https://wikem.org/wiki/Nicotine_toxicity"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Mushroom_toxicity_by_Type": {
+      "text": "",
+      "subsections": {
+        "SLUDGE_Syndrome": {
+          "text": "Carbamate toxicity\nMushroom toxicity\n, especially:\nAmanita muscaria\nInocybe\nClitocybe\nOrganophosphate toxicity\nNerve agent\nSarin\nVX\nNovichok agent\nNicotine toxicity\n(look alike)\nAcetylcholinesterase inhibitor\noverdose (e.g in\nmyasthenia gravis\nor post anesthesia reversal)",
+          "tables": []
+        },
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Mushroom": "Amanita",
+            "Toxin": "Amatoxin",
+            "Pathologic Effect": "Hepatotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Coprine",
+            "Pathologic Effect": "Disulfiram-like"
+          },
+          {
+            "Mushroom": "Crotinarius",
+            "Toxin": "Orellanine",
+            "Pathologic Effect": "Delayed renal failure"
+          },
+          {
+            "Mushroom": "Gyromitra",
+            "Toxin": "Gyromitrin",
+            "Pathologic Effect": "Seizures"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Ibotenic Acid",
+            "Pathologic Effect": "Anticholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Muscarine",
+            "Pathologic Effect": "Cholinergic"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Orellanin",
+            "Pathologic Effect": "Nephrotoxicity"
+          },
+          {
+            "Mushroom": "",
+            "Toxin": "Psilocybin",
+            "Pathologic Effect": "Hallucinations"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Carbamate toxicity",
+          "url": "https://wikem.org/wiki/Carbamate_toxicity"
+        },
+        {
+          "text": "Amanita muscaria",
+          "url": "https://wikem.org/wiki/Amanita_muscaria"
+        },
+        {
+          "text": "Inocybe",
+          "url": "https://wikem.org/wiki/Inocybe"
+        },
+        {
+          "text": "Clitocybe",
+          "url": "https://wikem.org/wiki/Clitocybe"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Nerve agent",
+          "url": "https://wikem.org/wiki/Nerve_agent"
+        },
+        {
+          "text": "Sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Novichok agent",
+          "url": "https://wikem.org/wiki/Novichok_agent"
+        },
+        {
+          "text": "Nicotine toxicity",
+          "url": "https://wikem.org/wiki/Nicotine_toxicity"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "SLUDGE_Syndrome": {
+      "text": "Carbamate toxicity\nMushroom toxicity\n, especially:\nAmanita muscaria\nInocybe\nClitocybe\nOrganophosphate toxicity\nNerve agent\nSarin\nVX\nNovichok agent\nNicotine toxicity\n(look alike)\nAcetylcholinesterase inhibitor\noverdose (e.g in\nmyasthenia gravis\nor post anesthesia reversal)",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbamate toxicity",
+          "url": "https://wikem.org/wiki/Carbamate_toxicity"
+        },
+        {
+          "text": "Amanita muscaria",
+          "url": "https://wikem.org/wiki/Amanita_muscaria"
+        },
+        {
+          "text": "Inocybe",
+          "url": "https://wikem.org/wiki/Inocybe"
+        },
+        {
+          "text": "Clitocybe",
+          "url": "https://wikem.org/wiki/Clitocybe"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Nerve agent",
+          "url": "https://wikem.org/wiki/Nerve_agent"
+        },
+        {
+          "text": "Sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Novichok agent",
+          "url": "https://wikem.org/wiki/Novichok_agent"
+        },
+        {
+          "text": "Nicotine toxicity",
+          "url": "https://wikem.org/wiki/Nicotine_toxicity"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Delayed-Onset_2": {
+          "text": "Hypoglycemia\nis common cause of death and needs close monitoring",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Early-Onset_2": {
+      "text": "",
+      "subsections": {
+        "Delayed-Onset_2": {
+          "text": "Hypoglycemia\nis common cause of death and needs close monitoring",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Delayed-Onset_2": {
+      "text": "Hypoglycemia\nis common cause of death and needs close monitoring",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Early-Onset_3": {
+          "text": "GI predominant symptoms:\nActivated charcoal\n0.5-1gm/kg\nDo\nnot\ngive antidiarrheal meds\nCNS predominant symptoms:\nPlace in dark, quiet room\nBenzos\nmay be given to patients who are agitated\nConsider\npyridoxine\nfor refractory seizures, especially if suspecting\ngyromitra\n[6]\nMuscarinic predominant symptoms:\nConsider\natropine\nfor severe symptoms; 0.5-1mg IV for adults; 0.01mg/kg IV for peds",
+          "tables": []
+        },
+        "Delayed-Onset_3": {
+          "text": "Consider\nAmatoxin-specific treatments\n:\nActivated charcoal\nN-Acetylcysteine (NAC)\n: 150 mg/kg over one hour, 50 mg/kg over 4 hours, 100 mg/kg over 16 hours\nCall poison control, consider:\nPenicillin G\nSilibinin dihemisuccinate\nCimetidine\nVitamin C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "gyromitra",
+          "url": "https://wikem.org/wiki/Gyromitra"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Amatoxin-specific treatments",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "N-Acetylcysteine (NAC)",
+          "url": "https://wikem.org/wiki/N-Acetylcysteine"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        }
+      ]
+    },
+    "Early-Onset_3": {
+      "text": "GI predominant symptoms:\nActivated charcoal\n0.5-1gm/kg\nDo\nnot\ngive antidiarrheal meds\nCNS predominant symptoms:\nPlace in dark, quiet room\nBenzos\nmay be given to patients who are agitated\nConsider\npyridoxine\nfor refractory seizures, especially if suspecting\ngyromitra\n[6]\nMuscarinic predominant symptoms:\nConsider\natropine\nfor severe symptoms; 0.5-1mg IV for adults; 0.01mg/kg IV for peds",
+      "subsections": {
+        "Delayed-Onset_3": {
+          "text": "Consider\nAmatoxin-specific treatments\n:\nActivated charcoal\nN-Acetylcysteine (NAC)\n: 150 mg/kg over one hour, 50 mg/kg over 4 hours, 100 mg/kg over 16 hours\nCall poison control, consider:\nPenicillin G\nSilibinin dihemisuccinate\nCimetidine\nVitamin C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "gyromitra",
+          "url": "https://wikem.org/wiki/Gyromitra"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Amatoxin-specific treatments",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "N-Acetylcysteine (NAC)",
+          "url": "https://wikem.org/wiki/N-Acetylcysteine"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        }
+      ]
+    },
+    "Delayed-Onset_3": {
+      "text": "Consider\nAmatoxin-specific treatments\n:\nActivated charcoal\nN-Acetylcysteine (NAC)\n: 150 mg/kg over one hour, 50 mg/kg over 4 hours, 100 mg/kg over 16 hours\nCall poison control, consider:\nPenicillin G\nSilibinin dihemisuccinate\nCimetidine\nVitamin C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amatoxin-specific treatments",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "N-Acetylcysteine (NAC)",
+          "url": "https://wikem.org/wiki/N-Acetylcysteine"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Early-Onset_4": {
+          "text": "Discharge once symptoms have subsided",
+          "tables": []
+        },
+        "Delayed-Onset_4": {
+          "text": "Admit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Early-Onset_4": {
+      "text": "Discharge once symptoms have subsided",
+      "subsections": {
+        "Delayed-Onset_4": {
+          "text": "Admit",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Delayed-Onset_4": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

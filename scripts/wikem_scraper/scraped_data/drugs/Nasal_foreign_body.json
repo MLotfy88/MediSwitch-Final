@@ -1,0 +1,284 @@
+{
+  "drug_name": "Nasal_foreign_body",
+  "url": "https://wikem.org/wiki/Nasal_foreign_body",
+  "scraped_at": "2026-01-10T07:58:00.818094",
+  "sections": {
+    "Background": {
+      "text": "Common foreign bodies include food (beans, nuts, gum), marbles, batteries, beads, magnets, jewelry, stones, tissue, etc.\nSuspect foreign body in a patient with\nunilateral\npurulent or bloody nasal discharge or unilateral sinusitis even if no history of foreign body insertion.\nSmall children may need\nprocedural sedation\nfor removal efforts.\nRadiographic imaging unlikely to be helpful.\nException: if suspect nasal foreign body but do not see one, consider radiography to rule out button battery or magnets across septum prior to discharge and follow-up with ENT\nAlways check other nare and ears - may have multiple foreign bodies",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation_(peds)"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of foreign body insertion\nForeign body seen on exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Rhinorrhea": {
+          "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Rhinorrhea": {
+      "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Typically not indicated",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically clinical, based on history and exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Typically not indicated",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically clinical, based on history and exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically clinical, based on history and exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider afrin spray or atomized lidocaine with epinephrine prior to removal efforts.\nKeep patient upright to avoid foreign body going back into airway\nCan sit on parent's lap with parent hugging / restraining arms\nCan use a c-collar to prevent side to side motion\nOptions:\n\"Parent's Kiss\" - like performing mouth to mouth. Have parent close contralateral nare, form tight seal over child's mouth. Perform short, sharp blow of air into patient's mouth to expel foreign body (best for foreign bodies occluding the whole nostril)\nBVM technique - similar to \"Parent's Kiss\" technique - close opposite nare, use BVM with tight fit over mouth only, squeeze bag to provide short, sharp blow of air\nAlligator forceps or Bayonet forceps\nCurette (lighted may be helpful)\nDermabond on end of long q-tip (Can use a disposable speculum to shield the nares so you do not accidentally glue the q-tip to the skin)\nBalloon catheter (e.g. foley catheter or fogarty catheter or commercial Katz extractor) - snake catheter into nare past the foreign body → gently inflate balloon → gently pull catheter out of nare\nSuction (can make own with small caliber ETT cut short or 14 Fr suction catheter cut short)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most patients can be discharged\nIf unable to remove foreign body, or if complications → refer to ENT\nIf foreign body is button battery or multiple magnets (especially strong rare earth magnets), requires immediate removal in ED. Consult ENT if needed.\nShort course prophylactic antibiotics if foreign body was present for a long time or there is edema - risk of sinusitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Barotrauma from \"Parent's Kiss\" or\nBVM\ntechnique\nBleeding or other nasal trauma\nDisplacement of foreign body into airway\nDermabond method: gluing swab to skin\nTissue necrosis (batteries and magnets)\nProlonged foreign body or extensive edema increases risk of\nsinusitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Trick of the Trade: Nasal foreign body removal using foley catheter",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=QBcvcn5C0ic}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=QBcvcn5C0ic}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Harwood-Nuss, Roberts and Hedges",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

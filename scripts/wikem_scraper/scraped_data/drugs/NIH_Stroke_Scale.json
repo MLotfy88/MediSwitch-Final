@@ -1,0 +1,407 @@
+{
+  "drug_name": "NIH_Stroke_Scale",
+  "url": "https://wikem.org/wiki/NIH_Stroke_Scale",
+  "scraped_at": "2026-01-10T07:57:58.294819",
+  "sections": {
+    "Background": {
+      "text": "Intubation or limb pathology making categories not testable should be considered and potentially not scored.\ntPA candidate generally with NIHSS 4 - 22",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scale": {
+      "text": "",
+      "subsections": {
+        "1a_General": {
+          "text": "Alert = 0\nNot alert, arousable to mild stimulation = 1\nNot alert, arousable to significant stimulation = 2\nNot alert; reflexic, autonomic or no response = 3",
+          "tables": []
+        },
+        "1b._Questions": {
+          "text": "Month and DOB\nBoth correct = 0\nOne correct = 1\nZero correct = 2",
+          "tables": []
+        },
+        "1c._Commands": {
+          "text": "Open/close eyes & squeeze/release hand:\nBoth correct = 0\nOne correct = 1\nZero correct = 2",
+          "tables": []
+        },
+        "2._Best_Gaze": {
+          "text": "Horizontal voluntary or oculocephalic reflex:\nNormal = 0\nPartial gaze palsy = 1\nForced deviation or total gaze palsy = 2",
+          "tables": []
+        },
+        "3._Visual_Fields": {
+          "text": "Normal = 0\nPartial hemianopia = 1\nComplete hemianopia = 2\nBilateral hemianopia or cortical blindness = 3",
+          "tables": []
+        },
+        "4._Facial_Paralysis": {
+          "text": "Normal = 0\nMinor, flat nasolabial fold = 1\nPartial or total uni lower paralysis= 2\nComplete paralysis 1 or both sides (upper & lower) = 3",
+          "tables": []
+        },
+        "5._Motor_Arm": {
+          "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_of_Consciousness": {
+      "text": "",
+      "subsections": {
+        "1a_General": {
+          "text": "Alert = 0\nNot alert, arousable to mild stimulation = 1\nNot alert, arousable to significant stimulation = 2\nNot alert; reflexic, autonomic or no response = 3",
+          "tables": []
+        },
+        "1b._Questions": {
+          "text": "Month and DOB\nBoth correct = 0\nOne correct = 1\nZero correct = 2",
+          "tables": []
+        },
+        "1c._Commands": {
+          "text": "Open/close eyes & squeeze/release hand:\nBoth correct = 0\nOne correct = 1\nZero correct = 2",
+          "tables": []
+        },
+        "2._Best_Gaze": {
+          "text": "Horizontal voluntary or oculocephalic reflex:\nNormal = 0\nPartial gaze palsy = 1\nForced deviation or total gaze palsy = 2",
+          "tables": []
+        },
+        "3._Visual_Fields": {
+          "text": "Normal = 0\nPartial hemianopia = 1\nComplete hemianopia = 2\nBilateral hemianopia or cortical blindness = 3",
+          "tables": []
+        },
+        "4._Facial_Paralysis": {
+          "text": "Normal = 0\nMinor, flat nasolabial fold = 1\nPartial or total uni lower paralysis= 2\nComplete paralysis 1 or both sides (upper & lower) = 3",
+          "tables": []
+        },
+        "5._Motor_Arm": {
+          "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "2._Best_Gaze": {
+      "text": "Horizontal voluntary or oculocephalic reflex:\nNormal = 0\nPartial gaze palsy = 1\nForced deviation or total gaze palsy = 2",
+      "subsections": {
+        "3._Visual_Fields": {
+          "text": "Normal = 0\nPartial hemianopia = 1\nComplete hemianopia = 2\nBilateral hemianopia or cortical blindness = 3",
+          "tables": []
+        },
+        "4._Facial_Paralysis": {
+          "text": "Normal = 0\nMinor, flat nasolabial fold = 1\nPartial or total uni lower paralysis= 2\nComplete paralysis 1 or both sides (upper & lower) = 3",
+          "tables": []
+        },
+        "5._Motor_Arm": {
+          "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "3._Visual_Fields": {
+      "text": "Normal = 0\nPartial hemianopia = 1\nComplete hemianopia = 2\nBilateral hemianopia or cortical blindness = 3",
+      "subsections": {
+        "4._Facial_Paralysis": {
+          "text": "Normal = 0\nMinor, flat nasolabial fold = 1\nPartial or total uni lower paralysis= 2\nComplete paralysis 1 or both sides (upper & lower) = 3",
+          "tables": []
+        },
+        "5._Motor_Arm": {
+          "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "4._Facial_Paralysis": {
+      "text": "Normal = 0\nMinor, flat nasolabial fold = 1\nPartial or total uni lower paralysis= 2\nComplete paralysis 1 or both sides (upper & lower) = 3",
+      "subsections": {
+        "5._Motor_Arm": {
+          "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "5._Motor_Arm": {
+      "text": "10 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+      "subsections": {
+        "6._Motor_Leg": {
+          "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+          "tables": []
+        },
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "6._Motor_Leg": {
+      "text": "5 seconds:\nNo drift = 0\nSome drift = 1\nFalls, effort against gravity = 2\nFalls, No effort against gravity = 3\nNo movement = 4",
+      "subsections": {
+        "7._Limb_ataxia": {
+          "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+          "tables": []
+        },
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "7._Limb_ataxia": {
+      "text": "Absent = 0\nOne limb = 1\nTwo limb = 2",
+      "subsections": {
+        "8._Sensory_Loss": {
+          "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+          "tables": []
+        },
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "8._Sensory_Loss": {
+      "text": "Arms, legs, trunk:\nNormal = 0\nPresent but altered = 1\nAbsent = 2",
+      "subsections": {
+        "9._Best_Language": {
+          "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+          "tables": []
+        },
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "9._Best_Language": {
+      "text": "Identification (picture or tactile), repetition, comprehension:\nNo aphasia = 0\nMild to moderate = 1\nSevere = 2\nMute/Global aphasia = 3",
+      "subsections": {
+        "10._Dysarthria": {
+          "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+          "tables": []
+        },
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "10._Dysarthria": {
+      "text": "None = 0\nMild to moderate = 1\nSevere = 2",
+      "subsections": {
+        "11._Extinction/Inattention": {
+          "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "11._Extinction/Inattention": {
+      "text": "Neglect:\nNone = 0\nLoss of 1 modality (visual, tactile, auditory, spatial, personal) = 1\nProfound hemi-inattention or more than 1 modality = 2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc - NIH Stroke Scale/Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "National Institute of Neurologic Disorders and Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CVA (Main)\nfor VAN score\ntPA in Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "tPA in Stroke",
+          "url": "https://wikem.org/wiki/Thrombolysis_in_Acute_Ischemic_Stroke_(tPA)"
+        }
+      ]
+    }
+  }
+}

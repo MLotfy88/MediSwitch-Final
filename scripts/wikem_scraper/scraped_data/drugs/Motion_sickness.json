@@ -1,0 +1,164 @@
+{
+  "drug_name": "Motion_sickness",
+  "url": "https://wikem.org/wiki/Motion_sickness",
+  "scraped_at": "2026-01-10T07:57:44.451128",
+  "sections": {
+    "Background": {
+      "text": "Motion sickness occurs in the setting of passive motion or with a visual stimulus, which is perceived as actual movement (virtual reality).\nIt is possible to induce motion sickness in nearly all adults with enough provocation.\nIndividuals are more susceptible to motion sickness, depending on the risk factors below.",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Patient Factors\nWomen\nAges 2-12 years old (peaks at 12 yo)\nHormonal: Pregnant, menstruating, oral contraceptives\nOther sensory Illness: Altered visual or vestibular sensory cues (labrynthitis)\nMigraine disorder\nPsychosocial\nEnvironmental Factors\nType of motion: The greater the magnitude of low frequency horizontal or vertical motion the greater the motion sickness\nBody position: Supine position alleviates motion sickness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Patient Factors\nWomen\nAges 2-12 years old (peaks at 12 yo)\nHormonal: Pregnant, menstruating, oral contraceptives\nOther sensory Illness: Altered visual or vestibular sensory cues (labrynthitis)\nMigraine disorder\nPsychosocial\nEnvironmental Factors\nType of motion: The greater the magnitude of low frequency horizontal or vertical motion the greater the motion sickness\nBody position: Supine position alleviates motion sickness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dizziness\nNausea\nIncreased salivation\nGeneral malaise\nDiaphoresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Benign paroxysmal positional vertigo\nMeniere Disease\nVestibular neuritis\nLabyrinthitis\nCerebrovascular event",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benign paroxysmal positional vertigo",
+          "url": "https://wikem.org/wiki/Benign_paroxysmal_positional_vertigo"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "Vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Cerebrovascular event",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation is clinical and based upon the patient's history.\nBMP to evaluate dehydration/electrolyte abnormalities if significant amount of vomiting\nCT head (if concern for stroke/hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antihistamines\n(\nDiphenhydramine\n, chlorpheniramine, cyclizine,\nmeclizine\n)\nAnticholinergics\n(\nScopolamine\n)\nAntidopaminergics (\nPromethazine\n,\nmetoclopramide\n)\nSympathomimetics\n(\nEphedrine\n,\namphetamines\n,\ncaffeine\n)\nBenzodiazepines\nAntiemetics\n(\nprochlorperazine\n,\nondansetron\n)\nGABA agonists (\nbaclofen\n,\ngabapentin\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "Ephedrine",
+          "url": "https://wikem.org/wiki/Ephedrine"
+        },
+        {
+          "text": "amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "baclofen",
+          "url": "https://wikem.org/wiki/Baclofen"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if motion sickness is the primary diagnosis\nEducate patient on motion sickness and their susceptibility based on their risk factors. Inform the patient on how to prevent motion sickness with body position and medications.  Encourage patient to return to ED if symptoms worsen.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vertigo",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "drug_name": "Myocardial_infarction_complications",
+  "url": "https://wikem.org/wiki/Myocardial_infarction_complications",
+  "scraped_at": "2026-01-10T07:57:50.472230",
+  "sections": {
+    "MI_Complications": {
+      "text": "",
+      "subsections": {
+        "Left_ventricular_free_wall_rupture": {
+          "text": "5-14 days after MI, earlier in thrombolysis patients\nLeaking of fluid outside can cause\ntamponade\nLook for JVD,\npulsus paradoxus\n, diminished sounds\nEmergent\necho\nif stable\nGive\nIVF\nand consult cardiovascular surgery for\npericardiocentesis\nand thoracotomy",
+          "tables": []
+        },
+        "Left_ventricular_aneurysm": {
+          "text": "Usually chronic and can persis for >6 weeks after MI\nTends to occur with ant MI\nEmergent\necho\nif stable\nTreat\ncardiogenic shock\n,\nanticoagulate\nif mural thrombus\nDefibrillate\nventricular dysrhythmias",
+          "tables": []
+        },
+        "Septum_rupture": {
+          "text": "3-7 days after MI\nBlood fills RV\nListen for holosystolic\nmurmur\nEmergent\necho\nif stable\nReduce afterload with vasodilators (e.g.\nnitroglycerin\n) and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Papillary_muscle_rupture": {
+          "text": "2-7 days after MI\nListen for\nmurmur\nat apex\nEmergent\necho\nif stable\nReduce afterload with vasodilators and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Dressler's_syndrome": {
+          "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "url": "https://wikem.org/wiki/Pulsus_paradoxus"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "anticoagulate",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Left_ventricular_free_wall_rupture": {
+      "text": "5-14 days after MI, earlier in thrombolysis patients\nLeaking of fluid outside can cause\ntamponade\nLook for JVD,\npulsus paradoxus\n, diminished sounds\nEmergent\necho\nif stable\nGive\nIVF\nand consult cardiovascular surgery for\npericardiocentesis\nand thoracotomy",
+      "subsections": {
+        "Left_ventricular_aneurysm": {
+          "text": "Usually chronic and can persis for >6 weeks after MI\nTends to occur with ant MI\nEmergent\necho\nif stable\nTreat\ncardiogenic shock\n,\nanticoagulate\nif mural thrombus\nDefibrillate\nventricular dysrhythmias",
+          "tables": []
+        },
+        "Septum_rupture": {
+          "text": "3-7 days after MI\nBlood fills RV\nListen for holosystolic\nmurmur\nEmergent\necho\nif stable\nReduce afterload with vasodilators (e.g.\nnitroglycerin\n) and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Papillary_muscle_rupture": {
+          "text": "2-7 days after MI\nListen for\nmurmur\nat apex\nEmergent\necho\nif stable\nReduce afterload with vasodilators and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Dressler's_syndrome": {
+          "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "url": "https://wikem.org/wiki/Pulsus_paradoxus"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pericardiocentesis",
+          "url": "https://wikem.org/wiki/Pericardiocentesis"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "anticoagulate",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Left_ventricular_aneurysm": {
+      "text": "Usually chronic and can persis for >6 weeks after MI\nTends to occur with ant MI\nEmergent\necho\nif stable\nTreat\ncardiogenic shock\n,\nanticoagulate\nif mural thrombus\nDefibrillate\nventricular dysrhythmias",
+      "subsections": {
+        "Septum_rupture": {
+          "text": "3-7 days after MI\nBlood fills RV\nListen for holosystolic\nmurmur\nEmergent\necho\nif stable\nReduce afterload with vasodilators (e.g.\nnitroglycerin\n) and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Papillary_muscle_rupture": {
+          "text": "2-7 days after MI\nListen for\nmurmur\nat apex\nEmergent\necho\nif stable\nReduce afterload with vasodilators and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Dressler's_syndrome": {
+          "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "anticoagulate",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Septum_rupture": {
+      "text": "3-7 days after MI\nBlood fills RV\nListen for holosystolic\nmurmur\nEmergent\necho\nif stable\nReduce afterload with vasodilators (e.g.\nnitroglycerin\n) and consult cardiovascular surgery\nConsider IABP",
+      "subsections": {
+        "Papillary_muscle_rupture": {
+          "text": "2-7 days after MI\nListen for\nmurmur\nat apex\nEmergent\necho\nif stable\nReduce afterload with vasodilators and consult cardiovascular surgery\nConsider IABP",
+          "tables": []
+        },
+        "Dressler's_syndrome": {
+          "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Papillary_muscle_rupture": {
+      "text": "2-7 days after MI\nListen for\nmurmur\nat apex\nEmergent\necho\nif stable\nReduce afterload with vasodilators and consult cardiovascular surgery\nConsider IABP",
+      "subsections": {
+        "Dressler's_syndrome": {
+          "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Dressler's_syndrome": {
+      "text": "1-8 weeks after MI\nThought to be immune-mediated injury\nListen for pericardial rub,\nchest pain\n/\ndyspnea\nimproved with leaning forward,\nfever\nECG\nmay show\npericarditis\n, Echo with\npericardial effusion\nTreat with\nASA\n, if > 4 weeks from MI can use\nNSAIDS\nor\ncorticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Complications_Based_on_MI_Location": {
+      "text": "",
+      "subsections": {
+        "Anteroseptal_MI_Complications": {
+          "text": "Look at V2-V4,5\nCHF\n/\nCardiogenic shock\nLarge area of myocardium involved\nBradycardia\nBundles thru septum knocked out leading to wide complex\nMyocardial tissue rupture\nLV aneurysm",
+          "tables": []
+        },
+        "Inferior_MI_Complications": {
+          "text": "Look at II, III, aVF\nBradycardias\nand\nAV block\nIncreased vagal tone\nSinus Node supplied by RCA in 60% of patients\nAV node supplied by RCA in 90% of patients\nPapillary muscle rupture\nRCA supplies inferior septum\nMyocardial infarction\n+ new\nmurmur\n+\nCHF\nthink valve injury",
+          "tables": []
+        },
+        "Right_Ventricle_MI_Complications": {
+          "text": "Inf MI with ST elev III>II, ST elev V1>V2, ST dep V2\nLead III and V1 looks most at right side of heart\nRV mostly supplied by RCA\nHypotensionmost\nsevere complication\nVolume load\nAVOID vasodilators, do\nnot\ngive\nnitro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Myocardial tissue rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "LV aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "Bradycardias",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypotensionmost",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        }
+      ]
+    },
+    "Anteroseptal_MI_Complications": {
+      "text": "Look at V2-V4,5\nCHF\n/\nCardiogenic shock\nLarge area of myocardium involved\nBradycardia\nBundles thru septum knocked out leading to wide complex\nMyocardial tissue rupture\nLV aneurysm",
+      "subsections": {
+        "Inferior_MI_Complications": {
+          "text": "Look at II, III, aVF\nBradycardias\nand\nAV block\nIncreased vagal tone\nSinus Node supplied by RCA in 60% of patients\nAV node supplied by RCA in 90% of patients\nPapillary muscle rupture\nRCA supplies inferior septum\nMyocardial infarction\n+ new\nmurmur\n+\nCHF\nthink valve injury",
+          "tables": []
+        },
+        "Right_Ventricle_MI_Complications": {
+          "text": "Inf MI with ST elev III>II, ST elev V1>V2, ST dep V2\nLead III and V1 looks most at right side of heart\nRV mostly supplied by RCA\nHypotensionmost\nsevere complication\nVolume load\nAVOID vasodilators, do\nnot\ngive\nnitro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Myocardial tissue rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        },
+        {
+          "text": "LV aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "Bradycardias",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypotensionmost",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        }
+      ]
+    },
+    "Inferior_MI_Complications": {
+      "text": "Look at II, III, aVF\nBradycardias\nand\nAV block\nIncreased vagal tone\nSinus Node supplied by RCA in 60% of patients\nAV node supplied by RCA in 90% of patients\nPapillary muscle rupture\nRCA supplies inferior septum\nMyocardial infarction\n+ new\nmurmur\n+\nCHF\nthink valve injury",
+      "subsections": {
+        "Right_Ventricle_MI_Complications": {
+          "text": "Inf MI with ST elev III>II, ST elev V1>V2, ST dep V2\nLead III and V1 looks most at right side of heart\nRV mostly supplied by RCA\nHypotensionmost\nsevere complication\nVolume load\nAVOID vasodilators, do\nnot\ngive\nnitro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardias",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypotensionmost",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        }
+      ]
+    },
+    "Right_Ventricle_MI_Complications": {
+      "text": "Inf MI with ST elev III>II, ST elev V1>V2, ST dep V2\nLead III and V1 looks most at right side of heart\nRV mostly supplied by RCA\nHypotensionmost\nsevere complication\nVolume load\nAVOID vasodilators, do\nnot\ngive\nnitro",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotensionmost",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACS - Anatomical Correlation\nST-Elevation Myocardial Infarction (STEMI)\nNSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS - Anatomical Correlation",
+          "url": "https://wikem.org/wiki/ACS_-_Anatomical_Correlation"
+        },
+        {
+          "text": "ST-Elevation Myocardial Infarction (STEMI)",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        }
+      ]
+    }
+  }
+}

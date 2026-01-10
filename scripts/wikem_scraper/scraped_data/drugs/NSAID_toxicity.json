@@ -1,0 +1,141 @@
+{
+  "drug_name": "NSAID_toxicity",
+  "url": "https://wikem.org/wiki/NSAID_toxicity",
+  "scraped_at": "2026-01-10T07:57:56.667791",
+  "sections": {
+    "Background": {
+      "text": "Vast majority of patients with acute overdoses suffer little morbidity\nUsually asymptomatic with ingestions <100mg/kg\nSignificant risk for toxicity with ingestions >400mg/kg\nSymptoms begin within 4hr of ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "GI\nAbdominal pain, nausea and vomiting, hepatic injury, pancreatitis (rare)\nCNS\nheadache, altered mental status, nystagmus, diplopia, muscle twitching, seizures, coma\nCV\nHypotension, shock, bradydysrhythmia (due to electrolyte imbalances)\nElectrolyte\nHyperkalemia\n, hypocalcemia, hypomagnesemia, AG metabolic acidosis\nRenal\nRenal insufficiency (rarely causes failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Chemistry\nLFT\nCBC\nCoags\nAPAP/ASA levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Chemistry\nLFT\nCBC\nCoags\nAPAP/ASA levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "Rule-out coingestants, observe for 4hr",
+          "tables": []
+        },
+        "Symptomatic": {
+          "text": "GI decontamination\nConsider\nwhole-bowel irrigation\nfor enteric-coated formulations\nHypotension\nIVF\nand\npressors\nas needed\nDialysis ineffective",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    },
+    "Asymptomatic": {
+      "text": "Rule-out coingestants, observe for 4hr",
+      "subsections": {
+        "Symptomatic": {
+          "text": "GI decontamination\nConsider\nwhole-bowel irrigation\nfor enteric-coated formulations\nHypotension\nIVF\nand\npressors\nas needed\nDialysis ineffective",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    },
+    "Symptomatic": {
+      "text": "GI decontamination\nConsider\nwhole-bowel irrigation\nfor enteric-coated formulations\nHypotension\nIVF\nand\npressors\nas needed\nDialysis ineffective",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider discharge if asymptomatic after 4-6hr obs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acetaminophen (tylenol) toxicity\nAspirin (Salicylate) Toxicity\nNSAIDs\nToxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen (tylenol) toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}
