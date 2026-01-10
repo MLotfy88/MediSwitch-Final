@@ -1,0 +1,496 @@
+{
+  "drug_name": "Sexual_assault",
+  "url": "https://wikem.org/wiki/Sexual_assault",
+  "scraped_at": "2026-01-10T08:02:04.852465",
+  "sections": {
+    "Background": {
+      "text": "Male victim in 10% of cases\nToluidine blue: detects vulvar tears\nWood's lamp: detects semen stains",
+      "subsections": {
+        "Risks": {
+          "text": "Pregnancy\nWithout contraception 1-5%\nIf mid-cycle (days 14-16) risk is higher\nSTD\n(5-10%)\nHIV\nTheoretically higher risk of transmission in sexual assault than consensual due to physiological factors\nConsensual receptive vaginal intercourse 0.1-0.2%\nConsensual receptive anal intercourse 0.5-3%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Risks": {
+      "text": "Pregnancy\nWithout contraception 1-5%\nIf mid-cycle (days 14-16) risk is higher\nSTD\n(5-10%)\nHIV\nTheoretically higher risk of transmission in sexual assault than consensual due to physiological factors\nConsensual receptive vaginal intercourse 0.1-0.2%\nConsensual receptive anal intercourse 0.5-3%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of sexual exposure without consent\nMay or may not have symptoms/signs of injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        }
+      ]
+    },
+    "Psychosocial_and_Related": {
+      "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Check for life threats, emergent medical needs, and injuries first\nIf patient consents to forensic exam after medical evaluation\nAsk patient not to change, shower, eat, drink, or wash hands\nDo not give wet wipe and ask patient not to wipe when giving urine sample. Collect dirty catch urine\nDefer GU examination if patient consents to SANE (sexual assault nurse examiner) exam\nContact SANE (sexual assault nurse examiner) and police (if report not already filed and patient consents, or if required by law)",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Pregnancy test\nRapid\nHIV\nHepatitis panel\nHepatitis B surface antigen\nHepatitis C viral load\nRPR\nUrine GC/chlamydia, if not collected by SANE\nIf considering HIV PEP, need baseline labs\nCBC\nChemistry\nLFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "General": {
+      "text": "Check for life threats, emergent medical needs, and injuries first\nIf patient consents to forensic exam after medical evaluation\nAsk patient not to change, shower, eat, drink, or wash hands\nDo not give wet wipe and ask patient not to wipe when giving urine sample. Collect dirty catch urine\nDefer GU examination if patient consents to SANE (sexual assault nurse examiner) exam\nContact SANE (sexual assault nurse examiner) and police (if report not already filed and patient consents, or if required by law)",
+      "subsections": {
+        "Labs": {
+          "text": "Pregnancy test\nRapid\nHIV\nHepatitis panel\nHepatitis B surface antigen\nHepatitis C viral load\nRPR\nUrine GC/chlamydia, if not collected by SANE\nIf considering HIV PEP, need baseline labs\nCBC\nChemistry\nLFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Pregnancy test\nRapid\nHIV\nHepatitis panel\nHepatitis B surface antigen\nHepatitis C viral load\nRPR\nUrine GC/chlamydia, if not collected by SANE\nIf considering HIV PEP, need baseline labs\nCBC\nChemistry\nLFTs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider\nemergency contraception\nif possibility of pregnancy",
+      "subsections": {
+        "Empiric_Antibiotics_for_STDs": {
+          "text": "Ceftriaxone\n500mg IM in a single dose (1000mg if weight >= 150 kg)\nAND\nDoxycycline\n100mg orally twice a day for 1 week\nAND\nFor pregnant patients,\nAzithromycin\n1g orally in a single dose instead of doxycycline\nAND\nMetronidazole\n500 mg PO BID for 1 week\nAND\nHIV post-exposure prophylaxis\nPost-exposure prophylaxis (PEP) recommended as soon as possible if <= 72 hours since exposure AND\nAssailant HIV positive\nAssailant HIV status unknown, but patient's mucous membranes or non-intact skin exposed to blood, semen, vaginal secretions, or bloody body fluids",
+          "tables": []
+        },
+        "Pediatric_Antibiotics_for_STDs": {
+          "text": "If patient is pre-pubertal, only treat with antibiotics if they test positive rather than empirically.\nPubertal patients should be given empiric antibiotics.\nFor patients who weigh > 45 kg, same as adult medications above\nFor patients who weigh <= 45 kg\nGonorrhea\n:\nCeftriaxone\n50 mg/kg IM (maximum dose 250 mg) in a single dose\nChlamydia\n:\nDoxycycline\n2.2 mg/kg (maximum dose 100 mg) orally twice a day for 1 week\nDoxycycline may be used in age < 8 for treatment durations <= 21 days\n[2]\n[3]\nIf patient is pregnant or liquid doxycycline is not available for patients who cannot swallow pills, can give\nAzithromycin\n60 mg/kg (maximum dose 1000 mg) orally in a single dose\nTrichomonas\n:\nMetronidazole\n15 mg/kg (maximum dose 670 mg or 2000 mg/day) orally three times a day for 1 week",
+          "tables": []
+        },
+        "Vaccines": {
+          "text": "Tetanus vaccine\nHepatitis B post-exposure prophylaxis\nEven if patient is vaccinated, give HBV vaccine booster shot, preferably within 24 hours of exposure\nHPV vaccine for female patients age 9-26 and male patients 9-21 if patient has not already completed series of 3 vaccines\nRemember to attend to patient's emotional needs as well, consider social work consult and/or offering support resources such as [\nRape, Abuse & Incest National Network\n] 800-656-HOPE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "emergency contraception",
+          "url": "https://wikem.org/wiki/Emergency_contraception"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tetanus vaccine",
+          "url": "https://wikem.org/wiki/Tetanus_vaccine"
+        },
+        {
+          "text": "Hepatitis B post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Empiric_Antibiotics_for_STDs": {
+      "text": "Ceftriaxone\n500mg IM in a single dose (1000mg if weight >= 150 kg)\nAND\nDoxycycline\n100mg orally twice a day for 1 week\nAND\nFor pregnant patients,\nAzithromycin\n1g orally in a single dose instead of doxycycline\nAND\nMetronidazole\n500 mg PO BID for 1 week\nAND\nHIV post-exposure prophylaxis\nPost-exposure prophylaxis (PEP) recommended as soon as possible if <= 72 hours since exposure AND\nAssailant HIV positive\nAssailant HIV status unknown, but patient's mucous membranes or non-intact skin exposed to blood, semen, vaginal secretions, or bloody body fluids",
+      "subsections": {
+        "Pediatric_Antibiotics_for_STDs": {
+          "text": "If patient is pre-pubertal, only treat with antibiotics if they test positive rather than empirically.\nPubertal patients should be given empiric antibiotics.\nFor patients who weigh > 45 kg, same as adult medications above\nFor patients who weigh <= 45 kg\nGonorrhea\n:\nCeftriaxone\n50 mg/kg IM (maximum dose 250 mg) in a single dose\nChlamydia\n:\nDoxycycline\n2.2 mg/kg (maximum dose 100 mg) orally twice a day for 1 week\nDoxycycline may be used in age < 8 for treatment durations <= 21 days\n[2]\n[3]\nIf patient is pregnant or liquid doxycycline is not available for patients who cannot swallow pills, can give\nAzithromycin\n60 mg/kg (maximum dose 1000 mg) orally in a single dose\nTrichomonas\n:\nMetronidazole\n15 mg/kg (maximum dose 670 mg or 2000 mg/day) orally three times a day for 1 week",
+          "tables": []
+        },
+        "Vaccines": {
+          "text": "Tetanus vaccine\nHepatitis B post-exposure prophylaxis\nEven if patient is vaccinated, give HBV vaccine booster shot, preferably within 24 hours of exposure\nHPV vaccine for female patients age 9-26 and male patients 9-21 if patient has not already completed series of 3 vaccines\nRemember to attend to patient's emotional needs as well, consider social work consult and/or offering support resources such as [\nRape, Abuse & Incest National Network\n] 800-656-HOPE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tetanus vaccine",
+          "url": "https://wikem.org/wiki/Tetanus_vaccine"
+        },
+        {
+          "text": "Hepatitis B post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Vaccines": {
+      "text": "Tetanus vaccine\nHepatitis B post-exposure prophylaxis\nEven if patient is vaccinated, give HBV vaccine booster shot, preferably within 24 hours of exposure\nHPV vaccine for female patients age 9-26 and male patients 9-21 if patient has not already completed series of 3 vaccines\nRemember to attend to patient's emotional needs as well, consider social work consult and/or offering support resources such as [\nRape, Abuse & Incest National Network\n] 800-656-HOPE",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetanus vaccine",
+          "url": "https://wikem.org/wiki/Tetanus_vaccine"
+        },
+        {
+          "text": "Hepatitis B post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/Hepatitis_B_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV post-exposure prophylaxis\nChild abuse\nOccupational exposure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Occupational exposure",
+          "url": "https://wikem.org/wiki/Occupational_exposure"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.cdc.gov/std/tg2015/sexual-assault.htm\nhttps://www.rainn.org/about-rainn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

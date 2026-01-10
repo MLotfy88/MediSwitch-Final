@@ -1,0 +1,273 @@
+{
+  "drug_name": "Selective_serotonin_reuptake_inhibitor_toxicity",
+  "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity",
+  "scraped_at": "2026-01-10T08:01:56.509870",
+  "sections": {
+    "Background": {
+      "text": "Most serious adverse effect is potential to produce\nserotonin syndrome\nHowever, serotonin syndrome unlikely to occur unless co-ingested with other serotonergic drug classes (MAOIs, SNRI,  TCAs, amphetamines, opiates)\nPure overdoses are generally benign (mortality uncommon). Associated with less toxicity than tricyclic antidepressants.\nAre the most commonly prescribed antidepressants in the United States\n[1]\nExamples include fluoxetine (Prozac), paroxetine (Paxil), fluvoxamine (Luvox), sertraline (Zoloft), escitalopram (Lexapro), and citalopram (Celexa)\nCitalopram (>600 mg) and escitalopram (>300mg) are unique, as they may cause dose dependent\nQT prolongation\nand increase risk of\ntorsades de pointes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms\nNausea and vomiting\nAgitation\nAtaxia\nConfusion\nSigns\nAltered mental status\nAutonomic instability\nDiaphoresis\nHyperthermia\nHypertension\n/\nhypotension\nSinus tachycardia\nNeuromuscular hyperactivity\nHyperreflexia\nMuscular rigidity\nResting tremor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Serotonin syndrome\nNeuroleptic Malignant Syndrome\nAcetaminophen Toxicity\nWithdrawal Syndromes\nEncephalitis\nHeatstroke\nHyperthyroidism\nMeningitis\nRhabdomyolysis\nTetanus",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[2]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome"
+        },
+        {
+          "text": "Acetaminophen Toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_Toxicity"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[2]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nQRS,\nQT prolongation\n(citalopram only)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nQRS,\nQT prolongation\n(citalopram only)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is mostly supportive. Consult poison control for guidance, if needed.\nAdminister\nactivated charcoal\nif lethal amount ingested within 1-2 hours\nContinuous cardiac monitoring required for citalopram (>600 mg) and escitalopram (>300mg) for at least 8 hours.\nIf citalopram (>1000 mg) and escitalopram (>500 mg) has been ingested then monitor for 12-24 hours\nMagnesium\nsulfate 2g IV if QTc > 500 msec\nManage\nseizures\nwith\nbenzodiazepines\nManage\nhyperthermia\nIf suspecting\nSerotonin Syndrome\n, stop all serotonergic medication:\nSSRIs\nAnticonvulsants (valproate)\nAntiemetics (ondansetron, metoclopramide)\nAnalgesics (fentanyl, tramadol, methadone)\nAntibiotics (linezolid)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider admission for patients who are tachycardic or lethargic 6hr after ingestion\nECG before clearing a patient with citalopram ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Serotonin syndrome\nSNRI Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "SNRI Toxicity",
+          "url": "https://wikem.org/wiki/SNRI_Toxicity"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Life in the Fast Lane (LITFL) - SSRI Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "drug_name": "Septic_arthritis",
+  "url": "https://wikem.org/wiki/Septic_arthritis",
+  "scraped_at": "2026-01-10T08:02:04.990296",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients; for pediatric patients see\nseptic arthritis (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most important diagnostic consideration in acute joint pain (can destroy joint in days)\nKnee most commonly involved in adults; hip most common in pediatric\nMost often seen in patients >65yr\nMost common causative organisms\n<35 y/o\nN. gonorrhoeae\n>35 y/o\nS. aureus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nWarm, red, painful, swollen joint\nDecreased range of motion to active and passive movement\nGonococcal\narthritis\nUrethritis\n/\nvaginitis\nmay be absent\nMay have prodromal phase:\nMigratory arthritis and tenosynovitis predominate before pain and swelling occurs\nMacularpapular rash or pustules especially on hands/feet may proceed overt arthritis\nEndocarditis should be considered in the presence of 2 or more affected joints",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Transient (Toxic) Synovitis\nAbscess\nCellulitis\nPrimary rheumatologic disorder (i.e. vasculitis)\nIatrogenic\nReactive Arthritis (Poststreptococcal)\nConsider if patient has Sickle Cell (fever\nand\nlimited joint ROM)\nOsteomyelitis typically has neither",
+      "subsections": {
+        "Monoarticular_arthritis": {
+          "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transient (Toxic) Synovitis",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Reactive Arthritis (Poststreptococcal)",
+          "url": "https://wikem.org/wiki/Reactive_Arthritis_(Poststreptococcal)"
+        },
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Monoarticular_arthritis": {
+      "text": "Acute\nosteoarthritis\nAvascular necrosis\nCrystal-induced (\nGout\n,\nPseudogout\n)\nGonococcal arthritis\n, arthritis-dermatitis syndrome\nNongonococcal septic arthritis\nLyme disease\nMalignancy (metastases, osteochondroma, osteoid osteoma)\nReactive poststreptococcal arthritis\nTrauma-induced arthritis\nFracture\nLigamentous injury\nOveruse\nAvascular necrosis\nDecompression sickness\nSpontaneous osteonecrosis\nHemorrhagic (e.g.\nhemophilia\n, systemic\nanticoagulation\nSeronegative spondyloarthropathies (\nankylosing spondylitis\n,\nIBD\n,\npsoriatic arthritis\n,\nreactive arthritis\nRA\n,\nSLE\nSarcoidosis\n,\namyloidosis\nPeriarticular pathology\nCellulitis\nTendonitis\nBursitis\nTransient (Toxic) Synovitis (Hip)\nSlipped Capital Femoral Epiphysis (SCFE)\nLegg Calve Perthes Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Gonococcal arthritis",
+          "url": "https://wikem.org/wiki/Gonococcal_arthritis"
+        },
+        {
+          "text": "Nongonococcal septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Avascular necrosis",
+          "url": "https://wikem.org/wiki/Avascular_necrosis"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Tendonitis",
+          "url": "https://wikem.org/wiki/Tendonitis"
+        },
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Arthrocentesis with synovial fluid analysis\ncell count with differential\nglucose\nprotein\nbacterial culture and sensitivity (not 100% sn)\npolarized light microscopy for crystals\nCBC\nESR - Sn 94% (with 15mm/h cut-off)\n[2]\nCRP - Sn 92% (with 20mg/L cut-off)\nBlood Culture\nGonorrhea culture (urethral/cervical/pharyngeal/rectal)\nImaging (may be helpful for excluding other diagnoses - e.g. trauma, osteo, etc)\nImmunocompromised\nConsider mycobacterial or fungal arthritis\nLeukemia history: predisposed to Aeromonas infections\nPeriprosthetic infection\nNon-emergent: acute microbiological diagnosis is more important than rapid antibiotics\nDiagnose with two synovial fluid cultures (avoid collection from a draining sinus)\nCRP >100mg/L during first 6 weeks post-op warrants aspiration and may be used to differentiate from superficial skin infection",
+          "tables": []
+        },
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[3]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Arthrocentesis with synovial fluid analysis\ncell count with differential\nglucose\nprotein\nbacterial culture and sensitivity (not 100% sn)\npolarized light microscopy for crystals\nCBC\nESR - Sn 94% (with 15mm/h cut-off)\n[2]\nCRP - Sn 92% (with 20mg/L cut-off)\nBlood Culture\nGonorrhea culture (urethral/cervical/pharyngeal/rectal)\nImaging (may be helpful for excluding other diagnoses - e.g. trauma, osteo, etc)\nImmunocompromised\nConsider mycobacterial or fungal arthritis\nLeukemia history: predisposed to Aeromonas infections\nPeriprosthetic infection\nNon-emergent: acute microbiological diagnosis is more important than rapid antibiotics\nDiagnose with two synovial fluid cultures (avoid collection from a draining sinus)\nCRP >100mg/L during first 6 weeks post-op warrants aspiration and may be used to differentiate from superficial skin infection",
+      "subsections": {
+        "Arthrocentesis_of_synoval_fluid": {
+          "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[3]",
+          "tables": [
+            [
+              {
+                "Synovium": "Clarity",
+                "Normal": "Transparent",
+                "Noninflammatory": "Transparent",
+                "Inflammatory": "Cloudy",
+                "Septic": "Cloudy"
+              },
+              {
+                "Synovium": "Color",
+                "Normal": "Clear",
+                "Noninflammatory": "Yellow",
+                "Inflammatory": "Yellow",
+                "Septic": "Yellow"
+              },
+              {
+                "Synovium": "WBC",
+                "Normal": "<200",
+                "Noninflammatory": "<200-2000",
+                "Inflammatory": "200-50,000",
+                "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+              },
+              {
+                "Synovium": "PMN",
+                "Normal": "<25%",
+                "Noninflammatory": "<25%",
+                "Inflammatory": ">50%",
+                "Septic": ">64% (prosthetic joint)>90%"
+              },
+              {
+                "Synovium": "Culture",
+                "Normal": "Neg",
+                "Noninflammatory": "Neg",
+                "Inflammatory": "Neg",
+                "Septic": ">50% positive"
+              },
+              {
+                "Synovium": "Lactate",
+                "Normal": "<5.6 mmol/L",
+                "Noninflammatory": "<5.6 mmol/L",
+                "Inflammatory": "<5.6 mmol/L",
+                "Septic": ">5.6 mmol/L"
+              },
+              {
+                "Synovium": "LDH",
+                "Normal": "<250",
+                "Noninflammatory": "<250",
+                "Inflammatory": "<250",
+                "Septic": ">250"
+              },
+              {
+                "Synovium": "Crystals",
+                "Normal": "None",
+                "Noninflammatory": "None",
+                "Inflammatory": "Multiple or none",
+                "Septic": "None"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Arthrocentesis_of_synoval_fluid": {
+      "text": "Viscosity of synovial fluid may actually be decreased in inflammatory or infectious etiologies, as hyaluronic acid concentrations decrease\nThe presence of crystals does not rule out septic arthritis; however, the diagnosis is highly unlikely with synovial WBC < 50,000\n[3]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Synovium": "Clarity",
+            "Normal": "Transparent",
+            "Noninflammatory": "Transparent",
+            "Inflammatory": "Cloudy",
+            "Septic": "Cloudy"
+          },
+          {
+            "Synovium": "Color",
+            "Normal": "Clear",
+            "Noninflammatory": "Yellow",
+            "Inflammatory": "Yellow",
+            "Septic": "Yellow"
+          },
+          {
+            "Synovium": "WBC",
+            "Normal": "<200",
+            "Noninflammatory": "<200-2000",
+            "Inflammatory": "200-50,000",
+            "Septic": ">1,100 (prosthetic joint)>25,000; LR=2.9>50,000; LR=7.7>100,000; LR=28"
+          },
+          {
+            "Synovium": "PMN",
+            "Normal": "<25%",
+            "Noninflammatory": "<25%",
+            "Inflammatory": ">50%",
+            "Septic": ">64% (prosthetic joint)>90%"
+          },
+          {
+            "Synovium": "Culture",
+            "Normal": "Neg",
+            "Noninflammatory": "Neg",
+            "Inflammatory": "Neg",
+            "Septic": ">50% positive"
+          },
+          {
+            "Synovium": "Lactate",
+            "Normal": "<5.6 mmol/L",
+            "Noninflammatory": "<5.6 mmol/L",
+            "Inflammatory": "<5.6 mmol/L",
+            "Septic": ">5.6 mmol/L"
+          },
+          {
+            "Synovium": "LDH",
+            "Normal": "<250",
+            "Noninflammatory": "<250",
+            "Inflammatory": "<250",
+            "Septic": ">250"
+          },
+          {
+            "Synovium": "Crystals",
+            "Normal": "None",
+            "Noninflammatory": "None",
+            "Inflammatory": "Multiple or none",
+            "Septic": "None"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "For adults treatment should be divided into Gonococcal and Non-Gonococcal",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Ceftriaxone\n1g IV once daily\nCefixime\n400 mg PO BID is an option for outpatient therapy after initial 3 days of\nCeftriaxone",
+          "tables": []
+        },
+        "Non-Gonococcal": {
+          "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nEnterococcus\n,\nB. burgdorferi\nVancomycin 15-20 mg/kg IV BID PLUS any of the following:\nCeftriaxone\n2g IV once daily\nCefepime\n2g IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Ceftriaxone\n1g IV once daily",
+          "tables": []
+        },
+        "Sickle_Cell": {
+          "text": "Coverage for\nSalmonella\nand\nStaphylococcus\nspp\nVancomycin\n20mg/kg IV twice daily PLUS\nCiprofloxacin 400mg IV three times daily OR\nImipenem/cilastatin 1g IV three times daily",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "Consult ortho for joint irrigation in OR if joint aspirate is indicative of infection\nBenefit of serial aspirations vs arthroscopy vs irrigation and debridement is unclear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "B. burgdorferi",
+          "url": "https://wikem.org/wiki/Borrelia_burgdorferi"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "For adults treatment should be divided into Gonococcal and Non-Gonococcal",
+      "subsections": {
+        "Gonococcal": {
+          "text": "Ceftriaxone\n1g IV once daily\nCefixime\n400 mg PO BID is an option for outpatient therapy after initial 3 days of\nCeftriaxone",
+          "tables": []
+        },
+        "Non-Gonococcal": {
+          "text": "Treatment should cover\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nEnterococcus\n,\nB. burgdorferi\nVancomycin 15-20 mg/kg IV BID PLUS any of the following:\nCeftriaxone\n2g IV once daily\nCefepime\n2g IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Ceftriaxone\n1g IV once daily",
+          "tables": []
+        },
+        "Sickle_Cell": {
+          "text": "Coverage for\nSalmonella\nand\nStaphylococcus\nspp\nVancomycin\n20mg/kg IV twice daily PLUS\nCiprofloxacin 400mg IV three times daily OR\nImipenem/cilastatin 1g IV three times daily",
+          "tables": []
+        },
+        "Consultation": {
+          "text": "Consult ortho for joint irrigation in OR if joint aspirate is indicative of infection\nBenefit of serial aspirations vs arthroscopy vs irrigation and debridement is unclear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "B. burgdorferi",
+          "url": "https://wikem.org/wiki/Borrelia_burgdorferi"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Consultation": {
+      "text": "Consult ortho for joint irrigation in OR if joint aspirate is indicative of infection\nBenefit of serial aspirations vs arthroscopy vs irrigation and debridement is unclear",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit all",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Arthrocentesis\nMonoarticular arthritis\nSeptic arthritis of the hip (peds)\nSeptic arthritis (peds)\nKnee diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        },
+        {
+          "text": "Monoarticular arthritis",
+          "url": "https://wikem.org/wiki/Monoarticular_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Septic arthritis (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(peds)"
+        },
+        {
+          "text": "Knee diagnoses",
+          "url": "https://wikem.org/wiki/Knee_diagnoses"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Kocher Criteria for Septic Arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

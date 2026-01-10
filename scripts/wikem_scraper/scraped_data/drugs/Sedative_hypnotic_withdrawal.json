@@ -1,0 +1,164 @@
+{
+  "drug_name": "Sedative/hypnotic_withdrawal",
+  "url": "https://wikem.org/wiki/Sedative/hypnotic_withdrawal",
+  "scraped_at": "2026-01-10T08:01:57.530556",
+  "sections": {
+    "Background": {
+      "text": "Sedative/hypnotics, including benzodiazepines, barbiturates, and non-benzodiazepine \"Z-drugs\" (e.g., zolpidem, eszopiclone), are commonly prescribed for anxiety, insomnia, and seizure disorders. While effective in the short term, these agents carry a significant risk for tolerance, physical dependence, and withdrawal upon abrupt discontinuation. The underlying pathophysiology of withdrawal stems from chronic modulation of gamma-aminobutyric acid (GABA) receptors, resulting in a state of central nervous system hyperexcitability when the inhibitory effect is suddenly removed\n[1]\n. Sedative/hypnotic withdrawal remains underrecognized in clinical practice despite its potentially life-threatening complications, such as seizures and delirium\n[2]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "For short-acting agents like alprazolam or zolpidem, withdrawal can begin within 6–24 hours after the last dose. Long-acting agents like diazepam may produce symptoms after several days.\nCommon features include:\nMild: anxiety, insomnia, restlessness, tremors, diaphoresis\nModerate: palpitations, nausea, myoclonus, perceptual disturbances\nSevere: hallucinations, psychosis, seizures, and delirium tremens-like presentations\nSymptoms typically peak within 48–72 hours but can persist for weeks, especially with long-term use.\n[3]\nA clinical feature distinguishing sedative/hypnotic withdrawal from alcohol withdrawal is the potential for prolonged symptoms due to the long half-life of some agents.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_withdrawal": {
+          "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Sedative/hypnotic_withdrawal": {
+      "text": "Toxic alcohols\nEthanol\nEthylene glycol\nMethanol\nIsopropyl alcohol\nBenzodiazepines\nFlunitrazepam\n(Rohypnol)\nGamma hydroxybutyrate\n(GHB)\nBaclofen\nBarbiturates\nOpioids\nChloral hydrate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_withdrawal"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Flunitrazepam",
+          "url": "https://wikem.org/wiki/Flunitrazepam_withdrawal"
+        },
+        {
+          "text": "Gamma hydroxybutyrate",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_withdrawal"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "A detailed history is critical and should include dose, duration, and timing of last sedative/hypnotic use. Collateral information, such as pharmacy records or reports from family members, may be necessary.\nRecommended evaluation includes:\nVital signs and mental status examination\nBasic labs: CBC, CMP, magnesium, phosphate\nUrine toxicology screen (although many sedative agents may not be detected)\nECG, especially in older adults or those with suspected overdose\nConsider brain imaging if focal deficits or atypical presentation\nClinical assessment tools such as the\nClinical Institute Withdrawal Assessment for Benzodiazepines\n(CIWA-B) may be used, although less widely validated than CIWA-Ar for alcohol withdrawal.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clinical Institute Withdrawal Assessment for Benzodiazepines",
+          "url": "https://wikem.org/wiki/Clinical_Institute_Withdrawal_Assessment_for_Benzodiazepines"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Benzodiazepines are the treatment of choice, especially diazepam or lorazepam due to favorable pharmacokinetics\n[5]\n.\nTitrate to symptom control using a symptom-triggered or fixed-dosing protocol.\nPhenobarbital is a second-line option, particularly in refractory cases or for tapering high-dose benzodiazepine users\n[6]\n.\nSupportive care: fluids, nutrition, quiet environment, seizure precautions\nIn severe cases with seizures or delirium, ICU monitoring is warranted.\nReferral to long term care is necessary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patients presenting with severe withdrawal symptoms—such as seizures, delirium, or hemodynamic instability—require inpatient admission, often to a monitored setting. Patients with mild to moderate symptoms who are medically stable, have reliable follow-up, and are motivated may be managed as outpatients with a clear tapering plan and close monitoring.\nReferral to mental health or addiction medicine services is essential for those with comorbid psychiatric illness, polysubstance use, or high relapse risk\n[7]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nSedative/hypnotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Sedative/hypnotic toxicity",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        }
+      ]
+    }
+  }
+}

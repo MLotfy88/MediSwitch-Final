@@ -1,0 +1,102 @@
+{
+  "drug_name": "Sildenafil",
+  "url": "https://wikem.org/wiki/Sildenafil",
+  "scraped_at": "2026-01-10T08:02:09.686416",
+  "sections": {
+    "Administration": {
+      "text": "Type: PDE-5 inhibitor\nDosage Forms:\nRoutes of Administration: PO, IV\nCommon Trade Names: Viagra,\nFildena\n, Revatio",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Pulmonary hypertension: 5-20mg PO TID or 2.5-10 mg IV bolus TID\nErectile dysfunction: 25-100mg PO 1hr prior to sexual activity, max once daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not generally recommended for chronic use in pediatric patients, but is used off-label",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment for mild-moderate impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcurrent regular or intermittent use of any organic nitrates\nConcomitant use with HIV protease inhibitors or elvitegravir/cobicistat/tenofovir/emtricitabine\nConcomitant use with\nriociguat\nor any other guanylate cyclase stimulator",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "riociguat",
+          "url": "https://wikem.org/wiki/Riociguat"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Myocardial infaction\nSickle cell vasoocclusive crisis\nIschemic optic neuropathy, retinal hemorrhage\nHearing loss\nPriapism",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nInsomnia\nVisual disturbance\nErythema, flushing\nIndigestion\nEpistaxis, nasal congestion, rhinorrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Myocardial infaction\nSickle cell vasoocclusive crisis\nIschemic optic neuropathy, retinal hemorrhage\nHearing loss\nPriapism",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nInsomnia\nVisual disturbance\nErythema, flushing\nIndigestion\nEpistaxis, nasal congestion, rhinorrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache\nInsomnia\nVisual disturbance\nErythema, flushing\nIndigestion\nEpistaxis, nasal congestion, rhinorrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4h\nMetabolism: Hepatic: CYP3A4 (major) and CYP2C9 (minor)\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits cGMP specific phosphodiesterase type-5 (PDE5) in smooth muscle→ less cGMP breakdown→ more cGMP within vascular smooth muscle→ vascular smooth muscle relaxation→ vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    }
+  }
+}

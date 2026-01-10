@@ -1,0 +1,770 @@
+{
+  "drug_name": "Serotonin_syndrome",
+  "url": "https://wikem.org/wiki/Serotonin_syndrome",
+  "scraped_at": "2026-01-10T08:02:01.961794",
+  "sections": {
+    "Background": {
+      "text": "Can be produced by any serotonergic medication\n1 in 6 U.S. adults take at least one psychoactive medication\n[1]\nMajority of cases occur within therapeutic drug dosages\nMost common cause is ingestion of foods high in L-Tryptophan while taking an MAOI. Second most common is ingestion of both SSRI and MAOI\n[2]\nMost common cause of death is severe hyperthermia",
+      "subsections": {
+        "Antidepressants": {
+          "text": "SSRIs\nSNRIs\nBupropion\n[4]\nBuspirone\nTCAs\nLithium\nMirtazapine\nTrazodone\nValproic acid\nMAOIs (should have washout period of 2+ weeks prior to starting a SSRI)\nPhenelzine\nSelegiline\nTranylcypromine",
+          "tables": []
+        },
+        "Drugs_of_Abuse": {
+          "text": "Cocaine\nEcstasy (MDMA)\nMethamphetamine\nLSD",
+          "tables": []
+        },
+        "Analgesics": {
+          "text": "Fentanyl\nMeperidine\n(Demerol)\nMethadone\nTramadol",
+          "tables": []
+        },
+        "Antiemetics": {
+          "text": "Metoclopramide\nOndansetron",
+          "tables": []
+        },
+        "Over_the_counter_Medications": {
+          "text": "Dextromethorphan\nOral decongestants (\nPseudoephedrine\n)",
+          "tables": []
+        },
+        "Herbal_products": {
+          "text": "St John’s Wort, Ginseng, Nutmeg, Yohimbe",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Triptans\nErgot alkaloids\nBromocriptine\nLinezolid\nCarbamazepine\nCyclobenzaprine\nL-tryptophan, 5-hydroxytryptophan\nMethylene blue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "Trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "LSD",
+          "url": "https://wikem.org/wiki/LSD"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        }
+      ]
+    },
+    "Causative_Agents": {
+      "text": "",
+      "subsections": {
+        "Antidepressants": {
+          "text": "SSRIs\nSNRIs\nBupropion\n[4]\nBuspirone\nTCAs\nLithium\nMirtazapine\nTrazodone\nValproic acid\nMAOIs (should have washout period of 2+ weeks prior to starting a SSRI)\nPhenelzine\nSelegiline\nTranylcypromine",
+          "tables": []
+        },
+        "Drugs_of_Abuse": {
+          "text": "Cocaine\nEcstasy (MDMA)\nMethamphetamine\nLSD",
+          "tables": []
+        },
+        "Analgesics": {
+          "text": "Fentanyl\nMeperidine\n(Demerol)\nMethadone\nTramadol",
+          "tables": []
+        },
+        "Antiemetics": {
+          "text": "Metoclopramide\nOndansetron",
+          "tables": []
+        },
+        "Over_the_counter_Medications": {
+          "text": "Dextromethorphan\nOral decongestants (\nPseudoephedrine\n)",
+          "tables": []
+        },
+        "Herbal_products": {
+          "text": "St John’s Wort, Ginseng, Nutmeg, Yohimbe",
+          "tables": []
+        },
+        "Other_Medications": {
+          "text": "Triptans\nErgot alkaloids\nBromocriptine\nLinezolid\nCarbamazepine\nCyclobenzaprine\nL-tryptophan, 5-hydroxytryptophan\nMethylene blue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "Trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "LSD",
+          "url": "https://wikem.org/wiki/LSD"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Altered mental status\n: Agitated delirium.  Patients generally hyperactive.\nAutonomic Instability: Hyperthermia, tachycardia, hypertension, diaphoresis, gastrointestinal illness\n[5]\nOften labile blood pressure, HR\nNeuromuscular Abnormalities: Clonus, ocular clonus, myoclonus, rigidity, hyperreflexia, tremor, seizures\nMore pronounced in the lower extremities\nClonus (inducible or spontaneous): most common finding\n[6]\nImportant to identify because it does not occur in other conditions that mimic serotonin syndrome\nHyperactivity as opposed to rigidity in\nneuroleptic malignant syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        },
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Hunter_Toxicity_Criteria_Decision_Rules": {
+          "text": "Serotonergic agent plus 1 of the following\n[7]\n:\nSpontaneous clonus\nInducible clonus AND (agitation or diaphoresis)\nOcular Clonus AND (agitation or diaphoresis)\nTremor AND hyperreflexia\nHypertonia AND temperature >38 AND (ocular clonus or inducible clonus)\n84% Sn, 97% Sp",
+          "tables": []
+        },
+        "Serotonin_syndrome_vs_Neuroleptic_malignant_syndrome": {
+          "text": "History of a new serotonergic drug or a dose increase of a serotonergic drug are helpful\nSerotonin syndrome is usually much more acute in onset than NMS which may develop over days or weeks\nPresence of ‘lead pipe’ rigidity is typical of NMS, while serotonin syndrome typically manifests with tremor and hyperreflexia\nElevations in CK, LFTs, and WBC, coupled with a low iron level, distinguishes NMS from serotonin syndrome among patients taking both neuroleptic and serotonin agonist medications simultaneously",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hunter_Toxicity_Criteria_Decision_Rules": {
+      "text": "Serotonergic agent plus 1 of the following\n[7]\n:\nSpontaneous clonus\nInducible clonus AND (agitation or diaphoresis)\nOcular Clonus AND (agitation or diaphoresis)\nTremor AND hyperreflexia\nHypertonia AND temperature >38 AND (ocular clonus or inducible clonus)\n84% Sn, 97% Sp",
+      "subsections": {
+        "Serotonin_syndrome_vs_Neuroleptic_malignant_syndrome": {
+          "text": "History of a new serotonergic drug or a dose increase of a serotonergic drug are helpful\nSerotonin syndrome is usually much more acute in onset than NMS which may develop over days or weeks\nPresence of ‘lead pipe’ rigidity is typical of NMS, while serotonin syndrome typically manifests with tremor and hyperreflexia\nElevations in CK, LFTs, and WBC, coupled with a low iron level, distinguishes NMS from serotonin syndrome among patients taking both neuroleptic and serotonin agonist medications simultaneously",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serotonin_syndrome_vs_Neuroleptic_malignant_syndrome": {
+      "text": "History of a new serotonergic drug or a dose increase of a serotonergic drug are helpful\nSerotonin syndrome is usually much more acute in onset than NMS which may develop over days or weeks\nPresence of ‘lead pipe’ rigidity is typical of NMS, while serotonin syndrome typically manifests with tremor and hyperreflexia\nElevations in CK, LFTs, and WBC, coupled with a low iron level, distinguishes NMS from serotonin syndrome among patients taking both neuroleptic and serotonin agonist medications simultaneously",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue all serotonergic drugs\nAggressive supportive care\nIf pressors required, direct acting (e.g. norepinephrine, epi) preferred, MAO inhibition causes erratic response to dopamine\nBenzos\nGoal is to eliminate agitation, neuromuscular abnormalities, elevations in HR/BP\nIn severe cases, large doses are required (diazepam IV 10-20 mg, titrated with 10 mg increments)\nCyproheptadine\n[8]\nGive if benzodiazepines and supportive care fail to improve agitation and abnormal vitals\nSerotonin antagonist\nAlso has antihistamine and anticholinergic properties that may exacerbate other mixed toxicology picture\nGive 12mg PO/NG; repeat with 2mg q2hr until clinical response is seen (max 32mg/d)\nGive 4mg q6hr x48hr if patient is responsive to initial dose\nChlorpromazine\n[9]\nPhenothiazine with antiserotonergic effects\n50mg to 100mg IM\nAvoid in:\nHemodynamically unstable patients as can cause serious hypotension\n[10]\nCases in which NMS may still be on the differential\nDexmedetomidine\n[11]\n[12]\nSmall case series found this helpful in adolescent cases refractory to benzos\nDantrolene generally not recommended as it can worsen serotonin toxicity\n[13]\nTreat hyperthermia\nHyperthermia due to increase in muscular activity, not change in set point\nIntubate\nand paralyze if temperature > 41.1\nStandard\ncooling measures\nFans, water sprays, ice packs, cooled crystalloids, cooling blankets",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Severe cases may require\nintubation\nand\nventilation\nin ICU\n24hr admission for\naltered mental status\nor abnormal\nvital signs\nrequiring further supportive care\nDischarge mild cases with minimal intervention required after 6 hrs of observation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "vital signs",
+          "url": "https://wikem.org/wiki/Vital_signs"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxidromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    }
+  }
+}

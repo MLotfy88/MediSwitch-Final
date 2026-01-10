@@ -1,0 +1,137 @@
+{
+  "drug_name": "Shoulder_dystocia",
+  "url": "https://wikem.org/wiki/Shoulder_dystocia",
+  "scraped_at": "2026-01-10T08:02:10.487401",
+  "sections": {
+    "Background": {
+      "text": "Occurs in 0.2-3% of all births\n[1]\nAnterior shoulder becomes impacted against maternal pubic symphysis",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Pre-labor\nPrevious shoulder dystocia\nMacrosomia\nDiabetes mellitus\nMaternal BMI > 30\nInduction of labor\nAdvanced maternal age\nShort maternal stature\nSmall maternal pelvis\nSignificant post-dates delivery (>42 weeks gestation)\nIntrapartum\nProlonged first or second stage\nOxytocin augmentation\nFailure to restitute\nFailure of shoulder rotation on descent\nAssisted vaginal delivery\nProlonged head to body delivery time >60 seconds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Pre-labor\nPrevious shoulder dystocia\nMacrosomia\nDiabetes mellitus\nMaternal BMI > 30\nInduction of labor\nAdvanced maternal age\nShort maternal stature\nSmall maternal pelvis\nSignificant post-dates delivery (>42 weeks gestation)\nIntrapartum\nProlonged first or second stage\nOxytocin augmentation\nFailure to restitute\nFailure of shoulder rotation on descent\nAssisted vaginal delivery\nProlonged head to body delivery time >60 seconds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Obstructed labor\n\"Turtle sign\" - fetal head retracts against perineum after it appears (rare)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent_delivery_and_related_complications": {
+          "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Emergent_delivery_and_related_complications": {
+      "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No consensus on best treatment/maneuver or order of their application.\nHELPERR\nmnemonic - all maneuvers able to be performed by Emergency Physician, generally from least to most invasive\nH\ncall for help\nE\nEvaluate for possible\nEpisiotomy\n(or episioproctotomy) to increase the anteroposterior diameter of passage\nL\nLegs flex (McRoberts maneuver) - best first option - hyperflexion of legs with mild abduction and external rotation (successful in 40% of cases)\n[1]\nP\nPressure (suprapubic pressure, aka Rubin I maneuver) - apply pressure just proximal to pubic symphysis, either continuously or in rocking motion (in conjunction with McRoberts, increases success rate to 54%)\n[1]\nE\nEntry maneuvers - Wood’s corkscrew maneuver by applying pressure to anterior aspect of posterior shoulder causing movement of shoulder into more oblique position in pelvis\n[2]\nor\nRubin II maneuver - applying pressure to posterior aspect of most accessible shoulder (anterior or posterior)\nR\nRemove posterior arm by sweeping it across the chest and bring fetal hand to the chin, grasp and pull out of the birth canal and across the face (effective in up to 84% of cases)\n[1]\nR\nRoll on all fours (Gaskin position) - may relieve up to 83% of shoulder dystocia\n[1]\nALARMER\nmnemonic is an alternative to the HELPERR mnemonic and provides a slightly altered sequence of interventions:\nA\nAsk for help\nL\nLegs to chest (McRoberts maneuver)\nA\nAnterior shoulder disimpaction by suprapubic pressure\nR\nRelease posterior shoulder (attempt made to deliver posterior shoulder prior to anterior shoulder)\nM\nManeuver of Wood\nE\nEpisiotomy\nR\nRoll on all fours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Episiotomy",
+          "url": "https://wikem.org/wiki/Episiotomy"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit OB/GYN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Transient brachial plexus palsy (3.0 to 16.8%)\nClavicular fracture (1.7 to 9.5%)\nHumerus fracture (0.1 to 4.2%)\nPermanent brachial plexus palsy (0.5 to 1.6%)\nHypoxic-ischemic encephalopathy (0.3%)\nDeath (0 to 0.35%)\nFourth degree perineal lacerations\nPost-partum hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Emergent delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "YouTube: Shoulder Dystocia Delivery, Manoeuvres, Management, Simulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "drug_name": "Sign_out_tools",
+  "url": "https://wikem.org/wiki/Sign_out_tools",
+  "scraped_at": "2026-01-10T08:02:11.488131",
+  "sections": {
+    "Background": {
+      "text": "In Emergency Medicine,  we sign out very frequently relative to other fields.\nSign outs are common sources of preventable errors.\nMany structured approaches to sign out have been developed.\nSome of those structures have been studied and found to decrease preventable errors in sign out.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "I-PASS_mnemonic": {
+          "text": "Developed and validated in the pediatric field",
+          "tables": []
+        },
+        "Illness_severity": {
+          "text": "Clearly state how sick the patient is now and anticipated trajectory (e.g., “Stable, but at risk for deterioration due to sepsis—on fluids and antibiotics, monitoring closely.”)",
+          "tables": []
+        },
+        "Patient_summary": {
+          "text": "Briefly describe patient presentation, key findings, diagnostics, working diagnosis, current treatment (e.g., “72-year-old with chest pain; EKG non-ischemic, troponin pending; likely unstable angina vs NSTEMI — given ASA.”)",
+          "tables": []
+        },
+        "Action_list": {
+          "text": "Provide next tasks to be done with responsible parties & timing (e.g., “Follow up second troponin at 21:30, reassess pain, arrange cardiology consult if elevated, prepare for admission if positive.”)",
+          "tables": []
+        },
+        "Situation_awareness_and_contingency_planning": {
+          "text": "Identify potential changes and what to do if they occur (e.g., “If pain recurs or EKG changes, page CT surgery urgently; if troponin negative but persistent symptoms, consider CT PE depending on risk factors.”)",
+          "tables": []
+        },
+        "Synthesis_by_receiver": {
+          "text": "Receiver reads back plan and clarifies ambiguities (e.g., “Stable chest pain, pending troponin at 21:30; if positive, admit to cardiology; if negative and asymptomatic, consider discharge with outpatient follow-up—will reassess after labs.”)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "I-PASS_mnemonic": {
+      "text": "Developed and validated in the pediatric field",
+      "subsections": {
+        "Illness_severity": {
+          "text": "Clearly state how sick the patient is now and anticipated trajectory (e.g., “Stable, but at risk for deterioration due to sepsis—on fluids and antibiotics, monitoring closely.”)",
+          "tables": []
+        },
+        "Patient_summary": {
+          "text": "Briefly describe patient presentation, key findings, diagnostics, working diagnosis, current treatment (e.g., “72-year-old with chest pain; EKG non-ischemic, troponin pending; likely unstable angina vs NSTEMI — given ASA.”)",
+          "tables": []
+        },
+        "Action_list": {
+          "text": "Provide next tasks to be done with responsible parties & timing (e.g., “Follow up second troponin at 21:30, reassess pain, arrange cardiology consult if elevated, prepare for admission if positive.”)",
+          "tables": []
+        },
+        "Situation_awareness_and_contingency_planning": {
+          "text": "Identify potential changes and what to do if they occur (e.g., “If pain recurs or EKG changes, page CT surgery urgently; if troponin negative but persistent symptoms, consider CT PE depending on risk factors.”)",
+          "tables": []
+        },
+        "Synthesis_by_receiver": {
+          "text": "Receiver reads back plan and clarifies ambiguities (e.g., “Stable chest pain, pending troponin at 21:30; if positive, admit to cardiology; if negative and asymptomatic, consider discharge with outpatient follow-up—will reassess after labs.”)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Residency: Basic Skills",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Residency: Basic Skills",
+          "url": "https://wikem.org/wiki/Residency:_Basic_Skills"
+        }
+      ]
+    },
+    "References": {
+      "text": "Amy J. Starmer, Nancy D. Spector, Rajendu Srivastava, April D. Allen, Christopher P. Landrigan, Theodore C. Sectish, the I-PASS Study Group. I-PASS, a Mnemonic to Standardize Verbal Handoffs.Pediatrics\nFebruary 2012, VOLUME 129 / ISSUE 2\n[[Category:Category:Misc/General}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "drug_name": "Sexually_transmitted_diseases",
+  "url": "https://wikem.org/wiki/Sexually_transmitted_diseases",
+  "scraped_at": "2026-01-10T08:02:10.440080",
+  "sections": {
+    "Background": {
+      "text": "STD Prevalence:\nHPV\n>\nHSV-2\n>\nTrichomonas\n>\nChlamydia\n>\nHIV\n>\nHBV\n>\nGonorrhea\n>\nSyphilis\nSTD New infections: HPV > Chlamydia > Trichomonas > Gonorrhea > HSV-2 > Syphilis >\nHIV\n> HBV\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "HSV-2",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HBV",
+          "url": "https://wikem.org/wiki/HBV"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "STD_Visual_Diagnosis_(Male)": {
+          "text": "Chancroid\nHSV\nPrimary\nSyphilis\nPainless genital ulcer from\nlymphogranuloma venereum\nInguinal femoral lymphadenopathy (bilateral) from\nlymphogranuloma venereum",
+          "tables": []
+        },
+        "STD_Visual_Diagnosis_(Female)": {
+          "text": "Chancroid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Management_": {
+      "text": "Consider empiric treatment for\nGonorrhea\nand\nChlamydia\n:\nCeftriaxone\n500 mg IM x1 (1g IM for pts > 150 kg)\nAND\nDoxycycline\n100mg PO BID x 7 days (preferred)\nOR\nAzithromycin\n1g PO x 1 (alternative regimen)\nOR\nAzithromycin\n500 mg PO x 1 and 250mg PO daily x 4 days\nIt is important to treat sexual partners for all STDs\nSee\nExpedited Partner Therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Expedited Partner Therapy",
+          "url": "https://wikem.org/wiki/Expedited_Partner_Therapy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Human Papillomavirus (HPV)\nPelvic Inflammatory Disease (PID)\nUlcerative STDs\nPenile diagnoses\nPelvic pain\nExpedited Partner Therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Human Papillomavirus (HPV)",
+          "url": "https://wikem.org/wiki/Human_Papillomavirus_(HPV)"
+        },
+        {
+          "text": "Pelvic Inflammatory Disease (PID)",
+          "url": "https://wikem.org/wiki/Pelvic_Inflammatory_Disease_(PID)"
+        },
+        {
+          "text": "Ulcerative STDs",
+          "url": "https://wikem.org/wiki/Ulcerative_STDs"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Expedited Partner Therapy",
+          "url": "https://wikem.org/wiki/Expedited_Partner_Therapy"
+        }
+      ]
+    }
+  }
+}

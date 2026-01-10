@@ -1,0 +1,690 @@
+{
+  "drug_name": "Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(SOFA)",
+  "url": "https://wikem.org/wiki/Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(SOFA)",
+  "scraped_at": "2026-01-10T08:02:05.567893",
+  "sections": {
+    "Background": {
+      "text": "The SOFA score is a scoring system to determine the extent of a person's organ function or rate of failure.\n[1]\n[2]\n[3]\nThe score is based on six different scores based on the organ system involved.\nUse the worst value in a 24-hour period.",
+      "subsections": {
+        "Predicting_Outcomes": {
+          "text": "Both the mean and highest SOFA scores being predictors of outcome.\nAn increase in SOFA score during the first 24 - 48 hours in the ICU predicts a mortality rate of at least 50% up to 95%. Scores less than 9 give predictive mortality at 33% while above 11 can be close to or above 95%\n[4]\nA SOFA score ≥2 reflects an overall mortality risk of approximately 10% in a general hospital population with suspected infection\n[5]\nSOFA (AUROC = 0.74; 95% CI, 0.73-0.76) was superior to that with SIRS (AUROC = 0.64; 95% CI, 0.62-0.66) when used in the ICU\nSOFA (AUROC = 0.79; 95% CI, 0.78-0.80) or change in SOFA score (AUROC = 0.79; 95% CI, 0.78-0.79) was similar to that with SIRS (AUROC = 0.76; 95% CI, 0.75-0.77) when used outside of the ICU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Predicting_Outcomes": {
+      "text": "Both the mean and highest SOFA scores being predictors of outcome.\nAn increase in SOFA score during the first 24 - 48 hours in the ICU predicts a mortality rate of at least 50% up to 95%. Scores less than 9 give predictive mortality at 33% while above 11 can be close to or above 95%\n[4]\nA SOFA score ≥2 reflects an overall mortality risk of approximately 10% in a general hospital population with suspected infection\n[5]\nSOFA (AUROC = 0.74; 95% CI, 0.73-0.76) was superior to that with SIRS (AUROC = 0.64; 95% CI, 0.62-0.66) when used in the ICU\nSOFA (AUROC = 0.79; 95% CI, 0.78-0.80) or change in SOFA score (AUROC = 0.79; 95% CI, 0.78-0.79) was similar to that with SIRS (AUROC = 0.76; 95% CI, 0.75-0.77) when used outside of the ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scoring": {
+      "text": "",
+      "subsections": {
+        "Respiratory_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "PaO2/FiO2(mmHg)": "< 400",
+                "SOFA score": "1"
+              },
+              {
+                "PaO2/FiO2(mmHg)": "< 300",
+                "SOFA score": "2"
+              },
+              {
+                "PaO2/FiO2(mmHg)": "< 200andmechanically ventilated",
+                "SOFA score": "3"
+              },
+              {
+                "PaO2/FiO2(mmHg)": "< 100andmechanically ventilated",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Nervous_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Glasgow Coma Scale (GCS)": "13–14",
+                "SOFA score": "1"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "10–12",
+                "SOFA score": "2"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "6–9",
+                "SOFA score": "3"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "< 6",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Cardio_Vascular_System": {
+          "text": "*vasopressor doses are all in\nµg/kg/min",
+          "tables": [
+            [
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "MAP < 70 mm/Hg",
+                "SOFA score": "1"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopaminedrip <= 5 orDobutamine(any dose)",
+                "SOFA score": "2"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>5 orEpinephrine<=0.1 orNorepinephrine<=0.1",
+                "SOFA score": "3"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>15 orEpinephrine>0.1 orNorepinephrine>0.1",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Liver": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "1.2–1.9 [> 20-32]",
+                "SOFA score": "1"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "2.0–5.9 [33-101]",
+                "SOFA score": "2"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "6.0–11.9 [102-204]",
+                "SOFA score": "3"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "> 12.0 [> 204]",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Coagulation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Platelets×103/µl": "< 150",
+                "SOFA score": "1"
+              },
+              {
+                "Platelets×103/µl": "< 100",
+                "SOFA score": "2"
+              },
+              {
+                "Platelets×103/µl": "< 50",
+                "SOFA score": "3"
+              },
+              {
+                "Platelets×103/µl": "< 20",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_System": {
+      "text": "",
+      "subsections": {
+        "Nervous_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Glasgow Coma Scale (GCS)": "13–14",
+                "SOFA score": "1"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "10–12",
+                "SOFA score": "2"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "6–9",
+                "SOFA score": "3"
+              },
+              {
+                "Glasgow Coma Scale (GCS)": "< 6",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Cardio_Vascular_System": {
+          "text": "*vasopressor doses are all in\nµg/kg/min",
+          "tables": [
+            [
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "MAP < 70 mm/Hg",
+                "SOFA score": "1"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopaminedrip <= 5 orDobutamine(any dose)",
+                "SOFA score": "2"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>5 orEpinephrine<=0.1 orNorepinephrine<=0.1",
+                "SOFA score": "3"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>15 orEpinephrine>0.1 orNorepinephrine>0.1",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Liver": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "1.2–1.9 [> 20-32]",
+                "SOFA score": "1"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "2.0–5.9 [33-101]",
+                "SOFA score": "2"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "6.0–11.9 [102-204]",
+                "SOFA score": "3"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "> 12.0 [> 204]",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Coagulation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Platelets×103/µl": "< 150",
+                "SOFA score": "1"
+              },
+              {
+                "Platelets×103/µl": "< 100",
+                "SOFA score": "2"
+              },
+              {
+                "Platelets×103/µl": "< 50",
+                "SOFA score": "3"
+              },
+              {
+                "Platelets×103/µl": "< 20",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "PaO2/FiO2(mmHg)": "< 400",
+            "SOFA score": "1"
+          },
+          {
+            "PaO2/FiO2(mmHg)": "< 300",
+            "SOFA score": "2"
+          },
+          {
+            "PaO2/FiO2(mmHg)": "< 200andmechanically ventilated",
+            "SOFA score": "3"
+          },
+          {
+            "PaO2/FiO2(mmHg)": "< 100andmechanically ventilated",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Nervous_System": {
+      "text": "",
+      "subsections": {
+        "Cardio_Vascular_System": {
+          "text": "*vasopressor doses are all in\nµg/kg/min",
+          "tables": [
+            [
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "MAP < 70 mm/Hg",
+                "SOFA score": "1"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopaminedrip <= 5 orDobutamine(any dose)",
+                "SOFA score": "2"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>5 orEpinephrine<=0.1 orNorepinephrine<=0.1",
+                "SOFA score": "3"
+              },
+              {
+                "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>15 orEpinephrine>0.1 orNorepinephrine>0.1",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Liver": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "1.2–1.9 [> 20-32]",
+                "SOFA score": "1"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "2.0–5.9 [33-101]",
+                "SOFA score": "2"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "6.0–11.9 [102-204]",
+                "SOFA score": "3"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "> 12.0 [> 204]",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Coagulation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Platelets×103/µl": "< 150",
+                "SOFA score": "1"
+              },
+              {
+                "Platelets×103/µl": "< 100",
+                "SOFA score": "2"
+              },
+              {
+                "Platelets×103/µl": "< 50",
+                "SOFA score": "3"
+              },
+              {
+                "Platelets×103/µl": "< 20",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Glasgow Coma Scale (GCS)": "13–14",
+            "SOFA score": "1"
+          },
+          {
+            "Glasgow Coma Scale (GCS)": "10–12",
+            "SOFA score": "2"
+          },
+          {
+            "Glasgow Coma Scale (GCS)": "6–9",
+            "SOFA score": "3"
+          },
+          {
+            "Glasgow Coma Scale (GCS)": "< 6",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Cardio_Vascular_System": {
+      "text": "*vasopressor doses are all in\nµg/kg/min",
+      "subsections": {
+        "Liver": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "1.2–1.9 [> 20-32]",
+                "SOFA score": "1"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "2.0–5.9 [33-101]",
+                "SOFA score": "2"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "6.0–11.9 [102-204]",
+                "SOFA score": "3"
+              },
+              {
+                "Bilirubin (mg/dl) [μmol/L]": "> 12.0 [> 204]",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Coagulation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Platelets×103/µl": "< 150",
+                "SOFA score": "1"
+              },
+              {
+                "Platelets×103/µl": "< 100",
+                "SOFA score": "2"
+              },
+              {
+                "Platelets×103/µl": "< 50",
+                "SOFA score": "3"
+              },
+              {
+                "Platelets×103/µl": "< 20",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Mean Arterial Pressure OR administration of vasopressors required": "MAP < 70 mm/Hg",
+            "SOFA score": "1"
+          },
+          {
+            "Mean Arterial Pressure OR administration of vasopressors required": "Dopaminedrip <= 5 orDobutamine(any dose)",
+            "SOFA score": "2"
+          },
+          {
+            "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>5 orEpinephrine<=0.1 orNorepinephrine<=0.1",
+            "SOFA score": "3"
+          },
+          {
+            "Mean Arterial Pressure OR administration of vasopressors required": "Dopamine>15 orEpinephrine>0.1 orNorepinephrine>0.1",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Liver": {
+      "text": "",
+      "subsections": {
+        "Coagulation": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Platelets×103/µl": "< 150",
+                "SOFA score": "1"
+              },
+              {
+                "Platelets×103/µl": "< 100",
+                "SOFA score": "2"
+              },
+              {
+                "Platelets×103/µl": "< 50",
+                "SOFA score": "3"
+              },
+              {
+                "Platelets×103/µl": "< 20",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        },
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Bilirubin (mg/dl) [μmol/L]": "1.2–1.9 [> 20-32]",
+            "SOFA score": "1"
+          },
+          {
+            "Bilirubin (mg/dl) [μmol/L]": "2.0–5.9 [33-101]",
+            "SOFA score": "2"
+          },
+          {
+            "Bilirubin (mg/dl) [μmol/L]": "6.0–11.9 [102-204]",
+            "SOFA score": "3"
+          },
+          {
+            "Bilirubin (mg/dl) [μmol/L]": "> 12.0 [> 204]",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Coagulation": {
+      "text": "",
+      "subsections": {
+        "Renal_System": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+                "SOFA score": "1"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+                "SOFA score": "2"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+                "SOFA score": "3"
+              },
+              {
+                "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+                "SOFA score": "4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Platelets×103/µl": "< 150",
+            "SOFA score": "1"
+          },
+          {
+            "Platelets×103/µl": "< 100",
+            "SOFA score": "2"
+          },
+          {
+            "Platelets×103/µl": "< 50",
+            "SOFA score": "3"
+          },
+          {
+            "Platelets×103/µl": "< 20",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Renal_System": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Creatinine (mg/dl) [μmol/L] (or urine output)": "1.2–1.9 [110-170]",
+            "SOFA score": "1"
+          },
+          {
+            "Creatinine (mg/dl) [μmol/L] (or urine output)": "2.0–3.4 [171-299]",
+            "SOFA score": "2"
+          },
+          {
+            "Creatinine (mg/dl) [μmol/L] (or urine output)": "3.5–4.9 [300-440] (or < 500 ml/d)",
+            "SOFA score": "3"
+          },
+          {
+            "Creatinine (mg/dl) [μmol/L] (or urine output)": "> 5.0 [> 440] (or < 200 ml/d)",
+            "SOFA score": "4"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis\nQuick Sequential (Sepsis Related) Organ Failure Assessment Score (qSOFA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score (qSOFA)",
+          "url": "https://wikem.org/wiki/Quick_Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(qSOFA)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc SOFA Score\nEM Cases Sepsis and Septic Shock Page",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

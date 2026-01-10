@@ -1,0 +1,92 @@
+{
+  "drug_name": "Short_QT",
+  "url": "https://wikem.org/wiki/Short_QT",
+  "scraped_at": "2026-01-10T08:02:08.647423",
+  "sections": {
+    "Background": {
+      "text": "Clinically important due to potential to cause atrial and ventricular\ntachycardias\n,\nsyncope\n, and sudden\ncardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardias",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Congenital short QT syndrome (rare, but important cause of sudden cardiac death)\nHypercalcemia\nHyperkalemia\nDigoxin toxicity\nAcidosis\nSIRS\nACS\nIncreased vagal tone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "SIRS",
+          "url": "https://wikem.org/wiki/SIRS"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Clinical_features": {
+      "text": "Syncope\nCardiac arrest\nPalpitations\nECG\nfindings:\nQTc < 360 (males) or <370 (females)\nIn congenital short QT, also have:\nLack of normal QT changes with HR\nPeaked T waves (especially in precordial leads)\nShort or absent ST segments\n+/- early repolarization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Evaluate for and treat underlying causes\nCongenital short QT: refer to cardiology, may need ICD",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Merino JL and Reviriego. Short QT Syndrome: An article from the E-Journal of the ESC Council for Cardiology Practice. Vol. 9, N° 2 - 17 Sep 2010.\nhttp://www.escardio.org/Guidelines-&-Education/Journals-and-publications/ESC-journals-family/E-journal-of-Cardiology-Practice/Volume-9/Short-QT-Syndrome\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

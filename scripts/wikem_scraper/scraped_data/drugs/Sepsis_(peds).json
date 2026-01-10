@@ -1,0 +1,1301 @@
+{
+  "drug_name": "Sepsis_(peds)",
+  "url": "https://wikem.org/wiki/Sepsis_(peds)",
+  "scraped_at": "2026-01-10T08:02:00.668839",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nSepsis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Defined as a dysregulated host response to infection that leads to life-threatening organ dysfunction\n[1]\nTachycardia is typically most predominant, hypotension is a late and ominous sign",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Shock\n: Warm vs Cold Shock",
+      "subsections": {
+        "Neonatal_Sepsis": {
+          "text": "Early onset\nFirst few days of life\nFulminant, associated with maternal or perinatal risk factors\nSeptic shock\nand\nneutropenia\nare more common\nLate onset\nOccurs after 1 week of age\nGradual\nMeningitis\nmore likely\nConsider if feeding disturbance, rash, lethargy, irritability,\nseizure\n, apnea, tachypnea, grunting, vomiting, poor PO, gastric distention,\ndiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Peripheries",
+            "Warm Shock": "Warm, Flushed",
+            "Cold Shock": "Mottled, Cold, Clammy"
+          },
+          {
+            "": "Cap Refill",
+            "Warm Shock": "<2 sec",
+            "Cold Shock": ">2 sec"
+          },
+          {
+            "": "Pulse",
+            "Warm Shock": "Bounding",
+            "Cold Shock": "Weak, Thready"
+          },
+          {
+            "": "BP",
+            "Warm Shock": "Compensated",
+            "Cold Shock": "Hypotension"
+          },
+          {
+            "": "HR",
+            "Warm Shock": "Tachy",
+            "Cold Shock": "Tachy or Brady"
+          },
+          {
+            "": "Pulse Pressure",
+            "Warm Shock": "Widen",
+            "Cold Shock": "Narrow"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Septic shock",
+          "url": "https://wikem.org/wiki/Septic_shock"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Neonatal_Sepsis": {
+      "text": "Early onset\nFirst few days of life\nFulminant, associated with maternal or perinatal risk factors\nSeptic shock\nand\nneutropenia\nare more common\nLate onset\nOccurs after 1 week of age\nGradual\nMeningitis\nmore likely\nConsider if feeding disturbance, rash, lethargy, irritability,\nseizure\n, apnea, tachypnea, grunting, vomiting, poor PO, gastric distention,\ndiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic shock",
+          "url": "https://wikem.org/wiki/Septic_shock"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[2]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[2]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC, CMP\nCoags,\nD-dimer\n, fibrinogen\nLactate\n, CRP\nBlood glucose\nUrinalysis\n/\nurine culture\nCXR\nBlood cultures\nConsider\nLP\nfor\nCSF",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Initial screening and decision to send studies is based on provider judgement\nUse the\nPhoenix Sepsis Score\nto calculate sepsis criteria, including septic shock.\n[3]\n[4]\nNot indicated for adults, preterm (<37 weeks), or peri-birth hospitalizations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "urine culture",
+          "url": "https://wikem.org/wiki/Urine_culture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC, CMP\nCoags,\nD-dimer\n, fibrinogen\nLactate\n, CRP\nBlood glucose\nUrinalysis\n/\nurine culture\nCXR\nBlood cultures\nConsider\nLP\nfor\nCSF",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Initial screening and decision to send studies is based on provider judgement\nUse the\nPhoenix Sepsis Score\nto calculate sepsis criteria, including septic shock.\n[3]\n[4]\nNot indicated for adults, preterm (<37 weeks), or peri-birth hospitalizations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "urine culture",
+          "url": "https://wikem.org/wiki/Urine_culture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "CSF",
+          "url": "https://wikem.org/wiki/CSF"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Initial screening and decision to send studies is based on provider judgement\nUse the\nPhoenix Sepsis Score\nto calculate sepsis criteria, including septic shock.\n[3]\n[4]\nNot indicated for adults, preterm (<37 weeks), or peri-birth hospitalizations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Initial_Resuscitation_Focus": {
+          "text": "Treat hypoxemia with supplemental\noxygen\n(goal SpO2 92-98%)\n[5]\nObtain intravenous/\nintraosseous access\nRapidly transition to\nIO access\n, if difficulties with starting IV\nCollect diagnostic tests (including\nblood culture\n,\nlactate\n, ionized calcium; see workup above)\nTreat\nhypoglycemia\n, if present\nEarly empiric broad-spectrum\nantibiotics\n(see below)\nAdminister bolus\nintravenous fluid therapy\nadministration (see below), if shock is present\nStart vasoactive agents, if shock persists\nAirway\nConsider\nCPAP\n(may buy time for fluid resuscitation prior intubation)\nConsider\nintubation\n, especially in fluid refractory\nshock\nConsider use of\nketamine\nfor sedation (less hypotension)\nBe prepared for cardiovascular collapse\nConsider corticosteroids\n[6]\nContinue to reassess (see below)",
+          "tables": []
+        },
+        "Empiric_Broad-Spectrum_Antibiotics": {
+          "text": "If in shock, administer as soon as possible. If not, it is reasonable to perform expedited diagnostics before administration.\n[7]",
+          "tables": []
+        },
+        "Neonatal": {
+          "text": "Ampicillin\n50mg/kg q8h +\ngentamicin\n2.5mg/kg q24h +\nacyclovir\nIf gram-negative strongly suspected replace\ngentamicin\nwith\ncefotaxime\nor\nceftazadine\nHave better CNS penetration",
+          "tables": []
+        },
+        "Peds": {
+          "text": "Treatment will differ by local protocols\nExtended-spectrum penicillin (e.g.\npiperacillin-tazobactam\n) ±\naminoglycoside\n±\nvancomycin\nOR\n3rd or 4th generation\ncephalosporin\n±\naminoglycoside\n±\nvancomycin\nOR\nCarbapenem\n±\naminoglycoside\n±\nvancomycin",
+          "tables": []
+        },
+        "Neonatal_Antibiotics_by_Source": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suspected Infection Source": "UTI",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+              },
+              {
+                "Suspected Infection Source": "No source identified",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+              },
+              {
+                "Suspected Infection Source": "Bacterialmeningitis",
+                "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+              }
+            ]
+          ]
+        },
+        "Fluid_Resuscitation": {
+          "text": "For shock, 20 mL/kg boluses of isotonic crystalloid fluid titrated to clinical markers of cardiac output\n[9]\nFrequently ≥40 mL/kg in the first hour of resuscitation\nIn low-resource settings (e.g., low income countries), fluid bolus therapy should be avoided unless the child exhibits hypotension\n[10]",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "IO access",
+          "url": "https://wikem.org/wiki/IO_access"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "intravenous fluid therapy",
+          "url": "https://wikem.org/wiki/Intravenous_fluid_therapy"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazadine",
+          "url": "https://wikem.org/wiki/Ceftazadine"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Initial_Resuscitation_Focus": {
+      "text": "Treat hypoxemia with supplemental\noxygen\n(goal SpO2 92-98%)\n[5]\nObtain intravenous/\nintraosseous access\nRapidly transition to\nIO access\n, if difficulties with starting IV\nCollect diagnostic tests (including\nblood culture\n,\nlactate\n, ionized calcium; see workup above)\nTreat\nhypoglycemia\n, if present\nEarly empiric broad-spectrum\nantibiotics\n(see below)\nAdminister bolus\nintravenous fluid therapy\nadministration (see below), if shock is present\nStart vasoactive agents, if shock persists\nAirway\nConsider\nCPAP\n(may buy time for fluid resuscitation prior intubation)\nConsider\nintubation\n, especially in fluid refractory\nshock\nConsider use of\nketamine\nfor sedation (less hypotension)\nBe prepared for cardiovascular collapse\nConsider corticosteroids\n[6]\nContinue to reassess (see below)",
+      "subsections": {
+        "Empiric_Broad-Spectrum_Antibiotics": {
+          "text": "If in shock, administer as soon as possible. If not, it is reasonable to perform expedited diagnostics before administration.\n[7]",
+          "tables": []
+        },
+        "Neonatal": {
+          "text": "Ampicillin\n50mg/kg q8h +\ngentamicin\n2.5mg/kg q24h +\nacyclovir\nIf gram-negative strongly suspected replace\ngentamicin\nwith\ncefotaxime\nor\nceftazadine\nHave better CNS penetration",
+          "tables": []
+        },
+        "Peds": {
+          "text": "Treatment will differ by local protocols\nExtended-spectrum penicillin (e.g.\npiperacillin-tazobactam\n) ±\naminoglycoside\n±\nvancomycin\nOR\n3rd or 4th generation\ncephalosporin\n±\naminoglycoside\n±\nvancomycin\nOR\nCarbapenem\n±\naminoglycoside\n±\nvancomycin",
+          "tables": []
+        },
+        "Neonatal_Antibiotics_by_Source": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suspected Infection Source": "UTI",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+              },
+              {
+                "Suspected Infection Source": "No source identified",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+              },
+              {
+                "Suspected Infection Source": "Bacterialmeningitis",
+                "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+              }
+            ]
+          ]
+        },
+        "Fluid_Resuscitation": {
+          "text": "For shock, 20 mL/kg boluses of isotonic crystalloid fluid titrated to clinical markers of cardiac output\n[9]\nFrequently ≥40 mL/kg in the first hour of resuscitation\nIn low-resource settings (e.g., low income countries), fluid bolus therapy should be avoided unless the child exhibits hypotension\n[10]",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "IO access",
+          "url": "https://wikem.org/wiki/IO_access"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "intravenous fluid therapy",
+          "url": "https://wikem.org/wiki/Intravenous_fluid_therapy"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazadine",
+          "url": "https://wikem.org/wiki/Ceftazadine"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Empiric_Broad-Spectrum_Antibiotics": {
+      "text": "If in shock, administer as soon as possible. If not, it is reasonable to perform expedited diagnostics before administration.\n[7]",
+      "subsections": {
+        "Neonatal": {
+          "text": "Ampicillin\n50mg/kg q8h +\ngentamicin\n2.5mg/kg q24h +\nacyclovir\nIf gram-negative strongly suspected replace\ngentamicin\nwith\ncefotaxime\nor\nceftazadine\nHave better CNS penetration",
+          "tables": []
+        },
+        "Peds": {
+          "text": "Treatment will differ by local protocols\nExtended-spectrum penicillin (e.g.\npiperacillin-tazobactam\n) ±\naminoglycoside\n±\nvancomycin\nOR\n3rd or 4th generation\ncephalosporin\n±\naminoglycoside\n±\nvancomycin\nOR\nCarbapenem\n±\naminoglycoside\n±\nvancomycin",
+          "tables": []
+        },
+        "Neonatal_Antibiotics_by_Source": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suspected Infection Source": "UTI",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+              },
+              {
+                "Suspected Infection Source": "No source identified",
+                "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+                "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+                "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+              },
+              {
+                "Suspected Infection Source": "Bacterialmeningitis",
+                "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+                "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+              }
+            ]
+          ]
+        },
+        "Fluid_Resuscitation": {
+          "text": "For shock, 20 mL/kg boluses of isotonic crystalloid fluid titrated to clinical markers of cardiac output\n[9]\nFrequently ≥40 mL/kg in the first hour of resuscitation\nIn low-resource settings (e.g., low income countries), fluid bolus therapy should be avoided unless the child exhibits hypotension\n[10]",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftazadine",
+          "url": "https://wikem.org/wiki/Ceftazadine"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Neonatal_Antibiotics_by_Source": {
+      "text": "",
+      "subsections": {
+        "Fluid_Resuscitation": {
+          "text": "For shock, 20 mL/kg boluses of isotonic crystalloid fluid titrated to clinical markers of cardiac output\n[9]\nFrequently ≥40 mL/kg in the first hour of resuscitation\nIn low-resource settings (e.g., low income countries), fluid bolus therapy should be avoided unless the child exhibits hypotension\n[10]",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Suspected Infection Source": "UTI",
+            "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+            "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+            "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)Oral options:Cephalexin50-100 mg/kg per day QID orCefixime8 mg/kg QD"
+          },
+          {
+            "Suspected Infection Source": "No source identified",
+            "8-21 Days Old": "AmpicillinIV or IM (150 mg/kg per day divided q8) AND either:CeftazidimeIV or IM (150 mg/kg per day divided q8) orGentamicinIV or IM (4 mg/kg per dose q24)",
+            "22-28 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)",
+            "29-60 Days Old": "CeftriaxoneIV or IM (50 mg/kg per dose q24)"
+          },
+          {
+            "Suspected Infection Source": "Bacterialmeningitis",
+            "8-21 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+            "22-28 Days Old": "AmpicillinIV or IM (300 mg/kg per day divided q6) ANDCeftazidimeIV or IM (150 mg/kg per day divided q8)",
+            "29-60 Days Old": "CephalosporinCeftriaxoneIV (100 mg/kg QD) orCeftazidimeIV (150 mg/kg QD)ANDVancomycinIV (60 mg/kg QD)"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Fluid_Resuscitation": {
+      "text": "For shock, 20 mL/kg boluses of isotonic crystalloid fluid titrated to clinical markers of cardiac output\n[9]\nFrequently ≥40 mL/kg in the first hour of resuscitation\nIn low-resource settings (e.g., low income countries), fluid bolus therapy should be avoided unless the child exhibits hypotension\n[10]",
+      "subsections": {
+        "Vasopressors": {
+          "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+          "tables": []
+        },
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Vasopressors": {
+      "text": "Indicated for children that have:\nMyocardial dysfunction\nShock in the setting of fluid overload\nContinue to have abnormal perfusion after 40-60 mL/kg of fluid resuscitation\n1st line:\nepinephrine\nor\nnorepinephrine\n(i.e.,\nnot\ndopamine)\n[11]\n[12]\n[13]\n2nd and 3rd line: consider\nepinephrine\n,\nnorepinephrine\n,\ndobutamine\n,\nmilrinone\n,\nvasopressin\n, angiotensin II\n[14]",
+      "subsections": {
+        "Corticosteroids": {
+          "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+          "tables": []
+        },
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Corticosteroids": {
+      "text": "Intravenous\nhydrocortisone\nrecommended only for children with fluid-refractory, catecholamine-resistant shock.\n[15]\nThere are no data on the addition of fludrocortisone to enhance the mineralocorticoid effect in pediatric septic shock.\n[16]",
+      "subsections": {
+        "Reevaluation": {
+          "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Reevaluation": {
+      "text": "Patients should be continuously reassessed for signs of:\nOngoing or worsening shock\nIatrogenic fluid overload (e.g., pulmonary rales, hepatomegaly, peripheral edema, and echocardiographic findings that may suggest fluid overload)\nGolden Hour Goals\nCap refill <2 sec\nNormal BP\nNormal pulses, similar central and peripheral\nWarm extremities\nUOP >1 mL/kg/hr\nNormal mental status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric Fever\nSepsis (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Fever",
+          "url": "https://wikem.org/wiki/Pediatric_Fever"
+        },
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.mdcalc.com/calc/10509/phoenix-sepsis-score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "drug_name": "Shock_index",
+  "url": "https://wikem.org/wiki/Shock_index",
+  "scraped_at": "2026-01-10T08:02:07.219665",
+  "sections": {
+    "Intro": {
+      "text": "SI = HR / SBP\nUsed when HR and SBP do not predict severity of hypovolemia in early stages\nMay be used as secondary triage tool in\nmass casualty incidents\n[2]\n0.5-0.7 is normal\n>0.70-0.75 for occult shock or requirement of life-saving intervention\nSimple Shock Index (sSI) was recently proposed. \nSubtracting SBP from HR is a good SI substitute. Working with integers is easier than dividing them, improving value availability.\n[3]\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Austere fluid resuscitation\nShock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Austere fluid resuscitation",
+          "url": "https://wikem.org/wiki/Austere_fluid_resuscitation"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    }
+  }
+}

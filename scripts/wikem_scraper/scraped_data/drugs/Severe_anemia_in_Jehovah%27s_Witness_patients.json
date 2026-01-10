@@ -1,0 +1,94 @@
+{
+  "drug_name": "Severe_anemia_in_Jehovah%27s_Witness_patients",
+  "url": "https://wikem.org/wiki/Severe_anemia_in_Jehovah%27s_Witness_patients",
+  "scraped_at": "2026-01-10T08:02:04.927499",
+  "sections": {
+    "Background": {
+      "text": "Jehovah's Witness paients traditionally refuse allogenic blood and whole blood products.\nThis includes:  RBCs, plasma, platelets, white cells)\n[1]\nHOWEVER, they are able to choose to accept BLOOD COMPONENT FRACTIONS (includes recombinant factor VII, PCC), though this decision may still vary per individual.\n[2]\nThis can make cases of life threatening bleeding difficult to address.  However, multiple options exist to temporize and treat bleeding which are acceptable to Jehovah's Witness patients. These include:\n[3]\nErythropoesis stimulation\nIron supplementation\nOxygen carriers\nWhole blood conservation\nIt is important to note that individual Jehovah's Witnesses may not strictly adhere to this doctrine; up to 49% of Jehovah's Witness patients in one study would be willing to accept blood products in certain circumstances.\n[4]\nIt's worth carefully discussing the risks/benefits with the patient (without visitors present), especially if the need is truly critical.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Control_Bleeding": {
+      "text": "Early control of bleeding and coordination with the family or patient is the only means of managing an severely bleeding Jehovah's Witness patient.  Most patients will accept autotransfusion.\n[5]\nEarly surgical or hemostatic control\nTranexamic Acid\nadministration for major trauma < 3 hrs\nProthrombin complex concentrates\nRecombinant factor VIIa\nAutotransfusion (ie Cell Saver, CATS, or Fresenius cell salvage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tranexamic Acid",
+          "url": "https://wikem.org/wiki/Tranexamic_Acid"
+        },
+        {
+          "text": "Prothrombin complex concentrates",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates"
+        }
+      ]
+    },
+    "Erythropoesis_Stimulation": {
+      "text": "High dose epoetin has a multimodal mechanism of action that includes  an increase in reticulocyte count, decrease in plasma volume and increase in hemoglobin levels\n[6]",
+      "subsections": {
+        "Epoetin_Alfa_(Epogen)": {
+          "text": "Dose: 40,000 units IV daily until hemoglobin > 7g/dL then 40,000 units per week\n[7]\nOnset of Action: 3 days\nPatients must have sufficient iron supplementation or max erythropoesis will not occur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Iron_Supplementation": {
+      "text": "Supplementation will allow for full RBC production but will not correct anemia immediately. Most useful for preparing for scheduled surgical procedures or in burn patients\n[8]\nIron supplementation to keep serum iron 100-400mg/dl\nIV iron sucrose 100mg daily for 10 days\n[7]\nFor first dose, test dose 25mg slow push over 15 min\nWait 2 hrs, if no anaphylactoid reaction, give rest of 75mg\nOral\nIron Supplementation\nafterwards",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iron Supplementation",
+          "url": "https://wikem.org/wiki/Iron_Supplementation"
+        }
+      ]
+    },
+    "Vitamin_Supplementation": {
+      "text": "Should be provided to all patients\nVitamin C: 500mg TID( q24hrs daily in renal failure)\nFolate\n: 1mg PO or IV daily (q24hrs)\nVitamin B12\nmultivitamin PO or IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        }
+      ]
+    },
+    "Decrease_Phlebotomy": {
+      "text": "Use pediatric tubes for blood draws and limit daily volume to 1mL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anemia\nMassive transfusion\nTransfusion reaction\nBlood products",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        }
+      ]
+    }
+  }
+}

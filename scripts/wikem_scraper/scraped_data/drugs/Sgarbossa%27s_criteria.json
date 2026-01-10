@@ -1,0 +1,77 @@
+{
+  "drug_name": "Sgarbossa%27s_criteria",
+  "url": "https://wikem.org/wiki/Sgarbossa%27s_criteria",
+  "scraped_at": "2026-01-10T08:02:06.845595",
+  "sections": {
+    "Background": {
+      "text": "Assesses likelihood that patient with chest pain and baseline\nLBBB\nhas myocardial damage. Developed in 1996 by Elena Sgarbossa\n[1]\nCriteria also applies to\nLBBB\ndue to ventricularly paced rhythm, with more recent reviews demonstrating ~98% specificity when QRS amplitude taken into consideration\n[2]\n[3]\nOriginal Criteria had low sensitivity(20%), high specificity (98%)\nTwo main issues suggested for low sensitivity of original rule. First, use of CK (with or without MB) for diagnosis of acute MI, not angiography. Therefore both STEMI & NSTEMI included in acute MI group. Second, anterior STEMI diagnosis limited by criteria absolute 5mm ST elevation\n[4]\nStill consider PCI/t-PA for patients with LBBB and \"good story\" despite not meeting the criteria\nPreviously, a new or presumably new LBBB was indication for emergent reperfusion therapy (i.e. STEMI equivalent)\nGuidelines were changed in 2013 due to a high number of false positives\nLBBB should now be taken into consideration, but no longer indication for emergent cardiac catheterization\n[5]\nSubsequent Smith Modification improves sensitivity (91%) for a slightly lower specificity (90%), and was validated by Meyers et al in 2015\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        }
+      ]
+    },
+    "Criteria": {
+      "text": "",
+      "subsections": {
+        "Original_Criteria": {
+          "text": "≥3 points = 98% probability of\nSTEMI\n[7]\nST elevation ≥1 mm in a lead with upward QRS complex (concordant) - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward QRS complex (discordant) - 2 points",
+          "tables": []
+        },
+        "Smith's_modification": {
+          "text": "Changes the 3rd rule of original\nSgarbossa's Criteria\nto be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS\nIncreases Sn from 52% → 91% at the expense of reducing Sp from 98% → 90%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Discussion with a cardiologist should precede activation of the Cath Lab for any of the Sgarbossa or modified Sgarbossa criteria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EBQ:Sgarbossa Criteria Study\nST-Elevation Myocardial Infarction (STEMI)\nOriginal Study - Sgarbossa Criteria for MI in LBBB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Sgarbossa Criteria Study",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        },
+        {
+          "text": "ST-Elevation Myocardial Infarction (STEMI)",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Original Study - Sgarbossa Criteria for MI in LBBB",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://lifeinthefastlane.com/ecg-library/basics/sgarbossa/\nhttp://emcrit.org/podcasts/left-bundle-branch-block/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

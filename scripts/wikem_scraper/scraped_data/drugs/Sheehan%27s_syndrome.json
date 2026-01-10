@@ -1,0 +1,130 @@
+{
+  "drug_name": "Sheehan%27s_syndrome",
+  "url": "https://wikem.org/wiki/Sheehan%27s_syndrome",
+  "scraped_at": "2026-01-10T08:02:05.417872",
+  "sections": {
+    "Background": {
+      "text": "Also known as postpartum hypopituitarism\nCaused by pituitary hypoperfusion and infarction usually in the setting of\npostpartum hemorrhage\nDuring pregnancy there is enlargement of the pituitary gland predisposing it to ischemia in low-flow states",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms consistent with\nadrenal insufficiency\n,\nhypothyroidism\nand\nhypogonadism\nInability to lactate\nAmenorrhea or oligomenorrhea\nFatigue\nCold intolerance\nLethargy\nWeight loss\nCan occur any time from the immediate postpartum period to years after birth",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        }
+      ]
+    },
+    "Adrenal_crisis": {
+      "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation of serum prolactin levels is not performed as it is difficult to differentiate low from normal serum prolactin levels",
+      "subsections": {
+        "Workup": {
+          "text": "Workup should include testing of all anterior pituitary hormones\nPatients should be evaluated and treated for adrenal insufficiency immediately as this can worsen pre-existing hypotension\nOther pituitary hormones can be tested for 4-6 weeks after the initial insult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Workup should include testing of all anterior pituitary hormones\nPatients should be evaluated and treated for adrenal insufficiency immediately as this can worsen pre-existing hypotension\nOther pituitary hormones can be tested for 4-6 weeks after the initial insult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Currently no treatment is available but there is an ongoing small open-label pilot study looking at using recombinant human prolactin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pregnancy\nPituitary apoplexy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1628 @@
+{
+  "drug_name": "Seizure_(peds)",
+  "url": "https://wikem.org/wiki/Seizure_(peds)",
+  "scraped_at": "2026-01-10T08:01:59.623249",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nseizure\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Seizure_Types": {
+          "text": "Classification is based on the international classification from 1981\n[1]\n; More recent terms suggested by the ILAE (International League Against Epilepsy) task Force.\n[2]",
+          "tables": []
+        },
+        "Focal_seizures": {
+          "text": "(Older term: partial seizures)\nWithout impairment in consciousness\n– (AKA Simple partial seizures)\nWith motor signs (ex. facial twiching or rhythmic ipsilateral extremity movements)\nWith sensory symptoms (ex. tingling or pereiving a certain smell)\nWith autonomic symptoms or signs (ex. tachycardia or diaphoresis)\nWith psychic symptoms (including aura, ex. sense of déjà-vu)\nWith impairment in consciousness\n- (AKA Complex Partial Seizures--Older terms: temporal lobe or psychomotor seizures)\nSimple partial onset, followed by impairment of consciousness\nWith impairment of consciousness at onset\nThese seizures may be accompanied by automatism (such as lip smacking and chewing, hand wringing, patting and rubbing)\nFocal seizures\nevolving to secondarily generalized seizures\nSimple partial seizures evolving to generalized seizures\nComplex partial seizures evolving to generalized seizures\nSimple partial seizures evolving to complex partial seizures evolving to generalized seizures",
+          "tables": []
+        },
+        "Generalized_seizures": {
+          "text": "Absence seizures\n(Older term: petit mal; brief dissociative states without postural changes)\nTypical absence seizures\nAtypical absence seizures (last longer and often include more motor involvement)\nMyoclonic seizure\n(violent muscle contractions)\nClonic seizures\n(rhythmic jerking)\nTonic seizures\n(stiffening)\nTonic–clonic seizures\n(Older term: grand mal)\nAtonic seizures\n(loss of muscle tone -> drop attacks)",
+          "tables": []
+        },
+        "SUDEP": {
+          "text": "Sudden Unexpected Death in Epilepsy\nGeneralized tonic-clonic seizure is the major risk factor for SUDEP, and seizure freedom is strongly associated with decreased risk\nAnnual incidence of SUDEP in children is 1 in 4500\nIncidence in adults is 1 in 1000",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizure_Types": {
+      "text": "Classification is based on the international classification from 1981\n[1]\n; More recent terms suggested by the ILAE (International League Against Epilepsy) task Force.\n[2]",
+      "subsections": {
+        "Focal_seizures": {
+          "text": "(Older term: partial seizures)\nWithout impairment in consciousness\n– (AKA Simple partial seizures)\nWith motor signs (ex. facial twiching or rhythmic ipsilateral extremity movements)\nWith sensory symptoms (ex. tingling or pereiving a certain smell)\nWith autonomic symptoms or signs (ex. tachycardia or diaphoresis)\nWith psychic symptoms (including aura, ex. sense of déjà-vu)\nWith impairment in consciousness\n- (AKA Complex Partial Seizures--Older terms: temporal lobe or psychomotor seizures)\nSimple partial onset, followed by impairment of consciousness\nWith impairment of consciousness at onset\nThese seizures may be accompanied by automatism (such as lip smacking and chewing, hand wringing, patting and rubbing)\nFocal seizures\nevolving to secondarily generalized seizures\nSimple partial seizures evolving to generalized seizures\nComplex partial seizures evolving to generalized seizures\nSimple partial seizures evolving to complex partial seizures evolving to generalized seizures",
+          "tables": []
+        },
+        "Generalized_seizures": {
+          "text": "Absence seizures\n(Older term: petit mal; brief dissociative states without postural changes)\nTypical absence seizures\nAtypical absence seizures (last longer and often include more motor involvement)\nMyoclonic seizure\n(violent muscle contractions)\nClonic seizures\n(rhythmic jerking)\nTonic seizures\n(stiffening)\nTonic–clonic seizures\n(Older term: grand mal)\nAtonic seizures\n(loss of muscle tone -> drop attacks)",
+          "tables": []
+        },
+        "SUDEP": {
+          "text": "Sudden Unexpected Death in Epilepsy\nGeneralized tonic-clonic seizure is the major risk factor for SUDEP, and seizure freedom is strongly associated with decreased risk\nAnnual incidence of SUDEP in children is 1 in 4500\nIncidence in adults is 1 in 1000",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abrupt onset, may be unprovoked\nBrief duration (typically <2min)\nAMS\nJerking of limbs\nPostictal drowsiness/\nconfusion\n(typically lasting <30 minutes)\nTodd\nparalysis\nTemporary\nfocal deficit\nup to 36 hr post-seizure\nLateral tongue biting - 100% specificity\nIncontinence",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "focal deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with or \"outgrowing\"\nAEDs\nNon-epileptic seizure\nFebrile seizure\nBrain inflammation\nMeningitis\nEncephalitis\nCNS abscess\nIntracranial hemorrhage\nNeurocysticercosis\nIncreased ICP\nSeizure with\nVP shunt\nHydrocephalus\nIntracranial mass\nToxicologic\nAlcohol withdrawal\nBenzodiazepine withdrawal\nToxic ingestion\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\nPyridoxine responsive seizure\n[4]\nEclampsia\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nOther mimics\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nSyncope (peds)\nBreath-holding spell\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)\nInfantile Spasms/West Syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(Peds)"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "CNS abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Syncope (peds)",
+          "url": "https://wikem.org/wiki/Syncope_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Pediatric_seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with or \"outgrowing\"\nAEDs\nNon-epileptic seizure\nFebrile seizure\nBrain inflammation\nMeningitis\nEncephalitis\nCNS abscess\nIntracranial hemorrhage\nNeurocysticercosis\nIncreased ICP\nSeizure with\nVP shunt\nHydrocephalus\nIntracranial mass\nToxicologic\nAlcohol withdrawal\nBenzodiazepine withdrawal\nToxic ingestion\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\nPyridoxine responsive seizure\n[4]\nEclampsia\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nOther mimics\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nSyncope (peds)\nBreath-holding spell\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)\nInfantile Spasms/West Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(Peds)"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "CNS abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Syncope (peds)",
+          "url": "https://wikem.org/wiki/Syncope_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Seizure_with_a_Fever": {
+          "text": "See\nFebrile Seizure",
+          "tables": []
+        },
+        "First-Time_Afebrile_Seizure": {
+          "text": "If patient returns to baseline no labs/imaging necessarily indicated\nHead to toe exam - abusive head trauma may precipitate seizure and requires emergent imaging\nGlucose\nConsider chemistry, Mg\nConsider\nEKG\nif concerned for cardiac\narrhythmia\nLP\nonly necessary if concern for\nmeningitis (peds)\nNeuroimaging\nPreferred test is outpatient\nMRI\nConsider emergent imaging (\nCT head\n) for\nfocal deficit\n, no return to baseline\n40% have 2nd seizure",
+          "tables": []
+        },
+        "Neonatal_Seizure": {
+          "text": "Often subtle, focal, poor prognosis\nLess often have generalized tonic-clonic seizures\nFindings include lip smacking, eye deviation, staring,\nALTE\nWork-up\nCBC, chemistry,\nUA\n,\nLP\nfor CSF (including HSV), utox (withdrawal)\nConsider neuroimaging if concern for abuse,\nintracranial hemorrhage\n, mass\nConsider\nlactate\n, ammonia if concern for\ninborn errors of metabolism\nTreatment\nStart IV\nantimicrobials\n(including\nacyclovir\n)\nPhenobarbital is first-line treatment for most neonatal seizures\n[5]\nConsider\npyridoxine\nand\nfolic acid\nif unresponsive to treatment\n[6]\nPyridoxal phosphate 10mg/kg/dose q2h x 2 doses\nIf persistent, folinic acid 5mg q6h x 2 doses\nEEG monitoring during this period is helpful",
+          "tables": []
+        },
+        "Epileptic_Seizures": {
+          "text": "Epilepsy = 2 or more seizures with out acute provocation (fever, trauma)\nOften due to patient \"outgrowing\" their dosage\nCheck levels:\nSee\nanticonvulsant levels and reloading\nPhenytoin\n,\ncarbamazepine\n,\nvalproic acid\nIf low consider medication non-adherence, \"outgrowing\" dose, vomiting, med interaction\nPatients with epilepsy may have lower seizure threshold with febrile illness\nUsually can limit ED work up to fever evaluation",
+          "tables": []
+        },
+        "Seizure_with_VP_shunt": {
+          "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+          "tables": []
+        },
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Febrile Seizure",
+          "url": "https://wikem.org/wiki/Febrile_Seizure"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis (peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "focal deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "ALTE",
+          "url": "https://wikem.org/wiki/ALTE"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "antimicrobials",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Seizure_with_a_Fever": {
+      "text": "See\nFebrile Seizure",
+      "subsections": {
+        "First-Time_Afebrile_Seizure": {
+          "text": "If patient returns to baseline no labs/imaging necessarily indicated\nHead to toe exam - abusive head trauma may precipitate seizure and requires emergent imaging\nGlucose\nConsider chemistry, Mg\nConsider\nEKG\nif concerned for cardiac\narrhythmia\nLP\nonly necessary if concern for\nmeningitis (peds)\nNeuroimaging\nPreferred test is outpatient\nMRI\nConsider emergent imaging (\nCT head\n) for\nfocal deficit\n, no return to baseline\n40% have 2nd seizure",
+          "tables": []
+        },
+        "Neonatal_Seizure": {
+          "text": "Often subtle, focal, poor prognosis\nLess often have generalized tonic-clonic seizures\nFindings include lip smacking, eye deviation, staring,\nALTE\nWork-up\nCBC, chemistry,\nUA\n,\nLP\nfor CSF (including HSV), utox (withdrawal)\nConsider neuroimaging if concern for abuse,\nintracranial hemorrhage\n, mass\nConsider\nlactate\n, ammonia if concern for\ninborn errors of metabolism\nTreatment\nStart IV\nantimicrobials\n(including\nacyclovir\n)\nPhenobarbital is first-line treatment for most neonatal seizures\n[5]\nConsider\npyridoxine\nand\nfolic acid\nif unresponsive to treatment\n[6]\nPyridoxal phosphate 10mg/kg/dose q2h x 2 doses\nIf persistent, folinic acid 5mg q6h x 2 doses\nEEG monitoring during this period is helpful",
+          "tables": []
+        },
+        "Epileptic_Seizures": {
+          "text": "Epilepsy = 2 or more seizures with out acute provocation (fever, trauma)\nOften due to patient \"outgrowing\" their dosage\nCheck levels:\nSee\nanticonvulsant levels and reloading\nPhenytoin\n,\ncarbamazepine\n,\nvalproic acid\nIf low consider medication non-adherence, \"outgrowing\" dose, vomiting, med interaction\nPatients with epilepsy may have lower seizure threshold with febrile illness\nUsually can limit ED work up to fever evaluation",
+          "tables": []
+        },
+        "Seizure_with_VP_shunt": {
+          "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+          "tables": []
+        },
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Febrile Seizure",
+          "url": "https://wikem.org/wiki/Febrile_Seizure"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis (peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "focal deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "ALTE",
+          "url": "https://wikem.org/wiki/ALTE"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "antimicrobials",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "First-Time_Afebrile_Seizure": {
+      "text": "If patient returns to baseline no labs/imaging necessarily indicated\nHead to toe exam - abusive head trauma may precipitate seizure and requires emergent imaging\nGlucose\nConsider chemistry, Mg\nConsider\nEKG\nif concerned for cardiac\narrhythmia\nLP\nonly necessary if concern for\nmeningitis (peds)\nNeuroimaging\nPreferred test is outpatient\nMRI\nConsider emergent imaging (\nCT head\n) for\nfocal deficit\n, no return to baseline\n40% have 2nd seizure",
+      "subsections": {
+        "Neonatal_Seizure": {
+          "text": "Often subtle, focal, poor prognosis\nLess often have generalized tonic-clonic seizures\nFindings include lip smacking, eye deviation, staring,\nALTE\nWork-up\nCBC, chemistry,\nUA\n,\nLP\nfor CSF (including HSV), utox (withdrawal)\nConsider neuroimaging if concern for abuse,\nintracranial hemorrhage\n, mass\nConsider\nlactate\n, ammonia if concern for\ninborn errors of metabolism\nTreatment\nStart IV\nantimicrobials\n(including\nacyclovir\n)\nPhenobarbital is first-line treatment for most neonatal seizures\n[5]\nConsider\npyridoxine\nand\nfolic acid\nif unresponsive to treatment\n[6]\nPyridoxal phosphate 10mg/kg/dose q2h x 2 doses\nIf persistent, folinic acid 5mg q6h x 2 doses\nEEG monitoring during this period is helpful",
+          "tables": []
+        },
+        "Epileptic_Seizures": {
+          "text": "Epilepsy = 2 or more seizures with out acute provocation (fever, trauma)\nOften due to patient \"outgrowing\" their dosage\nCheck levels:\nSee\nanticonvulsant levels and reloading\nPhenytoin\n,\ncarbamazepine\n,\nvalproic acid\nIf low consider medication non-adherence, \"outgrowing\" dose, vomiting, med interaction\nPatients with epilepsy may have lower seizure threshold with febrile illness\nUsually can limit ED work up to fever evaluation",
+          "tables": []
+        },
+        "Seizure_with_VP_shunt": {
+          "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+          "tables": []
+        },
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis (peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "focal deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "ALTE",
+          "url": "https://wikem.org/wiki/ALTE"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "antimicrobials",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Neonatal_Seizure": {
+      "text": "Often subtle, focal, poor prognosis\nLess often have generalized tonic-clonic seizures\nFindings include lip smacking, eye deviation, staring,\nALTE\nWork-up\nCBC, chemistry,\nUA\n,\nLP\nfor CSF (including HSV), utox (withdrawal)\nConsider neuroimaging if concern for abuse,\nintracranial hemorrhage\n, mass\nConsider\nlactate\n, ammonia if concern for\ninborn errors of metabolism\nTreatment\nStart IV\nantimicrobials\n(including\nacyclovir\n)\nPhenobarbital is first-line treatment for most neonatal seizures\n[5]\nConsider\npyridoxine\nand\nfolic acid\nif unresponsive to treatment\n[6]\nPyridoxal phosphate 10mg/kg/dose q2h x 2 doses\nIf persistent, folinic acid 5mg q6h x 2 doses\nEEG monitoring during this period is helpful",
+      "subsections": {
+        "Epileptic_Seizures": {
+          "text": "Epilepsy = 2 or more seizures with out acute provocation (fever, trauma)\nOften due to patient \"outgrowing\" their dosage\nCheck levels:\nSee\nanticonvulsant levels and reloading\nPhenytoin\n,\ncarbamazepine\n,\nvalproic acid\nIf low consider medication non-adherence, \"outgrowing\" dose, vomiting, med interaction\nPatients with epilepsy may have lower seizure threshold with febrile illness\nUsually can limit ED work up to fever evaluation",
+          "tables": []
+        },
+        "Seizure_with_VP_shunt": {
+          "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+          "tables": []
+        },
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ALTE",
+          "url": "https://wikem.org/wiki/ALTE"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "antimicrobials",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Epileptic_Seizures": {
+      "text": "Epilepsy = 2 or more seizures with out acute provocation (fever, trauma)\nOften due to patient \"outgrowing\" their dosage\nCheck levels:\nSee\nanticonvulsant levels and reloading\nPhenytoin\n,\ncarbamazepine\n,\nvalproic acid\nIf low consider medication non-adherence, \"outgrowing\" dose, vomiting, med interaction\nPatients with epilepsy may have lower seizure threshold with febrile illness\nUsually can limit ED work up to fever evaluation",
+      "subsections": {
+        "Seizure_with_VP_shunt": {
+          "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+          "tables": []
+        },
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Seizure_with_VP_shunt": {
+      "text": "Consider underlying epilepsy,\nshunt malfunction\n,\nCNS infection\nIf patient has fever, seizure more likely secondary to infection than malfunction\nConsult pediatric neurosurgeon to tap the shunt\nImaging\nObtain shunt series and\nhead CT\nor\nMRI\nto evaluate for increased ventricular size",
+      "subsections": {
+        "Seizure_with_Pediatric_Head_Trauma": {
+          "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+          "tables": []
+        },
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "CNS infection",
+          "url": "https://wikem.org/wiki/VP_shunt_infections"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Seizure_with_Pediatric_Head_Trauma": {
+      "text": "\"Impact seizures\" (seizures that occurs within minutes of head trauma)\nNot associated with severe head injuries\nSeizures that occur after this time more likely to represent intracranial injury\nAbusive head trauma should always be considered in differential",
+      "subsections": {
+        "Status_Epilepticus": {
+          "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Status_Epilepticus": {
+      "text": "Seizure or recurrent seizure lasting >5min with out regaining consciousness\nIf prolonged postictal state or longer than usual consider nonconvulsive status\nObtain emergency EEG; if not available, trial of anticonvulsants appropriate\nManagement\nGlucose, chemistry, CBC,\nLFTs\n, ?CSF, ?neuroimaging\nIntubate\nif evidence of apnea and persistent hypoxia\nIf paralytic used, EEG monitoring should be arranged",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Initial_management_of_pediatric_status_epilepticus": {
+          "text": "^May be ineffective for toxin-induced seizures and contraindicated in\ncocaine toxicity",
+          "tables": [
+            [
+              {
+                "Timeline": "0-5 minutes",
+                "General Considerations": "Supportive careABC'sMaintain airway; suction, jaw thrustProvideO2via positive pressure ventilation with BVM/MaplesonLikely apneic/hypoventilating/hypercapneicOnly apply CPAP or a non-rebreather if patient stops seizing and has adequate chest riseEstablish IV/IOaccessCheck blood glucoseIf fever,acetaminophen15 mg/kg rectally",
+                "Seizure Treatment": "Benzodiazepine: first doseIV/IO access establishedLorazepam0.1 mg/kg IV (max 4 mg) if IV/IO access, ORDiazepam0.2 mg/kg IM (max 10 mg) if no accessIV or IO access not achieved within 3 minutes:Buccalmidazolam0.2 mg/kg (max 10 mg), ORIMmidazolam0.2 mg/kg (max 10 mg), ORRectaldiazepam(Diastat gel or injection solution given rectally) 0.5 mg/kg (max 20 mg)"
+              },
+              {
+                "Timeline": "5-10 minutes",
+                "General Considerations": "Give antibiotics if concern forsepsisormeningitisPOC electrolytes, if available",
+                "Seizure Treatment": "Benzodiazepine: second dose"
+              },
+              {
+                "Timeline": "10-15 minutes",
+                "General Considerations": "All equally efficacious for status epilepticusLevetiracetam is preferred given quick administration, favorable side effect profile, and less drug interactionsDo not combine Phenytoin and Fosphenytoin",
+                "Seizure Treatment": "Antiepileptic: first therapyLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 min, ORFosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO, (max 1 g) over 20 min, (expect respiratory depression with apnea)¥"
+              },
+              {
+                "Timeline": "15-30 minutes",
+                "General Considerations": "Consider intubation, if not already performedConsider NG tube to decompress stomach prior to intubationPediatric neurology consultation",
+                "Seizure Treatment": "Antiepileptic: second therapy(if medication not already given)Fosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO (max 1 g) over 20 min10 mg/kg if phenobarbital already given, ORLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 minIfisoniazid toxicitysuspected,pyridoxineInfants (<1 year): 100 mg IV or IO inOtherwise 70 mg/kg IV or IO (max = 5 g)"
+              },
+              {
+                "Timeline": ">30 minutes",
+                "General Considerations": "Intubate patient, if not already performedConsult referral site / PICU for admission and continuous EEG",
+                "Seizure Treatment": "Antiepileptic: third therapyMidazolam 0.2mg/kg IV bolus (max 10mg), followed by 0.2mg/kg/hr (max 10mg/hr) infusion dripIncrease infusion rate by 0.2mg/kg/hr (max 10mg/hr) every 10 minutes until burst suppression or max dose of 2mg/kg/hr (max 100mg/hr)"
+              }
+            ]
+          ]
+        },
+        "Hypoglycemia": {
+          "text": "Defined as <50mg/dL\nAll seizing patients with hypoglycemia should be treated with 2 mL/kg 25% dextrose",
+          "tables": []
+        },
+        "Hyponatremia": {
+          "text": "Consider as cause of seizure, especially if Na <120 mEq/L\nGoal of therapy is to correct quickly to >120, slowly thereafter\nIn actively seizing patient, treatment of choice is\n3% NaCl\n3% NaCl\n(513 mEq/1000 mL)\nNa deficit in total mEq = [(wt in kg)x(130 – serum Na level)x0.6] over 20min\nOR\n3% NaCl: 4-6 mL/kg over 20min\nIf no seizure activity but Na <120 start 4-6 mL/kg 3% NaCl or 20 mL/kg of NS over 1hr\nCheck Na level after bolus to see if second bolus is necessary\nIf 3% unavailable, start NS 20mL/kg",
+          "tables": []
+        },
+        "Hypocalcemia": {
+          "text": "Administer 10%\ncalcium gluconate\n0.3 mL/kg over 5-10min",
+          "tables": []
+        },
+        "Other": {
+          "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+          "tables": []
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Initial_management_of_pediatric_status_epilepticus": {
+      "text": "^May be ineffective for toxin-induced seizures and contraindicated in\ncocaine toxicity",
+      "subsections": {
+        "Hypoglycemia": {
+          "text": "Defined as <50mg/dL\nAll seizing patients with hypoglycemia should be treated with 2 mL/kg 25% dextrose",
+          "tables": []
+        },
+        "Hyponatremia": {
+          "text": "Consider as cause of seizure, especially if Na <120 mEq/L\nGoal of therapy is to correct quickly to >120, slowly thereafter\nIn actively seizing patient, treatment of choice is\n3% NaCl\n3% NaCl\n(513 mEq/1000 mL)\nNa deficit in total mEq = [(wt in kg)x(130 – serum Na level)x0.6] over 20min\nOR\n3% NaCl: 4-6 mL/kg over 20min\nIf no seizure activity but Na <120 start 4-6 mL/kg 3% NaCl or 20 mL/kg of NS over 1hr\nCheck Na level after bolus to see if second bolus is necessary\nIf 3% unavailable, start NS 20mL/kg",
+          "tables": []
+        },
+        "Hypocalcemia": {
+          "text": "Administer 10%\ncalcium gluconate\n0.3 mL/kg over 5-10min",
+          "tables": []
+        },
+        "Other": {
+          "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+          "tables": []
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Timeline": "0-5 minutes",
+            "General Considerations": "Supportive careABC'sMaintain airway; suction, jaw thrustProvideO2via positive pressure ventilation with BVM/MaplesonLikely apneic/hypoventilating/hypercapneicOnly apply CPAP or a non-rebreather if patient stops seizing and has adequate chest riseEstablish IV/IOaccessCheck blood glucoseIf fever,acetaminophen15 mg/kg rectally",
+            "Seizure Treatment": "Benzodiazepine: first doseIV/IO access establishedLorazepam0.1 mg/kg IV (max 4 mg) if IV/IO access, ORDiazepam0.2 mg/kg IM (max 10 mg) if no accessIV or IO access not achieved within 3 minutes:Buccalmidazolam0.2 mg/kg (max 10 mg), ORIMmidazolam0.2 mg/kg (max 10 mg), ORRectaldiazepam(Diastat gel or injection solution given rectally) 0.5 mg/kg (max 20 mg)"
+          },
+          {
+            "Timeline": "5-10 minutes",
+            "General Considerations": "Give antibiotics if concern forsepsisormeningitisPOC electrolytes, if available",
+            "Seizure Treatment": "Benzodiazepine: second dose"
+          },
+          {
+            "Timeline": "10-15 minutes",
+            "General Considerations": "All equally efficacious for status epilepticusLevetiracetam is preferred given quick administration, favorable side effect profile, and less drug interactionsDo not combine Phenytoin and Fosphenytoin",
+            "Seizure Treatment": "Antiepileptic: first therapyLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 min, ORFosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO, (max 1 g) over 20 min, (expect respiratory depression with apnea)¥"
+          },
+          {
+            "Timeline": "15-30 minutes",
+            "General Considerations": "Consider intubation, if not already performedConsider NG tube to decompress stomach prior to intubationPediatric neurology consultation",
+            "Seizure Treatment": "Antiepileptic: second therapy(if medication not already given)Fosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) over 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) over 10 min, ORPhenobarbital20 mg/kg IV/IO (max 1 g) over 20 min10 mg/kg if phenobarbital already given, ORLevetiracetam60 mg/kg IV/IO (max 4500mg) over 5 minIfisoniazid toxicitysuspected,pyridoxineInfants (<1 year): 100 mg IV or IO inOtherwise 70 mg/kg IV or IO (max = 5 g)"
+          },
+          {
+            "Timeline": ">30 minutes",
+            "General Considerations": "Intubate patient, if not already performedConsult referral site / PICU for admission and continuous EEG",
+            "Seizure Treatment": "Antiepileptic: third therapyMidazolam 0.2mg/kg IV bolus (max 10mg), followed by 0.2mg/kg/hr (max 10mg/hr) infusion dripIncrease infusion rate by 0.2mg/kg/hr (max 10mg/hr) every 10 minutes until burst suppression or max dose of 2mg/kg/hr (max 100mg/hr)"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Hypoglycemia": {
+      "text": "Defined as <50mg/dL\nAll seizing patients with hypoglycemia should be treated with 2 mL/kg 25% dextrose",
+      "subsections": {
+        "Hyponatremia": {
+          "text": "Consider as cause of seizure, especially if Na <120 mEq/L\nGoal of therapy is to correct quickly to >120, slowly thereafter\nIn actively seizing patient, treatment of choice is\n3% NaCl\n3% NaCl\n(513 mEq/1000 mL)\nNa deficit in total mEq = [(wt in kg)x(130 – serum Na level)x0.6] over 20min\nOR\n3% NaCl: 4-6 mL/kg over 20min\nIf no seizure activity but Na <120 start 4-6 mL/kg 3% NaCl or 20 mL/kg of NS over 1hr\nCheck Na level after bolus to see if second bolus is necessary\nIf 3% unavailable, start NS 20mL/kg",
+          "tables": []
+        },
+        "Hypocalcemia": {
+          "text": "Administer 10%\ncalcium gluconate\n0.3 mL/kg over 5-10min",
+          "tables": []
+        },
+        "Other": {
+          "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+          "tables": []
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Hyponatremia": {
+      "text": "Consider as cause of seizure, especially if Na <120 mEq/L\nGoal of therapy is to correct quickly to >120, slowly thereafter\nIn actively seizing patient, treatment of choice is\n3% NaCl\n3% NaCl\n(513 mEq/1000 mL)\nNa deficit in total mEq = [(wt in kg)x(130 – serum Na level)x0.6] over 20min\nOR\n3% NaCl: 4-6 mL/kg over 20min\nIf no seizure activity but Na <120 start 4-6 mL/kg 3% NaCl or 20 mL/kg of NS over 1hr\nCheck Na level after bolus to see if second bolus is necessary\nIf 3% unavailable, start NS 20mL/kg",
+      "subsections": {
+        "Hypocalcemia": {
+          "text": "Administer 10%\ncalcium gluconate\n0.3 mL/kg over 5-10min",
+          "tables": []
+        },
+        "Other": {
+          "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+          "tables": []
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "3% NaCl",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Hypocalcemia": {
+      "text": "Administer 10%\ncalcium gluconate\n0.3 mL/kg over 5-10min",
+      "subsections": {
+        "Other": {
+          "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+          "tables": []
+        },
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Consider\nPyridoxine\n(vitamin B6) 1g per g of\nINH\ningested  (in D5W IV over 30 min)\n[7]\nConsider Pyridoxine Responsive Seizure Disorder - 100mg/pyridoxine is generally effective\n[8]",
+      "subsections": {
+        "Pediatric_Anticonvulsants_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Drug": "Levetiracetam",
+                "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+                "Infusion Rate (Minutes)": "≥5",
+                "Age": "Any",
+                "Comments/Cautions": "Most commonly used agent"
+              },
+              {
+                "Drug": "Fosphenytoin",
+                "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Valproic acid",
+                "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+                "Infusion Rate (Minutes)": "≥10",
+                "Age": "≥2 years",
+                "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+              },
+              {
+                "Drug": "Phenytoin",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "Any",
+                "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+              },
+              {
+                "Drug": "Phenobarbital",
+                "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+                "Infusion Rate (Minutes)": "≥20",
+                "Age": "<6 months",
+                "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Pediatric_Anticonvulsants_Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Drug": "Levetiracetam",
+            "Dose": "60 mg/kg/dose IV/IOMAX: 4500 mg/dose",
+            "Infusion Rate (Minutes)": "≥5",
+            "Age": "Any",
+            "Comments/Cautions": "Most commonly used agent"
+          },
+          {
+            "Drug": "Fosphenytoin",
+            "Dose": "20 mg phenytoin equivalent (PE)/kg/dose IV/IO/IMMAX: 1000 PE/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Valproic acid",
+            "Dose": "40 mg/kg/dose IV/IOMAX: 3000 mg/dose",
+            "Infusion Rate (Minutes)": "≥10",
+            "Age": "≥2 years",
+            "Comments/Cautions": "Caution in patients with liver dysfunction, mitochondrial disease, urea disorder, thrombocytopenia, or unexplained developmental delay"
+          },
+          {
+            "Drug": "Phenytoin",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "Any",
+            "Comments/Cautions": "Choose alternate drug if on phenytoin at home; may decrease BP/HR; not for toxin-induced seizures"
+          },
+          {
+            "Drug": "Phenobarbital",
+            "Dose": "20 mg/kg/dose IV/IOMAX: 1000 mg/dose",
+            "Infusion Rate (Minutes)": "≥20",
+            "Age": "<6 months",
+            "Comments/Cautions": "First line for most neonatal seizures. Respiratory depression, especially in combination with benzodiazepines"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If negative workup\nEEG and MRI as outpatient\nDiastat (\ndiazepam\n) Rectal Kit\n2-5 yrs:  0.5mg/kg\n6-11 yrs: 0.3mg/kg\n12+ yrs:  0.2mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Seizure\nFebrile Seizure\nSeizure Levels and Reloading\nStatus epilepticus (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Febrile Seizure",
+          "url": "https://wikem.org/wiki/Febrile_Seizure"
+        },
+        {
+          "text": "Seizure Levels and Reloading",
+          "url": "https://wikem.org/wiki/Seizure_Levels_and_Reloading"
+        },
+        {
+          "text": "Status epilepticus (peds)",
+          "url": "https://wikem.org/wiki/Status_epilepticus_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast - Carpe Cerebrum: Seize the Brain\nCarpe Cerebrum: Seize the Brain (mp3)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

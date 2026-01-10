@@ -1,0 +1,194 @@
+{
+  "drug_name": "Septic_bursitis",
+  "url": "https://wikem.org/wiki/Septic_bursitis",
+  "scraped_at": "2026-01-10T08:02:01.583222",
+  "sections": {
+    "Background": {
+      "text": "Most common sites are prepatellar bursa and olecranon bursa",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Acute pain, tenderness, warmth, and erythema of affected bursa\nNone of which is seen in aseptic bursitis\nFever\n(<50%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Olecranon bursitis (nonseptic)\nPrepatellar bursitis (nonseptic)\nCellulitis\nSeptic arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain radiograph, CT, MRI usually not helpful\nUS\nmay help guide procedures or help with diagnostic uncertainty\nBursal fluid aspiration\nBoth diagnostic and therapeutic\nDo not perform if there is evidence overlying cellulitis\nProcedure\nPlaced in flexed position, elbow and forearm rested on surface\nPrep and drape\nPlus/minus local anesthesia skin wheal\nApproach with 18-22 ga needle from posterior aspect of bursa, aspirate until bursa is flat\nCompressing bursa to help with aspiration\nArthrocentesis\nshould be performed if joint involvement suspected\nSeptic workup\nCell counts > 5000 - 20,000/µL depending on source\nPredominance of PMNs\nCell counts < 2000/µL, with a predominant mononuclear cells highly suggestive of nonseptic bursitis\nGram stain and culture\nGram stain with variable levels of sensitivities\nThus, high WBC count with negative gram stain should not exclude diagnosis\nElevated protein\nReduced glucose\nCrystal analysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Musculoskeletal_ultrasound"
+        },
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Cover\nStaphylococcus aureus\n(80-90%) and\nStreptococcus",
+          "tables": []
+        },
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300 mg PO three times daily x 14 days\nOR\nTMP/SMX\n2 DS tabs PO two times daily x 14 days\nOR\nDicloxacillin\n500mg PO q6hr x10 days\nTreatment followup with primary physician is important since the regimen may need extension to 3 weeks.",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Vancomycin\n25-30 mg/kg IV loading then 15-20 mg/kg IV\nOR\nClindamycin\n600 mg (10/mg/kg) IV three times daily\nLinezolid\n600 mg IV BID (10mg/kg Q8hrs for pediatrics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Cover\nStaphylococcus aureus\n(80-90%) and\nStreptococcus",
+      "subsections": {
+        "Outpatient_Options": {
+          "text": "Clindamycin\n300 mg PO three times daily x 14 days\nOR\nTMP/SMX\n2 DS tabs PO two times daily x 14 days\nOR\nDicloxacillin\n500mg PO q6hr x10 days\nTreatment followup with primary physician is important since the regimen may need extension to 3 weeks.",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Vancomycin\n25-30 mg/kg IV loading then 15-20 mg/kg IV\nOR\nClindamycin\n600 mg (10/mg/kg) IV three times daily\nLinezolid\n600 mg IV BID (10mg/kg Q8hrs for pediatrics)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider admission for:\nExtensive purulent bursitis\nExtensive surrounding\ncellulitis\nSuspected\njoint involvement\nImmunocompromised\nFailure to respond to course of PO antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "joint involvement",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Bursitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bursitis",
+          "url": "https://wikem.org/wiki/Bursitis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Septic Bursitis: ED Presentation, Evaluation, and Management on\nemDocs.net",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

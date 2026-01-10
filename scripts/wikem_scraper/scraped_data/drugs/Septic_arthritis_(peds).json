@@ -1,0 +1,250 @@
+{
+  "drug_name": "Septic_arthritis_(peds)",
+  "url": "https://wikem.org/wiki/Septic_arthritis_(peds)",
+  "scraped_at": "2026-01-10T08:02:03.830610",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients; for adult patients see\nseptic arthritis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most often in patients < 3yo\nMSSA and MRSA are most common causes in all age groups\nPatients with sickle cell disease, rheumatoid arthritis, and inflammatory bowel disease are at increased risk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Neonates\nDo not appear ill\nOnly 50% have fever\nOlder infants, toddlers, children\nFever (>101.3), localizing signs\nLabs\nCRP >20\nWBC >12K",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Trauma\nSeptic arthritis\nAcute Rheumatic Fever\nReactive Arthritis (Poststreptococcal)\nGonococcal arthritis\nLyme disease\nSickle cell crisis\nHenoch-Schonlein Purpura (HSP)\nLegg Calve Perthes Disease\nSlipped Capital Femoral Epiphysis (SCFE)\nOsteomyelitis\nJuvenile Idiopathic Arthritis\nTransient (Toxic) Synovitis (Hip)\nHemophilia\nOsgood Schlatter Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Acute Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Acute_Rheumatic_Fever"
+        },
+        {
+          "text": "Reactive Arthritis (Poststreptococcal)",
+          "url": "https://wikem.org/wiki/Reactive_Arthritis_(Poststreptococcal)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Henoch-Schonlein Purpura (HSP)",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_Purpura_(HSP)"
+        },
+        {
+          "text": "Legg Calve Perthes Disease",
+          "url": "https://wikem.org/wiki/Legg_Calve_Perthes_Disease"
+        },
+        {
+          "text": "Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://wikem.org/wiki/Slipped_Capital_Femoral_Epiphysis_(SCFE)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Transient (Toxic) Synovitis (Hip)",
+          "url": "https://wikem.org/wiki/Transient_(Toxic)_Synovitis_(Hip)"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Osgood Schlatter Disease",
+          "url": "https://wikem.org/wiki/Osgood_Schlatter_Disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Labs\nCBC, ESR, CRP, , blood/throat cultures\nArthrocentesis\nCell count, gram stain, glucose, cultures",
+          "tables": []
+        },
+        "Kocher_Criteria": {
+          "text": "One point each\nNon-weight bearing on affected side\nESR >40mm/hr\nFever\nWBC >12,000\nProbability by points\n[1]\n1 of 4 - 3%\n2 of 4 - 40%\n3 of 4 - 93%\n4 of 4 - 99%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Labs\nCBC, ESR, CRP, , blood/throat cultures\nArthrocentesis\nCell count, gram stain, glucose, cultures",
+      "subsections": {
+        "Kocher_Criteria": {
+          "text": "One point each\nNon-weight bearing on affected side\nESR >40mm/hr\nFever\nWBC >12,000\nProbability by points\n[1]\n1 of 4 - 3%\n2 of 4 - 40%\n3 of 4 - 93%\n4 of 4 - 99%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        }
+      ]
+    },
+    "Kocher_Criteria": {
+      "text": "One point each\nNon-weight bearing on affected side\nESR >40mm/hr\nFever\nWBC >12,000\nProbability by points\n[1]\n1 of 4 - 3%\n2 of 4 - 40%\n3 of 4 - 93%\n4 of 4 - 99%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Joint drainage/wash out\nIV\nantibiotics",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Newborn (0–2 mo)",
+            "Suspected Organism": "Staphylococcus aureus",
+            "Antibiotics": "Vancomycin, 10 milligrams/kg every 6–8 h"
+          },
+          {
+            "Age": "or"
+          },
+          {
+            "Age": "Clindamycin, 10 milligrams/kg every 6–8 h"
+          },
+          {
+            "Age": "Group B Streptococcus",
+            "Suspected Organism": "Ampicillin, 50–100 milligrams/kg every 6 h"
+          },
+          {
+            "Age": "and"
+          },
+          {
+            "Age": "Cefotaxime, 50 milligrams/kg every 6–8 h"
+          },
+          {
+            "Age": "or"
+          },
+          {
+            "Age": "Ceftriaxone, 50 milligrams/kg every 12 h"
+          },
+          {
+            "Age": "Gram-negativebacilli",
+            "Suspected Organism": "Cefotaxime, 50 milligrams/kg every 8 h"
+          },
+          {
+            "Age": "Neisseria gonorrhoeae",
+            "Suspected Organism": "Cefotaxime, 50 milligrams/kg every 8 h"
+          },
+          {
+            "Age": "Unknown",
+            "Suspected Organism": "Vancomycinorclindamycinandcefotaximeorceftriaxone(dosing as above)"
+          },
+          {
+            "Age": "Infant (2–36 mo)",
+            "Suspected Organism": "S. aureus",
+            "Antibiotics": "Vancomycinor clindamycin (dosing as above)"
+          },
+          {
+            "Age": "Streptococcusspecies",
+            "Suspected Organism": "Clindamycin/cefotaxime/ceftriaxone(dosing as above)"
+          },
+          {
+            "Age": "Gram-Negativebacilli",
+            "Suspected Organism": "Cefotaxime orceftriaxone(dosing as above)"
+          },
+          {
+            "Age": "Haemophilus influenzae",
+            "Suspected Organism": "Cefotaximeorceftriaxone(dosing as above)"
+          },
+          {
+            "Age": "Unknown",
+            "Suspected Organism": "Vancomycinorclindamycinandcefotaximeorceftriaxone"
+          },
+          {
+            "Age": "Child (>36 mo)",
+            "Suspected Organism": "S. aureus",
+            "Antibiotics": "Vancomycinorclindamycin"
+          },
+          {
+            "Age": "Streptococcusspecies",
+            "Suspected Organism": "Clindamycin/cefotaxime/ceftriaxone"
+          },
+          {
+            "Age": "Gram-negativebacilli",
+            "Suspected Organism": "Cefotaximeorceftriaxone"
+          },
+          {
+            "Age": "N. gonorrhoeae",
+            "Suspected Organism": "Cefotaximeorceftriaxone"
+          },
+          {
+            "Age": "Unknown",
+            "Suspected Organism": "Vancomycinorclindamycinandcefotaximeorceftriaxone"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Septic Arthritis (General)\nArthrocentesis\nSeptic arthritis of the hip (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic Arthritis (General)",
+          "url": "https://wikem.org/wiki/Septic_Arthritis_(General)"
+        },
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        }
+      ]
+    }
+  }
+}

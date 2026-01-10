@@ -1,0 +1,250 @@
+{
+  "drug_name": "Serum_sickness",
+  "url": "https://wikem.org/wiki/Serum_sickness",
+  "scraped_at": "2026-01-10T08:02:03.035487",
+  "sections": {
+    "Background": {
+      "text": "A type III\nhypersensitivity reaction\n(secondary to injection of anitoxins e.g.\ntetanus\n,\nrabies\n)\nReactions secondary to the administration of nonprotein drugs (e.g.\nAmoxicillin\n,\ncefaclor\n,\ncephalexin\n(Keflex),\ntrimethoprim-sulfamethoxazole\n)\nPrimary occurs 6-21 days after initial exposure\n1-4 days after subsequent exposures to the same antigen\nSymptoms usually last 1-2 weeks before spontaneously subsiding\nLong-lasting sequelae generally do not occur\nFatalities are rare and usually are due to continued administration of the antigen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "cefaclor",
+          "url": "https://wikem.org/wiki/Cefaclor"
+        },
+        {
+          "text": "cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nArthralgia\nLymphadenopathy\nSkin eruption (rash)\nUrticaria\nScarlatiniform\nrash\nMaculopapular or purpuric lesions\nErythema multiforme",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Erythema multiforme\nMononucleosis\nPolymyositis\nSystemic Lupus Erythematosus\nTick borne illnesses\n,\nRocky Mountain Spotted Fever\nToxic Epidermal Necrolysis",
+      "subsections": {
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Systemic Lupus Erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Toxic Epidermal Necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_Epidermal_Necrolysis"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis in which labs may be suggestive but not required\n[1]\nCareful investigation of new medications\nList\nof serum sickness medications\nMild\nleukopenia\nor\nleukocytosis\nESR elevation\nMild\nproteinuria\nMild\nhematuria\nMild serum creatinine elevation\nDecreased C3, C4\nOther labs to obtain:\nCH50\nLFTs\nUrine electrolytes (Na, K, Cr, eosinophils)\nESR and CRP\nViral hepatitis\npanel, HIV, RPR/VDRL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Discontinue antigen\nAntipyretics\nDiphenhydramine\nPrednisone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for:\nSignificant comorbidities (advanced or very young age, immunocompromised)\nSevere symptoms\nHemodynamic instability/hypotension\nUnclear diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Cincinnati PEM Blog Briefs: Serum Sickness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

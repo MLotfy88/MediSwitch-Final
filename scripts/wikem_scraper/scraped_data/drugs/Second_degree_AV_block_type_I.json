@@ -1,0 +1,175 @@
+{
+  "drug_name": "Second_degree_AV_block_type_I",
+  "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I",
+  "scraped_at": "2026-01-10T08:01:56.999759",
+  "sections": {
+    "Background": {
+      "text": "Also known as a Mobitz I or Wenkebach AV block\nDisturbance of atrial impulse conducting through the AV node\nConsidered more benign than Mobitz II as it is not associated with histological changes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually asymptomatic\nThose who are symptomatic may present with:\nLightheadedness/dizziness\nPresyncope or\nsyncope",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lightheadedness/dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "ECG\nwith:\nProgressive prolongation of PR interval on consecutive beats\nDropped QRS beat not conducted to ventricle after maximal PR prolongation\nAfter dropped QRS complex, PR interval resets and again begins the cycle of progressive prolongation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG",
+      "subsections": {
+        "Diagnosis": {
+          "text": "ECG\nwith:\nProgressive prolongation of PR interval on consecutive beats\nDropped QRS beat not conducted to ventricle after maximal PR prolongation\nAfter dropped QRS complex, PR interval resets and again begins the cycle of progressive prolongation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "ECG\nwith:\nProgressive prolongation of PR interval on consecutive beats\nDropped QRS beat not conducted to ventricle after maximal PR prolongation\nAfter dropped QRS complex, PR interval resets and again begins the cycle of progressive prolongation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Generally benign condition that does not require management after ruling out\nMI\n,\ndrug toxicity\n,\nelectrolyte imbalance\nand other unusual causes\nSymptomatic patients can be treated with\natropine\nor\nisoproterenol\nto transiently improve conduction or with transcutaneous or transvenous pacing if there is associated hypotension\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "electrolyte imbalance",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalance"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally outpatient\n2:1 block\n[2]\nMay be unable to determine if Type I or Type II\nIf so, assume\ntype II\nand admit with cardiology consult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "AV blocks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        }
+      ]
+    }
+  }
+}

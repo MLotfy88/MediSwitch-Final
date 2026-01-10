@@ -1,0 +1,464 @@
+{
+  "drug_name": "Sedation_(main)",
+  "url": "https://wikem.org/wiki/Sedation_(main)",
+  "scraped_at": "2026-01-10T08:01:58.707751",
+  "sections": {
+    "Specific_Types_of_Sedation_and_Sedation_Protocols": {
+      "text": "Trauma sedation\nCombative patient\nProcedural sedation\nProcedural sedation (peds)\nIntranasal sedation\nICU sedation",
+      "subsections": {
+        "Sedative_agents": {
+          "text": "Ketamine\nPropofol\nBenzodiazepines\nDexmedetomidine\nEtomidate\nNitrous oxide",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma sedation",
+          "url": "https://wikem.org/wiki/Trauma_sedation"
+        },
+        {
+          "text": "Combative patient",
+          "url": "https://wikem.org/wiki/Combative_patient"
+        },
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Procedural sedation (peds)",
+          "url": "https://wikem.org/wiki/Procedural_sedation_(peds)"
+        },
+        {
+          "text": "Intranasal sedation",
+          "url": "https://wikem.org/wiki/Intranasal_sedation"
+        },
+        {
+          "text": "ICU sedation",
+          "url": "https://wikem.org/wiki/ICU_sedation"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        }
+      ]
+    },
+    "Sedative_agents": {
+      "text": "Ketamine\nPropofol\nBenzodiazepines\nDexmedetomidine\nEtomidate\nNitrous oxide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        }
+      ]
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Sedation_levels": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Level": "Minimal Sedation",
+                "Definition": "Standard pain medications",
+                "Comments": ""
+              },
+              {
+                "Level": "Moderate Sedation",
+                "Definition": "Awake and able to respond to questions",
+                "Comments": "use in:LP,I+D"
+              },
+              {
+                "Level": "Dissociative Sedation",
+                "Definition": "Trance-like state, airway reflexes preserved",
+                "Comments": ""
+              },
+              {
+                "Level": "Deep Sedation",
+                "Definition": "React purposefully to painful stimuli",
+                "Comments": "use in: Reduction"
+              },
+              {
+                "Level": "General Anesthesia",
+                "Definition": "Unarousable, requiresintubation/advanced airway",
+                "Comments": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sedation_levels": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Level": "Minimal Sedation",
+            "Definition": "Standard pain medications",
+            "Comments": ""
+          },
+          {
+            "Level": "Moderate Sedation",
+            "Definition": "Awake and able to respond to questions",
+            "Comments": "use in:LP,I+D"
+          },
+          {
+            "Level": "Dissociative Sedation",
+            "Definition": "Trance-like state, airway reflexes preserved",
+            "Comments": ""
+          },
+          {
+            "Level": "Deep Sedation",
+            "Definition": "React purposefully to painful stimuli",
+            "Comments": "use in: Reduction"
+          },
+          {
+            "Level": "General Anesthesia",
+            "Definition": "Unarousable, requiresintubation/advanced airway",
+            "Comments": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Sedative_agents_2": {
+      "text": "The ideal agent is short-acting with minimal respiratory or hemodynamic depression\nKetamine\noffers the greatest safety profile overall but caution in the elderly or patients with known cardiovascular disease due to sympathetic surge\nPropofol\nis often used for orthopedic procedures due to muscle relaxation, but can cause respiratory depression and hypotension\nEtomidate\nused less frequently than other agents; causes myoclonus that is undesirable for orthopedic reduction",
+      "subsections": {
+        "Ketamine": {
+          "text": "Noncompetitive NMDA receptor antagonist that produced dissociative state\nSedation, analgesia, and amnesia\nSafe to use in children undergoing procedural sedation and analgesia (Level A recommendation)\n[1]\nMaintains upper airway tone, protective reflexes, and spontaneous breathing\nLittle evidence to advocate for prevention of emergence phenomenon, may pretreat with midazolam 0.05 mg/kg (2-4 mg for most adults)\n[2]\nVersed can be used subsequently if emergence reaction occurs\n1-2 mg/kg IV, followed by 0.5-1 mg/kg IV PRN\n4-5 mg/kg IM → repeat 2-4 mg/kg IM after 10 min if first dose unsuccessful\nDuration 10 to 20 minutes",
+          "tables": []
+        },
+        "Propofol": {
+          "text": "Potentiates GABA receptors, sedative hypnotic agent without analgesic properties\nRapid onset <1 min, short duration <10 min, predictable dose dependent potency\n0.5-1mg/kg IV over 3-5 mins, repeat 0.5 mg/kg q3-5 min PRN\nCan cause dose-related respiratory depression, hypotension, and decreased cardiac output, however, rarely leads to unplanned intubation, prolonged observation, or complications requiring admission\n[3]\nCan cause sympathomimetic effects, such as tachycardia, hypertension, and increased cardiac output, and caution should be used in patients with known or suspected coronary artery disease",
+          "tables": []
+        },
+        "Fentanyl/Midazolam": {
+          "text": "Dose fentanyl first: 0.5-1mcg/kg\nFollow with 1-2 mg of\nmidazolam\nDesigned for moderate sedation\nToo deep when painful stimulus stops the patient may become apneic\nCombination of other\nopioids\nwith\nbenzodiazepines\nsuch as\nlorazepam\nis possible\nDuration 30min",
+          "tables": []
+        },
+        "Fentanyl/Etomidate": {
+          "text": "Similar to fentnayl/midazolam, but better because shorter duration of action\nAn alternative to propofol for brief sedation\nE.g. shoulder/hip reduction, cardioversion\nCan cause myoclonus\n[4]\nand occaisonly adrenal supression.\nDose fentanyl first: 0.5-1mcg/kg\nEtomidate 0.15mg/kg (8-10mg avg)\nDuration: 6min",
+          "tables": []
+        },
+        "Brevital_(Methohexital)/Fentanyl": {
+          "text": "Suppresses the reticular activating center in the brainstem and cerebral cortex, thereby causing sedation\nSedation and amnesia, no analgesia\nDose fentanyl first: 0.5-1mcg/kg\nInitial dose 0.75 to 1mg/kg IV\nRepeat doses of 0.5mg/kg IV can be given every two minutes.\nImmediate onset, duration <10 minutes",
+          "tables": []
+        },
+        "Propofol/Ketamine_(Ketofol)": {
+          "text": "1:1 mixture of ketamine and propofol\n[5]\nSafe in children and adults undergoing procedural sedation and anesthesia (Level B Reccomendation)\n[1]\nTheorized that side-effect profiles counter one another\nPropofol-associated hypotension and respiratory depression can theoretically be reduced with increases in circulatory norepinephrine induced by ketamine\nKetamine associated nausea and emergence reactions are theoretically reduced by the antiemetic and anxiolytic properties of propofol\nA study of pediatric patients found the total patient sedation times to be shorter (3 minutes) with the combined ketamine and propofol regimen compared with ketamine alone\n[6]\nDose: 0.5mg/kg propofol with 0.5mg/kg ketamine (may be mixed in same syringe or given separately)",
+          "tables": []
+        },
+        "Dexmedetomidine": {
+          "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+          "tables": []
+        },
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Ketamine": {
+      "text": "Noncompetitive NMDA receptor antagonist that produced dissociative state\nSedation, analgesia, and amnesia\nSafe to use in children undergoing procedural sedation and analgesia (Level A recommendation)\n[1]\nMaintains upper airway tone, protective reflexes, and spontaneous breathing\nLittle evidence to advocate for prevention of emergence phenomenon, may pretreat with midazolam 0.05 mg/kg (2-4 mg for most adults)\n[2]\nVersed can be used subsequently if emergence reaction occurs\n1-2 mg/kg IV, followed by 0.5-1 mg/kg IV PRN\n4-5 mg/kg IM → repeat 2-4 mg/kg IM after 10 min if first dose unsuccessful\nDuration 10 to 20 minutes",
+      "subsections": {
+        "Propofol": {
+          "text": "Potentiates GABA receptors, sedative hypnotic agent without analgesic properties\nRapid onset <1 min, short duration <10 min, predictable dose dependent potency\n0.5-1mg/kg IV over 3-5 mins, repeat 0.5 mg/kg q3-5 min PRN\nCan cause dose-related respiratory depression, hypotension, and decreased cardiac output, however, rarely leads to unplanned intubation, prolonged observation, or complications requiring admission\n[3]\nCan cause sympathomimetic effects, such as tachycardia, hypertension, and increased cardiac output, and caution should be used in patients with known or suspected coronary artery disease",
+          "tables": []
+        },
+        "Fentanyl/Midazolam": {
+          "text": "Dose fentanyl first: 0.5-1mcg/kg\nFollow with 1-2 mg of\nmidazolam\nDesigned for moderate sedation\nToo deep when painful stimulus stops the patient may become apneic\nCombination of other\nopioids\nwith\nbenzodiazepines\nsuch as\nlorazepam\nis possible\nDuration 30min",
+          "tables": []
+        },
+        "Fentanyl/Etomidate": {
+          "text": "Similar to fentnayl/midazolam, but better because shorter duration of action\nAn alternative to propofol for brief sedation\nE.g. shoulder/hip reduction, cardioversion\nCan cause myoclonus\n[4]\nand occaisonly adrenal supression.\nDose fentanyl first: 0.5-1mcg/kg\nEtomidate 0.15mg/kg (8-10mg avg)\nDuration: 6min",
+          "tables": []
+        },
+        "Brevital_(Methohexital)/Fentanyl": {
+          "text": "Suppresses the reticular activating center in the brainstem and cerebral cortex, thereby causing sedation\nSedation and amnesia, no analgesia\nDose fentanyl first: 0.5-1mcg/kg\nInitial dose 0.75 to 1mg/kg IV\nRepeat doses of 0.5mg/kg IV can be given every two minutes.\nImmediate onset, duration <10 minutes",
+          "tables": []
+        },
+        "Propofol/Ketamine_(Ketofol)": {
+          "text": "1:1 mixture of ketamine and propofol\n[5]\nSafe in children and adults undergoing procedural sedation and anesthesia (Level B Reccomendation)\n[1]\nTheorized that side-effect profiles counter one another\nPropofol-associated hypotension and respiratory depression can theoretically be reduced with increases in circulatory norepinephrine induced by ketamine\nKetamine associated nausea and emergence reactions are theoretically reduced by the antiemetic and anxiolytic properties of propofol\nA study of pediatric patients found the total patient sedation times to be shorter (3 minutes) with the combined ketamine and propofol regimen compared with ketamine alone\n[6]\nDose: 0.5mg/kg propofol with 0.5mg/kg ketamine (may be mixed in same syringe or given separately)",
+          "tables": []
+        },
+        "Dexmedetomidine": {
+          "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+          "tables": []
+        },
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Propofol": {
+      "text": "Potentiates GABA receptors, sedative hypnotic agent without analgesic properties\nRapid onset <1 min, short duration <10 min, predictable dose dependent potency\n0.5-1mg/kg IV over 3-5 mins, repeat 0.5 mg/kg q3-5 min PRN\nCan cause dose-related respiratory depression, hypotension, and decreased cardiac output, however, rarely leads to unplanned intubation, prolonged observation, or complications requiring admission\n[3]\nCan cause sympathomimetic effects, such as tachycardia, hypertension, and increased cardiac output, and caution should be used in patients with known or suspected coronary artery disease",
+      "subsections": {
+        "Fentanyl/Midazolam": {
+          "text": "Dose fentanyl first: 0.5-1mcg/kg\nFollow with 1-2 mg of\nmidazolam\nDesigned for moderate sedation\nToo deep when painful stimulus stops the patient may become apneic\nCombination of other\nopioids\nwith\nbenzodiazepines\nsuch as\nlorazepam\nis possible\nDuration 30min",
+          "tables": []
+        },
+        "Fentanyl/Etomidate": {
+          "text": "Similar to fentnayl/midazolam, but better because shorter duration of action\nAn alternative to propofol for brief sedation\nE.g. shoulder/hip reduction, cardioversion\nCan cause myoclonus\n[4]\nand occaisonly adrenal supression.\nDose fentanyl first: 0.5-1mcg/kg\nEtomidate 0.15mg/kg (8-10mg avg)\nDuration: 6min",
+          "tables": []
+        },
+        "Brevital_(Methohexital)/Fentanyl": {
+          "text": "Suppresses the reticular activating center in the brainstem and cerebral cortex, thereby causing sedation\nSedation and amnesia, no analgesia\nDose fentanyl first: 0.5-1mcg/kg\nInitial dose 0.75 to 1mg/kg IV\nRepeat doses of 0.5mg/kg IV can be given every two minutes.\nImmediate onset, duration <10 minutes",
+          "tables": []
+        },
+        "Propofol/Ketamine_(Ketofol)": {
+          "text": "1:1 mixture of ketamine and propofol\n[5]\nSafe in children and adults undergoing procedural sedation and anesthesia (Level B Reccomendation)\n[1]\nTheorized that side-effect profiles counter one another\nPropofol-associated hypotension and respiratory depression can theoretically be reduced with increases in circulatory norepinephrine induced by ketamine\nKetamine associated nausea and emergence reactions are theoretically reduced by the antiemetic and anxiolytic properties of propofol\nA study of pediatric patients found the total patient sedation times to be shorter (3 minutes) with the combined ketamine and propofol regimen compared with ketamine alone\n[6]\nDose: 0.5mg/kg propofol with 0.5mg/kg ketamine (may be mixed in same syringe or given separately)",
+          "tables": []
+        },
+        "Dexmedetomidine": {
+          "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+          "tables": []
+        },
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Fentanyl/Midazolam": {
+      "text": "Dose fentanyl first: 0.5-1mcg/kg\nFollow with 1-2 mg of\nmidazolam\nDesigned for moderate sedation\nToo deep when painful stimulus stops the patient may become apneic\nCombination of other\nopioids\nwith\nbenzodiazepines\nsuch as\nlorazepam\nis possible\nDuration 30min",
+      "subsections": {
+        "Fentanyl/Etomidate": {
+          "text": "Similar to fentnayl/midazolam, but better because shorter duration of action\nAn alternative to propofol for brief sedation\nE.g. shoulder/hip reduction, cardioversion\nCan cause myoclonus\n[4]\nand occaisonly adrenal supression.\nDose fentanyl first: 0.5-1mcg/kg\nEtomidate 0.15mg/kg (8-10mg avg)\nDuration: 6min",
+          "tables": []
+        },
+        "Brevital_(Methohexital)/Fentanyl": {
+          "text": "Suppresses the reticular activating center in the brainstem and cerebral cortex, thereby causing sedation\nSedation and amnesia, no analgesia\nDose fentanyl first: 0.5-1mcg/kg\nInitial dose 0.75 to 1mg/kg IV\nRepeat doses of 0.5mg/kg IV can be given every two minutes.\nImmediate onset, duration <10 minutes",
+          "tables": []
+        },
+        "Propofol/Ketamine_(Ketofol)": {
+          "text": "1:1 mixture of ketamine and propofol\n[5]\nSafe in children and adults undergoing procedural sedation and anesthesia (Level B Reccomendation)\n[1]\nTheorized that side-effect profiles counter one another\nPropofol-associated hypotension and respiratory depression can theoretically be reduced with increases in circulatory norepinephrine induced by ketamine\nKetamine associated nausea and emergence reactions are theoretically reduced by the antiemetic and anxiolytic properties of propofol\nA study of pediatric patients found the total patient sedation times to be shorter (3 minutes) with the combined ketamine and propofol regimen compared with ketamine alone\n[6]\nDose: 0.5mg/kg propofol with 0.5mg/kg ketamine (may be mixed in same syringe or given separately)",
+          "tables": []
+        },
+        "Dexmedetomidine": {
+          "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+          "tables": []
+        },
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Fentanyl/Etomidate": {
+      "text": "Similar to fentnayl/midazolam, but better because shorter duration of action\nAn alternative to propofol for brief sedation\nE.g. shoulder/hip reduction, cardioversion\nCan cause myoclonus\n[4]\nand occaisonly adrenal supression.\nDose fentanyl first: 0.5-1mcg/kg\nEtomidate 0.15mg/kg (8-10mg avg)\nDuration: 6min",
+      "subsections": {
+        "Brevital_(Methohexital)/Fentanyl": {
+          "text": "Suppresses the reticular activating center in the brainstem and cerebral cortex, thereby causing sedation\nSedation and amnesia, no analgesia\nDose fentanyl first: 0.5-1mcg/kg\nInitial dose 0.75 to 1mg/kg IV\nRepeat doses of 0.5mg/kg IV can be given every two minutes.\nImmediate onset, duration <10 minutes",
+          "tables": []
+        },
+        "Propofol/Ketamine_(Ketofol)": {
+          "text": "1:1 mixture of ketamine and propofol\n[5]\nSafe in children and adults undergoing procedural sedation and anesthesia (Level B Reccomendation)\n[1]\nTheorized that side-effect profiles counter one another\nPropofol-associated hypotension and respiratory depression can theoretically be reduced with increases in circulatory norepinephrine induced by ketamine\nKetamine associated nausea and emergence reactions are theoretically reduced by the antiemetic and anxiolytic properties of propofol\nA study of pediatric patients found the total patient sedation times to be shorter (3 minutes) with the combined ketamine and propofol regimen compared with ketamine alone\n[6]\nDose: 0.5mg/kg propofol with 0.5mg/kg ketamine (may be mixed in same syringe or given separately)",
+          "tables": []
+        },
+        "Dexmedetomidine": {
+          "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+          "tables": []
+        },
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Dexmedetomidine": {
+      "text": "1 mcg/kg loading dose followed by 0.2-1 mcg/kg/hr maintenance dose\nSide effects include bradycardia and hypotension.\nAvoid in patients with heart blocks\nMay need to supplement with 1-2 mg of\nmidazolam",
+      "subsections": {
+        "Etomidate": {
+          "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Etomidate": {
+      "text": "0.1mg/kg one time dosing\nMax: 10mg\nMinimal respiratory depression but decrease blood pressure and heart rate (alpha2 agonism)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bag valve mask ventilation\nIntubation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    }
+  }
+}

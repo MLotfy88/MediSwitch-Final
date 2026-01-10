@@ -1,0 +1,677 @@
+{
+  "drug_name": "Selenium_toxicity",
+  "url": "https://wikem.org/wiki/Selenium_toxicity",
+  "scraped_at": "2026-01-10T08:01:57.812622",
+  "sections": {
+    "Background": {
+      "text": "Essential trace element\nDeficiency found to be the cause of Keshan disease and Kashin-beck disease\nRecommended daily dose is 5 μg/d",
+      "subsections": {
+        "Uses": {
+          "text": "Gun bluing solution\nDietary supplement\nAntidandruff shampoo\nGlass decolorizer and manufacturing\nInsecticide\nVulcanization of rubber\nUsed in copper refineries",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "Cofactor in glutathione peroxidase\nVaried GI absorption\nMinimal dermal absorption\nBioavailability (Lowest - Highest)\nElemental selenium\nInorganic selenite and selenate salt\nSelenious acid\nLimited data on toxicokinetics as it varies amongst compounds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uses": {
+      "text": "Gun bluing solution\nDietary supplement\nAntidandruff shampoo\nGlass decolorizer and manufacturing\nInsecticide\nVulcanization of rubber\nUsed in copper refineries",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Cofactor in glutathione peroxidase\nVaried GI absorption\nMinimal dermal absorption\nBioavailability (Lowest - Highest)\nElemental selenium\nInorganic selenite and selenate salt\nSelenious acid\nLimited data on toxicokinetics as it varies amongst compounds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxicokinetics": {
+      "text": "Cofactor in glutathione peroxidase\nVaried GI absorption\nMinimal dermal absorption\nBioavailability (Lowest - Highest)\nElemental selenium\nInorganic selenite and selenate salt\nSelenious acid\nLimited data on toxicokinetics as it varies amongst compounds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Oral exposure\nTriphasic course\nRapid and fulminant\nSymptoms can occur within minutes and death can occur with 1-4 hours\nGI\nAbdominal pain\nDiarrhea\nNausea and vomiting\nCaustic esophageal and gastric burns\nSome patients have a garlic odor\nMyopathic\nWeakness\nHyporeflexia\nMyoclonus\nFasciculations\nElevated CPK\nRenal insufficiency\nDelirium\nand\ncoma\nCirculatory symptoms\nDyspnea\nChest pain\nTachycardia\nHypotension\nToxic\ncardiomyopathy\nEKG\nabnormalities\nST elevation\nProlonged QT\nT wave inversions\nPulmonary edema\nVentricular dysrhythmias\nMyocardial infarction\nMesenteric infarction\nMetabolic acidosis\nInhalation\nHydrogen selenide\nThroat\nand\neye pain\nRhinorrhea\nWheezing\nPneumomediastinum\nRestrictive and obstructive pulmonary disease\nSelenium dioxide and selenium oxide\nForms selenius acid in presence of water in respiratory tract\nBronchospasm\nHypotension\nTachycardia\nTachypnea\nChemical\npneumonitis\nFevers\nVomiting\nand\ndiarrhea\nDermal\nCaustic burns\nOphthalmic\nCorneal injuries\nLacrimation\nConjunctival edema",
+          "tables": []
+        },
+        "Chronic_or_Selenosis": {
+          "text": "No deaths from chronic exposures\nSeen in those taking nutritional supplements and in rural areas with farmland that has high selenium levels\nAlopecia\nwith brittle hair\nFatigue\nNail deformities\nPruritic\nscalp\nrash\nBlistered skin with persistent red color\nNeurologic\nHyperreflexia\nParesthesia\nAnesthesia\nHemiplegia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "T wave inversions",
+          "url": "https://wikem.org/wiki/T_wave_inversions"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Mesenteric infarction",
+          "url": "https://wikem.org/wiki/Mesenteric_infarction"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Fevers",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Corneal injuries",
+          "url": "https://wikem.org/wiki/Caustic_eye_exposure"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Oral exposure\nTriphasic course\nRapid and fulminant\nSymptoms can occur within minutes and death can occur with 1-4 hours\nGI\nAbdominal pain\nDiarrhea\nNausea and vomiting\nCaustic esophageal and gastric burns\nSome patients have a garlic odor\nMyopathic\nWeakness\nHyporeflexia\nMyoclonus\nFasciculations\nElevated CPK\nRenal insufficiency\nDelirium\nand\ncoma\nCirculatory symptoms\nDyspnea\nChest pain\nTachycardia\nHypotension\nToxic\ncardiomyopathy\nEKG\nabnormalities\nST elevation\nProlonged QT\nT wave inversions\nPulmonary edema\nVentricular dysrhythmias\nMyocardial infarction\nMesenteric infarction\nMetabolic acidosis\nInhalation\nHydrogen selenide\nThroat\nand\neye pain\nRhinorrhea\nWheezing\nPneumomediastinum\nRestrictive and obstructive pulmonary disease\nSelenium dioxide and selenium oxide\nForms selenius acid in presence of water in respiratory tract\nBronchospasm\nHypotension\nTachycardia\nTachypnea\nChemical\npneumonitis\nFevers\nVomiting\nand\ndiarrhea\nDermal\nCaustic burns\nOphthalmic\nCorneal injuries\nLacrimation\nConjunctival edema",
+      "subsections": {
+        "Chronic_or_Selenosis": {
+          "text": "No deaths from chronic exposures\nSeen in those taking nutritional supplements and in rural areas with farmland that has high selenium levels\nAlopecia\nwith brittle hair\nFatigue\nNail deformities\nPruritic\nscalp\nrash\nBlistered skin with persistent red color\nNeurologic\nHyperreflexia\nParesthesia\nAnesthesia\nHemiplegia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "T wave inversions",
+          "url": "https://wikem.org/wiki/T_wave_inversions"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Mesenteric infarction",
+          "url": "https://wikem.org/wiki/Mesenteric_infarction"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Fevers",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Corneal injuries",
+          "url": "https://wikem.org/wiki/Caustic_eye_exposure"
+        },
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Chronic_or_Selenosis": {
+      "text": "No deaths from chronic exposures\nSeen in those taking nutritional supplements and in rural areas with farmland that has high selenium levels\nAlopecia\nwith brittle hair\nFatigue\nNail deformities\nPruritic\nscalp\nrash\nBlistered skin with persistent red color\nNeurologic\nHyperreflexia\nParesthesia\nAnesthesia\nHemiplegia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alopecia",
+          "url": "https://wikem.org/wiki/Alopecia"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Hemiplegia",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "BMP\nLFTs\nCBC\nCPK\nEKG\nThyroid function tests\nWhole blood = 0.1–0.34 mg/L (1.27–4.32 μmol/L)\nSerum = 0.04–0.6 mg/L (0.51–7.6 μmol/L)\nUrine < 0.03 mg/L (<0.38 μmol/L)\nHair < 0.4 μg/g (0.01 μmol/L)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "Decontamination\nIrrigation for dermal exposures\nConsider activated charcoal or oral gastric lavage in cases that could produce significant toxicity\nSelenious acid\nJudicious use of NG lavage (as will cause caustic burns) based on time of ingestion, amount and concentration due to potential for serious systemic poisoning\nConsult Toxicology or\npoison control\nSupportive care\nMainstay of treatment\nAcute toxicities usually require multi system support\nPain management\n10% sodium thiosulfate solution/ointment to skin, nail, and eyes\nRelief of pain by reduction of selenium dioxide to elemental selenium\nSelenium hexafluoride gas exposures\nCalcium gluconate gel\nSame treatment as hydrofluoric acid exposures\nChelation\nDimercaprol\n, CaNa\n2\nEDTA\n, or\nSuccimer\nmay form nephrotoxic complexes and worsen toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        },
+        {
+          "text": "Pain management",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        }
+      ]
+    },
+    "Disposition_2": {
+      "text": "Acute toxicities will likely require ICU level of care\nChronic exposures are likely safe for discharge and outpatient follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Calellor, D. Selenium. In: Goldfrank's Toxicologic Emergencies. 9th Ed. New York: McGraw-Hill; 2011: 1316-1320",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,1335 @@
+{
+  "drug_name": "Sepsis_(main)",
+  "url": "https://wikem.org/wiki/Sepsis_(main)",
+  "scraped_at": "2026-01-10T08:02:00.041347",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nSepsis (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection\n[1]\nThe infection is most commonly by\nbacteria\n, but can also be by\nfungi\n,\nviruses\n, or\nparasites\n[2]\nRisk of death from sepsis being as high as 30%, severe sepsis as high as 50%, and septic shock as high as 80%\n[3]\nThe most common primary sources of infection resulting in sepsis are the\nlungs\n, the abdomen, and the\nurinary tract\n[4]\nSepsis carries a 40% in hospital mortality\n[1]\nPositive cultures are not obligatory in the diagnosis of sepsis\nPneumonia\n, abdominal abscess and\npyelonephritis\nare common primary causes of sepsis",
+      "subsections": {
+        "Definition_Changes": {
+          "text": "In 2016 new definitions were adopted for the evaluation and diagnosis of Sepsis, Severe Sepsis and Septic shock\n[5]",
+          "tables": [
+            [
+              {
+                "": "Sepsis",
+                "Old definition": "2SIRS+ suspected infection",
+                "New 2016 definition": "Life threatening organ dysfunction caused by dysregulated host response to infection. Suspected/documented infection + 2 on theqSOFA:Hypotensionwith SBP <100 oraltered mental status  orTachypnea (RR >/=22)ORIncrease inSOFAscore by 2 points"
+              },
+              {
+                "": "Severe sepsis",
+                "Old definition": "*Sepsis +SBP< 90 orMAP <65 lactate >2 orINR >1.5 orBili>2 orUrine output <0.5ml/kg/hCreatinine>2.2 orPlatelets <100 orSpO@<90%",
+                "New 2016 definition": "No longer a category"
+              },
+              {
+                "": "Septic shock",
+                "Old definition": "Sepsis + hypotension after adequate fluid resuscitation",
+                "New 2016 definition": "Sepsis + vasopressors needed to maintain MAP>65 + lactate >2"
+              }
+            ]
+          ]
+        },
+        "qSOFA_Score": {
+          "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score\nRespiratory rate of 22/min or greater (\n+1 Point\n)\nAltered mentation (\n+1 Point\n)\nSystolic blood pressure of 100 mm Hg or less (\n+1 Point\n)",
+          "tables": []
+        },
+        "SOFA_Score": {
+          "text": "The\nSOFA\nis generally used in the ICU and can stratify the mortality of patients based on the initial score and subsequent changes in score",
+          "tables": []
+        },
+        "MEDS_score": {
+          "text": "The Mortality in Emergency Department Sepsis (MEDS) prediction rule is a proposed method to risk stratify ED patients with sepsis",
+          "tables": []
+        },
+        "NEWS_2_Score": {
+          "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+          "tables": []
+        },
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bacteria",
+          "url": "https://wikem.org/wiki/Bacteria"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "viruses",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        },
+        {
+          "text": "lungs",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "urinary tract",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "SOFA",
+          "url": "https://wikem.org/wiki/SOFA"
+        }
+      ]
+    },
+    "Definition_Changes": {
+      "text": "In 2016 new definitions were adopted for the evaluation and diagnosis of Sepsis, Severe Sepsis and Septic shock\n[5]",
+      "subsections": {
+        "qSOFA_Score": {
+          "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score\nRespiratory rate of 22/min or greater (\n+1 Point\n)\nAltered mentation (\n+1 Point\n)\nSystolic blood pressure of 100 mm Hg or less (\n+1 Point\n)",
+          "tables": []
+        },
+        "SOFA_Score": {
+          "text": "The\nSOFA\nis generally used in the ICU and can stratify the mortality of patients based on the initial score and subsequent changes in score",
+          "tables": []
+        },
+        "MEDS_score": {
+          "text": "The Mortality in Emergency Department Sepsis (MEDS) prediction rule is a proposed method to risk stratify ED patients with sepsis",
+          "tables": []
+        },
+        "NEWS_2_Score": {
+          "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+          "tables": []
+        },
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Sepsis",
+            "Old definition": "2SIRS+ suspected infection",
+            "New 2016 definition": "Life threatening organ dysfunction caused by dysregulated host response to infection. Suspected/documented infection + 2 on theqSOFA:Hypotensionwith SBP <100 oraltered mental status  orTachypnea (RR >/=22)ORIncrease inSOFAscore by 2 points"
+          },
+          {
+            "": "Severe sepsis",
+            "Old definition": "*Sepsis +SBP< 90 orMAP <65 lactate >2 orINR >1.5 orBili>2 orUrine output <0.5ml/kg/hCreatinine>2.2 orPlatelets <100 orSpO@<90%",
+            "New 2016 definition": "No longer a category"
+          },
+          {
+            "": "Septic shock",
+            "Old definition": "Sepsis + hypotension after adequate fluid resuscitation",
+            "New 2016 definition": "Sepsis + vasopressors needed to maintain MAP>65 + lactate >2"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "SOFA",
+          "url": "https://wikem.org/wiki/SOFA"
+        }
+      ]
+    },
+    "qSOFA_Score": {
+      "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score\nRespiratory rate of 22/min or greater (\n+1 Point\n)\nAltered mentation (\n+1 Point\n)\nSystolic blood pressure of 100 mm Hg or less (\n+1 Point\n)",
+      "subsections": {
+        "SOFA_Score": {
+          "text": "The\nSOFA\nis generally used in the ICU and can stratify the mortality of patients based on the initial score and subsequent changes in score",
+          "tables": []
+        },
+        "MEDS_score": {
+          "text": "The Mortality in Emergency Department Sepsis (MEDS) prediction rule is a proposed method to risk stratify ED patients with sepsis",
+          "tables": []
+        },
+        "NEWS_2_Score": {
+          "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+          "tables": []
+        },
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SOFA",
+          "url": "https://wikem.org/wiki/SOFA"
+        }
+      ]
+    },
+    "SOFA_Score": {
+      "text": "The\nSOFA\nis generally used in the ICU and can stratify the mortality of patients based on the initial score and subsequent changes in score",
+      "subsections": {
+        "MEDS_score": {
+          "text": "The Mortality in Emergency Department Sepsis (MEDS) prediction rule is a proposed method to risk stratify ED patients with sepsis",
+          "tables": []
+        },
+        "NEWS_2_Score": {
+          "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+          "tables": []
+        },
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SOFA",
+          "url": "https://wikem.org/wiki/SOFA"
+        }
+      ]
+    },
+    "MEDS_score": {
+      "text": "The Mortality in Emergency Department Sepsis (MEDS) prediction rule is a proposed method to risk stratify ED patients with sepsis",
+      "subsections": {
+        "NEWS_2_Score": {
+          "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+          "tables": []
+        },
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "NEWS_2_Score": {
+      "text": "National Early Warning Score (NEWS) 2 determines degree of critically ill patient, in non-pregnant patients ≥16 years old\n[6]\nUsed by the UK NHS to identify acutely ill patients, including those with sepsis\nNot reliable in spinal cord injury patients due to disturbance of autonomic responses\nCombination of:\nRespiratory rate\nPresence of hypercapnic respiratory failure\nPresence of supplemental O2\nTemperature\nSBP\nPulse rate\nConsciouness\nSee below for MDCalc link",
+      "subsections": {
+        "Systemic_Inflammatory_Response_Syndrome_(SIRS)_Criteria": {
+          "text": "Still acceptable to use in ED depending on local protocol\nMisses up to 1/8 very septic ICU patients\n[7]\n≥2 of 4 criteria must be present:\nTemperature >38°C (100.4F) or <36°C (96.9F)\nHR >90 BPM\nRR >20 breaths/minute or PaCO2 <32 mmHg\nWBC count >12,000/mm3, <4,000/mm3, or >10% bands/immature forms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Sepsis": {
+          "text": "Life-threatening organ dysfunction caused by a dysregulated host response to infection. This only needs to include one of the following:\n[8]\nHypotension\nwith SBP <100 or\nAltered mental status\nor\nTachypnea\n(RR >/=22)\nOR\nIncrease in SOFA score by 2 points",
+          "tables": []
+        },
+        "Septic_shock": {
+          "text": "Patients with sepsis and any of the following:\n[1]\nVasopressor\nrequirement to maintain a mean arterial pressure > 65 mm Hg\nSerum\nlactate\nlevel greater than 2 mmol/L (>18mg/dL) in the absence of\nhypovolemia\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Vasopressor",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Sepsis": {
+      "text": "Life-threatening organ dysfunction caused by a dysregulated host response to infection. This only needs to include one of the following:\n[8]\nHypotension\nwith SBP <100 or\nAltered mental status\nor\nTachypnea\n(RR >/=22)\nOR\nIncrease in SOFA score by 2 points",
+      "subsections": {
+        "Septic_shock": {
+          "text": "Patients with sepsis and any of the following:\n[1]\nVasopressor\nrequirement to maintain a mean arterial pressure > 65 mm Hg\nSerum\nlactate\nlevel greater than 2 mmol/L (>18mg/dL) in the absence of\nhypovolemia\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Vasopressor",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Septic_shock": {
+      "text": "Patients with sepsis and any of the following:\n[1]\nVasopressor\nrequirement to maintain a mean arterial pressure > 65 mm Hg\nSerum\nlactate\nlevel greater than 2 mmol/L (>18mg/dL) in the absence of\nhypovolemia\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressor",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Adrenal Insufficiency\nSalicylate Toxicity\nAnticholinergic Toxicity\nNeuroleptic Malignant Syndrome\nMalignant Hyperthermia\nThyrotoxicosis",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        },
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_Insufficiency"
+        },
+        {
+          "text": "Salicylate Toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_Toxicity"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {
+        "Adrenal_crisis": {
+          "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Adrenal_crisis": {
+      "text": "Addison's disease\nCongenital adrenal hyperplasia\nShock\nSepsis\nPituitary apoplexy\nSheehan's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pituitary apoplexy",
+          "url": "https://wikem.org/wiki/Pituitary_apoplexy"
+        },
+        {
+          "text": "Sheehan's syndrome",
+          "url": "https://wikem.org/wiki/Sheehan%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nUrinalysis\n/Urine culture\nBlood culture\nCXR\nChem\nLFTs\nLipase\nVBG\nLactate\nCoags\nConsider:\nProcalcitonin\nDIC\npanel (fibrinogen,\nD-dimer\n, FDP)\nT&S\nCT head\nand/or [[LP]\nTSH (\nthyroid storm\n)\nCosyntropin stim vs. random cortisol (adrenal insufficiency)\nPelvic exam (\ntoxic shock syndrome\n, tampon)\nInfluenza\nrapid testing\nCT Abd/Pelvis (abscess, other)\nspine imaging (\nepidural abscess\n, other)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Procalcitonin",
+          "url": "https://wikem.org/wiki/Procalcitonin"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nUrinalysis\n/Urine culture\nBlood culture\nCXR\nChem\nLFTs\nLipase\nVBG\nLactate\nCoags\nConsider:\nProcalcitonin\nDIC\npanel (fibrinogen,\nD-dimer\n, FDP)\nT&S\nCT head\nand/or [[LP]\nTSH (\nthyroid storm\n)\nCosyntropin stim vs. random cortisol (adrenal insufficiency)\nPelvic exam (\ntoxic shock syndrome\n, tampon)\nInfluenza\nrapid testing\nCT Abd/Pelvis (abscess, other)\nspine imaging (\nepidural abscess\n, other)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Procalcitonin",
+          "url": "https://wikem.org/wiki/Procalcitonin"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        }
+      ]
+    },
+    "Time_Specific_Management": {
+      "text": "Time of presentation is defined as the time of triage in the emergency department",
+      "subsections": {
+        "3_hour_goals": {
+          "text": "Measure lactate level\nObtain\nblood cultures\nprior to administration of antibiotics\nAdminister broad spectrum\nantibiotics\nAdminister 30ml/kg crystalloid for hypotension or lactate ≥4mmol/L",
+          "tables": []
+        },
+        "6_hour_goals": {
+          "text": "Apply\nvasopressors\n(for hypotension that does not respond to initial fluid resuscitation) to maintain a mean arterial pressure (MAP) ≥65mmHg\nIf persistent hypotension after initial fluid administration (MAP < 65 mm Hg) or if initial lactate was ≥4 mmol/L, reassess volume status and tissue perfusion:\nOption 1: Focused Exam\nVital signs\nCardiopulmonary Exam\nCapillary Refill\nPeripheral Pulse\nSkin Exam\nOption 2: Two of the following\nMeasure CVP (\nIVC ultrasound\n) with following goals:\n>8 cmH2O, not intubated\n>12 cmH2O, intubated\nMeasure ScvO\nBedside\ncardiovascular ultrasound\nDynamic assessment of fluid responsiveness with passive leg raise or fluid challenge\nA central line and measurement of ScvO\n2\nis not required and does not impact mortality\n[10]\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "cardiovascular ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    },
+    "3_hour_goals": {
+      "text": "Measure lactate level\nObtain\nblood cultures\nprior to administration of antibiotics\nAdminister broad spectrum\nantibiotics\nAdminister 30ml/kg crystalloid for hypotension or lactate ≥4mmol/L",
+      "subsections": {
+        "6_hour_goals": {
+          "text": "Apply\nvasopressors\n(for hypotension that does not respond to initial fluid resuscitation) to maintain a mean arterial pressure (MAP) ≥65mmHg\nIf persistent hypotension after initial fluid administration (MAP < 65 mm Hg) or if initial lactate was ≥4 mmol/L, reassess volume status and tissue perfusion:\nOption 1: Focused Exam\nVital signs\nCardiopulmonary Exam\nCapillary Refill\nPeripheral Pulse\nSkin Exam\nOption 2: Two of the following\nMeasure CVP (\nIVC ultrasound\n) with following goals:\n>8 cmH2O, not intubated\n>12 cmH2O, intubated\nMeasure ScvO\nBedside\ncardiovascular ultrasound\nDynamic assessment of fluid responsiveness with passive leg raise or fluid challenge\nA central line and measurement of ScvO\n2\nis not required and does not impact mortality\n[10]\n[11]\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "cardiovascular ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    },
+    "6_hour_goals": {
+      "text": "Apply\nvasopressors\n(for hypotension that does not respond to initial fluid resuscitation) to maintain a mean arterial pressure (MAP) ≥65mmHg\nIf persistent hypotension after initial fluid administration (MAP < 65 mm Hg) or if initial lactate was ≥4 mmol/L, reassess volume status and tissue perfusion:\nOption 1: Focused Exam\nVital signs\nCardiopulmonary Exam\nCapillary Refill\nPeripheral Pulse\nSkin Exam\nOption 2: Two of the following\nMeasure CVP (\nIVC ultrasound\n) with following goals:\n>8 cmH2O, not intubated\n>12 cmH2O, intubated\nMeasure ScvO\nBedside\ncardiovascular ultrasound\nDynamic assessment of fluid responsiveness with passive leg raise or fluid challenge\nA central line and measurement of ScvO\n2\nis not required and does not impact mortality\n[10]\n[11]\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "cardiovascular ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    },
+    "Circulation_Managment": {
+      "text": "",
+      "subsections": {
+        "IVF": {
+          "text": "Guidelines recommend initial 30 cc/kg bolus (generally 2L in average adult)\nReassess patient's volume status after initial bolus. Auscultate for pulmonary edema.  Evaluate peripheral circulation.  Consider IVC ultrasound\nSeptic patients can be euvolemic but remain hypotensive due to vasodilation. Consider early vasopressors.\nIncreasing evidence that excessive fluid resuscitation can be harmful.\nPositive fluid balance on day 3 of hospital admission independently associated with increasing mortality\n[13]\nProtocolized fluid administration (e.g. traditional Early Goal Directed Therapy) has no mortality benefit over usual care.\n[14]\n[15]\nHigh volume (5+ L) resuscitation associated with increased mortality.\n[16]\nConsider assessing\ndiastolic dysfunction\nvia echo in\nCHF\npatients in whom IVC\nultrasound\nis not reliable",
+          "tables": []
+        },
+        "Pressors": {
+          "text": "Indicated if MAP<60 despite adequate IVF or if IVF are contraindicated\nBest if given when the vascular space is filled; ok if it is not\nOptions:\nNorepinephrine\n(5-20mcg/min) - 1st line\n[17]\nEpinephrine\n(1-20 mcg/min) - 2nd line\nVasopressin\n(0.03 units/minute fixed dose) can be added to norepinephrine (NE)\nas a 2nd line agent may reduce arrhythmia's compared to other pressors with catecholamine properties\n[18]\nDopamine\nshould be used hesitantly and only in highly selected patients (eg, patients with low risk of tachyarrhythmias and absolute or relative bradycardia)\nDo not use Low-dose\ndopamine\nfor renal protection\nDopamine may have increased mortality rates compared to other vasopressors, especially in the pediatric septic patient\n[19]\nPhenylephrine\nshould not be used for treating septic shock except if:\nNorepinephrine is associated with serious arrhythmias\nCardiac output is known to be high and blood pressure persistently low\nAs salvage therapy when combined inotrope/vasopressor drugs and low dose vasopressin have failed to achieve MAP target\nMilrinone\nMethylene blue\nconsideration for septic shock refractory to catecholaminergic pressors",
+          "tables": []
+        },
+        "Inotropes": {
+          "text": "Dobutamine\n(2-20mcg/kg/min) may be added if:\nMyocardial dysfunction as suggested by elevated cardiac filling pressures and low cardiac output\nOngoing signs of hypoperfusion, despite achieving adequate intravascular volume and adequate MAP\nBeta-2 agonism causes vasodilation, therefore needs to be used in conjunction with vasopressors",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Reasonable to initiate in septic shock in those without contraindications (ex. immunosuppression, wound healing issues, DKA, etc)\nWhile stress dose steroids may shorten recovery time, they have NOT been consistently shown to decrease mortality\nConsider dosing\nhydrocortisone\n200 mg IV daily, separated into 2-4 times a day\nDo not administer steroids for the treatment of sepsis in the absence of\nshock\nEvidence\nADRENAL trial showed that stress dose steroids is associated with faster time to shock resolution and discharge from ICU\n[20]\n2024 Focused Update by the Society of Critical Care Medicine (same organization for Surviving Sepsis) suggests for stress steroids in septic shock, while recommending against high dose (>400mg qd) or short duration (<3 days) steroids\n[21]\nNewer meta-analyses do not show an increased incidence of superinfections related to initiation of stress dose steroids\n[22]\nAddition of fludrocortisone may not make a difference as hydrocortisone has both adrenocorticoid and mineralocorticoid effects\nACTH cosyntropin testing likely unreliable in critically ill patients\nSteroids are associated with adverse effects such as hyperglycemia, hypernatremia, and neuromuscular weakness. Weight risks and benefits\n[23]",
+          "tables": []
+        },
+        "Esmolol": {
+          "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diastolic dysfunction",
+          "url": "https://wikem.org/wiki/Diastolic_dysfunction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "IVF": {
+      "text": "Guidelines recommend initial 30 cc/kg bolus (generally 2L in average adult)\nReassess patient's volume status after initial bolus. Auscultate for pulmonary edema.  Evaluate peripheral circulation.  Consider IVC ultrasound\nSeptic patients can be euvolemic but remain hypotensive due to vasodilation. Consider early vasopressors.\nIncreasing evidence that excessive fluid resuscitation can be harmful.\nPositive fluid balance on day 3 of hospital admission independently associated with increasing mortality\n[13]\nProtocolized fluid administration (e.g. traditional Early Goal Directed Therapy) has no mortality benefit over usual care.\n[14]\n[15]\nHigh volume (5+ L) resuscitation associated with increased mortality.\n[16]\nConsider assessing\ndiastolic dysfunction\nvia echo in\nCHF\npatients in whom IVC\nultrasound\nis not reliable",
+      "subsections": {
+        "Pressors": {
+          "text": "Indicated if MAP<60 despite adequate IVF or if IVF are contraindicated\nBest if given when the vascular space is filled; ok if it is not\nOptions:\nNorepinephrine\n(5-20mcg/min) - 1st line\n[17]\nEpinephrine\n(1-20 mcg/min) - 2nd line\nVasopressin\n(0.03 units/minute fixed dose) can be added to norepinephrine (NE)\nas a 2nd line agent may reduce arrhythmia's compared to other pressors with catecholamine properties\n[18]\nDopamine\nshould be used hesitantly and only in highly selected patients (eg, patients with low risk of tachyarrhythmias and absolute or relative bradycardia)\nDo not use Low-dose\ndopamine\nfor renal protection\nDopamine may have increased mortality rates compared to other vasopressors, especially in the pediatric septic patient\n[19]\nPhenylephrine\nshould not be used for treating septic shock except if:\nNorepinephrine is associated with serious arrhythmias\nCardiac output is known to be high and blood pressure persistently low\nAs salvage therapy when combined inotrope/vasopressor drugs and low dose vasopressin have failed to achieve MAP target\nMilrinone\nMethylene blue\nconsideration for septic shock refractory to catecholaminergic pressors",
+          "tables": []
+        },
+        "Inotropes": {
+          "text": "Dobutamine\n(2-20mcg/kg/min) may be added if:\nMyocardial dysfunction as suggested by elevated cardiac filling pressures and low cardiac output\nOngoing signs of hypoperfusion, despite achieving adequate intravascular volume and adequate MAP\nBeta-2 agonism causes vasodilation, therefore needs to be used in conjunction with vasopressors",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Reasonable to initiate in septic shock in those without contraindications (ex. immunosuppression, wound healing issues, DKA, etc)\nWhile stress dose steroids may shorten recovery time, they have NOT been consistently shown to decrease mortality\nConsider dosing\nhydrocortisone\n200 mg IV daily, separated into 2-4 times a day\nDo not administer steroids for the treatment of sepsis in the absence of\nshock\nEvidence\nADRENAL trial showed that stress dose steroids is associated with faster time to shock resolution and discharge from ICU\n[20]\n2024 Focused Update by the Society of Critical Care Medicine (same organization for Surviving Sepsis) suggests for stress steroids in septic shock, while recommending against high dose (>400mg qd) or short duration (<3 days) steroids\n[21]\nNewer meta-analyses do not show an increased incidence of superinfections related to initiation of stress dose steroids\n[22]\nAddition of fludrocortisone may not make a difference as hydrocortisone has both adrenocorticoid and mineralocorticoid effects\nACTH cosyntropin testing likely unreliable in critically ill patients\nSteroids are associated with adverse effects such as hyperglycemia, hypernatremia, and neuromuscular weakness. Weight risks and benefits\n[23]",
+          "tables": []
+        },
+        "Esmolol": {
+          "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diastolic dysfunction",
+          "url": "https://wikem.org/wiki/Diastolic_dysfunction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Pressors": {
+      "text": "Indicated if MAP<60 despite adequate IVF or if IVF are contraindicated\nBest if given when the vascular space is filled; ok if it is not\nOptions:\nNorepinephrine\n(5-20mcg/min) - 1st line\n[17]\nEpinephrine\n(1-20 mcg/min) - 2nd line\nVasopressin\n(0.03 units/minute fixed dose) can be added to norepinephrine (NE)\nas a 2nd line agent may reduce arrhythmia's compared to other pressors with catecholamine properties\n[18]\nDopamine\nshould be used hesitantly and only in highly selected patients (eg, patients with low risk of tachyarrhythmias and absolute or relative bradycardia)\nDo not use Low-dose\ndopamine\nfor renal protection\nDopamine may have increased mortality rates compared to other vasopressors, especially in the pediatric septic patient\n[19]\nPhenylephrine\nshould not be used for treating septic shock except if:\nNorepinephrine is associated with serious arrhythmias\nCardiac output is known to be high and blood pressure persistently low\nAs salvage therapy when combined inotrope/vasopressor drugs and low dose vasopressin have failed to achieve MAP target\nMilrinone\nMethylene blue\nconsideration for septic shock refractory to catecholaminergic pressors",
+      "subsections": {
+        "Inotropes": {
+          "text": "Dobutamine\n(2-20mcg/kg/min) may be added if:\nMyocardial dysfunction as suggested by elevated cardiac filling pressures and low cardiac output\nOngoing signs of hypoperfusion, despite achieving adequate intravascular volume and adequate MAP\nBeta-2 agonism causes vasodilation, therefore needs to be used in conjunction with vasopressors",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Reasonable to initiate in septic shock in those without contraindications (ex. immunosuppression, wound healing issues, DKA, etc)\nWhile stress dose steroids may shorten recovery time, they have NOT been consistently shown to decrease mortality\nConsider dosing\nhydrocortisone\n200 mg IV daily, separated into 2-4 times a day\nDo not administer steroids for the treatment of sepsis in the absence of\nshock\nEvidence\nADRENAL trial showed that stress dose steroids is associated with faster time to shock resolution and discharge from ICU\n[20]\n2024 Focused Update by the Society of Critical Care Medicine (same organization for Surviving Sepsis) suggests for stress steroids in septic shock, while recommending against high dose (>400mg qd) or short duration (<3 days) steroids\n[21]\nNewer meta-analyses do not show an increased incidence of superinfections related to initiation of stress dose steroids\n[22]\nAddition of fludrocortisone may not make a difference as hydrocortisone has both adrenocorticoid and mineralocorticoid effects\nACTH cosyntropin testing likely unreliable in critically ill patients\nSteroids are associated with adverse effects such as hyperglycemia, hypernatremia, and neuromuscular weakness. Weight risks and benefits\n[23]",
+          "tables": []
+        },
+        "Esmolol": {
+          "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Milrinone",
+          "url": "https://wikem.org/wiki/Milrinone"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Inotropes": {
+      "text": "Dobutamine\n(2-20mcg/kg/min) may be added if:\nMyocardial dysfunction as suggested by elevated cardiac filling pressures and low cardiac output\nOngoing signs of hypoperfusion, despite achieving adequate intravascular volume and adequate MAP\nBeta-2 agonism causes vasodilation, therefore needs to be used in conjunction with vasopressors",
+      "subsections": {
+        "Steroids": {
+          "text": "Reasonable to initiate in septic shock in those without contraindications (ex. immunosuppression, wound healing issues, DKA, etc)\nWhile stress dose steroids may shorten recovery time, they have NOT been consistently shown to decrease mortality\nConsider dosing\nhydrocortisone\n200 mg IV daily, separated into 2-4 times a day\nDo not administer steroids for the treatment of sepsis in the absence of\nshock\nEvidence\nADRENAL trial showed that stress dose steroids is associated with faster time to shock resolution and discharge from ICU\n[20]\n2024 Focused Update by the Society of Critical Care Medicine (same organization for Surviving Sepsis) suggests for stress steroids in septic shock, while recommending against high dose (>400mg qd) or short duration (<3 days) steroids\n[21]\nNewer meta-analyses do not show an increased incidence of superinfections related to initiation of stress dose steroids\n[22]\nAddition of fludrocortisone may not make a difference as hydrocortisone has both adrenocorticoid and mineralocorticoid effects\nACTH cosyntropin testing likely unreliable in critically ill patients\nSteroids are associated with adverse effects such as hyperglycemia, hypernatremia, and neuromuscular weakness. Weight risks and benefits\n[23]",
+          "tables": []
+        },
+        "Esmolol": {
+          "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Reasonable to initiate in septic shock in those without contraindications (ex. immunosuppression, wound healing issues, DKA, etc)\nWhile stress dose steroids may shorten recovery time, they have NOT been consistently shown to decrease mortality\nConsider dosing\nhydrocortisone\n200 mg IV daily, separated into 2-4 times a day\nDo not administer steroids for the treatment of sepsis in the absence of\nshock\nEvidence\nADRENAL trial showed that stress dose steroids is associated with faster time to shock resolution and discharge from ICU\n[20]\n2024 Focused Update by the Society of Critical Care Medicine (same organization for Surviving Sepsis) suggests for stress steroids in septic shock, while recommending against high dose (>400mg qd) or short duration (<3 days) steroids\n[21]\nNewer meta-analyses do not show an increased incidence of superinfections related to initiation of stress dose steroids\n[22]\nAddition of fludrocortisone may not make a difference as hydrocortisone has both adrenocorticoid and mineralocorticoid effects\nACTH cosyntropin testing likely unreliable in critically ill patients\nSteroids are associated with adverse effects such as hyperglycemia, hypernatremia, and neuromuscular weakness. Weight risks and benefits\n[23]",
+      "subsections": {
+        "Esmolol": {
+          "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Esmolol": {
+      "text": "One open-label, single-center RCT showing ~40% reduction in mortality when\nesmolol\npaired with\nnorepinephrine\ninfusion, with goal HR 80 - 95 BPM\n[24]\nAll patients were fluid resuscitated, intubated, given hydrocortisone 300 mg/day\nWill require further multi-center RCTs to confirm findings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Infection_Control": {
+      "text": "",
+      "subsections": {
+        "Source_control": {
+          "text": "Remove any infected lines\nDrain\nabscesses\nConsult surgery or other specialists if indicated (e.g. for\nappendicitis\n,\ncholangitis\n, etc.)",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administer within 3 hours\nInitial choice dependant on suspected source, local antibiogram, and severity of illness\nSee\nInitial Antibiotics in Sepsis (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscesses",
+          "url": "https://wikem.org/wiki/Abscesses"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Initial Antibiotics in Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Initial_Antibiotics_in_Sepsis_(Main)"
+        }
+      ]
+    },
+    "Source_control": {
+      "text": "Remove any infected lines\nDrain\nabscesses\nConsult surgery or other specialists if indicated (e.g. for\nappendicitis\n,\ncholangitis\n, etc.)",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Administer within 3 hours\nInitial choice dependant on suspected source, local antibiogram, and severity of illness\nSee\nInitial Antibiotics in Sepsis (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abscesses",
+          "url": "https://wikem.org/wiki/Abscesses"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Initial Antibiotics in Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Initial_Antibiotics_in_Sepsis_(Main)"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Administer within 3 hours\nInitial choice dependant on suspected source, local antibiogram, and severity of illness\nSee\nInitial Antibiotics in Sepsis (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Initial Antibiotics in Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Initial_Antibiotics_in_Sepsis_(Main)"
+        }
+      ]
+    },
+    "Blood_Products": {
+      "text": "",
+      "subsections": {
+        "RBCs": {
+          "text": "Only transfuse RBCs when hemoglobin decreases to <7.0 g/dL (goal is 7.0 –9.0 g/dL in adults)",
+          "tables": []
+        },
+        "Erythropoietin": {
+          "text": "Do not use erythropoietin as a specific treatment of anemia associated with severe sepsis",
+          "tables": []
+        },
+        "Platelets": {
+          "text": "In severe sepsis, administer platelets prophylactically when counts are <10,000/mm3 (10 x 10\n9\n/L) in the absence of apparent bleeding\nIf < 20,000/mm3 (20 x 10\n9\n/L) and significant risk of bleeding then administer platelets.\n<50,000/mm3 (50 x 10\n9\n/L) if there is active bleeding, planned surgery or other procedures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "RBCs": {
+      "text": "Only transfuse RBCs when hemoglobin decreases to <7.0 g/dL (goal is 7.0 –9.0 g/dL in adults)",
+      "subsections": {
+        "Erythropoietin": {
+          "text": "Do not use erythropoietin as a specific treatment of anemia associated with severe sepsis",
+          "tables": []
+        },
+        "Platelets": {
+          "text": "In severe sepsis, administer platelets prophylactically when counts are <10,000/mm3 (10 x 10\n9\n/L) in the absence of apparent bleeding\nIf < 20,000/mm3 (20 x 10\n9\n/L) and significant risk of bleeding then administer platelets.\n<50,000/mm3 (50 x 10\n9\n/L) if there is active bleeding, planned surgery or other procedures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Erythropoietin": {
+      "text": "Do not use erythropoietin as a specific treatment of anemia associated with severe sepsis",
+      "subsections": {
+        "Platelets": {
+          "text": "In severe sepsis, administer platelets prophylactically when counts are <10,000/mm3 (10 x 10\n9\n/L) in the absence of apparent bleeding\nIf < 20,000/mm3 (20 x 10\n9\n/L) and significant risk of bleeding then administer platelets.\n<50,000/mm3 (50 x 10\n9\n/L) if there is active bleeding, planned surgery or other procedures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Platelets": {
+      "text": "In severe sepsis, administer platelets prophylactically when counts are <10,000/mm3 (10 x 10\n9\n/L) in the absence of apparent bleeding\nIf < 20,000/mm3 (20 x 10\n9\n/L) and significant risk of bleeding then administer platelets.\n<50,000/mm3 (50 x 10\n9\n/L) if there is active bleeding, planned surgery or other procedures.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit, possibly to step-down or ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc - SIRS, Sepsis, and Septic Shock Criteria\nMDCalc - qSOFA Score\nMDCalc - NEWS 2\nEMCrit Sepsis 3.0",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Initial Antibiotics in Sepsis (Main)\nSepsis (Peds)\nEBQ:ProCESS Trial\nQuick Sequential (Sepsis Related) Organ Failure Assessment Score (qSOFA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Initial Antibiotics in Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Initial_Antibiotics_in_Sepsis_(Main)"
+        },
+        {
+          "text": "Sepsis (Peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(Peds)"
+        },
+        {
+          "text": "EBQ:ProCESS Trial",
+          "url": "https://wikem.org/wiki/EBQ:ProCESS_Trial"
+        },
+        {
+          "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score (qSOFA)",
+          "url": "https://wikem.org/wiki/Quick_Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(qSOFA)"
+        }
+      ]
+    }
+  }
+}
