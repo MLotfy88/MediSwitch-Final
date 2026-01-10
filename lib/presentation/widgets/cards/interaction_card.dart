@@ -164,7 +164,7 @@ class InteractionCard extends StatelessWidget {
                     ),
                   ),
                 if (recommendation.isNotEmpty) ...[
-                  const SizedBox(height: 8),
+                  const SizedBox(height: 12),
                   Container(
                     width: double.infinity,
                     padding: const EdgeInsets.all(12),
@@ -175,13 +175,80 @@ class InteractionCard extends StatelessWidget {
                         color: severityColor.withValues(alpha: 0.1),
                       ),
                     ),
-                    child: Text(
-                      recommendation,
-                      style: TextStyle(
-                        color: colorScheme.onSurface,
-                        fontSize: 13,
-                        height: 1.4,
-                      ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Icon(
+                              LucideIcons.shieldAlert,
+                              size: 14,
+                              color: severityColor,
+                            ),
+                            const SizedBox(width: 8),
+                            Text(
+                              isRTL ? 'التوصية الطبية' : 'Recommendation',
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                                color: severityColor,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          recommendation,
+                          style: TextStyle(
+                            color: colorScheme.onSurface,
+                            fontSize: 13,
+                            height: 1.4,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+
+                // Mechanism (Scientific Explanation)
+                if (interaction.mechanismText != null &&
+                    interaction.mechanismText!.isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  // Mechanism
+                  _SectionTitle(
+                    title: isRTL ? 'الآلية العلمية' : 'Mechanism',
+                    icon: LucideIcons.microscope,
+                    color: Colors.purple,
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    interaction.mechanismText!,
+                    style: TextStyle(
+                      color: colorScheme.onSurfaceVariant,
+                      fontSize: 13,
+                      height: 1.5,
+                    ),
+                  ),
+                ],
+
+                // Clinical Management (Actionable Advice)
+                if (interaction.managementText != null &&
+                    interaction.managementText!.isNotEmpty) ...[
+                  const SizedBox(height: 12),
+                  _SectionTitle(
+                    title:
+                        isRTL ? 'الإجراء الطبي المقترح' : 'Clinical Management',
+                    icon: LucideIcons.stethoscope,
+                    color: Colors.teal,
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    interaction.managementText!,
+                    style: TextStyle(
+                      color: colorScheme.onSurface,
+                      fontSize: 13,
+                      fontWeight: FontWeight.w500,
+                      height: 1.5,
                     ),
                   ),
                 ],
@@ -246,5 +313,35 @@ class InteractionCard extends StatelessWidget {
       case InteractionSeverity.unknown:
         return isRTL ? 'غير محدد' : 'N/A';
     }
+  }
+}
+
+class _SectionTitle extends StatelessWidget {
+  const _SectionTitle({
+    required this.title,
+    required this.icon,
+    required this.color,
+  });
+
+  final String title;
+  final IconData icon;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(icon, size: 14, color: color),
+        const SizedBox(width: 6),
+        Text(
+          title,
+          style: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+            color: color,
+          ),
+        ),
+      ],
+    );
   }
 }
