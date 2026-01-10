@@ -1,0 +1,196 @@
+{
+  "drug_name": "Phimosis",
+  "url": "https://wikem.org/wiki/Phimosis",
+  "scraped_at": "2026-01-10T07:59:55.647098",
+  "sections": {
+    "Background": {
+      "text": "Most uncircumcised infants have normal, physiologic phimosis\nNearly all cases resolve by 5yr of age\nOnly emergency if causes acute urinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Unable to retract foreskin over glans",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Non-Traumatic_penile_diagnoses": {
+          "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+          "tables": []
+        },
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Balanoposthitis",
+          "url": "https://wikem.org/wiki/Balanoposthitis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Non-Traumatic_penile_diagnoses": {
+      "text": "Phimosis\nBalanoposthitis\nParaphimosis\nPriapism\nSTDs",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Balanoposthitis",
+          "url": "https://wikem.org/wiki/Balanoposthitis"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Traumatic epididymitis",
+          "url": "https://wikem.org/wiki/Traumatic_epididymitis"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis\nEnsure that patient able to urinate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Dilation of foreskin with hemostat\nFoley cathether if urinary retention is present\nTopical steroids\n-\nTriamcinolone\n0.025% BID x4-6 weeks\nCan avert need for circumcision after phimosis\nDorsal Slit\n/ circumcision is definitive treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "Triamcinolone",
+          "url": "https://wikem.org/wiki/Triamcinolone"
+        },
+        {
+          "text": "Dorsal Slit",
+          "url": "https://wikem.org/wiki/Dorsal_Slit_(Penis)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with follow-up (primary care/urology)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Penile dorsal slit\nPenile diagnoses\nParaphimosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile dorsal slit",
+          "url": "https://wikem.org/wiki/Penile_dorsal_slit"
+        },
+        {
+          "text": "Penile diagnoses",
+          "url": "https://wikem.org/wiki/Penile_diagnoses"
+        },
+        {
+          "text": "Paraphimosis",
+          "url": "https://wikem.org/wiki/Paraphimosis"
+        }
+      ]
+    }
+  }
+}

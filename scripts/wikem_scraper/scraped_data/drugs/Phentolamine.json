@@ -1,0 +1,252 @@
+{
+  "drug_name": "Phentolamine",
+  "url": "https://wikem.org/wiki/Phentolamine",
+  "scraped_at": "2026-01-10T07:59:53.624050",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAlpha 1 Blocker\n;\nAntidote\n, Extravasation;\nAntihypertensive\nRoutes of Administration: IV, IM\nCommon Trade Names: OraVerse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alpha 1 Blocker",
+          "url": "https://wikem.org/wiki/Alpha_1_Blocker"
+        },
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        },
+        {
+          "text": "Antihypertensive",
+          "url": "https://wikem.org/wiki/Antihypertensive"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Pheochromocytomectomy adjunct: 5mg IM/IV q2-4h PRN\nStart: 1-2h preop\nExtravasation (norepinephrine-associated): 5-10mg injected into affected area x1\nStart: within 12h of extravasation\nHypertensive crisis\n: 5mg IM/IV q2-4h PRN",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive crisis",
+          "url": "https://wikem.org/wiki/Hypertensive_crisis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Pheochromocytomectomy adjunct: 1mg IM/IV q2-4h PRN\nStart: 1-2h preop",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk\nFactor: C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No dosing adjustments",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No dosing adjustments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Risk",
+          "url": "https://wikem.org/wiki/Drug_ratings_in_pregnancy"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "No dosing adjustments",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No dosing adjustments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No dosing adjustments",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Hypersensitivity to phentolamine or components\nMI\nCAD\nAngina\nCaution if PUD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "MI\nstroke\nhypotension, severe\narrhythmias\nPUD\npriapism",
+          "tables": []
+        },
+        "Common": {
+          "text": "tachycardia\nweakness\ndizziness\nflushing\northostatic hypotension\nnasal congestion\nnausea\nvomiting\ndiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "MI\nstroke\nhypotension, severe\narrhythmias\nPUD\npriapism",
+      "subsections": {
+        "Common": {
+          "text": "tachycardia\nweakness\ndizziness\nflushing\northostatic hypotension\nnasal congestion\nnausea\nvomiting\ndiarrhea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "tachycardia\nweakness\ndizziness\nflushing\northostatic hypotension\nnasal congestion\nnausea\nvomiting\ndiarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 19 minutes\nMetabolism: Urine\nExcretion: CYP450",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "α antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "α antagonist",
+          "url": "https://wikem.org/wiki/Alpha_1_Blocker"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Vasopressors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "drug_name": "Piperacillin/Tazobactam",
+  "url": "https://wikem.org/wiki/Piperacillin/Tazobactam",
+  "scraped_at": "2026-01-10T07:59:58.526056",
+  "sections": {
+    "General": {
+      "text": "Type: Anti-Pseudomonal\nPenicillin\nDosage Forms: 2.25gm vial, 3.375gm vial, 4.5gm vial, 40.5gm bulk bottle (Powder for reconstitution)\nCommon Trade Names: Zosyn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "3.375 g IV q6 hours\nAlt: 4.5 g q6-8 hours\nMax: 18 g/day",
+          "tables": []
+        },
+        "Extended_Interval_Dosing": {
+          "text": "3.375 g IV infused over 4 hours q8 hours\nOff-label: may reduce costs without sacrificing efficacy\n[1]\n[2]",
+          "tables": []
+        },
+        "Diverticulitis": {
+          "text": "3.375 g IV q6 hours x 7-10 days",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "CAP\n3.375 g IV q6 hours x 7-10 days\nOnly for P. aeruginosa caused or from aspiration\n[3]\nNosocomial\n4.5 g IV q6 hours or 3.375 g IV q4 hours x 7-14 days\n+ aminoglycoside or antipseudomonal fluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_2": {
+      "text": "3.375 g IV q6 hours\nAlt: 4.5 g q6-8 hours\nMax: 18 g/day",
+      "subsections": {
+        "Extended_Interval_Dosing": {
+          "text": "3.375 g IV infused over 4 hours q8 hours\nOff-label: may reduce costs without sacrificing efficacy\n[1]\n[2]",
+          "tables": []
+        },
+        "Diverticulitis": {
+          "text": "3.375 g IV q6 hours x 7-10 days",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "CAP\n3.375 g IV q6 hours x 7-10 days\nOnly for P. aeruginosa caused or from aspiration\n[3]\nNosocomial\n4.5 g IV q6 hours or 3.375 g IV q4 hours x 7-14 days\n+ aminoglycoside or antipseudomonal fluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extended_Interval_Dosing": {
+      "text": "3.375 g IV infused over 4 hours q8 hours\nOff-label: may reduce costs without sacrificing efficacy\n[1]\n[2]",
+      "subsections": {
+        "Diverticulitis": {
+          "text": "3.375 g IV q6 hours x 7-10 days",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "CAP\n3.375 g IV q6 hours x 7-10 days\nOnly for P. aeruginosa caused or from aspiration\n[3]\nNosocomial\n4.5 g IV q6 hours or 3.375 g IV q4 hours x 7-14 days\n+ aminoglycoside or antipseudomonal fluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diverticulitis": {
+      "text": "3.375 g IV q6 hours x 7-10 days",
+      "subsections": {
+        "Pneumonia": {
+          "text": "CAP\n3.375 g IV q6 hours x 7-10 days\nOnly for P. aeruginosa caused or from aspiration\n[3]\nNosocomial\n4.5 g IV q6 hours or 3.375 g IV q4 hours x 7-14 days\n+ aminoglycoside or antipseudomonal fluoroquinolone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonia": {
+      "text": "CAP\n3.375 g IV q6 hours x 7-10 days\nOnly for P. aeruginosa caused or from aspiration\n[3]\nNosocomial\n4.5 g IV q6 hours or 3.375 g IV q4 hours x 7-14 days\n+ aminoglycoside or antipseudomonal fluoroquinolone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "A Piperacillin/Taxobactam 3.375g vial contains 3g piperacillin and 0.375g tazobactam (8:1 ratio)",
+      "subsections": {
+        "General_3": {
+          "text": "<2 months\n100mg piperacillin/kg/dose IV q6 hours\n2-9 months\n80mg piperacillin/kg/dose IV q8 hours\n>9 months\n100mg piperacillin/kg/dose q8 hours\nMax: 16 g/day",
+          "tables": []
+        },
+        "Appendicitis_and/or_Peritonitis": {
+          "text": "2-9 months\n80mg piperacillin/kg/dose IV q8 hours\n>9 months\n≤40 kg: 100mg piperacillin/kg/dose IV q8 hours\n>40 kg: 3.375g (3000mg piperacillin) IV q6 hours\nMax: 16 g/day",
+          "tables": []
+        },
+        "Cystic_Fibrosis,_Pseudomonal_Infection": {
+          "text": "240-400mg piperacillin/kg/day IV divided q8 hours;\nConsider higher dose: 450-600mg/kg/day IV divided q4-6 hours\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_3": {
+      "text": "<2 months\n100mg piperacillin/kg/dose IV q6 hours\n2-9 months\n80mg piperacillin/kg/dose IV q8 hours\n>9 months\n100mg piperacillin/kg/dose q8 hours\nMax: 16 g/day",
+      "subsections": {
+        "Appendicitis_and/or_Peritonitis": {
+          "text": "2-9 months\n80mg piperacillin/kg/dose IV q8 hours\n>9 months\n≤40 kg: 100mg piperacillin/kg/dose IV q8 hours\n>40 kg: 3.375g (3000mg piperacillin) IV q6 hours\nMax: 16 g/day",
+          "tables": []
+        },
+        "Cystic_Fibrosis,_Pseudomonal_Infection": {
+          "text": "240-400mg piperacillin/kg/day IV divided q8 hours;\nConsider higher dose: 450-600mg/kg/day IV divided q4-6 hours\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Appendicitis_and/or_Peritonitis": {
+      "text": "2-9 months\n80mg piperacillin/kg/dose IV q8 hours\n>9 months\n≤40 kg: 100mg piperacillin/kg/dose IV q8 hours\n>40 kg: 3.375g (3000mg piperacillin) IV q6 hours\nMax: 16 g/day",
+      "subsections": {
+        "Cystic_Fibrosis,_Pseudomonal_Infection": {
+          "text": "240-400mg piperacillin/kg/day IV divided q8 hours;\nConsider higher dose: 450-600mg/kg/day IV divided q4-6 hours\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cystic_Fibrosis,_Pseudomonal_Infection": {
+      "text": "240-400mg piperacillin/kg/day IV divided q8 hours;\nConsider higher dose: 450-600mg/kg/day IV divided q4-6 hours\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy risk\n: B\nLactation: excreted in breastmilk, risk likely minimal\nRenal Dosing\nAdult - all indications\n[6]\n[7]\nCrCl 20-40: 2.25 g q6h (3.375 g q6h if HCAP)\nCrCl < 20: 2.25 g q8h (2.25 g q6h if HCAP)\nHD: 2.25 g q12h (2.25 g q8h if HCAP), both PLUS 0.75 g supplement after each dialysis\nPD: 2.25 g q12h (2.25 g q8h if HCAP)\nPediatric\nHepatic Dosing - no change",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy risk",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution\nNon-anaphylactic hypersensitivity to beta-lactams\nAsthma, cystic fibrosis\nRecent antibiotic-associated colitis\nSeizure disorder\nRenal impairement\nSodium restriction\nHypokalemia\nBleeding risk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nSerum sickness\n-like reaction\nDRESS syndrome\nAcute generalized exanthematous pustulosis\nErythema multiforme\n,\nSJS\n,\nTEN\nInterstitial nephritis\nSuperinfection\nC. difficile\nassociated\ndiarrhea\nHemolytic anemia\n,\nleukopenia\n,\nneutropenia\n,\npancytopenia\n, agranulocytosis,\nthrombocytopenia\nBleeding\nHypokalemia\nSeizure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\n,\nconstipation\n,\nnausea/vomiting\n, dyspepsia\nHeadache\nInsomnia\nRash\n,\npruritus\nFever\nAgitation\nElectrolyte abnormality\nLFT elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nSerum sickness\n-like reaction\nDRESS syndrome\nAcute generalized exanthematous pustulosis\nErythema multiforme\n,\nSJS\n,\nTEN\nInterstitial nephritis\nSuperinfection\nC. difficile\nassociated\ndiarrhea\nHemolytic anemia\n,\nleukopenia\n,\nneutropenia\n,\npancytopenia\n, agranulocytosis,\nthrombocytopenia\nBleeding\nHypokalemia\nSeizure",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\n,\nconstipation\n,\nnausea/vomiting\n, dyspepsia\nHeadache\nInsomnia\nRash\n,\npruritus\nFever\nAgitation\nElectrolyte abnormality\nLFT elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\n,\nconstipation\n,\nnausea/vomiting\n, dyspepsia\nHeadache\nInsomnia\nRash\n,\npruritus\nFever\nAgitation\nElectrolyte abnormality\nLFT elevation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nPipercillin: 30-90 min\nTazobactam: 0.7-1.2h\nMetabolism:\nPipercillin: Liver minimally\nTazobactam: Liver\nExcretion:\nPipercillin: Urine 68%\nTazobactam: Urine primarily\nMechanism of Action:\nPipercillin: Inhibits cell wall mucopeptide synthesis\nTazobactam: Inhibits beta-lactamases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

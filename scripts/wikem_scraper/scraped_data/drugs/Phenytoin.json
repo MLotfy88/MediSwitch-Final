@@ -1,0 +1,458 @@
+{
+  "drug_name": "Phenytoin",
+  "url": "https://wikem.org/wiki/Phenytoin",
+  "scraped_at": "2026-01-10T07:59:53.318012",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\nDosage Forms: capsules 50, 100, 200, 300  125/5 mL IM/IV\nCommon Trade Names: Dilantin, Phenytek\nOften combined with propylene glycol to increase water solubility\nIf infused too quickly, can lead to dysrhythmias, hypotension, bradycardia, seizures, and lactic acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Status_epilepticus": {
+          "text": "Loading dose: 15-20mg/kg IV; if ineffective, can give 10mg/kg IV 20 min after first dose\nMaintenance dose:  100mg PO/IV q 6-8hrs\nStart 12 hours after loading dose",
+          "tables": []
+        },
+        "Seizure_disorder": {
+          "text": "300-400mg/day divided into 2-3 doses/day (Max 400mg/dose)\nMay give 4-7mg/kg/day divided into 2-3 doses/day\nConsider loading dose: 15-20mg/kg divided into 2-3 doses given 2-4 hrs apart\nAdjust dose on response and serum levels\nAvailable in extended or immediate release",
+          "tables": []
+        },
+        "Seizure_prophylaxis_(neurosurgery)": {
+          "text": "Loading dose:  10-20mg/kg IV in 3 doses 2-4 hrs apart (max 400mg/dose)\n4-6mg/kg/day IV divided into 2-3 doses/day\nCan give IM route, though IV prefered\n100-200mg IM q 4 hrs x 1 week\n150% PO dose by IM route if previously on medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Status_epilepticus": {
+      "text": "Loading dose: 15-20mg/kg IV; if ineffective, can give 10mg/kg IV 20 min after first dose\nMaintenance dose:  100mg PO/IV q 6-8hrs\nStart 12 hours after loading dose",
+      "subsections": {
+        "Seizure_disorder": {
+          "text": "300-400mg/day divided into 2-3 doses/day (Max 400mg/dose)\nMay give 4-7mg/kg/day divided into 2-3 doses/day\nConsider loading dose: 15-20mg/kg divided into 2-3 doses given 2-4 hrs apart\nAdjust dose on response and serum levels\nAvailable in extended or immediate release",
+          "tables": []
+        },
+        "Seizure_prophylaxis_(neurosurgery)": {
+          "text": "Loading dose:  10-20mg/kg IV in 3 doses 2-4 hrs apart (max 400mg/dose)\n4-6mg/kg/day IV divided into 2-3 doses/day\nCan give IM route, though IV prefered\n100-200mg IM q 4 hrs x 1 week\n150% PO dose by IM route if previously on medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizure_disorder": {
+      "text": "300-400mg/day divided into 2-3 doses/day (Max 400mg/dose)\nMay give 4-7mg/kg/day divided into 2-3 doses/day\nConsider loading dose: 15-20mg/kg divided into 2-3 doses given 2-4 hrs apart\nAdjust dose on response and serum levels\nAvailable in extended or immediate release",
+      "subsections": {
+        "Seizure_prophylaxis_(neurosurgery)": {
+          "text": "Loading dose:  10-20mg/kg IV in 3 doses 2-4 hrs apart (max 400mg/dose)\n4-6mg/kg/day IV divided into 2-3 doses/day\nCan give IM route, though IV prefered\n100-200mg IM q 4 hrs x 1 week\n150% PO dose by IM route if previously on medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Status_epilepticus_2": {
+          "text": "Loading dose:  15-20mg/kg IV; if ineffective, can give 10mg/kg IV 20 min after first dose\nMax 1500mg/day\nStart maintenance 12 hrs after loading dose",
+          "tables": []
+        },
+        "Seizure_disorder_2": {
+          "text": "All doses are divided into 2-3 doses/day; always start at 5mg/kg/day and titrate based on effect and serum levels\n<6 mo:  5-8mg/kg/day PO/IV\n6mo-4 yrs:  8-10mg/kg/day PO/IV\n4-7yrs:  7.5-9mg/kg/day PO/IV\n7-10 yrs:  7-8mg/kg/day PO/IV\n10-16 yrs:  6-7mg/kg/day PO/IV\n>16 yrs use adult dosing\nFor immediate release.  Extended release available for ages >7 at same dosages.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Status_epilepticus_2": {
+      "text": "Loading dose:  15-20mg/kg IV; if ineffective, can give 10mg/kg IV 20 min after first dose\nMax 1500mg/day\nStart maintenance 12 hrs after loading dose",
+      "subsections": {
+        "Seizure_disorder_2": {
+          "text": "All doses are divided into 2-3 doses/day; always start at 5mg/kg/day and titrate based on effect and serum levels\n<6 mo:  5-8mg/kg/day PO/IV\n6mo-4 yrs:  8-10mg/kg/day PO/IV\n4-7yrs:  7.5-9mg/kg/day PO/IV\n7-10 yrs:  7-8mg/kg/day PO/IV\n10-16 yrs:  6-7mg/kg/day PO/IV\n>16 yrs use adult dosing\nFor immediate release.  Extended release available for ages >7 at same dosages.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizure_disorder_2": {
+      "text": "All doses are divided into 2-3 doses/day; always start at 5mg/kg/day and titrate based on effect and serum levels\n<6 mo:  5-8mg/kg/day PO/IV\n6mo-4 yrs:  8-10mg/kg/day PO/IV\n4-7yrs:  7.5-9mg/kg/day PO/IV\n7-10 yrs:  7-8mg/kg/day PO/IV\n10-16 yrs:  6-7mg/kg/day PO/IV\n>16 yrs use adult dosing\nFor immediate release.  Extended release available for ages >7 at same dosages.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Likely safe; limited information.  Use caution.\nRenal Dosing\nAdult:  No oral loading regimen\nPediatric:  No adjustment\nHepatic Dosing\nAdult:  No oral loading regimen\nPediatric:  Decrease dose, amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSinus brady/SA block/2nd-3rd AV block\nAdams-Stokes syndrome\nAvoid abrupt withdrawl\nCaution:\nCV disease\nHypotension\nAlcohol use\nHLA-B 1502 positive\nRenal impairment\nHepatic impairment\nPorphyria\nDiabetes mellitus\nThyroid disease\nDepression\nElderly",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "See\nphenytoin toxicity\nfor overdose",
+      "subsections": {
+        "Toxicity_symptoms_by_phenytoin_level^": {
+          "text": "^Provides a rough guide only; neither sensitive nor specific",
+          "tables": [
+            [
+              {
+                "Level": ">10",
+                "Sypmtoms": "Usually no symptoms"
+              },
+              {
+                "Level": "10-20",
+                "Sypmtoms": "Occasional mildnystagmus"
+              },
+              {
+                "Level": "20-30",
+                "Sypmtoms": "Nystagmus"
+              },
+              {
+                "Level": "30-40",
+                "Sypmtoms": "Ataxia, slurred speech,Nausea/vomiting"
+              },
+              {
+                "Level": "40-50",
+                "Sypmtoms": "Lethargy, confusion"
+              },
+              {
+                "Level": ">50",
+                "Sypmtoms": "Coma,seizure(rare)"
+              }
+            ]
+          ]
+        },
+        "Serious": {
+          "text": "V-Fib\n(IV)\nHypotension\n(IV)\nCV collapse (IV)\nAV conduction disturbance (IV)\nHepatotoxicity\nThrombocytopenia\nLeukopenia\nAgranulocytosis\nPancytopenia\nMegaloblastic anemia\nStevens-Johnson syndrome\nToxic epidermal necrolysis\nDrug rash (with eosinophilia)\nTissue necrosis (IV)\nPurple glove syndrome\n(IV)\nAnaphylaxis\nLymphoma\nLupus\nOsteomalacia\nToxic delirium\nSI\nPeriarteritis nodosa\nWithdrawal seizures with abrupt discontinuation",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nRash\nNystagmus\nAtaxia\nSlurred speech\nDizziness\nConfusion\nParesthesia\nBlurred vision\nSomnolence\nConstipation\nheadache\nInsomnia\nGingival hyperplasia\nTremor\nLymphadenopathy\nCoarse facies\nHyperglycemia\nOsteomalacia\nPhlebitis (IV)\nPeyronie disease\nTaste change",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin toxicity",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "V-Fib",
+          "url": "https://wikem.org/wiki/V-Fib"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "V-Fib\n(IV)\nHypotension\n(IV)\nCV collapse (IV)\nAV conduction disturbance (IV)\nHepatotoxicity\nThrombocytopenia\nLeukopenia\nAgranulocytosis\nPancytopenia\nMegaloblastic anemia\nStevens-Johnson syndrome\nToxic epidermal necrolysis\nDrug rash (with eosinophilia)\nTissue necrosis (IV)\nPurple glove syndrome\n(IV)\nAnaphylaxis\nLymphoma\nLupus\nOsteomalacia\nToxic delirium\nSI\nPeriarteritis nodosa\nWithdrawal seizures with abrupt discontinuation",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nRash\nNystagmus\nAtaxia\nSlurred speech\nDizziness\nConfusion\nParesthesia\nBlurred vision\nSomnolence\nConstipation\nheadache\nInsomnia\nGingival hyperplasia\nTremor\nLymphadenopathy\nCoarse facies\nHyperglycemia\nOsteomalacia\nPhlebitis (IV)\nPeyronie disease\nTaste change",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "V-Fib",
+          "url": "https://wikem.org/wiki/V-Fib"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nRash\nNystagmus\nAtaxia\nSlurred speech\nDizziness\nConfusion\nParesthesia\nBlurred vision\nSomnolence\nConstipation\nheadache\nInsomnia\nGingival hyperplasia\nTremor\nLymphadenopathy\nCoarse facies\nHyperglycemia\nOsteomalacia\nPhlebitis (IV)\nPeyronie disease\nTaste change",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Gingival hyperplasia",
+          "url": "https://wikem.org/wiki/Gingival_hyperplasia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7-42 hrs\nMetabolism: liver; CYP450: 2C9 and 2C19\nExcretion: bile and urine\nMechanism of Action:  effects neuronal voltage-dependent NA and CA channels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticonvulsants\nSeizure levels and reloading\nPhenytoin toxicity\nPurple glove syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Seizure levels and reloading",
+          "url": "https://wikem.org/wiki/Seizure_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin toxicity",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates\nMedscape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "drug_name": "Plague",
+  "url": "https://wikem.org/wiki/Plague",
+  "scraped_at": "2026-01-10T08:00:05.119061",
+  "sections": {
+    "Background": {
+      "text": "The plague is a severe, acute infection caused by\nGram Negative\nbacillus,\nYersinia pestis.\nY. pestis\nis transmitted by fleas (vector) and occurs naturally in a variety of animals, including rodents (reservoir)\n[1]\nTwo main forms are bubonic and pulmonic forms\nConsidered a Class A bioterrorism agent",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram Negative",
+          "url": "https://wikem.org/wiki/Gram_Negative"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Bubonic_plague": {
+          "text": "Eschar often forms at site of vector bite (usually flea bite)\nBuboes (inflamed, necrotic or hemorrhagic lymph nodes) are pathognomonic\nUsually in axilla or groin\nTypically non-fluctuant, but can suppurate (rare)\nLiver and splenic involvement\nSepticemia\nThe disease disseminates in about 50% of patients\nLeads to necrosis of tissues, especially digits and nose\nCan either be first manifestation of the disease or develop from untreated bubonic plague\nDeath if untreated in 2-10 days",
+          "tables": []
+        },
+        "Pulmonic_plague": {
+          "text": "Very contagious\nCan be hematogenous or aerosolized (weapon form)\nHemoptysis\nMulilobar hemorrhagic pneumonia\nSepsis\nDeath if untreated in 48 hours\nMortality rate nearly 100% without treatment\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Bubonic_plague": {
+      "text": "Eschar often forms at site of vector bite (usually flea bite)\nBuboes (inflamed, necrotic or hemorrhagic lymph nodes) are pathognomonic\nUsually in axilla or groin\nTypically non-fluctuant, but can suppurate (rare)\nLiver and splenic involvement\nSepticemia\nThe disease disseminates in about 50% of patients\nLeads to necrosis of tissues, especially digits and nose\nCan either be first manifestation of the disease or develop from untreated bubonic plague\nDeath if untreated in 2-10 days",
+      "subsections": {
+        "Pulmonic_plague": {
+          "text": "Very contagious\nCan be hematogenous or aerosolized (weapon form)\nHemoptysis\nMulilobar hemorrhagic pneumonia\nSepsis\nDeath if untreated in 48 hours\nMortality rate nearly 100% without treatment\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Pulmonic_plague": {
+      "text": "Very contagious\nCan be hematogenous or aerosolized (weapon form)\nHemoptysis\nMulilobar hemorrhagic pneumonia\nSepsis\nDeath if untreated in 48 hours\nMortality rate nearly 100% without treatment\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis\nLymphadenopathy\nCat-scratch disease\nTularemia\nStaphylococcal and streptococcal infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis\nLymphadenopathy\nCat-scratch disease\nTularemia\nStaphylococcal and streptococcal infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Bioterrorism_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis\nLymphadenopathy\nCat-scratch disease\nTularemia\nStaphylococcal and streptococcal infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Should be considered in any patient with clinical signs of plague and a recent history of travel to the western United States or any other plague endemic area.\nPossible diagnostic samples:\nLymph node aspirate\nAffected bubo should contain numerous organisms that can be evaluated microscopically and by culture.\nBlood cultures\nOrganisms may be seen in blood smears if the patient is septicemic.\nBlood smears taken from suspected bubonic plague patients early in the course of illness are usually negative for bacteria by microscopic examination but may be positive by culture.\nSputum\nCulture is possible from sputum of very ill pneumonic patients\nHowever, blood is usually culture-positive at this time as well.\nBronchial/tracheal washing\nMay be taken from suspected pneumonic plague patients\nNot ideal for isolation of plague, since they often contain many other bacteria that can mask the presence of plague.\nGram, Wright, Giemsa, or Wayson's stained smears of peripheral blood, sputum, or lymph node specimen.\nVisualization of bipolar-staining, ovoid, Gram-negative organisms with a \"safety pin\" appearance permits a rapid presumptive diagnosis of plague.\nIf cultures yield negative results, and plague is still suspected, serologic testing is possible to confirm the diagnosis.\nOne serum specimen should be taken as early in the illness as possible, followed by a convalescent sample 4-6 weeks or more after disease onset.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Droplet precautions\nif pneumonic form suspected\nPlague is a reportable disease to the CDC\nIf bioterrorism suspected, health authorities must be contacted immediately\nConsult ID\nDo not perform an I&D as the buboes are responsive to antibiotics; performing an I&D risks disseminating the bacterium to health-care providers\n[4]",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Should be given within 24 hours for effective outcomes and continued for at least 10 days\n[5]",
+          "tables": []
+        },
+        "Postexposure_Prophylaxis": {
+          "text": "Doxycycline\n100mg (2.2mg/kg) PO q12hrs daily OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs daily OR\nChloramphenicol\n1mg (25mg/kg) PO q6hrs\nonly if age > 2",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Gentamicin\n5mg/kg IV/IM once daily x 10 days OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs x 10 days OR\nDoxycycline\n200mg (2.2mg/kg) PO/IV daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Droplet precautions",
+          "url": "https://wikem.org/wiki/Droplet_precautions"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Should be given within 24 hours for effective outcomes and continued for at least 10 days\n[5]",
+      "subsections": {
+        "Postexposure_Prophylaxis": {
+          "text": "Doxycycline\n100mg (2.2mg/kg) PO q12hrs daily OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs daily OR\nChloramphenicol\n1mg (25mg/kg) PO q6hrs\nonly if age > 2",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Gentamicin\n5mg/kg IV/IM once daily x 10 days OR\nCiprofloxacin\n500mg (20mg/kg) PO q12hrs x 10 days OR\nDoxycycline\n200mg (2.2mg/kg) PO/IV daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nDroplet precautions if pneumonic form suspected for at least 4 days after initiation of antibiotics\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Isolation Precautions\nBioterrorism\nGEMC:Prehospital / Disaster / Mass Casualty Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Isolation Precautions",
+          "url": "https://wikem.org/wiki/Isolation_Precautions"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "GEMC:Prehospital / Disaster / Mass Casualty Medicine",
+          "url": "https://wikem.org/wiki/GEMC:Prehospital_/_Disaster_/_Mass_Casualty_Medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Plague | CDC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

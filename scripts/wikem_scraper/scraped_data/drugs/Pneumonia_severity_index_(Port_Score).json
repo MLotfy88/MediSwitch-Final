@@ -1,0 +1,199 @@
+{
+  "drug_name": "Pneumonia_severity_index_(Port_Score)",
+  "url": "https://wikem.org/wiki/Pneumonia_severity_index_(Port_Score)",
+  "scraped_at": "2026-01-10T08:00:08.245059",
+  "sections": {
+    "Use": {
+      "text": "Estimates mortality for adult patients with community-acquired pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scoring": {
+      "text": "",
+      "subsections": {
+        "Pneumonia_severity_index_(Port_Score)": {
+          "text": "Classification",
+          "tables": [
+            [
+              {
+                "Risk Factors": "Demographic Factors"
+              },
+              {
+                "Risk Factors": "Age for men",
+                "Points": "Age"
+              },
+              {
+                "Risk Factors": "Age for women",
+                "Points": "Age -10"
+              },
+              {
+                "Risk Factors": "Nursing home resident",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Coexisting Illnesses",
+                "Points": ""
+              },
+              {
+                "Risk Factors": "Neoplastic disease (active)",
+                "Points": "+30"
+              },
+              {
+                "Risk Factors": "Chronic liver disease",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "Heart Failure",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Cerebrovascular disease",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Chronic renal disease",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Physical Exam",
+                "Points": ""
+              },
+              {
+                "Risk Factors": "AMS",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "RR > 30/min",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "Sys BP < 90",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "Temp <35 or >40",
+                "Points": "+15"
+              },
+              {
+                "Risk Factors": "Pulse > 125",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Lab and xray findings",
+                "Points": ""
+              },
+              {
+                "Risk Factors": "Arterial pH < 7.35",
+                "Points": "+30"
+              },
+              {
+                "Risk Factors": "BUN > 30",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "Na <130",
+                "Points": "+20"
+              },
+              {
+                "Risk Factors": "Glucose > 250",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Hematocrit <30%",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "PaO2 < 60 or SpO2 < 90%",
+                "Points": "+10"
+              },
+              {
+                "Risk Factors": "Pleural effusion",
+                "Points": "+10"
+              }
+            ],
+            [
+              {
+                "Class": "I",
+                "Points": "<51",
+                "Mortality": "0.1%"
+              },
+              {
+                "Class": "II",
+                "Points": "51-70",
+                "Mortality": "0.6%"
+              },
+              {
+                "Class": "III",
+                "Points": "71-90",
+                "Mortality": "0.9%"
+              },
+              {
+                "Class": "IV",
+                "Points": "91-130",
+                "Mortality": "9.3%"
+              },
+              {
+                "Class": "V",
+                "Points": ">130",
+                "Mortality": "27%"
+              }
+            ]
+          ]
+        },
+        "Disposition_Pathway": {
+          "text": "Classes I and II: consider discharge\nClass III: discharge verus admit based on clinical judgment\nClasses IV and V: consider admission",
+          "tables": []
+        },
+        "CURB-65": {
+          "text": "C\nonfusion\nb\nU\nn > 19 mg/dl\nR\nR > 30\nB\nP < 90 SBP, or < 60 DBP\nAge >\n65\nApproximate 30-day mortalities and Tx considerations\n+1 --> 3%, outpt tx\n+2 -->7%, inpt, possible outpt\n+3 --> 14% inpt, possible ICU\n+4-5 --> 30% ICU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition_Pathway": {
+      "text": "Classes I and II: consider discharge\nClass III: discharge verus admit based on clinical judgment\nClasses IV and V: consider admission",
+      "subsections": {
+        "CURB-65": {
+          "text": "C\nonfusion\nb\nU\nn > 19 mg/dl\nR\nR > 30\nB\nP < 90 SBP, or < 60 DBP\nAge >\n65\nApproximate 30-day mortalities and Tx considerations\n+1 --> 3%, outpt tx\n+2 -->7%, inpt, possible outpt\n+3 --> 14% inpt, possible ICU\n+4-5 --> 30% ICU",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CURB-65": {
+      "text": "C\nonfusion\nb\nU\nn > 19 mg/dl\nR\nR > 30\nB\nP < 90 SBP, or < 60 DBP\nAge >\n65\nApproximate 30-day mortalities and Tx considerations\n+1 --> 3%, outpt tx\n+2 -->7%, inpt, possible outpt\n+3 --> 14% inpt, possible ICU\n+4-5 --> 30% ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Half of patients are still symptomatic at 30 days, with a significant minority of patients experiencing chest pain, malaise or mild dyspnea even 2 to 3 months after treatment\nIn adults with CAP whose symptoms have resolved within 5-7 days, it is not recommended to routinely obtain follow-up chest imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pneumonia\nPneumonia (Pathogens)\nPneumonia (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumonia (Pathogens)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Pathogens)"
+        },
+        {
+          "text": "Pneumonia (Peds)",
+          "url": "https://wikem.org/wiki/Pneumonia_(Peds)"
+        }
+      ]
+    }
+  }
+}

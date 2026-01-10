@@ -1,0 +1,156 @@
+{
+  "drug_name": "Pneumoconiosis",
+  "url": "https://wikem.org/wiki/Pneumoconiosis",
+  "scraped_at": "2026-01-10T08:00:04.660635",
+  "sections": {
+    "Background": {
+      "text": "A chronic inflammatory lung disease caused by inhalation of particles, typically occupationally related, that typically results in pulmonary fibrosis and eventually restrictive lung disease.",
+      "subsections": {
+        "Types_based_on_inhaled_particle": {
+          "text": "Asbestosis: shipping, roofing, plumbing, demolition\nBerylliosis: aerospace, fluorescent bulbs\nByssinosis: cotton\nSilicosis: foundries, sandblasting, mines\nCoal worker's lung: coal\nSiderosis: iron\nStannosis: tin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types_based_on_inhaled_particle": {
+      "text": "Asbestosis: shipping, roofing, plumbing, demolition\nBerylliosis: aerospace, fluorescent bulbs\nByssinosis: cotton\nSilicosis: foundries, sandblasting, mines\nCoal worker's lung: coal\nSiderosis: iron\nStannosis: tin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "May be asymptomatic, with normal PFTs, especially initially\nDyspnea\nCrackles on exam\nFeatures of restrictive and/or obstructive pulmonary dysfunction\nIf severe,\nclubbing\n, cyanosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "clubbing",
+          "url": "https://wikem.org/wiki/Clubbing"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_Fibrosis": {
+          "text": "Interstitial pneumonias (acute, lymphocytic)\nLung malignancy\nAspiration pneumonia or pneumonitis\nBacterial, viral, or fungal\npneumonia\nCryptogenic organizing pneumonia\nInterstitial lung disease\nassociated with\ncollagen vascular disease\nDrug-induced pulmonary toxicity (\namiodarone\n, bleomycin,\namphotericin B\n,\ncarbamazepine\n, etc.)\nEosinophilic granuloma (Histiocytosis X)\nRadiation pneumonitis\nSarcoidosis\nPneumoconiosis\n(Workplace exposure)\nAsbestosis\nBerylliosis\nChemical worker's lung\nCoal worker's pneumoconiosis\nSilicosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspiration pneumonia or pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        }
+      ]
+    },
+    "Pulmonary_Fibrosis": {
+      "text": "Interstitial pneumonias (acute, lymphocytic)\nLung malignancy\nAspiration pneumonia or pneumonitis\nBacterial, viral, or fungal\npneumonia\nCryptogenic organizing pneumonia\nInterstitial lung disease\nassociated with\ncollagen vascular disease\nDrug-induced pulmonary toxicity (\namiodarone\n, bleomycin,\namphotericin B\n,\ncarbamazepine\n, etc.)\nEosinophilic granuloma (Histiocytosis X)\nRadiation pneumonitis\nSarcoidosis\nPneumoconiosis\n(Workplace exposure)\nAsbestosis\nBerylliosis\nChemical worker's lung\nCoal worker's pneumoconiosis\nSilicosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspiration pneumonia or pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for and treat for reversible causes of symptoms or exacerbation of symptoms\nCXR\n:\nCoal workers': diffuse nodular opacities, especially prominent in upper lung\nSilicosis: Large conglomerate densities in upper lung\nAsbestosis: linear streaking at bases, opacities, honeycomb changes if advanced\nCT Chest\nBest imaging for asbestosis, can detect parenchymal fibrosis and characterize pleural plaques\nTB testing\nIncreased incidence of TB in patients with silicosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is supportive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Idiopathic pulmonary fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Meyer KC. Beryllium and lung disease. Chest. Sep 1994;106(3):942-6.\nKreiss K, Miller F, Newman LS, Ojo-Amaize EA, Rossman MD, Saltini C. Chronic beryllium disease--from the workplace to cellular immunology, molecular immunogenetics, and back. Clin Immunol Immunopathol. May 1994;71(2):123-9.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

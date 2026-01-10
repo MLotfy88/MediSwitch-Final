@@ -1,0 +1,283 @@
+{
+  "drug_name": "Phenylephrine",
+  "url": "https://wikem.org/wiki/Phenylephrine",
+  "scraped_at": "2026-01-10T07:59:55.011814",
+  "sections": {
+    "General": {
+      "text": "Type:\nVasopressors\nDosage Forms: Commonly 50 mg per 5 mL (10 mg/mL)\nCommon Trade Names: Neosynephrine\nOnset of action: About 1 minute\nDuration of action: 10-20 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypotension": {
+          "text": "Start 100-200 mcg/min then taper down\n40-60 mcg/min works for most\n\"\nPush dose\n\"\nInject 1 mL (10 mg) into 100 mL NS Bag = 100 mcg/mL\nDraw this into a syringe, with a concentration of 100mcg/mL\nAdminister 0.5-2 mL (50-200 mcg) every 2-5 minutes",
+          "tables": []
+        },
+        "Low_Flow_Priapism": {
+          "text": "Dilute phenylephrine 1mg in 9mL NS for final concentration of 100mcg/mL\nFor 500 mcg/ml, take 0.5 ml of 10mg/ml phenylephrine, and dilute in 9.5 cc NS\nInject base of penis with 29-Ga needle (after blood aspiration to confirm position)\n100-500 mcg every 3-5min (max 1000 mcg) until resolution or 1 hour",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Push dose",
+          "url": "https://wikem.org/wiki/Push_dose_pressors"
+        }
+      ]
+    },
+    "Hypotension": {
+      "text": "Start 100-200 mcg/min then taper down\n40-60 mcg/min works for most\n\"\nPush dose\n\"\nInject 1 mL (10 mg) into 100 mL NS Bag = 100 mcg/mL\nDraw this into a syringe, with a concentration of 100mcg/mL\nAdminister 0.5-2 mL (50-200 mcg) every 2-5 minutes",
+      "subsections": {
+        "Low_Flow_Priapism": {
+          "text": "Dilute phenylephrine 1mg in 9mL NS for final concentration of 100mcg/mL\nFor 500 mcg/ml, take 0.5 ml of 10mg/ml phenylephrine, and dilute in 9.5 cc NS\nInject base of penis with 29-Ga needle (after blood aspiration to confirm position)\n100-500 mcg every 3-5min (max 1000 mcg) until resolution or 1 hour",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Push dose",
+          "url": "https://wikem.org/wiki/Push_dose_pressors"
+        }
+      ]
+    },
+    "Low_Flow_Priapism": {
+      "text": "Dilute phenylephrine 1mg in 9mL NS for final concentration of 100mcg/mL\nFor 500 mcg/ml, take 0.5 ml of 10mg/ml phenylephrine, and dilute in 9.5 cc NS\nInject base of penis with 29-Ga needle (after blood aspiration to confirm position)\n100-500 mcg every 3-5min (max 1000 mcg) until resolution or 1 hour",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Hypotension/Shock\nIV Bolus: 5-20mcg/kg q10-15min prn, 1st dose should not exceed 500mcg with a max dose of 1000mcg\nIV Infusion: 0.1-0.5mcg/kg/min, titrate to desired BP\nNasal Congestion (OTC)\n4-<6yrs: 2.5mg q4hr prn for <7 days\n6-<12yrs: 5mg q4hr prn for <7 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: infant risk cannot be ruled out\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere\nhypertension\nVentricular tachycardia\nClosed angle glaucoma\nCaution if:\nHeart failure\nor\ncardiogenic shock\n(cardiac output may decrease with increased SVR)\nSpinal cord injury\nor other autonomic dysfunction (may experience exaggerated increase in blood pressure)\nHyperthyroidism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "Closed angle glaucoma",
+          "url": "https://wikem.org/wiki/Closed_angle_glaucoma"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Baroreceptor-mediated reflex bradycardia, particularly in patients with preexisting cardiac dysfunction or severe CAD\nIf extravasates use phentolamine",
+      "subsections": {
+        "Serious": {
+          "text": "Bradycardia\nPulmonary edema\nMetabolic acidosis\nDecreased renal perfusion\nExtravasation",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypertension\nAnxiety\nHeadache\nRebound congestion, sneezing\nNausea\n, gastric irritation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bradycardia\nPulmonary edema\nMetabolic acidosis\nDecreased renal perfusion\nExtravasation",
+      "subsections": {
+        "Common": {
+          "text": "Hypertension\nAnxiety\nHeadache\nRebound congestion, sneezing\nNausea\n, gastric irritation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypertension\nAnxiety\nHeadache\nRebound congestion, sneezing\nNausea\n, gastric irritation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5 hours\nMetabolism: extensively in intestinal wall, moderately in liver\nExcretion: Urinary\nMechanism of Action: selective α\n1\nagonist causes vasoconstriction",
+      "subsections": {
+        "Primary_Receptor": {
+          "text": "α\n1",
+          "tables": []
+        },
+        "Relative_Effects": {
+          "text": "↑SVR\n↓HR (reflex bradycardia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_Receptor": {
+      "text": "α\n1",
+      "subsections": {
+        "Relative_Effects": {
+          "text": "↑SVR\n↓HR (reflex bradycardia)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Effects": {
+      "text": "↑SVR\n↓HR (reflex bradycardia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Notes": {
+      "text": "Use with caution in patients with spinal cord injury-related bradycardia\nUseful for treatment of vasodilatory shock when norepinephrine or\ndopamine\nhave precipitated tachyarrhythmias\nIn patients with ↓LV function, unopposed α\n1\nmay lead to decreased CO or myocardial ischemia\nHowever clinical trials do not support these effects when used in clinically appropriate dose range\nCommonly used as an alternative to norepinephrine in the setting of\natrial fibrillation\nwith rapid ventricular response (associated with lower heart rate after initiation of vasopressor)\n[1]",
+      "subsections": {
+        "Indication": {
+          "text": "Neurogenic Shock\nSecond line agent for septic shock",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        }
+      ]
+    },
+    "Indication": {
+      "text": "Neurogenic Shock\nSecond line agent for septic shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "http://www.atsjournals.org/doi/abs/10.1164/rccm.201006-0972CI?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed#readcube-epdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

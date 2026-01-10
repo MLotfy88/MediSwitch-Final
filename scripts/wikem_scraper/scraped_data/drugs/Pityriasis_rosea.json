@@ -1,0 +1,116 @@
+{
+  "drug_name": "Pityriasis_rosea",
+  "url": "https://wikem.org/wiki/Pityriasis_rosea",
+  "scraped_at": "2026-01-10T08:00:05.178947",
+  "sections": {
+    "Background": {
+      "text": "Mild inflammatory exanthem\nMay be caused by HHV 6 and 7\n70% preceded by URI\n[1]\nMost common 10-35yr old\nNot contagious\nSpontaneous resolution occurs within 4-12wk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Begins with single, \"herald,\"\npatch\n(salmon-colored, fine scaling)\n1-2 weeks prior to generalized eruption\nLarger lesion (Herald Patch) that resembles the later smaller lesions\nTypically on the abdomen\nSecondary maculopapular rash with plaques following Langer Lines (\"Christmas tree\" pattern)\nTypically follows rip distribution\nPruritus\ncan be moderate to severe\nConsider RPR or VDRL to rule out syphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patch",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Psoriasis\nTinea corporis\nUsually not as widespread\nPityriasis versicolor\nAlso has fine scaling but KOH is diagnostic",
+      "subsections": {
+        "Plaques": {
+          "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Tinea corporis",
+          "url": "https://wikem.org/wiki/Tinea_corporis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Plaques": {
+      "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Lasts 8 to 12 weeks\n[2]\nReassurance about the self-limited nature\nNatural sunlight may speed up resolution\nPruritus\n[3]\nAntihistamine\n,\ntopical steroids\nTriamcinolone\n0.1% - Adults\nHydrocortisone\n1% - Children\nOther\nZinc oxide\nCalamine lotion\nSystemic steroids are generally not recommended.\nRash or pruritus beyond 12 weeks: reconsider original diagnosis\nConsider biopsy to confirm the diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "Triamcinolone",
+          "url": "https://wikem.org/wiki/Triamcinolone"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

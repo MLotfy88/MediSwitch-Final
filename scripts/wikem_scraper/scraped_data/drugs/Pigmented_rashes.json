@@ -1,0 +1,133 @@
+{
+  "drug_name": "Pigmented_rashes",
+  "url": "https://wikem.org/wiki/Pigmented_rashes",
+  "scraped_at": "2026-01-10T07:59:56.291936",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperpigmentation": {
+          "text": "Postinflammatory hyperpigmentation (acne,\nPsoriasis\n,\natopic\nand\ncontact dermatitis\n,\nlichen planus\n,\ntrauma\n, drugs, and\nfixed-drug eruptions\n)\nMelasma\nSolar lentigines\nEphelides (freckles)\nCafé-au-lait macules\nNevi\nMelanoma\nand precursors",
+          "tables": []
+        },
+        "Hypopigmentation": {
+          "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "atopic",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fixed-drug eruptions",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        }
+      ]
+    },
+    "Hyperpigmentation": {
+      "text": "Postinflammatory hyperpigmentation (acne,\nPsoriasis\n,\natopic\nand\ncontact dermatitis\n,\nlichen planus\n,\ntrauma\n, drugs, and\nfixed-drug eruptions\n)\nMelasma\nSolar lentigines\nEphelides (freckles)\nCafé-au-lait macules\nNevi\nMelanoma\nand precursors",
+      "subsections": {
+        "Hypopigmentation": {
+          "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "atopic",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fixed-drug eruptions",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        }
+      ]
+    },
+    "Hypopigmentation": {
+      "text": "Vitiligo\nPityriasis alba\nTinea versicolor\nPostinflammatory hypopigmentation\nPiebaldism\nTuberous sclerosis\nHypomelanosis of Ito",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        }
+      ]
+    }
+  }
+}

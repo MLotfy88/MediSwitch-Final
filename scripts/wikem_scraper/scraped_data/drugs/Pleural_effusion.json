@@ -1,0 +1,456 @@
+{
+  "drug_name": "Pleural_effusion",
+  "url": "https://wikem.org/wiki/Pleural_effusion",
+  "scraped_at": "2026-01-10T08:00:07.422036",
+  "sections": {
+    "Background": {
+      "text": "Exudative\nActive fluid secretion or leakage with high protein content\nTransudative\nImbalance between hydrostatic (e.g. CHF) and oncotic (e.g. nephrotic syndrome)\nFluid has low protein content",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "SOB\nDecreased breath sounds\nFrequently found on CXR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Transudative\nCHF\nExudative\nCancer\nPneumonia\n(parapneumonic effusion)\nOccurs in 40% of patients hospitalized with pneumonia\nPE\nOccurs in 30% of patients with PE",
+          "tables": []
+        },
+        "Less_Common": {
+          "text": "Transudative\nNephrotic Syndrome\nCirrhosis\nBoth via\nhypoalbuminemia\nand transdiaphragmatic leakage of ascites\nPE\nExudative\nViral\n,\nfungal\n, or\nparasitic infection\nSLE\n,\nRA\nUremia\nPancreatitis\nAmiodarone",
+          "tables": []
+        },
+        "Non-infectious_Effusions": {
+          "text": "Left sided > R\nAortic dissection\nBoerhaave syndrome\nRight sided > L\nCHF\nPancreatitis\nHepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone_pulmonary_toxicity"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Boerhaave syndrome",
+          "url": "https://wikem.org/wiki/Boerhaave_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Transudative\nCHF\nExudative\nCancer\nPneumonia\n(parapneumonic effusion)\nOccurs in 40% of patients hospitalized with pneumonia\nPE\nOccurs in 30% of patients with PE",
+      "subsections": {
+        "Less_Common": {
+          "text": "Transudative\nNephrotic Syndrome\nCirrhosis\nBoth via\nhypoalbuminemia\nand transdiaphragmatic leakage of ascites\nPE\nExudative\nViral\n,\nfungal\n, or\nparasitic infection\nSLE\n,\nRA\nUremia\nPancreatitis\nAmiodarone",
+          "tables": []
+        },
+        "Non-infectious_Effusions": {
+          "text": "Left sided > R\nAortic dissection\nBoerhaave syndrome\nRight sided > L\nCHF\nPancreatitis\nHepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone_pulmonary_toxicity"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Boerhaave syndrome",
+          "url": "https://wikem.org/wiki/Boerhaave_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Less_Common": {
+      "text": "Transudative\nNephrotic Syndrome\nCirrhosis\nBoth via\nhypoalbuminemia\nand transdiaphragmatic leakage of ascites\nPE\nExudative\nViral\n,\nfungal\n, or\nparasitic infection\nSLE\n,\nRA\nUremia\nPancreatitis\nAmiodarone",
+      "subsections": {
+        "Non-infectious_Effusions": {
+          "text": "Left sided > R\nAortic dissection\nBoerhaave syndrome\nRight sided > L\nCHF\nPancreatitis\nHepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone_pulmonary_toxicity"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Boerhaave syndrome",
+          "url": "https://wikem.org/wiki/Boerhaave_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Non-infectious_Effusions": {
+      "text": "Left sided > R\nAortic dissection\nBoerhaave syndrome\nRight sided > L\nCHF\nPancreatitis\nHepatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Boerhaave syndrome",
+          "url": "https://wikem.org/wiki/Boerhaave_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CXR\nEarliest sign is blunting of costophrenic angle\nLateral decubitus with affected side down requires 50-75 cc of fluid for visualization\nPA view requires 200-250 cc of fluid\nSupine view may only show a generalized hazy appearance of affected hemithorax\nSubpulmonic effusion\nFluid collects in isolation between lung base and diaphragm\nMay not cause blunting of costophrnic angle or meniscus appearance\nSuspect if \"hemidiaphragm\" (actually fluid) is elevated and flattened\nLateral decubitus with suspected side down will show free-flowing pleural fluid\nCT\nLung ultrasound\nThoracentesis",
+          "tables": []
+        },
+        "Exudative_versus_Transudative_(Light's_Criteria)": {
+          "text": "If one of the following is present the fluid is virtually always an exudate\nIf none is present the fluid is virtually always a transudate\nPleural fluid/serum protein ratio >0.5\nPleural fluid/serum LDH ratio >0.6\nPleural fluid LDH > two thirds of upper limit for serum LDH",
+          "tables": []
+        },
+        "Exudative_Work-up": {
+          "text": "Gram stain and culture (place 10cc into blood culture bottle at the bedside)\nCell count\nRBC >100K: trauma, malignancy, pneumonia, or pulmonary infarction\nNeutrophil predominance (>50%): parapneumonic, pulmonary embolism, pancreatitis\nLymphocytic predominance (>50%): malignancy, TB, PE, viral pleuritis\nGlucose\nLow glucose (<60) seen in parapneumonic, empyema, malignant, TB, and RA\nABG (pH)\nMay be left at room temperature for up to 1hr with out affecting results\nNormal pleural fluid pH = 7.64;\nIn parapneumonic effusions, <7.10 predicts development of empyema or persistence and indicates need for thoracostomy tube drainage\nAmylase: >100 in pleural effusions due to pancreatitis or esophageal rupture\nTB (adenosine deaminase)\nIndia ink\nCytology (requires 50cc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lung ultrasound",
+          "url": "https://wikem.org/wiki/Lung_ultrasound"
+        },
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CXR\nEarliest sign is blunting of costophrenic angle\nLateral decubitus with affected side down requires 50-75 cc of fluid for visualization\nPA view requires 200-250 cc of fluid\nSupine view may only show a generalized hazy appearance of affected hemithorax\nSubpulmonic effusion\nFluid collects in isolation between lung base and diaphragm\nMay not cause blunting of costophrnic angle or meniscus appearance\nSuspect if \"hemidiaphragm\" (actually fluid) is elevated and flattened\nLateral decubitus with suspected side down will show free-flowing pleural fluid\nCT\nLung ultrasound\nThoracentesis",
+      "subsections": {
+        "Exudative_versus_Transudative_(Light's_Criteria)": {
+          "text": "If one of the following is present the fluid is virtually always an exudate\nIf none is present the fluid is virtually always a transudate\nPleural fluid/serum protein ratio >0.5\nPleural fluid/serum LDH ratio >0.6\nPleural fluid LDH > two thirds of upper limit for serum LDH",
+          "tables": []
+        },
+        "Exudative_Work-up": {
+          "text": "Gram stain and culture (place 10cc into blood culture bottle at the bedside)\nCell count\nRBC >100K: trauma, malignancy, pneumonia, or pulmonary infarction\nNeutrophil predominance (>50%): parapneumonic, pulmonary embolism, pancreatitis\nLymphocytic predominance (>50%): malignancy, TB, PE, viral pleuritis\nGlucose\nLow glucose (<60) seen in parapneumonic, empyema, malignant, TB, and RA\nABG (pH)\nMay be left at room temperature for up to 1hr with out affecting results\nNormal pleural fluid pH = 7.64;\nIn parapneumonic effusions, <7.10 predicts development of empyema or persistence and indicates need for thoracostomy tube drainage\nAmylase: >100 in pleural effusions due to pancreatitis or esophageal rupture\nTB (adenosine deaminase)\nIndia ink\nCytology (requires 50cc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Lung ultrasound",
+          "url": "https://wikem.org/wiki/Lung_ultrasound"
+        },
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Exudative_versus_Transudative_(Light's_Criteria)": {
+          "text": "If one of the following is present the fluid is virtually always an exudate\nIf none is present the fluid is virtually always a transudate\nPleural fluid/serum protein ratio >0.5\nPleural fluid/serum LDH ratio >0.6\nPleural fluid LDH > two thirds of upper limit for serum LDH",
+          "tables": []
+        },
+        "Exudative_Work-up": {
+          "text": "Gram stain and culture (place 10cc into blood culture bottle at the bedside)\nCell count\nRBC >100K: trauma, malignancy, pneumonia, or pulmonary infarction\nNeutrophil predominance (>50%): parapneumonic, pulmonary embolism, pancreatitis\nLymphocytic predominance (>50%): malignancy, TB, PE, viral pleuritis\nGlucose\nLow glucose (<60) seen in parapneumonic, empyema, malignant, TB, and RA\nABG (pH)\nMay be left at room temperature for up to 1hr with out affecting results\nNormal pleural fluid pH = 7.64;\nIn parapneumonic effusions, <7.10 predicts development of empyema or persistence and indicates need for thoracostomy tube drainage\nAmylase: >100 in pleural effusions due to pancreatitis or esophageal rupture\nTB (adenosine deaminase)\nIndia ink\nCytology (requires 50cc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Dyspnea at rest:\nTherapeutic\nthoracentesis\nwith max drainage 1-1.5L to avoid reexpansion pulmonary edema\nPatient positioning (lateral decubitus) for unilateral pleural effusions\nMost of the time, \"Good lung to Ground\" to improve V/Q mismatch\nExceptions in which \"bad\" lung should be \"down\":\nMassive\nhemoptysis\nSevere/large pleural effusions\nLarge pulmonary abscesses\nEmpyema\nDrain with large-bore thoracostomy tube\nParapneumonic Effusion:\nConsider\nthoracostomy\ntube drainage if:\nComorbid disease\nAspiration of frank pus (empyema)\nFailure to respond to antibiotic treatment\nAnaerobic organisms\nPleural fluid pH <7.20\nPleural fluid glucose < 60 mg/dl\nEffusion involving >50% of thorax or air-fluid level on CXR\nLoculated effusion\nCHF\nDiuretic\ntherapy resolves >75% of effusions within 2-3d",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "thoracostomy",
+          "url": "https://wikem.org/wiki/Thoracostomy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "All new pleural effusions of non-trace size typically require admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracentesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Pleural Effusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

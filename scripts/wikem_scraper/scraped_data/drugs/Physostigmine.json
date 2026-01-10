@@ -1,0 +1,107 @@
+{
+  "drug_name": "Physostigmine",
+  "url": "https://wikem.org/wiki/Physostigmine",
+  "scraped_at": "2026-01-10T07:59:56.769199",
+  "sections": {
+    "General": {
+      "text": "Type:\nacetylcholinesterase inhibitor\nDosage Forms: IV/IM\nCommon Trade Names: Antilirium\nAs opposed to\npyridostigmine\n, physostigmine does cross the blood brain barrier",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        },
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anticholinergic_toxicity": {
+          "text": "0.5-2 mg IV over 5 min",
+          "tables": []
+        },
+        "Non-depolarizing_neuromuscular_blockade_reversal": {
+          "text": "0.5-1 mg IM/IV q10 min prn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anticholinergic_toxicity": {
+      "text": "0.5-2 mg IV over 5 min",
+      "subsections": {
+        "Non-depolarizing_neuromuscular_blockade_reversal": {
+          "text": "0.5-1 mg IM/IV q10 min prn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-depolarizing_neuromuscular_blockade_reversal": {
+      "text": "0.5-1 mg IM/IV q10 min prn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "0.02 mg/kg repeat every 5-10 minutes until adequate response, max of 2 mg\nNo faster than 0.5 mg/min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nTCA toxicity\nCan cause\nasystole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Side effects:\nbradycardia\n, dysrhythmias, cholinergic excess\nAlways have\natropine\nat the bedside for bradycardia or cholinergic excess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Reversible AChE inhibitor, that increases concentration of acetylcholine\nIndirectly stimulates both nicotinic and muscarinic ACh receptors\nMetabolism via CYP450\nExcretion minimally via urine\nOnset of action: 15-20min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

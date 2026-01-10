@@ -1,0 +1,30 @@
+{
+  "drug_name": "Phrenic_nerve/diaphragmatic_stimulators_complications",
+  "url": "https://wikem.org/wiki/Phrenic_nerve/diaphragmatic_stimulators_complications",
+  "scraped_at": "2026-01-10T07:59:54.671386",
+  "sections": {
+    "Background": {
+      "text": "Implanted into bilateral phrenic nerves to treat rerspiratory insufficiency from poor diaphragmatic motion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Complications\nPneumothorax (early after implantation)\nInfection\nWire Migration\nDrive malfunction (causing diaphragmatic paralysis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Medical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        }
+      ]
+    }
+  }
+}

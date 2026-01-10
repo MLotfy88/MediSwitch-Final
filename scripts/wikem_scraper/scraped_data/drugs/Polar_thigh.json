@@ -1,0 +1,161 @@
+{
+  "drug_name": "Polar_thigh",
+  "url": "https://wikem.org/wiki/Polar_thigh",
+  "scraped_at": "2026-01-10T08:00:08.740871",
+  "sections": {
+    "Background": {
+      "text": "Rash\n-like injury characteristic of extended time in polar environments.\nForm of mechanical abrasion combined with air temperature fluctuations/variations in pockets of air trapped beneath clothing layers\nGenerally only seen in polar environments\nFrequently seen in skiers in Arctic environments due to frequent hip extension which stretches clothing overing the thigh, necessity of wearing multiple layers of clothes, and copious amounts of heat locally produced by such exercise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rash\n: erythematous, often urticarial in appearance\nFrequently on anterior thigh, though can also appear on medial/posterior thigh",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Allergic reaction\nInfection (e.g.\ncellulitis\n, fungal/bacterial/viral)",
+      "subsections": {
+        "Cold_injuries": {
+          "text": "Generalized\nAccidental hypothermia\nTherapeutic hypothermia\nFreezing\nFrostbite\nNon-freezing\nTrench foot\nChilblains\n(Pernio)\nCold panniculitis\nCold urticaria\nPolar thigh",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Accidental hypothermia",
+          "url": "https://wikem.org/wiki/Accidental_hypothermia"
+        },
+        {
+          "text": "Therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        },
+        {
+          "text": "Frostbite",
+          "url": "https://wikem.org/wiki/Frostbite"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Chilblains",
+          "url": "https://wikem.org/wiki/Chilblains"
+        },
+        {
+          "text": "Cold panniculitis",
+          "url": "https://wikem.org/wiki/Cold_panniculitis"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        }
+      ]
+    },
+    "Cold_injuries": {
+      "text": "Generalized\nAccidental hypothermia\nTherapeutic hypothermia\nFreezing\nFrostbite\nNon-freezing\nTrench foot\nChilblains\n(Pernio)\nCold panniculitis\nCold urticaria\nPolar thigh",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Accidental hypothermia",
+          "url": "https://wikem.org/wiki/Accidental_hypothermia"
+        },
+        {
+          "text": "Therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        },
+        {
+          "text": "Frostbite",
+          "url": "https://wikem.org/wiki/Frostbite"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Chilblains",
+          "url": "https://wikem.org/wiki/Chilblains"
+        },
+        {
+          "text": "Cold panniculitis",
+          "url": "https://wikem.org/wiki/Cold_panniculitis"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Topical corticosteroid\n, e.g.\nbetamethasone\nvalerate 0.025% or 0.05% for non-ulcerated rashes\nUlceration present\nCorticosteroid bandage or Granuflex\nGeneral wound care\nIf severe ulceration, may require plastic surgery consult or transfer to burn unit\nNo antibiotics necessary",
+      "subsections": {
+        "Prevention": {
+          "text": "Long silk shorts or undergarments to prevent mechanical abrasion and improve temperature regulation OR\nUse of emollient or aloe vera",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical corticosteroid",
+          "url": "https://wikem.org/wiki/Topical_corticosteroid"
+        },
+        {
+          "text": "betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Long silk shorts or undergarments to prevent mechanical abrasion and improve temperature regulation OR\nUse of emollient or aloe vera",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge\nIf behavioral modifications are not taken, existing polar thigh can progress to frank ulceration.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Frostbite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Frostbite",
+          "url": "https://wikem.org/wiki/Frostbite"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rhodes, M & Sorenson, HC. Polar Medicine. In: Auerbach, PS,\nAuerbach's Wilderness Medicine\n. 7th ed. Elsevier; 2017.\n<\nhttps://www-clinicalkey-com.ezproxy2.umc.edu/#!/content/book/3-s2.0-B9780323359429000115\n>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

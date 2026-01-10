@@ -1,0 +1,154 @@
+{
+  "drug_name": "Platelet_transfusion",
+  "url": "https://wikem.org/wiki/Platelet_transfusion",
+  "scraped_at": "2026-01-10T08:00:04.796812",
+  "sections": {
+    "General": {
+      "text": "Type:\nBlood products\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Thrombocytopenia": {
+          "text": "1 unit raises count by 50,000",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thrombocytopenia": {
+      "text": "1 unit raises count by 50,000",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "10-20 mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {
+        "Leukocyte_Irradiated_and_Reduced_(Depleted)_Blood_Products": {
+          "text": "Leukocyte reduced: Prevents sensitization in patients who may require bone marrow transplant\nIrradiated: Eliminates capacity of T-cells to proliferate (prevents\nTransfusion-associated graft-versus-host disease\n)\nIf tranfusion required for crashing patient, do not delay tranfusion of uncrossed blood to irradiate products beforehand\nRequires minimum 25 Gy irradiation, not to exceed 50 Gy for all:\nPacked red cells\nPlatelets\nGranulocyte components, regardless of immunocompetency\nFirst or second degree relatives, regardless of immunocompetency\nHLA-selected components, regardless of immunocompetency\nIrradiated products should be administered shortly after irradiation\nThose products not used for intended recipient may be returned safely to stock for others not requiring irradiated components, though with reduced shelf life\nNot necessary to irradiate FFP, cryoprecipitate, fractioned plasma products\nImmunocompromised stem cell recipients\nOrgan transplant recipients\nPatients undergoing marrow transplantation\nIntrauterine transfusion\nNeonatal exchange transfusions\nPremature and low birthweight neonates\nHodgkin lymphoma\nCongenital cell-mediated immunodeficiencies (DiGeorge, Wiskott-Aldrich, Leiner's, 5'-nucelotidase deficiency)\nAcquired immunodeficiencies to include:\nLeukemia, CLL\nAplastic anemia\nNeutropenia\nPatients receiving:\nPurine analogue chemotherapies (fludarabine, cladribine, deoxycoformicin, bendamustine, clofarabine, etc.)\nCertain biologic immunosuppresants (alemtuzumab)\nDonations from biologic relatives\nDonations from HLA-matched donors\nGenetically homogenous populations\nProbably indicated int:\nHematologic malignancies other than Hodgkin lymphoma\nSolid tumors treated with cytotoxic agents\nChronically transfused\nCardiac surgery\nSolid organ or stem cell transplant recipients, before and after\nPrevious febrile nonhemolytic transfusion reactions\nCMV seronegative patients at risk",
+          "tables": []
+        },
+        "Not_Routinely_Needing_Irradiated_Products": {
+          "text": "HIV, AIDS\nConcurrent, non-severe common viral infection\nRituximab treatment\nRoutine solid organ transplant\nRoutine infant cardiac surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "Platelet_Transfusion_Thresholds": {
+          "text": "most if not all of the following thresholds are based on weak recommendations with low quality evidence\n[5]\n<50K if planned lumbar puncture or neurosurgical procedure\n[6]\n<20K if planned for central venous catheter placement (preference toward compressible site), or febrile patient\n<10K in asymptomatic patients (unless due to\nITP\n,\nTTP\n, or\nHIT\n)\nThere are no firm recommendations for transfusion thresholds in acute traumatic bleeding but many providers will opt for a goal of 100K, especially if there is evidence of\nICH",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Platelet_Transfusion_Thresholds": {
+      "text": "most if not all of the following thresholds are based on weak recommendations with low quality evidence\n[5]\n<50K if planned lumbar puncture or neurosurgical procedure\n[6]\n<20K if planned for central venous catheter placement (preference toward compressible site), or febrile patient\n<10K in asymptomatic patients (unless due to\nITP\n,\nTTP\n, or\nHIT\n)\nThere are no firm recommendations for transfusion thresholds in acute traumatic bleeding but many providers will opt for a goal of 100K, especially if there is evidence of\nICH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Transfusion should be type specific because platelets are bathed in plasma\nNon-type specific platelets can be used but results in higher rate of complications\nLike\npRBCs\n, platelets can be leukocyte reduced or washed\nA 6-pack of platelets will raise the count by 40,000 to 60,000\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Transfusions\nThrombocytopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    }
+  }
+}

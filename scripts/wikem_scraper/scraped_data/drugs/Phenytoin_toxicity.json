@@ -1,0 +1,203 @@
+{
+  "drug_name": "Phenytoin_toxicity",
+  "url": "https://wikem.org/wiki/Phenytoin_toxicity",
+  "scraped_at": "2026-01-10T07:59:54.858220",
+  "sections": {
+    "Background": {
+      "text": "Mortality is extremely rare after intentional overdose if good supportive care is provided\nRapid IV dosing carries greatest risk (due to propylene glycol constituent of IV form → myocardia depression & cardiac arrest)\n90% protein bound; dialysis ineffective",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "CV (only with IV form)\nBradycardia\nHypotension\nVfib\nAsystole\nNeuro\nNystagmus\nFirst only with forced lateral gaze; later becomes spontaneous\nMay disappear at higher levels\nAtaxia\nDecreased LOC\nGI\nNausea and vomiting\nSkin\ntissue infiltration (IV) → \"\nPurple glove syndrome\n\"\nedema, pain, ischemia, tissue necrosis,\ncompartment syndrome\nAnticonvulsant hypersensitivity syndrome\nFever\n,\neosinophilia\n,\nrash\n, pseudolymphoma,\nSLE\n,\npancytopenia\n,\nhepatitis\n,\npneumonitis\n,\npharyngitis\n,\nrhabdomyolysis\nMortality rate of 10%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Vfib",
+          "url": "https://wikem.org/wiki/Vfib"
+        },
+        {
+          "text": "Asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "Nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Toxicity_symptoms_by_phenytoin_level^": {
+          "text": "^Provides a rough guide only; neither sensitive nor specific\nCorrect for albumin level\nFree phenytoin concentration determines toxicity\nHypoalbuminemia\nresults in higher free phenytoin concentration\nOther laboratory testing\nLFTs\n, hepatic dysfunction increases risk of phenytoin toxicity\nCBC, frequently show eosinophilia or marked leukocytosis\nTotal CK\nECG\n, may see\narrhythmias\n, AV block, or sinus arrest with junctional or ventricular escape\nPOC glucose, rule out hypoglycemia as cause of AMS\nAcetaminophen\nand\nsalicylate\nlevels, rule out common coingestion\nUrine pregnancy test",
+          "tables": [
+            [
+              {
+                "Level": ">10",
+                "Sypmtoms": "Usually no symptoms"
+              },
+              {
+                "Level": "10-20",
+                "Sypmtoms": "Occasional mildnystagmus"
+              },
+              {
+                "Level": "20-30",
+                "Sypmtoms": "Nystagmus"
+              },
+              {
+                "Level": "30-40",
+                "Sypmtoms": "Ataxia, slurred speech,Nausea/vomiting"
+              },
+              {
+                "Level": "40-50",
+                "Sypmtoms": "Lethargy, confusion"
+              },
+              {
+                "Level": ">50",
+                "Sypmtoms": "Coma,seizure(rare)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "salicylate",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care is mainstay of treatment\nIf intubation needed, standard RSI meds ok, avoid lidocaine (same antidysrhythmic properties as phenytoin)\nIf symptomatic bradyarrhythmia:\nACLS: Bradycardia\n, Atropine, epinephrine, dopamine are first line\nMay consider\ntranscutaneous\nor\ntransvenous pacing\nHypotension\nIVF bolus\nDetoxification\nActivated charcoal\nPO\nGastric lavage\nand\nwhole bowel irrigation\nare\nNOT\nrecommended",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS: Bradycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Bradycardia"
+        },
+        {
+          "text": "transcutaneous",
+          "url": "https://wikem.org/wiki/Transcutaneous_pacing"
+        },
+        {
+          "text": "transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "whole bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole_bowel_irrigation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Cannot base on phenytoin level (erratic absorption after PO overdose)\nConsider discharge if patient has only mild symptoms and serial phenytoin levels decline",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Phenytoin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    }
+  }
+}

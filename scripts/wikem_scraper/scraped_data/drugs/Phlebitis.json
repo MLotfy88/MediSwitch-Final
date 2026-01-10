@@ -1,0 +1,84 @@
+{
+  "drug_name": "Phlebitis",
+  "url": "https://wikem.org/wiki/Phlebitis",
+  "scraped_at": "2026-01-10T07:59:55.615898",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of vein",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Localized erythema, swelling, and pain/tenderness along vein\n+/- palpable, indurated venous cord\n+/- fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis/Causes": {
+      "text": "Superficial thrombophlebitis\ndue to\nVTE\n, chronic venous stasis\nTrauma from peripheral venous access (iatrogenic or IVDU)\nMedication infusion related\ne.g.\nAztreonam\n,\nvancomycin\n,\nphenytoin\n,\namiodarone\n,\ndobutamine\n, concentrated potassium,\nInfectious (septic or supparative phlebitis/thrombophlebitis)\nAssociated with IVDU, prolonged PIV catheter use, strep/toxic shock syndrome, post obstetric/gynecologic surgery (septic pelvic thrombophlebitis)\nVasculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        }
+      ]
+    },
+    "Management": {
+      "text": "NSAIDs\nfor pain\nCompression\nAntibiotics if infection present\nAnticoagulation if associated with\nDVT\nor septic pelvic thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "VTE\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    }
+  }
+}

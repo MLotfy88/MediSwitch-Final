@@ -1,0 +1,97 @@
+{
+  "drug_name": "Pneumothorax_(main)",
+  "url": "https://wikem.org/wiki/Pneumothorax_(main)",
+  "scraped_at": "2026-01-10T08:00:08.103603",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Pneumothorax_Types": {
+          "text": "Tension pneumothorax\nSpontaneous pneumothorax\nCatamenial pneumothorax\nTraumatic pneumothorax\nIatrogenic pneumothorax",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Iatrogenic pneumothorax",
+          "url": "https://wikem.org/wiki/Iatrogenic_pneumothorax"
+        }
+      ]
+    },
+    "Pneumothorax_Types": {
+      "text": "Tension pneumothorax\nSpontaneous pneumothorax\nCatamenial pneumothorax\nTraumatic pneumothorax\nIatrogenic pneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Iatrogenic pneumothorax",
+          "url": "https://wikem.org/wiki/Iatrogenic_pneumothorax"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pneumomediastinum\nChest tube\nThoracentesis\nThoracic trauma\nHemothorax\nDeterioration After Intubation (DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Thoracentesis",
+          "url": "https://wikem.org/wiki/Thoracentesis"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Deterioration After Intubation (DOPE)",
+          "url": "https://wikem.org/wiki/Deterioration_After_Intubation_(DOPE)"
+        }
+      ]
+    }
+  }
+}

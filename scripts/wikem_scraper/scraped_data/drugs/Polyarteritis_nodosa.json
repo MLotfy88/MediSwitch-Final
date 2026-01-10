@@ -1,0 +1,369 @@
+{
+  "drug_name": "Polyarteritis_nodosa",
+  "url": "https://wikem.org/wiki/Polyarteritis_nodosa",
+  "scraped_at": "2026-01-10T08:00:10.455955",
+  "sections": {
+    "Background": {
+      "text": "Necrotizing\nvasculitis\nof small- and medium-sized blood vessels\nSkin, musculoskeletal, CNS, and GI tract (spares lung)\nPredilection to arterial bifurcations and branch sites\nMicroaneurysm,\nthrombosis, emboli\n, organ ischemia, and infarction\nEtiology: Idiopathic,\nHBV\n,\nHCV\n, hairy cell\nleukemia",
+      "subsections": {
+        "Vasculitis_Syndrome_Types": {
+          "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "thrombosis, emboli",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "HBV",
+          "url": "https://wikem.org/wiki/HBV"
+        },
+        {
+          "text": "HCV",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Vasculitis_Syndrome_Types": {
+      "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cutaneous\nlesion\n+ adult onset\nhypertension\nMen > women (2:1)\nPeak age 40-60s\nSystemic: Fatigue, weight loss, weakness,\nfever\n,\narthralgia\nCutaneous lesions (1/3 patients)\nTender erythematous nodules\nPalpable\npurpura\n(fingers, ankles, malleoli, pretibial)\nDigital cyanosis\nSplinter hemorrhages\nLivedo reticularis\nRenovascular arteritis →\nhypertension\nPeripheral neuropathies (mononeuritis multiplex, polyneuropathy)\nMesenteric vasculitis (abdominal angina,\nischemia\n, infarction, perforation)\nMyocardial ischemia\nand\nheart failure\nMyalgia\n(elevated CK)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lesion",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Embolism, thrombosis, atherosclerosis\nHIV\n,\nHepatitis\n, IE,\nmycotic aneurysm\nFibromuscular dysplasia\nMicroscopic polyangiitis,\nGranulomatosis with polyangiitis\n(Wegener's),\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss), IgA vasculitis, drug-induced vasculitis,\nconnective tissue disease\n,\nSLE\n, cryoglobulinemic vasculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "mycotic aneurysm",
+          "url": "https://wikem.org/wiki/Mycotic_aneurysm"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Definitive: Tissue biopsy\nLabs:\nCr, CK,\nLFTs\n(elevated)\nCBC (\nLeukocytosis\n, normochromic\nanemia\n,\nthrombocytosis\n)\nHepatitis serology\nUrinalysis\n(\nproteinuria\n)\nESR/CRP\nImaging\nAngiography preferred: aneurysm or stenosis of medium-sized vessels\nArteriograms\nCT/MRI\nConsider:\nCXR\n, blood cultures, autoimmune serologic testing (ANCA, ANA, RF) to rule out other diseases",
+          "tables": []
+        },
+        "American_College_of_Rheumatology_Criteria": {
+          "text": "Need at least 3/10 (82% sensitivity and 87% specificity)\nUnexplained weight loss greater than 4kg\nLivedo reticularis\nTesticular Pain\nor tenderness\nMyalgia (excluding shoulder and hip girdle), weakness of muscles, tenderness of leg muscles, or polyneuropathy\nMononeuropathy or polyneuropathy\nNew-onset diastolic blood pressure > 90mmHg\nElevated serum BUN (>40mg/dL or 14.3mmol/L) or creatinine (>1.5mg/dL or 132 mmol/L)\nEvidence of HBV infection (serology)\nCharacteristic arteriographic abnormalities not resulting fro noninflammatory disease processes\nBiopsy of small- or medium-sized artery containing polymorphonuclear cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "Hepatitis serology",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Testicular Pain",
+          "url": "https://wikem.org/wiki/Testicular_Pain"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Definitive: Tissue biopsy\nLabs:\nCr, CK,\nLFTs\n(elevated)\nCBC (\nLeukocytosis\n, normochromic\nanemia\n,\nthrombocytosis\n)\nHepatitis serology\nUrinalysis\n(\nproteinuria\n)\nESR/CRP\nImaging\nAngiography preferred: aneurysm or stenosis of medium-sized vessels\nArteriograms\nCT/MRI\nConsider:\nCXR\n, blood cultures, autoimmune serologic testing (ANCA, ANA, RF) to rule out other diseases",
+      "subsections": {
+        "American_College_of_Rheumatology_Criteria": {
+          "text": "Need at least 3/10 (82% sensitivity and 87% specificity)\nUnexplained weight loss greater than 4kg\nLivedo reticularis\nTesticular Pain\nor tenderness\nMyalgia (excluding shoulder and hip girdle), weakness of muscles, tenderness of leg muscles, or polyneuropathy\nMononeuropathy or polyneuropathy\nNew-onset diastolic blood pressure > 90mmHg\nElevated serum BUN (>40mg/dL or 14.3mmol/L) or creatinine (>1.5mg/dL or 132 mmol/L)\nEvidence of HBV infection (serology)\nCharacteristic arteriographic abnormalities not resulting fro noninflammatory disease processes\nBiopsy of small- or medium-sized artery containing polymorphonuclear cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "Hepatitis serology",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Testicular Pain",
+          "url": "https://wikem.org/wiki/Testicular_Pain"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "American_College_of_Rheumatology_Criteria": {
+          "text": "Need at least 3/10 (82% sensitivity and 87% specificity)\nUnexplained weight loss greater than 4kg\nLivedo reticularis\nTesticular Pain\nor tenderness\nMyalgia (excluding shoulder and hip girdle), weakness of muscles, tenderness of leg muscles, or polyneuropathy\nMononeuropathy or polyneuropathy\nNew-onset diastolic blood pressure > 90mmHg\nElevated serum BUN (>40mg/dL or 14.3mmol/L) or creatinine (>1.5mg/dL or 132 mmol/L)\nEvidence of HBV infection (serology)\nCharacteristic arteriographic abnormalities not resulting fro noninflammatory disease processes\nBiopsy of small- or medium-sized artery containing polymorphonuclear cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular Pain",
+          "url": "https://wikem.org/wiki/Testicular_Pain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Rheumatology consult\nMay warrant surgical intervention if abdominal involvement\nCorticosteroids\n:\nPrednisone\n1mg/kg\nMethylprednisolone\n(7-15mg/kg, max 1000mg IV) for severe, organ threatening\nImmunosuppressive agent for moderate to severe\nCyclophosphamide\n(600mg/m2\n) q2weeks x 3 doses\nACEI\nor\nARB\nfor hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        }
+      ]
+    },
+    "References": {
+      "text": "Reference: Rosen's Emergency Medicine 8th edition. 2013. Chapter: Erythematosus and the Vasculitides. p1539-1540.\nMerkel PA, et al. Clinical manifestations and diagnosis of polyarteritis nodosa in adults. In: Post T, ed. UpToDate. Waltham, Mass.: UpToDate; 2014. www.uptodate.com. Accessed December 22, 2014.\nMerkel PA, et al. Treatment and prognosis of polyarteritis nodosa. In: Post T, ed. UpToDate. Waltham, Mass.: UpToDate; 2014. www.uptodate.com. Accessed December 22, 2014.\nJacobs-Kosmin, D. (2014, Dec 12). Polyarteritis Nodosa. eMedicine. Retrieved 12/22/2014 from\nhttp://emedicine.medscape.com/article/330717-overview\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

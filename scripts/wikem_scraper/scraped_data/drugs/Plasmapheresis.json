@@ -1,0 +1,203 @@
+{
+  "drug_name": "Plasmapheresis",
+  "url": "https://wikem.org/wiki/Plasmapheresis",
+  "scraped_at": "2026-01-10T08:00:00.205878",
+  "sections": {
+    "Overview": {
+      "text": "Involves extracorporeal separation of blood products, resulting in filtered plasma product\nPatient's plasma is removed, blood cells re-infused, and (usually) donor plasma transfused\nIn US and other high-resourced settings, separation typically done by automated centrifuge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Established indications for plasmapheresis as first-line treatment (either alone or in conjunction with other agents)\nGuillain-Barre syndrome\nThrombotic thrombocytopenic purpura\nMyasthenia gravis\nHyperviscosity syndrome\nDiffuse alveolar hemorrhage\ndue to\nGoodpasture syndrome\nChronic inflammatory demyelinating polyneuropathy\nSevere\nautoimmune hemolytic anemia\nIndications for which plasmapheresis is accepted second-line therapy:\nLambert-Eaton myasthenic syndrome\nMultiple sclerosis\n: acute CNS demyelination unresponsive to steroids\nRapidly progressive\nvasculitis\nCatastrophic thrombosis due to\nantiphospholipid syndrome\nAcute disseminated encephalomyelitis\nSevere\nsystemic lupus erythematosus\nMultiple myeloma\ncast nephropathy\nRBC alloimmunization in pregnancy\nMushroom Poisoning\nHemolytic uremic syndrome\nLess established, possible indications\nThyroid storm\nwhen antithyroid drugs ineffective or contraindicated\nPemphigus vulgaris\n(severe and refractory to first-line management)\nPyoderma gangrenosum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "Goodpasture syndrome",
+          "url": "https://wikem.org/wiki/Goodpasture_syndrome"
+        },
+        {
+          "text": "Chronic inflammatory demyelinating polyneuropathy",
+          "url": "https://wikem.org/wiki/Chronic_inflammatory_demyelinating_polyneuropathy"
+        },
+        {
+          "text": "autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        },
+        {
+          "text": "systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Mushroom Poisoning",
+          "url": "https://wikem.org/wiki/Mushroom_Poisoning"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Pyoderma gangrenosum",
+          "url": "https://wikem.org/wiki/Pyoderma_gangrenosum"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Hemodynamic instability\n,\nsepsis\n, or other conditions causing inability to tolerate fluid shifts\nInability to tolerate central line placement\nAllergy to\nFFP\nor albumin\nSevere\nhypocalcemia\n(citrate anticoagulant will precipitate calcium and worsen hypocalcemia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemodynamic instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Dialysis or pheresis catheter\nCentral line\nsupplies\nAutomated centrifuge or semipermeable membrane\nFFP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "See\ncentral line\nAdditional steps specific to device being used to apherese, consult specialist for this!",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Transfusion reactions\nAllergic transfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\n(rare in plasma exchange)\nFluid overload\nSepsis\nTransfusion infections\nImmunosuppression\nHypocalcemia\nComplications of\ncentral line\nplacement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reactions",
+          "url": "https://wikem.org/wiki/Transfusion_reactions"
+        },
+        {
+          "text": "Allergic transfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_transfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Transfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    }
+  }
+}

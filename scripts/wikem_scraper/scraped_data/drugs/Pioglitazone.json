@@ -1,0 +1,177 @@
+{
+  "drug_name": "Pioglitazone",
+  "url": "https://wikem.org/wiki/Pioglitazone",
+  "scraped_at": "2026-01-10T07:59:58.651413",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDiabetes medication\nDosage Forms: 15 mg, 30 mg, 45 mg\nRoutes of Administration: PO\nCommon Trade Names: Actos",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes medication",
+          "url": "https://wikem.org/wiki/Diabetes_medication"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "15-45 mg PO qd\nMax: 45 mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">15-30 mg PO qd\nStart with 15 mg PO qd\nMax: 45 mg/day\nGive with metformin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: No recommended\nRenal Dosing: no adjustment\nHepatic Dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Pregnancy_Rating"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPediatric patients <15 yo\nType 1 diabetes\nDKA\nActive bladder cancer\nCHF\n(symptomatic; NYHA Class III-IV)",
+      "subsections": {
+        "Caution": {
+          "text": "CHF\n(NYHA Class I-II)\nCHF\nRisk\nEdema\nHepatic impairment\nBladder cancer history\nPremenopausal anovulatory patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CHF\nHepatotoxicity\nDiabetic macular edema\nBladder cancer risk\nFractures (females)",
+          "tables": []
+        },
+        "Common": {
+          "text": "URI\nHeadache\nMyalgia\nWeight gain\nEdema\nFluid retention\nFlatulence\nAnemia\nOvulation induction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "CHF\nHepatotoxicity\nDiabetic macular edema\nBladder cancer risk\nFractures (females)",
+      "subsections": {
+        "Common": {
+          "text": "URI\nHeadache\nMyalgia\nWeight gain\nEdema\nFluid retention\nFlatulence\nAnemia\nOvulation induction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "URI\nHeadache\nMyalgia\nWeight gain\nEdema\nFluid retention\nFlatulence\nAnemia\nOvulation induction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-7 hrs; 16-24 hrs (metabolites)\nMetabolism: Liver (CYP450)\nExcretion: Urine; bile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases insulin sensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diabetes medication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes medication",
+          "url": "https://wikem.org/wiki/Diabetes_medication"
+        }
+      ]
+    },
+    "References": {
+      "text": "Pioglitazone [monograph]. Epocrates Version. 20.2 [iPhone]. Epocrates, Inc, San Francisco, CA. Available from\nhttps://online.epocrates.com/\n.  Accessed March 3, 2020.\nActos. Food and Drug Administration Web site.*\nhttps://www.accessdata.fda.gov/drugsatfda_docs/label/1999/21073lbl.pdf\n. Accessed March 3, 2020.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

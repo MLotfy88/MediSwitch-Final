@@ -1,0 +1,215 @@
+{
+  "drug_name": "Phlegmasia_cerulea_dolens",
+  "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens",
+  "scraped_at": "2026-01-10T07:59:54.529323",
+  "sections": {
+    "Background": {
+      "text": "\"Painful Blue Leg\"\nMassive iliofemoral occlusion due to venous thromboembolism\nExtensive vascular congestion and venous ischemia",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Age 50-60s\nMalignancy (20-40%)\nInherited thrombophilia\nPregnancy\nTrauma\n/surgery\nImmobilization\nIVC filter\n10% of cases are idiopathic and occur in patients without risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Age 50-60s\nMalignancy (20-40%)\nInherited thrombophilia\nPregnancy\nTrauma\n/surgery\nImmobilization\nIVC filter\n10% of cases are idiopathic and occur in patients without risk factors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sudden severe leg pain\nSwelling and edema (bleb/bullae)\nCyanosis\nVenous gangrene\nCompartment syndrome\nArterial compromise\nShock\nOften preceded by\nphlegmasia alba dolens",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Clinical_Spectrum_of_Venous_thromboembolism": {
+          "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[1]\n[2]\nCellulitis\nLymphedema\nVenous valvular insufficiency\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Clinical_Spectrum_of_Venous_thromboembolism": {
+      "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[1]\n[2]\nCellulitis\nLymphedema\nVenous valvular insufficiency\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nDuplex\nUS\nContrast venography",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "US",
+          "url": "https://wikem.org/wiki/Ultrasound:_DVT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "For mild, non-gangrenous form: Conservative management\nSteep limb elevation\nFluid resuscitation\nHeparin\n: 80-100U/kg followed by infusion of 15-18U/kg/hr\nVascular surgery consult for emergent thrombectomy\nInterventional radiology consult for emergent catheter-directed thrombolysis\nThrombolytic\ntherapy:\nAlteplase\n(1mg/min to total of 50mg) distal to thrombus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Thrombolytic",
+          "url": "https://wikem.org/wiki/Thrombolytic"
+        },
+        {
+          "text": "Alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Venous thromboembolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        }
+      ]
+    }
+  }
+}
