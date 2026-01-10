@@ -1,0 +1,1020 @@
+{
+  "drug_name": "Lightning_injuries",
+  "url": "https://wikem.org/wiki/Lightning_injuries",
+  "scraped_at": "2026-01-10T07:56:36.565308",
+  "sections": {
+    "Background": {
+      "text": "Second most common storm-related injury\nApproximately 30 million ground strikes per year",
+      "subsections": {
+        "Injury_Mechanisms": {
+          "text": "Direct effect of electrical current on body\nElectrical to thermal conversion of energy causing superficial and deep burns\nDirect strike = patient is hit directly by lightning current\nOften fatal and may cause penetrating injuries\n[2]\nSplash Injury = current \"splashes\" to the patient from another object which is struck first\nConduction =  patient is in contact with an object (e.g. metal fence, tree) that is struck by lightning\nGround current = Also known as step voltage. Occurs when the current spreads out from the initial strike point and then travels through the patient's body\nMost common mechanism of injury\nBlunt Trauma = Secondary injury pattern that results when the lightning causes a wave of force to propagate through the air to the patient or as a secondary object strikes the patient.",
+          "tables": []
+        },
+        "Prehospital_Care": {
+          "text": "Reverse triage\n= in lightning-related MCI cases, care should be delivered to patients in\ncardiac\nand respiratory arrest first\nPatients struck by lightning who are alive on EMS arrival will likely survive\n[1]\nAll patients should be transported, preferably to a burn center\nConsider spinal precautions in all patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Injury_Mechanisms": {
+      "text": "Direct effect of electrical current on body\nElectrical to thermal conversion of energy causing superficial and deep burns\nDirect strike = patient is hit directly by lightning current\nOften fatal and may cause penetrating injuries\n[2]\nSplash Injury = current \"splashes\" to the patient from another object which is struck first\nConduction =  patient is in contact with an object (e.g. metal fence, tree) that is struck by lightning\nGround current = Also known as step voltage. Occurs when the current spreads out from the initial strike point and then travels through the patient's body\nMost common mechanism of injury\nBlunt Trauma = Secondary injury pattern that results when the lightning causes a wave of force to propagate through the air to the patient or as a secondary object strikes the patient.",
+      "subsections": {
+        "Prehospital_Care": {
+          "text": "Reverse triage\n= in lightning-related MCI cases, care should be delivered to patients in\ncardiac\nand respiratory arrest first\nPatients struck by lightning who are alive on EMS arrival will likely survive\n[1]\nAll patients should be transported, preferably to a burn center\nConsider spinal precautions in all patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Prehospital_Care": {
+      "text": "Reverse triage\n= in lightning-related MCI cases, care should be delivered to patients in\ncardiac\nand respiratory arrest first\nPatients struck by lightning who are alive on EMS arrival will likely survive\n[1]\nAll patients should be transported, preferably to a burn center\nConsider spinal precautions in all patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Injuries often involve multiple organ systems\n[3]",
+      "subsections": {
+        "Cardiopulmonary": {
+          "text": "Both\ncardiac\nand\nrespiratory arrest\nmay be present without evidence of external injury\nVentricular dysrhythmias\n,\nasystole\n, and\nQT prolongation\nmost common\nAlthough cardiac automaticity may spontaneously return, apnea may persist\nDuration of apnea rather than cardiac arrest is the critical prognostic factor\nMyocardial infarction\nafter lightning injury is unusual",
+          "tables": []
+        },
+        "Neuro": {
+          "text": "Symptoms are usually immediate and transient or delayed and permanent\nSeizure\n,\nLOC\n,\nconfusion\n, amnesia, extremity\nparalysis\nPupillary dilation or anisocoria may occur that is unrelated to brain injury\nNeuroprognostication should not be based on dilated pupils alone in setting of lightning strike\n[4]\nKeraunoparalysis - neuromuscular \"stunning\" that usually resolves spontaneously within hours\nThought of as a neurologic phenomenon but actually result of arterial vasospasm from catecholamine release",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Vasomotor spasm may cause loss of distal pulses, coolness of extremities,\nloss of sensation\nKeraunoparalysis - see above",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Cataracts may occur weeks to years after injury (must document careful eye exam in all patients)\nOther injuries include\nvitreous hemorrhage\n,\ncorneal abrasion\n,\nretinal detachment",
+          "tables": []
+        },
+        "Auditory": {
+          "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+          "tables": []
+        },
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of sensation",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Cardiopulmonary": {
+      "text": "Both\ncardiac\nand\nrespiratory arrest\nmay be present without evidence of external injury\nVentricular dysrhythmias\n,\nasystole\n, and\nQT prolongation\nmost common\nAlthough cardiac automaticity may spontaneously return, apnea may persist\nDuration of apnea rather than cardiac arrest is the critical prognostic factor\nMyocardial infarction\nafter lightning injury is unusual",
+      "subsections": {
+        "Neuro": {
+          "text": "Symptoms are usually immediate and transient or delayed and permanent\nSeizure\n,\nLOC\n,\nconfusion\n, amnesia, extremity\nparalysis\nPupillary dilation or anisocoria may occur that is unrelated to brain injury\nNeuroprognostication should not be based on dilated pupils alone in setting of lightning strike\n[4]\nKeraunoparalysis - neuromuscular \"stunning\" that usually resolves spontaneously within hours\nThought of as a neurologic phenomenon but actually result of arterial vasospasm from catecholamine release",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Vasomotor spasm may cause loss of distal pulses, coolness of extremities,\nloss of sensation\nKeraunoparalysis - see above",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Cataracts may occur weeks to years after injury (must document careful eye exam in all patients)\nOther injuries include\nvitreous hemorrhage\n,\ncorneal abrasion\n,\nretinal detachment",
+          "tables": []
+        },
+        "Auditory": {
+          "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+          "tables": []
+        },
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of sensation",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Neuro": {
+      "text": "Symptoms are usually immediate and transient or delayed and permanent\nSeizure\n,\nLOC\n,\nconfusion\n, amnesia, extremity\nparalysis\nPupillary dilation or anisocoria may occur that is unrelated to brain injury\nNeuroprognostication should not be based on dilated pupils alone in setting of lightning strike\n[4]\nKeraunoparalysis - neuromuscular \"stunning\" that usually resolves spontaneously within hours\nThought of as a neurologic phenomenon but actually result of arterial vasospasm from catecholamine release",
+      "subsections": {
+        "Vascular": {
+          "text": "Vasomotor spasm may cause loss of distal pulses, coolness of extremities,\nloss of sensation\nKeraunoparalysis - see above",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Cataracts may occur weeks to years after injury (must document careful eye exam in all patients)\nOther injuries include\nvitreous hemorrhage\n,\ncorneal abrasion\n,\nretinal detachment",
+          "tables": []
+        },
+        "Auditory": {
+          "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+          "tables": []
+        },
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "loss of sensation",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Vascular": {
+      "text": "Vasomotor spasm may cause loss of distal pulses, coolness of extremities,\nloss of sensation\nKeraunoparalysis - see above",
+      "subsections": {
+        "Ocular": {
+          "text": "Cataracts may occur weeks to years after injury (must document careful eye exam in all patients)\nOther injuries include\nvitreous hemorrhage\n,\ncorneal abrasion\n,\nretinal detachment",
+          "tables": []
+        },
+        "Auditory": {
+          "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+          "tables": []
+        },
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "loss of sensation",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Ocular": {
+      "text": "Cataracts may occur weeks to years after injury (must document careful eye exam in all patients)\nOther injuries include\nvitreous hemorrhage\n,\ncorneal abrasion\n,\nretinal detachment",
+      "subsections": {
+        "Auditory": {
+          "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+          "tables": []
+        },
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Auditory": {
+      "text": "Blast effect producing\nTympanic Membrane Rupture\nis relatively common",
+      "subsections": {
+        "Derm": {
+          "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+          "tables": []
+        },
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tympanic Membrane Rupture",
+          "url": "https://wikem.org/wiki/Tympanic_Membrane_Rupture"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Derm": {
+      "text": "Lichtenberg figures (ferning pattern) - pathognomonic for lightning strike\nOccur due to electron showering over the skin leading to extravasation of RBC's, not a true burn; disappear within 24hr\nFlash\nburns\nSimilar to those found in arc welders; appear as mild erythema, may involve cornea\nPunctate burns\nLook similar to cigarette burns; are full-thickness\nContact burns\nOccur when metal close to the skin is heated from the lightning current",
+      "subsections": {
+        "Ortho": {
+          "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Ortho": {
+      "text": "Compartment Syndrome\nand\nrhabdomyolysis\nare unlikely due to short duration of lightning current\nAssociated with\nposterior shoulder dislocation",
+      "subsections": {
+        "Special_Populations": {
+          "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "50% of pregnancies have fetal demise, though literature is sparse\n[5]\nThird trimester appears to carry the greatest risk of adverse outcomes\nMost surviving fetuses have no long term morbidity when carried to term\nAny lightning strikes in pregnancy requires fetal monitoring, comprehensive testing in-hospital performed by Ob/Gyn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Blast injury",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blast injury",
+          "url": "https://wikem.org/wiki/Blast_injury"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Exposure: complete and thorough physical exam head to toe\nECG\nCBC\nChem\nTotal CK\nUA\n- to evaluate for myoglobinuria\nCT brain\n(for patients with\ncoma\n,\naltered mental status\n, confusion)\nOther imaging and workup is directed toward visible or suspected injuries",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        },
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Exposure: complete and thorough physical exam head to toe\nECG\nCBC\nChem\nTotal CK\nUA\n- to evaluate for myoglobinuria\nCT brain\n(for patients with\ncoma\n,\naltered mental status\n, confusion)\nOther imaging and workup is directed toward visible or suspected injuries",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        },
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Burn_Thickness_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Thickness": "Superficial (first-degree)",
+            "Deepest Skin Structure Involved": "Epidermis",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, 5-10 days",
+            "Image": ""
+          },
+          {
+            "Thickness": "Superficial Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, <3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Deep Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Full (third-degree)",
+            "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+            "Image": ""
+          },
+          {
+            "Thickness": "Fourth-degree",
+            "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+            "Expected Course": "Does not healFrequently requires amputation",
+            "Image": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Reverse triage - prolonged on-scene CPR and ACLS protocol is indicated even if there are no initial signs of life\nAggressive resuscitation\nLightning-induced\nCardiac Arrest\nhas better prognosis than CAD-induced\nCardiac Arrest\nHypotension\nis not an expected finding (i.e. suggests traumatic blood loss)\nMaintain cervical spine precautions\nTargeted Temperature Management\nbetween 32 and 36 degrees Celsius shown to be neuroprotective in setting of hypoxic ischemic encephalopathy after cardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Cardiac_Arrest"
+        },
+        {
+          "text": "Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Cardiac_Arrest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Targeted Temperature Management",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit patients with persistent muscle pain or neuro, cardiac rhythm, or vascular abnormalities\nDischarged patients require follow up to assess for delayed effects of lightning injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Electrical Injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Electrical Injuries",
+          "url": "https://wikem.org/wiki/Electrical_Injuries"
+        }
+      ]
+    }
+  }
+}

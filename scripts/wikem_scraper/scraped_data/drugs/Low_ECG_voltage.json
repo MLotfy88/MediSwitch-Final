@@ -1,0 +1,190 @@
+{
+  "drug_name": "Low_ECG_voltage",
+  "url": "https://wikem.org/wiki/Low_ECG_voltage",
+  "scraped_at": "2026-01-10T07:56:44.208585",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "General_Causes": {
+          "text": "Fluid, fat or air attenuating signal\nMyocardial infiltration\nLoss of viable myocardium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Causes": {
+      "text": "Fluid, fat or air attenuating signal\nMyocardial infiltration\nLoss of viable myocardium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Frequently asymptomatic, depends on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiac": {
+          "text": "Post-\nMI\nInfiltrative cardiomyopathy\nMyocarditis\nHypothyroidism",
+          "tables": []
+        },
+        "Pericardial": {
+          "text": "Effusion\nConstrictive\npericarditis\nPneumopericardium",
+          "tables": []
+        },
+        "Extracardiac": {
+          "text": "COPD\n(limb leads)\nPneumomediastinum\nPneumothorax\nPleural effusion\nPulmonary edema\nPeripheral edema\nObesity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Low_ECG_voltage": {
+      "text": "",
+      "subsections": {
+        "Cardiac": {
+          "text": "Post-\nMI\nInfiltrative cardiomyopathy\nMyocarditis\nHypothyroidism",
+          "tables": []
+        },
+        "Pericardial": {
+          "text": "Effusion\nConstrictive\npericarditis\nPneumopericardium",
+          "tables": []
+        },
+        "Extracardiac": {
+          "text": "COPD\n(limb leads)\nPneumomediastinum\nPneumothorax\nPleural effusion\nPulmonary edema\nPeripheral edema\nObesity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\n[1]\nQRS < 5 mm in limb leads\nQRS < 10 mm in chest leads",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG Basics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG Basics",
+          "url": "https://wikem.org/wiki/ECG_Basics"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Low Voltage ECG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

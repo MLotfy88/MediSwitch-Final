@@ -1,0 +1,36 @@
+{
+  "drug_name": "Liver_function_tests",
+  "url": "https://wikem.org/wiki/Liver_function_tests",
+  "scraped_at": "2026-01-10T07:56:35.022658",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Normal_Values": {
+          "text": "ALT\n: 7 - 55  U/L\nAST\n: 8 - 48 U/L\nAlk Phos\n: 45 - 115 U/L\nAlbumin\n: 3.5 to 5.0 g/dL\nTotal protein\n: 6.3 - 7.9 g/dL\nBilirubin\n: 0.1 - 1.2 mg/dL\nGGT\n: 9 - 48 U/L\nLDH\n: 122 - 222 U/L\nPT\n: 11 - 14 seconds\nPTT\n: 25 - 35 seconds\nINR\n: 0.8 - 1.2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Values": {
+      "text": "ALT\n: 7 - 55  U/L\nAST\n: 8 - 48 U/L\nAlk Phos\n: 45 - 115 U/L\nAlbumin\n: 3.5 to 5.0 g/dL\nTotal protein\n: 6.3 - 7.9 g/dL\nBilirubin\n: 0.1 - 1.2 mg/dL\nGGT\n: 9 - 48 U/L\nLDH\n: 122 - 222 U/L\nPT\n: 11 - 14 seconds\nPTT\n: 25 - 35 seconds\nINR\n: 0.8 - 1.2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Alkaline_Phosphatase": {
+      "text": "Predominantly found in the liver, bile ducts, kidney, and bones\nBecause of its abundant production in biliary duct tissue, elevation reflects a problem with biliary stasis or obstruction\nElevation may also occur in patients with increased bone turnover (e.g. 2/2 puberty, osteoporosis, hyperparathyroidism, Paget's disease, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "LITFL LFTs\nMDCalc - MELD Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

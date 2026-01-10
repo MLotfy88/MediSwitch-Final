@@ -1,0 +1,233 @@
+{
+  "drug_name": "Lisfranc_injury",
+  "url": "https://wikem.org/wiki/Lisfranc_injury",
+  "scraped_at": "2026-01-10T07:56:33.104796",
+  "sections": {
+    "Background": {
+      "text": "Lisfranc Injury = any fracture or dislocation of the tarsal-metatarsal joint\nLisfranc ligament attaches 2nd metatarsal to medial cuneiform\n2nd metatarsal is held in mortice created by the three cuneiform bones\nInjury to 2nd metatarsal often results in dislocation of the other MTs\nDorsalis pedis may be injured in severe dislocation",
+      "subsections": {
+        "Epidemiology": {
+          "text": "20% are missed on first presentation to ED\nUp to 1/3 of inuries are from minor slip/fall",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "20% are missed on first presentation to ED\nUp to 1/3 of inuries are from minor slip/fall",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Inability to bear weight (especially on tiptoe)\nTenderness over tarsometatarsal region\nPain with pronation and passive abduction of the midfoot\nEcchymosis of plantar section of midfoot is highly suggestive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Fracture of base of second metatarsal is pathognomonic\nAP\nMedial margin of 2nd metatarsal base does not align with medial margin of 2nd cuneiform\nBony displacement 1mm or greater between bases of first and second metatarsals is considered unstable\nOblique\nMedial margin of 3rd metatarsal does not align with medial margin of 3rd cuneiform\nLateral\n2nd metatarsal is higher than middle cuneiform (step-off)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Treatment_&_Disposition": {
+      "text": "Most Lisfranc fractures require eventual surgery",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Sprains and non-displaced fractures:\nNon-weightbearing splint with ortho follow up (most managed with cast x 6 weeks)\nPosterior Ankle Splint\nDisplaced fractures:\nEmergent ortho consult\nWhen diagnosed appropriately, patients who undergo open reduction and internal fixation of fractures have superior outcomes to those with purely ligamentous injury.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Sprains and non-displaced fractures:\nNon-weightbearing splint with ortho follow up (most managed with cast x 6 weeks)\nPosterior Ankle Splint\nDisplaced fractures:\nEmergent ortho consult\nWhen diagnosed appropriately, patients who undergo open reduction and internal fixation of fractures have superior outcomes to those with purely ligamentous injury.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Sprains and non-displaced fractures:\nNon-weightbearing splint with ortho follow up (most managed with cast x 6 weeks)\nPosterior Ankle Splint\nDisplaced fractures:\nEmergent ortho consult\nWhen diagnosed appropriately, patients who undergo open reduction and internal fixation of fractures have superior outcomes to those with purely ligamentous injury.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Foot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    }
+  }
+}

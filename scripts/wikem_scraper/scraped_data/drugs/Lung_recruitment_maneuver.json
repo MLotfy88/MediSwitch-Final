@@ -1,0 +1,363 @@
+{
+  "drug_name": "Lung_recruitment_maneuver",
+  "url": "https://wikem.org/wiki/Lung_recruitment_maneuver",
+  "scraped_at": "2026-01-10T07:56:45.859193",
+  "sections": {
+    "Background": {
+      "text": "Controversial in terms of safety and efficacy\nNo mortality/morbidity outcome benefits\n[1]\nMay be of more benefit to extra-pulmonary ARDS than to pulmonary ARDS\nMultiple methods reported\nBelow is only one method (Starcase Recruitment Maneuver)\nRefer to your RT for hospital protocol\nProning patient is considered a recruitment maneuver\nIndication:\nsevere\nARDS\n< 1 wk, before onset of fibro-proliferation\n[2]\n[3]\nGoals to recruit alveoli, maintain with PEEP at the derecruitment point, prevent cyclic collapse/VILI\nImproving hypoxemia via recruitment\nDecrease\nventilator-induced lung injury\n(VILI)\nDerecruitment of alveoli occurs due to\n[4]\n:\nStandard low TV ventilation in ARDS\nInsufficient PEEP\nHigh FiO2 absorptive atelectasis\nBiotrauma and cytokine release (VILI) occur due to:\nDependent areas of airway are collapsed throughout TVs\nCyclic collapse causes shear injury atelectrauma with each breath\nLeast dependent areas inflated throughout TVs are also easily hyperinflated causing volutrauma and barotrauma, especially in:\nTVs > 6 cc/kg\nPplat > 30-35 cmH2O",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "ventilator-induced lung injury",
+          "url": "https://wikem.org/wiki/Ventilator-induced_lung_injury"
+        }
+      ]
+    },
+    "Risks": {
+      "text": "May only be temporary benefit\nHemodynamic instability\nwith drop off in preload\nCO2 retention\nMay worsen oxygenation by shunting blood to poorly aerated lung (opposing physiological hypoxic pulmonary vasoconstriction)\nMay worsen\nventilator-induced lung injury\nwith volutrauma/barotrauma\nPneumothorax\nContraindications\nUnstable BP\npneumothorax\nor high risk of pneumothorax (blebs, necrotising pneumonia)\nARDS\n> 1 wk (relative contraindication)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemodynamic instability",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CO2 retention",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "ventilator-induced lung injury",
+          "url": "https://wikem.org/wiki/Ventilator-induced_lung_injury"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Goal is to find the\nderecruitment point",
+      "subsections": {
+        "Failure": {
+          "text": "Before attempting, know when the maneuver should be stopped\nStop and return to baseline PCV settings if:\nHR < 60 bpm\nHR > 140 bpm\nNew\ndysrhythmia\non monitor (may indicate significant respiratory acid-base shift)\nSBP < 80 mmHg\nSustained SaO2 < 85%\nDrop in dynamic compliance (pneumothorax)",
+          "tables": []
+        },
+        "Preparation": {
+          "text": "May require increased sedation or paralysis\nOptimize preload (maneuver decreases preload)\nMaintain a very reliable, good waveform SpO2 (that matches ABG SaO2)\n14 ga needles x2 in case of\npneumothorax\nRecord baseline vital signs and initial ventilator settings\nI:E to 1:1\nAdjust FiO2 to SaO2 90-92%\nTake note of dynamic compliance levels\nPressure control ventilation using current rate, PEEP, FiO2 before maneuver\nAdjust PC level above PEEP to start at TV of 6 cc/kg for 2 minutes\nThen set PC level (Pi) to 15 cmH2O above PEEP and maintain this difference throughout initial recruitment\nAdjust RR to maintain appropriate minute ventilation",
+          "tables": []
+        },
+        "Increasing_PEEP": {
+          "text": "Increase PEEP to 15 cmH2O\nSet PC level to 15 cmH2O above PEEP\nMaintain this difference between PEEP and PC level (Pi)\nIncrease q2 minutes PEEP to 20 → 30 → 40 cmH2O\nPi will reach 55 cmH2O\nNote maximum SaO2 obtained\nTreat SBP drops as necessary, but halt procedure if > 20% SBP drop despite pressors/fluids\nIncrease PIP as necessary\nMaintain minute ventilation\nReduce RR before PIP increase since TV will increase",
+          "tables": []
+        },
+        "Reducing_PEEP": {
+          "text": "Reduce q3 minutes PEEP to 25 → 22.5 → 20 → 17.5 cmH2O\nRemember that SpO2 monitor displays results up to 1-2 min after clinical change\nUntil:\nDecrease in SaO2 of 1% from maximum SaO2 observed, which is the\nderecruitment point\nOR\nminimum of 15 cmH2O PEEP reached",
+          "tables": []
+        },
+        "Re-recruitment": {
+          "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Failure": {
+      "text": "Before attempting, know when the maneuver should be stopped\nStop and return to baseline PCV settings if:\nHR < 60 bpm\nHR > 140 bpm\nNew\ndysrhythmia\non monitor (may indicate significant respiratory acid-base shift)\nSBP < 80 mmHg\nSustained SaO2 < 85%\nDrop in dynamic compliance (pneumothorax)",
+      "subsections": {
+        "Preparation": {
+          "text": "May require increased sedation or paralysis\nOptimize preload (maneuver decreases preload)\nMaintain a very reliable, good waveform SpO2 (that matches ABG SaO2)\n14 ga needles x2 in case of\npneumothorax\nRecord baseline vital signs and initial ventilator settings\nI:E to 1:1\nAdjust FiO2 to SaO2 90-92%\nTake note of dynamic compliance levels\nPressure control ventilation using current rate, PEEP, FiO2 before maneuver\nAdjust PC level above PEEP to start at TV of 6 cc/kg for 2 minutes\nThen set PC level (Pi) to 15 cmH2O above PEEP and maintain this difference throughout initial recruitment\nAdjust RR to maintain appropriate minute ventilation",
+          "tables": []
+        },
+        "Increasing_PEEP": {
+          "text": "Increase PEEP to 15 cmH2O\nSet PC level to 15 cmH2O above PEEP\nMaintain this difference between PEEP and PC level (Pi)\nIncrease q2 minutes PEEP to 20 → 30 → 40 cmH2O\nPi will reach 55 cmH2O\nNote maximum SaO2 obtained\nTreat SBP drops as necessary, but halt procedure if > 20% SBP drop despite pressors/fluids\nIncrease PIP as necessary\nMaintain minute ventilation\nReduce RR before PIP increase since TV will increase",
+          "tables": []
+        },
+        "Reducing_PEEP": {
+          "text": "Reduce q3 minutes PEEP to 25 → 22.5 → 20 → 17.5 cmH2O\nRemember that SpO2 monitor displays results up to 1-2 min after clinical change\nUntil:\nDecrease in SaO2 of 1% from maximum SaO2 observed, which is the\nderecruitment point\nOR\nminimum of 15 cmH2O PEEP reached",
+          "tables": []
+        },
+        "Re-recruitment": {
+          "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Preparation": {
+      "text": "May require increased sedation or paralysis\nOptimize preload (maneuver decreases preload)\nMaintain a very reliable, good waveform SpO2 (that matches ABG SaO2)\n14 ga needles x2 in case of\npneumothorax\nRecord baseline vital signs and initial ventilator settings\nI:E to 1:1\nAdjust FiO2 to SaO2 90-92%\nTake note of dynamic compliance levels\nPressure control ventilation using current rate, PEEP, FiO2 before maneuver\nAdjust PC level above PEEP to start at TV of 6 cc/kg for 2 minutes\nThen set PC level (Pi) to 15 cmH2O above PEEP and maintain this difference throughout initial recruitment\nAdjust RR to maintain appropriate minute ventilation",
+      "subsections": {
+        "Increasing_PEEP": {
+          "text": "Increase PEEP to 15 cmH2O\nSet PC level to 15 cmH2O above PEEP\nMaintain this difference between PEEP and PC level (Pi)\nIncrease q2 minutes PEEP to 20 → 30 → 40 cmH2O\nPi will reach 55 cmH2O\nNote maximum SaO2 obtained\nTreat SBP drops as necessary, but halt procedure if > 20% SBP drop despite pressors/fluids\nIncrease PIP as necessary\nMaintain minute ventilation\nReduce RR before PIP increase since TV will increase",
+          "tables": []
+        },
+        "Reducing_PEEP": {
+          "text": "Reduce q3 minutes PEEP to 25 → 22.5 → 20 → 17.5 cmH2O\nRemember that SpO2 monitor displays results up to 1-2 min after clinical change\nUntil:\nDecrease in SaO2 of 1% from maximum SaO2 observed, which is the\nderecruitment point\nOR\nminimum of 15 cmH2O PEEP reached",
+          "tables": []
+        },
+        "Re-recruitment": {
+          "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Increasing_PEEP": {
+      "text": "Increase PEEP to 15 cmH2O\nSet PC level to 15 cmH2O above PEEP\nMaintain this difference between PEEP and PC level (Pi)\nIncrease q2 minutes PEEP to 20 → 30 → 40 cmH2O\nPi will reach 55 cmH2O\nNote maximum SaO2 obtained\nTreat SBP drops as necessary, but halt procedure if > 20% SBP drop despite pressors/fluids\nIncrease PIP as necessary\nMaintain minute ventilation\nReduce RR before PIP increase since TV will increase",
+      "subsections": {
+        "Reducing_PEEP": {
+          "text": "Reduce q3 minutes PEEP to 25 → 22.5 → 20 → 17.5 cmH2O\nRemember that SpO2 monitor displays results up to 1-2 min after clinical change\nUntil:\nDecrease in SaO2 of 1% from maximum SaO2 observed, which is the\nderecruitment point\nOR\nminimum of 15 cmH2O PEEP reached",
+          "tables": []
+        },
+        "Re-recruitment": {
+          "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reducing_PEEP": {
+      "text": "Reduce q3 minutes PEEP to 25 → 22.5 → 20 → 17.5 cmH2O\nRemember that SpO2 monitor displays results up to 1-2 min after clinical change\nUntil:\nDecrease in SaO2 of 1% from maximum SaO2 observed, which is the\nderecruitment point\nOR\nminimum of 15 cmH2O PEEP reached",
+      "subsections": {
+        "Re-recruitment": {
+          "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Re-recruitment": {
+      "text": "Increase PEEP step-wise q2 minutes to 40 cmH2O again\nMaintain PEEP at 40 cmH2O for 2 minutes\nReturn to PEEP level 2-4 cmH2O above\ndecruitment point\nAdjust TV 4-6 cc/kg and plateau pressures < 30 cmH2O\nTolerate permissive hypercapnia if pH > 7.15\nMay increase RR up to maximum of 38 bpm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adjuncts": {
+      "text": "Inhaled nitric oxide\n(iNO)\nEpoprostenol (prostacyclin)\n(Flolan)\nExtracorporeal membrane oxygenation\nHigh frequency oscillation ventilation\n(HFOV)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled nitric oxide",
+          "url": "https://wikem.org/wiki/Inhaled_nitric_oxide"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Extracorporeal membrane oxygenation",
+          "url": "https://wikem.org/wiki/Extracorporeal_membrane_oxygenation"
+        },
+        {
+          "text": "High frequency oscillation ventilation",
+          "url": "https://wikem.org/wiki/High_frequency_oscillation_ventilation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute respiratory distress syndrome\nVentilator associated lung injury",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    }
+  }
+}

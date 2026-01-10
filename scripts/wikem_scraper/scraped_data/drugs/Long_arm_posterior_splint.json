@@ -1,0 +1,92 @@
+{
+  "drug_name": "Long_arm_posterior_splint",
+  "url": "https://wikem.org/wiki/Long_arm_posterior_splint",
+  "scraped_at": "2026-01-10T07:56:39.896195",
+  "sections": {
+    "Background": {
+      "text": "Doesn’t completely eliminate supination / pronation\nEither add an anterior splint or use a\ndouble sugar tong splint\nif complex or unstable distal\nforearm fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "double sugar tong splint",
+          "url": "https://wikem.org/wiki/Double_sugar_tong_splint"
+        },
+        {
+          "text": "forearm fracture",
+          "url": "https://wikem.org/wiki/Forearm_fracture"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Elbow and forearm injuries\nOlecranon fracture\nDistal humerus fracture\nBoth-bone forearm fracture\nUnstable proximal radius or\nulna fracture\n(\nsugar-tong\nbetter)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Both-bone forearm fracture",
+          "url": "https://wikem.org/wiki/Both-bone_forearm_fracture"
+        },
+        {
+          "text": "ulna fracture",
+          "url": "https://wikem.org/wiki/Ulna_fracture"
+        },
+        {
+          "text": "sugar-tong",
+          "url": "https://wikem.org/wiki/Sugar-tong"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom proximal palmar crease along ulna\nFollowing the ulnar forearm\nPosterior side of flexed elbow\nPosterior proximal arm (3 inches away from axilla)\nKey anatomic positions\nElbow at 90º\nForearm in neutral position with thumb up\nWrist neutral or slightly extended (10–20º)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom proximal palmar crease along ulna\nFollowing the ulnar forearm\nPosterior side of flexed elbow\nPosterior proximal arm (3 inches away from axilla)\nKey anatomic positions\nElbow at 90º\nForearm in neutral position with thumb up\nWrist neutral or slightly extended (10–20º)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom proximal palmar crease along ulna\nFollowing the ulnar forearm\nPosterior side of flexed elbow\nPosterior proximal arm (3 inches away from axilla)\nKey anatomic positions\nElbow at 90º\nForearm in neutral position with thumb up\nWrist neutral or slightly extended (10–20º)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

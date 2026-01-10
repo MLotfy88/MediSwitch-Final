@@ -1,0 +1,307 @@
+{
+  "drug_name": "Lumbar_puncture",
+  "url": "https://wikem.org/wiki/Lumbar_puncture",
+  "scraped_at": "2026-01-10T07:56:47.801531",
+  "sections": {
+    "Indications": {
+      "text": "Suspicion of\nmeningitis\n[1]\nSuspicion of\nsubarachnoid hemorrhage\n(SAH)\n[2]\nSuspicion of certain central nervous system (CNS) diseases such as\nGuillain-Barré syndrome\n[3]\nTherapeutic relief of\npseudotumor cerebri\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Guillain-Barré syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barr%C3%A9_syndrome"
+        },
+        {
+          "text": "pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Infection\nat LP site\nSuspected\nspinal epidural abscess\nTrauma at the site",
+      "subsections": {
+        "Lumbar_puncture_if_coagulopathic": {
+          "text": "Tranfuse if platelets <25,000\n[5]\n[6]\nINR >1.5\nHemophilia, von Willebrand disease, other coagulopathies\nIf hemophiliac, replace factor before LP",
+          "tables": []
+        },
+        "CT_Before_Lumbar_Puncture": {
+          "text": "LP without CT is likely safe if:\n[7]\nHistory\nAge < 60\nNot immunocompromised\nNo history of CNS disease\nNo\nseizure\nwithin 1 week of presentation\nPhysical Exam\nNo\naltered level of consciousness\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nNormal\nneurologic exam\nIf none of the above, chance of normal ct is 97%; none of the patients herniated\nCT findings that prohibit LP:\n[8]\nMidline shift\nUnequal pressures between the 3 cerebral compartments (left/right supretentorial compartments, posterior fossa)\nIntracerebral masses not causing midline shift\nObstructive\nHydrocephalus\nEnlargement of ventricles prox to lesions and normal ventricles distal (especially 4th ventricle)\nBasilar cisterns compressed\nLateral/3rd ventricles may be small due to diffuse cerebral edema or enlarged due to obstr. hydroceph. +/- shift\nPosterior fossa mass\nDisplacement/compression of 4th ventricle",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "spinal epidural abscess",
+          "url": "https://wikem.org/wiki/Spinal_epidural_abscess"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Lumbar_puncture_if_coagulopathic": {
+      "text": "Tranfuse if platelets <25,000\n[5]\n[6]\nINR >1.5\nHemophilia, von Willebrand disease, other coagulopathies\nIf hemophiliac, replace factor before LP",
+      "subsections": {
+        "CT_Before_Lumbar_Puncture": {
+          "text": "LP without CT is likely safe if:\n[7]\nHistory\nAge < 60\nNot immunocompromised\nNo history of CNS disease\nNo\nseizure\nwithin 1 week of presentation\nPhysical Exam\nNo\naltered level of consciousness\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nNormal\nneurologic exam\nIf none of the above, chance of normal ct is 97%; none of the patients herniated\nCT findings that prohibit LP:\n[8]\nMidline shift\nUnequal pressures between the 3 cerebral compartments (left/right supretentorial compartments, posterior fossa)\nIntracerebral masses not causing midline shift\nObstructive\nHydrocephalus\nEnlargement of ventricles prox to lesions and normal ventricles distal (especially 4th ventricle)\nBasilar cisterns compressed\nLateral/3rd ventricles may be small due to diffuse cerebral edema or enlarged due to obstr. hydroceph. +/- shift\nPosterior fossa mass\nDisplacement/compression of 4th ventricle",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "CT_Before_Lumbar_Puncture": {
+      "text": "LP without CT is likely safe if:\n[7]\nHistory\nAge < 60\nNot immunocompromised\nNo history of CNS disease\nNo\nseizure\nwithin 1 week of presentation\nPhysical Exam\nNo\naltered level of consciousness\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nNormal\nneurologic exam\nIf none of the above, chance of normal ct is 97%; none of the patients herniated\nCT findings that prohibit LP:\n[8]\nMidline shift\nUnequal pressures between the 3 cerebral compartments (left/right supretentorial compartments, posterior fossa)\nIntracerebral masses not causing midline shift\nObstructive\nHydrocephalus\nEnlargement of ventricles prox to lesions and normal ventricles distal (especially 4th ventricle)\nBasilar cisterns compressed\nLateral/3rd ventricles may be small due to diffuse cerebral edema or enlarged due to obstr. hydroceph. +/- shift\nPosterior fossa mass\nDisplacement/compression of 4th ventricle",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Ultrasound can be used, especially on high BMI patients. Ultrasound videos\none\n,\ntwo\n, and\nthree\n. Routine use of Ultrasound, however, has not been shown to increase procedural success, use in specific scenarios only\n[9]\nSterile prep L3-L4 and L4-L5 interspaces; prepare and confirm correct tubes in numerical order\nU/S can be used to ID interspaces in obese patients increasing your accuracy as much as 2.3 times\n[10]\nAim lower than L4-L5 and no higher in pediatric patients as the conus medullaris ends at L3 at birth\n[11]\nTuffier's line, L5/S1 at iliac crests in the pediatric patient\nPositioning\nPatient on side: able to measure opening pressure\nPatient sitting: helpful for difficult habitus, but must move patient to measure opening pressure\nNeedle selection\n3.5 in atraumatic 22ga needle is ideal\nA 2018 meta analysis showed atraumatic needles had a lower incidence of post-LP headache and need for blood patch when compared to sharp needles\n[12]\nNeedle >20ga almost doubles incidence of post-LP headache\nAnesthetize both superficial skin as well as along intended path of LP needle\nInsert needle with bevel parallel to spinal canal\nOpening pressure should be measured with patient on side with legs extended\nCollect 1mL of CSF in each tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "CSF_Studies": {
+      "text": "",
+      "subsections": {
+        "Standard": {
+          "text": "Tube 1: Cell count and differential\nTube 2: Gram stain, bacterial and viral cultures\nTube 3: Glucose, protein, protein electrophoresis (if indicated)\nTube 4: Second cell count and differential (if indicated) or hold tube\nTube 3 or 4 can be used for special tests or additional cultures",
+          "tables": []
+        },
+        "Additional": {
+          "text": "Cryptoccal ag\nIndia ink\nAFB PCR\nRPR, VRDL\nFungal cultures\nviral cultures\nHerpes PCR\nLDH\n>40 suggests bacterial meningitis\n<40 suggests viral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Standard": {
+      "text": "Tube 1: Cell count and differential\nTube 2: Gram stain, bacterial and viral cultures\nTube 3: Glucose, protein, protein electrophoresis (if indicated)\nTube 4: Second cell count and differential (if indicated) or hold tube\nTube 3 or 4 can be used for special tests or additional cultures",
+      "subsections": {
+        "Additional": {
+          "text": "Cryptoccal ag\nIndia ink\nAFB PCR\nRPR, VRDL\nFungal cultures\nviral cultures\nHerpes PCR\nLDH\n>40 suggests bacterial meningitis\n<40 suggests viral",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Additional": {
+      "text": "Cryptoccal ag\nIndia ink\nAFB PCR\nRPR, VRDL\nFungal cultures\nviral cultures\nHerpes PCR\nLDH\n>40 suggests bacterial meningitis\n<40 suggests viral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "^Normal or lower WBC results may be found in immunocompromised, early, or partially treated (e.g. with oral antibiotics) bacterial menintigis, and those with tuberculosis meningitis\n^^Lymph predominance may be found in patients with early bacterial meningitis or those that have been partially treated (e.g. with oral antibiotics)\n^^^For unexplained elevations of protein, consider\nencephalitis\n,\nMS\n,\nGuillian Barre\nCorrections\nWBC correction (for bloody tap)\nSimplified version (if peripheral WBC and RBC counts are within normal limits):\nSubtract 1 WBC for every 750 RBC in CSF\nComplex version (WBC and/or RBC not within normal limits):\n\"WBCs added\" = WBC(blood) x [RBC(CSF) / RBC(blood)]\nWBC counted/resulted - \"WBCs added\" = actual WBC\nProtein correction (for bloody tap)\nFor each 1000 RBC decrease protein value by 1mg/dl",
+      "subsections": {
+        "Delay_in_LP": {
+          "text": "CSF cultures are negative\n2 hrs\nafter parenteral antibiotics in meningococcal meningitis, and\n6 hrs\nin pneumococcal meningitis\n[13]\n[14]\n12 hrs after antibiotics: CSF glucose levels increase and protein levels decrease. CSF WBC and neutrophils are not affected\n[15]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Measure": "Appearance",
+            "Normal": "Clear",
+            "Bacterial": "Clear, cloudy, or purulent",
+            "Aseptic (Viral)": "Clear",
+            "Fungal": "Clear or opaque",
+            "Tuberculosis": "Clear or opaque",
+            "Subarachnoid hemorrhage": "Xanthochromia, bloody, or clear",
+            "Neoplastic": "Clear or opaque"
+          },
+          {
+            "Measure": "Opening Pressure (cm H2O)",
+            "Normal": "10-20",
+            "Bacterial": ">25",
+            "Aseptic (Viral)": "Normal or elevated",
+            "Fungal": ">25",
+            "Tuberculosis": ">25",
+            "Subarachnoid hemorrhage": ">25",
+            "Neoplastic": "Normal or elevated"
+          },
+          {
+            "Measure": "WBC Count^ (cells/µL)",
+            "Normal": "0-5^",
+            "Bacterial": ">100^",
+            "Aseptic (Viral)": "5-1000",
+            "Fungal": "<500",
+            "Tuberculosis": "50-500",
+            "Subarachnoid hemorrhage": "0-5 (see correction section)",
+            "Neoplastic": "<500"
+          },
+          {
+            "Measure": "% PMNs",
+            "Normal": "",
+            "Bacterial": ">80-90%",
+            "Aseptic (Viral)": "1-50%^^",
+            "Fungal": "1-50%",
+            "Tuberculosis": "Early PMN then lymph",
+            "Subarachnoid hemorrhage": "",
+            "Neoplastic": "1-50%"
+          },
+          {
+            "Measure": "Glucose",
+            "Normal": ">60% of serum glucose",
+            "Bacterial": "Low",
+            "Aseptic (Viral)": "Normal",
+            "Fungal": "Low",
+            "Tuberculosis": "Low",
+            "Subarachnoid hemorrhage": "Normal",
+            "Neoplastic": "Normal"
+          },
+          {
+            "Measure": "Protein^^^ (mg/dL)",
+            "Normal": "< 45",
+            "Bacterial": "Elevated",
+            "Aseptic (Viral)": "Elevated",
+            "Fungal": "Elevated",
+            "Tuberculosis": "Elevated",
+            "Subarachnoid hemorrhage": "Elevated",
+            "Neoplastic": ">200"
+          },
+          {
+            "Measure": "Gram Stain",
+            "Normal": "Neg",
+            "Bacterial": "Pos",
+            "Aseptic (Viral)": "Neg",
+            "Fungal": "India ink",
+            "Tuberculosis": "Tb stain",
+            "Subarachnoid hemorrhage": "Blood",
+            "Neoplastic": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Guillian Barre",
+          "url": "https://wikem.org/wiki/Guillian_Barre"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Post-Lumbar Puncture Headache\nSpinal epidural hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-Lumbar Puncture Headache",
+          "url": "https://wikem.org/wiki/Post-Lumbar_Puncture_Headache"
+        },
+        {
+          "text": "Spinal epidural hematoma",
+          "url": "https://wikem.org/wiki/Spinal_epidural_hematoma"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Meningitis\nCT Before Lumbar Puncture\nProcedure sample documentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "Procedure sample documentation",
+          "url": "https://wikem.org/wiki/Procedure_sample_documentation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Straus, S. et al. How Do I Perform a Lumbar Puncture and Analyze the Results to Diagnose Bacterial Meningitis?",
+      "subsections": {
+        "Videos": {
+          "text": "Adult\nNEJM (10:59)\nhttps://www.nejm.org/doi/full/10.1056/NEJMvcm054952\nMellick (3:14)\nhttps://www.youtube.com/watch?v=grpeEDBMrn8\nNeonatal\nSachetti (5:44)\nhttps://www.youtube.com/watch?v=xvVIhFZeUnY&list=UUHaNQfnfpRdsqMdEBLlFaCw&index=21&feature=plcp",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "Adult\nNEJM (10:59)\nhttps://www.nejm.org/doi/full/10.1056/NEJMvcm054952\nMellick (3:14)\nhttps://www.youtube.com/watch?v=grpeEDBMrn8\nNeonatal\nSachetti (5:44)\nhttps://www.youtube.com/watch?v=xvVIhFZeUnY&list=UUHaNQfnfpRdsqMdEBLlFaCw&index=21&feature=plcp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

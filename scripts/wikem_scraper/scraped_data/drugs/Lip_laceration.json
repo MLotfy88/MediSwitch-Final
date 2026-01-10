@@ -1,0 +1,312 @@
+{
+  "drug_name": "Lip_laceration",
+  "url": "https://wikem.org/wiki/Lip_laceration",
+  "scraped_at": "2026-01-10T07:56:34.558285",
+  "sections": {
+    "Background": {
+      "text": "In cross section, is composed of three layers:\nMucosal layer (within the oral cavity)\nMiddle muscular layer (orbicularis oris)\nOuter mucosal layer\nWet vermillion (internal oral)\nDry vermillion (external oral)\nThe vermillion border is the cosmetic outline of the lip where the facial skin meets the vermillion. Light reflects at this junction, so small misalignments may cause noticeable defects.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Antibiotics not routinely given, but may be indicated for through and though lip lacerations\nConsider updating tetanus\nVermillion border and philtrum architecture must be maintained for cosmesis\nInfiltration of local anesthetic can distort soft tissue\nConsider\nNerve Block: Infraorbital\nfor upper lip,\nNerve Block: Mental\nfor lower lip\nConsider marking vermillion border prior to infiltration of anesthetic to facilitate repair",
+      "subsections": {
+        "Intraoral_mucosal_laceration_(isolated)": {
+          "text": "Only need to close if >1cm\nUse absorbable 5-0 suture\nAvoid catching underlying muscle during suturing",
+          "tables": []
+        },
+        "Through-and-through_laceration": {
+          "text": "Close in layers:\nClose mucosal layer with absorbable 5-0 suture\nIrrigate from outside\nClose orbicularis oris muscle with 4-0 or 5-0 absorbable suture\nClose skin with 6-0 nonabsorbable suture",
+          "tables": []
+        },
+        "Vermilion_border_laceration": {
+          "text": "Place 1st stitch with 6-0 nonabsorbable suture to align edges of vermilion border\nThen repair rest of lip in usual manner",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nerve Block: Infraorbital",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Infraorbital"
+        },
+        {
+          "text": "Nerve Block: Mental",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Mental"
+        }
+      ]
+    },
+    "Through-and-through_laceration": {
+      "text": "Close in layers:\nClose mucosal layer with absorbable 5-0 suture\nIrrigate from outside\nClose orbicularis oris muscle with 4-0 or 5-0 absorbable suture\nClose skin with 6-0 nonabsorbable suture",
+      "subsections": {
+        "Vermilion_border_laceration": {
+          "text": "Place 1st stitch with 6-0 nonabsorbable suture to align edges of vermilion border\nThen repair rest of lip in usual manner",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vermilion_border_laceration": {
+      "text": "Place 1st stitch with 6-0 nonabsorbable suture to align edges of vermilion border\nThen repair rest of lip in usual manner",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Re-evaluation of wound in 48-72 hours\nRemoval of non-absorbable sutures in 3-5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Laceration repair",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rosens Chapter 42 - Facial Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

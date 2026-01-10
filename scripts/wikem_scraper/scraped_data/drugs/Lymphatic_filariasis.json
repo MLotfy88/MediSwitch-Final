@@ -1,0 +1,80 @@
+{
+  "drug_name": "Lymphatic_filariasis",
+  "url": "https://wikem.org/wiki/Lymphatic_filariasis",
+  "scraped_at": "2026-01-10T07:56:46.763968",
+  "sections": {
+    "Background": {
+      "text": "Also known as elephantiasis\nCausative agents (transmitted by mosquito):\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nNo known natural animal reservoir\n[1]\nLarvae migrate to lymphatic vessels and mature into adults (can take 6-12 months\n[1]\n)\nThese worms block lymphatic vessels, which causes the clinical presentation of the disease\nCoinfection is common (filiariae cause immunosuppression and allows for malaria and/or TB to thrive)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "2/3 will be asymptomatic\n[2]\nChronic infection leads to massive peripheral edema with thickening of overlying skin particularly in lower extremities and genitalia\nRecurrent\ncellulitis\nis common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Establish possible exposure in endemic areas\nSerology (peripheral blood) - draw at night due to periodicity of filiariae\nTests for\nW. bancrofti\nPCR\nAntigen detection\nUltrasound may occasionally show movement of adult filiariae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Meticulous skin care to prevent superinfection/cellulitis",
+      "subsections": {
+        "Diethylcarbamazine_(DEC)": {
+          "text": "Day 1: 50mg PO\nDay 2: 50mg TID\nDay 3: 100mg TID\nDays 4-21: 6mg/kg/day divided TID",
+          "tables": []
+        },
+        "Ivermectin_+_Albendazole": {
+          "text": "Combined treatment with diethylcarbamazine/albendazole may be more effective than single drug treatment",
+          "tables": []
+        },
+        "Surgical": {
+          "text": "Surgical management of scrotal elephantiasis and chronic lymphatic obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Surgical": {
+      "text": "Surgical management of scrotal elephantiasis and chronic lymphatic obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally may be discharged unless complicated by other factors.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic Diseases\nTravel Medicine\nWorm Infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Worm Infections",
+          "url": "https://wikem.org/wiki/Worm_Infections"
+        }
+      ]
+    }
+  }
+}

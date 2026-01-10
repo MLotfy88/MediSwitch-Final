@@ -1,0 +1,966 @@
+{
+  "drug_name": "Lyme_disease",
+  "url": "https://wikem.org/wiki/Lyme_disease",
+  "scraped_at": "2026-01-10T07:56:50.230353",
+  "sections": {
+    "Background": {
+      "text": "Caused by spirochete\nBorrelia burgdorferi\nTypically carried on Ixodes scapularis aka Deer tick\nThe spirochete\nBorrelia mayonii\nhas been a new strain implicated in cases in the midwest\n[1]\nEndemic to the northeastern US\nPeak time of infection is May to August\nStages: Early localized infection, early disseminated, and late disseminated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "3 Distinct Stages - Not all patients suffer all stages, and stages may overlap with remissions between stages",
+      "subsections": {
+        "Early_Localized_Infection_(7-14_Days)": {
+          "text": "Erythema Chronicum Migrans: Occurs at site of tick bite, beginning with red macule that expands outward. Starts 3-30 days after bite and occurs in 70-80% of cases\nErythema migrans rash more often without central clearing\nFatigue, low grade\nfever\n, migrating\narthralgia\n, lymphadenopathy,\nheadache\n, nausea/\nvomiting\n,\nabdominal pain",
+          "tables": []
+        },
+        "Early_Disseminated_Infection_(Days_to_Weeks)": {
+          "text": "Skin- Multiple annular lesions that spare the palm and soles\nNervous System-fluctuating\nmeningoencephalitis\n,\nheadache\n,\nnausea/vomiting\n,\ncranial nerve palsies\n(ie 7th-can be bilateral) peripheral neuropathy, radiculopathy\nCardiovascular:\nAV blocks\n,\nRBBB\n,\ndysrhythmias\n, LV dysfunction\nEye:\nConjunctivitis\n, keratitis,\nretinal detachment\n,\noptic neuritis",
+          "tables": []
+        },
+        "Late_Disseminated_Infection_(Months_to_Years)": {
+          "text": "Arthritis: Monarticularule outligoarticular asymmetric arthritis (large joints-commonly knee)\nBrief episodes separated with complete remission\nMigratory pattern may occur\nNervous System: Subtle encephalopathy, fatigue, polyneuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningoencephalitis"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Enterovirus\nHepatitis\nMononucleosis\nConnective tissue disease\nErythema Multiforme\nCAD\nAcute rheumatic fever\nAseptic\nMeningitis\nHSV\nencephalitis\nBell's Palsy\nMultiple Sclerosis\nGuillain-Barre\nCerebral vasculitis",
+      "subsections": {
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        },
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Erythema Multiforme",
+          "url": "https://wikem.org/wiki/Erythema_Multiforme"
+        },
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ELISA if positive obtain confirmatory Western blot\nPCR\nCultures, serologies\nLP with lymphocytic pleocytosis, elevated protein, normal glucose, + spirochete antibody, paired serum/CSF serologic tests,PCR\nMust be performed in patients with neuro findings (facial nerve palsy, meningoencephalitis, etc)\nCNS Lyme disease will be treated with ceftriaxone\nArthrocentesis, serologic testing of fluid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "No risk when duration of attachment <24 hrs",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "Adult:\nDoxycycline\n200mg PO x1\nChild >8: 4mg/kg up to 200mg PO x1\nGive if all of the following are met:\nTick is adult/nymphal\nI. scapularis\nTick was attached >36 hours based on degree of engorgement or exposure time\nProphylaxis can be given within 72 hrs after time tick was removed\nLocal rate of infection in ticks >20%\nDoxycycline is not contraindicated\nOld vaccine has little to no efficacy after 1 year",
+          "tables": []
+        },
+        "Early_Localized_Infection": {
+          "text": "Treat before serologic testing if endemic area if + erythema migrans rash\nDoxycycline\n100 mg PO BID x 10 days\n[3]\nAcceptable for all pediatric patients when used for 21 days or less\nAlso treats human granulocytic\nehrlichiosis\nAmoxicillin\n500 mg PO TID x 14 days\n[3]\nPreferred in pregnant, lactating\nCefuroxime\naxetil 500 mg PO BID x 14 days\n[3]\nMacrolides\n- not first line\nJarisch-Herxheimer\nlike reaction can occur in first 24 hrs of treatment (fevers, chills, myalgia, tachycardia)",
+          "tables": []
+        },
+        "Early_Disemminated": {
+          "text": "Doxycycline\n(see above dosing)\nAmoxicillin\n(See above dosing)",
+          "tables": []
+        },
+        "Lyme_Meningitis": {
+          "text": "Ceftriaxone\n2g IVq12h x 14-28 days\nDoxycycline\n200-400mg/d divided into two doses q day x 10-28 days\nPreferred for facial palsy or Lyme meningitis (lack of efficacy studies other medications)\nPenicillin G\n,\nCefotaxime",
+          "tables": []
+        },
+        "Cardiac_Disease": {
+          "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        },
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "Jarisch-Herxheimer",
+          "url": "https://wikem.org/wiki/Jarisch-Herxheimer_reaction"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Adult:\nDoxycycline\n200mg PO x1\nChild >8: 4mg/kg up to 200mg PO x1\nGive if all of the following are met:\nTick is adult/nymphal\nI. scapularis\nTick was attached >36 hours based on degree of engorgement or exposure time\nProphylaxis can be given within 72 hrs after time tick was removed\nLocal rate of infection in ticks >20%\nDoxycycline is not contraindicated\nOld vaccine has little to no efficacy after 1 year",
+      "subsections": {
+        "Early_Localized_Infection": {
+          "text": "Treat before serologic testing if endemic area if + erythema migrans rash\nDoxycycline\n100 mg PO BID x 10 days\n[3]\nAcceptable for all pediatric patients when used for 21 days or less\nAlso treats human granulocytic\nehrlichiosis\nAmoxicillin\n500 mg PO TID x 14 days\n[3]\nPreferred in pregnant, lactating\nCefuroxime\naxetil 500 mg PO BID x 14 days\n[3]\nMacrolides\n- not first line\nJarisch-Herxheimer\nlike reaction can occur in first 24 hrs of treatment (fevers, chills, myalgia, tachycardia)",
+          "tables": []
+        },
+        "Early_Disemminated": {
+          "text": "Doxycycline\n(see above dosing)\nAmoxicillin\n(See above dosing)",
+          "tables": []
+        },
+        "Lyme_Meningitis": {
+          "text": "Ceftriaxone\n2g IVq12h x 14-28 days\nDoxycycline\n200-400mg/d divided into two doses q day x 10-28 days\nPreferred for facial palsy or Lyme meningitis (lack of efficacy studies other medications)\nPenicillin G\n,\nCefotaxime",
+          "tables": []
+        },
+        "Cardiac_Disease": {
+          "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        },
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "Jarisch-Herxheimer",
+          "url": "https://wikem.org/wiki/Jarisch-Herxheimer_reaction"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Early_Localized_Infection": {
+      "text": "Treat before serologic testing if endemic area if + erythema migrans rash\nDoxycycline\n100 mg PO BID x 10 days\n[3]\nAcceptable for all pediatric patients when used for 21 days or less\nAlso treats human granulocytic\nehrlichiosis\nAmoxicillin\n500 mg PO TID x 14 days\n[3]\nPreferred in pregnant, lactating\nCefuroxime\naxetil 500 mg PO BID x 14 days\n[3]\nMacrolides\n- not first line\nJarisch-Herxheimer\nlike reaction can occur in first 24 hrs of treatment (fevers, chills, myalgia, tachycardia)",
+      "subsections": {
+        "Early_Disemminated": {
+          "text": "Doxycycline\n(see above dosing)\nAmoxicillin\n(See above dosing)",
+          "tables": []
+        },
+        "Lyme_Meningitis": {
+          "text": "Ceftriaxone\n2g IVq12h x 14-28 days\nDoxycycline\n200-400mg/d divided into two doses q day x 10-28 days\nPreferred for facial palsy or Lyme meningitis (lack of efficacy studies other medications)\nPenicillin G\n,\nCefotaxime",
+          "tables": []
+        },
+        "Cardiac_Disease": {
+          "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        },
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        },
+        {
+          "text": "Jarisch-Herxheimer",
+          "url": "https://wikem.org/wiki/Jarisch-Herxheimer_reaction"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Early_Disemminated": {
+      "text": "Doxycycline\n(see above dosing)\nAmoxicillin\n(See above dosing)",
+      "subsections": {
+        "Lyme_Meningitis": {
+          "text": "Ceftriaxone\n2g IVq12h x 14-28 days\nDoxycycline\n200-400mg/d divided into two doses q day x 10-28 days\nPreferred for facial palsy or Lyme meningitis (lack of efficacy studies other medications)\nPenicillin G\n,\nCefotaxime",
+          "tables": []
+        },
+        "Cardiac_Disease": {
+          "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        },
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Lyme_Meningitis": {
+      "text": "Ceftriaxone\n2g IVq12h x 14-28 days\nDoxycycline\n200-400mg/d divided into two doses q day x 10-28 days\nPreferred for facial palsy or Lyme meningitis (lack of efficacy studies other medications)\nPenicillin G\n,\nCefotaxime",
+      "subsections": {
+        "Cardiac_Disease": {
+          "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        },
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Cardiac_Disease": {
+      "text": "Mild (1st degree AV with PR <0.3 sec)\nDoxycycline\n/\nAmoxicillin\nPO\nSevere (HIgh-degree AV block)\nCeftriaxone\n/\nPen G\nIV",
+      "subsections": {
+        "Arthritis": {
+          "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Arthritis": {
+      "text": "Doxycycline\n,\nAmoxicillin\nPO, as effective as parenteral\nCeftriaxone\n/\nPen G\nIV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Pen G",
+          "url": "https://wikem.org/wiki/Pen_G"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Outpatient": {
+          "text": "Early Disease\nLate Disease: If chronic neurologic/arthritic manifestations may be able to manage as outpatient\nFollow up with primary care, rheum, ID",
+          "tables": []
+        },
+        "Admission": {
+          "text": "Lyme carditis-cardiac monitoring\nProminent neurologic symptoms for IV antibiotics and further care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Outpatient": {
+      "text": "Early Disease\nLate Disease: If chronic neurologic/arthritic manifestations may be able to manage as outpatient\nFollow up with primary care, rheum, ID",
+      "subsections": {
+        "Admission": {
+          "text": "Lyme carditis-cardiac monitoring\nProminent neurologic symptoms for IV antibiotics and further care",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Lyme carditis-cardiac monitoring\nProminent neurologic symptoms for IV antibiotics and further care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tick Borne Illnesses\nBell's palsy\nAllen C. Steere, \"Lyme disease\" N Engl J Med 2001; 345:115-125. Accessed 13 Jan 2021.\nIn-training exam review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick Borne Illnesses",
+          "url": "https://wikem.org/wiki/Tick_Borne_Illnesses"
+        },
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "In-training exam review",
+          "url": "https://wikem.org/wiki/In-training_exam_review"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Lyme Disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

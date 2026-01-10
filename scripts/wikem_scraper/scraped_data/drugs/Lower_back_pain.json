@@ -1,0 +1,985 @@
+{
+  "drug_name": "Lower_back_pain",
+  "url": "https://wikem.org/wiki/Lower_back_pain",
+  "scraped_at": "2026-01-10T07:56:43.433554",
+  "sections": {
+    "Background": {
+      "text": "May also be called lumbago, referring to pain in the muscles and joints of the lower back\nPain lasting > 6 weeks is risk factor for more serious disease\nNight pain and unrelenting pain are worrisome symptoms\nBack pain in IV drug user is spinal infection until proven otherwise\n95% of herniated discs occur at L4-L5 or L5-S1 (for both pain extends below the knee)",
+      "subsections": {
+        "Back_Pain_Risk_factors_and_probability_of_Fracture_or_Malignancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Factor": "Older Age  (>65yo)",
+                "Post Test Probability(95%CI)": "9%(3-25%)"
+              },
+              {
+                "Factor": "Prolonged corticosteroid",
+                "Post Test Probability(95%CI)": "33%(10-67%)"
+              },
+              {
+                "Factor": "Severe trauma",
+                "Post Test Probability(95%CI)": "11%(8-16%)"
+              },
+              {
+                "Factor": "Presence of contusion or abrasion",
+                "Post Test Probability(95%CI)": "62%(49-74%)"
+              },
+              {
+                "Factor": "Multiple red flags",
+                "Post Test Probability(95%CI)": "90%(34-99%)"
+              },
+              {
+                "Factor": "History of malignancy",
+                "Post Test Probability(95%CI)": "33%(22-46%)"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptoms": "Age under 18 years",
+                "Corresponding Pathology": "Congenital abnormality"
+              },
+              {
+                "Symptoms": "Age over 50 years",
+                "Corresponding Pathology": "Fracture, malignancy"
+              },
+              {
+                "Symptoms": "Anticoagulant use",
+                "Corresponding Pathology": "Spinal hematoma"
+              },
+              {
+                "Symptoms": "Fever",
+                "Corresponding Pathology": "Infection, malignancy"
+              },
+              {
+                "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Symptoms": "Immunocompromised",
+                "Corresponding Pathology": "Fracture, infection"
+              },
+              {
+                "Symptoms": "IV drug use",
+                "Corresponding Pathology": "Infection"
+              },
+              {
+                "Symptoms": "Recent spinal surgery or epidural injection",
+                "Corresponding Pathology": "Infection, spinal hematoma"
+              },
+              {
+                "Symptoms": "Trauma",
+                "Corresponding Pathology": "Fracture,spinal hematoma"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Back_Pain_Risk_factors_and_probability_of_Fracture_or_Malignancy": {
+      "text": "",
+      "subsections": {
+        "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptoms": "Age under 18 years",
+                "Corresponding Pathology": "Congenital abnormality"
+              },
+              {
+                "Symptoms": "Age over 50 years",
+                "Corresponding Pathology": "Fracture, malignancy"
+              },
+              {
+                "Symptoms": "Anticoagulant use",
+                "Corresponding Pathology": "Spinal hematoma"
+              },
+              {
+                "Symptoms": "Fever",
+                "Corresponding Pathology": "Infection, malignancy"
+              },
+              {
+                "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Symptoms": "Immunocompromised",
+                "Corresponding Pathology": "Fracture, infection"
+              },
+              {
+                "Symptoms": "IV drug use",
+                "Corresponding Pathology": "Infection"
+              },
+              {
+                "Symptoms": "Recent spinal surgery or epidural injection",
+                "Corresponding Pathology": "Infection, spinal hematoma"
+              },
+              {
+                "Symptoms": "Trauma",
+                "Corresponding Pathology": "Fracture,spinal hematoma"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Factor": "Older Age  (>65yo)",
+            "Post Test Probability(95%CI)": "9%(3-25%)"
+          },
+          {
+            "Factor": "Prolonged corticosteroid",
+            "Post Test Probability(95%CI)": "33%(10-67%)"
+          },
+          {
+            "Factor": "Severe trauma",
+            "Post Test Probability(95%CI)": "11%(8-16%)"
+          },
+          {
+            "Factor": "Presence of contusion or abrasion",
+            "Post Test Probability(95%CI)": "62%(49-74%)"
+          },
+          {
+            "Factor": "Multiple red flags",
+            "Post Test Probability(95%CI)": "90%(34-99%)"
+          },
+          {
+            "Factor": "History of malignancy",
+            "Post Test Probability(95%CI)": "33%(22-46%)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+      "text": "",
+      "subsections": {
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Symptoms": "Age under 18 years",
+            "Corresponding Pathology": "Congenital abnormality"
+          },
+          {
+            "Symptoms": "Age over 50 years",
+            "Corresponding Pathology": "Fracture, malignancy"
+          },
+          {
+            "Symptoms": "Anticoagulant use",
+            "Corresponding Pathology": "Spinal hematoma"
+          },
+          {
+            "Symptoms": "Fever",
+            "Corresponding Pathology": "Infection, malignancy"
+          },
+          {
+            "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Symptoms": "Immunocompromised",
+            "Corresponding Pathology": "Fracture, infection"
+          },
+          {
+            "Symptoms": "IV drug use",
+            "Corresponding Pathology": "Infection"
+          },
+          {
+            "Symptoms": "Recent spinal surgery or epidural injection",
+            "Corresponding Pathology": "Infection, spinal hematoma"
+          },
+          {
+            "Symptoms": "Trauma",
+            "Corresponding Pathology": "Fracture,spinal hematoma"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Red_Flag_Signs_of_Low_Back_Pain": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Signs": "Reduced anal sphincter tone",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Hyperreflexia",
+            "Corresponding Pathology": "Acute cord compression"
+          },
+          {
+            "Signs": "Hyporeflexia/areflexia",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Lower extremity muscle weakness",
+            "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+          },
+          {
+            "Signs": "Saddle paresthesia/anesthesia",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Absent or decreased bulbocavernosus reflex",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms_by_Causes_of_Low_back_pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Radiation?",
+                "Musculoskeletal pain": "No",
+                "Spinal stenosis": "Possible (can be bilateral)",
+                "Sciatica": "Yes (in the distribution of a lumbar or sacral nerve root)",
+                "Cauda equina syndrome": "Possible",
+                "Rheumatologic": "?"
+              },
+              {
+                "": "Worsened by:",
+                "Musculoskeletal pain": "Movement (e.g. twisting of torso)",
+                "Spinal stenosis": "Walking (pseudo-claudication) and prolonged standing",
+                "Sciatica": "Coughing, Valsalva, sitting",
+                "Cauda equina syndrome": "",
+                "Rheumatologic": "Morning stiffness >30minutes"
+              },
+              {
+                "": "Improved by:",
+                "Musculoskeletal pain": "Rest",
+                "Spinal stenosis": "Forward flexion, especially sitting",
+                "Sciatica": "Lying in supine position",
+                "Cauda equina syndrome": "",
+                "Rheumatologic": "Movement throughout the day"
+              },
+              {
+                "": "Other symptoms:",
+                "Musculoskeletal pain": "",
+                "Spinal stenosis": "",
+                "Sciatica": "",
+                "Cauda equina syndrome": "Urinary/bowel disturbances, perineal anaesthesia",
+                "Rheumatologic": "Other rheum symptoms  (e.g. ankylosing spondylitis, psoriatic arthropathy, IBD arthropathy, Reiter's disease)"
+              }
+            ]
+          ]
+        },
+        "Waddell's_Signs_of_Non-Organic_Low_back_pain": {
+          "text": "3 or more positives suggest non-organic or alternative organic source:\nOver-reaction to the examination\nWidespread superficial tenderness not corresponding to any anatomical distribution\nPain on axial loading of the skull or pain on rotation of the shoulders and pelvis together\nSeverely limited straight leg raising on formal testing in a patient who can sit forwards with the legs extended\nLower limb weakness or sensory loss not corresponding to a nerve root distribution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptoms_by_Causes_of_Low_back_pain": {
+      "text": "",
+      "subsections": {
+        "Waddell's_Signs_of_Non-Organic_Low_back_pain": {
+          "text": "3 or more positives suggest non-organic or alternative organic source:\nOver-reaction to the examination\nWidespread superficial tenderness not corresponding to any anatomical distribution\nPain on axial loading of the skull or pain on rotation of the shoulders and pelvis together\nSeverely limited straight leg raising on formal testing in a patient who can sit forwards with the legs extended\nLower limb weakness or sensory loss not corresponding to a nerve root distribution",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Radiation?",
+            "Musculoskeletal pain": "No",
+            "Spinal stenosis": "Possible (can be bilateral)",
+            "Sciatica": "Yes (in the distribution of a lumbar or sacral nerve root)",
+            "Cauda equina syndrome": "Possible",
+            "Rheumatologic": "?"
+          },
+          {
+            "": "Worsened by:",
+            "Musculoskeletal pain": "Movement (e.g. twisting of torso)",
+            "Spinal stenosis": "Walking (pseudo-claudication) and prolonged standing",
+            "Sciatica": "Coughing, Valsalva, sitting",
+            "Cauda equina syndrome": "",
+            "Rheumatologic": "Morning stiffness >30minutes"
+          },
+          {
+            "": "Improved by:",
+            "Musculoskeletal pain": "Rest",
+            "Spinal stenosis": "Forward flexion, especially sitting",
+            "Sciatica": "Lying in supine position",
+            "Cauda equina syndrome": "",
+            "Rheumatologic": "Movement throughout the day"
+          },
+          {
+            "": "Other symptoms:",
+            "Musculoskeletal pain": "",
+            "Spinal stenosis": "",
+            "Sciatica": "",
+            "Cauda equina syndrome": "Urinary/bowel disturbances, perineal anaesthesia",
+            "Rheumatologic": "Other rheum symptoms  (e.g. ankylosing spondylitis, psoriatic arthropathy, IBD arthropathy, Reiter's disease)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Waddell's_Signs_of_Non-Organic_Low_back_pain": {
+      "text": "3 or more positives suggest non-organic or alternative organic source:\nOver-reaction to the examination\nWidespread superficial tenderness not corresponding to any anatomical distribution\nPain on axial loading of the skull or pain on rotation of the shoulders and pelvis together\nSeverely limited straight leg raising on formal testing in a patient who can sit forwards with the legs extended\nLower limb weakness or sensory loss not corresponding to a nerve root distribution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Exam": {
+          "text": "Straight leg raise testing\nScreening exam for a herniated disk (Sn 68-80%)\nLifting leg causes radicular pain of affected leg radiating to BELOW the knee\nPain is worsened by ankle dorsiflexion\nPain may be relieved by pressing across biceps femoris and pes anserinus tendons behind knee ('bowstringing')\nCrossed Straight leg raise testing (high Sp, low Sn)\nLifting the asymptomatic leg causes radicular pain down the affected leg\nNerve root compromise\nRectal exam, perineal sensation, palpable bladder?\nTo rule out\ncauda equina syndrome",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Pregnancy test\nOnly necessary if concerned for infection, tumor, or rheumatologic cause\nCBC, UA, ESR (90-98% Sn for infectious etiology)\nConsider post void residual\nCan be done with non invasively with\nUltrasound",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Multiple institutions advise\nagainst\nroutine initial imaging of the lumbar spine in adults with acute non-traumatic low back pain, in the absence of severe progressive neurologic deficit, absence of red flags, and if <6 weeks in duration.\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\nPart of\nACEP Choosing wisely\nPlain films\nMay consider if suspect fracture, tumor, or infection, however, of low utility.\nCT\nBetter for identification of fractures.\nMRI\nOnly necessary if suspect infection, neoplasm,\nepidural compression syndromes\nConsider for back pain >6-8wks, progressive neurologic deficit, or presence of red flags\nGold Standard:\nif\ncauda equina syndrome\nis suspected\nUltrasound\nRule-out\nAAA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        }
+      ]
+    },
+    "Exam": {
+      "text": "Straight leg raise testing\nScreening exam for a herniated disk (Sn 68-80%)\nLifting leg causes radicular pain of affected leg radiating to BELOW the knee\nPain is worsened by ankle dorsiflexion\nPain may be relieved by pressing across biceps femoris and pes anserinus tendons behind knee ('bowstringing')\nCrossed Straight leg raise testing (high Sp, low Sn)\nLifting the asymptomatic leg causes radicular pain down the affected leg\nNerve root compromise\nRectal exam, perineal sensation, palpable bladder?\nTo rule out\ncauda equina syndrome",
+      "subsections": {
+        "Labs": {
+          "text": "Pregnancy test\nOnly necessary if concerned for infection, tumor, or rheumatologic cause\nCBC, UA, ESR (90-98% Sn for infectious etiology)\nConsider post void residual\nCan be done with non invasively with\nUltrasound",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Multiple institutions advise\nagainst\nroutine initial imaging of the lumbar spine in adults with acute non-traumatic low back pain, in the absence of severe progressive neurologic deficit, absence of red flags, and if <6 weeks in duration.\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\nPart of\nACEP Choosing wisely\nPlain films\nMay consider if suspect fracture, tumor, or infection, however, of low utility.\nCT\nBetter for identification of fractures.\nMRI\nOnly necessary if suspect infection, neoplasm,\nepidural compression syndromes\nConsider for back pain >6-8wks, progressive neurologic deficit, or presence of red flags\nGold Standard:\nif\ncauda equina syndrome\nis suspected\nUltrasound\nRule-out\nAAA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "Pregnancy test\nOnly necessary if concerned for infection, tumor, or rheumatologic cause\nCBC, UA, ESR (90-98% Sn for infectious etiology)\nConsider post void residual\nCan be done with non invasively with\nUltrasound",
+      "subsections": {
+        "Imaging": {
+          "text": "Multiple institutions advise\nagainst\nroutine initial imaging of the lumbar spine in adults with acute non-traumatic low back pain, in the absence of severe progressive neurologic deficit, absence of red flags, and if <6 weeks in duration.\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\nPart of\nACEP Choosing wisely\nPlain films\nMay consider if suspect fracture, tumor, or infection, however, of low utility.\nCT\nBetter for identification of fractures.\nMRI\nOnly necessary if suspect infection, neoplasm,\nepidural compression syndromes\nConsider for back pain >6-8wks, progressive neurologic deficit, or presence of red flags\nGold Standard:\nif\ncauda equina syndrome\nis suspected\nUltrasound\nRule-out\nAAA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Multiple institutions advise\nagainst\nroutine initial imaging of the lumbar spine in adults with acute non-traumatic low back pain, in the absence of severe progressive neurologic deficit, absence of red flags, and if <6 weeks in duration.\n[5]\n[6]\n[7]\n[8]\n[9]\n[10]\n[11]\n[12]\nPart of\nACEP Choosing wisely\nPlain films\nMay consider if suspect fracture, tumor, or infection, however, of low utility.\nCT\nBetter for identification of fractures.\nMRI\nOnly necessary if suspect infection, neoplasm,\nepidural compression syndromes\nConsider for back pain >6-8wks, progressive neurologic deficit, or presence of red flags\nGold Standard:\nif\ncauda equina syndrome\nis suspected\nUltrasound\nRule-out\nAAA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACEP Choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute,_Non-traumatic,_Non-Radicular_Back_Pain": {
+          "text": "Instruct to continue daily activities using pain as limiting factor\nRecommend at home stretches\nMedications\nAcetaminophen\nand/or\nNSAIDs\n1st line therapy\nConsider gel/patch like\ndiclofenac\nor\nketoprofen\n(shown to be more effective than PO form and placebo in one study\n[13]\n)\nLidocaine\npatch\nCapsaicin\nor Cayenne\nSkin desensitization upon repeated exposure\nMuscle relaxants (limited evidence)\nCyclobenzaprine 10 mg PO OR\nMethocarbamol 1500 mg PO\nOpioids\nCan be considered for moderate-severe pain but only for limited duration (<1 week)\nAssociated with higher return rates to ED within 30 days for same complaint when compared to other modalities",
+          "tables": []
+        },
+        "Not_Indicated": {
+          "text": "Steroids\nOf unlikely effectiveness\n[14]\n[15]\nBenzodiazepines\nNo benefit over\nNSAIDs\nalone\n[16]",
+          "tables": []
+        },
+        "Acute,_Radicular_Back_Pain_(Sciatica)": {
+          "text": "80% of patients will ultimately improve without surgery\nTreatment is mostly the same as for acute non-radicular back pain\nConsider also\ngabapentin\n(titrate slowly) or\nTCAs\n(\nnortriptyline\n,\namytriptyline\n)\nGabapentin\nOral: Immediate release: 400mg-1200mg PO TID",
+          "tables": []
+        },
+        "Spinal_stenosis": {
+          "text": "Treatment is the same as for musculoskeletal back pain",
+          "tables": []
+        },
+        "Cauda_equina_syndrome": {
+          "text": "Immediate spine surgery consultation for spinal decompression to avoid permanent bowel/bladder/neurologic injury\nMost common in young men\n[17]\nThe onset of perineal anesthesia associated with bladder dysfunction is typical of the start of cauda equina syndrome and the time at which the clock starts on diagnosis and management.\n[18]\nPainless urinary retention often has the greatest predictive value as a stand-alone symptom, but it is unfortunately indicative of late, often irreversible cauda equina syndrome\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "ketoprofen",
+          "url": "https://wikem.org/wiki/Ketoprofen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        }
+      ]
+    },
+    "Acute,_Non-traumatic,_Non-Radicular_Back_Pain": {
+      "text": "Instruct to continue daily activities using pain as limiting factor\nRecommend at home stretches\nMedications\nAcetaminophen\nand/or\nNSAIDs\n1st line therapy\nConsider gel/patch like\ndiclofenac\nor\nketoprofen\n(shown to be more effective than PO form and placebo in one study\n[13]\n)\nLidocaine\npatch\nCapsaicin\nor Cayenne\nSkin desensitization upon repeated exposure\nMuscle relaxants (limited evidence)\nCyclobenzaprine 10 mg PO OR\nMethocarbamol 1500 mg PO\nOpioids\nCan be considered for moderate-severe pain but only for limited duration (<1 week)\nAssociated with higher return rates to ED within 30 days for same complaint when compared to other modalities",
+      "subsections": {
+        "Not_Indicated": {
+          "text": "Steroids\nOf unlikely effectiveness\n[14]\n[15]\nBenzodiazepines\nNo benefit over\nNSAIDs\nalone\n[16]",
+          "tables": []
+        },
+        "Acute,_Radicular_Back_Pain_(Sciatica)": {
+          "text": "80% of patients will ultimately improve without surgery\nTreatment is mostly the same as for acute non-radicular back pain\nConsider also\ngabapentin\n(titrate slowly) or\nTCAs\n(\nnortriptyline\n,\namytriptyline\n)\nGabapentin\nOral: Immediate release: 400mg-1200mg PO TID",
+          "tables": []
+        },
+        "Spinal_stenosis": {
+          "text": "Treatment is the same as for musculoskeletal back pain",
+          "tables": []
+        },
+        "Cauda_equina_syndrome": {
+          "text": "Immediate spine surgery consultation for spinal decompression to avoid permanent bowel/bladder/neurologic injury\nMost common in young men\n[17]\nThe onset of perineal anesthesia associated with bladder dysfunction is typical of the start of cauda equina syndrome and the time at which the clock starts on diagnosis and management.\n[18]\nPainless urinary retention often has the greatest predictive value as a stand-alone symptom, but it is unfortunately indicative of late, often irreversible cauda equina syndrome\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "ketoprofen",
+          "url": "https://wikem.org/wiki/Ketoprofen"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        }
+      ]
+    },
+    "Spinal_stenosis": {
+      "text": "Treatment is the same as for musculoskeletal back pain",
+      "subsections": {
+        "Cauda_equina_syndrome": {
+          "text": "Immediate spine surgery consultation for spinal decompression to avoid permanent bowel/bladder/neurologic injury\nMost common in young men\n[17]\nThe onset of perineal anesthesia associated with bladder dysfunction is typical of the start of cauda equina syndrome and the time at which the clock starts on diagnosis and management.\n[18]\nPainless urinary retention often has the greatest predictive value as a stand-alone symptom, but it is unfortunately indicative of late, often irreversible cauda equina syndrome\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cauda_equina_syndrome": {
+      "text": "Immediate spine surgery consultation for spinal decompression to avoid permanent bowel/bladder/neurologic injury\nMost common in young men\n[17]\nThe onset of perineal anesthesia associated with bladder dysfunction is typical of the start of cauda equina syndrome and the time at which the clock starts on diagnosis and management.\n[18]\nPainless urinary retention often has the greatest predictive value as a stand-alone symptom, but it is unfortunately indicative of late, often irreversible cauda equina syndrome\n[19]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Normally outpatient, as long as no signs of emergent pathology and able to ambulate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Back Pain (Red Flags)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Back Pain (Red Flags)",
+          "url": "https://wikem.org/wiki/Back_Pain_(Red_Flags)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Back Pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

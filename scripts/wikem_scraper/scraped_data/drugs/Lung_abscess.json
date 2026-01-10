@@ -1,0 +1,218 @@
+{
+  "drug_name": "Lung_abscess",
+  "url": "https://wikem.org/wiki/Lung_abscess",
+  "scraped_at": "2026-01-10T07:56:48.373775",
+  "sections": {
+    "Background": {
+      "text": "Localized, suppurative necrotizing process occurring within the pulmonary parenchyma\nMicrobiology\nCommunity-acquired:\nanaerobes\nmostly aspiration, anaerobic bacteria from oral cavity: peptostreptococcus, prevotella, bacteroides, fusobacterium species\nHospital-acquired:\nStaph\n,\nE coli\n,\nKlebsiella\n,\npseudomonas\n,\nlegionella",
+      "subsections": {
+        "Causes": {
+          "text": "Aspiration\npneumonia\n(7-14 days to become lung abscess)\nBacteremia\nfrom nonpulmonary infection\nInfluenza\nleading to Bacterial superinfection (e.g.\nS. Aureus\n)\nPulmonary infarction\nInfection as a result of penetrating\nchest trauma\nPrimary and metastatic neoplasms\nGranulomatosis with polyangiitis\n(Wegener's),\nsarcoidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "E coli",
+          "url": "https://wikem.org/wiki/E_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Aspiration\npneumonia\n(7-14 days to become lung abscess)\nBacteremia\nfrom nonpulmonary infection\nInfluenza\nleading to Bacterial superinfection (e.g.\nS. Aureus\n)\nPulmonary infarction\nInfection as a result of penetrating\nchest trauma\nPrimary and metastatic neoplasms\nGranulomatosis with polyangiitis\n(Wegener's),\nsarcoidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cough\n,\nfever\n, pleuritic\nchest pain\n, weight loss, night sweats (generally over course of several weeks)\nTachycardia\n,\ntachypnea\n, or\nfever\nmay be absent",
+      "subsections": {
+        "Complications": {
+          "text": "Empyema\nMassive\nhemoptysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Empyema\nMassive\nhemoptysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cavitary lesion with air-fluid level\nInfected bullae\nPleural fluid collection with bronchopleural fistula\nLoop of bowel extending through diaphragmatic hernia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CXR\nor CT Chest\nDense consolidation with air-fluid level inside of a thick-walled cavitary lesion\nAir-fluid level indicates communication of\nabscess\ncavity with a bronchiole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Medical management will successfully treat 70-90% of lung abscesses\nDrainage occurs spontaneously from communication of cavity with tracheobronchial tree\nBronchoscopic drainage may result in seeding other parts of the lung\nAntibiotics\nClindamycin\n+ 2nd or 3rd gen\ncephalosporin\nOR\nClindamycin\n+\nampicillin/sulbactam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "ampicillin/sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/sulbactam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Empyema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        }
+      ]
+    }
+  }
+}

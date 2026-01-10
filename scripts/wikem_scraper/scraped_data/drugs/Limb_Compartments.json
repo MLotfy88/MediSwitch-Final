@@ -1,0 +1,58 @@
+{
+  "drug_name": "Limb_Compartments",
+  "url": "https://wikem.org/wiki/Limb_Compartments",
+  "scraped_at": "2026-01-10T07:56:34.539774",
+  "sections": {
+    "Lower_Leg_Compartments": {
+      "text": "Anterior\nLateral\nDeep Posterior\nSuperficial",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Thigh_Compartments": {
+      "text": "Medial Compartment\nPosterior Compartment\nAnterior Compartment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Arm_Compartments": {
+      "text": "Anterior\nPosterior",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Wikipedia Fascial Compartments of the Leg\nFascial Compartments of Thigh\nFascial Compartments of Arm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Compartment Syndrome\nCompartment Pressure Measurement\nBurns\nRhabdomyolysis\nFractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "Compartment Pressure Measurement",
+          "url": "https://wikem.org/wiki/Compartment_Pressure_Measurement"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    }
+  }
+}

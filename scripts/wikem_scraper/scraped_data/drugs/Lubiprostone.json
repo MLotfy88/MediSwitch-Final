@@ -1,0 +1,326 @@
+{
+  "drug_name": "Lubiprostone",
+  "url": "https://wikem.org/wiki/Lubiprostone",
+  "scraped_at": "2026-01-10T07:56:44.491661",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nLaxative\nDosage Forms: CAP 8mcg, 24mcg\nRoutes of Administration: Oral\nCommon Trade Names: Amitiza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laxative",
+          "url": "https://wikem.org/wiki/Laxative"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Chronic_idiopathic_constipation": {
+          "text": "24mcg PO BID",
+          "tables": []
+        },
+        "IBS,_constipation_predominant": {
+          "text": "8mcg PO BID",
+          "tables": []
+        },
+        "Constipation,_opioid-induced": {
+          "text": "24mcg PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_idiopathic_constipation": {
+      "text": "24mcg PO BID",
+      "subsections": {
+        "IBS,_constipation_predominant": {
+          "text": "8mcg PO BID",
+          "tables": []
+        },
+        "Constipation,_opioid-induced": {
+          "text": "24mcg PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IBS,_constipation_predominant": {
+      "text": "8mcg PO BID",
+      "subsections": {
+        "Constipation,_opioid-induced": {
+          "text": "24mcg PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Constipation,_opioid-induced": {
+      "text": "24mcg PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Risk of infant harm not expected based on minimal absorption.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not available",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class C: 8mcg qd\nPediatric: Not available",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not available",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class C: 8mcg qd\nPediatric: Not available",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nChild-Pugh Class C: 8mcg qd\nPediatric: Not available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nGI Obstruction\nDiarrhea\n, severe",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Diarrhea\n, severe\nHypersensitivity reaction\nSyncope\nHypotension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\n,\nheadache\n,\nvomiting\n,\ndizziness\nDiarrhea\nAbdominal pain\nFlatulence\nSinusitis\nUTI\n,\nURI\nPeripheral edema\nArthralgia,\nfatigue\n,\ndyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Diarrhea\n, severe\nHypersensitivity reaction\nSyncope\nHypotension",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\n,\nheadache\n,\nvomiting\n,\ndizziness\nDiarrhea\nAbdominal pain\nFlatulence\nSinusitis\nUTI\n,\nURI\nPeripheral edema\nArthralgia,\nfatigue\n,\ndyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\n,\nheadache\n,\nvomiting\n,\ndizziness\nDiarrhea\nAbdominal pain\nFlatulence\nSinusitis\nUTI\n,\nURI\nPeripheral edema\nArthralgia,\nfatigue\n,\ndyspnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.9-1.4h\nMetabolism: Stomach\nExcretion: Urine (60%), Feces (30%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Activates CIC-2 chloride channels, increasing intestinal fluid secretion and motility\nReduces intestinal permeability and stimulates recovery of mucosal barrier function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

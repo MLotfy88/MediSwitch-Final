@@ -1,0 +1,524 @@
+{
+  "drug_name": "Lung_transplant_complications",
+  "url": "https://wikem.org/wiki/Lung_transplant_complications",
+  "scraped_at": "2026-01-10T07:56:48.204789",
+  "sections": {
+    "Background": {
+      "text": "Can transplant single lung, bilateral lungs, or heart-lungs\nIndications:\ncystic fibrosis\n,\nCOPD\n, idiopathic\npulmonary fibrosis\n> alpha-1 antitrypsin deficiency, primary\npulmonary hypertension\n, bronchiectasis,\nsarcoidosis\n,\nCOVID-19\nLung is denervated\nregulation of breathing is not lost, as it is through chest wall efferents\ncough response lost below anastomosis\nshould have normal ABG (unless patient reliant on hypoxic respiratory drive), exercise response, and bronchomotor tone",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Pulmonary_fibrosis"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Clinical_Features/Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infection": {
+          "text": "Bronchitis\n,\nPneumonia\n(common)\nusually bacterial early in course\nMRSA\nand\npseudomonas\ncommon\nFungi\n,\nprotozoa\n,\nCMV\nmore common >6 weeks post-op\nExtra-pulmonary infections (may be severe or opportunistic due to immunosuppression)",
+          "tables": []
+        },
+        "Medication_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        },
+        "Airway_complications": {
+          "text": "Anastomotic bronchial necrosis, dehiscence, or stenosis\nbronchial vasculature is disrupted during procedure, ergo:\ndonor bronchus reliant on retrograde pulmonary circulation for perfusion\nanastomoses vulnerable to ischemia\nmild cases may be asymptomatic\nmay lead to worsening respiratory symptoms,\npneumothorax\n,\npneumomediastinum\n, focal infections/abscess\nOcclusive granulation tissue\nAsymptomatic, or worsening\ncough\n,\nwheezing\n, post-obstructive pneumonia\nbronchial/tracheal stenosis, tracheobronchomalacia\ncough,\ndyspnea\n, difficulty clearing respiratory secretions, recurrent infections, wheezing,\nstridor\nbronchopleural, bronchomediastinal, or bronchovascular fisulae\ncan cause\npneumothorax\n,\nhypotension\n,\nmediastinitis\n,\npneumomediastinum\n,\nrespiratory distress\nPulmonary vasculature problems\nPulmonary artery stricture→\nhypoxia\nPulmonary venous anastomoses: vulnerable to kinking,\npulmonary embolism\n, and thromboses→\npulmonary edema\nRejection\nAcute/cellular rejection: clinically silent or nonspecific respiratory symptoms\nChronic rejection (bronchiolitis obliterans): leads to airflow limitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "protozoa",
+          "url": "https://wikem.org/wiki/Protozoa"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Infection": {
+      "text": "Bronchitis\n,\nPneumonia\n(common)\nusually bacterial early in course\nMRSA\nand\npseudomonas\ncommon\nFungi\n,\nprotozoa\n,\nCMV\nmore common >6 weeks post-op\nExtra-pulmonary infections (may be severe or opportunistic due to immunosuppression)",
+      "subsections": {
+        "Medication_adverse_effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        },
+        "Airway_complications": {
+          "text": "Anastomotic bronchial necrosis, dehiscence, or stenosis\nbronchial vasculature is disrupted during procedure, ergo:\ndonor bronchus reliant on retrograde pulmonary circulation for perfusion\nanastomoses vulnerable to ischemia\nmild cases may be asymptomatic\nmay lead to worsening respiratory symptoms,\npneumothorax\n,\npneumomediastinum\n, focal infections/abscess\nOcclusive granulation tissue\nAsymptomatic, or worsening\ncough\n,\nwheezing\n, post-obstructive pneumonia\nbronchial/tracheal stenosis, tracheobronchomalacia\ncough,\ndyspnea\n, difficulty clearing respiratory secretions, recurrent infections, wheezing,\nstridor\nbronchopleural, bronchomediastinal, or bronchovascular fisulae\ncan cause\npneumothorax\n,\nhypotension\n,\nmediastinitis\n,\npneumomediastinum\n,\nrespiratory distress\nPulmonary vasculature problems\nPulmonary artery stricture→\nhypoxia\nPulmonary venous anastomoses: vulnerable to kinking,\npulmonary embolism\n, and thromboses→\npulmonary edema\nRejection\nAcute/cellular rejection: clinically silent or nonspecific respiratory symptoms\nChronic rejection (bronchiolitis obliterans): leads to airflow limitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "protozoa",
+          "url": "https://wikem.org/wiki/Protozoa"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Medication_adverse_effects": {
+      "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+      "subsections": {
+        "Airway_complications": {
+          "text": "Anastomotic bronchial necrosis, dehiscence, or stenosis\nbronchial vasculature is disrupted during procedure, ergo:\ndonor bronchus reliant on retrograde pulmonary circulation for perfusion\nanastomoses vulnerable to ischemia\nmild cases may be asymptomatic\nmay lead to worsening respiratory symptoms,\npneumothorax\n,\npneumomediastinum\n, focal infections/abscess\nOcclusive granulation tissue\nAsymptomatic, or worsening\ncough\n,\nwheezing\n, post-obstructive pneumonia\nbronchial/tracheal stenosis, tracheobronchomalacia\ncough,\ndyspnea\n, difficulty clearing respiratory secretions, recurrent infections, wheezing,\nstridor\nbronchopleural, bronchomediastinal, or bronchovascular fisulae\ncan cause\npneumothorax\n,\nhypotension\n,\nmediastinitis\n,\npneumomediastinum\n,\nrespiratory distress\nPulmonary vasculature problems\nPulmonary artery stricture→\nhypoxia\nPulmonary venous anastomoses: vulnerable to kinking,\npulmonary embolism\n, and thromboses→\npulmonary edema\nRejection\nAcute/cellular rejection: clinically silent or nonspecific respiratory symptoms\nChronic rejection (bronchiolitis obliterans): leads to airflow limitation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Airway_complications": {
+      "text": "Anastomotic bronchial necrosis, dehiscence, or stenosis\nbronchial vasculature is disrupted during procedure, ergo:\ndonor bronchus reliant on retrograde pulmonary circulation for perfusion\nanastomoses vulnerable to ischemia\nmild cases may be asymptomatic\nmay lead to worsening respiratory symptoms,\npneumothorax\n,\npneumomediastinum\n, focal infections/abscess\nOcclusive granulation tissue\nAsymptomatic, or worsening\ncough\n,\nwheezing\n, post-obstructive pneumonia\nbronchial/tracheal stenosis, tracheobronchomalacia\ncough,\ndyspnea\n, difficulty clearing respiratory secretions, recurrent infections, wheezing,\nstridor\nbronchopleural, bronchomediastinal, or bronchovascular fisulae\ncan cause\npneumothorax\n,\nhypotension\n,\nmediastinitis\n,\npneumomediastinum\n,\nrespiratory distress\nPulmonary vasculature problems\nPulmonary artery stricture→\nhypoxia\nPulmonary venous anastomoses: vulnerable to kinking,\npulmonary embolism\n, and thromboses→\npulmonary edema\nRejection\nAcute/cellular rejection: clinically silent or nonspecific respiratory symptoms\nChronic rejection (bronchiolitis obliterans): leads to airflow limitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, BMP, tacrolimus/cyclosporine levels\nInfectious workup (including sputum and testing for opportunistic/atypical infections if indicated)\nCXR\n, CT Chest\nAdvanced/inpatient workup may include:\nBronchoscopy\nBiopsy\nAngiography or dopplers of pulmonary vasculature",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nImmunocompromised antibiotics\n,\npneumonia\n,\nsepsis\nSee\nPneumothorax\n,\nmediastinitis\n,\npneumomediastinum\nBronchoscopic debridement of necrotic, infected, or overly granulated anastomotic tissue may be needed\nSevere/symptomatic tracheobronchial stenosis may require stenting or resection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on complication, usually admit.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics\nPneumonia\n,\npneumothorax\n,\nmediastinitis\n,\npneumomediastinum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        }
+      ]
+    }
+  }
+}

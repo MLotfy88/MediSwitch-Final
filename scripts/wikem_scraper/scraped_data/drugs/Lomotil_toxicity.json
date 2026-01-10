@@ -1,0 +1,392 @@
+{
+  "drug_name": "Lomotil_toxicity",
+  "url": "https://wikem.org/wiki/Lomotil_toxicity",
+  "scraped_at": "2026-01-10T07:56:34.418725",
+  "sections": {
+    "Background": {
+      "text": "Mixture of\ndiphenoxylate/atropine\nused to treat diarrhea\nChildren are especially sensitive to toxicity (death reported after ingestion of <5 tablets)",
+      "subsections": {
+        "Mechanism_of_toxicity": {
+          "text": "Diphenoxylate\nOpioid\nanalog of\nmeperidine\n, which has opioid-like toxicity in overdose\nAtropine\nAnticholinergic effects\nToxic dose is variable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diphenoxylate/atropine",
+          "url": "https://wikem.org/wiki/Diphenoxylate/atropine"
+        },
+        {
+          "text": "Diphenoxylate",
+          "url": "https://wikem.org/wiki/Diphenoxylate"
+        },
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Mechanism_of_toxicity": {
+      "text": "Diphenoxylate\nOpioid\nanalog of\nmeperidine\n, which has opioid-like toxicity in overdose\nAtropine\nAnticholinergic effects\nToxic dose is variable",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenoxylate",
+          "url": "https://wikem.org/wiki/Diphenoxylate"
+        },
+        {
+          "text": "Opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Atropine effects\nLethargy\n,\nagitation\n, flushing, dry mucous membranes, mydriasis,\nileus\n,\ntachycardia\nOpioid effects\nMiosis,\ncoma\n, respiratory depression,\nrespiratory arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        },
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is based on history and signs of toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Maintain airway and support\nventilation\n, if needed\nNaloxone\n1-2mg IV for apnea, coma, or lethargy (may require repeat dosing)\nActivated charcoal\nshould be given promptly if available\nNo evidence for utility of\nphysostigmine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventilation",
+          "url": "https://wikem.org/wiki/Ventilation"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Pediatric patients should be observed in the ICU for 24 hours given risk of sudden respiratory arrest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid toxicity\nDiphenoxylate/atropine\nAnticholinergic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Diphenoxylate/atropine",
+          "url": "https://wikem.org/wiki/Diphenoxylate/atropine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose Clinical Manual. 2004",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

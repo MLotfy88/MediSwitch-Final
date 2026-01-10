@@ -1,0 +1,82 @@
+{
+  "drug_name": "Lymphadenopathy",
+  "url": "https://wikem.org/wiki/Lymphadenopathy",
+  "scraped_at": "2026-01-10T07:56:50.614784",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cervical_Lymphadenopathy": {
+          "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        }
+      ]
+    },
+    "Cervical_Lymphadenopathy": {
+      "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        }
+      ]
+    }
+  }
+}

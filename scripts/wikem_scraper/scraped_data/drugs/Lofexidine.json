@@ -1,0 +1,181 @@
+{
+  "drug_name": "Lofexidine",
+  "url": "https://wikem.org/wiki/Lofexidine",
+  "scraped_at": "2026-01-10T07:56:37.714290",
+  "sections": {
+    "Administration": {
+      "text": "Type: Central alpha\n2\nadrenergic agonist, opioid withdrawal\nDosage Forms: 0.18 mg tablets\nRoutes of Administration: oral\nCommon Trade Names: Lucemyra",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Opioid_Withdrawal": {
+          "text": "0.54 mg PO q6h during peak withdrawal symptoms\nDo not exceed 2.88 mg (16 tablets) per day\nDo not exceed 0.72 mg (4 tablets) in a single dose\nMay be continued for up to 14 days, gradually reduce dose over 2-4 days to mitigate Lofexidine withdrawal symptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Opioid_Withdrawal": {
+      "text": "0.54 mg PO q6h during peak withdrawal symptoms\nDo not exceed 2.88 mg (16 tablets) per day\nDo not exceed 0.72 mg (4 tablets) in a single dose\nMay be continued for up to 14 days, gradually reduce dose over 2-4 days to mitigate Lofexidine withdrawal symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Limited information",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "eGFR 30 to 90: 0.36 mg q6h\neGFR <30: 0.18 mg q6h\nESRD/HD: 0.18 mg q6h, minimally dialyzable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Mild impairment (Child-Pugh class A): no adjustment\nModerate impairment (Child-Pugh class B): 0.36 mg q6h\nSevere impairment (Child-Pugh class C): 0.18 mg q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Limited information",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "eGFR 30 to 90: 0.36 mg q6h\neGFR <30: 0.18 mg q6h\nESRD/HD: 0.18 mg q6h, minimally dialyzable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Mild impairment (Child-Pugh class A): no adjustment\nModerate impairment (Child-Pugh class B): 0.36 mg q6h\nSevere impairment (Child-Pugh class C): 0.18 mg q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "eGFR 30 to 90: 0.36 mg q6h\neGFR <30: 0.18 mg q6h\nESRD/HD: 0.18 mg q6h, minimally dialyzable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Mild impairment (Child-Pugh class A): no adjustment\nModerate impairment (Child-Pugh class B): 0.36 mg q6h\nSevere impairment (Child-Pugh class C): 0.18 mg q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "eGFR 30 to 90: 0.36 mg q6h\neGFR <30: 0.18 mg q6h\nESRD/HD: 0.18 mg q6h, minimally dialyzable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Mild impairment (Child-Pugh class A): no adjustment\nModerate impairment (Child-Pugh class B): 0.36 mg q6h\nSevere impairment (Child-Pugh class C): 0.18 mg q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Mild impairment (Child-Pugh class A): no adjustment\nModerate impairment (Child-Pugh class B): 0.36 mg q6h\nSevere impairment (Child-Pugh class C): 0.18 mg q6h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution with prior history or family history of long QT syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Torsades de pointes",
+          "tables": []
+        },
+        "Common": {
+          "text": "Orthostatic hypotension\nBradycardia\nDizziness\nSomnolence\nSedation\nInsomnia\nDry mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Torsades de pointes",
+      "subsections": {
+        "Common": {
+          "text": "Orthostatic hypotension\nBradycardia\nDizziness\nSomnolence\nSedation\nInsomnia\nDry mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Orthostatic hypotension\nBradycardia\nDizziness\nSomnolence\nSedation\nInsomnia\nDry mouth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 11 to 13 hours (first dose), 17 to 22 hours (steady state)\nMetabolism: First pass associated with gut absorption, hepatic via CYP2D6 (primary), CYP1A2, and CYP2C19\nExcretion: Urine (94%), Feces (1%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Centrally acting alpha2 agonist that decreases sympathetic output and symptoms of withdrawal\nThought to have less anti-hypertensive activity than Clonidine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Patient's may respond to lower opioid doses increasing risk of overdose\n0.18 mg tablet = $24.83",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    }
+  }
+}

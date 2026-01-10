@@ -1,0 +1,261 @@
+{
+  "drug_name": "Loperamide_toxicity",
+  "url": "https://wikem.org/wiki/Loperamide_toxicity",
+  "scraped_at": "2026-01-10T07:56:38.377258",
+  "sections": {
+    "Background": {
+      "text": "Loperamide\nis widely used nonprescription anti-diarrheal medication\nIncreasing reports of intentional overdose at very high doses either for euphoric effects or to attenuate symptoms of\nopioid withdrawal\n[1]\nHas a wide margin of safety, largely due to extremely low bioavailability (0.3%)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "opioid withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_withdrawal"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May have features of conventional\nopioid toxicity",
+      "subsections": {
+        "Loperamide-induced_cardiac_toxicity": {
+          "text": "Often young\nMay present in cardiac arrest or with recurrent\nsyncope\nin conjunction with\nECG\nagnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Loperamide-induced_cardiac_toxicity": {
+      "text": "Often young\nMay present in cardiac arrest or with recurrent\nsyncope\nin conjunction with\nECG\nagnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ECG_Findings": {
+          "text": "QT prolongation\nQRS widening\nVentricular dysrhythmias",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "ECG_Findings": {
+      "text": "QT prolongation\nQRS widening\nVentricular dysrhythmias",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care / standard\nACLS\nConsider:\nOverdrive pacing\nIntravenous lipid emulsion\nExtracorporeal membrane oxygenation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "Overdrive pacing",
+          "url": "https://wikem.org/wiki/Overdrive_pacing"
+        },
+        {
+          "text": "Intravenous lipid emulsion",
+          "url": "https://wikem.org/wiki/Intravenous_lipid_emulsion"
+        },
+        {
+          "text": "Extracorporeal membrane oxygenation",
+          "url": "https://wikem.org/wiki/Extracorporeal_membrane_oxygenation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Loperamide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        }
+      ]
+    }
+  }
+}

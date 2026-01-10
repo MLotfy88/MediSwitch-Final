@@ -1,0 +1,347 @@
+{
+  "drug_name": "Lupus_anticoagulant",
+  "url": "https://wikem.org/wiki/Lupus_anticoagulant",
+  "scraped_at": "2026-01-10T07:56:47.098187",
+  "sections": {
+    "Background": {
+      "text": "Misnomer as it is a prothrombotic agent in-vivo (anticoagulant in-vitro in the lab)\nMost patients do not actually have\nSLE\n(small proportion develop disease), but SLE patients more likely to develop lupus anticoagulant\nIncluded in\nantiphospholipid syndrome\n(APS), where there are directed antibodies against membrane anionic phospholipids, or their associated plasma proteins\nIncreases aPTT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "antiphospholipid syndrome",
+          "url": "https://wikem.org/wiki/Antiphospholipid_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Recurrent\narterial\n/\nvenous thromboembolism\nRecurrent\nfetal loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "arterial",
+          "url": "https://wikem.org/wiki/Arterial_thrombosis"
+        },
+        {
+          "text": "venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thrombosis"
+        },
+        {
+          "text": "fetal loss",
+          "url": "https://wikem.org/wiki/Miscarriage"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Thrombosis (e.g. extremity\nphlebitis\nor dural\nsinus vein thrombosis\n)\nHeparin\nIV/SQ followed by\nwarfarin\n+/-\nASA\nGoal INR\nVenous 2.0-3.0\nArterial 3.0\nRecurrent 3.0-4.0",
+      "subsections": {
+        "Pregnancy": {
+          "text": "Miscarriage\nis common\nProphylaxis for most women\nPatients with pregnancy loss\nProphylactic\nheparin\nand low-dose\nASA\nPatients with history of thrombosis\nTherapeutic\nheparin",
+          "tables": []
+        },
+        "Prophylaxis": {
+          "text": "Eliminate risk factors (OCPs, smoking, hypertension and HL)\nLow-dose\nASA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phlebitis",
+          "url": "https://wikem.org/wiki/Phlebitis"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Miscarriage",
+          "url": "https://wikem.org/wiki/Miscarriage"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "Pregnancy": {
+      "text": "Miscarriage\nis common\nProphylaxis for most women\nPatients with pregnancy loss\nProphylactic\nheparin\nand low-dose\nASA\nPatients with history of thrombosis\nTherapeutic\nheparin",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "Eliminate risk factors (OCPs, smoking, hypertension and HL)\nLow-dose\nASA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Miscarriage",
+          "url": "https://wikem.org/wiki/Miscarriage"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Eliminate risk factors (OCPs, smoking, hypertension and HL)\nLow-dose\nASA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        }
+      ]
+    }
+  }
+}

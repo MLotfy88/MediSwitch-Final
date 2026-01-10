@@ -1,0 +1,424 @@
+{
+  "drug_name": "Lymphadenitis",
+  "url": "https://wikem.org/wiki/Lymphadenitis",
+  "scraped_at": "2026-01-10T07:56:45.629503",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\nlymphangitis\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Lymphadenitis = inflammation of lymph node\nCan be single or multiple\nMost commonly due to\nviral\nor\nbacterial disease\n(usually\nstaph\nor\nstrep\n) infection local to region draining lymph to that node\nPyogenic organisms may cause suppurative infection/abscess\nNot to be confused with\nlymphangitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacterial disease",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain\nErythema\nEnlargement over time\nAssociated symptoms:\nFever\nLocal signs of infection depending on location of lymph node\nCervical\nURI\nsymptoms\nConjunctivitis\nMouth sores, dental infection\nAxillary\nBreast infections\nUpper-limb infections\nMesenteric\nAbdominal pain\n,\nnausea/vomiting\nInguinal\nGU infections\nLower-limb infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythema",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        },
+        "Cervical_Lymphadenopathy": {
+          "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        }
+      ]
+    },
+    "Lymphadenitis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        },
+        "Cervical_Lymphadenopathy": {
+          "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        }
+      ]
+    },
+    "Cervical_Lymphadenopathy": {
+      "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Usually clinical diagnosis\nIf associated exudative pharyngitis, consider Rapid GAS testing\nIf severe symptoms (ill-appearing, high fever), consider:\nBasic labs (CBC, BMP)\nBlood cultures\nESR/CRP may be helpful for monitoring course of infection/response to treatment\nUltrasound to evaluate for associate abscess or deep locations\nIf subacute/chronic, consider:\nCBC, BMP, ESR/CRP\nUric acid, LDH\nTuberculin skin test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Mild symptoms (well appearing, absent/low-grade fever, minimal tenderness)\nSerial exams, PMD follow-up\nPO Antibiotic treatment if associated GAS pharyngitis found\nModerate symptoms (fever, tenderness without fluctuance)\nEmpiric PO Antibiotic therapy that covers S. Aureus and GAS\nCephalexin\n500 mg PO QID x 10 days\nAmoxicillin-Clavulanate\n875 mg PO BID x 10 days\nClindamycin\n300-450 mg PO TID x 10 days\nConsider anaerobic coverage if found to have poor dentition or evidence of periodontal disease\nSevere symptoms (ill-appearing, fever, fluctuance or overlying cellulitis)\nIncision & Drainage or Needle Aspiration\nIV Antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Amoxicillin-Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally can be discharged with outpatient follow-up/treatment if mild/moderate symptoms\nAdmit for:\nSepsis\n/Severe symptoms requiring I&D or IV antibiotics\nFailure of outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Dulin MF, Kennard TP, Leach L, Williams R. Management of cervical lymphadenitis in children. Am Fam Physician 2008; 78:1097.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

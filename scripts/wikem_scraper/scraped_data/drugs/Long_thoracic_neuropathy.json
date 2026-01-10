@@ -1,0 +1,232 @@
+{
+  "drug_name": "Long_thoracic_neuropathy",
+  "url": "https://wikem.org/wiki/Long_thoracic_neuropathy",
+  "scraped_at": "2026-01-10T07:56:41.729708",
+  "sections": {
+    "Background": {
+      "text": "Motor nerve which originates from the C5/C6/C7 levels and innervates the serratus anterior\nDue to its long and relatively superficial course along the lateral aspect of the thorax it is more susceptible to injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Deficits are related to the weakness of the serratus anterior and subsequent \"winging\" of the scapula\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Parsonage-Turner syndrome\nDirect trauma or compression\nOveruse injuries",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Upper_extremity_peripheral_nerve_syndromes": {
+      "text": "",
+      "subsections": {
+        "Median_Nerve_Syndromes": {
+          "text": "Carpal tunnel syndrome\nPronator teres syndrome\nAnterior interosseous neuropathy",
+          "tables": []
+        },
+        "Ulnar_Nerve_Syndromes": {
+          "text": "Ulnar neuropathy",
+          "tables": []
+        },
+        "Radial_Nerve_Syndromes": {
+          "text": "Radial neuropathy at the spiral groove\n(ie. \"Saturday night palsy\")\nPosterior interosseous neuropathy",
+          "tables": []
+        },
+        "Proximal_Neuropathies": {
+          "text": "Suprascapular neuropathy\nLong thoracic neuropathy\nAxillary neuropathy\nSpinal accessory neuropathy\nMusculocutaneous neuropathy",
+          "tables": []
+        },
+        "Other": {
+          "text": "Brachial plexopathy\nParsonage-Turner syndrome\nCervical radiculopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal tunnel syndrome",
+          "url": "https://wikem.org/wiki/Median_Mononeuropathy_(Carpal_Tunnel_Syndrome)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Anterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Anterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Ulnar neuropathy",
+          "url": "https://wikem.org/wiki/Ulnar_neuropathy"
+        },
+        {
+          "text": "Radial neuropathy at the spiral groove",
+          "url": "https://wikem.org/wiki/Radial_neuropathy_at_the_spiral_groove"
+        },
+        {
+          "text": "Posterior interosseous neuropathy",
+          "url": "https://wikem.org/wiki/Posterior_interosseous_neuropathy"
+        },
+        {
+          "text": "Suprascapular neuropathy",
+          "url": "https://wikem.org/wiki/Suprascapular_neuropathy"
+        },
+        {
+          "text": "Axillary neuropathy",
+          "url": "https://wikem.org/wiki/Axillary_neuropathy"
+        },
+        {
+          "text": "Spinal accessory neuropathy",
+          "url": "https://wikem.org/wiki/Spinal_accessory_neuropathy"
+        },
+        {
+          "text": "Musculocutaneous neuropathy",
+          "url": "https://wikem.org/wiki/Musculocutaneous_neuropathy"
+        },
+        {
+          "text": "Brachial plexopathy",
+          "url": "https://wikem.org/wiki/Brachial_plexopathy"
+        },
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "To evaluate for winging have the patient press the affected arm against a wall; the inferior tip of the scapula should project from the thorax if positive",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "To evaluate for winging have the patient press the affected arm against a wall; the inferior tip of the scapula should project from the thorax if positive",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Varies depending on the underlying etiology of neuropathy\nNeuropathy secondary to\nParsonage-Turner syndrome\nimproves over the course of one to three years\nOveruse injuries should be managed by avoiding the precipitating movement(s) and avoid carrying significant weight over the shoulder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parsonage-Turner syndrome",
+          "url": "https://wikem.org/wiki/Parsonage-Turner_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient follow-up and physical therapy referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

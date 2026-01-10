@@ -1,0 +1,128 @@
+{
+  "drug_name": "Low_molecular_weight_heparin",
+  "url": "https://wikem.org/wiki/Low_molecular_weight_heparin",
+  "scraped_at": "2026-01-10T07:56:41.843083",
+  "sections": {
+    "Background": {
+      "text": "Class of\nanticoagulant\nmedications.\nDefined as heparin salts having an average molecular weight of less than 8000 Dalton\nLMWHs inhibit the coagulation process through binding to antithrombin which in turn inhibits activated factor X.\n[1]\nLMWH therapy is monitored by the anti-factor Xa assay (measures anti-factor Xa activity).\nCannot be acceptably measured using the partial thromboplastin time (PTT) or activated clotting time (ACT) tests.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "LMWH": "Bemiparin",
+            "Average molecular weight": "3600",
+            "Ratio anti-Xa/anti-IIa activity": "8.0"
+          },
+          {
+            "LMWH": "Nadroparin",
+            "Average molecular weight": "4300",
+            "Ratio anti-Xa/anti-IIa activity": "3.3"
+          },
+          {
+            "LMWH": "Reviparin",
+            "Average molecular weight": "4400",
+            "Ratio anti-Xa/anti-IIa activity": "4.2"
+          },
+          {
+            "LMWH": "Enoxaparin(Lovenox)",
+            "Average molecular weight": "4500",
+            "Ratio anti-Xa/anti-IIa activity": "3.9"
+          },
+          {
+            "LMWH": "Parnaparin",
+            "Average molecular weight": "5000",
+            "Ratio anti-Xa/anti-IIa activity": "2.3"
+          },
+          {
+            "LMWH": "Certoparin",
+            "Average molecular weight": "5400",
+            "Ratio anti-Xa/anti-IIa activity": "2.4"
+          },
+          {
+            "LMWH": "Dalteparin",
+            "Average molecular weight": "5000",
+            "Ratio anti-Xa/anti-IIa activity": "2.5"
+          },
+          {
+            "LMWH": "Tinzaparin",
+            "Average molecular weight": "6500",
+            "Ratio anti-Xa/anti-IIa activity": "1.6"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Differences_from_Unfractionated_heparin": {
+      "text": "Less frequent subcutaneous dosing\nOnce or twice daily subcutaneous injection for treatment of venous thromboembolism and in unstable angina instead of intravenous infusion of high dose heparin.\nNo need for monitoring of the aPTT coagulation parameter as required for high dose heparin.\n[2]\nPossibly a smaller risk of bleeding\nSmaller risk of osteoporosis in long-term use.\nSmaller risk of\nheparin-induced thrombocytopenia\n, a potential side effect of\nheparin\n.\nThe anticoagulant effects of heparin are typically reversible with\nprotamine sulfate\n, while protamine's effect on LMWH is limited.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin-induced thrombocytopenia",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "protamine sulfate",
+          "url": "https://wikem.org/wiki/Protamine_sulfate"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Deep venous thrombosis\nPulmonary embolism\nNon ST-Elevation Myocardial Infarction (NSTEMI)\nST-segment elevation myocardial infarction (STEMI)\nStroke (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Non ST-Elevation Myocardial Infarction (NSTEMI)",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "ST-segment elevation myocardial infarction (STEMI)",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction_(STEMI)"
+        },
+        {
+          "text": "Stroke (main)",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (main)\nUnfractionated heparin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        }
+      ]
+    }
+  }
+}

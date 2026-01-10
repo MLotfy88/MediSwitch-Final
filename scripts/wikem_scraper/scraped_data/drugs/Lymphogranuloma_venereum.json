@@ -1,0 +1,182 @@
+{
+  "drug_name": "Lymphogranuloma_venereum",
+  "url": "https://wikem.org/wiki/Lymphogranuloma_venereum",
+  "scraped_at": "2026-01-10T07:56:51.160352",
+  "sections": {
+    "Background": {
+      "text": "Cased by L1, L2, L3 serovars of\nChlamydia trachomatis\n[1]\nSexually transmitted\nOften co-infected with\nHIV\nMore common in tropical and sub-tropical climates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Incubation period 3-30 days\nStage 1 (Primary)\n: Self-limited\npainless\ngenital papule/ulcer (lasts ~2-3 days)\nSeen on coronal sulcus in men, posterior vaginal fourchette in women\nCan also occur in rectum (hemorrhagic proctitis), urethra, vagina\nStage 2 (Secondary)\n:\nPainful\ninguinal and/or femoral lymphadenopathy (2-6 weeks after primary lesion)\nLymph nodes become necrotic → suppurative → formation of buboes\nFluctuant lymph nodes classically form a \"groove sign\" when adenopathy extends above and below the inguinal ligament\nSystemic symptoms: fever, myalgia, malaise\nOccasionally - arthritis, ocular, cardiac, pulmonary, aseptic meningitis, hepatitis\nStage 3 (Tertiary)\n: Proctocolitis, anorectal syndrome\nUsually manifests in women or men who have sex with men\nRectal pain, discharge, bleeding\nCan also → fistula, abscess, strictures, megacolon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Nucleic Acid Amplification Tests (NAAT)\nImmunofluorescence\nCulture (needle aspiration of bubo)\nSerology\nConsider anoscopy\nAlso consider testing for\nHIV\nand other possible coinfections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Management_": {
+      "text": "Doxycycline\n100mg PO BID x 21 days (first choice)\nOR\nErythromycin\n500mg PO QID x 21 days\nOR\nPreferred for pregnant and lactating females\nAzithromycin 1g PO weekly for 3 weeks\nOR\nAlternative for pregnant women - poor evidence for this treatment currently\nTetracycline, Minocycline, or Moxifloxacin (x21 days) are also acceptable alternatives to Doxycycline\nTreat sexual partner\nDoxycycline\n100mg PO BID x 7 days\nOR\nAzithromycin\n1gm PO x1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nInstruct patient to abstain from sexual activities until completion of treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "STDs\nChlamydia trachomatis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        }
+      ]
+    }
+  }
+}

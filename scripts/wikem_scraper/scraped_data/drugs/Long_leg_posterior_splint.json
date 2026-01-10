@@ -1,0 +1,62 @@
+{
+  "drug_name": "Long_leg_posterior_splint",
+  "url": "https://wikem.org/wiki/Long_leg_posterior_splint",
+  "scraped_at": "2026-01-10T07:56:39.530251",
+  "sections": {
+    "Background": {
+      "text": "Also known as a \"posterior knee splint\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Temporary immobilization for knee injuries requiring rapid intervention, in the absence of commercial knee immobilizers.\nAngulated fractures\nPediatric femoral shaft fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\nStart just inferior to buttocks crease\nDown the posterior leg\nEnd approximately 6cm above the malleoli\nKey anatomic positions\nKnee should be kept at 5 degrees flexion\nFoot in slight plantarflexion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\nStart just inferior to buttocks crease\nDown the posterior leg\nEnd approximately 6cm above the malleoli\nKey anatomic positions\nKnee should be kept at 5 degrees flexion\nFoot in slight plantarflexion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nSplint course:\nStart just inferior to buttocks crease\nDown the posterior leg\nEnd approximately 6cm above the malleoli\nKey anatomic positions\nKnee should be kept at 5 degrees flexion\nFoot in slight plantarflexion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splints",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splints",
+          "url": "https://wikem.org/wiki/Splints"
+        }
+      ]
+    }
+  }
+}

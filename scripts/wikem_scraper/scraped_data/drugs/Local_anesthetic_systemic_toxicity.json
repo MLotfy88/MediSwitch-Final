@@ -1,0 +1,447 @@
+{
+  "drug_name": "Local_anesthetic_systemic_toxicity",
+  "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity",
+  "scraped_at": "2026-01-10T07:56:37.868123",
+  "sections": {
+    "Background": {
+      "text": "Acronym: LAST\nLife-threatening adverse reaction to local anesthetic toxicity.\nIncidence = ~0.2% of nerve blocks\nGenerally occurs within minutes of injection",
+      "subsections": {
+        "Causes": {
+          "text": "Injection of local anesthetic into systemic circulation\nMost common source of toxicity\n[2]\nIntravascular injection can cause toxicity below the maximum recommended dose\n[3]\nExceeding the maximum dose of local anesthetic (see table below)\nAbsorption of anesthetic into systemic circulation by injection into extremely vascular area.",
+          "tables": []
+        },
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Diphenhydramine_as_Local_Anesthetic": {
+          "text": "Injectable 1% diphenhydramine (10 mg/mL) can be used as a local anesthestic alternative to ester/amide anesthetics\n[4]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Injection of local anesthetic into systemic circulation\nMost common source of toxicity\n[2]\nIntravascular injection can cause toxicity below the maximum recommended dose\n[3]\nExceeding the maximum dose of local anesthetic (see table below)\nAbsorption of anesthetic into systemic circulation by injection into extremely vascular area.",
+      "subsections": {
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Diphenhydramine_as_Local_Anesthetic": {
+          "text": "Injectable 1% diphenhydramine (10 mg/mL) can be used as a local anesthestic alternative to ester/amide anesthetics\n[4]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Maximum_Doses_of_Anesthetic_Agents": {
+      "text": "",
+      "subsections": {
+        "Diphenhydramine_as_Local_Anesthetic": {
+          "text": "Injectable 1% diphenhydramine (10 mg/mL) can be used as a local anesthestic alternative to ester/amide anesthetics\n[4]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Agent": "Lidocaine",
+            "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+            "WithEpinephrine": "7 mg/kg (max 500mg)",
+            "Duration": "30-90 min",
+            "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+          },
+          {
+            "Agent": "Mepivicaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "8 mg/kg",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Bupivicaine",
+            "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+            "WithEpinephrine": "3 mg/kg (max 225mg)",
+            "Duration": "6-8 hr",
+            "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+          },
+          {
+            "Agent": "Ropivacaine",
+            "WithoutEpinephrine": "3 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Prilocaine",
+            "WithoutEpinephrine": "6 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Tetracaine",
+            "WithoutEpinephrine": "1 mg/kg",
+            "WithEpinephrine": "1.5 mg/kg",
+            "Duration": "3hrs (10hrs with epi)",
+            "Notes": ""
+          },
+          {
+            "Agent": "Procaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "10 mg/kg",
+            "Duration": "30min (90min with epi)",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Diphenhydramine_as_Local_Anesthetic": {
+      "text": "Injectable 1% diphenhydramine (10 mg/mL) can be used as a local anesthestic alternative to ester/amide anesthetics\n[4]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical course tends to be a dose-dependant progression from CNS symptoms to CVS symptoms and death\n[5]\nCNS symptoms\nAgitation\nAuditory changes/Tinnitus\nMetallic taste\nSlurred speech\nSeizures\nor drowsiness\nComa\nRespiratory arrest\nCardiovascular\n[1]\nEarly signs\nTachycardia\nVentricular\ndysrhythmia\nHypertension\nLate signs\nBradycardia\nConduction block\nCardiovascular collapse\nAsystole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Anaphylaxis\nAnxiety\nMethemoglobinemia\n- local anesthestics oxidize Fe2+ to Fe3+ in Hb",
+      "subsections": {
+        "Sodium_Channel_Blockade_Toxidrome": {
+          "text": "Phenothiazines\nAntihistamines\nSotalol\nTCAs\nAntipsychotics\nCocaine\nAnti-spasmodics, cyclobenzaprine\nChloroquine\nAnti-malarials\nClass Ia and Ic antiarrhythmics\nLocal anesthetic systemic toxicity\nVenlafaxine\ntoxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        }
+      ]
+    },
+    "Sodium_Channel_Blockade_Toxidrome": {
+      "text": "Phenothiazines\nAntihistamines\nSotalol\nTCAs\nAntipsychotics\nCocaine\nAnti-spasmodics, cyclobenzaprine\nChloroquine\nAnti-malarials\nClass Ia and Ic antiarrhythmics\nLocal anesthetic systemic toxicity\nVenlafaxine\ntoxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Workup": {
+          "text": "Directed by clinical picture\nBlood levels of anesthetic are available, but not clinically useful.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Directed by clinical picture\nBlood levels of anesthetic are available, but not clinically useful.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Aggressive supportive care (including\nairway management\n) and application of\nACLS\nVentilate with 100% FiO2 - bolus dose of 50-100mg IV\nsuccinylcholine\nparalyzes without depressing CNS or CV\n[6]\nHypercapnia, hypoxia, acidosis all worsen toxic effects\n[7]\nManage\nseizures\nwith\nbenzodiazepines\n;\npropofol\nis an option but may worsen cardiovascular toxicity\nTemporary pacing\nmay be required for\nsymptomatic bradycardia\nEarly activation of\nECMO\nor consideration for transfer to ECMO center as cardiac arrest is often refractory to\nACLS\n.\n1 amp of\nsodium bicarbonate\nIV q2 min for:\nVtach\nor\nVF\nSevere\nacidosis\nLipid emulsion\n, (Intralipid) 20% solution\n[7]\nLipid sink, binds to local anesthetic\n1.5 mL/kg bolus over 1 minute\nThen, 0.25 mL/kg/min for 20 min or until hemodynamic stability achieved\n↑ to 0.5 mL/kg/min if hemodynamic status declines\nMaximum total dose 12 mL/kg.\nConsider drawing extra blood as will interfere with labs\nACLS\nmodifications:\n[8]\nAvoid\nvasopressin\nAvoid\ncalcium-channel blockers\nand\nbeta-blockers\nAmiodarone\npreferred in\nventricular dysrhythmias",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "airway management",
+          "url": "https://wikem.org/wiki/Airway_management"
+        },
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Temporary pacing",
+          "url": "https://wikem.org/wiki/Temporary_pacing"
+        },
+        {
+          "text": "symptomatic bradycardia",
+          "url": "https://wikem.org/wiki/Symptomatic_bradycardia"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "VF",
+          "url": "https://wikem.org/wiki/VF"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Lipid emulsion",
+          "url": "https://wikem.org/wiki/Intralipid"
+        },
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Local anesthetics\nNerve blocks (main)\nLidocaine\nBupivicaine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        },
+        {
+          "text": "Nerve blocks (main)",
+          "url": "https://wikem.org/wiki/Nerve_blocks_(main)"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Bupivicaine",
+          "url": "https://wikem.org/wiki/Bupivicaine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Medscape:Local Anesthetic Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

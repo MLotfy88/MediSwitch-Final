@@ -1,0 +1,313 @@
+{
+  "drug_name": "Loperamide",
+  "url": "https://wikem.org/wiki/Loperamide",
+  "scraped_at": "2026-01-10T07:56:37.932556",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anti-diarrheal,\nopioid\nDosage Forms: 1mg, 2mg; 1/5 mL\nRoutes of Administration: PO\nCommon Trade Names: Imodium, Diamode, Imodium A-D, Imodium A-D EZ Chews, Imodium A-D New Formula, Kao-Paverin, Kaopectate 1-D",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Acute_Diarrhea": {
+          "text": "2mg PO per dose\nStart: 4mg PO x1, then 2mg PO after each loose stool; Max: 16mg/day",
+          "tables": []
+        },
+        "Chronic_Diarrhea": {
+          "text": "4-8mg/day PO divided QD-tid\nStart: 4mg PO x1, then 2mg PO after each loose stool until maint. dose established; Max: 16mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_Diarrhea": {
+      "text": "2mg PO per dose\nStart: 4mg PO x1, then 2mg PO after each loose stool; Max: 16mg/day",
+      "subsections": {
+        "Chronic_Diarrhea": {
+          "text": "4-8mg/day PO divided QD-tid\nStart: 4mg PO x1, then 2mg PO after each loose stool until maint. dose established; Max: 16mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_Diarrhea": {
+      "text": "4-8mg/day PO divided QD-tid\nStart: 4mg PO x1, then 2mg PO after each loose stool until maint. dose established; Max: 16mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Acute_diarrhea_2": {
+          "text": "2-5 yo, 13-20 kg\nDose: 1mg PO x1 after each loose stool\nMax: 3mg/day\nUse OTC 1mg/5 sol or 1mg/7.5 mL susp\n6-8 yo, 20-30 kg\nDose: start 2mg PO x1, then 1mg PO after each loose stool\nMax: 4mg/day\n8-11 yo, 30-40 kg\nDose: start 2mg PO x1, then 1mg PO after each loose stool\nMax: 6mg/day\n12 yo and older\nDose: start 4mg PO x1, then 2mg PO after each loose stool\nMax: 8mg/day",
+          "tables": []
+        },
+        "Chronic_diarrhea_2": {
+          "text": "0.08-0.24mg/kg/day PO divided bid-tid\nMax: 2mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_diarrhea_2": {
+      "text": "2-5 yo, 13-20 kg\nDose: 1mg PO x1 after each loose stool\nMax: 3mg/day\nUse OTC 1mg/5 sol or 1mg/7.5 mL susp\n6-8 yo, 20-30 kg\nDose: start 2mg PO x1, then 1mg PO after each loose stool\nMax: 4mg/day\n8-11 yo, 30-40 kg\nDose: start 2mg PO x1, then 1mg PO after each loose stool\nMax: 6mg/day\n12 yo and older\nDose: start 4mg PO x1, then 2mg PO after each loose stool\nMax: 8mg/day",
+      "subsections": {
+        "Chronic_diarrhea_2": {
+          "text": "0.08-0.24mg/kg/day PO divided bid-tid\nMax: 2mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_diarrhea_2": {
+      "text": "0.08-0.24mg/kg/day PO divided bid-tid\nMax: 2mg/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Probably safe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: Reduced first-pass metabolism\nCNS toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult/Pediatric: Reduced first-pass metabolism\nCNS toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult/Pediatric: Reduced first-pass metabolism\nCNS toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nIf given with:\npotassium acid phosphate\npotassium chloride\npotassium citrate\npotassium phosphate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Loperamide toxicity\ntoxic megacolon\nparalytic ileus\nangioedema\nanaphylaxis\n/anaphylactoid reaction\ntoxic epidermal necrolysis\nStevens-Johnson syndrome\nerythema multiforme\nurinary retention\nheat stroke",
+          "tables": []
+        },
+        "Common": {
+          "text": "constipation\nnausea\nabdominal cramps\ndizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "abdominal cramps",
+          "url": "https://wikem.org/wiki/Abdominal_cramps"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Loperamide toxicity\ntoxic megacolon\nparalytic ileus\nangioedema\nanaphylaxis\n/anaphylactoid reaction\ntoxic epidermal necrolysis\nStevens-Johnson syndrome\nerythema multiforme\nurinary retention\nheat stroke",
+      "subsections": {
+        "Common": {
+          "text": "constipation\nnausea\nabdominal cramps\ndizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "abdominal cramps",
+          "url": "https://wikem.org/wiki/Abdominal_cramps"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "constipation\nnausea\nabdominal cramps\ndizziness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "abdominal cramps",
+          "url": "https://wikem.org/wiki/Abdominal_cramps"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Half-life: 10.8h\nMetabolism: liver; CYP450: 2C8, 3A4 substrate; Info: P-gp substrate; 40% systemic absorption\nExcretion: feces 30%, urine <2%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "binds gut wall opioid receptor, inhibiting peristalsis; increases anal sphinctor tone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Loperamide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates: Loperamide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "drug_name": "Lymphoma",
+  "url": "https://wikem.org/wiki/Lymphoma",
+  "scraped_at": "2026-01-10T07:56:49.930938",
+  "sections": {
+    "Intro": {
+      "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nPrecursor B-cell Neoplasms\nMature B-cell Neoplasms\nPrecursor T and NK-cell Neoplasms\nMature T and NK-cell Neoplasms\nPrecursor B-cell Neoplasms\nMature B-cell Neoplasms\nPrecursor T and NK-cell Neoplasms\nMature T and NK-cell Neoplasms\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Leukemia\nOncologic emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Leukemia",
+          "url": "https://wikem.org/wiki/Acute_Leukemia"
+        },
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        }
+      ]
+    }
+  }
+}

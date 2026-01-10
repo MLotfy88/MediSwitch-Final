@@ -1,0 +1,339 @@
+{
+  "drug_name": "Liver_injury",
+  "url": "https://wikem.org/wiki/Liver_injury",
+  "scraped_at": "2026-01-10T07:56:37.095466",
+  "sections": {
+    "Background": {
+      "text": "Occurs in 5% of all traumas\nMost common abdominal injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "RUQ pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+          "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+          "tables": []
+        },
+        "American_Association_for_the_Surgery_of_Trauma_Grading_System": {
+          "text": "^Advance one grade for multiple injuries up to grade III",
+          "tables": [
+            [
+              {
+                "Grade^": "I",
+                "Hematoma": "Subcapsular: <10% surface area",
+                "Laceration": "Capsular tear: <1 cm in depth"
+              },
+              {
+                "Grade^": "II",
+                "Hematoma": "Subcapsular: 10-50% surface areaIntraparenchymal: <10 cm diameter",
+                "Laceration": "Capsular tear: 1-3 cm depth, <10 cm length1–3 cm"
+              },
+              {
+                "Grade^": "III",
+                "Hematoma": "Subcapsular: >50% surface area, or ruptured with active bleedingIntraparenchymal: >10 cm diameter",
+                "Laceration": "Capsular tear: >3 cm depth"
+              },
+              {
+                "Grade^": "IV",
+                "Hematoma": "Ruptured intraparenchymal with active bleeding",
+                "Laceration": "Parenchymal disruption involving 25-75% hepatic lobe or involves 1-3 Couinaud segments (within one lobe)"
+              },
+              {
+                "Grade^": "V",
+                "Hematoma": "Ruptured intraparenchymal with active bleeding",
+                "Laceration": "Parenchymal disruption involving >75% of hepatic lobe or involves >3 Couinaud segments (within one lobe)Juxtahepatic venous injuries (inferior vena cava, major hepatic vein)"
+              },
+              {
+                "Grade^": "VI",
+                "Hematoma": "",
+                "Laceration": "Hepatic avulsion"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        }
+      ]
+    },
+    "ATLS_Blunt_Abdominal_Trauma_Algorithm": {
+      "text": "Unstable\nFAST\nto search for free fluid (vs.\nDPL\nif unavailable)\nPositive: Exploratory laparotomy\nNegative: CT scan\nStable\nCT scan\nExploratory laparotomy, angiographic embolization, conservative management as indicated",
+      "subsections": {
+        "American_Association_for_the_Surgery_of_Trauma_Grading_System": {
+          "text": "^Advance one grade for multiple injuries up to grade III",
+          "tables": [
+            [
+              {
+                "Grade^": "I",
+                "Hematoma": "Subcapsular: <10% surface area",
+                "Laceration": "Capsular tear: <1 cm in depth"
+              },
+              {
+                "Grade^": "II",
+                "Hematoma": "Subcapsular: 10-50% surface areaIntraparenchymal: <10 cm diameter",
+                "Laceration": "Capsular tear: 1-3 cm depth, <10 cm length1–3 cm"
+              },
+              {
+                "Grade^": "III",
+                "Hematoma": "Subcapsular: >50% surface area, or ruptured with active bleedingIntraparenchymal: >10 cm diameter",
+                "Laceration": "Capsular tear: >3 cm depth"
+              },
+              {
+                "Grade^": "IV",
+                "Hematoma": "Ruptured intraparenchymal with active bleeding",
+                "Laceration": "Parenchymal disruption involving 25-75% hepatic lobe or involves 1-3 Couinaud segments (within one lobe)"
+              },
+              {
+                "Grade^": "V",
+                "Hematoma": "Ruptured intraparenchymal with active bleeding",
+                "Laceration": "Parenchymal disruption involving >75% of hepatic lobe or involves >3 Couinaud segments (within one lobe)Juxtahepatic venous injuries (inferior vena cava, major hepatic vein)"
+              },
+              {
+                "Grade^": "VI",
+                "Hematoma": "",
+                "Laceration": "Hepatic avulsion"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "DPL",
+          "url": "https://wikem.org/wiki/DPL"
+        }
+      ]
+    },
+    "American_Association_for_the_Surgery_of_Trauma_Grading_System": {
+      "text": "^Advance one grade for multiple injuries up to grade III",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade^": "I",
+            "Hematoma": "Subcapsular: <10% surface area",
+            "Laceration": "Capsular tear: <1 cm in depth"
+          },
+          {
+            "Grade^": "II",
+            "Hematoma": "Subcapsular: 10-50% surface areaIntraparenchymal: <10 cm diameter",
+            "Laceration": "Capsular tear: 1-3 cm depth, <10 cm length1–3 cm"
+          },
+          {
+            "Grade^": "III",
+            "Hematoma": "Subcapsular: >50% surface area, or ruptured with active bleedingIntraparenchymal: >10 cm diameter",
+            "Laceration": "Capsular tear: >3 cm depth"
+          },
+          {
+            "Grade^": "IV",
+            "Hematoma": "Ruptured intraparenchymal with active bleeding",
+            "Laceration": "Parenchymal disruption involving 25-75% hepatic lobe or involves 1-3 Couinaud segments (within one lobe)"
+          },
+          {
+            "Grade^": "V",
+            "Hematoma": "Ruptured intraparenchymal with active bleeding",
+            "Laceration": "Parenchymal disruption involving >75% of hepatic lobe or involves >3 Couinaud segments (within one lobe)Juxtahepatic venous injuries (inferior vena cava, major hepatic vein)"
+          },
+          {
+            "Grade^": "VI",
+            "Hematoma": "",
+            "Laceration": "Hepatic avulsion"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Nonoperative management is successful in >90% of patients who are hemodynamically stable\nLow-grade injuries (grades I–III) can almost always be managed without surgery\nHigher-grade injuries commonly fail nonoperative therapy.\nConsider angiographic embolization if:\nLarge amount of hemoperitoneum\nVascular injury (contrast blush) on CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Typically admission via OR, IR, or floor/ICU for conservative management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Trauma\nTrauma in Pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Trauma in Pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_Pregnancy"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "drug_name": "Liver_transplant_complications",
+  "url": "https://wikem.org/wiki/Liver_transplant_complications",
+  "scraped_at": "2026-01-10T07:56:32.435217",
+  "sections": {
+    "Background": {
+      "text": "2nd most frequently transplanted solid organ\nMay be from living or deceased donor\nMost common causes of liver failure necessitating transplant include hepatitis C or B infection, alcoholic\ncirrhosis\n, idiopathic/autoimmune liver disease, primary biliary cirrhosis, primary sclerosing cholangitis, and\nacute liver failure\n(e.g. drug/toxin induced, acute hepatitis, etc.)",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs/symptoms of infection\nFever\nand localizing symptoms may be blunted due to immunosupression\nGI bleed\nRUQ pain\n, especially with biliary complications\nNeurologic findings\nfocal neuro deficits\nor\naltered mental status\ndue to bleed, infarct, thrombosis, osmotic demyelination, abscess, etc.\nJaundice\nmay indicate rejection or biliary leak/stricture\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Most common problems in liver transplant patients involve:\nAcute graft rejection\n1 in 5 have rejection during first year, usually within <1 mo\nVascular thrombosis\nBiliary leak or stricture\nMalignancy (squamous cell carcinoma, lymphomas, post transplant lymphoproliferative disorder)\nAdverse effects of immunosuppressant drugs\n[1]",
+      "subsections": {
+        "Infections": {
+          "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infections": {
+      "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CBC\nInfection may cause leukocytosis or leukopenia\nLFTs\nElevated in biliary, vascular, and rejection complications\nBMP\nHyperglycemia\n, sodium, and potassium derangements not uncommon\nCoags\nTacrolimus/cyclosporine levels\nAdditional work up will depend on presentation, but may include:\nInfectious workup\nBlood and urine cultures\n+/- PCR and other studies for viral/fungal pathogens as indicated\nDiagnostic paracentesis if evidence of\nSBP\nAbdominal CT or\nultrasound\nwith doppler, if concern for rejection, biliary obstruction, or thrombosis\nBiliary complications may need ERCP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult transplant team\nHigh-dose\nsteroids\nfor rejection\nSee\nimmunocompromised antibiotics\nSee\nupper GI bleed\nSee\nSpontaneous Bacterial Peritonitis\nSee\nGraft-vs-host disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit in consultation with transplant team",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

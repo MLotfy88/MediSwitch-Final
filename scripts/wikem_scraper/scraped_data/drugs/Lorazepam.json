@@ -1,0 +1,101 @@
+{
+  "drug_name": "Lorazepam",
+  "url": "https://wikem.org/wiki/Lorazepam",
+  "scraped_at": "2026-01-10T07:56:38.672483",
+  "sections": {
+    "General": {
+      "text": "Type:\nBenzodiazepine\nDosage Forms: Tablet: 0.5, 1, 2 mg. IV solution: 2mg/ml, 4 mg/ml\nCommon Trade Names: Ativan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Active\nSeizure\n2mg IV or IM",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Seizure\n0.1 mg/kg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nLorazepam is present in breast milk\nRenal Dosing\nAdult\nPO: no adjustment necessary\nIV:\nMild to moderate impairment\nNo adjustment necessary\nSevere impairment\nUse not recommended\nPediatric\nPO: not defined\nIV:\nMild to moderate impairment\nNo adjustment necessary\nSevere impairment\nUse not recommended\nHepatic Dosing\nAdult\nPO:\nMild to moderate impairment: No adjustment necessary\nSevere impairment: May need lower doses, use caution\nIV:\nMild to moderate impairment: No adjustment necessary\nSevere impairment: Use not recommended\nPediatric\n≥ 12 years old: No adjustment necessary however use caution with severe hepatic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRespiratory depression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory depression\napnea\nhypotension\nparadoxical CNS stimulation",
+          "tables": []
+        },
+        "Common": {
+          "text": "sedation\nataxia\ndisinhibition\ndysarthria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Respiratory depression\napnea\nhypotension\nparadoxical CNS stimulation",
+      "subsections": {
+        "Common": {
+          "text": "sedation\nataxia\ndisinhibition\ndysarthria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "sedation\nataxia\ndisinhibition\ndysarthria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 10-20 hours\nMetabolism: liver\nExcretion: renal\nMechanism of Action: GABA receptor agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticonvulsants",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "drug_name": "Local_anesthetics",
+  "url": "https://wikem.org/wiki/Local_anesthetics",
+  "scraped_at": "2026-01-10T07:56:37.370675",
+  "sections": {
+    "Background": {
+      "text": "Am\ni\ndes have two \"i's\" (pr\ni\nlocaine, l\ni\ndocaine, etc)\nEsters have one \"i\" (tetracaine, procaine, benzocaine, etc)\nEster local anesthetics more likely to cause allergic reaction due to metabolite PABA\n[1]\nIf patient allergic to amides and esters, consider local\nDiphenhydramine\n(Na blocker)\n[2]\nSodium channel blocker mechanism\n1-2 mL of 1% diphenhydramine at a time, to not exceed excessive sedation dose\nTypical vial is 50 mg/mL, so to make 10 mg/mL:\n10 mL NS removed from 50 mL vial\nAdd 10 mL of 50 mg/mL diphenhydramine to 40 mL of NS\nSedation is dose related and is similar to what would be expected for IM doses\nRelative contraindications are the same for IM diphenhydramine administration",
+      "subsections": {
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Maximum_Doses_of_Anesthetic_Agents": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Lidocaine",
+            "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+            "WithEpinephrine": "7 mg/kg (max 500mg)",
+            "Duration": "30-90 min",
+            "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+          },
+          {
+            "Agent": "Mepivicaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "8 mg/kg",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Bupivicaine",
+            "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+            "WithEpinephrine": "3 mg/kg (max 225mg)",
+            "Duration": "6-8 hr",
+            "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+          },
+          {
+            "Agent": "Ropivacaine",
+            "WithoutEpinephrine": "3 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Prilocaine",
+            "WithoutEpinephrine": "6 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Tetracaine",
+            "WithoutEpinephrine": "1 mg/kg",
+            "WithEpinephrine": "1.5 mg/kg",
+            "Duration": "3hrs (10hrs with epi)",
+            "Notes": ""
+          },
+          {
+            "Agent": "Procaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "10 mg/kg",
+            "Duration": "30min (90min with epi)",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Side_Effects": {
+      "text": "CNS\nPerioral numbness\nSeizure\nCardiovascular\nAV blocks\nVT and VF\nAsystole\nAllergic reaction\nMethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Local Anesthetic Systemic Toxicity (LAST)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)",
+          "url": "https://wikem.org/wiki/Local_Anesthetic_Systemic_Toxicity_(LAST)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "drug_name": "Ludwig%27s_angina",
+  "url": "https://wikem.org/wiki/Ludwig%27s_angina",
+  "scraped_at": "2026-01-10T07:56:43.728470",
+  "sections": {
+    "Background": {
+      "text": "Bilateral infection of submental, submandibular, and sublingual spaces\nCellulitis\nwithout clear fluctuance/\nabscess\nshould heighten suspicion\n85% of cases arise from an odontogenic source, usually\nperiapical abscesses\nof mandibular molars\nSource of infection often polymicrobial, most commonly\nStrep\n,\nStaphylococcus\n, and\nBacteroides\nspecies\nPatients usually 20-60yr; male predominance\n[1]\nOften there is no lymphatic involvement and no\nabscess\nformation but infection rapidly spreads bilaterally",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "periapical abscesses",
+          "url": "https://wikem.org/wiki/Periapical_abscess"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Staphylococcus",
+          "url": "https://wikem.org/wiki/Staphylococcus"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Early_Signs": {
+          "text": "Dysphagia\nOdynophagia\nTrismus\nEdema of upper midline neck and floor of mouth\nRaised tongue\n\"Woody\" or brawny texture to floor of mouth with visible swelling and erythema",
+          "tables": []
+        },
+        "Late_signs": {
+          "text": "Stridor\nDrooling\nTongue protrusion\nTrismus\nDysphonia\nCyanosis\nAcute laryngospasm",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Carotid sheath infection\nIJ thrombophlebitis (\nLemierre's Disease\n)\nMediastinitis\nEmpyema\nPericardial effusion\nPleural effusion\nMandibular\nosteomyelitis\nSubphrenic\nabscess\nAspiration pneumonia\nCavernous sinus thrombosis\nBrain abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Lemierre's Disease",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Disease"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Aspiration pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Early_Signs": {
+      "text": "Dysphagia\nOdynophagia\nTrismus\nEdema of upper midline neck and floor of mouth\nRaised tongue\n\"Woody\" or brawny texture to floor of mouth with visible swelling and erythema",
+      "subsections": {
+        "Late_signs": {
+          "text": "Stridor\nDrooling\nTongue protrusion\nTrismus\nDysphonia\nCyanosis\nAcute laryngospasm",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Carotid sheath infection\nIJ thrombophlebitis (\nLemierre's Disease\n)\nMediastinitis\nEmpyema\nPericardial effusion\nPleural effusion\nMandibular\nosteomyelitis\nSubphrenic\nabscess\nAspiration pneumonia\nCavernous sinus thrombosis\nBrain abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Lemierre's Disease",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Disease"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Aspiration pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Late_signs": {
+      "text": "Stridor\nDrooling\nTongue protrusion\nTrismus\nDysphonia\nCyanosis\nAcute laryngospasm",
+      "subsections": {
+        "Complications": {
+          "text": "Carotid sheath infection\nIJ thrombophlebitis (\nLemierre's Disease\n)\nMediastinitis\nEmpyema\nPericardial effusion\nPleural effusion\nMandibular\nosteomyelitis\nSubphrenic\nabscess\nAspiration pneumonia\nCavernous sinus thrombosis\nBrain abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Lemierre's Disease",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Disease"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Aspiration pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Carotid sheath infection\nIJ thrombophlebitis (\nLemierre's Disease\n)\nMediastinitis\nEmpyema\nPericardial effusion\nPleural effusion\nMandibular\nosteomyelitis\nSubphrenic\nabscess\nAspiration pneumonia\nCavernous sinus thrombosis\nBrain abscess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lemierre's Disease",
+          "url": "https://wikem.org/wiki/Lemierre%27s_Disease"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Aspiration pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[2]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam.\nCT face with contrast will help delineate area of infection\nOnly necessary to obtain imaging if diagnosis is in question - imaging should not delay emergent airway management or transfer to OR for definitive care\nBe aware of possibility of respiratory distress/airway compromise with laying flat for CT scan\nCBC\nChem\nLactate\nBlood Cultures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Emergent ENT or OMFS consult for operative I&D and extraction of dentition if source is dental abscess",
+      "subsections": {
+        "Airway_Management": {
+          "text": "Intubation\nmay be very difficult due to trismus and posterior pharyngeal extension\nPreference for an awake fiberoptic\nintubation\n(ideally in OR if time allows) with setup immediately available for\ncricothyrotomy",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Must cover typical polymicrobial oral flora and tailored based on patient's immune status\nMost commonly a 3rd generation cehpalosporin + (clindamycin or metronidazole)\nIf the patient is immuncompromised, the antibiotics need to also cover MRSA and gram-negative rods\n[3]",
+          "tables": []
+        },
+        "Immunocompetent_Host": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV q6 hrs OR\nPenicillin G\n2-4 million units IV q6 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nClindamycin\n600 mg IV q6 hrs (option for those allergic to penicillin)",
+          "tables": []
+        },
+        "Immunocompromised": {
+          "text": "Cefepime\n2 g IV q12 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nMeropenem\n1 g IV q8 hrs OR\nImipenem/Cilastatin\n500mg (20mg/kg) IV q6 hours\nPiperacillin-tazobactam\n4.5g (80mg/kg) IV q6 hours\nAdd\nVancomycin\n15-20 mg/kg IV q8 hrs (max 2 g per dose) if concern for MRSA risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "cricothyrotomy",
+          "url": "https://wikem.org/wiki/Cricothyrotomy"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Airway_Management": {
+      "text": "Intubation\nmay be very difficult due to trismus and posterior pharyngeal extension\nPreference for an awake fiberoptic\nintubation\n(ideally in OR if time allows) with setup immediately available for\ncricothyrotomy",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Must cover typical polymicrobial oral flora and tailored based on patient's immune status\nMost commonly a 3rd generation cehpalosporin + (clindamycin or metronidazole)\nIf the patient is immuncompromised, the antibiotics need to also cover MRSA and gram-negative rods\n[3]",
+          "tables": []
+        },
+        "Immunocompetent_Host": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV q6 hrs OR\nPenicillin G\n2-4 million units IV q6 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nClindamycin\n600 mg IV q6 hrs (option for those allergic to penicillin)",
+          "tables": []
+        },
+        "Immunocompromised": {
+          "text": "Cefepime\n2 g IV q12 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nMeropenem\n1 g IV q8 hrs OR\nImipenem/Cilastatin\n500mg (20mg/kg) IV q6 hours\nPiperacillin-tazobactam\n4.5g (80mg/kg) IV q6 hours\nAdd\nVancomycin\n15-20 mg/kg IV q8 hrs (max 2 g per dose) if concern for MRSA risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "cricothyrotomy",
+          "url": "https://wikem.org/wiki/Cricothyrotomy"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Must cover typical polymicrobial oral flora and tailored based on patient's immune status\nMost commonly a 3rd generation cehpalosporin + (clindamycin or metronidazole)\nIf the patient is immuncompromised, the antibiotics need to also cover MRSA and gram-negative rods\n[3]",
+      "subsections": {
+        "Immunocompetent_Host": {
+          "text": "Ampicillin/Sulbactam\n3g (50mg/kg) IV q6 hrs OR\nPenicillin G\n2-4 million units IV q6 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nClindamycin\n600 mg IV q6 hrs (option for those allergic to penicillin)",
+          "tables": []
+        },
+        "Immunocompromised": {
+          "text": "Cefepime\n2 g IV q12 hrs +\nMetronidazole\n500 mg IV q6 hrs OR\nMeropenem\n1 g IV q8 hrs OR\nImipenem/Cilastatin\n500mg (20mg/kg) IV q6 hours\nPiperacillin-tazobactam\n4.5g (80mg/kg) IV q6 hours\nAdd\nVancomycin\n15-20 mg/kg IV q8 hrs (max 2 g per dose) if concern for MRSA risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit, usually ICU for airway monitoring",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Peritonsillar Abscess (PTA)\nRetropharyngeal abscess\nSore throat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "drug_name": "Lopinavir",
+  "url": "https://wikem.org/wiki/Lopinavir",
+  "scraped_at": "2026-01-10T07:56:41.439079",
+  "sections": {
+    "Background": {
+      "text": "Lopinavir is usually given in combination with ritonavir for both treatment of HIV and HIV post-exposure prophylaxis. It is currently being studied in the use of COVID-19 as well.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type:\nantiviral\nDosage Forms: 100 mg/25 mg, 200 mg/50 mg (tabs); 400 mg/100 mg per 5 mL solution\nRoutes of Administration: PO\nCommon Trade Names: Kaletra (lopinavir/ritonavir)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "HIV\ntreatment\n400 mg/100 mg PO BID\nDose will need to be increased when used in combination with other\nHIV\nmedications\nHIV post-exposure prophylaxis\n400 mg/100 mg PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "HIV\ntreatment\n14 days-12 months old: 16mg/5mg/kg PO BID (solution)\n13 months and older, <15 kg:\nTreatment-naive: 12 mg/3 mg/kg PO BID (solution)\nTreatment-experienced: 13 mg/3.25 mg/kg PO BID (solution)\n13 months and older, 15-45 kg: 11 mg/2.75 mg/kg PO BID (solution)\n13 months and older, >45 kg: 400 mg/100 mg PO BID (solution)\nHIV post-exposure prophylaxis\n14 days-12 months old: 16 mg/4 mg/kg PO BID (solution)\n13 months and older, <15 kg: 12 mg/2 mg/kg PO BID (solution)\n13 months and older, 15-40 kg: 10 mg/2.5 mg/kg PO BID (solution)\n13 months and older, >40 kg: 400 mg/100 mg PO BID (solution)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Safe to use in pregnancy (avoid oral solution due to alcohol content)",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, caution advised in hepatic impairment\nPediatric: Not defined, caution advised in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Safe to use in pregnancy (avoid oral solution due to alcohol content)",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, caution advised in hepatic impairment\nPediatric: Not defined, caution advised in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Avoid breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, caution advised in hepatic impairment\nPediatric: Not defined, caution advised in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, caution advised in hepatic impairment\nPediatric: Not defined, caution advised in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined, caution advised in hepatic impairment\nPediatric: Not defined, caution advised in hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNeonates <14 days old\nLong QT syndrome\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "QT prolongation/\nTorsade de pointes\nPR prolongation/AV block\nHyperglycemia/\ndiabetes mellitus\nHypercholesterolemia/hypertriglyceridemia\nPancreatitis\nRenal failure\nHepatotoxicity\nAngioedema\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nImmune reconstitution syndrome\nAutoimmune disorders\nHypertension\nSyncope\nOrthostatic hypotension\nMyopathy\nThrombocytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsade de pointes",
+          "url": "https://wikem.org/wiki/Torsade_de_pointes"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Immune reconstitution syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Orthostatic hypotension",
+          "url": "https://wikem.org/wiki/Orthostatic_hypotension"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Dysgeusia",
+          "url": "https://wikem.org/wiki/Dysgeusia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "QT prolongation/\nTorsade de pointes\nPR prolongation/AV block\nHyperglycemia/\ndiabetes mellitus\nHypercholesterolemia/hypertriglyceridemia\nPancreatitis\nRenal failure\nHepatotoxicity\nAngioedema\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nImmune reconstitution syndrome\nAutoimmune disorders\nHypertension\nSyncope\nOrthostatic hypotension\nMyopathy\nThrombocytopenia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsade de pointes",
+          "url": "https://wikem.org/wiki/Torsade_de_pointes"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Immune reconstitution syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Orthostatic hypotension",
+          "url": "https://wikem.org/wiki/Orthostatic_hypotension"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Dysgeusia",
+          "url": "https://wikem.org/wiki/Dysgeusia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysgeusia",
+          "url": "https://wikem.org/wiki/Dysgeusia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-6 hr\nMetabolism: Liver (CYP450)\nExcretion: Fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to active site of HIV protease, preventing maturation of the virus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "A trial of lopinavir/ritonavir is currently being done to study use in COVID-19. So far, studies have not shown significant benefit in time to clinical improvement. Mortality at 28 days is lower but not statistically significant.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "HIV\nRitonavir\nCoronavirus\nCOVID-19",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Ritonavir",
+          "url": "https://wikem.org/wiki/Ritonavir"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    }
+  }
+}

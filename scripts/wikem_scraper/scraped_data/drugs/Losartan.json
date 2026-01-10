@@ -1,0 +1,236 @@
+{
+  "drug_name": "Losartan",
+  "url": "https://wikem.org/wiki/Losartan",
+  "scraped_at": "2026-01-10T07:56:42.266382",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntihypertensive\n,\nARB\nDosage Forms: Tablet; 25mg, 50mg, 100mg\nRoutes of Administration: oral\nCommon Trade Names: Cozaar",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive",
+          "url": "https://wikem.org/wiki/Antihypertensive"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "25-150mg PO daily\nOccasionally outpatient will prescribe BID dosing of losartan for potential continuous BP control (or\nlisinopril\n)\n2020 large scale Kaiser study concluded no increased efficacy\nThere is potential for risk for AKI and hyperkalemia with lisinopril, but not losartan -- hypotension was not investigated\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "25-150mg PO daily\nOccasionally outpatient will prescribe BID dosing of losartan for potential continuous BP control (or\nlisinopril\n)\n2020 large scale Kaiser study concluded no increased efficacy\nThere is potential for risk for AKI and hyperkalemia with lisinopril, but not losartan -- hypotension was not investigated\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "0.1 to 1.4 mg/kg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: starting dose 25mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcomitant use with\naliskiren\nin diabetes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aliskiren",
+          "url": "https://wikem.org/wiki/Aliskiren"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Acute kidney injury\nRhabdomyolysis\nSyncope\nStroke\nAngioedema",
+          "tables": []
+        },
+        "Common": {
+          "text": "Backache\nDizziness\nCough\n,\nURI\nsymptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Backache",
+          "url": "https://wikem.org/wiki/Backache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Acute kidney injury\nRhabdomyolysis\nSyncope\nStroke\nAngioedema",
+      "subsections": {
+        "Common": {
+          "text": "Backache\nDizziness\nCough\n,\nURI\nsymptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute kidney injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Backache",
+          "url": "https://wikem.org/wiki/Backache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Backache\nDizziness\nCough\n,\nURI\nsymptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Backache",
+          "url": "https://wikem.org/wiki/Backache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-6 hours\nMetabolism: Hepatic;\nP450\nCYP2C9 and CYP3A4\nExcretion: Fecal, renal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "P450",
+          "url": "https://wikem.org/wiki/P450"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversible angiotensin II inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nAngiotensin II receptor antagonists",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Angiotensin II receptor antagonists",
+          "url": "https://wikem.org/wiki/Angiotensin_II_receptor_antagonists"
+        }
+      ]
+    }
+  }
+}
