@@ -1,0 +1,66 @@
+{
+  "drug_name": "Cyproheptadine",
+  "url": "https://wikem.org/wiki/Cyproheptadine",
+  "scraped_at": "2026-01-10T03:11:41.868359",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "initial dose of 12mg is recommended, followed by 2mg every two hours until clinical response is seen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Children younger than two years can be given approximately 0.06mg/kg per dose every six hours, if needed (not to exceed 0.25mg/kg/day).\nChildren two to six years can be given 2mg every six hours, if needed (not to exceed 12mg/day).\nChildren 7 to 14 years can be given 4mg every six hours, if needed (not to exceed 16mg/day).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No recommendations",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No recommendations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nTreatment in newborns or nursing mothers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sedation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-4 hours\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

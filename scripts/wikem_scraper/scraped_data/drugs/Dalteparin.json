@@ -1,0 +1,61 @@
+{
+  "drug_name": "Dalteparin",
+  "url": "https://wikem.org/wiki/Dalteparin",
+  "scraped_at": "2026-01-10T03:12:26.619104",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "PE/DVT treatment: 200 units/kg SC q24h, max 18,000 units\nVTE prophylaxis: 2500-5000 units subQ daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established\nPE/DVT treatment: 129 +/- 43 units/kg subQ daily, adjust dose to goal anti-Xa activity 0.5-1 unit/mL 4-6 hours after injection\nVTE prophylaxis: 92 +/- 52 units/kg subQ daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nActive major bleeding\nHistory of heparin-induced thrombocytopenia\nUse for VTE prophylaxis or to treat NSTEMI/UA in patients undergoing neuraxial or epidural anesthesia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Major bleeding: epidural hematoma, spinal hematoma, intracranial hemorrhage, subdural hemorrhage, hemorrhagic stroke, intrauterine hemorrhage\nThrombocytopenia\nParalysis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Injection site hematoma, pain, irritation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-5h\nMetabolism:\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

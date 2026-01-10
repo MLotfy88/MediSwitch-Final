@@ -1,0 +1,41 @@
+{
+  "drug_name": "D25W",
+  "url": "https://wikem.org/wiki/D25W",
+  "scraped_at": "2026-01-10T03:11:48.209319",
+  "sections": {
+    "General": {
+      "text": "Type:\nDextrose-based products\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dextrose-based products",
+          "url": "https://wikem.org/wiki/Dextrose-based_products"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:\nLactation:\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

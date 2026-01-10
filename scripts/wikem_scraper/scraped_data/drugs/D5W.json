@@ -1,0 +1,160 @@
+{
+  "drug_name": "D5W",
+  "url": "https://wikem.org/wiki/D5W",
+  "scraped_at": "2026-01-10T03:12:00.897926",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "D5W supplies 170 kcal/L (50 g/L Dextrose) or roughly 510/kcal/day at 125 mL/h\nSee\nIntravenous fluid therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravenous fluid therapy",
+          "url": "https://wikem.org/wiki/Intravenous_fluid_therapy"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "See\nIntravenous fluid therapy (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravenous fluid therapy (peds)",
+          "url": "https://wikem.org/wiki/Intravenous_fluid_therapy_(peds)"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {
+        "Composition_of_Different_Intravenous_Fluids": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Fluid[1]": "Plasma",
+                "Osm": "289",
+                "Na": "140",
+                "Cl": "103",
+                "Glucose(g/L)": "",
+                "pH": "7.4",
+                "Buffer": "HCO3 22-32",
+                "K": "4",
+                "Ca": "5",
+                "Mg": "2"
+              },
+              {
+                "Fluid[1]": "Normal Saline (NS)",
+                "Osm": "308",
+                "Na": "154",
+                "Cl": "154",
+                "Glucose(g/L)": "0",
+                "pH": "5.0",
+                "Buffer": "0",
+                "K": "0",
+                "Ca": "0",
+                "Mg": "0"
+              },
+              {
+                "Fluid[1]": "D5NS",
+                "Osm": "560",
+                "Na": "154",
+                "Cl": "154",
+                "Glucose(g/L)": "50",
+                "pH": "",
+                "Buffer": "",
+                "K": "0",
+                "Ca": "0",
+                "Mg": "0"
+              },
+              {
+                "Fluid[1]": "Lactated Ringers",
+                "Osm": "273",
+                "Na": "130",
+                "Cl": "109",
+                "Glucose(g/L)": "0",
+                "pH": "6.5",
+                "Buffer": "Lactate 28",
+                "K": "4",
+                "Ca": "3",
+                "Mg": "0"
+              },
+              {
+                "Fluid[1]": "Plasmalyte",
+                "Osm": "295",
+                "Na": "140",
+                "Cl": "98",
+                "Glucose(g/L)": "0",
+                "pH": "5.0",
+                "Buffer": "Gluconate 23/Acetate 27",
+                "K": "5",
+                "Ca": "0",
+                "Mg": "3"
+              },
+              {
+                "Fluid[1]": "D5 1/2NS",
+                "Osm": "406",
+                "Na": "77",
+                "Cl": "77",
+                "Glucose(g/L)": "500",
+                "pH": "4.5",
+                "Buffer": "0",
+                "K": "0",
+                "Ca": "0",
+                "Mg": "0"
+              },
+              {
+                "Fluid[1]": "D5W",
+                "Osm": "252",
+                "Na": "0",
+                "Cl": "0",
+                "Glucose(g/L)": "50",
+                "pH": "",
+                "Buffer": "",
+                "K": "",
+                "Ca": "",
+                "Mg": ""
+              },
+              {
+                "Fluid[1]": "5% Albumin",
+                "Osm": "309",
+                "Na": "130-160",
+                "Cl": "130-160",
+                "Glucose(g/L)": "",
+                "pH": "6.4-7.4",
+                "Buffer": "",
+                "K": "<1",
+                "Ca": "",
+                "Mg": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    }
+  }
+}
